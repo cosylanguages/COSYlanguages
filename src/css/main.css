@@ -132,7 +132,7 @@ label {
 
 .practice-options {
     width: 100%; 
-    display: flex;
+    display: none; /* Hide by default, JS will show them */
     flex-direction: column; 
     align-items: center; 
 }
