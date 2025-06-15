@@ -21,7 +21,7 @@
             <span id="level-display" style="margin-right: 20px;">Level: 1</span>
             <span id="streak-display">Streak: 0</span>
         </div>
-        
+
         <div id="main-menu"> <!-- Added a wrapper for main menu sections -->
             <div class="menu-section">
                 <label for="language">🌎 Choose Your Language:</label>
@@ -109,7 +109,7 @@
                         <button id="storytelling-btn" class="btn-secondary option-btn" aria-label="Storytelling" title="Storytelling" role="button">📜 Storytelling</button>
                         <button id="diary-btn" class="btn-secondary option-btn" aria-label="Diary" title="Diary" role="button">📔 Diary</button>
                     </div>
-                </div>  
+                </div>
             </div>
         </div>
         <!-- Review Section -->
@@ -161,82 +161,6 @@
         // Show Practice All button on load
         const practiceAllBtn = document.getElementById('practice-all-btn');
         practiceAllBtn.style.display = 'block';
-
-        // The following block (main button click handlers) has been removed:
-        // Add click handlers to main menu buttons to show/hide options
-        /* vocabularyBtn.addEventListener('click', function() {
-            if (vocabularyOptions.style.display === 'block') {
-                goBackToMainMenu(); // Hide options, show main menu
-            } else {
-                vocabularyOptions.style.display = 'block';
-                grammarOptions.style.display = 'none';
-                readingOptions.style.display = 'none';
-                speakingOptions.style.display = 'none';
-                writingOptions.style.display = 'none';
-                practiceAllBtn.style.display = 'none';
-                hideOtherMainPracticeTypes('vocabulary-btn'); // Hide other main buttons
-            }
-        });
-        grammarBtn.addEventListener('click', function() {
-            if (grammarOptions.style.display === 'block') {
-                goBackToMainMenu();
-            } else {
-                vocabularyOptions.style.display = 'none';
-                grammarOptions.style.display = 'block';
-                readingOptions.style.display = 'none';
-                speakingOptions.style.display = 'none';
-                writingOptions.style.display = 'none';
-                practiceAllBtn.style.display = 'none';
-                hideOtherMainPracticeTypes('grammar-btn');
-            }
-        });
-        readingBtn.addEventListener('click', function() {
-            if (readingOptions.style.display === 'block') {
-                goBackToMainMenu();
-            } else {
-                vocabularyOptions.style.display = 'none';
-                grammarOptions.style.display = 'none';
-                readingOptions.style.display = 'block';
-                speakingOptions.style.display = 'none';
-                writingOptions.style.display = 'none';
-                practiceAllBtn.style.display = 'none';
-                hideOtherMainPracticeTypes('reading-btn');
-            }
-        });
-        speakingBtn.addEventListener('click', function() {
-            if (speakingOptions.style.display === 'block') {
-                goBackToMainMenu();
-            } else {
-                vocabularyOptions.style.display = 'none';
-                grammarOptions.style.display = 'none';
-                readingOptions.style.display = 'none';
-                speakingOptions.style.display = 'block';
-                writingOptions.style.display = 'none';
-                practiceAllBtn.style.display = 'none';
-                hideOtherMainPracticeTypes('speaking-btn');
-            }
-        });
-        writingBtn.addEventListener('click', function() {
-            if (writingOptions.style.display === 'block') {
-                goBackToMainMenu();
-            } else {
-                vocabularyOptions.style.display = 'none';
-                grammarOptions.style.display = 'none';
-                readingOptions.style.display = 'none';
-                speakingOptions.style.display = 'none';
-                writingOptions.style.display = 'block';
-                practiceAllBtn.style.display = 'none';
-                hideOtherMainPracticeTypes('writing-btn');
-            }
-        });
-        practiceAllBtn.addEventListener('click', function() {
-            vocabularyOptions.style.display = 'none';
-            grammarOptions.style.display = 'none';
-            readingOptions.style.display = 'none';
-            speakingOptions.style.display = 'none';
-            writingOptions.style.display = 'none';
-            practiceAllBtn.style.display = 'block';
-        }); */
 
 // Show all main practice types
 function showAllMainPracticeTypes() {
@@ -309,7 +233,7 @@ function hideOtherMainPracticeTypes(selectedId) {
 
         // Helper: go back to main menu
         function goBackToMainMenu() {
-            showAllMainPracticeTypes();
+            showAllMainPracticeTypes(); // Ensures all main practice buttons are visible
             showAllVocabularyOptions && showAllVocabularyOptions();
             showAllGrammarOptions && showAllGrammarOptions();
             showAllReadingOptions && showAllReadingOptions();
@@ -320,9 +244,10 @@ function hideOtherMainPracticeTypes(selectedId) {
             if (readingOptions) readingOptions.style.display = 'none';
             if (speakingOptions) speakingOptions.style.display = 'none';
             if (writingOptions) writingOptions.style.display = 'none';
-            if (practiceAllBtn) practiceAllBtn.style.display = 'block';
+            if (practiceAllBtn) practiceAllBtn.style.display = 'block'; // Ensure practice all is visible
             if (document.getElementById('result')) document.getElementById('result').innerHTML = '';
-            showPracticeAllButtons();
+            // Changed showPracticeAllButtons(); to showAllMainPracticeTypes();
+            showAllMainPracticeTypes(); // Call it again to ensure correct state if practiceAllBtn was hidden by other logic
         }
 
         // Change background flag on language select
@@ -338,7 +263,7 @@ function hideOtherMainPracticeTypes(selectedId) {
                 document.body.classList.add('flag-' + lang);
             }
         });
-    
+
         // On page load, set UI to default language
         updateUIForLanguage(document.getElementById('language').value || 'COSYenglish');
 
@@ -409,9 +334,9 @@ if (statsContainer && !document.getElementById('reset-progress-btn')) {
     <script src="src/js/ui/ui-visibility.js"></script>
     <script src="src/js/exercises/vocabulary_buttons.js"></script>
     <script src="src/js/exercises/grammar.js"></script>
-    <script src="src/js/exercises/speaking.js"></script> 
+    <script src="src/js/exercises/speaking.js"></script>
     <script src="src/js/exercises/writing.js"></script>
-    <script src="src/js/exercises/reading.js"></script> 
+    <script src="src/js/exercises/reading.js"></script>
     <script src="src/js/buttons.js"></script>
     <script src="src/js/language-handler.js"></script>
     <script src="src/js/event-listeners-setup.js"></script>

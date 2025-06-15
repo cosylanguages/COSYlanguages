@@ -2,8 +2,8 @@ import AudioFeedback from './audio-feedback.js';
 // Event Listeners Setup (Core Logic)
 
 // Placeholder stub for updateGrammarOptions
-function updateGrammarOptions() { 
-    console.log("DEBUG: updateGrammarOptions called (stub)"); 
+function updateGrammarOptions() {
+    console.log("DEBUG: updateGrammarOptions called (stub)");
 }
 
 function populateDaysDropdowns() {
@@ -11,7 +11,25 @@ function populateDaysDropdowns() {
     const dayFromSelect = document.getElementById('day-from');
     const dayToSelect = document.getElementById('day-to');
 
+    console.log('[Debug] populateDaysDropdowns: Attempting to find select elements.');
+    if (daySelect) {
+        console.log('[Debug] populateDaysDropdowns: daySelect element found.');
+    } else {
+        console.error('[Debug] populateDaysDropdowns: daySelect element NOT found.');
+    }
+    if (dayFromSelect) {
+        console.log('[Debug] populateDaysDropdowns: dayFromSelect element found.');
+    } else {
+        console.error('[Debug] populateDaysDropdowns: dayFromSelect element NOT found.');
+    }
+    if (dayToSelect) {
+        console.log('[Debug] populateDaysDropdowns: dayToSelect element found.');
+    } else {
+        console.error('[Debug] populateDaysDropdowns: dayToSelect element NOT found.');
+    }
+
     if (daySelect && dayFromSelect && dayToSelect) {
+        console.log('[Debug] populateDaysDropdowns: All select elements found. Starting to populate days.');
         for (let i = 1; i <= 30; i++) {
             const option = document.createElement('option');
             option.value = i;
@@ -19,24 +37,40 @@ function populateDaysDropdowns() {
             daySelect.appendChild(option.cloneNode(true));
             dayFromSelect.appendChild(option.cloneNode(true));
             dayToSelect.appendChild(option.cloneNode(true));
+            console.log(`[Debug] populateDaysDropdowns: Populated Day ${i}`);
         }
+        console.log('[Debug] populateDaysDropdowns: Finished populating days.');
+    } else {
+        console.error('[Debug] populateDaysDropdowns: Not all select elements were found. Days cannot be populated.');
     }
 }
 
 function initializeEventListeners() {
-    console.log("DEBUG: initializeEventListeners called");
+    console.log("DEBUG: initializeEventListeners called"); // Ensure this is still here
 
     populateDaysDropdowns();
 
     // restoreUserSelection is expected to be global (from index.html)
-    restoreUserSelection(); 
+    if (typeof restoreUserSelection === 'function') {
+        restoreUserSelection();
+    } else {
+        console.warn('[Debug] restoreUserSelection function not found.');
+    }
 
     // From ui-visibility.js
-    goBackToMainMenu(); 
+    if (typeof goBackToMainMenu === 'function') {
+        goBackToMainMenu();
+    } else {
+        console.warn('[Debug] goBackToMainMenu function not found.');
+    }
 
     // From ui-visibility.js (or index.html if not moved)
-    updateDaySelectors(); 
-    
+    if (typeof updateDaySelectors === 'function') {
+        updateDaySelectors();
+    } else {
+        console.warn('[Debug] updateDaySelectors function not found.');
+    }
+
     const languageSelectElement = document.getElementById('language');
     const daySelectElement = document.getElementById('day');
     const dayFromSelectElement = document.getElementById('day-from');
@@ -82,8 +116,8 @@ function initializeEventListeners() {
             selector.addEventListener('change', function() {
                 AudioFeedback.playSelectSound();
                 // from ui-visibility.js or index.html
-                updateDaySelectors(); 
-                
+                updateDaySelectors();
+
                 const currentLanguage = languageSelectElement ? languageSelectElement.value : 'COSYenglish';
                 let dayToUseForVisibility = 1;
                 const singleDayValue = daySelectElement ? daySelectElement.value : "";
@@ -107,7 +141,7 @@ function initializeEventListeners() {
             });
         }
     });
-    
+
     // Call other init functions
     // from buttons.js
     initButtons();
@@ -117,15 +151,15 @@ function initializeEventListeners() {
 
     // from exercises/grammar.js
     initGrammarPractice();
-    
+
     // Initial UI visibility update based on the (potentially restored) language and default/restored day
-    const initialDayValue = daySelectElement ? daySelectElement.value : ""; 
-    const initialDay = initialDayValue && initialDayValue !== "" ? parseInt(initialDayValue) : 1; 
+    const initialDayValue = daySelectElement ? daySelectElement.value : "";
+    const initialDay = initialDayValue && initialDayValue !== "" ? parseInt(initialDayValue) : 1;
     const initialLang = languageSelectElement ? (languageSelectElement.value || 'COSYenglish') : 'COSYenglish';
     // from ui-visibility.js
     updateUIVisibilityForDay(initialDay, initialLang);
 
-    console.log("DEBUG: initializeEventListeners completed.");
+    console.log("DEBUG: initializeEventListeners completed."); // Ensure this is still here
 }
 
 window.addEventListener('DOMContentLoaded', initializeEventListeners);
