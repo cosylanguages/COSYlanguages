@@ -273,18 +273,27 @@ function createStandardRandomizeButton(categoryName, currentExerciseFunctionName
     return btn;
 }
 
-function playSound(soundName) {
-    const validSounds = ['click', 'success', 'error', 'select'];
-    if (!validSounds.includes(soundName)) {
-        console.warn(`Attempted to play an unknown sound: "${soundName}". Expected one of: ${validSounds.join(', ')}.`);
-        // Optionally, play a default sound or do nothing. For now, just warn.
-        // return; // Or proceed to try to play it anyway if assets might have other sounds.
-    }
+export function getSelectedDays() {
+    const daySelect = document.getElementById('day');
+    const dayFromSelect = document.getElementById('day-from');
+    const dayToSelect = document.getElementById('day-to');
 
-    const audioPath = `assets/sounds/${soundName}.mp3`;
-    const audio = new Audio(audioPath);
-    audio.play().catch(error => {
-        console.error(`Error playing sound "${soundName}" from path "${audioPath}":`, error);
-        // This can happen due to browser autoplay policies, or if the file is missing/corrupt.
-    });
+    // Ensure elements exist before accessing their value property
+    const day = daySelect ? daySelect.value : "";
+    const dayFrom = dayFromSelect ? dayFromSelect.value : "";
+    const dayTo = dayToSelect ? dayToSelect.value : "";
+
+    // console.log("[utils.getSelectedDays] day:", day, "dayFrom:", dayFrom, "dayTo:", dayTo);
+
+    if (day) {
+        return [day];
+    } else if (dayFrom && dayTo && Number(dayFrom) <= Number(dayTo)) {
+        const from = Number(dayFrom);
+        const to = Number(dayTo);
+        const daysArray = []; // Renamed to avoid conflict
+        for (let i = from; i <= to; i++) daysArray.push(String(i));
+        return daysArray;
+    } else {
+        return [];
+    }
 }

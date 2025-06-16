@@ -1,3 +1,4 @@
+import { getSelectedDays } from '../utils.js';
 // Functions moved to utils.js: shuffleArray, showNoDataMessage, addRandomizeButton
 // Data loading functions
 async function loadGenderGrammar(language, day) {

@@ -1,3 +1,6 @@
+import { getSelectedDays } from '../utils.js';
+import AudioFeedback from '../audio-feedback.js';
+
 window.CosyAppInteractive = {};
 
 (function() {
@@ -8,17 +11,7 @@ window.CosyAppInteractive = {};
         return translations[language] || translations.COSYenglish;
     }
 
-    const SOUNDS = {
-        click: new Audio('assets/sounds/click.mp3'),
-        select: new Audio('assets/sounds/select.mp3'),
-        success: new Audio('assets/sounds/success.mp3'),
-        error: new Audio('assets/sounds/error.mp3')
-    };
-
-    function playSound(type) {
-        SOUNDS[type].currentTime = 0;
-        SOUNDS[type].play().catch(e => console.log("Audio play failed:", e));
-    }
+    // SOUNDS constant and local playSound function removed
 
     class GameState {
         constructor() {
@@ -39,7 +32,7 @@ window.CosyAppInteractive = {};
             if (this.xp >= this.level * 10) {
                 this.xp = 0;
                 this.level++;
-                playSound('success');
+                AudioFeedback.playSuccessSound(); // Updated to use AudioFeedback
                 let levelUpMsg = t.levelUpToast || `🎉 Level up! You are now level {level}!`;
                 CosyAppInteractive.showToast(levelUpMsg.replace('{level}', this.level));
                 this.showLevelUpEffect();
@@ -283,7 +276,7 @@ window.CosyAppInteractive = {};
     if (practiceAllBtnElement) {
         const origPracticeAllOnClick = practiceAllBtnElement.onclick; 
         practiceAllBtnElement.onclick = async function() {
-            const days = getSelectedDays(); 
+            const days = getSelectedDays(); // This is the call site to update
             const language = document.getElementById('language').value;
             const currentTranslations = translations[language] || translations.COSYenglish;
             if (!days.length || !language) return CosyAppInteractive.showToast(currentTranslations.alertLangDay || 'Select language and day!');
