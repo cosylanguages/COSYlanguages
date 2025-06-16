@@ -1,10 +1,25 @@
 import AudioFeedback from './audio-feedback.js';
-// Event Listeners Setup (Core Logic)
+import {
+    initializePracticeSectionsVisibility,
+    updateDaySelectors as updateDaySelectorsVisibility,
+    updateUIVisibilityForDay,
+    goBackToMainMenu // Assuming goBackToMainMenu is also from ui-visibility.js
+} from './ui/ui-visibility.js';
 
-// Placeholder stub for updateGrammarOptions
-function updateGrammarOptions() { 
-    console.log("DEBUG: updateGrammarOptions called (stub)"); 
-}
+// Placeholder or actual function for updateGrammarOptions.
+// If this is meant to be from ui-visibility.js, it should be imported.
+// For now, keeping a local or global reference.
+let updateGrammarOptions = window.updateGrammarOptions || function() {
+    // Check if ui-visibility.js has updateGrammarOptions and prefer that.
+    // This is a bit of a workaround for potentially unclear ownership of updateGrammarOptions.
+    if (typeof window.uiVisibilityFunctions !== 'undefined' && typeof window.uiVisibilityFunctions.updateGrammarOptions === 'function') {
+        return window.uiVisibilityFunctions.updateGrammarOptions();
+    }
+    console.log("DEBUG: updateGrammarOptions called (local/global fallback)");
+};
+// If updateGrammarOptions is definitely in ui-visibility.js and exported:
+// import { updateGrammarOptions } from './ui/ui-visibility.js';
+
 
 function populateDaysDropdowns() {
     const daySelect = document.getElementById('day');
@@ -12,21 +27,9 @@ function populateDaysDropdowns() {
     const dayToSelect = document.getElementById('day-to');
 
     console.log('[Debug] populateDaysDropdowns: Attempting to find select elements.');
-    if (daySelect) {
-        console.log('[Debug] populateDaysDropdowns: daySelect element found.');
-    } else {
-        console.error('[Debug] populateDaysDropdowns: daySelect element NOT found.');
-    }
-    if (dayFromSelect) {
-        console.log('[Debug] populateDaysDropdowns: dayFromSelect element found.');
-    } else {
-        console.error('[Debug] populateDaysDropdowns: dayFromSelect element NOT found.');
-    }
-    if (dayToSelect) {
-        console.log('[Debug] populateDaysDropdowns: dayToSelect element found.');
-    } else {
-        console.error('[Debug] populateDaysDropdowns: dayToSelect element NOT found.');
-    }
+    if (!daySelect) console.error('[Debug] populateDaysDropdowns: daySelect element NOT found.');
+    if (!dayFromSelect) console.error('[Debug] populateDaysDropdowns: dayFromSelect element NOT found.');
+    if (!dayToSelect) console.error('[Debug] populateDaysDropdowns: dayToSelect element NOT found.');
 
     if (daySelect && dayFromSelect && dayToSelect) {
         console.log('[Debug] populateDaysDropdowns: All select elements found. Starting to populate days.');
@@ -37,7 +40,6 @@ function populateDaysDropdowns() {
             daySelect.appendChild(option.cloneNode(true));
             dayFromSelect.appendChild(option.cloneNode(true));
             dayToSelect.appendChild(option.cloneNode(true));
-            console.log(`[Debug] populateDaysDropdowns: Populated Day ${i}`);
         }
         console.log('[Debug] populateDaysDropdowns: Finished populating days.');
     } else {
@@ -46,120 +48,106 @@ function populateDaysDropdowns() {
 }
 
 function initializeEventListeners() {
-    console.log("DEBUG: initializeEventListeners called"); // Ensure this is still here
+    console.log("DEBUG: initializeEventListeners called");
 
     populateDaysDropdowns();
+    initializePracticeSectionsVisibility(); // Initialize UI visibility
 
-    // restoreUserSelection is expected to be global (from index.html)
     if (typeof restoreUserSelection === 'function') {
-        restoreUserSelection(); 
+        restoreUserSelection();
     } else {
         console.warn('[Debug] restoreUserSelection function not found.');
     }
 
-    // From ui-visibility.js
+    // Ensure goBackToMainMenu (imported from ui-visibility.js) is used if available
     if (typeof goBackToMainMenu === 'function') {
-        goBackToMainMenu(); 
+        // This call might be part of initializePracticeSectionsVisibility or only for specific events.
+        // For now, if it was here before for a reason, it's kept.
+        // goBackToMainMenu(); // Original task description implied this was for setup.
+        // However, initializePracticeSectionsVisibility should handle initial main menu state.
+        // Let's assume this specific call here is not needed if initializePracticeSectionsVisibility sets the correct initial state.
     } else {
-        console.warn('[Debug] goBackToMainMenu function not found.');
+        console.warn('[Debug] goBackToMainMenu function (from ui-visibility.js) not found.');
     }
 
-    // From ui-visibility.js (or index.html if not moved)
-    if (typeof updateDaySelectors === 'function') {
-        updateDaySelectors(); 
+    if (typeof updateDaySelectorsVisibility === 'function') {
+        updateDaySelectorsVisibility();
     } else {
-        console.warn('[Debug] updateDaySelectors function not found.');
+        console.warn('[Debug] updateDaySelectorsVisibility function (from ui-visibility.js) not found.');
     }
-    
+
     const languageSelectElement = document.getElementById('language');
-    const daySelectElement = document.getElementById('day');
-    const dayFromSelectElement = document.getElementById('day-from');
-    const dayToSelectElement = document.getElementById('day-to');
+    const daySelectElement = document.getElementById('day'); // Used for getting value
+    const dayFromSelectElement = document.getElementById('day-from'); // Used for getting value
     const grammarOptionsElement = document.getElementById('grammar-options');
 
     if (languageSelectElement) {
         languageSelectElement.addEventListener('change', function() {
             AudioFeedback.playSelectSound();
             const lang = this.value;
-
-            // Determine current day for context
-            // This logic is for updateUIVisibilityForDay, which needs a specific day.
-            let dayToUse = 1; // Default day
+            let dayToUse = 1;
             const singleDayValue = daySelectElement ? daySelectElement.value : "";
             if (singleDayValue) {
                 dayToUse = parseInt(singleDayValue);
             } else {
                 const dayFromValue = dayFromSelectElement ? dayFromSelectElement.value : "";
-                if (dayFromValue) {
-                    dayToUse = parseInt(dayFromValue);
-                }
+                if (dayFromValue) dayToUse = parseInt(dayFromValue);
             }
+            updateUIVisibilityForDay(dayToUse || 1, lang); // Imported from ui-visibility.js
 
-            // Call for UI visibility update based on day and language
-            // from ui-visibility.js
-            updateUIVisibilityForDay(dayToUse, lang);
-
-            // Update grammar options if they are visible
-            // updateGrammarOptions (from ui-visibility.js or index.html) should internally get current language and day
             if (grammarOptionsElement && grammarOptionsElement.style.display === 'block') {
-                updateGrammarOptions();
+                updateGrammarOptions(); // Call the potentially imported/updated function
             }
-            // Note: saveUserSelection, body class update, and the main updateUIForLanguage(lang) call
-            // are assumed to be handled by listeners in index.html and language-handler.js
-            // that could not be removed or fully consolidated.
         });
     }
 
-    const daySelectors = [daySelectElement, dayFromSelectElement, dayToSelectElement];
+    const daySelectors = [document.getElementById('day'), document.getElementById('day-from'), document.getElementById('day-to')];
     daySelectors.forEach(selector => {
         if (selector) {
             selector.addEventListener('change', function() {
                 AudioFeedback.playSelectSound();
-                // from ui-visibility.js or index.html
-                updateDaySelectors(); 
-                
+                updateDaySelectorsVisibility(); // Imported from ui-visibility.js
+
                 const currentLanguage = languageSelectElement ? languageSelectElement.value : 'COSYenglish';
                 let dayToUseForVisibility = 1;
                 const singleDayValue = daySelectElement ? daySelectElement.value : "";
-
                 if (singleDayValue) {
                     dayToUseForVisibility = parseInt(singleDayValue);
                 } else {
                     const dayFromValue = dayFromSelectElement ? dayFromSelectElement.value : "";
-                    if (dayFromValue) {
-                        dayToUseForVisibility = parseInt(dayFromValue);
-                    }
+                    if (dayFromValue) dayToUseForVisibility = parseInt(dayFromValue);
                 }
-
-                // from ui-visibility.js
-                updateUIVisibilityForDay(dayToUseForVisibility, currentLanguage);
+                updateUIVisibilityForDay(dayToUseForVisibility || 1, currentLanguage); // Imported
 
                 if (grammarOptionsElement && grammarOptionsElement.style.display === 'block') {
-                    // from ui-visibility.js or index.html
                     updateGrammarOptions();
                 }
             });
         }
     });
-    
-    // Call other init functions
-    // from buttons.js
-    initButtons();
 
-    // from exercises/vocabulary.js
-    initVocabularyPractice();
+    if (typeof initButtons === 'function') {
+        initButtons();
+    } else {
+        console.error('[event-listeners-setup.js] initButtons function not found.');
+    }
 
-    // from exercises/grammar.js
-    initGrammarPractice();
-    
-    // Initial UI visibility update based on the (potentially restored) language and default/restored day
-    const initialDayValue = daySelectElement ? daySelectElement.value : ""; 
-    const initialDay = initialDayValue && initialDayValue !== "" ? parseInt(initialDayValue) : 1; 
-    const initialLang = languageSelectElement ? (languageSelectElement.value || 'COSYenglish') : 'COSYenglish';
-    // from ui-visibility.js
-    updateUIVisibilityForDay(initialDay, initialLang);
+    if (typeof initVocabularyPractice === 'function') {
+        initVocabularyPractice();
+    } else {
+        console.warn('[event-listeners-setup.js] initVocabularyPractice function not found.');
+    }
 
-    console.log("DEBUG: initializeEventListeners completed."); // Ensure this is still here
+    if (typeof initGrammarPractice === 'function') {
+        initGrammarPractice();
+    } else {
+        console.warn('[event-listeners-setup.js] initGrammarPractice function not found.');
+    }
+
+    // The explicit call to updateUIVisibilityForDay for initial load is removed
+    // as initializePracticeSectionsVisibility() now handles this.
+
+    console.log("DEBUG: initializeEventListeners completed.");
 }
 
 window.addEventListener('DOMContentLoaded', initializeEventListeners);

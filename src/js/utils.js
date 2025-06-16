@@ -25,7 +25,7 @@ function addRandomizeButton(containerIdOrElement, randomizeFn) { // Modified to 
     if (typeof containerIdOrElement === 'string') {
         container = document.getElementById(containerIdOrElement) || document.querySelector(`.${containerIdOrElement}`);
     }
-    
+
     if (!container) {
         // console.warn(`Container not found for randomize button: ${containerIdOrElement}`);
         return;
@@ -33,7 +33,7 @@ function addRandomizeButton(containerIdOrElement, randomizeFn) { // Modified to 
     // Remove any existing randomize button to avoid duplicates
     const existingBtn = container.querySelector('.btn-randomize');
     if (existingBtn) existingBtn.remove();
-    
+
     let btn = document.createElement('button');
     btn.className = 'btn-randomize randomizer-button'; // Apply new and old class
     const language = document.getElementById('language')?.value || 'COSYenglish'; // Assume translations is global
@@ -92,7 +92,7 @@ function patchExerciseForRandomizeButton(originalExerciseFn, containerSelectorOr
     return async function() {
         // Call the original exercise function, ensuring 'this' and 'arguments' are passed correctly
         await originalExerciseFn.apply(this, arguments);
-        
+
         // Now, add the randomize button.
         // addRandomizeButton can take an ID string, a class selector string (e.g. ".my-class"), or an element.
         // The existing addRandomizeButton logic handles ID or class selector (if class is passed as ".class-name" or just "class-name").
@@ -179,7 +179,7 @@ async function startRandomExerciseInCategory(categoryName, currentExerciseFuncti
         console.error(`Error: Could not determine a target exercise for category "${categoryName}".`);
         return;
     }
-    
+
     if (targetFunctionName) {
         if (typeof window[targetFunctionName] === 'function') {
             try {
@@ -248,7 +248,7 @@ function setupExerciseCompletionFeedbackObserver(feedbackElement, categoryName, 
 function createStandardRandomizeButton(categoryName, currentExerciseFunctionNameAsString, allPracticeTypesObject) {
     const btn = document.createElement('button');
     btn.className = 'btn-randomize randomizer-button'; // Standardized class
-    
+
     // Attempt to get translations, similar to addRandomizeButton in utils.js
     // This assumes `translations` is a global variable and `document.getElementById('language').value` is accessible
     let label = '🎲';
@@ -273,18 +273,27 @@ function createStandardRandomizeButton(categoryName, currentExerciseFunctionName
     return btn;
 }
 
-function playSound(soundName) {
-    const validSounds = ['click', 'success', 'error', 'select'];
-    if (!validSounds.includes(soundName)) {
-        console.warn(`Attempted to play an unknown sound: "${soundName}". Expected one of: ${validSounds.join(', ')}.`);
-        // Optionally, play a default sound or do nothing. For now, just warn.
-        // return; // Or proceed to try to play it anyway if assets might have other sounds.
-    }
+export function getSelectedDays() {
+    const daySelect = document.getElementById('day');
+    const dayFromSelect = document.getElementById('day-from');
+    const dayToSelect = document.getElementById('day-to');
 
-    const audioPath = `assets/sounds/${soundName}.mp3`;
-    const audio = new Audio(audioPath);
-    audio.play().catch(error => {
-        console.error(`Error playing sound "${soundName}" from path "${audioPath}":`, error);
-        // This can happen due to browser autoplay policies, or if the file is missing/corrupt.
-    });
+    // Ensure elements exist before accessing their value property
+    const day = daySelect ? daySelect.value : "";
+    const dayFrom = dayFromSelect ? dayFromSelect.value : "";
+    const dayTo = dayToSelect ? dayToSelect.value : "";
+
+    // console.log("[utils.getSelectedDays] day:", day, "dayFrom:", dayFrom, "dayTo:", dayTo);
+
+    if (day) {
+        return [day];
+    } else if (dayFrom && dayTo && Number(dayFrom) <= Number(dayTo)) {
+        const from = Number(dayFrom);
+        const to = Number(dayTo);
+        const daysArray = []; // Renamed to avoid conflict
+        for (let i = from; i <= to; i++) daysArray.push(String(i));
+        return daysArray;
+    } else {
+        return [];
+    }
 }

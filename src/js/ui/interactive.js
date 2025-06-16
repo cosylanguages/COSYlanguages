@@ -1,3 +1,6 @@
+import { getSelectedDays } from '../utils.js';
+import AudioFeedback from '../audio-feedback.js';
+
 window.CosyAppInteractive = {};
 
 (function() {
@@ -8,17 +11,7 @@ window.CosyAppInteractive = {};
         return translations[language] || translations.COSYenglish;
     }
 
-    const SOUNDS = {
-        click: new Audio('assets/sounds/click.mp3'),
-        select: new Audio('assets/sounds/select.mp3'),
-        success: new Audio('assets/sounds/success.mp3'),
-        error: new Audio('assets/sounds/error.mp3')
-    };
-
-    function playSound(type) {
-        SOUNDS[type].currentTime = 0;
-        SOUNDS[type].play().catch(e => console.log("Audio play failed:", e));
-    }
+    // SOUNDS constant and local playSound function removed
 
     class GameState {
         constructor() {
@@ -39,7 +32,7 @@ window.CosyAppInteractive = {};
             if (this.xp >= this.level * 10) {
                 this.xp = 0;
                 this.level++;
-                playSound('success');
+                AudioFeedback.playSuccessSound(); // Updated to use AudioFeedback
                 let levelUpMsg = t.levelUpToast || `🎉 Level up! You are now level {level}!`;
                 CosyAppInteractive.showToast(levelUpMsg.replace('{level}', this.level));
                 this.showLevelUpEffect();
@@ -69,11 +62,11 @@ window.CosyAppInteractive = {};
                 stats.classList.add('levelup');
                 setTimeout(() => stats.classList.remove('levelup'), 1200);
             }
-            showConfetti(); 
+            showConfetti();
         }
     }
-    CosyAppInteractive.GameState = GameState; 
-    const gameState = new GameState(); 
+    CosyAppInteractive.GameState = GameState;
+    const gameState = new GameState();
 
     function showToast(msg) {
         let toast = document.createElement('div');
@@ -82,26 +75,26 @@ window.CosyAppInteractive = {};
         document.body.appendChild(toast);
         setTimeout(() => toast.remove(), 1800);
     }
-    CosyAppInteractive.showToast = showToast; 
+    CosyAppInteractive.showToast = showToast;
 
-    function showConfetti() { /* ... (no translatable strings) ... */ 
+    function showConfetti() { /* ... (no translatable strings) ... */
         for (let i = 0; i < 30; i++) {
             let c = document.createElement('div');
             c.textContent = '🎊';
-            c.className = 'confetti'; 
+            c.className = 'confetti';
             document.body.appendChild(c);
             setTimeout(() => c.remove(), 1400);
         }
     }
-    
+
     function originalAddXP(amount) { gameState.addXP(amount); }
-    const _addXP = originalAddXP; 
-    let PatchedAddXP = function(amount) { 
-      const prevLevel = gameState.level; 
-      _addXP(amount); 
+    const _addXP = originalAddXP;
+    let PatchedAddXP = function(amount) {
+      const prevLevel = gameState.level;
+      _addXP(amount);
       // Confetti is now part of GameState.addXP via showLevelUpEffect
     };
-    CosyAppInteractive.addXP = PatchedAddXP; 
+    CosyAppInteractive.addXP = PatchedAddXP;
 
     function awardCorrectAnswer() { gameState.addXP(3); gameState.addStreak(); }
     CosyAppInteractive.awardCorrectAnswer = awardCorrectAnswer;
@@ -109,7 +102,7 @@ window.CosyAppInteractive = {};
     function markAndAward(el) {
       if (!el.classList.contains('xp-awarded')) {
         el.classList.add('xp-awarded');
-        awardCorrectAnswer(); 
+        awardCorrectAnswer();
       }
     }
     CosyAppInteractive.markAndAward = markAndAward;
@@ -123,11 +116,11 @@ window.CosyAppInteractive = {};
     });
 
     function getSRSKey(language, type, value) { return `cosy_srs_${language}_${type}_${value}`; }
-    CosyAppInteractive.scheduleReview = function scheduleReview(language, type, value, correct) { /* ... (no translatable strings, uses localStorage) ... */ 
+    CosyAppInteractive.scheduleReview = function scheduleReview(language, type, value, correct) { /* ... (no translatable strings, uses localStorage) ... */
         const key = getSRSKey(language, type, value);
         let data = JSON.parse(localStorage.getItem(key) || '{}');
         const now = Date.now();
-        if (!data.interval) data.interval = 1 * 60 * 60 * 1000; 
+        if (!data.interval) data.interval = 1 * 60 * 60 * 1000;
         if (!data.ease) data.ease = 2.5;
         if (!data.due) data.due = now;
         if (!data.reps) data.reps = 0;
@@ -135,12 +128,12 @@ window.CosyAppInteractive = {};
             data.reps++; data.interval = Math.round(data.interval * data.ease);
             data.due = now + data.interval; data.ease = Math.min(data.ease + 0.15, 3.0);
         } else {
-            data.reps = 0; data.interval = 1 * 60 * 60 * 1000; 
+            data.reps = 0; data.interval = 1 * 60 * 60 * 1000;
             data.due = now + data.interval; data.ease = Math.max(data.ease - 0.2, 1.3);
         }
         localStorage.setItem(key, JSON.stringify(data));
     };
-    CosyAppInteractive.getDueReviews = function getDueReviews(language, type, items) { /* ... (no translatable strings) ... */ 
+    CosyAppInteractive.getDueReviews = function getDueReviews(language, type, items) { /* ... (no translatable strings) ... */
         const now = Date.now();
         return items.filter(value => {
             const key = getSRSKey(language, type, value);
@@ -161,9 +154,9 @@ window.CosyAppInteractive = {};
       }
       btn.textContent = t.reviewDueBtnLabel || '🔁 Review Due';
       btn.onclick = async function() {
-        const due = CosyAppInteractive.getDueReviews(language, type, items); 
+        const due = CosyAppInteractive.getDueReviews(language, type, items);
         if (!due.length) {
-          CosyAppInteractive.showToast(t.noItemsDueReviewToast || 'No items due for review!'); 
+          CosyAppInteractive.showToast(t.noItemsDueReviewToast || 'No items due for review!');
           return;
         }
         const itemToReview = due[Math.floor(Math.random()*due.length)];
@@ -173,19 +166,19 @@ window.CosyAppInteractive = {};
     }
     CosyAppInteractive.showRevisionButton = showRevisionButton;
 
-    const _originalPracticeVocabulary = window.practiceVocabulary; 
-    const _originalPracticeGrammar = window.practiceGrammar; 
+    const _originalPracticeVocabulary = window.practiceVocabulary;
+    const _originalPracticeGrammar = window.practiceGrammar;
 
-    CosyAppInteractive.practiceVocabulary = async function(type, forceWord) { /* ... (TODOs and console logs are fine) ... */ 
+    CosyAppInteractive.practiceVocabulary = async function(type, forceWord) { /* ... (TODOs and console logs are fine) ... */
         const language = document.getElementById('language').value;
         if (forceWord) {
             console.log(`TODO SRS Review: practiceVocabulary for ${type}, word: ${forceWord}, lang: ${language}`);
-            return; 
+            return;
         }
         if (typeof _originalPracticeVocabulary === 'function') await _originalPracticeVocabulary(type);
         else console.error("Original practiceVocabulary function not found on window.");
     };
-    CosyAppInteractive.practiceGrammar = async function(type, forceItem) {  /* ... (TODOs and console logs are fine) ... */ 
+    CosyAppInteractive.practiceGrammar = async function(type, forceItem) {  /* ... (TODOs and console logs are fine) ... */
         const language = document.getElementById('language').value;
         if (forceItem) {
             console.log(`TODO SRS Review: practiceGrammar for ${type}, item: ${forceItem}, lang: ${language}`);
@@ -198,17 +191,17 @@ window.CosyAppInteractive = {};
         else console.error("Original practiceGrammar or specific start function not found.");
     };
 
-    function showEmojiFeedback(isCorrect) { 
+    function showEmojiFeedback(isCorrect) {
       const t = getCurrentTranslations();
       CosyAppInteractive.showToast(isCorrect ? (t.feedbackSticks || '🎉 Great! That sticks!') : (t.feedbackTryAgainEncouragement || '🤔 Try again, you can do it!'));
     }
-    
+
     function showFunFact(language) { // language parameter is passed now
       const t = getCurrentTranslations(); // Uses current language from UI
       const facts = t.funFacts || [];
       if (facts.length > 0) CosyAppInteractive.showToast(facts[Math.floor(Math.random()*facts.length)]);
     }
-    
+
     const practiceAllTypes = ['vocabulary', 'grammar', 'speaking', 'match', 'truefalse', 'choose4audio', 'choose4image'];
     CosyAppInteractive.practiceAllTypes = practiceAllTypes;
 
@@ -242,7 +235,7 @@ window.CosyAppInteractive = {};
       // document.getElementById('choose4-feedback').innerHTML = isCorrect ? `<span class="color-green">✅ ${currentTranslations.correct || 'Correct!'}</span>` : ...
       // showFunFact(language); // Call with language
     };
-    CosyAppInteractive.getLangCode = function getLangCode(language) { /* ... (no translatable strings) ... */ 
+    CosyAppInteractive.getLangCode = function getLangCode(language) { /* ... (no translatable strings) ... */
         switch(language) {
             case 'COSYenglish': return 'en'; case 'COSYitaliano': return 'it'; case 'COSYfrançais': return 'fr';
             case 'COSYespañol': return 'es'; case 'COSYdeutsch': return 'de'; case 'COSYportuguês': return 'pt';
@@ -257,7 +250,7 @@ window.CosyAppInteractive = {};
       // Example: if (!images.length) return CosyAppInteractive.showToast(currentTranslations.noImages || 'No images available!');
       // showFunFact(language); // Call with language
     };
-    CosyAppInteractive.getLangFileName = function getLangFileName(language) { /* ... (no translatable strings) ... */ 
+    CosyAppInteractive.getLangFileName = function getLangFileName(language) { /* ... (no translatable strings) ... */
         switch(language) {
             case 'COSYenglish': return 'english'; case 'COSYitaliano': return 'italian'; case 'COSYfrançais': return 'french';
             case 'COSYespañol': return 'spanish'; case 'COSYdeutsch': return 'german'; case 'COSYportuguês': return 'portuguese';
@@ -281,9 +274,9 @@ window.CosyAppInteractive = {};
 
     const practiceAllBtnElement = document.getElementById('practice-all-btn');
     if (practiceAllBtnElement) {
-        const origPracticeAllOnClick = practiceAllBtnElement.onclick; 
+        const origPracticeAllOnClick = practiceAllBtnElement.onclick;
         practiceAllBtnElement.onclick = async function() {
-            const days = getSelectedDays(); 
+            const days = getSelectedDays(); // This is the call site to update
             const language = document.getElementById('language').value;
             const currentTranslations = translations[language] || translations.COSYenglish;
             if (!days.length || !language) return CosyAppInteractive.showToast(currentTranslations.alertLangDay || 'Select language and day!');
@@ -299,7 +292,7 @@ window.CosyAppInteractive = {};
         };
     }
 
-    CosyAppInteractive.showTranslationHelper = async function(text, contextType = 'word', originalLang = null) { 
+    CosyAppInteractive.showTranslationHelper = async function(text, contextType = 'word', originalLang = null) {
         const t = getCurrentTranslations(); // For popup UI
         // ... (rest of logic from original, update hardcoded strings)
         // Example: container.innerHTML = `<div class="font-size-12 margin-bottom-18">🌍 ${countryName ? countryName + ': ' : ''}${t.translationPopupTitle || 'Translation'}<br><b>${text}</b></div>...`
@@ -320,7 +313,7 @@ window.CosyAppInteractive = {};
         }
         return text;
     }
-    
+
     CosyAppInteractive.getRandomTip = function getRandomTip() {
         const t = getCurrentTranslations();
         const facts = t.funFacts || [];
@@ -333,11 +326,11 @@ window.CosyAppInteractive = {};
 
     document.addEventListener('DOMContentLoaded', function() {
         if (gameState && typeof gameState.updateUI === 'function') gameState.updateUI();
-        setupEnterKeySupportInternal(); 
+        setupEnterKeySupportInternal();
 
         const helpBtn = document.getElementById('floating-help-btn');
         const tipPopup = document.getElementById('floating-tip-popup');
-        const tipText = document.getElementById('floating-tip-text'); 
+        const tipText = document.getElementById('floating-tip-text');
         const closeTipBtn = tipPopup?.querySelector('.close-tip');
         const translateTipBtn = tipPopup?.querySelector('.translate-tip');
         const translationPopup = document.getElementById('translation-popup');
