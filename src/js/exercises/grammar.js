@@ -1,7 +1,8 @@
 import { getSelectedDays } from '../utils.js';
 // Functions moved to utils.js: shuffleArray, showNoDataMessage, addRandomizeButton
 // Data loading functions
-async function loadGenderGrammar(language, day) {
+
+async function loadGenderGrammar(language, daysArg) {
     const fileMap = {
         'COSYenglish': 'data/grammar/gender/grammar_gender_english.json',
         'COSYitaliano': 'data/grammar/gender/grammar_gender_italian.json',
@@ -19,18 +20,57 @@ async function loadGenderGrammar(language, day) {
     const file = fileMap[language];
     if (!file) {
         console.error(`Error loading gender grammar: No file mapped for language ${language}`);
-        return []; 
+        return [];
     }
-    
-    const loadResult = await loadData(file); 
-    
+    const loadResult = await loadData(file);
     if (loadResult.error) {
         console.error(`Error loading gender grammar for ${language} from ${file}: ${loadResult.errorType} - ${loadResult.error}`);
-        return []; 
+        return [];
     }
-    
-    const data = loadResult.data; 
-    return data && data[day] ? data[day] : [];
+    const data = loadResult.data;
+    if (!data) {
+        console.error(`No data found in ${file} for ${language} (gender)`);
+        return [];
+    }
+
+    if (Array.isArray(daysArg) && daysArg.length > 0) {
+        let combinedData = [];
+        let seenItems = new Set();
+        const dayNumbersInt = daysArg.map(d => parseInt(d));
+        let effectiveStartDay;
+        let effectiveEndDay;
+
+        if (dayNumbersInt.length === 1) {
+            effectiveStartDay = 1;
+            effectiveEndDay = dayNumbersInt[0];
+        } else {
+            effectiveStartDay = Math.min(...dayNumbersInt);
+            effectiveEndDay = Math.max(...dayNumbersInt);
+        }
+
+        for (let i = effectiveStartDay; i <= effectiveEndDay; i++) {
+            const currentDayKey = String(i);
+            const dayData = data[currentDayKey] || [];
+            for (const item of dayData) {
+                const stringifiedItem = JSON.stringify(item);
+                if (!seenItems.has(stringifiedItem)) {
+                    seenItems.add(stringifiedItem);
+                    combinedData.push(item);
+                }
+            }
+        }
+        return combinedData;
+    } else if (!Array.isArray(daysArg) && daysArg) { // Single day string/number (original behavior)
+        // This case might still be useful if getSelectedDays sometimes returns a single value not in an array
+        // However, getSelectedDays from utils.js is designed to always return an array.
+        // So, this specific else-if might be redundant if daysArg always comes from getSelectedDays.
+        // For safety, we can keep it, or assume daysArg is always an array from getSelectedDays.
+        // Let's assume daysArg is what getSelectedDays returns, which is always an array.
+        // Thus, this else-if path for a non-array daysArg might not be hit if called with getSelectedDays() output.
+        // The provided snippet implies daysArg could be a single value, so we keep the logic.
+        return data[String(daysArg)] || [];
+    }
+    return []; // Default empty if daysArg is invalid (e.g. empty array was passed, though handled above)
 }
 
 async function loadVerbGrammar(language, days) { 
@@ -68,24 +108,25 @@ async function loadVerbGrammar(language, days) {
     let combinedVerbData = [];
     let seenItems = new Set();
 
-    if (!days || days.length === 0) { // Handle empty or undefined days array
+    if (!days || days.length === 0) { 
         return [];
     }
 
-    let startDay, endDay;
-    const dayNumbers = days.map(d => parseInt(d));
+    const dayNumbersInt = days.map(d => parseInt(d));
+    let effectiveStartDay;
+    let effectiveEndDay;
 
-    if (dayNumbers.length === 1) {
-        startDay = 1;
-        endDay = dayNumbers[0];
+    if (dayNumbersInt.length === 1) {
+        effectiveStartDay = 1;
+        effectiveEndDay = dayNumbersInt[0];
     } else {
-        startDay = Math.min(...dayNumbers);
-        endDay = Math.max(...dayNumbers);
+        effectiveStartDay = Math.min(...dayNumbersInt);
+        effectiveEndDay = Math.max(...dayNumbersInt);
     }
 
-    for (let i = startDay; i <= endDay; i++) {
+    for (let i = effectiveStartDay; i <= effectiveEndDay; i++) {
         const currentDayKey = String(i);
-        const dayData = data[currentDayKey] ? data[currentDayKey] : [];
+        const dayData = data[currentDayKey] || []; // Use empty array if day key doesn't exist
         
         for (const item of dayData) {
             const stringifiedItem = JSON.stringify(item); 
@@ -123,7 +164,7 @@ async function loadVocabularyData(language, days) {
         console.error(`Error loading vocabulary for ${language} from ${file}: ${loadResult.errorType} - ${loadResult.error}`);
         return [];
     }
-    const vocabData = loadResult.data; // Renamed from 'data' to 'vocabData' for clarity
+    const vocabData = loadResult.data; 
     if (!vocabData) {
         console.error(`No data found in ${file} for language ${language}`);
         return [];
@@ -132,24 +173,25 @@ async function loadVocabularyData(language, days) {
     let combinedVocabularyWords = [];
     let seenVocabItems = new Set(); 
 
-    if (!days || days.length === 0) { // Handle empty or undefined days array
+    if (!days || days.length === 0) { 
         return [];
     }
 
-    let startDay, endDay;
-    const dayNumbers = days.map(d => parseInt(d));
+    const dayNumbersInt = days.map(d => parseInt(d));
+    let effectiveStartDay;
+    let effectiveEndDay;
 
-    if (dayNumbers.length === 1) {
-        startDay = 1;
-        endDay = dayNumbers[0];
+    if (dayNumbersInt.length === 1) {
+        effectiveStartDay = 1;
+        effectiveEndDay = dayNumbersInt[0];
     } else {
-        startDay = Math.min(...dayNumbers);
-        endDay = Math.max(...dayNumbers);
+        effectiveStartDay = Math.min(...dayNumbersInt);
+        effectiveEndDay = Math.max(...dayNumbersInt);
     }
 
-    for (let i = startDay; i <= endDay; i++) {
+    for (let i = effectiveStartDay; i <= effectiveEndDay; i++) {
         const currentDayKey = String(i);
-        const dayVocab = vocabData[currentDayKey] ? vocabData[currentDayKey] : [];
+        const dayVocab = vocabData[currentDayKey] || []; // Use empty array if day key doesn't exist
         for (const wordObj of dayVocab) { 
             const stringifiedWordObj = JSON.stringify(wordObj);
             if (wordObj.word && !seenVocabItems.has(stringifiedWordObj)) {
@@ -162,7 +204,7 @@ async function loadVocabularyData(language, days) {
 }
 
 
-async function loadPossessivesGrammar(language, day) {
+async function loadPossessivesGrammar(language, daysArg) {
     const fileMap = {
         'COSYenglish': 'data/grammar/possessives/possessives_english.json',
         'COSYitaliano': 'data/grammar/possessives/possessives_italian.json',
@@ -179,17 +221,51 @@ async function loadPossessivesGrammar(language, day) {
     };
     const file = fileMap[language];
     if (!file) {
-        console.error(`Error loading possessives grammar: No file mapped for language ${language}`);
+        console.error(`Error loading possessives grammar: No file mapped for ${language}`);
         return [];
     }
-    const loadResult = await loadData(file); 
-    
+    const loadResult = await loadData(file);
     if (loadResult.error) {
-        console.error(`Error loading possessives grammar for ${language} from ${file}: ${loadResult.errorType} - ${loadResult.error}`);
+        console.error(`Error loading possessives for ${language} from ${file}: ${loadResult.errorType} - ${loadResult.error}`);
         return [];
     }
     const data = loadResult.data;
-    return data && data[day] ? data[day] : [];
+    if (!data) {
+        console.error(`No data found in ${file} for ${language} (possessives)`);
+        return [];
+    }
+
+    if (Array.isArray(daysArg) && daysArg.length > 0) {
+        let combinedData = [];
+        let seenItems = new Set();
+        const dayNumbersInt = daysArg.map(d => parseInt(d));
+        let effectiveStartDay;
+        let effectiveEndDay;
+
+        if (dayNumbersInt.length === 1) {
+            effectiveStartDay = 1;
+            effectiveEndDay = dayNumbersInt[0];
+        } else {
+            effectiveStartDay = Math.min(...dayNumbersInt);
+            effectiveEndDay = Math.max(...dayNumbersInt);
+        }
+
+        for (let i = effectiveStartDay; i <= effectiveEndDay; i++) {
+            const currentDayKey = String(i);
+            const dayData = data[currentDayKey] || [];
+            for (const item of dayData) {
+                const stringifiedItem = JSON.stringify(item);
+                if (!seenItems.has(stringifiedItem)) {
+                    seenItems.add(stringifiedItem);
+                    combinedData.push(item);
+                }
+            }
+        }
+        return combinedData;
+    } else if (!Array.isArray(daysArg) && daysArg) { // Single day string/number
+        return data[String(daysArg)] || [];
+    }
+    return [];
 }
 
 const LANGUAGE_GENDER_SYSTEMS = {
@@ -297,7 +373,7 @@ async function showArticleWord() {
         alert(currentTranslations.alertLangDay || 'Please select language and day(s) first');
         return;
     }
-    const items = await loadGenderGrammar(language, days);
+    const items = await loadGenderGrammar(language, days); // days (which is daysArg) is passed here
     if (!items.length) {
         showNoDataMessage();
         return;
@@ -378,7 +454,7 @@ async function showMatchArticlesWords() {
         alert(currentTranslations.alertLangDay || 'Please select language and day(s) first');
         return;
     }
-    const genderData = await loadGenderGrammar(language, days);
+    const genderData = await loadGenderGrammar(language, days); // days (which is daysArg) is passed here
     if (!genderData || genderData.length === 0) {
         showNoDataMessage();
         return;
@@ -408,7 +484,7 @@ async function showMatchArticlesWords() {
     
     const pickedArticlesSet = new Set(); 
     const pickedGenderCategoriesForPuzzle = new Set();
-    let desiredItemCount = 0; // Will be set per language type
+    let desiredItemCount = 0; 
 
     if (language === 'COSYenglish') {
         const englishArticlesTarget = ['he', 'she', 'it', 'he/she'];
@@ -416,21 +492,21 @@ async function showMatchArticlesWords() {
         for (const articleTarget of englishArticlesTarget) {
             if (selectedItems.length >= desiredItemCount) break;
             if (itemsByArticle[articleTarget] && itemsByArticle[articleTarget].length > 0) {
-                const itemToAdd = itemsByArticle[articleTarget].find(i => !pickedArticlesSet.has(i.article)); // Should always be the articleTarget
-                if (itemToAdd) { // Should always find if itemsByArticle[articleTarget] is not empty
+                const itemToAdd = itemsByArticle[articleTarget].find(i => !pickedArticlesSet.has(i.article)); 
+                if (itemToAdd) { 
                     selectedItems.push(itemToAdd);
                     pickedArticlesSet.add(itemToAdd.article);
-                    pickedGenderCategoriesForPuzzle.add(itemToAdd.article); // Treat article as category
+                    pickedGenderCategoriesForPuzzle.add(itemToAdd.article); 
                 }
             }
         }
-    } else if (langGenderSystem === 2 && langArticleCategories) { // Spanish, Portuguese, French, Italian
+    } else if (langGenderSystem === 2 && langArticleCategories) { 
         let baseCategories = ['masculine', 'feminine', 'both'];
         if (language === 'COSYespañol' || language === 'COSYportuguês') {
             desiredItemCount = 3;
         } else if (language === 'COSYfrançais' || language === 'COSYitaliano') {
             desiredItemCount = (Math.random() < 0.5 && Object.keys(langArticleCategories).length >=3) ? 3 : 4; 
-            if (genderData.filter(i => langArticleCategories[i.article] && i.word).length < desiredItemCount) desiredItemCount = 3; // Fallback if not enough data
+            if (genderData.filter(i => langArticleCategories[i.article] && i.word).length < desiredItemCount) desiredItemCount = 3; 
         }
 
         for (const category of baseCategories) {
@@ -458,15 +534,15 @@ async function showMatchArticlesWords() {
             }
         }
 
-    } else if (langGenderSystem === 3 && langArticleCategories) { // German, Greek, Russian
+    } else if (langGenderSystem === 3 && langArticleCategories) { 
         let baseCategories = ['masculine', 'feminine', 'neuter'];
         desiredItemCount = 3;
         if (language === 'ΚΟΖΥελληνικά' && Object.values(langArticleCategories).includes('both')) {
-            if (Math.random() < 0.5 || Object.keys(langArticleCategories).length >=4 ) { // Try for 4 if data allows
+            if (Math.random() < 0.5 || Object.keys(langArticleCategories).length >=4 ) { 
                  baseCategories.push('both');
                  desiredItemCount = 4;
             }
-            if (genderData.filter(i => langArticleCategories[i.article] && i.word).length < desiredItemCount) desiredItemCount = 3; // Fallback
+            if (genderData.filter(i => langArticleCategories[i.article] && i.word).length < desiredItemCount) desiredItemCount = 3; 
         }
         
         for (const category of baseCategories) {
@@ -480,7 +556,7 @@ async function showMatchArticlesWords() {
                 }
             }
         }
-    } else { // Fallback for languages not covered by specific logic (e.g. no langArticleCategories)
+    } else { 
         console.warn(`Using fallback selection for ${language} in showMatchArticlesWords.`);
         desiredItemCount = 3;
         const allItemsShuffled = shuffleArray([...genderData]);
@@ -600,7 +676,7 @@ async function showSelectArticleExercise() {
         alert(currentTranslations.alertLangDay || 'Please select language and day(s) first');
         return;
     }
-    const items = await loadGenderGrammar(language, days);
+    const items = await loadGenderGrammar(language, days); // days (which is daysArg) is passed here
     if (!items.length) {
         showNoDataMessage();
         return;
@@ -624,7 +700,7 @@ async function showSelectArticleExercise() {
     shuffleArray(distractorArticles);
     distractorArticles = distractorArticles.slice(0, NUM_ARTICLE_OPTIONS - 1);
 
-    if (allArticlesForLang.length < 2) { // Need at least correct + 1 distractor
+    if (allArticlesForLang.length < 2) { 
          resultArea.innerHTML = `<p>${currentTranslations.notEnoughDataForExercise || 'Not enough data for this exercise type.'}</p>`;
          setTimeout(startGenderPractice, 2000); 
          return;
@@ -728,7 +804,7 @@ async function showTypeVerb() {
 
     const pronounceVerbButton = document.getElementById('pronounce-verb-item');
     if (pronounceVerbButton && typeof pronounceWord === 'function') {
-        pronounceWord(wordToPronounceVerb, language); // Initial pronunciation
+        pronounceWord(wordToPronounceVerb, language); 
         pronounceVerbButton.addEventListener('click', () => pronounceWord(wordToPronounceVerb, language));
     }
 
@@ -967,7 +1043,7 @@ async function showWordOrder() {
                 if (negPart.includes("...")) { 
                     sentenceParts = [pronoun2, negPart.split("...")[0].trim(), conjugateVerb(verbItem.infinitive, pronoun2, language), negPart.split("...")[1].trim(), randomObject, randomTime].filter(p => p);
                 } else { 
-                     sentenceParts = [pronoun2, negPart, conjugateVerb(verbItem.infinitive, pronoun2, language), randomObject, randomTime].filter(p => p); // Corrected to use conjugated verb
+                     sentenceParts = [pronoun2, negPart, conjugateVerb(verbItem.infinitive, pronoun2, language), randomObject, randomTime].filter(p => p); 
                 }
             }
             break;
@@ -1084,9 +1160,10 @@ function getRandomTimeExpression(language) {
 }
 // function isCompatibleVerbPronoun(verb, pronoun, language) { return true; } // This function is no longer needed
 
-async function startPossessivesPractice() { }
-async function showTypePossessive() { }
-async function showMatchPossessives() { }
+async function startPossessivesPractice() { /* More detailed implementation needed */ }
+async function showTypePossessive() { /* More detailed implementation needed */ }
+async function showMatchPossessives() { /* More detailed implementation needed */ }
+
 
 async function practiceAllGrammar() {
     const language = document.getElementById('language').value;
@@ -1095,17 +1172,23 @@ async function practiceAllGrammar() {
     if (!language || !days.length) { alert(currentTranslations.alertLangDay || 'Please select language and day(s) first'); return; }
     
     const availableTypes = [];
-    const day = parseInt(days[0]);
+    const day = parseInt(days[0]); // Logic might need to consider the full range of 'days'
     if (day >= 1 && language !== 'COSYenglish') availableTypes.push('gender');
     if (day >= 2) availableTypes.push('verbs');
-    if (day >= 3) availableTypes.push('possessives');
+    // Assuming possessives might become available on day 3 as per earlier structure
+    if (day >= 3) availableTypes.push('possessives'); 
+    
     if (availableTypes.length === 0) { showNoDataMessage(); return; }
     const shuffledTypes = shuffleArray(availableTypes);
     
     for (const type of shuffledTypes) {
         if (type === 'gender') await startGenderPractice();
         else if (type === 'verbs') await startVerbsPractice();
-        else if (type === 'possessives') await startPossessivesPractice();
+        else if (type === 'possessives') {
+            // Ensure startPossessivesPractice is robust before calling
+            // For now, this might call an empty function if not fully implemented.
+            await startPossessivesPractice(); 
+        }
         
         await new Promise(resolve => {
             const continueBtn = document.createElement('button');
@@ -1124,6 +1207,9 @@ async function practiceAllGrammar() {
     }
 }
 
+// This function seems to be a duplicate of the one in utils.js after a previous refactor.
+// It should be removed if utils.js.addRandomizeButton is the standard.
+// For now, keeping it to match the provided file structure, but this is a point of cleanup.
 function addRandomizeButton(containerId, randomizeFn) {
     const container = document.getElementById(containerId) || document.querySelector(`.${containerId}`);
     if (!container) return;
@@ -1159,5 +1245,7 @@ showTypeVerb = patchExerciseForRandomizeButton(showTypeVerb, '.verb-exercise', s
 showMatchVerbsPronouns = patchExerciseForRandomizeButton(showMatchVerbsPronouns, '.match-exercise', startVerbsPractice);
 showFillGaps = patchExerciseForRandomizeButton(showFillGaps, '.fill-gap-exercise', startVerbsPractice);
 showWordOrder = patchExerciseForRandomizeButton(showWordOrder, '.word-order-exercise', startVerbsPractice);
+// Consider patching possessives exercises as well if they exist and follow the same pattern
+// e.g. showTypePossessive = patchExerciseForRandomizeButton(showTypePossessive, '.possessive-exercise', startPossessivesPractice);
 
 document.addEventListener('DOMContentLoaded', initGrammarPractice);
