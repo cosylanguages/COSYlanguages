@@ -1,24 +1,30 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Check if the current page is events.html
-    if (document.getElementById('toggle-topics-btn')) {
-        const toggleBtn = document.getElementById('toggle-topics-btn');
-        const topicsDiv = document.getElementById('speaking-club-topics');
+    // --- Code for all pages ---
 
-        toggleBtn.addEventListener('click', () => {
-            if (topicsDiv.style.display === 'none') {
-                topicsDiv.style.display = 'block';
-                toggleBtn.setAttribute('data-translate-key', 'toggle_topics_hide');
-                setLanguage(localStorage.getItem('language') || 'en'); 
-            } else {
-                topicsDiv.style.display = 'none';
-                toggleBtn.setAttribute('data-translate-key', 'toggle_topics_show');
+    // Toggle functionality for events page
+    const setupToggleButton = (btnId, contentId, showKey, hideKey) => {
+        const toggleBtn = document.getElementById(btnId);
+        const contentDiv = document.getElementById(contentId);
+
+        if (toggleBtn && contentDiv) { // This check makes it safe to run on all pages
+            toggleBtn.addEventListener('click', () => {
+                // Use getComputedStyle for a more reliable visibility check
+                const isHidden = window.getComputedStyle(contentDiv).display === 'none';
+                contentDiv.style.display = isHidden ? 'block' : 'none';
+                toggleBtn.setAttribute('data-translate-key', isHidden ? hideKey : showKey);
                 setLanguage(localStorage.getItem('language') || 'en');
-            }
-        });
-    }
+            });
+        }
+    };
 
-    // Check if the current page is index.html
-    if (document.getElementById('price-calculator')) {
+    // Setup for event page buttons
+    setupToggleButton('toggle-topics-btn', 'speaking-club-topics', 'toggle_topics_show', 'toggle_topics_hide');
+    setupToggleButton('toggle-games-btn', 'game-nights-topics', 'toggle_games_show', 'toggle_games_hide');
+
+
+    // --- Page-specific code for index.html ---
+    const priceCalculator = document.getElementById('price-calculator');
+    if (priceCalculator) {
         const languageSelect = document.getElementById('language');
         const durationSelect = document.getElementById('duration');
         const courseTypeContainer = document.getElementById('course-type-container');
@@ -91,6 +97,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     const option = document.createElement('option');
                     option.value = course;
                     option.textContent = course;
+                    const courseKey = `course_${course.split(' ')[0].toLowerCase()}`;
+                    option.setAttribute('data-translate-key', courseKey);
                     select.appendChild(option);
                 });
                 courseElement = select;
@@ -100,10 +108,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 input.id = 'course-type';
                 input.value = availableCourses[0] || '';
                 input.disabled = true;
+                const courseKey = `course_${input.value.split(' ')[0].toLowerCase()}`;
+                input.setAttribute('data-translate-key', courseKey);
                 courseElement = input;
             }
             courseTypeContainer.appendChild(courseElement);
             updateCalculator();
+            setLanguage(localStorage.getItem('language') || 'en');
         }
 
         function updateCalculator() {
@@ -113,6 +124,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const currency = currencySelect.value;
             const numLessons = pack ? pack.lessons : 0;
             const discount = pack ? pack.discount : 0;
+
+            priceResultDiv.innerHTML = ''; // Clear previous results
 
             if (language && duration && numLessons > 0) {
                 const basePricePerLesson = pricing[language][duration];
@@ -130,14 +143,22 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="discounted-price">${symbol}${discountedCost.toFixed(2)}</span>
                         `;
                     } else {
-                        priceResultDiv.innerHTML = `Total Price: ${symbol}${totalCost.toFixed(2)}`;
+                        const priceTextSpan = document.createElement('span');
+                        priceTextSpan.setAttribute('data-translate-key', 'total_price');
+                        priceTextSpan.textContent = 'Total Price: '; // Default text
+
+                        priceResultDiv.appendChild(priceTextSpan);
+                        priceResultDiv.innerHTML += `${symbol}${totalCost.toFixed(2)}`;
                     }
                 } else {
-                    priceResultDiv.innerHTML = 'Invalid selection';
+                    const errorSpan = document.createElement('span');
+                    errorSpan.setAttribute('data-translate-key', 'invalid_selection');
+                    errorSpan.textContent = 'Invalid selection'; // Default text
+                    priceResultDiv.appendChild(errorSpan);
                 }
-            } else {
-                priceResultDiv.innerHTML = '';
             }
+            // Re-apply translation to the newly created elements
+            setLanguage(localStorage.getItem('language') || 'en');
         }
 
         languageSelect.addEventListener('change', updateCalculator);
