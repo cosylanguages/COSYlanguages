@@ -9,14 +9,14 @@ function setLanguage(lang) {
     });
 
     // Update exam info
-    const examInfoContainer = document.getElementById('exam-info');
-    if (examInfoContainer) {
+    const examText = document.getElementById('exam-text');
+    if (examText) {
         const examKey = `exams_${lang}`;
         if (translations[lang] && translations[lang][examKey]) {
-            examInfoContainer.innerHTML = `<p>${translations[lang][examKey]}</p>`;
+            examText.setAttribute('data-translate-key', examKey);
         } else {
-             // Fallback to English if the key doesn't exist for the selected language
-            examInfoContainer.innerHTML = `<p>${translations['en']['exams_en']}</p>`;
+            // Fallback to English if the key doesn't exist for the selected language
+            examText.setAttribute('data-translate-key', 'exams_en');
         }
     }
 
