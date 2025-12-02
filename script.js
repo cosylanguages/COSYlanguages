@@ -1,9 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // --- Code for all pages ---
+
+    // Toggle functionality for events page
     // Refactored toggle functionality for events page
     const setupToggleButton = (btnId, contentId, showKey, hideKey) => {
         const toggleBtn = document.getElementById(btnId);
         const contentDiv = document.getElementById(contentId);
 
+        if (toggleBtn && contentDiv) { // This check makes it safe to run on all pages
+            toggleBtn.addEventListener('click', () => {
+                // Use getComputedStyle for a more reliable visibility check
+                const isHidden = window.getComputedStyle(contentDiv).display === 'none';
+                contentDiv.style.display = isHidden ? 'block' : 'none';
+                toggleBtn.setAttribute('data-translate-key', isHidden ? hideKey : showKey);
         if (toggleBtn && contentDiv) {
             toggleBtn.addEventListener('click', () => {
                 const isHidden = contentDiv.style.display === 'none';
@@ -30,12 +39,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 topicsDiv.style.display = 'none';
                 toggleBtn.setAttribute('data-translate-key', 'toggle_games_show');
                 setLanguage(localStorage.getItem('language') || 'en');
-            }
-        });
-    }
+            });
+        }
+    };
 
-    // Check if the current page is index.html
-    if (document.getElementById('price-calculator')) {
+    // Setup for event page buttons
+    setupToggleButton('toggle-topics-btn', 'speaking-club-topics', 'toggle_topics_show', 'toggle_topics_hide');
+    setupToggleButton('toggle-games-btn', 'game-nights-topics', 'toggle_games_show', 'toggle_games_hide');
+
+
+    // --- Page-specific code for index.html ---
+    const priceCalculator = document.getElementById('price-calculator');
+    if (priceCalculator) {
         const languageSelect = document.getElementById('language');
         const durationSelect = document.getElementById('duration');
         const courseTypeContainer = document.getElementById('course-type-container');
@@ -136,6 +151,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const numLessons = pack ? pack.lessons : 0;
             const discount = pack ? pack.discount : 0;
 
+            priceResultDiv.innerHTML = ''; // Clear previous results
+
             if (language && duration && numLessons > 0) {
                 const basePricePerLesson = pricing[language][duration];
                 if (basePricePerLesson !== undefined) {
@@ -152,14 +169,22 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="discounted-price">${symbol}${discountedCost.toFixed(2)}</span>
                         `;
                     } else {
-                        priceResultDiv.innerHTML = `Total Price: ${symbol}${totalCost.toFixed(2)}`;
+                        const priceTextSpan = document.createElement('span');
+                        priceTextSpan.setAttribute('data-translate-key', 'total_price');
+                        priceTextSpan.textContent = 'Total Price: '; // Default text
+
+                        priceResultDiv.appendChild(priceTextSpan);
+                        priceResultDiv.innerHTML += `${symbol}${totalCost.toFixed(2)}`;
                     }
                 } else {
-                    priceResultDiv.innerHTML = 'Invalid selection';
+                    const errorSpan = document.createElement('span');
+                    errorSpan.setAttribute('data-translate-key', 'invalid_selection');
+                    errorSpan.textContent = 'Invalid selection'; // Default text
+                    priceResultDiv.appendChild(errorSpan);
                 }
-            } else {
-                priceResultDiv.innerHTML = '';
             }
+            // Re-apply translation to the newly created elements
+            setLanguage(localStorage.getItem('language') || 'en');
         }
 
         languageSelect.addEventListener('change', updateCalculator);
