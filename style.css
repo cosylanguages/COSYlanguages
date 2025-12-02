@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
+    scroll-behavior: smooth;
     --primary-color: #00A896; /* Turquoise from logo */
     --secondary-color: #FFC107; /* Bright yellow for contrast */
     --accent-color: #FF6B6B; /* A catchy coral for attention */
@@ -198,6 +199,12 @@ h2 {
     font-weight: 500;
     color: var(--primary-color);
     font-weight: 600;
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+#courses li:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow);
 }
 
 #calculator form {
@@ -285,6 +292,12 @@ h2 {
 .event-item h3 {
     color: var(--primary-color);
     margin-bottom: 1rem;
+}
+
+.event-item ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .topics-toggle-btn {

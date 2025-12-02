@@ -1,21 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Check if the current page is events.html
-    if (document.getElementById('toggle-topics-btn')) {
-        const toggleBtn = document.getElementById('toggle-topics-btn');
-        const topicsDiv = document.getElementById('speaking-club-topics');
+    // Refactored toggle functionality for events page
+    const setupToggleButton = (btnId, contentId, showKey, hideKey) => {
+        const toggleBtn = document.getElementById(btnId);
+        const contentDiv = document.getElementById(contentId);
 
-        toggleBtn.addEventListener('click', () => {
-            if (topicsDiv.style.display === 'none') {
-                topicsDiv.style.display = 'block';
-                toggleBtn.setAttribute('data-translate-key', 'toggle_topics_hide');
-                setLanguage(localStorage.getItem('language') || 'en'); 
-            } else {
-                topicsDiv.style.display = 'none';
-                toggleBtn.setAttribute('data-translate-key', 'toggle_topics_show');
+        if (toggleBtn && contentDiv) {
+            toggleBtn.addEventListener('click', () => {
+                const isHidden = contentDiv.style.display === 'none';
+                contentDiv.style.display = isHidden ? 'block' : 'none';
+                toggleBtn.setAttribute('data-translate-key', isHidden ? hideKey : showKey);
                 setLanguage(localStorage.getItem('language') || 'en');
-            }
-        });
-    }
+            });
+        }
+    };
+
+    setupToggleButton('toggle-topics-btn', 'speaking-club-topics', 'toggle_topics_show', 'toggle_topics_hide');
+    setupToggleButton('toggle-games-btn', 'game-nights-topics', 'toggle_games_show', 'toggle_games_hide');
 
     if (document.getElementById('toggle-games-btn')) {
         const toggleBtn = document.getElementById('toggle-games-btn');
@@ -108,6 +108,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     const option = document.createElement('option');
                     option.value = course;
                     option.textContent = course;
+                    const courseKey = `course_${course.split(' ')[0].toLowerCase()}`;
+                    option.setAttribute('data-translate-key', courseKey);
                     select.appendChild(option);
                 });
                 courseElement = select;
@@ -117,10 +119,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 input.id = 'course-type';
                 input.value = availableCourses[0] || '';
                 input.disabled = true;
+                const courseKey = `course_${input.value.split(' ')[0].toLowerCase()}`;
+                input.setAttribute('data-translate-key', courseKey);
                 courseElement = input;
             }
             courseTypeContainer.appendChild(courseElement);
             updateCalculator();
+            setLanguage(localStorage.getItem('language') || 'en');
         }
 
         function updateCalculator() {
