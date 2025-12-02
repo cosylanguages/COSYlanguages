@@ -287,6 +287,12 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.event-item ul li a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 .topics-toggle-btn {
     background-color: var(--primary-color);
     color: var(--surface-color);
