@@ -18,10 +18,6 @@ function setLanguage(lang) {
         } else {
             // Fallback to English if the key doesn't exist for the selected language
             finalKey = 'exams_en';
-            examText.setAttribute('data-translate-key', examKey);
-        } else {
-            // Fallback to English if the key doesn't exist for the selected language
-            examText.setAttribute('data-translate-key', 'exams_en');
         }
         examText.setAttribute('data-translate-key', finalKey);
 

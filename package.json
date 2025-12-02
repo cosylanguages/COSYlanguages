@@ -1,0 +1,12 @@
+{
+  "name": "cosylanguages-website",
+  "version": "1.0.0",
+  "description": "Website for COSYlanguages",
+  "main": "script.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1"
+  }
+}

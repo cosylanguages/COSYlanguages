@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Code for all pages ---
 
     // Toggle functionality for events page
-    // Refactored toggle functionality for events page
     const setupToggleButton = (btnId, contentId, showKey, hideKey) => {
         const toggleBtn = document.getElementById(btnId);
         const contentDiv = document.getElementById(contentId);
@@ -13,31 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const isHidden = window.getComputedStyle(contentDiv).display === 'none';
                 contentDiv.style.display = isHidden ? 'block' : 'none';
                 toggleBtn.setAttribute('data-translate-key', isHidden ? hideKey : showKey);
-        if (toggleBtn && contentDiv) {
-            toggleBtn.addEventListener('click', () => {
-                const isHidden = contentDiv.style.display === 'none';
-                contentDiv.style.display = isHidden ? 'block' : 'none';
-                toggleBtn.setAttribute('data-translate-key', isHidden ? hideKey : showKey);
-                setLanguage(localStorage.getItem('language') || 'en');
-            });
-        }
-    };
-
-    setupToggleButton('toggle-topics-btn', 'speaking-club-topics', 'toggle_topics_show', 'toggle_topics_hide');
-    setupToggleButton('toggle-games-btn', 'game-nights-topics', 'toggle_games_show', 'toggle_games_hide');
-
-    if (document.getElementById('toggle-games-btn')) {
-        const toggleBtn = document.getElementById('toggle-games-btn');
-        const topicsDiv = document.getElementById('game-nights-topics');
-
-        toggleBtn.addEventListener('click', () => {
-            if (topicsDiv.style.display === 'none') {
-                topicsDiv.style.display = 'block';
-                toggleBtn.setAttribute('data-translate-key', 'toggle_games_hide');
-                setLanguage(localStorage.getItem('language') || 'en');
-            } else {
-                topicsDiv.style.display = 'none';
-                toggleBtn.setAttribute('data-translate-key', 'toggle_games_show');
                 setLanguage(localStorage.getItem('language') || 'en');
             });
         }
