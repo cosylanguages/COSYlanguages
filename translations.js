@@ -179,6 +179,7 @@ const translations = {
     contact_telegram: "Telegram ✈️:",
     // Exams section
     exams_title: "Esami di lingua 🏆",
+    exams_it: "CILS, CELI, PLIDA",
     // Events page
     events_title: "I nostri eventi 🎉",
     event_speaking_club: "Club di conversazione 🗣️",
@@ -241,6 +242,7 @@ const translations = {
     contact_telegram: "Telegram ✈️:",
     // Exams section
     exams_title: "Языковые экзамены 🏆",
+    exams_ru: "TORFL",
     // Events page
     events_title: "Наши события 🎉",
     event_speaking_club: "Разговорные клубы 🗣️",
@@ -296,13 +298,14 @@ const translations = {
     contact_notice: "Για μαθήματα εκτός σύνδεσης, εκδηλώσεις και ομαδικά μαθήματα, επικοινωνήστε μαζί μας! 📞",
     total_price: "Συνολική τιμή: ",
     invalid_selection: "Μη έγκυρη επιλογή",
-    coming_soon: "(σύντομα διαθέσιμο)",
+    coming_soon: "(σύντοма διαθέσιμο)",
     // Footer
     contact_title: "Επικοινωνήστε μαζί μας 📬",
     contact_whatsapp: "WhatsApp 📱:",
     contact_telegram: "Telegram ✈️:",
     // Exams section
     exams_title: "Γλωσσικές Εξετάσεις 🏆",
+    exams_el: "Ellinomatheia (Certificate of Attainment in Greek)",
     // Events page
     events_title: "Οι εκδηλώσεις μας 🎉",
     event_speaking_club: "Λέσχες ομιλίας 🗣️",
