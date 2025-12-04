@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ТАКОЙрусский</title>
+    <title>ТАКОрусский</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="language-page russian-page">
@@ -13,10 +13,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li>
-                <li><a href="index.html#courses" data-translate-key="nav_courses">Courses 📚</a></li>
-                <li><a href="index.html#calculator" data-translate-key="nav_calculator">Calculator 🧮</a></li>
-                <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
+                <li><a href="index.html#languages" data-translate-key="nav_languages">Языки 🌍</a></li>
+                <li><a href="index.html#courses" data-translate-key="nav_courses">Курсы 📚</a></li>
+                <li><a href="index.html#calculator" data-translate-key="nav_calculator">Калькулятор 🧮</a></li>
+                <li><a href="events.html" data-translate-key="nav_events">События 🎉</a></li>
             </ul>
         </nav>
         <div class="language-switcher-container">
@@ -32,100 +32,94 @@
 
     <main>
         <section id="language-hero">
-            <h1 data-translate-key="cosy_russian_title">Добро пожаловать в ТАКОЙрусский</h1>
-            <p data-translate-key="cosy_russian_intro">Изучайте русский язык с нами!</p>
+            <h1 data-translate-key="tako_russkiy_title">Добро пожаловать в ТАКОрусский</h1>
+            <p data-translate-key="tako_russkiy_intro">Изучайте русский язык с нами!</p>
         </section>
 
-        <section id="language-tools" class="language-content-grid">
-            <div class="language-column">
-                <h2 class="category-header" data-translate-key="learning_resources">Learning Resources 📚</h2>
-                <a href="http://www.gramota.ru/slovari/dic/" target="_blank" rel="noopener noreferrer">
-                    <h3 data-translate-key="gramota">Грамота.ру</h3>
-                    <p data-translate-key="gramota_desc">Одноязычный словарь.</p>
+        <section class="language-section">
+            <h2 class="category-header" data-translate-key="learning_resources">Учебные ресурсы 📚</h2>
+            <div class="tools-grid">
+                <a href="http://www.gramota.ru/slovari/dic/" target="_blank" rel="noopener noreferrer" class="tool-card">
+                    <h3 data-translate-key="gramota_dictionary">Словари Грамота.ру</h3>
+                    <p data-translate-key="gramota_dictionary_desc">Толковые и орфографические словари.</p>
                 </a>
-                <a href="https://ozhegov.org/" target="_blank" rel="noopener noreferrer">
-                    <h3 data-translate-key="ozhegov">Словарь Ожегова</h3>
-                    <p data-translate-key="ozhegov_desc">Одноязычный словарь.</p>
-                </a>
-                <a href="https://www.wordreference.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.wordreference.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
                     <h3 data-translate-key="word_reference">WordReference</h3>
                     <p data-translate-key="word_reference_desc">Многоязычный словарь.</p>
                 </a>
-                <a href="https://cooljugator.com/ru" target="_blank" rel="noopener noreferrer">
-                    <h3 data-translate-key="conjugation">Спряжение 🧐</h3>
-                    <p data-translate-key="conjugation_desc">Инструмент для спряжения.</p>
+                <a href="https://www.cooljugator.com/ru" target="_blank" rel="noopener noreferrer" class="tool-card">
+                    <h3 data-translate-key="cooljugator">Cooljugator</h3>
+                    <p data-translate-key="cooljugator_desc">Инструмент для спряжения.</p>
                 </a>
-                <a href="https://forvo.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://forvo.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
                     <h3 data-translate-key="forvo">Forvo</h3>
                     <p data-translate-key="forvo_desc">Руководство по произношению.</p>
                 </a>
-                <div>
+                <div class="tool-card">
                     <h3 data-translate-key="word_of_the_day">Слово дня</h3>
                     <p id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Загрузка...</p>
                 </div>
             </div>
+        </section>
 
-            <div class="language-column">
-                <h2 class="category-header" data-translate-key="media_culture">Media & Culture 🎭</h2>
-                <a href="https://radio.garden/" target="_blank" rel="noopener noreferrer">
+        <section class="language-section">
+            <h2 class="category-header" data-translate-key="media_culture">Медиа и культура 🎭</h2>
+            <div class="tools-grid">
+                <a href="https://radio.garden/" target="_blank" rel="noopener noreferrer" class="tool-card">
                     <h3 data-translate-key="radio_garden">Radio Garden 📻</h3>
                     <p data-translate-key="radio_garden_desc">Слушайте радиостанции со всего мира.</p>
                 </a>
-                <a href="https://tv.garden/" target="_blank" rel="noopener noreferrer">
+                <a href="https://tv.garden/" target="_blank" rel="noopener noreferrer" class="tool-card">
                     <h3 data-translate-key="tv_garden">TV Garden 📺</h3>
                     <p data-translate-key="tv_garden_desc">Смотрите телеканалы со всего мира.</p>
                 </a>
             </div>
+        </section>
 
-            <div class="language-column">
-                <h2 class="category-header" data-translate-key="daily_life">Daily Life 🛒</h2>
-
-                <h3 class="country-header" data-translate-key="russia">Russia 🇷🇺</h3>
-
-                <h4 class="sub-category-header" data-translate-key="fashion_beauty">Fashion & Beauty 💄</h4>
-                <a href="https://www.letu.ru/" target="_blank" rel="noopener noreferrer">
-                    <h5 data-translate-key="letoile">Л'Этуаль</h5>
-                    <p data-translate-key="letoile_desc">Russian cosmetics and perfume retailer.</p>
-                </a>
-                <a href="https://rivegauche.ru/" target="_blank" rel="noopener noreferrer">
-                    <h5 data-translate-key="rive_gauche">Рив Гош</h5>
-                    <p data-translate-key="rive_gauche_desc">Perfumery and cosmetics store chain.</p>
-                </a>
-
-                <h4 class="sub-category-header" data-translate-key="electronics_home">Electronics & Home 🏡</h4>
-                <a href="https://www.mvideo.ru/" target="_blank" rel="noopener noreferrer">
-                    <h5 data-translate-key="mvideo">М.Видео</h5>
-                    <p data-translate-key="mvideo_desc">Розничная сеть по продаже электроники и бытовой техники.</p>
-                </a>
-                <a href="https://www.dns-shop.ru/" target="_blank" rel="noopener noreferrer">
-                    <h5 data-translate-key="dns">DNS</h5>
-                    <p data-translate-key="dns_desc">Магазин цифровой и бытовой техники.</p>
-                </a>
-                <a href="https://hoff.ru/" target="_blank" rel="noopener noreferrer">
-                    <h5 data-translate-key="hoff">Hoff</h5>
-                    <p data-translate-key="hoff_desc">Furniture and home goods retailer.</p>
-                </a>
-
-                <h4 class="sub-category-header" data-translate-key="food_groceries">Food & Groceries 🍲</h4>
-                <a href="https://www.perekrestok.ru/" target="_blank" rel="noopener noreferrer">
-                    <h5 data-translate-key="perekrestok">Перекресток</h5>
-                    <p data-translate-key="perekrestok_desc">Russian supermarket chain.</p>
-                </a>
-                <a href="https://magnit.ru/" target="_blank" rel="noopener noreferrer">
-                    <h5 data-translate-key="magnit">Магнит</h5>
-                    <p data-translate-key="magnit_desc">One of Russia's largest food retailers.</p>
-                </a>
-                <a href="https://www.vkusvill.ru/" target="_blank" rel="noopener noreferrer">
-                    <h5 data-translate-key="vkusvill">ВкусВилл</h5>
-                    <p data-translate-key="vkusvill_desc">Health food supermarket chain.</p>
-                </a>
+        <section class="language-section">
+            <h2 class="category-header" data-translate-key="daily_life">Повседневная жизнь 🛒</h2>
+            <h3 class="country-header" data-translate-key="russia">Россия 🇷🇺</h3>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h4 data-translate-key="fashion_beauty">Мода и красота 💄</h4>
+                    <a href="https://www.lamoda.ru/" target="_blank" rel="noopener noreferrer">
+                        <h5 data-translate-key="lamoda">Lamoda</h5>
+                        <p data-translate-key="lamoda_desc">Интернет-магазин модной одежды.</p>
+                    </a>
+                    <a href="https://www.letu.ru/" target="_blank" rel="noopener noreferrer">
+                        <h5 data-translate-key="letual">Л'Этуаль</h5>
+                        <p data-translate-key="letual_desc">Косметика и парфюмерия.</p>
+                    </a>
+                </div>
+                <div class="tool-card">
+                    <h4 data-translate-key="electronics_home">Электроника и товары для дома 🏡</h4>
+                    <a href="https://www.mvideo.ru/" target="_blank" rel="noopener noreferrer">
+                        <h5 data-translate-key="mvideo">М.Видео</h5>
+                        <p data-translate-key="mvideo_desc">Розничная сеть по продаже электроники.</p>
+                    </a>
+                    <a href="https://www.dns-shop.ru/" target="_blank" rel="noopener noreferrer">
+                        <h5 data-translate-key="dns">DNS</h5>
+                        <p data-translate-key="dns_desc">Розничная сеть по продаже электроники и бытовой техники.</p>
+                    </a>
+                </div>
+                <div class="tool-card">
+                    <h4 data-translate-key="food_groceries">Продукты питания 🍲</h4>
+                    <a href="https://www.perekrestok.ru/" target="_blank" rel="noopener noreferrer">
+                        <h5 data-translate-key="perekrestok">Перекресток</h5>
+                        <p data-translate-key="perekrestok_desc">Супермаркет и продуктовый магазин.</p>
+                    </a>
+                    <a href="https://www.auchan.ru/" target="_blank" rel="noopener noreferrer">
+                        <h5 data-translate-key="auchan_ru">Ашан</h5>
+                        <p data-translate-key="auchan_ru_desc">Супермаркет и продуктовый магазин.</p>
+                    </a>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="contact">
-            <h3 data-translate-key="contact_title">Contact Us 📬</h3>
+            <h3 data-translate-key="contact_title">Свяжитесь с нами 📬</h3>
             <p><span data-translate-key="contact_whatsapp">WhatsApp 📱:</span> <a href="https://wa.me/330766784195">+33 07 66 78 41 95</a></p>
             <p><span data-translate-key="contact_telegram">Telegram ✈️:</span> <a href="https://t.me/cosylanguagesproject" target="_blank">@cosylanguages</a></p>
         </div>
