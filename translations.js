@@ -27,8 +27,11 @@ const translations = {
     // Courses section
     courses_title: "Courses 📚",
     course_spoken: "Spoken course 🗣️",
+    course_spoken_desc: "This course is perfect for you if you want to improve your speaking skills, fluency, and confidence in everyday conversations.",
     course_general: "General Course 📖",
+    course_general_desc: "This course is perfect for you if you want a comprehensive learning experience, covering grammar, vocabulary, reading, writing, and speaking.",
     course_exam: "Exam preparation 📝",
+    course_exam_desc: "This course is perfect for you if you are preparing for a specific language exam and need targeted practice and strategies to succeed.",
     // Calculator section
     calculator_title: "Price Calculator 🧮",
     calculator_language: "Language 🌍:",
@@ -298,8 +301,11 @@ const translations = {
     // Courses section
     courses_title: "Cours 📚",
     course_spoken: "Cours de conversation 🗣️",
+    course_spoken_desc: "Ce cours est parfait pour vous si vous souhaitez améliorer vos compétences orales, votre fluidité et votre confiance dans les conversations de tous les jours.",
     course_general: "Cours général 📖",
+    course_general_desc: "Ce cours est parfait pour vous si vous souhaitez une expérience d'apprentissage complète, couvrant la grammaire, le vocabulaire, la lecture, l'écriture et l'expression orale.",
     course_exam: "Préparation aux examens 📝",
+    course_exam_desc: "Ce cours est parfait pour vous si vous vous préparez à un examen de langue spécifique et avez besoin d'une pratique et de stratégies ciblées pour réussir.",
     // Calculator section
     calculator_title: "Calculatrice de prix 🧮",
     calculator_language: "Langue 🌍:",
@@ -417,8 +423,11 @@ const translations = {
     // Courses section
     courses_title: "Corsi 📚",
     course_spoken: "Corso di conversazione 🗣️",
+    course_spoken_desc: "Questo corso è perfetto per te se vuoi migliorare le tue abilità di conversazione, la fluidità e la fiducia nelle conversazioni di tutti i giorni.",
     course_general: "Corso generale 📖",
+    course_general_desc: "Questo corso è perfetto per te se desideri un'esperienza di apprendimento completa, che copra grammatica, vocabolario, lettura, scrittura e conversazione.",
     course_exam: "Preparazione esami 📝",
+    course_exam_desc: "Questo corso è perfetto per te se ti stai preparando per un esame di lingua specifico e hai bisogno di pratica e strategie mirate per avere successo.",
     // Calculator section
     calculator_title: "Calcolatrice prezzi 🧮",
     calculator_language: "Lingua 🌍:",
@@ -532,8 +541,11 @@ const translations = {
     // Courses section
     courses_title: "Курсы 📚",
     course_spoken: "Разговорный курс 🗣️",
+    course_spoken_desc: "Этот курс идеально подходит для вас, если вы хотите улучшить свои разговорные навыки, беглость и уверенность в повседневных разговорах.",
     course_general: "Общий курс 📖",
+    course_general_desc: "Этот курс идеально подходит для вас, если вы хотите получить всесторонний опыт обучения, охватывающий грамматику, словарный запас, чтение, письмо и разговорную речь.",
     course_exam: "Подготовка к экзаменам 📝",
+    course_exam_desc: "Этот курс идеально подходит для вас, если вы готовитесь к определенному языковому экзамену и нуждаетесь в целенаправленной практике и стратегиях для достижения успеха.",
     // Calculator section
     calculator_title: "Калькулятор цен 🧮",
     calculator_language: "Язык 🌍:",
@@ -647,8 +659,11 @@ const translations = {
     // Courses section
     courses_title: "Μαθήματα 📚",
     course_spoken: "Μάθημα ομιλίας 🗣️",
+    course_spoken_desc: "Αυτό το μάθημα είναι ιδανικό για εσάς εάν θέλετε να βελτιώσετε τις δεξιότητές σας στην ομιλία, την ευχέρεια και την αυτοπεποίθηση στις καθημερινές συνομιλίες.",
     course_general: "Γενικό Μάθημα 📖",
+    course_general_desc: "Αυτό το μάθημα είναι ιδανικό για εσάς εάν θέλετε μια ολοκληρωμένη μαθησιακή εμπειρία, που καλύπτει γραμματική, λεξιλόγιο, ανάγνωση, γραφή και ομιλία.",
     course_exam: "Προετοιμασία εξετάσεων 📝",
+    course_exam_desc: "Αυτό το μάθημα είναι ιδανικό για εσάς εάν προετοιμάζεστε για μια συγκεκριμένη γλωσσική εξέταση και χρειάζεστε στοχευμένη πρακτική και στρατηγικές για να πετύχετε.",
     // Calculator section
     calculator_title: "Υπολογιστής τιμών 🧮",
     calculator_language: "Γλώσσα 🌍:",
