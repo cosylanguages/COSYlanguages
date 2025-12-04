@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSYfrançais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="language-page french-page">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/cosylanguages.png" alt="COSYlanguages Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li>
+                <li><a href="index.html#courses" data-translate-key="nav_courses">Courses 📚</a></li>
+                <li><a href="index.html#calculator" data-translate-key="nav_calculator">Calculator 🧮</a></li>
+                <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher-container">
+            <select id="language-switcher">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+                <option value="ru">Русский</option>
+                <option value="el">Ελληνικά</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section id="language-hero">
+            <h1 data-translate-key="cosy_french_title">Bienvenue chez COSYfrançais</h1>
+            <p data-translate-key="cosy_french_intro">Apprenez le français avec nous !</p>
+        </section>
+
+        <section id="language-tools" class="language-content-grid">
+            <div class="language-column">
+                <h2 class="category-header" data-translate-key="learning_resources">Learning Resources 📚</h2>
+                <a href="https://www.larousse.fr/dictionnaires/francais-monolingue" target="_blank" rel="noopener noreferrer">
+                    <h3 data-translate-key="larousse">Larousse</h3>
+                    <p data-translate-key="larousse_desc">Dictionnaire monolingue.</p>
+                </a>
+                <a href="https://dictionnaire.lerobert.com/" target="_blank" rel="noopener noreferrer">
+                    <h3 data-translate-key="le_petit_robert">Le Petit Robert</h3>
+                    <p data-translate-key="le_petit_robert_desc">Dictionnaire monolingue.</p>
+                </a>
+                <a href="https://www.wordreference.com/" target="_blank" rel="noopener noreferrer">
+                    <h3 data-translate-key="word_reference">WordReference</h3>
+                    <p data-translate-key="word_reference_desc">Dictionnaire multilingue.</p>
+                </a>
+                <a href="https://cooljugator.com/fr" target="_blank" rel="noopener noreferrer">
+                    <h3 data-translate-key="conjugation">Conjugaison 🧐</h3>
+                    <p data-translate-key="conjugation_desc">Outil de conjugaison.</p>
+                </a>
+                <a href="https://forvo.com/" target="_blank" rel="noopener noreferrer">
+                    <h3 data-translate-key="forvo">Forvo</h3>
+                    <p data-translate-key="forvo_desc">Le guide de la prononciation.</p>
+                </a>
+                <div>
+                    <h3 data-translate-key="word_of_the_day">Mot du jour</h3>
+                    <p id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Chargement...</p>
+                </div>
+            </div>
+
+            <div class="language-column">
+                <h2 class="category-header" data-translate-key="media_culture">Media & Culture 🎭</h2>
+                <a href="https://www.lemonde.fr/" target="_blank" rel="noopener noreferrer">
+                    <h3 data-translate-key="le_monde">Le Monde 📰</h3>
+                    <p data-translate-key="le_monde_desc">Journal d'actualités français.</p>
+                </a>
+                <a href="https://radio.garden/" target="_blank" rel="noopener noreferrer">
+                    <h3 data-translate-key="radio_garden">Radio Garden 📻</h3>
+                    <p data-translate-key="radio_garden_desc">Écoutez des stations de radio du monde entier.</p>
+                </a>
+                <a href="https://tv.garden/" target="_blank" rel="noopener noreferrer">
+                    <h3 data-translate-key="tv_garden">TV Garden 📺</h3>
+                    <p data-translate-key="tv_garden_desc">Regardez des chaînes de télévision du monde entier.</p>
+                </a>
+            </div>
+
+            <div class="language-column">
+                <h2 class="category-header" data-translate-key="daily_life">Daily Life 🛒</h2>
+
+                <h3 class="country-header" data-translate-key="france">France 🇫🇷</h3>
+
+                <h4 class="sub-category-header" data-translate-key="fashion_beauty">Fashion & Beauty 💄</h4>
+                <a href="https://www.galerieslafayette.com/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="galeries_lafayette">Galeries Lafayette</h5>
+                    <p data-translate-key="galeries_lafayette_desc">French department store.</p>
+                </a>
+                <a href="https://www.sephora.fr/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="sephora">Sephora</h5>
+                    <p data-translate-key="sephora_desc">Magasin de cosmétiques et de produits de beauté.</p>
+                </a>
+
+                <h4 class="sub-category-header" data-translate-key="electronics_home">Electronics & Home 🏡</h4>
+                <a href="https://www.fnac.com/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="fnac">Fnac</h5>
+                    <p data-translate-key="fnac_desc">Électronique, livres et produits culturels.</p>
+                </a>
+                <a href="https://www.darty.com/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="darty">Darty</h5>
+                    <p data-translate-key="darty_desc">Appareils électroménagers et électroniques.</p>
+                </a>
+                <a href="https://www.boulanger.com/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="boulanger">Boulanger</h5>
+                    <p data-translate-key="boulanger_desc">Electronics and home appliances.</p>
+                </a>
+
+                <h4 class="sub-category-header" data-translate-key="food_groceries">Food & Groceries 🍲</h4>
+                <a href="https://www.carrefour.fr/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="carrefour">Carrefour</h5>
+                    <p data-translate-key="carrefour_desc">Supermarché et épicerie en ligne.</p>
+                </a>
+                <a href="https://www.e-leclerc.com/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="e_leclerc">E.Leclerc</h5>
+                    <p data-translate-key="e_leclerc_desc">French hypermarket chain.</p>
+                </a>
+                <a href="https://www.auchan.fr/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="auchan">Auchan</h5>
+                    <p data-translate-key="auchan_desc">French hypermarket chain.</p>
+                </a>
+
+                <h3 class="country-header" data-translate-key="canada">Canada 🇨🇦</h3>
+
+                <h4 class="sub-category-header" data-translate-key="fashion_beauty">Fashion & Beauty 💄</h4>
+                <a href="https://www.thebay.com/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="the_bay">The Bay</h5>
+                    <p data-translate-key="the_bay_desc">Online department store for fashion and beauty.</p>
+                </a>
+                <a href="https://www.simons.ca/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="simons">Simons</h5>
+                    <p data-translate-key="simons_desc">Canadian fashion retailer.</p>
+                </a>
+                <a href="https://www.roots.com/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="roots">Roots</h5>
+                    <p data-translate-key="roots_desc">Canadian apparel brand.</p>
+                </a>
+
+                <h4 class="sub-category-header" data-translate-key="electronics_home">Electronics & Home 🏡</h4>
+                <a href="https://www.bestbuy.ca/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="best_buy_ca">Best Buy Canada</h5>
+                    <p data-translate-key="best_buy_ca_desc">Electronics and home appliances.</p>
+                </a>
+                <a href="https://www.canadiantire.ca/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="canadian_tire">Canadian Tire</h5>
+                    <p data-translate-key="canadian_tire_desc">Home goods, automotive, and electronics.</p>
+                </a>
+
+                <h4 class="sub-category-header" data-translate-key="food_groceries">Food & Groceries 🍲</h4>
+                <a href="https://www.loblaws.ca/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="loblaws">Loblaws</h5>
+                    <p data-translate-key="loblaws_desc">Online grocery store.</p>
+                </a>
+                <a href="https://www.metro.ca/" target="_blank" rel="noopener noreferrer">
+                    <h5 data-translate-key="metro">Metro</h5>
+                    <p data-translate-key="metro_desc">Canadian supermarket chain.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <h3 data-translate-key="contact_title">Contact Us 📬</h3>
+            <p><span data-translate-key="contact_whatsapp">WhatsApp 📱:</span> <a href="https://wa.me/330766784195">+33 07 66 78 41 95</a></p>
+            <p><span data-translate-key="contact_telegram">Telegram ✈️:</span> <a href="httpshttps://t.me/cosylanguagesproject" target="_blank">@cosylanguages</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="translations.js"></script>
+    <script src="translate.js"></script>
+</body>
+</html>
