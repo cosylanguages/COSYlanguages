@@ -169,4 +169,21 @@ document.addEventListener('DOMContentLoaded', () => {
         // Initial setup
         updateCourseType();
     }
+
+    // --- Page-specific code for language pages ---
+    const wordOfTheDayElement = document.getElementById('word-of-the-day');
+    if (wordOfTheDayElement) {
+        const words = {
+            en: ["Hello", "Love", "Life", "Dream", "Freedom", "Joy", "Happiness", "Hope", "Star", "Light"],
+            fr: ["Bonjour", "Amour", "Vie", "Rêve", "Liberté", "Joie", "Bonheur", "Espoir", "Étoile", "Lumière"],
+            it: ["Ciao", "Amore", "Vita", "Sogno", "Libertà", "Gioia", "Felicità", "Speranza", "Stella", "Luce"],
+            ru: ["Привет", "Любовь", "Жизнь", "Мечта", "Свобода", "Радость", "Счастье", "Надежда", "Звезда", "Свет"],
+            el: ["Γειά", "Αγάπη", "Ζωή", "Όνειρο", "Ελευθερία", "Χαρά", "Ευτυχία", "Ελπίδα", "Αστέρι", "Φως"]
+        };
+
+        const pageLang = document.documentElement.lang;
+        const wordList = words[pageLang] || words.en;
+        const randomIndex = Math.floor(Math.random() * wordList.length);
+        wordOfTheDayElement.textContent = wordList[randomIndex];
+    }
 });

@@ -438,3 +438,77 @@ footer {
         padding: 0.8rem;
     }
 }
+
+/* Language Page Styles */
+.language-page {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.english-page {
+    background-image: url('images/uk_flag.png');
+}
+
+.french-page {
+    background-image: url('images/france_flag.png');
+}
+
+.italian-page {
+    background-image: url('images/italy_flag.png');
+}
+
+.russian-page {
+    background-image: url('images/russia_flag.png');
+}
+
+.greek-page {
+    background-image: url('images/greece_flag.png');
+}
+
+#language-hero {
+    text-align: center;
+    padding: 6rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: var(--border-radius);
+    margin-top: 4rem;
+}
+
+#language-hero h1 {
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+#language-hero p {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+/* Language Tools Styles */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.tool-card {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.tool-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.tool-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
