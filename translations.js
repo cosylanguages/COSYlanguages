@@ -78,6 +78,23 @@ const translations = {
     event_cinema_desc: "Watch movies from around the world in their original language with subtitles. A great way to immerse yourself in the culture and improve your listening skills.",
     event_games: "Game Nights 🎲",
     event_games_desc: "Play board games, card games, and video games in different languages. A fun and engaging way to learn new words and practice your communication skills.",
+    // Community page
+    nav_community: "Community 👨‍👩‍👧‍👦",
+    community_hub_title: "Welcome to the COSYlanguages Community!",
+    community_hub_intro: "This is a place for language learners to connect, practice, and share their passion for languages. We have a general community for everyone and exclusive clubs for our students.",
+    general_community_title: "General Community",
+    general_community_desc: "Open to everyone interested in languages! Join our public Geneva chat to meet fellow learners, ask questions, and stay updated on our latest news and events.",
+    join_geneva_button: "Join the Conversation!",
+    language_clubs_title: "Exclusive Language Clubs",
+    language_clubs_intro: "Our language clubs are a special benefit for students enrolled in our courses. Each club is a dedicated space to practice with native speakers and other students, get help with your studies, and immerse yourself in the language.",
+    english_club_title: "English Club 🇬🇧",
+    english_club_desc: "Practice your English with fellow students and our teachers. To join, please contact us with your course details.",
+    french_club_title: "French Club 🇫🇷",
+    french_club_desc: "Practice your French with fellow students and our teachers. To join, please contact us with your course details.",
+    italian_club_title: "Italian Club 🇮🇹",
+    italian_club_desc: "Practice your Italian with fellow students and our teachers. To join, please contact us with your course details.",
+    russian_club_title: "Russian Club 🇷🇺",
+    russian_club_desc: "Practice your Russian with fellow students and our teachers. To join, please contact us with your course details.",
   },
   fr: {
     // Nav
