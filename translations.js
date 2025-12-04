@@ -78,6 +78,17 @@ const translations = {
     event_cinema_desc: "Watch movies from around the world in their original language with subtitles. A great way to immerse yourself in the culture and improve your listening skills.",
     event_games: "Game Nights 🎲",
     event_games_desc: "Play board games, card games, and video games in different languages. A fun and engaging way to learn new words and practice your communication skills.",
+    // Language pages
+    cosy_english_title: "Welcome to COSYEnglish",
+    cosy_english_intro: "Learn English with us!",
+    cosy_french_title: "Welcome to COSYFrench",
+    cosy_french_intro: "Learn French with us!",
+    cosy_italian_title: "Welcome to COSYItalian",
+    cosy_italian_intro: "Learn Italian with us!",
+    cosy_russian_title: "Welcome to COSYRussian",
+    cosy_russian_intro: "Learn Russian with us!",
+    cosy_greek_title: "Welcome to COSYGreek",
+    cosy_greek_intro: "Learn Greek with us!",
   },
   fr: {
     // Nav
@@ -141,6 +152,17 @@ const translations = {
     event_cinema_desc: "Regardez des films du monde entier dans leur langue originale avec des sous-titres. Un excellent moyen de vous immerger dans la culture et d'améliorer vos compétences d'écoute.",
     event_games: "Soirées jeux 🎲",
     event_games_desc: "Jouez à des jeux de société, des jeux de cartes et des jeux vidéo dans différentes langues. Une façon amusante et engageante d'apprendre de nouveaux mots et de pratiquer vos compétences en communication.",
+    // Language pages
+    cosy_english_title: "Bienvenue chez COSYEnglish",
+    cosy_english_intro: "Apprenez l'anglais avec nous !",
+    cosy_french_title: "Bienvenue chez COSYfrançais",
+    cosy_french_intro: "Apprenez le français avec nous !",
+    cosy_italian_title: "Bienvenue chez COSYitalien",
+    cosy_italian_intro: "Apprenez l'italien avec nous !",
+    cosy_russian_title: "Bienvenue chez COSYrusse",
+    cosy_russian_intro: "Apprenez le russe avec nous !",
+    cosy_greek_title: "Bienvenue chez COSYgrec",
+    cosy_greek_intro: "Apprenez le grec avec nous !",
   },
   it: {
     // Nav
@@ -204,6 +226,17 @@ const translations = {
     event_cinema_desc: "Guarda film da tutto il mondo nella loro lingua originale con i sottotitoli. Un ottimo modo per immergerti nella cultura e migliorare le tue capacità di ascolto.",
     event_games: "Serate di gioco 🎲",
     event_games_desc: "Gioca a giochi da tavolo, giochi di carte e videogiochi in diverse lingue. Un modo divertente e coinvolgente per imparare nuove parole e praticare le tue abilità comunicative.",
+    // Language pages
+    cosy_english_title: "Benvenuti in COSYEnglish",
+    cosy_english_intro: "Impara l'inglese con noi!",
+    cosy_french_title: "Benvenuti in COSYfrancese",
+    cosy_french_intro: "Impara il francese con noi!",
+    cosy_italian_title: "Benvenuti in COSYitaliano",
+    cosy_italian_intro: "Impara l'italiano con noi!",
+    cosy_russian_title: "Benvenuti in COSYrusso",
+    cosy_russian_intro: "Impara il russo con noi!",
+    cosy_greek_title: "Benvenuti in COSYgreco",
+    cosy_greek_intro: "Impara il greco con noi!",
   },
   ru: {
     // Nav
@@ -267,6 +300,17 @@ const translations = {
     event_cinema_desc: "Смотрите фильмы со всего мира на языке оригинала с субтитрами. Отличный способ погрузиться в культуру и улучшить свои навыки аудирования.",
     event_games: "Игровые вечера 🎲",
     event_games_desc: "Играйте в настольные, карточные и видеоигры на разных языках. Веселый и увлекательный способ выучить новые слова и попрактиковаться в своих коммуникативных навыках.",
+    // Language pages
+    cosy_english_title: "Добро пожаловать в COSYEnglish",
+    cosy_english_intro: "Изучайте английский язык с нами!",
+    cosy_french_title: "Добро пожаловать в COSYfrançais",
+    cosy_french_intro: "Изучайте французский язык с нами!",
+    cosy_italian_title: "Добро пожаловать в COSYitaliano",
+    cosy_italian_intro: "Изучайте итальянский язык с нами!",
+    cosy_russian_title: "Добро пожаловать в ТАКОЙрусский",
+    cosy_russian_intro: "Изучайте русский язык с нами!",
+    cosy_greek_title: "Добро пожаловать в ΚΟΖΥελληνικά",
+    cosy_greek_intro: "Изучайте греческий язык с нами!",
   },
   el: {
     // Nav
@@ -330,5 +374,16 @@ const translations = {
     event_cinema_desc: "Παρακολουθήστε ταινίες από όλο τον κόσμο στην πρωτότυπη γλώσσα τους με υπότιτλοι. Ένας πολύ καλός τρόπος για να βυθιστείτε στον πολιτισμό και να βελτιώσετε τις δεξιότητές σας στην ακρόαση.",
     event_games: "Βραδιές παιχνιδιών 🎲",
     event_games_desc: "Παίξτε επιτραπέζια παιχνίδια, παιχνίδια με χαρτιά και βιντεοπαιχνίδια σε διάφορες γλώσσες. Ένας διασκεδαστικός και ελκυστικός τρόπος για να μάθετε νέες λέξεις και να εξασκήσετε τις επικοινωνιακές σας δεξιότητες.",
+    // Language pages
+    cosy_english_title: "Καλώς ήρθατε στο COSYEnglish",
+    cosy_english_intro: "Μάθετε αγγλικά μαζί μας!",
+    cosy_french_title: "Καλώς ήρθατε στο COSYfrançais",
+    cosy_french_intro: "Μάθετε γαλλικά μαζί μας!",
+    cosy_italian_title: "Καλώς ήρθατε στο COSYitaliano",
+    cosy_italian_intro: "Μάθετε ιταλικά μαζί μας!",
+    cosy_russian_title: "Καλώς ήρθατε στο ТАКОЙрусский",
+    cosy_russian_intro: "Μάθετε ρωσικά μαζί μας!",
+    cosy_greek_title: "Καλώς ήρθατε στο ΚΟΖΥελληνικά",
+    cosy_greek_intro: "Μάθετε ελληνικά μαζί μας!",
   }
 };
