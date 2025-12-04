@@ -90,6 +90,19 @@ document.addEventListener('DOMContentLoaded', () => {
             courseTypeContainer.innerHTML = ''; // Clear previous content
 
             let courseElement;
+            const descriptionElement = document.createElement('p');
+            descriptionElement.className = 'course-description'; // For styling
+
+            const updateDescription = (courseName) => {
+                if (courseName) {
+                    const descKey = `course_${courseName.split(' ')[0].toLowerCase()}_desc`;
+                    descriptionElement.setAttribute('data-translate-key', descKey);
+                } else {
+                    descriptionElement.removeAttribute('data-translate-key');
+                    descriptionElement.textContent = '';
+                }
+            };
+
             if (availableCourses.length > 1) {
                 const select = document.createElement('select');
                 select.id = 'course-type';
@@ -102,17 +115,35 @@ document.addEventListener('DOMContentLoaded', () => {
                     select.appendChild(option);
                 });
                 courseElement = select;
+
+                // Add event listener to update description on change
+                select.addEventListener('change', () => {
+                    updateDescription(select.value);
+                    // Re-run translation for the updated element
+                    setLanguage(localStorage.getItem('language') || 'en');
+                });
             } else {
                 const input = document.createElement('input');
                 input.type = 'text';
                 input.id = 'course-type';
-                input.value = availableCourses[0] || '';
+                const courseName = availableCourses[0] || '';
+                input.value = courseName;
                 input.disabled = true;
-                const courseKey = `course_${input.value.split(' ')[0].toLowerCase()}`;
-                input.setAttribute('data-translate-key', courseKey);
+                if(courseName) {
+                    const courseKey = `course_${courseName.split(' ')[0].toLowerCase()}`;
+                    input.setAttribute('data-translate-key', courseKey);
+                }
                 courseElement = input;
             }
+
             courseTypeContainer.appendChild(courseElement);
+
+            // Add and set initial description
+            if (availableCourses.length > 0) {
+                courseTypeContainer.appendChild(descriptionElement);
+                updateDescription(courseElement.value);
+            }
+
             updateCalculator();
             setLanguage(localStorage.getItem('language') || 'en');
         }
