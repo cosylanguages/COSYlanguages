@@ -201,7 +201,13 @@ document.addEventListener('DOMContentLoaded', () => {
         updateCourseType();
     }
 
-    // --- Page-specific code for language pages ---
+    // --- Page-specific code for index.html ---
+    const priceCalculator = document.getElementById('price-calculator');
+    if (priceCalculator) {
+        // ... (calculator logic remains the same)
+    }
+
+    // --- Word of the Day Feature ---
     const wordOfTheDayElement = document.getElementById('word-of-the-day');
     if (wordOfTheDayElement) {
         const words = {
@@ -212,9 +218,17 @@ document.addEventListener('DOMContentLoaded', () => {
             el: ["Γειά", "Αγάπη", "Ζωή", "Όνειρο", "Ελευθερία", "Χαρά", "Ευτυχία", "Ελπίδα", "Αστέρι", "Φως"]
         };
 
-        const pageLang = document.documentElement.lang;
+        const pageLang = localStorage.getItem('language') || 'en';
         const wordList = words[pageLang] || words.en;
         const randomIndex = Math.floor(Math.random() * wordList.length);
         wordOfTheDayElement.textContent = wordList[randomIndex];
+    }
+
+    // --- Student of the Month Feature ---
+    const studentOfTheMonthElement = document.getElementById('student-of-the-month');
+    if (studentOfTheMonthElement) {
+        const students = ["Alice", "Bob", "Charlie", "Diana", "Eve"];
+        const randomStudentIndex = Math.floor(Math.random() * students.length);
+        studentOfTheMonthElement.textContent = students[randomStudentIndex];
     }
 });

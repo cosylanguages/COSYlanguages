@@ -55,6 +55,15 @@
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.5);
 }
 
+#word-of-the-day-section, #student-of-the-month-section {
+    text-align: center;
+    padding: 3rem;
+    background-color: var(--surface-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin-bottom: 4rem;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
