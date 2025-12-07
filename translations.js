@@ -2,6 +2,8 @@ const translations = {
   en: {
     // Hero section
     hero_title: "Welcome to COSYlanguages! 🏡",
+    word_of_the_day_title: "Word of the Day 🗓️",
+    student_of_the_month_title: "Student of the Month 🎓",
     hero_subtitle: "Your friendly corner to master new languages and connect with the world. 🌍",
     hero_cta: "Explore Languages",
     // Nav
@@ -289,6 +291,8 @@ const translations = {
   fr: {
     // Hero section
     hero_title: "Bienvenue chez COSYlanguages ! 🏡",
+    word_of_the_day_title: "Mot du Jour 🗓️",
+    student_of_the_month_title: "Étudiant du Mois 🎓",
     hero_subtitle: "Votre coin convivial pour maîtriser de nouvelles langues et vous connecter avec le monde. 🌍",
     hero_cta: "Découvrir les langues",
     // Nav
@@ -424,6 +428,8 @@ const translations = {
   it: {
     // Hero section
     hero_title: "Benvenuti in COSYlanguages! 🏡",
+    word_of_the_day_title: "Parola del Giorno 🗓️",
+    student_of_the_month_title: "Studente del Mese 🎓",
     hero_subtitle: "Il tuo angolo accogliente per padroneggiare nuove lingue e connetterti con il mondo. 🌍",
     hero_cta: "Esplora le lingue",
     // Nav
@@ -555,6 +561,8 @@ const translations = {
   ru: {
     // Hero section
     hero_title: "Добро пожаловать в COSYlanguages! 🏡",
+    word_of_the_day_title: "Слово Дня 🗓️",
+    student_of_the_month_title: "Студент Месяца 🎓",
     hero_subtitle: "Ваш уютный уголок для изучения новых языков и связи с миром. 🌍",
     hero_cta: "Исследовать языки",
     // Nav
@@ -686,6 +694,8 @@ const translations = {
   el: {
     // Hero section
     hero_title: "Καλώς ήρθατε στο COSYlanguages! 🏡",
+    word_of_the_day_title: "Λέξη της Ημέρας 🗓️",
+    student_of_the_month_title: "Μαθητής του Μήνα 🎓",
     hero_subtitle: "Η φιλική σας γωνιά για να μάθετε νέες γλώσσες και να συνδεθείτε με τον κόσμο. 🌍",
     hero_cta: "Εξερευνήστε τις γλώσσες",
     // Nav
