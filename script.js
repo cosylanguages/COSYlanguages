@@ -217,4 +217,40 @@ document.addEventListener('DOMContentLoaded', () => {
         const randomIndex = Math.floor(Math.random() * wordList.length);
         wordOfTheDayElement.textContent = wordList[randomIndex];
     }
+
+    const funFactElement = document.getElementById('fun-fact');
+    if (funFactElement) {
+        const funFacts = {
+            en: [
+                "The word 'alphabet' comes from the first two letters of the Greek alphabet: alpha and beta.",
+                "Shakespeare added over 1,700 new words to the English language.",
+                "The most common letter in English is 'e'."
+            ],
+            fr: [
+                "French was the official language of England for over 300 years.",
+                "The longest word in the French dictionary is 'anticonstitutionnellement'.",
+                "It is estimated that up to a third of modern English words are of French origin."
+            ],
+            it: [
+                "The Italian alphabet has only 21 letters (j, k, w, x, and y are not included).",
+                "The longest word in Italian is 'precipitevolissimevolmente'.",
+                "Dante Alighieri is considered the 'father' of the Italian language."
+            ],
+            ru: [
+                "The Russian alphabet has 33 letters.",
+                "The word 'vodka' comes from the Russian word 'voda', which means 'water'.",
+                "The first man in space, Yuri Gagarin, was Russian."
+            ],
+            el: [
+                "The Greek language is one of the oldest in the world, with a history of over 3,000 years.",
+                "The word 'philosophy' comes from the Greek words 'philos' (love) and 'sophia' (wisdom).",
+                "Many scientific and mathematical terms have Greek roots."
+            ]
+        };
+
+        const pageLang = document.documentElement.lang;
+        const factList = funFacts[pageLang] || funFacts.en;
+        const randomIndex = Math.floor(Math.random() * factList.length);
+        funFactElement.textContent = factList[randomIndex];
+    }
 });

@@ -569,6 +569,10 @@ footer {
     line-height: 1.6;
 }
 
+#fun-fact {
+    font-style: italic;
+}
+
 .tool-card ul {
     list-style-position: inside;
     margin-top: 1rem;
