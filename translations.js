@@ -54,6 +54,7 @@ const translations = {
     contact_title: "Contact Us 📬",
     contact_whatsapp: "WhatsApp 📱:",
     contact_telegram: "Telegram ✈️:",
+    fun_fact_title: "Fun Fact of the Day 🤓",
     // Exams section
     exams_title: "Language Exams 🏆",
     exams_en: "TOEFL, IELTS, Cambridge English (C1 Advanced, C2 Proficiency), PTE Academic",
@@ -341,6 +342,7 @@ const translations = {
     contact_title: "Contactez-nous 📬",
     contact_whatsapp: "WhatsApp 📱:",
     contact_telegram: "Telegram ✈️:",
+    fun_fact_title: "Fait Amusant du Jour 🤓",
     // Exams section
     exams_title: "Examens de langue 🏆",
     exams_fr: "DELF, DALF, TCF, TEF",
@@ -476,6 +478,7 @@ const translations = {
     contact_title: "Contattaci 📬",
     contact_whatsapp: "WhatsApp 📱:",
     contact_telegram: "Telegram ✈️:",
+    fun_fact_title: "Fatto Divertente del Giorno 🤓",
     // Exams section
     exams_title: "Esami di lingua 🏆",
     exams_it: "CILS, CELI, PLIDA",
@@ -607,6 +610,7 @@ const translations = {
     contact_title: "Свяжитесь с нами 📬",
     contact_whatsapp: "WhatsApp 📱:",
     contact_telegram: "Telegram ✈️:",
+    fun_fact_title: "Интересный факт дня 🤓",
     // Exams section
     exams_title: "Языковые экзамены 🏆",
     exams_ru: "TORFL",
@@ -738,6 +742,7 @@ const translations = {
     contact_title: "Επικοινωνήστε μαζί μας 📬",
     contact_whatsapp: "WhatsApp 📱:",
     contact_telegram: "Telegram ✈️:",
+    fun_fact_title: "Αστείο Γεγονός της Ημέρας 🤓",
     // Exams section
     exams_title: "Γλωσσικές Εξετάσεις 🏆",
     exams_el: "Ellinomatheia (Certificate of Attainment in Greek)",
