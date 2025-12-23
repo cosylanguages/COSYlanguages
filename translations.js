@@ -100,6 +100,7 @@ const translations = {
     learning_resources: "Learning Resources 📚",
     media_culture: "Media & Culture 🎭",
     daily_life: "Daily Life 🛒",
+    daily_dose_title: "Your Daily Dose 💊",
     radio_garden: "Radio Garden",
     radio_garden_desc: "Listen to radio stations from all over the world.",
     tv_garden: "TV Garden",
@@ -110,6 +111,15 @@ const translations = {
     word_reference_desc: "Multilingual dictionary.",
     word_of_the_day: "Word of the Day",
     word_of_the_day_placeholder: "Loading...",
+    fun_fact_title: "Fun Fact of the Day 🤣",
+    fun_fact_placeholder: "Loading...",
+    fun_fact_en: [
+        "The English word 'goodbye' was originally a contraction of 'God be with ye'.",
+        "Shakespeare added over 1,700 words to the English language.",
+        "The most common letter in English is 'e'.",
+        "There are over 24 different dialects of English in the United States.",
+        "The word 'alphabet' comes from the first two letters of the Greek alphabet: alpha and beta."
+    ],
     cooljugator: "Cooljugator",
     cooljugator_desc: "A conjugation tool.",
     irregular_verbs: "Irregular Verbs 🧐",
@@ -383,6 +393,7 @@ const translations = {
     learning_resources: "Ressources d'apprentissage 📚",
     media_culture: "Média & Culture 🎭",
     daily_life: "Vie quotidienne 🛒",
+    daily_dose_title: "Votre dose quotidienne 💊",
     radio_garden: "Radio Garden",
     radio_garden_desc: "Écoutez des stations de radio du monde entier.",
     tv_garden: "TV Garden",
@@ -393,6 +404,15 @@ const translations = {
     word_reference_desc: "Dictionnaire multilingue.",
     word_of_the_day: "Mot du jour",
     word_of_the_day_placeholder: "Chargement...",
+    fun_fact_title: "Fait amusant du jour 🤣",
+    fun_fact_placeholder: "Chargement...",
+    fun_fact_fr: [
+        "Le français est la langue officielle de 29 pays.",
+        "Environ 45% des mots anglais ont une origine française.",
+        "Le mot 'lettre' peut signifier à la fois une lettre de l'alphabet et un courrier.",
+        "Il n'y a pas de 'w' natif en français.",
+        "Le français est la langue de la diplomatie."
+    ],
     cooljugator: "Cooljugator",
     cooljugator_desc: "Un outil de conjugaison.",
     // French Page
@@ -518,6 +538,7 @@ const translations = {
     learning_resources: "Risorse di apprendimento 📚",
     media_culture: "Media & Cultura 🎭",
     daily_life: "Vita quotidiana 🛒",
+    daily_dose_title: "La tua dose quotidiana 💊",
     radio_garden: "Radio Garden",
     radio_garden_desc: "Ascolta le stazioni radio di tutto il mondo.",
     tv_garden: "TV Garden",
@@ -528,6 +549,15 @@ const translations = {
     word_reference_desc: "Dizionario multilingue.",
     word_of_the_day: "Parola del giorno",
     word_of_the_day_placeholder: "Caricamento in corso...",
+    fun_fact_title: "Fatto divertente del giorno 🤣",
+    fun_fact_placeholder: "Caricamento in corso...",
+    fun_fact_it: [
+        "L'italiano è la lingua ufficiale della musica classica.",
+        "Ci sono oltre 15 dialetti italiani.",
+        "La parola 'pizza' è una delle parole italiane più conosciute al mondo.",
+        "L'italiano è la lingua ufficiale del Vaticano.",
+        "L'italiano è parlato da oltre 85 milioni di persone in tutto il mondo."
+    ],
     cooljugator: "Cooljugator",
     cooljugator_desc: "Uno strumento di coniugazione.",
     // Italian Page
@@ -649,6 +679,7 @@ const translations = {
     learning_resources: "Учебные ресурсы 📚",
     media_culture: "Медиа и культура 🎭",
     daily_life: "Повседневная жизнь 🛒",
+    daily_dose_title: "Ваша ежедневная доза 💊",
     radio_garden: "Radio Garden",
     radio_garden_desc: "Слушайте радиостанции со всего мира.",
     tv_garden: "TV Garden",
@@ -659,6 +690,15 @@ const translations = {
     word_reference_desc: "Многоязычный словарь.",
     word_of_the_day: "Слово дня",
     word_of_the_day_placeholder: "Загрузка...",
+    fun_fact_title: "Забавный факт дня 🤣",
+    fun_fact_placeholder: "Загрузка...",
+    fun_fact_ru: [
+        "Русский язык является одним из шести официальных языков ООН.",
+        "В русском языке около 200 000 слов.",
+        "Русский язык является восьмым по распространенности языком в мире.",
+        "Буква 'ё' в русском языке появилась только в 18 веке.",
+        "Русский язык является одним из самых сложных языков для изучения."
+    ],
     cooljugator: "Cooljugator",
     cooljugator_desc: "Инструмент для спряжения.",
     // Russian Page
@@ -728,7 +768,7 @@ const translations = {
     pack_maestro: 'Πακέτο "Μαέστρος" (32 μαθήματα, έκπτωση 15%)',
     calculator_currency: "Νόμισμα 💵:",
     currency_eur: "Ευρώ (€)",
-    currency_usd: "Δολάριο ΗΠΑ ($)",
+    currency_usd: "Δολάrio ΗΠΑ ($)",
     currency_rub: "Ρούβλι Ρωσίας (₽)",
     contact_notice: "Για μαθήματα εκτός σύνδεσης, εκδηλώσεις και ομαδικά μαθήματα, επικοινωνήστε μαζί μας! 📞",
     total_price: "Συνολική τιμή: ",
@@ -780,6 +820,7 @@ const translations = {
     learning_resources: "Μαθησιακοί πόροι 📚",
     media_culture: "Μέσα & Πολιτισμός 🎭",
     daily_life: "Καθημερινή ζωή 🛒",
+    daily_dose_title: "Η ημερήσια δόση σας 💊",
     radio_garden: "Radio Garden",
     radio_garden_desc: "Ακούστε ραδιοφωνικούς σταθμούς από όλο τον κόσμο.",
     tv_garden: "TV Garden",
@@ -790,6 +831,15 @@ const translations = {
     word_reference_desc: "Πολύγλωσσο λεξικό.",
     word_of_the_day: "Λέξη της ημέρας",
     word_of_the_day_placeholder: "Φόρτωση...",
+    fun_fact_title: "Αστείο γεγονός της ημέρας 🤣",
+    fun_fact_placeholder: "Φόρτωση...",
+    fun_fact_el: [
+        "Η ελληνική γλώσσα είναι μία από τις αρχαιότερες γλώσσες του κόσμου.",
+        "Η ελληνική γλώσσα έχει επηρεάσει πολλές άλλες γλώσσες, συμπεριλαμβανομένων των αγγλικών.",
+        "Η λέξη 'αλφάβητο' προέρχεται από τα δύο πρώτα γράμματα του ελληνικού αλφαβήτου: άλφα και βήτα.",
+        "Η ελληνική γλώσσα έχει τρία γένη: αρσενικό, θηλυκό και ουδέτερο.",
+        "Η ελληνική γλώσσα ομιλείται από περίπου 13 εκατομμύρια ανθρώπους παγκοσμίως."
+    ],
     cooljugator: "Cooljugator",
     cooljugator_desc: "Ένα εργαλείο κλίσης.",
     // Greek Page

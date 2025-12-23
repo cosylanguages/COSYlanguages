@@ -21,6 +21,15 @@ document.addEventListener('DOMContentLoaded', () => {
     setupToggleButton('toggle-topics-btn', 'speaking-club-topics', 'toggle_topics_show', 'toggle_topics_hide');
     setupToggleButton('toggle-games-btn', 'game-nights-topics', 'toggle_games_show', 'toggle_games_hide');
 
+    // Helper function to get the day of the year
+    const getDayOfYear = () => {
+        const now = new Date();
+        const start = new Date(now.getFullYear(), 0, 0);
+        const diff = now - start;
+        const oneDay = 1000 * 60 * 60 * 24;
+        return Math.floor(diff / oneDay);
+    };
+
 
     // --- Page-specific code for index.html ---
     const priceCalculator = document.getElementById('price-calculator');
@@ -214,7 +223,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const pageLang = document.documentElement.lang;
         const wordList = words[pageLang] || words.en;
-        const randomIndex = Math.floor(Math.random() * wordList.length);
-        wordOfTheDayElement.textContent = wordList[randomIndex];
+        const dayOfYear = getDayOfYear();
+        const dailyIndex = dayOfYear % wordList.length;
+        wordOfTheDayElement.textContent = wordList[dailyIndex];
+    }
+
+    const funFactElement = document.getElementById('fun-fact-of-the-day');
+    if (funFactElement) {
+        const pageLang = document.documentElement.lang;
+        const factListKey = `fun_fact_${pageLang}`;
+        const factList = translations[pageLang]?.[factListKey];
+
+        if (factList && factList.length > 0) {
+            const dayOfYear = getDayOfYear();
+            const dailyIndex = dayOfYear % factList.length;
+            funFactElement.textContent = factList[dailyIndex];
+        }
     }
 });
