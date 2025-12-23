@@ -10,7 +10,7 @@
     --text-color: #34495E;
     --light-gray: #E9ECEF;
     --border-radius: 15px; /* Slightly more rounded corners */
-    --box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05); /* Softer shadow */
+    --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Even softer shadow */
     --transition-speed: 0.3s;
 }
 
@@ -63,7 +63,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(170deg, #f5f7fa 0%, #e9ecef 100%);
+    background: linear-gradient(170deg, #fdfbfb 0%, #ebedee 100%);
     color: var(--text-color);
     line-height: 1.8;
     font-size: 16px;
@@ -406,6 +406,7 @@ footer {
         flex-direction: column;
         gap: 1.5rem;
         padding: 1rem;
+        backdrop-filter: none; /* Optional: remove blur on mobile for performance */
     }
     
     nav ul {
@@ -420,6 +421,18 @@ footer {
 
     section {
         padding: 1.5rem;
+    }
+
+    #hero {
+        padding: 3rem 1.5rem; /* Reduced vertical padding on tablets */
+    }
+
+    #hero h1 {
+        font-size: 2.5rem; /* Smaller hero title */
+    }
+
+    #hero p {
+        font-size: 1.1rem; /* Smaller hero subtitle */
     }
 
     h2 {
@@ -456,6 +469,10 @@ footer {
 @media (max-width: 480px) {
     .logo img {
         height: 50px;
+    }
+
+    #hero h1 {
+        font-size: 2rem; /* Even smaller hero title for phones */
     }
 
     h2 {
@@ -519,7 +536,7 @@ footer {
 
 .tool-card {
     background-color: var(--surface-color);
-    padding: 2.5rem;
+    padding: 1.5rem; /* Reduced padding on mobile */
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
     border: 1px solid var(--light-gray);
@@ -577,6 +594,10 @@ footer {
 
 .tool-card li {
     margin-bottom: 0.5rem;
+}
+
+#fun-fact-card {
+    background-color: #f0f8ff; /* A light, friendly blue */
 }
 
 .language-page {
