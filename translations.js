@@ -171,6 +171,10 @@ const translations = {
     triantafyllides_dictionary_desc: "Μονόγλωσσο λεξικό.",
     skroutz_fashion: "Skroutz Fashion",
     skroutz_fashion_desc: "Δημοφιλής online αγορά για μόδα.",
+    // Level test
+    level_test_header: "Test Your Level 🧐",
+    level_test_title: "Level Test",
+    level_test_desc: "Take this test to find out your English level.",
     // Shops
     fashion_beauty: "Fashion & Beauty 💄",
     electronics_home: "Electronics & Home 🏡",
@@ -424,6 +428,10 @@ const translations = {
     sephora_fr_desc: "Cosmétiques et produits de beauté.",
     auchan: "Auchan",
     auchan_desc: "Supermarché et épicerie.",
+    // Level test
+    level_test_header: "Testez votre niveau 🧐",
+    level_test_title: "Test de niveau",
+    level_test_desc: "Passez ce test pour connaître votre niveau de français.",
     // Shops
     fashion_beauty: "Mode & Beauté 💄",
     electronics_home: "Électronique & Maison 🏡",
@@ -567,6 +575,10 @@ const translations = {
     sephora_it_desc: "Cosmetici e prodotti di bellezza.",
     coop: "Coop",
     coop_desc: "Supermercato e negozio di alimentari.",
+    // Level test
+    level_test_header: "Metti alla prova il tuo livello 🧐",
+    level_test_title: "Test di livello",
+    level_test_desc: "Fai questo test per scoprire il tuo livello di italiano.",
     // Shops
     fashion_beauty: "Moda & Bellezza 💄",
     electronics_home: "Elettronica & Casa 🏡",
@@ -710,6 +722,10 @@ const translations = {
     letual_desc: "Косметика и парфюмерия.",
     auchan_ru: "Ашан",
     auchan_ru_desc: "Супермаркет и продуктовый магазин.",
+    // Level test
+    level_test_header: "Проверьте свой уровень 🧐",
+    level_test_title: "Тест на определение уровня",
+    level_test_desc: "Пройдите тест, чтобы узнать свой уровень русского языка.",
     // Shops
     fashion_beauty: "Мода и красота 💄",
     electronics_home: "Электроника и товары для дома 🏡",
@@ -847,6 +863,9 @@ const translations = {
     triantafyllides_dictionary_desc: "Μονόγλωσσο λεξικό.",
     skroutz_fashion: "Skroutz Fashion",
     skroutz_fashion_desc: "Δημοφιλής online αγορά για μόδα.",
+    level_test_header: "Δοκιμάστε το επίπεδό σας 🧐",
+    level_test_title: "Τεστ επιπέδου",
+    level_test_desc: "Κάντε αυτό το τεστ για να μάθετε το επίπεδό σας στα ελληνικά.",
     // Shops
     fashion_beauty: "Μόδα & Ομορφιά 💄",
     electronics_home: "Ηλεκτρονικά & Σπίτι 🏡",
