@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSY Dictionary</title>
+    <style>
+        :root { --primary: #4a90e2; --success: #27ae60; --dark: #2c3e50; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; color: var(--dark); display: flex; flex-direction: column; align-items: center; padding: 20px; }
+
+        /* Dashboard Container */
+        .container { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 500px; }
+        h2 { text-align: center; color: var(--primary); }
+
+        /* Input Styles */
+        .input-group { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+        input { padding: 12px; border: 2px solid #ddd; border-radius: 8px; outline: none; transition: 0.3s; }
+        input:focus { border-color: var(--primary); }
+        button { padding: 12px; cursor: pointer; border: none; border-radius: 8px; font-weight: bold; transition: 0.3s; }
+        .btn-add { background: var(--primary); color: white; }
+        .btn-add:hover { background: #357abd; }
+        .btn-practice { background: var(--success); color: white; width: 100%; margin-top: 10px; font-size: 1.1em; }
+
+        /* Word List */
+        .word-list { margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px; max-height: 200px; overflow-y: auto; }
+        .word-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #fafafa; }
+        .delete-btn { color: #e74c3c; cursor: pointer; font-weight: bold; }
+
+        /* Flashcard Modal */
+        #practice-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(44, 62, 80, 0.95); display: none;
+            flex-direction: column; align-items: center; justify-content: center; z-index: 1000;
+        }
+        .card {
+            width: 300px; height: 200px; perspective: 1000px; cursor: pointer; position: relative;
+        }
+        .card-inner {
+            position: relative; width: 100%; height: 100%; text-align: center;
+            transition: transform 0.6s; transform-style: preserve-3d;
+        }
+        .card.flipped .card-inner { transform: rotateY(180deg); }
+        .card-front, .card-back {
+            position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 28px; border-radius: 15px; color: white; padding: 20px;
+        }
+        .card-front { background: var(--primary); }
+        .card-back { background: var(--success); transform: rotateY(180deg); font-size: 22px; }
+        .controls { margin-top: 30px; display: flex; gap: 20px; }
+        .btn-nav { background: white; color: var(--dark); padding: 10px 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>COSY Vocabulary</h2>
+
+        <div class="input-group">
+            <input type="text" id="wordInput" placeholder="New English word...">
+            <input type="text" id="defInput" placeholder="Definition or translation...">
+            <button class="btn-add" onclick="addWord()">Add to My Collection</button>
+        </div>
+
+        <button class="btn-practice" onclick="openPractice()">🔥 Practice Mode</button>
+
+        <div class="word-list" id="wordList">
+            </div>
+    </div>
+
+    <div id="practice-overlay">
+        <div class="card" onclick="flipCard()">
+            <div class="card-inner" id="cardInner">
+                <div class="card-front" id="displayWord">Word</div>
+                <div class="card-back" id="displayDef">Definition</div>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="btn-nav" onclick="prevCard()">← Back</button>
+            <button class="btn-nav" onclick="nextCard()">Next →</button>
+            <button class="btn-nav" onclick="closePractice()" style="background:#e74c3c; color:white;">Exit</button>
+        </div>
+    </div>
+
+    <script>
+        let vocab = JSON.parse(localStorage.getItem('cosy_vocab')) || [];
+        let currentIndex = 0;
+
+        function renderList() {
+            const listDiv = document.getElementById('wordList');
+            listDiv.innerHTML = vocab.map((item, index) => `
+                <div class="word-item">
+                    <span><strong>${item.word}</strong>: ${item.def}</span>
+                    <span class="delete-btn" onclick="deleteWord(${index})">✕</span>
+                </div>
+            `).join('');
+            localStorage.setItem('cosy_vocab', JSON.stringify(vocab));
+        }
+
+        function addWord() {
+            const word = document.getElementById('wordInput').value;
+            const def = document.getElementById('defInput').value;
+            if(!word || !def) return alert("Fill in both fields!");
+
+            vocab.push({word, def});
+            document.getElementById('wordInput').value = '';
+            document.getElementById('defInput').value = '';
+            renderList();
+        }
+
+        function deleteWord(index) {
+            vocab.splice(index, 1);
+            renderList();
+        }
+
+        // Practice Mode Logic
+        function openPractice() {
+            if(vocab.length === 0) return alert("Add some words first!");
+            document.getElementById('practice-overlay').style.display = 'flex';
+            currentIndex = 0;
+            updateCard();
+        }
+
+        function flipCard() {
+            document.getElementById('cardInner').parentElement.classList.toggle('flipped');
+            // Speech Synthesis: Speak the word when showing it
+            if (!document.getElementById('cardInner').parentElement.classList.contains('flipped')) {
+                speak(vocab[currentIndex].word);
+            }
+        }
+
+        function updateCard() {
+            document.getElementById('cardInner').parentElement.classList.remove('flipped');
+            document.getElementById('displayWord').innerText = vocab[currentIndex].word;
+            document.getElementById('displayDef').innerText = vocab[currentIndex].def;
+            speak(vocab[currentIndex].word);
+        }
+
+        function nextCard() {
+            currentIndex = (currentIndex + 1) % vocab.length;
+            updateCard();
+        }
+
+        function prevCard() {
+            currentIndex = (currentIndex - 1 + vocab.length) % vocab.length;
+            updateCard();
+        }
+
+        function closePractice() {
+            document.getElementById('practice-overlay').style.display = 'none';
+        }
+
+        function speak(text) {
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'en-US';
+            window.speechSynthesis.speak(utterance);
+        }
+
+        renderList(); // Load saved words on startup
+    </script>
+</body>
+</html>
