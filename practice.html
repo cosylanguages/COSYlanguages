@@ -47,6 +47,7 @@
             position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
             display: flex; align-items: center; justify-content: center;
             font-size: 28px; border-radius: 15px; color: white; padding: 20px;
+            flex-direction: column;
         }
         .card-front { background: var(--primary); }
         .card-back { background: var(--success); transform: rotateY(180deg); font-size: 22px; }
@@ -62,6 +63,7 @@
         <div class="input-group">
             <input type="text" id="wordInput" placeholder="New English word...">
             <input type="text" id="defInput" placeholder="Definition or translation...">
+            <input type="text" id="exampleInput" placeholder="Example sentence...">
             <button class="btn-add" onclick="addWord()">Add to My Collection</button>
         </div>
 
@@ -99,7 +101,10 @@
             const listDiv = document.getElementById('wordList');
             listDiv.innerHTML = vocab.map((item, index) => `
                 <div class="word-item">
-                    <span><strong>${item.word}</strong>: ${item.def}</span>
+                    <span>
+                        <strong>${item.word}</strong>: ${item.def}
+                        ${item.example ? `<br><em style="font-size: 0.9em; color: #555;">"${item.example}"</em>` : ''}
+                    </span>
                     <span class="delete-btn" onclick="deleteWord(${index})">✕</span>
                 </div>
             `).join('');
@@ -109,11 +114,13 @@
         function addWord() {
             const word = document.getElementById('wordInput').value;
             const def = document.getElementById('defInput').value;
+            const example = document.getElementById('exampleInput').value;
             if(!word || !def) return alert("Fill in both fields!");
 
-            vocab.push({word, def});
+            vocab.push({word, def, example});
             document.getElementById('wordInput').value = '';
             document.getElementById('defInput').value = '';
+            document.getElementById('exampleInput').value = '';
             renderList();
         }
 
@@ -177,10 +184,20 @@
         }
 
         function updateCard() {
+            const cardBack = document.getElementById('displayDef');
+            const currentItem = vocab[currentIndex];
+
             document.getElementById('cardInner').parentElement.classList.remove('flipped');
-            document.getElementById('displayWord').innerText = vocab[currentIndex].word;
-            document.getElementById('displayDef').innerText = vocab[currentIndex].def;
-            speak(vocab[currentIndex].word);
+            document.getElementById('displayWord').innerText = currentItem.word;
+
+            // Construct the back of the card
+            let backContent = `<span>${currentItem.def}</span>`;
+            if (currentItem.example) {
+                backContent += `<br><em style="font-size: 0.6em; margin-top: 10px;">"${currentItem.example}"</em>`;
+            }
+            cardBack.innerHTML = backContent;
+
+            speak(currentItem.word);
         }
 
         function nextCard() {
