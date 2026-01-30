@@ -24,6 +24,10 @@
         .btn-export { background: #f39c12; color: white; flex-grow: 1; }
         .btn-import { background: #9b59b6; color: white; flex-grow: 1; }
 
+        .language-selector { display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 20px; }
+        .language-selector label { font-weight: bold; }
+        .language-selector select { padding: 8px; border-radius: 8px; border: 2px solid #ddd; font-size: 1em; }
+
         /* Word List */
         .word-list { margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px; max-height: 200px; overflow-y: auto; }
         .word-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #fafafa; }
@@ -60,8 +64,19 @@
     <div class="container">
         <h2>COSY Vocabulary</h2>
 
+        <div class="language-selector">
+            <label for="lang-select">Word Language:</label>
+            <select id="lang-select" onchange="setLanguage()">
+                <option value="en-US">English</option>
+                <option value="fr-FR">French</option>
+                <option value="it-IT">Italian</option>
+                <option value="el-GR">Greek</option>
+                <option value="ru-RU">Russian</option>
+            </select>
+        </div>
+
         <div class="input-group">
-            <input type="text" id="wordInput" placeholder="New English word...">
+            <input type="text" id="wordInput" placeholder="New word...">
             <input type="text" id="defInput" placeholder="Definition or translation...">
             <input type="text" id="exampleInput" placeholder="Example sentence...">
             <button class="btn-add" onclick="addWord()">Add to My Collection</button>
@@ -216,10 +231,17 @@
 
         function speak(text) {
             const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = 'en-US';
+            utterance.lang = document.getElementById('lang-select').value;
             window.speechSynthesis.speak(utterance);
         }
 
+        function setLanguage() {
+            const selectedLang = document.getElementById('lang-select').value;
+            localStorage.setItem('cosy_vocab_lang', selectedLang);
+        }
+
+        // Load saved language on startup
+        document.getElementById('lang-select').value = localStorage.getItem('cosy_vocab_lang') || 'en-US';
         renderList(); // Load saved words on startup
     </script>
 </body>
