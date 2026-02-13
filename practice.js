@@ -14,6 +14,17 @@ const lessonsData = {
                 { word: "alright", emoji: "👍", type: "true_false" },
                 { word: "sorry", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "or", emoji: "🔀", type: "true_false" },
+                // At the restaurant
+                { word: "coffee", emoji: "☕", type: "true_false" },
+                { word: "tea", emoji: "🍵", type: "true_false" },
+                { word: "juice", emoji: "🧃", type: "true_false" },
+                { word: "wine", emoji: "🍷", type: "true_false" },
+                { word: "beer", emoji: "🍺", type: "true_false" },
+                { word: "water", emoji: "💧", type: "true_false" },
+                { word: "cash", emoji: "💵", opposite: "card", type: "opposite" },
+                { word: "card", emoji: "💳", opposite: "cash", type: "opposite" },
+                { word: "what", emoji: "❓", type: "true_false" },
+                { word: "but", emoji: "➰", type: "true_false" },
             ]
         }
     },
@@ -32,12 +43,23 @@ const lessonsData = {
                 { word: "d'accord", emoji: "👍", type: "true_false" },
                 { word: "désolé", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "ou", emoji: "🔀", type: "true_false" },
+                // Au restaurant
+                { word: "café", emoji: "☕", type: "true_false" },
+                { word: "thé", emoji: "🍵", type: "true_false" },
+                { word: "jus", emoji: "🧃", type: "true_false" },
+                { word: "vin", emoji: "🍷", type: "true_false" },
+                { word: "bière", emoji: "🍺", type: "true_false" },
+                { word: "eau", emoji: "💧", type: "true_false" },
+                { word: "espèces", emoji: "💵", opposite: "carte", type: "opposite" },
+                { word: "carte", emoji: "💳", opposite: "espèces", type: "opposite" },
+                { word: "quoi", emoji: "❓", type: "true_false" },
+                { word: "mais", emoji: "➰", type: "true_false" },
             ]
         }
     },
     it: {
         1: {
-            title: "Giorno 1 | Vocabulario di base",
+            title: "Giorno 1 | Vocabolario di base",
             words: [
                 { word: "ciao", emoji: "👋", opposite: "arrivederci", type: "opposite" },
                 { word: "arrivederci", emoji: "🖐️", opposite: "ciao", type: "opposite" },
@@ -50,6 +72,17 @@ const lessonsData = {
                 { word: "va bene", emoji: "👍", type: "true_false" },
                 { word: "scusa", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "o", emoji: "🔀", type: "true_false" },
+                // Al ristorante
+                { word: "caffè", emoji: "☕", type: "true_false" },
+                { word: "tè", emoji: "🍵", type: "true_false" },
+                { word: "succo", emoji: "🧃", type: "true_false" },
+                { word: "vino", emoji: "🍷", type: "true_false" },
+                { word: "birra", emoji: "🍺", type: "true_false" },
+                { word: "acqua", emoji: "💧", type: "true_false" },
+                { word: "contanti", emoji: "💵", opposite: "carta", type: "opposite" },
+                { word: "carta", emoji: "💳", opposite: "contanti", type: "opposite" },
+                { word: "cosa", emoji: "❓", type: "true_false" },
+                { word: "ma", emoji: "➰", type: "true_false" },
             ]
         }
     },
@@ -68,6 +101,17 @@ const lessonsData = {
                 { word: "хорошо", emoji: "👍", type: "true_false" },
                 { word: "извини", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "или", emoji: "🔀", type: "true_false" },
+                // В ресторане
+                { word: "кофе", emoji: "☕", type: "true_false" },
+                { word: "чай", emoji: "🍵", type: "true_false" },
+                { word: "сок", emoji: "🧃", type: "true_false" },
+                { word: "вино", emoji: "🍷", type: "true_false" },
+                { word: "пиво", emoji: "🍺", type: "true_false" },
+                { word: "вода", emoji: "💧", type: "true_false" },
+                { word: "наличные", emoji: "💵", opposite: "карта", type: "opposite" },
+                { word: "карта", emoji: "💳", opposite: "наличные", type: "opposite" },
+                { word: "что", emoji: "❓", type: "true_false" },
+                { word: "но", emoji: "➰", type: "true_false" },
             ]
         }
     },
@@ -86,6 +130,17 @@ const lessonsData = {
                 { word: "εντάξει", emoji: "👍", type: "true_false" },
                 { word: "συγγνώμη", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "ή", emoji: "🔀", type: "true_false" },
+                // Στο εστιατόριο
+                { word: "καφές", emoji: "☕", type: "true_false" },
+                { word: "τσάι", emoji: "🍵", type: "true_false" },
+                { word: "χυμός", emoji: "🧃", type: "true_false" },
+                { word: "κρασί", emoji: "🍷", type: "true_false" },
+                { word: "μπύρα", emoji: "🍺", type: "true_false" },
+                { word: "νερό", emoji: "💧", type: "true_false" },
+                { word: "μετρητά", emoji: "💵", opposite: "κάρτα", type: "opposite" },
+                { word: "κάρτα", emoji: "💳", opposite: "μετρητά", type: "opposite" },
+                { word: "τι", emoji: "❓", type: "true_false" },
+                { word: "αλλά", emoji: "➰", type: "true_false" },
             ]
         }
     }

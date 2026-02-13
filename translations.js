@@ -625,7 +625,7 @@ const translations = {
     next_word: "Prossima parola ➡️",
     correct: "Corretto! 🎉",
     incorrect: "Incorretto. Riprova! ❌",
-    lesson_1_title: "Giorno 1 | Vocabulario di base",
+    lesson_1_title: "Giorno 1 | Vocabolario di base",
   },
   ru: {
     // Hero section
