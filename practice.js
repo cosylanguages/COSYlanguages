@@ -14,6 +14,33 @@ const lessonsData = {
                 { word: "alright", emoji: "👍", type: "true_false" },
                 { word: "sorry", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "or", emoji: "🔀", type: "true_false" },
+                // At the restaurant
+                { word: "coffee", emoji: "☕", type: "true_false" },
+                { word: "tea", emoji: "🍵", type: "true_false" },
+                { word: "juice", emoji: "🧃", type: "true_false" },
+                { word: "wine", emoji: "🍷", type: "true_false" },
+                { word: "beer", emoji: "🍺", type: "true_false" },
+                { word: "water", emoji: "💧", type: "true_false" },
+                { word: "cash", emoji: "💵", opposite: "card", type: "opposite" },
+                { word: "card", emoji: "💳", opposite: "cash", type: "opposite" },
+                { word: "what", emoji: "❓", type: "true_false" },
+                { word: "but", emoji: "➰", type: "true_false" },
+            ]
+        },
+        2: {
+            title: "Day 2 | A thing or a person?",
+            words: [
+                { word: "thing", emoji: "📦", opposite: "person", type: "opposite" },
+                { word: "person", emoji: "👤", opposite: "thing", type: "opposite" },
+                { word: "man", emoji: "👨", opposite: "woman", type: "opposite" },
+                { word: "woman", emoji: "👩", opposite: "man", type: "opposite" },
+                { word: "boy", emoji: "👦", opposite: "girl", type: "opposite" },
+                { word: "girl", emoji: "👧", opposite: "boy", type: "opposite" },
+                { word: "teacher", emoji: "👨‍🏫", opposite: "student", type: "opposite" },
+                { word: "student", emoji: "👨‍🎓", opposite: "teacher", type: "opposite" },
+                { word: "who", emoji: "👤❓", opposite: "what", type: "opposite" },
+                { word: "what", emoji: "📦❓", opposite: "who", type: "opposite" },
+                { word: "and", emoji: "➕", type: "true_false" },
             ]
         }
     },
@@ -32,12 +59,41 @@ const lessonsData = {
                 { word: "d'accord", emoji: "👍", type: "true_false" },
                 { word: "désolé", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "ou", emoji: "🔀", type: "true_false" },
+                // Au restaurant
+                { word: "café", emoji: "☕", type: "true_false" },
+                { word: "thé", emoji: "🍵", type: "true_false" },
+                { word: "jus", emoji: "🧃", type: "true_false" },
+                { word: "vin", emoji: "🍷", type: "true_false" },
+                { word: "bière", emoji: "🍺", type: "true_false" },
+                { word: "eau", emoji: "💧", type: "true_false" },
+                { word: "espèces", emoji: "💵", opposite: "carte", type: "opposite" },
+                { word: "carte", emoji: "💳", opposite: "espèces", type: "opposite" },
+                { word: "quoi", emoji: "❓", type: "true_false" },
+                { word: "mais", emoji: "➰", type: "true_false" },
+            ]
+        },
+        2: {
+            title: "Jour 2 | Une chose ou une personne ?",
+            words: [
+                { word: "une chose", emoji: "📦", opposite: "une personne", type: "opposite" },
+                { word: "une personne", emoji: "👤", opposite: "une chose", type: "opposite" },
+                { word: "un homme", emoji: "👨", opposite: "une femme", type: "opposite" },
+                { word: "une femme", emoji: "👩", opposite: "un homme", type: "opposite" },
+                { word: "un garçon", emoji: "👦", opposite: "une fille", type: "opposite" },
+                { word: "une fille", emoji: "👧", opposite: "un garçon", type: "opposite" },
+                { word: "un professeur", emoji: "👨‍🏫", opposite: "une professeure", type: "opposite" },
+                { word: "une professeure", emoji: "👩‍🏫", opposite: "un professeur", type: "opposite" },
+                { word: "un étudiant", emoji: "👨‍🎓", opposite: "une étudiante", type: "opposite" },
+                { word: "une étudiante", emoji: "👩‍🎓", opposite: "un étudiant", type: "opposite" },
+                { word: "qui", emoji: "👤❓", opposite: "quoi", type: "opposite" },
+                { word: "quoi", emoji: "📦❓", opposite: "qui", type: "opposite" },
+                { word: "et", emoji: "➕", type: "true_false" },
             ]
         }
     },
     it: {
         1: {
-            title: "Giorno 1 | Vocabulario di base",
+            title: "Giorno 1 | Vocabolario di base",
             words: [
                 { word: "ciao", emoji: "👋", opposite: "arrivederci", type: "opposite" },
                 { word: "arrivederci", emoji: "🖐️", opposite: "ciao", type: "opposite" },
@@ -50,6 +106,35 @@ const lessonsData = {
                 { word: "va bene", emoji: "👍", type: "true_false" },
                 { word: "scusa", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "o", emoji: "🔀", type: "true_false" },
+                // Al ristorante
+                { word: "caffè", emoji: "☕", type: "true_false" },
+                { word: "tè", emoji: "🍵", type: "true_false" },
+                { word: "succo", emoji: "🧃", type: "true_false" },
+                { word: "vino", emoji: "🍷", type: "true_false" },
+                { word: "birra", emoji: "🍺", type: "true_false" },
+                { word: "acqua", emoji: "💧", type: "true_false" },
+                { word: "contanti", emoji: "💵", opposite: "carta", type: "opposite" },
+                { word: "carta", emoji: "💳", opposite: "contanti", type: "opposite" },
+                { word: "cosa", emoji: "❓", type: "true_false" },
+                { word: "ma", emoji: "➰", type: "true_false" },
+            ]
+        },
+        2: {
+            title: "Giorno 2 | Una cosa o una persona?",
+            words: [
+                { word: "una cosa", emoji: "📦", opposite: "una persona", type: "opposite" },
+                { word: "una persona", emoji: "👤", opposite: "una cosa", type: "opposite" },
+                { word: "un uomo", emoji: "👨", opposite: "una donna", type: "opposite" },
+                { word: "una donna", emoji: "👩", opposite: "un uomo", type: "opposite" },
+                { word: "un ragazzo", emoji: "👦", opposite: "una ragazza", type: "opposite" },
+                { word: "una ragazza", emoji: "👧", opposite: "un ragazzo", type: "opposite" },
+                { word: "un insegnante", emoji: "👨‍🏫", opposite: "un'insegnante", type: "opposite" },
+                { word: "un'insegnante", emoji: "👩‍🏫", opposite: "un insegnante", type: "opposite" },
+                { word: "uno studente", emoji: "👨‍🎓", opposite: "una studentessa", type: "opposite" },
+                { word: "una studentessa", emoji: "👩‍🎓", opposite: "uno studente", type: "opposite" },
+                { word: "chi", emoji: "👤❓", opposite: "cosa", type: "opposite" },
+                { word: "cosa", emoji: "📦❓", opposite: "chi", type: "opposite" },
+                { word: "e", emoji: "➕", type: "true_false" },
             ]
         }
     },
@@ -68,6 +153,35 @@ const lessonsData = {
                 { word: "хорошо", emoji: "👍", type: "true_false" },
                 { word: "извини", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "или", emoji: "🔀", type: "true_false" },
+                // В ресторане
+                { word: "кофе", emoji: "☕", type: "true_false" },
+                { word: "чай", emoji: "🍵", type: "true_false" },
+                { word: "сок", emoji: "🧃", type: "true_false" },
+                { word: "вино", emoji: "🍷", type: "true_false" },
+                { word: "пиво", emoji: "🍺", type: "true_false" },
+                { word: "вода", emoji: "💧", type: "true_false" },
+                { word: "наличные", emoji: "💵", opposite: "карта", type: "opposite" },
+                { word: "карта", emoji: "💳", opposite: "наличные", type: "opposite" },
+                { word: "что", emoji: "❓", type: "true_false" },
+                { word: "но", emoji: "➰", type: "true_false" },
+            ]
+        },
+        2: {
+            title: "День 2 | Вещь или человек?",
+            words: [
+                { word: "вещь", emoji: "📦", opposite: "человек", type: "opposite" },
+                { word: "человек", emoji: "👤", opposite: "вещь", type: "opposite" },
+                { word: "мужчина", emoji: "👨", opposite: "женщина", type: "opposite" },
+                { word: "женщина", emoji: "👩", opposite: "мужчина", type: "opposite" },
+                { word: "мальчик", emoji: "👦", opposite: "девочка", type: "opposite" },
+                { word: "девочка", emoji: "👧", opposite: "мальчик", type: "opposite" },
+                { word: "учитель", emoji: "👨‍🏫", opposite: "учительница", type: "opposite" },
+                { word: "учительница", emoji: "👩‍🏫", opposite: "учитель", type: "opposite" },
+                { word: "студент", emoji: "👨‍🎓", opposite: "студентка", type: "opposite" },
+                { word: "студентка", emoji: "👩‍🎓", opposite: "студент", type: "opposite" },
+                { word: "кто", emoji: "👤❓", opposite: "что", type: "opposite" },
+                { word: "что", emoji: "📦❓", opposite: "кто", type: "opposite" },
+                { word: "и", emoji: "➕", type: "true_false" },
             ]
         }
     },
@@ -86,6 +200,35 @@ const lessonsData = {
                 { word: "εντάξει", emoji: "👍", type: "true_false" },
                 { word: "συγγνώμη", emoji: "🙇‍♂️", type: "true_false" },
                 { word: "ή", emoji: "🔀", type: "true_false" },
+                // Στο εστιατόριο
+                { word: "καφές", emoji: "☕", type: "true_false" },
+                { word: "τσάι", emoji: "🍵", type: "true_false" },
+                { word: "χυμός", emoji: "🧃", type: "true_false" },
+                { word: "κρασί", emoji: "🍷", type: "true_false" },
+                { word: "μπύρα", emoji: "🍺", type: "true_false" },
+                { word: "νερό", emoji: "💧", type: "true_false" },
+                { word: "μετρητά", emoji: "💵", opposite: "κάρτα", type: "opposite" },
+                { word: "κάρτα", emoji: "💳", opposite: "μετρητά", type: "opposite" },
+                { word: "τι", emoji: "❓", type: "true_false" },
+                { word: "αλλά", emoji: "➰", type: "true_false" },
+            ]
+        },
+        2: {
+            title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
+            words: [
+                { word: "το πράγμα", emoji: "📦", opposite: "το άτομο", type: "opposite" },
+                { word: "το άτομο", emoji: "👤", opposite: "το πράγμα", type: "opposite" },
+                { word: "ο άντρας", emoji: "👨", opposite: "η γυναίκα", type: "opposite" },
+                { word: "η γυναίκα", emoji: "👩", opposite: "ο άντρας", type: "opposite" },
+                { word: "το αγόρι", emoji: "👦", opposite: "το κορίτσι", type: "opposite" },
+                { word: "το κορίτσι", emoji: "👧", opposite: "το αγόρι", type: "opposite" },
+                { word: "ο δάσκαλος", emoji: "👨‍🏫", opposite: "η δασκάλα", type: "opposite" },
+                { word: "η δασκάλα", emoji: "👩‍🏫", opposite: "ο δάσκαλος", type: "opposite" },
+                { word: "ο μαθητής", emoji: "👨‍🎓", opposite: "η μαθήτρια", type: "opposite" },
+                { word: "η μαθήτρια", emoji: "👩‍🎓", opposite: "ο μαθητής", type: "opposite" },
+                { word: "ποιος", emoji: "👤❓", opposite: "τι", type: "opposite" },
+                { word: "τι", emoji: "📦❓", opposite: "ποιος", type: "opposite" },
+                { word: "και", emoji: "➕", type: "true_false" },
             ]
         }
     }

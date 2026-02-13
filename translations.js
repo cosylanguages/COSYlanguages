@@ -310,6 +310,7 @@ const translations = {
     correct: "Correct! 🎉",
     incorrect: "Incorrect. Try again! ❌",
     lesson_1_title: "Day 1 | Basic vocabulary",
+    lesson_2_title: "Day 2 | A thing or a person?",
   },
   fr: {
     // Hero section
@@ -470,6 +471,7 @@ const translations = {
     correct: "Correct ! 🎉",
     incorrect: "Incorrect. Réessayez ! ❌",
     lesson_1_title: "Jour 1 | Vocabulaire de base",
+    lesson_2_title: "Jour 2 | Une chose ou une personne ?",
   },
   it: {
     // Hero section
@@ -625,7 +627,8 @@ const translations = {
     next_word: "Prossima parola ➡️",
     correct: "Corretto! 🎉",
     incorrect: "Incorretto. Riprova! ❌",
-    lesson_1_title: "Giorno 1 | Vocabulario di base",
+    lesson_1_title: "Giorno 1 | Vocabolario di base",
+    lesson_2_title: "Giorno 2 | Una cosa o una persona?",
   },
   ru: {
     // Hero section
@@ -782,6 +785,7 @@ const translations = {
     correct: "Правильно! 🎉",
     incorrect: "Неправильно. Попробуйте еще раз! ❌",
     lesson_1_title: "День 1 | Базовая лексика",
+    lesson_2_title: "День 2 | Вещь или человек?",
   },
   el: {
     // Hero section
@@ -940,5 +944,6 @@ const translations = {
     correct: "Σωστά! 🎉",
     incorrect: "Λάθος. Προσπαθήστε ξανά! ❌",
     lesson_1_title: "Ημέρα 1 | Βασικό λεξιλόγιο",
+    lesson_2_title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
   }
 };
