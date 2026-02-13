@@ -3,24 +3,24 @@ const lessonsData = {
         1: {
             title: "Day 1 | Basic vocabulary",
             words: [
-                { word: "hello", emoji: "👋", opposite: "goodbye", type: "opposite" },
-                { word: "goodbye", emoji: "🖐️", opposite: "hello", type: "opposite" },
-                { word: "yes", emoji: "✅", opposite: "no", type: "opposite" },
-                { word: "no", emoji: "❌", opposite: "yes", type: "opposite" },
-                { word: "thank you", emoji: "🙏", type: "true_false" },
-                { word: "you're welcome", emoji: "💁‍♂️", type: "true_false" },
-                { word: "please", emoji: "🥺", type: "true_false" },
-                { word: "ok", emoji: "👌", type: "true_false" },
-                { word: "alright", emoji: "👍", type: "true_false" },
-                { word: "sorry", emoji: "🙇‍♂️", type: "true_false" },
-                { word: "or", emoji: "🔀", type: "true_false" },
+                { word: "hello", emoji: "👋", opposite: "goodbye", type: "opposite", sentence: "_____, how are you?" },
+                { word: "goodbye", emoji: "🖐️", opposite: "hello", type: "opposite", sentence: "It's late, _____!" },
+                { word: "yes", emoji: "✅", opposite: "no", type: "opposite", sentence: "_____, please." },
+                { word: "no", emoji: "❌", opposite: "yes", type: "opposite", sentence: "_____, thank you." },
+                { word: "thank you", emoji: "🙏", type: "true_false", sentence: "_____, for the gift!" },
+                { word: "you're welcome", emoji: "💁‍♂️", type: "true_false", sentence: "You helped me? _____!" },
+                { word: "please", emoji: "🥺", type: "true_false", sentence: "_____, sit down." },
+                { word: "ok", emoji: "👌", type: "true_false", sentence: "Everything is ____." },
+                { word: "alright", emoji: "👍", type: "true_false", sentence: "Are you ____?" },
+                { word: "sorry", emoji: "🙇‍♂️", type: "true_false", sentence: "I am ____ for being late." },
+                { word: "or", emoji: "🔀", type: "true_false", sentence: "Tea ____ coffee?" },
                 // At the restaurant
-                { word: "coffee", emoji: "☕", type: "true_false" },
+                { word: "coffee", emoji: "☕", type: "true_false", sentence: "I'd like a _____, please." },
                 { word: "tea", emoji: "🍵", type: "true_false" },
                 { word: "juice", emoji: "🧃", type: "true_false" },
                 { word: "wine", emoji: "🍷", type: "true_false" },
                 { word: "beer", emoji: "🍺", type: "true_false" },
-                { word: "water", emoji: "💧", type: "true_false" },
+                { word: "water", emoji: "💧", type: "true_false", sentence: "A glass of _____, please." },
                 { word: "cash", emoji: "💵", opposite: "card", type: "opposite" },
                 { word: "card", emoji: "💳", opposite: "cash", type: "opposite" },
                 { word: "what", emoji: "❓", type: "true_false" },
@@ -32,12 +32,12 @@ const lessonsData = {
             words: [
                 { word: "thing", emoji: "📦", type: "scramble" },
                 { word: "person", emoji: "👤", type: "scramble" },
-                { word: "man", emoji: "👨", opposite: "woman", type: "opposite" },
-                { word: "woman", emoji: "👩", opposite: "man", type: "opposite" },
+                { word: "man", emoji: "👨", opposite: "woman", type: "opposite", sentence: "He is a ____." },
+                { word: "woman", emoji: "👩", opposite: "man", type: "opposite", sentence: "She is a ____." },
                 { word: "boy", emoji: "👦", opposite: "girl", type: "opposite" },
                 { word: "girl", emoji: "👧", opposite: "boy", type: "opposite" },
-                { word: "teacher", emoji: "👨‍🏫", opposite: "student", type: "opposite" },
-                { word: "student", emoji: "👨‍🎓", opposite: "teacher", type: "opposite" },
+                { word: "teacher", emoji: "👨‍🏫", opposite: "student", type: "opposite", sentence: "The ____ is in the classroom." },
+                { word: "student", emoji: "👨‍🎓", opposite: "teacher", type: "opposite", sentence: "The ____ is studying." },
                 { word: "who", emoji: "👤❓", opposite: "what", type: "opposite" },
                 { word: "what", emoji: "📦❓", opposite: "who", type: "opposite" },
                 { word: "and", emoji: "➕", type: "scramble" },
@@ -48,24 +48,24 @@ const lessonsData = {
         1: {
             title: "Jour 1 | Vocabulaire de base",
             words: [
-                { word: "bonjour", emoji: "👋", opposite: "au revoir", type: "opposite" },
-                { word: "au revoir", emoji: "🖐️", opposite: "bonjour", type: "opposite" },
-                { word: "oui", emoji: "✅", opposite: "non", type: "opposite" },
-                { word: "non", emoji: "❌", opposite: "oui", type: "opposite" },
-                { word: "merci", emoji: "🙏", type: "true_false" },
-                { word: "de rien", emoji: "💁‍♂️", type: "true_false" },
-                { word: "s'il vous plaît", emoji: "🥺", type: "true_false" },
-                { word: "ok", emoji: "👌", type: "true_false" },
-                { word: "d'accord", emoji: "👍", type: "true_false" },
-                { word: "désolé", emoji: "🙇‍♂️", type: "true_false" },
-                { word: "ou", emoji: "🔀", type: "true_false" },
+                { word: "bonjour", emoji: "👋", opposite: "au revoir", type: "opposite", sentence: "_____, comment ça va ?" },
+                { word: "au revoir", emoji: "🖐️", opposite: "bonjour", type: "opposite", sentence: "Il est tard, _____ !" },
+                { word: "oui", emoji: "✅", opposite: "non", type: "opposite", sentence: "_____, s'il vous plaît." },
+                { word: "non", emoji: "❌", opposite: "oui", type: "opposite", sentence: "_____, merci." },
+                { word: "merci", emoji: "🙏", type: "true_false", sentence: "_____, pour le cadeau !" },
+                { word: "de rien", emoji: "💁‍♂️", type: "true_false", sentence: "Tu m'as aidé ? _____ !" },
+                { word: "s'il vous plaît", emoji: "🥺", type: "true_false", sentence: "Asseyez-vous, _____." },
+                { word: "ok", emoji: "👌", type: "true_false", sentence: "Tout est ____." },
+                { word: "d'accord", emoji: "👍", type: "true_false", sentence: "Tu es ____ ?" },
+                { word: "désolé", emoji: "🙇‍♂️", type: "true_false", sentence: "Je suis ____ d'être en retard." },
+                { word: "ou", emoji: "🔀", type: "true_false", sentence: "Thé ____ café ?" },
                 // Au restaurant
-                { word: "café", emoji: "☕", type: "true_false" },
+                { word: "café", emoji: "☕", type: "true_false", sentence: "Je voudrais un _____, s'il vous plaît." },
                 { word: "thé", emoji: "🍵", type: "true_false" },
                 { word: "jus", emoji: "🧃", type: "true_false" },
                 { word: "vin", emoji: "🍷", type: "true_false" },
                 { word: "bière", emoji: "🍺", type: "true_false" },
-                { word: "eau", emoji: "💧", type: "true_false" },
+                { word: "eau", emoji: "💧", type: "true_false", sentence: "Un verre d'_____, s'il vous plaît." },
                 { word: "espèces", emoji: "💵", opposite: "carte", type: "opposite" },
                 { word: "carte", emoji: "💳", opposite: "espèces", type: "opposite" },
                 { word: "quoi", emoji: "❓", type: "true_false" },
@@ -77,13 +77,13 @@ const lessonsData = {
             words: [
                 { word: "une chose", emoji: "📦", type: "scramble" },
                 { word: "une personne", emoji: "👤", type: "scramble" },
-                { word: "un homme", emoji: "👨", opposite: "une femme", type: "opposite" },
-                { word: "une femme", emoji: "👩", opposite: "un homme", type: "opposite" },
+                { word: "un homme", emoji: "👨", opposite: "une femme", type: "opposite", sentence: "C'est ____." },
+                { word: "une femme", emoji: "👩", opposite: "un homme", type: "opposite", sentence: "C'est ____." },
                 { word: "un garçon", emoji: "👦", opposite: "une fille", type: "opposite" },
                 { word: "une fille", emoji: "👧", opposite: "un garçon", type: "opposite" },
-                { word: "un professeur", emoji: "👨‍🏫", opposite: "une professeure", type: "opposite" },
+                { word: "un professeur", emoji: "👨‍🏫", opposite: "une professeure", type: "opposite", sentence: "____ est dans la classe." },
                 { word: "une professeure", emoji: "👩‍🏫", opposite: "un professeur", type: "opposite" },
-                { word: "un étudiant", emoji: "👨‍🎓", opposite: "une étudiante", type: "opposite" },
+                { word: "un étudiant", emoji: "👨‍🎓", opposite: "une étudiante", type: "opposite", sentence: "____ étudie." },
                 { word: "une étudiante", emoji: "👩‍🎓", opposite: "un étudiant", type: "opposite" },
                 { word: "qui", emoji: "👤❓", opposite: "quoi", type: "opposite" },
                 { word: "quoi", emoji: "📦❓", opposite: "qui", type: "opposite" },
@@ -95,24 +95,24 @@ const lessonsData = {
         1: {
             title: "Giorno 1 | Vocabolario di base",
             words: [
-                { word: "ciao", emoji: "👋", opposite: "arrivederci", type: "opposite" },
-                { word: "arrivederci", emoji: "🖐️", opposite: "ciao", type: "opposite" },
-                { word: "sì", emoji: "✅", opposite: "no", type: "opposite" },
-                { word: "no", emoji: "❌", opposite: "sì", type: "opposite" },
-                { word: "grazie", emoji: "🙏", type: "true_false" },
-                { word: "prego", emoji: "💁‍♂️", type: "true_false" },
-                { word: "per favore", emoji: "🥺", type: "true_false" },
-                { word: "ok", emoji: "👌", type: "true_false" },
-                { word: "va bene", emoji: "👍", type: "true_false" },
-                { word: "scusa", emoji: "🙇‍♂️", type: "true_false" },
-                { word: "o", emoji: "🔀", type: "true_false" },
+                { word: "ciao", emoji: "👋", opposite: "arrivederci", type: "opposite", sentence: "_____, come stai?" },
+                { word: "arrivederci", emoji: "🖐️", opposite: "ciao", type: "opposite", sentence: "È tardi, _____!" },
+                { word: "sì", emoji: "✅", opposite: "no", type: "opposite", sentence: "_____, per favore." },
+                { word: "no", emoji: "❌", opposite: "sì", type: "opposite", sentence: "_____, no grazie." },
+                { word: "grazie", emoji: "🙏", type: "true_false", sentence: "_____, per il regalo!" },
+                { word: "prego", emoji: "💁‍♂️", type: "true_false", sentence: "Mi hai aiutato? _____!" },
+                { word: "per favore", emoji: "🥺", type: "true_false", sentence: "Siediti, _____." },
+                { word: "ok", emoji: "👌", type: "true_false", sentence: "Tutto è ____." },
+                { word: "va bene", emoji: "👍", type: "true_false", sentence: "Stai ____?" },
+                { word: "scusa", emoji: "🙇‍♂️", type: "true_false", sentence: "Mi ____ per il ritardo." },
+                { word: "o", emoji: "🔀", type: "true_false", sentence: "Tè ____ caffè?" },
                 // Al ristorante
-                { word: "caffè", emoji: "☕", type: "true_false" },
+                { word: "caffè", emoji: "☕", type: "true_false", sentence: "Vorrei un _____, per favore." },
                 { word: "tè", emoji: "🍵", type: "true_false" },
                 { word: "succo", emoji: "🧃", type: "true_false" },
                 { word: "vino", emoji: "🍷", type: "true_false" },
                 { word: "birra", emoji: "🍺", type: "true_false" },
-                { word: "acqua", emoji: "💧", type: "true_false" },
+                { word: "acqua", emoji: "💧", type: "true_false", sentence: "Un bicchiere d'_____, per favore." },
                 { word: "contanti", emoji: "💵", opposite: "carta", type: "opposite" },
                 { word: "carta", emoji: "💳", opposite: "contanti", type: "opposite" },
                 { word: "cosa", emoji: "❓", type: "true_false" },
@@ -124,13 +124,13 @@ const lessonsData = {
             words: [
                 { word: "una cosa", emoji: "📦", type: "scramble" },
                 { word: "una persona", emoji: "👤", type: "scramble" },
-                { word: "un uomo", emoji: "👨", opposite: "una donna", type: "opposite" },
-                { word: "una donna", emoji: "👩", opposite: "un uomo", type: "opposite" },
+                { word: "un uomo", emoji: "👨", opposite: "una donna", type: "opposite", sentence: "È ____." },
+                { word: "una donna", emoji: "👩", opposite: "un uomo", type: "opposite", sentence: "È ____." },
                 { word: "un ragazzo", emoji: "👦", opposite: "una ragazza", type: "opposite" },
                 { word: "una ragazza", emoji: "👧", opposite: "un ragazzo", type: "opposite" },
-                { word: "un insegnante", emoji: "👨‍🏫", opposite: "un'insegnante", type: "opposite" },
+                { word: "un insegnante", emoji: "👨‍🏫", opposite: "un'insegnante", type: "opposite", sentence: "____ è in classe." },
                 { word: "un'insegnante", emoji: "👩‍🏫", opposite: "un insegnante", type: "opposite" },
-                { word: "uno studente", emoji: "👨‍🎓", opposite: "una studentessa", type: "opposite" },
+                { word: "uno studente", emoji: "👨‍🎓", opposite: "una studentessa", type: "opposite", sentence: "____ sta studiando." },
                 { word: "una studentessa", emoji: "👩‍🎓", opposite: "uno studente", type: "opposite" },
                 { word: "chi", emoji: "👤❓", opposite: "cosa", type: "opposite" },
                 { word: "cosa", emoji: "📦❓", opposite: "chi", type: "opposite" },
@@ -142,24 +142,24 @@ const lessonsData = {
         1: {
             title: "День 1 | Базовая лексика",
             words: [
-                { word: "привет", emoji: "👋", opposite: "пока", type: "opposite" },
-                { word: "пока", emoji: "🖐️", opposite: "привет", type: "opposite" },
-                { word: "да", emoji: "✅", opposite: "нет", type: "opposite" },
-                { word: "нет", emoji: "❌", opposite: "да", type: "opposite" },
-                { word: "спасибо", emoji: "🙏", type: "true_false" },
-                { word: "пожалуйста", emoji: "💁‍♂️", type: "true_false" },
-                { word: "пожалуйста", emoji: "🥺", type: "true_false" },
-                { word: "ок", emoji: "👌", type: "true_false" },
-                { word: "хорошо", emoji: "👍", type: "true_false" },
-                { word: "извини", emoji: "🙇‍♂️", type: "true_false" },
-                { word: "или", emoji: "🔀", type: "true_false" },
+                { word: "привет", emoji: "👋", opposite: "пока", type: "opposite", sentence: "_____, как дела?" },
+                { word: "пока", emoji: "🖐️", opposite: "привет", type: "opposite", sentence: "Уже поздно, _____!" },
+                { word: "да", emoji: "✅", opposite: "нет", type: "opposite", sentence: "_____, пожалуйста." },
+                { word: "нет", emoji: "❌", opposite: "да", type: "opposite", sentence: "_____, спасибо." },
+                { word: "спасибо", emoji: "🙏", type: "true_false", sentence: "_____, за подарок!" },
+                { word: "пожалуйста", emoji: "💁‍♂️", type: "true_false", sentence: "Ты мне помог? _____!" },
+                { word: "пожалуйста", emoji: "🥺", type: "true_false", sentence: "Садитесь, _____." },
+                { word: "ок", emoji: "👌", type: "true_false", sentence: "Всё ____." },
+                { word: "хорошо", emoji: "👍", type: "true_false", sentence: "Ты ____?" },
+                { word: "извини", emoji: "🙇‍♂️", type: "true_false", sentence: "____ за опоздание." },
+                { word: "или", emoji: "🔀", type: "true_false", sentence: "Чай ____ кофе?" },
                 // В ресторане
-                { word: "кофе", emoji: "☕", type: "true_false" },
+                { word: "кофе", emoji: "☕", type: "true_false", sentence: "Я бы хотел _____, пожалуйста." },
                 { word: "чай", emoji: "🍵", type: "true_false" },
                 { word: "сок", emoji: "🧃", type: "true_false" },
                 { word: "вино", emoji: "🍷", type: "true_false" },
                 { word: "пиво", emoji: "🍺", type: "true_false" },
-                { word: "вода", emoji: "💧", type: "true_false" },
+                { word: "вода", emoji: "💧", type: "true_false", sentence: "Стакан _____, пожалуйста." },
                 { word: "наличные", emoji: "💵", opposite: "карта", type: "opposite" },
                 { word: "карта", emoji: "💳", opposite: "наличные", type: "opposite" },
                 { word: "что", emoji: "❓", type: "true_false" },
@@ -171,13 +171,13 @@ const lessonsData = {
             words: [
                 { word: "вещь", emoji: "📦", type: "scramble" },
                 { word: "человек", emoji: "👤", type: "scramble" },
-                { word: "мужчина", emoji: "👨", opposite: "женщина", type: "opposite" },
-                { word: "женщина", emoji: "👩", opposite: "мужчина", type: "opposite" },
+                { word: "мужчина", emoji: "👨", opposite: "женщина", type: "opposite", sentence: "Он ____." },
+                { word: "женщина", emoji: "👩", opposite: "мужчина", type: "opposite", sentence: "Она ____." },
                 { word: "мальчик", emoji: "👦", opposite: "девочка", type: "opposite" },
                 { word: "девочка", emoji: "👧", opposite: "мальчик", type: "opposite" },
-                { word: "учитель", emoji: "👨‍🏫", opposite: "учительница", type: "opposite" },
+                { word: "учитель", emoji: "👨‍🏫", opposite: "учительница", type: "opposite", sentence: "____ в классе." },
                 { word: "учительница", emoji: "👩‍🏫", opposite: "учитель", type: "opposite" },
-                { word: "студент", emoji: "👨‍🎓", opposite: "студентка", type: "opposite" },
+                { word: "студент", emoji: "👨‍🎓", opposite: "студентка", type: "opposite", sentence: "____ учится." },
                 { word: "студентка", emoji: "👩‍🎓", opposite: "студент", type: "opposite" },
                 { word: "кто", emoji: "👤❓", opposite: "что", type: "opposite" },
                 { word: "что", emoji: "📦❓", opposite: "кто", type: "opposite" },
@@ -189,24 +189,24 @@ const lessonsData = {
         1: {
             title: "Ημέρα 1 | Βασικό λεξιλόγιο",
             words: [
-                { word: "γεια", emoji: "👋", opposite: "αντίο", type: "opposite" },
-                { word: "αντίο", emoji: "🖐️", opposite: "γεια", type: "opposite" },
-                { word: "ναι", emoji: "✅", opposite: "όχι", type: "opposite" },
-                { word: "όχι", emoji: "❌", opposite: "ναι", type: "opposite" },
-                { word: "ευχαριστώ", emoji: "🙏", type: "true_false" },
-                { word: "παρακαλώ", emoji: "💁‍♂️", type: "true_false" },
-                { word: "παρακαλώ", emoji: "🥺", type: "true_false" },
-                { word: "οκ", emoji: "👌", type: "true_false" },
-                { word: "εντάξει", emoji: "👍", type: "true_false" },
-                { word: "συγγνώμη", emoji: "🙇‍♂️", type: "true_false" },
-                { word: "ή", emoji: "🔀", type: "true_false" },
+                { word: "γεια", emoji: "👋", opposite: "αντίο", type: "opposite", sentence: "_____, τι κάνεις;" },
+                { word: "αντίο", emoji: "🖐️", opposite: "γεια", type: "opposite", sentence: "Είναι αργά, _____!" },
+                { word: "ναι", emoji: "✅", opposite: "όχι", type: "opposite", sentence: "_____, παρακαλώ." },
+                { word: "όχι", emoji: "❌", opposite: "ναι", type: "opposite", sentence: "_____, όχι ευχαριστώ." },
+                { word: "ευχαριστώ", emoji: "🙏", type: "true_false", sentence: "_____, για το δώρο!" },
+                { word: "παρακαλώ", emoji: "💁‍♂️", type: "true_false", sentence: "Με βοήθησες; _____!" },
+                { word: "παρακαλώ", emoji: "🥺", type: "true_false", sentence: "Καθίστε, _____." },
+                { word: "οκ", emoji: "👌", type: "true_false", sentence: "Όλα είναι ____." },
+                { word: "εντάξει", emoji: "👍", type: "true_false", sentence: "Είσαι ____;" },
+                { word: "συγγνώμη", emoji: "🙇‍♂️", type: "true_false", sentence: "____ για την καθυστέρηση." },
+                { word: "ή", emoji: "🔀", type: "true_false", sentence: "Τσάι ____ καφές;" },
                 // Στο εστιατόριο
-                { word: "καφές", emoji: "☕", type: "true_false" },
+                { word: "καφές", emoji: "☕", type: "true_false", sentence: "Θα ήθελα έναν _____, παρακαλώ." },
                 { word: "τσάι", emoji: "🍵", type: "true_false" },
                 { word: "χυμός", emoji: "🧃", type: "true_false" },
                 { word: "κρασί", emoji: "🍷", type: "true_false" },
                 { word: "μπύρα", emoji: "🍺", type: "true_false" },
-                { word: "νερό", emoji: "💧", type: "true_false" },
+                { word: "νερό", emoji: "💧", type: "true_false", sentence: "Ένα ποτήρι _____, παρακαλώ." },
                 { word: "μετρητά", emoji: "💵", opposite: "κάρτα", type: "opposite" },
                 { word: "κάρτα", emoji: "💳", opposite: "μετρητά", type: "opposite" },
                 { word: "τι", emoji: "❓", type: "true_false" },
@@ -218,13 +218,13 @@ const lessonsData = {
             words: [
                 { word: "το πράγμα", emoji: "📦", type: "scramble" },
                 { word: "το άτομο", emoji: "👤", type: "scramble" },
-                { word: "ο άντρας", emoji: "👨", opposite: "η γυναίκα", type: "opposite" },
-                { word: "η γυναίκα", emoji: "👩", opposite: "ο άντρας", type: "opposite" },
+                { word: "ο άντρας", emoji: "👨", opposite: "η γυναίκα", type: "opposite", sentence: "Αυτός είναι ____." },
+                { word: "η γυναίκα", emoji: "👩", opposite: "ο άντρας", type: "opposite", sentence: "Αυτή είναι ____." },
                 { word: "το αγόρι", emoji: "👦", opposite: "το κορίτσι", type: "opposite" },
                 { word: "το κορίτσι", emoji: "👧", opposite: "το αγόρι", type: "opposite" },
-                { word: "ο δάσκαλος", emoji: "👨‍🏫", opposite: "η δασκάλα", type: "opposite" },
+                { word: "ο δάσκαλος", emoji: "👨‍🏫", opposite: "η δασκάλα", type: "opposite", sentence: "____ είναι στην τάξη." },
                 { word: "η δασκάλα", emoji: "👩‍🏫", opposite: "ο δάσκαλος", type: "opposite" },
-                { word: "ο μαθητής", emoji: "👨‍🎓", opposite: "η μαθήτρια", type: "opposite" },
+                { word: "ο μαθητής", emoji: "👨‍🎓", opposite: "η μαθήτρια", type: "opposite", sentence: "____ διαβάζει." },
                 { word: "η μαθήτρια", emoji: "👩‍🎓", opposite: "ο μαθητής", type: "opposite" },
                 { word: "ποιος", emoji: "👤❓", opposite: "τι", type: "opposite" },
                 { word: "τι", emoji: "📦❓", opposite: "ποιος", type: "opposite" },
@@ -483,6 +483,12 @@ function showNextWord() {
     currentPractice.currentWord = wordObj;
     currentPractice.isCorrect = false;
 
+    // Randomly decide task type if multiple are available
+    let taskType = wordObj.type;
+    if (wordObj.sentence && Math.random() > 0.4) {
+        taskType = 'cloze';
+    }
+
     // Reset UI
     document.getElementById('feedback-message').textContent = '';
     document.getElementById('feedback-message').className = 'feedback-text';
@@ -491,13 +497,14 @@ function showNextWord() {
     document.getElementById('opposite-input-container').style.display = 'none';
     document.getElementById('tf-buttons-container').style.display = 'none';
     document.getElementById('scramble-container').style.display = 'none';
+    document.getElementById('choices-container').style.display = 'none';
 
     // Display info
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
-    document.getElementById('word-display').textContent = wordObj.word;
 
     // Determine if we should show correct or wrong emoji for True/False
-    if (wordObj.type === 'true_false') {
+    if (taskType === 'true_false') {
+        document.getElementById('word-display').textContent = wordObj.word;
         const isTrueQuestion = Math.random() > 0.5;
         currentPractice.tfCorrectAnswer = isTrueQuestion;
 
@@ -520,20 +527,79 @@ function showNextWord() {
         document.getElementById('task-instruction').setAttribute('data-translate-key', taskKey);
         document.getElementById('task-instruction').innerText = translations[currentPractice.language][taskKey] || taskKey;
         document.getElementById('tf-buttons-container').style.display = 'flex';
-    } else if (wordObj.type === 'scramble') {
+    } else if (taskType === 'scramble') {
+        document.getElementById('word-display').textContent = wordObj.word;
         document.getElementById('emoji-display').textContent = wordObj.emoji;
         const taskKey = 'task_scramble';
         document.getElementById('task-instruction').setAttribute('data-translate-key', taskKey);
         document.getElementById('task-instruction').innerText = translations[currentPractice.language][taskKey] || taskKey;
         setupScrambleTask(wordObj.word);
         document.getElementById('scramble-container').style.display = 'block';
+    } else if (taskType === 'cloze') {
+        document.getElementById('word-display').textContent = wordObj.sentence;
+        document.getElementById('emoji-display').textContent = wordObj.emoji;
+        const taskKey = 'task_cloze';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', taskKey);
+        document.getElementById('task-instruction').innerText = translations[currentPractice.language][taskKey] || taskKey;
+
+        if (Math.random() > 0.5) {
+            setupMultipleChoice(wordObj);
+            document.getElementById('choices-container').style.display = 'grid';
+        } else {
+            document.getElementById('opposite-input-container').style.display = 'flex';
+            document.getElementById('opposite-answer').focus();
+        }
+        currentPractice.clozeMode = true;
     } else {
+        document.getElementById('word-display').textContent = wordObj.word;
         document.getElementById('emoji-display').textContent = wordObj.emoji;
         const taskKey = 'task_opposite';
         document.getElementById('task-instruction').setAttribute('data-translate-key', taskKey);
         document.getElementById('task-instruction').innerText = translations[currentPractice.language][taskKey] || taskKey;
         document.getElementById('opposite-input-container').style.display = 'flex';
         document.getElementById('opposite-answer').focus();
+        currentPractice.clozeMode = false;
+    }
+}
+
+function setupMultipleChoice(wordObj) {
+    const container = document.getElementById('choices-container');
+    container.innerHTML = '';
+
+    const allWordsInRange = [];
+    currentPractice.lessons.forEach(l => {
+        if (lessonsData[currentPractice.language][l]) {
+            allWordsInRange.push(...lessonsData[currentPractice.language][l].words);
+        }
+    });
+
+    // Get unique word list
+    const uniqueWords = Array.from(new Set(allWordsInRange.map(w => w.word)));
+    const distractors = uniqueWords.filter(w => w !== wordObj.word);
+
+    // Shuffle distractors and pick 3
+    distractors.sort(() => Math.random() - 0.5);
+    const choices = [wordObj.word, ...distractors.slice(0, 3)];
+    choices.sort(() => Math.random() - 0.5);
+
+    choices.forEach(choice => {
+        const btn = document.createElement('button');
+        btn.className = 'choice-btn';
+        btn.textContent = choice;
+        btn.addEventListener('click', () => checkChoiceAnswer(choice, btn));
+        container.appendChild(btn);
+    });
+}
+
+function checkChoiceAnswer(choice, btn) {
+    if (currentPractice.isCorrect) return;
+
+    if (choice.toLowerCase() === currentPractice.currentWord.word.toLowerCase()) {
+        btn.classList.add('correct');
+        showFeedback(true);
+    } else {
+        btn.classList.add('incorrect');
+        showFeedback(false);
     }
 }
 
@@ -563,7 +629,13 @@ function setupScrambleTask(word) {
 
 function checkOppositeAnswer() {
     const userAnswer = document.getElementById('opposite-answer').value.trim().toLowerCase();
-    const correctAnswer = currentPractice.currentWord.opposite.toLowerCase();
+    let correctAnswer;
+
+    if (currentPractice.clozeMode) {
+        correctAnswer = currentPractice.currentWord.word.toLowerCase();
+    } else {
+        correctAnswer = currentPractice.currentWord.opposite.toLowerCase();
+    }
 
     if (userAnswer === correctAnswer) {
         showFeedback(true);
@@ -596,11 +668,13 @@ function showFeedback(isCorrect) {
     }
 
     if (isCorrect) {
+        currentPractice.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';
         currentPractice.currentIndex++;
         // Hide inputs after correct answer to prevent multi-submit
         document.getElementById('opposite-input-container').style.display = 'none';
         document.getElementById('tf-buttons-container').style.display = 'none';
         document.getElementById('scramble-container').style.display = 'none';
+        document.getElementById('choices-container').style.display = 'none';
     }
 }
