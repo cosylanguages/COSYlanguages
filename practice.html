@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="practice_title">Practice 💡 - COSYlanguages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="practice-page">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/cosylanguages.png" alt="COSYlanguages Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li>
+                <li><a href="index.html#courses" data-translate-key="nav_courses">Courses 📚</a></li>
+                <li><a href="index.html#calculator" data-translate-key="nav_calculator">Calculator 🧮</a></li>
+                <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
+                <li><a href="practice.html" data-translate-key="nav_practice">Practice 💡</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher-container">
+            <select id="language-switcher">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+                <option value="ru">Русский</option>
+                <option value="el">Ελληνικά</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section id="practice-container">
+            <h2 data-translate-key="practice_title">Practice 💡</h2>
+
+            <div id="setup-section">
+                <div class="setup-group">
+                    <label for="practice-language" data-translate-key="select_practice_language">Select language to practice 🌍</label>
+                    <select id="practice-language">
+                        <option value="en">English 🇬🇧</option>
+                        <option value="fr">Français 🇫🇷</option>
+                        <option value="it">Italiano 🇮🇹</option>
+                        <option value="ru">Русский 🇷🇺</option>
+                        <option value="el">Ελληνικά 🇬🇷</option>
+                    </select>
+                </div>
+
+                <div class="setup-group">
+                    <label for="lesson-range" data-translate-key="select_lessons">Select lessons (e.g. 1 or 1-5) 📚</label>
+                    <input type="text" id="lesson-range" placeholder="1" value="1">
+                </div>
+
+                <button id="start-btn" class="cta-button" data-translate-key="start_practice">Start Practice 🚀</button>
+            </div>
+
+            <div id="practice-section" style="display: none;">
+                <div id="question-card" class="event-item">
+                    <div id="lesson-info" class="lesson-badge"></div>
+                    <div id="emoji-display" class="practice-emoji"></div>
+                    <div id="task-instruction" class="task-text"></div>
+                    <div id="word-display" class="word-text"></div>
+
+                    <div id="answer-area">
+                        <!-- Opposite task -->
+                        <div id="opposite-input-container" style="display: none;">
+                            <input type="text" id="opposite-answer" placeholder="...">
+                            <button id="check-opposite-btn" class="topics-toggle-btn" data-translate-key="check_btn">Check 🔍</button>
+                        </div>
+
+                        <!-- True/False task -->
+                        <div id="tf-buttons-container" style="display: none;">
+                            <button id="true-btn" class="topics-toggle-btn" data-translate-key="true_btn">True ✅</button>
+                            <button id="false-btn" class="topics-toggle-btn" data-translate-key="false_btn">False ❌</button>
+                        </div>
+                    </div>
+
+                    <div id="feedback-message" class="feedback-text"></div>
+                    <button id="next-btn" class="cta-button" style="display: none;" data-translate-key="next_word">Next Word ➡️</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <h3 data-translate-key="contact_title">Contact Us 📬</h3>
+            <p><span data-translate-key="contact_whatsapp">WhatsApp 📱:</span> <a href="https://wa.me/330766784195">+33 07 66 78 41 95</a></p>
+            <p><span data-translate-key="contact_telegram">Telegram ✈️:</span> <a href="https://t.me/cosylanguagesproject" target="_blank" rel="noopener noreferrer">@cosylanguages</a></p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="translate.js"></script>
+    <script src="practice.js"></script>
+</body>
+</html>
