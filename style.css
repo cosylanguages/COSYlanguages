@@ -634,3 +634,109 @@ footer {
     border-radius: var(--border-radius);
     margin-top: 4rem;
 }
+
+/* Practice Page Styles */
+.practice-page main {
+    max-width: 800px;
+}
+
+#practice-container {
+    text-align: center;
+}
+
+.setup-group {
+    margin-bottom: 2rem;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.setup-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.setup-group select,
+.setup-group input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--light-gray);
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.lesson-badge {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.practice-emoji {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.task-text {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.word-text {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+#answer-area {
+    margin-bottom: 2rem;
+}
+
+#opposite-input-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#opposite-answer {
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--light-gray);
+    font-size: 1.1rem;
+    width: 250px;
+}
+
+#tf-buttons-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.feedback-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    min-height: 1.5em;
+}
+
+.feedback-text.correct {
+    color: var(--primary-color);
+}
+
+.feedback-text.incorrect {
+    color: var(--accent-color);
+}
+
+#next-btn {
+    margin: 0 auto;
+}
