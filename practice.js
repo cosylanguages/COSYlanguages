@@ -30,8 +30,8 @@ const lessonsData = {
         2: {
             title: "Day 2 | A thing or a person?",
             words: [
-                { word: "thing", emoji: "📦", opposite: "person", type: "opposite" },
-                { word: "person", emoji: "👤", opposite: "thing", type: "opposite" },
+                { word: "thing", emoji: "📦", type: "scramble" },
+                { word: "person", emoji: "👤", type: "scramble" },
                 { word: "man", emoji: "👨", opposite: "woman", type: "opposite" },
                 { word: "woman", emoji: "👩", opposite: "man", type: "opposite" },
                 { word: "boy", emoji: "👦", opposite: "girl", type: "opposite" },
@@ -40,7 +40,7 @@ const lessonsData = {
                 { word: "student", emoji: "👨‍🎓", opposite: "teacher", type: "opposite" },
                 { word: "who", emoji: "👤❓", opposite: "what", type: "opposite" },
                 { word: "what", emoji: "📦❓", opposite: "who", type: "opposite" },
-                { word: "and", emoji: "➕", type: "true_false" },
+                { word: "and", emoji: "➕", type: "scramble" },
             ]
         }
     },
@@ -75,8 +75,8 @@ const lessonsData = {
         2: {
             title: "Jour 2 | Une chose ou une personne ?",
             words: [
-                { word: "une chose", emoji: "📦", opposite: "une personne", type: "opposite" },
-                { word: "une personne", emoji: "👤", opposite: "une chose", type: "opposite" },
+                { word: "une chose", emoji: "📦", type: "scramble" },
+                { word: "une personne", emoji: "👤", type: "scramble" },
                 { word: "un homme", emoji: "👨", opposite: "une femme", type: "opposite" },
                 { word: "une femme", emoji: "👩", opposite: "un homme", type: "opposite" },
                 { word: "un garçon", emoji: "👦", opposite: "une fille", type: "opposite" },
@@ -87,7 +87,7 @@ const lessonsData = {
                 { word: "une étudiante", emoji: "👩‍🎓", opposite: "un étudiant", type: "opposite" },
                 { word: "qui", emoji: "👤❓", opposite: "quoi", type: "opposite" },
                 { word: "quoi", emoji: "📦❓", opposite: "qui", type: "opposite" },
-                { word: "et", emoji: "➕", type: "true_false" },
+                { word: "et", emoji: "➕", type: "scramble" },
             ]
         }
     },
@@ -122,8 +122,8 @@ const lessonsData = {
         2: {
             title: "Giorno 2 | Una cosa o una persona?",
             words: [
-                { word: "una cosa", emoji: "📦", opposite: "una persona", type: "opposite" },
-                { word: "una persona", emoji: "👤", opposite: "una cosa", type: "opposite" },
+                { word: "una cosa", emoji: "📦", type: "scramble" },
+                { word: "una persona", emoji: "👤", type: "scramble" },
                 { word: "un uomo", emoji: "👨", opposite: "una donna", type: "opposite" },
                 { word: "una donna", emoji: "👩", opposite: "un uomo", type: "opposite" },
                 { word: "un ragazzo", emoji: "👦", opposite: "una ragazza", type: "opposite" },
@@ -134,7 +134,7 @@ const lessonsData = {
                 { word: "una studentessa", emoji: "👩‍🎓", opposite: "uno studente", type: "opposite" },
                 { word: "chi", emoji: "👤❓", opposite: "cosa", type: "opposite" },
                 { word: "cosa", emoji: "📦❓", opposite: "chi", type: "opposite" },
-                { word: "e", emoji: "➕", type: "true_false" },
+                { word: "e", emoji: "➕", type: "scramble" },
             ]
         }
     },
@@ -169,8 +169,8 @@ const lessonsData = {
         2: {
             title: "День 2 | Вещь или человек?",
             words: [
-                { word: "вещь", emoji: "📦", opposite: "человек", type: "opposite" },
-                { word: "человек", emoji: "👤", opposite: "вещь", type: "opposite" },
+                { word: "вещь", emoji: "📦", type: "scramble" },
+                { word: "человек", emoji: "👤", type: "scramble" },
                 { word: "мужчина", emoji: "👨", opposite: "женщина", type: "opposite" },
                 { word: "женщина", emoji: "👩", opposite: "мужчина", type: "opposite" },
                 { word: "мальчик", emoji: "👦", opposite: "девочка", type: "opposite" },
@@ -181,7 +181,7 @@ const lessonsData = {
                 { word: "студентка", emoji: "👩‍🎓", opposite: "студент", type: "opposite" },
                 { word: "кто", emoji: "👤❓", opposite: "что", type: "opposite" },
                 { word: "что", emoji: "📦❓", opposite: "кто", type: "opposite" },
-                { word: "и", emoji: "➕", type: "true_false" },
+                { word: "и", emoji: "➕", type: "scramble" },
             ]
         }
     },
@@ -216,8 +216,8 @@ const lessonsData = {
         2: {
             title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
             words: [
-                { word: "το πράγμα", emoji: "📦", opposite: "το άτομο", type: "opposite" },
-                { word: "το άτομο", emoji: "👤", opposite: "το πράγμα", type: "opposite" },
+                { word: "το πράγμα", emoji: "📦", type: "scramble" },
+                { word: "το άτομο", emoji: "👤", type: "scramble" },
                 { word: "ο άντρας", emoji: "👨", opposite: "η γυναίκα", type: "opposite" },
                 { word: "η γυναίκα", emoji: "👩", opposite: "ο άντρας", type: "opposite" },
                 { word: "το αγόρι", emoji: "👦", opposite: "το κορίτσι", type: "opposite" },
@@ -228,7 +228,7 @@ const lessonsData = {
                 { word: "η μαθήτρια", emoji: "👩‍🎓", opposite: "ο μαθητής", type: "opposite" },
                 { word: "ποιος", emoji: "👤❓", opposite: "τι", type: "opposite" },
                 { word: "τι", emoji: "📦❓", opposite: "ποιος", type: "opposite" },
-                { word: "και", emoji: "➕", type: "true_false" },
+                { word: "και", emoji: "➕", type: "scramble" },
             ]
         }
     }
@@ -240,7 +240,8 @@ let currentPractice = {
     words: [],
     currentIndex: 0,
     currentWord: null,
-    isCorrect: false
+    isCorrect: false,
+    builtWord: ""
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -250,6 +251,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const trueBtn = document.getElementById('true-btn');
     const falseBtn = document.getElementById('false-btn');
     const oppositeAnswerInput = document.getElementById('opposite-answer');
+    const listenBtn = document.getElementById('listen-btn');
+    const clearScrambleBtn = document.getElementById('clear-scramble-btn');
 
     if (startBtn) {
         startBtn.addEventListener('click', startPractice);
@@ -276,7 +279,80 @@ document.addEventListener('DOMContentLoaded', () => {
     if (falseBtn) {
         falseBtn.addEventListener('click', () => checkTrueFalseAnswer(false));
     }
+
+    if (listenBtn) {
+        listenBtn.addEventListener('click', speakWord);
+    }
+
+    if (clearScrambleBtn) {
+        clearScrambleBtn.addEventListener('click', clearScramble);
+    }
 });
+
+function speakWord() {
+    if (!currentPractice.currentWord) return;
+
+    const msg = new SpeechSynthesisUtterance();
+    msg.text = currentPractice.currentWord.word;
+
+    const langMap = {
+        en: 'en-US',
+        fr: 'fr-FR',
+        it: 'it-IT',
+        ru: 'ru-RU',
+        el: 'el-GR'
+    };
+
+    msg.lang = langMap[currentPractice.language] || 'en-US';
+    window.speechSynthesis.speak(msg);
+}
+
+function playSound(isCorrect) {
+    const successUrl = 'https://assets.mixkit.co/active_storage/sfx/2013/2013-preview.mp3';
+    const failUrl = 'https://assets.mixkit.co/active_storage/sfx/2018/2018-preview.mp3';
+
+    const audio = new Audio(isCorrect ? successUrl : failUrl);
+    audio.play().catch(e => console.log("Audio play failed:", e));
+}
+
+function updateProgress() {
+    const progressFill = document.getElementById('progress-fill');
+    const progressText = document.getElementById('progress-text');
+    if (!progressFill || !progressText) return;
+
+    const total = currentPractice.words.length;
+    const current = currentPractice.currentIndex;
+    const percentage = total > 0 ? (current / total) * 100 : 0;
+
+    progressFill.style.width = percentage + '%';
+
+    // Translation for "Word X of Y"
+    const translations = {
+        en: `Word ${current} of ${total}`,
+        fr: `Mot ${current} sur ${total}`,
+        it: `Parola ${current} di ${total}`,
+        ru: `Слово ${current} из ${total}`,
+        el: `Λέξη ${current} από ${total}`
+    };
+
+    progressText.textContent = translations[currentPractice.language] || translations['en'];
+}
+
+function triggerAnimation(type) {
+    const card = document.getElementById('question-card');
+    if (!card) return;
+
+    if (type === 'fadeIn') {
+        card.style.animation = 'none';
+        card.offsetHeight; /* trigger reflow */
+        card.style.animation = null;
+    } else if (type === 'shake') {
+        card.classList.remove('shake');
+        card.offsetHeight; /* trigger reflow */
+        card.classList.add('shake');
+        setTimeout(() => card.classList.remove('shake'), 500);
+    }
+}
 
 function startPractice() {
     const langSelect = document.getElementById('practice-language');
@@ -352,17 +428,56 @@ function startPractice() {
     document.getElementById('setup-section').style.display = 'none';
     document.getElementById('practice-section').style.display = 'block';
 
+    updateProgress();
     showNextWord();
+}
+
+function clearScramble() {
+    currentPractice.builtWord = "";
+    document.getElementById('built-word').textContent = "";
+
+    // Enable all letters
+    const letters = document.querySelectorAll('.letter-tile');
+    letters.forEach(l => l.classList.remove('used'));
+}
+
+function handleLetterClick(letter, tileElement) {
+    if (tileElement.classList.contains('used')) return;
+
+    tileElement.classList.add('used');
+    currentPractice.builtWord += letter;
+    document.getElementById('built-word').textContent = currentPractice.builtWord;
+
+    // Auto-check if lengths match
+    if (currentPractice.builtWord.length === currentPractice.currentWord.word.replace(/\s/g, '').length) {
+        checkScrambleAnswer();
+    }
+}
+
+function checkScrambleAnswer() {
+    const target = currentPractice.currentWord.word.replace(/\s/g, '').toLowerCase();
+    const built = currentPractice.builtWord.toLowerCase();
+
+    if (built === target) {
+        showFeedback(true);
+    } else {
+        showFeedback(false);
+        setTimeout(clearScramble, 1000);
+    }
 }
 
 function showNextWord() {
     if (currentPractice.currentIndex >= currentPractice.words.length) {
         // Finished all words, maybe shuffle and restart or show finish message
+        updateProgress();
         alert("Congratulations! You've finished all words in this session.");
         document.getElementById('setup-section').style.display = 'block';
         document.getElementById('practice-section').style.display = 'none';
         return;
     }
+
+    updateProgress();
+    triggerAnimation('fadeIn');
 
     const wordObj = currentPractice.words[currentPractice.currentIndex];
     currentPractice.currentWord = wordObj;
@@ -375,6 +490,7 @@ function showNextWord() {
     document.getElementById('opposite-answer').value = '';
     document.getElementById('opposite-input-container').style.display = 'none';
     document.getElementById('tf-buttons-container').style.display = 'none';
+    document.getElementById('scramble-container').style.display = 'none';
 
     // Display info
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
@@ -388,20 +504,56 @@ function showNextWord() {
         if (isTrueQuestion) {
             document.getElementById('emoji-display').textContent = wordObj.emoji;
         } else {
-            // Pick a random emoji from other words in the same lesson
-            const otherWords = lessonsData[currentPractice.language][currentPractice.lessons[0]].words.filter(w => w.emoji !== wordObj.emoji);
-            const randomWord = otherWords[Math.floor(Math.random() * otherWords.length)];
-            document.getElementById('emoji-display').textContent = randomWord.emoji;
+            // Pick a random distractor from all selected lessons
+            const allWordsInRange = [];
+            currentPractice.lessons.forEach(l => {
+                if (lessonsData[currentPractice.language][l]) {
+                    allWordsInRange.push(...lessonsData[currentPractice.language][l].words);
+                }
+            });
+            const distractors = allWordsInRange.filter(v => v.emoji !== wordObj.emoji);
+            const distractor = distractors[Math.floor(Math.random() * distractors.length)];
+            document.getElementById('emoji-display').textContent = distractor.emoji;
         }
 
-        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
+        const taskKey = 'task_true_false';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', taskKey);
+        document.getElementById('task-instruction').innerText = translations[currentPractice.language][taskKey] || taskKey;
         document.getElementById('tf-buttons-container').style.display = 'flex';
+    } else if (wordObj.type === 'scramble') {
+        document.getElementById('emoji-display').textContent = wordObj.emoji;
+        const taskKey = 'task_scramble';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', taskKey);
+        document.getElementById('task-instruction').innerText = translations[currentPractice.language][taskKey] || taskKey;
+        setupScrambleTask(wordObj.word);
+        document.getElementById('scramble-container').style.display = 'block';
     } else {
         document.getElementById('emoji-display').textContent = wordObj.emoji;
-        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_opposite');
+        const taskKey = 'task_opposite';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', taskKey);
+        document.getElementById('task-instruction').innerText = translations[currentPractice.language][taskKey] || taskKey;
         document.getElementById('opposite-input-container').style.display = 'flex';
         document.getElementById('opposite-answer').focus();
     }
+}
+
+function setupScrambleTask(word) {
+    const pool = document.getElementById('scrambled-letters');
+    pool.innerHTML = '';
+    currentPractice.builtWord = '';
+    document.getElementById('built-word').textContent = '';
+
+    const letters = word.replace(/\s/g, '').split('');
+    // Shuffle
+    letters.sort(() => Math.random() - 0.5);
+
+    letters.forEach(char => {
+        const tile = document.createElement('button');
+        tile.className = 'letter-tile';
+        tile.textContent = char;
+        tile.addEventListener('click', () => handleLetterClick(char, tile));
+        pool.appendChild(tile);
+    });
 
     // Re-translate instructions
     if (typeof setLanguage === 'function') {
@@ -433,6 +585,11 @@ function showFeedback(isCorrect) {
     feedbackMsg.className = 'feedback-text ' + (isCorrect ? 'correct' : 'incorrect');
     feedbackMsg.setAttribute('data-translate-key', isCorrect ? 'correct' : 'incorrect');
 
+    playSound(isCorrect);
+    if (!isCorrect) {
+        triggerAnimation('shake');
+    }
+
     // Trigger translation for feedback
     if (typeof setLanguage === 'function') {
         setLanguage(currentPractice.language);
@@ -444,5 +601,6 @@ function showFeedback(isCorrect) {
         // Hide inputs after correct answer to prevent multi-submit
         document.getElementById('opposite-input-container').style.display = 'none';
         document.getElementById('tf-buttons-container').style.display = 'none';
+        document.getElementById('scramble-container').style.display = 'none';
     }
 }
