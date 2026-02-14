@@ -143,21 +143,21 @@ const translations = {
     bunnings: "Bunnings Warehouse",
     bunnings_desc: "Home improvement and hardware store.",
     // French Page
-    larousse_dictionary: "Dictionnaire Larousse",
-    larousse_dictionary_desc: "Dictionnaire monolingue.",
+    larousse_dictionary: "Larousse Dictionary",
+    larousse_dictionary_desc: "Monolingual dictionary.",
     galeries_lafayette: "Galeries Lafayette",
-    galeries_lafayette_desc: "Grand magasin de mode et de luxe.",
+    galeries_lafayette_desc: "High-end fashion and luxury department store.",
     sephora_fr: "Sephora",
-    sephora_fr_desc: "Cosmétiques et produits de beauté.",
+    sephora_fr_desc: "Cosmetics and beauty products.",
     auchan: "Auchan",
-    auchan_desc: "Supermarché et épicerie.",
+    auchan_desc: "Supermarket and grocery store.",
     // Italian Page
-    treccani_dictionary: "Vocabolario Treccani",
-    treccani_dictionary_desc: "Dizionario monolingue.",
+    treccani_dictionary: "Treccani Dictionary",
+    treccani_dictionary_desc: "Monolingual dictionary.",
     sephora_it: "Sephora",
-    sephora_it_desc: "Cosmetici e prodotti di bellezza.",
+    sephora_it_desc: "Cosmetics and beauty products.",
     coop: "Coop",
-    coop_desc: "Supermercato e negozio di alimentari.",
+    coop_desc: "Supermarket and grocery store.",
     // Russian Page
     gramota_dictionary: "Словари Грамота.ру",
     gramota_dictionary_desc: "Толковые и орфографические словари.",
@@ -168,10 +168,10 @@ const translations = {
     auchan_ru: "Ашан",
     auchan_ru_desc: "Супермаркет и продуктовый магазин.",
     // Greek Page
-    triantafyllides_dictionary: "Λεξικό Τριανταφυλλίδη",
-    triantafyllides_dictionary_desc: "Μονόγλωσσο λεξικό.",
+    triantafyllides_dictionary: "Triantafyllides Dictionary",
+    triantafyllides_dictionary_desc: "Monolingual dictionary.",
     skroutz_fashion: "Skroutz Fashion",
-    skroutz_fashion_desc: "Δημοφιλής online αγορά για μόδα.",
+    skroutz_fashion_desc: "Popular online fashion marketplace.",
     // Shops
     fashion_beauty: "Fashion & Beauty 💄",
     electronics_home: "Electronics & Home 🏡",
@@ -185,7 +185,7 @@ const translations = {
     fnac: "Fnac",
     fnac_desc: "Electronics, books, and cultural products.",
     darty: "Darty",
-    darty_desc: "Home appliances and electronics.",
+    darty_desc: "Household appliances and electronics.",
     carrefour: "Carrefour",
     carrefour_desc: "Online supermarket and grocery store.",
     // Canada
@@ -307,10 +307,12 @@ const translations = {
     true_btn: "True ✅",
     false_btn: "False ❌",
     check_btn: "Check 🔍",
+    hint_btn: "Hint 💡",
     next_word: "Next Word ➡️",
     correct: "Correct! 🎉",
     incorrect: "Incorrect. Try again! ❌",
     lesson_1_title: "Day 1 | Basic vocabulary",
+    lesson_2_title: "Day 2 | A thing or a person?",
   },
   fr: {
     // Hero section
@@ -468,10 +470,12 @@ const translations = {
     true_btn: "Vrai ✅",
     false_btn: "Faux ❌",
     check_btn: "Vérifier 🔍",
+    hint_btn: "Indice 💡",
     next_word: "Mot suivant ➡️",
     correct: "Correct ! 🎉",
     incorrect: "Incorrect. Réessayez ! ❌",
     lesson_1_title: "Jour 1 | Vocabulaire de base",
+    lesson_2_title: "Jour 2 | Une chose ou une personne ?",
   },
   it: {
     // Hero section
@@ -625,10 +629,12 @@ const translations = {
     true_btn: "Vero ✅",
     false_btn: "Falso ❌",
     check_btn: "Controlla 🔍",
+    hint_btn: "Suggerimento 💡",
     next_word: "Prossima parola ➡️",
     correct: "Corretto! 🎉",
     incorrect: "Incorretto. Riprova! ❌",
     lesson_1_title: "Giorno 1 | Vocabolario di base",
+    lesson_2_title: "Giorno 2 | Una cosa o una persona?",
   },
   ru: {
     // Hero section
@@ -782,10 +788,12 @@ const translations = {
     true_btn: "Верно ✅",
     false_btn: "Неверно ❌",
     check_btn: "Проверить 🔍",
+    hint_btn: "Подсказка 💡",
     next_word: "Следующее слово ➡️",
     correct: "Правильно! 🎉",
     incorrect: "Неправильно. Попробуйте еще раз! ❌",
     lesson_1_title: "День 1 | Базовая лексика",
+    lesson_2_title: "День 2 | Вещь или человек?",
   },
   el: {
     // Hero section
@@ -877,7 +885,7 @@ const translations = {
     cosy_francais_intro: "Μάθετε γαλλικά μαζί μας!",
     cosy_italiano_title: "Καλώς ήρθατε στο COSYitaliano",
     cosy_italiano_intro: "Μάθετε ιταλικά μαζί μας!",
-    tako_russkiy_title: "Καλώς ήρθατε στο ТАКОрусский",
+    tako_russkiy_title: "Καλώς ήρθατε στο ТΑКОрусский",
     tako_russkiy_intro: "Μάθετε ρωσικά μαζί μας!",
     cosy_ellinika_title: "Καλώς ήρθατε στο KOZYελληνικά",
     cosy_ellinika_intro: "Μάθετε ελληνικά μαζί μας!",
@@ -941,9 +949,11 @@ const translations = {
     true_btn: "Σωστό ✅",
     false_btn: "Λάθος ❌",
     check_btn: "Έλεγχος 🔍",
+    hint_btn: "Υπόδειξη 💡",
     next_word: "Επόμενη λέξη ➡️",
     correct: "Σωστά! 🎉",
     incorrect: "Λάθος. Προσπαθήστε ξανά! ❌",
     lesson_1_title: "Ημέρα 1 | Βασικό λεξιλόγιο",
+    lesson_2_title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
   }
 };

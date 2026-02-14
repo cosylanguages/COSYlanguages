@@ -359,6 +359,15 @@ h2 {
     background-color: #00897B; /* Darker turquoise */
 }
 
+.topics-toggle-btn.secondary-btn {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.topics-toggle-btn.secondary-btn:hover {
+    background-color: #e6af06;
+}
+
 footer {
     background-color: var(--text-color);
     color: var(--surface-color);

@@ -22,7 +22,27 @@ const lessonsData = {
                 { word: "water", emoji: "💧", type: "true_false" },
                 { word: "Lipton", emoji: "🫖", type: "true_false" },
                 { word: "Chardonnay", emoji: "🥂", type: "true_false" },
-                { word: "hello", emoji: "👋", clozeText: "- ____. - Oh, hello!", answer: "hello", type: "cloze" }
+                { word: "hello", emoji: "👋", clozeText: "- ____. - Oh, hello!", answer: "hello", type: "cloze" },
+                { word: "juice", emoji: "🧃", type: "true_false" },
+                { word: "beer", emoji: "🍺", type: "true_false" },
+                { word: "cash", emoji: "💵", type: "true_false" },
+                { word: "card", emoji: "💳", type: "true_false" }
+            ]
+        },
+        2: {
+            title: "Day 2 | A thing or a person?",
+            words: [
+                { word: "thing", emoji: "📦", type: "true_false" },
+                { word: "person", emoji: "👤", type: "true_false" },
+                { word: "man", emoji: "👨", opposite: "woman", type: "opposite" },
+                { word: "woman", emoji: "👩", opposite: "man", type: "opposite" },
+                { word: "boy", emoji: "👦", opposite: "girl", type: "opposite" },
+                { word: "girl", emoji: "👧", opposite: "boy", type: "opposite" },
+                { word: "teacher", emoji: "🧑‍🏫", opposite: "student", type: "opposite" },
+                { word: "student", emoji: "🧑‍🎓", opposite: "teacher", type: "opposite" },
+                { word: "who", emoji: "❓👤", clozeText: "____ is it? - It's a person.", answer: "who", type: "cloze" },
+                { word: "what", emoji: "❓📦", clozeText: "____ is it? - It's a thing.", answer: "what", type: "cloze" },
+                { word: "and", emoji: "➕", clozeText: "A man ___ a woman.", answer: "and", type: "cloze" }
             ]
         }
     },
@@ -49,7 +69,27 @@ const lessonsData = {
                 { word: "eau", emoji: "💧", type: "true_false" },
                 { word: "Lipton", emoji: "🫖", type: "true_false" },
                 { word: "Chardonnay", emoji: "🥂", type: "true_false" },
-                { word: "bonjour", emoji: "👋", clozeText: "- ____. - Oh, bonjour !", answer: "bonjour", type: "cloze" }
+                { word: "bonjour", emoji: "👋", clozeText: "- ____. - Oh, bonjour !", answer: "bonjour", type: "cloze" },
+                { word: "le jus", emoji: "🧃", type: "true_false" },
+                { word: "la bière", emoji: "🍺", type: "true_false" },
+                { word: "les espèces", emoji: "💵", type: "true_false" },
+                { word: "la carte", emoji: "💳", type: "true_false" }
+            ]
+        },
+        2: {
+            title: "Jour 2 | Une chose ou une personne ?",
+            words: [
+                { word: "la chose", emoji: "📦", type: "true_false" },
+                { word: "la personne", emoji: "👤", type: "true_false" },
+                { word: "l'homme", emoji: "👨", opposite: "la femme", type: "opposite" },
+                { word: "la femme", emoji: "👩", opposite: "l'homme", type: "opposite" },
+                { word: "le garçon", emoji: "👦", opposite: "la fille", type: "opposite" },
+                { word: "la fille", emoji: "👧", opposite: "le garçon", type: "opposite" },
+                { word: "le professeur / la professeure", emoji: "🧑‍🏫", opposite: "l'étudiant / l'étudiante", type: "opposite" },
+                { word: "l'étudiant / l'étudiante", emoji: "🧑‍🎓", opposite: "le professeur / la professeure", type: "opposite" },
+                { word: "qui", emoji: "❓👤", clozeText: "____ est-ce ? - C'est une personne.", answer: "qui", type: "cloze" },
+                { word: "quoi", emoji: "❓📦", clozeText: "C'est ____ ? - C'est une chose.", answer: "quoi", type: "cloze" },
+                { word: "et", emoji: "➕", clozeText: "Un homme ___ une femme.", answer: "et", type: "cloze" }
             ]
         }
     },
@@ -76,7 +116,27 @@ const lessonsData = {
                 { word: "acqua", emoji: "💧", type: "true_false" },
                 { word: "Lipton", emoji: "🫖", type: "true_false" },
                 { word: "Chardonnay", emoji: "🥂", type: "true_false" },
-                { word: "ciao", emoji: "👋", clozeText: "- ____. - Oh, ciao!", answer: "ciao", type: "cloze" }
+                { word: "ciao", emoji: "👋", clozeText: "- ____. - Oh, ciao!", answer: "ciao", type: "cloze" },
+                { word: "il succo", emoji: "🧃", type: "true_false" },
+                { word: "la birra", emoji: "🍺", type: "true_false" },
+                { word: "i contanti", emoji: "💵", type: "true_false" },
+                { word: "la carta", emoji: "💳", type: "true_false" }
+            ]
+        },
+        2: {
+            title: "Giorno 2 | Una cosa o una persona?",
+            words: [
+                { word: "la cosa", emoji: "📦", type: "true_false" },
+                { word: "la persona", emoji: "👤", type: "true_false" },
+                { word: "l'uomo", emoji: "👨", opposite: "la donna", type: "opposite" },
+                { word: "la donna", emoji: "👩", opposite: "l'uomo", type: "opposite" },
+                { word: "il ragazzo", emoji: "👦", opposite: "la ragazza", type: "opposite" },
+                { word: "la ragazza", emoji: "👧", opposite: "il ragazzo", type: "opposite" },
+                { word: "il professore / la professoressa", emoji: "🧑‍🏫", opposite: "lo studente / la studentessa", type: "opposite" },
+                { word: "lo studente / la studentessa", emoji: "🧑‍🎓", opposite: "il professore / la professoressa", type: "opposite" },
+                { word: "chi", emoji: "❓👤", clozeText: "____ è? - È una persona.", answer: "chi", type: "cloze" },
+                { word: "che cosa", emoji: "❓📦", clozeText: "____ è? - È una cosa.", answer: "che cosa", type: "cloze" },
+                { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e", type: "cloze" }
             ]
         }
     },
@@ -103,7 +163,27 @@ const lessonsData = {
                 { word: "вода", emoji: "💧", type: "true_false" },
                 { word: "Lipton", emoji: "🫖", type: "true_false" },
                 { word: "Chardonnay", emoji: "🥂", type: "true_false" },
-                { word: "привет", emoji: "👋", clozeText: "- ____. - О, привет!", answer: "привет", type: "cloze" }
+                { word: "привет", emoji: "👋", clozeText: "- ____. - О, привет!", answer: "привет", type: "cloze" },
+                { word: "сок", emoji: "🧃", type: "true_false" },
+                { word: "пиво", emoji: "🍺", type: "true_false" },
+                { word: "наличные", emoji: "💵", type: "true_false" },
+                { word: "карта", emoji: "💳", type: "true_false" }
+            ]
+        },
+        2: {
+            title: "День 2 | Вещь или человек?",
+            words: [
+                { word: "вещь", emoji: "📦", type: "true_false" },
+                { word: "человек", emoji: "👤", type: "true_false" },
+                { word: "мужчина", emoji: "👨", opposite: "женщина", type: "opposite" },
+                { word: "женщина", emoji: "👩", opposite: "мужчина", type: "opposite" },
+                { word: "мальчик", emoji: "👦", opposite: "девочка", type: "opposite" },
+                { word: "девочка", emoji: "👧", opposite: "мальчик", type: "opposite" },
+                { word: "учитель / учительница", emoji: "🧑‍🏫", opposite: "студент / студентка", type: "opposite" },
+                { word: "студент / студентка", emoji: "🧑‍🎓", opposite: "учитель / учительница", type: "opposite" },
+                { word: "кто", emoji: "❓👤", clozeText: "____ это? - Это человек.", answer: "кто", type: "cloze" },
+                { word: "что", emoji: "❓📦", clozeText: "____ это? - Это вещь.", answer: "что", type: "cloze" },
+                { word: "и", emoji: "➕", clozeText: "Мужчина ___ женщина.", answer: "и", type: "cloze" }
             ]
         }
     },
@@ -130,7 +210,27 @@ const lessonsData = {
                 { word: "νερό", emoji: "💧", type: "true_false" },
                 { word: "Lipton", emoji: "🫖", type: "true_false" },
                 { word: "Chardonnay", emoji: "🥂", type: "true_false" },
-                { word: "γεια", emoji: "👋", clozeText: "- ____. - Ω, γεια!", answer: "γεια", type: "cloze" }
+                { word: "γεια", emoji: "👋", clozeText: "- ____. - Ω, γεια!", answer: "γεια", type: "cloze" },
+                { word: "ο χυμός", emoji: "🧃", type: "true_false" },
+                { word: "η μπίρα", emoji: "🍺", type: "true_false" },
+                { word: "τα μετρητά", emoji: "💵", type: "true_false" },
+                { word: "η κάρτα", emoji: "💳", type: "true_false" }
+            ]
+        },
+        2: {
+            title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
+            words: [
+                { word: "το πράγμα", emoji: "📦", type: "true_false" },
+                { word: "το άτομο", emoji: "👤", type: "true_false" },
+                { word: "ο άνδρας", emoji: "👨", opposite: "η γυναίκα", type: "opposite" },
+                { word: "η γυναίκα", emoji: "👩", opposite: "ο άνδρας", type: "opposite" },
+                { word: "το αγόρι", emoji: "👦", opposite: "το κορίτσι", type: "opposite" },
+                { word: "το κορίτσι", emoji: "👧", opposite: "το αγόρι", type: "opposite" },
+                { word: "ο δάσκαλος / η δασκάλα", emoji: "🧑‍🏫", opposite: "ο μαθητής / η μαθήτρια", type: "opposite" },
+                { word: "ο μαθητής / η μαθήτρια", emoji: "🧑‍🎓", opposite: "ο δάσκαλος / η δασκάλα", type: "opposite" },
+                { word: "ποιος", emoji: "❓👤", clozeText: "____ είναι; - Είναι ένα άτομο.", answer: "ποιος", type: "cloze" },
+                { word: "τι", emoji: "❓📦", clozeText: "____ είναι; - Είναι ένα πράγμα.", answer: "τι", type: "cloze" },
+                { word: "και", emoji: "➕", clozeText: "Ένας άνδρας ___ μια γυναίκα.", answer: "και", type: "cloze" }
             ]
         }
     }
@@ -151,6 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const checkOppositeBtn = document.getElementById('check-opposite-btn');
     const trueBtn = document.getElementById('true-btn');
     const falseBtn = document.getElementById('false-btn');
+    const hintBtn = document.getElementById('hint-btn');
     const oppositeAnswerInput = document.getElementById('opposite-answer');
     const listenBtn = document.getElementById('listen-btn');
 
@@ -180,10 +281,38 @@ document.addEventListener('DOMContentLoaded', () => {
         falseBtn.addEventListener('click', () => checkTrueFalseAnswer(false));
     }
 
+    if (hintBtn) {
+        hintBtn.addEventListener('click', showHint);
+    }
+
     if (listenBtn) {
         listenBtn.addEventListener('click', speakWord);
     }
+
+    // Load voices once to avoid delay
+    window.speechSynthesis.getVoices();
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+    }
 });
+
+function showHint() {
+    const wordObj = currentPractice.currentWord;
+    if (!wordObj) return;
+
+    let targetAnswer = "";
+    if (wordObj.type === 'cloze') {
+        targetAnswer = wordObj.answer;
+    } else if (wordObj.type === 'opposite') {
+        targetAnswer = wordObj.opposite;
+    } else {
+        return; // No hint for true_false
+    }
+
+    const feedbackMsg = document.getElementById('feedback-message');
+    feedbackMsg.className = 'feedback-text hint';
+    feedbackMsg.textContent = "Hint: " + targetAnswer.charAt(0).toUpperCase() + "...";
+}
 
 function speakWord() {
     if (!currentPractice.currentWord) return;
@@ -199,7 +328,16 @@ function speakWord() {
         el: 'el-GR'
     };
 
-    msg.lang = langMap[currentPractice.language] || 'en-US';
+    const targetLang = langMap[currentPractice.language] || 'en-US';
+    msg.lang = targetLang;
+
+    // Try to find a specific voice for the language
+    const voices = window.speechSynthesis.getVoices();
+    const voice = voices.find(v => v.lang === targetLang || v.lang.startsWith(targetLang.split('-')[0]));
+    if (voice) {
+        msg.voice = voice;
+    }
+
     window.speechSynthesis.speak(msg);
 }
 
@@ -299,7 +437,7 @@ function startPractice() {
     });
 
     if (currentPractice.words.length === 0) {
-        alert("No words found for the selected lessons! Currently only Lesson 1 is available.");
+        alert("No words found for the selected lessons!");
         return;
     }
 
@@ -342,6 +480,7 @@ function showNextWord() {
     document.getElementById('opposite-answer').value = '';
     document.getElementById('opposite-input-container').style.display = 'none';
     document.getElementById('tf-buttons-container').style.display = 'none';
+    document.getElementById('hint-btn').style.display = (wordObj.type === 'true_false' ? 'none' : 'inline-block');
 
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
@@ -367,7 +506,7 @@ function showNextWord() {
             });
             const distractors = allWordsInRange.filter(v => v.emoji !== wordObj.emoji);
             const distractor = distractors[Math.floor(Math.random() * distractors.length)];
-            document.getElementById('emoji-display').textContent = distractor.emoji;
+            document.getElementById('emoji-display').textContent = (distractor ? distractor.emoji : "❓");
         }
 
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
@@ -396,7 +535,10 @@ function checkTypedAnswer() {
         correctAnswer = currentPractice.currentWord.opposite.toLowerCase();
     }
 
-    if (userAnswer === correctAnswer) {
+    // Check for multiple answers (e.g. "teacher" in FR/IT/EL/RU often has masc/fem forms separated by /)
+    const possibleAnswers = correctAnswer.split(' / ').map(a => a.trim().toLowerCase());
+
+    if (possibleAnswers.includes(userAnswer) || userAnswer === correctAnswer) {
         showFeedback(true);
     } else {
         showFeedback(false);
@@ -431,5 +573,6 @@ function showFeedback(isCorrect) {
         currentPractice.currentIndex++;
         document.getElementById('opposite-input-container').style.display = 'none';
         document.getElementById('tf-buttons-container').style.display = 'none';
+        document.getElementById('hint-btn').style.display = 'none';
     }
 }
