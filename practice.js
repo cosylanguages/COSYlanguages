@@ -509,13 +509,7 @@ function showNextWord() {
 
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
-    if (wordObj.type === 'cloze') {
-        document.getElementById('word-display').textContent = wordObj.clozeText;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
-        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_cloze');
-        document.getElementById('opposite-input-container').style.display = 'flex';
-        document.getElementById('opposite-answer').focus();
-    } else if (wordObj.type === 'multiple_choice') {
+    if (wordObj.type === 'multiple_choice') {
         const text = wordObj.clozeText || wordObj.word;
         document.getElementById('word-display').textContent = text;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
