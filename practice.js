@@ -13,19 +13,7 @@ const lessonsData = {
                 { word: "ok", emoji: "👌" },
                 { word: "alright", emoji: "👍" },
                 { word: "sorry", emoji: "🙇‍♂️" },
-                { word: "or", emoji: "🔀", clozeText: "Coffee ____ tea?", answer: "or" },
-                { word: "but", emoji: "⚖️", clozeText: "No, it is not coffee, ___ it is tea.", answer: "but" },
-                { word: "what", emoji: "❓", clozeText: "____ is it?", answer: "what" },
-                { word: "coffee", emoji: "☕" },
-                { word: "tea", emoji: "🍵" },
-                { word: "wine", emoji: "🍷" },
-                { word: "water", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
-                { word: "juice", emoji: "🧃" },
-                { word: "beer", emoji: "🍺" },
-                { word: "cash", emoji: "💵" },
-                { word: "card", emoji: "💳" }
+                { word: "or", emoji: "🔀", clozeText: "Coffee ____ tea?", answer: "or" }
             ]
         },
         2: {
@@ -59,19 +47,7 @@ const lessonsData = {
                 { word: "ok", emoji: "👌" },
                 { word: "d'accord", emoji: "👍" },
                 { word: "désolé", emoji: "🙇‍♂️" },
-                { word: "ou", emoji: "🔀", clozeText: "Café ____ thé ?", answer: "ou" },
-                { word: "mais", emoji: "⚖️", clozeText: "Non, ce n'est pas du café, ___ c'est du thé.", answer: "mais" },
-                { word: "quoi", emoji: "❓", clozeText: "C'est ____ ?", answer: "quoi" },
-                { word: "café", emoji: "☕" },
-                { word: "thé", emoji: "🍵" },
-                { word: "vin", emoji: "🍷" },
-                { word: "eau", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
-                { word: "le jus", emoji: "🧃" },
-                { word: "la bière", emoji: "🍺" },
-                { word: "les espèces", emoji: "💵" },
-                { word: "la carte", emoji: "💳" }
+                { word: "ou", emoji: "🔀", clozeText: "Café ____ thé ?", answer: "ou" }
             ]
         },
         2: {
@@ -105,19 +81,7 @@ const lessonsData = {
                 { word: "ok", emoji: "👌" },
                 { word: "va bene", emoji: "👍" },
                 { word: "scusa", emoji: "🙇‍♂️" },
-                { word: "o", emoji: "🔀", clozeText: "Caffè ____ tè ?", answer: "o" },
-                { word: "ma", emoji: "⚖️", clozeText: "No, non è caffè, ___ è tè.", answer: "ma" },
-                { word: "cosa", emoji: "❓", clozeText: "____ è?", answer: "cosa" },
-                { word: "caffè", emoji: "☕" },
-                { word: "tè", emoji: "🍵" },
-                { word: "vino", emoji: "🍷" },
-                { word: "acqua", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
-                { word: "il succo", emoji: "🧃" },
-                { word: "la birra", emoji: "🍺" },
-                { word: "i contanti", emoji: "💵" },
-                { word: "la carta", emoji: "💳" }
+                { word: "o", emoji: "🔀", clozeText: "Caffè ____ tè ?", answer: "o" }
             ]
         },
         2: {
@@ -151,19 +115,7 @@ const lessonsData = {
                 { word: "ок", emoji: "👌" },
                 { word: "хорошо", emoji: "👍" },
                 { word: "извини", emoji: "🙇‍♂️" },
-                { word: "или", emoji: "🔀", clozeText: "Кофе ____ чай ?", answer: "или" },
-                { word: "но", emoji: "⚖️", clozeText: "Нет, это не кофе, ___ это чай.", answer: "но" },
-                { word: "что", emoji: "❓", clozeText: "____ это?", answer: "что" },
-                { word: "кофе", emoji: "☕" },
-                { word: "чай", emoji: "🍵" },
-                { word: "вино", emoji: "🍷" },
-                { word: "вода", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
-                { word: "сок", emoji: "🧃" },
-                { word: "пиво", emoji: "🍺" },
-                { word: "наличные", emoji: "💵" },
-                { word: "карта", emoji: "💳" }
+                { word: "или", emoji: "🔀", clozeText: "Кофе ____ чай ?", answer: "или" }
             ]
         },
         2: {
@@ -197,19 +149,7 @@ const lessonsData = {
                 { word: "οκ", emoji: "👌" },
                 { word: "εντάξει", emoji: "👍" },
                 { word: "συγγνώμη", emoji: "🙇‍♂️" },
-                { word: "ή", emoji: "🔀", clozeText: "Καφές ____ τσάι ;", answer: "ή" },
-                { word: "αλλά", emoji: "⚖️", clozeText: "Όχι, δεν είναι καφές, ___ είναι τσάι.", answer: "αλλά" },
-                { word: "τι", emoji: "❓", clozeText: "____ είναι;", answer: "τι" },
-                { word: "καφές", emoji: "☕" },
-                { word: "τσάι", emoji: "🍵" },
-                { word: "κρασί", emoji: "🍷" },
-                { word: "νερό", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
-                { word: "ο χυμός", emoji: "🧃" },
-                { word: "η μπίρα", emoji: "🍺" },
-                { word: "τα μετρητά", emoji: "💵" },
-                { word: "η κάρτα", emoji: "💳" }
+                { word: "ή", emoji: "🔀", clozeText: "Καφές ____ τσάι ;", answer: "ή" }
             ]
         },
         2: {
@@ -443,7 +383,7 @@ function startPractice() {
                 if (w.opposite) possibleTypes.push('opposite');
 
                 let selectedType;
-                if (w.clozeText || w.isBrand) {
+                if (w.clozeText) {
                     selectedType = 'multiple_choice';
                 } else {
                     selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
@@ -509,13 +449,7 @@ function showNextWord() {
 
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
-    if (wordObj.type === 'cloze') {
-        document.getElementById('word-display').textContent = wordObj.clozeText;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
-        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_cloze');
-        document.getElementById('opposite-input-container').style.display = 'flex';
-        document.getElementById('opposite-answer').focus();
-    } else if (wordObj.type === 'multiple_choice') {
+    if (wordObj.type === 'multiple_choice') {
         const text = wordObj.clozeText || wordObj.word;
         document.getElementById('word-display').textContent = text;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
