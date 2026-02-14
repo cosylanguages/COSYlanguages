@@ -56,11 +56,19 @@
             </div>
 
             <div id="practice-section" style="display: none;">
+                <div id="practice-progress" class="progress-bar-container">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <div id="progress-text"></div>
+
                 <div id="question-card" class="event-item">
                     <div id="lesson-info" class="lesson-badge"></div>
                     <div id="emoji-display" class="practice-emoji"></div>
                     <div id="task-instruction" class="task-text"></div>
-                    <div id="word-display" class="word-text"></div>
+                    <div class="word-container">
+                        <div id="word-display" class="word-text"></div>
+                        <button id="listen-btn" class="icon-btn" title="Listen">🔊</button>
+                    </div>
 
                     <div id="answer-area">
                         <!-- Opposite task -->

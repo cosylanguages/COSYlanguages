@@ -9,6 +9,7 @@ const translations = {
     nav_courses: "Courses 📚",
     nav_calculator: "Calculator 🧮",
     nav_events: "Events 🎉",
+    nav_practice: "Practice 💡",
     // Languages section
     languages_title: "Languages 🌍",
     english: "English 🇬🇧",
@@ -23,7 +24,7 @@ const translations = {
     tatar: "Татарча",
     bashkir: "Башҡортса",
     breton: "Brezhoneg",
-    armenian: "Հայերեն 🇦🇲",
+    armenian: "Հայերεν 🇦🇲",
     // Courses section
     courses_title: "Courses 📚",
     course_spoken: "Spoken course 🗣️",
@@ -296,7 +297,6 @@ const translations = {
     masoutis: "Μασούτης",
     masoutis_desc: "Greek supermarket chain.",
     // Practice
-    nav_practice: "Practice 💡",
     practice_title: "Practice 💡",
     select_practice_language: "Select language to practice 🌍",
     select_lessons: "Select lessons (e.g. 1 or 1-5) 📚",
@@ -310,7 +310,6 @@ const translations = {
     correct: "Correct! 🎉",
     incorrect: "Incorrect. Try again! ❌",
     lesson_1_title: "Day 1 | Basic vocabulary",
-    lesson_2_title: "Day 2 | A thing or a person?",
   },
   fr: {
     // Hero section
@@ -322,6 +321,7 @@ const translations = {
     nav_courses: "Cours 📚",
     nav_calculator: "Calculatrice 🧮",
     nav_events: "Événements 🎉",
+    nav_practice: "Pratique 💡",
     // Languages section
     languages_title: "Langues 🌍",
     english: "Anglais 🇬🇧",
@@ -389,7 +389,7 @@ const translations = {
     game_apples: "Apples to Apples 🍏",
     game_charades: "Charades 🎭",
     event_karaoke: "Soirées Karaoké 🎤",
-    event_karaoke_desc: "Chantez à tue-tête dans différentes langues ! Une façon amusante et interactive d'apprendre du nouveau vocabulaire et de pratiquer la prononciation.",
+    event_karaoke_desc: "Chantez à tue-tête dans différentes langues ! Une façon amusante et interactive d'apprendre du nouveau vocabulaire et de pratiquer la pronunciación.",
     event_cinema: "Soirées cinéma 🎬",
     event_cinema_desc: "Regardez des films du monde entier dans leur langue originale avec des sous-titres. Un excellent moyen de vous immerger dans la culture et d'améliorer vos compétences d'écoute.",
     event_games: "Soirées jeux 🎲",
@@ -457,7 +457,6 @@ const translations = {
     carrefour: "Carrefour",
     carrefour_desc: "Supermarché et épicerie en ligne.",
     // Practice
-    nav_practice: "Pratique 💡",
     practice_title: "Pratique 💡",
     select_practice_language: "Choisir la langue à pratiquer 🌍",
     select_lessons: "Choisir les leçons (ex. 1 ou 1-5) 📚",
@@ -471,7 +470,6 @@ const translations = {
     correct: "Correct ! 🎉",
     incorrect: "Incorrect. Réessayez ! ❌",
     lesson_1_title: "Jour 1 | Vocabulaire de base",
-    lesson_2_title: "Jour 2 | Une chose ou une personne ?",
   },
   it: {
     // Hero section
@@ -483,6 +481,7 @@ const translations = {
     nav_courses: "Corsi 📚",
     nav_calculator: "Calcolatrice 🧮",
     nav_events: "Eventi 🎉",
+    nav_practice: "Pratica 💡",
     // Languages section
     languages_title: "Lingue 🌍",
     english: "Inglese 🇬🇧",
@@ -614,7 +613,6 @@ const translations = {
     esselunga: "Esselunga",
     esselunga_desc: "Supermercato e negozio di alimentari.",
     // Practice
-    nav_practice: "Pratica 💡",
     practice_title: "Pratica 💡",
     select_practice_language: "Seleziona la lingua da praticare 🌍",
     select_lessons: "Seleziona le lezioni (es. 1 o 1-5) 📚",
@@ -628,7 +626,6 @@ const translations = {
     correct: "Corretto! 🎉",
     incorrect: "Incorretto. Riprova! ❌",
     lesson_1_title: "Giorno 1 | Vocabolario di base",
-    lesson_2_title: "Giorno 2 | Una cosa o una persona?",
   },
   ru: {
     // Hero section
@@ -640,6 +637,7 @@ const translations = {
     nav_courses: "Курсы 📚",
     nav_calculator: "Калькулятор 🧮",
     nav_events: "События 🎉",
+    nav_practice: "Практика 💡",
     // Languages section
     languages_title: "Языки 🌍",
     english: "Английский 🇬🇧",
@@ -771,7 +769,6 @@ const translations = {
     perekrestok: "Перекресток",
     perekrestok_desc: "Супермаркет и продуктовый магазин.",
     // Practice
-    nav_practice: "Практика 💡",
     practice_title: "Практика 💡",
     select_practice_language: "Выберите язык для практики 🌍",
     select_lessons: "Выберите уроки (например, 1 или 1-5) 📚",
@@ -785,7 +782,6 @@ const translations = {
     correct: "Правильно! 🎉",
     incorrect: "Неправильно. Попробуйте еще раз! ❌",
     lesson_1_title: "День 1 | Базовая лексика",
-    lesson_2_title: "День 2 | Вещь или человек?",
   },
   el: {
     // Hero section
@@ -797,6 +793,7 @@ const translations = {
     nav_courses: "Μαθήματα 📚",
     nav_calculator: "Υπολογιστής 🧮",
     nav_events: "Εκδηλώσεις 🎉",
+    nav_practice: "Πρακτική 💡",
     // Languages section
     languages_title: "Γλώσσες 🌍",
     english: "Αγγλικά 🇬🇧",
@@ -848,12 +845,12 @@ const translations = {
     // Events page
     events_title: "Οι εκδηλώσεις μας 🎉",
     event_speaking_club: "Λέσχες ομιλίας 🗣️",
-    event_speaking_club_desc: "Εξασκήστε τις δεξιότητές σας στην ομιλία σε ένα χαλαρό και φιλικό περιβάλλον. Ένας πολύ καλός τρόπος για να γνωρίσετε νέους ανθρώπους και να βελτιώσετε την ευχέρειά σας!",
+    event_speaking_club_desc: "Εξασκήστε τις δεξιότητές σας στην ομιλία σε ένα χαλαρό και φιλικό περιβάλλον. Ένας πολύ καλός τρόπος για να γνωρίσετε νέους ανθρώπους και να βελτιώσετε την ευχέρεια σας!",
     club_science: "Συμβαδίζοντας με την επιστήμη 🧪",
     club_quotes: "Τα σπουδαιότερα αποσπάσματα 📜",
     club_celebrate: "Ας γιορτάσουμε 🥳",
     club_mind: "Το μυαλό έχει σημασία 🧠",
-    club_wonder: "Δεν μπόρεса παρά να αναρωτηθώ 🤔",
+    club_wonder: "Δεν μπόρεσα παρά να αναρωτηθώ 🤔",
     club_debatable: "Συζητήσιμο & αναγνωρίσιμο 🧐",
     toggle_topics_show: "Εμφάνιση θεμάτων",
     toggle_topics_hide: "Απόκρυψη θεμάτων",
@@ -930,7 +927,6 @@ const translations = {
     masoutis: "Μασούτης",
     masoutis_desc: "Ελληνική αλυσίδα σούπερ μάρκετ.",
     // Practice
-    nav_practice: "Πρακτική 💡",
     practice_title: "Πρακτική 💡",
     select_practice_language: "Επιλογή γλώσσας για εξάσκηση 🌍",
     select_lessons: "Επιλογή μαθημάτων (π.χ. 1 ή 1-5) 📚",
@@ -944,6 +940,5 @@ const translations = {
     correct: "Σωστά! 🎉",
     incorrect: "Λάθος. Προσπαθήστε ξανά! ❌",
     lesson_1_title: "Ημέρα 1 | Βασικό λεξιλόγιο",
-    lesson_2_title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
   }
 };
