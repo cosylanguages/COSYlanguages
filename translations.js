@@ -51,6 +51,7 @@ const translations = {
     total_price: "Total Price: ",
     invalid_selection: "Invalid selection",
     coming_soon: "(coming soon)",
+    calculator_greek_coming_soon: "Ελληνικά 🇬🇷 (coming soon)",
     // Footer
     contact_title: "Contact Us 📬",
     contact_whatsapp: "WhatsApp 📱:",
@@ -331,6 +332,13 @@ const translations = {
     form_adjective: "Adjective",
     form_adverb: "Adverb",
     level_label: "Level",
+    task_type_label: "Task Types:",
+    type_mc: "Multiple Choice",
+    type_ls: "Listen & Select",
+    type_sc: "Scramble",
+    type_op: "Opposite",
+    type_cl: "Cloze (Typing)",
+    type_tf: "True/False",
   },
   fr: {
     // Hero section
@@ -384,6 +392,7 @@ const translations = {
     total_price: "Prix total: ",
     invalid_selection: "Sélection invalide",
     coming_soon: "(bientôt disponible)",
+    calculator_greek_coming_soon: "Grec 🇬🇷 (bientôt disponible)",
     // Footer
     contact_title: "Contactez-nous 📬",
     contact_whatsapp: "WhatsApp 📱:",
@@ -410,7 +419,7 @@ const translations = {
     game_apples: "Apples to Apples 🍏",
     game_charades: "Charades 🎭",
     event_karaoke: "Soirées Karaoké 🎤",
-    event_karaoke_desc: "Chantez à tue-tête dans différentes langues ! Une façon amusante et interactive d'apprendre du nouveau vocabulaire et de pratiquer la pronunciación.",
+    event_karaoke_desc: "Chantez à tue-tête dans différentes langues ! Une façon amusante et interactive d'apprendre du nouveau vocabulaire et de pratiquer la prononciation.",
     event_cinema: "Soirées cinéma 🎬",
     event_cinema_desc: "Regardez des films du monde entier dans leur langue originale avec des sous-titres. Un excellent moyen de vous immerger dans la culture et d'améliorer vos compétences d'écoute.",
     event_games: "Soirées jeux 🎲",
@@ -512,6 +521,13 @@ const translations = {
     form_adjective: "Adjectif",
     form_adverb: "Adverbe",
     level_label: "Niveau",
+    task_type_label: "Types de tâches :",
+    type_mc: "Choix multiple",
+    type_ls: "Écouter & Sélectionner",
+    type_sc: "Lettres dans le désordre",
+    type_op: "Opposé",
+    type_cl: "Texte à trous",
+    type_tf: "Vrai/Faux",
   },
   it: {
     // Hero section
@@ -565,6 +581,7 @@ const translations = {
     total_price: "Prezzo totale: ",
     invalid_selection: "Selezione non valida",
     coming_soon: "(presto disponibile)",
+    calculator_greek_coming_soon: "Greco 🇬🇷 (presto disponibile)",
     // Footer
     contact_title: "Contattaci 📬",
     contact_whatsapp: "WhatsApp 📱:",
@@ -678,7 +695,7 @@ const translations = {
     score_label: "Punti COSY: ✨",
     streak_label: "Serie giornaliera: 🔥",
     session_summary_title: "Riepilogo sessione 🎉",
-    total_points: "Punti totalι:",
+    total_points: "Punti totali:",
     streak_day: "giorno",
     streak_days: "giorni",
     back_to_menu: "Torna al menu 🏠",
@@ -689,6 +706,13 @@ const translations = {
     form_adjective: "Aggettivo",
     form_adverb: "Avverbio",
     level_label: "Livello",
+    task_type_label: "Tipi di attività:",
+    type_mc: "Scelta multipla",
+    type_ls: "Ascolta e Seleziona",
+    type_sc: "Parola scrambled",
+    type_op: "Opposto",
+    type_cl: "Testo a completamento",
+    type_tf: "Vero/Falso",
   },
   ru: {
     // Hero section
@@ -742,6 +766,7 @@ const translations = {
     total_price: "Итоговая цена: ",
     invalid_selection: "Неверный выбор",
     coming_soon: "(скоро)",
+    calculator_greek_coming_soon: "Греческий 🇬🇷 (скоро)",
     // Footer
     contact_title: "Свяжитесь с нами 📬",
     contact_whatsapp: "WhatsApp 📱:",
@@ -866,6 +891,13 @@ const translations = {
     form_adjective: "Прил.",
     form_adverb: "Наречие",
     level_label: "Уровень",
+    task_type_label: "Типы заданий:",
+    type_mc: "Множественный выбор",
+    type_ls: "Послушай и выбери",
+    type_sc: "Собери слово",
+    type_op: "Антоним",
+    type_cl: "Вставь слово",
+    type_tf: "Верно/Неверно",
   },
   el: {
     // Hero section
@@ -919,6 +951,7 @@ const translations = {
     total_price: "Συνολική τιμή: ",
     invalid_selection: "Μη έγκυρη επιλογή",
     coming_soon: "(σύντομα διαθέσιμο)",
+    calculator_greek_coming_soon: "Ελληνικά 🇬🇷 (σύντομα διαθέσιμο)",
     // Footer
     contact_title: "Επικοινωνήστε μαζί μας 📬",
     contact_whatsapp: "WhatsApp 📱:",
@@ -1045,5 +1078,12 @@ const translations = {
     form_adjective: "Επίθετο",
     form_adverb: "Επίρρημα",
     level_label: "Επίπεδο",
+    task_type_label: "Τύποι ασκήσεων:",
+    type_mc: "Πολλαπλής επιλογής",
+    type_ls: "Άκου και επίλεξε",
+    type_sc: "Ανακάτεμα γραμμάτων",
+    type_op: "Αντίθετο",
+    type_cl: "Συμπλήρωση κενού",
+    type_tf: "Σωστό/Λάθος",
   }
 };
