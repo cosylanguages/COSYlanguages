@@ -238,10 +238,12 @@ var currentPractice = {
     currentIndex: 0,
     currentWord: null,
     isCorrect: false,
-    scrambleAnswer: ""
+    scrambleAnswer: "",
+    score: 0
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    loadStreak();
     const startBtn = document.getElementById('start-btn');
     const nextBtn = document.getElementById('next-btn');
     const checkOppositeBtn = document.getElementById('check-opposite-btn');
@@ -251,6 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const oppositeAnswerInput = document.getElementById('opposite-answer');
     const listenBtn = document.getElementById('listen-btn');
     const clearScrambleBtn = document.getElementById('clear-scramble-btn');
+    const backToMenuBtn = document.getElementById('back-to-menu-btn');
 
     if (startBtn) {
         startBtn.addEventListener('click', startPractice);
@@ -288,6 +291,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (clearScrambleBtn) {
         clearScrambleBtn.addEventListener('click', clearScramble);
+    }
+
+    if (backToMenuBtn) {
+        backToMenuBtn.addEventListener('click', () => {
+            document.getElementById('summary-modal').style.display = 'none';
+            document.getElementById('setup-section').style.display = 'block';
+            loadStreak();
+        });
     }
 
     // Load voices once to avoid delay
@@ -370,15 +381,48 @@ function updateProgress() {
 
     progressFill.style.width = percentage + '%';
 
-    const translationsList = {
-        en: `Word ${displayIndex} of ${total}`,
-        fr: `Mot ${displayIndex} sur ${total}`,
-        it: `Parola ${displayIndex} di ${total}`,
-        ru: `Слово ${displayIndex} из ${total}`,
-        el: `Λέξη ${displayIndex} από ${total}`
-    };
+    const lang = currentPractice.language;
+    const wordLabel = (translations[lang] && translations[lang]['progress_word']) ? translations[lang]['progress_word'] : 'Word';
+    const ofLabel = (translations[lang] && translations[lang]['progress_of']) ? translations[lang]['progress_of'] : 'of';
 
-    progressText.textContent = translationsList[currentPractice.language] || translationsList['en'];
+    progressText.textContent = `${wordLabel} ${displayIndex} ${ofLabel} ${total}`;
+}
+
+function loadStreak() {
+    const streak = localStorage.getItem('practice_streak') || 0;
+    const streakCountEl = document.getElementById('streak-count');
+    if (streakCountEl) {
+        streakCountEl.textContent = streak;
+    }
+    return parseInt(streak);
+}
+
+function updateStreak() {
+    const lastDate = localStorage.getItem('last_practice_date');
+    const today = new Date().toDateString();
+
+    if (lastDate === today) return;
+
+    let streak = parseInt(localStorage.getItem('practice_streak') || 0);
+
+    if (lastDate) {
+        const lastPractice = new Date(lastDate);
+        const todayDate = new Date(today);
+        const diffTime = Math.abs(todayDate - lastPractice);
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+        if (diffDays === 1) {
+            streak++;
+        } else {
+            streak = 1;
+        }
+    } else {
+        streak = 1;
+    }
+
+    localStorage.setItem('practice_streak', streak);
+    localStorage.setItem('last_practice_date', today);
+    loadStreak();
 }
 
 function triggerAnimation(type) {
@@ -435,17 +479,40 @@ function startPractice() {
         return;
     }
 
+    const enabledTypes = [];
+    if (document.getElementById('type-mc').checked) enabledTypes.push('multiple_choice');
+    if (document.getElementById('type-ls').checked) enabledTypes.push('listen_select');
+    if (document.getElementById('type-sc').checked) enabledTypes.push('scramble');
+    if (document.getElementById('type-op').checked) enabledTypes.push('opposite');
+    if (document.getElementById('type-cl').checked) enabledTypes.push('cloze');
+    if (document.getElementById('type-tf').checked) enabledTypes.push('true_false');
+
+    if (enabledTypes.length === 0) {
+        alert("Please select at least one task type!");
+        return;
+    }
+
     lessons.forEach(l => {
         if (langData[l]) {
             const lessonWords = langData[l].words.map(w => {
-                // Determine a random type for each word in this session
-                const possibleTypes = ['true_false', 'multiple_choice', 'scramble'];
-                if (w.opposite) possibleTypes.push('opposite');
+                let possibleTypes = [...enabledTypes];
 
+                // Filtering based on word properties
+                if (!w.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
+                if (!w.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
+
+                // Brands always multiple choice if enabled, otherwise just random from others
                 let selectedType;
-                if (w.clozeText || w.isBrand) {
-                    selectedType = 'multiple_choice';
+                if (w.isBrand) {
+                    selectedType = enabledTypes.includes('multiple_choice') ? 'multiple_choice' : enabledTypes[Math.floor(Math.random() * enabledTypes.length)];
+                } else if (w.clozeText && enabledTypes.includes('cloze')) {
+                    if (enabledTypes.includes('multiple_choice')) {
+                        selectedType = Math.random() > 0.5 ? 'cloze' : 'multiple_choice';
+                    } else {
+                        selectedType = 'cloze';
+                    }
                 } else {
+                    if (possibleTypes.length === 0) possibleTypes = [enabledTypes[Math.floor(Math.random() * enabledTypes.length)]];
                     selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
                 }
 
@@ -466,6 +533,8 @@ function startPractice() {
 
     currentPractice.words.sort(() => Math.random() - 0.5);
     currentPractice.currentIndex = 0;
+    currentPractice.score = 0;
+    document.getElementById('score-count').textContent = '0';
 
     if (typeof setLanguage === 'function') {
         setLanguage(currentPractice.language);
@@ -485,9 +554,7 @@ function startPractice() {
 function showNextWord() {
     if (currentPractice.currentIndex >= currentPractice.words.length) {
         updateProgress();
-        alert("Congratulations! You've finished all words in this session.");
-        document.getElementById('setup-section').style.display = 'block';
-        document.getElementById('practice-section').style.display = 'none';
+        showSummary();
         return;
     }
 
@@ -509,13 +576,23 @@ function showNextWord() {
 
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
-    if (wordObj.type === 'multiple_choice') {
-        const text = wordObj.clozeText || wordObj.word;
+    if (wordObj.type === 'multiple_choice' || wordObj.type === 'listen_select') {
+        const isListen = wordObj.type === 'listen_select';
+        const text = isListen ? '???' : (wordObj.clozeText || wordObj.word);
         document.getElementById('word-display').textContent = text;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
-        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_multiple_choice');
+        document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
+        document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
         document.getElementById('choices-grid').style.display = 'grid';
         renderMultipleChoice();
+        if (isListen) {
+            setTimeout(speakWord, 500);
+        }
+    } else if (wordObj.type === 'cloze') {
+        document.getElementById('word-display').textContent = wordObj.clozeText;
+        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_cloze');
+        document.getElementById('opposite-input-container').style.display = 'flex';
+        document.getElementById('opposite-answer').focus();
     } else if (wordObj.type === 'scramble') {
         document.getElementById('word-display').textContent = '???';
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
@@ -677,6 +754,49 @@ function checkTrueFalseAnswer(userAnswer) {
     }
 }
 
+function createConfetti() {
+    const emojis = ['🎉', '✨', '🎈', '🎊', '🥳', '🌟'];
+    const container = document.body;
+
+    for (let i = 0; i < 40; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+        confetti.style.left = Math.random() * 100 + 'vw';
+        confetti.style.fontSize = (Math.random() * 20 + 20) + 'px';
+        confetti.style.animation = `confettiFall ${Math.random() * 3 + 2}s linear forwards`;
+
+        container.appendChild(confetti);
+
+        setTimeout(() => confetti.remove(), 5000);
+    }
+}
+
+function showSummary() {
+    updateStreak();
+    const finalScoreEl = document.getElementById('final-score');
+    const finalStreakEl = document.getElementById('final-streak');
+    const streakUnitEl = document.getElementById('streak-unit');
+    const summaryModal = document.getElementById('summary-modal');
+    const practiceSection = document.getElementById('practice-section');
+
+    if (finalScoreEl) finalScoreEl.textContent = currentPractice.score;
+
+    const streak = loadStreak();
+    if (finalStreakEl) finalStreakEl.textContent = streak;
+    if (streakUnitEl) {
+        const lang = currentPractice.language;
+        const dayKey = streak === 1 ? 'streak_day' : 'streak_days';
+        streakUnitEl.textContent = (translations[lang] && translations[lang][dayKey]) ? translations[lang][dayKey] : 'days';
+        streakUnitEl.setAttribute('data-translate-key', dayKey);
+    }
+
+    if (summaryModal) summaryModal.style.display = 'flex';
+    if (practiceSection) practiceSection.style.display = 'none';
+
+    createConfetti();
+}
+
 function showFeedback(isCorrect) {
     const feedbackMsg = document.getElementById('feedback-message');
     feedbackMsg.className = 'feedback-text ' + (isCorrect ? 'correct' : 'incorrect');
@@ -692,6 +812,9 @@ function showFeedback(isCorrect) {
     }
 
     if (isCorrect) {
+        currentPractice.score += 10;
+        document.getElementById('score-count').textContent = currentPractice.score;
+
         currentPractice.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';
         currentPractice.currentIndex++;
