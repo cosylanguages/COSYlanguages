@@ -36,15 +36,31 @@
             <h2 data-translate-key="practice_title">Practice 💡</h2>
 
             <div id="setup-section">
-                <div class="setup-group">
-                    <label for="practice-language" data-translate-key="select_practice_language">Select language to practice 🌍</label>
-                    <select id="practice-language">
-                        <option value="en">English 🇬🇧</option>
-                        <option value="fr">Français 🇫🇷</option>
-                        <option value="it">Italiano 🇮🇹</option>
-                        <option value="ru">Русский 🇷🇺</option>
-                        <option value="el">Ελληνικά 🇬🇷</option>
-                    </select>
+                <div class="setup-group" style="max-width: 600px;">
+                    <label data-translate-key="select_practice_language">Select language to practice 🌍</label>
+                    <div id="language-grid" class="language-selection-grid">
+                        <div class="lang-selection-card active" data-lang="en">
+                            <span class="lang-flag">🇬🇧</span>
+                            <span class="lang-name">English</span>
+                        </div>
+                        <div class="lang-selection-card" data-lang="fr">
+                            <span class="lang-flag">🇫🇷</span>
+                            <span class="lang-name">Français</span>
+                        </div>
+                        <div class="lang-selection-card" data-lang="it">
+                            <span class="lang-flag">🇮🇹</span>
+                            <span class="lang-name">Italiano</span>
+                        </div>
+                        <div class="lang-selection-card" data-lang="ru">
+                            <span class="lang-flag">🇷🇺</span>
+                            <span class="lang-name">Русский</span>
+                        </div>
+                        <div class="lang-selection-card" data-lang="el">
+                            <span class="lang-flag">🇬🇷</span>
+                            <span class="lang-name">Ελληνικά</span>
+                        </div>
+                    </div>
+                    <input type="hidden" id="practice-language" value="en">
                 </div>
 
                 <div class="setup-group">

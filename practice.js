@@ -366,6 +366,34 @@ document.addEventListener('DOMContentLoaded', () => {
         startBtn.addEventListener('click', startPractice);
     }
 
+    // Language selection cards logic
+    const langCards = document.querySelectorAll('.lang-selection-card');
+    const practiceLangInput = document.getElementById('practice-language');
+
+    // Set default language from localStorage if available
+    const savedPracticeLang = localStorage.getItem('cosy_practice_lang') || 'en';
+    if (practiceLangInput) {
+        practiceLangInput.value = savedPracticeLang;
+        langCards.forEach(card => {
+            if (card.dataset.lang === savedPracticeLang) {
+                card.classList.add('active');
+            } else {
+                card.classList.remove('active');
+            }
+        });
+    }
+
+    langCards.forEach(card => {
+        card.addEventListener('click', () => {
+            langCards.forEach(c => c.classList.remove('active'));
+            card.classList.add('active');
+            if (practiceLangInput) {
+                practiceLangInput.value = card.dataset.lang;
+                localStorage.setItem('cosy_practice_lang', card.dataset.lang);
+            }
+        });
+    });
+
     if (nextBtn) {
         nextBtn.addEventListener('click', showNextWord);
     }
