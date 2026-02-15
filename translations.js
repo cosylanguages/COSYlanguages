@@ -326,6 +326,11 @@ const translations = {
     back_to_menu: "Back to Menu 🏠",
     progress_word: "Word",
     progress_of: "of",
+    form_noun: "Noun",
+    form_verb: "Verb",
+    form_adjective: "Adjective",
+    form_adverb: "Adverb",
+    level_label: "Level",
   },
   fr: {
     // Hero section
@@ -502,6 +507,11 @@ const translations = {
     back_to_menu: "Retour au menu 🏠",
     progress_word: "Mot",
     progress_of: "sur",
+    form_noun: "Nom",
+    form_verb: "Verbe",
+    form_adjective: "Adjectif",
+    form_adverb: "Adverbe",
+    level_label: "Niveau",
   },
   it: {
     // Hero section
@@ -521,7 +531,7 @@ const translations = {
     italian: "Italiano 🇮🇹",
     russian: "Russo 🇷🇺",
     georgian: "Georgiano 🇬🇪",
-    spanish: "Espagnolo 🇪🇸",
+    spanish: "Spagnolo 🇪🇸",
     greek: "Greco 🇬🇷",
     portuguese: "Portoghese 🇵🇹",
     german: "Tedesco 🇩🇪",
@@ -572,10 +582,10 @@ const translations = {
     club_mind: "La mente conta 🧠",
     club_wonder: "Non ho potuto fare a meno di chiedermi 🤔",
     club_debatable: "Discutibile & riconoscibile 🧐",
-    toggle_topics_show: "Mostρα argomenti",
+    toggle_topics_show: "Mostra argomenti",
     toggle_topics_hide: "Nascondi argomenti",
     toggle_games_show: "Mostra giochi",
-    toggle_games_hide: "Nascondι giochi",
+    toggle_games_hide: "Nascondi giochi",
     game_emoji: "Narrazione di storie con emoji 📖",
     game_word_association: "Associazione di parole 🔗",
     game_apples: "Apples to Apples 🍏",
@@ -674,6 +684,11 @@ const translations = {
     back_to_menu: "Torna al menu 🏠",
     progress_word: "Parola",
     progress_of: "di",
+    form_noun: "Sostantivo",
+    form_verb: "Verbo",
+    form_adjective: "Aggettivo",
+    form_adverb: "Avverbio",
+    level_label: "Livello",
   },
   ru: {
     // Hero section
@@ -846,6 +861,11 @@ const translations = {
     back_to_menu: "В меню 🏠",
     progress_word: "Слово",
     progress_of: "из",
+    form_noun: "Сущ.",
+    form_verb: "Глагол",
+    form_adjective: "Прил.",
+    form_adverb: "Наречие",
+    level_label: "Уровень",
   },
   el: {
     // Hero section
@@ -1020,5 +1040,10 @@ const translations = {
     back_to_menu: "Πίσω στο μενού 🏠",
     progress_word: "Λέξη",
     progress_of: "από",
+    form_noun: "Ουσιαστικό",
+    form_verb: "Ρήμα",
+    form_adjective: "Επίθετο",
+    form_adverb: "Επίρρημα",
+    level_label: "Επίπεδο",
   }
 };
