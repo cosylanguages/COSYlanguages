@@ -43,6 +43,28 @@ const lessonsData = {
                 { word: "what", emoji: "❓📦", clozeText: "____ is it? - It's a thing.", answer: "what" },
                 { word: "and", emoji: "➕", clozeText: "A man ___ a woman.", answer: "and" }
             ]
+        },
+        3: {
+            title: "Day 3 | Family & Pets",
+            words: [
+                { word: "mother", emoji: "👩", opposite: "father" },
+                { word: "father", emoji: "👨", opposite: "mother" },
+                { word: "sister", emoji: "👧", opposite: "brother" },
+                { word: "brother", emoji: "👦", opposite: "sister" },
+                { word: "daughter", emoji: "👧", opposite: "son" },
+                { word: "son", emoji: "👦", opposite: "daughter" },
+                { word: "wife", emoji: "💍👩", opposite: "husband" },
+                { word: "husband", emoji: "💍👨", opposite: "wife" },
+                { word: "grandmother", emoji: "👵", opposite: "grandfather" },
+                { word: "grandfather", emoji: "👴", opposite: "grandmother" },
+                { word: "child", emoji: "🧒", opposite: "parent" },
+                { word: "parent", emoji: "👪", opposite: "child" },
+                { word: "family", emoji: "👨‍👩‍👧‍👦" },
+                { word: "parents and children", emoji: "👨‍👩‍👧‍👦" },
+                { word: "friend", emoji: "🤝" },
+                { word: "cat", emoji: "🐈", opposite: "dog" },
+                { word: "dog", emoji: "🐕", opposite: "cat" }
+            ]
         }
     },
     fr: {
@@ -88,6 +110,28 @@ const lessonsData = {
                 { word: "qui", emoji: "❓👤", clozeText: "____ est-ce ? - C'est une personne.", answer: "qui" },
                 { word: "quoi", emoji: "❓📦", clozeText: "C'est ____ ? - C'est une chose.", answer: "quoi" },
                 { word: "et", emoji: "➕", clozeText: "Un homme ___ une femme.", answer: "et" }
+            ]
+        },
+        3: {
+            title: "Jour 3 | Famille et animaux",
+            words: [
+                { word: "la mère", emoji: "👩", opposite: "le père" },
+                { word: "le père", emoji: "👨", opposite: "la mère" },
+                { word: "la sœur", emoji: "👧", opposite: "le frère" },
+                { word: "le frère", emoji: "👦", opposite: "la sœur" },
+                { word: "la fille", emoji: "👧", opposite: "le fils" },
+                { word: "le fils", emoji: "👦", opposite: "la fille" },
+                { word: "la femme", emoji: "💍👩", opposite: "le mari" },
+                { word: "le mari", emoji: "💍👨", opposite: "la femme" },
+                { word: "la grand-mère", emoji: "👵", opposite: "le grand-père" },
+                { word: "le grand-père", emoji: "👴", opposite: "la grand-mère" },
+                { word: "l'enfant", emoji: "🧒", opposite: "le parent" },
+                { word: "le parent", emoji: "👪", opposite: "l'enfant" },
+                { word: "la famille", emoji: "👨‍👩‍👧‍👦" },
+                { word: "parents et enfants", emoji: "👨‍👩‍👧‍👦" },
+                { word: "l'ami / l'amie", emoji: "🤝" },
+                { word: "le chat", emoji: "🐈", opposite: "le chien" },
+                { word: "le chien", emoji: "🐕", opposite: "le chat" }
             ]
         }
     },
@@ -135,6 +179,28 @@ const lessonsData = {
                 { word: "che cosa", emoji: "❓📦", clozeText: "____ è? - È una cosa.", answer: "che cosa" },
                 { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e" }
             ]
+        },
+        3: {
+            title: "Giorno 3 | Famiglia e animali",
+            words: [
+                { word: "la madre", emoji: "👩", opposite: "il padre" },
+                { word: "il padre", emoji: "👨", opposite: "la madre" },
+                { word: "la sorella", emoji: "👧", opposite: "il fratello" },
+                { word: "il fratello", emoji: "👦", opposite: "la sorella" },
+                { word: "la figlia", emoji: "👧", opposite: "il figlio" },
+                { word: "il figlio", emoji: "👦", opposite: "la figlia" },
+                { word: "la moglie", emoji: "💍👩", opposite: "il marito" },
+                { word: "il marito", emoji: "💍👨", opposite: "la moglie" },
+                { word: "la nonna", emoji: "👵", opposite: "il nonno" },
+                { word: "il nonno", emoji: "👴", opposite: "la nonna" },
+                { word: "il bambino / la bambina", emoji: "🧒" },
+                { word: "il genitore", emoji: "👪" },
+                { word: "la famiglia", emoji: "👨‍👩‍👧‍👦" },
+                { word: "genitori e figli", emoji: "👨‍👩‍👧‍👦" },
+                { word: "l'amico / l'amica", emoji: "🤝" },
+                { word: "il gatto", emoji: "🐈", opposite: "il cane" },
+                { word: "il cane", emoji: "🐕", opposite: "il gatto" }
+            ]
         }
     },
     ru: {
@@ -158,8 +224,8 @@ const lessonsData = {
                 { word: "чай", emoji: "🍵" },
                 { word: "вино", emoji: "🍷" },
                 { word: "вода", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
+                { word: "Липтон", emoji: "🫖", isBrand: true },
+                { word: "Шардоне", emoji: "🥂", isBrand: true },
                 { word: "сок", emoji: "🧃" },
                 { word: "пиво", emoji: "🍺" },
                 { word: "наличные", emoji: "💵" },
@@ -180,6 +246,28 @@ const lessonsData = {
                 { word: "кто", emoji: "❓👤", clozeText: "____ это? - Это человек.", answer: "кто" },
                 { word: "что", emoji: "❓📦", clozeText: "____ это? - Это вещь.", answer: "что" },
                 { word: "и", emoji: "➕", clozeText: "Мужчина ___ женщина.", answer: "и" }
+            ]
+        },
+        3: {
+            title: "День 3 | Семья и питомцы",
+            words: [
+                { word: "мать", emoji: "👩", opposite: "отец" },
+                { word: "отец", emoji: "👨", opposite: "мать" },
+                { word: "сестра", emoji: "👧", opposite: "брат" },
+                { word: "брат", emoji: "👦", opposite: "сестра" },
+                { word: "дочь", emoji: "👧", opposite: "сын" },
+                { word: "сын", emoji: "👦", opposite: "дочь" },
+                { word: "жена", emoji: "💍👩", opposite: "муж" },
+                { word: "муж", emoji: "💍👨", opposite: "жена" },
+                { word: "бабушка", emoji: "👵", opposite: "дедушка" },
+                { word: "дедушка", emoji: "👴", opposite: "бабушка" },
+                { word: "ребёнок", emoji: "🧒" },
+                { word: "родитель", emoji: "👪" },
+                { word: "семья", emoji: "👨‍👩‍👧‍👦" },
+                { word: "родители и дети", emoji: "👨‍👩‍👧‍👦" },
+                { word: "друг / подруга", emoji: "🤝" },
+                { word: "кошка / кот", emoji: "🐈", opposite: "собака" },
+                { word: "собака", emoji: "🐕", opposite: "кошка / кот" }
             ]
         }
     },
@@ -204,8 +292,8 @@ const lessonsData = {
                 { word: "τσάι", emoji: "🍵" },
                 { word: "κρασί", emoji: "🍷" },
                 { word: "νερό", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
+                { word: "Λίπτον", emoji: "🫖", isBrand: true },
+                { word: "Σαρντονέ", emoji: "🥂", isBrand: true },
                 { word: "ο χυμός", emoji: "🧃" },
                 { word: "η μπίρα", emoji: "🍺" },
                 { word: "τα μετρητά", emoji: "💵" },
@@ -226,6 +314,28 @@ const lessonsData = {
                 { word: "ποιος", emoji: "❓👤", clozeText: "____ είναι; - Είναι ένα άτομο.", answer: "ποιος" },
                 { word: "τι", emoji: "❓📦", clozeText: "____ είναι; - Είναι ένα πράγμα.", answer: "τι" },
                 { word: "και", emoji: "➕", clozeText: "Ένας άνδρας ___ μια γυναίκα.", answer: "και" }
+            ]
+        },
+        3: {
+            title: "Ημέρα 3 | Οικογένεια και κατοικίδια",
+            words: [
+                { word: "η μητέρα", emoji: "👩", opposite: "ο πατέρας" },
+                { word: "ο πατέρας", emoji: "👨", opposite: "η μητέρα" },
+                { word: "η αδελφή", emoji: "👧", opposite: "ο αδελφός" },
+                { word: "ο αδελφός", emoji: "👦", opposite: "η αδελφή" },
+                { word: "η κόρη", emoji: "👧", opposite: "ο γιος" },
+                { word: "ο γιος", emoji: "👦", opposite: "η κόρη" },
+                { word: "η σύζυγος", emoji: "💍👩", opposite: "ο σύζυγος" },
+                { word: "ο σύζυγος", emoji: "💍👨", opposite: "η σύζυγος" },
+                { word: "η γιαγιά", emoji: "👵", opposite: "ο παππούς" },
+                { word: "ο παππούς", emoji: "👴", opposite: "η γιαγιά" },
+                { word: "το παιδί", emoji: "🧒" },
+                { word: "ο γονέας", emoji: "👪" },
+                { word: "η οικογένεια", emoji: "👨‍👩‍👧‍👦" },
+                { word: "γονείς και παιδιά", emoji: "👨‍👩‍👧‍👦" },
+                { word: "ο φίλος / η φίλη", emoji: "🤝" },
+                { word: "η γάτα", emoji: "🐈", opposite: "ο σκύλος" },
+                { word: "ο σκύλος", emoji: "🐕", opposite: "η γάτα" }
             ]
         }
     }
@@ -439,8 +549,13 @@ function startPractice() {
         if (langData[l]) {
             const lessonWords = langData[l].words.map(w => {
                 // Determine a random type for each word in this session
-                const possibleTypes = ['true_false', 'multiple_choice', 'scramble'];
+                const possibleTypes = ['true_false', 'multiple_choice'];
                 if (w.opposite) possibleTypes.push('opposite');
+
+                // Avoid scramble for very long strings or multi-choice items
+                if (w.word.length < 15 && !w.word.includes(' / ')) {
+                    possibleTypes.push('scramble');
+                }
 
                 let selectedType;
                 if (w.clozeText || w.isBrand) {
@@ -654,7 +769,7 @@ function checkTypedAnswer() {
     const userAnswer = document.getElementById('opposite-answer').value.trim().toLowerCase();
     let correctAnswer;
 
-    if (currentPractice.currentWord.type === 'cloze') {
+    if (currentPractice.currentWord.clozeText) {
         correctAnswer = currentPractice.currentWord.answer.toLowerCase();
     } else {
         correctAnswer = currentPractice.currentWord.opposite.toLowerCase();
