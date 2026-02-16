@@ -15,13 +15,10 @@ const lessonsData = {
                 { word: "sorry", emoji: "🙇‍♂️" },
                 { word: "or", emoji: "🔀", clozeText: "Coffee ____ tea?", answer: "or" },
                 { word: "but", emoji: "⚖️", clozeText: "No, it is not coffee, ___ it is tea.", answer: "but" },
-                { word: "what", emoji: "❓", clozeText: "____ is it?", answer: "what" },
                 { word: "coffee", emoji: "☕" },
                 { word: "tea", emoji: "🍵" },
                 { word: "wine", emoji: "🍷" },
                 { word: "water", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
                 { word: "juice", emoji: "🧃" },
                 { word: "beer", emoji: "🍺" },
                 { word: "cash", emoji: "💵" },
@@ -31,17 +28,19 @@ const lessonsData = {
         2: {
             title: "Day 2 | A thing or a person?",
             words: [
-                { word: "thing", emoji: "📦" },
-                { word: "person", emoji: "👤" },
-                { word: "man", emoji: "👨", opposite: "woman" },
-                { word: "woman", emoji: "👩", opposite: "man" },
-                { word: "boy", emoji: "👦", opposite: "girl" },
-                { word: "girl", emoji: "👧", opposite: "boy" },
-                { word: "teacher", emoji: "🧑‍🏫", opposite: "student" },
-                { word: "student", emoji: "🧑‍🎓", opposite: "teacher" },
-                { word: "who", emoji: "❓👤", clozeText: "____ is it? - It's a person.", answer: "who" },
-                { word: "what", emoji: "❓📦", clozeText: "____ is it? - It's a thing.", answer: "what" },
-                { word: "and", emoji: "➕", clozeText: "A man ___ a woman.", answer: "and" }
+                { word: "thing", emoji: "📦", form: "noun", level: "A1" },
+                { word: "person", emoji: "👤", form: "noun", level: "A1" },
+                { word: "man", emoji: "👨", opposite: "woman", form: "noun", level: "A1" },
+                { word: "woman", emoji: "👩", opposite: "man", form: "noun", level: "A1" },
+                { word: "boy", emoji: "👦", opposite: "girl", form: "noun", level: "A1" },
+                { word: "girl", emoji: "👧", opposite: "boy", form: "noun", level: "A1" },
+                { word: "teacher", emoji: "🧑‍🏫", opposite: "student", form: "noun", level: "A1" },
+                { word: "student", emoji: "🧑‍🎓", opposite: "teacher", form: "noun", level: "A1" },
+                { word: "friend", emoji: "👫", form: "noun", level: "A1" },
+                { word: "child", emoji: "👶", form: "noun", level: "A1" },
+                { word: "who", emoji: "❓👤", clozeText: "____ is it? - It's a person.", answer: "who", level: "A1" },
+                { word: "what", emoji: "❓📦", clozeText: "____ is it? - It's a thing.", answer: "what", level: "A1" },
+                { word: "and", emoji: "➕", clozeText: "A man ___ a woman.", answer: "and", level: "A1" }
             ]
         }
     },
@@ -61,13 +60,10 @@ const lessonsData = {
                 { word: "désolé", emoji: "🙇‍♂️" },
                 { word: "ou", emoji: "🔀", clozeText: "Café ____ thé ?", answer: "ou" },
                 { word: "mais", emoji: "⚖️", clozeText: "Non, ce n'est pas du café, ___ c'est du thé.", answer: "mais" },
-                { word: "quoi", emoji: "❓", clozeText: "C'est ____ ?", answer: "quoi" },
                 { word: "café", emoji: "☕" },
                 { word: "thé", emoji: "🍵" },
                 { word: "vin", emoji: "🍷" },
                 { word: "eau", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
                 { word: "le jus", emoji: "🧃" },
                 { word: "la bière", emoji: "🍺" },
                 { word: "les espèces", emoji: "💵" },
@@ -77,17 +73,19 @@ const lessonsData = {
         2: {
             title: "Jour 2 | Une chose ou une personne ?",
             words: [
-                { word: "la chose", emoji: "📦" },
-                { word: "la personne", emoji: "👤" },
-                { word: "l'homme", emoji: "👨", opposite: "la femme" },
-                { word: "la femme", emoji: "👩", opposite: "l'homme" },
-                { word: "le garçon", emoji: "👦", opposite: "la fille" },
-                { word: "la fille", emoji: "👧", opposite: "le garçon" },
-                { word: "le professeur / la professeure", emoji: "🧑‍🏫", opposite: "l'étudiant / l'étudiante" },
-                { word: "l'étudiant / l'étudiante", emoji: "🧑‍🎓", opposite: "le professeur / la professeure" },
-                { word: "qui", emoji: "❓👤", clozeText: "____ est-ce ? - C'est une personne.", answer: "qui" },
-                { word: "quoi", emoji: "❓📦", clozeText: "C'est ____ ? - C'est une chose.", answer: "quoi" },
-                { word: "et", emoji: "➕", clozeText: "Un homme ___ une femme.", answer: "et" }
+                { word: "la chose", emoji: "📦", form: "noun", level: "A1" },
+                { word: "la personne", emoji: "👤", form: "noun", level: "A1" },
+                { word: "l'homme", emoji: "👨", opposite: "la femme", form: "noun", level: "A1" },
+                { word: "la femme", emoji: "👩", opposite: "l'homme", form: "noun", level: "A1" },
+                { word: "le garçon", emoji: "👦", opposite: "la fille", form: "noun", level: "A1" },
+                { word: "la fille", emoji: "👧", opposite: "le garçon", form: "noun", level: "A1" },
+                { word: "le professeur / la professeure", emoji: "🧑‍🏫", opposite: "l'étudiant / l'étudiante", form: "noun", level: "A1" },
+                { word: "l'étudiant / l'étudiante", emoji: "🧑‍🎓", opposite: "le professeur / la professeure", form: "noun", level: "A1" },
+                { word: "l'ami / l'amie", emoji: "👫", form: "noun", level: "A1" },
+                { word: "l'enfant", emoji: "👶", form: "noun", level: "A1" },
+                { word: "qui", emoji: "❓👤", clozeText: "____ est-ce ? - C'est une personne.", answer: "qui", level: "A1" },
+                { word: "quoi", emoji: "❓📦", clozeText: "C'est ____ ? - C'est une chose.", answer: "quoi", level: "A1" },
+                { word: "et", emoji: "➕", clozeText: "Un homme ___ une femme.", answer: "et", level: "A1" }
             ]
         }
     },
@@ -112,8 +110,6 @@ const lessonsData = {
                 { word: "tè", emoji: "🍵" },
                 { word: "vino", emoji: "🍷" },
                 { word: "acqua", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
                 { word: "il succo", emoji: "🧃" },
                 { word: "la birra", emoji: "🍺" },
                 { word: "i contanti", emoji: "💵" },
@@ -123,17 +119,19 @@ const lessonsData = {
         2: {
             title: "Giorno 2 | Una cosa o una persona?",
             words: [
-                { word: "la cosa", emoji: "📦" },
-                { word: "la persona", emoji: "👤" },
-                { word: "l'uomo", emoji: "👨", opposite: "la donna" },
-                { word: "la donna", emoji: "👩", opposite: "l'uomo" },
-                { word: "il ragazzo", emoji: "👦", opposite: "la ragazza" },
-                { word: "la ragazza", emoji: "👧", opposite: "il ragazzo" },
-                { word: "il professore / la professoressa", emoji: "🧑‍🏫", opposite: "lo studente / la studentessa" },
-                { word: "lo studente / la studentessa", emoji: "🧑‍🎓", opposite: "il professore / la professoressa" },
-                { word: "chi", emoji: "❓👤", clozeText: "____ è? - È una persona.", answer: "chi" },
-                { word: "che cosa", emoji: "❓📦", clozeText: "____ è? - È una cosa.", answer: "che cosa" },
-                { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e" }
+                { word: "la cosa", emoji: "📦", form: "noun", level: "A1" },
+                { word: "la persona", emoji: "👤", form: "noun", level: "A1" },
+                { word: "l'uomo", emoji: "👨", opposite: "la donna", form: "noun", level: "A1" },
+                { word: "la donna", emoji: "👩", opposite: "l'uomo", form: "noun", level: "A1" },
+                { word: "il ragazzo", emoji: "👦", opposite: "la ragazza", form: "noun", level: "A1" },
+                { word: "la ragazza", emoji: "👧", opposite: "il ragazzo", form: "noun", level: "A1" },
+                { word: "il professore / la professoressa", emoji: "🧑‍🏫", opposite: "lo studente / la studentessa", form: "noun", level: "A1" },
+                { word: "lo studente / la studentessa", emoji: "🧑‍🎓", opposite: "il professore / la professoressa", form: "noun", level: "A1" },
+                { word: "l'amico / l'amica", emoji: "👫", form: "noun", level: "A1" },
+                { word: "il bambino / la bambina", emoji: "👶", form: "noun", level: "A1" },
+                { word: "chi", emoji: "❓👤", clozeText: "____ è? - È una persona.", answer: "chi", level: "A1" },
+                { word: "che cosa", emoji: "❓📦", clozeText: "____ è? - È una cosa.", answer: "che cosa", level: "A1" },
+                { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e", level: "A1" }
             ]
         }
     },
@@ -146,20 +144,16 @@ const lessonsData = {
                 { word: "да", emoji: "✅", opposite: "нет" },
                 { word: "нет", emoji: "❌", opposite: "да" },
                 { word: "спасибо", emoji: "🙏", opposite: "пожалуйста" },
-                { word: "пожалуйста", emoji: "💁‍♂️", opposite: "спасибо" },
-                { word: "пожалуйста", emoji: "🥺", clozeText: "Один кофе, ______.", answer: "пожалуйста" },
+                { word: "пожалуйста", emoji: "🙏", opposite: "спасибо", clozeText: "Один кофе, ______.", answer: "пожалуйста" },
                 { word: "ок", emoji: "👌" },
                 { word: "хорошо", emoji: "👍" },
                 { word: "извини", emoji: "🙇‍♂️" },
                 { word: "или", emoji: "🔀", clozeText: "Кофе ____ чай ?", answer: "или" },
                 { word: "но", emoji: "⚖️", clozeText: "Нет, это не кофе, ___ это чай.", answer: "но" },
-                { word: "что", emoji: "❓", clozeText: "____ это?", answer: "что" },
                 { word: "кофе", emoji: "☕" },
                 { word: "чай", emoji: "🍵" },
                 { word: "вино", emoji: "🍷" },
                 { word: "вода", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
                 { word: "сок", emoji: "🧃" },
                 { word: "пиво", emoji: "🍺" },
                 { word: "наличные", emoji: "💵" },
@@ -169,17 +163,19 @@ const lessonsData = {
         2: {
             title: "День 2 | Вещь или человек?",
             words: [
-                { word: "вещь", emoji: "📦" },
-                { word: "человек", emoji: "👤" },
-                { word: "мужчина", emoji: "👨", opposite: "женщина" },
-                { word: "женщина", emoji: "👩", opposite: "мужчина" },
-                { word: "мальчик", emoji: "👦", opposite: "девочка" },
-                { word: "девочка", emoji: "👧", opposite: "мальчик" },
-                { word: "учитель / учительница", emoji: "🧑‍🏫", opposite: "студент / студентка" },
-                { word: "студент / студентка", emoji: "🧑‍🎓", opposite: "учитель / учительница" },
-                { word: "кто", emoji: "❓👤", clozeText: "____ это? - Это человек.", answer: "кто" },
-                { word: "что", emoji: "❓📦", clozeText: "____ это? - Это вещь.", answer: "что" },
-                { word: "и", emoji: "➕", clozeText: "Мужчина ___ женщина.", answer: "и" }
+                { word: "вещь", emoji: "📦", form: "noun", level: "A1" },
+                { word: "человек", emoji: "👤", form: "noun", level: "A1" },
+                { word: "мужчина", emoji: "👨", opposite: "женщина", form: "noun", level: "A1" },
+                { word: "женщина", emoji: "👩", opposite: "мужчина", form: "noun", level: "A1" },
+                { word: "мальчик", emoji: "👦", opposite: "девочка", form: "noun", level: "A1" },
+                { word: "девочка", emoji: "👧", opposite: "мальчик", form: "noun", level: "A1" },
+                { word: "учитель / учительница", emoji: "🧑‍🏫", opposite: "студент / студентка", form: "noun", level: "A1" },
+                { word: "студент / студентка", emoji: "🧑‍🎓", opposite: "учитель / учительница", form: "noun", level: "A1" },
+                { word: "друг / подруга", emoji: "👫", form: "noun", level: "A1" },
+                { word: "ребёнок", emoji: "👶", form: "noun", level: "A1" },
+                { word: "кто", emoji: "❓👤", clozeText: "____ это? - Это человек.", answer: "кто", level: "A1" },
+                { word: "что", emoji: "❓📦", clozeText: "____ это? - Это вещь.", answer: "что", level: "A1" },
+                { word: "и", emoji: "➕", clozeText: "Мужчина ___ женщина.", answer: "и", level: "A1" }
             ]
         }
     },
@@ -192,20 +188,16 @@ const lessonsData = {
                 { word: "ναι", emoji: "✅", opposite: "όχι" },
                 { word: "όχι", emoji: "❌", opposite: "ναι" },
                 { word: "ευχαριστώ", emoji: "🙏", opposite: "παρακαλώ" },
-                { word: "παρακαλώ", emoji: "💁‍♂️", opposite: "ευχαριστώ" },
-                { word: "παρακαλώ", emoji: "🥺", clozeText: "Έναν καφέ, ______.", answer: "παρακαλώ" },
+                { word: "παρακαλώ", emoji: "🙏", opposite: "ευχαριστώ", clozeText: "Έναν καφέ, ______.", answer: "παρακαλώ" },
                 { word: "οκ", emoji: "👌" },
                 { word: "εντάξει", emoji: "👍" },
                 { word: "συγγνώμη", emoji: "🙇‍♂️" },
                 { word: "ή", emoji: "🔀", clozeText: "Καφές ____ τσάι ;", answer: "ή" },
                 { word: "αλλά", emoji: "⚖️", clozeText: "Όχι, δεν είναι καφές, ___ είναι τσάι.", answer: "αλλά" },
-                { word: "τι", emoji: "❓", clozeText: "____ είναι;", answer: "τι" },
                 { word: "καφές", emoji: "☕" },
                 { word: "τσάι", emoji: "🍵" },
                 { word: "κρασί", emoji: "🍷" },
                 { word: "νερό", emoji: "💧" },
-                { word: "Lipton", emoji: "🫖", isBrand: true },
-                { word: "Chardonnay", emoji: "🥂", isBrand: true },
                 { word: "ο χυμός", emoji: "🧃" },
                 { word: "η μπίρα", emoji: "🍺" },
                 { word: "τα μετρητά", emoji: "💵" },
@@ -215,17 +207,19 @@ const lessonsData = {
         2: {
             title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
             words: [
-                { word: "το πράγμα", emoji: "📦" },
-                { word: "το άτομο", emoji: "👤" },
-                { word: "ο άνδρας", emoji: "👨", opposite: "η γυναίκα" },
-                { word: "η γυναίκα", emoji: "👩", opposite: "ο άνδρας" },
-                { word: "το αγόρι", emoji: "👦", opposite: "το κορίτσι" },
-                { word: "το κορίτσι", emoji: "👧", opposite: "το αγόρι" },
-                { word: "ο δάσκαλος / η δασκάλα", emoji: "🧑‍🏫", opposite: "ο μαθητής / η μαθήτρια" },
-                { word: "ο μαθητής / η μαθήτρια", emoji: "🧑‍🎓", opposite: "ο δάσκαλος / η δασκάλα" },
-                { word: "ποιος", emoji: "❓👤", clozeText: "____ είναι; - Είναι ένα άτομο.", answer: "ποιος" },
-                { word: "τι", emoji: "❓📦", clozeText: "____ είναι; - Είναι ένα πράγμα.", answer: "τι" },
-                { word: "και", emoji: "➕", clozeText: "Ένας άνδρας ___ μια γυναίκα.", answer: "και" }
+                { word: "το πράγμα", emoji: "📦", form: "noun", level: "A1" },
+                { word: "το άτομο", emoji: "👤", form: "noun", level: "A1" },
+                { word: "ο άνδρας", emoji: "👨", opposite: "η γυναίκα", form: "noun", level: "A1" },
+                { word: "η γυναίκα", emoji: "👩", opposite: "ο άνδρας", form: "noun", level: "A1" },
+                { word: "το αγόρι", emoji: "👦", opposite: "το κορίτσι", form: "noun", level: "A1" },
+                { word: "το κορίτσι", emoji: "👧", opposite: "το αγόρι", form: "noun", level: "A1" },
+                { word: "ο δάσκαλος / η δασκάλα", emoji: "🧑‍🏫", opposite: "ο μαθητής / η μαθήτρια", form: "noun", level: "A1" },
+                { word: "ο μαθητής / η μαθήτρια", emoji: "🧑‍🎓", opposite: "ο δάσκαλος / η δασκάλα", form: "noun", level: "A1" },
+                { word: "ο φίλος / η φίλη", emoji: "👫", form: "noun", level: "A1" },
+                { word: "το παιδί", emoji: "👶", form: "noun", level: "A1" },
+                { word: "ποιος", emoji: "❓👤", clozeText: "____ είναι; - Είναι ένα άτομο.", answer: "ποιος", level: "A1" },
+                { word: "τι", emoji: "❓📦", clozeText: "____ είναι; - Είναι ένα πράγμα.", answer: "τι", level: "A1" },
+                { word: "και", emoji: "➕", clozeText: "Ένας άνδρας ___ μια γυναίκα.", answer: "και", level: "A1" }
             ]
         }
     }
@@ -575,6 +569,35 @@ function showNextWord() {
     document.getElementById('hint-btn').style.display = (wordObj.type === 'true_false' ? 'none' : 'inline-block');
 
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
+
+    // Display metadata (form and level)
+    const metaContainer = document.getElementById('word-meta');
+    const formBadge = document.getElementById('word-form');
+    const levelBadge = document.getElementById('word-level');
+
+    if (wordObj.form || wordObj.level) {
+        metaContainer.style.display = 'flex';
+        const lang = currentPractice.language;
+
+        if (wordObj.form) {
+            formBadge.style.display = 'inline-block';
+            const formKey = `form_${wordObj.form}`;
+            formBadge.textContent = (translations[lang] && translations[lang][formKey]) ? translations[lang][formKey] : wordObj.form;
+            formBadge.setAttribute('data-translate-key', formKey);
+        } else {
+            formBadge.style.display = 'none';
+        }
+
+        if (wordObj.level) {
+            levelBadge.style.display = 'inline-block';
+            const levelLabel = (translations[lang] && translations[lang]['level_label']) ? translations[lang]['level_label'] : 'Level';
+            levelBadge.textContent = `${levelLabel}: ${wordObj.level}`;
+        } else {
+            levelBadge.style.display = 'none';
+        }
+    } else {
+        metaContainer.style.display = 'none';
+    }
 
     if (wordObj.type === 'multiple_choice' || wordObj.type === 'listen_select') {
         const isListen = wordObj.type === 'listen_select';

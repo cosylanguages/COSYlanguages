@@ -177,17 +177,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     const totalCost = totalCostEUR * rate;
                     const discountedCost = discountedCostEUR * rate;
                     
+                    const priceTextSpan = document.createElement('span');
+                    priceTextSpan.setAttribute('data-translate-key', 'total_price');
+                    priceTextSpan.textContent = 'Total Price: '; // Default text
+                    priceResultDiv.appendChild(priceTextSpan);
+
                     if (discount > 0) {
-                        priceResultDiv.innerHTML = `
+                        priceResultDiv.innerHTML += `
                             <span class="original-price">${symbol}${totalCost.toFixed(2)}</span>
                             <span class="discounted-price">${symbol}${discountedCost.toFixed(2)}</span>
                         `;
                     } else {
-                        const priceTextSpan = document.createElement('span');
-                        priceTextSpan.setAttribute('data-translate-key', 'total_price');
-                        priceTextSpan.textContent = 'Total Price: '; // Default text
-
-                        priceResultDiv.appendChild(priceTextSpan);
                         priceResultDiv.innerHTML += `${symbol}${totalCost.toFixed(2)}`;
                     }
                 } else {
