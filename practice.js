@@ -35,14 +35,14 @@ const lessonsData = {
                 { word: "D'accord", emoji: "👍", opposite: "Ok", category: "vocabulary" },
                 { word: "Désolé", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
                 { word: "ou", emoji: "🔀", clozeText: "Café ____ thé ?", answer: "ou", category: "grammar" },
-                { word: "le café", emoji: "☕", category: "vocabulary" },
-                { word: "le thé", emoji: "🍵", category: "vocabulary" },
-                { word: "le jus", emoji: "🧃", category: "vocabulary" },
-                { word: "le vin", emoji: "🍷", category: "vocabulary" },
-                { word: "la bière", emoji: "🍺", category: "vocabulary" },
-                { word: "l'eau", emoji: "🚰", category: "vocabulary" },
-                { word: "les espèces", emoji: "💵", category: "vocabulary" },
-                { word: "la carte", emoji: "💳", category: "vocabulary" },
+                { word: "le café", emoji: "☕", category: "vocabulary", article: "le", baseWord: "café" },
+                { word: "le thé", emoji: "🍵", category: "vocabulary", article: "le", baseWord: "thé" },
+                { word: "le jus", emoji: "🧃", category: "vocabulary", article: "le", baseWord: "jus" },
+                { word: "le vin", emoji: "🍷", category: "vocabulary", article: "le", baseWord: "vin" },
+                { word: "la bière", emoji: "🍺", category: "vocabulary", article: "la", baseWord: "bière" },
+                { word: "l'eau", emoji: "🚰", category: "vocabulary", article: "l'", baseWord: "eau" },
+                { word: "les espèces", emoji: "💵", category: "vocabulary", article: "les", baseWord: "espèces" },
+                { word: "la carte", emoji: "💳", category: "vocabulary", article: "la", baseWord: "carte" },
                 { word: "pas", emoji: "❌", clozeText: "Non, ce n'est ___ du café.", answer: "pas", category: "grammar" },
                 { word: "Quoi", emoji: "❓", clozeText: "C'est ____ ?", answer: "quoi", category: "grammar" },
                 { word: "mais", emoji: "⚖️", clozeText: "Non, ce n'est pas du café, ___ c'est du thé.", answer: "mais", category: "grammar" }
@@ -60,14 +60,14 @@ const lessonsData = {
                 { word: "Va bene", emoji: "👍", opposite: "Ok", category: "vocabulary" },
                 { word: "Scusi", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
                 { word: "o", emoji: "🔀", clozeText: "Caffè ____ tè?", answer: "o", category: "grammar" },
-                { word: "il caffè", emoji: "☕", category: "vocabulary" },
-                { word: "il tè", emoji: "🍵", category: "vocabulary" },
-                { word: "il succo", emoji: "🧃", category: "vocabulary" },
-                { word: "il vino", emoji: "🍷", category: "vocabulary" },
-                { word: "la birra", emoji: "🍺", category: "vocabulary" },
-                { word: "l'acqua", emoji: "🚰", category: "vocabulary" },
-                { word: "i contanti", emoji: "💵", category: "vocabulary" },
-                { word: "la carta", emoji: "💳", category: "vocabulary" },
+                { word: "il caffè", emoji: "☕", category: "vocabulary", article: "il", baseWord: "caffè" },
+                { word: "il tè", emoji: "🍵", category: "vocabulary", article: "il", baseWord: "tè" },
+                { word: "il succo", emoji: "🧃", category: "vocabulary", article: "il", baseWord: "succo" },
+                { word: "il vino", emoji: "🍷", category: "vocabulary", article: "il", baseWord: "vino" },
+                { word: "la birra", emoji: "🍺", category: "vocabulary", article: "la", baseWord: "birra" },
+                { word: "l'acqua", emoji: "🚰", category: "vocabulary", article: "l'", baseWord: "acqua" },
+                { word: "i contanti", emoji: "💵", category: "vocabulary", article: "i", baseWord: "contanti" },
+                { word: "la carta", emoji: "💳", category: "vocabulary", article: "la", baseWord: "carta" },
                 { word: "non", emoji: "❌", clozeText: "No, ___ è caffè.", answer: "non", category: "grammar" },
                 { word: "Cosa", emoji: "❓", clozeText: "____ è?", answer: "cosa", category: "grammar" },
                 { word: "ma", emoji: "⚖️", clozeText: "No, non è caffè, ___ è tè.", answer: "ma", category: "grammar" }
@@ -110,14 +110,14 @@ const lessonsData = {
                 { word: "Εντάξει", emoji: "👍", opposite: "Οκ", category: "vocabulary" },
                 { word: "Συγγνώμη", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
                 { word: "ή", emoji: "🔀", clozeText: "Καφές ____ τσάι;", answer: "ή", category: "grammar" },
-                { word: "ο καφές", emoji: "☕", category: "vocabulary" },
-                { word: "το τσάι", emoji: "🍵", category: "vocabulary" },
-                { word: "ο χυμός", emoji: "🧃", category: "vocabulary" },
-                { word: "το κρασί", emoji: "🍷", category: "vocabulary" },
-                { word: "η μπίρα", emoji: "🍺", category: "vocabulary" },
-                { word: "το νερό", emoji: "🚰", category: "vocabulary" },
-                { word: "τα μετρητά", emoji: "💵", category: "vocabulary" },
-                { word: "η κάρτα", emoji: "💳", category: "vocabulary" },
+                { word: "ο καφές", emoji: "☕", category: "vocabulary", article: "ο", baseWord: "καφές" },
+                { word: "το τσάι", emoji: "🍵", category: "vocabulary", article: "το", baseWord: "τσάι" },
+                { word: "ο χυμός", emoji: "🧃", category: "vocabulary", article: "ο", baseWord: "χυμός" },
+                { word: "το κρασί", emoji: "🍷", category: "vocabulary", article: "το", baseWord: "κρασί" },
+                { word: "η μπίρα", emoji: "🍺", category: "vocabulary", article: "η", baseWord: "μπίρα" },
+                { word: "το νερό", emoji: "🚰", category: "vocabulary", article: "το", baseWord: "νερό" },
+                { word: "τα μετρητά", emoji: "💵", category: "vocabulary", article: "τα", baseWord: "μετρητά" },
+                { word: "η κάρτα", emoji: "💳", category: "vocabulary", article: "η", baseWord: "κάρτα" },
                 { word: "δεν", emoji: "❌", clozeText: "Όχι, ___ είναι καφές.", answer: "δεν", category: "grammar" },
                 { word: "Τι", emoji: "❓", clozeText: "____ είναι;", answer: "Τι", category: "grammar" },
                 { word: "αλλά", emoji: "⚖️", clozeText: "Όχι, δεν είναι καφές, ___ είναι τσάι.", answer: "αλλά", category: "grammar" }
@@ -381,6 +381,7 @@ function startPractice() {
     if (document.getElementById('type-op').checked) enabledTypes.push('opposite');
     if (document.getElementById('type-cl').checked) enabledTypes.push('cloze');
     if (document.getElementById('type-tf').checked) enabledTypes.push('true_false');
+    if (document.getElementById('type-ga').checked) enabledTypes.push('gender_articles');
 
     if (enabledTypes.length === 0) {
         alert("Please select at least one task type!");
@@ -398,13 +399,24 @@ function startPractice() {
 
     lessons.forEach(l => {
         if (langData[l]) {
-            const filteredWords = langData[l].words.filter(w => enabledCategories.includes(w.category));
+            const filteredWords = langData[l].words.filter(w => {
+                if (enabledCategories.includes(w.category)) return true;
+                // Include nouns for article practice if Grammar is selected and Gender & Articles is enabled
+                if (enabledCategories.includes('grammar') && w.article && enabledTypes.includes('gender_articles')) return true;
+                return false;
+            });
             const lessonWords = filteredWords.map(w => {
                 let possibleTypes = [...enabledTypes];
 
                 // Filtering based on word properties
                 if (!w.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
                 if (!w.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
+                if (!w.article) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
+
+                // If word is from vocabulary category but we are in grammar-only mode, it must be gender_articles
+                if (w.category === 'vocabulary' && !enabledCategories.includes('vocabulary')) {
+                    possibleTypes = ['gender_articles'];
+                }
 
                 // Brands always multiple choice if enabled, otherwise just random from others
                 let selectedType;
@@ -533,6 +545,12 @@ function showNextWord() {
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_scramble');
         document.getElementById('scramble-container').style.display = 'block';
         renderScramble();
+    } else if (wordObj.type === 'gender_articles') {
+        document.getElementById('word-display').textContent = wordObj.baseWord;
+        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_gender_articles');
+        document.getElementById('choices-grid').style.display = 'grid';
+        renderGenderArticles();
     } else if (wordObj.type === 'true_false') {
         document.getElementById('word-display').textContent = wordObj.word;
         const isTrueQuestion = Math.random() > 0.5;
@@ -598,6 +616,42 @@ function renderMultipleChoice() {
         btn.className = 'choice-btn';
         btn.textContent = choice;
         btn.onclick = () => checkMultipleChoiceAnswer(choice, btn);
+        choicesGrid.appendChild(btn);
+    });
+}
+
+function renderGenderArticles() {
+    const wordObj = currentPractice.currentWord;
+    const choicesGrid = document.getElementById('choices-grid');
+    choicesGrid.innerHTML = '';
+
+    const lang = currentPractice.language;
+    const articlesMap = {
+        it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
+        fr: ['le', 'la', "l'", 'les'],
+        el: ['ο', 'η', 'το', 'οι', 'τα']
+    };
+
+    const choices = articlesMap[lang] || [];
+
+    // If current word's article is not in the map for some reason, add it
+    if (wordObj.article && !choices.includes(wordObj.article)) {
+        choices.push(wordObj.article);
+    }
+
+    choices.forEach(article => {
+        const btn = document.createElement('button');
+        btn.className = 'choice-btn';
+        btn.textContent = article;
+        btn.onclick = () => {
+            if (article === wordObj.article) {
+                btn.classList.add('correct');
+                showFeedback(true);
+            } else {
+                btn.classList.add('incorrect');
+                showFeedback(false);
+            }
+        };
         choicesGrid.appendChild(btn);
     });
 }

@@ -342,6 +342,8 @@ const translations = {
     type_op: "Opposite",
     type_cl: "Cloze (Typing)",
     type_tf: "True/False",
+    type_ga: "Gender & Articles",
+    task_gender_articles: "Select the correct article:",
   },
   fr: {
     // Hero section
@@ -534,6 +536,8 @@ const translations = {
     type_op: "Opposé",
     type_cl: "Texte à trous",
     type_tf: "Vrai/Faux",
+    type_ga: "Genre et Articles",
+    task_gender_articles: "Sélectionnez l'article correct :",
   },
   it: {
     // Hero section
@@ -722,6 +726,8 @@ const translations = {
     type_op: "Opposto",
     type_cl: "Testo a completamento",
     type_tf: "Vero/Falso",
+    type_ga: "Genere e Articoli",
+    task_gender_articles: "Seleziona l'articolo corretto:",
   },
   ru: {
     // Hero section
@@ -910,6 +916,8 @@ const translations = {
     type_op: "Антоним",
     type_cl: "Вставь слово",
     type_tf: "Верно/Неверно",
+    type_ga: "Род и Артикли",
+    task_gender_articles: "Выберите правильный артикль:",
   },
   el: {
     // Hero section
@@ -1100,5 +1108,7 @@ const translations = {
     type_op: "Αντίθετο",
     type_cl: "Συμπλήρωση κενού",
     type_tf: "Σωστό/Λάθος",
+    type_ga: "Γένος και Άρθρα",
+    task_gender_articles: "Επιλέξτε το σωστό άρθρο:",
   }
 };
