@@ -35,7 +35,6 @@ const lessonsData = {
                 { word: "teacher", emoji: "🧑‍🏫", opposite: "student", oppositeEmoji: "🧑‍🎓", category: "vocabulary" },
                 { word: "student", emoji: "🧑‍🎓", opposite: "teacher", oppositeEmoji: "🧑‍🏫", category: "vocabulary" },
                 { word: "friend", emoji: "👫", category: "vocabulary" },
-                { word: "child", emoji: "👶", category: "vocabulary" },
                 { word: "Nice to meet you", emoji: "🤝", opposite: "Pleased to meet you", oppositeEmoji: "👋", category: "vocabulary" },
                 { word: "No problem", emoji: "👌", opposite: "You're welcome", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "for me", emoji: "🙋‍♂️", clozeText: "A coffee ______, please.", answer: "for me", category: "vocabulary" },
@@ -46,6 +45,29 @@ const lessonsData = {
                 { word: "where", emoji: "📍", clozeText: "____ is the coffee?", answer: "where", category: "grammar" },
                 { word: "when", emoji: "⏰", clozeText: "____ is the lesson?", answer: "when", category: "grammar" },
                 { word: "why", emoji: "❓", clozeText: "____ coffee? - Because I like it.", answer: "why", category: "grammar" }
+            ]
+        },
+        3: {
+            title: "Day 3 | Family & Pets",
+            words: [
+                { word: "mother", emoji: "👩‍👦", opposite: "father", oppositeEmoji: "👨‍👦", category: "vocabulary" },
+                { word: "father", emoji: "👨‍👦", opposite: "mother", oppositeEmoji: "👩‍👦", category: "vocabulary" },
+                { word: "sister", emoji: "👩‍👧‍👧", opposite: "brother", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary" },
+                { word: "brother", emoji: "👨‍👦‍👦", opposite: "sister", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary" },
+                { word: "daughter", emoji: "👧", opposite: "son", oppositeEmoji: "👦", category: "vocabulary" },
+                { word: "son", emoji: "👦", opposite: "daughter", oppositeEmoji: "👧", category: "vocabulary" },
+                { word: "wife", emoji: "👰", opposite: "husband", oppositeEmoji: "🤵", category: "vocabulary" },
+                { word: "husband", emoji: "🤵", opposite: "wife", oppositeEmoji: "👰", category: "vocabulary" },
+                { word: "child", emoji: "👶", category: "vocabulary" },
+                { word: "parent", emoji: "👪", category: "vocabulary" },
+                { word: "family", emoji: "🏠👪", category: "vocabulary" },
+                { word: "together", emoji: "🫂", clozeText: "parents and children ______.", answer: "together", category: "vocabulary" },
+                { word: "cat", emoji: "🐈", category: "vocabulary" },
+                { word: "dog", emoji: "🐕", category: "vocabulary" },
+                { word: "fish", emoji: "🐟", category: "vocabulary" },
+                { word: "parrot", emoji: "🦜", category: "vocabulary" },
+                { word: "only", emoji: "☝️", clozeText: "an ______ child.", answer: "only", category: "grammar" },
+                { word: "don't", emoji: "🚫", clozeText: "I ______ have brothers or sisters.", answer: "don't", category: "grammar" }
             ]
         }
     },
@@ -88,7 +110,6 @@ const lessonsData = {
                 { word: "l'étudiante", emoji: "👩‍🎓", category: "vocabulary", article: "la", baseWord: "étudiante" },
                 { word: "l'ami", emoji: "🧑‍🤝‍🧑", category: "vocabulary", article: "l'", baseWord: "ami" },
                 { word: "l'amie", emoji: "👩‍🤝‍👩", category: "vocabulary", article: "l'", baseWord: "amie" },
-                { word: "l'enfant", emoji: "👶", category: "vocabulary", article: "l'", baseWord: "enfant" },
                 { word: "Enchanté", emoji: "🤝", opposite: "Ravi de vous rencontrer", oppositeEmoji: "👋", category: "vocabulary" },
                 { word: "Pas de problème", emoji: "👌", opposite: "De rien", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "pour moi", emoji: "🙋‍♂️", clozeText: "Un café ______, s'il vous plaît.", answer: "pour moi", category: "vocabulary" },
@@ -99,6 +120,29 @@ const lessonsData = {
                 { word: "où", emoji: "📍", clozeText: "____ est le café ?", answer: "où", category: "grammar" },
                 { word: "quand", emoji: "⏰", clozeText: "____ est la leçon ?", answer: "quand", category: "grammar" },
                 { word: "pourquoi", emoji: "❓", clozeText: "____ du café ? - Parce que j'aime ça.", answer: "pourquoi", category: "grammar" }
+            ]
+        },
+        3: {
+            title: "Jour 3 | Famille et Animaux",
+            words: [
+                { word: "la mère", emoji: "👩‍👦", opposite: "le père", oppositeEmoji: "👨‍👦", category: "vocabulary", article: "la", baseWord: "mère" },
+                { word: "le père", emoji: "👨‍👦", opposite: "la mère", oppositeEmoji: "👩‍👦", category: "vocabulary", article: "le", baseWord: "père" },
+                { word: "la sœur", emoji: "👩‍👧‍👧", opposite: "le frère", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary", article: "la", baseWord: "sœur" },
+                { word: "le frère", emoji: "👨‍👦‍👦", opposite: "la sœur", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary", article: "le", baseWord: "frère" },
+                { word: "la fille", emoji: "👧", opposite: "le fils", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "fille" },
+                { word: "le fils", emoji: "👦", opposite: "la fille", oppositeEmoji: "👧", category: "vocabulary", article: "le", baseWord: "fils" },
+                { word: "la femme", emoji: "👰", opposite: "le mari", oppositeEmoji: "🤵", category: "vocabulary", article: "la", baseWord: "femme" },
+                { word: "le mari", emoji: "🤵", opposite: "la femme", oppositeEmoji: "👰", category: "vocabulary", article: "le", baseWord: "mari" },
+                { word: "l'enfant", emoji: "👶", category: "vocabulary", article: "l'", baseWord: "enfant" },
+                { word: "le parent", emoji: "👪", category: "vocabulary", article: "le", baseWord: "parent" },
+                { word: "la famille", emoji: "🏠👪", category: "vocabulary", article: "la", baseWord: "famille" },
+                { word: "ensemble", emoji: "🫂", clozeText: "parents et enfants ______.", answer: "ensemble", category: "vocabulary" },
+                { word: "le chat", emoji: "🐈", category: "vocabulary", article: "le", baseWord: "chat" },
+                { word: "le chien", emoji: "🐕", category: "vocabulary", article: "le", baseWord: "chien" },
+                { word: "le poisson", emoji: "🐟", category: "vocabulary", article: "le", baseWord: "poisson" },
+                { word: "le perroquet", emoji: "🦜", category: "vocabulary", article: "le", baseWord: "perroquet" },
+                { word: "unique", emoji: "☝️", clozeText: "enfant ______.", answer: "unique", category: "grammar" },
+                { word: "pas", emoji: "🚫", clozeText: "Je n'ai ______ de frères ou de sœurs.", answer: "pas", category: "grammar" }
             ]
         }
     },
@@ -141,7 +185,6 @@ const lessonsData = {
                 { word: "la studentessa", emoji: "👩‍🎓", category: "vocabulary", article: "la", baseWord: "studentessa" },
                 { word: "l'amico", emoji: "🧑‍🤝‍🧑", category: "vocabulary", article: "l'", baseWord: "amico" },
                 { word: "l'amica", emoji: "👩‍🤝‍👩", category: "vocabulary", article: "l'", baseWord: "amica" },
-                { word: "il bambino", emoji: "👶", category: "vocabulary", article: "il", baseWord: "bambino" },
                 { word: "Piacere", emoji: "🤝", opposite: "Piacere di conoscerti", oppositeEmoji: "👋", category: "vocabulary" },
                 { word: "Nessun problema", emoji: "👌", opposite: "Prego", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "per me", emoji: "🙋‍♂️", clozeText: "Un caffè ______, per favore.", answer: "per me", category: "vocabulary" },
@@ -152,6 +195,29 @@ const lessonsData = {
                 { word: "dove", emoji: "📍", clozeText: "____ è il caffè?", answer: "dove", category: "grammar" },
                 { word: "quando", emoji: "⏰", clozeText: "____ è la lezione?", answer: "quando", category: "grammar" },
                 { word: "perché", emoji: "❓", clozeText: "____ il caffè? - Perché mi piace.", answer: "perché", category: "grammar" }
+            ]
+        },
+        3: {
+            title: "Giorno 3 | Famiglia e Animali",
+            words: [
+                { word: "la madre", emoji: "👩‍👦", opposite: "il padre", oppositeEmoji: "👨‍👦", category: "vocabulary", article: "la", baseWord: "madre" },
+                { word: "il padre", emoji: "👨‍👦", opposite: "la madre", oppositeEmoji: "👩‍👦", category: "vocabulary", article: "il", baseWord: "padre" },
+                { word: "la sorella", emoji: "👩‍👧‍👧", opposite: "il fratello", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary", article: "la", baseWord: "sorella" },
+                { word: "il fratello", emoji: "👨‍👦‍👦", opposite: "la sorella", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary", article: "il", baseWord: "fratello" },
+                { word: "la figlia", emoji: "👧", opposite: "il figlio", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "figlia" },
+                { word: "il figlio", emoji: "👦", opposite: "la figlia", oppositeEmoji: "👧", category: "vocabulary", article: "il", baseWord: "figlio" },
+                { word: "la moglie", emoji: "👰", opposite: "il marito", oppositeEmoji: "🤵", category: "vocabulary", article: "la", baseWord: "moglie" },
+                { word: "il marito", emoji: "🤵", opposite: "la moglie", oppositeEmoji: "👰", category: "vocabulary", article: "il", baseWord: "marito" },
+                { word: "il bambino", emoji: "👶", category: "vocabulary", article: "il", baseWord: "bambino" },
+                { word: "il genitore", emoji: "👪", category: "vocabulary", article: "il", baseWord: "genitore" },
+                { word: "la famiglia", emoji: "🏠👪", category: "vocabulary", article: "la", baseWord: "famiglia" },
+                { word: "insieme", emoji: "🫂", clozeText: "genitori e figli ______.", answer: "insieme", category: "vocabulary" },
+                { word: "il gatto", emoji: "🐈", category: "vocabulary", article: "il", baseWord: "gatto" },
+                { word: "il cane", emoji: "🐕", category: "vocabulary", article: "il", baseWord: "cane" },
+                { word: "il pesce", emoji: "🐟", category: "vocabulary", article: "il", baseWord: "pesce" },
+                { word: "il pappagallo", emoji: "🦜", category: "vocabulary", article: "il", baseWord: "pappagallo" },
+                { word: "unico", emoji: "☝️", clozeText: "figlio ______.", answer: "unico", category: "grammar" },
+                { word: "non", emoji: "🚫", clozeText: "______ ho fratelli o sorelle.", answer: "non", category: "grammar" }
             ]
         }
     },
@@ -194,7 +260,6 @@ const lessonsData = {
                 { word: "студентка", emoji: "👩‍🎓", category: "vocabulary", gender: "она", baseWord: "студентка" },
                 { word: "друг", emoji: "🧑‍🤝‍🧑", category: "vocabulary", gender: "он", baseWord: "друг" },
                 { word: "подруга", emoji: "👩‍🤝‍👩", category: "vocabulary", gender: "она", baseWord: "подруга" },
-                { word: "ребёнок", emoji: "👶", category: "vocabulary", gender: "он", baseWord: "ребёнок" },
                 { word: "Приятно познакомиться", emoji: "🤝", opposite: "Взаимно", oppositeEmoji: "👋", category: "vocabulary" },
                 { word: "Без проблем", emoji: "👌", opposite: "Пожалуйста", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "для меня", emoji: "🙋‍♂️", clozeText: "Один кофе ______, пожалуйста.", answer: "для меня", category: "vocabulary" },
@@ -205,6 +270,29 @@ const lessonsData = {
                 { word: "где", emoji: "📍", clozeText: "____ кофе?", answer: "где", category: "grammar" },
                 { word: "когда", emoji: "⏰", clozeText: "____ урок?", answer: "когда", category: "grammar" },
                 { word: "почему", emoji: "❓", clozeText: "____ кофе? - Потому что я его люблю.", answer: "почему", category: "grammar" }
+            ]
+        },
+        3: {
+            title: "День 3 | Семья и Питомцы",
+            words: [
+                { word: "мать", emoji: "👩‍👦", opposite: "отец", oppositeEmoji: "👨‍👦", category: "vocabulary", gender: "она", baseWord: "мать" },
+                { word: "отец", emoji: "👨‍👦", opposite: "мать", oppositeEmoji: "👩‍👦", category: "vocabulary", gender: "он", baseWord: "отец" },
+                { word: "сестра", emoji: "👩‍👧‍👧", opposite: "брат", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary", gender: "она", baseWord: "сестра" },
+                { word: "брат", emoji: "👨‍👦‍👦", opposite: "сестра", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary", gender: "он", baseWord: "брат" },
+                { word: "дочь", emoji: "👧", opposite: "сын", oppositeEmoji: "👦", category: "vocabulary", gender: "она", baseWord: "дочь" },
+                { word: "сын", emoji: "👦", opposite: "дочь", oppositeEmoji: "👧", category: "vocabulary", gender: "он", baseWord: "сын" },
+                { word: "жена", emoji: "👰", opposite: "муж", oppositeEmoji: "🤵", category: "vocabulary", gender: "она", baseWord: "жена" },
+                { word: "муж", emoji: "🤵", opposite: "жена", oppositeEmoji: "👰", category: "vocabulary", gender: "он", baseWord: "муж" },
+                { word: "ребёнок", emoji: "👶", category: "vocabulary", gender: "он", baseWord: "ребёнок" },
+                { word: "родитель", emoji: "👪", category: "vocabulary", gender: "он", baseWord: "родитель" },
+                { word: "семья", emoji: "🏠👪", category: "vocabulary", gender: "она", baseWord: "семья" },
+                { word: "вместе", emoji: "🫂", clozeText: "родители и дети ______.", answer: "вместе", category: "vocabulary" },
+                { word: "кот", emoji: "🐈", category: "vocabulary", gender: "он", baseWord: "кот" },
+                { word: "собака", emoji: "🐕", category: "vocabulary", gender: "она", baseWord: "собака" },
+                { word: "рыба", emoji: "🐟", category: "vocabulary", gender: "она", baseWord: "рыба" },
+                { word: "попугай", emoji: "🦜", category: "vocabulary", gender: "он", baseWord: "попугай" },
+                { word: "единственный", emoji: "☝️", clozeText: "______ ребёнок.", answer: "единственный", category: "grammar" },
+                { word: "нет", emoji: "🚫", clozeText: "У меня ______ братьев или сестёр.", answer: "нет", category: "grammar" }
             ]
         }
     },
@@ -247,7 +335,6 @@ const lessonsData = {
                 { word: "η μαθήτρια", emoji: "👩‍🎓", category: "vocabulary", article: "η", baseWord: "μαθήτρια" },
                 { word: "ο φίλος", emoji: "🧑‍🤝‍🧑", category: "vocabulary", article: "ο", baseWord: "φίλος" },
                 { word: "η φίλη", emoji: "👩‍🤝‍👩", category: "vocabulary", article: "η", baseWord: "φίλη" },
-                { word: "το παιδί", emoji: "👶", category: "vocabulary", article: "το", baseWord: "παιδί" },
                 { word: "Χάρηκα", emoji: "🤝", opposite: "Χάρηκα για τη γνωριμία", oppositeEmoji: "👋", category: "vocabulary" },
                 { word: "Κανένα πρόβλημα", emoji: "👌", opposite: "Παρακαλώ", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "για μένα", emoji: "🙋‍♂️", clozeText: "Έναν καφέ ______, παρακαλώ.", answer: "για μένα", category: "vocabulary" },
@@ -258,6 +345,29 @@ const lessonsData = {
                 { word: "πού", emoji: "📍", clozeText: "____ είναι ο καφές;", answer: "πού", category: "grammar" },
                 { word: "πότε", emoji: "⏰", clozeText: "____ είναι το μάθημα;", answer: "πότε", category: "grammar" },
                 { word: "γιατί", emoji: "❓", clozeText: "____ καφέ; - Γιατί μου αρέσει.", answer: "γιατί", category: "grammar" }
+            ]
+        },
+        3: {
+            title: "Ημέρα 3 | Οικογένεια και Κατοικίδια",
+            words: [
+                { word: "η μητέρα", emoji: "👩‍👦", opposite: "ο πατέρας", oppositeEmoji: "👨‍👦", category: "vocabulary", article: "η", baseWord: "μητέρα" },
+                { word: "ο πατέρας", emoji: "👨‍👦", opposite: "η μητέρα", oppositeEmoji: "👩‍👦", category: "vocabulary", article: "ο", baseWord: "πατέρας" },
+                { word: "η αδελφή", emoji: "👩‍👧‍👧", opposite: "ο αδελφός", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary", article: "η", baseWord: "αδελφή" },
+                { word: "ο αδελφός", emoji: "👨‍👦‍👦", opposite: "η αδελφή", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary", article: "ο", baseWord: "αδελφός" },
+                { word: "η κόρη", emoji: "👧", opposite: "ο γιος", oppositeEmoji: "👦", category: "vocabulary", article: "η", baseWord: "κόρη" },
+                { word: "ο γιος", emoji: "👦", opposite: "η κόρη", oppositeEmoji: "👧", category: "vocabulary", article: "ο", baseWord: "γιος" },
+                { word: "η σύζυγος", emoji: "👰", opposite: "ο σύζυγος", oppositeEmoji: "🤵", category: "vocabulary", article: "η", baseWord: "σύζυγος" },
+                { word: "ο σύζυγος", emoji: "🤵", opposite: "η σύζυγος", oppositeEmoji: "👰", category: "vocabulary", article: "ο", baseWord: "σύζυγος" },
+                { word: "το παιδί", emoji: "👶", category: "vocabulary", article: "το", baseWord: "παιδί" },
+                { word: "ο γονέας", emoji: "👪", category: "vocabulary", article: "ο", baseWord: "γονέας" },
+                { word: "η οικογένεια", emoji: "🏠👪", category: "vocabulary", article: "η", baseWord: "οικογένεια" },
+                { word: "μαζί", emoji: "🫂", clozeText: "γονείς και παιδιά ______.", answer: "μαζί", category: "vocabulary" },
+                { word: "ο γάτος", emoji: "🐈", category: "vocabulary", article: "ο", baseWord: "γάτος" },
+                { word: "ο σκύλος", emoji: "🐕", category: "vocabulary", article: "ο", baseWord: "σκύλος" },
+                { word: "το ψάρι", emoji: "🐟", category: "vocabulary", article: "το", baseWord: "ψάρι" },
+                { word: "ο παπαγάλος", emoji: "🦜", category: "vocabulary", article: "ο", baseWord: "παπαγάλος" },
+                { word: "μοναχοπαίδι", emoji: "☝️", clozeText: "είμαι ______.", answer: "μοναχοπαίδι", category: "grammar" },
+                { word: "δεν", emoji: "🚫", clozeText: "______ έχω αδέλφια.", answer: "δεν", category: "grammar" }
             ]
         }
     }
