@@ -3,9 +3,9 @@ const lessonsData = {
         1: {
             title: "Day 1 | Basic vocabulary",
             words: [
-                { word: "Hello", emoji: "👋", opposite: "Goodbye", category: "vocabulary" },
-                { word: "Yes", emoji: "✅", opposite: "No", category: "vocabulary" },
-                { word: "Thank you", emoji: "🙏", opposite: "You're welcome", category: "vocabulary" },
+                { word: "Hello", emoji: "👋", opposite: "Goodbye", oppositeEmoji: "🖐️", category: "vocabulary" },
+                { word: "Yes", emoji: "✅", opposite: "No", oppositeEmoji: "❌", category: "vocabulary" },
+                { word: "Thank you", emoji: "🙏", opposite: "You're welcome", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "Please", emoji: "🥺", clozeText: "A coffee, ______.", answer: "please", category: "vocabulary" },
                 { word: "Alright", emoji: "👍", opposite: "Ok", category: "vocabulary" },
                 { word: "Sorry", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
@@ -22,15 +22,35 @@ const lessonsData = {
                 { word: "What", emoji: "❓", clozeText: "____ is it?", answer: "What", category: "grammar" },
                 { word: "but", emoji: "⚖️", clozeText: "No, it is not coffee, ___ it is tea.", answer: "but", category: "grammar" }
             ]
+        },
+        2: {
+            title: "Day 2 | A thing or a person?",
+            words: [
+                { word: "thing", emoji: "📦", category: "vocabulary" },
+                { word: "person", emoji: "👤", category: "vocabulary" },
+                { word: "man", emoji: "👨", opposite: "woman", oppositeEmoji: "👩", category: "vocabulary" },
+                { word: "woman", emoji: "👩", opposite: "man", oppositeEmoji: "👨", category: "vocabulary" },
+                { word: "boy", emoji: "👦", opposite: "girl", oppositeEmoji: "👧", category: "vocabulary" },
+                { word: "girl", emoji: "👧", opposite: "boy", oppositeEmoji: "👦", category: "vocabulary" },
+                { word: "teacher", emoji: "🧑‍🏫", opposite: "student", oppositeEmoji: "🧑‍🎓", category: "vocabulary" },
+                { word: "student", emoji: "🧑‍🎓", opposite: "teacher", oppositeEmoji: "🧑‍🏫", category: "vocabulary" },
+                { word: "Piacere", emoji: "🤝", opposite: "Nice to meet you", category: "vocabulary" },
+                { word: "Nessun problema", emoji: "👌", opposite: "No problem", category: "vocabulary" },
+                { word: "per me", emoji: "🙋‍♂️", clozeText: "A coffee ______, please.", answer: "for me", category: "vocabulary" },
+                { word: "anche", emoji: "➕", clozeText: "Me ______.", answer: "also", category: "vocabulary" },
+                { word: "who", emoji: "❓👤", clozeText: "____ is it? - It's a person.", answer: "who", category: "grammar" },
+                { word: "what", emoji: "❓📦", clozeText: "____ is it? - It's a thing.", answer: "what", category: "grammar" },
+                { word: "and", emoji: "➕", clozeText: "A man ___ a woman.", answer: "and", category: "grammar" }
+            ]
         }
     },
     fr: {
         1: {
             title: "Jour 1 | Vocabulaire de base",
             words: [
-                { word: "Bonjour", emoji: "👋", opposite: "Au revoir", category: "vocabulary" },
-                { word: "Oui", emoji: "✅", opposite: "Non", category: "vocabulary" },
-                { word: "Merci", emoji: "🙏", opposite: "De rien", category: "vocabulary" },
+                { word: "Bonjour", emoji: "👋", opposite: "Au revoir", oppositeEmoji: "🖐️", category: "vocabulary" },
+                { word: "Oui", emoji: "✅", opposite: "Non", oppositeEmoji: "❌", category: "vocabulary" },
+                { word: "Merci", emoji: "🙏", opposite: "De rien", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "S'il vous plaît", emoji: "🥺", clozeText: "Un café, ______.", answer: "s'il vous plaît", category: "vocabulary" },
                 { word: "D'accord", emoji: "👍", opposite: "Ok", category: "vocabulary" },
                 { word: "Désolé", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
@@ -47,15 +67,35 @@ const lessonsData = {
                 { word: "Quoi", emoji: "❓", clozeText: "C'est ____ ?", answer: "quoi", category: "grammar" },
                 { word: "mais", emoji: "⚖️", clozeText: "Non, ce n'est pas du café, ___ c'est du thé.", answer: "mais", category: "grammar" }
             ]
+        },
+        2: {
+            title: "Jour 2 | Une chose ou une personne ?",
+            words: [
+                { word: "la chose", emoji: "📦", category: "vocabulary", article: "la", baseWord: "chose" },
+                { word: "la personne", emoji: "👤", category: "vocabulary", article: "la", baseWord: "personne" },
+                { word: "l'homme", emoji: "👨", opposite: "la femme", oppositeEmoji: "👩", category: "vocabulary", article: "l'", baseWord: "homme" },
+                { word: "la femme", emoji: "👩", opposite: "l'homme", oppositeEmoji: "👨", category: "vocabulary", article: "la", baseWord: "femme" },
+                { word: "le garçon", emoji: "👦", opposite: "la fille", oppositeEmoji: "👧", category: "vocabulary", article: "le", baseWord: "garçon" },
+                { word: "la fille", emoji: "👧", opposite: "le garçon", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "fille" },
+                { word: "le professeur / la professeure", emoji: "🧑‍🏫", opposite: "l'étudiant / l'étudiante", oppositeEmoji: "🧑‍🎓", category: "vocabulary" },
+                { word: "l'étudiant / l'étudiante", emoji: "🧑‍🎓", opposite: "le professeur / la professeure", oppositeEmoji: "🧑‍🏫", category: "vocabulary" },
+                { word: "Enchanté", emoji: "🤝", opposite: "Pleased to meet you", category: "vocabulary" },
+                { word: "Pas de problème", emoji: "👌", opposite: "No problem", category: "vocabulary" },
+                { word: "pour moi", emoji: "🙋‍♂️", clozeText: "Un café ______, s'il vous plaît.", answer: "pour moi", category: "vocabulary" },
+                { word: "aussi", emoji: "➕", clozeText: "Moi ______.", answer: "aussi", category: "vocabulary" },
+                { word: "qui", emoji: "❓👤", clozeText: "____ est-ce ? - C'est une personne.", answer: "qui", category: "grammar" },
+                { word: "quoi", emoji: "❓📦", clozeText: "C'est ____ ? - C'est une chose.", answer: "quoi", category: "grammar" },
+                { word: "et", emoji: "➕", clozeText: "Un homme ___ une femme.", answer: "et", category: "grammar" }
+            ]
         }
     },
     it: {
         1: {
             title: "Giorno 1 | Vocabolario di base",
             words: [
-                { word: "Buongiorno", emoji: "👋", opposite: "Arrivederci", category: "vocabulary" },
-                { word: "Sì", emoji: "✅", opposite: "No", category: "vocabulary" },
-                { word: "Grazie", emoji: "🙏", opposite: "Prego", category: "vocabulary" },
+                { word: "Buongiorno", emoji: "👋", opposite: "Arrivederci", oppositeEmoji: "🖐️", category: "vocabulary" },
+                { word: "Sì", emoji: "✅", opposite: "No", oppositeEmoji: "❌", category: "vocabulary" },
+                { word: "Grazie", emoji: "🙏", opposite: "Prego", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "Per favore", emoji: "🥺", clozeText: "Un caffè, ______.", answer: "per favore", category: "vocabulary" },
                 { word: "Va bene", emoji: "👍", opposite: "Ok", category: "vocabulary" },
                 { word: "Scusi", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
@@ -72,15 +112,35 @@ const lessonsData = {
                 { word: "Cosa", emoji: "❓", clozeText: "____ è?", answer: "cosa", category: "grammar" },
                 { word: "ma", emoji: "⚖️", clozeText: "No, non è caffè, ___ è tè.", answer: "ma", category: "grammar" }
             ]
+        },
+        2: {
+            title: "Giorno 2 | Una cosa o una persona?",
+            words: [
+                { word: "la cosa", emoji: "📦", category: "vocabulary", article: "la", baseWord: "cosa" },
+                { word: "la persona", emoji: "👤", category: "vocabulary", article: "la", baseWord: "persona" },
+                { word: "l'uomo", emoji: "👨", opposite: "la donna", oppositeEmoji: "👩", category: "vocabulary", article: "l'", baseWord: "uomo" },
+                { word: "la donna", emoji: "👩", opposite: "l'uomo", oppositeEmoji: "👨", category: "vocabulary", article: "la", baseWord: "donna" },
+                { word: "il ragazzo", emoji: "👦", opposite: "la ragazza", oppositeEmoji: "👧", category: "vocabulary", article: "il", baseWord: "ragazzo" },
+                { word: "la ragazza", emoji: "👧", opposite: "il ragazzo", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "ragazza" },
+                { word: "il professore / la professoressa", emoji: "🧑‍🏫", opposite: "lo studente / la studentessa", oppositeEmoji: "🧑‍🎓", category: "vocabulary" },
+                { word: "lo studente / la studentessa", emoji: "🧑‍🎓", opposite: "il professore / la professoressa", oppositeEmoji: "🧑‍🏫", category: "vocabulary" },
+                { word: "Piacere", emoji: "🤝", opposite: "Nice to meet you", category: "vocabulary" },
+                { word: "Nessun problema", emoji: "👌", opposite: "No problem", category: "vocabulary" },
+                { word: "per me", emoji: "🙋‍♂️", clozeText: "Un caffè ______, per favore.", answer: "per me", category: "vocabulary" },
+                { word: "anche", emoji: "➕", clozeText: "Anch'io / ______.", answer: "anche", category: "vocabulary" },
+                { word: "chi", emoji: "❓👤", clozeText: "____ è? - È una persona.", answer: "chi", category: "grammar" },
+                { word: "che cosa", emoji: "❓📦", clozeText: "____ è? - È una cosa.", answer: "che cosa", category: "grammar" },
+                { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e", category: "grammar" }
+            ]
         }
     },
     ru: {
         1: {
             title: "День 1 | Базовая лексика",
             words: [
-                { word: "Добрый день", emoji: "👋", opposite: "До свидания", category: "vocabulary" },
-                { word: "Да", emoji: "✅", opposite: "Нет", category: "vocabulary" },
-                { word: "Спасибо", emoji: "🙏", opposite: "Пожалуйста", category: "vocabulary" },
+                { word: "Добрый день", emoji: "👋", opposite: "До свидания", oppositeEmoji: "🖐️", category: "vocabulary" },
+                { word: "Да", emoji: "✅", opposite: "Нет", oppositeEmoji: "❌", category: "vocabulary" },
+                { word: "Спасибо", emoji: "🙏", opposite: "Пожалуйста", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "Пожалуйста", emoji: "🥺", clozeText: "Один кофе, ______.", answer: "пожалуйста", category: "vocabulary" },
                 { word: "Хорошо", emoji: "👍", opposite: "Ок", category: "vocabulary" },
                 { word: "Извините", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
@@ -97,15 +157,35 @@ const lessonsData = {
                 { word: "Что", emoji: "❓", clozeText: "____ это?", answer: "Что", category: "grammar" },
                 { word: "но", emoji: "⚖️", clozeText: "Нет, это не кофе, ___ это чай.", answer: "но", category: "grammar" }
             ]
+        },
+        2: {
+            title: "День 2 | Вещь или человек?",
+            words: [
+                { word: "вещь", emoji: "📦", category: "vocabulary", gender: "она", baseWord: "вещь" },
+                { word: "человек", emoji: "👤", category: "vocabulary", gender: "он", baseWord: "человек" },
+                { word: "мужчина", emoji: "👨", opposite: "женщина", oppositeEmoji: "👩", category: "vocabulary", gender: "он", baseWord: "мужчина" },
+                { word: "женщина", emoji: "👩", opposite: "мужчина", oppositeEmoji: "👨", category: "vocabulary", gender: "она", baseWord: "женщина" },
+                { word: "мальчик", emoji: "👦", opposite: "девочка", oppositeEmoji: "👧", category: "vocabulary", gender: "он", baseWord: "мальчик" },
+                { word: "девочка", emoji: "👧", opposite: "мальчик", oppositeEmoji: "👦", category: "vocabulary", gender: "она", baseWord: "девочка" },
+                { word: "учитель / учительница", emoji: "🧑‍🏫", opposite: "студент / студентка", oppositeEmoji: "🧑‍🎓", category: "vocabulary" },
+                { word: "студент / студентка", emoji: "🧑‍🎓", opposite: "учитель / учительница", oppositeEmoji: "🧑‍🏫", category: "vocabulary" },
+                { word: "Приятно познакомиться", emoji: "🤝", opposite: "Nice to meet you", category: "vocabulary" },
+                { word: "Без проблем", emoji: "👌", opposite: "No problem", category: "vocabulary" },
+                { word: "для меня", emoji: "🙋‍♂️", clozeText: "Один кофе ______, пожалуйста.", answer: "для меня", category: "vocabulary" },
+                { word: "тоже", emoji: "➕", clozeText: "Я ______.", answer: "тоже", category: "vocabulary" },
+                { word: "кто", emoji: "❓👤", clozeText: "____ это? - Это человек.", answer: "кто", category: "grammar" },
+                { word: "что", emoji: "❓📦", clozeText: "____ это? - Это вещь.", answer: "что", category: "grammar" },
+                { word: "и", emoji: "➕", clozeText: "Мужчина ___ женщина.", answer: "и", category: "grammar" }
+            ]
         }
     },
     el: {
         1: {
             title: "Ημέρα 1 | Βασικό λεξιλόγιο",
             words: [
-                { word: "Καλημέρα", emoji: "👋", opposite: "Αντίο", category: "vocabulary" },
-                { word: "Ναι", emoji: "✅", opposite: "Όχι", category: "vocabulary" },
-                { word: "Ευχαριστώ", emoji: "🙏", opposite: "Παρακαλώ", category: "vocabulary" },
+                { word: "Καλημέρα", emoji: "👋", opposite: "Αντίο", oppositeEmoji: "🖐️", category: "vocabulary" },
+                { word: "Ναι", emoji: "✅", opposite: "Όχι", oppositeEmoji: "❌", category: "vocabulary" },
+                { word: "Ευχαριστώ", emoji: "🙏", opposite: "Παρακαλώ", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
                 { word: "Παρακαλώ", emoji: "🥺", clozeText: "Έναν καφέ, ______.", answer: "παρακαλώ", category: "vocabulary" },
                 { word: "Εντάξει", emoji: "👍", opposite: "Οκ", category: "vocabulary" },
                 { word: "Συγγνώμη", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
@@ -121,6 +201,26 @@ const lessonsData = {
                 { word: "δεν", emoji: "❌", clozeText: "Όχι, ___ είναι καφές.", answer: "δεν", category: "grammar" },
                 { word: "Τι", emoji: "❓", clozeText: "____ είναι;", answer: "Τι", category: "grammar" },
                 { word: "αλλά", emoji: "⚖️", clozeText: "Όχι, δεν είναι καφές, ___ είναι τσάι.", answer: "αλλά", category: "grammar" }
+            ]
+        },
+        2: {
+            title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
+            words: [
+                { word: "το πράγμα", emoji: "📦", category: "vocabulary", article: "το", baseWord: "πράγμα" },
+                { word: "το άτομο", emoji: "👤", category: "vocabulary", article: "το", baseWord: "άτομο" },
+                { word: "ο άνδρας", emoji: "👨", opposite: "η γυναίκα", oppositeEmoji: "👩", category: "vocabulary", article: "ο", baseWord: "άνδρας" },
+                { word: "η γυναίκα", emoji: "👩", opposite: "ο άνδρας", oppositeEmoji: "👨", category: "vocabulary", article: "η", baseWord: "γυναίκα" },
+                { word: "το αγόρι", emoji: "👦", opposite: "το κορίτσι", oppositeEmoji: "👧", category: "vocabulary", article: "το", baseWord: "αγόρι" },
+                { word: "το κορίτσι", emoji: "👧", opposite: "το αγόρι", oppositeEmoji: "👦", category: "vocabulary", article: "το", baseWord: "κορίτσι" },
+                { word: "ο δάσκαλος / η δασκάλα", emoji: "🧑‍🏫", opposite: "ο μαθητής / η μαθήτρια", oppositeEmoji: "🧑‍🎓", category: "vocabulary" },
+                { word: "ο μαθητής / η μαθήτρια", emoji: "🧑‍🎓", opposite: "ο δάσκαλος / η δασκάλα", oppositeEmoji: "🧑‍🏫", category: "vocabulary" },
+                { word: "Χάρηκα", emoji: "🤝", opposite: "Nice to meet you", category: "vocabulary" },
+                { word: "Κανένα πρόβλημα", emoji: "👌", opposite: "No problem", category: "vocabulary" },
+                { word: "για μένα", emoji: "🙋‍♂️", clozeText: "Έναν καφέ ______, παρακαλώ.", answer: "για μένα", category: "vocabulary" },
+                { word: "επίσης", emoji: "➕", clozeText: "Κι εγώ ______.", answer: "επίσης", category: "vocabulary" },
+                { word: "ποιος", emoji: "❓👤", clozeText: "____ είναι; - Είναι ένα άτομο.", answer: "ποιος", category: "grammar" },
+                { word: "τι", emoji: "❓📦", clozeText: "____ είναι; - Είναι ένα πράγμα.", answer: "τι", category: "grammar" },
+                { word: "και", emoji: "➕", clozeText: "Ένας άνδρας ___ μια γυναίκα.", answer: "και", category: "grammar" }
             ]
         }
     }
@@ -210,8 +310,8 @@ function showHint() {
     if (!wordObj) return;
 
     let targetAnswer = "";
-    if (wordObj.type === 'cloze' || wordObj.type === 'multiple_choice' || wordObj.type === 'scramble') {
-        targetAnswer = wordObj.answer || wordObj.word;
+    if (wordObj.type === 'cloze' || wordObj.type === 'multiple_choice' || wordObj.type === 'scramble' || wordObj.type === 'gender_articles') {
+        targetAnswer = wordObj.answer || wordObj.word || wordObj.article || wordObj.gender;
     } else if (wordObj.type === 'opposite') {
         targetAnswer = wordObj.opposite;
     } else {
@@ -227,7 +327,10 @@ function speakWord() {
     if (!currentPractice.currentWord) return;
 
     const msg = new SpeechSynthesisUtterance();
-    msg.text = currentPractice.currentWord.word;
+    // Prioritize baseWord for gender/articles tasks to avoid revealing the answer
+    msg.text = (currentPractice.currentWord.type === 'gender_articles' && currentPractice.currentWord.baseWord)
+        ? currentPractice.currentWord.baseWord
+        : (currentPractice.currentWord.word || currentPractice.currentWord.baseWord);
 
     const langMap = {
         en: 'en-US',
@@ -402,6 +505,7 @@ function startPractice() {
             const filteredWords = langData[l].words.filter(w => {
                 let catMatch = false;
                 if (enabledCategories.includes(w.category)) catMatch = true;
+                // Exception for Gender & Articles: nouns are vocabulary but can be grammar
                 if (enabledCategories.includes('grammar') && (w.article || w.gender) && enabledTypes.includes('gender_articles')) catMatch = true;
                 if (!catMatch) return false;
 
@@ -413,15 +517,21 @@ function startPractice() {
                     return true; // MC, LS, SC, TF are generally always possible
                 });
             });
+
             const lessonWords = filteredWords.map(w => {
                 let wordCopy = { ...w };
                 let possibleTypes = [...enabledTypes];
 
-                // Randomly swap word and opposite
+                // Randomly swap word and opposite for bidirectional practice
                 if (wordCopy.opposite && Math.random() > 0.5) {
                     const originalWord = wordCopy.word;
+                    const originalEmoji = wordCopy.emoji;
                     wordCopy.word = wordCopy.opposite;
                     wordCopy.opposite = originalWord;
+                    if (wordCopy.oppositeEmoji) {
+                        wordCopy.emoji = wordCopy.oppositeEmoji;
+                        wordCopy.oppositeEmoji = originalEmoji;
+                    }
                 }
 
                 // Filtering based on word properties
@@ -429,25 +539,14 @@ function startPractice() {
                 if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
                 if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
 
-                // If word is from vocabulary category but we are in grammar-only mode, it must be gender_articles
-                if (wordCopy.category === 'vocabulary' && !enabledCategories.includes('vocabulary')) {
-                    possibleTypes = ['gender_articles'];
+                // If word is primarily vocab but we only have grammar enabled, force gender_articles if available
+                if (wordCopy.category === 'vocabulary' && !enabledCategories.includes('vocabulary') && (wordCopy.article || wordCopy.gender)) {
+                    if (enabledTypes.includes('gender_articles')) {
+                        possibleTypes = ['gender_articles'];
+                    }
                 }
 
-                // Brands always multiple choice if enabled, otherwise just random from others
-                let selectedType;
-                if (wordCopy.isBrand) {
-                    selectedType = enabledTypes.includes('multiple_choice') ? 'multiple_choice' : enabledTypes[Math.floor(Math.random() * enabledTypes.length)];
-                } else if (wordCopy.clozeText && enabledTypes.includes('cloze')) {
-                    if (enabledTypes.includes('multiple_choice')) {
-                        selectedType = Math.random() > 0.5 ? 'cloze' : 'multiple_choice';
-                    } else {
-                        selectedType = 'cloze';
-                    }
-                } else {
-                    if (possibleTypes.length === 0) possibleTypes = [enabledTypes[Math.floor(Math.random() * enabledTypes.length)]];
-                    selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
-                }
+                let selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
 
                 return {
                     ...wordCopy,
@@ -460,7 +559,7 @@ function startPractice() {
     });
 
     if (currentPractice.words.length === 0) {
-        alert("No words found for the selected lessons!");
+        alert("No words found for the selected lessons and filters!");
         return;
     }
 
@@ -650,12 +749,7 @@ function renderGenderArticles() {
     };
 
     const choices = articlesMap[lang] || [];
-
-    // If current word's article/gender is not in the map for some reason, add it
     const targetValue = wordObj.article || wordObj.gender;
-    if (targetValue && !choices.includes(targetValue)) {
-        choices.push(targetValue);
-    }
 
     choices.forEach(article => {
         const btn = document.createElement('button');
