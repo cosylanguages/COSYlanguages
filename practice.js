@@ -3,44 +3,24 @@ const lessonsData = {
         1: {
             title: "Day 1 | Basic vocabulary",
             words: [
-                { word: "hello", emoji: "👋", opposite: "goodbye" },
-                { word: "goodbye", emoji: "🖐️", opposite: "hello" },
-                { word: "yes", emoji: "✅", opposite: "no" },
-                { word: "no", emoji: "❌", opposite: "yes" },
-                { word: "thank you", emoji: "🙏", opposite: "you're welcome" },
-                { word: "you're welcome", emoji: "💁‍♂️", opposite: "thank you" },
-                { word: "please", emoji: "🥺", clozeText: "One coffee, ______.", answer: "please" },
-                { word: "ok", emoji: "👌" },
-                { word: "alright", emoji: "👍" },
-                { word: "sorry", emoji: "🙇‍♂️" },
-                { word: "or", emoji: "🔀", clozeText: "Coffee ____ tea?", answer: "or" },
-                { word: "but", emoji: "⚖️", clozeText: "No, it is not coffee, ___ it is tea.", answer: "but" },
-                { word: "coffee", emoji: "☕" },
-                { word: "tea", emoji: "🍵" },
-                { word: "wine", emoji: "🍷" },
-                { word: "water", emoji: "💧" },
-                { word: "juice", emoji: "🧃" },
-                { word: "beer", emoji: "🍺" },
-                { word: "cash", emoji: "💵" },
-                { word: "card", emoji: "💳" }
-            ]
-        },
-        2: {
-            title: "Day 2 | A thing or a person?",
-            words: [
-                { word: "thing", emoji: "📦", form: "noun", level: "A1" },
-                { word: "person", emoji: "👤", form: "noun", level: "A1" },
-                { word: "man", emoji: "👨", opposite: "woman", form: "noun", level: "A1" },
-                { word: "woman", emoji: "👩", opposite: "man", form: "noun", level: "A1" },
-                { word: "boy", emoji: "👦", opposite: "girl", form: "noun", level: "A1" },
-                { word: "girl", emoji: "👧", opposite: "boy", form: "noun", level: "A1" },
-                { word: "teacher", emoji: "🧑‍🏫", opposite: "student", form: "noun", level: "A1" },
-                { word: "student", emoji: "🧑‍🎓", opposite: "teacher", form: "noun", level: "A1" },
-                { word: "friend", emoji: "👫", form: "noun", level: "A1" },
-                { word: "child", emoji: "👶", form: "noun", level: "A1" },
-                { word: "who", emoji: "❓👤", clozeText: "____ is it? - It's a person.", answer: "who", level: "A1" },
-                { word: "what", emoji: "❓📦", clozeText: "____ is it? - It's a thing.", answer: "what", level: "A1" },
-                { word: "and", emoji: "➕", clozeText: "A man ___ a woman.", answer: "and", level: "A1" }
+                { word: "Hello", emoji: "👋", opposite: "Goodbye", category: "vocabulary" },
+                { word: "Yes", emoji: "✅", opposite: "No", category: "vocabulary" },
+                { word: "Thank you", emoji: "🙏", opposite: "You're welcome", category: "vocabulary" },
+                { word: "Please", emoji: "🥺", clozeText: "A coffee, ______.", answer: "please", category: "vocabulary" },
+                { word: "Alright", emoji: "👍", opposite: "Ok", category: "vocabulary" },
+                { word: "Sorry", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
+                { word: "or", emoji: "🔀", clozeText: "Coffee ____ tea?", answer: "or", category: "grammar" },
+                { word: "coffee", emoji: "☕", category: "vocabulary" },
+                { word: "tea", emoji: "🍵", category: "vocabulary" },
+                { word: "juice", emoji: "🧃", category: "vocabulary" },
+                { word: "wine", emoji: "🍷", category: "vocabulary" },
+                { word: "beer", emoji: "🍺", category: "vocabulary" },
+                { word: "water", emoji: "🚰", category: "vocabulary" },
+                { word: "cash", emoji: "💵", category: "vocabulary" },
+                { word: "card", emoji: "💳", category: "vocabulary" },
+                { word: "not", emoji: "❌", clozeText: "No, it is ___ coffee.", answer: "not", category: "grammar" },
+                { word: "What", emoji: "❓", clozeText: "____ is it?", answer: "What", category: "grammar" },
+                { word: "but", emoji: "⚖️", clozeText: "No, it is not coffee, ___ it is tea.", answer: "but", category: "grammar" }
             ]
         }
     },
@@ -48,44 +28,24 @@ const lessonsData = {
         1: {
             title: "Jour 1 | Vocabulaire de base",
             words: [
-                { word: "bonjour", emoji: "👋", opposite: "au revoir" },
-                { word: "au revoir", emoji: "🖐️", opposite: "bonjour" },
-                { word: "oui", emoji: "✅", opposite: "non" },
-                { word: "non", emoji: "❌", opposite: "oui" },
-                { word: "merci", emoji: "🙏", opposite: "de rien" },
-                { word: "de rien", emoji: "💁‍♂️", opposite: "merci" },
-                { word: "s'il vous plaît", emoji: "🥺", clozeText: "Un café, ______.", answer: "s'il vous plaît" },
-                { word: "ok", emoji: "👌" },
-                { word: "d'accord", emoji: "👍" },
-                { word: "désolé", emoji: "🙇‍♂️" },
-                { word: "ou", emoji: "🔀", clozeText: "Café ____ thé ?", answer: "ou" },
-                { word: "mais", emoji: "⚖️", clozeText: "Non, ce n'est pas du café, ___ c'est du thé.", answer: "mais" },
-                { word: "café", emoji: "☕" },
-                { word: "thé", emoji: "🍵" },
-                { word: "vin", emoji: "🍷" },
-                { word: "eau", emoji: "💧" },
-                { word: "le jus", emoji: "🧃" },
-                { word: "la bière", emoji: "🍺" },
-                { word: "les espèces", emoji: "💵" },
-                { word: "la carte", emoji: "💳" }
-            ]
-        },
-        2: {
-            title: "Jour 2 | Une chose ou une personne ?",
-            words: [
-                { word: "la chose", emoji: "📦", form: "noun", level: "A1" },
-                { word: "la personne", emoji: "👤", form: "noun", level: "A1" },
-                { word: "l'homme", emoji: "👨", opposite: "la femme", form: "noun", level: "A1" },
-                { word: "la femme", emoji: "👩", opposite: "l'homme", form: "noun", level: "A1" },
-                { word: "le garçon", emoji: "👦", opposite: "la fille", form: "noun", level: "A1" },
-                { word: "la fille", emoji: "👧", opposite: "le garçon", form: "noun", level: "A1" },
-                { word: "le professeur / la professeure", emoji: "🧑‍🏫", opposite: "l'étudiant / l'étudiante", form: "noun", level: "A1" },
-                { word: "l'étudiant / l'étudiante", emoji: "🧑‍🎓", opposite: "le professeur / la professeure", form: "noun", level: "A1" },
-                { word: "l'ami / l'amie", emoji: "👫", form: "noun", level: "A1" },
-                { word: "l'enfant", emoji: "👶", form: "noun", level: "A1" },
-                { word: "qui", emoji: "❓👤", clozeText: "____ est-ce ? - C'est une personne.", answer: "qui", level: "A1" },
-                { word: "quoi", emoji: "❓📦", clozeText: "C'est ____ ? - C'est une chose.", answer: "quoi", level: "A1" },
-                { word: "et", emoji: "➕", clozeText: "Un homme ___ une femme.", answer: "et", level: "A1" }
+                { word: "Bonjour", emoji: "👋", opposite: "Au revoir", category: "vocabulary" },
+                { word: "Oui", emoji: "✅", opposite: "Non", category: "vocabulary" },
+                { word: "Merci", emoji: "🙏", opposite: "De rien", category: "vocabulary" },
+                { word: "S'il vous plaît", emoji: "🥺", clozeText: "Un café, ______.", answer: "s'il vous plaît", category: "vocabulary" },
+                { word: "D'accord", emoji: "👍", opposite: "Ok", category: "vocabulary" },
+                { word: "Désolé", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
+                { word: "ou", emoji: "🔀", clozeText: "Café ____ thé ?", answer: "ou", category: "grammar" },
+                { word: "le café", emoji: "☕", category: "vocabulary" },
+                { word: "le thé", emoji: "🍵", category: "vocabulary" },
+                { word: "le jus", emoji: "🧃", category: "vocabulary" },
+                { word: "le vin", emoji: "🍷", category: "vocabulary" },
+                { word: "la bière", emoji: "🍺", category: "vocabulary" },
+                { word: "l'eau", emoji: "🚰", category: "vocabulary" },
+                { word: "les espèces", emoji: "💵", category: "vocabulary" },
+                { word: "la carte", emoji: "💳", category: "vocabulary" },
+                { word: "pas", emoji: "❌", clozeText: "Non, ce n'est ___ du café.", answer: "pas", category: "grammar" },
+                { word: "Quoi", emoji: "❓", clozeText: "C'est ____ ?", answer: "quoi", category: "grammar" },
+                { word: "mais", emoji: "⚖️", clozeText: "Non, ce n'est pas du café, ___ c'est du thé.", answer: "mais", category: "grammar" }
             ]
         }
     },
@@ -93,45 +53,24 @@ const lessonsData = {
         1: {
             title: "Giorno 1 | Vocabolario di base",
             words: [
-                { word: "ciao", emoji: "👋", opposite: "arrivederci" },
-                { word: "arrivederci", emoji: "🖐️", opposite: "ciao" },
-                { word: "sì", emoji: "✅", opposite: "no" },
-                { word: "no", emoji: "❌", opposite: "sì" },
-                { word: "grazie", emoji: "🙏", opposite: "prego" },
-                { word: "prego", emoji: "💁‍♂️", opposite: "grazie" },
-                { word: "per favore", emoji: "🥺", clozeText: "Un caffè, ______.", answer: "per favore" },
-                { word: "ok", emoji: "👌" },
-                { word: "va bene", emoji: "👍" },
-                { word: "scusa", emoji: "🙇‍♂️" },
-                { word: "o", emoji: "🔀", clozeText: "Caffè ____ tè ?", answer: "o" },
-                { word: "ma", emoji: "⚖️", clozeText: "No, non è caffè, ___ è tè.", answer: "ma" },
-                { word: "cosa", emoji: "❓", clozeText: "____ è?", answer: "cosa" },
-                { word: "caffè", emoji: "☕" },
-                { word: "tè", emoji: "🍵" },
-                { word: "vino", emoji: "🍷" },
-                { word: "acqua", emoji: "💧" },
-                { word: "il succo", emoji: "🧃" },
-                { word: "la birra", emoji: "🍺" },
-                { word: "i contanti", emoji: "💵" },
-                { word: "la carta", emoji: "💳" }
-            ]
-        },
-        2: {
-            title: "Giorno 2 | Una cosa o una persona?",
-            words: [
-                { word: "la cosa", emoji: "📦", form: "noun", level: "A1" },
-                { word: "la persona", emoji: "👤", form: "noun", level: "A1" },
-                { word: "l'uomo", emoji: "👨", opposite: "la donna", form: "noun", level: "A1" },
-                { word: "la donna", emoji: "👩", opposite: "l'uomo", form: "noun", level: "A1" },
-                { word: "il ragazzo", emoji: "👦", opposite: "la ragazza", form: "noun", level: "A1" },
-                { word: "la ragazza", emoji: "👧", opposite: "il ragazzo", form: "noun", level: "A1" },
-                { word: "il professore / la professoressa", emoji: "🧑‍🏫", opposite: "lo studente / la studentessa", form: "noun", level: "A1" },
-                { word: "lo studente / la studentessa", emoji: "🧑‍🎓", opposite: "il professore / la professoressa", form: "noun", level: "A1" },
-                { word: "l'amico / l'amica", emoji: "👫", form: "noun", level: "A1" },
-                { word: "il bambino / la bambina", emoji: "👶", form: "noun", level: "A1" },
-                { word: "chi", emoji: "❓👤", clozeText: "____ è? - È una persona.", answer: "chi", level: "A1" },
-                { word: "che cosa", emoji: "❓📦", clozeText: "____ è? - È una cosa.", answer: "che cosa", level: "A1" },
-                { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e", level: "A1" }
+                { word: "Buongiorno", emoji: "👋", opposite: "Arrivederci", category: "vocabulary" },
+                { word: "Sì", emoji: "✅", opposite: "No", category: "vocabulary" },
+                { word: "Grazie", emoji: "🙏", opposite: "Prego", category: "vocabulary" },
+                { word: "Per favore", emoji: "🥺", clozeText: "Un caffè, ______.", answer: "per favore", category: "vocabulary" },
+                { word: "Va bene", emoji: "👍", opposite: "Ok", category: "vocabulary" },
+                { word: "Scusi", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
+                { word: "o", emoji: "🔀", clozeText: "Caffè ____ tè?", answer: "o", category: "grammar" },
+                { word: "il caffè", emoji: "☕", category: "vocabulary" },
+                { word: "il tè", emoji: "🍵", category: "vocabulary" },
+                { word: "il succo", emoji: "🧃", category: "vocabulary" },
+                { word: "il vino", emoji: "🍷", category: "vocabulary" },
+                { word: "la birra", emoji: "🍺", category: "vocabulary" },
+                { word: "l'acqua", emoji: "🚰", category: "vocabulary" },
+                { word: "i contanti", emoji: "💵", category: "vocabulary" },
+                { word: "la carta", emoji: "💳", category: "vocabulary" },
+                { word: "non", emoji: "❌", clozeText: "No, ___ è caffè.", answer: "non", category: "grammar" },
+                { word: "Cosa", emoji: "❓", clozeText: "____ è?", answer: "cosa", category: "grammar" },
+                { word: "ma", emoji: "⚖️", clozeText: "No, non è caffè, ___ è tè.", answer: "ma", category: "grammar" }
             ]
         }
     },
@@ -139,43 +78,24 @@ const lessonsData = {
         1: {
             title: "День 1 | Базовая лексика",
             words: [
-                { word: "привет", emoji: "👋", opposite: "пока" },
-                { word: "пока", emoji: "🖐️", opposite: "привет" },
-                { word: "да", emoji: "✅", opposite: "нет" },
-                { word: "нет", emoji: "❌", opposite: "да" },
-                { word: "спасибо", emoji: "🙏", opposite: "пожалуйста" },
-                { word: "пожалуйста", emoji: "🙏", opposite: "спасибо", clozeText: "Один кофе, ______.", answer: "пожалуйста" },
-                { word: "ок", emoji: "👌" },
-                { word: "хорошо", emoji: "👍" },
-                { word: "извини", emoji: "🙇‍♂️" },
-                { word: "или", emoji: "🔀", clozeText: "Кофе ____ чай ?", answer: "или" },
-                { word: "но", emoji: "⚖️", clozeText: "Нет, это не кофе, ___ это чай.", answer: "но" },
-                { word: "кофе", emoji: "☕" },
-                { word: "чай", emoji: "🍵" },
-                { word: "вино", emoji: "🍷" },
-                { word: "вода", emoji: "💧" },
-                { word: "сок", emoji: "🧃" },
-                { word: "пиво", emoji: "🍺" },
-                { word: "наличные", emoji: "💵" },
-                { word: "карта", emoji: "💳" }
-            ]
-        },
-        2: {
-            title: "День 2 | Вещь или человек?",
-            words: [
-                { word: "вещь", emoji: "📦", form: "noun", level: "A1" },
-                { word: "человек", emoji: "👤", form: "noun", level: "A1" },
-                { word: "мужчина", emoji: "👨", opposite: "женщина", form: "noun", level: "A1" },
-                { word: "женщина", emoji: "👩", opposite: "мужчина", form: "noun", level: "A1" },
-                { word: "мальчик", emoji: "👦", opposite: "девочка", form: "noun", level: "A1" },
-                { word: "девочка", emoji: "👧", opposite: "мальчик", form: "noun", level: "A1" },
-                { word: "учитель / учительница", emoji: "🧑‍🏫", opposite: "студент / студентка", form: "noun", level: "A1" },
-                { word: "студент / студентка", emoji: "🧑‍🎓", opposite: "учитель / учительница", form: "noun", level: "A1" },
-                { word: "друг / подруга", emoji: "👫", form: "noun", level: "A1" },
-                { word: "ребёнок", emoji: "👶", form: "noun", level: "A1" },
-                { word: "кто", emoji: "❓👤", clozeText: "____ это? - Это человек.", answer: "кто", level: "A1" },
-                { word: "что", emoji: "❓📦", clozeText: "____ это? - Это вещь.", answer: "что", level: "A1" },
-                { word: "и", emoji: "➕", clozeText: "Мужчина ___ женщина.", answer: "и", level: "A1" }
+                { word: "Добрый день", emoji: "👋", opposite: "До свидания", category: "vocabulary" },
+                { word: "Да", emoji: "✅", opposite: "Нет", category: "vocabulary" },
+                { word: "Спасибо", emoji: "🙏", opposite: "Пожалуйста", category: "vocabulary" },
+                { word: "Пожалуйста", emoji: "🥺", clozeText: "Один кофе, ______.", answer: "пожалуйста", category: "vocabulary" },
+                { word: "Хорошо", emoji: "👍", opposite: "Ок", category: "vocabulary" },
+                { word: "Извините", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
+                { word: "или", emoji: "🔀", clozeText: "Кофе ____ чай?", answer: "или", category: "grammar" },
+                { word: "кофе", emoji: "☕", category: "vocabulary" },
+                { word: "чай", emoji: "🍵", category: "vocabulary" },
+                { word: "сок", emoji: "🧃", category: "vocabulary" },
+                { word: "вино", emoji: "🍷", category: "vocabulary" },
+                { word: "пиво", emoji: "🍺", category: "vocabulary" },
+                { word: "вода", emoji: "🚰", category: "vocabulary" },
+                { word: "наличные", emoji: "💵", category: "vocabulary" },
+                { word: "карта", emoji: "💳", category: "vocabulary" },
+                { word: "не", emoji: "❌", clozeText: "Нет, это ___ кофе.", answer: "не", category: "grammar" },
+                { word: "Что", emoji: "❓", clozeText: "____ это?", answer: "Что", category: "grammar" },
+                { word: "но", emoji: "⚖️", clozeText: "Нет, это не кофе, ___ это чай.", answer: "но", category: "grammar" }
             ]
         }
     },
@@ -183,43 +103,24 @@ const lessonsData = {
         1: {
             title: "Ημέρα 1 | Βασικό λεξιλόγιο",
             words: [
-                { word: "γεια", emoji: "👋", opposite: "αντίο" },
-                { word: "αντίο", emoji: "🖐️", opposite: "γεια" },
-                { word: "ναι", emoji: "✅", opposite: "όχι" },
-                { word: "όχι", emoji: "❌", opposite: "ναι" },
-                { word: "ευχαριστώ", emoji: "🙏", opposite: "παρακαλώ" },
-                { word: "παρακαλώ", emoji: "🙏", opposite: "ευχαριστώ", clozeText: "Έναν καφέ, ______.", answer: "παρακαλώ" },
-                { word: "οκ", emoji: "👌" },
-                { word: "εντάξει", emoji: "👍" },
-                { word: "συγγνώμη", emoji: "🙇‍♂️" },
-                { word: "ή", emoji: "🔀", clozeText: "Καφές ____ τσάι ;", answer: "ή" },
-                { word: "αλλά", emoji: "⚖️", clozeText: "Όχι, δεν είναι καφές, ___ είναι τσάι.", answer: "αλλά" },
-                { word: "καφές", emoji: "☕" },
-                { word: "τσάι", emoji: "🍵" },
-                { word: "κρασί", emoji: "🍷" },
-                { word: "νερό", emoji: "💧" },
-                { word: "ο χυμός", emoji: "🧃" },
-                { word: "η μπίρα", emoji: "🍺" },
-                { word: "τα μετρητά", emoji: "💵" },
-                { word: "η κάρτα", emoji: "💳" }
-            ]
-        },
-        2: {
-            title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
-            words: [
-                { word: "το πράγμα", emoji: "📦", form: "noun", level: "A1" },
-                { word: "το άτομο", emoji: "👤", form: "noun", level: "A1" },
-                { word: "ο άνδρας", emoji: "👨", opposite: "η γυναίκα", form: "noun", level: "A1" },
-                { word: "η γυναίκα", emoji: "👩", opposite: "ο άνδρας", form: "noun", level: "A1" },
-                { word: "το αγόρι", emoji: "👦", opposite: "το κορίτσι", form: "noun", level: "A1" },
-                { word: "το κορίτσι", emoji: "👧", opposite: "το αγόρι", form: "noun", level: "A1" },
-                { word: "ο δάσκαλος / η δασκάλα", emoji: "🧑‍🏫", opposite: "ο μαθητής / η μαθήτρια", form: "noun", level: "A1" },
-                { word: "ο μαθητής / η μαθήτρια", emoji: "🧑‍🎓", opposite: "ο δάσκαλος / η δασκάλα", form: "noun", level: "A1" },
-                { word: "ο φίλος / η φίλη", emoji: "👫", form: "noun", level: "A1" },
-                { word: "το παιδί", emoji: "👶", form: "noun", level: "A1" },
-                { word: "ποιος", emoji: "❓👤", clozeText: "____ είναι; - Είναι ένα άτομο.", answer: "ποιος", level: "A1" },
-                { word: "τι", emoji: "❓📦", clozeText: "____ είναι; - Είναι ένα πράγμα.", answer: "τι", level: "A1" },
-                { word: "και", emoji: "➕", clozeText: "Ένας άνδρας ___ μια γυναίκα.", answer: "και", level: "A1" }
+                { word: "Καλημέρα", emoji: "👋", opposite: "Αντίο", category: "vocabulary" },
+                { word: "Ναι", emoji: "✅", opposite: "Όχι", category: "vocabulary" },
+                { word: "Ευχαριστώ", emoji: "🙏", opposite: "Παρακαλώ", category: "vocabulary" },
+                { word: "Παρακαλώ", emoji: "🥺", clozeText: "Έναν καφέ, ______.", answer: "παρακαλώ", category: "vocabulary" },
+                { word: "Εντάξει", emoji: "👍", opposite: "Οκ", category: "vocabulary" },
+                { word: "Συγγνώμη", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
+                { word: "ή", emoji: "🔀", clozeText: "Καφές ____ τσάι;", answer: "ή", category: "grammar" },
+                { word: "ο καφές", emoji: "☕", category: "vocabulary" },
+                { word: "το τσάι", emoji: "🍵", category: "vocabulary" },
+                { word: "ο χυμός", emoji: "🧃", category: "vocabulary" },
+                { word: "το κρασί", emoji: "🍷", category: "vocabulary" },
+                { word: "η μπίρα", emoji: "🍺", category: "vocabulary" },
+                { word: "το νερό", emoji: "🚰", category: "vocabulary" },
+                { word: "τα μετρητά", emoji: "💵", category: "vocabulary" },
+                { word: "η κάρτα", emoji: "💳", category: "vocabulary" },
+                { word: "δεν", emoji: "❌", clozeText: "Όχι, ___ είναι καφές.", answer: "δεν", category: "grammar" },
+                { word: "Τι", emoji: "❓", clozeText: "____ είναι;", answer: "Τι", category: "grammar" },
+                { word: "αλλά", emoji: "⚖️", clozeText: "Όχι, δεν είναι καφές, ___ είναι τσάι.", answer: "αλλά", category: "grammar" }
             ]
         }
     }
@@ -486,9 +387,19 @@ function startPractice() {
         return;
     }
 
+    const enabledCategories = [];
+    if (document.getElementById('cat-vocab').checked) enabledCategories.push('vocabulary');
+    if (document.getElementById('cat-grammar').checked) enabledCategories.push('grammar');
+
+    if (enabledCategories.length === 0) {
+        alert("Please select at least one category (Vocabulary or Grammar)!");
+        return;
+    }
+
     lessons.forEach(l => {
         if (langData[l]) {
-            const lessonWords = langData[l].words.map(w => {
+            const filteredWords = langData[l].words.filter(w => enabledCategories.includes(w.category));
+            const lessonWords = filteredWords.map(w => {
                 let possibleTypes = [...enabledTypes];
 
                 // Filtering based on word properties
