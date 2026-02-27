@@ -917,7 +917,7 @@ const translations = {
     type_cl: "Вставь слово",
     type_tf: "Верно/Неверно",
     type_ga: "Род и Артикли",
-    task_gender_articles: "Выберите правильный артикль:",
+    task_gender_articles: "Выберите правильный род:",
   },
   el: {
     // Hero section

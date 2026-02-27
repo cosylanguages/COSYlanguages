@@ -85,14 +85,14 @@ const lessonsData = {
                 { word: "Хорошо", emoji: "👍", opposite: "Ок", category: "vocabulary" },
                 { word: "Извините", emoji: "🙇‍♂️", opposite: ":(", category: "vocabulary" },
                 { word: "или", emoji: "🔀", clozeText: "Кофе ____ чай?", answer: "или", category: "grammar" },
-                { word: "кофе", emoji: "☕", category: "vocabulary" },
-                { word: "чай", emoji: "🍵", category: "vocabulary" },
-                { word: "сок", emoji: "🧃", category: "vocabulary" },
-                { word: "вино", emoji: "🍷", category: "vocabulary" },
-                { word: "пиво", emoji: "🍺", category: "vocabulary" },
-                { word: "вода", emoji: "🚰", category: "vocabulary" },
+                { word: "кофе", emoji: "☕", category: "vocabulary", gender: "он", baseWord: "кофе" },
+                { word: "чай", emoji: "🍵", category: "vocabulary", gender: "он", baseWord: "чай" },
+                { word: "сок", emoji: "🧃", category: "vocabulary", gender: "он", baseWord: "сок" },
+                { word: "вино", emoji: "🍷", category: "vocabulary", gender: "оно", baseWord: "вино" },
+                { word: "пиво", emoji: "🍺", category: "vocabulary", gender: "оно", baseWord: "пиво" },
+                { word: "вода", emoji: "🚰", category: "vocabulary", gender: "она", baseWord: "вода" },
                 { word: "наличные", emoji: "💵", category: "vocabulary" },
-                { word: "карта", emoji: "💳", category: "vocabulary" },
+                { word: "карта", emoji: "💳", category: "vocabulary", gender: "она", baseWord: "карта" },
                 { word: "не", emoji: "❌", clozeText: "Нет, это ___ кофе.", answer: "не", category: "grammar" },
                 { word: "Что", emoji: "❓", clozeText: "____ это?", answer: "Что", category: "grammar" },
                 { word: "но", emoji: "⚖️", clozeText: "Нет, это не кофе, ___ это чай.", answer: "но", category: "grammar" }
@@ -400,29 +400,45 @@ function startPractice() {
     lessons.forEach(l => {
         if (langData[l]) {
             const filteredWords = langData[l].words.filter(w => {
-                if (enabledCategories.includes(w.category)) return true;
-                // Include nouns for article practice if Grammar is selected and Gender & Articles is enabled
-                if (enabledCategories.includes('grammar') && w.article && enabledTypes.includes('gender_articles')) return true;
-                return false;
+                let catMatch = false;
+                if (enabledCategories.includes(w.category)) catMatch = true;
+                if (enabledCategories.includes('grammar') && (w.article || w.gender) && enabledTypes.includes('gender_articles')) catMatch = true;
+                if (!catMatch) return false;
+
+                // Ensure at least one enabled task type is possible for this word
+                return enabledTypes.some(t => {
+                    if (t === 'opposite') return !!w.opposite;
+                    if (t === 'cloze') return !!w.clozeText;
+                    if (t === 'gender_articles') return !!(w.article || w.gender);
+                    return true; // MC, LS, SC, TF are generally always possible
+                });
             });
             const lessonWords = filteredWords.map(w => {
+                let wordCopy = { ...w };
                 let possibleTypes = [...enabledTypes];
 
+                // Randomly swap word and opposite
+                if (wordCopy.opposite && Math.random() > 0.5) {
+                    const originalWord = wordCopy.word;
+                    wordCopy.word = wordCopy.opposite;
+                    wordCopy.opposite = originalWord;
+                }
+
                 // Filtering based on word properties
-                if (!w.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
-                if (!w.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
-                if (!w.article) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
+                if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
+                if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
+                if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
 
                 // If word is from vocabulary category but we are in grammar-only mode, it must be gender_articles
-                if (w.category === 'vocabulary' && !enabledCategories.includes('vocabulary')) {
+                if (wordCopy.category === 'vocabulary' && !enabledCategories.includes('vocabulary')) {
                     possibleTypes = ['gender_articles'];
                 }
 
                 // Brands always multiple choice if enabled, otherwise just random from others
                 let selectedType;
-                if (w.isBrand) {
+                if (wordCopy.isBrand) {
                     selectedType = enabledTypes.includes('multiple_choice') ? 'multiple_choice' : enabledTypes[Math.floor(Math.random() * enabledTypes.length)];
-                } else if (w.clozeText && enabledTypes.includes('cloze')) {
+                } else if (wordCopy.clozeText && enabledTypes.includes('cloze')) {
                     if (enabledTypes.includes('multiple_choice')) {
                         selectedType = Math.random() > 0.5 ? 'cloze' : 'multiple_choice';
                     } else {
@@ -434,7 +450,7 @@ function startPractice() {
                 }
 
                 return {
-                    ...w,
+                    ...wordCopy,
                     type: selectedType,
                     lessonTitle: langData[l].title
                 };
@@ -629,14 +645,16 @@ function renderGenderArticles() {
     const articlesMap = {
         it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
         fr: ['le', 'la', "l'", 'les'],
-        el: ['ο', 'η', 'το', 'οι', 'τα']
+        el: ['ο', 'η', 'το', 'οι', 'τα'],
+        ru: ['он', 'она', 'оно']
     };
 
     const choices = articlesMap[lang] || [];
 
-    // If current word's article is not in the map for some reason, add it
-    if (wordObj.article && !choices.includes(wordObj.article)) {
-        choices.push(wordObj.article);
+    // If current word's article/gender is not in the map for some reason, add it
+    const targetValue = wordObj.article || wordObj.gender;
+    if (targetValue && !choices.includes(targetValue)) {
+        choices.push(targetValue);
     }
 
     choices.forEach(article => {
@@ -644,7 +662,7 @@ function renderGenderArticles() {
         btn.className = 'choice-btn';
         btn.textContent = article;
         btn.onclick = () => {
-            if (article === wordObj.article) {
+            if (article === targetValue) {
                 btn.classList.add('correct');
                 showFeedback(true);
             } else {
