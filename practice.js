@@ -326,6 +326,8 @@ const lessonsData = {
     }
 };
 
+const SESSION_STORAGE_KEY = 'cosy_practice_session';
+
 var currentPractice = {
     language: 'en',
     lessons: [],
@@ -334,12 +336,39 @@ var currentPractice = {
     currentWord: null,
     isCorrect: false,
     scrambleAnswer: "",
-    score: 0
+    score: 0,
+    wheelItems: []
 };
+
+function saveSession() {
+    localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(currentPractice));
+}
+
+function loadSession() {
+    const saved = localStorage.getItem(SESSION_STORAGE_KEY);
+    if (saved) {
+        try {
+            const parsed = JSON.parse(saved);
+            if (parsed && parsed.words && parsed.words.length > 0) {
+                currentPractice = parsed;
+                return true;
+            }
+        } catch (e) {
+            console.error("Error loading session:", e);
+        }
+    }
+    return false;
+}
+
+function clearSession() {
+    localStorage.removeItem(SESSION_STORAGE_KEY);
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     loadStreak();
     const startBtn = document.getElementById('start-btn');
+    const wheelModeBtn = document.getElementById('wheel-mode-btn');
+    const resumeBtn = document.getElementById('resume-btn');
     const nextBtn = document.getElementById('next-btn');
     const checkOppositeBtn = document.getElementById('check-opposite-btn');
     const trueBtn = document.getElementById('true-btn');
@@ -351,7 +380,84 @@ document.addEventListener('DOMContentLoaded', () => {
     const backToMenuBtn = document.getElementById('back-to-menu-btn');
 
     if (startBtn) {
-        startBtn.addEventListener('click', startPractice);
+        startBtn.addEventListener('click', () => {
+            if (localStorage.getItem(SESSION_STORAGE_KEY)) {
+                if (confirm("Starting a new practice will clear your current progress. Continue?")) {
+                    clearSession();
+                    startPractice(false);
+                }
+            } else {
+                startPractice(false);
+            }
+        });
+    }
+
+    const spinBtn = document.getElementById('spin-btn');
+    if (spinBtn) {
+        spinBtn.addEventListener('click', spinWheel);
+    }
+
+    const wheelRespondBtn = document.getElementById('wheel-respond-btn');
+    if (wheelRespondBtn) {
+        wheelRespondBtn.addEventListener('click', () => {
+            document.getElementById('wheel-container').style.display = 'none';
+            document.getElementById('question-card').style.display = 'block';
+            showNextWord();
+        });
+    }
+
+    const wheelSkipBtn = document.getElementById('wheel-skip-btn');
+    if (wheelSkipBtn) {
+        wheelSkipBtn.addEventListener('click', () => {
+            const currentItem = currentPractice.currentWord;
+            currentPractice.wheelItems = currentPractice.wheelItems.filter(item => item.word !== currentItem.word);
+            saveSession();
+            if (currentPractice.wheelItems.length === 0) {
+                showSummary();
+            } else {
+                document.getElementById('wheel-question-area').style.display = 'none';
+                initWheel();
+            }
+        });
+    }
+
+    const wheelDoneBtn = document.getElementById('wheel-done-btn');
+    if (wheelDoneBtn) {
+        wheelDoneBtn.addEventListener('click', () => {
+            const currentItem = currentPractice.currentWord;
+            currentPractice.wheelItems = currentPractice.wheelItems.filter(item => item.word !== currentItem.word);
+            currentPractice.score += 20; // Bonus for completion
+            document.getElementById('score-count').textContent = currentPractice.score;
+            saveSession();
+            if (currentPractice.wheelItems.length === 0) {
+                showSummary();
+            } else {
+                document.getElementById('wheel-question-area').style.display = 'none';
+                initWheel();
+            }
+        });
+    }
+
+    if (wheelModeBtn) {
+        wheelModeBtn.addEventListener('click', () => {
+            if (localStorage.getItem(SESSION_STORAGE_KEY)) {
+                if (confirm("Starting a new practice will clear your current progress. Continue?")) {
+                    clearSession();
+                    startPractice(true);
+                }
+            } else {
+                startPractice(true);
+            }
+        });
+    }
+
+    if (resumeBtn) {
+        resumeBtn.addEventListener('click', () => {
+            resumePractice();
+        });
+        if (loadSession()) {
+            resumeBtn.style.display = 'inline-block';
+        }
     }
 
     // Language selection cards logic
@@ -402,7 +508,9 @@ document.addEventListener('DOMContentLoaded', () => {
         backToMenuBtn.addEventListener('click', () => {
             document.getElementById('summary-modal').style.display = 'none';
             document.getElementById('setup-section').style.display = 'block';
+            clearSession();
             loadStreak();
+            if (resumeBtn) resumeBtn.style.display = 'none';
         });
     }
 
@@ -483,7 +591,12 @@ function updateProgress() {
     if (!progressFill || !progressText) return;
 
     const total = currentPractice.words.length;
-    const current = currentPractice.currentIndex;
+    let current = currentPractice.currentIndex;
+
+    if (currentPractice.isWheelMode) {
+        current = total - currentPractice.wheelItems.length;
+    }
+
     const displayIndex = current < total ? current + 1 : total;
     const percentage = total > 0 ? (current / total) * 100 : 0;
 
@@ -549,7 +662,7 @@ function triggerAnimation(type) {
     }
 }
 
-function startPractice() {
+function startPractice(isWheelMode = false) {
     const activeLangCard = document.querySelector('.lang-selection-card.active');
     const lessonInput = document.getElementById('lesson-range');
 
@@ -678,6 +791,7 @@ function startPractice() {
     currentPractice.words.sort(() => Math.random() - 0.5);
     currentPractice.currentIndex = 0;
     currentPractice.score = 0;
+    currentPractice.isWheelMode = isWheelMode;
     document.getElementById('score-count').textContent = '0';
 
     if (typeof setLanguage === 'function') {
@@ -691,22 +805,172 @@ function startPractice() {
     document.getElementById('setup-section').style.display = 'none';
     document.getElementById('practice-section').style.display = 'block';
 
-    updateProgress();
-    showNextWord();
+    if (isWheelMode) {
+        document.getElementById('wheel-container').style.display = 'block';
+        document.getElementById('question-card').style.display = 'none';
+        document.getElementById('practice-progress').style.display = 'none';
+        document.getElementById('progress-text').style.display = 'none';
+        currentPractice.wheelItems = [...currentPractice.words];
+        initWheel();
+    } else {
+        document.getElementById('wheel-container').style.display = 'none';
+        document.getElementById('question-card').style.display = 'block';
+        document.getElementById('practice-progress').style.display = 'block';
+        document.getElementById('progress-text').style.display = 'block';
+        updateProgress();
+        showNextWord();
+    }
+    saveSession();
+}
+
+var wheelRotation = 0;
+var isSpinning = false;
+
+function initWheel() {
+    const canvas = document.getElementById('wheel-canvas');
+    if (!canvas) return;
+    drawWheel();
+}
+
+function drawWheel() {
+    const canvas = document.getElementById('wheel-canvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const items = currentPractice.wheelItems;
+    if (!items || items.length === 0) return;
+
+    const centerX = canvas.width / 2;
+    const centerY = canvas.height / 2;
+    const radius = canvas.width / 2 - 10;
+    const sliceAngle = (2 * Math.PI) / items.length;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    items.forEach((item, i) => {
+        const startAngle = i * sliceAngle;
+        const endAngle = startAngle + sliceAngle;
+
+        ctx.beginPath();
+        ctx.moveTo(centerX, centerY);
+        ctx.arc(centerX, centerY, radius, startAngle, endAngle);
+        ctx.closePath();
+
+        // Alternating colors
+        const colors = ['#00A896', '#FFC107', '#FF6B6B', '#4CAF50', '#2196F3', '#9C27B0'];
+        ctx.fillStyle = colors[i % colors.length];
+        ctx.fill();
+        ctx.strokeStyle = '#fff';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        // Add text/emoji
+        ctx.save();
+        ctx.translate(centerX, centerY);
+        ctx.rotate(startAngle + sliceAngle / 2);
+        ctx.textAlign = "right";
+        ctx.fillStyle = "#fff";
+        ctx.font = "bold 20px Georgia";
+        // Use emoji + word if space allows, or just emoji
+        const displayText = (items.length > 10) ? item.emoji : (item.emoji + " " + item.word);
+        ctx.fillText(displayText, radius - 20, 10);
+        ctx.restore();
+    });
+}
+
+function spinWheel() {
+    if (isSpinning || currentPractice.wheelItems.length === 0) return;
+    isSpinning = true;
+
+    const canvas = document.getElementById('wheel-canvas');
+    const extraSpins = 5 + Math.random() * 5; // 5 to 10 full spins
+    const randomAngle = Math.random() * (2 * Math.PI);
+    const totalRotation = extraSpins * 2 * Math.PI + randomAngle;
+
+    wheelRotation += totalRotation;
+    canvas.style.transform = `rotate(${wheelRotation}rad)`;
+
+    setTimeout(() => {
+        isSpinning = false;
+        // Calculate selected item
+        // The pointer is at the top (3/2 * PI)
+        // Adjust for current rotation
+        const normalizedRotation = wheelRotation % (2 * Math.PI);
+
+        // Pointer is at 12 o'clock, which is -PI/2 in canvas arc logic
+        // But the canvas rotates clockwise.
+        // Rotation = R. Point at Top = 12 o'clock = -PI/2.
+        // Word at top = Index such that (Index * sliceAngle + R) % 2PI = -PI/2? No.
+        // It's easier:
+        // angle_on_canvas = (-PI/2 - R) % 2PI
+        // adjust to positive
+        let angleOnCanvas = (-Math.PI/2 - normalizedRotation) % (2 * Math.PI);
+        if (angleOnCanvas < 0) angleOnCanvas += (2 * Math.PI);
+
+        const items = currentPractice.wheelItems;
+        const sliceAngle = (2 * Math.PI) / items.length;
+        const selectedIndex = Math.floor(angleOnCanvas / sliceAngle);
+        const selectedWord = items[selectedIndex];
+
+        currentPractice.currentWord = selectedWord;
+        showWheelQuestion(selectedWord);
+    }, 4000);
+}
+
+function showWheelQuestion(wordObj) {
+    document.getElementById('wheel-question-area').style.display = 'block';
+    document.getElementById('wheel-emoji-display').textContent = wordObj.emoji;
+    document.getElementById('wheel-word-display').textContent = wordObj.word;
+
+    // Scroll to question
+    document.getElementById('wheel-question-area').scrollIntoView({ behavior: 'smooth' });
+}
+
+function resumePractice() {
+    if (currentPractice.isWheelMode) {
+        document.getElementById('wheel-container').style.display = 'block';
+        document.getElementById('question-card').style.display = 'none';
+        document.getElementById('practice-progress').style.display = 'none';
+        document.getElementById('progress-text').style.display = 'none';
+        initWheel();
+    } else {
+        document.getElementById('wheel-container').style.display = 'none';
+        document.getElementById('question-card').style.display = 'block';
+        document.getElementById('practice-progress').style.display = 'block';
+        document.getElementById('progress-text').style.display = 'block';
+    }
+
+    if (typeof setLanguage === 'function') {
+        setLanguage(currentPractice.language);
+        const languageSwitcher = document.getElementById('language-switcher');
+        if (languageSwitcher) {
+            languageSwitcher.value = currentPractice.language;
+        }
+    }
+
+    document.getElementById('score-count').textContent = currentPractice.score;
+    document.getElementById('setup-section').style.display = 'none';
+    document.getElementById('practice-section').style.display = 'block';
+
+    if (!currentPractice.isWheelMode) {
+        updateProgress();
+        showNextWord();
+    }
 }
 
 function showNextWord() {
-    if (currentPractice.currentIndex >= currentPractice.words.length) {
-        updateProgress();
-        showSummary();
-        return;
+    if (!currentPractice.isWheelMode) {
+        if (currentPractice.currentIndex >= currentPractice.words.length) {
+            updateProgress();
+            showSummary();
+            return;
+        }
+        currentPractice.currentWord = currentPractice.words[currentPractice.currentIndex];
     }
 
     updateProgress();
     triggerAnimation('fadeIn');
 
-    const wordObj = currentPractice.words[currentPractice.currentIndex];
-    currentPractice.currentWord = wordObj;
+    const wordObj = currentPractice.currentWord;
     currentPractice.isCorrect = false;
 
     document.getElementById('feedback-message').textContent = '';
@@ -987,6 +1251,10 @@ function createConfetti() {
 
 function showSummary() {
     updateStreak();
+    clearSession();
+    const resumeBtn = document.getElementById('resume-btn');
+    if (resumeBtn) resumeBtn.style.display = 'none';
+
     const finalScoreEl = document.getElementById('final-score');
     const finalStreakEl = document.getElementById('final-streak');
     const streakUnitEl = document.getElementById('streak-unit');
@@ -1030,7 +1298,30 @@ function showFeedback(isCorrect) {
 
         currentPractice.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';
-        currentPractice.currentIndex++;
+
+        const nextBtn = document.getElementById('next-btn');
+        if (currentPractice.isWheelMode) {
+            nextBtn.onclick = () => {
+                // Remove word from wheel after successful response
+                const currentItem = currentPractice.currentWord;
+                currentPractice.wheelItems = currentPractice.wheelItems.filter(item => item.word !== currentItem.word);
+                saveSession();
+
+                if (currentPractice.wheelItems.length === 0) {
+                    showSummary();
+                } else {
+                    document.getElementById('question-card').style.display = 'none';
+                    document.getElementById('wheel-container').style.display = 'block';
+                    document.getElementById('wheel-question-area').style.display = 'none';
+                    initWheel();
+                }
+            };
+        } else {
+            nextBtn.onclick = showNextWord;
+            currentPractice.currentIndex++;
+        }
+
+        saveSession();
         document.getElementById('opposite-input-container').style.display = 'none';
         document.getElementById('tf-buttons-container').style.display = 'none';
         document.getElementById('choices-grid').style.display = 'none';
