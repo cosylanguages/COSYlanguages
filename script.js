@@ -240,4 +240,115 @@ document.addEventListener('DOMContentLoaded', () => {
             funFactElement.textContent = factList[dailyIndex];
         }
     }
+
+    // --- Charades Game Logic ---
+    const charadesModal = document.getElementById('charades-modal');
+    if (charadesModal) {
+        const openBtn = document.getElementById('open-charades-btn');
+        const closeBtn = document.getElementById('close-charades-btn');
+        const startBtn = document.getElementById('start-charades-game-btn');
+        const correctBtn = document.getElementById('charades-correct-btn');
+        const incorrectBtn = document.getElementById('charades-incorrect-btn');
+        const stopBtn = document.getElementById('charades-stop-btn');
+
+        const setupArea = document.getElementById('charades-setup');
+        const gameArea = document.getElementById('charades-gameplay');
+        const resultArea = document.getElementById('charades-result');
+        const wordDisplay = document.getElementById('charades-word');
+        const emojiDisplay = document.getElementById('charades-emoji');
+        const scoreVal = document.getElementById('charades-score-val');
+
+        let gamePool = [];
+        let gameIndex = 0;
+        let charadesScore = 0;
+
+        const parseLessons = (input) => {
+            const lessons = new Set();
+            input.split(',').forEach(part => {
+                if (part.includes('-')) {
+                    const [start, end] = part.split('-').map(Number);
+                    for (let i = start; i <= end; i++) lessons.add(i);
+                } else {
+                    lessons.add(Number(part));
+                }
+            });
+            return lessons;
+        };
+
+        const toggleModal = (show) => {
+            charadesModal.style.display = show ? 'flex' : 'none';
+            if (show) {
+                setupArea.style.display = 'block';
+                gameArea.style.display = 'none';
+                setLanguage(localStorage.getItem('language') || 'en');
+            }
+        };
+
+        openBtn?.addEventListener('click', () => toggleModal(true));
+        closeBtn?.addEventListener('click', () => toggleModal(false));
+
+        startBtn?.addEventListener('click', () => {
+            charadesScore = 0;
+            resultArea.style.display = 'none';
+            const lang = document.getElementById('charades-lang').value;
+            const theme = document.getElementById('charades-theme').value;
+            const rangeInput = document.getElementById('charades-lessons').value;
+            const lessons = parseLessons(rangeInput);
+
+            // Access shared lessonsData (from data.js)
+            if (typeof lessonsData === 'undefined') return;
+
+            const allWords = [];
+            if (lessonsData[lang]) {
+                lessons.forEach(lNum => {
+                    if (lessonsData[lang][lNum]) {
+                        allWords.push(...lessonsData[lang][lNum].words);
+                    }
+                });
+            }
+
+            gamePool = allWords.filter(w =>
+                (theme === 'all' || w.theme === theme) &&
+                w.category === 'vocabulary'
+            );
+
+            if (gamePool.length === 0) {
+                alert("No words found for this selection! 😕");
+                return;
+            }
+
+            // Shuffle pool
+            gamePool.sort(() => Math.random() - 0.5);
+            gameIndex = 0;
+
+            setupArea.style.display = 'none';
+            gameArea.style.display = 'block';
+            showNextCharade();
+        });
+
+        const showNextCharade = () => {
+            if (gameIndex >= gamePool.length) {
+                endCharades();
+                return;
+            }
+            const item = gamePool[gameIndex++];
+            wordDisplay.textContent = item.answer || item.word;
+            emojiDisplay.textContent = item.emoji || '🎭';
+        };
+
+        const endCharades = () => {
+            gameArea.style.display = 'none';
+            resultArea.style.display = 'block';
+            setupArea.style.display = 'block';
+            scoreVal.textContent = charadesScore;
+        };
+
+        correctBtn?.addEventListener('click', () => {
+            charadesScore++;
+            showNextCharade();
+        });
+        incorrectBtn?.addEventListener('click', showNextCharade);
+
+        stopBtn?.addEventListener('click', endCharades);
+    }
 });

@@ -3,8 +3,11 @@
 :root {
     scroll-behavior: smooth;
     --primary-color: #00A896; /* Turquoise from logo */
-    --secondary-color: #FFC107; /* Bright yellow for contrast */
-    --accent-color: #FF6B6B; /* A catchy coral for attention */
+    --secondary-color: #FFB300; /* Rich Gold for Grammar */
+    --accent-color: #FF6B6B; /* Coral for Speaking/Accent */
+    --vocab-color: #00A896;
+    --grammar-color: #FFB300;
+    --speaking-color: #FF6B6B;
     --background-color: #fdfaf5; /* Warmer, cosier background */
     --surface-color: #FFFFFF;
     --text-color: #2C3E50; /* Slightly darker for better readability */
@@ -769,7 +772,12 @@ footer {
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 30px;
+    transition: border-color 0.5s ease, box-shadow 0.5s ease;
 }
+
+#practice-container.cat-vocab { border-top: 6px solid var(--vocab-color); }
+#practice-container.cat-grammar { border-top: 6px solid var(--grammar-color); }
+#practice-container.cat-speaking { border-top: 6px solid var(--speaking-color); }
 
 #practice-container h2 {
     font-family: 'Georgia', serif;
@@ -923,16 +931,29 @@ footer {
     box-shadow: 0 4px 15px rgba(0, 168, 150, 0.3);
 }
 
+#cat-vocab:checked + span { background: var(--vocab-color); border-color: var(--vocab-color); }
+#cat-grammar:checked + span { background: var(--grammar-color); border-color: var(--grammar-color); }
+#cat-speaking:checked + span { background: var(--speaking-color); border-color: var(--speaking-color); }
+
 .advanced-options {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 15px;
 }
 
 .advanced-options summary {
-    font-weight: 700;
-    color: var(--primary-color);
+    font-weight: 600;
+    color: #888;
     cursor: pointer;
-    font-family: 'Georgia', serif;
+    font-size: 0.85rem;
     margin-bottom: 0.5rem;
+}
+
+.advanced-options .toggle-chip span {
+    font-size: 0.75rem;
+    min-height: 2rem;
+    padding: 0 0.8rem;
 }
 
 .setup-actions {
@@ -947,6 +968,10 @@ footer {
     background: linear-gradient(135deg, var(--primary-color) 0%, #26c6da 100%);
     box-shadow: 0 10px 25px rgba(0, 168, 150, 0.3);
 }
+
+.cat-vocab .cta-button.primary { background: linear-gradient(135deg, var(--vocab-color) 0%, #26c6da 100%); }
+.cat-grammar .cta-button.primary { background: linear-gradient(135deg, var(--grammar-color) 0%, #ffd54f 100%); }
+.cat-speaking .cta-button.primary { background: linear-gradient(135deg, var(--speaking-color) 0%, #ff8a80 100%); }
 
 .cta-button.primary:hover {
     box-shadow: 0 15px 35px rgba(0, 168, 150, 0.4);
@@ -1020,6 +1045,10 @@ footer {
     font-family: 'Georgia', serif;
     box-shadow: 0 4px 10px rgba(0, 168, 150, 0.3);
 }
+
+.cat-vocab .lesson-badge { background-color: var(--vocab-color); }
+.cat-grammar .lesson-badge { background-color: var(--grammar-color); }
+.cat-speaking .lesson-badge { background-color: var(--speaking-color); }
 
 .word-meta-container {
     display: flex;
