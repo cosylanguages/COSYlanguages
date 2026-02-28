@@ -21,6 +21,24 @@ document.addEventListener('DOMContentLoaded', () => {
     setupToggleButton('toggle-topics-btn', 'speaking-club-topics', 'toggle_topics_show', 'toggle_topics_hide');
     setupToggleButton('toggle-games-btn', 'game-nights-topics', 'toggle_games_show', 'toggle_games_hide');
 
+    // --- Deep Linking for Events ---
+    const eventUrlParams = new URLSearchParams(window.location.search);
+    const gameParam = eventUrlParams.get('game');
+    const eventLangParam = eventUrlParams.get('lang');
+    const eventLessonParam = eventUrlParams.get('lesson');
+    const eventThemeParam = eventUrlParams.get('theme');
+    const eventEmbedParam = eventUrlParams.get('embed');
+
+    if (eventEmbedParam === 'true') {
+        document.body.classList.add('embedded-mode');
+        const header = document.querySelector('header');
+        const footer = document.querySelector('footer');
+        if (header) header.style.display = 'none';
+        if (footer) footer.style.display = 'none';
+        const main = document.querySelector('main');
+        if (main) main.style.paddingTop = '20px';
+    }
+
     // Helper function to get the day of the year
     const getDayOfYear = () => {
         const now = new Date();
@@ -286,6 +304,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
         openBtn?.addEventListener('click', () => toggleModal(true));
         closeBtn?.addEventListener('click', () => toggleModal(false));
+
+        const shareCharadesBtn = document.getElementById('share-charades-btn');
+        if (shareCharadesBtn) {
+            shareCharadesBtn.addEventListener('click', () => {
+                const lang = document.getElementById('charades-lang').value;
+                const theme = document.getElementById('charades-theme').value;
+                const rangeInput = document.getElementById('charades-lessons').value;
+                const baseUrl = window.location.href.split('?')[0];
+                const shareUrl = `${baseUrl}?game=charades&lang=${lang}&lesson=${rangeInput}&theme=${theme}&embed=true`;
+
+                navigator.clipboard.writeText(shareUrl).then(() => {
+                    const originalText = shareCharadesBtn.innerHTML;
+                    const lang = document.getElementById('charades-lang').value;
+                    const copiedText = (translations[lang] && translations[lang]['copied']) ? translations[lang]['copied'] : "Copied! ✅";
+                    shareCharadesBtn.innerHTML = copiedText;
+                    setTimeout(() => shareCharadesBtn.innerHTML = originalText, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy: ', err);
+                    alert("Shareable Link: " + shareUrl);
+                });
+            });
+        }
+
+        // Handle Deep Linking for Charades
+        if (gameParam === 'charades') {
+            toggleModal(true);
+            if (eventLangParam) document.getElementById('charades-lang').value = eventLangParam;
+            if (eventLessonParam) document.getElementById('charades-lessons').value = eventLessonParam;
+            if (eventThemeParam) document.getElementById('charades-theme').value = eventThemeParam;
+
+            // Auto-start if lang is provided
+            if (eventLangParam) {
+                setTimeout(() => startBtn?.click(), 500);
+            }
+        }
 
         startBtn?.addEventListener('click', () => {
             charadesScore = 0;

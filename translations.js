@@ -299,8 +299,8 @@ const translations = {
     masoutis_desc: "Greek supermarket chain.",
     // Practice
     practice_title: "Practice 💡",
-    select_practice_language: "Select language to practice 🌍",
-    select_lessons: "Select lessons (e.g. 1 or 1-5) 📚",
+    select_practice_language: "1. Select language to practice 🌍",
+    select_lessons: "3. Select lessons (e.g. 1 or 1-5) 📚",
     start_practice: "Start Practice 🚀",
     resume_practice: "Resume Practice 🔁",
     wheel_mode: "Spinning Wheel 🎡",
@@ -343,7 +343,7 @@ const translations = {
     form_adverb: "Adverb",
     level_label: "Level",
     task_type_label: "Task Types: ⚙️",
-    category_label: "Select categories: 🏷️",
+    category_label: "2. Select categories: 🏷️",
     cat_vocab: "Vocabulary",
     cat_grammar: "Grammar",
     cat_speaking: "Speaking",
@@ -381,6 +381,8 @@ const translations = {
     game_over: "Game Over! 🏁",
     charades_score: "Your Score:",
     speaking_requires_lesson_3: "Speaking & Wheel require Lesson 3+",
+    share_btn: "Share 🔗",
+    copied: "Copied! ✅",
   },
   fr: {
     // Hero section
@@ -530,8 +532,8 @@ const translations = {
     carrefour_desc: "Supermarché et épicerie en ligne.",
     // Practice
     practice_title: "Pratique 💡",
-    select_practice_language: "Choisir la langue à pratiquer 🌍",
-    select_lessons: "Choisir les leçons (ex. 1 ou 1-5) 📚",
+    select_practice_language: "1. Choisir la langue à pratiquer 🌍",
+    select_lessons: "3. Choisir les leçons (ex. 1 ou 1-5) 📚",
     start_practice: "Commencer la pratique 🚀",
     resume_practice: "Reprendre la pratique 🔁",
     wheel_mode: "Roue de la fortune 🎡",
@@ -574,7 +576,7 @@ const translations = {
     form_adverb: "Adverbe",
     level_label: "Niveau",
     task_type_label: "Types de tâches : ⚙️",
-    category_label: "Choisir les catégories : 🏷️",
+    category_label: "2. Choisir les catégories : 🏷️",
     cat_vocab: "Vocabulaire",
     cat_grammar: "Grammaire",
     cat_speaking: "Expression orale",
@@ -612,6 +614,8 @@ const translations = {
     game_over: "Fin du jeu ! 🏁",
     charades_score: "Votre score :",
     speaking_requires_lesson_3: "L'oral et la roue nécessitent la leçon 3+",
+    share_btn: "Partager 🔗",
+    copied: "Copié ! ✅",
   },
   it: {
     // Hero section
@@ -757,8 +761,8 @@ const translations = {
     esselunga_desc: "Supermercato e negozio di alimentari.",
     // Practice
     practice_title: "Pratica 💡",
-    select_practice_language: "Seleziona la lingua da praticare 🌍",
-    select_lessons: "Seleziona le lezioni (es. 1 o 1-5) 📚",
+    select_practice_language: "1. Seleziona la lingua da praticare 🌍",
+    select_lessons: "3. Seleziona le lezioni (es. 1 o 1-5) 📚",
     start_practice: "Inizia la pratica 🚀",
     resume_practice: "Riprendi la pratica 🔁",
     wheel_mode: "Ruota della fortuna 🎡",
@@ -801,7 +805,7 @@ const translations = {
     form_adverb: "Avverbio",
     level_label: "Livello",
     task_type_label: "Tipi di attività: ⚙️",
-    category_label: "Seleziona categorie: 🏷️",
+    category_label: "2. Seleziona categorie: 🏷️",
     cat_vocab: "Vocabolario",
     cat_grammar: "Grammatica",
     cat_speaking: "Parlato",
@@ -839,6 +843,8 @@ const translations = {
     game_over: "Fine del gioco! 🏁",
     charades_score: "Il tuo punteggio:",
     speaking_requires_lesson_3: "Il parlato e la ruota richiedono la lezione 3+",
+    share_btn: "Condividi 🔗",
+    copied: "Copiato! ✅",
   },
   ru: {
     // Hero section
@@ -984,8 +990,8 @@ const translations = {
     perekrestok_desc: "Супермаркет и продуктовый магазин.",
     // Practice
     practice_title: "Практика 💡",
-    select_practice_language: "Выберите язык для практики 🌍",
-    select_lessons: "Выберите уроки (например, 1 или 1-5) 📚",
+    select_practice_language: "1. Выберите язык для практики 🌍",
+    select_lessons: "3. Выберите уроки (например, 1 или 1-5) 📚",
     start_practice: "Начать практику 🚀",
     resume_practice: "Продолжить практику 🔁",
     wheel_mode: "Колесо фортуны 🎡",
@@ -1028,7 +1034,7 @@ const translations = {
     form_adverb: "Наречие",
     level_label: "Уровень",
     task_type_label: "Типы заданий: ⚙️",
-    category_label: "Выберите категории: 🏷️",
+    category_label: "2. Выберите категории: 🏷️",
     cat_vocab: "Лексика",
     cat_grammar: "Грамматика",
     cat_speaking: "Разговор",
@@ -1066,6 +1072,8 @@ const translations = {
     game_over: "Игра окончена! 🏁",
     charades_score: "Ваш счет:",
     speaking_requires_lesson_3: "Разговор и колесо доступны с урока 3+",
+    share_btn: "Поделиться 🔗",
+    copied: "Скопировано! ✅",
   },
   el: {
     // Hero section
@@ -1213,8 +1221,8 @@ const translations = {
     masoutis_desc: "Ελληνική αλυσίδα σούπερ μάρκετ.",
     // Practice
     practice_title: "Πρακτική 💡",
-    select_practice_language: "Επιλογή γλώσσας για εξάσκηση 🌍",
-    select_lessons: "Επιλογή μαθημάτων (π.χ. 1 ή 1-5) 📚",
+    select_practice_language: "1. Επιλογή γλώσσας για εξάσκηση 🌍",
+    select_lessons: "3. Επιλογή μαθημάτων (π.χ. 1 ή 1-5) 📚",
     start_practice: "Έναρξη πρακτικής 🚀",
     resume_practice: "Συνέχεια πρακτικής 🔁",
     wheel_mode: "Τροχός της τύχης 🎡",
@@ -1257,7 +1265,7 @@ const translations = {
     form_adverb: "Επίρρημα",
     level_label: "Επίπεδο",
     task_type_label: "Τύποι ασκήσεων: ⚙️",
-    category_label: "Επιλογή κατηγοριών: 🏷️",
+    category_label: "2. Επιλογή κατηγοριών: 🏷️",
     cat_vocab: "Λεξιλόγιο",
     cat_grammar: "Γραμματική",
     cat_speaking: "Ομιλία",
@@ -1295,5 +1303,7 @@ const translations = {
     game_over: "Το παιχνίδι τελείωσε! 🏁",
     charades_score: "Το σκορ σας:",
     speaking_requires_lesson_3: "Η ομιλία και ο τροχός απαιτούν το μάθημα 3+",
+    share_btn: "Κοινοποίηση 🔗",
+    copied: "Αντιγράφηκε! ✅",
   }
 };

@@ -46,6 +46,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const modeParam = urlParams.get('mode'); // 'wheel' or 'linear'
     const langParam = urlParams.get('lang'); // 'en', 'fr', 'it', 'ru', 'el'
     const lessonParam = urlParams.get('lesson'); // e.g. '1', '1-3'
+    const catParam = urlParams.get('cat'); // 'vocab', 'grammar', 'speaking'
+    const embedParam = urlParams.get('embed'); // 'true'
+
+    if (embedParam === 'true') {
+        document.body.classList.add('embedded-mode');
+        const header = document.querySelector('header');
+        const footer = document.querySelector('footer');
+        if (header) header.style.display = 'none';
+        if (footer) footer.style.display = 'none';
+        // Adjust main padding if needed
+        const main = document.querySelector('main');
+        if (main) main.style.paddingTop = '20px';
+    }
 
     if (langParam) {
         const langCard = document.querySelector(`.lang-selection-card[data-value="${langParam}"]`);
@@ -61,17 +74,31 @@ document.addEventListener('DOMContentLoaded', () => {
         if (lessonInput) lessonInput.value = lessonParam;
     }
 
+    if (catParam) {
+        const catRadio = document.getElementById(`cat-${catParam}`);
+        if (catRadio) {
+            catRadio.checked = true;
+            // Update UI/Tasks based on category
+            const container = document.getElementById('practice-container');
+            container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
+            container.classList.add(`cat-${catParam}`);
+        }
+    }
+
     if (modeParam === 'wheel') {
-        // Auto-select Speaking category for wheel
-        const speakingRadio = document.getElementById('cat-speaking');
-        if (speakingRadio) {
-            speakingRadio.checked = true;
-            const event = new Event('change');
-            speakingRadio.dispatchEvent(event);
+        // Auto-select Speaking category for wheel if not specified
+        if (!catParam) {
+            const speakingRadio = document.getElementById('cat-speaking');
+            if (speakingRadio) {
+                speakingRadio.checked = true;
+                const container = document.getElementById('practice-container');
+                container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
+                container.classList.add('cat-speaking');
+            }
         }
         // Start after a small delay to ensure DOM and translations are ready
         setTimeout(() => startPractice(true), 500);
-    } else if (modeParam === 'linear') {
+    } else if (modeParam === 'linear' || (!modeParam && langParam && lessonParam)) {
         setTimeout(() => startPractice(false), 500);
     }
 
@@ -88,6 +115,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const clearScrambleBtn = document.getElementById('clear-scramble-btn');
     const finishConversationBtn = document.getElementById('finish-conversation-btn');
     const backToMenuBtn = document.getElementById('back-to-menu-btn');
+    const shareLinkBtn = document.getElementById('share-link-btn');
+
+    if (shareLinkBtn) {
+        shareLinkBtn.addEventListener('click', () => {
+            const lang = currentPractice.language;
+            const lessons = document.getElementById('lesson-range').value;
+            const category = document.querySelector('input[name="practice-cat"]:checked').id.replace('cat-', '');
+            const baseUrl = window.location.href.split('?')[0];
+            const shareUrl = `${baseUrl}?lang=${lang}&lesson=${lessons}&cat=${category}&embed=true`;
+
+            navigator.clipboard.writeText(shareUrl).then(() => {
+                const originalText = shareLinkBtn.innerHTML;
+                const lang = currentPractice.language;
+                const copiedText = (translations[lang] && translations[lang]['copied']) ? translations[lang]['copied'] : "Copied! ✅";
+                shareLinkBtn.innerHTML = copiedText;
+                setTimeout(() => shareLinkBtn.innerHTML = originalText, 2000);
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+                alert("Shareable Link: " + shareUrl);
+            });
+        });
+    }
 
     if (startBtn) {
         startBtn.addEventListener('click', () => {
@@ -160,6 +209,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 startPractice(true);
             }
         });
+
+        // Add right-click to copy wheel share link
+        wheelModeBtn.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+            const lang = currentPractice.language;
+            const lessons = document.getElementById('lesson-range').value;
+            const baseUrl = window.location.href.split('?')[0];
+            const shareUrl = `${baseUrl}?mode=wheel&lang=${lang}&lesson=${lessons}&embed=true`;
+
+            navigator.clipboard.writeText(shareUrl).then(() => {
+                alert("Wheel link copied to clipboard! 🎡✅");
+            });
+        });
     }
 
     if (resumeBtn) {
@@ -177,7 +239,13 @@ document.addEventListener('DOMContentLoaded', () => {
         card.addEventListener('click', () => {
             langCards.forEach(c => c.classList.remove('active'));
             card.classList.add('active');
-            currentPractice.language = card.getAttribute('data-value');
+            const newLang = card.getAttribute('data-value');
+            currentPractice.language = newLang;
+            if (typeof setLanguage === 'function') {
+                setLanguage(newLang);
+                const switcher = document.getElementById('language-switcher');
+                if (switcher) switcher.value = newLang;
+            }
         });
     });
 
