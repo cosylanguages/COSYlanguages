@@ -114,6 +114,10 @@
                             <input type="checkbox" id="type-ga" checked>
                             <span data-translate-key="type_ga">Gender & Articles</span>
                         </label>
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="type-cv" checked>
+                            <span data-translate-key="type_cv">Conversation</span>
+                        </label>
                     </div>
                 </div>
 
@@ -190,6 +194,12 @@
                             <div id="word-assembly" class="word-assembly"></div>
                             <div id="scramble-letters" class="choices-grid"></div>
                             <button id="clear-scramble-btn" class="topics-toggle-btn secondary-btn" data-translate-key="clear_btn">Clear 🔄</button>
+                        </div>
+
+                        <!-- Conversation task -->
+                        <div id="conversation-container" style="display: none;">
+                            <textarea id="conversation-response" class="pill-input" style="width: 100%; height: 100px; padding: 15px; border-radius: 20px; margin-bottom: 10px;" placeholder="Type your response here..."></textarea>
+                            <button id="finish-conversation-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
                         </div>
                     </div>
 

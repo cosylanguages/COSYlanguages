@@ -60,7 +60,18 @@ const lessonsData = {
                 { word: "dog", emoji: "🐕", category: "vocabulary" },
                 { word: "fish", emoji: "🐟", category: "vocabulary" },
                 { word: "parrot", emoji: "🦜", category: "vocabulary" },
-                { word: "only", emoji: "☝️", clozeText: "an ______ child.", answer: "only", category: "grammar" }
+                { word: "only", emoji: "☝️", clozeText: "an ______ child.", answer: "only", category: "grammar" },
+                { word: "Do you have a family?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "Do you have a mother? What is her name?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
+                { word: "Do you have a father? What is his name?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
+                { word: "Do you have a brother? What is his name?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
+                { word: "Do you have a sister? What is her name?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
+                { word: "Do you have a son? What is his name?", emoji: "👦", type: "conversation", category: "conversation" },
+                { word: "Do you have a daughter? What is her name?", emoji: "👧", type: "conversation", category: "conversation" },
+                { word: "Do you have a cat? What is its name?", emoji: "🐈", type: "conversation", category: "conversation" },
+                { word: "Do you have a dog? What is its name?", emoji: "🐕", type: "conversation", category: "conversation" },
+                { word: "Do you have a fish? What is its name?", emoji: "🐟", type: "conversation", category: "conversation" },
+                { word: "Do you have a parrot? What is its name?", emoji: "🦜", type: "conversation", category: "conversation" }
             ]
         }
     },
@@ -125,7 +136,18 @@ const lessonsData = {
                 { word: "le chien", emoji: "🐕", category: "vocabulary", article: "le", baseWord: "chien" },
                 { word: "le poisson", emoji: "🐟", category: "vocabulary", article: "le", baseWord: "poisson" },
                 { word: "le perroquet", emoji: "🦜", category: "vocabulary", article: "le", baseWord: "perroquet" },
-                { word: "unique", emoji: "☝️", clozeText: "enfant ______.", answer: "unique", category: "grammar" }
+                { word: "unique", emoji: "☝️", clozeText: "enfant ______.", answer: "unique", category: "grammar" },
+                { word: "As-tu une famille ?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "As-tu une mère ? Comment s'appelle-t-elle ?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
+                { word: "As-tu un père ? Comment s'appelle-t-il ?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
+                { word: "As-tu un frère ? Comment s'appelle-t-il ?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
+                { word: "As-tu une sœur ? Comment s'appelle-t-elle ?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
+                { word: "As-tu un fils ? Comment s'appelle-t-il ?", emoji: "👦", type: "conversation", category: "conversation" },
+                { word: "As-tu une fille ? Comment s'appelle-t-elle ?", emoji: "👧", type: "conversation", category: "conversation" },
+                { word: "As-tu un chat ? Comment s'appelle-t-il ?", emoji: "🐈", type: "conversation", category: "conversation" },
+                { word: "As-tu un chien ? Comment s'appelle-t-il ?", emoji: "🐕", type: "conversation", category: "conversation" },
+                { word: "As-tu un poisson ? Comment s'appelle-t-il ?", emoji: "🐟", type: "conversation", category: "conversation" },
+                { word: "As-tu un perroquet ? Comment s'appelle-t-il ?", emoji: "🦜", type: "conversation", category: "conversation" }
             ]
         }
     },
@@ -190,7 +212,18 @@ const lessonsData = {
                 { word: "il cane", emoji: "🐕", category: "vocabulary", article: "il", baseWord: "cane" },
                 { word: "il pesce", emoji: "🐟", category: "vocabulary", article: "il", baseWord: "pesce" },
                 { word: "il pappagallo", emoji: "🦜", category: "vocabulary", article: "il", baseWord: "pappagallo" },
-                { word: "unico", emoji: "☝️", clozeText: "figlio ______.", answer: "unico", category: "grammar" }
+                { word: "unico", emoji: "☝️", clozeText: "figlio ______.", answer: "unico", category: "grammar" },
+                { word: "Hai una famiglia?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "Hai una madre? Come si chiama?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
+                { word: "Hai un padre? Come si chiama?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
+                { word: "Hai un fratello? Come si chiama?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
+                { word: "Hai una sorella? Come si chiama?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
+                { word: "Hai un figlio? Come si chiama?", emoji: "👦", type: "conversation", category: "conversation" },
+                { word: "Hai una figlia? Come si chiama?", emoji: "👧", type: "conversation", category: "conversation" },
+                { word: "Hai un.a gatto.a? Come si chiama?", emoji: "🐈", type: "conversation", category: "conversation" },
+                { word: "Hai un.a cane? Come si chiama?", emoji: "🐕", type: "conversation", category: "conversation" },
+                { word: "Hai un pesce? Come si chiama?", emoji: "🐟", type: "conversation", category: "conversation" },
+                { word: "Hai un pappagallo? Come si chiama?", emoji: "🦜", type: "conversation", category: "conversation" }
             ]
         }
     },
@@ -255,7 +288,18 @@ const lessonsData = {
                 { word: "собака", emoji: "🐕", category: "vocabulary", gender: "она", baseWord: "собака" },
                 { word: "рыба", emoji: "🐟", category: "vocabulary", gender: "она", baseWord: "рыба" },
                 { word: "попугай", emoji: "🦜", category: "vocabulary", gender: "он", baseWord: "попугай" },
-                { word: "единственный", emoji: "☝️", clozeText: "______ ребёнок.", answer: "единственный", category: "grammar" }
+                { word: "единственный", emoji: "☝️", clozeText: "______ ребёнок.", answer: "единственный", category: "grammar" },
+                { word: "У тебя есть семья?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "У тебя есть мать? Как её зовут?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
+                { word: "У тебя есть отец? Как его зовут?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
+                { word: "У тебя есть брат? Как его зовут?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
+                { word: "У тебя есть сестра? Как её зовут?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
+                { word: "У тебя есть сын? Как его зовут?", emoji: "👦", type: "conversation", category: "conversation" },
+                { word: "У тебя есть дочь? Как её зовут?", emoji: "👧", type: "conversation", category: "conversation" },
+                { word: "У тебя есть кот или кошка? Как его зовут?", emoji: "🐈", type: "conversation", category: "conversation" },
+                { word: "У тебя есть собака? Как её зовут?", emoji: "🐕", type: "conversation", category: "conversation" },
+                { word: "У тебя есть рыбка? Как её зовут?", emoji: "🐟", type: "conversation", category: "conversation" },
+                { word: "У тебя есть попугай? Как его зовут?", emoji: "🦜", type: "conversation", category: "conversation" }
             ]
         }
     },
@@ -320,7 +364,18 @@ const lessonsData = {
                 { word: "ο σκύλος", emoji: "🐕", category: "vocabulary", article: "ο", baseWord: "σκύλος" },
                 { word: "το ψάρι", emoji: "🐟", category: "vocabulary", article: "το", baseWord: "ψάρι" },
                 { word: "ο παπαγάλος", emoji: "🦜", category: "vocabulary", article: "ο", baseWord: "παπαγάλος" },
-                { word: "μοναχοπαίδι", emoji: "☝️", clozeText: "είμαι ______.", answer: "μοναχοπαίδι", category: "grammar" }
+                { word: "μοναχοπαίδι", emoji: "☝️", clozeText: "είμαι ______.", answer: "μοναχοπαίδι", category: "grammar" },
+                { word: "Έχεις οικογένεια;", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "Έχεις μητέρα; Πώς τη λένε;", emoji: "👩‍👦", type: "conversation", category: "conversation" },
+                { word: "Έχεις πατέρα; Πώς τον λένε;", emoji: "👨‍👦", type: "conversation", category: "conversation" },
+                { word: "Έχεις αδελφό; Πώς τον λένε;", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
+                { word: "Έχεις αδελφή; Πώς τη λένε;", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
+                { word: "Έχεις γιο; Πώς τον λένε;", emoji: "👦", type: "conversation", category: "conversation" },
+                { word: "Έχεις κόρη; Πώς τη λένε;", emoji: "👧", type: "conversation", category: "conversation" },
+                { word: "Έχεις γάτα; Πώς τη λένε;", emoji: "🐈", type: "conversation", category: "conversation" },
+                { word: "Έχεις σκύλο; Πώς τον λένε;", emoji: "🐕", type: "conversation", category: "conversation" },
+                { word: "Έχεις ψάρι; Πώς το λένε;", emoji: "🐟", type: "conversation", category: "conversation" },
+                { word: "Έχεις παπαγάλο; Πώς τον λένε;", emoji: "🦜", type: "conversation", category: "conversation" }
             ]
         }
     }
@@ -377,6 +432,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const oppositeAnswerInput = document.getElementById('opposite-answer');
     const listenBtn = document.getElementById('listen-btn');
     const clearScrambleBtn = document.getElementById('clear-scramble-btn');
+    const finishConversationBtn = document.getElementById('finish-conversation-btn');
     const backToMenuBtn = document.getElementById('back-to-menu-btn');
 
     if (startBtn) {
@@ -502,6 +558,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (clearScrambleBtn) {
         clearScrambleBtn.addEventListener('click', clearScramble);
+    }
+
+    if (finishConversationBtn) {
+        finishConversationBtn.addEventListener('click', () => {
+            showFeedback(true);
+        });
     }
 
     if (backToMenuBtn) {
@@ -710,6 +772,7 @@ function startPractice(isWheelMode = false) {
     if (document.getElementById('type-cl').checked) enabledTypes.push('cloze');
     if (document.getElementById('type-tf').checked) enabledTypes.push('true_false');
     if (document.getElementById('type-ga').checked) enabledTypes.push('gender_articles');
+    if (document.getElementById('type-cv').checked) enabledTypes.push('conversation');
 
     if (enabledTypes.length === 0) {
         alert("Please select at least one task type!");
@@ -719,6 +782,7 @@ function startPractice(isWheelMode = false) {
     const enabledCategories = [];
     if (document.getElementById('cat-vocab').checked) enabledCategories.push('vocabulary');
     if (document.getElementById('cat-grammar').checked) enabledCategories.push('grammar');
+    if (document.getElementById('type-cv').checked) enabledCategories.push('conversation');
 
     if (enabledCategories.length === 0) {
         alert("Please select at least one category (Vocabulary or Grammar)!");
@@ -739,6 +803,8 @@ function startPractice(isWheelMode = false) {
                     if (t === 'opposite') return !!w.opposite;
                     if (t === 'cloze') return !!w.clozeText;
                     if (t === 'gender_articles') return !!(w.article || w.gender);
+                    if (t === 'conversation') return w.type === 'conversation';
+                    if (w.type === 'conversation') return t === 'conversation';
                     return true; // MC, LS, SC, TF are generally always possible
                 });
             });
@@ -746,6 +812,16 @@ function startPractice(isWheelMode = false) {
             const lessonWords = filteredWords.map(w => {
                 let wordCopy = { ...w };
                 let possibleTypes = [...enabledTypes];
+
+                if (wordCopy.type === 'conversation') {
+                    return {
+                        ...wordCopy,
+                        lessonTitle: langData[l].title
+                    };
+                }
+
+                // Remove conversation type for non-conversation words
+                possibleTypes = possibleTypes.filter(t => t !== 'conversation');
 
                 // Randomly swap word and opposite for bidirectional practice
                 if (wordCopy.opposite && Math.random() > 0.5) {
@@ -771,6 +847,8 @@ function startPractice(isWheelMode = false) {
                     }
                 }
 
+                if (possibleTypes.length === 0) return null;
+
                 let selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
 
                 return {
@@ -778,7 +856,7 @@ function startPractice(isWheelMode = false) {
                     type: selectedType,
                     lessonTitle: langData[l].title
                 };
-            });
+            }).filter(w => w !== null);
             currentPractice.words.push(...lessonWords);
         }
     });
@@ -980,7 +1058,8 @@ function showNextWord() {
     document.getElementById('tf-buttons-container').style.display = 'none';
     document.getElementById('choices-grid').style.display = 'none';
     document.getElementById('scramble-container').style.display = 'none';
-    document.getElementById('hint-btn').style.display = (wordObj.type === 'true_false' ? 'none' : 'inline-block');
+    document.getElementById('conversation-container').style.display = 'none';
+    document.getElementById('hint-btn').style.display = (wordObj.type === 'true_false' || wordObj.type === 'conversation' ? 'none' : 'inline-block');
 
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
@@ -1063,6 +1142,13 @@ function showNextWord() {
 
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
         document.getElementById('tf-buttons-container').style.display = 'flex';
+    } else if (wordObj.type === 'conversation') {
+        document.getElementById('word-display').textContent = wordObj.word;
+        document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_conversation');
+        document.getElementById('conversation-container').style.display = 'block';
+        document.getElementById('conversation-response').value = '';
+        document.getElementById('conversation-response').focus();
     } else {
         // opposite
         document.getElementById('word-display').textContent = wordObj.word;
@@ -1326,6 +1412,7 @@ function showFeedback(isCorrect) {
         document.getElementById('tf-buttons-container').style.display = 'none';
         document.getElementById('choices-grid').style.display = 'none';
         document.getElementById('scramble-container').style.display = 'none';
+        document.getElementById('conversation-container').style.display = 'none';
         document.getElementById('hint-btn').style.display = 'none';
     }
 }
