@@ -20,7 +20,11 @@ const lessonsData = {
                 { word: "card", emoji: "💳", category: "vocabulary" },
                 { word: "not", emoji: "❌", clozeText: "No, it is ______ coffee.", answer: "not", category: "grammar" },
                 { word: "What", emoji: "❓", clozeText: "______'s it?", answer: "What", category: "grammar" },
-                { word: "but", emoji: "⚖️", clozeText: "No, it is not coffee, ______ it is tea.", answer: "but", category: "grammar" }
+                { word: "but", emoji: "⚖️", clozeText: "No, it is not coffee, ______ it is tea.", answer: "but", category: "grammar" },
+                { word: "It is coffee.", emoji: "☕", category: "grammar" },
+                { word: "It is not tea.", emoji: "🍵", category: "grammar" },
+                { word: "Is it water?", emoji: "🚰", category: "grammar" },
+                { word: "What is it?", emoji: "❓", category: "grammar" }
             ]
         },
         2: {
@@ -39,7 +43,12 @@ const lessonsData = {
                 { word: "too", emoji: "➕", category: "grammar" },
                 { word: "who", emoji: "❓👤", clozeText: "____ is it? - It's a person.", answer: "who", category: "grammar" },
                 { word: "and", emoji: "➕", clozeText: "A man ___ a woman.", answer: "and", category: "grammar" },
-                { word: "child", emoji: "👶", category: "vocabulary", theme: "people_professions" }
+                { word: "child", emoji: "👶", category: "vocabulary", theme: "people_professions" },
+                { word: "I am a teacher.", emoji: "🧑‍🏫", category: "grammar" },
+                { word: "You are a student.", emoji: "🧑‍🎓", category: "grammar" },
+                { word: "He is a man.", emoji: "👨", category: "grammar" },
+                { word: "She is a woman.", emoji: "👩", category: "grammar" },
+                { word: "Is it a person?", emoji: "👤", category: "grammar" }
             ]
         },
         3: {
@@ -61,6 +70,21 @@ const lessonsData = {
                 { word: "fish", emoji: "🐟", category: "vocabulary" },
                 { word: "parrot", emoji: "🦜", category: "vocabulary" },
                 { word: "only", emoji: "☝️", clozeText: "an ______ child.", answer: "only", category: "grammar" },
+                { word: "I have a family.", emoji: "👨‍👩‍👧‍👦", category: "grammar" },
+                { word: "You have a mother.", emoji: "👩‍👦", category: "grammar" },
+                { word: "He has a cat.", emoji: "🐈", category: "grammar" },
+                { word: "She has a dog.", emoji: "🐕", category: "grammar" },
+                { word: "It has a thing.", emoji: "📦", category: "grammar" },
+                { word: "I don't have a brother.", emoji: "👨‍👦‍👦", category: "grammar" },
+                { word: "You don't have a sister.", emoji: "👩‍👧‍👧", category: "grammar" },
+                { word: "He doesn't have a son.", emoji: "👦", category: "grammar" },
+                { word: "She doesn't have a daughter.", emoji: "👧", category: "grammar" },
+                { word: "It doesn't have a name.", emoji: "📛", category: "grammar" },
+                { word: "Do I have a friend?", emoji: "👫", category: "grammar" },
+                { word: "Do you have a family?", emoji: "👨‍👩‍👧‍👦", category: "grammar" },
+                { word: "Does he have a parrot?", emoji: "🦜", category: "grammar" },
+                { word: "Does she have a fish?", emoji: "🐟", category: "grammar" },
+                { word: "Does it have a problem?", emoji: "❓", category: "grammar" },
                 { word: "Do you have a family?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
                 { word: "Do you have a mother? What is her name?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
                 { word: "Do you have a father? What is his name?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
@@ -107,7 +131,11 @@ const lessonsData = {
                 { word: "la carte", emoji: "💳", category: "vocabulary", article: "la", baseWord: "carte" },
                 { word: "pas", emoji: "❌", clozeText: "Non, ce n'est ______ du café.", answer: "pas", category: "grammar" },
                 { word: "Quoi", emoji: "❓", clozeText: "C'est ______ ?", answer: "quoi", category: "grammar" },
-                { word: "mais", emoji: "⚖️", clozeText: "Non, ce n'est pas du café, ______ c'est du thé.", answer: "mais", category: "grammar" }
+                { word: "mais", emoji: "⚖️", clozeText: "Non, ce n'est pas du café, ______ c'est du thé.", answer: "mais", category: "grammar" },
+                { word: "C'est du café.", emoji: "☕", category: "grammar" },
+                { word: "Ce n'est pas du thé.", emoji: "🍵", category: "grammar" },
+                { word: "Est-ce de l'eau ?", emoji: "🚰", category: "grammar" },
+                { word: "Qu'est-ce que c'est ?", emoji: "❓", category: "grammar" }
             ]
         },
         2: {
@@ -126,7 +154,12 @@ const lessonsData = {
                 { word: "aussi", emoji: "➕", category: "grammar" },
                 { word: "qui", emoji: "❓👤", clozeText: "____ est-ce ? - C'est une personne.", answer: "qui", category: "grammar" },
                 { word: "et", emoji: "➕", clozeText: "Un homme ___ une femme.", answer: "et", category: "grammar" },
-                { word: "l'enfant", emoji: "👶", category: "vocabulary", article: "l'", baseWord: "enfant", theme: "people_professions" }
+                { word: "l'enfant", emoji: "👶", category: "vocabulary", article: "l'", baseWord: "enfant", theme: "people_professions" },
+                { word: "Je suis professeur.", emoji: "🧑‍🏫", category: "grammar" },
+                { word: "Tu es étudiant.", emoji: "🧑‍🎓", category: "grammar" },
+                { word: "Il est un homme.", emoji: "👨", category: "grammar" },
+                { word: "Elle est une femme.", emoji: "👩", category: "grammar" },
+                { word: "Est-ce une personne ?", emoji: "👤", category: "grammar" }
             ]
         },
         3: {
@@ -148,6 +181,20 @@ const lessonsData = {
                 { word: "le poisson", emoji: "🐟", category: "vocabulary", article: "le", baseWord: "poisson" },
                 { word: "le perroquet", emoji: "🦜", category: "vocabulary", article: "le", baseWord: "perroquet" },
                 { word: "unique", emoji: "☝️", clozeText: "enfant ______.", answer: "unique", category: "grammar" },
+                { word: "J'ai une famille.", emoji: "👨‍👩‍👧‍👦", category: "grammar" },
+                { word: "Tu as une mère.", emoji: "👩‍👦", category: "grammar" },
+                { word: "Il a un chat.", emoji: "🐈", category: "grammar" },
+                { word: "Elle a un chien.", emoji: "🐕", category: "grammar" },
+                { word: "Je n'ai pas de frère.", emoji: "👨‍👦‍👦", category: "grammar" },
+                { word: "Tu n'as pas de sœur.", emoji: "👩‍👧‍👧", category: "grammar" },
+                { word: "Il n'a pas de fils.", emoji: "👦", category: "grammar" },
+                { word: "Elle n'a pas de fille.", emoji: "👧", category: "grammar" },
+                { word: "Il n'a pas de nom.", emoji: "📛", category: "grammar" },
+                { word: "Est-ce que j'ai un ami ?", emoji: "👫", category: "grammar" },
+                { word: "As-tu une famille ?", emoji: "👨‍👩‍👧‍👦", category: "grammar" },
+                { word: "A-t-il un perroquet ?", emoji: "🦜", category: "grammar" },
+                { word: "A-t-elle un poisson ?", emoji: "🐟", category: "grammar" },
+                { word: "A-t-il un problème ?", emoji: "❓", category: "grammar" },
                 { word: "As-tu une famille ?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
                 { word: "As-tu une mère ? Comment s'appelle-t-elle ?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
                 { word: "As-tu un père ? Comment s'appelle-t-il ?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
@@ -194,7 +241,11 @@ const lessonsData = {
                 { word: "la carta", emoji: "💳", category: "vocabulary", article: "la", baseWord: "carta" },
                 { word: "non", emoji: "❌", clozeText: "No, ______ è caffè.", answer: "non", category: "grammar" },
                 { word: "Cosa", emoji: "❓", clozeText: "______'è?", answer: "cosa", category: "grammar" },
-                { word: "ma", emoji: "⚖️", clozeText: "No, non è caffè, ______ è tè.", answer: "ma", category: "grammar" }
+                { word: "ma", emoji: "⚖️", clozeText: "No, non è caffè, ______ è tè.", answer: "ma", category: "grammar" },
+                { word: "È caffè.", emoji: "☕", category: "grammar" },
+                { word: "Non è tè.", emoji: "🍵", category: "grammar" },
+                { word: "È acqua?", emoji: "🚰", category: "grammar" },
+                { word: "Cos'è?", emoji: "❓", category: "grammar" }
             ]
         },
         2: {
@@ -213,7 +264,12 @@ const lessonsData = {
                 { word: "anche", emoji: "➕", category: "grammar" },
                 { word: "chi", emoji: "❓👤", clozeText: "____ è? - È una persona.", answer: "chi", category: "grammar" },
                 { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e", category: "grammar" },
-                { word: "il bambino / la bambina", emoji: "👶", category: "vocabulary", article: "il / la", baseWord: "bambino / bambina", theme: "people_professions" }
+                { word: "il bambino / la bambina", emoji: "👶", category: "vocabulary", article: "il / la", baseWord: "bambino / bambina", theme: "people_professions" },
+                { word: "Io sono un professore.", emoji: "🧑‍🏫", category: "grammar" },
+                { word: "Tu sei uno studente.", emoji: "🧑‍🎓", category: "grammar" },
+                { word: "Lui è un uomo.", emoji: "👨", category: "grammar" },
+                { word: "Lei è una donna.", emoji: "👩", category: "grammar" },
+                { word: "È una persona?", emoji: "👤", category: "grammar" }
             ]
         },
         3: {
@@ -235,6 +291,20 @@ const lessonsData = {
                 { word: "il pesce", emoji: "🐟", category: "vocabulary", article: "il", baseWord: "pesce" },
                 { word: "il pappagallo", emoji: "🦜", category: "vocabulary", article: "il", baseWord: "pappagallo" },
                 { word: "unico", emoji: "☝️", clozeText: "figlio ______.", answer: "unico", category: "grammar" },
+                { word: "Io ho una famiglia.", emoji: "👨‍👩‍👧‍👦", category: "grammar" },
+                { word: "Tu hai una madre.", emoji: "👩‍👦", category: "grammar" },
+                { word: "Lui ha un gatto.", emoji: "🐈", category: "grammar" },
+                { word: "Lei ha un cane.", emoji: "🐕", category: "grammar" },
+                { word: "Io non ho un fratello.", emoji: "👨‍👦‍👦", category: "grammar" },
+                { word: "Tu non hai una sorella.", emoji: "👩‍👧‍👧", category: "grammar" },
+                { word: "Lui non ha un figlio.", emoji: "👦", category: "grammar" },
+                { word: "Lei non ha una figlia.", emoji: "👧", category: "grammar" },
+                { word: "Esso non ha un nome.", emoji: "📛", category: "grammar" },
+                { word: "Io ho un amico?", emoji: "👫", category: "grammar" },
+                { word: "Hai una sorella?", emoji: "👩‍👧‍👧", category: "grammar" },
+                { word: "Lui ha un pappagallo?", emoji: "🦜", category: "grammar" },
+                { word: "Lei ha un pesce?", emoji: "🐟", category: "grammar" },
+                { word: "Ha un problema?", emoji: "❓", category: "grammar" },
                 { word: "Hai una famiglia?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
                 { word: "Hai una madre? Come si chiama?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
                 { word: "Hai un padre? Come si chiama?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
@@ -281,7 +351,11 @@ const lessonsData = {
                 { word: "карта", emoji: "💳", category: "vocabulary", gender: "она", baseWord: "карта" },
                 { word: "не", emoji: "❌", clozeText: "Нет, это ______ кофе.", answer: "не", category: "grammar" },
                 { word: "Что", emoji: "❓", clozeText: "______ это?", answer: "Что", category: "grammar" },
-                { word: "но", emoji: "⚖️", clozeText: "Нет, это не кофе, ______ это чай.", answer: "но", category: "grammar" }
+                { word: "но", emoji: "⚖️", clozeText: "Нет, это не кофе, ______ это чай.", answer: "но", category: "grammar" },
+                { word: "Это кофе.", emoji: "☕", category: "grammar" },
+                { word: "Это не чай.", emoji: "🍵", category: "grammar" },
+                { word: "Это вода?", emoji: "🚰", category: "grammar" },
+                { word: "Что это?", emoji: "❓", category: "grammar" }
             ]
         },
         2: {
@@ -300,7 +374,12 @@ const lessonsData = {
                 { word: "тоже", emoji: "➕", category: "grammar" },
                 { word: "кто", emoji: "❓👤", clozeText: "____ это? - Это человек.", answer: "кто", category: "grammar" },
                 { word: "и", emoji: "➕", clozeText: "Мужчина ___ женщина.", answer: "и", category: "grammar" },
-                { word: "ребёнок", emoji: "👶", category: "vocabulary", gender: "он", baseWord: "ребёнок", theme: "people_professions" }
+                { word: "ребёнок", emoji: "👶", category: "vocabulary", gender: "он", baseWord: "ребёнок", theme: "people_professions" },
+                { word: "Я учитель.", emoji: "🧑‍🏫", category: "grammar" },
+                { word: "Ты студент.", emoji: "🧑‍🎓", category: "grammar" },
+                { word: "Он мужчина.", emoji: "👨", category: "grammar" },
+                { word: "Она женщина.", emoji: "👩", category: "grammar" },
+                { word: "Это человек?", emoji: "👤", category: "grammar" }
             ]
         },
         3: {
@@ -322,6 +401,20 @@ const lessonsData = {
                 { word: "рыба", emoji: "🐟", category: "vocabulary", gender: "она", baseWord: "рыба" },
                 { word: "попугай", emoji: "🦜", category: "vocabulary", gender: "он", baseWord: "попугай" },
                 { word: "единственный", emoji: "☝️", clozeText: "______ ребёнок.", answer: "единственный", category: "grammar" },
+                { word: "У меня есть семья.", emoji: "👨‍👩‍👧‍👦", category: "grammar" },
+                { word: "У тебя есть мать.", emoji: "👩‍👦", category: "grammar" },
+                { word: "У него есть кот.", emoji: "🐈", category: "grammar" },
+                { word: "У неё есть собака.", emoji: "🐕", category: "grammar" },
+                { word: "У меня нет брата.", emoji: "👨‍👦‍👦", category: "grammar" },
+                { word: "У тебя нет сестры.", emoji: "👩‍👧‍👧", category: "grammar" },
+                { word: "У него нет сына.", emoji: "👦", category: "grammar" },
+                { word: "У неё нет дочери.", emoji: "👧", category: "grammar" },
+                { word: "У него нет имени.", emoji: "📛", category: "grammar" },
+                { word: "У меня есть друг?", emoji: "👫", category: "grammar" },
+                { word: "У тебя есть сестра?", emoji: "👩‍👧‍👧", category: "grammar" },
+                { word: "У него есть попугай?", emoji: "🦜", category: "grammar" },
+                { word: "У неё есть рыбка?", emoji: "🐟", category: "grammar" },
+                { word: "У него есть проблема?", emoji: "❓", category: "grammar" },
                 { word: "У тебя есть семья?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
                 { word: "У тебя есть мать? Как её зовут?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
                 { word: "У тебя есть отец? Как его зовут?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
@@ -368,7 +461,11 @@ const lessonsData = {
                 { word: "η κάρτα", emoji: "💳", category: "vocabulary", article: "η", baseWord: "κάρτα" },
                 { word: "δεν", emoji: "❌", clozeText: "Όχι, ______ είναι καφές.", answer: "δεν", category: "grammar" },
                 { word: "Τι", emoji: "❓", clozeText: "______ είναι;", answer: "Τι", category: "grammar" },
-                { word: "αλλά", emoji: "⚖️", clozeText: "Όχι, δεν είναι καφές, ______ είναι τσάι.", answer: "αλλά", category: "grammar" }
+                { word: "αλλά", emoji: "⚖️", clozeText: "Όχι, δεν είναι καφές, ______ είναι τσάι.", answer: "αλλά", category: "grammar" },
+                { word: "Είναι καφές.", emoji: "☕", category: "grammar" },
+                { word: "Δεν είναι τσάι.", emoji: "🍵", category: "grammar" },
+                { word: "Είναι νερό;", emoji: "🚰", category: "grammar" },
+                { word: "Τι είναι;", emoji: "❓", category: "grammar" }
             ]
         },
         2: {
@@ -387,7 +484,12 @@ const lessonsData = {
                 { word: "επίσης", emoji: "➕", category: "grammar" },
                 { word: "ποιος", emoji: "❓👤", clozeText: "____ είναι; - Είναι ένα άτομο.", answer: "ποιος", category: "grammar" },
                 { word: "και", emoji: "➕", clozeText: "Ένας άνδρας ___ μια γυναίκα.", answer: "και", category: "grammar" },
-                { word: "το παιδί", emoji: "👶", category: "vocabulary", article: "το", baseWord: "παιδί", theme: "people_professions" }
+                { word: "το παιδί", emoji: "👶", category: "vocabulary", article: "το", baseWord: "παιδί", theme: "people_professions" },
+                { word: "Είμαι δάσκαλος.", emoji: "🧑‍🏫", category: "grammar" },
+                { word: "Είσαι μαθητής.", emoji: "🧑‍🎓", category: "grammar" },
+                { word: "Αυτός είναι άνδρας.", emoji: "👨", category: "grammar" },
+                { word: "Αυτή είναι γυναίκα.", emoji: "👩", category: "grammar" },
+                { word: "Είναι ένα άτομο;", emoji: "👤", category: "grammar" }
             ]
         },
         3: {
@@ -409,6 +511,20 @@ const lessonsData = {
                 { word: "το ψάρι", emoji: "🐟", category: "vocabulary", article: "το", baseWord: "ψάρι" },
                 { word: "ο παπαγάλος", emoji: "🦜", category: "vocabulary", article: "ο", baseWord: "παπαγάλος" },
                 { word: "μοναχοπαίδι", emoji: "☝️", clozeText: "είμαι ______.", answer: "μοναχοπαίδι", category: "grammar" },
+                { word: "Έχω οικογένεια.", emoji: "👨‍👩‍👧‍👦", category: "grammar" },
+                { word: "Έχεις μητέρα.", emoji: "👩‍👦", category: "grammar" },
+                { word: "Αυτός έχει έναν γάτο.", emoji: "🐈", category: "grammar" },
+                { word: "Αυτή έχει έναν σκύλο.", emoji: "🐕", category: "grammar" },
+                { word: "Δεν έχω αδελφό.", emoji: "👨‍👦‍👦", category: "grammar" },
+                { word: "Δεν έχεις αδελφή.", emoji: "👩‍👧‍👧", category: "grammar" },
+                { word: "Αυτός δεν έχει γιο.", emoji: "👦", category: "grammar" },
+                { word: "Αυτή δεν έχει κόρη.", emoji: "👧", category: "grammar" },
+                { word: "Δεν έχει όνομα.", emoji: "📛", category: "grammar" },
+                { word: "Έχω έναν φίλο;", emoji: "👫", category: "grammar" },
+                { word: "Έχεις αδελφή;", emoji: "👩‍👧‍👧", category: "grammar" },
+                { word: "Έχει έναν παπαγάλο;", emoji: "🦜", category: "grammar" },
+                { word: "Έχει ένα ψάρι;", emoji: "🐟", category: "grammar" },
+                { word: "Έχει κάποιο πρόβλημα;", emoji: "❓", category: "grammar" },
                 { word: "Έχεις οικογένεια;", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
                 { word: "Έχεις μητέρα; Πώς τη λένε;", emoji: "👩‍👦", type: "conversation", category: "conversation" },
                 { word: "Έχεις πατέρα; Πώς τον λένε;", emoji: "👨‍👦", type: "conversation", category: "conversation" },

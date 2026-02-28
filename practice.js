@@ -203,10 +203,10 @@ document.addEventListener('DOMContentLoaded', () => {
             taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-cv'));
         } else if (selected.id === 'cat-grammar') {
             container.classList.add('cat-grammar');
-            taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-ga' || cb.id === 'type-cl'));
+            taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-ga' || cb.id === 'type-ws' || cb.id === 'type-cl'));
         } else {
             container.classList.add('cat-vocab');
-            taskCheckboxes.forEach(cb => cb.checked = (cb.id !== 'type-ga' && cb.id !== 'type-cv'));
+            taskCheckboxes.forEach(cb => cb.checked = (cb.id !== 'type-ga' && cb.id !== 'type-cv' && cb.id !== 'type-ws'));
         }
     }
 
@@ -532,6 +532,7 @@ function startPractice(isWheelMode = false) {
     if (document.getElementById('type-mc').checked) enabledTypes.push('multiple_choice');
     if (document.getElementById('type-ls').checked) enabledTypes.push('listen_select');
     if (document.getElementById('type-sc').checked) enabledTypes.push('scramble');
+    if (document.getElementById('type-ws').checked) enabledTypes.push('word_scramble');
     if (document.getElementById('type-op').checked) enabledTypes.push('opposite');
     if (document.getElementById('type-cl').checked) enabledTypes.push('cloze');
     if (document.getElementById('type-tf').checked) enabledTypes.push('true_false');
@@ -589,6 +590,8 @@ function startPractice(isWheelMode = false) {
                     if (t === 'cloze') return !!w.clozeText;
                     if (t === 'gender_articles') return !!(w.article || w.gender);
                     if (t === 'conversation') return w.category === 'conversation' || w.type === 'conversation';
+                    if (t === 'word_scramble') return w.word.includes(' ');
+                    if (t === 'scramble') return !w.word.includes(' ');
                     return true;
                 });
             });
@@ -624,6 +627,14 @@ function startPractice(isWheelMode = false) {
                 if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
                 if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
                 if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
+
+                // Scramble vs Word Scramble (sentence builder)
+                const isSentence = wordCopy.word.includes(' ');
+                if (isSentence) {
+                    possibleTypes = possibleTypes.filter(t => t !== 'scramble');
+                } else {
+                    possibleTypes = possibleTypes.filter(t => t !== 'word_scramble');
+                }
 
                 if (possibleTypes.length === 0) return null;
 
@@ -851,6 +862,27 @@ function showNextWord() {
 
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
+    // Show Example
+    const exampleEl = document.getElementById('task-example');
+    if (exampleEl) {
+        const lang = currentPractice.language;
+        const typeKey = wordObj.type === 'word_scramble' ? 'ws' :
+                        wordObj.type === 'multiple_choice' ? 'mc' :
+                        wordObj.type === 'listen_select' ? 'ls' :
+                        wordObj.type === 'scramble' ? 'sc' :
+                        wordObj.type === 'opposite' ? 'op' :
+                        wordObj.type === 'cloze' ? 'cl' :
+                        wordObj.type === 'true_false' ? 'tf' :
+                        wordObj.type === 'gender_articles' ? 'ga' : '';
+        const exampleKey = `example_${typeKey}`;
+        if (translations[lang] && translations[lang][exampleKey]) {
+            exampleEl.textContent = translations[lang][exampleKey];
+            exampleEl.style.display = 'inline-block';
+        } else {
+            exampleEl.style.display = 'none';
+        }
+    }
+
     const subtextEl = document.getElementById('subtext-display');
     if (subtextEl) {
         if (wordObj.subtext) {
@@ -892,7 +924,13 @@ function showNextWord() {
 
     if (wordObj.type === 'multiple_choice' || wordObj.type === 'listen_select') {
         const isListen = wordObj.type === 'listen_select';
-        const text = isListen ? '???' : (wordObj.clozeText || wordObj.word);
+        let text = isListen ? '???' : (wordObj.clozeText || wordObj.word);
+
+        // Fix redundancy: hide target word for MC vocab if emoji is present
+        if (!isListen && wordObj.category === 'vocabulary' && wordObj.emoji) {
+            text = "???";
+        }
+
         document.getElementById('word-display').textContent = text;
         document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
         document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
@@ -907,12 +945,16 @@ function showNextWord() {
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_cloze');
         document.getElementById('opposite-input-container').style.display = 'flex';
         document.getElementById('opposite-answer').focus();
-    } else if (wordObj.type === 'scramble') {
+    } else if (wordObj.type === 'scramble' || wordObj.type === 'word_scramble') {
         document.getElementById('word-display').textContent = '???';
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
-        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_scramble');
+        document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'word_scramble' ? 'task_word_scramble' : 'task_scramble');
         document.getElementById('scramble-container').style.display = 'block';
-        renderScramble();
+        if (wordObj.type === 'word_scramble') {
+            renderWordScramble();
+        } else {
+            renderScramble();
+        }
     } else if (wordObj.type === 'gender_articles') {
         document.getElementById('word-display').textContent = wordObj.baseWord;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
@@ -1071,14 +1113,62 @@ function renderScramble() {
     });
 }
 
+function renderWordScramble() {
+    const wordObj = currentPractice.currentWord;
+    const scrambleLetters = document.getElementById('scramble-letters');
+    const wordAssembly = document.getElementById('word-assembly');
+
+    scrambleLetters.innerHTML = '';
+    wordAssembly.textContent = '';
+    currentPractice.scrambleAnswerWords = [];
+
+    const sentence = (wordObj.answer || wordObj.word);
+    const words = sentence.split(' ').sort(() => Math.random() - 0.5);
+
+    words.forEach(word => {
+        const btn = document.createElement('button');
+        btn.className = 'choice-btn';
+        btn.textContent = word;
+        btn.style.width = 'auto';
+        btn.style.padding = '0.5rem 1rem';
+        btn.onclick = () => {
+            currentPractice.scrambleAnswerWords.push(word);
+            wordAssembly.textContent = currentPractice.scrambleAnswerWords.join(' ');
+            btn.disabled = true;
+            btn.style.opacity = '0.3';
+            if (currentPractice.scrambleAnswerWords.length === sentence.split(' ').length) {
+                checkWordScrambleAnswer();
+            }
+        };
+        scrambleLetters.appendChild(btn);
+    });
+}
+
 function clearScramble() {
-    renderScramble();
+    if (currentPractice.currentWord.type === 'word_scramble') {
+        renderWordScramble();
+    } else {
+        renderScramble();
+    }
 }
 
 function checkScrambleAnswer() {
     const wordObj = currentPractice.currentWord;
     const target = (wordObj.answer || wordObj.word).replace(/\s/g, '').toLowerCase();
     const current = currentPractice.scrambleAnswer.toLowerCase();
+
+    if (current === target) {
+        showFeedback(true);
+    } else {
+        showFeedback(false);
+        setTimeout(clearScramble, 1000);
+    }
+}
+
+function checkWordScrambleAnswer() {
+    const wordObj = currentPractice.currentWord;
+    const target = (wordObj.answer || wordObj.word).toLowerCase().replace(/[.!?]/g, '').trim();
+    const current = currentPractice.scrambleAnswerWords.join(' ').toLowerCase().replace(/[.!?]/g, '').trim();
 
     if (current === target) {
         showFeedback(true);
