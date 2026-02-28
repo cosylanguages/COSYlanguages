@@ -68,8 +68,16 @@
                             <li data-translate-key="game_word_association">Word association 🔗</li>
                             <li data-translate-key="game_apples">Apples to Apples 🍏</li>
                             <li data-translate-key="game_charades">Charades 🎭</li>
+                            <li data-translate-key="game_guess_who">Guess Who? 👤</li>
+                            <li data-translate-key="game_guess_what">Guess What? 📦</li>
+                            <li data-translate-key="game_bingo">Bingo 🔢</li>
                         </ul>
-                        <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades" style="margin-top: 1rem; width: 100%;">Play Charades 🎭</button>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem;">
+                            <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades" style="width: 100%;">Play Charades 🎭</button>
+                            <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who" style="width: 100%;">Play Guess Who 👤</button>
+                            <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what" style="width: 100%;">Play Guess What 📦</button>
+                            <button id="open-bingo-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_bingo" style="width: 100%;">Play Bingo 🔢</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,8 +106,23 @@
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select id="charades-theme" class="pill-input" style="width: 100%;">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
-                                <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
-                                <option value="people_professions" data-translate-key="theme_people_professions">People & Professions 👩‍🏫</option>
+                                <option value="popular_people" data-translate-key="theme_people">Popular People 🌟</option>
+                                <option value="professions" data-translate-key="theme_people_professions">Professions 👩‍🏫</option>
+                                <option value="dishes" data-translate-key="theme_dishes">Dishes 🍲</option>
+                                <option value="food" data-translate-key="theme_food">Food 🍎</option>
+                                <option value="drinks" data-translate-key="theme_drinks">Drinks 🍷</option>
+                                <option value="places" data-translate-key="theme_places">Places 📍</option>
+                                <option value="countries" data-translate-key="theme_countries">Countries 🗺️</option>
+                                <option value="cities" data-translate-key="theme_cities">Cities 🏙️</option>
+                                <option value="clothing" data-translate-key="theme_clothing">Clothing 👕</option>
+                                <option value="furniture" data-translate-key="theme_furniture">Furniture 🏠</option>
+                                <option value="appearance" data-translate-key="theme_appearance">Appearance 🎭</option>
+                                <option value="routine" data-translate-key="theme_routine">Daily Routine ⏰</option>
+                                <option value="objects" data-translate-key="theme_objects">Everyday Objects 🔑</option>
+                                <option value="animals" data-translate-key="theme_animals">Animals & Pets 🐕</option>
+                                <option value="hobby" data-translate-key="theme_hobby">Hobby 🎨</option>
+                                <option value="weather" data-translate-key="theme_weather">Weather ☀️</option>
+                                <option value="body" data-translate-key="theme_body">Body Parts 🦷</option>
                             </select>
                         </div>
                         <div class="setup-group" style="flex: 1; text-align: left;">
@@ -132,6 +155,138 @@
                 <button id="close-charades-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 2rem;" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
+
+        <!-- Guess Who Modal -->
+        <div id="guess-who-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content glass" style="max-width: 600px;">
+                <h2 data-translate-key="game_guess_who">Guess Who? 👤</h2>
+                <div class="game-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select class="pill-input game-lang" style="width: 100%;">
+                            <option value="en">English 🇬🇧</option>
+                            <option value="fr">Français 🇫🇷</option>
+                            <option value="it">Italiano 🇮🇹</option>
+                            <option value="ru">Русский 🇷🇺</option>
+                            <option value="el">Ελληνικά 🇬🇷</option>
+                        </select>
+                    </div>
+                    <div class="setup-group">
+                        <label data-translate-key="select_theme">Select Theme 🎨</label>
+                        <select class="pill-input game-theme" style="width: 100%;">
+                            <option value="popular_people" data-translate-key="theme_people">Popular People 🌟</option>
+                            <option value="professions" data-translate-key="theme_people_professions">Professions 👩‍🏫</option>
+                        </select>
+                    </div>
+                    <button id="start-guess-who-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
+                </div>
+                <div class="game-play" style="display: none;">
+                    <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
+                        <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-color);">...</div>
+                        <div style="margin-top: 1.5rem; text-align: left;">
+                            <h4 style="margin-bottom: 0.5rem;" data-translate-key="nav_practice">Help Questions:</h4>
+                            <ul class="prompt-questions" style="list-style: none; padding: 0;"></ul>
+                        </div>
+                    </div>
+                    <button id="guess-who-next-btn" class="cta-button primary" data-translate-key="next_word">Next Person ➡️</button>
+                </div>
+                <button id="close-guess-who-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <!-- Guess What Modal -->
+        <div id="guess-what-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content glass" style="max-width: 600px;">
+                <h2 data-translate-key="game_guess_what">Guess What? 📦</h2>
+                <div class="game-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select class="pill-input game-lang" style="width: 100%;">
+                            <option value="en">English 🇬🇧</option>
+                            <option value="fr">Français 🇫🇷</option>
+                            <option value="it">Italiano 🇮🇹</option>
+                            <option value="ru">Русский 🇷🇺</option>
+                            <option value="el">Ελληνικά 🇬🇷</option>
+                        </select>
+                    </div>
+                    <div class="setup-group">
+                        <label data-translate-key="select_theme">Select Theme 🎨</label>
+                        <select class="pill-input game-theme" style="width: 100%;">
+                            <option value="dishes" data-translate-key="theme_dishes">Dishes 🍲</option>
+                            <option value="food" data-translate-key="theme_food">Food 🍎</option>
+                            <option value="drinks" data-translate-key="theme_drinks">Drinks 🍷</option>
+                            <option value="places" data-translate-key="theme_places">Places 📍</option>
+                            <option value="countries" data-translate-key="theme_countries">Countries 🗺️</option>
+                            <option value="cities" data-translate-key="theme_cities">Cities 🏙️</option>
+                            <option value="clothing" data-translate-key="theme_clothing">Clothing 👕</option>
+                            <option value="furniture" data-translate-key="theme_furniture">Furniture 🏠</option>
+                        </select>
+                    </div>
+                    <button id="start-guess-what-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
+                </div>
+                <div class="game-play" style="display: none;">
+                    <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
+                        <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-color);">...</div>
+                        <div style="margin-top: 1.5rem; text-align: left;">
+                            <h4 style="margin-bottom: 0.5rem;">Help Questions:</h4>
+                            <ul class="prompt-questions" style="list-style: none; padding: 0;"></ul>
+                        </div>
+                    </div>
+                    <button id="guess-what-next-btn" class="cta-button primary" data-translate-key="next_word">Next Object ➡️</button>
+                </div>
+                <button id="close-guess-what-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <!-- Bingo Modal -->
+        <div id="bingo-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content glass" style="max-width: 600px;">
+                <h2 data-translate-key="game_bingo">Bingo 🔢</h2>
+                <div id="bingo-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select id="bingo-lang" class="pill-input" style="width: 100%;">
+                            <option value="en">English 🇬🇧</option>
+                            <option value="fr">Français 🇫🇷</option>
+                            <option value="it">Italiano 🇮🇹</option>
+                            <option value="ru">Русский 🇷🇺</option>
+                            <option value="el">Ελληνικά 🇬🇷</option>
+                        </select>
+                    </div>
+                    <div class="setup-group">
+                        <label>Level / Type ⚙️</label>
+                        <select id="bingo-level" class="pill-input" style="width: 100%;">
+                            <option value="1" data-translate-key="bingo_lvl_1">Bingo 1 (0-9)</option>
+                            <option value="2" data-translate-key="bingo_lvl_2">Bingo 2 (0-19)</option>
+                            <option value="3" data-translate-key="bingo_lvl_3">Bingo 3 (20-99)</option>
+                            <option value="4" data-translate-key="bingo_lvl_4">Bingo 4 (100-999)</option>
+                            <option value="5" data-translate-key="bingo_lvl_5">Bingo 5 (Random)</option>
+                            <option value="alphabet" data-translate-key="bingo_alphabet">Alphabet</option>
+                        </select>
+                    </div>
+                    <div style="display: flex; gap: 1rem;">
+                        <button id="start-bingo-caller-btn" class="cta-button primary" data-translate-key="bingo_caller" style="flex: 1;">Caller 📣</button>
+                        <button id="start-bingo-player-btn" class="cta-button primary" data-translate-key="bingo_player" style="flex: 1;">Player 🃏</button>
+                    </div>
+                </div>
+
+                <!-- Caller Area -->
+                <div id="bingo-caller-area" style="display: none; padding: 2rem 0;">
+                    <div id="bingo-last-called" style="font-size: 5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 2rem;">---</div>
+                    <button id="bingo-call-next-btn" class="cta-button primary" data-translate-key="bingo_call_next">Call Next 🎲</button>
+                </div>
+
+                <!-- Player Area -->
+                <div id="bingo-player-area" style="display: none; padding: 1rem 0;">
+                    <h3 data-translate-key="bingo_your_card">Your Card</h3>
+                    <div id="bingo-player-grid" class="bingo-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 1.5rem 0;">
+                        <!-- Cells added by JS -->
+                    </div>
+                </div>
+
+                <button id="close-bingo-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -146,5 +301,6 @@
     <script src="script.js"></script>
     <script src="translations.js"></script>
     <script src="translate.js"></script>
+    <script src="games.js"></script>
 </body>
 </html>
