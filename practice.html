@@ -114,6 +114,10 @@
                             <input type="checkbox" id="type-ga" checked>
                             <span data-translate-key="type_ga">Gender & Articles</span>
                         </label>
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="type-cv" checked>
+                            <span data-translate-key="type_cv">Conversation</span>
+                        </label>
                     </div>
                 </div>
 
@@ -139,6 +143,7 @@
                         <div id="wheel-question-card" class="event-item glass">
                             <div id="wheel-emoji-display" class="practice-emoji"></div>
                             <div id="wheel-word-display" class="word-text"></div>
+                            <div id="wheel-subtext-display" class="subtext-display"></div>
                             <div class="wheel-action-buttons" style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
                                 <button id="wheel-respond-btn" class="topics-toggle-btn" data-translate-key="respond_btn">Respond ✍️</button>
                                 <button id="wheel-skip-btn" class="topics-toggle-btn secondary-btn" data-translate-key="skip_btn">Skip ⏭️</button>
@@ -165,6 +170,7 @@
                         <div id="word-display" class="word-text"></div>
                         <button id="listen-btn" class="icon-btn" title="Listen">🔊</button>
                     </div>
+                    <div id="subtext-display" class="subtext-display"></div>
 
                     <div id="answer-area">
                         <!-- Opposite/Cloze task -->
@@ -190,6 +196,12 @@
                             <div id="word-assembly" class="word-assembly"></div>
                             <div id="scramble-letters" class="choices-grid"></div>
                             <button id="clear-scramble-btn" class="topics-toggle-btn secondary-btn" data-translate-key="clear_btn">Clear 🔄</button>
+                        </div>
+
+                        <!-- Conversation task -->
+                        <div id="conversation-container" style="display: none;">
+                            <textarea id="conversation-response" class="pill-input" style="width: 100%; height: 100px; padding: 15px; border-radius: 20px; margin-bottom: 10px;" placeholder="Type your response here..."></textarea>
+                            <button id="finish-conversation-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
                         </div>
                     </div>
 

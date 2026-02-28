@@ -350,7 +350,9 @@ const translations = {
     type_cl: "Cloze (Typing)",
     type_tf: "True/False",
     type_ga: "Gender & Articles",
+    type_cv: "Conversation",
     task_gender_articles: "Select the correct article:",
+    task_conversation: "Question for you:",
   },
   fr: {
     // Hero section
@@ -551,7 +553,9 @@ const translations = {
     type_cl: "Texte à trous",
     type_tf: "Vrai/Faux",
     type_ga: "Genre et Articles",
+    type_cv: "Conversation",
     task_gender_articles: "Sélectionnez l'article correct :",
+    task_conversation: "Question pour vous :",
   },
   it: {
     // Hero section
@@ -748,7 +752,9 @@ const translations = {
     type_cl: "Testo a completamento",
     type_tf: "Vero/Falso",
     type_ga: "Genere e Articoli",
+    type_cv: "Conversazione",
     task_gender_articles: "Seleziona l'articolo corretto:",
+    task_conversation: "Domanda per te:",
   },
   ru: {
     // Hero section
@@ -945,7 +951,9 @@ const translations = {
     type_cl: "Вставь слово",
     type_tf: "Верно/Неверно",
     type_ga: "Род и Артикли",
+    type_cv: "Беседа",
     task_gender_articles: "Выберите правильный род:",
+    task_conversation: "Вопрос для вас:",
   },
   el: {
     // Hero section
@@ -1144,6 +1152,8 @@ const translations = {
     type_cl: "Συμπλήρωση κενού",
     type_tf: "Σωστό/Λάθος",
     type_ga: "Γένος και Άρθρα",
+    type_cv: "Συνομιλία",
     task_gender_articles: "Επιλέξτε το σωστό άρθρο:",
+    task_conversation: "Ερώτηση για εσάς:",
   }
 };
