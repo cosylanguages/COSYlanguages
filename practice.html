@@ -119,10 +119,35 @@
 
                 <div class="setup-actions">
                     <button id="start-btn" class="cta-button primary" data-translate-key="start_practice">Start Practice 🚀</button>
+                    <button id="wheel-mode-btn" class="cta-button secondary" data-translate-key="wheel_mode">Spinning Wheel 🎡</button>
+                    <button id="resume-btn" class="cta-button secondary" style="display: none;" data-translate-key="resume_practice">Resume Practice 🔁</button>
                 </div>
             </div>
 
             <div id="practice-section" style="display: none;">
+                <!-- Spinning Wheel Section -->
+                <div id="wheel-container" style="display: none; text-align: center; margin-bottom: 30px;">
+                    <div class="wheel-wrapper" style="position: relative; display: inline-block;">
+                        <canvas id="wheel-canvas" width="500" height="500"></canvas>
+                        <div id="wheel-pointer">▼</div>
+                    </div>
+                    <div class="wheel-controls" style="margin-top: 20px;">
+                        <button id="spin-btn" class="cta-button primary" data-translate-key="spin_btn">Spin! 🎡</button>
+                    </div>
+
+                    <div id="wheel-question-area" style="display: none; margin-top: 30px;">
+                        <div id="wheel-question-card" class="event-item glass">
+                            <div id="wheel-emoji-display" class="practice-emoji"></div>
+                            <div id="wheel-word-display" class="word-text"></div>
+                            <div class="wheel-action-buttons" style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
+                                <button id="wheel-respond-btn" class="topics-toggle-btn" data-translate-key="respond_btn">Respond ✍️</button>
+                                <button id="wheel-skip-btn" class="topics-toggle-btn secondary-btn" data-translate-key="skip_btn">Skip ⏭️</button>
+                                <button id="wheel-done-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div id="practice-progress" class="progress-bar-container">
                     <div id="progress-fill" class="progress-fill"></div>
                 </div>
