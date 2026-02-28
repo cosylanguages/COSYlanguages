@@ -34,13 +34,11 @@ const lessonsData = {
                 { word: "girl", emoji: "👧", opposite: "boy", oppositeEmoji: "👦", category: "vocabulary" },
                 { word: "teacher", emoji: "🧑‍🏫", opposite: "student", oppositeEmoji: "🧑‍🎓", category: "vocabulary" },
                 { word: "student", emoji: "🧑‍🎓", opposite: "teacher", oppositeEmoji: "🧑‍🏫", category: "vocabulary" },
-                { word: "Nice to meet you", emoji: "🤝", category: "vocabulary" },
+                { word: "Nice to meet you", emoji: "🤝", clozeText: "I am James, ____", answer: "Nice to meet you", category: "vocabulary" },
+                { word: "no problem", emoji: "👌", category: "vocabulary" },
                 { word: "too", emoji: "➕", category: "grammar" },
                 { word: "who", emoji: "❓👤", clozeText: "____ is it? - It's a person.", answer: "who", category: "grammar" },
                 { word: "and", emoji: "➕", clozeText: "A man ___ a woman.", answer: "and", category: "grammar" },
-                { word: "where", emoji: "📍", category: "grammar" },
-                { word: "when", emoji: "⏰", category: "grammar" },
-                { word: "why", emoji: "❓💡", category: "grammar" },
                 { word: "child", emoji: "👶", category: "vocabulary" }
             ]
         },
@@ -101,13 +99,11 @@ const lessonsData = {
                 { word: "la fille", emoji: "👧", opposite: "le garçon", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "fille" },
                 { word: "le professeur / la professeure", emoji: "🧑‍🏫", category: "vocabulary", article: "le / la", baseWord: "professeur / professeure" },
                 { word: "l'étudiant / l'étudiante", emoji: "🧑‍🎓", category: "vocabulary", article: "l'", baseWord: "étudiant / étudiante" },
-                { word: "Enchanté", emoji: "🤝", category: "vocabulary" },
+                { word: "Enchanté", emoji: "🤝", clozeText: "Je suis James, ____", answer: "Enchanté", category: "vocabulary" },
+                { word: "pas de problème", emoji: "👌", category: "vocabulary" },
                 { word: "aussi", emoji: "➕", category: "grammar" },
                 { word: "qui", emoji: "❓👤", clozeText: "____ est-ce ? - C'est une personne.", answer: "qui", category: "grammar" },
                 { word: "et", emoji: "➕", clozeText: "Un homme ___ une femme.", answer: "et", category: "grammar" },
-                { word: "où", emoji: "📍", category: "grammar" },
-                { word: "quand", emoji: "⏰", category: "grammar" },
-                { word: "pourquoi", emoji: "❓💡", category: "grammar" },
                 { word: "l'enfant", emoji: "👶", category: "vocabulary", article: "l'", baseWord: "enfant" }
             ]
         },
@@ -168,13 +164,11 @@ const lessonsData = {
                 { word: "la ragazza", emoji: "👧", opposite: "il ragazzo", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "ragazza" },
                 { word: "il professore / la professoressa", emoji: "🧑‍🏫", category: "vocabulary", article: "il / la", baseWord: "professore / professoressa" },
                 { word: "lo studente / la studentessa", emoji: "🧑‍🎓", category: "vocabulary", article: "lo / la", baseWord: "studente / studentessa" },
-                { word: "Piacere", emoji: "🤝", category: "vocabulary" },
+                { word: "Piacere", emoji: "🤝", clozeText: "Io sono James, ____", answer: "Piacere", category: "vocabulary" },
+                { word: "nessun problema", emoji: "👌", category: "vocabulary" },
                 { word: "anche", emoji: "➕", category: "grammar" },
                 { word: "chi", emoji: "❓👤", clozeText: "____ è? - È una persona.", answer: "chi", category: "grammar" },
                 { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e", category: "grammar" },
-                { word: "dove", emoji: "📍", category: "grammar" },
-                { word: "quando", emoji: "⏰", category: "grammar" },
-                { word: "perché", emoji: "❓💡", category: "grammar" },
                 { word: "il bambino / la bambina", emoji: "👶", category: "vocabulary", article: "il / la", baseWord: "bambino / bambina" }
             ]
         },
@@ -235,13 +229,11 @@ const lessonsData = {
                 { word: "девочка", emoji: "👧", opposite: "мальчик", oppositeEmoji: "👦", category: "vocabulary", gender: "она", baseWord: "девочка" },
                 { word: "учитель / учительница", emoji: "🧑‍🏫", category: "vocabulary", gender: "он / она", baseWord: "учитель / учительница" },
                 { word: "студент / студентка", emoji: "🧑‍🎓", category: "vocabulary", gender: "он / она", baseWord: "студент / студентка" },
-                { word: "Приятно познакомиться", emoji: "🤝", category: "vocabulary" },
+                { word: "Приятно познакомиться", emoji: "🤝", clozeText: "Я Джеймс, ____", answer: "Приятно познакомиться", category: "vocabulary" },
+                { word: "без проблем", emoji: "👌", category: "vocabulary" },
                 { word: "тоже", emoji: "➕", category: "grammar" },
                 { word: "кто", emoji: "❓👤", clozeText: "____ это? - Это человек.", answer: "кто", category: "grammar" },
                 { word: "и", emoji: "➕", clozeText: "Мужчина ___ женщина.", answer: "и", category: "grammar" },
-                { word: "где", emoji: "📍", category: "grammar" },
-                { word: "когда", emoji: "⏰", category: "grammar" },
-                { word: "почему", emoji: "❓💡", category: "grammar" },
                 { word: "ребёнок", emoji: "👶", category: "vocabulary", gender: "он", baseWord: "ребёнок" }
             ]
         },
@@ -302,13 +294,11 @@ const lessonsData = {
                 { word: "το κορίτσι", emoji: "👧", opposite: "το αγόρι", oppositeEmoji: "👦", category: "vocabulary", article: "το", baseWord: "κορίτσι" },
                 { word: "ο δάσκαλος / η δασκάλα", emoji: "🧑‍🏫", category: "vocabulary", article: "ο / η", baseWord: "δάσκαλος / δασκάλα" },
                 { word: "ο μαθητής / η μαθήτρια", emoji: "🧑‍🎓", category: "vocabulary", article: "ο / η", baseWord: "μαθητής / μαθήτρια" },
-                { word: "Χάρηκα", emoji: "🤝", category: "vocabulary" },
+                { word: "Χάρηκα", emoji: "🤝", clozeText: "Είμαι ο James, ____", answer: "Χάρηκα", category: "vocabulary" },
+                { word: "κανένα πρόβλημα", emoji: "👌", category: "vocabulary" },
                 { word: "επίσης", emoji: "➕", category: "grammar" },
                 { word: "ποιος", emoji: "❓👤", clozeText: "____ είναι; - Είναι ένα άτομο.", answer: "ποιος", category: "grammar" },
                 { word: "και", emoji: "➕", clozeText: "Ένας άνδρας ___ μια γυναίκα.", answer: "και", category: "grammar" },
-                { word: "πού", emoji: "📍", category: "grammar" },
-                { word: "πότε", emoji: "⏰", category: "grammar" },
-                { word: "γιατί", emoji: "❓💡", category: "grammar" },
                 { word: "το παιδί", emoji: "👶", category: "vocabulary", article: "το", baseWord: "παιδί" }
             ]
         },
@@ -363,6 +353,16 @@ document.addEventListener('DOMContentLoaded', () => {
     if (startBtn) {
         startBtn.addEventListener('click', startPractice);
     }
+
+    // Language selection cards logic
+    const langCards = document.querySelectorAll('.lang-selection-card');
+    langCards.forEach(card => {
+        card.addEventListener('click', () => {
+            langCards.forEach(c => c.classList.remove('active'));
+            card.classList.add('active');
+            currentPractice.language = card.getAttribute('data-value');
+        });
+    });
 
     if (nextBtn) {
         nextBtn.addEventListener('click', showNextWord);
@@ -550,10 +550,12 @@ function triggerAnimation(type) {
 }
 
 function startPractice() {
-    const langSelect = document.getElementById('practice-language');
+    const activeLangCard = document.querySelector('.lang-selection-card.active');
     const lessonInput = document.getElementById('lesson-range');
 
-    currentPractice.language = langSelect.value;
+    if (activeLangCard) {
+        currentPractice.language = activeLangCard.getAttribute('data-value');
+    }
     const lessonRange = lessonInput.value.trim();
 
     let lessons = [];

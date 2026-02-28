@@ -35,45 +35,91 @@
         <section id="practice-container">
             <h2 data-translate-key="practice_title">Practice 💡</h2>
 
-            <div id="setup-section">
-                <div class="setup-group">
-                    <label for="practice-language" data-translate-key="select_practice_language">Select language to practice 🌍</label>
-                    <select id="practice-language">
-                        <option value="en">English 🇬🇧</option>
-                        <option value="fr">Français 🇫🇷</option>
-                        <option value="it">Italiano 🇮🇹</option>
-                        <option value="ru">Русский 🇷🇺</option>
-                        <option value="el">Ελληνικά 🇬🇷</option>
-                    </select>
-                </div>
-
-                <div class="setup-group">
-                    <label for="lesson-range" data-translate-key="select_lessons">Select lessons (e.g. 1 or 1-5) 📚</label>
-                    <input type="text" id="lesson-range" placeholder="1" value="1">
-                </div>
-
-                <div class="setup-group">
-                    <label style="display: block; margin-bottom: 10px; font-weight: bold;" data-translate-key="category_label">Select categories:</label>
-                    <div class="checkbox-group" style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
-                        <label><input type="checkbox" id="cat-vocab" checked> <span data-translate-key="cat_vocab">Vocabulary</span></label>
-                        <label><input type="checkbox" id="cat-grammar" checked> <span data-translate-key="cat_grammar">Grammar</span></label>
+            <div id="setup-section" class="setup-card">
+                <div class="setup-group full-width">
+                    <label data-translate-key="select_practice_language">Select language to practice 🌍</label>
+                    <div class="lang-selection-grid" id="lang-selection-grid">
+                        <div class="lang-selection-card active" data-value="en">
+                            <span class="flag">🇬🇧</span>
+                            <span class="name">English</span>
+                        </div>
+                        <div class="lang-selection-card" data-value="fr">
+                            <span class="flag">🇫🇷</span>
+                            <span class="name">Français</span>
+                        </div>
+                        <div class="lang-selection-card" data-value="it">
+                            <span class="flag">🇮🇹</span>
+                            <span class="name">Italiano</span>
+                        </div>
+                        <div class="lang-selection-card" data-value="ru">
+                            <span class="flag">🇷🇺</span>
+                            <span class="name">Русский</span>
+                        </div>
+                        <div class="lang-selection-card" data-value="el">
+                            <span class="flag">🇬🇷</span>
+                            <span class="name">Ελληνικά</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="setup-group">
-                    <label style="display: block; margin-bottom: 10px; font-weight: bold;" data-translate-key="task_type_label">Task Types:</label>
-                    <div class="checkbox-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: left; max-width: 400px; margin: 0 auto;">
-                        <label><input type="checkbox" id="type-mc" checked> <span data-translate-key="type_mc">Multiple Choice</span></label>
-                        <label><input type="checkbox" id="type-ls" checked> <span data-translate-key="type_ls">Listen & Select</span></label>
-                        <label><input type="checkbox" id="type-sc" checked> <span data-translate-key="type_sc">Scramble</span></label>
-                        <label><input type="checkbox" id="type-op" checked> <span data-translate-key="type_op">Opposite</span></label>
-                        <label><input type="checkbox" id="type-cl" checked> <span data-translate-key="type_cl">Cloze (Typing)</span></label>
-                        <label><input type="checkbox" id="type-tf" checked> <span data-translate-key="type_tf">True/False</span></label>
-                        <label><input type="checkbox" id="type-ga" checked> <span data-translate-key="type_ga">Gender & Articles</span></label>
+                <div class="setup-row">
+                    <div class="setup-group">
+                        <label for="lesson-range" data-translate-key="select_lessons">Select lessons (e.g. 1 or 1-5) 📚</label>
+                        <input type="text" id="lesson-range" class="pill-input" placeholder="1" value="1">
+                    </div>
+
+                    <div class="setup-group">
+                        <label data-translate-key="category_label">Select categories:</label>
+                        <div class="chips-group">
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="cat-vocab" checked>
+                                <span data-translate-key="cat_vocab">Vocabulary</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="cat-grammar" checked>
+                                <span data-translate-key="cat_grammar">Grammar</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
 
-                <button id="start-btn" class="cta-button" data-translate-key="start_practice" style="margin-top: 20px;">Start Practice 🚀</button>
+                <div class="setup-group full-width">
+                    <label data-translate-key="task_type_label">Task Types:</label>
+                    <div class="chips-group wrap">
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="type-mc" checked>
+                            <span data-translate-key="type_mc">Multiple Choice</span>
+                        </label>
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="type-ls" checked>
+                            <span data-translate-key="type_ls">Listen & Select</span>
+                        </label>
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="type-sc" checked>
+                            <span data-translate-key="type_sc">Scramble</span>
+                        </label>
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="type-op" checked>
+                            <span data-translate-key="type_op">Opposite</span>
+                        </label>
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="type-cl" checked>
+                            <span data-translate-key="type_cl">Cloze (Typing)</span>
+                        </label>
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="type-tf" checked>
+                            <span data-translate-key="type_tf">True/False</span>
+                        </label>
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="type-ga" checked>
+                            <span data-translate-key="type_ga">Gender & Articles</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="setup-actions">
+                    <button id="start-btn" class="cta-button primary" data-translate-key="start_practice">Start Practice 🚀</button>
+                </div>
             </div>
 
             <div id="practice-section" style="display: none;">
