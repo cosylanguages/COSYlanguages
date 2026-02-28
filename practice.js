@@ -1122,7 +1122,8 @@ function renderWordScramble() {
     wordAssembly.textContent = '';
     currentPractice.scrambleAnswerWords = [];
 
-    const sentence = (wordObj.answer || wordObj.word);
+    // For Sentence Builder, we always use the full sentence
+    const sentence = wordObj.word;
     const words = sentence.split(' ').sort(() => Math.random() - 0.5);
 
     words.forEach(word => {
@@ -1167,7 +1168,7 @@ function checkScrambleAnswer() {
 
 function checkWordScrambleAnswer() {
     const wordObj = currentPractice.currentWord;
-    const target = (wordObj.answer || wordObj.word).toLowerCase().replace(/[.!?]/g, '').trim();
+    const target = wordObj.word.toLowerCase().replace(/[.!?]/g, '').trim();
     const current = currentPractice.scrambleAnswerWords.join(' ').toLowerCase().replace(/[.!?]/g, '').trim();
 
     if (current === target) {
