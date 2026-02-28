@@ -71,7 +71,18 @@ const lessonsData = {
                 { word: "Do you have a cat? What is its name?", emoji: "🐈", type: "conversation", category: "conversation" },
                 { word: "Do you have a dog? What is its name?", emoji: "🐕", type: "conversation", category: "conversation" },
                 { word: "Do you have a fish? What is its name?", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "Do you have a parrot? What is its name?", emoji: "🦜", type: "conversation", category: "conversation" }
+                { word: "Do you have a parrot? What is its name?", emoji: "🦜", type: "conversation", category: "conversation" },
+                { word: "Does your friend have a family?", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "Does your friend have a mother? What is her name?", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "What is her name? = Who is she? = What's her name?" },
+                { word: "Does your friend have a father? What is his name?", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "What is his name? = Who is he? = What's his name?" },
+                { word: "Does your friend have a brother? What is his name?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "What is his name? = Who is he? = What's his name?" },
+                { word: "Does your friend have a sister? What is her name?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "What is her name? = Who is she? = What's her name?" },
+                { word: "Does your friend have a son? What is his name?", emoji: "👦", type: "conversation", category: "conversation", subtext: "What is his name? = Who is he? = What's his name?" },
+                { word: "Does your friend have a daughter? What is her name?", emoji: "👧", type: "conversation", category: "conversation", subtext: "What is her name? = Who is she? = What's her name?" },
+                { word: "Does your friend have a cat? What is its name?", emoji: "🐈", type: "conversation", category: "conversation", subtext: "What is its name? = Who is it? = What's its name?" },
+                { word: "Does your friend have a dog? What is its name?", emoji: "🐕", type: "conversation", category: "conversation", subtext: "What is its name? = Who is it? = What's its name?" },
+                { word: "Does your friend have a fish? What is its name?", emoji: "🐟", type: "conversation", category: "conversation", subtext: "What is its name? = Who is it? = What's its name?" },
+                { word: "Does your friend have a parrot? What is its name?", emoji: "🦜", type: "conversation", category: "conversation", subtext: "What is its name? = Who is it? = What's its name?" }
             ]
         }
     },
@@ -147,7 +158,18 @@ const lessonsData = {
                 { word: "As-tu un chat ? Comment s'appelle-t-il ?", emoji: "🐈", type: "conversation", category: "conversation" },
                 { word: "As-tu un chien ? Comment s'appelle-t-il ?", emoji: "🐕", type: "conversation", category: "conversation" },
                 { word: "As-tu un poisson ? Comment s'appelle-t-il ?", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "As-tu un perroquet ? Comment s'appelle-t-il ?", emoji: "🦜", type: "conversation", category: "conversation" }
+                { word: "As-tu un perroquet ? Comment s'appelle-t-il ?", emoji: "🦜", type: "conversation", category: "conversation" },
+                { word: "Ton ami(e) a-t-il/elle une famille ?", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "Ton ami(e) a-t-il/elle une mère ? Comment s'appelle-t-elle ?", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-elle ? = Qui est-ce ? = Quel est son nom ?" },
+                { word: "Ton ami(e) a-t-il/elle un père ? Comment s'appelle-t-il ?", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
+                { word: "Ton ami(e) a-t-il/elle un frère ? Comment s'appelle-t-il ?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
+                { word: "Ton ami(e) a-t-il/elle une sœur ? Comment s'appelle-t-elle ?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-elle ? = Qui est-ce ? = Quel est son nom ?" },
+                { word: "Ton ami(e) a-t-il/elle un fils ? Comment s'appelle-t-il ?", emoji: "👦", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
+                { word: "Ton ami(e) a-t-il/elle une fille ? Comment s'appelle-t-elle ?", emoji: "👧", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-elle ? = Qui est-ce ? = Quel est son nom ?" },
+                { word: "Ton ami(e) a-t-il/elle un chat ? Comment s'appelle-t-il ?", emoji: "🐈", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
+                { word: "Ton ami(e) a-t-il/elle un chien ? Comment s'appelle-t-il ?", emoji: "🐕", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
+                { word: "Ton ami(e) a-t-il/elle un poisson ? Comment s'appelle-t-il ?", emoji: "🐟", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
+                { word: "Ton ami(e) a-t-il/elle un perroquet ? Comment s'appelle-t-il ?", emoji: "🦜", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" }
             ]
         }
     },
@@ -223,7 +245,18 @@ const lessonsData = {
                 { word: "Hai un.a gatto.a? Come si chiama?", emoji: "🐈", type: "conversation", category: "conversation" },
                 { word: "Hai un.a cane? Come si chiama?", emoji: "🐕", type: "conversation", category: "conversation" },
                 { word: "Hai un pesce? Come si chiama?", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "Hai un pappagallo? Come si chiama?", emoji: "🦜", type: "conversation", category: "conversation" }
+                { word: "Hai un pappagallo? Come si chiama?", emoji: "🦜", type: "conversation", category: "conversation" },
+                { word: "Il tuo amico / la tua amica ha una famiglia?", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "Il tuo amico / la tua amica ha una madre? Come si chiama?", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
+                { word: "Il tuo amico / la tua amica ha un padre? Come si chiama?", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
+                { word: "Il tuo amico / la tua amica ha un fratello? Come si chiama?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
+                { word: "Il tuo amico / la tua amica ha una sorella? Come si chiama?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
+                { word: "Il tuo amico / la tua amica ha un figlio? Come si chiama?", emoji: "👦", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
+                { word: "Il tuo amico / la tua amica ha una figlia? Come si chiama?", emoji: "👧", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
+                { word: "Il tuo amico / la tua amica ha un.a gatto.a? Come si chiama?", emoji: "🐈", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
+                { word: "Il tuo amico / la tua amica ha un.a cane? Come si chiama?", emoji: "🐕", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
+                { word: "Il tuo amico / la tua amica ha un pesce? Come si chiama?", emoji: "🐟", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
+                { word: "Il tuo amico / la tua amica ha un pappagallo? Come si chiama?", emoji: "🦜", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" }
             ]
         }
     },
@@ -299,7 +332,18 @@ const lessonsData = {
                 { word: "У тебя есть кот или кошка? Как его зовут?", emoji: "🐈", type: "conversation", category: "conversation" },
                 { word: "У тебя есть собака? Как её зовут?", emoji: "🐕", type: "conversation", category: "conversation" },
                 { word: "У тебя есть рыбка? Как её зовут?", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "У тебя есть попугай? Как его зовут?", emoji: "🦜", type: "conversation", category: "conversation" }
+                { word: "У тебя есть попугай? Как его зовут?", emoji: "🦜", type: "conversation", category: "conversation" },
+                { word: "У твоего друга / твоей подруги есть семья?", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "У твоего друга / твоей подруги есть мать? Как её зовут?", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
+                { word: "У твоего друга / твоей подруги есть отец? Как его зовут?", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" },
+                { word: "У твоего друга / твоей подруги есть брат? Как его зовут?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" },
+                { word: "У твоего друга / твоей подруги есть сестра? Как её зовут?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
+                { word: "У твоего друга / твоей подруги есть сын? Как его зовут?", emoji: "👦", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" },
+                { word: "У твоего друга / твоей подруги есть дочь? Как её зовут?", emoji: "👧", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
+                { word: "У твоего друга / твоей подруги есть кот или кошка? Как его зовут?", emoji: "🐈", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" },
+                { word: "У твоего друга / твоей подруги есть собака? Как её зовут?", emoji: "🐕", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
+                { word: "У твоего друга / твоей подруги есть рыбка? Как её зовут?", emoji: "🐟", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
+                { word: "У твоего друга / твоей подруги есть попугай? Как его зовут?", emoji: "🦜", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" }
             ]
         }
     },
@@ -375,7 +419,18 @@ const lessonsData = {
                 { word: "Έχεις γάτα; Πώς τη λένε;", emoji: "🐈", type: "conversation", category: "conversation" },
                 { word: "Έχεις σκύλο; Πώς τον λένε;", emoji: "🐕", type: "conversation", category: "conversation" },
                 { word: "Έχεις ψάρι; Πώς το λένε;", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "Έχεις παπαγάλο; Πώς τον λένε;", emoji: "🦜", type: "conversation", category: "conversation" }
+                { word: "Έχεις παπαγάλο; Πώς τον λένε;", emoji: "🦜", type: "conversation", category: "conversation" },
+                { word: "Ο φίλος σου / η φίλη σου έχει οικογένεια;", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
+                { word: "Ο φίλος σου / η φίλη σου έχει μητέρα; Πώς τη λένε;", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;" },
+                { word: "Ο φίλος σου / η φίλη σου έχει πατέρα; Πώς τον λένε;", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" },
+                { word: "Ο φίλος σου / η φίλη σου έχει αδελφό; Πώς τον λένε;", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" },
+                { word: "Ο φίλος σου / η φίλη σου έχει αδελφή; Πώς τη λένε;", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;" },
+                { word: "Ο φίλος σου / η φίλη σου έχει γιο; Πώς τον λένε;", emoji: "👦", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" },
+                { word: "Ο φίλος σου / η φίλη σου έχει κόρη; Πώς τη λένε;", emoji: "👧", type: "conversation", category: "conversation", subtext: "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;" },
+                { word: "Ο φίλος σου / η φίλη σου έχει γάτα; Πώς τη λένε;", emoji: "🐈", type: "conversation", category: "conversation", subtext: "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;" },
+                { word: "Ο φίλος σου / η φίλη σου έχει σκύλο; Πώς τον λένε;", emoji: "🐕", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" },
+                { word: "Ο φίλος σου / η φίλη σου έχει ψάρι; Πώς το λένε;", emoji: "🐟", type: "conversation", category: "conversation", subtext: "Πώς το λένε; = Ποιο είναι; = Ποιο είναι το όνομά του;" },
+                { word: "Ο φίλος σου / η φίλη σου έχει παπαγάλο; Πώς τον λένε;", emoji: "🦜", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" }
             ]
         }
     }
@@ -999,6 +1054,16 @@ function showWheelQuestion(wordObj) {
     document.getElementById('wheel-emoji-display').textContent = wordObj.emoji;
     document.getElementById('wheel-word-display').textContent = wordObj.word;
 
+    const subtextEl = document.getElementById('wheel-subtext-display');
+    if (subtextEl) {
+        if (wordObj.subtext) {
+            subtextEl.textContent = wordObj.subtext;
+            subtextEl.style.display = 'block';
+        } else {
+            subtextEl.style.display = 'none';
+        }
+    }
+
     // Scroll to question
     document.getElementById('wheel-question-area').scrollIntoView({ behavior: 'smooth' });
 }
@@ -1062,6 +1127,16 @@ function showNextWord() {
     document.getElementById('hint-btn').style.display = (wordObj.type === 'true_false' || wordObj.type === 'conversation' ? 'none' : 'inline-block');
 
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
+
+    const subtextEl = document.getElementById('subtext-display');
+    if (subtextEl) {
+        if (wordObj.subtext) {
+            subtextEl.textContent = wordObj.subtext;
+            subtextEl.style.display = 'block';
+        } else {
+            subtextEl.style.display = 'none';
+        }
+    }
 
     // Display metadata (form and level)
     const metaContainer = document.getElementById('word-meta');
