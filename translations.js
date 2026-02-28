@@ -370,6 +370,7 @@ const translations = {
     incorrect_btn: "Incorrect ❌",
     game_over: "Game Over! 🏁",
     charades_score: "Your Score:",
+    speaking_requires_lesson_3: "Speaking & Wheel require Lesson 3+",
   },
   fr: {
     // Hero section
@@ -590,6 +591,7 @@ const translations = {
     incorrect_btn: "Incorrect ❌",
     game_over: "Fin du jeu ! 🏁",
     charades_score: "Votre score :",
+    speaking_requires_lesson_3: "L'oral et la roue nécessitent la leçon 3+",
   },
   it: {
     // Hero section
@@ -806,6 +808,7 @@ const translations = {
     incorrect_btn: "Sbagliato ❌",
     game_over: "Fine del gioco! 🏁",
     charades_score: "Il tuo punteggio:",
+    speaking_requires_lesson_3: "Il parlato e la ruota richiedono la lezione 3+",
   },
   ru: {
     // Hero section
@@ -1022,6 +1025,7 @@ const translations = {
     incorrect_btn: "Неверно ❌",
     game_over: "Игра окончена! 🏁",
     charades_score: "Ваш счет:",
+    speaking_requires_lesson_3: "Разговор и колесо доступны с урока 3+",
   },
   el: {
     // Hero section
@@ -1240,5 +1244,6 @@ const translations = {
     incorrect_btn: "Λάθος ❌",
     game_over: "Το παιχνίδι τελείωσε! 🏁",
     charades_score: "Το σκορ σας:",
+    speaking_requires_lesson_3: "Η ομιλία και ο τροχός απαιτούν το μάθημα 3+",
   }
 };
