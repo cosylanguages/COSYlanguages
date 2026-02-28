@@ -40,6 +40,41 @@ function clearSession() {
 document.addEventListener('DOMContentLoaded', () => {
     loadStreak();
     loadTotalScore();
+
+    // Deep Linking Support
+    const urlParams = new URLSearchParams(window.location.search);
+    const modeParam = urlParams.get('mode'); // 'wheel' or 'linear'
+    const langParam = urlParams.get('lang'); // 'en', 'fr', 'it', 'ru', 'el'
+    const lessonParam = urlParams.get('lesson'); // e.g. '1', '1-3'
+
+    if (langParam) {
+        const langCard = document.querySelector(`.lang-selection-card[data-value="${langParam}"]`);
+        if (langCard) {
+            document.querySelectorAll('.lang-selection-card').forEach(c => c.classList.remove('active'));
+            langCard.classList.add('active');
+            currentPractice.language = langParam;
+        }
+    }
+
+    if (lessonParam) {
+        const lessonInput = document.getElementById('lesson-range');
+        if (lessonInput) lessonInput.value = lessonParam;
+    }
+
+    if (modeParam === 'wheel') {
+        // Auto-select Speaking category for wheel
+        const speakingRadio = document.getElementById('cat-speaking');
+        if (speakingRadio) {
+            speakingRadio.checked = true;
+            const event = new Event('change');
+            speakingRadio.dispatchEvent(event);
+        }
+        // Start after a small delay to ensure DOM and translations are ready
+        setTimeout(() => startPractice(true), 500);
+    } else if (modeParam === 'linear') {
+        setTimeout(() => startPractice(false), 500);
+    }
+
     const startBtn = document.getElementById('start-btn');
     const wheelModeBtn = document.getElementById('wheel-mode-btn');
     const resumeBtn = document.getElementById('resume-btn');
@@ -330,8 +365,12 @@ function loadStreak() {
 function loadTotalScore() {
     const total = parseInt(localStorage.getItem('cosy_total_points') || 0);
     const totalScoreEl = document.getElementById('total-score-count');
+    const setupTotalScoreEl = document.getElementById('setup-total-score');
     if (totalScoreEl) {
         totalScoreEl.textContent = total;
+    }
+    if (setupTotalScoreEl) {
+        setupTotalScoreEl.textContent = total;
     }
     return total;
 }
@@ -341,8 +380,12 @@ function updateTotalScore(points) {
     total += points;
     localStorage.setItem('cosy_total_points', total);
     const totalScoreEl = document.getElementById('total-score-count');
+    const setupTotalScoreEl = document.getElementById('setup-total-score');
     if (totalScoreEl) {
         totalScoreEl.textContent = total;
+    }
+    if (setupTotalScoreEl) {
+        setupTotalScoreEl.textContent = total;
     }
     return total;
 }
@@ -446,11 +489,13 @@ function startPractice(isWheelMode = false) {
     const catGrammar = document.getElementById('cat-grammar').checked;
     const catSpeaking = document.getElementById('cat-speaking').checked;
 
-    if (catVocab) enabledCategories.push('vocabulary');
-    if (catGrammar) enabledCategories.push('grammar');
-    if (catSpeaking) enabledCategories.push('conversation');
+    // Strict Category Isolation: only ONE category at a time now due to radio buttons,
+    // but we enforce it here in the pool generation logic.
+    if (catVocab) enabledCategories = ['vocabulary'];
+    else if (catGrammar) enabledCategories = ['grammar'];
+    else if (catSpeaking) enabledCategories = ['conversation'];
 
-    // Override for Wheel Mode: only speaking (conversation)
+    // Override for Wheel Mode: strictly speaking (conversation)
     if (isWheelMode) {
         enabledCategories = ['conversation'];
         enabledTypes = ['conversation'];
