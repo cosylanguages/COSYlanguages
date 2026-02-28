@@ -44,7 +44,7 @@
 
                 <!-- 1. Language Selection -->
                 <div class="setup-group full-width">
-                    <label data-translate-key="select_practice_language">1. Language 🌍</label>
+                    <label data-translate-key="select_practice_language">1. Select language to practice 🌍</label>
                     <div class="lang-selection-grid" id="lang-selection-grid">
                         <div class="lang-selection-card active" data-value="en">
                             <span class="flag">🇬🇧</span>
@@ -72,7 +72,7 @@
                 <div class="setup-row">
                     <!-- 2. Category Selection -->
                     <div class="setup-group">
-                        <label data-translate-key="category_label">2. Category 🏷️</label>
+                        <label data-translate-key="category_label">2. Select categories: 🏷️</label>
                         <div class="chips-group">
                             <label class="toggle-chip">
                                 <input type="radio" name="practice-cat" id="cat-vocab" checked>
@@ -91,7 +91,7 @@
 
                     <!-- 3. Lesson Selection -->
                     <div class="setup-group">
-                        <label for="lesson-range" data-translate-key="select_lessons">3. Lessons 📚</label>
+                        <label for="lesson-range" data-translate-key="select_lessons">3. Select lessons (e.g. 1 or 1-5) 📚</label>
                         <input type="text" id="lesson-range" class="pill-input" placeholder="1" value="1">
                         <span id="lesson-hint" class="small-hint" style="color: var(--accent-color); font-size: 0.75rem; margin-top: 0.3rem; display: none;" data-translate-key="speaking_requires_lesson_3">Speaking & Wheel require Lesson 3+</span>
                     </div>
@@ -113,6 +113,10 @@
                             <label class="toggle-chip">
                                 <input type="checkbox" id="type-sc" checked>
                                 <span data-translate-key="type_sc">Scramble</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-ws" checked>
+                                <span data-translate-key="type_ws">Sentence Builder</span>
                             </label>
                             <label class="toggle-chip">
                                 <input type="checkbox" id="type-op" checked>
@@ -183,6 +187,7 @@
                     </div>
                     <div id="emoji-display" class="practice-emoji"></div>
                     <div id="task-instruction" class="task-text"></div>
+                    <div id="task-example" class="subtext-display" style="display: none; background: rgba(255, 193, 7, 0.1); border-color: var(--secondary-color); margin-bottom: 1rem;"></div>
                     <div class="word-container">
                         <div id="word-display" class="word-text"></div>
                         <button id="listen-btn" class="icon-btn" title="Listen">🔊</button>
