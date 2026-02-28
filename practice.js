@@ -1,440 +1,3 @@
-const lessonsData = {
-    en: {
-        1: {
-            title: "Day 1 | Basic vocabulary",
-            words: [
-                { word: "Hello", emoji: "👋", opposite: "Goodbye", oppositeEmoji: "🖐️", category: "vocabulary" },
-                { word: "Yes", emoji: "✅", opposite: "No", oppositeEmoji: "❌", category: "vocabulary" },
-                { word: "Thank you", emoji: "🙏", opposite: "You're welcome", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
-                { word: "Please", emoji: "🥺", clozeText: "A coffee, ______.", answer: "please", category: "vocabulary" },
-                { word: "Alright", emoji: "👍", opposite: "Ok", oppositeEmoji: "👌", category: "vocabulary" },
-                { word: "Sorry", emoji: "🙇‍♂️", opposite: ":(", oppositeEmoji: "☹️", category: "vocabulary" },
-                { word: "or", emoji: "🔀", clozeText: "Coffee ______ tea?", answer: "or", category: "grammar" },
-                { word: "coffee", emoji: "☕", category: "vocabulary" },
-                { word: "tea", emoji: "🍵", category: "vocabulary" },
-                { word: "juice", emoji: "🧃", category: "vocabulary" },
-                { word: "wine", emoji: "🍷", category: "vocabulary" },
-                { word: "beer", emoji: "🍺", category: "vocabulary" },
-                { word: "water", emoji: "🚰", category: "vocabulary" },
-                { word: "cash", emoji: "💵", category: "vocabulary" },
-                { word: "card", emoji: "💳", category: "vocabulary" },
-                { word: "not", emoji: "❌", clozeText: "No, it is ______ coffee.", answer: "not", category: "grammar" },
-                { word: "What", emoji: "❓", clozeText: "______'s it?", answer: "What", category: "grammar" },
-                { word: "but", emoji: "⚖️", clozeText: "No, it is not coffee, ______ it is tea.", answer: "but", category: "grammar" }
-            ]
-        },
-        2: {
-            title: "Day 2 | A thing or a person?",
-            words: [
-                { word: "thing", emoji: "📦", category: "vocabulary" },
-                { word: "person", emoji: "👤", category: "vocabulary" },
-                { word: "man", emoji: "👨", opposite: "woman", oppositeEmoji: "👩", category: "vocabulary" },
-                { word: "woman", emoji: "👩", opposite: "man", oppositeEmoji: "👨", category: "vocabulary" },
-                { word: "boy", emoji: "👦", opposite: "girl", oppositeEmoji: "👧", category: "vocabulary" },
-                { word: "girl", emoji: "👧", opposite: "boy", oppositeEmoji: "👦", category: "vocabulary" },
-                { word: "teacher", emoji: "🧑‍🏫", opposite: "student", oppositeEmoji: "🧑‍🎓", category: "vocabulary" },
-                { word: "student", emoji: "🧑‍🎓", opposite: "teacher", oppositeEmoji: "🧑‍🏫", category: "vocabulary" },
-                { word: "Nice to meet you", emoji: "🤝", clozeText: "I am James, ____", answer: "Nice to meet you", category: "vocabulary" },
-                { word: "no problem", emoji: "👌", category: "vocabulary" },
-                { word: "too", emoji: "➕", category: "grammar" },
-                { word: "who", emoji: "❓👤", clozeText: "____ is it? - It's a person.", answer: "who", category: "grammar" },
-                { word: "and", emoji: "➕", clozeText: "A man ___ a woman.", answer: "and", category: "grammar" },
-                { word: "child", emoji: "👶", category: "vocabulary" }
-            ]
-        },
-        3: {
-            title: "Day 3 | Family & Pets",
-            words: [
-                { word: "mother", emoji: "👩‍👦", opposite: "father", oppositeEmoji: "👨‍👦", category: "vocabulary" },
-                { word: "father", emoji: "👨‍👦", opposite: "mother", oppositeEmoji: "👩‍👦", category: "vocabulary" },
-                { word: "sister", emoji: "👩‍👧‍👧", opposite: "brother", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary" },
-                { word: "brother", emoji: "👨‍👦‍👦", opposite: "sister", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary" },
-                { word: "daughter", emoji: "👧", opposite: "son", oppositeEmoji: "👦", category: "vocabulary" },
-                { word: "son", emoji: "👦", opposite: "daughter", oppositeEmoji: "👧", category: "vocabulary" },
-                { word: "wife", emoji: "👰", opposite: "husband", oppositeEmoji: "🤵", category: "vocabulary" },
-                { word: "husband", emoji: "🤵", opposite: "wife", oppositeEmoji: "👰", category: "vocabulary" },
-                { word: "friend", emoji: "👫", category: "vocabulary" },
-                { word: "family", emoji: "👨‍👩‍👧‍👦", category: "vocabulary" },
-                { word: "parent", emoji: "👪", category: "vocabulary" },
-                { word: "cat", emoji: "🐈", category: "vocabulary" },
-                { word: "dog", emoji: "🐕", category: "vocabulary" },
-                { word: "fish", emoji: "🐟", category: "vocabulary" },
-                { word: "parrot", emoji: "🦜", category: "vocabulary" },
-                { word: "only", emoji: "☝️", clozeText: "an ______ child.", answer: "only", category: "grammar" },
-                { word: "Do you have a family?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "Do you have a mother? What is her name?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
-                { word: "Do you have a father? What is his name?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
-                { word: "Do you have a brother? What is his name?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
-                { word: "Do you have a sister? What is her name?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
-                { word: "Do you have a son? What is his name?", emoji: "👦", type: "conversation", category: "conversation" },
-                { word: "Do you have a daughter? What is her name?", emoji: "👧", type: "conversation", category: "conversation" },
-                { word: "Do you have a cat? What is its name?", emoji: "🐈", type: "conversation", category: "conversation" },
-                { word: "Do you have a dog? What is its name?", emoji: "🐕", type: "conversation", category: "conversation" },
-                { word: "Do you have a fish? What is its name?", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "Do you have a parrot? What is its name?", emoji: "🦜", type: "conversation", category: "conversation" },
-                { word: "Does your friend have a family?", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "Does your friend have a mother? What is her name?", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "What is her name? = Who is she? = What's her name?" },
-                { word: "Does your friend have a father? What is his name?", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "What is his name? = Who is he? = What's his name?" },
-                { word: "Does your friend have a brother? What is his name?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "What is his name? = Who is he? = What's his name?" },
-                { word: "Does your friend have a sister? What is her name?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "What is her name? = Who is she? = What's her name?" },
-                { word: "Does your friend have a son? What is his name?", emoji: "👦", type: "conversation", category: "conversation", subtext: "What is his name? = Who is he? = What's his name?" },
-                { word: "Does your friend have a daughter? What is her name?", emoji: "👧", type: "conversation", category: "conversation", subtext: "What is her name? = Who is she? = What's her name?" },
-                { word: "Does your friend have a cat? What is its name?", emoji: "🐈", type: "conversation", category: "conversation", subtext: "What is its name? = Who is it? = What's its name?" },
-                { word: "Does your friend have a dog? What is its name?", emoji: "🐕", type: "conversation", category: "conversation", subtext: "What is its name? = Who is it? = What's its name?" },
-                { word: "Does your friend have a fish? What is its name?", emoji: "🐟", type: "conversation", category: "conversation", subtext: "What is its name? = Who is it? = What's its name?" },
-                { word: "Does your friend have a parrot? What is its name?", emoji: "🦜", type: "conversation", category: "conversation", subtext: "What is its name? = Who is it? = What's its name?" }
-            ]
-        }
-    },
-    fr: {
-        1: {
-            title: "Jour 1 | Vocabulaire de base",
-            words: [
-                { word: "Bonjour", emoji: "👋", opposite: "Au revoir", oppositeEmoji: "🖐️", category: "vocabulary" },
-                { word: "Oui", emoji: "✅", opposite: "Non", oppositeEmoji: "❌", category: "vocabulary" },
-                { word: "Merci", emoji: "🙏", opposite: "De rien", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
-                { word: "S'il vous plaît", emoji: "🥺", clozeText: "Un café, ______ ______ ______.", answer: "s'il vous plaît", category: "vocabulary" },
-                { word: "D'accord", emoji: "👍", opposite: "Ok", oppositeEmoji: "👌", category: "vocabulary" },
-                { word: "Désolé", emoji: "🙇‍♂️", opposite: ":(", oppositeEmoji: "☹️", category: "vocabulary" },
-                { word: "ou", emoji: "🔀", clozeText: "Café ______ thé ?", answer: "ou", category: "grammar" },
-                { word: "le café", emoji: "☕", category: "vocabulary", article: "le", baseWord: "café" },
-                { word: "le thé", emoji: "🍵", category: "vocabulary", article: "le", baseWord: "thé" },
-                { word: "le jus", emoji: "🧃", category: "vocabulary", article: "le", baseWord: "jus" },
-                { word: "le vin", emoji: "🍷", category: "vocabulary", article: "le", baseWord: "vin" },
-                { word: "la bière", emoji: "🍺", category: "vocabulary", article: "la", baseWord: "bière" },
-                { word: "l'eau", emoji: "🚰", category: "vocabulary", article: "l'", baseWord: "eau" },
-                { word: "les espèces", emoji: "💵", category: "vocabulary", article: "les", baseWord: "espèces" },
-                { word: "la carte", emoji: "💳", category: "vocabulary", article: "la", baseWord: "carte" },
-                { word: "pas", emoji: "❌", clozeText: "Non, ce n'est ______ du café.", answer: "pas", category: "grammar" },
-                { word: "Quoi", emoji: "❓", clozeText: "C'est ______ ?", answer: "quoi", category: "grammar" },
-                { word: "mais", emoji: "⚖️", clozeText: "Non, ce n'est pas du café, ______ c'est du thé.", answer: "mais", category: "grammar" }
-            ]
-        },
-        2: {
-            title: "Jour 2 | Une chose ou une personne ?",
-            words: [
-                { word: "la chose", emoji: "📦", category: "vocabulary", article: "la", baseWord: "chose" },
-                { word: "la personne", emoji: "👤", category: "vocabulary", article: "la", baseWord: "personne" },
-                { word: "l'homme", emoji: "👨", opposite: "la femme", oppositeEmoji: "👩", category: "vocabulary", article: "l'", baseWord: "homme" },
-                { word: "la femme", emoji: "👩", opposite: "l'homme", oppositeEmoji: "👨", category: "vocabulary", article: "la", baseWord: "femme" },
-                { word: "le garçon", emoji: "👦", opposite: "la fille", oppositeEmoji: "👧", category: "vocabulary", article: "le", baseWord: "garçon" },
-                { word: "la fille", emoji: "👧", opposite: "le garçon", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "fille" },
-                { word: "le professeur / la professeure", emoji: "🧑‍🏫", category: "vocabulary", article: "le / la", baseWord: "professeur / professeure" },
-                { word: "l'étudiant / l'étudiante", emoji: "🧑‍🎓", category: "vocabulary", article: "l'", baseWord: "étudiant / étudiante" },
-                { word: "Enchanté", emoji: "🤝", clozeText: "Je suis James, ____", answer: "Enchanté", category: "vocabulary" },
-                { word: "pas de problème", emoji: "👌", category: "vocabulary" },
-                { word: "aussi", emoji: "➕", category: "grammar" },
-                { word: "qui", emoji: "❓👤", clozeText: "____ est-ce ? - C'est une personne.", answer: "qui", category: "grammar" },
-                { word: "et", emoji: "➕", clozeText: "Un homme ___ une femme.", answer: "et", category: "grammar" },
-                { word: "l'enfant", emoji: "👶", category: "vocabulary", article: "l'", baseWord: "enfant" }
-            ]
-        },
-        3: {
-            title: "Jour 3 | Famille et Animaux",
-            words: [
-                { word: "la mère", emoji: "👩‍👦", opposite: "le père", oppositeEmoji: "👨‍👦", category: "vocabulary", article: "la", baseWord: "mère" },
-                { word: "le père", emoji: "👨‍👦", opposite: "la mère", oppositeEmoji: "👩‍👦", category: "vocabulary", article: "le", baseWord: "père" },
-                { word: "la sœur", emoji: "👩‍👧‍👧", opposite: "le frère", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary", article: "la", baseWord: "sœur" },
-                { word: "le frère", emoji: "👨‍👦‍👦", opposite: "la sœur", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary", article: "le", baseWord: "frère" },
-                { word: "la fille", emoji: "👧", opposite: "le fils", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "fille" },
-                { word: "le fils", emoji: "👦", opposite: "la fille", oppositeEmoji: "👧", category: "vocabulary", article: "le", baseWord: "fils" },
-                { word: "la femme", emoji: "👰", opposite: "le mari", oppositeEmoji: "🤵", category: "vocabulary", article: "la", baseWord: "femme" },
-                { word: "le mari", emoji: "🤵", opposite: "la femme", oppositeEmoji: "👰", category: "vocabulary", article: "le", baseWord: "mari" },
-                { word: "l'ami / l'amie", emoji: "👫", category: "vocabulary", article: "l'", baseWord: "ami / amie" },
-                { word: "la famille", emoji: "👨‍👩‍👧‍👦", category: "vocabulary", article: "la", baseWord: "famille" },
-                { word: "le parent", emoji: "👪", category: "vocabulary", article: "le", baseWord: "parent" },
-                { word: "le chat", emoji: "🐈", category: "vocabulary", article: "le", baseWord: "chat" },
-                { word: "le chien", emoji: "🐕", category: "vocabulary", article: "le", baseWord: "chien" },
-                { word: "le poisson", emoji: "🐟", category: "vocabulary", article: "le", baseWord: "poisson" },
-                { word: "le perroquet", emoji: "🦜", category: "vocabulary", article: "le", baseWord: "perroquet" },
-                { word: "unique", emoji: "☝️", clozeText: "enfant ______.", answer: "unique", category: "grammar" },
-                { word: "As-tu une famille ?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "As-tu une mère ? Comment s'appelle-t-elle ?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
-                { word: "As-tu un père ? Comment s'appelle-t-il ?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
-                { word: "As-tu un frère ? Comment s'appelle-t-il ?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
-                { word: "As-tu une sœur ? Comment s'appelle-t-elle ?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
-                { word: "As-tu un fils ? Comment s'appelle-t-il ?", emoji: "👦", type: "conversation", category: "conversation" },
-                { word: "As-tu une fille ? Comment s'appelle-t-elle ?", emoji: "👧", type: "conversation", category: "conversation" },
-                { word: "As-tu un chat ? Comment s'appelle-t-il ?", emoji: "🐈", type: "conversation", category: "conversation" },
-                { word: "As-tu un chien ? Comment s'appelle-t-il ?", emoji: "🐕", type: "conversation", category: "conversation" },
-                { word: "As-tu un poisson ? Comment s'appelle-t-il ?", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "As-tu un perroquet ? Comment s'appelle-t-il ?", emoji: "🦜", type: "conversation", category: "conversation" },
-                { word: "Ton ami(e) a-t-il/elle une famille ?", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "Ton ami(e) a-t-il/elle une mère ? Comment s'appelle-t-elle ?", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-elle ? = Qui est-ce ? = Quel est son nom ?" },
-                { word: "Ton ami(e) a-t-il/elle un père ? Comment s'appelle-t-il ?", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
-                { word: "Ton ami(e) a-t-il/elle un frère ? Comment s'appelle-t-il ?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
-                { word: "Ton ami(e) a-t-il/elle une sœur ? Comment s'appelle-t-elle ?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-elle ? = Qui est-ce ? = Quel est son nom ?" },
-                { word: "Ton ami(e) a-t-il/elle un fils ? Comment s'appelle-t-il ?", emoji: "👦", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
-                { word: "Ton ami(e) a-t-il/elle une fille ? Comment s'appelle-t-elle ?", emoji: "👧", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-elle ? = Qui est-ce ? = Quel est son nom ?" },
-                { word: "Ton ami(e) a-t-il/elle un chat ? Comment s'appelle-t-il ?", emoji: "🐈", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
-                { word: "Ton ami(e) a-t-il/elle un chien ? Comment s'appelle-t-il ?", emoji: "🐕", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
-                { word: "Ton ami(e) a-t-il/elle un poisson ? Comment s'appelle-t-il ?", emoji: "🐟", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" },
-                { word: "Ton ami(e) a-t-il/elle un perroquet ? Comment s'appelle-t-il ?", emoji: "🦜", type: "conversation", category: "conversation", subtext: "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?" }
-            ]
-        }
-    },
-    it: {
-        1: {
-            title: "Giorno 1 | Vocabolario di base",
-            words: [
-                { word: "Buongiorno", emoji: "👋", opposite: "Arrivederci", oppositeEmoji: "🖐️", category: "vocabulary" },
-                { word: "Sì", emoji: "✅", opposite: "No", oppositeEmoji: "❌", category: "vocabulary" },
-                { word: "Grazie", emoji: "🙏", opposite: "Prego", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
-                { word: "Per favore", emoji: "🥺", clozeText: "Un caffè, ______ ______.", answer: "per favore", category: "vocabulary" },
-                { word: "Va bene", emoji: "👍", opposite: "Ok", oppositeEmoji: "👌", category: "vocabulary" },
-                { word: "Scusi", emoji: "🙇‍♂️", opposite: ":(", oppositeEmoji: "☹️", category: "vocabulary" },
-                { word: "o", emoji: "🔀", clozeText: "Caffè ______ tè?", answer: "o", category: "grammar" },
-                { word: "il caffè", emoji: "☕", category: "vocabulary", article: "il", baseWord: "caffè" },
-                { word: "il tè", emoji: "🍵", category: "vocabulary", article: "il", baseWord: "tè" },
-                { word: "il succo", emoji: "🧃", category: "vocabulary", article: "il", baseWord: "succo" },
-                { word: "il vino", emoji: "🍷", category: "vocabulary", article: "il", baseWord: "vino" },
-                { word: "la birra", emoji: "🍺", category: "vocabulary", article: "la", baseWord: "birra" },
-                { word: "l'acqua", emoji: "🚰", category: "vocabulary", article: "l'", baseWord: "acqua" },
-                { word: "i contanti", emoji: "💵", category: "vocabulary", article: "i", baseWord: "contanti" },
-                { word: "la carta", emoji: "💳", category: "vocabulary", article: "la", baseWord: "carta" },
-                { word: "non", emoji: "❌", clozeText: "No, ______ è caffè.", answer: "non", category: "grammar" },
-                { word: "Cosa", emoji: "❓", clozeText: "______'è?", answer: "cosa", category: "grammar" },
-                { word: "ma", emoji: "⚖️", clozeText: "No, non è caffè, ______ è tè.", answer: "ma", category: "grammar" }
-            ]
-        },
-        2: {
-            title: "Giorno 2 | Una cosa o una persona?",
-            words: [
-                { word: "la cosa", emoji: "📦", category: "vocabulary", article: "la", baseWord: "cosa" },
-                { word: "la persona", emoji: "👤", category: "vocabulary", article: "la", baseWord: "persona" },
-                { word: "l'uomo", emoji: "👨", opposite: "la donna", oppositeEmoji: "👩", category: "vocabulary", article: "l'", baseWord: "uomo" },
-                { word: "la donna", emoji: "👩", opposite: "l'uomo", oppositeEmoji: "👨", category: "vocabulary", article: "la", baseWord: "donna" },
-                { word: "il ragazzo", emoji: "👦", opposite: "la ragazza", oppositeEmoji: "👧", category: "vocabulary", article: "il", baseWord: "ragazzo" },
-                { word: "la ragazza", emoji: "👧", opposite: "il ragazzo", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "ragazza" },
-                { word: "il professore / la professoressa", emoji: "🧑‍🏫", category: "vocabulary", article: "il / la", baseWord: "professore / professoressa" },
-                { word: "lo studente / la studentessa", emoji: "🧑‍🎓", category: "vocabulary", article: "lo / la", baseWord: "studente / studentessa" },
-                { word: "Piacere", emoji: "🤝", clozeText: "Io sono James, ____", answer: "Piacere", category: "vocabulary" },
-                { word: "nessun problema", emoji: "👌", category: "vocabulary" },
-                { word: "anche", emoji: "➕", category: "grammar" },
-                { word: "chi", emoji: "❓👤", clozeText: "____ è? - È una persona.", answer: "chi", category: "grammar" },
-                { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e", category: "grammar" },
-                { word: "il bambino / la bambina", emoji: "👶", category: "vocabulary", article: "il / la", baseWord: "bambino / bambina" }
-            ]
-        },
-        3: {
-            title: "Giorno 3 | Famiglia e Animali",
-            words: [
-                { word: "la madre", emoji: "👩‍👦", opposite: "il padre", oppositeEmoji: "👨‍👦", category: "vocabulary", article: "la", baseWord: "madre" },
-                { word: "il padre", emoji: "👨‍👦", opposite: "la madre", oppositeEmoji: "👩‍👦", category: "vocabulary", article: "il", baseWord: "padre" },
-                { word: "la sorella", emoji: "👩‍👧‍👧", opposite: "il fratello", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary", article: "la", baseWord: "sorella" },
-                { word: "il fratello", emoji: "👨‍👦‍👦", opposite: "la sorella", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary", article: "il", baseWord: "fratello" },
-                { word: "la figlia", emoji: "👧", opposite: "il figlio", oppositeEmoji: "👦", category: "vocabulary", article: "la", baseWord: "figlia" },
-                { word: "il figlio", emoji: "👦", opposite: "la figlia", oppositeEmoji: "👧", category: "vocabulary", article: "il", baseWord: "figlio" },
-                { word: "la moglie", emoji: "👰", opposite: "il marito", oppositeEmoji: "🤵", category: "vocabulary", article: "la", baseWord: "moglie" },
-                { word: "il marito", emoji: "🤵", opposite: "la moglie", oppositeEmoji: "👰", category: "vocabulary", article: "il", baseWord: "marito" },
-                { word: "l'amico / l'amica", emoji: "👫", category: "vocabulary", article: "l'", baseWord: "amico / amica" },
-                { word: "la famiglia", emoji: "👨‍👩‍👧‍👦", category: "vocabulary", article: "la", baseWord: "famiglia" },
-                { word: "il genitore", emoji: "👪", category: "vocabulary", article: "il", baseWord: "genitore" },
-                { word: "il gatto", emoji: "🐈", category: "vocabulary", article: "il", baseWord: "gatto" },
-                { word: "il cane", emoji: "🐕", category: "vocabulary", article: "il", baseWord: "cane" },
-                { word: "il pesce", emoji: "🐟", category: "vocabulary", article: "il", baseWord: "pesce" },
-                { word: "il pappagallo", emoji: "🦜", category: "vocabulary", article: "il", baseWord: "pappagallo" },
-                { word: "unico", emoji: "☝️", clozeText: "figlio ______.", answer: "unico", category: "grammar" },
-                { word: "Hai una famiglia?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "Hai una madre? Come si chiama?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
-                { word: "Hai un padre? Come si chiama?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
-                { word: "Hai un fratello? Come si chiama?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
-                { word: "Hai una sorella? Come si chiama?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
-                { word: "Hai un figlio? Come si chiama?", emoji: "👦", type: "conversation", category: "conversation" },
-                { word: "Hai una figlia? Come si chiama?", emoji: "👧", type: "conversation", category: "conversation" },
-                { word: "Hai un.a gatto.a? Come si chiama?", emoji: "🐈", type: "conversation", category: "conversation" },
-                { word: "Hai un.a cane? Come si chiama?", emoji: "🐕", type: "conversation", category: "conversation" },
-                { word: "Hai un pesce? Come si chiama?", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "Hai un pappagallo? Come si chiama?", emoji: "🦜", type: "conversation", category: "conversation" },
-                { word: "Il tuo amico / la tua amica ha una famiglia?", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "Il tuo amico / la tua amica ha una madre? Come si chiama?", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
-                { word: "Il tuo amico / la tua amica ha un padre? Come si chiama?", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
-                { word: "Il tuo amico / la tua amica ha un fratello? Come si chiama?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
-                { word: "Il tuo amico / la tua amica ha una sorella? Come si chiama?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
-                { word: "Il tuo amico / la tua amica ha un figlio? Come si chiama?", emoji: "👦", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
-                { word: "Il tuo amico / la tua amica ha una figlia? Come si chiama?", emoji: "👧", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
-                { word: "Il tuo amico / la tua amica ha un.a gatto.a? Come si chiama?", emoji: "🐈", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
-                { word: "Il tuo amico / la tua amica ha un.a cane? Come si chiama?", emoji: "🐕", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
-                { word: "Il tuo amico / la tua amica ha un pesce? Come si chiama?", emoji: "🐟", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
-                { word: "Il tuo amico / la tua amica ha un pappagallo? Come si chiama?", emoji: "🦜", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" }
-            ]
-        }
-    },
-    ru: {
-        1: {
-            title: "День 1 | Базовая лексика",
-            words: [
-                { word: "Добрый день", emoji: "👋", opposite: "До свидания", oppositeEmoji: "🖐️", category: "vocabulary" },
-                { word: "Да", emoji: "✅", opposite: "Нет", oppositeEmoji: "❌", category: "vocabulary" },
-                { word: "Спасибо", emoji: "🙏", opposite: "Пожалуйста", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
-                { word: "Пожалуйста", emoji: "🥺", clozeText: "Один кофе, ______.", answer: "пожалуйста", category: "vocabulary" },
-                { word: "Хорошо", emoji: "👍", opposite: "Ок", oppositeEmoji: "👌", category: "vocabulary" },
-                { word: "Извините", emoji: "🙇‍♂️", opposite: ":(", oppositeEmoji: "☹️", category: "vocabulary" },
-                { word: "или", emoji: "🔀", clozeText: "Кофе ______ чай?", answer: "или", category: "grammar" },
-                { word: "кофе", emoji: "☕", category: "vocabulary", gender: "он", baseWord: "кофе" },
-                { word: "чай", emoji: "🍵", category: "vocabulary", gender: "он", baseWord: "чай" },
-                { word: "сок", emoji: "🧃", category: "vocabulary", gender: "он", baseWord: "сок" },
-                { word: "вино", emoji: "🍷", category: "vocabulary", gender: "оно", baseWord: "вино" },
-                { word: "пиво", emoji: "🍺", category: "vocabulary", gender: "оно", baseWord: "пиво" },
-                { word: "вода", emoji: "🚰", category: "vocabulary", gender: "она", baseWord: "вода" },
-                { word: "наличные", emoji: "💵", category: "vocabulary" },
-                { word: "карта", emoji: "💳", category: "vocabulary", gender: "она", baseWord: "карта" },
-                { word: "не", emoji: "❌", clozeText: "Нет, это ______ кофе.", answer: "не", category: "grammar" },
-                { word: "Что", emoji: "❓", clozeText: "______ это?", answer: "Что", category: "grammar" },
-                { word: "но", emoji: "⚖️", clozeText: "Нет, это не кофе, ______ это чай.", answer: "но", category: "grammar" }
-            ]
-        },
-        2: {
-            title: "День 2 | Вещь или человек?",
-            words: [
-                { word: "вещь", emoji: "📦", category: "vocabulary", gender: "она", baseWord: "вещь" },
-                { word: "человек", emoji: "👤", category: "vocabulary", gender: "он", baseWord: "человек" },
-                { word: "мужчина", emoji: "👨", opposite: "женщина", oppositeEmoji: "👩", category: "vocabulary", gender: "он", baseWord: "мужчина" },
-                { word: "женщина", emoji: "👩", opposite: "мужчина", oppositeEmoji: "👨", category: "vocabulary", gender: "она", baseWord: "женщина" },
-                { word: "мальчик", emoji: "👦", opposite: "девочка", oppositeEmoji: "👧", category: "vocabulary", gender: "он", baseWord: "мальчик" },
-                { word: "девочка", emoji: "👧", opposite: "мальчик", oppositeEmoji: "👦", category: "vocabulary", gender: "она", baseWord: "девочка" },
-                { word: "учитель / учительница", emoji: "🧑‍🏫", category: "vocabulary", gender: "он / она", baseWord: "учитель / учительница" },
-                { word: "студент / студентка", emoji: "🧑‍🎓", category: "vocabulary", gender: "он / она", baseWord: "студент / студентка" },
-                { word: "Приятно познакомиться", emoji: "🤝", clozeText: "Я Джеймс, ____", answer: "Приятно познакомиться", category: "vocabulary" },
-                { word: "без проблем", emoji: "👌", category: "vocabulary" },
-                { word: "тоже", emoji: "➕", category: "grammar" },
-                { word: "кто", emoji: "❓👤", clozeText: "____ это? - Это человек.", answer: "кто", category: "grammar" },
-                { word: "и", emoji: "➕", clozeText: "Мужчина ___ женщина.", answer: "и", category: "grammar" },
-                { word: "ребёнок", emoji: "👶", category: "vocabulary", gender: "он", baseWord: "ребёнок" }
-            ]
-        },
-        3: {
-            title: "День 3 | Семья и Питомцы",
-            words: [
-                { word: "мать", emoji: "👩‍👦", opposite: "отец", oppositeEmoji: "👨‍👦", category: "vocabulary", gender: "она", baseWord: "мать" },
-                { word: "отец", emoji: "👨‍👦", opposite: "мать", oppositeEmoji: "👩‍👦", category: "vocabulary", gender: "он", baseWord: "отец" },
-                { word: "сестра", emoji: "👩‍👧‍👧", opposite: "брат", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary", gender: "она", baseWord: "сестра" },
-                { word: "брат", emoji: "👨‍👦‍👦", opposite: "сестра", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary", gender: "он", baseWord: "брат" },
-                { word: "дочь", emoji: "👧", opposite: "сын", oppositeEmoji: "👦", category: "vocabulary", gender: "она", baseWord: "дочь" },
-                { word: "сын", emoji: "👦", opposite: "дочь", oppositeEmoji: "👧", category: "vocabulary", gender: "он", baseWord: "сын" },
-                { word: "жена", emoji: "👰", opposite: "муж", oppositeEmoji: "🤵", category: "vocabulary", gender: "она", baseWord: "жена" },
-                { word: "муж", emoji: "🤵", opposite: "жена", oppositeEmoji: "👰", category: "vocabulary", gender: "он", baseWord: "муж" },
-                { word: "друг / подруга", emoji: "👫", category: "vocabulary", gender: "он / она", baseWord: "друг / подруга" },
-                { word: "семья", emoji: "👨‍👩‍👧‍👦", category: "vocabulary", gender: "она", baseWord: "семья" },
-                { word: "родитель", emoji: "👪", category: "vocabulary", gender: "он", baseWord: "родитель" },
-                { word: "кот", emoji: "🐈", category: "vocabulary", gender: "он", baseWord: "кот" },
-                { word: "собака", emoji: "🐕", category: "vocabulary", gender: "она", baseWord: "собака" },
-                { word: "рыба", emoji: "🐟", category: "vocabulary", gender: "она", baseWord: "рыба" },
-                { word: "попугай", emoji: "🦜", category: "vocabulary", gender: "он", baseWord: "попугай" },
-                { word: "единственный", emoji: "☝️", clozeText: "______ ребёнок.", answer: "единственный", category: "grammar" },
-                { word: "У тебя есть семья?", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "У тебя есть мать? Как её зовут?", emoji: "👩‍👦", type: "conversation", category: "conversation" },
-                { word: "У тебя есть отец? Как его зовут?", emoji: "👨‍👦", type: "conversation", category: "conversation" },
-                { word: "У тебя есть брат? Как его зовут?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
-                { word: "У тебя есть сестра? Как её зовут?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
-                { word: "У тебя есть сын? Как его зовут?", emoji: "👦", type: "conversation", category: "conversation" },
-                { word: "У тебя есть дочь? Как её зовут?", emoji: "👧", type: "conversation", category: "conversation" },
-                { word: "У тебя есть кот или кошка? Как его зовут?", emoji: "🐈", type: "conversation", category: "conversation" },
-                { word: "У тебя есть собака? Как её зовут?", emoji: "🐕", type: "conversation", category: "conversation" },
-                { word: "У тебя есть рыбка? Как её зовут?", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "У тебя есть попугай? Как его зовут?", emoji: "🦜", type: "conversation", category: "conversation" },
-                { word: "У твоего друга / твоей подруги есть семья?", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "У твоего друга / твоей подруги есть мать? Как её зовут?", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
-                { word: "У твоего друга / твоей подруги есть отец? Как его зовут?", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" },
-                { word: "У твоего друга / твоей подруги есть брат? Как его зовут?", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" },
-                { word: "У твоего друга / твоей подруги есть сестра? Как её зовут?", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
-                { word: "У твоего друга / твоей подруги есть сын? Как его зовут?", emoji: "👦", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" },
-                { word: "У твоего друга / твоей подруги есть дочь? Как её зовут?", emoji: "👧", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
-                { word: "У твоего друга / твоей подруги есть кот или кошка? Как его зовут?", emoji: "🐈", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" },
-                { word: "У твоего друга / твоей подруги есть собака? Как её зовут?", emoji: "🐕", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
-                { word: "У твоего друга / твоей подруги есть рыбка? Как её зовут?", emoji: "🐟", type: "conversation", category: "conversation", subtext: "Как её зовут? = Кто это? = Какое её имя?" },
-                { word: "У твоего друга / твоей подруги есть попугай? Как его зовут?", emoji: "🦜", type: "conversation", category: "conversation", subtext: "Как его зовут? = Кто это? = Какое его имя?" }
-            ]
-        }
-    },
-    el: {
-        1: {
-            title: "Ημέρα 1 | Βασικό λεξιλόγιο",
-            words: [
-                { word: "Καλημέρα", emoji: "👋", opposite: "Αντίο", oppositeEmoji: "🖐️", category: "vocabulary" },
-                { word: "Ναι", emoji: "✅", opposite: "Όχι", oppositeEmoji: "❌", category: "vocabulary" },
-                { word: "Ευχαριστώ", emoji: "🙏", opposite: "Παρακαλώ", oppositeEmoji: "💁‍♂️", category: "vocabulary" },
-                { word: "Παρακαλώ", emoji: "🥺", clozeText: "Έναν καφέ, ______.", answer: "παρακαλώ", category: "vocabulary" },
-                { word: "Εντάξει", emoji: "👍", opposite: "Οκ", oppositeEmoji: "👌", category: "vocabulary" },
-                { word: "Συγγνώμη", emoji: "🙇‍♂️", opposite: ":(", oppositeEmoji: "☹️", category: "vocabulary" },
-                { word: "ή", emoji: "🔀", clozeText: "Καφές ______ τσάι;", answer: "ή", category: "grammar" },
-                { word: "ο καφές", emoji: "☕", category: "vocabulary", article: "ο", baseWord: "καφές" },
-                { word: "το τσάι", emoji: "🍵", category: "vocabulary", article: "το", baseWord: "τσάι" },
-                { word: "ο χυμός", emoji: "🧃", category: "vocabulary", article: "ο", baseWord: "χυμός" },
-                { word: "το κρασί", emoji: "🍷", category: "vocabulary", article: "το", baseWord: "κρασί" },
-                { word: "η μπίρα", emoji: "🍺", category: "vocabulary", article: "η", baseWord: "μπίρα" },
-                { word: "το νερό", emoji: "🚰", category: "vocabulary", article: "το", baseWord: "νερό" },
-                { word: "τα μετρητά", emoji: "💵", category: "vocabulary", article: "τα", baseWord: "μετρητά" },
-                { word: "η κάρτα", emoji: "💳", category: "vocabulary", article: "η", baseWord: "κάρτα" },
-                { word: "δεν", emoji: "❌", clozeText: "Όχι, ______ είναι καφές.", answer: "δεν", category: "grammar" },
-                { word: "Τι", emoji: "❓", clozeText: "______ είναι;", answer: "Τι", category: "grammar" },
-                { word: "αλλά", emoji: "⚖️", clozeText: "Όχι, δεν είναι καφές, ______ είναι τσάι.", answer: "αλλά", category: "grammar" }
-            ]
-        },
-        2: {
-            title: "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
-            words: [
-                { word: "το πράγμα", emoji: "📦", category: "vocabulary", article: "το", baseWord: "πράγμα" },
-                { word: "το άτομο", emoji: "👤", category: "vocabulary", article: "το", baseWord: "άτομο" },
-                { word: "ο άνδρας", emoji: "👨", opposite: "η γυναίκα", oppositeEmoji: "👩", category: "vocabulary", article: "ο", baseWord: "άνδρας" },
-                { word: "η γυναίκα", emoji: "👩", opposite: "ο άνδρας", oppositeEmoji: "👨", category: "vocabulary", article: "η", baseWord: "γυναίκα" },
-                { word: "το αγόρι", emoji: "👦", opposite: "το κορίτσι", oppositeEmoji: "👧", category: "vocabulary", article: "το", baseWord: "αγόρι" },
-                { word: "το κορίτσι", emoji: "👧", opposite: "το αγόρι", oppositeEmoji: "👦", category: "vocabulary", article: "το", baseWord: "κορίτσι" },
-                { word: "ο δάσκαλος / η δασκάλα", emoji: "🧑‍🏫", category: "vocabulary", article: "ο / η", baseWord: "δάσκαλος / δασκάλα" },
-                { word: "ο μαθητής / η μαθήτρια", emoji: "🧑‍🎓", category: "vocabulary", article: "ο / η", baseWord: "μαθητής / μαθήτρια" },
-                { word: "Χάρηκα", emoji: "🤝", clozeText: "Είμαι ο James, ____", answer: "Χάρηκα", category: "vocabulary" },
-                { word: "κανένα πρόβλημα", emoji: "👌", category: "vocabulary" },
-                { word: "επίσης", emoji: "➕", category: "grammar" },
-                { word: "ποιος", emoji: "❓👤", clozeText: "____ είναι; - Είναι ένα άτομο.", answer: "ποιος", category: "grammar" },
-                { word: "και", emoji: "➕", clozeText: "Ένας άνδρας ___ μια γυναίκα.", answer: "και", category: "grammar" },
-                { word: "το παιδί", emoji: "👶", category: "vocabulary", article: "το", baseWord: "παιδί" }
-            ]
-        },
-        3: {
-            title: "Ημέρα 3 | Οικογένεια και Κατοικίδια",
-            words: [
-                { word: "η μητέρα", emoji: "👩‍👦", opposite: "ο πατέρας", oppositeEmoji: "👨‍👦", category: "vocabulary", article: "η", baseWord: "μητέρα" },
-                { word: "ο πατέρας", emoji: "👨‍👦", opposite: "η μητέρα", oppositeEmoji: "👩‍👦", category: "vocabulary", article: "ο", baseWord: "πατέρας" },
-                { word: "η αδελφή", emoji: "👩‍👧‍👧", opposite: "ο αδελφός", oppositeEmoji: "👨‍👦‍👦", category: "vocabulary", article: "η", baseWord: "αδελφή" },
-                { word: "ο αδελφός", emoji: "👨‍👦‍👦", opposite: "η αδελφή", oppositeEmoji: "👩‍👧‍👧", category: "vocabulary", article: "ο", baseWord: "αδελφός" },
-                { word: "η κόρη", emoji: "👧", opposite: "ο γιος", oppositeEmoji: "👦", category: "vocabulary", article: "η", baseWord: "κόρη" },
-                { word: "ο γιος", emoji: "👦", opposite: "η κόρη", oppositeEmoji: "👧", category: "vocabulary", article: "ο", baseWord: "γιος" },
-                { word: "η σύζυγος", emoji: "👰", opposite: "ο σύζυγος", oppositeEmoji: "🤵", category: "vocabulary", article: "η", baseWord: "σύζυγος" },
-                { word: "ο σύζυγος", emoji: "🤵", opposite: "η σύζυγος", oppositeEmoji: "👰", category: "vocabulary", article: "ο", baseWord: "σύζυγος" },
-                { word: "ο φίλος / η φίλη", emoji: "👫", category: "vocabulary", article: "ο / η", baseWord: "φίλος / φίλη" },
-                { word: "η οικογένεια", emoji: "👨‍👩‍👧‍👦", category: "vocabulary", article: "η", baseWord: "οικογένεια" },
-                { word: "ο γονέας", emoji: "👪", category: "vocabulary", article: "ο", baseWord: "γονέας" },
-                { word: "ο γάτος", emoji: "🐈", category: "vocabulary", article: "ο", baseWord: "γάτος" },
-                { word: "ο σκύλος", emoji: "🐕", category: "vocabulary", article: "ο", baseWord: "σκύλος" },
-                { word: "το ψάρι", emoji: "🐟", category: "vocabulary", article: "το", baseWord: "ψάρι" },
-                { word: "ο παπαγάλος", emoji: "🦜", category: "vocabulary", article: "ο", baseWord: "παπαγάλος" },
-                { word: "μοναχοπαίδι", emoji: "☝️", clozeText: "είμαι ______.", answer: "μοναχοπαίδι", category: "grammar" },
-                { word: "Έχεις οικογένεια;", emoji: "👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "Έχεις μητέρα; Πώς τη λένε;", emoji: "👩‍👦", type: "conversation", category: "conversation" },
-                { word: "Έχεις πατέρα; Πώς τον λένε;", emoji: "👨‍👦", type: "conversation", category: "conversation" },
-                { word: "Έχεις αδελφό; Πώς τον λένε;", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation" },
-                { word: "Έχεις αδελφή; Πώς τη λένε;", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation" },
-                { word: "Έχεις γιο; Πώς τον λένε;", emoji: "👦", type: "conversation", category: "conversation" },
-                { word: "Έχεις κόρη; Πώς τη λένε;", emoji: "👧", type: "conversation", category: "conversation" },
-                { word: "Έχεις γάτα; Πώς τη λένε;", emoji: "🐈", type: "conversation", category: "conversation" },
-                { word: "Έχεις σκύλο; Πώς τον λένε;", emoji: "🐕", type: "conversation", category: "conversation" },
-                { word: "Έχεις ψάρι; Πώς το λένε;", emoji: "🐟", type: "conversation", category: "conversation" },
-                { word: "Έχεις παπαγάλο; Πώς τον λένε;", emoji: "🦜", type: "conversation", category: "conversation" },
-                { word: "Ο φίλος σου / η φίλη σου έχει οικογένεια;", emoji: "👫👨‍👩‍👧‍👦", type: "conversation", category: "conversation" },
-                { word: "Ο φίλος σου / η φίλη σου έχει μητέρα; Πώς τη λένε;", emoji: "👩‍👦", type: "conversation", category: "conversation", subtext: "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;" },
-                { word: "Ο φίλος σου / η φίλη σου έχει πατέρα; Πώς τον λένε;", emoji: "👨‍👦", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" },
-                { word: "Ο φίλος σου / η φίλη σου έχει αδελφό; Πώς τον λένε;", emoji: "👨‍👦‍👦", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" },
-                { word: "Ο φίλος σου / η φίλη σου έχει αδελφή; Πώς τη λένε;", emoji: "👩‍👧‍👧", type: "conversation", category: "conversation", subtext: "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;" },
-                { word: "Ο φίλος σου / η φίλη σου έχει γιο; Πώς τον λένε;", emoji: "👦", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" },
-                { word: "Ο φίλος σου / η φίλη σου έχει κόρη; Πώς τη λένε;", emoji: "👧", type: "conversation", category: "conversation", subtext: "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;" },
-                { word: "Ο φίλος σου / η φίλη σου έχει γάτα; Πώς τη λένε;", emoji: "🐈", type: "conversation", category: "conversation", subtext: "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;" },
-                { word: "Ο φίλος σου / η φίλη σου έχει σκύλο; Πώς τον λένε;", emoji: "🐕", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" },
-                { word: "Ο φίλος σου / η φίλη σου έχει ψάρι; Πώς το λένε;", emoji: "🐟", type: "conversation", category: "conversation", subtext: "Πώς το λένε; = Ποιο είναι; = Ποιο είναι το όνομά του;" },
-                { word: "Ο φίλος σου / η φίλη σου έχει παπαγάλο; Πώς τον λένε;", emoji: "🦜", type: "conversation", category: "conversation", subtext: "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;" }
-            ]
-        }
-    }
-};
 
 const SESSION_STORAGE_KEY = 'cosy_practice_session';
 
@@ -476,6 +39,7 @@ function clearSession() {
 
 document.addEventListener('DOMContentLoaded', () => {
     loadStreak();
+    loadTotalScore();
     const startBtn = document.getElementById('start-btn');
     const wheelModeBtn = document.getElementById('wheel-mode-btn');
     const resumeBtn = document.getElementById('resume-btn');
@@ -539,6 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentPractice.wheelItems = currentPractice.wheelItems.filter(item => item.word !== currentItem.word);
             currentPractice.score += 20; // Bonus for completion
             document.getElementById('score-count').textContent = currentPractice.score;
+            updateTotalScore(20);
             saveSession();
             if (currentPractice.wheelItems.length === 0) {
                 showSummary();
@@ -580,6 +145,33 @@ document.addEventListener('DOMContentLoaded', () => {
             currentPractice.language = card.getAttribute('data-value');
         });
     });
+
+    const catRadios = document.querySelectorAll('input[name="practice-cat"]');
+    const container = document.getElementById('practice-container');
+
+    function updateCategoryUI() {
+        const selected = document.querySelector('input[name="practice-cat"]:checked');
+        if (!selected) return;
+
+        container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
+
+        const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
+        if (selected.id === 'cat-speaking') {
+            container.classList.add('cat-speaking');
+            taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-cv'));
+        } else if (selected.id === 'cat-grammar') {
+            container.classList.add('cat-grammar');
+            taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-ga' || cb.id === 'type-cl'));
+        } else {
+            container.classList.add('cat-vocab');
+            taskCheckboxes.forEach(cb => cb.checked = (cb.id !== 'type-ga' && cb.id !== 'type-cv'));
+        }
+    }
+
+    catRadios.forEach(radio => {
+        radio.addEventListener('change', updateCategoryUI);
+    });
+    updateCategoryUI(); // Initial call
 
     if (nextBtn) {
         nextBtn.addEventListener('click', showNextWord);
@@ -735,6 +327,26 @@ function loadStreak() {
     return parseInt(streak);
 }
 
+function loadTotalScore() {
+    const total = parseInt(localStorage.getItem('cosy_total_points') || 0);
+    const totalScoreEl = document.getElementById('total-score-count');
+    if (totalScoreEl) {
+        totalScoreEl.textContent = total;
+    }
+    return total;
+}
+
+function updateTotalScore(points) {
+    let total = loadTotalScore();
+    total += points;
+    localStorage.setItem('cosy_total_points', total);
+    const totalScoreEl = document.getElementById('total-score-count');
+    if (totalScoreEl) {
+        totalScoreEl.textContent = total;
+    }
+    return total;
+}
+
 function updateStreak() {
     const lastDate = localStorage.getItem('last_practice_date');
     const today = new Date().toDateString();
@@ -819,7 +431,7 @@ function startPractice(isWheelMode = false) {
         return;
     }
 
-    const enabledTypes = [];
+    let enabledTypes = [];
     if (document.getElementById('type-mc').checked) enabledTypes.push('multiple_choice');
     if (document.getElementById('type-ls').checked) enabledTypes.push('listen_select');
     if (document.getElementById('type-sc').checked) enabledTypes.push('scramble');
@@ -829,38 +441,51 @@ function startPractice(isWheelMode = false) {
     if (document.getElementById('type-ga').checked) enabledTypes.push('gender_articles');
     if (document.getElementById('type-cv').checked) enabledTypes.push('conversation');
 
+    let enabledCategories = [];
+    const catVocab = document.getElementById('cat-vocab').checked;
+    const catGrammar = document.getElementById('cat-grammar').checked;
+    const catSpeaking = document.getElementById('cat-speaking').checked;
+
+    if (catVocab) enabledCategories.push('vocabulary');
+    if (catGrammar) enabledCategories.push('grammar');
+    if (catSpeaking) enabledCategories.push('conversation');
+
+    // Override for Wheel Mode: only speaking (conversation)
+    if (isWheelMode) {
+        enabledCategories = ['conversation'];
+        enabledTypes = ['conversation'];
+    }
+
     if (enabledTypes.length === 0) {
         alert("Please select at least one task type!");
         return;
     }
 
-    const enabledCategories = [];
-    if (document.getElementById('cat-vocab').checked) enabledCategories.push('vocabulary');
-    if (document.getElementById('cat-grammar').checked) enabledCategories.push('grammar');
-    if (document.getElementById('type-cv').checked) enabledCategories.push('conversation');
-
     if (enabledCategories.length === 0) {
-        alert("Please select at least one category (Vocabulary or Grammar)!");
+        alert("Please select at least one category!");
         return;
     }
 
     lessons.forEach(l => {
         if (langData[l]) {
             const filteredWords = langData[l].words.filter(w => {
-                let catMatch = false;
-                if (enabledCategories.includes(w.category)) catMatch = true;
-                // Exception for Gender & Articles: nouns are vocabulary but can be grammar
-                if (enabledCategories.includes('grammar') && (w.article || w.gender) && enabledTypes.includes('gender_articles')) catMatch = true;
-                if (!catMatch) return false;
+                // Determine if this word belongs to any of the ENABLED categories
+                const categoryMatch = enabledCategories.includes(w.category);
+                if (!categoryMatch) return false;
+
+                // For "speaking only" in wheel mode, we strictly want conversation items
+                if (isWheelMode && w.category !== 'conversation') return false;
+
+                // If user selected ONLY vocabulary, don't show items that are purely grammar (and vice versa)
+                // This is already handled by enabledCategories.includes(w.category)
 
                 // Ensure at least one enabled task type is possible for this word
                 return enabledTypes.some(t => {
                     if (t === 'opposite') return !!w.opposite;
                     if (t === 'cloze') return !!w.clozeText;
                     if (t === 'gender_articles') return !!(w.article || w.gender);
-                    if (t === 'conversation') return w.type === 'conversation';
-                    if (w.type === 'conversation') return t === 'conversation';
-                    return true; // MC, LS, SC, TF are generally always possible
+                    if (t === 'conversation') return w.category === 'conversation' || w.type === 'conversation';
+                    return true;
                 });
             });
 
@@ -868,9 +493,10 @@ function startPractice(isWheelMode = false) {
                 let wordCopy = { ...w };
                 let possibleTypes = [...enabledTypes];
 
-                if (wordCopy.type === 'conversation') {
+                if (wordCopy.category === 'conversation' || wordCopy.type === 'conversation') {
                     return {
                         ...wordCopy,
+                        type: 'conversation',
                         lessonTitle: langData[l].title
                     };
                 }
@@ -894,13 +520,6 @@ function startPractice(isWheelMode = false) {
                 if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
                 if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
                 if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
-
-                // If word is primarily vocab but we only have grammar enabled, force gender_articles if available
-                if (wordCopy.category === 'vocabulary' && !enabledCategories.includes('vocabulary') && (wordCopy.article || wordCopy.gender)) {
-                    if (enabledTypes.includes('gender_articles')) {
-                        possibleTypes = ['gender_articles'];
-                    }
-                }
 
                 if (possibleTypes.length === 0) return null;
 
@@ -1417,12 +1036,14 @@ function showSummary() {
     if (resumeBtn) resumeBtn.style.display = 'none';
 
     const finalScoreEl = document.getElementById('final-score');
+    const finalTotalScoreEl = document.getElementById('final-total-score');
     const finalStreakEl = document.getElementById('final-streak');
     const streakUnitEl = document.getElementById('streak-unit');
     const summaryModal = document.getElementById('summary-modal');
     const practiceSection = document.getElementById('practice-section');
 
     if (finalScoreEl) finalScoreEl.textContent = currentPractice.score;
+    if (finalTotalScoreEl) finalTotalScoreEl.textContent = loadTotalScore();
 
     const streak = loadStreak();
     if (finalStreakEl) finalStreakEl.textContent = streak;
@@ -1456,6 +1077,7 @@ function showFeedback(isCorrect) {
     if (isCorrect) {
         currentPractice.score += 10;
         document.getElementById('score-count').textContent = currentPractice.score;
+        updateTotalScore(10);
 
         currentPractice.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';

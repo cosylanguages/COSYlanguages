@@ -36,8 +36,9 @@
             <h2 data-translate-key="practice_title">Practice 💡</h2>
 
             <div id="setup-section" class="setup-card">
+                <!-- 1. Language Selection -->
                 <div class="setup-group full-width">
-                    <label data-translate-key="select_practice_language">Select language to practice 🌍</label>
+                    <label data-translate-key="select_practice_language">1. Select language 🌍</label>
                     <div class="lang-selection-grid" id="lang-selection-grid">
                         <div class="lang-selection-card active" data-value="en">
                             <span class="flag">🇬🇧</span>
@@ -63,63 +64,72 @@
                 </div>
 
                 <div class="setup-row">
+                    <!-- 2. Category Selection -->
                     <div class="setup-group">
-                        <label for="lesson-range" data-translate-key="select_lessons">Select lessons (e.g. 1 or 1-5) 📚</label>
-                        <input type="text" id="lesson-range" class="pill-input" placeholder="1" value="1">
-                    </div>
-
-                    <div class="setup-group">
-                        <label data-translate-key="category_label">Select categories:</label>
+                        <label data-translate-key="category_label">2. Practice Category:</label>
                         <div class="chips-group">
                             <label class="toggle-chip">
-                                <input type="checkbox" id="cat-vocab" checked>
+                                <input type="radio" name="practice-cat" id="cat-vocab" checked>
                                 <span data-translate-key="cat_vocab">Vocabulary</span>
                             </label>
                             <label class="toggle-chip">
-                                <input type="checkbox" id="cat-grammar" checked>
+                                <input type="radio" name="practice-cat" id="cat-grammar">
                                 <span data-translate-key="cat_grammar">Grammar</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="radio" name="practice-cat" id="cat-speaking">
+                                <span data-translate-key="cat_speaking">Speaking</span>
                             </label>
                         </div>
                     </div>
-                </div>
 
-                <div class="setup-group full-width">
-                    <label data-translate-key="task_type_label">Task Types:</label>
-                    <div class="chips-group wrap">
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="type-mc" checked>
-                            <span data-translate-key="type_mc">Multiple Choice</span>
-                        </label>
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="type-ls" checked>
-                            <span data-translate-key="type_ls">Listen & Select</span>
-                        </label>
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="type-sc" checked>
-                            <span data-translate-key="type_sc">Scramble</span>
-                        </label>
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="type-op" checked>
-                            <span data-translate-key="type_op">Opposite</span>
-                        </label>
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="type-cl" checked>
-                            <span data-translate-key="type_cl">Cloze (Typing)</span>
-                        </label>
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="type-tf" checked>
-                            <span data-translate-key="type_tf">True/False</span>
-                        </label>
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="type-ga" checked>
-                            <span data-translate-key="type_ga">Gender & Articles</span>
-                        </label>
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="type-cv" checked>
-                            <span data-translate-key="type_cv">Conversation</span>
-                        </label>
+                    <!-- 3. Lesson Selection -->
+                    <div class="setup-group">
+                        <label for="lesson-range" data-translate-key="select_lessons">3. Lesson Range (e.g. 1-5) 📚</label>
+                        <input type="text" id="lesson-range" class="pill-input" placeholder="1" value="1">
                     </div>
                 </div>
+
+                <!-- 4. Advanced Options -->
+                <details class="advanced-options">
+                    <summary data-translate-key="task_type_label">Advanced: Task Types ⚙️</summary>
+                    <div class="setup-group full-width" style="margin-top: 1rem;">
+                        <div class="chips-group wrap">
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-mc" checked>
+                                <span data-translate-key="type_mc">Multiple Choice</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-ls" checked>
+                                <span data-translate-key="type_ls">Listen & Select</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-sc" checked>
+                                <span data-translate-key="type_sc">Scramble</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-op" checked>
+                                <span data-translate-key="type_op">Opposite</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-cl" checked>
+                                <span data-translate-key="type_cl">Cloze (Typing)</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-tf" checked>
+                                <span data-translate-key="type_tf">True/False</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-ga" checked>
+                                <span data-translate-key="type_ga">Gender & Articles</span>
+                            </label>
+                            <label class="toggle-chip">
+                                <input type="checkbox" id="type-cv" checked>
+                                <span data-translate-key="type_cv">Conversation</span>
+                            </label>
+                        </div>
+                    </div>
+                </details>
 
                 <div class="setup-actions">
                     <button id="start-btn" class="cta-button primary" data-translate-key="start_practice">Start Practice 🚀</button>
@@ -209,8 +219,9 @@
                     <button id="next-btn" class="cta-button" style="display: none;" data-translate-key="next_word">Next Word ➡️</button>
                 </div>
 
-                <div class="practice-footer" style="display: flex; justify-content: space-around; margin-top: 20px;">
+                <div class="practice-footer" style="display: flex; justify-content: space-around; gap: 1rem; flex-wrap: wrap; margin-top: 20px;">
                     <div><span data-translate-key="score_label">COSY Points: ✨</span> <span id="score-count">0</span></div>
+                    <div><span data-translate-key="total_score_label">Total: 🏆</span> <span id="total-score-count">0</span></div>
                     <div><span data-translate-key="streak_label">Daily Streak: 🔥</span> <span id="streak-count">0</span></div>
                 </div>
             </div>
@@ -222,9 +233,14 @@
             <h2 data-translate-key="session_summary_title">Session Summary 🎉</h2>
             <div class="summary-stats">
                 <div class="stat-item">
-                    <p data-translate-key="total_points">Total Points:</p>
+                    <p data-translate-key="session_points">Session Points:</p>
                     <span id="final-score" class="stat-value">0</span>
                     <span class="stat-emoji">✨</span>
+                </div>
+                <div class="stat-item">
+                    <p data-translate-key="total_points">Total Points:</p>
+                    <span id="final-total-score" class="stat-value">0</span>
+                    <span class="stat-emoji">🏆</span>
                 </div>
                 <div class="stat-item">
                     <p data-translate-key="streak_label">Daily Streak: 🔥</p>
@@ -244,6 +260,7 @@
         </div>
     </footer>
 
+    <script src="data.js"></script>
     <script src="translations.js"></script>
     <script src="translate.js"></script>
     <script src="practice.js"></script>
