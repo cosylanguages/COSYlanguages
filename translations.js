@@ -345,6 +345,13 @@ const translations = {
     type_tf: "True/False",
     type_ga: "Gender & Articles",
     task_gender_articles: "Select the correct article:",
+    mode_label: "Practice Mode:",
+    mode_standard: "Standard Session",
+    mode_wheel: "Spinning Wheel 🎡",
+    spin_btn: "SPIN! 🎡",
+    respond_btn: "Respond ✍️",
+    skip_btn: "Skip ⏭️",
+    done_btn: "Done ✅",
   },
   fr: {
     // Hero section
@@ -540,6 +547,13 @@ const translations = {
     type_tf: "Vrai/Faux",
     type_ga: "Genre et Articles",
     task_gender_articles: "Sélectionnez l'article correct :",
+    mode_label: "Mode de pratique :",
+    mode_standard: "Session standard",
+    mode_wheel: "Roue de la fortune 🎡",
+    spin_btn: "TOURNER ! 🎡",
+    respond_btn: "Répondre ✍️",
+    skip_btn: "Passer ⏭️",
+    done_btn: "Terminé ✅",
   },
   it: {
     // Hero section
@@ -731,6 +745,13 @@ const translations = {
     type_tf: "Vero/Falso",
     type_ga: "Genere e Articoli",
     task_gender_articles: "Seleziona l'articolo corretto:",
+    mode_label: "Modalità di pratica:",
+    mode_standard: "Sessione standard",
+    mode_wheel: "Ruota della fortuna 🎡",
+    spin_btn: "GIRA! 🎡",
+    respond_btn: "Rispondi ✍️",
+    skip_btn: "Salta ⏭️",
+    done_btn: "Fatto ✅",
   },
   ru: {
     // Hero section
@@ -922,6 +943,13 @@ const translations = {
     type_tf: "Верно/Неверно",
     type_ga: "Род и Артикли",
     task_gender_articles: "Выберите правильный род:",
+    mode_label: "Режим практики:",
+    mode_standard: "Стандартная сессия",
+    mode_wheel: "Колесо фортуны 🎡",
+    spin_btn: "КРУТИТЬ! 🎡",
+    respond_btn: "Ответить ✍️",
+    skip_btn: "Пропустить ⏭️",
+    done_btn: "Готово ✅",
   },
   el: {
     // Hero section
@@ -1115,5 +1143,12 @@ const translations = {
     type_tf: "Σωστό/Λάθος",
     type_ga: "Γένος και Άρθρα",
     task_gender_articles: "Επιλέξτε το σωστό άρθρο:",
+    mode_label: "Λειτουργία εξάσκησης:",
+    mode_standard: "Τυπική συνεδρία",
+    mode_wheel: "Τροχός της τύχης 🎡",
+    spin_btn: "ΓΥΡΙΣΤΕ! 🎡",
+    respond_btn: "Απάντηση ✍️",
+    skip_btn: "Παράλειψη ⏭️",
+    done_btn: "Ολοκληρώθηκε ✅",
   }
 };

@@ -169,7 +169,8 @@ const lessonsData = {
                 { word: "anche", emoji: "➕", category: "grammar" },
                 { word: "chi", emoji: "❓👤", clozeText: "____ è? - È una persona.", answer: "chi", category: "grammar" },
                 { word: "e", emoji: "➕", clozeText: "Un uomo ___ una donna.", answer: "e", category: "grammar" },
-                { word: "il bambino / la bambina", emoji: "👶", category: "vocabulary", article: "il / la", baseWord: "bambino / bambina" }
+                { word: "il bambino / la bambina", emoji: "👶", category: "vocabulary", article: "il / la", baseWord: "bambino / bambina" },
+                { word: "per me", emoji: "🙋‍♂️", category: "vocabulary" }
             ]
         },
         3: {
@@ -334,7 +335,11 @@ var currentPractice = {
     currentWord: null,
     isCorrect: false,
     scrambleAnswer: "",
-    score: 0
+    score: 0,
+    mode: 'standard', // 'standard' or 'wheel'
+    wheelAngle: 0,
+    isSpinning: false,
+    wheelWords: [] // Active words for the wheel
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -349,6 +354,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const listenBtn = document.getElementById('listen-btn');
     const clearScrambleBtn = document.getElementById('clear-scramble-btn');
     const backToMenuBtn = document.getElementById('back-to-menu-btn');
+    const spinBtn = document.getElementById('spin-btn');
+    const wheelRespondBtn = document.getElementById('wheel-respond-btn');
+    const wheelSkipBtn = document.getElementById('wheel-skip-btn');
+    const wheelDoneBtn = document.getElementById('wheel-done-btn');
 
     if (startBtn) {
         startBtn.addEventListener('click', startPractice);
@@ -402,8 +411,32 @@ document.addEventListener('DOMContentLoaded', () => {
         backToMenuBtn.addEventListener('click', () => {
             document.getElementById('summary-modal').style.display = 'none';
             document.getElementById('setup-section').style.display = 'block';
+            document.getElementById('practice-section').style.display = 'none';
             loadStreak();
         });
+    }
+
+    if (spinBtn) {
+        spinBtn.addEventListener('click', spinWheel);
+    }
+
+    if (wheelRespondBtn) {
+        wheelRespondBtn.addEventListener('click', () => {
+            document.getElementById('wheel-view').style.display = 'none';
+            document.getElementById('question-card').style.display = 'block';
+            // currentPractice.currentWord is already set by the wheel landing
+        });
+    }
+
+    if (wheelSkipBtn) {
+        wheelSkipBtn.addEventListener('click', () => {
+            document.getElementById('wheel-result-area').style.display = 'none';
+            document.getElementById('spin-btn').disabled = false;
+        });
+    }
+
+    if (wheelDoneBtn) {
+        wheelDoneBtn.addEventListener('click', markWordAsDone);
     }
 
     // Load voices once to avoid delay
@@ -552,6 +585,9 @@ function triggerAnimation(type) {
 function startPractice() {
     const activeLangCard = document.querySelector('.lang-selection-card.active');
     const lessonInput = document.getElementById('lesson-range');
+    const modeWheel = document.getElementById('mode-wheel');
+
+    currentPractice.mode = modeWheel.checked ? 'wheel' : 'standard';
 
     if (activeLangCard) {
         currentPractice.language = activeLangCard.getAttribute('data-value');
@@ -691,8 +727,14 @@ function startPractice() {
     document.getElementById('setup-section').style.display = 'none';
     document.getElementById('practice-section').style.display = 'block';
 
-    updateProgress();
-    showNextWord();
+    if (currentPractice.mode === 'wheel') {
+        initWheel();
+    } else {
+        document.getElementById('wheel-view').style.display = 'none';
+        document.getElementById('question-card').style.display = 'block';
+        updateProgress();
+        showNextWord();
+    }
 }
 
 function showNextWord() {
@@ -1029,12 +1071,281 @@ function showFeedback(isCorrect) {
         document.getElementById('score-count').textContent = currentPractice.score;
 
         currentPractice.isCorrect = true;
-        document.getElementById('next-btn').style.display = 'block';
-        currentPractice.currentIndex++;
+
+        if (currentPractice.mode === 'wheel') {
+            document.getElementById('next-btn').style.display = 'none';
+            // In wheel mode, success means we show the wheel again
+            setTimeout(() => {
+                document.getElementById('question-card').style.display = 'none';
+                document.getElementById('wheel-view').style.display = 'block';
+                document.getElementById('wheel-result-area').style.display = 'none';
+                document.getElementById('spin-btn').disabled = false;
+                drawWheel();
+            }, 1500);
+        } else {
+            document.getElementById('next-btn').style.display = 'block';
+            currentPractice.currentIndex++;
+        }
+
         document.getElementById('opposite-input-container').style.display = 'none';
         document.getElementById('tf-buttons-container').style.display = 'none';
         document.getElementById('choices-grid').style.display = 'none';
         document.getElementById('scramble-container').style.display = 'none';
         document.getElementById('hint-btn').style.display = 'none';
+    }
+}
+
+function getDoneKey() {
+    return `done_words_${currentPractice.language}_${currentPractice.lessons.join('_')}`;
+}
+
+function initWheel() {
+    const doneWords = JSON.parse(localStorage.getItem(getDoneKey()) || '[]');
+    // Filter out words already marked as done
+    currentPractice.wheelWords = currentPractice.words.filter(w => !doneWords.includes(w.word));
+
+    if (currentPractice.wheelWords.length === 0) {
+        alert("All words in this range are marked as 'Done'! Resetting progress for this lesson.");
+        localStorage.removeItem(getDoneKey());
+        currentPractice.wheelWords = [...currentPractice.words];
+    }
+
+    document.getElementById('wheel-view').style.display = 'block';
+    document.getElementById('question-card').style.display = 'none';
+    document.getElementById('wheel-result-area').style.display = 'none';
+    document.getElementById('spin-btn').disabled = false;
+
+    drawWheel();
+}
+
+function drawWheel() {
+    const canvas = document.getElementById('wheel-canvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const cw = canvas.width;
+    const ch = canvas.height;
+    const center = cw / 2;
+
+    ctx.clearRect(0, 0, cw, ch);
+
+    const words = currentPractice.wheelWords;
+    const sliceAngle = (2 * Math.PI) / words.length;
+
+    words.forEach((word, i) => {
+        const startAngle = currentPractice.wheelAngle + i * sliceAngle;
+        const endAngle = startAngle + sliceAngle;
+
+        // Draw slice
+        ctx.beginPath();
+        ctx.moveTo(center, center);
+        ctx.arc(center, center, center - 10, startAngle, endAngle);
+        ctx.fillStyle = i % 2 === 0 ? '#00A896' : '#FFC107';
+        ctx.fill();
+        ctx.strokeStyle = 'white';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        // Draw text/emoji
+        ctx.save();
+        ctx.translate(center, center);
+        ctx.rotate(startAngle + sliceAngle / 2);
+        ctx.textAlign = 'right';
+        ctx.fillStyle = 'white';
+        ctx.font = 'bold 20px Georgia';
+
+        const displayText = word.emoji + " " + (word.word.length > 10 ? word.word.substring(0, 8) + "..." : word.word);
+        ctx.fillText(displayText, center - 40, 10);
+        ctx.restore();
+    });
+
+    // Outer border
+    ctx.beginPath();
+    ctx.arc(center, center, center - 5, 0, 2 * Math.PI);
+    ctx.strokeStyle = '#2C3E50';
+    ctx.lineWidth = 5;
+    ctx.stroke();
+
+    // Center pin
+    ctx.beginPath();
+    ctx.arc(center, center, 15, 0, 2 * Math.PI);
+    ctx.fillStyle = '#2C3E50';
+    ctx.fill();
+    ctx.strokeStyle = 'white';
+    ctx.lineWidth = 3;
+    ctx.stroke();
+}
+
+function spinWheel() {
+    if (currentPractice.isSpinning) return;
+
+    currentPractice.isSpinning = true;
+    document.getElementById('spin-btn').disabled = true;
+    document.getElementById('wheel-result-area').style.display = 'none';
+
+    const spinDuration = 3000 + Math.random() * 2000;
+    const startAngle = currentPractice.wheelAngle;
+    const totalRotation = 10 * Math.PI + Math.random() * 2 * Math.PI;
+    const startTime = performance.now();
+
+    function animate(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / spinDuration, 1);
+
+        // Easing out cubic
+        const easing = 1 - Math.pow(1 - progress, 3);
+        currentPractice.wheelAngle = startAngle + totalRotation * easing;
+
+        drawWheel();
+
+        if (progress < 1) {
+            requestAnimationFrame(animate);
+        } else {
+            currentPractice.isSpinning = false;
+            handleWheelLanding();
+        }
+    }
+
+    requestAnimationFrame(animate);
+}
+
+function handleWheelLanding() {
+    const words = currentPractice.wheelWords;
+    const sliceAngle = (2 * Math.PI) / words.length;
+
+    // Normalize angle to 0 - 2PI
+    const normalizedAngle = (currentPractice.wheelAngle % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI);
+
+    // The pointer is at 1.5 * PI (top)
+    // We need to find which slice is at the top.
+    // The slice index is calculated by:
+    const pointerAngle = 1.5 * Math.PI;
+    let targetIndex = Math.floor((pointerAngle - normalizedAngle + 2 * Math.PI) % (2 * Math.PI) / sliceAngle);
+
+    const selectedWord = words[targetIndex];
+    currentPractice.currentWord = selectedWord;
+
+    // Show result
+    document.getElementById('wheel-result-area').style.display = 'block';
+    document.getElementById('wheel-item-emoji').textContent = selectedWord.emoji;
+    document.getElementById('wheel-item-text').textContent = selectedWord.word;
+
+    // Prepare the actual task view in the background
+    prepareTaskForWord(selectedWord);
+}
+
+function prepareTaskForWord(wordObj) {
+    // This replicates parts of showNextWord but without displaying the card yet
+    currentPractice.isCorrect = false;
+
+    document.getElementById('feedback-message').textContent = '';
+    document.getElementById('next-btn').style.display = 'none';
+    document.getElementById('opposite-answer').value = '';
+    document.getElementById('opposite-input-container').style.display = 'none';
+    document.getElementById('tf-buttons-container').style.display = 'none';
+    document.getElementById('choices-grid').style.display = 'none';
+    document.getElementById('scramble-container').style.display = 'none';
+    document.getElementById('hint-btn').style.display = (wordObj.type === 'true_false' ? 'none' : 'inline-block');
+
+    document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
+
+    // Display metadata
+    const metaContainer = document.getElementById('word-meta');
+    const formBadge = document.getElementById('word-form');
+    const levelBadge = document.getElementById('word-level');
+
+    if (wordObj.form || wordObj.level) {
+        metaContainer.style.display = 'flex';
+        const lang = currentPractice.language;
+        if (wordObj.form) {
+            formBadge.style.display = 'inline-block';
+            const formKey = `form_${wordObj.form}`;
+            formBadge.textContent = (translations[lang] && translations[lang][formKey]) ? translations[lang][formKey] : wordObj.form;
+            formBadge.setAttribute('data-translate-key', formKey);
+        } else {
+            formBadge.style.display = 'none';
+        }
+        if (wordObj.level) {
+            levelBadge.style.display = 'inline-block';
+            const levelLabel = (translations[lang] && translations[lang]['level_label']) ? translations[lang]['level_label'] : 'Level';
+            levelBadge.textContent = `${levelLabel}: ${wordObj.level}`;
+        } else {
+            levelBadge.style.display = 'none';
+        }
+    } else {
+        metaContainer.style.display = 'none';
+    }
+
+    if (wordObj.type === 'multiple_choice' || wordObj.type === 'listen_select') {
+        const isListen = wordObj.type === 'listen_select';
+        document.getElementById('word-display').textContent = isListen ? '???' : (wordObj.clozeText || wordObj.word);
+        document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
+        document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
+        document.getElementById('choices-grid').style.display = 'grid';
+        renderMultipleChoice();
+    } else if (wordObj.type === 'cloze') {
+        document.getElementById('word-display').textContent = wordObj.clozeText;
+        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_cloze');
+        document.getElementById('opposite-input-container').style.display = 'flex';
+    } else if (wordObj.type === 'scramble') {
+        document.getElementById('word-display').textContent = '???';
+        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_scramble');
+        document.getElementById('scramble-container').style.display = 'block';
+        renderScramble();
+    } else if (wordObj.type === 'gender_articles') {
+        document.getElementById('word-display').textContent = wordObj.baseWord;
+        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_gender_articles');
+        document.getElementById('choices-grid').style.display = 'grid';
+        renderGenderArticles();
+    } else if (wordObj.type === 'true_false') {
+        document.getElementById('word-display').textContent = wordObj.word;
+        // Logic for TF distractor... (re-using part of showNextWord)
+        const isTrueQuestion = Math.random() > 0.5;
+        currentPractice.tfCorrectAnswer = isTrueQuestion;
+        if (isTrueQuestion) {
+            document.getElementById('emoji-display').textContent = wordObj.emoji;
+        } else {
+            const allWordsInRange = [];
+            currentPractice.lessons.forEach(l => {
+                if (lessonsData[currentPractice.language][l]) allWordsInRange.push(...lessonsData[currentPractice.language][l].words);
+            });
+            const distractor = allWordsInRange.filter(v => v.emoji !== wordObj.emoji)[0];
+            document.getElementById('emoji-display').textContent = (distractor ? distractor.emoji : "❓");
+        }
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
+        document.getElementById('tf-buttons-container').style.display = 'flex';
+    } else {
+        document.getElementById('word-display').textContent = wordObj.word;
+        document.getElementById('emoji-display').textContent = wordObj.emoji;
+        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_opposite');
+        document.getElementById('opposite-input-container').style.display = 'flex';
+    }
+
+    if (typeof setLanguage === 'function') {
+        setLanguage(currentPractice.language);
+    }
+}
+
+function markWordAsDone() {
+    const word = currentPractice.currentWord.word;
+    const key = getDoneKey();
+    let doneWords = JSON.parse(localStorage.getItem(key) || '[]');
+
+    if (!doneWords.includes(word)) {
+        doneWords.push(word);
+        localStorage.setItem(key, JSON.stringify(doneWords));
+    }
+
+    // Remove from active wheel words
+    currentPractice.wheelWords = currentPractice.wheelWords.filter(w => w.word !== word);
+
+    if (currentPractice.wheelWords.length === 0) {
+        showSummary();
+    } else {
+        document.getElementById('wheel-result-area').style.display = 'none';
+        document.getElementById('spin-btn').disabled = false;
+        drawWheel();
     }
 }

@@ -84,6 +84,20 @@
                 </div>
 
                 <div class="setup-group full-width">
+                    <label data-translate-key="mode_label">Practice Mode:</label>
+                    <div class="chips-group">
+                        <label class="toggle-chip">
+                            <input type="radio" name="practice-mode" id="mode-standard" checked>
+                            <span data-translate-key="mode_standard">Standard Session</span>
+                        </label>
+                        <label class="toggle-chip">
+                            <input type="radio" name="practice-mode" id="mode-wheel">
+                            <span data-translate-key="mode_wheel">Spinning Wheel 🎡</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="setup-group full-width" id="task-types-container">
                     <label data-translate-key="task_type_label">Task Types:</label>
                     <div class="chips-group wrap">
                         <label class="toggle-chip">
@@ -127,6 +141,29 @@
                     <div id="progress-fill" class="progress-fill"></div>
                 </div>
                 <div id="progress-text"></div>
+
+                <!-- Spinning Wheel View -->
+                <div id="wheel-view" style="display: none; text-align: center; margin-bottom: 2rem;">
+                    <div class="wheel-outer-container">
+                        <div class="wheel-pointer">▼</div>
+                        <canvas id="wheel-canvas" width="500" height="500"></canvas>
+                    </div>
+                    <div class="wheel-controls" style="margin-top: 2rem;">
+                        <button id="spin-btn" class="cta-button primary" data-translate-key="spin_btn">SPIN! 🎡</button>
+                    </div>
+
+                    <div id="wheel-result-area" style="display: none; margin-top: 2rem; animation: fadeIn 0.5s;">
+                        <div id="wheel-selected-item" class="event-item" style="max-width: 500px; margin: 0 auto;">
+                            <div id="wheel-item-emoji" style="font-size: 3rem; margin-bottom: 1rem;"></div>
+                            <div id="wheel-item-text" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;"></div>
+                            <div class="wheel-item-actions" style="display: flex; gap: 1rem; justify-content: center;">
+                                <button id="wheel-respond-btn" class="topics-toggle-btn" data-translate-key="respond_btn">Respond ✍️</button>
+                                <button id="wheel-skip-btn" class="topics-toggle-btn secondary-btn" data-translate-key="skip_btn">Skip ⏭️</button>
+                                <button id="wheel-done-btn" class="topics-toggle-btn secondary-btn" data-translate-key="done_btn">Done ✅</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div id="question-card" class="event-item">
                     <div id="lesson-info" class="lesson-badge"></div>
