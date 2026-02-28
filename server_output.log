@@ -1,9 +1,0 @@
-127.0.0.1 - - [28/Feb/2026 17:04:08] "GET /practice.html?lang=it&lesson=3&cat=grammar&embed=true HTTP/1.1" 200 -
-127.0.0.1 - - [28/Feb/2026 17:04:08] "GET /translations.js HTTP/1.1" 200 -
-127.0.0.1 - - [28/Feb/2026 17:04:08] "GET /data.js HTTP/1.1" 200 -
-127.0.0.1 - - [28/Feb/2026 17:04:08] "GET /images/cosylanguages.png HTTP/1.1" 200 -
-127.0.0.1 - - [28/Feb/2026 17:04:08] "GET /practice.js HTTP/1.1" 200 -
-127.0.0.1 - - [28/Feb/2026 17:04:08] "GET /style.css HTTP/1.1" 200 -
-127.0.0.1 - - [28/Feb/2026 17:04:08] "GET /translate.js HTTP/1.1" 200 -
-127.0.0.1 - - [28/Feb/2026 17:04:10] "GET /events.html?game=charades&lang=ru&lesson=1-2&theme=food_drinks&embed=true HTTP/1.1" 200 -
-127.0.0.1 - - [28/Feb/2026 17:04:10] "GET /script.js HTTP/1.1" 200 -
