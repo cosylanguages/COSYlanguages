@@ -1,3 +1,799 @@
+const gamesData = {
+    "en": {
+        "popular_people": [
+            "Albert Einstein",
+            "Marie Curie",
+            "Leonardo da Vinci",
+            "William Shakespeare",
+            "Elon Musk",
+            "Marilyn Monroe"
+        ],
+        "professions": [
+            "Doctor",
+            "Engineer",
+            "Artist",
+            "Pilot",
+            "Chef",
+            "Lawyer",
+            "Teacher",
+            "Nurse",
+            "Firefighter",
+            "Police officer"
+        ],
+        "dishes": [
+            "Pizza",
+            "Sushi",
+            "Burger",
+            "Pasta",
+            "Tacos",
+            "Pancakes",
+            "Salad",
+            "Steak"
+        ],
+        "food": [
+            "Apple",
+            "Bread",
+            "Cheese",
+            "Egg",
+            "Milk",
+            "Rice",
+            "Tomato",
+            "Potato",
+            "Carrot",
+            "Banana"
+        ],
+        "drinks": [
+            "Coffee",
+            "Tea",
+            "Wine",
+            "Beer",
+            "Juice",
+            "Water",
+            "Milkshake",
+            "Soda"
+        ],
+        "places": [
+            "Park",
+            "School",
+            "Hospital",
+            "Cinema",
+            "Restaurant",
+            "Library",
+            "Museum",
+            "Supermarket",
+            "Pharmacy",
+            "Airport"
+        ],
+        "countries": [
+            "France",
+            "Italy",
+            "Russia",
+            "Greece",
+            "England",
+            "Germany",
+            "Spain",
+            "USA",
+            "Canada",
+            "Australia",
+            "Japan",
+            "China"
+        ],
+        "cities": [
+            "Paris",
+            "London",
+            "Rome",
+            "Moscow",
+            "Athens",
+            "Berlin",
+            "Madrid",
+            "New York",
+            "Tokyo",
+            "Sydney"
+        ],
+        "clothing": [
+            "T-shirt",
+            "Pants",
+            "Dress",
+            "Shoes",
+            "Hat",
+            "Jacket",
+            "Skirt",
+            "Socks",
+            "Sweater",
+            "Scarf"
+        ],
+        "furniture": [
+            "Chair",
+            "Table",
+            "Bed",
+            "Sofa",
+            "Lamp",
+            "Desk",
+            "Wardrobe",
+            "Shelf",
+            "Mirror",
+            "Armchair"
+        ],
+        "appearance": [
+            "Tall",
+            "Short",
+            "Beautiful",
+            "Strong",
+            "Thin",
+            "Young",
+            "Old",
+            "Blonde"
+        ],
+        "routine": [
+            "Wake up",
+            "Brush teeth",
+            "Shower",
+            "Breakfast",
+            "Work",
+            "Lunch",
+            "Dinner",
+            "Sleep"
+        ],
+        "objects": [
+            "Key",
+            "Phone",
+            "Book",
+            "Watch",
+            "Wallet",
+            "Glasses",
+            "Umbrella",
+            "Bag",
+            "Laptop",
+            "Pen"
+        ],
+        "animals": [
+            "Cat",
+            "Dog",
+            "Bird",
+            "Lion",
+            "Tiger",
+            "Elephant",
+            "Monkey",
+            "Horse",
+            "Rabbit",
+            "Fish"
+        ],
+        "hobby": [
+            "Drawing",
+            "Cooking",
+            "Reading",
+            "Dancing",
+            "Singing",
+            "Photography",
+            "Gardening",
+            "Fishing"
+        ],
+        "weather": [
+            "Sunny",
+            "Rainy",
+            "Snowy",
+            "Windy",
+            "Cloudy",
+            "Stormy",
+            "Hot",
+            "Cold"
+        ],
+        "body": [
+            "Head",
+            "Hand",
+            "Leg",
+            "Eye",
+            "Nose",
+            "Mouth",
+            "Ear",
+            "Arm",
+            "Foot",
+            "Finger"
+        ]
+    },
+    "fr": {
+        "popular_people": [
+            "Napoléon Bonaparte",
+            "Marie Curie",
+            "Victor Hugo",
+            "Edith Piaf",
+            "Claude Monet"
+        ],
+        "professions": [
+            "Médecin",
+            "Ingénieur",
+            "Artiste",
+            "Pilote",
+            "Chef",
+            "Avocat",
+            "Professeur",
+            "Infirmier"
+        ],
+        "dishes": [
+            "Ratatouille",
+            "Quiche",
+            "Crêpe",
+            "Croissant",
+            "Fondue",
+            "Escargots"
+        ],
+        "food": [
+            "Pomme",
+            "Pain",
+            "Fromage",
+            "Oeuf",
+            "Lait",
+            "Riz",
+            "Tomate",
+            "Pomme de terre"
+        ],
+        "drinks": [
+            "Café",
+            "Thé",
+            "Vin",
+            "Bière",
+            "Jus",
+            "Eau",
+            "Limonade"
+        ],
+        "places": [
+            "Parc",
+            "École",
+            "Hôpital",
+            "Cinéma",
+            "Restaurant",
+            "Bibliothèque",
+            "Musée"
+        ],
+        "countries": [
+            "France",
+            "Italie",
+            "Russie",
+            "Grèce",
+            "Angleterre",
+            "Allemagne",
+            "Espagne"
+        ],
+        "cities": [
+            "Paris",
+            "Lyon",
+            "Marseille",
+            "Bordeaux",
+            "Lille",
+            "Nice"
+        ],
+        "clothing": [
+            "T-shirt",
+            "Pantalon",
+            "Robe",
+            "Chaussures",
+            "Chapeau",
+            "Veste",
+            "Jupe"
+        ],
+        "furniture": [
+            "Chaise",
+            "Table",
+            "Lit",
+            "Canapé",
+            "Lampe",
+            "Bureau",
+            "Armoire"
+        ],
+        "appearance": [
+            "Grand",
+            "Petit",
+            "Beau",
+            "Fort",
+            "Mince",
+            "Jeune",
+            "Vieux"
+        ],
+        "routine": [
+            "Se réveiller",
+            "Se brosser les dents",
+            "Prendre une douche",
+            "Dormir"
+        ],
+        "objects": [
+            "Clé",
+            "Téléphone",
+            "Livre",
+            "Montre",
+            "Portefeuille",
+            "Lunettes"
+        ],
+        "animals": [
+            "Chat",
+            "Chien",
+            "Oiseau",
+            "Lion",
+            "Tigre",
+            "Éléphant",
+            "Singe",
+            "Cheval"
+        ],
+        "hobby": [
+            "Dessiner",
+            "Cuisiner",
+            "Lire",
+            "Danser",
+            "Chanter",
+            "Jardiner"
+        ],
+        "weather": [
+            "Ensoleillé",
+            "Pluvieux",
+            "Neigeux",
+            "Venteux",
+            "Nuageux",
+            "Chaud",
+            "Froid"
+        ],
+        "body": [
+            "Tête",
+            "Main",
+            "Jambe",
+            "Oeil",
+            "Nez",
+            "Bouche",
+            "Oreille",
+            "Bras",
+            "Pied"
+        ]
+    },
+    "it": {
+        "popular_people": [
+            "Leonardo da Vinci",
+            "Dante Alighieri",
+            "Galileo Galilei",
+            "Sophia Loren"
+        ],
+        "professions": [
+            "Medico",
+            "Ingegnere",
+            "Artista",
+            "Pilota",
+            "Chef",
+            "Avvocato",
+            "Insegnante"
+        ],
+        "dishes": [
+            "Pasta",
+            "Pizza",
+            "Risotto",
+            "Lasagna",
+            "Gelato",
+            "Tiramisù"
+        ],
+        "food": [
+            "Mela",
+            "Pane",
+            "Formaggio",
+            "Uovo",
+            "Latte",
+            "Riso",
+            "Pomodoro",
+            "Patata"
+        ],
+        "drinks": [
+            "Caffè",
+            "Tè",
+            "Vino",
+            "Birra",
+            "Succo",
+            "Acqua",
+            "Aranciata"
+        ],
+        "places": [
+            "Parco",
+            "Scuola",
+            "Ospedale",
+            "Cinema",
+            "Ristorante",
+            "Biblioteca",
+            "Museo"
+        ],
+        "countries": [
+            "Francia",
+            "Italia",
+            "Russia",
+            "Grecia",
+            "Inghilterra",
+            "Germania",
+            "Spagna"
+        ],
+        "cities": [
+            "Roma",
+            "Milano",
+            "Napoli",
+            "Firenze",
+            "Venezia",
+            "Torino"
+        ],
+        "clothing": [
+            "Maglietta",
+            "Pantaloni",
+            "Vestito",
+            "Scarpe",
+            "Cappello",
+            "Giacca",
+            "Gonna"
+        ],
+        "furniture": [
+            "Sedia",
+            "Tavolo",
+            "Letto",
+            "Divano",
+            "Lampada",
+            "Scrivania",
+            "Armadio"
+        ],
+        "appearance": [
+            "Alto",
+            "Basso",
+            "Bello",
+            "Forte",
+            "Magro",
+            "Giovane",
+            "Vecchio"
+        ],
+        "routine": [
+            "Svegliarsi",
+            "Lavarsi i denti",
+            "Fare la doccia",
+            "Dormire"
+        ],
+        "objects": [
+            "Chiave",
+            "Telefono",
+            "Libro",
+            "Orologio",
+            "Portafoglio",
+            "Occhiali"
+        ],
+        "animals": [
+            "Gatto",
+            "Cane",
+            "Uccello",
+            "Leone",
+            "Tigre",
+            "Elefante",
+            "Scimmia",
+            "Cavallo"
+        ],
+        "hobby": [
+            "Disegnare",
+            "Cucinare",
+            "Leggere",
+            "Danzare",
+            "Cantare",
+            "Giardinaggio"
+        ],
+        "weather": [
+            "Soleggiato",
+            "Piovoso",
+            "Nevoso",
+            "Ventoso",
+            "Nuvoloso",
+            "Caldo",
+            "Freddo"
+        ],
+        "body": [
+            "Testa",
+            "Mano",
+            "Gamba",
+            "Occhio",
+            "Naso",
+            "Bocca",
+            "Orecchio",
+            "Braccio",
+            "Piede"
+        ]
+    },
+    "ru": {
+        "popular_people": [
+            "Александр Пушкин",
+            "Лев Толстой",
+            "Юрий Гагарин",
+            "Пётр I",
+            "Мария Шарапова"
+        ],
+        "professions": [
+            "Врач",
+            "Инженер",
+            "Художник",
+            "Пилот",
+            "Повар",
+            "Юрист",
+            "Учитель"
+        ],
+        "dishes": [
+            "Борщ",
+            "Пельмени",
+            "Блины",
+            "Салат Оливье",
+            "Пирожки",
+            "Шашлык"
+        ],
+        "food": [
+            "Яблоко",
+            "Хлеб",
+            "Сыр",
+            "Яйцо",
+            "Молоко",
+            "Рис",
+            "Помидор",
+            "Картофель"
+        ],
+        "drinks": [
+            "Кофе",
+            "Чай",
+            "Вино",
+            "Пиво",
+            "Сок",
+            "Вода",
+            "Квас",
+            "Морс"
+        ],
+        "places": [
+            "Парк",
+            "Школа",
+            "Больница",
+            "Кинотеатр",
+            "Ресторан",
+            "Библиотека",
+            "Музей"
+        ],
+        "countries": [
+            "Франция",
+            "Италия",
+            "Россия",
+            "Греция",
+            "Англия",
+            "Германия",
+            "Испания"
+        ],
+        "cities": [
+            "Москва",
+            "Санкт-Петербург",
+            "Новосибирск",
+            "Екатеринбург",
+            "Казань"
+        ],
+        "clothing": [
+            "Футболка",
+            "Брюки",
+            "Платье",
+            "Обувь",
+            "Шапка",
+            "Куртка",
+            "Юбка"
+        ],
+        "furniture": [
+            "Стул",
+            "Стол",
+            "Кровать",
+            "Диван",
+            "Лампа",
+            "Письменный стол",
+            "Шкаф"
+        ],
+        "appearance": [
+            "Высокий",
+            "Низкий",
+            "Красивый",
+            "Сильный",
+            "Худой",
+            "Молодой",
+            "Старый"
+        ],
+        "routine": [
+            "Просыпаться",
+            "Чистить зубы",
+            "Принимать душ",
+            "Спать"
+        ],
+        "objects": [
+            "Ключ",
+            "Телефон",
+            "Книга",
+            "Часы",
+            "Кошелек",
+            "Очки",
+            "Зонт"
+        ],
+        "animals": [
+            "Кот",
+            "Собака",
+            "Птица",
+            "Лев",
+            "Тигр",
+            "Слон",
+            "Обезьяна",
+            "Лошадь"
+        ],
+        "hobby": [
+            "Рисование",
+            "Готовка",
+            "Чтение",
+            "Танцы",
+            "Пение",
+            "Садоводство"
+        ],
+        "weather": [
+            "Солнечно",
+            "Дождливо",
+            "Снежно",
+            "Ветрено",
+            "Облачно",
+            "Жарко",
+            "Холодно"
+        ],
+        "body": [
+            "Голова",
+            "Рука",
+            "Нога",
+            "Глаз",
+            "Нос",
+            "Рот",
+            "Ухо",
+            "Плечо",
+            "Стопа"
+        ]
+    },
+    "el": {
+        "popular_people": [
+            "Σωκράτης",
+            "Μέγας Αλέξανδρος",
+            "Πλάτωνας",
+            "Μαρία Κάλλας"
+        ],
+        "professions": [
+            "Γιατρός",
+            "Μηχανικός",
+            "Καλλιτέχνης",
+            "Πιλότος",
+            "Σεφ",
+            "Δικηγόρος",
+            "Δάσκαλος"
+        ],
+        "dishes": [
+            "Μουσακάς",
+            "Σουβλάκι",
+            "Χωριάτικη σαλάτα",
+            "Παστίτσιο",
+            "Γεμιστά"
+        ],
+        "food": [
+            "Μήλο",
+            "Ψωμί",
+            "Τυρί",
+            "Αυγό",
+            "Γάλα",
+            "Ρύζι",
+            "Ντομάτα",
+            "Πατάτα"
+        ],
+        "drinks": [
+            "Καφές",
+            "Τσάι",
+            "Κρασί",
+            "Μπίρα",
+            "Χυμός",
+            "Νερό",
+            "Ούζο"
+        ],
+        "places": [
+            "Πάρκο",
+            "Σχολείο",
+            "Νοσοκομείο",
+            "Κινηματογράφος",
+            "Εστιατόριο",
+            "Βιβλιοθήκη"
+        ],
+        "countries": [
+            "Γαλλία",
+            "Ιταλία",
+            "Ρωσία",
+            "Ελλάδα",
+            "Αγγλία",
+            "Γερμανία",
+            "Ισπανία"
+        ],
+        "cities": [
+            "Αθήνα",
+            "Θεσσαλονίκη",
+            "Πάτρα",
+            "Ηράκλειο",
+            "Λάρισα"
+        ],
+        "clothing": [
+            "Μπλουζάκι",
+            "Παντελόνι",
+            "Φόρεμα",
+            "Παπούτσια",
+            "Καπέλο",
+            "Σακάκι",
+            "Φούστα"
+        ],
+        "furniture": [
+            "Καρέκλα",
+            "Τραπέζι",
+            "Κρεβάτι",
+            "Καναπές",
+            "Λάμπα",
+            "Γραφείο",
+            "Ντουλάπα"
+        ],
+        "appearance": [
+            "Ψηλός",
+            "Κοντός",
+            "Όμορφος",
+            "Δυνατός",
+            "Αδύνατος",
+            "Νέος",
+            "Γέρος"
+        ],
+        "routine": [
+            "Ξυπνάω",
+            "Πλένω τα δόντια",
+            "Κάνω ντους",
+            "Κοιμάμαι"
+        ],
+        "objects": [
+            "Κλειδί",
+            "Τηλέφωνο",
+            "Βιβλίο",
+            "Ρολόι",
+            "Πορτοφόλι",
+            "Γυαλιά"
+        ],
+        "animals": [
+            "Γάτα",
+            "Σκύλος",
+            "Πουλί",
+            "Λιοντάρι",
+            "Τίγρης",
+            "Ελέφαντας",
+            "Μαϊμού"
+        ],
+        "hobby": [
+            "Ζωγραφική",
+            "Μαγειρική",
+            "Διάβασμα",
+            "Χορός",
+            "Τραγούδι",
+            "Κηπουρική"
+        ],
+        "weather": [
+            "Ηλιόλουστος",
+            "Βροχερός",
+            "Χιονισμένος",
+            "Ανεμώδης",
+            "Συννεφιασμένος",
+            "Ζεστός"
+        ],
+        "body": [
+            "Κεφάλι",
+            "Χέρι",
+            "Πόδι",
+            "Μάτι",
+            "Μύτη",
+            "Στόμα",
+            "Αυτί",
+            "Ώμος"
+        ]
+    }
+};
+const alphabetsData = {
+    "en": "abcdefghijklmnopqrstuvwxyz",
+    "fr": "abcdefghijklmnopqrstuvwxyz",
+    "it": "abcdefghijklmnopqrstuvwxyz",
+    "ru": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+    "el": "αβγδεζηθικλμνξοπρστυφχψω"
+};
+
 const lessonsData = {
     en: {
         1: {
