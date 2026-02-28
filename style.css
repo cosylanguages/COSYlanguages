@@ -777,36 +777,155 @@ footer {
 }
 
 #setup-section {
-    padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: var(--border-radius);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.02);
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.setup-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: left;
+}
+
+.setup-row {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.setup-row .setup-group {
+    flex: 1;
+    min-width: 250px;
 }
 
 .setup-group {
-    margin-bottom: 2rem;
-    text-align: left;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.setup-group.full-width {
+    width: 100%;
 }
 
 .setup-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--primary-color);
+    font-size: 1.1rem;
+    font-family: 'Georgia', serif;
 }
 
-.setup-group select,
-.setup-group input {
-    width: 100%;
-    padding: 1rem;
-    border-radius: var(--border-radius);
+.lang-selection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.lang-selection-card {
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.lang-selection-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.lang-selection-card.active {
+    background: white;
+    border-color: var(--secondary-color);
+    box-shadow: 0 10px 30px rgba(255, 193, 7, 0.15);
+}
+
+.lang-selection-card .flag {
+    font-size: 2.5rem;
+}
+
+.lang-selection-card .name {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.pill-input {
+    background: white;
     border: 2px solid var(--light-gray);
+    border-radius: 50px;
+    padding: 1rem 1.5rem;
     font-family: inherit;
     font-size: 1rem;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.pill-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(0, 168, 150, 0.1);
+}
+
+.chips-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.toggle-chip {
+    cursor: pointer;
+}
+
+.toggle-chip input {
+    display: none;
+}
+
+.toggle-chip span {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid var(--light-gray);
+    border-radius: 50px;
+    font-weight: 600;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.toggle-chip:hover span {
+    background: rgba(255, 255, 255, 0.8);
+    border-color: var(--primary-color);
+}
+
+.toggle-chip input:checked + span {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 15px rgba(0, 168, 150, 0.3);
+}
+
+.setup-actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-button.primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #26c6da 100%);
+    box-shadow: 0 10px 25px rgba(0, 168, 150, 0.3);
+}
+
+.cta-button.primary:hover {
+    box-shadow: 0 15px 35px rgba(0, 168, 150, 0.4);
 }
 
 .lesson-badge {
@@ -860,10 +979,11 @@ footer {
 }
 
 .word-text {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
     color: var(--primary-color);
     margin-bottom: 2rem;
+    font-family: 'Georgia', serif;
 }
 
 #answer-area {
@@ -877,11 +997,18 @@ footer {
 }
 
 #opposite-answer {
-    padding: 1rem;
-    border-radius: var(--border-radius);
+    padding: 1.2rem;
+    border-radius: 50px;
     border: 2px solid var(--light-gray);
-    font-size: 1.1rem;
-    width: 250px;
+    font-size: 1.2rem;
+    width: 300px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#opposite-answer:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 5px rgba(0, 168, 150, 0.1);
 }
 
 #tf-buttons-container {
@@ -947,12 +1074,13 @@ footer {
 /* Improved Question Card and Animations */
 #question-card {
     margin: 2rem auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 250, 240, 0.9);
+    backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.5);
-    padding: 3rem;
-    animation: fadeIn 0.5s ease-out;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 4rem 3rem;
+    border-radius: 40px;
+    animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04), 0 5px 15px rgba(0, 0, 0, 0.02);
 }
 
 .shake {
@@ -986,10 +1114,10 @@ footer {
 
 .progress-fill {
     height: 100%;
-    background-color: var(--primary-color);
+    background: linear-gradient(90deg, var(--primary-color), #26c6da);
     width: 0%;
-    transition: width 0.5s ease;
-    box-shadow: 0 0 10px rgba(0, 168, 150, 0.5);
+    transition: width 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+    box-shadow: 0 0 10px rgba(0, 168, 150, 0.3);
 }
 
 #progress-text {
@@ -1009,23 +1137,24 @@ footer {
 }
 
 .choice-btn {
-    background-color: var(--surface-color);
-    border: 2px solid var(--light-gray);
-    padding: 1rem;
-    border-radius: var(--border-radius);
+    background-color: white;
+    border: 2px solid #eee;
+    padding: 1.2rem;
+    border-radius: 50px;
     font-family: inherit;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     color: var(--text-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
 }
 
 .choice-btn:hover {
     border-color: var(--primary-color);
-    background-color: rgba(0, 168, 150, 0.05);
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
 
 .choice-btn.correct {
