@@ -181,6 +181,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    const lessonRangeInput = document.getElementById('lesson-range');
+    if (lessonRangeInput) {
+        lessonRangeInput.addEventListener('input', validateFeaturesByLesson);
+        // Run once on load
+        validateFeaturesByLesson();
+    }
+
     const catRadios = document.querySelectorAll('input[name="practice-cat"]');
     const container = document.getElementById('practice-container');
 
@@ -434,18 +441,53 @@ function triggerAnimation(type) {
     }
 }
 
-function startPractice(isWheelMode = false) {
-    const activeLangCard = document.querySelector('.lang-selection-card.active');
+function validateFeaturesByLesson() {
     const lessonInput = document.getElementById('lesson-range');
+    const catSpeaking = document.getElementById('cat-speaking');
+    const wheelModeBtn = document.getElementById('wheel-mode-btn');
+    const lessonHint = document.getElementById('lesson-hint');
 
-    if (activeLangCard) {
-        currentPractice.language = activeLangCard.getAttribute('data-value');
+    if (!lessonInput) return;
+
+    const lessons = parseLessonRange(lessonInput.value);
+    const hasLesson3Plus = lessons.some(l => l >= 3);
+
+    if (!hasLesson3Plus) {
+        if (catSpeaking) {
+            catSpeaking.disabled = true;
+            catSpeaking.parentElement.style.opacity = '0.5';
+            if (catSpeaking.checked) {
+                document.getElementById('cat-vocab').checked = true;
+                // trigger change manually
+                const event = new Event('change');
+                document.getElementById('cat-vocab').dispatchEvent(event);
+            }
+        }
+        if (wheelModeBtn) {
+            wheelModeBtn.disabled = true;
+            wheelModeBtn.style.opacity = '0.5';
+            wheelModeBtn.style.cursor = 'not-allowed';
+        }
+        if (lessonHint) lessonHint.style.display = 'block';
+    } else {
+        if (catSpeaking) {
+            catSpeaking.disabled = false;
+            catSpeaking.parentElement.style.opacity = '1';
+        }
+        if (wheelModeBtn) {
+            wheelModeBtn.disabled = false;
+            wheelModeBtn.style.opacity = '1';
+            wheelModeBtn.style.cursor = 'pointer';
+        }
+        if (lessonHint) lessonHint.style.display = 'none';
     }
-    const lessonRange = lessonInput.value.trim();
+}
 
+function parseLessonRange(val) {
     let lessons = [];
-    if (lessonRange.includes('-')) {
-        const parts = lessonRange.split('-');
+    const range = val.trim();
+    if (range.includes('-')) {
+        const parts = range.split('-');
         const start = parseInt(parts[0]);
         const end = parseInt(parts[1]);
         if (!isNaN(start) && !isNaN(end)) {
@@ -454,11 +496,23 @@ function startPractice(isWheelMode = false) {
             }
         }
     } else {
-        const l = parseInt(lessonRange);
+        const l = parseInt(range);
         if (!isNaN(l)) {
             lessons.push(l);
         }
     }
+    return lessons;
+}
+
+function startPractice(isWheelMode = false) {
+    const activeLangCard = document.querySelector('.lang-selection-card.active');
+    const lessonInput = document.getElementById('lesson-range');
+
+    if (activeLangCard) {
+        currentPractice.language = activeLangCard.getAttribute('data-value');
+    }
+
+    const lessons = parseLessonRange(lessonInput.value);
 
     if (lessons.length === 0) {
         alert("Please enter a valid lesson number or range (e.g., 1 or 1-5)");
@@ -497,8 +551,13 @@ function startPractice(isWheelMode = false) {
 
     // Override for Wheel Mode: strictly speaking (conversation)
     if (isWheelMode) {
+        // Ensure we only have conversation items for the wheel
         enabledCategories = ['conversation'];
         enabledTypes = ['conversation'];
+
+        // Visual consistency: make sure Speaking radio is checked
+        const catSpeaking = document.getElementById('cat-speaking');
+        if (catSpeaking) catSpeaking.checked = true;
     }
 
     if (enabledTypes.length === 0) {
