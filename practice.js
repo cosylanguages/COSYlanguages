@@ -476,6 +476,7 @@ function clearSession() {
 
 document.addEventListener('DOMContentLoaded', () => {
     loadStreak();
+    loadTotalScore();
     const startBtn = document.getElementById('start-btn');
     const wheelModeBtn = document.getElementById('wheel-mode-btn');
     const resumeBtn = document.getElementById('resume-btn');
@@ -539,6 +540,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentPractice.wheelItems = currentPractice.wheelItems.filter(item => item.word !== currentItem.word);
             currentPractice.score += 20; // Bonus for completion
             document.getElementById('score-count').textContent = currentPractice.score;
+            updateTotalScore(20);
             saveSession();
             if (currentPractice.wheelItems.length === 0) {
                 showSummary();
@@ -578,6 +580,26 @@ document.addEventListener('DOMContentLoaded', () => {
             langCards.forEach(c => c.classList.remove('active'));
             card.classList.add('active');
             currentPractice.language = card.getAttribute('data-value');
+        });
+    });
+
+    const catRadios = document.querySelectorAll('input[name="practice-cat"]');
+    catRadios.forEach(radio => {
+        radio.addEventListener('change', () => {
+            const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
+            if (radio.id === 'cat-speaking') {
+                taskCheckboxes.forEach(cb => {
+                    cb.checked = (cb.id === 'type-cv');
+                });
+            } else if (radio.id === 'cat-grammar') {
+                taskCheckboxes.forEach(cb => {
+                    cb.checked = (cb.id === 'type-ga' || cb.id === 'type-cl');
+                });
+            } else {
+                taskCheckboxes.forEach(cb => {
+                    cb.checked = (cb.id !== 'type-ga' && cb.id !== 'type-cv');
+                });
+            }
         });
     });
 
@@ -735,6 +757,26 @@ function loadStreak() {
     return parseInt(streak);
 }
 
+function loadTotalScore() {
+    const total = parseInt(localStorage.getItem('cosy_total_points') || 0);
+    const totalScoreEl = document.getElementById('total-score-count');
+    if (totalScoreEl) {
+        totalScoreEl.textContent = total;
+    }
+    return total;
+}
+
+function updateTotalScore(points) {
+    let total = loadTotalScore();
+    total += points;
+    localStorage.setItem('cosy_total_points', total);
+    const totalScoreEl = document.getElementById('total-score-count');
+    if (totalScoreEl) {
+        totalScoreEl.textContent = total;
+    }
+    return total;
+}
+
 function updateStreak() {
     const lastDate = localStorage.getItem('last_practice_date');
     const today = new Date().toDateString();
@@ -819,7 +861,7 @@ function startPractice(isWheelMode = false) {
         return;
     }
 
-    const enabledTypes = [];
+    let enabledTypes = [];
     if (document.getElementById('type-mc').checked) enabledTypes.push('multiple_choice');
     if (document.getElementById('type-ls').checked) enabledTypes.push('listen_select');
     if (document.getElementById('type-sc').checked) enabledTypes.push('scramble');
@@ -829,38 +871,51 @@ function startPractice(isWheelMode = false) {
     if (document.getElementById('type-ga').checked) enabledTypes.push('gender_articles');
     if (document.getElementById('type-cv').checked) enabledTypes.push('conversation');
 
+    let enabledCategories = [];
+    const catVocab = document.getElementById('cat-vocab').checked;
+    const catGrammar = document.getElementById('cat-grammar').checked;
+    const catSpeaking = document.getElementById('cat-speaking').checked;
+
+    if (catVocab) enabledCategories.push('vocabulary');
+    if (catGrammar) enabledCategories.push('grammar');
+    if (catSpeaking) enabledCategories.push('conversation');
+
+    // Override for Wheel Mode: only speaking (conversation)
+    if (isWheelMode) {
+        enabledCategories = ['conversation'];
+        enabledTypes = ['conversation'];
+    }
+
     if (enabledTypes.length === 0) {
         alert("Please select at least one task type!");
         return;
     }
 
-    const enabledCategories = [];
-    if (document.getElementById('cat-vocab').checked) enabledCategories.push('vocabulary');
-    if (document.getElementById('cat-grammar').checked) enabledCategories.push('grammar');
-    if (document.getElementById('type-cv').checked) enabledCategories.push('conversation');
-
     if (enabledCategories.length === 0) {
-        alert("Please select at least one category (Vocabulary or Grammar)!");
+        alert("Please select at least one category!");
         return;
     }
 
     lessons.forEach(l => {
         if (langData[l]) {
             const filteredWords = langData[l].words.filter(w => {
-                let catMatch = false;
-                if (enabledCategories.includes(w.category)) catMatch = true;
-                // Exception for Gender & Articles: nouns are vocabulary but can be grammar
-                if (enabledCategories.includes('grammar') && (w.article || w.gender) && enabledTypes.includes('gender_articles')) catMatch = true;
-                if (!catMatch) return false;
+                // Determine if this word belongs to any of the ENABLED categories
+                const categoryMatch = enabledCategories.includes(w.category);
+                if (!categoryMatch) return false;
+
+                // For "speaking only" in wheel mode, we strictly want conversation items
+                if (isWheelMode && w.category !== 'conversation') return false;
+
+                // If user selected ONLY vocabulary, don't show items that are purely grammar (and vice versa)
+                // This is already handled by enabledCategories.includes(w.category)
 
                 // Ensure at least one enabled task type is possible for this word
                 return enabledTypes.some(t => {
                     if (t === 'opposite') return !!w.opposite;
                     if (t === 'cloze') return !!w.clozeText;
                     if (t === 'gender_articles') return !!(w.article || w.gender);
-                    if (t === 'conversation') return w.type === 'conversation';
-                    if (w.type === 'conversation') return t === 'conversation';
-                    return true; // MC, LS, SC, TF are generally always possible
+                    if (t === 'conversation') return w.category === 'conversation' || w.type === 'conversation';
+                    return true;
                 });
             });
 
@@ -868,9 +923,10 @@ function startPractice(isWheelMode = false) {
                 let wordCopy = { ...w };
                 let possibleTypes = [...enabledTypes];
 
-                if (wordCopy.type === 'conversation') {
+                if (wordCopy.category === 'conversation' || wordCopy.type === 'conversation') {
                     return {
                         ...wordCopy,
+                        type: 'conversation',
                         lessonTitle: langData[l].title
                     };
                 }
@@ -894,13 +950,6 @@ function startPractice(isWheelMode = false) {
                 if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
                 if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
                 if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
-
-                // If word is primarily vocab but we only have grammar enabled, force gender_articles if available
-                if (wordCopy.category === 'vocabulary' && !enabledCategories.includes('vocabulary') && (wordCopy.article || wordCopy.gender)) {
-                    if (enabledTypes.includes('gender_articles')) {
-                        possibleTypes = ['gender_articles'];
-                    }
-                }
 
                 if (possibleTypes.length === 0) return null;
 
@@ -1417,12 +1466,14 @@ function showSummary() {
     if (resumeBtn) resumeBtn.style.display = 'none';
 
     const finalScoreEl = document.getElementById('final-score');
+    const finalTotalScoreEl = document.getElementById('final-total-score');
     const finalStreakEl = document.getElementById('final-streak');
     const streakUnitEl = document.getElementById('streak-unit');
     const summaryModal = document.getElementById('summary-modal');
     const practiceSection = document.getElementById('practice-section');
 
     if (finalScoreEl) finalScoreEl.textContent = currentPractice.score;
+    if (finalTotalScoreEl) finalTotalScoreEl.textContent = loadTotalScore();
 
     const streak = loadStreak();
     if (finalStreakEl) finalStreakEl.textContent = streak;
@@ -1456,6 +1507,7 @@ function showFeedback(isCorrect) {
     if (isCorrect) {
         currentPractice.score += 10;
         document.getElementById('score-count').textContent = currentPractice.score;
+        updateTotalScore(10);
 
         currentPractice.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';
