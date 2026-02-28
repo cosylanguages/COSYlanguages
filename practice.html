@@ -36,9 +36,15 @@
             <h2 data-translate-key="practice_title">Practice 💡</h2>
 
             <div id="setup-section" class="setup-card">
+                <div class="total-progress-display glass">
+                    <span data-translate-key="total_score_label">Total Progress: 🏆</span>
+                    <span id="setup-total-score">0</span>
+                    <span class="points-label">COSY Points</span>
+                </div>
+
                 <!-- 1. Language Selection -->
                 <div class="setup-group full-width">
-                    <label data-translate-key="select_practice_language">1. Select language 🌍</label>
+                    <label data-translate-key="select_practice_language">1. Language 🌍</label>
                     <div class="lang-selection-grid" id="lang-selection-grid">
                         <div class="lang-selection-card active" data-value="en">
                             <span class="flag">🇬🇧</span>
@@ -66,11 +72,11 @@
                 <div class="setup-row">
                     <!-- 2. Category Selection -->
                     <div class="setup-group">
-                        <label data-translate-key="category_label">2. Practice Category:</label>
+                        <label data-translate-key="category_label">2. Category 🏷️</label>
                         <div class="chips-group">
                             <label class="toggle-chip">
                                 <input type="radio" name="practice-cat" id="cat-vocab" checked>
-                                <span data-translate-key="cat_vocab">Vocabulary</span>
+                                <span data-translate-key="cat_vocab">Vocab</span>
                             </label>
                             <label class="toggle-chip">
                                 <input type="radio" name="practice-cat" id="cat-grammar">
@@ -85,7 +91,7 @@
 
                     <!-- 3. Lesson Selection -->
                     <div class="setup-group">
-                        <label for="lesson-range" data-translate-key="select_lessons">3. Lesson Range (e.g. 1-5) 📚</label>
+                        <label for="lesson-range" data-translate-key="select_lessons">3. Lessons 📚</label>
                         <input type="text" id="lesson-range" class="pill-input" placeholder="1" value="1">
                     </div>
                 </div>
