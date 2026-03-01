@@ -28,6 +28,26 @@ document.addEventListener('DOMContentLoaded', () => {
         window.speechSynthesis.speak(msg);
     };
 
+    // Mulberry32 algorithm for deterministic random number generation
+    const mulberry32 = (a) => {
+        return function() {
+            let t = a += 0x6D2B79F5;
+            t = Math.imul(t ^ t >>> 15, t | 1);
+            t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+            return ((t ^ t >>> 14) >>> 0) / 4294967296;
+        }
+    };
+
+    // Helper to shuffle array with a seed
+    const seededShuffle = (array, seed) => {
+        const rng = mulberry32(seed);
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(rng() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    };
+
     // --- Charades (Moved from script.js and Enhanced) ---
     const initCharades = () => {
         const modal = document.getElementById('charades-modal');
@@ -81,6 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
             score = 0;
             const lang = document.getElementById('charades-lang').value;
             const theme = themeSelect.value;
+            const level = document.getElementById('charades-level').value;
             const lessons = parseLessons(document.getElementById('charades-lessons').value);
 
             pool = [];
@@ -104,6 +125,14 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (gamesData[lang] && theme === 'all') {
                 Object.values(gamesData[lang]).forEach(list => {
                     list.forEach(w => pool.push(w));
+                });
+            }
+
+            // Filter pool by level if not "all"
+            if (level !== 'all') {
+                pool = pool.filter(item => {
+                    if (typeof item === 'string') return true; // Legacy strings don't have levels
+                    return item.level === level;
                 });
             }
 
@@ -177,10 +206,19 @@ document.addEventListener('DOMContentLoaded', () => {
         startBtn?.addEventListener('click', () => {
             const lang = modal.querySelector('.game-lang').value;
             const theme = themeSelect.value;
+            const level = modal.querySelector('.game-level').value;
 
             pool = [];
             if (gamesData[lang] && gamesData[lang][theme]) {
                 pool = [...gamesData[lang][theme]];
+            }
+
+            // Filter pool by level if not "all"
+            if (level !== 'all') {
+                pool = pool.filter(item => {
+                    if (typeof item === 'string') return true;
+                    return item.level === level;
+                });
             }
 
             if (pool.length === 0) {
@@ -213,9 +251,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const playerArea = document.getElementById('bingo-player-area');
         const lastCalledDisplay = document.getElementById('bingo-last-called');
         const playerGrid = document.getElementById('bingo-player-grid');
+        const historyDisplay = document.getElementById('bingo-history');
+        const nextCardBtn = document.getElementById('bingo-next-card-btn');
+        const cardNumDisplay = document.getElementById('bingo-card-num-display');
 
         let bingoPool = [];
         let calledItems = [];
+        let currentCardIndex = 0;
 
         openBtn?.addEventListener('click', () => {
             modal.style.display = 'flex';
@@ -246,11 +288,25 @@ document.addEventListener('DOMContentLoaded', () => {
             return pool;
         };
 
+        const getSeed = () => {
+            const seedVal = document.getElementById('bingo-seed').value;
+            if (!seedVal) return Math.floor(Math.random() * 1000000);
+            // Simple hash for string seed
+            let hash = 0;
+            for (let i = 0; i < seedVal.length; i++) {
+                hash = ((hash << 5) - hash) + seedVal.charCodeAt(i);
+                hash |= 0;
+            }
+            return Math.abs(hash);
+        };
+
         startCallerBtn?.addEventListener('click', () => {
-            bingoPool = preparePool();
-            bingoPool.sort(() => Math.random() - 0.5);
+            const pool = preparePool();
+            const seed = getSeed();
+            bingoPool = seededShuffle([...pool], seed);
             calledItems = [];
             lastCalledDisplay.textContent = '---';
+            historyDisplay.innerHTML = '';
             setupArea.style.display = 'none';
             callerArea.style.display = 'block';
         });
@@ -263,13 +319,31 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = bingoPool.pop();
             calledItems.push(item);
             lastCalledDisplay.textContent = item;
+
+            // Add to history
+            const histSpan = document.createElement('span');
+            histSpan.className = 'badge';
+            histSpan.style.background = 'var(--primary-color)';
+            histSpan.style.color = 'white';
+            histSpan.style.padding = '2px 8px';
+            histSpan.style.borderRadius = '10px';
+            histSpan.textContent = item;
+            historyDisplay.prepend(histSpan);
+
             speak(item.toString(), document.getElementById('bingo-lang').value);
         });
 
-        startPlayerBtn?.addEventListener('click', () => {
+        const generatePlayerCard = () => {
             const pool = preparePool();
-            pool.sort(() => Math.random() - 0.5);
-            const myItems = pool.slice(0, 9); // 3x3 grid
+            const seed = getSeed();
+
+            // Allow multiple cards from the same seed by offsetting
+            // First card: 0-8, second: 1-9, etc. - No, better use card index as additional seed
+            const cardSeed = seed + currentCardIndex * 100;
+            const cardShuffled = seededShuffle([...pool], cardSeed);
+
+            const myItems = cardShuffled.slice(0, 9);
+            myItems.sort((a,b) => (typeof a === 'number' ? a - b : a.localeCompare(b)));
 
             playerGrid.innerHTML = '';
             myItems.forEach(item => {
@@ -279,9 +353,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 cell.onclick = () => cell.classList.toggle('marked');
                 playerGrid.appendChild(cell);
             });
+            cardNumDisplay.textContent = currentCardIndex + 1;
+        };
 
+        startPlayerBtn?.addEventListener('click', () => {
+            currentCardIndex = 0;
+            generatePlayerCard();
             setupArea.style.display = 'none';
             playerArea.style.display = 'block';
+        });
+
+        nextCardBtn?.addEventListener('click', () => {
+            currentCardIndex++;
+            generatePlayerCard();
         });
     };
 

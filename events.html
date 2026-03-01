@@ -103,6 +103,18 @@
 
                     <div class="setup-row" style="margin-bottom: 1rem;">
                         <div class="setup-group" style="flex: 1; text-align: left;">
+                            <label data-translate-key="select_level">Select Level 📊</label>
+                            <select id="charades-level" class="pill-input" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="starter" data-translate-key="starter">Starter</option>
+                                <option value="elementary" data-translate-key="elementary">Elementary</option>
+                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                                <option value="advanced" data-translate-key="advanced">Advanced</option>
+                                <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1; text-align: left;">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select id="charades-theme" class="pill-input" style="width: 100%;">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
@@ -171,12 +183,26 @@
                             <option value="el">Ελληνικά 🇬🇷</option>
                         </select>
                     </div>
-                    <div class="setup-group">
-                        <label data-translate-key="select_theme">Select Theme 🎨</label>
-                        <select class="pill-input game-theme" style="width: 100%;">
-                            <option value="popular_people" data-translate-key="theme_people">Popular People 🌟</option>
-                            <option value="professions" data-translate-key="theme_people_professions">Professions 👩‍🏫</option>
-                        </select>
+                    <div class="setup-row" style="margin-bottom: 1rem; gap: 1rem;">
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_level">Select Level 📊</label>
+                            <select class="pill-input game-level" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="starter" data-translate-key="starter">Starter</option>
+                                <option value="elementary" data-translate-key="elementary">Elementary</option>
+                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                                <option value="advanced" data-translate-key="advanced">Advanced</option>
+                                <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_theme">Select Theme 🎨</label>
+                            <select class="pill-input game-theme" style="width: 100%;">
+                                <option value="popular_people" data-translate-key="theme_people">Popular People 🌟</option>
+                                <option value="professions" data-translate-key="theme_people_professions">Professions 👩‍🏫</option>
+                            </select>
+                        </div>
                     </div>
                     <button id="start-guess-who-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
                 </div>
@@ -209,10 +235,23 @@
                             <option value="el">Ελληνικά 🇬🇷</option>
                         </select>
                     </div>
-                    <div class="setup-group">
-                        <label data-translate-key="select_theme">Select Theme 🎨</label>
-                        <select class="pill-input game-theme" style="width: 100%;">
-                            <option value="dishes" data-translate-key="theme_dishes">Dishes 🍲</option>
+                    <div class="setup-row" style="margin-bottom: 1rem; gap: 1rem;">
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_level">Select Level 📊</label>
+                            <select class="pill-input game-level" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="starter" data-translate-key="starter">Starter</option>
+                                <option value="elementary" data-translate-key="elementary">Elementary</option>
+                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                                <option value="advanced" data-translate-key="advanced">Advanced</option>
+                                <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_theme">Select Theme 🎨</label>
+                            <select class="pill-input game-theme" style="width: 100%;">
+                                <option value="dishes" data-translate-key="theme_dishes">Dishes 🍲</option>
                             <option value="food" data-translate-key="theme_food">Food 🍎</option>
                             <option value="drinks" data-translate-key="theme_drinks">Drinks 🍷</option>
                             <option value="places" data-translate-key="theme_places">Places 📍</option>
@@ -253,16 +292,22 @@
                             <option value="el">Ελληνικά 🇬🇷</option>
                         </select>
                     </div>
-                    <div class="setup-group">
-                        <label>Level / Type ⚙️</label>
-                        <select id="bingo-level" class="pill-input" style="width: 100%;">
-                            <option value="1" data-translate-key="bingo_lvl_1">Bingo 1 (0-9)</option>
-                            <option value="2" data-translate-key="bingo_lvl_2">Bingo 2 (0-19)</option>
-                            <option value="3" data-translate-key="bingo_lvl_3">Bingo 3 (20-99)</option>
-                            <option value="4" data-translate-key="bingo_lvl_4">Bingo 4 (100-999)</option>
-                            <option value="5" data-translate-key="bingo_lvl_5">Bingo 5 (Random)</option>
-                            <option value="alphabet" data-translate-key="bingo_alphabet">Alphabet</option>
-                        </select>
+                    <div class="setup-row" style="margin-bottom: 1rem; gap: 1rem;">
+                        <div class="setup-group" style="flex: 1;">
+                            <label>Level / Type ⚙️</label>
+                            <select id="bingo-level" class="pill-input" style="width: 100%;">
+                                <option value="1" data-translate-key="bingo_lvl_1">Bingo 1 (0-9)</option>
+                                <option value="2" data-translate-key="bingo_lvl_2">Bingo 2 (0-19)</option>
+                                <option value="3" data-translate-key="bingo_lvl_3">Bingo 3 (20-99)</option>
+                                <option value="4" data-translate-key="bingo_lvl_4">Bingo 4 (100-9999)</option>
+                                <option value="5" data-translate-key="bingo_lvl_5">Bingo 5 (Random)</option>
+                                <option value="alphabet" data-translate-key="bingo_alphabet">Alphabet</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
+                            <label>Game Code 🔑</label>
+                            <input type="text" id="bingo-seed" class="pill-input" placeholder="e.g. 123" style="width: 100%;">
+                        </div>
                     </div>
                     <div style="display: flex; gap: 1rem;">
                         <button id="start-bingo-caller-btn" class="cta-button primary" data-translate-key="bingo_caller" style="flex: 1;">Caller 📣</button>
@@ -273,15 +318,24 @@
                 <!-- Caller Area -->
                 <div id="bingo-caller-area" style="display: none; padding: 2rem 0;">
                     <div id="bingo-last-called" style="font-size: 5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 2rem;">---</div>
-                    <button id="bingo-call-next-btn" class="cta-button primary" data-translate-key="bingo_call_next">Call Next 🎲</button>
+                    <button id="bingo-call-next-btn" class="cta-button primary" data-translate-key="bingo_call_next" style="margin-bottom: 2rem;">Call Next 🎲</button>
+
+                    <div style="text-align: left; max-height: 150px; overflow-y: auto; background: rgba(0,0,0,0.05); padding: 1rem; border-radius: 10px;">
+                        <h4 data-translate-key="called_numbers">Called Numbers:</h4>
+                        <div id="bingo-history" style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;"></div>
+                    </div>
                 </div>
 
                 <!-- Player Area -->
                 <div id="bingo-player-area" style="display: none; padding: 1rem 0;">
-                    <h3 data-translate-key="bingo_your_card">Your Card</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <h3 data-translate-key="bingo_your_card">Your Card</h3>
+                        <div style="font-size: 0.8rem; color: #888;">Card #<span id="bingo-card-num-display">1</span></div>
+                    </div>
                     <div id="bingo-player-grid" class="bingo-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 1.5rem 0;">
                         <!-- Cells added by JS -->
                     </div>
+                    <button id="bingo-next-card-btn" class="topics-toggle-btn secondary-btn" style="width: 100%; font-size: 0.8rem;">New Card 🃏</button>
                 </div>
 
                 <button id="close-bingo-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>

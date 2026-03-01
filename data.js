@@ -1,788 +1,2606 @@
 const gamesData = {
     "en": {
         "popular_people": [
-            "Albert Einstein",
-            "Marie Curie",
-            "Leonardo da Vinci",
-            "William Shakespeare",
-            "Elon Musk",
-            "Marilyn Monroe"
+            {
+                "word": "Albert Einstein",
+                "level": "starter"
+            },
+            {
+                "word": "Marie Curie",
+                "level": "elementary"
+            },
+            {
+                "word": "Leonardo da Vinci",
+                "level": "intermediate"
+            },
+            {
+                "word": "William Shakespeare",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Elon Musk",
+                "level": "advanced"
+            },
+            {
+                "word": "Marilyn Monroe",
+                "level": "proficiency"
+            }
         ],
         "professions": [
-            "Doctor",
-            "Engineer",
-            "Artist",
-            "Pilot",
-            "Chef",
-            "Lawyer",
-            "Teacher",
-            "Nurse",
-            "Firefighter",
-            "Police officer"
+            {
+                "word": "Doctor",
+                "level": "starter"
+            },
+            {
+                "word": "Engineer",
+                "level": "intermediate"
+            },
+            {
+                "word": "Artist",
+                "level": "elementary"
+            },
+            {
+                "word": "Pilot",
+                "level": "intermediate"
+            },
+            {
+                "word": "Chef",
+                "level": "elementary"
+            },
+            {
+                "word": "Lawyer",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Teacher",
+                "level": "starter"
+            },
+            {
+                "word": "Nurse",
+                "level": "elementary"
+            },
+            {
+                "word": "Firefighter",
+                "level": "advanced"
+            },
+            {
+                "word": "Police officer",
+                "level": "upper-intermediate"
+            }
         ],
         "dishes": [
-            "Pizza",
-            "Sushi",
-            "Burger",
-            "Pasta",
-            "Tacos",
-            "Pancakes",
-            "Salad",
-            "Steak"
+            {
+                "word": "Pizza",
+                "level": "starter"
+            },
+            {
+                "word": "Sushi",
+                "level": "intermediate"
+            },
+            {
+                "word": "Burger",
+                "level": "elementary"
+            },
+            {
+                "word": "Pasta",
+                "level": "starter"
+            },
+            {
+                "word": "Tacos",
+                "level": "elementary"
+            },
+            {
+                "word": "Pancakes",
+                "level": "intermediate"
+            },
+            {
+                "word": "Salad",
+                "level": "elementary"
+            },
+            {
+                "word": "Steak",
+                "level": "upper-intermediate"
+            }
         ],
         "food": [
-            "Apple",
-            "Bread",
-            "Cheese",
-            "Egg",
-            "Milk",
-            "Rice",
-            "Tomato",
-            "Potato",
-            "Carrot",
-            "Banana"
+            {
+                "word": "Apple",
+                "level": "starter"
+            },
+            {
+                "word": "Bread",
+                "level": "starter"
+            },
+            {
+                "word": "Cheese",
+                "level": "elementary"
+            },
+            {
+                "word": "Egg",
+                "level": "starter"
+            },
+            {
+                "word": "Milk",
+                "level": "starter"
+            },
+            {
+                "word": "Rice",
+                "level": "elementary"
+            },
+            {
+                "word": "Tomato",
+                "level": "elementary"
+            },
+            {
+                "word": "Potato",
+                "level": "elementary"
+            },
+            {
+                "word": "Carrot",
+                "level": "intermediate"
+            },
+            {
+                "word": "Banana",
+                "level": "starter"
+            }
         ],
         "drinks": [
-            "Coffee",
-            "Tea",
-            "Wine",
-            "Beer",
-            "Juice",
-            "Water",
-            "Milkshake",
-            "Soda"
+            {
+                "word": "Coffee",
+                "level": "starter"
+            },
+            {
+                "word": "Tea",
+                "level": "starter"
+            },
+            {
+                "word": "Wine",
+                "level": "elementary"
+            },
+            {
+                "word": "Beer",
+                "level": "elementary"
+            },
+            {
+                "word": "Juice",
+                "level": "starter"
+            },
+            {
+                "word": "Water",
+                "level": "starter"
+            },
+            {
+                "word": "Milkshake",
+                "level": "intermediate"
+            },
+            {
+                "word": "Soda",
+                "level": "elementary"
+            }
         ],
         "places": [
-            "Park",
-            "School",
-            "Hospital",
-            "Cinema",
-            "Restaurant",
-            "Library",
-            "Museum",
-            "Supermarket",
-            "Pharmacy",
-            "Airport"
+            {
+                "word": "Park",
+                "level": "starter"
+            },
+            {
+                "word": "School",
+                "level": "starter"
+            },
+            {
+                "word": "Hospital",
+                "level": "elementary"
+            },
+            {
+                "word": "Cinema",
+                "level": "elementary"
+            },
+            {
+                "word": "Restaurant",
+                "level": "elementary"
+            },
+            {
+                "word": "Library",
+                "level": "intermediate"
+            },
+            {
+                "word": "Museum",
+                "level": "intermediate"
+            },
+            {
+                "word": "Supermarket",
+                "level": "elementary"
+            },
+            {
+                "word": "Pharmacy",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Airport",
+                "level": "intermediate"
+            }
         ],
         "countries": [
-            "France",
-            "Italy",
-            "Russia",
-            "Greece",
-            "England",
-            "Germany",
-            "Spain",
-            "USA",
-            "Canada",
-            "Australia",
-            "Japan",
-            "China"
+            {
+                "word": "France",
+                "level": "starter"
+            },
+            {
+                "word": "Italy",
+                "level": "starter"
+            },
+            {
+                "word": "Russia",
+                "level": "starter"
+            },
+            {
+                "word": "Greece",
+                "level": "starter"
+            },
+            {
+                "word": "England",
+                "level": "starter"
+            },
+            {
+                "word": "Germany",
+                "level": "elementary"
+            },
+            {
+                "word": "Spain",
+                "level": "starter"
+            },
+            {
+                "word": "USA",
+                "level": "starter"
+            },
+            {
+                "word": "Canada",
+                "level": "elementary"
+            },
+            {
+                "word": "Australia",
+                "level": "intermediate"
+            },
+            {
+                "word": "Japan",
+                "level": "intermediate"
+            },
+            {
+                "word": "China",
+                "level": "intermediate"
+            }
         ],
         "cities": [
-            "Paris",
-            "London",
-            "Rome",
-            "Moscow",
-            "Athens",
-            "Berlin",
-            "Madrid",
-            "New York",
-            "Tokyo",
-            "Sydney"
+            {
+                "word": "Paris",
+                "level": "starter"
+            },
+            {
+                "word": "London",
+                "level": "starter"
+            },
+            {
+                "word": "Rome",
+                "level": "starter"
+            },
+            {
+                "word": "Moscow",
+                "level": "starter"
+            },
+            {
+                "word": "Athens",
+                "level": "starter"
+            },
+            {
+                "word": "Berlin",
+                "level": "elementary"
+            },
+            {
+                "word": "Madrid",
+                "level": "elementary"
+            },
+            {
+                "word": "New York",
+                "level": "starter"
+            },
+            {
+                "word": "Tokyo",
+                "level": "intermediate"
+            },
+            {
+                "word": "Sydney",
+                "level": "intermediate"
+            }
         ],
         "clothing": [
-            "T-shirt",
-            "Pants",
-            "Dress",
-            "Shoes",
-            "Hat",
-            "Jacket",
-            "Skirt",
-            "Socks",
-            "Sweater",
-            "Scarf"
+            {
+                "word": "T-shirt",
+                "level": "starter"
+            },
+            {
+                "word": "Pants",
+                "level": "starter"
+            },
+            {
+                "word": "Dress",
+                "level": "elementary"
+            },
+            {
+                "word": "Shoes",
+                "level": "starter"
+            },
+            {
+                "word": "Hat",
+                "level": "starter"
+            },
+            {
+                "word": "Jacket",
+                "level": "elementary"
+            },
+            {
+                "word": "Skirt",
+                "level": "elementary"
+            },
+            {
+                "word": "Socks",
+                "level": "elementary"
+            },
+            {
+                "word": "Sweater",
+                "level": "intermediate"
+            },
+            {
+                "word": "Scarf",
+                "level": "intermediate"
+            }
         ],
         "furniture": [
-            "Chair",
-            "Table",
-            "Bed",
-            "Sofa",
-            "Lamp",
-            "Desk",
-            "Wardrobe",
-            "Shelf",
-            "Mirror",
-            "Armchair"
+            {
+                "word": "Chair",
+                "level": "starter"
+            },
+            {
+                "word": "Table",
+                "level": "starter"
+            },
+            {
+                "word": "Bed",
+                "level": "starter"
+            },
+            {
+                "word": "Sofa",
+                "level": "elementary"
+            },
+            {
+                "word": "Lamp",
+                "level": "elementary"
+            },
+            {
+                "word": "Desk",
+                "level": "elementary"
+            },
+            {
+                "word": "Wardrobe",
+                "level": "intermediate"
+            },
+            {
+                "word": "Shelf",
+                "level": "intermediate"
+            },
+            {
+                "word": "Mirror",
+                "level": "intermediate"
+            },
+            {
+                "word": "Armchair",
+                "level": "upper-intermediate"
+            }
         ],
         "appearance": [
-            "Tall",
-            "Short",
-            "Beautiful",
-            "Strong",
-            "Thin",
-            "Young",
-            "Old",
-            "Blonde"
+            {
+                "word": "Tall",
+                "level": "starter"
+            },
+            {
+                "word": "Short",
+                "level": "starter"
+            },
+            {
+                "word": "Beautiful",
+                "level": "elementary"
+            },
+            {
+                "word": "Strong",
+                "level": "elementary"
+            },
+            {
+                "word": "Thin",
+                "level": "intermediate"
+            },
+            {
+                "word": "Young",
+                "level": "starter"
+            },
+            {
+                "word": "Old",
+                "level": "starter"
+            },
+            {
+                "word": "Blonde",
+                "level": "elementary"
+            }
         ],
         "routine": [
-            "Wake up",
-            "Brush teeth",
-            "Shower",
-            "Breakfast",
-            "Work",
-            "Lunch",
-            "Dinner",
-            "Sleep"
+            {
+                "word": "Wake up",
+                "level": "starter"
+            },
+            {
+                "word": "Brush teeth",
+                "level": "elementary"
+            },
+            {
+                "word": "Shower",
+                "level": "elementary"
+            },
+            {
+                "word": "Breakfast",
+                "level": "starter"
+            },
+            {
+                "word": "Work",
+                "level": "starter"
+            },
+            {
+                "word": "Lunch",
+                "level": "starter"
+            },
+            {
+                "word": "Dinner",
+                "level": "starter"
+            },
+            {
+                "word": "Sleep",
+                "level": "starter"
+            }
         ],
         "objects": [
-            "Key",
-            "Phone",
-            "Book",
-            "Watch",
-            "Wallet",
-            "Glasses",
-            "Umbrella",
-            "Bag",
-            "Laptop",
-            "Pen"
+            {
+                "word": "Key",
+                "level": "starter"
+            },
+            {
+                "word": "Phone",
+                "level": "starter"
+            },
+            {
+                "word": "Book",
+                "level": "starter"
+            },
+            {
+                "word": "Watch",
+                "level": "elementary"
+            },
+            {
+                "word": "Wallet",
+                "level": "elementary"
+            },
+            {
+                "word": "Glasses",
+                "level": "elementary"
+            },
+            {
+                "word": "Umbrella",
+                "level": "intermediate"
+            },
+            {
+                "word": "Bag",
+                "level": "starter"
+            },
+            {
+                "word": "Laptop",
+                "level": "intermediate"
+            },
+            {
+                "word": "Pen",
+                "level": "starter"
+            }
         ],
         "animals": [
-            "Cat",
-            "Dog",
-            "Bird",
-            "Lion",
-            "Tiger",
-            "Elephant",
-            "Monkey",
-            "Horse",
-            "Rabbit",
-            "Fish"
+            {
+                "word": "Cat",
+                "level": "starter"
+            },
+            {
+                "word": "Dog",
+                "level": "starter"
+            },
+            {
+                "word": "Bird",
+                "level": "starter"
+            },
+            {
+                "word": "Lion",
+                "level": "elementary"
+            },
+            {
+                "word": "Tiger",
+                "level": "elementary"
+            },
+            {
+                "word": "Elephant",
+                "level": "intermediate"
+            },
+            {
+                "word": "Monkey",
+                "level": "intermediate"
+            },
+            {
+                "word": "Horse",
+                "level": "elementary"
+            },
+            {
+                "word": "Rabbit",
+                "level": "elementary"
+            },
+            {
+                "word": "Fish",
+                "level": "starter"
+            }
         ],
         "hobby": [
-            "Drawing",
-            "Cooking",
-            "Reading",
-            "Dancing",
-            "Singing",
-            "Photography",
-            "Gardening",
-            "Fishing"
+            {
+                "word": "Drawing",
+                "level": "elementary"
+            },
+            {
+                "word": "Cooking",
+                "level": "elementary"
+            },
+            {
+                "word": "Reading",
+                "level": "starter"
+            },
+            {
+                "word": "Dancing",
+                "level": "elementary"
+            },
+            {
+                "word": "Singing",
+                "level": "elementary"
+            },
+            {
+                "word": "Photography",
+                "level": "intermediate"
+            },
+            {
+                "word": "Gardening",
+                "level": "intermediate"
+            },
+            {
+                "word": "Fishing",
+                "level": "intermediate"
+            }
         ],
         "weather": [
-            "Sunny",
-            "Rainy",
-            "Snowy",
-            "Windy",
-            "Cloudy",
-            "Stormy",
-            "Hot",
-            "Cold"
+            {
+                "word": "Sunny",
+                "level": "starter"
+            },
+            {
+                "word": "Rainy",
+                "level": "starter"
+            },
+            {
+                "word": "Snowy",
+                "level": "elementary"
+            },
+            {
+                "word": "Windy",
+                "level": "elementary"
+            },
+            {
+                "word": "Cloudy",
+                "level": "elementary"
+            },
+            {
+                "word": "Stormy",
+                "level": "intermediate"
+            },
+            {
+                "word": "Hot",
+                "level": "starter"
+            },
+            {
+                "word": "Cold",
+                "level": "starter"
+            }
         ],
         "body": [
-            "Head",
-            "Hand",
-            "Leg",
-            "Eye",
-            "Nose",
-            "Mouth",
-            "Ear",
-            "Arm",
-            "Foot",
-            "Finger"
+            {
+                "word": "Head",
+                "level": "starter"
+            },
+            {
+                "word": "Hand",
+                "level": "starter"
+            },
+            {
+                "word": "Leg",
+                "level": "starter"
+            },
+            {
+                "word": "Eye",
+                "level": "starter"
+            },
+            {
+                "word": "Nose",
+                "level": "starter"
+            },
+            {
+                "word": "Mouth",
+                "level": "starter"
+            },
+            {
+                "word": "Ear",
+                "level": "starter"
+            },
+            {
+                "word": "Arm",
+                "level": "elementary"
+            },
+            {
+                "word": "Foot",
+                "level": "starter"
+            },
+            {
+                "word": "Finger",
+                "level": "elementary"
+            }
         ]
     },
     "fr": {
         "popular_people": [
-            "Napoléon Bonaparte",
-            "Marie Curie",
-            "Victor Hugo",
-            "Edith Piaf",
-            "Claude Monet"
+            {
+                "word": "Napoléon Bonaparte",
+                "level": "starter"
+            },
+            {
+                "word": "Marie Curie",
+                "level": "elementary"
+            },
+            {
+                "word": "Victor Hugo",
+                "level": "intermediate"
+            },
+            {
+                "word": "Edith Piaf",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Claude Monet",
+                "level": "advanced"
+            }
         ],
         "professions": [
-            "Médecin",
-            "Ingénieur",
-            "Artiste",
-            "Pilote",
-            "Chef",
-            "Avocat",
-            "Professeur",
-            "Infirmier"
+            {
+                "word": "Médecin",
+                "level": "starter"
+            },
+            {
+                "word": "Ingénieur",
+                "level": "intermediate"
+            },
+            {
+                "word": "Artiste",
+                "level": "elementary"
+            },
+            {
+                "word": "Pilote",
+                "level": "intermediate"
+            },
+            {
+                "word": "Chef",
+                "level": "elementary"
+            },
+            {
+                "word": "Avocat",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Professeur",
+                "level": "starter"
+            },
+            {
+                "word": "Infirmier",
+                "level": "elementary"
+            }
         ],
         "dishes": [
-            "Ratatouille",
-            "Quiche",
-            "Crêpe",
-            "Croissant",
-            "Fondue",
-            "Escargots"
+            {
+                "word": "Ratatouille",
+                "level": "starter"
+            },
+            {
+                "word": "Quiche",
+                "level": "intermediate"
+            },
+            {
+                "word": "Crêpe",
+                "level": "elementary"
+            },
+            {
+                "word": "Croissant",
+                "level": "starter"
+            },
+            {
+                "word": "Fondue",
+                "level": "elementary"
+            },
+            {
+                "word": "Escargots",
+                "level": "intermediate"
+            }
         ],
         "food": [
-            "Pomme",
-            "Pain",
-            "Fromage",
-            "Oeuf",
-            "Lait",
-            "Riz",
-            "Tomate",
-            "Pomme de terre"
+            {
+                "word": "Pomme",
+                "level": "starter"
+            },
+            {
+                "word": "Pain",
+                "level": "starter"
+            },
+            {
+                "word": "Fromage",
+                "level": "elementary"
+            },
+            {
+                "word": "Oeuf",
+                "level": "starter"
+            },
+            {
+                "word": "Lait",
+                "level": "starter"
+            },
+            {
+                "word": "Riz",
+                "level": "elementary"
+            },
+            {
+                "word": "Tomate",
+                "level": "elementary"
+            },
+            {
+                "word": "Pomme de terre",
+                "level": "elementary"
+            }
         ],
         "drinks": [
-            "Café",
-            "Thé",
-            "Vin",
-            "Bière",
-            "Jus",
-            "Eau",
-            "Limonade"
+            {
+                "word": "Café",
+                "level": "starter"
+            },
+            {
+                "word": "Thé",
+                "level": "starter"
+            },
+            {
+                "word": "Vin",
+                "level": "elementary"
+            },
+            {
+                "word": "Bière",
+                "level": "elementary"
+            },
+            {
+                "word": "Jus",
+                "level": "starter"
+            },
+            {
+                "word": "Eau",
+                "level": "starter"
+            },
+            {
+                "word": "Limonade",
+                "level": "intermediate"
+            }
         ],
         "places": [
-            "Parc",
-            "École",
-            "Hôpital",
-            "Cinéma",
-            "Restaurant",
-            "Bibliothèque",
-            "Musée"
+            {
+                "word": "Parc",
+                "level": "starter"
+            },
+            {
+                "word": "École",
+                "level": "starter"
+            },
+            {
+                "word": "Hôpital",
+                "level": "elementary"
+            },
+            {
+                "word": "Cinéma",
+                "level": "elementary"
+            },
+            {
+                "word": "Restaurant",
+                "level": "elementary"
+            },
+            {
+                "word": "Bibliothèque",
+                "level": "intermediate"
+            },
+            {
+                "word": "Musée",
+                "level": "intermediate"
+            }
         ],
         "countries": [
-            "France",
-            "Italie",
-            "Russie",
-            "Grèce",
-            "Angleterre",
-            "Allemagne",
-            "Espagne"
+            {
+                "word": "France",
+                "level": "starter"
+            },
+            {
+                "word": "Italie",
+                "level": "starter"
+            },
+            {
+                "word": "Russie",
+                "level": "starter"
+            },
+            {
+                "word": "Grèce",
+                "level": "starter"
+            },
+            {
+                "word": "Angleterre",
+                "level": "starter"
+            },
+            {
+                "word": "Allemagne",
+                "level": "elementary"
+            },
+            {
+                "word": "Espagne",
+                "level": "starter"
+            }
         ],
         "cities": [
-            "Paris",
-            "Lyon",
-            "Marseille",
-            "Bordeaux",
-            "Lille",
-            "Nice"
+            {
+                "word": "Paris",
+                "level": "starter"
+            },
+            {
+                "word": "Lyon",
+                "level": "starter"
+            },
+            {
+                "word": "Marseille",
+                "level": "starter"
+            },
+            {
+                "word": "Bordeaux",
+                "level": "starter"
+            },
+            {
+                "word": "Lille",
+                "level": "starter"
+            },
+            {
+                "word": "Nice",
+                "level": "elementary"
+            }
         ],
         "clothing": [
-            "T-shirt",
-            "Pantalon",
-            "Robe",
-            "Chaussures",
-            "Chapeau",
-            "Veste",
-            "Jupe"
+            {
+                "word": "T-shirt",
+                "level": "starter"
+            },
+            {
+                "word": "Pantalon",
+                "level": "starter"
+            },
+            {
+                "word": "Robe",
+                "level": "elementary"
+            },
+            {
+                "word": "Chaussures",
+                "level": "starter"
+            },
+            {
+                "word": "Chapeau",
+                "level": "starter"
+            },
+            {
+                "word": "Veste",
+                "level": "elementary"
+            },
+            {
+                "word": "Jupe",
+                "level": "elementary"
+            }
         ],
         "furniture": [
-            "Chaise",
-            "Table",
-            "Lit",
-            "Canapé",
-            "Lampe",
-            "Bureau",
-            "Armoire"
+            {
+                "word": "Chaise",
+                "level": "starter"
+            },
+            {
+                "word": "Table",
+                "level": "starter"
+            },
+            {
+                "word": "Lit",
+                "level": "starter"
+            },
+            {
+                "word": "Canapé",
+                "level": "elementary"
+            },
+            {
+                "word": "Lampe",
+                "level": "elementary"
+            },
+            {
+                "word": "Bureau",
+                "level": "elementary"
+            },
+            {
+                "word": "Armoire",
+                "level": "intermediate"
+            }
         ],
         "appearance": [
-            "Grand",
-            "Petit",
-            "Beau",
-            "Fort",
-            "Mince",
-            "Jeune",
-            "Vieux"
+            {
+                "word": "Grand",
+                "level": "starter"
+            },
+            {
+                "word": "Petit",
+                "level": "starter"
+            },
+            {
+                "word": "Beau",
+                "level": "elementary"
+            },
+            {
+                "word": "Fort",
+                "level": "elementary"
+            },
+            {
+                "word": "Mince",
+                "level": "intermediate"
+            },
+            {
+                "word": "Jeune",
+                "level": "starter"
+            },
+            {
+                "word": "Vieux",
+                "level": "starter"
+            }
         ],
         "routine": [
-            "Se réveiller",
-            "Se brosser les dents",
-            "Prendre une douche",
-            "Dormir"
+            {
+                "word": "Se réveiller",
+                "level": "starter"
+            },
+            {
+                "word": "Se brosser les dents",
+                "level": "elementary"
+            },
+            {
+                "word": "Prendre une douche",
+                "level": "elementary"
+            },
+            {
+                "word": "Dormir",
+                "level": "starter"
+            }
         ],
         "objects": [
-            "Clé",
-            "Téléphone",
-            "Livre",
-            "Montre",
-            "Portefeuille",
-            "Lunettes"
+            {
+                "word": "Clé",
+                "level": "starter"
+            },
+            {
+                "word": "Téléphone",
+                "level": "starter"
+            },
+            {
+                "word": "Livre",
+                "level": "starter"
+            },
+            {
+                "word": "Montre",
+                "level": "elementary"
+            },
+            {
+                "word": "Portefeuille",
+                "level": "elementary"
+            },
+            {
+                "word": "Lunettes",
+                "level": "elementary"
+            }
         ],
         "animals": [
-            "Chat",
-            "Chien",
-            "Oiseau",
-            "Lion",
-            "Tigre",
-            "Éléphant",
-            "Singe",
-            "Cheval"
+            {
+                "word": "Chat",
+                "level": "starter"
+            },
+            {
+                "word": "Chien",
+                "level": "starter"
+            },
+            {
+                "word": "Oiseau",
+                "level": "starter"
+            },
+            {
+                "word": "Lion",
+                "level": "elementary"
+            },
+            {
+                "word": "Tigre",
+                "level": "elementary"
+            },
+            {
+                "word": "Éléphant",
+                "level": "intermediate"
+            },
+            {
+                "word": "Singe",
+                "level": "intermediate"
+            },
+            {
+                "word": "Cheval",
+                "level": "elementary"
+            }
         ],
         "hobby": [
-            "Dessiner",
-            "Cuisiner",
-            "Lire",
-            "Danser",
-            "Chanter",
-            "Jardiner"
+            {
+                "word": "Dessiner",
+                "level": "elementary"
+            },
+            {
+                "word": "Cuisiner",
+                "level": "elementary"
+            },
+            {
+                "word": "Lire",
+                "level": "starter"
+            },
+            {
+                "word": "Danser",
+                "level": "elementary"
+            },
+            {
+                "word": "Chanter",
+                "level": "elementary"
+            },
+            {
+                "word": "Jardiner",
+                "level": "intermediate"
+            }
         ],
         "weather": [
-            "Ensoleillé",
-            "Pluvieux",
-            "Neigeux",
-            "Venteux",
-            "Nuageux",
-            "Chaud",
-            "Froid"
+            {
+                "word": "Ensoleillé",
+                "level": "starter"
+            },
+            {
+                "word": "Pluvieux",
+                "level": "starter"
+            },
+            {
+                "word": "Neigeux",
+                "level": "elementary"
+            },
+            {
+                "word": "Venteux",
+                "level": "elementary"
+            },
+            {
+                "word": "Nuageux",
+                "level": "elementary"
+            },
+            {
+                "word": "Chaud",
+                "level": "intermediate"
+            },
+            {
+                "word": "Froid",
+                "level": "starter"
+            }
         ],
         "body": [
-            "Tête",
-            "Main",
-            "Jambe",
-            "Oeil",
-            "Nez",
-            "Bouche",
-            "Oreille",
-            "Bras",
-            "Pied"
+            {
+                "word": "Tête",
+                "level": "starter"
+            },
+            {
+                "word": "Main",
+                "level": "starter"
+            },
+            {
+                "word": "Jambe",
+                "level": "starter"
+            },
+            {
+                "word": "Oeil",
+                "level": "starter"
+            },
+            {
+                "word": "Nez",
+                "level": "starter"
+            },
+            {
+                "word": "Bouche",
+                "level": "starter"
+            },
+            {
+                "word": "Oreille",
+                "level": "starter"
+            },
+            {
+                "word": "Bras",
+                "level": "elementary"
+            },
+            {
+                "word": "Pied",
+                "level": "starter"
+            }
         ]
     },
     "it": {
         "popular_people": [
-            "Leonardo da Vinci",
-            "Dante Alighieri",
-            "Galileo Galilei",
-            "Sophia Loren"
+            {
+                "word": "Leonardo da Vinci",
+                "level": "starter"
+            },
+            {
+                "word": "Dante Alighieri",
+                "level": "elementary"
+            },
+            {
+                "word": "Galileo Galilei",
+                "level": "intermediate"
+            },
+            {
+                "word": "Sophia Loren",
+                "level": "upper-intermediate"
+            }
         ],
         "professions": [
-            "Medico",
-            "Ingegnere",
-            "Artista",
-            "Pilota",
-            "Chef",
-            "Avvocato",
-            "Insegnante"
+            {
+                "word": "Medico",
+                "level": "starter"
+            },
+            {
+                "word": "Ingegnere",
+                "level": "intermediate"
+            },
+            {
+                "word": "Artista",
+                "level": "elementary"
+            },
+            {
+                "word": "Pilota",
+                "level": "intermediate"
+            },
+            {
+                "word": "Chef",
+                "level": "elementary"
+            },
+            {
+                "word": "Avvocato",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Insegnante",
+                "level": "starter"
+            }
         ],
         "dishes": [
-            "Pasta",
-            "Pizza",
-            "Risotto",
-            "Lasagna",
-            "Gelato",
-            "Tiramisù"
+            {
+                "word": "Pasta",
+                "level": "starter"
+            },
+            {
+                "word": "Pizza",
+                "level": "intermediate"
+            },
+            {
+                "word": "Risotto",
+                "level": "elementary"
+            },
+            {
+                "word": "Lasagna",
+                "level": "starter"
+            },
+            {
+                "word": "Gelato",
+                "level": "elementary"
+            },
+            {
+                "word": "Tiramisù",
+                "level": "intermediate"
+            }
         ],
         "food": [
-            "Mela",
-            "Pane",
-            "Formaggio",
-            "Uovo",
-            "Latte",
-            "Riso",
-            "Pomodoro",
-            "Patata"
+            {
+                "word": "Mela",
+                "level": "starter"
+            },
+            {
+                "word": "Pane",
+                "level": "starter"
+            },
+            {
+                "word": "Formaggio",
+                "level": "elementary"
+            },
+            {
+                "word": "Uovo",
+                "level": "starter"
+            },
+            {
+                "word": "Latte",
+                "level": "starter"
+            },
+            {
+                "word": "Riso",
+                "level": "elementary"
+            },
+            {
+                "word": "Pomodoro",
+                "level": "elementary"
+            },
+            {
+                "word": "Patata",
+                "level": "elementary"
+            }
         ],
         "drinks": [
-            "Caffè",
-            "Tè",
-            "Vino",
-            "Birra",
-            "Succo",
-            "Acqua",
-            "Aranciata"
+            {
+                "word": "Caffè",
+                "level": "starter"
+            },
+            {
+                "word": "Tè",
+                "level": "starter"
+            },
+            {
+                "word": "Vino",
+                "level": "elementary"
+            },
+            {
+                "word": "Birra",
+                "level": "elementary"
+            },
+            {
+                "word": "Succo",
+                "level": "starter"
+            },
+            {
+                "word": "Acqua",
+                "level": "starter"
+            },
+            {
+                "word": "Aranciata",
+                "level": "intermediate"
+            }
         ],
         "places": [
-            "Parco",
-            "Scuola",
-            "Ospedale",
-            "Cinema",
-            "Ristorante",
-            "Biblioteca",
-            "Museo"
+            {
+                "word": "Parco",
+                "level": "starter"
+            },
+            {
+                "word": "Scuola",
+                "level": "starter"
+            },
+            {
+                "word": "Ospedale",
+                "level": "elementary"
+            },
+            {
+                "word": "Cinema",
+                "level": "elementary"
+            },
+            {
+                "word": "Ristorante",
+                "level": "elementary"
+            },
+            {
+                "word": "Biblioteca",
+                "level": "intermediate"
+            },
+            {
+                "word": "Museo",
+                "level": "intermediate"
+            }
         ],
         "countries": [
-            "Francia",
-            "Italia",
-            "Russia",
-            "Grecia",
-            "Inghilterra",
-            "Germania",
-            "Spagna"
+            {
+                "word": "Francia",
+                "level": "starter"
+            },
+            {
+                "word": "Italia",
+                "level": "starter"
+            },
+            {
+                "word": "Russia",
+                "level": "starter"
+            },
+            {
+                "word": "Grecia",
+                "level": "starter"
+            },
+            {
+                "word": "Inghilterra",
+                "level": "starter"
+            },
+            {
+                "word": "Germania",
+                "level": "elementary"
+            },
+            {
+                "word": "Spagna",
+                "level": "starter"
+            }
         ],
         "cities": [
-            "Roma",
-            "Milano",
-            "Napoli",
-            "Firenze",
-            "Venezia",
-            "Torino"
+            {
+                "word": "Roma",
+                "level": "starter"
+            },
+            {
+                "word": "Milano",
+                "level": "starter"
+            },
+            {
+                "word": "Napoli",
+                "level": "starter"
+            },
+            {
+                "word": "Firenze",
+                "level": "starter"
+            },
+            {
+                "word": "Venezia",
+                "level": "starter"
+            },
+            {
+                "word": "Torino",
+                "level": "elementary"
+            }
         ],
         "clothing": [
-            "Maglietta",
-            "Pantaloni",
-            "Vestito",
-            "Scarpe",
-            "Cappello",
-            "Giacca",
-            "Gonna"
+            {
+                "word": "Maglietta",
+                "level": "starter"
+            },
+            {
+                "word": "Pantaloni",
+                "level": "starter"
+            },
+            {
+                "word": "Vestito",
+                "level": "elementary"
+            },
+            {
+                "word": "Scarpe",
+                "level": "starter"
+            },
+            {
+                "word": "Cappello",
+                "level": "starter"
+            },
+            {
+                "word": "Giacca",
+                "level": "elementary"
+            },
+            {
+                "word": "Gonna",
+                "level": "elementary"
+            }
         ],
         "furniture": [
-            "Sedia",
-            "Tavolo",
-            "Letto",
-            "Divano",
-            "Lampada",
-            "Scrivania",
-            "Armadio"
+            {
+                "word": "Sedia",
+                "level": "starter"
+            },
+            {
+                "word": "Tavolo",
+                "level": "starter"
+            },
+            {
+                "word": "Letto",
+                "level": "starter"
+            },
+            {
+                "word": "Divano",
+                "level": "elementary"
+            },
+            {
+                "word": "Lampada",
+                "level": "elementary"
+            },
+            {
+                "word": "Scrivania",
+                "level": "elementary"
+            },
+            {
+                "word": "Armadio",
+                "level": "intermediate"
+            }
         ],
         "appearance": [
-            "Alto",
-            "Basso",
-            "Bello",
-            "Forte",
-            "Magro",
-            "Giovane",
-            "Vecchio"
+            {
+                "word": "Alto",
+                "level": "starter"
+            },
+            {
+                "word": "Basso",
+                "level": "starter"
+            },
+            {
+                "word": "Bello",
+                "level": "elementary"
+            },
+            {
+                "word": "Forte",
+                "level": "elementary"
+            },
+            {
+                "word": "Magro",
+                "level": "intermediate"
+            },
+            {
+                "word": "Giovane",
+                "level": "starter"
+            },
+            {
+                "word": "Vecchio",
+                "level": "starter"
+            }
         ],
         "routine": [
-            "Svegliarsi",
-            "Lavarsi i denti",
-            "Fare la doccia",
-            "Dormire"
+            {
+                "word": "Svegliarsi",
+                "level": "starter"
+            },
+            {
+                "word": "Lavarsi i denti",
+                "level": "elementary"
+            },
+            {
+                "word": "Fare la doccia",
+                "level": "elementary"
+            },
+            {
+                "word": "Dormire",
+                "level": "starter"
+            }
         ],
         "objects": [
-            "Chiave",
-            "Telefono",
-            "Libro",
-            "Orologio",
-            "Portafoglio",
-            "Occhiali"
+            {
+                "word": "Chiave",
+                "level": "starter"
+            },
+            {
+                "word": "Telefono",
+                "level": "starter"
+            },
+            {
+                "word": "Libro",
+                "level": "starter"
+            },
+            {
+                "word": "Orologio",
+                "level": "elementary"
+            },
+            {
+                "word": "Portafoglio",
+                "level": "elementary"
+            },
+            {
+                "word": "Occhiali",
+                "level": "elementary"
+            }
         ],
         "animals": [
-            "Gatto",
-            "Cane",
-            "Uccello",
-            "Leone",
-            "Tigre",
-            "Elefante",
-            "Scimmia",
-            "Cavallo"
+            {
+                "word": "Gatto",
+                "level": "starter"
+            },
+            {
+                "word": "Cane",
+                "level": "starter"
+            },
+            {
+                "word": "Uccello",
+                "level": "starter"
+            },
+            {
+                "word": "Leone",
+                "level": "elementary"
+            },
+            {
+                "word": "Tigre",
+                "level": "elementary"
+            },
+            {
+                "word": "Elefante",
+                "level": "intermediate"
+            },
+            {
+                "word": "Scimmia",
+                "level": "intermediate"
+            },
+            {
+                "word": "Cavallo",
+                "level": "elementary"
+            }
         ],
         "hobby": [
-            "Disegnare",
-            "Cucinare",
-            "Leggere",
-            "Danzare",
-            "Cantare",
-            "Giardinaggio"
+            {
+                "word": "Disegnare",
+                "level": "elementary"
+            },
+            {
+                "word": "Cucinare",
+                "level": "elementary"
+            },
+            {
+                "word": "Leggere",
+                "level": "starter"
+            },
+            {
+                "word": "Danzare",
+                "level": "elementary"
+            },
+            {
+                "word": "Cantare",
+                "level": "elementary"
+            },
+            {
+                "word": "Giardinaggio",
+                "level": "intermediate"
+            }
         ],
         "weather": [
-            "Soleggiato",
-            "Piovoso",
-            "Nevoso",
-            "Ventoso",
-            "Nuvoloso",
-            "Caldo",
-            "Freddo"
+            {
+                "word": "Soleggiato",
+                "level": "starter"
+            },
+            {
+                "word": "Piovoso",
+                "level": "starter"
+            },
+            {
+                "word": "Nevoso",
+                "level": "elementary"
+            },
+            {
+                "word": "Ventoso",
+                "level": "elementary"
+            },
+            {
+                "word": "Nuvoloso",
+                "level": "elementary"
+            },
+            {
+                "word": "Caldo",
+                "level": "intermediate"
+            },
+            {
+                "word": "Freddo",
+                "level": "starter"
+            }
         ],
         "body": [
-            "Testa",
-            "Mano",
-            "Gamba",
-            "Occhio",
-            "Naso",
-            "Bocca",
-            "Orecchio",
-            "Braccio",
-            "Piede"
+            {
+                "word": "Testa",
+                "level": "starter"
+            },
+            {
+                "word": "Mano",
+                "level": "starter"
+            },
+            {
+                "word": "Gamba",
+                "level": "starter"
+            },
+            {
+                "word": "Occhio",
+                "level": "starter"
+            },
+            {
+                "word": "Naso",
+                "level": "starter"
+            },
+            {
+                "word": "Bocca",
+                "level": "starter"
+            },
+            {
+                "word": "Orecchio",
+                "level": "starter"
+            },
+            {
+                "word": "Braccio",
+                "level": "elementary"
+            },
+            {
+                "word": "Piede",
+                "level": "starter"
+            }
         ]
     },
     "ru": {
         "popular_people": [
-            "Александр Пушкин",
-            "Лев Толстой",
-            "Юрий Гагарин",
-            "Пётр I",
-            "Мария Шарапова"
+            {
+                "word": "Александр Пушкин",
+                "level": "starter"
+            },
+            {
+                "word": "Лев Толстой",
+                "level": "elementary"
+            },
+            {
+                "word": "Юрий Гагарин",
+                "level": "intermediate"
+            },
+            {
+                "word": "Пётр I",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Мария Шарапова",
+                "level": "advanced"
+            }
         ],
         "professions": [
-            "Врач",
-            "Инженер",
-            "Художник",
-            "Пилот",
-            "Повар",
-            "Юрист",
-            "Учитель"
+            {
+                "word": "Врач",
+                "level": "starter"
+            },
+            {
+                "word": "Инженер",
+                "level": "intermediate"
+            },
+            {
+                "word": "Художник",
+                "level": "elementary"
+            },
+            {
+                "word": "Пилот",
+                "level": "intermediate"
+            },
+            {
+                "word": "Повар",
+                "level": "elementary"
+            },
+            {
+                "word": "Юрист",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Учитель",
+                "level": "starter"
+            }
         ],
         "dishes": [
-            "Борщ",
-            "Пельмени",
-            "Блины",
-            "Салат Оливье",
-            "Пирожки",
-            "Шашлык"
+            {
+                "word": "Борщ",
+                "level": "starter"
+            },
+            {
+                "word": "Пельмени",
+                "level": "intermediate"
+            },
+            {
+                "word": "Блины",
+                "level": "elementary"
+            },
+            {
+                "word": "Салат Оливье",
+                "level": "starter"
+            },
+            {
+                "word": "Пирожки",
+                "level": "elementary"
+            },
+            {
+                "word": "Шашлык",
+                "level": "intermediate"
+            }
         ],
         "food": [
-            "Яблоко",
-            "Хлеб",
-            "Сыр",
-            "Яйцо",
-            "Молоко",
-            "Рис",
-            "Помидор",
-            "Картофель"
+            {
+                "word": "Яблоко",
+                "level": "starter"
+            },
+            {
+                "word": "Хлеб",
+                "level": "starter"
+            },
+            {
+                "word": "Сыр",
+                "level": "elementary"
+            },
+            {
+                "word": "Яйцо",
+                "level": "starter"
+            },
+            {
+                "word": "Молоко",
+                "level": "starter"
+            },
+            {
+                "word": "Рис",
+                "level": "elementary"
+            },
+            {
+                "word": "Помидор",
+                "level": "elementary"
+            },
+            {
+                "word": "Картофель",
+                "level": "elementary"
+            }
         ],
         "drinks": [
-            "Кофе",
-            "Чай",
-            "Вино",
-            "Пиво",
-            "Сок",
-            "Вода",
-            "Квас",
-            "Морс"
+            {
+                "word": "Кофе",
+                "level": "starter"
+            },
+            {
+                "word": "Чай",
+                "level": "starter"
+            },
+            {
+                "word": "Вино",
+                "level": "elementary"
+            },
+            {
+                "word": "Пиво",
+                "level": "elementary"
+            },
+            {
+                "word": "Сок",
+                "level": "starter"
+            },
+            {
+                "word": "Вода",
+                "level": "starter"
+            },
+            {
+                "word": "Квас",
+                "level": "intermediate"
+            },
+            {
+                "word": "Морс",
+                "level": "elementary"
+            }
         ],
         "places": [
-            "Парк",
-            "Школа",
-            "Больница",
-            "Кинотеатр",
-            "Ресторан",
-            "Библиотека",
-            "Музей"
+            {
+                "word": "Парк",
+                "level": "starter"
+            },
+            {
+                "word": "Школа",
+                "level": "starter"
+            },
+            {
+                "word": "Больница",
+                "level": "elementary"
+            },
+            {
+                "word": "Кинотеатр",
+                "level": "elementary"
+            },
+            {
+                "word": "Ресторан",
+                "level": "elementary"
+            },
+            {
+                "word": "Библиотека",
+                "level": "intermediate"
+            },
+            {
+                "word": "Музей",
+                "level": "intermediate"
+            }
         ],
         "countries": [
-            "Франция",
-            "Италия",
-            "Россия",
-            "Греция",
-            "Англия",
-            "Германия",
-            "Испания"
+            {
+                "word": "Франция",
+                "level": "starter"
+            },
+            {
+                "word": "Италия",
+                "level": "starter"
+            },
+            {
+                "word": "Россия",
+                "level": "starter"
+            },
+            {
+                "word": "Греция",
+                "level": "starter"
+            },
+            {
+                "word": "Англия",
+                "level": "starter"
+            },
+            {
+                "word": "Германия",
+                "level": "elementary"
+            },
+            {
+                "word": "Испания",
+                "level": "starter"
+            }
         ],
         "cities": [
-            "Москва",
-            "Санкт-Петербург",
-            "Новосибирск",
-            "Екатеринбург",
-            "Казань"
+            {
+                "word": "Москва",
+                "level": "starter"
+            },
+            {
+                "word": "Санкт-Петербург",
+                "level": "starter"
+            },
+            {
+                "word": "Новосибирск",
+                "level": "starter"
+            },
+            {
+                "word": "Екатеринбург",
+                "level": "starter"
+            },
+            {
+                "word": "Казань",
+                "level": "starter"
+            }
         ],
         "clothing": [
-            "Футболка",
-            "Брюки",
-            "Платье",
-            "Обувь",
-            "Шапка",
-            "Куртка",
-            "Юбка"
+            {
+                "word": "Футболка",
+                "level": "starter"
+            },
+            {
+                "word": "Брюки",
+                "level": "starter"
+            },
+            {
+                "word": "Платье",
+                "level": "elementary"
+            },
+            {
+                "word": "Обувь",
+                "level": "starter"
+            },
+            {
+                "word": "Шапка",
+                "level": "starter"
+            },
+            {
+                "word": "Куртка",
+                "level": "elementary"
+            },
+            {
+                "word": "Юбка",
+                "level": "elementary"
+            }
         ],
         "furniture": [
-            "Стул",
-            "Стол",
-            "Кровать",
-            "Диван",
-            "Лампа",
-            "Письменный стол",
-            "Шкаф"
+            {
+                "word": "Стул",
+                "level": "starter"
+            },
+            {
+                "word": "Стол",
+                "level": "starter"
+            },
+            {
+                "word": "Кровать",
+                "level": "starter"
+            },
+            {
+                "word": "Диван",
+                "level": "elementary"
+            },
+            {
+                "word": "Лампа",
+                "level": "elementary"
+            },
+            {
+                "word": "Письменный стол",
+                "level": "elementary"
+            },
+            {
+                "word": "Шкаф",
+                "level": "intermediate"
+            }
         ],
         "appearance": [
-            "Высокий",
-            "Низкий",
-            "Красивый",
-            "Сильный",
-            "Худой",
-            "Молодой",
-            "Старый"
+            {
+                "word": "Высокий",
+                "level": "starter"
+            },
+            {
+                "word": "Низкий",
+                "level": "starter"
+            },
+            {
+                "word": "Красивый",
+                "level": "elementary"
+            },
+            {
+                "word": "Сильный",
+                "level": "elementary"
+            },
+            {
+                "word": "Худой",
+                "level": "intermediate"
+            },
+            {
+                "word": "Молодой",
+                "level": "starter"
+            },
+            {
+                "word": "Старый",
+                "level": "starter"
+            }
         ],
         "routine": [
-            "Просыпаться",
-            "Чистить зубы",
-            "Принимать душ",
-            "Спать"
+            {
+                "word": "Просыпаться",
+                "level": "starter"
+            },
+            {
+                "word": "Чистить зубы",
+                "level": "elementary"
+            },
+            {
+                "word": "Принимать душ",
+                "level": "elementary"
+            },
+            {
+                "word": "Спать",
+                "level": "starter"
+            }
         ],
         "objects": [
-            "Ключ",
-            "Телефон",
-            "Книга",
-            "Часы",
-            "Кошелек",
-            "Очки",
-            "Зонт"
+            {
+                "word": "Ключ",
+                "level": "starter"
+            },
+            {
+                "word": "Телефон",
+                "level": "starter"
+            },
+            {
+                "word": "Книга",
+                "level": "starter"
+            },
+            {
+                "word": "Часы",
+                "level": "elementary"
+            },
+            {
+                "word": "Кошелек",
+                "level": "elementary"
+            },
+            {
+                "word": "Очки",
+                "level": "elementary"
+            },
+            {
+                "word": "Зонт",
+                "level": "intermediate"
+            }
         ],
         "animals": [
-            "Кот",
-            "Собака",
-            "Птица",
-            "Лев",
-            "Тигр",
-            "Слон",
-            "Обезьяна",
-            "Лошадь"
+            {
+                "word": "Кот",
+                "level": "starter"
+            },
+            {
+                "word": "Собака",
+                "level": "starter"
+            },
+            {
+                "word": "Птица",
+                "level": "starter"
+            },
+            {
+                "word": "Лев",
+                "level": "elementary"
+            },
+            {
+                "word": "Тигр",
+                "level": "elementary"
+            },
+            {
+                "word": "Слон",
+                "level": "intermediate"
+            },
+            {
+                "word": "Обезьяна",
+                "level": "intermediate"
+            },
+            {
+                "word": "Лошадь",
+                "level": "elementary"
+            }
         ],
         "hobby": [
-            "Рисование",
-            "Готовка",
-            "Чтение",
-            "Танцы",
-            "Пение",
-            "Садоводство"
+            {
+                "word": "Рисование",
+                "level": "elementary"
+            },
+            {
+                "word": "Готовка",
+                "level": "elementary"
+            },
+            {
+                "word": "Чтение",
+                "level": "starter"
+            },
+            {
+                "word": "Танцы",
+                "level": "elementary"
+            },
+            {
+                "word": "Пение",
+                "level": "elementary"
+            },
+            {
+                "word": "Садоводство",
+                "level": "intermediate"
+            }
         ],
         "weather": [
-            "Солнечно",
-            "Дождливо",
-            "Снежно",
-            "Ветрено",
-            "Облачно",
-            "Жарко",
-            "Холодно"
+            {
+                "word": "Солнечно",
+                "level": "starter"
+            },
+            {
+                "word": "Дождливо",
+                "level": "starter"
+            },
+            {
+                "word": "Снежно",
+                "level": "elementary"
+            },
+            {
+                "word": "Ветрено",
+                "level": "elementary"
+            },
+            {
+                "word": "Облачно",
+                "level": "elementary"
+            },
+            {
+                "word": "Жарко",
+                "level": "intermediate"
+            },
+            {
+                "word": "Холодно",
+                "level": "starter"
+            }
         ],
         "body": [
-            "Голова",
-            "Рука",
-            "Нога",
-            "Глаз",
-            "Нос",
-            "Рот",
-            "Ухо",
-            "Плечо",
-            "Стопа"
+            {
+                "word": "Голова",
+                "level": "starter"
+            },
+            {
+                "word": "Рука",
+                "level": "starter"
+            },
+            {
+                "word": "Нога",
+                "level": "starter"
+            },
+            {
+                "word": "Глаз",
+                "level": "starter"
+            },
+            {
+                "word": "Нос",
+                "level": "starter"
+            },
+            {
+                "word": "Рот",
+                "level": "starter"
+            },
+            {
+                "word": "Ухо",
+                "level": "starter"
+            },
+            {
+                "word": "Плечо",
+                "level": "elementary"
+            },
+            {
+                "word": "Стопа",
+                "level": "starter"
+            }
         ]
     },
     "el": {
         "popular_people": [
-            "Σωκράτης",
-            "Μέγας Αλέξανδρος",
-            "Πλάτωνας",
-            "Μαρία Κάλλας"
+            {
+                "word": "Σωκράτης",
+                "level": "starter"
+            },
+            {
+                "word": "Μέγας Αλέξανδρος",
+                "level": "elementary"
+            },
+            {
+                "word": "Πλάτωνας",
+                "level": "intermediate"
+            },
+            {
+                "word": "Μαρία Κάλλας",
+                "level": "upper-intermediate"
+            }
         ],
         "professions": [
-            "Γιατρός",
-            "Μηχανικός",
-            "Καλλιτέχνης",
-            "Πιλότος",
-            "Σεφ",
-            "Δικηγόρος",
-            "Δάσκαλος"
+            {
+                "word": "Γιατρός",
+                "level": "starter"
+            },
+            {
+                "word": "Μηχανικός",
+                "level": "intermediate"
+            },
+            {
+                "word": "Καλλιτέχνης",
+                "level": "elementary"
+            },
+            {
+                "word": "Πιλότος",
+                "level": "intermediate"
+            },
+            {
+                "word": "Σεφ",
+                "level": "elementary"
+            },
+            {
+                "word": "Δικηγόρος",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Δάσκαλος",
+                "level": "starter"
+            }
         ],
         "dishes": [
-            "Μουσακάς",
-            "Σουβλάκι",
-            "Χωριάτικη σαλάτα",
-            "Παστίτσιο",
-            "Γεμιστά"
+            {
+                "word": "Μουσακάς",
+                "level": "starter"
+            },
+            {
+                "word": "Σουβλάκι",
+                "level": "intermediate"
+            },
+            {
+                "word": "Χωριάτικη σαλάτα",
+                "level": "elementary"
+            },
+            {
+                "word": "Παστίτσιο",
+                "level": "starter"
+            },
+            {
+                "word": "Γεμιστά",
+                "level": "elementary"
+            }
         ],
         "food": [
-            "Μήλο",
-            "Ψωμί",
-            "Τυρί",
-            "Αυγό",
-            "Γάλα",
-            "Ρύζι",
-            "Ντομάτα",
-            "Πατάτα"
+            {
+                "word": "Μήλο",
+                "level": "starter"
+            },
+            {
+                "word": "Ψωμί",
+                "level": "starter"
+            },
+            {
+                "word": "Τυρί",
+                "level": "elementary"
+            },
+            {
+                "word": "Αυγό",
+                "level": "starter"
+            },
+            {
+                "word": "Γάλα",
+                "level": "starter"
+            },
+            {
+                "word": "Ρύζι",
+                "level": "elementary"
+            },
+            {
+                "word": "Ντομάτα",
+                "level": "elementary"
+            },
+            {
+                "word": "Πατάτα",
+                "level": "elementary"
+            }
         ],
         "drinks": [
-            "Καφές",
-            "Τσάι",
-            "Κρασί",
-            "Μπίρα",
-            "Χυμός",
-            "Νερό",
-            "Ούζο"
+            {
+                "word": "Καφές",
+                "level": "starter"
+            },
+            {
+                "word": "Τσάι",
+                "level": "starter"
+            },
+            {
+                "word": "Κρασί",
+                "level": "elementary"
+            },
+            {
+                "word": "Μπίρα",
+                "level": "elementary"
+            },
+            {
+                "word": "Χυμός",
+                "level": "starter"
+            },
+            {
+                "word": "Νερό",
+                "level": "starter"
+            },
+            {
+                "word": "Ούζο",
+                "level": "intermediate"
+            }
         ],
         "places": [
-            "Πάρκο",
-            "Σχολείο",
-            "Νοσοκομείο",
-            "Κινηματογράφος",
-            "Εστιατόριο",
-            "Βιβλιοθήκη"
+            {
+                "word": "Πάρκο",
+                "level": "starter"
+            },
+            {
+                "word": "Σχολείο",
+                "level": "starter"
+            },
+            {
+                "word": "Νοσοκομείο",
+                "level": "elementary"
+            },
+            {
+                "word": "Κινηματογράφος",
+                "level": "elementary"
+            },
+            {
+                "word": "Εστιατόριο",
+                "level": "elementary"
+            },
+            {
+                "word": "Βιβλιοθήκη",
+                "level": "intermediate"
+            }
         ],
         "countries": [
-            "Γαλλία",
-            "Ιταλία",
-            "Ρωσία",
-            "Ελλάδα",
-            "Αγγλία",
-            "Γερμανία",
-            "Ισπανία"
+            {
+                "word": "Γαλλία",
+                "level": "starter"
+            },
+            {
+                "word": "Ιταλία",
+                "level": "starter"
+            },
+            {
+                "word": "Ρωσία",
+                "level": "starter"
+            },
+            {
+                "word": "Ελλάδα",
+                "level": "starter"
+            },
+            {
+                "word": "Αγγλία",
+                "level": "starter"
+            },
+            {
+                "word": "Γερμανία",
+                "level": "elementary"
+            },
+            {
+                "word": "Ισπανία",
+                "level": "starter"
+            }
         ],
         "cities": [
-            "Αθήνα",
-            "Θεσσαλονίκη",
-            "Πάτρα",
-            "Ηράκλειο",
-            "Λάρισα"
+            {
+                "word": "Αθήνα",
+                "level": "starter"
+            },
+            {
+                "word": "Θεσσαλονίκη",
+                "level": "starter"
+            },
+            {
+                "word": "Πάτρα",
+                "level": "starter"
+            },
+            {
+                "word": "Ηράκλειο",
+                "level": "starter"
+            },
+            {
+                "word": "Λάρισα",
+                "level": "starter"
+            }
         ],
         "clothing": [
-            "Μπλουζάκι",
-            "Παντελόνι",
-            "Φόρεμα",
-            "Παπούτσια",
-            "Καπέλο",
-            "Σακάκι",
-            "Φούστα"
+            {
+                "word": "Μπλουζάκι",
+                "level": "starter"
+            },
+            {
+                "word": "Παντελόνι",
+                "level": "starter"
+            },
+            {
+                "word": "Φόρεμα",
+                "level": "elementary"
+            },
+            {
+                "word": "Παπούτσια",
+                "level": "starter"
+            },
+            {
+                "word": "Καπέλο",
+                "level": "starter"
+            },
+            {
+                "word": "Σακάκι",
+                "level": "elementary"
+            },
+            {
+                "word": "Φούστα",
+                "level": "elementary"
+            }
         ],
         "furniture": [
-            "Καρέκλα",
-            "Τραπέζι",
-            "Κρεβάτι",
-            "Καναπές",
-            "Λάμπα",
-            "Γραφείο",
-            "Ντουλάπα"
+            {
+                "word": "Καρέκλα",
+                "level": "starter"
+            },
+            {
+                "word": "Τραπέζι",
+                "level": "starter"
+            },
+            {
+                "word": "Κρεβάτι",
+                "level": "starter"
+            },
+            {
+                "word": "Καναπές",
+                "level": "elementary"
+            },
+            {
+                "word": "Λάμπα",
+                "level": "elementary"
+            },
+            {
+                "word": "Γραφείο",
+                "level": "elementary"
+            },
+            {
+                "word": "Ντουλάπα",
+                "level": "intermediate"
+            }
         ],
         "appearance": [
-            "Ψηλός",
-            "Κοντός",
-            "Όμορφος",
-            "Δυνατός",
-            "Αδύνατος",
-            "Νέος",
-            "Γέρος"
+            {
+                "word": "Ψηλός",
+                "level": "starter"
+            },
+            {
+                "word": "Κοντός",
+                "level": "starter"
+            },
+            {
+                "word": "Όμορφος",
+                "level": "elementary"
+            },
+            {
+                "word": "Δυνατός",
+                "level": "elementary"
+            },
+            {
+                "word": "Αδύνατος",
+                "level": "intermediate"
+            },
+            {
+                "word": "Νέος",
+                "level": "starter"
+            },
+            {
+                "word": "Γέρος",
+                "level": "starter"
+            }
         ],
         "routine": [
-            "Ξυπνάω",
-            "Πλένω τα δόντια",
-            "Κάνω ντους",
-            "Κοιμάμαι"
+            {
+                "word": "Ξυπνάω",
+                "level": "starter"
+            },
+            {
+                "word": "Πλένω τα δόντια",
+                "level": "elementary"
+            },
+            {
+                "word": "Κάνω ντους",
+                "level": "elementary"
+            },
+            {
+                "word": "Κοιμάμαι",
+                "level": "starter"
+            }
         ],
         "objects": [
-            "Κλειδί",
-            "Τηλέφωνο",
-            "Βιβλίο",
-            "Ρολόι",
-            "Πορτοφόλι",
-            "Γυαλιά"
+            {
+                "word": "Κλειδί",
+                "level": "starter"
+            },
+            {
+                "word": "Τηλέφωνο",
+                "level": "starter"
+            },
+            {
+                "word": "Βιβλίο",
+                "level": "starter"
+            },
+            {
+                "word": "Ρολόι",
+                "level": "elementary"
+            },
+            {
+                "word": "Πορτοφόλι",
+                "level": "elementary"
+            },
+            {
+                "word": "Γυαλιά",
+                "level": "elementary"
+            }
         ],
         "animals": [
-            "Γάτα",
-            "Σκύλος",
-            "Πουλί",
-            "Λιοντάρι",
-            "Τίγρης",
-            "Ελέφαντας",
-            "Μαϊμού"
+            {
+                "word": "Γάτα",
+                "level": "starter"
+            },
+            {
+                "word": "Σκύλος",
+                "level": "starter"
+            },
+            {
+                "word": "Πουλί",
+                "level": "starter"
+            },
+            {
+                "word": "Λιοντάρι",
+                "level": "elementary"
+            },
+            {
+                "word": "Τίγρης",
+                "level": "elementary"
+            },
+            {
+                "word": "Ελέφαντας",
+                "level": "intermediate"
+            },
+            {
+                "word": "Μαϊμού",
+                "level": "intermediate"
+            }
         ],
         "hobby": [
-            "Ζωγραφική",
-            "Μαγειρική",
-            "Διάβασμα",
-            "Χορός",
-            "Τραγούδι",
-            "Κηπουρική"
+            {
+                "word": "Ζωγραφική",
+                "level": "elementary"
+            },
+            {
+                "word": "Μαγειρική",
+                "level": "elementary"
+            },
+            {
+                "word": "Διάβασμα",
+                "level": "starter"
+            },
+            {
+                "word": "Χορός",
+                "level": "elementary"
+            },
+            {
+                "word": "Τραγούδι",
+                "level": "elementary"
+            },
+            {
+                "word": "Κηπουρική",
+                "level": "intermediate"
+            }
         ],
         "weather": [
-            "Ηλιόλουστος",
-            "Βροχερός",
-            "Χιονισμένος",
-            "Ανεμώδης",
-            "Συννεφιασμένος",
-            "Ζεστός"
+            {
+                "word": "Ηλιόλουστος",
+                "level": "starter"
+            },
+            {
+                "word": "Βροχερός",
+                "level": "starter"
+            },
+            {
+                "word": "Χιονισμένος",
+                "level": "elementary"
+            },
+            {
+                "word": "Ανεμώδης",
+                "level": "elementary"
+            },
+            {
+                "word": "Συννεφιασμένος",
+                "level": "elementary"
+            },
+            {
+                "word": "Ζεστός",
+                "level": "intermediate"
+            }
         ],
         "body": [
-            "Κεφάλι",
-            "Χέρι",
-            "Πόδι",
-            "Μάτι",
-            "Μύτη",
-            "Στόμα",
-            "Αυτί",
-            "Ώμος"
+            {
+                "word": "Κεφάλι",
+                "level": "starter"
+            },
+            {
+                "word": "Χέρι",
+                "level": "starter"
+            },
+            {
+                "word": "Πόδι",
+                "level": "starter"
+            },
+            {
+                "word": "Μάτι",
+                "level": "starter"
+            },
+            {
+                "word": "Μύτη",
+                "level": "starter"
+            },
+            {
+                "word": "Στόμα",
+                "level": "starter"
+            },
+            {
+                "word": "Αυτί",
+                "level": "starter"
+            },
+            {
+                "word": "Ώμος",
+                "level": "elementary"
+            }
         ]
     }
 };
