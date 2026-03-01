@@ -24,6 +24,30 @@ const gamesData = {
             {
                 "word": "Marilyn Monroe",
                 "level": "proficiency"
+            },
+            {
+                "word": "Mahatma Gandhi",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Nelson Mandela",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Audrey Hepburn",
+                "level": "intermediate"
+            },
+            {
+                "word": "Steve Jobs",
+                "level": "intermediate"
+            },
+            {
+                "word": "Ada Lovelace",
+                "level": "advanced"
+            },
+            {
+                "word": "Isaac Newton",
+                "level": "intermediate"
             }
         ],
         "professions": [
@@ -66,6 +90,46 @@ const gamesData = {
             {
                 "word": "Police officer",
                 "level": "upper-intermediate"
+            },
+            {
+                "word": "Architect",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Baker",
+                "level": "elementary"
+            },
+            {
+                "word": "Dentist",
+                "level": "intermediate"
+            },
+            {
+                "word": "Electrician",
+                "level": "intermediate"
+            },
+            {
+                "word": "Farmer",
+                "level": "elementary"
+            },
+            {
+                "word": "Gardener",
+                "level": "elementary"
+            },
+            {
+                "word": "Mechanic",
+                "level": "intermediate"
+            },
+            {
+                "word": "Photographer",
+                "level": "intermediate"
+            },
+            {
+                "word": "Programmer",
+                "level": "intermediate"
+            },
+            {
+                "word": "Waiter",
+                "level": "starter"
             }
         ],
         "dishes": [
@@ -100,6 +164,30 @@ const gamesData = {
             {
                 "word": "Steak",
                 "level": "upper-intermediate"
+            },
+            {
+                "word": "Fish and Chips",
+                "level": "elementary"
+            },
+            {
+                "word": "Roast Beef",
+                "level": "intermediate"
+            },
+            {
+                "word": "Apple Pie",
+                "level": "elementary"
+            },
+            {
+                "word": "Shepherd's Pie",
+                "level": "intermediate"
+            },
+            {
+                "word": "Pad Thai",
+                "level": "advanced"
+            },
+            {
+                "word": "Curry",
+                "level": "intermediate"
             }
         ],
         "food": [
@@ -504,6 +592,46 @@ const gamesData = {
             {
                 "word": "Pen",
                 "level": "starter"
+            },
+            {
+                "word": "Backpack",
+                "level": "elementary"
+            },
+            {
+                "word": "Camera",
+                "level": "elementary"
+            },
+            {
+                "word": "Flashlight",
+                "level": "intermediate"
+            },
+            {
+                "word": "Hammer",
+                "level": "intermediate"
+            },
+            {
+                "word": "Mirror",
+                "level": "elementary"
+            },
+            {
+                "word": "Notebook",
+                "level": "elementary"
+            },
+            {
+                "word": "Pillow",
+                "level": "elementary"
+            },
+            {
+                "word": "Scissors",
+                "level": "intermediate"
+            },
+            {
+                "word": "Soap",
+                "level": "starter"
+            },
+            {
+                "word": "Toothbrush",
+                "level": "elementary"
             }
         ],
         "animals": [
@@ -546,6 +674,46 @@ const gamesData = {
             {
                 "word": "Fish",
                 "level": "starter"
+            },
+            {
+                "word": "Bear",
+                "level": "elementary"
+            },
+            {
+                "word": "Cow",
+                "level": "starter"
+            },
+            {
+                "word": "Dolphin",
+                "level": "intermediate"
+            },
+            {
+                "word": "Fox",
+                "level": "elementary"
+            },
+            {
+                "word": "Giraffe",
+                "level": "intermediate"
+            },
+            {
+                "word": "Penguin",
+                "level": "intermediate"
+            },
+            {
+                "word": "Pig",
+                "level": "starter"
+            },
+            {
+                "word": "Shark",
+                "level": "intermediate"
+            },
+            {
+                "word": "Snake",
+                "level": "elementary"
+            },
+            {
+                "word": "Wolf",
+                "level": "elementary"
             }
         ],
         "hobby": [
@@ -680,6 +848,18 @@ const gamesData = {
             {
                 "word": "Claude Monet",
                 "level": "advanced"
+            },
+            {
+                "word": "Coco Chanel",
+                "level": "intermediate"
+            },
+            {
+                "word": "Molière",
+                "level": "advanced"
+            },
+            {
+                "word": "Zinedine Zidane",
+                "level": "elementary"
             }
         ],
         "professions": [
@@ -714,6 +894,22 @@ const gamesData = {
             {
                 "word": "Infirmier",
                 "level": "elementary"
+            },
+            {
+                "word": "Boulanger",
+                "level": "elementary"
+            },
+            {
+                "word": "Pompier",
+                "level": "intermediate"
+            },
+            {
+                "word": "Vendeur",
+                "level": "starter"
+            },
+            {
+                "word": "Écrivain",
+                "level": "intermediate"
             }
         ],
         "dishes": [
@@ -739,6 +935,18 @@ const gamesData = {
             },
             {
                 "word": "Escargots",
+                "level": "intermediate"
+            },
+            {
+                "word": "Coq au Vin",
+                "level": "advanced"
+            },
+            {
+                "word": "Bouillabaisse",
+                "level": "advanced"
+            },
+            {
+                "word": "Tarte Tatin",
                 "level": "intermediate"
             }
         ],
@@ -1024,6 +1232,22 @@ const gamesData = {
             {
                 "word": "Lunettes",
                 "level": "elementary"
+            },
+            {
+                "word": "Sac à dos",
+                "level": "elementary"
+            },
+            {
+                "word": "Appareil photo",
+                "level": "intermediate"
+            },
+            {
+                "word": "Miroir",
+                "level": "elementary"
+            },
+            {
+                "word": "Ciseaux",
+                "level": "intermediate"
             }
         ],
         "animals": [
@@ -1172,6 +1396,18 @@ const gamesData = {
             {
                 "word": "Sophia Loren",
                 "level": "upper-intermediate"
+            },
+            {
+                "word": "Michelangelo",
+                "level": "intermediate"
+            },
+            {
+                "word": "Luciano Pavarotti",
+                "level": "intermediate"
+            },
+            {
+                "word": "Federico Fellini",
+                "level": "advanced"
             }
         ],
         "professions": [
@@ -1202,6 +1438,18 @@ const gamesData = {
             {
                 "word": "Insegnante",
                 "level": "starter"
+            },
+            {
+                "word": "Architetto",
+                "level": "intermediate"
+            },
+            {
+                "word": "Cameriere",
+                "level": "starter"
+            },
+            {
+                "word": "Farmacista",
+                "level": "intermediate"
             }
         ],
         "dishes": [
@@ -1227,6 +1475,18 @@ const gamesData = {
             },
             {
                 "word": "Tiramisù",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Gnocchi",
+                "level": "intermediate"
+            },
+            {
+                "word": "Bruschetta",
+                "level": "elementary"
+            },
+            {
+                "word": "Polenta",
                 "level": "intermediate"
             }
         ],
@@ -1664,6 +1924,18 @@ const gamesData = {
             {
                 "word": "Мария Шарапова",
                 "level": "advanced"
+            },
+            {
+                "word": "Фёдор Достоевский",
+                "level": "intermediate"
+            },
+            {
+                "word": "Екатерина II",
+                "level": "upper-intermediate"
+            },
+            {
+                "word": "Дмитрий Менделеев",
+                "level": "intermediate"
             }
         ],
         "professions": [
@@ -1694,6 +1966,18 @@ const gamesData = {
             {
                 "word": "Учитель",
                 "level": "starter"
+            },
+            {
+                "word": "Программист",
+                "level": "intermediate"
+            },
+            {
+                "word": "Продавец",
+                "level": "starter"
+            },
+            {
+                "word": "Космонавт",
+                "level": "advanced"
             }
         ],
         "dishes": [
@@ -2156,6 +2440,18 @@ const gamesData = {
             {
                 "word": "Μαρία Κάλλας",
                 "level": "upper-intermediate"
+            },
+            {
+                "word": "Αριστοτέλης",
+                "level": "intermediate"
+            },
+            {
+                "word": "Οδυσσέας Ελύτης",
+                "level": "advanced"
+            },
+            {
+                "word": "Μίκης Θεοδωράκης",
+                "level": "intermediate"
             }
         ],
         "professions": [
@@ -2186,6 +2482,14 @@ const gamesData = {
             {
                 "word": "Δάσκαλος",
                 "level": "starter"
+            },
+            {
+                "word": "Φωτογράφος",
+                "level": "intermediate"
+            },
+            {
+                "word": "Ηθοποιός",
+                "level": "intermediate"
             }
         ],
         "dishes": [
