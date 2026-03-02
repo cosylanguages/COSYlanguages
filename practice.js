@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
             taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-cv'));
         } else if (selected.id === 'cat-grammar') {
             container.classList.add('cat-grammar');
-            taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-ga' || cb.id === 'type-ws' || cb.id === 'type-cl'));
+            taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-ga' || cb.id === 'type-ws' || cb.id === 'type-cl' || cb.id === 'type-np'));
         } else {
             container.classList.add('cat-vocab');
             taskCheckboxes.forEach(cb => cb.checked = (cb.id !== 'type-ga' && cb.id !== 'type-cv' && cb.id !== 'type-ws'));
@@ -347,7 +347,7 @@ function showHint() {
     if (!wordObj) return;
 
     let targetAnswer = "";
-    if (wordObj.type === 'cloze' || wordObj.type === 'multiple_choice' || wordObj.type === 'scramble' || wordObj.type === 'gender_articles') {
+    if (wordObj.type === 'cloze' || wordObj.type === 'multiple_choice' || wordObj.type === 'scramble' || wordObj.type === 'gender_articles' || wordObj.type === 'number_plural') {
         targetAnswer = wordObj.answer || wordObj.word || wordObj.article || wordObj.gender;
     } else if (wordObj.type === 'opposite') {
         targetAnswer = wordObj.opposite;
@@ -606,6 +606,7 @@ function startPractice(isWheelMode = false) {
     if (document.getElementById('type-tf').checked) enabledTypes.push('true_false');
     if (document.getElementById('type-ga').checked) enabledTypes.push('gender_articles');
     if (document.getElementById('type-cv').checked) enabledTypes.push('conversation');
+    if (document.getElementById('type-np').checked) enabledTypes.push('number_plural');
 
     let enabledCategories = [];
     const catVocab = document.getElementById('cat-vocab').checked;
@@ -657,6 +658,7 @@ function startPractice(isWheelMode = false) {
                     if (t === 'opposite') return !!w.opposite;
                     if (t === 'cloze') return !!w.clozeText;
                     if (t === 'gender_articles') return !!(w.article || w.gender);
+                    if (t === 'number_plural') return !!w.numberPlural;
                     if (t === 'conversation') return w.category === 'conversation' || w.type === 'conversation';
                     if (t === 'word_scramble') return w.word.includes(' ');
                     if (t === 'scramble') return !w.word.includes(' ');
@@ -695,6 +697,7 @@ function startPractice(isWheelMode = false) {
                 if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
                 if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
                 if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
+                if (!wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'number_plural');
 
                 // Scramble vs Word Scramble (sentence builder)
                 const isSentence = wordCopy.word.includes(' ');
@@ -941,7 +944,8 @@ function showNextWord() {
                         wordObj.type === 'opposite' ? 'op' :
                         wordObj.type === 'cloze' ? 'cl' :
                         wordObj.type === 'true_false' ? 'tf' :
-                        wordObj.type === 'gender_articles' ? 'ga' : '';
+                        wordObj.type === 'gender_articles' ? 'ga' :
+                        wordObj.type === 'number_plural' ? 'np' : '';
         const exampleKey = `example_${typeKey}`;
         if (translations[lang] && translations[lang][exampleKey]) {
             exampleEl.textContent = translations[lang][exampleKey];
@@ -1007,10 +1011,11 @@ function showNextWord() {
         if (isListen) {
             setTimeout(speakWord, 500);
         }
-    } else if (wordObj.type === 'cloze') {
-        document.getElementById('word-display').textContent = wordObj.clozeText;
+    } else if (wordObj.type === 'cloze' || wordObj.type === 'number_plural') {
+        const isNP = wordObj.type === 'number_plural';
+        document.getElementById('word-display').textContent = isNP ? wordObj.numberPlural : wordObj.clozeText;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
-        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_cloze');
+        document.getElementById('task-instruction').setAttribute('data-translate-key', isNP ? 'task_number_plural' : 'task_cloze');
         document.getElementById('opposite-input-container').style.display = 'flex';
         document.getElementById('opposite-answer').focus();
     } else if (wordObj.type === 'scramble' || wordObj.type === 'word_scramble') {
@@ -1251,7 +1256,7 @@ function checkTypedAnswer() {
     const userAnswer = document.getElementById('opposite-answer').value.trim().toLowerCase();
     let correctAnswer;
 
-    if (currentPractice.currentWord.type === 'cloze') {
+    if (currentPractice.currentWord.type === 'cloze' || currentPractice.currentWord.type === 'number_plural') {
         correctAnswer = currentPractice.currentWord.answer.toLowerCase();
     } else {
         correctAnswer = currentPractice.currentWord.opposite.toLowerCase();

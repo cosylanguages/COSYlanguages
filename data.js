@@ -2973,6 +2973,38 @@ const lessonsData = {
                 { word: "Il tuo amico / la tua amica ha un pesce? Come si chiama?", emoji: "🐟", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" },
                 { word: "Il tuo amico / la tua amica ha un pappagallo? Come si chiama?", emoji: "🦜", type: "conversation", category: "conversation", subtext: "Come si chiama? = chi è? = qual è il suo nome?" }
             ]
+        },
+        4: {
+            title: "Giorno 4 | Numeri e plurali",
+            words: [
+                { word: "un figlio", numberPlural: "1 figlio", answer: "un figlio", emoji: "👦", category: "grammar" },
+                { word: "due ragazzi", numberPlural: "2 ragazzo", answer: "due ragazzi", emoji: "👦", category: "grammar" },
+                { word: "tre mariti", numberPlural: "3 marito", answer: "tre mariti", emoji: "🤵", category: "grammar" },
+                { word: "quattro amici", numberPlural: "4 amico", answer: "quattro amici", emoji: "👫", category: "grammar" },
+                { word: "cinque pappagalli", numberPlural: "5 pappagallo", answer: "cinque pappagalli", emoji: "🦜", category: "grammar" },
+                { word: "sei famiglie", numberPlural: "6 famiglia", answer: "sei famiglie", emoji: "👨‍👩‍👧‍👦", category: "grammar" },
+                { word: "sette persone", numberPlural: "7 persona", answer: "sette persone", emoji: "👤", category: "grammar" },
+                { word: "otto cose", numberPlural: "8 cosa", answer: "otto cose", emoji: "📦", category: "grammar" },
+                { word: "nove donne", numberPlural: "9 donna", answer: "nove donne", emoji: "👩", category: "grammar" },
+                { word: "una sorella", numberPlural: "1 sorella", answer: "una sorella", emoji: "👩‍👧‍👧", category: "grammar" },
+                { word: "due professoresse", numberPlural: "2 professoressa", answer: "due professoresse", emoji: "🧑‍🏫", category: "grammar" },
+                { word: "tre studentesse", numberPlural: "3 studentessa", answer: "tre studentesse", emoji: "🧑‍🎓", category: "grammar" },
+                { word: "quattro ragazze", numberPlural: "4 ragazza", answer: "quattro ragazze", emoji: "👧", category: "grammar" },
+                { word: "cinque figlie", numberPlural: "5 figlia", answer: "cinque figlie", emoji: "👧", category: "grammar" },
+                { word: "sei cani", numberPlural: "6 cane", answer: "sei cani", emoji: "🐕", category: "grammar" },
+                { word: "sette padri", numberPlural: "7 padre", answer: "sette padri", emoji: "👨‍👦", category: "grammar" },
+                { word: "otto madri", numberPlural: "8 madre", answer: "otto madri", emoji: "👩‍👦", category: "grammar" },
+                { word: "nove professori", numberPlural: "9 professore", answer: "nove professori", emoji: "🧑‍🏫", category: "grammar" },
+                { word: "uno studente", numberPlural: "1 studente", answer: "uno studente", emoji: "🧑‍🎓", category: "grammar" },
+                { word: "due mogli", numberPlural: "2 moglie", answer: "due mogli", emoji: "👰", category: "grammar" },
+                { word: "tre pesci", numberPlural: "3 pesce", answer: "tre pesci", emoji: "🐟", category: "grammar" },
+                { word: "quattro uomini", numberPlural: "4 uomo", answer: "quattro uomini", emoji: "👨", category: "grammar" },
+                { word: "cinque amiche", numberPlural: "5 amica", answer: "cinque amiche", emoji: "👫", category: "grammar" },
+                { word: "sei problemi", numberPlural: "6 problema", answer: "sei problemi", emoji: "❓", category: "grammar" },
+                { word: "sette bambini", numberPlural: "7 bambino", answer: "sette bambini", emoji: "👶", category: "grammar" },
+                { word: "otto bambine", numberPlural: "8 bambina", answer: "otto bambine", emoji: "👶", category: "grammar" },
+                { word: "nove genitori", numberPlural: "9 genitore", answer: "nove genitori", emoji: "👪", category: "grammar" }
+            ]
         }
     },
     ru: {
