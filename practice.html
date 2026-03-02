@@ -49,7 +49,7 @@
                 <div class="total-progress-display glass">
                     <span data-translate-key="total_score_label">Total Progress: 🏆</span>
                     <span id="setup-total-score">0</span>
-                    <span class="points-label">COSY Points</span>
+                    <span class="points-label" data-translate-key="points_label">COSY Points</span>
                 </div>
 
                 <!-- 1. Language Selection -->
@@ -58,23 +58,23 @@
                     <div class="lang-selection-grid" id="lang-selection-grid">
                         <div class="lang-selection-card active" data-value="en">
                             <span class="flag">🇬🇧</span>
-                            <span class="name">English</span>
+                            <span class="name" data-translate-key="english">English</span>
                         </div>
                         <div class="lang-selection-card" data-value="fr">
                             <span class="flag">🇫🇷</span>
-                            <span class="name">Français</span>
+                            <span class="name" data-translate-key="french">Français</span>
                         </div>
                         <div class="lang-selection-card" data-value="it">
                             <span class="flag">🇮🇹</span>
-                            <span class="name">Italiano</span>
+                            <span class="name" data-translate-key="italian">Italiano</span>
                         </div>
                         <div class="lang-selection-card" data-value="ru">
                             <span class="flag">🇷🇺</span>
-                            <span class="name">Русский</span>
+                            <span class="name" data-translate-key="russian">Русский</span>
                         </div>
                         <div class="lang-selection-card" data-value="el">
                             <span class="flag">🇬🇷</span>
-                            <span class="name">Ελληνικά</span>
+                            <span class="name" data-translate-key="greek">Ελληνικά</span>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                     <!-- 3. Lesson Selection -->
                     <div class="setup-group">
                         <label for="lesson-range" data-translate-key="select_lessons">3. Select lessons (e.g. 1 or 1-5) 📚</label>
-                        <input type="text" id="lesson-range" class="pill-input" placeholder="1" value="1">
+                        <input type="text" id="lesson-range" class="pill-input" data-translate-key="placeholder_lesson_range" placeholder="1" value="1">
                         <span id="lesson-hint" class="small-hint" style="color: var(--accent-color); font-size: 0.75rem; margin-top: 0.3rem; display: none;" data-translate-key="speaking_requires_lesson_3">Speaking & Wheel require Lesson 3+</span>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                     <div id="answer-area">
                         <!-- Opposite/Cloze task -->
                         <div id="opposite-input-container" style="display: none;">
-                            <input type="text" id="opposite-answer" placeholder="...">
+                            <input type="text" id="opposite-answer" data-translate-key="placeholder_type_here" placeholder="...">
                             <button id="check-opposite-btn" class="topics-toggle-btn" data-translate-key="check_btn">Check 🔍</button>
                             <button id="hint-btn" class="topics-toggle-btn secondary-btn" style="display: none;" data-translate-key="hint_btn">Hint 💡</button>
                         </div>
@@ -237,7 +237,7 @@
 
                         <!-- Conversation task -->
                         <div id="conversation-container" style="display: none;">
-                            <textarea id="conversation-response" class="pill-input" style="width: 100%; height: 100px; padding: 15px; border-radius: 20px; margin-bottom: 10px;" placeholder="Type your response here..."></textarea>
+                            <textarea id="conversation-response" class="pill-input" style="width: 100%; height: 100px; padding: 15px; border-radius: 20px; margin-bottom: 10px;" data-translate-key="placeholder_conversation" placeholder="Type your response here..."></textarea>
                             <button id="finish-conversation-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
                         </div>
                     </div>

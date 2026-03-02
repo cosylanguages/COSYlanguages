@@ -4,7 +4,16 @@ function setLanguage(lang) {
     elements.forEach(element => {
         const key = element.getAttribute('data-translate-key');
         if (translations[lang] && translations[lang][key]) {
-            element.innerHTML = translations[lang][key];
+            const translation = translations[lang][key];
+            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                if (element.hasAttribute('placeholder')) {
+                    element.setAttribute('placeholder', translation);
+                } else {
+                    element.value = translation;
+                }
+            } else {
+                element.innerHTML = translation;
+            }
         }
     });
 
