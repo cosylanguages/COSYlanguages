@@ -41,6 +41,51 @@ document.addEventListener('DOMContentLoaded', () => {
     loadStreak();
     loadTotalScore();
 
+    const catRadios = document.querySelectorAll('input[name="practice-cat"]');
+    const container = document.getElementById('practice-container');
+
+    window.updateCategoryUI = function() {
+        const selected = document.querySelector('input[name="practice-cat"]:checked');
+        if (!selected) return;
+
+        container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
+
+        const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
+
+        // Helper to hide/show and check/uncheck chips based on category
+        const configureTask = (id, shouldBeChecked, isAvailable) => {
+            const cb = document.getElementById(id);
+            if (!cb) return;
+            cb.checked = shouldBeChecked;
+            const label = cb.closest('.toggle-chip');
+            if (label) {
+                label.style.display = isAvailable ? 'block' : 'none';
+            }
+        };
+
+        if (selected.id === 'cat-speaking') {
+            container.classList.add('cat-speaking');
+            taskCheckboxes.forEach(cb => {
+                const isCV = cb.id === 'type-cv';
+                configureTask(cb.id, isCV, isCV);
+            });
+        } else if (selected.id === 'cat-grammar') {
+            container.classList.add('cat-grammar');
+            const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np'];
+            taskCheckboxes.forEach(cb => {
+                const isGrammar = grammarTasks.includes(cb.id);
+                configureTask(cb.id, isGrammar, isGrammar);
+            });
+        } else {
+            container.classList.add('cat-vocab');
+            const vocabTasks = ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf'];
+            taskCheckboxes.forEach(cb => {
+                const isVocab = vocabTasks.includes(cb.id);
+                configureTask(cb.id, isVocab, isVocab);
+            });
+        }
+    };
+
     // Deep Linking Support
     const urlParams = new URLSearchParams(window.location.search);
     const modeParam = urlParams.get('mode'); // 'wheel' or 'linear'
@@ -78,12 +123,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const catRadio = document.getElementById(`cat-${catParam}`);
         if (catRadio) {
             catRadio.checked = true;
-            // Update UI/Tasks based on category
-            const container = document.getElementById('practice-container');
-            container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
-            container.classList.add(`cat-${catParam}`);
         }
     }
+
+    if (typeof updateCategoryUI === 'function') updateCategoryUI();
 
     if (modeParam === 'wheel') {
         // Auto-select Speaking category for wheel if not specified
@@ -123,6 +166,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const lessons = document.getElementById('lesson-range').value;
             const category = document.querySelector('input[name="practice-cat"]:checked').id.replace('cat-', '');
             const baseUrl = window.location.href.split('?')[0];
+
+            // Check if we are in wheel mode or if speaking is selected (which implies wheel is common)
+            // But let's be explicit: if the user clicked "Linear" start, it's linear.
+            // Since this button is in the SETUP, we don't know yet?
+            // Actually, the user might want a wheel link specifically.
+
             const shareUrl = `${baseUrl}?lang=${lang}&lesson=${lessons}&cat=${category}&embed=true`;
 
             navigator.clipboard.writeText(shareUrl).then(() => {
@@ -210,17 +259,34 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Add right-click to copy wheel share link
-        wheelModeBtn.addEventListener('contextmenu', (e) => {
-            e.preventDefault();
+        // Add right-click/long-press helper to copy wheel share link directly
+        const copyWheelLink = (e) => {
+            if (e) e.preventDefault();
             const lang = currentPractice.language;
             const lessons = document.getElementById('lesson-range').value;
             const baseUrl = window.location.href.split('?')[0];
-            const shareUrl = `${baseUrl}?mode=wheel&lang=${lang}&lesson=${lessons}&embed=true`;
+            const shareUrl = `${baseUrl}?mode=wheel&lang=${lang}&lesson=${lessons}&cat=speaking&embed=true`;
 
             navigator.clipboard.writeText(shareUrl).then(() => {
-                alert("Wheel link copied to clipboard! 🎡✅");
+                const originalText = wheelModeBtn.innerHTML;
+                const lang = currentPractice.language;
+                const copiedText = (translations[lang] && translations[lang]['copied']) ? translations[lang]['copied'] : "Copied! ✅";
+                wheelModeBtn.innerHTML = copiedText;
+                setTimeout(() => wheelModeBtn.innerHTML = originalText, 2000);
+            }).catch(err => {
+                alert("Wheel Link: " + shareUrl);
             });
+        };
+
+        wheelModeBtn.addEventListener('contextmenu', copyWheelLink);
+
+        // Mobile long-press support
+        let pressTimer;
+        wheelModeBtn.addEventListener('touchstart', (e) => {
+            pressTimer = window.setTimeout(() => copyWheelLink(e), 800);
+        });
+        wheelModeBtn.addEventListener('touchend', () => {
+            clearTimeout(pressTimer);
         });
     }
 
@@ -256,55 +322,10 @@ document.addEventListener('DOMContentLoaded', () => {
         validateFeaturesByLesson();
     }
 
-    const catRadios = document.querySelectorAll('input[name="practice-cat"]');
-    const container = document.getElementById('practice-container');
-
-    function updateCategoryUI() {
-        const selected = document.querySelector('input[name="practice-cat"]:checked');
-        if (!selected) return;
-
-        container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
-
-        const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
-
-        // Helper to hide/show and check/uncheck chips based on category
-        const configureTask = (id, shouldBeChecked, isAvailable) => {
-            const cb = document.getElementById(id);
-            if (!cb) return;
-            cb.checked = shouldBeChecked;
-            const label = cb.closest('.toggle-chip');
-            if (label) {
-                label.style.display = isAvailable ? 'block' : 'none';
-            }
-        };
-
-        if (selected.id === 'cat-speaking') {
-            container.classList.add('cat-speaking');
-            taskCheckboxes.forEach(cb => {
-                const isCV = cb.id === 'type-cv';
-                configureTask(cb.id, isCV, isCV);
-            });
-        } else if (selected.id === 'cat-grammar') {
-            container.classList.add('cat-grammar');
-            const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np'];
-            taskCheckboxes.forEach(cb => {
-                const isGrammar = grammarTasks.includes(cb.id);
-                configureTask(cb.id, isGrammar, isGrammar);
-            });
-        } else {
-            container.classList.add('cat-vocab');
-            const vocabTasks = ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf'];
-            taskCheckboxes.forEach(cb => {
-                const isVocab = vocabTasks.includes(cb.id);
-                configureTask(cb.id, isVocab, isVocab);
-            });
-        }
-    }
-
     catRadios.forEach(radio => {
-        radio.addEventListener('change', updateCategoryUI);
+        radio.addEventListener('change', window.updateCategoryUI);
     });
-    updateCategoryUI(); // Initial call
+    window.updateCategoryUI(); // Initial call
 
     if (nextBtn) {
         nextBtn.addEventListener('click', showNextWord);
