@@ -266,15 +266,38 @@ document.addEventListener('DOMContentLoaded', () => {
         container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
 
         const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
+
+        // Helper to hide/show and check/uncheck chips based on category
+        const configureTask = (id, shouldBeChecked, isAvailable) => {
+            const cb = document.getElementById(id);
+            if (!cb) return;
+            cb.checked = shouldBeChecked;
+            const label = cb.closest('.toggle-chip');
+            if (label) {
+                label.style.display = isAvailable ? 'block' : 'none';
+            }
+        };
+
         if (selected.id === 'cat-speaking') {
             container.classList.add('cat-speaking');
-            taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-cv'));
+            taskCheckboxes.forEach(cb => {
+                const isCV = cb.id === 'type-cv';
+                configureTask(cb.id, isCV, isCV);
+            });
         } else if (selected.id === 'cat-grammar') {
             container.classList.add('cat-grammar');
-            taskCheckboxes.forEach(cb => cb.checked = (cb.id === 'type-ga' || cb.id === 'type-ws' || cb.id === 'type-cl' || cb.id === 'type-np'));
+            const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np'];
+            taskCheckboxes.forEach(cb => {
+                const isGrammar = grammarTasks.includes(cb.id);
+                configureTask(cb.id, isGrammar, isGrammar);
+            });
         } else {
             container.classList.add('cat-vocab');
-            taskCheckboxes.forEach(cb => cb.checked = (cb.id !== 'type-ga' && cb.id !== 'type-cv' && cb.id !== 'type-ws'));
+            const vocabTasks = ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf'];
+            taskCheckboxes.forEach(cb => {
+                const isVocab = vocabTasks.includes(cb.id);
+                configureTask(cb.id, isVocab, isVocab);
+            });
         }
     }
 
@@ -703,6 +726,10 @@ function startPractice(isWheelMode = false) {
                 const isSentence = wordCopy.word.includes(' ');
                 if (isSentence) {
                     possibleTypes = possibleTypes.filter(t => t !== 'scramble');
+                    // Exclude number_plural items from word_scramble to prioritize the specific task
+                    if (wordCopy.numberPlural) {
+                        possibleTypes = possibleTypes.filter(t => t !== 'word_scramble');
+                    }
                 } else {
                     possibleTypes = possibleTypes.filter(t => t !== 'word_scramble');
                 }
