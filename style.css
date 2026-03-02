@@ -1473,3 +1473,28 @@ footer {
 .target-word {
     text-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
+.help-details {
+    border: 1px solid rgba(0, 168, 150, 0.2);
+    transition: all 0.3s ease;
+}
+
+.help-details:hover {
+    border-color: var(--primary-color);
+    background: rgba(0, 168, 150, 0.05) !important;
+}
+
+.help-details summary {
+    font-size: 1.05rem;
+    padding: 0.2rem;
+}
+
+.help-details[open] {
+    border-color: var(--primary-color);
+}
+
+.help-details[open] summary {
+    margin-bottom: 0.8rem;
+    border-bottom: 1px dashed rgba(0, 168, 150, 0.3);
+    padding-bottom: 0.5rem;
+}
