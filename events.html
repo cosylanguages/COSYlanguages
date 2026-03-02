@@ -87,6 +87,12 @@
         <div id="charades-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
                 <h2 data-translate-key="charades_title">Charades 🎭</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="charades_guide_text">One player holds the phone above their head. Others describe the word/emoji without saying it! Use the buttons to mark as Correct or Incorrect.</p>
+                </details>
+
                 <p data-translate-key="charades_instruction" style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">Grab a phone, set a 1-minute timer, and hold it above your head!</p>
 
                 <div id="charades-setup">
@@ -172,6 +178,12 @@
         <div id="guess-who-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
                 <h2 data-translate-key="game_guess_who">Guess Who? 👤</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="guess_who_guide_text">One person describes a person or profession. Others ask Yes/No questions using the 'Help Questions' to identify them!</p>
+                </details>
+
                 <div class="game-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
@@ -205,6 +217,7 @@
                         </div>
                     </div>
                     <button id="start-guess-who-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="share-guess-who-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
                 </div>
                 <div class="game-play" style="display: none;">
                     <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
@@ -224,6 +237,12 @@
         <div id="guess-what-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
                 <h2 data-translate-key="game_guess_what">Guess What? 📦</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="guess_what_guide_text">One person describes an object or place. Others ask questions about size, color, or location to guess what it is!</p>
+                </details>
+
                 <div class="game-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
@@ -252,16 +271,18 @@
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select class="pill-input game-theme" style="width: 100%;">
                                 <option value="dishes" data-translate-key="theme_dishes">Dishes 🍲</option>
-                            <option value="food" data-translate-key="theme_food">Food 🍎</option>
-                            <option value="drinks" data-translate-key="theme_drinks">Drinks 🍷</option>
-                            <option value="places" data-translate-key="theme_places">Places 📍</option>
-                            <option value="countries" data-translate-key="theme_countries">Countries 🗺️</option>
-                            <option value="cities" data-translate-key="theme_cities">Cities 🏙️</option>
-                            <option value="clothing" data-translate-key="theme_clothing">Clothing 👕</option>
-                            <option value="furniture" data-translate-key="theme_furniture">Furniture 🏠</option>
-                        </select>
+                                <option value="food" data-translate-key="theme_food">Food 🍎</option>
+                                <option value="drinks" data-translate-key="theme_drinks">Drinks 🍷</option>
+                                <option value="places" data-translate-key="theme_places">Places 📍</option>
+                                <option value="countries" data-translate-key="theme_countries">Countries 🗺️</option>
+                                <option value="cities" data-translate-key="theme_cities">Cities 🏙️</option>
+                                <option value="clothing" data-translate-key="theme_clothing">Clothing 👕</option>
+                                <option value="furniture" data-translate-key="theme_furniture">Furniture 🏠</option>
+                            </select>
+                        </div>
                     </div>
                     <button id="start-guess-what-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="share-guess-what-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
                 </div>
                 <div class="game-play" style="display: none;">
                     <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
@@ -281,6 +302,12 @@
         <div id="bingo-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
                 <h2 data-translate-key="game_bingo">Bingo 🔢</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="bingo_guide_text">The Caller calls out items. Players mark them on their grid. Use the 'Game Code' to play with friends on the same board!</p>
+                </details>
+
                 <div id="bingo-setup">
                     <div class="setup-group">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
@@ -309,10 +336,11 @@
                             <input type="text" id="bingo-seed" class="pill-input" placeholder="e.g. 123" style="width: 100%;">
                         </div>
                     </div>
-                    <div style="display: flex; gap: 1rem;">
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
                         <button id="start-bingo-caller-btn" class="cta-button primary" data-translate-key="bingo_caller" style="flex: 1;">Caller 📣</button>
                         <button id="start-bingo-player-btn" class="cta-button primary" data-translate-key="bingo_player" style="flex: 1;">Player 🃏</button>
                     </div>
+                    <button id="share-bingo-btn" class="cta-button secondary" data-translate-key="share_btn" style="width: 100%;">Share 🔗</button>
                 </div>
 
                 <!-- Caller Area -->

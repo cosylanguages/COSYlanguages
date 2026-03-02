@@ -49,6 +49,32 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // --- Charades (Moved from script.js and Enhanced) ---
+    const handleShare = (btnId, params) => {
+        const btn = document.getElementById(btnId);
+        if (!btn) return;
+        btn.addEventListener('click', () => {
+            const baseUrl = window.location.href.split('?')[0];
+            const queryParts = [];
+            for (const [k, v] of Object.entries(params)) {
+                const val = typeof v === 'function' ? v() : v;
+                if (val) queryParts.push(`${k}=${encodeURIComponent(val)}`);
+            }
+            queryParts.push('embed=true');
+            const shareUrl = `${baseUrl}?${queryParts.join('&')}`;
+
+            navigator.clipboard.writeText(shareUrl).then(() => {
+                const originalText = btn.innerHTML;
+                const lang = getLang();
+                const copiedText = (translations[lang] && translations[lang]['copied']) ? translations[lang]['copied'] : "Copied! ✅";
+                btn.innerHTML = copiedText;
+                setTimeout(() => btn.innerHTML = originalText, 2000);
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+                alert("Link: " + shareUrl);
+            });
+        });
+    };
+
     const initCharades = () => {
         const modal = document.getElementById('charades-modal');
         if (!modal) return;
@@ -88,16 +114,18 @@ document.addEventListener('DOMContentLoaded', () => {
             scoreVal.textContent = score;
         };
 
-        openBtn?.addEventListener('click', () => {
+        const openCharades = () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
             resultArea.style.display = 'none';
-        });
+        };
+
+        openBtn?.addEventListener('click', openCharades);
 
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
-        startBtn?.addEventListener('click', () => {
+        const startCharades = () => {
             score = 0;
             const lang = document.getElementById('charades-lang').value;
             const theme = themeSelect.value;
@@ -146,11 +174,24 @@ document.addEventListener('DOMContentLoaded', () => {
             resultArea.style.display = 'none';
             gameArea.style.display = 'block';
             showNext();
-        });
+        };
+
+        startBtn?.addEventListener('click', startCharades);
 
         correctBtn?.addEventListener('click', () => { score++; showNext(); });
         incorrectBtn?.addEventListener('click', showNext);
         stopBtn?.addEventListener('click', endGame);
+
+        // Share Link for Charades
+        handleShare('share-charades-btn', {
+            game: 'charades',
+            lang: () => document.getElementById('charades-lang').value,
+            level: () => document.getElementById('charades-level').value,
+            theme: () => document.getElementById('charades-theme').value,
+            lesson: () => document.getElementById('charades-lessons').value
+        });
+
+        return { open: openCharades, start: startCharades };
     };
 
     // --- Guess Who / Guess What Logic ---
@@ -195,15 +236,17 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         };
 
-        openBtn?.addEventListener('click', () => {
+        const openGame = () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
-        });
+        };
+
+        openBtn?.addEventListener('click', openGame);
 
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
-        startBtn?.addEventListener('click', () => {
+        const startGame = () => {
             const lang = modal.querySelector('.game-lang').value;
             const theme = themeSelect.value;
             const level = modal.querySelector('.game-level').value;
@@ -230,9 +273,21 @@ document.addEventListener('DOMContentLoaded', () => {
             setupArea.style.display = 'none';
             gameArea.style.display = 'block';
             showTarget();
-        });
+        };
+
+        startBtn?.addEventListener('click', startGame);
 
         nextBtn?.addEventListener('click', showTarget);
+
+        // Share Link for Guess games
+        handleShare(`share-guess-${gameType}-btn`, {
+            game: gameType === 'who' ? 'guess-who' : 'guess-what',
+            lang: () => modal.querySelector('.game-lang').value,
+            level: () => modal.querySelector('.game-level').value,
+            theme: () => modal.querySelector('.game-theme').value
+        });
+
+        return { open: openGame, start: startGame };
     };
 
     // --- Bingo Logic ---
@@ -259,12 +314,14 @@ document.addEventListener('DOMContentLoaded', () => {
         let calledItems = [];
         let currentCardIndex = 0;
 
-        openBtn?.addEventListener('click', () => {
+        const openBingo = () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             callerArea.style.display = 'none';
             playerArea.style.display = 'none';
-        });
+        };
+
+        openBtn?.addEventListener('click', openBingo);
 
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
@@ -300,7 +357,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return Math.abs(hash);
         };
 
-        startCallerBtn?.addEventListener('click', () => {
+        const startBingoCaller = () => {
             const pool = preparePool();
             const seed = getSeed();
             bingoPool = seededShuffle([...pool], seed);
@@ -309,7 +366,9 @@ document.addEventListener('DOMContentLoaded', () => {
             historyDisplay.innerHTML = '';
             setupArea.style.display = 'none';
             callerArea.style.display = 'block';
-        });
+        };
+
+        startCallerBtn?.addEventListener('click', startBingoCaller);
 
         callNextBtn?.addEventListener('click', () => {
             if (bingoPool.length === 0) {
@@ -356,22 +415,84 @@ document.addEventListener('DOMContentLoaded', () => {
             cardNumDisplay.textContent = currentCardIndex + 1;
         };
 
-        startPlayerBtn?.addEventListener('click', () => {
+        const startBingoPlayer = () => {
             currentCardIndex = 0;
             generatePlayerCard();
             setupArea.style.display = 'none';
             playerArea.style.display = 'block';
-        });
+        };
+
+        startPlayerBtn?.addEventListener('click', startBingoPlayer);
 
         nextCardBtn?.addEventListener('click', () => {
             currentCardIndex++;
             generatePlayerCard();
         });
+
+        // Share Link for Bingo
+        handleShare('share-bingo-btn', {
+            game: 'bingo',
+            lang: () => document.getElementById('bingo-lang').value,
+            level: () => document.getElementById('bingo-level').value,
+            seed: () => document.getElementById('bingo-seed').value
+        });
+
+        return { open: openBingo, startCaller: startBingoCaller, startPlayer: startBingoPlayer };
     };
 
-    // Initialize all
-    initCharades();
-    initGuessGame('who');
-    initGuessGame('what');
-    initBingo();
+    // Initialize all and handle deep linking
+    const charades = initCharades();
+    const guessWho = initGuessGame('who');
+    const guessWhat = initGuessGame('what');
+    const bingo = initBingo();
+
+    // Deep Linking Support
+    const urlParams = new URLSearchParams(window.location.search);
+    const game = urlParams.get('game');
+    const lang = urlParams.get('lang');
+    const level = urlParams.get('level');
+    const theme = urlParams.get('theme');
+    const lesson = urlParams.get('lesson');
+    const seed = urlParams.get('seed');
+    const mode = urlParams.get('mode'); // for bingo: 'caller' or 'player'
+
+    if (game) {
+        // Wait a bit for everything to settle
+        setTimeout(() => {
+            if (game === 'charades') {
+                charades.open();
+                if (lang) document.getElementById('charades-lang').value = lang;
+                if (level) document.getElementById('charades-level').value = level;
+                if (theme) document.getElementById('charades-theme').value = theme;
+                if (lesson) document.getElementById('charades-lessons').value = lesson;
+                charades.start();
+            } else if (game === 'guess-who') {
+                guessWho.open();
+                const modal = document.getElementById('guess-who-modal');
+                if (lang) modal.querySelector('.game-lang').value = lang;
+                if (level) modal.querySelector('.game-level').value = level;
+                if (theme) modal.querySelector('.game-theme').value = theme;
+                guessWho.start();
+            } else if (game === 'guess-what') {
+                guessWhat.open();
+                const modal = document.getElementById('guess-what-modal');
+                if (lang) modal.querySelector('.game-lang').value = lang;
+                if (level) modal.querySelector('.game-level').value = level;
+                if (theme) modal.querySelector('.game-theme').value = theme;
+                guessWhat.start();
+            } else if (game === 'bingo') {
+                bingo.open();
+                if (lang) document.getElementById('bingo-lang').value = lang;
+                if (level) document.getElementById('bingo-level').value = level;
+                if (seed) document.getElementById('bingo-seed').value = seed;
+                if (mode === 'caller') bingo.startCaller();
+                else if (mode === 'player') bingo.startPlayer();
+            }
+
+            // Apply language to modals if lang param provided
+            if (lang && typeof setLanguage === 'function') {
+                setLanguage(lang);
+            }
+        }, 500);
+    }
 });
