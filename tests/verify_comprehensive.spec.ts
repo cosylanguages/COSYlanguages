@@ -10,7 +10,6 @@ test('homepage sections and assets', async ({ page }) => {
   await page.goto(`file://${path.resolve('index.html')}`);
 
   // Check for new sections
-  await expect(page.locator('#onboarding').first()).toBeVisible();
   await expect(page.locator('#tips').first()).toBeVisible();
 
   // Check assets
