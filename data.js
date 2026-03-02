@@ -2612,6 +2612,97 @@ const alphabetsData = {
     "el": "αβγδεζηθικλμνξοπρστυφχψω"
 };
 
+const speakingGamesData = {
+    "en": {
+        "debates": [
+            { "topic": "City vs. Countryside", "sideA": "City", "sideB": "Countryside", "ideasA": ["Public transport", "Culture & Nightlife", "Job opportunities"], "ideasB": ["Fresh air", "Quiet & Peace", "Lower cost of living"], "level": "elementary" },
+            { "topic": "Books vs. Movies", "sideA": "Books", "sideB": "Movies", "ideasA": ["Imagination", "More details", "Read anywhere"], "ideasB": ["Visual effects", "Faster to consume", "Social activity"], "level": "elementary" },
+            { "topic": "Summer vs. Winter", "sideA": "Summer", "sideB": "Winter", "ideasA": ["Beach & Swimming", "Long days", "Ice cream"], "ideasB": ["Snow & Skiing", "Cozy nights", "Hot chocolate"], "level": "starter" },
+            { "topic": "Working from Home vs. Office", "sideA": "Home", "sideB": "Office", "ideasA": ["No commute", "Flexible hours", "Comfort"], "ideasB": ["Socializing", "Clear boundaries", "Teamwork"], "level": "intermediate" },
+            { "topic": "Travel Alone vs. With Friends", "sideA": "Alone", "sideB": "Friends", "ideasA": ["Freedom", "Self-discovery", "Meet locals"], "ideasB": ["Shared memories", "Safety", "Cheaper (split costs)"], "level": "intermediate" },
+            { "topic": "Social Media: Good or Bad?", "sideA": "Good", "sideB": "Bad", "ideasA": ["Stay connected", "Information", "Entertainment"], "ideasB": ["Addiction", "Fake news", "Privacy concerns"], "level": "upper-intermediate" }
+        ],
+        "talkThatTalk": [
+            { "topic": "My favorite childhood memory", "level": "starter" },
+            { "topic": "A place I want to visit and why", "level": "elementary" },
+            { "topic": "The best meal I ever had", "level": "starter" },
+            { "topic": "My dream job", "level": "elementary" },
+            { "topic": "How technology changed our lives", "level": "intermediate" },
+            { "topic": "Is it better to be a leader or a follower?", "level": "upper-intermediate" },
+            { "topic": "The importance of learning a second language", "level": "intermediate" },
+            { "topic": "The future of Artificial Intelligence", "level": "advanced" }
+        ]
+    },
+    "fr": {
+        "debates": [
+            { "topic": "Ville vs Campagne", "sideA": "Ville", "sideB": "Campagne", "ideasA": ["Transports en commun", "Culture & Vie nocturne", "Opportunités d'emploi"], "ideasB": ["Air frais", "Calme & Paix", "Coût de la vie moins élevé"], "level": "elementary" },
+            { "topic": "Livres vs Films", "sideA": "Livres", "sideB": "Films", "ideasA": ["Imagination", "Plus de détails", "Lire n'importe où"], "ideasB": ["Effets visuels", "Plus rapide à consommer", "Activité sociale"], "level": "elementary" },
+            { "topic": "Été vs Hiver", "sideA": "Été", "sideB": "Hiver", "ideasA": ["Plage & Natation", "Longues journées", "Glace"], "ideasB": ["Neige & Ski", "Soirées cosy", "Chocolat chaud"], "level": "starter" },
+            { "topic": "Télétravail vs Bureau", "sideA": "Télétravail", "sideB": "Bureau", "ideasA": ["Pas de trajet", "Horaires flexibles", "Confort"], "ideasB": ["Socialisation", "Limites claires", "Travail d'équipe"], "level": "intermediate" },
+            { "topic": "Voyager seul vs Avec des amis", "sideA": "Seul", "sideB": "Amis", "ideasA": ["Liberté", "Découverte de soi", "Rencontrer des locaux"], "ideasB": ["Souvenirs partagés", "Sécurité", "Moins cher (frais partagés)"], "level": "intermediate" }
+        ],
+        "talkThatTalk": [
+            { "topic": "Mon souvenir d'enfance préféré", "level": "starter" },
+            { "topic": "Un endroit que je veux visiter et pourquoi", "level": "elementary" },
+            { "topic": "Le meilleur repas que j'ai jamais pris", "level": "starter" },
+            { "topic": "Le métier de mes rêves", "level": "elementary" },
+            { "topic": "Comment la technologie a changé nos vies", "level": "intermediate" },
+            { "topic": "Est-il préférable d'être un leader ou un suiveur ?", "level": "upper-intermediate" }
+        ]
+    },
+    "it": {
+        "debates": [
+            { "topic": "Città vs Campagna", "sideA": "Città", "sideB": "Campagna", "ideasA": ["Trasporti pubblici", "Cultura e vita notturna", "Opportunità di lavoro"], "ideasB": ["Aria fresca", "Calma e pace", "Costo della vita inferiore"], "level": "elementary" },
+            { "topic": "Libri vs Film", "sideA": "Libri", "sideB": "Film", "ideasA": ["Immaginazione", "Più dettagli", "Leggere ovunque"], "ideasB": ["Effetti visivi", "Più veloce da consumare", "Attività sociale"], "level": "elementary" },
+            { "topic": "Estate vs Inverno", "sideA": "Estate", "sideB": "Inverno", "ideasA": ["Spiaggia e nuoto", "Giornate lunghe", "Gelato"], "ideasB": ["Neve e sci", "Serate accoglienti", "Cioccolata calda"], "level": "starter" },
+            { "topic": "Smart working vs Ufficio", "sideA": "Smart working", "sideB": "Ufficio", "ideasA": ["Niente pendolarismo", "Orari flessibili", "Comfort"], "ideasB": ["Socializzazione", "Confini chiari", "Lavoro di squadra"], "level": "intermediate" },
+            { "topic": "Viaggiare da soli vs Con amici", "sideA": "Da soli", "sideB": "Amici", "ideasA": ["Libertà", "Scoperta di sé", "Incontrare gente del posto"], "ideasB": ["Ricordi condivisi", "Sicurezza", "Più economico (costi divisi)"], "level": "intermediate" }
+        ],
+        "talkThatTalk": [
+            { "topic": "Il mio ricordo d'infanzia preferito", "level": "starter" },
+            { "topic": "Un posto che voglio visitare e perché", "level": "elementary" },
+            { "topic": "Il miglior pasto che abbia mai fatto", "level": "starter" },
+            { "topic": "Il lavoro dei miei sogni", "level": "elementary" },
+            { "topic": "Come la tecnologia ha cambiato le nostre vite", "level": "intermediate" },
+            { "topic": "È meglio essere un leader o un seguace?", "level": "upper-intermediate" }
+        ]
+    },
+    "ru": {
+        "debates": [
+            { "topic": "Город против Деревни", "sideA": "Город", "sideB": "Деревня", "ideasA": ["Общественный транспорт", "Культура и ночная жизнь", "Работа"], "ideasB": ["Свежий воздух", "Тишина и покой", "Низкая стоимость жизни"], "level": "elementary" },
+            { "topic": "Книги против Фильмов", "sideA": "Книги", "sideB": "Фильмы", "ideasA": ["Воображение", "Больше деталей", "Читать где угодно"], "ideasB": ["Визуальные эффекты", "Быстрее", "Совместный просмотр"], "level": "elementary" },
+            { "topic": "Лето против Зимы", "sideA": "Лето", "sideB": "Зима", "ideasA": ["Пляж и плавание", "Длинные дни", "Мороженое"], "ideasB": ["Снег и лыжи", "Уютные вечера", "Горячий шоколад"], "level": "starter" },
+            { "topic": "Удаленка против Офиса", "sideA": "Удаленка", "sideB": "Офис", "ideasA": ["Нет дороги", "Гибкий график", "Комфорт"], "ideasB": ["Общение", "Четкие границы", "Командная работа"], "level": "intermediate" },
+            { "topic": "Путешествие в одиночку против С друзьями", "sideA": "Один", "sideB": "С друзьями", "ideasA": ["Свобода", "Самопознание", "Новые знакомства"], "ideasB": ["Общие воспоминания", "Безопасность", "Дешевле"], "level": "intermediate" }
+        ],
+        "talkThatTalk": [
+            { "topic": "Мое самое любимое воспоминание из детства", "level": "starter" },
+            { "topic": "Место, которое я хочу посетить, и почему", "level": "elementary" },
+            { "topic": "Самая вкусная еда в моей жизни", "level": "starter" },
+            { "topic": "Работа моей мечты", "level": "elementary" },
+            { "topic": "Как технологии изменили нашу жизнь", "level": "intermediate" },
+            { "topic": "Лучше быть лидером или последователем?", "level": "upper-intermediate" }
+        ]
+    },
+    "el": {
+        "debates": [
+            { "topic": "Πόλη vs Εξοχή", "sideA": "Πόλη", "sideB": "Εξοχή", "ideasA": ["Μέσα μαζικής μεταφοράς", "Πολιτισμός & Νυχτερινή ζωή", "Ευκαιρίες εργασίας"], "ideasB": ["Φρέσκος αέρας", "Ησυχία & Ειρήνη", "Χαμηλότερο κόστος ζωής"], "level": "elementary" },
+            { "topic": "Βιβλία vs Ταινίες", "sideA": "Βιβλία", "sideB": "Ταινίες", "ideasA": ["Φαντασία", "Περισσότερες λεπτομέρειες", "Διάβασμα παντού"], "ideasB": ["Οπτικά εφέ", "Πιο γρήγορο", "Κοινωνική δραστηριότητα"], "level": "elementary" },
+            { "topic": "Καλοκαίρι vs Χειμώνας", "sideA": "Καλοκαίρι", "sideB": "Χειμώνας", "ideasA": ["Παραλία & Κολύμπι", "Μεγάλες μέρες", "Παγωτό"], "ideasB": ["Χιόνι & Σκι", "Ζεστές νύχτες", "Ζεστή σοκολάτα"], "level": "starter" },
+            { "topic": "Τηλεργασία vs Γραφείο", "sideA": "Τηλεργασία", "sideB": "Γραφείο", "ideasA": ["Όχι μετακινήσεις", "Ευέλικτο ωράριο", "Άνεση"], "ideasB": ["Κοινωνικοποίηση", "Σαφή όρια", "Ομαδική εργασία"], "level": "intermediate" },
+            { "topic": "Ταξίδι μόνος vs Με φίλους", "sideA": "Μόνος", "sideB": "Φίλοι", "ideasA": ["Ελευθερία", "Αυτοανακάλυψη", "Γνωριμία με ντόπιους"], "ideasB": ["Κοινές αναμνήσεις", "Ασφάλεια", "Φθηνότερο"], "level": "intermediate" }
+        ],
+        "talkThatTalk": [
+            { "topic": "Η αγαπημένη μου παιδική ανάμνηση", "level": "starter" },
+            { "topic": "Ένα μέρος που θέλω να επισκεφθώ και γιατί", "level": "elementary" },
+            { "topic": "Το καλύτερο γεύμα που έφαγα ποτέ", "level": "starter" },
+            { "topic": "Η δουλειά των ονείρων μου", "level": "elementary" },
+            { "topic": "Πώς η τεχνολογία άλλαξε τη ζωή μας", "level": "intermediate" },
+            { "topic": "Είναι καλύτερο να είσαι ηγέτης ή ακόλουθος;", "level": "upper-intermediate" }
+        ]
+    }
+};
+
 const lessonsData = {
     en: {
         1: {

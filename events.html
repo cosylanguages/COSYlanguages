@@ -34,6 +34,19 @@
     <main>
         <section id="events">
             <h2 data-translate-key="events_title">Our Events 🎉</h2>
+
+            <details class="help-details glass" style="margin-bottom: 2rem; padding: 1rem; border-radius: 20px; max-width: 800px; margin-left: auto; margin-right: auto;">
+                <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="how_it_works">How it works? 💡</summary>
+                <div style="margin-top: 1rem; text-align: left; font-size: 0.9rem; line-height: 1.6;">
+                    <p style="margin-bottom: 0.8rem;">Welcome to our Events corner! Here you can find our scheduled clubs and interactive games to practice your language skills.</p>
+                    <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                        <li>🎭 <strong>Games:</strong> Click "Show Games" to see available interactive tools. Perfect for solo or group practice!</li>
+                        <li>🗣️ <strong>Speaking Clubs:</strong> Check the topics we discuss in our live sessions.</li>
+                        <li>🎤 <strong>Immersive Nights:</strong> Join us for karaoke or cinema to learn in a fun, cultural way.</li>
+                    </ul>
+                </div>
+            </details>
+
             <div class="tools-grid">
                 <div class="tool-card">
                     <h3 data-translate-key="event_speaking_club">Speaking Clubs 🗣️</h3>
@@ -71,12 +84,16 @@
                             <li data-translate-key="game_guess_who">Guess Who? 👤</li>
                             <li data-translate-key="game_guess_what">Guess What? 📦</li>
                             <li data-translate-key="game_bingo">Bingo 🔢</li>
+                            <li data-translate-key="game_debates">Debates ⚖️</li>
+                            <li data-translate-key="game_talk_talk">Talk That Talk 🗣️</li>
                         </ul>
-                        <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem;">
-                            <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades" style="width: 100%;">Play Charades 🎭</button>
-                            <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who" style="width: 100%;">Play Guess Who 👤</button>
-                            <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what" style="width: 100%;">Play Guess What 📦</button>
-                            <button id="open-bingo-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_bingo" style="width: 100%;">Play Bingo 🔢</button>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 1rem;">
+                            <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Charades 🎭</button>
+                            <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who">Play Guess Who 👤</button>
+                            <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what">Play Guess What 📦</button>
+                            <button id="open-bingo-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_bingo">Play Bingo 🔢</button>
+                            <button id="open-debates-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_debates">Play Debates ⚖️</button>
+                            <button id="open-talk-talk-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_talk_talk">Talk That Talk 🗣️</button>
                         </div>
                     </div>
                 </div>
@@ -367,6 +384,116 @@
                 </div>
 
                 <button id="close-bingo-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <!-- Debates Modal -->
+        <div id="debates-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content glass" style="max-width: 700px;">
+                <h2 data-translate-key="debates_title">Debates ⚖️</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="debates_guide_text">Compare two things! Use the 'General Ideas' to help you build your arguments for or against.</p>
+                </details>
+
+                <div class="game-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select id="debates-lang" class="pill-input" style="width: 100%;">
+                            <option value="en">English 🇬🇧</option>
+                            <option value="fr">Français 🇫🇷</option>
+                            <option value="it">Italiano 🇮🇹</option>
+                            <option value="ru">Русский 🇷🇺</option>
+                            <option value="el">Ελληνικά 🇬🇷</option>
+                        </select>
+                    </div>
+                    <div class="setup-group" style="margin-top: 1rem;">
+                        <label data-translate-key="select_level">Select Level 📊</label>
+                        <select id="debates-level" class="pill-input" style="width: 100%;">
+                            <option value="all" data-translate-key="theme_all">All Levels</option>
+                            <option value="starter" data-translate-key="starter">Starter</option>
+                            <option value="elementary" data-translate-key="elementary">Elementary</option>
+                            <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                            <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                            <option value="advanced" data-translate-key="advanced">Advanced</option>
+                        </select>
+                    </div>
+                    <button id="start-debates-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
+                </div>
+
+                <div class="game-play" style="display: none;">
+                    <h3 id="debate-topic" style="margin: 1.5rem 0; font-size: 1.5rem; color: var(--primary-color);">Topic</h3>
+
+                    <div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: 1rem; margin-bottom: 2rem;">
+                        <div class="debate-side glass" style="padding: 1rem; border-radius: 15px;">
+                            <h4 id="side-a-name" style="margin-bottom: 0.8rem; color: var(--accent-color);">Side A</h4>
+                            <div style="text-align: left; font-size: 0.85rem;">
+                                <strong data-translate-key="debates_ideas_title">Ideas:</strong>
+                                <ul id="side-a-ideas" style="padding-left: 1.2rem; margin-top: 0.4rem;"></ul>
+                            </div>
+                        </div>
+                        <div style="font-weight: 800; font-size: 1.2rem; align-self: center; color: #888;" data-translate-key="debates_vs">VS</div>
+                        <div class="debate-side glass" style="padding: 1rem; border-radius: 15px;">
+                            <h4 id="side-b-name" style="margin-bottom: 0.8rem; color: var(--vocab-color);">Side B</h4>
+                            <div style="text-align: left; font-size: 0.85rem;">
+                                <strong data-translate-key="debates_ideas_title">Ideas:</strong>
+                                <ul id="side-b-ideas" style="padding-left: 1.2rem; margin-top: 0.4rem;"></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="next-debate-btn" class="cta-button" data-translate-key="next_word">Next Topic ➡️</button>
+                </div>
+
+                <button id="close-debates-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 2rem;" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <!-- Talk That Talk Modal -->
+        <div id="talk-talk-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content glass" style="max-width: 600px;">
+                <h2 data-translate-key="talk_talk_title">Talk That Talk 🗣️</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="talk_talk_guide_text">Spin the wheel for a random topic. Try to speak for 1-5 minutes about it! Focus on flow and idea generation.</p>
+                </details>
+
+                <div class="game-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select id="talk-lang" class="pill-input" style="width: 100%;">
+                            <option value="en">English 🇬🇧</option>
+                            <option value="fr">Français 🇫🇷</option>
+                            <option value="it">Italiano 🇮🇹</option>
+                            <option value="ru">Русский 🇷🇺</option>
+                            <option value="el">Ελληνικά 🇬🇷</option>
+                        </select>
+                    </div>
+                    <div class="setup-group" style="margin-top: 1rem;">
+                        <label data-translate-key="select_level">Select Level 📊</label>
+                        <select id="talk-level" class="pill-input" style="width: 100%;">
+                            <option value="all" data-translate-key="theme_all">All Levels</option>
+                            <option value="starter" data-translate-key="starter">Starter</option>
+                            <option value="elementary" data-translate-key="elementary">Elementary</option>
+                            <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                            <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                            <option value="advanced" data-translate-key="advanced">Advanced</option>
+                        </select>
+                    </div>
+                    <button id="start-talk-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="spin_topic_btn">Spin for Topic! 🎡</button>
+                </div>
+
+                <div class="game-play" style="display: none; padding: 2rem 0;">
+                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
+                        <div id="talk-topic-display" style="font-size: 1.8rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;">Topic</div>
+                    </div>
+                    <p style="color: #666; font-style: italic; margin-bottom: 2rem;" data-translate-key="talk_time_label">Target Speaking Time: 1-5 minutes</p>
+                    <button id="next-talk-btn" class="cta-button primary" data-translate-key="spin_topic_btn">Spin Again! 🎡</button>
+                </div>
+
+                <button id="close-talk-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
     </main>
