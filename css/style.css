@@ -563,6 +563,7 @@ footer {
     }
 
     .choices-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         gap: 0.8rem;
     }
 
@@ -603,11 +604,15 @@ footer {
     }
 
     .word-text {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .practice-emoji {
-        font-size: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .choices-grid {
+        grid-template-columns: 1fr;
     }
 
     #practice-container h2 {
@@ -731,23 +736,23 @@ footer {
 }
 
 .english-page {
-    background-image: url('images/uk_flag.png');
+    background-image: url('../images/uk_flag.png');
 }
 
 .french-page {
-    background-image: url('images/france_flag.png');
+    background-image: url('../images/france_flag.png');
 }
 
 .italian-page {
-    background-image: url('images/italy_flag.png');
+    background-image: url('../images/italy_flag.png');
 }
 
 .russian-page {
-    background-image: url('images/russia_flag.png');
+    background-image: url('../images/russia_flag.png');
 }
 
 .greek-page {
-    background-image: url('images/greece_flag.png');
+    background-image: url('../images/greece_flag.png');
 }
 
 #language-hero {
@@ -1155,16 +1160,20 @@ footer {
     display: flex;
     gap: 0.8rem;
     justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 #opposite-answer {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     border-radius: 50px;
     border: 2px solid var(--light-gray);
     font-size: 1.1rem;
-    width: 250px;
+    width: 100%;
+    max-width: 320px;
     outline: none;
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 #opposite-answer:focus {
@@ -1291,7 +1300,7 @@ footer {
 /* Multiple Choice Grid */
 .choices-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1.2rem;
     max-width: 480px;
     margin: 0 auto 1.5rem;

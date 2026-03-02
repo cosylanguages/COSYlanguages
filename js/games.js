@@ -440,11 +440,178 @@ document.addEventListener('DOMContentLoaded', () => {
         return { open: openBingo, startCaller: startBingoCaller, startPlayer: startBingoPlayer };
     };
 
+    // --- Debates Logic ---
+    const initDebates = () => {
+        const modal = document.getElementById('debates-modal');
+        if (!modal) return;
+
+        const openBtn = document.getElementById('open-debates-btn');
+        const closeBtn = document.getElementById('close-debates-btn');
+        const startBtn = document.getElementById('start-debates-btn');
+        const nextBtn = document.getElementById('next-debate-btn');
+
+        const setupArea = modal.querySelector('.game-setup');
+        const gameArea = modal.querySelector('.game-play');
+        const topicDisplay = document.getElementById('debate-topic');
+        const sideAName = document.getElementById('side-a-name');
+        const sideBName = document.getElementById('side-b-name');
+        const sideAIdeas = document.getElementById('side-a-ideas');
+        const sideBIdeas = document.getElementById('side-b-ideas');
+
+        let pool = [];
+
+        const showNext = () => {
+            if (pool.length === 0) {
+                gameArea.style.display = 'none';
+                setupArea.style.display = 'block';
+                return;
+            }
+            const debate = pool.pop();
+            topicDisplay.textContent = debate.topic;
+            sideAName.textContent = debate.sideA;
+            sideBName.textContent = debate.sideB;
+
+            sideAIdeas.innerHTML = '';
+            debate.ideasA.forEach(idea => {
+                const li = document.createElement('li');
+                li.textContent = idea;
+                sideAIdeas.appendChild(li);
+            });
+
+            sideBIdeas.innerHTML = '';
+            debate.ideasB.forEach(idea => {
+                const li = document.createElement('li');
+                li.textContent = idea;
+                sideBIdeas.appendChild(li);
+            });
+        };
+
+        const openGame = () => {
+            modal.style.display = 'flex';
+            setupArea.style.display = 'block';
+            gameArea.style.display = 'none';
+        };
+
+        openBtn?.addEventListener('click', openGame);
+        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+
+        const startGame = () => {
+            const lang = document.getElementById('debates-lang').value;
+            const level = document.getElementById('debates-level').value;
+
+            pool = [];
+            if (speakingGamesData[lang] && speakingGamesData[lang].debates) {
+                pool = [...speakingGamesData[lang].debates];
+            }
+
+            if (level !== 'all') {
+                pool = pool.filter(d => d.level === level);
+            }
+
+            if (pool.length === 0) {
+                alert("No debates found for this level!");
+                return;
+            }
+
+            pool.sort(() => Math.random() - 0.5);
+            setupArea.style.display = 'none';
+            gameArea.style.display = 'block';
+            showNext();
+        };
+
+        startBtn?.addEventListener('click', startGame);
+        nextBtn?.addEventListener('click', showNext);
+
+        handleShare('share-debates-btn', {
+            game: 'debates',
+            lang: () => document.getElementById('debates-lang').value,
+            level: () => document.getElementById('debates-level').value
+        });
+
+        return { open: openGame, start: startGame };
+    };
+
+    // --- Talk That Talk Logic ---
+    const initTalkTalk = () => {
+        const modal = document.getElementById('talk-talk-modal');
+        if (!modal) return;
+
+        const openBtn = document.getElementById('open-talk-talk-btn');
+        const closeBtn = document.getElementById('close-talk-btn');
+        const startBtn = document.getElementById('start-talk-btn');
+        const nextBtn = document.getElementById('next-talk-btn');
+
+        const setupArea = modal.querySelector('.game-setup');
+        const gameArea = modal.querySelector('.game-play');
+        const topicDisplay = document.getElementById('talk-topic-display');
+
+        let pool = [];
+
+        const showNext = () => {
+            if (pool.length === 0) {
+                gameArea.style.display = 'none';
+                setupArea.style.display = 'block';
+                return;
+            }
+            const item = pool.pop();
+            topicDisplay.textContent = item.topic;
+        };
+
+        const openGame = () => {
+            modal.style.display = 'flex';
+            setupArea.style.display = 'block';
+            gameArea.style.display = 'none';
+        };
+
+        openBtn?.addEventListener('click', openGame);
+        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+
+        const startGame = () => {
+            const lang = document.getElementById('talk-lang').value;
+            const level = document.getElementById('talk-level').value;
+
+            pool = [];
+            if (speakingGamesData[lang] && speakingGamesData[lang].talkThatTalk) {
+                pool = [...speakingGamesData[lang].talkThatTalk];
+            }
+
+            if (level !== 'all') {
+                pool = pool.filter(d => d.level === level);
+            }
+
+            if (pool.length === 0) {
+                alert("No topics found for this level!");
+                return;
+            }
+
+            pool.sort(() => Math.random() - 0.5);
+            setupArea.style.display = 'none';
+            gameArea.style.display = 'block';
+            showNext();
+        };
+
+        startBtn?.addEventListener('click', startGame);
+        nextBtn?.addEventListener('click', startGame); // Re-shuffle if we click Spin Again? Or just show next.
+        // Actually, Spin Again should probably just show next word if we have them,
+        // or re-start if pool empty. Let's make it show next.
+        nextBtn?.addEventListener('click', showNext);
+
+        handleShare('share-talk-talk-btn', {
+            game: 'talk-talk',
+            lang: () => document.getElementById('talk-lang').value,
+            level: () => document.getElementById('talk-level').value
+        });
+
+        return { open: openGame, start: startGame };
+    };
+
     // Initialize all and handle deep linking
     const charades = initCharades();
     const guessWho = initGuessGame('who');
     const guessWhat = initGuessGame('what');
     const bingo = initBingo();
+    const debates = initDebates();
+    const talkTalk = initTalkTalk();
 
     // Deep Linking Support
     const urlParams = new URLSearchParams(window.location.search);
@@ -487,6 +654,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (seed) document.getElementById('bingo-seed').value = seed;
                 if (mode === 'caller') bingo.startCaller();
                 else if (mode === 'player') bingo.startPlayer();
+            } else if (game === 'debates') {
+                debates.open();
+                if (lang) document.getElementById('debates-lang').value = lang;
+                if (level) document.getElementById('debates-level').value = level;
+                debates.start();
+            } else if (game === 'talk-talk') {
+                talkTalk.open();
+                if (lang) document.getElementById('talk-lang').value = lang;
+                if (level) document.getElementById('talk-level').value = level;
+                talkTalk.start();
             }
 
             // Apply language to modals if lang param provided
