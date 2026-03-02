@@ -159,6 +159,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const finishConversationBtn = document.getElementById('finish-conversation-btn');
     const backToMenuBtn = document.getElementById('back-to-menu-btn');
     const shareLinkBtn = document.getElementById('share-link-btn');
+    const exitPracticeBtn = document.getElementById('exit-practice-btn');
+
+    if (exitPracticeBtn) {
+        exitPracticeBtn.addEventListener('click', () => {
+            const lang = currentPractice.language;
+            const confirmMsg = (translations[lang] && translations[lang]['exit_confirm']) ? translations[lang]['exit_confirm'] : "Exit practice and return to menu?";
+            if (confirm(confirmMsg)) {
+                document.getElementById('practice-section').style.display = 'none';
+                document.getElementById('setup-section').style.display = 'block';
+                // Update resume button visibility since we now have a saved session
+                const resumeBtn = document.getElementById('resume-btn');
+                if (resumeBtn) resumeBtn.style.display = 'inline-block';
+                window.scrollTo(0, 0);
+            }
+        });
+    }
 
     if (shareLinkBtn) {
         shareLinkBtn.addEventListener('click', () => {
