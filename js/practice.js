@@ -703,15 +703,21 @@ function startPractice(isWheelMode = false) {
     lessons.forEach(l => {
         if (langData[l]) {
             const filteredWords = langData[l].words.filter(w => {
-                // Determine if this word belongs to any of the ENABLED categories
-                const categoryMatch = enabledCategories.includes(w.category);
-                if (!categoryMatch) return false;
+                // Determine if this word belongs to the selected mode
+                let match = false;
+                if (catVocab) {
+                    match = (w.category === 'vocabulary');
+                } else if (catGrammar) {
+                    // Grammar includes grammar items AND vocabulary items with grammatical properties
+                    match = (w.category === 'grammar' || !!w.article || !!w.gender || !!w.numberPlural);
+                } else if (catSpeaking) {
+                    match = (w.category === 'conversation' || w.type === 'conversation');
+                }
+
+                if (!match) return false;
 
                 // For "speaking only" in wheel mode, we strictly want conversation items
-                if (isWheelMode && w.category !== 'conversation') return false;
-
-                // If user selected ONLY vocabulary, don't show items that are purely grammar (and vice versa)
-                // This is already handled by enabledCategories.includes(w.category)
+                if (isWheelMode && (w.category !== 'conversation' && w.type !== 'conversation')) return false;
 
                 // Ensure at least one enabled task type is possible for this word
                 return enabledTypes.some(t => {
