@@ -2633,26 +2633,27 @@ const speakingGamesData = {
             { "topic": "The future of Artificial Intelligence", "level": "advanced" }
         ],
         "agreeDisagree": [
-            { "topic": "Chocolate is better than vanilla.", "level": "starter" },
-            { "topic": "Dogs are better than cats.", "level": "elementary" },
-            { "topic": "Every child should have a pet.", "level": "elementary" },
-            { "topic": "Homework should be banned.", "level": "intermediate" },
-            { "topic": "Money can buy happiness.", "level": "upper-intermediate" },
-            { "topic": "People look for partners who possess the traits that they personally lack.", "level": "advanced" },
-            { "topic": "An extroverted husband would be happy with an introverted wife.", "level": "advanced" },
-            { "topic": "Being opposites can make a relationship more dynamic.", "level": "advanced" },
-            { "topic": "Similarities make for a long-term relationship.", "level": "advanced" },
-            { "topic": "Only opposite magnets attract.", "level": "advanced" }
+            { "topic": "Opposites attract.", "level": "starter", "theme": "Relationships" },
+            { "topic": "Opposite magnets attract.", "level": "elementary", "theme": "Science" },
+            { "topic": "An extrovert can be happy with an introvert.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Being opposites makes a relationship dynamic.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Similarities are good for long-term relationships.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "People look for partners who have traits they lack.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "People look for partners who possess the traits that they personally lack.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "An extroverted husband would be happy with an introverted wife.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Being opposites can make a relationship more dynamic.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Similarities make for a long-term relationship.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Only opposite magnets attract.", "level": "advanced", "theme": "Science" }
         ],
         "commentOn": [
-            { "topic": "Your favorite season of the year.", "level": "starter" },
-            { "topic": "The best way to spend a weekend.", "level": "elementary" },
-            { "topic": "How to make new friends.", "level": "elementary" },
-            { "topic": "The impact of social media on teenagers.", "level": "intermediate" },
-            { "topic": "Should university education be free for everyone?", "level": "upper-intermediate" },
-            { "topic": "Men and women are motivated in different ways. According to John Gray's book Men Are from Mars, Women Are from Venus, men are motivated when they feel needed, while women are motivated when they feel cherished.", "level": "advanced" },
-            { "topic": "Men and women behave differently when they have problems. The same author explained that to feel better, women get together and openly talk about their problem, but men go to their caves to solve problems alone.", "level": "advanced" },
-            { "topic": "One should never try to change their partner. John Gray explained that your job is to change the ways you communicate, react and respond to your partner, but not to change the partner.", "level": "advanced" }
+            { "topic": "Men and women are different.", "level": "elementary", "theme": "Psychology" },
+            { "topic": "Do not try to change your partner.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Men and women are motivated in different ways.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Men and women solve problems differently.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Change how you communicate, not your partner.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Men and women are motivated in different ways. According to John Gray's book Men Are from Mars, Women Are from Venus, men are motivated when they feel needed, while women are motivated when they feel cherished.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "Men and women behave differently when they have problems. The same author explained that to feel better, women get together and openly talk about their problem, but men go to their caves to solve problems alone.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "One should never try to change their partner. John Gray explained that your job is to change the ways you communicate, react and respond to your partner, but not to change the partner.", "level": "advanced", "theme": "Relationships" }
         ]
     },
     "fr": {
@@ -2672,17 +2673,27 @@ const speakingGamesData = {
             { "topic": "Est-il préférable d'être un leader ou un suiveur ?", "level": "upper-intermediate" }
         ],
         "agreeDisagree": [
-            { "topic": "Le chocolat est meilleur que la vanille.", "level": "starter" },
-            { "topic": "Les chiens sont meilleurs que les chats.", "level": "elementary" },
-            { "topic": "Chaque enfant devrait avoir un animal de compagnie.", "level": "elementary" },
-            { "topic": "Les devoirs devraient être interdits.", "level": "intermediate" },
-            { "topic": "L'argent peut acheter le bonheur.", "level": "upper-intermediate" }
+            { "topic": "Les opposés s'attirent.", "level": "starter", "theme": "Relationships" },
+            { "topic": "Les pôles opposés des aimants s'attirent.", "level": "elementary", "theme": "Science" },
+            { "topic": "Un extraverti peut être heureux avec un introverti.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Le fait d'être opposés rend une relation dynamique.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Les similitudes sont bonnes pour les relations à long terme.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Les gens cherchent des partenaires qui ont des traits qui leur manquent.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Les gens recherchent des partenaires qui possèdent les traits qui leur manquent personnellement.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Un mari extraverti serait heureux avec une femme introvertie.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Être des opposés peut rendre une relation plus dynamique.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Les similitudes favorisent une relation à long terme.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Seuls les pôles opposés des aimants s'attirent.", "level": "advanced", "theme": "Science" }
         ],
         "commentOn": [
-            { "topic": "Votre saison préférée de l'année.", "level": "starter" },
-            { "topic": "La meilleure façon de passer un week-end.", "level": "elementary" },
-            { "topic": "Comment se faire de nouveaux amis.", "level": "elementary" },
-            { "topic": "L'impact des réseaux sociaux sur les adolescents.", "level": "intermediate" }
+            { "topic": "Les hommes et les femmes sont différents.", "level": "elementary", "theme": "Psychology" },
+            { "topic": "N'essayez pas de changer votre partenaire.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Les hommes et les femmes sont motivés de différentes manières.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Les hommes et les femmes résolvent les problèmes différemment.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Changez votre façon de communiquer, pas votre partenaire.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Les hommes et les femmes sont motivés de différentes manières. Selon le livre de John Gray, Les hommes viennent de Mars, les femmes viennent de Vénus, les hommes sont motivés lorsqu'ils se sentent nécessaires, tandis que les femmes sont motivées lorsqu'elles se sentent chéries.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "Les hommes et les femmes se comportent différemment face aux problèmes. Le même auteur a expliqué que pour se sentir mieux, les femmes se réunissent et parlent ouvertement de leur problème, mais les hommes se retirent dans leur caverne pour résoudre les problèmes seuls.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "On ne devrait jamais essayer de changer son partenaire. John Gray a expliqué que votre travail consiste à changer vos façons de communiquer, de réagir et de répondre à votre partenaire, mais pas de changer le partenaire.", "level": "advanced", "theme": "Relationships" }
         ]
     },
     "it": {
@@ -2702,17 +2713,27 @@ const speakingGamesData = {
             { "topic": "È meglio essere un leader o un seguace?", "level": "upper-intermediate" }
         ],
         "agreeDisagree": [
-            { "topic": "Il cioccolato è meglio della vaniglia.", "level": "starter" },
-            { "topic": "I cani sono meglio dei gatti.", "level": "elementary" },
-            { "topic": "Ogni bambino dovrebbe avere un animale domestico.", "level": "elementary" },
-            { "topic": "I compiti a casa dovrebbero essere vietati.", "level": "intermediate" },
-            { "topic": "I soldi possono comprare la felicità.", "level": "upper-intermediate" }
+            { "topic": "Gli opposti si attraggono.", "level": "starter", "theme": "Relationships" },
+            { "topic": "I magneti opposti si attraggono.", "level": "elementary", "theme": "Science" },
+            { "topic": "Un estroverso può essere felice con un introverso.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Essere opposti rende una relazione dinamica.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Le somiglianze sono buone per le relazioni a lungo termine.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Le persone cercano partner che hanno tratti che a loro mancano.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Le persone cercano partner che possiedono i tratti che a loro mancano personalmente.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Un marito estroverso sarebbe felice con una moglie introversa.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Essere opposti può rendere una relazione più dinamica.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Le somiglianze favoriscono una relazione a lungo termine.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Solo i magneti opposti si attraggono.", "level": "advanced", "theme": "Science" }
         ],
         "commentOn": [
-            { "topic": "La tua stagione preferita dell'anno.", "level": "starter" },
-            { "topic": "Il modo migliore per trascorrere un fine settimana.", "level": "elementary" },
-            { "topic": "Come farsi nuovi amici.", "level": "elementary" },
-            { "topic": "L'impatto dei social media sugli adolescenti.", "level": "intermediate" }
+            { "topic": "Uomini e donne sono diversi.", "level": "elementary", "theme": "Psychology" },
+            { "topic": "Non cercare di cambiare il tuo partner.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Uomini e donne sono motivati in modi diversi.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Uomini e donne risolvono i problemi in modo diverso.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Cambia il tuo modo di comunicare, non il tuo partner.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Uomini e donne sono motivati in modi diversi. Secondo il libro di John Gray Gli uomini vengono da Marte, le donne da Venere, gli uomini sono motivati quando si sentono necessari, mentre le donne sono motivate quando si sentono apprezzate.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "Uomini e donne si comportano in modo diverso quando hanno problemi. Lo stesso autore ha spiegato che per sentirsi meglio, le donne si riuniscono e parlano apertamente dei loro problemi, ma gli uomini vanno nelle loro caverne per risolvere i problemi da soli.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "Non si dovrebbe mai cercare di cambiare il proprio partner. John Gray ha spiegato che il tuo compito è cambiare i modi in cui comunichi, reagisci e rispondi al tuo partner, ma non cambiare il partner.", "level": "advanced", "theme": "Relationships" }
         ]
     },
     "ru": {
@@ -2732,17 +2753,27 @@ const speakingGamesData = {
             { "topic": "Лучше быть лидером или последователем?", "level": "upper-intermediate" }
         ],
         "agreeDisagree": [
-            { "topic": "Шоколад лучше ванили.", "level": "starter" },
-            { "topic": "Собаки лучше кошек.", "level": "elementary" },
-            { "topic": "У каждого ребенка должно быть домашнее животное.", "level": "elementary" },
-            { "topic": "Домашние задания должны быть запрещены.", "level": "intermediate" },
-            { "topic": "Деньги могут купить счастье.", "level": "upper-intermediate" }
+            { "topic": "Противоположности притягиваются.", "level": "starter", "theme": "Relationships" },
+            { "topic": "Противоположные магниты притягиваются.", "level": "elementary", "theme": "Science" },
+            { "topic": "Экстраверт может быть счастлив с интровертом.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Различия делают отношения динамичными.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Сходства хороши для длительных отношений.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Люди ищут партнеров с чертами, которых им не хватает.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Люди ищут партнеров, обладающих чертами, которых им самим не хватает.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Муж-экстраверт был бы счастлив с женой-интровертом.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Различия могут сделать отношения более динамичными.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Сходства способствуют длительным отношениям.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Притягиваются только противоположные магниты.", "level": "advanced", "theme": "Science" }
         ],
         "commentOn": [
-            { "topic": "Ваше любимое время года.", "level": "starter" },
-            { "topic": "Лучший способ провести выходные.", "level": "elementary" },
-            { "topic": "Как заводить новых друзей.", "level": "elementary" },
-            { "topic": "Влияние социальных сетей на подростков.", "level": "intermediate" }
+            { "topic": "Мужчины и женщины разные.", "level": "elementary", "theme": "Psychology" },
+            { "topic": "Не пытайтесь изменить своего партнера.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Мужчины и женщины мотивированы по-разному.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Мужчины и женщины решают проблемы по-разному.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Меняйте способ общения, а не партнера.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Мужчины и женщины мотивированы по-разному. Согласно книге Джона Грея «Мужчины с Марса, женщины с Венеры», мужчины мотивированы, когда чувствуют себя нужными, а женщины — когда чувствуют, что их ценят.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "Мужчины и женщины ведут себя по-разному, когда у них возникают проблемы. Тот же автор объяснил, что для того, чтобы почувствовать себя лучше, женщины собираются вместе и открыто говорят о своей проблеме, а мужчины уходят в свои «пещеры», чтобы решать проблемы в одиночку.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "Никогда не следует пытаться изменить своего партнера. Джон Грей объяснил, что ваша задача — изменить способы общения и реагирования на партнера, но не менять самого партнера.", "level": "advanced", "theme": "Relationships" }
         ]
     },
     "el": {
@@ -2762,17 +2793,27 @@ const speakingGamesData = {
             { "topic": "Είναι καλύτερο να είσαι ηγέτης ή ακόλουθος;", "level": "upper-intermediate" }
         ],
         "agreeDisagree": [
-            { "topic": "Η σοκολάτα είναι καλύτερη από τη βανίλια.", "level": "starter" },
-            { "topic": "Τα σκυλιά είναι καλύτερα από τις γάτες.", "level": "elementary" },
-            { "topic": "Κάθε παιδί πρέπει να έχει ένα κατοικίδιο.", "level": "elementary" },
-            { "topic": "Οι εργασίες για το σπίτι πρέπει να απαγορευτούν.", "level": "intermediate" },
-            { "topic": "Τα χρήματα μπορούν να αγοράσουν την ευτυχία.", "level": "upper-intermediate" }
+            { "topic": "Τα ετερώνυμα έλκονται.", "level": "starter", "theme": "Relationships" },
+            { "topic": "Οι αντίθετοι πόλοι των μαγνητών έλκονται.", "level": "elementary", "theme": "Science" },
+            { "topic": "Ένας εξωστρεφής μπορεί να είναι ευτυχισμένος με έναν εσωστρεφή.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Το να είστε αντίθετοι κάνει μια σχέση δυναμική.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Οι ομοιότητες είναι καλές για μακροχρόνιες σχέσεις.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Οι άνθρωποι αναζητούν συντρόφους με χαρακτηριστικά που τους λείπουν.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Οι άνθρωποι αναζητούν συντρόφους που κατέχουν τα χαρακτηριστικά που τους λείπουν προσωπικά.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Ένας εξωστρεφής σύζυγος θα ήταν ευτυχισμένος με μια εσωστρεφή σύζυγο.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Το να είστε αντίθετοι μπορεί να κάνει μια σχέση πιο δυναμική.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Οι ομοιότητες ευνοούν μια μακροχρόνια σχέση.", "level": "advanced", "theme": "Relationships" },
+            { "topic": "Μόνο οι αντίθετοι μαγνήτες έλκονται.", "level": "advanced", "theme": "Science" }
         ],
         "commentOn": [
-            { "topic": "Η αγαπημένη σας εποχή του χρόνου.", "level": "starter" },
-            { "topic": "Ο καλύτερος τρόπος για να περάσετε ένα Σαββατοκύριακο.", "level": "elementary" },
-            { "topic": "Πώς να κάνετε νέους φίλους.", "level": "elementary" },
-            { "topic": "Η επίδραση των μέσων κοινωνικής δικτύωσης στους εφήβους.", "level": "intermediate" }
+            { "topic": "Οι άνδρες και οι γυναίκες είναι διαφορετικοί.", "level": "elementary", "theme": "Psychology" },
+            { "topic": "Μην προσπαθείτε να αλλάξετε τον σύντροφό σας.", "level": "elementary", "theme": "Relationships" },
+            { "topic": "Οι άνδρες και οι γυναίκες έχουν διαφορετικά κίνητρα.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Οι άνδρες και οι γυναίκες λύνουν τα προβλήματα διαφορετικά.", "level": "intermediate", "theme": "Psychology" },
+            { "topic": "Αλλάξτε τον τρόπο που επικοινωνείτε, όχι τον σύντροφό σας.", "level": "intermediate", "theme": "Relationships" },
+            { "topic": "Οι άνδρες και οι γυναίκες έχουν διαφορετικά κίνητρα. Σύμφωνα με το βιβλίο του John Gray Οι άνδρες είναι από τον Άρη, οι γυναίκες από την Αφροδίτη, οι άνδρες έχουν κίνητρο όταν αισθάνονται απαραίτητοι, ενώ οι γυναίκες όταν αισθάνονται ότι τις εκτιμούν.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "Οι άνδρες και οι γυναίκες συμπεριφέρονται διαφορετικά όταν έχουν προβλήματα. Ο ίδιος συγγραφέας εξήγησε ότι για να νιώσουν καλύτερα, οι γυναίκες μαζεύονται και μιλούν ανοιχτά για το πρόβλημά τους, αλλά οι άνδρες πηγαίνουν στις «σπηλιές» τους για να λύσουν τα προβλήματα μόνοι τους.", "level": "advanced", "theme": "Psychology" },
+            { "topic": "Δεν πρέπει ποτέ κανείς να προσπαθεί να αλλάξει τον σύντροφό του. Ο John Gray εξήγησε ότι η δουλειά σας είναι να αλλάξετε τους τρόπους με τους οποίους επικοινωνείτε, αντιδράτε και ανταποκρίνεστε στον σύντροφό σας, αλλά όχι να αλλάξετε τον σύντροφο.", "level": "advanced", "theme": "Relationships" }
         ]
     }
 };

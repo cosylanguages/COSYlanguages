@@ -607,20 +607,50 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Agree/Disagree & Comment On Logic ---
     const initGenericTopicGame = (gameKey) => {
-        const modalId = gameKey === 'agreeDisagree' ? 'agree-disagree-modal' : 'comment-on-modal';
-        const modal = document.getElementById(modalId);
+        const idPrefix = gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on';
+        const modal = document.getElementById(`${idPrefix}-modal`);
         if (!modal) return;
 
-        const openBtn = document.getElementById(`open-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`);
-        const closeBtn = document.getElementById(`close-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`);
-        const startBtn = document.getElementById(`start-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`);
-        const nextBtn = document.getElementById(`next-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`);
+        const openBtn = document.getElementById(`open-${idPrefix}-btn`);
+        const closeBtn = document.getElementById(`close-${idPrefix}-btn`);
+        const startBtn = document.getElementById(`start-${idPrefix}-btn`);
+        const nextBtn = document.getElementById(`next-${idPrefix}-btn`);
+        const levelSelect = document.getElementById(`${idPrefix}-level`);
+        const themeSelect = document.getElementById(`${idPrefix}-theme`);
+        const langSelect = document.getElementById(`${idPrefix}-lang`);
 
         const setupArea = modal.querySelector('.game-setup');
         const gameArea = modal.querySelector('.game-play');
-        const topicDisplay = document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-topic-display`);
+        const topicDisplay = document.getElementById(`${idPrefix}-topic-display`);
 
         let pool = [];
+
+        const updateThemes = () => {
+            const lang = langSelect.value;
+            const level = levelSelect.value;
+            const themes = new Set();
+
+            if (speakingGamesData[lang] && speakingGamesData[lang][gameKey]) {
+                speakingGamesData[lang][gameKey].forEach(item => {
+                    if (level === 'all' || item.level === level) {
+                        if (item.theme) themes.add(item.theme);
+                    }
+                });
+            }
+
+            const currentTheme = themeSelect.value;
+            themeSelect.innerHTML = `<option value="all">${t('theme_all')}</option>`;
+            themes.forEach(theme => {
+                const opt = document.createElement('option');
+                opt.value = theme;
+                opt.textContent = t(`theme_${theme.toLowerCase()}`) || theme;
+                themeSelect.appendChild(opt);
+            });
+            if (Array.from(themes).includes(currentTheme)) themeSelect.value = currentTheme;
+        };
+
+        levelSelect?.addEventListener('change', updateThemes);
+        langSelect?.addEventListener('change', updateThemes);
 
         const showNext = () => {
             if (pool.length === 0) {
@@ -634,6 +664,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const openGame = () => {
             modal.style.display = 'flex';
+            updateThemes();
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
         };
@@ -642,8 +673,9 @@ document.addEventListener('DOMContentLoaded', () => {
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
         const startGame = () => {
-            const lang = document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-lang`).value;
-            const level = document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-level`).value;
+            const lang = langSelect.value;
+            const level = levelSelect.value;
+            const theme = themeSelect.value;
 
             pool = [];
             if (speakingGamesData[lang] && speakingGamesData[lang][gameKey]) {
@@ -653,9 +685,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if (level !== 'all') {
                 pool = pool.filter(d => d.level === level);
             }
+            if (theme !== 'all') {
+                pool = pool.filter(d => d.theme === theme);
+            }
 
             if (pool.length === 0) {
-                alert("No topics found for this level!");
+                alert("No topics found!");
                 return;
             }
 
@@ -668,10 +703,11 @@ document.addEventListener('DOMContentLoaded', () => {
         startBtn?.addEventListener('click', startGame);
         nextBtn?.addEventListener('click', showNext);
 
-        handleShare(`share-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`, {
-            game: gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on',
-            lang: () => document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-lang`).value,
-            level: () => document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-level`).value
+        handleShare(`share-${idPrefix}-btn`, {
+            game: idPrefix,
+            lang: () => langSelect.value,
+            level: () => levelSelect.value,
+            theme: () => themeSelect.value
         });
 
         return { open: openGame, start: startGame };
@@ -742,11 +778,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 agreeDisagree.open();
                 if (lang) document.getElementById('agree-disagree-lang').value = lang;
                 if (level) document.getElementById('agree-disagree-level').value = level;
+                if (theme) {
+                    const themeSelect = document.getElementById('agree-disagree-theme');
+                    // Need to wait for updateThemes to finish if we were using it inside open()
+                    // but here we can just set it since we are in a setTimeout
+                    themeSelect.value = theme;
+                }
                 agreeDisagree.start();
             } else if (game === 'comment-on') {
                 commentOn.open();
                 if (lang) document.getElementById('comment-on-lang').value = lang;
                 if (level) document.getElementById('comment-on-level').value = level;
+                if (theme) {
+                    const themeSelect = document.getElementById('comment-on-theme');
+                    themeSelect.value = theme;
+                }
                 commentOn.start();
             }
 

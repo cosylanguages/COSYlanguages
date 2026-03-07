@@ -85,7 +85,69 @@ document.addEventListener('DOMContentLoaded', () => {
                 configureTask(cb.id, isVocab, isVocab);
             });
         }
+        updatePracticeThemes();
     };
+
+    function updatePracticeThemes() {
+        const lang = currentPractice.language;
+        const selectedCatEl = document.querySelector('input[name="practice-cat"]:checked');
+        if (!selectedCatEl) return;
+        const selectedCat = selectedCatEl.id.replace('cat-', '');
+        const lessonInput = document.getElementById('lesson-range').value;
+        const lessons = parseLessonRange(lessonInput);
+        const themeSelect = document.getElementById('practice-theme');
+        if (!themeSelect) return;
+
+        const themes = new Set();
+        const langData = lessonsData[lang];
+
+        if (langData) {
+            lessons.forEach(l => {
+                if (langData[l]) {
+                    langData[l].words.forEach(w => {
+                        let match = false;
+                        if (selectedCat === 'vocab') match = (w.category === 'vocabulary');
+                        else if (selectedCat === 'grammar') match = (w.category === 'grammar' || !!w.article || !!w.gender || !!w.numberPlural);
+                        else if (selectedCat === 'speaking') match = (w.category === 'conversation' || w.type === 'conversation' || w.category === 'thinking');
+
+                        if (match && w.theme) themes.add(w.theme);
+                    });
+                }
+            });
+        }
+
+        // Add themes from Speaking games if speaking selected
+        if (selectedCat === 'speaking') {
+            if (speakingGamesData[lang]) {
+                if (speakingGamesData[lang].commentOn) {
+                    speakingGamesData[lang].commentOn.forEach(item => {
+                        if (item.theme) themes.add(item.theme);
+                    });
+                }
+                if (speakingGamesData[lang].agreeDisagree) {
+                    speakingGamesData[lang].agreeDisagree.forEach(item => {
+                        if (item.theme) themes.add(item.theme);
+                    });
+                }
+            }
+        }
+
+        const currentVal = themeSelect.value;
+        const langCode = getLang();
+        const t = (key) => (translations[langCode] && translations[langCode][key]) || key;
+
+        themeSelect.innerHTML = `<option value="all">${t('theme_all')}</option>`;
+        themes.forEach(theme => {
+            const opt = document.createElement('option');
+            opt.value = theme;
+            const transKey = `theme_${theme.toLowerCase().replace(/\s/g, '_')}`;
+            opt.textContent = t(transKey) || theme;
+            themeSelect.appendChild(opt);
+        });
+        if (Array.from(themes).includes(currentVal)) themeSelect.value = currentVal;
+    }
+
+    const getLang = () => localStorage.getItem('language') || 'en';
 
     // Deep Linking Support
     const urlParams = new URLSearchParams(window.location.search);
@@ -329,12 +391,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 const switcher = document.getElementById('language-switcher');
                 if (switcher) switcher.value = newLang;
             }
+            updatePracticeThemes();
         });
     });
 
     const lessonRangeInput = document.getElementById('lesson-range');
     if (lessonRangeInput) {
-        lessonRangeInput.addEventListener('input', validateFeaturesByLesson);
+        lessonRangeInput.addEventListener('input', () => {
+            validateFeaturesByLesson();
+            updatePracticeThemes();
+        });
         // Run once on load
         validateFeaturesByLesson();
     }
@@ -705,9 +771,14 @@ function startPractice(isWheelMode = false) {
         return;
     }
 
+    const selectedTheme = document.getElementById('practice-theme').value;
+
     lessons.forEach(l => {
         if (langData[l]) {
             const filteredWords = langData[l].words.filter(w => {
+                // Theme filter
+                if (selectedTheme !== 'all' && w.theme !== selectedTheme) return false;
+
                 // Determine if this word belongs to the selected mode
                 let match = false;
                 if (catVocab) {
@@ -807,21 +878,46 @@ function startPractice(isWheelMode = false) {
         }
     });
 
-    // --- Thinking Skills Extra Source ---
-    if (catSpeaking && enabledTypes.includes('thinking')) {
+    // --- Thinking Skills & Agree/Disagree Extra Sources ---
+    if (catSpeaking) {
         const lang = currentPractice.language;
-        if (speakingGamesData[lang] && speakingGamesData[lang].commentOn) {
-            speakingGamesData[lang].commentOn.forEach(item => {
-                // Add if not already in pool (e.g. from lessons if we ever add them there)
-                currentPractice.words.push({
-                    word: item.topic,
-                    emoji: "🧠",
-                    type: "thinking",
-                    category: "thinking",
-                    level: item.level,
-                    lessonTitle: "Thinking Skills 🧠"
+
+        // Thinking Skills (Comment On)
+        if (enabledTypes.includes('thinking')) {
+            if (speakingGamesData[lang] && speakingGamesData[lang].commentOn) {
+                speakingGamesData[lang].commentOn.forEach(item => {
+                    if (selectedTheme !== 'all' && item.theme !== selectedTheme) return;
+
+                    currentPractice.words.push({
+                        word: item.topic,
+                        emoji: "🧠",
+                        type: "thinking",
+                        category: "thinking",
+                        level: item.level,
+                        theme: item.theme,
+                        lessonTitle: "Thinking Skills 🧠"
+                    });
                 });
-            });
+            }
+        }
+
+        // Agree/Disagree (using Conversation type)
+        if (enabledTypes.includes('conversation')) {
+            if (speakingGamesData[lang] && speakingGamesData[lang].agreeDisagree) {
+                speakingGamesData[lang].agreeDisagree.forEach(item => {
+                    if (selectedTheme !== 'all' && item.theme !== selectedTheme) return;
+
+                    currentPractice.words.push({
+                        word: item.topic,
+                        emoji: "🤝",
+                        type: "conversation",
+                        category: "conversation",
+                        level: item.level,
+                        theme: item.theme,
+                        lessonTitle: "Agree or Disagree? 🤝"
+                    });
+                });
+            }
         }
     }
 
