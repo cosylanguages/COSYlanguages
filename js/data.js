@@ -2631,6 +2631,28 @@ const speakingGamesData = {
             { "topic": "Is it better to be a leader or a follower?", "level": "upper-intermediate" },
             { "topic": "The importance of learning a second language", "level": "intermediate" },
             { "topic": "The future of Artificial Intelligence", "level": "advanced" }
+        ],
+        "agreeDisagree": [
+            { "topic": "Chocolate is better than vanilla.", "level": "starter" },
+            { "topic": "Dogs are better than cats.", "level": "elementary" },
+            { "topic": "Every child should have a pet.", "level": "elementary" },
+            { "topic": "Homework should be banned.", "level": "intermediate" },
+            { "topic": "Money can buy happiness.", "level": "upper-intermediate" },
+            { "topic": "People look for partners who possess the traits that they personally lack.", "level": "advanced" },
+            { "topic": "An extroverted husband would be happy with an introverted wife.", "level": "advanced" },
+            { "topic": "Being opposites can make a relationship more dynamic.", "level": "advanced" },
+            { "topic": "Similarities make for a long-term relationship.", "level": "advanced" },
+            { "topic": "Only opposite magnets attract.", "level": "advanced" }
+        ],
+        "commentOn": [
+            { "topic": "Your favorite season of the year.", "level": "starter" },
+            { "topic": "The best way to spend a weekend.", "level": "elementary" },
+            { "topic": "How to make new friends.", "level": "elementary" },
+            { "topic": "The impact of social media on teenagers.", "level": "intermediate" },
+            { "topic": "Should university education be free for everyone?", "level": "upper-intermediate" },
+            { "topic": "Men and women are motivated in different ways. According to John Gray's book Men Are from Mars, Women Are from Venus, men are motivated when they feel needed, while women are motivated when they feel cherished.", "level": "advanced" },
+            { "topic": "Men and women behave differently when they have problems. The same author explained that to feel better, women get together and openly talk about their problem, but men go to their caves to solve problems alone.", "level": "advanced" },
+            { "topic": "One should never try to change their partner. John Gray explained that your job is to change the ways you communicate, react and respond to your partner, but not to change the partner.", "level": "advanced" }
         ]
     },
     "fr": {
@@ -2648,6 +2670,19 @@ const speakingGamesData = {
             { "topic": "Le métier de mes rêves", "level": "elementary" },
             { "topic": "Comment la technologie a changé nos vies", "level": "intermediate" },
             { "topic": "Est-il préférable d'être un leader ou un suiveur ?", "level": "upper-intermediate" }
+        ],
+        "agreeDisagree": [
+            { "topic": "Le chocolat est meilleur que la vanille.", "level": "starter" },
+            { "topic": "Les chiens sont meilleurs que les chats.", "level": "elementary" },
+            { "topic": "Chaque enfant devrait avoir un animal de compagnie.", "level": "elementary" },
+            { "topic": "Les devoirs devraient être interdits.", "level": "intermediate" },
+            { "topic": "L'argent peut acheter le bonheur.", "level": "upper-intermediate" }
+        ],
+        "commentOn": [
+            { "topic": "Votre saison préférée de l'année.", "level": "starter" },
+            { "topic": "La meilleure façon de passer un week-end.", "level": "elementary" },
+            { "topic": "Comment se faire de nouveaux amis.", "level": "elementary" },
+            { "topic": "L'impact des réseaux sociaux sur les adolescents.", "level": "intermediate" }
         ]
     },
     "it": {
@@ -2665,6 +2700,19 @@ const speakingGamesData = {
             { "topic": "Il lavoro dei miei sogni", "level": "elementary" },
             { "topic": "Come la tecnologia ha cambiato le nostre vite", "level": "intermediate" },
             { "topic": "È meglio essere un leader o un seguace?", "level": "upper-intermediate" }
+        ],
+        "agreeDisagree": [
+            { "topic": "Il cioccolato è meglio della vaniglia.", "level": "starter" },
+            { "topic": "I cani sono meglio dei gatti.", "level": "elementary" },
+            { "topic": "Ogni bambino dovrebbe avere un animale domestico.", "level": "elementary" },
+            { "topic": "I compiti a casa dovrebbero essere vietati.", "level": "intermediate" },
+            { "topic": "I soldi possono comprare la felicità.", "level": "upper-intermediate" }
+        ],
+        "commentOn": [
+            { "topic": "La tua stagione preferita dell'anno.", "level": "starter" },
+            { "topic": "Il modo migliore per trascorrere un fine settimana.", "level": "elementary" },
+            { "topic": "Come farsi nuovi amici.", "level": "elementary" },
+            { "topic": "L'impatto dei social media sugli adolescenti.", "level": "intermediate" }
         ]
     },
     "ru": {
@@ -2682,6 +2730,19 @@ const speakingGamesData = {
             { "topic": "Работа моей мечты", "level": "elementary" },
             { "topic": "Как технологии изменили нашу жизнь", "level": "intermediate" },
             { "topic": "Лучше быть лидером или последователем?", "level": "upper-intermediate" }
+        ],
+        "agreeDisagree": [
+            { "topic": "Шоколад лучше ванили.", "level": "starter" },
+            { "topic": "Собаки лучше кошек.", "level": "elementary" },
+            { "topic": "У каждого ребенка должно быть домашнее животное.", "level": "elementary" },
+            { "topic": "Домашние задания должны быть запрещены.", "level": "intermediate" },
+            { "topic": "Деньги могут купить счастье.", "level": "upper-intermediate" }
+        ],
+        "commentOn": [
+            { "topic": "Ваше любимое время года.", "level": "starter" },
+            { "topic": "Лучший способ провести выходные.", "level": "elementary" },
+            { "topic": "Как заводить новых друзей.", "level": "elementary" },
+            { "topic": "Влияние социальных сетей на подростков.", "level": "intermediate" }
         ]
     },
     "el": {
@@ -2699,6 +2760,19 @@ const speakingGamesData = {
             { "topic": "Η δουλειά των ονείρων μου", "level": "elementary" },
             { "topic": "Πώς η τεχνολογία άλλαξε τη ζωή μας", "level": "intermediate" },
             { "topic": "Είναι καλύτερο να είσαι ηγέτης ή ακόλουθος;", "level": "upper-intermediate" }
+        ],
+        "agreeDisagree": [
+            { "topic": "Η σοκολάτα είναι καλύτερη από τη βανίλια.", "level": "starter" },
+            { "topic": "Τα σκυλιά είναι καλύτερα από τις γάτες.", "level": "elementary" },
+            { "topic": "Κάθε παιδί πρέπει να έχει ένα κατοικίδιο.", "level": "elementary" },
+            { "topic": "Οι εργασίες για το σπίτι πρέπει να απαγορευτούν.", "level": "intermediate" },
+            { "topic": "Τα χρήματα μπορούν να αγοράσουν την ευτυχία.", "level": "upper-intermediate" }
+        ],
+        "commentOn": [
+            { "topic": "Η αγαπημένη σας εποχή του χρόνου.", "level": "starter" },
+            { "topic": "Ο καλύτερος τρόπος για να περάσετε ένα Σαββατοκύριακο.", "level": "elementary" },
+            { "topic": "Πώς να κάνετε νέους φίλους.", "level": "elementary" },
+            { "topic": "Η επίδραση των μέσων κοινωνικής δικτύωσης στους εφήβους.", "level": "intermediate" }
         ]
     }
 };

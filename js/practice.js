@@ -65,9 +65,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (selected.id === 'cat-speaking') {
             container.classList.add('cat-speaking');
+            const speakingTasks = ['type-cv', 'type-th'];
             taskCheckboxes.forEach(cb => {
-                const isCV = cb.id === 'type-cv';
-                configureTask(cb.id, isCV, isCV);
+                const isSpeaking = speakingTasks.includes(cb.id);
+                configureTask(cb.id, isSpeaking, isSpeaking);
             });
         } else if (selected.id === 'cat-grammar') {
             container.classList.add('cat-grammar');
@@ -666,6 +667,7 @@ function startPractice(isWheelMode = false) {
     if (document.getElementById('type-tf').checked) enabledTypes.push('true_false');
     if (document.getElementById('type-ga').checked) enabledTypes.push('gender_articles');
     if (document.getElementById('type-cv').checked) enabledTypes.push('conversation');
+    if (document.getElementById('type-th').checked) enabledTypes.push('thinking');
     if (document.getElementById('type-np').checked) enabledTypes.push('number_plural');
 
     let enabledCategories = [];
@@ -679,11 +681,14 @@ function startPractice(isWheelMode = false) {
     else if (catGrammar) enabledCategories = ['grammar'];
     else if (catSpeaking) enabledCategories = ['conversation'];
 
-    // Override for Wheel Mode: strictly speaking (conversation)
+    // Override for Wheel Mode: strictly speaking (conversation/thinking)
     if (isWheelMode) {
-        // Ensure we only have conversation items for the wheel
+        // Ensure we only have speaking items for the wheel
         enabledCategories = ['conversation'];
-        enabledTypes = ['conversation'];
+        // If neither cv nor th is checked, default to cv for wheel
+        if (!enabledTypes.includes('conversation') && !enabledTypes.includes('thinking')) {
+            enabledTypes.push('conversation');
+        }
 
         // Visual consistency: make sure Speaking radio is checked
         const catSpeaking = document.getElementById('cat-speaking');
@@ -711,13 +716,13 @@ function startPractice(isWheelMode = false) {
                     // Grammar includes grammar items AND vocabulary items with grammatical properties
                     match = (w.category === 'grammar' || !!w.article || !!w.gender || !!w.numberPlural);
                 } else if (catSpeaking) {
-                    match = (w.category === 'conversation' || w.type === 'conversation');
+                    match = (w.category === 'conversation' || w.type === 'conversation' || w.category === 'thinking');
                 }
 
                 if (!match) return false;
 
-                // For "speaking only" in wheel mode, we strictly want conversation items
-                if (isWheelMode && (w.category !== 'conversation' && w.type !== 'conversation')) return false;
+                // For "speaking only" in wheel mode, we strictly want conversation/thinking items
+                if (isWheelMode && (w.category !== 'conversation' && w.type !== 'conversation' && w.category !== 'thinking')) return false;
 
                 // Ensure at least one enabled task type is possible for this word
                 return enabledTypes.some(t => {
@@ -726,6 +731,7 @@ function startPractice(isWheelMode = false) {
                     if (t === 'gender_articles') return !!(w.article || w.gender);
                     if (t === 'number_plural') return !!w.numberPlural;
                     if (t === 'conversation') return w.category === 'conversation' || w.type === 'conversation';
+                    if (t === 'thinking') return w.category === 'thinking';
                     if (t === 'word_scramble') return w.word.includes(' ');
                     if (t === 'scramble') return !w.word.includes(' ');
                     return true;
@@ -737,6 +743,7 @@ function startPractice(isWheelMode = false) {
                 let possibleTypes = [...enabledTypes];
 
                 if (wordCopy.category === 'conversation' || wordCopy.type === 'conversation') {
+                    if (!possibleTypes.includes('conversation')) return null;
                     return {
                         ...wordCopy,
                         type: 'conversation',
@@ -744,8 +751,17 @@ function startPractice(isWheelMode = false) {
                     };
                 }
 
-                // Remove conversation type for non-conversation words
-                possibleTypes = possibleTypes.filter(t => t !== 'conversation');
+                if (wordCopy.category === 'thinking') {
+                    if (!possibleTypes.includes('thinking')) return null;
+                    return {
+                        ...wordCopy,
+                        type: 'thinking',
+                        lessonTitle: langData[l].title
+                    };
+                }
+
+                // Remove speaking types for non-speaking words
+                possibleTypes = possibleTypes.filter(t => t !== 'conversation' && t !== 'thinking');
 
                 // Randomly swap word and opposite for bidirectional practice
                 if (wordCopy.opposite && Math.random() > 0.5) {
@@ -791,8 +807,26 @@ function startPractice(isWheelMode = false) {
         }
     });
 
+    // --- Thinking Skills Extra Source ---
+    if (catSpeaking && enabledTypes.includes('thinking')) {
+        const lang = currentPractice.language;
+        if (speakingGamesData[lang] && speakingGamesData[lang].commentOn) {
+            speakingGamesData[lang].commentOn.forEach(item => {
+                // Add if not already in pool (e.g. from lessons if we ever add them there)
+                currentPractice.words.push({
+                    word: item.topic,
+                    emoji: "🧠",
+                    type: "thinking",
+                    category: "thinking",
+                    level: item.level,
+                    lessonTitle: "Thinking Skills 🧠"
+                });
+            });
+        }
+    }
+
     if (currentPractice.words.length === 0) {
-        alert("No words found for the selected lessons and filters!");
+        alert("No items found for the selected lessons and filters!");
         return;
     }
 
@@ -1015,6 +1049,7 @@ function showNextWord() {
                         wordObj.type === 'cloze' ? 'cl' :
                         wordObj.type === 'true_false' ? 'tf' :
                         wordObj.type === 'gender_articles' ? 'ga' :
+                        wordObj.type === 'thinking' ? 'th' :
                         wordObj.type === 'number_plural' ? 'np' : '';
         const exampleKey = `example_${typeKey}`;
         if (translations[lang] && translations[lang][exampleKey]) {
@@ -1125,10 +1160,10 @@ function showNextWord() {
 
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
         document.getElementById('tf-buttons-container').style.display = 'flex';
-    } else if (wordObj.type === 'conversation') {
+    } else if (wordObj.type === 'conversation' || wordObj.type === 'thinking') {
         document.getElementById('word-display').textContent = wordObj.word;
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
-        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_conversation');
+        document.getElementById('emoji-display').textContent = wordObj.emoji || (wordObj.type === 'thinking' ? '🧠' : '💬');
+        document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'thinking' ? 'task_thinking' : 'task_conversation');
         document.getElementById('conversation-container').style.display = 'block';
         document.getElementById('conversation-response').value = '';
         document.getElementById('conversation-response').focus();

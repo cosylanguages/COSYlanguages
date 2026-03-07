@@ -605,6 +605,78 @@ document.addEventListener('DOMContentLoaded', () => {
         return { open: openGame, start: startGame };
     };
 
+    // --- Agree/Disagree & Comment On Logic ---
+    const initGenericTopicGame = (gameKey) => {
+        const modalId = gameKey === 'agreeDisagree' ? 'agree-disagree-modal' : 'comment-on-modal';
+        const modal = document.getElementById(modalId);
+        if (!modal) return;
+
+        const openBtn = document.getElementById(`open-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`);
+        const closeBtn = document.getElementById(`close-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`);
+        const startBtn = document.getElementById(`start-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`);
+        const nextBtn = document.getElementById(`next-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`);
+
+        const setupArea = modal.querySelector('.game-setup');
+        const gameArea = modal.querySelector('.game-play');
+        const topicDisplay = document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-topic-display`);
+
+        let pool = [];
+
+        const showNext = () => {
+            if (pool.length === 0) {
+                gameArea.style.display = 'none';
+                setupArea.style.display = 'block';
+                return;
+            }
+            const item = pool.pop();
+            topicDisplay.textContent = item.topic;
+        };
+
+        const openGame = () => {
+            modal.style.display = 'flex';
+            setupArea.style.display = 'block';
+            gameArea.style.display = 'none';
+        };
+
+        openBtn?.addEventListener('click', openGame);
+        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+
+        const startGame = () => {
+            const lang = document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-lang`).value;
+            const level = document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-level`).value;
+
+            pool = [];
+            if (speakingGamesData[lang] && speakingGamesData[lang][gameKey]) {
+                pool = [...speakingGamesData[lang][gameKey]];
+            }
+
+            if (level !== 'all') {
+                pool = pool.filter(d => d.level === level);
+            }
+
+            if (pool.length === 0) {
+                alert("No topics found for this level!");
+                return;
+            }
+
+            pool.sort(() => Math.random() - 0.5);
+            setupArea.style.display = 'none';
+            gameArea.style.display = 'block';
+            showNext();
+        };
+
+        startBtn?.addEventListener('click', startGame);
+        nextBtn?.addEventListener('click', showNext);
+
+        handleShare(`share-${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-btn`, {
+            game: gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on',
+            lang: () => document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-lang`).value,
+            level: () => document.getElementById(`${gameKey === 'agreeDisagree' ? 'agree-disagree' : 'comment-on'}-level`).value
+        });
+
+        return { open: openGame, start: startGame };
+    };
+
     // Initialize all and handle deep linking
     const charades = initCharades();
     const guessWho = initGuessGame('who');
@@ -612,6 +684,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const bingo = initBingo();
     const debates = initDebates();
     const talkTalk = initTalkTalk();
+    const agreeDisagree = initGenericTopicGame('agreeDisagree');
+    const commentOn = initGenericTopicGame('commentOn');
 
     // Deep Linking Support
     const urlParams = new URLSearchParams(window.location.search);
@@ -664,6 +738,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (lang) document.getElementById('talk-lang').value = lang;
                 if (level) document.getElementById('talk-level').value = level;
                 talkTalk.start();
+            } else if (game === 'agree-disagree') {
+                agreeDisagree.open();
+                if (lang) document.getElementById('agree-disagree-lang').value = lang;
+                if (level) document.getElementById('agree-disagree-level').value = level;
+                agreeDisagree.start();
+            } else if (game === 'comment-on') {
+                commentOn.open();
+                if (lang) document.getElementById('comment-on-lang').value = lang;
+                if (level) document.getElementById('comment-on-level').value = level;
+                commentOn.start();
             }
 
             // Apply language to modals if lang param provided
