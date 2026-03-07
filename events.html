@@ -86,6 +86,8 @@
                             <li data-translate-key="game_bingo">Bingo 🔢</li>
                             <li data-translate-key="game_debates">Debates ⚖️</li>
                             <li data-translate-key="game_talk_talk">Talk That Talk 🗣️</li>
+                            <li data-translate-key="game_agree_disagree">Agree or Disagree? 🤝</li>
+                            <li data-translate-key="game_comment_on">Comment On ✍️</li>
                         </ul>
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 1rem;">
                             <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Charades 🎭</button>
@@ -94,6 +96,8 @@
                             <button id="open-bingo-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_bingo">Play Bingo 🔢</button>
                             <button id="open-debates-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_debates">Play Debates ⚖️</button>
                             <button id="open-talk-talk-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_talk_talk">Talk That Talk 🗣️</button>
+                            <button id="open-agree-disagree-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_agree_disagree">Play Agree/Disagree 🤝</button>
+                            <button id="open-comment-on-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_comment_on">Play Comment On ✍️</button>
                         </div>
                     </div>
                 </div>
@@ -447,6 +451,100 @@
                 </div>
 
                 <button id="close-debates-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 2rem;" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <!-- Agree/Disagree Modal -->
+        <div id="agree-disagree-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content glass" style="max-width: 600px;">
+                <h2 data-translate-key="game_agree_disagree">Agree or Disagree? 🤝</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="agree_disagree_guide_text">Share your opinion on the topic without entering into a debate. Just say if you agree or disagree and why!</p>
+                </details>
+
+                <div class="game-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select id="agree-disagree-lang" class="pill-input" style="width: 100%;">
+                            <option value="en">English 🇬🇧</option>
+                            <option value="fr">Français 🇫🇷</option>
+                            <option value="it">Italiano 🇮🇹</option>
+                            <option value="ru">Русский 🇷🇺</option>
+                            <option value="el">Ελληνικά 🇬🇷</option>
+                        </select>
+                    </div>
+                    <div class="setup-group" style="margin-top: 1rem;">
+                        <label data-translate-key="select_level">Select Level 📊</label>
+                        <select id="agree-disagree-level" class="pill-input" style="width: 100%;">
+                            <option value="all" data-translate-key="theme_all">All Levels</option>
+                            <option value="starter" data-translate-key="starter">Starter</option>
+                            <option value="elementary" data-translate-key="elementary">Elementary</option>
+                            <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                            <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                            <option value="advanced" data-translate-key="advanced">Advanced</option>
+                        </select>
+                    </div>
+                    <button id="start-agree-disagree-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="share-agree-disagree-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
+                </div>
+
+                <div class="game-play" style="display: none; padding: 2rem 0;">
+                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
+                        <div id="agree-disagree-topic-display" style="font-size: 1.8rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Topic</div>
+                    </div>
+                    <button id="next-agree-disagree-btn" class="cta-button primary" data-translate-key="next_word">Next Topic ➡️</button>
+                </div>
+
+                <button id="close-agree-disagree-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <!-- Comment On Modal -->
+        <div id="comment-on-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content glass" style="max-width: 600px;">
+                <h2 data-translate-key="game_comment_on">Comment On ✍️</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="comment_on_guide_text">Develop your thinking skills! Share your thoughts on the provided statement. Great for both speaking and writing practice.</p>
+                </details>
+
+                <div class="game-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select id="comment-on-lang" class="pill-input" style="width: 100%;">
+                            <option value="en">English 🇬🇧</option>
+                            <option value="fr">Français 🇫🇷</option>
+                            <option value="it">Italiano 🇮🇹</option>
+                            <option value="ru">Русский 🇷🇺</option>
+                            <option value="el">Ελληνικά 🇬🇷</option>
+                        </select>
+                    </div>
+                    <div class="setup-group" style="margin-top: 1rem;">
+                        <label data-translate-key="select_level">Select Level 📊</label>
+                        <select id="comment-on-level" class="pill-input" style="width: 100%;">
+                            <option value="all" data-translate-key="theme_all">All Levels</option>
+                            <option value="starter" data-translate-key="starter">Starter</option>
+                            <option value="elementary" data-translate-key="elementary">Elementary</option>
+                            <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                            <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                            <option value="advanced" data-translate-key="advanced">Advanced</option>
+                        </select>
+                    </div>
+                    <button id="start-comment-on-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="spin_topic_btn">Spin for Topic! 🎡</button>
+                    <button id="share-comment-on-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
+                </div>
+
+                <div class="game-play" style="display: none; padding: 2rem 0;">
+                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
+                        <div id="comment-on-topic-display" style="font-size: 1.8rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Topic</div>
+                    </div>
+                    <button id="next-comment-on-btn" class="cta-button primary" data-translate-key="spin_topic_btn">Spin Again! 🎡</button>
+                </div>
+
+                <button id="close-comment-on-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 

@@ -487,6 +487,15 @@ const translations = {
     bingo_new_card: "New Card 🃏",
     debates_side_a: "Side A",
     debates_side_b: "Side B",
+    game_agree_disagree: "Agree or Disagree? 🤝",
+    game_comment_on: "Comment On ✍️",
+    play_agree_disagree: "Play Agree/Disagree 🤝",
+    play_comment_on: "Play Comment On ✍️",
+    agree_disagree_guide_text: "Share your opinion on the topic without entering into a debate. Just say if you agree or disagree and why!",
+    comment_on_guide_text: "Develop your thinking skills! Share your thoughts on the provided statement. Great for both speaking and writing practice.",
+    type_th: "Thinking Skills",
+    task_thinking: "Comment on this: 🧠",
+    example_th: "Example: 🧠 Men and women are motivated in different ways. -> [Your opinion]",
 },
   fr: {
     // Hero section
@@ -962,6 +971,15 @@ const translations = {
     bingo_new_card: "Nouvelle grille 🃏",
     debates_side_a: "Côté A",
     debates_side_b: "Côté B",
+    game_agree_disagree: "D'accord ou pas d'accord ? 🤝",
+    game_comment_on: "Commenter ✍️",
+    play_agree_disagree: "Jouer à D'accord/Pas d'accord 🤝",
+    play_comment_on: "Jouer à Commenter ✍️",
+    agree_disagree_guide_text: "Partagez votre opinion sur le sujet sans entrer dans un débat. Dites simplement si vous êtes d'accord ou non et pourquoi !",
+    comment_on_guide_text: "Développez vos capacités de réflexion ! Partagez vos pensées sur l'affirmation fournie. Idéal pour l'entraînement à l'oral comme à l'écrit.",
+    type_th: "Capacités de réflexion",
+    task_thinking: "Commentez ceci : 🧠",
+    example_th: "Exemple : 🧠 Les hommes et les femmes sont motivés de différentes manières. -> [Votre opinion]",
 },
   it: {
     // Hero section
@@ -1442,6 +1460,15 @@ const translations = {
     bingo_new_card: "Nuova cartella 🃏",
     debates_side_a: "Parte A",
     debates_side_b: "Parte B",
+    game_agree_disagree: "D'accordo o in disaccordo? 🤝",
+    game_comment_on: "Commenta ✍️",
+    play_agree_disagree: "Gioca a D'accordo/In disaccordo 🤝",
+    play_comment_on: "Gioca a Commenta ✍️",
+    agree_disagree_guide_text: "Condividi la tua opinione sull'argomento senza entrare in un dibattito. Di' semplicemente se sei d'accordo o meno e perché!",
+    comment_on_guide_text: "Sviluppa le tue capacità di pensiero! Condividi i tuoi pensieri sull'affermazione fornita. Ottimo sia per la pratica orale che scritta.",
+    type_th: "Capacità di pensiero",
+    task_thinking: "Commenta questo: 🧠",
+    example_th: "Esempio: 🧠 Uomini e donne sono motivati in modi diversi. -> [La tua opinione]",
 },
   ru: {
     // Hero section
@@ -1904,6 +1931,15 @@ const translations = {
     bingo_new_card: "Новая карточка 🃏",
     debates_side_a: "Сторона А",
     debates_side_b: "Сторона Б",
+    game_agree_disagree: "Согласен или не согласен? 🤝",
+    game_comment_on: "Прокомментируйте ✍️",
+    play_agree_disagree: "Играть в Согласен/Не согласен 🤝",
+    play_comment_on: "Играть в Прокомментируйте ✍️",
+    agree_disagree_guide_text: "Поделитесь своим мнением по теме без дискуссий. Просто скажите, согласны вы или нет, и почему!",
+    comment_on_guide_text: "Развивайте навыки мышления! Поделитесь своими мыслями по поводу предложенного утверждения. Отлично подходит как для устной, так и для письменной практики.",
+    type_th: "Навыки мышления",
+    task_thinking: "Прокомментируйте это: 🧠",
+    example_th: "Пример: 🧠 Мужчины и женщины мотивированы по-разному. -> [Ваше мнение]",
 },
   el: {
     // Hero section
@@ -2371,5 +2407,14 @@ const translations = {
     bingo_new_card: "Νέα κάρτα 🃏",
     debates_side_a: "Πλευρά Α",
     debates_side_b: "Πλευρά Β",
+    game_agree_disagree: "Συμφωνώ ή Διαφωνώ; 🤝",
+    game_comment_on: "Σχολιάστε ✍️",
+    play_agree_disagree: "Παίξτε Συμφωνώ/Διαφωνώ 🤝",
+    play_comment_on: "Παίξτε Σχολιάστε ✍️",
+    agree_disagree_guide_text: "Μοιραστείτε την άποψή σας για το θέμα χωρίς να μπείτε σε αντιπαράθεση. Απλώς πείτε αν συμφωνείτε ή διαφωνείτε και γιατί!",
+    comment_on_guide_text: "Αναπτύξτε τις δεξιότητες σκέψης σας! Μοιραστείτε τις σκέψεις σας για την παρεχόμενη δήλωση. Εξαιρετικό τόσο για εξάσκηση στην ομιλία όσο και στη γραφή.",
+    type_th: "Δεξιότητες Σκέψης",
+    task_thinking: "Σχολιάστε αυτό: 🧠",
+    example_th: "Παράδειγμα: 🧠 Οι άνδρες και οι γυναίκες έχουν διαφορετικά κίνητρα. -> [Η άποψή σας]",
 }
 };
