@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return array;
     };
 
-    // --- Charades (Moved from script.js and Enhanced) ---
+    // --- Action Hero (formerly Charades) ---
     const handleShare = (btnId, params) => {
         const btn = document.getElementById(btnId);
         if (!btn) return;
@@ -182,13 +182,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
             }
-            // Extra Games Data
-            if (gamesData[lang] && theme !== 'all') {
-                if (gamesData[lang][theme]) {
-                    gamesData[lang][theme].forEach(w => pool.push(w));
+            // Extra Games Data - Merge arrays within objects
+            const combinedGamesData = {};
+            const d1 = gamesData[lang] || {};
+            const d2 = extendedCurriculumData[lang] || {};
+            const allKeys = new Set([...Object.keys(d1), ...Object.keys(d2)]);
+            allKeys.forEach(k => {
+                combinedGamesData[k] = [...(d1[k] || []), ...(d2[k] || [])];
+            });
+
+            if (theme !== 'all') {
+                if (combinedGamesData[theme]) {
+                    combinedGamesData[theme].forEach(w => pool.push(w));
                 }
-            } else if (gamesData[lang] && theme === 'all') {
-                Object.values(gamesData[lang]).forEach(list => {
+            } else {
+                Object.values(combinedGamesData).forEach(list => {
                     list.forEach(w => pool.push(w));
                 });
             }
@@ -202,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (pool.length === 0) {
-                alert("No items found!");
+                alert("Alas! No items found for this adventure!");
                 return;
             }
 
@@ -219,9 +227,9 @@ document.addEventListener('DOMContentLoaded', () => {
         incorrectBtn?.addEventListener('click', showNext);
         stopBtn?.addEventListener('click', endGame);
 
-        // Share Link for Charades
+        // Share Link for Action Hero
         handleShare('share-charades-btn', {
-            game: 'charades',
+            game: 'action_hero',
             lang: () => document.getElementById('charades-lang').value,
             level: () => document.getElementById('charades-level').value,
             theme: () => document.getElementById('charades-theme').value,
@@ -231,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return { open: openCharades, start: startCharades };
     };
 
-    // --- Guess Who / Guess What Logic ---
+    // --- Identity Mystery / Object Quest Logic ---
     const initGuessGame = (gameType) => {
         const modalId = gameType === 'who' ? 'guess-who-modal' : 'guess-what-modal';
         const modal = document.getElementById(modalId);
@@ -313,8 +321,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const level = modal.querySelector('.game-level').value;
 
             pool = [];
-            if (gamesData[lang] && gamesData[lang][theme]) {
-                pool = [...gamesData[lang][theme]];
+            // Merge arrays within objects for gamesData and extendedCurriculumData
+            const combinedGamesData = {};
+            const d1 = gamesData[lang] || {};
+            const d2 = extendedCurriculumData[lang] || {};
+            const allKeys = new Set([...Object.keys(d1), ...Object.keys(d2)]);
+            allKeys.forEach(k => {
+                combinedGamesData[k] = [...(d1[k] || []), ...(d2[k] || [])];
+            });
+
+            if (combinedGamesData[theme]) {
+                pool = [...combinedGamesData[theme]];
             }
 
             // Filter pool by level if not "all"
@@ -326,7 +343,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (pool.length === 0) {
-                alert("No items found!");
+                alert("The quest ends here! No items found.");
                 return;
             }
 
@@ -341,9 +358,9 @@ document.addEventListener('DOMContentLoaded', () => {
         nextBtn?.addEventListener('click', showTarget);
         modal.querySelector('.hint-btn')?.addEventListener('click', revealHint);
 
-        // Share Link for Guess games
+        // Share Link for Identity / Object games
         handleShare(`share-guess-${gameType}-btn`, {
-            game: gameType === 'who' ? 'guess-who' : 'guess-what',
+            game: gameType === 'who' ? 'identity_mystery' : 'object_quest',
             lang: () => modal.querySelector('.game-lang').value,
             level: () => modal.querySelector('.game-level').value,
             theme: () => modal.querySelector('.game-theme').value
@@ -352,7 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return { open: openGame, start: startGame };
     };
 
-    // --- Bingo Logic ---
+    // --- Lucky Numbers Logic ---
     const initBingo = () => {
         const modal = document.getElementById('bingo-modal');
         if (!modal) return;
@@ -510,9 +527,9 @@ document.addEventListener('DOMContentLoaded', () => {
             generatePlayerCard();
         });
 
-        // Share Link for Bingo
+        // Share Link for Lucky Numbers
         handleShare('share-bingo-btn', {
-            game: 'bingo',
+            game: 'lucky_numbers',
             lang: () => document.getElementById('bingo-lang').value,
             level: () => document.getElementById('bingo-level').value,
             seed: () => document.getElementById('bingo-seed').value
@@ -521,7 +538,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return { open: openBingo, startCaller: startBingoCaller, startPlayer: startBingoPlayer };
     };
 
-    // --- Debates Logic ---
+    // --- Battle of Wits Logic ---
     const initDebates = () => {
         const modal = document.getElementById('debates-modal');
         if (!modal) return;
@@ -591,17 +608,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = document.getElementById('debates-lang').value;
             const level = document.getElementById('debates-level').value;
 
-            pool = [];
-            if (speakingGamesData[lang] && speakingGamesData[lang].debates) {
-                pool = [...speakingGamesData[lang].debates];
-            }
+            pool = [
+                ...(speakingGamesData[lang]?.debates || []),
+                ...(extraSpeakData[lang]?.debates || [])
+            ];
 
             if (level !== 'all') {
                 pool = pool.filter(d => d.level === level);
             }
 
             if (pool.length === 0) {
-                alert("No debates found for this level!");
+                alert("The Arena is empty! No topics found for this level.");
                 return;
             }
 
@@ -615,7 +632,7 @@ document.addEventListener('DOMContentLoaded', () => {
         nextBtn?.addEventListener('click', showNext);
 
         handleShare('share-debates-btn', {
-            game: 'debates',
+            game: 'battle_of_wits',
             lang: () => document.getElementById('debates-lang').value,
             level: () => document.getElementById('debates-level').value
         });
@@ -623,7 +640,173 @@ document.addEventListener('DOMContentLoaded', () => {
         return { open: openGame, start: startGame };
     };
 
-    // --- Talk That Talk Logic ---
+    // --- Opinion Arena Logic ---
+    const initOpinionArena = () => {
+        const modal = document.getElementById('opinion-arena-modal');
+        if (!modal) return;
+
+        const openBtn = document.getElementById('open-opinion-arena-btn');
+        const closeBtn = document.getElementById('close-opinion-btn');
+        const startBtn = document.getElementById('start-opinion-btn');
+        const nextBtn = document.getElementById('next-opinion-btn');
+
+        const setupArea = modal.querySelector('.game-setup');
+        const gameArea = modal.querySelector('.game-play');
+        const statementDisplay = document.getElementById('opinion-statement-display');
+        const timerDisplay = document.getElementById('opinion-timer');
+
+        let pool = [];
+
+        const showNext = () => {
+            if (pool.length === 0) {
+                stopTimer();
+                gameArea.style.display = 'none';
+                setupArea.style.display = 'block';
+                return;
+            }
+            const item = pool.pop();
+            statementDisplay.textContent = item.text;
+
+            stopTimer();
+            const duration = parseInt(document.getElementById('opinion-timer-duration')?.value || '120');
+            startTimer('opinion-timer', duration, () => {
+                statementDisplay.textContent = t('time_up');
+            });
+        };
+
+        const openGame = () => {
+            modal.style.display = 'flex';
+            setupArea.style.display = 'block';
+            gameArea.style.display = 'none';
+        };
+
+        openBtn?.addEventListener('click', openGame);
+        closeBtn?.addEventListener('click', () => {
+            modal.style.display = 'none';
+            stopTimer();
+        });
+
+        const startGame = () => {
+            const lang = document.getElementById('opinion-lang').value;
+            const level = document.getElementById('opinion-level').value;
+
+            pool = [
+                ...(speakingGamesData[lang]?.opinionArena || []),
+                ...(extraSpeakData[lang]?.opinionArena || [])
+            ];
+
+            if (level !== 'all') {
+                pool = pool.filter(d => d.level === level);
+            }
+
+            if (pool.length === 0) {
+                alert("The Arena is empty! No topics found for this level.");
+                return;
+            }
+
+            pool.sort(() => Math.random() - 0.5);
+            setupArea.style.display = 'none';
+            gameArea.style.display = 'block';
+            showNext();
+        };
+
+        startBtn?.addEventListener('click', startGame);
+        nextBtn?.addEventListener('click', showNext);
+
+        handleShare('share-opinion-btn', {
+            game: 'opinion_arena',
+            lang: () => document.getElementById('opinion-lang').value,
+            level: () => document.getElementById('opinion-level').value
+        });
+
+        return { open: openGame, start: startGame };
+    };
+
+    // --- Critic's Corner Logic ---
+    const initCriticsCorner = () => {
+        const modal = document.getElementById('critics-corner-modal');
+        if (!modal) return;
+
+        const openBtn = document.getElementById('open-critics-corner-btn');
+        const closeBtn = document.getElementById('close-critics-btn');
+        const startBtn = document.getElementById('start-critics-btn');
+        const nextBtn = document.getElementById('next-critics-btn');
+
+        const setupArea = modal.querySelector('.game-setup');
+        const gameArea = modal.querySelector('.game-play');
+        const quoteDisplay = document.getElementById('critics-quote-display');
+        const authorDisplay = document.getElementById('critics-author-display');
+        const timerDisplay = document.getElementById('critics-timer');
+
+        let pool = [];
+
+        const showNext = () => {
+            if (pool.length === 0) {
+                stopTimer();
+                gameArea.style.display = 'none';
+                setupArea.style.display = 'block';
+                return;
+            }
+            const item = pool.pop();
+            quoteDisplay.textContent = `"${item.text}"`;
+            authorDisplay.textContent = item.author ? `- ${item.author}` : "";
+
+            stopTimer();
+            const duration = parseInt(document.getElementById('critics-timer-duration')?.value || '120');
+            startTimer('critics-timer', duration, () => {
+                quoteDisplay.textContent = t('time_up');
+            });
+        };
+
+        const openGame = () => {
+            modal.style.display = 'flex';
+            setupArea.style.display = 'block';
+            gameArea.style.display = 'none';
+        };
+
+        openBtn?.addEventListener('click', openGame);
+        closeBtn?.addEventListener('click', () => {
+            modal.style.display = 'none';
+            stopTimer();
+        });
+
+        const startGame = () => {
+            const lang = document.getElementById('critics-lang').value;
+            const level = document.getElementById('critics-level').value;
+
+            pool = [
+                ...(speakingGamesData[lang]?.criticsCorner || []),
+                ...(extraSpeakData[lang]?.criticsCorner || [])
+            ];
+
+            if (level !== 'all') {
+                pool = pool.filter(d => d.level === level);
+            }
+
+            if (pool.length === 0) {
+                alert("The Corner is quiet! No quotes found for this level.");
+                return;
+            }
+
+            pool.sort(() => Math.random() - 0.5);
+            setupArea.style.display = 'none';
+            gameArea.style.display = 'block';
+            showNext();
+        };
+
+        startBtn?.addEventListener('click', startGame);
+        nextBtn?.addEventListener('click', showNext);
+
+        handleShare('share-critics-btn', {
+            game: 'critics_corner',
+            lang: () => document.getElementById('critics-lang').value,
+            level: () => document.getElementById('critics-level').value
+        });
+
+        return { open: openGame, start: startGame };
+    };
+
+    // --- Fluency Flow Logic ---
     const initTalkTalk = () => {
         const modal = document.getElementById('talk-talk-modal');
         if (!modal) return;
@@ -673,17 +856,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = document.getElementById('talk-lang').value;
             const level = document.getElementById('talk-level').value;
 
-            pool = [];
-            if (speakingGamesData[lang] && speakingGamesData[lang].talkThatTalk) {
-                pool = [...speakingGamesData[lang].talkThatTalk];
-            }
+            pool = [
+                ...(speakingGamesData[lang]?.talkThatTalk || []),
+                ...(extraSpeakData[lang]?.talkThatTalk || [])
+            ];
 
             if (level !== 'all') {
                 pool = pool.filter(d => d.level === level);
             }
 
             if (pool.length === 0) {
-                alert("No topics found for this level!");
+                alert("The flow is blocked! No topics found for this level.");
                 return;
             }
 
@@ -700,7 +883,7 @@ document.addEventListener('DOMContentLoaded', () => {
         nextBtn?.addEventListener('click', showNext);
 
         handleShare('share-talk-talk-btn', {
-            game: 'talk-talk',
+            game: 'fluency_flow',
             lang: () => document.getElementById('talk-lang').value,
             level: () => document.getElementById('talk-level').value
         });
@@ -715,6 +898,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const bingo = initBingo();
     const debates = initDebates();
     const talkTalk = initTalkTalk();
+    const opinionArena = initOpinionArena();
+    const criticsCorner = initCriticsCorner();
 
     // Deep Linking Support
     const urlParams = new URLSearchParams(window.location.search);
@@ -729,44 +914,54 @@ document.addEventListener('DOMContentLoaded', () => {
     if (game) {
         // Wait a bit for everything to settle
         setTimeout(() => {
-            if (game === 'charades') {
+            if (game === 'charades' || game === 'action_hero') {
                 charades.open();
                 if (lang) document.getElementById('charades-lang').value = lang;
                 if (level) document.getElementById('charades-level').value = level;
                 if (theme) document.getElementById('charades-theme').value = theme;
                 if (lesson) document.getElementById('charades-lessons').value = lesson;
                 charades.start();
-            } else if (game === 'guess-who') {
+            } else if (game === 'guess-who' || game === 'identity_mystery') {
                 guessWho.open();
                 const modal = document.getElementById('guess-who-modal');
                 if (lang) modal.querySelector('.game-lang').value = lang;
                 if (level) modal.querySelector('.game-level').value = level;
                 if (theme) modal.querySelector('.game-theme').value = theme;
                 guessWho.start();
-            } else if (game === 'guess-what') {
+            } else if (game === 'guess-what' || game === 'object_quest') {
                 guessWhat.open();
                 const modal = document.getElementById('guess-what-modal');
                 if (lang) modal.querySelector('.game-lang').value = lang;
                 if (level) modal.querySelector('.game-level').value = level;
                 if (theme) modal.querySelector('.game-theme').value = theme;
                 guessWhat.start();
-            } else if (game === 'bingo') {
+            } else if (game === 'bingo' || game === 'lucky_numbers') {
                 bingo.open();
                 if (lang) document.getElementById('bingo-lang').value = lang;
                 if (level) document.getElementById('bingo-level').value = level;
                 if (seed) document.getElementById('bingo-seed').value = seed;
                 if (mode === 'caller') bingo.startCaller();
                 else if (mode === 'player') bingo.startPlayer();
-            } else if (game === 'debates') {
+            } else if (game === 'debates' || game === 'battle_of_wits') {
                 debates.open();
                 if (lang) document.getElementById('debates-lang').value = lang;
                 if (level) document.getElementById('debates-level').value = level;
                 debates.start();
-            } else if (game === 'talk-talk') {
+            } else if (game === 'talk-talk' || game === 'fluency_flow') {
                 talkTalk.open();
                 if (lang) document.getElementById('talk-lang').value = lang;
                 if (level) document.getElementById('talk-level').value = level;
                 talkTalk.start();
+            } else if (game === 'opinion_arena') {
+                opinionArena.open();
+                if (lang) document.getElementById('opinion-lang').value = lang;
+                if (level) document.getElementById('opinion-level').value = level;
+                opinionArena.start();
+            } else if (game === 'critics_corner') {
+                criticsCorner.open();
+                if (lang) document.getElementById('critics-lang').value = lang;
+                if (level) document.getElementById('critics-level').value = level;
+                criticsCorner.start();
             }
 
             // Apply language to modals if lang param provided
