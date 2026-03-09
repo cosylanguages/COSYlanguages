@@ -2612,6 +2612,160 @@ const alphabetsData = {
     "el": "αβγδεζηθικλμνξοπρστυφχψω"
 };
 
+const extendedCurriculumData = {
+    "en": {
+        "popular_people": [
+            { "word": "Taylor Swift", "level": "starter" },
+            { "word": "Barack Obama", "level": "elementary" },
+            { "word": "Stephen Hawking", "level": "intermediate" },
+            { "word": "Virginia Woolf", "level": "upper-intermediate" },
+            { "word": "Nelson Mandela", "level": "advanced" },
+            { "word": "Aristotle", "level": "proficiency" }
+        ],
+        "professions": [
+            { "word": "Software Developer", "level": "intermediate" },
+            { "word": "Psychologist", "level": "upper-intermediate" },
+            { "word": "Data Scientist", "level": "advanced" },
+            { "word": "Philosopher", "level": "proficiency" },
+            { "word": "Architect", "level": "intermediate" },
+            { "word": "Journalist", "level": "elementary" }
+        ],
+        "appearance": [
+            { "word": "Athletic", "level": "elementary" },
+            { "word": "Sophisticated", "level": "upper-intermediate" },
+            { "word": "Charismatic", "level": "advanced" },
+            { "word": "Ordinary", "level": "starter" }
+        ],
+        "technology_media": [
+            { "word": "Algorithm", "level": "intermediate" },
+            { "word": "Streaming", "level": "elementary" },
+            { "word": "Virtual Reality", "level": "advanced" },
+            { "word": "Blockchain", "level": "proficiency" }
+        ],
+        "science_philosophy": [
+            { "word": "Evolution", "level": "intermediate" },
+            { "word": "Quantum Mechanics", "level": "advanced" },
+            { "word": "Existentialism", "level": "proficiency" },
+            { "word": "Gravity", "level": "elementary" }
+        ],
+        "society_politics": [
+            { "word": "Democracy", "level": "intermediate" },
+            { "word": "Globalization", "level": "upper-intermediate" },
+            { "word": "Sustainability", "level": "advanced" },
+            { "word": "Justice", "level": "elementary" }
+        ],
+        "environment_nature": [
+            { "word": "Climate Change", "level": "intermediate" },
+            { "word": "Biodiversity", "level": "upper-intermediate" },
+            { "word": "Pollution", "level": "elementary" },
+            { "word": "Ecosystem", "level": "intermediate" }
+        ]
+    },
+    "fr": {
+        "popular_people": [
+            { "word": "Zinedine Zidane", "level": "starter" },
+            { "word": "Simone de Beauvoir", "level": "upper-intermediate" },
+            { "word": "Jean-Paul Sartre", "level": "advanced" },
+            { "word": "Molière", "level": "proficiency" }
+        ],
+        "professions": [
+            { "word": "Développeur Logiciel", "level": "intermediate" },
+            { "word": "Psychologue", "level": "upper-intermediate" },
+            { "word": "Philosophe", "level": "proficiency" }
+        ],
+        "technology_media": [
+            { "word": "Algorithme", "level": "intermediate" },
+            { "word": "Réalité Virtuelle", "level": "advanced" }
+        ]
+    },
+    "it": {
+        "popular_people": [
+            { "word": "Federico Fellini", "level": "intermediate" },
+            { "word": "Umberto Eco", "level": "advanced" },
+            { "word": "Monica Bellucci", "level": "starter" }
+        ],
+        "professions": [
+            { "word": "Sviluppatore Software", "level": "intermediate" },
+            { "word": "Psicologo", "level": "upper-intermediate" },
+            { "word": "Filosofo", "level": "proficiency" }
+        ]
+    },
+    "ru": {
+        "popular_people": [
+            { "word": "Фёдор Достоевский", "level": "upper-intermediate" },
+            { "word": "Анна Ахматова", "level": "advanced" },
+            { "word": "Виктор Цой", "level": "elementary" }
+        ],
+        "professions": [
+            { "word": "Разработчик ПО", "level": "intermediate" },
+            { "word": "Психолог", "level": "upper-intermediate" },
+            { "word": "Философ", "level": "proficiency" }
+        ]
+    },
+    "el": {
+        "popular_people": [
+            { "word": "Νίκος Καζαντζάκης", "level": "advanced" },
+            { "word": "Μελίνα Μερκούρη", "level": "intermediate" },
+            { "word": "Οδυσσέας Ελύτης", "level": "upper-intermediate" }
+        ],
+        "professions": [
+            { "word": "Προγραμματιστής", "level": "intermediate" },
+            { "word": "Ψυχολόγος", "level": "upper-intermediate" },
+            { "word": "Φιλόσοφος", "level": "proficiency" }
+        ]
+    }
+};
+
+const extraSpeakData = {
+    "en": {
+        "opinionArena": [
+            { "text": "Technology is making us more lonely.", "level": "intermediate" },
+            { "text": "Money can buy happiness.", "level": "elementary" },
+            { "text": "Books are better than their movie adaptations.", "level": "elementary" },
+            { "text": "Artificial Intelligence will eventually replace human artists.", "level": "advanced" },
+            { "text": "The government should provide free internet for everyone.", "level": "upper-intermediate" },
+            { "text": "Exploring space is a waste of resources.", "level": "intermediate" }
+        ],
+        "criticsCorner": [
+            { "text": "I think, therefore I am.", "author": "René Descartes", "level": "intermediate" },
+            { "text": "The only thing we have to fear is fear itself.", "author": "Franklin D. Roosevelt", "level": "upper-intermediate" },
+            { "text": "Be the change that you wish to see in the world.", "author": "Mahatma Gandhi", "level": "elementary" },
+            { "text": "In the end, we will remember not the words of our enemies, but the silence of our friends.", "author": "Martin Luther King Jr.", "level": "advanced" }
+        ],
+        "debates": [
+            { "topic": "Electric Cars vs. Gasoline Cars", "sideA": "Electric", "sideB": "Gasoline", "ideasA": ["Zero emissions", "Quiet", "Modern tech"], "ideasB": ["Long range", "Easy to refuel", "Cheaper purchase price"], "level": "intermediate" },
+            { "topic": "Cats vs. Dogs", "sideA": "Cats", "sideB": "Dogs", "ideasA": ["Independent", "Clean", "Quiet"], "ideasB": ["Loyal", "Active", "Protective"], "level": "starter" }
+        ]
+    },
+    "fr": {
+        "opinionArena": [
+            { "text": "La technologie nous rend plus seuls.", "level": "intermediate" },
+            { "text": "L'argent peut acheter le bonheur.", "level": "elementary" }
+        ],
+        "criticsCorner": [
+            { "text": "Je pense, donc je suis.", "author": "René Descartes", "level": "intermediate" }
+        ]
+    },
+    "it": {
+        "opinionArena": [
+            { "text": "La tecnologia ci rende più soli.", "level": "intermediate" },
+            { "text": "I soldi possono comprare la felicità.", "level": "elementary" }
+        ]
+    },
+    "ru": {
+        "opinionArena": [
+            { "text": "Технологии делают нас более одинокими.", "level": "intermediate" },
+            { "text": "Деньги могут купить счастье.", "level": "elementary" }
+        ]
+    },
+    "el": {
+        "opinionArena": [
+            { "text": "Η τεχνολογία μας κάνει πιο μόνους.", "level": "intermediate" },
+            { "text": "Τα χρήματα μπορούν να αγοράσουν την ευτυχία.", "level": "elementary" }
+        ]
+    }
+};
+
 const speakingGamesData = {
     "en": {
         "debates": [

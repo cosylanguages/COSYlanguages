@@ -77,23 +77,27 @@
                     <button id="toggle-games-btn" class="topics-toggle-btn" data-translate-key="toggle_games_show">Show Games</button>
                     <div id="game-nights-topics" style="display: none;">
                         <ul>
-                            <li data-translate-key="game_emoji">Emoji storytelling 📖</li>
-                            <li data-translate-key="game_word_association">Word association 🔗</li>
-                            <li data-translate-key="game_apples">Apples to Apples 🍏</li>
-                            <li data-translate-key="game_charades">Charades 🎭</li>
-                            <li data-translate-key="game_guess_who">Guess Who? 👤</li>
-                            <li data-translate-key="game_guess_what">Guess What? 📦</li>
-                            <li data-translate-key="game_bingo">Bingo 🔢</li>
-                            <li data-translate-key="game_debates">Debates ⚖️</li>
-                            <li data-translate-key="game_talk_talk">Talk That Talk 🗣️</li>
+                            <li data-translate-key="game_emoji">Emoji Odyssey 📖</li>
+                            <li data-translate-key="game_word_association">Word Linker 🔗</li>
+                            <li data-translate-key="game_apples">Perfect Match 🍏</li>
+                            <li data-translate-key="game_charades">Action Hero 🎭</li>
+                            <li data-translate-key="game_guess_who">Identity Mystery 👤</li>
+                            <li data-translate-key="game_guess_what">Object Quest 📦</li>
+                            <li data-translate-key="game_bingo">Lucky Numbers 🔢</li>
+                            <li data-translate-key="game_debates">Battle of Wits ⚖️</li>
+                            <li data-translate-key="game_talk_talk">Fluency Flow 🗣️</li>
+                            <li data-translate-key="game_opinion_arena">Opinion Arena 🏟️</li>
+                            <li data-translate-key="game_critics_corner">The Critic's Corner 🎭</li>
                         </ul>
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 1rem;">
-                            <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Charades 🎭</button>
-                            <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who">Play Guess Who 👤</button>
-                            <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what">Play Guess What 📦</button>
-                            <button id="open-bingo-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_bingo">Play Bingo 🔢</button>
-                            <button id="open-debates-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_debates">Play Debates ⚖️</button>
-                            <button id="open-talk-talk-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_talk_talk">Talk That Talk 🗣️</button>
+                            <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Action Hero 🎭</button>
+                            <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who">Play Identity Mystery 👤</button>
+                            <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what">Play Object Quest 📦</button>
+                            <button id="open-bingo-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_bingo">Play Lucky Numbers 🔢</button>
+                            <button id="open-debates-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_debates">Play Battle of Wits ⚖️</button>
+                            <button id="open-talk-talk-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_talk_talk">Play Fluency Flow 🗣️</button>
+                            <button id="open-opinion-arena-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_opinion_arena">Play Opinion Arena 🏟️</button>
+                            <button id="open-critics-corner-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_critics_corner">Play Critic's Corner 🎭</button>
                         </div>
                     </div>
                 </div>
@@ -103,7 +107,7 @@
         <!-- Charades Game Modal -->
         <div id="charades-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
-                <h2 data-translate-key="charades_title">Charades 🎭</h2>
+                <h2 data-translate-key="charades_title">Action Hero 🎭</h2>
 
                 <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
                     <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
@@ -158,11 +162,27 @@
                                 <option value="hobby" data-translate-key="theme_hobby">Hobby 🎨</option>
                                 <option value="weather" data-translate-key="theme_weather">Weather ☀️</option>
                                 <option value="body" data-translate-key="theme_body">Body Parts 🦷</option>
+                                <option value="health_lifestyle" data-translate-key="theme_health">Health & Lifestyle 🏥</option>
+                                <option value="environment_nature" data-translate-key="theme_environment">Environment 🌿</option>
+                                <option value="technology_media" data-translate-key="theme_technology">Technology 📱</option>
+                                <option value="society_politics" data-translate-key="theme_society">Society 🗳️</option>
+                                <option value="science_philosophy" data-translate-key="theme_science">Science & Philo 🧪</option>
                             </select>
                         </div>
+                    </div>
+                    <div class="setup-row" style="margin-bottom: 1rem;">
                         <div class="setup-group" style="flex: 1; text-align: left;">
                             <label data-translate-key="select_lessons">Lesson Range 📚</label>
-                            <input type="text" id="charades-lessons" class="pill-input" value="1-3" style="width: 100%;">
+                            <input type="text" id="charades-lessons" class="pill-input" value="1-4" style="width: 100%;">
+                        </div>
+                        <div class="setup-group" style="flex: 1; text-align: left;">
+                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
+                            <select id="charades-timer-duration" class="pill-input" style="width: 100%;">
+                                <option value="30">30s</option>
+                                <option value="60" selected>60s</option>
+                                <option value="90">90s</option>
+                                <option value="120">120s</option>
+                            </select>
                         </div>
                     </div>
 
@@ -171,6 +191,7 @@
                 </div>
 
                 <div id="charades-gameplay" style="display: none;">
+                    <div id="charades-timer" style="font-size: 2rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">1:00</div>
                     <div id="charades-card" class="event-item" style="background: white; margin: 1.5rem 0; padding: 2.5rem;">
                         <div id="charades-emoji" style="font-size: 4rem; margin-bottom: 0.8rem;">🍎</div>
                         <div id="charades-word" style="font-size: 2rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Loading...</div>
@@ -194,7 +215,7 @@
         <!-- Guess Who Modal -->
         <div id="guess-who-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
-                <h2 data-translate-key="game_guess_who">Guess Who? 👤</h2>
+                <h2 data-translate-key="game_guess_who">Identity Mystery 👤</h2>
 
                 <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
                     <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
@@ -230,6 +251,7 @@
                             <select class="pill-input game-theme" style="width: 100%;">
                                 <option value="popular_people" data-translate-key="theme_people">Popular People 🌟</option>
                                 <option value="professions" data-translate-key="theme_people_professions">Professions 👩‍🏫</option>
+                                <option value="society_politics" data-translate-key="theme_society">Society & Politics 🗳️</option>
                             </select>
                         </div>
                     </div>
@@ -239,12 +261,16 @@
                 <div class="game-play" style="display: none;">
                     <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
                         <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-color);">...</div>
+                        <div class="hint-display" style="margin-top: 1rem; color: var(--accent-color); font-weight: 600;"></div>
                         <div style="margin-top: 1.5rem; text-align: left;">
                             <h4 style="margin-bottom: 0.5rem;" data-translate-key="help_questions">Help Questions:</h4>
                             <ul class="prompt-questions" style="list-style: none; padding: 0;"></ul>
                         </div>
                     </div>
-                    <button id="guess-who-next-btn" class="cta-button primary" data-translate-key="next_word">Next Person ➡️</button>
+                    <div style="display: flex; gap: 1rem; justify-content: center;">
+                        <button class="cta-button hint-btn" style="background: var(--secondary-color);" data-translate-key="hint_btn">Hint 💡</button>
+                        <button id="guess-who-next-btn" class="cta-button primary" data-translate-key="next_word">Next Person ➡️</button>
+                    </div>
                 </div>
                 <button id="close-guess-who-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
             </div>
@@ -253,7 +279,7 @@
         <!-- Guess What Modal -->
         <div id="guess-what-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
-                <h2 data-translate-key="game_guess_what">Guess What? 📦</h2>
+                <h2 data-translate-key="game_guess_what">Object Quest 📦</h2>
 
                 <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
                     <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
@@ -295,6 +321,9 @@
                                 <option value="cities" data-translate-key="theme_cities">Cities 🏙️</option>
                                 <option value="clothing" data-translate-key="theme_clothing">Clothing 👕</option>
                                 <option value="furniture" data-translate-key="theme_furniture">Furniture 🏠</option>
+                                <option value="technology_media" data-translate-key="technology_media">Technology 📱</option>
+                                <option value="environment_nature" data-translate-key="environment_nature">Environment 🌿</option>
+                                <option value="health_lifestyle" data-translate-key="health_lifestyle">Health & Lifestyle 🏥</option>
                             </select>
                         </div>
                     </div>
@@ -304,12 +333,16 @@
                 <div class="game-play" style="display: none;">
                     <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
                         <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-color);">...</div>
+                        <div class="hint-display" style="margin-top: 1rem; color: var(--accent-color); font-weight: 600;"></div>
                         <div style="margin-top: 1.5rem; text-align: left;">
                             <h4 style="margin-bottom: 0.5rem;" data-translate-key="help_questions">Help Questions:</h4>
                             <ul class="prompt-questions" style="list-style: none; padding: 0;"></ul>
                         </div>
                     </div>
-                    <button id="guess-what-next-btn" class="cta-button primary" data-translate-key="next_word">Next Object ➡️</button>
+                    <div style="display: flex; gap: 1rem; justify-content: center;">
+                        <button class="cta-button hint-btn" style="background: var(--secondary-color);" data-translate-key="hint_btn">Hint 💡</button>
+                        <button id="guess-what-next-btn" class="cta-button primary" data-translate-key="next_word">Next Object ➡️</button>
+                    </div>
                 </div>
                 <button id="close-guess-what-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
             </div>
@@ -318,7 +351,7 @@
         <!-- Bingo Modal -->
         <div id="bingo-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
-                <h2 data-translate-key="game_bingo">Bingo 🔢</h2>
+                <h2 data-translate-key="game_bingo">Lucky Numbers 🔢</h2>
 
                 <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
                     <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
@@ -352,6 +385,12 @@
                             <label data-translate-key="bingo_game_code_label">Game Code 🔑</label>
                             <input type="text" id="bingo-seed" class="pill-input" placeholder="e.g. 123" data-translate-key="bingo_game_code_placeholder" style="width: 100%;">
                         </div>
+                    </div>
+                    <div class="setup-group" style="margin-bottom: 1rem;">
+                        <label class="toggle-chip">
+                            <input type="checkbox" id="bingo-speed-mode">
+                            <span data-translate-key="speed_mode">Speed Mode (Auto-call) ⚡</span>
+                        </label>
                     </div>
                     <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
                         <button id="start-bingo-caller-btn" class="cta-button primary" data-translate-key="bingo_caller" style="flex: 1;">Caller 📣</button>
@@ -390,7 +429,7 @@
         <!-- Debates Modal -->
         <div id="debates-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 700px;">
-                <h2 data-translate-key="debates_title">Debates ⚖️</h2>
+                <h2 data-translate-key="debates_title">Battle of Wits ⚖️</h2>
 
                 <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
                     <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
@@ -408,21 +447,34 @@
                             <option value="el">Ελληνικά 🇬🇷</option>
                         </select>
                     </div>
-                    <div class="setup-group" style="margin-top: 1rem;">
-                        <label data-translate-key="select_level">Select Level 📊</label>
-                        <select id="debates-level" class="pill-input" style="width: 100%;">
-                            <option value="all" data-translate-key="theme_all">All Levels</option>
-                            <option value="starter" data-translate-key="starter">Starter</option>
-                            <option value="elementary" data-translate-key="elementary">Elementary</option>
-                            <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                            <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                            <option value="advanced" data-translate-key="advanced">Advanced</option>
-                        </select>
+                    <div class="setup-row" style="margin-top: 1rem;">
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_level">Select Level 📊</label>
+                            <select id="debates-level" class="pill-input" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="starter" data-translate-key="starter">Starter</option>
+                                <option value="elementary" data-translate-key="elementary">Elementary</option>
+                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                                <option value="advanced" data-translate-key="advanced">Advanced</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
+                            <select id="debates-timer-duration" class="pill-input" style="width: 100%;">
+                                <option value="60">60s</option>
+                                <option value="120" selected>120s</option>
+                                <option value="180">180s</option>
+                                <option value="300">300s</option>
+                            </select>
+                        </div>
                     </div>
                     <button id="start-debates-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="share-debates-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
                 <div class="game-play" style="display: none;">
+                    <div id="debates-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 0.5rem;">2:00</div>
                     <h3 id="debate-topic" style="margin: 1.5rem 0; font-size: 1.5rem; color: var(--primary-color);" data-translate-key="placeholder_loading">Topic</h3>
 
                     <div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: 1rem; margin-bottom: 2rem;">
@@ -453,7 +505,7 @@
         <!-- Talk That Talk Modal -->
         <div id="talk-talk-modal" class="modal-overlay" style="display: none;">
             <div class="modal-content glass" style="max-width: 600px;">
-                <h2 data-translate-key="talk_talk_title">Talk That Talk 🗣️</h2>
+                <h2 data-translate-key="talk_talk_title">Fluency Flow 🗣️</h2>
 
                 <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
                     <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
@@ -471,21 +523,34 @@
                             <option value="el">Ελληνικά 🇬🇷</option>
                         </select>
                     </div>
-                    <div class="setup-group" style="margin-top: 1rem;">
-                        <label data-translate-key="select_level">Select Level 📊</label>
-                        <select id="talk-level" class="pill-input" style="width: 100%;">
-                            <option value="all" data-translate-key="theme_all">All Levels</option>
-                            <option value="starter" data-translate-key="starter">Starter</option>
-                            <option value="elementary" data-translate-key="elementary">Elementary</option>
-                            <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                            <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                            <option value="advanced" data-translate-key="advanced">Advanced</option>
-                        </select>
+                    <div class="setup-row" style="margin-top: 1rem;">
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_level">Select Level 📊</label>
+                            <select id="talk-level" class="pill-input" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="starter" data-translate-key="starter">Starter</option>
+                                <option value="elementary" data-translate-key="elementary">Elementary</option>
+                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                                <option value="advanced" data-translate-key="advanced">Advanced</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
+                            <select id="talk-timer-duration" class="pill-input" style="width: 100%;">
+                                <option value="60">60s</option>
+                                <option value="180" selected>180s</option>
+                                <option value="300">300s</option>
+                                <option value="600">600s</option>
+                            </select>
+                        </div>
                     </div>
                     <button id="start-talk-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="spin_topic_btn">Spin for Topic! 🎡</button>
+                    <button id="share-talk-talk-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
                 <div class="game-play" style="display: none; padding: 2rem 0;">
+                    <div id="talk-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">3:00</div>
                     <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
                         <div id="talk-topic-display" style="font-size: 1.8rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Topic</div>
                     </div>
@@ -494,6 +559,126 @@
                 </div>
 
                 <button id="close-talk-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <!-- Opinion Arena Modal -->
+        <div id="opinion-arena-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content glass" style="max-width: 600px;">
+                <h2 data-translate-key="opinion_arena_title">Opinion Arena 🏟️</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="opinion_arena_guide_text">Read the statement and decide if you agree or disagree. Explain your reasoning!</p>
+                </details>
+
+                <div class="game-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select id="opinion-lang" class="pill-input" style="width: 100%;">
+                            <option value="en">English 🇬🇧</option>
+                            <option value="fr">Français 🇫🇷</option>
+                            <option value="it">Italiano 🇮🇹</option>
+                            <option value="ru">Русский 🇷🇺</option>
+                            <option value="el">Ελληνικά 🇬🇷</option>
+                        </select>
+                    </div>
+                    <div class="setup-row" style="margin-top: 1rem;">
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_level">Select Level 📊</label>
+                            <select id="opinion-level" class="pill-input" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="starter" data-translate-key="starter">Starter</option>
+                                <option value="elementary" data-translate-key="elementary">Elementary</option>
+                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                                <option value="advanced" data-translate-key="advanced">Advanced</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
+                            <select id="opinion-timer-duration" class="pill-input" style="width: 100%;">
+                                <option value="60">60s</option>
+                                <option value="120" selected>120s</option>
+                                <option value="180">180s</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button id="start-opinion-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="share-opinion-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                </div>
+
+                <div class="game-play" style="display: none; padding: 2rem 0;">
+                    <div id="opinion-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
+                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
+                        <div id="opinion-statement-display" style="font-size: 1.6rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;">Statement</div>
+                    </div>
+                    <div style="display: flex; gap: 1rem; justify-content: center;">
+                        <button id="next-opinion-btn" class="cta-button primary" data-translate-key="next_word">Next Statement ➡️</button>
+                    </div>
+                </div>
+
+                <button id="close-opinion-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <!-- Critic's Corner Modal -->
+        <div id="critics-corner-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content glass" style="max-width: 600px;">
+                <h2 data-translate-key="critics_corner_title">The Critic's Corner 🎭</h2>
+
+                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
+                    <p style="margin-top: 0.5rem;" data-translate-key="critics_corner_guide_text">Analyze the famous quote and share your perspective!</p>
+                </details>
+
+                <div class="game-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select id="critics-lang" class="pill-input" style="width: 100%;">
+                            <option value="en">English 🇬🇧</option>
+                            <option value="fr">Français 🇫🇷</option>
+                            <option value="it">Italiano 🇮🇹</option>
+                            <option value="ru">Русский 🇷🇺</option>
+                            <option value="el">Ελληνικά 🇬🇷</option>
+                        </select>
+                    </div>
+                    <div class="setup-row" style="margin-top: 1rem;">
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_level">Select Level 📊</label>
+                            <select id="critics-level" class="pill-input" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                                <option value="advanced" data-translate-key="advanced">Advanced</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
+                            <select id="critics-timer-duration" class="pill-input" style="width: 100%;">
+                                <option value="60">60s</option>
+                                <option value="120" selected>120s</option>
+                                <option value="180">180s</option>
+                                <option value="300">300s</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button id="start-critics-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="share-critics-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                </div>
+
+                <div class="game-play" style="display: none; padding: 2rem 0;">
+                    <div id="critics-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
+                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
+                        <div id="critics-quote-display" style="font-size: 1.4rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif; line-height: 1.4;">"Quote"</div>
+                        <div id="critics-author-display" style="margin-top: 1rem; font-style: italic; color: #666;">- Author</div>
+                    </div>
+                    <div style="display: flex; gap: 1rem; justify-content: center;">
+                        <button id="next-critics-btn" class="cta-button primary" data-translate-key="next_word">Next Quote ➡️</button>
+                    </div>
+                </div>
+
+                <button id="close-critics-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
     </main>
