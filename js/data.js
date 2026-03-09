@@ -657,6 +657,46 @@ const gamesData = {
                 "word": "Finger",
                 "level": "elementary"
             }
+        ],
+        "health_lifestyle": [
+            { "word": "Healthy", "level": "elementary" },
+            { "word": "Disease", "level": "intermediate" },
+            { "word": "Exercise", "level": "elementary" },
+            { "word": "Mental health", "level": "upper-intermediate" },
+            { "word": "Nutrition", "level": "intermediate" },
+            { "word": "Stress", "level": "intermediate" }
+        ],
+        "environment_nature": [
+            { "word": "Global warming", "level": "intermediate" },
+            { "word": "Recycling", "level": "elementary" },
+            { "word": "Sustainability", "level": "upper-intermediate" },
+            { "word": "Pollution", "level": "intermediate" },
+            { "word": "Wildlife", "level": "elementary" },
+            { "word": "Solar energy", "level": "intermediate" }
+        ],
+        "technology_media": [
+            { "word": "Social media", "level": "elementary" },
+            { "word": "Artificial intelligence", "level": "upper-intermediate" },
+            { "word": "Smartphone", "level": "starter" },
+            { "word": "Internet", "level": "starter" },
+            { "word": "Privacy", "level": "intermediate" },
+            { "word": "Innovation", "level": "upper-intermediate" }
+        ],
+        "society_politics": [
+            { "word": "Democracy", "level": "intermediate" },
+            { "word": "Human rights", "level": "upper-intermediate" },
+            { "word": "Equality", "level": "intermediate" },
+            { "word": "Election", "level": "intermediate" },
+            { "word": "Immigration", "level": "upper-intermediate" },
+            { "word": "Globalization", "level": "advanced" }
+        ],
+        "science_philosophy": [
+            { "word": "Evolution", "level": "upper-intermediate" },
+            { "word": "Quantum physics", "level": "advanced" },
+            { "word": "Ethics", "level": "upper-intermediate" },
+            { "word": "Logic", "level": "intermediate" },
+            { "word": "Consciousness", "level": "advanced" },
+            { "word": "Metaphysics", "level": "proficiency" }
         ]
     },
     "fr": {
@@ -1153,6 +1193,46 @@ const gamesData = {
                 "word": "Pied",
                 "level": "starter"
             }
+        ],
+        "health_lifestyle": [
+            { "word": "Sain", "level": "elementary" },
+            { "word": "Maladie", "level": "intermediate" },
+            { "word": "Exercice", "level": "elementary" },
+            { "word": "Santé mentale", "level": "upper-intermediate" },
+            { "word": "Nutrition", "level": "intermediate" },
+            { "word": "Stress", "level": "intermediate" }
+        ],
+        "environment_nature": [
+            { "word": "Réchauffement climatique", "level": "intermediate" },
+            { "word": "Recyclage", "level": "elementary" },
+            { "word": "Durabilité", "level": "upper-intermediate" },
+            { "word": "Pollution", "level": "intermediate" },
+            { "word": "Vie sauvage", "level": "elementary" },
+            { "word": "Énergie solaire", "level": "intermediate" }
+        ],
+        "technology_media": [
+            { "word": "Médias sociaux", "level": "elementary" },
+            { "word": "Intelligence artificielle", "level": "upper-intermediate" },
+            { "word": "Smartphone", "level": "starter" },
+            { "word": "Internet", "level": "starter" },
+            { "word": "Confidentialité", "level": "intermediate" },
+            { "word": "Innovation", "level": "upper-intermediate" }
+        ],
+        "society_politics": [
+            { "word": "Démocratie", "level": "intermediate" },
+            { "word": "Droits de l'homme", "level": "upper-intermediate" },
+            { "word": "Égalité", "level": "intermediate" },
+            { "word": "Élection", "level": "intermediate" },
+            { "word": "Immigration", "level": "upper-intermediate" },
+            { "word": "Mondialisation", "level": "advanced" }
+        ],
+        "science_philosophy": [
+            { "word": "Évolution", "level": "upper-intermediate" },
+            { "word": "Physique quantique", "level": "advanced" },
+            { "word": "Éthique", "level": "upper-intermediate" },
+            { "word": "Logique", "level": "intermediate" },
+            { "word": "Conscience", "level": "advanced" },
+            { "word": "Métaphysique", "level": "proficiency" }
         ]
     },
     "it": {
@@ -1641,6 +1721,46 @@ const gamesData = {
                 "word": "Piede",
                 "level": "starter"
             }
+        ],
+        "health_lifestyle": [
+            { "word": "Sano", "level": "elementary" },
+            { "word": "Malattia", "level": "intermediate" },
+            { "word": "Esercizio", "level": "elementary" },
+            { "word": "Salute mentale", "level": "upper-intermediate" },
+            { "word": "Nutrizione", "level": "intermediate" },
+            { "word": "Stress", "level": "intermediate" }
+        ],
+        "environment_nature": [
+            { "word": "Riscaldamento globale", "level": "intermediate" },
+            { "word": "Riciclaggio", "level": "elementary" },
+            { "word": "Sostenibilità", "level": "upper-intermediate" },
+            { "word": "Inquinamento", "level": "intermediate" },
+            { "word": "Natura selvaggia", "level": "elementary" },
+            { "word": "Energia solare", "level": "intermediate" }
+        ],
+        "technology_media": [
+            { "word": "Social media", "level": "elementary" },
+            { "word": "Intelligenza artificiale", "level": "upper-intermediate" },
+            { "word": "Smartphone", "level": "starter" },
+            { "word": "Internet", "level": "starter" },
+            { "word": "Privacy", "level": "intermediate" },
+            { "word": "Innovazione", "level": "upper-intermediate" }
+        ],
+        "society_politics": [
+            { "word": "Democrazia", "level": "intermediate" },
+            { "word": "Diritti umani", "level": "upper-intermediate" },
+            { "word": "Uguaglianza", "level": "intermediate" },
+            { "word": "Elezione", "level": "intermediate" },
+            { "word": "Immigrazione", "level": "upper-intermediate" },
+            { "word": "Globalizzazione", "level": "advanced" }
+        ],
+        "science_philosophy": [
+            { "word": "Evoluzione", "level": "upper-intermediate" },
+            { "word": "Fisica quantistica", "level": "advanced" },
+            { "word": "Etica", "level": "upper-intermediate" },
+            { "word": "Logica", "level": "intermediate" },
+            { "word": "Coscienza", "level": "advanced" },
+            { "word": "Metafisica", "level": "proficiency" }
         ]
     },
     "ru": {
@@ -2137,6 +2257,46 @@ const gamesData = {
                 "word": "Стопа",
                 "level": "starter"
             }
+        ],
+        "health_lifestyle": [
+            { "word": "Здоровый", "level": "elementary" },
+            { "word": "Болезнь", "level": "intermediate" },
+            { "word": "Упражнение", "level": "elementary" },
+            { "word": "Психическое здоровье", "level": "upper-intermediate" },
+            { "word": "Питание", "level": "intermediate" },
+            { "word": "Стресс", "level": "intermediate" }
+        ],
+        "environment_nature": [
+            { "word": "Глобальное потепление", "level": "intermediate" },
+            { "word": "Переработка", "level": "elementary" },
+            { "word": "Устойчивое развитие", "level": "upper-intermediate" },
+            { "word": "Загрязнение", "level": "intermediate" },
+            { "word": "Дикая природа", "level": "elementary" },
+            { "word": "Солнечная энергия", "level": "intermediate" }
+        ],
+        "technology_media": [
+            { "word": "Социальные сети", "level": "elementary" },
+            { "word": "Искусственный интеллект", "level": "upper-intermediate" },
+            { "word": "Смартфон", "level": "starter" },
+            { "word": "Интернет", "level": "starter" },
+            { "word": "Конфиденциальность", "level": "intermediate" },
+            { "word": "Инновации", "level": "upper-intermediate" }
+        ],
+        "society_politics": [
+            { "word": "Демократия", "level": "intermediate" },
+            { "word": "Права человека", "level": "upper-intermediate" },
+            { "word": "Равенство", "level": "intermediate" },
+            { "word": "Выборы", "level": "intermediate" },
+            { "word": "Иммиграция", "level": "upper-intermediate" },
+            { "word": "Глобализация", "level": "advanced" }
+        ],
+        "science_philosophy": [
+            { "word": "Эволюция", "level": "upper-intermediate" },
+            { "word": "Квантовая физика", "level": "advanced" },
+            { "word": "Этика", "level": "upper-intermediate" },
+            { "word": "Логика", "level": "intermediate" },
+            { "word": "Сознание", "level": "advanced" },
+            { "word": "Метафизика", "level": "proficiency" }
         ]
     },
     "el": {
@@ -2601,6 +2761,46 @@ const gamesData = {
                 "word": "Ώμος",
                 "level": "elementary"
             }
+        ],
+        "health_lifestyle": [
+            { "word": "Υγιεινός", "level": "elementary" },
+            { "word": "Ασθένεια", "level": "intermediate" },
+            { "word": "Άσκηση", "level": "elementary" },
+            { "word": "Ψυχική υγεία", "level": "upper-intermediate" },
+            { "word": "Διατροφή", "level": "intermediate" },
+            { "word": "Άγχος", "level": "intermediate" }
+        ],
+        "environment_nature": [
+            { "word": "Υπερθέρμανση του πλανήτη", "level": "intermediate" },
+            { "word": "Ανακύκλωση", "level": "elementary" },
+            { "word": "Βιωσιμότητα", "level": "upper-intermediate" },
+            { "word": "Ρύπανση", "level": "intermediate" },
+            { "word": "Άγρια ζωή", "level": "elementary" },
+            { "word": "Ηλιακή ενέργεια", "level": "intermediate" }
+        ],
+        "technology_media": [
+            { "word": "Μέσα κοινωνικής δικτύωσης", "level": "elementary" },
+            { "word": "Τεχνητή νοημοσύνη", "level": "upper-intermediate" },
+            { "word": "Κινητό τηλέφωνο", "level": "starter" },
+            { "word": "Διαδίκτυο", "level": "starter" },
+            { "word": "Προστασία προσωπικών δεδομένων", "level": "intermediate" },
+            { "word": "Καινοτομία", "level": "upper-intermediate" }
+        ],
+        "society_politics": [
+            { "word": "Δημοκρατία", "level": "intermediate" },
+            { "word": "Ανθρώπινα δικαιώματα", "level": "upper-intermediate" },
+            { "word": "Ισότητα", "level": "intermediate" },
+            { "word": "Εκλογές", "level": "intermediate" },
+            { "word": "Μετανάστευση", "level": "upper-intermediate" },
+            { "word": "Παγκοσμιοποίηση", "level": "advanced" }
+        ],
+        "science_philosophy": [
+            { "word": "Εξέλιξη", "level": "upper-intermediate" },
+            { "word": "Κβαντική φυσική", "level": "advanced" },
+            { "word": "Ηθική", "level": "upper-intermediate" },
+            { "word": "Λογική", "level": "intermediate" },
+            { "word": "Συνείδηση", "level": "advanced" },
+            { "word": "Μεταφυσική", "level": "proficiency" }
         ]
     }
 };
@@ -2620,7 +2820,10 @@ const speakingGamesData = {
             { "topic": "Summer vs. Winter", "sideA": "Summer", "sideB": "Winter", "ideasA": ["Beach & Swimming", "Long days", "Ice cream"], "ideasB": ["Snow & Skiing", "Cozy nights", "Hot chocolate"], "level": "starter" },
             { "topic": "Working from Home vs. Office", "sideA": "Home", "sideB": "Office", "ideasA": ["No commute", "Flexible hours", "Comfort"], "ideasB": ["Socializing", "Clear boundaries", "Teamwork"], "level": "intermediate" },
             { "topic": "Travel Alone vs. With Friends", "sideA": "Alone", "sideB": "Friends", "ideasA": ["Freedom", "Self-discovery", "Meet locals"], "ideasB": ["Shared memories", "Safety", "Cheaper (split costs)"], "level": "intermediate" },
-            { "topic": "Social Media: Good or Bad?", "sideA": "Good", "sideB": "Bad", "ideasA": ["Stay connected", "Information", "Entertainment"], "ideasB": ["Addiction", "Fake news", "Privacy concerns"], "level": "upper-intermediate" }
+            { "topic": "Social Media: Good or Bad?", "sideA": "Good", "sideB": "Bad", "ideasA": ["Stay connected", "Information", "Entertainment"], "ideasB": ["Addiction", "Fake news", "Privacy concerns"], "level": "upper-intermediate" },
+            { "topic": "Universal Basic Income", "sideA": "Pro", "sideB": "Con", "ideasA": ["Poverty reduction", "Economic security", "Supports creativity"], "ideasB": ["Reduced motivation", "High cost", "Inflation risk"], "level": "advanced" },
+            { "topic": "Should AI be regulated?", "sideA": "Yes", "sideB": "No", "ideasA": ["Safety & Ethics", "Prevent bias", "Job protection"], "ideasB": ["Slows innovation", "Hard to enforce", "Global competition"], "level": "advanced" },
+            { "topic": "Space Exploration: Worth the cost?", "sideA": "Yes", "sideB": "No", "ideasA": ["Scientific discovery", "Planetary backup", "New resources"], "ideasB": ["Fix Earth first", "High risk", "Pollution"], "level": "upper-intermediate" }
         ],
         "talkThatTalk": [
             { "topic": "My favorite childhood memory", "level": "starter" },
@@ -2630,7 +2833,11 @@ const speakingGamesData = {
             { "topic": "How technology changed our lives", "level": "intermediate" },
             { "topic": "Is it better to be a leader or a follower?", "level": "upper-intermediate" },
             { "topic": "The importance of learning a second language", "level": "intermediate" },
-            { "topic": "The future of Artificial Intelligence", "level": "advanced" }
+            { "topic": "The future of Artificial Intelligence", "level": "advanced" },
+            { "topic": "The ethical implications of genetic engineering", "level": "advanced" },
+            { "topic": "The impact of globalization on local cultures", "level": "upper-intermediate" },
+            { "topic": "The philosophy of happiness and fulfillment", "level": "proficiency" },
+            { "topic": "The role of the individual in a digital society", "level": "advanced" }
         ]
     },
     "fr": {
@@ -2647,7 +2854,12 @@ const speakingGamesData = {
             { "topic": "Le meilleur repas que j'ai jamais pris", "level": "starter" },
             { "topic": "Le métier de mes rêves", "level": "elementary" },
             { "topic": "Comment la technologie a changé nos vies", "level": "intermediate" },
-            { "topic": "Est-il préférable d'être un leader ou un suiveur ?", "level": "upper-intermediate" }
+            { "topic": "Est-il préférable d'être un leader ou un suiveur ?", "level": "upper-intermediate" },
+            { "topic": "L'importance d'apprendre une deuxième langue", "level": "intermediate" },
+            { "topic": "L'avenir de l'intelligence artificielle", "level": "advanced" },
+            { "topic": "Les implications éthiques du génie génétique", "level": "advanced" },
+            { "topic": "L'impact de la mondialisation sur les cultures locales", "level": "upper-intermediate" },
+            { "topic": "La philosophie du bonheur et de l'accomplissement", "level": "proficiency" }
         ]
     },
     "it": {
@@ -2664,7 +2876,12 @@ const speakingGamesData = {
             { "topic": "Il miglior pasto che abbia mai fatto", "level": "starter" },
             { "topic": "Il lavoro dei miei sogni", "level": "elementary" },
             { "topic": "Come la tecnologia ha cambiato le nostre vite", "level": "intermediate" },
-            { "topic": "È meglio essere un leader o un seguace?", "level": "upper-intermediate" }
+            { "topic": "È meglio essere un leader o un seguace?", "level": "upper-intermediate" },
+            { "topic": "L'importanza di imparare una seconda lingua", "level": "intermediate" },
+            { "topic": "Il futuro dell'intelligenza artificiale", "level": "advanced" },
+            { "topic": "Le implicazioni etiche dell'ingegneria genetica", "level": "advanced" },
+            { "topic": "L'impatto della globalizzazione sulle culture locali", "level": "upper-intermediate" },
+            { "topic": "La filosofia della felicità e della realizzazione", "level": "proficiency" }
         ]
     },
     "ru": {
@@ -2681,7 +2898,12 @@ const speakingGamesData = {
             { "topic": "Самая вкусная еда в моей жизни", "level": "starter" },
             { "topic": "Работа моей мечты", "level": "elementary" },
             { "topic": "Как технологии изменили нашу жизнь", "level": "intermediate" },
-            { "topic": "Лучше быть лидером или последователем?", "level": "upper-intermediate" }
+            { "topic": "Лучше быть лидером или последователем?", "level": "upper-intermediate" },
+            { "topic": "Важность изучения второго языка", "level": "intermediate" },
+            { "topic": "Будущее искусственного интеллекта", "level": "advanced" },
+            { "topic": "Этические последствия генной инженерии", "level": "advanced" },
+            { "topic": "Влияние глобализации на местные культуры", "level": "upper-intermediate" },
+            { "topic": "Философия счастья и самореализации", "level": "proficiency" }
         ]
     },
     "el": {
@@ -2698,7 +2920,12 @@ const speakingGamesData = {
             { "topic": "Το καλύτερο γεύμα που έφαγα ποτέ", "level": "starter" },
             { "topic": "Η δουλειά των ονείρων μου", "level": "elementary" },
             { "topic": "Πώς η τεχνολογία άλλαξε τη ζωή μας", "level": "intermediate" },
-            { "topic": "Είναι καλύτερο να είσαι ηγέτης ή ακόλουθος;", "level": "upper-intermediate" }
+            { "topic": "Είναι καλύτερο να είσαι ηγέτης ή ακόλουθος;", "level": "upper-intermediate" },
+            { "topic": "Η σημασία της εκμάθησης μιας δεύτερης γλώσσας", "level": "intermediate" },
+            { "topic": "Το μέλλον της Τεχνητής Νοημοσύνης", "level": "advanced" },
+            { "topic": "Οι ηθικές επιπτώσεις της γενετικής μηχανικής", "level": "advanced" },
+            { "topic": "Ο αντίκτυπος της παγκοσμιοποίησης στους τοπικούς πολιτισμούς", "level": "upper-intermediate" },
+            { "topic": "Η φιλοσοφία της ευτυχίας και της ολοκλήρωσης", "level": "proficiency" }
         ]
     }
 };

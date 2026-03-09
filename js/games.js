@@ -3,6 +3,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const getLang = () => localStorage.getItem('language') || 'en';
     const t = (key) => (translations[getLang()] && translations[getLang()][key]) || key;
 
+    let timerInterval = null;
+    const startTimer = (displayId, duration, onEnd) => {
+        clearInterval(timerInterval);
+        let timeLeft = duration;
+        const display = document.getElementById(displayId);
+        if (!display) return;
+
+        const updateDisplay = () => {
+            const mins = Math.floor(timeLeft / 60);
+            const secs = timeLeft % 60;
+            display.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+            if (timeLeft <= 10) display.style.color = 'var(--accent-color)';
+            else display.style.color = 'inherit';
+        };
+
+        updateDisplay();
+        timerInterval = setInterval(() => {
+            timeLeft--;
+            updateDisplay();
+            if (timeLeft <= 0) {
+                clearInterval(timerInterval);
+                if (onEnd) onEnd();
+            }
+        }, 1000);
+    };
+
+    const stopTimer = () => clearInterval(timerInterval);
+
     const parseLessons = (input) => {
         const lessons = new Set();
         if (!input) return lessons;
@@ -93,6 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const emojiDisplay = document.getElementById('charades-emoji');
         const scoreVal = document.getElementById('charades-score-val');
         const themeSelect = document.getElementById('charades-theme');
+        const timerDisplay = document.getElementById('charades-timer');
 
         let pool = [];
         let score = 0;
@@ -105,9 +134,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = pool.pop();
             wordDisplay.textContent = typeof item === 'string' ? item : (item.answer || item.word);
             emojiDisplay.textContent = item.emoji || '🎭';
+
+            stopTimer();
+            const duration = parseInt(document.getElementById('charades-timer-duration')?.value || '60');
+            startTimer('charades-timer', duration, () => {
+                wordDisplay.textContent = t('time_up');
+                emojiDisplay.textContent = '⏰';
+            });
         };
 
         const endGame = () => {
+            stopTimer();
             gameArea.style.display = 'none';
             resultArea.style.display = 'block';
             setupArea.style.display = 'block';
@@ -212,6 +249,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const themeSelect = modal.querySelector('.game-theme');
 
         let pool = [];
+        let currentItem = null;
+        let hintsRevealed = 0;
 
         const showTarget = () => {
             if (pool.length === 0) {
@@ -219,8 +258,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 setupArea.style.display = 'block';
                 return;
             }
-            const item = pool.pop();
-            const wordText = typeof item === 'string' ? item : (item.word || item);
+            currentItem = pool.pop();
+            hintsRevealed = 0;
+
+            const wordText = typeof currentItem === 'string' ? currentItem : (currentItem.word || currentItem);
             targetDisplay.textContent = wordText;
 
             // Add prompts
@@ -234,6 +275,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 li.textContent = t(pKey);
                 promptList.appendChild(li);
             });
+
+            // Reset hints
+            const hintDisplay = modal.querySelector('.hint-display');
+            if (hintDisplay) hintDisplay.textContent = '';
+        };
+
+        const revealHint = () => {
+            const hintDisplay = modal.querySelector('.hint-display');
+            if (!hintDisplay || !currentItem) return;
+
+            hintsRevealed++;
+            const wordText = typeof currentItem === 'string' ? currentItem : currentItem.word;
+
+            if (hintsRevealed === 1) {
+                hintDisplay.textContent = `${t('hint_first_letter')}: ${wordText[0]}...`;
+            } else if (hintsRevealed === 2) {
+                hintDisplay.textContent = `${t('hint_length')}: ${wordText.length} ${t('letters')}`;
+            } else {
+                hintDisplay.textContent = wordText;
+            }
         };
 
         const openGame = () => {
@@ -278,6 +339,7 @@ document.addEventListener('DOMContentLoaded', () => {
         startBtn?.addEventListener('click', startGame);
 
         nextBtn?.addEventListener('click', showTarget);
+        modal.querySelector('.hint-btn')?.addEventListener('click', revealHint);
 
         // Share Link for Guess games
         handleShare(`share-guess-${gameType}-btn`, {
@@ -300,6 +362,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const startCallerBtn = document.getElementById('start-bingo-caller-btn');
         const startPlayerBtn = document.getElementById('start-bingo-player-btn');
         const callNextBtn = document.getElementById('bingo-call-next-btn');
+        const speedModeToggle = document.getElementById('bingo-speed-mode');
 
         const setupArea = document.getElementById('bingo-setup');
         const callerArea = document.getElementById('bingo-caller-area');
@@ -323,7 +386,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         openBtn?.addEventListener('click', openBingo);
 
-        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+        closeBtn?.addEventListener('click', () => {
+            modal.style.display = 'none';
+            clearInterval(speedInterval);
+        });
 
         const preparePool = () => {
             const level = document.getElementById('bingo-level').value;
@@ -357,6 +423,8 @@ document.addEventListener('DOMContentLoaded', () => {
             return Math.abs(hash);
         };
 
+        let speedInterval = null;
+
         const startBingoCaller = () => {
             const pool = preparePool();
             const seed = getSeed();
@@ -366,11 +434,21 @@ document.addEventListener('DOMContentLoaded', () => {
             historyDisplay.innerHTML = '';
             setupArea.style.display = 'none';
             callerArea.style.display = 'block';
+
+            if (speedModeToggle?.checked) {
+                clearInterval(speedInterval);
+                speedInterval = setInterval(() => {
+                    if (bingoPool.length === 0) {
+                        clearInterval(speedInterval);
+                        alert("All items called!");
+                    } else {
+                        callNext();
+                    }
+                }, 5000); // Call every 5 seconds
+            }
         };
 
-        startCallerBtn?.addEventListener('click', startBingoCaller);
-
-        callNextBtn?.addEventListener('click', () => {
+        const callNext = () => {
             if (bingoPool.length === 0) {
                 alert("All items called!");
                 return;
@@ -390,7 +468,10 @@ document.addEventListener('DOMContentLoaded', () => {
             historyDisplay.prepend(histSpan);
 
             speak(item.toString(), document.getElementById('bingo-lang').value);
-        });
+        };
+
+        startCallerBtn?.addEventListener('click', startBingoCaller);
+        callNextBtn?.addEventListener('click', callNext);
 
         const generatePlayerCard = () => {
             const pool = preparePool();
@@ -457,11 +538,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const sideBName = document.getElementById('side-b-name');
         const sideAIdeas = document.getElementById('side-a-ideas');
         const sideBIdeas = document.getElementById('side-b-ideas');
+        const timerDisplay = document.getElementById('debates-timer');
 
         let pool = [];
 
         const showNext = () => {
             if (pool.length === 0) {
+                stopTimer();
                 gameArea.style.display = 'none';
                 setupArea.style.display = 'block';
                 return;
@@ -470,6 +553,12 @@ document.addEventListener('DOMContentLoaded', () => {
             topicDisplay.textContent = debate.topic;
             sideAName.textContent = debate.sideA;
             sideBName.textContent = debate.sideB;
+
+            stopTimer();
+            const duration = parseInt(document.getElementById('debates-timer-duration')?.value || '120');
+            startTimer('debates-timer', duration, () => {
+                topicDisplay.textContent = t('time_up');
+            });
 
             sideAIdeas.innerHTML = '';
             debate.ideasA.forEach(idea => {
@@ -493,7 +582,10 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         openBtn?.addEventListener('click', openGame);
-        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+        closeBtn?.addEventListener('click', () => {
+            modal.style.display = 'none';
+            stopTimer();
+        });
 
         const startGame = () => {
             const lang = document.getElementById('debates-lang').value;
@@ -544,17 +636,25 @@ document.addEventListener('DOMContentLoaded', () => {
         const setupArea = modal.querySelector('.game-setup');
         const gameArea = modal.querySelector('.game-play');
         const topicDisplay = document.getElementById('talk-topic-display');
+        const timerDisplay = document.getElementById('talk-timer');
 
         let pool = [];
 
         const showNext = () => {
             if (pool.length === 0) {
+                stopTimer();
                 gameArea.style.display = 'none';
                 setupArea.style.display = 'block';
                 return;
             }
             const item = pool.pop();
             topicDisplay.textContent = item.topic;
+
+            stopTimer();
+            const duration = parseInt(document.getElementById('talk-timer-duration')?.value || '180');
+            startTimer('talk-timer', duration, () => {
+                topicDisplay.textContent = t('time_up');
+            });
         };
 
         const openGame = () => {
@@ -564,7 +664,10 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         openBtn?.addEventListener('click', openGame);
-        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
+        closeBtn?.addEventListener('click', () => {
+            modal.style.display = 'none';
+            stopTimer();
+        });
 
         const startGame = () => {
             const lang = document.getElementById('talk-lang').value;
