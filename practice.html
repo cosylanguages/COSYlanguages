@@ -14,7 +14,7 @@
         <nav>
             <ul>
                 <li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li>
-                <li><a href="index.html#courses" data-translate-key="nav_courses">Courses 📚</a></li>
+                <li><a href="days.html" data-translate-key="nav_courses">Courses 📚</a></li>
                 <li><a href="index.html#calculator" data-translate-key="nav_calculator">Calculator 🧮</a></li>
                 <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
                 <li><a href="practice.html" data-translate-key="nav_practice">Practice 💡</a></li>
@@ -99,11 +99,34 @@
                         </div>
                     </div>
 
-                    <!-- 3. Lesson Selection -->
+                    <!-- 3. Level & Theme Selection -->
                     <div class="setup-group">
-                        <label for="lesson-range" data-translate-key="select_lessons">3. Select lessons (e.g. 1 or 1-5) 📚</label>
-                        <input type="text" id="lesson-range" class="pill-input" data-translate-key="placeholder_lesson_range" placeholder="1" value="1">
-                        <span id="lesson-hint" class="small-hint" style="color: var(--accent-color); font-size: 0.75rem; margin-top: 0.3rem; display: none;" data-translate-key="speaking_requires_lesson_3">Speaking & Wheel require Lesson 3+</span>
+                        <label for="practice-level" data-translate-key="select_level">3. Select Level 📊</label>
+                        <select id="practice-level" class="pill-input" style="width: 100%;">
+                            <option value="all" data-translate-key="theme_all">All Levels</option>
+                            <option value="starter" data-translate-key="starter">Starter (A1)</option>
+                            <option value="elementary" data-translate-key="elementary">Elementary (A2)</option>
+                            <option value="intermediate" data-translate-key="intermediate">Intermediate (B1)</option>
+                            <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate (B2)</option>
+                            <option value="advanced" data-translate-key="advanced">Advanced (C1)</option>
+                            <option value="proficiency" data-translate-key="proficiency">Proficiency (C2)</option>
+                        </select>
+                    </div>
+
+                    <div class="setup-group">
+                        <label for="practice-theme" data-translate-key="select_theme">4. Select Theme 🎨</label>
+                        <select id="practice-theme" class="pill-input" style="width: 100%;">
+                            <option value="all" data-translate-key="theme_all">All Themes</option>
+                            <option value="people_society" data-translate-key="theme_people">People & Society 🌟</option>
+                            <option value="daily_life" data-translate-key="daily_life">Daily Life 🛒</option>
+                            <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
+                            <option value="travel_places" data-translate-key="theme_places">Travel & Places 📍</option>
+                            <option value="leisure_hobbies" data-translate-key="theme_hobby">Leisure & Hobbies 🎨</option>
+                            <option value="nature_environment" data-translate-key="theme_environment">Nature & Environment 🌿</option>
+                            <option value="science_technology" data-translate-key="theme_technology">Science & Technology 📱</option>
+                            <option value="health_body" data-translate-key="theme_health">Health & Body 🦷</option>
+                            <option value="education_work" data-translate-key="theme_education">Education & Work 🎓</option>
+                        </select>
                     </div>
                 </div>
 
@@ -290,7 +313,10 @@
         </div>
     </footer>
 
-    <script src="js/data.js"></script>
+    <script src="js/data/alphabets.js"></script>
+    <script src="js/data/vocabulary.js"></script>
+    <script src="js/data/speaking.js"></script>
+    <script src="js/data/curriculum.js"></script>
     <script src="js/translations.js"></script>
     <script src="js/translate.js"></script>
     <script src="js/practice.js"></script>

@@ -14,7 +14,7 @@
         <nav>
             <ul>
                 <li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li>
-                <li><a href="index.html#courses" data-translate-key="nav_courses">Courses 📚</a></li>
+                <li><a href="days.html" data-translate-key="nav_courses">Courses 📚</a></li>
                 <li><a href="index.html#calculator" data-translate-key="nav_calculator">Calculator 🧮</a></li>
                 <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
                 <li><a href="practice.html" data-translate-key="nav_practice">Practice 💡</a></li>
@@ -145,43 +145,26 @@
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select id="charades-theme" class="pill-input" style="width: 100%;">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
-                                <option value="popular_people" data-translate-key="theme_people">Popular People 🌟</option>
-                                <option value="professions" data-translate-key="theme_people_professions">Professions 👩‍🏫</option>
-                                <option value="dishes" data-translate-key="theme_dishes">Dishes 🍲</option>
-                                <option value="food" data-translate-key="theme_food">Food 🍎</option>
-                                <option value="drinks" data-translate-key="theme_drinks">Drinks 🍷</option>
-                                <option value="places" data-translate-key="theme_places">Places 📍</option>
-                                <option value="countries" data-translate-key="theme_countries">Countries 🗺️</option>
-                                <option value="cities" data-translate-key="theme_cities">Cities 🏙️</option>
-                                <option value="clothing" data-translate-key="theme_clothing">Clothing 👕</option>
-                                <option value="furniture" data-translate-key="theme_furniture">Furniture 🏠</option>
-                                <option value="appearance" data-translate-key="theme_appearance">Appearance 🎭</option>
-                                <option value="routine" data-translate-key="theme_routine">Daily Routine ⏰</option>
-                                <option value="objects" data-translate-key="theme_objects">Everyday Objects 🔑</option>
-                                <option value="animals" data-translate-key="theme_animals">Animals & Pets 🐕</option>
-                                <option value="hobby" data-translate-key="theme_hobby">Hobby 🎨</option>
-                                <option value="weather" data-translate-key="theme_weather">Weather ☀️</option>
-                                <option value="body" data-translate-key="theme_body">Body Parts 🦷</option>
-                                <option value="health_lifestyle" data-translate-key="theme_health">Health & Lifestyle 🏥</option>
-                                <option value="environment_nature" data-translate-key="theme_environment">Environment 🌿</option>
-                                <option value="technology_media" data-translate-key="theme_technology">Technology 📱</option>
-                                <option value="society_politics" data-translate-key="theme_society">Society 🗳️</option>
-                                <option value="science_philosophy" data-translate-key="theme_science">Science & Philo 🧪</option>
+                                <option value="people_society" data-translate-key="theme_people">People & Society 🌟</option>
+                                <option value="daily_life" data-translate-key="daily_life">Daily Life 🛒</option>
+                                <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
+                                <option value="travel_places" data-translate-key="theme_places">Travel & Places 📍</option>
+                                <option value="leisure_hobbies" data-translate-key="theme_hobby">Leisure & Hobbies 🎨</option>
+                                <option value="nature_environment" data-translate-key="theme_environment">Nature & Environment 🌿</option>
+                                <option value="science_technology" data-translate-key="theme_technology">Science & Technology 📱</option>
+                                <option value="health_body" data-translate-key="theme_health">Health & Body 🦷</option>
+                                <option value="education_work" data-translate-key="theme_education">Education & Work 🎓</option>
                             </select>
                         </div>
                     </div>
                     <div class="setup-row" style="margin-bottom: 1rem;">
                         <div class="setup-group" style="flex: 1; text-align: left;">
-                            <label data-translate-key="select_lessons">Lesson Range 📚</label>
-                            <input type="text" id="charades-lessons" class="pill-input" value="1-4" style="width: 100%;">
-                        </div>
-                        <div class="setup-group" style="flex: 1; text-align: left;">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
                             <select id="charades-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="30">30s</option>
-                                <option value="60" selected>60s</option>
-                                <option value="90">90s</option>
-                                <option value="120">120s</option>
+                                <option value="30" data-translate-key="timer_30s">30s</option>
+                                <option value="60" selected data-translate-key="timer_60s">60s</option>
+                                <option value="90" data-translate-key="timer_90s">90s</option>
+                                <option value="120" data-translate-key="timer_120s">120s</option>
                             </select>
                         </div>
                     </div>
@@ -249,9 +232,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select class="pill-input game-theme" style="width: 100%;">
-                                <option value="popular_people" data-translate-key="theme_people">Popular People 🌟</option>
-                                <option value="professions" data-translate-key="theme_people_professions">Professions 👩‍🏫</option>
-                                <option value="society_politics" data-translate-key="theme_society">Society & Politics 🗳️</option>
+                                <option value="people_society" data-translate-key="theme_people">People & Society 🌟</option>
                             </select>
                         </div>
                     </div>
@@ -313,17 +294,13 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select class="pill-input game-theme" style="width: 100%;">
-                                <option value="dishes" data-translate-key="theme_dishes">Dishes 🍲</option>
-                                <option value="food" data-translate-key="theme_food">Food 🍎</option>
-                                <option value="drinks" data-translate-key="theme_drinks">Drinks 🍷</option>
-                                <option value="places" data-translate-key="theme_places">Places 📍</option>
-                                <option value="countries" data-translate-key="theme_countries">Countries 🗺️</option>
-                                <option value="cities" data-translate-key="theme_cities">Cities 🏙️</option>
-                                <option value="clothing" data-translate-key="theme_clothing">Clothing 👕</option>
-                                <option value="furniture" data-translate-key="theme_furniture">Furniture 🏠</option>
-                                <option value="technology_media" data-translate-key="technology_media">Technology 📱</option>
-                                <option value="environment_nature" data-translate-key="environment_nature">Environment 🌿</option>
-                                <option value="health_lifestyle" data-translate-key="health_lifestyle">Health & Lifestyle 🏥</option>
+                                <option value="daily_life" data-translate-key="daily_life">Daily Life 🛒</option>
+                                <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
+                                <option value="travel_places" data-translate-key="theme_places">Travel & Places 📍</option>
+                                <option value="leisure_hobbies" data-translate-key="theme_hobby">Leisure & Hobbies 🎨</option>
+                                <option value="nature_environment" data-translate-key="theme_environment">Nature & Environment 🌿</option>
+                                <option value="science_technology" data-translate-key="theme_technology">Science & Technology 📱</option>
+                                <option value="health_body" data-translate-key="theme_health">Health & Body 🦷</option>
                             </select>
                         </div>
                     </div>
@@ -462,10 +439,10 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
                             <select id="debates-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="60">60s</option>
-                                <option value="120" selected>120s</option>
-                                <option value="180">180s</option>
-                                <option value="300">300s</option>
+                                <option value="60" data-translate-key="timer_60s">60s</option>
+                                <option value="120" selected data-translate-key="timer_120s">120s</option>
+                                <option value="180" data-translate-key="timer_180s">180s</option>
+                                <option value="300" data-translate-key="timer_300s">300s</option>
                             </select>
                         </div>
                     </div>
@@ -538,10 +515,10 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
                             <select id="talk-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="60">60s</option>
-                                <option value="180" selected>180s</option>
-                                <option value="300">300s</option>
-                                <option value="600">600s</option>
+                                <option value="60" data-translate-key="timer_60s">60s</option>
+                                <option value="180" selected data-translate-key="timer_180s">180s</option>
+                                <option value="300" data-translate-key="timer_300s">300s</option>
+                                <option value="600" data-translate-key="timer_600s">600s</option>
                             </select>
                         </div>
                     </div>
@@ -598,9 +575,9 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
                             <select id="opinion-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="60">60s</option>
-                                <option value="120" selected>120s</option>
-                                <option value="180">180s</option>
+                                <option value="60" data-translate-key="timer_60s">60s</option>
+                                <option value="120" selected data-translate-key="timer_120s">120s</option>
+                                <option value="180" data-translate-key="timer_180s">180s</option>
                             </select>
                         </div>
                     </div>
@@ -611,7 +588,7 @@
                 <div class="game-play" style="display: none; padding: 2rem 0;">
                     <div id="opinion-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
                     <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
-                        <div id="opinion-statement-display" style="font-size: 1.6rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;">Statement</div>
+                        <div id="opinion-statement-display" style="font-size: 1.6rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Loading...</div>
                     </div>
                     <div style="display: flex; gap: 1rem; justify-content: center;">
                         <button id="next-opinion-btn" class="cta-button primary" data-translate-key="next_word">Next Statement ➡️</button>
@@ -656,10 +633,10 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
                             <select id="critics-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="60">60s</option>
-                                <option value="120" selected>120s</option>
-                                <option value="180">180s</option>
-                                <option value="300">300s</option>
+                                <option value="60" data-translate-key="timer_60s">60s</option>
+                                <option value="120" selected data-translate-key="timer_120s">120s</option>
+                                <option value="180" data-translate-key="timer_180s">180s</option>
+                                <option value="300" data-translate-key="timer_300s">300s</option>
                             </select>
                         </div>
                     </div>
@@ -670,8 +647,8 @@
                 <div class="game-play" style="display: none; padding: 2rem 0;">
                     <div id="critics-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
                     <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
-                        <div id="critics-quote-display" style="font-size: 1.4rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif; line-height: 1.4;">"Quote"</div>
-                        <div id="critics-author-display" style="margin-top: 1rem; font-style: italic; color: #666;">- Author</div>
+                        <div id="critics-quote-display" style="font-size: 1.4rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif; line-height: 1.4;" data-translate-key="placeholder_loading">Loading...</div>
+                        <div id="critics-author-display" style="margin-top: 1rem; font-style: italic; color: #666;"></div>
                     </div>
                     <div style="display: flex; gap: 1rem; justify-content: center;">
                         <button id="next-critics-btn" class="cta-button primary" data-translate-key="next_word">Next Quote ➡️</button>
@@ -691,7 +668,10 @@
         </div>
     </footer>
 
-    <script src="js/data.js"></script>
+    <script src="js/data/alphabets.js"></script>
+    <script src="js/data/vocabulary.js"></script>
+    <script src="js/data/speaking.js"></script>
+    <script src="js/data/curriculum.js"></script>
     <script src="js/script.js"></script>
     <script src="js/translations.js"></script>
     <script src="js/translate.js"></script>

@@ -179,16 +179,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (shareLinkBtn) {
         shareLinkBtn.addEventListener('click', () => {
             const lang = currentPractice.language;
-            const lessons = document.getElementById('lesson-range').value;
+            const level = document.getElementById('practice-level').value;
+            const theme = document.getElementById('practice-theme').value;
             const category = document.querySelector('input[name="practice-cat"]:checked').id.replace('cat-', '');
             const baseUrl = window.location.href.split('?')[0];
 
-            // Check if we are in wheel mode or if speaking is selected (which implies wheel is common)
-            // But let's be explicit: if the user clicked "Linear" start, it's linear.
-            // Since this button is in the SETUP, we don't know yet?
-            // Actually, the user might want a wheel link specifically.
-
-            const shareUrl = `${baseUrl}?lang=${lang}&lesson=${lessons}&cat=${category}&embed=true`;
+            const shareUrl = `${baseUrl}?lang=${lang}&level=${level}&theme=${theme}&cat=${category}&embed=true`;
 
             navigator.clipboard.writeText(shareUrl).then(() => {
                 const originalText = shareLinkBtn.innerHTML;
@@ -279,9 +275,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const copyWheelLink = (e) => {
             if (e) e.preventDefault();
             const lang = currentPractice.language;
-            const lessons = document.getElementById('lesson-range').value;
+            const level = document.getElementById('practice-level').value;
+            const theme = document.getElementById('practice-theme').value;
             const baseUrl = window.location.href.split('?')[0];
-            const shareUrl = `${baseUrl}?mode=wheel&lang=${lang}&lesson=${lessons}&cat=speaking&embed=true`;
+            const shareUrl = `${baseUrl}?mode=wheel&lang=${lang}&level=${level}&theme=${theme}&cat=speaking&embed=true`;
 
             navigator.clipboard.writeText(shareUrl).then(() => {
                 const originalText = wheelModeBtn.innerHTML;
@@ -331,12 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    const lessonRangeInput = document.getElementById('lesson-range');
-    if (lessonRangeInput) {
-        lessonRangeInput.addEventListener('input', validateFeaturesByLesson);
-        // Run once on load
-        validateFeaturesByLesson();
-    }
+    // Removing validateFeaturesByLesson as everything is now free access by level
 
     catRadios.forEach(radio => {
         radio.addEventListener('change', window.updateCategoryUI);
@@ -569,47 +561,6 @@ function triggerAnimation(type) {
     }
 }
 
-function validateFeaturesByLesson() {
-    const lessonInput = document.getElementById('lesson-range');
-    const catSpeaking = document.getElementById('cat-speaking');
-    const wheelModeBtn = document.getElementById('wheel-mode-btn');
-    const lessonHint = document.getElementById('lesson-hint');
-
-    if (!lessonInput) return;
-
-    const lessons = parseLessonRange(lessonInput.value);
-    const hasLesson3Plus = lessons.some(l => l >= 3);
-
-    if (!hasLesson3Plus) {
-        if (catSpeaking) {
-            catSpeaking.disabled = true;
-            catSpeaking.parentElement.style.opacity = '0.5';
-            if (catSpeaking.checked) {
-                document.getElementById('cat-vocab').checked = true;
-                // trigger change manually
-                const event = new Event('change');
-                document.getElementById('cat-vocab').dispatchEvent(event);
-            }
-        }
-        if (wheelModeBtn) {
-            wheelModeBtn.disabled = true;
-            wheelModeBtn.style.opacity = '0.5';
-            wheelModeBtn.style.cursor = 'not-allowed';
-        }
-        if (lessonHint) lessonHint.style.display = 'block';
-    } else {
-        if (catSpeaking) {
-            catSpeaking.disabled = false;
-            catSpeaking.parentElement.style.opacity = '1';
-        }
-        if (wheelModeBtn) {
-            wheelModeBtn.disabled = false;
-            wheelModeBtn.style.opacity = '1';
-            wheelModeBtn.style.cursor = 'pointer';
-        }
-        if (lessonHint) lessonHint.style.display = 'none';
-    }
-}
 
 function parseLessonRange(val) {
     let lessons = [];
@@ -634,27 +585,16 @@ function parseLessonRange(val) {
 
 function startPractice(isWheelMode = false) {
     const activeLangCard = document.querySelector('.lang-selection-card.active');
-    const lessonInput = document.getElementById('lesson-range');
+    const lang = activeLangCard ? activeLangCard.getAttribute('data-value') : 'en';
+    currentPractice.language = lang;
 
-    if (activeLangCard) {
-        currentPractice.language = activeLangCard.getAttribute('data-value');
-    }
+    const urlParams = new URLSearchParams(window.location.search);
+    const selectedLevel = urlParams.get('level') || document.getElementById('practice-level').value;
+    const selectedTheme = urlParams.get('theme') || document.getElementById('practice-theme').value;
+    const catParam = urlParams.get('cat');
+    const lessonParam = urlParams.get('lesson');
 
-    const lessons = parseLessonRange(lessonInput.value);
-
-    if (lessons.length === 0) {
-        alert("Please enter a valid lesson number or range (e.g., 1 or 1-5)");
-        return;
-    }
-
-    currentPractice.lessons = lessons;
     currentPractice.words = [];
-
-    const langData = lessonsData[currentPractice.language];
-    if (!langData) {
-        alert("Language data not found!");
-        return;
-    }
 
     let enabledTypes = [];
     if (document.getElementById('type-mc').checked) enabledTypes.push('multiple_choice');
@@ -668,131 +608,87 @@ function startPractice(isWheelMode = false) {
     if (document.getElementById('type-cv').checked) enabledTypes.push('conversation');
     if (document.getElementById('type-np').checked) enabledTypes.push('number_plural');
 
-    let enabledCategories = [];
-    const catVocab = document.getElementById('cat-vocab').checked;
-    const catGrammar = document.getElementById('cat-grammar').checked;
-    const catSpeaking = document.getElementById('cat-speaking').checked;
-
-    // Strict Category Isolation: only ONE category at a time now due to radio buttons,
-    // but we enforce it here in the pool generation logic.
-    if (catVocab) enabledCategories = ['vocabulary'];
-    else if (catGrammar) enabledCategories = ['grammar'];
-    else if (catSpeaking) enabledCategories = ['conversation'];
-
-    // Override for Wheel Mode: strictly speaking (conversation)
-    if (isWheelMode) {
-        // Ensure we only have conversation items for the wheel
-        enabledCategories = ['conversation'];
-        enabledTypes = ['conversation'];
-
-        // Visual consistency: make sure Speaking radio is checked
-        const catSpeaking = document.getElementById('cat-speaking');
-        if (catSpeaking) catSpeaking.checked = true;
-    }
-
     if (enabledTypes.length === 0) {
         alert("Please select at least one task type!");
         return;
     }
 
-    if (enabledCategories.length === 0) {
-        alert("Please select at least one category!");
+    const selectedCat = document.querySelector('input[name="practice-cat"]:checked').id.replace('cat-', '');
+
+    let rawItems = [];
+
+    if (catParam === 'curriculum') {
+        const lessons = parseLessonRange(lessonParam);
+        lessons.forEach(l => {
+            if (lessonsData[lang] && lessonsData[lang][l]) {
+                lessonsData[lang][l].words.forEach(w => {
+                    rawItems.push({...w, lessonTitle: lessonsData[lang][l].title});
+                });
+            }
+        });
+    } else {
+        if (selectedCat === 'speaking' || isWheelMode) {
+            const sd = speakingData[lang] || {};
+            // For general practice, we use all categories from speakingData
+            Object.values(sd).forEach(list => {
+                if (Array.isArray(list)) {
+                    list.forEach(item => rawItems.push({...item, category: 'conversation'}));
+                }
+            });
+        } else {
+            rawItems = vocabularyData[lang] || [];
+        }
+
+        // Filter by Level & Theme
+        if (selectedLevel !== 'all') {
+            rawItems = rawItems.filter(item => item.level === selectedLevel);
+        }
+        if (selectedTheme !== 'all') {
+            rawItems = rawItems.filter(item => item.theme === selectedTheme);
+        }
+    }
+
+    if (rawItems.length === 0) {
+        alert("No items found for the selected filters!");
         return;
     }
 
-    lessons.forEach(l => {
-        if (langData[l]) {
-            const filteredWords = langData[l].words.filter(w => {
-                // Determine if this word belongs to the selected mode
-                let match = false;
-                if (catVocab) {
-                    match = (w.category === 'vocabulary');
-                } else if (catGrammar) {
-                    // Grammar includes grammar items AND vocabulary items with grammatical properties
-                    match = (w.category === 'grammar' || !!w.article || !!w.gender || !!w.numberPlural);
-                } else if (catSpeaking) {
-                    match = (w.category === 'conversation' || w.type === 'conversation');
-                }
+    // Process items into tasks
+    currentPractice.words = rawItems.map(item => {
+        let wordCopy = { ...item };
+        let possibleTypes = [...enabledTypes];
 
-                if (!match) return false;
-
-                // For "speaking only" in wheel mode, we strictly want conversation items
-                if (isWheelMode && (w.category !== 'conversation' && w.type !== 'conversation')) return false;
-
-                // Ensure at least one enabled task type is possible for this word
-                return enabledTypes.some(t => {
-                    if (t === 'opposite') return !!w.opposite;
-                    if (t === 'cloze') return !!w.clozeText;
-                    if (t === 'gender_articles') return !!(w.article || w.gender);
-                    if (t === 'number_plural') return !!w.numberPlural;
-                    if (t === 'conversation') return w.category === 'conversation' || w.type === 'conversation';
-                    if (t === 'word_scramble') return w.word.includes(' ');
-                    if (t === 'scramble') return !w.word.includes(' ');
-                    return true;
-                });
-            });
-
-            const lessonWords = filteredWords.map(w => {
-                let wordCopy = { ...w };
-                let possibleTypes = [...enabledTypes];
-
-                if (wordCopy.category === 'conversation' || wordCopy.type === 'conversation') {
-                    return {
-                        ...wordCopy,
-                        type: 'conversation',
-                        lessonTitle: langData[l].title
-                    };
-                }
-
-                // Remove conversation type for non-conversation words
-                possibleTypes = possibleTypes.filter(t => t !== 'conversation');
-
-                // Randomly swap word and opposite for bidirectional practice
-                if (wordCopy.opposite && Math.random() > 0.5) {
-                    const originalWord = wordCopy.word;
-                    const originalEmoji = wordCopy.emoji;
-                    wordCopy.word = wordCopy.opposite;
-                    wordCopy.opposite = originalWord;
-                    if (wordCopy.oppositeEmoji) {
-                        wordCopy.emoji = wordCopy.oppositeEmoji;
-                        wordCopy.oppositeEmoji = originalEmoji;
-                    }
-                }
-
-                // Filtering based on word properties
-                if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
-                if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
-                if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
-                if (!wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'number_plural');
-
-                // Scramble vs Word Scramble (sentence builder)
-                const isSentence = wordCopy.word.includes(' ');
-                if (isSentence) {
-                    possibleTypes = possibleTypes.filter(t => t !== 'scramble');
-                    // Exclude number_plural items from word_scramble to prioritize the specific task
-                    if (wordCopy.numberPlural) {
-                        possibleTypes = possibleTypes.filter(t => t !== 'word_scramble');
-                    }
-                } else {
-                    possibleTypes = possibleTypes.filter(t => t !== 'word_scramble');
-                }
-
-                if (possibleTypes.length === 0) return null;
-
-                let selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
-
-                return {
-                    ...wordCopy,
-                    type: selectedType,
-                    lessonTitle: langData[l].title
-                };
-            }).filter(w => w !== null);
-            currentPractice.words.push(...lessonWords);
+        if (wordCopy.category === 'conversation' || wordCopy.type === 'conversation') {
+            return { ...wordCopy, type: 'conversation' };
         }
-    });
+
+        possibleTypes = possibleTypes.filter(t => t !== 'conversation');
+        if (wordCopy.opposite && Math.random() > 0.5) {
+            const originalWord = wordCopy.word;
+            wordCopy.word = wordCopy.opposite;
+            wordCopy.opposite = originalWord;
+        }
+
+        if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
+        if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
+        if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
+        if (!wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'number_plural');
+
+        const isSentence = wordCopy.word && wordCopy.word.includes(' ');
+        if (isSentence) {
+            possibleTypes = possibleTypes.filter(t => t !== 'scramble');
+            if (wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'word_scramble');
+        } else {
+            possibleTypes = possibleTypes.filter(t => t !== 'word_scramble');
+        }
+
+        if (possibleTypes.length === 0) return null;
+        let selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
+        return { ...wordCopy, type: selectedType };
+    }).filter(w => w !== null);
 
     if (currentPractice.words.length === 0) {
-        alert("No words found for the selected lessons and filters!");
+        alert("Could not generate tasks for these items. Try enabling more task types!");
         return;
     }
 
@@ -1069,7 +965,7 @@ function showNextWord() {
         let text = isListen ? '???' : (wordObj.clozeText || wordObj.word);
 
         // Fix redundancy: hide target word for MC vocab if emoji is present
-        if (!isListen && wordObj.category === 'vocabulary' && wordObj.emoji) {
+        if (!isListen && (wordObj.category === 'vocabulary' || !wordObj.category) && wordObj.emoji) {
             text = "???";
         }
 
@@ -1112,13 +1008,8 @@ function showNextWord() {
         if (isTrueQuestion) {
             document.getElementById('emoji-display').textContent = wordObj.emoji;
         } else {
-            const allWordsInRange = [];
-            currentPractice.lessons.forEach(l => {
-                if (lessonsData[currentPractice.language][l]) {
-                    allWordsInRange.push(...lessonsData[currentPractice.language][l].words);
-                }
-            });
-            const distractors = allWordsInRange.filter(v => v.emoji !== wordObj.emoji);
+            const pool = vocabularyData[currentPractice.language] || [];
+            const distractors = pool.filter(v => v.emoji && v.emoji !== wordObj.emoji);
             const distractor = distractors[Math.floor(Math.random() * distractors.length)];
             document.getElementById('emoji-display').textContent = (distractor ? distractor.emoji : "❓");
         }
@@ -1154,14 +1045,9 @@ function renderMultipleChoice() {
     const correctAnswer = wordObj.answer || wordObj.word;
     const choices = [correctAnswer];
 
-    const allWords = [];
-    currentPractice.lessons.forEach(l => {
-        if (lessonsData[currentPractice.language][l]) {
-            allWords.push(...lessonsData[currentPractice.language][l].words);
-        }
-    });
+    const pool = vocabularyData[currentPractice.language] || [];
 
-    const distractorPool = allWords
+    const distractorPool = pool
         .map(w => w.answer || w.word)
         .filter(val => val && val.toLowerCase() !== correctAnswer.toLowerCase());
 

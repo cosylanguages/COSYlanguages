@@ -167,49 +167,30 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = document.getElementById('charades-lang').value;
             const theme = themeSelect.value;
             const level = document.getElementById('charades-level').value;
-            const lessons = parseLessons(document.getElementById('charades-lessons').value);
+            const lessonInput = document.getElementById('charades-lessons')?.value;
 
             pool = [];
-            // Lessons Data
-            if (lessonsData[lang]) {
+
+            if (lessonInput) {
+                const lessons = parseLessons(lessonInput);
                 lessons.forEach(num => {
-                    if (lessonsData[lang][num]) {
+                    if (lessonsData[lang] && lessonsData[lang][num]) {
                         lessonsData[lang][num].words.forEach(w => {
-                            if (w.category === 'vocabulary' && (theme === 'all' || w.theme === theme)) {
-                                pool.push(w);
-                            }
+                            if (theme === 'all' || w.theme === theme) pool.push(w);
                         });
                     }
                 });
-            }
-            // Extra Games Data - Merge arrays within objects
-            const combinedGamesData = {};
-            const d1 = gamesData[lang] || {};
-            const d2 = extendedCurriculumData[lang] || {};
-            const allKeys = new Set([...Object.keys(d1), ...Object.keys(d2)]);
-            allKeys.forEach(k => {
-                combinedGamesData[k] = [...(d1[k] || []), ...(d2[k] || [])];
-            });
-
-            if (theme !== 'all') {
-                if (combinedGamesData[theme]) {
-                    combinedGamesData[theme].forEach(w => pool.push(w));
-                }
             } else {
-                Object.values(combinedGamesData).forEach(list => {
-                    list.forEach(w => pool.push(w));
-                });
+                const vocab = vocabularyData[lang] || [];
+                pool = vocab.filter(item => (theme === 'all' || item.theme === theme));
             }
 
-            // Filter pool by level if not "all"
             if (level !== 'all') {
-                pool = pool.filter(item => {
-                    if (typeof item === 'string') return true; // Legacy strings don't have levels
-                    return item.level === level;
-                });
+                pool = pool.filter(item => item.level === level);
             }
 
             if (pool.length === 0) {
+                console.log("Charades pool empty. Lang:", lang, "Theme:", theme, "Level:", level, "LessonInput:", lessonInput);
                 alert("Alas! No items found for this adventure!");
                 return;
             }
@@ -320,26 +301,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const theme = themeSelect.value;
             const level = modal.querySelector('.game-level').value;
 
-            pool = [];
-            // Merge arrays within objects for gamesData and extendedCurriculumData
-            const combinedGamesData = {};
-            const d1 = gamesData[lang] || {};
-            const d2 = extendedCurriculumData[lang] || {};
-            const allKeys = new Set([...Object.keys(d1), ...Object.keys(d2)]);
-            allKeys.forEach(k => {
-                combinedGamesData[k] = [...(d1[k] || []), ...(d2[k] || [])];
-            });
+            const vocab = vocabularyData[lang] || [];
+            pool = vocab.filter(item => item.theme === theme);
 
-            if (combinedGamesData[theme]) {
-                pool = [...combinedGamesData[theme]];
-            }
-
-            // Filter pool by level if not "all"
             if (level !== 'all') {
-                pool = pool.filter(item => {
-                    if (typeof item === 'string') return true;
-                    return item.level === level;
-                });
+                pool = pool.filter(item => item.level === level);
             }
 
             if (pool.length === 0) {
@@ -608,10 +574,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = document.getElementById('debates-lang').value;
             const level = document.getElementById('debates-level').value;
 
-            pool = [
-                ...(speakingGamesData[lang]?.debates || []),
-                ...(extraSpeakData[lang]?.debates || [])
-            ];
+            pool = speakingData[lang]?.debates || [];
 
             if (level !== 'all') {
                 pool = pool.filter(d => d.level === level);
@@ -690,10 +653,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = document.getElementById('opinion-lang').value;
             const level = document.getElementById('opinion-level').value;
 
-            pool = [
-                ...(speakingGamesData[lang]?.opinionArena || []),
-                ...(extraSpeakData[lang]?.opinionArena || [])
-            ];
+            pool = speakingData[lang]?.opinionArena || [];
 
             if (level !== 'all') {
                 pool = pool.filter(d => d.level === level);
@@ -774,10 +734,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = document.getElementById('critics-lang').value;
             const level = document.getElementById('critics-level').value;
 
-            pool = [
-                ...(speakingGamesData[lang]?.criticsCorner || []),
-                ...(extraSpeakData[lang]?.criticsCorner || [])
-            ];
+            pool = speakingData[lang]?.criticsCorner || [];
 
             if (level !== 'all') {
                 pool = pool.filter(d => d.level === level);
@@ -856,10 +813,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = document.getElementById('talk-lang').value;
             const level = document.getElementById('talk-level').value;
 
-            pool = [
-                ...(speakingGamesData[lang]?.talkThatTalk || []),
-                ...(extraSpeakData[lang]?.talkThatTalk || [])
-            ];
+            pool = speakingData[lang]?.talkThatTalk || [];
 
             if (level !== 'all') {
                 pool = pool.filter(d => d.level === level);
