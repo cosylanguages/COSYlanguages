@@ -1,0 +1,4807 @@
+const lessonsData = {
+    "en": {
+        "1": {
+            "title": "Day 1 | Basic vocabulary",
+            "words": [
+                {
+                    "word": "Hello",
+                    "emoji": "👋",
+                    "opposite": "Goodbye",
+                    "oppositeEmoji": "🖐️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Yes",
+                    "emoji": "✅",
+                    "opposite": "No",
+                    "oppositeEmoji": "❌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Thank you",
+                    "emoji": "🙏",
+                    "opposite": "You're welcome",
+                    "oppositeEmoji": "💁‍♂️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Please",
+                    "emoji": "🥺",
+                    "clozeText": "A coffee, ______.",
+                    "answer": "please",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Alright",
+                    "emoji": "👍",
+                    "opposite": "Ok",
+                    "oppositeEmoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Sorry",
+                    "emoji": "🙇‍♂️",
+                    "opposite": ":(",
+                    "oppositeEmoji": "☹️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "or",
+                    "emoji": "🔀",
+                    "clozeText": "Coffee ______ tea?",
+                    "answer": "or",
+                    "category": "grammar"
+                },
+                {
+                    "word": "coffee",
+                    "emoji": "☕",
+                    "category": "vocabulary",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "tea",
+                    "emoji": "🍵",
+                    "category": "vocabulary",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "juice",
+                    "emoji": "🧃",
+                    "category": "vocabulary",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "wine",
+                    "emoji": "🍷",
+                    "category": "vocabulary",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "beer",
+                    "emoji": "🍺",
+                    "category": "vocabulary",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "water",
+                    "emoji": "🚰",
+                    "category": "vocabulary",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "cash",
+                    "emoji": "💵",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "card",
+                    "emoji": "💳",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "not",
+                    "emoji": "❌",
+                    "clozeText": "No, it is ______ coffee.",
+                    "answer": "not",
+                    "category": "grammar"
+                },
+                {
+                    "word": "What",
+                    "emoji": "❓",
+                    "clozeText": "______'s it?",
+                    "answer": "What",
+                    "category": "grammar"
+                },
+                {
+                    "word": "but",
+                    "emoji": "⚖️",
+                    "clozeText": "No, it is not coffee, ______ it is tea.",
+                    "answer": "but",
+                    "category": "grammar"
+                },
+                {
+                    "word": "It is coffee.",
+                    "emoji": "☕",
+                    "clozeText": "It ______ coffee.",
+                    "answer": "is",
+                    "category": "grammar"
+                },
+                {
+                    "word": "It is not tea.",
+                    "emoji": "🍵",
+                    "clozeText": "It ______ not tea.",
+                    "answer": "is",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Is it water?",
+                    "emoji": "🚰",
+                    "clozeText": "______ it water?",
+                    "answer": "Is",
+                    "category": "grammar"
+                },
+                {
+                    "word": "What is it?",
+                    "emoji": "❓",
+                    "clozeText": "What ______ it?",
+                    "answer": "is",
+                    "category": "grammar"
+                },
+                {
+                    "word": "It is a card.",
+                    "emoji": "💳",
+                    "clozeText": "______ is a card.",
+                    "answer": "It",
+                    "category": "grammar"
+                },
+                {
+                    "word": "It is not cash.",
+                    "emoji": "💵",
+                    "clozeText": "It is ______ cash.",
+                    "answer": "not",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Is it wine?",
+                    "emoji": "🍷",
+                    "clozeText": "______ it wine?",
+                    "answer": "Is",
+                    "category": "grammar"
+                },
+                {
+                    "word": "It is juice.",
+                    "emoji": "🧃",
+                    "clozeText": "It ______ juice.",
+                    "answer": "is",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Is it coffee or tea?",
+                    "emoji": "🔀",
+                    "clozeText": "Is it coffee ______ tea?",
+                    "answer": "or",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "2": {
+            "title": "Day 2 | A thing or a person?",
+            "words": [
+                {
+                    "word": "thing",
+                    "emoji": "📦",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "person",
+                    "emoji": "👤",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "man",
+                    "emoji": "👨",
+                    "opposite": "woman",
+                    "oppositeEmoji": "👩",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "woman",
+                    "emoji": "👩",
+                    "opposite": "man",
+                    "oppositeEmoji": "👨",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "boy",
+                    "emoji": "👦",
+                    "opposite": "girl",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "girl",
+                    "emoji": "👧",
+                    "opposite": "boy",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "teacher",
+                    "emoji": "🧑‍🏫",
+                    "opposite": "student",
+                    "oppositeEmoji": "🧑‍🎓",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "student",
+                    "emoji": "🧑‍🎓",
+                    "opposite": "teacher",
+                    "oppositeEmoji": "🧑‍🏫",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "Nice to meet you",
+                    "emoji": "🤝",
+                    "clozeText": "I am James, ____",
+                    "answer": "Nice to meet you",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "no problem",
+                    "emoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "too",
+                    "emoji": "➕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "who",
+                    "emoji": "❓👤",
+                    "clozeText": "____ is it? - It's a person.",
+                    "answer": "who",
+                    "category": "grammar"
+                },
+                {
+                    "word": "and",
+                    "emoji": "➕",
+                    "clozeText": "A man ___ a woman.",
+                    "answer": "and",
+                    "category": "grammar"
+                },
+                {
+                    "word": "child",
+                    "emoji": "👶",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "I am a teacher.",
+                    "emoji": "🧑‍🏫",
+                    "clozeText": "I ______ a teacher.",
+                    "answer": "am",
+                    "category": "grammar"
+                },
+                {
+                    "word": "You are a student.",
+                    "emoji": "🧑‍🎓",
+                    "clozeText": "You ______ a student.",
+                    "answer": "are",
+                    "category": "grammar"
+                },
+                {
+                    "word": "He is a man.",
+                    "emoji": "👨",
+                    "clozeText": "He ______ a man.",
+                    "answer": "is",
+                    "category": "grammar"
+                },
+                {
+                    "word": "She is a woman.",
+                    "emoji": "👩",
+                    "clozeText": "She ______ a woman.",
+                    "answer": "is",
+                    "category": "grammar"
+                },
+                {
+                    "word": "I am a boy.",
+                    "emoji": "👦",
+                    "clozeText": "______ am a boy.",
+                    "answer": "I",
+                    "category": "grammar"
+                },
+                {
+                    "word": "You are a girl.",
+                    "emoji": "👧",
+                    "clozeText": "______ are a girl.",
+                    "answer": "You",
+                    "category": "grammar"
+                },
+                {
+                    "word": "He is a child.",
+                    "emoji": "👶",
+                    "clozeText": "______ is a child.",
+                    "answer": "He",
+                    "category": "grammar"
+                },
+                {
+                    "word": "She is a person.",
+                    "emoji": "👤",
+                    "clozeText": "______ is a person.",
+                    "answer": "She",
+                    "category": "grammar"
+                },
+                {
+                    "word": "I am not a thing.",
+                    "emoji": "📦",
+                    "clozeText": "I ______ not a thing.",
+                    "answer": "am",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Who is he?",
+                    "emoji": "❓👤",
+                    "clozeText": "Who ______ he?",
+                    "answer": "is",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Who is she?",
+                    "emoji": "❓👩",
+                    "clozeText": "Who ______ she?",
+                    "answer": "is",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "3": {
+            "title": "Day 3 | Family & Pets",
+            "words": [
+                {
+                    "word": "mother",
+                    "emoji": "👩‍👦",
+                    "opposite": "father",
+                    "oppositeEmoji": "👨‍👦",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "father",
+                    "emoji": "👨‍👦",
+                    "opposite": "mother",
+                    "oppositeEmoji": "👩‍👦",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "sister",
+                    "emoji": "👩‍👧‍👧",
+                    "opposite": "brother",
+                    "oppositeEmoji": "👨‍👦‍👦",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "brother",
+                    "emoji": "👨‍👦‍👦",
+                    "opposite": "sister",
+                    "oppositeEmoji": "👩‍👧‍👧",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "daughter",
+                    "emoji": "👧",
+                    "opposite": "son",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "son",
+                    "emoji": "👦",
+                    "opposite": "daughter",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "wife",
+                    "emoji": "👰",
+                    "opposite": "husband",
+                    "oppositeEmoji": "🤵",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "husband",
+                    "emoji": "🤵",
+                    "opposite": "wife",
+                    "oppositeEmoji": "👰",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "friend",
+                    "emoji": "👫",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "family",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "parent",
+                    "emoji": "👪",
+                    "category": "vocabulary",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "cat",
+                    "emoji": "🐈",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "dog",
+                    "emoji": "🐕",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "fish",
+                    "emoji": "🐟",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "parrot",
+                    "emoji": "🦜",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "only",
+                    "emoji": "☝️",
+                    "clozeText": "an ______ child.",
+                    "answer": "only",
+                    "category": "grammar"
+                },
+                {
+                    "word": "I have a family.",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "I ______ a family.",
+                    "answer": "have",
+                    "category": "grammar"
+                },
+                {
+                    "word": "You have a mother.",
+                    "emoji": "👩‍👦",
+                    "clozeText": "You ______ a mother.",
+                    "answer": "have",
+                    "category": "grammar"
+                },
+                {
+                    "word": "He has a cat.",
+                    "emoji": "🐈",
+                    "clozeText": "He ______ a cat.",
+                    "answer": "has",
+                    "category": "grammar"
+                },
+                {
+                    "word": "She has a dog.",
+                    "emoji": "🐕",
+                    "clozeText": "She ______ a dog.",
+                    "answer": "has",
+                    "category": "grammar"
+                },
+                {
+                    "word": "It has a name.",
+                    "emoji": "📛",
+                    "clozeText": "It ______ a name.",
+                    "answer": "has",
+                    "category": "grammar"
+                },
+                {
+                    "word": "I don't have a brother.",
+                    "emoji": "👨‍👦‍👦",
+                    "clozeText": "I ______ have a brother.",
+                    "answer": "don't",
+                    "category": "grammar"
+                },
+                {
+                    "word": "You don't have a sister.",
+                    "emoji": "👩‍👧‍👧",
+                    "clozeText": "You ______ have a sister.",
+                    "answer": "don't",
+                    "category": "grammar"
+                },
+                {
+                    "word": "He doesn't have a son.",
+                    "emoji": "👦",
+                    "clozeText": "He ______ have a son.",
+                    "answer": "doesn't",
+                    "category": "grammar"
+                },
+                {
+                    "word": "She doesn't have a daughter.",
+                    "emoji": "👧",
+                    "clozeText": "She ______ have a daughter.",
+                    "answer": "doesn't",
+                    "category": "grammar"
+                },
+                {
+                    "word": "It doesn't have a family.",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "It ______ have a family.",
+                    "answer": "doesn't",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Do I have a friend?",
+                    "emoji": "👫",
+                    "clozeText": "______ I have a friend?",
+                    "answer": "Do",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Do you have a family?",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "______ you have a family?",
+                    "answer": "Do",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Does he have a parrot?",
+                    "emoji": "🦜",
+                    "clozeText": "______ he have a parrot?",
+                    "answer": "Does",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Does she have a fish?",
+                    "emoji": "🐟",
+                    "clozeText": "______ she have a fish?",
+                    "answer": "Does",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Does it have a problem?",
+                    "emoji": "❓",
+                    "clozeText": "______ it have a problem?",
+                    "answer": "Does",
+                    "category": "grammar"
+                },
+                {
+                    "word": "I have a son and a daughter.",
+                    "emoji": "👦👧",
+                    "clozeText": "I have a son ______ a daughter.",
+                    "answer": "and",
+                    "category": "grammar"
+                },
+                {
+                    "word": "He has a dog too.",
+                    "emoji": "🐕➕",
+                    "clozeText": "He ______ a dog too.",
+                    "answer": "has",
+                    "category": "grammar"
+                },
+                {
+                    "word": "The teacher has a coffee.",
+                    "emoji": "🧑‍🏫☕",
+                    "clozeText": "The teacher ______ a coffee.",
+                    "answer": "has",
+                    "category": "grammar"
+                },
+                {
+                    "word": "The student has a card.",
+                    "emoji": "🧑‍🎓💳",
+                    "clozeText": "The student ______ a card.",
+                    "answer": "has",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Do you have a family?",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a mother? What is her name?",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a father? What is his name?",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a brother? What is his name?",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a sister? What is her name?",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a son? What is his name?",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a daughter? What is her name?",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a cat? What is its name?",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a dog? What is its name?",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a fish? What is its name?",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Do you have a parrot? What is its name?",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Does your friend have a family?",
+                    "emoji": "👫👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Does your friend have a mother? What is her name?",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is her name? = Who is she? = What's her name?"
+                },
+                {
+                    "word": "Does your friend have a father? What is his name?",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is his name? = Who is he? = What's his name?"
+                },
+                {
+                    "word": "Does your friend have a brother? What is his name?",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is his name? = Who is he? = What's his name?"
+                },
+                {
+                    "word": "Does your friend have a sister? What is her name?",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is her name? = Who is she? = What's her name?"
+                },
+                {
+                    "word": "Does your friend have a son? What is his name?",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is his name? = Who is he? = What's his name?"
+                },
+                {
+                    "word": "Does your friend have a daughter? What is her name?",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is her name? = Who is she? = What's her name?"
+                },
+                {
+                    "word": "Does your friend have a cat? What is its name?",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is its name? = Who is it? = What's its name?"
+                },
+                {
+                    "word": "Does your friend have a dog? What is its name?",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is its name? = Who is it? = What's its name?"
+                },
+                {
+                    "word": "Does your friend have a fish? What is its name?",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is its name? = Who is it? = What's its name?"
+                },
+                {
+                    "word": "Does your friend have a parrot? What is its name?",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "What is its name? = Who is it? = What's its name?"
+                }
+            ]
+        },
+        "4": {
+            "title": "Day 4 | Numbers & Plurals",
+            "words": [
+                {
+                    "word": "one son",
+                    "numberPlural": "1 son",
+                    "answer": "one son",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "two boys",
+                    "numberPlural": "2 boy",
+                    "answer": "two boys",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "three husbands",
+                    "numberPlural": "3 husband",
+                    "answer": "three husbands",
+                    "emoji": "🤵",
+                    "category": "grammar"
+                },
+                {
+                    "word": "four friends",
+                    "numberPlural": "4 friend",
+                    "answer": "four friends",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "five parrots",
+                    "numberPlural": "5 parrot",
+                    "answer": "five parrots",
+                    "emoji": "🦜",
+                    "category": "grammar"
+                },
+                {
+                    "word": "six families",
+                    "numberPlural": "6 family",
+                    "answer": "six families",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "seven people",
+                    "numberPlural": "7 person",
+                    "answer": "seven people",
+                    "emoji": "👤",
+                    "category": "grammar"
+                },
+                {
+                    "word": "eight things",
+                    "numberPlural": "8 thing",
+                    "answer": "eight things",
+                    "emoji": "📦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "nine women",
+                    "numberPlural": "9 woman",
+                    "answer": "nine women",
+                    "emoji": "👩",
+                    "category": "grammar"
+                },
+                {
+                    "word": "one sister",
+                    "numberPlural": "1 sister",
+                    "answer": "one sister",
+                    "emoji": "👩‍👧‍👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "two teachers",
+                    "numberPlural": "2 teacher",
+                    "answer": "two teachers",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "three students",
+                    "numberPlural": "3 student",
+                    "answer": "three students",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "four girls",
+                    "numberPlural": "4 girl",
+                    "answer": "four girls",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "five daughters",
+                    "numberPlural": "5 daughter",
+                    "answer": "five daughters",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "six dogs",
+                    "numberPlural": "6 dog",
+                    "answer": "six dogs",
+                    "emoji": "🐕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "seven fathers",
+                    "numberPlural": "7 father",
+                    "answer": "seven fathers",
+                    "emoji": "👨‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "eight mothers",
+                    "numberPlural": "8 mother",
+                    "answer": "eight mothers",
+                    "emoji": "👩‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "nine teachers",
+                    "numberPlural": "9 teacher",
+                    "answer": "nine teachers",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "one student",
+                    "numberPlural": "1 student",
+                    "answer": "one student",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "two wives",
+                    "numberPlural": "2 wife",
+                    "answer": "two wives",
+                    "emoji": "👰",
+                    "category": "grammar"
+                },
+                {
+                    "word": "three fish",
+                    "numberPlural": "3 fish",
+                    "answer": "three fish",
+                    "emoji": "🐟",
+                    "category": "grammar"
+                },
+                {
+                    "word": "four men",
+                    "numberPlural": "4 man",
+                    "answer": "four men",
+                    "emoji": "👨",
+                    "category": "grammar"
+                },
+                {
+                    "word": "five friends",
+                    "numberPlural": "5 friend",
+                    "answer": "five friends",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "six problems",
+                    "numberPlural": "6 problem",
+                    "answer": "six problems",
+                    "emoji": "❓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "seven children",
+                    "numberPlural": "7 child",
+                    "answer": "seven children",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "eight children",
+                    "numberPlural": "8 child",
+                    "answer": "eight children",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "nine parents",
+                    "numberPlural": "9 parent",
+                    "answer": "nine parents",
+                    "emoji": "👪",
+                    "category": "grammar"
+                }
+            ]
+        }
+    },
+    "fr": {
+        "1": {
+            "title": "Jour 1 | Vocabulaire de base",
+            "words": [
+                {
+                    "word": "Bonjour",
+                    "emoji": "👋",
+                    "opposite": "Au revoir",
+                    "oppositeEmoji": "🖐️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Oui",
+                    "emoji": "✅",
+                    "opposite": "Non",
+                    "oppositeEmoji": "❌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Merci",
+                    "emoji": "🙏",
+                    "opposite": "De rien",
+                    "oppositeEmoji": "💁‍♂️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "S'il vous plaît",
+                    "emoji": "🥺",
+                    "clozeText": "Un café, ______ ______ ______.",
+                    "answer": "s'il vous plaît",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "D'accord",
+                    "emoji": "👍",
+                    "opposite": "Ok",
+                    "oppositeEmoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Désolé",
+                    "emoji": "🙇‍♂️",
+                    "opposite": ":(",
+                    "oppositeEmoji": "☹️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "ou",
+                    "emoji": "🔀",
+                    "clozeText": "Café ______ thé ?",
+                    "answer": "ou",
+                    "category": "grammar"
+                },
+                {
+                    "word": "le café",
+                    "emoji": "☕",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "café",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "le thé",
+                    "emoji": "🍵",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "thé",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "le jus",
+                    "emoji": "🧃",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "jus",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "le vin",
+                    "emoji": "🍷",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "vin",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "la bière",
+                    "emoji": "🍺",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "bière",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "l'eau",
+                    "emoji": "🚰",
+                    "category": "vocabulary",
+                    "article": "l'",
+                    "baseWord": "eau",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "les espèces",
+                    "emoji": "💵",
+                    "category": "vocabulary",
+                    "article": "les",
+                    "baseWord": "espèces"
+                },
+                {
+                    "word": "la carte",
+                    "emoji": "💳",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "carte"
+                },
+                {
+                    "word": "pas",
+                    "emoji": "❌",
+                    "clozeText": "Non, ce n'est ______ du café.",
+                    "answer": "pas",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Quoi",
+                    "emoji": "❓",
+                    "clozeText": "C'est ______ ?",
+                    "answer": "quoi",
+                    "category": "grammar"
+                },
+                {
+                    "word": "mais",
+                    "emoji": "⚖️",
+                    "clozeText": "Non, ce n'est pas du café, ______ c'est du thé.",
+                    "answer": "mais",
+                    "category": "grammar"
+                },
+                {
+                    "word": "C'est du café.",
+                    "emoji": "☕",
+                    "clozeText": "C'______ du café.",
+                    "answer": "est",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Ce n'est pas du thé.",
+                    "emoji": "🍵",
+                    "clozeText": "Ce ______'est pas du thé.",
+                    "answer": "n",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Est-ce de l'eau ?",
+                    "emoji": "🚰",
+                    "clozeText": "______-ce de l'eau ?",
+                    "answer": "Est",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Qu'est-ce que c'est ?",
+                    "emoji": "❓",
+                    "clozeText": "Qu'______-ce que c'est ?",
+                    "answer": "est",
+                    "category": "grammar"
+                },
+                {
+                    "word": "C'est du vin.",
+                    "emoji": "🍷",
+                    "clozeText": "C'est ______ vin.",
+                    "answer": "du",
+                    "category": "grammar"
+                },
+                {
+                    "word": "C'est du jus.",
+                    "emoji": "🧃",
+                    "clozeText": "______ est du jus.",
+                    "answer": "C'",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "2": {
+            "title": "Jour 2 | Une chose ou une personne ?",
+            "words": [
+                {
+                    "word": "la chose",
+                    "emoji": "📦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "chose"
+                },
+                {
+                    "word": "la personne",
+                    "emoji": "👤",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "personne",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "l'homme",
+                    "emoji": "👨",
+                    "opposite": "la femme",
+                    "oppositeEmoji": "👩",
+                    "category": "vocabulary",
+                    "article": "l'",
+                    "baseWord": "homme",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la femme",
+                    "emoji": "👩",
+                    "opposite": "l'homme",
+                    "oppositeEmoji": "👨",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "femme",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "le garçon",
+                    "emoji": "👦",
+                    "opposite": "la fille",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "garçon",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la fille",
+                    "emoji": "👧",
+                    "opposite": "le garçon",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "fille",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "le professeur / la professeure",
+                    "emoji": "🧑‍🏫",
+                    "category": "vocabulary",
+                    "article": "le / la",
+                    "baseWord": "professeur / professeure",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "l'étudiant / l'étudiante",
+                    "emoji": "🧑‍🎓",
+                    "category": "vocabulary",
+                    "article": "l'",
+                    "baseWord": "étudiant / étudiante",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "Enchanté",
+                    "emoji": "🤝",
+                    "clozeText": "Je suis James, ____",
+                    "answer": "Enchanté",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "pas de problème",
+                    "emoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "aussi",
+                    "emoji": "➕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "qui",
+                    "emoji": "❓👤",
+                    "clozeText": "____ est-ce ? - C'est une personne.",
+                    "answer": "qui",
+                    "category": "grammar"
+                },
+                {
+                    "word": "et",
+                    "emoji": "➕",
+                    "clozeText": "Un homme ___ une femme.",
+                    "answer": "et",
+                    "category": "grammar"
+                },
+                {
+                    "word": "l'enfant",
+                    "emoji": "👶",
+                    "category": "vocabulary",
+                    "article": "l'",
+                    "baseWord": "enfant",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "Je suis professeur.",
+                    "emoji": "🧑‍🏫",
+                    "clozeText": "Je ______ professeur.",
+                    "answer": "suis",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Tu es étudiant.",
+                    "emoji": "🧑‍🎓",
+                    "clozeText": "Tu ______ étudiant.",
+                    "answer": "es",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Il est un homme.",
+                    "emoji": "👨",
+                    "clozeText": "Il ______ un homme.",
+                    "answer": "est",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Elle est une femme.",
+                    "emoji": "👩",
+                    "clozeText": "Elle ______ une femme.",
+                    "answer": "est",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Je suis une personne.",
+                    "emoji": "👤",
+                    "clozeText": "______ suis une personne.",
+                    "answer": "Je",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Tu es un homme.",
+                    "emoji": "👨",
+                    "clozeText": "______ es un homme.",
+                    "answer": "Tu",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Il est étudiant.",
+                    "emoji": "🧑‍🎓",
+                    "clozeText": "Il ______ étudiant.",
+                    "answer": "est",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Elle est professeur.",
+                    "emoji": "🧑‍🏫",
+                    "clozeText": "Elle ______ professeur.",
+                    "answer": "est",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Est-ce une chose ?",
+                    "emoji": "📦",
+                    "clozeText": "______-ce une chose ?",
+                    "answer": "Est",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "3": {
+            "title": "Jour 3 | Famille et Animaux",
+            "words": [
+                {
+                    "word": "la mère",
+                    "emoji": "👩‍👦",
+                    "opposite": "le père",
+                    "oppositeEmoji": "👨‍👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "mère",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "le père",
+                    "emoji": "👨‍👦",
+                    "opposite": "la mère",
+                    "oppositeEmoji": "👩‍👦",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "père",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la sœur",
+                    "emoji": "👩‍👧‍👧",
+                    "opposite": "le frère",
+                    "oppositeEmoji": "👨‍👦‍👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "sœur",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "le frère",
+                    "emoji": "👨‍👦‍👦",
+                    "opposite": "la sœur",
+                    "oppositeEmoji": "👩‍👧‍👧",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "frère",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la fille",
+                    "emoji": "👧",
+                    "opposite": "le fils",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "fille",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "le fils",
+                    "emoji": "👦",
+                    "opposite": "la fille",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "fils",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la femme",
+                    "emoji": "👰",
+                    "opposite": "le mari",
+                    "oppositeEmoji": "🤵",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "femme",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "le mari",
+                    "emoji": "🤵",
+                    "opposite": "la femme",
+                    "oppositeEmoji": "👰",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "mari",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "l'ami / l'amie",
+                    "emoji": "👫",
+                    "category": "vocabulary",
+                    "article": "l'",
+                    "baseWord": "ami / amie",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la famille",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "famille",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "le parent",
+                    "emoji": "👪",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "parent",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "le chat",
+                    "emoji": "🐈",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "chat"
+                },
+                {
+                    "word": "le chien",
+                    "emoji": "🐕",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "chien"
+                },
+                {
+                    "word": "le poisson",
+                    "emoji": "🐟",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "poisson"
+                },
+                {
+                    "word": "le perroquet",
+                    "emoji": "🦜",
+                    "category": "vocabulary",
+                    "article": "le",
+                    "baseWord": "perroquet"
+                },
+                {
+                    "word": "unique",
+                    "emoji": "☝️",
+                    "clozeText": "enfant ______.",
+                    "answer": "unique",
+                    "category": "grammar"
+                },
+                {
+                    "word": "J'ai une famille.",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "J'______ une famille.",
+                    "answer": "ai",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Tu as une mère.",
+                    "emoji": "👩‍👦",
+                    "clozeText": "Tu ______ une mère.",
+                    "answer": "as",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Il a un chat.",
+                    "emoji": "🐈",
+                    "clozeText": "Il ______ un chat.",
+                    "answer": "a",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Elle a un chien.",
+                    "emoji": "🐕",
+                    "clozeText": "Elle ______ un chien.",
+                    "answer": "a",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Je n'ai pas de frère.",
+                    "emoji": "👨‍👦‍👦",
+                    "clozeText": "Je ______'ai pas de frère.",
+                    "answer": "n",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Tu n'as pas de sœur.",
+                    "emoji": "👩‍👧‍👧",
+                    "clozeText": "Tu ______'as pas de sœur.",
+                    "answer": "n",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Il n'a pas de fils.",
+                    "emoji": "👦",
+                    "clozeText": "Il ______'a pas de fils.",
+                    "answer": "n",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Elle n'a pas de fille.",
+                    "emoji": "👧",
+                    "clozeText": "Elle ______'a pas de fille.",
+                    "answer": "n",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Il n'a pas de nom.",
+                    "emoji": "📛",
+                    "clozeText": "Il ______'a pas de nom.",
+                    "answer": "n",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Est-ce que j'ai un ami ?",
+                    "emoji": "👫",
+                    "clozeText": "______-ce que j'ai un ami ?",
+                    "answer": "Est",
+                    "category": "grammar"
+                },
+                {
+                    "word": "As-tu une famille ?",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "______-tu une famille ?",
+                    "answer": "As",
+                    "category": "grammar"
+                },
+                {
+                    "word": "A-t-il un perroquet ?",
+                    "emoji": "🦜",
+                    "clozeText": "______-t-il un perroquet ?",
+                    "answer": "A",
+                    "category": "grammar"
+                },
+                {
+                    "word": "A-t-elle un poisson ?",
+                    "emoji": "🐟",
+                    "clozeText": "______-t-elle un poisson ?",
+                    "answer": "A",
+                    "category": "grammar"
+                },
+                {
+                    "word": "A-t-il un problème ?",
+                    "emoji": "❓",
+                    "clozeText": "______-t-il un problème ?",
+                    "answer": "A",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Le professeur a un café.",
+                    "emoji": "🧑‍🏫☕",
+                    "clozeText": "Le professeur ______ un café.",
+                    "answer": "a",
+                    "category": "grammar"
+                },
+                {
+                    "word": "L'étudiant a une carte.",
+                    "emoji": "🧑‍🎓💳",
+                    "clozeText": "L'étudiant ______ une carte.",
+                    "answer": "a",
+                    "category": "grammar"
+                },
+                {
+                    "word": "As-tu une famille ?",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu une mère ? Comment s'appelle-t-elle ?",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu un père ? Comment s'appelle-t-il ?",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu un frère ? Comment s'appelle-t-il ?",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu une sœur ? Comment s'appelle-t-elle ?",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu un fils ? Comment s'appelle-t-il ?",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu une fille ? Comment s'appelle-t-elle ?",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu un chat ? Comment s'appelle-t-il ?",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu un chien ? Comment s'appelle-t-il ?",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu un poisson ? Comment s'appelle-t-il ?",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "As-tu un perroquet ? Comment s'appelle-t-il ?",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle une famille ?",
+                    "emoji": "👫👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle une mère ? Comment s'appelle-t-elle ?",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-elle ? = Qui est-ce ? = Quel est son nom ?"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle un père ? Comment s'appelle-t-il ?",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle un frère ? Comment s'appelle-t-il ?",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle une sœur ? Comment s'appelle-t-elle ?",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-elle ? = Qui est-ce ? = Quel est son nom ?"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle un fils ? Comment s'appelle-t-il ?",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle une fille ? Comment s'appelle-t-elle ?",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-elle ? = Qui est-ce ? = Quel est son nom ?"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle un chat ? Comment s'appelle-t-il ?",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle un chien ? Comment s'appelle-t-il ?",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle un poisson ? Comment s'appelle-t-il ?",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?"
+                },
+                {
+                    "word": "Ton ami(e) a-t-il/elle un perroquet ? Comment s'appelle-t-il ?",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Comment s'appelle-t-il ? = Qui est-ce ? = Quel est son nom ?"
+                }
+            ]
+        },
+        "4": {
+            "title": "Jour 4 | Nombres & Pluriels",
+            "words": [
+                {
+                    "word": "un fils",
+                    "numberPlural": "1 fils",
+                    "answer": "un fils",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "deux garçons",
+                    "numberPlural": "2 garçon",
+                    "answer": "deux garçons",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "trois maris",
+                    "numberPlural": "3 mari",
+                    "answer": "trois maris",
+                    "emoji": "🤵",
+                    "category": "grammar"
+                },
+                {
+                    "word": "quatre amis",
+                    "numberPlural": "4 ami",
+                    "answer": "quatre amis",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "cinq perroquets",
+                    "numberPlural": "5 perroquet",
+                    "answer": "cinq perroquets",
+                    "emoji": "🦜",
+                    "category": "grammar"
+                },
+                {
+                    "word": "six familles",
+                    "numberPlural": "6 famille",
+                    "answer": "six familles",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "sept personnes",
+                    "numberPlural": "7 personne",
+                    "answer": "sept personnes",
+                    "emoji": "👤",
+                    "category": "grammar"
+                },
+                {
+                    "word": "huit choses",
+                    "numberPlural": "8 chose",
+                    "answer": "huit choses",
+                    "emoji": "📦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "neuf femmes",
+                    "numberPlural": "9 femme",
+                    "answer": "neuf femmes",
+                    "emoji": "👩",
+                    "category": "grammar"
+                },
+                {
+                    "word": "une sœur",
+                    "numberPlural": "1 sœur",
+                    "answer": "une sœur",
+                    "emoji": "👩‍👧‍👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "deux professeures",
+                    "numberPlural": "2 professeure",
+                    "answer": "deux professeures",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "trois étudiantes",
+                    "numberPlural": "3 étudiante",
+                    "answer": "trois étudiantes",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "quatre filles",
+                    "numberPlural": "4 fille",
+                    "answer": "quatre filles",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "cinq filles",
+                    "numberPlural": "5 fille",
+                    "answer": "cinq filles",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "six chiens",
+                    "numberPlural": "6 chien",
+                    "answer": "six chiens",
+                    "emoji": "🐕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "sept pères",
+                    "numberPlural": "7 père",
+                    "answer": "sept pères",
+                    "emoji": "👨‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "huit mères",
+                    "numberPlural": "8 mère",
+                    "answer": "huit mères",
+                    "emoji": "👩‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "neuf professeurs",
+                    "numberPlural": "9 professeur",
+                    "answer": "neuf professeurs",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "un étudiant",
+                    "numberPlural": "1 étudiant",
+                    "answer": "un étudiant",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "deux femmes",
+                    "numberPlural": "2 femme",
+                    "answer": "deux femmes",
+                    "emoji": "👰",
+                    "category": "grammar"
+                },
+                {
+                    "word": "trois poissons",
+                    "numberPlural": "3 poisson",
+                    "answer": "trois poissons",
+                    "emoji": "🐟",
+                    "category": "grammar"
+                },
+                {
+                    "word": "quatre hommes",
+                    "numberPlural": "4 homme",
+                    "answer": "quatre hommes",
+                    "emoji": "👨",
+                    "category": "grammar"
+                },
+                {
+                    "word": "cinq amies",
+                    "numberPlural": "5 amie",
+                    "answer": "cinq amies",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "six problèmes",
+                    "numberPlural": "6 problème",
+                    "answer": "six problèmes",
+                    "emoji": "❓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "sept enfants",
+                    "numberPlural": "7 enfant",
+                    "answer": "sept enfants",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "huit enfants",
+                    "numberPlural": "8 enfant",
+                    "answer": "huit enfants",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "neuf parents",
+                    "numberPlural": "9 parent",
+                    "answer": "neuf parents",
+                    "emoji": "👪",
+                    "category": "grammar"
+                }
+            ]
+        }
+    },
+    "it": {
+        "1": {
+            "title": "Giorno 1 | Vocabolario di base",
+            "words": [
+                {
+                    "word": "Buongiorno",
+                    "emoji": "👋",
+                    "opposite": "Arrivederci",
+                    "oppositeEmoji": "🖐️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Sì",
+                    "emoji": "✅",
+                    "opposite": "No",
+                    "oppositeEmoji": "❌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Grazie",
+                    "emoji": "🙏",
+                    "opposite": "Prego",
+                    "oppositeEmoji": "💁‍♂️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Per favore",
+                    "emoji": "🥺",
+                    "clozeText": "Un caffè, ______ ______.",
+                    "answer": "per favore",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Va bene",
+                    "emoji": "👍",
+                    "opposite": "Ok",
+                    "oppositeEmoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Scusi",
+                    "emoji": "🙇‍♂️",
+                    "opposite": ":(",
+                    "oppositeEmoji": "☹️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "o",
+                    "emoji": "🔀",
+                    "clozeText": "Caffè ______ tè?",
+                    "answer": "o",
+                    "category": "grammar"
+                },
+                {
+                    "word": "il caffè",
+                    "emoji": "☕",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "caffè",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "il tè",
+                    "emoji": "🍵",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "tè",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "il succo",
+                    "emoji": "🧃",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "succo",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "il vino",
+                    "emoji": "🍷",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "vino",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "la birra",
+                    "emoji": "🍺",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "birra",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "l'acqua",
+                    "emoji": "🚰",
+                    "category": "vocabulary",
+                    "article": "l'",
+                    "baseWord": "acqua",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "i contanti",
+                    "emoji": "💵",
+                    "category": "vocabulary",
+                    "article": "i",
+                    "baseWord": "contanti"
+                },
+                {
+                    "word": "la carta",
+                    "emoji": "💳",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "carta"
+                },
+                {
+                    "word": "non",
+                    "emoji": "❌",
+                    "clozeText": "No, ______ è caffè.",
+                    "answer": "non",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Cosa",
+                    "emoji": "❓",
+                    "clozeText": "______'è?",
+                    "answer": "cosa",
+                    "category": "grammar"
+                },
+                {
+                    "word": "ma",
+                    "emoji": "⚖️",
+                    "clozeText": "No, non è caffè, ______ è tè.",
+                    "answer": "ma",
+                    "category": "grammar"
+                },
+                {
+                    "word": "È caffè.",
+                    "emoji": "☕",
+                    "clozeText": "______ caffè.",
+                    "answer": "È",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Non è tè.",
+                    "emoji": "🍵",
+                    "clozeText": "Non ______ tè.",
+                    "answer": "è",
+                    "category": "grammar"
+                },
+                {
+                    "word": "È acqua?",
+                    "emoji": "🚰",
+                    "clozeText": "______ acqua?",
+                    "answer": "È",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Cos'è?",
+                    "emoji": "❓",
+                    "clozeText": "______'è?",
+                    "answer": "Cos",
+                    "category": "grammar"
+                },
+                {
+                    "word": "È vino.",
+                    "emoji": "🍷",
+                    "clozeText": "______ vino.",
+                    "answer": "È",
+                    "category": "grammar"
+                },
+                {
+                    "word": "È succo.",
+                    "emoji": "🧃",
+                    "clozeText": "______ succo.",
+                    "answer": "È",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "2": {
+            "title": "Giorno 2 | Una cosa o una persona?",
+            "words": [
+                {
+                    "word": "la cosa",
+                    "emoji": "📦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "cosa"
+                },
+                {
+                    "word": "la persona",
+                    "emoji": "👤",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "persona",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "l'uomo",
+                    "emoji": "👨",
+                    "opposite": "la donna",
+                    "oppositeEmoji": "👩",
+                    "category": "vocabulary",
+                    "article": "l'",
+                    "baseWord": "uomo",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la donna",
+                    "emoji": "👩",
+                    "opposite": "l'uomo",
+                    "oppositeEmoji": "👨",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "donna",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "il ragazzo",
+                    "emoji": "👦",
+                    "opposite": "la ragazza",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "ragazzo",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la ragazza",
+                    "emoji": "👧",
+                    "opposite": "il ragazzo",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "ragazza",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "il professore / la professoressa",
+                    "emoji": "🧑‍🏫",
+                    "category": "vocabulary",
+                    "article": "il / la",
+                    "baseWord": "professore / professoressa",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "lo studente / la studentessa",
+                    "emoji": "🧑‍🎓",
+                    "category": "vocabulary",
+                    "article": "lo / la",
+                    "baseWord": "studente / studentessa",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "Piacere",
+                    "emoji": "🤝",
+                    "clozeText": "Io sono James, ____",
+                    "answer": "Piacere",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "nessun problema",
+                    "emoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "anche",
+                    "emoji": "➕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "chi",
+                    "emoji": "❓👤",
+                    "clozeText": "____ è? - È una persona.",
+                    "answer": "chi",
+                    "category": "grammar"
+                },
+                {
+                    "word": "e",
+                    "emoji": "➕",
+                    "clozeText": "Un uomo ___ una donna.",
+                    "answer": "e",
+                    "category": "grammar"
+                },
+                {
+                    "word": "il bambino / la bambina",
+                    "emoji": "👶",
+                    "category": "vocabulary",
+                    "article": "il / la",
+                    "baseWord": "bambino / bambina",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "Io sono un professore.",
+                    "emoji": "🧑‍🏫",
+                    "clozeText": "Io ______ un professore.",
+                    "answer": "sono",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Tu sei uno studente.",
+                    "emoji": "🧑‍🎓",
+                    "clozeText": "Tu ______ uno studente.",
+                    "answer": "sei",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lui è un uomo.",
+                    "emoji": "👨",
+                    "clozeText": "Lui ______ un uomo.",
+                    "answer": "è",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lei è una donna.",
+                    "emoji": "👩",
+                    "clozeText": "Lei ______ una donna.",
+                    "answer": "è",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Io sono una persona.",
+                    "emoji": "👤",
+                    "clozeText": "______ sono una persona.",
+                    "answer": "Io",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Tu sei un uomo.",
+                    "emoji": "👨",
+                    "clozeText": "______ sei un uomo.",
+                    "answer": "Tu",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lui è studente.",
+                    "emoji": "🧑‍🎓",
+                    "clozeText": "Lui ______ studente.",
+                    "answer": "è",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lei è professoressa.",
+                    "emoji": "🧑‍🏫",
+                    "clozeText": "Lei ______ professoressa.",
+                    "answer": "è",
+                    "category": "grammar"
+                },
+                {
+                    "word": "È una cosa?",
+                    "emoji": "📦",
+                    "clozeText": "______ una cosa?",
+                    "answer": "È",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "3": {
+            "title": "Giorno 3 | Famiglia e Animali",
+            "words": [
+                {
+                    "word": "la madre",
+                    "emoji": "👩‍👦",
+                    "opposite": "il padre",
+                    "oppositeEmoji": "👨‍👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "madre",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "il padre",
+                    "emoji": "👨‍👦",
+                    "opposite": "la madre",
+                    "oppositeEmoji": "👩‍👦",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "padre",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la sorella",
+                    "emoji": "👩‍👧‍👧",
+                    "opposite": "il fratello",
+                    "oppositeEmoji": "👨‍👦‍👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "sorella",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "il fratello",
+                    "emoji": "👨‍👦‍👦",
+                    "opposite": "la sorella",
+                    "oppositeEmoji": "👩‍👧‍👧",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "fratello",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la figlia",
+                    "emoji": "👧",
+                    "opposite": "il figlio",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "figlia",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "il figlio",
+                    "emoji": "👦",
+                    "opposite": "la figlia",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "figlio",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la moglie",
+                    "emoji": "👰",
+                    "opposite": "il marito",
+                    "oppositeEmoji": "🤵",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "moglie",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "il marito",
+                    "emoji": "🤵",
+                    "opposite": "la moglie",
+                    "oppositeEmoji": "👰",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "marito",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "l'amico / l'amica",
+                    "emoji": "👫",
+                    "category": "vocabulary",
+                    "article": "l'",
+                    "baseWord": "amico / amica",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "la famiglia",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "vocabulary",
+                    "article": "la",
+                    "baseWord": "famiglia",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "il genitore",
+                    "emoji": "👪",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "genitore",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "il gatto",
+                    "emoji": "🐈",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "gatto"
+                },
+                {
+                    "word": "il cane",
+                    "emoji": "🐕",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "cane"
+                },
+                {
+                    "word": "il pesce",
+                    "emoji": "🐟",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "pesce"
+                },
+                {
+                    "word": "il pappagallo",
+                    "emoji": "🦜",
+                    "category": "vocabulary",
+                    "article": "il",
+                    "baseWord": "pappagallo"
+                },
+                {
+                    "word": "unico",
+                    "emoji": "☝️",
+                    "clozeText": "figlio ______.",
+                    "answer": "unico",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Io ho una famiglia.",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "Io ______ una famiglia.",
+                    "answer": "ho",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Tu hai una madre.",
+                    "emoji": "👩‍👦",
+                    "clozeText": "Tu ______ una madre.",
+                    "answer": "hai",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lui ha un gatto.",
+                    "emoji": "🐈",
+                    "clozeText": "Lui ______ un gatto.",
+                    "answer": "ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lei ha un cane.",
+                    "emoji": "🐕",
+                    "clozeText": "Lei ______ un cane.",
+                    "answer": "ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Io non ho un fratello.",
+                    "emoji": "👨‍👦‍👦",
+                    "clozeText": "Io non ______ un fratello.",
+                    "answer": "ho",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Tu non hai una sorella.",
+                    "emoji": "👩‍👧‍👧",
+                    "clozeText": "Tu non ______ una sorella.",
+                    "answer": "hai",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lui non ha un figlio.",
+                    "emoji": "👦",
+                    "clozeText": "Lui non ______ un figlio.",
+                    "answer": "ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lei non ha una figlia.",
+                    "emoji": "👧",
+                    "clozeText": "Lei non ______ una figlia.",
+                    "answer": "ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Esso non ha un nome.",
+                    "emoji": "📛",
+                    "clozeText": "Esso non ______ un nome.",
+                    "answer": "ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Io ho un amico?",
+                    "emoji": "👫",
+                    "clozeText": "Io ______ un amico?",
+                    "answer": "ho",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Hai una sorella?",
+                    "emoji": "👩‍👧‍👧",
+                    "clozeText": "______ una sorella?",
+                    "answer": "Hai",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lui ha un pappagallo?",
+                    "emoji": "🦜",
+                    "clozeText": "Lui ______ un pappagallo?",
+                    "answer": "ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lei ha un pesce?",
+                    "emoji": "🐟",
+                    "clozeText": "Lei ______ un pesce?",
+                    "answer": "ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Ha un problema?",
+                    "emoji": "❓",
+                    "clozeText": "______ un problema?",
+                    "answer": "Ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Il professore ha un caffè.",
+                    "emoji": "🧑‍🏫☕",
+                    "clozeText": "Il professore ______ un caffè.",
+                    "answer": "ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Lo studente ha una carta.",
+                    "emoji": "🧑‍🎓💳",
+                    "clozeText": "Lo studente ______ una carta.",
+                    "answer": "ha",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Hai una famiglia?",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai una madre? Come si chiama?",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai un padre? Come si chiama?",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai un fratello? Come si chiama?",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai una sorella? Come si chiama?",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai un figlio? Come si chiama?",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai una figlia? Come si chiama?",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai un.a gatto.a? Come si chiama?",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai un.a cane? Come si chiama?",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai un pesce? Come si chiama?",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Hai un pappagallo? Come si chiama?",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha una famiglia?",
+                    "emoji": "👫👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha una madre? Come si chiama?",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha un padre? Come si chiama?",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha un fratello? Come si chiama?",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha una sorella? Come si chiama?",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha un figlio? Come si chiama?",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha una figlia? Come si chiama?",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha un.a gatto.a? Come si chiama?",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha un.a cane? Come si chiama?",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha un pesce? Come si chiama?",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                },
+                {
+                    "word": "Il tuo amico / la tua amica ha un pappagallo? Come si chiama?",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Come si chiama? = chi è? = qual è il suo nome?"
+                }
+            ]
+        },
+        "4": {
+            "title": "Giorno 4 | Numeri e plurali",
+            "words": [
+                {
+                    "word": "un figlio",
+                    "numberPlural": "1 figlio",
+                    "answer": "un figlio",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "due ragazzi",
+                    "numberPlural": "2 ragazzo",
+                    "answer": "due ragazzi",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "tre mariti",
+                    "numberPlural": "3 marito",
+                    "answer": "tre mariti",
+                    "emoji": "🤵",
+                    "category": "grammar"
+                },
+                {
+                    "word": "quattro amici",
+                    "numberPlural": "4 amico",
+                    "answer": "quattro amici",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "cinque pappagalli",
+                    "numberPlural": "5 pappagallo",
+                    "answer": "cinque pappagalli",
+                    "emoji": "🦜",
+                    "category": "grammar"
+                },
+                {
+                    "word": "sei famiglie",
+                    "numberPlural": "6 famiglia",
+                    "answer": "sei famiglie",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "sette persone",
+                    "numberPlural": "7 persona",
+                    "answer": "sette persone",
+                    "emoji": "👤",
+                    "category": "grammar"
+                },
+                {
+                    "word": "otto cose",
+                    "numberPlural": "8 cosa",
+                    "answer": "otto cose",
+                    "emoji": "📦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "nove donne",
+                    "numberPlural": "9 donna",
+                    "answer": "nove donne",
+                    "emoji": "👩",
+                    "category": "grammar"
+                },
+                {
+                    "word": "una sorella",
+                    "numberPlural": "1 sorella",
+                    "answer": "una sorella",
+                    "emoji": "👩‍👧‍👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "due professoresse",
+                    "numberPlural": "2 professoressa",
+                    "answer": "due professoresse",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "tre studentesse",
+                    "numberPlural": "3 studentessa",
+                    "answer": "tre studentesse",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "quattro ragazze",
+                    "numberPlural": "4 ragazza",
+                    "answer": "quattro ragazze",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "cinque figlie",
+                    "numberPlural": "5 figlia",
+                    "answer": "cinque figlie",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "sei cani",
+                    "numberPlural": "6 cane",
+                    "answer": "sei cani",
+                    "emoji": "🐕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "sette padri",
+                    "numberPlural": "7 padre",
+                    "answer": "sette padri",
+                    "emoji": "👨‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "otto madri",
+                    "numberPlural": "8 madre",
+                    "answer": "otto madri",
+                    "emoji": "👩‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "nove professori",
+                    "numberPlural": "9 professore",
+                    "answer": "nove professori",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "uno studente",
+                    "numberPlural": "1 studente",
+                    "answer": "uno studente",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "due mogli",
+                    "numberPlural": "2 moglie",
+                    "answer": "due mogli",
+                    "emoji": "👰",
+                    "category": "grammar"
+                },
+                {
+                    "word": "tre pesci",
+                    "numberPlural": "3 pesce",
+                    "answer": "tre pesci",
+                    "emoji": "🐟",
+                    "category": "grammar"
+                },
+                {
+                    "word": "quattro uomini",
+                    "numberPlural": "4 uomo",
+                    "answer": "quattro uomini",
+                    "emoji": "👨",
+                    "category": "grammar"
+                },
+                {
+                    "word": "cinque amiche",
+                    "numberPlural": "5 amica",
+                    "answer": "cinque amiche",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "sei problemi",
+                    "numberPlural": "6 problema",
+                    "answer": "sei problemi",
+                    "emoji": "❓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "sette bambini",
+                    "numberPlural": "7 bambino",
+                    "answer": "sette bambini",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "otto bambine",
+                    "numberPlural": "8 bambina",
+                    "answer": "otto bambine",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "nove genitori",
+                    "numberPlural": "9 genitore",
+                    "answer": "nove genitori",
+                    "emoji": "👪",
+                    "category": "grammar"
+                }
+            ]
+        }
+    },
+    "ru": {
+        "1": {
+            "title": "День 1 | Базовая лексика",
+            "words": [
+                {
+                    "word": "Добрый день",
+                    "emoji": "👋",
+                    "opposite": "До свидания",
+                    "oppositeEmoji": "🖐️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Да",
+                    "emoji": "✅",
+                    "opposite": "Нет",
+                    "oppositeEmoji": "❌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Спасибо",
+                    "emoji": "🙏",
+                    "opposite": "Пожалуйста",
+                    "oppositeEmoji": "💁‍♂️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Пожалуйста",
+                    "emoji": "🥺",
+                    "clozeText": "Один кофе, ______.",
+                    "answer": "пожалуйста",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Хорошо",
+                    "emoji": "👍",
+                    "opposite": "Ок",
+                    "oppositeEmoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Извините",
+                    "emoji": "🙇‍♂️",
+                    "opposite": ":(",
+                    "oppositeEmoji": "☹️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "или",
+                    "emoji": "🔀",
+                    "clozeText": "Кофе ______ чай?",
+                    "answer": "или",
+                    "category": "grammar"
+                },
+                {
+                    "word": "кофе",
+                    "emoji": "☕",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "кофе",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "чай",
+                    "emoji": "🍵",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "чай",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "сок",
+                    "emoji": "🧃",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "сок",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "вино",
+                    "emoji": "🍷",
+                    "category": "vocabulary",
+                    "gender": "оно",
+                    "baseWord": "вино",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "пиво",
+                    "emoji": "🍺",
+                    "category": "vocabulary",
+                    "gender": "оно",
+                    "baseWord": "пиво",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "вода",
+                    "emoji": "🚰",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "вода",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "наличные",
+                    "emoji": "💵",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "карта",
+                    "emoji": "💳",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "карта"
+                },
+                {
+                    "word": "не",
+                    "emoji": "❌",
+                    "clozeText": "Нет, это ______ кофе.",
+                    "answer": "не",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Что",
+                    "emoji": "❓",
+                    "clozeText": "______ это?",
+                    "answer": "Что",
+                    "category": "grammar"
+                },
+                {
+                    "word": "но",
+                    "emoji": "⚖️",
+                    "clozeText": "Нет, это не кофе, ______ это чай.",
+                    "answer": "но",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Это кофе.",
+                    "emoji": "☕",
+                    "clozeText": "______ кофе.",
+                    "answer": "Это",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Это не чай.",
+                    "emoji": "🍵",
+                    "clozeText": "Это ______ чай.",
+                    "answer": "не",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Это вода?",
+                    "emoji": "🚰",
+                    "clozeText": "Это ______?",
+                    "answer": "вода",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Что это?",
+                    "emoji": "❓",
+                    "clozeText": "______ это?",
+                    "answer": "Что",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Это вино.",
+                    "emoji": "🍷",
+                    "clozeText": "Это ______.",
+                    "answer": "вино",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Это сок.",
+                    "emoji": "🧃",
+                    "clozeText": "Это ______.",
+                    "answer": "сок",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Это кофе или чай?",
+                    "emoji": "🔀",
+                    "clozeText": "Это кофе ______ чай?",
+                    "answer": "или",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "2": {
+            "title": "День 2 | Вещь или человек?",
+            "words": [
+                {
+                    "word": "вещь",
+                    "emoji": "📦",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "вещь"
+                },
+                {
+                    "word": "человек",
+                    "emoji": "👤",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "человек",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "мужчина",
+                    "emoji": "👨",
+                    "opposite": "женщина",
+                    "oppositeEmoji": "👩",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "мужчина",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "женщина",
+                    "emoji": "👩",
+                    "opposite": "мужчина",
+                    "oppositeEmoji": "👨",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "женщина",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "мальчик",
+                    "emoji": "👦",
+                    "opposite": "девочка",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "мальчик",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "девочка",
+                    "emoji": "👧",
+                    "opposite": "мальчик",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "девочка",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "учитель / учительница",
+                    "emoji": "🧑‍🏫",
+                    "category": "vocabulary",
+                    "gender": "он / она",
+                    "baseWord": "учитель / учительница",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "студент / студентка",
+                    "emoji": "🧑‍🎓",
+                    "category": "vocabulary",
+                    "gender": "он / она",
+                    "baseWord": "студент / студентка",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "Приятно познакомиться",
+                    "emoji": "🤝",
+                    "clozeText": "Я Джеймс, ____",
+                    "answer": "Приятно познакомиться",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "без проблем",
+                    "emoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "тоже",
+                    "emoji": "➕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "кто",
+                    "emoji": "❓👤",
+                    "clozeText": "____ это? - Это человек.",
+                    "answer": "кто",
+                    "category": "grammar"
+                },
+                {
+                    "word": "и",
+                    "emoji": "➕",
+                    "clozeText": "Мужчина ___ женщина.",
+                    "answer": "и",
+                    "category": "grammar"
+                },
+                {
+                    "word": "ребёнок",
+                    "emoji": "👶",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "ребёнок",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "Я учитель.",
+                    "emoji": "🧑‍🏫",
+                    "clozeText": "______ учитель.",
+                    "answer": "Я",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Ты студент.",
+                    "emoji": "🧑‍🎓",
+                    "clozeText": "Ты ______.",
+                    "answer": "студент",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Он мужчина.",
+                    "emoji": "👨",
+                    "clozeText": "Он ______.",
+                    "answer": "мужчина",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Она женщина.",
+                    "emoji": "👩",
+                    "clozeText": "Она ______.",
+                    "answer": "женщина",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Я мальчик.",
+                    "emoji": "👦",
+                    "clozeText": "______ мальчик.",
+                    "answer": "Я",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Ты девочка.",
+                    "emoji": "👧",
+                    "clozeText": "Ты ______.",
+                    "answer": "девочка",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Я не вещь.",
+                    "emoji": "📦",
+                    "clozeText": "Я ______ вещь.",
+                    "answer": "не",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Кто он?",
+                    "emoji": "❓👤",
+                    "clozeText": "Кто ______?",
+                    "answer": "он",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Кто она?",
+                    "emoji": "❓👩",
+                    "clozeText": "Кто ______?",
+                    "answer": "она",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "3": {
+            "title": "День 3 | Семья и Питомцы",
+            "words": [
+                {
+                    "word": "мать",
+                    "emoji": "👩‍👦",
+                    "opposite": "отец",
+                    "oppositeEmoji": "👨‍👦",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "мать",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "отец",
+                    "emoji": "👨‍👦",
+                    "opposite": "мать",
+                    "oppositeEmoji": "👩‍👦",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "отец",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "сестра",
+                    "emoji": "👩‍👧‍👧",
+                    "opposite": "брат",
+                    "oppositeEmoji": "👨‍👦‍👦",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "сестра",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "брат",
+                    "emoji": "👨‍👦‍👦",
+                    "opposite": "сестра",
+                    "oppositeEmoji": "👩‍👧‍👧",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "брат",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "дочь",
+                    "emoji": "👧",
+                    "opposite": "сын",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "дочь",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "сын",
+                    "emoji": "👦",
+                    "opposite": "дочь",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "сын",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "жена",
+                    "emoji": "👰",
+                    "opposite": "муж",
+                    "oppositeEmoji": "🤵",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "жена",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "муж",
+                    "emoji": "🤵",
+                    "opposite": "жена",
+                    "oppositeEmoji": "👰",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "муж",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "друг / подруга",
+                    "emoji": "👫",
+                    "category": "vocabulary",
+                    "gender": "он / она",
+                    "baseWord": "друг / подруга",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "семья",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "семья",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "родитель",
+                    "emoji": "👪",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "родитель",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "кот",
+                    "emoji": "🐈",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "кот"
+                },
+                {
+                    "word": "собака",
+                    "emoji": "🐕",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "собака"
+                },
+                {
+                    "word": "рыба",
+                    "emoji": "🐟",
+                    "category": "vocabulary",
+                    "gender": "она",
+                    "baseWord": "рыба"
+                },
+                {
+                    "word": "попугай",
+                    "emoji": "🦜",
+                    "category": "vocabulary",
+                    "gender": "он",
+                    "baseWord": "попугай"
+                },
+                {
+                    "word": "единственный",
+                    "emoji": "☝️",
+                    "clozeText": "______ ребёнок.",
+                    "answer": "единственный",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У меня есть семья.",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "У ______ есть семья.",
+                    "answer": "меня",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У тебя есть мать.",
+                    "emoji": "👩‍👦",
+                    "clozeText": "У ______ есть мать.",
+                    "answer": "тебя",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У него есть кот.",
+                    "emoji": "🐈",
+                    "clozeText": "У ______ есть кот.",
+                    "answer": "него",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У неё есть собака.",
+                    "emoji": "🐕",
+                    "clozeText": "У ______ есть собака.",
+                    "answer": "неё",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У него есть имя.",
+                    "emoji": "📛",
+                    "clozeText": "У ______ есть имя.",
+                    "answer": "него",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У меня нет брата.",
+                    "emoji": "👨‍👦‍👦",
+                    "clozeText": "У меня ______ брата.",
+                    "answer": "нет",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У тебя нет сестры.",
+                    "emoji": "👩‍👧‍👧",
+                    "clozeText": "У тебя ______ сестры.",
+                    "answer": "нет",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У него нет сына.",
+                    "emoji": "👦",
+                    "clozeText": "У него ______ сына.",
+                    "answer": "нет",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У неё нет дочери.",
+                    "emoji": "👧",
+                    "clozeText": "У неё ______ дочери.",
+                    "answer": "нет",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У него нет семьи.",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "У него ______ семьи.",
+                    "answer": "нет",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У меня есть друг?",
+                    "emoji": "👫",
+                    "clozeText": "У меня ______ друг?",
+                    "answer": "есть",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У тебя есть сестра?",
+                    "emoji": "👩‍👧‍👧",
+                    "clozeText": "У тебя ______ сестра?",
+                    "answer": "есть",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У него есть попугай?",
+                    "emoji": "🦜",
+                    "clozeText": "У ______ есть попугай?",
+                    "answer": "него",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У неё есть рыбка?",
+                    "emoji": "🐟",
+                    "clozeText": "У ______ есть рыбка?",
+                    "answer": "неё",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У него есть проблема?",
+                    "emoji": "❓",
+                    "clozeText": "У него есть ______?",
+                    "answer": "проблема",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У меня есть сын и дочь.",
+                    "emoji": "👦👧",
+                    "clozeText": "У меня есть сын ______ дочь.",
+                    "answer": "и",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У него тоже есть собака.",
+                    "emoji": "🐕➕",
+                    "clozeText": "У него ______ есть собака.",
+                    "answer": "тоже",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У учителя есть кофе.",
+                    "emoji": "🧑‍🏫☕",
+                    "clozeText": "У учителя ______ кофе.",
+                    "answer": "есть",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У студента есть карта.",
+                    "emoji": "🧑‍🎓💳",
+                    "clozeText": "У студента ______ карта.",
+                    "answer": "есть",
+                    "category": "grammar"
+                },
+                {
+                    "word": "У тебя есть семья?",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть мать? Как её зовут?",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть отец? Как его зовут?",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть брат? Как его зовут?",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть сестра? Как её зовут?",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть сын? Как его зовут?",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть дочь? Как её зовут?",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть кот или кошка? Как его зовут?",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть собака? Как её зовут?",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть рыбка? Как её зовут?",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У тебя есть попугай? Как его зовут?",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть семья?",
+                    "emoji": "👫👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть мать? Как её зовут?",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как её зовут? = Кто это? = Какое её имя?"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть отец? Как его зовут?",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как его зовут? = Кто это? = Какое его имя?"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть брат? Как его зовут?",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как его зовут? = Кто это? = Какое его имя?"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть сестра? Как её зовут?",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как её зовут? = Кто это? = Какое её имя?"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть сын? Как его зовут?",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как его зовут? = Кто это? = Какое его имя?"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть дочь? Как её зовут?",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как её зовут? = Кто это? = Какое её имя?"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть кот или кошка? Как его зовут?",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как его зовут? = Кто это? = Какое его имя?"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть собака? Как её зовут?",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как её зовут? = Кто это? = Какое её имя?"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть рыбка? Как её зовут?",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как её зовут? = Кто это? = Какое её имя?"
+                },
+                {
+                    "word": "У твоего друга / твоей подруги есть попугай? Как его зовут?",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Как его зовут? = Кто это? = Какое его имя?"
+                }
+            ]
+        },
+        "4": {
+            "title": "День 4 | Числа и множественное число",
+            "words": [
+                {
+                    "word": "один сын",
+                    "numberPlural": "1 сын",
+                    "answer": "один сын",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "два мальчика",
+                    "numberPlural": "2 мальчик",
+                    "answer": "два мальчика",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "три мужа",
+                    "numberPlural": "3 муж",
+                    "answer": "три мужа",
+                    "emoji": "🤵",
+                    "category": "grammar"
+                },
+                {
+                    "word": "четыре друга",
+                    "numberPlural": "4 друг",
+                    "answer": "четыре друга",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "пять попугаев",
+                    "numberPlural": "5 попугай",
+                    "answer": "пять попугаев",
+                    "emoji": "🦜",
+                    "category": "grammar"
+                },
+                {
+                    "word": "шесть семей",
+                    "numberPlural": "6 семья",
+                    "answer": "шесть семей",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "семь человек",
+                    "numberPlural": "7 человек",
+                    "answer": "семь человек",
+                    "emoji": "👤",
+                    "category": "grammar"
+                },
+                {
+                    "word": "восемь вещей",
+                    "numberPlural": "8 вещь",
+                    "answer": "восемь вещей",
+                    "emoji": "📦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "девять женщин",
+                    "numberPlural": "9 женщина",
+                    "answer": "девять женщин",
+                    "emoji": "👩",
+                    "category": "grammar"
+                },
+                {
+                    "word": "одна сестра",
+                    "numberPlural": "1 сестра",
+                    "answer": "одна сестра",
+                    "emoji": "👩‍👧‍👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "две учительницы",
+                    "numberPlural": "2 учительница",
+                    "answer": "две учительницы",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "три студентки",
+                    "numberPlural": "3 студентка",
+                    "answer": "три студентки",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "четыре девочки",
+                    "numberPlural": "4 девочка",
+                    "answer": "четыре девочки",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "пять дочерей",
+                    "numberPlural": "5 дочь",
+                    "answer": "пять дочерей",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "шесть собак",
+                    "numberPlural": "6 собака",
+                    "answer": "шесть собак",
+                    "emoji": "🐕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "семь отцов",
+                    "numberPlural": "7 отец",
+                    "answer": "семь отцов",
+                    "emoji": "👨‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "восемь матерей",
+                    "numberPlural": "8 мать",
+                    "answer": "восемь матерей",
+                    "emoji": "👩‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "девять учителей",
+                    "numberPlural": "9 учитель",
+                    "answer": "девять учителей",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "один студент",
+                    "numberPlural": "1 студент",
+                    "answer": "один студент",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "две жены",
+                    "numberPlural": "2 жена",
+                    "answer": "две жены",
+                    "emoji": "👰",
+                    "category": "grammar"
+                },
+                {
+                    "word": "три рыбы",
+                    "numberPlural": "3 рыба",
+                    "answer": "три рыбы",
+                    "emoji": "🐟",
+                    "category": "grammar"
+                },
+                {
+                    "word": "четыре мужчины",
+                    "numberPlural": "4 мужчина",
+                    "answer": "четыре мужчины",
+                    "emoji": "👨",
+                    "category": "grammar"
+                },
+                {
+                    "word": "пять подруг",
+                    "numberPlural": "5 подруга",
+                    "answer": "пять подруг",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "шесть проблем",
+                    "numberPlural": "6 проблема",
+                    "answer": "шесть проблем",
+                    "emoji": "❓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "семь детей",
+                    "numberPlural": "7 ребёнок",
+                    "answer": "семь детей",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "восемь детей",
+                    "numberPlural": "8 ребёнок",
+                    "answer": "восемь детей",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "девять родителей",
+                    "numberPlural": "9 родитель",
+                    "answer": "девять родителей",
+                    "emoji": "👪",
+                    "category": "grammar"
+                }
+            ]
+        }
+    },
+    "el": {
+        "1": {
+            "title": "Ημέρα 1 | Βασικό λεξιλόγιο",
+            "words": [
+                {
+                    "word": "Καλημέρα",
+                    "emoji": "👋",
+                    "opposite": "Αντίο",
+                    "oppositeEmoji": "🖐️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Ναι",
+                    "emoji": "✅",
+                    "opposite": "Όχι",
+                    "oppositeEmoji": "❌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Ευχαριστώ",
+                    "emoji": "🙏",
+                    "opposite": "Παρακαλώ",
+                    "oppositeEmoji": "💁‍♂️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Παρακαλώ",
+                    "emoji": "🥺",
+                    "clozeText": "Έναν καφέ, ______.",
+                    "answer": "παρακαλώ",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Εντάξει",
+                    "emoji": "👍",
+                    "opposite": "Οκ",
+                    "oppositeEmoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "Συγγνώμη",
+                    "emoji": "🙇‍♂️",
+                    "opposite": ":(",
+                    "oppositeEmoji": "☹️",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "ή",
+                    "emoji": "🔀",
+                    "clozeText": "Καφές ______ τσάι;",
+                    "answer": "ή",
+                    "category": "grammar"
+                },
+                {
+                    "word": "ο καφές",
+                    "emoji": "☕",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "καφές",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "το τσάι",
+                    "emoji": "🍵",
+                    "category": "vocabulary",
+                    "article": "το",
+                    "baseWord": "τσάι",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "ο χυμός",
+                    "emoji": "🧃",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "χυμός",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "το κρασί",
+                    "emoji": "🍷",
+                    "category": "vocabulary",
+                    "article": "το",
+                    "baseWord": "κρασί",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "η μπίρα",
+                    "emoji": "🍺",
+                    "category": "vocabulary",
+                    "article": "η",
+                    "baseWord": "μπίρα",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "το νερό",
+                    "emoji": "🚰",
+                    "category": "vocabulary",
+                    "article": "το",
+                    "baseWord": "νερό",
+                    "theme": "food_drinks"
+                },
+                {
+                    "word": "τα μετρητά",
+                    "emoji": "💵",
+                    "category": "vocabulary",
+                    "article": "τα",
+                    "baseWord": "μετρητά"
+                },
+                {
+                    "word": "η κάρτα",
+                    "emoji": "💳",
+                    "category": "vocabulary",
+                    "article": "η",
+                    "baseWord": "κάρτα"
+                },
+                {
+                    "word": "δεν",
+                    "emoji": "❌",
+                    "clozeText": "Όχι, ______ είναι καφές.",
+                    "answer": "δεν",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Τι",
+                    "emoji": "❓",
+                    "clozeText": "______ είναι;",
+                    "answer": "Τι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "αλλά",
+                    "emoji": "⚖️",
+                    "clozeText": "Όχι, δεν είναι καφές, ______ είναι τσάι.",
+                    "answer": "αλλά",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Είναι καφές.",
+                    "emoji": "☕",
+                    "clozeText": "______ καφές.",
+                    "answer": "Είναι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Δεν είναι τσάι.",
+                    "emoji": "🍵",
+                    "clozeText": "______ είναι τσάι.",
+                    "answer": "Δεν",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Είναι νερό;",
+                    "emoji": "🚰",
+                    "clozeText": "Είναι ______;",
+                    "answer": "νερό",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Τι είναι;",
+                    "emoji": "❓",
+                    "clozeText": "Τι ______;",
+                    "answer": "είναι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Είναι κρασί.",
+                    "emoji": "🍷",
+                    "clozeText": "______ κρασί.",
+                    "answer": "Είναι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Είναι χυμός.",
+                    "emoji": "🧃",
+                    "clozeText": "Είναι ______.",
+                    "answer": "χυμός",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Είναι καφές ή τσάι;",
+                    "emoji": "🔀",
+                    "clozeText": "Είναι καφές ______ τσάι;",
+                    "answer": "ή",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "2": {
+            "title": "Ημέρα 2 | Ένα πράγμα ή ένα άτομο;",
+            "words": [
+                {
+                    "word": "το πράγμα",
+                    "emoji": "📦",
+                    "category": "vocabulary",
+                    "article": "το",
+                    "baseWord": "πράγμα"
+                },
+                {
+                    "word": "το άτομο",
+                    "emoji": "👤",
+                    "category": "vocabulary",
+                    "article": "το",
+                    "baseWord": "άτομο",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο άνδρας",
+                    "emoji": "👨",
+                    "opposite": "η γυναίκα",
+                    "oppositeEmoji": "👩",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "άνδρας",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "η γυναίκα",
+                    "emoji": "👩",
+                    "opposite": "ο άνδρας",
+                    "oppositeEmoji": "👨",
+                    "category": "vocabulary",
+                    "article": "η",
+                    "baseWord": "γυναίκα",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "το αγόρι",
+                    "emoji": "👦",
+                    "opposite": "το κορίτσι",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "article": "το",
+                    "baseWord": "αγόρι",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "το κορίτσι",
+                    "emoji": "👧",
+                    "opposite": "το αγόρι",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "article": "το",
+                    "baseWord": "κορίτσι",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο δάσκαλος / η δασκάλα",
+                    "emoji": "🧑‍🏫",
+                    "category": "vocabulary",
+                    "article": "ο / η",
+                    "baseWord": "δάσκαλος / δασκάλα",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο μαθητής / η μαθήτρια",
+                    "emoji": "🧑‍🎓",
+                    "category": "vocabulary",
+                    "article": "ο / η",
+                    "baseWord": "μαθητής / μαθήτρια",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "Χάρηκα",
+                    "emoji": "🤝",
+                    "clozeText": "Είμαι ο James, ____",
+                    "answer": "Χάρηκα",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "κανένα πρόβλημα",
+                    "emoji": "👌",
+                    "category": "vocabulary"
+                },
+                {
+                    "word": "επίσης",
+                    "emoji": "➕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "ποιος",
+                    "emoji": "❓👤",
+                    "clozeText": "____ είναι; - Είναι ένα άτομο.",
+                    "answer": "ποιος",
+                    "category": "grammar"
+                },
+                {
+                    "word": "και",
+                    "emoji": "➕",
+                    "clozeText": "Ένας άνδρας ___ μια γυναίκα.",
+                    "answer": "και",
+                    "category": "grammar"
+                },
+                {
+                    "word": "το παιδί",
+                    "emoji": "👶",
+                    "category": "vocabulary",
+                    "article": "το",
+                    "baseWord": "παιδί",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "Είμαι δάσκαλος.",
+                    "emoji": "🧑‍🏫",
+                    "clozeText": "______ δάσκαλος.",
+                    "answer": "Είμαι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Είσαι μαθητής.",
+                    "emoji": "🧑‍🎓",
+                    "clozeText": "Είσαι ______.",
+                    "answer": "μαθητής",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Αυτός είναι άνδρας.",
+                    "emoji": "👨",
+                    "clozeText": "Αυτός ______ άνδρας.",
+                    "answer": "είναι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Αυτή είναι γυναίκα.",
+                    "emoji": "👩",
+                    "clozeText": "Αυτή ______ γυναίκα.",
+                    "answer": "είναι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Είμαι ένα αγόρι.",
+                    "emoji": "👦",
+                    "clozeText": "______ ένα αγόρι.",
+                    "answer": "Είμαι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Είσαι ένα κορίτσι.",
+                    "emoji": "👧",
+                    "clozeText": "Είσαι ένα ______;",
+                    "answer": "κορίτσι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Δεν είμαι πράγμα.",
+                    "emoji": "📦",
+                    "clozeText": "Δεν ______ πράγμα.",
+                    "answer": "είμαι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Ποιος είναι αυτός;",
+                    "emoji": "❓👤",
+                    "clozeText": "Ποιος είναι ______;",
+                    "answer": "αυτός",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Ποια είναι αυτή;",
+                    "emoji": "❓👩",
+                    "clozeText": "Ποια είναι ______;",
+                    "answer": "αυτή",
+                    "category": "grammar"
+                }
+            ]
+        },
+        "3": {
+            "title": "Ημέρα 3 | Οικογένεια και Κατοικίδια",
+            "words": [
+                {
+                    "word": "η μητέρα",
+                    "emoji": "👩‍👦",
+                    "opposite": "ο πατέρας",
+                    "oppositeEmoji": "👨‍👦",
+                    "category": "vocabulary",
+                    "article": "η",
+                    "baseWord": "μητέρα",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο πατέρας",
+                    "emoji": "👨‍👦",
+                    "opposite": "η μητέρα",
+                    "oppositeEmoji": "👩‍👦",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "πατέρας",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "η αδελφή",
+                    "emoji": "👩‍👧‍👧",
+                    "opposite": "ο αδελφός",
+                    "oppositeEmoji": "👨‍👦‍👦",
+                    "category": "vocabulary",
+                    "article": "η",
+                    "baseWord": "αδελφή",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο αδελφός",
+                    "emoji": "👨‍👦‍👦",
+                    "opposite": "η αδελφή",
+                    "oppositeEmoji": "👩‍👧‍👧",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "αδελφός",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "η κόρη",
+                    "emoji": "👧",
+                    "opposite": "ο γιος",
+                    "oppositeEmoji": "👦",
+                    "category": "vocabulary",
+                    "article": "η",
+                    "baseWord": "κόρη",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο γιος",
+                    "emoji": "👦",
+                    "opposite": "η κόρη",
+                    "oppositeEmoji": "👧",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "γιος",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "η σύζυγος",
+                    "emoji": "👰",
+                    "opposite": "ο σύζυγος",
+                    "oppositeEmoji": "🤵",
+                    "category": "vocabulary",
+                    "article": "η",
+                    "baseWord": "σύζυγος",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο σύζυγος",
+                    "emoji": "🤵",
+                    "opposite": "η σύζυγος",
+                    "oppositeEmoji": "👰",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "σύζυγος",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο φίλος / η φίλη",
+                    "emoji": "👫",
+                    "category": "vocabulary",
+                    "article": "ο / η",
+                    "baseWord": "φίλος / φίλη",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "η οικογένεια",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "vocabulary",
+                    "article": "η",
+                    "baseWord": "οικογένεια",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο γονέας",
+                    "emoji": "👪",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "γονέας",
+                    "theme": "people_professions"
+                },
+                {
+                    "word": "ο γάτος",
+                    "emoji": "🐈",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "γάτος"
+                },
+                {
+                    "word": "ο σκύλος",
+                    "emoji": "🐕",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "σκύλος"
+                },
+                {
+                    "word": "το ψάρι",
+                    "emoji": "🐟",
+                    "category": "vocabulary",
+                    "article": "το",
+                    "baseWord": "ψάρι"
+                },
+                {
+                    "word": "ο παπαγάλος",
+                    "emoji": "🦜",
+                    "category": "vocabulary",
+                    "article": "ο",
+                    "baseWord": "παπαγάλος"
+                },
+                {
+                    "word": "μοναχοπαίδι",
+                    "emoji": "☝️",
+                    "clozeText": "είμαι ______.",
+                    "answer": "μοναχοπαίδι",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχω οικογένεια.",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "______ οικογένεια.",
+                    "answer": "Έχω",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχεις μητέρα.",
+                    "emoji": "👩‍👦",
+                    "clozeText": "______ μητέρα.",
+                    "answer": "Έχεις",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Αυτός έχει έναν γάτο.",
+                    "emoji": "🐈",
+                    "clozeText": "Αυτός ______ έναν γάτο.",
+                    "answer": "έχει",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Αυτή έχει έναν σκύλο.",
+                    "emoji": "🐕",
+                    "clozeText": "Αυτή ______ έναν σκύλο.",
+                    "answer": "έχει",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχει ένα όνομα.",
+                    "emoji": "📛",
+                    "clozeText": "Έχει ένα ______.",
+                    "answer": "όνομα",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Δεν έχω αδελφό.",
+                    "emoji": "👨‍👦‍👦",
+                    "clozeText": "______ έχω αδελφό.",
+                    "answer": "Δεν",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Δεν έχεις αδελφή.",
+                    "emoji": "👩‍👧‍👧",
+                    "clozeText": "______ έχεις αδελφή.",
+                    "answer": "Δεν",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Αυτός δεν έχει γιο.",
+                    "emoji": "👦",
+                    "clozeText": "Αυτός ______ δεν έχει γιο.",
+                    "answer": "δεν",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Αυτή δεν έχει κόρη.",
+                    "emoji": "👧",
+                    "clozeText": "Αυτή ______ δεν έχει κόρη.",
+                    "answer": "δεν",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Δεν έχει οικογένεια.",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "clozeText": "Δεν ______ οικογένεια.",
+                    "answer": "έχει",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχω έναν φίλο;",
+                    "emoji": "👫",
+                    "clozeText": "______ έναν φίλο;",
+                    "answer": "Έχω",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχεις αδελφή;",
+                    "emoji": "👩‍👧‍👧",
+                    "clozeText": "______ αδελφή;",
+                    "answer": "Έχεις",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχει έναν παπαγάλος;",
+                    "emoji": "🦜",
+                    "clozeText": "______ έναν παπαγάλο;",
+                    "answer": "Έχει",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχει ένα ψάρι;",
+                    "emoji": "🐟",
+                    "clozeText": "______ ένα ψάρι;",
+                    "answer": "Έχει",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχει κάποιο πρόβλημα;",
+                    "emoji": "❓",
+                    "clozeText": "______ κάποιο πρόβλημα;",
+                    "answer": "Έχει",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχω έναν γιο και μία κόρη.",
+                    "emoji": "👦👧",
+                    "clozeText": "Έχω έναν γιο ______ μία κόρη.",
+                    "answer": "και",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Αυτός έχει έναν σκύλο επίσης.",
+                    "emoji": "🐕➕",
+                    "clozeText": "Αυτός έχει έναν σκύλο ______.",
+                    "answer": "επίσης",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Ο δάσκαλος έχει έναν καφέ.",
+                    "emoji": "🧑‍🏫☕",
+                    "clozeText": "Ο δάσκαλος ______ έναν καφέ.",
+                    "answer": "έχει",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Ο μαθητής έχει μία κάρτα.",
+                    "emoji": "🧑‍🎓💳",
+                    "clozeText": "Ο μαθητής ______ μία κάρτα.",
+                    "answer": "έχει",
+                    "category": "grammar"
+                },
+                {
+                    "word": "Έχεις οικογένεια;",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις μητέρα; Πώς τη λένε;",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις πατέρα; Πώς τον λένε;",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις αδελφό; Πώς τον λένε;",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις αδελφή; Πώς τη λένε;",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις γιο; Πώς τον λένε;",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις κόρη; Πώς τη λένε;",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις γάτα; Πώς τη λένε;",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις σκύλο; Πώς τον λένε;",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις ψάρι; Πώς το λένε;",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Έχεις παπαγάλο; Πώς τον λένε;",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει οικογένεια;",
+                    "emoji": "👫👨‍👩‍👧‍👦",
+                    "type": "conversation",
+                    "category": "conversation"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει μητέρα; Πώς τη λένε;",
+                    "emoji": "👩‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει πατέρα; Πώς τον λένε;",
+                    "emoji": "👨‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει αδελφό; Πώς τον λένε;",
+                    "emoji": "👨‍👦‍👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει αδελφή; Πώς τη λένε;",
+                    "emoji": "👩‍👧‍👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει γιο; Πώς τον λένε;",
+                    "emoji": "👦",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει κόρη; Πώς τη λένε;",
+                    "emoji": "👧",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει γάτα; Πώς τη λένε;",
+                    "emoji": "🐈",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς τη λένε; = Ποια είναι; = Ποιο είναι το όνομά της;"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει σκύλο; Πώς τον λένε;",
+                    "emoji": "🐕",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει ψάρι; Πώς το λένε;",
+                    "emoji": "🐟",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς το λένε; = Ποιο είναι; = Ποιο είναι το όνομά του;"
+                },
+                {
+                    "word": "Ο φίλος σου / η φίλη σου έχει παπαγάλο; Πώς τον λένε;",
+                    "emoji": "🦜",
+                    "type": "conversation",
+                    "category": "conversation",
+                    "subtext": "Πώς τον λένε; = Ποιος είναι; = Ποιο είναι το όνομά του;"
+                }
+            ]
+        },
+        "4": {
+            "title": "Ημέρα 4 | Αριθμοί & Πληθυντικός",
+            "words": [
+                {
+                    "word": "ένας γιος",
+                    "numberPlural": "1 γιος",
+                    "answer": "ένας γιος",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "δύο αγόρια",
+                    "numberPlural": "2 αγόρι",
+                    "answer": "δύο αγόρια",
+                    "emoji": "👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "τρεις σύζυγοι",
+                    "numberPlural": "3 σύζυγος",
+                    "answer": "τρεις σύζυγοι",
+                    "emoji": "🤵",
+                    "category": "grammar"
+                },
+                {
+                    "word": "τέσσερις φίλοι",
+                    "numberPlural": "4 φίλος",
+                    "answer": "τέσσερις φίλοι",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "πέντε παπαγάλοι",
+                    "numberPlural": "5 παπαγάλος",
+                    "answer": "πέντε παπαγάλοι",
+                    "emoji": "🦜",
+                    "category": "grammar"
+                },
+                {
+                    "word": "έξι οικογένειες",
+                    "numberPlural": "6 οικογένεια",
+                    "answer": "έξι οικογένειες",
+                    "emoji": "👨‍👩‍👧‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "επτά άτομα",
+                    "numberPlural": "7 άτομο",
+                    "answer": "επτά άτομα",
+                    "emoji": "👤",
+                    "category": "grammar"
+                },
+                {
+                    "word": "οκτώ πράγματα",
+                    "numberPlural": "8 πράγμα",
+                    "answer": "οκτώ πράγματα",
+                    "emoji": "📦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "εννέα γυναίκες",
+                    "numberPlural": "9 γυναίκα",
+                    "answer": "εννέα γυναίκες",
+                    "emoji": "👩",
+                    "category": "grammar"
+                },
+                {
+                    "word": "μία αδελφή",
+                    "numberPlural": "1 αδελφή",
+                    "answer": "μία αδελφή",
+                    "emoji": "👩‍👧‍👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "δύο δασκάλες",
+                    "numberPlural": "2 δασκάλα",
+                    "answer": "δύο δασκάλες",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "τρεις μαθήτριες",
+                    "numberPlural": "3 μαθήτρια",
+                    "answer": "τρεις μαθήτριες",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "τέσσερα κορίτσια",
+                    "numberPlural": "4 κορίτσι",
+                    "answer": "τέσσερα κορίτσια",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "πέντε κόρες",
+                    "numberPlural": "5 κόρη",
+                    "answer": "πέντε κόρες",
+                    "emoji": "👧",
+                    "category": "grammar"
+                },
+                {
+                    "word": "έξι σκύλοι",
+                    "numberPlural": "6 σκύλος",
+                    "answer": "έξι σκύλοι",
+                    "emoji": "🐕",
+                    "category": "grammar"
+                },
+                {
+                    "word": "επτά πατέρες",
+                    "numberPlural": "7 πατέρας",
+                    "answer": "επτά πατέρες",
+                    "emoji": "👨‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "οκτώ μητέρες",
+                    "numberPlural": "8 μητέρα",
+                    "answer": "οκτώ μητέρες",
+                    "emoji": "👩‍👦",
+                    "category": "grammar"
+                },
+                {
+                    "word": "εννέα δάσκαλοι",
+                    "numberPlural": "9 δάσκαλος",
+                    "answer": "εννέα δάσκαλοι",
+                    "emoji": "🧑‍🏫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "ένας μαθητής",
+                    "numberPlural": "1 μαθητής",
+                    "answer": "ένας μαθητής",
+                    "emoji": "🧑‍🎓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "δύο σύζυγοι",
+                    "numberPlural": "2 σύζυγος",
+                    "answer": "δύο σύζυγοι",
+                    "emoji": "👰",
+                    "category": "grammar"
+                },
+                {
+                    "word": "τρία ψάρια",
+                    "numberPlural": "3 ψάρι",
+                    "answer": "τρία ψάρια",
+                    "emoji": "🐟",
+                    "category": "grammar"
+                },
+                {
+                    "word": "τέσσερις άνδρες",
+                    "numberPlural": "4 άνδρας",
+                    "answer": "τέσσερις άνδρες",
+                    "emoji": "👨",
+                    "category": "grammar"
+                },
+                {
+                    "word": "πέντε φίλες",
+                    "numberPlural": "5 φίλη",
+                    "answer": "πέντε φίλες",
+                    "emoji": "👫",
+                    "category": "grammar"
+                },
+                {
+                    "word": "έξι προβλήματα",
+                    "numberPlural": "6 πρόβλημα",
+                    "answer": "έξι προβλήματα",
+                    "emoji": "❓",
+                    "category": "grammar"
+                },
+                {
+                    "word": "επτά παιδιά",
+                    "numberPlural": "7 παιδί",
+                    "answer": "επτά παιδιά",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "οκτώ παιδιά",
+                    "numberPlural": "8 παιδί",
+                    "answer": "οκτώ παιδιά",
+                    "emoji": "👶",
+                    "category": "grammar"
+                },
+                {
+                    "word": "εννέα γονείς",
+                    "numberPlural": "9 γονέας",
+                    "answer": "εννέα γονείς",
+                    "emoji": "👪",
+                    "category": "grammar"
+                }
+            ]
+        }
+    }
+};

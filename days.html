@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="days_title">Student Area - Days Curriculum</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="practice-page">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/cosylanguages.png" alt="COSYlanguages Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li>
+                <li><a href="days.html" data-translate-key="nav_courses">Courses 📚</a></li>
+                <li><a href="index.html#calculator" data-translate-key="nav_calculator">Calculator 🧮</a></li>
+                <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
+                <li><a href="practice.html" data-translate-key="nav_practice">Practice 💡</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher-container">
+            <select id="language-switcher">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+                <option value="ru">Русский</option>
+                <option value="el">Ελληνικά</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section id="days-section" class="setup-card glass" style="max-width: 800px; margin: 2rem auto; padding: 2rem;">
+            <h2 data-translate-key="student_area_title">Student Area 🎓</h2>
+
+            <div id="unlock-gate">
+                <p data-translate-key="unlock_desc">Please enter your unique student code to access the structured curriculum.</p>
+                <div style="display: flex; gap: 1rem; margin-top: 1.5rem; justify-content: center;">
+                    <input type="text" id="student-code" class="pill-input" placeholder="Enter code here..." style="max-width: 250px;">
+                    <button id="unlock-btn" class="cta-button primary" data-translate-key="unlock_btn">Unlock 🔓</button>
+                </div>
+                <p id="unlock-error" style="color: var(--accent-color); margin-top: 1rem; display: none;" data-translate-key="invalid_code">Invalid code. Please try again or contact us.</p>
+            </div>
+
+            <div id="curriculum-content" style="display: none;">
+                <h3 data-translate-key="curriculum_title">Days Curriculum 🗓️</h3>
+                <p data-translate-key="curriculum_desc">Choose a day to practice the structured lesson content.</p>
+
+                <div id="lesson-selector" class="setup-group" style="margin-top: 2rem;">
+                    <label data-translate-key="select_day_label">Select Day 📚</label>
+                    <div class="chips-group wrap" id="day-chips">
+                        <label class="toggle-chip"><input type="radio" name="day-selection" value="1" checked><span data-translate-key="day_1">Day 1</span></label>
+                        <label class="toggle-chip"><input type="radio" name="day-selection" value="2"><span data-translate-key="day_2">Day 2</span></label>
+                        <label class="toggle-chip"><input type="radio" name="day-selection" value="3"><span data-translate-key="day_3">Day 3</span></label>
+                        <label class="toggle-chip"><input type="radio" name="day-selection" value="4"><span data-translate-key="day_4">Day 4</span></label>
+                    </div>
+                    <button id="start-day-btn" class="cta-button primary" style="margin-top: 2rem; width: 100%;" data-translate-key="start_day_practice">Start Lesson 🚀</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/data/curriculum.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/translate.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const unlockBtn = document.getElementById('unlock-btn');
+            const codeInput = document.getElementById('student-code');
+            const errorMsg = document.getElementById('unlock-error');
+            const gate = document.getElementById('unlock-gate');
+            const content = document.getElementById('curriculum-content');
+
+            // The code is hidden here in a simple way as requested
+            const SECRET_CODE = "COSYSTUDENT2025";
+
+            unlockBtn.addEventListener('click', () => {
+                if (codeInput.value.trim().toUpperCase() === SECRET_CODE) {
+                    gate.style.display = 'none';
+                    content.style.display = 'block';
+                    localStorage.setItem('student_unlocked', 'true');
+                } else {
+                    errorMsg.style.display = 'block';
+                }
+            });
+
+            if (localStorage.getItem('student_unlocked') === 'true') {
+                gate.style.display = 'none';
+                content.style.display = 'block';
+            }
+
+            document.getElementById('start-day-btn').addEventListener('click', () => {
+                const day = document.querySelector('input[name="day-selection"]:checked').value;
+                const lang = localStorage.getItem('language') || 'en';
+                // Redirect to practice page with lesson param
+                window.location.href = `practice.html?lang=${lang}&lesson=${day}&mode=linear&cat=curriculum`;
+            });
+        });
+    </script>
+</body>
+</html>
