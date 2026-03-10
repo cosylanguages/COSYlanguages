@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="nav_courses">Courses 📚 - COSYlanguages</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="practice-page">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/cosylanguages.png" alt="COSYlanguages Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li>
+                <li><a href="days.html" data-translate-key="nav_courses">Courses 📚</a></li>
+                <li><a href="index.html#calculator" data-translate-key="nav_calculator">Calculator 🧮</a></li>
+                <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
+                <li><a href="practice.html" data-translate-key="nav_practice">Practice 💡</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher-container">
+            <select id="language-switcher">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+                <option value="ru">Русский</option>
+                <option value="el">Ελληνικά</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section id="practice-container">
+            <h2 data-translate-key="curriculum_title">Days Curriculum 🗓️</h2>
+
+            <div id="practice-section">
+                <div id="practice-progress" class="progress-bar-container">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <div id="progress-text"></div>
+
+                <div id="question-card" class="event-item">
+                    <div id="lesson-info" class="lesson-badge"></div>
+                    <div id="emoji-display" class="practice-emoji"></div>
+                    <div id="task-instruction" class="task-text"></div>
+                    <div id="task-example" class="subtext-display" style="display: none; background: rgba(255, 193, 7, 0.1); border-color: var(--secondary-color); margin-bottom: 1rem;"></div>
+                    <div class="word-container">
+                        <div id="word-display" class="word-text"></div>
+                        <button id="listen-btn" class="icon-btn" title="Listen">🔊</button>
+                    </div>
+                    <div id="subtext-display" class="subtext-display"></div>
+
+                    <div id="answer-area">
+                        <!-- Opposite/Cloze task -->
+                        <div id="opposite-input-container" style="display: none;">
+                            <input type="text" id="opposite-answer" data-translate-key="placeholder_type_here" placeholder="...">
+                            <button id="check-opposite-btn" class="topics-toggle-btn" data-translate-key="check_btn">Check 🔍</button>
+                            <button id="hint-btn" class="topics-toggle-btn secondary-btn" style="display: none;" data-translate-key="hint_btn">Hint 💡</button>
+                        </div>
+
+                        <!-- True/False task -->
+                        <div id="tf-buttons-container" style="display: none;">
+                            <button id="true-btn" class="topics-toggle-btn" data-translate-key="true_btn">True ✅</button>
+                            <button id="false-btn" class="topics-toggle-btn" data-translate-key="false_btn">False ❌</button>
+                        </div>
+
+                        <!-- Multiple Choice task -->
+                        <div id="choices-grid" class="choices-grid" style="display: none;">
+                            <!-- Buttons will be generated here -->
+                        </div>
+
+                        <!-- Scramble task -->
+                        <div id="scramble-container" style="display: none;">
+                            <div id="word-assembly" class="word-assembly"></div>
+                            <div id="scramble-letters" class="choices-grid"></div>
+                            <button id="clear-scramble-btn" class="topics-toggle-btn secondary-btn" data-translate-key="clear_btn">Clear 🔄</button>
+                        </div>
+
+                        <!-- Conversation task -->
+                        <div id="conversation-container" style="display: none;">
+                            <textarea id="conversation-response" class="pill-input" style="width: 100%; height: 100px; padding: 15px; border-radius: 20px; margin-bottom: 10px;" data-translate-key="placeholder_conversation" placeholder="Type your response here..."></textarea>
+                            <button id="finish-conversation-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
+                        </div>
+                    </div>
+
+                    <div id="feedback-message" class="feedback-text"></div>
+                    <button id="next-btn" class="cta-button" style="display: none;" data-translate-key="next_word">Next Word ➡️</button>
+                </div>
+
+                <div class="practice-footer" style="display: flex; justify-content: center; gap: 2rem; margin-top: 20px;">
+                    <div><span data-translate-key="score_label">COSY Points: ✨</span> <span id="score-count">0</span></div>
+                </div>
+                <div style="text-align: center; margin-top: 30px;">
+                    <button id="exit-lesson-btn" class="cta-button secondary" data-translate-key="exit_btn">Exit Lesson 🏠</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="summary-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content glass">
+            <h2 data-translate-key="session_summary_title">Session Summary 🎉</h2>
+            <div class="summary-stats">
+                <div class="stat-item">
+                    <p data-translate-key="session_points">Session Points:</p>
+                    <span id="final-score" class="stat-value">0</span>
+                    <span class="stat-emoji">✨</span>
+                </div>
+            </div>
+            <button id="back-to-menu-btn" class="cta-button" data-translate-key="back_to_menu">Back to Menu 🏠</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact">
+            <h3 data-translate-key="contact_title">Contact Us 📬</h3>
+            <p><span data-translate-key="contact_whatsapp">WhatsApp 📱:</span> <a href="https://wa.me/330766784195">+33 07 66 78 41 95</a></p>
+            <p><span data-translate-key="contact_telegram">Telegram ✈️:</span> <a href="https://t.me/cosylanguagesproject" target="_blank" rel="noopener noreferrer">@cosylanguages</a></p>
+        </div>
+    </footer>
+
+    <script src="js/data/curriculum.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/translate.js"></script>
+    <script src="js/lesson.js"></script>
+</body>
+</html>

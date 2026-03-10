@@ -42,8 +42,8 @@ test('Student Area access and day selection', async ({ page }) => {
     await page.click('input[name="day-selection"][value="2"] + span');
     await page.click('#start-day-btn');
 
-    // Should redirect to practice.html with params
-    await expect(page).toHaveURL(/practice.html.*lesson=2.*cat=curriculum/);
+    // Should redirect to lesson.html with params
+    await expect(page).toHaveURL(/lesson.html.*lesson=2/);
 });
 
 test('Game launch with new theme filters', async ({ page }) => {

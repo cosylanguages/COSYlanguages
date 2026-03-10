@@ -90,7 +90,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const modeParam = urlParams.get('mode'); // 'wheel' or 'linear'
     const langParam = urlParams.get('lang'); // 'en', 'fr', 'it', 'ru', 'el'
-    const lessonParam = urlParams.get('lesson'); // e.g. '1', '1-3'
     const catParam = urlParams.get('cat'); // 'vocab', 'grammar', 'speaking'
     const embedParam = urlParams.get('embed'); // 'true'
 
@@ -114,10 +113,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    if (lessonParam) {
-        const lessonInput = document.getElementById('lesson-range');
-        if (lessonInput) lessonInput.value = lessonParam;
-    }
 
     if (catParam) {
         const catRadio = document.getElementById(`cat-${catParam}`);
@@ -141,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         // Start after a small delay to ensure DOM and translations are ready
         setTimeout(() => startPractice(true), 500);
-    } else if (modeParam === 'linear' || (!modeParam && langParam && lessonParam)) {
+    } else if (modeParam === 'linear' || (!modeParam && langParam && catParam)) {
         setTimeout(() => startPractice(false), 500);
     }
 
@@ -562,26 +557,6 @@ function triggerAnimation(type) {
 }
 
 
-function parseLessonRange(val) {
-    let lessons = [];
-    const range = val.trim();
-    if (range.includes('-')) {
-        const parts = range.split('-');
-        const start = parseInt(parts[0]);
-        const end = parseInt(parts[1]);
-        if (!isNaN(start) && !isNaN(end)) {
-            for (let i = start; i <= end; i++) {
-                lessons.push(i);
-            }
-        }
-    } else {
-        const l = parseInt(range);
-        if (!isNaN(l)) {
-            lessons.push(l);
-        }
-    }
-    return lessons;
-}
 
 function startPractice(isWheelMode = false) {
     const activeLangCard = document.querySelector('.lang-selection-card.active');
@@ -591,8 +566,6 @@ function startPractice(isWheelMode = false) {
     const urlParams = new URLSearchParams(window.location.search);
     const selectedLevel = urlParams.get('level') || document.getElementById('practice-level').value;
     const selectedTheme = urlParams.get('theme') || document.getElementById('practice-theme').value;
-    const catParam = urlParams.get('cat');
-    const lessonParam = urlParams.get('lesson');
 
     currentPractice.words = [];
 
@@ -617,35 +590,24 @@ function startPractice(isWheelMode = false) {
 
     let rawItems = [];
 
-    if (catParam === 'curriculum') {
-        const lessons = parseLessonRange(lessonParam);
-        lessons.forEach(l => {
-            if (lessonsData[lang] && lessonsData[lang][l]) {
-                lessonsData[lang][l].words.forEach(w => {
-                    rawItems.push({...w, lessonTitle: lessonsData[lang][l].title});
-                });
+    if (selectedCat === 'speaking' || isWheelMode) {
+        const sd = speakingData[lang] || {};
+        // For general practice, we use all categories from speakingData
+        Object.values(sd).forEach(list => {
+            if (Array.isArray(list)) {
+                list.forEach(item => rawItems.push({...item, category: 'conversation'}));
             }
         });
     } else {
-        if (selectedCat === 'speaking' || isWheelMode) {
-            const sd = speakingData[lang] || {};
-            // For general practice, we use all categories from speakingData
-            Object.values(sd).forEach(list => {
-                if (Array.isArray(list)) {
-                    list.forEach(item => rawItems.push({...item, category: 'conversation'}));
-                }
-            });
-        } else {
-            rawItems = vocabularyData[lang] || [];
-        }
+        rawItems = vocabularyData[lang] || [];
+    }
 
-        // Filter by Level & Theme
-        if (selectedLevel !== 'all') {
-            rawItems = rawItems.filter(item => item.level === selectedLevel);
-        }
-        if (selectedTheme !== 'all') {
-            rawItems = rawItems.filter(item => item.theme === selectedTheme);
-        }
+    // Filter by Level & Theme
+    if (selectedLevel !== 'all') {
+        rawItems = rawItems.filter(item => item.level === selectedLevel);
+    }
+    if (selectedTheme !== 'all') {
+        rawItems = rawItems.filter(item => item.theme === selectedTheme);
     }
 
     if (rawItems.length === 0) {
@@ -897,7 +859,6 @@ function showNextWord() {
     document.getElementById('conversation-container').style.display = 'none';
     document.getElementById('hint-btn').style.display = (wordObj.type === 'true_false' || wordObj.type === 'conversation' ? 'none' : 'inline-block');
 
-    document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
     // Show Example
     const exampleEl = document.getElementById('task-example');

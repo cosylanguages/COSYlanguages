@@ -1,7 +1,10 @@
 import { test, expect } from '@playwright/test';
+import path from 'path';
+
+const fileUrl = (filename) => 'file://' + path.resolve(filename);
 
 test('events page game rebranding and modals', async ({ page }) => {
-    await page.goto('http://localhost:8080/events.html');
+    await page.goto(fileUrl('events.html'));
 
     // Toggle games section
     const toggleBtn = page.locator('#toggle-games-btn');
