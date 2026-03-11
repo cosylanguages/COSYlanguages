@@ -65,10 +65,10 @@ function startLesson() {
     const lang = currentLesson.language;
     const day = currentLesson.day;
 
-    if (lessonsData[lang] && lessonsData[lang][day]) {
-        const rawItems = lessonsData[lang][day].words;
+    if (window.lessonsData && window.lessonsData[lang] && window.lessonsData[lang][day]) {
+        const rawItems = window.lessonsData[lang][day].words;
         currentLesson.words = rawItems.map(item => {
-            let wordCopy = { ...item, lessonTitle: lessonsData[lang][day].title };
+            let wordCopy = { ...item, lessonTitle: window.lessonsData[lang][day].title };
 
             // Determine task type based on available metadata
             let possibleTypes = ['multiple_choice', 'scramble', 'true_false'];

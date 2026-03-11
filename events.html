@@ -145,12 +145,15 @@
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select id="charades-theme" class="pill-input" style="width: 100%;">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
-                                <option value="people_society" data-translate-key="theme_people">People & Society 🌟</option>
+                                <option value="profession" data-translate-key="theme_profession">Professions 🧑‍🔧</option>
+                                <option value="family" data-translate-key="theme_family">Family 👨‍👩‍👧‍👦</option>
+                                <option value="nationality" data-translate-key="theme_nationality">Nationalities 🏳️</option>
+                                <option value="animal" data-translate-key="theme_animal">Animals 🐾</option>
+                                <option value="famous_people" data-translate-key="theme_famous_people">Famous People 🌟</option>
                                 <option value="daily_life" data-translate-key="daily_life">Daily Life 🛒</option>
                                 <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
                                 <option value="travel_places" data-translate-key="theme_places">Travel & Places 📍</option>
                                 <option value="leisure_hobbies" data-translate-key="theme_hobby">Leisure & Hobbies 🎨</option>
-                                <option value="nature_environment" data-translate-key="theme_environment">Nature & Environment 🌿</option>
                                 <option value="science_technology" data-translate-key="theme_technology">Science & Technology 📱</option>
                                 <option value="health_body" data-translate-key="theme_health">Health & Body 🦷</option>
                                 <option value="education_work" data-translate-key="theme_education">Education & Work 🎓</option>
@@ -232,7 +235,11 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select class="pill-input game-theme" style="width: 100%;">
-                                <option value="people_society" data-translate-key="theme_people">People & Society 🌟</option>
+                                <option value="profession" data-translate-key="theme_profession">Professions 🧑‍🔧</option>
+                                <option value="family" data-translate-key="theme_family">Family 👨‍👩‍👧‍👦</option>
+                                <option value="nationality" data-translate-key="theme_nationality">Nationalities 🏳️</option>
+                                <option value="animal" data-translate-key="theme_animal">Animals 🐾</option>
+                                <option value="famous_people" data-translate-key="theme_famous_people">Famous People 🌟</option>
                             </select>
                         </div>
                     </div>
@@ -298,7 +305,7 @@
                                 <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
                                 <option value="travel_places" data-translate-key="theme_places">Travel & Places 📍</option>
                                 <option value="leisure_hobbies" data-translate-key="theme_hobby">Leisure & Hobbies 🎨</option>
-                                <option value="nature_environment" data-translate-key="theme_environment">Nature & Environment 🌿</option>
+                                <option value="animal" data-translate-key="theme_animal">Animals 🐾</option>
                                 <option value="science_technology" data-translate-key="theme_technology">Science & Technology 📱</option>
                                 <option value="health_body" data-translate-key="theme_health">Health & Body 🦷</option>
                             </select>
@@ -670,11 +677,22 @@
 
     <script src="js/data/alphabets.js"></script>
     <script src="js/data/vocabulary.js"></script>
+    <script src="js/data/people.js"></script>
     <script src="js/data/speaking.js"></script>
-    <script src="js/data/curriculum.js"></script>
+    <script src="js/data/lessons/day1.js"></script>
+    <script src="js/data/lessons/day2.js"></script>
+    <script src="js/data/lessons/day3.js"></script>
+    <script src="js/data/lessons/day4.js"></script>
     <script src="js/script.js"></script>
     <script src="js/translations.js"></script>
     <script src="js/translate.js"></script>
-    <script src="js/games.js"></script>
+
+    <!-- Games Logic -->
+    <script src="js/games/utils/shared.js"></script>
+    <script src="js/games/charades.js"></script>
+    <script src="js/games/guess_games.js"></script>
+    <script src="js/games/bingo.js"></script>
+    <script src="js/games/speaking_games.js"></script>
+    <script src="js/games/loader.js"></script>
 </body>
 </html>

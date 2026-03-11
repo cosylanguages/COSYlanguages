@@ -5,3 +5,4 @@ const alphabetsData = {
     "ru": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
     "el": "αβγδεζηθικλμνξοπρστυφχψω"
 };
+window.alphabetsData = alphabetsData;
