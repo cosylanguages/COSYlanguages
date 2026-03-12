@@ -67,11 +67,29 @@ document.addEventListener('DOMContentLoaded', () => {
         ];
 
         const grammarThemes = [
-            { value: 'grammar_conjugation', key: 'theme_grammar_conjugation' },
+            { value: 'grammar_present_simple', key: 'theme_grammar_present_simple' },
+            { value: 'grammar_lets', key: 'theme_grammar_lets' },
+            { value: 'grammar_possessive_adjectives', key: 'theme_grammar_possessive_adjectives' },
             { value: 'grammar_plurals', key: 'theme_grammar_plurals' },
-            { value: 'grammar_prepositions', key: 'theme_grammar_prepositions' },
-            { value: 'grammar_countable', key: 'theme_grammar_countable' },
-            { value: 'grammar_articles', key: 'theme_grammar_articles' },
+            { value: 'grammar_imperative', key: 'theme_grammar_imperative' },
+            { value: 'grammar_possessive_s', key: 'theme_grammar_possessive_s' },
+            { value: 'grammar_telling_time', key: 'theme_grammar_telling_time' },
+            { value: 'grammar_future_simple', key: 'theme_grammar_future_simple' },
+            { value: 'grammar_prepositions_time', key: 'theme_grammar_prepositions_time' },
+            { value: 'grammar_prepositions_place', key: 'theme_grammar_prepositions_place' },
+            { value: 'grammar_ordinal_numbers', key: 'theme_grammar_ordinal_numbers' },
+            { value: 'grammar_there_is_are', key: 'theme_grammar_there_is_are' },
+            { value: 'grammar_demonstrative_pronouns', key: 'theme_grammar_demonstrative_pronouns' },
+            { value: 'grammar_countable_uncountable', key: 'theme_grammar_countable_uncountable' },
+            { value: 'grammar_much_many_a_lot', key: 'theme_grammar_much_many_a_lot' },
+            { value: 'grammar_past_simple', key: 'theme_grammar_past_simple' },
+            { value: 'grammar_objective_pronouns', key: 'theme_grammar_objective_pronouns' },
+            { value: 'grammar_question_words', key: 'theme_grammar_question_words' },
+            { value: 'grammar_gender_articles', key: 'theme_grammar_gender_articles' },
+            { value: 'grammar_contractions', key: 'theme_grammar_contractions' },
+            { value: 'grammar_verb_groups', key: 'theme_grammar_verb_groups' },
+            { value: 'grammar_partitive_articles', key: 'theme_grammar_partitive_articles' },
+            { value: 'grammar_reflexive_pronouns', key: 'theme_grammar_reflexive_pronouns' },
             { value: 'grammar_cases', key: 'theme_grammar_cases' }
         ];
 
