@@ -395,7 +395,7 @@ function showHint() {
 
     let targetAnswer = "";
     if (wordObj.type === 'cloze' || wordObj.type === 'multiple_choice' || wordObj.type === 'scramble' || wordObj.type === 'gender_articles' || wordObj.type === 'number_plural') {
-        targetAnswer = wordObj.answer || wordObj.word || wordObj.article || wordObj.gender;
+        targetAnswer = wordObj.answer || wordObj.word || wordObj.text || wordObj.topic || wordObj.article || wordObj.gender;
     } else if (wordObj.type === 'opposite') {
         targetAnswer = wordObj.opposite;
     } else {
@@ -414,7 +414,7 @@ function speakWord() {
     // Prioritize baseWord for gender/articles tasks to avoid revealing the answer
     msg.text = (currentPractice.currentWord.type === 'gender_articles' && currentPractice.currentWord.baseWord)
         ? currentPractice.currentWord.baseWord
-        : (currentPractice.currentWord.word || currentPractice.currentWord.baseWord);
+        : (currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.baseWord);
 
     const langMap = {
         en: 'en-US',
@@ -736,8 +736,12 @@ function drawWheel() {
         ctx.textAlign = "right";
         ctx.fillStyle = "#fff";
         ctx.font = "bold 20px Georgia";
-        // Use emoji + word if space allows, or just emoji
-        const displayText = (items.length > 10) ? item.emoji : (item.emoji + " " + item.word);
+
+        // Handle different property names for text
+        const itemText = item.word || item.text || item.topic || "";
+        // Use emoji + text if space allows, or just emoji
+        const displayText = (items.length > 10) ? item.emoji : ((item.emoji || "💬") + " " + itemText);
+
         ctx.fillText(displayText, radius - 20, 10);
         ctx.restore();
     });
@@ -784,8 +788,8 @@ function spinWheel() {
 
 function showWheelQuestion(wordObj) {
     document.getElementById('wheel-question-area').style.display = 'block';
-    document.getElementById('wheel-emoji-display').textContent = wordObj.emoji;
-    document.getElementById('wheel-word-display').textContent = wordObj.word;
+    document.getElementById('wheel-emoji-display').textContent = wordObj.emoji || "💬";
+    document.getElementById('wheel-word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
 
     const subtextEl = document.getElementById('wheel-subtext-display');
     if (subtextEl) {
@@ -923,7 +927,7 @@ function showNextWord() {
 
     if (wordObj.type === 'multiple_choice' || wordObj.type === 'listen_select') {
         const isListen = wordObj.type === 'listen_select';
-        let text = isListen ? '???' : (wordObj.clozeText || wordObj.word);
+        let text = isListen ? '???' : (wordObj.clozeText || wordObj.word || wordObj.text || wordObj.topic);
 
         // Fix redundancy: hide target word for MC vocab if emoji is present
         if (!isListen && (wordObj.category === 'vocabulary' || !wordObj.category) && wordObj.emoji) {
@@ -962,7 +966,7 @@ function showNextWord() {
         document.getElementById('choices-grid').style.display = 'grid';
         renderGenderArticles();
     } else if (wordObj.type === 'true_false') {
-        document.getElementById('word-display').textContent = wordObj.word;
+        document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
         const isTrueQuestion = Math.random() > 0.5;
         currentPractice.tfCorrectAnswer = isTrueQuestion;
 
@@ -978,7 +982,7 @@ function showNextWord() {
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
         document.getElementById('tf-buttons-container').style.display = 'flex';
     } else if (wordObj.type === 'conversation') {
-        document.getElementById('word-display').textContent = wordObj.word;
+        document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_conversation');
         document.getElementById('conversation-container').style.display = 'block';
@@ -986,8 +990,8 @@ function showNextWord() {
         document.getElementById('conversation-response').focus();
     } else {
         // opposite
-        document.getElementById('word-display').textContent = wordObj.word;
-        document.getElementById('emoji-display').textContent = wordObj.emoji;
+        document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
+        document.getElementById('emoji-display').textContent = wordObj.emoji || "💡";
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_opposite');
         document.getElementById('opposite-input-container').style.display = 'flex';
         document.getElementById('opposite-answer').focus();
@@ -1003,13 +1007,13 @@ function renderMultipleChoice() {
     const choicesGrid = document.getElementById('choices-grid');
     choicesGrid.innerHTML = '';
 
-    const correctAnswer = wordObj.answer || wordObj.word;
+    const correctAnswer = wordObj.answer || wordObj.word || wordObj.text || wordObj.topic;
     const choices = [correctAnswer];
 
     const pool = vocabularyData[currentPractice.language] || [];
 
     const distractorPool = pool
-        .map(w => w.answer || w.word)
+        .map(w => w.answer || w.word || w.text || w.topic)
         .filter(val => val && val.toLowerCase() !== correctAnswer.toLowerCase());
 
     const shuffledPool = distractorPool.sort(() => Math.random() - 0.5);
@@ -1063,7 +1067,7 @@ function renderGenderArticles() {
 
 function checkMultipleChoiceAnswer(choice, btn) {
     const wordObj = currentPractice.currentWord;
-    const correctAnswer = (wordObj.answer || wordObj.word).toLowerCase();
+    const correctAnswer = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic).toLowerCase();
 
     if (choice.toLowerCase() === correctAnswer) {
         btn.classList.add('correct');
@@ -1083,7 +1087,7 @@ function renderScramble() {
     wordAssembly.textContent = '';
     currentPractice.scrambleAnswer = '';
 
-    const wordToScramble = (wordObj.answer || wordObj.word).replace(/\s/g, '');
+    const wordToScramble = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic).replace(/\s/g, '');
     const letters = wordToScramble.split('').sort(() => Math.random() - 0.5);
 
     letters.forEach(letter => {
@@ -1113,7 +1117,7 @@ function renderWordScramble() {
     currentPractice.scrambleAnswerWords = [];
 
     // For Sentence Builder, we always use the full sentence
-    const sentence = wordObj.word;
+    const sentence = wordObj.word || wordObj.text || wordObj.topic;
     const words = sentence.split(' ').sort(() => Math.random() - 0.5);
 
     words.forEach(word => {
@@ -1145,7 +1149,7 @@ function clearScramble() {
 
 function checkScrambleAnswer() {
     const wordObj = currentPractice.currentWord;
-    const target = (wordObj.answer || wordObj.word).replace(/\s/g, '').toLowerCase();
+    const target = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic).replace(/\s/g, '').toLowerCase();
     const current = currentPractice.scrambleAnswer.toLowerCase();
 
     if (current === target) {
@@ -1158,7 +1162,7 @@ function checkScrambleAnswer() {
 
 function checkWordScrambleAnswer() {
     const wordObj = currentPractice.currentWord;
-    const target = wordObj.word.toLowerCase().replace(/[.!?]/g, '').trim();
+    const target = (wordObj.word || wordObj.text || wordObj.topic).toLowerCase().replace(/[.!?]/g, '').trim();
     const current = currentPractice.scrambleAnswerWords.join(' ').toLowerCase().replace(/[.!?]/g, '').trim();
 
     if (current === target) {

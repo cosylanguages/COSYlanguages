@@ -12,74 +12,102 @@ document.addEventListener('DOMContentLoaded', () => {
     const mode = urlParams.get('mode'); // for bingo: 'caller' or 'player'
 
     if (game) {
+        // Safe helpers
+        const setById = (id, val) => {
+            const el = document.getElementById(id);
+            if (el) el.value = val;
+        };
+        const setBySelector = (modalId, selector, val) => {
+            const modal = document.getElementById(modalId);
+            if (!modal) return;
+            const el = modal.querySelector(selector);
+            if (el) el.value = val;
+        };
+
         // Wait for other scripts to initialize
         setTimeout(() => {
             if (game === 'charades' || game === 'action_hero') {
                 if (window.charadesGame) {
                     window.charadesGame.open();
-                    if (lang) document.getElementById('charades-lang').value = lang;
-                    if (level) document.getElementById('charades-level').value = level;
-                    if (theme) document.getElementById('charades-theme').value = theme;
-                    if (lesson) {
-                         const lessonInput = document.getElementById('charades-lessons');
-                         if (lessonInput) lessonInput.value = lesson;
-                    }
+                    if (lang) setById('charades-lang', lang);
+                    if (level) setById('charades-level', level);
+                    if (theme) setById('charades-theme', theme);
+                    if (lesson) setById('charades-lessons', lesson);
                     window.charadesGame.start();
                 }
             } else if (game === 'guess-who' || game === 'identity_mystery') {
                 if (window.guessWhoGame) {
                     window.guessWhoGame.open();
-                    const modal = document.getElementById('guess-who-modal');
-                    if (lang) modal.querySelector('.game-lang').value = lang;
-                    if (level) modal.querySelector('.game-level').value = level;
-                    if (theme) modal.querySelector('.game-theme').value = theme;
+                    if (lang) setBySelector('guess-who-modal', '.game-lang', lang);
+                    if (level) setBySelector('guess-who-modal', '.game-level', level);
+                    if (theme) setBySelector('guess-who-modal', '.game-theme', theme);
                     window.guessWhoGame.start();
                 }
             } else if (game === 'guess-what' || game === 'object_quest') {
                 if (window.guessWhatGame) {
                     window.guessWhatGame.open();
-                    const modal = document.getElementById('guess-what-modal');
-                    if (lang) modal.querySelector('.game-lang').value = lang;
-                    if (level) modal.querySelector('.game-level').value = level;
-                    if (theme) modal.querySelector('.game-theme').value = theme;
+                    if (lang) setBySelector('guess-what-modal', '.game-lang', lang);
+                    if (level) setBySelector('guess-what-modal', '.game-level', level);
+                    if (theme) setBySelector('guess-what-modal', '.game-theme', theme);
                     window.guessWhatGame.start();
                 }
             } else if (game === 'bingo' || game === 'lucky_numbers') {
                 if (window.bingoGame) {
                     window.bingoGame.open();
-                    if (lang) document.getElementById('bingo-lang').value = lang;
-                    if (level) document.getElementById('bingo-level').value = level;
-                    if (seed) document.getElementById('bingo-seed').value = seed;
+                    if (lang) setById('bingo-lang', lang);
+                    if (level) setById('bingo-level', level);
+                    if (seed) setById('bingo-seed', seed);
                     if (mode === 'caller') window.bingoGame.startCaller();
                     else if (mode === 'player') window.bingoGame.startPlayer();
                 }
             } else if (game === 'debates' || game === 'battle_of_wits') {
                 if (window.debatesGame) {
                     window.debatesGame.open();
-                    if (lang) document.getElementById('debates-lang').value = lang;
-                    if (level) document.getElementById('debates-level').value = level;
+                    if (lang) setById('debates-lang', lang);
+                    if (level) setById('debates-level', level);
                     window.debatesGame.start();
                 }
             } else if (game === 'talk-talk' || game === 'fluency_flow') {
                 if (window.talkTalkGame) {
                     window.talkTalkGame.open();
-                    if (lang) document.getElementById('talk-lang').value = lang;
-                    if (level) document.getElementById('talk-level').value = level;
+                    if (lang) setById('talk-lang', lang);
+                    if (level) setById('talk-level', level);
                     window.talkTalkGame.start();
                 }
             } else if (game === 'opinion_arena') {
                 if (window.opinionArenaGame) {
                     window.opinionArenaGame.open();
-                    if (lang) document.getElementById('opinion-lang').value = lang;
-                    if (level) document.getElementById('opinion-level').value = level;
+                    if (lang) setById('opinion-lang', lang);
+                    if (level) setById('opinion-level', level);
                     window.opinionArenaGame.start();
                 }
             } else if (game === 'critics_corner') {
                 if (window.criticsCornerGame) {
                     window.criticsCornerGame.open();
-                    if (lang) document.getElementById('critics-lang').value = lang;
-                    if (level) document.getElementById('critics-level').value = level;
+                    if (lang) setById('critics-lang', lang);
+                    if (level) setById('critics-level', level);
                     window.criticsCornerGame.start();
+                }
+            } else if (game === 'emoji_odyssey') {
+                if (window.emojiOdysseyGame) {
+                    window.emojiOdysseyGame.open();
+                    if (lang) setById('emoji-lang', lang);
+                    if (level) setById('emoji-level', level);
+                    window.emojiOdysseyGame.start();
+                }
+            } else if (game === 'word_linker') {
+                if (window.wordLinkerGame) {
+                    window.wordLinkerGame.open();
+                    if (lang) setById('linker-lang', lang);
+                    if (level) setById('linker-level', level);
+                    window.wordLinkerGame.start();
+                }
+            } else if (game === 'perfect_match') {
+                if (window.perfectMatchGame) {
+                    window.perfectMatchGame.open();
+                    if (lang) setById('match-lang', lang);
+                    if (level) setById('match-level', level);
+                    window.perfectMatchGame.start();
                 }
             }
 

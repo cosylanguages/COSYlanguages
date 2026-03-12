@@ -1,4 +1,5 @@
-const peopleData = {
+(function() {
+    const peopleData = {
     "en": [
         {
             "word": "Albert Einstein",
@@ -225,4 +226,14 @@ const peopleData = {
         }
     ]
 };
-window.peopleData = peopleData;
+
+    if (window.vocabularyData) {
+        for (let lang in peopleData) {
+            if (window.vocabularyData[lang]) {
+                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...peopleData[lang].map(p => ({...p, theme: 'famous_people'}))];
+            }
+        }
+    }
+
+    window.peopleData = peopleData;
+})();

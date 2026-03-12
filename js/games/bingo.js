@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             clearInterval(speedInterval);
+            window.speechSynthesis.cancel();
         });
 
         const preparePool = () => {
@@ -102,8 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
             setupArea.style.display = 'none';
             callerArea.style.display = 'block';
 
+            clearInterval(speedInterval);
             if (speedModeToggle?.checked) {
-                clearInterval(speedInterval);
                 speedInterval = setInterval(() => {
                     callNext();
                 }, 5000);
@@ -138,6 +139,22 @@ document.addEventListener('DOMContentLoaded', () => {
             generatePlayerCard();
             setupArea.style.display = 'none';
             playerArea.style.display = 'block';
+
+            const soloMode = document.getElementById('bingo-solo-mode')?.checked;
+            clearInterval(speedInterval);
+            if (soloMode) {
+                const pool = preparePool();
+                const seed = getSeed();
+                bingoPool = seededShuffle([...pool], seed);
+                speedInterval = setInterval(() => {
+                    if (bingoPool.length === 0) {
+                        clearInterval(speedInterval);
+                        return;
+                    }
+                    const item = bingoPool.pop();
+                    speak(item.toString(), document.getElementById('bingo-lang').value);
+                }, 5000);
+            }
         };
 
         startPlayerBtn?.addEventListener('click', startBingoPlayer);

@@ -78,13 +78,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const theme = themeSelect.value;
             const level = modal.querySelector('.game-level').value;
 
-            if (theme === 'famous_people') {
-                const people = window.peopleData && window.peopleData[lang] || [];
-                pool = [...people];
-            } else {
-                const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
-                pool = vocab.filter(item => item.theme === theme);
-            }
+            const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
+            pool = vocab.filter(item => item.theme === theme);
 
             if (level !== 'all') {
                 pool = pool.filter(item => item.level === level);
