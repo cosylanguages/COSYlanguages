@@ -71,9 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             } else {
                 const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
-                const people = window.peopleData && window.peopleData[lang] || [];
-                const allVocab = [...vocab, ...people.map(p => ({...p, theme: 'famous_people'}))];
-                pool = allVocab.filter(item => (theme === 'all' || item.theme === theme));
+                pool = vocab.filter(item => (theme === 'all' || item.theme === theme));
             }
 
             if (level !== 'all') {
