@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { speak, seededShuffle, handleShare } = window.gameUtils;
+    const { speak, seededShuffle, handleShare, playGameSound } = window.gameUtils;
 
     const initBingo = () => {
         const modal = document.getElementById('bingo-modal');
@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearInterval(speedInterval);
                 return;
             }
+            playGameSound('click');
             const item = bingoPool.pop();
             calledItems.push(item);
             lastCalledDisplay.textContent = item;
@@ -128,7 +129,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 const cell = document.createElement('div');
                 cell.className = 'bingo-cell card glass';
                 cell.textContent = item;
-                cell.onclick = () => cell.classList.toggle('marked');
+                cell.onclick = () => {
+                    playGameSound('click');
+                    cell.classList.toggle('marked');
+                };
                 playerGrid.appendChild(cell);
             });
             cardNumDisplay.textContent = currentCardIndex + 1;

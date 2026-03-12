@@ -23,14 +23,74 @@ const startTimer = (displayId, duration, onEnd) => {
     gameTimerInterval = setInterval(() => {
         timeLeft--;
         updateDisplay();
+        if (timeLeft > 0 && timeLeft <= 5) {
+            playGameSound('timer-tick');
+        }
         if (timeLeft <= 0) {
             clearInterval(gameTimerInterval);
+            playGameSound('error'); // Time's up sound
             if (onEnd) onEnd();
         }
     }, 1000);
 };
 
 const stopTimer = () => clearInterval(gameTimerInterval);
+
+let audioCtx = null;
+const initAudio = () => {
+    if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+    }
+};
+
+const playGameSound = (type) => {
+    try {
+        initAudio();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        const now = audioCtx.currentTime;
+
+        if (type === 'click') {
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(600, now);
+            gain.gain.setValueAtTime(0.1, now);
+            gain.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
+            osc.start(now);
+            osc.stop(now + 0.1);
+        } else if (type === 'success') {
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(523.25, now); // C5
+            osc.frequency.exponentialRampToValueAtTime(659.25, now + 0.1); // E5
+            osc.frequency.exponentialRampToValueAtTime(783.99, now + 0.2); // G5
+            gain.gain.setValueAtTime(0.1, now);
+            gain.gain.exponentialRampToValueAtTime(0.01, now + 0.3);
+            osc.start(now);
+            osc.stop(now + 0.3);
+        } else if (type === 'error') {
+            osc.type = 'square';
+            osc.frequency.setValueAtTime(150, now);
+            gain.gain.setValueAtTime(0.05, now);
+            gain.gain.exponentialRampToValueAtTime(0.01, now + 0.2);
+            osc.start(now);
+            osc.stop(now + 0.2);
+        } else if (type === 'timer-tick') {
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(1200, now);
+            gain.gain.setValueAtTime(0.05, now);
+            gain.gain.exponentialRampToValueAtTime(0.01, now + 0.05);
+            osc.start(now);
+            osc.stop(now + 0.05);
+        }
+    } catch (e) {
+        console.warn("Sound playback failed", e);
+    }
+};
 
 const parseLessons = (input) => {
     const lessons = new Set();
@@ -174,5 +234,5 @@ if (typeof document !== 'undefined') {
 
 // Export to window
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, parseLessons, speak, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis
 };

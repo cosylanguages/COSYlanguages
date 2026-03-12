@@ -78,8 +78,12 @@ document.addEventListener('DOMContentLoaded', () => {
             clues.forEach(clue => {
                 const badge = document.createElement('span');
                 badge.className = 'badge glass';
-                badge.style.padding = '5px 15px';
-                badge.style.borderRadius = '20px';
+                badge.style.padding = '10px 20px';
+                badge.style.borderRadius = '30px';
+                badge.style.fontSize = '1.2rem';
+                badge.style.fontWeight = '700';
+                badge.style.color = 'var(--primary-color)';
+                badge.style.boxShadow = '0 4px 10px rgba(0,0,0,0.05)';
                 badge.textContent = clue;
                 cluesArea.appendChild(badge);
             });
@@ -107,6 +111,8 @@ document.addEventListener('DOMContentLoaded', () => {
             options.forEach(opt => {
                 const btn = document.createElement('button');
                 btn.className = 'choice-btn pill-input';
+                btn.style.fontSize = '1.1rem';
+                btn.style.fontWeight = '700';
                 btn.textContent = opt;
                 btn.onclick = () => {
                     if (opt === current.word) {

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, startTimer, stopTimer, parseLessons, handleShare } = window.gameUtils;
+    const { getLang, t, startTimer, stopTimer, parseLessons, handleShare, playGameSound } = window.gameUtils;
 
     const initCharades = () => {
         const modal = document.getElementById('charades-modal');
@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 endGame();
                 return;
             }
+            playGameSound('click');
             const item = pool.pop();
             wordDisplay.textContent = typeof item === 'string' ? item : (item.answer || item.word);
             emojiDisplay.textContent = item.emoji || '🎭';
@@ -99,8 +100,15 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         startBtn?.addEventListener('click', startCharades);
-        correctBtn?.addEventListener('click', () => { score++; showNext(); });
-        incorrectBtn?.addEventListener('click', showNext);
+        correctBtn?.addEventListener('click', () => {
+            score++;
+            playGameSound('success');
+            showNext();
+        });
+        incorrectBtn?.addEventListener('click', () => {
+            playGameSound('error');
+            showNext();
+        });
         stopBtn?.addEventListener('click', endGame);
 
         handleShare('share-charades-btn', {

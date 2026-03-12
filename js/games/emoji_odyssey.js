@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, speak } = window.gameUtils;
+    const { getLang, t, speak, playGameSound } = window.gameUtils;
 
     const initEmojiOdyssey = () => {
         const modal = document.getElementById('emoji-modal');
@@ -74,16 +74,22 @@ document.addEventListener('DOMContentLoaded', () => {
             options.forEach(opt => {
                 const btn = document.createElement('button');
                 btn.className = 'choice-btn pill-input';
+                btn.style.fontSize = '1.1rem';
+                btn.style.fontWeight = '700';
                 btn.textContent = opt;
                 btn.onclick = () => {
                     if (opt === current.word) {
                         feedback.textContent = t('correct');
                         feedback.style.color = 'var(--primary-color)';
+                        playGameSound('success');
                         speak(opt, lang);
                         setTimeout(showNextGuess, 1500);
                     } else {
                         feedback.textContent = t('incorrect');
                         feedback.style.color = 'var(--accent-color)';
+                        playGameSound('error');
+                        btn.classList.add('shake');
+                        setTimeout(() => btn.classList.remove('shake'), 500);
                     }
                 };
                 optionsGrid.appendChild(btn);
@@ -91,12 +97,50 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const startStoryTurn = () => {
+            playGameSound('click');
             const emojis = getRandomEmojis(4);
-            storyDisplay.textContent = emojis.join(' ');
+
+            // Visual announcement for turn transition
+            const overlay = document.createElement('div');
+            overlay.style.position = 'absolute';
+            overlay.style.top = '50%';
+            overlay.style.left = '50%';
+            overlay.style.transform = 'translate(-50%, -50%)';
+            overlay.style.background = 'rgba(255, 255, 255, 0.9)';
+            overlay.style.padding = '2rem';
+            overlay.style.borderRadius = '20px';
+            overlay.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+            overlay.style.zIndex = '100';
+            overlay.style.fontSize = '1.5rem';
+            overlay.style.fontWeight = '800';
+            overlay.style.color = 'var(--primary-color)';
+            overlay.style.pointerEvents = 'none';
+            overlay.style.transition = 'opacity 0.5s ease';
+            overlay.textContent = t('next_player_announcement') || 'Next Player! 🎲';
+
+            gameArea.style.position = 'relative';
+            gameArea.appendChild(overlay);
+
+            storyDisplay.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            storyDisplay.style.opacity = 0;
+            storyDisplay.style.transform = 'scale(0.8)';
+
+            setTimeout(() => {
+                overlay.style.opacity = 0;
+                setTimeout(() => overlay.remove(), 500);
+
+                storyDisplay.textContent = emojis.join(' ');
+                storyDisplay.style.opacity = 1;
+                storyDisplay.style.transform = 'scale(1)';
+            }, 1000);
+
             feedback.textContent = '';
         };
 
-        openBtn?.addEventListener('click', () => api.open());
+        openBtn?.addEventListener('click', () => {
+            playGameSound('click');
+            api.open();
+        });
 
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
