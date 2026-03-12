@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const grammarThemes = [
             { value: 'grammar_present_simple', key: 'theme_grammar_present_simple' },
+            { value: 'grammar_present_continuous', key: 'theme_grammar_present_continuous' },
             { value: 'grammar_lets', key: 'theme_grammar_lets' },
             { value: 'grammar_possessive_adjectives', key: 'theme_grammar_possessive_adjectives' },
             { value: 'grammar_plurals', key: 'theme_grammar_plurals' },
@@ -75,6 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { value: 'grammar_possessive_s', key: 'theme_grammar_possessive_s' },
             { value: 'grammar_telling_time', key: 'theme_grammar_telling_time' },
             { value: 'grammar_future_simple', key: 'theme_grammar_future_simple' },
+            { value: 'grammar_future_proche', key: 'theme_grammar_future_proche' },
             { value: 'grammar_prepositions_time', key: 'theme_grammar_prepositions_time' },
             { value: 'grammar_prepositions_place', key: 'theme_grammar_prepositions_place' },
             { value: 'grammar_ordinal_numbers', key: 'theme_grammar_ordinal_numbers' },
@@ -83,6 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
             { value: 'grammar_countable_uncountable', key: 'theme_grammar_countable_uncountable' },
             { value: 'grammar_much_many_a_lot', key: 'theme_grammar_much_many_a_lot' },
             { value: 'grammar_past_simple', key: 'theme_grammar_past_simple' },
+            { value: 'grammar_past_continuous', key: 'theme_grammar_past_continuous' },
+            { value: 'grammar_present_perfect', key: 'theme_grammar_present_perfect' },
             { value: 'grammar_objective_pronouns', key: 'theme_grammar_objective_pronouns' },
             { value: 'grammar_question_words', key: 'theme_grammar_question_words' },
             { value: 'grammar_gender_articles', key: 'theme_grammar_gender_articles' },
@@ -90,7 +94,16 @@ document.addEventListener('DOMContentLoaded', () => {
             { value: 'grammar_verb_groups', key: 'theme_grammar_verb_groups' },
             { value: 'grammar_partitive_articles', key: 'theme_grammar_partitive_articles' },
             { value: 'grammar_reflexive_pronouns', key: 'theme_grammar_reflexive_pronouns' },
-            { value: 'grammar_cases', key: 'theme_grammar_cases' }
+            { value: 'grammar_cases', key: 'theme_grammar_cases' },
+            { value: 'grammar_modal_verbs', key: 'theme_grammar_modal_verbs' },
+            { value: 'grammar_comparatives', key: 'theme_grammar_comparatives' },
+            { value: 'grammar_passive_voice', key: 'theme_grammar_passive_voice' },
+            { value: 'grammar_conditionals', key: 'theme_grammar_conditionals' },
+            { value: 'grammar_imparfait', key: 'theme_grammar_imparfait' },
+            { value: 'grammar_subjunctive', key: 'theme_grammar_subjunctive' },
+            { value: 'grammar_plus_que_parfait', key: 'theme_grammar_plus_que_parfait' },
+            { value: 'grammar_verbs_motion', key: 'theme_grammar_verbs_motion' },
+            { value: 'grammar_aspect', key: 'theme_grammar_aspect' }
         ];
 
         const speakingThemes = [
@@ -698,13 +711,31 @@ function startPractice(isWheelMode = false) {
             }
         });
     } else {
-        rawItems = vocabularyData[lang] || [];
-        // Strict category filtering for Vocab vs Grammar
+        const baseItems = vocabularyData[lang] || [];
+        // Use a copy to avoid mutating the original data
+        rawItems = baseItems.map(item => ({ ...item }));
+
+        // Strict category filtering for Vocab vs Grammar vs Speaking
         rawItems = rawItems.filter(item => {
             let itemCat = item.category || 'vocabulary';
             if (itemCat === 'vocabulary') itemCat = 'vocab'; // Normalize
+
+            if (selectedCat === 'grammar') {
+                // For Grammar mode, include grammar items OR vocab items with grammar properties
+                return itemCat === 'grammar' || (itemCat === 'vocab' && (item.article || item.gender || item.numberPlural));
+            }
             return itemCat === selectedCat;
         });
+
+        // Re-map themes for vocab items when in Grammar mode so they appear in grammar themes
+        if (selectedCat === 'grammar') {
+            rawItems.forEach(item => {
+                if (item.category !== 'grammar') {
+                    if (item.numberPlural) item.theme = 'grammar_plurals';
+                    else if (item.article || item.gender) item.theme = 'grammar_gender_articles';
+                }
+            });
+        }
     }
 
     // Filter by Level & Theme
