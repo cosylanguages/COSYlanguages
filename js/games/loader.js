@@ -102,13 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (level) setById('linker-level', level);
                     window.wordLinkerGame.start();
                 }
-            } else if (game === 'perfect_match') {
-                if (window.perfectMatchGame) {
-                    window.perfectMatchGame.open();
-                    if (lang) setById('match-lang', lang);
-                    if (level) setById('match-level', level);
-                    window.perfectMatchGame.start();
-                }
             }
 
             // Apply language to modals if lang param provided

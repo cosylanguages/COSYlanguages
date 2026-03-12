@@ -79,7 +79,6 @@
                         <div class="games-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 1rem;">
                             <button id="open-emoji-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_emoji">Play Emoji Odyssey 📖</button>
                             <button id="open-linker-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_linker">Play Word Linker 🔗</button>
-                            <button id="open-match-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_match">Play Perfect Match 🍏</button>
                             <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Action Hero 🎭</button>
                             <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who">Play Identity Mystery 👤</button>
                             <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what">Play Object Quest 📦</button>
@@ -169,10 +168,10 @@
                 </div>
 
                 <div id="charades-gameplay" style="display: none;">
-                    <div id="charades-timer" style="font-size: 2rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">1:00</div>
-                    <div id="charades-card" class="event-item" style="background: white; margin: 1.5rem 0; padding: 2.5rem;">
-                        <div id="charades-emoji" style="font-size: 4rem; margin-bottom: 0.8rem;">🍎</div>
-                        <div id="charades-word" style="font-size: 2rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Loading...</div>
+                    <div id="charades-timer" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 1.5rem;">1:00</div>
+                    <div id="charades-card" class="event-item" style="background: white; margin: 1.5rem 0; padding: 3rem 2rem; border-radius: 30px; box-shadow: 0 15px 40px rgba(0,0,0,0.08);">
+                        <div id="charades-emoji" style="font-size: 7.5rem; margin-bottom: 1.5rem; filter: drop-shadow(0 5px 12px rgba(0,0,0,0.15));">🍎</div>
+                        <div id="charades-word" style="font-size: 3.5rem; font-weight: 800; color: var(--primary-color); font-family: 'Georgia', serif; line-height: 1.1;" data-translate-key="placeholder_loading">Loading...</div>
                     </div>
                     <div style="display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;">
                         <button id="charades-correct-btn" class="cta-button" style="background: #4CAF50;" data-translate-key="correct_btn">Correct ✅</button>
@@ -359,10 +358,6 @@
                                 <option value="alphabet" data-translate-key="bingo_alphabet">Alphabet</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="bingo_game_code_label">Game Code 🔑</label>
-                            <input type="text" id="bingo-seed" class="pill-input" placeholder="e.g. 123" data-translate-key="bingo_game_code_placeholder" style="width: 100%;">
-                        </div>
                     </div>
                     <div class="setup-group" style="margin-bottom: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
                         <label class="toggle-chip">
@@ -383,7 +378,8 @@
 
                 <!-- Caller Area -->
                 <div id="bingo-caller-area" style="display: none; padding: 2rem 0;">
-                    <div id="bingo-last-called" style="font-size: 5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 2rem;">---</div>
+                        <div id="bingo-auto-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_auto_active">⚡ Auto-Calling Active ⚡</div>
+                    <div id="bingo-last-called" style="font-size: 10rem; font-weight: 900; color: var(--primary-color); margin-bottom: 2.5rem; text-shadow: 0 4px 20px rgba(0, 168, 150, 0.25);">---</div>
                     <button id="bingo-call-next-btn" class="cta-button primary" data-translate-key="bingo_call_next" style="margin-bottom: 2rem;">Call Next 🎲</button>
 
                     <div style="text-align: left; max-height: 150px; overflow-y: auto; background: rgba(0,0,0,0.05); padding: 1rem; border-radius: 10px;">
@@ -394,6 +390,7 @@
 
                 <!-- Player Area -->
                 <div id="bingo-player-area" style="display: none; padding: 1rem 0;">
+                    <div id="bingo-solo-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_solo_active">👤 Solo Mode (Auto-Caller) 👤</div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <h3 data-translate-key="bingo_your_card">Your Card</h3>
                         <div style="font-size: 0.8rem; color: #888;"><span data-translate-key="bingo_card_label">Card #</span><span id="bingo-card-num-display">1</span></div>
@@ -683,11 +680,31 @@
                     <option value="el">Ελληνικά 🇬🇷</option>
                 </select>
             </div>
+            <div class="setup-group" style="margin-top: 1rem;">
+                <label data-translate-key="emoji_mode_label">Game Mode 🎮</label>
+                <select id="emoji-mode" class="pill-input" style="width: 100%;">
+                    <option value="guess" data-translate-key="emoji_mode_guess">Guess the Emoji 🧩</option>
+                    <option value="story" data-translate-key="emoji_mode_story">Tell a Story 📖</option>
+                </select>
+            </div>
             <button id="start-emoji-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
         </div>
         <div id="emoji-gameplay" style="display: none; padding: 2rem 0;">
-            <div id="emoji-display-large" style="font-size: 4rem; margin-bottom: 2rem;">🍎🍎</div>
-            <div id="emoji-options" class="choices-grid"></div>
+            <div id="emoji-guess-area">
+                <div id="emoji-display-large" style="font-size: 6.5rem; margin-bottom: 2.5rem; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.12));">🍎🍎</div>
+                <div id="emoji-options" class="choices-grid"></div>
+            </div>
+
+            <div id="emoji-story-area" style="display: none;">
+                <h3 id="emoji-story-name-display" style="color: var(--primary-color); margin-bottom: 1rem;"></h3>
+                <p id="emoji-story-prompt" style="font-style: italic; color: #666; margin-bottom: 1.5rem;" data-translate-key="emoji_story_next_player">Use these 4 emojis to continue the story!</p>
+                <div id="emoji-story-display" style="font-size: 5rem; letter-spacing: 15px; margin-bottom: 2.5rem; background: rgba(0,0,0,0.03); padding: 2.5rem; border-radius: 30px; display: flex; justify-content: center; align-items: center; min-height: 180px; flex-wrap: wrap; gap: 20px;"></div>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <button id="emoji-next-set-btn" class="cta-button primary" data-translate-key="emoji_next_set">Next Player ➡️</button>
+                    <button id="emoji-finish-btn" class="cta-button secondary" data-translate-key="emoji_finish_story">Finish Story 🏁</button>
+                </div>
+            </div>
+
             <div id="emoji-feedback" class="feedback-text"></div>
         </div>
         <button id="close-emoji-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
@@ -713,48 +730,29 @@
                     <option value="el">Ελληνικά 🇬🇷</option>
                 </select>
             </div>
+            <div class="setup-group" style="margin-top: 1rem;">
+                <label data-translate-key="select_level">Select Level 📊</label>
+                <select id="linker-level" class="pill-input" style="width: 100%;">
+                    <option value="all" data-translate-key="level_all">All Levels</option>
+                    <option value="starter" data-translate-key="starter">Starter</option>
+                    <option value="elementary" data-translate-key="elementary">Elementary</option>
+                    <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
+                    <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
+                    <option value="advanced" data-translate-key="advanced">Advanced</option>
+                    <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
+                </select>
+            </div>
             <button id="start-linker-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
         </div>
-        <div id="linker-gameplay" style="display: none; padding: 2rem 0;">
-            <div id="linker-clues" style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;"></div>
-            <div id="linker-options" class="choices-grid"></div>
-            <div id="linker-feedback" class="feedback-text"></div>
+        <div id="linker-gameplay" style="display: none; padding: 2.5rem 1rem;">
+            <div id="linker-clues" style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem;"></div>
+            <div id="linker-options" class="choices-grid" style="max-width: 500px; gap: 1.5rem;"></div>
+            <div id="linker-feedback" class="feedback-text" style="margin-top: 2rem;"></div>
         </div>
         <button id="close-linker-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
     </div>
 </div>
 
-<!-- Perfect Match Modal -->
-<div id="match-modal" class="modal-overlay" style="display: none;">
-    <div class="modal-content glass" style="max-width: 700px;">
-        <h2 data-translate-key="game_apples">Perfect Match 🍏</h2>
-        <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
-            <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-            <p style="margin-top: 0.5rem;" data-translate-key="match_guide_text">Match the items on the left with the correct categories or translations on the right!</p>
-        </details>
-        <div id="match-setup">
-            <div class="setup-group">
-                <label data-translate-key="select_practice_language">Select language 🌍</label>
-                <select id="match-lang" class="pill-input" style="width: 100%;">
-                    <option value="en">English 🇬🇧</option>
-                    <option value="fr">Français 🇫🇷</option>
-                    <option value="it">Italiano 🇮🇹</option>
-                    <option value="ru">Русский 🇷🇺</option>
-                    <option value="el">Ελληνικά 🇬🇷</option>
-                </select>
-            </div>
-            <button id="start-match-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
-        </div>
-        <div id="match-gameplay" style="display: none; padding: 2rem 0;">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
-                <div id="match-left-column" style="display: flex; flex-direction: column; gap: 10px;"></div>
-                <div id="match-right-column" style="display: flex; flex-direction: column; gap: 10px;"></div>
-            </div>
-            <div id="match-feedback" class="feedback-text" style="margin-top: 2rem;"></div>
-        </div>
-        <button id="close-match-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
-    </div>
-</div>
     </main>
 
     <footer>
@@ -777,12 +775,12 @@
     <script src="js/script.js"></script>
     <script src="js/translations.js"></script>
     <script src="js/translate.js"></script>
+    <script src="js/data/emojis.js"></script>
 
     <!-- Games Logic -->
     <script src="js/games/utils/shared.js"></script>
     <script src="js/games/emoji_odyssey.js"></script>
     <script src="js/games/word_linker.js"></script>
-    <script src="js/games/perfect_match.js"></script>
     <script src="js/games/charades.js"></script>
     <script src="js/games/guess_games.js"></script>
     <script src="js/games/bingo.js"></script>

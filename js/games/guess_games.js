@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { t, handleShare } = window.gameUtils;
+    const { t, handleShare, playGameSound } = window.gameUtils;
 
     const initGuessGame = (gameType) => {
         const modalId = gameType === 'who' ? 'guess-who-modal' : 'guess-what-modal';
@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 setupArea.style.display = 'block';
                 return;
             }
+            playGameSound('click');
             currentItem = pool.pop();
             hintsRevealed = 0;
 
@@ -52,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const hintDisplay = modal.querySelector('.hint-display');
             if (!hintDisplay || !currentItem) return;
 
+            playGameSound('click');
             hintsRevealed++;
             const wordText = typeof currentItem === 'string' ? currentItem : currentItem.word;
 

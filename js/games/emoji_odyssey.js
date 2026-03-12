@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, speak } = window.gameUtils;
+    const { getLang, t, speak, playGameSound } = window.gameUtils;
 
     const initEmojiOdyssey = () => {
         const modal = document.getElementById('emoji-modal');
@@ -10,6 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 modal.style.display = 'flex';
                 setupArea.style.display = 'block';
                 gameArea.style.display = 'none';
+                feedback.textContent = '';
+                // Reset areas
+                guessArea.style.display = 'none';
+                storyArea.style.display = 'none';
+                storyDisplay.textContent = '';
+                storyNameDisplay.textContent = '';
             },
             start: () => startBtn.click()
         };
@@ -24,9 +30,25 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionsGrid = document.getElementById('emoji-options');
         const feedback = document.getElementById('emoji-feedback');
 
-        let pool = [];
+        // Mode specific elements
+        const guessArea = document.getElementById('emoji-guess-area');
+        const storyArea = document.getElementById('emoji-story-area');
+        const storyNameDisplay = document.getElementById('emoji-story-name-display');
+        const storyDisplay = document.getElementById('emoji-story-display');
+        const nextSetBtn = document.getElementById('emoji-next-set-btn');
+        const finishBtn = document.getElementById('emoji-finish-btn');
 
-        const showNext = () => {
+        let pool = [];
+        let currentGameMode = 'guess';
+        let storyName = '';
+
+        const getRandomEmojis = (count) => {
+            const emojis = window.emojiData || [];
+            if (emojis.length === 0) return Array(count).fill('❓');
+            return [...emojis].sort(() => Math.random() - 0.5).slice(0, count);
+        };
+
+        const showNextGuess = () => {
             if (pool.length === 0) {
                 display.textContent = '🎉';
                 optionsGrid.innerHTML = '';
@@ -38,7 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
             display.textContent = current.emoji || '❓';
             feedback.textContent = '';
 
-            // Generate distractors
             const lang = document.getElementById('emoji-lang').value;
             const allVocab = window.vocabularyData[lang] || [];
             let distractors = allVocab
@@ -53,36 +74,123 @@ document.addEventListener('DOMContentLoaded', () => {
             options.forEach(opt => {
                 const btn = document.createElement('button');
                 btn.className = 'choice-btn pill-input';
+                btn.style.fontSize = '1.1rem';
+                btn.style.fontWeight = '700';
                 btn.textContent = opt;
                 btn.onclick = () => {
                     if (opt === current.word) {
                         feedback.textContent = t('correct');
                         feedback.style.color = 'var(--primary-color)';
+                        playGameSound('success');
                         speak(opt, lang);
-                        setTimeout(showNext, 1500);
+                        setTimeout(showNextGuess, 1500);
                     } else {
                         feedback.textContent = t('incorrect');
                         feedback.style.color = 'var(--accent-color)';
+                        playGameSound('error');
+                        btn.classList.add('shake');
+                        setTimeout(() => btn.classList.remove('shake'), 500);
                     }
                 };
                 optionsGrid.appendChild(btn);
             });
         };
 
-        openBtn?.addEventListener('click', () => api.open());
+        const startStoryTurn = () => {
+            playGameSound('click');
+            const emojis = getRandomEmojis(4);
+
+            // Visual announcement for turn transition
+            const overlay = document.createElement('div');
+            overlay.style.position = 'absolute';
+            overlay.style.top = '50%';
+            overlay.style.left = '50%';
+            overlay.style.transform = 'translate(-50%, -50%)';
+            overlay.style.background = 'rgba(255, 255, 255, 0.9)';
+            overlay.style.padding = '2rem';
+            overlay.style.borderRadius = '20px';
+            overlay.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+            overlay.style.zIndex = '100';
+            overlay.style.fontSize = '1.5rem';
+            overlay.style.fontWeight = '800';
+            overlay.style.color = 'var(--primary-color)';
+            overlay.style.pointerEvents = 'none';
+            overlay.style.transition = 'opacity 0.5s ease';
+            overlay.textContent = t('next_player_announcement') || 'Next Player! 🎲';
+
+            gameArea.style.position = 'relative';
+            gameArea.appendChild(overlay);
+
+            storyDisplay.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            storyDisplay.style.opacity = 0;
+            storyDisplay.style.transform = 'scale(0.8)';
+
+            setTimeout(() => {
+                overlay.style.opacity = 0;
+                setTimeout(() => overlay.remove(), 500);
+
+                storyDisplay.textContent = emojis.join(' ');
+                storyDisplay.style.opacity = 1;
+                storyDisplay.style.transform = 'scale(1)';
+            }, 1000);
+
+            feedback.textContent = '';
+        };
+
+        openBtn?.addEventListener('click', () => {
+            playGameSound('click');
+            api.open();
+        });
 
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
         startBtn?.addEventListener('click', () => {
+            currentGameMode = document.getElementById('emoji-mode').value;
             const lang = document.getElementById('emoji-lang').value;
-            pool = (window.vocabularyData[lang] || []).filter(v => v.emoji).sort(() => Math.random() - 0.5).slice(0, 10);
-            if (pool.length === 0) {
-                alert("No emoji data found!");
-                return;
+
+            if (currentGameMode === 'guess') {
+                pool = (window.vocabularyData[lang] || []).filter(v => v.emoji).sort(() => Math.random() - 0.5).slice(0, 10);
+                if (pool.length === 0) {
+                    alert("No vocabulary with emojis found for this language!");
+                    return;
+                }
+                setupArea.style.display = 'none';
+                gameArea.style.display = 'block';
+                guessArea.style.display = 'block';
+                storyArea.style.display = 'none';
+                showNextGuess();
+            } else {
+                const promptMsg = t('emoji_story_name_prompt');
+                const defaultTitle = t('emoji_story_title_label');
+                let name = prompt(promptMsg);
+
+                // Handle cancel or empty string
+                if (name === null || name.trim() === '') {
+                    storyName = defaultTitle;
+                } else {
+                    storyName = name.trim();
+                }
+
+                setupArea.style.display = 'none';
+                gameArea.style.display = 'block';
+                guessArea.style.display = 'none';
+                storyArea.style.display = 'block';
+                storyNameDisplay.textContent = `📖 ${storyName}`;
+                startStoryTurn();
             }
-            setupArea.style.display = 'none';
-            gameArea.style.display = 'block';
-            showNext();
+        });
+
+        nextSetBtn?.addEventListener('click', () => {
+            startStoryTurn();
+        });
+
+        finishBtn?.addEventListener('click', () => {
+            gameArea.style.display = 'none';
+            setupArea.style.display = 'block';
+            storyArea.style.display = 'none';
+            storyDisplay.textContent = '';
+            storyNameDisplay.textContent = '';
+            feedback.textContent = '';
         });
     };
 

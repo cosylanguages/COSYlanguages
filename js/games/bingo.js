@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { speak, seededShuffle, handleShare } = window.gameUtils;
+    const { speak, seededShuffle, handleShare, playGameSound } = window.gameUtils;
 
     const initBingo = () => {
         const modal = document.getElementById('bingo-modal');
@@ -61,14 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const getSeed = () => {
-            const seedVal = document.getElementById('bingo-seed').value;
-            if (!seedVal) return Math.floor(Math.random() * 1000000);
-            let hash = 0;
-            for (let i = 0; i < seedVal.length; i++) {
-                hash = ((hash << 5) - hash) + seedVal.charCodeAt(i);
-                hash |= 0;
-            }
-            return Math.abs(hash);
+            return Math.floor(Math.random() * 1000000);
         };
 
         const callNext = () => {
@@ -77,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearInterval(speedInterval);
                 return;
             }
+            playGameSound('click');
             const item = bingoPool.pop();
             calledItems.push(item);
             lastCalledDisplay.textContent = item;
@@ -95,7 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const startBingoCaller = () => {
             const pool = preparePool();
-            const seed = getSeed();
+            const urlParams = new URLSearchParams(window.location.search);
+            const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
             bingoPool = seededShuffle([...pool], seed);
             calledItems = [];
             lastCalledDisplay.textContent = '---';
@@ -103,8 +98,13 @@ document.addEventListener('DOMContentLoaded', () => {
             setupArea.style.display = 'none';
             callerArea.style.display = 'block';
 
+            const autoIndicator = document.getElementById('bingo-auto-indicator');
+            if (autoIndicator) autoIndicator.style.display = 'none';
+
             clearInterval(speedInterval);
             if (speedModeToggle?.checked) {
+                if (autoIndicator) autoIndicator.style.display = 'block';
+                callNext();
                 speedInterval = setInterval(() => {
                     callNext();
                 }, 5000);
@@ -116,7 +116,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const generatePlayerCard = () => {
             const pool = preparePool();
-            const seed = getSeed();
+            const urlParams = new URLSearchParams(window.location.search);
+            const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
             const cardSeed = seed + currentCardIndex * 100;
             const cardShuffled = seededShuffle([...pool], cardSeed);
 
@@ -128,7 +129,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 const cell = document.createElement('div');
                 cell.className = 'bingo-cell card glass';
                 cell.textContent = item;
-                cell.onclick = () => cell.classList.toggle('marked');
+                cell.onclick = () => {
+                    playGameSound('click');
+                    cell.classList.toggle('marked');
+                };
                 playerGrid.appendChild(cell);
             });
             cardNumDisplay.textContent = currentCardIndex + 1;
@@ -141,11 +145,22 @@ document.addEventListener('DOMContentLoaded', () => {
             playerArea.style.display = 'block';
 
             const soloMode = document.getElementById('bingo-solo-mode')?.checked;
+            const soloIndicator = document.getElementById('bingo-solo-indicator');
+            if (soloIndicator) soloIndicator.style.display = 'none';
+
             clearInterval(speedInterval);
             if (soloMode) {
+                if (soloIndicator) soloIndicator.style.display = 'block';
                 const pool = preparePool();
-                const seed = getSeed();
+                const urlParams = new URLSearchParams(window.location.search);
+                const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
                 bingoPool = seededShuffle([...pool], seed);
+
+                if (bingoPool.length > 0) {
+                    const item = bingoPool.pop();
+                    speak(item.toString(), document.getElementById('bingo-lang').value);
+                }
+
                 speedInterval = setInterval(() => {
                     if (bingoPool.length === 0) {
                         clearInterval(speedInterval);
@@ -167,7 +182,10 @@ document.addEventListener('DOMContentLoaded', () => {
             game: 'lucky_numbers',
             lang: () => document.getElementById('bingo-lang').value,
             level: () => document.getElementById('bingo-level').value,
-            seed: () => document.getElementById('bingo-seed').value
+            seed: () => {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get('seed') || getSeed();
+            }
         });
 
         return { open: openBingo, startCaller: startBingoCaller, startPlayer: startBingoPlayer };
