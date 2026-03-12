@@ -1,7 +1,7 @@
 // --- Shared Constants & Helpers for Games ---
 
 const getLang = () => localStorage.getItem('language') || 'en';
-const t = (key) => (window.translations && window.translations[getLang()] && window.translations[getLang()][key]) || key;
+const t = (key) => (typeof translations !== 'undefined' && translations[getLang()] && translations[getLang()][key]) || key;
 
 let gameTimerInterval = null;
 
@@ -94,7 +94,7 @@ const handleShare = (btnId, params) => {
         navigator.clipboard.writeText(shareUrl).then(() => {
             const originalText = btn.innerHTML;
             const lang = getLang();
-            const copiedText = (window.translations && window.translations[lang] && window.translations[lang]['copied']) ? window.translations[lang]['copied'] : "Copied! ✅";
+            const copiedText = (typeof translations !== 'undefined' && translations[lang] && translations[lang]['copied']) ? translations[lang]['copied'] : "Copied! ✅";
             btn.innerHTML = copiedText;
             setTimeout(() => btn.innerHTML = originalText, 2000);
         }).catch(err => {
