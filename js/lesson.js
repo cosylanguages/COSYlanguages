@@ -229,12 +229,12 @@ function renderMultipleChoice() {
     const wordObj = currentLesson.currentWord;
     const grid = document.getElementById('choices-grid');
     grid.innerHTML = '';
-    const correct = wordObj.answer || wordObj.word;
+    const correct = wordObj.answer || wordObj.word || wordObj.text || wordObj.topic;
     let choices = [correct];
 
     // Distractors from same lesson
     const distractors = currentLesson.words
-        .map(w => w.answer || w.word)
+        .map(w => w.answer || w.word || w.text || w.topic)
         .filter(val => val && val.toLowerCase() !== correct.toLowerCase());
 
     choices.push(...distractors.sort(() => Math.random() - 0.5).slice(0, 2));

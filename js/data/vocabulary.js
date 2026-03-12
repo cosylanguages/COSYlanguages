@@ -3,7 +3,9 @@ const vocabularyData = {
         {
             "word": "Doctor",
             "level": "starter",
-            "theme": "profession"
+            "theme": "profession",
+            "numberPlural": "2 doctor",
+            "answer": "two doctors"
         },
         {
             "word": "Engineer",
@@ -56,7 +58,9 @@ const vocabularyData = {
         {
             "word": "Pizza",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "numberPlural": "3 pizza",
+            "answer": "three pizzas"
         },
         {
             "word": "Sushi",
@@ -96,7 +100,9 @@ const vocabularyData = {
         {
             "word": "Apple",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "numberPlural": "4 apple",
+            "answer": "four apples"
         },
         {
             "word": "Bread",
@@ -473,13 +479,17 @@ const vocabularyData = {
             "word": "Cat",
             "level": "starter",
             "theme": "animal",
-            "emoji": "🐈"
+            "emoji": "🐈",
+            "numberPlural": "2 cat",
+            "answer": "two cats"
         },
         {
             "word": "Dog",
             "level": "starter",
             "theme": "animal",
-            "emoji": "🐕"
+            "emoji": "🐕",
+            "numberPlural": "5 dog",
+            "answer": "five dogs"
         },
         {
             "word": "Bird",
@@ -893,7 +903,9 @@ const vocabularyData = {
         {
             "word": "Médecin",
             "level": "starter",
-            "theme": "profession"
+            "theme": "profession",
+            "numberPlural": "2 médecin",
+            "answer": "deux médecins"
         },
         {
             "word": "Ingénieur",
@@ -963,7 +975,9 @@ const vocabularyData = {
         {
             "word": "Pomme",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "numberPlural": "4 pomme",
+            "answer": "quatre pommes"
         },
         {
             "word": "Pain",
@@ -1249,7 +1263,9 @@ const vocabularyData = {
             "theme": "animal",
             "article": "le",
             "baseWord": "chat",
-            "emoji": "🐈"
+            "emoji": "🐈",
+            "numberPlural": "2 chat",
+            "answer": "deux chats"
         },
         {
             "word": "Chien",
@@ -1257,7 +1273,9 @@ const vocabularyData = {
             "theme": "animal",
             "article": "le",
             "baseWord": "chien",
-            "emoji": "🐕"
+            "emoji": "🐕",
+            "numberPlural": "5 chien",
+            "answer": "cinq chiens"
         },
         {
             "word": "Oiseau",
@@ -1499,7 +1517,9 @@ const vocabularyData = {
         {
             "word": "Medico",
             "level": "starter",
-            "theme": "profession"
+            "theme": "profession",
+            "numberPlural": "2 medico",
+            "answer": "due medici"
         },
         {
             "word": "Ingegnere",
@@ -1564,7 +1584,9 @@ const vocabularyData = {
         {
             "word": "Mela",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "numberPlural": "4 mela",
+            "answer": "quattro mele"
         },
         {
             "word": "Pane",
@@ -1850,7 +1872,9 @@ const vocabularyData = {
             "theme": "animal",
             "article": "il",
             "baseWord": "gatto",
-            "emoji": "🐈"
+            "emoji": "🐈",
+            "numberPlural": "2 gatto",
+            "answer": "due gatti"
         },
         {
             "word": "Cane",
@@ -1858,7 +1882,9 @@ const vocabularyData = {
             "theme": "animal",
             "article": "il",
             "baseWord": "cane",
-            "emoji": "🐕"
+            "emoji": "🐕",
+            "numberPlural": "5 cane",
+            "answer": "cinque cani"
         },
         {
             "word": "Uccello",
@@ -2090,7 +2116,9 @@ const vocabularyData = {
         {
             "word": "Врач",
             "level": "starter",
-            "theme": "profession"
+            "theme": "profession",
+            "numberPlural": "2 врач",
+            "answer": "два врача"
         },
         {
             "word": "Инженер",
@@ -2155,7 +2183,9 @@ const vocabularyData = {
         {
             "word": "Яблоко",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "numberPlural": "4 яблоко",
+            "answer": "четыре яблока"
         },
         {
             "word": "Хлеб",
@@ -2451,7 +2481,9 @@ const vocabularyData = {
             "theme": "animal",
             "gender": "он",
             "baseWord": "кот",
-            "emoji": "🐈"
+            "emoji": "🐈",
+            "numberPlural": "2 кот",
+            "answer": "два кота"
         },
         {
             "word": "Собака",
@@ -2459,7 +2491,9 @@ const vocabularyData = {
             "theme": "animal",
             "gender": "она",
             "baseWord": "собака",
-            "emoji": "🐕"
+            "emoji": "🐕",
+            "numberPlural": "5 собака",
+            "answer": "пять собак"
         },
         {
             "word": "Птица",
@@ -2691,7 +2725,9 @@ const vocabularyData = {
         {
             "word": "Γιατρός",
             "level": "starter",
-            "theme": "profession"
+            "theme": "profession",
+            "numberPlural": "2 γιατρός",
+            "answer": "δύο γιατροί"
         },
         {
             "word": "Μηχανικός",
@@ -2751,7 +2787,9 @@ const vocabularyData = {
         {
             "word": "Μήλο",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "numberPlural": "4 μήλο",
+            "answer": "τέσσερα μήλα"
         },
         {
             "word": "Ψωμί",
@@ -3037,7 +3075,9 @@ const vocabularyData = {
             "theme": "animal",
             "article": "ο",
             "baseWord": "σκύλος",
-            "emoji": "🐕"
+            "emoji": "🐕",
+            "numberPlural": "5 σκύλος",
+            "answer": "πέντε σκύλοι"
         },
         {
             "word": "Πουλί",
