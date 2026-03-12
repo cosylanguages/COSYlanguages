@@ -533,7 +533,14 @@ const translations = {
     timer_180s: "180s",
     timer_300s: "300s",
     timer_600s: "600s",
-},
+    play_emoji: "Play Emoji Odyssey 📖",
+    play_linker: "Play Word Linker 🔗",
+    play_match: "Play Perfect Match 🍏",
+    emoji_guide_text: "Guess the word or phrase based on the emojis shown! Type your answer or select from options.",
+    linker_guide_text: "Find the word that links the given words together. Think of associations!",
+    match_guide_text: "Match the items on the left with the correct categories or translations on the right!",
+    solo_mode: "Solo Mode 👤",
+  },
   fr: {
     // Hero section
     hero_title: "Bienvenue chez COSYlanguages ! 🏡",
@@ -1054,7 +1061,14 @@ const translations = {
     timer_180s: "180s",
     timer_300s: "300s",
     timer_600s: "600s",
-},
+    play_emoji: "Jouer à Odyssée des Émojis 📖",
+    play_linker: "Jouer à Maître des Mots 🔗",
+    play_match: "Jouer à Accord Parfait 🍏",
+    emoji_guide_text: "Devinez le mot ou la phrase en fonction des émojis affichés ! Tapez votre réponse ou choisissez parmi les options.",
+    linker_guide_text: "Trouvez le mot qui relie les mots donnés entre eux. Pensez aux associations !",
+    match_guide_text: "Associez les éléments de gauche aux bonnes catégories ou traductions à droite !",
+    solo_mode: "Mode Solo 👤",
+  },
   it: {
     // Hero section
     hero_title: "Benvenuti in COSYlanguages! 🏡",
@@ -1580,7 +1594,14 @@ const translations = {
     timer_180s: "180s",
     timer_300s: "300s",
     timer_600s: "600s",
-},
+    play_emoji: "Gioca a Odissea di Emoji 📖",
+    play_linker: "Gioca a Legame di Parole 🔗",
+    play_match: "Gioca a Abbinamento Perfetto 🍏",
+    emoji_guide_text: "Indovina la parola o la frase in base alle emoji mostrate! Scrivi la tua risposta o scegli tra le opzioni.",
+    linker_guide_text: "Trova la parola che collega le parole date. Pensa alle associazioni!",
+    match_guide_text: "Abbina gli elementi a sinistra con le categorie o le traduzioni corrette a destra!",
+    solo_mode: "Modalità Solo 👤",
+  },
   ru: {
     // Hero section
     hero_title: "Добро пожаловать в COSYlanguages! 🏡",
@@ -2088,7 +2109,14 @@ const translations = {
     timer_180s: "180с",
     timer_300s: "300с",
     timer_600s: "600с",
-},
+    play_emoji: "Играть в Эмодзи-Одиссею 📖",
+    play_linker: "Играть в Словесного Связного 🔗",
+    play_match: "Играть в Идеальную Пару 🍏",
+    emoji_guide_text: "Угадайте слово или фразу по показанным эмодзи! Введите свой ответ или выберите из вариантов.",
+    linker_guide_text: "Найдите слово, которое связывает данные слова вместе. Думайте об ассоциациях!",
+    match_guide_text: "Сопоставьте элементы слева с правильными категориями или переводами справа!",
+    solo_mode: "Одиночный режим 👤",
+  },
   el: {
     // Hero section
     hero_title: "Καλώς ήρθατε στο COSYlanguages! 🏡",
@@ -2601,5 +2629,12 @@ const translations = {
     timer_180s: "180δ",
     timer_300s: "300δ",
     timer_600s: "600δ",
+    play_emoji: "Παίξτε Οδύσσεια των Emoji 📖",
+    play_linker: "Παίξτε Σύνδεσμος Λέξεων 🔗",
+    play_match: "Παίξτε Τέλειο Ταίριασμα 🍏",
+    emoji_guide_text: "Μαντέψτε τη λέξη ή τη φράση με βάση τα emoji που εμφανίζονται! Πληκτρολογήστε την απάντησή σας ή επιλέξτε από τις επιλογές.",
+    linker_guide_text: "Βρείτε τη λέξη που συνδέει τις δοσμένες λέξεις μεταξύ τους. Σκεφτείτε συσχετισμούς!",
+    match_guide_text: "Ταιριάξτε τα στοιχεία στα αριστεά με τις σωστές κατηγορίες ή μεταφράσεις στα δεξιά!",
+    solo_mode: "Solo Λειτουργία 👤",
 }
 };

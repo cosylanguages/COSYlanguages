@@ -81,6 +81,27 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (level) document.getElementById('critics-level').value = level;
                     window.criticsCornerGame.start();
                 }
+            } else if (game === 'emoji_odyssey') {
+                if (window.emojiOdysseyGame) {
+                    window.emojiOdysseyGame.open();
+                    if (lang) document.getElementById('emoji-lang').value = lang;
+                    if (level) document.getElementById('emoji-level').value = level;
+                    window.emojiOdysseyGame.start();
+                }
+            } else if (game === 'word_linker') {
+                if (window.wordLinkerGame) {
+                    window.wordLinkerGame.open();
+                    if (lang) document.getElementById('linker-lang').value = lang;
+                    if (level) document.getElementById('linker-level').value = level;
+                    window.wordLinkerGame.start();
+                }
+            } else if (game === 'perfect_match') {
+                if (window.perfectMatchGame) {
+                    window.perfectMatchGame.open();
+                    if (lang) document.getElementById('match-lang').value = lang;
+                    if (level) document.getElementById('match-level').value = level;
+                    window.perfectMatchGame.start();
+                }
             }
 
             // Apply language to modals if lang param provided

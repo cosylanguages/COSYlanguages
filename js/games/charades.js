@@ -31,13 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = pool.pop();
             wordDisplay.textContent = typeof item === 'string' ? item : (item.answer || item.word);
             emojiDisplay.textContent = item.emoji || '🎭';
-
-            stopTimer();
-            const duration = parseInt(document.getElementById('charades-timer-duration')?.value || '60');
-            startTimer('charades-timer', duration, () => {
-                wordDisplay.textContent = t('time_up');
-                emojiDisplay.textContent = '⏰';
-            });
         };
 
         const endGame = () => {
@@ -96,6 +89,14 @@ document.addEventListener('DOMContentLoaded', () => {
             setupArea.style.display = 'none';
             resultArea.style.display = 'none';
             gameArea.style.display = 'block';
+
+            stopTimer();
+            const duration = parseInt(document.getElementById('charades-timer-duration')?.value || '60');
+            startTimer('charades-timer', duration, () => {
+                wordDisplay.textContent = t('time_up');
+                emojiDisplay.textContent = '⏰';
+            });
+
             showNext();
         };
 

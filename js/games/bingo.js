@@ -138,6 +138,22 @@ document.addEventListener('DOMContentLoaded', () => {
             generatePlayerCard();
             setupArea.style.display = 'none';
             playerArea.style.display = 'block';
+
+            const soloMode = document.getElementById('bingo-solo-mode')?.checked;
+            if (soloMode) {
+                const pool = preparePool();
+                const seed = getSeed();
+                bingoPool = seededShuffle([...pool], seed);
+                clearInterval(speedInterval);
+                speedInterval = setInterval(() => {
+                    if (bingoPool.length === 0) {
+                        clearInterval(speedInterval);
+                        return;
+                    }
+                    const item = bingoPool.pop();
+                    speak(item.toString(), document.getElementById('bingo-lang').value);
+                }, 5000);
+            }
         };
 
         startPlayerBtn?.addEventListener('click', startBingoPlayer);
