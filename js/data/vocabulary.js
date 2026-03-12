@@ -1,69 +1,39 @@
 const vocabularyData = {
     "en": [
         {
-            "word": "Albert Einstein",
-            "level": "starter",
-            "theme": "people_society"
-        },
-        {
-            "word": "Marie Curie",
-            "level": "elementary",
-            "theme": "people_society"
-        },
-        {
-            "word": "Leonardo da Vinci",
-            "level": "intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "William Shakespeare",
-            "level": "upper-intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Elon Musk",
-            "level": "advanced",
-            "theme": "people_society"
-        },
-        {
-            "word": "Marilyn Monroe",
-            "level": "proficiency",
-            "theme": "people_society"
-        },
-        {
             "word": "Doctor",
             "level": "starter",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Engineer",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Artist",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Pilot",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Chef",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Lawyer",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Teacher",
             "level": "starter",
-            "theme": "people_society",
+            "theme": "profession",
             "opposite": "student",
             "oppositeEmoji": "🧑‍🎓",
             "emoji": "🧑‍🏫"
@@ -71,17 +41,17 @@ const vocabularyData = {
         {
             "word": "Nurse",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Firefighter",
             "level": "advanced",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Police officer",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Pizza",
@@ -272,62 +242,62 @@ const vocabularyData = {
         {
             "word": "France",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Italy",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Russia",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Greece",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "England",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Germany",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Spain",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "USA",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Canada",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Australia",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Japan",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "China",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Paris",
@@ -612,54 +582,54 @@ const vocabularyData = {
         {
             "word": "Cat",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "emoji": "🐈"
         },
         {
             "word": "Dog",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "emoji": "🐕"
         },
         {
             "word": "Bird",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Lion",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Tiger",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Elephant",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Monkey",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Horse",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Rabbit",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Fish",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "emoji": "🐟"
         },
         {
@@ -793,64 +763,34 @@ const vocabularyData = {
             "theme": "health_body"
         },
         {
-            "word": "Taylor Swift",
-            "level": "starter",
-            "theme": "people_society"
-        },
-        {
-            "word": "Barack Obama",
-            "level": "elementary",
-            "theme": "people_society"
-        },
-        {
-            "word": "Stephen Hawking",
-            "level": "intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Virginia Woolf",
-            "level": "upper-intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Nelson Mandela",
-            "level": "advanced",
-            "theme": "people_society"
-        },
-        {
-            "word": "Aristotle",
-            "level": "proficiency",
-            "theme": "people_society"
-        },
-        {
             "word": "Software Developer",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Psychologist",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Data Scientist",
             "level": "advanced",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Philosopher",
             "level": "proficiency",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Architect",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Journalist",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Athletic",
@@ -1047,73 +987,58 @@ const vocabularyData = {
             "level": "intermediate",
             "theme": "people_society",
             "emoji": "🤝"
+        },
+        {
+            "word": "Mother",
+            "level": "starter",
+            "theme": "family"
+        },
+        {
+            "word": "Father",
+            "level": "starter",
+            "theme": "family"
         }
     ],
     "fr": [
         {
-            "word": "Napoléon Bonaparte",
-            "level": "starter",
-            "theme": "people_society"
-        },
-        {
-            "word": "Marie Curie",
-            "level": "elementary",
-            "theme": "people_society"
-        },
-        {
-            "word": "Victor Hugo",
-            "level": "intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Edith Piaf",
-            "level": "upper-intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Claude Monet",
-            "level": "advanced",
-            "theme": "people_society"
-        },
-        {
             "word": "Médecin",
             "level": "starter",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Ingénieur",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Artiste",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Pilote",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Chef",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Avocat",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Professeur",
             "level": "starter",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Infirmier",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Ratatouille",
@@ -1276,37 +1201,37 @@ const vocabularyData = {
         {
             "word": "France",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Italie",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Russie",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Grèce",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Angleterre",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Allemagne",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Espagne",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Paris",
@@ -1496,7 +1421,7 @@ const vocabularyData = {
         {
             "word": "Chat",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "article": "le",
             "baseWord": "chat",
             "emoji": "🐈"
@@ -1504,7 +1429,7 @@ const vocabularyData = {
         {
             "word": "Chien",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "article": "le",
             "baseWord": "chien",
             "emoji": "🐕"
@@ -1512,32 +1437,32 @@ const vocabularyData = {
         {
             "word": "Oiseau",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Lion",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Tigre",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Éléphant",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Singe",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Cheval",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Dessiner",
@@ -1650,39 +1575,19 @@ const vocabularyData = {
             "theme": "health_body"
         },
         {
-            "word": "Zinedine Zidane",
-            "level": "starter",
-            "theme": "people_society"
-        },
-        {
-            "word": "Simone de Beauvoir",
-            "level": "upper-intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Jean-Paul Sartre",
-            "level": "advanced",
-            "theme": "people_society"
-        },
-        {
-            "word": "Molière",
-            "level": "proficiency",
-            "theme": "people_society"
-        },
-        {
             "word": "Développeur Logiciel",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Psychologue",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Philosophe",
             "level": "proficiency",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Algorithme",
@@ -1753,63 +1658,53 @@ const vocabularyData = {
             "level": "elementary",
             "theme": "food_drinks",
             "emoji": "🍜"
+        },
+        {
+            "word": "Mère",
+            "level": "starter",
+            "theme": "family"
+        },
+        {
+            "word": "Père",
+            "level": "starter",
+            "theme": "family"
         }
     ],
     "it": [
         {
-            "word": "Leonardo da Vinci",
-            "level": "starter",
-            "theme": "people_society"
-        },
-        {
-            "word": "Dante Alighieri",
-            "level": "elementary",
-            "theme": "people_society"
-        },
-        {
-            "word": "Galileo Galilei",
-            "level": "intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Sophia Loren",
-            "level": "upper-intermediate",
-            "theme": "people_society"
-        },
-        {
             "word": "Medico",
             "level": "starter",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Ingegnere",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Artista",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Pilota",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Chef",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Avvocato",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Insegnante",
             "level": "starter",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Pasta",
@@ -1972,37 +1867,37 @@ const vocabularyData = {
         {
             "word": "Francia",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Italia",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Russia",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Grecia",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Inghilterra",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Germania",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Spagna",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Roma",
@@ -2192,7 +2087,7 @@ const vocabularyData = {
         {
             "word": "Gatto",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "article": "il",
             "baseWord": "gatto",
             "emoji": "🐈"
@@ -2200,7 +2095,7 @@ const vocabularyData = {
         {
             "word": "Cane",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "article": "il",
             "baseWord": "cane",
             "emoji": "🐕"
@@ -2208,32 +2103,32 @@ const vocabularyData = {
         {
             "word": "Uccello",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Leone",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Tigre",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Elefante",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Scimmia",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Cavallo",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Disegnare",
@@ -2346,34 +2241,19 @@ const vocabularyData = {
             "theme": "health_body"
         },
         {
-            "word": "Federico Fellini",
-            "level": "intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Umberto Eco",
-            "level": "advanced",
-            "theme": "people_society"
-        },
-        {
-            "word": "Monica Bellucci",
-            "level": "starter",
-            "theme": "people_society"
-        },
-        {
             "word": "Sviluppatore Software",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Psicologo",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Filosofo",
             "level": "proficiency",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Università",
@@ -2434,68 +2314,53 @@ const vocabularyData = {
             "level": "elementary",
             "theme": "food_drinks",
             "emoji": "🍜"
+        },
+        {
+            "word": "Madre",
+            "level": "starter",
+            "theme": "family"
+        },
+        {
+            "word": "Padre",
+            "level": "starter",
+            "theme": "family"
         }
     ],
     "ru": [
         {
-            "word": "Александр Пушкин",
-            "level": "starter",
-            "theme": "people_society"
-        },
-        {
-            "word": "Лев Толстой",
-            "level": "elementary",
-            "theme": "people_society"
-        },
-        {
-            "word": "Юрий Гагарин",
-            "level": "intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Пётр I",
-            "level": "upper-intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Мария Шарапова",
-            "level": "advanced",
-            "theme": "people_society"
-        },
-        {
             "word": "Врач",
             "level": "starter",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Инженер",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Художник",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Пилот",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Повар",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Юрист",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Учитель",
             "level": "starter",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Борщ",
@@ -2663,37 +2528,37 @@ const vocabularyData = {
         {
             "word": "Франция",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Италия",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Россия",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Греция",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Англия",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Германия",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Испания",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Москва",
@@ -2883,7 +2748,7 @@ const vocabularyData = {
         {
             "word": "Кот",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "gender": "он",
             "baseWord": "кот",
             "emoji": "🐈"
@@ -2891,7 +2756,7 @@ const vocabularyData = {
         {
             "word": "Собака",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "gender": "она",
             "baseWord": "собака",
             "emoji": "🐕"
@@ -2899,32 +2764,32 @@ const vocabularyData = {
         {
             "word": "Птица",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Лев",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Тигр",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Слон",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Обезьяна",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Лошадь",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Рисование",
@@ -3037,34 +2902,19 @@ const vocabularyData = {
             "theme": "health_body"
         },
         {
-            "word": "Фёдор Достоевский",
-            "level": "upper-intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Анна Ахматова",
-            "level": "advanced",
-            "theme": "people_society"
-        },
-        {
-            "word": "Виктор Цой",
-            "level": "elementary",
-            "theme": "people_society"
-        },
-        {
             "word": "Разработчик ПО",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Психолог",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Философ",
             "level": "proficiency",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Университет",
@@ -3125,63 +2975,53 @@ const vocabularyData = {
             "level": "elementary",
             "theme": "food_drinks",
             "emoji": "🍜"
+        },
+        {
+            "word": "Мать",
+            "level": "starter",
+            "theme": "family"
+        },
+        {
+            "word": "Отец",
+            "level": "starter",
+            "theme": "family"
         }
     ],
     "el": [
         {
-            "word": "Σωκράτης",
-            "level": "starter",
-            "theme": "people_society"
-        },
-        {
-            "word": "Μέγας Αλέξανδρος",
-            "level": "elementary",
-            "theme": "people_society"
-        },
-        {
-            "word": "Πλάτωνας",
-            "level": "intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Μαρία Κάλλας",
-            "level": "upper-intermediate",
-            "theme": "people_society"
-        },
-        {
             "word": "Γιατρός",
             "level": "starter",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Μηχανικός",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Καλλιτέχνης",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Πιλότος",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Σεφ",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Δικηγόρος",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Δάσκαλος",
             "level": "starter",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Μουσακάς",
@@ -3334,37 +3174,37 @@ const vocabularyData = {
         {
             "word": "Γαλλία",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Ιταλία",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Ρωσία",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Ελλάδα",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Αγγλία",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Γερμανία",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Ισπανία",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "nationality"
         },
         {
             "word": "Αθήνα",
@@ -3549,12 +3389,12 @@ const vocabularyData = {
         {
             "word": "Γάτα",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Σκύλος",
             "level": "starter",
-            "theme": "nature_environment",
+            "theme": "animal",
             "article": "ο",
             "baseWord": "σκύλος",
             "emoji": "🐕"
@@ -3562,27 +3402,27 @@ const vocabularyData = {
         {
             "word": "Πουλί",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Λιοντάρι",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Τίγρης",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Ελέφαντας",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Μαϊμού",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "animal"
         },
         {
             "word": "Ζωγραφική",
@@ -3685,34 +3525,19 @@ const vocabularyData = {
             "theme": "health_body"
         },
         {
-            "word": "Νίκος Καζαντζάκης",
-            "level": "advanced",
-            "theme": "people_society"
-        },
-        {
-            "word": "Μελίνα Μερκούρη",
-            "level": "intermediate",
-            "theme": "people_society"
-        },
-        {
-            "word": "Οδυσσέας Ελύτης",
-            "level": "upper-intermediate",
-            "theme": "people_society"
-        },
-        {
             "word": "Προγραμματιστής",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Ψυχολόγος",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Φιλόσοφος",
             "level": "proficiency",
-            "theme": "people_society"
+            "theme": "profession"
         },
         {
             "word": "Πανεπιστήμιο",
@@ -3773,6 +3598,17 @@ const vocabularyData = {
             "level": "elementary",
             "theme": "food_drinks",
             "emoji": "🍜"
+        },
+        {
+            "word": "Μητέρα",
+            "level": "starter",
+            "theme": "family"
+        },
+        {
+            "word": "Πατέρας",
+            "level": "starter",
+            "theme": "family"
         }
     ]
 };
+window.vocabularyData = vocabularyData;

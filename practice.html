@@ -41,7 +41,7 @@
                     <ul style="margin-top: 1rem; list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
                         <li data-translate-key="practice_guide_1">1. Select the language you want to learn.</li>
                         <li data-translate-key="practice_guide_2">2. Choose a category: Vocabulary (words), Grammar (rules), or Speaking (conversations).</li>
-                        <li data-translate-key="practice_guide_3">3. Choose lessons. Note: Lesson 3+ is needed for Speaking and the Spinning Wheel.</li>
+                        <li data-translate-key="practice_guide_3">3. Filter by Level and Theme to find the perfect practice set.</li>
                         <li data-translate-key="practice_guide_4">4. Earn 10 COSY points for each correct answer! Try to maintain your daily streak.</li>
                     </ul>
                 </details>
@@ -117,12 +117,15 @@
                         <label for="practice-theme" data-translate-key="select_theme">4. Select Theme 🎨</label>
                         <select id="practice-theme" class="pill-input" style="width: 100%;">
                             <option value="all" data-translate-key="theme_all">All Themes</option>
-                            <option value="people_society" data-translate-key="theme_people">People & Society 🌟</option>
+                            <option value="profession" data-translate-key="theme_profession">Professions 🧑‍🔧</option>
+                            <option value="family" data-translate-key="theme_family">Family 👨‍👩‍👧‍👦</option>
+                            <option value="nationality" data-translate-key="theme_nationality">Nationalities 🏳️</option>
+                            <option value="animal" data-translate-key="theme_animal">Animals 🐾</option>
+                            <option value="famous_people" data-translate-key="theme_famous_people">Famous People 🌟</option>
                             <option value="daily_life" data-translate-key="daily_life">Daily Life 🛒</option>
                             <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
                             <option value="travel_places" data-translate-key="theme_places">Travel & Places 📍</option>
                             <option value="leisure_hobbies" data-translate-key="theme_hobby">Leisure & Hobbies 🎨</option>
-                            <option value="nature_environment" data-translate-key="theme_environment">Nature & Environment 🌿</option>
                             <option value="science_technology" data-translate-key="theme_technology">Science & Technology 📱</option>
                             <option value="health_body" data-translate-key="theme_health">Health & Body 🦷</option>
                             <option value="education_work" data-translate-key="theme_education">Education & Work 🎓</option>
@@ -218,7 +221,6 @@
                 <div id="progress-text"></div>
 
                 <div id="question-card" class="event-item">
-                    <div id="lesson-info" class="lesson-badge"></div>
                     <div id="word-meta" class="word-meta-container" style="display: none;">
                         <span id="word-form" class="meta-badge form-badge"></span>
                         <span id="word-level" class="meta-badge level-badge"></span>
@@ -316,7 +318,6 @@
     <script src="js/data/alphabets.js"></script>
     <script src="js/data/vocabulary.js"></script>
     <script src="js/data/speaking.js"></script>
-    <script src="js/data/curriculum.js"></script>
     <script src="js/translations.js"></script>
     <script src="js/translate.js"></script>
     <script src="js/practice.js"></script>

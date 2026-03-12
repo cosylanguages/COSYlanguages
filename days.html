@@ -62,7 +62,10 @@
         </section>
     </main>
 
-    <script src="js/data/curriculum.js"></script>
+    <script src="js/data/lessons/day1.js"></script>
+    <script src="js/data/lessons/day2.js"></script>
+    <script src="js/data/lessons/day3.js"></script>
+    <script src="js/data/lessons/day4.js"></script>
     <script src="js/translations.js"></script>
     <script src="js/translate.js"></script>
     <script>
@@ -94,8 +97,8 @@
             document.getElementById('start-day-btn').addEventListener('click', () => {
                 const day = document.querySelector('input[name="day-selection"]:checked').value;
                 const lang = localStorage.getItem('language') || 'en';
-                // Redirect to practice page with lesson param
-                window.location.href = `practice.html?lang=${lang}&lesson=${day}&mode=linear&cat=curriculum`;
+                // Redirect to lesson page with params
+                window.location.href = `lesson.html?lang=${lang}&lesson=${day}`;
             });
         });
     </script>

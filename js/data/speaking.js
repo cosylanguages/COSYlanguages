@@ -990,3 +990,4 @@ const speakingData = {
         ]
     }
 };
+window.speakingData = speakingData;
