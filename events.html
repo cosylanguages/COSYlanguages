@@ -79,7 +79,6 @@
                         <div class="games-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 1rem;">
                             <button id="open-emoji-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_emoji">Play Emoji Odyssey 📖</button>
                             <button id="open-linker-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_linker">Play Word Linker 🔗</button>
-                            <button id="open-match-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_match">Play Perfect Match 🍏</button>
                             <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Action Hero 🎭</button>
                             <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who">Play Identity Mystery 👤</button>
                             <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what">Play Object Quest 📦</button>
@@ -756,37 +755,6 @@
     </div>
 </div>
 
-<!-- Perfect Match Modal -->
-<div id="match-modal" class="modal-overlay" style="display: none;">
-    <div class="modal-content glass" style="max-width: 700px;">
-        <h2 data-translate-key="game_apples">Perfect Match 🍏</h2>
-        <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;">
-            <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-            <p style="margin-top: 0.5rem;" data-translate-key="match_guide_text">Match the items on the left with the correct categories or translations on the right!</p>
-        </details>
-        <div id="match-setup">
-            <div class="setup-group">
-                <label data-translate-key="select_practice_language">Select language 🌍</label>
-                <select id="match-lang" class="pill-input" style="width: 100%;">
-                    <option value="en">English 🇬🇧</option>
-                    <option value="fr">Français 🇫🇷</option>
-                    <option value="it">Italiano 🇮🇹</option>
-                    <option value="ru">Русский 🇷🇺</option>
-                    <option value="el">Ελληνικά 🇬🇷</option>
-                </select>
-            </div>
-            <button id="start-match-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
-        </div>
-        <div id="match-gameplay" style="display: none; padding: 2rem 0;">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
-                <div id="match-left-column" style="display: flex; flex-direction: column; gap: 10px;"></div>
-                <div id="match-right-column" style="display: flex; flex-direction: column; gap: 10px;"></div>
-            </div>
-            <div id="match-feedback" class="feedback-text" style="margin-top: 2rem;"></div>
-        </div>
-        <button id="close-match-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
-    </div>
-</div>
     </main>
 
     <footer>
@@ -815,7 +783,6 @@
     <script src="js/games/utils/shared.js"></script>
     <script src="js/games/emoji_odyssey.js"></script>
     <script src="js/games/word_linker.js"></script>
-    <script src="js/games/perfect_match.js"></script>
     <script src="js/games/charades.js"></script>
     <script src="js/games/guess_games.js"></script>
     <script src="js/games/bingo.js"></script>
