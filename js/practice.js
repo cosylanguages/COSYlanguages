@@ -44,6 +44,68 @@ document.addEventListener('DOMContentLoaded', () => {
     const catRadios = document.querySelectorAll('input[name="practice-cat"]');
     const container = document.getElementById('practice-container');
 
+    function populateThemes(categoryId) {
+        const themeSelect = document.getElementById('practice-theme');
+        if (!themeSelect) return;
+
+        // Keep the "All Themes" option
+        const allOption = themeSelect.options[0];
+        themeSelect.innerHTML = '';
+        themeSelect.appendChild(allOption);
+
+        const vocabThemes = [
+            { value: 'profession', key: 'theme_profession' },
+            { value: 'family', key: 'theme_family' },
+            { value: 'animal', key: 'theme_animal' },
+            { value: 'daily_life', key: 'daily_life' },
+            { value: 'food_drinks', key: 'theme_food_drinks' },
+            { value: 'travel_places', key: 'theme_places' },
+            { value: 'leisure_hobbies', key: 'theme_hobby' },
+            { value: 'science_technology', key: 'theme_technology' },
+            { value: 'health_body', key: 'theme_health' },
+            { value: 'education_work', key: 'theme_education' }
+        ];
+
+        const grammarThemes = [
+            { value: 'grammar_conjugation', key: 'theme_grammar_conjugation' },
+            { value: 'grammar_plurals', key: 'theme_grammar_plurals' },
+            { value: 'grammar_prepositions', key: 'theme_grammar_prepositions' },
+            { value: 'grammar_countable', key: 'theme_grammar_countable' },
+            { value: 'grammar_articles', key: 'theme_grammar_articles' },
+            { value: 'grammar_cases', key: 'theme_grammar_cases' }
+        ];
+
+        const speakingThemes = [
+            { value: 'daily_life', key: 'daily_life' },
+            { value: 'food_drinks', key: 'theme_food_drinks' },
+            { value: 'travel_places', key: 'theme_places' },
+            { value: 'leisure_hobbies', key: 'theme_hobby' },
+            { value: 'science_technology', key: 'theme_technology' },
+            { value: 'health_body', key: 'theme_health' },
+            { value: 'people_society', key: 'theme_society' },
+            { value: 'nature_environment', key: 'theme_environment' },
+            { value: 'education_work', key: 'theme_education' }
+        ];
+
+        let themesToUse = [];
+        if (categoryId === 'cat-grammar') themesToUse = grammarThemes;
+        else if (categoryId === 'cat-speaking') themesToUse = speakingThemes;
+        else themesToUse = vocabThemes;
+
+        themesToUse.forEach(t => {
+            const opt = document.createElement('option');
+            opt.value = t.value;
+            opt.setAttribute('data-translate-key', t.key);
+            const lang = currentPractice.language;
+            opt.textContent = (translations[lang] && translations[lang][t.key]) ? translations[lang][t.key] : t.value;
+            themeSelect.appendChild(opt);
+        });
+
+        if (typeof setLanguage === 'function') {
+            setLanguage(currentPractice.language);
+        }
+    }
+
     window.updateCategoryUI = function() {
         const selected = document.querySelector('input[name="practice-cat"]:checked');
         if (!selected) return;
@@ -62,6 +124,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 label.style.display = isAvailable ? 'block' : 'none';
             }
         };
+
+        populateThemes(selected.id);
 
         if (selected.id === 'cat-speaking') {
             container.classList.add('cat-speaking');
@@ -320,8 +384,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 const switcher = document.getElementById('language-switcher');
                 if (switcher) switcher.value = newLang;
             }
+            const selected = document.querySelector('input[name="practice-cat"]:checked');
+            if (selected) populateThemes(selected.id);
         });
     });
+
+    const langSwitcher = document.getElementById('language-switcher');
+    if (langSwitcher) {
+        langSwitcher.addEventListener('change', (e) => {
+            const newLang = e.target.value;
+            const langCard = document.querySelector(`.lang-selection-card[data-value="${newLang}"]`);
+            if (langCard) {
+                document.querySelectorAll('.lang-selection-card').forEach(c => c.classList.remove('active'));
+                langCard.classList.add('active');
+                currentPractice.language = newLang;
+                const selected = document.querySelector('input[name="practice-cat"]:checked');
+                if (selected) populateThemes(selected.id);
+            }
+        });
+    }
 
     // Removing validateFeaturesByLesson as everything is now free access by level
 
@@ -600,6 +681,12 @@ function startPractice(isWheelMode = false) {
         });
     } else {
         rawItems = vocabularyData[lang] || [];
+        // Strict category filtering for Vocab vs Grammar
+        rawItems = rawItems.filter(item => {
+            let itemCat = item.category || 'vocabulary';
+            if (itemCat === 'vocabulary') itemCat = 'vocab'; // Normalize
+            return itemCat === selectedCat;
+        });
     }
 
     // Filter by Level & Theme
