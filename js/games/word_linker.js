@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let pool = [];
 
+        const levelsOrder = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+
         const showNext = () => {
             if (pool.length === 0) {
                 cluesArea.innerHTML = '🏁';
@@ -36,19 +38,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const current = pool.pop();
             const lang = document.getElementById('linker-lang').value;
-            const allVocab = window.vocabularyData[lang] || [];
+            const level = document.getElementById('linker-level').value;
+            let vocabSource = window.vocabularyData[lang] || [];
 
-            // Find clues (words in same theme)
-            let clues = allVocab
+            // For clues and distractors, we include words at or below the current level
+            let accessibleVocab = vocabSource;
+            if (level !== 'all') {
+                const levelIndex = levelsOrder.indexOf(level);
+                accessibleVocab = vocabSource.filter(v => {
+                    const vIndex = levelsOrder.indexOf(v.level);
+                    return vIndex !== -1 && vIndex <= levelIndex;
+                });
+            }
+
+            // Find clues (words in same theme) from accessible vocab
+            let clues = accessibleVocab
                 .filter(v => v.theme === current.theme && v.word !== current.word)
                 .sort(() => Math.random() - 0.5)
                 .slice(0, 3)
                 .map(v => v.word);
 
             if (clues.length < 3) {
-                // Not enough clues, try again with next
-                showNext();
-                return;
+                // If not enough in accessible, maybe try even higher level just to make it playable?
+                // User said "appropriate", so better to skip or just use what we have.
+                // Let's try to fallback to any level clues if absolutely necessary for game playability
+                clues = vocabSource
+                    .filter(v => v.theme === current.theme && v.word !== current.word)
+                    .sort(() => Math.random() - 0.5)
+                    .slice(0, 3)
+                    .map(v => v.word);
+
+                if (clues.length < 3) {
+                    showNext();
+                    return;
+                }
             }
 
             cluesArea.innerHTML = '';
@@ -63,11 +86,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
             feedback.textContent = '';
 
-            let distractors = allVocab
+            let distractors = accessibleVocab
                 .filter(v => v.word !== current.word && v.theme !== current.theme)
                 .sort(() => Math.random() - 0.5)
                 .slice(0, 3)
                 .map(v => v.word);
+
+            // distractor fallback
+            if (distractors.length < 3) {
+                distractors = vocabSource
+                    .filter(v => v.word !== current.word && v.theme !== current.theme)
+                    .sort(() => Math.random() - 0.5)
+                    .slice(0, 3)
+                    .map(v => v.word);
+            }
 
             let options = [current.word, ...distractors].sort(() => Math.random() - 0.5);
 
@@ -97,9 +129,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         startBtn?.addEventListener('click', () => {
             const lang = document.getElementById('linker-lang').value;
-            pool = (window.vocabularyData[lang] || []).filter(v => v.theme).sort(() => Math.random() - 0.5).slice(0, 10);
+            const level = document.getElementById('linker-level').value;
+
+            let allVocab = window.vocabularyData[lang] || [];
+
+            // Filter by level if not "all"
+            if (level !== 'all') {
+                allVocab = allVocab.filter(v => v.level === level);
+            }
+
+            pool = allVocab.filter(v => v.theme).sort(() => Math.random() - 0.5).slice(0, 10);
+
             if (pool.length === 0) {
-                alert("No themed data found!");
+                alert("No vocabulary found for this level/language!");
                 return;
             }
             setupArea.style.display = 'none';

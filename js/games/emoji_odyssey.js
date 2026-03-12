@@ -10,6 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 modal.style.display = 'flex';
                 setupArea.style.display = 'block';
                 gameArea.style.display = 'none';
+                feedback.textContent = '';
+                // Reset areas
+                guessArea.style.display = 'none';
+                storyArea.style.display = 'none';
+                storyDisplay.textContent = '';
+                storyNameDisplay.textContent = '';
             },
             start: () => startBtn.click()
         };
@@ -98,24 +104,33 @@ document.addEventListener('DOMContentLoaded', () => {
             currentGameMode = document.getElementById('emoji-mode').value;
             const lang = document.getElementById('emoji-lang').value;
 
-            setupArea.style.display = 'none';
-            gameArea.style.display = 'block';
-
             if (currentGameMode === 'guess') {
-                guessArea.style.display = 'block';
-                storyArea.style.display = 'none';
                 pool = (window.vocabularyData[lang] || []).filter(v => v.emoji).sort(() => Math.random() - 0.5).slice(0, 10);
                 if (pool.length === 0) {
-                    alert("No emoji data found!");
-                    setupArea.style.display = 'block';
-                    gameArea.style.display = 'none';
+                    alert("No vocabulary with emojis found for this language!");
                     return;
                 }
+                setupArea.style.display = 'none';
+                gameArea.style.display = 'block';
+                guessArea.style.display = 'block';
+                storyArea.style.display = 'none';
                 showNextGuess();
             } else {
+                const promptMsg = t('emoji_story_name_prompt');
+                const defaultTitle = t('emoji_story_title_label');
+                let name = prompt(promptMsg);
+
+                // Handle cancel or empty string
+                if (name === null || name.trim() === '') {
+                    storyName = defaultTitle;
+                } else {
+                    storyName = name.trim();
+                }
+
+                setupArea.style.display = 'none';
+                gameArea.style.display = 'block';
                 guessArea.style.display = 'none';
                 storyArea.style.display = 'block';
-                storyName = prompt(t('emoji_story_name_prompt')) || t('emoji_story_title_label');
                 storyNameDisplay.textContent = `📖 ${storyName}`;
                 startStoryTurn();
             }
@@ -126,9 +141,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         finishBtn?.addEventListener('click', () => {
+            gameArea.style.display = 'none';
+            setupArea.style.display = 'block';
             storyArea.style.display = 'none';
-            feedback.textContent = t('game_over');
-            feedback.style.color = 'var(--primary-color)';
+            storyDisplay.textContent = '';
+            storyNameDisplay.textContent = '';
+            feedback.textContent = '';
         });
     };
 
