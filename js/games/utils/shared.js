@@ -104,7 +104,75 @@ const handleShare = (btnId, params) => {
     });
 };
 
+let supportCanvas;
+let supportCtx;
+const isEmojiSupported = (emoji) => {
+    if (typeof document === 'undefined') return true;
+    try {
+        if (!supportCanvas) {
+            supportCanvas = document.createElement('canvas');
+            supportCtx = supportCanvas.getContext('2d', { willReadFrequently: true });
+        }
+        const size = 20;
+        supportCanvas.width = size * 2;
+        supportCanvas.height = size;
+        supportCtx.font = size + 'px "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", Arial, sans-serif';
+        supportCtx.textBaseline = 'top';
+        supportCtx.clearRect(0, 0, size * 2, size);
+        supportCtx.fillText(emoji, 0, 0);
+        const emojiData = supportCtx.getImageData(0, 0, size, size).data;
+        supportCtx.fillText('\uffff', size, 0);
+        const tofuData = supportCtx.getImageData(size, 0, size, size).data;
+
+        for (let i = 0; i < emojiData.length; i++) {
+            if (emojiData[i] !== tofuData[i]) return true;
+        }
+        return false;
+    } catch (e) {
+        return true;
+    }
+};
+
+const filterUnsupportedEmojis = () => {
+    try {
+        if (window.emojiData) {
+            window.emojiData = window.emojiData.filter(isEmojiSupported);
+        }
+        if (window.vocabularyData) {
+            Object.keys(window.vocabularyData).forEach(lang => {
+                window.vocabularyData[lang].forEach(item => {
+                    if (item.emoji && !isEmojiSupported(item.emoji)) {
+                        item.emoji = '';
+                    }
+                });
+            });
+        }
+        if (window.lessonsData) {
+            Object.keys(window.lessonsData).forEach(lang => {
+                Object.keys(window.lessonsData[lang]).forEach(day => {
+                    const lesson = window.lessonsData[lang][day];
+                    if (lesson.words) {
+                        lesson.words.forEach(item => {
+                            if (item.emoji && !isEmojiSupported(item.emoji)) {
+                                item.emoji = '';
+                            }
+                        });
+                    }
+                });
+            });
+        }
+    } catch (e) {
+        console.warn("Emoji filtering failed", e);
+    }
+};
+
+// Automatically filter when loaded
+if (typeof document !== 'undefined') {
+    if (document.readyState === 'complete') filterUnsupportedEmojis();
+    else window.addEventListener('load', filterUnsupportedEmojis);
+}
+
 // Export to window
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, parseLessons, speak, seededShuffle, handleShare
+    getLang, t, startTimer, stopTimer, parseLessons, speak, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis
 };
