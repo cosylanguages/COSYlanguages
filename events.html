@@ -358,10 +358,6 @@
                                 <option value="alphabet" data-translate-key="bingo_alphabet">Alphabet</option>
                             </select>
                         </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="bingo_game_code_label">Game Code 🔑</label>
-                            <input type="text" id="bingo-seed" class="pill-input" placeholder="e.g. 123" data-translate-key="bingo_game_code_placeholder" style="width: 100%;">
-                        </div>
                     </div>
                     <div class="setup-group" style="margin-bottom: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
                         <label class="toggle-chip">
@@ -382,6 +378,7 @@
 
                 <!-- Caller Area -->
                 <div id="bingo-caller-area" style="display: none; padding: 2rem 0;">
+                        <div id="bingo-auto-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_auto_active">⚡ Auto-Calling Active ⚡</div>
                     <div id="bingo-last-called" style="font-size: 10rem; font-weight: 900; color: var(--primary-color); margin-bottom: 2.5rem; text-shadow: 0 4px 20px rgba(0, 168, 150, 0.25);">---</div>
                     <button id="bingo-call-next-btn" class="cta-button primary" data-translate-key="bingo_call_next" style="margin-bottom: 2rem;">Call Next 🎲</button>
 
@@ -393,6 +390,7 @@
 
                 <!-- Player Area -->
                 <div id="bingo-player-area" style="display: none; padding: 1rem 0;">
+                    <div id="bingo-solo-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_solo_active">👤 Solo Mode (Auto-Caller) 👤</div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <h3 data-translate-key="bingo_your_card">Your Card</h3>
                         <div style="font-size: 0.8rem; color: #888;"><span data-translate-key="bingo_card_label">Card #</span><span id="bingo-card-num-display">1</span></div>
