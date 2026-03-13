@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, speak, playGameSound } = window.gameUtils;
+    const { getLang, t, speak, playGameSound, showGameMessage } = window.gameUtils;
 
     const initEmojiOdyssey = () => {
         const modal = document.getElementById('emoji-modal');
@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeBtn = document.getElementById('close-emoji-btn');
         const startBtn = document.getElementById('start-emoji-game-btn');
         const setupArea = document.getElementById('emoji-setup');
+        const modeSelect = document.getElementById('emoji-mode');
+        const storySetupExtra = document.getElementById('emoji-story-setup-extra');
+        const storyNameInput = document.getElementById('emoji-story-name-input');
         const gameArea = document.getElementById('emoji-gameplay');
         const display = document.getElementById('emoji-display-large');
         const optionsGrid = document.getElementById('emoji-options');
@@ -137,21 +140,32 @@ document.addEventListener('DOMContentLoaded', () => {
             feedback.textContent = '';
         };
 
+        modeSelect?.addEventListener('change', () => {
+            if (modeSelect.value === 'story') {
+                storySetupExtra.style.display = 'block';
+            } else {
+                storySetupExtra.style.display = 'none';
+            }
+        });
+
         openBtn?.addEventListener('click', () => {
             playGameSound('click');
             api.open();
+            // Reset story setup visibility
+            if (modeSelect) modeSelect.value = 'guess';
+            if (storySetupExtra) storySetupExtra.style.display = 'none';
         });
 
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
         startBtn?.addEventListener('click', () => {
-            currentGameMode = document.getElementById('emoji-mode').value;
+            currentGameMode = modeSelect.value;
             const lang = document.getElementById('emoji-lang').value;
 
             if (currentGameMode === 'guess') {
                 pool = (window.vocabularyData[lang] || []).filter(v => v.emoji).sort(() => Math.random() - 0.5).slice(0, 10);
                 if (pool.length === 0) {
-                    alert("No vocabulary with emojis found for this language!");
+                    showGameMessage(setupArea, t('alert_no_emoji_vocab'), 'error');
                     return;
                 }
                 setupArea.style.display = 'none';
@@ -160,15 +174,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 storyArea.style.display = 'none';
                 showNextGuess();
             } else {
-                const promptMsg = t('emoji_story_name_prompt');
-                const defaultTitle = t('emoji_story_title_label');
-                let name = prompt(promptMsg);
+                const defaultTitle = t('emoji_story_title_label') || "Our Story";
+                let name = storyNameInput.value.trim();
 
-                // Handle cancel or empty string
-                if (name === null || name.trim() === '') {
+                if (name === '') {
                     storyName = defaultTitle;
                 } else {
-                    storyName = name.trim();
+                    storyName = name;
                 }
 
                 setupArea.style.display = 'none';

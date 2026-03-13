@@ -1835,7 +1835,7 @@ window.lessonsData["el"]["3"] = {
             "category": "grammar"
         },
         {
-            "word": "Έχει έναν παπαγάλος;",
+            "word": "Έχει έναν παπαγάλο;",
             "emoji": "🦜",
             "clozeText": "______ έναν παπαγάλο;",
             "answer": "Έχει",

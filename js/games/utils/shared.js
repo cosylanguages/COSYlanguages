@@ -159,7 +159,7 @@ const handleShare = (btnId, params) => {
             setTimeout(() => btn.innerHTML = originalText, 2000);
         }).catch(err => {
             console.error('Failed to copy: ', err);
-            alert("Link: " + shareUrl);
+            showGameMessage(btn.parentElement, "Link: " + shareUrl);
         });
     });
 };
@@ -232,7 +232,75 @@ if (typeof document !== 'undefined') {
     else window.addEventListener('load', filterUnsupportedEmojis);
 }
 
+const showGameMessage = (containerOrId, message, type = 'info') => {
+    const container = typeof containerOrId === 'string' ? document.getElementById(containerOrId) : containerOrId;
+    if (!container) return;
+
+    // Remove existing message if any
+    const existing = container.querySelector('.game-message-overlay');
+    if (existing) existing.remove();
+
+    const msgDiv = document.createElement('div');
+    msgDiv.className = `game-message-overlay ${type}`;
+    msgDiv.textContent = message;
+
+    container.appendChild(msgDiv);
+
+    setTimeout(() => {
+        if (msgDiv.parentElement) {
+            msgDiv.style.opacity = '0';
+            msgDiv.style.transition = 'opacity 0.5s ease-out';
+            setTimeout(() => msgDiv.remove(), 500);
+        }
+    }, 3000);
+};
+
+const showGameConfirm = (message, onConfirm) => {
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+    overlay.style.display = 'flex';
+    overlay.style.zIndex = '20000';
+
+    const content = document.createElement('div');
+    content.className = 'modal-content glass';
+    content.style.maxWidth = '400px';
+    content.style.padding = '2rem';
+
+    const msg = document.createElement('p');
+    msg.textContent = message;
+    msg.style.marginBottom = '2rem';
+    msg.style.fontSize = '1.1rem';
+    msg.style.fontWeight = '600';
+
+    const actions = document.createElement('div');
+    actions.style.display = 'flex';
+    actions.style.gap = '1rem';
+    actions.style.justifyContent = 'center';
+
+    const confirmBtn = document.createElement('button');
+    confirmBtn.className = 'cta-button primary';
+    confirmBtn.textContent = 'Yes';
+    confirmBtn.onclick = () => {
+        overlay.remove();
+        if (onConfirm) onConfirm();
+    };
+
+    const cancelBtn = document.createElement('button');
+    cancelBtn.className = 'cta-button secondary';
+    cancelBtn.textContent = 'No';
+    cancelBtn.onclick = () => {
+        overlay.remove();
+    };
+
+    actions.appendChild(confirmBtn);
+    actions.appendChild(cancelBtn);
+    content.appendChild(msg);
+    content.appendChild(actions);
+    overlay.appendChild(content);
+    document.body.appendChild(overlay);
+};
+
 // Export to window
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm
 };

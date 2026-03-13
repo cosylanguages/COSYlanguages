@@ -72,7 +72,8 @@ function populateThemes(categoryId) {
         themes = [
             { value: 'opinionArena', key: 'game_opinion_arena' },
             { value: 'debates', key: 'game_debates' },
-            { value: 'talkThatTalk', key: 'game_talk_talk' }
+            { value: 'talkThatTalk', key: 'game_talk_talk' },
+            { value: 'criticsCorner', key: 'game_critics_corner' }
         ];
     } else {
         // vocab
@@ -226,14 +227,14 @@ document.addEventListener('DOMContentLoaded', () => {
         exitPracticeBtn.addEventListener('click', () => {
             const lang = currentPractice.language;
             const confirmMsg = (translations[lang] && translations[lang]['exit_confirm']) ? translations[lang]['exit_confirm'] : "Exit practice and return to menu?";
-            if (confirm(confirmMsg)) {
+            window.gameUtils.showGameConfirm(confirmMsg, () => {
                 document.getElementById('practice-section').style.display = 'none';
                 document.getElementById('setup-section').style.display = 'block';
                 // Update resume button visibility since we now have a saved session
                 const resumeBtn = document.getElementById('resume-btn');
                 if (resumeBtn) resumeBtn.style.display = 'inline-block';
                 window.scrollTo(0, 0);
-            }
+            });
         });
     }
 
@@ -255,7 +256,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(() => shareLinkBtn.innerHTML = originalText, 2000);
             }).catch(err => {
                 console.error('Failed to copy: ', err);
-                alert("Shareable Link: " + shareUrl);
+                if (window.gameUtils && window.gameUtils.showGameMessage) {
+                    window.gameUtils.showGameMessage('setup-section', "Link: " + shareUrl);
+                }
             });
         });
     }
@@ -263,10 +266,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (startBtn) {
         startBtn.addEventListener('click', () => {
             if (localStorage.getItem(SESSION_STORAGE_KEY)) {
-                if (confirm("Starting a new practice will clear your current progress. Continue?")) {
+                window.gameUtils.showGameConfirm("Starting a new practice will clear your current progress. Continue?", () => {
                     clearSession();
                     startPractice(false);
-                }
+                });
             } else {
                 startPractice(false);
             }
@@ -323,10 +326,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (wheelModeBtn) {
         wheelModeBtn.addEventListener('click', () => {
             if (localStorage.getItem(SESSION_STORAGE_KEY)) {
-                if (confirm("Starting a new practice will clear your current progress. Continue?")) {
+                window.gameUtils.showGameConfirm("Starting a new practice will clear your current progress. Continue?", () => {
                     clearSession();
                     startPractice(true);
-                }
+                });
             } else {
                 startPractice(true);
             }
@@ -348,7 +351,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 wheelModeBtn.innerHTML = copiedText;
                 setTimeout(() => wheelModeBtn.innerHTML = originalText, 2000);
             }).catch(err => {
-                alert("Wheel Link: " + shareUrl);
+                if (window.gameUtils && window.gameUtils.showGameMessage) {
+                    window.gameUtils.showGameMessage('setup-section', "Link: " + shareUrl);
+                }
             });
         };
 
@@ -750,12 +755,28 @@ function expandGrammarItems(items, lang) {
             }
         } else if (item.article || item.gender || item.numberPlural) {
             if (item.article || item.gender) {
+                const correctAnswer = item.article || item.gender;
+                const baseWord = item.baseWord || item.word;
+                let distractors = config.articles.filter(a => a.toLowerCase() !== correctAnswer.toLowerCase());
+
+                // Fallback distractors if config is empty for this language
+                if (distractors.length === 0) {
+                    const articlesMap = {
+                        it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
+                        fr: ['le', 'la', "l'", 'les'],
+                        el: ['ο', 'η', 'το', 'οι', 'τα'],
+                        ru: ['он', 'она', 'оно']
+                    };
+                    const fallbackArticles = articlesMap[lang] || [];
+                    distractors = fallbackArticles.filter(a => a.toLowerCase() !== correctAnswer.toLowerCase());
+                }
+
                 expanded.push({
                     ...item,
                     type: 'type-ga',
-                    clozeText: `____ ${item.baseWord || item.word}`,
-                    answer: item.article || item.gender,
-                    distractors: config.articles.filter(a => a !== (item.article || item.gender)),
+                    clozeText: `____ ${baseWord}`,
+                    answer: correctAnswer,
+                    distractors: distractors,
                     theme: 'grammar_gender'
                 });
             }
@@ -817,7 +838,10 @@ function startPractice(isWheelMode = false) {
     if (document.getElementById('type-np').checked) enabledTypes.push('type-np');
 
     if (enabledTypes.length === 0) {
-        alert("Please select at least one task type!");
+        const msg = translations[lang]['alert_no_task_type'] || "Please select at least one task type!";
+        if (window.gameUtils && window.gameUtils.showGameMessage) {
+            window.gameUtils.showGameMessage('setup-section', msg, 'error');
+        }
         return;
     }
 
@@ -828,11 +852,17 @@ function startPractice(isWheelMode = false) {
     if (selectedCat === 'speaking' || isWheelMode) {
         const sd = speakingData[lang] || {};
         // For general practice, we use all categories from speakingData
-        Object.values(sd).forEach(list => {
+        for (const [subCat, list] of Object.entries(sd)) {
             if (Array.isArray(list)) {
-                list.forEach(item => rawItems.push({...item, category: 'conversation'}));
+                list.forEach(item => rawItems.push({
+                    ...item,
+                    category: 'conversation',
+                    type: 'conversation',
+                    originalTheme: item.theme, // preserve original theme if needed
+                    theme: subCat // Use sub-category as theme for filtering
+                }));
             }
-        });
+        }
     } else if (selectedCat === 'grammar') {
         const gd = grammarData[lang] || [];
         const vd = (vocabularyData[lang] || []).filter(item => item.article || item.gender || item.numberPlural);
@@ -850,7 +880,10 @@ function startPractice(isWheelMode = false) {
     }
 
     if (rawItems.length === 0) {
-        alert("No items found for the selected filters!");
+        const msg = translations[lang]['alert_no_items'] || "No items found for the selected filters!";
+        if (window.gameUtils && window.gameUtils.showGameMessage) {
+            window.gameUtils.showGameMessage('setup-section', msg, 'error');
+        }
         return;
     }
 
@@ -904,7 +937,10 @@ function startPractice(isWheelMode = false) {
     }).filter(w => w !== null);
 
     if (currentPractice.words.length === 0) {
-        alert("Could not generate tasks for these items. Try enabling more task types!");
+        const msg = translations[lang]['alert_no_tasks_generated'] || "Could not generate tasks for these items. Try enabling more task types!";
+        if (window.gameUtils && window.gameUtils.showGameMessage) {
+            window.gameUtils.showGameMessage('setup-section', msg, 'error');
+        }
         return;
     }
 

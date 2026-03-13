@@ -2790,7 +2790,7 @@ const vocabularyData = {
             "emoji": "✨"
         },
         {
-            "word": "permettre",
+            "word": "permettere",
             "level": "elementary",
             "theme": "people_society",
             "emoji": "✅"
@@ -4206,13 +4206,13 @@ const vocabularyData = {
             "emoji": "✨"
         },
         {
-            "word": "permettere",
+            "word": "permettre",
             "level": "elementary",
             "theme": "people_society",
             "emoji": "✅"
         },
         {
-            "word": "ajouter",
+            "word": "aggiungere",
             "level": "starter",
             "theme": "daily_life",
             "emoji": "➕"
@@ -5744,7 +5744,7 @@ const vocabularyData = {
             "oppositeEmoji": "🏠"
         },
         {
-            "word": "посыλαть",
+            "word": "посылать",
             "level": "starter",
             "theme": "daily_life",
             "emoji": "✉️"

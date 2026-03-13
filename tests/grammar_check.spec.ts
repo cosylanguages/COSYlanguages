@@ -21,12 +21,15 @@ test.describe('Practice Engine Grammar Features', () => {
     expect(options).toContain('Singular & Plural ↔️');
 
     // Task types should be updated (Gender & Articles, Numbers & Plurals should be visible and checked)
-    const gaTask = page.locator('#type-ga');
-    const npTask = page.locator('#type-np');
-    await expect(gaTask).toBeVisible();
-    await expect(npTask).toBeVisible();
-    await expect(gaTask).toBeChecked();
-    await expect(npTask).toBeChecked();
+    // Open Advanced options first to make them visible
+    await page.click('details.advanced-options summary');
+
+    const gaTaskLabel = page.locator('label.toggle-chip:has(#type-ga)');
+    const npTaskLabel = page.locator('label.toggle-chip:has(#type-np)');
+    await expect(gaTaskLabel).toBeVisible();
+    await expect(npTaskLabel).toBeVisible();
+    await expect(page.locator('#type-ga')).toBeChecked();
+    await expect(page.locator('#type-np')).toBeChecked();
   });
 
   test('English grammar hides Gender and Future Simple', async ({ page }) => {
