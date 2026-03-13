@@ -64,9 +64,23 @@ document.addEventListener('DOMContentLoaded', () => {
             feedback.textContent = '';
 
             const lang = document.getElementById('emoji-lang').value;
-            const allVocab = window.vocabularyData[lang] || [];
+            const level = document.getElementById('emoji-level')?.value || 'all';
+            let allVocab = window.vocabularyData[lang] || [];
+
+            // Filter out names (famous_people theme) from distractors
             let distractors = allVocab
-                .filter(v => v.word !== current.word)
+                .filter(v => {
+                    if (v.word === current.word) return false;
+                    if (v.theme === 'famous_people') return false;
+
+                    if (level !== 'all') {
+                        const levels = ['starter', 'elementary', 'intermediate', 'advanced', 'proficiency'];
+                        const targetIdx = levels.indexOf(level);
+                        const itemIdx = levels.indexOf(v.level || 'starter');
+                        if (itemIdx > targetIdx) return false;
+                    }
+                    return true;
+                })
                 .sort(() => Math.random() - 0.5)
                 .slice(0, 3)
                 .map(v => v.word);
@@ -161,9 +175,23 @@ document.addEventListener('DOMContentLoaded', () => {
         startBtn?.addEventListener('click', () => {
             currentGameMode = modeSelect.value;
             const lang = document.getElementById('emoji-lang').value;
+            const level = document.getElementById('emoji-level')?.value || 'all';
 
             if (currentGameMode === 'guess') {
-                pool = (window.vocabularyData[lang] || []).filter(v => v.emoji).sort(() => Math.random() - 0.5).slice(0, 10);
+                let vocab = (window.vocabularyData[lang] || [])
+                    .filter(v => v.theme !== 'famous_people'); // Never include names in Emoji Odyssey
+
+                if (level !== 'all') {
+                    const levels = ['starter', 'elementary', 'intermediate', 'advanced', 'proficiency'];
+                    const targetIdx = levels.indexOf(level);
+                    vocab = vocab.filter(v => {
+                        const itemIdx = levels.indexOf(v.level || 'starter');
+                        return itemIdx <= targetIdx;
+                    });
+                }
+
+                pool = vocab.filter(v => v.emoji).sort(() => Math.random() - 0.5).slice(0, 10);
+
                 if (pool.length === 0) {
                     showGameMessage(setupArea, t('alert_no_emoji_vocab'), 'error');
                     return;
