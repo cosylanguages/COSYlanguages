@@ -745,31 +745,52 @@ function expandGrammarItems(items, lang) {
                     theme: 'grammar_gender'
                 });
             }
-            if (item.numberPlural) {
-                const pluralAnswer = item.answer || item.numberPlural;
-                const base = (item.baseWord || item.word);
-                let distractors = [];
+            if (item.plural) {
+                const singular = item.word;
+                const plural = item.plural;
 
+                // 1. Singular to Plural
+                let distractorsSP = [];
                 if (lang === 'en') {
-                    distractors = [base + "s", base + "es", base + "ies", base];
+                    distractorsSP = [singular + "s", singular + "es", singular + "ies", singular];
                 } else {
-                    // For other languages, use other plural answers from the dataset as distractors
-                    distractors = [base]; // singular is a good distractor
-                    const otherPlurals = items
-                        .filter(i => i.numberPlural && i !== item)
-                        .map(i => i.answer || i.numberPlural);
+                    distractorsSP = [singular];
+                    const otherPlurals = items.filter(i => i.plural && i !== item).map(i => i.plural);
                     if (otherPlurals.length > 0) {
-                        distractors.push(...otherPlurals.sort(() => 0.5 - Math.random()).slice(0, 3));
+                        distractorsSP.push(...otherPlurals.sort(() => 0.5 - Math.random()).slice(0, 3));
                     }
                 }
 
                 expanded.push({
                     ...item,
                     type: 'type-np',
-                    clozeText: `${item.numberPlural} -> ____`,
-                    answer: pluralAnswer,
-                    distractors: [...new Set(distractors.map(d => d.toLowerCase()).filter(d => d !== pluralAnswer.toLowerCase()))],
-                    theme: 'grammar_plurals'
+                    clozeText: `${singular} -> ____`,
+                    answer: plural,
+                    distractors: [...new Set(distractorsSP.map(d => d.toLowerCase()).filter(d => d !== plural.toLowerCase()))],
+                    theme: 'grammar_plurals',
+                    form: 'singular_to_plural'
+                });
+
+                // 2. Plural to Singular
+                let distractorsPS = [];
+                if (lang === 'en') {
+                    distractorsPS = [plural.replace(/s$/i, ''), plural.replace(/es$/i, ''), plural.replace(/ies$/i, 'y'), plural];
+                } else {
+                    distractorsPS = [plural];
+                    const otherSingulars = items.filter(i => i.word && i !== item).map(i => i.word);
+                    if (otherSingulars.length > 0) {
+                        distractorsPS.push(...otherSingulars.sort(() => 0.5 - Math.random()).slice(0, 3));
+                    }
+                }
+
+                expanded.push({
+                    ...item,
+                    type: 'type-np',
+                    clozeText: `${plural} -> ____`,
+                    answer: singular,
+                    distractors: [...new Set(distractorsPS.map(d => d.toLowerCase()).filter(d => d !== singular.toLowerCase()))],
+                    theme: 'grammar_plurals',
+                    form: 'plural_to_singular'
                 });
             }
         } else {
@@ -830,7 +851,7 @@ function startPractice(isWheelMode = false) {
         }
     } else if (selectedCat === 'grammar') {
         const gd = grammarData[lang] || [];
-        const vd = (vocabularyData[lang] || []).filter(item => item.article || item.gender || item.numberPlural);
+        const vd = (vocabularyData[lang] || []).filter(item => item.article || item.gender || item.plural);
         rawItems = expandGrammarItems([...gd, ...vd], lang);
     } else {
         rawItems = vocabularyData[lang] || [];
@@ -883,9 +904,11 @@ function startPractice(isWheelMode = false) {
         // Grammar category specific filtering to avoid task type mismatch
         if (wordCopy.form === 'verb' || wordCopy.form === 'pronoun') {
             possibleTypes = possibleTypes.filter(t => t !== 'type-ga' && t !== 'type-np');
+        } else if (wordCopy.form === 'singular_to_plural' || wordCopy.form === 'plural_to_singular') {
+            possibleTypes = possibleTypes.filter(t => t === 'type-np' || t === 'type-mc' || t === 'type-cl');
         } else {
             if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'type-ga');
-            if (!wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'type-np');
+            if (!wordCopy.plural) possibleTypes = possibleTypes.filter(t => t !== 'type-np');
         }
 
         const isSentence = wordCopy.word && wordCopy.word.includes(' ');
@@ -1452,7 +1475,8 @@ function checkTypedAnswer() {
     const userAnswer = document.getElementById('opposite-answer').value.trim().toLowerCase();
     let correctAnswer;
 
-    if (currentPractice.currentWord.type === 'cloze' || currentPractice.currentWord.type === 'number_plural') {
+    const type = currentPractice.currentWord.type;
+    if (type === 'cloze' || type === 'number_plural' || type === 'type-cl' || type === 'type-np') {
         correctAnswer = currentPractice.currentWord.answer.toLowerCase();
     } else {
         correctAnswer = currentPractice.currentWord.opposite.toLowerCase();
