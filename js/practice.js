@@ -37,6 +37,63 @@ function clearSession() {
     localStorage.removeItem(SESSION_STORAGE_KEY);
 }
 
+function populateThemes(categoryId) {
+    const themeSelect = document.getElementById('practice-theme');
+    if (!themeSelect) return;
+
+    const lang = currentPractice.language;
+    const t = translations[lang] || translations['en'];
+
+    themeSelect.innerHTML = '';
+
+    // Add "All Themes"
+    const allOpt = document.createElement('option');
+    allOpt.value = 'all';
+    allOpt.textContent = t['theme_all'] || 'All Themes';
+    allOpt.setAttribute('data-translate-key', 'theme_all');
+    themeSelect.appendChild(allOpt);
+
+    let themes = [];
+
+    if (categoryId === 'grammar') {
+        themes = [
+            { value: 'grammar_plurals', key: 'theme_grammar_plurals' },
+            { value: 'grammar_present_simple', key: 'theme_grammar_present_simple' },
+            { value: 'grammar_future_simple', key: 'theme_grammar_future_simple' },
+            { value: 'grammar_past_simple', key: 'theme_grammar_past_simple' },
+            { value: 'grammar_gender', key: 'theme_grammar_gender' }
+        ];
+    } else if (categoryId === 'speaking') {
+        themes = [
+            { value: 'opinionArena', key: 'game_opinion_arena' },
+            { value: 'debates', key: 'game_debates' },
+            { value: 'talkThatTalk', key: 'game_talk_talk' }
+        ];
+    } else {
+        // vocab
+        themes = [
+            { value: 'profession', key: 'theme_profession' },
+            { value: 'family', key: 'theme_family' },
+            { value: 'animal', key: 'theme_animal' },
+            { value: 'daily_life', key: 'daily_life' },
+            { value: 'food_drinks', key: 'theme_food_drinks' },
+            { value: 'travel_places', key: 'theme_places' },
+            { value: 'leisure_hobbies', key: 'theme_hobby' },
+            { value: 'science_technology', key: 'theme_technology' },
+            { value: 'health_body', key: 'theme_health' },
+            { value: 'education_work', key: 'theme_education' }
+        ];
+    }
+
+    themes.forEach(th => {
+        const opt = document.createElement('option');
+        opt.value = th.value;
+        opt.textContent = t[th.key] || th.value;
+        opt.setAttribute('data-translate-key', th.key);
+        themeSelect.appendChild(opt);
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     loadStreak();
     loadTotalScore();
@@ -48,7 +105,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const selected = document.querySelector('input[name="practice-cat"]:checked');
         if (!selected) return;
 
+        const categoryId = selected.id.replace('cat-', '');
         container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
+        container.classList.add('cat-' + categoryId);
+
+        populateThemes(categoryId);
 
         const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
 
@@ -71,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         } else if (selected.id === 'cat-grammar') {
             container.classList.add('cat-grammar');
-            const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np'];
+            const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np', 'type-mc'];
             taskCheckboxes.forEach(cb => {
                 const isGrammar = grammarTasks.includes(cb.id);
                 configureTask(cb.id, isGrammar, isGrammar);
@@ -315,6 +376,12 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.add('active');
             const newLang = card.getAttribute('data-value');
             currentPractice.language = newLang;
+
+            const selectedCat = document.querySelector('input[name="practice-cat"]:checked');
+            if (selectedCat) {
+                populateThemes(selectedCat.id.replace('cat-', ''));
+            }
+
             if (typeof setLanguage === 'function') {
                 setLanguage(newLang);
                 const switcher = document.getElementById('language-switcher');
@@ -556,7 +623,98 @@ function triggerAnimation(type) {
     }
 }
 
+const GRAMMAR_CONFIG = {
+    fr: {
+        articles: ['le', 'la', "l'", 'les', 'un', 'une', 'des'],
+        pronouns: ['je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles']
+    },
+    it: {
+        articles: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le', 'un', 'una', 'uno', "un'"],
+        pronouns: ['io', 'tu', 'lui', 'lei', 'noi', 'voi', 'loro']
+    },
+    ru: {
+        articles: ['он', 'она', 'оно'],
+        pronouns: ['я', 'ты', 'он', 'она', 'оно', 'мы', 'вы', 'они']
+    },
+    el: {
+        articles: ['ο', 'η', 'το', 'οι', 'τα', 'ένας', 'μία', 'ένα'],
+        pronouns: ['εγώ', 'εσύ', 'αυτός', 'αυτή', 'αυτό', 'εμείς', 'εσείς', 'αυτοί']
+    },
+    en: {
+        articles: ['a', 'an', 'the'],
+        pronouns: ['I', 'you', 'he', 'she', 'it', 'we', 'they']
+    }
+};
 
+function expandGrammarItems(items, lang) {
+    let expanded = [];
+    const config = GRAMMAR_CONFIG[lang] || { articles: [], pronouns: [] };
+
+    items.forEach(item => {
+        if (item.verb) {
+            const pronouns = item.pronouns || config.pronouns;
+            if (!item.tenses) return;
+            for (const [tense, forms] of Object.entries(item.tenses)) {
+                const theme = 'grammar_' + tense;
+                for (const [formType, conjugations] of Object.entries(forms)) {
+                    conjugations.forEach((conj, idx) => {
+                        const pronoun = pronouns[idx];
+
+                        // 1. Verb form practice
+                        const label = (formType === 'negative') ? " (-)" : (formType === 'question') ? " (?)" : "";
+                        let verbPrompt = (formType === 'question') ? `____? (${pronoun} + ${item.verb})` : `${pronoun} ____ (${item.verb}${label})`;
+
+                        expanded.push({
+                            ...item,
+                            clozeText: verbPrompt,
+                            answer: conj,
+                            word: conj,
+                            distractors: [...new Set(conjugations.filter(c => c.toLowerCase() !== conj.toLowerCase()))],
+                            theme: theme,
+                            form: 'verb'
+                        });
+
+                        // 2. Personal Pronoun practice - skip for question forms to avoid redundancy
+                        if (formType !== 'question') {
+                            expanded.push({
+                                ...item,
+                                clozeText: `____ ${conj} (${item.verb})`,
+                                answer: pronoun,
+                                word: pronoun,
+                                distractors: [...new Set(pronouns.filter(p => p.toLowerCase() !== pronoun.toLowerCase()))],
+                                theme: theme,
+                                form: 'pronoun'
+                            });
+                        }
+                    });
+                }
+            }
+        } else if (item.article || item.gender || item.numberPlural) {
+            if (item.article || item.gender) {
+                expanded.push({
+                    ...item,
+                    type: 'gender_articles',
+                    clozeText: `____ ${item.baseWord || item.word}`,
+                    answer: item.article || item.gender,
+                    distractors: config.articles.filter(a => a !== (item.article || item.gender)),
+                    theme: 'grammar_gender'
+                });
+            }
+            if (item.numberPlural) {
+                expanded.push({
+                    ...item,
+                    type: 'number_plural',
+                    clozeText: `1 ${item.baseWord || item.word} -> 2 ____`,
+                    answer: item.numberPlural,
+                    theme: 'grammar_plurals'
+                });
+            }
+        } else {
+            expanded.push(item);
+        }
+    });
+    return expanded;
+}
 
 function startPractice(isWheelMode = false) {
     const activeLangCard = document.querySelector('.lang-selection-card.active');
@@ -598,6 +756,10 @@ function startPractice(isWheelMode = false) {
                 list.forEach(item => rawItems.push({...item, category: 'conversation'}));
             }
         });
+    } else if (selectedCat === 'grammar') {
+        const gd = grammarData[lang] || [];
+        const vd = (vocabularyData[lang] || []).filter(item => item.article || item.gender || item.numberPlural);
+        rawItems = expandGrammarItems([...gd, ...vd], lang);
     } else {
         rawItems = vocabularyData[lang] || [];
     }
@@ -624,6 +786,11 @@ function startPractice(isWheelMode = false) {
             return { ...wordCopy, type: 'conversation' };
         }
 
+        // Respect preferred type from grammar expansion if it's enabled
+        if (wordCopy.type && enabledTypes.includes(wordCopy.type)) {
+            return wordCopy;
+        }
+
         possibleTypes = possibleTypes.filter(t => t !== 'conversation');
         if (wordCopy.opposite && Math.random() > 0.5) {
             const originalWord = wordCopy.word;
@@ -633,8 +800,8 @@ function startPractice(isWheelMode = false) {
 
         if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
         if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
-        if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
-        if (!wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'number_plural');
+        if (!wordCopy.article && !wordCopy.gender && !wordCopy.answer) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
+        if (!wordCopy.numberPlural && !wordCopy.answer) possibleTypes = possibleTypes.filter(t => t !== 'number_plural');
 
         const isSentence = wordCopy.word && wordCopy.word.includes(' ');
         if (isSentence) {
@@ -1010,16 +1177,20 @@ function renderMultipleChoice() {
     const correctAnswer = wordObj.answer || wordObj.word || wordObj.text || wordObj.topic;
     const choices = [correctAnswer];
 
-    const pool = vocabularyData[currentPractice.language] || [];
+    let distractors = [];
+    if (wordObj.distractors && wordObj.distractors.length > 0) {
+        distractors = wordObj.distractors.sort(() => Math.random() - 0.5).slice(0, 2);
+    } else {
+        const pool = vocabularyData[currentPractice.language] || [];
+        const distractorPool = pool
+            .map(w => w.answer || w.word || w.text || w.topic)
+            .filter(val => val && val.toLowerCase() !== correctAnswer.toLowerCase());
 
-    const distractorPool = pool
-        .map(w => w.answer || w.word || w.text || w.topic)
-        .filter(val => val && val.toLowerCase() !== correctAnswer.toLowerCase());
+        const shuffledPool = distractorPool.sort(() => Math.random() - 0.5);
+        distractors = [...new Set(shuffledPool)].slice(0, 2);
+    }
 
-    const shuffledPool = distractorPool.sort(() => Math.random() - 0.5);
-    const selectedDistractors = [...new Set(shuffledPool)].slice(0, 2);
-
-    choices.push(...selectedDistractors);
+    choices.push(...distractors);
     choices.sort(() => Math.random() - 0.5);
 
     choices.forEach(choice => {
@@ -1037,23 +1208,34 @@ function renderGenderArticles() {
     choicesGrid.innerHTML = '';
 
     const lang = currentPractice.language;
-    const articlesMap = {
-        it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
-        fr: ['le', 'la', "l'", 'les'],
-        el: ['ο', 'η', 'το', 'οι', 'τα'],
-        ru: ['он', 'она', 'оно']
-    };
+    const config = (typeof GRAMMAR_CONFIG !== 'undefined') ? GRAMMAR_CONFIG[lang] : null;
 
-    const choices = articlesMap[lang] || [];
-    const targetValue = wordObj.article || wordObj.gender;
+    let choices = [];
+    if (wordObj.distractors && wordObj.distractors.length > 0) {
+        choices = [wordObj.answer, ...wordObj.distractors];
+    } else if (config && config.articles) {
+        choices = config.articles;
+    } else {
+        const articlesMap = {
+            it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
+            fr: ['le', 'la', "l'", 'les'],
+            el: ['ο', 'η', 'το', 'οι', 'τα'],
+            ru: ['он', 'она', 'оνο']
+        };
+        choices = articlesMap[lang] || [];
+    }
+
+    const targetValue = wordObj.answer || wordObj.article || wordObj.gender;
+    const possibleAnswers = targetValue.split(' / ').map(a => a.trim().toLowerCase());
+
+    choices = [...new Set(choices)].sort(() => Math.random() - 0.5);
 
     choices.forEach(article => {
         const btn = document.createElement('button');
         btn.className = 'choice-btn';
         btn.textContent = article;
         btn.onclick = () => {
-            const possibleArticles = targetValue.split(' / ').map(a => a.trim());
-            if (possibleArticles.includes(article)) {
+            if (possibleAnswers.includes(article.toLowerCase())) {
                 btn.classList.add('correct');
                 showFeedback(true);
             } else {
