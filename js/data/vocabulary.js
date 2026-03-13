@@ -438,7 +438,10 @@ const vocabularyData = {
         {
             "word": "Book",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "numberPlural": "2 book",
+            "answer": "two books",
+            "emoji": "📚"
         },
         {
             "word": "Watch",
@@ -897,6 +900,70 @@ const vocabularyData = {
             "word": "Father",
             "level": "starter",
             "theme": "family"
+        },
+        {
+            "word": "City",
+            "theme": "travel_places",
+            "level": "elementary",
+            "numberPlural": "3 city",
+            "answer": "three cities",
+            "emoji": "🏙️"
+        },
+        {
+            "word": "Child",
+            "theme": "people_society",
+            "level": "intermediate",
+            "numberPlural": "5 child",
+            "answer": "five children",
+            "emoji": "🧒"
+        },
+        {
+            "word": "Leaf",
+            "theme": "nature_environment",
+            "level": "intermediate",
+            "numberPlural": "many leaf",
+            "answer": "many leaves",
+            "emoji": "🍃"
+        },
+        {
+            "word": "Man",
+            "level": "starter",
+            "theme": "people_society",
+            "numberPlural": "2 man",
+            "answer": "two men",
+            "emoji": "👨"
+        },
+        {
+            "word": "Woman",
+            "level": "starter",
+            "theme": "people_society",
+            "numberPlural": "2 woman",
+            "answer": "two women",
+            "emoji": "👩"
+        },
+        {
+            "word": "Tooth",
+            "level": "intermediate",
+            "theme": "health_body",
+            "numberPlural": "32 tooth",
+            "answer": "thirty-two teeth",
+            "emoji": "🦷"
+        },
+        {
+            "word": "Foot",
+            "level": "starter",
+            "theme": "health_body",
+            "numberPlural": "2 foot",
+            "answer": "two feet",
+            "emoji": "🦶"
+        },
+        {
+            "word": "Mouse",
+            "level": "elementary",
+            "theme": "animal",
+            "numberPlural": "many mouse",
+            "answer": "many mice",
+            "emoji": "🐭"
         }
     ],
     "fr": [
@@ -976,13 +1043,19 @@ const vocabularyData = {
             "word": "Pomme",
             "level": "starter",
             "theme": "food_drinks",
+            "article": "la",
+            "baseWord": "pomme",
+            "emoji": "🍎",
             "numberPlural": "4 pomme",
             "answer": "quatre pommes"
         },
         {
             "word": "Pain",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "article": "le",
+            "baseWord": "pain",
+            "emoji": "🥖"
         },
         {
             "word": "Fromage",
@@ -1165,7 +1238,11 @@ const vocabularyData = {
         {
             "word": "Bureau",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "theme_alt": "grammar_plurals",
+            "numberPlural": "3 bureau",
+            "answer": "trois bureaux",
+            "emoji": "🏢"
         },
         {
             "word": "Armoire",
@@ -1511,6 +1588,54 @@ const vocabularyData = {
             "word": "Père",
             "level": "starter",
             "theme": "family"
+        },
+        {
+            "word": "Eau",
+            "theme": "food_drinks",
+            "level": "starter",
+            "article": "l'",
+            "baseWord": "eau",
+            "emoji": "🚰"
+        },
+        {
+            "word": "Voiture",
+            "level": "starter",
+            "theme": "travel_places",
+            "article": "la",
+            "baseWord": "voiture",
+            "numberPlural": "2 voiture",
+            "answer": "deux voitures",
+            "emoji": "🚗"
+        },
+        {
+            "word": "Maison",
+            "level": "starter",
+            "theme": "travel_places",
+            "article": "la",
+            "baseWord": "maison",
+            "numberPlural": "3 maison",
+            "answer": "trois maisons",
+            "emoji": "🏠"
+        },
+        {
+            "word": "Livre",
+            "level": "starter",
+            "theme": "daily_life",
+            "article": "le",
+            "baseWord": "livre",
+            "numberPlural": "des livre",
+            "answer": "des livres",
+            "emoji": "📚"
+        },
+        {
+            "word": "Oiseau",
+            "level": "elementary",
+            "theme": "animal",
+            "article": "l'",
+            "baseWord": "oiseau",
+            "numberPlural": "2 oiseau",
+            "answer": "deux oiseaux",
+            "emoji": "🐦"
         }
     ],
     "it": [
@@ -2110,6 +2235,76 @@ const vocabularyData = {
             "word": "Padre",
             "level": "starter",
             "theme": "family"
+        },
+        {
+            "word": "Ragazzo",
+            "theme": "people_society",
+            "level": "starter",
+            "article": "il",
+            "baseWord": "ragazzo",
+            "numberPlural": "2 ragazzo",
+            "answer": "due ragazzi",
+            "emoji": "👦"
+        },
+        {
+            "word": "Ragazza",
+            "theme": "people_society",
+            "level": "starter",
+            "article": "la",
+            "baseWord": "ragazza",
+            "numberPlural": "3 ragazza",
+            "answer": "tre ragazze",
+            "emoji": "👧"
+        },
+        {
+            "word": "Amico",
+            "theme": "people_society",
+            "level": "starter",
+            "article": "l'",
+            "baseWord": "amico",
+            "numberPlural": "2 amico",
+            "answer": "due amici",
+            "emoji": "🧑‍🤝‍🧑"
+        },
+        {
+            "word": "Libro",
+            "level": "starter",
+            "theme": "daily_life",
+            "article": "il",
+            "baseWord": "libro",
+            "numberPlural": "4 libro",
+            "answer": "quattro libri",
+            "emoji": "📚"
+        },
+        {
+            "word": "Casa",
+            "level": "starter",
+            "theme": "travel_places",
+            "article": "la",
+            "baseWord": "casa",
+            "numberPlural": "molte casa",
+            "answer": "molte case",
+            "emoji": "🏠"
+        },
+        {
+            "word": "Uomo",
+            "level": "starter",
+            "theme": "people_society",
+            "article": "l'",
+            "baseWord": "uomo",
+            "numberPlural": "2 uomo",
+            "answer": "due uomini",
+            "emoji": "👨"
+        },
+        {
+            "word": "Donna",
+            "level": "starter",
+            "theme": "people_society",
+            "article": "la",
+            "baseWord": "donna",
+            "numberPlural": "3 donna",
+            "answer": "tre donne",
+            "emoji": "👩"
         }
     ],
     "ru": [
@@ -2719,6 +2914,70 @@ const vocabularyData = {
             "word": "Отец",
             "level": "starter",
             "theme": "family"
+        },
+        {
+            "word": "Кофе",
+            "theme": "food_drinks",
+            "level": "starter",
+            "gender": "он",
+            "baseWord": "кофе",
+            "emoji": "☕"
+        },
+        {
+            "word": "Вода",
+            "theme": "food_drinks",
+            "level": "starter",
+            "gender": "она",
+            "baseWord": "вода",
+            "emoji": "🚰"
+        },
+        {
+            "word": "Окно",
+            "theme": "daily_life",
+            "level": "starter",
+            "gender": "оно",
+            "baseWord": "окно",
+            "emoji": "🪟"
+        },
+        {
+            "word": "Книга",
+            "theme": "daily_life",
+            "level": "starter",
+            "gender": "она",
+            "baseWord": "книга",
+            "numberPlural": "2 книга",
+            "answer": "две книги",
+            "emoji": "📖"
+        },
+        {
+            "word": "Стол",
+            "level": "starter",
+            "theme": "daily_life",
+            "gender": "он",
+            "baseWord": "стол",
+            "numberPlural": "3 стол",
+            "answer": "три стола",
+            "emoji": "🪑"
+        },
+        {
+            "word": "Машина",
+            "level": "starter",
+            "theme": "travel_places",
+            "gender": "она",
+            "baseWord": "машина",
+            "numberPlural": "4 машина",
+            "answer": "четыре машины",
+            "emoji": "🚗"
+        },
+        {
+            "word": "Море",
+            "level": "elementary",
+            "theme": "nature_environment",
+            "gender": "оно",
+            "baseWord": "моρε",
+            "numberPlural": "много море",
+            "answer": "много морей",
+            "emoji": "🌊"
         }
     ],
     "el": [
@@ -3288,6 +3547,80 @@ const vocabularyData = {
             "word": "Πατέρας",
             "level": "starter",
             "theme": "family"
+        },
+        {
+            "word": "Καφές",
+            "theme": "food_drinks",
+            "level": "starter",
+            "article": "ο",
+            "baseWord": "καφές",
+            "emoji": "☕"
+        },
+        {
+            "word": "Μπίρα",
+            "theme": "food_drinks",
+            "level": "starter",
+            "article": "η",
+            "baseWord": "μπίρα",
+            "emoji": "🍺"
+        },
+        {
+            "word": "Νερό",
+            "theme": "food_drinks",
+            "level": "starter",
+            "article": "το",
+            "baseWord": "νερό",
+            "emoji": "🚰"
+        },
+        {
+            "word": "Βιβλίο",
+            "theme": "daily_life",
+            "level": "starter",
+            "article": "το",
+            "baseWord": "βιβλίο",
+            "numberPlural": "2 βιβλίο",
+            "answer": "δύο βιβλία",
+            "emoji": "📖"
+        },
+        {
+            "word": "Σπίτι",
+            "level": "starter",
+            "theme": "travel_places",
+            "article": "το",
+            "baseWord": "σπίτι",
+            "numberPlural": "πολλά σπίτι",
+            "answer": "πολλά σπίτια",
+            "emoji": "🏠"
+        },
+        {
+            "word": "Γυναίκα",
+            "level": "starter",
+            "theme": "people_society",
+            "article": "η",
+            "baseWord": "γυναίκα",
+            "numberPlural": "3 γυναίκα",
+            "answer": "τρεις γυναίκες",
+            "emoji": "👩"
+        },
+        {
+            "word": "Άνδρας",
+            "level": "starter",
+            "theme": "people_society",
+            "article": "ο",
+            "baseWord": "άνδρας",
+            "numberPlural": "2 άνδρας",
+            "answer": "δύο άνδρες",
+            "emoji": "👨"
+        },
+        {
+            "word": "Παιδί",
+            "level": "starter",
+            "theme": "people_society",
+            "article": "το",
+            "baseWord": "παιδί",
+            "numberPlural": "πολλά παιδί",
+            "answer": "πολλά παιδιά",
+            "emoji": "🧒"
         }
     ]
 };

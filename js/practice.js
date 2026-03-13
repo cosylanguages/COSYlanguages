@@ -63,6 +63,11 @@ function populateThemes(categoryId) {
             { value: 'grammar_past_simple', key: 'theme_grammar_past_simple' },
             { value: 'grammar_gender', key: 'theme_grammar_gender' }
         ];
+
+        // English refinements: no Future Simple or Gender/Articles in Grammar section per request
+        if (lang === 'en') {
+            themes = themes.filter(th => th.value !== 'grammar_future_simple' && th.value !== 'grammar_gender');
+        }
     } else if (categoryId === 'speaking') {
         themes = [
             { value: 'opinionArena', key: 'game_opinion_arena' },
@@ -638,7 +643,7 @@ const GRAMMAR_CONFIG = {
     },
     el: {
         articles: ['ο', 'η', 'το', 'οι', 'τα', 'ένας', 'μία', 'ένα'],
-        pronouns: ['εγώ', 'εσύ', 'αυτός', 'αυτή', 'αυτό', 'εμείς', 'εσείς', 'αυτοί']
+        pronouns: ['εγώ', 'εσύ', 'αυτός', 'αυτή', 'αυτό', 'εμείς', 'εσείς', 'αυτοί', 'αυτές', 'αυτά']
     },
     en: {
         articles: ['a', 'an', 'the'],
@@ -660,12 +665,18 @@ function expandGrammarItems(items, lang) {
                     conjugations.forEach((conj, idx) => {
                         const pronoun = pronouns[idx];
 
+                        // English Present Simple focus: bias towards 3rd person singular (he/she/it)
+                        if (lang === 'en' && tense === 'present_simple' && !['he', 'she', 'it'].includes(pronoun.toLowerCase()) && Math.random() > 0.4) {
+                            return; // skip some common forms to focus on 3rd person singular
+                        }
+
                         // 1. Verb form practice
                         const label = (formType === 'negative') ? " (-)" : (formType === 'question') ? " (?)" : "";
                         let verbPrompt = (formType === 'question') ? `____? (${pronoun} + ${item.verb})` : `${pronoun} ____ (${item.verb}${label})`;
 
                         expanded.push({
                             ...item,
+                            type: 'cloze', // base type, startPractice might change to MC
                             clozeText: verbPrompt,
                             answer: conj,
                             word: conj,
@@ -676,12 +687,17 @@ function expandGrammarItems(items, lang) {
 
                         // 2. Personal Pronoun practice - skip for question forms to avoid redundancy
                         if (formType !== 'question') {
+                            // Find all pronouns that are technically correct for this conjugation
+                            const correctPronouns = pronouns.filter((p, pIdx) => conjugations[pIdx] === conj);
+
                             expanded.push({
                                 ...item,
+                                type: 'multiple_choice',
                                 clozeText: `____ ${conj} (${item.verb})`,
-                                answer: pronoun,
+                                answer: correctPronouns.join(' / '),
                                 word: pronoun,
-                                distractors: [...new Set(pronouns.filter(p => p.toLowerCase() !== pronoun.toLowerCase()))],
+                                // Distractors MUST NOT include any of the correct pronouns for this conjugation
+                                distractors: pronouns.filter(p => !correctPronouns.includes(p)),
                                 theme: theme,
                                 form: 'pronoun'
                             });
@@ -701,11 +717,16 @@ function expandGrammarItems(items, lang) {
                 });
             }
             if (item.numberPlural) {
+                // Basic distractor generation for plurals
+                let dist1 = (item.baseWord || item.word) + "s";
+                if (item.numberPlural === dist1) dist1 = (item.baseWord || item.word) + "es";
+
                 expanded.push({
                     ...item,
                     type: 'number_plural',
                     clozeText: `1 ${item.baseWord || item.word} -> 2 ____`,
                     answer: item.numberPlural,
+                    distractors: [dist1, item.baseWord || item.word],
                     theme: 'grammar_plurals'
                 });
             }
@@ -788,6 +809,10 @@ function startPractice(isWheelMode = false) {
 
         // Respect preferred type from grammar expansion if it's enabled
         if (wordCopy.type && enabledTypes.includes(wordCopy.type)) {
+            // Verbs can be either Cloze or Multiple Choice
+            if (wordCopy.form === 'verb' && enabledTypes.includes('multiple_choice') && enabledTypes.includes('cloze')) {
+                wordCopy.type = Math.random() > 0.5 ? 'multiple_choice' : 'cloze';
+            }
             return wordCopy;
         }
 
@@ -800,8 +825,14 @@ function startPractice(isWheelMode = false) {
 
         if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
         if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
-        if (!wordCopy.article && !wordCopy.gender && !wordCopy.answer) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
-        if (!wordCopy.numberPlural && !wordCopy.answer) possibleTypes = possibleTypes.filter(t => t !== 'number_plural');
+
+        // Grammar category specific filtering to avoid task type mismatch
+        if (wordCopy.form === 'verb' || wordCopy.form === 'pronoun') {
+            possibleTypes = possibleTypes.filter(t => t !== 'gender_articles' && t !== 'number_plural');
+        } else {
+            if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
+            if (!wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'number_plural');
+        }
 
         const isSentence = wordCopy.word && wordCopy.word.includes(' ');
         if (isSentence) {
@@ -1111,7 +1142,7 @@ function showNextWord() {
         }
     } else if (wordObj.type === 'cloze' || wordObj.type === 'number_plural') {
         const isNP = wordObj.type === 'number_plural';
-        document.getElementById('word-display').textContent = isNP ? wordObj.numberPlural : wordObj.clozeText;
+        document.getElementById('word-display').textContent = wordObj.clozeText || (isNP ? "" : "");
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', isNP ? 'task_number_plural' : 'task_cloze');
         document.getElementById('opposite-input-container').style.display = 'flex';
@@ -1220,7 +1251,7 @@ function renderGenderArticles() {
             it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
             fr: ['le', 'la', "l'", 'les'],
             el: ['ο', 'η', 'το', 'οι', 'τα'],
-            ru: ['он', 'она', 'оνο']
+            ru: ['он', 'она', 'оно']
         };
         choices = articlesMap[lang] || [];
     }
@@ -1249,9 +1280,10 @@ function renderGenderArticles() {
 
 function checkMultipleChoiceAnswer(choice, btn) {
     const wordObj = currentPractice.currentWord;
-    const correctAnswer = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic).toLowerCase();
+    const targetValue = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic).toLowerCase();
+    const possibleAnswers = targetValue.split(' / ').map(a => a.trim());
 
-    if (choice.toLowerCase() === correctAnswer) {
+    if (possibleAnswers.includes(choice.toLowerCase())) {
         btn.classList.add('correct');
         showFeedback(true);
     } else {
