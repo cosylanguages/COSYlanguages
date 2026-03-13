@@ -34,7 +34,7 @@ test('Grammar category and theme selection', async ({ page }) => {
     expect(instruction).toBe('task_gender_articles');
 });
 
-test('English grammar hides Future Simple and Gender', async ({ page }) => {
+test('English grammar hides Gender and Future Simple', async ({ page }) => {
     await page.goto(fileUrl('practice.html'));
 
     // Select Language (English)
@@ -69,16 +69,15 @@ test('Pronoun practice allows multiple correct answers', async ({ page }) => {
     await page.click('#start-btn');
 
     let foundPronounTask = false;
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 150; i++) {
         const text = await page.locator('#word-display').textContent();
         // Pronoun tasks start with ____ or ____?
-        if (text && (text.startsWith('____') || text.startsWith('____?'))) {
+        if (text && (text.trim().startsWith('____') || text.trim().startsWith('____?'))) {
             foundPronounTask = true;
-            const choices = await page.locator('.choice-btn').evaluateAll(btns => btns.map(b => b.textContent));
-            expect(choices.length).toBeGreaterThan(0);
 
             const instruction = await page.locator('#task-instruction').getAttribute('data-translate-key');
-            expect(instruction).toBe('task_multiple_choice');
+            // Instruction could be multiple_choice or cl (typed)
+            expect(['task_multiple_choice', 'task_cloze']).toContain(instruction);
 
             break;
         }

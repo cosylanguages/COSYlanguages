@@ -655,10 +655,33 @@ function expandGrammarItems(items, lang) {
     let expanded = [];
     const config = GRAMMAR_CONFIG[lang] || { articles: [], pronouns: [] };
 
+    // Global verb forms pool for cross-verb distractors (be vs do distinction)
+    let globalVerbForms = [];
+    items.forEach(it => {
+        if (it.verb && it.tenses) {
+            Object.values(it.tenses).forEach(tense => {
+                Object.values(tense).forEach(forms => {
+                    globalVerbForms.push(...forms.map(f => f.toLowerCase()));
+                });
+            });
+        }
+    });
+    globalVerbForms = [...new Set(globalVerbForms)];
+
     items.forEach(item => {
         if (item.verb) {
             const pronouns = item.pronouns || config.pronouns;
             if (!item.tenses) return;
+
+            // Collect all possible conjugation forms for this verb across all tenses to use as distractors
+            let itemVerbForms = [];
+            for (const tense of Object.values(item.tenses)) {
+                for (const forms of Object.values(tense)) {
+                    itemVerbForms.push(...forms);
+                }
+            }
+            itemVerbForms = [...new Set(itemVerbForms.map(v => v.toLowerCase()))];
+
             for (const [tense, forms] of Object.entries(item.tenses)) {
                 const theme = 'grammar_' + tense;
                 for (const [formType, conjugations] of Object.entries(forms)) {
@@ -674,13 +697,33 @@ function expandGrammarItems(items, lang) {
                         const label = (formType === 'negative') ? " (-)" : (formType === 'question') ? " (?)" : "";
                         let verbPrompt = (formType === 'question') ? `____? (${pronoun} + ${item.verb})` : `${pronoun} ____ (${item.verb}${label})`;
 
+                        // Improved distractors: use other forms from the same verb + mix in global auxiliary forms
+                        let distractors = itemVerbForms.filter(v => v !== conj.toLowerCase());
+
+                        // English distinction: mix in common distractors for be/do
+                        if (lang === 'en') {
+                            const beForms = ['am', 'is', 'are', 'was', 'were', 'am not', 'is not', 'are not', 'was not', 'were not'];
+                            const auxForms = ['do', 'does', 'did', "don't", "doesn't", "didn't"];
+
+                            if (item.verb.toLowerCase() === 'to be') {
+                                distractors.push(...auxForms.filter(v => !distractors.includes(v)));
+                            } else {
+                                distractors.push(...beForms.filter(v => !distractors.includes(v)));
+                            }
+                        }
+
+                        // Fallback: pick random forms from global pool
+                        if (distractors.length < 3) {
+                            distractors.push(...globalVerbForms.filter(v => v !== conj.toLowerCase() && !distractors.includes(v)).sort(() => 0.5 - Math.random()).slice(0, 3));
+                        }
+
                         expanded.push({
                             ...item,
-                            type: 'cloze', // base type, startPractice might change to MC
+                            type: 'type-cl', // base type, startPractice might change to MC
                             clozeText: verbPrompt,
                             answer: conj,
                             word: conj,
-                            distractors: [...new Set(conjugations.filter(c => c.toLowerCase() !== conj.toLowerCase()))],
+                            distractors: [...new Set(distractors)],
                             theme: theme,
                             form: 'verb'
                         });
@@ -692,7 +735,7 @@ function expandGrammarItems(items, lang) {
 
                             expanded.push({
                                 ...item,
-                                type: 'multiple_choice',
+                                type: 'type-cl', // Changed to cloze so it can also be typed
                                 clozeText: `____ ${conj} (${item.verb})`,
                                 answer: correctPronouns.join(' / '),
                                 word: pronoun,
@@ -709,7 +752,7 @@ function expandGrammarItems(items, lang) {
             if (item.article || item.gender) {
                 expanded.push({
                     ...item,
-                    type: 'gender_articles',
+                    type: 'type-ga',
                     clozeText: `____ ${item.baseWord || item.word}`,
                     answer: item.article || item.gender,
                     distractors: config.articles.filter(a => a !== (item.article || item.gender)),
@@ -718,17 +761,28 @@ function expandGrammarItems(items, lang) {
             }
             if (item.numberPlural) {
                 const pluralAnswer = item.answer || item.numberPlural;
+                const base = (item.baseWord || item.word);
+                let distractors = [];
 
-                // Basic distractor generation for plurals
-                let dist1 = (item.baseWord || item.word) + "s";
-                if (pluralAnswer === dist1) dist1 = (item.baseWord || item.word) + "es";
+                if (lang === 'en') {
+                    distractors = [base + "s", base + "es", base + "ies", base];
+                } else {
+                    // For other languages, use other plural answers from the dataset as distractors
+                    distractors = [base]; // singular is a good distractor
+                    const otherPlurals = items
+                        .filter(i => i.numberPlural && i !== item)
+                        .map(i => i.answer || i.numberPlural);
+                    if (otherPlurals.length > 0) {
+                        distractors.push(...otherPlurals.sort(() => 0.5 - Math.random()).slice(0, 3));
+                    }
+                }
 
                 expanded.push({
                     ...item,
-                    type: 'number_plural',
+                    type: 'type-np',
                     clozeText: `${item.numberPlural} -> ____`,
                     answer: pluralAnswer,
-                    distractors: [dist1, item.baseWord || item.word],
+                    distractors: [...new Set(distractors.map(d => d.toLowerCase()).filter(d => d !== pluralAnswer.toLowerCase()))],
                     theme: 'grammar_plurals'
                 });
             }
@@ -751,16 +805,16 @@ function startPractice(isWheelMode = false) {
     currentPractice.words = [];
 
     let enabledTypes = [];
-    if (document.getElementById('type-mc').checked) enabledTypes.push('multiple_choice');
-    if (document.getElementById('type-ls').checked) enabledTypes.push('listen_select');
-    if (document.getElementById('type-sc').checked) enabledTypes.push('scramble');
-    if (document.getElementById('type-ws').checked) enabledTypes.push('word_scramble');
-    if (document.getElementById('type-op').checked) enabledTypes.push('opposite');
-    if (document.getElementById('type-cl').checked) enabledTypes.push('cloze');
-    if (document.getElementById('type-tf').checked) enabledTypes.push('true_false');
-    if (document.getElementById('type-ga').checked) enabledTypes.push('gender_articles');
-    if (document.getElementById('type-cv').checked) enabledTypes.push('conversation');
-    if (document.getElementById('type-np').checked) enabledTypes.push('number_plural');
+    if (document.getElementById('type-mc').checked) enabledTypes.push('type-mc');
+    if (document.getElementById('type-ls').checked) enabledTypes.push('type-ls');
+    if (document.getElementById('type-sc').checked) enabledTypes.push('type-sc');
+    if (document.getElementById('type-ws').checked) enabledTypes.push('type-ws');
+    if (document.getElementById('type-op').checked) enabledTypes.push('type-op');
+    if (document.getElementById('type-cl').checked) enabledTypes.push('type-cl');
+    if (document.getElementById('type-tf').checked) enabledTypes.push('type-tf');
+    if (document.getElementById('type-ga').checked) enabledTypes.push('type-ga');
+    if (document.getElementById('type-cv').checked) enabledTypes.push('type-cv');
+    if (document.getElementById('type-np').checked) enabledTypes.push('type-np');
 
     if (enabledTypes.length === 0) {
         alert("Please select at least one task type!");
@@ -812,8 +866,8 @@ function startPractice(isWheelMode = false) {
         // Respect preferred type from grammar expansion if it's enabled
         if (wordCopy.type && enabledTypes.includes(wordCopy.type)) {
             // Verbs can be either Cloze or Multiple Choice
-            if (wordCopy.form === 'verb' && enabledTypes.includes('multiple_choice') && enabledTypes.includes('cloze')) {
-                wordCopy.type = Math.random() > 0.5 ? 'multiple_choice' : 'cloze';
+            if (wordCopy.form === 'verb' && enabledTypes.includes('type-mc') && enabledTypes.includes('type-cl')) {
+                wordCopy.type = Math.random() > 0.5 ? 'type-mc' : 'type-cl';
             }
             return wordCopy;
         }
@@ -1125,8 +1179,8 @@ function showNextWord() {
         metaContainer.style.display = 'none';
     }
 
-    if (wordObj.type === 'multiple_choice' || wordObj.type === 'listen_select') {
-        const isListen = wordObj.type === 'listen_select';
+    if (wordObj.type === 'multiple_choice' || wordObj.type === 'listen_select' || wordObj.type === 'type-mc' || wordObj.type === 'type-ls') {
+        const isListen = wordObj.type === 'listen_select' || wordObj.type === 'type-ls';
         let text = isListen ? '???' : (wordObj.clozeText || wordObj.word || wordObj.text || wordObj.topic);
 
         // Fix redundancy: hide target word for MC vocab if emoji is present
@@ -1142,9 +1196,9 @@ function showNextWord() {
         if (isListen) {
             setTimeout(speakWord, 500);
         }
-    } else if (wordObj.type === 'cloze' || wordObj.type === 'number_plural') {
+    } else if (wordObj.type === 'cloze' || wordObj.type === 'number_plural' || wordObj.type === 'type-cl' || wordObj.type === 'type-np') {
         const isNP = wordObj.type === 'number_plural';
-        document.getElementById('word-display').textContent = wordObj.clozeText || (isNP ? "" : "");
+        document.getElementById('word-display').textContent = wordObj.clozeText || (isNP ? wordObj.numberPlural || "" : "");
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', isNP ? 'task_number_plural' : 'task_cloze');
         document.getElementById('opposite-input-container').style.display = 'flex';
@@ -1159,7 +1213,7 @@ function showNextWord() {
         } else {
             renderScramble();
         }
-    } else if (wordObj.type === 'gender_articles') {
+    } else if (wordObj.type === 'gender_articles' || wordObj.type === 'type-ga') {
         document.getElementById('word-display').textContent = wordObj.baseWord;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_gender_articles');
@@ -1283,9 +1337,13 @@ function renderGenderArticles() {
 function checkMultipleChoiceAnswer(choice, btn) {
     const wordObj = currentPractice.currentWord;
     const targetValue = (wordObj.answer || wordObj.word || wordObj.text || wordObj.topic).toLowerCase();
-    const possibleAnswers = targetValue.split(' / ').map(a => a.trim());
+    const possibleAnswers = targetValue.split(' / ').map(a => a.trim().toLowerCase());
 
-    if (possibleAnswers.includes(choice.toLowerCase())) {
+    // In MC mode, the choice could be a single correct variant OR the full concatenated answer string.
+    // We check if the clicked button's text is one of the valid single answers or matches the full string.
+    const isCorrect = possibleAnswers.some(a => a === choice.toLowerCase()) || choice.toLowerCase() === targetValue;
+
+    if (isCorrect) {
         btn.classList.add('correct');
         showFeedback(true);
     } else {
@@ -1401,7 +1459,10 @@ function checkTypedAnswer() {
 
     const possibleAnswers = correctAnswer.split(' / ').map(a => a.trim().toLowerCase());
 
-    if (possibleAnswers.includes(userAnswer) || userAnswer === correctAnswer) {
+    // User is correct if they type the full string OR any of the valid alternatives separated by " / "
+    const isCorrect = possibleAnswers.some(a => a === userAnswer) || userAnswer === correctAnswer;
+
+    if (isCorrect) {
         showFeedback(true);
     } else {
         showFeedback(false);

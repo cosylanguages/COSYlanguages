@@ -2974,7 +2974,7 @@ const vocabularyData = {
             "level": "elementary",
             "theme": "nature_environment",
             "gender": "оно",
-            "baseWord": "моρε",
+            "baseWord": "море",
             "numberPlural": "много море",
             "answer": "много морей",
             "emoji": "🌊"
