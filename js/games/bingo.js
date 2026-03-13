@@ -52,8 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (level === '1') { min = 0; max = 9; }
                 else if (level === '2') { min = 0; max = 19; }
                 else if (level === '3') { min = 20; max = 99; }
-                else if (level === '4') { min = 100; max = 9999; }
-                else { min = 0; max = 9999; }
+                else { min = 0; max = 99; }
 
                 for (let i = min; i <= max; i++) pool.push(i);
             }

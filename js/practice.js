@@ -457,13 +457,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Load voices once to avoid delay
-    window.speechSynthesis.getVoices();
-    if (window.speechSynthesis.onvoiceschanged !== undefined) {
-        window.speechSynthesis.onvoiceschanged = () => {
-            window.speechSynthesis.getVoices();
-        };
-    }
 });
 
 function showHint() {
@@ -486,38 +479,10 @@ function showHint() {
 
 function speakWord() {
     if (!currentPractice.currentWord) return;
-
-    const msg = new SpeechSynthesisUtterance();
-    // Prioritize baseWord for gender/articles tasks to avoid revealing the answer
-    msg.text = (currentPractice.currentWord.type === 'gender_articles' && currentPractice.currentWord.baseWord)
+    const text = (currentPractice.currentWord.type === 'gender_articles' && currentPractice.currentWord.baseWord)
         ? currentPractice.currentWord.baseWord
         : (currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.baseWord);
-
-    const langMap = {
-        en: 'en-US',
-        fr: 'fr-FR',
-        it: 'it-IT',
-        ru: 'ru-RU',
-        el: 'el-GR'
-    };
-
-    const targetLang = langMap[currentPractice.language] || 'en-US';
-    msg.lang = targetLang;
-
-    const voices = window.speechSynthesis.getVoices();
-    let voice;
-    if (currentPractice.language === 'el') {
-        voice = voices.find(v => v.lang === 'el-GR' || v.lang.startsWith('el'));
-    }
-    if (!voice) {
-        voice = voices.find(v => v.lang === targetLang || v.lang.startsWith(targetLang.split('-')[0]));
-    }
-
-    if (voice) {
-        msg.voice = voice;
-    }
-
-    window.speechSynthesis.speak(msg);
+    window.gameUtils.speak(text, currentPractice.language);
 }
 
 function playSound(isCorrect) {

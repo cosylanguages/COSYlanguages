@@ -108,13 +108,34 @@ const parseLessons = (input) => {
 
 const speak = (text, lang) => {
     if (!window.speechSynthesis) return;
+
+    // Cancel ongoing speech to prevent overlaps and delays
+    window.speechSynthesis.cancel();
+
     const msg = new SpeechSynthesisUtterance();
     msg.text = text;
-    msg.lang = lang === 'en' ? 'en-GB' :
-               lang === 'fr' ? 'fr-FR' :
-               lang === 'it' ? 'it-IT' :
-               lang === 'ru' ? 'ru-RU' :
-               lang === 'el' ? 'el-GR' : 'en-GB';
+
+    const langMap = {
+        'en': 'en-GB',
+        'fr': 'fr-FR',
+        'it': 'it-IT',
+        'ru': 'ru-RU',
+        'el': 'el-GR'
+    };
+
+    const targetLang = langMap[lang] || lang || 'en-GB';
+    msg.lang = targetLang;
+
+    // Try to find a matching voice
+    const voices = window.speechSynthesis.getVoices();
+    if (voices.length > 0) {
+        let voice = voices.find(v => v.lang === targetLang);
+        if (!voice) {
+            voice = voices.find(v => v.lang.startsWith(targetLang.split('-')[0]));
+        }
+        if (voice) msg.voice = voice;
+    }
+
     window.speechSynthesis.speak(msg);
 };
 
@@ -228,8 +249,18 @@ const filterUnsupportedEmojis = () => {
 
 // Automatically filter when loaded
 if (typeof document !== 'undefined') {
-    if (document.readyState === 'complete') filterUnsupportedEmojis();
-    else window.addEventListener('load', filterUnsupportedEmojis);
+    const onReady = () => {
+        filterUnsupportedEmojis();
+        // Pre-load voices for TTS
+        if (window.speechSynthesis) {
+            window.speechSynthesis.getVoices();
+            if (window.speechSynthesis.onvoiceschanged !== undefined) {
+                window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+            }
+        }
+    };
+    if (document.readyState === 'complete') onReady();
+    else window.addEventListener('load', onReady);
 }
 
 const showGameMessage = (containerOrId, message, type = 'info') => {

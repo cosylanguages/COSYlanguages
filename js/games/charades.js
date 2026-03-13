@@ -21,12 +21,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const themeSelect = document.getElementById('charades-theme');
 
         let pool = [];
+        let masterPool = [];
         let score = 0;
 
         const showNext = () => {
             if (pool.length === 0) {
-                endGame();
-                return;
+                if (masterPool.length > 0) {
+                    pool = [...masterPool].sort(() => Math.random() - 0.5);
+                } else {
+                    endGame();
+                    return;
+                }
             }
             playGameSound('click');
             const item = pool.pop();
@@ -84,6 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
+            masterPool = [...pool];
             pool.sort(() => Math.random() - 0.5);
             setupArea.style.display = 'none';
             resultArea.style.display = 'none';
