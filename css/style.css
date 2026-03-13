@@ -120,11 +120,22 @@ header {
     border-bottom: 1px solid var(--light-gray);
 }
 
-.logo img {
-    height: 40px;
-    border-radius: var(--border-radius);
+.logo-text {
+    font-family: 'Georgia', serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--surface-color);
     background-color: var(--primary-color);
-    padding: 5px;
+    padding: 0.2rem 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: -0.5px;
+    box-shadow: 0 4px 10px rgba(0, 168, 150, 0.2);
+}
+
+.logo-text span {
+    color: var(--secondary-color);
 }
 
 nav ul {
@@ -245,19 +256,25 @@ h2 {
     border-radius: var(--border-radius);
 }
 
-.language-item img {
+.language-emoji-card {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
     border: 3px solid var(--primary-color);
-    padding: 3px;
     background-color: var(--surface-color);
-    transition: border-color var(--transition-speed) ease;
+    margin: 0 auto;
+    transition: all var(--transition-speed) ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.language-item:hover img {
+.language-item:hover .language-emoji-card {
     border-color: var(--secondary-color);
+    transform: rotate(10deg) scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .language-item p {
@@ -761,23 +778,23 @@ footer {
 }
 
 .english-page {
-    background-image: url('../images/uk_flag.png');
+    background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
 }
 
 .french-page {
-    background-image: url('../images/france_flag.png');
+    background: linear-gradient(135deg, #fdf2f2 0%, #f9e2e2 100%);
 }
 
 .italian-page {
-    background-image: url('../images/italy_flag.png');
+    background: linear-gradient(135deg, #f2fcf5 0%, #e1f7e9 100%);
 }
 
 .russian-page {
-    background-image: url('../images/russia_flag.png');
+    background: linear-gradient(135deg, #f0f7ff 0%, #e0eaff 100%);
 }
 
 .greek-page {
-    background-image: url('../images/greece_flag.png');
+    background: linear-gradient(135deg, #f0faff 0%, #e0f2fe 100%);
 }
 
 #language-hero {

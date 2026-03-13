@@ -227,14 +227,14 @@ document.addEventListener('DOMContentLoaded', () => {
         exitPracticeBtn.addEventListener('click', () => {
             const lang = currentPractice.language;
             const confirmMsg = (translations[lang] && translations[lang]['exit_confirm']) ? translations[lang]['exit_confirm'] : "Exit practice and return to menu?";
-            if (confirm(confirmMsg)) {
+            window.gameUtils.showGameConfirm(confirmMsg, () => {
                 document.getElementById('practice-section').style.display = 'none';
                 document.getElementById('setup-section').style.display = 'block';
                 // Update resume button visibility since we now have a saved session
                 const resumeBtn = document.getElementById('resume-btn');
                 if (resumeBtn) resumeBtn.style.display = 'inline-block';
                 window.scrollTo(0, 0);
-            }
+            });
         });
     }
 
@@ -266,10 +266,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (startBtn) {
         startBtn.addEventListener('click', () => {
             if (localStorage.getItem(SESSION_STORAGE_KEY)) {
-                if (confirm("Starting a new practice will clear your current progress. Continue?")) {
+                window.gameUtils.showGameConfirm("Starting a new practice will clear your current progress. Continue?", () => {
                     clearSession();
                     startPractice(false);
-                }
+                });
             } else {
                 startPractice(false);
             }
@@ -326,10 +326,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (wheelModeBtn) {
         wheelModeBtn.addEventListener('click', () => {
             if (localStorage.getItem(SESSION_STORAGE_KEY)) {
-                if (confirm("Starting a new practice will clear your current progress. Continue?")) {
+                window.gameUtils.showGameConfirm("Starting a new practice will clear your current progress. Continue?", () => {
                     clearSession();
                     startPractice(true);
-                }
+                });
             } else {
                 startPractice(true);
             }

@@ -52,9 +52,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (exitLessonBtn) {
         exitLessonBtn.addEventListener('click', () => {
-            if (confirm("Exit lesson and return to student area?")) {
+            window.gameUtils.showGameConfirm("Exit lesson and return to student area?", () => {
                 window.location.href = 'days.html';
-            }
+            });
         });
     }
 
