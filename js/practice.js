@@ -884,10 +884,10 @@ function startPractice(isWheelMode = false) {
 
         // Grammar category specific filtering to avoid task type mismatch
         if (wordCopy.form === 'verb' || wordCopy.form === 'pronoun') {
-            possibleTypes = possibleTypes.filter(t => t !== 'gender_articles' && t !== 'number_plural');
+            possibleTypes = possibleTypes.filter(t => t !== 'type-ga' && t !== 'type-np');
         } else {
-            if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'gender_articles');
-            if (!wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'number_plural');
+            if (!wordCopy.article && !wordCopy.gender) possibleTypes = possibleTypes.filter(t => t !== 'type-ga');
+            if (!wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'type-np');
         }
 
         const isSentence = wordCopy.word && wordCopy.word.includes(' ');
