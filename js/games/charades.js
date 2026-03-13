@@ -21,12 +21,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const themeSelect = document.getElementById('charades-theme');
 
         let pool = [];
+        let masterPool = [];
         let score = 0;
 
         const showNext = () => {
             if (pool.length === 0) {
-                endGame();
-                return;
+                if (masterPool.length > 0) {
+                    pool = [...masterPool].sort(() => Math.random() - 0.5);
+                } else {
+                    endGame();
+                    return;
+                }
             }
             playGameSound('click');
             const item = pool.pop();
@@ -76,7 +81,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (level !== 'all') {
-                pool = pool.filter(item => item.level === level);
+                const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+                const targetIdx = levels.indexOf(level);
+                pool = pool.filter(item => {
+                    const itemIdx = levels.indexOf(item.level || 'starter');
+                    return itemIdx !== -1 && itemIdx <= targetIdx;
+                });
             }
 
             if (pool.length === 0) {
@@ -84,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
+            masterPool = [...pool];
             pool.sort(() => Math.random() - 0.5);
             setupArea.style.display = 'none';
             resultArea.style.display = 'none';

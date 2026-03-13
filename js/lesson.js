@@ -445,11 +445,8 @@ function showSummary() {
 function speakWord() {
     const wordObj = currentLesson.currentWord;
     if (!wordObj) return;
-    const msg = new SpeechSynthesisUtterance();
-    msg.text = (wordObj.type === 'gender_articles') ? wordObj.baseWord : (wordObj.word || wordObj.baseWord);
-    const langMap = { en: 'en-US', fr: 'fr-FR', it: 'it-IT', ru: 'ru-RU', el: 'el-GR' };
-    msg.lang = langMap[currentLesson.language] || 'en-US';
-    window.speechSynthesis.speak(msg);
+    const text = (wordObj.type === 'gender_articles') ? wordObj.baseWord : (wordObj.word || wordObj.baseWord);
+    window.gameUtils.speak(text, currentLesson.language);
 }
 
 function showHint() {
