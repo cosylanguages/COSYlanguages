@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeBtn = document.getElementById('close-emoji-btn');
         const startBtn = document.getElementById('start-emoji-game-btn');
         const setupArea = document.getElementById('emoji-setup');
+        const modeSelect = document.getElementById('emoji-mode');
+        const storySetupExtra = document.getElementById('emoji-story-setup-extra');
+        const storyNameInput = document.getElementById('emoji-story-name-input');
         const gameArea = document.getElementById('emoji-gameplay');
         const display = document.getElementById('emoji-display-large');
         const optionsGrid = document.getElementById('emoji-options');
@@ -137,15 +140,26 @@ document.addEventListener('DOMContentLoaded', () => {
             feedback.textContent = '';
         };
 
+        modeSelect?.addEventListener('change', () => {
+            if (modeSelect.value === 'story') {
+                storySetupExtra.style.display = 'block';
+            } else {
+                storySetupExtra.style.display = 'none';
+            }
+        });
+
         openBtn?.addEventListener('click', () => {
             playGameSound('click');
             api.open();
+            // Reset story setup visibility
+            if (modeSelect) modeSelect.value = 'guess';
+            if (storySetupExtra) storySetupExtra.style.display = 'none';
         });
 
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
         startBtn?.addEventListener('click', () => {
-            currentGameMode = document.getElementById('emoji-mode').value;
+            currentGameMode = modeSelect.value;
             const lang = document.getElementById('emoji-lang').value;
 
             if (currentGameMode === 'guess') {
@@ -160,15 +174,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 storyArea.style.display = 'none';
                 showNextGuess();
             } else {
-                const promptMsg = t('emoji_story_name_prompt') || "Enter a name for your story:";
                 const defaultTitle = t('emoji_story_title_label') || "Our Story";
-                let name = prompt(promptMsg);
+                let name = storyNameInput.value.trim();
 
-                // Handle cancel or empty string
-                if (name === null || name.trim() === '') {
+                if (name === '') {
                     storyName = defaultTitle;
                 } else {
-                    storyName = name.trim();
+                    storyName = name;
                 }
 
                 setupArea.style.display = 'none';
