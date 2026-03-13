@@ -5,32 +5,38 @@ const vocabularyData = {
             "level": "starter",
             "theme": "profession",
             "numberPlural": "2 doctor",
-            "answer": "two doctors"
+            "answer": "two doctors",
+            "emoji": "🧑‍⚕️"
         },
         {
             "word": "Engineer",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👷"
         },
         {
             "word": "Artist",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🎨"
         },
         {
             "word": "Pilot",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧑‍✈️"
         },
         {
             "word": "Chef",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👨‍🍳"
         },
         {
             "word": "Lawyer",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "⚖️"
         },
         {
             "word": "Teacher",
@@ -43,111 +49,132 @@ const vocabularyData = {
         {
             "word": "Nurse",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👩‍⚕️"
         },
         {
             "word": "Firefighter",
             "level": "advanced",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👨‍🚒"
         },
         {
             "word": "Police officer",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👮"
         },
         {
             "word": "Pizza",
             "level": "starter",
             "theme": "food_drinks",
             "numberPlural": "3 pizza",
-            "answer": "three pizzas"
+            "answer": "three pizzas",
+            "emoji": "🍕"
         },
         {
             "word": "Sushi",
             "level": "intermediate",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍣"
         },
         {
             "word": "Burger",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍔"
         },
         {
             "word": "Pasta",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍝"
         },
         {
             "word": "Tacos",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🌮"
         },
         {
             "word": "Pancakes",
             "level": "intermediate",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥞"
         },
         {
             "word": "Salad",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥗"
         },
         {
             "word": "Steak",
             "level": "upper-intermediate",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥩"
         },
         {
             "word": "Apple",
             "level": "starter",
             "theme": "food_drinks",
             "numberPlural": "4 apple",
-            "answer": "four apples"
+            "answer": "four apples",
+            "emoji": "🍎"
         },
         {
             "word": "Bread",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍞"
         },
         {
             "word": "Cheese",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🧀"
         },
         {
             "word": "Egg",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥚"
         },
         {
             "word": "Milk",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥛"
         },
         {
             "word": "Rice",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍚"
         },
         {
             "word": "Tomato",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍅"
         },
         {
             "word": "Potato",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥔"
         },
         {
             "word": "Carrot",
             "level": "intermediate",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥕"
         },
         {
             "word": "Banana",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍌"
         },
         {
             "word": "Coffee",
@@ -188,162 +215,194 @@ const vocabularyData = {
         {
             "word": "Milkshake",
             "level": "intermediate",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥤"
         },
         {
             "word": "Soda",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥤"
         },
         {
             "word": "Park",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🌳"
         },
         {
             "word": "School",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏫"
         },
         {
             "word": "Hospital",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏥"
         },
         {
             "word": "Cinema",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🎬"
         },
         {
             "word": "Restaurant",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🍴"
         },
         {
             "word": "Library",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "📚"
         },
         {
             "word": "Museum",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏛️"
         },
         {
             "word": "Supermarket",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🛒"
         },
         {
             "word": "Pharmacy",
             "level": "upper-intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "💊"
         },
         {
             "word": "Airport",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "✈️"
         },
         {
             "word": "T-shirt",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👕"
         },
         {
             "word": "Pants",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👖"
         },
         {
             "word": "Dress",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Shoes",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👟"
         },
         {
             "word": "Hat",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👒"
         },
         {
             "word": "Jacket",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🧥"
         },
         {
             "word": "Skirt",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Socks",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🧦"
         },
         {
             "word": "Sweater",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🧶"
         },
         {
             "word": "Scarf",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🧣"
         },
         {
             "word": "Chair",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Table",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Bed",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛏️"
         },
         {
             "word": "Sofa",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛋️"
         },
         {
             "word": "Lamp",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "💡"
         },
         {
             "word": "Desk",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "⌨️"
         },
         {
             "word": "Wardrobe",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Shelf",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📚"
         },
         {
             "word": "Mirror",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪞"
         },
         {
             "word": "Armchair",
             "level": "upper-intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Tall",
@@ -388,22 +447,26 @@ const vocabularyData = {
         {
             "word": "Wake up",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "⏰"
         },
         {
             "word": "Brush teeth",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪥"
         },
         {
             "word": "Shower",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🚿"
         },
         {
             "word": "Breakfast",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🍳"
         },
         {
             "word": "work",
@@ -415,12 +478,14 @@ const vocabularyData = {
         {
             "word": "Lunch",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🍱"
         },
         {
             "word": "Dinner",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🍽️"
         },
         {
             "word": "sleep",
@@ -432,12 +497,14 @@ const vocabularyData = {
         {
             "word": "Key",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🔑"
         },
         {
             "word": "Phone",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📱"
         },
         {
             "word": "Book",
@@ -456,32 +523,38 @@ const vocabularyData = {
         {
             "word": "Wallet",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👛"
         },
         {
             "word": "Glasses",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👓"
         },
         {
             "word": "Umbrella",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "☂️"
         },
         {
             "word": "Bag",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👜"
         },
         {
             "word": "Laptop",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "💻"
         },
         {
             "word": "Pen",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🖊️"
         },
         {
             "word": "Cat",
@@ -502,37 +575,44 @@ const vocabularyData = {
         {
             "word": "Bird",
             "level": "starter",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐦"
         },
         {
             "word": "Lion",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🦁"
         },
         {
             "word": "Tiger",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐯"
         },
         {
             "word": "Elephant",
             "level": "intermediate",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐘"
         },
         {
             "word": "Monkey",
             "level": "intermediate",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐒"
         },
         {
             "word": "Horse",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐎"
         },
         {
             "word": "Rabbit",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐇"
         },
         {
             "word": "Fish",
@@ -543,162 +623,194 @@ const vocabularyData = {
         {
             "word": "Drawing",
             "level": "elementary",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "🎨"
         },
         {
             "word": "Cooking",
             "level": "elementary",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "👨‍🍳"
         },
         {
             "word": "Reading",
             "level": "starter",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "📖"
         },
         {
             "word": "Dancing",
             "level": "elementary",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "💃"
         },
         {
             "word": "Singing",
             "level": "elementary",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "🎤"
         },
         {
             "word": "Photography",
             "level": "intermediate",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "📷"
         },
         {
             "word": "Gardening",
             "level": "intermediate",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "🪴"
         },
         {
             "word": "Fishing",
             "level": "intermediate",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "🎣"
         },
         {
             "word": "Sunny",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☀️"
         },
         {
             "word": "Rainy",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🌧️"
         },
         {
             "word": "Snowy",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "❄️"
         },
         {
             "word": "Windy",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "💨"
         },
         {
             "word": "Cloudy",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☁️"
         },
         {
             "word": "Stormy",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "⛈️"
         },
         {
             "word": "Hot",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🔥"
         },
         {
             "word": "Cold",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "❄️"
         },
         {
             "word": "Head",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👤"
         },
         {
             "word": "Hand",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "✋"
         },
         {
             "word": "Leg",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "🦵"
         },
         {
             "word": "Eye",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👁️"
         },
         {
             "word": "Nose",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👃"
         },
         {
             "word": "Mouth",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👄"
         },
         {
             "word": "Ear",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👂"
         },
         {
             "word": "Arm",
             "level": "elementary",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "💪"
         },
         {
             "word": "Foot",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "🦶"
         },
         {
             "word": "Finger",
             "level": "elementary",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "☝️"
         },
         {
             "word": "Software Developer",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "💻"
         },
         {
             "word": "Psychologist",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧠"
         },
         {
             "word": "Data Scientist",
             "level": "advanced",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "📊"
         },
         {
             "word": "Philosopher",
             "level": "proficiency",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧐"
         },
         {
             "word": "Architect",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🏗️"
         },
         {
             "word": "Journalist",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "📰"
         },
         {
             "word": "Athletic",
@@ -723,67 +835,80 @@ const vocabularyData = {
         {
             "word": "Algorithm",
             "level": "intermediate",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "💻"
         },
         {
             "word": "Streaming",
             "level": "elementary",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "📺"
         },
         {
             "word": "Virtual Reality",
             "level": "advanced",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "🥽"
         },
         {
             "word": "Blockchain",
             "level": "proficiency",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "⛓️"
         },
         {
             "word": "Evolution",
             "level": "intermediate",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "🐒"
         },
         {
             "word": "Quantum Mechanics",
             "level": "advanced",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "⚛️"
         },
         {
             "word": "Existentialism",
             "level": "proficiency",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "👤"
         },
         {
             "word": "Gravity",
             "level": "elementary",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "🍎"
         },
         {
             "word": "Democracy",
             "level": "intermediate",
-            "theme": "people_society"
+            "theme": "people_society",
+            "emoji": "🗳️"
         },
         {
             "word": "Globalization",
             "level": "upper-intermediate",
-            "theme": "people_society"
+            "theme": "people_society",
+            "emoji": "🌍"
         },
         {
             "word": "Sustainability",
             "level": "advanced",
-            "theme": "people_society"
+            "theme": "people_society",
+            "emoji": "🌱"
         },
         {
             "word": "Justice",
             "level": "elementary",
-            "theme": "people_society"
+            "theme": "people_society",
+            "emoji": "⚖️"
         },
         {
             "word": "Climate Change",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🌡️"
         },
         {
             "word": "Biodiversity",
@@ -793,12 +918,14 @@ const vocabularyData = {
         {
             "word": "Pollution",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🏭"
         },
         {
             "word": "Ecosystem",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🌲"
         },
         {
             "word": "University",
@@ -899,12 +1026,14 @@ const vocabularyData = {
         {
             "word": "Mother",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👩"
         },
         {
             "word": "Father",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👨"
         },
         {
             "word": "City",
@@ -1759,42 +1888,50 @@ const vocabularyData = {
             "level": "starter",
             "theme": "profession",
             "numberPlural": "2 médecin",
-            "answer": "deux médecins"
+            "answer": "deux médecins",
+            "emoji": "🧑‍⚕️"
         },
         {
             "word": "Ingénieur",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👷"
         },
         {
             "word": "Artiste",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🎨"
         },
         {
             "word": "Pilote",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧑‍✈️"
         },
         {
             "word": "Chef",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👨‍🍳"
         },
         {
             "word": "Avocat",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "⚖️"
         },
         {
             "word": "Professeur",
             "level": "starter",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧑‍🏫"
         },
         {
             "word": "Infirmier",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👩‍⚕️"
         },
         {
             "word": "Ratatouille",
@@ -1847,32 +1984,38 @@ const vocabularyData = {
         {
             "word": "Fromage",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🧀"
         },
         {
             "word": "Oeuf",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥚"
         },
         {
             "word": "Lait",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥛"
         },
         {
             "word": "Riz",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍚"
         },
         {
             "word": "Tomate",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍅"
         },
         {
             "word": "Pomme de terre",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥔"
         },
         {
             "word": "Café",
@@ -1930,97 +2073,116 @@ const vocabularyData = {
         {
             "word": "Parc",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🌳"
         },
         {
             "word": "École",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏫"
         },
         {
             "word": "Hôpital",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏥"
         },
         {
             "word": "Cinéma",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🎬"
         },
         {
             "word": "Restaurant",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🍴"
         },
         {
             "word": "Bibliothèque",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "📚"
         },
         {
             "word": "Musée",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏛️"
         },
         {
             "word": "T-shirt",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👕"
         },
         {
             "word": "Pantalon",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👖"
         },
         {
             "word": "Robe",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Chaussures",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👟"
         },
         {
             "word": "Chapeau",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👒"
         },
         {
             "word": "Veste",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🧥"
         },
         {
             "word": "Jupe",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Chaise",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Table",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Lit",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛏️"
         },
         {
             "word": "Canapé",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛋️"
         },
         {
             "word": "Lampe",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "💡"
         },
         {
             "word": "Bureau",
@@ -2034,7 +2196,8 @@ const vocabularyData = {
         {
             "word": "Armoire",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Grand",
@@ -2074,17 +2237,20 @@ const vocabularyData = {
         {
             "word": "Se réveiller",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "⏰"
         },
         {
             "word": "Se brosser les dents",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪥"
         },
         {
             "word": "Prendre une douche",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🚿"
         },
         {
             "word": "dormir",
@@ -2096,17 +2262,20 @@ const vocabularyData = {
         {
             "word": "Clé",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🔑"
         },
         {
             "word": "Téléphone",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📱"
         },
         {
             "word": "Livre",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📖"
         },
         {
             "word": "Montre",
@@ -2116,12 +2285,14 @@ const vocabularyData = {
         {
             "word": "Portefeuille",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👛"
         },
         {
             "word": "Lunettes",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👓"
         },
         {
             "word": "Chat",
@@ -2146,32 +2317,38 @@ const vocabularyData = {
         {
             "word": "Oiseau",
             "level": "starter",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐦"
         },
         {
             "word": "Lion",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🦁"
         },
         {
             "word": "Tigre",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐯"
         },
         {
             "word": "Éléphant",
             "level": "intermediate",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐘"
         },
         {
             "word": "Singe",
             "level": "intermediate",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐒"
         },
         {
             "word": "Cheval",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐎"
         },
         {
             "word": "dessiner",
@@ -2214,107 +2391,128 @@ const vocabularyData = {
         {
             "word": "Ensoleillé",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☀️"
         },
         {
             "word": "Pluvieux",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🌧️"
         },
         {
             "word": "Neigeux",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "❄️"
         },
         {
             "word": "Venteux",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "💨"
         },
         {
             "word": "Nuageux",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☁️"
         },
         {
             "word": "Chaud",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🔥"
         },
         {
             "word": "Froid",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "❄️"
         },
         {
             "word": "Tête",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👤"
         },
         {
             "word": "Main",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "✋"
         },
         {
             "word": "Jambe",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "🦵"
         },
         {
             "word": "Oeil",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👁️"
         },
         {
             "word": "Nez",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👃"
         },
         {
             "word": "Bouche",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👄"
         },
         {
             "word": "Oreille",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👂"
         },
         {
             "word": "Bras",
             "level": "elementary",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "💪"
         },
         {
             "word": "Pied",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "🦶"
         },
         {
             "word": "Développeur Logiciel",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "💻"
         },
         {
             "word": "Psychologue",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧠"
         },
         {
             "word": "Philosophe",
             "level": "proficiency",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧐"
         },
         {
             "word": "Algorithme",
             "level": "intermediate",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "💻"
         },
         {
             "word": "Réalité Virtuelle",
             "level": "advanced",
-            "theme": "science_technology"
+            "theme": "science_technology",
+            "emoji": "🥽"
         },
         {
             "word": "Université",
@@ -2379,12 +2577,14 @@ const vocabularyData = {
         {
             "word": "Mère",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👩"
         },
         {
             "word": "Père",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👨"
         },
         {
             "word": "Eau",
@@ -3172,47 +3372,56 @@ const vocabularyData = {
             "level": "starter",
             "theme": "profession",
             "numberPlural": "2 medico",
-            "answer": "due medici"
+            "answer": "due medici",
+            "emoji": "🧑‍⚕️"
         },
         {
             "word": "Ingegnere",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👷"
         },
         {
             "word": "Artista",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🎨"
         },
         {
             "word": "Pilota",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧑‍✈️"
         },
         {
             "word": "Chef",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👨‍🍳"
         },
         {
             "word": "Avvocato",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "⚖️"
         },
         {
             "word": "Insegnante",
             "level": "starter",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧑‍🏫"
         },
         {
             "word": "Pasta",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍝"
         },
         {
             "word": "Pizza",
             "level": "intermediate",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍕"
         },
         {
             "word": "Risotto",
@@ -3239,42 +3448,50 @@ const vocabularyData = {
             "level": "starter",
             "theme": "food_drinks",
             "numberPlural": "4 mela",
-            "answer": "quattro mele"
+            "answer": "quattro mele",
+            "emoji": "🍎"
         },
         {
             "word": "Pane",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍞"
         },
         {
             "word": "Formaggio",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🧀"
         },
         {
             "word": "Uovo",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥚"
         },
         {
             "word": "Latte",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥛"
         },
         {
             "word": "Riso",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍚"
         },
         {
             "word": "Pomodoro",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍅"
         },
         {
             "word": "Patata",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥔"
         },
         {
             "word": "Caffè",
@@ -3332,107 +3549,128 @@ const vocabularyData = {
         {
             "word": "Parco",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🌳"
         },
         {
             "word": "Scuola",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏫"
         },
         {
             "word": "Ospedale",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏥"
         },
         {
             "word": "Cinema",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🎬"
         },
         {
             "word": "Ristorante",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🍴"
         },
         {
             "word": "Biblioteca",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "📚"
         },
         {
             "word": "Museo",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏛️"
         },
         {
             "word": "Maglietta",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👕"
         },
         {
             "word": "Pantaloni",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👖"
         },
         {
             "word": "Vestito",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Scarpe",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👟"
         },
         {
             "word": "Cappello",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👒"
         },
         {
             "word": "Giacca",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🧥"
         },
         {
             "word": "Gonna",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Sedia",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Tavolo",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Letto",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛏️"
         },
         {
             "word": "Divano",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛋️"
         },
         {
             "word": "Lampada",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "💡"
         },
         {
             "word": "Scrivania",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "⌨️"
         },
         {
             "word": "Armadio",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Alto",
@@ -3472,17 +3710,20 @@ const vocabularyData = {
         {
             "word": "Svegliarsi",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "⏰"
         },
         {
             "word": "Lavarsi i denti",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪥"
         },
         {
             "word": "Fare la doccia",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🚿"
         },
         {
             "word": "dormire",
@@ -3494,17 +3735,20 @@ const vocabularyData = {
         {
             "word": "Chiave",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🔑"
         },
         {
             "word": "Telefono",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📱"
         },
         {
             "word": "Libro",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📖"
         },
         {
             "word": "Orologio",
@@ -3514,12 +3758,14 @@ const vocabularyData = {
         {
             "word": "Portafoglio",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👛"
         },
         {
             "word": "Occhiali",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👓"
         },
         {
             "word": "Gatto",
@@ -3544,32 +3790,38 @@ const vocabularyData = {
         {
             "word": "Uccello",
             "level": "starter",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐦"
         },
         {
             "word": "Leone",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🦁"
         },
         {
             "word": "Tigre",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐯"
         },
         {
             "word": "Elefante",
             "level": "intermediate",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐘"
         },
         {
             "word": "Scimmia",
             "level": "intermediate",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐒"
         },
         {
             "word": "Cavallo",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐎"
         },
         {
             "word": "disegnare",
@@ -3606,102 +3858,122 @@ const vocabularyData = {
         {
             "word": "Giardinaggio",
             "level": "intermediate",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "🪴"
         },
         {
             "word": "Soleggiato",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☀️"
         },
         {
             "word": "Piovoso",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🌧️"
         },
         {
             "word": "Nevoso",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "❄️"
         },
         {
             "word": "Ventoso",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "💨"
         },
         {
             "word": "Nuvoloso",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☁️"
         },
         {
             "word": "Caldo",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🔥"
         },
         {
             "word": "Freddo",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "❄️"
         },
         {
             "word": "Testa",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👤"
         },
         {
             "word": "Mano",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "✋"
         },
         {
             "word": "Gamba",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "🦵"
         },
         {
             "word": "Occhio",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👁️"
         },
         {
             "word": "Naso",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👃"
         },
         {
             "word": "Bocca",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👄"
         },
         {
             "word": "Orecchio",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👂"
         },
         {
             "word": "Braccio",
             "level": "elementary",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "💪"
         },
         {
             "word": "Piede",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "🦶"
         },
         {
             "word": "Sviluppatore Software",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "💻"
         },
         {
             "word": "Psicologo",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧠"
         },
         {
             "word": "Filosofo",
             "level": "proficiency",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧐"
         },
         {
             "word": "Università",
@@ -3766,12 +4038,14 @@ const vocabularyData = {
         {
             "word": "Madre",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👩"
         },
         {
             "word": "Padre",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👨"
         },
         {
             "word": "Ragazzo",
@@ -4600,37 +4874,44 @@ const vocabularyData = {
             "level": "starter",
             "theme": "profession",
             "numberPlural": "2 врач",
-            "answer": "два врача"
+            "answer": "два врача",
+            "emoji": "🧑‍⚕️"
         },
         {
             "word": "Инженер",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👷"
         },
         {
             "word": "Художник",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🎨"
         },
         {
             "word": "Пилот",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧑‍✈️"
         },
         {
             "word": "Повар",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👨‍🍳"
         },
         {
             "word": "Юрист",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "⚖️"
         },
         {
             "word": "Учитель",
             "level": "starter",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧑‍🏫"
         },
         {
             "word": "Борщ",
@@ -4645,7 +4926,8 @@ const vocabularyData = {
         {
             "word": "Блины",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥞"
         },
         {
             "word": "Салат Оливье",
@@ -4667,42 +4949,50 @@ const vocabularyData = {
             "level": "starter",
             "theme": "food_drinks",
             "numberPlural": "4 яблоко",
-            "answer": "четыре яблока"
+            "answer": "четыре яблока",
+            "emoji": "🍎"
         },
         {
             "word": "Хлеб",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍞"
         },
         {
             "word": "Сыр",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🧀"
         },
         {
             "word": "Яйцо",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥚"
         },
         {
             "word": "Молоко",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥛"
         },
         {
             "word": "Рис",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍚"
         },
         {
             "word": "Помидор",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍅"
         },
         {
             "word": "Картофель",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥔"
         },
         {
             "word": "Кофе",
@@ -4765,107 +5055,128 @@ const vocabularyData = {
         {
             "word": "Парк",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🌳"
         },
         {
             "word": "Школа",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏫"
         },
         {
             "word": "Больница",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏥"
         },
         {
             "word": "Кинотеатр",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🎬"
         },
         {
             "word": "Ресторан",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🍴"
         },
         {
             "word": "Библиотека",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "📚"
         },
         {
             "word": "Музей",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏛️"
         },
         {
             "word": "Футболка",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👕"
         },
         {
             "word": "Брюки",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👖"
         },
         {
             "word": "Платье",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Обувь",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👟"
         },
         {
             "word": "Шапка",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👒"
         },
         {
             "word": "Куртка",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🧥"
         },
         {
             "word": "Юбка",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Стул",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Стол",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Кровать",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛏️"
         },
         {
             "word": "Диван",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛋️"
         },
         {
             "word": "Лампа",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "💡"
         },
         {
             "word": "Письменный стол",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "⌨️"
         },
         {
             "word": "Шкаф",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Высокий",
@@ -4905,17 +5216,20 @@ const vocabularyData = {
         {
             "word": "Просыпаться",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "⏰"
         },
         {
             "word": "Чистить зубы",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪥"
         },
         {
             "word": "Принимать душ",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🚿"
         },
         {
             "word": "спать",
@@ -4927,17 +5241,20 @@ const vocabularyData = {
         {
             "word": "Ключ",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🔑"
         },
         {
             "word": "Телефон",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📱"
         },
         {
             "word": "Книга",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📖"
         },
         {
             "word": "Часы",
@@ -4947,17 +5264,20 @@ const vocabularyData = {
         {
             "word": "Кошелек",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👛"
         },
         {
             "word": "Очки",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👓"
         },
         {
             "word": "Зонт",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "☂️"
         },
         {
             "word": "Кот",
@@ -4982,22 +5302,26 @@ const vocabularyData = {
         {
             "word": "Птица",
             "level": "starter",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐦"
         },
         {
             "word": "Лев",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🦁"
         },
         {
             "word": "Тигр",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐯"
         },
         {
             "word": "Слон",
             "level": "intermediate",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐘"
         },
         {
             "word": "Обезьяна",
@@ -5007,7 +5331,8 @@ const vocabularyData = {
         {
             "word": "Лошадь",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐎"
         },
         {
             "word": "Рисование",
@@ -5037,52 +5362,62 @@ const vocabularyData = {
         {
             "word": "Садоводство",
             "level": "intermediate",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "🪴"
         },
         {
             "word": "Солнечно",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☀️"
         },
         {
             "word": "Дождливо",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🌧️"
         },
         {
             "word": "Снежно",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "❄️"
         },
         {
             "word": "Ветрено",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "💨"
         },
         {
             "word": "Облачно",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☁️"
         },
         {
             "word": "Жарко",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🔥"
         },
         {
             "word": "Холодно",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "❄️"
         },
         {
             "word": "Голова",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👤"
         },
         {
             "word": "Рука",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "💪"
         },
         {
             "word": "Нога",
@@ -5092,22 +5427,26 @@ const vocabularyData = {
         {
             "word": "Глаз",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👁️"
         },
         {
             "word": "Нос",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👃"
         },
         {
             "word": "Рот",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👄"
         },
         {
             "word": "Ухо",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👂"
         },
         {
             "word": "Плечо",
@@ -5117,22 +5456,26 @@ const vocabularyData = {
         {
             "word": "Стопа",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "🦶"
         },
         {
             "word": "Разработчик ПО",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "💻"
         },
         {
             "word": "Психолог",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧠"
         },
         {
             "word": "Философ",
             "level": "proficiency",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧐"
         },
         {
             "word": "Университет",
@@ -5197,12 +5540,14 @@ const vocabularyData = {
         {
             "word": "Мать",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👩"
         },
         {
             "word": "Отец",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👨"
         },
         {
             "word": "Кофе",
@@ -6046,37 +6391,44 @@ const vocabularyData = {
             "level": "starter",
             "theme": "profession",
             "numberPlural": "2 γιατρός",
-            "answer": "δύο γιατροί"
+            "answer": "δύο γιατροί",
+            "emoji": "🧑‍⚕️"
         },
         {
             "word": "Μηχανικός",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👷"
         },
         {
             "word": "Καλλιτέχνης",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🎨"
         },
         {
             "word": "Πιλότος",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧑‍✈️"
         },
         {
             "word": "Σεφ",
             "level": "elementary",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "👨‍🍳"
         },
         {
             "word": "Δικηγόρος",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "⚖️"
         },
         {
             "word": "Δάσκαλος",
             "level": "starter",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧑‍🏫"
         },
         {
             "word": "Μουσακάς",
@@ -6108,42 +6460,50 @@ const vocabularyData = {
             "level": "starter",
             "theme": "food_drinks",
             "numberPlural": "4 μήλο",
-            "answer": "τέσσερα μήλα"
+            "answer": "τέσσερα μήλα",
+            "emoji": "🍎"
         },
         {
             "word": "Ψωμί",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍞"
         },
         {
             "word": "Τυρί",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🧀"
         },
         {
             "word": "Αυγό",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥚"
         },
         {
             "word": "Γάλα",
             "level": "starter",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥛"
         },
         {
             "word": "Ρύζι",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍚"
         },
         {
             "word": "Ντομάτα",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🍅"
         },
         {
             "word": "Πατάτα",
             "level": "elementary",
-            "theme": "food_drinks"
+            "theme": "food_drinks",
+            "emoji": "🥔"
         },
         {
             "word": "Καφές",
@@ -6201,102 +6561,122 @@ const vocabularyData = {
         {
             "word": "Πάρκο",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🌳"
         },
         {
             "word": "Σχολείο",
             "level": "starter",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏫"
         },
         {
             "word": "Νοσοκομείο",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🏥"
         },
         {
             "word": "Κινηματογράφος",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🎬"
         },
         {
             "word": "Εστιατόριο",
             "level": "elementary",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "🍴"
         },
         {
             "word": "Βιβλιοθήκη",
             "level": "intermediate",
-            "theme": "travel_places"
+            "theme": "travel_places",
+            "emoji": "📚"
         },
         {
             "word": "Μπλουζάκι",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👕"
         },
         {
             "word": "Παντελόνι",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👖"
         },
         {
             "word": "Φόρεμα",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Παπούτσια",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👟"
         },
         {
             "word": "Καπέλο",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👒"
         },
         {
             "word": "Σακάκι",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🧥"
         },
         {
             "word": "Φούστα",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Καρέκλα",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Τραπέζι",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪑"
         },
         {
             "word": "Κρεβάτι",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛏️"
         },
         {
             "word": "Καναπές",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🛋️"
         },
         {
             "word": "Λάμπα",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "💡"
         },
         {
             "word": "Γραφείο",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "⌨️"
         },
         {
             "word": "Ντουλάπα",
             "level": "intermediate",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👗"
         },
         {
             "word": "Ψηλός",
@@ -6336,17 +6716,20 @@ const vocabularyData = {
         {
             "word": "Ξυπνάω",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "⏰"
         },
         {
             "word": "Πλένω τα δόντια",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🪥"
         },
         {
             "word": "Κάνω ντους",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🚿"
         },
         {
             "word": "κοιμάμαι",
@@ -6358,17 +6741,20 @@ const vocabularyData = {
         {
             "word": "Κλειδί",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "🔑"
         },
         {
             "word": "Τηλέφωνο",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📱"
         },
         {
             "word": "Βιβλίο",
             "level": "starter",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "📖"
         },
         {
             "word": "Ρολόι",
@@ -6378,17 +6764,20 @@ const vocabularyData = {
         {
             "word": "Πορτοφόλι",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👛"
         },
         {
             "word": "Γυαλιά",
             "level": "elementary",
-            "theme": "daily_life"
+            "theme": "daily_life",
+            "emoji": "👓"
         },
         {
             "word": "Γάτα",
             "level": "starter",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐈"
         },
         {
             "word": "Σκύλος",
@@ -6403,27 +6792,32 @@ const vocabularyData = {
         {
             "word": "Πουλί",
             "level": "starter",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐦"
         },
         {
             "word": "Λιοντάρι",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🦁"
         },
         {
             "word": "Τίγρης",
             "level": "elementary",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐯"
         },
         {
             "word": "Ελέφαντας",
             "level": "intermediate",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐘"
         },
         {
             "word": "Μαϊμού",
             "level": "intermediate",
-            "theme": "animal"
+            "theme": "animal",
+            "emoji": "🐒"
         },
         {
             "word": "Ζωγραφική",
@@ -6453,72 +6847,86 @@ const vocabularyData = {
         {
             "word": "Κηπουρική",
             "level": "intermediate",
-            "theme": "leisure_hobbies"
+            "theme": "leisure_hobbies",
+            "emoji": "🪴"
         },
         {
             "word": "Ηλιόλουστος",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☀️"
         },
         {
             "word": "Βροχερός",
             "level": "starter",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🌧️"
         },
         {
             "word": "Χιονισμένος",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "❄️"
         },
         {
             "word": "Ανεμώδης",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "💨"
         },
         {
             "word": "Συννεφιασμένος",
             "level": "elementary",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "☁️"
         },
         {
             "word": "Ζεστός",
             "level": "intermediate",
-            "theme": "nature_environment"
+            "theme": "nature_environment",
+            "emoji": "🔥"
         },
         {
             "word": "Κεφάλι",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👤"
         },
         {
             "word": "Χέρι",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "✋"
         },
         {
             "word": "Πόδι",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "🦶"
         },
         {
             "word": "Μάτι",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👁️"
         },
         {
             "word": "Μύτη",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👃"
         },
         {
             "word": "Στόμα",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👄"
         },
         {
             "word": "Αυτί",
             "level": "starter",
-            "theme": "health_body"
+            "theme": "health_body",
+            "emoji": "👂"
         },
         {
             "word": "Ώμος",
@@ -6528,17 +6936,20 @@ const vocabularyData = {
         {
             "word": "Προγραμματιστής",
             "level": "intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "💻"
         },
         {
             "word": "Ψυχολόγος",
             "level": "upper-intermediate",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧠"
         },
         {
             "word": "Φιλόσοφος",
             "level": "proficiency",
-            "theme": "profession"
+            "theme": "profession",
+            "emoji": "🧐"
         },
         {
             "word": "Πανεπιστήμιο",
@@ -6603,12 +7014,14 @@ const vocabularyData = {
         {
             "word": "Μητέρα",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👩"
         },
         {
             "word": "Πατέρας",
             "level": "starter",
-            "theme": "family"
+            "theme": "family",
+            "emoji": "👨"
         },
         {
             "word": "Καφές",

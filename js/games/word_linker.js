@@ -191,7 +191,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const level = document.getElementById('linker-level').value;
             currentGameMode = document.getElementById('linker-mode')?.value || 'association';
 
-            let allVocab = window.vocabularyData[lang] || [];
+            let allVocab = (window.vocabularyData[lang] || [])
+                .filter(v => v.theme !== 'famous_people'); // Exclude names from Word Linker
 
             // Filter by level (cumulative) if not "all"
             if (level !== 'all') {

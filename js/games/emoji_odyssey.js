@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (v.theme === 'famous_people') return false;
 
                     if (level !== 'all') {
-                        const levels = ['starter', 'elementary', 'intermediate', 'advanced', 'proficiency'];
+                        const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
                         const targetIdx = levels.indexOf(level);
                         const itemIdx = levels.indexOf(v.level || 'starter');
                         if (itemIdx > targetIdx) return false;
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     .filter(v => v.theme !== 'famous_people'); // Never include names in Emoji Odyssey
 
                 if (level !== 'all') {
-                    const levels = ['starter', 'elementary', 'intermediate', 'advanced', 'proficiency'];
+                    const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
                     const targetIdx = levels.indexOf(level);
                     vocab = vocab.filter(v => {
                         const itemIdx = levels.indexOf(v.level || 'starter');
