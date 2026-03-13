@@ -717,15 +717,17 @@ function expandGrammarItems(items, lang) {
                 });
             }
             if (item.numberPlural) {
+                const pluralAnswer = item.answer || item.numberPlural;
+
                 // Basic distractor generation for plurals
                 let dist1 = (item.baseWord || item.word) + "s";
-                if (item.numberPlural === dist1) dist1 = (item.baseWord || item.word) + "es";
+                if (pluralAnswer === dist1) dist1 = (item.baseWord || item.word) + "es";
 
                 expanded.push({
                     ...item,
                     type: 'number_plural',
-                    clozeText: `1 ${item.baseWord || item.word} -> 2 ____`,
-                    answer: item.numberPlural,
+                    clozeText: `${item.numberPlural} -> ____`,
+                    answer: pluralAnswer,
                     distractors: [dist1, item.baseWord || item.word],
                     theme: 'grammar_plurals'
                 });

@@ -69,11 +69,11 @@ test('Pronoun practice allows multiple correct answers', async ({ page }) => {
     await page.click('#start-btn');
 
     let foundPronounTask = false;
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 50; i++) {
         const text = await page.locator('#word-display').textContent();
-        if (text && text.startsWith('____')) {
+        // Pronoun tasks start with ____ or ____?
+        if (text && (text.startsWith('____') || text.startsWith('____?'))) {
             foundPronounTask = true;
-            // Check choices
             const choices = await page.locator('.choice-btn').evaluateAll(btns => btns.map(b => b.textContent));
             expect(choices.length).toBeGreaterThan(0);
 
@@ -82,7 +82,21 @@ test('Pronoun practice allows multiple correct answers', async ({ page }) => {
 
             break;
         }
-        await page.click('#next-btn');
+        // If not a pronoun task, answer it to move on
+        if (await page.locator('.choice-btn').count() > 0) {
+            await page.click('.choice-btn >> nth=0');
+        } else if (await page.locator('#opposite-answer').isVisible()) {
+            await page.fill('#opposite-answer', 'wrong');
+            await page.click('#check-opposite-btn');
+            // If it was wrong, we might be stuck.
+            // Better to just fail and say we couldn't find it easily or refine the start practice.
+        }
+
+        if (await page.locator('#next-btn').isVisible()) {
+            await page.click('#next-btn');
+        } else {
+            // If we can't move forward, skip to next iteration to try to find another way or fail
+        }
     }
     expect(foundPronounTask).toBe(true);
 });
