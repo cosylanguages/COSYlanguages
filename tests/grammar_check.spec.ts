@@ -4,6 +4,9 @@ test.describe('Practice Engine Grammar Features', () => {
   test('Grammar category and theme selection', async ({ page }) => {
     await page.goto('http://localhost:8080/practice.html');
 
+    // Ensure a language with Gender/Articles is selected (e.g., French)
+    await page.click('.lang-selection-card[data-value="fr"]');
+
     // Select Grammar category
     await page.evaluate(() => {
         const radio = document.getElementById('cat-grammar') as HTMLInputElement;
@@ -15,10 +18,10 @@ test.describe('Practice Engine Grammar Features', () => {
     const themeSelect = page.locator('#practice-theme');
     await expect(themeSelect).toBeVisible();
 
-    // Check for grammar-specific themes
+    // Check for grammar-specific themes (in French)
     const options = await themeSelect.locator('option').allTextContents();
-    expect(options).toContain('Present Simple 🕒');
-    expect(options).toContain('Singular & Plural ↔️');
+    expect(options).toContain('Présent Simple 🕒');
+    expect(options).toContain('Singulier & Pluriel ↔️');
 
     // Task types should be updated (Gender & Articles, Numbers & Plurals should be visible and checked)
     // Open Advanced options first to make them visible
@@ -56,6 +59,9 @@ test.describe('Practice Engine Grammar Features', () => {
   test('Pronoun practice allows multiple correct answers', async ({ page }) => {
     // We need to inject a specific state or wait for a specific task
     await page.goto('http://localhost:8080/practice.html');
+
+    // Ensure a language with pronouns is selected (e.g., French)
+    await page.click('.lang-selection-card[data-value="fr"]');
 
     // Start practice with only grammar/cloze enabled
     await page.evaluate(() => {

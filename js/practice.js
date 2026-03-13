@@ -64,9 +64,10 @@ function populateThemes(categoryId) {
             { value: 'grammar_gender', key: 'theme_grammar_gender' }
         ];
 
-        // English refinements: no Future Simple or Gender/Articles in Grammar section per request
+        // English refinements: focus mostly on Verb Forms and Plurals per request
         if (lang === 'en') {
-            themes = themes.filter(th => th.value !== 'grammar_future_simple' && th.value !== 'grammar_gender');
+            themes = themes.filter(th => th.value === 'grammar_plurals');
+            themes.push({ value: 'grammar_verb_forms', key: 'theme_grammar_verb_forms' });
         }
     } else if (categoryId === 'speaking') {
         themes = [
@@ -140,7 +141,11 @@ document.addEventListener('DOMContentLoaded', () => {
             container.classList.add('cat-grammar');
             const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np', 'type-mc'];
             taskCheckboxes.forEach(cb => {
-                const isGrammar = grammarTasks.includes(cb.id);
+                let isGrammar = grammarTasks.includes(cb.id);
+                // English: hide Gender & Articles
+                if (currentPractice.language === 'en' && cb.id === 'type-ga') {
+                    isGrammar = false;
+                }
                 configureTask(cb.id, isGrammar, isGrammar);
             });
         } else {
@@ -389,7 +394,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const selectedCat = document.querySelector('input[name="practice-cat"]:checked');
             if (selectedCat) {
-                populateThemes(selectedCat.id.replace('cat-', ''));
+                window.updateCategoryUI();
             }
 
             if (typeof setLanguage === 'function') {
@@ -600,11 +605,11 @@ function triggerAnimation(type) {
 
 const GRAMMAR_CONFIG = {
     fr: {
-        articles: ['le', 'la', "l'", 'les', 'un', 'une', 'des'],
+        articles: ['le', 'la', "l'"],
         pronouns: ['je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles']
     },
     it: {
-        articles: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le', 'un', 'una', 'uno', "un'"],
+        articles: ['il', 'lo', 'la', "l'"],
         pronouns: ['io', 'tu', 'lui', 'lei', 'noi', 'voi', 'loro']
     },
     ru: {
@@ -612,11 +617,11 @@ const GRAMMAR_CONFIG = {
         pronouns: ['я', 'ты', 'он', 'она', 'оно', 'мы', 'вы', 'они']
     },
     el: {
-        articles: ['ο', 'η', 'το', 'οι', 'τα', 'ένας', 'μία', 'ένα'],
+        articles: ['ο', 'η', 'το'],
         pronouns: ['εγώ', 'εσύ', 'αυτός', 'αυτή', 'αυτό', 'εμείς', 'εσείς', 'αυτοί', 'αυτές', 'αυτά']
     },
     en: {
-        articles: ['a', 'an', 'the'],
+        articles: ['the'],
         pronouns: ['I', 'you', 'he', 'she', 'it', 'we', 'they']
     }
 };
@@ -653,6 +658,9 @@ function expandGrammarItems(items, lang) {
             itemVerbForms = [...new Set(itemVerbForms.map(v => v.toLowerCase()))];
 
             for (const [tense, forms] of Object.entries(item.tenses)) {
+                // English: only practice present and past simple, no future
+                if (lang === 'en' && tense === 'future_simple') continue;
+
                 const theme = 'grammar_' + tense;
                 for (const [formType, conjugations] of Object.entries(forms)) {
                     conjugations.forEach((conj, idx) => {
@@ -699,7 +707,8 @@ function expandGrammarItems(items, lang) {
                         });
 
                         // 2. Personal Pronoun practice - skip for question forms to avoid redundancy
-                        if (formType !== 'question') {
+                        // English: skip pronoun practice per request ("only practice regular and irregular verbs")
+                        if (formType !== 'question' && lang !== 'en') {
                             // Find all pronouns that are technically correct for this conjugation
                             const correctPronouns = pronouns.filter((p, pIdx) => conjugations[pIdx] === conj);
 
@@ -717,6 +726,31 @@ function expandGrammarItems(items, lang) {
                         }
                     });
                 }
+            }
+
+            // English: Add Verb Form practice (V1, V2, V3)
+            if (lang === 'en' && item.past_participle) {
+                const v1 = item.verb.replace(/^to\s+/i, '');
+                const v2 = item.tenses.past_simple.positive[0]; // Using first pronoun's past form as representative
+                const v3 = item.past_participle;
+
+                expanded.push({
+                    ...item,
+                    type: 'type-cl',
+                    clozeText: `${item.verb} (V2 / Past) -> ____`,
+                    answer: v2,
+                    theme: 'grammar_verb_forms',
+                    form: 'verb_form'
+                });
+
+                expanded.push({
+                    ...item,
+                    type: 'type-cl',
+                    clozeText: `${item.verb} (V3 / Past Participle) -> ____`,
+                    answer: v3,
+                    theme: 'grammar_verb_forms',
+                    form: 'verb_form'
+                });
             }
         } else if (item.article || item.gender || item.numberPlural) {
             if (item.article || item.gender) {
@@ -1146,7 +1180,11 @@ function showNextWord() {
     const exampleEl = document.getElementById('task-example');
     if (exampleEl) {
         const lang = currentPractice.language;
-        const typeKey = wordObj.type === 'word_scramble' ? 'ws' :
+        let typeKey = "";
+        if (wordObj.form === 'verb_form') {
+            typeKey = 'vf';
+        } else {
+            typeKey = wordObj.type === 'word_scramble' ? 'ws' :
                         wordObj.type === 'multiple_choice' ? 'mc' :
                         wordObj.type === 'listen_select' ? 'ls' :
                         wordObj.type === 'scramble' ? 'sc' :
@@ -1155,6 +1193,7 @@ function showNextWord() {
                         wordObj.type === 'true_false' ? 'tf' :
                         wordObj.type === 'gender_articles' ? 'ga' :
                         wordObj.type === 'number_plural' ? 'np' : '';
+        }
         const exampleKey = `example_${typeKey}`;
         if (translations[lang] && translations[lang][exampleKey]) {
             exampleEl.textContent = translations[lang][exampleKey];

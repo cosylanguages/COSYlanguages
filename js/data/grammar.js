@@ -3,6 +3,7 @@ const grammarData = {
         {
             "verb": "to be",
             "level": "starter",
+            "past_participle": "been",
             "pronouns": [
                 "I",
                 "you",
@@ -105,6 +106,7 @@ const grammarData = {
         {
             "verb": "to have",
             "level": "starter",
+            "past_participle": "had",
             "pronouns": [
                 "I",
                 "you",
@@ -207,6 +209,7 @@ const grammarData = {
         {
             "verb": "to work",
             "level": "starter",
+            "past_participle": "worked",
             "pronouns": [
                 "I",
                 "you",
@@ -309,6 +312,7 @@ const grammarData = {
         {
             "verb": "to do",
             "level": "starter",
+            "past_participle": "done",
             "pronouns": [
                 "I",
                 "you",
@@ -411,6 +415,7 @@ const grammarData = {
         {
             "verb": "to go",
             "level": "starter",
+            "past_participle": "gone",
             "pronouns": [
                 "I",
                 "you",
@@ -513,6 +518,7 @@ const grammarData = {
         {
             "verb": "to eat",
             "level": "starter",
+            "past_participle": "eaten",
             "pronouns": [
                 "I",
                 "you",
@@ -615,6 +621,7 @@ const grammarData = {
         {
             "verb": "to speak",
             "level": "starter",
+            "past_participle": "spoken",
             "pronouns": [
                 "I",
                 "you",
