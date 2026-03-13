@@ -1,720 +1,1128 @@
 const grammarData = {
     "en": [
-        {
-            "verb": "to be",
-            "level": "starter",
-            "pronouns": [
-                "I",
-                "you",
-                "he",
-                "she",
-                "it",
-                "we",
-                "they"
-            ],
-            "tenses": {
-                "present_simple": {
-                    "positive": [
-                        "am",
-                        "are",
-                        "is",
-                        "is",
-                        "is",
-                        "are",
-                        "are"
-                    ],
-                    "negative": [
-                        "am not",
-                        "are not",
-                        "is not",
-                        "is not",
-                        "is not",
-                        "are not",
-                        "are not"
-                    ],
-                    "question": [
-                        "Am I",
-                        "Are you",
-                        "Is he",
-                        "Is she",
-                        "Is it",
-                        "Are we",
-                        "Are they"
-                    ]
-                },
-                "past_simple": {
-                    "positive": [
-                        "was",
-                        "were",
-                        "was",
-                        "was",
-                        "was",
-                        "were",
-                        "were"
-                    ],
-                    "negative": [
-                        "was not",
-                        "were not",
-                        "was not",
-                        "was not",
-                        "was not",
-                        "were not",
-                        "were not"
-                    ],
-                    "question": [
-                        "Was I",
-                        "Were you",
-                        "Was he",
-                        "Was she",
-                        "Was it",
-                        "Were we",
-                        "Were they"
-                    ]
-                },
-                "future_simple": {
-                    "positive": [
-                        "will be",
-                        "will be",
-                        "will be",
-                        "will be",
-                        "will be",
-                        "will be",
-                        "will be"
-                    ],
-                    "negative": [
-                        "won't be",
-                        "won't be",
-                        "won't be",
-                        "won't be",
-                        "won't be",
-                        "won't be",
-                        "won't be"
-                    ],
-                    "question": [
-                        "Will I be",
-                        "Will you be",
-                        "Will he be",
-                        "Will she be",
-                        "Will it be",
-                        "Will we be",
-                        "Will they be"
-                    ]
-                }
-            }
-        },
-        {
-            "verb": "to have",
-            "level": "starter",
-            "pronouns": [
-                "I",
-                "you",
-                "he",
-                "she",
-                "it",
-                "we",
-                "they"
-            ],
-            "tenses": {
-                "present_simple": {
-                    "positive": [
-                        "have",
-                        "have",
-                        "has",
-                        "has",
-                        "has",
-                        "have",
-                        "have"
-                    ],
-                    "negative": [
-                        "don't have",
-                        "don't have",
-                        "doesn't have",
-                        "doesn't have",
-                        "doesn't have",
-                        "don't have",
-                        "don't have"
-                    ],
-                    "question": [
-                        "Do I have",
-                        "Do you have",
-                        "Does he have",
-                        "Does she have",
-                        "Does it have",
-                        "Do we have",
-                        "Do they have"
-                    ]
-                },
-                "past_simple": {
-                    "positive": [
-                        "had",
-                        "had",
-                        "had",
-                        "had",
-                        "had",
-                        "had",
-                        "had"
-                    ],
-                    "negative": [
-                        "didn't have",
-                        "didn't have",
-                        "didn't have",
-                        "didn't have",
-                        "didn't have",
-                        "didn't have",
-                        "didn't have"
-                    ],
-                    "question": [
-                        "Did I have",
-                        "Did you have",
-                        "Did he have",
-                        "Did she have",
-                        "Did it have",
-                        "Did we have",
-                        "Did they have"
-                    ]
-                },
-                "future_simple": {
-                    "positive": [
-                        "will have",
-                        "will have",
-                        "will have",
-                        "will have",
-                        "will have",
-                        "will have",
-                        "will have"
-                    ],
-                    "negative": [
-                        "won't have",
-                        "won't have",
-                        "won't have",
-                        "won't have",
-                        "won't have",
-                        "won't have",
-                        "won't have"
-                    ],
-                    "question": [
-                        "Will I have",
-                        "Will you have",
-                        "Will he have",
-                        "Will she have",
-                        "Will it have",
-                        "Will we have",
-                        "Will they have"
-                    ]
-                }
-            }
-        },
-        {
-            "verb": "to work",
-            "level": "starter",
-            "pronouns": [
-                "I",
-                "you",
-                "he",
-                "she",
-                "it",
-                "we",
-                "they"
-            ],
-            "tenses": {
-                "present_simple": {
-                    "positive": [
-                        "work",
-                        "work",
-                        "works",
-                        "works",
-                        "works",
-                        "work",
-                        "work"
-                    ],
-                    "negative": [
-                        "don't work",
-                        "don't work",
-                        "doesn't work",
-                        "doesn't work",
-                        "doesn't work",
-                        "don't work",
-                        "don't work"
-                    ],
-                    "question": [
-                        "Do I work",
-                        "Do you work",
-                        "Does he work",
-                        "Does she work",
-                        "Does it work",
-                        "Do we work",
-                        "Do they work"
-                    ]
-                },
-                "past_simple": {
-                    "positive": [
-                        "worked",
-                        "worked",
-                        "worked",
-                        "worked",
-                        "worked",
-                        "worked",
-                        "worked"
-                    ],
-                    "negative": [
-                        "didn't work",
-                        "didn't work",
-                        "didn't work",
-                        "didn't work",
-                        "didn't work",
-                        "didn't work",
-                        "didn't work"
-                    ],
-                    "question": [
-                        "Did I work",
-                        "Did you work",
-                        "Did he work",
-                        "Did she work",
-                        "Did it work",
-                        "Did we work",
-                        "Did they work"
-                    ]
-                },
-                "future_simple": {
-                    "positive": [
-                        "will work",
-                        "will work",
-                        "will work",
-                        "will work",
-                        "will work",
-                        "will work",
-                        "will work"
-                    ],
-                    "negative": [
-                        "won't work",
-                        "won't work",
-                        "won't work",
-                        "won't work",
-                        "won't work",
-                        "won't work",
-                        "won't work"
-                    ],
-                    "question": [
-                        "Will I work",
-                        "Will you work",
-                        "Will he work",
-                        "Will she work",
-                        "Will it work",
-                        "Will we work",
-                        "Will they work"
-                    ]
-                }
-            }
-        },
-        {
-            "verb": "to do",
-            "level": "starter",
-            "pronouns": [
-                "I",
-                "you",
-                "he",
-                "she",
-                "it",
-                "we",
-                "they"
-            ],
-            "tenses": {
-                "present_simple": {
-                    "positive": [
-                        "do",
-                        "do",
-                        "does",
-                        "does",
-                        "does",
-                        "do",
-                        "do"
-                    ],
-                    "negative": [
-                        "don't do",
-                        "don't do",
-                        "doesn't do",
-                        "doesn't do",
-                        "doesn't do",
-                        "don't do",
-                        "don't do"
-                    ],
-                    "question": [
-                        "Do I do",
-                        "Do you do",
-                        "Does he do",
-                        "Does she do",
-                        "Does it do",
-                        "Do we do",
-                        "Do they do"
-                    ]
-                },
-                "past_simple": {
-                    "positive": [
-                        "did",
-                        "did",
-                        "did",
-                        "did",
-                        "did",
-                        "did",
-                        "did"
-                    ],
-                    "negative": [
-                        "didn't do",
-                        "didn't do",
-                        "didn't do",
-                        "didn't do",
-                        "didn't do",
-                        "didn't do",
-                        "didn't do"
-                    ],
-                    "question": [
-                        "Did I do",
-                        "Did you do",
-                        "Did he do",
-                        "Did she do",
-                        "Did it do",
-                        "Did we do",
-                        "Did they do"
-                    ]
-                },
-                "future_simple": {
-                    "positive": [
-                        "will do",
-                        "will do",
-                        "will do",
-                        "will do",
-                        "will do",
-                        "will do",
-                        "will do"
-                    ],
-                    "negative": [
-                        "won't do",
-                        "won't do",
-                        "won't do",
-                        "won't do",
-                        "won't do",
-                        "won't do",
-                        "won't do"
-                    ],
-                    "question": [
-                        "Will I do",
-                        "Will you do",
-                        "Will he do",
-                        "Will she do",
-                        "Will it do",
-                        "Will we do",
-                        "Will they do"
-                    ]
-                }
-            }
-        },
-        {
-            "verb": "to go",
-            "level": "starter",
-            "pronouns": [
-                "I",
-                "you",
-                "he",
-                "she",
-                "it",
-                "we",
-                "they"
-            ],
-            "tenses": {
-                "present_simple": {
-                    "positive": [
-                        "go",
-                        "go",
-                        "goes",
-                        "goes",
-                        "goes",
-                        "go",
-                        "go"
-                    ],
-                    "negative": [
-                        "don't go",
-                        "don't go",
-                        "doesn't go",
-                        "doesn't go",
-                        "doesn't go",
-                        "don't go",
-                        "don't go"
-                    ],
-                    "question": [
-                        "Do I go",
-                        "Do you go",
-                        "Does he go",
-                        "Does she go",
-                        "Does it go",
-                        "Do we go",
-                        "Do they go"
-                    ]
-                },
-                "past_simple": {
-                    "positive": [
-                        "went",
-                        "went",
-                        "went",
-                        "went",
-                        "went",
-                        "went",
-                        "went"
-                    ],
-                    "negative": [
-                        "didn't go",
-                        "didn't go",
-                        "didn't go",
-                        "didn't go",
-                        "didn't go",
-                        "didn't go",
-                        "didn't go"
-                    ],
-                    "question": [
-                        "Did I go",
-                        "Did you go",
-                        "Did he go",
-                        "Did she go",
-                        "Did it go",
-                        "Did we go",
-                        "Did they go"
-                    ]
-                },
-                "future_simple": {
-                    "positive": [
-                        "will go",
-                        "will go",
-                        "will go",
-                        "will go",
-                        "will go",
-                        "will go",
-                        "will go"
-                    ],
-                    "negative": [
-                        "won't go",
-                        "won't go",
-                        "won't go",
-                        "won't go",
-                        "won't go",
-                        "won't go",
-                        "won't go"
-                    ],
-                    "question": [
-                        "Will I go",
-                        "Will you go",
-                        "Will he go",
-                        "Will she go",
-                        "Will it go",
-                        "Will we go",
-                        "Will they go"
-                    ]
-                }
-            }
-        },
-        {
-            "verb": "to eat",
-            "level": "starter",
-            "pronouns": [
-                "I",
-                "you",
-                "he",
-                "she",
-                "it",
-                "we",
-                "they"
-            ],
-            "tenses": {
-                "present_simple": {
-                    "positive": [
-                        "eat",
-                        "eat",
-                        "eats",
-                        "eats",
-                        "eats",
-                        "eat",
-                        "eat"
-                    ],
-                    "negative": [
-                        "don't eat",
-                        "don't eat",
-                        "doesn't eat",
-                        "doesn't eat",
-                        "doesn't eat",
-                        "don't eat",
-                        "don't eat"
-                    ],
-                    "question": [
-                        "Do I eat",
-                        "Do you eat",
-                        "Does he eat",
-                        "Does she eat",
-                        "Does it eat",
-                        "Do we eat",
-                        "Do they eat"
-                    ]
-                },
-                "past_simple": {
-                    "positive": [
-                        "ate",
-                        "ate",
-                        "ate",
-                        "ate",
-                        "ate",
-                        "ate",
-                        "ate"
-                    ],
-                    "negative": [
-                        "didn't eat",
-                        "didn't eat",
-                        "didn't eat",
-                        "didn't eat",
-                        "didn't eat",
-                        "didn't eat",
-                        "didn't eat"
-                    ],
-                    "question": [
-                        "Did I eat",
-                        "Did you eat",
-                        "Did he eat",
-                        "Did she eat",
-                        "Did it eat",
-                        "Did we eat",
-                        "Did they eat"
-                    ]
-                },
-                "future_simple": {
-                    "positive": [
-                        "will eat",
-                        "will eat",
-                        "will eat",
-                        "will eat",
-                        "will eat",
-                        "will eat",
-                        "will eat"
-                    ],
-                    "negative": [
-                        "won't eat",
-                        "won't eat",
-                        "won't eat",
-                        "won't eat",
-                        "won't eat",
-                        "won't eat",
-                        "won't eat"
-                    ],
-                    "question": [
-                        "Will I eat",
-                        "Will you eat",
-                        "Will he eat",
-                        "Will she eat",
-                        "Will it eat",
-                        "Will we eat",
-                        "Will they eat"
-                    ]
-                }
-            }
-        },
-        {
-            "verb": "to speak",
-            "level": "starter",
-            "pronouns": [
-                "I",
-                "you",
-                "he",
-                "she",
-                "it",
-                "we",
-                "they"
-            ],
-            "tenses": {
-                "present_simple": {
-                    "positive": [
-                        "speak",
-                        "speak",
-                        "speaks",
-                        "speaks",
-                        "speaks",
-                        "speak",
-                        "speak"
-                    ],
-                    "negative": [
-                        "don't speak",
-                        "don't speak",
-                        "doesn't speak",
-                        "doesn't speak",
-                        "doesn't speak",
-                        "don't speak",
-                        "don't speak"
-                    ],
-                    "question": [
-                        "Do I speak",
-                        "Do you speak",
-                        "Does he speak",
-                        "Does she speak",
-                        "Does it speak",
-                        "Do we speak",
-                        "Do they speak"
-                    ]
-                },
-                "past_simple": {
-                    "positive": [
-                        "spoke",
-                        "spoke",
-                        "spoke",
-                        "spoke",
-                        "spoke",
-                        "spoke",
-                        "spoke"
-                    ],
-                    "negative": [
-                        "didn't speak",
-                        "didn't speak",
-                        "didn't speak",
-                        "didn't speak",
-                        "didn't speak",
-                        "didn't speak",
-                        "didn't speak"
-                    ],
-                    "question": [
-                        "Did I speak",
-                        "Did you speak",
-                        "Did he speak",
-                        "Did she speak",
-                        "Did it speak",
-                        "Did we speak",
-                        "Did they speak"
-                    ]
-                },
-                "future_simple": {
-                    "positive": [
-                        "will speak",
-                        "will speak",
-                        "will speak",
-                        "will speak",
-                        "will speak",
-                        "will speak",
-                        "will speak"
-                    ],
-                    "negative": [
-                        "won't speak",
-                        "won't speak",
-                        "won't speak",
-                        "won't speak",
-                        "won't speak",
-                        "won't speak",
-                        "won't speak"
-                    ],
-                    "question": [
-                        "Will I speak",
-                        "Will you speak",
-                        "Will he speak",
-                        "Will she speak",
-                        "Will it speak",
-                        "Will we speak",
-                        "Will they speak"
-                    ]
-                }
+    {
+        "verb": "to be",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "am",
+                    "are",
+                    "is",
+                    "is",
+                    "is",
+                    "are",
+                    "are"
+                ],
+                "negative": [
+                    "am not",
+                    "are not",
+                    "is not",
+                    "is not",
+                    "is not",
+                    "are not",
+                    "are not"
+                ],
+                "question": [
+                    "Am I",
+                    "Are you",
+                    "Is he",
+                    "Is she",
+                    "Is it",
+                    "Are we",
+                    "Are they"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "was",
+                    "were",
+                    "was",
+                    "was",
+                    "was",
+                    "were",
+                    "were"
+                ],
+                "negative": [
+                    "was not",
+                    "were not",
+                    "was not",
+                    "was not",
+                    "was not",
+                    "were not",
+                    "were not"
+                ],
+                "question": [
+                    "Was I",
+                    "Were you",
+                    "Was he",
+                    "Was she",
+                    "Was it",
+                    "Were we",
+                    "Were they"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will be",
+                    "will be",
+                    "will be",
+                    "will be",
+                    "will be",
+                    "will be",
+                    "will be"
+                ],
+                "negative": [
+                    "won't be",
+                    "won't be",
+                    "won't be",
+                    "won't be",
+                    "won't be",
+                    "won't be",
+                    "won't be"
+                ],
+                "question": [
+                    "Will I be",
+                    "Will you be",
+                    "Will he be",
+                    "Will she be",
+                    "Will it be",
+                    "Will we be",
+                    "Will they be"
+                ]
             }
         }
-    ],
+    },
+    {
+        "verb": "to play",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "play",
+                    "play",
+                    "plays",
+                    "plays",
+                    "plays",
+                    "play",
+                    "play"
+                ],
+                "negative": [
+                    "don't play",
+                    "don't play",
+                    "doesn't play",
+                    "doesn't play",
+                    "doesn't play",
+                    "don't play",
+                    "don't play"
+                ],
+                "question": [
+                    "Do I play",
+                    "Do you play",
+                    "Does he play",
+                    "Does she play",
+                    "Does it play",
+                    "Do we play",
+                    "Do they play"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "played",
+                    "played",
+                    "played",
+                    "played",
+                    "played",
+                    "played",
+                    "played"
+                ],
+                "negative": [
+                    "didn't play",
+                    "didn't play",
+                    "didn't play",
+                    "didn't play",
+                    "didn't play",
+                    "didn't play",
+                    "didn't play"
+                ],
+                "question": [
+                    "Did I play",
+                    "Did you play",
+                    "Did he play",
+                    "Did she play",
+                    "Did it play",
+                    "Did we play",
+                    "Did they play"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will play",
+                    "will play",
+                    "will play",
+                    "will play",
+                    "will play",
+                    "will play",
+                    "will play"
+                ],
+                "negative": [
+                    "won't play",
+                    "won't play",
+                    "won't play",
+                    "won't play",
+                    "won't play",
+                    "won't play",
+                    "won't play"
+                ],
+                "question": [
+                    "Will I play",
+                    "Will you play",
+                    "Will he play",
+                    "Will she play",
+                    "Will it play",
+                    "Will we play",
+                    "Will they play"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "to see",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "see",
+                    "see",
+                    "sees",
+                    "sees",
+                    "sees",
+                    "see",
+                    "see"
+                ],
+                "negative": [
+                    "don't see",
+                    "don't see",
+                    "doesn't see",
+                    "doesn't see",
+                    "doesn't see",
+                    "don't see",
+                    "don't see"
+                ],
+                "question": [
+                    "Do I see",
+                    "Do you see",
+                    "Does he see",
+                    "Does she see",
+                    "Does it see",
+                    "Do we see",
+                    "Do they see"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "saw",
+                    "saw",
+                    "saw",
+                    "saw",
+                    "saw",
+                    "saw",
+                    "saw"
+                ],
+                "negative": [
+                    "didn't see",
+                    "didn't see",
+                    "didn't see",
+                    "didn't see",
+                    "didn't see",
+                    "didn't see",
+                    "didn't see"
+                ],
+                "question": [
+                    "Did I see",
+                    "Did you see",
+                    "Did he see",
+                    "Did she see",
+                    "Did it see",
+                    "Did we see",
+                    "Did they see"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will see",
+                    "will see",
+                    "will see",
+                    "will see",
+                    "will see",
+                    "will see",
+                    "will see"
+                ],
+                "negative": [
+                    "won't see",
+                    "won't see",
+                    "won't see",
+                    "won't see",
+                    "won't see",
+                    "won't see",
+                    "won't see"
+                ],
+                "question": [
+                    "Will I see",
+                    "Will you see",
+                    "Will he see",
+                    "Will she see",
+                    "Will it see",
+                    "Will we see",
+                    "Will they see"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "to buy",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "buy",
+                    "buy",
+                    "buys",
+                    "buys",
+                    "buys",
+                    "buy",
+                    "buy"
+                ],
+                "negative": [
+                    "don't buy",
+                    "don't buy",
+                    "doesn't buy",
+                    "doesn't buy",
+                    "doesn't buy",
+                    "don't buy",
+                    "don't buy"
+                ],
+                "question": [
+                    "Do I buy",
+                    "Do you buy",
+                    "Does he buy",
+                    "Does she buy",
+                    "Does it buy",
+                    "Do we buy",
+                    "Do they buy"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "bought",
+                    "bought",
+                    "bought",
+                    "bought",
+                    "bought",
+                    "bought",
+                    "bought"
+                ],
+                "negative": [
+                    "didn't buy",
+                    "didn't buy",
+                    "didn't buy",
+                    "didn't buy",
+                    "didn't buy",
+                    "didn't buy",
+                    "didn't buy"
+                ],
+                "question": [
+                    "Did I buy",
+                    "Did you buy",
+                    "Did he buy",
+                    "Did she buy",
+                    "Did it buy",
+                    "Did we buy",
+                    "Did they buy"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will buy",
+                    "will buy",
+                    "will buy",
+                    "will buy",
+                    "will buy",
+                    "will buy",
+                    "will buy"
+                ],
+                "negative": [
+                    "won't buy",
+                    "won't buy",
+                    "won't buy",
+                    "won't buy",
+                    "won't buy",
+                    "won't buy",
+                    "won't buy"
+                ],
+                "question": [
+                    "Will I buy",
+                    "Will you buy",
+                    "Will he buy",
+                    "Will she buy",
+                    "Will it buy",
+                    "Will we buy",
+                    "Will they buy"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "to help",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "help",
+                    "help",
+                    "helps",
+                    "helps",
+                    "helps",
+                    "help",
+                    "help"
+                ],
+                "negative": [
+                    "don't help",
+                    "don't help",
+                    "doesn't help",
+                    "doesn't help",
+                    "doesn't help",
+                    "don't help",
+                    "don't help"
+                ],
+                "question": [
+                    "Do I help",
+                    "Do you help",
+                    "Does he help",
+                    "Does she help",
+                    "Does it help",
+                    "Do we help",
+                    "Do they help"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "helped",
+                    "helped",
+                    "helped",
+                    "helped",
+                    "helped",
+                    "helped",
+                    "helped"
+                ],
+                "negative": [
+                    "didn't help",
+                    "didn't help",
+                    "didn't help",
+                    "didn't help",
+                    "didn't help",
+                    "didn't help",
+                    "didn't help"
+                ],
+                "question": [
+                    "Did I help",
+                    "Did you help",
+                    "Did he help",
+                    "Did she help",
+                    "Did it help",
+                    "Did we help",
+                    "Did they help"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will help",
+                    "will help",
+                    "will help",
+                    "will help",
+                    "will help",
+                    "will help",
+                    "will help"
+                ],
+                "negative": [
+                    "won't help",
+                    "won't help",
+                    "won't help",
+                    "won't help",
+                    "won't help",
+                    "won't help",
+                    "won't help"
+                ],
+                "question": [
+                    "Will I help",
+                    "Will you help",
+                    "Will he help",
+                    "Will she help",
+                    "Will it help",
+                    "Will we help",
+                    "Will they help"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "to have",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "have",
+                    "have",
+                    "has",
+                    "has",
+                    "has",
+                    "have",
+                    "have"
+                ],
+                "negative": [
+                    "don't have",
+                    "don't have",
+                    "doesn't have",
+                    "doesn't have",
+                    "doesn't have",
+                    "don't have",
+                    "don't have"
+                ],
+                "question": [
+                    "Do I have",
+                    "Do you have",
+                    "Does he have",
+                    "Does she have",
+                    "Does it have",
+                    "Do we have",
+                    "Do they have"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "had",
+                    "had",
+                    "had",
+                    "had",
+                    "had",
+                    "had",
+                    "had"
+                ],
+                "negative": [
+                    "didn't have",
+                    "didn't have",
+                    "didn't have",
+                    "didn't have",
+                    "didn't have",
+                    "didn't have",
+                    "didn't have"
+                ],
+                "question": [
+                    "Did I have",
+                    "Did you have",
+                    "Did he have",
+                    "Did she have",
+                    "Did it have",
+                    "Did we have",
+                    "Did they have"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will have",
+                    "will have",
+                    "will have",
+                    "will have",
+                    "will have",
+                    "will have",
+                    "will have"
+                ],
+                "negative": [
+                    "won't have",
+                    "won't have",
+                    "won't have",
+                    "won't have",
+                    "won't have",
+                    "won't have",
+                    "won't have"
+                ],
+                "question": [
+                    "Will I have",
+                    "Will you have",
+                    "Will he have",
+                    "Will she have",
+                    "Will it have",
+                    "Will we have",
+                    "Will they have"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "to work",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "work",
+                    "work",
+                    "works",
+                    "works",
+                    "works",
+                    "work",
+                    "work"
+                ],
+                "negative": [
+                    "don't work",
+                    "don't work",
+                    "doesn't work",
+                    "doesn't work",
+                    "doesn't work",
+                    "don't work",
+                    "don't work"
+                ],
+                "question": [
+                    "Do I work",
+                    "Do you work",
+                    "Does he work",
+                    "Does she work",
+                    "Does it work",
+                    "Do we work",
+                    "Do they work"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "worked",
+                    "worked",
+                    "worked",
+                    "worked",
+                    "worked",
+                    "worked",
+                    "worked"
+                ],
+                "negative": [
+                    "didn't work",
+                    "didn't work",
+                    "didn't work",
+                    "didn't work",
+                    "didn't work",
+                    "didn't work",
+                    "didn't work"
+                ],
+                "question": [
+                    "Did I work",
+                    "Did you work",
+                    "Did he work",
+                    "Did she work",
+                    "Did it work",
+                    "Did we work",
+                    "Did they work"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will work",
+                    "will work",
+                    "will work",
+                    "will work",
+                    "will work",
+                    "will work",
+                    "will work"
+                ],
+                "negative": [
+                    "won't work",
+                    "won't work",
+                    "won't work",
+                    "won't work",
+                    "won't work",
+                    "won't work",
+                    "won't work"
+                ],
+                "question": [
+                    "Will I work",
+                    "Will you work",
+                    "Will he work",
+                    "Will she work",
+                    "Will it work",
+                    "Will we work",
+                    "Will they work"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "to do",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "do",
+                    "do",
+                    "does",
+                    "does",
+                    "does",
+                    "do",
+                    "do"
+                ],
+                "negative": [
+                    "don't do",
+                    "don't do",
+                    "doesn't do",
+                    "doesn't do",
+                    "doesn't do",
+                    "don't do",
+                    "don't do"
+                ],
+                "question": [
+                    "Do I do",
+                    "Do you do",
+                    "Does he do",
+                    "Does she do",
+                    "Does it do",
+                    "Do we do",
+                    "Do they do"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "did",
+                    "did",
+                    "did",
+                    "did",
+                    "did",
+                    "did",
+                    "did"
+                ],
+                "negative": [
+                    "didn't do",
+                    "didn't do",
+                    "didn't do",
+                    "didn't do",
+                    "didn't do",
+                    "didn't do",
+                    "didn't do"
+                ],
+                "question": [
+                    "Did I do",
+                    "Did you do",
+                    "Did he do",
+                    "Did she do",
+                    "Did it do",
+                    "Did we do",
+                    "Did they do"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will do",
+                    "will do",
+                    "will do",
+                    "will do",
+                    "will do",
+                    "will do",
+                    "will do"
+                ],
+                "negative": [
+                    "won't do",
+                    "won't do",
+                    "won't do",
+                    "won't do",
+                    "won't do",
+                    "won't do",
+                    "won't do"
+                ],
+                "question": [
+                    "Will I do",
+                    "Will you do",
+                    "Will he do",
+                    "Will she do",
+                    "Will it do",
+                    "Will we do",
+                    "Will they do"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "to go",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "go",
+                    "go",
+                    "goes",
+                    "goes",
+                    "goes",
+                    "go",
+                    "go"
+                ],
+                "negative": [
+                    "don't go",
+                    "don't go",
+                    "doesn't go",
+                    "doesn't go",
+                    "doesn't go",
+                    "don't go",
+                    "don't go"
+                ],
+                "question": [
+                    "Do I go",
+                    "Do you go",
+                    "Does he go",
+                    "Does she go",
+                    "Does it go",
+                    "Do we go",
+                    "Do they go"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "went",
+                    "went",
+                    "went",
+                    "went",
+                    "went",
+                    "went",
+                    "went"
+                ],
+                "negative": [
+                    "didn't go",
+                    "didn't go",
+                    "didn't go",
+                    "didn't go",
+                    "didn't go",
+                    "didn't go",
+                    "didn't go"
+                ],
+                "question": [
+                    "Did I go",
+                    "Did you go",
+                    "Did he go",
+                    "Did she go",
+                    "Did it go",
+                    "Did we go",
+                    "Did they go"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will go",
+                    "will go",
+                    "will go",
+                    "will go",
+                    "will go",
+                    "will go",
+                    "will go"
+                ],
+                "negative": [
+                    "won't go",
+                    "won't go",
+                    "won't go",
+                    "won't go",
+                    "won't go",
+                    "won't go",
+                    "won't go"
+                ],
+                "question": [
+                    "Will I go",
+                    "Will you go",
+                    "Will he go",
+                    "Will she go",
+                    "Will it go",
+                    "Will we go",
+                    "Will they go"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "to eat",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "eat",
+                    "eat",
+                    "eats",
+                    "eats",
+                    "eats",
+                    "eat",
+                    "eat"
+                ],
+                "negative": [
+                    "don't eat",
+                    "don't eat",
+                    "doesn't eat",
+                    "doesn't eat",
+                    "doesn't eat",
+                    "don't eat",
+                    "don't eat"
+                ],
+                "question": [
+                    "Do I eat",
+                    "Do you eat",
+                    "Does he eat",
+                    "Does she eat",
+                    "Does it eat",
+                    "Do we eat",
+                    "Do they eat"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "ate",
+                    "ate",
+                    "ate",
+                    "ate",
+                    "ate",
+                    "ate",
+                    "ate"
+                ],
+                "negative": [
+                    "didn't eat",
+                    "didn't eat",
+                    "didn't eat",
+                    "didn't eat",
+                    "didn't eat",
+                    "didn't eat",
+                    "didn't eat"
+                ],
+                "question": [
+                    "Did I eat",
+                    "Did you eat",
+                    "Did he eat",
+                    "Did she eat",
+                    "Did it eat",
+                    "Did we eat",
+                    "Did they eat"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will eat",
+                    "will eat",
+                    "will eat",
+                    "will eat",
+                    "will eat",
+                    "will eat",
+                    "will eat"
+                ],
+                "negative": [
+                    "won't eat",
+                    "won't eat",
+                    "won't eat",
+                    "won't eat",
+                    "won't eat",
+                    "won't eat",
+                    "won't eat"
+                ],
+                "question": [
+                    "Will I eat",
+                    "Will you eat",
+                    "Will he eat",
+                    "Will she eat",
+                    "Will it eat",
+                    "Will we eat",
+                    "Will they eat"
+                ]
+            }
+        }
+    },
+    {
+        "verb": "to speak",
+        "level": "starter",
+        "pronouns": [
+            "I",
+            "you",
+            "he",
+            "she",
+            "it",
+            "we",
+            "they"
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "speak",
+                    "speak",
+                    "speaks",
+                    "speaks",
+                    "speaks",
+                    "speak",
+                    "speak"
+                ],
+                "negative": [
+                    "don't speak",
+                    "don't speak",
+                    "doesn't speak",
+                    "doesn't speak",
+                    "doesn't speak",
+                    "don't speak",
+                    "don't speak"
+                ],
+                "question": [
+                    "Do I speak",
+                    "Do you speak",
+                    "Does he speak",
+                    "Does she speak",
+                    "Does it speak",
+                    "Do we speak",
+                    "Do they speak"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "spoke",
+                    "spoke",
+                    "spoke",
+                    "spoke",
+                    "spoke",
+                    "spoke",
+                    "spoke"
+                ],
+                "negative": [
+                    "didn't speak",
+                    "didn't speak",
+                    "didn't speak",
+                    "didn't speak",
+                    "didn't speak",
+                    "didn't speak",
+                    "didn't speak"
+                ],
+                "question": [
+                    "Did I speak",
+                    "Did you speak",
+                    "Did he speak",
+                    "Did she speak",
+                    "Did it speak",
+                    "Did we speak",
+                    "Did they speak"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "will speak",
+                    "will speak",
+                    "will speak",
+                    "will speak",
+                    "will speak",
+                    "will speak",
+                    "will speak"
+                ],
+                "negative": [
+                    "won't speak",
+                    "won't speak",
+                    "won't speak",
+                    "won't speak",
+                    "won't speak",
+                    "won't speak",
+                    "won't speak"
+                ],
+                "question": [
+                    "Will I speak",
+                    "Will you speak",
+                    "Will he speak",
+                    "Will she speak",
+                    "Will it speak",
+                    "Will we speak",
+                    "Will they speak"
+                ]
+            }
+        }
+    }
+],
     "fr": [
         {
             "verb": "être",

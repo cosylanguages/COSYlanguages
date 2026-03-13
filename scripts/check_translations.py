@@ -1,15 +1,27 @@
-
 import re
+import json
 
 def get_keys_from_html(filepath):
-    with open(filepath, 'r') as f:
-        content = f.read()
-    return set(re.findall(r'data-translate-key="([^"]*)"', content))
+    try:
+        with open(filepath, 'r') as f:
+            content = f.read()
+        return set(re.findall(r'data-translate-key="([^"]*)"', content))
+    except FileNotFoundError:
+        return set()
 
 html_files = ['index.html', 'practice.html', 'events.html', 'languages/en.html', 'languages/fr.html', 'languages/it.html', 'languages/ru.html', 'languages/el.html']
 all_html_keys = set()
 for f in html_files:
     all_html_keys.update(get_keys_from_html(f))
+
+# Additional keys from JS
+js_keys = {
+    'theme_grammar_plurals', 'theme_grammar_present_simple', 'theme_grammar_future_simple',
+    'theme_grammar_past_simple', 'theme_grammar_gender', 'form_noun', 'form_verb', 'form_adjective', 'form_adverb',
+    'example_mc', 'example_ls', 'example_sc', 'example_ws', 'example_op', 'example_cl', 'example_tf', 'example_ga', 'example_np',
+    'task_listen_select', 'task_multiple_choice', 'task_scramble', 'task_word_scramble', 'task_opposite', 'task_cloze', 'task_true_false', 'task_gender_articles', 'task_conversation', 'task_number_plural'
+}
+all_html_keys.update(js_keys)
 
 # To be deleted keys (Getting Started section)
 to_delete_keys = {
@@ -18,42 +30,40 @@ to_delete_keys = {
 all_html_keys -= to_delete_keys
 
 def get_translations():
-    # This is a bit hacky but it works for this specific file structure
     with open('js/translations.js', 'r') as f:
         content = f.read()
 
-    langs = ['en', 'fr', 'it', 'ru', 'el']
-    translations = {}
-    for lang in langs:
-        # Find the block for the language
-        start_marker = f"{lang}: {{"
-        start_idx = content.find(start_marker)
-        if start_idx == -1:
-            continue
+    # Match the language objects
+    matches = re.finditer(r'([a-z]{2}):\s*{', content)
+    langs = {}
 
-        # Look for the end of the language block by finding the start of the next language block or the end of the object
-        next_lang_idx = -1
-        for next_lang in langs[langs.index(lang)+1:]:
-             nm = f"{next_lang}: {{"
-             next_lang_idx = content.find(nm, start_idx)
-             if next_lang_idx != -1:
-                 break
+    # This is a bit rough but works for this structure
+    for match in matches:
+        lang = match.group(1)
+        start = match.end()
 
-        if next_lang_idx == -1:
-             end_idx = content.find("}\n};", start_idx)
-        else:
-             end_idx = next_lang_idx
+        # Find balancing brace
+        brace_count = 1
+        pos = start
+        while brace_count > 0 and pos < len(content):
+            if content[pos] == '{': brace_count += 1
+            elif content[pos] == '}': brace_count -= 1
+            pos += 1
 
-        block = content[start_idx:end_idx]
+        block = content[start:pos-1]
+        # Find keys
         keys = set(re.findall(r'^\s*([a-zA-Z0-9_]+):', block, re.MULTILINE))
-        translations[lang] = keys
-    return translations
+        langs[lang] = keys
+    return langs
 
 translations = get_translations()
 
-for lang, keys in translations.items():
+for lang in ['en', 'fr', 'it', 'ru', 'el']:
+    keys = translations.get(lang, set())
     missing = all_html_keys - keys
     if missing:
         print(f"Missing keys in {lang}:")
         for m in sorted(missing):
             print(f"  - {m}")
+    else:
+        print(f"All keys present in {lang}")

@@ -20,11 +20,17 @@ test.describe('Practice Engine Grammar Features', () => {
     expect(options).toContain('Present Simple 🕒');
     expect(options).toContain('Singular & Plural ↔️');
 
+    // Open advanced options to see task types
+    await page.click('details.advanced-options summary');
+
     // Task types should be updated (Gender & Articles, Numbers & Plurals should be visible and checked)
     const gaTask = page.locator('#type-ga');
     const npTask = page.locator('#type-np');
-    await expect(gaTask).toBeVisible();
-    await expect(npTask).toBeVisible();
+
+    // The inputs themselves are display: none, so we check their container labels for visibility
+    await expect(page.locator('label:has(#type-ga)')).toBeVisible();
+    await expect(page.locator('label:has(#type-np)')).toBeVisible();
+
     await expect(gaTask).toBeChecked();
     await expect(npTask).toBeChecked();
   });
