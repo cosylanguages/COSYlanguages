@@ -84,7 +84,12 @@ document.addEventListener('DOMContentLoaded', () => {
             pool = vocab.filter(item => item.theme === theme);
 
             if (level !== 'all') {
-                pool = pool.filter(item => item.level === level);
+                const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+                const targetIdx = levels.indexOf(level);
+                pool = pool.filter(item => {
+                    const itemIdx = levels.indexOf(item.level || 'starter');
+                    return itemIdx !== -1 && itemIdx <= targetIdx;
+                });
             }
 
             if (pool.length === 0) {

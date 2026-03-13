@@ -73,7 +73,12 @@ document.addEventListener('DOMContentLoaded', () => {
             pool = window.speakingData && window.speakingData[lang]?.debates || [];
 
             if (level !== 'all') {
-                pool = pool.filter(d => d.level === level);
+                const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+                const targetIdx = levels.indexOf(level);
+                pool = pool.filter(d => {
+                    const itemIdx = levels.indexOf(d.level || 'starter');
+                    return itemIdx !== -1 && itemIdx <= targetIdx;
+                });
             }
 
             if (pool.length === 0) {
@@ -151,7 +156,12 @@ document.addEventListener('DOMContentLoaded', () => {
             pool = window.speakingData && window.speakingData[lang]?.opinionArena || [];
 
             if (level !== 'all') {
-                pool = pool.filter(d => d.level === level);
+                const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+                const targetIdx = levels.indexOf(level);
+                pool = pool.filter(d => {
+                    const itemIdx = levels.indexOf(d.level || 'starter');
+                    return itemIdx !== -1 && itemIdx <= targetIdx;
+                });
             }
 
             if (pool.length === 0) {
@@ -231,7 +241,12 @@ document.addEventListener('DOMContentLoaded', () => {
             pool = window.speakingData && window.speakingData[lang]?.criticsCorner || [];
 
             if (level !== 'all') {
-                pool = pool.filter(d => d.level === level);
+                const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+                const targetIdx = levels.indexOf(level);
+                pool = pool.filter(d => {
+                    const itemIdx = levels.indexOf(d.level || 'starter');
+                    return itemIdx !== -1 && itemIdx <= targetIdx;
+                });
             }
 
             if (pool.length === 0) {
@@ -309,7 +324,12 @@ document.addEventListener('DOMContentLoaded', () => {
             pool = window.speakingData && window.speakingData[lang]?.talkThatTalk || [];
 
             if (level !== 'all') {
-                pool = pool.filter(d => d.level === level);
+                const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+                const targetIdx = levels.indexOf(level);
+                pool = pool.filter(d => {
+                    const itemIdx = levels.indexOf(d.level || 'starter');
+                    return itemIdx !== -1 && itemIdx <= targetIdx;
+                });
             }
 
             if (pool.length === 0) {
