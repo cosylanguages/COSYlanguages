@@ -244,16 +244,6 @@ const showGameMessage = (containerOrId, message, type = 'info') => {
     msgDiv.className = `game-message-overlay ${type}`;
     msgDiv.textContent = message;
 
-    // Styling
-    msgDiv.style.background = type === 'error' ? 'rgba(231, 76, 60, 0.9)' : 'rgba(52, 152, 219, 0.9)';
-    msgDiv.style.color = 'white';
-    msgDiv.style.padding = '10px 20px';
-    msgDiv.style.borderRadius = '8px';
-    msgDiv.style.marginTop = '10px';
-    msgDiv.style.textAlign = 'center';
-    msgDiv.style.fontWeight = 'bold';
-    msgDiv.style.animation = 'fadeIn 0.3s ease-out';
-
     container.appendChild(msgDiv);
 
     setTimeout(() => {

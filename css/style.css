@@ -1642,3 +1642,20 @@ button:active, .choice-btn:active, .bingo-cell:active, .lang-selection-card:acti
         font-size: 8rem !important;
     }
 }
+
+/* Game Message Overlay */
+.game-message-overlay {
+    background: rgba(52, 152, 219, 0.9);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    animation: fadeIn 0.3s ease-out;
+    z-index: 1000;
+}
+
+.game-message-overlay.error {
+    background: rgba(231, 76, 60, 0.9);
+}
