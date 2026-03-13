@@ -554,6 +554,18 @@ const translations = {
     next_player_announcement: "Next Player! 🎲",
     linker_guide_text: "Find the word that links the given words together. Think of associations!",
     solo_mode: "Solo Mode 👤",
+    alert_no_task_type: "Please select at least one task type!",
+    alert_no_items: "No items found for the selected filters!",
+    alert_no_tasks_generated: "Could not generate tasks for these items. Try enabling more task types!",
+    alert_all_items_called: "All items called!",
+    alert_no_adventure_items: "Alas! No items found for this adventure!",
+    alert_no_quest_items: "The quest ends here! No items found.",
+    alert_no_arena_topics: "The Arena is empty! No topics found for this level.",
+    alert_no_corner_quotes: "The Corner is quiet! No quotes found for this level.",
+    alert_no_flow_topics: "The flow is blocked! No topics found for this level.",
+    alert_no_emoji_vocab: "No vocabulary with emojis found for this language!",
+    alert_no_vocab_level: "No vocabulary found for this level/language!",
+    alert_lesson_not_found: "Lesson data not found!"
   },
   fr: {
     // Hero section
@@ -1096,6 +1108,18 @@ const translations = {
     next_player_announcement: "Joueur suivant ! 🎲",
     linker_guide_text: "Trouvez le mot qui relie les mots donnés entre eux. Pensez aux associations !",
     solo_mode: "Mode Solo 👤",
+    alert_no_task_type: "Veuillez sélectionner au moins un type de tâche !",
+    alert_no_items: "Aucun élément trouvé pour les filtres sélectionnés !",
+    alert_no_tasks_generated: "Impossible de générer des tâches pour ces éléments. Essayez d'activer plus de types de tâches !",
+    alert_all_items_called: "Tous les éléments ont été appelés !",
+    alert_no_adventure_items: "Hélas ! Aucun élément trouvé pour cette aventure !",
+    alert_no_quest_items: "La quête s'arrête ici ! Aucun élément trouvé.",
+    alert_no_arena_topics: "L'arène est vide ! Aucun sujet trouvé pour ce niveau.",
+    alert_no_corner_quotes: "Le coin est calme ! Aucune citation trouvée pour ce niveau.",
+    alert_no_flow_topics: "Le flux est bloqué ! Aucun sujet trouvé pour ce niveau.",
+    alert_no_emoji_vocab: "Aucun vocabulaire avec des emojis trouvé pour cette langue !",
+    alert_no_vocab_level: "Aucun vocabulaire trouvé pour ce niveau/cette langue !",
+    alert_lesson_not_found: "Données de la leçon non trouvées !"
   },
   it: {
     // Hero section
@@ -1643,6 +1667,18 @@ const translations = {
     next_player_announcement: "Prossimo giocatore! 🎲",
     linker_guide_text: "Trova la parola che collega le parole date. Pensa alle associazioni!",
     solo_mode: "Modalità Solo 👤",
+    alert_no_task_type: "Seleziona almeno un tipo di attività!",
+    alert_no_items: "Nessun elemento trovato per i filtri selezionati!",
+    alert_no_tasks_generated: "Impossibile generare attività per questi elementi. Prova ad abilitare più tipi di attività!",
+    alert_all_items_called: "Tutti gli elementi sono stati chiamati!",
+    alert_no_adventure_items: "Ahimè! Nessun elemento trovato per questa avventura!",
+    alert_no_quest_items: "La ricerca finisce qui! Nessun elemento trovato.",
+    alert_no_arena_topics: "L'Arena è vuota! Nessun argomento trovato per questo livello.",
+    alert_no_corner_quotes: "L'angolo è silenzioso! Nessuna citazione trovata per questo livello.",
+    alert_no_flow_topics: "Il flusso è bloccato! Nessun argomento trovato per questo livello.",
+    alert_no_emoji_vocab: "Nessun vocabolo con emoji trovato per questa lingua!",
+    alert_no_vocab_level: "Nessun vocabolo trovato per questo livello/lingua!",
+    alert_lesson_not_found: "Dati della lezione non trovati !"
   },
   ru: {
     // Hero section
@@ -2172,6 +2208,18 @@ const translations = {
     next_player_announcement: "Следующий игрок! 🎲",
     linker_guide_text: "Найдите слово, которое связывает данные слова вместе. Думайте об ассоциациях!",
     solo_mode: "Одиночный режим 👤",
+    alert_no_task_type: "Пожалуйста, выберите хотя бы один тип задания!",
+    alert_no_items: "По выбранным фильтрам ничего не найдено!",
+    alert_no_tasks_generated: "Не удалось создать задания для этих элементов. Попробуйте включить больше типов заданий!",
+    alert_all_items_called: "Все элементы названы!",
+    alert_no_adventure_items: "Увы! Для этого приключения ничего не найдено!",
+    alert_no_quest_items: "Квест окончен! Ничего не найдено.",
+    alert_no_arena_topics: "Арена пуста! Для этого уровня тем не найдено.",
+    alert_no_corner_quotes: "В уголке тихо! Для этого уровня цитат не найдено.",
+    alert_no_flow_topics: "Поток заблокирован! Для этого уровня тем не найдено.",
+    alert_no_emoji_vocab: "Для этого языка не найдено слов с эмодзи!",
+    alert_no_vocab_level: "Для этого уровня/языка лексика не найдена!",
+    alert_lesson_not_found: "Данные урока не найдены!"
   },
   el: {
     // Hero section
@@ -2706,5 +2754,17 @@ const translations = {
     next_player_announcement: "Επόμενος παίκτης! 🎲",
     linker_guide_text: "Βρείτε τη λέξη που συνδέει τις δοσμένες λέξεις μεταξύ τους. Σκεφτείτε συσχετισμούς!",
     solo_mode: "Solo Λειτουργία 👤",
+    alert_no_task_type: "Παρακαλώ επιλέξτε τουλάχιστον έναν τύπο άσκησης!",
+    alert_no_items: "Δεν βρέθηκαν αντικείμενα για τα επιλεγμένα φίλτρα!",
+    alert_no_tasks_generated: "Δεν ήταν δυνατή η δημιουργία ασκήσεων για αυτά τα αντικείμενα. Δοκιμάστε να ενεργοποιήσετε περισσότερους τύπους ασκήσεων!",
+    alert_all_items_called: "Όλα τα αντικείμενα έχουν κληρωθεί!",
+    alert_no_adventure_items: "Αλίμονο! Δεν βρέθηκαν αντικείμενα για αυτήν την περιπέτεια!",
+    alert_no_quest_items: "Η αναζήτηση τελειώνει εδώ! Δεν βρέθηκαν αντικείμενα.",
+    alert_no_arena_topics: "Η Αρένα είναι άδεια! Δεν βρέθηκαν θέματα για αυτό το επίπεδο.",
+    alert_no_corner_quotes: "Η Γωνιά είναι ήσυχη! Δεν βρέθηκαν αποφθέγματα για αυτό το επίπεδο.",
+    alert_no_flow_topics: "Η ροή έχει αποκλειστεί! Δεν βρέθηκαν θέματα για αυτό το επίπεδο.",
+    alert_no_emoji_vocab: "Δεν βρέθηκε λεξιλόγιο με emoji για αυτή τη γλώσσα!",
+    alert_no_vocab_level: "Δεν βρέθηκε λεξιλόγιο για αυτό το επίπεδο/γλώσσα!",
+    alert_lesson_not_found: "Τα δεδομένα του μαθήματος δεν βρέθηκαν!"
 }
 };

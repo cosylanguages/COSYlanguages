@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, startTimer, stopTimer, parseLessons, handleShare, playGameSound } = window.gameUtils;
+    const { getLang, t, startTimer, stopTimer, parseLessons, handleShare, playGameSound, showGameMessage } = window.gameUtils;
 
     const initCharades = () => {
         const modal = document.getElementById('charades-modal');
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (pool.length === 0) {
-                alert("Alas! No items found for this adventure!");
+                showGameMessage(setupArea, t('alert_no_adventure_items'), 'error');
                 return;
             }
 

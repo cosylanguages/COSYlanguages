@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { t, handleShare, playGameSound } = window.gameUtils;
+    const { t, handleShare, playGameSound, showGameMessage } = window.gameUtils;
 
     const initGuessGame = (gameType) => {
         const modalId = gameType === 'who' ? 'guess-who-modal' : 'guess-what-modal';
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (pool.length === 0) {
-                alert("The quest ends here! No items found.");
+                showGameMessage(modal.querySelector('.game-setup'), t('alert_no_quest_items'), 'error');
                 return;
             }
 

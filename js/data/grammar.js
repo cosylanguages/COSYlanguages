@@ -924,8 +924,8 @@ const grammarData = {
                         "n'aura pas",
                         "n'aurons pas",
                         "n'aurez pas",
-                        "n'ont pas",
-                        "n'ont pas"
+                        "n'auront pas",
+                        "n'auront pas"
                     ],
                     "question": [
                         "aurai-je",
@@ -1122,8 +1122,8 @@ const grammarData = {
                     "question": [
                         "ai-je fait",
                         "as-tu fait",
-                        "a-il fait",
-                        "a-elle fait",
+                        "a-t-il fait",
+                        "a-t-elle fait",
                         "avons-nous fait",
                         "avez-vous fait",
                         "ont-ils fait",
@@ -1154,8 +1154,8 @@ const grammarData = {
                     "question": [
                         "ferai-je",
                         "feras-tu",
-                        "fera-il",
-                        "fera-elle",
+                        "fera-t-il",
+                        "fera-t-elle",
                         "ferons-nous",
                         "ferez-vous",
                         "feront-ils",
@@ -1200,10 +1200,10 @@ const grammarData = {
                         "ne mangent pas"
                     ],
                     "question": [
-                        "mange-je",
+                        "mangé-je",
                         "manges-tu",
-                        "mange-il",
-                        "mange-elle",
+                        "mange-t-il",
+                        "mange-t-elle",
                         "mangeons-nous",
                         "mangez-vous",
                         "mangent-ils",
@@ -1234,8 +1234,8 @@ const grammarData = {
                     "question": [
                         "ai-je mangé",
                         "as-tu mangé",
-                        "a-il mangé",
-                        "a-elle mangé",
+                        "a-t-il mangé",
+                        "a-t-elle mangé",
                         "avons-nous mangé",
                         "avez-vous mangé",
                         "ont-ils mangé",
@@ -1266,8 +1266,8 @@ const grammarData = {
                     "question": [
                         "mangerai-je",
                         "mangeras-tu",
-                        "mangera-il",
-                        "mangera-elle",
+                        "mangera-t-il",
+                        "mangera-t-elle",
                         "mangerons-nous",
                         "mangerez-vous",
                         "mangeront-ils",
@@ -1312,10 +1312,10 @@ const grammarData = {
                         "ne parlent pas"
                     ],
                     "question": [
-                        "parle-je",
+                        "parlé-je",
                         "parles-tu",
-                        "parle-il",
-                        "parle-elle",
+                        "parle-t-il",
+                        "parle-t-elle",
                         "parlons-nous",
                         "parlez-vous",
                         "parlent-ils",
@@ -1346,8 +1346,8 @@ const grammarData = {
                     "question": [
                         "ai-je parlé",
                         "as-tu parlé",
-                        "a-il parlé",
-                        "a-elle parlé",
+                        "a-t-il parlé",
+                        "a-t-elle parlé",
                         "avons-nous parlé",
                         "avez-vous parlé",
                         "ont-ils parlé",
@@ -1378,8 +1378,8 @@ const grammarData = {
                     "question": [
                         "parlerai-je",
                         "parleras-tu",
-                        "parlera-il",
-                        "parlera-elle",
+                        "parlera-t-il",
+                        "parlera-t-elle",
                         "parlerons-nous",
                         "parlerez-vous",
                         "parleront-ils",
@@ -1443,7 +1443,7 @@ const grammarData = {
                         "sommes allés",
                         "êtes allés",
                         "sont allés",
-                        "sont elles"
+                        "sont allées"
                     ],
                     "negative": [
                         "ne suis pas allé",
@@ -1957,28 +1957,28 @@ const grammarData = {
                         "sono andato",
                         "sei andato",
                         "è andato",
-                        "è andato",
-                        "siamo andato",
-                        "siete andato",
-                        "sono andato"
+                        "è andata",
+                        "siamo andati",
+                        "siete andati",
+                        "sono andati"
                     ],
                     "negative": [
                         "non sono andato",
                         "non sei andato",
                         "non è andato",
-                        "non è andato",
-                        "non siamo andato",
-                        "non siete andato",
-                        "non sono andato"
+                        "non è andata",
+                        "non siamo andati",
+                        "non siete andati",
+                        "non sono andati"
                     ],
                     "question": [
                         "sono andato io",
                         "sei andato tu",
                         "è andato lui",
-                        "è andato lei",
-                        "siamo andato noi",
-                        "siete andato voi",
-                        "sono andato loro"
+                        "è andata lei",
+                        "siamo andati noi",
+                        "siete andati voi",
+                        "sono andati loro"
                     ]
                 },
                 "future_simple": {

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, speak } = window.gameUtils;
+    const { getLang, t, speak, showGameMessage } = window.gameUtils;
 
     const initWordLinker = () => {
         const modal = document.getElementById('linker-modal');
@@ -59,18 +59,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 .map(v => v.word);
 
             if (clues.length < 3) {
-                // If not enough in accessible, maybe try even higher level just to make it playable?
-                // User said "appropriate", so better to skip or just use what we have.
-                // Let's try to fallback to any level clues if absolutely necessary for game playability
-                clues = vocabSource
+                // Fallback to any level clues within the theme if not enough found in current level
+                const themeClues = vocabSource
                     .filter(v => v.theme === current.theme && v.word !== current.word)
                     .sort(() => Math.random() - 0.5)
                     .slice(0, 3)
                     .map(v => v.word);
 
-                if (clues.length < 3) {
+                if (themeClues.length >= 3) {
+                    clues = themeClues;
+                } else if (clues.length === 0 && themeClues.length === 0) {
+                    // Total failure for this word, skip to next
                     showNext();
                     return;
+                } else if (themeClues.length > 0) {
+                    clues = themeClues; // use what we have even if < 3
                 }
             }
 
@@ -147,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
             pool = allVocab.filter(v => v.theme).sort(() => Math.random() - 0.5).slice(0, 10);
 
             if (pool.length === 0) {
-                alert("No vocabulary found for this level/language!");
+                showGameMessage(setupArea, t('alert_no_vocab_level'), 'error');
                 return;
             }
             setupArea.style.display = 'none';

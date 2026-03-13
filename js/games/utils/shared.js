@@ -159,7 +159,7 @@ const handleShare = (btnId, params) => {
             setTimeout(() => btn.innerHTML = originalText, 2000);
         }).catch(err => {
             console.error('Failed to copy: ', err);
-            alert("Link: " + shareUrl);
+            showGameMessage(btn.parentElement, "Link: " + shareUrl);
         });
     });
 };
@@ -232,7 +232,38 @@ if (typeof document !== 'undefined') {
     else window.addEventListener('load', filterUnsupportedEmojis);
 }
 
+const showGameMessage = (containerOrId, message, type = 'info') => {
+    const container = typeof containerOrId === 'string' ? document.getElementById(containerOrId) : containerOrId;
+    if (!container) return;
+
+    // Remove existing message if any
+    const existing = container.querySelector('.game-message-overlay');
+    if (existing) existing.remove();
+
+    const msgDiv = document.createElement('div');
+    msgDiv.className = `game-message-overlay ${type}`;
+    msgDiv.textContent = message;
+
+    // Styling
+    msgDiv.style.background = type === 'error' ? 'rgba(231, 76, 60, 0.9)' : 'rgba(52, 152, 219, 0.9)';
+    msgDiv.style.color = 'white';
+    msgDiv.style.padding = '10px 20px';
+    msgDiv.style.borderRadius = '8px';
+    msgDiv.style.marginTop = '10px';
+    msgDiv.style.textAlign = 'center';
+    msgDiv.style.fontWeight = 'bold';
+    msgDiv.style.animation = 'fadeIn 0.3s ease-out';
+
+    container.appendChild(msgDiv);
+
+    setTimeout(() => {
+        msgDiv.style.opacity = '0';
+        msgDiv.style.transition = 'opacity 0.5s ease-out';
+        setTimeout(() => msgDiv.remove(), 500);
+    }, 3000);
+};
+
 // Export to window
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage
 };

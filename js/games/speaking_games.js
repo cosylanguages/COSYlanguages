@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { t, startTimer, stopTimer, handleShare } = window.gameUtils;
+    const { t, startTimer, stopTimer, handleShare, showGameMessage } = window.gameUtils;
 
     // --- Battle of Wits Logic ---
     const initDebates = () => {
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (pool.length === 0) {
-                alert("The Arena is empty! No topics found for this level.");
+                showGameMessage(modal.querySelector('.game-setup'), t('alert_no_arena_topics'), 'error');
                 return;
             }
 
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (pool.length === 0) {
-                alert("The Arena is empty! No topics found for this level.");
+                showGameMessage(modal.querySelector('.game-setup'), t('alert_no_arena_topics'), 'error');
                 return;
             }
 
@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (pool.length === 0) {
-                alert("The Corner is quiet! No quotes found for this level.");
+                showGameMessage(modal.querySelector('.game-setup'), t('alert_no_corner_quotes'), 'error');
                 return;
             }
 
@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (pool.length === 0) {
-                alert("The flow is blocked! No topics found for this level.");
+                showGameMessage(modal.querySelector('.game-setup'), t('alert_no_flow_topics'), 'error');
                 return;
             }
 

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, speak, playGameSound } = window.gameUtils;
+    const { getLang, t, speak, playGameSound, showGameMessage } = window.gameUtils;
 
     const initEmojiOdyssey = () => {
         const modal = document.getElementById('emoji-modal');
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (currentGameMode === 'guess') {
                 pool = (window.vocabularyData[lang] || []).filter(v => v.emoji).sort(() => Math.random() - 0.5).slice(0, 10);
                 if (pool.length === 0) {
-                    alert("No vocabulary with emojis found for this language!");
+                    showGameMessage(setupArea, t('alert_no_emoji_vocab'), 'error');
                     return;
                 }
                 setupArea.style.display = 'none';
@@ -160,8 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 storyArea.style.display = 'none';
                 showNextGuess();
             } else {
-                const promptMsg = t('emoji_story_name_prompt');
-                const defaultTitle = t('emoji_story_title_label');
+                const promptMsg = t('emoji_story_name_prompt') || "Enter a name for your story:";
+                const defaultTitle = t('emoji_story_title_label') || "Our Story";
                 let name = prompt(promptMsg);
 
                 // Handle cancel or empty string

@@ -65,6 +65,8 @@ function startLesson() {
     const lang = currentLesson.language;
     const day = currentLesson.day;
 
+    const { showGameMessage } = window.gameUtils || {};
+
     if (window.lessonsData && window.lessonsData[lang] && window.lessonsData[lang][day]) {
         const rawItems = window.lessonsData[lang][day].words;
         currentLesson.words = rawItems.map(item => {
@@ -109,8 +111,12 @@ function startLesson() {
 
         showNextWord();
     } else {
-        alert("Lesson data not found!");
-        window.location.href = 'days.html';
+        const lang = currentLesson.language;
+        const msg = (translations[lang] && translations[lang]['alert_lesson_not_found']) ? translations[lang]['alert_lesson_not_found'] : "Lesson data not found!";
+        if (showGameMessage) {
+            showGameMessage(document.body, msg, 'error');
+        }
+        setTimeout(() => window.location.href = 'days.html', 3000);
     }
 }
 

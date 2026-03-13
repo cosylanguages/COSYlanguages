@@ -1607,12 +1607,12 @@ footer {
 }
 
 /* App-like interactions */
-button, .choice-btn, .bingo-cell, .lang-selection-card, .toggle-chip span, .cta-button, .topics-toggle-btn {
+button, .choice-btn, .bingo-cell, .lang-selection-card, .toggle-chip span, .cta-button, .topics-toggle-btn, .icon-btn, .badge.glass {
     -webkit-tap-highlight-color: transparent;
     user-select: none;
 }
 
-button:active, .choice-btn:active, .bingo-cell:active, .lang-selection-card:active, .cta-button:active, .topics-toggle-btn:active {
+button:active, .choice-btn:active, .bingo-cell:active, .lang-selection-card:active, .cta-button:active, .topics-toggle-btn:active, .icon-btn:active, .badge.glass:active {
     transform: scale(0.96);
 }
 

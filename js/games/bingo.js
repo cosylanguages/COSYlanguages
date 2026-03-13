@@ -66,10 +66,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const callNext = () => {
             if (bingoPool.length === 0) {
-                alert("All items called!");
+                lastCalledDisplay.textContent = "🏁";
+                lastCalledDisplay.style.fontSize = "5rem";
+                const finishMsg = t('alert_all_items_called') || "All items called!";
+
+                const msgDiv = document.createElement('div');
+                msgDiv.textContent = finishMsg;
+                msgDiv.style.fontSize = "1.5rem";
+                msgDiv.style.color = "var(--accent-color)";
+                msgDiv.style.marginTop = "1rem";
+                msgDiv.id = "bingo-finished-msg";
+
+                if (!document.getElementById('bingo-finished-msg')) {
+                    lastCalledDisplay.parentElement.insertBefore(msgDiv, lastCalledDisplay.nextSibling);
+                }
+
                 clearInterval(speedInterval);
                 return;
             }
+
+            const existingMsg = document.getElementById('bingo-finished-msg');
+            if (existingMsg) existingMsg.remove();
+            lastCalledDisplay.style.fontSize = "";
+
             playGameSound('click');
             const item = bingoPool.pop();
             calledItems.push(item);
@@ -94,6 +113,10 @@ document.addEventListener('DOMContentLoaded', () => {
             bingoPool = seededShuffle([...pool], seed);
             calledItems = [];
             lastCalledDisplay.textContent = '---';
+            lastCalledDisplay.style.fontSize = "";
+            const existingMsg = document.getElementById('bingo-finished-msg');
+            if (existingMsg) existingMsg.remove();
+
             historyDisplay.innerHTML = '';
             setupArea.style.display = 'none';
             callerArea.style.display = 'block';
