@@ -120,22 +120,11 @@ header {
     border-bottom: 1px solid var(--light-gray);
 }
 
-.logo-text {
-    font-family: 'Georgia', serif;
-    font-weight: 800;
-    font-size: 1.5rem;
-    color: var(--surface-color);
+.logo img {
+    height: 40px;
+    border-radius: var(--border-radius);
     background-color: var(--primary-color);
-    padding: 0.2rem 1rem;
-    border-radius: 12px;
-    text-decoration: none;
-    display: inline-block;
-    letter-spacing: -0.5px;
-    box-shadow: 0 4px 10px rgba(0, 168, 150, 0.2);
-}
-
-.logo-text span {
-    color: var(--secondary-color);
+    padding: 5px;
 }
 
 nav ul {
@@ -256,25 +245,19 @@ h2 {
     border-radius: var(--border-radius);
 }
 
-.language-emoji-card {
+.language-item img {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
+    object-fit: cover;
     border: 3px solid var(--primary-color);
+    padding: 3px;
     background-color: var(--surface-color);
-    margin: 0 auto;
-    transition: all var(--transition-speed) ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: border-color var(--transition-speed) ease;
 }
 
-.language-item:hover .language-emoji-card {
+.language-item:hover img {
     border-color: var(--secondary-color);
-    transform: rotate(10deg) scale(1.1);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .language-item p {
@@ -778,23 +761,23 @@ footer {
 }
 
 .english-page {
-    background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+    background-image: url('../images/uk_flag.png');
 }
 
 .french-page {
-    background: linear-gradient(135deg, #fdf2f2 0%, #f9e2e2 100%);
+    background-image: url('../images/france_flag.png');
 }
 
 .italian-page {
-    background: linear-gradient(135deg, #f2fcf5 0%, #e1f7e9 100%);
+    background-image: url('../images/italy_flag.png');
 }
 
 .russian-page {
-    background: linear-gradient(135deg, #f0f7ff 0%, #e0eaff 100%);
+    background-image: url('../images/russia_flag.png');
 }
 
 .greek-page {
-    background: linear-gradient(135deg, #f0faff 0%, #e0f2fe 100%);
+    background-image: url('../images/greece_flag.png');
 }
 
 #language-hero {
@@ -1624,12 +1607,12 @@ footer {
 }
 
 /* App-like interactions */
-button, .choice-btn, .bingo-cell, .lang-selection-card, .toggle-chip span, .cta-button, .topics-toggle-btn, .icon-btn, .badge.glass {
+button, .choice-btn, .bingo-cell, .lang-selection-card, .toggle-chip span, .cta-button, .topics-toggle-btn {
     -webkit-tap-highlight-color: transparent;
     user-select: none;
 }
 
-button:active, .choice-btn:active, .bingo-cell:active, .lang-selection-card:active, .cta-button:active, .topics-toggle-btn:active, .icon-btn:active, .badge.glass:active {
+button:active, .choice-btn:active, .bingo-cell:active, .lang-selection-card:active, .cta-button:active, .topics-toggle-btn:active {
     transform: scale(0.96);
 }
 
@@ -1658,21 +1641,4 @@ button:active, .choice-btn:active, .bingo-cell:active, .lang-selection-card:acti
     #bingo-last-called {
         font-size: 8rem !important;
     }
-}
-
-/* Game Message Overlay */
-.game-message-overlay {
-    background: rgba(52, 152, 219, 0.9);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    margin-top: 10px;
-    text-align: center;
-    font-weight: bold;
-    animation: fadeIn 0.3s ease-out;
-    z-index: 1000;
-}
-
-.game-message-overlay.error {
-    background: rgba(231, 76, 60, 0.9);
 }
