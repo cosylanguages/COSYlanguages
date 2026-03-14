@@ -791,23 +791,24 @@ footer {
 /* Practice Page Styles */
 .practice-page {
     background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%),
-                radial-gradient(circle at 10% 20%, rgba(0, 168, 150, 0.05) 0%, transparent 20%),
-                radial-gradient(circle at 90% 80%, rgba(255, 193, 7, 0.05) 0%, transparent 20%);
+                radial-gradient(circle at 10% 20%, rgba(0, 168, 150, 0.08) 0%, transparent 30%),
+                radial-gradient(circle at 90% 80%, rgba(255, 193, 7, 0.08) 0%, transparent 30%);
     background-attachment: fixed;
 }
 
 .practice-page main {
     max-width: 700px;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 #practice-container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
     transition: border-color 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.05);
 }
 
 #practice-container.cat-vocab { border-top: 6px solid var(--vocab-color); }
@@ -1270,14 +1271,17 @@ footer {
 
 /* Improved Question Card and Animations */
 #question-card {
-    margin: 1rem auto;
-    background-color: rgba(255, 250, 240, 0.9);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 1.5rem 1rem;
-    border-radius: 25px;
+    margin: 1.5rem auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 2.5rem 1.5rem;
+    border-radius: 40px;
     animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .shake {
@@ -1321,7 +1325,31 @@ footer {
     font-size: 0.85rem;
     color: #888;
     margin-bottom: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.app-input {
+    padding: 1.2rem 1.5rem;
+    border-radius: 25px;
+    border: 3px solid var(--light-gray);
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    max-width: 400px;
+    outline: none;
+    transition: all 0.3s ease;
+    text-align: center;
+    background: #fdfdfd;
+    font-family: inherit;
+}
+
+.app-input:focus {
+    border-color: var(--primary-color);
+    background: white;
+    box-shadow: 0 10px 25px rgba(0, 168, 150, 0.1);
+    transform: translateY(-2px);
 }
 
 /* Multiple Choice Grid */
@@ -1335,23 +1363,23 @@ footer {
 
 .choice-btn {
     background-color: white;
-    border: 2px solid #eee;
-    padding: 0.8rem 1.2rem;
-    border-radius: 50px;
+    border: 3px solid var(--light-gray);
+    padding: 1.2rem;
+    border-radius: 25px;
     font-family: inherit;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 700;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     color: var(--text-color);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
 }
 
 .choice-btn:hover {
     border-color: var(--primary-color);
-    background-color: white;
-    transform: translateY(-5px) scale(1.03);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 168, 150, 0.02);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
 }
 
 .choice-btn.correct {
