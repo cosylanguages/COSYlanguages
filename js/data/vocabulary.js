@@ -8,7 +8,13 @@ const vocabularyData = {
             "answer": "two doctors",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "doctors"
+            "plural": "doctors",
+            "definitions": [
+                {
+                    "text": "A person who helps people when they are sick.",
+                    "examples": ["The doctor is at the hospital.", "I need to see a doctor."]
+                }
+            ]
         },
         {
             "word": "engineer",
@@ -58,7 +64,13 @@ const vocabularyData = {
             "oppositeEmoji": "🧑‍🎓",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "teachers"
+            "plural": "teachers",
+            "definitions": [
+                {
+                    "text": "A person who helps you learn new things.",
+                    "examples": ["The teacher is in the classroom.", "My teacher is very helpful."]
+                }
+            ]
         },
         {
             "word": "nurse",
@@ -92,7 +104,13 @@ const vocabularyData = {
             "answer": "three pizzas",
             "emoji": "🍕",
             "form": "noun",
-            "plural": "pizzas"
+            "plural": "pizzas",
+            "definitions": [
+                {
+                    "text": "A flat bread with cheese and tomato.",
+                    "examples": ["I like cheese pizza.", "Let's order a pizza."]
+                }
+            ]
         },
         {
             "word": "sushi",
@@ -158,7 +176,13 @@ const vocabularyData = {
             "answer": "four apples",
             "emoji": "🍎",
             "form": "noun",
-            "plural": "apples"
+            "plural": "apples",
+            "definitions": [
+                {
+                    "text": "A round fruit that can be red or green.",
+                    "examples": ["She eats an apple.", "Apple juice is sweet."]
+                }
+            ]
         },
         {
             "word": "bread",
@@ -1330,7 +1354,13 @@ const vocabularyData = {
             "theme": "family",
             "emoji": "👩",
             "form": "noun",
-            "plural": "mothers"
+            "plural": "mothers",
+            "definitions": [
+                {
+                    "text": "A woman who is your parent (usually the wife of your father).",
+                    "examples": ["My mother is very kind.", "I love my mother."]
+                }
+            ]
         },
         {
             "word": "father",
@@ -1338,7 +1368,13 @@ const vocabularyData = {
             "theme": "family",
             "emoji": "👨",
             "form": "noun",
-            "plural": "fathers"
+            "plural": "fathers",
+            "definitions": [
+                {
+                    "text": "A man who is your parent (usually the husband of your mother).",
+                    "examples": ["My father is at work.", "His father is tall."]
+                }
+            ]
         },
         {
             "word": "city",
@@ -2332,7 +2368,13 @@ const vocabularyData = {
             "answer": "deux médecins",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "médecins"
+            "plural": "médecins",
+            "definitions": [
+                {
+                    "text": "Une personne qui soigne les gens malades.",
+                    "examples": ["Le médecin travaille à l'hôpital.", "Je dois voir un médecin."]
+                }
+            ]
         },
         {
             "word": "ingénieur",
@@ -2380,7 +2422,13 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "professeurs"
+            "plural": "professeurs",
+            "definitions": [
+                {
+                    "text": "Une personne qui aide à apprendre.",
+                    "examples": ["Le professeur parle à la classe.", "C'est un bon professeur."]
+                }
+            ]
         },
         {
             "word": "infirmier",
@@ -2442,7 +2490,13 @@ const vocabularyData = {
             "numberPlural": "4 pomme",
             "answer": "quatre pommes",
             "form": "noun",
-            "plural": "pommes"
+            "plural": "pommes",
+            "definitions": [
+                {
+                    "text": "Un fruit rond, rouge ou vert.",
+                    "examples": ["Je mange une pomme.", "La pomme est sucrée."]
+                }
+            ]
         },
         {
             "word": "pain",
@@ -3220,14 +3274,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "family",
             "emoji": "👩",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "La femme qui est votre parent (généralement la femme de votre père).",
+                    "examples": ["Ma mère est gentille.", "J'aime ma mère."]
+                }
+            ]
         },
         {
             "word": "père",
             "level": "starter",
             "theme": "family",
             "emoji": "👨",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "L'homme qui est votre parent (généralement le mari de votre mère).",
+                    "examples": ["Mon père est grand.", "Il ressemble à son père."]
+                }
+            ]
         },
         {
             "word": "eau",
@@ -4195,7 +4261,13 @@ const vocabularyData = {
             "answer": "due medici",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "medici"
+            "plural": "medici",
+            "definitions": [
+                {
+                    "text": "Una persona che cura i malati.",
+                    "examples": ["Il medico è in ospedale.", "Vado dal medico."]
+                }
+            ]
         },
         {
             "word": "ingegnere",
@@ -4243,7 +4315,13 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "insegnanti"
+            "plural": "insegnanti",
+            "definitions": [
+                {
+                    "text": "Una persona che aiuta a imparare.",
+                    "examples": ["L'insegnante spiega la lezione.", "Ho una brava insegnante."]
+                }
+            ]
         },
         {
             "word": "pasta",
@@ -4259,7 +4337,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍕",
             "form": "noun",
-            "plural": "pizze"
+            "plural": "pizze",
+            "definitions": [
+                {
+                    "text": "Un pane piatto con formaggio e pomodoro.",
+                    "examples": ["Mi piace la pizza margherita.", "Ordiniamo una pizza."]
+                }
+            ]
         },
         {
             "word": "risotto",
@@ -4297,7 +4381,13 @@ const vocabularyData = {
             "answer": "quattro mele",
             "emoji": "🍎",
             "form": "noun",
-            "plural": "mele"
+            "plural": "mele",
+            "definitions": [
+                {
+                    "text": "Un frutto tondo, rosso o verde.",
+                    "examples": ["Mangio una mela ogni giorno.", "La mela è buona."]
+                }
+            ]
         },
         {
             "word": "pane",
@@ -5056,14 +5146,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "family",
             "emoji": "👩",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "La donna che è il tuo genitore (di solito la moglie di tuo padre).",
+                    "examples": ["Mia madre cucina bene.", "Voglio bene a mia madre."]
+                }
+            ]
         },
         {
             "word": "padre",
             "level": "starter",
             "theme": "family",
             "emoji": "👨",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "L'uomo che è il tuo genitore (di solito il marito di tua madre).",
+                    "examples": ["Mio padre lavora molto.", "Mio padre è simpatico."]
+                }
+            ]
         },
         {
             "word": "ragazzo",
@@ -6080,7 +6182,13 @@ const vocabularyData = {
             "answer": "два врача",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "врача"
+            "plural": "врача",
+            "definitions": [
+                {
+                    "text": "Человек, который лечит людей.",
+                    "examples": ["Врачи работают в больнице.", "Он хороший врач."]
+                }
+            ]
         },
         {
             "word": "инженер",
@@ -6128,7 +6236,13 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "учитель"
+            "plural": "учитель",
+            "definitions": [
+                {
+                    "text": "Человек, который помогает учиться.",
+                    "examples": ["Учитель зашел в класс.", "Наш учитель добрый."]
+                }
+            ]
         },
         {
             "word": "борщ",
@@ -6181,7 +6295,13 @@ const vocabularyData = {
             "answer": "четыре яблока",
             "emoji": "🍎",
             "form": "noun",
-            "plural": "яблока"
+            "plural": "яблока",
+            "definitions": [
+                {
+                    "text": "Круглый фрукт, красный или зеленый.",
+                    "examples": ["Мальчик ест яблоко.", "Яблоко очень вкусное."]
+                }
+            ]
         },
         {
             "word": "хлеб",
@@ -6230,6 +6350,20 @@ const vocabularyData = {
             "emoji": "🍅",
             "form": "noun",
             "plural": "помидоры"
+        },
+        {
+            "word": "пицца",
+            "level": "starter",
+            "theme": "food_drinks",
+            "emoji": "🍕",
+            "form": "noun",
+            "plural": "пиццы",
+            "definitions": [
+                {
+                    "text": "Лепешка с сыром и помидорами.",
+                    "examples": ["Я люблю сырную пиццу.", "Давай закажем пиццу."]
+                }
+            ]
         },
         {
             "word": "картофель",
@@ -6943,14 +7077,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "family",
             "emoji": "👩",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Женщина-родитель (обычно жена вашего отца).",
+                    "examples": ["Моя мать очень добрая.", "Мать любит детей."]
+                }
+            ]
         },
         {
             "word": "отец",
             "level": "starter",
             "theme": "family",
             "emoji": "👨",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Мужчина-родитель (обычно муж вашей матери).",
+                    "examples": ["Мой отец сейчас на работе.", "Отец читает книгу."]
+                }
+            ]
         },
         {
             "word": "кофе",
@@ -7982,7 +8128,13 @@ const vocabularyData = {
             "answer": "δύο γιατροί",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "γιατροί"
+            "plural": "γιατροί",
+            "definitions": [
+                {
+                    "text": "Ένας άνθρωπος που βοηθά τους αρρώστους.",
+                    "examples": ["Ο γιατρός είναι στο νοσοκομείο.", "Θέλω να δω έναν γιατρό."]
+                }
+            ]
         },
         {
             "word": "μηχανικός",
@@ -8030,7 +8182,13 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "δάσκαλοι"
+            "plural": "δάσκαλοι",
+            "definitions": [
+                {
+                    "text": "Ένας άνθρωπος που σε βοηθά να μάθεις.",
+                    "examples": ["Ο δάσκαλος είναι στην τάξη.", "Ο δάσκαλός μου είναι καλός."]
+                }
+            ]
         },
         {
             "word": "μουσακάς",
@@ -8075,7 +8233,13 @@ const vocabularyData = {
             "answer": "τέσσερα μήλα",
             "emoji": "🍎",
             "form": "noun",
-            "plural": "μήλα"
+            "plural": "μήλα",
+            "definitions": [
+                {
+                    "text": "Ένα στρογγυλό φρούτο, κόκκινο ή πράσινο.",
+                    "examples": ["Τρώω ένα μήλο.", "Το μήλο είναι γλυκό."]
+                }
+            ]
         },
         {
             "word": "ψωμί",
@@ -8132,6 +8296,20 @@ const vocabularyData = {
             "emoji": "🥔",
             "form": "noun",
             "plural": "πατάτες"
+        },
+        {
+            "word": "πίτσα",
+            "level": "starter",
+            "theme": "food_drinks",
+            "emoji": "🍕",
+            "form": "noun",
+            "plural": "πίτσες",
+            "definitions": [
+                {
+                    "text": "Ένα πλατύ ψωμί με τυρί και ντομάτα.",
+                    "examples": ["Μου αρέσει η πίτσα με τυρί.", "Ας παραγγείλουμε μια πίτσα."]
+                }
+            ]
         },
         {
             "word": "καφές",
@@ -8793,14 +8971,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "family",
             "emoji": "👩",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Η γυναίκα που είναι γονέας σου (συνήθως η σύζυγος του πατέρα σου).",
+                    "examples": ["Η μητέρα μου είναι καλή.", "Αγαπώ τη μητέρα μου."]
+                }
+            ]
         },
         {
             "word": "πατέρας",
             "level": "starter",
             "theme": "family",
             "emoji": "👨",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Ο άνδρας που είναι γονέας σου (συνήθως ο σύζυγος της μητέρας σου).",
+                    "examples": ["Ο πατέρας μου εργάζεται.", "Ο πατέρας του είναι ψηλός."]
+                }
+            ]
         },
         {
             "word": "καφές",

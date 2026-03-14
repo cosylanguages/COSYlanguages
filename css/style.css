@@ -1165,6 +1165,80 @@ footer {
     color: var(--primary-color);
     margin-bottom: 0.8rem;
     font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+}
+
+.word-text.has-definition {
+    cursor: pointer;
+    text-decoration: underline dotted var(--secondary-color);
+    text-underline-offset: 8px;
+}
+
+.word-text.has-definition:hover {
+    color: var(--secondary-color);
+    transform: scale(1.05);
+}
+
+.main-definition {
+    padding: 1.5rem;
+    background: rgba(0, 168, 150, 0.05);
+    border-radius: 20px;
+    border-left: 6px solid var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.main-definition .definition-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+}
+
+.sub-definition {
+    padding: 1.2rem;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 15px;
+    border-left: 4px solid var(--light-gray);
+    margin-bottom: 1rem;
+}
+
+.sub-definition .definition-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.examples-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.examples-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.examples-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.4rem;
+    font-style: italic;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.examples-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0.5rem;
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 
 .subtext-display {

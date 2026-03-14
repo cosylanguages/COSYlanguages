@@ -572,7 +572,11 @@ const translations = {
     alert_no_flow_topics: "The flow is blocked! No topics found for this level.",
     alert_no_emoji_vocab: "No vocabulary with emojis found for this language!",
     alert_no_vocab_level: "No vocabulary found for this level/language!",
-    alert_lesson_not_found: "Lesson data not found!"
+    alert_lesson_not_found: "Lesson data not found!",
+    definition_modal_title: "Definition 📖",
+    examples_label: "Examples",
+    click_for_definition: "Click for definition",
+    listen_btn: "Listen 🔊"
   },
   fr: {
     // Hero section
@@ -1133,7 +1137,11 @@ const translations = {
     alert_no_flow_topics: "Le flux est bloqué ! Aucun sujet trouvé pour ce niveau.",
     alert_no_emoji_vocab: "Aucun vocabulaire avec des emojis trouvé pour cette langue !",
     alert_no_vocab_level: "Aucun vocabulaire trouvé pour ce niveau/cette langue !",
-    alert_lesson_not_found: "Données de la leçon non trouvées !"
+    alert_lesson_not_found: "Données de la leçon non trouvées !",
+    definition_modal_title: "Définition 📖",
+    examples_label: "Exemples",
+    click_for_definition: "Cliquez pour la définition",
+    listen_btn: "Écouter 🔊"
   },
   it: {
     // Hero section
@@ -1699,7 +1707,11 @@ const translations = {
     alert_no_flow_topics: "Il flusso è bloccato! Nessun argomento trovato per questo livello.",
     alert_no_emoji_vocab: "Nessun vocabolo con emoji trovato per questa lingua!",
     alert_no_vocab_level: "Nessun vocabolo trovato per questo livello/lingua!",
-    alert_lesson_not_found: "Dati della lezione non trovati !"
+    alert_lesson_not_found: "Dati della lezione non trovati !",
+    definition_modal_title: "Definizione 📖",
+    examples_label: "Esempi",
+    click_for_definition: "Clicca per la definizione",
+    listen_btn: "Ascolta 🔊"
   },
   ru: {
     // Hero section
@@ -2247,7 +2259,11 @@ const translations = {
     alert_no_flow_topics: "Поток заблокирован! Для этого уровня тем не найдено.",
     alert_no_emoji_vocab: "Для этого языка не найдено слов с эмодзи!",
     alert_no_vocab_level: "Для этого уровня/языка лексика не найдена!",
-    alert_lesson_not_found: "Данные урока не найдены!"
+    alert_lesson_not_found: "Данные урока не найдены!",
+    definition_modal_title: "Определение 📖",
+    examples_label: "Примеры",
+    click_for_definition: "Нажмите для определения",
+    listen_btn: "Слушать 🔊"
   },
   el: {
     // Hero section
@@ -2800,6 +2816,10 @@ const translations = {
     alert_no_flow_topics: "Η ροή έχει αποκλειστεί! Δεν βρέθηκαν θέματα για αυτό το επίπεδο.",
     alert_no_emoji_vocab: "Δεν βρέθηκε λεξιλόγιο με emoji για αυτή τη γλώσσα!",
     alert_no_vocab_level: "Δεν βρέθηκε λεξιλόγιο για αυτό το επίπεδο/γλώσσα!",
-    alert_lesson_not_found: "Τα δεδομένα του μαθήματος δεν βρέθηκαν!"
+    alert_lesson_not_found: "Τα δεδομένα του μαθήματος δεν βρέθηκαν!",
+    definition_modal_title: "Ορισμός 📖",
+    examples_label: "Παραδείγματα",
+    click_for_definition: "Κάντε κλικ για τον ορισμό",
+    listen_btn: "Ακούστε 🔊"
 }
 };
