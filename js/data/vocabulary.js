@@ -190,7 +190,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍞",
             "form": "noun",
-            "plural": "bread"
+            "plural": "bread",
+            "definitions": [
+                {
+                    "text": "A food made from flour and water, then baked.",
+                    "examples": ["I like fresh bread.", "Can you buy some bread?"]
+                }
+            ]
         },
         {
             "word": "cheese",
@@ -302,7 +308,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "water"
+            "plural": "water",
+            "definitions": [
+                {
+                    "text": "A clear liquid that we drink to stay alive.",
+                    "examples": ["I drink a glass of water.", "The water is cold."]
+                }
+            ]
         },
         {
             "word": "milkshake",
@@ -326,7 +338,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "parks"
+            "plural": "parks",
+            "definitions": [
+                {
+                    "text": "A public garden where people go to walk and relax.",
+                    "examples": ["Let's walk in the park.", "The park has many trees."]
+                },
+                {
+                    "text": "To leave a car or vehicle in a specific place for a time.",
+                    "examples": ["Where can I park my car?", "Don't park here."]
+                }
+            ]
         },
         {
             "word": "school",
@@ -334,7 +356,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "schools"
+            "plural": "schools",
+            "definitions": [
+                {
+                    "text": "A place where children go to learn.",
+                    "examples": ["I go to school by bus.", "My school is near my house."]
+                }
+            ]
         },
         {
             "word": "hospital",
@@ -564,13 +592,25 @@ const vocabularyData = {
             "word": "tall",
             "level": "starter",
             "theme": "people_society",
-            "form": "adjective"
+            "form": "adjective",
+            "definitions": [
+                {
+                    "text": "A person or thing that is big from bottom to top.",
+                    "examples": ["He is very tall.", "That building is tall."]
+                }
+            ]
         },
         {
             "word": "short",
             "level": "starter",
             "theme": "people_society",
-            "form": "adjective"
+            "form": "adjective",
+            "definitions": [
+                {
+                    "text": "A person or thing that is not tall.",
+                    "examples": ["She is short.", "The pencil is short."]
+                }
+            ]
         },
         {
             "word": "beautiful",
@@ -690,14 +730,34 @@ const vocabularyData = {
             "answer": "two books",
             "emoji": "📚",
             "form": "noun",
-            "plural": "books"
+            "plural": "books",
+            "definitions": [
+                {
+                    "text": "Many pages with words and pictures that you read.",
+                    "examples": ["I read a book every night.", "This book is interesting."]
+                },
+                {
+                    "text": "To arrange to have something in the future (like a room or a table).",
+                    "examples": ["I want to book a hotel room.", "We should book a table for dinner."]
+                }
+            ]
         },
         {
             "word": "watch",
             "level": "starter",
             "theme": "leisure_hobbies",
             "emoji": "📺",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To look at something for a period of time.",
+                    "examples": ["I watch TV in the evening.", "They watch the birds."]
+                },
+                {
+                    "text": "A small clock that you wear on your arm.",
+                    "examples": ["My watch is broken.", "What time is it on your watch?"]
+                }
+            ]
         },
         {
             "word": "wallet",
@@ -755,7 +815,13 @@ const vocabularyData = {
             "numberPlural": "2 cat",
             "answer": "two cats",
             "form": "noun",
-            "plural": "cats"
+            "plural": "cats",
+            "definitions": [
+                {
+                    "text": "A small animal with fur that many people keep at home.",
+                    "examples": ["My cat is sleeping.", "I love cats."]
+                }
+            ]
         },
         {
             "word": "dog",
@@ -765,7 +831,13 @@ const vocabularyData = {
             "numberPlural": "5 dog",
             "answer": "five dogs",
             "form": "noun",
-            "plural": "dogs"
+            "plural": "dogs",
+            "definitions": [
+                {
+                    "text": "An animal that is often called 'man's best friend'.",
+                    "examples": ["I walk my dog in the park.", "The dog is barking."]
+                }
+            ]
         },
         {
             "word": "bird",
@@ -829,7 +901,17 @@ const vocabularyData = {
             "theme": "animal",
             "emoji": "🐟",
             "form": "noun",
-            "plural": "fish"
+            "plural": "fish",
+            "definitions": [
+                {
+                    "text": "An animal that lives and breathes in water.",
+                    "examples": ["There are many fish in the sea.", "The fish is swimming."]
+                },
+                {
+                    "text": "To try to catch fish with a net or a hook.",
+                    "examples": ["We like to fish in the river.", "He is fishing today."]
+                }
+            ]
         },
         {
             "word": "drawing",
@@ -2506,7 +2588,13 @@ const vocabularyData = {
             "baseWord": "pain",
             "emoji": "🥖",
             "form": "noun",
-            "plural": "pains"
+            "plural": "pains",
+            "definitions": [
+                {
+                    "text": "Un aliment fait de farine et d'eau, puis cuit au four.",
+                    "examples": ["J'aime le pain frais.", "Peux-tu acheter du pain ?"]
+                }
+            ]
         },
         {
             "word": "fromage",
@@ -2614,7 +2702,13 @@ const vocabularyData = {
             "baseWord": "eau",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "eaux"
+            "plural": "eaux",
+            "definitions": [
+                {
+                    "text": "Un liquide clair que nous buvons pour rester en vie.",
+                    "examples": ["Je bois un verre d'eau.", "L'eau est froide."]
+                }
+            ]
         },
         {
             "word": "limonade",
@@ -2629,7 +2723,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "parcs"
+            "plural": "parcs",
+            "definitions": [
+                {
+                    "text": "Un grand jardin public avec de l'herbe et des arbres.",
+                    "examples": ["Je joue au ballon dans le parc.", "Il y a des fleurs au parc."]
+                }
+            ]
         },
         {
             "word": "école",
@@ -2637,7 +2737,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "écoles"
+            "plural": "écoles",
+            "definitions": [
+                {
+                    "text": "Un endroit où les enfants vont pour apprendre.",
+                    "examples": ["Je vais à l'école en bus.", "Mon école est près de ma maison."]
+                }
+            ]
         },
         {
             "word": "hôpital",
@@ -2799,14 +2905,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "grands"
+            "plural": "grands",
+            "definitions": [
+                {
+                    "text": "Une personne ou une chose qui est de grande taille de bas en haut.",
+                    "examples": ["Il est très grand.", "Ce bâtiment est grand."]
+                }
+            ]
         },
         {
             "word": "petit",
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "petits"
+            "plural": "petits",
+            "definitions": [
+                {
+                    "text": "Une personne ou une chose qui n'est pas grande.",
+                    "examples": ["Elle est petite.", "Le crayon est petit."]
+                }
+            ]
         },
         {
             "word": "beau",
@@ -2898,14 +3016,34 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "📖",
             "form": "noun",
-            "plural": "livres"
+            "plural": "livres",
+            "definitions": [
+                {
+                    "text": "Un objet avec beaucoup de pages pour lire une histoire.",
+                    "examples": ["C'est mon livre préféré.", "Ouvre ton livre à la page dix."]
+                },
+                {
+                    "text": "Une ancienne unité de mesure ou monnaie (la livre).",
+                    "examples": ["J'achète une livre de pommes.", "La livre sterling est la monnaie du Royaume-Uni."]
+                }
+            ]
         },
         {
             "word": "montre",
             "level": "elementary",
             "theme": "daily_life",
             "form": "noun",
-            "plural": "montres"
+            "plural": "montres",
+            "definitions": [
+                {
+                    "text": "Un petit appareil que l'on porte au poignet pour donner l'heure.",
+                    "examples": ["Ma montre avance de cinq minutes.", "Regarde l'heure sur ta montre."]
+                },
+                {
+                    "text": "Du verbe montrer : faire voir quelque chose à quelqu'un.",
+                    "examples": ["Il me montre ses photos.", "Montre-moi ton dessin."]
+                }
+            ]
         },
         {
             "word": "portefeuille",
@@ -2932,7 +3070,13 @@ const vocabularyData = {
             "numberPlural": "2 chat",
             "answer": "deux chats",
             "form": "adjective",
-            "plural": "chats"
+            "plural": "chats",
+            "definitions": [
+                {
+                    "text": "Un petit animal à fourrure que beaucoup de gens gardent à la maison.",
+                    "examples": ["Mon chat dort.", "J'aime les chats."]
+                }
+            ]
         },
         {
             "word": "chien",
@@ -2944,7 +3088,13 @@ const vocabularyData = {
             "numberPlural": "5 chien",
             "answer": "cinq chiens",
             "form": "adjective",
-            "plural": "chiens"
+            "plural": "chiens",
+            "definitions": [
+                {
+                    "text": "Un animal qui est souvent appelé 'le meilleur ami de l'homme'.",
+                    "examples": ["Je promène mon chien dans le parc.", "Le chien aboie."]
+                }
+            ]
         },
         {
             "word": "oiseau",
@@ -3303,7 +3453,13 @@ const vocabularyData = {
             "baseWord": "eau",
             "emoji": "🚰",
             "form": "adjective",
-            "plural": "eaux"
+            "plural": "eaux",
+            "definitions": [
+                {
+                    "text": "Un liquide clair que nous buvons pour rester en vie.",
+                    "examples": ["Je bois un verre d'eau.", "L'eau est froide."]
+                }
+            ]
         },
         {
             "word": "voiture",
@@ -3339,7 +3495,13 @@ const vocabularyData = {
             "answer": "des livres",
             "emoji": "📚",
             "form": "adjective",
-            "plural": "livres"
+            "plural": "livres",
+            "definitions": [
+                {
+                    "text": "De nombreuses pages avec des mots et des images que vous lisez.",
+                    "examples": ["Je lis un livre tous les soirs.", "Ce livre est intéressant."]
+                }
+            ]
         },
         {
             "word": "oiseau",
@@ -4395,7 +4557,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍞",
             "form": "noun",
-            "plural": "pane"
+            "plural": "pane",
+            "definitions": [
+                {
+                    "text": "Un cibo fatto di farina e acqua, poi cotto al forno.",
+                    "examples": ["Mi piace il pane fresco.", "Puoi comprare del pane?"]
+                }
+            ]
         },
         {
             "word": "formaggio",
@@ -4503,7 +4671,13 @@ const vocabularyData = {
             "baseWord": "acqua",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "acqua"
+            "plural": "acqua",
+            "definitions": [
+                {
+                    "text": "Un liquido trasparente che beviamo per vivere.",
+                    "examples": ["Bevo un bicchiere d'acqua.", "L'acqua è fredda."]
+                }
+            ]
         },
         {
             "word": "aranciata",
@@ -4518,7 +4692,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "parci"
+            "plural": "parci",
+            "definitions": [
+                {
+                    "text": "Un'area verde pubblica per camminare o giocare.",
+                    "examples": ["Domenica andiamo al parco.", "Ci sono molti fiori nel parco."]
+                }
+            ]
         },
         {
             "word": "scuola",
@@ -4526,7 +4706,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "scuole"
+            "plural": "scuole",
+            "definitions": [
+                {
+                    "text": "Un luogo dove i bambini vanno per imparare.",
+                    "examples": ["Vado a scuola in autobus.", "La mia scuola è vicino a casa mia."]
+                }
+            ]
         },
         {
             "word": "ospedale",
@@ -4685,14 +4871,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "alti"
+            "plural": "alti",
+            "definitions": [
+                {
+                    "text": "Una persona o una cosa che è grande dal basso verso l'alto.",
+                    "examples": ["Lui è molto alto.", "Quell'edificio è alto."]
+                }
+            ]
         },
         {
             "word": "basso",
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "bassi"
+            "plural": "bassi",
+            "definitions": [
+                {
+                    "text": "Una persona o una cosa che non è alta.",
+                    "examples": ["Lei è bassa.", "La matita è bassa."]
+                }
+            ]
         },
         {
             "word": "bello",
@@ -4784,7 +4982,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "📖",
             "form": "noun",
-            "plural": "libri"
+            "plural": "libri",
+            "definitions": [
+                {
+                    "text": "Un insieme di fogli stampati che si leggono.",
+                    "examples": ["Il libro è sul tavolo.", "Amo leggere libri gialli."]
+                }
+            ]
         },
         {
             "word": "orologio",
@@ -4819,7 +5023,13 @@ const vocabularyData = {
             "numberPlural": "2 gatto",
             "answer": "due gatti",
             "form": "adjective",
-            "plural": "gatti"
+            "plural": "gatti",
+            "definitions": [
+                {
+                    "text": "Un piccolo animale con il pelo che molte persone tengono in casa.",
+                    "examples": ["Il mio gatto dorme.", "Amo i gatti."]
+                }
+            ]
         },
         {
             "word": "cane",
@@ -4831,7 +5041,13 @@ const vocabularyData = {
             "numberPlural": "5 cane",
             "answer": "cinque cani",
             "form": "adjective",
-            "plural": "cani"
+            "plural": "cani",
+            "definitions": [
+                {
+                    "text": "Un animale che viene spesso chiamato 'il migliore amico dell'uomo'.",
+                    "examples": ["Porto il mio cane al parco.", "Il cane abbaia."]
+                }
+            ]
         },
         {
             "word": "uccello",
@@ -5213,7 +5429,13 @@ const vocabularyData = {
             "answer": "quattro libri",
             "emoji": "📚",
             "form": "adjective",
-            "plural": "libri"
+            "plural": "libri",
+            "definitions": [
+                {
+                    "text": "Molte pagine con parole e immagini che si leggono.",
+                    "examples": ["Leggo un libro ogni sera.", "Questo libro è interessante."]
+                }
+            ]
         },
         {
             "word": "casa",
@@ -6309,7 +6531,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍞",
             "form": "noun",
-            "plural": "хлеб"
+            "plural": "хлеб",
+            "definitions": [
+                {
+                    "text": "Еда, приготовленная из муки и воды, затем испеченная.",
+                    "examples": ["Я люблю свежий хлеб.", "Можешь купить хлеба?"]
+                }
+            ]
         },
         {
             "word": "сыр",
@@ -6431,7 +6659,13 @@ const vocabularyData = {
             "baseWord": "вода",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "вода"
+            "plural": "вода",
+            "definitions": [
+                {
+                    "text": "Прозрачная жидкость, которую мы пьем, чтобы жить.",
+                    "examples": ["Я пью стакан воды.", "Вода холодная."]
+                }
+            ]
         },
         {
             "word": "квас",
@@ -6453,7 +6687,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "парки"
+            "plural": "парки",
+            "definitions": [
+                {
+                    "text": "Место с деревьями и дорожками для прогулок.",
+                    "examples": ["Мы гуляем в парке.", "В парке есть детская площадка."]
+                }
+            ]
         },
         {
             "word": "школа",
@@ -6461,7 +6701,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "школы"
+            "plural": "школы",
+            "definitions": [
+                {
+                    "text": "Место, куда дети ходят учиться.",
+                    "examples": ["Я еду в школу на автобусе.", "Моя школа рядом с домом."]
+                }
+            ]
         },
         {
             "word": "больница",
@@ -6620,14 +6866,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "высокий"
+            "plural": "высокий",
+            "definitions": [
+                {
+                    "text": "Человек или предмет большого роста или высоты.",
+                    "examples": ["Он очень высокий.", "Это здание высокое."]
+                }
+            ]
         },
         {
             "word": "низкий",
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "низкий"
+            "plural": "низкий",
+            "definitions": [
+                {
+                    "text": "Человек или предмет небольшого роста или высоты.",
+                    "examples": ["Она низкого роста.", "Карандаш короткий."]
+                }
+            ]
         },
         {
             "word": "красивый",
@@ -6719,7 +6977,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "📖",
             "form": "noun",
-            "plural": "книги"
+            "plural": "книги",
+            "definitions": [
+                {
+                    "text": "Произведение печати в виде переплетенных листов с текстом.",
+                    "examples": ["Я купил новую книгу.", "Книга лежит на полке."]
+                }
+            ]
         },
         {
             "word": "часы",
@@ -6760,7 +7024,13 @@ const vocabularyData = {
             "numberPlural": "2 кот",
             "answer": "два кота",
             "form": "adjective",
-            "plural": "кота"
+            "plural": "кота",
+            "definitions": [
+                {
+                    "text": "Маленькое пушистое животное, которое многие держат дома.",
+                    "examples": ["Мой кот спит.", "Я люблю кошек."]
+                }
+            ]
         },
         {
             "word": "собака",
@@ -6772,7 +7042,13 @@ const vocabularyData = {
             "numberPlural": "5 собака",
             "answer": "пять собак",
             "form": "adjective",
-            "plural": "собак"
+            "plural": "собак",
+            "definitions": [
+                {
+                    "text": "Животное, которое часто называют 'лучшим другом человека'.",
+                    "examples": ["Я гуляю с собакой в парке.", "Собака лает."]
+                }
+            ]
         },
         {
             "word": "птица",
@@ -7116,7 +7392,13 @@ const vocabularyData = {
             "baseWord": "вода",
             "emoji": "🚰",
             "form": "adjective",
-            "plural": "вода"
+            "plural": "вода",
+            "definitions": [
+                {
+                    "text": "Прозрачная жидкость, которую мы пьем, чтобы жить.",
+                    "examples": ["Я пью стакан воды.", "Вода холодная."]
+                }
+            ]
         },
         {
             "word": "окно",
@@ -7137,7 +7419,13 @@ const vocabularyData = {
             "answer": "две книги",
             "emoji": "📖",
             "form": "adjective",
-            "plural": "две книги"
+            "plural": "две книги",
+            "definitions": [
+                {
+                    "text": "Много страниц со словами и картинками, которые вы читаете.",
+                    "examples": ["Я читаю книгу каждый вечер.", "Эта книга интересная."]
+                }
+            ]
         },
         {
             "word": "стол",
@@ -8247,7 +8535,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍞",
             "form": "noun",
-            "plural": "ψωμί"
+            "plural": "ψωμί",
+            "definitions": [
+                {
+                    "text": "Μια τροφή φτιαγμένη από αλεύρι και νερό, ψημένη στον φούρνο.",
+                    "examples": ["Μου αρέσει το φρέσκο ψωμί.", "Μπορείς να αγοράσεις ψωμί;"]
+                }
+            ]
         },
         {
             "word": "τυρί",
@@ -8369,7 +8663,13 @@ const vocabularyData = {
             "baseWord": "νερό",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "νερό"
+            "plural": "νερό",
+            "definitions": [
+                {
+                    "text": "Ένα διαφανές υγρό που πίνουμε για να ζήσουμε.",
+                    "examples": ["Πίνω ένα ποτήρι νερό.", "Το νερό είναι κρύο."]
+                }
+            ]
         },
         {
             "word": "ούζο",
@@ -8384,7 +8684,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "πάρκα"
+            "plural": "πάρκα",
+            "definitions": [
+                {
+                    "text": "Ένας μεγάλος δημόσιος χώρος με δέντρα για αναψυχή.",
+                    "examples": ["Πηγαίνω στο πάρκο με τα παιδιά.", "Το πάρκο είναι πολύ όμορφο."]
+                }
+            ]
         },
         {
             "word": "σχολείο",
@@ -8392,7 +8698,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "σχολεία"
+            "plural": "σχολεία",
+            "definitions": [
+                {
+                    "text": "Ένα μέρος όπου τα παιδιά πηγαίνουν για να μάθουν.",
+                    "examples": ["Πηγαίνω στο σχολείο με το λεωφορείο.", "Το σχολείο μου είναι κοντά στο σπίτι μου."]
+                }
+            ]
         },
         {
             "word": "νοσοκομείο",
@@ -8543,14 +8855,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "ψηλός"
+            "plural": "ψηλός",
+            "definitions": [
+                {
+                    "text": "Ένας άνθρωπος ή ένα πράγμα που είναι μεγάλο από κάτω προς τα πάνω.",
+                    "examples": ["Είναι πολύ ψηλός.", "Αυτό το κτίριο είναι ψηλό."]
+                }
+            ]
         },
         {
             "word": "κοντός",
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "κοντός"
+            "plural": "κοντός",
+            "definitions": [
+                {
+                    "text": "Ένας άνθρωπος ή ένα πράγμα που δεν είναι ψηλό.",
+                    "examples": ["Είναι κοντή.", "Το μολύβι είναι κοντό."]
+                }
+            ]
         },
         {
             "word": "όμορφος",
@@ -8642,7 +8966,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "📖",
             "form": "noun",
-            "plural": "βιβλία"
+            "plural": "βιβλία",
+            "definitions": [
+                {
+                    "text": "Ένα αντικείμενο με πολλές σελίδες που το διαβάζουμε.",
+                    "examples": ["Διαβάζω ένα βιβλίο.", "Το βιβλίο είναι στη βιβλιοθήκη."]
+                }
+            ]
         },
         {
             "word": "ρολόι",
@@ -8673,7 +9003,13 @@ const vocabularyData = {
             "theme": "animal",
             "emoji": "🐈",
             "form": "noun",
-            "plural": "γάτες"
+            "plural": "γάτες",
+            "definitions": [
+                {
+                    "text": "Ένα μικρό τριχωτό ζώο που πολλοί άνθρωποι έχουν στο σπίτι.",
+                    "examples": ["Η γάτα μου κοιμάται.", "Αγαπώ τις γάτες."]
+                }
+            ]
         },
         {
             "word": "σκύλος",
@@ -8685,7 +9021,13 @@ const vocabularyData = {
             "numberPlural": "5 σκύλος",
             "answer": "πέντε σκύλοι",
             "form": "noun",
-            "plural": "σκύλοι"
+            "plural": "σκύλοι",
+            "definitions": [
+                {
+                    "text": "Ένα ζώο που συχνά αποκαλείται 'ο καλύτερος φίλος του ανθρώπου'.",
+                    "examples": ["Πηγαίνω βόλτα τον σκύλο μου στο πάρκο.", "Ο σκύλος γαβγίζει."]
+                }
+            ]
         },
         {
             "word": "πουλί",
@@ -9020,7 +9362,13 @@ const vocabularyData = {
             "baseWord": "νερό",
             "emoji": "🚰",
             "form": "verb",
-            "plural": "νερό"
+            "plural": "νερό",
+            "definitions": [
+                {
+                    "text": "Ένα διαφανές υγρό που πίνουμε για να ζήσουμε.",
+                    "examples": ["Πίνω ένα ποτήρι νερό.", "Το νερό είναι κρύο."]
+                }
+            ]
         },
         {
             "word": "βιβλίο",
@@ -9032,7 +9380,13 @@ const vocabularyData = {
             "answer": "δύο βιβλία",
             "emoji": "📖",
             "form": "verb",
-            "plural": "βιβλία"
+            "plural": "βιβλία",
+            "definitions": [
+                {
+                    "text": "Πολλές σελίδες με λέξεις και εικόνες που διαβάζετε.",
+                    "examples": ["Διαβάζω ένα βιβλίο κάθε βράδυ.", "Αυτό το βιβλίο είναι ενδιαφέρον."]
+                }
+            ]
         },
         {
             "word": "σπίτι",

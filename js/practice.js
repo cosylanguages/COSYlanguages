@@ -240,6 +240,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    const definitionModal = document.getElementById('definition-modal');
+    if (definitionModal) {
+        definitionModal.addEventListener('click', (e) => {
+            if (e.target === definitionModal) {
+                definitionModal.style.display = 'none';
+            }
+        });
+    }
+
     if (exitPracticeBtn) {
         exitPracticeBtn.addEventListener('click', () => {
             const lang = currentPractice.language;
@@ -1180,8 +1189,14 @@ function showWordDefinition() {
 
     const modal = document.getElementById('definition-modal');
     const content = document.getElementById('definition-content');
+    const titleEl = document.getElementById('definition-modal-title');
     const lang = currentPractice.language;
     const t = translations[lang] || translations['en'];
+
+    const baseTitle = t['definition_modal_title'] || 'Definition';
+    const displayWord = wordObj.word || wordObj.text || wordObj.topic;
+    titleEl.textContent = `${baseTitle}: ${displayWord} 📖`;
+    titleEl.removeAttribute('data-translate-key'); // Manual update
 
     content.innerHTML = '';
 
