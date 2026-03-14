@@ -8,7 +8,17 @@ const vocabularyData = {
             "answer": "two doctors",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "doctors"
+            "plural": "doctors",
+            "definitions": [
+                {
+                    "text": "A person who helps people when they are sick.",
+                    "examples": ["The doctor is at the hospital.", "I need to see a doctor."]
+                },
+                {
+                    "text": "This person usually works in a hospital or a clinic.",
+                    "examples": ["Doctors wear white coats."]
+                }
+            ]
         },
         {
             "word": "engineer",
@@ -16,7 +26,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👷",
             "form": "noun",
-            "plural": "engineers"
+            "plural": "engineers",
+            "definitions": [
+                {
+                    "text": "A person who designs or builds machines, engines, or structures.",
+                    "examples": ["The engineer is working on a new bridge.", "He wants to be an electrical engineer."]
+                },
+                {
+                    "text": "This person often works in an office or on a construction site.",
+                    "examples": ["Engineers use computers to design things."]
+                }
+            ]
         },
         {
             "word": "artist",
@@ -24,7 +44,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🎨",
             "form": "noun",
-            "plural": "artists"
+            "plural": "artists",
+            "definitions": [
+                {
+                    "text": "A person who creates paintings or drawings.",
+                    "examples": ["The artist is painting a beautiful picture.", "She is a famous artist."]
+                },
+                {
+                    "text": "This person often works in a studio.",
+                    "examples": ["Artists use colors and brushes."]
+                }
+            ]
         },
         {
             "word": "pilot",
@@ -32,7 +62,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍✈️",
             "form": "noun",
-            "plural": "pilots"
+            "plural": "pilots",
+            "definitions": [
+                {
+                    "text": "A person who flies an airplane or a helicopter.",
+                    "examples": ["The pilot is in the cockpit.", "He wants to be a pilot."]
+                },
+                {
+                    "text": "This person works in the sky and at the airport.",
+                    "examples": ["Pilots wear a uniform."]
+                }
+            ]
         },
         {
             "word": "chef",
@@ -40,7 +80,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👨‍🍳",
             "form": "noun",
-            "plural": "chefs"
+            "plural": "chefs",
+            "definitions": [
+                {
+                    "text": "A professional cook who works in a restaurant.",
+                    "examples": ["The chef is cooking a delicious meal.", "Our chef is very talented."]
+                },
+                {
+                    "text": "This person works in a kitchen.",
+                    "examples": ["Chefs wear a tall white hat."]
+                }
+            ]
         },
         {
             "word": "lawyer",
@@ -48,7 +98,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "⚖️",
             "form": "noun",
-            "plural": "lawyers"
+            "plural": "lawyers",
+            "definitions": [
+                {
+                    "text": "A person who gives advice about the law and represents people in court.",
+                    "examples": ["I need to talk to my lawyer.", "The lawyer is in the courtroom."]
+                },
+                {
+                    "text": "This person often works in an office or a court.",
+                    "examples": ["Lawyers read many documents."]
+                }
+            ]
         },
         {
             "word": "teacher",
@@ -58,7 +118,17 @@ const vocabularyData = {
             "oppositeEmoji": "🧑‍🎓",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "teachers"
+            "plural": "teachers",
+            "definitions": [
+                {
+                    "text": "A person who helps you learn new things.",
+                    "examples": ["The teacher is in the classroom.", "My teacher is very helpful."]
+                },
+                {
+                    "text": "This person usually works in a school or a university.",
+                    "examples": ["Teachers explain new topics."]
+                }
+            ]
         },
         {
             "word": "nurse",
@@ -66,7 +136,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👩‍⚕️",
             "form": "noun",
-            "plural": "nurses"
+            "plural": "nurses",
+            "definitions": [
+                {
+                    "text": "A person who cares for sick or injured people.",
+                    "examples": ["The nurse is giving medicine to the patient.", "She is a kind nurse."]
+                },
+                {
+                    "text": "This person usually works in a hospital or a clinic.",
+                    "examples": ["Nurses help doctors take care of people."]
+                }
+            ]
         },
         {
             "word": "firefighter",
@@ -74,7 +154,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👨‍🚒",
             "form": "noun",
-            "plural": "firefighters"
+            "plural": "firefighters",
+            "definitions": [
+                {
+                    "text": "A person whose job is to stop fires from burning.",
+                    "examples": ["The firefighter is wearing a helmet.", "Firefighters are very brave."]
+                },
+                {
+                    "text": "This person works at a fire station.",
+                    "examples": ["Firefighters drive a big red truck."]
+                }
+            ]
         },
         {
             "word": "police officer",
@@ -82,7 +172,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👮",
             "form": "noun",
-            "plural": "police officers"
+            "plural": "police officers",
+            "definitions": [
+                {
+                    "text": "A person whose job is to keep public order and safety.",
+                    "examples": ["The police officer is directing traffic.", "I asked a police officer for help."]
+                },
+                {
+                    "text": "This person works at a police station.",
+                    "examples": ["Police officers wear a uniform and a badge."]
+                }
+            ]
         },
         {
             "word": "pizza",
@@ -92,7 +192,17 @@ const vocabularyData = {
             "answer": "three pizzas",
             "emoji": "🍕",
             "form": "noun",
-            "plural": "pizzas"
+            "plural": "pizzas",
+            "definitions": [
+                {
+                    "text": "A flat bread with cheese and tomato.",
+                    "examples": ["I like cheese pizza.", "Let's order a pizza."]
+                },
+                {
+                    "text": "This food is originally from Italy.",
+                    "examples": ["Pizza is popular all over the world."]
+                }
+            ]
         },
         {
             "word": "sushi",
@@ -100,7 +210,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍣",
             "form": "noun",
-            "plural": "sushi"
+            "plural": "sushi",
+            "definitions": [
+                {
+                    "text": "A Japanese dish with rice and raw fish.",
+                    "examples": ["I like eating sushi with soy sauce.", "We are going to a sushi restaurant."]
+                },
+                {
+                    "text": "This food is originally from Japan.",
+                    "examples": ["Sushi is often served with ginger and wasabi."]
+                }
+            ]
         },
         {
             "word": "burger",
@@ -108,7 +228,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍔",
             "form": "noun",
-            "plural": "burgers"
+            "plural": "burgers",
+            "definitions": [
+                {
+                    "text": "A sandwich with a meat patty inside a bun.",
+                    "examples": ["I want a burger and fries.", "This cheese burger is delicious."]
+                },
+                {
+                    "text": "This is a popular type of fast food.",
+                    "examples": ["Burgers often have lettuce and tomato."]
+                }
+            ]
         },
         {
             "word": "pasta",
@@ -116,7 +246,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍝",
             "form": "noun",
-            "plural": "pasta"
+            "plural": "pasta",
+            "definitions": [
+                {
+                    "text": "A food made from flour and eggs, often served with sauce.",
+                    "examples": ["I love pasta with tomato sauce.", "Spaghetti is a type of pasta."]
+                },
+                {
+                    "text": "This food is originally from Italy.",
+                    "examples": ["There are many different shapes of pasta."]
+                }
+            ]
         },
         {
             "word": "taco",
@@ -124,7 +264,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🌮",
             "form": "noun",
-            "plural": "tacos"
+            "plural": "tacos",
+            "definitions": [
+                {
+                    "text": "A Mexican dish with a folded tortilla and filling.",
+                    "examples": ["Let's eat tacos for dinner.", "I like spicy beef tacos."]
+                },
+                {
+                    "text": "This food is originally from Mexico.",
+                    "examples": ["Tacos are usually small and handheld."]
+                }
+            ]
         },
         {
             "word": "pancake",
@@ -132,7 +282,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥞",
             "form": "noun",
-            "plural": "pancakes"
+            "plural": "pancakes",
+            "definitions": [
+                {
+                    "text": "A flat, round cake cooked in a pan.",
+                    "examples": ["She is making pancakes.", "I like pancakes with honey."]
+                },
+                {
+                    "text": "People often eat this for breakfast with syrup.",
+                    "examples": ["Pancakes are soft and sweet."]
+                }
+            ]
         },
         {
             "word": "salad",
@@ -140,7 +300,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥗",
             "form": "noun",
-            "plural": "salads"
+            "plural": "salads",
+            "definitions": [
+                {
+                    "text": "A mixture of raw vegetables.",
+                    "examples": ["I had a fresh salad for lunch.", "The salad has lettuce and cucumber."]
+                },
+                {
+                    "text": "This is a healthy food usually served cold.",
+                    "examples": ["Salads are often served with a dressing."]
+                }
+            ]
         },
         {
             "word": "steak",
@@ -148,7 +318,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥩",
             "form": "noun",
-            "plural": "steaks"
+            "plural": "steaks",
+            "definitions": [
+                {
+                    "text": "A large piece of meat, usually beef.",
+                    "examples": ["The steak is perfectly cooked.", "I ordered a medium-rare steak."]
+                },
+                {
+                    "text": "This is often served in a steakhouse.",
+                    "examples": ["Steak is a very filling meal."]
+                }
+            ]
         },
         {
             "word": "apple",
@@ -158,7 +338,13 @@ const vocabularyData = {
             "answer": "four apples",
             "emoji": "🍎",
             "form": "noun",
-            "plural": "apples"
+            "plural": "apples",
+            "definitions": [
+                {
+                    "text": "A round fruit that can be red or green.",
+                    "examples": ["She eats an apple.", "Apple juice is sweet."]
+                }
+            ]
         },
         {
             "word": "bread",
@@ -166,7 +352,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍞",
             "form": "noun",
-            "plural": "bread"
+            "plural": "bread",
+            "definitions": [
+                {
+                    "text": "A food made from flour and water, then baked.",
+                    "examples": ["I like fresh bread.", "Can you buy some bread?"]
+                }
+            ]
         },
         {
             "word": "cheese",
@@ -174,7 +366,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🧀",
             "form": "noun",
-            "plural": "cheese"
+            "plural": "cheese",
+            "definitions": [
+                {
+                    "text": "A solid food made from milk.",
+                    "examples": ["I like cheese on my pizza.", "There are many types of cheese."]
+                },
+                {
+                    "text": "Some cheeses have holes in them.",
+                    "examples": ["France is famous for its cheese."]
+                }
+            ]
         },
         {
             "word": "egg",
@@ -182,7 +384,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥚",
             "form": "noun",
-            "plural": "eggs"
+            "plural": "eggs",
+            "definitions": [
+                {
+                    "text": "An oval object laid by a hen.",
+                    "examples": ["I had a boiled egg for breakfast.", "How do you like your eggs?"]
+                },
+                {
+                    "text": "Many people eat eggs for breakfast.",
+                    "examples": ["We need eggs to bake a cake."]
+                }
+            ]
         },
         {
             "word": "milk",
@@ -190,7 +402,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥛",
             "form": "noun",
-            "plural": "milk"
+            "plural": "milk",
+            "definitions": [
+                {
+                    "text": "A white liquid produced by cows.",
+                    "examples": ["Do you want milk in your coffee?", "Children should drink milk."]
+                },
+                {
+                    "text": "We use milk to make cheese and yogurt.",
+                    "examples": ["Keep the milk in the fridge."]
+                }
+            ]
         },
         {
             "word": "rice",
@@ -198,7 +420,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍚",
             "form": "noun",
-            "plural": "rice"
+            "plural": "rice",
+            "definitions": [
+                {
+                    "text": "Small white or brown grains from a plant.",
+                    "examples": ["I eat rice with chicken.", "Do you like fried rice?"]
+                },
+                {
+                    "text": "This is a staple food in many Asian countries.",
+                    "examples": ["Rice grows in water-filled fields."]
+                }
+            ]
         },
         {
             "word": "tomato",
@@ -206,7 +438,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍅",
             "form": "noun",
-            "plural": "tomatoes"
+            "plural": "tomatoes",
+            "definitions": [
+                {
+                    "text": "A red fruit often used in salads and sauces.",
+                    "examples": ["The tomato is very juicy.", "I need tomatoes for the pasta sauce."]
+                },
+                {
+                    "text": "Tomatoes are technically fruit but used as vegetables.",
+                    "examples": ["Cherry tomatoes are small and sweet."]
+                }
+            ]
         },
         {
             "word": "potato",
@@ -214,7 +456,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥔",
             "form": "noun",
-            "plural": "potatoes"
+            "plural": "potatoes",
+            "definitions": [
+                {
+                    "text": "A round root vegetable.",
+                    "examples": ["I love mashed potatoes.", "Can you peel the potatoes?"]
+                },
+                {
+                    "text": "We use potatoes to make French fries.",
+                    "examples": ["Potatoes grow under the ground."]
+                }
+            ]
         },
         {
             "word": "carrot",
@@ -222,7 +474,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥕",
             "form": "noun",
-            "plural": "carrots"
+            "plural": "carrots",
+            "definitions": [
+                {
+                    "text": "A long orange root vegetable.",
+                    "examples": ["Carrots are good for your eyes.", "I like raw carrots."]
+                },
+                {
+                    "text": "Rabbits love eating carrots.",
+                    "examples": ["You can use carrots in a cake."]
+                }
+            ]
         },
         {
             "word": "banana",
@@ -230,7 +492,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍌",
             "form": "noun",
-            "plural": "bananas"
+            "plural": "bananas",
+            "definitions": [
+                {
+                    "text": "A long yellow fruit.",
+                    "examples": ["Monkeys like bananas.", "I eat a banana every morning."]
+                },
+                {
+                    "text": "Bananas grow in tropical areas.",
+                    "examples": ["Peel the banana before eating it."]
+                }
+            ]
         },
         {
             "word": "coffee",
@@ -238,7 +510,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "☕",
             "form": "noun",
-            "plural": "coffee"
+            "plural": "coffee",
+            "definitions": [
+                {
+                    "text": "A dark drink made from roasted beans.",
+                    "examples": ["I drink coffee every morning.", "Do you want sugar in your coffee?"]
+                },
+                {
+                    "text": "Many people drink this to wake up.",
+                    "examples": ["The coffee is very hot."]
+                }
+            ]
         },
         {
             "word": "tea",
@@ -246,7 +528,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍵",
             "form": "noun",
-            "plural": "tea"
+            "plural": "tea",
+            "definitions": [
+                {
+                    "text": "A drink made by pouring hot water over dried leaves.",
+                    "examples": ["Would you like a cup of tea?", "Green tea is very healthy."]
+                },
+                {
+                    "text": "This is a very popular drink in England and Asia.",
+                    "examples": ["I like tea with lemon."]
+                }
+            ]
         },
         {
             "word": "wine",
@@ -254,7 +546,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍷",
             "form": "noun",
-            "plural": "wine"
+            "plural": "wine",
+            "definitions": [
+                {
+                    "text": "An alcoholic drink made from grapes.",
+                    "examples": ["Red wine goes well with meat.", "They drank a bottle of wine."]
+                },
+                {
+                    "text": "France and Italy are famous for their wines.",
+                    "examples": ["The wine is made in a vineyard."]
+                }
+            ]
         },
         {
             "word": "beer",
@@ -262,7 +564,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍺",
             "form": "noun",
-            "plural": "beer"
+            "plural": "beer",
+            "definitions": [
+                {
+                    "text": "An alcoholic drink made from grain.",
+                    "examples": ["He is drinking a glass of beer.", "Beer is often served cold."]
+                },
+                {
+                    "text": "This drink often has foam on top.",
+                    "examples": ["Germany is famous for its beer."]
+                }
+            ]
         },
         {
             "word": "juice",
@@ -270,7 +582,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🧃",
             "form": "noun",
-            "plural": "juice"
+            "plural": "juice",
+            "definitions": [
+                {
+                    "text": "A liquid from fruit or vegetables.",
+                    "examples": ["I want a glass of orange juice.", "Apple juice is sweet."]
+                },
+                {
+                    "text": "Orange juice is common for breakfast.",
+                    "examples": ["Freshly squeezed juice is the best."]
+                }
+            ]
         },
         {
             "word": "water",
@@ -278,7 +600,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "water"
+            "plural": "water",
+            "definitions": [
+                {
+                    "text": "A clear liquid that we drink to stay alive.",
+                    "examples": ["I drink a glass of water.", "The water is cold."]
+                }
+            ]
         },
         {
             "word": "milkshake",
@@ -286,7 +614,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥤",
             "form": "noun",
-            "plural": "milkshakes"
+            "plural": "milkshakes",
+            "definitions": [
+                {
+                    "text": "A cold drink made of milk, ice cream, and flavorings.",
+                    "examples": ["I'll have a chocolate milkshake.", "The milkshake is very thick."]
+                },
+                {
+                    "text": "This is a sweet and thick drink.",
+                    "examples": ["Milkshakes are popular in American diners."]
+                }
+            ]
         },
         {
             "word": "soda",
@@ -294,7 +632,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥤",
             "form": "noun",
-            "plural": "soda"
+            "plural": "soda",
+            "definitions": [
+                {
+                    "text": "A sweet carbonated drink.",
+                    "examples": ["I don't drink much soda.", "Can I have a soda?"]
+                },
+                {
+                    "text": "This drink has bubbles.",
+                    "examples": ["Soda is also called pop or soft drink."]
+                }
+            ]
         },
         {
             "word": "park",
@@ -302,7 +650,21 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "parks"
+            "plural": "parks",
+            "definitions": [
+                {
+                    "text": "A public garden where people go to walk and relax.",
+                    "examples": ["Let's walk in the park.", "The park has many trees."]
+                },
+                {
+                    "text": "This is a place where you can see grass, trees, and flowers.",
+                    "examples": ["Children play in the park."]
+                },
+                {
+                    "text": "To leave a car or vehicle in a specific place for a time.",
+                    "examples": ["Where can I park my car?", "Don't park here."]
+                }
+            ]
         },
         {
             "word": "school",
@@ -310,7 +672,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "schools"
+            "plural": "schools",
+            "definitions": [
+                {
+                    "text": "A place where children go to learn.",
+                    "examples": ["I go to school by bus.", "My school is near my house."]
+                }
+            ]
         },
         {
             "word": "hospital",
@@ -318,7 +686,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏥",
             "form": "noun",
-            "plural": "hospitals"
+            "plural": "hospitals",
+            "definitions": [
+                {
+                    "text": "A place where sick or injured people are given medical treatment.",
+                    "examples": ["The ambulance is going to the hospital.", "She works at the hospital."]
+                },
+                {
+                    "text": "This is a place where you go to see a doctor or a nurse.",
+                    "examples": ["Hospitals are open 24 hours a day."]
+                }
+            ]
         },
         {
             "word": "cinema",
@@ -326,7 +704,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🎬",
             "form": "noun",
-            "plural": "cinemas"
+            "plural": "cinemas",
+            "definitions": [
+                {
+                    "text": "A place where people go to watch films on a big screen.",
+                    "examples": ["Let's go to the cinema tonight.", "What's playing at the cinema?"]
+                },
+                {
+                    "text": "This is a place where you can eat popcorn and watch a movie.",
+                    "examples": ["I love going to the cinema with friends."]
+                }
+            ]
         },
         {
             "word": "restaurant",
@@ -334,7 +722,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🍴",
             "form": "noun",
-            "plural": "restaurants"
+            "plural": "restaurants",
+            "definitions": [
+                {
+                    "text": "A place where you can buy and eat a meal.",
+                    "examples": ["Let's go to an Italian restaurant.", "The restaurant is open."]
+                },
+                {
+                    "text": "In this place, a waiter or waitress brings food to your table.",
+                    "examples": ["We had dinner at a fancy restaurant."]
+                }
+            ]
         },
         {
             "word": "library",
@@ -374,7 +772,71 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "✈️",
             "form": "noun",
-            "plural": "airports"
+            "plural": "airports",
+            "definitions": [
+                {
+                    "text": "A place where planes land and take off.",
+                    "examples": ["I am going to the airport.", "The airport is very big."]
+                },
+                {
+                    "text": "This is the place where you go to catch a flight.",
+                    "examples": ["We need to be at the airport two hours before the flight."]
+                }
+            ]
+        },
+        {
+            "word": "supermarché",
+            "level": "elementary",
+            "theme": "travel_places",
+            "emoji": "🛒",
+            "form": "noun",
+            "plural": "supermarchés",
+            "definitions": [
+                {
+                    "text": "Un grand magasin où l'on achète de la nourriture.",
+                    "examples": ["Je fais mes courses au supermarché.", "Le supermarché est ouvert jusqu'à 21h."]
+                },
+                {
+                    "text": "On utilise un chariot pour faire ses achats.",
+                    "examples": ["Il y a beaucoup de choix dans ce supermarché."]
+                }
+            ]
+        },
+        {
+            "word": "pharmacie",
+            "level": "upper-intermediate",
+            "theme": "travel_places",
+            "emoji": "💊",
+            "form": "noun",
+            "plural": "pharmacies",
+            "definitions": [
+                {
+                    "text": "Un magasin où l'on achète des médicaments.",
+                    "examples": ["Je dois aller à la pharmacie.", "La pharmacie de garde est ouverte."]
+                },
+                {
+                    "text": "C'est le lieu où l'on présente une ordonnance médicale.",
+                    "examples": ["Le pharmacien donne des conseils."]
+                }
+            ]
+        },
+        {
+            "word": "aéroport",
+            "level": "intermediate",
+            "theme": "travel_places",
+            "emoji": "✈️",
+            "form": "noun",
+            "plural": "aéroports",
+            "definitions": [
+                {
+                    "text": "Un lieu où les avions atterrissent et décollent.",
+                    "examples": ["Je vais à l'aéroport pour mon voyage.", "L'aéroport est très grand."]
+                },
+                {
+                    "text": "C'est l'endroit où l'on prend l'avion.",
+                    "examples": ["On doit enregistrer les bagages à l'aéroport."]
+                }
+            ]
         },
         {
             "word": "t-shirt",
@@ -462,7 +924,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "🪑",
             "form": "noun",
-            "plural": "chairs"
+            "plural": "chairs",
+            "definitions": [
+                {
+                    "text": "A piece of furniture for one person to sit on.",
+                    "examples": ["Please sit on the chair.", "This chair is broken."]
+                }
+            ]
         },
         {
             "word": "table",
@@ -470,7 +938,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "🪑",
             "form": "noun",
-            "plural": "tables"
+            "plural": "tables",
+            "definitions": [
+                {
+                    "text": "A piece of furniture with four legs used for eating or working.",
+                    "examples": ["The food is on the table.", "Let's sit at the table."]
+                }
+            ]
         },
         {
             "word": "bed",
@@ -478,7 +952,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "🛏️",
             "form": "noun",
-            "plural": "beds"
+            "plural": "beds",
+            "definitions": [
+                {
+                    "text": "A piece of furniture that you sleep on.",
+                    "examples": ["My bed is very comfortable.", "It's time to go to bed."]
+                }
+            ]
         },
         {
             "word": "sofa",
@@ -540,13 +1020,25 @@ const vocabularyData = {
             "word": "tall",
             "level": "starter",
             "theme": "people_society",
-            "form": "adjective"
+            "form": "adjective",
+            "definitions": [
+                {
+                    "text": "A person or thing that is big from bottom to top.",
+                    "examples": ["He is very tall.", "That building is tall."]
+                }
+            ]
         },
         {
             "word": "short",
             "level": "starter",
             "theme": "people_society",
-            "form": "adjective"
+            "form": "adjective",
+            "definitions": [
+                {
+                    "text": "A person or thing that is not tall.",
+                    "examples": ["She is short.", "The pencil is short."]
+                }
+            ]
         },
         {
             "word": "beautiful",
@@ -618,7 +1110,17 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "💼",
             "subtext": "work in an office, work hard",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To do a job to earn money.",
+                    "examples": ["I work five days a week.", "She works at a bank."]
+                },
+                {
+                    "text": "The place where you do your job.",
+                    "examples": ["I am at work right now.", "He goes to work by bus."]
+                }
+            ]
         },
         {
             "word": "lunch",
@@ -640,7 +1142,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "😴",
             "subtext": "sleep 8 hours, go to sleep",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To rest with your eyes closed.",
+                    "examples": ["I need to sleep.", "The baby is sleeping."]
+                }
+            ]
         },
         {
             "word": "key",
@@ -648,7 +1156,17 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "🔑",
             "form": "noun",
-            "plural": "keys"
+            "plural": "keys",
+            "definitions": [
+                {
+                    "text": "A metal object used to open a door or start a car.",
+                    "examples": ["I can't find my keys.", "Here is the key to your room."]
+                },
+                {
+                    "text": "Something very important (like the key to success).",
+                    "examples": ["Practice is the key to learning.", "What is the key factor?"]
+                }
+            ]
         },
         {
             "word": "phone",
@@ -666,14 +1184,34 @@ const vocabularyData = {
             "answer": "two books",
             "emoji": "📚",
             "form": "noun",
-            "plural": "books"
+            "plural": "books",
+            "definitions": [
+                {
+                    "text": "Many pages with words and pictures that you read.",
+                    "examples": ["I read a book every night.", "This book is interesting."]
+                },
+                {
+                    "text": "To arrange to have something in the future (like a room or a table).",
+                    "examples": ["I want to book a hotel room.", "We should book a table for dinner."]
+                }
+            ]
         },
         {
             "word": "watch",
             "level": "starter",
             "theme": "leisure_hobbies",
             "emoji": "📺",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To look at something for a period of time.",
+                    "examples": ["I watch TV in the evening.", "They watch the birds."]
+                },
+                {
+                    "text": "A small clock that you wear on your arm.",
+                    "examples": ["My watch is broken.", "What time is it on your watch?"]
+                }
+            ]
         },
         {
             "word": "wallet",
@@ -689,7 +1227,17 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "👓",
             "form": "noun",
-            "plural": "glasses"
+            "plural": "glasses",
+            "definitions": [
+                {
+                    "text": "Something you wear on your face to help you see better.",
+                    "examples": ["I need new glasses.", "He is wearing black glasses."]
+                },
+                {
+                    "text": "Containers used for drinking water or juice.",
+                    "examples": ["Two glasses of water, please.", "The glasses are in the kitchen."]
+                }
+            ]
         },
         {
             "word": "umbrella",
@@ -705,7 +1253,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "👜",
             "form": "noun",
-            "plural": "bags"
+            "plural": "bags",
+            "definitions": [
+                {
+                    "text": "A container made of paper, plastic, or leather to carry things.",
+                    "examples": ["Put the apples in the bag.", "My school bag is heavy."]
+                }
+            ]
         },
         {
             "word": "laptop",
@@ -721,7 +1275,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "🖊️",
             "form": "noun",
-            "plural": "pens"
+            "plural": "pens",
+            "definitions": [
+                {
+                    "text": "An object used for writing with ink.",
+                    "examples": ["Can I borrow your pen?", "The pen is on the desk."]
+                }
+            ]
         },
         {
             "word": "cat",
@@ -731,7 +1291,13 @@ const vocabularyData = {
             "numberPlural": "2 cat",
             "answer": "two cats",
             "form": "noun",
-            "plural": "cats"
+            "plural": "cats",
+            "definitions": [
+                {
+                    "text": "A small animal with fur that many people keep at home.",
+                    "examples": ["My cat is sleeping.", "I love cats."]
+                }
+            ]
         },
         {
             "word": "dog",
@@ -741,7 +1307,13 @@ const vocabularyData = {
             "numberPlural": "5 dog",
             "answer": "five dogs",
             "form": "noun",
-            "plural": "dogs"
+            "plural": "dogs",
+            "definitions": [
+                {
+                    "text": "An animal that is often called 'man's best friend'.",
+                    "examples": ["I walk my dog in the park.", "The dog is barking."]
+                }
+            ]
         },
         {
             "word": "bird",
@@ -749,7 +1321,13 @@ const vocabularyData = {
             "theme": "animal",
             "emoji": "🐦",
             "form": "noun",
-            "plural": "birds"
+            "plural": "birds",
+            "definitions": [
+                {
+                    "text": "An animal that has feathers and wings, and usually can fly.",
+                    "examples": ["A bird is singing.", "Look at that beautiful bird!"]
+                }
+            ]
         },
         {
             "word": "lion",
@@ -757,7 +1335,13 @@ const vocabularyData = {
             "theme": "animal",
             "emoji": "🦁",
             "form": "noun",
-            "plural": "lions"
+            "plural": "lions",
+            "definitions": [
+                {
+                    "text": "A large wild cat that lives in Africa and is called 'the king of the jungle'.",
+                    "examples": ["The lion is very strong.", "We saw a lion at the zoo."]
+                }
+            ]
         },
         {
             "word": "tiger",
@@ -805,7 +1389,17 @@ const vocabularyData = {
             "theme": "animal",
             "emoji": "🐟",
             "form": "noun",
-            "plural": "fish"
+            "plural": "fish",
+            "definitions": [
+                {
+                    "text": "An animal that lives and breathes in water.",
+                    "examples": ["There are many fish in the sea.", "The fish is swimming."]
+                },
+                {
+                    "text": "To try to catch fish with a net or a hook.",
+                    "examples": ["We like to fish in the river.", "He is fishing today."]
+                }
+            ]
         },
         {
             "word": "drawing",
@@ -925,7 +1519,17 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👤",
             "form": "noun",
-            "plural": "heads"
+            "plural": "heads",
+            "definitions": [
+                {
+                    "text": "The top part of your body that has your eyes, mouth, and brain.",
+                    "examples": ["I have a hat on my head.", "He nodded his head."]
+                },
+                {
+                    "text": "The leader of a group or organization.",
+                    "examples": ["She is the head of the department.", "Who is the head of this school?"]
+                }
+            ]
         },
         {
             "word": "hand",
@@ -933,7 +1537,17 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "✋",
             "form": "noun",
-            "plural": "hands"
+            "plural": "hands",
+            "definitions": [
+                {
+                    "text": "The part of your arm that has fingers.",
+                    "examples": ["Wash your hands before dinner.", "Give me your hand."]
+                },
+                {
+                    "text": "Help or assistance.",
+                    "examples": ["Can you give me a hand?", "I need some help here."]
+                }
+            ]
         },
         {
             "word": "leg",
@@ -949,7 +1563,13 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👁️",
             "form": "noun",
-            "plural": "eyes"
+            "plural": "eyes",
+            "definitions": [
+                {
+                    "text": "The part of your body that you use for seeing.",
+                    "examples": ["Close your eyes.", "She has blue eyes."]
+                }
+            ]
         },
         {
             "word": "nose",
@@ -1005,7 +1625,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "💻",
             "form": "noun",
-            "plural": "software developers"
+            "plural": "software developers",
+            "definitions": [
+                {
+                    "text": "A person who writes computer programs.",
+                    "examples": ["The software developer is coding a new app.", "I want to be a software developer."]
+                },
+                {
+                    "text": "This person works with a computer.",
+                    "examples": ["Software developers use different programming languages."]
+                }
+            ]
         },
         {
             "word": "psychologist",
@@ -1013,7 +1643,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧠",
             "form": "noun",
-            "plural": "psychologists"
+            "plural": "psychologists",
+            "definitions": [
+                {
+                    "text": "A person who studies how people think and feel.",
+                    "examples": ["The psychologist is talking to a patient.", "She is a child psychologist."]
+                },
+                {
+                    "text": "This person often works in a private office or a hospital.",
+                    "examples": ["Psychologists help people with their mental health."]
+                }
+            ]
         },
         {
             "word": "data scientist",
@@ -1021,7 +1661,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "📊",
             "form": "noun",
-            "plural": "data scientists"
+            "plural": "data scientists",
+            "definitions": [
+                {
+                    "text": "A person who analyzes data to find patterns.",
+                    "examples": ["The data scientist is using machine learning.", "Data scientists are in high demand."]
+                },
+                {
+                    "text": "This person works with large amounts of information on a computer.",
+                    "examples": ["Data scientists help companies make better decisions."]
+                }
+            ]
         },
         {
             "word": "philosopher",
@@ -1029,7 +1679,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧐",
             "form": "noun",
-            "plural": "philosophers"
+            "plural": "philosophers",
+            "definitions": [
+                {
+                    "text": "A person who thinks about the meaning of life and truth.",
+                    "examples": ["Socrates was a famous philosopher.", "The philosopher wrote many essays."]
+                },
+                {
+                    "text": "This person reads many books and asks difficult questions.",
+                    "examples": ["Philosophers discuss ethics and logic."]
+                }
+            ]
         },
         {
             "word": "architect",
@@ -1037,7 +1697,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🏗️",
             "form": "noun",
-            "plural": "architects"
+            "plural": "architects",
+            "definitions": [
+                {
+                    "text": "A person who designs buildings.",
+                    "examples": ["The architect designed this skyscraper.", "My brother is an architect."]
+                },
+                {
+                    "text": "This person draws plans for houses and offices.",
+                    "examples": ["Architects need to be good at math and drawing."]
+                }
+            ]
         },
         {
             "word": "journalist",
@@ -1045,7 +1715,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "📰",
             "form": "noun",
-            "plural": "journalists"
+            "plural": "journalists",
+            "definitions": [
+                {
+                    "text": "A person who writes for newspapers or magazines.",
+                    "examples": ["The journalist is reporting from the scene.", "She is a talented journalist."]
+                },
+                {
+                    "text": "This person interviews people and reports the news.",
+                    "examples": ["Journalists often work on tight deadlines."]
+                }
+            ]
         },
         {
             "word": "athletic",
@@ -1204,7 +1884,13 @@ const vocabularyData = {
             "theme": "education_work",
             "emoji": "🎓",
             "form": "noun",
-            "plural": "universities"
+            "plural": "universities",
+            "definitions": [
+                {
+                    "text": "A high-level educational institution where students study for degrees.",
+                    "examples": ["He is studying at the university.", "The university has a large library."]
+                }
+            ]
         },
         {
             "word": "colleague",
@@ -1275,7 +1961,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍜",
             "form": "noun",
-            "plural": "local cuisines"
+            "plural": "local cuisines",
+            "definitions": [
+                {
+                    "text": "Traditional food from a specific area.",
+                    "examples": ["I love trying the local cuisine.", "The local cuisine here is very spicy."]
+                },
+                {
+                    "text": "Trying local cuisine is a great part of traveling.",
+                    "examples": ["The local cuisine uses fresh ingredients from the region."]
+                }
+            ]
         },
         {
             "word": "smartphone",
@@ -1306,7 +2002,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🚆",
             "form": "noun",
-            "plural": "commuters"
+            "plural": "commuters",
+            "definitions": [
+                {
+                    "text": "A person who travels some distance to work on a regular basis.",
+                    "examples": ["The train is full of commuters.", "I am a daily commuter."]
+                },
+                {
+                    "text": "This person often uses public transport like trains or buses.",
+                    "examples": ["Commuters often travel during rush hour."]
+                }
+            ]
         },
         {
             "word": "souvenir",
@@ -1314,7 +2020,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🎁",
             "form": "noun",
-            "plural": "souvenirs"
+            "plural": "souvenirs",
+            "definitions": [
+                {
+                    "text": "A thing that is kept as a reminder of a person, place, or event.",
+                    "examples": ["I bought a souvenir in Paris.", "This magnet is a souvenir from my trip."]
+                },
+                {
+                    "text": "People usually buy souvenirs when they are on holiday.",
+                    "examples": ["The souvenir shop has many postcards."]
+                }
+            ]
         },
         {
             "word": "volunteer",
@@ -1330,7 +2046,17 @@ const vocabularyData = {
             "theme": "family",
             "emoji": "👩",
             "form": "noun",
-            "plural": "mothers"
+            "plural": "mothers",
+            "definitions": [
+                {
+                    "text": "A woman who is your parent.",
+                    "examples": ["My mother is very kind.", "I love my mother."]
+                },
+                {
+                    "text": "This person is usually the wife of your father (or another parent).",
+                    "examples": ["Mothers take care of their children."]
+                }
+            ]
         },
         {
             "word": "father",
@@ -1338,7 +2064,13 @@ const vocabularyData = {
             "theme": "family",
             "emoji": "👨",
             "form": "noun",
-            "plural": "fathers"
+            "plural": "fathers",
+            "definitions": [
+                {
+                    "text": "A man who is your parent (usually the husband of your mother).",
+                    "examples": ["My father is at work.", "His father is tall."]
+                }
+            ]
         },
         {
             "word": "city",
@@ -1348,7 +2080,17 @@ const vocabularyData = {
             "answer": "three cities",
             "emoji": "🏙️",
             "form": "noun",
-            "plural": "cities"
+            "plural": "cities",
+            "definitions": [
+                {
+                    "text": "A large and important town.",
+                    "examples": ["New York is a big city.", "I live in a city."]
+                },
+                {
+                    "text": "This is a place with many buildings, streets, and people.",
+                    "examples": ["Cities are often very noisy."]
+                }
+            ]
         },
         {
             "word": "child",
@@ -1358,7 +2100,13 @@ const vocabularyData = {
             "answer": "five children",
             "emoji": "🧒",
             "form": "noun",
-            "plural": "children"
+            "plural": "children",
+            "definitions": [
+                {
+                    "text": "A young human who is not yet an adult.",
+                    "examples": ["The child is playing with a toy.", "How many children do they have?"]
+                }
+            ]
         },
         {
             "word": "leaf",
@@ -1378,7 +2126,13 @@ const vocabularyData = {
             "answer": "two men",
             "emoji": "👨",
             "form": "noun",
-            "plural": "men"
+            "plural": "men",
+            "definitions": [
+                {
+                    "text": "An adult male human.",
+                    "examples": ["That man is my teacher.", "A tall man is standing there."]
+                }
+            ]
         },
         {
             "word": "woman",
@@ -1388,7 +2142,13 @@ const vocabularyData = {
             "answer": "two women",
             "emoji": "👩",
             "form": "noun",
-            "plural": "women"
+            "plural": "women",
+            "definitions": [
+                {
+                    "text": "An adult female human.",
+                    "examples": ["She is a very strong woman.", "There are three women in the office."]
+                }
+            ]
         },
         {
             "word": "tooth",
@@ -1452,7 +2212,13 @@ const vocabularyData = {
             "subtext": "eat an apple, eat dinner",
             "opposite": "drink",
             "oppositeEmoji": "🥛",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To put food in your mouth and swallow it.",
+                    "examples": ["I eat an apple every day.", "What do you want to eat?"]
+                }
+            ]
         },
         {
             "word": "drink",
@@ -1460,7 +2226,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥛",
             "subtext": "drink water, drink coffee",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To take liquid into your mouth and swallow it.",
+                    "examples": ["I drink a lot of water.", "Do you want a drink?"]
+                }
+            ]
         },
         {
             "word": "do",
@@ -1500,7 +2272,13 @@ const vocabularyData = {
             "theme": "people_society",
             "emoji": "👁️",
             "subtext": "see a movie, see a friend",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To use your eyes to look at something.",
+                    "examples": ["I can see a bird.", "Did you see that movie?"]
+                }
+            ]
         },
         {
             "word": "want",
@@ -1681,7 +2459,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "emoji": "💬",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To say words to someone.",
+                    "examples": ["I like to talk to my friends.", "Stop talking and listen."]
+                }
+            ]
         },
         {
             "word": "play",
@@ -1887,7 +2671,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "travel_places",
             "emoji": "🚶",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To move on your legs at a normal speed.",
+                    "examples": ["I walk to school.", "Let's take a walk in the park."]
+                }
+            ]
         },
         {
             "word": "win",
@@ -2332,7 +3122,17 @@ const vocabularyData = {
             "answer": "deux médecins",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "médecins"
+            "plural": "médecins",
+            "definitions": [
+                {
+                    "text": "Une personne qui soigne les gens malades.",
+                    "examples": ["Le médecin travaille à l'hôpital.", "Je dois voir un médecin."]
+                },
+                {
+                    "text": "Cette personne travaille généralement dans un hôpital ou une clinique.",
+                    "examples": ["Les médecins portent une blouse blanche."]
+                }
+            ]
         },
         {
             "word": "ingénieur",
@@ -2340,7 +3140,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👷",
             "form": "noun",
-            "plural": "ingénieurs"
+            "plural": "ingénieurs",
+            "definitions": [
+                {
+                    "text": "Une personne qui conçoit ou construit des machines ou des structures.",
+                    "examples": ["L'ingénieur travaille sur un nouveau pont.", "Elle veut être ingénieure civile."]
+                },
+                {
+                    "text": "Cette personne travaille souvent dans un bureau ou sur un chantier.",
+                    "examples": ["Les ingénieurs utilisent des ordinateurs pour dessiner."]
+                }
+            ]
         },
         {
             "word": "artiste",
@@ -2348,7 +3158,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🎨",
             "form": "noun",
-            "plural": "artistes"
+            "plural": "artistes",
+            "definitions": [
+                {
+                    "text": "Une personne qui crée des peintures ou des dessins.",
+                    "examples": ["L'artiste peint un beau tableau.", "C'est un artiste célèbre."]
+                },
+                {
+                    "text": "Cette personne travaille souvent dans un atelier.",
+                    "examples": ["Les artistes utilisent des couleurs et des pinceaux."]
+                }
+            ]
         },
         {
             "word": "pilote",
@@ -2356,7 +3176,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍✈️",
             "form": "noun",
-            "plural": "pilotes"
+            "plural": "pilotes",
+            "definitions": [
+                {
+                    "text": "Une personne qui conduit un avion ou un hélicoptère.",
+                    "examples": ["Le pilote est dans le cockpit.", "Il veut devenir pilote."]
+                },
+                {
+                    "text": "Cette personne travaille dans le ciel et à l'aéroport.",
+                    "examples": ["Les pilotes portent un uniforme."]
+                }
+            ]
         },
         {
             "word": "chef",
@@ -2364,7 +3194,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👨‍🍳",
             "form": "noun",
-            "plural": "chefs"
+            "plural": "chefs",
+            "definitions": [
+                {
+                    "text": "Un cuisinier professionnel qui travaille dans un restaurant.",
+                    "examples": ["Le chef prépare un délicieux repas.", "Notre chef est très talentueux."]
+                },
+                {
+                    "text": "Cette personne travaille dans une cuisine.",
+                    "examples": ["Les chefs portent une grande toque blanche."]
+                }
+            ]
         },
         {
             "word": "avocat",
@@ -2372,7 +3212,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "⚖️",
             "form": "noun",
-            "plural": "avocats"
+            "plural": "avocats",
+            "definitions": [
+                {
+                    "text": "Une personne qui donne des conseils juridiques et représente les gens au tribunal.",
+                    "examples": ["Je dois parler à mon avocat.", "L'avocat est au tribunal."]
+                },
+                {
+                    "text": "Cette personne travaille souvent dans un bureau ou un tribunal.",
+                    "examples": ["Les avocats lisent beaucoup de documents."]
+                }
+            ]
         },
         {
             "word": "professeur",
@@ -2380,7 +3230,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "professeurs"
+            "plural": "professeurs",
+            "definitions": [
+                {
+                    "text": "Une personne qui aide à apprendre.",
+                    "examples": ["Le professeur parle à la classe.", "C'est un bon professeur."]
+                },
+                {
+                    "text": "Cette personne travaille généralement dans une école ou une université.",
+                    "examples": ["Les professeurs expliquent de nouveaux sujets."]
+                }
+            ]
         },
         {
             "word": "infirmier",
@@ -2388,49 +3248,119 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👩‍⚕️",
             "form": "noun",
-            "plural": "infirmiers"
+            "plural": "infirmiers",
+            "definitions": [
+                {
+                    "text": "Une personne qui aide les médecins à soigner les malades.",
+                    "examples": ["L'infirmier donne les médicaments.", "Elle travaille comme infirmière."]
+                },
+                {
+                    "text": "Cette personne travaille dans un hôpital ou une clinique.",
+                    "examples": ["Les infirmiers sont très courageux."]
+                }
+            ]
         },
         {
             "word": "ratatouille",
             "level": "starter",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "ratatouilles"
+            "plural": "ratatouilles",
+            "definitions": [
+                {
+                    "text": "Un plat provençal composé de légumes cuits.",
+                    "examples": ["On met des aubergines dans la ratatouille.", "La ratatouille est un plat sain."]
+                },
+                {
+                    "text": "C'est un plat traditionnel du sud de la France.",
+                    "examples": ["On peut manger la ratatouille chaude ou froide."]
+                }
+            ]
         },
         {
             "word": "quiche",
             "level": "intermediate",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "quiches"
+            "plural": "quiches",
+            "definitions": [
+                {
+                    "text": "Une tarte salée garnie d'un mélange d'œufs et de crème.",
+                    "examples": ["La quiche lorraine est très connue.", "Je vais faire une quiche aux épinards."]
+                },
+                {
+                    "text": "Ce plat est originaire de l'est de la France.",
+                    "examples": ["On mange souvent la quiche avec une salade."]
+                }
+            ]
         },
         {
             "word": "crêpe",
             "level": "elementary",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "crêpes"
+            "plural": "crêpes",
+            "definitions": [
+                {
+                    "text": "Une galette très fine à base de farine.",
+                    "examples": ["Je voudrais une crêpe au chocolat.", "On fait des crêpes pour la Chandeleur."]
+                },
+                {
+                    "text": "La Bretagne est célèbre pour ses crêpes.",
+                    "examples": ["On peut manger des crêpes sucrées ou salées."]
+                }
+            ]
         },
         {
             "word": "croissant",
             "level": "starter",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "croissants"
+            "plural": "croissants",
+            "definitions": [
+                {
+                    "text": "Une viennoiserie en forme de lune croissante.",
+                    "examples": ["Je mange un croissant au petit-déjeuner.", "Le boulanger fait des croissants frais."]
+                },
+                {
+                    "text": "C'est un symbole classique de la gastronomie française.",
+                    "examples": ["Un bon croissant doit être croustillant."]
+                }
+            ]
         },
         {
             "word": "fondue",
             "level": "elementary",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "fondues"
+            "plural": "fondues",
+            "definitions": [
+                {
+                    "text": "Un plat de fromage fondu dans lequel on trempe du pain.",
+                    "examples": ["La fondue savoyarde est délicieuse.", "On mange de la fondue en hiver."]
+                },
+                {
+                    "text": "C'est un plat convivial que l'on partage entre amis.",
+                    "examples": ["Il existe aussi des fondues au chocolat."]
+                }
+            ]
         },
         {
             "word": "escargots",
             "level": "intermediate",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "escargots"
+            "plural": "escargots",
+            "definitions": [
+                {
+                    "text": "Des mollusques terrestres cuisinés avec du beurre et de l'ail.",
+                    "examples": ["Il a mangé une douzaine d'escargots.", "Les escargots sont une spécialité française."]
+                },
+                {
+                    "text": "Ce plat est considéré comme un mets raffiné.",
+                    "examples": ["On utilise une pince spéciale pour manger les escargots."]
+                }
+            ]
         },
         {
             "word": "pomme",
@@ -2442,7 +3372,13 @@ const vocabularyData = {
             "numberPlural": "4 pomme",
             "answer": "quatre pommes",
             "form": "noun",
-            "plural": "pommes"
+            "plural": "pommes",
+            "definitions": [
+                {
+                    "text": "Un fruit rond, rouge ou vert.",
+                    "examples": ["Je mange une pomme.", "La pomme est sucrée."]
+                }
+            ]
         },
         {
             "word": "pain",
@@ -2452,7 +3388,13 @@ const vocabularyData = {
             "baseWord": "pain",
             "emoji": "🥖",
             "form": "noun",
-            "plural": "pains"
+            "plural": "pains",
+            "definitions": [
+                {
+                    "text": "Un aliment fait de farine et d'eau, puis cuit au four.",
+                    "examples": ["J'aime le pain frais.", "Peux-tu acheter du pain ?"]
+                }
+            ]
         },
         {
             "word": "fromage",
@@ -2460,7 +3402,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🧀",
             "form": "noun",
-            "plural": "fromages"
+            "plural": "fromages",
+            "definitions": [
+                {
+                    "text": "Un aliment solide fait à partir de lait.",
+                    "examples": ["J'aime le fromage sur ma pizza.", "Il y a beaucoup de sortes de fromage."]
+                },
+                {
+                    "text": "La France est célèbre pour ses nombreux fromages.",
+                    "examples": ["On mange souvent du fromage après le plat principal."]
+                }
+            ]
         },
         {
             "word": "oeuf",
@@ -2468,7 +3420,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥚",
             "form": "noun",
-            "plural": "oeufs"
+            "plural": "oeufs",
+            "definitions": [
+                {
+                    "text": "Un objet de forme ovale pondu par une poule.",
+                    "examples": ["J'ai mangé un oeuf à la coque.", "On a besoin d'oeufs pour faire un gâteau."]
+                },
+                {
+                    "text": "On mange souvent des œufs au petit-déjeuner.",
+                    "examples": ["Les oeufs sont riches en protéines."]
+                }
+            ]
         },
         {
             "word": "lait",
@@ -2476,7 +3438,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥛",
             "form": "noun",
-            "plural": "lait"
+            "plural": "lait",
+            "definitions": [
+                {
+                    "text": "Un liquide blanc produit par les vaches.",
+                    "examples": ["Tu veux du lait dans ton café ?", "Les enfants boivent du lait."]
+                },
+                {
+                    "text": "On utilise le lait pour faire du fromage.",
+                    "examples": ["Le lait doit rester au frais."]
+                }
+            ]
         },
         {
             "word": "riz",
@@ -2484,7 +3456,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍚",
             "form": "noun",
-            "plural": "riz"
+            "plural": "riz",
+            "definitions": [
+                {
+                    "text": "Des petits grains blancs ou bruns.",
+                    "examples": ["Je mange du riz avec du poulet.", "Le riz est délicieux."]
+                },
+                {
+                    "text": "C'est un aliment de base dans de nombreux pays.",
+                    "examples": ["Le riz pousse dans l'eau."]
+                }
+            ]
         },
         {
             "word": "tomate",
@@ -2492,7 +3474,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍅",
             "form": "noun",
-            "plural": "tomates"
+            "plural": "tomates",
+            "definitions": [
+                {
+                    "text": "Un fruit rouge utilisé dans les salades.",
+                    "examples": ["La tomate est très juteuse.", "J'ai besoin de tomates pour la sauce."]
+                },
+                {
+                    "text": "La tomate est souvent utilisée comme légume.",
+                    "examples": ["Les tomates cerises sont sucrées."]
+                }
+            ]
         },
         {
             "word": "pomme de terre",
@@ -2500,7 +3492,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥔",
             "form": "noun",
-            "plural": "pomme de terres"
+            "plural": "pomme de terres",
+            "definitions": [
+                {
+                    "text": "Un légume qui pousse sous la terre.",
+                    "examples": ["J'aime la purée de pommes de terre.", "Peux-tu éplucher les pommes de terre ?"]
+                },
+                {
+                    "text": "On utilise les pommes de terre pour faire des frites.",
+                    "examples": ["La pomme de terre est un féculent."]
+                }
+            ]
         },
         {
             "word": "café",
@@ -2560,14 +3562,30 @@ const vocabularyData = {
             "baseWord": "eau",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "eaux"
+            "plural": "eaux",
+            "definitions": [
+                {
+                    "text": "Un liquide clair que nous buvons pour rester en vie.",
+                    "examples": ["Je bois un verre d'eau.", "L'eau est froide."]
+                }
+            ]
         },
         {
             "word": "limonade",
             "level": "intermediate",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "limonades"
+            "plural": "limonades",
+            "definitions": [
+                {
+                    "text": "Une boisson fraîche à base de citron, d'eau et de sucre.",
+                    "examples": ["J'aime boire une limonade quand il fait chaud.", "La limonade est pétillante."]
+                },
+                {
+                    "text": "C'est une boisson très désaltérante.",
+                    "examples": ["On ajoute souvent des glaçons dans la limonade."]
+                }
+            ]
         },
         {
             "word": "parc",
@@ -2575,7 +3593,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "parcs"
+            "plural": "parcs",
+            "definitions": [
+                {
+                    "text": "Un grand jardin public avec de l'herbe et des arbres.",
+                    "examples": ["Je joue au ballon dans le parc.", "Il y a des fleurs au parc."]
+                }
+            ]
         },
         {
             "word": "école",
@@ -2583,7 +3607,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "écoles"
+            "plural": "écoles",
+            "definitions": [
+                {
+                    "text": "Un endroit où les enfants vont pour apprendre.",
+                    "examples": ["Je vais à l'école en bus.", "Mon école est près de ma maison."]
+                }
+            ]
         },
         {
             "word": "hôpital",
@@ -2591,7 +3621,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏥",
             "form": "noun",
-            "plural": "hôpitaux"
+            "plural": "hôpitaux",
+            "definitions": [
+                {
+                    "text": "Un établissement où l'on soigne des malades ou des blessés.",
+                    "examples": ["L'ambulance arrive à l'hôpital.", "Il travaille à l'hôpital."]
+                },
+                {
+                    "text": "C'est un endroit où l'on va pour voir un médecin ou une infirmière.",
+                    "examples": ["Les hôpitaux sont ouverts 24h/24."]
+                }
+            ]
         },
         {
             "word": "cinéma",
@@ -2599,7 +3639,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🎬",
             "form": "noun",
-            "plural": "cinémas"
+            "plural": "cinémas",
+            "definitions": [
+                {
+                    "text": "Un lieu où l'on projette des films sur un grand écran.",
+                    "examples": ["On va au cinéma ce soir ?", "Le cinéma est près d'ici."]
+                },
+                {
+                    "text": "C'est un endroit où l'on peut manger du popcorn et regarder un film.",
+                    "examples": ["J'adore aller au cinéma avec des amis."]
+                }
+            ]
         },
         {
             "word": "restaurant",
@@ -2607,7 +3657,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🍴",
             "form": "noun",
-            "plural": "restaurants"
+            "plural": "restaurants",
+            "definitions": [
+                {
+                    "text": "Un endroit où l'on peut acheter et manger un repas.",
+                    "examples": ["Allons dans un restaurant italien.", "Le restaurant est complet ce soir."]
+                },
+                {
+                    "text": "Dans ce lieu, un serveur apporte les plats à table.",
+                    "examples": ["On a réservé une table au restaurant."]
+                }
+            ]
         },
         {
             "word": "bibliothèque",
@@ -2615,7 +3675,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "📚",
             "form": "noun",
-            "plural": "bibliothèques"
+            "plural": "bibliothèques",
+            "definitions": [
+                {
+                    "text": "Un endroit avec beaucoup de livres que l'on peut lire ou emprunter.",
+                    "examples": ["J'étudie à la bibliothèque universitaire.", "La bibliothèque est fermée le lundi."]
+                },
+                {
+                    "text": "C'est un lieu calme pour étudier.",
+                    "examples": ["Il faut faire silence dans la bibliothèque."]
+                }
+            ]
         },
         {
             "word": "musée",
@@ -2623,7 +3693,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏛️",
             "form": "noun",
-            "plural": "musées"
+            "plural": "musées",
+            "definitions": [
+                {
+                    "text": "Un bâtiment où l'on expose des objets d'art, d'histoire ou de science.",
+                    "examples": ["Nous avons visité le musée du Louvre.", "Le musée possède de belles sculptures."]
+                },
+                {
+                    "text": "C'est un lieu culturel pour apprendre sur le passé.",
+                    "examples": ["L'entrée du musée est gratuite pour les étudiants."]
+                }
+            ]
         },
         {
             "word": "t-shirt",
@@ -2745,14 +3825,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "grands"
+            "plural": "grands",
+            "definitions": [
+                {
+                    "text": "Une personne ou une chose qui est de grande taille de bas en haut.",
+                    "examples": ["Il est très grand.", "Ce bâtiment est grand."]
+                }
+            ]
         },
         {
             "word": "petit",
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "petits"
+            "plural": "petits",
+            "definitions": [
+                {
+                    "text": "Une personne ou une chose qui n'est pas grande.",
+                    "examples": ["Elle est petite.", "Le crayon est petit."]
+                }
+            ]
         },
         {
             "word": "beau",
@@ -2819,7 +3911,7 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "😴",
             "subtext": "dormir 8 heures, aller dormir",
-            "form": "noun",
+            "form": "verb",
             "plural": "dormirs"
         },
         {
@@ -2844,14 +3936,34 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "📖",
             "form": "noun",
-            "plural": "livres"
+            "plural": "livres",
+            "definitions": [
+                {
+                    "text": "Un objet avec beaucoup de pages pour lire une histoire.",
+                    "examples": ["C'est mon livre préféré.", "Ouvre ton livre à la page dix."]
+                },
+                {
+                    "text": "Une ancienne unité de mesure ou monnaie (la livre).",
+                    "examples": ["J'achète une livre de pommes.", "La livre sterling est la monnaie du Royaume-Uni."]
+                }
+            ]
         },
         {
             "word": "montre",
             "level": "elementary",
             "theme": "daily_life",
             "form": "noun",
-            "plural": "montres"
+            "plural": "montres",
+            "definitions": [
+                {
+                    "text": "Un petit appareil que l'on porte au poignet pour donner l'heure.",
+                    "examples": ["Ma montre avance de cinq minutes.", "Regarde l'heure sur ta montre."]
+                },
+                {
+                    "text": "Du verbe montrer : faire voir quelque chose à quelqu'un.",
+                    "examples": ["Il me montre ses photos.", "Montre-moi ton dessin."]
+                }
+            ]
         },
         {
             "word": "portefeuille",
@@ -2859,14 +3971,21 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "👛",
             "form": "noun",
-            "plural": "portefeuilles"
+            "plural": "portefeuilles",
+            "definitions": [
+                {
+                    "text": "Un petit accessoire pour ranger son argent et ses cartes.",
+                    "examples": ["J'ai perdu mon portefeuille.", "Mets l'argent dans ton portefeuille."]
+                }
+            ]
         },
         {
             "word": "lunettes",
             "level": "elementary",
             "theme": "daily_life",
             "emoji": "👓",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "lunettes"
         },
         {
             "word": "chat",
@@ -2877,8 +3996,14 @@ const vocabularyData = {
             "emoji": "🐈",
             "numberPlural": "2 chat",
             "answer": "deux chats",
-            "form": "adjective",
-            "plural": "chats"
+            "form": "noun",
+            "plural": "chats",
+            "definitions": [
+                {
+                    "text": "Un petit animal à fourrure que beaucoup de gens gardent à la maison.",
+                    "examples": ["Mon chat dort.", "J'aime les chats."]
+                }
+            ]
         },
         {
             "word": "chien",
@@ -2889,15 +4014,21 @@ const vocabularyData = {
             "emoji": "🐕",
             "numberPlural": "5 chien",
             "answer": "cinq chiens",
-            "form": "adjective",
-            "plural": "chiens"
+            "form": "noun",
+            "plural": "chiens",
+            "definitions": [
+                {
+                    "text": "Un animal qui est souvent appelé 'le meilleur ami de l'homme'.",
+                    "examples": ["Je promène mon chien dans le parc.", "Le chien aboie."]
+                }
+            ]
         },
         {
             "word": "oiseau",
             "level": "starter",
             "theme": "animal",
             "emoji": "🐦",
-            "form": "adjective",
+            "form": "noun",
             "plural": "oiseaux"
         },
         {
@@ -2905,35 +4036,40 @@ const vocabularyData = {
             "level": "elementary",
             "theme": "animal",
             "emoji": "🦁",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "lions"
         },
         {
             "word": "tigre",
             "level": "elementary",
             "theme": "animal",
             "emoji": "🐯",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "tigres"
         },
         {
             "word": "éléphant",
             "level": "intermediate",
             "theme": "animal",
             "emoji": "🐘",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "éléphants"
         },
         {
             "word": "singe",
             "level": "intermediate",
             "theme": "animal",
             "emoji": "🐒",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "singes"
         },
         {
             "word": "cheval",
             "level": "elementary",
             "theme": "animal",
             "emoji": "🐎",
-            "form": "verb"
+            "form": "noun",
+            "plural": "chevaux"
         },
         {
             "word": "dessiner",
@@ -3039,7 +4175,17 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👤",
             "form": "noun",
-            "plural": "têtes"
+            "plural": "têtes",
+            "definitions": [
+                {
+                    "text": "La partie supérieure du corps contenant le cerveau et le visage.",
+                    "examples": ["Il porte un chapeau sur la tête.", "Elle a mal à la tête."]
+                },
+                {
+                    "text": "Le chef ou le dirigeant d'un groupe.",
+                    "examples": ["Il est à la tête de l'entreprise.", "C'est la tête pensante du projet."]
+                }
+            ]
         },
         {
             "word": "main",
@@ -3047,7 +4193,17 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "✋",
             "form": "noun",
-            "plural": "mains"
+            "plural": "mains",
+            "definitions": [
+                {
+                    "text": "La partie du corps au bout du bras, avec des doigts.",
+                    "examples": ["Lave-toi les mains.", "Elle tient son sac à la main."]
+                },
+                {
+                    "text": "Une aide ou une assistance.",
+                    "examples": ["Peux-tu me donner un coup de main ?", "J'ai besoin d'une main secourable."]
+                }
+            ]
         },
         {
             "word": "jambe",
@@ -3063,7 +4219,13 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👁️",
             "form": "noun",
-            "plural": "oeils"
+            "plural": "yeux",
+            "definitions": [
+                {
+                    "text": "L'organe de la vue.",
+                    "examples": ["Ferme les yeux.", "Elle a les yeux bleus."]
+                }
+            ]
         },
         {
             "word": "nez",
@@ -3111,7 +4273,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "💻",
             "form": "noun",
-            "plural": "développeur logiciels"
+            "plural": "développeur logiciels",
+            "definitions": [
+                {
+                    "text": "Une personne qui écrit des programmes informatiques.",
+                    "examples": ["Le développeur crée une application.", "Je veux devenir développeur."]
+                },
+                {
+                    "text": "Cette personne travaille avec un ordinateur.",
+                    "examples": ["Les développeurs utilisent plusieurs langages."]
+                }
+            ]
         },
         {
             "word": "psychologue",
@@ -3119,7 +4291,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧠",
             "form": "noun",
-            "plural": "psychologues"
+            "plural": "psychologues",
+            "definitions": [
+                {
+                    "text": "Une personne qui étudie le comportement et la pensée.",
+                    "examples": ["Le psychologue écoute son patient.", "Elle est psychologue clinicienne."]
+                },
+                {
+                    "text": "Cette personne travaille souvent dans un cabinet privé.",
+                    "examples": ["Les psychologues aident à surmonter les difficultés."]
+                }
+            ]
         },
         {
             "word": "philosophe",
@@ -3127,7 +4309,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧐",
             "form": "noun",
-            "plural": "philosophes"
+            "plural": "philosophes",
+            "definitions": [
+                {
+                    "text": "Une personne qui réfléchit au sens de la vie.",
+                    "examples": ["Platon était un grand philosophe.", "Il étudie les oeuvres des philosophes."]
+                },
+                {
+                    "text": "Cette personne lit beaucoup de livres et pose des questions.",
+                    "examples": ["Les philosophes débattent de l'éthique."]
+                }
+            ]
         },
         {
             "word": "algorithme",
@@ -3150,7 +4342,13 @@ const vocabularyData = {
             "level": "elementary",
             "theme": "education_work",
             "emoji": "🎓",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Un établissement d'enseignement supérieur.",
+                    "examples": ["Elle étudie à l'université.", "L'université est fermée pendant les vacances."]
+                }
+            ]
         },
         {
             "word": "collègue",
@@ -3213,21 +4411,51 @@ const vocabularyData = {
             "level": "elementary",
             "theme": "food_drinks",
             "emoji": "🍜",
-            "form": "adjective"
+            "form": "adjective",
+            "definitions": [
+                {
+                    "text": "La nourriture traditionnelle d'une région précise.",
+                    "examples": ["J'aime découvrir la cuisine locale.", "La cuisine locale est authentique."]
+                },
+                {
+                    "text": "Découvrir la cuisine locale fait partie du voyage.",
+                    "examples": ["La cuisine locale utilise des produits du terroir."]
+                }
+            ]
         },
         {
             "word": "mère",
             "level": "starter",
             "theme": "family",
             "emoji": "👩",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "La femme qui est votre parent.",
+                    "examples": ["Ma mère est gentille.", "J'aime ma mère."]
+                },
+                {
+                    "text": "Cette personne est généralement la femme de votre père (ou un autre parent).",
+                    "examples": ["Les mères s'occupent de leurs enfants."]
+                }
+            ]
         },
         {
             "word": "père",
             "level": "starter",
             "theme": "family",
             "emoji": "👨",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "L'homme qui est votre parent.",
+                    "examples": ["Mon père est grand.", "Il ressemble à son père."]
+                },
+                {
+                    "text": "Cette personne est généralement le mari de votre mère (ou un autre parent).",
+                    "examples": ["Mon père travaille beaucoup."]
+                }
+            ]
         },
         {
             "word": "eau",
@@ -3237,7 +4465,13 @@ const vocabularyData = {
             "baseWord": "eau",
             "emoji": "🚰",
             "form": "adjective",
-            "plural": "eaux"
+            "plural": "eaux",
+            "definitions": [
+                {
+                    "text": "Un liquide clair que nous buvons pour rester en vie.",
+                    "examples": ["Je bois un verre d'eau.", "L'eau est froide."]
+                }
+            ]
         },
         {
             "word": "voiture",
@@ -3273,7 +4507,13 @@ const vocabularyData = {
             "answer": "des livres",
             "emoji": "📚",
             "form": "adjective",
-            "plural": "livres"
+            "plural": "livres",
+            "definitions": [
+                {
+                    "text": "De nombreuses pages avec des mots et des images que vous lisez.",
+                    "examples": ["Je lis un livre tous les soirs.", "Ce livre est intéressant."]
+                }
+            ]
         },
         {
             "word": "oiseau",
@@ -3322,8 +4562,13 @@ const vocabularyData = {
             "subtext": "manger une pomme, dîner",
             "opposite": "boire",
             "oppositeEmoji": "🥛",
-            "form": "noun",
-            "plural": "mangers"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Mettre de la nourriture dans sa bouche et l'avaler.",
+                    "examples": ["Je mange une pomme.", "Qu'est-ce que tu veux manger ?"]
+                }
+            ]
         },
         {
             "word": "boire",
@@ -3331,8 +4576,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥛",
             "subtext": "boire de l'eau, boire du café",
-            "form": "noun",
-            "plural": "boires"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Prendre un liquide par la bouche et l'avaler.",
+                    "examples": ["Je bois beaucoup d'eau.", "Tu veux boire quelque chose ?"]
+                }
+            ]
         },
         {
             "word": "faire",
@@ -3358,8 +4608,13 @@ const vocabularyData = {
             "theme": "people_society",
             "emoji": "💬",
             "subtext": "parler anglais, parler lentement",
-            "form": "noun",
-            "plural": "parlers"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "S'exprimer par la parole.",
+                    "examples": ["Je parle à mon ami.", "Elle parle très bien français."]
+                }
+            ]
         },
         {
             "word": "savoir",
@@ -3385,8 +4640,13 @@ const vocabularyData = {
             "theme": "people_society",
             "emoji": "👁️",
             "subtext": "voir un film, voir un ami",
-            "form": "noun",
-            "plural": "voirs"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Utiliser ses yeux pour regarder quelque chose.",
+                    "examples": ["Je vois un oiseau.", "As-tu vu ce film ?"]
+                }
+            ]
         },
         {
             "word": "vouloir",
@@ -3789,8 +5049,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "travel_places",
             "emoji": "🚶",
-            "form": "noun",
-            "plural": "marchers"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Se déplacer à pied.",
+                    "examples": ["Je marche pour aller à l'école.", "Nous marchons dans la forêt."]
+                }
+            ]
         },
         {
             "word": "gagner",
@@ -4195,7 +5460,17 @@ const vocabularyData = {
             "answer": "due medici",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "medici"
+            "plural": "medici",
+            "definitions": [
+                {
+                    "text": "Una persona che cura i malati.",
+                    "examples": ["Il medico è in ospedale.", "Vado dal medico."]
+                },
+                {
+                    "text": "Questa persona lavora solitamente in un ospedale o in una clinica.",
+                    "examples": ["I medici portano il camice bianco."]
+                }
+            ]
         },
         {
             "word": "ingegnere",
@@ -4203,7 +5478,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👷",
             "form": "noun",
-            "plural": "ingegneri"
+            "plural": "ingegneri",
+            "definitions": [
+                {
+                    "text": "Una persona che progetta o costruisce macchine, motori o strutture.",
+                    "examples": ["L'ingegnere lavora a un nuovo ponte.", "Vuole diventare un ingegnere civile."]
+                },
+                {
+                    "text": "Questa persona lavora spesso in un ufficio o in un cantiere.",
+                    "examples": ["Gli ingegneri usano il computer per progettare."]
+                }
+            ]
         },
         {
             "word": "artista",
@@ -4211,7 +5496,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🎨",
             "form": "noun",
-            "plural": "artiste"
+            "plural": "artisti",
+            "definitions": [
+                {
+                    "text": "Una persona che crea dipinti o disegni.",
+                    "examples": ["L'artista dipinge un bel quadro.", "È un artista famoso."]
+                },
+                {
+                    "text": "Questa persona lavora spesso in uno studio.",
+                    "examples": ["Gli artisti usano colori e pennelli."]
+                }
+            ]
         },
         {
             "word": "pilota",
@@ -4219,7 +5514,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍✈️",
             "form": "noun",
-            "plural": "pilote"
+            "plural": "piloti",
+            "definitions": [
+                {
+                    "text": "Una persona che guida un aereo o un elicottero.",
+                    "examples": ["Il pilota è nella cabina di pilotaggio.", "Vuole diventare un pilota."]
+                },
+                {
+                    "text": "Questa persona lavora nel cielo e all'aeroporto.",
+                    "examples": ["I piloti portano la divisa."]
+                }
+            ]
         },
         {
             "word": "chef",
@@ -4227,7 +5532,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👨‍🍳",
             "form": "noun",
-            "plural": "chef"
+            "plural": "chef",
+            "definitions": [
+                {
+                    "text": "Un cuoco professionista che lavora in un ristorante.",
+                    "examples": ["Lo chef prepara un pasto delizioso.", "Il nostro chef ha molto talento."]
+                },
+                {
+                    "text": "Questa persona lavora in cucina.",
+                    "examples": ["Gli chef portano un alto cappello bianco."]
+                }
+            ]
         },
         {
             "word": "avvocato",
@@ -4235,7 +5550,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "⚖️",
             "form": "noun",
-            "plural": "avvocati"
+            "plural": "avvocati",
+            "definitions": [
+                {
+                    "text": "Una persona che dà consigli legali e rappresenta le persone in tribunale.",
+                    "examples": ["Devo parlare con il mio avvocato.", "L'avvocato è in tribunale."]
+                },
+                {
+                    "text": "Questa persona lavora spesso in un ufficio o in un tribunale.",
+                    "examples": ["Gli avvocati leggono molti documenti."]
+                }
+            ]
         },
         {
             "word": "insegnante",
@@ -4243,7 +5568,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "insegnanti"
+            "plural": "insegnanti",
+            "definitions": [
+                {
+                    "text": "Una persona che aiuta a imparare.",
+                    "examples": ["L'insegnante spiega la lezione.", "Ho una brava insegnante."]
+                },
+                {
+                    "text": "Questa persona lavora solitamente in una scuola o all'università.",
+                    "examples": ["Gli insegnanti spiegano nuovi argomenti."]
+                }
+            ]
         },
         {
             "word": "pasta",
@@ -4251,7 +5586,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍝",
             "form": "noun",
-            "plural": "paste"
+            "plural": "paste",
+            "definitions": [
+                {
+                    "text": "Un alimento a base di farina e acqua o uova.",
+                    "examples": ["Mi piace la pasta al pomodoro.", "Gli spaghetti sono un tipo di pasta."]
+                },
+                {
+                    "text": "Questo cibo è il simbolo della cucina italiana.",
+                    "examples": ["Ci sono molti formati di pasta."]
+                }
+            ]
         },
         {
             "word": "pizza",
@@ -4259,35 +5604,85 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍕",
             "form": "noun",
-            "plural": "pizze"
+            "plural": "pizze",
+            "definitions": [
+                {
+                    "text": "Un pane piatto condito con pomodoro e mozzarella.",
+                    "examples": ["Mi piace la pizza margherita.", "Ordiniamo una pizza."]
+                },
+                {
+                    "text": "Questo cibo è originario di Napoli.",
+                    "examples": ["La pizza è famosa in tutto il mondo."]
+                }
+            ]
         },
         {
             "word": "risotto",
             "level": "elementary",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "risotti"
+            "plural": "risotti",
+            "definitions": [
+                {
+                    "text": "Un piatto di riso cotto con brodo fino a diventare cremoso.",
+                    "examples": ["Il risotto allo zafferano è giallo.", "Mia nonna fa un ottimo risotto."]
+                },
+                {
+                    "text": "È un primo piatto tipico del Nord Italia.",
+                    "examples": ["Il risotto va servito ben caldo."]
+                }
+            ]
         },
         {
             "word": "lasagna",
             "level": "starter",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "lasagne"
+            "plural": "lasagne",
+            "definitions": [
+                {
+                    "text": "Fogli di pasta alternati con ragù e besciamella.",
+                    "examples": ["Le lasagne sono nel forno.", "Mi piacciono le lasagne della mamma."]
+                },
+                {
+                    "text": "Questo piatto viene spesso mangiato la domenica.",
+                    "examples": ["Le lasagne sono molto nutrienti."]
+                }
+            ]
         },
         {
             "word": "gelato",
             "level": "elementary",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "gelati"
+            "plural": "gelati",
+            "definitions": [
+                {
+                    "text": "Un dolce freddo fatto con latte e zucchero.",
+                    "examples": ["Prendiamo un gelato al cioccolato.", "Il gelato è rinfrescante in estate."]
+                },
+                {
+                    "text": "L'Italia è famosa per il suo gelato artigianale.",
+                    "examples": ["Il gelato può essere servito nel cono o nella coppetta."]
+                }
+            ]
         },
         {
             "word": "tiramisù",
             "level": "intermediate",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "tiramisù"
+            "plural": "tiramisù",
+            "definitions": [
+                {
+                    "text": "Un dolce al cucchiaio con savoiardi, caffè e mascarpone.",
+                    "examples": ["Il tiramisù è il mio dolce preferito.", "C'è del cacao sopra il tiramisù."]
+                },
+                {
+                    "text": "Il nome significa letteralmente 'sollevami'.",
+                    "examples": ["Il tiramisù deve riposare in frigo."]
+                }
+            ]
         },
         {
             "word": "mela",
@@ -4297,7 +5692,13 @@ const vocabularyData = {
             "answer": "quattro mele",
             "emoji": "🍎",
             "form": "noun",
-            "plural": "mele"
+            "plural": "mele",
+            "definitions": [
+                {
+                    "text": "Un frutto tondo, rosso o verde.",
+                    "examples": ["Mangio una mela ogni giorno.", "La mela è buona."]
+                }
+            ]
         },
         {
             "word": "pane",
@@ -4305,7 +5706,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍞",
             "form": "noun",
-            "plural": "pane"
+            "plural": "pane",
+            "definitions": [
+                {
+                    "text": "Un cibo fatto di farina e acqua, poi cotto al forno.",
+                    "examples": ["Mi piace il pane fresco.", "Puoi comprare del pane?"]
+                }
+            ]
         },
         {
             "word": "formaggio",
@@ -4313,7 +5720,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🧀",
             "form": "noun",
-            "plural": "formaggio"
+            "plural": "formaggio",
+            "definitions": [
+                {
+                    "text": "Un alimento solido ricavato dal latte.",
+                    "examples": ["Mi piace il formaggio sulla pasta.", "Esistono molti tipi di formaggio."]
+                },
+                {
+                    "text": "L'Italia produce centinaia di formaggi diversi.",
+                    "examples": ["Il parmigiano è un formaggio stagionato."]
+                }
+            ]
         },
         {
             "word": "uovo",
@@ -4413,7 +5830,13 @@ const vocabularyData = {
             "baseWord": "acqua",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "acqua"
+            "plural": "acqua",
+            "definitions": [
+                {
+                    "text": "Un liquido trasparente che beviamo per vivere.",
+                    "examples": ["Bevo un bicchiere d'acqua.", "L'acqua è fredda."]
+                }
+            ]
         },
         {
             "word": "aranciata",
@@ -4428,7 +5851,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "parci"
+            "plural": "parci",
+            "definitions": [
+                {
+                    "text": "Un'area verde pubblica per camminare o giocare.",
+                    "examples": ["Domenica andiamo al parco.", "Ci sono molti fiori nel parco."]
+                }
+            ]
         },
         {
             "word": "scuola",
@@ -4436,7 +5865,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "scuole"
+            "plural": "scuole",
+            "definitions": [
+                {
+                    "text": "Un luogo dove i bambini vanno per imparare.",
+                    "examples": ["Vado a scuola in autobus.", "La mia scuola è vicino a casa mia."]
+                }
+            ]
         },
         {
             "word": "ospedale",
@@ -4444,7 +5879,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏥",
             "form": "noun",
-            "plural": "ospedali"
+            "plural": "ospedali",
+            "definitions": [
+                {
+                    "text": "Un luogo dove si curano i malati e i feriti.",
+                    "examples": ["L'ambulanza sta andando all'ospedale.", "Lavora in ospedale."]
+                },
+                {
+                    "text": "Questo è un luogo dove si va per vedere un medico o un infermiere.",
+                    "examples": ["Gli ospedali sono aperti 24 ore su 24."]
+                }
+            ]
         },
         {
             "word": "cinema",
@@ -4452,7 +5897,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🎬",
             "form": "noun",
-            "plural": "cineme"
+            "plural": "cinema",
+            "definitions": [
+                {
+                    "text": "Un luogo dove si proiettano film su un grande schermo.",
+                    "examples": ["Andiamo al cinema stasera.", "Cosa danno al cinema?"]
+                },
+                {
+                    "text": "Questo è un luogo dove si possono mangiare popcorn e guardare un film.",
+                    "examples": ["Mi piace andare al cinema con gli amici."]
+                }
+            ]
         },
         {
             "word": "ristorante",
@@ -4460,7 +5915,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🍴",
             "form": "noun",
-            "plural": "ristoranti"
+            "plural": "ristoranti",
+            "definitions": [
+                {
+                    "text": "Un posto dove si può comprare e mangiare un pasto.",
+                    "examples": ["Andiamo al ristorante stasera.", "Il ristorante è chiuso."]
+                },
+                {
+                    "text": "In questo luogo, un cameriere porta il cibo al tavolo.",
+                    "examples": ["Abbiamo cenato in un ristorante elegante."]
+                }
+            ]
         },
         {
             "word": "biblioteca",
@@ -4468,7 +5933,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "📚",
             "form": "noun",
-            "plural": "bibliotece"
+            "plural": "biblioteche",
+            "definitions": [
+                {
+                    "text": "Un luogo con molti libri da leggere o prendere in prestito.",
+                    "examples": ["Studio nella biblioteca dell'università.", "La biblioteca comunale è grande."]
+                },
+                {
+                    "text": "Questo è un luogo silenzioso per lo studio e la ricerca.",
+                    "examples": ["Bisogna stare in silenzio in biblioteca."]
+                }
+            ]
         },
         {
             "word": "museo",
@@ -4476,7 +5951,71 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏛️",
             "form": "noun",
-            "plural": "musei"
+            "plural": "musei",
+            "definitions": [
+                {
+                    "text": "Un edificio dove si possono guardare oggetti importanti del passato.",
+                    "examples": ["Abbiamo visto i resti romani al museo.", "Il museo ha una collezione di quadri antichi."]
+                },
+                {
+                    "text": "Questo è un luogo dove imparare la storia, l'arte o la scienza.",
+                    "examples": ["L'ingresso al museo è gratuito la domenica."]
+                }
+            ]
+        },
+        {
+            "word": "supermercato",
+            "level": "elementary",
+            "theme": "travel_places",
+            "emoji": "🛒",
+            "form": "noun",
+            "plural": "supermercati",
+            "definitions": [
+                {
+                    "text": "Un grande negozio dove si comprano cibo e prodotti per la casa.",
+                    "examples": ["Vado a fare la spesa al supermercato.", "Il supermercato è vicino a casa."]
+                },
+                {
+                    "text": "In questo luogo si usa un carrello per fare la spesa.",
+                    "examples": ["Ci sono molte offerte al supermercato."]
+                }
+            ]
+        },
+        {
+            "word": "farmacia",
+            "level": "upper-intermediate",
+            "theme": "travel_places",
+            "emoji": "💊",
+            "form": "noun",
+            "plural": "farmacie",
+            "definitions": [
+                {
+                    "text": "Un negozio dove si comprano le medicine.",
+                    "examples": ["Devo andare in farmacia a prendere uno sciroppo.", "La farmacia è aperta anche di notte."]
+                },
+                {
+                    "text": "È il luogo dove si portano le ricette del medico.",
+                    "examples": ["Il farmacista prepara i medicinali."]
+                }
+            ]
+        },
+        {
+            "word": "aeroporto",
+            "level": "intermediate",
+            "theme": "travel_places",
+            "emoji": "✈️",
+            "form": "noun",
+            "plural": "aeroporti",
+            "definitions": [
+                {
+                    "text": "Un luogo dove gli aerei atterrano e decollano.",
+                    "examples": ["Siamo arrivati all'aeroporto in orario.", "L'aeroporto di Roma è molto grande."]
+                },
+                {
+                    "text": "È il luogo dove si prende l'aereo per viaggiare.",
+                    "examples": ["Dobbiamo fare il check-in in aeroporto."]
+                }
+            ]
         },
         {
             "word": "maglietta",
@@ -4556,7 +6095,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "🛏️",
             "form": "noun",
-            "plural": "letti"
+            "plural": "letti",
+            "definitions": [
+                {
+                    "text": "Un mobile su cui si dorme.",
+                    "examples": ["Il mio letto è molto comodo.", "È ora di andare a letto."]
+                }
+            ]
         },
         {
             "word": "divano",
@@ -4595,14 +6140,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "alti"
+            "plural": "alti",
+            "definitions": [
+                {
+                    "text": "Una persona o una cosa che è grande dal basso verso l'alto.",
+                    "examples": ["Lui è molto alto.", "Quell'edificio è alto."]
+                }
+            ]
         },
         {
             "word": "basso",
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "bassi"
+            "plural": "bassi",
+            "definitions": [
+                {
+                    "text": "Una persona o una cosa che non è alta.",
+                    "examples": ["Lei è bassa.", "La matita è bassa."]
+                }
+            ]
         },
         {
             "word": "bello",
@@ -4678,7 +6235,17 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "🔑",
             "form": "noun",
-            "plural": "chiavi"
+            "plural": "chiavi",
+            "definitions": [
+                {
+                    "text": "Un oggetto metallico per aprire una porta o accendere l'auto.",
+                    "examples": ["Non trovo le mie chiavi.", "Ecco la chiave della camera."]
+                },
+                {
+                    "text": "Qualcosa di molto importante (come la chiave del successo).",
+                    "examples": ["La pratica è la chiave per imparare.", "Qual è il punto chiave?"]
+                }
+            ]
         },
         {
             "word": "telefono",
@@ -4694,14 +6261,27 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "📖",
             "form": "noun",
-            "plural": "libri"
+            "plural": "libri",
+            "definitions": [
+                {
+                    "text": "Un insieme di fogli stampati che si leggono.",
+                    "examples": ["Il libro è sul tavolo.", "Amo leggere libri gialli."]
+                }
+            ]
         },
         {
             "word": "orologio",
             "level": "elementary",
             "theme": "daily_life",
+            "emoji": "⌚",
             "form": "noun",
-            "plural": "orologii"
+            "plural": "orologi",
+            "definitions": [
+                {
+                    "text": "Uno strumento per misurare il tempo.",
+                    "examples": ["Il mio orologio è rotto.", "Che ore sono sul tuo orologio?"]
+                }
+            ]
         },
         {
             "word": "portafoglio",
@@ -4709,7 +6289,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "👛",
             "form": "noun",
-            "plural": "portafoglii"
+            "plural": "portafogli",
+            "definitions": [
+                {
+                    "text": "Un piccolo contenitore per tenere soldi e carte.",
+                    "examples": ["Ho perso il portafoglio.", "Metti i soldi nel portafoglio."]
+                }
+            ]
         },
         {
             "word": "occhiali",
@@ -4717,7 +6303,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "👓",
             "form": "noun",
-            "plural": "occhiali"
+            "plural": "occhiali",
+            "definitions": [
+                {
+                    "text": "Uno strumento che si indossa sul viso per vedere meglio.",
+                    "examples": ["Ho bisogno di occhiali nuovi.", "Lui porta occhiali neri."]
+                }
+            ]
         },
         {
             "word": "gatto",
@@ -4729,7 +6321,13 @@ const vocabularyData = {
             "numberPlural": "2 gatto",
             "answer": "due gatti",
             "form": "adjective",
-            "plural": "gatti"
+            "plural": "gatti",
+            "definitions": [
+                {
+                    "text": "Un piccolo animale con il pelo che molte persone tengono in casa.",
+                    "examples": ["Il mio gatto dorme.", "Amo i gatti."]
+                }
+            ]
         },
         {
             "word": "cane",
@@ -4741,21 +6339,41 @@ const vocabularyData = {
             "numberPlural": "5 cane",
             "answer": "cinque cani",
             "form": "adjective",
-            "plural": "cani"
+            "plural": "cani",
+            "definitions": [
+                {
+                    "text": "Un animale che viene spesso chiamato 'il migliore amico dell'uomo'.",
+                    "examples": ["Porto il mio cane al parco.", "Il cane abbaia."]
+                }
+            ]
         },
         {
             "word": "uccello",
             "level": "starter",
             "theme": "animal",
             "emoji": "🐦",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "uccelli",
+            "definitions": [
+                {
+                    "text": "Un animale con piume e ali che di solito può volare.",
+                    "examples": ["L'uccello canta al mattino.", "Guarda quel bell'uccello!"]
+                }
+            ]
         },
         {
             "word": "leone",
             "level": "elementary",
             "theme": "animal",
             "emoji": "🦁",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "leoni",
+            "definitions": [
+                {
+                    "text": "Un grande felino selvatico che vive in Africa ed è chiamato 'il re della foresta'.",
+                    "examples": ["Il leone è molto forte.", "Abbiamo visto un leone allo zoo."]
+                }
+            ]
         },
         {
             "word": "tigre",
@@ -4790,7 +6408,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "leisure_hobbies",
             "emoji": "🎨",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Rappresentare qualcosa con linee e colori su carta.",
+                    "examples": ["Mi piace disegnare paesaggi.", "Disegna un cerchio."]
+                }
+            ]
         },
         {
             "word": "cucinare",
@@ -4888,7 +6512,17 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👤",
             "form": "noun",
-            "plural": "teste"
+            "plural": "teste",
+            "definitions": [
+                {
+                    "text": "La parte superiore del corpo umano.",
+                    "examples": ["Porta un cappello in testa.", "Muove la testa per dire di sì."]
+                },
+                {
+                    "text": "La parte anteriore o superiore di qualcosa.",
+                    "examples": ["In testa alla classifica.", "Il treno è in testa al binario."]
+                }
+            ]
         },
         {
             "word": "mano",
@@ -4896,7 +6530,17 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "✋",
             "form": "noun",
-            "plural": "mani"
+            "plural": "mani",
+            "definitions": [
+                {
+                    "text": "La parte finale del braccio con cinque dita.",
+                    "examples": ["Lavarsi le mani.", "Tenersi per mano."]
+                },
+                {
+                    "text": "Un aiuto.",
+                    "examples": ["Dammi una mano con queste buste.", "Serve una mano?"]
+                }
+            ]
         },
         {
             "word": "gamba",
@@ -4912,7 +6556,13 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👁️",
             "form": "noun",
-            "plural": "occhii"
+            "plural": "occhi",
+            "definitions": [
+                {
+                    "text": "L'organo della vista.",
+                    "examples": ["Chiudi gli occhi.", "Ha gli occhi azzurri."]
+                }
+            ]
         },
         {
             "word": "naso",
@@ -4984,7 +6634,13 @@ const vocabularyData = {
             "theme": "education_work",
             "emoji": "🎓",
             "form": "noun",
-            "plural": "università"
+            "plural": "università",
+            "definitions": [
+                {
+                    "text": "Un istituto di istruzione superiore.",
+                    "examples": ["Studia all'università.", "L'università ha una grande biblioteca."]
+                }
+            ]
         },
         {
             "word": "collega",
@@ -5042,28 +6698,64 @@ const vocabularyData = {
             "level": "intermediate",
             "theme": "health_body",
             "emoji": "🧠",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Η κατάσταση της συναισθηματικής και ψυχολογικής ευεξίας.",
+                    "examples": ["Η ψυχική υγεία είναι εξίσου σημαντική με τη σωματική.", "Πρέπει να φροντίζουμε την ψυχική μας υγεία."]
+                }
+            ]
         },
         {
             "word": "cucina locale",
             "level": "elementary",
             "theme": "food_drinks",
             "emoji": "🍜",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Il cibo tradizionale di una zona specifica.",
+                    "examples": ["Amo provare la cucina locale.", "La cucina locale qui è molto saporita."]
+                },
+                {
+                    "text": "Provare la cucina locale è una parte importante del viaggio.",
+                    "examples": ["La cucina locale usa ingredienti freschi della regione."]
+                }
+            ]
         },
         {
             "word": "madre",
             "level": "starter",
             "theme": "family",
             "emoji": "👩",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Una donna che è un tuo genitore.",
+                    "examples": ["Mia madre cucina bene.", "Voglio bene a mia madre."]
+                },
+                {
+                    "text": "Questa persona è solitamente la moglie di tuo padre (o un altro genitore).",
+                    "examples": ["Le madri si prendono cura dei loro figli."]
+                }
+            ]
         },
         {
             "word": "padre",
             "level": "starter",
             "theme": "family",
             "emoji": "👨",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Un uomo che è un tuo genitore.",
+                    "examples": ["Mio padre lavora molto.", "Mio padre è simpatico."]
+                },
+                {
+                    "text": "Questa persona è solitamente il marito di tua madre (o un altro genitore).",
+                    "examples": ["Mio padre lavora molto."]
+                }
+            ]
         },
         {
             "word": "ragazzo",
@@ -5111,7 +6803,13 @@ const vocabularyData = {
             "answer": "quattro libri",
             "emoji": "📚",
             "form": "adjective",
-            "plural": "libri"
+            "plural": "libri",
+            "definitions": [
+                {
+                    "text": "Molte pagine con parole e immagini che si leggono.",
+                    "examples": ["Leggo un libro ogni sera.", "Questo libro è interessante."]
+                }
+            ]
         },
         {
             "word": "casa",
@@ -5134,8 +6832,14 @@ const vocabularyData = {
             "numberPlural": "2 uomo",
             "answer": "due uomini",
             "emoji": "👨",
-            "form": "adjective",
-            "plural": "uomini"
+            "form": "noun",
+            "plural": "uomini",
+            "definitions": [
+                {
+                    "text": "Un essere umano maschio adulto.",
+                    "examples": ["Quell'uomo è mio padre.", "Un uomo alto attraversa la strada."]
+                }
+            ]
         },
         {
             "word": "donna",
@@ -5146,8 +6850,14 @@ const vocabularyData = {
             "numberPlural": "3 donna",
             "answer": "tre donne",
             "emoji": "👩",
-            "form": "adjective",
-            "plural": "donne"
+            "form": "noun",
+            "plural": "donne",
+            "definitions": [
+                {
+                    "text": "Un essere umano femmina adulta.",
+                    "examples": ["È una donna molto intelligente.", "Tre donne lavorano qui."]
+                }
+            ]
         },
         {
             "word": "essere",
@@ -5184,8 +6894,13 @@ const vocabularyData = {
             "subtext": "mangiare una mela, cenare",
             "opposite": "bere",
             "oppositeEmoji": "🥛",
-            "form": "noun",
-            "plural": "mangiari"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Mettere del cibo in bocca e deglutire.",
+                    "examples": ["Mangio una mela al giorno.", "Cosa vuoi mangiare?"]
+                }
+            ]
         },
         {
             "word": "bere",
@@ -5193,8 +6908,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥛",
             "subtext": "bere acqua, bere caffè",
-            "form": "noun",
-            "plural": "beri"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Introdurre un liquido in bocca e deglutire.",
+                    "examples": ["Bevo molta acqua.", "Vuoi qualcosa da bere?"]
+                }
+            ]
         },
         {
             "word": "fare",
@@ -5220,8 +6940,13 @@ const vocabularyData = {
             "theme": "people_society",
             "emoji": "💬",
             "subtext": "parlare inglese, parlare lentamente",
-            "form": "noun",
-            "plural": "parlari"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Esprimersi con la voce.",
+                    "examples": ["Parlo con il mio amico.", "Lui parla tre lingue."]
+                }
+            ]
         },
         {
             "word": "sapere",
@@ -5247,8 +6972,13 @@ const vocabularyData = {
             "theme": "people_society",
             "emoji": "👁️",
             "subtext": "vedere un film, vedere un amico",
-            "form": "noun",
-            "plural": "vederi"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Usare gli occhi per guardare qualcosa.",
+                    "examples": ["Vedo un uccello.", "Hai visto quel film?"]
+                }
+            ]
         },
         {
             "word": "volere",
@@ -5660,8 +7390,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "travel_places",
             "emoji": "🚶",
-            "form": "noun",
-            "plural": "camminari"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Muoversi a piedi.",
+                    "examples": ["Mi piace camminare in montagna.", "Camminiamo verso casa."]
+                }
+            ]
         },
         {
             "word": "vincere",
@@ -6080,7 +7815,17 @@ const vocabularyData = {
             "answer": "два врача",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "врача"
+            "plural": "врача",
+            "definitions": [
+                {
+                    "text": "Человек, который лечит людей.",
+                    "examples": ["Врачи работают в больнице.", "Он хороший врач."]
+                },
+                {
+                    "text": "Этот человек обычно работает в больнице или поликлинике.",
+                    "examples": ["Врачи носят белые халаты."]
+                }
+            ]
         },
         {
             "word": "инженер",
@@ -6088,7 +7833,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👷",
             "form": "noun",
-            "plural": "инженеры"
+            "plural": "инженеры",
+            "definitions": [
+                {
+                    "text": "Человек, который проектирует или строит машины, двигатели или сооружения.",
+                    "examples": ["Инженер работает над новым мостом.", "Он хочет стать инженером-строителем."]
+                },
+                {
+                    "text": "Этот человек часто работает в офисе или на стройке.",
+                    "examples": ["Инженеры используют компьютеры для проектирования."]
+                }
+            ]
         },
         {
             "word": "художник",
@@ -6096,7 +7851,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🎨",
             "form": "noun",
-            "plural": "художники"
+            "plural": "художники",
+            "definitions": [
+                {
+                    "text": "Человек, который создает картины или рисунки.",
+                    "examples": ["Художник рисует красивую картину.", "Она — известная художница."]
+                },
+                {
+                    "text": "Этот человек часто работает в мастерской.",
+                    "examples": ["Художники используют краски и кисти."]
+                }
+            ]
         },
         {
             "word": "пилот",
@@ -6104,7 +7869,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍✈️",
             "form": "noun",
-            "plural": "пилоты"
+            "plural": "пилоты",
+            "definitions": [
+                {
+                    "text": "Человек, который управляет самолетом или вертолетом.",
+                    "examples": ["Пилот находится в кабине.", "Он хочет стать пилотом."]
+                },
+                {
+                    "text": "Этот человек работает в небе и в аэропорту.",
+                    "examples": ["Пилоты носят униформу."]
+                }
+            ]
         },
         {
             "word": "повар",
@@ -6112,7 +7887,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👨‍🍳",
             "form": "noun",
-            "plural": "повары"
+            "plural": "повара",
+            "definitions": [
+                {
+                    "text": "Профессиональный кулинар, который работает в ресторане.",
+                    "examples": ["Повар готовит вкусный обед.", "Наш повар очень талантлив."]
+                },
+                {
+                    "text": "Этот человек работает на кухне.",
+                    "examples": ["Повара носят высокий белый колпак."]
+                }
+            ]
         },
         {
             "word": "юрист",
@@ -6120,7 +7905,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "⚖️",
             "form": "noun",
-            "plural": "юристы"
+            "plural": "юристы",
+            "definitions": [
+                {
+                    "text": "Человек, который дает юридические советы и представляет людей в суде.",
+                    "examples": ["Мне нужно поговорить с моим юристом.", "Юрист находится в суде."]
+                },
+                {
+                    "text": "Этот человек часто работает в офисе или в суде.",
+                    "examples": ["Юристы читают много документов."]
+                }
+            ]
         },
         {
             "word": "учитель",
@@ -6128,7 +7923,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "учитель"
+            "plural": "учителя",
+            "definitions": [
+                {
+                    "text": "Человек, который помогает учиться.",
+                    "examples": ["Учитель зашел в класс.", "Наш учитель добрый."]
+                },
+                {
+                    "text": "Этот человек обычно работает в школе или университете.",
+                    "examples": ["Учителя объясняют новые темы."]
+                }
+            ]
         },
         {
             "word": "борщ",
@@ -6181,7 +7986,13 @@ const vocabularyData = {
             "answer": "четыре яблока",
             "emoji": "🍎",
             "form": "noun",
-            "plural": "яблока"
+            "plural": "яблока",
+            "definitions": [
+                {
+                    "text": "Круглый фрукт, красный или зеленый.",
+                    "examples": ["Мальчик ест яблоко.", "Яблоко очень вкусное."]
+                }
+            ]
         },
         {
             "word": "хлеб",
@@ -6189,7 +8000,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍞",
             "form": "noun",
-            "plural": "хлеб"
+            "plural": "хлеб",
+            "definitions": [
+                {
+                    "text": "Еда, приготовленная из муки и воды, затем испеченная.",
+                    "examples": ["Я люблю свежий хлеб.", "Можешь купить хлеба?"]
+                }
+            ]
         },
         {
             "word": "сыр",
@@ -6230,6 +8047,20 @@ const vocabularyData = {
             "emoji": "🍅",
             "form": "noun",
             "plural": "помидоры"
+        },
+        {
+            "word": "пицца",
+            "level": "starter",
+            "theme": "food_drinks",
+            "emoji": "🍕",
+            "form": "noun",
+            "plural": "пиццы",
+            "definitions": [
+                {
+                    "text": "Лепешка с сыром и помидорами.",
+                    "examples": ["Я люблю сырную пиццу.", "Давай закажем пиццу."]
+                }
+            ]
         },
         {
             "word": "картофель",
@@ -6297,21 +8128,47 @@ const vocabularyData = {
             "baseWord": "вода",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "вода"
+            "plural": "вода",
+            "definitions": [
+                {
+                    "text": "Прозрачная жидкость, которую мы пьем, чтобы жить.",
+                    "examples": ["Я пью стакан воды.", "Вода холодная."]
+                }
+            ]
         },
         {
             "word": "квас",
             "level": "intermediate",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "квасы"
+            "plural": "квасы",
+            "definitions": [
+                {
+                    "text": "Традиционный русский напиток из хлеба.",
+                    "examples": ["Холодный квас хорош в жару.", "Я люблю домашний квас."]
+                },
+                {
+                    "text": "Этот напиток получается путем брожения.",
+                    "examples": ["Из кваса делают окрошку."]
+                }
+            ]
         },
         {
             "word": "морс",
             "level": "elementary",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "морсы"
+            "plural": "морсы",
+            "definitions": [
+                {
+                    "text": "Напиток из ягод с водой и сахаром.",
+                    "examples": ["Клюквенный морс очень полезен.", "Мы заказали графин морса."]
+                },
+                {
+                    "text": "Это традиционный русский ягодный напиток.",
+                    "examples": ["Морс обычно подают холодным."]
+                }
+            ]
         },
         {
             "word": "парк",
@@ -6319,7 +8176,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "парки"
+            "plural": "парки",
+            "definitions": [
+                {
+                    "text": "Место с деревьями и дорожками для прогулок.",
+                    "examples": ["Мы гуляем в парке.", "В парке есть детская площадка."]
+                }
+            ]
         },
         {
             "word": "школа",
@@ -6327,7 +8190,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "школы"
+            "plural": "школы",
+            "definitions": [
+                {
+                    "text": "Место, куда дети ходят учиться.",
+                    "examples": ["Я еду в школу на автобусе.", "Моя школа рядом с домом."]
+                }
+            ]
         },
         {
             "word": "больница",
@@ -6335,7 +8204,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏥",
             "form": "noun",
-            "plural": "больницы"
+            "plural": "больницы",
+            "definitions": [
+                {
+                    "text": "Медицинское учреждение, где лечат больных.",
+                    "examples": ["Скорая помощь едет в больницу.", "Она работает в больнице."]
+                },
+                {
+                    "text": "Это место, куда вы идете, чтобы увидеть врача или медсестру.",
+                    "examples": ["Больницы работают круглосуточно."]
+                }
+            ]
         },
         {
             "word": "кинотеатр",
@@ -6343,7 +8222,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🎬",
             "form": "noun",
-            "plural": "кинотеатры"
+            "plural": "кинотеатры",
+            "definitions": [
+                {
+                    "text": "Место, где показывают фильмы на большом экране.",
+                    "examples": ["Пойдем сегодня в кинотеатр.", "Кинотеатр находится рядом с домом."]
+                },
+                {
+                    "text": "Это место, где можно поесть попкорн и посмотреть кино.",
+                    "examples": ["Я люблю ходить в кинотеатр с друзьями."]
+                }
+            ]
         },
         {
             "word": "ресторан",
@@ -6351,7 +8240,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🍴",
             "form": "noun",
-            "plural": "рестораны"
+            "plural": "рестораны",
+            "definitions": [
+                {
+                    "text": "Место, где можно купить и поесть приготовленную еду.",
+                    "examples": ["Пойдем в итальянский ресторан.", "Ресторан уже открыт."]
+                }
+            ]
         },
         {
             "word": "библиотека",
@@ -6359,7 +8254,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "📚",
             "form": "noun",
-            "plural": "библиотеки"
+            "plural": "библиотеки",
+            "definitions": [
+                {
+                    "text": "Место, где много книг, которые можно читать или брать домой.",
+                    "examples": ["Я занимаюсь в университетской библиотеке.", "Публичная библиотека очень большая."]
+                },
+                {
+                    "text": "Это тихое место для учебы и исследований.",
+                    "examples": ["В библиотеке нужно соблюдать тишину."]
+                }
+            ]
         },
         {
             "word": "музей",
@@ -6367,7 +8272,71 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏛️",
             "form": "noun",
-            "plural": "музей"
+            "plural": "музеи",
+            "definitions": [
+                {
+                    "text": "Здание, где можно посмотреть на важные предметы из прошлого.",
+                    "examples": ["Мы видели кости динозавров в музее.", "В музее собрана коллекция старых картин."]
+                },
+                {
+                    "text": "Это место, где можно узнать об истории, искусстве или науке.",
+                    "examples": ["Вход в музей бесплатный по воскресеньям."]
+                }
+            ]
+        },
+        {
+            "word": "супермаркет",
+            "level": "elementary",
+            "theme": "travel_places",
+            "emoji": "🛒",
+            "form": "noun",
+            "plural": "супермаркеты",
+            "definitions": [
+                {
+                    "text": "Большой магазин, где покупают еду и товары для дома.",
+                    "examples": ["Я иду в супермаркет за продуктами.", "В супермаркете много людей."]
+                },
+                {
+                    "text": "В этом магазине покупатели используют тележки.",
+                    "examples": ["Супермаркет работает до поздна."]
+                }
+            ]
+        },
+        {
+            "word": "аптека",
+            "level": "upper-intermediate",
+            "theme": "travel_places",
+            "emoji": "💊",
+            "form": "noun",
+            "plural": "аптеки",
+            "definitions": [
+                {
+                    "text": "Магазин, в котором продаются лекарства.",
+                    "examples": ["Мне нужно купить аспирин в аптеке.", "Где здесь ближайшая аптека?"]
+                },
+                {
+                    "text": "В аптеке можно получить лекарства по рецепту.",
+                    "examples": ["Фармацевт работает в аптеке."]
+                }
+            ]
+        },
+        {
+            "word": "аэропорт",
+            "level": "intermediate",
+            "theme": "travel_places",
+            "emoji": "✈️",
+            "form": "noun",
+            "plural": "аэропорты",
+            "definitions": [
+                {
+                    "text": "Место, где самолеты взлетают и приземляются.",
+                    "examples": ["Мы едем в аэропорт.", "Аэропорт находится за городом."]
+                },
+                {
+                    "text": "Это место, откуда люди отправляются в полеты.",
+                    "examples": ["В аэропорту нужно пройти контроль."]
+                }
+            ]
         },
         {
             "word": "футболка",
@@ -6486,14 +8455,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "высокий"
+            "plural": "высокий",
+            "definitions": [
+                {
+                    "text": "Человек или предмет большого роста или высоты.",
+                    "examples": ["Он очень высокий.", "Это здание высокое."]
+                }
+            ]
         },
         {
             "word": "низкий",
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "низкий"
+            "plural": "низкий",
+            "definitions": [
+                {
+                    "text": "Человек или предмет небольшого роста или высоты.",
+                    "examples": ["Она низкого роста.", "Карандаш короткий."]
+                }
+            ]
         },
         {
             "word": "красивый",
@@ -6569,7 +8550,17 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "🔑",
             "form": "noun",
-            "plural": "ключи"
+            "plural": "ключи",
+            "definitions": [
+                {
+                    "text": "Металлический предмет для открывания двери или завода машины.",
+                    "examples": ["Я не могу найти свои ключи.", "Вот ключ от вашей комнаты."]
+                },
+                {
+                    "text": "Что-то очень важное (например, ключ к успеху).",
+                    "examples": ["Практика — это ключ к обучению.", "В чем заключается ключевой фактор?"]
+                }
+            ]
         },
         {
             "word": "телефон",
@@ -6585,7 +8576,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "📖",
             "form": "noun",
-            "plural": "книги"
+            "plural": "книги",
+            "definitions": [
+                {
+                    "text": "Произведение печати в виде переплетенных листов с текстом.",
+                    "examples": ["Я купил новую книгу.", "Книга лежит на полке."]
+                }
+            ]
         },
         {
             "word": "часы",
@@ -6600,14 +8597,27 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "👛",
             "form": "noun",
-            "plural": "кошелеки"
+            "plural": "кошельки",
+            "definitions": [
+                {
+                    "text": "Небольшая сумочка для денег и карточек.",
+                    "examples": ["Я потерял кошелек.", "Положи деньги в кошелек."]
+                }
+            ]
         },
         {
             "word": "очки",
             "level": "elementary",
             "theme": "daily_life",
             "emoji": "👓",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "очки",
+            "definitions": [
+                {
+                    "text": "Предмет, который носят на лице, чтобы лучше видеть.",
+                    "examples": ["Мне нужны новые очки.", "Он носит черные очки."]
+                }
+            ]
         },
         {
             "word": "зонт",
@@ -6626,7 +8636,13 @@ const vocabularyData = {
             "numberPlural": "2 кот",
             "answer": "два кота",
             "form": "adjective",
-            "plural": "кота"
+            "plural": "кота",
+            "definitions": [
+                {
+                    "text": "Маленькое пушистое животное, которое многие держат дома.",
+                    "examples": ["Мой кот спит.", "Я люблю кошек."]
+                }
+            ]
         },
         {
             "word": "собака",
@@ -6638,21 +8654,41 @@ const vocabularyData = {
             "numberPlural": "5 собака",
             "answer": "пять собак",
             "form": "adjective",
-            "plural": "собак"
+            "plural": "собак",
+            "definitions": [
+                {
+                    "text": "Животное, которое часто называют 'лучшим другом человека'.",
+                    "examples": ["Я гуляю с собакой в парке.", "Собака лает."]
+                }
+            ]
         },
         {
             "word": "птица",
             "level": "starter",
             "theme": "animal",
             "emoji": "🐦",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "птицы",
+            "definitions": [
+                {
+                    "text": "Животное с перьями и крыльями, которое обычно умеет летать.",
+                    "examples": ["Птица поет.", "Посмотри на эту красивую птицу!"]
+                }
+            ]
         },
         {
             "word": "лев",
             "level": "elementary",
             "theme": "animal",
             "emoji": "🦁",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "львы",
+            "definitions": [
+                {
+                    "text": "Крупная дикая кошка, которая живет в Африке; его называют 'царем зверей'.",
+                    "examples": ["Лев очень сильный.", "Мы видели льва в зоопарке."]
+                }
+            ]
         },
         {
             "word": "тигр",
@@ -6779,15 +8815,35 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👤",
             "form": "noun",
-            "plural": "головы"
+            "plural": "головы",
+            "definitions": [
+                {
+                    "text": "Верхняя часть тела человека, в которой находится мозг.",
+                    "examples": ["На голове у него шляпа.", "Он кивнул головой."]
+                },
+                {
+                    "text": "Руководитель группы или организации.",
+                    "examples": ["Он — голова всему делу.", "Кто здесь глава?"]
+                }
+            ]
         },
         {
             "word": "рука",
             "level": "starter",
             "theme": "health_body",
-            "emoji": "💪",
+            "emoji": "✋",
             "form": "noun",
-            "plural": "руки"
+            "plural": "руки",
+            "definitions": [
+                {
+                    "text": "Часть тела от плеча до кончиков пальцев.",
+                    "examples": ["Помой руки перед едой.", "Дай мне руку."]
+                },
+                {
+                    "text": "Помощь или поддержка.",
+                    "examples": ["Тебе нужна рука помощи?", "Протянуть руку помощи."]
+                }
+            ]
         },
         {
             "word": "нога",
@@ -6802,7 +8858,13 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👁️",
             "form": "noun",
-            "plural": "глазы"
+            "plural": "глаза",
+            "definitions": [
+                {
+                    "text": "Орган зрения.",
+                    "examples": ["Закрой глаза.", "У нее голубые глаза."]
+                }
+            ]
         },
         {
             "word": "нос",
@@ -6873,7 +8935,13 @@ const vocabularyData = {
             "theme": "education_work",
             "emoji": "🎓",
             "form": "noun",
-            "plural": "университеты"
+            "plural": "университеты",
+            "definitions": [
+                {
+                    "text": "Высшее учебное заведение.",
+                    "examples": ["Он учится в университете.", "В университете большая библиотека."]
+                }
+            ]
         },
         {
             "word": "коллега",
@@ -6929,28 +8997,64 @@ const vocabularyData = {
             "level": "intermediate",
             "theme": "health_body",
             "emoji": "🧠",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Η κατάσταση της συναισθηματικής και ψυχολογικής ευεξίας.",
+                    "examples": ["Η ψυχική υγεία είναι εξίσου σημαντική με τη σωματική.", "Πρέπει να φροντίζουμε την ψυχική μας υγεία."]
+                }
+            ]
         },
         {
             "word": "местная кухня",
             "level": "elementary",
             "theme": "food_drinks",
             "emoji": "🍜",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Традиционная еда определенной местности.",
+                    "examples": ["Мне нравится пробовать местную кухню.", "Местная кухня здесь очень острая."]
+                },
+                {
+                    "text": "Знакомство с местной кухней — важная часть путешествия.",
+                    "examples": ["В местной кухне используются свежие региональные продукты."]
+                }
+            ]
         },
         {
             "word": "мать",
             "level": "starter",
             "theme": "family",
             "emoji": "👩",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Женщина-родитель.",
+                    "examples": ["Моя мать очень добрая.", "Мать любит детей."]
+                },
+                {
+                    "text": "Этот человек обычно является женой вашего отца (или другого родителя).",
+                    "examples": ["Матери заботятся о своих детях."]
+                }
+            ]
         },
         {
             "word": "отец",
             "level": "starter",
             "theme": "family",
             "emoji": "👨",
-            "form": "adjective"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Мужчина-родитель.",
+                    "examples": ["Мой отец сейчас на работе.", "Отец читает книгу."]
+                },
+                {
+                    "text": "Этот человек обычно является мужем вашей матери (или другого родителя).",
+                    "examples": ["Мой отец много работает."]
+                }
+            ]
         },
         {
             "word": "кофе",
@@ -6959,7 +9063,7 @@ const vocabularyData = {
             "gender": "он",
             "baseWord": "кофе",
             "emoji": "☕",
-            "form": "adjective",
+            "form": "noun",
             "plural": "кофе"
         },
         {
@@ -6969,8 +9073,14 @@ const vocabularyData = {
             "gender": "она",
             "baseWord": "вода",
             "emoji": "🚰",
-            "form": "adjective",
-            "plural": "вода"
+            "form": "noun",
+            "plural": "вода",
+            "definitions": [
+                {
+                    "text": "Прозрачная жидкость, которую мы пьем, чтобы жить.",
+                    "examples": ["Я пью стакан воды.", "Вода холодная."]
+                }
+            ]
         },
         {
             "word": "окно",
@@ -6979,7 +9089,8 @@ const vocabularyData = {
             "gender": "оно",
             "baseWord": "окно",
             "emoji": "🪟",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "окна"
         },
         {
             "word": "книга",
@@ -6990,8 +9101,14 @@ const vocabularyData = {
             "numberPlural": "2 книга",
             "answer": "две книги",
             "emoji": "📖",
-            "form": "adjective",
-            "plural": "две книги"
+            "form": "noun",
+            "plural": "две книги",
+            "definitions": [
+                {
+                    "text": "Много страниц со словами и картинками, которые вы читаете.",
+                    "examples": ["Я читаю книгу каждый вечер.", "Эта книга интересная."]
+                }
+            ]
         },
         {
             "word": "стол",
@@ -7002,7 +9119,7 @@ const vocabularyData = {
             "numberPlural": "3 стол",
             "answer": "три стола",
             "emoji": "🪑",
-            "form": "adjective",
+            "form": "noun",
             "plural": "стола"
         },
         {
@@ -7064,8 +9181,13 @@ const vocabularyData = {
             "subtext": "есть яблоко, ужинать",
             "opposite": "пить",
             "oppositeEmoji": "🥛",
-            "form": "noun",
-            "plural": "есть"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Класть еду в рот и глотать ее.",
+                    "examples": ["Я ем яблоко каждый день.", "Что ты хочешь поесть?"]
+                }
+            ]
         },
         {
             "word": "пить",
@@ -7073,8 +9195,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥛",
             "subtext": "пить воду, пить кофе",
-            "form": "noun",
-            "plural": "пить"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Принимать жидкость внутрь через рот.",
+                    "examples": ["Я пью много воды.", "Хочешь чего-нибудь выпить?"]
+                }
+            ]
         },
         {
             "word": "делать",
@@ -7127,8 +9254,13 @@ const vocabularyData = {
             "theme": "people_society",
             "emoji": "👁️",
             "subtext": "видеть фильм, видеть друга",
-            "form": "noun",
-            "plural": "видеть"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Воспринимать что-либо глазами.",
+                    "examples": ["Я вижу птицу.", "Ты видел этот фильм?"]
+                }
+            ]
         },
         {
             "word": "хотеть",
@@ -7165,7 +9297,7 @@ const vocabularyData = {
             "subtext": "читать книгу, читать новости",
             "opposite": "писать",
             "oppositeEmoji": "✍️",
-            "form": "adjective"
+            "form": "verb"
         },
         {
             "word": "писать",
@@ -7175,7 +9307,7 @@ const vocabularyData = {
             "subtext": "писать письмо, писать сообщение",
             "opposite": "читать",
             "oppositeEmoji": "📖",
-            "form": "adjective"
+            "form": "verb"
         },
         {
             "word": "приходить",
@@ -7185,7 +9317,7 @@ const vocabularyData = {
             "subtext": "прийти сюда, прийти домой",
             "opposite": "идти",
             "oppositeEmoji": "🚶",
-            "form": "adjective"
+            "form": "verb"
         },
         {
             "word": "давать",
@@ -7195,7 +9327,7 @@ const vocabularyData = {
             "subtext": "дарить подарок, помогать",
             "opposite": "брать",
             "oppositeEmoji": "👜",
-            "form": "adjective"
+            "form": "verb"
         },
         {
             "word": "брать",
@@ -7327,8 +9459,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "emoji": "💬",
-            "form": "noun",
-            "plural": "разговаривать"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Общаться с помощью слов.",
+                    "examples": ["Я люблю разговаривать с друзьями.", "Они долго разговаривали."]
+                }
+            ]
         },
         {
             "word": "играть",
@@ -7558,7 +9695,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "travel_places",
             "emoji": "🚶",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Идти пешком ради удовольствия.",
+                    "examples": ["Я гуляю в парке.", "Пойдем погуляем?"]
+                }
+            ]
         },
         {
             "word": "выигрывать",
@@ -7836,7 +9979,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "leisure_hobbies",
             "emoji": "🎨",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Изображать что-либо с помощью линий и красок на бумаге.",
+                    "examples": ["Мне нравится рисовать пейзажи.", "Нарисуй круг."]
+                }
+            ]
         },
         {
             "word": "ловить",
@@ -7982,7 +10131,17 @@ const vocabularyData = {
             "answer": "δύο γιατροί",
             "emoji": "🧑‍⚕️",
             "form": "noun",
-            "plural": "γιατροί"
+            "plural": "γιατροί",
+            "definitions": [
+                {
+                    "text": "Ένας άνθρωπος που βοηθά τους αρρώστους.",
+                    "examples": ["Ο γιατρός είναι στο νοσοκομείο.", "Θέλω να δω έναν γιατρό."]
+                },
+                {
+                    "text": "Αυτό το άτομο εργάζεται συνήθως σε νοσοκομείο ή κλινική.",
+                    "examples": ["Οι γιατροί φορούν λευκές ποδιές."]
+                }
+            ]
         },
         {
             "word": "μηχανικός",
@@ -7990,7 +10149,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👷",
             "form": "noun",
-            "plural": "μηχανικός"
+            "plural": "μηχανικός",
+            "definitions": [
+                {
+                    "text": "Ένα άτομο που σχεδιάζει ή κατασκευάζει μηχανές, κινητήρες ή δομές.",
+                    "examples": ["Ο μηχανικός εργάζεται σε μια νέα γέφυρα.", "Θέλει να γίνει πολιτικός μηχανικός."]
+                },
+                {
+                    "text": "Αυτό το άτομο εργάζεται συχνά σε γραφείο ή σε εργοτάξιο.",
+                    "examples": ["Οι μηχανικοί χρησιμοποιούν υπολογιστές για το σχεδιασμό."]
+                }
+            ]
         },
         {
             "word": "καλλιτέχνης",
@@ -7998,7 +10167,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🎨",
             "form": "noun",
-            "plural": "καλλιτέχνης"
+            "plural": "καλλιτέχνης",
+            "definitions": [
+                {
+                    "text": "Ένα άτομο που δημιουργεί πίνακες ή σχέδια.",
+                    "examples": ["Ο καλλιτέχνης ζωγραφίζει μια όμορφη εικόνα.", "Είναι μια διάσημη καλλιτέχνιδα."]
+                },
+                {
+                    "text": "Αυτό το άτομο εργάζεται συχνά σε ένα ατελιέ.",
+                    "examples": ["Οι καλλιτέχνες χρησιμοποιούν χρώματα και πινέλα."]
+                }
+            ]
         },
         {
             "word": "πιλότος",
@@ -8006,7 +10185,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍✈️",
             "form": "noun",
-            "plural": "πιλότοι"
+            "plural": "πιλότοι",
+            "definitions": [
+                {
+                    "text": "Ένα άτομο που πετάει αεροπλάνο ή ελικόπτερο.",
+                    "examples": ["Ο πιλότος είναι στο πιλοτήριο.", "Θέλει να γίνει πιλότος."]
+                },
+                {
+                    "text": "Αυτό το άτομο εργάζεται στον ουρανό και στο αεροδρόμιο.",
+                    "examples": ["Οι πιλότοι φορούν στολή."]
+                }
+            ]
         },
         {
             "word": "σεφ",
@@ -8014,7 +10203,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "👨‍🍳",
             "form": "noun",
-            "plural": "σεφ"
+            "plural": "σεφ",
+            "definitions": [
+                {
+                    "text": "Ένας επαγγελματίας μάγειρας που εργάζεται σε εστιατόριο.",
+                    "examples": ["Ο σεφ μαγειρεύει ένα νόστιμο γεύμα.", "Ο σεφ μας είναι πολύ ταλαντούχος."]
+                },
+                {
+                    "text": "Αυτό το άτομο εργάζεται σε μια κουζίνα.",
+                    "examples": ["Οι σεφ φορούν ψηλό λευκό καπέλο."]
+                }
+            ]
         },
         {
             "word": "δικηγόρος",
@@ -8022,7 +10221,17 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "⚖️",
             "form": "noun",
-            "plural": "δικηγόροι"
+            "plural": "δικηγόροι",
+            "definitions": [
+                {
+                    "text": "Ένα άτομο που δίνει συμβουλές για το νόμο και εκπροσωπεί ανθρώπους στο δικαστήριο.",
+                    "examples": ["Πρέπει να μιλήσω με τον δικηγόρο μου.", "Ο δικηγόρος είναι στην αίθουσα του δικαστηρίου."]
+                },
+                {
+                    "text": "Αυτό το άτομο εργάζεται συχνά σε γραφείο ή δικαστήριο.",
+                    "examples": ["Οι δικηγόροι διαβάζουν πολλά έγγραφα."]
+                }
+            ]
         },
         {
             "word": "δάσκαλος",
@@ -8030,42 +10239,102 @@ const vocabularyData = {
             "theme": "profession",
             "emoji": "🧑‍🏫",
             "form": "noun",
-            "plural": "δάσκαλοι"
+            "plural": "δάσκαλοι",
+            "definitions": [
+                {
+                    "text": "Ένας άνθρωπος που σε βοηθά να μάθεις.",
+                    "examples": ["Ο δάσκαλος είναι στην τάξη.", "Ο δάσκαλός μου είναι καλός."]
+                },
+                {
+                    "text": "Αυτό το άτομο εργάζεται συνήθως σε σχολείο ή πανεπιστήμιο.",
+                    "examples": ["Οι δάσκαλοι εξηγούν νέα θέματα."]
+                }
+            ]
         },
         {
             "word": "μουσακάς",
             "level": "starter",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "μουσακάς"
+            "plural": "μουσακάς",
+            "definitions": [
+                {
+                    "text": "Ένα παραδοσιακό ελληνικό πιάτο με μελιτζάνες και κιμά.",
+                    "examples": ["Ο μουσακάς της γιαγιάς είναι ο καλύτερος.", "Θέλω μια μερίδα μουσακά."]
+                },
+                {
+                    "text": "Αυτό το φαγητό είναι πολύ δημοφιλές στην Ελλάδα.",
+                    "examples": ["Ο μουσακάς έχει μπεσαμέλ από πάνω."]
+                }
+            ]
         },
         {
             "word": "σουβλάκι",
             "level": "intermediate",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "σουβλάκια"
+            "plural": "σουβλάκια",
+            "definitions": [
+                {
+                    "text": "Κομμάτια κρέατος ψημένα σε μικρή σούβλα.",
+                    "examples": ["Παρήγγειλα δύο σουβλάκια με πίτα.", "Το σουβλάκι είναι το αγαπημένο μου γρήγορο φαγητό."]
+                },
+                {
+                    "text": "Αυτό το φαγητό είναι το πιο διάσημο ελληνικό 'street food'.",
+                    "examples": ["Τρώμε σουβλάκι με τζατζίκι."]
+                }
+            ]
         },
         {
             "word": "χωριάτικη σαλάτα",
             "level": "elementary",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "χωριάτικη σαλάτες"
+            "plural": "χωριάτικη σαλάτες",
+            "definitions": [
+                {
+                    "text": "Σαλάτα με ντομάτα, αγγούρι, κρεμμύδι και φέτα.",
+                    "examples": ["Η χωριάτικη σαλάτα είναι πολύ δροσερή το καλοκαίρι.", "Βάλε ελιές στη χωριάτικη."]
+                },
+                {
+                    "text": "Αυτό το πιάτο συνοδεύει σχεδόν κάθε ελληνικό γεύμα.",
+                    "examples": ["Η χωριάτικη σαλάτα έχει πολύ ελαιόλαδο."]
+                }
+            ]
         },
         {
             "word": "παστίτσιο",
             "level": "starter",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "παστίτσια"
+            "plural": "παστίτσια",
+            "definitions": [
+                {
+                    "text": "Ελληνικό πιάτο με μακαρόνια, κιμά και μπεσαμέλ.",
+                    "examples": ["Το παστίτσιο είναι στο φούρνο.", "Μου αρέσει η γωνία από το παστίτσιο."]
+                },
+                {
+                    "text": "Αυτό το φαγητό μοιάζει λίγο με τα λαζάνια.",
+                    "examples": ["Το παστίτσιο είναι το αγαπημένο φαγητό των παιδιών."]
+                }
+            ]
         },
         {
             "word": "γεμιστά",
             "level": "elementary",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "γεμιστά"
+            "plural": "γεμιστά",
+            "definitions": [
+                {
+                    "text": "Ντομάτες ή πιπεριές γεμισμένες με ρύζι.",
+                    "examples": ["Τα γεμιστά είναι έτοιμα.", "Προτιμώ τα γεμιστά με ορφανά (χωρίς κιμά)."]
+                },
+                {
+                    "text": "Αυτό το φαγητό τρώγεται συνήθως με τυρί φέτα.",
+                    "examples": ["Τα γεμιστά μυρίζουν υπέροχα."]
+                }
+            ]
         },
         {
             "word": "μήλο",
@@ -8075,7 +10344,13 @@ const vocabularyData = {
             "answer": "τέσσερα μήλα",
             "emoji": "🍎",
             "form": "noun",
-            "plural": "μήλα"
+            "plural": "μήλα",
+            "definitions": [
+                {
+                    "text": "Ένα στρογγυλό φρούτο, κόκκινο ή πράσινο.",
+                    "examples": ["Τρώω ένα μήλο.", "Το μήλο είναι γλυκό."]
+                }
+            ]
         },
         {
             "word": "ψωμί",
@@ -8083,7 +10358,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍞",
             "form": "noun",
-            "plural": "ψωμί"
+            "plural": "ψωμί",
+            "definitions": [
+                {
+                    "text": "Μια τροφή φτιαγμένη από αλεύρι και νερό, ψημένη στον φούρνο.",
+                    "examples": ["Μου αρέσει το φρέσκο ψωμί.", "Μπορείς να αγοράσεις ψωμί;"]
+                }
+            ]
         },
         {
             "word": "τυρί",
@@ -8091,7 +10372,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🧀",
             "form": "noun",
-            "plural": "τυρί"
+            "plural": "τυρί",
+            "definitions": [
+                {
+                    "text": "Μια στερεά τροφή που φτιάχνεται από γάλα.",
+                    "examples": ["Μου αρέσει το τυρί στην πίτσα.", "Υπάρχουν πολλά είδη τυριών."]
+                },
+                {
+                    "text": "Η Ελλάδα είναι διάσημη για τη φέτα της.",
+                    "examples": ["Το τυρί είναι πλούσιο σε ασβέστιο."]
+                }
+            ]
         },
         {
             "word": "αυγό",
@@ -8099,7 +10390,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥚",
             "form": "noun",
-            "plural": "αυγό"
+            "plural": "αυγό",
+            "definitions": [
+                {
+                    "text": "Ένα οβάλ αντικείμενο που κάνει η κότα.",
+                    "examples": ["Έφαγα ένα βραστό αυγό για πρωινό.", "Χρειαζόμαστε αυγά για το κέικ."]
+                },
+                {
+                    "text": "Πολλοί άνθρωποι τρώνε αυγά το πρωί.",
+                    "examples": ["Τα αυγά είναι καλή πηγή πρωτεΐνης."]
+                }
+            ]
         },
         {
             "word": "γάλα",
@@ -8107,7 +10408,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥛",
             "form": "noun",
-            "plural": "γάλα"
+            "plural": "γάλα",
+            "definitions": [
+                {
+                    "text": "Ένα λευκό υγρό που παράγουν οι αγελάδες.",
+                    "examples": ["Θέλεις γάλα στον καφέ σου;", "Τα παιδιά πρέπει να πίνουν γάλα."]
+                },
+                {
+                    "text": "Χρησιμοποιούμε το γάλα για να φτιάξουμε τυρί και γιαούρτι.",
+                    "examples": ["Το γάλα πρέπει να διατηρείται στο ψυγείο."]
+                }
+            ]
         },
         {
             "word": "ρύζι",
@@ -8115,7 +10426,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍚",
             "form": "noun",
-            "plural": "ρύζι"
+            "plural": "ρύζι",
+            "definitions": [
+                {
+                    "text": "Μικροί λευκοί ή καφέ κόκκοι από ένα φυτό.",
+                    "examples": ["Τρώω ρύζι με κοτόπουλο.", "Σου αρέσει το τηγανητό ρύζι;"]
+                },
+                {
+                    "text": "Αυτή είναι μια βασική τροφή σε πολλές χώρες.",
+                    "examples": ["Το ρύζι μεγαλώνει σε χωράφια με νερό."]
+                }
+            ]
         },
         {
             "word": "ντομάτα",
@@ -8123,7 +10444,17 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🍅",
             "form": "noun",
-            "plural": "ντομάτες"
+            "plural": "ντομάτες",
+            "definitions": [
+                {
+                    "text": "Ένα κόκκινο φρούτο που χρησιμοποιείται συχνά σε σαλάτες.",
+                    "examples": ["Η ντομάτα είναι πολύ ζουμερή.", "Χρειάζομαι ντομάτες για τη σάλτσα."]
+                },
+                {
+                    "text": "Οι ντομάτες είναι απαραίτητες για τη χωριάτικη σαλάτα.",
+                    "examples": ["Οι ντομάτες cherry είναι μικρές και γλυκές."]
+                }
+            ]
         },
         {
             "word": "πατάτα",
@@ -8131,7 +10462,31 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥔",
             "form": "noun",
-            "plural": "πατάτες"
+            "plural": "πατάτες",
+            "definitions": [
+                {
+                    "text": "Ένα στρογγυλό λαχανικό που μεγαλώνει κάτω από το έδαφος.",
+                    "examples": ["Μου αρέσουν οι τηγανητές πατάτες.", "Μπορείς να καθαρίσεις τις πατάτες;"]
+                },
+                {
+                    "text": "Χρησιμοποιούμε τις πατάτες για να φτιάξουμε πουρέ.",
+                    "examples": ["Οι πατάτες είναι πολύ χορταστικές."]
+                }
+            ]
+        },
+        {
+            "word": "πίτσα",
+            "level": "starter",
+            "theme": "food_drinks",
+            "emoji": "🍕",
+            "form": "noun",
+            "plural": "πίτσες",
+            "definitions": [
+                {
+                    "text": "Ένα πλατύ ψωμί με τυρί και ντομάτα.",
+                    "examples": ["Μου αρέσει η πίτσα με τυρί.", "Ας παραγγείλουμε μια πίτσα."]
+                }
+            ]
         },
         {
             "word": "καφές",
@@ -8141,7 +10496,17 @@ const vocabularyData = {
             "baseWord": "καφές",
             "emoji": "☕",
             "form": "noun",
-            "plural": "καφές"
+            "plural": "καφές",
+            "definitions": [
+                {
+                    "text": "Ένα σκούρο ρόφημα που φτιάχνεται από καβουρδισμένους κόκκους.",
+                    "examples": ["Πίνω καφέ κάθε πρωί.", "Θέλεις ζάχαρη στον καφέ σου;"]
+                },
+                {
+                    "text": "Πολλοί άνθρωποι πίνουν καφέ για να ξυπνήσουν.",
+                    "examples": ["Ο καφές είναι πολύ ζεστός."]
+                }
+            ]
         },
         {
             "word": "τσάι",
@@ -8151,7 +10516,17 @@ const vocabularyData = {
             "baseWord": "τσάι",
             "emoji": "🍵",
             "form": "noun",
-            "plural": "τσάι"
+            "plural": "τσάι",
+            "definitions": [
+                {
+                    "text": "Ένα ρόφημα που φτιάχνεται ρίχνοντας ζεστό νερό σε αποξηραμένα φύλλα.",
+                    "examples": ["Θα θέλατε ένα φλιτζάνι τσάι;", "Το πράσινο τσάι είναι πολύ υγιεινό."]
+                },
+                {
+                    "text": "Αυτό είναι ένα πολύ δημοφιλές ρόφημα σε όλο τον κόσμο.",
+                    "examples": ["Μου αρέσει το τσάι με λεμόνι."]
+                }
+            ]
         },
         {
             "word": "κρασί",
@@ -8161,7 +10536,17 @@ const vocabularyData = {
             "baseWord": "κρασί",
             "emoji": "🍷",
             "form": "noun",
-            "plural": "κρασί"
+            "plural": "κρασί",
+            "definitions": [
+                {
+                    "text": "Ένα αλκοολούχο ποτό που φτιάχνεται από σταφύλια.",
+                    "examples": ["Το κόκκινο κρασί ταιριάζει με το κρέας.", "Ήπιαν ένα μπουκάλι κρασί."]
+                },
+                {
+                    "text": "Η Ελλάδα έχει μεγάλη παράδοση στην παραγωγή κρασιού.",
+                    "examples": ["Το κρασί φυλάσσεται σε κελάρι."]
+                }
+            ]
         },
         {
             "word": "μπίρα",
@@ -8171,7 +10556,17 @@ const vocabularyData = {
             "baseWord": "μπίρα",
             "emoji": "🍺",
             "form": "noun",
-            "plural": "μπίρα"
+            "plural": "μπίρα",
+            "definitions": [
+                {
+                    "text": "Ένα αλκοολούχο ποτό που φτιάχνεται από δημητριακά.",
+                    "examples": ["Πίνει ένα ποτήρι μπίρα.", "Η μπίρα σερβίρεται συνήθως κρύα."]
+                },
+                {
+                    "text": "Αυτό το ποτό έχει συχνά αφρό από πάνω.",
+                    "examples": ["Η μπίρα είναι δημοφιλής το καλοκαίρι."]
+                }
+            ]
         },
         {
             "word": "χυμός",
@@ -8181,7 +10576,17 @@ const vocabularyData = {
             "baseWord": "χυμός",
             "emoji": "🧃",
             "form": "noun",
-            "plural": "χυμός"
+            "plural": "χυμός",
+            "definitions": [
+                {
+                    "text": "Ένα υγρό που προέρχεται από φρούτα ή λαχανικά.",
+                    "examples": ["Θέλω ένα ποτήρι χυμό πορτοκάλι.", "Ο χυμός μήλου είναι γλυκός."]
+                },
+                {
+                    "text": "Ο χυμός πορτοκάλι είναι κοινός για πρωινό.",
+                    "examples": ["Ο φρεσκοστυμμένος χυμός είναι ο καλύτερος."]
+                }
+            ]
         },
         {
             "word": "νερό",
@@ -8191,14 +10596,30 @@ const vocabularyData = {
             "baseWord": "νερό",
             "emoji": "🚰",
             "form": "noun",
-            "plural": "νερό"
+            "plural": "νερό",
+            "definitions": [
+                {
+                    "text": "Ένα διαφανές υγρό που πίνουμε για να ζήσουμε.",
+                    "examples": ["Πίνω ένα ποτήρι νερό.", "Το νερό είναι κρύο."]
+                }
+            ]
         },
         {
             "word": "ούζο",
             "level": "intermediate",
             "theme": "food_drinks",
             "form": "noun",
-            "plural": "ούζα"
+            "plural": "ούζα",
+            "definitions": [
+                {
+                    "text": "Ένα παραδοσιακό ελληνικό αλκοολούχο ποτό με γεύση γλυκάνισου.",
+                    "examples": ["Πίνουμε ούζο με μεζέδες.", "Το ούζο γίνεται άσπρο με το νερό."]
+                },
+                {
+                    "text": "Είναι το πιο χαρακτηριστικό ποτό της Ελλάδας.",
+                    "examples": ["Το ούζο πίνεται συνήθως δίπλα στη θάλασσα."]
+                }
+            ]
         },
         {
             "word": "πάρκο",
@@ -8206,7 +10627,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🌳",
             "form": "noun",
-            "plural": "πάρκα"
+            "plural": "πάρκα",
+            "definitions": [
+                {
+                    "text": "Ένας μεγάλος δημόσιος χώρος με δέντρα για αναψυχή.",
+                    "examples": ["Πηγαίνω στο πάρκο με τα παιδιά.", "Το πάρκο είναι πολύ όμορφο."]
+                }
+            ]
         },
         {
             "word": "σχολείο",
@@ -8214,7 +10641,13 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏫",
             "form": "noun",
-            "plural": "σχολεία"
+            "plural": "σχολεία",
+            "definitions": [
+                {
+                    "text": "Ένα μέρος όπου τα παιδιά πηγαίνουν για να μάθουν.",
+                    "examples": ["Πηγαίνω στο σχολείο με το λεωφορείο.", "Το σχολείο μου είναι κοντά στο σπίτι μου."]
+                }
+            ]
         },
         {
             "word": "νοσοκομείο",
@@ -8222,7 +10655,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🏥",
             "form": "noun",
-            "plural": "νοσοκομεία"
+            "plural": "νοσοκομεία",
+            "definitions": [
+                {
+                    "text": "Ένα μέρος όπου οι άρρωστοι ή οι τραυματισμένοι δέχονται ιατρική βοήθεια.",
+                    "examples": ["Το ασθενοφόρο πηγαίνει στο νοσοκομείο.", "Δουλεύει στο νοσοκομείο."]
+                },
+                {
+                    "text": "Αυτό είναι ένα μέρος όπου πηγαίνετε για να δείτε έναν γιατρό ή μια νοσοκόμα.",
+                    "examples": ["Τα νοσοκομεία είναι ανοιχτά όλο το εικοσιτετράωρο."]
+                }
+            ]
         },
         {
             "word": "κινηματογράφος",
@@ -8230,7 +10673,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🎬",
             "form": "noun",
-            "plural": "κινηματογράφοι"
+            "plural": "κινηματογράφοι",
+            "definitions": [
+                {
+                    "text": "Ένα μέρος όπου ο κόσμος πάει να δει ταινίες σε μεγάλη οθόνη.",
+                    "examples": ["Πάμε σινεμά απόψε;", "Τι παίζει στον κινηματογράφο;"]
+                },
+                {
+                    "text": "Αυτό είναι ένα μέρος όπου μπορείτε να φάτε ποπ κορν και να δείτε μια ταινία.",
+                    "examples": ["Μου αρέσει να πηγαίνω στον κινηματογράφο με φίλους."]
+                }
+            ]
         },
         {
             "word": "εστιατόριο",
@@ -8238,7 +10691,17 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🍴",
             "form": "noun",
-            "plural": "εστιατόρια"
+            "plural": "εστιατόρια",
+            "definitions": [
+                {
+                    "text": "Ένα μέρος όπου μπορείτε να αγοράσετε και να φάτε ένα γεύμα.",
+                    "examples": ["Πάμε σε ένα ιταλικό εστιατόριο.", "Το εστιατόριο είναι ανοιχτό."]
+                },
+                {
+                    "text": "Σε αυτό το μέρος, ένας σερβιτόρος σας φέρνει το φαγητό στο τραπέζι.",
+                    "examples": ["Κλείσαμε τραπέζι στο εστιατόριο."]
+                }
+            ]
         },
         {
             "word": "βιβλιοθήκη",
@@ -8246,7 +10709,71 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "📚",
             "form": "noun",
-            "plural": "βιβλιοθήκες"
+            "plural": "βιβλιοθήκες",
+            "definitions": [
+                {
+                    "text": "Ένα μέρος με πολλά βιβλία που μπορείτε να διαβάσετε ή να δανειστείτε.",
+                    "examples": ["Διαβάζω στη βιβλιοθήκη του πανεπιστημίου.", "Η δημοτική βιβλιοθήκη είναι μεγάλη."]
+                },
+                {
+                    "text": "Αυτό είναι ένα ήσυχο μέρος για μελέτη.",
+                    "examples": ["Πρέπει να κάνουμε ησυχία στη βιβλιοθήκη."]
+                }
+            ]
+        },
+        {
+            "word": "σούπερ μάρκετ",
+            "level": "elementary",
+            "theme": "travel_places",
+            "emoji": "🛒",
+            "form": "noun",
+            "plural": "σούπερ μάρκετ",
+            "definitions": [
+                {
+                    "text": "Ένα μεγάλο κατάστημα όπου αγοράζετε τρόφιμα και είδη σπιτιού.",
+                    "examples": ["Πηγαίνω στο σούπερ μάρκετ για ψώνια.", "Το σούπερ μάρκετ είναι πολύ γεμάτο."]
+                },
+                {
+                    "text": "Σε αυτό το μέρος χρησιμοποιείτε καρότσι ή καλάθι.",
+                    "examples": ["Τα σούπερ μάρκετ έχουν πολλές προσφορές."]
+                }
+            ]
+        },
+        {
+            "word": "φαρμακείο",
+            "level": "upper-intermediate",
+            "theme": "travel_places",
+            "emoji": "💊",
+            "form": "noun",
+            "plural": "φαρμακεία",
+            "definitions": [
+                {
+                    "text": "Ένα κατάστημα όπου μπορείτε να αγοράσετε φάρμακα.",
+                    "examples": ["Πρέπει να πάρω μια ασπιρίνη από το φαρμακείο.", "Υπάρχει φαρμακείο εδώ κοντά;"]
+                },
+                {
+                    "text": "Είναι το μέρος όπου ο φαρμακοποιός εκτελεί τις συνταγές.",
+                    "examples": ["Μπορείτε να βρείτε βιταμίνες στο φαρμακείο."]
+                }
+            ]
+        },
+        {
+            "word": "αεροδρόμιο",
+            "level": "intermediate",
+            "theme": "travel_places",
+            "emoji": "✈️",
+            "form": "noun",
+            "plural": "αεροδρόμια",
+            "definitions": [
+                {
+                    "text": "Ένα μέρος όπου τα αεροπλάνα προσγειώνονται και απογειώνονται.",
+                    "examples": ["Πηγαίνω στο αεροδρόμιο για το ταξίδι μου.", "Το αεροδρόμιο είναι πολύ μεγάλο."]
+                },
+                {
+                    "text": "Είναι το μέρος από όπου παίρνετε το αεροπλάνο.",
+                    "examples": ["Πρέπει να είμαστε στο αεροδρόμιο δύο ώρες νωρίτερα."]
+                }
+            ]
         },
         {
             "word": "μπλουζάκι",
@@ -8365,14 +10892,26 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "ψηλός"
+            "plural": "ψηλός",
+            "definitions": [
+                {
+                    "text": "Ένας άνθρωπος ή ένα πράγμα που είναι μεγάλο από κάτω προς τα πάνω.",
+                    "examples": ["Είναι πολύ ψηλός.", "Αυτό το κτίριο είναι ψηλό."]
+                }
+            ]
         },
         {
             "word": "κοντός",
             "level": "starter",
             "theme": "people_society",
             "form": "noun",
-            "plural": "κοντός"
+            "plural": "κοντός",
+            "definitions": [
+                {
+                    "text": "Ένας άνθρωπος ή ένα πράγμα που δεν είναι ψηλό.",
+                    "examples": ["Είναι κοντή.", "Το μολύβι είναι κοντό."]
+                }
+            ]
         },
         {
             "word": "όμορφος",
@@ -8448,7 +10987,17 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "🔑",
             "form": "noun",
-            "plural": "κλειδί"
+            "plural": "κλειδιά",
+            "definitions": [
+                {
+                    "text": "Ένα μεταλλικό αντικείμενο για να ανοίγουμε μια πόρτα ή να ξεκινάμε το αυτοκίνητο.",
+                    "examples": ["Δεν βρίσκω τα κλειδιά μου.", "Ορίστε το κλειδί για το δωμάτιό σας."]
+                },
+                {
+                    "text": "Κάτι πολύ σημαντικό (όπως το κλειδί της επιτυχίας).",
+                    "examples": ["Η εξάσκηση είναι το κλειδί για τη μάθηση.", "Ποιο είναι το σημείο κλειδί;"]
+                }
+            ]
         },
         {
             "word": "τηλέφωνο",
@@ -8464,7 +11013,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "📖",
             "form": "noun",
-            "plural": "βιβλία"
+            "plural": "βιβλία",
+            "definitions": [
+                {
+                    "text": "Ένα αντικείμενο με πολλές σελίδες που το διαβάζουμε.",
+                    "examples": ["Διαβάζω ένα βιβλίο.", "Το βιβλίο είναι στη βιβλιοθήκη."]
+                }
+            ]
         },
         {
             "word": "ρολόι",
@@ -8479,7 +11034,13 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "👛",
             "form": "noun",
-            "plural": "πορτοφόλια"
+            "plural": "πορτοφόλια",
+            "definitions": [
+                {
+                    "text": "Μια μικρή θήκη για να φυλάμε χρήματα και κάρτες.",
+                    "examples": ["Έχασα το πορτοφόλι μου.", "Βάλε τα χρήματα στο πορτοφόλι."]
+                }
+            ]
         },
         {
             "word": "γυαλιά",
@@ -8487,7 +11048,17 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "👓",
             "form": "noun",
-            "plural": "γυαλιά"
+            "plural": "γυαλιά",
+            "definitions": [
+                {
+                    "text": "Κάτι που φοράμε στο πρόσωπο για να βλέπουμε καλύτερα.",
+                    "examples": ["Χρειάζομαι καινούρια γυαλιά.", "Φοράει μαύρα γυαλιά."]
+                },
+                {
+                    "text": "Δοχεία που χρησιμοποιούμε για να πίνουμε νερό ή χυμό.",
+                    "examples": ["Δύο ποτήρια νερό, παρακαλώ.", "Τα ποτήρια είναι στην κουζίνα."]
+                }
+            ]
         },
         {
             "word": "γάτα",
@@ -8495,7 +11066,13 @@ const vocabularyData = {
             "theme": "animal",
             "emoji": "🐈",
             "form": "noun",
-            "plural": "γάτες"
+            "plural": "γάτες",
+            "definitions": [
+                {
+                    "text": "Ένα μικρό τριχωτό ζώο που πολλοί άνθρωποι έχουν στο σπίτι.",
+                    "examples": ["Η γάτα μου κοιμάται.", "Αγαπώ τις γάτες."]
+                }
+            ]
         },
         {
             "word": "σκύλος",
@@ -8507,60 +11084,86 @@ const vocabularyData = {
             "numberPlural": "5 σκύλος",
             "answer": "πέντε σκύλοι",
             "form": "noun",
-            "plural": "σκύλοι"
+            "plural": "σκύλοι",
+            "definitions": [
+                {
+                    "text": "Ένα ζώο που συχνά αποκαλείται 'ο καλύτερος φίλος του ανθρώπου'.",
+                    "examples": ["Πηγαίνω βόλτα τον σκύλο μου στο πάρκο.", "Ο σκύλος γαβγίζει."]
+                }
+            ]
         },
         {
             "word": "πουλί",
             "level": "starter",
             "theme": "animal",
             "emoji": "🐦",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "πουλιά",
+            "definitions": [
+                {
+                    "text": "Ένα ζώο με πούπουλα και φτερά που συνήθως μπορεί να πετάξει.",
+                    "examples": ["Ένα πουλί τραγουδάει.", "Κοίτα αυτό το όμορφο πουλί!"]
+                }
+            ]
         },
         {
             "word": "λιοντάρι",
             "level": "elementary",
             "theme": "animal",
             "emoji": "🦁",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "λιοντάρια",
+            "definitions": [
+                {
+                    "text": "Ένα μεγάλο άγριο αιλουροειδές που ζει στην Αφρική και αποκαλείται 'ο βασιλιάς της ζούγκλας'.",
+                    "examples": ["Το λιοντάρι είναι πολύ δυνατό.", "Είδαμε ένα λιοντάρι στο ζωολογικό κήπο."]
+                }
+            ]
         },
         {
             "word": "τίγρης",
             "level": "elementary",
             "theme": "animal",
             "emoji": "🐯",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "τίγρεις"
         },
         {
             "word": "ελέφαντας",
             "level": "intermediate",
             "theme": "animal",
             "emoji": "🐘",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "ελέφαντες"
         },
         {
             "word": "μαϊμού",
             "level": "intermediate",
             "theme": "animal",
             "emoji": "🐒",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "μαϊμούδες"
         },
         {
             "word": "ζωγραφική",
             "level": "elementary",
             "theme": "leisure_hobbies",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "ζωγραφικές"
         },
         {
             "word": "μαγειρική",
             "level": "elementary",
             "theme": "leisure_hobbies",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "μαγειρικές"
         },
         {
             "word": "διάβασμα",
             "level": "starter",
             "theme": "leisure_hobbies",
-            "form": "adjective"
+            "form": "noun",
+            "plural": "διαβάσματα"
         },
         {
             "word": "χορός",
@@ -8630,7 +11233,17 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👤",
             "form": "noun",
-            "plural": "κεφάλια"
+            "plural": "κεφάλια",
+            "definitions": [
+                {
+                    "text": "Το πάνω μέρος του σώματος που περιέχει τον εγκέφαλο και το πρόσωπο.",
+                    "examples": ["Φοράω καπέλο στο κεφάλι.", "Έγνεψε με το κεφάλι του."]
+                },
+                {
+                    "text": "Ο αρχηγός μιας ομάδας ή οργάνωσης.",
+                    "examples": ["Είναι η κεφαλή της οικογένειας.", "Ποιος είναι ο προϊστάμενος;"]
+                }
+            ]
         },
         {
             "word": "χέρι",
@@ -8638,7 +11251,17 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "✋",
             "form": "noun",
-            "plural": "χέρια"
+            "plural": "χέρια",
+            "definitions": [
+                {
+                    "text": "Το μέρος του σώματος στην άκρη του μπράτσου με τα δάχτυλα.",
+                    "examples": ["Πλύνε τα χέρια σου.", "Δώσε μου το χέρι σου."]
+                },
+                {
+                    "text": "Βοήθεια.",
+                    "examples": ["Μπορείς να μου δώσεις ένα χεράκι;", "Χρειάζομαι βοήθεια εδώ."]
+                }
+            ]
         },
         {
             "word": "πόδι",
@@ -8653,7 +11276,13 @@ const vocabularyData = {
             "theme": "health_body",
             "emoji": "👁️",
             "form": "noun",
-            "plural": "μάτια"
+            "plural": "μάτια",
+            "definitions": [
+                {
+                    "text": "Το όργανο της όρασης.",
+                    "examples": ["Κλείσε τα μάτια σου.", "Έχει μπλε μάτια."]
+                }
+            ]
         },
         {
             "word": "μύτη",
@@ -8716,7 +11345,13 @@ const vocabularyData = {
             "theme": "education_work",
             "emoji": "🎓",
             "form": "noun",
-            "plural": "πανεπιστήμια"
+            "plural": "πανεπιστήμια",
+            "definitions": [
+                {
+                    "text": "Ένα ανώτατο εκπαιδευτικό ίδρυμα.",
+                    "examples": ["Σπουδάζει στο πανεπιστήμιο.", "Το πανεπιστήμιο έχει μια μεγάλη βιβλιοθήκη."]
+                }
+            ]
         },
         {
             "word": "συνάδελφος",
@@ -8779,28 +11414,64 @@ const vocabularyData = {
             "level": "intermediate",
             "theme": "health_body",
             "emoji": "🧠",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Η κατάσταση της συναισθηματικής και ψυχολογικής ευεξίας.",
+                    "examples": ["Η ψυχική υγεία είναι εξίσου σημαντική με τη σωματική.", "Πρέπει να φροντίζουμε την ψυχική μας υγεία."]
+                }
+            ]
         },
         {
             "word": "τοπική κουζίνα",
             "level": "elementary",
             "theme": "food_drinks",
             "emoji": "🍜",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Παραδοσιακό φαγητό από μια συγκεκριμένη περιοχή.",
+                    "examples": ["Μου αρέσει να δοκιμάζω την τοπική κουζίνα.", "Η τοπική κουζίνα εδώ είναι πολύ πικάντικη."]
+                },
+                {
+                    "text": "Η δοκιμή της τοπικής κουζίνας είναι ένα υπέροχο μέρος του ταξιδιού.",
+                    "examples": ["Η τοπική κουζίνα χρησιμοποιεί φρέσκα υλικά από την περιοχή."]
+                }
+            ]
         },
         {
             "word": "μητέρα",
             "level": "starter",
             "theme": "family",
             "emoji": "👩",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Η γυναίκα που είναι γονέας σου.",
+                    "examples": ["Η μητέρα μου είναι καλή.", "Αγαπώ τη μητέρα μου."]
+                },
+                {
+                    "text": "Αυτό το άτομο είναι συνήθως η σύζυγος του πατέρα σου (ή άλλου γονέα).",
+                    "examples": ["Οι μητέρες φροντίζουν τα παιδιά τους."]
+                }
+            ]
         },
         {
             "word": "πατέρας",
             "level": "starter",
             "theme": "family",
             "emoji": "👨",
-            "form": "verb"
+            "form": "noun",
+            "definitions": [
+                {
+                    "text": "Ο άνδρας που είναι γονέας σου.",
+                    "examples": ["Ο πατέρας μου εργάζεται.", "Ο πατέρας του είναι ψηλός."]
+                },
+                {
+                    "text": "Αυτό το άτομο είναι συνήθως ο σύζυγος της μητέρας σου (ή άλλου γονέα).",
+                    "examples": ["Ο πατέρας μου δουλεύει πολύ."]
+                }
+            ]
         },
         {
             "word": "καφές",
@@ -8830,7 +11501,13 @@ const vocabularyData = {
             "baseWord": "νερό",
             "emoji": "🚰",
             "form": "verb",
-            "plural": "νερό"
+            "plural": "νερό",
+            "definitions": [
+                {
+                    "text": "Ένα διαφανές υγρό που πίνουμε για να ζήσουμε.",
+                    "examples": ["Πίνω ένα ποτήρι νερό.", "Το νερό είναι κρύο."]
+                }
+            ]
         },
         {
             "word": "βιβλίο",
@@ -8842,7 +11519,13 @@ const vocabularyData = {
             "answer": "δύο βιβλία",
             "emoji": "📖",
             "form": "verb",
-            "plural": "βιβλία"
+            "plural": "βιβλία",
+            "definitions": [
+                {
+                    "text": "Πολλές σελίδες με λέξεις και εικόνες που διαβάζετε.",
+                    "examples": ["Διαβάζω ένα βιβλίο κάθε βράδυ.", "Αυτό το βιβλίο είναι ενδιαφέρον."]
+                }
+            ]
         },
         {
             "word": "σπίτι",
@@ -8865,8 +11548,14 @@ const vocabularyData = {
             "numberPlural": "3 γυναίκα",
             "answer": "τρεις γυναίκες",
             "emoji": "👩",
-            "form": "adjective",
-            "plural": "τρεις γυναίκες"
+            "form": "noun",
+            "plural": "τρεις γυναίκες",
+            "definitions": [
+                {
+                    "text": "Ένας ενήλικος θηλυκός άνθρωπος.",
+                    "examples": ["Είναι μια πολύ δυνατή γυναίκα.", "Υπάρχουν τρεις γυναίκες στο γραφείο."]
+                }
+            ]
         },
         {
             "word": "άνδρας",
@@ -8877,8 +11566,14 @@ const vocabularyData = {
             "numberPlural": "2 άνδρας",
             "answer": "δύο άνδρες",
             "emoji": "👨",
-            "form": "adjective",
-            "plural": "άνδρες"
+            "form": "noun",
+            "plural": "άνδρες",
+            "definitions": [
+                {
+                    "text": "Ένας ενήλικος αρσενικός άνθρωπος.",
+                    "examples": ["Αυτός ο άνδρας είναι ο δάσκαλός μου.", "Ένας ψηλός άνδρας στέκεται εκεί."]
+                }
+            ]
         },
         {
             "word": "παιδί",
@@ -8889,8 +11584,14 @@ const vocabularyData = {
             "numberPlural": "πολλά παιδί",
             "answer": "πολλά παιδιά",
             "emoji": "🧒",
-            "form": "adjective",
-            "plural": "παιδιά"
+            "form": "noun",
+            "plural": "παιδιά",
+            "definitions": [
+                {
+                    "text": "Ένας νεαρός άνθρωπος που δεν είναι ακόμη ενήλικας.",
+                    "examples": ["Το παιδί παίζει με ένα παιχνίδι.", "Πόσα παιδιά έχουν;"]
+                }
+            ]
         },
         {
             "word": "είμαι",
@@ -8898,7 +11599,7 @@ const vocabularyData = {
             "theme": "people_society",
             "emoji": "👤",
             "subtext": "κρυώνω, είμαι 20 χρονών",
-            "form": "adjective"
+            "form": "verb"
         },
         {
             "word": "έχω",
@@ -8906,7 +11607,7 @@ const vocabularyData = {
             "theme": "daily_life",
             "emoji": "👜",
             "subtext": "τρώω πρωινό, έχω ένα αυτοκίνητο",
-            "form": "adjective"
+            "form": "verb"
         },
         {
             "word": "πηγαίνω",
@@ -8914,7 +11615,7 @@ const vocabularyData = {
             "theme": "travel_places",
             "emoji": "🚶",
             "subtext": "πηγαίνω στο σχολείο, πηγαίνω σπίτι",
-            "form": "adjective"
+            "form": "verb"
         },
         {
             "word": "τρώω",
@@ -8924,7 +11625,13 @@ const vocabularyData = {
             "subtext": "τρώω ένα μήλο, τρώω βραδινό",
             "opposite": "πίνω",
             "oppositeEmoji": "🥛",
-            "form": "adjective"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Βάζω τροφή στο στόμα και την καταπίνω.",
+                    "examples": ["Τρώω ένα μήλο κάθε μέρα.", "Τι θέλεις να φας;"]
+                }
+            ]
         },
         {
             "word": "πίνω",
@@ -8932,8 +11639,13 @@ const vocabularyData = {
             "theme": "food_drinks",
             "emoji": "🥛",
             "subtext": "πίνω νερό, πίνω καφέ",
-            "form": "noun",
-            "plural": "πίνω"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Βάζω υγρό στο στόμα και το καταπίνω.",
+                    "examples": ["Πίνω πολύ νερό.", "Θέλεις κάτι να πιεις;"]
+                }
+            ]
         },
         {
             "word": "κάνω",
@@ -8986,8 +11698,13 @@ const vocabularyData = {
             "theme": "people_society",
             "emoji": "👁️",
             "subtext": "βλέπω μια ταινία, βλέπω ένα φίλο",
-            "form": "noun",
-            "plural": "βλέπω"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Χρησιμοποιώ τα μάτια μου για να κοιτάξω κάτι.",
+                    "examples": ["Βλέπω ένα πουλί.", "Είδες αυτή την ταινία;"]
+                }
+            ]
         },
         {
             "word": "θέλω",
@@ -9170,8 +11887,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "people_society",
             "emoji": "🤝",
-            "form": "noun",
-            "plural": "βοηθάω"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Δίνω βοήθεια σε κάποιον που τη χρειάζεται.",
+                    "examples": ["Μπορώ να σε βοηθήσω;", "Βοηθάει τη μητέρα του στο σπίτι."]
+                }
+            ]
         },
         {
             "word": "παίζω",
@@ -9338,7 +12060,13 @@ const vocabularyData = {
             "theme": "leisure_hobbies",
             "emoji": "📺",
             "form": "noun",
-            "plural": "παρακολουθώ"
+            "plural": "παρακολουθώ",
+            "definitions": [
+                {
+                    "text": "Η πράξη του να κοιτάζεις κάτι για ένα χρονικό διάστημα.",
+                    "examples": ["Η παρακολούθηση τηλεόρασης είναι χαλαρωτική.", "Χρειάζεται προσεκτική παρακολούθηση."]
+                }
+            ]
         },
         {
             "word": "ακολουθώ",
@@ -9410,8 +12138,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "travel_places",
             "emoji": "🚶",
-            "form": "noun",
-            "plural": "περπατάω"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Μετακινούμαι με τα πόδια.",
+                    "examples": ["Περπατάω για να πάω στο σχολείο.", "Ας περπατήσουμε στο πάρκο."]
+                }
+            ]
         },
         {
             "word": "νικάω",
@@ -9708,7 +12441,13 @@ const vocabularyData = {
             "level": "starter",
             "theme": "leisure_hobbies",
             "emoji": "🎨",
-            "form": "verb"
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "Αναπαριστώ κάτι με γραμμές και χρώματα στο χαρτί.",
+                    "examples": ["Μου αρέσει να σχεδιάζω τοπία.", "Σχεδίασε έναν κύκλο."]
+                }
+            ]
         },
         {
             "word": "πιάζω",

@@ -227,6 +227,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const backToMenuBtn = document.getElementById('back-to-menu-btn');
     const shareLinkBtn = document.getElementById('share-link-btn');
     const exitPracticeBtn = document.getElementById('exit-practice-btn');
+    const closeDefinitionBtn = document.getElementById('close-definition-btn');
+    const wordDisplay = document.getElementById('word-display');
+
+    if (wordDisplay) {
+        wordDisplay.addEventListener('click', showWordDefinition);
+    }
+
+    if (closeDefinitionBtn) {
+        closeDefinitionBtn.addEventListener('click', () => {
+            document.getElementById('definition-modal').style.display = 'none';
+        });
+    }
+
+    const definitionModal = document.getElementById('definition-modal');
+    if (definitionModal) {
+        definitionModal.addEventListener('click', (e) => {
+            if (e.target === definitionModal) {
+                definitionModal.style.display = 'none';
+            }
+        });
+    }
 
     if (exitPracticeBtn) {
         exitPracticeBtn.addEventListener('click', () => {
@@ -1162,6 +1183,54 @@ function resumePractice() {
     }
 }
 
+function showWordDefinition() {
+    const wordObj = currentPractice.currentWord;
+    if (!wordObj || !wordObj.definitions || wordObj.definitions.length === 0) return;
+
+    const modal = document.getElementById('definition-modal');
+    const content = document.getElementById('definition-content');
+    const titleEl = document.getElementById('definition-modal-title');
+    const lang = currentPractice.language;
+    const t = translations[lang] || translations['en'];
+
+    const baseTitle = t['definition_modal_title'] || 'Definition';
+    const displayWord = wordObj.word || wordObj.text || wordObj.topic;
+    titleEl.textContent = `${baseTitle}: ${displayWord} 📖`;
+    titleEl.removeAttribute('data-translate-key'); // Manual update
+
+    content.innerHTML = '';
+
+    wordObj.definitions.forEach((def, index) => {
+        const defDiv = document.createElement('div');
+        defDiv.className = index === 0 ? 'main-definition' : 'sub-definition';
+
+        const textPara = document.createElement('p');
+        textPara.className = 'definition-text';
+        textPara.textContent = def.text;
+        defDiv.appendChild(textPara);
+
+        if (def.examples && def.examples.length > 0) {
+            const exLabel = document.createElement('div');
+            exLabel.className = 'examples-label';
+            exLabel.textContent = (t['examples_label'] || 'Examples') + ':';
+            defDiv.appendChild(exLabel);
+
+            const exList = document.createElement('ul');
+            exList.className = 'examples-list';
+            def.examples.forEach(ex => {
+                const li = document.createElement('li');
+                li.textContent = ex;
+                exList.appendChild(li);
+            });
+            defDiv.appendChild(exList);
+        }
+        content.appendChild(defDiv);
+    });
+
+    modal.style.display = 'flex';
+    if (typeof setLanguage === 'function') setLanguage(lang);
+}
+
 function showNextWord() {
     if (!currentPractice.isWheelMode) {
         if (currentPractice.currentIndex >= currentPractice.words.length) {
@@ -1346,6 +1415,18 @@ function showNextWord() {
 
     if (typeof setLanguage === 'function') {
         setLanguage(currentPractice.language);
+    }
+
+    // Add definition hint only if word is actually visible (not '???')
+    const wordDisplay = document.getElementById('word-display');
+    if (wordDisplay) {
+        if (wordObj.definitions && wordObj.definitions.length > 0 && wordDisplay.textContent !== '???') {
+            wordDisplay.classList.add('has-definition');
+            wordDisplay.title = (translations[currentPractice.language] && translations[currentPractice.language]['click_for_definition']) || "Click for definition";
+        } else {
+            wordDisplay.classList.remove('has-definition');
+            wordDisplay.removeAttribute('title');
+        }
     }
 }
 
