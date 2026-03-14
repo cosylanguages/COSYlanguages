@@ -10,7 +10,8 @@ var currentPractice = {
     isCorrect: false,
     scrambleAnswer: "",
     score: 0,
-    wheelItems: []
+    wheelItems: [],
+    hintLevel: 0
 };
 
 function saveSession() {
@@ -433,6 +434,30 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     window.updateCategoryUI(); // Initial call
 
+    // Global Enter Key Handler
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            const nextBtn = document.getElementById('next-btn');
+            const checkBtn = document.getElementById('check-opposite-btn');
+            const setupSection = document.getElementById('setup-section');
+            const summaryModal = document.getElementById('summary-modal');
+
+            // Don't trigger if setup is visible or summary is open
+            if ((setupSection && setupSection.style.display !== 'none') ||
+                (summaryModal && summaryModal.style.display === 'flex')) {
+                return;
+            }
+
+            if (nextBtn && nextBtn.style.display === 'block') {
+                nextBtn.click();
+                e.preventDefault();
+            } else if (checkBtn && checkBtn.style.display !== 'none' && !checkBtn.disabled) {
+                checkBtn.click();
+                e.preventDefault();
+            }
+        }
+    });
+
     if (nextBtn) {
         nextBtn.addEventListener('click', showNextWord);
     }
@@ -501,9 +526,22 @@ function showHint() {
 
     if (!targetAnswer) return;
 
+    // Support multiple correct answers
+    const primaryAnswer = targetAnswer.split(' / ')[0];
+
+    currentPractice.hintLevel = (currentPractice.hintLevel || 0) + 1;
+    // Reveal up to length - 2 characters to keep some challenge
+    const maxReveal = Math.max(1, primaryAnswer.length - 2);
+    const revealCount = Math.min(currentPractice.hintLevel, maxReveal);
+
     const feedbackMsg = document.getElementById('feedback-message');
     feedbackMsg.className = 'feedback-text hint';
-    feedbackMsg.textContent = "Hint: " + targetAnswer.charAt(0).toUpperCase() + "...";
+
+    let hintPart = primaryAnswer.substring(0, revealCount);
+    // Proper capitalization for the hint display
+    hintPart = hintPart.charAt(0).toUpperCase() + hintPart.slice(1);
+
+    feedbackMsg.textContent = "Hint: " + hintPart + "...";
 }
 
 function speakWord() {
@@ -1244,6 +1282,7 @@ function showNextWord() {
         currentPractice.currentWord = currentPractice.words[currentPractice.currentIndex];
     }
 
+    currentPractice.hintLevel = 0; // Reset hint level for new word
     updateProgress();
     triggerAnimation('fadeIn');
 

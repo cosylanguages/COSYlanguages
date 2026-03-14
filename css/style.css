@@ -1748,3 +1748,18 @@ button:active, .choice-btn:active, .bingo-cell:active, .lang-selection-card:acti
         font-size: 8rem !important;
     }
 }
+
+#action-buttons-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+}
+
+#check-opposite-btn, #hint-btn {
+    flex: 1;
+    min-width: 120px;
+    white-space: nowrap;
+}
