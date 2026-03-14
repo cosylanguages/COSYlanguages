@@ -309,7 +309,7 @@ function renderGenderArticles() {
         it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
         fr: ['le', 'la', "l'", 'les'],
         el: ['ο', 'η', 'το', 'οι', 'τα'],
-        ru: ['он', 'она', 'оνο']
+        ru: ['он', 'она', 'оно']
     };
     const choices = articlesMap[lang] || [];
     const target = wordObj.article || wordObj.gender;
