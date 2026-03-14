@@ -54,10 +54,13 @@
 
                     <div id="answer-area">
                         <!-- Opposite/Cloze task -->
-                        <div id="opposite-input-container" style="display: none;">
-                            <input type="text" id="opposite-answer" data-translate-key="placeholder_type_here" placeholder="...">
-                            <button id="check-opposite-btn" class="topics-toggle-btn" data-translate-key="check_btn">Check 🔍</button>
-                            <button id="hint-btn" class="topics-toggle-btn secondary-btn" style="display: none;" data-translate-key="hint_btn">Hint 💡</button>
+                        <div id="opposite-input-container" style="display: none; flex-direction: column; align-items: center; width: 100%;">
+                            <input type="text" id="opposite-answer" class="app-input" data-translate-key="placeholder_type_here" placeholder="..." autocomplete="off" autocapitalize="off" spellcheck="false" style="width: 100%; max-width: 400px; font-size: 1.5rem; border-radius: 20px; padding: 1.2rem; margin-bottom: 1.5rem; border: 3px solid var(--light-gray); text-align: center;">
+                        </div>
+
+                        <div id="action-buttons-container" style="display: none;">
+                            <button id="check-opposite-btn" class="cta-button primary" data-translate-key="check_btn">Check 🔍</button>
+                            <button id="hint-btn" class="cta-button secondary" data-translate-key="hint_btn">Hint 💡</button>
                         </div>
 
                         <!-- True/False task -->

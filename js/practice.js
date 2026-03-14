@@ -10,7 +10,8 @@ var currentPractice = {
     isCorrect: false,
     scrambleAnswer: "",
     score: 0,
-    wheelItems: []
+    wheelItems: [],
+    hintLevel: 0
 };
 
 function saveSession() {
@@ -433,6 +434,30 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     window.updateCategoryUI(); // Initial call
 
+    // Global Enter Key Handler
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            const nextBtn = document.getElementById('next-btn');
+            const checkBtn = document.getElementById('check-opposite-btn');
+            const setupSection = document.getElementById('setup-section');
+            const summaryModal = document.getElementById('summary-modal');
+
+            // Don't trigger if setup is visible or summary is open
+            if ((setupSection && setupSection.style.display !== 'none') ||
+                (summaryModal && summaryModal.style.display === 'flex')) {
+                return;
+            }
+
+            if (nextBtn && nextBtn.style.display === 'block') {
+                nextBtn.click();
+                e.preventDefault();
+            } else if (checkBtn && checkBtn.style.display !== 'none' && !checkBtn.disabled) {
+                checkBtn.click();
+                e.preventDefault();
+            }
+        }
+    });
+
     if (nextBtn) {
         nextBtn.addEventListener('click', showNextWord);
     }
@@ -490,22 +515,38 @@ function showHint() {
     if (!wordObj) return;
 
     let targetAnswer = "";
-    if (wordObj.type === 'cloze' || wordObj.type === 'multiple_choice' || wordObj.type === 'scramble' || wordObj.type === 'gender_articles' || wordObj.type === 'number_plural') {
+    const t = wordObj.type;
+    if (t === 'type-cl' || t === 'type-mc' || t === 'type-sc' || t === 'type-ga' || t === 'type-np' || t === 'type-ls' || t === 'type-ws') {
         targetAnswer = wordObj.answer || wordObj.word || wordObj.text || wordObj.topic || wordObj.article || wordObj.gender;
-    } else if (wordObj.type === 'opposite') {
+    } else if (t === 'type-op') {
         targetAnswer = wordObj.opposite;
     } else {
-        return; // No hint for true_false
+        return; // No hint for type-tf or type-cv
     }
+
+    if (!targetAnswer) return;
+
+    // Support multiple correct answers
+    const primaryAnswer = targetAnswer.split(' / ')[0];
+
+    currentPractice.hintLevel = (currentPractice.hintLevel || 0) + 1;
+    // Reveal up to length - 2 characters to keep some challenge
+    const maxReveal = Math.max(1, primaryAnswer.length - 2);
+    const revealCount = Math.min(currentPractice.hintLevel, maxReveal);
 
     const feedbackMsg = document.getElementById('feedback-message');
     feedbackMsg.className = 'feedback-text hint';
-    feedbackMsg.textContent = "Hint: " + targetAnswer.charAt(0).toUpperCase() + "...";
+
+    let hintPart = primaryAnswer.substring(0, revealCount);
+    // Proper capitalization for the hint display
+    hintPart = hintPart.charAt(0).toUpperCase() + hintPart.slice(1);
+
+    feedbackMsg.textContent = "Hint: " + hintPart + "...";
 }
 
 function speakWord() {
     if (!currentPractice.currentWord) return;
-    const text = (currentPractice.currentWord.type === 'gender_articles' && currentPractice.currentWord.baseWord)
+    const text = (currentPractice.currentWord.type === 'type-ga' && currentPractice.currentWord.baseWord)
         ? currentPractice.currentWord.baseWord
         : (currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.baseWord);
     window.gameUtils.speak(text, currentPractice.language);
@@ -911,7 +952,7 @@ function startPractice(isWheelMode = false) {
                 list.forEach(item => rawItems.push({
                     ...item,
                     category: 'conversation',
-                    type: 'conversation',
+                    type: 'type-cv',
                     originalTheme: item.theme, // preserve original theme if needed
                     theme: subCat // Use sub-category as theme for filtering
                 }));
@@ -946,8 +987,8 @@ function startPractice(isWheelMode = false) {
         let wordCopy = { ...item };
         let possibleTypes = [...enabledTypes];
 
-        if (wordCopy.category === 'conversation' || wordCopy.type === 'conversation') {
-            return { ...wordCopy, type: 'conversation' };
+        if (wordCopy.category === 'conversation' || wordCopy.type === 'type-cv') {
+            return { ...wordCopy, type: 'type-cv' };
         }
 
         // Respect preferred type from grammar expansion if it's enabled
@@ -959,15 +1000,15 @@ function startPractice(isWheelMode = false) {
             return wordCopy;
         }
 
-        possibleTypes = possibleTypes.filter(t => t !== 'conversation');
+        possibleTypes = possibleTypes.filter(t => t !== 'type-cv');
         if (wordCopy.opposite && Math.random() > 0.5) {
             const originalWord = wordCopy.word;
             wordCopy.word = wordCopy.opposite;
             wordCopy.opposite = originalWord;
         }
 
-        if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'opposite');
-        if (!wordCopy.clozeText) possibleTypes = possibleTypes.filter(t => t !== 'cloze');
+        if (!wordCopy.opposite) possibleTypes = possibleTypes.filter(t => t !== 'type-op');
+        if (!wordCopy.clozeText && !wordCopy.answer) possibleTypes = possibleTypes.filter(t => t !== 'type-cl');
 
         // Grammar category specific filtering to avoid task type mismatch
         if (wordCopy.form === 'verb' || wordCopy.form === 'pronoun') {
@@ -981,10 +1022,10 @@ function startPractice(isWheelMode = false) {
 
         const isSentence = wordCopy.word && wordCopy.word.includes(' ');
         if (isSentence) {
-            possibleTypes = possibleTypes.filter(t => t !== 'scramble');
-            if (wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'word_scramble');
+            possibleTypes = possibleTypes.filter(t => t !== 'type-sc');
+            if (wordCopy.numberPlural) possibleTypes = possibleTypes.filter(t => t !== 'type-ws');
         } else {
-            possibleTypes = possibleTypes.filter(t => t !== 'word_scramble');
+            possibleTypes = possibleTypes.filter(t => t !== 'type-ws');
         }
 
         if (possibleTypes.length === 0) return null;
@@ -1241,6 +1282,7 @@ function showNextWord() {
         currentPractice.currentWord = currentPractice.words[currentPractice.currentIndex];
     }
 
+    currentPractice.hintLevel = 0; // Reset hint level for new word
     updateProgress();
     triggerAnimation('fadeIn');
 
@@ -1251,11 +1293,12 @@ function showNextWord() {
     document.getElementById('next-btn').style.display = 'none';
     document.getElementById('opposite-answer').value = '';
     document.getElementById('opposite-input-container').style.display = 'none';
+    document.getElementById('action-buttons-container').style.display = 'none';
     document.getElementById('tf-buttons-container').style.display = 'none';
     document.getElementById('choices-grid').style.display = 'none';
     document.getElementById('scramble-container').style.display = 'none';
     document.getElementById('conversation-container').style.display = 'none';
-    document.getElementById('hint-btn').style.display = (wordObj.type === 'true_false' || wordObj.type === 'conversation' ? 'none' : 'inline-block');
+    document.getElementById('hint-btn').style.display = (wordObj.type === 'type-tf' || wordObj.type === 'type-cv' ? 'none' : 'inline-block');
 
 
     // Show Example
@@ -1266,15 +1309,15 @@ function showNextWord() {
         if (wordObj.form === 'verb_form') {
             typeKey = 'vf';
         } else {
-            typeKey = wordObj.type === 'word_scramble' ? 'ws' :
-                        wordObj.type === 'multiple_choice' ? 'mc' :
-                        wordObj.type === 'listen_select' ? 'ls' :
-                        wordObj.type === 'scramble' ? 'sc' :
-                        wordObj.type === 'opposite' ? 'op' :
-                        wordObj.type === 'cloze' ? 'cl' :
-                        wordObj.type === 'true_false' ? 'tf' :
-                        wordObj.type === 'gender_articles' ? 'ga' :
-                        wordObj.type === 'number_plural' ? 'np' : '';
+            typeKey = wordObj.type === 'type-ws' ? 'ws' :
+                        wordObj.type === 'type-mc' ? 'mc' :
+                        wordObj.type === 'type-ls' ? 'ls' :
+                        wordObj.type === 'type-sc' ? 'sc' :
+                        wordObj.type === 'type-op' ? 'op' :
+                        wordObj.type === 'type-cl' ? 'cl' :
+                        wordObj.type === 'type-tf' ? 'tf' :
+                        wordObj.type === 'type-ga' ? 'ga' :
+                        wordObj.type === 'type-np' ? 'np' : '';
         }
         const exampleKey = `example_${typeKey}`;
         if (translations[lang] && translations[lang][exampleKey]) {
@@ -1327,8 +1370,8 @@ function showNextWord() {
     const subtextDisplay = document.getElementById('subtext-display');
     if (subtextDisplay) subtextDisplay.style.display = 'none'; // Default hide
 
-    if (wordObj.type === 'multiple_choice' || wordObj.type === 'listen_select' || wordObj.type === 'type-mc' || wordObj.type === 'type-ls') {
-        const isListen = wordObj.type === 'listen_select' || wordObj.type === 'type-ls';
+    if (wordObj.type === 'type-mc' || wordObj.type === 'type-ls') {
+        const isListen = wordObj.type === 'type-ls';
         let text = isListen ? '???' : (wordObj.primaryPrompt || wordObj.clozeText || wordObj.word || wordObj.text || wordObj.topic);
         let sub = wordObj.secondaryContext || (isListen ? "" : wordObj.subtext);
 
@@ -1346,12 +1389,14 @@ function showNextWord() {
         document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
         document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
         document.getElementById('choices-grid').style.display = 'grid';
+        document.getElementById('action-buttons-container').style.display = 'flex';
+        document.getElementById('check-opposite-btn').style.display = 'none'; // Not needed for MC
         renderMultipleChoice();
         if (isListen) {
             setTimeout(speakWord, 500);
         }
-    } else if (wordObj.type === 'cloze' || wordObj.type === 'number_plural' || wordObj.type === 'type-cl' || wordObj.type === 'type-np') {
-        const isNP = wordObj.type === 'number_plural';
+    } else if (wordObj.type === 'type-cl' || wordObj.type === 'type-np') {
+        const isNP = wordObj.type === 'type-np';
         let text = wordObj.primaryPrompt || wordObj.clozeText || (isNP ? wordObj.numberPlural || "" : "");
         let sub = wordObj.secondaryContext || "";
 
@@ -1364,24 +1409,30 @@ function showNextWord() {
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', isNP ? 'task_number_plural' : 'task_cloze');
         document.getElementById('opposite-input-container').style.display = 'flex';
+        document.getElementById('action-buttons-container').style.display = 'flex';
+        document.getElementById('check-opposite-btn').style.display = 'inline-block';
         document.getElementById('opposite-answer').focus();
-    } else if (wordObj.type === 'scramble' || wordObj.type === 'word_scramble') {
+    } else if (wordObj.type === 'type-sc' || wordObj.type === 'type-ws') {
         document.getElementById('word-display').textContent = '???';
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
-        document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'word_scramble' ? 'task_word_scramble' : 'task_scramble');
+        document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'type-ws' ? 'task_word_scramble' : 'task_scramble');
         document.getElementById('scramble-container').style.display = 'block';
-        if (wordObj.type === 'word_scramble') {
+        document.getElementById('action-buttons-container').style.display = 'flex';
+        document.getElementById('check-opposite-btn').style.display = 'none'; // Auto-checked
+        if (wordObj.type === 'type-ws') {
             renderWordScramble();
         } else {
             renderScramble();
         }
-    } else if (wordObj.type === 'gender_articles' || wordObj.type === 'type-ga') {
+    } else if (wordObj.type === 'type-ga') {
         document.getElementById('word-display').textContent = wordObj.baseWord;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_gender_articles');
         document.getElementById('choices-grid').style.display = 'grid';
+        document.getElementById('action-buttons-container').style.display = 'flex';
+        document.getElementById('check-opposite-btn').style.display = 'none';
         renderGenderArticles();
-    } else if (wordObj.type === 'true_false') {
+    } else if (wordObj.type === 'type-tf') {
         document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
         const isTrueQuestion = Math.random() > 0.5;
         currentPractice.tfCorrectAnswer = isTrueQuestion;
@@ -1397,19 +1448,20 @@ function showNextWord() {
 
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_true_false');
         document.getElementById('tf-buttons-container').style.display = 'flex';
-    } else if (wordObj.type === 'conversation') {
+    } else if (wordObj.type === 'type-cv') {
         document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💬';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_conversation');
         document.getElementById('conversation-container').style.display = 'block';
         document.getElementById('conversation-response').value = '';
         document.getElementById('conversation-response').focus();
-    } else {
-        // opposite
+    } else if (wordObj.type === 'type-op') {
         document.getElementById('word-display').textContent = wordObj.word || wordObj.text || wordObj.topic;
         document.getElementById('emoji-display').textContent = wordObj.emoji || "💡";
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_opposite');
         document.getElementById('opposite-input-container').style.display = 'flex';
+        document.getElementById('action-buttons-container').style.display = 'flex';
+        document.getElementById('check-opposite-btn').style.display = 'inline-block';
         document.getElementById('opposite-answer').focus();
     }
 
@@ -1588,7 +1640,7 @@ function renderWordScramble() {
 }
 
 function clearScramble() {
-    if (currentPractice.currentWord.type === 'word_scramble') {
+    if (currentPractice.currentWord.type === 'type-ws') {
         renderWordScramble();
     } else {
         renderScramble();
@@ -1626,10 +1678,14 @@ function checkTypedAnswer() {
     let correctAnswer;
 
     const type = currentPractice.currentWord.type;
-    if (type === 'cloze' || type === 'number_plural' || type === 'type-cl' || type === 'type-np') {
-        correctAnswer = currentPractice.currentWord.answer.toLowerCase();
+    if (type === 'type-cl' || type === 'type-np') {
+        correctAnswer = (currentPractice.currentWord.answer || "").toLowerCase();
+    } else if (type === 'type-op') {
+        correctAnswer = (currentPractice.currentWord.opposite || "").toLowerCase();
     } else {
-        correctAnswer = currentPractice.currentWord.opposite.toLowerCase();
+        // Fallback for other types that might reach here
+        const w = currentPractice.currentWord;
+        correctAnswer = (w.answer || w.word || w.text || w.topic || "").toLowerCase();
     }
 
     const possibleAnswers = correctAnswer.split(' / ').map(a => a.trim().toLowerCase());
@@ -1747,6 +1803,7 @@ function showFeedback(isCorrect) {
 
         saveSession();
         document.getElementById('opposite-input-container').style.display = 'none';
+        document.getElementById('action-buttons-container').style.display = 'none';
         document.getElementById('tf-buttons-container').style.display = 'none';
         document.getElementById('choices-grid').style.display = 'none';
         document.getElementById('scramble-container').style.display = 'none';

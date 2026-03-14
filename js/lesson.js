@@ -9,7 +9,8 @@ var currentLesson = {
     scrambleAnswer: "",
     scrambleAnswerWords: [],
     score: 0,
-    tfCorrectAnswer: null
+    tfCorrectAnswer: null,
+    hintLevel: 0
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -57,6 +58,28 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    // Global Enter Key Handler
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            const nextBtn = document.getElementById('next-btn');
+            const checkBtn = document.getElementById('check-opposite-btn');
+            const summaryModal = document.getElementById('summary-modal');
+
+            // Don't trigger if summary is open
+            if (summaryModal && summaryModal.style.display === 'flex') {
+                return;
+            }
+
+            if (nextBtn && nextBtn.style.display === 'block') {
+                nextBtn.click();
+                e.preventDefault();
+            } else if (checkBtn && checkBtn.style.display !== 'none' && !checkBtn.disabled) {
+                checkBtn.click();
+                e.preventDefault();
+            }
+        }
+    });
 
     startLesson();
 });
@@ -126,6 +149,7 @@ function showNextWord() {
         return;
     }
 
+    currentLesson.hintLevel = 0; // Reset hint level for new word
     currentLesson.currentWord = currentLesson.words[currentLesson.currentIndex];
     const wordObj = currentLesson.currentWord;
     currentLesson.isCorrect = false;
@@ -137,6 +161,7 @@ function showNextWord() {
     document.getElementById('next-btn').style.display = 'none';
     document.getElementById('opposite-answer').value = '';
     document.getElementById('opposite-input-container').style.display = 'none';
+    document.getElementById('action-buttons-container').style.display = 'none';
     document.getElementById('tf-buttons-container').style.display = 'none';
     document.getElementById('choices-grid').style.display = 'none';
     document.getElementById('scramble-container').style.display = 'none';
@@ -189,6 +214,7 @@ function showNextWord() {
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', wordObj.type === 'number_plural' ? 'task_number_plural' : 'task_cloze');
         document.getElementById('opposite-input-container').style.display = 'flex';
+        document.getElementById('action-buttons-container').style.display = 'flex';
         document.getElementById('opposite-answer').focus();
     } else if (wordObj.type === 'scramble' || wordObj.type === 'word_scramble') {
         document.getElementById('word-display').textContent = '???';
@@ -225,6 +251,7 @@ function showNextWord() {
         document.getElementById('emoji-display').textContent = wordObj.emoji;
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_opposite');
         document.getElementById('opposite-input-container').style.display = 'flex';
+        document.getElementById('action-buttons-container').style.display = 'flex';
         document.getElementById('opposite-answer').focus();
     }
 
@@ -377,6 +404,8 @@ function showFeedback(isCorrect) {
         document.getElementById('score-count').textContent = currentLesson.score;
         updateTotalScore(10);
         document.getElementById('next-btn').style.display = 'block';
+        document.getElementById('opposite-input-container').style.display = 'none';
+        document.getElementById('action-buttons-container').style.display = 'none';
         currentLesson.currentIndex++;
     }
 }
@@ -452,10 +481,26 @@ function speakWord() {
 function showHint() {
     const wordObj = currentLesson.currentWord;
     if (!wordObj) return;
+
     let target = wordObj.answer || wordObj.word || wordObj.article || wordObj.gender || wordObj.opposite;
-    const msg = document.getElementById('feedback-message');
-    msg.className = 'feedback-text hint';
-    msg.textContent = "Hint: " + target.charAt(0).toUpperCase() + "...";
+    if (!target) return;
+
+    // Support multiple correct answers
+    const primaryAnswer = target.split(' / ')[0];
+
+    currentLesson.hintLevel = (currentLesson.hintLevel || 0) + 1;
+    // Reveal up to length - 2 characters to keep some challenge
+    const maxReveal = Math.max(1, primaryAnswer.length - 2);
+    const revealCount = Math.min(currentLesson.hintLevel, maxReveal);
+
+    const feedbackMsg = document.getElementById('feedback-message');
+    feedbackMsg.className = 'feedback-text hint';
+
+    let hintPart = primaryAnswer.substring(0, revealCount);
+    // Proper capitalization for the hint display
+    hintPart = hintPart.charAt(0).toUpperCase() + hintPart.slice(1);
+
+    feedbackMsg.textContent = "Hint: " + hintPart + "...";
 }
 
 function clearScramble() {
