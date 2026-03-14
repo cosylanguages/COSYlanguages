@@ -698,6 +698,8 @@ function expandGrammarItems(items, lang) {
                         expanded.push({
                             ...item,
                             type: 'type-cl', // base type, startPractice might change to MC
+                            primaryPrompt: pronoun,
+                            secondaryContext: `${item.verb}${label}`,
                             clozeText: verbPrompt,
                             answer: conj,
                             word: conj,
@@ -715,6 +717,8 @@ function expandGrammarItems(items, lang) {
                             expanded.push({
                                 ...item,
                                 type: 'type-cl', // Changed to cloze so it can also be typed
+                                primaryPrompt: conj,
+                                secondaryContext: item.verb,
                                 clozeText: `____ ${conj} (${item.verb})`,
                                 answer: correctPronouns.join(' / '),
                                 word: pronoun,
@@ -737,6 +741,8 @@ function expandGrammarItems(items, lang) {
                 expanded.push({
                     ...item,
                     type: 'type-cl',
+                    primaryPrompt: v1,
+                    secondaryContext: 'V2 (Past)',
                     clozeText: `${item.verb} (V2 / Past) -> ____`,
                     answer: v2,
                     theme: 'grammar_verb_forms',
@@ -746,6 +752,8 @@ function expandGrammarItems(items, lang) {
                 expanded.push({
                     ...item,
                     type: 'type-cl',
+                    primaryPrompt: v1,
+                    secondaryContext: 'V3 (Past Participle)',
                     clozeText: `${item.verb} (V3 / Past Participle) -> ____`,
                     answer: v3,
                     theme: 'grammar_verb_forms',
@@ -773,6 +781,7 @@ function expandGrammarItems(items, lang) {
                 expanded.push({
                     ...item,
                     type: 'type-ga',
+                    primaryPrompt: baseWord,
                     clozeText: `____ ${baseWord}`,
                     answer: correctAnswer,
                     distractors: distractors,
@@ -798,6 +807,8 @@ function expandGrammarItems(items, lang) {
                 expanded.push({
                     ...item,
                     type: 'type-np',
+                    primaryPrompt: singular,
+                    secondaryContext: 'plural',
                     clozeText: `${singular} -> ____`,
                     answer: plural,
                     distractors: [...new Set(distractorsSP.map(d => d.toLowerCase()).filter(d => d !== plural.toLowerCase()))],
@@ -820,6 +831,8 @@ function expandGrammarItems(items, lang) {
                 expanded.push({
                     ...item,
                     type: 'type-np',
+                    primaryPrompt: plural,
+                    secondaryContext: 'singular',
                     clozeText: `${plural} -> ____`,
                     answer: singular,
                     distractors: [...new Set(distractorsPS.map(d => d.toLowerCase()).filter(d => d !== singular.toLowerCase()))],
@@ -1242,16 +1255,25 @@ function showNextWord() {
         metaContainer.style.display = 'none';
     }
 
+    const subtextDisplay = document.getElementById('subtext-display');
+    if (subtextDisplay) subtextDisplay.style.display = 'none'; // Default hide
+
     if (wordObj.type === 'multiple_choice' || wordObj.type === 'listen_select' || wordObj.type === 'type-mc' || wordObj.type === 'type-ls') {
         const isListen = wordObj.type === 'listen_select' || wordObj.type === 'type-ls';
-        let text = isListen ? '???' : (wordObj.clozeText || wordObj.word || wordObj.text || wordObj.topic);
+        let text = isListen ? '???' : (wordObj.primaryPrompt || wordObj.clozeText || wordObj.word || wordObj.text || wordObj.topic);
+        let sub = wordObj.secondaryContext || (isListen ? "" : wordObj.subtext);
 
         // Fix redundancy: hide target word for MC vocab if emoji is present
-        if (!isListen && (wordObj.category === 'vocabulary' || !wordObj.category) && wordObj.emoji) {
+        if (!isListen && (wordObj.category === 'vocabulary' || !wordObj.category) && wordObj.emoji && !wordObj.primaryPrompt) {
             text = "???";
         }
 
         document.getElementById('word-display').textContent = text;
+        const subDisplay = document.getElementById('subtext-display');
+        if (subDisplay) {
+            subDisplay.textContent = sub || "";
+            subDisplay.style.display = sub ? 'block' : 'none';
+        }
         document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
         document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
         document.getElementById('choices-grid').style.display = 'grid';
@@ -1261,7 +1283,15 @@ function showNextWord() {
         }
     } else if (wordObj.type === 'cloze' || wordObj.type === 'number_plural' || wordObj.type === 'type-cl' || wordObj.type === 'type-np') {
         const isNP = wordObj.type === 'number_plural';
-        document.getElementById('word-display').textContent = wordObj.clozeText || (isNP ? wordObj.numberPlural || "" : "");
+        let text = wordObj.primaryPrompt || wordObj.clozeText || (isNP ? wordObj.numberPlural || "" : "");
+        let sub = wordObj.secondaryContext || "";
+
+        document.getElementById('word-display').textContent = text;
+        const subDisplay = document.getElementById('subtext-display');
+        if (subDisplay) {
+            subDisplay.textContent = sub || "";
+            subDisplay.style.display = sub ? 'block' : 'none';
+        }
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', isNP ? 'task_number_plural' : 'task_cloze');
         document.getElementById('opposite-input-container').style.display = 'flex';
