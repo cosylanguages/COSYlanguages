@@ -201,6 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             hasWonCurrentCard = true;
                             playGameSound('success');
                             createConfetti();
+                            window.gameUtils.showGameMessage(playerArea, "BINGO! 🎉");
                         }
                     }
                 };
