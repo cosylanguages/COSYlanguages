@@ -1318,6 +1318,32 @@ function showNextWord() {
     document.getElementById('conversation-container').style.display = 'none';
     document.getElementById('hint-btn').style.display = (wordObj.type === 'type-tf' || wordObj.type === 'type-cv' ? 'none' : 'inline-block');
 
+    // Show "What to do" instruction
+    const wtdEl = document.getElementById('task-what-to-do');
+    if (wtdEl) {
+        const lang = currentPractice.language;
+        let typeKey = wordObj.form === 'verb_form' ? 'vf' :
+                      wordObj.form === 'verb' ? 'gv' :
+                      wordObj.form === 'pronoun' ? 'gp' :
+                      wordObj.type === 'type-ws' ? 'ws' :
+                      wordObj.type === 'type-mc' ? 'mc' :
+                      wordObj.type === 'type-ls' ? 'ls' :
+                      wordObj.type === 'type-sc' ? 'sc' :
+                      wordObj.type === 'type-op' ? 'op' :
+                      wordObj.type === 'type-cl' ? 'cl' :
+                      wordObj.type === 'type-tf' ? 'tf' :
+                      wordObj.type === 'type-ga' ? 'ga' :
+                      wordObj.type === 'type-np' ? 'np' : '';
+
+        const wtdKey = `wtd_${typeKey}`;
+        if (translations[lang] && translations[lang][wtdKey]) {
+            wtdEl.textContent = translations[lang][wtdKey];
+            wtdEl.style.display = 'inline-block';
+            wtdEl.setAttribute('data-translate-key', wtdKey);
+        } else {
+            wtdEl.style.display = 'none';
+        }
+    }
 
     // Show Example
     const exampleEl = document.getElementById('task-example');
@@ -1326,6 +1352,12 @@ function showNextWord() {
         let typeKey = "";
         if (wordObj.form === 'verb_form') {
             typeKey = 'vf';
+        } else if (wordObj.form === 'verb') {
+            typeKey = 'gv';
+        } else if (wordObj.form === 'pronoun') {
+            typeKey = 'gp';
+        } else if (wordObj.type === 'type-cv') {
+            typeKey = 'cv';
         } else {
             typeKey = wordObj.type === 'type-ws' ? 'ws' :
                         wordObj.type === 'type-mc' ? 'mc' :

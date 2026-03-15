@@ -1258,6 +1258,19 @@ footer {
     display: inline-block;
 }
 
+.what-to-do-box {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    background: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    border: 2px solid var(--accent-color);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
 #answer-area {
     margin-bottom: 1.5rem;
 }

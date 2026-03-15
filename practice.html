@@ -36,7 +36,7 @@
             <h2 data-translate-key="practice_title">Practice 💡</h2>
 
             <div id="setup-section" class="setup-card">
-                <details class="help-details glass" style="margin-bottom: 1.5rem; padding: 1rem; border-radius: 20px;">
+                <details class="help-details glass" style="margin-bottom: 1.5rem; padding: 1rem; border-radius: 20px;" open>
                     <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="how_it_works">How it works? 💡</summary>
                     <ul style="margin-top: 1rem; list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
                         <li data-translate-key="practice_guide_1">1. Select the language you want to learn.</li>
@@ -224,9 +224,10 @@
                         <span id="word-level" class="meta-badge level-badge"></span>
                     </div>
 
-                    <div class="task-header" style="margin-bottom: 2rem;">
+                    <div class="task-header" style="margin-bottom: 1.5rem;">
                         <div id="emoji-display" class="practice-emoji" style="font-size: 4.5rem; margin-bottom: 0.5rem;"></div>
-                        <div id="task-instruction" class="task-text" style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: #888;"></div>
+                        <div id="task-instruction" class="task-text" style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-bottom: 0.5rem;"></div>
+                        <div id="task-what-to-do" class="what-to-do-box" style="display: none;"></div>
                     </div>
 
                     <div id="task-example" class="subtext-display" style="display: none; background: rgba(255, 193, 7, 0.1); border-color: var(--secondary-color); margin-bottom: 1rem; width: 100%;"></div>
