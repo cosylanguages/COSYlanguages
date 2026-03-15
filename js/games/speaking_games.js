@@ -39,19 +39,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 topicDisplay.textContent = t('time_up');
             });
 
+            const ideasAContainer = sideAIdeas.parentElement;
+            const ideasBContainer = sideBIdeas.parentElement;
+
             sideAIdeas.innerHTML = '';
-            debate.ideasA.forEach(idea => {
-                const li = document.createElement('li');
-                li.textContent = idea;
-                sideAIdeas.appendChild(li);
-            });
+            if (debate.ideasA && debate.ideasA.length > 0) {
+                ideasAContainer.style.display = 'block';
+                debate.ideasA.forEach(idea => {
+                    const li = document.createElement('li');
+                    li.textContent = idea;
+                    sideAIdeas.appendChild(li);
+                });
+            } else {
+                ideasAContainer.style.display = 'none';
+            }
 
             sideBIdeas.innerHTML = '';
-            debate.ideasB.forEach(idea => {
-                const li = document.createElement('li');
-                li.textContent = idea;
-                sideBIdeas.appendChild(li);
-            });
+            if (debate.ideasB && debate.ideasB.length > 0) {
+                ideasBContainer.style.display = 'block';
+                debate.ideasB.forEach(idea => {
+                    const li = document.createElement('li');
+                    li.textContent = idea;
+                    sideBIdeas.appendChild(li);
+                });
+            } else {
+                ideasBContainer.style.display = 'none';
+            }
         };
 
         const openGame = () => {
