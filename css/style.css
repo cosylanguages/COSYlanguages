@@ -453,6 +453,26 @@ footer {
         font-size: 14px;
     }
 
+    .bingo-grid.cols-9 {
+        grid-template-columns: repeat(9, 1fr);
+        gap: 2px;
+    }
+
+    .bingo-grid.cols-9 .bingo-cell {
+        font-size: 0.7rem;
+        border-radius: 4px;
+        padding: 2px;
+    }
+
+    .bingo-grid.cols-5 {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+    }
+
+    .bingo-grid.cols-5 .bingo-cell {
+        font-size: 0.9rem;
+    }
+
     header {
         position: sticky;
         top: 0;
@@ -633,15 +653,36 @@ footer {
     }
 
     .modal-content h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     #bingo-last-called {
-        font-size: 6rem;
+        font-size: 5rem !important;
     }
 
     #emoji-display-large {
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+
+    .game-main-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .game-emoji-large {
+        font-size: 4rem;
+    }
+
+    .game-word-large {
+        font-size: 2rem;
+    }
+
+    #last-letter-history {
+        font-size: 0.85rem;
+        padding: 0.5rem;
+    }
+
+    .setup-row .setup-group {
+        min-width: 100%;
     }
 }
 
