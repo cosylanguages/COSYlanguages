@@ -1,6 +1,94 @@
 const vocabularyData = {
     "en": [
         {
+            "word": "zero",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "0️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 0.", "examples": ["Zero comes before one."] }]
+        },
+        {
+            "word": "one",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "1️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 1.", "examples": ["One and one is two."] }]
+        },
+        {
+            "word": "two",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "2️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 2.", "examples": ["A bicycle has two wheels."] }]
+        },
+        {
+            "word": "three",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "3️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 3.", "examples": ["A triangle has three sides."] }]
+        },
+        {
+            "word": "four",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "4️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 4.", "examples": ["A square has four corners."] }]
+        },
+        {
+            "word": "five",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "5️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 5.", "examples": ["I have five fingers on each hand."] }]
+        },
+        {
+            "word": "six",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "6️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 6.", "examples": ["Half a dozen is six."] }]
+        },
+        {
+            "word": "seven",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "7️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 7.", "examples": ["There are seven days in a week."] }]
+        },
+        {
+            "word": "eight",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "8️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 8.", "examples": ["An octopus has eight legs."] }]
+        },
+        {
+            "word": "nine",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "9️⃣",
+            "form": "noun",
+            "definitions": [{ "text": "The number 9.", "examples": ["Nine is the last single digit."] }]
+        },
+        {
+            "word": "ten",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "🔟",
+            "form": "noun",
+            "definitions": [{ "text": "The number 10.", "examples": ["Ten plus ten is twenty."] }]
+        },
+        {
             "word": "doctor",
             "level": "starter",
             "theme": "profession",
@@ -3115,6 +3203,83 @@ const vocabularyData = {
     ],
     "fr": [
         {
+            "word": "zéro",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "0️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "un",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "1️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "deux",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "2️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "trois",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "3️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "quatre",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "4️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "cinq",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "5️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "six",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "6️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "sept",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "7️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "huit",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "8️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "neuf",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "9️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "dix",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "🔟",
+            "form": "noun"
+        },
+        {
             "word": "médecin",
             "level": "starter",
             "theme": "profession",
@@ -5452,6 +5617,83 @@ const vocabularyData = {
         }
     ],
     "it": [
+        {
+            "word": "zero",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "0️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "uno",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "1️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "due",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "2️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "tre",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "3️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "quattro",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "4️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "cinque",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "5️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "sei",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "6️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "sette",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "7️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "otto",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "8️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "nove",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "9️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "dieci",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "🔟",
+            "form": "noun"
+        },
         {
             "word": "medico",
             "level": "starter",
@@ -7808,6 +8050,83 @@ const vocabularyData = {
     ],
     "ru": [
         {
+            "word": "ноль",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "0️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "один",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "1️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "два",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "2️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "три",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "3️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "четыре",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "4️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "пять",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "5️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "шесть",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "6️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "семь",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "7️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "восемь",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "8️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "девять",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "9️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "десять",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "🔟",
+            "form": "noun"
+        },
+        {
             "word": "врач",
             "level": "starter",
             "theme": "profession",
@@ -10123,6 +10442,83 @@ const vocabularyData = {
         }
     ],
     "el": [
+        {
+            "word": "μηδέν",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "0️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "ένα",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "1️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "δύο",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "2️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "τρία",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "3️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "τέσσερα",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "4️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "πέντε",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "5️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "έξι",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "6️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "επτά",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "7️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "οκτώ",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "8️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "εννέα",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "9️⃣",
+            "form": "noun"
+        },
+        {
+            "word": "δέκα",
+            "level": "starter",
+            "theme": "numbers",
+            "emoji": "🔟",
+            "form": "noun"
+        },
         {
             "word": "γιατρός",
             "level": "starter",

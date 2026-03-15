@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { speak, seededShuffle, handleShare, playGameSound } = window.gameUtils;
+    const { speak, seededShuffle, handleShare, playGameSound, createConfetti, showGameMessage } = window.gameUtils;
 
     const initBingo = () => {
         const modal = document.getElementById('bingo-modal');
@@ -136,14 +136,38 @@ document.addEventListener('DOMContentLoaded', () => {
         startCallerBtn?.addEventListener('click', startBingoCaller);
         callNextBtn?.addEventListener('click', callNext);
 
+        const checkBingoWin = () => {
+            const cells = Array.from(playerGrid.children);
+            const allMarked = cells.every(cell => cell.classList.contains('marked'));
+            if (allMarked && cells.length > 0) {
+                playGameSound('success');
+                createConfetti();
+                const winMsg = t('bingo_win') || "BINGO! Card complete! 🎉";
+                showGameMessage('bingo-player-area', winMsg, 'success');
+            }
+        };
+
         const generatePlayerCard = () => {
+            const level = document.getElementById('bingo-level').value;
+            let count = 9;
+            let cols = 3;
+
+            playerGrid.classList.remove('cols-3', 'cols-5', 'cols-9');
+
+            if (level === '2') { count = 15; cols = 3; playerGrid.classList.add('cols-3'); } // 3x5
+            else if (level === '3') { count = 25; cols = 5; playerGrid.classList.add('cols-5'); } // 5x5
+            else if (level === '5') { count = 27; cols = 9; playerGrid.classList.add('cols-9'); } // 9x3
+            else { playerGrid.classList.add('cols-3'); }
+
+            playerGrid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+
             const pool = preparePool();
             const urlParams = new URLSearchParams(window.location.search);
             const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
             const cardSeed = seed + currentCardIndex * 100;
             const cardShuffled = seededShuffle([...pool], cardSeed);
 
-            const myItems = cardShuffled.slice(0, 9);
+            const myItems = cardShuffled.slice(0, count);
             myItems.sort((a,b) => (typeof a === 'number' ? a - b : a.localeCompare(b)));
 
             playerGrid.innerHTML = '';
@@ -154,6 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 cell.onclick = () => {
                     playGameSound('click');
                     cell.classList.toggle('marked');
+                    checkBingoWin();
                 };
                 playerGrid.appendChild(cell);
             });

@@ -80,6 +80,7 @@ function populateThemes(categoryId) {
     } else {
         // vocab
         themes = [
+            { value: 'numbers', key: 'theme_numbers' },
             { value: 'profession', key: 'theme_profession' },
             { value: 'family', key: 'theme_family' },
             { value: 'animal', key: 'theme_animal' },
@@ -433,6 +434,17 @@ document.addEventListener('DOMContentLoaded', () => {
         radio.addEventListener('change', window.updateCategoryUI);
     });
     window.updateCategoryUI(); // Initial call
+
+    const themeSelect = document.getElementById('practice-theme');
+    if (themeSelect) {
+        themeSelect.addEventListener('change', (e) => {
+            if (e.target.value === 'numbers') {
+                const lang = currentPractice.language;
+                const msg = (translations[lang] && translations[lang]['bingo_nav_hint']) || "Want a fun way to practice numbers? Try our Lucky Numbers Bingo game! 🎲";
+                window.gameUtils.showGameMessage('setup-section', msg, 'info');
+            }
+        });
+    }
 
     // Global Enter Key Handler
     document.addEventListener('keydown', (e) => {
@@ -1758,23 +1770,6 @@ function checkTrueFalseAnswer(userAnswer) {
     }
 }
 
-function createConfetti() {
-    const emojis = ['🎉', '✨', '🎈', '🎊', '🥳', '🌟'];
-    const container = document.body;
-
-    for (let i = 0; i < 40; i++) {
-        const confetti = document.createElement('div');
-        confetti.className = 'confetti';
-        confetti.textContent = emojis[Math.floor(Math.random() * emojis.length)];
-        confetti.style.left = Math.random() * 100 + 'vw';
-        confetti.style.fontSize = (Math.random() * 20 + 20) + 'px';
-        confetti.style.animation = `confettiFall ${Math.random() * 3 + 2}s linear forwards`;
-
-        container.appendChild(confetti);
-
-        setTimeout(() => confetti.remove(), 5000);
-    }
-}
 
 function showSummary() {
     updateStreak();
@@ -1804,7 +1799,9 @@ function showSummary() {
     if (summaryModal) summaryModal.style.display = 'flex';
     if (practiceSection) practiceSection.style.display = 'none';
 
-    createConfetti();
+    if (window.gameUtils && window.gameUtils.createConfetti) {
+        window.gameUtils.createConfetti();
+    }
 }
 
 function showFeedback(isCorrect) {

@@ -1590,8 +1590,18 @@ footer {
 .bingo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 10px;
     margin: 1.5rem 0;
+}
+
+.bingo-grid.cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.bingo-grid.cols-9 {
+    grid-template-columns: repeat(9, 1fr);
+    gap: 5px;
 }
 
 .bingo-cell {
@@ -1606,6 +1616,17 @@ footer {
     border: 2px solid var(--light-gray);
     background: white;
     border-radius: 15px;
+}
+
+.bingo-grid.cols-5 .bingo-cell {
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.bingo-grid.cols-9 .bingo-cell {
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border-width: 1px;
 }
 
 .bingo-cell:hover {
