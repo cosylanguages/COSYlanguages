@@ -655,6 +655,609 @@ const speakingData = {
                     "Range",
                     "Charging speed"
                 ]
+            },
+            {
+                "topic": "Studying in the morning vs studying in the evening — when is it better?",
+                "sideA": "Morning",
+                "sideB": "Evening",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Strict teachers vs friendly teachers — who helps students more?",
+                "sideA": "Strict",
+                "sideB": "Friendly",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Learning with a textbook vs learning with videos — which is more effective?",
+                "sideA": "Textbook",
+                "sideB": "Videos",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Short lessons vs long lessons — which help you learn better?",
+                "sideA": "Short",
+                "sideB": "Long",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Group projects vs individual assignments — which do you prefer?",
+                "sideA": "Group",
+                "sideB": "Individual",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "School uniform vs casual clothes at school — which is better?",
+                "sideA": "Uniform",
+                "sideB": "Casual",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Home-cooked meals vs fast food — which is better?",
+                "sideA": "Home-cooked",
+                "sideB": "Fast food",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Three big meals vs many small snacks — which is healthier?",
+                "sideA": "Big meals",
+                "sideB": "Small snacks",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vegetarian food vs meat — which diet is better?",
+                "sideA": "Vegetarian",
+                "sideB": "Meat",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Drinking tea vs drinking coffee — which is better?",
+                "sideA": "Tea",
+                "sideB": "Coffee",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Eating alone vs eating with others — which do you prefer?",
+                "sideA": "Alone",
+                "sideB": "With others",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Playing a team sport vs playing an individual sport — which is better?",
+                "sideA": "Team sport",
+                "sideB": "Individual sport",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Spending free time indoors vs outdoors — which is better?",
+                "sideA": "Indoors",
+                "sideB": "Outdoors",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cinema vs theatre — which is a better night out?",
+                "sideA": "Cinema",
+                "sideB": "Theatre",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Listening to music vs playing an instrument — which is more enjoyable?",
+                "sideA": "Listening",
+                "sideB": "Playing",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Video games vs board games — which are more fun?",
+                "sideA": "Video games",
+                "sideB": "Board games",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Going shopping vs staying home — which is a better way to spend the weekend?",
+                "sideA": "Shopping",
+                "sideB": "Staying home",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Mobile phone vs computer — which is more useful in daily life?",
+                "sideA": "Mobile",
+                "sideB": "Computer",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sending a message vs making a phone call — which is better?",
+                "sideA": "Message",
+                "sideB": "Call",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "E-book vs paper book — which do you prefer to read?",
+                "sideA": "E-book",
+                "sideB": "Paper book",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Taking photos with your phone vs with a camera — which gives better results?",
+                "sideA": "Phone",
+                "sideB": "Camera",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Holiday at the beach vs holiday in the mountains — which is better?",
+                "sideA": "Beach",
+                "sideB": "Mountains",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Travelling by train vs travelling by plane — which is better?",
+                "sideA": "Train",
+                "sideB": "Plane",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Visiting a famous city vs visiting a small village — which is more interesting?",
+                "sideA": "City",
+                "sideB": "Village",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Staying in a hotel vs staying with a local family — which do you prefer?",
+                "sideA": "Hotel",
+                "sideB": "Local family",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Travelling abroad vs exploring your own country — which is more worthwhile?",
+                "sideA": "Abroad",
+                "sideB": "Own country",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Having many friends vs having a few close friends — which is better?",
+                "sideA": "Many friends",
+                "sideB": "Close friends",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Meeting friends in person vs chatting online — which is more satisfying?",
+                "sideA": "In person",
+                "sideB": "Online",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Living with parents vs living in a student flat — which is better for young people?",
+                "sideA": "With parents",
+                "sideB": "Student flat",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Celebrating birthdays at home vs going out — which is nicer?",
+                "sideA": "Home",
+                "sideB": "Going out",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Saving money vs spending money — which is wiser?",
+                "sideA": "Saving",
+                "sideB": "Spending",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Working part-time while studying vs focusing only on school — which is better?",
+                "sideA": "Part-time",
+                "sideB": "Focus school",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Earning a lot of money vs having free time — which matters more?",
+                "sideA": "Money",
+                "sideB": "Free time",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Online learning vs classroom learning — which is more effective?",
+                "sideA": "Online",
+                "sideB": "Classroom",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Memorising facts vs learning how to find information — which skill is more important?",
+                "sideA": "Facts",
+                "sideB": "Finding info",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "University education vs vocational training — which is a better path?",
+                "sideA": "University",
+                "sideB": "Vocational",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Exams vs continuous assessment — which is a fairer way to evaluate students?",
+                "sideA": "Exams",
+                "sideB": "Continuous",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Learning a foreign language at school vs living abroad — which is more effective?",
+                "sideA": "School",
+                "sideB": "Living abroad",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Single-sex schools vs mixed schools — which are better for students?",
+                "sideA": "Single-sex",
+                "sideB": "Mixed",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Social media vs face-to-face communication — which is better for staying in touch?",
+                "sideA": "Social media",
+                "sideB": "Face-to-face",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Streaming services vs traditional TV — which is better?",
+                "sideA": "Streaming",
+                "sideB": "Traditional TV",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Working from home vs working in an office — which is more productive?",
+                "sideA": "Home",
+                "sideB": "Office",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Reading news online vs reading a newspaper — which is more reliable?",
+                "sideA": "Online news",
+                "sideB": "Newspaper",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Spending time on social media vs spending time in nature — which is better for your mental health?",
+                "sideA": "Social media",
+                "sideB": "Nature",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Using public transport vs driving a car — which is better for society?",
+                "sideA": "Public transport",
+                "sideB": "Car",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Buying second-hand clothes vs buying new clothes — which is the better habit?",
+                "sideA": "Second-hand",
+                "sideB": "New",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Living in a city vs living in the countryside — which suits young people better?",
+                "sideA": "City",
+                "sideB": "Countryside",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vegetarianism vs eating meat — which is better for the planet?",
+                "sideA": "Vegetarianism",
+                "sideB": "Meat",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Individual lifestyle changes vs government action — which does more for the environment?",
+                "sideA": "Individual",
+                "sideB": "Government",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "A stable job vs a creative career — which is the better life choice?",
+                "sideA": "Stable job",
+                "sideB": "Creative career",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Starting your own business vs working for a company — which is better?",
+                "sideA": "Own business",
+                "sideB": "Company",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "High salary vs job satisfaction — which matters more at work?",
+                "sideA": "Salary",
+                "sideB": "Satisfaction",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Working long hours vs having a work-life balance — which leads to more success?",
+                "sideA": "Long hours",
+                "sideB": "Balance",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Choosing a career based on passion vs based on job prospects — which is wiser?",
+                "sideA": "Passion",
+                "sideB": "Prospects",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Living as an individual vs putting community first — which is more important?",
+                "sideA": "Individual",
+                "sideB": "Community",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Traditional values vs modern values — which are more important to keep?",
+                "sideA": "Traditional",
+                "sideB": "Modern",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Volunteering vs donating money to charity — which helps more?",
+                "sideA": "Volunteering",
+                "sideB": "Donating",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Fame vs making a difference quietly — which is a better goal in life?",
+                "sideA": "Fame",
+                "sideB": "Quiet difference",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Following rules vs thinking for yourself — which matters more?",
+                "sideA": "Rules",
+                "sideB": "Self-thought",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Physical health vs mental health — which should be the priority?",
+                "sideA": "Physical",
+                "sideB": "Mental",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Prevention vs treatment — which is the better approach to healthcare?",
+                "sideA": "Prevention",
+                "sideB": "Treatment",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Competitive sport vs exercise for fun — which is better for you?",
+                "sideA": "Competitive",
+                "sideB": "For fun",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Private healthcare vs public healthcare — which system is fairer?",
+                "sideA": "Private",
+                "sideB": "Public",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cinema vs literature — which is a more powerful art form?",
+                "sideA": "Cinema",
+                "sideB": "Literature",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Modern art vs classical art — which is more valuable?",
+                "sideA": "Modern",
+                "sideB": "Classical",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Preserving old buildings vs building new ones — which matters more?",
+                "sideA": "Preserving old",
+                "sideB": "Building new",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Local culture vs globalisation — which enriches communities more?",
+                "sideA": "Local",
+                "sideB": "Globalisation",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -1366,6 +1969,609 @@ const speakingData = {
                     "Autonomie",
                     "Vitesse de charge"
                 ]
+            },
+            {
+                "topic": "Étudier le matin ou étudier le soir — quand est-ce mieux ?",
+                "sideA": "Matin",
+                "sideB": "Soir",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Professeurs sévères ou professeurs sympas — qui aide le plus les élèves ?",
+                "sideA": "Sévères",
+                "sideB": "Sympas",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Apprendre avec un manuel ou apprendre avec des vidéos — qu'est-ce qui est plus efficace ?",
+                "sideA": "Manuel",
+                "sideB": "Vidéos",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cours courts ou cours longs — lesquels aident à mieux apprendre ?",
+                "sideA": "Courts",
+                "sideB": "Longs",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Projets de groupe ou travaux individuels — que préférez-vous ?",
+                "sideA": "Groupe",
+                "sideB": "Individuel",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Uniforme scolaire ou vêtements décontractés à l'école — qu'est-ce qui est mieux ?",
+                "sideA": "Uniforme",
+                "sideB": "Décontracté",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Repas faits maison ou restauration rapide — qu'est-ce qui est mieux ?",
+                "sideA": "Fait maison",
+                "sideB": "Fast-food",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Trois gros repas ou plusieurs petites collations — qu'est-ce qui est plus sain ?",
+                "sideA": "Gros repas",
+                "sideB": "Collations",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Nourriture végétarienne ou viande — quel régime est le meilleur ?",
+                "sideA": "Végétarien",
+                "sideB": "Viande",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Boire du thé ou boire du café — qu'est-ce qui est mieux ?",
+                "sideA": "Thé",
+                "sideB": "Café",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Manger seul ou manger avec d'autres — que préférez-vous ?",
+                "sideA": "Seul",
+                "sideB": "Avec d'autres",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Pratiquer un sport d'équipe ou un sport individuel — qu'est-ce qui est mieux ?",
+                "sideA": "Sport d'équipe",
+                "sideB": "Sport individuel",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Passer son temps libre à l'intérieur ou à l'extérieur — qu'est-ce qui est mieux ?",
+                "sideA": "Intérieur",
+                "sideB": "Extérieur",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cinéma ou théâtre — quelle est la meilleure sortie ?",
+                "sideA": "Cinéma",
+                "sideB": "Théâtre",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Écouter de la musique ou jouer d'un instrument — qu'est-ce qui est plus agréable ?",
+                "sideA": "Écouter",
+                "sideB": "Jouer",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Jeux vidéo ou jeux de société — lesquels sont les plus amusants ?",
+                "sideA": "Jeux vidéo",
+                "sideB": "Jeux de société",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Faire du shopping ou rester à la maison — quelle est la meilleure façon de passer le week-end ?",
+                "sideA": "Shopping",
+                "sideB": "Rester chez soi",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Téléphone portable ou ordinateur — lequel est le plus utile dans la vie quotidienne ?",
+                "sideA": "Portable",
+                "sideB": "Ordinateur",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Envoyer un message ou passer un appel téléphonique — qu'est-ce qui est mieux ?",
+                "sideA": "Message",
+                "sideB": "Appel",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Livre numérique ou livre papier — lequel préférez-vous lire ?",
+                "sideA": "E-book",
+                "sideB": "Livre papier",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Prendre des photos avec son téléphone ou avec un appareil photo — lequel donne de meilleurs résultats ?",
+                "sideA": "Téléphone",
+                "sideB": "Appareil photo",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vacances à la plage ou vacances à la montagne — qu'est-ce qui est mieux ?",
+                "sideA": "Plage",
+                "sideB": "Montagne",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Voyager en train ou voyager en avion — qu'est-ce qui est mieux ?",
+                "sideA": "Train",
+                "sideB": "Avion",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Visiter une ville célèbre ou visiter un petit village — qu'est-ce qui est plus intéressant ?",
+                "sideA": "Ville",
+                "sideB": "Village",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Séjourner à l'hôtel ou chez l'habitant — que préférez-vous ?",
+                "sideA": "Hôtel",
+                "sideB": "Chez l'habitant",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Voyager à l'étranger ou explorer son propre pays — qu'est-ce qui en vaut le plus la peine ?",
+                "sideA": "Étranger",
+                "sideB": "Propre pays",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Avoir beaucoup d'amis ou avoir quelques amis proches — qu'est-ce qui est mieux ?",
+                "sideA": "Beaucoup",
+                "sideB": "Amis proches",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Rencontrer des amis en personne ou discuter en ligne — qu'est-ce qui est plus satisfaisant ?",
+                "sideA": "En personne",
+                "sideB": "En ligne",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vivre chez ses parents ou vivre dans un appartement étudiant — qu'est-ce qui est mieux pour les jeunes ?",
+                "sideA": "Parents",
+                "sideB": "Appartement étudiant",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Fêter son anniversaire à la maison ou sortir — qu'est-ce qui est le plus sympa ?",
+                "sideA": "Maison",
+                "sideB": "Sortir",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Économiser de l'argent ou dépenser de l'argent — qu'est-ce qui est plus sage ?",
+                "sideA": "Économiser",
+                "sideB": "Dépenser",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Travailler à temps partiel pendant ses études ou se concentrer uniquement sur l'école — qu'est-ce qui est mieux ?",
+                "sideA": "Temps partiel",
+                "sideB": "Études seules",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Gagner beaucoup d'argent ou avoir du temps libre — qu'est-ce qui compte le plus ?",
+                "sideA": "Argent",
+                "sideB": "Temps libre",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Apprentissage en ligne ou apprentissage en classe — qu'est-ce qui est plus efficace ?",
+                "sideA": "En ligne",
+                "sideB": "En classe",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Mémoriser des faits ou apprendre à trouver l'information — quelle compétence est la plus importante ?",
+                "sideA": "Faits",
+                "sideB": "Trouver l'info",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Études universitaires ou formation professionnelle — quelle est la meilleure voie ?",
+                "sideA": "Université",
+                "sideB": "Pro",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Examens ou contrôle continu — quelle est la manière la plus juste d'évaluer les élèves ?",
+                "sideA": "Examens",
+                "sideB": "Continu",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Apprendre une langue étrangère à l'école ou vivre à l'étranger — qu'est-ce qui est plus efficace ?",
+                "sideA": "École",
+                "sideB": "Vivre à l'étranger",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Écoles non mixtes ou écoles mixtes — lesquelles sont meilleures pour les élèves ?",
+                "sideA": "Non mixte",
+                "sideB": "Mixte",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Réseaux sociaux ou communication en face à face — qu'est-ce qui est mieux pour rester en contact ?",
+                "sideA": "Réseaux sociaux",
+                "sideB": "Face à face",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Services de streaming ou télévision traditionnelle — qu'est-ce qui est mieux ?",
+                "sideA": "Streaming",
+                "sideB": "TV classique",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Travailler à domicile ou travailler dans un bureau — qu'est-ce qui est plus productif ?",
+                "sideA": "Maison",
+                "sideB": "Bureau",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lire les actualités en ligne ou lire un journal — qu'est-ce qui est plus fiable ?",
+                "sideA": "Actualités en ligne",
+                "sideB": "Journal papier",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Passer du temps sur les réseaux sociaux ou passer du temps dans la nature — qu'est-ce qui est mieux pour votre santé mentale ?",
+                "sideA": "Réseaux sociaux",
+                "sideB": "Nature",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Utiliser les transports en commun ou conduire une voiture — qu'est-ce qui est mieux pour la société ?",
+                "sideA": "Transports publics",
+                "sideB": "Voiture",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Acheter des vêtements d'occasion ou acheter des vêtements neufs — quelle est la meilleure habitude ?",
+                "sideA": "Occasion",
+                "sideB": "Neuf",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vivre en ville ou vivre à la campagne — qu'est-ce qui convient le mieux aux jeunes ?",
+                "sideA": "Ville",
+                "sideB": "Campagne",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Végétarisme ou manger de la viande — qu'est-ce qui est mieux pour la planète ?",
+                "sideA": "Végétarisme",
+                "sideB": "Viande",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Changements de mode de vie individuels ou action gouvernementale — qu'est-ce qui fait le plus pour l'environnement ?",
+                "sideA": "Individuel",
+                "sideB": "Gouvernement",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Un emploi stable ou une carrière créative — quel est le meilleur choix de vie ?",
+                "sideA": "Emploi stable",
+                "sideB": "Carrière créative",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lancer sa propre entreprise ou travailler pour une société — qu'est-ce qui est mieux ?",
+                "sideA": "Propre entreprise",
+                "sideB": "Société",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Salaire élevé ou satisfaction au travail — qu'est-ce qui compte le plus au travail ?",
+                "sideA": "Salaire",
+                "sideB": "Satisfaction",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Travailler de longues heures ou avoir un équilibre vie professionnelle-vie privée — qu'est-ce qui mène au succès ?",
+                "sideA": "Longues heures",
+                "sideB": "Équilibre",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Choisir une carrière par passion ou en fonction des perspectives d'emploi — qu'est-ce qui est plus sage ?",
+                "sideA": "Passion",
+                "sideB": "Perspectives",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vivre en tant qu'individu ou donner la priorité à la communauté — qu'est-ce qui est plus important ?",
+                "sideA": "Individu",
+                "sideB": "Communauté",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Valeurs traditionnelles ou valeurs modernes — lesquelles est-il plus important de conserver ?",
+                "sideA": "Traditionnelles",
+                "sideB": "Modernes",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Bénévolat ou don d'argent à une œuvre caritative — qu'est-ce qui aide le plus ?",
+                "sideA": "Bénévolat",
+                "sideB": "Don",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Célébrité ou faire une différence discrètement — quel est le meilleur objectif de vie ?",
+                "sideA": "Célébrité",
+                "sideB": "Différence discrète",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Suivre les règles ou penser par soi-même — qu'est-ce qui compte le plus ?",
+                "sideA": "Règles",
+                "sideB": "Pensée propre",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Santé physique ou santé mentale — quelle devrait être la priorité ?",
+                "sideA": "Physique",
+                "sideB": "Mentale",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Prévention ou traitement — quelle est la meilleure approche des soins de santé ?",
+                "sideA": "Prévention",
+                "sideB": "Traitement",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sport de compétition ou exercice pour le plaisir — qu'est-ce qui est mieux pour vous ?",
+                "sideA": "Compétition",
+                "sideB": "Plaisir",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Santé privée ou santé publique — quel système est le plus juste ?",
+                "sideA": "Privé",
+                "sideB": "Public",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cinéma ou littérature — quelle est la forme d'art la plus puissante ?",
+                "sideA": "Cinéma",
+                "sideB": "Littérature",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Art moderne ou art classique — qu'est-ce qui a le plus de valeur ?",
+                "sideA": "Moderne",
+                "sideB": "Classique",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Préserver les vieux bâtiments ou en construire de nouveaux — qu'est-ce qui compte le plus ?",
+                "sideA": "Préserver",
+                "sideB": "Construire",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Culture locale ou mondialisation — qu'est-ce qui enrichit le plus les communautés ?",
+                "sideA": "Locale",
+                "sideB": "Mondialisation",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -2077,6 +3283,609 @@ const speakingData = {
                     "Autonomia",
                     "Velocità di ricarica"
                 ]
+            },
+            {
+                "topic": "Studiare la mattina o studiare la sera — quando è meglio?",
+                "sideA": "Mattina",
+                "sideB": "Sera",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Insegnanti severi o insegnanti amichevoli — chi aiuta di più gli studenti?",
+                "sideA": "Severi",
+                "sideB": "Amichevoli",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Imparare con un libro di testo o imparare con i video — cosa è più efficace?",
+                "sideA": "Libro",
+                "sideB": "Video",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lezioni brevi o lezioni lunghe — quali aiutano a imparare meglio?",
+                "sideA": "Brevi",
+                "sideB": "Lunghe",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Progetti di gruppo o compiti individuali — cosa preferisci?",
+                "sideA": "Gruppo",
+                "sideB": "Individuale",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Uniforme scolastica o vestiti casual a scuola — cosa è meglio?",
+                "sideA": "Uniforme",
+                "sideB": "Casual",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Pasti cucinati in casa o fast food — cosa è meglio?",
+                "sideA": "In casa",
+                "sideB": "Fast food",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Tre pasti abbondanti o molti piccoli spuntini — cosa è più sano?",
+                "sideA": "Grandi pasti",
+                "sideB": "Spuntini",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cibo vegetariano o carne — quale dieta è migliore?",
+                "sideA": "Vegetariano",
+                "sideB": "Carne",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Bere tè o bere caffè — cosa è meglio?",
+                "sideA": "Tè",
+                "sideB": "Caffè",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Mangiare da soli o mangiare con altri — cosa preferisci?",
+                "sideA": "Da soli",
+                "sideB": "Con altri",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Praticare uno sport di squadra o uno sport individuale — cosa è meglio?",
+                "sideA": "Sport di squadra",
+                "sideB": "Sport individuale",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Passare il tempo libero al chiuso o all'aperto — cosa è meglio?",
+                "sideA": "Al chiuso",
+                "sideB": "All'aperto",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cinema o teatro — quale è la migliore serata fuori?",
+                "sideA": "Cinema",
+                "sideB": "Teatro",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ascoltare musica o suonare uno strumento — cosa è più piacevole?",
+                "sideA": "Ascoltare",
+                "sideB": "Suonare",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Videogiochi o giochi da tavolo — quali sono più divertenti?",
+                "sideA": "Videogiochi",
+                "sideB": "Giochi da tavolo",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Fare shopping o restare a casa — quale è il modo migliore per trascorrere il fine settimana?",
+                "sideA": "Shopping",
+                "sideB": "Restare a casa",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cellulare o computer — quale è più utile nella vita quotidiana?",
+                "sideA": "Cellulare",
+                "sideB": "Computer",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Inviare un messaggio o fare una telefonata — cosa è meglio?",
+                "sideA": "Messaggio",
+                "sideB": "Chiamata",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "E-book o libro cartaceo — cosa preferisci leggere?",
+                "sideA": "E-book",
+                "sideB": "Libro cartaceo",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Scattare foto con il telefono o con una fotocamera — cosa dà risultati migliori?",
+                "sideA": "Telefono",
+                "sideB": "Fotocamera",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vacanze al mare o vacanze in montagna — cosa è meglio?",
+                "sideA": "Mare",
+                "sideB": "Montagna",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Viaggiare in treno o viaggiare in aereo — cosa è meglio?",
+                "sideA": "Treno",
+                "sideB": "Aereo",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Visitare una città famosa o visitare un piccolo villaggio — cosa è più interessante?",
+                "sideA": "Città",
+                "sideB": "Villaggio",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Soggiornare in un hotel o presso una famiglia locale — cosa preferisci?",
+                "sideA": "Hotel",
+                "sideB": "Famiglia locale",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Viaggiare all'estero o esplorare il proprio paese — cosa vale di più la pena?",
+                "sideA": "Estero",
+                "sideB": "Proprio paese",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Avere molti amici o avere pochi amici stretti — cosa è meglio?",
+                "sideA": "Molti amici",
+                "sideB": "Amici stretti",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Incontrare gli amici di persona o chattare online — cosa è più soddisfacente?",
+                "sideA": "Di persona",
+                "sideB": "Online",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vivere con i genitori o in un appartamento per studenti — cosa è meglio per i giovani?",
+                "sideA": "Genitori",
+                "sideB": "Appartamento studenti",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Festeggiare il compleanno a casa o uscire — cosa è più carino?",
+                "sideA": "Casa",
+                "sideB": "Uscire",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Risparmiare denaro o spendere denaro — cosa è più saggio?",
+                "sideA": "Risparmiare",
+                "sideB": "Spendere",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lavorare part-time mentre si studia o concentrarsi solo sulla scuola — cosa è meglio?",
+                "sideA": "Part-time",
+                "sideB": "Solo scuola",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Guadagnare molti soldi o avere tempo libero — cosa conta di più?",
+                "sideA": "Soldi",
+                "sideB": "Tempo libero",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Apprendimento online o apprendimento in aula — cosa è più efficace?",
+                "sideA": "Online",
+                "sideB": "Aula",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Memorizzare fatti o imparare come trovare informazioni — quale abilità è più importante?",
+                "sideA": "Fatti",
+                "sideB": "Trovare info",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Istruzione universitaria o formazione professionale — quale è il percorso migliore?",
+                "sideA": "Università",
+                "sideB": "Professionale",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Esami o valutazione continua — quale è il modo più giusto per valutare gli studenti?",
+                "sideA": "Esami",
+                "sideB": "Continua",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Imparare una lingua straniera a scuola o vivere all'estero — cosa è più efficace?",
+                "sideA": "Scuola",
+                "sideB": "Vivere all'estero",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Scuole maschili o femminili o scuole miste — quali sono migliori per gli studenti?",
+                "sideA": "Solo maschi/femmine",
+                "sideB": "Mista",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Social media o comunicazione faccia a faccia — cosa è meglio per restare in contatto?",
+                "sideA": "Social media",
+                "sideB": "Faccia a faccia",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Servizi di streaming o TV tradizionale — cosa è meglio?",
+                "sideA": "Streaming",
+                "sideB": "TV classica",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lavorare da casa o lavorare in ufficio — cosa è più produttivo?",
+                "sideA": "Casa",
+                "sideB": "Ufficio",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Leggere le notizie online o leggere un giornale — cosa è più affidabile?",
+                "sideA": "Notizie online",
+                "sideB": "Giornale",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Passare il tempo sui social media o passare il tempo nella natura — cosa è meglio per la tua salute mentale?",
+                "sideA": "Social media",
+                "sideB": "Natura",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Usare i trasporti pubblici o guidare l'auto — cosa è meglio per la società?",
+                "sideA": "Trasporti pubblici",
+                "sideB": "Auto",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Comprare vestiti usati o comprare vestiti nuovi — quale è l'abitudine migliore?",
+                "sideA": "Usato",
+                "sideB": "Nuovo",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vivere in città o vivere in campagna — cosa si adatta meglio ai giovani?",
+                "sideA": "Città",
+                "sideB": "Campagna",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vegetarianismo o mangiare carne — cosa è meglio per il pianeta?",
+                "sideA": "Vegetarianismo",
+                "sideB": "Carne",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cambiamenti nello stile di vita individuale o azione del governo — cosa fa di più per l'ambiente?",
+                "sideA": "Individuale",
+                "sideB": "Governo",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Un lavoro stabile o una carriera creativa — quale è la scelta di vita migliore?",
+                "sideA": "Lavoro stabile",
+                "sideB": "Carriera creativa",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Aprire la propria attività o lavorare per un'azienda — cosa è meglio?",
+                "sideA": "Propria attività",
+                "sideB": "Azienda",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Salario alto o soddisfazione sul lavoro — cosa conta di più al lavoro?",
+                "sideA": "Salario",
+                "sideB": "Soddisfazione",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lavorare molte ore o avere un equilibrio vita-lavoro — cosa porta a un maggiore successo?",
+                "sideA": "Molte ore",
+                "sideB": "Equilibrio",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Scegliere una carriera in base alla passione o in base alle prospettive di lavoro — cosa è più saggio?",
+                "sideA": "Passione",
+                "sideB": "Prospettive",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vivere come individuo o mettere al primo posto la comunità — cosa è più importante?",
+                "sideA": "Individuo",
+                "sideB": "Comunità",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Valori tradizionali o valori moderni — quali sono più importanti da conservare?",
+                "sideA": "Tradizionali",
+                "sideB": "Moderni",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Fare volontariato o donare soldi in beneficenza — cosa aiuta di più?",
+                "sideA": "Volontariato",
+                "sideB": "Donare",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Fama o fare la differenza in silenzio — quale è l'obiettivo migliore nella vita?",
+                "sideA": "Fama",
+                "sideB": "Differenza silenziosa",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Seguire le regole o pensare con la propria testa — cosa conta di più?",
+                "sideA": "Regole",
+                "sideB": "Pensiero proprio",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Salute fisica o salute mentale — quale dovrebbe essere la priorità?",
+                "sideA": "Fisica",
+                "sideB": "Mentale",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Prevenzione o cura — quale è l'approccio migliore alla sanità?",
+                "sideA": "Prevenzione",
+                "sideB": "Cura",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sport competitivo o esercizio fisico per divertimento — cosa è meglio per te?",
+                "sideA": "Competitivo",
+                "sideB": "Divertimento",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sanità privata o sanità pubblica — quale sistema è più equo?",
+                "sideA": "Privata",
+                "sideB": "Pubblica",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cinema o letteratura — quale è una forma d'arte più potente?",
+                "sideA": "Cinema",
+                "sideB": "Letteratura",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Arte moderna o arte classica — cosa è più prezioso?",
+                "sideA": "Moderna",
+                "sideB": "Classica",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Preservare i vecchi edifici o costruirne di nuovi — cosa conta di più?",
+                "sideA": "Preservare",
+                "sideB": "Costruire",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cultura locale o globalizzazione — cosa arricchisce di più le comunità?",
+                "sideA": "Locale",
+                "sideB": "Globalizzazione",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -2788,6 +4597,609 @@ const speakingData = {
                     "Запас хода",
                     "Скорость зарядки"
                 ]
+            },
+            {
+                "topic": "Учиться утром или учиться вечером — когда лучше?",
+                "sideA": "Утром",
+                "sideB": "Вечером",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Строгие учителя или добрые учителя — кто больше помогает ученикам?",
+                "sideA": "Строгие",
+                "sideB": "Добрые",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Учиться по учебнику или учиться по видео — что эффективнее?",
+                "sideA": "Учебник",
+                "sideB": "Видео",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Короткие уроки или длинные уроки — какие помогают учиться лучше?",
+                "sideA": "Короткие",
+                "sideB": "Длинные",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Групповые проекты или индивидуальные задания — что вы предпочитаете?",
+                "sideA": "Группа",
+                "sideB": "Индивидуально",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Школьная форма или повседневная одежда в школе — что лучше?",
+                "sideA": "Форма",
+                "sideB": "Повседневная",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Домашняя еда или фастфуд — что лучше?",
+                "sideA": "Домашняя",
+                "sideB": "Фастфуд",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Три больших приема пищи или много маленьких перекусов — что здоровее?",
+                "sideA": "Три раза",
+                "sideB": "Перекусы",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Вегетарианская еда или мясо — какая диета лучше?",
+                "sideA": "Вегетарианская",
+                "sideB": "Мясо",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Пить чай или пить кофе — что лучше?",
+                "sideA": "Чай",
+                "sideB": "Кофе",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Есть в одиночестве или есть с другими — что вы предпочитаете?",
+                "sideA": "Один",
+                "sideB": "С другими",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Заниматься командным спортом или индивидуальным — что лучше?",
+                "sideA": "Командный",
+                "sideB": "Индивидуальный",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Проводить свободное время дома или на улице — что лучше?",
+                "sideA": "Дома",
+                "sideB": "На улице",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Кино или театр — куда лучше сходить вечером?",
+                "sideA": "Кино",
+                "sideB": "Театр",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Слушать музыку или играть на инструменте — что приятнее?",
+                "sideA": "Слушать",
+                "sideB": "Играть",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Видеоигры или настольные игры — что веселее?",
+                "sideA": "Видеоигры",
+                "sideB": "Настольные",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ходить по магазинам или оставаться дома — как лучше провести выходные?",
+                "sideA": "Магазины",
+                "sideB": "Дома",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Мобильный телефон или компьютер — что полезнее в повседневной жизни?",
+                "sideA": "Телефон",
+                "sideB": "Компьютер",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Отправить сообщение или позвонить по телефону — что лучше?",
+                "sideA": "Сообщение",
+                "sideB": "Звонок",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Электронная книга или бумажная — что вы предпочитаете читать?",
+                "sideA": "Э-книга",
+                "sideB": "Бумажная",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Фотографировать на телефон или на камеру — что дает лучший результат?",
+                "sideA": "Телефон",
+                "sideB": "Камера",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Отпуск на пляже или отпуск в горах — что лучше?",
+                "sideA": "Пляж",
+                "sideB": "Горы",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Путешествовать на поезде или на самолете — что лучше?",
+                "sideA": "Поезд",
+                "sideB": "Самолет",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Посетить знаменитый город или маленькую деревню — что интереснее?",
+                "sideA": "Город",
+                "sideB": "Деревня",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Остановиться в отеле или в местной семье — что вы предпочитаете?",
+                "sideA": "Отель",
+                "sideB": "В семье",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Путешествовать за границу или изучать свою страну — что более стоящее?",
+                "sideA": "За границу",
+                "sideB": "Своя страна",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Иметь много друзей или несколько близких друзей — что лучше?",
+                "sideA": "Много друзей",
+                "sideB": "Близкие друзья",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Встречаться с друзьями лично или общаться онлайн — что приносит больше удовольствия?",
+                "sideA": "Лично",
+                "sideB": "Онлайн",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Жить с родителями или в студенческой квартире — что лучше для молодежи?",
+                "sideA": "С родителями",
+                "sideB": "Студ. квартира",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Праздновать день рождения дома или куда-то сходить — что приятнее?",
+                "sideA": "Дома",
+                "sideB": "Вне дома",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Копить деньги или тратить их — что мудрее?",
+                "sideA": "Копить",
+                "sideB": "Тратить",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Работать неполный рабочий день во время учебы или сосредоточиться только на школе — что лучше?",
+                "sideA": "Подработка",
+                "sideB": "Только учеба",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Зарабатывать много денег или иметь свободное время — что важнее?",
+                "sideA": "Деньги",
+                "sideB": "Свободное время",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Онлайн-обучение или обучение в классе — что эффективнее?",
+                "sideA": "Онлайн",
+                "sideB": "В классе",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Запоминание фактов или умение находить информацию — какой навык важнее?",
+                "sideA": "Факты",
+                "sideB": "Поиск инфо",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Университетское образование или профессиональное обучение — какой путь лучше?",
+                "sideA": "Университет",
+                "sideB": "Колледж/ПТУ",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Экзамены или непрерывное оценивание — какой способ оценки студентов более справедлив?",
+                "sideA": "Экзамены",
+                "sideB": "Оценки за год",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Изучение иностранного языка в школе или жизнь за границей — что эффективнее?",
+                "sideA": "Школа",
+                "sideB": "За границей",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Школы с раздельным обучением или смешанные школы — какие лучше для учеников?",
+                "sideA": "Раздельные",
+                "sideB": "Смешанные",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Социальные сети или личное общение — что лучше для поддержания связи?",
+                "sideA": "Соцсети",
+                "sideB": "Лично",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Стриминговые сервисы или традиционное ТВ — что лучше?",
+                "sideA": "Стриминг",
+                "sideB": "ТВ",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Работа из дома или работа в офисе — что продуктивнее?",
+                "sideA": "Дом",
+                "sideB": "Офис",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Чтение новостей онлайн или чтение газеты — что надежнее?",
+                "sideA": "Новости онлайн",
+                "sideB": "Газета",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Проводить время в соцсетях или проводить время на природе — что лучше для вашего психического здоровья?",
+                "sideA": "Соцсети",
+                "sideB": "Природа",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Пользоваться общественным транспортом или водить машину — что лучше для общества?",
+                "sideA": "Общ. транспорт",
+                "sideB": "Машина",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Покупка подержанной одежды или покупка новой — какая привычка лучше?",
+                "sideA": "Б/у",
+                "sideB": "Новое",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Жизнь в городе или жизнь в деревне — что больше подходит молодежи?",
+                "sideA": "Город",
+                "sideB": "Деревня",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Вегетарианство или употребление мяса — что лучше для планеты?",
+                "sideA": "Вегетарианство",
+                "sideB": "Мясо",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Индивидуальные изменения образа жизни или действия правительства — что дает больше для экологии?",
+                "sideA": "Лично",
+                "sideB": "Государство",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Стабильная работа или творческая карьера — какой жизненный выбор лучше?",
+                "sideA": "Стабильность",
+                "sideB": "Творчество",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Открытие собственного бизнеса или работа на компанию — что лучше?",
+                "sideA": "Свой бизнес",
+                "sideB": "Компания",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Высокая зарплата или удовлетворение от работы — что важнее в работе?",
+                "sideA": "Зарплата",
+                "sideB": "Удовлетворение",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Работать сверхурочно или иметь баланс между работой и личной жизнью — что ведет к большему успеху?",
+                "sideA": "Много работы",
+                "sideB": "Баланс",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Выбор карьеры по призванию или на основе перспектив трудоустройства — что мудрее?",
+                "sideA": "Призвание",
+                "sideB": "Перспективы",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Жить как индивидуальность или ставить интересы общества на первое место — что важнее?",
+                "sideA": "Индивид",
+                "sideB": "Общество",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Традиционные ценности или современные ценности — какие важнее сохранить?",
+                "sideA": "Традиции",
+                "sideB": "Модерн",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Волонтерство или пожертвование денег на благотворительность — что помогает больше?",
+                "sideA": "Волонтерство",
+                "sideB": "Деньги",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Слава или возможность тихо менять мир к лучшему — какая цель в жизни лучше?",
+                "sideA": "Слава",
+                "sideB": "Тихое влияние",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Следование правилам или умение думать самостоятельно — что важнее?",
+                "sideA": "Правила",
+                "sideB": "Свои мысли",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Физическое здоровье или психическое здоровье — что должно быть приоритетом?",
+                "sideA": "Физическое",
+                "sideB": "Психическое",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Профилактика или лечение — какой подход к здравоохранению лучше?",
+                "sideA": "Профилактика",
+                "sideB": "Лечение",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Соревновательный спорт или упражнения для удовольствия — что лучше для вас?",
+                "sideA": "Спорт",
+                "sideB": "Для себя",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Частное здравоохранение или государственное — какая система справедливее?",
+                "sideA": "Частное",
+                "sideB": "Государственное",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Кино или литература — какая форма искусства сильнее?",
+                "sideA": "Кино",
+                "sideB": "Литература",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Современное искусство или классическое — что ценнее?",
+                "sideA": "Современное",
+                "sideB": "Классика",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Сохранение старых зданий или строительство новых — что важнее?",
+                "sideA": "Сохранение",
+                "sideB": "Новые здания",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Местная культура или глобализация — что больше обогащает общество?",
+                "sideA": "Местная",
+                "sideB": "Глобализация",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -3499,6 +5911,609 @@ const speakingData = {
                     "Αυτονομία",
                     "Ταχύτητα φόρτισης"
                 ]
+            },
+            {
+                "topic": "Μελέτη το πρωί ή μελέτη το βράδυ — πότε είναι καλύτερα;",
+                "sideA": "Πρωί",
+                "sideB": "Βράδυ",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Αυστηροί δάσκαλοι ή φιλικοί δάσκαλοι — ποιοι βοηθούν περισσότερο τους μαθητές;",
+                "sideA": "Αυστηροί",
+                "sideB": "Φιλικοί",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μάθηση με σχολικό βιβλίο ή μάθηση με βίντεο — τι είναι πιο αποτελεσματικό;",
+                "sideA": "Βιβλίο",
+                "sideB": "Βίντεο",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Σύντομα μαθήματα ή μεγάλα μαθήματα — ποια σε βοηθούν να μαθαίνεις καλύτερα;",
+                "sideA": "Σύντομα",
+                "sideB": "Μεγάλα",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ομαδικές εργασίες ή ατομικές εργασίες — τι προτιμάτε;",
+                "sideA": "Ομαδικές",
+                "sideB": "Ατομικές",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Σχολική στολή ή καθημερινά ρούχα στο σχολείο — τι είναι καλύτερο;",
+                "sideA": "Στολή",
+                "sideB": "Καθημερινά",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Σπιτικό φαγητό ή φαστ φουντ — τι είναι καλύτερο;",
+                "sideA": "Σπιτικό",
+                "sideB": "Φαστ φουντ",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Τρία μεγάλα γεύματα ή πολλά μικρά σνακ — τι είναι πιο υγιεινό;",
+                "sideA": "Μεγάλα γεύματα",
+                "sideB": "Σνακ",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Χορτοφαγικό φαγητό ή κρέας — ποια διατροφή είναι καλύτερη;",
+                "sideA": "Χορτοφαγία",
+                "sideB": "Κρέας",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Πίνοντας τσάι ή πίνοντας καφέ — τι είναι καλύτερο;",
+                "sideA": "Τσάι",
+                "sideB": "Καφές",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Τρώγοντας μόνος ή τρώγοντας με άλλους — τι προτιμάτε;",
+                "sideA": "Μόνος",
+                "sideB": "Με άλλους",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Παίζοντας ένα ομαδικό άθλημα ή ένα ατομικό άθλημα — τι είναι καλύτερο;",
+                "sideA": "Ομαδικό",
+                "sideB": "Ατομικό",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Περνώντας τον ελεύθερο χρόνο μέσα ή έξω — τι είναι καλύτερο;",
+                "sideA": "Μέσα",
+                "sideB": "Έξω",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Κινηματογράφος ή θέατρο — ποια είναι η καλύτερη βραδινή έξοδος;",
+                "sideA": "Σινεμά",
+                "sideB": "Θέατρο",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ακούγοντας μουσική ή παίζοντας ένα όργανο — τι είναι πιο απολαυστικό;",
+                "sideA": "Ακρόαση",
+                "sideB": "Εκτέλεση",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Βιντεοπαιχνίδια ή επιτραπέζια παιχνίδια — ποια έχουν περισσότερη πλάκα;",
+                "sideA": "Βιντεοπαιχνίδια",
+                "sideB": "Επιτραπέζια",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Πηγαίνοντας για ψώνια ή μένοντας στο σπίτι — ποιος είναι ο καλύτερος τρόπος για να περάσετε το Σαββατοκύριακο;",
+                "sideA": "Ψώνια",
+                "sideB": "Σπίτι",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Κινητό τηλέφωνο ή υπολογιστής — τι είναι πιο χρήσιμο στην καθημερινή ζωή;",
+                "sideA": "Κινητό",
+                "sideB": "Υπολογιστής",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Στέλνοντας ένα μήνυμα ή κάνοντας ένα τηλεφώνημα — τι είναι καλύτερο;",
+                "sideA": "Μήνυμα",
+                "sideB": "Κλήση",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ηλεκτρονικό βιβλίο ή χάρτινο βιβλίο — τι προτιμάτε να διαβάζετε;",
+                "sideA": "E-book",
+                "sideB": "Χάρτινο βιβλίο",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Βγάζοντας φωτογραφίες με το κινητό σου ή με μια κάμερα — τι δίνει καλύτερα αποτελέσματα;",
+                "sideA": "Κινητό",
+                "sideB": "Κάμερα",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Διακοπές στην παραλία ή διακοπές στο βουνό — τι είναι καλύτερο;",
+                "sideA": "Παραλία",
+                "sideB": "Βουνό",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ταξιδεύοντας με τρένο ή ταξιδεύοντας με αεροπλάνο — τι είναι καλύτερο;",
+                "sideA": "Τρένο",
+                "sideB": "Αεροπλάνο",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Επίσκεψη σε μια διάσημη πόλη ή επίσκεψη σε ένα μικρό χωριό — τι είναι πιο ενδιαφέρον;",
+                "sideA": "Πόλη",
+                "sideB": "Χωριό",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Διαμονή σε ξενοδοχείο ή διαμονή σε μια τοπική οικογένεια — τι προτιμάτε;",
+                "sideA": "Ξενοδοχείο",
+                "sideB": "Τοπική οικογένεια",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ταξιδεύοντας στο εξωτερικό ή εξερευνώντας τη δική σου χώρα — τι αξίζει περισσότερο;",
+                "sideA": "Εξωτερικό",
+                "sideB": "Δική σου χώρα",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Έχοντας πολλούς φίλους ή έχοντας λίγους στενούς φίλους — τι είναι καλύτερο;",
+                "sideA": "Πολλοί",
+                "sideB": "Στενοί φίλοι",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Συνάντηση με φίλους από κοντά ή συνομιλία στο διαδίκτυο — τι είναι πιο ικανοποιητικό;",
+                "sideA": "Από κοντά",
+                "sideB": "Online",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ζώντας με τους γονείς ή ζώντας σε ένα φοιτητικό διαμέρισμα — τι είναι καλύτερο για τους νέους;",
+                "sideA": "Γονείς",
+                "sideB": "Φοιτητικό σπίτι",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Γιορτάζοντας τα γενέθλια στο σπίτι ή βγαίνοντας έξω — τι είναι πιο ωραίο;",
+                "sideA": "Σπίτι",
+                "sideB": "Έξοδος",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Αποταμίευση χρημάτων ή δαπάνη χρημάτων — τι είναι πιο συνετό;",
+                "sideA": "Αποταμίευση",
+                "sideB": "Ξόδεμα",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Εργασία με μερική απασχόληση κατά τη διάρκεια των σπουδών ή εστίαση μόνο στο σχολείο — τι είναι καλύτερο;",
+                "sideA": "Μερική απασχόληση",
+                "sideB": "Μόνο σχολείο",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Κερδίζοντας πολλά χρήματα ή έχοντας ελεύθερο χρόνο — τι έχει μεγαλύτερη σημασία;",
+                "sideA": "Χρήματα",
+                "sideB": "Ελεύθερος χρόνος",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Διαδικτυακή μάθηση ή μάθηση στην τάξη — τι είναι πιο αποτελεσματικό;",
+                "sideA": "Online",
+                "sideB": "Τάξη",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Αποστήθιση γεγονότων ή μάθηση πώς να βρίσκεις πληροφορίες — ποια δεξιότητα είναι πιο σημαντική;",
+                "sideA": "Γεγονότα",
+                "sideB": "Εύρεση info",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Πανεπιστημιακή εκπαίδευση ή επαγγελματική κατάρτιση — ποιος είναι ο καλύτερος δρόμος;",
+                "sideA": "Πανεπιστήμιο",
+                "sideB": "Επαγγελματική",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Εξετάσεις ή συνεχής αξιολόγηση — ποιος είναι ο πιο δίκαιος τρόπος αξιολόγησης των μαθητών;",
+                "sideA": "Εξετάσεις",
+                "sideB": "Συνεχής",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Εκμάθηση μιας ξένης γλώσσας στο σχολείο ή διαμονή στο εξωτερικό — τι είναι πιο αποτελεσματικό;",
+                "sideA": "Σχολείο",
+                "sideB": "Εξωτερικό",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Σχολεία αρρένων ή θηλέων εναντίον μικτών σχολείων — ποια είναι καλύτερα για τους μαθητές;",
+                "sideA": "Αρρένων/Θηλέων",
+                "sideB": "Μικτά",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μέσα κοινωνικής δικτύωσης ή επικοινωνία πρόσωπο με πρόσωπο — τι είναι καλύτερο για τη διατήρηση της επαφής;",
+                "sideA": "Social media",
+                "sideB": "Από κοντά",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Υπηρεσίες streaming ή παραδοσιακή τηλεόραση — τι είναι καλύτερο;",
+                "sideA": "Streaming",
+                "sideB": "Παραδοσιακή TV",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Εργασία από το σπίτι ή εργασία σε γραφείο — τι είναι πιο παραγωγικό;",
+                "sideA": "Σπίτι",
+                "sideB": "Γραφείο",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ανάγνωση ειδήσεων στο διαδίκτυο ή ανάγνωση εφημερίδας — τι είναι πιο αξιόπιστο;",
+                "sideA": "Online ειδήσεις",
+                "sideB": "Εφημερίδα",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Περνώντας χρόνο στα μέσα κοινωνικής δικτύωσης ή περνώντας χρόνο στη φύση — τι είναι καλύτερο για την ψυχική σας υγεία;",
+                "sideA": "Social media",
+                "sideB": "Φύση",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Χρήση δημόσιων συγκοινωνιών ή οδήγηση αυτοκινήτου — τι είναι καλύτερο για την κοινωνία;",
+                "sideA": "Δημόσιες συγκοινωνίες",
+                "sideB": "Αυτοκίνητο",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Αγορά μεταχειρισμένων ρούχων ή αγορά καινούργιων ρούχων — ποια είναι η καλύτερη συνήθεια;",
+                "sideA": "Μεταχειρισμένα",
+                "sideB": "Καινούργια",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ζωή στην πόλη ή ζωή στην εξοχή — τι ταιριάζει καλύτερα στους νέους;",
+                "sideA": "Πόλη",
+                "sideB": "Εξοχή",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Χορτοφαγία ή κατανάλωση κρέατος — τι είναι καλύτερο για τον πλανήτη;",
+                "sideA": "Χορτοφαγία",
+                "sideB": "Κρέας",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ατομικές αλλαγές στον τρόπο ζωής ή κυβερνητική δράση — τι προσφέρει περισσότερο στο περιβάλλον;",
+                "sideA": "Ατομικά",
+                "sideB": "Κυβέρνηση",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μια σταθερή δουλειά ή μια δημιουργική καριέρα — ποια είναι η καλύτερη επιλογή ζωής;",
+                "sideA": "Σταθερή δουλειά",
+                "sideB": "Δημιουργική",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ξεκινώντας τη δική σου επιχείρηση ή δουλεύοντας για μια εταιρεία — τι είναι καλύτερο;",
+                "sideA": "Δική σου επιχείρηση",
+                "sideB": "Εταιρεία",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Υψηλός μισθός ή ικανοποίηση από την εργασία — τι έχει μεγαλύτερη σημασία στη δουλειά;",
+                "sideA": "Μισθός",
+                "sideB": "Ικανοποίηση",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Δουλεύοντας πολλές ώρες ή έχοντας ισορροπία επαγγελματικής και προσωπικής ζωής — τι οδηγεί σε μεγαλύτερη επιτυχία;",
+                "sideA": "Πολλές ώρες",
+                "sideB": "Ισορροπία",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Επιλογή καριέρας με βάση το πάθος ή με βάση τις προοπτικές απασχόλησης — τι είναι πιο συνετό;",
+                "sideA": "Πάθος",
+                "sideB": "Προοπτικές",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ζώντας ως άτομο ή δίνοντας προτεραιότητα στην κοινότητα — τι είναι πιο σημαντικό;",
+                "sideA": "Άτομο",
+                "sideB": "Κοινότητα",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Παραδοσιακές αξίες ή σύγχρονες αξίες — ποιες είναι πιο σημαντικό να διατηρηθούν;",
+                "sideA": "Παραδοσιακές",
+                "sideB": "Σύγχρονες",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Εθελοντισμός ή δωρεά χρημάτων σε φιλανθρωπίες — τι βοηθάει περισσότερο;",
+                "sideA": "Εθελοντισμός",
+                "sideB": "Δωρεά",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Φήμη ή κάνοντας τη διαφορά αθόρυβα — ποιος είναι ο καλύτερος στόχος στη ζωή;",
+                "sideA": "Φήμη",
+                "sideB": "Αθόρυβη διαφορά",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ακολουθώντας τους κανόνες ή σκεπτόμενος για τον εαυτό σου — τι έχει μεγαλύτερη σημασία;",
+                "sideA": "Κανόνες",
+                "sideB": "Δική σου σκέψη",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Σωματική υγεία ή ψυχική υγεία — ποια πρέπει να είναι η προτεραιότητα;",
+                "sideA": "Σωματική",
+                "sideB": "Ψυχική",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Πρόληψη ή θεραπεία — ποια είναι η καλύτερη προσέγγιση στην υγειονομική περίθαλψη;",
+                "sideA": "Πρόληψη",
+                "sideB": "Θεραπεία",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ανταγωνιστικός αθλητισμός ή άσκηση για διασκέδαση — τι είναι καλύτερο για σένα;",
+                "sideA": "Ανταγωνιστικός",
+                "sideB": "Διασκέδαση",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ιδιωτική υγειονομική περίθαλψη ή δημόσια υγειονομική περίθαλψη — ποιο σύστημα είναι πιο δίκαιο;",
+                "sideA": "Ιδιωτική",
+                "sideB": "Δημόσια",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Κινηματογράφος ή λογοτεχνία — ποια είναι η πιο ισχυρή μορφή τέχνης;",
+                "sideA": "Σινεμά",
+                "sideB": "Λογοτεχνία",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μοντέρνα τέχνη ή κλασική τέχνη — τι είναι πιο πολύτιμο;",
+                "sideA": "Μοντέρνα",
+                "sideB": "Κλασική",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Διατήρηση παλαιών κτιρίων ή ανέγερση νέων — τι έχει μεγαλύτερη σημασία;",
+                "sideA": "Διατήρηση παλαιών",
+                "sideB": "Ανέγερση νέων",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Τοπική κουλτούρα ή παγκοσμιοποίηση — τι εμπλουτίζει περισσότερο τις κοινότητες;",
+                "sideA": "Τοπική",
+                "sideB": "Παγκοσμιοποίηση",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
