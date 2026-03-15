@@ -35,11 +35,11 @@
         <section id="events">
             <h2 data-translate-key="events_title">Our Events 🎉</h2>
 
-            <details class="help-details glass" style="margin-bottom: 2rem; padding: 1rem; border-radius: 20px; max-width: 800px; margin-left: auto; margin-right: auto;" open>
+            <details class="help-details glass centered-info" open>
                 <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="how_it_works">How it works? 💡</summary>
-                <div style="margin-top: 1rem; text-align: left; font-size: 0.9rem; line-height: 1.6;">
+                <div class="info-content">
                     <p style="margin-bottom: 0.8rem;" data-translate-key="how_it_works_events_p1">Welcome to our Events corner! Here you can find our scheduled clubs and interactive games to practice your language skills.</p>
-                    <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                    <ul class="info-list">
                         <li data-translate-key="how_it_works_events_li1">🎭 <strong>Games:</strong> Click "Show Games" to see available interactive tools. Perfect for solo or group practice!</li>
                         <li data-translate-key="how_it_works_events_li2">🗣️ <strong>Speaking Clubs:</strong> Check the topics we discuss in our live sessions.</li>
                         <li data-translate-key="how_it_works_events_li3">🎤 <strong>Immersive Nights:</strong> Join us for karaoke or cinema to learn in a fun, cultural way.</li>
@@ -78,17 +78,32 @@
                     <p data-translate-key="event_games_desc">Play board games, card games, and video games in different languages. A fun and engaging way to learn new words and practice your communication skills.</p>
                     <button id="toggle-games-btn" class="topics-toggle-btn" data-translate-key="toggle_games_show">Show Games</button>
                     <div id="game-nights-topics" style="display: none;">
-                        <div class="games-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 1rem;">
-                            <button id="open-emoji-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_emoji">Play Emoji Odyssey 📖</button>
-                            <button id="open-linker-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_linker">Play Word Linker 🔗</button>
-                            <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Action Hero 🎭</button>
-                            <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who">Play Identity Mystery 👤</button>
-                            <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what">Play Object Quest 📦</button>
-                            <button id="open-bingo-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_bingo">Play Lucky Numbers 🔢</button>
-                            <button id="open-debates-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_debates">Play Battle of Wits ⚖️</button>
-                            <button id="open-talk-talk-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_talk_talk">Play Fluency Flow 🗣️</button>
-                            <button id="open-opinion-arena-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_opinion_arena">Play Opinion Arena 🏟️</button>
-                            <button id="open-critics-corner-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_critics_corner">Play Critic's Corner 🎭</button>
+                        <div class="games-categories">
+                            <div class="game-category">
+                                <h4 data-translate-key="cat_fun_adventure">Fun & Adventure 🎮</h4>
+                                <div class="games-grid">
+                                    <button id="open-emoji-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_emoji">Play Emoji Odyssey 📖</button>
+                                    <button id="open-bingo-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_bingo">Play Lucky Numbers 🔢</button>
+                                    <button id="open-linker-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_linker">Play Word Linker 🔗</button>
+                                </div>
+                            </div>
+                            <div class="game-category">
+                                <h4 data-translate-key="cat_mystery_guesses">Mystery & Guesses 🕵️</h4>
+                                <div class="games-grid">
+                                    <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Action Hero 🎭</button>
+                                    <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who">Play Identity Mystery 👤</button>
+                                    <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what">Play Object Quest 📦</button>
+                                </div>
+                            </div>
+                            <div class="game-category">
+                                <h4 data-translate-key="cat_speaking_fluency">Speaking & Fluency 🗣️</h4>
+                                <div class="games-grid">
+                                    <button id="open-talk-talk-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_talk_talk">Play Fluency Flow 🗣️</button>
+                                    <button id="open-debates-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_debates">Play Battle of Wits ⚖️</button>
+                                    <button id="open-opinion-arena-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_opinion_arena">Play Opinion Arena 🏟️</button>
+                                    <button id="open-critics-corner-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_critics_corner">Play Critic's Corner 🎭</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -171,9 +186,9 @@
 
                 <div id="charades-gameplay" style="display: none;">
                     <div id="charades-timer" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 1.5rem;">1:00</div>
-                    <div id="charades-card" class="event-item" style="background: white; margin: 1.5rem 0; padding: 3rem 2rem; border-radius: 30px; box-shadow: 0 15px 40px rgba(0,0,0,0.08);">
-                        <div id="charades-emoji" style="font-size: 7.5rem; margin-bottom: 1.5rem; filter: drop-shadow(0 5px 12px rgba(0,0,0,0.15));">🍎</div>
-                        <div id="charades-word" style="font-size: 3.5rem; font-weight: 800; color: var(--primary-color); font-family: 'Georgia', serif; line-height: 1.1;" data-translate-key="placeholder_loading">Loading...</div>
+                    <div id="charades-card" class="game-main-card">
+                        <div id="charades-emoji" class="game-emoji-large">🍎</div>
+                        <div id="charades-word" class="game-word-large" data-translate-key="placeholder_loading">Loading...</div>
                     </div>
                     <div style="display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;">
                         <button id="charades-correct-btn" class="cta-button" style="background: #4CAF50;" data-translate-key="correct_btn">Correct ✅</button>
@@ -380,7 +395,7 @@
                     <div id="bingo-last-called" style="font-size: 10rem; font-weight: 900; color: var(--primary-color); margin-bottom: 2.5rem; text-shadow: 0 4px 20px rgba(0, 168, 150, 0.25);">---</div>
                     <button id="bingo-call-next-btn" class="cta-button primary" data-translate-key="bingo_call_next" style="margin-bottom: 2rem;">Call Next 🎲</button>
 
-                    <div style="text-align: left; max-height: 150px; overflow-y: auto; background: rgba(0,0,0,0.05); padding: 1rem; border-radius: 10px;">
+                    <div class="game-history-box">
                         <h4 data-translate-key="called_numbers">Called Numbers:</h4>
                         <div id="bingo-history" style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;"></div>
                     </div>
@@ -710,7 +725,7 @@
             <div id="emoji-story-area" style="display: none;">
                 <h3 id="emoji-story-name-display" style="color: var(--primary-color); margin-bottom: 1rem;"></h3>
                 <p id="emoji-story-prompt" style="font-style: italic; color: #666; margin-bottom: 1.5rem;" data-translate-key="emoji_story_next_player">Use these 4 emojis to continue the story!</p>
-                <div id="emoji-story-display" style="font-size: 5rem; letter-spacing: 15px; margin-bottom: 2.5rem; background: rgba(0,0,0,0.03); padding: 2.5rem; border-radius: 30px; display: flex; justify-content: center; align-items: center; min-height: 180px; flex-wrap: wrap; gap: 20px;"></div>
+                <div id="emoji-story-display" class="game-display-box" style="font-size: 5rem; letter-spacing: 15px; min-height: 180px;"></div>
                 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
                     <button id="emoji-next-set-btn" class="cta-button primary" data-translate-key="emoji_next_set">Next Player ➡️</button>
                     <button id="emoji-finish-btn" class="cta-button secondary" data-translate-key="emoji_finish_story">Finish Story 🏁</button>
