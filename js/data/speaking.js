@@ -1924,6 +1924,276 @@ const speakingData = {
                 "theme": "leisure_hobbies",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Lots of exams vs very few exams — which is fairer?",
+                "sideA": "Lots of exams",
+                "sideB": "Very few exams",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Starting school at 7 vs starting school at 5 — which is better for children?",
+                "sideA": "At 7",
+                "sideB": "At 5",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Eating slowly vs eating quickly — which is better for you?",
+                "sideA": "Slowly",
+                "sideB": "Quickly",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cooking at home vs ordering food online — which is better?",
+                "sideA": "Cooking at home",
+                "sideB": "Ordering online",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cooking vs baking — which is more fun as a hobby?",
+                "sideA": "Cooking",
+                "sideB": "Baking",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Going to the gym vs exercising outside — which is better?",
+                "sideA": "Gym",
+                "sideB": "Outside",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Photos on your phone vs printed photos — which is better?",
+                "sideA": "Phone photos",
+                "sideB": "Printed photos",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Smart TV vs computer screen — which is better for watching films?",
+                "sideA": "Smart TV",
+                "sideB": "Computer",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Hot country vs cold country — which is a better holiday destination?",
+                "sideA": "Hot country",
+                "sideB": "Cold country",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Giving presents vs receiving presents — which do you prefer?",
+                "sideA": "Giving",
+                "sideB": "Receiving",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Working indoors vs working outdoors — which is better?",
+                "sideA": "Indoors",
+                "sideB": "Outdoors",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Pineapple on pizza vs no pineapple on pizza — which is correct?",
+                "sideA": "Pineapple",
+                "sideB": "No pineapple",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Putting milk in first vs putting tea in first — which is better?",
+                "sideA": "Milk first",
+                "sideB": "Tea first",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Monday vs Friday — which day is actually worse?",
+                "sideA": "Monday",
+                "sideB": "Friday",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Waking up five minutes before the alarm vs sleeping until the alarm — which is more annoying?",
+                "sideA": "Before alarm",
+                "sideB": "Until alarm",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cats vs dogs — which animal is secretly the boss of the house?",
+                "sideA": "Cats",
+                "sideB": "Dogs",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Being too hot vs being too cold — which is worse?",
+                "sideA": "Too hot",
+                "sideB": "Too cold",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Learning from mistakes vs learning from success — which teaches more?",
+                "sideA": "Mistakes",
+                "sideB": "Success",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Tablets in class vs traditional notebooks — which help students more?",
+                "sideA": "Tablets",
+                "sideB": "Notebooks",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Being always contactable vs having digital free time — which is better?",
+                "sideA": "Contactable",
+                "sideB": "Free time",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Reusing things vs recycling — which is more effective?",
+                "sideA": "Reusing",
+                "sideB": "Recycling",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "One career for life vs changing careers often — which is better?",
+                "sideA": "One career",
+                "sideB": "Changing often",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sleep vs exercise — which has a bigger impact on your health?",
+                "sideA": "Sleep",
+                "sideB": "Exercise",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Pop music vs classical music — which has a bigger cultural impact?",
+                "sideA": "Pop",
+                "sideB": "Classical",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Knowing how something ends before watching it vs being surprised — which is better?",
+                "sideA": "Knowing",
+                "sideB": "Surprised",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Replying to messages immediately vs taking your time — which is more respectful?",
+                "sideA": "Immediately",
+                "sideB": "Taking time",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Binge-watching a series in one go vs watching one episode a week — which is the right way?",
+                "sideA": "Binge-watching",
+                "sideB": "Weekly",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Window seat vs aisle seat on a plane — which is objectively better?",
+                "sideA": "Window seat",
+                "sideB": "Aisle seat",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Skipping the gym once vs going and having a bad session — which is worse?",
+                "sideA": "Skipping",
+                "sideB": "Bad session",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Talking to yourself vs talking to your pet — which is more reasonable?",
+                "sideA": "To yourself",
+                "sideB": "To pet",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -3902,6 +4172,276 @@ const speakingData = {
                 "sideB": "Bonhomme de neige",
                 "level": "elementary",
                 "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Beaucoup d'examens vs très peu d'examens — qu'est-ce qui est le plus juste ?",
+                "sideA": "Beaucoup d'examens",
+                "sideB": "Très peu d'examens",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Commencer l'école à 7 ans vs commencer à 5 ans — qu'est-ce qui est mieux pour les enfants ?",
+                "sideA": "À 7 ans",
+                "sideB": "À 5 ans",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Manger lentement vs manger rapidement — qu'est-ce qui est mieux pour vous ?",
+                "sideA": "Lentement",
+                "sideB": "Rapidement",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cuisiner à la maison vs commander en ligne — qu'est-ce qui est mieux ?",
+                "sideA": "Cuisiner",
+                "sideB": "Commander",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cuisiner vs faire de la pâtisserie — qu'est-ce qui est le plus amusant comme passe-temps ?",
+                "sideA": "Cuisiner",
+                "sideB": "Pâtisser",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Aller à la salle de sport vs faire de l'exercice dehors — qu'est-ce qui est mieux ?",
+                "sideA": "Salle de sport",
+                "sideB": "Dehors",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Photos sur téléphone vs photos imprimées — qu'est-ce qui est mieux ?",
+                "sideA": "Téléphone",
+                "sideB": "Imprimées",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Smart TV vs écran d'ordinateur — qu'est-ce qui est mieux pour regarder des films ?",
+                "sideA": "Smart TV",
+                "sideB": "Ordinateur",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Pays chaud vs pays froid — quelle est la meilleure destination de vacances ?",
+                "sideA": "Pays chaud",
+                "sideB": "Pays froid",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Offrir des cadeaux vs recevoir des cadeaux — que préférez-vous ?",
+                "sideA": "Offrir",
+                "sideB": "Recevoir",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Travailler à l'intérieur vs travailler à l'extérieur — qu'est-ce qui est mieux ?",
+                "sideA": "Intérieur",
+                "sideB": "Extérieur",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ananas sur la pizza vs pas d'ananas — qu'est-ce qui est correct ?",
+                "sideA": "Ananas",
+                "sideB": "Pas d'ananas",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Mettre le lait en premier vs mettre le thé — qu'est-ce qui est mieux ?",
+                "sideA": "Lait d'abord",
+                "sideB": "Thé d'abord",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lundi vs Vendredi — quel jour est réellement le pire ?",
+                "sideA": "Lundi",
+                "sideB": "Vendredi",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Se réveiller cinq minutes avant l'alarme vs dormir jusqu'à l'alarme — qu'est-ce qui est le plus agaçant ?",
+                "sideA": "Avant l'alarme",
+                "sideB": "Jusqu'à l'alarme",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Chats vs chiens — quel animal est secrètement le patron de la maison ?",
+                "sideA": "Chats",
+                "sideB": "Chiens",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Avoir trop chaud vs avoir trop froid — qu'est-ce qui est le pire ?",
+                "sideA": "Trop chaud",
+                "sideB": "Trop froid",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Apprendre de ses erreurs vs apprendre de ses succès — qu'est-ce qui instruit le plus ?",
+                "sideA": "Erreurs",
+                "sideB": "Succès",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Tablettes en classe vs cahiers traditionnels — qu'est-ce qui aide le plus les élèves ?",
+                "sideA": "Tablettes",
+                "sideB": "Cahiers",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Être toujours joignable vs avoir du temps libre numérique — qu'est-ce qui est mieux ?",
+                "sideA": "Joignable",
+                "sideB": "Temps libre",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Réutiliser les objets vs recycler — qu'est-ce qui est le plus efficace ?",
+                "sideA": "Réutiliser",
+                "sideB": "Recycler",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Une seule carrière pour la vie vs changer de carrière souvent — qu'est-ce qui est mieux ?",
+                "sideA": "Une carrière",
+                "sideB": "Changer souvent",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Le sommeil vs l'exercice — qu'est-ce qui a le plus d'impact sur votre santé ?",
+                "sideA": "Sommeil",
+                "sideB": "Exercice",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Musique pop vs musique classique — laquelle a le plus d'impact culturel ?",
+                "sideA": "Pop",
+                "sideB": "Classique",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Savoir comment quelque chose se termine vs être surpris — qu'est-ce qui est mieux ?",
+                "sideA": "Savoir",
+                "sideB": "Surpris",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Répondre immédiatement aux messages vs prendre son temps — qu'est-ce qui est le plus respectueux ?",
+                "sideA": "Immédiatement",
+                "sideB": "Prendre son temps",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Regarder une série d'un coup vs regarder un épisode par semaine — quelle est la bonne manière ?",
+                "sideA": "D'un coup",
+                "sideB": "Hebdomadaire",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Siège côté fenêtre vs siège côté couloir — lequel est objectivement le meilleur ?",
+                "sideA": "Fenêtre",
+                "sideB": "Couloir",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sauter la salle une fois vs y aller et avoir une mauvaise séance — qu'est-ce qui est le pire ?",
+                "sideA": "Sauter",
+                "sideB": "Mauvaise séance",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Se parler à soi-même vs parler à son animal — qu'est-ce qui est le plus raisonnable ?",
+                "sideA": "À soi-même",
+                "sideB": "À son animal",
+                "level": "intermediate",
+                "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -5884,6 +6424,276 @@ const speakingData = {
                 "theme": "leisure_hobbies",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Molti esami vs pochissimi esami — cosa è più giusto?",
+                "sideA": "Molti esami",
+                "sideB": "Pochissimi esami",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Iniziare la scuola a 7 anni vs iniziare a 5 anni — cosa è meglio per i bambini?",
+                "sideA": "A 7 anni",
+                "sideB": "A 5 anni",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Mangiare lentamente vs mangiare velocemente — cosa è meglio per te?",
+                "sideA": "Lentamente",
+                "sideB": "Velocemente",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cucinare a casa vs ordinare online — cosa è meglio?",
+                "sideA": "Cucinare a casa",
+                "sideB": "Ordinare online",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cucinare vs fare dolci — cosa è più divertente come hobby?",
+                "sideA": "Cucinare",
+                "sideB": "Pasticceria",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Andare in palestra vs allenarsi all'aperto — cosa è meglio?",
+                "sideA": "Palestra",
+                "sideB": "All'aperto",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Foto sul telefono vs foto stampate — cosa è meglio?",
+                "sideA": "Sul telefono",
+                "sideB": "Stampate",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Smart TV vs schermo del computer — cosa è meglio per guardare film?",
+                "sideA": "Smart TV",
+                "sideB": "Computer",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Paese caldo vs paese freddo — quale è la migliore destinazione per le vacanze?",
+                "sideA": "Paese caldo",
+                "sideB": "Paese freddo",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Fare regali vs ricevere regali — cosa preferisci?",
+                "sideA": "Fare regali",
+                "sideB": "Ricevere regali",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lavorare al chiuso vs lavorare all'aperto — cosa è meglio?",
+                "sideA": "Al chiuso",
+                "sideB": "All'aperto",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ananas sulla pizza vs niente ananas — cosa è corretto?",
+                "sideA": "Ananas",
+                "sideB": "Niente ananas",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Mettere prima il latte vs mettere prima il tè — cosa è meglio?",
+                "sideA": "Prima il latte",
+                "sideB": "Prima il tè",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lunedì vs Venerdì — quale giorno è effettivamente peggiore?",
+                "sideA": "Lunedì",
+                "sideB": "Venerdì",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Svegliarsi cinque minuti prima della sveglia vs dormire fino alla sveglia — cosa è più fastidioso?",
+                "sideA": "Prima della sveglia",
+                "sideB": "Fino alla sveglia",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Gatti vs cani — quale animale è segretamente il capo della casa?",
+                "sideA": "Gatti",
+                "sideB": "Cani",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Avere troppo caldo vs avere troppo freddo — cosa è peggio?",
+                "sideA": "Troppo caldo",
+                "sideB": "Troppo freddo",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Imparare dai propri errori vs imparare dai propri successi — cosa insegna di più?",
+                "sideA": "Errori",
+                "sideB": "Successi",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Tablet in classe vs quaderni tradizionali — cosa aiuta di più gli studenti?",
+                "sideA": "Tablet",
+                "sideB": "Quaderni",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Essere sempre rintracciabili vs avere tempo libero digitale — cosa è meglio?",
+                "sideA": "Sempre rintracciabili",
+                "sideB": "Tempo libero",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Riutilizzare le cose vs riciclare — cosa è più efficace?",
+                "sideA": "Riutilizzare",
+                "sideB": "Riciclare",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Una sola carriera per tutta la vita vs cambiare spesso carriera — cosa è meglio?",
+                "sideA": "Una carriera",
+                "sideB": "Cambiare spesso",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Dormire vs fare esercizio — cosa ha un impatto maggiore sulla tua salute?",
+                "sideA": "Dormire",
+                "sideB": "Esercizio",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Musica pop vs musica classica — quale ha un impatto culturale maggiore?",
+                "sideA": "Pop",
+                "sideB": "Classica",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sapere come finisce qualcosa vs essere sorpresi — cosa è meglio?",
+                "sideA": "Sapere",
+                "sideB": "Sorpresi",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Rispondere immediatamente ai messaggi vs prendersi il proprio tempo — cosa è più rispettoso?",
+                "sideA": "Immediatamente",
+                "sideB": "Prendersi tempo",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Binge-watching vs guardare un episodio a settimana — quale è il modo giusto?",
+                "sideA": "Binge-watching",
+                "sideB": "Settimanale",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Posto finestrino vs posto corridoio — quale è oggettivamente migliore?",
+                "sideA": "Finestrino",
+                "sideB": "Corridoio",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Saltare la palestra una volta vs andare e fare una brutta sessione — cosa è peggio?",
+                "sideA": "Saltare",
+                "sideB": "Brutta sessione",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Parlare con se stessi vs parlare con il proprio animale — cosa è più ragionevole?",
+                "sideA": "Con se stessi",
+                "sideB": "Con l'animale",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -7864,6 +8674,276 @@ const speakingData = {
                 "theme": "leisure_hobbies",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Много экзаменов против очень малого количества — что справедливее?",
+                "sideA": "Много экзаменов",
+                "sideB": "Мало экзаменов",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Начало школы в 7 лет против начала в 5 лет — что лучше для детей?",
+                "sideA": "В 7 лет",
+                "sideB": "В 5 лет",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Есть медленно против того, чтобы есть быстро — что лучше для вас?",
+                "sideA": "Медленно",
+                "sideB": "Быстро",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Готовить дома против заказа еды онлайн — что лучше?",
+                "sideA": "Готовить дома",
+                "sideB": "Заказывать онлайн",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Готовка еды против выпечки — что веселее как хобби?",
+                "sideA": "Готовка",
+                "sideB": "Выпечка",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ходить в спортзал против тренировок на улице — что лучше?",
+                "sideA": "Спортзал",
+                "sideB": "Улица",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Фото в телефоне против распечатанных фото — что лучше?",
+                "sideA": "В телефоне",
+                "sideB": "Распечатанные",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Смарт-ТВ против компьютерного монитора — на чем лучше смотреть фильмы?",
+                "sideA": "Смарт-ТВ",
+                "sideB": "Компьютер",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Жаркая страна против холодной страны — где лучше отдыхать?",
+                "sideA": "Жаркая",
+                "sideB": "Холодная",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Дарить подарки против того, чтобы их получать — что вы предпочитаете?",
+                "sideA": "Дарить",
+                "sideB": "Получать",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Работа в помещении против работы на улице — что лучше?",
+                "sideA": "В помещении",
+                "sideB": "На улице",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ананас в пицце против отсутствия ананаса — как правильно?",
+                "sideA": "Ананас",
+                "sideB": "Без ананаса",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Наливать сначала молоко против того, чтобы наливать сначала чай — как лучше?",
+                "sideA": "Сначала молоко",
+                "sideB": "Сначала чай",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Понедельник против пятницы — какой день на самом деле хуже?",
+                "sideA": "Понедельник",
+                "sideB": "Пятница",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Проснуться за пять минут до будильника против сна до самого будильника — что больше раздражает?",
+                "sideA": "До будильника",
+                "sideB": "До конца",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Кошки против собак — кто из них на самом деле хозяин в доме?",
+                "sideA": "Кошки",
+                "sideB": "Собаки",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Когда слишком жарко против того, когда слишком холодно — что хуже?",
+                "sideA": "Слишком жарко",
+                "sideB": "Слишком холодно",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Учиться на ошибках против того, чтобы учиться на успехе — что учит большему?",
+                "sideA": "Ошибки",
+                "sideB": "Успех",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Планшеты в классе против традиционных тетрадей — что больше помогает ученикам?",
+                "sideA": "Планшеты",
+                "sideB": "Тетради",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Быть всегда на связи против наличия цифрового свободного времени — что лучше?",
+                "sideA": "Всегда на связи",
+                "sideB": "Свободное время",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Повторное использование вещей против переработки — что эффективнее?",
+                "sideA": "Повторное использование",
+                "sideB": "Переработка",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Одна карьера на всю жизнь против частой смены профессий — что лучше?",
+                "sideA": "Одна карьера",
+                "sideB": "Частая смена",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Сон против физических упражнений — что больше влияет на ваше здоровье?",
+                "sideA": "Сон",
+                "sideB": "Упражнения",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Поп-музыка против классической музыки — что имеет большее культурное влияние?",
+                "sideA": "Поп-музыка",
+                "sideB": "Классика",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Знать, чем все закончится, против того, чтобы быть застигнутым врасплох — что лучше?",
+                "sideA": "Знать заранее",
+                "sideB": "Сюрприз",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Мгновенный ответ на сообщения против того, чтобы не торопиться — что более уважительно?",
+                "sideA": "Мгновенно",
+                "sideB": "Не торопясь",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Просмотр сериала запоем против просмотра одной серии в неделю — как правильно?",
+                "sideA": "Запоем",
+                "sideB": "По серии",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Место у окна против места у прохода в самолете — что объективно лучше?",
+                "sideA": "У окна",
+                "sideB": "У прохода",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Один раз пропустить спортзал против того, чтобы пойти и плохо потренироваться — что хуже?",
+                "sideA": "Пропустить",
+                "sideB": "Плохая тренировка",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Разговаривать с самим собой против разговора со своим питомцем — что более разумно?",
+                "sideA": "С собой",
+                "sideB": "С питомцем",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -9842,6 +10922,276 @@ const speakingData = {
                 "sideB": "Χιονάνθρωπος",
                 "level": "elementary",
                 "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Πολλές εξετάσεις εναντίον πολύ λίγων — ποιο είναι πιο δίκαιο;",
+                "sideA": "Πολλές εξετάσεις",
+                "sideB": "Πολύ λίγες",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Έναρξη σχολείου στα 7 εναντίον στα 5 — ποιο είναι καλύτερο για τα παιδιά;",
+                "sideA": "Στα 7",
+                "sideB": "Στα 5",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Φαγητό αργά εναντίον φαγητό γρήγορα — ποιο είναι καλύτερο για σένα;",
+                "sideA": "Αργά",
+                "sideB": "Γρήγορα",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μαγειρική στο σπίτι εναντίον παραγγελίας online — ποιο είναι καλύτερο;",
+                "sideA": "Μαγειρική",
+                "sideB": "Παραγγελία",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μαγειρική εναντίον ζαχαροπλαστικής — ποιο είναι πιο διασκεδαστικό ως χόμπι;",
+                "sideA": "Μαγειρική",
+                "sideB": "Ζαχαροπλαστική",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Γυμναστήριο εναντίον γυμναστικής έξω — ποιο είναι καλύτερο;",
+                "sideA": "Γυμναστήριο",
+                "sideB": "Έξω",
+                "level": "elementary",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Φωτογραφίες στο κινητό εναντίον εκτυπωμένων — ποιο είναι καλύτερο;",
+                "sideA": "Στο κινητό",
+                "sideB": "Εκτυπωμένες",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Smart TV εναντίον οθόνης υπολογιστή — ποιο είναι καλύτερο για ταινίες;",
+                "sideA": "Smart TV",
+                "sideB": "Υπολογιστής",
+                "level": "elementary",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ζεστή χώρα εναντίον κρύας χώρας — ποιος είναι καλύτερος προορισμός διακοπών;",
+                "sideA": "Ζεστή",
+                "sideB": "Κρύα",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Να δίνεις δώρα εναντίον να παίρνεις δώρα — ποιο προτιμάς;",
+                "sideA": "Να δίνεις",
+                "sideB": "Να παίρνεις",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Εργασία μέσα εναντίον εργασίας έξω — ποιο είναι καλύτερο;",
+                "sideA": "Μέσα",
+                "sideB": "Έξω",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ανανάς στην πίτσα εναντίον χωρίς ανανά — ποιο είναι το σωστό;",
+                "sideA": "Ανανάς",
+                "sideB": "Χωρίς ανανά",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Γάλα πρώτα εναντίον τσάι πρώτα — ποιο είναι καλύτερο;",
+                "sideA": "Γάλα πρώτα",
+                "sideB": "Τσάι πρώτα",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Δευτέρα εναντίον Παρασκευής — ποια μέρα είναι στην πραγματικότητα χειρότερη;",
+                "sideA": "Δευτέρα",
+                "sideB": "Παρασκευή",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ξύπνημα πέντε λεπτά πριν το ξυπνητήρι εναντίον ύπνου μέχρι το ξυπνητήρι — ποιο είναι πιο ενοχλητικό;",
+                "sideA": "Πριν το ξυπνητήρι",
+                "sideB": "Μέχρι το ξυπνητήρι",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Γάτες εναντίον σκύλων — ποιο ζώο είναι κρυφά το αφεντικό του σπιτιού;",
+                "sideA": "Γάτες",
+                "sideB": "Σκύλοι",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Όταν ζεσταίνεσαι πολύ εναντίον όταν κρυώνεις πολύ — ποιο είναι χειρότερο;",
+                "sideA": "Πολύ ζέστη",
+                "sideB": "Πολύ κρύο",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μάθηση από τα λάθη εναντίον μάθησης από την επιτυχία — ποιο διδάσκει περισσότερα;",
+                "sideA": "Λάθη",
+                "sideB": "Επιτυχία",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Τάμπλετ στην τάξη εναντίον παραδοσιακών τετραδίων — ποιο βοηθάει περισσότερο τους μαθητές;",
+                "sideA": "Τάμπλετ",
+                "sideB": "Τετράδια",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Το να είσαι πάντα διαθέσιμος εναντίον του να έχεις ψηφιακό ελεύθερο χρόνο — ποιο είναι καλύτερο;",
+                "sideA": "Πάντα διαθέσιμος",
+                "sideB": "Ελεύθερος χρόνος",
+                "level": "intermediate",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Επαναχρησιμοποίηση πραγμάτων εναντίον ανακύκλωσης — ποιο είναι πιο αποτελεσματικό;",
+                "sideA": "Επαναχρησιμοποίηση",
+                "sideB": "Ανακύκλωση",
+                "level": "intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μία καριέρα για όλη τη ζωή εναντίον συχνής αλλαγής καριέρας — ποιο είναι καλύτερο;",
+                "sideA": "Μία καριέρα",
+                "sideB": "Συχνή αλλαγή",
+                "level": "intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ύπνος εναντίον γυμναστικής — ποιο έχει μεγαλύτερο αντίκτυπο στην υγεία σου;",
+                "sideA": "Ύπνος",
+                "sideB": "Γυμναστική",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ποπ μουσική εναντίον κλασικής μουσικής — ποια έχει μεγαλύτερο πολιτιστικό αντίκτυπο;",
+                "sideA": "Ποπ",
+                "sideB": "Κλασική",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Να ξέρεις το τέλος εναντίον της έκπληξης — ποιο είναι καλύτερο;",
+                "sideA": "Να ξέρεις",
+                "sideB": "Έκπληξη",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Άμεση απάντηση στα μηνύματα εναντίον του να παίρνεις το χρόνο σου — ποιο είναι πιο σεβαστό;",
+                "sideA": "Άμεσα",
+                "sideB": "Με το πάσο σου",
+                "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Binge-watching μιας σειράς εναντίον ενός επεισοδίου την εβδομάδα — ποιος είναι ο σωστός τρόπος;",
+                "sideA": "Binge-watching",
+                "sideB": "Εβδομαδιαία",
+                "level": "intermediate",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Θέση στο παράθυρο εναντίον θέση στο διάδρομο — ποιο είναι αντικειμενικά καλύτερο;",
+                "sideA": "Παράθυρο",
+                "sideB": "Διάδρομος",
+                "level": "intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Να χάσεις το γυμναστήριο μία φορά εναντίον του να πας και να μην κάνεις καλή προπόνηση — ποιο είναι χειρότερο;",
+                "sideA": "Να το χάσεις",
+                "sideB": "Κακή προπόνηση",
+                "level": "intermediate",
+                "theme": "health_body",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Να μιλάς στον εαυτό σου εναντίον του να μιλάς στο κατοικίδιό σου — ποιο είναι πιο λογικό;",
+                "sideA": "Στον εαυτό σου",
+                "sideB": "Στο κατοικίδιο",
+                "level": "intermediate",
+                "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
             }
