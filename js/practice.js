@@ -80,6 +80,7 @@ function populateThemes(categoryId) {
     } else {
         // vocab
         themes = [
+            { value: 'numbers', key: 'theme_numbers' },
             { value: 'profession', key: 'theme_profession' },
             { value: 'family', key: 'theme_family' },
             { value: 'animal', key: 'theme_animal' },
@@ -432,6 +433,17 @@ document.addEventListener('DOMContentLoaded', () => {
     catRadios.forEach(radio => {
         radio.addEventListener('change', window.updateCategoryUI);
     });
+
+    const themeSelect = document.getElementById('practice-theme');
+    if (themeSelect) {
+        themeSelect.addEventListener('change', () => {
+            if (themeSelect.value === 'numbers') {
+                const lang = currentPractice.language;
+                const msg = (translations[lang] && translations[lang]['bingo_suggestion']) || "Tip: You can also practice numbers playing Bingo in the Events section! 🎲";
+                window.gameUtils.showGameMessage('setup-section', msg);
+            }
+        });
+    }
     window.updateCategoryUI(); // Initial call
 
     // Global Enter Key Handler
@@ -1758,24 +1770,6 @@ function checkTrueFalseAnswer(userAnswer) {
     }
 }
 
-function createConfetti() {
-    const emojis = ['🎉', '✨', '🎈', '🎊', '🥳', '🌟'];
-    const container = document.body;
-
-    for (let i = 0; i < 40; i++) {
-        const confetti = document.createElement('div');
-        confetti.className = 'confetti';
-        confetti.textContent = emojis[Math.floor(Math.random() * emojis.length)];
-        confetti.style.left = Math.random() * 100 + 'vw';
-        confetti.style.fontSize = (Math.random() * 20 + 20) + 'px';
-        confetti.style.animation = `confettiFall ${Math.random() * 3 + 2}s linear forwards`;
-
-        container.appendChild(confetti);
-
-        setTimeout(() => confetti.remove(), 5000);
-    }
-}
-
 function showSummary() {
     updateStreak();
     clearSession();
@@ -1804,7 +1798,7 @@ function showSummary() {
     if (summaryModal) summaryModal.style.display = 'flex';
     if (practiceSection) practiceSection.style.display = 'none';
 
-    createConfetti();
+    window.gameUtils.createConfetti();
 }
 
 function showFeedback(isCorrect) {

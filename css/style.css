@@ -1594,6 +1594,19 @@ footer {
     margin: 1.5rem 0;
 }
 
+.bingo-grid.cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.bingo-grid.cols-9 {
+    grid-template-columns: repeat(9, 1fr);
+    gap: 5px;
+}
+
+.bingo-grid.cols-9 .bingo-cell {
+    font-size: 1rem;
+}
+
 .bingo-cell {
     aspect-ratio: 1;
     display: flex;

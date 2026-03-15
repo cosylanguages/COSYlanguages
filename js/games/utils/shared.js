@@ -139,6 +139,24 @@ const speak = (text, lang) => {
     window.speechSynthesis.speak(msg);
 };
 
+const createConfetti = () => {
+    const emojis = ['🎉', '✨', '🎈', '🎊', '🥳', '🌟'];
+    const container = document.body;
+
+    for (let i = 0; i < 40; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+        confetti.style.left = Math.random() * 100 + 'vw';
+        confetti.style.fontSize = (Math.random() * 20 + 20) + 'px';
+        confetti.style.animation = `confettiFall ${Math.random() * 3 + 2}s linear forwards`;
+
+        container.appendChild(confetti);
+
+        setTimeout(() => confetti.remove(), 5000);
+    }
+};
+
 // Mulberry32 algorithm for deterministic random number generation
 const mulberry32 = (a) => {
     return function() {
@@ -333,5 +351,5 @@ const showGameConfirm = (message, onConfirm) => {
 
 // Export to window
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm
 };
