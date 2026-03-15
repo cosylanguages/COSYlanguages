@@ -102,6 +102,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (level) setById('linker-level', level);
                     window.wordLinkerGame.start();
                 }
+            } else if (game === 'last_letter') {
+                if (window.lastLetterGame) {
+                    window.lastLetterGame.open();
+                    if (lang) setById('last-letter-lang', lang);
+                    if (level) setById('last-letter-level', level);
+                    if (theme) setById('last-letter-theme', theme);
+                    window.lastLetterGame.start();
+                }
             }
 
             // Apply language to modals if lang param provided

@@ -1590,8 +1590,33 @@ footer {
 .bingo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 10px;
     margin: 1.5rem 0;
+}
+
+.bingo-grid.cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.bingo-grid.cols-9 {
+    grid-template-columns: repeat(9, 1fr);
+    gap: 5px;
+}
+
+.bingo-grid.cols-9 .bingo-cell {
+    font-size: 1rem;
+}
+
+.game-display-box {
+    background: rgba(0, 0, 0, 0.03);
+    padding: 2.5rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 2.5rem;
 }
 
 .bingo-cell {
@@ -1640,6 +1665,38 @@ footer {
     transition: transform 0.2s;
 }
 
+.game-main-card {
+    background: white;
+    margin: 1.5rem 0;
+    padding: 3rem 2rem;
+    border-radius: 30px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.game-emoji-large {
+    font-size: 7.5rem;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 5px 12px rgba(0,0,0,0.15));
+}
+
+.game-word-large {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    font-family: 'Georgia', serif;
+    line-height: 1.1;
+}
+
+.game-history-box {
+    text-align: left;
+    max-height: 150px;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.05);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
 .prompt-questions li:hover {
     transform: translateX(5px);
     background: white;
@@ -1676,6 +1733,60 @@ footer {
     padding-bottom: 0.5rem;
 }
 
+.help-details.centered-info {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.help-details .info-content {
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.help-details .info-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Games Categorization */
+.games-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.game-category h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+    font-family: 'Georgia', serif;
+    border-bottom: 1px dashed var(--primary-color);
+    display: inline-block;
+    padding-bottom: 0.2rem;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.8rem;
+}
+
+@media (max-width: 480px) {
+    .games-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Adventure Theme & UI Enhancements */
 .game-play {
     animation: slideUp 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -1709,6 +1820,30 @@ footer {
 .bingo-grid.speed-mode .bingo-cell.marked {
     background: linear-gradient(135deg, var(--primary-color), #26c6da);
     box-shadow: 0 0 15px rgba(0, 168, 150, 0.5);
+}
+
+.game-message-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 168, 150, 0.95);
+    color: white;
+    padding: 1.2rem 2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    z-index: 1000;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    pointer-events: none;
+    text-align: center;
+    max-width: 90%;
+    min-width: 200px;
+    animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.game-message-overlay.error {
+    background: rgba(244, 67, 54, 0.95);
 }
 
 .event-item.correct-flash {

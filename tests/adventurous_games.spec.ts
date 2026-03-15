@@ -11,15 +11,15 @@ test('events page game rebranding and modals', async ({ page }) => {
     await toggleBtn.click();
 
     // Check rebranded names in buttons
-    const gameGrid = page.locator('#game-nights-topics .games-grid');
-    await expect(gameGrid).toContainText('Action Hero');
-    await expect(gameGrid).toContainText('Identity Mystery');
-    await expect(gameGrid).toContainText('Object Quest');
-    await expect(gameGrid).toContainText('Lucky Numbers');
-    await expect(gameGrid).toContainText('Battle of Wits');
-    await expect(gameGrid).toContainText('Fluency Flow');
-    await expect(gameGrid).toContainText('Opinion Arena');
-    await expect(gameGrid).toContainText('The Critic\'s Corner');
+    const gamesTopics = page.locator('#game-nights-topics');
+    await expect(gamesTopics).toContainText('Action Hero');
+    await expect(gamesTopics).toContainText('Identity Mystery');
+    await expect(gamesTopics).toContainText('Object Quest');
+    await expect(gamesTopics).toContainText('Lucky Numbers');
+    await expect(gamesTopics).toContainText('Battle of Wits');
+    await expect(gamesTopics).toContainText('Fluency Flow');
+    await expect(gamesTopics).toContainText('Opinion Arena');
+    await expect(gamesTopics).toContainText('The Critic\'s Corner');
 
     // Test Battle of Wits Modal
     await page.click('#open-debates-btn');

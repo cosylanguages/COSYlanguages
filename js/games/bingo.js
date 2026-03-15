@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const { speak, seededShuffle, handleShare, playGameSound } = window.gameUtils;
 
     const initBingo = () => {
+        const { createConfetti } = window.gameUtils;
         const modal = document.getElementById('bingo-modal');
         if (!modal) return;
 
@@ -10,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const startCallerBtn = document.getElementById('start-bingo-caller-btn');
         const startPlayerBtn = document.getElementById('start-bingo-player-btn');
         const callNextBtn = document.getElementById('bingo-call-next-btn');
-        const speedModeToggle = document.getElementById('bingo-speed-mode');
 
         const setupArea = document.getElementById('bingo-setup');
         const callerArea = document.getElementById('bingo-caller-area');
@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let calledItems = [];
         let currentCardIndex = 0;
         let speedInterval = null;
+        let hasWonCurrentCard = false;
 
         const openBingo = () => {
             modal.style.display = 'flex';
@@ -124,36 +125,85 @@ document.addEventListener('DOMContentLoaded', () => {
             if (autoIndicator) autoIndicator.style.display = 'none';
 
             clearInterval(speedInterval);
-            if (speedModeToggle?.checked) {
-                if (autoIndicator) autoIndicator.style.display = 'block';
-                callNext();
-                speedInterval = setInterval(() => {
-                    callNext();
-                }, 5000);
-            }
         };
 
         startCallerBtn?.addEventListener('click', startBingoCaller);
         callNextBtn?.addEventListener('click', callNext);
 
+        const checkWin = (grid, cols, rows) => {
+            const cells = Array.from(grid.querySelectorAll('.bingo-cell'));
+            if (cells.length < cols * rows) return false; // Not full grid
+
+            // Rows
+            for (let r = 0; r < rows; r++) {
+                let complete = true;
+                for (let c = 0; c < cols; c++) {
+                    const cell = cells[r * cols + c];
+                    if (!cell || !cell.classList.contains('marked')) {
+                        complete = false;
+                        break;
+                    }
+                }
+                if (complete) return true;
+            }
+
+            // Columns
+            for (let c = 0; c < cols; c++) {
+                let complete = true;
+                for (let r = 0; r < rows; r++) {
+                    const cell = cells[r * cols + c];
+                    if (!cell || !cell.classList.contains('marked')) {
+                        complete = false;
+                        break;
+                    }
+                }
+                if (complete) return true;
+            }
+
+            return false;
+        };
+
         const generatePlayerCard = () => {
+            const level = document.getElementById('bingo-level').value;
             const pool = preparePool();
             const urlParams = new URLSearchParams(window.location.search);
             const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
             const cardSeed = seed + currentCardIndex * 100;
             const cardShuffled = seededShuffle([...pool], cardSeed);
 
-            const myItems = cardShuffled.slice(0, 9);
+            let count = 9, cols = 3, rows = 3;
+            if (level === '2') { count = 15; cols = 3; rows = 5; }
+            else if (level === '3') { count = 25; cols = 5; rows = 5; }
+            else if (level === '5') { count = 27; cols = 9; rows = 3; }
+
+            const myItems = cardShuffled.slice(0, count);
             myItems.sort((a,b) => (typeof a === 'number' ? a - b : a.localeCompare(b)));
 
             playerGrid.innerHTML = '';
+            playerGrid.className = 'bingo-grid';
+            if (cols === 5) playerGrid.classList.add('cols-5');
+            if (cols === 9) playerGrid.classList.add('cols-9');
+
             myItems.forEach(item => {
                 const cell = document.createElement('div');
                 cell.className = 'bingo-cell card glass';
                 cell.textContent = item;
                 cell.onclick = () => {
-                    playGameSound('click');
-                    cell.classList.toggle('marked');
+                    if (cell.classList.contains('marked')) {
+                        cell.classList.remove('marked');
+                        playGameSound('click');
+                        // Optional: re-check win if we want to allow "un-winning"
+                        // but usually we just care if they win once.
+                    } else {
+                        cell.classList.add('marked');
+                        playGameSound('click');
+                        if (!hasWonCurrentCard && checkWin(playerGrid, cols, rows)) {
+                            hasWonCurrentCard = true;
+                            playGameSound('success');
+                            createConfetti();
+                            window.gameUtils.showGameMessage(playerArea, "BINGO! 🎉");
+                        }
+                    }
                 };
                 playerGrid.appendChild(cell);
             });
@@ -162,6 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const startBingoPlayer = () => {
             currentCardIndex = 0;
+            hasWonCurrentCard = false;
             generatePlayerCard();
             setupArea.style.display = 'none';
             playerArea.style.display = 'block';
@@ -197,6 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
         startPlayerBtn?.addEventListener('click', startBingoPlayer);
         nextCardBtn?.addEventListener('click', () => {
             currentCardIndex++;
+            hasWonCurrentCard = false;
             generatePlayerCard();
         });
 
