@@ -1258,6 +1258,96 @@ const speakingData = {
                 "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Social media vs face-to-face interactions — which is better for building relationships?",
+                "sideA": "Social media",
+                "sideB": "Face-to-face",
+                "level": "upper-intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Urban living vs rural living — which offers a better quality of life?",
+                "sideA": "Urban",
+                "sideB": "Rural",
+                "level": "upper-intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Online learning vs traditional classroom — which is the future of education?",
+                "sideA": "Online",
+                "sideB": "Classroom",
+                "level": "upper-intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Renewable energy vs nuclear power — which is the best solution for the climate?",
+                "sideA": "Renewable",
+                "sideB": "Nuclear",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Fast fashion vs sustainable clothing — can we afford to be ethical?",
+                "sideA": "Fast fashion",
+                "sideB": "Sustainable",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "AI creativity vs human artistry — can machines truly create art?",
+                "sideA": "AI creativity",
+                "sideB": "Human artistry",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Space exploration vs deep sea exploration — where should we focus our resources?",
+                "sideA": "Space",
+                "sideB": "Deep sea",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Digital privacy vs national security — is total surveillance ever justified?",
+                "sideA": "Privacy",
+                "sideB": "Security",
+                "level": "advanced",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Genetically modified food vs organic farming — how should we feed the world?",
+                "sideA": "GMOs",
+                "sideB": "Organic",
+                "level": "advanced",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Universal Basic Income vs job guarantee programs — what is the best social safety net?",
+                "sideA": "UBI",
+                "sideB": "Job guarantee",
+                "level": "advanced",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -2572,6 +2662,96 @@ const speakingData = {
                 "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Réseaux sociaux vs interactions en face à face — qu'est-ce qui est mieux pour construire des relations ?",
+                "sideA": "Réseaux sociaux",
+                "sideB": "Face à face",
+                "level": "upper-intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vie urbaine vs vie rurale — laquelle offre une meilleure qualité de vie ?",
+                "sideA": "Urbain",
+                "sideB": "Rural",
+                "level": "upper-intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Apprentissage en ligne vs salle de classe traditionnelle — quel est l'avenir de l'éducation ?",
+                "sideA": "En ligne",
+                "sideB": "Classe",
+                "level": "upper-intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Énergie renouvelable vs énergie nucléaire — quelle est la meilleure solution pour le climat ?",
+                "sideA": "Renouvelable",
+                "sideB": "Nucléaire",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Mode éphémère vs vêtements durables — pouvons-nous nous permettre d'être éthiques ?",
+                "sideA": "Mode éphémère",
+                "sideB": "Durable",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Créativité de l'IA vs art humain — les machines peuvent-elles vraiment créer de l'art ?",
+                "sideA": "Créativité IA",
+                "sideB": "Art humain",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Exploration spatiale vs exploration des grands fonds — où devrions-nous concentrer nos ressources ?",
+                "sideA": "Espace",
+                "sideB": "Grands fonds",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vie privée numérique vs sécurité nationale — la surveillance totale est-elle jamais justifiée ?",
+                "sideA": "Vie privée",
+                "sideB": "Sécurité",
+                "level": "advanced",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Aliments génétiquement modifiés vs agriculture biologique — comment devrions-nous nourrir le monde ?",
+                "sideA": "OGM",
+                "sideB": "Bio",
+                "level": "advanced",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Revenu universel vs programmes de garantie d'emploi — quel est le meilleur filet de sécurité sociale ?",
+                "sideA": "Revenu universel",
+                "sideB": "Garantie d'emploi",
+                "level": "advanced",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -3236,7 +3416,7 @@ const speakingData = {
                 ],
                 "ideasB": [
                     "Provare gli articoli",
-                    "Gratification instantanea"
+                    "Gratificazione istantanea"
                 ]
             },
             {
@@ -3883,6 +4063,96 @@ const speakingData = {
                 "sideA": "Locale",
                 "sideB": "Globalizzazione",
                 "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Social media vs interazioni faccia a faccia — cosa è meglio per costruire relazioni?",
+                "sideA": "Social media",
+                "sideB": "Faccia a faccia",
+                "level": "upper-intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vita urbana vs vita rurale — quale offre una migliore qualità della vita?",
+                "sideA": "Urbana",
+                "sideB": "Rurale",
+                "level": "upper-intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Apprendimento online vs aula tradizionale — quale è il futuro dell'istruzione?",
+                "sideA": "Online",
+                "sideB": "Aula",
+                "level": "upper-intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Energia rinnovabile vs energia nucleare — quale è la soluzione migliore per il clima?",
+                "sideA": "Rinnovabile",
+                "sideB": "Nucleare",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Fast fashion vs abbigliamento sostenibile — possiamo permetterci di essere etici?",
+                "sideA": "Fast fashion",
+                "sideB": "Sostenibile",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Creatività dell'IA vs arte umana — le macchine possono davvero creare arte?",
+                "sideA": "Creatività IA",
+                "sideB": "Arte umana",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Esplorazione spaziale vs esplorazione degli abissi — dove dovremmo concentrare le nostre risorse?",
+                "sideA": "Spazio",
+                "sideB": "Abissi",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Privacy digitale vs sicurezza nazionale — la sorveglianza totale è mai giustificata?",
+                "sideA": "Privacy",
+                "sideB": "Sicurezza",
+                "level": "advanced",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Alimenti geneticamente modificati vs agricoltura biologica — come dovremmo nutrire il mondo?",
+                "sideA": "OGM",
+                "sideB": "Biologico",
+                "level": "advanced",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Reddito di base universale vs programmi di garanzia del lavoro — qual è la migliore rete di sicurezza sociale?",
+                "sideA": "Reddito universale",
+                "sideB": "Garanzia lavoro",
+                "level": "advanced",
                 "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
@@ -5200,6 +5470,96 @@ const speakingData = {
                 "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Социальные сети против живого общения — что лучше для построения отношений?",
+                "sideA": "Соцсети",
+                "sideB": "Лично",
+                "level": "upper-intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Городская жизнь против сельской жизни — где качество жизни выше?",
+                "sideA": "Город",
+                "sideB": "Деревня",
+                "level": "upper-intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Онлайн-обучение против традиционного класса — за чем будущее образования?",
+                "sideA": "Онлайн",
+                "sideB": "Класс",
+                "level": "upper-intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Возобновляемая энергия против ядерной энергии — какое решение лучше для климата?",
+                "sideA": "Возобновляемая",
+                "sideB": "Ядерная",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Быстрая мода против устойчивой моды — можем ли мы позволить себе быть этичными?",
+                "sideA": "Быстрая мода",
+                "sideB": "Устойчивая",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Креативность ИИ против человеческого искусства — могут ли машины по-настоящему творить?",
+                "sideA": "Креативность ИИ",
+                "sideB": "Искусство",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Исследование космоса против исследования морских глубин — на чем стоит сосредоточить ресурсы?",
+                "sideA": "Космос",
+                "sideB": "Глубины моря",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Цифровая приватность против национальной безопасности — оправдана ли когда-либо тотальная слежка?",
+                "sideA": "Приватность",
+                "sideB": "Безопасность",
+                "level": "advanced",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "ГМО против органического земледелия — как нам прокормить мир?",
+                "sideA": "ГМО",
+                "sideB": "Органика",
+                "level": "advanced",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Безусловный базовый доход против программ гарантированной занятости — какая соцзащита лучше?",
+                "sideA": "ББД",
+                "sideB": "Гарантия работы",
+                "level": "advanced",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -6511,6 +6871,96 @@ const speakingData = {
                 "sideA": "Τοπική",
                 "sideB": "Παγκοσμιοποίηση",
                 "level": "intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Κοινωνικά δίκτυα εναντίον δια ζώσης επικοινωνίας — τι είναι καλύτερο για τη δημιουργία σχέσεων;",
+                "sideA": "Social media",
+                "sideB": "Από κοντά",
+                "level": "upper-intermediate",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Αστική ζωή εναντίον αγροτικής ζωής — ποια προσφέρει καλύτερη ποιότητα ζωής;",
+                "sideA": "Αστική",
+                "sideB": "Αγροτική",
+                "level": "upper-intermediate",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Διαδικτυακή μάθηση εναντίον παραδοσιακής τάξης — ποιο είναι το μέλλον της εκπαίδευσης;",
+                "sideA": "Online",
+                "sideB": "Τάξη",
+                "level": "upper-intermediate",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ανανεώσιμες πηγές ενέργειας εναντίον πυρηνικής ενέργειας — ποια είναι η καλύτερη λύση για το κλίμα;",
+                "sideA": "Ανανεώσιμες",
+                "sideB": "Πυρηνική",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Γρήγορη μόδα εναντίον βιώσιμης ένδυσης — μπορούμε να αντέξουμε οικονομικά να είμαστε ηθικοί;",
+                "sideA": "Fast fashion",
+                "sideB": "Βιώσιμη",
+                "level": "upper-intermediate",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Δημιουργικότητα ΤΝ εναντίον ανθρώπινης καλλιτεχνίας — μπορούν οι μηχανές να δημιουργήσουν πραγματικά τέχνη;",
+                "sideA": "Δημιουργικότητα ΤΝ",
+                "sideB": "Ανθρώπινη τέχνη",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Εξερεύνηση του διαστήματος εναντίον εξερεύνησης των βαθιών θαλασσών — πού πρέπει να εστιάσουμε τους πόρους μας;",
+                "sideA": "Διάστημα",
+                "sideB": "Βαθιά θάλασσα",
+                "level": "advanced",
+                "theme": "science_technology",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ψηφιακό απόρρητο εναντίον εθνικής ασφάλειας — δικαιολογείται ποτέ η ολοκληρωτική παρακολούθηση;",
+                "sideA": "Απόρρητο",
+                "sideB": "Ασφάλεια",
+                "level": "advanced",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Γενετικά τροποποιημένα τρόφιμα εναντίον βιολογικής γεωργίας — πώς πρέπει να θρέψουμε τον κόσμο;",
+                "sideA": "ΓΤΟ",
+                "sideB": "Βιολογική",
+                "level": "advanced",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Καθολικό βασικό εισόδημα εναντίον προγραμμάτων εγγύησης θέσεων εργασίας — ποιο είναι το καλύτερο κοινωνικό δίχτυ ασφαλείας;",
+                "sideA": "ΚΒΕ",
+                "sideB": "Εγγύηση εργασίας",
+                "level": "advanced",
                 "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
