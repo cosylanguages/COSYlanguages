@@ -89,9 +89,20 @@
         return word.trim().toLowerCase();
     }
 
-    function getLastChar(word) {
+    function getValidNextLetter(word) {
         if (!word) return '';
-        // Handle Greek/Russian characters properly
+
+        // We check against ALL vocabulary of the language to see if a letter is "startable"
+        const allVocab = window.vocabularyData[state.lang] || [];
+        const validStarts = new Set(allVocab.map(v => normalize(v.word).charAt(0)));
+
+        for (let i = word.length - 1; i >= 0; i--) {
+            const char = word.charAt(i);
+            if (validStarts.has(char)) {
+                return char;
+            }
+        }
+        // Fallback to last char if none found (unlikely)
         return word.charAt(word.length - 1);
     }
 
@@ -143,13 +154,14 @@
         }
 
         // Accept word
-        this.processWord(inputWord, 'player');
+        // In group mode, turn cycles between players, but for color coding we can alternate
+        this.processWord(inputWord, state.turn);
     };
 
     game.processWord = function(word, turn) {
         state.usedWords.add(word);
         state.currentWord = word;
-        state.targetLetter = getLastChar(word);
+        state.targetLetter = getValidNextLetter(word);
 
         addWordToHistory(word, turn);
         elements.input.value = '';
