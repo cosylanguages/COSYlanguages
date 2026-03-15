@@ -437,9 +437,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeSelect = document.getElementById('practice-theme');
     if (themeSelect) {
         themeSelect.addEventListener('change', () => {
-            if (themeSelect.value === 'numbers') {
-                const lang = currentPractice.language;
-                const msg = (translations[lang] && translations[lang]['bingo_suggestion']) || "Tip: You can also practice numbers playing Bingo in the Events section! 🎲";
+            const val = themeSelect.value;
+            const lang = currentPractice.language;
+            let msg = null;
+
+            if (val === 'numbers') {
+                msg = (translations[lang] && translations[lang]['bingo_suggestion']) || "Tip: You can also practice numbers playing Bingo in the Events section! 🎲";
+            } else if (['profession', 'family', 'animal'].includes(val)) {
+                msg = (translations[lang] && translations[lang]['guess_who_suggestion']) || "Tip: You can also practice these words playing Identity Mystery in the Events section! 👤";
+            } else if (['daily_life', 'food_drinks', 'travel_places', 'leisure_hobbies', 'science_technology', 'health_body', 'country', 'city', 'nature_environment'].includes(val)) {
+                msg = (translations[lang] && translations[lang]['guess_what_suggestion']) || "Tip: You can also practice these words playing Object Quest in the Events section! 📦";
+            }
+
+            if (msg) {
                 window.gameUtils.showGameMessage('setup-section', msg);
             }
         });
