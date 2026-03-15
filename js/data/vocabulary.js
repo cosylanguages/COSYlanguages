@@ -6,7 +6,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 0." }]
+            "definitions": [{ "text": "0" }]
         },
         {
             "word": "one",
@@ -14,7 +14,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 1." }]
+            "definitions": [{ "text": "1" }]
         },
         {
             "word": "two",
@@ -22,7 +22,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 2." }]
+            "definitions": [{ "text": "2" }]
         },
         {
             "word": "three",
@@ -30,7 +30,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 3." }]
+            "definitions": [{ "text": "3" }]
         },
         {
             "word": "four",
@@ -38,7 +38,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 4." }]
+            "definitions": [{ "text": "4" }]
         },
         {
             "word": "five",
@@ -46,7 +46,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 5." }]
+            "definitions": [{ "text": "5" }]
         },
         {
             "word": "six",
@@ -54,7 +54,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 6." }]
+            "definitions": [{ "text": "6" }]
         },
         {
             "word": "seven",
@@ -62,7 +62,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 7." }]
+            "definitions": [{ "text": "7" }]
         },
         {
             "word": "eight",
@@ -70,7 +70,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 8." }]
+            "definitions": [{ "text": "8" }]
         },
         {
             "word": "nine",
@@ -78,95 +78,95 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 9." }]
+            "definitions": [{ "text": "9" }]
         },
         {
             "word": "ten",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔟",
+            "emoji": "1️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 10." }]
+            "definitions": [{ "text": "10" }]
         },
         {
             "word": "eleven",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 11." }]
+            "definitions": [{ "text": "11" }]
         },
         {
             "word": "twelve",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 12." }]
+            "definitions": [{ "text": "12" }]
         },
         {
             "word": "thirteen",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 13." }]
+            "definitions": [{ "text": "13" }]
         },
         {
             "word": "fourteen",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 14." }]
+            "definitions": [{ "text": "14" }]
         },
         {
             "word": "fifteen",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 15." }]
+            "definitions": [{ "text": "15" }]
         },
         {
             "word": "sixteen",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 16." }]
+            "definitions": [{ "text": "16" }]
         },
         {
             "word": "seventeen",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 17." }]
+            "definitions": [{ "text": "17" }]
         },
         {
             "word": "eighteen",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 18." }]
+            "definitions": [{ "text": "18" }]
         },
         {
             "word": "nineteen",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 19." }]
+            "definitions": [{ "text": "19" }]
         },
         {
             "word": "twenty",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "2️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "The number 20." }]
+            "definitions": [{ "text": "20" }]
         },
         {
             "word": "doctor",
@@ -3288,7 +3288,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 0." }]
+            "definitions": [{ "text": "0" }]
         },
         {
             "word": "un",
@@ -3296,7 +3296,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 1." }]
+            "definitions": [{ "text": "1" }]
         },
         {
             "word": "deux",
@@ -3304,7 +3304,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 2." }]
+            "definitions": [{ "text": "2" }]
         },
         {
             "word": "trois",
@@ -3312,7 +3312,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 3." }]
+            "definitions": [{ "text": "3" }]
         },
         {
             "word": "quatre",
@@ -3320,7 +3320,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 4." }]
+            "definitions": [{ "text": "4" }]
         },
         {
             "word": "cinq",
@@ -3328,7 +3328,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 5." }]
+            "definitions": [{ "text": "5" }]
         },
         {
             "word": "six",
@@ -3336,7 +3336,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 6." }]
+            "definitions": [{ "text": "6" }]
         },
         {
             "word": "sept",
@@ -3344,7 +3344,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 7." }]
+            "definitions": [{ "text": "7" }]
         },
         {
             "word": "huit",
@@ -3352,7 +3352,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 8." }]
+            "definitions": [{ "text": "8" }]
         },
         {
             "word": "neuf",
@@ -3360,95 +3360,95 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 9." }]
+            "definitions": [{ "text": "9" }]
         },
         {
             "word": "dix",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔟",
+            "emoji": "1️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 10." }]
+            "definitions": [{ "text": "10" }]
         },
         {
             "word": "onze",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 11." }]
+            "definitions": [{ "text": "11" }]
         },
         {
             "word": "douze",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 12." }]
+            "definitions": [{ "text": "12" }]
         },
         {
             "word": "treize",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 13." }]
+            "definitions": [{ "text": "13" }]
         },
         {
             "word": "quatorze",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 14." }]
+            "definitions": [{ "text": "14" }]
         },
         {
             "word": "quinze",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 15." }]
+            "definitions": [{ "text": "15" }]
         },
         {
             "word": "seize",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 16." }]
+            "definitions": [{ "text": "16" }]
         },
         {
             "word": "dix-sept",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 17." }]
+            "definitions": [{ "text": "17" }]
         },
         {
             "word": "dix-huit",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 18." }]
+            "definitions": [{ "text": "18" }]
         },
         {
             "word": "dix-neuf",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 19." }]
+            "definitions": [{ "text": "19" }]
         },
         {
             "word": "vingt",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "2️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Le nombre 20." }]
+            "definitions": [{ "text": "20" }]
         },
         {
             "word": "médecin",
@@ -5794,7 +5794,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 0." }]
+            "definitions": [{ "text": "0" }]
         },
         {
             "word": "uno",
@@ -5802,7 +5802,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 1." }]
+            "definitions": [{ "text": "1" }]
         },
         {
             "word": "due",
@@ -5810,7 +5810,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 2." }]
+            "definitions": [{ "text": "2" }]
         },
         {
             "word": "tre",
@@ -5818,7 +5818,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 3." }]
+            "definitions": [{ "text": "3" }]
         },
         {
             "word": "quattro",
@@ -5826,7 +5826,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 4." }]
+            "definitions": [{ "text": "4" }]
         },
         {
             "word": "cinque",
@@ -5834,7 +5834,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 5." }]
+            "definitions": [{ "text": "5" }]
         },
         {
             "word": "sei",
@@ -5842,7 +5842,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 6." }]
+            "definitions": [{ "text": "6" }]
         },
         {
             "word": "sette",
@@ -5850,7 +5850,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 7." }]
+            "definitions": [{ "text": "7" }]
         },
         {
             "word": "otto",
@@ -5858,7 +5858,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 8." }]
+            "definitions": [{ "text": "8" }]
         },
         {
             "word": "nove",
@@ -5866,95 +5866,95 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 9." }]
+            "definitions": [{ "text": "9" }]
         },
         {
             "word": "dieci",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔟",
+            "emoji": "1️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 10." }]
+            "definitions": [{ "text": "10" }]
         },
         {
             "word": "undici",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 11." }]
+            "definitions": [{ "text": "11" }]
         },
         {
             "word": "dodici",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 12." }]
+            "definitions": [{ "text": "12" }]
         },
         {
             "word": "tredici",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 13." }]
+            "definitions": [{ "text": "13" }]
         },
         {
             "word": "quattordici",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 14." }]
+            "definitions": [{ "text": "14" }]
         },
         {
             "word": "quindici",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 15." }]
+            "definitions": [{ "text": "15" }]
         },
         {
             "word": "sedici",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 16." }]
+            "definitions": [{ "text": "16" }]
         },
         {
             "word": "diciassette",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 17." }]
+            "definitions": [{ "text": "17" }]
         },
         {
             "word": "diciotto",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 18." }]
+            "definitions": [{ "text": "18" }]
         },
         {
             "word": "diciannove",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 19." }]
+            "definitions": [{ "text": "19" }]
         },
         {
             "word": "venti",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "2️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Il numero 20." }]
+            "definitions": [{ "text": "20" }]
         },
         {
             "word": "medico",
@@ -8317,7 +8317,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 0." }]
+            "definitions": [{ "text": "0" }]
         },
         {
             "word": "один",
@@ -8325,7 +8325,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 1." }]
+            "definitions": [{ "text": "1" }]
         },
         {
             "word": "два",
@@ -8333,7 +8333,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 2." }]
+            "definitions": [{ "text": "2" }]
         },
         {
             "word": "три",
@@ -8341,7 +8341,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 3." }]
+            "definitions": [{ "text": "3" }]
         },
         {
             "word": "четыре",
@@ -8349,7 +8349,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 4." }]
+            "definitions": [{ "text": "4" }]
         },
         {
             "word": "пять",
@@ -8357,7 +8357,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 5." }]
+            "definitions": [{ "text": "5" }]
         },
         {
             "word": "шесть",
@@ -8365,7 +8365,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 6." }]
+            "definitions": [{ "text": "6" }]
         },
         {
             "word": "семь",
@@ -8373,7 +8373,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 7." }]
+            "definitions": [{ "text": "7" }]
         },
         {
             "word": "восемь",
@@ -8381,7 +8381,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 8." }]
+            "definitions": [{ "text": "8" }]
         },
         {
             "word": "девять",
@@ -8389,95 +8389,95 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 9." }]
+            "definitions": [{ "text": "9" }]
         },
         {
             "word": "десять",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔟",
+            "emoji": "1️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 10." }]
+            "definitions": [{ "text": "10" }]
         },
         {
             "word": "одиннадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 11." }]
+            "definitions": [{ "text": "11" }]
         },
         {
             "word": "двенадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 12." }]
+            "definitions": [{ "text": "12" }]
         },
         {
             "word": "тринадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 13." }]
+            "definitions": [{ "text": "13" }]
         },
         {
             "word": "четырнадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 14." }]
+            "definitions": [{ "text": "14" }]
         },
         {
             "word": "пятнадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 15." }]
+            "definitions": [{ "text": "15" }]
         },
         {
             "word": "шестнадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 16." }]
+            "definitions": [{ "text": "16" }]
         },
         {
             "word": "семнадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 17." }]
+            "definitions": [{ "text": "17" }]
         },
         {
             "word": "восемнадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 18." }]
+            "definitions": [{ "text": "18" }]
         },
         {
             "word": "девятнадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 19." }]
+            "definitions": [{ "text": "19" }]
         },
         {
             "word": "двадцать",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "2️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Число 20." }]
+            "definitions": [{ "text": "20" }]
         },
         {
             "word": "врач",
@@ -10801,7 +10801,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 0." }]
+            "definitions": [{ "text": "0" }]
         },
         {
             "word": "ένα",
@@ -10809,7 +10809,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 1." }]
+            "definitions": [{ "text": "1" }]
         },
         {
             "word": "δύο",
@@ -10817,7 +10817,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 2." }]
+            "definitions": [{ "text": "2" }]
         },
         {
             "word": "τρία",
@@ -10825,7 +10825,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 3." }]
+            "definitions": [{ "text": "3" }]
         },
         {
             "word": "τέσσερα",
@@ -10833,7 +10833,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 4." }]
+            "definitions": [{ "text": "4" }]
         },
         {
             "word": "πέντε",
@@ -10841,7 +10841,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 5." }]
+            "definitions": [{ "text": "5" }]
         },
         {
             "word": "έξι",
@@ -10849,7 +10849,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 6." }]
+            "definitions": [{ "text": "6" }]
         },
         {
             "word": "επτά",
@@ -10857,7 +10857,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 7." }]
+            "definitions": [{ "text": "7" }]
         },
         {
             "word": "οκτώ",
@@ -10865,7 +10865,7 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 8." }]
+            "definitions": [{ "text": "8" }]
         },
         {
             "word": "εννέα",
@@ -10873,95 +10873,95 @@ const vocabularyData = {
             "theme": "numbers",
             "emoji": "9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 9." }]
+            "definitions": [{ "text": "9" }]
         },
         {
             "word": "δέκα",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔟",
+            "emoji": "1️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 10." }]
+            "definitions": [{ "text": "10" }]
         },
         {
             "word": "έντεκα",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣1️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 11." }]
+            "definitions": [{ "text": "11" }]
         },
         {
             "word": "δώδεκα",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣2️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 12." }]
+            "definitions": [{ "text": "12" }]
         },
         {
             "word": "δεκατρία",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣3️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 13." }]
+            "definitions": [{ "text": "13" }]
         },
         {
             "word": "δεκατέσσερα",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣4️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 14." }]
+            "definitions": [{ "text": "14" }]
         },
         {
             "word": "δεκαπέντε",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣5️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 15." }]
+            "definitions": [{ "text": "15" }]
         },
         {
             "word": "δεκάξι",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣6️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 16." }]
+            "definitions": [{ "text": "16" }]
         },
         {
             "word": "δεκαεπτά",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣7️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 17." }]
+            "definitions": [{ "text": "17" }]
         },
         {
             "word": "δεκαοκτώ",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣8️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 18." }]
+            "definitions": [{ "text": "18" }]
         },
         {
             "word": "δεκαεννέα",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "1️⃣9️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 19." }]
+            "definitions": [{ "text": "19" }]
         },
         {
             "word": "είκοσι",
             "level": "starter",
             "theme": "numbers",
-            "emoji": "🔢",
+            "emoji": "2️⃣0️⃣",
             "form": "noun",
-            "definitions": [{ "text": "Ο αριθμός 20." }]
+            "definitions": [{ "text": "20" }]
         },
         {
             "word": "γιατρός",

@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const startCallerBtn = document.getElementById('start-bingo-caller-btn');
         const startPlayerBtn = document.getElementById('start-bingo-player-btn');
         const callNextBtn = document.getElementById('bingo-call-next-btn');
-        const speedModeToggle = document.getElementById('bingo-speed-mode');
 
         const setupArea = document.getElementById('bingo-setup');
         const callerArea = document.getElementById('bingo-caller-area');
@@ -26,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let calledItems = [];
         let currentCardIndex = 0;
         let speedInterval = null;
+        let hasWonCurrentCard = false;
 
         const openBingo = () => {
             modal.style.display = 'flex';
@@ -125,13 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (autoIndicator) autoIndicator.style.display = 'none';
 
             clearInterval(speedInterval);
-            if (speedModeToggle?.checked) {
-                if (autoIndicator) autoIndicator.style.display = 'block';
-                callNext();
-                speedInterval = setInterval(() => {
-                    callNext();
-                }, 5000);
-            }
         };
 
         startCallerBtn?.addEventListener('click', startBingoCaller);
@@ -199,10 +192,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (cell.classList.contains('marked')) {
                         cell.classList.remove('marked');
                         playGameSound('click');
+                        // Optional: re-check win if we want to allow "un-winning"
+                        // but usually we just care if they win once.
                     } else {
                         cell.classList.add('marked');
                         playGameSound('click');
-                        if (checkWin(playerGrid, cols, rows)) {
+                        if (!hasWonCurrentCard && checkWin(playerGrid, cols, rows)) {
+                            hasWonCurrentCard = true;
                             playGameSound('success');
                             createConfetti();
                         }
@@ -215,6 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const startBingoPlayer = () => {
             currentCardIndex = 0;
+            hasWonCurrentCard = false;
             generatePlayerCard();
             setupArea.style.display = 'none';
             playerArea.style.display = 'block';
@@ -250,6 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
         startPlayerBtn?.addEventListener('click', startBingoPlayer);
         nextCardBtn?.addEventListener('click', () => {
             currentCardIndex++;
+            hasWonCurrentCard = false;
             generatePlayerCard();
         });
 

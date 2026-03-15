@@ -102,6 +102,8 @@ const translations = {
     how_it_works_events_li1: "🎭 <strong>Games:</strong> Click \"Show Games\" to see available interactive tools. Perfect for solo or group practice!",
     how_it_works_events_li2: "🗣️ <strong>Speaking Clubs:</strong> Check the topics we discuss in our live sessions.",
     how_it_works_events_li3: "🎤 <strong>Immersive Nights:</strong> Join us for karaoke or cinema to learn in a fun, cultural way.",
+    how_it_works_events_li4: "👥 <strong>Play Together:</strong> To play with friends, click \"Share\" and send the link. The 'Game Code' (or seed in the URL) ensures everyone has the same board or sequence, whether playing online or sitting together offline!",
+    how_it_works_events_li5: "👤 <strong>Solo Mode:</strong> Most games have a \"Solo Mode\" or can be played alone to practice at your own pace.",
     // Language pages
     cosy_english_title: "Welcome to COSYEnglish",
     cosy_english_intro: "Learn English with us!",
@@ -698,6 +700,8 @@ const translations = {
     how_it_works_events_li1: "🎭 <strong>Jeux :</strong> Cliquez sur \"Afficher les jeux\" pour voir les outils interactifs disponibles. Parfait pour s'entraîner en solo ou en groupe !",
     how_it_works_events_li2: "🗣️ <strong>Clubs de conversation :</strong> Consultez les sujets dont nous discutons lors de nos sessions en direct.",
     how_it_works_events_li3: "🎤 <strong>Soirées immersives :</strong> Rejoignez-nous pour un karaoké ou une soirée cinéma afin d'apprendre de manière ludique et culturelle.",
+    how_it_works_events_li4: "👥 <strong>Jouer ensemble :</strong> Pour jouer avec des amis, cliquez sur \"Partager\" et envoyez le lien. Le 'Code de jeu' garantit que tout le monde a le même plateau ou la même séquence, que ce soit en ligne ou hors ligne !",
+    how_it_works_events_li5: "👤 <strong>Mode Solo :</strong> La plupart des jeux ont un \"Mode Solo\" ou peuvent être joués seul pour s'entraîner à votre rythme.",
     // Language pages
     cosy_english_title: "Bienvenue chez COSYEnglish",
     cosy_english_intro: "Apprenez l'anglais avec nous !",
@@ -1282,6 +1286,8 @@ const translations = {
     how_it_works_events_li1: "🎭 <strong>Giochi:</strong> Clicca su \"Mostra giochi\" per vedere gli strumenti interattivi disponibili. Perfetto per la pratica individuale o di gruppo!",
     how_it_works_events_li2: "🗣️ <strong>Club di conversazione:</strong> Controlla gli argomenti che discutiamo nelle nostre sessioni dal vivo.",
     how_it_works_events_li3: "🎤 <strong>Serate immersive:</strong> Unisciti a noi per il karaoke o il cinema per imparare in modo divertente e culturale.",
+    how_it_works_events_li4: "👥 <strong>Giocare insieme:</strong> Per giocare con gli amici, clicca su \"Condividi\" e invia il link. Il 'Codice gioco' assicura che tutti abbiano la stessa cartella o sequenza, sia online che insieme offline!",
+    how_it_works_events_li5: "👤 <strong>Modalità Solo:</strong> La maggior parte dei giochi ha una \"Modalità Solo\" o può essere giocata da soli per fare pratica al proprio ritmo.",
     // Language pages
     cosy_english_title: "Benvenuti in COSYEnglish",
     cosy_english_intro: "Impara l'inglese con noi!",
@@ -1873,6 +1879,8 @@ const translations = {
     how_it_works_events_li1: "🎭 <strong>Игры:</strong> Нажмите «Показать игры», чтобы увидеть доступные инструменты. Идеально для одиночной или групповой практики!",
     how_it_works_events_li2: "🗣️ <strong>Разговорные клубы:</strong> Ознакомьтесь с темами, которые мы обсуждаем на наших живых сессиях.",
     how_it_works_events_li3: "🎤 <strong>Иммерсивные вечера:</strong> Присоединяйтесь к нам на караоке или в кино, чтобы учиться весело и культурно.",
+    how_it_works_events_li4: "👥 <strong>Играть вместе:</strong> Чтобы играть с друзьями, нажмите «Поделиться» и отправьте ссылку. «Код игры» гарантирует, что у всех будет одинаковое поле или последовательность, независимо от того, играете ли вы онлайн или вместе офлайн!",
+    how_it_works_events_li5: "👤 <strong>Одиночный режим:</strong> В большинстве игр есть «Одиночный режим», или в них можно играть в одиночку, чтобы практиковаться в своем темпе.",
     // Language pages
     cosy_english_title: "Добро пожаловать в COSYEnglish",
     cosy_english_intro: "Изучайте английский язык с нами!",
@@ -2444,6 +2452,8 @@ const translations = {
     how_it_works_events_li1: "🎭 <strong>Παιχνίδια:</strong> Κάντε κλικ στο «Εμφάνιση παιχνιδιών» για να δείτε τα διαθέσιμα διαδραστικά εργαλεία. Ιδανικό για ατομική ή ομαδική πρακτική!",
     how_it_works_events_li2: "🗣️ <strong>Λέσχες ομιλίας:</strong> Δείτε τα θέματα που συζητάμε στις ζωντανές συνεδρίες μας.",
     how_it_works_events_li3: "🎤 <strong>Βραδιές Εμβύθισης:</strong> Ελάτε μαζί μας για καραόκε ή κινηματογράφο για να μάθετε με διασκεδαστικό, πολιτιστικό τρόπο.",
+    how_it_works_events_li4: "👥 <strong>Παίξτε μαζί:</strong> Για να παίξετε με φίλους, κάντε κλικ στο «Κοινοποίηση» και στείλτε το σύνδεσμο. Ο 'Κωδικός παιχνιδιού' διασφαλίζει ότι όλοι έχουν το ίδιο ταμπλό ή σειρά, είτε παίζετε online είτε μαζί offline!",
+    how_it_works_events_li5: "👤 <strong>Solo Λειτουργία:</strong> Τα περισσότερα παιχνίδια έχουν «Solo Λειτουργία» ή μπορούν να παιχτούν μόνα τους για εξάσκηση με το δικό σας ρυθμό.",
     // Language pages
     cosy_english_title: "Καλώς ήρθατε στο COSYEnglish",
     cosy_english_intro: "Μάθετε αγγλικά μαζί μας!",

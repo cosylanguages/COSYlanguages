@@ -43,6 +43,8 @@
                         <li data-translate-key="how_it_works_events_li1">🎭 <strong>Games:</strong> Click "Show Games" to see available interactive tools. Perfect for solo or group practice!</li>
                         <li data-translate-key="how_it_works_events_li2">🗣️ <strong>Speaking Clubs:</strong> Check the topics we discuss in our live sessions.</li>
                         <li data-translate-key="how_it_works_events_li3">🎤 <strong>Immersive Nights:</strong> Join us for karaoke or cinema to learn in a fun, cultural way.</li>
+                        <li data-translate-key="how_it_works_events_li4">👥 <strong>Play Together:</strong> To play with friends, click "Share" and send the link. The 'Game Code' (or seed in the URL) ensures everyone has the same board or sequence, whether playing online or sitting together offline!</li>
+                        <li data-translate-key="how_it_works_events_li5">👤 <strong>Solo Mode:</strong> Most games have a "Solo Mode" or can be played alone to practice at your own pace.</li>
                     </ul>
                 </div>
             </details>
@@ -361,10 +363,6 @@
                     </div>
                     <div class="setup-group" style="margin-bottom: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
                         <label class="toggle-chip">
-                            <input type="checkbox" id="bingo-speed-mode">
-                            <span data-translate-key="speed_mode">Speed Mode ⚡</span>
-                        </label>
-                        <label class="toggle-chip">
                             <input type="checkbox" id="bingo-solo-mode">
                             <span data-translate-key="solo_mode">Solo Mode 👤</span>
                         </label>
@@ -518,9 +516,8 @@
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
                             <select id="talk-timer-duration" class="pill-input" style="width: 100%;">
                                 <option value="60" data-translate-key="timer_60s">60s</option>
+                                <option value="120" data-translate-key="timer_120s">120s</option>
                                 <option value="180" selected data-translate-key="timer_180s">180s</option>
-                                <option value="300" data-translate-key="timer_300s">300s</option>
-                                <option value="600" data-translate-key="timer_600s">600s</option>
                             </select>
                         </div>
                     </div>
@@ -638,7 +635,6 @@
                                 <option value="60" data-translate-key="timer_60s">60s</option>
                                 <option value="120" selected data-translate-key="timer_120s">120s</option>
                                 <option value="180" data-translate-key="timer_180s">180s</option>
-                                <option value="300" data-translate-key="timer_300s">300s</option>
                             </select>
                         </div>
                     </div>
