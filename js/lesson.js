@@ -33,13 +33,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const exitLessonBtn = document.getElementById('exit-lesson-btn');
 
     // Event listeners
-    if (nextBtn) nextBtn.addEventListener('click', showNextWord);
-    if (checkOppositeBtn) checkOppositeBtn.addEventListener('click', checkTypedAnswer);
-    if (oppositeAnswerInput) {
-        oppositeAnswerInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') checkTypedAnswer();
+    if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+            if (currentLesson.isCorrect) {
+                currentLesson.currentIndex++;
+                showNextWord();
+            } else {
+                showNextWord();
+            }
         });
     }
+    if (checkOppositeBtn) checkOppositeBtn.addEventListener('click', checkTypedAnswer);
     if (trueBtn) trueBtn.addEventListener('click', () => checkTrueFalseAnswer(true));
     if (falseBtn) falseBtn.addEventListener('click', () => checkTrueFalseAnswer(false));
     if (hintBtn) hintBtn.addEventListener('click', showHint);
@@ -96,7 +100,7 @@ function startLesson() {
             let wordCopy = { ...item, lessonTitle: window.lessonsData[lang][day].title };
 
             // Determine task type based on available metadata
-            let possibleTypes = ['type-mc', 'type-sc', 'type-tf'];
+            let possibleTypes = ['type-mc', 'type-ls', 'type-sc', 'type-tf'];
             if (wordCopy.opposite) possibleTypes.push('type-op');
             if (wordCopy.clozeText) possibleTypes.push('type-cl');
             if (wordCopy.article || wordCopy.gender) possibleTypes.push('type-ga');
@@ -170,11 +174,14 @@ function showNextWord() {
     document.getElementById('hint-btn').style.display = (wordObj.type === 'type-tf' || wordObj.type === 'type-cv' ? 'none' : 'inline-block');
     document.getElementById('lesson-info').textContent = wordObj.lessonTitle;
 
-    // Task Example
-    const exampleEl = document.getElementById('task-example');
-    if (exampleEl) {
+    // Show "What to do" instruction
+    const wtdEl = document.getElementById('task-what-to-do');
+    if (wtdEl) {
         const lang = currentLesson.language;
-        const typeKey = wordObj.type === 'type-ws' ? 'ws' :
+        const typeKey = wordObj.form === 'verb_form' ? 'vf' :
+                        wordObj.form === 'verb' ? 'gv' :
+                        wordObj.form === 'pronoun' ? 'gp' :
+                        wordObj.type === 'type-ws' ? 'ws' :
                         wordObj.type === 'type-mc' ? 'mc' :
                         wordObj.type === 'type-ls' ? 'ls' :
                         wordObj.type === 'type-sc' ? 'sc' :
@@ -183,6 +190,41 @@ function showNextWord() {
                         wordObj.type === 'type-tf' ? 'tf' :
                         wordObj.type === 'type-ga' ? 'ga' :
                         wordObj.type === 'type-np' ? 'np' : '';
+
+        const wtdKey = `wtd_${typeKey}`;
+        if (translations[lang] && translations[lang][wtdKey]) {
+            wtdEl.textContent = translations[lang][wtdKey];
+            wtdEl.style.display = 'inline-block';
+            wtdEl.setAttribute('data-translate-key', wtdKey);
+        } else {
+            wtdEl.style.display = 'none';
+        }
+    }
+
+    // Task Example
+    const exampleEl = document.getElementById('task-example');
+    if (exampleEl) {
+        const lang = currentLesson.language;
+        let typeKey = "";
+        if (wordObj.form === 'verb_form') {
+            typeKey = 'vf';
+        } else if (wordObj.form === 'verb') {
+            typeKey = 'gv';
+        } else if (wordObj.form === 'pronoun') {
+            typeKey = 'gp';
+        } else if (wordObj.type === 'type-cv') {
+            typeKey = 'cv';
+        } else {
+            typeKey = wordObj.type === 'type-ws' ? 'ws' :
+                        wordObj.type === 'type-mc' ? 'mc' :
+                        wordObj.type === 'type-ls' ? 'ls' :
+                        wordObj.type === 'type-sc' ? 'sc' :
+                        wordObj.type === 'type-op' ? 'op' :
+                        wordObj.type === 'type-cl' ? 'cl' :
+                        wordObj.type === 'type-tf' ? 'tf' :
+                        wordObj.type === 'type-ga' ? 'ga' :
+                        wordObj.type === 'type-np' ? 'np' : '';
+        }
         const exampleKey = `example_${typeKey}`;
         if (translations[lang] && translations[lang][exampleKey]) {
             exampleEl.textContent = translations[lang][exampleKey];
@@ -204,14 +246,16 @@ function showNextWord() {
     }
 
     // Render Task
-    if (wordObj.type === 'type-mc') {
-        document.getElementById('word-display').textContent = (wordObj.emoji && wordObj.category === 'vocabulary') ? '???' : (wordObj.clozeText || wordObj.word);
-        document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
-        document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_multiple_choice');
+    if (wordObj.type === 'type-mc' || wordObj.type === 'type-ls') {
+        const isListen = wordObj.type === 'type-ls';
+        document.getElementById('word-display').textContent = isListen ? '???' : ((wordObj.emoji && wordObj.category === 'vocabulary') ? '???' : (wordObj.clozeText || wordObj.word));
+        document.getElementById('emoji-display').textContent = isListen ? '👂' : (wordObj.emoji || '💡');
+        document.getElementById('task-instruction').setAttribute('data-translate-key', isListen ? 'task_listen_select' : 'task_multiple_choice');
         document.getElementById('choices-grid').style.display = 'grid';
         document.getElementById('action-buttons-container').style.display = 'flex';
         document.getElementById('check-opposite-btn').style.display = 'none';
         renderMultipleChoice();
+        if (isListen) setTimeout(speakWord, 500);
     } else if (wordObj.type === 'type-cl' || wordObj.type === 'type-np') {
         document.getElementById('word-display').textContent = wordObj.type === 'type-np' ? wordObj.numberPlural || wordObj.word : wordObj.clozeText || wordObj.word;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
@@ -413,6 +457,7 @@ function showFeedback(isCorrect) {
         currentLesson.score += 10;
         document.getElementById('score-count').textContent = currentLesson.score;
         updateTotalScore(10);
+        currentLesson.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';
 
         document.getElementById('opposite-input-container').style.display = 'none';
@@ -421,8 +466,6 @@ function showFeedback(isCorrect) {
         document.getElementById('choices-grid').style.display = 'none';
         document.getElementById('scramble-container').style.display = 'none';
         document.getElementById('conversation-container').style.display = 'none';
-
-        currentLesson.currentIndex++;
     }
 }
 

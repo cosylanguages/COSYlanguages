@@ -459,18 +459,36 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if (nextBtn) {
-        nextBtn.addEventListener('click', showNextWord);
+        nextBtn.addEventListener('click', () => {
+            if (currentPractice.isCorrect) {
+                if (currentPractice.isWheelMode) {
+                    // Remove word from wheel after successful response
+                    const currentItem = currentPractice.currentWord;
+                    currentPractice.wheelItems = currentPractice.wheelItems.filter(item => item.word !== currentItem.word);
+                    saveSession();
+
+                    if (currentPractice.wheelItems.length === 0) {
+                        showSummary();
+                    } else {
+                        document.getElementById('question-card').style.display = 'none';
+                        document.getElementById('wheel-container').style.display = 'block';
+                        document.getElementById('wheel-question-area').style.display = 'none';
+                        initWheel();
+                    }
+                } else {
+                    currentPractice.currentIndex++;
+                    showNextWord();
+                }
+            } else {
+                showNextWord();
+            }
+        });
     }
 
     if (checkOppositeBtn) {
         checkOppositeBtn.addEventListener('click', checkTypedAnswer);
     }
 
-    if (oppositeAnswerInput) {
-        oppositeAnswerInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') checkTypedAnswer();
-        });
-    }
 
     if (trueBtn) {
         trueBtn.addEventListener('click', () => checkTrueFalseAnswer(true));
@@ -1300,6 +1318,32 @@ function showNextWord() {
     document.getElementById('conversation-container').style.display = 'none';
     document.getElementById('hint-btn').style.display = (wordObj.type === 'type-tf' || wordObj.type === 'type-cv' ? 'none' : 'inline-block');
 
+    // Show "What to do" instruction
+    const wtdEl = document.getElementById('task-what-to-do');
+    if (wtdEl) {
+        const lang = currentPractice.language;
+        let typeKey = wordObj.form === 'verb_form' ? 'vf' :
+                      wordObj.form === 'verb' ? 'gv' :
+                      wordObj.form === 'pronoun' ? 'gp' :
+                      wordObj.type === 'type-ws' ? 'ws' :
+                      wordObj.type === 'type-mc' ? 'mc' :
+                      wordObj.type === 'type-ls' ? 'ls' :
+                      wordObj.type === 'type-sc' ? 'sc' :
+                      wordObj.type === 'type-op' ? 'op' :
+                      wordObj.type === 'type-cl' ? 'cl' :
+                      wordObj.type === 'type-tf' ? 'tf' :
+                      wordObj.type === 'type-ga' ? 'ga' :
+                      wordObj.type === 'type-np' ? 'np' : '';
+
+        const wtdKey = `wtd_${typeKey}`;
+        if (translations[lang] && translations[lang][wtdKey]) {
+            wtdEl.textContent = translations[lang][wtdKey];
+            wtdEl.style.display = 'inline-block';
+            wtdEl.setAttribute('data-translate-key', wtdKey);
+        } else {
+            wtdEl.style.display = 'none';
+        }
+    }
 
     // Show Example
     const exampleEl = document.getElementById('task-example');
@@ -1308,6 +1352,12 @@ function showNextWord() {
         let typeKey = "";
         if (wordObj.form === 'verb_form') {
             typeKey = 'vf';
+        } else if (wordObj.form === 'verb') {
+            typeKey = 'gv';
+        } else if (wordObj.form === 'pronoun') {
+            typeKey = 'gp';
+        } else if (wordObj.type === 'type-cv') {
+            typeKey = 'cv';
         } else {
             typeKey = wordObj.type === 'type-ws' ? 'ws' :
                         wordObj.type === 'type-mc' ? 'mc' :
@@ -1778,28 +1828,6 @@ function showFeedback(isCorrect) {
 
         currentPractice.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';
-
-        const nextBtn = document.getElementById('next-btn');
-        if (currentPractice.isWheelMode) {
-            nextBtn.onclick = () => {
-                // Remove word from wheel after successful response
-                const currentItem = currentPractice.currentWord;
-                currentPractice.wheelItems = currentPractice.wheelItems.filter(item => item.word !== currentItem.word);
-                saveSession();
-
-                if (currentPractice.wheelItems.length === 0) {
-                    showSummary();
-                } else {
-                    document.getElementById('question-card').style.display = 'none';
-                    document.getElementById('wheel-container').style.display = 'block';
-                    document.getElementById('wheel-question-area').style.display = 'none';
-                    initWheel();
-                }
-            };
-        } else {
-            nextBtn.onclick = showNextWord;
-            currentPractice.currentIndex++;
-        }
 
         saveSession();
         document.getElementById('opposite-input-container').style.display = 'none';
