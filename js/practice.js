@@ -459,18 +459,36 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if (nextBtn) {
-        nextBtn.addEventListener('click', showNextWord);
+        nextBtn.addEventListener('click', () => {
+            if (currentPractice.isCorrect) {
+                if (currentPractice.isWheelMode) {
+                    // Remove word from wheel after successful response
+                    const currentItem = currentPractice.currentWord;
+                    currentPractice.wheelItems = currentPractice.wheelItems.filter(item => item.word !== currentItem.word);
+                    saveSession();
+
+                    if (currentPractice.wheelItems.length === 0) {
+                        showSummary();
+                    } else {
+                        document.getElementById('question-card').style.display = 'none';
+                        document.getElementById('wheel-container').style.display = 'block';
+                        document.getElementById('wheel-question-area').style.display = 'none';
+                        initWheel();
+                    }
+                } else {
+                    currentPractice.currentIndex++;
+                    showNextWord();
+                }
+            } else {
+                showNextWord();
+            }
+        });
     }
 
     if (checkOppositeBtn) {
         checkOppositeBtn.addEventListener('click', checkTypedAnswer);
     }
 
-    if (oppositeAnswerInput) {
-        oppositeAnswerInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') checkTypedAnswer();
-        });
-    }
 
     if (trueBtn) {
         trueBtn.addEventListener('click', () => checkTrueFalseAnswer(true));
@@ -1778,28 +1796,6 @@ function showFeedback(isCorrect) {
 
         currentPractice.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';
-
-        const nextBtn = document.getElementById('next-btn');
-        if (currentPractice.isWheelMode) {
-            nextBtn.onclick = () => {
-                // Remove word from wheel after successful response
-                const currentItem = currentPractice.currentWord;
-                currentPractice.wheelItems = currentPractice.wheelItems.filter(item => item.word !== currentItem.word);
-                saveSession();
-
-                if (currentPractice.wheelItems.length === 0) {
-                    showSummary();
-                } else {
-                    document.getElementById('question-card').style.display = 'none';
-                    document.getElementById('wheel-container').style.display = 'block';
-                    document.getElementById('wheel-question-area').style.display = 'none';
-                    initWheel();
-                }
-            };
-        } else {
-            nextBtn.onclick = showNextWord;
-            currentPractice.currentIndex++;
-        }
 
         saveSession();
         document.getElementById('opposite-input-container').style.display = 'none';

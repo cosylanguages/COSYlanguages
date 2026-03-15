@@ -1761,5 +1761,6 @@ button:active, .choice-btn:active, .bingo-cell:active, .lang-selection-card:acti
 #check-opposite-btn, #hint-btn {
     flex: 1;
     min-width: 120px;
+    max-width: 200px;
     white-space: nowrap;
 }
