@@ -83,366 +83,366 @@ const speakingData = {
             }
         ],
         "debates": [
-{
-                    "topic": "Language: Constitutive vs Expressive",
-                    "sideA": "Constitutive",
-                    "sideB": "Expressive",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Shapes reality",
-                        "Limits thought"
-                    ],
-                    "ideasB": [
-                        "Reflects reality",
-                        "Tool for thought"
-                    ]
-                },
-                {
-                    "topic": "Precision vs Ambiguity",
-                    "sideA": "Precision",
-                    "sideB": "Ambiguity",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Clarity",
-                        "Efficiency"
-                    ],
-                    "ideasB": [
-                        "Nuance",
-                        "Diplomacy"
-                    ]
-                },
-                {
-                    "topic": "Rhetoric vs Logic",
-                    "sideA": "Rhetoric",
-                    "sideB": "Logic",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Persuasive power",
-                        "Emotional appeal"
-                    ],
-                    "ideasB": [
-                        "Objective truth",
-                        "Structural validity"
-                    ]
-                },
-                {
-                    "topic": "Literal vs Interpretive Meaning",
-                    "sideA": "Literal",
-                    "sideB": "Interpretive",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Author intent",
-                        "Stability"
-                    ],
-                    "ideasB": [
-                        "Reader response",
-                        "Evolving context"
-                    ]
-                },
-                {
-                    "topic": "Scientific Consensus vs Epistemic Humility",
-                    "sideA": "Consensus",
-                    "sideB": "Humility",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Established knowledge",
-                        "Expert authority"
-                    ],
-                    "ideasB": [
-                        "Openness to correction",
-                        "Recognizing limits"
-                    ]
-                },
-                {
-                    "topic": "Expertise vs Lived Experience",
-                    "sideA": "Expertise",
-                    "sideB": "Lived Experience",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Scientific rigor",
-                        "Objective data"
-                    ],
-                    "ideasB": [
-                        "Authentic truth",
-                        "Contextual insight"
-                    ]
-                },
-                {
-                    "topic": "Doubt: Virtue vs Paralysis",
-                    "sideA": "Virtue",
-                    "sideB": "Paralysis",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Critical thinking",
-                        "Skepticism"
-                    ],
-                    "ideasB": [
-                        "Indecision",
-                        "Lack of action"
-                    ]
-                },
-                {
-                    "topic": "Narrative vs Data",
-                    "sideA": "Narrative",
-                    "sideB": "Data",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Emotional impact",
-                        "Human connection"
-                    ],
-                    "ideasB": [
-                        "Statistical truth",
-                        "Scalability"
-                    ]
-                },
-                {
-                    "topic": "Legitimacy: Consent vs Outcome",
-                    "sideA": "Consent",
-                    "sideB": "Outcome",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Democratic process",
-                        "Moral right"
-                    ],
-                    "ideasB": [
-                        "Efficiency",
-                        "Effective governance"
-                    ]
-                },
-                {
-                    "topic": "State: Guarantor of Liberty vs Threat",
-                    "sideA": "Guarantor",
-                    "sideB": "Threat",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Rule of law",
-                        "Protection of rights"
-                    ],
-                    "ideasB": [
-                        "Abuse of power",
-                        "Surveillance"
-                    ]
-                },
-                {
-                    "topic": "Rights-based vs Responsibility-based Politics",
-                    "sideA": "Rights",
-                    "sideB": "Responsibilities",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Individual liberty",
-                        "Legal protection"
-                    ],
-                    "ideasB": [
-                        "Collective duty",
-                        "Social cohesion"
-                    ]
-                },
-                {
-                    "topic": "Neutrality vs Value-laden Governance",
-                    "sideA": "Neutrality",
-                    "sideB": "Value-laden",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Impartiality",
-                        "Fairness"
-                    ],
-                    "ideasB": [
-                        "Moral direction",
-                        "Social purpose"
-                    ]
-                },
-                {
-                    "topic": "Intention vs Reception in Art",
-                    "sideA": "Intention",
-                    "sideB": "Reception",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Author's vision",
-                        "Original context"
-                    ],
-                    "ideasB": [
-                        "Audience meaning",
-                        "Cultural impact"
-                    ]
-                },
-                {
-                    "topic": "Aesthetic vs Moral Value",
-                    "sideA": "Aesthetic",
-                    "sideB": "Moral",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Art for art's sake",
-                        "Pure beauty"
-                    ],
-                    "ideasB": [
-                        "Social utility",
-                        "Ethical impact"
-                    ]
-                },
-                {
-                    "topic": "The Avant-garde vs Accessibility",
-                    "sideA": "Avant-garde",
-                    "sideB": "Accessibility",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Pushing boundaries",
-                        "Intellectual challenge"
-                    ],
-                    "ideasB": [
-                        "Inclusivity",
-                        "Democratic art"
-                    ]
-                },
-                {
-                    "topic": "Institutional Art vs Outsider Art",
-                    "sideA": "Institutional",
-                    "sideB": "Outsider",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Historical preservation",
-                        "Standards"
-                    ],
-                    "ideasB": [
-                        "Raw authenticity",
-                        "Anti-establishment"
-                    ]
-                },
-                {
-                    "topic": "Precautionary vs Proactionary Principle",
-                    "sideA": "Precautionary",
-                    "sideB": "Proactionary",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Risk avoidance",
-                        "Safety first"
-                    ],
-                    "ideasB": [
-                        "Innovation",
-                        "Embracing change"
-                    ]
-                },
-                {
-                    "topic": "Scientific Progress: Inherently Good vs Neutral",
-                    "sideA": "Inherently Good",
-                    "sideB": "Ethically Neutral",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Enlightenment values",
-                        "Solving problems"
-                    ],
-                    "ideasB": [
-                        "Dual-use concern",
-                        "Human responsibility"
-                    ]
-                },
-                {
-                    "topic": "Existential Risk vs Present Suffering",
-                    "sideA": "Existential Risk",
-                    "sideB": "Present Suffering",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Long-term survival",
-                        "Future generations"
-                    ],
-                    "ideasB": [
-                        "Immediate relief",
-                        "Urgent poverty"
-                    ]
-                },
-                {
-                    "topic": "Human Consciousness vs Artificial General Intelligence",
-                    "sideA": "Consciousness",
-                    "sideB": "AGI",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Biological uniqueness",
-                        "Subjective experience"
-                    ],
-                    "ideasB": [
-                        "Computational power",
-                        "Algorithmic logic"
-                    ]
-                },
-                {
-                    "topic": "Progress: Real vs Illusion",
-                    "sideA": "Real",
-                    "sideB": "Illusion",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Technological advancement",
-                        "Improved quality of life"
-                    ],
-                    "ideasB": [
-                        "Cyclical history",
-                        "New problems"
-                    ]
-                },
-                {
-                    "topic": "Liberal Order vs Multipolar World",
-                    "sideA": "Liberal Order",
-                    "sideB": "Multipolarity",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Universal values",
-                        "Global stability"
-                    ],
-                    "ideasB": [
-                        "Diverse power",
-                        "Cultural sovereignty"
-                    ]
-                },
-                {
-                    "topic": "Memory vs Forgetting",
-                    "sideA": "Memory",
-                    "sideB": "Forgetting",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Learning from history",
-                        "Identity"
-                    ],
-                    "ideasB": [
-                        "Moving forward",
-                        "Overcoming trauma"
-                    ]
-                },
-                {
-                    "topic": "Tragedy of the Commons vs Cooperation",
-                    "sideA": "Tragedy",
-                    "sideB": "Cooperation",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Self-interest",
-                        "Resource depletion"
-                    ],
-                    "ideasB": [
-                        "Mutual benefit",
-                        "Collective management"
-                    ]
-                },
+            {
+                "topic": "Language: Constitutive vs Expressive",
+                "sideA": "Constitutive",
+                "sideB": "Expressive",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Shapes reality",
+                    "Limits thought"
+                ],
+                "ideasB": [
+                    "Reflects reality",
+                    "Tool for thought"
+                ]
+            },
+            {
+                "topic": "Precision vs Ambiguity",
+                "sideA": "Precision",
+                "sideB": "Ambiguity",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Clarity",
+                    "Efficiency"
+                ],
+                "ideasB": [
+                    "Nuance",
+                    "Diplomacy"
+                ]
+            },
+            {
+                "topic": "Rhetoric vs Logic",
+                "sideA": "Rhetoric",
+                "sideB": "Logic",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Persuasive power",
+                    "Emotional appeal"
+                ],
+                "ideasB": [
+                    "Objective truth",
+                    "Structural validity"
+                ]
+            },
+            {
+                "topic": "Literal vs Interpretive Meaning",
+                "sideA": "Literal",
+                "sideB": "Interpretive",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Author intent",
+                    "Stability"
+                ],
+                "ideasB": [
+                    "Reader response",
+                    "Evolving context"
+                ]
+            },
+            {
+                "topic": "Scientific Consensus vs Epistemic Humility",
+                "sideA": "Consensus",
+                "sideB": "Humility",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Established knowledge",
+                    "Expert authority"
+                ],
+                "ideasB": [
+                    "Openness to correction",
+                    "Recognizing limits"
+                ]
+            },
+            {
+                "topic": "Expertise vs Lived Experience",
+                "sideA": "Expertise",
+                "sideB": "Lived Experience",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Scientific rigor",
+                    "Objective data"
+                ],
+                "ideasB": [
+                    "Authentic truth",
+                    "Contextual insight"
+                ]
+            },
+            {
+                "topic": "Doubt: Virtue vs Paralysis",
+                "sideA": "Virtue",
+                "sideB": "Paralysis",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Critical thinking",
+                    "Skepticism"
+                ],
+                "ideasB": [
+                    "Indecision",
+                    "Lack of action"
+                ]
+            },
+            {
+                "topic": "Narrative vs Data",
+                "sideA": "Narrative",
+                "sideB": "Data",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Emotional impact",
+                    "Human connection"
+                ],
+                "ideasB": [
+                    "Statistical truth",
+                    "Scalability"
+                ]
+            },
+            {
+                "topic": "Legitimacy: Consent vs Outcome",
+                "sideA": "Consent",
+                "sideB": "Outcome",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Democratic process",
+                    "Moral right"
+                ],
+                "ideasB": [
+                    "Efficiency",
+                    "Effective governance"
+                ]
+            },
+            {
+                "topic": "State: Guarantor of Liberty vs Threat",
+                "sideA": "Guarantor",
+                "sideB": "Threat",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Rule of law",
+                    "Protection of rights"
+                ],
+                "ideasB": [
+                    "Abuse of power",
+                    "Surveillance"
+                ]
+            },
+            {
+                "topic": "Rights-based vs Responsibility-based Politics",
+                "sideA": "Rights",
+                "sideB": "Responsibilities",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Individual liberty",
+                    "Legal protection"
+                ],
+                "ideasB": [
+                    "Collective duty",
+                    "Social cohesion"
+                ]
+            },
+            {
+                "topic": "Neutrality vs Value-laden Governance",
+                "sideA": "Neutrality",
+                "sideB": "Value-laden",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Impartiality",
+                    "Fairness"
+                ],
+                "ideasB": [
+                    "Moral direction",
+                    "Social purpose"
+                ]
+            },
+            {
+                "topic": "Intention vs Reception in Art",
+                "sideA": "Intention",
+                "sideB": "Reception",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Author's vision",
+                    "Original context"
+                ],
+                "ideasB": [
+                    "Audience meaning",
+                    "Cultural impact"
+                ]
+            },
+            {
+                "topic": "Aesthetic vs Moral Value",
+                "sideA": "Aesthetic",
+                "sideB": "Moral",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Art for art's sake",
+                    "Pure beauty"
+                ],
+                "ideasB": [
+                    "Social utility",
+                    "Ethical impact"
+                ]
+            },
+            {
+                "topic": "The Avant-garde vs Accessibility",
+                "sideA": "Avant-garde",
+                "sideB": "Accessibility",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Pushing boundaries",
+                    "Intellectual challenge"
+                ],
+                "ideasB": [
+                    "Inclusivity",
+                    "Democratic art"
+                ]
+            },
+            {
+                "topic": "Institutional Art vs Outsider Art",
+                "sideA": "Institutional",
+                "sideB": "Outsider",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Historical preservation",
+                    "Standards"
+                ],
+                "ideasB": [
+                    "Raw authenticity",
+                    "Anti-establishment"
+                ]
+            },
+            {
+                "topic": "Precautionary vs Proactionary Principle",
+                "sideA": "Precautionary",
+                "sideB": "Proactionary",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Risk avoidance",
+                    "Safety first"
+                ],
+                "ideasB": [
+                    "Innovation",
+                    "Embracing change"
+                ]
+            },
+            {
+                "topic": "Scientific Progress: Inherently Good vs Neutral",
+                "sideA": "Inherently Good",
+                "sideB": "Ethically Neutral",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Enlightenment values",
+                    "Solving problems"
+                ],
+                "ideasB": [
+                    "Dual-use concern",
+                    "Human responsibility"
+                ]
+            },
+            {
+                "topic": "Existential Risk vs Present Suffering",
+                "sideA": "Existential Risk",
+                "sideB": "Present Suffering",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Long-term survival",
+                    "Future generations"
+                ],
+                "ideasB": [
+                    "Immediate relief",
+                    "Urgent poverty"
+                ]
+            },
+            {
+                "topic": "Human Consciousness vs Artificial General Intelligence",
+                "sideA": "Consciousness",
+                "sideB": "AGI",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Biological uniqueness",
+                    "Subjective experience"
+                ],
+                "ideasB": [
+                    "Computational power",
+                    "Algorithmic logic"
+                ]
+            },
+            {
+                "topic": "Progress: Real vs Illusion",
+                "sideA": "Real",
+                "sideB": "Illusion",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Technological advancement",
+                    "Improved quality of life"
+                ],
+                "ideasB": [
+                    "Cyclical history",
+                    "New problems"
+                ]
+            },
+            {
+                "topic": "Liberal Order vs Multipolar World",
+                "sideA": "Liberal Order",
+                "sideB": "Multipolarity",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Universal values",
+                    "Global stability"
+                ],
+                "ideasB": [
+                    "Diverse power",
+                    "Cultural sovereignty"
+                ]
+            },
+            {
+                "topic": "Memory vs Forgetting",
+                "sideA": "Memory",
+                "sideB": "Forgetting",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Learning from history",
+                    "Identity"
+                ],
+                "ideasB": [
+                    "Moving forward",
+                    "Overcoming trauma"
+                ]
+            },
+            {
+                "topic": "Tragedy of the Commons vs Cooperation",
+                "sideA": "Tragedy",
+                "sideB": "Cooperation",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Self-interest",
+                    "Resource depletion"
+                ],
+                "ideasB": [
+                    "Mutual benefit",
+                    "Collective management"
+                ]
+            },
             {
                 "topic": "Red vs Blue — which colour is better?",
                 "sideA": "Red",
@@ -1708,6 +1708,222 @@ const speakingData = {
                 "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Pink vs orange — which colour is nicer?",
+                "sideA": "Pink",
+                "sideB": "Orange",
+                "level": "starter",
+                "theme": "colors",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Number 1 vs number 10 — which number is better?",
+                "sideA": "1",
+                "sideB": "10",
+                "level": "starter",
+                "theme": "numbers_shapes",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Chair vs sofa — which is more comfortable?",
+                "sideA": "Chair",
+                "sideB": "Sofa",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Bag vs box — which is more useful?",
+                "sideA": "Bag",
+                "sideB": "Box",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lion vs elephant — which animal is better?",
+                "sideA": "Lion",
+                "sideB": "Elephant",
+                "level": "starter",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Chocolate vs sweets — which is better?",
+                "sideA": "Chocolate",
+                "sideB": "Sweets",
+                "level": "starter",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Spoon vs fork — which is better?",
+                "sideA": "Spoon",
+                "sideB": "Fork",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Hat vs shoes — which is more important?",
+                "sideA": "Hat",
+                "sideB": "Shoes",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sun vs moon — which is better?",
+                "sideA": "Sun",
+                "sideB": "Moon",
+                "level": "starter",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Socks vs no socks — which is nicer?",
+                "sideA": "Socks",
+                "sideB": "No socks",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Living with grandparents vs not living with them — which is nicer?",
+                "sideA": "With grandparents",
+                "sideB": "Not living with them",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Mum's cooking vs dad's cooking — which is better?",
+                "sideA": "Mum's",
+                "sideB": "Dad's",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Maths vs art — which subject is more fun?",
+                "sideA": "Maths",
+                "sideB": "Art",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Writing on paper vs typing on a tablet — which is better?",
+                "sideA": "Paper",
+                "sideB": "Tablet",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Pizza vs pasta — which is nicer?",
+                "sideA": "Pizza",
+                "sideB": "Pasta",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ice cream vs cake — which is a better dessert?",
+                "sideA": "Ice cream",
+                "sideB": "Cake",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Short days vs long days — which is better?",
+                "sideA": "Short days",
+                "sideB": "Long days",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Day at the park vs day at the beach — which is better?",
+                "sideA": "Park",
+                "sideB": "Beach",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Plane vs train — which is more fun?",
+                "sideA": "Plane",
+                "sideB": "Train",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Morning shower vs evening shower — which is better?",
+                "sideA": "Morning",
+                "sideB": "Evening",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cats that knock things off tables vs dogs that chew shoes — which pet is more annoying?",
+                "sideA": "Cats",
+                "sideB": "Dogs",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Eating pizza with a fork vs eating pizza with your hands — which is correct?",
+                "sideA": "Fork",
+                "sideB": "Hands",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sleeping with socks on vs sleeping without socks — which is better?",
+                "sideA": "Socks on",
+                "sideB": "No socks",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sandcastle vs snowman — which is more fun to build?",
+                "sideA": "Sandcastle",
+                "sideB": "Snowman",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -1847,366 +2063,366 @@ const speakingData = {
             }
         ],
         "debates": [
-{
-                    "topic": "Langage : Constitutif vs Expressif",
-                    "sideA": "Constitutif",
-                    "sideB": "Expressif",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Façonne la réalité",
-                        "Limite la pensée"
-                    ],
-                    "ideasB": [
-                        "Reflète la réalité",
-                        "Outil pour la pensée"
-                    ]
-                },
-                {
-                    "topic": "Précision vs Ambiguïté",
-                    "sideA": "Précision",
-                    "sideB": "Ambiguïté",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Clarté",
-                        "Efficacité"
-                    ],
-                    "ideasB": [
-                        "Nuance",
-                        "Diplomatie"
-                    ]
-                },
-                {
-                    "topic": "Rhétorique vs Logique",
-                    "sideA": "Rhétorique",
-                    "sideB": "Logique",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Pouvoir persuasif",
-                        "Appel émotionnel"
-                    ],
-                    "ideasB": [
-                        "Vérité objective",
-                        "Validité structurelle"
-                    ]
-                },
-                {
-                    "topic": "Sens littéral vs Sens interprétatif",
-                    "sideA": "Littéral",
-                    "sideB": "Interprétatif",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Intention de l'auteur",
-                        "Stabilité"
-                    ],
-                    "ideasB": [
-                        "Réponse du lecteur",
-                        "Contexte évolutif"
-                    ]
-                },
-                {
-                    "topic": "Consensus scientifique vs Humilité épistémique",
-                    "sideA": "Consensus",
-                    "sideB": "Humilité",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Connaissances établies",
-                        "Autorité d'expert"
-                    ],
-                    "ideasB": [
-                        "Ouverture à la correction",
-                        "Reconnaissance des limites"
-                    ]
-                },
-                {
-                    "topic": "Expertise vs Expérience vécue",
-                    "sideA": "Expertise",
-                    "sideB": "Expérience vécue",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Rigueur scientifique",
-                        "Données objectives"
-                    ],
-                    "ideasB": [
-                        "Vérité authentique",
-                        "Aperçu contextuel"
-                    ]
-                },
-                {
-                    "topic": "Le doute : Vertu vs Paralysie",
-                    "sideA": "Vertu",
-                    "sideB": "Paralysie",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Pensée critique",
-                        "Scepticisme"
-                    ],
-                    "ideasB": [
-                        "Indécision",
-                        "Manque d'action"
-                    ]
-                },
-                {
-                    "topic": "Récit vs Données",
-                    "sideA": "Récit",
-                    "sideB": "Données",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Impact émotionnel",
-                        "Connexion humaine"
-                    ],
-                    "ideasB": [
-                        "Vérité statistique",
-                        "Scalabilité"
-                    ]
-                },
-                {
-                    "topic": "Légitimité : Consentement vs Résultat",
-                    "sideA": "Consentement",
-                    "sideB": "Résultat",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Processus démocratique",
-                        "Droit moral"
-                    ],
-                    "ideasB": [
-                        "Efficacité",
-                        "Gouvernance efficace"
-                    ]
-                },
-                {
-                    "topic": "État : Garant de la liberté vs Menace",
-                    "sideA": "Garant",
-                    "sideB": "Menace",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "État de droit",
-                        "Protection des droits"
-                    ],
-                    "ideasB": [
-                        "Abus de pouvoir",
-                        "Surveillance"
-                    ]
-                },
-                {
-                    "topic": "Politique des droits vs Politique des responsabilités",
-                    "sideA": "Droits",
-                    "sideB": "Responsabilités",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Liberté individuelle",
-                        "Protection juridique"
-                    ],
-                    "ideasB": [
-                        "Devoir collectif",
-                        "Cohésion sociale"
-                    ]
-                },
-                {
-                    "topic": "Neutralité vs Gouvernance orientée par les valeurs",
-                    "sideA": "Neutralité",
-                    "sideB": "Orientée valeurs",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Impartialité",
-                        "Équité"
-                    ],
-                    "ideasB": [
-                        "Direction morale",
-                        "Objectif social"
-                    ]
-                },
-                {
-                    "topic": "Intention vs Réception en art",
-                    "sideA": "Intention",
-                    "sideB": "Réception",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Vision de l'auteur",
-                        "Contexte original"
-                    ],
-                    "ideasB": [
-                        "Sens pour le public",
-                        "Impact culturel"
-                    ]
-                },
-                {
-                    "topic": "Valeur esthétique vs Valeur morale",
-                    "sideA": "Esthétique",
-                    "sideB": "Morale",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "L'art pour l'art",
-                        "Pure beauté"
-                    ],
-                    "ideasB": [
-                        "Utilité sociale",
-                        "Impact éthique"
-                    ]
-                },
-                {
-                    "topic": "L'avant-garde vs Accessibilité",
-                    "sideA": "Avant-garde",
-                    "sideB": "Accessibilité",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Repousser les limites",
-                        "Défi intellectuel"
-                    ],
-                    "ideasB": [
-                        "Inclusivité",
-                        "Art démocratique"
-                    ]
-                },
-                {
-                    "topic": "Art institutionnel vs Art brut",
-                    "sideA": "Institutionnel",
-                    "sideB": "Art brut",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Préservation historique",
-                        "Normes"
-                    ],
-                    "ideasB": [
-                        "Authenticité brute",
-                        "Anti-establishment"
-                    ]
-                },
-                {
-                    "topic": "Principe de précaution vs proaction",
-                    "sideA": "Précaution",
-                    "sideB": "Proaction",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Évitement des risques",
-                        "La sécurité d'abord"
-                    ],
-                    "ideasB": [
-                        "Innovation",
-                        "Accepter le changement"
-                    ]
-                },
-                {
-                    "topic": "Progrès scientifique : Intrinsèquement bon vs Neutre",
-                    "sideA": "Intrinsèquement bon",
-                    "sideB": "Éthiquement neutre",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Valeurs des Lumières",
-                        "Résolution de problèmes"
-                    ],
-                    "ideasB": [
-                        "Préoccupation du double usage",
-                        "Responsabilité humaine"
-                    ]
-                },
-                {
-                    "topic": "Risque existentiel vs Souffrance actuelle",
-                    "sideA": "Risque existentiel",
-                    "sideB": "Souffrance actuelle",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Survie à long terme",
-                        "Générations futures"
-                    ],
-                    "ideasB": [
-                        "Soulagement immédiat",
-                        "Pauvreté urgente"
-                    ]
-                },
-                {
-                    "topic": "Conscience humaine vs Intelligence artificielle générale",
-                    "sideA": "Conscience",
-                    "sideB": "IA Générale",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Unicité biologique",
-                        "Expérience subjective"
-                    ],
-                    "ideasB": [
-                        "Puissance de calcul",
-                        "Logique algorithmique"
-                    ]
-                },
-                {
-                    "topic": "Le progrès : Réel vs Illusion",
-                    "sideA": "Réel",
-                    "sideB": "Illusion",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Avancement technologique",
-                        "Qualité de vie améliorée"
-                    ],
-                    "ideasB": [
-                        "Histoire cyclique",
-                        "Nouveaux problèmes"
-                    ]
-                },
-                {
-                    "topic": "Ordre libéral vs Monde multipolaire",
-                    "sideA": "Ordre libéral",
-                    "sideB": "Multipolarité",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Valeurs universelles",
-                        "Stabilité mondiale"
-                    ],
-                    "ideasB": [
-                        "Puissance diversifiée",
-                        "Souveraineté culturelle"
-                    ]
-                },
-                {
-                    "topic": "Mémoire vs Oubli",
-                    "sideA": "Mémoire",
-                    "sideB": "Oubli",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Apprendre de l'histoire",
-                        "Identité"
-                    ],
-                    "ideasB": [
-                        "Aller de l'avant",
-                        "Surmonter les traumatismes"
-                    ]
-                },
-                {
-                    "topic": "Tragédie des communs vs Coopération",
-                    "sideA": "Tragédie",
-                    "sideB": "Coopération",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Intérêt personnel",
-                        "Épuisement des ressources"
-                    ],
-                    "ideasB": [
-                        "Bénéfice mutuel",
-                        "Gestion collective"
-                    ]
-                },
+            {
+                "topic": "Langage : Constitutif vs Expressif",
+                "sideA": "Constitutif",
+                "sideB": "Expressif",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Façonne la réalité",
+                    "Limite la pensée"
+                ],
+                "ideasB": [
+                    "Reflète la réalité",
+                    "Outil pour la pensée"
+                ]
+            },
+            {
+                "topic": "Précision vs Ambiguïté",
+                "sideA": "Précision",
+                "sideB": "Ambiguïté",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Clarté",
+                    "Efficacité"
+                ],
+                "ideasB": [
+                    "Nuance",
+                    "Diplomatie"
+                ]
+            },
+            {
+                "topic": "Rhétorique vs Logique",
+                "sideA": "Rhétorique",
+                "sideB": "Logique",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Pouvoir persuasif",
+                    "Appel émotionnel"
+                ],
+                "ideasB": [
+                    "Vérité objective",
+                    "Validité structurelle"
+                ]
+            },
+            {
+                "topic": "Sens littéral vs Sens interprétatif",
+                "sideA": "Littéral",
+                "sideB": "Interprétatif",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Intention de l'auteur",
+                    "Stabilité"
+                ],
+                "ideasB": [
+                    "Réponse du lecteur",
+                    "Contexte évolutif"
+                ]
+            },
+            {
+                "topic": "Consensus scientifique vs Humilité épistémique",
+                "sideA": "Consensus",
+                "sideB": "Humilité",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Connaissances établies",
+                    "Autorité d'expert"
+                ],
+                "ideasB": [
+                    "Ouverture à la correction",
+                    "Reconnaissance des limites"
+                ]
+            },
+            {
+                "topic": "Expertise vs Expérience vécue",
+                "sideA": "Expertise",
+                "sideB": "Expérience vécue",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Rigueur scientifique",
+                    "Données objectives"
+                ],
+                "ideasB": [
+                    "Vérité authentique",
+                    "Aperçu contextuel"
+                ]
+            },
+            {
+                "topic": "Le doute : Vertu vs Paralysie",
+                "sideA": "Vertu",
+                "sideB": "Paralysie",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Pensée critique",
+                    "Scepticisme"
+                ],
+                "ideasB": [
+                    "Indécision",
+                    "Manque d'action"
+                ]
+            },
+            {
+                "topic": "Récit vs Données",
+                "sideA": "Récit",
+                "sideB": "Données",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Impact émotionnel",
+                    "Connexion humaine"
+                ],
+                "ideasB": [
+                    "Vérité statistique",
+                    "Scalabilité"
+                ]
+            },
+            {
+                "topic": "Légitimité : Consentement vs Résultat",
+                "sideA": "Consentement",
+                "sideB": "Résultat",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Processus démocratique",
+                    "Droit moral"
+                ],
+                "ideasB": [
+                    "Efficacité",
+                    "Gouvernance efficace"
+                ]
+            },
+            {
+                "topic": "État : Garant de la liberté vs Menace",
+                "sideA": "Garant",
+                "sideB": "Menace",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "État de droit",
+                    "Protection des droits"
+                ],
+                "ideasB": [
+                    "Abus de pouvoir",
+                    "Surveillance"
+                ]
+            },
+            {
+                "topic": "Politique des droits vs Politique des responsabilités",
+                "sideA": "Droits",
+                "sideB": "Responsabilités",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Liberté individuelle",
+                    "Protection juridique"
+                ],
+                "ideasB": [
+                    "Devoir collectif",
+                    "Cohésion sociale"
+                ]
+            },
+            {
+                "topic": "Neutralité vs Gouvernance orientée par les valeurs",
+                "sideA": "Neutralité",
+                "sideB": "Orientée valeurs",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Impartialité",
+                    "Équité"
+                ],
+                "ideasB": [
+                    "Direction morale",
+                    "Objectif social"
+                ]
+            },
+            {
+                "topic": "Intention vs Réception en art",
+                "sideA": "Intention",
+                "sideB": "Réception",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Vision de l'auteur",
+                    "Contexte original"
+                ],
+                "ideasB": [
+                    "Sens pour le public",
+                    "Impact culturel"
+                ]
+            },
+            {
+                "topic": "Valeur esthétique vs Valeur morale",
+                "sideA": "Esthétique",
+                "sideB": "Morale",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "L'art pour l'art",
+                    "Pure beauté"
+                ],
+                "ideasB": [
+                    "Utilité sociale",
+                    "Impact éthique"
+                ]
+            },
+            {
+                "topic": "L'avant-garde vs Accessibilité",
+                "sideA": "Avant-garde",
+                "sideB": "Accessibilité",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Repousser les limites",
+                    "Défi intellectuel"
+                ],
+                "ideasB": [
+                    "Inclusivité",
+                    "Art démocratique"
+                ]
+            },
+            {
+                "topic": "Art institutionnel vs Art brut",
+                "sideA": "Institutionnel",
+                "sideB": "Art brut",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Préservation historique",
+                    "Normes"
+                ],
+                "ideasB": [
+                    "Authenticité brute",
+                    "Anti-establishment"
+                ]
+            },
+            {
+                "topic": "Principe de précaution vs proaction",
+                "sideA": "Précaution",
+                "sideB": "Proaction",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Évitement des risques",
+                    "La sécurité d'abord"
+                ],
+                "ideasB": [
+                    "Innovation",
+                    "Accepter le changement"
+                ]
+            },
+            {
+                "topic": "Progrès scientifique : Intrinsèquement bon vs Neutre",
+                "sideA": "Intrinsèquement bon",
+                "sideB": "Éthiquement neutre",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Valeurs des Lumières",
+                    "Résolution de problèmes"
+                ],
+                "ideasB": [
+                    "Préoccupation du double usage",
+                    "Responsabilité humaine"
+                ]
+            },
+            {
+                "topic": "Risque existentiel vs Souffrance actuelle",
+                "sideA": "Risque existentiel",
+                "sideB": "Souffrance actuelle",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Survie à long terme",
+                    "Générations futures"
+                ],
+                "ideasB": [
+                    "Soulagement immédiat",
+                    "Pauvreté urgente"
+                ]
+            },
+            {
+                "topic": "Conscience humaine vs Intelligence artificielle générale",
+                "sideA": "Conscience",
+                "sideB": "IA Générale",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Unicité biologique",
+                    "Expérience subjective"
+                ],
+                "ideasB": [
+                    "Puissance de calcul",
+                    "Logique algorithmique"
+                ]
+            },
+            {
+                "topic": "Le progrès : Réel vs Illusion",
+                "sideA": "Réel",
+                "sideB": "Illusion",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Avancement technologique",
+                    "Qualité de vie améliorée"
+                ],
+                "ideasB": [
+                    "Histoire cyclique",
+                    "Nouveaux problèmes"
+                ]
+            },
+            {
+                "topic": "Ordre libéral vs Monde multipolaire",
+                "sideA": "Ordre libéral",
+                "sideB": "Multipolarité",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Valeurs universelles",
+                    "Stabilité mondiale"
+                ],
+                "ideasB": [
+                    "Puissance diversifiée",
+                    "Souveraineté culturelle"
+                ]
+            },
+            {
+                "topic": "Mémoire vs Oubli",
+                "sideA": "Mémoire",
+                "sideB": "Oubli",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Apprendre de l'histoire",
+                    "Identité"
+                ],
+                "ideasB": [
+                    "Aller de l'avant",
+                    "Surmonter les traumatismes"
+                ]
+            },
+            {
+                "topic": "Tragédie des communs vs Coopération",
+                "sideA": "Tragédie",
+                "sideB": "Coopération",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Intérêt personnel",
+                    "Épuisement des ressources"
+                ],
+                "ideasB": [
+                    "Bénéfice mutuel",
+                    "Gestion collective"
+                ]
+            },
             {
                 "topic": "Rouge vs Bleu — quelle couleur est la meilleure ?",
                 "sideA": "Rouge",
@@ -3472,6 +3688,222 @@ const speakingData = {
                 "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Rose vs Orange — quelle couleur est la plus jolie ?",
+                "sideA": "Rose",
+                "sideB": "Orange",
+                "level": "starter",
+                "theme": "colors",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Le chiffre 1 vs le chiffre 10 — quel chiffre est le meilleur ?",
+                "sideA": "1",
+                "sideB": "10",
+                "level": "starter",
+                "theme": "numbers_shapes",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Chaise vs canapé — lequel est le plus confortable ?",
+                "sideA": "Chaise",
+                "sideB": "Canapé",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sac vs boîte — lequel est le plus utile ?",
+                "sideA": "Sac",
+                "sideB": "Boîte",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Lion vs éléphant — quel animal est le meilleur ?",
+                "sideA": "Lion",
+                "sideB": "Éléphant",
+                "level": "starter",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Chocolat vs bonbons — lequel est le meilleur ?",
+                "sideA": "Chocolat",
+                "sideB": "Bonbons",
+                "level": "starter",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cuillère vs fourchette — laquelle est la meilleure ?",
+                "sideA": "Cuillère",
+                "sideB": "Fourchette",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Chapeau vs chaussures — lequel est le plus important ?",
+                "sideA": "Chapeau",
+                "sideB": "Chaussures",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Soleil vs lune — lequel est le meilleur ?",
+                "sideA": "Soleil",
+                "sideB": "Lune",
+                "level": "starter",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Chaussettes vs pas de chaussettes — qu'est-ce qui est le mieux ?",
+                "sideA": "Chaussettes",
+                "sideB": "Sans chaussettes",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vivre avec ses grands-parents vs ne pas vivre avec eux — qu'est-ce qui est le plus agréable ?",
+                "sideA": "Avec les grands-parents",
+                "sideB": "Sans les grands-parents",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "La cuisine de maman vs la cuisine de papa — laquelle est la meilleure ?",
+                "sideA": "Maman",
+                "sideB": "Papa",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Maths vs art — quelle matière est la plus amusante ?",
+                "sideA": "Maths",
+                "sideB": "Art",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Écrire sur papier vs taper sur une tablette — qu'est-ce qui est mieux ?",
+                "sideA": "Papier",
+                "sideB": "Tablette",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Pizza vs pâtes — qu'est-ce qui est le plus bon ?",
+                "sideA": "Pizza",
+                "sideB": "Pâtes",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Glace vs gâteau — quel est le meilleur dessert ?",
+                "sideA": "Glace",
+                "sideB": "Gâteau",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Jours courts vs jours longs — qu'est-ce qui est mieux ?",
+                "sideA": "Jours courts",
+                "sideB": "Jours longs",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Journée au parc vs journée à la plage — qu'est-ce qui est mieux ?",
+                "sideA": "Parc",
+                "sideB": "Plage",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Avion vs train — qu'est-ce qui est le plus amusant ?",
+                "sideA": "Avion",
+                "sideB": "Train",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Douche le matin vs douche le soir — qu'est-ce qui est mieux ?",
+                "sideA": "Matin",
+                "sideB": "Soir",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Chats qui renversent des choses vs chiens qui mâchent des chaussures — quel animal est le plus agaçant ?",
+                "sideA": "Chats",
+                "sideB": "Chiens",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Manger de la pizza avec une fourchette vs avec les mains — qu'est-ce qui est correct ?",
+                "sideA": "Fourchette",
+                "sideB": "Mains",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Dormir avec des chaussettes vs sans chaussettes — qu'est-ce qui est mieux ?",
+                "sideA": "Chaussettes",
+                "sideB": "Sans",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Château de sable vs bonhomme de neige — qu'est-ce qui est le plus amusant à construire ?",
+                "sideA": "Château de sable",
+                "sideB": "Bonhomme de neige",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -3611,366 +4043,366 @@ const speakingData = {
             }
         ],
         "debates": [
-{
-                    "topic": "Linguaggio: Costitutivo vs Espressivo",
-                    "sideA": "Costitutivo",
-                    "sideB": "Espressivo",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Modella la realtà",
-                        "Limita il pensiero"
-                    ],
-                    "ideasB": [
-                        "Riflette la realtà",
-                        "Strumento per il pensiero"
-                    ]
-                },
-                {
-                    "topic": "Precisione vs Ambiguità",
-                    "sideA": "Precisione",
-                    "sideB": "Ambiguità",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Chiarezza",
-                        "Efficienza"
-                    ],
-                    "ideasB": [
-                        "Sfumatura",
-                        "Diplomazia"
-                    ]
-                },
-                {
-                    "topic": "Retorica vs Logica",
-                    "sideA": "Retorica",
-                    "sideB": "Logica",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Potere persuasivo",
-                        "Appello emotivo"
-                    ],
-                    "ideasB": [
-                        "Verità oggettiva",
-                        "Validità strutturale"
-                    ]
-                },
-                {
-                    "topic": "Significato letterale vs Significato interpretativo",
-                    "sideA": "Letterale",
-                    "sideB": "Interpretativo",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Intenzione dell'autore",
-                        "Stabilità"
-                    ],
-                    "ideasB": [
-                        "Risposta del lettore",
-                        "Contesto in evoluzione"
-                    ]
-                },
-                {
-                    "topic": "Consenso scientifico vs Umiltà epistemica",
-                    "sideA": "Consenso",
-                    "sideB": "Umiltà",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Conoscenza consolidata",
-                        "Autorità esperta"
-                    ],
-                    "ideasB": [
-                        "Apertura alla correzione",
-                        "Riconoscimento dei limiti"
-                    ]
-                },
-                {
-                    "topic": "Competenza vs Esperienza vissuta",
-                    "sideA": "Competenza",
-                    "sideB": "Esperienza vissuta",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Rigore scientifico",
-                        "Dati oggettivi"
-                    ],
-                    "ideasB": [
-                        "Verità autentica",
-                        "Intuizione contestuale"
-                    ]
-                },
-                {
-                    "topic": "Il dubbio: Virtù vs Paralisi",
-                    "sideA": "Virtù",
-                    "sideB": "Paralisi",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Pensiero critico",
-                        "Scetticismo"
-                    ],
-                    "ideasB": [
-                        "Indecisione",
-                        "Mancanza di azione"
-                    ]
-                },
-                {
-                    "topic": "Narrativa vs Dati",
-                    "sideA": "Narrativa",
-                    "sideB": "Dati",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Impatto emotivo",
-                        "Connessione umana"
-                    ],
-                    "ideasB": [
-                        "Verità statistica",
-                        "Scalabilità"
-                    ]
-                },
-                {
-                    "topic": "Legittimità: Consenso vs Risultato",
-                    "sideA": "Consenso",
-                    "sideB": "Risultato",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Processo democratico",
-                        "Diritto morale"
-                    ],
-                    "ideasB": [
-                        "Efficienza",
-                        "Governance efficace"
-                    ]
-                },
-                {
-                    "topic": "Stato: Garante della libertà vs Minaccia",
-                    "sideA": "Garante",
-                    "sideB": "Minaccia",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Stato di diritto",
-                        "Protezione dei diritti"
-                    ],
-                    "ideasB": [
-                        "Abuso di potere",
-                        "Sorveglianza"
-                    ]
-                },
-                {
-                    "topic": "Politica dei diritti vs Politica delle responsabilità",
-                    "sideA": "Diritti",
-                    "sideB": "Responsabilità",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Libertà individuale",
-                        "Protezione legale"
-                    ],
-                    "ideasB": [
-                        "Dovere collectif",
-                        "Coesione sociale"
-                    ]
-                },
-                {
-                    "topic": "Neutralità vs Governance guidata dai valori",
-                    "sideA": "Neutralità",
-                    "sideB": "Guidata dai valori",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Imparzialità",
-                        "Equità"
-                    ],
-                    "ideasB": [
-                        "Direzione morale",
-                        "Scopo sociale"
-                    ]
-                },
-                {
-                    "topic": "Intenzione vs Ricezione nell'arte",
-                    "sideA": "Intenzione",
-                    "sideB": "Ricezione",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Visione dell'autore",
-                        "Contesto originale"
-                    ],
-                    "ideasB": [
-                        "Significato per il pubblico",
-                        "Impatto culturale"
-                    ]
-                },
-                {
-                    "topic": "Valore estetico vs Valore morale",
-                    "sideA": "Estetico",
-                    "sideB": "Morale",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "L'arte per l'arte",
-                        "Pura bellezza"
-                    ],
-                    "ideasB": [
-                        "Utilità sociale",
-                        "Impatto etico"
-                    ]
-                },
-                {
-                    "topic": "L'avanguardia vs Accessibilità",
-                    "sideA": "Avanguardia",
-                    "sideB": "Accessibilità",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Spostare i confini",
-                        "Sfida intellettuale"
-                    ],
-                    "ideasB": [
-                        "Inclusività",
-                        "Arte democratica"
-                    ]
-                },
-                {
-                    "topic": "Arte istituzionale vs Arte irregolare",
-                    "sideA": "Istituzionale",
-                    "sideB": "Irregolare",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Preservazione storica",
-                        "Standard"
-                    ],
-                    "ideasB": [
-                        "Autenticità grezza",
-                        "Anti-sistema"
-                    ]
-                },
-                {
-                    "topic": "Principio di precauzione vs proazione",
-                    "sideA": "Precauzionale",
-                    "sideB": "Proattivo",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Evitare i rischi",
-                        "Sicurezza prima di tutto"
-                    ],
-                    "ideasB": [
-                        "Innovazione",
-                        "Abbracciare il cambiamento"
-                    ]
-                },
-                {
-                    "topic": "Progresso scientifico: Intrinsecamente buono vs Neutro",
-                    "sideA": "Intrinsecamente buono",
-                    "sideB": "Eticamente neutro",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Valori dell'Illuminismo",
-                        "Risoluzione dei problemi"
-                    ],
-                    "ideasB": [
-                        "Preoccupazione per il doppio uso",
-                        "Responsabilità umana"
-                    ]
-                },
-                {
-                    "topic": "Rischio esistenziale vs Sofferenza attuale",
-                    "sideA": "Rischio esistenziale",
-                    "sideB": "Sofferenza attuale",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Sopravvivenza a lungo termine",
-                        "Generazioni future"
-                    ],
-                    "ideasB": [
-                        "Sollievo immediato",
-                        "Povertà urgente"
-                    ]
-                },
-                {
-                    "topic": "Coscienza umana vs Intelligenza artificiale generale",
-                    "sideA": "Coscienza",
-                    "sideB": "IA Generale",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Unicità biologica",
-                        "Esperienza soggettiva"
-                    ],
-                    "ideasB": [
-                        "Potenza di calcolo",
-                        "Logica algoritmica"
-                    ]
-                },
-                {
-                    "topic": "Il progresso: Reale vs Illusione",
-                    "sideA": "Reale",
-                    "sideB": "Illusione",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Progresso tecnologico",
-                        "Migliore qualità della vita"
-                    ],
-                    "ideasB": [
-                        "Storia ciclica",
-                        "Nuovi problemi"
-                    ]
-                },
-                {
-                    "topic": "Ordine liberale vs Mondo multipolare",
-                    "sideA": "Ordine liberale",
-                    "sideB": "Multipolarità",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Valori universali",
-                        "Stabilità globale"
-                    ],
-                    "ideasB": [
-                        "Potere diversificato",
-                        "Sovranità culturale"
-                    ]
-                },
-                {
-                    "topic": "Memoria vs Oblio",
-                    "sideA": "Memoria",
-                    "sideB": "Oblio",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Imparare dalla storia",
-                        "Identità"
-                    ],
-                    "ideasB": [
-                        "Andare avanti",
-                        "Superare i traumi"
-                    ]
-                },
-                {
-                    "topic": "Tragedia dei beni comuni vs Cooperazione",
-                    "sideA": "Tragedia",
-                    "sideB": "Cooperazione",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Interesse personale",
-                        "Esaurimento delle risorse"
-                    ],
-                    "ideasB": [
-                        "Vantaggio reciproco",
-                        "Gestione collettiva"
-                    ]
-                },
+            {
+                "topic": "Linguaggio: Costitutivo vs Espressivo",
+                "sideA": "Costitutivo",
+                "sideB": "Espressivo",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Modella la realtà",
+                    "Limita il pensiero"
+                ],
+                "ideasB": [
+                    "Riflette la realtà",
+                    "Strumento per il pensiero"
+                ]
+            },
+            {
+                "topic": "Precisione vs Ambiguità",
+                "sideA": "Precisione",
+                "sideB": "Ambiguità",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Chiarezza",
+                    "Efficienza"
+                ],
+                "ideasB": [
+                    "Sfumatura",
+                    "Diplomazia"
+                ]
+            },
+            {
+                "topic": "Retorica vs Logica",
+                "sideA": "Retorica",
+                "sideB": "Logica",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Potere persuasivo",
+                    "Appello emotivo"
+                ],
+                "ideasB": [
+                    "Verità oggettiva",
+                    "Validità strutturale"
+                ]
+            },
+            {
+                "topic": "Significato letterale vs Significato interpretativo",
+                "sideA": "Letterale",
+                "sideB": "Interpretativo",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Intenzione dell'autore",
+                    "Stabilità"
+                ],
+                "ideasB": [
+                    "Risposta del lettore",
+                    "Contesto in evoluzione"
+                ]
+            },
+            {
+                "topic": "Consenso scientifico vs Umiltà epistemica",
+                "sideA": "Consenso",
+                "sideB": "Umiltà",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Conoscenza consolidata",
+                    "Autorità esperta"
+                ],
+                "ideasB": [
+                    "Apertura alla correzione",
+                    "Riconoscimento dei limiti"
+                ]
+            },
+            {
+                "topic": "Competenza vs Esperienza vissuta",
+                "sideA": "Competenza",
+                "sideB": "Esperienza vissuta",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Rigore scientifico",
+                    "Dati oggettivi"
+                ],
+                "ideasB": [
+                    "Verità autentica",
+                    "Intuizione contestuale"
+                ]
+            },
+            {
+                "topic": "Il dubbio: Virtù vs Paralisi",
+                "sideA": "Virtù",
+                "sideB": "Paralisi",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Pensiero critico",
+                    "Scetticismo"
+                ],
+                "ideasB": [
+                    "Indecisione",
+                    "Mancanza di azione"
+                ]
+            },
+            {
+                "topic": "Narrativa vs Dati",
+                "sideA": "Narrativa",
+                "sideB": "Dati",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Impatto emotivo",
+                    "Connessione umana"
+                ],
+                "ideasB": [
+                    "Verità statistica",
+                    "Scalabilità"
+                ]
+            },
+            {
+                "topic": "Legittimità: Consenso vs Risultato",
+                "sideA": "Consenso",
+                "sideB": "Risultato",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Processo democratico",
+                    "Diritto morale"
+                ],
+                "ideasB": [
+                    "Efficienza",
+                    "Governance efficace"
+                ]
+            },
+            {
+                "topic": "Stato: Garante della libertà vs Minaccia",
+                "sideA": "Garante",
+                "sideB": "Minaccia",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Stato di diritto",
+                    "Protezione dei diritti"
+                ],
+                "ideasB": [
+                    "Abuso di potere",
+                    "Sorveglianza"
+                ]
+            },
+            {
+                "topic": "Politica dei diritti vs Politica delle responsabilità",
+                "sideA": "Diritti",
+                "sideB": "Responsabilità",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Libertà individuale",
+                    "Protezione legale"
+                ],
+                "ideasB": [
+                    "Dovere collectif",
+                    "Coesione sociale"
+                ]
+            },
+            {
+                "topic": "Neutralità vs Governance guidata dai valori",
+                "sideA": "Neutralità",
+                "sideB": "Guidata dai valori",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Imparzialità",
+                    "Equità"
+                ],
+                "ideasB": [
+                    "Direzione morale",
+                    "Scopo sociale"
+                ]
+            },
+            {
+                "topic": "Intenzione vs Ricezione nell'arte",
+                "sideA": "Intenzione",
+                "sideB": "Ricezione",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Visione dell'autore",
+                    "Contesto originale"
+                ],
+                "ideasB": [
+                    "Significato per il pubblico",
+                    "Impatto culturale"
+                ]
+            },
+            {
+                "topic": "Valore estetico vs Valore morale",
+                "sideA": "Estetico",
+                "sideB": "Morale",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "L'arte per l'arte",
+                    "Pura bellezza"
+                ],
+                "ideasB": [
+                    "Utilità sociale",
+                    "Impatto etico"
+                ]
+            },
+            {
+                "topic": "L'avanguardia vs Accessibilità",
+                "sideA": "Avanguardia",
+                "sideB": "Accessibilità",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Spostare i confini",
+                    "Sfida intellettuale"
+                ],
+                "ideasB": [
+                    "Inclusività",
+                    "Arte democratica"
+                ]
+            },
+            {
+                "topic": "Arte istituzionale vs Arte irregolare",
+                "sideA": "Istituzionale",
+                "sideB": "Irregolare",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Preservazione storica",
+                    "Standard"
+                ],
+                "ideasB": [
+                    "Autenticità grezza",
+                    "Anti-sistema"
+                ]
+            },
+            {
+                "topic": "Principio di precauzione vs proazione",
+                "sideA": "Precauzionale",
+                "sideB": "Proattivo",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Evitare i rischi",
+                    "Sicurezza prima di tutto"
+                ],
+                "ideasB": [
+                    "Innovazione",
+                    "Abbracciare il cambiamento"
+                ]
+            },
+            {
+                "topic": "Progresso scientifico: Intrinsecamente buono vs Neutro",
+                "sideA": "Intrinsecamente buono",
+                "sideB": "Eticamente neutro",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Valori dell'Illuminismo",
+                    "Risoluzione dei problemi"
+                ],
+                "ideasB": [
+                    "Preoccupazione per il doppio uso",
+                    "Responsabilità umana"
+                ]
+            },
+            {
+                "topic": "Rischio esistenziale vs Sofferenza attuale",
+                "sideA": "Rischio esistenziale",
+                "sideB": "Sofferenza attuale",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Sopravvivenza a lungo termine",
+                    "Generazioni future"
+                ],
+                "ideasB": [
+                    "Sollievo immediato",
+                    "Povertà urgente"
+                ]
+            },
+            {
+                "topic": "Coscienza umana vs Intelligenza artificiale generale",
+                "sideA": "Coscienza",
+                "sideB": "IA Generale",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Unicità biologica",
+                    "Esperienza soggettiva"
+                ],
+                "ideasB": [
+                    "Potenza di calcolo",
+                    "Logica algoritmica"
+                ]
+            },
+            {
+                "topic": "Il progresso: Reale vs Illusione",
+                "sideA": "Reale",
+                "sideB": "Illusione",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Progresso tecnologico",
+                    "Migliore qualità della vita"
+                ],
+                "ideasB": [
+                    "Storia ciclica",
+                    "Nuovi problemi"
+                ]
+            },
+            {
+                "topic": "Ordine liberale vs Mondo multipolare",
+                "sideA": "Ordine liberale",
+                "sideB": "Multipolarità",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Valori universali",
+                    "Stabilità globale"
+                ],
+                "ideasB": [
+                    "Potere diversificato",
+                    "Sovranità culturale"
+                ]
+            },
+            {
+                "topic": "Memoria vs Oblio",
+                "sideA": "Memoria",
+                "sideB": "Oblio",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Imparare dalla storia",
+                    "Identità"
+                ],
+                "ideasB": [
+                    "Andare avanti",
+                    "Superare i traumi"
+                ]
+            },
+            {
+                "topic": "Tragedia dei beni comuni vs Cooperazione",
+                "sideA": "Tragedia",
+                "sideB": "Cooperazione",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Interesse personale",
+                    "Esaurimento delle risorse"
+                ],
+                "ideasB": [
+                    "Vantaggio reciproco",
+                    "Gestione collettiva"
+                ]
+            },
             {
                 "topic": "Rosso vs Blu — quale colore è migliore?",
                 "sideA": "Rosso",
@@ -5236,6 +5668,222 @@ const speakingData = {
                 "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Rosa vs Arancione — quale colore è più carino?",
+                "sideA": "Rosa",
+                "sideB": "Arancione",
+                "level": "starter",
+                "theme": "colors",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Numero 1 vs numero 10 — quale numero è migliore?",
+                "sideA": "1",
+                "sideB": "10",
+                "level": "starter",
+                "theme": "numbers_shapes",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sedia vs divano — quale è più comodo?",
+                "sideA": "Sedia",
+                "sideB": "Divano",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Borsa vs scatola — quale è più utile?",
+                "sideA": "Borsa",
+                "sideB": "Scatola",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Leone vs elefante — quale animale è migliore?",
+                "sideA": "Leone",
+                "sideB": "Elefante",
+                "level": "starter",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cioccolato vs caramelle — quale è meglio?",
+                "sideA": "Cioccolato",
+                "sideB": "Caramelle",
+                "level": "starter",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cucchiaio vs forchetta — quale è meglio?",
+                "sideA": "Cucchiaio",
+                "sideB": "Forchetta",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cappello vs scarpe — quale è più importante?",
+                "sideA": "Cappello",
+                "sideB": "Scarpe",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Sole vs luna — quale è meglio?",
+                "sideA": "Sole",
+                "sideB": "Luna",
+                "level": "starter",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Calze vs senza calze — cosa è meglio?",
+                "sideA": "Calze",
+                "sideB": "Senza calze",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Vivere con i nonni vs non vivere con loro — cosa è più piacevole?",
+                "sideA": "Con i nonni",
+                "sideB": "Senza i nonni",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Cucina della mamma vs cucina del papà — quale è migliore?",
+                "sideA": "Mamma",
+                "sideB": "Papà",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Matematica vs arte — quale materia è più divertente?",
+                "sideA": "Matematica",
+                "sideB": "Arte",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Scrivere su carta vs scrivere su un tablet — cosa è meglio?",
+                "sideA": "Carta",
+                "sideB": "Tablet",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Pizza vs pasta — cosa è più buono?",
+                "sideA": "Pizza",
+                "sideB": "Pasta",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Gelato vs torta — quale è il dessert migliore?",
+                "sideA": "Gelato",
+                "sideB": "Torta",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Giorni brevi vs giorni lunghi — cosa è meglio?",
+                "sideA": "Giorni brevi",
+                "sideB": "Giorni lunghi",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Giorno al parco vs giorno in spiaggia — cosa è meglio?",
+                "sideA": "Parco",
+                "sideB": "Spiaggia",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Aereo vs treno — cosa è più divertente?",
+                "sideA": "Aereo",
+                "sideB": "Treno",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Doccia al mattino vs doccia alla sera — cosa è meglio?",
+                "sideA": "Mattino",
+                "sideB": "Sera",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Gatti che buttano giù le cose vs cani che masticano le scarpe — quale animale è più fastidioso?",
+                "sideA": "Gatti",
+                "sideB": "Cani",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Mangiare la pizza con la forchetta vs con le mani — cosa è corretto?",
+                "sideA": "Forchetta",
+                "sideB": "Mani",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Dormire con le calze vs senza calze — cosa è meglio?",
+                "sideA": "Con le calze",
+                "sideB": "Senza",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Castello di sabbia vs pupazzo di neve — cosa è più divertente da costruire?",
+                "sideA": "Castello di sabbia",
+                "sideB": "Pupazzo di neve",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -5375,366 +6023,366 @@ const speakingData = {
             }
         ],
         "debates": [
-{
-                    "topic": "Язык: конститутивный или экспрессивный",
-                    "sideA": "Конститутивный",
-                    "sideB": "Экспрессивный",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Формирует реальность",
-                        "Ограничивает мысль"
-                    ],
-                    "ideasB": [
-                        "Отражает реальность",
-                        "Инструмент для мысли"
-                    ]
-                },
-                {
-                    "topic": "Точность против двусмысленности",
-                    "sideA": "Точность",
-                    "sideB": "Двусмысленность",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Ясность",
-                        "Эффективность"
-                    ],
-                    "ideasB": [
-                        "Нюансы",
-                        "Дипломатия"
-                    ]
-                },
-                {
-                    "topic": "Риторика против логики",
-                    "sideA": "Риторика",
-                    "sideB": "Логика",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Сила убеждения",
-                        "Эмоциональный призыв"
-                    ],
-                    "ideasB": [
-                        "Объективная истина",
-                        "Структурная обоснованность"
-                    ]
-                },
-                {
-                    "topic": "Буквальный смысл против интерпретации",
-                    "sideA": "Буквальный",
-                    "sideB": "Интерпретация",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Намерение автора",
-                        "Стабильность"
-                    ],
-                    "ideasB": [
-                        "Реакция читателя",
-                        "Развивающийся контекст"
-                    ]
-                },
-                {
-                    "topic": "Научный консенсус против эпистемического смирения",
-                    "sideA": "Консенсус",
-                    "sideB": "Смирение",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Установленные знания",
-                        "Авторитет экспертов"
-                    ],
-                    "ideasB": [
-                        "Открытость к исправлениям",
-                        "Признание ограничений"
-                    ]
-                },
-                {
-                    "topic": "Экспертиза против личного опыта",
-                    "sideA": "Экспертиза",
-                    "sideB": "Личный опыт",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Научная строгость",
-                        "Объективные данные"
-                    ],
-                    "ideasB": [
-                        "Подлинная правда",
-                        "Контекстуальное понимание"
-                    ]
-                },
-                {
-                    "topic": "Сомнение: добродетель против паралича",
-                    "sideA": "Добродетель",
-                    "sideB": "Паралич",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Критическое мышление",
-                        "Скептицизм"
-                    ],
-                    "ideasB": [
-                        "Нерешительность",
-                        "Отсутствие действий"
-                    ]
-                },
-                {
-                    "topic": "Повествование против данных",
-                    "sideA": "Повествование",
-                    "sideB": "Данные",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Эмоциональное воздействие",
-                        "Человеческая связь"
-                    ],
-                    "ideasB": [
-                        "Статистическая истина",
-                        "Масштабируемость"
-                    ]
-                },
-                {
-                    "topic": "Легитимность: согласие против результата",
-                    "sideA": "Согласие",
-                    "sideB": "Результат",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Демократический процесс",
-                        "Моральное право"
-                    ],
-                    "ideasB": [
-                        "Эффективность",
-                        "Эффективное управление"
-                    ]
-                },
-                {
-                    "topic": "Государство: гарант свободы или угроза",
-                    "sideA": "Гарант",
-                    "sideB": "Угроза",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Верховенство закона",
-                        "Защита прав"
-                    ],
-                    "ideasB": [
-                        "Злоуποтребление властью",
-                        "Слежка"
-                    ]
-                },
-                {
-                    "topic": "Политика прав против политики ответственности",
-                    "sideA": "Права",
-                    "sideB": "Обязанности",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Индивидуальная свобода",
-                        "Юридическая защита"
-                    ],
-                    "ideasB": [
-                        "Коллективный долг",
-                        "Социальная сплоченность"
-                    ]
-                },
-                {
-                    "topic": "Нейтралитет против ценностно-ориентированного управления",
-                    "sideA": "Нейтралитет",
-                    "sideB": "Ценностная",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Беспристрастность",
-                        "Справедливость"
-                    ],
-                    "ideasB": [
-                        "Моральное направление",
-                        "Социальная цель"
-                    ]
-                },
-                {
-                    "topic": "Намерение против восприятия в искусстве",
-                    "sideA": "Намерение",
-                    "sideB": "Восприятие",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Видение автора",
-                        "Оригинальный контекст"
-                    ],
-                    "ideasB": [
-                        "Смысл для аудитории",
-                        "Культурное влияние"
-                    ]
-                },
-                {
-                    "topic": "Эстетическая ценность против моральной",
-                    "sideA": "Эстетическая",
-                    "sideB": "Моральная",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Искусство ради искусства",
-                        "Чистая красота"
-                    ],
-                    "ideasB": [
-                        "Социальная полезность",
-                        "Этическое воздействие"
-                    ]
-                },
-                {
-                    "topic": "Авангард против доступности",
-                    "sideA": "Авангард",
-                    "sideB": "Доступность",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Расширение границ",
-                        "Интеллектуальный вызов"
-                    ],
-                    "ideasB": [
-                        "Инклюзивность",
-                        "Демократическое искусство"
-                    ]
-                },
-                {
-                    "topic": "Институциональное искусство против аутсайдерского",
-                    "sideA": "Институциональное",
-                    "sideB": "Аутсайдерское",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Историческое сохранение",
-                        "Стандарты"
-                    ],
-                    "ideasB": [
-                        "Сырая подлинность",
-                        "Антисистемность"
-                    ]
-                },
-                {
-                    "topic": "Принцип предосторожности против проактивности",
-                    "sideA": "Предосторожность",
-                    "sideB": "Проактивность",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Избегание рисков",
-                        "Безопасность прежде всего"
-                    ],
-                    "ideasB": [
-                        "Инновации",
-                        "Принятие перемен"
-                    ]
-                },
-                {
-                    "topic": "Научный прогресс: благо сам по себе или нейтрален",
-                    "sideA": "Благо сам по себе",
-                    "sideB": "Нейтрален",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Ценности Просвещения",
-                        "Решение проблем"
-                    ],
-                    "ideasB": [
-                        "Проблема двойного назначения",
-                        "Ответственность человека"
-                    ]
-                },
-                {
-                    "topic": "Экзистенциальный риск против текущих страданий",
-                    "sideA": "Экзистенциальный риск",
-                    "sideB": "Текущие страдания",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Долгосрочное выживание",
-                        "Будущие поколения"
-                    ],
-                    "ideasB": [
-                        "Немедленная помощь",
-                        "Острая бедность"
-                    ]
-                },
-                {
-                    "topic": "Человеческое сознание против сильного ИИ",
-                    "sideA": "Сознание",
-                    "sideB": "Сильный ИИ",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Биологическая уникальность",
-                        "Субъективный опыт"
-                    ],
-                    "ideasB": [
-                        "Вычислительная мощность",
-                        "Алгоритмическая логика"
-                    ]
-                },
-                {
-                    "topic": "Прогресс: реальность против иллюзии",
-                    "sideA": "Реальность",
-                    "sideB": "Иλлюзия",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Технологический прогресс",
-                        "Улучшение качества жизни"
-                    ],
-                    "ideasB": [
-                        "Цикличность истории",
-                        "Новые проблемы"
-                    ]
-                },
-                {
-                    "topic": "Либеральный порядок против многополярного мира",
-                    "sideA": "Либеральный порядок",
-                    "sideB": "Многополярность",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Универсальные ценности",
-                        "Глобальная стабильность"
-                    ],
-                    "ideasB": [
-                        "Разнообразие сил",
-                        "Культурный суверенитет"
-                    ]
-                },
-                {
-                    "topic": "Память против забвения",
-                    "sideA": "Память",
-                    "sideB": "Забвение",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Уроки истории",
-                        "Идентичность"
-                    ],
-                    "ideasB": [
-                        "Движение вперед",
-                        "Преодоление травм"
-                    ]
-                },
-                {
-                    "topic": "Трагедия общин против сотрудничества",
-                    "sideA": "Трагедия",
-                    "sideB": "Сотрудничество",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Личный интерес",
-                        "Истощение ресурсов"
-                    ],
-                    "ideasB": [
-                        "Взаимная выгода",
-                        "Коллективное управление"
-                    ]
-                },
+            {
+                "topic": "Язык: конститутивный или экспрессивный",
+                "sideA": "Конститутивный",
+                "sideB": "Экспрессивный",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Формирует реальность",
+                    "Ограничивает мысль"
+                ],
+                "ideasB": [
+                    "Отражает реальность",
+                    "Инструмент для мысли"
+                ]
+            },
+            {
+                "topic": "Точность против двусмысленности",
+                "sideA": "Точность",
+                "sideB": "Двусмысленность",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Ясность",
+                    "Эффективность"
+                ],
+                "ideasB": [
+                    "Нюансы",
+                    "Дипломатия"
+                ]
+            },
+            {
+                "topic": "Риторика против логики",
+                "sideA": "Риторика",
+                "sideB": "Логика",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Сила убеждения",
+                    "Эмоциональный призыв"
+                ],
+                "ideasB": [
+                    "Объективная истина",
+                    "Структурная обоснованность"
+                ]
+            },
+            {
+                "topic": "Буквальный смысл против интерпретации",
+                "sideA": "Буквальный",
+                "sideB": "Интерпретация",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Намерение автора",
+                    "Стабильность"
+                ],
+                "ideasB": [
+                    "Реакция читателя",
+                    "Развивающийся контекст"
+                ]
+            },
+            {
+                "topic": "Научный консенсус против эпистемического смирения",
+                "sideA": "Консенсус",
+                "sideB": "Смирение",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Установленные знания",
+                    "Авторитет экспертов"
+                ],
+                "ideasB": [
+                    "Открытость к исправлениям",
+                    "Признание ограничений"
+                ]
+            },
+            {
+                "topic": "Экспертиза против личного опыта",
+                "sideA": "Экспертиза",
+                "sideB": "Личный опыт",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Научная строгость",
+                    "Объективные данные"
+                ],
+                "ideasB": [
+                    "Подлинная правда",
+                    "Контекстуальное понимание"
+                ]
+            },
+            {
+                "topic": "Сомнение: добродетель против паралича",
+                "sideA": "Добродетель",
+                "sideB": "Паралич",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Критическое мышление",
+                    "Скептицизм"
+                ],
+                "ideasB": [
+                    "Нерешительность",
+                    "Отсутствие действий"
+                ]
+            },
+            {
+                "topic": "Повествование против данных",
+                "sideA": "Повествование",
+                "sideB": "Данные",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Эмоциональное воздействие",
+                    "Человеческая связь"
+                ],
+                "ideasB": [
+                    "Статистическая истина",
+                    "Масштабируемость"
+                ]
+            },
+            {
+                "topic": "Легитимность: согласие против результата",
+                "sideA": "Согласие",
+                "sideB": "Результат",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Демократический процесс",
+                    "Моральное право"
+                ],
+                "ideasB": [
+                    "Эффективность",
+                    "Эффективное управление"
+                ]
+            },
+            {
+                "topic": "Государство: гарант свободы или угроза",
+                "sideA": "Гарант",
+                "sideB": "Угроза",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Верховенство закона",
+                    "Защита прав"
+                ],
+                "ideasB": [
+                    "Злоуποтребление властью",
+                    "Слежка"
+                ]
+            },
+            {
+                "topic": "Политика прав против политики ответственности",
+                "sideA": "Права",
+                "sideB": "Обязанности",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Индивидуальная свобода",
+                    "Юридическая защита"
+                ],
+                "ideasB": [
+                    "Коллективный долг",
+                    "Социальная сплоченность"
+                ]
+            },
+            {
+                "topic": "Нейтралитет против ценностно-ориентированного управления",
+                "sideA": "Нейтралитет",
+                "sideB": "Ценностная",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Беспристрастность",
+                    "Справедливость"
+                ],
+                "ideasB": [
+                    "Моральное направление",
+                    "Социальная цель"
+                ]
+            },
+            {
+                "topic": "Намерение против восприятия в искусстве",
+                "sideA": "Намерение",
+                "sideB": "Восприятие",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Видение автора",
+                    "Оригинальный контекст"
+                ],
+                "ideasB": [
+                    "Смысл для аудитории",
+                    "Культурное влияние"
+                ]
+            },
+            {
+                "topic": "Эстетическая ценность против моральной",
+                "sideA": "Эстетическая",
+                "sideB": "Моральная",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Искусство ради искусства",
+                    "Чистая красота"
+                ],
+                "ideasB": [
+                    "Социальная полезность",
+                    "Этическое воздействие"
+                ]
+            },
+            {
+                "topic": "Авангард против доступности",
+                "sideA": "Авангард",
+                "sideB": "Доступность",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Расширение границ",
+                    "Интеллектуальный вызов"
+                ],
+                "ideasB": [
+                    "Инклюзивность",
+                    "Демократическое искусство"
+                ]
+            },
+            {
+                "topic": "Институциональное искусство против аутсайдерского",
+                "sideA": "Институциональное",
+                "sideB": "Аутсайдерское",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Историческое сохранение",
+                    "Стандарты"
+                ],
+                "ideasB": [
+                    "Сырая подлинность",
+                    "Антисистемность"
+                ]
+            },
+            {
+                "topic": "Принцип предосторожности против проактивности",
+                "sideA": "Предосторожность",
+                "sideB": "Проактивность",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Избегание рисков",
+                    "Безопасность прежде всего"
+                ],
+                "ideasB": [
+                    "Инновации",
+                    "Принятие перемен"
+                ]
+            },
+            {
+                "topic": "Научный прогресс: благо сам по себе или нейтрален",
+                "sideA": "Благо сам по себе",
+                "sideB": "Нейтрален",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Ценности Просвещения",
+                    "Решение проблем"
+                ],
+                "ideasB": [
+                    "Проблема двойного назначения",
+                    "Ответственность человека"
+                ]
+            },
+            {
+                "topic": "Экзистенциальный риск против текущих страданий",
+                "sideA": "Экзистенциальный риск",
+                "sideB": "Текущие страдания",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Долгосрочное выживание",
+                    "Будущие поколения"
+                ],
+                "ideasB": [
+                    "Немедленная помощь",
+                    "Острая бедность"
+                ]
+            },
+            {
+                "topic": "Человеческое сознание против сильного ИИ",
+                "sideA": "Сознание",
+                "sideB": "Сильный ИИ",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Биологическая уникальность",
+                    "Субъективный опыт"
+                ],
+                "ideasB": [
+                    "Вычислительная мощность",
+                    "Алгоритмическая логика"
+                ]
+            },
+            {
+                "topic": "Прогресс: реальность против иллюзии",
+                "sideA": "Реальность",
+                "sideB": "Иλлюзия",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Технологический прогресс",
+                    "Улучшение качества жизни"
+                ],
+                "ideasB": [
+                    "Цикличность истории",
+                    "Новые проблемы"
+                ]
+            },
+            {
+                "topic": "Либеральный порядок против многополярного мира",
+                "sideA": "Либеральный порядок",
+                "sideB": "Многополярность",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Универсальные ценности",
+                    "Глобальная стабильность"
+                ],
+                "ideasB": [
+                    "Разнообразие сил",
+                    "Культурный суверенитет"
+                ]
+            },
+            {
+                "topic": "Память против забвения",
+                "sideA": "Память",
+                "sideB": "Забвение",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Уроки истории",
+                    "Идентичность"
+                ],
+                "ideasB": [
+                    "Движение вперед",
+                    "Преодоление травм"
+                ]
+            },
+            {
+                "topic": "Трагедия общин против сотрудничества",
+                "sideA": "Трагедия",
+                "sideB": "Сотрудничество",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Личный интерес",
+                    "Истощение ресурсов"
+                ],
+                "ideasB": [
+                    "Взаимная выгода",
+                    "Коллективное управление"
+                ]
+            },
             {
                 "topic": "Красный против синего — какой цвет лучше?",
                 "sideA": "Красный",
@@ -7000,6 +7648,222 @@ const speakingData = {
                 "theme": "people_society",
                 "ideasA": [],
                 "ideasB": []
+            },
+            {
+                "topic": "Розовый против оранжевого — какой цвет приятнее?",
+                "sideA": "Розовый",
+                "sideB": "Оранжевый",
+                "level": "starter",
+                "theme": "colors",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Число 1 против числа 10 — какое число лучше?",
+                "sideA": "1",
+                "sideB": "10",
+                "level": "starter",
+                "theme": "numbers_shapes",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Стул против дивана — что удобнее?",
+                "sideA": "Стул",
+                "sideB": "Диван",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Сумка против коробки — что полезнее?",
+                "sideA": "Сумка",
+                "sideB": "Коробка",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Лев против слона — какое животное лучше?",
+                "sideA": "Лев",
+                "sideB": "Слон",
+                "level": "starter",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Шоколад против конфет — что лучше?",
+                "sideA": "Шоколад",
+                "sideB": "Конфеты",
+                "level": "starter",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ложка против вилки — что лучше?",
+                "sideA": "Ложка",
+                "sideB": "Вилка",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Шапка против обуви — что важнее?",
+                "sideA": "Шапка",
+                "sideB": "Обувь",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Солнце против луны — что лучше?",
+                "sideA": "Солнце",
+                "sideB": "Луна",
+                "level": "starter",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Носки против без носков — что приятнее?",
+                "sideA": "Носки",
+                "sideB": "Без носков",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Жить с бабушкой и дедушкой против жизни без них — что приятнее?",
+                "sideA": "С бабушкой и дедушкой",
+                "sideB": "Без них",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Мамина еда против папиной — что лучше?",
+                "sideA": "Мамина",
+                "sideB": "Папина",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Математика против рисования — какой предмет веселее?",
+                "sideA": "Математика",
+                "sideB": "Рисование",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Писать на бумаге против печати на планшете — что лучше?",
+                "sideA": "Бумага",
+                "sideB": "Планшет",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Пицца против пасты — что вкуснее?",
+                "sideA": "Пицца",
+                "sideB": "Паста",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Мороженое против торта — какой десерт лучше?",
+                "sideA": "Мороженое",
+                "sideB": "Торт",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Короткие дни против длинных — что лучше?",
+                "sideA": "Короткие дни",
+                "sideB": "Длинные",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "День в парке против дня на пляже — что лучше?",
+                "sideA": "Парк",
+                "sideB": "Пляж",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Самолет против поезда — что веселее?",
+                "sideA": "Самолет",
+                "sideB": "Поезд",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Душ утром против душа вечером — что лучше?",
+                "sideA": "Утром",
+                "sideB": "Вечером",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Кошки, сбрасывающие вещи со столов, против собак, грызущих обувь — какой питомец больше раздражает?",
+                "sideA": "Кошки",
+                "sideB": "Собаки",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Есть пиццу вилкой против того, чтобы есть ее руками — как правильно?",
+                "sideA": "Вилкой",
+                "sideB": "Руками",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Спать в носках против того, чтобы спать без носков — что лучше?",
+                "sideA": "В носках",
+                "sideB": "Без носков",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Замок из песка против снеговика — что веселее строить?",
+                "sideA": "Замок из песка",
+                "sideB": "Снеговик",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
+                "ideasA": [],
+                "ideasB": []
             }
         ],
         "talkThatTalk": [
@@ -7139,366 +8003,366 @@ const speakingData = {
             }
         ],
         "debates": [
-{
-                    "topic": "Γλώσσα: Συστατική έναντι Εκφραστικής",
-                    "sideA": "Συστατική",
-                    "sideB": "Εκφραστική",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Διαμορφώνει την πραγματικότητα",
-                        "Περιορίζει τη σκέψη"
-                    ],
-                    "ideasB": [
-                        "Αντανακλά την πραγματικότητα",
-                        "Εργαλείο για τη σκέψη"
-                    ]
-                },
-                {
-                    "topic": "Ακρίβεια έναντι Ασάφειας",
-                    "sideA": "Ακρίβεια",
-                    "sideB": "Ασάφεια",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Σαφήνεια",
-                        "Αποτελεσματικότητα"
-                    ],
-                    "ideasB": [
-                        "Απόχρωση",
-                        "Διπλωματία"
-                    ]
-                },
-                {
-                    "topic": "Ρητορική έναντι Λογικής",
-                    "sideA": "Ρητορική",
-                    "sideB": "Λογική",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Πειστική δύναμη",
-                        "Συναισθηματική έκκληση"
-                    ],
-                    "ideasB": [
-                        "Αντικειμενική αλήθεια",
-                        "Δομική εγκυρότητα"
-                    ]
-                },
-                {
-                    "topic": "Κυριολεκτική έναντι Ερμηνευτικής Σημασίας",
-                    "sideA": "Κυριολεκτική",
-                    "sideB": "Ερμηνευτική",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Πρόθεση συγγραφέα",
-                        "Σταθερότητα"
-                    ],
-                    "ideasB": [
-                        "Ανταπόκριση αναγνώστη",
-                        "Εξελισσόμενο πλαίσιο"
-                    ]
-                },
-                {
-                    "topic": "Επιστημονική Συναίνεση έναντι Επιστημολογικής Ταπεινότητας",
-                    "sideA": "Συναίνεση",
-                    "sideB": "Ταπεινότητα",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Εδραιωμένη γνώση",
-                        "Αυθεντία εμπειρογνωμόνων"
-                    ],
-                    "ideasB": [
-                        "Δεκτικότητα στη διόρθωση",
-                        "Αναγνώριση ορίων"
-                    ]
-                },
-                {
-                    "topic": "Εμπειρογνωμοσύνη έναντι Βιωμένης Εμπειρίας",
-                    "sideA": "Εμπειρογνωμοσύνη",
-                    "sideB": "Βιωμένη Εμπειρία",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Επιστημονική αυστηρότητα",
-                        "Αντικειμενικά δεδομένα"
-                    ],
-                    "ideasB": [
-                        "Αυθεντική αλήθεια",
-                        "Συμφραζόμενη ενόραση"
-                    ]
-                },
-                {
-                    "topic": "Αμφιβολία: Αρετή έναντι Παράλυσης",
-                    "sideA": "Αρετή",
-                    "sideB": "Παράλυση",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Κριτική σκέψη",
-                        "Σκεπτικισμός"
-                    ],
-                    "ideasB": [
-                        "Αναποφασιστικότητα",
-                        "Έλλειψη δράσης"
-                    ]
-                },
-                {
-                    "topic": "Αφήγηση έναντι Δεδομένων",
-                    "sideA": "Αφήγήση",
-                    "sideB": "Δεδομένα",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Συναισθηματική επίδραση",
-                        "Ανθρώπινη σύνδεση"
-                    ],
-                    "ideasB": [
-                        "Στατιστική αλήθεια",
-                        "Επεκτασιμότητα"
-                    ]
-                },
-                {
-                    "topic": "Νομιμότητα: Συναίνεση έναντι Αποτελέσματος",
-                    "sideA": "Συναίνεση",
-                    "sideB": "Αποτέλεσμα",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Δημοκρατική διαδικασία",
-                        "Ηθικό δικαίωμα"
-                    ],
-                    "ideasB": [
-                        "Αποτελεσματικότητα",
-                        "Αποτελεσματική διακυβέρνηση"
-                    ]
-                },
-                {
-                    "topic": "Κράτος: Εγγυητής της Ελευθερίας έναντι Απειλής",
-                    "sideA": "Εγγυητής",
-                    "sideB": "Απειλή",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Κράτος δικαίου",
-                        "Προστασία δικαιωμάτων"
-                    ],
-                    "ideasB": [
-                        "Κατάχρηση εξουσίας",
-                        "Επιτήρηση"
-                    ]
-                },
-                {
-                    "topic": "Πολιτική Δικαιωμάτων έναντι Πολιτικής Ευθυνών",
-                    "sideA": "Δικαιώματα",
-                    "sideB": "Ευθύνες",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Ατομική ελευθερία",
-                        "Νομική προστασία"
-                    ],
-                    "ideasB": [
-                        "Συλλογικό καθήκον",
-                        "Κοινωνική συνοχή"
-                    ]
-                },
-                {
-                    "topic": "Ουδετερότητα έναντι Διακυβέρνησης με Αξίες",
-                    "sideA": "Ουδετερότητα",
-                    "sideB": "Με αξίες",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Αμεροληψία",
-                        "Δικαιοσύνη"
-                    ],
-                    "ideasB": [
-                        "Ηθική κατεύθυνση",
-                        "Κοινωνικός σκοπός"
-                    ]
-                },
-                {
-                    "topic": "Πρόθεση έναντι Υποδοχής στην Τέχνη",
-                    "sideA": "Πρόθεση",
-                    "sideB": "Υποδοχή",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Όραμα δημιουργού",
-                        "Αρχικό πλαίσιο"
-                    ],
-                    "ideasB": [
-                        "Σημασία για το κοινό",
-                        "Πολιτιστικός αντίκτυπος"
-                    ]
-                },
-                {
-                    "topic": "Αισθητική έναντι Ηθικής Αξίας",
-                    "sideA": "Αισθητική",
-                    "sideB": "Ηθική",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Η τέχνη για την τέχνη",
-                        "Καθαρή ομορφιά"
-                    ],
-                    "ideasB": [
-                        "Κοινωνική χρησιμότητα",
-                        "Ηθικός αντίκτυπος"
-                    ]
-                },
-                {
-                    "topic": "Πρωτοπορία έναντι Προσβασιμότητας",
-                    "sideA": "Πρωτοπορία",
-                    "sideB": "Προσβασιμότητα",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Διεύρυνση των ορίων",
-                        "Πνευματική πρόκληση"
-                    ],
-                    "ideasB": [
-                        "Συμπεριληπτικότητα",
-                        "Δημοκρατική τέχνη"
-                    ]
-                },
-                {
-                    "topic": "Θεσμική Τέχνη έναντι Περιθωριακής Τέχνης",
-                    "sideA": "Θεσμική",
-                    "sideB": "Περιθωριακή",
-                    "level": "proficiency",
-                    "theme": "leisure_hobbies",
-                    "ideasA": [
-                        "Ιστορική διατήρηση",
-                        "Πρότυπα"
-                    ],
-                    "ideasB": [
-                        "Ακατέργαστη αυθεντικότητα",
-                        "Αντισυστημική"
-                    ]
-                },
-                {
-                    "topic": "Αρχή της Πρόληψης έναντι της Προδραστικότητας",
-                    "sideA": "Προληπτική",
-                    "sideB": "Προδραστική",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Αποφυγή κινδύνου",
-                        "Προτεραιότητα στην ασφάλεια"
-                    ],
-                    "ideasB": [
-                        "Καινοτομία",
-                        "Αποδοχή της αλλαγής"
-                    ]
-                },
-                {
-                    "topic": "Επιστημονική Πρόοδος: Εγγενώς Καλή έναντι Ουδέτερης",
-                    "sideA": "Εγγενώς Καλή",
-                    "sideB": "Ηθικά Ουδέτερη",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Αξίες του Διαφωτισμού",
-                        "Επίλυση προβλημάτων"
-                    ],
-                    "ideasB": [
-                        "Ανησυχία διπλής χρήσης",
-                        "Ανθρώπινη ευθύνη"
-                    ]
-                },
-                {
-                    "topic": "Υπαρξιακός Κίνδυνος έναντι Τωρινού Υποφέρειν",
-                    "sideA": "Υπαρξιακός Κίνδυνος",
-                    "sideB": "Τωρινό Υποφέρειν",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Μακροπρόθεσμη επιβίωση",
-                        "Μελλοντικές γενιές"
-                    ],
-                    "ideasB": [
-                        "Άμεση ανακούφιση",
-                        "Επείγουσα φτώχεια"
-                    ]
-                },
-                {
-                    "topic": "Ανθρώπινη Συνείδηση έναντι Τεχνητής Γενικής Νοημοσύνης",
-                    "sideA": "Συνείδηση",
-                    "sideB": "Τεχνητή Γενική Νοημοσύνη",
-                    "level": "proficiency",
-                    "theme": "science_technology",
-                    "ideasA": [
-                        "Βιολογική μοναδικότητα",
-                        "Υποκειμενική εμπειρία"
-                    ],
-                    "ideasB": [
-                        "Υπολογιστική ισχύς",
-                        "Αλγοριθμική λογική"
-                    ]
-                },
-                {
-                    "topic": "Πρόοδος: Πραγματικότητα έναντι Ψευδαίσθησης",
-                    "sideA": "Πραγματικότητα",
-                    "sideB": "Ψευδαίσθηση",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Τεχνολογική πρόοδος",
-                        "Βελτιωμένη ποιότητα ζωής"
-                    ],
-                    "ideasB": [
-                        "Κυκλική ιστορία",
-                        "Νέα προβλήματα"
-                    ]
-                },
-                {
-                    "topic": "Φιλελεύθερη Τάξη έναντι Πολυπολικού Κόσμου",
-                    "sideA": "Φιλελεύθερη Τάξη",
-                    "sideB": "Πολυπολικότητα",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Παγκόσμιες αξίες",
-                        "Παγκόσμια σταθερότητα"
-                    ],
-                    "ideasB": [
-                        "Ποικίλη ισχύς",
-                        "Πολιτιστική κυριαρχία"
-                    ]
-                },
-                {
-                    "topic": "Μνήμη έναντι Λήθης",
-                    "sideA": "Μνήμη",
-                    "sideB": "Λήθη",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Μάθηση από την ιστορία",
-                        "Ταυτότητα"
-                    ],
-                    "ideasB": [
-                        "Προχώρημα μπροστά",
-                        "Ξεπέρασμα τραυμάτων"
-                    ]
-                },
-                {
-                    "topic": "Η Τραγωδία των Κοινών έναντι της Συνεργασίας",
-                    "sideA": "Τραγωδία",
-                    "sideB": "Συνεργασία",
-                    "level": "proficiency",
-                    "theme": "people_society",
-                    "ideasA": [
-                        "Προσωπικό συμφέρον",
-                        "Εξάντληση πόρων"
-                    ],
-                    "ideasB": [
-                        "Αμοιβαίο όφελος",
-                        "Συλλογική διαχείριση"
-                    ]
-                },
+            {
+                "topic": "Γλώσσα: Συστατική έναντι Εκφραστικής",
+                "sideA": "Συστατική",
+                "sideB": "Εκφραστική",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Διαμορφώνει την πραγματικότητα",
+                    "Περιορίζει τη σκέψη"
+                ],
+                "ideasB": [
+                    "Αντανακλά την πραγματικότητα",
+                    "Εργαλείο για τη σκέψη"
+                ]
+            },
+            {
+                "topic": "Ακρίβεια έναντι Ασάφειας",
+                "sideA": "Ακρίβεια",
+                "sideB": "Ασάφεια",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Σαφήνεια",
+                    "Αποτελεσματικότητα"
+                ],
+                "ideasB": [
+                    "Απόχρωση",
+                    "Διπλωματία"
+                ]
+            },
+            {
+                "topic": "Ρητορική έναντι Λογικής",
+                "sideA": "Ρητορική",
+                "sideB": "Λογική",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Πειστική δύναμη",
+                    "Συναισθηματική έκκληση"
+                ],
+                "ideasB": [
+                    "Αντικειμενική αλήθεια",
+                    "Δομική εγκυρότητα"
+                ]
+            },
+            {
+                "topic": "Κυριολεκτική έναντι Ερμηνευτικής Σημασίας",
+                "sideA": "Κυριολεκτική",
+                "sideB": "Ερμηνευτική",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Πρόθεση συγγραφέα",
+                    "Σταθερότητα"
+                ],
+                "ideasB": [
+                    "Ανταπόκριση αναγνώστη",
+                    "Εξελισσόμενο πλαίσιο"
+                ]
+            },
+            {
+                "topic": "Επιστημονική Συναίνεση έναντι Επιστημολογικής Ταπεινότητας",
+                "sideA": "Συναίνεση",
+                "sideB": "Ταπεινότητα",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Εδραιωμένη γνώση",
+                    "Αυθεντία εμπειρογνωμόνων"
+                ],
+                "ideasB": [
+                    "Δεκτικότητα στη διόρθωση",
+                    "Αναγνώριση ορίων"
+                ]
+            },
+            {
+                "topic": "Εμπειρογνωμοσύνη έναντι Βιωμένης Εμπειρίας",
+                "sideA": "Εμπειρογνωμοσύνη",
+                "sideB": "Βιωμένη Εμπειρία",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Επιστημονική αυστηρότητα",
+                    "Αντικειμενικά δεδομένα"
+                ],
+                "ideasB": [
+                    "Αυθεντική αλήθεια",
+                    "Συμφραζόμενη ενόραση"
+                ]
+            },
+            {
+                "topic": "Αμφιβολία: Αρετή έναντι Παράλυσης",
+                "sideA": "Αρετή",
+                "sideB": "Παράλυση",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Κριτική σκέψη",
+                    "Σκεπτικισμός"
+                ],
+                "ideasB": [
+                    "Αναποφασιστικότητα",
+                    "Έλλειψη δράσης"
+                ]
+            },
+            {
+                "topic": "Αφήγηση έναντι Δεδομένων",
+                "sideA": "Αφήγήση",
+                "sideB": "Δεδομένα",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Συναισθηματική επίδραση",
+                    "Ανθρώπινη σύνδεση"
+                ],
+                "ideasB": [
+                    "Στατιστική αλήθεια",
+                    "Επεκτασιμότητα"
+                ]
+            },
+            {
+                "topic": "Νομιμότητα: Συναίνεση έναντι Αποτελέσματος",
+                "sideA": "Συναίνεση",
+                "sideB": "Αποτέλεσμα",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Δημοκρατική διαδικασία",
+                    "Ηθικό δικαίωμα"
+                ],
+                "ideasB": [
+                    "Αποτελεσματικότητα",
+                    "Αποτελεσματική διακυβέρνηση"
+                ]
+            },
+            {
+                "topic": "Κράτος: Εγγυητής της Ελευθερίας έναντι Απειλής",
+                "sideA": "Εγγυητής",
+                "sideB": "Απειλή",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Κράτος δικαίου",
+                    "Προστασία δικαιωμάτων"
+                ],
+                "ideasB": [
+                    "Κατάχρηση εξουσίας",
+                    "Επιτήρηση"
+                ]
+            },
+            {
+                "topic": "Πολιτική Δικαιωμάτων έναντι Πολιτικής Ευθυνών",
+                "sideA": "Δικαιώματα",
+                "sideB": "Ευθύνες",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Ατομική ελευθερία",
+                    "Νομική προστασία"
+                ],
+                "ideasB": [
+                    "Συλλογικό καθήκον",
+                    "Κοινωνική συνοχή"
+                ]
+            },
+            {
+                "topic": "Ουδετερότητα έναντι Διακυβέρνησης με Αξίες",
+                "sideA": "Ουδετερότητα",
+                "sideB": "Με αξίες",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Αμεροληψία",
+                    "Δικαιοσύνη"
+                ],
+                "ideasB": [
+                    "Ηθική κατεύθυνση",
+                    "Κοινωνικός σκοπός"
+                ]
+            },
+            {
+                "topic": "Πρόθεση έναντι Υποδοχής στην Τέχνη",
+                "sideA": "Πρόθεση",
+                "sideB": "Υποδοχή",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Όραμα δημιουργού",
+                    "Αρχικό πλαίσιο"
+                ],
+                "ideasB": [
+                    "Σημασία για το κοινό",
+                    "Πολιτιστικός αντίκτυπος"
+                ]
+            },
+            {
+                "topic": "Αισθητική έναντι Ηθικής Αξίας",
+                "sideA": "Αισθητική",
+                "sideB": "Ηθική",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Η τέχνη για την τέχνη",
+                    "Καθαρή ομορφιά"
+                ],
+                "ideasB": [
+                    "Κοινωνική χρησιμότητα",
+                    "Ηθικός αντίκτυπος"
+                ]
+            },
+            {
+                "topic": "Πρωτοπορία έναντι Προσβασιμότητας",
+                "sideA": "Πρωτοπορία",
+                "sideB": "Προσβασιμότητα",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Διεύρυνση των ορίων",
+                    "Πνευματική πρόκληση"
+                ],
+                "ideasB": [
+                    "Συμπεριληπτικότητα",
+                    "Δημοκρατική τέχνη"
+                ]
+            },
+            {
+                "topic": "Θεσμική Τέχνη έναντι Περιθωριακής Τέχνης",
+                "sideA": "Θεσμική",
+                "sideB": "Περιθωριακή",
+                "level": "proficiency",
+                "theme": "leisure_hobbies",
+                "ideasA": [
+                    "Ιστορική διατήρηση",
+                    "Πρότυπα"
+                ],
+                "ideasB": [
+                    "Ακατέργαστη αυθεντικότητα",
+                    "Αντισυστημική"
+                ]
+            },
+            {
+                "topic": "Αρχή της Πρόληψης έναντι της Προδραστικότητας",
+                "sideA": "Προληπτική",
+                "sideB": "Προδραστική",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Αποφυγή κινδύνου",
+                    "Προτεραιότητα στην ασφάλεια"
+                ],
+                "ideasB": [
+                    "Καινοτομία",
+                    "Αποδοχή της αλλαγής"
+                ]
+            },
+            {
+                "topic": "Επιστημονική Πρόοδος: Εγγενώς Καλή έναντι Ουδέτερης",
+                "sideA": "Εγγενώς Καλή",
+                "sideB": "Ηθικά Ουδέτερη",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Αξίες του Διαφωτισμού",
+                    "Επίλυση προβλημάτων"
+                ],
+                "ideasB": [
+                    "Ανησυχία διπλής χρήσης",
+                    "Ανθρώπινη ευθύνη"
+                ]
+            },
+            {
+                "topic": "Υπαρξιακός Κίνδυνος έναντι Τωρινού Υποφέρειν",
+                "sideA": "Υπαρξιακός Κίνδυνος",
+                "sideB": "Τωρινό Υποφέρειν",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Μακροπρόθεσμη επιβίωση",
+                    "Μελλοντικές γενιές"
+                ],
+                "ideasB": [
+                    "Άμεση ανακούφιση",
+                    "Επείγουσα φτώχεια"
+                ]
+            },
+            {
+                "topic": "Ανθρώπινη Συνείδηση έναντι Τεχνητής Γενικής Νοημοσύνης",
+                "sideA": "Συνείδηση",
+                "sideB": "Τεχνητή Γενική Νοημοσύνη",
+                "level": "proficiency",
+                "theme": "science_technology",
+                "ideasA": [
+                    "Βιολογική μοναδικότητα",
+                    "Υποκειμενική εμπειρία"
+                ],
+                "ideasB": [
+                    "Υπολογιστική ισχύς",
+                    "Αλγοριθμική λογική"
+                ]
+            },
+            {
+                "topic": "Πρόοδος: Πραγματικότητα έναντι Ψευδαίσθησης",
+                "sideA": "Πραγματικότητα",
+                "sideB": "Ψευδαίσθηση",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Τεχνολογική πρόοδος",
+                    "Βελτιωμένη ποιότητα ζωής"
+                ],
+                "ideasB": [
+                    "Κυκλική ιστορία",
+                    "Νέα προβλήματα"
+                ]
+            },
+            {
+                "topic": "Φιλελεύθερη Τάξη έναντι Πολυπολικού Κόσμου",
+                "sideA": "Φιλελεύθερη Τάξη",
+                "sideB": "Πολυπολικότητα",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Παγκόσμιες αξίες",
+                    "Παγκόσμια σταθερότητα"
+                ],
+                "ideasB": [
+                    "Ποικίλη ισχύς",
+                    "Πολιτιστική κυριαρχία"
+                ]
+            },
+            {
+                "topic": "Μνήμη έναντι Λήθης",
+                "sideA": "Μνήμη",
+                "sideB": "Λήθη",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Μάθηση από την ιστορία",
+                    "Ταυτότητα"
+                ],
+                "ideasB": [
+                    "Προχώρημα μπροστά",
+                    "Ξεπέρασμα τραυμάτων"
+                ]
+            },
+            {
+                "topic": "Η Τραγωδία των Κοινών έναντι της Συνεργασίας",
+                "sideA": "Τραγωδία",
+                "sideB": "Συνεργασία",
+                "level": "proficiency",
+                "theme": "people_society",
+                "ideasA": [
+                    "Προσωπικό συμφέρον",
+                    "Εξάντληση πόρων"
+                ],
+                "ideasB": [
+                    "Αμοιβαίο όφελος",
+                    "Συλλογική διαχείριση"
+                ]
+            },
             {
                 "topic": "Κόκκινο εναντίον Μπλε — ποιο χρώμα είναι καλύτερο;",
                 "sideA": "Κόκκινο",
@@ -8762,6 +9626,222 @@ const speakingData = {
                 "sideB": "Εγγύηση εργασίας",
                 "level": "advanced",
                 "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ροζ εναντίον Πορτοκαλί — ποιο χρώμα είναι πιο ωραίο;",
+                "sideA": "Ροζ",
+                "sideB": "Πορτοκαλί",
+                "level": "starter",
+                "theme": "colors",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ο αριθμός 1 εναντίον του αριθμού 10 — ποιος αριθμός είναι καλύτερος;",
+                "sideA": "1",
+                "sideB": "10",
+                "level": "starter",
+                "theme": "numbers_shapes",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Καρέκλα εναντίον καναπέ — ποιο είναι πιο άνετο;",
+                "sideA": "Καρέκλα",
+                "sideB": "Καναπές",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Τσάντα εναντίον κουτιού — ποιο είναι πιο χρήσιμο;",
+                "sideA": "Τσάντα",
+                "sideB": "Κουτί",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Λιοντάρι εναντίον ελέφαντα — ποιο ζώο είναι καλύτερο;",
+                "sideA": "Λιοντάρι",
+                "sideB": "Ελέφαντας",
+                "level": "starter",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Σοκολάτα εναντίον γλυκών — ποιο είναι καλύτερο;",
+                "sideA": "Σοκολάτα",
+                "sideB": "Γλυκά",
+                "level": "starter",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Κουτάλι εναντίον πιρουνιού — ποιο είναι καλύτερο;",
+                "sideA": "Κουτάλι",
+                "sideB": "Πιρούνι",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Καπέλο εναντίον παπουτσιών — ποιο είναι πιο σημαντικό;",
+                "sideA": "Καπέλο",
+                "sideB": "Παπούτσια",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ήλιος εναντίον φεγγαριού — ποιο είναι καλύτερο;",
+                "sideA": "Ήλιος",
+                "sideB": "Φεγγάρι",
+                "level": "starter",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Κάλτσες εναντίον χωρίς κάλτσες — ποιο είναι πιο ωραίο;",
+                "sideA": "Κάλτσες",
+                "sideB": "Χωρίς κάλτσες",
+                "level": "starter",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ζωή με τους παππούδες εναντίον χωρίς αυτούς — ποιο είναι πιο ωραίο;",
+                "sideA": "Με παππούδες",
+                "sideB": "Χωρίς αυτούς",
+                "level": "elementary",
+                "theme": "people_society",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Το φαγητό της μαμάς εναντίον του μπαμπά — ποιο είναι καλύτερο;",
+                "sideA": "Μαμάς",
+                "sideB": "Μπαμπά",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μαθηματικά εναντίον καλλιτεχνικών — ποιο μάθημα έχει πιο πολλή πλάκα;",
+                "sideA": "Μαθηματικά",
+                "sideB": "Καλλιτεχνικά",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Γράψιμο στο χαρτί εναντίον πληκτρολόγησης σε τάμπλετ — ποιο είναι καλύτερο;",
+                "sideA": "Χαρτί",
+                "sideB": "Τάμπλετ",
+                "level": "elementary",
+                "theme": "education_work",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Πίτσα εναντίον μακαρονάδας — ποιο είναι πιο νόστιμο;",
+                "sideA": "Πίτσα",
+                "sideB": "Μακαρονάδα",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Παγωτό εναντίον κέικ — ποιο είναι καλύτερο επιδόρπιο;",
+                "sideA": "Παγωτό",
+                "sideB": "Κέικ",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μικρές μέρες εναντίον μεγάλες μέρες — ποιο είναι καλύτερο;",
+                "sideA": "Μικρές μέρες",
+                "sideB": "Μεγάλες μέρες",
+                "level": "elementary",
+                "theme": "nature_environment",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Μέρα στο πάρκο εναντίον μέρα στην παραλία — ποιο είναι καλύτερο;",
+                "sideA": "Πάρκο",
+                "sideB": "Παραλία",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Αεροπλάνο εναντίον τρένου — ποιο έχει πιο πολλή πλάκα;",
+                "sideA": "Αεροπλάνο",
+                "sideB": "Τρένο",
+                "level": "elementary",
+                "theme": "travel_places",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ντους το πρωί εναντίον ντους το βράδυ — ποιο είναι καλύτερο;",
+                "sideA": "Πρωί",
+                "sideB": "Βράδυ",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Γάτες που ρίχνουν πράγματα από τα τραπέζια εναντίον σκύλων που μασάνε παπούτσια — ποιο είναι πιο ενοχλητικό;",
+                "sideA": "Γάτες",
+                "sideB": "Σκύλοι",
+                "level": "elementary",
+                "theme": "animals",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Πίτσα με πιρούνι εναντίον πίτσα με τα χέρια — ποιο είναι το σωστό;",
+                "sideA": "Πιρούνι",
+                "sideB": "Χέρια",
+                "level": "elementary",
+                "theme": "food_drinks",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Ύπνος με κάλτσες εναντίον ύπνος χωρίς κάλτσες — ποιο είναι καλύτερο;",
+                "sideA": "Με κάλτσες",
+                "sideB": "Χωρίς",
+                "level": "elementary",
+                "theme": "daily_life",
+                "ideasA": [],
+                "ideasB": []
+            },
+            {
+                "topic": "Κάστρο στην άμμο εναντίον χιονάνθρωπου — ποιο έχει πιο πολλή πλάκα να χτίζεις;",
+                "sideA": "Κάστρο",
+                "sideB": "Χιονάνθρωπος",
+                "level": "elementary",
+                "theme": "leisure_hobbies",
                 "ideasA": [],
                 "ideasB": []
             }
