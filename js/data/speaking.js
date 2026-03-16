@@ -4,62 +4,62 @@ const speakingData = {
             {
                 "text": "Is breakfast the most important meal?",
                 "level": "starter",
-                "theme": "food_drinks"
+                "theme": "food_drink_A0"
             },
             {
                 "text": "Are dogs better pets than cats?",
                 "level": "starter",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_A1"
             },
             {
                 "text": "Should children have mobile phones?",
                 "level": "elementary",
-                "theme": "science_technology"
+                "theme": "technology_A2"
             },
             {
                 "text": "Is it better to live in a house or an apartment?",
                 "level": "elementary",
-                "theme": "daily_life"
+                "theme": "neighbourhood_A2"
             },
             {
                 "text": "Can we live without the internet for a week?",
                 "level": "intermediate",
-                "theme": "science_technology"
+                "theme": "media_news_B1"
             },
             {
                 "text": "Should everyone learn a second language?",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "Is social media destroying our social skills?",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "text": "Should public transport be free?",
                 "level": "upper-intermediate",
-                "theme": "travel_places"
+                "theme": "globalisation_trade_B2"
             },
             {
                 "text": "Genetic engineering: Progress or peril?",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             },
             {
                 "text": "Is universal basic income a solution to automation?",
                 "level": "advanced",
-                "theme": "people_society"
+                "theme": "power_institutions_C1"
             },
             {
                 "text": "Does free will truly exist or is it an illusion?",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "text": "The ethics of colonizing other planets.",
                 "level": "proficiency",
-                "theme": "science_technology"
+                "theme": "epistemology_truth_C2"
             }
         ],
         "criticsCorner": [
@@ -67,231 +67,231 @@ const speakingData = {
                 "text": "I think, therefore I am.",
                 "author": "Descartes",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "Life is what happens when you're busy making other plans.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "people_society"
+                "theme": "relationships_family_A2"
             },
             {
                 "text": "The only constant is change.",
                 "author": "Heraclitus",
                 "level": "upper-intermediate",
-                "theme": "people_society"
+                "theme": "politics_governance_B2"
             }
         ],
-        "debates": [{"topic":"The Protestant work ethic as civilisational achievement vs as the original source of adult misery — which legacy dominates today?","sideA":"Civilisational achievement","sideB":"Source of misery","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"The commodification of passion vs the liberation of turning work into meaning — is \"do what you love\" advice or a trap?","sideA":"Advice","sideB":"Trap","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Career as identity vs career as means — which is the more coherent relationship for a modern adult to have with their work?","sideA":"Identity","sideB":"Means","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"The virtuous overworker vs the strategic idler — which has been more dishonestly celebrated in Western culture?","sideA":"Overworker","sideB":"Idler","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Adult ambition as admirable vs adult ambition as a failure to accept finitude — which reading is more psychologically honest?","sideA":"Admirable","sideB":"Failure to accept finitude","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Romantic love as the organising principle of adult life vs as a historically contingent and commercially sustained myth — which is more defensible?","sideA":"Organising principle","sideB":"Commercial myth","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Radical transparency in relationships vs the necessity of a private self — can intimacy and individuation coexist?","sideA":"Transparency","sideB":"Private self","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"The ethics of care as a feminist corrective vs as a reassignment of the same burdens — has the concept delivered on its promise?","sideA":"Feminist corrective","sideB":"Reassignment of burdens","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Choosing to be childless as resistance to pronatalist ideology vs as an entirely personal decision with no political dimension — can these be cleanly separated?","sideA":"Resistance","sideB":"Personal decision","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"The awareness of mortality as the precondition for a meaningful adult life vs as its primary obstacle — which is the more liveable position?","sideA":"Precondition","sideB":"Obstacle","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Ageing as decline vs ageing as accumulation — which narrative is more honest, and which more useful?","sideA":"Decline","sideB":"Accumulation","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"The medicalisation of ageing as progress vs as a refusal to accept the human condition — where should the line be drawn?","sideA":"Progress","sideB":"Refusal","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
-            {"topic":"Memory as the substance of adult identity vs memory as a highly unreliable narrator — what are the implications for how we construct a self?","sideA":"Substance","sideB":"Unreliable narrator","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"The adult citizen's complicity in unjust systems through ordinary consumption vs the structural irrelevance of individual moral purity — which is the more honest framing?","sideA":"Complicity","sideB":"Structural irrelevance","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Political disillusionment as a rational response to available evidence vs as a form of privilege — which reading is more empirically defensible?","sideA":"Rational response","sideB":"Privilege","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Intergenerational justice as the central moral challenge of our time vs as a concept that systematically obscures present-tense class and racial inequality — which is the stronger critique?","sideA":"Moral challenge","sideB":"Obscures inequality","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Liberal democracy as the least-bad system vs as a system that has structurally exhausted its reforming capacity — which verdict does the evidence support?","sideA":"Least-bad system","sideB":"Exhausted capacity","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"The capacity for self-deception as a cognitive defect vs as an adaptive mechanism — which account better serves the adult who wants to live well?","sideA":"Cognitive defect","sideB":"Adaptive mechanism","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Expertise as epistemic authority vs expertise as a form of institutional power that merits scrutiny — when does healthy scepticism become epistemic cowardice?","sideA":"Epistemic authority","sideB":"Institutional power","level":"proficiency","theme":"science_technology","ideasA":[],"ideasB":[]},
-            {"topic":"Narrative as the primary way adults make sense of their lives vs narrative as the primary way adults mislead themselves — which function dominates?","sideA":"Sense-making","sideB":"Misleading","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Honesty as an unconditional virtue vs honesty as a contextual one — is there a coherent account of truthfulness that survives contact with real adult relationships?","sideA":"Unconditional virtue","sideB":"Contextual virtue","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"The adult who has \"finally figured it out\" vs the adult who has accepted they never will — which represents a more sophisticated relationship with reality?","sideA":"Figured it out","sideB":"Accepted never will","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Telling your therapist everything vs telling your hairdresser everything — which professional relationship is empirically more transformative, and why does the answer make us uncomfortable?","sideA":"Therapist","sideB":"Hairdresser","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
+        "debates": [{"topic":"The Protestant work ethic as civilisational achievement vs as the original source of adult misery — which legacy dominates today?","sideA":"Civilisational achievement","sideB":"Source of misery","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"The commodification of passion vs the liberation of turning work into meaning — is \"do what you love\" advice or a trap?","sideA":"Advice","sideB":"Trap","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Career as identity vs career as means — which is the more coherent relationship for a modern adult to have with their work?","sideA":"Identity","sideB":"Means","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"The virtuous overworker vs the strategic idler — which has been more dishonestly celebrated in Western culture?","sideA":"Overworker","sideB":"Idler","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Adult ambition as admirable vs adult ambition as a failure to accept finitude — which reading is more psychologically honest?","sideA":"Admirable","sideB":"Failure to accept finitude","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Romantic love as the organising principle of adult life vs as a historically contingent and commercially sustained myth — which is more defensible?","sideA":"Organising principle","sideB":"Commercial myth","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Radical transparency in relationships vs the necessity of a private self — can intimacy and individuation coexist?","sideA":"Transparency","sideB":"Private self","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"The ethics of care as a feminist corrective vs as a reassignment of the same burdens — has the concept delivered on its promise?","sideA":"Feminist corrective","sideB":"Reassignment of burdens","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Choosing to be childless as resistance to pronatalist ideology vs as an entirely personal decision with no political dimension — can these be cleanly separated?","sideA":"Resistance","sideB":"Personal decision","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"The awareness of mortality as the precondition for a meaningful adult life vs as its primary obstacle — which is the more liveable position?","sideA":"Precondition","sideB":"Obstacle","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Ageing as decline vs ageing as accumulation — which narrative is more honest, and which more useful?","sideA":"Decline","sideB":"Accumulation","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"The medicalisation of ageing as progress vs as a refusal to accept the human condition — where should the line be drawn?","sideA":"Progress","sideB":"Refusal","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Memory as the substance of adult identity vs memory as a highly unreliable narrator — what are the implications for how we construct a self?","sideA":"Substance","sideB":"Unreliable narrator","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"The adult citizen's complicity in unjust systems through ordinary consumption vs the structural irrelevance of individual moral purity — which is the more honest framing?","sideA":"Complicity","sideB":"Structural irrelevance","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Political disillusionment as a rational response to available evidence vs as a form of privilege — which reading is more empirically defensible?","sideA":"Rational response","sideB":"Privilege","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Intergenerational justice as the central moral challenge of our time vs as a concept that systematically obscures present-tense class and racial inequality — which is the stronger critique?","sideA":"Moral challenge","sideB":"Obscures inequality","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Liberal democracy as the least-bad system vs as a system that has structurally exhausted its reforming capacity — which verdict does the evidence support?","sideA":"Least-bad system","sideB":"Exhausted capacity","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"The capacity for self-deception as a cognitive defect vs as an adaptive mechanism — which account better serves the adult who wants to live well?","sideA":"Cognitive defect","sideB":"Adaptive mechanism","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Expertise as epistemic authority vs expertise as a form of institutional power that merits scrutiny — when does healthy scepticism become epistemic cowardice?","sideA":"Epistemic authority","sideB":"Institutional power","level":"proficiency","theme": "epistemology_truth_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Narrative as the primary way adults make sense of their lives vs narrative as the primary way adults mislead themselves — which function dominates?","sideA":"Sense-making","sideB":"Misleading","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Honesty as an unconditional virtue vs honesty as a contextual one — is there a coherent account of truthfulness that survives contact with real adult relationships?","sideA":"Unconditional virtue","sideB":"Contextual virtue","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"The adult who has \"finally figured it out\" vs the adult who has accepted they never will — which represents a more sophisticated relationship with reality?","sideA":"Figured it out","sideB":"Accepted never will","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Telling your therapist everything vs telling your hairdresser everything — which professional relationship is empirically more transformative, and why does the answer make us uncomfortable?","sideA":"Therapist","sideB":"Hairdresser","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
 
-            {"topic": "The four-day working week vs the five-day week — which model benefits workers and employers more?", "sideA": "4-day week", "sideB": "5-day week", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Universal basic income vs targeted welfare — which is the more effective safety net for working adults?", "sideA": "UBI", "sideB": "Targeted welfare", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "The gig economy vs permanent employment — which model better serves workers in the long run?", "sideA": "Gig economy", "sideB": "Permanent employment", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Meritocracy vs structural advantage — which more accurately explains career success?", "sideA": "Meritocracy", "sideB": "Structural advantage", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Pay transparency vs salary privacy — which creates a fairer workplace?", "sideA": "Transparency", "sideB": "Privacy", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Automation vs human labour — which is the bigger long-term threat to adult employment?", "sideA": "Automation", "sideB": "Human labour", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Remote work vs office presence — which is better for career progression and team culture?", "sideA": "Remote work", "sideB": "Office presence", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Equal parental leave for men and women vs longer maternity leave — which policy is fairer?", "sideA": "Equal leave", "sideB": "Longer maternity", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Choosing not to have children vs social pressure to have a family — which deserves more respect?", "sideA": "Choosing no children", "sideB": "Family pressure", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Marriage as an institution vs cohabitation without marriage — which is more relevant today?", "sideA": "Marriage", "sideB": "Cohabitation", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Dual-income households vs one partner staying home — which model is better for children and adults?", "sideA": "Dual income", "sideB": "One partner at home", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "The gender pay gap as a structural problem vs a matter of individual choices — which explanation holds more weight?", "sideA": "Structural problem", "sideB": "Individual choices", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Home ownership as the goal vs a professional rental market — which housing model suits modern adults better?", "sideA": "Ownership", "sideB": "Rental market", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Gentrification as improvement vs gentrification as displacement — which framing is more honest?", "sideA": "Improvement", "sideB": "Displacement", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Urban density vs suburban sprawl — which is the better model for liveable cities?", "sideA": "Urban density", "sideB": "Suburban sprawl", "level": "upper-intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Living close to family vs moving away for opportunity — which choice produces better long-term wellbeing?", "sideA": "Living close", "sideB": "Moving away", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "An ageing population as a crisis vs as a resource — which framing is more productive?", "sideA": "Crisis", "sideB": "Resource", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Personal responsibility for health vs systemic factors — which carries more weight in explaining health outcomes?", "sideA": "Personal responsibility", "sideB": "Systemic factors", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Mental health days as a legitimate workplace right vs a source of abuse — where should employers draw the line?", "sideA": "Legitimate right", "sideB": "Source of abuse", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Preventive medicine vs curative medicine — which should receive more public funding?", "sideA": "Preventive", "sideB": "Curative", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Anti-ageing medicine vs ageing gracefully — which attitude is more coherent?", "sideA": "Anti-ageing", "sideB": "Ageing gracefully", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Surveillance technology for public safety vs the right to privacy — where should the balance lie?", "sideA": "Public safety", "sideB": "Privacy", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Social media as a tool for civic engagement vs as a driver of polarisation — which effect dominates?", "sideA": "Civic engagement", "sideB": "Polarisation", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "AI in recruitment vs human judgment — which produces fairer hiring decisions?", "sideA": "AI", "sideB": "Human judgment", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "The right to be forgotten online vs the public's right to information — which should take precedence?", "sideA": "Right to be forgotten", "sideB": "Right to info", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Compulsory voting vs voluntary voting — which produces healthier democracies?", "sideA": "Compulsory", "sideB": "Voluntary", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Political engagement through protest vs through institutional channels — which is more effective for adults today?", "sideA": "Protest", "sideB": "Institutional", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "National identity vs European or global identity — which is more meaningful for adults in 2026?", "sideA": "National identity", "sideB": "Global identity", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Tax rises to fund public services vs spending cuts — which is the more defensible political choice?", "sideA": "Tax rises", "sideB": "Spending cuts", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Admitting you have no idea how your pension works vs confidently pretending you do — which is the more universal adult experience?", "sideA": "Admitting ignorance", "sideB": "Pretending", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Being the person who always plans social events vs always being the person who just shows up — which role is more exhausting?", "sideA": "The planner", "sideB": "The guest", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Having a strong opinion about your colleagues' kitchen habits vs not caring at all — which person is more tolerable?", "sideA": "Strong opinion", "sideB": "Not caring", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Attending every optional work social event vs never attending any — which strategy is better for your career and sanity?", "sideA": "Attending all", "sideB": "Attending none", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Adults who are still confused by their tax return vs adults who enjoy doing it — which group is more trustworthy?", "sideA": "Confused", "sideB": "Enjoy it", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Complaining about the cost of living to friends vs pretending everything is fine — which is the more honest adult response?", "sideA": "Complaining", "sideB": "Pretending fine", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Flat organisational hierarchies vs vertical management structures — which better serves the adults who work within them?", "sideA": "Flat hierarchy", "sideB": "Vertical structure", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "The cult of productivity vs the case for idleness — which better reflects what humans actually need from work?", "sideA": "Productivity", "sideB": "Idleness", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Leadership as a learnable skill vs leadership as an innate quality — which account is more empirically defensible?", "sideA": "Learnable skill", "sideB": "Innate quality", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Hustle culture vs slow living — which is winning, and which should win?", "sideA": "Hustle culture", "sideB": "Slow living", "level": "advanced", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Corporate social responsibility as genuine commitment vs as reputational management — which framing is more honest?", "sideA": "Genuine commitment", "sideB": "Reputational management", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Adult identity as fixed vs perpetually in construction — which account better reflects lived experience?", "sideA": "Fixed identity", "sideB": "In construction", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "The domestication of feminism by consumer culture vs feminism genuinely reshaping adult life — which is more true?", "sideA": "Consumer feminism", "sideB": "Genuine reshape", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Midlife crisis as pathology vs midlife crisis as legitimate reassessment — which framing is more useful?", "sideA": "Pathology", "sideB": "Reassessment", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "The pressure to be extraordinary vs the dignity of an ordinary life — which is the more humane ideal to hold?", "sideA": "Extraordinary", "sideB": "Ordinary dignity", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "The obligation to care for ageing parents vs the state's responsibility — where should the burden fall?", "sideA": "Family obligation", "sideB": "State responsibility", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Radical honesty in relationships vs strategic silence — which is the more ethical approach to intimacy?", "sideA": "Radical honesty", "sideB": "Strategic silence", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Choosing your social circle deliberately vs letting relationships form organically — which produces more authentic adult friendships?", "sideA": "Deliberate choice", "sideB": "Organic formation", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "The nuclear family as the optimal social unit vs as a historically contingent arrangement — which view is more defensible?", "sideA": "Optimal unit", "sideB": "Historical arrangement", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Technocratic governance vs democratic populism — which poses the greater long-term risk to adult citizens?", "sideA": "Technocracy", "sideB": "Populism", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Intergenerational justice vs present welfare — which should take priority in public policy?", "sideA": "Intergenerational justice", "sideB": "Present welfare", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "The obligation to vote vs the right to abstain — which is the more defensible civic position?", "sideA": "Obligation to vote", "sideB": "Right to abstain", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Patriotism as a civic virtue vs patriotism as a cognitive failure — which account is more persuasive?", "sideA": "Civic virtue", "sideB": "Cognitive failure", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Free speech absolutism vs regulated speech — which produces better outcomes for adult democratic societies?", "sideA": "Absolutism", "sideB": "Regulated speech", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "A meaningful career vs a job that funds a meaningful private life — which is the more honest adult ambition?", "sideA": "Meaningful career", "sideB": "Funding private life", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Religion vs secular philosophy — which more effectively addresses the existential needs of modern adults?", "sideA": "Religion", "sideB": "Secular philosophy", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "The examined life vs the absorbed life — which is more worth living, and who gets to decide?", "sideA": "Examined life", "sideB": "Absorbed life", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Legacy vs presence — which is a more coherent thing for an adult to strive for?", "sideA": "Legacy", "sideB": "Presence", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will — which is more self-aware?", "sideA": "Figured it out", "sideB": "Accepted never will", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Telling your therapist everything vs telling your hairdresser everything — which professional relationship is more therapeutically effective?", "sideA": "Therapist", "sideB": "Hairdresser", "level": "advanced", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "The Sunday anxiety of an adult with a full schedule vs the Sunday anxiety of an adult with an empty one — which is more existentially troubling?", "sideA": "Full schedule", "sideB": "Empty schedule", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Overthinking every major life decision vs making them impulsively — which strategy has the better empirical track record?", "sideA": "Overthinking", "sideB": "Impulsiveness", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Adults who read self-help books vs adults who refuse to — which group is harder to talk to at a dinner party?", "sideA": "Self-help readers", "sideB": "Refuse to read", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "The four-day working week vs the five-day week — which model benefits workers and employers more?", "sideA": "4-day week", "sideB": "5-day week", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Universal basic income vs targeted welfare — which is the more effective safety net for working adults?", "sideA": "UBI", "sideB": "Targeted welfare", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "The gig economy vs permanent employment — which model better serves workers in the long run?", "sideA": "Gig economy", "sideB": "Permanent employment", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Meritocracy vs structural advantage — which more accurately explains career success?", "sideA": "Meritocracy", "sideB": "Structural advantage", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Pay transparency vs salary privacy — which creates a fairer workplace?", "sideA": "Transparency", "sideB": "Privacy", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Automation vs human labour — which is the bigger long-term threat to adult employment?", "sideA": "Automation", "sideB": "Human labour", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Remote work vs office presence — which is better for career progression and team culture?", "sideA": "Remote work", "sideB": "Office presence", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Equal parental leave for men and women vs longer maternity leave — which policy is fairer?", "sideA": "Equal leave", "sideB": "Longer maternity", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Choosing not to have children vs social pressure to have a family — which deserves more respect?", "sideA": "Choosing no children", "sideB": "Family pressure", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Marriage as an institution vs cohabitation without marriage — which is more relevant today?", "sideA": "Marriage", "sideB": "Cohabitation", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Dual-income households vs one partner staying home — which model is better for children and adults?", "sideA": "Dual income", "sideB": "One partner at home", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "The gender pay gap as a structural problem vs a matter of individual choices — which explanation holds more weight?", "sideA": "Structural problem", "sideB": "Individual choices", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Home ownership as the goal vs a professional rental market — which housing model suits modern adults better?", "sideA": "Ownership", "sideB": "Rental market", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Gentrification as improvement vs gentrification as displacement — which framing is more honest?", "sideA": "Improvement", "sideB": "Displacement", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Urban density vs suburban sprawl — which is the better model for liveable cities?", "sideA": "Urban density", "sideB": "Suburban sprawl", "level": "upper-intermediate", "theme": "globalisation_trade_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Living close to family vs moving away for opportunity — which choice produces better long-term wellbeing?", "sideA": "Living close", "sideB": "Moving away", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "An ageing population as a crisis vs as a resource — which framing is more productive?", "sideA": "Crisis", "sideB": "Resource", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Personal responsibility for health vs systemic factors — which carries more weight in explaining health outcomes?", "sideA": "Personal responsibility", "sideB": "Systemic factors", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Mental health days as a legitimate workplace right vs a source of abuse — where should employers draw the line?", "sideA": "Legitimate right", "sideB": "Source of abuse", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Preventive medicine vs curative medicine — which should receive more public funding?", "sideA": "Preventive", "sideB": "Curative", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Anti-ageing medicine vs ageing gracefully — which attitude is more coherent?", "sideA": "Anti-ageing", "sideB": "Ageing gracefully", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Surveillance technology for public safety vs the right to privacy — where should the balance lie?", "sideA": "Public safety", "sideB": "Privacy", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Social media as a tool for civic engagement vs as a driver of polarisation — which effect dominates?", "sideA": "Civic engagement", "sideB": "Polarisation", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "AI in recruitment vs human judgment — which produces fairer hiring decisions?", "sideA": "AI", "sideB": "Human judgment", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "The right to be forgotten online vs the public's right to information — which should take precedence?", "sideA": "Right to be forgotten", "sideB": "Right to info", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Compulsory voting vs voluntary voting — which produces healthier democracies?", "sideA": "Compulsory", "sideB": "Voluntary", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Political engagement through protest vs through institutional channels — which is more effective for adults today?", "sideA": "Protest", "sideB": "Institutional", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "National identity vs European or global identity — which is more meaningful for adults in 2026?", "sideA": "National identity", "sideB": "Global identity", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Tax rises to fund public services vs spending cuts — which is the more defensible political choice?", "sideA": "Tax rises", "sideB": "Spending cuts", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Admitting you have no idea how your pension works vs confidently pretending you do — which is the more universal adult experience?", "sideA": "Admitting ignorance", "sideB": "Pretending", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Being the person who always plans social events vs always being the person who just shows up — which role is more exhausting?", "sideA": "The planner", "sideB": "The guest", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Having a strong opinion about your colleagues' kitchen habits vs not caring at all — which person is more tolerable?", "sideA": "Strong opinion", "sideB": "Not caring", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Attending every optional work social event vs never attending any — which strategy is better for your career and sanity?", "sideA": "Attending all", "sideB": "Attending none", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Adults who are still confused by their tax return vs adults who enjoy doing it — which group is more trustworthy?", "sideA": "Confused", "sideB": "Enjoy it", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Complaining about the cost of living to friends vs pretending everything is fine — which is the more honest adult response?", "sideA": "Complaining", "sideB": "Pretending fine", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Flat organisational hierarchies vs vertical management structures — which better serves the adults who work within them?", "sideA": "Flat hierarchy", "sideB": "Vertical structure", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "The cult of productivity vs the case for idleness — which better reflects what humans actually need from work?", "sideA": "Productivity", "sideB": "Idleness", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Leadership as a learnable skill vs leadership as an innate quality — which account is more empirically defensible?", "sideA": "Learnable skill", "sideB": "Innate quality", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Hustle culture vs slow living — which is winning, and which should win?", "sideA": "Hustle culture", "sideB": "Slow living", "level": "advanced", "theme": "routine_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Corporate social responsibility as genuine commitment vs as reputational management — which framing is more honest?", "sideA": "Genuine commitment", "sideB": "Reputational management", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Adult identity as fixed vs perpetually in construction — which account better reflects lived experience?", "sideA": "Fixed identity", "sideB": "In construction", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "The domestication of feminism by consumer culture vs feminism genuinely reshaping adult life — which is more true?", "sideA": "Consumer feminism", "sideB": "Genuine reshape", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Midlife crisis as pathology vs midlife crisis as legitimate reassessment — which framing is more useful?", "sideA": "Pathology", "sideB": "Reassessment", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "The pressure to be extraordinary vs the dignity of an ordinary life — which is the more humane ideal to hold?", "sideA": "Extraordinary", "sideB": "Ordinary dignity", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "The obligation to care for ageing parents vs the state's responsibility — where should the burden fall?", "sideA": "Family obligation", "sideB": "State responsibility", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Radical honesty in relationships vs strategic silence — which is the more ethical approach to intimacy?", "sideA": "Radical honesty", "sideB": "Strategic silence", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Choosing your social circle deliberately vs letting relationships form organically — which produces more authentic adult friendships?", "sideA": "Deliberate choice", "sideB": "Organic formation", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "The nuclear family as the optimal social unit vs as a historically contingent arrangement — which view is more defensible?", "sideA": "Optimal unit", "sideB": "Historical arrangement", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Technocratic governance vs democratic populism — which poses the greater long-term risk to adult citizens?", "sideA": "Technocracy", "sideB": "Populism", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Intergenerational justice vs present welfare — which should take priority in public policy?", "sideA": "Intergenerational justice", "sideB": "Present welfare", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "The obligation to vote vs the right to abstain — which is the more defensible civic position?", "sideA": "Obligation to vote", "sideB": "Right to abstain", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Patriotism as a civic virtue vs patriotism as a cognitive failure — which account is more persuasive?", "sideA": "Civic virtue", "sideB": "Cognitive failure", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Free speech absolutism vs regulated speech — which produces better outcomes for adult democratic societies?", "sideA": "Absolutism", "sideB": "Regulated speech", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "A meaningful career vs a job that funds a meaningful private life — which is the more honest adult ambition?", "sideA": "Meaningful career", "sideB": "Funding private life", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Religion vs secular philosophy — which more effectively addresses the existential needs of modern adults?", "sideA": "Religion", "sideB": "Secular philosophy", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "The examined life vs the absorbed life — which is more worth living, and who gets to decide?", "sideA": "Examined life", "sideB": "Absorbed life", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Legacy vs presence — which is a more coherent thing for an adult to strive for?", "sideA": "Legacy", "sideB": "Presence", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will — which is more self-aware?", "sideA": "Figured it out", "sideB": "Accepted never will", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Telling your therapist everything vs telling your hairdresser everything — which professional relationship is more therapeutically effective?", "sideA": "Therapist", "sideB": "Hairdresser", "level": "advanced", "theme": "psychological_concepts_C1", "ideasA": [], "ideasB": []},
+            {"topic": "The Sunday anxiety of an adult with a full schedule vs the Sunday anxiety of an adult with an empty one — which is more existentially troubling?", "sideA": "Full schedule", "sideB": "Empty schedule", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Overthinking every major life decision vs making them impulsively — which strategy has the better empirical track record?", "sideA": "Overthinking", "sideB": "Impulsiveness", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Adults who read self-help books vs adults who refuse to — which group is harder to talk to at a dinner party?", "sideA": "Self-help readers", "sideB": "Refuse to read", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
 
-            {"topic": "A high salary vs a short commute — which matters more in a job?", "sideA": "High salary", "sideB": "Short commute", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Changing jobs often vs staying in the same company — which is better for your career?", "sideA": "Changing jobs", "sideB": "Staying", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Working overtime vs leaving on time every day — which is the better habit?", "sideA": "Overtime", "sideB": "On time", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "A boss who is strict vs a boss who is relaxed — which is better to work for?", "sideA": "Strict boss", "sideB": "Relaxed boss", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Working in a big company vs a small company — which is better?", "sideA": "Big company", "sideB": "Small company", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Getting a promotion vs getting more free time — which would you choose?", "sideA": "Promotion", "sideB": "Free time", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Buying a house vs renting for life — which is the smarter financial decision?", "sideA": "Buying", "sideB": "Renting", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Living in the city centre vs living in the suburbs — which is better?", "sideA": "City centre", "sideB": "Suburbs", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Spending money on experiences vs on things — which makes you happier?", "sideA": "Experiences", "sideB": "Things", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Cooking every day vs meal prepping once a week — which is more practical?", "sideA": "Daily cooking", "sideB": "Meal prepping", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Having a cleaner vs doing your own housework — which is a better choice?", "sideA": "Cleaner", "sideB": "Do it yourself", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Living with a partner vs living alone — which is better for adults?", "sideA": "With partner", "sideB": "Alone", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Having children early vs having children later in life — which is better?", "sideA": "Early", "sideB": "Later", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Close family relationships vs independence from family — which is more important as an adult?", "sideA": "Close relationships", "sideB": "Independence", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Meeting new people vs keeping old friendships — which is more valuable?", "sideA": "New people", "sideB": "Old friends", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Socialising after work vs going straight home — which is better for work relationships?", "sideA": "Socialising", "sideB": "Going home", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Going to the gym vs exercising outdoors — which is better for adults?", "sideA": "Gym", "sideB": "Outdoors", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Strict diet vs eating everything in moderation — which is healthier?", "sideA": "Strict diet", "sideB": "Moderation", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Seeing a doctor early vs waiting to see if you get better — which is wiser?", "sideA": "Early", "sideB": "Waiting", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Sleeping eight hours vs sleeping six but exercising — which is better for energy?", "sideA": "8 hours", "sideB": "6 hours + exercise", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Reducing stress through sport vs through relaxation — which works better?", "sideA": "Sport", "sideB": "Relaxation", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Smartphones vs face-to-face conversation — which do we use more, and is that a problem?", "sideA": "Smartphones", "sideB": "Face-to-face", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Online banking vs going to the bank — which is better?", "sideA": "Online", "sideB": "Going to bank", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Working with paper vs working digitally — which is more efficient?", "sideA": "Paper", "sideB": "Digital", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Social media for networking vs meeting people in person — which is more useful professionally?", "sideA": "Social media", "sideB": "In person", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Package holiday vs independent travel — which is better for adults?", "sideA": "Package", "sideB": "Independent", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "City break vs beach holiday — which is a better way to relax?", "sideA": "City break", "sideB": "Beach holiday", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "One long holiday a year vs several short breaks — which is better?", "sideA": "One long", "sideB": "Several short", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Travelling as a couple vs travelling alone — which is more enjoyable?", "sideA": "As a couple", "sideB": "Alone", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Telling your partner about every small problem vs keeping things to yourself — which is healthier?", "sideA": "Telling all", "sideB": "Keeping to self", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Checking your phone first thing in the morning vs waiting until after breakfast — which is a better habit?", "sideA": "First thing", "sideB": "After breakfast", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Knowing your neighbours' names vs not knowing them — which is the more normal adult experience today?", "sideA": "Knowing names", "sideB": "Not knowing", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Grocery shopping with a list vs without a list — which type of person has a better life?", "sideA": "With list", "sideB": "Without list", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Telling your boss you are sick vs going to work sick — which is the braver choice?", "sideA": "Telling boss", "sideB": "Going sick", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Remote work vs office work — which is better for productivity and wellbeing?", "sideA": "Remote", "sideB": "Office", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Job security vs career growth — which should adults prioritise?", "sideA": "Security", "sideB": "Growth", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Starting your own business vs working for an employer — which is the better choice at 30?", "sideA": "Own business", "sideB": "Working for employer", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ambition vs work-life balance — can you really have both?", "sideA": "Ambition", "sideB": "Balance", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Networking vs skill-building — which advances your career more?", "sideA": "Networking", "sideB": "Skills", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Honest feedback from a manager vs being left to work independently — which motivates adults more?", "sideA": "Feedback", "sideB": "Independence", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Changing career at 40 vs staying in your field — which is the wiser decision?", "sideA": "Changing career", "sideB": "Staying", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Paying off a mortgage early vs investing that money — which is smarter?", "sideA": "Pay off early", "sideB": "Investing", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Owning a home vs renting permanently — which suits modern adult life better?", "sideA": "Owning", "sideB": "Renting", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Saving for retirement early vs enjoying money in your thirties — which is wiser?", "sideA": "Saving early", "sideB": "Enjoying now", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Living below your means vs spending to enjoy life now — which approach is healthier?", "sideA": "Below means", "sideB": "Enjoy now", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Two incomes in a household vs one partner staying home — which works better for families?", "sideA": "Two incomes", "sideB": "One staying home", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Having children vs choosing not to — which is a more fulfilling adult life?", "sideA": "Having children", "sideB": "No children", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Strict parenting vs permissive parenting — which produces happier adults?", "sideA": "Strict", "sideB": "Permissive", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Long-term relationship vs staying single — which is better for personal growth?", "sideA": "Relationship", "sideB": "Single", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Keeping work and personal life separate vs integrating them — which is healthier?", "sideA": "Separate", "sideB": "Integrated", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Moving abroad as a couple vs staying close to family — which is the right call?", "sideA": "Moving abroad", "sideB": "Staying close", "level": "intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Prioritising physical health vs mental health — which should adults focus on first?", "sideA": "Physical", "sideB": "Mental", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Private healthcare vs relying on the public system — which is the better adult strategy?", "sideA": "Private", "sideB": "Public", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Regular medical check-ups vs only going when ill — which is the smarter approach?", "sideA": "Regular checks", "sideB": "Only when ill", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Reducing alcohol vs reducing stress — which has a greater impact on adult health?", "sideA": "Reducing alcohol", "sideB": "Reducing stress", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Individual freedom vs community responsibility — which should guide adult decisions?", "sideA": "Freedom", "sideB": "Responsibility", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Optimism about the future vs realism — which is the more useful attitude for adults?", "sideA": "Optimism", "sideB": "Realism", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Changing the world vs building a stable personal life — which is the more honest ambition?", "sideA": "Changing world", "sideB": "Stable life", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Volunteering your time vs donating money — which does more good?", "sideA": "Volunteering", "sideB": "Donating", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Following your generation's values vs questioning them — which is more admirable?", "sideA": "Following", "sideB": "Questioning", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Knowing how much your colleagues earn vs not knowing — which is better for office harmony?", "sideA": "Knowing", "sideB": "Not knowing", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Replying to messages immediately vs taking your time — which is more respectful in adult life?", "sideA": "Immediately", "sideB": "Taking time", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Admitting you have no idea what a pension fund is vs pretending you do — which is the more relatable adult experience?", "sideA": "Admitting", "sideB": "Pretending", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Cancelling plans at the last minute vs going out when you don't want to — which is the worse adult habit?", "sideA": "Cancelling", "sideB": "Going anyway", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Talking openly about money with friends vs keeping it private — which is the more mature approach?", "sideA": "Talking openly", "sideB": "Keeping private", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "A high salary vs a short commute — which matters more in a job?", "sideA": "High salary", "sideB": "Short commute", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Changing jobs often vs staying in the same company — which is better for your career?", "sideA": "Changing jobs", "sideB": "Staying", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Working overtime vs leaving on time every day — which is the better habit?", "sideA": "Overtime", "sideB": "On time", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "A boss who is strict vs a boss who is relaxed — which is better to work for?", "sideA": "Strict boss", "sideB": "Relaxed boss", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Working in a big company vs a small company — which is better?", "sideA": "Big company", "sideB": "Small company", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Getting a promotion vs getting more free time — which would you choose?", "sideA": "Promotion", "sideB": "Free time", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Buying a house vs renting for life — which is the smarter financial decision?", "sideA": "Buying", "sideB": "Renting", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Living in the city centre vs living in the suburbs — which is better?", "sideA": "City centre", "sideB": "Suburbs", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Spending money on experiences vs on things — which makes you happier?", "sideA": "Experiences", "sideB": "Things", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Cooking every day vs meal prepping once a week — which is more practical?", "sideA": "Daily cooking", "sideB": "Meal prepping", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Having a cleaner vs doing your own housework — which is a better choice?", "sideA": "Cleaner", "sideB": "Do it yourself", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Living with a partner vs living alone — which is better for adults?", "sideA": "With partner", "sideB": "Alone", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Having children early vs having children later in life — which is better?", "sideA": "Early", "sideB": "Later", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Close family relationships vs independence from family — which is more important as an adult?", "sideA": "Close relationships", "sideB": "Independence", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Meeting new people vs keeping old friendships — which is more valuable?", "sideA": "New people", "sideB": "Old friends", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Socialising after work vs going straight home — which is better for work relationships?", "sideA": "Socialising", "sideB": "Going home", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Going to the gym vs exercising outdoors — which is better for adults?", "sideA": "Gym", "sideB": "Outdoors", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Strict diet vs eating everything in moderation — which is healthier?", "sideA": "Strict diet", "sideB": "Moderation", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Seeing a doctor early vs waiting to see if you get better — which is wiser?", "sideA": "Early", "sideB": "Waiting", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Sleeping eight hours vs sleeping six but exercising — which is better for energy?", "sideA": "8 hours", "sideB": "6 hours + exercise", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Reducing stress through sport vs through relaxation — which works better?", "sideA": "Sport", "sideB": "Relaxation", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Smartphones vs face-to-face conversation — which do we use more, and is that a problem?", "sideA": "Smartphones", "sideB": "Face-to-face", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Online banking vs going to the bank — which is better?", "sideA": "Online", "sideB": "Going to bank", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Working with paper vs working digitally — which is more efficient?", "sideA": "Paper", "sideB": "Digital", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Social media for networking vs meeting people in person — which is more useful professionally?", "sideA": "Social media", "sideB": "In person", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Package holiday vs independent travel — which is better for adults?", "sideA": "Package", "sideB": "Independent", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "City break vs beach holiday — which is a better way to relax?", "sideA": "City break", "sideB": "Beach holiday", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "One long holiday a year vs several short breaks — which is better?", "sideA": "One long", "sideB": "Several short", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Travelling as a couple vs travelling alone — which is more enjoyable?", "sideA": "As a couple", "sideB": "Alone", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Telling your partner about every small problem vs keeping things to yourself — which is healthier?", "sideA": "Telling all", "sideB": "Keeping to self", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Checking your phone first thing in the morning vs waiting until after breakfast — which is a better habit?", "sideA": "First thing", "sideB": "After breakfast", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Knowing your neighbours' names vs not knowing them — which is the more normal adult experience today?", "sideA": "Knowing names", "sideB": "Not knowing", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Grocery shopping with a list vs without a list — which type of person has a better life?", "sideA": "With list", "sideB": "Without list", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Telling your boss you are sick vs going to work sick — which is the braver choice?", "sideA": "Telling boss", "sideB": "Going sick", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Remote work vs office work — which is better for productivity and wellbeing?", "sideA": "Remote", "sideB": "Office", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Job security vs career growth — which should adults prioritise?", "sideA": "Security", "sideB": "Growth", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Starting your own business vs working for an employer — which is the better choice at 30?", "sideA": "Own business", "sideB": "Working for employer", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ambition vs work-life balance — can you really have both?", "sideA": "Ambition", "sideB": "Balance", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Networking vs skill-building — which advances your career more?", "sideA": "Networking", "sideB": "Skills", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Honest feedback from a manager vs being left to work independently — which motivates adults more?", "sideA": "Feedback", "sideB": "Independence", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Changing career at 40 vs staying in your field — which is the wiser decision?", "sideA": "Changing career", "sideB": "Staying", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Paying off a mortgage early vs investing that money — which is smarter?", "sideA": "Pay off early", "sideB": "Investing", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Owning a home vs renting permanently — which suits modern adult life better?", "sideA": "Owning", "sideB": "Renting", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Saving for retirement early vs enjoying money in your thirties — which is wiser?", "sideA": "Saving early", "sideB": "Enjoying now", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Living below your means vs spending to enjoy life now — which approach is healthier?", "sideA": "Below means", "sideB": "Enjoy now", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Two incomes in a household vs one partner staying home — which works better for families?", "sideA": "Two incomes", "sideB": "One staying home", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Having children vs choosing not to — which is a more fulfilling adult life?", "sideA": "Having children", "sideB": "No children", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Strict parenting vs permissive parenting — which produces happier adults?", "sideA": "Strict", "sideB": "Permissive", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Long-term relationship vs staying single — which is better for personal growth?", "sideA": "Relationship", "sideB": "Single", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Keeping work and personal life separate vs integrating them — which is healthier?", "sideA": "Separate", "sideB": "Integrated", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Moving abroad as a couple vs staying close to family — which is the right call?", "sideA": "Moving abroad", "sideB": "Staying close", "level": "intermediate", "theme": "travel_cultural_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Prioritising physical health vs mental health — which should adults focus on first?", "sideA": "Physical", "sideB": "Mental", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Private healthcare vs relying on the public system — which is the better adult strategy?", "sideA": "Private", "sideB": "Public", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Regular medical check-ups vs only going when ill — which is the smarter approach?", "sideA": "Regular checks", "sideB": "Only when ill", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Reducing alcohol vs reducing stress — which has a greater impact on adult health?", "sideA": "Reducing alcohol", "sideB": "Reducing stress", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Individual freedom vs community responsibility — which should guide adult decisions?", "sideA": "Freedom", "sideB": "Responsibility", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Optimism about the future vs realism — which is the more useful attitude for adults?", "sideA": "Optimism", "sideB": "Realism", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Changing the world vs building a stable personal life — which is the more honest ambition?", "sideA": "Changing world", "sideB": "Stable life", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Volunteering your time vs donating money — which does more good?", "sideA": "Volunteering", "sideB": "Donating", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Following your generation's values vs questioning them — which is more admirable?", "sideA": "Following", "sideB": "Questioning", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Knowing how much your colleagues earn vs not knowing — which is better for office harmony?", "sideA": "Knowing", "sideB": "Not knowing", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Replying to messages immediately vs taking your time — which is more respectful in adult life?", "sideA": "Immediately", "sideB": "Taking time", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Admitting you have no idea what a pension fund is vs pretending you do — which is the more relatable adult experience?", "sideA": "Admitting", "sideB": "Pretending", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Cancelling plans at the last minute vs going out when you don't want to — which is the worse adult habit?", "sideA": "Cancelling", "sideB": "Going anyway", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Talking openly about money with friends vs keeping it private — which is the more mature approach?", "sideA": "Talking openly", "sideB": "Keeping private", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
 
-            {"topic": "Coffee vs tea — which is a better morning drink?", "sideA": "Coffee", "sideB": "Tea", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Restaurant vs home cooking — which is better?", "sideA": "Restaurant", "sideB": "Home cooking", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Breakfast vs no breakfast — which is better for you?", "sideA": "Breakfast", "sideB": "None", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Water vs juice — which is healthier?", "sideA": "Water", "sideB": "Juice", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Meat vs vegetables — which is more important in a meal?", "sideA": "Meat", "sideB": "Vegetables", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "House vs flat — which is better to live in?", "sideA": "House", "sideB": "Flat", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "City vs village — which is a better place to live?", "sideA": "City", "sideB": "Village", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Coffee vs tea — which is a better morning drink?", "sideA": "Coffee", "sideB": "Tea", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Restaurant vs home cooking — which is better?", "sideA": "Restaurant", "sideB": "Home cooking", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Breakfast vs no breakfast — which is better for you?", "sideA": "Breakfast", "sideB": "None", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Water vs juice — which is healthier?", "sideA": "Water", "sideB": "Juice", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Meat vs vegetables — which is more important in a meal?", "sideA": "Meat", "sideB": "Vegetables", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "House vs flat — which is better to live in?", "sideA": "House", "sideB": "Flat", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "City vs village — which is a better place to live?", "sideA": "City", "sideB": "Village", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Cash vs card — which is better to pay with?", "sideA": "Cash", "sideB": "Card", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Saving money vs spending money — which is better?", "sideA": "Saving", "sideB": "Spending", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Renting vs buying — which is better?", "sideA": "Renting", "sideB": "Buying", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Morning work vs evening work — which is better?", "sideA": "Morning", "sideB": "Evening", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Car vs bus — which is better to go to work?", "sideA": "Car", "sideB": "Bus", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Walking vs driving — which is better in the city?", "sideA": "Walking", "sideB": "Driving", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Car vs bus — which is better to go to work?", "sideA": "Car", "sideB": "Bus", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Walking vs driving — which is better in the city?", "sideA": "Walking", "sideB": "Driving", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Office vs home — which is a better place to work?", "sideA": "Office", "sideB": "Home", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Morning person vs night person — which is better?", "sideA": "Morning", "sideB": "Night", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Summer vs winter — which season is better?", "sideA": "Summer", "sideB": "Winter", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Short holiday vs long holiday — which is better?", "sideA": "Short", "sideB": "Long", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Phone call vs message — which is better?", "sideA": "Call", "sideB": "Message", "level": "starter", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Morning shower vs evening shower — which is correct?", "sideA": "Morning", "sideB": "Evening", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Monday vs Friday — which day is better?", "sideA": "Monday", "sideB": "Friday", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Too hot vs too cold — which is worse?", "sideA": "Too hot", "sideB": "Too cold", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Window seat vs aisle seat — which is better on a plane?", "sideA": "Window", "sideB": "Aisle", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Working full-time vs working part-time — which is better?", "sideA": "Full-time", "sideB": "Part-time", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Working in an office vs working from home — which do you prefer?", "sideA": "Office", "sideB": "Home", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "A job you love vs a job that pays well — which is more important?", "sideA": "Job you love", "sideB": "Pays well", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Working with other people vs working alone — which is better?", "sideA": "With people", "sideB": "Alone", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "A short commute vs a long commute — which is more acceptable?", "sideA": "Short", "sideB": "Long", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Living alone vs living with a partner — which is better?", "sideA": "Alone", "sideB": "Partner", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Big city vs small town — which is a better place to live as an adult?", "sideA": "Big city", "sideB": "Small town", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Cooking at home vs eating out — which is better for daily life?", "sideA": "At home", "sideB": "Eating out", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Having children vs not having children — which life is better?", "sideA": "Children", "sideB": "No children", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Renting a flat vs buying a house — which is better for young adults?", "sideA": "Renting", "sideB": "Buying", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Exercise every day vs rest — which is better for your health?", "sideA": "Exercise", "sideB": "Rest", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Going to the doctor vs waiting — which is better when you feel ill?", "sideA": "Doctor", "sideB": "Waiting", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Sleeping eight hours vs sleeping less — which is more realistic for adults?", "sideA": "8 hours", "sideB": "Less", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Walking to work vs taking the car — which is better for your health?", "sideA": "Walking", "sideB": "Car", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Online shopping vs shopping in a store — which do you prefer?", "sideA": "Online", "sideB": "Store", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Saving for the future vs enjoying money now — which is wiser?", "sideA": "Saving", "sideB": "Enjoying now", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Expensive things vs cheap things — which is better value?", "sideA": "Expensive", "sideB": "Cheap", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Buying new vs buying second-hand — which is better?", "sideA": "New", "sideB": "Second-hand", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Watching TV at home vs going out — which is a better evening?", "sideA": "TV", "sideB": "Going out", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Holidays with family vs holidays with friends — which is better?", "sideA": "Family", "sideB": "Friends", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Staying in your country vs travelling abroad — which is a better holiday?", "sideA": "Your country", "sideB": "Abroad", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Sport vs reading — which is a better hobby for adults?", "sideA": "Sport", "sideB": "Reading", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Seeing friends often vs having time alone — which is more important?", "sideA": "Friends", "sideB": "Alone", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Replying to emails immediately vs leaving them for later — which is more professional?", "sideA": "Immediately", "sideB": "Later", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Doing the dishes immediately vs leaving them until tomorrow — which is better?", "sideA": "Immediately", "sideB": "Tomorrow", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Being always early vs always five minutes late — which is worse at work?", "sideA": "Early", "sideB": "Late", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Having a very organised desk vs a messy desk — which person is more productive?", "sideA": "Organised", "sideB": "Messy", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Talking about work at dinner vs no work talk at dinner — which rule is better?", "sideA": "Work talk", "sideB": "No work talk", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
+            {"topic": "Morning person vs night person — which is better?", "sideA": "Morning", "sideB": "Night", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Summer vs winter — which season is better?", "sideA": "Summer", "sideB": "Winter", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Short holiday vs long holiday — which is better?", "sideA": "Short", "sideB": "Long", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Phone call vs message — which is better?", "sideA": "Call", "sideB": "Message", "level": "starter", "theme": "technology_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Morning shower vs evening shower — which is correct?", "sideA": "Morning", "sideB": "Evening", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Monday vs Friday — which day is better?", "sideA": "Monday", "sideB": "Friday", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Too hot vs too cold — which is worse?", "sideA": "Too hot", "sideB": "Too cold", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Window seat vs aisle seat — which is better on a plane?", "sideA": "Window", "sideB": "Aisle", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Working full-time vs working part-time — which is better?", "sideA": "Full-time", "sideB": "Part-time", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Working in an office vs working from home — which do you prefer?", "sideA": "Office", "sideB": "Home", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "A job you love vs a job that pays well — which is more important?", "sideA": "Job you love", "sideB": "Pays well", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Working with other people vs working alone — which is better?", "sideA": "With people", "sideB": "Alone", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "A short commute vs a long commute — which is more acceptable?", "sideA": "Short", "sideB": "Long", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Living alone vs living with a partner — which is better?", "sideA": "Alone", "sideB": "Partner", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Big city vs small town — which is a better place to live as an adult?", "sideA": "Big city", "sideB": "Small town", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Cooking at home vs eating out — which is better for daily life?", "sideA": "At home", "sideB": "Eating out", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Having children vs not having children — which life is better?", "sideA": "Children", "sideB": "No children", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Renting a flat vs buying a house — which is better for young adults?", "sideA": "Renting", "sideB": "Buying", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Exercise every day vs rest — which is better for your health?", "sideA": "Exercise", "sideB": "Rest", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Going to the doctor vs waiting — which is better when you feel ill?", "sideA": "Doctor", "sideB": "Waiting", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Sleeping eight hours vs sleeping less — which is more realistic for adults?", "sideA": "8 hours", "sideB": "Less", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Walking to work vs taking the car — which is better for your health?", "sideA": "Walking", "sideB": "Car", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Online shopping vs shopping in a store — which do you prefer?", "sideA": "Online", "sideB": "Store", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Saving for the future vs enjoying money now — which is wiser?", "sideA": "Saving", "sideB": "Enjoying now", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Expensive things vs cheap things — which is better value?", "sideA": "Expensive", "sideB": "Cheap", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Buying new vs buying second-hand — which is better?", "sideA": "New", "sideB": "Second-hand", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Watching TV at home vs going out — which is a better evening?", "sideA": "TV", "sideB": "Going out", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Holidays with family vs holidays with friends — which is better?", "sideA": "Family", "sideB": "Friends", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Staying in your country vs travelling abroad — which is a better holiday?", "sideA": "Your country", "sideB": "Abroad", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Sport vs reading — which is a better hobby for adults?", "sideA": "Sport", "sideB": "Reading", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Seeing friends often vs having time alone — which is more important?", "sideA": "Friends", "sideB": "Alone", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Replying to emails immediately vs leaving them for later — which is more professional?", "sideA": "Immediately", "sideB": "Later", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Doing the dishes immediately vs leaving them until tomorrow — which is better?", "sideA": "Immediately", "sideB": "Tomorrow", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Being always early vs always five minutes late — which is worse at work?", "sideA": "Early", "sideB": "Late", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Having a very organised desk vs a messy desk — which person is more productive?", "sideA": "Organised", "sideB": "Messy", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Talking about work at dinner vs no work talk at dinner — which rule is better?", "sideA": "Work talk", "sideB": "No work talk", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
 
             {
                 "topic": "Language: Constitutive vs Expressive",
                 "sideA": "Constitutive",
                 "sideB": "Expressive",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Shapes reality",
                     "Limits thought"
@@ -306,7 +306,7 @@ const speakingData = {
                 "sideA": "Precision",
                 "sideB": "Ambiguity",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Clarity",
                     "Efficiency"
@@ -321,7 +321,7 @@ const speakingData = {
                 "sideA": "Rhetoric",
                 "sideB": "Logic",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Persuasive power",
                     "Emotional appeal"
@@ -336,7 +336,7 @@ const speakingData = {
                 "sideA": "Literal",
                 "sideB": "Interpretive",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Author intent",
                     "Stability"
@@ -351,7 +351,7 @@ const speakingData = {
                 "sideA": "Consensus",
                 "sideB": "Humility",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Established knowledge",
                     "Expert authority"
@@ -366,7 +366,7 @@ const speakingData = {
                 "sideA": "Expertise",
                 "sideB": "Lived Experience",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Scientific rigor",
                     "Objective data"
@@ -381,7 +381,7 @@ const speakingData = {
                 "sideA": "Virtue",
                 "sideB": "Paralysis",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Critical thinking",
                     "Skepticism"
@@ -396,7 +396,7 @@ const speakingData = {
                 "sideA": "Narrative",
                 "sideB": "Data",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Emotional impact",
                     "Human connection"
@@ -411,7 +411,7 @@ const speakingData = {
                 "sideA": "Consent",
                 "sideB": "Outcome",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Democratic process",
                     "Moral right"
@@ -426,7 +426,7 @@ const speakingData = {
                 "sideA": "Guarantor",
                 "sideB": "Threat",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Rule of law",
                     "Protection of rights"
@@ -441,7 +441,7 @@ const speakingData = {
                 "sideA": "Rights",
                 "sideB": "Responsibilities",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Individual liberty",
                     "Legal protection"
@@ -456,7 +456,7 @@ const speakingData = {
                 "sideA": "Neutrality",
                 "sideB": "Value-laden",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Impartiality",
                     "Fairness"
@@ -471,7 +471,7 @@ const speakingData = {
                 "sideA": "Intention",
                 "sideB": "Reception",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Author's vision",
                     "Original context"
@@ -486,7 +486,7 @@ const speakingData = {
                 "sideA": "Aesthetic",
                 "sideB": "Moral",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Art for art's sake",
                     "Pure beauty"
@@ -501,7 +501,7 @@ const speakingData = {
                 "sideA": "Avant-garde",
                 "sideB": "Accessibility",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Pushing boundaries",
                     "Intellectual challenge"
@@ -516,7 +516,7 @@ const speakingData = {
                 "sideA": "Institutional",
                 "sideB": "Outsider",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Historical preservation",
                     "Standards"
@@ -531,7 +531,7 @@ const speakingData = {
                 "sideA": "Precautionary",
                 "sideB": "Proactionary",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Risk avoidance",
                     "Safety first"
@@ -546,7 +546,7 @@ const speakingData = {
                 "sideA": "Inherently Good",
                 "sideB": "Ethically Neutral",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Enlightenment values",
                     "Solving problems"
@@ -561,7 +561,7 @@ const speakingData = {
                 "sideA": "Existential Risk",
                 "sideB": "Present Suffering",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Long-term survival",
                     "Future generations"
@@ -576,7 +576,7 @@ const speakingData = {
                 "sideA": "Consciousness",
                 "sideB": "AGI",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Biological uniqueness",
                     "Subjective experience"
@@ -591,7 +591,7 @@ const speakingData = {
                 "sideA": "Real",
                 "sideB": "Illusion",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Technological advancement",
                     "Improved quality of life"
@@ -606,7 +606,7 @@ const speakingData = {
                 "sideA": "Liberal Order",
                 "sideB": "Multipolarity",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Universal values",
                     "Global stability"
@@ -621,7 +621,7 @@ const speakingData = {
                 "sideA": "Memory",
                 "sideB": "Forgetting",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Learning from history",
                     "Identity"
@@ -636,7 +636,7 @@ const speakingData = {
                 "sideA": "Tragedy",
                 "sideB": "Cooperation",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Self-interest",
                     "Resource depletion"
@@ -651,7 +651,7 @@ const speakingData = {
                 "sideA": "Red",
                 "sideB": "Blue",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -660,7 +660,7 @@ const speakingData = {
                 "sideA": "Yellow",
                 "sideB": "Green",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -669,7 +669,7 @@ const speakingData = {
                 "sideA": "Black",
                 "sideB": "White",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -678,7 +678,7 @@ const speakingData = {
                 "sideA": "Pink",
                 "sideB": "Purple",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -687,7 +687,7 @@ const speakingData = {
                 "sideA": "Circle",
                 "sideB": "Square",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -696,7 +696,7 @@ const speakingData = {
                 "sideA": "Big",
                 "sideB": "Small",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -705,7 +705,7 @@ const speakingData = {
                 "sideA": "Triangle",
                 "sideB": "Rectangle",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -714,7 +714,7 @@ const speakingData = {
                 "sideA": "Ball",
                 "sideB": "Doll",
                 "level": "starter",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -741,7 +741,7 @@ const speakingData = {
                 "sideA": "Chair",
                 "sideB": "Floor",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -786,7 +786,7 @@ const speakingData = {
                 "sideA": "Water",
                 "sideB": "Juice",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -795,7 +795,7 @@ const speakingData = {
                 "sideA": "Apple",
                 "sideB": "Banana",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -804,7 +804,7 @@ const speakingData = {
                 "sideA": "Bread",
                 "sideB": "Rice",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -813,7 +813,7 @@ const speakingData = {
                 "sideA": "Milk",
                 "sideB": "Water",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -822,7 +822,7 @@ const speakingData = {
                 "sideA": "With family",
                 "sideB": "Alone",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -831,7 +831,7 @@ const speakingData = {
                 "sideA": "Brother",
                 "sideB": "Sister",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -840,7 +840,7 @@ const speakingData = {
                 "sideA": "Big family",
                 "sideB": "Small family",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -849,7 +849,7 @@ const speakingData = {
                 "sideA": "Oldest",
                 "sideB": "Youngest",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -858,7 +858,7 @@ const speakingData = {
                 "sideA": "Morning",
                 "sideB": "Afternoon",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -867,7 +867,7 @@ const speakingData = {
                 "sideA": "Reading",
                 "sideB": "Maths",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -876,7 +876,7 @@ const speakingData = {
                 "sideA": "School",
                 "sideB": "Home",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -885,7 +885,7 @@ const speakingData = {
                 "sideA": "Homework",
                 "sideB": "None",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -894,7 +894,7 @@ const speakingData = {
                 "sideA": "Alone",
                 "sideB": "Partner",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -903,7 +903,7 @@ const speakingData = {
                 "sideA": "Paper",
                 "sideB": "Computer",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -912,7 +912,7 @@ const speakingData = {
                 "sideA": "Breakfast",
                 "sideB": "Dinner",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -921,7 +921,7 @@ const speakingData = {
                 "sideA": "Hot",
                 "sideB": "Cold",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -930,7 +930,7 @@ const speakingData = {
                 "sideA": "Home",
                 "sideB": "Restaurant",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -939,7 +939,7 @@ const speakingData = {
                 "sideA": "Sweet",
                 "sideB": "Savoury",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -948,7 +948,7 @@ const speakingData = {
                 "sideA": "Cooking",
                 "sideB": "Buying",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -957,7 +957,7 @@ const speakingData = {
                 "sideA": "Early",
                 "sideB": "Late",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -966,7 +966,7 @@ const speakingData = {
                 "sideA": "Morning",
                 "sideB": "Evening",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -975,7 +975,7 @@ const speakingData = {
                 "sideA": "Weekdays",
                 "sideB": "Weekends",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -984,7 +984,7 @@ const speakingData = {
                 "sideA": "Summer",
                 "sideB": "Winter",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -993,7 +993,7 @@ const speakingData = {
                 "sideA": "Early",
                 "sideB": "Late",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1002,7 +1002,7 @@ const speakingData = {
                 "sideA": "House",
                 "sideB": "Flat",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1011,7 +1011,7 @@ const speakingData = {
                 "sideA": "City",
                 "sideB": "Countryside",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1020,7 +1020,7 @@ const speakingData = {
                 "sideA": "Bedroom",
                 "sideB": "Living room",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1029,7 +1029,7 @@ const speakingData = {
                 "sideA": "Indoor",
                 "sideB": "Outdoor",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1038,7 +1038,7 @@ const speakingData = {
                 "sideA": "TV",
                 "sideB": "Book",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1047,7 +1047,7 @@ const speakingData = {
                 "sideA": "Sport",
                 "sideB": "Video game",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1056,7 +1056,7 @@ const speakingData = {
                 "sideA": "Drawing",
                 "sideB": "Singing",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1065,7 +1065,7 @@ const speakingData = {
                 "sideA": "Alone",
                 "sideB": "Friends",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1074,7 +1074,7 @@ const speakingData = {
                 "sideA": "Swimming",
                 "sideB": "Running",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1083,7 +1083,7 @@ const speakingData = {
                 "sideA": "Music",
                 "sideB": "Sport",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1101,7 +1101,7 @@ const speakingData = {
                 "sideA": "Rain",
                 "sideB": "Sunshine",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1110,7 +1110,7 @@ const speakingData = {
                 "sideA": "Sea",
                 "sideB": "Mountains",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1119,7 +1119,7 @@ const speakingData = {
                 "sideA": "Flowers",
                 "sideB": "Trees",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1128,7 +1128,7 @@ const speakingData = {
                 "sideA": "Car",
                 "sideB": "Bus",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1137,7 +1137,7 @@ const speakingData = {
                 "sideA": "Walking",
                 "sideB": "Cycling",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1146,7 +1146,7 @@ const speakingData = {
                 "sideA": "Short",
                 "sideB": "Long",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1155,7 +1155,7 @@ const speakingData = {
                 "sideA": "Alone",
                 "sideB": "Family",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1164,7 +1164,7 @@ const speakingData = {
                 "sideA": "Online",
                 "sideB": "In-person",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [
                     "Convenience",
                     "Better prices"
@@ -1179,7 +1179,7 @@ const speakingData = {
                 "sideA": "Paper",
                 "sideB": "E-books",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [
                     "Scent/Feel",
                     "Collectable"
@@ -1194,7 +1194,7 @@ const speakingData = {
                 "sideA": "Home",
                 "sideB": "Office",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [
                     "No commute",
                     "Flexibility"
@@ -1209,7 +1209,7 @@ const speakingData = {
                 "sideA": "Electric",
                 "sideB": "Petrol",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [
                     "Environment",
                     "Quiet"
@@ -1224,7 +1224,7 @@ const speakingData = {
                 "sideA": "Morning",
                 "sideB": "Evening",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1233,7 +1233,7 @@ const speakingData = {
                 "sideA": "Strict",
                 "sideB": "Friendly",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1242,7 +1242,7 @@ const speakingData = {
                 "sideA": "Textbook",
                 "sideB": "Videos",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1251,7 +1251,7 @@ const speakingData = {
                 "sideA": "Short",
                 "sideB": "Long",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1260,7 +1260,7 @@ const speakingData = {
                 "sideA": "Group",
                 "sideB": "Individual",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1269,7 +1269,7 @@ const speakingData = {
                 "sideA": "Uniform",
                 "sideB": "Casual",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1278,7 +1278,7 @@ const speakingData = {
                 "sideA": "Home-cooked",
                 "sideB": "Fast food",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1287,7 +1287,7 @@ const speakingData = {
                 "sideA": "Big meals",
                 "sideB": "Small snacks",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1296,7 +1296,7 @@ const speakingData = {
                 "sideA": "Vegetarian",
                 "sideB": "Meat",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1305,7 +1305,7 @@ const speakingData = {
                 "sideA": "Tea",
                 "sideB": "Coffee",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1314,7 +1314,7 @@ const speakingData = {
                 "sideA": "Alone",
                 "sideB": "With others",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1323,7 +1323,7 @@ const speakingData = {
                 "sideA": "Team sport",
                 "sideB": "Individual sport",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1332,7 +1332,7 @@ const speakingData = {
                 "sideA": "Indoors",
                 "sideB": "Outdoors",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1341,7 +1341,7 @@ const speakingData = {
                 "sideA": "Cinema",
                 "sideB": "Theatre",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1350,7 +1350,7 @@ const speakingData = {
                 "sideA": "Listening",
                 "sideB": "Playing",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1359,7 +1359,7 @@ const speakingData = {
                 "sideA": "Video games",
                 "sideB": "Board games",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1368,7 +1368,7 @@ const speakingData = {
                 "sideA": "Shopping",
                 "sideB": "Staying home",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1377,7 +1377,7 @@ const speakingData = {
                 "sideA": "Mobile",
                 "sideB": "Computer",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1386,7 +1386,7 @@ const speakingData = {
                 "sideA": "Message",
                 "sideB": "Call",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1395,7 +1395,7 @@ const speakingData = {
                 "sideA": "E-book",
                 "sideB": "Paper book",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1404,7 +1404,7 @@ const speakingData = {
                 "sideA": "Phone",
                 "sideB": "Camera",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1413,7 +1413,7 @@ const speakingData = {
                 "sideA": "Beach",
                 "sideB": "Mountains",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1422,7 +1422,7 @@ const speakingData = {
                 "sideA": "Train",
                 "sideB": "Plane",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1431,7 +1431,7 @@ const speakingData = {
                 "sideA": "City",
                 "sideB": "Village",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1440,7 +1440,7 @@ const speakingData = {
                 "sideA": "Hotel",
                 "sideB": "Local family",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1449,7 +1449,7 @@ const speakingData = {
                 "sideA": "Abroad",
                 "sideB": "Own country",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1458,7 +1458,7 @@ const speakingData = {
                 "sideA": "Many friends",
                 "sideB": "Close friends",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1467,7 +1467,7 @@ const speakingData = {
                 "sideA": "In person",
                 "sideB": "Online",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1476,7 +1476,7 @@ const speakingData = {
                 "sideA": "With parents",
                 "sideB": "Student flat",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1485,7 +1485,7 @@ const speakingData = {
                 "sideA": "Home",
                 "sideB": "Going out",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1494,7 +1494,7 @@ const speakingData = {
                 "sideA": "Saving",
                 "sideB": "Spending",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1503,7 +1503,7 @@ const speakingData = {
                 "sideA": "Part-time",
                 "sideB": "Focus school",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1512,7 +1512,7 @@ const speakingData = {
                 "sideA": "Money",
                 "sideB": "Free time",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1521,7 +1521,7 @@ const speakingData = {
                 "sideA": "Online",
                 "sideB": "Classroom",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1530,7 +1530,7 @@ const speakingData = {
                 "sideA": "Facts",
                 "sideB": "Finding info",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1539,7 +1539,7 @@ const speakingData = {
                 "sideA": "University",
                 "sideB": "Vocational",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1548,7 +1548,7 @@ const speakingData = {
                 "sideA": "Exams",
                 "sideB": "Continuous",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1557,7 +1557,7 @@ const speakingData = {
                 "sideA": "School",
                 "sideB": "Living abroad",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1566,7 +1566,7 @@ const speakingData = {
                 "sideA": "Single-sex",
                 "sideB": "Mixed",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1575,7 +1575,7 @@ const speakingData = {
                 "sideA": "Social media",
                 "sideB": "Face-to-face",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1584,7 +1584,7 @@ const speakingData = {
                 "sideA": "Streaming",
                 "sideB": "Traditional TV",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1593,7 +1593,7 @@ const speakingData = {
                 "sideA": "Home",
                 "sideB": "Office",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1602,7 +1602,7 @@ const speakingData = {
                 "sideA": "Online news",
                 "sideB": "Newspaper",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1611,7 +1611,7 @@ const speakingData = {
                 "sideA": "Social media",
                 "sideB": "Nature",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1620,7 +1620,7 @@ const speakingData = {
                 "sideA": "Public transport",
                 "sideB": "Car",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1629,7 +1629,7 @@ const speakingData = {
                 "sideA": "Second-hand",
                 "sideB": "New",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1638,7 +1638,7 @@ const speakingData = {
                 "sideA": "City",
                 "sideB": "Countryside",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1647,7 +1647,7 @@ const speakingData = {
                 "sideA": "Vegetarianism",
                 "sideB": "Meat",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1656,7 +1656,7 @@ const speakingData = {
                 "sideA": "Individual",
                 "sideB": "Government",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1665,7 +1665,7 @@ const speakingData = {
                 "sideA": "Stable job",
                 "sideB": "Creative career",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1674,7 +1674,7 @@ const speakingData = {
                 "sideA": "Own business",
                 "sideB": "Company",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1683,7 +1683,7 @@ const speakingData = {
                 "sideA": "Salary",
                 "sideB": "Satisfaction",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1692,7 +1692,7 @@ const speakingData = {
                 "sideA": "Long hours",
                 "sideB": "Balance",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1701,7 +1701,7 @@ const speakingData = {
                 "sideA": "Passion",
                 "sideB": "Prospects",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1710,7 +1710,7 @@ const speakingData = {
                 "sideA": "Individual",
                 "sideB": "Community",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1719,7 +1719,7 @@ const speakingData = {
                 "sideA": "Traditional",
                 "sideB": "Modern",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1728,7 +1728,7 @@ const speakingData = {
                 "sideA": "Volunteering",
                 "sideB": "Donating",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1737,7 +1737,7 @@ const speakingData = {
                 "sideA": "Fame",
                 "sideB": "Quiet difference",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1746,7 +1746,7 @@ const speakingData = {
                 "sideA": "Rules",
                 "sideB": "Self-thought",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1755,7 +1755,7 @@ const speakingData = {
                 "sideA": "Physical",
                 "sideB": "Mental",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1764,7 +1764,7 @@ const speakingData = {
                 "sideA": "Prevention",
                 "sideB": "Treatment",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1773,7 +1773,7 @@ const speakingData = {
                 "sideA": "Competitive",
                 "sideB": "For fun",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1782,7 +1782,7 @@ const speakingData = {
                 "sideA": "Private",
                 "sideB": "Public",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1791,7 +1791,7 @@ const speakingData = {
                 "sideA": "Cinema",
                 "sideB": "Literature",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1800,7 +1800,7 @@ const speakingData = {
                 "sideA": "Modern",
                 "sideB": "Classical",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1809,7 +1809,7 @@ const speakingData = {
                 "sideA": "Preserving old",
                 "sideB": "Building new",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1818,7 +1818,7 @@ const speakingData = {
                 "sideA": "Local",
                 "sideB": "Globalisation",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1827,7 +1827,7 @@ const speakingData = {
                 "sideA": "Social media",
                 "sideB": "Face-to-face",
                 "level": "upper-intermediate",
-                "theme": "people_society",
+                "theme": "politics_governance_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1836,7 +1836,7 @@ const speakingData = {
                 "sideA": "Urban",
                 "sideB": "Rural",
                 "level": "upper-intermediate",
-                "theme": "travel_places",
+                "theme": "globalisation_trade_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1845,7 +1845,7 @@ const speakingData = {
                 "sideA": "Online",
                 "sideB": "Classroom",
                 "level": "upper-intermediate",
-                "theme": "education_work",
+                "theme": "academic_vocabulary_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1854,7 +1854,7 @@ const speakingData = {
                 "sideA": "Renewable",
                 "sideB": "Nuclear",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1863,7 +1863,7 @@ const speakingData = {
                 "sideA": "Fast fashion",
                 "sideB": "Sustainable",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1872,7 +1872,7 @@ const speakingData = {
                 "sideA": "AI creativity",
                 "sideB": "Human artistry",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1881,7 +1881,7 @@ const speakingData = {
                 "sideA": "Space",
                 "sideB": "Deep sea",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1890,7 +1890,7 @@ const speakingData = {
                 "sideA": "Privacy",
                 "sideB": "Security",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1899,7 +1899,7 @@ const speakingData = {
                 "sideA": "GMOs",
                 "sideB": "Organic",
                 "level": "advanced",
-                "theme": "nature_environment",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1908,7 +1908,7 @@ const speakingData = {
                 "sideA": "UBI",
                 "sideB": "Job guarantee",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1917,7 +1917,7 @@ const speakingData = {
                 "sideA": "Pink",
                 "sideB": "Orange",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1926,7 +1926,7 @@ const speakingData = {
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1935,7 +1935,7 @@ const speakingData = {
                 "sideA": "Chair",
                 "sideB": "Sofa",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1944,7 +1944,7 @@ const speakingData = {
                 "sideA": "Bag",
                 "sideB": "Box",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1962,7 +1962,7 @@ const speakingData = {
                 "sideA": "Chocolate",
                 "sideB": "Sweets",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1971,7 +1971,7 @@ const speakingData = {
                 "sideA": "Spoon",
                 "sideB": "Fork",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1980,7 +1980,7 @@ const speakingData = {
                 "sideA": "Hat",
                 "sideB": "Shoes",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1989,7 +1989,7 @@ const speakingData = {
                 "sideA": "Sun",
                 "sideB": "Moon",
                 "level": "starter",
-                "theme": "nature_environment",
+                "theme": "weather_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1998,7 +1998,7 @@ const speakingData = {
                 "sideA": "Socks",
                 "sideB": "No socks",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2007,7 +2007,7 @@ const speakingData = {
                 "sideA": "With grandparents",
                 "sideB": "Not living with them",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2016,7 +2016,7 @@ const speakingData = {
                 "sideA": "Mum's",
                 "sideB": "Dad's",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2025,7 +2025,7 @@ const speakingData = {
                 "sideA": "Maths",
                 "sideB": "Art",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2034,7 +2034,7 @@ const speakingData = {
                 "sideA": "Paper",
                 "sideB": "Tablet",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2043,7 +2043,7 @@ const speakingData = {
                 "sideA": "Pizza",
                 "sideB": "Pasta",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2052,7 +2052,7 @@ const speakingData = {
                 "sideA": "Ice cream",
                 "sideB": "Cake",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2061,7 +2061,7 @@ const speakingData = {
                 "sideA": "Short days",
                 "sideB": "Long days",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2070,7 +2070,7 @@ const speakingData = {
                 "sideA": "Park",
                 "sideB": "Beach",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2079,7 +2079,7 @@ const speakingData = {
                 "sideA": "Plane",
                 "sideB": "Train",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2088,7 +2088,7 @@ const speakingData = {
                 "sideA": "Morning",
                 "sideB": "Evening",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2106,7 +2106,7 @@ const speakingData = {
                 "sideA": "Fork",
                 "sideB": "Hands",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2115,7 +2115,7 @@ const speakingData = {
                 "sideA": "Socks on",
                 "sideB": "No socks",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2124,7 +2124,7 @@ const speakingData = {
                 "sideA": "Sandcastle",
                 "sideB": "Snowman",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2133,7 +2133,7 @@ const speakingData = {
                 "sideA": "Lots of exams",
                 "sideB": "Very few exams",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2142,7 +2142,7 @@ const speakingData = {
                 "sideA": "At 7",
                 "sideB": "At 5",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2151,7 +2151,7 @@ const speakingData = {
                 "sideA": "Slowly",
                 "sideB": "Quickly",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2160,7 +2160,7 @@ const speakingData = {
                 "sideA": "Cooking at home",
                 "sideB": "Ordering online",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2169,7 +2169,7 @@ const speakingData = {
                 "sideA": "Cooking",
                 "sideB": "Baking",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2178,7 +2178,7 @@ const speakingData = {
                 "sideA": "Gym",
                 "sideB": "Outside",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2187,7 +2187,7 @@ const speakingData = {
                 "sideA": "Phone photos",
                 "sideB": "Printed photos",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2196,7 +2196,7 @@ const speakingData = {
                 "sideA": "Smart TV",
                 "sideB": "Computer",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2205,7 +2205,7 @@ const speakingData = {
                 "sideA": "Hot country",
                 "sideB": "Cold country",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2214,7 +2214,7 @@ const speakingData = {
                 "sideA": "Giving",
                 "sideB": "Receiving",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2223,7 +2223,7 @@ const speakingData = {
                 "sideA": "Indoors",
                 "sideB": "Outdoors",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2232,7 +2232,7 @@ const speakingData = {
                 "sideA": "Pineapple",
                 "sideB": "No pineapple",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2241,7 +2241,7 @@ const speakingData = {
                 "sideA": "Milk first",
                 "sideB": "Tea first",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2250,7 +2250,7 @@ const speakingData = {
                 "sideA": "Monday",
                 "sideB": "Friday",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2259,7 +2259,7 @@ const speakingData = {
                 "sideA": "Before alarm",
                 "sideB": "Until alarm",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2277,7 +2277,7 @@ const speakingData = {
                 "sideA": "Too hot",
                 "sideB": "Too cold",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2286,7 +2286,7 @@ const speakingData = {
                 "sideA": "Mistakes",
                 "sideB": "Success",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2295,7 +2295,7 @@ const speakingData = {
                 "sideA": "Tablets",
                 "sideB": "Notebooks",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2304,7 +2304,7 @@ const speakingData = {
                 "sideA": "Contactable",
                 "sideB": "Free time",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2313,7 +2313,7 @@ const speakingData = {
                 "sideA": "Reusing",
                 "sideB": "Recycling",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2322,7 +2322,7 @@ const speakingData = {
                 "sideA": "One career",
                 "sideB": "Changing often",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2331,7 +2331,7 @@ const speakingData = {
                 "sideA": "Sleep",
                 "sideB": "Exercise",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2340,7 +2340,7 @@ const speakingData = {
                 "sideA": "Pop",
                 "sideB": "Classical",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2349,7 +2349,7 @@ const speakingData = {
                 "sideA": "Knowing",
                 "sideB": "Surprised",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2358,7 +2358,7 @@ const speakingData = {
                 "sideA": "Immediately",
                 "sideB": "Taking time",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2367,7 +2367,7 @@ const speakingData = {
                 "sideA": "Binge-watching",
                 "sideB": "Weekly",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2376,7 +2376,7 @@ const speakingData = {
                 "sideA": "Window seat",
                 "sideB": "Aisle seat",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2385,7 +2385,7 @@ const speakingData = {
                 "sideA": "Skipping",
                 "sideB": "Bad session",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2394,7 +2394,7 @@ const speakingData = {
                 "sideA": "To yourself",
                 "sideB": "To pet",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -2403,37 +2403,37 @@ const speakingData = {
             {
                 "topic": "My favorite childhood memory",
                 "level": "starter",
-                "theme": "people_society"
+                "theme": "family_A0"
             },
             {
                 "topic": "The last vacation I took",
                 "level": "elementary",
-                "theme": "travel_places"
+                "theme": "transport_travel_A2"
             },
             {
                 "topic": "A person who inspired me",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "topic": "The future of the world in 50 years",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "topic": "The role of art in modern society",
                 "level": "advanced",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_hobbies_A2"
             },
             {
                 "topic": "Complexity of human consciousness",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "topic": "The importance of mental health awareness",
                 "level": "intermediate",
-                "theme": "health_body"
+                "theme": "mental_health_B1"
             },
             {
                 "topic": "My dream job and why",
@@ -2443,12 +2443,12 @@ const speakingData = {
             {
                 "topic": "The impact of climate change on local communities",
                 "level": "upper-intermediate",
-                "theme": "nature_environment"
+                "theme": "environment_policy_B2"
             },
             {
                 "topic": "Artificial Intelligence: Tool or threat?",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             }
         ]
     },
@@ -2457,62 +2457,62 @@ const speakingData = {
             {
                 "text": "Le petit-déjeuner est-il le repas le plus important ?",
                 "level": "starter",
-                "theme": "food_drinks"
+                "theme": "food_drink_A0"
             },
             {
                 "text": "Les chiens sont-ils de meilleurs animaux de compagnie que les chats ?",
                 "level": "starter",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_A1"
             },
             {
                 "text": "Les enfants devraient-ils avoir des téléphones portables ?",
                 "level": "elementary",
-                "theme": "science_technology"
+                "theme": "technology_A2"
             },
             {
                 "text": "Est-il préférable de vivre dans une maison ou un appartement ?",
                 "level": "elementary",
-                "theme": "daily_life"
+                "theme": "neighbourhood_A2"
             },
             {
                 "text": "Pouvons-nous vivre sans Internet pendant une semaine ?",
                 "level": "intermediate",
-                "theme": "science_technology"
+                "theme": "media_news_B1"
             },
             {
                 "text": "Tout le monde devrait-il apprendre une deuxième langue ?",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "Les réseaux sociaux détruisent-ils nos compétences sociales ?",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "text": "Les transports publics devraient-ils être gratuits ?",
                 "level": "upper-intermediate",
-                "theme": "travel_places"
+                "theme": "globalisation_trade_B2"
             },
             {
                 "text": "Génie génétique : progrès ou péril ?",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             },
             {
                 "text": "Le revenu universel est-il une solution à l'automatisation ?",
                 "level": "advanced",
-                "theme": "people_society"
+                "theme": "power_institutions_C1"
             },
             {
                 "text": "Le libre arbitre existe-t-il vraiment ou est-ce une illusion ?",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "text": "L'éthique de la colonisation d'autres planètes.",
                 "level": "proficiency",
-                "theme": "science_technology"
+                "theme": "epistemology_truth_C2"
             }
         ],
         "criticsCorner": [
@@ -2520,231 +2520,231 @@ const speakingData = {
                 "text": "Je pense, donc je suis.",
                 "author": "Descartes",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "La vie, c'est ce qui arrive quand on est occupé à faire d'autres projets.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "people_society"
+                "theme": "relationships_family_A2"
             },
             {
                 "text": "La seule constante est le changement.",
                 "author": "Heraclitus",
                 "level": "upper-intermediate",
-                "theme": "people_society"
+                "theme": "politics_governance_B2"
             }
         ],
-        "debates": [{"topic":"L'éthique protestante du travail comme réussite civilisationnelle vs comme source originelle de la misère adulte — quel héritage domine aujourd'hui ?","sideA":"Réussite civilisationnelle","sideB":"Source de misère","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"La marchandisation de la passion vs la libération de transformer le travail en sens — « faites ce que vous aimez » est-il un conseil ou un piège ?","sideA":"Conseil","sideB":"Piège","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"La carrière comme identité vs la carrière comme moyen — quelle est la relation la plus cohérente qu'un adulte moderne puisse entretenir avec son travail ?","sideA":"Identité","sideB":"Moyen","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Le travailleur acharné vertueux vs l'oisif stratégique — lequel a été célébré de la manière la plus malhonnête dans la culture occidentale ?","sideA":"Travailleur acharné","sideB":"Oisif","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"L'ambition adulte comme admirable vs l'ambition adulte comme incapacité à accepter la finitude — quelle lecture est la plus honnête psychologiquement ?","sideA":"Admirable","sideB":"Incapacité à accepter la finitude","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"L'amour romantique comme principe organisateur de la vie adulte vs comme mythe historiquement contingent et commercialement soutenu — lequel est le plus défendable ?","sideA":"Principe organisateur","sideB":"Mythe commercial","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La transparence radicale dans les relations vs la nécessité d'un moi privé — l'intimité et l'individuation peuvent-elles coexister ?","sideA":"Transparence","sideB":"Moi privé","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"L'éthique du « care » comme correctif féministe vs comme réassignation des mêmes fardeaux — le concept a-t-il tenu ses promesses ?","sideA":"Correctif féministe","sideB":"Réassignation des fardeaux","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Choisir de ne pas avoir d'enfants comme résistance à l'idéologie nataliste vs comme décision entièrement personnelle sans dimension politique — peuvent-elles être séparées proprement ?","sideA":"Résistance","sideB":"Décision personnelle","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La conscience de la mortalité comme condition préalable à une vie adulte pleine de sens vs comme son principal obstacle — quelle est la position la plus vivable ?","sideA":"Condition préalable","sideB":"Obstacle","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Le vieillissement comme déclin vs le vieillissement comme accumulation — quel récit est le plus honnête, et lequel est le plus utile ?","sideA":"Déclin","sideB":"Accumulation","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La médicalisation du vieillissement comme progrès vs comme refus d'accepter la condition humaine — où faut-il tracer la limite ?","sideA":"Progrès","sideB":"Refus","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
-            {"topic":"La mémoire comme substance de l'identité adulte vs la mémoire comme narrateur hautement peu fiable — quelles sont les implications pour la construction du soi ?","sideA":"Substance","sideB":"Narrateur peu fiable","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La complicité du citoyen adulte dans des systèmes injustes par la consommation ordinaire vs l'irrélevance structurelle de la pureté morale individuelle — quel est le cadrage le plus honnête ?","sideA":"Complicité","sideB":"Irrélevance structurelle","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Le désenchantement politique comme réponse rationnelle aux preuves disponibles vs comme forme de privilège — quelle lecture est la plus défendable empiriquement ?","sideA":"Réponse rationnelle","sideB":"Privilège","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La justice intergénérationnelle comme défi moral central de notre temps vs comme concept obscurcissant systématiquement les inégalités sociales et raciales actuelles — quelle est la critique la plus forte ?","sideA":"Défi moral","sideB":"Obscurcissement des inégalités","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La démocratie libérale comme le moins mauvais des systèmes vs comme un système ayant structurellement épuisé sa capacité de réforme — quel verdict les preuves soutiennent-elles ?","sideA":"Moins mauvais système","sideB":"Capacité épuisée","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La capacité d'auto-tromperie comme défaut cognitif vs comme mécanisme adaptatif — quel récit sert le mieux l'adulte qui veut bien vivre ?","sideA":"Défaut cognitif","sideB":"Mécanisme adaptatif","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"L'expertise comme autorité épistémique vs l'expertise comme forme de pouvoir institutionnel méritant examen — quand le scepticisme sain devient-il une lâcheté épistémique ?","sideA":"Autorité épistémique","sideB":"Pouvoir institutionnel","level":"proficiency","theme":"science_technology","ideasA":[],"ideasB":[]},
-            {"topic":"Le récit comme principal moyen pour les adultes de donner un sens à leur vie vs le récit comme principal moyen pour les adultes de s'égarer — quelle fonction domine ?","sideA":"Donner du sens","sideB":"S'égarer","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"L'honnêteté comme vertu inconditionnelle vs l'honnêteté comme vertu contextuelle — existe-t-il un compte rendu cohérent de la véracité qui survive au contact des relations adultes réelles ?","sideA":"Vertu inconditionnelle","sideB":"Vertu contextuelle","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"L'adulte qui a « enfin tout compris » vs l'adulte qui a accepté qu'il ne comprendrait jamais — lequel représente une relation plus sophistiquée à la réalité ?","sideA":"Tout compris","sideB":"Accepté l'inconnu","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est empiriquement plus transformatrice, et pourquoi la réponse nous met-elle mal à l'aise ?","sideA":"Thérapeute","sideB":"Coiffeur","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
+        "debates": [{"topic":"L'éthique protestante du travail comme réussite civilisationnelle vs comme source originelle de la misère adulte — quel héritage domine aujourd'hui ?","sideA":"Réussite civilisationnelle","sideB":"Source de misère","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La marchandisation de la passion vs la libération de transformer le travail en sens — « faites ce que vous aimez » est-il un conseil ou un piège ?","sideA":"Conseil","sideB":"Piège","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La carrière comme identité vs la carrière comme moyen — quelle est la relation la plus cohérente qu'un adulte moderne puisse entretenir avec son travail ?","sideA":"Identité","sideB":"Moyen","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Le travailleur acharné vertueux vs l'oisif stratégique — lequel a été célébré de la manière la plus malhonnête dans la culture occidentale ?","sideA":"Travailleur acharné","sideB":"Oisif","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'ambition adulte comme admirable vs l'ambition adulte comme incapacité à accepter la finitude — quelle lecture est la plus honnête psychologiquement ?","sideA":"Admirable","sideB":"Incapacité à accepter la finitude","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'amour romantique comme principe organisateur de la vie adulte vs comme mythe historiquement contingent et commercialement soutenu — lequel est le plus défendable ?","sideA":"Principe organisateur","sideB":"Mythe commercial","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La transparence radicale dans les relations vs la nécessité d'un moi privé — l'intimité et l'individuation peuvent-elles coexister ?","sideA":"Transparence","sideB":"Moi privé","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'éthique du « care » comme correctif féministe vs comme réassignation des mêmes fardeaux — le concept a-t-il tenu ses promesses ?","sideA":"Correctif féministe","sideB":"Réassignation des fardeaux","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Choisir de ne pas avoir d'enfants comme résistance à l'idéologie nataliste vs comme décision entièrement personnelle sans dimension politique — peuvent-elles être séparées proprement ?","sideA":"Résistance","sideB":"Décision personnelle","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La conscience de la mortalité comme condition préalable à une vie adulte pleine de sens vs comme son principal obstacle — quelle est la position la plus vivable ?","sideA":"Condition préalable","sideB":"Obstacle","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Le vieillissement comme déclin vs le vieillissement comme accumulation — quel récit est le plus honnête, et lequel est le plus utile ?","sideA":"Déclin","sideB":"Accumulation","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La médicalisation du vieillissement comme progrès vs comme refus d'accepter la condition humaine — où faut-il tracer la limite ?","sideA":"Progrès","sideB":"Refus","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La mémoire comme substance de l'identité adulte vs la mémoire comme narrateur hautement peu fiable — quelles sont les implications pour la construction du soi ?","sideA":"Substance","sideB":"Narrateur peu fiable","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La complicité du citoyen adulte dans des systèmes injustes par la consommation ordinaire vs l'irrélevance structurelle de la pureté morale individuelle — quel est le cadrage le plus honnête ?","sideA":"Complicité","sideB":"Irrélevance structurelle","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Le désenchantement politique comme réponse rationnelle aux preuves disponibles vs comme forme de privilège — quelle lecture est la plus défendable empiriquement ?","sideA":"Réponse rationnelle","sideB":"Privilège","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La justice intergénérationnelle comme défi moral central de notre temps vs comme concept obscurcissant systématiquement les inégalités sociales et raciales actuelles — quelle est la critique la plus forte ?","sideA":"Défi moral","sideB":"Obscurcissement des inégalités","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La démocratie libérale comme le moins mauvais des systèmes vs comme un système ayant structurellement épuisé sa capacité de réforme — quel verdict les preuves soutiennent-elles ?","sideA":"Moins mauvais système","sideB":"Capacité épuisée","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La capacité d'auto-tromperie comme défaut cognitif vs comme mécanisme adaptatif — quel récit sert le mieux l'adulte qui veut bien vivre ?","sideA":"Défaut cognitif","sideB":"Mécanisme adaptatif","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'expertise comme autorité épistémique vs l'expertise comme forme de pouvoir institutionnel méritant examen — quand le scepticisme sain devient-il une lâcheté épistémique ?","sideA":"Autorité épistémique","sideB":"Pouvoir institutionnel","level":"proficiency","theme": "epistemology_truth_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Le récit comme principal moyen pour les adultes de donner un sens à leur vie vs le récit comme principal moyen pour les adultes de s'égarer — quelle fonction domine ?","sideA":"Donner du sens","sideB":"S'égarer","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'honnêteté comme vertu inconditionnelle vs l'honnêteté comme vertu contextuelle — existe-t-il un compte rendu cohérent de la véracité qui survive au contact des relations adultes réelles ?","sideA":"Vertu inconditionnelle","sideB":"Vertu contextuelle","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'adulte qui a « enfin tout compris » vs l'adulte qui a accepté qu'il ne comprendrait jamais — lequel représente une relation plus sophistiquée à la réalité ?","sideA":"Tout compris","sideB":"Accepté l'inconnu","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est empiriquement plus transformatrice, et pourquoi la réponse nous met-elle mal à l'aise ?","sideA":"Thérapeute","sideB":"Coiffeur","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
 
-            {"topic": "La semaine de quatre jours vs la semaine de cinq jours — quel modèle profite le plus aux travailleurs et aux employeurs ?", "sideA": "Semaine de 4 jours", "sideB": "Semaine de 5 jours", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Revenu universel de base vs aide sociale ciblée — quel est le filet de sécurité le plus efficace pour les adultes actifs ?", "sideA": "Revenu universel", "sideB": "Aide ciblée", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'économie à la tâche (gig economy) vs l'emploi permanent — quel modèle sert le mieux les travailleurs à long terme ?", "sideA": "Économie à la tâche", "sideB": "Emploi permanent", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Méritocratie vs avantage structurel — qu'est-ce qui explique le mieux la réussite professionnelle ?", "sideA": "Méritocratie", "sideB": "Avantage structurel", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Transparence des salaires vs confidentialité des salaires — qu'est-ce qui crée un lieu de travail plus juste ?", "sideA": "Transparence", "sideB": "Confidentialité", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Automatisation vs travail humain — quelle est la plus grande menace à long terme pour l'emploi des adultes ?", "sideA": "Automatisation", "sideB": "Travail humain", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Télétravail vs présence au bureau — qu'est-ce qui est le mieux pour la progression de carrière et la culture d'équipe ?", "sideA": "Télétravail", "sideB": "Bureau", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Congé parental égal pour les hommes et les femmes vs congé maternité plus long — quelle politique est la plus juste ?", "sideA": "Congé égal", "sideB": "Maternité plus longue", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Choisir de ne pas avoir d'enfants vs pression sociale pour avoir une famille — qu'est-ce qui mérite le plus de respect ?", "sideA": "Pas d'enfants", "sideB": "Pression sociale", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Le mariage comme institution vs la cohabitation sans mariage — qu'est-ce qui est le plus pertinent aujourd'hui ?", "sideA": "Mariage", "sideB": "Cohabitation", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Foyers à deux revenus vs un partenaire restant à la maison — quel modèle est le mieux pour les enfants et les adultes ?", "sideA": "Deux revenus", "sideB": "Un au foyer", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'écart salarial entre hommes et femmes comme problème structurel vs une question de choix individuels — quelle explication a le plus de poids ?", "sideA": "Problème structurel", "sideB": "Choix individuels", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La propriété immobilière comme objectif vs un marché locatif professionnel — quel modèle de logement convient le mieux aux adultes modernes ?", "sideA": "Propriété", "sideB": "Location pro", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "La gentrification comme amélioration vs la gentrification comme déplacement — quelle approche est la plus honnête ?", "sideA": "Amélioration", "sideB": "Déplacement", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Densité urbaine vs étalement suburbain — quel est le meilleur modèle pour des villes vivables ?", "sideA": "Densité urbaine", "sideB": "Étalement", "level": "upper-intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Vivre près de sa famille vs s'éloigner pour les opportunités — quel choix produit un meilleur bien-être à long terme ?", "sideA": "Proche famille", "sideB": "S'éloigner", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Une population vieillissante comme une crise vs comme une ressource — quel cadrage est le plus productif ?", "sideA": "Crise", "sideB": "Ressource", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Responsabilité personnelle pour la santé vs facteurs systémiques — qu'est-ce qui pèse le plus dans l'explication des résultats de santé ?", "sideA": "Resp. personnelle", "sideB": "Facteurs systémiques", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Les jours de santé mentale comme un droit légitime au travail vs une source d'abus — où les employeurs doivent-ils fixer la limite ?", "sideA": "Droit légitime", "sideB": "Source d'abus", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Médecine préventive vs médecine curative — laquelle devrait recevoir plus de financement public ?", "sideA": "Préventive", "sideB": "Curative", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Médecine anti-âge vs vieillir avec grâce — quelle attitude est la plus cohérente ?", "sideA": "Anti-âge", "sideB": "Vieillir avec grâce", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Technologie de surveillance pour la sécurité publique vs droit à la vie privée — où doit se situer l'équilibre ?", "sideA": "Sécurité publique", "sideB": "Vie privée", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Les réseaux sociaux comme outil d'engagement civique vs comme moteur de polarisation — quel effet domine ?", "sideA": "Engagement civique", "sideB": "Polarisation", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "L'IA dans le recrutement vs le jugement humain — qu'est-ce qui produit des décisions d'embauche plus justes ?", "sideA": "IA", "sideB": "Jugement humain", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Le droit à l'oubli en ligne vs le droit du public à l'information — qu'est-ce qui devrait primer ?", "sideA": "Droit à l'oubli", "sideB": "Droit à l'info", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Vote obligatoire vs vote volontaire — qu'est-ce qui produit des démocraties plus saines ?", "sideA": "Obligatoire", "sideB": "Volontaire", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Engagement politique par la protestation vs par les canaux institutionnels — qu'est-ce qui est le plus efficace pour les adultes aujourd'hui ?", "sideA": "Protestation", "sideB": "Institutionnel", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Identité nationale vs identité européenne ou mondiale — qu'est-ce qui a le plus de sens pour les adultes en 2026 ?", "sideA": "Identité nationale", "sideB": "Identité mondiale", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Augmentations d'impôts pour financer les services publics vs coupes budgétaires — quel est le choix politique le plus défendable ?", "sideA": "Augmentation impôts", "sideB": "Coupes budgétaires", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Admettre que vous n'avez aucune idée de la façon dont fonctionne votre retraite vs prétendre avec assurance que vous le savez — quelle est l'expérience adulte la plus universelle ?", "sideA": "Admettre ignorance", "sideB": "Prétendre savoir", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Être la personne qui planifie toujours les événements sociaux vs être toujours celle qui se contente de venir — quel rôle est le plus épuisant ?", "sideA": "L'organisateur", "sideB": "L'invité", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Avoir une opinion tranchée sur les habitudes de cuisine de vos collègues vs ne pas s'en soucier du tout — quelle personne est la plus tolérable ?", "sideA": "Opinion tranchée", "sideB": "S'en fiche", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Assister à chaque événement social facultatif au travail vs n'assister à aucun — quelle stratégie est la meilleure pour votre carrière et votre santé mentale ?", "sideA": "Tout assister", "sideB": "Rien assister", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Les adultes qui sont encore perplexes devant leur déclaration d'impôts vs les adultes qui aiment la faire — quel groupe est le plus digne de confiance ?", "sideA": "Perplexe", "sideB": "Aime ça", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Se plaindre du coût de la vie auprès de ses amis vs prétendre que tout va bien — quelle est la réponse adulte la plus honnête ?", "sideA": "Se plaindre", "sideB": "Prétendre que tout va bien", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Hiérarchies organisationnelles horizontales vs structures de gestion verticales — qu'est-ce qui sert le mieux les adultes qui y travaillent ?", "sideA": "Hiérarchie horizontale", "sideB": "Structure verticale", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Le culte de la productivité vs l'éloge de l'oisiveté — qu'est-ce qui reflète le mieux ce dont les humains ont réellement besoin au travail ?", "sideA": "Productivité", "sideB": "Oisiveté", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Le leadership comme compétence s'apprenant vs le leadership comme qualité innée — quel récit est le plus défendable empiriquement ?", "sideA": "Compétence acquise", "sideB": "Qualité innée", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Culture de la performance (hustle culture) vs slow living — qui gagne, et qui devrait gagner ?", "sideA": "Hustle culture", "sideB": "Slow living", "level": "advanced", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "La responsabilité sociale des entreprises comme engagement sincère vs comme gestion de la réputation — quel cadrage est le plus honnête ?", "sideA": "Engagement sincère", "sideB": "Gestion réputation", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "L'identité adulte comme fixe vs perpétuellement en construction — quel récit reflète le mieux l'expérience vécue ?", "sideA": "Identité fixe", "sideB": "En construction", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La domestication du féminisme par la culture de consommation vs le féminisme remodelant réellement la vie adulte — qu'est-ce qui est le plus vrai ?", "sideA": "Féminisme de conso", "sideB": "Remodelage réel", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La crise de la quarantaine comme pathologie vs la crise de la quarantaine comme réévaluation légitime — quel cadrage est le plus utile ?", "sideA": "Pathologie", "sideB": "Réévaluation", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La pression d'être extraordinaire vs la dignité d'une vie ordinaire — quel est l'idéal le plus humain à défendre ?", "sideA": "Extraordinaire", "sideB": "Dignité ordinaire", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'obligation de s'occuper de parents vieillissants vs la responsabilité de l'État — où la charge doit-elle retomber ?", "sideA": "Obligation familiale", "sideB": "Resp. de l'État", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'honnêteté radicale dans les relations vs le silence stratégique — quelle est l'approche la plus éthique de l'intimité ?", "sideA": "Honnêteté radicale", "sideB": "Silence stratégique", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Choisir son cercle social délibérément vs laisser les relations se former organiquement — qu'est-ce qui produit des amitiés adultes plus authentiques ?", "sideA": "Choix délibéré", "sideB": "Formation organique", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La famille nucléaire comme unité sociale optimale vs comme arrangement historiquement contingent — quelle vue est la plus défendable ?", "sideA": "Unité optimale", "sideB": "Arrangement historique", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Gouvernance technocratique vs populisme démocratique — qu'est-ce qui pose le plus grand risque à long terme pour les citoyens adultes ?", "sideA": "Technocratie", "sideB": "Populisme", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Justice intergénérationnelle vs bien-être actuel — qu'est-ce qui devrait être prioritaire dans les politiques publiques ?", "sideA": "Justice intergén.", "sideB": "Bien-être actuel", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'obligation de voter vs le droit de s'abstenir — quelle est la position civique la plus défendable ?", "sideA": "Obligation de voter", "sideB": "Droit de s'abstenir", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Le patriotisme comme vertu civique vs le patriotisme comme défaillance cognitive — quel récit est le plus convaincant ?", "sideA": "Vertu civique", "sideB": "Défaillance cognitive", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'absolutisme de la liberté d'expression vs la parole régulée — qu'est-ce qui produit de meilleurs résultats pour les sociétés démocratiques adultes ?", "sideA": "Absolutisme", "sideB": "Parole régulée", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Une carrière pleine de sens vs un travail qui finance une vie privée pleine de sens — quelle est l'ambition adulte la plus honnête ?", "sideA": "Carrière sensée", "sideB": "Financer vie privée", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Religion vs philosophie séculière — qu'est-ce qui répond le mieux aux besoins existentiels des adultes modernes ?", "sideA": "Religion", "sideB": "Phil. séculière", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La vie examinée vs la vie absorbée — laquelle vaut le plus la peine d'être vécue, et qui peut en décider ?", "sideA": "Vie examinée", "sideB": "Vie absorbée", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'héritage (legacy) vs la présence — quelle est la chose la plus cohérente à rechercher pour un adulte ?", "sideA": "Héritage", "sideB": "Présence", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'adulte qui a « enfin compris » vs l'adulte qui a accepté qu'il ne comprendra jamais — qui est le plus conscient de soi ?", "sideA": "A enfin compris", "sideB": "Accepté l'ignorance", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est la plus efficace sur le plan thérapeutique ?", "sideA": "Thérapeute", "sideB": "Coiffeur", "level": "advanced", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "L'anxiété du dimanche d'un adulte au planning chargé vs l'anxiété du dimanche d'un adulte au planning vide — qu'est-ce qui est le plus troublant existentiellement ?", "sideA": "Planning chargé", "sideB": "Planning vide", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Suranalyser chaque décision majeure de la vie vs les prendre impulsivement — quelle stratégie a le meilleur bilan empirique ?", "sideA": "Suranalyser", "sideB": "Impulsivité", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Les adultes qui lisent des livres de développement personnel vs les adultes qui refusent de le faire — quel groupe est le plus difficile à supporter lors d'un dîner ?", "sideA": "Lecteurs dév. perso", "sideB": "Refuse de lire", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "La semaine de quatre jours vs la semaine de cinq jours — quel modèle profite le plus aux travailleurs et aux employeurs ?", "sideA": "Semaine de 4 jours", "sideB": "Semaine de 5 jours", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Revenu universel de base vs aide sociale ciblée — quel est le filet de sécurité le plus efficace pour les adultes actifs ?", "sideA": "Revenu universel", "sideB": "Aide ciblée", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "L'économie à la tâche (gig economy) vs l'emploi permanent — quel modèle sert le mieux les travailleurs à long terme ?", "sideA": "Économie à la tâche", "sideB": "Emploi permanent", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Méritocratie vs avantage structurel — qu'est-ce qui explique le mieux la réussite professionnelle ?", "sideA": "Méritocratie", "sideB": "Avantage structurel", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Transparence des salaires vs confidentialité des salaires — qu'est-ce qui crée un lieu de travail plus juste ?", "sideA": "Transparence", "sideB": "Confidentialité", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Automatisation vs travail humain — quelle est la plus grande menace à long terme pour l'emploi des adultes ?", "sideA": "Automatisation", "sideB": "Travail humain", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Télétravail vs présence au bureau — qu'est-ce qui est le mieux pour la progression de carrière et la culture d'équipe ?", "sideA": "Télétravail", "sideB": "Bureau", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Congé parental égal pour les hommes et les femmes vs congé maternité plus long — quelle politique est la plus juste ?", "sideA": "Congé égal", "sideB": "Maternité plus longue", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Choisir de ne pas avoir d'enfants vs pression sociale pour avoir une famille — qu'est-ce qui mérite le plus de respect ?", "sideA": "Pas d'enfants", "sideB": "Pression sociale", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Le mariage comme institution vs la cohabitation sans mariage — qu'est-ce qui est le plus pertinent aujourd'hui ?", "sideA": "Mariage", "sideB": "Cohabitation", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Foyers à deux revenus vs un partenaire restant à la maison — quel modèle est le mieux pour les enfants et les adultes ?", "sideA": "Deux revenus", "sideB": "Un au foyer", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "L'écart salarial entre hommes et femmes comme problème structurel vs une question de choix individuels — quelle explication a le plus de poids ?", "sideA": "Problème structurel", "sideB": "Choix individuels", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "La propriété immobilière comme objectif vs un marché locatif professionnel — quel modèle de logement convient le mieux aux adultes modernes ?", "sideA": "Propriété", "sideB": "Location pro", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "La gentrification comme amélioration vs la gentrification comme déplacement — quelle approche est la plus honnête ?", "sideA": "Amélioration", "sideB": "Déplacement", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Densité urbaine vs étalement suburbain — quel est le meilleur modèle pour des villes vivables ?", "sideA": "Densité urbaine", "sideB": "Étalement", "level": "upper-intermediate", "theme": "globalisation_trade_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivre près de sa famille vs s'éloigner pour les opportunités — quel choix produit un meilleur bien-être à long terme ?", "sideA": "Proche famille", "sideB": "S'éloigner", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Une population vieillissante comme une crise vs comme une ressource — quel cadrage est le plus productif ?", "sideA": "Crise", "sideB": "Ressource", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Responsabilité personnelle pour la santé vs facteurs systémiques — qu'est-ce qui pèse le plus dans l'explication des résultats de santé ?", "sideA": "Resp. personnelle", "sideB": "Facteurs systémiques", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Les jours de santé mentale comme un droit légitime au travail vs une source d'abus — où les employeurs doivent-ils fixer la limite ?", "sideA": "Droit légitime", "sideB": "Source d'abus", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Médecine préventive vs médecine curative — laquelle devrait recevoir plus de financement public ?", "sideA": "Préventive", "sideB": "Curative", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Médecine anti-âge vs vieillir avec grâce — quelle attitude est la plus cohérente ?", "sideA": "Anti-âge", "sideB": "Vieillir avec grâce", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Technologie de surveillance pour la sécurité publique vs droit à la vie privée — où doit se situer l'équilibre ?", "sideA": "Sécurité publique", "sideB": "Vie privée", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Les réseaux sociaux comme outil d'engagement civique vs comme moteur de polarisation — quel effet domine ?", "sideA": "Engagement civique", "sideB": "Polarisation", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "L'IA dans le recrutement vs le jugement humain — qu'est-ce qui produit des décisions d'embauche plus justes ?", "sideA": "IA", "sideB": "Jugement humain", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Le droit à l'oubli en ligne vs le droit du public à l'information — qu'est-ce qui devrait primer ?", "sideA": "Droit à l'oubli", "sideB": "Droit à l'info", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Vote obligatoire vs vote volontaire — qu'est-ce qui produit des démocraties plus saines ?", "sideA": "Obligatoire", "sideB": "Volontaire", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Engagement politique par la protestation vs par les canaux institutionnels — qu'est-ce qui est le plus efficace pour les adultes aujourd'hui ?", "sideA": "Protestation", "sideB": "Institutionnel", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Identité nationale vs identité européenne ou mondiale — qu'est-ce qui a le plus de sens pour les adultes en 2026 ?", "sideA": "Identité nationale", "sideB": "Identité mondiale", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Augmentations d'impôts pour financer les services publics vs coupes budgétaires — quel est le choix politique le plus défendable ?", "sideA": "Augmentation impôts", "sideB": "Coupes budgétaires", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Admettre que vous n'avez aucune idée de la façon dont fonctionne votre retraite vs prétendre avec assurance que vous le savez — quelle est l'expérience adulte la plus universelle ?", "sideA": "Admettre ignorance", "sideB": "Prétendre savoir", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Être la personne qui planifie toujours les événements sociaux vs être toujours celle qui se contente de venir — quel rôle est le plus épuisant ?", "sideA": "L'organisateur", "sideB": "L'invité", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Avoir une opinion tranchée sur les habitudes de cuisine de vos collègues vs ne pas s'en soucier du tout — quelle personne est la plus tolérable ?", "sideA": "Opinion tranchée", "sideB": "S'en fiche", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Assister à chaque événement social facultatif au travail vs n'assister à aucun — quelle stratégie est la meilleure pour votre carrière et votre santé mentale ?", "sideA": "Tout assister", "sideB": "Rien assister", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Les adultes qui sont encore perplexes devant leur déclaration d'impôts vs les adultes qui aiment la faire — quel groupe est le plus digne de confiance ?", "sideA": "Perplexe", "sideB": "Aime ça", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Se plaindre du coût de la vie auprès de ses amis vs prétendre que tout va bien — quelle est la réponse adulte la plus honnête ?", "sideA": "Se plaindre", "sideB": "Prétendre que tout va bien", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Hiérarchies organisationnelles horizontales vs structures de gestion verticales — qu'est-ce qui sert le mieux les adultes qui y travaillent ?", "sideA": "Hiérarchie horizontale", "sideB": "Structure verticale", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Le culte de la productivité vs l'éloge de l'oisiveté — qu'est-ce qui reflète le mieux ce dont les humains ont réellement besoin au travail ?", "sideA": "Productivité", "sideB": "Oisiveté", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Le leadership comme compétence s'apprenant vs le leadership comme qualité innée — quel récit est le plus défendable empiriquement ?", "sideA": "Compétence acquise", "sideB": "Qualité innée", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Culture de la performance (hustle culture) vs slow living — qui gagne, et qui devrait gagner ?", "sideA": "Hustle culture", "sideB": "Slow living", "level": "advanced", "theme": "routine_A1", "ideasA": [], "ideasB": []},
+            {"topic": "La responsabilité sociale des entreprises comme engagement sincère vs comme gestion de la réputation — quel cadrage est le plus honnête ?", "sideA": "Engagement sincère", "sideB": "Gestion réputation", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'identité adulte comme fixe vs perpétuellement en construction — quel récit reflète le mieux l'expérience vécue ?", "sideA": "Identité fixe", "sideB": "En construction", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "La domestication du féminisme par la culture de consommation vs le féminisme remodelant réellement la vie adulte — qu'est-ce qui est le plus vrai ?", "sideA": "Féminisme de conso", "sideB": "Remodelage réel", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "La crise de la quarantaine comme pathologie vs la crise de la quarantaine comme réévaluation légitime — quel cadrage est le plus utile ?", "sideA": "Pathologie", "sideB": "Réévaluation", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "La pression d'être extraordinaire vs la dignité d'une vie ordinaire — quel est l'idéal le plus humain à défendre ?", "sideA": "Extraordinaire", "sideB": "Dignité ordinaire", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'obligation de s'occuper de parents vieillissants vs la responsabilité de l'État — où la charge doit-elle retomber ?", "sideA": "Obligation familiale", "sideB": "Resp. de l'État", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'honnêteté radicale dans les relations vs le silence stratégique — quelle est l'approche la plus éthique de l'intimité ?", "sideA": "Honnêteté radicale", "sideB": "Silence stratégique", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Choisir son cercle social délibérément vs laisser les relations se former organiquement — qu'est-ce qui produit des amitiés adultes plus authentiques ?", "sideA": "Choix délibéré", "sideB": "Formation organique", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "La famille nucléaire comme unité sociale optimale vs comme arrangement historiquement contingent — quelle vue est la plus défendable ?", "sideA": "Unité optimale", "sideB": "Arrangement historique", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Gouvernance technocratique vs populisme démocratique — qu'est-ce qui pose le plus grand risque à long terme pour les citoyens adultes ?", "sideA": "Technocratie", "sideB": "Populisme", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Justice intergénérationnelle vs bien-être actuel — qu'est-ce qui devrait être prioritaire dans les politiques publiques ?", "sideA": "Justice intergén.", "sideB": "Bien-être actuel", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'obligation de voter vs le droit de s'abstenir — quelle est la position civique la plus défendable ?", "sideA": "Obligation de voter", "sideB": "Droit de s'abstenir", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Le patriotisme comme vertu civique vs le patriotisme comme défaillance cognitive — quel récit est le plus convaincant ?", "sideA": "Vertu civique", "sideB": "Défaillance cognitive", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'absolutisme de la liberté d'expression vs la parole régulée — qu'est-ce qui produit de meilleurs résultats pour les sociétés démocratiques adultes ?", "sideA": "Absolutisme", "sideB": "Parole régulée", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Une carrière pleine de sens vs un travail qui finance une vie privée pleine de sens — quelle est l'ambition adulte la plus honnête ?", "sideA": "Carrière sensée", "sideB": "Financer vie privée", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Religion vs philosophie séculière — qu'est-ce qui répond le mieux aux besoins existentiels des adultes modernes ?", "sideA": "Religion", "sideB": "Phil. séculière", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "La vie examinée vs la vie absorbée — laquelle vaut le plus la peine d'être vécue, et qui peut en décider ?", "sideA": "Vie examinée", "sideB": "Vie absorbée", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'héritage (legacy) vs la présence — quelle est la chose la plus cohérente à rechercher pour un adulte ?", "sideA": "Héritage", "sideB": "Présence", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'adulte qui a « enfin compris » vs l'adulte qui a accepté qu'il ne comprendra jamais — qui est le plus conscient de soi ?", "sideA": "A enfin compris", "sideB": "Accepté l'ignorance", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Tout dire à son thérapeute vs tout dire à son coiffeur — quelle relation professionnelle est la plus efficace sur le plan thérapeutique ?", "sideA": "Thérapeute", "sideB": "Coiffeur", "level": "advanced", "theme": "psychological_concepts_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'anxiété du dimanche d'un adulte au planning chargé vs l'anxiété du dimanche d'un adulte au planning vide — qu'est-ce qui est le plus troublant existentiellement ?", "sideA": "Planning chargé", "sideB": "Planning vide", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Suranalyser chaque décision majeure de la vie vs les prendre impulsivement — quelle stratégie a le meilleur bilan empirique ?", "sideA": "Suranalyser", "sideB": "Impulsivité", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Les adultes qui lisent des livres de développement personnel vs les adultes qui refusent de le faire — quel groupe est le plus difficile à supporter lors d'un dîner ?", "sideA": "Lecteurs dév. perso", "sideB": "Refuse de lire", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
 
-            {"topic": "Un salaire élevé vs un court trajet — qu'est-ce qui compte le plus dans un travail ?", "sideA": "Salaire élevé", "sideB": "Court trajet", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Changer souvent d'emploi vs rester dans la même entreprise — qu'est-ce qui est le mieux pour votre carrière ?", "sideA": "Changer d'emploi", "sideB": "Rester", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Faire des heures supplémentaires vs partir à l'heure tous les jours — quelle est la meilleure habitude ?", "sideA": "Heures sup", "sideB": "À l'heure", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Un patron strict vs un patron détendu — pour qui est-il préférable de travailler ?", "sideA": "Patron strict", "sideB": "Patron détendu", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Travailler dans une grande entreprise vs une petite entreprise — qu'est-ce qui est mieux ?", "sideA": "Grande entreprise", "sideB": "Petite entreprise", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Obtenir une promotion vs obtenir plus de temps libre — que choisiriez-vous ?", "sideA": "Promotion", "sideB": "Temps libre", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Acheter une maison vs louer toute sa vie — quelle est la décision financière la plus intelligente ?", "sideA": "Acheter", "sideB": "Louer", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Vivre en centre-ville vs vivre en banlieue — qu'est-ce qui est mieux ?", "sideA": "Centre-ville", "sideB": "Banlieue", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Dépenser de l'argent pour des expériences vs pour des objets — qu'est-ce qui vous rend plus heureux ?", "sideA": "Expériences", "sideB": "Objets", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Cuisiner tous les jours vs préparer les repas une fois par semaine — qu'est-ce qui est le plus pratique ?", "sideA": "Cuisine quotidienne", "sideB": "Meal prepping", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Avoir une femme de ménage vs faire son propre ménage — quel est le meilleur choix ?", "sideA": "Ménage pro", "sideB": "Soi-même", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Vivre avec un partenaire vs vivre seul — qu'est-ce qui est mieux pour les adultes ?", "sideA": "Avec partenaire", "sideB": "Seul", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Avoir des enfants tôt vs avoir des enfants plus tard dans la vie — qu'est-ce qui est mieux ?", "sideA": "Tôt", "sideB": "Plus tard", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Relations familiales étroites vs indépendance vis-à-vis de la famille — qu'est-ce qui est le plus important à l'âge adulte ?", "sideA": "Relations étroites", "sideB": "Indépendance", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Rencontrer de nouvelles personnes vs garder d'anciennes amitiés — qu'est-ce qui a le plus de valeur ?", "sideA": "Nouvelles personnes", "sideB": "Anciens amis", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Socialiser après le travail vs rentrer directement à la maison — qu'est-ce qui est mieux pour les relations de travail ?", "sideA": "Socialiser", "sideB": "Rentrer", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Aller à la salle de sport vs faire de l'exercice à l'extérieur — qu'est-ce qui est mieux pour les adultes ?", "sideA": "Salle de sport", "sideB": "Extérieur", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Régime strict vs manger de tout avec modération — qu'est-ce qui est plus sain ?", "sideA": "Régime strict", "sideB": "Modération", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Voir un médecin tôt vs attendre de voir si on va mieux — qu'est-ce qui est le plus sage ?", "sideA": "Tôt", "sideB": "Attendre", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Dormir huit heures vs dormir six heures mais faire de l'exercice — qu'est-ce qui est mieux pour l'énergie ?", "sideA": "8 heures", "sideB": "6h + sport", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Réduire le stress par le sport vs par la relaxation — qu'est-ce qui fonctionne le mieux ?", "sideA": "Sport", "sideB": "Relaxation", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Smartphones vs conversation en face à face — qu'utilisons-nous le plus, et est-ce un problème ?", "sideA": "Smartphones", "sideB": "Face à face", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Banque en ligne vs aller à la banque — qu'est-ce qui est mieux ?", "sideA": "En ligne", "sideB": "Aller à la banque", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Travailler avec du papier vs travailler numériquement — qu'est-ce qui est le plus efficace ?", "sideA": "Papier", "sideB": "Numérique", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Réseaux sociaux pour le réseautage vs rencontrer les gens en personne — qu'est-ce qui est le plus utile professionnellement ?", "sideA": "Réseaux sociaux", "sideB": "En personne", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Voyage organisé vs voyage indépendant — qu'est-ce qui est mieux pour les adultes ?", "sideA": "Organisé", "sideB": "Indépendant", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Séjour en ville vs vacances à la plage — quelle est la meilleure façon de se détendre ?", "sideA": "Séjour en ville", "sideB": "Plage", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Une seule longue vacance par an vs plusieurs courts séjours — qu'est-ce qui est mieux ?", "sideA": "Une seule longue", "sideB": "Plusieurs courtes", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Voyager en couple vs voyager seul — qu'est-ce qui est le plus agréable ?", "sideA": "En couple", "sideB": "Seul", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Parler à son partenaire de chaque petit problème vs garder les choses pour soi — qu'est-ce qui est le plus sain ?", "sideA": "Tout dire", "sideB": "Garder pour soi", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Consulter son téléphone dès le matin vs attendre après le petit-déjeuner — quelle est la meilleure habitude ?", "sideA": "Dès le matin", "sideB": "Après petit-déj", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Connaître le nom de ses voisins vs ne pas les connaître — quelle est l'expérience adulte la plus normale aujourd'hui ?", "sideA": "Connaître", "sideB": "Ne pas connaître", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Faire les courses avec une liste vs sans liste — quel type de personne a une meilleure vie ?", "sideA": "Avec liste", "sideB": "Sans liste", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Dire à son patron qu'on est malade vs aller travailler malade — quel est le choix le plus courageux ?", "sideA": "Le dire", "sideB": "Aller travailler", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Télétravail vs travail de bureau — qu'est-ce qui est le mieux pour la productivité et le bien-être ?", "sideA": "Télétravail", "sideB": "Bureau", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Sécurité d'emploi vs évolution de carrière — que devraient prioriser les adultes ?", "sideA": "Sécurité", "sideB": "Évolution", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Créer sa propre entreprise vs travailler pour un employeur — quel est le meilleur choix à 30 ans ?", "sideA": "Propre entreprise", "sideB": "Employeur", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ambition vs équilibre vie pro-vie perso — peut-on vraiment avoir les deux ?", "sideA": "Ambition", "sideB": "Équilibre", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Réseautage vs renforcement des compétences — qu'est-ce qui fait avancer votre carrière le plus ?", "sideA": "Réseautage", "sideB": "Compétences", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Commentaires honnêtes d'un manager vs être laissé à travailler de manière indépendante — qu'est-ce qui motive le plus les adultes ?", "sideA": "Commentaires", "sideB": "Indépendance", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Changer de carrière à 40 ans vs rester dans son domaine — quelle est la décision la plus sage ?", "sideA": "Changer", "sideB": "Rester", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Rembourser son prêt immobilier par anticipation vs investir cet argent — qu'est-ce qui est le plus intelligent ?", "sideA": "Rembourser", "sideB": "Investir", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Être propriétaire vs louer en permanence — qu'est-ce qui convient le mieux à la vie adulte moderne ?", "sideA": "Propriétaire", "sideB": "Locataire", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Épargner pour la retraite tôt vs profiter de l'argent dans la trentaine — qu'est-ce qui est le plus sage ?", "sideA": "Épargner tôt", "sideB": "Profiter maintenant", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Vivre en dessous de ses moyens vs dépenser pour profiter de la vie maintenant — quelle approche est la plus saine ?", "sideA": "Moins dépenser", "sideB": "Profiter maintenant", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Deux revenus dans un foyer vs un partenaire restant à la maison — qu'est-ce qui fonctionne le mieux pour les familles ?", "sideA": "Deux revenus", "sideB": "Un au foyer", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Avoir des enfants vs choisir de ne pas en avoir — qu'est-ce qui est une vie d'adulte plus épanouissante ?", "sideA": "Enfants", "sideB": "Sans enfants", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Éducation stricte vs éducation permissive — qu'est-ce qui produit des adultes plus heureux ?", "sideA": "Stricte", "sideB": "Permissive", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Relation à long terme vs rester célibataire — qu'est-ce qui est le mieux pour l'épanouissement personnel ?", "sideA": "Relation", "sideB": "Célibataire", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Séparer vie professionnelle et vie privée vs les intégrer — qu'est-ce qui est plus sain ?", "sideA": "Séparer", "sideB": "Intégrer", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Partir à l'étranger en couple vs rester proche de sa famille — quel est le bon choix ?", "sideA": "Étranger", "sideB": "Rester proche", "level": "intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Prioriser la santé physique vs la santé mentale — sur quoi les adultes devraient-ils se concentrer en premier ?", "sideA": "Physique", "sideB": "Mentale", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Santé privée vs s'appuyer sur le système public — quelle est la meilleure stratégie pour un adulte ?", "sideA": "Privée", "sideB": "Publique", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Examens médicaux réguliers vs n'y aller que quand on est malade — quelle est l'approche la plus intelligente ?", "sideA": "Réguliers", "sideB": "Quand malade", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Réduire l'alcool vs réduire le stress — qu'est-ce qui a le plus grand impact sur la santé des adultes ?", "sideA": "Moins d'alcool", "sideB": "Moins de stress", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Liberté individuelle vs responsabilité communautaire — qu'est-ce qui devrait guider les décisions des adultes ?", "sideA": "Liberté", "sideB": "Responsabilité", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Optimisme quant à l'avenir vs réalisme — quelle est l'attitude la plus utile pour les adultes ?", "sideA": "Optimisme", "sideB": "Réalisme", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Changer le monde vs se construire une vie personnelle stable — quelle est l'ambition la plus honnête ?", "sideA": "Changer le monde", "sideB": "Vie stable", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Consacrer son temps au bénévolat vs donner de l'argent — qu'est-ce qui fait le plus de bien ?", "sideA": "Bénévolat", "sideB": "Don d'argent", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Suivre les valeurs de sa génération vs les remettre en question — qu'est-ce qui est le plus admirable ?", "sideA": "Suivre", "sideB": "Questionner", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Savoir combien gagnent vos collègues vs ne pas le savoir — qu'est-ce qui est le mieux pour l'harmonie au bureau ?", "sideA": "Savoir", "sideB": "Ne pas savoir", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Répondre aux messages immédiatement vs prendre son temps — qu'est-ce qui est le plus respectueux dans la vie adulte ?", "sideA": "Immédiatement", "sideB": "Prendre son temps", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Admettre qu'on n'a aucune idée de ce qu'est un fonds de pension vs prétendre qu'on le sait — quelle est l'expérience adulte la plus parlante ?", "sideA": "Admettre", "sideB": "Prétendre", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Annuler des plans à la dernière minute vs sortir quand on n'en a pas envie — quelle est la pire habitude adulte ?", "sideA": "Annuler", "sideB": "Sortir quand même", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Parler ouvertement d'argent avec ses amis vs garder cela privé — quelle est l'approche la plus mature ?", "sideA": "Parler ouvertement", "sideB": "Garder privé", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "Un salaire élevé vs un court trajet — qu'est-ce qui compte le plus dans un travail ?", "sideA": "Salaire élevé", "sideB": "Court trajet", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Changer souvent d'emploi vs rester dans la même entreprise — qu'est-ce qui est le mieux pour votre carrière ?", "sideA": "Changer d'emploi", "sideB": "Rester", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Faire des heures supplémentaires vs partir à l'heure tous les jours — quelle est la meilleure habitude ?", "sideA": "Heures sup", "sideB": "À l'heure", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Un patron strict vs un patron détendu — pour qui est-il préférable de travailler ?", "sideA": "Patron strict", "sideB": "Patron détendu", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Travailler dans une grande entreprise vs une petite entreprise — qu'est-ce qui est mieux ?", "sideA": "Grande entreprise", "sideB": "Petite entreprise", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Obtenir une promotion vs obtenir plus de temps libre — que choisiriez-vous ?", "sideA": "Promotion", "sideB": "Temps libre", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Acheter une maison vs louer toute sa vie — quelle est la décision financière la plus intelligente ?", "sideA": "Acheter", "sideB": "Louer", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivre en centre-ville vs vivre en banlieue — qu'est-ce qui est mieux ?", "sideA": "Centre-ville", "sideB": "Banlieue", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Dépenser de l'argent pour des expériences vs pour des objets — qu'est-ce qui vous rend plus heureux ?", "sideA": "Expériences", "sideB": "Objets", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Cuisiner tous les jours vs préparer les repas une fois par semaine — qu'est-ce qui est le plus pratique ?", "sideA": "Cuisine quotidienne", "sideB": "Meal prepping", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avoir une femme de ménage vs faire son propre ménage — quel est le meilleur choix ?", "sideA": "Ménage pro", "sideB": "Soi-même", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivre avec un partenaire vs vivre seul — qu'est-ce qui est mieux pour les adultes ?", "sideA": "Avec partenaire", "sideB": "Seul", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avoir des enfants tôt vs avoir des enfants plus tard dans la vie — qu'est-ce qui est mieux ?", "sideA": "Tôt", "sideB": "Plus tard", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Relations familiales étroites vs indépendance vis-à-vis de la famille — qu'est-ce qui est le plus important à l'âge adulte ?", "sideA": "Relations étroites", "sideB": "Indépendance", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Rencontrer de nouvelles personnes vs garder d'anciennes amitiés — qu'est-ce qui a le plus de valeur ?", "sideA": "Nouvelles personnes", "sideB": "Anciens amis", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Socialiser après le travail vs rentrer directement à la maison — qu'est-ce qui est mieux pour les relations de travail ?", "sideA": "Socialiser", "sideB": "Rentrer", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Aller à la salle de sport vs faire de l'exercice à l'extérieur — qu'est-ce qui est mieux pour les adultes ?", "sideA": "Salle de sport", "sideB": "Extérieur", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Régime strict vs manger de tout avec modération — qu'est-ce qui est plus sain ?", "sideA": "Régime strict", "sideB": "Modération", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Voir un médecin tôt vs attendre de voir si on va mieux — qu'est-ce qui est le plus sage ?", "sideA": "Tôt", "sideB": "Attendre", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Dormir huit heures vs dormir six heures mais faire de l'exercice — qu'est-ce qui est mieux pour l'énergie ?", "sideA": "8 heures", "sideB": "6h + sport", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Réduire le stress par le sport vs par la relaxation — qu'est-ce qui fonctionne le mieux ?", "sideA": "Sport", "sideB": "Relaxation", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Smartphones vs conversation en face à face — qu'utilisons-nous le plus, et est-ce un problème ?", "sideA": "Smartphones", "sideB": "Face à face", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Banque en ligne vs aller à la banque — qu'est-ce qui est mieux ?", "sideA": "En ligne", "sideB": "Aller à la banque", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Travailler avec du papier vs travailler numériquement — qu'est-ce qui est le plus efficace ?", "sideA": "Papier", "sideB": "Numérique", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Réseaux sociaux pour le réseautage vs rencontrer les gens en personne — qu'est-ce qui est le plus utile professionnellement ?", "sideA": "Réseaux sociaux", "sideB": "En personne", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Voyage organisé vs voyage indépendant — qu'est-ce qui est mieux pour les adultes ?", "sideA": "Organisé", "sideB": "Indépendant", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Séjour en ville vs vacances à la plage — quelle est la meilleure façon de se détendre ?", "sideA": "Séjour en ville", "sideB": "Plage", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Une seule longue vacance par an vs plusieurs courts séjours — qu'est-ce qui est mieux ?", "sideA": "Une seule longue", "sideB": "Plusieurs courtes", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Voyager en couple vs voyager seul — qu'est-ce qui est le plus agréable ?", "sideA": "En couple", "sideB": "Seul", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Parler à son partenaire de chaque petit problème vs garder les choses pour soi — qu'est-ce qui est le plus sain ?", "sideA": "Tout dire", "sideB": "Garder pour soi", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Consulter son téléphone dès le matin vs attendre après le petit-déjeuner — quelle est la meilleure habitude ?", "sideA": "Dès le matin", "sideB": "Après petit-déj", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Connaître le nom de ses voisins vs ne pas les connaître — quelle est l'expérience adulte la plus normale aujourd'hui ?", "sideA": "Connaître", "sideB": "Ne pas connaître", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Faire les courses avec une liste vs sans liste — quel type de personne a une meilleure vie ?", "sideA": "Avec liste", "sideB": "Sans liste", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Dire à son patron qu'on est malade vs aller travailler malade — quel est le choix le plus courageux ?", "sideA": "Le dire", "sideB": "Aller travailler", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Télétravail vs travail de bureau — qu'est-ce qui est le mieux pour la productivité et le bien-être ?", "sideA": "Télétravail", "sideB": "Bureau", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Sécurité d'emploi vs évolution de carrière — que devraient prioriser les adultes ?", "sideA": "Sécurité", "sideB": "Évolution", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Créer sa propre entreprise vs travailler pour un employeur — quel est le meilleur choix à 30 ans ?", "sideA": "Propre entreprise", "sideB": "Employeur", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ambition vs équilibre vie pro-vie perso — peut-on vraiment avoir les deux ?", "sideA": "Ambition", "sideB": "Équilibre", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Réseautage vs renforcement des compétences — qu'est-ce qui fait avancer votre carrière le plus ?", "sideA": "Réseautage", "sideB": "Compétences", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Commentaires honnêtes d'un manager vs être laissé à travailler de manière indépendante — qu'est-ce qui motive le plus les adultes ?", "sideA": "Commentaires", "sideB": "Indépendance", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Changer de carrière à 40 ans vs rester dans son domaine — quelle est la décision la plus sage ?", "sideA": "Changer", "sideB": "Rester", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Rembourser son prêt immobilier par anticipation vs investir cet argent — qu'est-ce qui est le plus intelligent ?", "sideA": "Rembourser", "sideB": "Investir", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Être propriétaire vs louer en permanence — qu'est-ce qui convient le mieux à la vie adulte moderne ?", "sideA": "Propriétaire", "sideB": "Locataire", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Épargner pour la retraite tôt vs profiter de l'argent dans la trentaine — qu'est-ce qui est le plus sage ?", "sideA": "Épargner tôt", "sideB": "Profiter maintenant", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Vivre en dessous de ses moyens vs dépenser pour profiter de la vie maintenant — quelle approche est la plus saine ?", "sideA": "Moins dépenser", "sideB": "Profiter maintenant", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Deux revenus dans un foyer vs un partenaire restant à la maison — qu'est-ce qui fonctionne le mieux pour les familles ?", "sideA": "Deux revenus", "sideB": "Un au foyer", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Avoir des enfants vs choisir de ne pas en avoir — qu'est-ce qui est une vie d'adulte plus épanouissante ?", "sideA": "Enfants", "sideB": "Sans enfants", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Éducation stricte vs éducation permissive — qu'est-ce qui produit des adultes plus heureux ?", "sideA": "Stricte", "sideB": "Permissive", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Relation à long terme vs rester célibataire — qu'est-ce qui est le mieux pour l'épanouissement personnel ?", "sideA": "Relation", "sideB": "Célibataire", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Séparer vie professionnelle et vie privée vs les intégrer — qu'est-ce qui est plus sain ?", "sideA": "Séparer", "sideB": "Intégrer", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Partir à l'étranger en couple vs rester proche de sa famille — quel est le bon choix ?", "sideA": "Étranger", "sideB": "Rester proche", "level": "intermediate", "theme": "travel_cultural_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Prioriser la santé physique vs la santé mentale — sur quoi les adultes devraient-ils se concentrer en premier ?", "sideA": "Physique", "sideB": "Mentale", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Santé privée vs s'appuyer sur le système public — quelle est la meilleure stratégie pour un adulte ?", "sideA": "Privée", "sideB": "Publique", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Examens médicaux réguliers vs n'y aller que quand on est malade — quelle est l'approche la plus intelligente ?", "sideA": "Réguliers", "sideB": "Quand malade", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Réduire l'alcool vs réduire le stress — qu'est-ce qui a le plus grand impact sur la santé des adultes ?", "sideA": "Moins d'alcool", "sideB": "Moins de stress", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Liberté individuelle vs responsabilité communautaire — qu'est-ce qui devrait guider les décisions des adultes ?", "sideA": "Liberté", "sideB": "Responsabilité", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Optimisme quant à l'avenir vs réalisme — quelle est l'attitude la plus utile pour les adultes ?", "sideA": "Optimisme", "sideB": "Réalisme", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Changer le monde vs se construire une vie personnelle stable — quelle est l'ambition la plus honnête ?", "sideA": "Changer le monde", "sideB": "Vie stable", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Consacrer son temps au bénévolat vs donner de l'argent — qu'est-ce qui fait le plus de bien ?", "sideA": "Bénévolat", "sideB": "Don d'argent", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Suivre les valeurs de sa génération vs les remettre en question — qu'est-ce qui est le plus admirable ?", "sideA": "Suivre", "sideB": "Questionner", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Savoir combien gagnent vos collègues vs ne pas le savoir — qu'est-ce qui est le mieux pour l'harmonie au bureau ?", "sideA": "Savoir", "sideB": "Ne pas savoir", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Répondre aux messages immédiatement vs prendre son temps — qu'est-ce qui est le plus respectueux dans la vie adulte ?", "sideA": "Immédiatement", "sideB": "Prendre son temps", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Admettre qu'on n'a aucune idée de ce qu'est un fonds de pension vs prétendre qu'on le sait — quelle est l'expérience adulte la plus parlante ?", "sideA": "Admettre", "sideB": "Prétendre", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Annuler des plans à la dernière minute vs sortir quand on n'en a pas envie — quelle est la pire habitude adulte ?", "sideA": "Annuler", "sideB": "Sortir quand même", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Parler ouvertement d'argent avec ses amis vs garder cela privé — quelle est l'approche la plus mature ?", "sideA": "Parler ouvertement", "sideB": "Garder privé", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
 
-            {"topic": "Café vs thé — quelle est la meilleure boisson du matin ?", "sideA": "Café", "sideB": "Thé", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Restaurant vs cuisine maison — qu'est-ce qui est mieux ?", "sideA": "Restaurant", "sideB": "Cuisine maison", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Petit-déjeuner vs pas de petit-déjeuner — qu'est-ce qui est mieux pour vous ?", "sideA": "Petit-déjeuner", "sideB": "Aucun", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Eau vs jus — qu'est-ce qui est plus sain ?", "sideA": "Eau", "sideB": "Jus", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Viande vs légumes — qu'est-ce qui est le plus important dans un repas ?", "sideA": "Viande", "sideB": "Légumes", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Maison vs appartement — où est-il préférable de vivre ?", "sideA": "Maison", "sideB": "Appartement", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Ville vs village — quel est le meilleur endroit pour vivre ?", "sideA": "Ville", "sideB": "Village", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Café vs thé — quelle est la meilleure boisson du matin ?", "sideA": "Café", "sideB": "Thé", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Restaurant vs cuisine maison — qu'est-ce qui est mieux ?", "sideA": "Restaurant", "sideB": "Cuisine maison", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Petit-déjeuner vs pas de petit-déjeuner — qu'est-ce qui est mieux pour vous ?", "sideA": "Petit-déjeuner", "sideB": "Aucun", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Eau vs jus — qu'est-ce qui est plus sain ?", "sideA": "Eau", "sideB": "Jus", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Viande vs légumes — qu'est-ce qui est le plus important dans un repas ?", "sideA": "Viande", "sideB": "Légumes", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Maison vs appartement — où est-il préférable de vivre ?", "sideA": "Maison", "sideB": "Appartement", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Ville vs village — quel est le meilleur endroit pour vivre ?", "sideA": "Ville", "sideB": "Village", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Espèces vs carte — avec quoi est-il préférable de payer ?", "sideA": "Espèces", "sideB": "Carte", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Économiser de l'argent vs dépenser de l'argent — qu'est-ce qui est mieux ?", "sideA": "Économiser", "sideB": "Dépenser", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Louer vs acheter — qu'est-ce qui est mieux ?", "sideA": "Louer", "sideB": "Acheter", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Travail du matin vs travail du soir — qu'est-ce qui est mieux ?", "sideA": "Matin", "sideB": "Soir", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Voiture vs bus — qu'est-ce qui est mieux pour aller au travail ?", "sideA": "Voiture", "sideB": "Bus", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Marcher vs conduire — qu'est-ce qui est mieux en ville ?", "sideA": "Marcher", "sideB": "Conduire", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Voiture vs bus — qu'est-ce qui est mieux pour aller au travail ?", "sideA": "Voiture", "sideB": "Bus", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Marcher vs conduire — qu'est-ce qui est mieux en ville ?", "sideA": "Marcher", "sideB": "Conduire", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Bureau vs maison — quel est le meilleur endroit pour travailler ?", "sideA": "Bureau", "sideB": "Maison", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Lève-tôt vs couche-tard — qu'est-ce qui est mieux ?", "sideA": "Lève-tôt", "sideB": "Couche-tard", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Été vs hiver — quelle saison est la meilleure ?", "sideA": "Été", "sideB": "Hiver", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Vacances courtes vs vacances longues — qu'est-ce qui est mieux ?", "sideA": "Courtes", "sideB": "Longues", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Appel téléphonique vs message — qu'est-ce qui est mieux ?", "sideA": "Appel", "sideB": "Message", "level": "starter", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Douche le matin vs douche le soir — qu'est-ce qui est correct ?", "sideA": "Matin", "sideB": "Soir", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Lundi vs vendredi — quel jour est le meilleur ?", "sideA": "Lundi", "sideB": "Vendredi", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Trop chaud vs trop froid — qu'est-ce qui est le pire ?", "sideA": "Trop chaud", "sideB": "Trop froid", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Siège côté hublot vs siège côté couloir — qu'est-ce qui est mieux dans un avion ?", "sideA": "Hublot", "sideB": "Couloir", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Travailler à temps plein vs travailler à temps partiel — qu'est-ce qui est mieux ?", "sideA": "Temps plein", "sideB": "Temps partiel", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Travailler dans un bureau vs travailler à domicile — que préférez-vous ?", "sideA": "Bureau", "sideB": "Domicile", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Un travail qu'on aime vs un travail bien payé — qu'est-ce qui est le plus important ?", "sideA": "Travail aimé", "sideB": "Bien payé", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Travailler avec d'autres personnes vs travailler seul — qu'est-ce qui est mieux ?", "sideA": "Avec les autres", "sideB": "Seul", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Un trajet court vs un trajet long — qu'est-ce qui est le plus acceptable ?", "sideA": "Court", "sideB": "Long", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Vivre seul vs vivre avec un partenaire — qu'est-ce qui est mieux ?", "sideA": "Seul", "sideB": "Partenaire", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Grande ville vs petite ville — quel est le meilleur endroit pour vivre en tant qu'adulte ?", "sideA": "Grande ville", "sideB": "Petite ville", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Cuisiner à la maison vs manger à l'extérieur — qu'est-ce qui est mieux pour la vie quotidienne ?", "sideA": "À la maison", "sideB": "Extérieur", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Avoir des enfants vs ne pas avoir d'enfants — quelle vie est la meilleure ?", "sideA": "Enfants", "sideB": "Pas d'enfants", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Louer un appartement vs acheter une maison — qu'est-ce qui est mieux pour les jeunes adultes ?", "sideA": "Louer", "sideB": "Acheter", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Faire de l'exercice tous les jours vs se reposer — qu'est-ce qui est mieux pour votre santé ?", "sideA": "Exercice", "sideB": "Repos", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Aller chez le médecin vs attendre — qu'est-ce qui est mieux quand on se sent malade ?", "sideA": "Médecin", "sideB": "Attendre", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Dormir huit heures vs dormir moins — qu'est-ce qui est le plus réaliste pour les adultes ?", "sideA": "8 heures", "sideB": "Moins", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Aller au travail à pied vs prendre la voiture — qu'est-ce qui est mieux pour votre santé ?", "sideA": "À pied", "sideB": "Voiture", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Achats en ligne vs achats en magasin — que préférez-vous ?", "sideA": "En ligne", "sideB": "Magasin", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Économiser pour l'avenir vs profiter de l'argent maintenant — qu'est-ce qui est le plus sage ?", "sideA": "Économiser", "sideB": "Profiter maintenant", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Choses chères vs choses bon marché — qu'est-ce qui a le meilleur rapport qualité-prix ?", "sideA": "Chères", "sideB": "Bon marché", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Acheter neuf vs acheter d'occasion — qu'est-ce qui est mieux ?", "sideA": "Neuf", "sideB": "Occasion", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Regarder la télé à la maison vs sortir — quelle est la meilleure soirée ?", "sideA": "Télé", "sideB": "Sortir", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Vacances en famille vs vacances entre amis — qu'est-ce qui est mieux ?", "sideA": "Famille", "sideB": "Amis", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Rester dans son pays vs voyager à l'étranger — quelles sont les meilleures vacances ?", "sideA": "Son pays", "sideB": "Étranger", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Le sport vs la lecture — quel est le meilleur passe-temps pour les adultes ?", "sideA": "Sport", "sideB": "Lecture", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Voir des amis souvent vs avoir du temps seul — qu'est-ce qui est le plus important ?", "sideA": "Amis", "sideB": "Seul", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Répondre aux e-mails immédiatement vs les laisser pour plus tard — qu'est-ce qui est le plus professionnel ?", "sideA": "Immédiatement", "sideB": "Plus tard", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Faire la vaisselle immédiatement vs la laisser jusqu'à demain — qu'est-ce qui est mieux ?", "sideA": "Immédiatement", "sideB": "Demain", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Être toujours en avance vs toujours cinq minutes en retard — qu'est-ce qui est pire au travail ?", "sideA": "En avance", "sideB": "En retard", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Avoir un bureau très organisé vs un bureau en désordre — quelle personne est la plus productive ?", "sideA": "Organisé", "sideB": "Désordre", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Parler de travail au dîner vs pas de discussion de travail au dîner — quelle règle est la meilleure ?", "sideA": "Parler travail", "sideB": "Pas de travail", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
+            {"topic": "Lève-tôt vs couche-tard — qu'est-ce qui est mieux ?", "sideA": "Lève-tôt", "sideB": "Couche-tard", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Été vs hiver — quelle saison est la meilleure ?", "sideA": "Été", "sideB": "Hiver", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Vacances courtes vs vacances longues — qu'est-ce qui est mieux ?", "sideA": "Courtes", "sideB": "Longues", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Appel téléphonique vs message — qu'est-ce qui est mieux ?", "sideA": "Appel", "sideB": "Message", "level": "starter", "theme": "technology_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Douche le matin vs douche le soir — qu'est-ce qui est correct ?", "sideA": "Matin", "sideB": "Soir", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Lundi vs vendredi — quel jour est le meilleur ?", "sideA": "Lundi", "sideB": "Vendredi", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Trop chaud vs trop froid — qu'est-ce qui est le pire ?", "sideA": "Trop chaud", "sideB": "Trop froid", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Siège côté hublot vs siège côté couloir — qu'est-ce qui est mieux dans un avion ?", "sideA": "Hublot", "sideB": "Couloir", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Travailler à temps plein vs travailler à temps partiel — qu'est-ce qui est mieux ?", "sideA": "Temps plein", "sideB": "Temps partiel", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Travailler dans un bureau vs travailler à domicile — que préférez-vous ?", "sideA": "Bureau", "sideB": "Domicile", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Un travail qu'on aime vs un travail bien payé — qu'est-ce qui est le plus important ?", "sideA": "Travail aimé", "sideB": "Bien payé", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Travailler avec d'autres personnes vs travailler seul — qu'est-ce qui est mieux ?", "sideA": "Avec les autres", "sideB": "Seul", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Un trajet court vs un trajet long — qu'est-ce qui est le plus acceptable ?", "sideA": "Court", "sideB": "Long", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivre seul vs vivre avec un partenaire — qu'est-ce qui est mieux ?", "sideA": "Seul", "sideB": "Partenaire", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Grande ville vs petite ville — quel est le meilleur endroit pour vivre en tant qu'adulte ?", "sideA": "Grande ville", "sideB": "Petite ville", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Cuisiner à la maison vs manger à l'extérieur — qu'est-ce qui est mieux pour la vie quotidienne ?", "sideA": "À la maison", "sideB": "Extérieur", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avoir des enfants vs ne pas avoir d'enfants — quelle vie est la meilleure ?", "sideA": "Enfants", "sideB": "Pas d'enfants", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Louer un appartement vs acheter une maison — qu'est-ce qui est mieux pour les jeunes adultes ?", "sideA": "Louer", "sideB": "Acheter", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Faire de l'exercice tous les jours vs se reposer — qu'est-ce qui est mieux pour votre santé ?", "sideA": "Exercice", "sideB": "Repos", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Aller chez le médecin vs attendre — qu'est-ce qui est mieux quand on se sent malade ?", "sideA": "Médecin", "sideB": "Attendre", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Dormir huit heures vs dormir moins — qu'est-ce qui est le plus réaliste pour les adultes ?", "sideA": "8 heures", "sideB": "Moins", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Aller au travail à pied vs prendre la voiture — qu'est-ce qui est mieux pour votre santé ?", "sideA": "À pied", "sideB": "Voiture", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Achats en ligne vs achats en magasin — que préférez-vous ?", "sideA": "En ligne", "sideB": "Magasin", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Économiser pour l'avenir vs profiter de l'argent maintenant — qu'est-ce qui est le plus sage ?", "sideA": "Économiser", "sideB": "Profiter maintenant", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Choses chères vs choses bon marché — qu'est-ce qui a le meilleur rapport qualité-prix ?", "sideA": "Chères", "sideB": "Bon marché", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Acheter neuf vs acheter d'occasion — qu'est-ce qui est mieux ?", "sideA": "Neuf", "sideB": "Occasion", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Regarder la télé à la maison vs sortir — quelle est la meilleure soirée ?", "sideA": "Télé", "sideB": "Sortir", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vacances en famille vs vacances entre amis — qu'est-ce qui est mieux ?", "sideA": "Famille", "sideB": "Amis", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Rester dans son pays vs voyager à l'étranger — quelles sont les meilleures vacances ?", "sideA": "Son pays", "sideB": "Étranger", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Le sport vs la lecture — quel est le meilleur passe-temps pour les adultes ?", "sideA": "Sport", "sideB": "Lecture", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Voir des amis souvent vs avoir du temps seul — qu'est-ce qui est le plus important ?", "sideA": "Amis", "sideB": "Seul", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Répondre aux e-mails immédiatement vs les laisser pour plus tard — qu'est-ce qui est le plus professionnel ?", "sideA": "Immédiatement", "sideB": "Plus tard", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Faire la vaisselle immédiatement vs la laisser jusqu'à demain — qu'est-ce qui est mieux ?", "sideA": "Immédiatement", "sideB": "Demain", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Être toujours en avance vs toujours cinq minutes en retard — qu'est-ce qui est pire au travail ?", "sideA": "En avance", "sideB": "En retard", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avoir un bureau très organisé vs un bureau en désordre — quelle personne est la plus productive ?", "sideA": "Organisé", "sideB": "Désordre", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Parler de travail au dîner vs pas de discussion de travail au dîner — quelle règle est la meilleure ?", "sideA": "Parler travail", "sideB": "Pas de travail", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
 
             {
                 "topic": "Langage : Constitutif vs Expressif",
                 "sideA": "Constitutif",
                 "sideB": "Expressif",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Façonne la réalité",
                     "Limite la pensée"
@@ -2759,7 +2759,7 @@ const speakingData = {
                 "sideA": "Précision",
                 "sideB": "Ambiguïté",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Clarté",
                     "Efficacité"
@@ -2774,7 +2774,7 @@ const speakingData = {
                 "sideA": "Rhétorique",
                 "sideB": "Logique",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Pouvoir persuasif",
                     "Appel émotionnel"
@@ -2789,7 +2789,7 @@ const speakingData = {
                 "sideA": "Littéral",
                 "sideB": "Interprétatif",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Intention de l'auteur",
                     "Stabilité"
@@ -2804,7 +2804,7 @@ const speakingData = {
                 "sideA": "Consensus",
                 "sideB": "Humilité",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Connaissances établies",
                     "Autorité d'expert"
@@ -2819,7 +2819,7 @@ const speakingData = {
                 "sideA": "Expertise",
                 "sideB": "Expérience vécue",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Rigueur scientifique",
                     "Données objectives"
@@ -2834,7 +2834,7 @@ const speakingData = {
                 "sideA": "Vertu",
                 "sideB": "Paralysie",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Pensée critique",
                     "Scepticisme"
@@ -2849,7 +2849,7 @@ const speakingData = {
                 "sideA": "Récit",
                 "sideB": "Données",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Impact émotionnel",
                     "Connexion humaine"
@@ -2864,7 +2864,7 @@ const speakingData = {
                 "sideA": "Consentement",
                 "sideB": "Résultat",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Processus démocratique",
                     "Droit moral"
@@ -2879,7 +2879,7 @@ const speakingData = {
                 "sideA": "Garant",
                 "sideB": "Menace",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "État de droit",
                     "Protection des droits"
@@ -2894,7 +2894,7 @@ const speakingData = {
                 "sideA": "Droits",
                 "sideB": "Responsabilités",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Liberté individuelle",
                     "Protection juridique"
@@ -2909,7 +2909,7 @@ const speakingData = {
                 "sideA": "Neutralité",
                 "sideB": "Orientée valeurs",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Impartialité",
                     "Équité"
@@ -2924,7 +2924,7 @@ const speakingData = {
                 "sideA": "Intention",
                 "sideB": "Réception",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Vision de l'auteur",
                     "Contexte original"
@@ -2939,7 +2939,7 @@ const speakingData = {
                 "sideA": "Esthétique",
                 "sideB": "Morale",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "L'art pour l'art",
                     "Pure beauté"
@@ -2954,7 +2954,7 @@ const speakingData = {
                 "sideA": "Avant-garde",
                 "sideB": "Accessibilité",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Repousser les limites",
                     "Défi intellectuel"
@@ -2969,7 +2969,7 @@ const speakingData = {
                 "sideA": "Institutionnel",
                 "sideB": "Art brut",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Préservation historique",
                     "Normes"
@@ -2984,7 +2984,7 @@ const speakingData = {
                 "sideA": "Précaution",
                 "sideB": "Proaction",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Évitement des risques",
                     "La sécurité d'abord"
@@ -2999,7 +2999,7 @@ const speakingData = {
                 "sideA": "Intrinsèquement bon",
                 "sideB": "Éthiquement neutre",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Valeurs des Lumières",
                     "Résolution de problèmes"
@@ -3014,7 +3014,7 @@ const speakingData = {
                 "sideA": "Risque existentiel",
                 "sideB": "Souffrance actuelle",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Survie à long terme",
                     "Générations futures"
@@ -3029,7 +3029,7 @@ const speakingData = {
                 "sideA": "Conscience",
                 "sideB": "IA Générale",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Unicité biologique",
                     "Expérience subjective"
@@ -3044,7 +3044,7 @@ const speakingData = {
                 "sideA": "Réel",
                 "sideB": "Illusion",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Avancement technologique",
                     "Qualité de vie améliorée"
@@ -3059,7 +3059,7 @@ const speakingData = {
                 "sideA": "Ordre libéral",
                 "sideB": "Multipolarité",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Valeurs universelles",
                     "Stabilité mondiale"
@@ -3074,7 +3074,7 @@ const speakingData = {
                 "sideA": "Mémoire",
                 "sideB": "Oubli",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Apprendre de l'histoire",
                     "Identité"
@@ -3089,7 +3089,7 @@ const speakingData = {
                 "sideA": "Tragédie",
                 "sideB": "Coopération",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Intérêt personnel",
                     "Épuisement des ressources"
@@ -3104,7 +3104,7 @@ const speakingData = {
                 "sideA": "Rouge",
                 "sideB": "Bleu",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3113,7 +3113,7 @@ const speakingData = {
                 "sideA": "Jaune",
                 "sideB": "Vert",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3122,7 +3122,7 @@ const speakingData = {
                 "sideA": "Noir",
                 "sideB": "Blanc",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3131,7 +3131,7 @@ const speakingData = {
                 "sideA": "Rose",
                 "sideB": "Violet",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3140,7 +3140,7 @@ const speakingData = {
                 "sideA": "Cercle",
                 "sideB": "Carré",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3149,7 +3149,7 @@ const speakingData = {
                 "sideA": "Grands",
                 "sideB": "Petits",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3158,7 +3158,7 @@ const speakingData = {
                 "sideA": "Triangle",
                 "sideB": "Rectangle",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3167,7 +3167,7 @@ const speakingData = {
                 "sideA": "Ballon",
                 "sideB": "Poupée",
                 "level": "starter",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3194,7 +3194,7 @@ const speakingData = {
                 "sideA": "Chaise",
                 "sideB": "Sol",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3239,7 +3239,7 @@ const speakingData = {
                 "sideA": "Eau",
                 "sideB": "Jus",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3248,7 +3248,7 @@ const speakingData = {
                 "sideA": "Pomme",
                 "sideB": "Banane",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3257,7 +3257,7 @@ const speakingData = {
                 "sideA": "Pain",
                 "sideB": "Riz",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3266,7 +3266,7 @@ const speakingData = {
                 "sideA": "Lait",
                 "sideB": "Eau",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3275,7 +3275,7 @@ const speakingData = {
                 "sideA": "En famille",
                 "sideB": "Seul",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3284,7 +3284,7 @@ const speakingData = {
                 "sideA": "Frère",
                 "sideB": "Sœur",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3293,7 +3293,7 @@ const speakingData = {
                 "sideA": "Grande",
                 "sideB": "Petite",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3302,7 +3302,7 @@ const speakingData = {
                 "sideA": "Aîné",
                 "sideB": "Cadet",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3311,7 +3311,7 @@ const speakingData = {
                 "sideA": "Matin",
                 "sideB": "Après-midi",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3320,7 +3320,7 @@ const speakingData = {
                 "sideA": "Lecture",
                 "sideB": "Maths",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3329,7 +3329,7 @@ const speakingData = {
                 "sideA": "École",
                 "sideB": "Maison",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3338,7 +3338,7 @@ const speakingData = {
                 "sideA": "Devoirs",
                 "sideB": "Aucun",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3347,7 +3347,7 @@ const speakingData = {
                 "sideA": "Seul",
                 "sideB": "Partenaire",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3356,7 +3356,7 @@ const speakingData = {
                 "sideA": "Papier",
                 "sideB": "Ordinateur",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3365,7 +3365,7 @@ const speakingData = {
                 "sideA": "Petit-déjeuner",
                 "sideB": "Dîner",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3374,7 +3374,7 @@ const speakingData = {
                 "sideA": "Chaud",
                 "sideB": "Froid",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3383,7 +3383,7 @@ const speakingData = {
                 "sideA": "Maison",
                 "sideB": "Restaurant",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3392,7 +3392,7 @@ const speakingData = {
                 "sideA": "Sucré",
                 "sideB": "Salé",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3401,7 +3401,7 @@ const speakingData = {
                 "sideA": "Cuisiner",
                 "sideB": "Acheter",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3410,7 +3410,7 @@ const speakingData = {
                 "sideA": "Tôt",
                 "sideB": "Tard",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3419,7 +3419,7 @@ const speakingData = {
                 "sideA": "Matin",
                 "sideB": "Soir",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3428,7 +3428,7 @@ const speakingData = {
                 "sideA": "Semaine",
                 "sideB": "Week-end",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3437,7 +3437,7 @@ const speakingData = {
                 "sideA": "Été",
                 "sideB": "Hiver",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3446,7 +3446,7 @@ const speakingData = {
                 "sideA": "Tôt",
                 "sideB": "Tard",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3455,7 +3455,7 @@ const speakingData = {
                 "sideA": "Maison",
                 "sideB": "Appartement",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3464,7 +3464,7 @@ const speakingData = {
                 "sideA": "Ville",
                 "sideB": "Campagne",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3473,7 +3473,7 @@ const speakingData = {
                 "sideA": "Chambre",
                 "sideB": "Salon",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3482,7 +3482,7 @@ const speakingData = {
                 "sideA": "Intérieur",
                 "sideB": "Extérieur",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3491,7 +3491,7 @@ const speakingData = {
                 "sideA": "TV",
                 "sideB": "Livre",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3500,7 +3500,7 @@ const speakingData = {
                 "sideA": "Sport",
                 "sideB": "Jeu vidéo",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3509,7 +3509,7 @@ const speakingData = {
                 "sideA": "Dessin",
                 "sideB": "Chant",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3518,7 +3518,7 @@ const speakingData = {
                 "sideA": "Seul",
                 "sideB": "Amis",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3527,7 +3527,7 @@ const speakingData = {
                 "sideA": "Natation",
                 "sideB": "Course",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3536,7 +3536,7 @@ const speakingData = {
                 "sideA": "Musique",
                 "sideB": "Sport",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3554,7 +3554,7 @@ const speakingData = {
                 "sideA": "Pluie",
                 "sideB": "Soleil",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3563,7 +3563,7 @@ const speakingData = {
                 "sideA": "Mer",
                 "sideB": "Montagne",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3572,7 +3572,7 @@ const speakingData = {
                 "sideA": "Fleurs",
                 "sideB": "Arbres",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3581,7 +3581,7 @@ const speakingData = {
                 "sideA": "Voiture",
                 "sideB": "Bus",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3590,7 +3590,7 @@ const speakingData = {
                 "sideA": "Marcher",
                 "sideB": "Vélo",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3599,7 +3599,7 @@ const speakingData = {
                 "sideA": "Courtes",
                 "sideB": "Longues",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3608,7 +3608,7 @@ const speakingData = {
                 "sideA": "Seul",
                 "sideB": "Famille",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3617,7 +3617,7 @@ const speakingData = {
                 "sideA": "En ligne",
                 "sideB": "En personne",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [
                     "Commodité",
                     "Meilleurs prix"
@@ -3632,7 +3632,7 @@ const speakingData = {
                 "sideA": "Papier",
                 "sideB": "E-books",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [
                     "Odeur/Toucher",
                     "Collectionnable"
@@ -3647,7 +3647,7 @@ const speakingData = {
                 "sideA": "Maison",
                 "sideB": "Bureau",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [
                     "Pas de trajet",
                     "Flexibilité"
@@ -3662,7 +3662,7 @@ const speakingData = {
                 "sideA": "Électrique",
                 "sideB": "Essence",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [
                     "Environnement",
                     "Silencieux"
@@ -3677,7 +3677,7 @@ const speakingData = {
                 "sideA": "Matin",
                 "sideB": "Soir",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3686,7 +3686,7 @@ const speakingData = {
                 "sideA": "Sévères",
                 "sideB": "Sympas",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3695,7 +3695,7 @@ const speakingData = {
                 "sideA": "Manuel",
                 "sideB": "Vidéos",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3704,7 +3704,7 @@ const speakingData = {
                 "sideA": "Courts",
                 "sideB": "Longs",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3713,7 +3713,7 @@ const speakingData = {
                 "sideA": "Groupe",
                 "sideB": "Individuel",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3722,7 +3722,7 @@ const speakingData = {
                 "sideA": "Uniforme",
                 "sideB": "Décontracté",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3731,7 +3731,7 @@ const speakingData = {
                 "sideA": "Fait maison",
                 "sideB": "Fast-food",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3740,7 +3740,7 @@ const speakingData = {
                 "sideA": "Gros repas",
                 "sideB": "Collations",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3749,7 +3749,7 @@ const speakingData = {
                 "sideA": "Végétarien",
                 "sideB": "Viande",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3758,7 +3758,7 @@ const speakingData = {
                 "sideA": "Thé",
                 "sideB": "Café",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3767,7 +3767,7 @@ const speakingData = {
                 "sideA": "Seul",
                 "sideB": "Avec d'autres",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3776,7 +3776,7 @@ const speakingData = {
                 "sideA": "Sport d'équipe",
                 "sideB": "Sport individuel",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3785,7 +3785,7 @@ const speakingData = {
                 "sideA": "Intérieur",
                 "sideB": "Extérieur",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3794,7 +3794,7 @@ const speakingData = {
                 "sideA": "Cinéma",
                 "sideB": "Théâtre",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3803,7 +3803,7 @@ const speakingData = {
                 "sideA": "Écouter",
                 "sideB": "Jouer",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3812,7 +3812,7 @@ const speakingData = {
                 "sideA": "Jeux vidéo",
                 "sideB": "Jeux de société",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3821,7 +3821,7 @@ const speakingData = {
                 "sideA": "Shopping",
                 "sideB": "Rester chez soi",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3830,7 +3830,7 @@ const speakingData = {
                 "sideA": "Portable",
                 "sideB": "Ordinateur",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3839,7 +3839,7 @@ const speakingData = {
                 "sideA": "Message",
                 "sideB": "Appel",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3848,7 +3848,7 @@ const speakingData = {
                 "sideA": "E-book",
                 "sideB": "Livre papier",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3857,7 +3857,7 @@ const speakingData = {
                 "sideA": "Téléphone",
                 "sideB": "Appareil photo",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3866,7 +3866,7 @@ const speakingData = {
                 "sideA": "Plage",
                 "sideB": "Montagne",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3875,7 +3875,7 @@ const speakingData = {
                 "sideA": "Train",
                 "sideB": "Avion",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3884,7 +3884,7 @@ const speakingData = {
                 "sideA": "Ville",
                 "sideB": "Village",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3893,7 +3893,7 @@ const speakingData = {
                 "sideA": "Hôtel",
                 "sideB": "Chez l'habitant",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3902,7 +3902,7 @@ const speakingData = {
                 "sideA": "Étranger",
                 "sideB": "Propre pays",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3911,7 +3911,7 @@ const speakingData = {
                 "sideA": "Beaucoup",
                 "sideB": "Amis proches",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3920,7 +3920,7 @@ const speakingData = {
                 "sideA": "En personne",
                 "sideB": "En ligne",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3929,7 +3929,7 @@ const speakingData = {
                 "sideA": "Parents",
                 "sideB": "Appartement étudiant",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3938,7 +3938,7 @@ const speakingData = {
                 "sideA": "Maison",
                 "sideB": "Sortir",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3947,7 +3947,7 @@ const speakingData = {
                 "sideA": "Économiser",
                 "sideB": "Dépenser",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3956,7 +3956,7 @@ const speakingData = {
                 "sideA": "Temps partiel",
                 "sideB": "Études seules",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3965,7 +3965,7 @@ const speakingData = {
                 "sideA": "Argent",
                 "sideB": "Temps libre",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3974,7 +3974,7 @@ const speakingData = {
                 "sideA": "En ligne",
                 "sideB": "En classe",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3983,7 +3983,7 @@ const speakingData = {
                 "sideA": "Faits",
                 "sideB": "Trouver l'info",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3992,7 +3992,7 @@ const speakingData = {
                 "sideA": "Université",
                 "sideB": "Pro",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4001,7 +4001,7 @@ const speakingData = {
                 "sideA": "Examens",
                 "sideB": "Continu",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4010,7 +4010,7 @@ const speakingData = {
                 "sideA": "École",
                 "sideB": "Vivre à l'étranger",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4019,7 +4019,7 @@ const speakingData = {
                 "sideA": "Non mixte",
                 "sideB": "Mixte",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4028,7 +4028,7 @@ const speakingData = {
                 "sideA": "Réseaux sociaux",
                 "sideB": "Face à face",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4037,7 +4037,7 @@ const speakingData = {
                 "sideA": "Streaming",
                 "sideB": "TV classique",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4046,7 +4046,7 @@ const speakingData = {
                 "sideA": "Maison",
                 "sideB": "Bureau",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4055,7 +4055,7 @@ const speakingData = {
                 "sideA": "Actualités en ligne",
                 "sideB": "Journal papier",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4064,7 +4064,7 @@ const speakingData = {
                 "sideA": "Réseaux sociaux",
                 "sideB": "Nature",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4073,7 +4073,7 @@ const speakingData = {
                 "sideA": "Transports publics",
                 "sideB": "Voiture",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4082,7 +4082,7 @@ const speakingData = {
                 "sideA": "Occasion",
                 "sideB": "Neuf",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4091,7 +4091,7 @@ const speakingData = {
                 "sideA": "Ville",
                 "sideB": "Campagne",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4100,7 +4100,7 @@ const speakingData = {
                 "sideA": "Végétarisme",
                 "sideB": "Viande",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4109,7 +4109,7 @@ const speakingData = {
                 "sideA": "Individuel",
                 "sideB": "Gouvernement",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4118,7 +4118,7 @@ const speakingData = {
                 "sideA": "Emploi stable",
                 "sideB": "Carrière créative",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4127,7 +4127,7 @@ const speakingData = {
                 "sideA": "Propre entreprise",
                 "sideB": "Société",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4136,7 +4136,7 @@ const speakingData = {
                 "sideA": "Salaire",
                 "sideB": "Satisfaction",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4145,7 +4145,7 @@ const speakingData = {
                 "sideA": "Longues heures",
                 "sideB": "Équilibre",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4154,7 +4154,7 @@ const speakingData = {
                 "sideA": "Passion",
                 "sideB": "Perspectives",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4163,7 +4163,7 @@ const speakingData = {
                 "sideA": "Individu",
                 "sideB": "Communauté",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4172,7 +4172,7 @@ const speakingData = {
                 "sideA": "Traditionnelles",
                 "sideB": "Modernes",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4181,7 +4181,7 @@ const speakingData = {
                 "sideA": "Bénévolat",
                 "sideB": "Don",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4190,7 +4190,7 @@ const speakingData = {
                 "sideA": "Célébrité",
                 "sideB": "Différence discrète",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4199,7 +4199,7 @@ const speakingData = {
                 "sideA": "Règles",
                 "sideB": "Pensée propre",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4208,7 +4208,7 @@ const speakingData = {
                 "sideA": "Physique",
                 "sideB": "Mentale",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4217,7 +4217,7 @@ const speakingData = {
                 "sideA": "Prévention",
                 "sideB": "Traitement",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4226,7 +4226,7 @@ const speakingData = {
                 "sideA": "Compétition",
                 "sideB": "Plaisir",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4235,7 +4235,7 @@ const speakingData = {
                 "sideA": "Privé",
                 "sideB": "Public",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4244,7 +4244,7 @@ const speakingData = {
                 "sideA": "Cinéma",
                 "sideB": "Littérature",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4253,7 +4253,7 @@ const speakingData = {
                 "sideA": "Moderne",
                 "sideB": "Classique",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4262,7 +4262,7 @@ const speakingData = {
                 "sideA": "Préserver",
                 "sideB": "Construire",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4271,7 +4271,7 @@ const speakingData = {
                 "sideA": "Locale",
                 "sideB": "Mondialisation",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4280,7 +4280,7 @@ const speakingData = {
                 "sideA": "Réseaux sociaux",
                 "sideB": "Face à face",
                 "level": "upper-intermediate",
-                "theme": "people_society",
+                "theme": "politics_governance_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4289,7 +4289,7 @@ const speakingData = {
                 "sideA": "Urbain",
                 "sideB": "Rural",
                 "level": "upper-intermediate",
-                "theme": "travel_places",
+                "theme": "globalisation_trade_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4298,7 +4298,7 @@ const speakingData = {
                 "sideA": "En ligne",
                 "sideB": "Classe",
                 "level": "upper-intermediate",
-                "theme": "education_work",
+                "theme": "academic_vocabulary_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4307,7 +4307,7 @@ const speakingData = {
                 "sideA": "Renouvelable",
                 "sideB": "Nucléaire",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4316,7 +4316,7 @@ const speakingData = {
                 "sideA": "Mode éphémère",
                 "sideB": "Durable",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4325,7 +4325,7 @@ const speakingData = {
                 "sideA": "Créativité IA",
                 "sideB": "Art humain",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4334,7 +4334,7 @@ const speakingData = {
                 "sideA": "Espace",
                 "sideB": "Grands fonds",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4343,7 +4343,7 @@ const speakingData = {
                 "sideA": "Vie privée",
                 "sideB": "Sécurité",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4352,7 +4352,7 @@ const speakingData = {
                 "sideA": "OGM",
                 "sideB": "Bio",
                 "level": "advanced",
-                "theme": "nature_environment",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4361,7 +4361,7 @@ const speakingData = {
                 "sideA": "Revenu universel",
                 "sideB": "Garantie d'emploi",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4370,7 +4370,7 @@ const speakingData = {
                 "sideA": "Rose",
                 "sideB": "Orange",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4379,7 +4379,7 @@ const speakingData = {
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4388,7 +4388,7 @@ const speakingData = {
                 "sideA": "Chaise",
                 "sideB": "Canapé",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4397,7 +4397,7 @@ const speakingData = {
                 "sideA": "Sac",
                 "sideB": "Boîte",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4415,7 +4415,7 @@ const speakingData = {
                 "sideA": "Chocolat",
                 "sideB": "Bonbons",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4424,7 +4424,7 @@ const speakingData = {
                 "sideA": "Cuillère",
                 "sideB": "Fourchette",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4433,7 +4433,7 @@ const speakingData = {
                 "sideA": "Chapeau",
                 "sideB": "Chaussures",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4442,7 +4442,7 @@ const speakingData = {
                 "sideA": "Soleil",
                 "sideB": "Lune",
                 "level": "starter",
-                "theme": "nature_environment",
+                "theme": "weather_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4451,7 +4451,7 @@ const speakingData = {
                 "sideA": "Chaussettes",
                 "sideB": "Sans chaussettes",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4460,7 +4460,7 @@ const speakingData = {
                 "sideA": "Avec les grands-parents",
                 "sideB": "Sans les grands-parents",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4469,7 +4469,7 @@ const speakingData = {
                 "sideA": "Maman",
                 "sideB": "Papa",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4478,7 +4478,7 @@ const speakingData = {
                 "sideA": "Maths",
                 "sideB": "Art",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4487,7 +4487,7 @@ const speakingData = {
                 "sideA": "Papier",
                 "sideB": "Tablette",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4496,7 +4496,7 @@ const speakingData = {
                 "sideA": "Pizza",
                 "sideB": "Pâtes",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4505,7 +4505,7 @@ const speakingData = {
                 "sideA": "Glace",
                 "sideB": "Gâteau",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4514,7 +4514,7 @@ const speakingData = {
                 "sideA": "Jours courts",
                 "sideB": "Jours longs",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4523,7 +4523,7 @@ const speakingData = {
                 "sideA": "Parc",
                 "sideB": "Plage",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4532,7 +4532,7 @@ const speakingData = {
                 "sideA": "Avion",
                 "sideB": "Train",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4541,7 +4541,7 @@ const speakingData = {
                 "sideA": "Matin",
                 "sideB": "Soir",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4559,7 +4559,7 @@ const speakingData = {
                 "sideA": "Fourchette",
                 "sideB": "Mains",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4568,7 +4568,7 @@ const speakingData = {
                 "sideA": "Chaussettes",
                 "sideB": "Sans",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4577,7 +4577,7 @@ const speakingData = {
                 "sideA": "Château de sable",
                 "sideB": "Bonhomme de neige",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4586,7 +4586,7 @@ const speakingData = {
                 "sideA": "Beaucoup d'examens",
                 "sideB": "Très peu d'examens",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4595,7 +4595,7 @@ const speakingData = {
                 "sideA": "À 7 ans",
                 "sideB": "À 5 ans",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4604,7 +4604,7 @@ const speakingData = {
                 "sideA": "Lentement",
                 "sideB": "Rapidement",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4613,7 +4613,7 @@ const speakingData = {
                 "sideA": "Cuisiner",
                 "sideB": "Commander",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4622,7 +4622,7 @@ const speakingData = {
                 "sideA": "Cuisiner",
                 "sideB": "Pâtisser",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4631,7 +4631,7 @@ const speakingData = {
                 "sideA": "Salle de sport",
                 "sideB": "Dehors",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4640,7 +4640,7 @@ const speakingData = {
                 "sideA": "Téléphone",
                 "sideB": "Imprimées",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4649,7 +4649,7 @@ const speakingData = {
                 "sideA": "Smart TV",
                 "sideB": "Ordinateur",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4658,7 +4658,7 @@ const speakingData = {
                 "sideA": "Pays chaud",
                 "sideB": "Pays froid",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4667,7 +4667,7 @@ const speakingData = {
                 "sideA": "Offrir",
                 "sideB": "Recevoir",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4676,7 +4676,7 @@ const speakingData = {
                 "sideA": "Intérieur",
                 "sideB": "Extérieur",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4685,7 +4685,7 @@ const speakingData = {
                 "sideA": "Ananas",
                 "sideB": "Pas d'ananas",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4694,7 +4694,7 @@ const speakingData = {
                 "sideA": "Lait d'abord",
                 "sideB": "Thé d'abord",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4703,7 +4703,7 @@ const speakingData = {
                 "sideA": "Lundi",
                 "sideB": "Vendredi",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4712,7 +4712,7 @@ const speakingData = {
                 "sideA": "Avant l'alarme",
                 "sideB": "Jusqu'à l'alarme",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4730,7 +4730,7 @@ const speakingData = {
                 "sideA": "Trop chaud",
                 "sideB": "Trop froid",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4739,7 +4739,7 @@ const speakingData = {
                 "sideA": "Erreurs",
                 "sideB": "Succès",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4748,7 +4748,7 @@ const speakingData = {
                 "sideA": "Tablettes",
                 "sideB": "Cahiers",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4757,7 +4757,7 @@ const speakingData = {
                 "sideA": "Joignable",
                 "sideB": "Temps libre",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4766,7 +4766,7 @@ const speakingData = {
                 "sideA": "Réutiliser",
                 "sideB": "Recycler",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4775,7 +4775,7 @@ const speakingData = {
                 "sideA": "Une carrière",
                 "sideB": "Changer souvent",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4784,7 +4784,7 @@ const speakingData = {
                 "sideA": "Sommeil",
                 "sideB": "Exercice",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4793,7 +4793,7 @@ const speakingData = {
                 "sideA": "Pop",
                 "sideB": "Classique",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4802,7 +4802,7 @@ const speakingData = {
                 "sideA": "Savoir",
                 "sideB": "Surpris",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4811,7 +4811,7 @@ const speakingData = {
                 "sideA": "Immédiatement",
                 "sideB": "Prendre son temps",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4820,7 +4820,7 @@ const speakingData = {
                 "sideA": "D'un coup",
                 "sideB": "Hebdomadaire",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4829,7 +4829,7 @@ const speakingData = {
                 "sideA": "Fenêtre",
                 "sideB": "Couloir",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4838,7 +4838,7 @@ const speakingData = {
                 "sideA": "Sauter",
                 "sideB": "Mauvaise séance",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4847,7 +4847,7 @@ const speakingData = {
                 "sideA": "À soi-même",
                 "sideB": "À son animal",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -4856,37 +4856,37 @@ const speakingData = {
             {
                 "topic": "Mon souvenir d'enfance préféré",
                 "level": "starter",
-                "theme": "people_society"
+                "theme": "family_A0"
             },
             {
                 "topic": "Les dernières vacances que j'ai prises",
                 "level": "elementary",
-                "theme": "travel_places"
+                "theme": "transport_travel_A2"
             },
             {
                 "topic": "Une personne qui m'a inspiré",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "topic": "L'avenir du monde dans 50 ans",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "topic": "Le rôle de l'art dans la société moderne",
                 "level": "advanced",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_hobbies_A2"
             },
             {
                 "topic": "La complexité de la conscience humaine",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "topic": "L'importance de la sensibilisation à la santé mentale",
                 "level": "intermediate",
-                "theme": "health_body"
+                "theme": "mental_health_B1"
             },
             {
                 "topic": "Le métier de mes rêves et pourquoi",
@@ -4896,12 +4896,12 @@ const speakingData = {
             {
                 "topic": "L'impact du changement climatique sur les communautés locales",
                 "level": "upper-intermediate",
-                "theme": "nature_environment"
+                "theme": "environment_policy_B2"
             },
             {
                 "topic": "Intelligence artificielle : outil ou menace ?",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             }
         ]
     },
@@ -4910,62 +4910,62 @@ const speakingData = {
             {
                 "text": "La colazione è il pasto più importante?",
                 "level": "starter",
-                "theme": "food_drinks"
+                "theme": "food_drink_A0"
             },
             {
                 "text": "I cani sono animali domestici migliori dei gatti?",
                 "level": "starter",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_A1"
             },
             {
                 "text": "I bambini dovrebbero avere il cellulare?",
                 "level": "elementary",
-                "theme": "science_technology"
+                "theme": "technology_A2"
             },
             {
                 "text": "È meglio vivere in una casa o in un appartamento?",
                 "level": "elementary",
-                "theme": "daily_life"
+                "theme": "neighbourhood_A2"
             },
             {
                 "text": "Possiamo vivere senza internet per una settimana?",
                 "level": "intermediate",
-                "theme": "science_technology"
+                "theme": "media_news_B1"
             },
             {
                 "text": "Tutti dovrebbero imparare una seconda lingua?",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "I social media stanno distruggendo le nostre abilità sociali?",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "text": "I trasporti pubblici dovrebbero essere gratuiti?",
                 "level": "upper-intermediate",
-                "theme": "travel_places"
+                "theme": "globalisation_trade_B2"
             },
             {
                 "text": "Ingegneria genetica: progresso o pericolo?",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             },
             {
                 "text": "Il reddito di base universale è una soluzione all'automazione?",
                 "level": "advanced",
-                "theme": "people_society"
+                "theme": "power_institutions_C1"
             },
             {
                 "text": "Il libero arbitrio esiste davvero o è un'illusione?",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "text": "L'etica della colonizzazione di altri pianeti.",
                 "level": "proficiency",
-                "theme": "science_technology"
+                "theme": "epistemology_truth_C2"
             }
         ],
         "criticsCorner": [
@@ -4973,231 +4973,231 @@ const speakingData = {
                 "text": "Penso, dunque sono.",
                 "author": "Descartes",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "La vita è quello che ti succede mentre sei occupato a fare altri progetti.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "people_society"
+                "theme": "relationships_family_A2"
             },
             {
                 "text": "L'unica costante è il cambiamento.",
                 "author": "Heraclitus",
                 "level": "upper-intermediate",
-                "theme": "people_society"
+                "theme": "politics_governance_B2"
             }
         ],
-        "debates": [{"topic":"L'etica del lavoro protestante come conquista di civiltà vs come fonte originaria della miseria adulta: quale eredità domina oggi?","sideA":"Conquista di civiltà","sideB":"Fonte di miseria","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"La mercificazione della passione vs la liberazione di trasformare il lavoro in significato: \"fai ciò che ami\" è un consiglio o una trappola?","sideA":"Consiglio","sideB":"Trappola","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"La carriera come identità vs la carriera come mezzo: qual è il rapporto più coerente per un adulto moderno con il proprio lavoro?","sideA":"Identità","sideB":"Mezzo","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Il virtuoso stakanovista vs l'ozioso strategico: chi è stato celebrato in modo più disonesto nella cultura occidentale?","sideA":"Stakanovista","sideB":"Ozioso","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"L'ambizione adulta come ammirevole vs l'ambizione adulta come incapacità di accettare la finitezza: quale lettura è psicologicamente più onesta?","sideA":"Ammirevole","sideB":"Incapacità di accettare la finitezza","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"L'amore romantico come principio organizzatore della vita adulta vs come mito storicamente contingente e commercialmente sostenuto: quale posizione è più difendibile?","sideA":"Principio organizzatore","sideB":"Mito commerciale","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Trasparenza radicale nelle relazioni vs necessità di un sé privato: intimità e individuazione possono coesistere?","sideA":"Trasparenza","sideB":"Sé privato","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"L'etica della cura come correttivo femminista vs come riassegnazione degli stessi oneri: il concetto ha mantenuto le promesse?","sideA":"Correttivo femminista","sideB":"Riassegnazione oneri","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Scegliere di non avere figli come resistenza all'ideologia pronatalista vs come decisione interamente personale senza dimensione politica: possono essere separate nettamente?","sideA":"Resistenza","sideB":"Decisione personale","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La consapevolezza della mortalità come precondizione per una vita adulta significativa vs come suo ostacolo primario: qual è la posizione più vivibile?","sideA":"Precondizione","sideB":"Ostacolo","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"L'invecchiamento come declino vs l'invecchiamento come accumulo: quale narrazione è più onesta e quale più utile?","sideA":"Declino","sideB":"Accumulo","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La medicalizzazione dell'invecchiamento come progresso vs come rifiuto di accettare la condizione umana: dove tracciare il confine?","sideA":"Progresso","sideB":"Rifiuto","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
-            {"topic":"La memoria come sostanza dell'identità adulta vs la memoria come narratore altamente inaffidabile: quali sono le implicazioni per la costruzione di un sé?","sideA":"Sostanza","sideB":"Narratore inaffidabile","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La complicità del cittadino adulto in sistemi ingiusti attraverso il consumo ordinario vs l'irrilevanza strutturale della purezza morale individuale: qual è l'inquadramento più onesto?","sideA":"Complicità","sideB":"Irrilevanza strutturale","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Il disincanto politico come risposta razionale alle prove disponibili vs come forma di privilegio: quale lettura è empiricamente più difendibile?","sideA":"Risposta razionale","sideB":"Privilegio","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La giustizia intergenerazionale come sfida morale centrale del nostro tempo vs come concetto che oscura sistematicamente le disuguaglianze sociali e razziali del presente: quale critica è più forte?","sideA":"Sfida morale","sideB":"Oscuramento disuguaglianze","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La democrazia liberale come il sistema meno peggiore vs come un sistema che ha strutturalmente esaurito la sua capacità riformatrice: quale verdetto supportano le prove?","sideA":"Sistema meno peggiore","sideB":"Capacità esaurita","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"La capacità di autoinganno come difetto cognitivo vs come meccanismo adattativo: quale resoconto serve meglio l'adulto che vuole vivere bene?","sideA":"Difetto cognitivo","sideB":"Meccanismo adattativo","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"L'esperienza come autorità epistemica vs l'esperienza come forma di potere istituzionale che merita scrutinio: quando il sano scetticismo diventa codardia epistemica?","sideA":"Autorità epistemica","sideB":"Potere istituzionale","level":"proficiency","theme":"science_technology","ideasA":[],"ideasB":[]},
-            {"topic":"La narrazione come modo primario in cui gli adulti danno senso alle loro vite vs la narrazione come modo primario in cui gli adulti si ingannano: quale funzione domina?","sideA":"Dare senso","sideB":"Ingannarsi","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"L'onestà come virtù incondizionata vs l'onestà come virtù contestuale: esiste un resoconto coerente della sincerità che sopravviva al contatto con le reali relazioni adulte?","sideA":"Virtù incondizionata","sideB":"Virtù contestuale","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"L'adulto che ha \"finalmente capito tutto\" vs l'adulto che ha accettato che non lo farà mai: chi rappresenta un rapporto più sofisticato con la realtà?","sideA":"Capito tutto","sideB":"Accettato l'ignoto","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere: quale relazione professionale è empiricamente più trasformativa e perché la risposta ci mette a disagio?","sideA":"Terapeuta","sideB":"Parrucchiere","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
+        "debates": [{"topic":"L'etica del lavoro protestante come conquista di civiltà vs come fonte originaria della miseria adulta: quale eredità domina oggi?","sideA":"Conquista di civiltà","sideB":"Fonte di miseria","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La mercificazione della passione vs la liberazione di trasformare il lavoro in significato: \"fai ciò che ami\" è un consiglio o una trappola?","sideA":"Consiglio","sideB":"Trappola","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La carriera come identità vs la carriera come mezzo: qual è il rapporto più coerente per un adulto moderno con il proprio lavoro?","sideA":"Identità","sideB":"Mezzo","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Il virtuoso stakanovista vs l'ozioso strategico: chi è stato celebrato in modo più disonesto nella cultura occidentale?","sideA":"Stakanovista","sideB":"Ozioso","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'ambizione adulta come ammirevole vs l'ambizione adulta come incapacità di accettare la finitezza: quale lettura è psicologicamente più onesta?","sideA":"Ammirevole","sideB":"Incapacità di accettare la finitezza","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'amore romantico come principio organizzatore della vita adulta vs come mito storicamente contingente e commercialmente sostenuto: quale posizione è più difendibile?","sideA":"Principio organizzatore","sideB":"Mito commerciale","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Trasparenza radicale nelle relazioni vs necessità di un sé privato: intimità e individuazione possono coesistere?","sideA":"Trasparenza","sideB":"Sé privato","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'etica della cura come correttivo femminista vs come riassegnazione degli stessi oneri: il concetto ha mantenuto le promesse?","sideA":"Correttivo femminista","sideB":"Riassegnazione oneri","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Scegliere di non avere figli come resistenza all'ideologia pronatalista vs come decisione interamente personale senza dimensione politica: possono essere separate nettamente?","sideA":"Resistenza","sideB":"Decisione personale","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La consapevolezza della mortalità come precondizione per una vita adulta significativa vs come suo ostacolo primario: qual è la posizione più vivibile?","sideA":"Precondizione","sideB":"Ostacolo","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'invecchiamento come declino vs l'invecchiamento come accumulo: quale narrazione è più onesta e quale più utile?","sideA":"Declino","sideB":"Accumulo","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La medicalizzazione dell'invecchiamento come progresso vs come rifiuto di accettare la condizione umana: dove tracciare il confine?","sideA":"Progresso","sideB":"Rifiuto","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La memoria come sostanza dell'identità adulta vs la memoria come narratore altamente inaffidabile: quali sono le implicazioni per la costruzione di un sé?","sideA":"Sostanza","sideB":"Narratore inaffidabile","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La complicità del cittadino adulto in sistemi ingiusti attraverso il consumo ordinario vs l'irrilevanza strutturale della purezza morale individuale: qual è l'inquadramento più onesto?","sideA":"Complicità","sideB":"Irrilevanza strutturale","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Il disincanto politico come risposta razionale alle prove disponibili vs come forma di privilegio: quale lettura è empiricamente più difendibile?","sideA":"Risposta razionale","sideB":"Privilegio","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La giustizia intergenerazionale come sfida morale centrale del nostro tempo vs come concetto che oscura sistematicamente le disuguaglianze sociali e razziali del presente: quale critica è più forte?","sideA":"Sfida morale","sideB":"Oscuramento disuguaglianze","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La democrazia liberale come il sistema meno peggiore vs come un sistema che ha strutturalmente esaurito la sua capacità riformatrice: quale verdetto supportano le prove?","sideA":"Sistema meno peggiore","sideB":"Capacità esaurita","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La capacità di autoinganno come difetto cognitivo vs come meccanismo adattativo: quale resoconto serve meglio l'adulto che vuole vivere bene?","sideA":"Difetto cognitivo","sideB":"Meccanismo adattativo","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'esperienza come autorità epistemica vs l'esperienza come forma di potere istituzionale che merita scrutinio: quando il sano scetticismo diventa codardia epistemica?","sideA":"Autorità epistemica","sideB":"Potere istituzionale","level":"proficiency","theme": "epistemology_truth_C2","ideasA":[],"ideasB":[]},
+            {"topic":"La narrazione come modo primario in cui gli adulti danno senso alle loro vite vs la narrazione come modo primario in cui gli adulti si ingannano: quale funzione domina?","sideA":"Dare senso","sideB":"Ingannarsi","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'onestà come virtù incondizionata vs l'onestà come virtù contestuale: esiste un resoconto coerente della sincerità che sopravviva al contatto con le reali relazioni adulte?","sideA":"Virtù incondizionata","sideB":"Virtù contestuale","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"L'adulto che ha \"finalmente capito tutto\" vs l'adulto che ha accettato che non lo farà mai: chi rappresenta un rapporto più sofisticato con la realtà?","sideA":"Capito tutto","sideB":"Accettato l'ignoto","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere: quale relazione professionale è empiricamente più trasformativa e perché la risposta ci mette a disagio?","sideA":"Terapeuta","sideB":"Parrucchiere","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
 
-            {"topic": "La settimana lavorativa di quattro giorni vs la settimana di cinque giorni — quale modello avvantaggia maggiormente lavoratori e datori di lavoro?", "sideA": "4 giorni", "sideB": "5 giorni", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Reddito di base universale vs assistenza sociale mirata — qual è la rete di sicurezza più efficace per gli adulti che lavorano?", "sideA": "Reddito universale", "sideB": "Assistenza mirata", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La gig economy vs l'impiego a tempo indeterminato — quale modello serve meglio i lavoratori a lungo termine?", "sideA": "Gig economy", "sideB": "Tempo indeterminato", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Meritocrazia vs vantaggio strutturale — cosa spiega più accuratamente il successo professionale?", "sideA": "Meritocrazia", "sideB": "Vantaggio strutturale", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Trasparenza retributiva vs privacy salariale — cosa crea un luogo di lavoro più equo?", "sideA": "Trasparenza", "sideB": "Privacy", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Automazione vs lavoro umano — qual è la più grande minaccia a lungo termine per l'occupazione degli adulti?", "sideA": "Automazione", "sideB": "Lavoro umano", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Lavoro da remoto vs presenza in ufficio — cosa è meglio per la progressione di carriera e la cultura del team?", "sideA": "Lavoro remoto", "sideB": "Presenza ufficio", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Congedo parentale uguale per uomini e donne vs congedo di maternità più lungo — quale politica è più equa?", "sideA": "Congedo uguale", "sideB": "Maternità lunga", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Scegliere di non avere figli vs pressione sociale per avere una famiglia — cosa merita più rispetto?", "sideA": "Niente figli", "sideB": "Pressione sociale", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Il matrimonio come istituzione vs la convivenza senza matrimonio — cosa è più rilevante oggi?", "sideA": "Matrimonio", "sideB": "Convivenza", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Nuclei familiari a doppio reddito vs un partner che resta a casa — quale modello è migliore per bambini e adulti?", "sideA": "Doppio reddito", "sideB": "Uno a casa", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali — quale spiegazione ha più peso?", "sideA": "Prob. strutturale", "sideB": "Scelte individuali", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale — quale modello abitativo si adatta meglio agli adulti moderni?", "sideA": "Proprietà", "sideB": "Affitto pro", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "La gentrificazione come miglioramento vs la gentrificazione come spostamento — quale inquadramento è più onesto?", "sideA": "Miglioramento", "sideB": "Spostamento", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Densità urbana vs espansione suburbana — qual è il modello migliore per città vivibili?", "sideA": "Densità urbana", "sideB": "Espansione suburbana", "level": "upper-intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Vivere vicino alla famiglia vs allontanarsi per opportunità — quale scelta produce un miglior benessere a lungo termine?", "sideA": "Vivere vicino", "sideB": "Allontanarsi", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Una popolazione che invecchia come una crisi vs come una risorsa — quale inquadramento è più produttivo?", "sideA": "Crisi", "sideB": "Risorsa", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Responsabilità personale per la salute vs fattori sistemici — cosa ha più peso nello spiegare i risultati di salute?", "sideA": "Resp. personale", "sideB": "Fattori sistemici", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Giornate per la salute mentale come diritto legittimo sul posto di lavoro vs fonte di abusi — dove dovrebbero tracciare il limite i datori di lavoro?", "sideA": "Diritto legittimo", "sideB": "Fonte di abusi", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Medicina preventiva vs medicina curativa — quale dovrebbe ricevere più finanziamenti pubblici?", "sideA": "Preventiva", "sideB": "Curativa", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Medicina anti-invecchiamento vs invecchiare con grazia — quale atteggiamento è più coerente?", "sideA": "Anti-age", "sideB": "Invecchiare con grazia", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy — dove dovrebbe risiedere l'equilibrio?", "sideA": "Sicurezza pubblica", "sideB": "Privacy", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "I social media come strumento di impegno civile vs come motore di polarizzazione — quale effetto domina?", "sideA": "Impegno civile", "sideB": "Polarizzazione", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "L'IA nel reclutamento vs giudizio umano — cosa produce decisioni di assunzione più eque?", "sideA": "IA", "sideB": "Giudizio umano", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Il diritto all'oblio online vs il diritto all'informazione del pubblico — cosa dovrebbe avere la precedenza?", "sideA": "Diritto all'oblio", "sideB": "Diritto info", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Voto obbligatorio vs voto volontario — cosa produce democrazie più sane?", "sideA": "Obbligatorio", "sideB": "Volontario", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali — cosa è più efficace per gli adulti di oggi?", "sideA": "Protesta", "sideB": "Istituzionale", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Identità nazionale vs identità europea o globale — cosa è più significativo per gli adulti nel 2026?", "sideA": "Identità nazionale", "sideB": "Identità globale", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa — quale è la scelta politica più difendibile?", "sideA": "Aumento tasse", "sideB": "Tagli alla spesa", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo — quale è l'esperienza adulta più universale?", "sideA": "Ammettere ignoranza", "sideB": "Fingere", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi — quale ruolo è più estenuante?", "sideA": "L'organizzatore", "sideB": "L'ospite", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto — quale persona è più tollerabile?", "sideA": "Opinione forte", "sideB": "Indifferenza", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno — quale strategia è migliore per la carriera e la salute mentale?", "sideA": "Tutti", "sideB": "Nessuno", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla — quale gruppo è più affidabile?", "sideA": "Confusi", "sideB": "Divertiti", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene — quale è la risposta adulta più onesta?", "sideA": "Lamentarsi", "sideB": "Fingere tutto bene", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Gerarchie organizzative piatte vs strutture di gestione verticale — cosa serve meglio agli adulti che lavorano al loro interno?", "sideA": "Gerarchia piatta", "sideB": "Struttura verticale", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Il culto della produttività vs la difesa dell'ozio — cosa riflette meglio ciò di cui gli esseri umani hanno realmente bisogno dal lavoro?", "sideA": "Produttività", "sideB": "Ozio", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "La leadership come abilità apprendibile vs la leadership come qualità innata — quale resoconto è più difendibile empiricamente?", "sideA": "Abilità acquisita", "sideB": "Qualità innata", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Hustle culture vs slow living — chi sta vincendo e chi dovrebbe vincere?", "sideA": "Hustle culture", "sideB": "Slow living", "level": "advanced", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Responsabilità sociale d'impresa come impegno genuino vs come gestione della reputazione — quale inquadramento è più onesto?", "sideA": "Impegno genuino", "sideB": "Gestione reputazione", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "L'identità adulta come fissa vs perennemente in costruzione — quale resoconto riflette meglio l'esperienza vissuta?", "sideA": "Identità fissa", "sideB": "In costruzione", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'addomesticamento del femminismo da parte della cultura del consumo vs il femminismo che rimodella genuinamente la vita adulta — cosa è più vero?", "sideA": "Femm. di consumo", "sideB": "Rimodellamento reale", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Crisi di mezza età come patologia vs crisi di mezza età come legittima rivalutazione — quale inquadramento è più utile?", "sideA": "Patologia", "sideB": "Rivalutazione", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La pressione per essere straordinari vs la dignità di una vita ordinaria — quale è l'ideale più umano da sostenere?", "sideA": "Straordinario", "sideB": "Dignità ordinaria", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'obbligo di prendersi cura dei genitori anziani vs la responsabilità dello Stato — su chi dovrebbe ricadere l'onere?", "sideA": "Obbligo familiare", "sideB": "Resp. dello Stato", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Onestà radicale nelle relazioni vs silenzio strategico — quale è l'approccio più etico all'intimità?", "sideA": "Onestà radicale", "sideB": "Silenzio strategico", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Scegliere la propria cerchia sociale deliberatamente vs lasciare che le relazioni si formino organicamente — cosa produce amicizie adulte più autentiche?", "sideA": "Scelta deliberata", "sideB": "Formazione organica", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La famiglia nucleare come unità sociale ottimale vs come disposizione storicamente contingente — quale visione è più difendibile?", "sideA": "Unità ottimale", "sideB": "Arrang. storico", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Governance tecnocratica vs populismo democratico — cosa rappresenta il maggior rischio a lungo termine per i cittadini adulti?", "sideA": "Tecnocrazia", "sideB": "Populismo", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Giustizia intergenerazionale vs benessere attuale — cosa dovrebbe avere la priorità nelle politiche pubbliche?", "sideA": "Giustizia intergen.", "sideB": "Benessere attuale", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'obbligo di voto vs il diritto di astenersi — quale è la posizione civica più difendibile?", "sideA": "Obbligo di voto", "sideB": "Diritto astensione", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Il patriottismo come virtù civica vs il patriottismo come fallimento cognitivo — quale resoconto è più persuasivo?", "sideA": "Virtù civica", "sideB": "Fallimento cognitivo", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Assolutismo della libertà di parola vs parola regolamentata — cosa produce risultati migliori per le società democratiche adulte?", "sideA": "Assolutismo", "sideB": "Parola regolata", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Una carriera significativa vs un lavoro che finanzia una vita privata significativa — quale è la più onesta ambizione adulta?", "sideA": "Carriera signif.", "sideB": "Finanziare vita priv.", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Religione vs filosofia secolare — cosa affronta più efficacemente i bisogni esistenziali degli adulti moderni?", "sideA": "Religione", "sideB": "Filosofia secolare", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "La vita esaminata vs la vita assorbita — quale vale di più la pena di essere vissuta e chi può deciderlo?", "sideA": "Vita esaminata", "sideB": "Vita assorbita", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Eredità (legacy) vs presenza — per cosa è più coerente lottare per un adulto?", "sideA": "Eredità", "sideB": "Presenza", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "L'adulto che ha «finalmente capito» vs l'adulto che ha accettato che non capirà mai — chi è più consapevole di sé?", "sideA": "Ha capito", "sideB": "Accettata ignoranza", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere — quale relazione professionale è più efficace terapeuticamente?", "sideA": "Terapeuta", "sideB": "Parrucchiere", "level": "advanced", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "L'ansia della domenica di un adulto con un'agenda piena vs l'ansia della domenica di un adulto con un'agenda vuota — cosa è più esistenzialmente preoccupante?", "sideA": "Agenda piena", "sideB": "Agenda vuota", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Eccessiva riflessione su ogni decisione importante della vita vs prenderle impulsivamente — quale strategia ha il miglior curriculum empirico?", "sideA": "Riflessione", "sideB": "Impulsività", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Adulti che leggono libri di auto-aiuto vs adulti che si rifiutano di farlo — quale gruppo è più difficile da frequentare a una cena?", "sideA": "Lettori auto-aiuto", "sideB": "Si rifiutano", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "La settimana lavorativa di quattro giorni vs la settimana di cinque giorni — quale modello avvantaggia maggiormente lavoratori e datori di lavoro?", "sideA": "4 giorni", "sideB": "5 giorni", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Reddito di base universale vs assistenza sociale mirata — qual è la rete di sicurezza più efficace per gli adulti che lavorano?", "sideA": "Reddito universale", "sideB": "Assistenza mirata", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "La gig economy vs l'impiego a tempo indeterminato — quale modello serve meglio i lavoratori a lungo termine?", "sideA": "Gig economy", "sideB": "Tempo indeterminato", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Meritocrazia vs vantaggio strutturale — cosa spiega più accuratamente il successo professionale?", "sideA": "Meritocrazia", "sideB": "Vantaggio strutturale", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Trasparenza retributiva vs privacy salariale — cosa crea un luogo di lavoro più equo?", "sideA": "Trasparenza", "sideB": "Privacy", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Automazione vs lavoro umano — qual è la più grande minaccia a lungo termine per l'occupazione degli adulti?", "sideA": "Automazione", "sideB": "Lavoro umano", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Lavoro da remoto vs presenza in ufficio — cosa è meglio per la progressione di carriera e la cultura del team?", "sideA": "Lavoro remoto", "sideB": "Presenza ufficio", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Congedo parentale uguale per uomini e donne vs congedo di maternità più lungo — quale politica è più equa?", "sideA": "Congedo uguale", "sideB": "Maternità lunga", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Scegliere di non avere figli vs pressione sociale per avere una famiglia — cosa merita più rispetto?", "sideA": "Niente figli", "sideB": "Pressione sociale", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Il matrimonio come istituzione vs la convivenza senza matrimonio — cosa è più rilevante oggi?", "sideA": "Matrimonio", "sideB": "Convivenza", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Nuclei familiari a doppio reddito vs un partner che resta a casa — quale modello è migliore per bambini e adulti?", "sideA": "Doppio reddito", "sideB": "Uno a casa", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali — quale spiegazione ha più peso?", "sideA": "Prob. strutturale", "sideB": "Scelte individuali", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale — quale modello abitativo si adatta meglio agli adulti moderni?", "sideA": "Proprietà", "sideB": "Affitto pro", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "La gentrificazione come miglioramento vs la gentrificazione come spostamento — quale inquadramento è più onesto?", "sideA": "Miglioramento", "sideB": "Spostamento", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Densità urbana vs espansione suburbana — qual è il modello migliore per città vivibili?", "sideA": "Densità urbana", "sideB": "Espansione suburbana", "level": "upper-intermediate", "theme": "globalisation_trade_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivere vicino alla famiglia vs allontanarsi per opportunità — quale scelta produce un miglior benessere a lungo termine?", "sideA": "Vivere vicino", "sideB": "Allontanarsi", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Una popolazione che invecchia come una crisi vs come una risorsa — quale inquadramento è più produttivo?", "sideA": "Crisi", "sideB": "Risorsa", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Responsabilità personale per la salute vs fattori sistemici — cosa ha più peso nello spiegare i risultati di salute?", "sideA": "Resp. personale", "sideB": "Fattori sistemici", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Giornate per la salute mentale come diritto legittimo sul posto di lavoro vs fonte di abusi — dove dovrebbero tracciare il limite i datori di lavoro?", "sideA": "Diritto legittimo", "sideB": "Fonte di abusi", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Medicina preventiva vs medicina curativa — quale dovrebbe ricevere più finanziamenti pubblici?", "sideA": "Preventiva", "sideB": "Curativa", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Medicina anti-invecchiamento vs invecchiare con grazia — quale atteggiamento è più coerente?", "sideA": "Anti-age", "sideB": "Invecchiare con grazia", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy — dove dovrebbe risiedere l'equilibrio?", "sideA": "Sicurezza pubblica", "sideB": "Privacy", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "I social media come strumento di impegno civile vs come motore di polarizzazione — quale effetto domina?", "sideA": "Impegno civile", "sideB": "Polarizzazione", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "L'IA nel reclutamento vs giudizio umano — cosa produce decisioni di assunzione più eque?", "sideA": "IA", "sideB": "Giudizio umano", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Il diritto all'oblio online vs il diritto all'informazione del pubblico — cosa dovrebbe avere la precedenza?", "sideA": "Diritto all'oblio", "sideB": "Diritto info", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Voto obbligatorio vs voto volontario — cosa produce democrazie più sane?", "sideA": "Obbligatorio", "sideB": "Volontario", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali — cosa è più efficace per gli adulti di oggi?", "sideA": "Protesta", "sideB": "Istituzionale", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Identità nazionale vs identità europea o globale — cosa è più significativo per gli adulti nel 2026?", "sideA": "Identità nazionale", "sideB": "Identità globale", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa — quale è la scelta politica più difendibile?", "sideA": "Aumento tasse", "sideB": "Tagli alla spesa", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo — quale è l'esperienza adulta più universale?", "sideA": "Ammettere ignoranza", "sideB": "Fingere", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi — quale ruolo è più estenuante?", "sideA": "L'organizzatore", "sideB": "L'ospite", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto — quale persona è più tollerabile?", "sideA": "Opinione forte", "sideB": "Indifferenza", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno — quale strategia è migliore per la carriera e la salute mentale?", "sideA": "Tutti", "sideB": "Nessuno", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla — quale gruppo è più affidabile?", "sideA": "Confusi", "sideB": "Divertiti", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene — quale è la risposta adulta più onesta?", "sideA": "Lamentarsi", "sideB": "Fingere tutto bene", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Gerarchie organizzative piatte vs strutture di gestione verticale — cosa serve meglio agli adulti che lavorano al loro interno?", "sideA": "Gerarchia piatta", "sideB": "Struttura verticale", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Il culto della produttività vs la difesa dell'ozio — cosa riflette meglio ciò di cui gli esseri umani hanno realmente bisogno dal lavoro?", "sideA": "Produttività", "sideB": "Ozio", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "La leadership come abilità apprendibile vs la leadership come qualità innata — quale resoconto è più difendibile empiricamente?", "sideA": "Abilità acquisita", "sideB": "Qualità innata", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Hustle culture vs slow living — chi sta vincendo e chi dovrebbe vincere?", "sideA": "Hustle culture", "sideB": "Slow living", "level": "advanced", "theme": "routine_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Responsabilità sociale d'impresa come impegno genuino vs come gestione della reputazione — quale inquadramento è più onesto?", "sideA": "Impegno genuino", "sideB": "Gestione reputazione", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'identità adulta come fissa vs perennemente in costruzione — quale resoconto riflette meglio l'esperienza vissuta?", "sideA": "Identità fissa", "sideB": "In costruzione", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'addomesticamento del femminismo da parte della cultura del consumo vs il femminismo che rimodella genuinamente la vita adulta — cosa è più vero?", "sideA": "Femm. di consumo", "sideB": "Rimodellamento reale", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Crisi di mezza età come patologia vs crisi di mezza età come legittima rivalutazione — quale inquadramento è più utile?", "sideA": "Patologia", "sideB": "Rivalutazione", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "La pressione per essere straordinari vs la dignità di una vita ordinaria — quale è l'ideale più umano da sostenere?", "sideA": "Straordinario", "sideB": "Dignità ordinaria", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'obbligo di prendersi cura dei genitori anziani vs la responsabilità dello Stato — su chi dovrebbe ricadere l'onere?", "sideA": "Obbligo familiare", "sideB": "Resp. dello Stato", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Onestà radicale nelle relazioni vs silenzio strategico — quale è l'approccio più etico all'intimità?", "sideA": "Onestà radicale", "sideB": "Silenzio strategico", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Scegliere la propria cerchia sociale deliberatamente vs lasciare che le relazioni si formino organicamente — cosa produce amicizie adulte più autentiche?", "sideA": "Scelta deliberata", "sideB": "Formazione organica", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "La famiglia nucleare come unità sociale ottimale vs come disposizione storicamente contingente — quale visione è più difendibile?", "sideA": "Unità ottimale", "sideB": "Arrang. storico", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Governance tecnocratica vs populismo democratico — cosa rappresenta il maggior rischio a lungo termine per i cittadini adulti?", "sideA": "Tecnocrazia", "sideB": "Populismo", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Giustizia intergenerazionale vs benessere attuale — cosa dovrebbe avere la priorità nelle politiche pubbliche?", "sideA": "Giustizia intergen.", "sideB": "Benessere attuale", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'obbligo di voto vs il diritto di astenersi — quale è la posizione civica più difendibile?", "sideA": "Obbligo di voto", "sideB": "Diritto astensione", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Il patriottismo come virtù civica vs il patriottismo come fallimento cognitivo — quale resoconto è più persuasivo?", "sideA": "Virtù civica", "sideB": "Fallimento cognitivo", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Assolutismo della libertà di parola vs parola regolamentata — cosa produce risultati migliori per le società democratiche adulte?", "sideA": "Assolutismo", "sideB": "Parola regolata", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Una carriera significativa vs un lavoro che finanzia una vita privata significativa — quale è la più onesta ambizione adulta?", "sideA": "Carriera signif.", "sideB": "Finanziare vita priv.", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Religione vs filosofia secolare — cosa affronta più efficacemente i bisogni esistenziali degli adulti moderni?", "sideA": "Religione", "sideB": "Filosofia secolare", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "La vita esaminata vs la vita assorbita — quale vale di più la pena di essere vissuta e chi può deciderlo?", "sideA": "Vita esaminata", "sideB": "Vita assorbita", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Eredità (legacy) vs presenza — per cosa è più coerente lottare per un adulto?", "sideA": "Eredità", "sideB": "Presenza", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'adulto che ha «finalmente capito» vs l'adulto che ha accettato che non capirà mai — chi è più consapevole di sé?", "sideA": "Ha capito", "sideB": "Accettata ignoranza", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Dire tutto al proprio terapeuta vs dire tutto al proprio parrucchiere — quale relazione professionale è più efficace terapeuticamente?", "sideA": "Terapeuta", "sideB": "Parrucchiere", "level": "advanced", "theme": "psychological_concepts_C1", "ideasA": [], "ideasB": []},
+            {"topic": "L'ansia della domenica di un adulto con un'agenda piena vs l'ansia della domenica di un adulto con un'agenda vuota — cosa è più esistenzialmente preoccupante?", "sideA": "Agenda piena", "sideB": "Agenda vuota", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Eccessiva riflessione su ogni decisione importante della vita vs prenderle impulsivamente — quale strategia ha il miglior curriculum empirico?", "sideA": "Riflessione", "sideB": "Impulsività", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Adulti che leggono libri di auto-aiuto vs adulti che si rifiutano di farlo — quale gruppo è più difficile da frequentare a una cena?", "sideA": "Lettori auto-aiuto", "sideB": "Si rifiutano", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
 
-            {"topic": "Uno stipendio alto vs un breve tragitto giornaliero — cosa conta di più in un lavoro?", "sideA": "Stipendio alto", "sideB": "Breve tragitto", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Cambiare spesso lavoro vs restare nella stessa azienda — cosa è meglio per la tua carriera?", "sideA": "Cambiare lavoro", "sideB": "Restare", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Lavorare straordinari vs uscire in orario ogni giorno — qual è l'abitudine migliore?", "sideA": "Straordinari", "sideB": "In orario", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Un capo severo vs un capo rilassato — con chi è meglio lavorare?", "sideA": "Capo severo", "sideB": "Capo rilassato", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Lavorare in una grande azienda vs una piccola azienda — cosa è meglio?", "sideA": "Grande azienda", "sideB": "Piccola azienda", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ottenere una promozione vs avere più tempo libero — cosa sceglieresti?", "sideA": "Promozione", "sideB": "Tempo libero", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Comprare casa vs affittare a vita — qual è la decisione finanziaria più intelligente?", "sideA": "Comprare", "sideB": "Affittare", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Vivere in centro città vs vivere in periferia — cosa è meglio?", "sideA": "Centro città", "sideB": "Periferia", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Spendere soldi per esperienze vs per oggetti — cosa ti rende più felice?", "sideA": "Esperienze", "sideB": "Oggetti", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Cucinare ogni giorno vs preparare i pasti una volta a settimana — cosa è più pratico?", "sideA": "Cucinare ogni giorno", "sideB": "Meal prepping", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Avere una persona per le pulizie vs fare le pulizie da soli — qual è la scelta migliore?", "sideA": "Pulizie pro", "sideB": "Da soli", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Vivere con un partner vs vivere da soli — cosa è meglio per gli adulti?", "sideA": "Con partner", "sideB": "Da soli", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Avere figli presto vs avere figli più tardi nella vita — cosa è meglio?", "sideA": "Presto", "sideB": "Più tardi", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Legami familiari stretti vs indipendenza dalla famiglia — cosa è più importante da adulti?", "sideA": "Legami stretti", "sideB": "Indipendenza", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Incontrare nuove persone vs mantenere le vecchie amicizie — cosa ha più valore?", "sideA": "Nuove persone", "sideB": "Vecchi amici", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Socializzare dopo il lavoro vs tornare direttamente a casa — cosa è meglio per le relazioni lavorative?", "sideA": "Socializzare", "sideB": "Tornare a casa", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Andare in palestra vs fare esercizio all'aperto — cosa è meglio per gli adulti?", "sideA": "Palestra", "sideB": "All'aperto", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Dieta ferrea vs mangiare tutto con moderazione — cosa è più sano?", "sideA": "Dieta ferrea", "sideB": "Moderazione", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Vedere il medico subito vs aspettare per vedere se si migliora — cosa è più saggio?", "sideA": "Subito", "sideB": "Aspettare", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Dormire otto ore vs dormire sei ore ma fare esercizio — cosa è meglio per l'energia?", "sideA": "8 ore", "sideB": "6 ore + sport", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Ridurre lo stress attraverso lo sport vs attraverso il relax — cosa funziona meglio?", "sideA": "Sport", "sideB": "Relax", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Smartphone vs conversazione faccia a faccia — cosa usiamo di più, ed è un problema?", "sideA": "Smartphone", "sideB": "Faccia a faccia", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Banking online vs andare in banca — cosa è meglio?", "sideA": "Online", "sideB": "Andare in banca", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Lavorare con la carta vs lavorare digitalmente — cosa è più efficiente?", "sideA": "Carta", "sideB": "Digitale", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Social media per il networking vs incontrare persone di persona — cosa è più utile professionalmente?", "sideA": "Social media", "sideB": "Di persona", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Viaggio organizzato vs viaggio indipendente — cosa è meglio per gli adulti?", "sideA": "Organizzato", "sideB": "Indipendente", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Soggiorno in città vs vacanza al mare — qual è il modo migliore per rilassarsi?", "sideA": "Città", "sideB": "Mare", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Una vacanza lunga all'anno vs diversi brevi soggiorni — cosa è meglio?", "sideA": "Una lunga", "sideB": "Diverse brevi", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Viaggiare in coppia vs viaggiare da soli — cosa è più piacevole?", "sideA": "In coppia", "sideB": "Da soli", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé — cosa è più sano?", "sideA": "Raccontare tutto", "sideB": "Tenere per sé", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Controllare il telefono appena svegli vs aspettare dopo colazione — quale è un'abitudine migliore?", "sideA": "Appena svegli", "sideB": "Dopo colazione", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Conoscere il nome dei vicini vs non conoscerli — qual è l'esperienza adulta più normale oggi?", "sideA": "Conoscerli", "sideB": "Non conoscerli", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Fare la spesa con una lista vs senza lista — quale tipo di persona vive meglio?", "sideA": "Con lista", "sideB": "Senza lista", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Dire al capo che sei malato vs andare al lavoro malato — quale è la scelta più coraggiosa?", "sideA": "Dirlo", "sideB": "Andare malato", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?", "sideA": "Remoto", "sideB": "Ufficio", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Sicurezza del lavoro vs crescita professionale — cosa dovrebbero dare priorità gli adulti?", "sideA": "Sicurezza", "sideB": "Crescita", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Avviare un'attività in proprio vs lavorare per un datore di lavoro — qual è la scelta migliore a 30 anni?", "sideA": "Propria attività", "sideB": "Dipendente", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ambizione vs equilibrio vita-lavoro — si possono davvero avere entrambi?", "sideA": "Ambizione", "sideB": "Equilibrio", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Networking vs sviluppo delle competenze — cosa fa avanzare di più la tua carriera?", "sideA": "Networking", "sideB": "Competenze", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente — cosa motiva di più gli adulti?", "sideA": "Feedback", "sideB": "Indipendenza", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Cambiare carriera a 40 anni vs restare nel proprio campo — qual è la decisione più saggia?", "sideA": "Cambiare", "sideB": "Restare", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Estinguere anticipatamente il mutuo vs investire quei soldi — cosa è più intelligente?", "sideA": "Estinguere mutuo", "sideB": "Investire", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Possedere una casa vs affittare permanentemente — cosa si adatta meglio alla vita adulta moderna?", "sideA": "Possedere", "sideB": "Affittare", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni — cosa è più saggio?", "sideA": "Risparmiare presto", "sideB": "Godersi ora", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora — quale approccio è più sano?", "sideA": "Sotto possibilità", "sideB": "Godersi ora", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Due redditi in una famiglia vs un partner che resta a casa — cosa funziona meglio per le famiglie?", "sideA": "Due redditi", "sideB": "Uno a casa", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Avere figli vs scegliere di non averne — cosa rende la vita adulta più appagante?", "sideA": "Avere figli", "sideB": "Niente figli", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Genitorialità severa vs genitorialità permissiva — cosa produce adulti più felici?", "sideA": "Severa", "sideB": "Permissiva", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Relazione a lungo termine vs restare single — cosa è meglio per la crescita personale?", "sideA": "Relazione", "sideB": "Single", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Mantenere vita lavorativa e privata separate vs integrarle — cosa è più sano?", "sideA": "Separate", "sideB": "Integrate", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia — qual è la scelta giusta?", "sideA": "All'estero", "sideB": "Vicini alla famiglia", "level": "intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Dare priorità alla salute fisica vs salute mentale — su cosa dovrebbero concentrarsi prima gli adulti?", "sideA": "Fisica", "sideB": "Mentale", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Sanità privata vs affidarsi al sistema pubblico — qual è la migliore strategia per un adulto?", "sideA": "Privata", "sideB": "Pubblica", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Controlli medici regolari vs andarci solo quando si è malati — qual è l'approccio più intelligente?", "sideA": "Controlli regolari", "sideB": "Solo se malati", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Ridurre l'alcol vs ridurre lo stress — cosa ha un impatto maggiore sulla salute degli adulti?", "sideA": "Meno alcol", "sideB": "Meno stress", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Libertà individuale vs responsabilità comunitaria — cosa dovrebbe guidare le decisioni degli adulti?", "sideA": "Libertà", "sideB": "Responsabilità", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ottimismo sul futuro vs realismo — qual è l'atteggiamento più utile per gli adulti?", "sideA": "Ottimismo", "sideB": "Realismo", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Cambiare il mondo vs costruirsi una vita personale stabile — quale è l'ambizione più onesta?", "sideA": "Cambiare il mondo", "sideB": "Vita stabile", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Dedicare il proprio tempo al volontariato vs donare denaro — cosa fa più bene?", "sideA": "Volontariato", "sideB": "Donare denaro", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Seguire i valori della propria generazione vs metterli in discussione — cosa è più ammirevole?", "sideA": "Seguire", "sideB": "Mettere in discussione", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Sapere quanto guadagnano i colleghi vs non saperlo — cosa è meglio per l'armonia in ufficio?", "sideA": "Saperlo", "sideB": "Non saperlo", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo — cosa è più rispettoso nella vita adulta?", "sideA": "Subito", "sideB": "Con calma", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo — quale è l'esperienza adulta più comune?", "sideA": "Ammettere", "sideB": "Fingere", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia — quale è la peggiore abitudine adulta?", "sideA": "Annullare", "sideB": "Uscire comunque", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Parlare apertamente di soldi con gli amici vs mantenere la privacy — qual è l'approccio più maturo?", "sideA": "Parlarne apertamente", "sideB": "Mantenerlo privato", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "Uno stipendio alto vs un breve tragitto giornaliero — cosa conta di più in un lavoro?", "sideA": "Stipendio alto", "sideB": "Breve tragitto", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Cambiare spesso lavoro vs restare nella stessa azienda — cosa è meglio per la tua carriera?", "sideA": "Cambiare lavoro", "sideB": "Restare", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Lavorare straordinari vs uscire in orario ogni giorno — qual è l'abitudine migliore?", "sideA": "Straordinari", "sideB": "In orario", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Un capo severo vs un capo rilassato — con chi è meglio lavorare?", "sideA": "Capo severo", "sideB": "Capo rilassato", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Lavorare in una grande azienda vs una piccola azienda — cosa è meglio?", "sideA": "Grande azienda", "sideB": "Piccola azienda", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ottenere una promozione vs avere più tempo libero — cosa sceglieresti?", "sideA": "Promozione", "sideB": "Tempo libero", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Comprare casa vs affittare a vita — qual è la decisione finanziaria più intelligente?", "sideA": "Comprare", "sideB": "Affittare", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivere in centro città vs vivere in periferia — cosa è meglio?", "sideA": "Centro città", "sideB": "Periferia", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Spendere soldi per esperienze vs per oggetti — cosa ti rende più felice?", "sideA": "Esperienze", "sideB": "Oggetti", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Cucinare ogni giorno vs preparare i pasti una volta a settimana — cosa è più pratico?", "sideA": "Cucinare ogni giorno", "sideB": "Meal prepping", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avere una persona per le pulizie vs fare le pulizie da soli — qual è la scelta migliore?", "sideA": "Pulizie pro", "sideB": "Da soli", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivere con un partner vs vivere da soli — cosa è meglio per gli adulti?", "sideA": "Con partner", "sideB": "Da soli", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avere figli presto vs avere figli più tardi nella vita — cosa è meglio?", "sideA": "Presto", "sideB": "Più tardi", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Legami familiari stretti vs indipendenza dalla famiglia — cosa è più importante da adulti?", "sideA": "Legami stretti", "sideB": "Indipendenza", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Incontrare nuove persone vs mantenere le vecchie amicizie — cosa ha più valore?", "sideA": "Nuove persone", "sideB": "Vecchi amici", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Socializzare dopo il lavoro vs tornare direttamente a casa — cosa è meglio per le relazioni lavorative?", "sideA": "Socializzare", "sideB": "Tornare a casa", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Andare in palestra vs fare esercizio all'aperto — cosa è meglio per gli adulti?", "sideA": "Palestra", "sideB": "All'aperto", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Dieta ferrea vs mangiare tutto con moderazione — cosa è più sano?", "sideA": "Dieta ferrea", "sideB": "Moderazione", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vedere il medico subito vs aspettare per vedere se si migliora — cosa è più saggio?", "sideA": "Subito", "sideB": "Aspettare", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Dormire otto ore vs dormire sei ore ma fare esercizio — cosa è meglio per l'energia?", "sideA": "8 ore", "sideB": "6 ore + sport", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ridurre lo stress attraverso lo sport vs attraverso il relax — cosa funziona meglio?", "sideA": "Sport", "sideB": "Relax", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Smartphone vs conversazione faccia a faccia — cosa usiamo di più, ed è un problema?", "sideA": "Smartphone", "sideB": "Faccia a faccia", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Banking online vs andare in banca — cosa è meglio?", "sideA": "Online", "sideB": "Andare in banca", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Lavorare con la carta vs lavorare digitalmente — cosa è più efficiente?", "sideA": "Carta", "sideB": "Digitale", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Social media per il networking vs incontrare persone di persona — cosa è più utile professionalmente?", "sideA": "Social media", "sideB": "Di persona", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Viaggio organizzato vs viaggio indipendente — cosa è meglio per gli adulti?", "sideA": "Organizzato", "sideB": "Indipendente", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Soggiorno in città vs vacanza al mare — qual è il modo migliore per rilassarsi?", "sideA": "Città", "sideB": "Mare", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Una vacanza lunga all'anno vs diversi brevi soggiorni — cosa è meglio?", "sideA": "Una lunga", "sideB": "Diverse brevi", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Viaggiare in coppia vs viaggiare da soli — cosa è più piacevole?", "sideA": "In coppia", "sideB": "Da soli", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé — cosa è più sano?", "sideA": "Raccontare tutto", "sideB": "Tenere per sé", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Controllare il telefono appena svegli vs aspettare dopo colazione — quale è un'abitudine migliore?", "sideA": "Appena svegli", "sideB": "Dopo colazione", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Conoscere il nome dei vicini vs non conoscerli — qual è l'esperienza adulta più normale oggi?", "sideA": "Conoscerli", "sideB": "Non conoscerli", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Fare la spesa con una lista vs senza lista — quale tipo di persona vive meglio?", "sideA": "Con lista", "sideB": "Senza lista", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Dire al capo che sei malato vs andare al lavoro malato — quale è la scelta più coraggiosa?", "sideA": "Dirlo", "sideB": "Andare malato", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?", "sideA": "Remoto", "sideB": "Ufficio", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Sicurezza del lavoro vs crescita professionale — cosa dovrebbero dare priorità gli adulti?", "sideA": "Sicurezza", "sideB": "Crescita", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Avviare un'attività in proprio vs lavorare per un datore di lavoro — qual è la scelta migliore a 30 anni?", "sideA": "Propria attività", "sideB": "Dipendente", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ambizione vs equilibrio vita-lavoro — si possono davvero avere entrambi?", "sideA": "Ambizione", "sideB": "Equilibrio", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Networking vs sviluppo delle competenze — cosa fa avanzare di più la tua carriera?", "sideA": "Networking", "sideB": "Competenze", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Feedback onesto da un manager vs essere lasciati a lavorare indipendentemente — cosa motiva di più gli adulti?", "sideA": "Feedback", "sideB": "Indipendenza", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Cambiare carriera a 40 anni vs restare nel proprio campo — qual è la decisione più saggia?", "sideA": "Cambiare", "sideB": "Restare", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Estinguere anticipatamente il mutuo vs investire quei soldi — cosa è più intelligente?", "sideA": "Estinguere mutuo", "sideB": "Investire", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Possedere una casa vs affittare permanentemente — cosa si adatta meglio alla vita adulta moderna?", "sideA": "Possedere", "sideB": "Affittare", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Risparmiare presto per la pensione vs godersi i soldi a trent'anni — cosa è più saggio?", "sideA": "Risparmiare presto", "sideB": "Godersi ora", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Vivere al di sotto delle proprie possibilità vs spendere per godersi la vita ora — quale approccio è più sano?", "sideA": "Sotto possibilità", "sideB": "Godersi ora", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Due redditi in una famiglia vs un partner che resta a casa — cosa funziona meglio per le famiglie?", "sideA": "Due redditi", "sideB": "Uno a casa", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Avere figli vs scegliere di non averne — cosa rende la vita adulta più appagante?", "sideA": "Avere figli", "sideB": "Niente figli", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Genitorialità severa vs genitorialità permissiva — cosa produce adulti più felici?", "sideA": "Severa", "sideB": "Permissiva", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Relazione a lungo termine vs restare single — cosa è meglio per la crescita personale?", "sideA": "Relazione", "sideB": "Single", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Mantenere vita lavorativa e privata separate vs integrarle — cosa è più sano?", "sideA": "Separate", "sideB": "Integrate", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Trasferirsi all'estero come coppia vs restare vicini alla famiglia — qual è la scelta giusta?", "sideA": "All'estero", "sideB": "Vicini alla famiglia", "level": "intermediate", "theme": "travel_cultural_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Dare priorità alla salute fisica vs salute mentale — su cosa dovrebbero concentrarsi prima gli adulti?", "sideA": "Fisica", "sideB": "Mentale", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Sanità privata vs affidarsi al sistema pubblico — qual è la migliore strategia per un adulto?", "sideA": "Privata", "sideB": "Pubblica", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Controlli medici regolari vs andarci solo quando si è malati — qual è l'approccio più intelligente?", "sideA": "Controlli regolari", "sideB": "Solo se malati", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ridurre l'alcol vs ridurre lo stress — cosa ha un impatto maggiore sulla salute degli adulti?", "sideA": "Meno alcol", "sideB": "Meno stress", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Libertà individuale vs responsabilità comunitaria — cosa dovrebbe guidare le decisioni degli adulti?", "sideA": "Libertà", "sideB": "Responsabilità", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ottimismo sul futuro vs realismo — qual è l'atteggiamento più utile per gli adulti?", "sideA": "Ottimismo", "sideB": "Realismo", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Cambiare il mondo vs costruirsi una vita personale stabile — quale è l'ambizione più onesta?", "sideA": "Cambiare il mondo", "sideB": "Vita stabile", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Dedicare il proprio tempo al volontariato vs donare denaro — cosa fa più bene?", "sideA": "Volontariato", "sideB": "Donare denaro", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Seguire i valori della propria generazione vs metterli in discussione — cosa è più ammirevole?", "sideA": "Seguire", "sideB": "Mettere in discussione", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Sapere quanto guadagnano i colleghi vs non saperlo — cosa è meglio per l'armonia in ufficio?", "sideA": "Saperlo", "sideB": "Non saperlo", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Rispondere ai messaggi immediatamente vs prendersi il proprio tempo — cosa è più rispettoso nella vita adulta?", "sideA": "Subito", "sideB": "Con calma", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ammettere di non avere idea di cosa sia un fondo pensione vs fingere di saperlo — quale è l'esperienza adulta più comune?", "sideA": "Ammettere", "sideB": "Fingere", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Annullare i piani all'ultimo minuto vs uscire quando non si ha voglia — quale è la peggiore abitudine adulta?", "sideA": "Annullare", "sideB": "Uscire comunque", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Parlare apertamente di soldi con gli amici vs mantenere la privacy — qual è l'approccio più maturo?", "sideA": "Parlarne apertamente", "sideB": "Mantenerlo privato", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
 
-            {"topic": "Caffè vs tè — qual è la migliore bevanda del mattino?", "sideA": "Caffè", "sideB": "Tè", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Ristorante vs cucina casalinga — cosa è meglio?", "sideA": "Ristorante", "sideB": "Cucina casalinga", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Colazione vs niente colazione — cosa è meglio per te?", "sideA": "Colazione", "sideB": "Niente", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Acqua vs succo — cosa è più salutare?", "sideA": "Acqua", "sideB": "Succo", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Carne vs verdure — cosa è più importante in un pasto?", "sideA": "Carne", "sideB": "Verdure", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Casa vs appartamento — dove è meglio vivere?", "sideA": "Casa", "sideB": "Appartamento", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Città vs villaggio — qual è il posto migliore dove vivere?", "sideA": "Città", "sideB": "Villaggio", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Caffè vs tè — qual è la migliore bevanda del mattino?", "sideA": "Caffè", "sideB": "Tè", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Ristorante vs cucina casalinga — cosa è meglio?", "sideA": "Ristorante", "sideB": "Cucina casalinga", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Colazione vs niente colazione — cosa è meglio per te?", "sideA": "Colazione", "sideB": "Niente", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Acqua vs succo — cosa è più salutare?", "sideA": "Acqua", "sideB": "Succo", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Carne vs verdure — cosa è più importante in un pasto?", "sideA": "Carne", "sideB": "Verdure", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Casa vs appartamento — dove è meglio vivere?", "sideA": "Casa", "sideB": "Appartamento", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Città vs villaggio — qual è il posto migliore dove vivere?", "sideA": "Città", "sideB": "Villaggio", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Contanti vs carta — con cosa è meglio pagare?", "sideA": "Contanti", "sideB": "Carta", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Risparmiare denaro vs spendere denaro — cosa è meglio?", "sideA": "Risparmiare", "sideB": "Spendere", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Affittare vs comprare — cosa è meglio?", "sideA": "Affittare", "sideB": "Comprare", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Lavoro al mattino vs lavoro alla sera — cosa è meglio?", "sideA": "Mattino", "sideB": "Sera", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Auto vs autobus — cosa è meglio per andare al lavoro?", "sideA": "Auto", "sideB": "Autobus", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Camminare vs guidare — cosa è meglio in città?", "sideA": "Camminare", "sideB": "Guidare", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Auto vs autobus — cosa è meglio per andare al lavoro?", "sideA": "Auto", "sideB": "Autobus", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Camminare vs guidare — cosa è meglio in città?", "sideA": "Camminare", "sideB": "Guidare", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Ufficio vs casa — qual è il posto migliore per lavorare?", "sideA": "Ufficio", "sideB": "Casa", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Mattiniero vs nottambulo — cosa è meglio?", "sideA": "Mattiniero", "sideB": "Nottambulo", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Estate vs inverno — quale stagione è la migliore?", "sideA": "Estate", "sideB": "Inverno", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Vacanza breve vs vacanza lunga — cosa è meglio?", "sideA": "Breve", "sideB": "Lunga", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Telefonata vs messaggio — cosa è meglio?", "sideA": "Telefonata", "sideB": "Messaggio", "level": "starter", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Doccia al mattino vs doccia alla sera — qual è corretta?", "sideA": "Mattino", "sideB": "Sera", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Lunedì vs venerdì — quale giorno è il migliore?", "sideA": "Lunedì", "sideB": "Venerdì", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Troppo caldo vs troppo freddo — cosa è peggio?", "sideA": "Troppo caldo", "sideB": "Troppo freddo", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Posto finestrino vs posto corridoio — qual è meglio in aereo?", "sideA": "Finestrino", "sideB": "Corridoio", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Lavorare a tempo pieno vs lavorare a tempo parziale — cosa è meglio?", "sideA": "Tempo pieno", "sideB": "Tempo parziale", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Lavorare in ufficio vs lavorare da casa — cosa preferisci?", "sideA": "Ufficio", "sideB": "Casa", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Un lavoro che ami vs un lavoro che paga bene — cosa è più importante?", "sideA": "Lavoro amato", "sideB": "Paga bene", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Lavorare con altre persone vs lavorare da soli — cosa è meglio?", "sideA": "Con altri", "sideB": "Da soli", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Un tragitto breve vs un tragitto lungo — cosa è più accettabile?", "sideA": "Breve", "sideB": "Lungo", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Vivere da soli vs vivere con un partner — cosa è meglio?", "sideA": "Da soli", "sideB": "Partner", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Grande città vs piccola città — qual è il posto migliore dove vivere da adulti?", "sideA": "Grande città", "sideB": "Piccola città", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Cucinare a casa vs mangiare fuori — cosa è meglio per la vita quotidiana?", "sideA": "A casa", "sideB": "Fuori", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Avere figli vs non avere figli — quale vita è migliore?", "sideA": "Figli", "sideB": "Niente figli", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Affittare un appartamento vs comprare una casa — cosa è meglio per i giovani adulti?", "sideA": "Affittare", "sideB": "Comprare", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Esercizio ogni giorno vs riposo — cosa è meglio per la tua salute?", "sideA": "Esercizio", "sideB": "Riposo", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Andare dal medico vs aspettare — cosa è meglio quando ti senti male?", "sideA": "Medico", "sideB": "Aspettare", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Dormire otto ore vs dormire meno — cosa è più realistico per gli adulti?", "sideA": "8 ore", "sideB": "Meno", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Andare al lavoro a piedi vs prendere l'auto — cosa è meglio per la tua salute?", "sideA": "A piedi", "sideB": "Auto", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Acquisti online vs acquisti in un negozio — cosa preferisci?", "sideA": "Online", "sideB": "Negozio", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Risparmiare per il futuro vs godersi i soldi ora — cosa è più saggio?", "sideA": "Risparmiare", "sideB": "Godersi ora", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Cose costose vs cose economiche — cosa ha il miglior valore?", "sideA": "Costose", "sideB": "Economiche", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Comprare nuovo vs comprare di seconda mano — cosa è meglio?", "sideA": "Nuovo", "sideB": "Seconda mano", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Guardare la TV a casa vs uscire — qual è la serata migliore?", "sideA": "TV", "sideB": "Uscire", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Vacanze in famiglia vs vacanze con amici — cosa è meglio?", "sideA": "Famiglia", "sideB": "Amici", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Rimanere nel proprio paese vs viaggiare all'estero — qual è la vacanza migliore?", "sideA": "Proprio paese", "sideB": "Estero", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Sport vs lettura — qual è il miglior hobby per gli adulti?", "sideA": "Sport", "sideB": "Lettura", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Vedere spesso gli amici vs avere tempo da soli — cosa è più importante?", "sideA": "Amici", "sideB": "Da soli", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Rispondere alle email immediatamente vs lasciarle per dopo — cosa è più professionale?", "sideA": "Immediatamente", "sideB": "Dopo", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Lavare i piatti immediatamente vs lasciarli fino a domani — cosa è meglio?", "sideA": "Immediatamente", "sideB": "Domani", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio al lavoro?", "sideA": "Anticipo", "sideB": "Ritardo", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Avere una scrivania molto organizzata vs una scrivania disordinata — quale persona è più produttiva?", "sideA": "Organizzata", "sideB": "Disordinata", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — quale regola è migliore?", "sideA": "Parlare di lavoro", "sideB": "Niente lavoro", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
+            {"topic": "Mattiniero vs nottambulo — cosa è meglio?", "sideA": "Mattiniero", "sideB": "Nottambulo", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Estate vs inverno — quale stagione è la migliore?", "sideA": "Estate", "sideB": "Inverno", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Vacanza breve vs vacanza lunga — cosa è meglio?", "sideA": "Breve", "sideB": "Lunga", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Telefonata vs messaggio — cosa è meglio?", "sideA": "Telefonata", "sideB": "Messaggio", "level": "starter", "theme": "technology_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Doccia al mattino vs doccia alla sera — qual è corretta?", "sideA": "Mattino", "sideB": "Sera", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Lunedì vs venerdì — quale giorno è il migliore?", "sideA": "Lunedì", "sideB": "Venerdì", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Troppo caldo vs troppo freddo — cosa è peggio?", "sideA": "Troppo caldo", "sideB": "Troppo freddo", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Posto finestrino vs posto corridoio — qual è meglio in aereo?", "sideA": "Finestrino", "sideB": "Corridoio", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Lavorare a tempo pieno vs lavorare a tempo parziale — cosa è meglio?", "sideA": "Tempo pieno", "sideB": "Tempo parziale", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Lavorare in ufficio vs lavorare da casa — cosa preferisci?", "sideA": "Ufficio", "sideB": "Casa", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Un lavoro che ami vs un lavoro che paga bene — cosa è più importante?", "sideA": "Lavoro amato", "sideB": "Paga bene", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Lavorare con altre persone vs lavorare da soli — cosa è meglio?", "sideA": "Con altri", "sideB": "Da soli", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Un tragitto breve vs un tragitto lungo — cosa è più accettabile?", "sideA": "Breve", "sideB": "Lungo", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivere da soli vs vivere con un partner — cosa è meglio?", "sideA": "Da soli", "sideB": "Partner", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Grande città vs piccola città — qual è il posto migliore dove vivere da adulti?", "sideA": "Grande città", "sideB": "Piccola città", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Cucinare a casa vs mangiare fuori — cosa è meglio per la vita quotidiana?", "sideA": "A casa", "sideB": "Fuori", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avere figli vs non avere figli — quale vita è migliore?", "sideA": "Figli", "sideB": "Niente figli", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Affittare un appartamento vs comprare una casa — cosa è meglio per i giovani adulti?", "sideA": "Affittare", "sideB": "Comprare", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Esercizio ogni giorno vs riposo — cosa è meglio per la tua salute?", "sideA": "Esercizio", "sideB": "Riposo", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Andare dal medico vs aspettare — cosa è meglio quando ti senti male?", "sideA": "Medico", "sideB": "Aspettare", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Dormire otto ore vs dormire meno — cosa è più realistico per gli adulti?", "sideA": "8 ore", "sideB": "Meno", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Andare al lavoro a piedi vs prendere l'auto — cosa è meglio per la tua salute?", "sideA": "A piedi", "sideB": "Auto", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Acquisti online vs acquisti in un negozio — cosa preferisci?", "sideA": "Online", "sideB": "Negozio", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Risparmiare per il futuro vs godersi i soldi ora — cosa è più saggio?", "sideA": "Risparmiare", "sideB": "Godersi ora", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Cose costose vs cose economiche — cosa ha il miglior valore?", "sideA": "Costose", "sideB": "Economiche", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Comprare nuovo vs comprare di seconda mano — cosa è meglio?", "sideA": "Nuovo", "sideB": "Seconda mano", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Guardare la TV a casa vs uscire — qual è la serata migliore?", "sideA": "TV", "sideB": "Uscire", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vacanze in famiglia vs vacanze con amici — cosa è meglio?", "sideA": "Famiglia", "sideB": "Amici", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Rimanere nel proprio paese vs viaggiare all'estero — qual è la vacanza migliore?", "sideA": "Proprio paese", "sideB": "Estero", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Sport vs lettura — qual è il miglior hobby per gli adulti?", "sideA": "Sport", "sideB": "Lettura", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vedere spesso gli amici vs avere tempo da soli — cosa è più importante?", "sideA": "Amici", "sideB": "Da soli", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Rispondere alle email immediatamente vs lasciarle per dopo — cosa è più professionale?", "sideA": "Immediatamente", "sideB": "Dopo", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Lavare i piatti immediatamente vs lasciarli fino a domani — cosa è meglio?", "sideA": "Immediatamente", "sideB": "Domani", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio al lavoro?", "sideA": "Anticipo", "sideB": "Ritardo", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avere una scrivania molto organizzata vs una scrivania disordinata — quale persona è più produttiva?", "sideA": "Organizzata", "sideB": "Disordinata", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Parlare di lavoro a cena vs niente chiacchiere di lavoro a cena — quale regola è migliore?", "sideA": "Parlare di lavoro", "sideB": "Niente lavoro", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
 
             {
                 "topic": "Linguaggio: Costitutivo vs Espressivo",
                 "sideA": "Costitutivo",
                 "sideB": "Espressivo",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Modella la realtà",
                     "Limita il pensiero"
@@ -5212,7 +5212,7 @@ const speakingData = {
                 "sideA": "Precisione",
                 "sideB": "Ambiguità",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Chiarezza",
                     "Efficienza"
@@ -5227,7 +5227,7 @@ const speakingData = {
                 "sideA": "Retorica",
                 "sideB": "Logica",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Potere persuasivo",
                     "Appello emotivo"
@@ -5242,7 +5242,7 @@ const speakingData = {
                 "sideA": "Letterale",
                 "sideB": "Interpretativo",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Intenzione dell'autore",
                     "Stabilità"
@@ -5257,7 +5257,7 @@ const speakingData = {
                 "sideA": "Consenso",
                 "sideB": "Umiltà",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Conoscenza consolidata",
                     "Autorità esperta"
@@ -5272,7 +5272,7 @@ const speakingData = {
                 "sideA": "Competenza",
                 "sideB": "Esperienza vissuta",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Rigore scientifico",
                     "Dati oggettivi"
@@ -5287,7 +5287,7 @@ const speakingData = {
                 "sideA": "Virtù",
                 "sideB": "Paralisi",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Pensiero critico",
                     "Scetticismo"
@@ -5302,7 +5302,7 @@ const speakingData = {
                 "sideA": "Narrativa",
                 "sideB": "Dati",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Impatto emotivo",
                     "Connessione umana"
@@ -5317,7 +5317,7 @@ const speakingData = {
                 "sideA": "Consenso",
                 "sideB": "Risultato",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Processo democratico",
                     "Diritto morale"
@@ -5332,7 +5332,7 @@ const speakingData = {
                 "sideA": "Garante",
                 "sideB": "Minaccia",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Stato di diritto",
                     "Protezione dei diritti"
@@ -5347,7 +5347,7 @@ const speakingData = {
                 "sideA": "Diritti",
                 "sideB": "Responsabilità",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Libertà individuale",
                     "Protezione legale"
@@ -5362,7 +5362,7 @@ const speakingData = {
                 "sideA": "Neutralità",
                 "sideB": "Guidata dai valori",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Imparzialità",
                     "Equità"
@@ -5377,7 +5377,7 @@ const speakingData = {
                 "sideA": "Intenzione",
                 "sideB": "Ricezione",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Visione dell'autore",
                     "Contesto originale"
@@ -5392,7 +5392,7 @@ const speakingData = {
                 "sideA": "Estetico",
                 "sideB": "Morale",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "L'arte per l'arte",
                     "Pura bellezza"
@@ -5407,7 +5407,7 @@ const speakingData = {
                 "sideA": "Avanguardia",
                 "sideB": "Accessibilità",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Spostare i confini",
                     "Sfida intellettuale"
@@ -5422,7 +5422,7 @@ const speakingData = {
                 "sideA": "Istituzionale",
                 "sideB": "Irregolare",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Preservazione storica",
                     "Standard"
@@ -5437,7 +5437,7 @@ const speakingData = {
                 "sideA": "Precauzionale",
                 "sideB": "Proattivo",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Evitare i rischi",
                     "Sicurezza prima di tutto"
@@ -5452,7 +5452,7 @@ const speakingData = {
                 "sideA": "Intrinsecamente buono",
                 "sideB": "Eticamente neutro",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Valori dell'Illuminismo",
                     "Risoluzione dei problemi"
@@ -5467,7 +5467,7 @@ const speakingData = {
                 "sideA": "Rischio esistenziale",
                 "sideB": "Sofferenza attuale",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Sopravvivenza a lungo termine",
                     "Generazioni future"
@@ -5482,7 +5482,7 @@ const speakingData = {
                 "sideA": "Coscienza",
                 "sideB": "IA Generale",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Unicità biologica",
                     "Esperienza soggettiva"
@@ -5497,7 +5497,7 @@ const speakingData = {
                 "sideA": "Reale",
                 "sideB": "Illusione",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Progresso tecnologico",
                     "Migliore qualità della vita"
@@ -5512,7 +5512,7 @@ const speakingData = {
                 "sideA": "Ordine liberale",
                 "sideB": "Multipolarità",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Valori universali",
                     "Stabilità globale"
@@ -5527,7 +5527,7 @@ const speakingData = {
                 "sideA": "Memoria",
                 "sideB": "Oblio",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Imparare dalla storia",
                     "Identità"
@@ -5542,7 +5542,7 @@ const speakingData = {
                 "sideA": "Tragedia",
                 "sideB": "Cooperazione",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Interesse personale",
                     "Esaurimento delle risorse"
@@ -5557,7 +5557,7 @@ const speakingData = {
                 "sideA": "Rosso",
                 "sideB": "Blu",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5566,7 +5566,7 @@ const speakingData = {
                 "sideA": "Giallo",
                 "sideB": "Verde",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5575,7 +5575,7 @@ const speakingData = {
                 "sideA": "Nero",
                 "sideB": "Bianco",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5584,7 +5584,7 @@ const speakingData = {
                 "sideA": "Rosa",
                 "sideB": "Viola",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5593,7 +5593,7 @@ const speakingData = {
                 "sideA": "Cerchio",
                 "sideB": "Quadrato",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5602,7 +5602,7 @@ const speakingData = {
                 "sideA": "Grandi",
                 "sideB": "Piccoli",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5611,7 +5611,7 @@ const speakingData = {
                 "sideA": "Triangolo",
                 "sideB": "Rettangolo",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5620,7 +5620,7 @@ const speakingData = {
                 "sideA": "Palla",
                 "sideB": "Bambola",
                 "level": "starter",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5647,7 +5647,7 @@ const speakingData = {
                 "sideA": "Sedia",
                 "sideB": "Pavimento",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5692,7 +5692,7 @@ const speakingData = {
                 "sideA": "Acqua",
                 "sideB": "Succo",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5701,7 +5701,7 @@ const speakingData = {
                 "sideA": "Mela",
                 "sideB": "Banana",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5710,7 +5710,7 @@ const speakingData = {
                 "sideA": "Pane",
                 "sideB": "Riso",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5719,7 +5719,7 @@ const speakingData = {
                 "sideA": "Latte",
                 "sideB": "Acqua",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5728,7 +5728,7 @@ const speakingData = {
                 "sideA": "In famiglia",
                 "sideB": "Da soli",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5737,7 +5737,7 @@ const speakingData = {
                 "sideA": "Fratello",
                 "sideB": "Sorella",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5746,7 +5746,7 @@ const speakingData = {
                 "sideA": "Grande",
                 "sideB": "Piccola",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5755,7 +5755,7 @@ const speakingData = {
                 "sideA": "Grande",
                 "sideB": "Piccolo",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5764,7 +5764,7 @@ const speakingData = {
                 "sideA": "Mattina",
                 "sideB": "Pomeriggio",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5773,7 +5773,7 @@ const speakingData = {
                 "sideA": "Lettura",
                 "sideB": "Matematica",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5782,7 +5782,7 @@ const speakingData = {
                 "sideA": "Scuola",
                 "sideB": "Casa",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5791,7 +5791,7 @@ const speakingData = {
                 "sideA": "Compiti",
                 "sideB": "Niente",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5800,7 +5800,7 @@ const speakingData = {
                 "sideA": "Da soli",
                 "sideB": "Coppia",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5809,7 +5809,7 @@ const speakingData = {
                 "sideA": "Carta",
                 "sideB": "Computer",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5818,7 +5818,7 @@ const speakingData = {
                 "sideA": "Colazione",
                 "sideB": "Cena",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5827,7 +5827,7 @@ const speakingData = {
                 "sideA": "Caldo",
                 "sideB": "Freddo",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5836,7 +5836,7 @@ const speakingData = {
                 "sideA": "Casa",
                 "sideB": "Ristorante",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5845,7 +5845,7 @@ const speakingData = {
                 "sideA": "Dolce",
                 "sideB": "Salato",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5854,7 +5854,7 @@ const speakingData = {
                 "sideA": "Cucinare",
                 "sideB": "Comprare",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5863,7 +5863,7 @@ const speakingData = {
                 "sideA": "Presto",
                 "sideB": "Tardi",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5872,7 +5872,7 @@ const speakingData = {
                 "sideA": "Mattina",
                 "sideB": "Sera",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5881,7 +5881,7 @@ const speakingData = {
                 "sideA": "Feriali",
                 "sideB": "Fine settimana",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5890,7 +5890,7 @@ const speakingData = {
                 "sideA": "Estate",
                 "sideB": "Inverno",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5899,7 +5899,7 @@ const speakingData = {
                 "sideA": "Presto",
                 "sideB": "Tardi",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5908,7 +5908,7 @@ const speakingData = {
                 "sideA": "Casa",
                 "sideB": "Appartamento",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5917,7 +5917,7 @@ const speakingData = {
                 "sideA": "Città",
                 "sideB": "Campagna",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5926,7 +5926,7 @@ const speakingData = {
                 "sideA": "Camera",
                 "sideB": "Soggiorno",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5935,7 +5935,7 @@ const speakingData = {
                 "sideA": "Chiuso",
                 "sideB": "Aperto",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5944,7 +5944,7 @@ const speakingData = {
                 "sideA": "TV",
                 "sideB": "Libro",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5953,7 +5953,7 @@ const speakingData = {
                 "sideA": "Sport",
                 "sideB": "Videogioco",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5962,7 +5962,7 @@ const speakingData = {
                 "sideA": "Disegno",
                 "sideB": "Canto",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5971,7 +5971,7 @@ const speakingData = {
                 "sideA": "Soli",
                 "sideB": "Amici",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5980,7 +5980,7 @@ const speakingData = {
                 "sideA": "Nuoto",
                 "sideB": "Corsa",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5989,7 +5989,7 @@ const speakingData = {
                 "sideA": "Musica",
                 "sideB": "Sport",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6007,7 +6007,7 @@ const speakingData = {
                 "sideA": "Pioggia",
                 "sideB": "Sole",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6016,7 +6016,7 @@ const speakingData = {
                 "sideA": "Mare",
                 "sideB": "Montagna",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6025,7 +6025,7 @@ const speakingData = {
                 "sideA": "Fiori",
                 "sideB": "Alberi",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6034,7 +6034,7 @@ const speakingData = {
                 "sideA": "Auto",
                 "sideB": "Autobus",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6043,7 +6043,7 @@ const speakingData = {
                 "sideA": "Camminare",
                 "sideB": "Bici",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6052,7 +6052,7 @@ const speakingData = {
                 "sideA": "Brevi",
                 "sideB": "Lunghe",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6061,7 +6061,7 @@ const speakingData = {
                 "sideA": "Soli",
                 "sideB": "Famiglia",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6070,7 +6070,7 @@ const speakingData = {
                 "sideA": "Online",
                 "sideB": "Di persona",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [
                     "Comodità",
                     "Prezzi migliori"
@@ -6085,7 +6085,7 @@ const speakingData = {
                 "sideA": "Carta",
                 "sideB": "E-book",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [
                     "Odore/Sensazione",
                     "Collezionabile"
@@ -6100,7 +6100,7 @@ const speakingData = {
                 "sideA": "Casa",
                 "sideB": "Ufficio",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [
                     "Nessun tragitto",
                     "Flessibilità"
@@ -6115,7 +6115,7 @@ const speakingData = {
                 "sideA": "Elettriche",
                 "sideB": "Benzina",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [
                     "Ambiente",
                     "Silenzioso"
@@ -6130,7 +6130,7 @@ const speakingData = {
                 "sideA": "Mattina",
                 "sideB": "Sera",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6139,7 +6139,7 @@ const speakingData = {
                 "sideA": "Severi",
                 "sideB": "Amichevoli",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6148,7 +6148,7 @@ const speakingData = {
                 "sideA": "Libro",
                 "sideB": "Video",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6157,7 +6157,7 @@ const speakingData = {
                 "sideA": "Brevi",
                 "sideB": "Lunghe",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6166,7 +6166,7 @@ const speakingData = {
                 "sideA": "Gruppo",
                 "sideB": "Individuale",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6175,7 +6175,7 @@ const speakingData = {
                 "sideA": "Uniforme",
                 "sideB": "Casual",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6184,7 +6184,7 @@ const speakingData = {
                 "sideA": "In casa",
                 "sideB": "Fast food",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6193,7 +6193,7 @@ const speakingData = {
                 "sideA": "Grandi pasti",
                 "sideB": "Spuntini",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6202,7 +6202,7 @@ const speakingData = {
                 "sideA": "Vegetariano",
                 "sideB": "Carne",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6211,7 +6211,7 @@ const speakingData = {
                 "sideA": "Tè",
                 "sideB": "Caffè",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6220,7 +6220,7 @@ const speakingData = {
                 "sideA": "Da soli",
                 "sideB": "Con altri",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6229,7 +6229,7 @@ const speakingData = {
                 "sideA": "Sport di squadra",
                 "sideB": "Sport individuale",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6238,7 +6238,7 @@ const speakingData = {
                 "sideA": "Al chiuso",
                 "sideB": "All'aperto",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6247,7 +6247,7 @@ const speakingData = {
                 "sideA": "Cinema",
                 "sideB": "Teatro",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6256,7 +6256,7 @@ const speakingData = {
                 "sideA": "Ascoltare",
                 "sideB": "Suonare",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6265,7 +6265,7 @@ const speakingData = {
                 "sideA": "Videogiochi",
                 "sideB": "Giochi da tavolo",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6274,7 +6274,7 @@ const speakingData = {
                 "sideA": "Shopping",
                 "sideB": "Restare a casa",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6283,7 +6283,7 @@ const speakingData = {
                 "sideA": "Cellulare",
                 "sideB": "Computer",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6292,7 +6292,7 @@ const speakingData = {
                 "sideA": "Messaggio",
                 "sideB": "Chiamata",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6301,7 +6301,7 @@ const speakingData = {
                 "sideA": "E-book",
                 "sideB": "Libro cartaceo",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6310,7 +6310,7 @@ const speakingData = {
                 "sideA": "Telefono",
                 "sideB": "Fotocamera",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6319,7 +6319,7 @@ const speakingData = {
                 "sideA": "Mare",
                 "sideB": "Montagna",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6328,7 +6328,7 @@ const speakingData = {
                 "sideA": "Treno",
                 "sideB": "Aereo",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6337,7 +6337,7 @@ const speakingData = {
                 "sideA": "Città",
                 "sideB": "Villaggio",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6346,7 +6346,7 @@ const speakingData = {
                 "sideA": "Hotel",
                 "sideB": "Famiglia locale",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6355,7 +6355,7 @@ const speakingData = {
                 "sideA": "Estero",
                 "sideB": "Proprio paese",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6364,7 +6364,7 @@ const speakingData = {
                 "sideA": "Molti amici",
                 "sideB": "Amici stretti",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6373,7 +6373,7 @@ const speakingData = {
                 "sideA": "Di persona",
                 "sideB": "Online",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6382,7 +6382,7 @@ const speakingData = {
                 "sideA": "Genitori",
                 "sideB": "Appartamento studenti",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6391,7 +6391,7 @@ const speakingData = {
                 "sideA": "Casa",
                 "sideB": "Uscire",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6400,7 +6400,7 @@ const speakingData = {
                 "sideA": "Risparmiare",
                 "sideB": "Spendere",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6409,7 +6409,7 @@ const speakingData = {
                 "sideA": "Part-time",
                 "sideB": "Solo scuola",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6418,7 +6418,7 @@ const speakingData = {
                 "sideA": "Soldi",
                 "sideB": "Tempo libero",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6427,7 +6427,7 @@ const speakingData = {
                 "sideA": "Online",
                 "sideB": "Aula",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6436,7 +6436,7 @@ const speakingData = {
                 "sideA": "Fatti",
                 "sideB": "Trovare info",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6445,7 +6445,7 @@ const speakingData = {
                 "sideA": "Università",
                 "sideB": "Professionale",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6454,7 +6454,7 @@ const speakingData = {
                 "sideA": "Esami",
                 "sideB": "Continua",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6463,7 +6463,7 @@ const speakingData = {
                 "sideA": "Scuola",
                 "sideB": "Vivere all'estero",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6472,7 +6472,7 @@ const speakingData = {
                 "sideA": "Solo maschi/femmine",
                 "sideB": "Mista",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6481,7 +6481,7 @@ const speakingData = {
                 "sideA": "Social media",
                 "sideB": "Faccia a faccia",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6490,7 +6490,7 @@ const speakingData = {
                 "sideA": "Streaming",
                 "sideB": "TV classica",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6499,7 +6499,7 @@ const speakingData = {
                 "sideA": "Casa",
                 "sideB": "Ufficio",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6508,7 +6508,7 @@ const speakingData = {
                 "sideA": "Notizie online",
                 "sideB": "Giornale",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6517,7 +6517,7 @@ const speakingData = {
                 "sideA": "Social media",
                 "sideB": "Natura",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6526,7 +6526,7 @@ const speakingData = {
                 "sideA": "Trasporti pubblici",
                 "sideB": "Auto",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6535,7 +6535,7 @@ const speakingData = {
                 "sideA": "Usato",
                 "sideB": "Nuovo",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6544,7 +6544,7 @@ const speakingData = {
                 "sideA": "Città",
                 "sideB": "Campagna",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6553,7 +6553,7 @@ const speakingData = {
                 "sideA": "Vegetarianismo",
                 "sideB": "Carne",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6562,7 +6562,7 @@ const speakingData = {
                 "sideA": "Individuale",
                 "sideB": "Governo",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6571,7 +6571,7 @@ const speakingData = {
                 "sideA": "Lavoro stabile",
                 "sideB": "Carriera creativa",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6580,7 +6580,7 @@ const speakingData = {
                 "sideA": "Propria attività",
                 "sideB": "Azienda",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6589,7 +6589,7 @@ const speakingData = {
                 "sideA": "Salario",
                 "sideB": "Soddisfazione",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6598,7 +6598,7 @@ const speakingData = {
                 "sideA": "Molte ore",
                 "sideB": "Equilibrio",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6607,7 +6607,7 @@ const speakingData = {
                 "sideA": "Passione",
                 "sideB": "Prospettive",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6616,7 +6616,7 @@ const speakingData = {
                 "sideA": "Individuo",
                 "sideB": "Comunità",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6625,7 +6625,7 @@ const speakingData = {
                 "sideA": "Tradizionali",
                 "sideB": "Moderni",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6634,7 +6634,7 @@ const speakingData = {
                 "sideA": "Volontariato",
                 "sideB": "Donare",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6643,7 +6643,7 @@ const speakingData = {
                 "sideA": "Fama",
                 "sideB": "Differenza silenziosa",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6652,7 +6652,7 @@ const speakingData = {
                 "sideA": "Regole",
                 "sideB": "Pensiero proprio",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6661,7 +6661,7 @@ const speakingData = {
                 "sideA": "Fisica",
                 "sideB": "Mentale",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6670,7 +6670,7 @@ const speakingData = {
                 "sideA": "Prevenzione",
                 "sideB": "Cura",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6679,7 +6679,7 @@ const speakingData = {
                 "sideA": "Competitivo",
                 "sideB": "Divertimento",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6688,7 +6688,7 @@ const speakingData = {
                 "sideA": "Privata",
                 "sideB": "Pubblica",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6697,7 +6697,7 @@ const speakingData = {
                 "sideA": "Cinema",
                 "sideB": "Letteratura",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6706,7 +6706,7 @@ const speakingData = {
                 "sideA": "Moderna",
                 "sideB": "Classica",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6715,7 +6715,7 @@ const speakingData = {
                 "sideA": "Preservare",
                 "sideB": "Costruire",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6724,7 +6724,7 @@ const speakingData = {
                 "sideA": "Locale",
                 "sideB": "Globalizzazione",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6733,7 +6733,7 @@ const speakingData = {
                 "sideA": "Social media",
                 "sideB": "Faccia a faccia",
                 "level": "upper-intermediate",
-                "theme": "people_society",
+                "theme": "politics_governance_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6742,7 +6742,7 @@ const speakingData = {
                 "sideA": "Urbana",
                 "sideB": "Rurale",
                 "level": "upper-intermediate",
-                "theme": "travel_places",
+                "theme": "globalisation_trade_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6751,7 +6751,7 @@ const speakingData = {
                 "sideA": "Online",
                 "sideB": "Aula",
                 "level": "upper-intermediate",
-                "theme": "education_work",
+                "theme": "academic_vocabulary_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6760,7 +6760,7 @@ const speakingData = {
                 "sideA": "Rinnovabile",
                 "sideB": "Nucleare",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6769,7 +6769,7 @@ const speakingData = {
                 "sideA": "Fast fashion",
                 "sideB": "Sostenibile",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6778,7 +6778,7 @@ const speakingData = {
                 "sideA": "Creatività IA",
                 "sideB": "Arte umana",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6787,7 +6787,7 @@ const speakingData = {
                 "sideA": "Spazio",
                 "sideB": "Abissi",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6796,7 +6796,7 @@ const speakingData = {
                 "sideA": "Privacy",
                 "sideB": "Sicurezza",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6805,7 +6805,7 @@ const speakingData = {
                 "sideA": "OGM",
                 "sideB": "Biologico",
                 "level": "advanced",
-                "theme": "nature_environment",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6814,7 +6814,7 @@ const speakingData = {
                 "sideA": "Reddito universale",
                 "sideB": "Garanzia lavoro",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6823,7 +6823,7 @@ const speakingData = {
                 "sideA": "Rosa",
                 "sideB": "Arancione",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6832,7 +6832,7 @@ const speakingData = {
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6841,7 +6841,7 @@ const speakingData = {
                 "sideA": "Sedia",
                 "sideB": "Divano",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6850,7 +6850,7 @@ const speakingData = {
                 "sideA": "Borsa",
                 "sideB": "Scatola",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6868,7 +6868,7 @@ const speakingData = {
                 "sideA": "Cioccolato",
                 "sideB": "Caramelle",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6877,7 +6877,7 @@ const speakingData = {
                 "sideA": "Cucchiaio",
                 "sideB": "Forchetta",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6886,7 +6886,7 @@ const speakingData = {
                 "sideA": "Cappello",
                 "sideB": "Scarpe",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6895,7 +6895,7 @@ const speakingData = {
                 "sideA": "Sole",
                 "sideB": "Luna",
                 "level": "starter",
-                "theme": "nature_environment",
+                "theme": "weather_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6904,7 +6904,7 @@ const speakingData = {
                 "sideA": "Calze",
                 "sideB": "Senza calze",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6913,7 +6913,7 @@ const speakingData = {
                 "sideA": "Con i nonni",
                 "sideB": "Senza i nonni",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6922,7 +6922,7 @@ const speakingData = {
                 "sideA": "Mamma",
                 "sideB": "Papà",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6931,7 +6931,7 @@ const speakingData = {
                 "sideA": "Matematica",
                 "sideB": "Arte",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6940,7 +6940,7 @@ const speakingData = {
                 "sideA": "Carta",
                 "sideB": "Tablet",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6949,7 +6949,7 @@ const speakingData = {
                 "sideA": "Pizza",
                 "sideB": "Pasta",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6958,7 +6958,7 @@ const speakingData = {
                 "sideA": "Gelato",
                 "sideB": "Torta",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6967,7 +6967,7 @@ const speakingData = {
                 "sideA": "Giorni brevi",
                 "sideB": "Giorni lunghi",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6976,7 +6976,7 @@ const speakingData = {
                 "sideA": "Parco",
                 "sideB": "Spiaggia",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6985,7 +6985,7 @@ const speakingData = {
                 "sideA": "Aereo",
                 "sideB": "Treno",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6994,7 +6994,7 @@ const speakingData = {
                 "sideA": "Mattino",
                 "sideB": "Sera",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7012,7 +7012,7 @@ const speakingData = {
                 "sideA": "Forchetta",
                 "sideB": "Mani",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7021,7 +7021,7 @@ const speakingData = {
                 "sideA": "Con le calze",
                 "sideB": "Senza",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7030,7 +7030,7 @@ const speakingData = {
                 "sideA": "Castello di sabbia",
                 "sideB": "Pupazzo di neve",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7039,7 +7039,7 @@ const speakingData = {
                 "sideA": "Molti esami",
                 "sideB": "Pochissimi esami",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7048,7 +7048,7 @@ const speakingData = {
                 "sideA": "A 7 anni",
                 "sideB": "A 5 anni",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7057,7 +7057,7 @@ const speakingData = {
                 "sideA": "Lentamente",
                 "sideB": "Velocemente",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7066,7 +7066,7 @@ const speakingData = {
                 "sideA": "Cucinare a casa",
                 "sideB": "Ordinare online",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7075,7 +7075,7 @@ const speakingData = {
                 "sideA": "Cucinare",
                 "sideB": "Pasticceria",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7084,7 +7084,7 @@ const speakingData = {
                 "sideA": "Palestra",
                 "sideB": "All'aperto",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7093,7 +7093,7 @@ const speakingData = {
                 "sideA": "Sul telefono",
                 "sideB": "Stampate",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7102,7 +7102,7 @@ const speakingData = {
                 "sideA": "Smart TV",
                 "sideB": "Computer",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7111,7 +7111,7 @@ const speakingData = {
                 "sideA": "Paese caldo",
                 "sideB": "Paese freddo",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7120,7 +7120,7 @@ const speakingData = {
                 "sideA": "Fare regali",
                 "sideB": "Ricevere regali",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7129,7 +7129,7 @@ const speakingData = {
                 "sideA": "Al chiuso",
                 "sideB": "All'aperto",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7138,7 +7138,7 @@ const speakingData = {
                 "sideA": "Ananas",
                 "sideB": "Niente ananas",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7147,7 +7147,7 @@ const speakingData = {
                 "sideA": "Prima il latte",
                 "sideB": "Prima il tè",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7156,7 +7156,7 @@ const speakingData = {
                 "sideA": "Lunedì",
                 "sideB": "Venerdì",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7165,7 +7165,7 @@ const speakingData = {
                 "sideA": "Prima della sveglia",
                 "sideB": "Fino alla sveglia",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7183,7 +7183,7 @@ const speakingData = {
                 "sideA": "Troppo caldo",
                 "sideB": "Troppo freddo",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7192,7 +7192,7 @@ const speakingData = {
                 "sideA": "Errori",
                 "sideB": "Successi",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7201,7 +7201,7 @@ const speakingData = {
                 "sideA": "Tablet",
                 "sideB": "Quaderni",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7210,7 +7210,7 @@ const speakingData = {
                 "sideA": "Sempre rintracciabili",
                 "sideB": "Tempo libero",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7219,7 +7219,7 @@ const speakingData = {
                 "sideA": "Riutilizzare",
                 "sideB": "Riciclare",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7228,7 +7228,7 @@ const speakingData = {
                 "sideA": "Una carriera",
                 "sideB": "Cambiare spesso",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7237,7 +7237,7 @@ const speakingData = {
                 "sideA": "Dormire",
                 "sideB": "Esercizio",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7246,7 +7246,7 @@ const speakingData = {
                 "sideA": "Pop",
                 "sideB": "Classica",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7255,7 +7255,7 @@ const speakingData = {
                 "sideA": "Sapere",
                 "sideB": "Sorpresi",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7264,7 +7264,7 @@ const speakingData = {
                 "sideA": "Immediatamente",
                 "sideB": "Prendersi tempo",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7273,7 +7273,7 @@ const speakingData = {
                 "sideA": "Binge-watching",
                 "sideB": "Settimanale",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7282,7 +7282,7 @@ const speakingData = {
                 "sideA": "Finestrino",
                 "sideB": "Corridoio",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7291,7 +7291,7 @@ const speakingData = {
                 "sideA": "Saltare",
                 "sideB": "Brutta sessione",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7300,7 +7300,7 @@ const speakingData = {
                 "sideA": "Con se stessi",
                 "sideB": "Con l'animale",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -7309,37 +7309,37 @@ const speakingData = {
             {
                 "topic": "Il mio ricordo d'infanzia preferito",
                 "level": "starter",
-                "theme": "people_society"
+                "theme": "family_A0"
             },
             {
                 "topic": "L'ultima vacanza che ho fatto",
                 "level": "elementary",
-                "theme": "travel_places"
+                "theme": "transport_travel_A2"
             },
             {
                 "topic": "Una persona che mi ha ispirato",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "topic": "Il futuro del mondo tra 50 anni",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "topic": "Il ruolo dell'arte nella società moderna",
                 "level": "advanced",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_hobbies_A2"
             },
             {
                 "topic": "La complexité della coscienza umana",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "topic": "L'importance della consapevolezza sulla salute mentale",
                 "level": "intermediate",
-                "theme": "health_body"
+                "theme": "mental_health_B1"
             },
             {
                 "topic": "Il lavoro dei miei sogni e perché",
@@ -7349,12 +7349,12 @@ const speakingData = {
             {
                 "topic": "L'impatto del cambiamento climatico sulle comunità locali",
                 "level": "upper-intermediate",
-                "theme": "nature_environment"
+                "theme": "environment_policy_B2"
             },
             {
                 "topic": "Intelligenza Artificiale: Strumento o minaccia ?",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             }
         ]
     },
@@ -7363,62 +7363,62 @@ const speakingData = {
             {
                 "text": "Является ли завтрак самым важным приемом пищи?",
                 "level": "starter",
-                "theme": "food_drinks"
+                "theme": "food_drink_A0"
             },
             {
                 "text": "Собаки лучше кошек в качестве питомцев?",
                 "level": "starter",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_A1"
             },
             {
                 "text": "Должны ли у детей быть мобильные телефоны?",
                 "level": "elementary",
-                "theme": "science_technology"
+                "theme": "technology_A2"
             },
             {
                 "text": "Где лучше жить: в доме или в квартире?",
                 "level": "elementary",
-                "theme": "daily_life"
+                "theme": "neighbourhood_A2"
             },
             {
                 "text": "Можем ли мы прожить без интернета неделю?",
                 "level": "intermediate",
-                "theme": "science_technology"
+                "theme": "media_news_B1"
             },
             {
                 "text": "Нужно ли каждому учить второй язык?",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "Разрушают ли социальные сети наши навыки общения?",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "text": "Должен ли общественный транспорт быть бесплатным?",
                 "level": "upper-intermediate",
-                "theme": "travel_places"
+                "theme": "globalisation_trade_B2"
             },
             {
                 "text": "Генная инженерия: прогресс или опасность?",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             },
             {
                 "text": "Является ли безусловный базовый доход решением проблемы автоматизации?",
                 "level": "advanced",
-                "theme": "people_society"
+                "theme": "power_institutions_C1"
             },
             {
                 "text": "Существует ли свобода воли на самом деле или это иллюзия?",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "text": "Этика колонизации других планет.",
                 "level": "proficiency",
-                "theme": "science_technology"
+                "theme": "epistemology_truth_C2"
             }
         ],
         "criticsCorner": [
@@ -7426,231 +7426,231 @@ const speakingData = {
                 "text": "Я мыслю, следовательно, я существую.",
                 "author": "Descartes",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "Жизнь — это то, что происходит с тобой, пока ты оживленно строишь другие планы.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "people_society"
+                "theme": "relationships_family_A2"
             },
             {
                 "text": "Единственная константа — это перемены.",
                 "author": "Heraclitus",
                 "level": "upper-intermediate",
-                "theme": "people_society"
+                "theme": "politics_governance_B2"
             }
         ],
-        "debates": [{"topic":"Протестантская трудовая этика как цивилизационное достижение против неё же как первоисточника страданий взрослого человека — какое наследие доминирует сегодня?","sideA":"Цивилизационное достижение","sideB":"Источник страданий","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Коммодификация страсти против освобождения через превращение труда в поиск смысла — является ли призыв «делай то, что любишь» мудрым советом или ловушкой?","sideA":"Совет","sideB":"Ловушка","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Карьера как идентичность против карьеры как средства — какие отношения со своей работой более последовательны для современного взрослого человека?","sideA":"Идентичность","sideB":"Средство","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Добродетельный трудоголик против стратегического бездельника — кто из них более незаслуженно превозносится в западной культуре?","sideA":"Трудоголик","sideB":"Бездельник","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Взрослые амбиции как нечто достойное восхищения против амбиций как неспособности принять собственную конечность — какая интерпретация психологически честнее?","sideA":"Достойно восхищения","sideB":"Неспособность принять конечность","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Романтическая любовь как организующий принцип взрослой жизни против неё же как исторически обусловленного и коммерчески поддерживаемого мифа — что более обоснованно?","sideA":"Организующий принцип","sideB":"Коммерческий миф","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Радикальная прозрачность в отношениях против необходимости частного «я» — могут ли сосуществовать близость и индивидуация?","sideA":"Прозрачность","sideB":"Частное я","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Этика заботы как феминистская корректива против неё же как переназначения того же бремени — оправдала ли эта концепция ожидания?","sideA":"Феминистская корректива","sideB":"Переназначение бремени","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Сознательная бездетность как сопротивление пронаталистской идеологии против неё же как сугубо личного решения без политического подтекста — можно ли провести здесь четкую границу?","sideA":"Сопротивление","sideB":"Личное решение","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Осознание смертности как предварительное условие осмысленной жизни против неё же как главного препятствия — какая позиция более жизнеспособна?","sideA":"Условие","sideB":"Препятствие","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Старение как упадок против старения как накопление — какой нарратив честнее и какой полезнее?","sideA":"Упадок","sideB":"Накопление","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Медикализация старения как прогресс против неё же как отказа принимать человеческую природу — где должна проходить черта?","sideA":"Прогресс","sideB":"Отказ","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
-            {"topic":"Память как субстанция взрослой идентичности против памяти как крайне ненадежного рассказчика — каковы последствия этого для конструирования личности?","sideA":"Субстанция","sideB":"Ненадежный рассказчик","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Соучастие взрослого гражданина в несправедливых системах через повседневное потребление против структурной незначимости личной моральной чистоты — какая формулировка честнее?","sideA":"Соучастие","sideB":"Структурная незначимость","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Политическое разочарование как рациональная реакция на имеющиеся доказательства против него же как формы привилегии — какая трактовка более эмпирически обоснованна?","sideA":"Рациональная реакция","sideB":"Привилегия","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Справедливость в отношениях между поколениями как центральный моральный вызов нашего времени против неё же как концепции, систематически скрывающей классовое и расовое неравенство в настоящем — какая критика весомее?","sideA":"Моральный вызов","sideB":"Скрытие неравенства","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Либеральная демократия как «наименее плохая» система против неё же как системы, структурно исчерпавшей свой реформаторский потенциал — какой вердикт подтверждают факты?","sideA":"Наименее плохая система","sideB":"Исчерпан потенциал","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Способность к самообману как когнитивный дефект против неё же как адаптивного механизма — какая версия лучше служит взрослому человеку, стремящемуся жить полноценно?","sideA":"Когнитивный дефект","sideB":"Адаптивный механизм","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Экспертность как эпистемический авторитет против экспертности как формы институциональной власти, заслуживающей критики — когда здоровый скептицизм превращается в эпистемическую трусость?","sideA":"Эпистемический авторитет","sideB":"Институциональная власть","level":"proficiency","theme":"science_technology","ideasA":[],"ideasB":[]},
-            {"topic":"Нарратив как основной способ осмысления жизни взрослыми против нарратива как основного способа введения себя в заблуждение — какая функция преобладает?","sideA":"Осмысление","sideB":"Заблуждение","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Честность как безусловная добродетель против честности как добродетели контекстуальной — существует ли последовательное описание правдивости, выдерживающее столкновение с реальными отношениями?","sideA":"Безусловная добродетель","sideB":"Контекстуальная добродетель","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Взрослый, который «наконец-то всё понял», против взрослого, смирившегося с тем, что этого никогда не произойдет — кто из них находится в более зрелых отношениях с реальностью?","sideA":"Всё понял","sideB":"Смирился с неизвестностью","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Рассказать всё психотерапевту против того, чтобы рассказать всё парикмахеру — какие профессиональные отношения эмпирически более трансформирующи, и почему ответ вызывает у нас дискомфорт?","sideA":"Психотерапевт","sideB":"Парикмахер","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
+        "debates": [{"topic":"Протестантская трудовая этика как цивилизационное достижение против неё же как первоисточника страданий взрослого человека — какое наследие доминирует сегодня?","sideA":"Цивилизационное достижение","sideB":"Источник страданий","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Коммодификация страсти против освобождения через превращение труда в поиск смысла — является ли призыв «делай то, что любишь» мудрым советом или ловушкой?","sideA":"Совет","sideB":"Ловушка","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Карьера как идентичность против карьеры как средства — какие отношения со своей работой более последовательны для современного взрослого человека?","sideA":"Идентичность","sideB":"Средство","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Добродетельный трудоголик против стратегического бездельника — кто из них более незаслуженно превозносится в западной культуре?","sideA":"Трудоголик","sideB":"Бездельник","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Взрослые амбиции как нечто достойное восхищения против амбиций как неспособности принять собственную конечность — какая интерпретация психологически честнее?","sideA":"Достойно восхищения","sideB":"Неспособность принять конечность","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Романтическая любовь как организующий принцип взрослой жизни против неё же как исторически обусловленного и коммерчески поддерживаемого мифа — что более обоснованно?","sideA":"Организующий принцип","sideB":"Коммерческий миф","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Радикальная прозрачность в отношениях против необходимости частного «я» — могут ли сосуществовать близость и индивидуация?","sideA":"Прозрачность","sideB":"Частное я","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Этика заботы как феминистская корректива против неё же как переназначения того же бремени — оправдала ли эта концепция ожидания?","sideA":"Феминистская корректива","sideB":"Переназначение бремени","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Сознательная бездетность как сопротивление пронаталистской идеологии против неё же как сугубо личного решения без политического подтекста — можно ли провести здесь четкую границу?","sideA":"Сопротивление","sideB":"Личное решение","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Осознание смертности как предварительное условие осмысленной жизни против неё же как главного препятствия — какая позиция более жизнеспособна?","sideA":"Условие","sideB":"Препятствие","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Старение как упадок против старения как накопление — какой нарратив честнее и какой полезнее?","sideA":"Упадок","sideB":"Накопление","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Медикализация старения как прогресс против неё же как отказа принимать человеческую природу — где должна проходить черта?","sideA":"Прогресс","sideB":"Отказ","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Память как субстанция взрослой идентичности против памяти как крайне ненадежного рассказчика — каковы последствия этого для конструирования личности?","sideA":"Субстанция","sideB":"Ненадежный рассказчик","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Соучастие взрослого гражданина в несправедливых системах через повседневное потребление против структурной незначимости личной моральной чистоты — какая формулировка честнее?","sideA":"Соучастие","sideB":"Структурная незначимость","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Политическое разочарование как рациональная реакция на имеющиеся доказательства против него же как формы привилегии — какая трактовка более эмпирически обоснованна?","sideA":"Рациональная реакция","sideB":"Привилегия","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Справедливость в отношениях между поколениями как центральный моральный вызов нашего времени против неё же как концепции, систематически скрывающей классовое и расовое неравенство в настоящем — какая критика весомее?","sideA":"Моральный вызов","sideB":"Скрытие неравенства","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Либеральная демократия как «наименее плохая» система против неё же как системы, структурно исчерпавшей свой реформаторский потенциал — какой вердикт подтверждают факты?","sideA":"Наименее плохая система","sideB":"Исчерпан потенциал","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Способность к самообману как когнитивный дефект против неё же как адаптивного механизма — какая версия лучше служит взрослому человеку, стремящемуся жить полноценно?","sideA":"Когнитивный дефект","sideB":"Адаптивный механизм","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Экспертность как эпистемический авторитет против экспертности как формы институциональной власти, заслуживающей критики — когда здоровый скептицизм превращается в эпистемическую трусость?","sideA":"Эпистемический авторитет","sideB":"Институциональная власть","level":"proficiency","theme": "epistemology_truth_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Нарратив как основной способ осмысления жизни взрослыми против нарратива как основного способа введения себя в заблуждение — какая функция преобладает?","sideA":"Осмысление","sideB":"Заблуждение","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Честность как безусловная добродетель против честности как добродетели контекстуальной — существует ли последовательное описание правдивости, выдерживающее столкновение с реальными отношениями?","sideA":"Безусловная добродетель","sideB":"Контекстуальная добродетель","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Взрослый, который «наконец-то всё понял», против взрослого, смирившегося с тем, что этого никогда не произойдет — кто из них находится в более зрелых отношениях с реальностью?","sideA":"Всё понял","sideB":"Смирился с неизвестностью","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Рассказать всё психотерапевту против того, чтобы рассказать всё парикмахеру — какие профессиональные отношения эмпирически более трансформирующи, и почему ответ вызывает у нас дискомфорт?","sideA":"Психотерапевт","sideB":"Парикмахер","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
 
-            {"topic": "Четырехдневная рабочая неделя против пятидневной — какая модель больше выгодна работникам и работодателям?", "sideA": "4 дня", "sideB": "5 дней", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Безусловный базовый доход против адресной социальной помощи — что является более эффективной защитой для работающих взрослых?", "sideA": "ББД", "sideB": "Адресная помощь", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Гиг-экономика против постоянной занятости — какая модель лучше служит работникам в долгосрочной перспективе?", "sideA": "Гиг-экономика", "sideB": "Постоянная занятость", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Меритократия против структурных преимуществ — что точнее объясняет карьерный успех?", "sideA": "Меритократия", "sideB": "Структурные преимущества", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Прозрачность зарплат против конфиденциальности — что создает более справедливую рабочую среду?", "sideA": "Прозрачность", "sideB": "Конфиденциальность", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Автоматизация против человеческого труда — что является большей долгосрочной угрозой для занятости взрослых?", "sideA": "Автоматизация", "sideB": "Человеческий труд", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Удаленная работа против присутствия в офисе — что лучше для карьерного роста и командной культуры?", "sideA": "Удаленка", "sideB": "Офис", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Равный отпуск по уходу за ребенком для мужчин и женщин против более длинного декретного отпуска — какая политика справедливее?", "sideA": "Равный отпуск", "sideB": "Длинный декрет", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Выбор не иметь детей против социального давления завести семью — что заслуживает большего уважения?", "sideA": "Бездетность", "sideB": "Давление общества", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Брак как институт против сожительства без брака — что более актуально сегодня?", "sideA": "Брак", "sideB": "Сожительство", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Семьи с двумя доходами против ситуации, когда один партнер остается дома — какая модель лучше для детей и взрослых?", "sideA": "Два дохода", "sideB": "Один дома", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Гендерный разрыв в оплате труда как структурная проблема против вопроса индивидуального выбора — какое объяснение весомее?", "sideA": "Структурная проблема", "sideB": "Личный выбор", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Владение жильем как цель против профессионального рынка аренды — какая модель жилья лучше подходит современным взрослым?", "sideA": "Владение", "sideB": "Аренда", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Джентрификация как улучшение против джентрификации как вытеснение — какая формулировка честнее?", "sideA": "Улучшение", "sideB": "Вытеснение", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Городская плотность против разрастания пригородов — какая модель лучше для комфортных городов?", "sideA": "Плотность", "sideB": "Разрастание", "level": "upper-intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Жизнь рядом с семьей против переезда ради возможностей — какой выбор дает лучшее самочувствие в долгосрочной перспективе?", "sideA": "Рядом с семьей", "sideB": "Переезд", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Старение населения как кризис против старения как ресурса — какая формулировка продуктивнее?", "sideA": "Кризис", "sideB": "Ресурс", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Личная ответственность за здоровье против системных факторов — что имеет больший вес в объяснении результатов для здоровья?", "sideA": "Личная отв-ть", "sideB": "Системные факторы", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Дни психологической разгрузки как законное право на рабочем месте против источника злоупотреблений — где работодатели должны провести черту?", "sideA": "Законное право", "sideB": "Злоупотребление", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Профилактическая медицина против лечебной медицины — на что должно выделяться больше государственного финансирования?", "sideA": "Профилактика", "sideB": "Лечение", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Антивозрастная медицина против грациозного старения — какая позиция более последовательна?", "sideA": "Антивозрастная", "sideB": "Грациозное старение", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Технологии наблюдения для общественной безопасности против права на частную жизнь — где должен быть баланс?", "sideA": "Безопасность", "sideB": "Частная жизнь", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Соцсети как инструмент гражданского участия против соцсетей как драйвера поляризации — какой эффект преобладает?", "sideA": "Участие", "sideB": "Поляризация", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "ИИ в найме против человеческого суждения — что дает более справедливые решения о найме?", "sideA": "ИИ", "sideB": "Человек", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Право быть забытым в интернете против права общественности на информацию — что должно иметь приоритет?", "sideA": "Право быть забытым", "sideB": "Право на инфо", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Обязательное голосование против добровольного — что создает более здоровую демократию?", "sideA": "Обязательное", "sideB": "Добровольное", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Политическое участие через протест против участия через официальные институты — что эффективнее для взрослых сегодня?", "sideA": "Протест", "sideB": "Институты", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Национальная идентичность против европейской или глобальной — что важнее для взрослых в 2026 году?", "sideA": "Национальная", "sideB": "Глобальная", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Повышение налогов для финансирования госуслуг против сокращения расходов — какой политический выбор более оправдан?", "sideA": "Налоги", "sideB": "Сокращение расходов", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Признание, что вы не представляете, как устроена ваша пенсия, против уверенной имитации знания — какой опыт более универсален для взрослого?", "sideA": "Признание", "sideB": "Имитация", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Быть человеком, который всегда планирует встречи, против того, кто просто приходит — какая роль больше утомляет?", "sideA": "Организатор", "sideB": "Гость", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Иметь твердое мнение о кухонных привычках коллег против полного безразличия — какой человек более терпим?", "sideA": "Твердое мнение", "sideB": "Безразличие", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Посещение каждого необязательного рабочего мероприятия против полного их игнорирования — какая стратегия лучше для карьеры и психики?", "sideA": "Посещать все", "sideB": "Игнорировать", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Взрослые, которые все еще путаются в налоговой декларации, против тех, кому нравится ее заполнять — какая группа заслуживает большего доверия?", "sideA": "Путаются", "sideB": "Нравится", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Жаловаться друзьям на стоимость жизни против того, чтобы делать вид, что все в порядке — какая реакция честнее?", "sideA": "Жаловаться", "sideB": "Делать вид", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Плоские организационные иерархии против вертикальных структур управления — что лучше служит работающим в них взрослым?", "sideA": "Плоская иерархия", "sideB": "Вертикальная", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Культ продуктивности против аргументов в пользу праздности — что лучше отражает реальные потребности человека в работе?", "sideA": "Продуктивность", "sideB": "Праздность", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Лидерство как навык, которому можно научиться, против лидерства как врожденного качества — какая позиция более обоснована эмпирически?", "sideA": "Навык", "sideB": "Качество", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Культ успеха (hustle culture) против медленной жизни (slow living) — кто побеждает и кто должен победить?", "sideA": "Культ успеха", "sideB": "Медленная жизнь", "level": "advanced", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Корпоративная социальная ответственность как искреннее обязательство против инструмента репутационного менеджмента — что честнее?", "sideA": "Искренность", "sideB": "Репутация", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Взрослая идентичность как нечто фиксированное против идентичности в процессе постоянного конструирования — что лучше отражает жизненный опыт?", "sideA": "Фиксированная", "sideB": "В процессе", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Приручение феминизма культурой потребления против феминизма, искренне меняющего взрослую жизнь — что ближе к истине?", "sideA": "Феминизм потребления", "sideB": "Искренние перемены", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Кризис среднего возраста как патология против кризиса как легитимной переоценки ценностей — какая трактовка полезнее?", "sideA": "Патология", "sideB": "Переоценка", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Давление необходимости быть необычайным против достоинства обычной жизни — какой идеал более гуманен?", "sideA": "Необычайность", "sideB": "Обычная жизнь", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Обязанность заботиться о стареющих родителях против ответственности государства — на кого должно ложиться это бремя?", "sideA": "Семья", "sideB": "Государство", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Радикальная честность в отношениях против стратегического молчания — какой подход к близости более этичен?", "sideA": "Честность", "sideB": "Молчание", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Осознанный выбор социального круга против органического формирования отношений — что создает более подлинную дружбу?", "sideA": "Осознанный выбор", "sideB": "Органически", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Нуклеарная семья как оптимальная социальная единица против исторически обусловленного соглашения — какой взгляд более обоснован?", "sideA": "Оптимальная единица", "sideB": "Исторический факт", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Технократическое управление против демократического популизма — что представляет больший долгосрочный риск для граждан?", "sideA": "Технократия", "sideB": "Популизм", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Справедливость в отношениях между поколениями против текущего благосостояния — что должно быть в приоритете государственной политики?", "sideA": "Справедливость поколений", "sideB": "Текущее благо", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Обязанность голосовать против права воздержаться — какая гражданская позиция более оправдана?", "sideA": "Обязанность", "sideB": "Право воздержаться", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Патриотизм как гражданская добродетель против патриотизма как когнитивного искажения — какая позиция убедительнее?", "sideA": "Добродетель", "sideB": "Искажение", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Абсолютизм свободы слова против регулируемой речи — что дает лучшие результаты для демократического общества?", "sideA": "Абсолютизм", "sideB": "Регулирование", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Осмысленная карьера против работы, которая финансирует осмысленную частную жизнь — какая амбиция честнее?", "sideA": "Карьера", "sideB": "Частная жизнь", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Религия против светской философии — что эффективнее отвечает на экзистенциальные потребности современных взрослых?", "sideA": "Религия", "sideB": "Светская фил.", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Осознанная жизнь против поглощенности жизнью — какую жизнь больше стоит прожить и кто это решает?", "sideA": "Осознанность", "sideB": "Поглощенность", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Наследие против присутствия — к чему взрослому человеку логичнее стремиться?", "sideA": "Наследие", "sideB": "Присутствие", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Взрослый, который «наконец-то во всем разобрался», против взрослого, который принял, что никогда не разберется — кто более самоосознан?", "sideA": "Разобрался", "sideB": "Принял", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Рассказывать все своему психологу против того, чтобы рассказывать все своему парикмахеру — какие отношения эффективнее терапевтически?", "sideA": "Психолог", "sideB": "Парикмахер", "level": "advanced", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Воскресная тревога взрослого с плотным графиком против тревоги человека с пустым графиком — что экзистенциально тревожнее?", "sideA": "Плотный график", "sideB": "Пустой график", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Долгие раздумья над каждым важным решением против импульсивности — какая стратегия имеет лучший результат?", "sideA": "Раздумья", "sideB": "Импульсивность", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Взрослые, читающие книги по саморазвитию, против тех, кто принципиально их не читает — с кем сложнее общаться на ужине?", "sideA": "Читатели", "sideB": "Противники", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "Четырехдневная рабочая неделя против пятидневной — какая модель больше выгодна работникам и работодателям?", "sideA": "4 дня", "sideB": "5 дней", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Безусловный базовый доход против адресной социальной помощи — что является более эффективной защитой для работающих взрослых?", "sideA": "ББД", "sideB": "Адресная помощь", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Гиг-экономика против постоянной занятости — какая модель лучше служит работникам в долгосрочной перспективе?", "sideA": "Гиг-экономика", "sideB": "Постоянная занятость", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Меритократия против структурных преимуществ — что точнее объясняет карьерный успех?", "sideA": "Меритократия", "sideB": "Структурные преимущества", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Прозрачность зарплат против конфиденциальности — что создает более справедливую рабочую среду?", "sideA": "Прозрачность", "sideB": "Конфиденциальность", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Автоматизация против человеческого труда — что является большей долгосрочной угрозой для занятости взрослых?", "sideA": "Автоматизация", "sideB": "Человеческий труд", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Удаленная работа против присутствия в офисе — что лучше для карьерного роста и командной культуры?", "sideA": "Удаленка", "sideB": "Офис", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Равный отпуск по уходу за ребенком для мужчин и женщин против более длинного декретного отпуска — какая политика справедливее?", "sideA": "Равный отпуск", "sideB": "Длинный декрет", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Выбор не иметь детей против социального давления завести семью — что заслуживает большего уважения?", "sideA": "Бездетность", "sideB": "Давление общества", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Брак как институт против сожительства без брака — что более актуально сегодня?", "sideA": "Брак", "sideB": "Сожительство", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Семьи с двумя доходами против ситуации, когда один партнер остается дома — какая модель лучше для детей и взрослых?", "sideA": "Два дохода", "sideB": "Один дома", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Гендерный разрыв в оплате труда как структурная проблема против вопроса индивидуального выбора — какое объяснение весомее?", "sideA": "Структурная проблема", "sideB": "Личный выбор", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Владение жильем как цель против профессионального рынка аренды — какая модель жилья лучше подходит современным взрослым?", "sideA": "Владение", "sideB": "Аренда", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Джентрификация как улучшение против джентрификации как вытеснение — какая формулировка честнее?", "sideA": "Улучшение", "sideB": "Вытеснение", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Городская плотность против разрастания пригородов — какая модель лучше для комфортных городов?", "sideA": "Плотность", "sideB": "Разрастание", "level": "upper-intermediate", "theme": "globalisation_trade_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Жизнь рядом с семьей против переезда ради возможностей — какой выбор дает лучшее самочувствие в долгосрочной перспективе?", "sideA": "Рядом с семьей", "sideB": "Переезд", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Старение населения как кризис против старения как ресурса — какая формулировка продуктивнее?", "sideA": "Кризис", "sideB": "Ресурс", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Личная ответственность за здоровье против системных факторов — что имеет больший вес в объяснении результатов для здоровья?", "sideA": "Личная отв-ть", "sideB": "Системные факторы", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Дни психологической разгрузки как законное право на рабочем месте против источника злоупотреблений — где работодатели должны провести черту?", "sideA": "Законное право", "sideB": "Злоупотребление", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Профилактическая медицина против лечебной медицины — на что должно выделяться больше государственного финансирования?", "sideA": "Профилактика", "sideB": "Лечение", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Антивозрастная медицина против грациозного старения — какая позиция более последовательна?", "sideA": "Антивозрастная", "sideB": "Грациозное старение", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Технологии наблюдения для общественной безопасности против права на частную жизнь — где должен быть баланс?", "sideA": "Безопасность", "sideB": "Частная жизнь", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Соцсети как инструмент гражданского участия против соцсетей как драйвера поляризации — какой эффект преобладает?", "sideA": "Участие", "sideB": "Поляризация", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "ИИ в найме против человеческого суждения — что дает более справедливые решения о найме?", "sideA": "ИИ", "sideB": "Человек", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Право быть забытым в интернете против права общественности на информацию — что должно иметь приоритет?", "sideA": "Право быть забытым", "sideB": "Право на инфо", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Обязательное голосование против добровольного — что создает более здоровую демократию?", "sideA": "Обязательное", "sideB": "Добровольное", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Политическое участие через протест против участия через официальные институты — что эффективнее для взрослых сегодня?", "sideA": "Протест", "sideB": "Институты", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Национальная идентичность против европейской или глобальной — что важнее для взрослых в 2026 году?", "sideA": "Национальная", "sideB": "Глобальная", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Повышение налогов для финансирования госуслуг против сокращения расходов — какой политический выбор более оправдан?", "sideA": "Налоги", "sideB": "Сокращение расходов", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Признание, что вы не представляете, как устроена ваша пенсия, против уверенной имитации знания — какой опыт более универсален для взрослого?", "sideA": "Признание", "sideB": "Имитация", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Быть человеком, который всегда планирует встречи, против того, кто просто приходит — какая роль больше утомляет?", "sideA": "Организатор", "sideB": "Гость", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Иметь твердое мнение о кухонных привычках коллег против полного безразличия — какой человек более терпим?", "sideA": "Твердое мнение", "sideB": "Безразличие", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Посещение каждого необязательного рабочего мероприятия против полного их игнорирования — какая стратегия лучше для карьеры и психики?", "sideA": "Посещать все", "sideB": "Игнорировать", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Взрослые, которые все еще путаются в налоговой декларации, против тех, кому нравится ее заполнять — какая группа заслуживает большего доверия?", "sideA": "Путаются", "sideB": "Нравится", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Жаловаться друзьям на стоимость жизни против того, чтобы делать вид, что все в порядке — какая реакция честнее?", "sideA": "Жаловаться", "sideB": "Делать вид", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Плоские организационные иерархии против вертикальных структур управления — что лучше служит работающим в них взрослым?", "sideA": "Плоская иерархия", "sideB": "Вертикальная", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Культ продуктивности против аргументов в пользу праздности — что лучше отражает реальные потребности человека в работе?", "sideA": "Продуктивность", "sideB": "Праздность", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Лидерство как навык, которому можно научиться, против лидерства как врожденного качества — какая позиция более обоснована эмпирически?", "sideA": "Навык", "sideB": "Качество", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Культ успеха (hustle culture) против медленной жизни (slow living) — кто побеждает и кто должен победить?", "sideA": "Культ успеха", "sideB": "Медленная жизнь", "level": "advanced", "theme": "routine_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Корпоративная социальная ответственность как искреннее обязательство против инструмента репутационного менеджмента — что честнее?", "sideA": "Искренность", "sideB": "Репутация", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Взрослая идентичность как нечто фиксированное против идентичности в процессе постоянного конструирования — что лучше отражает жизненный опыт?", "sideA": "Фиксированная", "sideB": "В процессе", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Приручение феминизма культурой потребления против феминизма, искренне меняющего взрослую жизнь — что ближе к истине?", "sideA": "Феминизм потребления", "sideB": "Искренние перемены", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Кризис среднего возраста как патология против кризиса как легитимной переоценки ценностей — какая трактовка полезнее?", "sideA": "Патология", "sideB": "Переоценка", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Давление необходимости быть необычайным против достоинства обычной жизни — какой идеал более гуманен?", "sideA": "Необычайность", "sideB": "Обычная жизнь", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Обязанность заботиться о стареющих родителях против ответственности государства — на кого должно ложиться это бремя?", "sideA": "Семья", "sideB": "Государство", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Радикальная честность в отношениях против стратегического молчания — какой подход к близости более этичен?", "sideA": "Честность", "sideB": "Молчание", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Осознанный выбор социального круга против органического формирования отношений — что создает более подлинную дружбу?", "sideA": "Осознанный выбор", "sideB": "Органически", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Нуклеарная семья как оптимальная социальная единица против исторически обусловленного соглашения — какой взгляд более обоснован?", "sideA": "Оптимальная единица", "sideB": "Исторический факт", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Технократическое управление против демократического популизма — что представляет больший долгосрочный риск для граждан?", "sideA": "Технократия", "sideB": "Популизм", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Справедливость в отношениях между поколениями против текущего благосостояния — что должно быть в приоритете государственной политики?", "sideA": "Справедливость поколений", "sideB": "Текущее благо", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Обязанность голосовать против права воздержаться — какая гражданская позиция более оправдана?", "sideA": "Обязанность", "sideB": "Право воздержаться", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Патриотизм как гражданская добродетель против патриотизма как когнитивного искажения — какая позиция убедительнее?", "sideA": "Добродетель", "sideB": "Искажение", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Абсолютизм свободы слова против регулируемой речи — что дает лучшие результаты для демократического общества?", "sideA": "Абсолютизм", "sideB": "Регулирование", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Осмысленная карьера против работы, которая финансирует осмысленную частную жизнь — какая амбиция честнее?", "sideA": "Карьера", "sideB": "Частная жизнь", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Религия против светской философии — что эффективнее отвечает на экзистенциальные потребности современных взрослых?", "sideA": "Религия", "sideB": "Светская фил.", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Осознанная жизнь против поглощенности жизнью — какую жизнь больше стоит прожить и кто это решает?", "sideA": "Осознанность", "sideB": "Поглощенность", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Наследие против присутствия — к чему взрослому человеку логичнее стремиться?", "sideA": "Наследие", "sideB": "Присутствие", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Взрослый, который «наконец-то во всем разобрался», против взрослого, который принял, что никогда не разберется — кто более самоосознан?", "sideA": "Разобрался", "sideB": "Принял", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Рассказывать все своему психологу против того, чтобы рассказывать все своему парикмахеру — какие отношения эффективнее терапевтически?", "sideA": "Психолог", "sideB": "Парикмахер", "level": "advanced", "theme": "psychological_concepts_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Воскресная тревога взрослого с плотным графиком против тревоги человека с пустым графиком — что экзистенциально тревожнее?", "sideA": "Плотный график", "sideB": "Пустой график", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Долгие раздумья над каждым важным решением против импульсивности — какая стратегия имеет лучший результат?", "sideA": "Раздумья", "sideB": "Импульсивность", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Взрослые, читающие книги по саморазвитию, против тех, кто принципиально их не читает — с кем сложнее общаться на ужине?", "sideA": "Читатели", "sideB": "Противники", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
 
-            {"topic": "Высокая зарплата или короткий путь до работы — что важнее?", "sideA": "Высокая зарплата", "sideB": "Короткий путь", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Частая смена работы или преданность одной компании — что лучше для карьеры?", "sideA": "Частая смена", "sideB": "Одна компания", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Работа сверхурочно или уход вовремя каждый день — какая привычка лучше?", "sideA": "Сверхурочно", "sideB": "Вовремя", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Строгий босс или мягкий босс — с кем лучше работать?", "sideA": "Строгий", "sideB": "Мягкий", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Работа в большой компании или в маленькой — что лучше?", "sideA": "Большая", "sideB": "Маленькая", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Получить повышение или получить больше свободного времени — что бы вы выбрали?", "sideA": "Повышение", "sideB": "Свободное время", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Покупка дома или аренда на всю жизнь — какое финансовое решение умнее?", "sideA": "Покупка", "sideB": "Аренда", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Жизнь в центре города или в пригороде — что лучше?", "sideA": "Центр города", "sideB": "Пригород", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Тратить деньги на впечатления или на вещи — что делает вас счастливее?", "sideA": "Впечатления", "sideB": "Вещи", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Готовить каждый день или готовить на неделю вперед — что практичнее?", "sideA": "Каждый день", "sideB": "На неделю", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Нанять клинера или делать уборку самому — какой выбор лучше?", "sideA": "Клинер", "sideB": "Самому", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Жить с партнером или жить одному — что лучше для взрослых людей?", "sideA": "С партнером", "sideB": "Одному", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Рожать детей рано или позже в жизни — что лучше?", "sideA": "Рано", "sideB": "Позже", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Близкие отношения с семьей или независимость от нее — что важнее во взрослом возрасте?", "sideA": "Близкие отношения", "sideB": "Независимость", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Знакомство с новыми людьми или сохранение старых друзей — что ценнее?", "sideA": "Новые люди", "sideB": "Старые друзья", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Общение с коллегами после работы или поход прямо домой — что лучше для рабочих отношений?", "sideA": "Общение", "sideB": "Домой", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ходить в спортзал или тренироваться на улице — что лучше для взрослых?", "sideA": "Спортзал", "sideB": "Улица", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Строгая диета или умеренность во всем — что здоровее?", "sideA": "Строгая диета", "sideB": "Умеренность", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Идти к врачу сразу или ждать, пока само пройдет — что мудрее?", "sideA": "Сразу", "sideB": "Ждать", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Спать по восемь часов или шесть, но заниматься спортом — что лучше для энергии?", "sideA": "8 часов", "sideB": "6 часов + спорт", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Снимать стресс спортом или релаксацией — что работает лучше?", "sideA": "Спорт", "sideB": "Релаксация", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Смартфоны или живое общение — чем мы пользуемся больше, и проблема ли это?", "sideA": "Смартфоны", "sideB": "Общение", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Онлайн-банкинг или поход в банк — что лучше?", "sideA": "Онлайн", "sideB": "Поход в банк", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Работа с бумагой или работа в цифровом виде — что эффективнее?", "sideA": "Бумага", "sideB": "Цифра", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Соцсети для нетворкинга или личные встречи — что полезнее для карьеры?", "sideA": "Соцсети", "sideB": "Личные встречи", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Пакетный тур или самостоятельное путешествие — что лучше для взрослых?", "sideA": "Пакетный тур", "sideB": "Самостоятельно", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Поездка в город или отдых на пляже — как лучше расслабиться?", "sideA": "Город", "sideB": "Пляж", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Один длинный отпуск в году или несколько коротких — что лучше?", "sideA": "Один длинный", "sideB": "Несколько коротких", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Путешествие парой или в одиночку — что приносит больше удовольствия?", "sideA": "Парой", "sideB": "В одиночку", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Рассказывать партнеру о каждой мелочи или держать все в себе — что здоровее?", "sideA": "Все рассказывать", "sideB": "Держать в себе", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Проверять телефон первым делом утром или после завтрака — какая привычка лучше?", "sideA": "Сразу", "sideB": "После завтрака", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Знать имена соседей или не знать их — что сейчас считается нормой для взрослого?", "sideA": "Знать имена", "sideB": "Не знать", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Поход за продуктами со списком или без него — у кого жизнь лучше?", "sideA": "Со списком", "sideB": "Без списка", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Сказать боссу, что заболел, или идти на работу больным — какой выбор смелее?", "sideA": "Сказать боссу", "sideB": "Идти больным", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Удаленка или офис — что лучше для продуктивности и благополучия?", "sideA": "Удаленка", "sideB": "Офис", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Стабильность работы или карьерный рост — что взрослым стоит приоритизировать?", "sideA": "Стабильность", "sideB": "Рост", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Свой бизнес или работа по найму — какой выбор лучше в 30 лет?", "sideA": "Свой бизнес", "sideB": "По найму", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Амбиции или баланс между работой и жизнью — можно ли действительно иметь и то, и другое?", "sideA": "Амбиции", "sideB": "Баланс", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Нетворкинг или развитие навыков — что больше продвигает вашу карьеру?", "sideA": "Нетворкинг", "sideB": "Навыки", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Честная обратная связь от начальника или полная независимость в работе — что больше мотивирует взрослых?", "sideA": "Обратная связь", "sideB": "Независимость", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Смена карьеры в 40 лет или верность своей области — какое решение мудрее?", "sideA": "Смена карьеры", "sideB": "Верность области", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Досрочное погашение ипотеки или инвестирование этих денег — что умнее?", "sideA": "Погасить ипотеку", "sideB": "Инвестировать", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Собственное жилье или пожизненная аренда — что больше подходит для современной взрослой жизни?", "sideA": "Собственное", "sideB": "Аренда", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Копить на пенсию смолоду или наслаждаться деньгами в 30 лет — что мудрее?", "sideA": "Копить смолоду", "sideB": "Наслаждаться сейчас", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Жить скромнее своих возможностей или тратить, чтобы наслаждаться жизнью сейчас — какой подход здоровее?", "sideA": "Жить скромнее", "sideB": "Наслаждаться сейчас", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Два дохода в семье или один партнер, сидящий дома — что лучше для семей?", "sideA": "Два дохода", "sideB": "Один дома", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Иметь детей или сознательно отказаться от них — какая взрослая жизнь более насыщенная?", "sideA": "С детьми", "sideB": "Без детей", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Строгое воспитание или вседозволенность — из кого вырастают более счастливые взрослые?", "sideA": "Строгое", "sideB": "Вседозволенность", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Долгосрочные отношения или жизнь в одиночку — что лучше для личностного роста?", "sideA": "Отношения", "sideB": "Одиночество", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Разделять работу и личную жизнь или объединять их — что здоровее?", "sideA": "Разделять", "sideB": "Объединять", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Переезд за границу парой или жизнь рядом с семьей — какое решение верное?", "sideA": "Переезд", "sideB": "Рядом с семьей", "level": "intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Приоритет физического здоровья или ментального — на чем взрослым стоит сосредоточиться в первую очередь?", "sideA": "Физическое", "sideB": "Ментальное", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Частная медицина или опора на государственную систему — какая стратегия лучше для взрослого?", "sideA": "Частная", "sideB": "Государственная", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Регулярные медосмотры или поход к врачу только во время болезни — какой подход умнее?", "sideA": "Регулярно", "sideB": "Только когда болен", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Меньше алкоголя или меньше стресса — что сильнее влияет на здоровье взрослых?", "sideA": "Меньше алкоголя", "sideB": "Меньше стресса", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Личная свобода или ответственность перед обществом — чем должны руководствоваться взрослые при принятии решений?", "sideA": "Свобода", "sideB": "Ответственность", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Оптимизм по поводу будущего или реализм — какая позиция полезнее для взрослых?", "sideA": "Оптимизм", "sideB": "Реализм", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Изменять мир или строить стабильную личную жизнь — какая амбиция более честная?", "sideA": "Изменять мир", "sideB": "Стабильная жизнь", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Тратить свое время на волонтерство или жертвовать деньги — что приносит больше пользы?", "sideA": "Волонтерство", "sideB": "Деньги", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Следовать ценностям своего поколения или ставить их под сомнение — что более достойно восхищения?", "sideA": "Следовать", "sideB": "Сомневаться", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Знать, сколько зарабатывают ваши коллеги, или не знать — что лучше для гармонии в офисе?", "sideA": "Знать", "sideB": "Не знать", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Отвечать на сообщения мгновенно или не торопиться — что более уважительно во взрослой жизни?", "sideA": "Сразу", "sideB": "Не торопясь", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Признаться, что не имеешь понятия, что такое пенсионный фонд, или притворяться, что знаешь — что больше похоже на жизнь взрослого человека?", "sideA": "Признаться", "sideB": "Притворяться", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Отменять планы в последний момент или идти куда-то через силу — какая взрослая привычка хуже?", "sideA": "Отменять", "sideB": "Идти через силу", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Открыто обсуждать деньги с друзьями или держать это в секрете — какой подход более зрелый?", "sideA": "Обсуждать", "sideB": "Держать в секрете", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "Высокая зарплата или короткий путь до работы — что важнее?", "sideA": "Высокая зарплата", "sideB": "Короткий путь", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Частая смена работы или преданность одной компании — что лучше для карьеры?", "sideA": "Частая смена", "sideB": "Одна компания", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Работа сверхурочно или уход вовремя каждый день — какая привычка лучше?", "sideA": "Сверхурочно", "sideB": "Вовремя", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Строгий босс или мягкий босс — с кем лучше работать?", "sideA": "Строгий", "sideB": "Мягкий", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Работа в большой компании или в маленькой — что лучше?", "sideA": "Большая", "sideB": "Маленькая", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Получить повышение или получить больше свободного времени — что бы вы выбрали?", "sideA": "Повышение", "sideB": "Свободное время", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Покупка дома или аренда на всю жизнь — какое финансовое решение умнее?", "sideA": "Покупка", "sideB": "Аренда", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Жизнь в центре города или в пригороде — что лучше?", "sideA": "Центр города", "sideB": "Пригород", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Тратить деньги на впечатления или на вещи — что делает вас счастливее?", "sideA": "Впечатления", "sideB": "Вещи", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Готовить каждый день или готовить на неделю вперед — что практичнее?", "sideA": "Каждый день", "sideB": "На неделю", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Нанять клинера или делать уборку самому — какой выбор лучше?", "sideA": "Клинер", "sideB": "Самому", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Жить с партнером или жить одному — что лучше для взрослых людей?", "sideA": "С партнером", "sideB": "Одному", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Рожать детей рано или позже в жизни — что лучше?", "sideA": "Рано", "sideB": "Позже", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Близкие отношения с семьей или независимость от нее — что важнее во взрослом возрасте?", "sideA": "Близкие отношения", "sideB": "Независимость", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Знакомство с новыми людьми или сохранение старых друзей — что ценнее?", "sideA": "Новые люди", "sideB": "Старые друзья", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Общение с коллегами после работы или поход прямо домой — что лучше для рабочих отношений?", "sideA": "Общение", "sideB": "Домой", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ходить в спортзал или тренироваться на улице — что лучше для взрослых?", "sideA": "Спортзал", "sideB": "Улица", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Строгая диета или умеренность во всем — что здоровее?", "sideA": "Строгая диета", "sideB": "Умеренность", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Идти к врачу сразу или ждать, пока само пройдет — что мудрее?", "sideA": "Сразу", "sideB": "Ждать", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Спать по восемь часов или шесть, но заниматься спортом — что лучше для энергии?", "sideA": "8 часов", "sideB": "6 часов + спорт", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Снимать стресс спортом или релаксацией — что работает лучше?", "sideA": "Спорт", "sideB": "Релаксация", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Смартфоны или живое общение — чем мы пользуемся больше, и проблема ли это?", "sideA": "Смартфоны", "sideB": "Общение", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Онлайн-банкинг или поход в банк — что лучше?", "sideA": "Онлайн", "sideB": "Поход в банк", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Работа с бумагой или работа в цифровом виде — что эффективнее?", "sideA": "Бумага", "sideB": "Цифра", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Соцсети для нетворкинга или личные встречи — что полезнее для карьеры?", "sideA": "Соцсети", "sideB": "Личные встречи", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Пакетный тур или самостоятельное путешествие — что лучше для взрослых?", "sideA": "Пакетный тур", "sideB": "Самостоятельно", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Поездка в город или отдых на пляже — как лучше расслабиться?", "sideA": "Город", "sideB": "Пляж", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Один длинный отпуск в году или несколько коротких — что лучше?", "sideA": "Один длинный", "sideB": "Несколько коротких", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Путешествие парой или в одиночку — что приносит больше удовольствия?", "sideA": "Парой", "sideB": "В одиночку", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Рассказывать партнеру о каждой мелочи или держать все в себе — что здоровее?", "sideA": "Все рассказывать", "sideB": "Держать в себе", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Проверять телефон первым делом утром или после завтрака — какая привычка лучше?", "sideA": "Сразу", "sideB": "После завтрака", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Знать имена соседей или не знать их — что сейчас считается нормой для взрослого?", "sideA": "Знать имена", "sideB": "Не знать", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Поход за продуктами со списком или без него — у кого жизнь лучше?", "sideA": "Со списком", "sideB": "Без списка", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Сказать боссу, что заболел, или идти на работу больным — какой выбор смелее?", "sideA": "Сказать боссу", "sideB": "Идти больным", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Удаленка или офис — что лучше для продуктивности и благополучия?", "sideA": "Удаленка", "sideB": "Офис", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Стабильность работы или карьерный рост — что взрослым стоит приоритизировать?", "sideA": "Стабильность", "sideB": "Рост", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Свой бизнес или работа по найму — какой выбор лучше в 30 лет?", "sideA": "Свой бизнес", "sideB": "По найму", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Амбиции или баланс между работой и жизнью — можно ли действительно иметь и то, и другое?", "sideA": "Амбиции", "sideB": "Баланс", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Нетворкинг или развитие навыков — что больше продвигает вашу карьеру?", "sideA": "Нетворкинг", "sideB": "Навыки", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Честная обратная связь от начальника или полная независимость в работе — что больше мотивирует взрослых?", "sideA": "Обратная связь", "sideB": "Независимость", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Смена карьеры в 40 лет или верность своей области — какое решение мудрее?", "sideA": "Смена карьеры", "sideB": "Верность области", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Досрочное погашение ипотеки или инвестирование этих денег — что умнее?", "sideA": "Погасить ипотеку", "sideB": "Инвестировать", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Собственное жилье или пожизненная аренда — что больше подходит для современной взрослой жизни?", "sideA": "Собственное", "sideB": "Аренда", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Копить на пенсию смолоду или наслаждаться деньгами в 30 лет — что мудрее?", "sideA": "Копить смолоду", "sideB": "Наслаждаться сейчас", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Жить скромнее своих возможностей или тратить, чтобы наслаждаться жизнью сейчас — какой подход здоровее?", "sideA": "Жить скромнее", "sideB": "Наслаждаться сейчас", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Два дохода в семье или один партнер, сидящий дома — что лучше для семей?", "sideA": "Два дохода", "sideB": "Один дома", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Иметь детей или сознательно отказаться от них — какая взрослая жизнь более насыщенная?", "sideA": "С детьми", "sideB": "Без детей", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Строгое воспитание или вседозволенность — из кого вырастают более счастливые взрослые?", "sideA": "Строгое", "sideB": "Вседозволенность", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Долгосрочные отношения или жизнь в одиночку — что лучше для личностного роста?", "sideA": "Отношения", "sideB": "Одиночество", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Разделять работу и личную жизнь или объединять их — что здоровее?", "sideA": "Разделять", "sideB": "Объединять", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Переезд за границу парой или жизнь рядом с семьей — какое решение верное?", "sideA": "Переезд", "sideB": "Рядом с семьей", "level": "intermediate", "theme": "travel_cultural_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Приоритет физического здоровья или ментального — на чем взрослым стоит сосредоточиться в первую очередь?", "sideA": "Физическое", "sideB": "Ментальное", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Частная медицина или опора на государственную систему — какая стратегия лучше для взрослого?", "sideA": "Частная", "sideB": "Государственная", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Регулярные медосмотры или поход к врачу только во время болезни — какой подход умнее?", "sideA": "Регулярно", "sideB": "Только когда болен", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Меньше алкоголя или меньше стресса — что сильнее влияет на здоровье взрослых?", "sideA": "Меньше алкоголя", "sideB": "Меньше стресса", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Личная свобода или ответственность перед обществом — чем должны руководствоваться взрослые при принятии решений?", "sideA": "Свобода", "sideB": "Ответственность", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Оптимизм по поводу будущего или реализм — какая позиция полезнее для взрослых?", "sideA": "Оптимизм", "sideB": "Реализм", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Изменять мир или строить стабильную личную жизнь — какая амбиция более честная?", "sideA": "Изменять мир", "sideB": "Стабильная жизнь", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Тратить свое время на волонтерство или жертвовать деньги — что приносит больше пользы?", "sideA": "Волонтерство", "sideB": "Деньги", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Следовать ценностям своего поколения или ставить их под сомнение — что более достойно восхищения?", "sideA": "Следовать", "sideB": "Сомневаться", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Знать, сколько зарабатывают ваши коллеги, или не знать — что лучше для гармонии в офисе?", "sideA": "Знать", "sideB": "Не знать", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Отвечать на сообщения мгновенно или не торопиться — что более уважительно во взрослой жизни?", "sideA": "Сразу", "sideB": "Не торопясь", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Признаться, что не имеешь понятия, что такое пенсионный фонд, или притворяться, что знаешь — что больше похоже на жизнь взрослого человека?", "sideA": "Признаться", "sideB": "Притворяться", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Отменять планы в последний момент или идти куда-то через силу — какая взрослая привычка хуже?", "sideA": "Отменять", "sideB": "Идти через силу", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Открыто обсуждать деньги с друзьями или держать это в секрете — какой подход более зрелый?", "sideA": "Обсуждать", "sideB": "Держать в секрете", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
 
-            {"topic": "Кофе или чай — какой напиток лучше утром?", "sideA": "Кофе", "sideB": "Чай", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Ресторан или домашняя еда — что лучше?", "sideA": "Ресторан", "sideB": "Домашняя еда", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Завтрак или без завтрака — что лучше для вас?", "sideA": "Завтрак", "sideB": "Без завтрака", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Вода или сок — что полезнее?", "sideA": "Вода", "sideB": "Сок", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Мясо или овощи — что важнее в еде?", "sideA": "Мясо", "sideB": "Овощи", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Дом или квартира — где лучше жить?", "sideA": "Дом", "sideB": "Квартира", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Город или деревня — где лучше жить?", "sideA": "Город", "sideB": "Деревня", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Кофе или чай — какой напиток лучше утром?", "sideA": "Кофе", "sideB": "Чай", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Ресторан или домашняя еда — что лучше?", "sideA": "Ресторан", "sideB": "Домашняя еда", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Завтрак или без завтрака — что лучше для вас?", "sideA": "Завтрак", "sideB": "Без завтрака", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Вода или сок — что полезнее?", "sideA": "Вода", "sideB": "Сок", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Мясо или овощи — что важнее в еде?", "sideA": "Мясо", "sideB": "Овощи", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Дом или квартира — где лучше жить?", "sideA": "Дом", "sideB": "Квартира", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Город или деревня — где лучше жить?", "sideA": "Город", "sideB": "Деревня", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Наличные или карта — чем лучше платить?", "sideA": "Наличные", "sideB": "Карта", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Копить деньги или тратить их — что лучше?", "sideA": "Копить", "sideB": "Тратить", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Аренда или покупка — что лучше?", "sideA": "Аренда", "sideB": "Покупка", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Работа утром или работа вечером — что лучше?", "sideA": "Утром", "sideB": "Вечером", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Машина или автобус — на чем лучше ездить на работу?", "sideA": "Машина", "sideB": "Автобус", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Ходить пешком или водить машину — что лучше в городе?", "sideA": "Пешком", "sideB": "Машина", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Машина или автобус — на чем лучше ездить на работу?", "sideA": "Машина", "sideB": "Автобус", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Ходить пешком или водить машину — что лучше в городе?", "sideA": "Пешком", "sideB": "Машина", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Офис или дом — где лучше работать?", "sideA": "Офис", "sideB": "Дом", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Жаворонок или сова — что лучше?", "sideA": "Жаворонок", "sideB": "Сова", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Лето или зима — какое время года лучше?", "sideA": "Лето", "sideB": "Зима", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Короткий отпуск или длинный отпуск — что лучше?", "sideA": "Короткий", "sideB": "Длинный", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Телефонный звонок или сообщение — что лучше?", "sideA": "Звонок", "sideB": "Сообщение", "level": "starter", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Душ утром или душ вечером — как правильно?", "sideA": "Утром", "sideB": "Вечером", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Понедельник или пятница — какой день лучше?", "sideA": "Понедельник", "sideB": "Пятница", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Слишком жарко или слишком холодно — что хуже?", "sideA": "Жарко", "sideB": "Холодно", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Место у окна или у прохода — что лучше в самолете?", "sideA": "У окна", "sideB": "У прохода", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Полный рабочий день или частичная занятость — что лучше?", "sideA": "Полный день", "sideB": "Частичная", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Работа в офисе или работа из дома — что вы предпочитаете?", "sideA": "Офис", "sideB": "Дом", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Работа, которую вы любите, или работа, которая хорошо оплачивается — что важнее?", "sideA": "Любимая работа", "sideB": "Хорошая оплата", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Работа с другими людьми или работа в одиночку — что лучше?", "sideA": "С людьми", "sideB": "В одиночку", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Короткий путь на работу или длинный — что более приемлемо?", "sideA": "Короткий", "sideB": "Длинный", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Жить одному или жить с партнером — что лучше?", "sideA": "Одному", "sideB": "С партнером", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Большой город или маленький городок — где лучше жить взрослому человеку?", "sideA": "Большой город", "sideB": "Маленький городок", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Готовить дома или есть вне дома — что лучше для повседневной жизни?", "sideA": "Дома", "sideB": "Вне дома", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Иметь детей или не иметь — какая жизнь лучше?", "sideA": "С детьми", "sideB": "Без детей", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Снимать квартиру или покупать дом — что лучше для молодых людей?", "sideA": "Снимать", "sideB": "Покупать", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Физкультура каждый день или отдых — что лучше для здоровья?", "sideA": "Упражнения", "sideB": "Отдых", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Идти к врачу или ждать — что лучше, когда вы чувствуете себя больным?", "sideA": "Врач", "sideB": "Ждать", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Спать по восемь часов или меньше — что более реально для взрослых?", "sideA": "8 часов", "sideB": "Меньше", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Ходить на работу пешком или ездить на машине — что лучше для здоровья?", "sideA": "Пешком", "sideB": "Машина", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Онлайн-покупки или покупки в магазине — что вы предпочитаете?", "sideA": "Онлайн", "sideB": "Магазин", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Копить на будущее или наслаждаться деньгами сейчас — что мудрее?", "sideA": "Копить", "sideB": "Наслаждаться сейчас", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Дорогие вещи или дешевые — что выгоднее?", "sideA": "Дорогие", "sideB": "Дешевые", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Покупка нового или покупка подержанного — что лучше?", "sideA": "Новое", "sideB": "Подержанное", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Смотреть телевизор дома или гулять — какой вечер лучше?", "sideA": "ТВ", "sideB": "Гулять", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Отпуск с семьей или отпуск с друзьями — что лучше?", "sideA": "С семьей", "sideB": "С друзьями", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Оставаться в своей стране или путешествовать за границу — какой отдых лучше?", "sideA": "Своя страна", "sideB": "За границу", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Спорт или чтение — какое хобби лучше для взрослых?", "sideA": "Спорт", "sideB": "Чтение", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Часто видеться с друзьями или проводить время в одиночестве — что важнее?", "sideA": "Друзья", "sideB": "Одиночество", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Отвечать на электронные письма сразу или оставлять их на потом — что более профессионально?", "sideA": "Сразу", "sideB": "Потом", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Мыть посуду сразу или оставить до завтра — что лучше?", "sideA": "Сразу", "sideB": "До завтра", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Всегда приходить заранее или всегда опаздывать на пять минут — что хуже на работе?", "sideA": "Заранее", "sideB": "Опоздание", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Очень организованный стол или беспорядок на столе — какой человек более продуктивен?", "sideA": "Организованный", "sideB": "Беспорядок", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Разговоры о работе за ужином или никаких разговоров о работе — какое правило лучше?", "sideA": "О работе", "sideB": "Без работы", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
+            {"topic": "Жаворонок или сова — что лучше?", "sideA": "Жаворонок", "sideB": "Сова", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Лето или зима — какое время года лучше?", "sideA": "Лето", "sideB": "Зима", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Короткий отпуск или длинный отпуск — что лучше?", "sideA": "Короткий", "sideB": "Длинный", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Телефонный звонок или сообщение — что лучше?", "sideA": "Звонок", "sideB": "Сообщение", "level": "starter", "theme": "technology_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Душ утром или душ вечером — как правильно?", "sideA": "Утром", "sideB": "Вечером", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Понедельник или пятница — какой день лучше?", "sideA": "Понедельник", "sideB": "Пятница", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Слишком жарко или слишком холодно — что хуже?", "sideA": "Жарко", "sideB": "Холодно", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Место у окна или у прохода — что лучше в самолете?", "sideA": "У окна", "sideB": "У прохода", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Полный рабочий день или частичная занятость — что лучше?", "sideA": "Полный день", "sideB": "Частичная", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Работа в офисе или работа из дома — что вы предпочитаете?", "sideA": "Офис", "sideB": "Дом", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Работа, которую вы любите, или работа, которая хорошо оплачивается — что важнее?", "sideA": "Любимая работа", "sideB": "Хорошая оплата", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Работа с другими людьми или работа в одиночку — что лучше?", "sideA": "С людьми", "sideB": "В одиночку", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Короткий путь на работу или длинный — что более приемлемо?", "sideA": "Короткий", "sideB": "Длинный", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Жить одному или жить с партнером — что лучше?", "sideA": "Одному", "sideB": "С партнером", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Большой город или маленький городок — где лучше жить взрослому человеку?", "sideA": "Большой город", "sideB": "Маленький городок", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Готовить дома или есть вне дома — что лучше для повседневной жизни?", "sideA": "Дома", "sideB": "Вне дома", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Иметь детей или не иметь — какая жизнь лучше?", "sideA": "С детьми", "sideB": "Без детей", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Снимать квартиру или покупать дом — что лучше для молодых людей?", "sideA": "Снимать", "sideB": "Покупать", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Физкультура каждый день или отдых — что лучше для здоровья?", "sideA": "Упражнения", "sideB": "Отдых", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Идти к врачу или ждать — что лучше, когда вы чувствуете себя больным?", "sideA": "Врач", "sideB": "Ждать", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Спать по восемь часов или меньше — что более реально для взрослых?", "sideA": "8 часов", "sideB": "Меньше", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ходить на работу пешком или ездить на машине — что лучше для здоровья?", "sideA": "Пешком", "sideB": "Машина", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Онлайн-покупки или покупки в магазине — что вы предпочитаете?", "sideA": "Онлайн", "sideB": "Магазин", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Копить на будущее или наслаждаться деньгами сейчас — что мудрее?", "sideA": "Копить", "sideB": "Наслаждаться сейчас", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Дорогие вещи или дешевые — что выгоднее?", "sideA": "Дорогие", "sideB": "Дешевые", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Покупка нового или покупка подержанного — что лучше?", "sideA": "Новое", "sideB": "Подержанное", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Смотреть телевизор дома или гулять — какой вечер лучше?", "sideA": "ТВ", "sideB": "Гулять", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Отпуск с семьей или отпуск с друзьями — что лучше?", "sideA": "С семьей", "sideB": "С друзьями", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Оставаться в своей стране или путешествовать за границу — какой отдых лучше?", "sideA": "Своя страна", "sideB": "За границу", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Спорт или чтение — какое хобби лучше для взрослых?", "sideA": "Спорт", "sideB": "Чтение", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Часто видеться с друзьями или проводить время в одиночестве — что важнее?", "sideA": "Друзья", "sideB": "Одиночество", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Отвечать на электронные письма сразу или оставлять их на потом — что более профессионально?", "sideA": "Сразу", "sideB": "Потом", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Мыть посуду сразу или оставить до завтра — что лучше?", "sideA": "Сразу", "sideB": "До завтра", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Всегда приходить заранее или всегда опаздывать на пять минут — что хуже на работе?", "sideA": "Заранее", "sideB": "Опоздание", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Очень организованный стол или беспорядок на столе — какой человек более продуктивен?", "sideA": "Организованный", "sideB": "Беспорядок", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Разговоры о работе за ужином или никаких разговоров о работе — какое правило лучше?", "sideA": "О работе", "sideB": "Без работы", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
 
             {
                 "topic": "Язык: конститутивный или экспрессивный",
                 "sideA": "Конститутивный",
                 "sideB": "Экспрессивный",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Формирует реальность",
                     "Ограничивает мысль"
@@ -7665,7 +7665,7 @@ const speakingData = {
                 "sideA": "Точность",
                 "sideB": "Двусмысленность",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Ясность",
                     "Эффективность"
@@ -7680,7 +7680,7 @@ const speakingData = {
                 "sideA": "Риторика",
                 "sideB": "Логика",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Сила убеждения",
                     "Эмоциональный призыв"
@@ -7695,7 +7695,7 @@ const speakingData = {
                 "sideA": "Буквальный",
                 "sideB": "Интерпретация",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Намерение автора",
                     "Стабильность"
@@ -7710,7 +7710,7 @@ const speakingData = {
                 "sideA": "Консенсус",
                 "sideB": "Смирение",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Установленные знания",
                     "Авторитет экспертов"
@@ -7725,7 +7725,7 @@ const speakingData = {
                 "sideA": "Экспертиза",
                 "sideB": "Личный опыт",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Научная строгость",
                     "Объективные данные"
@@ -7740,7 +7740,7 @@ const speakingData = {
                 "sideA": "Добродетель",
                 "sideB": "Паралич",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Критическое мышление",
                     "Скептицизм"
@@ -7755,7 +7755,7 @@ const speakingData = {
                 "sideA": "Повествование",
                 "sideB": "Данные",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Эмоциональное воздействие",
                     "Человеческая связь"
@@ -7770,7 +7770,7 @@ const speakingData = {
                 "sideA": "Согласие",
                 "sideB": "Результат",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Демократический процесс",
                     "Моральное право"
@@ -7785,7 +7785,7 @@ const speakingData = {
                 "sideA": "Гарант",
                 "sideB": "Угроза",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Верховенство закона",
                     "Защита прав"
@@ -7800,7 +7800,7 @@ const speakingData = {
                 "sideA": "Права",
                 "sideB": "Обязанности",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Индивидуальная свобода",
                     "Юридическая защита"
@@ -7815,7 +7815,7 @@ const speakingData = {
                 "sideA": "Нейтралитет",
                 "sideB": "Ценностная",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Беспристрастность",
                     "Справедливость"
@@ -7830,7 +7830,7 @@ const speakingData = {
                 "sideA": "Намерение",
                 "sideB": "Восприятие",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Видение автора",
                     "Оригинальный контекст"
@@ -7845,7 +7845,7 @@ const speakingData = {
                 "sideA": "Эстетическая",
                 "sideB": "Моральная",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Искусство ради искусства",
                     "Чистая красота"
@@ -7860,7 +7860,7 @@ const speakingData = {
                 "sideA": "Авангард",
                 "sideB": "Доступность",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Расширение границ",
                     "Интеллектуальный вызов"
@@ -7875,7 +7875,7 @@ const speakingData = {
                 "sideA": "Институциональное",
                 "sideB": "Аутсайдерское",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Историческое сохранение",
                     "Стандарты"
@@ -7890,7 +7890,7 @@ const speakingData = {
                 "sideA": "Предосторожность",
                 "sideB": "Проактивность",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Избегание рисков",
                     "Безопасность прежде всего"
@@ -7905,7 +7905,7 @@ const speakingData = {
                 "sideA": "Благо сам по себе",
                 "sideB": "Нейтрален",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Ценности Просвещения",
                     "Решение проблем"
@@ -7920,7 +7920,7 @@ const speakingData = {
                 "sideA": "Экзистенциальный риск",
                 "sideB": "Текущие страдания",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Долгосрочное выживание",
                     "Будущие поколения"
@@ -7935,7 +7935,7 @@ const speakingData = {
                 "sideA": "Сознание",
                 "sideB": "Сильный ИИ",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Биологическая уникальность",
                     "Субъективный опыт"
@@ -7950,7 +7950,7 @@ const speakingData = {
                 "sideA": "Реальность",
                 "sideB": "Иλлюзия",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Технологический прогресс",
                     "Улучшение качества жизни"
@@ -7965,7 +7965,7 @@ const speakingData = {
                 "sideA": "Либеральный порядок",
                 "sideB": "Многополярность",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Универсальные ценности",
                     "Глобальная стабильность"
@@ -7980,7 +7980,7 @@ const speakingData = {
                 "sideA": "Память",
                 "sideB": "Забвение",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Уроки истории",
                     "Идентичность"
@@ -7995,7 +7995,7 @@ const speakingData = {
                 "sideA": "Трагедия",
                 "sideB": "Сотрудничество",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Личный интерес",
                     "Истощение ресурсов"
@@ -8010,7 +8010,7 @@ const speakingData = {
                 "sideA": "Красный",
                 "sideB": "Синий",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8019,7 +8019,7 @@ const speakingData = {
                 "sideA": "Желтый",
                 "sideB": "Зеленый",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8028,7 +8028,7 @@ const speakingData = {
                 "sideA": "Черный",
                 "sideB": "Белый",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8037,7 +8037,7 @@ const speakingData = {
                 "sideA": "Розовый",
                 "sideB": "Фиолетовый",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8046,7 +8046,7 @@ const speakingData = {
                 "sideA": "Круг",
                 "sideB": "Квадрат",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8055,7 +8055,7 @@ const speakingData = {
                 "sideA": "Большие",
                 "sideB": "Маленькие",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8064,7 +8064,7 @@ const speakingData = {
                 "sideA": "Треугольник",
                 "sideB": "Прямоугольник",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8073,7 +8073,7 @@ const speakingData = {
                 "sideA": "Мяч",
                 "sideB": "Кукла",
                 "level": "starter",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8100,7 +8100,7 @@ const speakingData = {
                 "sideA": "Стул",
                 "sideB": "Пол",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8145,7 +8145,7 @@ const speakingData = {
                 "sideA": "Вода",
                 "sideB": "Сок",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8154,7 +8154,7 @@ const speakingData = {
                 "sideA": "Яблоко",
                 "sideB": "Банан",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8163,7 +8163,7 @@ const speakingData = {
                 "sideA": "Хлеб",
                 "sideB": "Рис",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8172,7 +8172,7 @@ const speakingData = {
                 "sideA": "Молоко",
                 "sideB": "Вода",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8181,7 +8181,7 @@ const speakingData = {
                 "sideA": "С семьей",
                 "sideB": "Один",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8190,7 +8190,7 @@ const speakingData = {
                 "sideA": "Брат",
                 "sideB": "Сестра",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8199,7 +8199,7 @@ const speakingData = {
                 "sideA": "Большая",
                 "sideB": "Маленькая",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8208,7 +8208,7 @@ const speakingData = {
                 "sideA": "Старший",
                 "sideB": "Младший",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8217,7 +8217,7 @@ const speakingData = {
                 "sideA": "Утро",
                 "sideB": "День",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8226,7 +8226,7 @@ const speakingData = {
                 "sideA": "Чтение",
                 "sideB": "Математика",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8235,7 +8235,7 @@ const speakingData = {
                 "sideA": "Школа",
                 "sideB": "Дом",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8244,7 +8244,7 @@ const speakingData = {
                 "sideA": "Домашка",
                 "sideB": "Нет",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8253,7 +8253,7 @@ const speakingData = {
                 "sideA": "Один",
                 "sideB": "Пара",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8262,7 +8262,7 @@ const speakingData = {
                 "sideA": "Бумага",
                 "sideB": "Компьютер",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8271,7 +8271,7 @@ const speakingData = {
                 "sideA": "Завтрак",
                 "sideB": "Ужин",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8280,7 +8280,7 @@ const speakingData = {
                 "sideA": "Горячая",
                 "sideB": "Холодная",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8289,7 +8289,7 @@ const speakingData = {
                 "sideA": "Дом",
                 "sideB": "Ресторан",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8298,7 +8298,7 @@ const speakingData = {
                 "sideA": "Сладкое",
                 "sideB": "Соленое",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8307,7 +8307,7 @@ const speakingData = {
                 "sideA": "Готовить",
                 "sideB": "Покупать",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8316,7 +8316,7 @@ const speakingData = {
                 "sideA": "Рано",
                 "sideB": "Поздно",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8325,7 +8325,7 @@ const speakingData = {
                 "sideA": "Утро",
                 "sideB": "Вечер",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8334,7 +8334,7 @@ const speakingData = {
                 "sideA": "Будни",
                 "sideB": "Выходные",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8343,7 +8343,7 @@ const speakingData = {
                 "sideA": "Лето",
                 "sideB": "Зима",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8352,7 +8352,7 @@ const speakingData = {
                 "sideA": "Рано",
                 "sideB": "Поздно",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8361,7 +8361,7 @@ const speakingData = {
                 "sideA": "Дом",
                 "sideB": "Квартира",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8370,7 +8370,7 @@ const speakingData = {
                 "sideA": "Город",
                 "sideB": "Деревня",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8379,7 +8379,7 @@ const speakingData = {
                 "sideA": "Спальня",
                 "sideB": "Гостиная",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8388,7 +8388,7 @@ const speakingData = {
                 "sideA": "Дома",
                 "sideB": "Улица",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8397,7 +8397,7 @@ const speakingData = {
                 "sideA": "ТВ",
                 "sideB": "Книга",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8406,7 +8406,7 @@ const speakingData = {
                 "sideA": "Спорт",
                 "sideB": "Видеоигры",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8415,7 +8415,7 @@ const speakingData = {
                 "sideA": "Рисование",
                 "sideB": "Пение",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8424,7 +8424,7 @@ const speakingData = {
                 "sideA": "Один",
                 "sideB": "Друзья",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8433,7 +8433,7 @@ const speakingData = {
                 "sideA": "Плавание",
                 "sideB": "Бег",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8442,7 +8442,7 @@ const speakingData = {
                 "sideA": "Музыка",
                 "sideB": "Спорт",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8460,7 +8460,7 @@ const speakingData = {
                 "sideA": "Дождь",
                 "sideB": "Солнце",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8469,7 +8469,7 @@ const speakingData = {
                 "sideA": "Море",
                 "sideB": "Горы",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8478,7 +8478,7 @@ const speakingData = {
                 "sideA": "Цветы",
                 "sideB": "Деревья",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8487,7 +8487,7 @@ const speakingData = {
                 "sideA": "Машина",
                 "sideB": "Автобус",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8496,7 +8496,7 @@ const speakingData = {
                 "sideA": "Пешком",
                 "sideB": "Велосипед",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8505,7 +8505,7 @@ const speakingData = {
                 "sideA": "Короткий",
                 "sideB": "Долгий",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8514,7 +8514,7 @@ const speakingData = {
                 "sideA": "Один",
                 "sideB": "Семья",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8523,7 +8523,7 @@ const speakingData = {
                 "sideA": "Онлайн",
                 "sideB": "Лично",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [
                     "Удобство",
                     "Лучшие цены"
@@ -8538,7 +8538,7 @@ const speakingData = {
                 "sideA": "Бумажные",
                 "sideB": "Электронные",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [
                     "Запах/Ощущение",
                     "Предмет коллекционирования"
@@ -8553,7 +8553,7 @@ const speakingData = {
                 "sideA": "Дом",
                 "sideB": "Офис",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [
                     "Нет поездок",
                     "Гибкость"
@@ -8568,7 +8568,7 @@ const speakingData = {
                 "sideA": "Электро",
                 "sideB": "Бензин",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [
                     "Экология",
                     "Тишина"
@@ -8583,7 +8583,7 @@ const speakingData = {
                 "sideA": "Утром",
                 "sideB": "Вечером",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8592,7 +8592,7 @@ const speakingData = {
                 "sideA": "Строгие",
                 "sideB": "Добрые",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8601,7 +8601,7 @@ const speakingData = {
                 "sideA": "Учебник",
                 "sideB": "Видео",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8610,7 +8610,7 @@ const speakingData = {
                 "sideA": "Короткие",
                 "sideB": "Длинные",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8619,7 +8619,7 @@ const speakingData = {
                 "sideA": "Группа",
                 "sideB": "Индивидуально",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8628,7 +8628,7 @@ const speakingData = {
                 "sideA": "Форма",
                 "sideB": "Повседневная",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8637,7 +8637,7 @@ const speakingData = {
                 "sideA": "Домашняя",
                 "sideB": "Фастфуд",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8646,7 +8646,7 @@ const speakingData = {
                 "sideA": "Три раза",
                 "sideB": "Перекусы",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8655,7 +8655,7 @@ const speakingData = {
                 "sideA": "Вегетарианская",
                 "sideB": "Мясо",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8664,7 +8664,7 @@ const speakingData = {
                 "sideA": "Чай",
                 "sideB": "Кофе",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8673,7 +8673,7 @@ const speakingData = {
                 "sideA": "Один",
                 "sideB": "С другими",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8682,7 +8682,7 @@ const speakingData = {
                 "sideA": "Командный",
                 "sideB": "Индивидуальный",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8691,7 +8691,7 @@ const speakingData = {
                 "sideA": "Дома",
                 "sideB": "На улице",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8700,7 +8700,7 @@ const speakingData = {
                 "sideA": "Кино",
                 "sideB": "Театр",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8709,7 +8709,7 @@ const speakingData = {
                 "sideA": "Слушать",
                 "sideB": "Играть",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8718,7 +8718,7 @@ const speakingData = {
                 "sideA": "Видеоигры",
                 "sideB": "Настольные",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8727,7 +8727,7 @@ const speakingData = {
                 "sideA": "Магазины",
                 "sideB": "Дома",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8736,7 +8736,7 @@ const speakingData = {
                 "sideA": "Телефон",
                 "sideB": "Компьютер",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8745,7 +8745,7 @@ const speakingData = {
                 "sideA": "Сообщение",
                 "sideB": "Звонок",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8754,7 +8754,7 @@ const speakingData = {
                 "sideA": "Э-книга",
                 "sideB": "Бумажная",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8763,7 +8763,7 @@ const speakingData = {
                 "sideA": "Телефон",
                 "sideB": "Камера",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8772,7 +8772,7 @@ const speakingData = {
                 "sideA": "Пляж",
                 "sideB": "Горы",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8781,7 +8781,7 @@ const speakingData = {
                 "sideA": "Поезд",
                 "sideB": "Самолет",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8790,7 +8790,7 @@ const speakingData = {
                 "sideA": "Город",
                 "sideB": "Деревня",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8799,7 +8799,7 @@ const speakingData = {
                 "sideA": "Отель",
                 "sideB": "В семье",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8808,7 +8808,7 @@ const speakingData = {
                 "sideA": "За границу",
                 "sideB": "Своя страна",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8817,7 +8817,7 @@ const speakingData = {
                 "sideA": "Много друзей",
                 "sideB": "Близкие друзья",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8826,7 +8826,7 @@ const speakingData = {
                 "sideA": "Лично",
                 "sideB": "Онлайн",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8835,7 +8835,7 @@ const speakingData = {
                 "sideA": "С родителями",
                 "sideB": "Студ. квартира",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8844,7 +8844,7 @@ const speakingData = {
                 "sideA": "Дома",
                 "sideB": "Вне дома",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8853,7 +8853,7 @@ const speakingData = {
                 "sideA": "Копить",
                 "sideB": "Тратить",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8862,7 +8862,7 @@ const speakingData = {
                 "sideA": "Подработка",
                 "sideB": "Только учеба",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8871,7 +8871,7 @@ const speakingData = {
                 "sideA": "Деньги",
                 "sideB": "Свободное время",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8880,7 +8880,7 @@ const speakingData = {
                 "sideA": "Онлайн",
                 "sideB": "В классе",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8889,7 +8889,7 @@ const speakingData = {
                 "sideA": "Факты",
                 "sideB": "Поиск инфо",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8898,7 +8898,7 @@ const speakingData = {
                 "sideA": "Университет",
                 "sideB": "Колледж/ПТУ",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8907,7 +8907,7 @@ const speakingData = {
                 "sideA": "Экзамены",
                 "sideB": "Оценки за год",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8916,7 +8916,7 @@ const speakingData = {
                 "sideA": "Школа",
                 "sideB": "За границей",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8925,7 +8925,7 @@ const speakingData = {
                 "sideA": "Раздельные",
                 "sideB": "Смешанные",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8934,7 +8934,7 @@ const speakingData = {
                 "sideA": "Соцсети",
                 "sideB": "Лично",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8943,7 +8943,7 @@ const speakingData = {
                 "sideA": "Стриминг",
                 "sideB": "ТВ",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8952,7 +8952,7 @@ const speakingData = {
                 "sideA": "Дом",
                 "sideB": "Офис",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8961,7 +8961,7 @@ const speakingData = {
                 "sideA": "Новости онлайн",
                 "sideB": "Газета",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8970,7 +8970,7 @@ const speakingData = {
                 "sideA": "Соцсети",
                 "sideB": "Природа",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8979,7 +8979,7 @@ const speakingData = {
                 "sideA": "Общ. транспорт",
                 "sideB": "Машина",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8988,7 +8988,7 @@ const speakingData = {
                 "sideA": "Б/у",
                 "sideB": "Новое",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8997,7 +8997,7 @@ const speakingData = {
                 "sideA": "Город",
                 "sideB": "Деревня",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9006,7 +9006,7 @@ const speakingData = {
                 "sideA": "Вегетарианство",
                 "sideB": "Мясо",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9015,7 +9015,7 @@ const speakingData = {
                 "sideA": "Лично",
                 "sideB": "Государство",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9024,7 +9024,7 @@ const speakingData = {
                 "sideA": "Стабильность",
                 "sideB": "Творчество",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9033,7 +9033,7 @@ const speakingData = {
                 "sideA": "Свой бизнес",
                 "sideB": "Компания",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9042,7 +9042,7 @@ const speakingData = {
                 "sideA": "Зарплата",
                 "sideB": "Удовлетворение",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9051,7 +9051,7 @@ const speakingData = {
                 "sideA": "Много работы",
                 "sideB": "Баланс",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9060,7 +9060,7 @@ const speakingData = {
                 "sideA": "Призвание",
                 "sideB": "Перспективы",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9069,7 +9069,7 @@ const speakingData = {
                 "sideA": "Индивид",
                 "sideB": "Общество",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9078,7 +9078,7 @@ const speakingData = {
                 "sideA": "Традиции",
                 "sideB": "Модерн",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9087,7 +9087,7 @@ const speakingData = {
                 "sideA": "Волонтерство",
                 "sideB": "Деньги",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9096,7 +9096,7 @@ const speakingData = {
                 "sideA": "Слава",
                 "sideB": "Тихое влияние",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9105,7 +9105,7 @@ const speakingData = {
                 "sideA": "Правила",
                 "sideB": "Свои мысли",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9114,7 +9114,7 @@ const speakingData = {
                 "sideA": "Физическое",
                 "sideB": "Психическое",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9123,7 +9123,7 @@ const speakingData = {
                 "sideA": "Профилактика",
                 "sideB": "Лечение",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9132,7 +9132,7 @@ const speakingData = {
                 "sideA": "Спорт",
                 "sideB": "Для себя",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9141,7 +9141,7 @@ const speakingData = {
                 "sideA": "Частное",
                 "sideB": "Государственное",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9150,7 +9150,7 @@ const speakingData = {
                 "sideA": "Кино",
                 "sideB": "Литература",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9159,7 +9159,7 @@ const speakingData = {
                 "sideA": "Современное",
                 "sideB": "Классика",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9168,7 +9168,7 @@ const speakingData = {
                 "sideA": "Сохранение",
                 "sideB": "Новые здания",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9177,7 +9177,7 @@ const speakingData = {
                 "sideA": "Местная",
                 "sideB": "Глобализация",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9186,7 +9186,7 @@ const speakingData = {
                 "sideA": "Соцсети",
                 "sideB": "Лично",
                 "level": "upper-intermediate",
-                "theme": "people_society",
+                "theme": "politics_governance_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9195,7 +9195,7 @@ const speakingData = {
                 "sideA": "Город",
                 "sideB": "Деревня",
                 "level": "upper-intermediate",
-                "theme": "travel_places",
+                "theme": "globalisation_trade_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9204,7 +9204,7 @@ const speakingData = {
                 "sideA": "Онлайн",
                 "sideB": "Класс",
                 "level": "upper-intermediate",
-                "theme": "education_work",
+                "theme": "academic_vocabulary_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9213,7 +9213,7 @@ const speakingData = {
                 "sideA": "Возобновляемая",
                 "sideB": "Ядерная",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9222,7 +9222,7 @@ const speakingData = {
                 "sideA": "Быстрая мода",
                 "sideB": "Устойчивая",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9231,7 +9231,7 @@ const speakingData = {
                 "sideA": "Креативность ИИ",
                 "sideB": "Искусство",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9240,7 +9240,7 @@ const speakingData = {
                 "sideA": "Космос",
                 "sideB": "Глубины моря",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9249,7 +9249,7 @@ const speakingData = {
                 "sideA": "Приватность",
                 "sideB": "Безопасность",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9258,7 +9258,7 @@ const speakingData = {
                 "sideA": "ГМО",
                 "sideB": "Органика",
                 "level": "advanced",
-                "theme": "nature_environment",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9267,7 +9267,7 @@ const speakingData = {
                 "sideA": "ББД",
                 "sideB": "Гарантия работы",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9276,7 +9276,7 @@ const speakingData = {
                 "sideA": "Розовый",
                 "sideB": "Оранжевый",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9285,7 +9285,7 @@ const speakingData = {
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9294,7 +9294,7 @@ const speakingData = {
                 "sideA": "Стул",
                 "sideB": "Диван",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9303,7 +9303,7 @@ const speakingData = {
                 "sideA": "Сумка",
                 "sideB": "Коробка",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9321,7 +9321,7 @@ const speakingData = {
                 "sideA": "Шоколад",
                 "sideB": "Конфеты",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9330,7 +9330,7 @@ const speakingData = {
                 "sideA": "Ложка",
                 "sideB": "Вилка",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9339,7 +9339,7 @@ const speakingData = {
                 "sideA": "Шапка",
                 "sideB": "Обувь",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9348,7 +9348,7 @@ const speakingData = {
                 "sideA": "Солнце",
                 "sideB": "Луна",
                 "level": "starter",
-                "theme": "nature_environment",
+                "theme": "weather_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9357,7 +9357,7 @@ const speakingData = {
                 "sideA": "Носки",
                 "sideB": "Без носков",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9366,7 +9366,7 @@ const speakingData = {
                 "sideA": "С бабушкой и дедушкой",
                 "sideB": "Без них",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9375,7 +9375,7 @@ const speakingData = {
                 "sideA": "Мамина",
                 "sideB": "Папина",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9384,7 +9384,7 @@ const speakingData = {
                 "sideA": "Математика",
                 "sideB": "Рисование",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9393,7 +9393,7 @@ const speakingData = {
                 "sideA": "Бумага",
                 "sideB": "Планшет",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9402,7 +9402,7 @@ const speakingData = {
                 "sideA": "Пицца",
                 "sideB": "Паста",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9411,7 +9411,7 @@ const speakingData = {
                 "sideA": "Мороженое",
                 "sideB": "Торт",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9420,7 +9420,7 @@ const speakingData = {
                 "sideA": "Короткие дни",
                 "sideB": "Длинные",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9429,7 +9429,7 @@ const speakingData = {
                 "sideA": "Парк",
                 "sideB": "Пляж",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9438,7 +9438,7 @@ const speakingData = {
                 "sideA": "Самолет",
                 "sideB": "Поезд",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9447,7 +9447,7 @@ const speakingData = {
                 "sideA": "Утром",
                 "sideB": "Вечером",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9465,7 +9465,7 @@ const speakingData = {
                 "sideA": "Вилкой",
                 "sideB": "Руками",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9474,7 +9474,7 @@ const speakingData = {
                 "sideA": "В носках",
                 "sideB": "Без носков",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9483,7 +9483,7 @@ const speakingData = {
                 "sideA": "Замок из песка",
                 "sideB": "Снеговик",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9492,7 +9492,7 @@ const speakingData = {
                 "sideA": "Много экзаменов",
                 "sideB": "Мало экзаменов",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9501,7 +9501,7 @@ const speakingData = {
                 "sideA": "В 7 лет",
                 "sideB": "В 5 лет",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9510,7 +9510,7 @@ const speakingData = {
                 "sideA": "Медленно",
                 "sideB": "Быстро",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9519,7 +9519,7 @@ const speakingData = {
                 "sideA": "Готовить дома",
                 "sideB": "Заказывать онлайн",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9528,7 +9528,7 @@ const speakingData = {
                 "sideA": "Готовка",
                 "sideB": "Выпечка",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9537,7 +9537,7 @@ const speakingData = {
                 "sideA": "Спортзал",
                 "sideB": "Улица",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9546,7 +9546,7 @@ const speakingData = {
                 "sideA": "В телефоне",
                 "sideB": "Распечатанные",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9555,7 +9555,7 @@ const speakingData = {
                 "sideA": "Смарт-ТВ",
                 "sideB": "Компьютер",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9564,7 +9564,7 @@ const speakingData = {
                 "sideA": "Жаркая",
                 "sideB": "Холодная",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9573,7 +9573,7 @@ const speakingData = {
                 "sideA": "Дарить",
                 "sideB": "Получать",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9582,7 +9582,7 @@ const speakingData = {
                 "sideA": "В помещении",
                 "sideB": "На улице",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9591,7 +9591,7 @@ const speakingData = {
                 "sideA": "Ананас",
                 "sideB": "Без ананаса",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9600,7 +9600,7 @@ const speakingData = {
                 "sideA": "Сначала молоко",
                 "sideB": "Сначала чай",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9609,7 +9609,7 @@ const speakingData = {
                 "sideA": "Понедельник",
                 "sideB": "Пятница",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9618,7 +9618,7 @@ const speakingData = {
                 "sideA": "До будильника",
                 "sideB": "До конца",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9636,7 +9636,7 @@ const speakingData = {
                 "sideA": "Слишком жарко",
                 "sideB": "Слишком холодно",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9645,7 +9645,7 @@ const speakingData = {
                 "sideA": "Ошибки",
                 "sideB": "Успех",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9654,7 +9654,7 @@ const speakingData = {
                 "sideA": "Планшеты",
                 "sideB": "Тетради",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9663,7 +9663,7 @@ const speakingData = {
                 "sideA": "Всегда на связи",
                 "sideB": "Свободное время",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9672,7 +9672,7 @@ const speakingData = {
                 "sideA": "Повторное использование",
                 "sideB": "Переработка",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9681,7 +9681,7 @@ const speakingData = {
                 "sideA": "Одна карьера",
                 "sideB": "Частая смена",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9690,7 +9690,7 @@ const speakingData = {
                 "sideA": "Сон",
                 "sideB": "Упражнения",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9699,7 +9699,7 @@ const speakingData = {
                 "sideA": "Поп-музыка",
                 "sideB": "Классика",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9708,7 +9708,7 @@ const speakingData = {
                 "sideA": "Знать заранее",
                 "sideB": "Сюрприз",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9717,7 +9717,7 @@ const speakingData = {
                 "sideA": "Мгновенно",
                 "sideB": "Не торопясь",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9726,7 +9726,7 @@ const speakingData = {
                 "sideA": "Запоем",
                 "sideB": "По серии",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9735,7 +9735,7 @@ const speakingData = {
                 "sideA": "У окна",
                 "sideB": "У прохода",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9744,7 +9744,7 @@ const speakingData = {
                 "sideA": "Пропустить",
                 "sideB": "Плохая тренировка",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9753,7 +9753,7 @@ const speakingData = {
                 "sideA": "С собой",
                 "sideB": "С питомцем",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -9762,37 +9762,37 @@ const speakingData = {
             {
                 "topic": "Мое любимое воспоминание из детства",
                 "level": "starter",
-                "theme": "people_society"
+                "theme": "family_A0"
             },
             {
                 "topic": "Мой последний отпуск",
                 "level": "elementary",
-                "theme": "travel_places"
+                "theme": "transport_travel_A2"
             },
             {
                 "topic": "Человек, который меня вдохновил",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "topic": "Будущее мира через 50 лет",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "topic": "Роль искусства в современном обществе",
                 "level": "advanced",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_hobbies_A2"
             },
             {
                 "topic": "Сложность человеческого сознания",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "topic": "Важность осведомленности о ментальном здоровье",
                 "level": "intermediate",
-                "theme": "health_body"
+                "theme": "mental_health_B1"
             },
             {
                 "topic": "Работа моей мечты и почему",
@@ -9802,12 +9802,12 @@ const speakingData = {
             {
                 "topic": "Влияние изменения климата на местные сообщества",
                 "level": "upper-intermediate",
-                "theme": "nature_environment"
+                "theme": "environment_policy_B2"
             },
             {
                 "topic": "Искусственный интеллект: инструмент или угроза?",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             }
         ]
     },
@@ -9816,62 +9816,62 @@ const speakingData = {
             {
                 "text": "Είναι το πρωινό το πιο σημαντικό γεύμα;",
                 "level": "starter",
-                "theme": "food_drinks"
+                "theme": "food_drink_A0"
             },
             {
                 "text": "Είναι οι σκύλοι καλύτερα κατοικίδια από τις γάτες;",
                 "level": "starter",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_A1"
             },
             {
                 "text": "Πρέπει τα παιδιά να έχουν κινητά τηλέφωνα;",
                 "level": "elementary",
-                "theme": "science_technology"
+                "theme": "technology_A2"
             },
             {
                 "text": "Είναι καλύτερα να ζεις σε σπίτι ή σε διαμέρισμα;",
                 "level": "elementary",
-                "theme": "daily_life"
+                "theme": "neighbourhood_A2"
             },
             {
                 "text": "Μπορούμε να ζήσουμε χωρίς ίντερνετ για μια εβδομάδα;",
                 "level": "intermediate",
-                "theme": "science_technology"
+                "theme": "media_news_B1"
             },
             {
                 "text": "Πρέπει όλοι να μαθαίνουν μια δεύτερη γλώσσα;",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "Καταστρέφουν τα κοινωνικά δίκτυα τις κοινωνικές μας δεξιότητες;",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "text": "Πρέπει οι δημόσιες συγκοινωνίες να είναι δωρεάν;",
                 "level": "upper-intermediate",
-                "theme": "travel_places"
+                "theme": "globalisation_trade_B2"
             },
             {
                 "text": "Γενετική μηχανική: Πρόοδος ή κίνδυνος;",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             },
             {
                 "text": "Είναι το καθολικό βασικό εισόδημα λύση για την αυτοματοποίηση;",
                 "level": "advanced",
-                "theme": "people_society"
+                "theme": "power_institutions_C1"
             },
             {
                 "text": "Υπάρχει πραγματικά η ελεύθερη βούληση ή είναι μια ψευδαίσθηση;",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "text": "Η ηθική του αποικισμού άλλων πλανητών.",
                 "level": "proficiency",
-                "theme": "science_technology"
+                "theme": "epistemology_truth_C2"
             }
         ],
         "criticsCorner": [
@@ -9879,231 +9879,231 @@ const speakingData = {
                 "text": "Σκέφτομαι, άρα υπάρχω.",
                 "author": "Descartes",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "text": "Ζωή είναι αυτό που σου συμβαίνει ενώ είσαι απασχολημένος κάνοντας άλλα σχέδια.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "people_society"
+                "theme": "relationships_family_A2"
             },
             {
                 "text": "Η μόνη σταθερά είναι η αλλαγή.",
                 "author": "Heraclitus",
                 "level": "upper-intermediate",
-                "theme": "people_society"
+                "theme": "politics_governance_B2"
             }
         ],
-        "debates": [{"topic":"Η προτεσταντική ηθική της εργασίας ως πολιτισμικό επίτευγμα έναντι της ως αρχική πηγή της ενήλικης δυστυχίας — ποια κληρονομιά κυριαρχεί σήμερα;","sideA":"Πολιτισμικό επίτευγμα","sideB":"Πηγή δυστυχίας","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Η εμπορευματοποίηση του πάθους έναντι της απελευθέρωσης της μετατροπής της εργασίας σε νόημα — είναι το «κάνε αυτό που αγαπάς» συμβουλή ή παγίδα;","sideA":"Συμβουλή","sideB":"Παγίδα","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Η καριέρα ως ταυτότητα έναντι της καριέρας ως μέσο — ποια είναι η πιο συνεκτική σχέση που μπορεί να έχει ένας σύγχρονος ενήλικας με την εργασία του;","sideA":"Ταυτότητα","sideB":"Μέσο","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Ο ενάρετος υπερεργαζόμενος έναντι του στρατηγικού οκνηρού — ποιος έχει υμνηθεί πιο ανέντιμα στον δυτικό πολιτισμό;","sideA":"Υπερεργαζόμενος","sideB":"Οκνηρός","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Η ενήλικη φιλοδοξία ως αξιοθαύμαστη έναντι της ως αδυναμία αποδοχής του πεπερασμένου — ποια ανάγνωση είναι ψυχολογικά πιο ειλικρινής;","sideA":"Αξιοθαύμαστη","sideB":"Αδυναμία αποδοχής","level":"proficiency","theme":"education_work","ideasA":[],"ideasB":[]},
-            {"topic":"Ο ρομαντικός έρως ως οργανωτική αρχή της ενήλικης ζωής έναντι του ως ιστορικά ενδεχομενικός και εμπορικά συντηρούμενος μύθος — ποιο είναι πιο υπερασπίσιμο;","sideA":"Οργανωτική αρχή","sideB":"Εμπορικός μύθος","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η ριζική διαφάνεια στις σχέσεις έναντι της αναγκαιότητας ενός ιδιωτικού εαυτού — μπορούν η οικειότητα και η εξατομίκευση να συνυπάρξουν;","sideA":"Διαφάνεια","sideB":"Ιδιωτικός εαυτός","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η ηθική της φροντίδας ως φεμινιστική διόρθωση έναντι της ως ανακατανομή των ίδιων βαρών — έχει εκπληρώσει η έννοια την υπόσχεσή της;","sideA":"Φεμινιστική διόρθωση","sideB":"Ανακατανομή βαρών","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η επιλογή της ατεκνίας ως αντίσταση στην προγεννητική ιδεολογία έναντι της ως μια καθαρά προσωπική απόφαση χωρίς πολιτική διάσταση — μπορούν αυτά να διαχωριστούν σαφώς;","sideA":"Αντίσταση","sideB":"Προσωπική απόφαση","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η επίγνωση της θνητότητας ως προϋπόθεση για μια ενήλικη ζωή με νόημα έναντι της ως το κύριο εμπόδιο της — ποια είναι η πιο βιώσιμη θέση;","sideA":"Προϋπόθεση","sideB":"Εμπόδιο","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η γήρανση ως παρακμή έναντι της γήρανσης ως συσσώρευση — ποιο αφήγημα είναι πιο ειλικρινές και ποιο πιο χρήσιμο;","sideA":"Παρακμή","sideB":"Συσσώρευση","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η ιατρικοποίηση της γήρανσης ως πρόοδος έναντι της ως άρνηση αποδοχής της ανθρώπιλης κατάστασης — πού πρέπει να χαραχθεί η γραμμή;","sideA":"Πρόοδος","sideB":"Άρνηση αποδοχής","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
-            {"topic":"Η μνήμη ως η ουσία της ενήλικης ταυτότητας έναντι της ως ένας άκρως αναξιόπιστος αφηγητής — ποιες είναι οι επιπτώσεις στον τρόπο που κατασκευάζουμε έναν εαυτό;","sideA":"Ουσία","sideB":"Αναξιόπιστος αφηγητής","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η συνεννοχή του ενήλικα πολίτη σε άδικα συστήματα μέσω της συνήθους κατανάλωσης έναντι της δομικής ασχετότητας της ατομικής ηθικής καθαρότητας — ποια είναι η πιο ειλικρινής πλαισίωση;","sideA":"Συνεννοχή","sideB":"Δομική ασχετότητα","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η πολιτική απογοήτευση ως ορθολογική απάντηση στα διαθέσιμα στοιχεία έναντι της ως μια μορφή προνομίου — ποια ανάγνωση είναι εμπειρικά πιο υπερασπίσιμη;","sideA":"Ορθολογική απάντηση","sideB":"Προνόμιο","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η διαγενεακή δικαιοσύνη ως η κεντρική ηθική πρόκληση της εποχής μας έναντι της ως έννοια που συστηματικά συσκοτίζει την παρούσα ταξική και φυλετική ανισότητα — ποια είναι η ισχυρότερη κριτική;","sideA":"Ηθική πρόκληση","sideB":"Συσκότιση ανισότητας","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η φιλελεύθερη δημοκρατία ως το λιγότερο κακό σύστημα έναντι της ως ένα σύστημα που έχει δομικά εξαντλήσει τη μεταρρυθμιστική του ικανότητα — ποια ετυμηγορία υποστηρίζουν τα στοιχεία;","sideA":"Λιγότερο κακό σύστημα","sideB":"Εξαντλημένη ικανότητα","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η ικανότητα για αυτοαπάτη ως γνωστικό έλλειμμα έναντι της ως προσαρμοστικός μηχανισμός — ποια εκδοχή εξυπηρετεί καλύτερα τον ενήλικα που θέλει να ζει καλά;","sideA":"Γνωστικό έλλειμμα","sideB":"Προσαρμοστικός μηχανισμός","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η εμπειρογνωμοσύνη ως επιστημολογική αυθεντία έναντι της ως μια μορφή θεσμικής εξουσίας που αξίζει έλεγχο — πότε ο υγιής σκεπτικισμός γίνεται επιστημολογική δειλία;","sideA":"Επιστημολογική αυθεντία","sideB":"Θεσμική εξουσία","level":"proficiency","theme":"science_technology","ideasA":[],"ideasB":[]},
-            {"topic":"Η αφήγηση ως ο κύριος τρόπος με τον οποίο οι ενήλικες δίνουν νόημα στη ζωή τους έναντι της ως ο κύριος τρόπος με τον οποίο οι ενήλικες παραπλανούν τον εαυτό τους — ποια λειτουργία κυριαρχεί;","sideA":"Δίνουν νόημα","sideB":"Παραπλανούν","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Η ειλικρίνεια ως απόλυτη αρετή έναντι της ως περιστασιακή — υπάρχει μια συνεκτική περιγραφή της φιλαλήθειας που επιβιώνει από την επαφή με τις πραγματικές ενήλικες σχέσεις;","sideA":"Απόλυτη αρετή","sideB":"Περιστασιακή","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Ο ενήλικας που «επιτέλους τα κατάλαβε» έναντι του ενήλικα που έχει αποδεχτεί ότι δεν θα τα καταφέρει ποτέ — ποιος αντιπροσωπεύει μια πιο εξελιγμένη σχέση με την πραγματικότητα;","sideA":"Τα κατάλαβε","sideB":"Αποδοχή αγνώστου","level":"proficiency","theme":"people_society","ideasA":[],"ideasB":[]},
-            {"topic":"Το να λες τα πάντα στον θεραπευτή σου έναντι του να λες τα πάντα στον κομμωτή σου — ποια επαγγελματική σχέση είναι εμπειρικά πιο μετασχηματιστική και γιατί η απάντηση μας φέρνει σε δύσκολη θέση;","sideA":"Θεραπευτής","sideB":"Κομμωτής","level":"proficiency","theme":"health_body","ideasA":[],"ideasB":[]},
+        "debates": [{"topic":"Η προτεσταντική ηθική της εργασίας ως πολιτισμικό επίτευγμα έναντι της ως αρχική πηγή της ενήλικης δυστυχίας — ποια κληρονομιά κυριαρχεί σήμερα;","sideA":"Πολιτισμικό επίτευγμα","sideB":"Πηγή δυστυχίας","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η εμπορευματοποίηση του πάθους έναντι της απελευθέρωσης της μετατροπής της εργασίας σε νόημα — είναι το «κάνε αυτό που αγαπάς» συμβουλή ή παγίδα;","sideA":"Συμβουλή","sideB":"Παγίδα","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η καριέρα ως ταυτότητα έναντι της καριέρας ως μέσο — ποια είναι η πιο συνεκτική σχέση που μπορεί να έχει ένας σύγχρονος ενήλικας με την εργασία του;","sideA":"Ταυτότητα","sideB":"Μέσο","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Ο ενάρετος υπερεργαζόμενος έναντι του στρατηγικού οκνηρού — ποιος έχει υμνηθεί πιο ανέντιμα στον δυτικό πολιτισμό;","sideA":"Υπερεργαζόμενος","sideB":"Οκνηρός","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η ενήλικη φιλοδοξία ως αξιοθαύμαστη έναντι της ως αδυναμία αποδοχής του πεπερασμένου — ποια ανάγνωση είναι ψυχολογικά πιο ειλικρινής;","sideA":"Αξιοθαύμαστη","sideB":"Αδυναμία αποδοχής","level":"proficiency","theme": "work_meaning_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Ο ρομαντικός έρως ως οργανωτική αρχή της ενήλικης ζωής έναντι του ως ιστορικά ενδεχομενικός και εμπορικά συντηρούμενος μύθος — ποιο είναι πιο υπερασπίσιμο;","sideA":"Οργανωτική αρχή","sideB":"Εμπορικός μύθος","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η ριζική διαφάνεια στις σχέσεις έναντι της αναγκαιότητας ενός ιδιωτικού εαυτού — μπορούν η οικειότητα και η εξατομίκευση να συνυπάρξουν;","sideA":"Διαφάνεια","sideB":"Ιδιωτικός εαυτός","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η ηθική της φροντίδας ως φεμινιστική διόρθωση έναντι της ως ανακατανομή των ίδιων βαρών — έχει εκπληρώσει η έννοια την υπόσχεσή της;","sideA":"Φεμινιστική διόρθωση","sideB":"Ανακατανομή βαρών","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η επιλογή της ατεκνίας ως αντίσταση στην προγεννητική ιδεολογία έναντι της ως μια καθαρά προσωπική απόφαση χωρίς πολιτική διάσταση — μπορούν αυτά να διαχωριστούν σαφώς;","sideA":"Αντίσταση","sideB":"Προσωπική απόφαση","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η επίγνωση της θνητότητας ως προϋπόθεση για μια ενήλικη ζωή με νόημα έναντι της ως το κύριο εμπόδιο της — ποια είναι η πιο βιώσιμη θέση;","sideA":"Προϋπόθεση","sideB":"Εμπόδιο","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η γήρανση ως παρακμή έναντι της γήρανσης ως συσσώρευση — ποιο αφήγημα είναι πιο ειλικρινές και ποιο πιο χρήσιμο;","sideA":"Παρακμή","sideB":"Συσσώρευση","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η ιατρικοποίηση της γήρανσης ως πρόοδος έναντι της ως άρνηση αποδοχής της ανθρώπιλης κατάστασης — πού πρέπει να χαραχθεί η γραμμή;","sideA":"Πρόοδος","sideB":"Άρνηση αποδοχής","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η μνήμη ως η ουσία της ενήλικης ταυτότητας έναντι της ως ένας άκρως αναξιόπιστος αφηγητής — ποιες είναι οι επιπτώσεις στον τρόπο που κατασκευάζουμε έναν εαυτό;","sideA":"Ουσία","sideB":"Αναξιόπιστος αφηγητής","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η συνεννοχή του ενήλικα πολίτη σε άδικα συστήματα μέσω της συνήθους κατανάλωσης έναντι της δομικής ασχετότητας της ατομικής ηθικής καθαρότητας — ποια είναι η πιο ειλικρινής πλαισίωση;","sideA":"Συνεννοχή","sideB":"Δομική ασχετότητα","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η πολιτική απογοήτευση ως ορθολογική απάντηση στα διαθέσιμα στοιχεία έναντι της ως μια μορφή προνομίου — ποια ανάγνωση είναι εμπειρικά πιο υπερασπίσιμη;","sideA":"Ορθολογική απάντηση","sideB":"Προνόμιο","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η διαγενεακή δικαιοσύνη ως η κεντρική ηθική πρόκληση της εποχής μας έναντι της ως έννοια που συστηματικά συσκοτίζει την παρούσα ταξική και φυλετική ανισότητα — ποια είναι η ισχυρότερη κριτική;","sideA":"Ηθική πρόκληση","sideB":"Συσκότιση ανισότητας","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η φιλελεύθερη δημοκρατία ως το λιγότερο κακό σύστημα έναντι της ως ένα σύστημα που έχει δομικά εξαντλήσει τη μεταρρυθμιστική του ικανότητα — ποια ετυμηγορία υποστηρίζουν τα στοιχεία;","sideA":"Λιγότερο κακό σύστημα","sideB":"Εξαντλημένη ικανότητα","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η ικανότητα για αυτοαπάτη ως γνωστικό έλλειμμα έναντι της ως προσαρμοστικός μηχανισμός — ποια εκδοχή εξυπηρετεί καλύτερα τον ενήλικα που θέλει να ζει καλά;","sideA":"Γνωστικό έλλειμμα","sideB":"Προσαρμοστικός μηχανισμός","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η εμπειρογνωμοσύνη ως επιστημολογική αυθεντία έναντι της ως μια μορφή θεσμικής εξουσίας που αξίζει έλεγχο — πότε ο υγιής σκεπτικισμός γίνεται επιστημολογική δειλία;","sideA":"Επιστημολογική αυθεντία","sideB":"Θεσμική εξουσία","level":"proficiency","theme": "epistemology_truth_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η αφήγηση ως ο κύριος τρόπος με τον οποίο οι ενήλικες δίνουν νόημα στη ζωή τους έναντι της ως ο κύριος τρόπος με τον οποίο οι ενήλικες παραπλανούν τον εαυτό τους — ποια λειτουργία κυριαρχεί;","sideA":"Δίνουν νόημα","sideB":"Παραπλανούν","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Η ειλικρίνεια ως απόλυτη αρετή έναντι της ως περιστασιακή — υπάρχει μια συνεκτική περιγραφή της φιλαλήθειας που επιβιώνει από την επαφή με τις πραγματικές ενήλικες σχέσεις;","sideA":"Απόλυτη αρετή","sideB":"Περιστασιακή","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Ο ενήλικας που «επιτέλους τα κατάλαβε» έναντι του ενήλικα που έχει αποδεχτεί ότι δεν θα τα καταφέρει ποτέ — ποιος αντιπροσωπεύει μια πιο εξελιγμένη σχέση με την πραγματικότητα;","sideA":"Τα κατάλαβε","sideB":"Αποδοχή αγνώστου","level":"proficiency","theme": "ontology_metaphysics_C2","ideasA":[],"ideasB":[]},
+            {"topic":"Το να λες τα πάντα στον θεραπευτή σου έναντι του να λες τα πάντα στον κομμωτή σου — ποια επαγγελματική σχέση είναι εμπειρικά πιο μετασχηματιστική και γιατί η απάντηση μας φέρνει σε δύσκολη θέση;","sideA":"Θεραπευτής","sideB":"Κομμωτής","level":"proficiency","theme": "psychoanalysis_unconscious_C2","ideasA":[],"ideasB":[]},
 
-            {"topic": "Η τετραήμερη εβδομάδα εργασίας εναντίον της πενταήμερης — ποιο μοντέλο ωφελεί περισσότερο εργαζόμενους και εργοδότες;", "sideA": "4 ημέρες", "sideB": "5 ημέρες", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Καθολικό βασικό εισόδημα εναντίον στοχευμένης πρόνοιας — ποιο είναι το πιο αποτελεσματικό δίχτυ ασφαλείας για τους εργαζόμενους ενήλικες;", "sideA": "Καθολικό εισόδημα", "sideB": "Στοχευμένη πρόνοια", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η οικονομία της πλατφόρμας (gig economy) εναντίον της μόνιμης απασχόλησης — ποιο μοντέλο εξυπηρετεί καλύτερα τους εργαζόμενους μακροπρόθεσμα;", "sideA": "Gig economy", "sideB": "Μόνιμη απασχόληση", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Αξιοκρατία εναντίον δομικού πλεονεκτήματος — τι εξηγεί με μεγαλύτερη ακρίβεια την επαγγελματική επιτυχία;", "sideA": "Αξιοκρατία", "sideB": "Δομικό πλεονέκτημα", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Διαφάνεια στους μισθούς εναντίον απορρήτου — τι δημιουργεί έναν δικαιότερο χώρο εργασίας;", "sideA": "Διαφάνεια", "sideB": "Απόρρητο", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Αυτοματοποίηση εναντίον ανθρώπινης εργασίας — ποια είναι η μεγαλύτερη μακροπρόθεσμη απειλή για την απασχόληση των ενηλίκων;", "sideA": "Αυτοματοποίηση", "sideB": "Ανθρώπινη εργασία", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Εξ αποστάσεως εργασία εναντίον παρουσίας στο γραφείο — τι είναι καλύτερο για την εξέλιξη της καριέρας και την κουλτούρα της ομάδας;", "sideA": "Εξ αποστάσεως", "sideB": "Γραφείο", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ίση γονική άδεια για άνδρες και γυναίκες εναντίον μεγαλύτερης άδειας μητρότητας — ποια πολιτική είναι δικαιότερη;", "sideA": "Ίση άδεια", "sideB": "Μεγαλύτερη μητρότητας", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η επιλογή να μην έχει κανείς παιδιά εναντίον της κοινωνικής πίεσης για οικογένεια — τι αξίζει περισσότερο σεβασμό;", "sideA": "Χωρίς παιδιά", "sideB": "Κοινωνική πίεση", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ο γάμος ως θεσμός εναντίον της συμβίωσης χωρίς γάμο — τι είναι πιο σχετικό σήμερα;", "sideA": "Γάμος", "sideB": "Συμβίωση", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Νοικοκυριά με δύο εισοδήματα εναντίον ενός συντρόφου που μένει στο σπίτι — ποιο μοντέλο είναι καλύτερο για παιδιά και ενήλικες;", "sideA": "Δύο εισοδήματα", "sideB": "Ένας στο σπίτι", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Το μισθολογικό χάσμα μεταξύ των φύλων ως δομικό πρόβλημα εναντίον ζητήματος ατομικών επιλογών — ποια εξήγηση έχει μεγαλύτερη βαρύτητα;", "sideA": "Δομικό πρόβλημα", "sideB": "Ατομικές επιλογές", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η ιδιοκτησία σπιτιού ως στόχος εναντίον μιας επαγγελματικής αγοράς ενοικίασης — ποιο μοντέλο στέγασης ταιριάζει καλύτερα στους σύγχρονους ενήλικες;", "sideA": "Ιδιοκτησία", "sideB": "Αγορά ενοικίασης", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Ο εξευγενισμός (gentrification) ως βελτίωση εναντίον του εξευγενισμού ως εκτοπισμός — ποια προσέγγιση είναι πιο ειλικρινής;", "sideA": "Βελτίωση", "sideB": "Εκτοπισμός", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Αστική πυκνότητα εναντίον προαστιακής εξάπλωσης — ποιο είναι το καλύτερο μοντέλο για βιώσιμες πόλεις;", "sideA": "Αστική πυκνότητα", "sideB": "Προαστιακή εξάπλωση", "level": "upper-intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Ζωή κοντά στην οικογένεια εναντίον μετακόμισης για ευκαιρίες — ποια επιλογή παράγει καλύτερη μακροπρόθεσμη ευημερία;", "sideA": "Κοντά στην οικογένεια", "sideB": "Μετακόμιση", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ένας γηράσκων πληθυσμός ως κρίση εναντίον ως πόρος — ποιο πλαίσιο είναι πιο παραγωγικό;", "sideA": "Κρίση", "sideB": "Πόρος", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Προσωπική ευθύνη για την υγεία εναντίον συστημικών παραγόντων — τι έχει μεγαλύτερη βαρύτητα στην εξήγηση των αποτελεσμάτων υγείας;", "sideA": "Προσωπική ευθύνη", "sideB": "Συστημικοί παράγοντες", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Ημέρες ψυχικής υγείας ως νόμιμο δικαίωμα στον χώρο εργασίας εναντίον πηγής κατάχρησης — πού πρέπει οι εργοδότες να θέσουν το όριο;", "sideA": "Νόμιμο δικαίωμα", "sideB": "Πηγή κατάχρησης", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Προληπτική ιατρική εναντίον θεραπευτικής ιατρικής — ποια πρέπει να λαμβάνει περισσότερη δημόσια χρηματοδότηση;", "sideA": "Προληπτική", "sideB": "Θεραπευτική", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Αντιγηραντική ιατρική εναντίον αξιοπρεπούς γήρανσης — ποια στάση είναι πιο συνεκτική;", "sideA": "Αντιγήρανση", "sideB": "Αξιοπρεπής γήρανση", "level": "upper-intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Τεχνολογία επιτήρησης για τη δημόσια ασφάλεια εναντίον του δικαιώματος στην ιδιωτικότητα — πού πρέπει να βρίσκεται η ισορροπία;", "sideA": "Δημόσια ασφάλεια", "sideB": "Ιδιωτικότητα", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Τα μέσα κοινωνικής δικτύωσης ως εργαλείο πολιτικής συμμετοχής εναντίον ως οδηγός πόλωσης — ποια επίδραση κυριαρχεί;", "sideA": "Πολιτική συμμετοχή", "sideB": "Πόλωση", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Η ΤΝ στην πρόσληψη εναντίον της ανθρώπινης κρίσης — τι παράγει δικαιότερες αποφάσεις πρόσληψης;", "sideA": "ΤΝ", "sideB": "Ανθρώπινη κρίση", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Το δικαίωμα στη λήθη στο διαδίκτυο εναντίον του δικαιώματος του κοινού στην πληροφόρηση — τι πρέπει να έχει προτεραιότητα;", "sideA": "Δικαίωμα στη λήθη", "sideB": "Δικαίωμα πληροφόρησης", "level": "upper-intermediate", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Υποχρεωτική ψηφοφορία εναντίον εθελοντικής ψηφοφορίας — τι παράγει υγιέστερες δημοκρατίες;", "sideA": "Υποχρεωτική", "sideB": "Εθελοντική", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Πολιτική δέσμευση μέσω διαμαρτυρίας εναντίον μέσω θεσμικών καναλιών — τι είναι πιο αποτελεσματικό για τους ενήλικες σήμερα;", "sideA": "Διαμαρτυρία", "sideB": "Θεσμικά κανάλια", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Εθνική ταυτότητα εναντίον ευρωπαϊκής ή παγκόσμιας ταυτότητας — τι είναι πιο σημαντικό για τους ενήλικες το 2026;", "sideA": "Εθνική ταυτότητα", "sideB": "Παγκόσμια ταυτότητα", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Αυξήσεις φόρων για τη χρηματοδότηση δημόσιων υπηρεσιών εναντίον περικοπών δαπανών — ποια είναι η πιο υπερασπίσιμη πολιτική επιλογή;", "sideA": "Αυξήσεις φόρων", "sideB": "Περικοπές δαπανών", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Το να παραδέχεστε ότι δεν έχετε ιδέα πώς λειτουργεί η σύνταξή σας εναντίον του να προσποιείστε με αυτοπεποίθηση ότι ξέρετε — ποια είναι η πιο καθολική εμπειρία ενήλικα;", "sideA": "Παραδοχή άγνοιας", "sideB": "Προσποίηση", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Το να είστε το άτομο που σχεδιάζει πάντα τις κοινωνικές εκδηλώσεις εναντίον του να είστε πάντα το άτομο που απλώς εμφανίζεται — ποιος ρόλος είναι πιο εξαντλητικός;", "sideA": "Ο διοργανωτής", "sideB": "Ο καλεσμένος", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Το να έχετε ισχυρή άποψη για τις συνήθειες της κουζίνας των συναδέλφων σας εναντίον του να μην σας νοιάζει καθόλου — ποιο άτομο είναι πιο υποφερτό;", "sideA": "Ισχυρή άποψη", "sideB": "Αδιαφορία", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Συμμετοχή σε κάθε προαιρετική κοινωνική εκδήλωση εργασίας εναντίον μη συμμετοχής σε καμία — ποια στρατηγική είναι καλύτερη για την καριέρα και την ψυχική σας υγεία;", "sideA": "Συμμετοχή σε όλες", "sideB": "Σε καμία", "level": "upper-intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ενήλικες που εξακολουθούν να μπερδεύονται με τη φορολογική τους δήλωση εναντίον ενηλίκων που απολαμβάνουν να την κάνουν — ποια ομάδα είναι πιο αξιόπιστη;", "sideA": "Μπερδεμένοι", "sideB": "Απολαμβάνουν", "level": "upper-intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Παράπονα για το κόστος ζωής σε φίλους εναντίον προσποίησης ότι όλα είναι καλά — ποια είναι η πιο ειλικρινής απάντηση ενήλικα;", "sideA": "Παράπονα", "sideB": "Προσποίηση", "level": "upper-intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Επίπεδες οργανωτικές ιεραρχίες εναντίον κάθετων δομών διαχείρισης — τι εξυπηρετεί καλύτερα τους ενήλικες που εργάζονται σε αυτές;", "sideA": "Επίπεδη ιεραρχία", "sideB": "Κάθετη δομή", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Η λατρεία της παραγωγικότητας εναντίον της υπεράσπισης της απραξίας — τι αντικατοπτρίζει καλύτερα αυτό που πραγματικά χρειάζονται οι άνθρωποι από την εργασία;", "sideA": "Παραγωγικότητα", "sideB": "Απραξία", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Η ηγεσία ως δεξιότητα που μαθαίνεται εναντίον της ηγεσίας ως έμφυτη ποιότητα — ποια άποψη είναι πιο υπερασπίσιμη εμπειρικά;", "sideA": "Μαθημένη δεξιότητα", "sideB": "Έμφυτη ποιότητα", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Hustle culture εναντίον slow living — ποιο κερδίζει και ποιο πρέπει να κερδίσει;", "sideA": "Hustle culture", "sideB": "Slow living", "level": "advanced", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Η εταιρική κοινωνική ευθύνη ως πραγματική δέσμευση εναντίον ως διαχείριση φήμης — ποιο πλαίσιο είναι πιο ειλικρινές;", "sideA": "Πραγματική δέσμευση", "sideB": "Διαχείριση φήμης", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Η ταυτότητα του ενήλικα ως σταθερή εναντίον διαρκώς υπό κατασκευή — ποια εκδοχή αντικατοπτρίζει καλύτερα τη βιωμένη εμπειρία;", "sideA": "Σταθερή ταυτότητα", "sideB": "Υπό κατασκευή", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η εξημέρωση του φεμινισμού από την καταναλωτική κουλτούρα εναντίον του φεμινισμού που αναδιαμορφώνει πραγματικά την ενήλικη ζωή — τι είναι πιο αληθινό;", "sideA": "Καταναλωτικός φεμινισμός", "sideB": "Πραγματική αναδιαμόρφωση", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η κρίση της μέσης ηλικίας ως παθολογία εναντίον ως νόμιμη επαναξιολόγηση — ποιο πλαίσιο είναι πιο χρήσιμο;", "sideA": "Παθολογία", "sideB": "Επαναξιολόγηση", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η πίεση να είσαι εξαιρετικός εναντίον της αξιοπρέπειας μιας συνηθισμένης ζωής — ποιο είναι το πιο ανθρώπινο ιδανικό;", "sideA": "Εξαιρετικός", "sideB": "Συνηθισμένη αξιοπρέπεια", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η υποχρέωση φροντίδας των ηλικιωμένων γονέων εναντίον της ευθύνης του κράτους — πού πρέπει να πέφτει το βάρος;", "sideA": "Οικογενειακή υποχρέωση", "sideB": "Κρατική ευθύνη", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η ριζική ειλικρίνεια στις σχέσεις εναντίον της στρατηγικής σιωπής — ποια είναι η πιο ηθική προσέγγιση στην οικειότητα;", "sideA": "Ριζική ειλικρίνεια", "sideB": "Στρατηγική σιωπή", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η σκόπιμη επιλογή του κοινωνικού σας κύκλου εναντίον της οργανικής δημιουργίας σχέσεων — τι παράγει πιο αυθεντικές φιλίες ενηλίκων;", "sideA": "Σκόπιμη επιλογή", "sideB": "Οργανική δημιουργία", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η πυρηνική οικογένεια ως η βέλτιστη κοινωνική μονάδα εναντίον ως μια ιστορικά συγκυριακή διευθέτηση — ποια άποψη είναι πιο υπερασπίσιμη;", "sideA": "Βέλτιστη μονάδα", "sideB": "Ιστορική διευθέτηση", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Τεχνοκρατική διακυβέρνηση εναντίον δημοκρατικού λαϊκισμού — τι ενέχει τον μεγαλύτερο μακροπρόθεσμο κίνδυνο για τους ενήλικες πολίτες;", "sideA": "Τεχνοκρατία", "sideB": "Λαϊκισμός", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Διαγενεακή δικαιοσύνη εναντίον τρέχουσας ευημερίας — τι πρέπει να έχει προτεραιότητα στη δημόσια πολιτική;", "sideA": "Διαγενεακή δικαιοσύνη", "sideB": "Τρέχουσα ευημερία", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η υποχρέωση ψήφου εναντίον του δικαιώματος αποχής — ποια είναι η πιο υπερασπίσιμη πολιτική θέση;", "sideA": "Υποχρέωση ψήφου", "sideB": "Δικαίωμα αποχής", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ο πατριωτισμός ως πολιτική αρετή εναντίον του πατριωτισμού ως γνωστική αποτυχία — ποια εκδοχή είναι πιο πειστική;", "sideA": "Πολιτική αρετή", "sideB": "Γνωστική αποτυχία", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ο απολυταρχισμός της ελευθερίας του λόγου εναντίον του ρυθμιζόμενου λόγου — τι παράγει καλύτερα αποτελέσματα για τις ενήλικες δημοκρατικές κοινωνίες;", "sideA": "Απολυταρχισμός", "sideB": "Ρυθμιζόμενος λόγος", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Μια καριέρα με νόημα εναντίον μιας δουλειάς που χρηματοδοτεί μια ιδιωτική ζωή με νόημα — ποια είναι η πιο ειλικρινής φιλοδοξία ενήλικα;", "sideA": "Καριέρα με νόημα", "sideB": "Χρηματοδότηση ζωής", "level": "advanced", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Θρησκεία εναντίον κοσμικής φιλοσοφίας — τι αντιμετωπίζει πιο αποτελεσματικά τις υπαρξιακές ανάγκες των σύγχρονων ενηλίκων;", "sideA": "Θρησκεία", "sideB": "Κοσμική φιλοσοφία", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Η εξετασμένη ζωή εναντίον της απορροφημένης ζωής — ποια αξίζει περισσότερο να τη ζεις και ποιος αποφασίζει;", "sideA": "Εξετασμένη ζωή", "sideB": "Απορροφημένη ζωή", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Κληρονομιά (legacy) εναντίον παρουσίας — ποιο είναι πιο συνεκτικό πράγμα για να επιδιώκει ένας ενήλικας;", "sideA": "Κληρονομιά", "sideB": "Παρουσία", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ο ενήλικας που «επιτέλους το κατάλαβε» εναντίον του ενήλικα που έχει αποδεχτεί ότι δεν θα το καταλάβει ποτέ — ποιος έχει μεγαλύτερη αυτογνωσία;", "sideA": "Το κατάλαβε", "sideB": "Αποδέχτηκε την άγνοια", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Να τα λέτε όλα στον θεραπευτή σας εναντίον του να τα λέτε όλα στον κομμωτή σας — ποια επαγγελματική σχέση είναι πιο θεραπευτικά αποτελεσματική;", "sideA": "Θεραπευτής", "sideB": "Κομμωτής", "level": "advanced", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Το άγχος της Κυριακής ενός ενήλικα με πλήρες πρόγραμμα εναντίον του άγχους ενός ενήλικα με άδειο πρόγραμμα — τι είναι πιο υπαρξιακά ανησυχητικό;", "sideA": "Πλήρες πρόγραμμα", "sideB": "Άδειο πρόγραμμα", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Υπερβολική σκέψη για κάθε σημαντική απόφαση ζωής εναντίον λήψης τους παρορμητικά — ποια στρατηγική έχει καλύτερο εμπειρικό ιστορικό;", "sideA": "Υπερβολική σκέψη", "sideB": "Παρορμητικότητα", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ενήλικες που διαβάζουν βιβλία αυτοβελτίωσης εναντίον ενηλίκων που αρνούνται να το κάνουν — ποια ομάδα είναι πιο δύσκολη στη συζήτηση σε ένα δείπνο;", "sideA": "Αναγνώστες αυτοβελτίωσης", "sideB": "Αρνούνται", "level": "advanced", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "Η τετραήμερη εβδομάδα εργασίας εναντίον της πενταήμερης — ποιο μοντέλο ωφελεί περισσότερο εργαζόμενους και εργοδότες;", "sideA": "4 ημέρες", "sideB": "5 ημέρες", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Καθολικό βασικό εισόδημα εναντίον στοχευμένης πρόνοιας — ποιο είναι το πιο αποτελεσματικό δίχτυ ασφαλείας για τους εργαζόμενους ενήλικες;", "sideA": "Καθολικό εισόδημα", "sideB": "Στοχευμένη πρόνοια", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Η οικονομία της πλατφόρμας (gig economy) εναντίον της μόνιμης απασχόλησης — ποιο μοντέλο εξυπηρετεί καλύτερα τους εργαζόμενους μακροπρόθεσμα;", "sideA": "Gig economy", "sideB": "Μόνιμη απασχόληση", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Αξιοκρατία εναντίον δομικού πλεονεκτήματος — τι εξηγεί με μεγαλύτερη ακρίβεια την επαγγελματική επιτυχία;", "sideA": "Αξιοκρατία", "sideB": "Δομικό πλεονέκτημα", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Διαφάνεια στους μισθούς εναντίον απορρήτου — τι δημιουργεί έναν δικαιότερο χώρο εργασίας;", "sideA": "Διαφάνεια", "sideB": "Απόρρητο", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Αυτοματοποίηση εναντίον ανθρώπινης εργασίας — ποια είναι η μεγαλύτερη μακροπρόθεσμη απειλή για την απασχόληση των ενηλίκων;", "sideA": "Αυτοματοποίηση", "sideB": "Ανθρώπινη εργασία", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Εξ αποστάσεως εργασία εναντίον παρουσίας στο γραφείο — τι είναι καλύτερο για την εξέλιξη της καριέρας και την κουλτούρα της ομάδας;", "sideA": "Εξ αποστάσεως", "sideB": "Γραφείο", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Ίση γονική άδεια για άνδρες και γυναίκες εναντίον μεγαλύτερης άδειας μητρότητας — ποια πολιτική είναι δικαιότερη;", "sideA": "Ίση άδεια", "sideB": "Μεγαλύτερη μητρότητας", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Η επιλογή να μην έχει κανείς παιδιά εναντίον της κοινωνικής πίεσης για οικογένεια — τι αξίζει περισσότερο σεβασμό;", "sideA": "Χωρίς παιδιά", "sideB": "Κοινωνική πίεση", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Ο γάμος ως θεσμός εναντίον της συμβίωσης χωρίς γάμο — τι είναι πιο σχετικό σήμερα;", "sideA": "Γάμος", "sideB": "Συμβίωση", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Νοικοκυριά με δύο εισοδήματα εναντίον ενός συντρόφου που μένει στο σπίτι — ποιο μοντέλο είναι καλύτερο για παιδιά και ενήλικες;", "sideA": "Δύο εισοδήματα", "sideB": "Ένας στο σπίτι", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Το μισθολογικό χάσμα μεταξύ των φύλων ως δομικό πρόβλημα εναντίον ζητήματος ατομικών επιλογών — ποια εξήγηση έχει μεγαλύτερη βαρύτητα;", "sideA": "Δομικό πρόβλημα", "sideB": "Ατομικές επιλογές", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Η ιδιοκτησία σπιτιού ως στόχος εναντίον μιας επαγγελματικής αγοράς ενοικίασης — ποιο μοντέλο στέγασης ταιριάζει καλύτερα στους σύγχρονους ενήλικες;", "sideA": "Ιδιοκτησία", "sideB": "Αγορά ενοικίασης", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Ο εξευγενισμός (gentrification) ως βελτίωση εναντίον του εξευγενισμού ως εκτοπισμός — ποια προσέγγιση είναι πιο ειλικρινής;", "sideA": "Βελτίωση", "sideB": "Εκτοπισμός", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Αστική πυκνότητα εναντίον προαστιακής εξάπλωσης — ποιο είναι το καλύτερο μοντέλο για βιώσιμες πόλεις;", "sideA": "Αστική πυκνότητα", "sideB": "Προαστιακή εξάπλωση", "level": "upper-intermediate", "theme": "globalisation_trade_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Ζωή κοντά στην οικογένεια εναντίον μετακόμισης για ευκαιρίες — ποια επιλογή παράγει καλύτερη μακροπρόθεσμη ευημερία;", "sideA": "Κοντά στην οικογένεια", "sideB": "Μετακόμιση", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Ένας γηράσκων πληθυσμός ως κρίση εναντίον ως πόρος — ποιο πλαίσιο είναι πιο παραγωγικό;", "sideA": "Κρίση", "sideB": "Πόρος", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Προσωπική ευθύνη για την υγεία εναντίον συστημικών παραγόντων — τι έχει μεγαλύτερη βαρύτητα στην εξήγηση των αποτελεσμάτων υγείας;", "sideA": "Προσωπική ευθύνη", "sideB": "Συστημικοί παράγοντες", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Ημέρες ψυχικής υγείας ως νόμιμο δικαίωμα στον χώρο εργασίας εναντίον πηγής κατάχρησης — πού πρέπει οι εργοδότες να θέσουν το όριο;", "sideA": "Νόμιμο δικαίωμα", "sideB": "Πηγή κατάχρησης", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Προληπτική ιατρική εναντίον θεραπευτικής ιατρικής — ποια πρέπει να λαμβάνει περισσότερη δημόσια χρηματοδότηση;", "sideA": "Προληπτική", "sideB": "Θεραπευτική", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Αντιγηραντική ιατρική εναντίον αξιοπρεπούς γήρανσης — ποια στάση είναι πιο συνεκτική;", "sideA": "Αντιγήρανση", "sideB": "Αξιοπρεπής γήρανση", "level": "upper-intermediate", "theme": "healthcare_systems_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Τεχνολογία επιτήρησης για τη δημόσια ασφάλεια εναντίον του δικαιώματος στην ιδιωτικότητα — πού πρέπει να βρίσκεται η ισορροπία;", "sideA": "Δημόσια ασφάλεια", "sideB": "Ιδιωτικότητα", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Τα μέσα κοινωνικής δικτύωσης ως εργαλείο πολιτικής συμμετοχής εναντίον ως οδηγός πόλωσης — ποια επίδραση κυριαρχεί;", "sideA": "Πολιτική συμμετοχή", "sideB": "Πόλωση", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Η ΤΝ στην πρόσληψη εναντίον της ανθρώπινης κρίσης — τι παράγει δικαιότερες αποφάσεις πρόσληψης;", "sideA": "ΤΝ", "sideB": "Ανθρώπινη κρίση", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Το δικαίωμα στη λήθη στο διαδίκτυο εναντίον του δικαιώματος του κοινού στην πληροφόρηση — τι πρέπει να έχει προτεραιότητα;", "sideA": "Δικαίωμα στη λήθη", "sideB": "Δικαίωμα πληροφόρησης", "level": "upper-intermediate", "theme": "technology_privacy_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Υποχρεωτική ψηφοφορία εναντίον εθελοντικής ψηφοφορίας — τι παράγει υγιέστερες δημοκρατίες;", "sideA": "Υποχρεωτική", "sideB": "Εθελοντική", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Πολιτική δέσμευση μέσω διαμαρτυρίας εναντίον μέσω θεσμικών καναλιών — τι είναι πιο αποτελεσματικό για τους ενήλικες σήμερα;", "sideA": "Διαμαρτυρία", "sideB": "Θεσμικά κανάλια", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Εθνική ταυτότητα εναντίον ευρωπαϊκής ή παγκόσμιας ταυτότητας — τι είναι πιο σημαντικό για τους ενήλικες το 2026;", "sideA": "Εθνική ταυτότητα", "sideB": "Παγκόσμια ταυτότητα", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Αυξήσεις φόρων για τη χρηματοδότηση δημόσιων υπηρεσιών εναντίον περικοπών δαπανών — ποια είναι η πιο υπερασπίσιμη πολιτική επιλογή;", "sideA": "Αυξήσεις φόρων", "sideB": "Περικοπές δαπανών", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Το να παραδέχεστε ότι δεν έχετε ιδέα πώς λειτουργεί η σύνταξή σας εναντίον του να προσποιείστε με αυτοπεποίθηση ότι ξέρετε — ποια είναι η πιο καθολική εμπειρία ενήλικα;", "sideA": "Παραδοχή άγνοιας", "sideB": "Προσποίηση", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Το να είστε το άτομο που σχεδιάζει πάντα τις κοινωνικές εκδηλώσεις εναντίον του να είστε πάντα το άτομο που απλώς εμφανίζεται — ποιος ρόλος είναι πιο εξαντλητικός;", "sideA": "Ο διοργανωτής", "sideB": "Ο καλεσμένος", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Το να έχετε ισχυρή άποψη για τις συνήθειες της κουζίνας των συναδέλφων σας εναντίον του να μην σας νοιάζει καθόλου — ποιο άτομο είναι πιο υποφερτό;", "sideA": "Ισχυρή άποψη", "sideB": "Αδιαφορία", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Συμμετοχή σε κάθε προαιρετική κοινωνική εκδήλωση εργασίας εναντίον μη συμμετοχής σε καμία — ποια στρατηγική είναι καλύτερη για την καριέρα και την ψυχική σας υγεία;", "sideA": "Συμμετοχή σε όλες", "sideB": "Σε καμία", "level": "upper-intermediate", "theme": "academic_vocabulary_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Ενήλικες που εξακολουθούν να μπερδεύονται με τη φορολογική τους δήλωση εναντίον ενηλίκων που απολαμβάνουν να την κάνουν — ποια ομάδα είναι πιο αξιόπιστη;", "sideA": "Μπερδεμένοι", "sideB": "Απολαμβάνουν", "level": "upper-intermediate", "theme": "economy_labour_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Παράπονα για το κόστος ζωής σε φίλους εναντίον προσποίησης ότι όλα είναι καλά — ποια είναι η πιο ειλικρινής απάντηση ενήλικα;", "sideA": "Παράπονα", "sideB": "Προσποίηση", "level": "upper-intermediate", "theme": "politics_governance_B2", "ideasA": [], "ideasB": []},
+            {"topic": "Επίπεδες οργανωτικές ιεραρχίες εναντίον κάθετων δομών διαχείρισης — τι εξυπηρετεί καλύτερα τους ενήλικες που εργάζονται σε αυτές;", "sideA": "Επίπεδη ιεραρχία", "sideB": "Κάθετη δομή", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η λατρεία της παραγωγικότητας εναντίον της υπεράσπισης της απραξίας — τι αντικατοπτρίζει καλύτερα αυτό που πραγματικά χρειάζονται οι άνθρωποι από την εργασία;", "sideA": "Παραγωγικότητα", "sideB": "Απραξία", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η ηγεσία ως δεξιότητα που μαθαίνεται εναντίον της ηγεσίας ως έμφυτη ποιότητα — ποια άποψη είναι πιο υπερασπίσιμη εμπειρικά;", "sideA": "Μαθημένη δεξιότητα", "sideB": "Έμφυτη ποιότητα", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Hustle culture εναντίον slow living — ποιο κερδίζει και ποιο πρέπει να κερδίσει;", "sideA": "Hustle culture", "sideB": "Slow living", "level": "advanced", "theme": "routine_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Η εταιρική κοινωνική ευθύνη ως πραγματική δέσμευση εναντίον ως διαχείριση φήμης — ποιο πλαίσιο είναι πιο ειλικρινές;", "sideA": "Πραγματική δέσμευση", "sideB": "Διαχείριση φήμης", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η ταυτότητα του ενήλικα ως σταθερή εναντίον διαρκώς υπό κατασκευή — ποια εκδοχή αντικατοπτρίζει καλύτερα τη βιωμένη εμπειρία;", "sideA": "Σταθερή ταυτότητα", "sideB": "Υπό κατασκευή", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η εξημέρωση του φεμινισμού από την καταναλωτική κουλτούρα εναντίον του φεμινισμού που αναδιαμορφώνει πραγματικά την ενήλικη ζωή — τι είναι πιο αληθινό;", "sideA": "Καταναλωτικός φεμινισμός", "sideB": "Πραγματική αναδιαμόρφωση", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η κρίση της μέσης ηλικίας ως παθολογία εναντίον ως νόμιμη επαναξιολόγηση — ποιο πλαίσιο είναι πιο χρήσιμο;", "sideA": "Παθολογία", "sideB": "Επαναξιολόγηση", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η πίεση να είσαι εξαιρετικός εναντίον της αξιοπρέπειας μιας συνηθισμένης ζωής — ποιο είναι το πιο ανθρώπινο ιδανικό;", "sideA": "Εξαιρετικός", "sideB": "Συνηθισμένη αξιοπρέπεια", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η υποχρέωση φροντίδας των ηλικιωμένων γονέων εναντίον της ευθύνης του κράτους — πού πρέπει να πέφτει το βάρος;", "sideA": "Οικογενειακή υποχρέωση", "sideB": "Κρατική ευθύνη", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η ριζική ειλικρίνεια στις σχέσεις εναντίον της στρατηγικής σιωπής — ποια είναι η πιο ηθική προσέγγιση στην οικειότητα;", "sideA": "Ριζική ειλικρίνεια", "sideB": "Στρατηγική σιωπή", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η σκόπιμη επιλογή του κοινωνικού σας κύκλου εναντίον της οργανικής δημιουργίας σχέσεων — τι παράγει πιο αυθεντικές φιλίες ενηλίκων;", "sideA": "Σκόπιμη επιλογή", "sideB": "Οργανική δημιουργία", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η πυρηνική οικογένεια ως η βέλτιστη κοινωνική μονάδα εναντίον ως μια ιστορικά συγκυριακή διευθέτηση — ποια άποψη είναι πιο υπερασπίσιμη;", "sideA": "Βέλτιστη μονάδα", "sideB": "Ιστορική διευθέτηση", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Τεχνοκρατική διακυβέρνηση εναντίον δημοκρατικού λαϊκισμού — τι ενέχει τον μεγαλύτερο μακροπρόθεσμο κίνδυνο για τους ενήλικες πολίτες;", "sideA": "Τεχνοκρατία", "sideB": "Λαϊκισμός", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Διαγενεακή δικαιοσύνη εναντίον τρέχουσας ευημερίας — τι πρέπει να έχει προτεραιότητα στη δημόσια πολιτική;", "sideA": "Διαγενεακή δικαιοσύνη", "sideB": "Τρέχουσα ευημερία", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η υποχρέωση ψήφου εναντίον του δικαιώματος αποχής — ποια είναι η πιο υπερασπίσιμη πολιτική θέση;", "sideA": "Υποχρέωση ψήφου", "sideB": "Δικαίωμα αποχής", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Ο πατριωτισμός ως πολιτική αρετή εναντίον του πατριωτισμού ως γνωστική αποτυχία — ποια εκδοχή είναι πιο πειστική;", "sideA": "Πολιτική αρετή", "sideB": "Γνωστική αποτυχία", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Ο απολυταρχισμός της ελευθερίας του λόγου εναντίον του ρυθμιζόμενου λόγου — τι παράγει καλύτερα αποτελέσματα για τις ενήλικες δημοκρατικές κοινωνίες;", "sideA": "Απολυταρχισμός", "sideB": "Ρυθμιζόμενος λόγος", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Μια καριέρα με νόημα εναντίον μιας δουλειάς που χρηματοδοτεί μια ιδιωτική ζωή με νόημα — ποια είναι η πιο ειλικρινής φιλοδοξία ενήλικα;", "sideA": "Καριέρα με νόημα", "sideB": "Χρηματοδότηση ζωής", "level": "advanced", "theme": "work_culture_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Θρησκεία εναντίον κοσμικής φιλοσοφίας — τι αντιμετωπίζει πιο αποτελεσματικά τις υπαρξιακές ανάγκες των σύγχρονων ενηλίκων;", "sideA": "Θρησκεία", "sideB": "Κοσμική φιλοσοφία", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Η εξετασμένη ζωή εναντίον της απορροφημένης ζωής — ποια αξίζει περισσότερο να τη ζεις και ποιος αποφασίζει;", "sideA": "Εξετασμένη ζωή", "sideB": "Απορροφημένη ζωή", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Κληρονομιά (legacy) εναντίον παρουσίας — ποιο είναι πιο συνεκτικό πράγμα για να επιδιώκει ένας ενήλικας;", "sideA": "Κληρονομιά", "sideB": "Παρουσία", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Ο ενήλικας που «επιτέλους το κατάλαβε» εναντίον του ενήλικα που έχει αποδεχτεί ότι δεν θα το καταλάβει ποτέ — ποιος έχει μεγαλύτερη αυτογνωσία;", "sideA": "Το κατάλαβε", "sideB": "Αποδέχτηκε την άγνοια", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Να τα λέτε όλα στον θεραπευτή σας εναντίον του να τα λέτε όλα στον κομμωτή σας — ποια επαγγελματική σχέση είναι πιο θεραπευτικά αποτελεσματική;", "sideA": "Θεραπευτής", "sideB": "Κομμωτής", "level": "advanced", "theme": "psychological_concepts_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Το άγχος της Κυριακής ενός ενήλικα με πλήρες πρόγραμμα εναντίον του άγχους ενός ενήλικα με άδειο πρόγραμμα — τι είναι πιο υπαρξιακά ανησυχητικό;", "sideA": "Πλήρες πρόγραμμα", "sideB": "Άδειο πρόγραμμα", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Υπερβολική σκέψη για κάθε σημαντική απόφαση ζωής εναντίον λήψης τους παρορμητικά — ποια στρατηγική έχει καλύτερο εμπειρικό ιστορικό;", "sideA": "Υπερβολική σκέψη", "sideB": "Παρορμητικότητα", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
+            {"topic": "Ενήλικες που διαβάζουν βιβλία αυτοβελτίωσης εναντίον ενηλίκων που αρνούνται να το κάνουν — ποια ομάδα είναι πιο δύσκολη στη συζήτηση σε ένα δείπνο;", "sideA": "Αναγνώστες αυτοβελτίωσης", "sideB": "Αρνούνται", "level": "advanced", "theme": "power_institutions_C1", "ideasA": [], "ideasB": []},
 
-            {"topic": "Υψηλός μισθός εναντίον σύντομης διαδρομής — τι έχει μεγαλύτερη σημασία σε μια δουλειά;", "sideA": "Υψηλός μισθός", "sideB": "Σύντομη διαδρομή", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Συχνή αλλαγή εργασίας εναντίον παραμονής στην ίδια εταιρεία — τι είναι καλύτερο για την καριέρα σας;", "sideA": "Αλλαγή εργασίας", "sideB": "Παραμονή", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Εργασία υπερωριών εναντίον αποχώρησης στην ώρα σας κάθε μέρα — ποια είναι η καλύτερη συνήθεια;", "sideA": "Υπερωρίες", "sideB": "Στην ώρα μου", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ένα αφεντικό που είναι αυστηρό εναντίον ενός αφεντικού που είναι χαλαρό — για ποιον είναι καλύτερο να εργάζεστε;", "sideA": "Αυστηρό αφεντικό", "sideB": "Χαλαρό αφεντικό", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Εργασία σε μια μεγάλη εταιρεία εναντίον μιας μικρής εταιρείας — τι είναι καλύτερο;", "sideA": "Μεγάλη εταιρεία", "sideB": "Μικρή εταιρεία", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Απόκτηση προαγωγής εναντίον απόκτησης περισσότερου ελεύθερου χρόνου — τι θα επιλέγατε;", "sideA": "Προαγωγή", "sideB": "Ελεύθερος χρόνος", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Αγορά σπιτιού εναντίον ενοικίασης για μια ζωή — ποια είναι η πιο έξυπνη οικονομική απόφαση;", "sideA": "Αγορά", "sideB": "Ενοικίαση", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Ζωή στο κέντρο της πόλης εναντίον ζωής στα προάστια — τι είναι καλύτερο;", "sideA": "Κέντρο πόλης", "sideB": "Προάστια", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Δαπάνη χρημάτων σε εμπειρίες εναντίον σε πράγματα — τι σας κάνει πιο ευτυχισμένους;", "sideA": "Εμπειρίες", "sideB": "Πράγματα", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Μαγειρική κάθε μέρα εναντίον προετοιμασίας γευμάτων μία φορά την εβδομάδα — τι είναι πιο πρακτικό;", "sideA": "Καθημερινή μαγειρική", "sideB": "Meal prepping", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Ύπαρξη καθαριστή εναντίον προσωπικής ενασχόλησης με τις δουλειές του σπιτιού — ποια είναι η καλύτερη επιλογή;", "sideA": "Καθαριστής", "sideB": "Προσωπικά", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Ζωή με σύντροφο εναντίον ζωής μόνος — τι είναι καλύτερο για τους ενήλικες;", "sideA": "Με σύντροφο", "sideB": "Μόνος", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Απόκτηση παιδιών νωρίς εναντίον απόκτησης παιδιών αργότερα στη ζωή — τι είναι καλύτερο;", "sideA": "Νωρίς", "sideB": "Αργότερα", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Στενές οικογενειακές σχέσεις εναντίον ανεξαρτησίας από την οικογένεια — τι είναι πιο σημαντικό ως ενήλικας;", "sideA": "Στενές σχέσεις", "sideB": "Ανεξαρτησία", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Γνωριμία με νέους ανθρώπους εναντίον διατήρησης παλιών φιλιών — τι είναι πιο πολύτιμο;", "sideA": "Νέοι άνθρωποι", "sideB": "Παλιοί φίλοι", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Κοινωνικοποίηση μετά τη δουλειά εναντίον επιστροφής κατευθείαν στο σπίτι — τι είναι καλύτερο για τις εργασιακές σχέσεις;", "sideA": "Κοινωνικοποίηση", "sideB": "Σπίτι", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Πηγαίνοντας στο γυμναστήριο εναντίον άσκησης σε εξωτερικούς χώρους — τι είναι καλύτερο για τους ενήλικες;", "sideA": "Γυμναστήριο", "sideB": "Έξω", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Αυστηρή δίαιτα εναντίον κατανάλωσης των πάντων με μέτρο — τι είναι πιο υγιεινό;", "sideA": "Αυστηρή δίαιτα", "sideB": "Μέτρο", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Επίσκεψη σε γιατρό νωρίς εναντίον αναμονής για να δείτε αν θα γίνετε καλύτερα — τι είναι πιο συνετό;", "sideA": "Νωρίς", "sideB": "Αναμονή", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Ύπνος οκτώ ωρών εναντίον ύπνου έξι ωρών αλλά με άσκηση — τι είναι καλύτερο για ενέργεια;", "sideA": "8 ώρες", "sideB": "6 ώρες + άσκηση", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Μείωση του στρες μέσω του αθλητισμού εναντίον μέσω της χαλάρωσης — τι λειτουργεί καλύτερα;", "sideA": "Αθλητισμός", "sideB": "Χαλάρωση", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Smartphones εναντίον συνομιλίας πρόσωπο με πρόσωπο — τι χρησιμοποιούμε περισσότερο και είναι αυτό πρόβλημα;", "sideA": "Smartphones", "sideB": "Πρόσωπο με πρόσωπο", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Online banking εναντίον επίσκεψης στην τράπεζα — τι είναι καλύτερο;", "sideA": "Online", "sideB": "Στην τράπεζα", "level": "elementary", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Εργασία με χαρτί εναντίον ψηφιακής εργασίας — τι είναι πιο αποτελεσματικό;", "sideA": "Χαρτί", "sideB": "Ψηφιακά", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Social media για δικτύωση εναντίον συνάντησης ανθρώπων από κοντά — τι είναι πιο χρήσιμο επαγγελματικά;", "sideA": "Social media", "sideB": "Από κοντά", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Οργανωμένες διακοπές εναντίον ανεξάρτητου ταξιδιού — τι είναι καλύτερο για τους ενήλικες;", "sideA": "Οργανωμένες", "sideB": "Ανεξάρτητα", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Σύντομη απόδραση στην πόλη εναντίον διακοπών στην παραλία — ποιος είναι ο καλύτερος τρόπος για να χαλαρώσετε;", "sideA": "Στην πόλη", "sideB": "Στην παραλία", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Μία μεγάλη διακοπή το χρόνο εναντίον αρκετών μικρών αποδράσεων — τι είναι καλύτερο;", "sideA": "Μία μεγάλη", "sideB": "Πολλές μικρές", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Ταξιδεύοντας ως ζευγάρι εναντίον ταξιδεύοντας μόνος — τι είναι πιο απολαυστικό;", "sideA": "Ως ζευγάρι", "sideB": "Μόνος", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Το να λέτε στον σύντροφό σας για κάθε μικρό πρόβλημα εναντίον του να κρατάτε τα πράγματα για τον εαυτό σας — τι είναι πιο υγιές;", "sideA": "Να τα λέτε όλα", "sideB": "Να τα κρατάτε", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Έλεγχος του τηλεφώνου σας αμέσως το πρωί εναντίον αναμονής μέχρι μετά το πρωινό — ποια είναι η καλύτερη συνήθεια;", "sideA": "Αμέσως", "sideB": "Μετά το πρωινό", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Το να γνωρίζετε τα ονόματα των γειτόνων σας εναντίον του να μην τους γνωρίζετε — ποια είναι η πιο φυσιολογική εμπειρία ενήλικα σήμερα;", "sideA": "Να γνωρίζετε", "sideB": "Να μην γνωρίζετε", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ψώνια στο σούπερ μάρκετ με λίστα εναντίον χωρίς λίστα — ποιος τύπος ανθρώπου έχει καλύτερη ζωή;", "sideA": "Με λίστα", "sideB": "Χωρίς λίστα", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Το να λέτε στο αφεντικό σας ότι είστε άρρωστοι εναντίον του να πηγαίνετε στη δουλειά άρρωστοι — ποια είναι η πιο γενναία επιλογή;", "sideA": "Να το λέτε", "sideB": "Να πηγαίνετε", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Εξ αποστάσεως εργασία εναντίον εργασίας στο γραφείο — τι είναι καλύτερο για την παραγωγικότητα και την ευημερία;", "sideA": "Εξ αποστάσεως", "sideB": "Γραφείο", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Εργασιακή ασφάλεια εναντίον επαγγελματικής ανέλιξης — σε τι πρέπει να δίνουν προτεραιότητα οι ενήλικες;", "sideA": "Ασφάλεια", "sideB": "Ανέλιξη", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Έναρξη δικής σας επιχείρησης εναντίον εργασίας για έναν εργοδότη — ποια είναι η καλύτερη επιλογή στα 30;", "sideA": "Δική μου επιχείρηση", "sideB": "Εργοδότης", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Φιλοδοξία εναντίον ισορροπίας μεταξύ επαγγελματικής και προσωπικής ζωής — μπορείτε πραγματικά να έχετε και τα δύο;", "sideA": "Φιλοδοξία", "sideB": "Ισορροπία", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Δικτύωση εναντίον οικοδόμησης δεξιοτήτων — τι προωθεί περισσότερο την καριέρα σας;", "sideA": "Δικτύωση", "sideB": "Δεξιότητες", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ειλικρινής ανατροφοδότηση από έναν διευθυντή εναντίον της ανεξάρτητης εργασίας — τι παρακινεί περισσότερο τους ενήλικες;", "sideA": "Ανατροφοδότηση", "sideB": "Ανεξαρτησία", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Αλλαγή καριέρας στα 40 εναντίον παραμονής στον τομέα σας — ποια είναι η πιο συνετή απόφαση;", "sideA": "Αλλαγή καριέρας", "sideB": "Παραμονή", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Πρόωρη εξόφληση στεγαστικού δανείου εναντίον επένδυσης αυτών των χρημάτων — τι είναι πιο έξυπνο;", "sideA": "Εξόφληση", "sideB": "Επένδυση", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Ιδιοκτησία σπιτιού εναντίον μόνιμης ενοικίασης — τι ταιριάζει καλύτερα στη σύγχρονη ενήλικη ζωή;", "sideA": "Ιδιοκτησία", "sideB": "Ενοικίαση", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Αποταμίευση για συνταξιοδότηση νωρίς εναντίον απόλαυσης χρημάτων στα τριάντα σας — τι είναι πιο συνετό;", "sideA": "Αποταμίευση νωρίς", "sideB": "Απόλαυση τώρα", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Ζωή κάτω από τις δυνατότητές σας εναντίον δαπανών για να απολαύσετε τη ζωή τώρα — ποια προσέγγιση είναι πιο υγιής;", "sideA": "Κάτω από δυνατότητες", "sideB": "Απόλαυση τώρα", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Δύο εισοδήματα σε ένα νοικοκυριό εναντίον ενός συντρόφου που μένει στο σπίτι — τι λειτουργεί καλύτερα για τις οικογένειες;", "sideA": "Δύο εισοδήματα", "sideB": "Ένας στο σπίτι", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Απόκτηση παιδιών εναντίον επιλογής να μην αποκτήσετε — ποια είναι μια πιο γεμάτη ενήλικη ζωή;", "sideA": "Απόκτηση παιδιών", "sideB": "Χωρίς παιδιά", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Αυστηρή ανατροφή εναντίον ανεκτικής ανατροφής — τι παράγει πιο ευτυχισμένους ενήλικες;", "sideA": "Αυστηρή", "sideB": "Ανεκτική", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Μακροχρόνια σχέση εναντίον παραμονής ελεύθερου — τι είναι καλύτερο για την προσωπική ανάπτυξη;", "sideA": "Σχέση", "sideB": "Ελεύθερος", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Διατήρηση της επαγγελματικής και της προσωπικής ζωής χωριστά εναντίον ενσωμάτωσής τους — τι είναι πιο υγιές;", "sideA": "Χωριστά", "sideB": "Ενσωμάτωση", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Μετακόμιση στο εξωτερικό ως ζευγάρι εναντίον παραμονής κοντά στην οικογένεια — ποια είναι η σωστή απόφαση;", "sideA": "Εξωτερικό", "sideB": "Κοντά στην οικογένεια", "level": "intermediate", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Προτεραιότητα στη σωματική υγεία εναντίον της ψυχικής υγείας — σε τι πρέπει να εστιάσουν πρώτα οι ενήλικες;", "sideA": "Σωματική", "sideB": "Ψυχική", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Ιδιωτική υγειονομική περίθαλψη εναντίον εξάρτησης από το δημόσιο σύστημα — ποια είναι η καλύτερη στρατηγική για έναν ενήλικα;", "sideA": "Ιδιωτική", "sideB": "Δημόσια", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Τακτικοί ιατρικοί έλεγχοι εναντίον επίσκεψης μόνο όταν είστε άρρωστοι — ποια είναι η πιο έξυπνη προσέγγιση;", "sideA": "Τακτικοί έλεγχοι", "sideB": "Μόνο αν άρρωστος", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Μείωση του αλκοόλ εναντίον μείωσης του στρες — τι έχει μεγαλύτερο αντίκτυπο στην υγεία των ενηλίκων;", "sideA": "Μείωση αλκοόλ", "sideB": "Μείωση στρες", "level": "intermediate", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Ατομική ελευθερία εναντίον κοινοτικής ευθύνης — τι πρέπει να καθοδηγεί τις αποφάσεις των ενηλίκων;", "sideA": "Ελευθερία", "sideB": "Ευθύνη", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Αισιοδοξία για το μέλλον εναντίον ρεαλισμού — ποια είναι η πιο χρήσιμη στάση για τους ενήλικες;", "sideA": "Αισιοδοξία", "sideB": "Ρεαλισμός", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Αλλαγή του κόσμου εναντίον οικοδόμησης μιας σταθερής προσωπικής ζωής — ποια είναι η πιο ειλικρινής φιλοδοξία;", "sideA": "Αλλαγή κόσμου", "sideB": "Σταθερή ζωή", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Προσφορά του χρόνου σας για εθελοντισμό εναντίον δωρεάς χρημάτων — τι κάνει περισσότερο καλό;", "sideA": "Εθελοντισμός", "sideB": "Δωρεά χρημάτων", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ακολουθώντας τις αξίες της γενιάς σας εναντίον της αμφισβήτησής τους — τι είναι πιο αξιοθαύμαστο;", "sideA": "Ακολούθηση", "sideB": "Αμφισβήτηση", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Το να γνωρίζετε πόσα κερδίζουν οι συνάδελφοί σας εναντίον του να μην γνωρίζετε — τι είναι καλύτερο για την αρμονία στο γραφείο;", "sideA": "Να γνωρίζω", "sideB": "Να μην γνωρίζω", "level": "intermediate", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Απάντηση στα μηνύματα αμέσως εναντίον του να παίρνετε το χρόνο σας — τι είναι πιο σεβαστό στην ενήλικη ζωή;", "sideA": "Αμέσως", "sideB": "Με το πάσο μου", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Το να παραδέχεστε ότι δεν έχετε ιδέα τι είναι ένα συνταξιοδοτικό ταμείο εναντίον του να προσποιείστε ότι ξέρετε — ποια είναι η πιο οικεία εμπειρία ενήλικα;", "sideA": "Παραδοχή", "sideB": "Προσποίηση", "level": "intermediate", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Ακύρωση σχεδίων την τελευταία στιγμή εναντίον του να βγαίνετε έξω όταν δεν το θέλετε — ποια είναι η χειρότερη συνήθεια ενήλικα;", "sideA": "Ακύρωση", "sideB": "Έξοδος", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Το να μιλάτε ανοιχτά για χρήματα με φίλους εναντίον του να τα κρατάτε ιδιωτικά — ποια είναι η πιο ώριμη προσέγγιση;", "sideA": "Ανοιχτά", "sideB": "Ιδιωτικά", "level": "intermediate", "theme": "people_society", "ideasA": [], "ideasB": []},
+            {"topic": "Υψηλός μισθός εναντίον σύντομης διαδρομής — τι έχει μεγαλύτερη σημασία σε μια δουλειά;", "sideA": "Υψηλός μισθός", "sideB": "Σύντομη διαδρομή", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Συχνή αλλαγή εργασίας εναντίον παραμονής στην ίδια εταιρεία — τι είναι καλύτερο για την καριέρα σας;", "sideA": "Αλλαγή εργασίας", "sideB": "Παραμονή", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Εργασία υπερωριών εναντίον αποχώρησης στην ώρα σας κάθε μέρα — ποια είναι η καλύτερη συνήθεια;", "sideA": "Υπερωρίες", "sideB": "Στην ώρα μου", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ένα αφεντικό που είναι αυστηρό εναντίον ενός αφεντικού που είναι χαλαρό — για ποιον είναι καλύτερο να εργάζεστε;", "sideA": "Αυστηρό αφεντικό", "sideB": "Χαλαρό αφεντικό", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Εργασία σε μια μεγάλη εταιρεία εναντίον μιας μικρής εταιρείας — τι είναι καλύτερο;", "sideA": "Μεγάλη εταιρεία", "sideB": "Μικρή εταιρεία", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Απόκτηση προαγωγής εναντίον απόκτησης περισσότερου ελεύθερου χρόνου — τι θα επιλέγατε;", "sideA": "Προαγωγή", "sideB": "Ελεύθερος χρόνος", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Αγορά σπιτιού εναντίον ενοικίασης για μια ζωή — ποια είναι η πιο έξυπνη οικονομική απόφαση;", "sideA": "Αγορά", "sideB": "Ενοικίαση", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ζωή στο κέντρο της πόλης εναντίον ζωής στα προάστια — τι είναι καλύτερο;", "sideA": "Κέντρο πόλης", "sideB": "Προάστια", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Δαπάνη χρημάτων σε εμπειρίες εναντίον σε πράγματα — τι σας κάνει πιο ευτυχισμένους;", "sideA": "Εμπειρίες", "sideB": "Πράγματα", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Μαγειρική κάθε μέρα εναντίον προετοιμασίας γευμάτων μία φορά την εβδομάδα — τι είναι πιο πρακτικό;", "sideA": "Καθημερινή μαγειρική", "sideB": "Meal prepping", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ύπαρξη καθαριστή εναντίον προσωπικής ενασχόλησης με τις δουλειές του σπιτιού — ποια είναι η καλύτερη επιλογή;", "sideA": "Καθαριστής", "sideB": "Προσωπικά", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ζωή με σύντροφο εναντίον ζωής μόνος — τι είναι καλύτερο για τους ενήλικες;", "sideA": "Με σύντροφο", "sideB": "Μόνος", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Απόκτηση παιδιών νωρίς εναντίον απόκτησης παιδιών αργότερα στη ζωή — τι είναι καλύτερο;", "sideA": "Νωρίς", "sideB": "Αργότερα", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Στενές οικογενειακές σχέσεις εναντίον ανεξαρτησίας από την οικογένεια — τι είναι πιο σημαντικό ως ενήλικας;", "sideA": "Στενές σχέσεις", "sideB": "Ανεξαρτησία", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Γνωριμία με νέους ανθρώπους εναντίον διατήρησης παλιών φιλιών — τι είναι πιο πολύτιμο;", "sideA": "Νέοι άνθρωποι", "sideB": "Παλιοί φίλοι", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Κοινωνικοποίηση μετά τη δουλειά εναντίον επιστροφής κατευθείαν στο σπίτι — τι είναι καλύτερο για τις εργασιακές σχέσεις;", "sideA": "Κοινωνικοποίηση", "sideB": "Σπίτι", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Πηγαίνοντας στο γυμναστήριο εναντίον άσκησης σε εξωτερικούς χώρους — τι είναι καλύτερο για τους ενήλικες;", "sideA": "Γυμναστήριο", "sideB": "Έξω", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Αυστηρή δίαιτα εναντίον κατανάλωσης των πάντων με μέτρο — τι είναι πιο υγιεινό;", "sideA": "Αυστηρή δίαιτα", "sideB": "Μέτρο", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Επίσκεψη σε γιατρό νωρίς εναντίον αναμονής για να δείτε αν θα γίνετε καλύτερα — τι είναι πιο συνετό;", "sideA": "Νωρίς", "sideB": "Αναμονή", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ύπνος οκτώ ωρών εναντίον ύπνου έξι ωρών αλλά με άσκηση — τι είναι καλύτερο για ενέργεια;", "sideA": "8 ώρες", "sideB": "6 ώρες + άσκηση", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Μείωση του στρες μέσω του αθλητισμού εναντίον μέσω της χαλάρωσης — τι λειτουργεί καλύτερα;", "sideA": "Αθλητισμός", "sideB": "Χαλάρωση", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Smartphones εναντίον συνομιλίας πρόσωπο με πρόσωπο — τι χρησιμοποιούμε περισσότερο και είναι αυτό πρόβλημα;", "sideA": "Smartphones", "sideB": "Πρόσωπο με πρόσωπο", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Online banking εναντίον επίσκεψης στην τράπεζα — τι είναι καλύτερο;", "sideA": "Online", "sideB": "Στην τράπεζα", "level": "elementary", "theme": "technology_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Εργασία με χαρτί εναντίον ψηφιακής εργασίας — τι είναι πιο αποτελεσματικό;", "sideA": "Χαρτί", "sideB": "Ψηφιακά", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Social media για δικτύωση εναντίον συνάντησης ανθρώπων από κοντά — τι είναι πιο χρήσιμο επαγγελματικά;", "sideA": "Social media", "sideB": "Από κοντά", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Οργανωμένες διακοπές εναντίον ανεξάρτητου ταξιδιού — τι είναι καλύτερο για τους ενήλικες;", "sideA": "Οργανωμένες", "sideB": "Ανεξάρτητα", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Σύντομη απόδραση στην πόλη εναντίον διακοπών στην παραλία — ποιος είναι ο καλύτερος τρόπος για να χαλαρώσετε;", "sideA": "Στην πόλη", "sideB": "Στην παραλία", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Μία μεγάλη διακοπή το χρόνο εναντίον αρκετών μικρών αποδράσεων — τι είναι καλύτερο;", "sideA": "Μία μεγάλη", "sideB": "Πολλές μικρές", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ταξιδεύοντας ως ζευγάρι εναντίον ταξιδεύοντας μόνος — τι είναι πιο απολαυστικό;", "sideA": "Ως ζευγάρι", "sideB": "Μόνος", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Το να λέτε στον σύντροφό σας για κάθε μικρό πρόβλημα εναντίον του να κρατάτε τα πράγματα για τον εαυτό σας — τι είναι πιο υγιές;", "sideA": "Να τα λέτε όλα", "sideB": "Να τα κρατάτε", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Έλεγχος του τηλεφώνου σας αμέσως το πρωί εναντίον αναμονής μέχρι μετά το πρωινό — ποια είναι η καλύτερη συνήθεια;", "sideA": "Αμέσως", "sideB": "Μετά το πρωινό", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Το να γνωρίζετε τα ονόματα των γειτόνων σας εναντίον του να μην τους γνωρίζετε — ποια είναι η πιο φυσιολογική εμπειρία ενήλικα σήμερα;", "sideA": "Να γνωρίζετε", "sideB": "Να μην γνωρίζετε", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ψώνια στο σούπερ μάρκετ με λίστα εναντίον χωρίς λίστα — ποιος τύπος ανθρώπου έχει καλύτερη ζωή;", "sideA": "Με λίστα", "sideB": "Χωρίς λίστα", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Το να λέτε στο αφεντικό σας ότι είστε άρρωστοι εναντίον του να πηγαίνετε στη δουλειά άρρωστοι — ποια είναι η πιο γενναία επιλογή;", "sideA": "Να το λέτε", "sideB": "Να πηγαίνετε", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Εξ αποστάσεως εργασία εναντίον εργασίας στο γραφείο — τι είναι καλύτερο για την παραγωγικότητα και την ευημερία;", "sideA": "Εξ αποστάσεως", "sideB": "Γραφείο", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Εργασιακή ασφάλεια εναντίον επαγγελματικής ανέλιξης — σε τι πρέπει να δίνουν προτεραιότητα οι ενήλικες;", "sideA": "Ασφάλεια", "sideB": "Ανέλιξη", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Έναρξη δικής σας επιχείρησης εναντίον εργασίας για έναν εργοδότη — ποια είναι η καλύτερη επιλογή στα 30;", "sideA": "Δική μου επιχείρηση", "sideB": "Εργοδότης", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Φιλοδοξία εναντίον ισορροπίας μεταξύ επαγγελματικής και προσωπικής ζωής — μπορείτε πραγματικά να έχετε και τα δύο;", "sideA": "Φιλοδοξία", "sideB": "Ισορροπία", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Δικτύωση εναντίον οικοδόμησης δεξιοτήτων — τι προωθεί περισσότερο την καριέρα σας;", "sideA": "Δικτύωση", "sideB": "Δεξιότητες", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ειλικρινής ανατροφοδότηση από έναν διευθυντή εναντίον της ανεξάρτητης εργασίας — τι παρακινεί περισσότερο τους ενήλικες;", "sideA": "Ανατροφοδότηση", "sideB": "Ανεξαρτησία", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Αλλαγή καριέρας στα 40 εναντίον παραμονής στον τομέα σας — ποια είναι η πιο συνετή απόφαση;", "sideA": "Αλλαγή καριέρας", "sideB": "Παραμονή", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Πρόωρη εξόφληση στεγαστικού δανείου εναντίον επένδυσης αυτών των χρημάτων — τι είναι πιο έξυπνο;", "sideA": "Εξόφληση", "sideB": "Επένδυση", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ιδιοκτησία σπιτιού εναντίον μόνιμης ενοικίασης — τι ταιριάζει καλύτερα στη σύγχρονη ενήλικη ζωή;", "sideA": "Ιδιοκτησία", "sideB": "Ενοικίαση", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Αποταμίευση για συνταξιοδότηση νωρίς εναντίον απόλαυσης χρημάτων στα τριάντα σας — τι είναι πιο συνετό;", "sideA": "Αποταμίευση νωρίς", "sideB": "Απόλαυση τώρα", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ζωή κάτω από τις δυνατότητές σας εναντίον δαπανών για να απολαύσετε τη ζωή τώρα — ποια προσέγγιση είναι πιο υγιής;", "sideA": "Κάτω από δυνατότητες", "sideB": "Απόλαυση τώρα", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Δύο εισοδήματα σε ένα νοικοκυριό εναντίον ενός συντρόφου που μένει στο σπίτι — τι λειτουργεί καλύτερα για τις οικογένειες;", "sideA": "Δύο εισοδήματα", "sideB": "Ένας στο σπίτι", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Απόκτηση παιδιών εναντίον επιλογής να μην αποκτήσετε — ποια είναι μια πιο γεμάτη ενήλικη ζωή;", "sideA": "Απόκτηση παιδιών", "sideB": "Χωρίς παιδιά", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Αυστηρή ανατροφή εναντίον ανεκτικής ανατροφής — τι παράγει πιο ευτυχισμένους ενήλικες;", "sideA": "Αυστηρή", "sideB": "Ανεκτική", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Μακροχρόνια σχέση εναντίον παραμονής ελεύθερου — τι είναι καλύτερο για την προσωπική ανάπτυξη;", "sideA": "Σχέση", "sideB": "Ελεύθερος", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Διατήρηση της επαγγελματικής και της προσωπικής ζωής χωριστά εναντίον ενσωμάτωσής τους — τι είναι πιο υγιές;", "sideA": "Χωριστά", "sideB": "Ενσωμάτωση", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Μετακόμιση στο εξωτερικό ως ζευγάρι εναντίον παραμονής κοντά στην οικογένεια — ποια είναι η σωστή απόφαση;", "sideA": "Εξωτερικό", "sideB": "Κοντά στην οικογένεια", "level": "intermediate", "theme": "travel_cultural_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Προτεραιότητα στη σωματική υγεία εναντίον της ψυχικής υγείας — σε τι πρέπει να εστιάσουν πρώτα οι ενήλικες;", "sideA": "Σωματική", "sideB": "Ψυχική", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ιδιωτική υγειονομική περίθαλψη εναντίον εξάρτησης από το δημόσιο σύστημα — ποια είναι η καλύτερη στρατηγική για έναν ενήλικα;", "sideA": "Ιδιωτική", "sideB": "Δημόσια", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Τακτικοί ιατρικοί έλεγχοι εναντίον επίσκεψης μόνο όταν είστε άρρωστοι — ποια είναι η πιο έξυπνη προσέγγιση;", "sideA": "Τακτικοί έλεγχοι", "sideB": "Μόνο αν άρρωστος", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Μείωση του αλκοόλ εναντίον μείωσης του στρες — τι έχει μεγαλύτερο αντίκτυπο στην υγεία των ενηλίκων;", "sideA": "Μείωση αλκοόλ", "sideB": "Μείωση στρες", "level": "intermediate", "theme": "mental_health_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ατομική ελευθερία εναντίον κοινοτικής ευθύνης — τι πρέπει να καθοδηγεί τις αποφάσεις των ενηλίκων;", "sideA": "Ελευθερία", "sideB": "Ευθύνη", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Αισιοδοξία για το μέλλον εναντίον ρεαλισμού — ποια είναι η πιο χρήσιμη στάση για τους ενήλικες;", "sideA": "Αισιοδοξία", "sideB": "Ρεαλισμός", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Αλλαγή του κόσμου εναντίον οικοδόμησης μιας σταθερής προσωπικής ζωής — ποια είναι η πιο ειλικρινής φιλοδοξία;", "sideA": "Αλλαγή κόσμου", "sideB": "Σταθερή ζωή", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Προσφορά του χρόνου σας για εθελοντισμό εναντίον δωρεάς χρημάτων — τι κάνει περισσότερο καλό;", "sideA": "Εθελοντισμός", "sideB": "Δωρεά χρημάτων", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ακολουθώντας τις αξίες της γενιάς σας εναντίον της αμφισβήτησής τους — τι είναι πιο αξιοθαύμαστο;", "sideA": "Ακολούθηση", "sideB": "Αμφισβήτηση", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Το να γνωρίζετε πόσα κερδίζουν οι συνάδελφοί σας εναντίον του να μην γνωρίζετε — τι είναι καλύτερο για την αρμονία στο γραφείο;", "sideA": "Να γνωρίζω", "sideB": "Να μην γνωρίζω", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Απάντηση στα μηνύματα αμέσως εναντίον του να παίρνετε το χρόνο σας — τι είναι πιο σεβαστό στην ενήλικη ζωή;", "sideA": "Αμέσως", "sideB": "Με το πάσο μου", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Το να παραδέχεστε ότι δεν έχετε ιδέα τι είναι ένα συνταξιοδοτικό ταμείο εναντίον του να προσποιείστε ότι ξέρετε — ποια είναι η πιο οικεία εμπειρία ενήλικα;", "sideA": "Παραδοχή", "sideB": "Προσποίηση", "level": "intermediate", "theme": "housing_mortgages_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Ακύρωση σχεδίων την τελευταία στιγμή εναντίον του να βγαίνετε έξω όταν δεν το θέλετε — ποια είναι η χειρότερη συνήθεια ενήλικα;", "sideA": "Ακύρωση", "sideB": "Έξοδος", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
+            {"topic": "Το να μιλάτε ανοιχτά για χρήματα με φίλους εναντίον του να τα κρατάτε ιδιωτικά — ποια είναι η πιο ώριμη προσέγγιση;", "sideA": "Ανοιχτά", "sideB": "Ιδιωτικά", "level": "intermediate", "theme": "society_community_B1", "ideasA": [], "ideasB": []},
 
-            {"topic": "Καφές εναντίον τσαγιού — ποιο είναι το καλύτερο πρωινό ρόφημα;", "sideA": "Καφές", "sideB": "Τσάι", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Εστιατόριο εναντίον σπιτικού φαγητού — τι είναι καλύτερο;", "sideA": "Εστιατόριο", "sideB": "Σπιτικό φαγητό", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Πρωινό εναντίον καθόλου πρωινού — τι είναι καλύτερο για εσάς;", "sideA": "Πρωινό", "sideB": "Καθόλου", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Νερό εναντίον χυμού — τι είναι πιο υγιεινό;", "sideA": "Νερό", "sideB": "Χυμός", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Κρέας εναντίον λαχανικών — τι είναι πιο σημαντικό σε ένα γεύμα;", "sideA": "Κρέας", "sideB": "Λαχανικά", "level": "starter", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Σπίτι εναντίον διαμερίσματος — πού είναι καλύτερα να ζεις;", "sideA": "Σπίτι", "sideB": "Διαμέρισμα", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Πόλη εναντίον χωριού — ποιο είναι το καλύτερο μέρος για να ζεις;", "sideA": "Πόλη", "sideB": "Χωριό", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Καφές εναντίον τσαγιού — ποιο είναι το καλύτερο πρωινό ρόφημα;", "sideA": "Καφές", "sideB": "Τσάι", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Εστιατόριο εναντίον σπιτικού φαγητού — τι είναι καλύτερο;", "sideA": "Εστιατόριο", "sideB": "Σπιτικό φαγητό", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Πρωινό εναντίον καθόλου πρωινού — τι είναι καλύτερο για εσάς;", "sideA": "Πρωινό", "sideB": "Καθόλου", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Νερό εναντίον χυμού — τι είναι πιο υγιεινό;", "sideA": "Νερό", "sideB": "Χυμός", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Κρέας εναντίον λαχανικών — τι είναι πιο σημαντικό σε ένα γεύμα;", "sideA": "Κρέας", "sideB": "Λαχανικά", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Σπίτι εναντίον διαμερίσματος — πού είναι καλύτερα να ζεις;", "sideA": "Σπίτι", "sideB": "Διαμέρισμα", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Πόλη εναντίον χωριού — ποιο είναι το καλύτερο μέρος για να ζεις;", "sideA": "Πόλη", "sideB": "Χωριό", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Μετρητά εναντίον κάρτας — με τι είναι καλύτερο να πληρώνεις;", "sideA": "Μετρητά", "sideB": "Κάρτα", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Αποταμίευση χρημάτων εναντίον ξοδέματος χρημάτων — τι είναι καλύτερο;", "sideA": "Αποταμίευση", "sideB": "Ξόδεμα", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Ενοικίαση εναντίον αγοράς — τι είναι καλύτερο;", "sideA": "Ενοικίαση", "sideB": "Αγορά", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
             {"topic": "Πρωινή εργασία εναντίον βραδινής εργασίας — τι είναι καλύτερο;", "sideA": "Πρωί", "sideB": "Βράδυ", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Αυτοκίνητο εναντίον λεωφορείου — τι είναι καλύτερο για να πας στη δουλειά;", "sideA": "Αυτοκίνητο", "sideB": "Λεωφορείο", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Περπάτημα εναντίον οδήγησης — τι είναι καλύτερο στην πόλη;", "sideA": "Περπάτημα", "sideB": "Οδήγηση", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
+            {"topic": "Αυτοκίνητο εναντίον λεωφορείου — τι είναι καλύτερο για να πας στη δουλειά;", "sideA": "Αυτοκίνητο", "sideB": "Λεωφορείο", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Περπάτημα εναντίον οδήγησης — τι είναι καλύτερο στην πόλη;", "sideA": "Περπάτημα", "sideB": "Οδήγηση", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Γραφείο εναντίον σπιτιού — ποιο είναι το καλύτερο μέρος για εργασία;", "sideA": "Γραφείο", "sideB": "Σπίτι", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Πρωινός τύπος εναντίον βραδινού τύπου — τι είναι καλύτερο;", "sideA": "Πρωινός", "sideB": "Βραδινός", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Καλοκαίρι εναντίον χειμώνα — ποια εποχή είναι καλύτερη;", "sideA": "Καλοκαίρι", "sideB": "Χειμώνας", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Σύντομες διακοπές εναντίον μεγάλων διακοπών — τι είναι καλύτερο;", "sideA": "Σύντομες", "sideB": "Μεγάλες", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Τηλεφώνημα εναντίον μηνύματος — τι είναι καλύτερο;", "sideA": "Τηλεφώνημα", "sideB": "Μήνυμα", "level": "starter", "theme": "science_technology", "ideasA": [], "ideasB": []},
-            {"topic": "Ντους το πρωί εναντίον ντους το βράδυ — ποιο είναι το σωστό;", "sideA": "Πρωί", "sideB": "Βράδυ", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Δευτέρα εναντίον Παρασκευής — ποια μέρα είναι καλύτερη;", "sideA": "Δευτέρα", "sideB": "Παρασκευή", "level": "starter", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Πολύ ζέστη εναντίον πολύ κρύου — τι είναι χειρότερο;", "sideA": "Ζέστη", "sideB": "Κρύο", "level": "starter", "theme": "nature_environment", "ideasA": [], "ideasB": []},
-            {"topic": "Θέση στο παράθυρο εναντίον θέση στο διάδρομο — τι είναι καλύτερο στο αεροπλάνο;", "sideA": "Παράθυρο", "sideB": "Διάδρομος", "level": "starter", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Πλήρης απασχόληση εναντίον μερικής απασχόλησης — τι είναι καλύτερο;", "sideA": "Πλήρης", "sideB": "Μερική", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Εργασία σε γραφείο εναντίον εργασίας από το σπίτι — τι προτιμάτε;", "sideA": "Γραφείο", "sideB": "Σπίτι", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Μια δουλειά που αγαπάτε εναντίον μιας δουλειάς που πληρώνει καλά — τι είναι πιο σημαντικό;", "sideA": "Δουλειά που αγαπάτε", "sideB": "Καλή αμοιβή", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Εργασία με άλλους ανθρώπους εναντίον εργασίας μόνος — τι είναι καλύτερο;", "sideA": "Με άλλους", "sideB": "Μόνος", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Μια σύντομη διαδρομή εναντίον μιας μεγάλης διαδρομής για τη δουλειά — τι είναι πιο αποδεκτό;", "sideA": "Σύντομη", "sideB": "Μεγάλη", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ζωή μόνος εναντίον ζωής με σύντροφο — τι είναι καλύτερο;", "sideA": "Μόνος", "sideB": "Σύντροφος", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Μεγάλη πόλη εναντίον μικρής πόλης — ποιο είναι το καλύτερο μέρος για να ζεις ως ενήλικας;", "sideA": "Μεγάλη πόλη", "sideB": "Μικρή πόλη", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Μαγειρική στο σπίτι εναντίον φαγητού έξω — τι είναι καλύτερο για την καθημερινή ζωή;", "sideA": "Σπίτι", "sideB": "Έξω", "level": "elementary", "theme": "food_drinks", "ideasA": [], "ideasB": []},
-            {"topic": "Έχοντας παιδιά εναντίον μη έχοντας παιδιά — ποια ζωή είναι καλύτερη;", "sideA": "Παιδιά", "sideB": "Χωρίς παιδιά", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Ενοικίαση διαμερίσματος εναντίον αγοράς σπιτιού — τι είναι καλύτερο για τους νέους ενήλικες;", "sideA": "Ενοικίαση", "sideB": "Αγορά", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Άσκηση κάθε μέρα εναντίον ξεκούρασης — τι είναι καλύτερο για την υγεία σας;", "sideA": "Άσκηση", "sideB": "Ξεκούραση", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Πηγαίνοντας στον γιατρό εναντίον αναμονής — τι είναι καλύτερο όταν νιώθετε άρρωστοι;", "sideA": "Γιατρός", "sideB": "Αναμονή", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Ύπνος οκτώ ώρες εναντίον λιγότερου ύπνου — τι είναι πιο ρεαλιστικό για τους ενήλικες;", "sideA": "8 ώρες", "sideB": "Λιγότερο", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Περπάτημα προς τη δουλειά εναντίον χρήσης αυτοκινήτου — τι είναι καλύτερο για την υγεία σας;", "sideA": "Περπάτημα", "sideB": "Αυτοκίνητο", "level": "elementary", "theme": "health_body", "ideasA": [], "ideasB": []},
-            {"topic": "Online αγορές εναντίον αγορών σε κατάστημα — τι προτιμάτε;", "sideA": "Online", "sideB": "Κατάστημα", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Αποταμίευση για το μέλλον εναντίον απόλαυσης χρημάτων τώρα — τι είναι πιο συνετό;", "sideA": "Αποταμίευση", "sideB": "Απόλαυση τώρα", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ακριβά πράγματα εναντίον φθηνών πραγμάτων — τι έχει την καλύτερη αξία;", "sideA": "Ακριβά", "sideB": "Φθηνά", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Αγορά καινούργιων εναντίον αγοράς μεταχειρισμένων — τι είναι καλύτερο;", "sideA": "Καινούργια", "sideB": "Μεταχειρισμένα", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Παρακολούθηση τηλεόρασης στο σπίτι εναντίον εξόδου — ποιο είναι το καλύτερο βράδυ;", "sideA": "Τηλεόραση", "sideB": "Έξοδος", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Διακοπές με την οικογένεια εναντίον διακοπών με φίλους — τι είναι καλύτερο;", "sideA": "Οικογένεια", "sideB": "Φίλοι", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Παραμονή στη χώρα σας εναντίον ταξιδιού στο εξωτερικό — ποιες είναι οι καλύτερες διακοπές;", "sideA": "Στη χώρα σας", "sideB": "Εξωτερικό", "level": "elementary", "theme": "travel_places", "ideasA": [], "ideasB": []},
-            {"topic": "Αθλητισμός εναντίον ανάγνωσης — ποιο είναι το καλύτερο χόμπι για ενήλικες;", "sideA": "Αθλητισμός", "sideB": "Ανάγνωση", "level": "elementary", "theme": "leisure_hobbies", "ideasA": [], "ideasB": []},
-            {"topic": "Βλέποντας συχνά φίλους εναντίον χρόνου μόνος — τι είναι πιο σημαντικό;", "sideA": "Φίλοι", "sideB": "Χρόνος μόνος", "level": "elementary", "theme": "people_society", "ideasA": [], "ideasB": []},
-            {"topic": "Απάντηση στα μηνύματα αμέσως εναντίον του να τα αφήνετε για αργότερα — τι είναι πιο επαγγελματικό;", "sideA": "Αμέσως", "sideB": "Αργότερα", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Πλύσιμο πιάτων αμέσως εναντίον του να τα αφήνετε μέχρι αύριο — τι είναι καλύτερο;", "sideA": "Αμέσως", "sideB": "Αύριο", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
-            {"topic": "Να είστε πάντα νωρίς εναντίον πάντα πέντε λεπτά αργά — τι είναι χειρότερο στη δουλειά;", "sideA": "Νωρίς", "sideB": "Αργά", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Έχοντας ένα πολύ οργανωμένο γραφείο εναντίον ενός ακατάστατου γραφείου — ποιο άτομο είναι πιο παραγωγικό;", "sideA": "Οργανωμένο", "sideB": "Ακατάστατο", "level": "elementary", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Συζήτηση για τη δουλειά στο δείπνο εναντίον καθόλου συζήτησης για τη δουλειά στο δείπνο — ποιος κανόνας είναι καλύτερος;", "sideA": "Συζήτηση δουλειάς", "sideB": "Καμία συζήτηση", "level": "elementary", "theme": "daily_life", "ideasA": [], "ideasB": []},
+            {"topic": "Πρωινός τύπος εναντίον βραδινού τύπου — τι είναι καλύτερο;", "sideA": "Πρωινός", "sideB": "Βραδινός", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Καλοκαίρι εναντίον χειμώνα — ποια εποχή είναι καλύτερη;", "sideA": "Καλοκαίρι", "sideB": "Χειμώνας", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Σύντομες διακοπές εναντίον μεγάλων διακοπών — τι είναι καλύτερο;", "sideA": "Σύντομες", "sideB": "Μεγάλες", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Τηλεφώνημα εναντίον μηνύματος — τι είναι καλύτερο;", "sideA": "Τηλεφώνημα", "sideB": "Μήνυμα", "level": "starter", "theme": "technology_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Ντους το πρωί εναντίον ντους το βράδυ — ποιο είναι το σωστό;", "sideA": "Πρωί", "sideB": "Βράδυ", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Δευτέρα εναντίον Παρασκευής — ποια μέρα είναι καλύτερη;", "sideA": "Δευτέρα", "sideB": "Παρασκευή", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Πολύ ζέστη εναντίον πολύ κρύου — τι είναι χειρότερο;", "sideA": "Ζέστη", "sideB": "Κρύο", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Θέση στο παράθυρο εναντίον θέση στο διάδρομο — τι είναι καλύτερο στο αεροπλάνο;", "sideA": "Παράθυρο", "sideB": "Διάδρομος", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
+            {"topic": "Πλήρης απασχόληση εναντίον μερικής απασχόλησης — τι είναι καλύτερο;", "sideA": "Πλήρης", "sideB": "Μερική", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Εργασία σε γραφείο εναντίον εργασίας από το σπίτι — τι προτιμάτε;", "sideA": "Γραφείο", "sideB": "Σπίτι", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Μια δουλειά που αγαπάτε εναντίον μιας δουλειάς που πληρώνει καλά — τι είναι πιο σημαντικό;", "sideA": "Δουλειά που αγαπάτε", "sideB": "Καλή αμοιβή", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Εργασία με άλλους ανθρώπους εναντίον εργασίας μόνος — τι είναι καλύτερο;", "sideA": "Με άλλους", "sideB": "Μόνος", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Μια σύντομη διαδρομή εναντίον μιας μεγάλης διαδρομής για τη δουλειά — τι είναι πιο αποδεκτό;", "sideA": "Σύντομη", "sideB": "Μεγάλη", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ζωή μόνος εναντίον ζωής με σύντροφο — τι είναι καλύτερο;", "sideA": "Μόνος", "sideB": "Σύντροφος", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Μεγάλη πόλη εναντίον μικρής πόλης — ποιο είναι το καλύτερο μέρος για να ζεις ως ενήλικας;", "sideA": "Μεγάλη πόλη", "sideB": "Μικρή πόλη", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Μαγειρική στο σπίτι εναντίον φαγητού έξω — τι είναι καλύτερο για την καθημερινή ζωή;", "sideA": "Σπίτι", "sideB": "Έξω", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Έχοντας παιδιά εναντίον μη έχοντας παιδιά — ποια ζωή είναι καλύτερη;", "sideA": "Παιδιά", "sideB": "Χωρίς παιδιά", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ενοικίαση διαμερίσματος εναντίον αγοράς σπιτιού — τι είναι καλύτερο για τους νέους ενήλικες;", "sideA": "Ενοικίαση", "sideB": "Αγορά", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Άσκηση κάθε μέρα εναντίον ξεκούρασης — τι είναι καλύτερο για την υγεία σας;", "sideA": "Άσκηση", "sideB": "Ξεκούραση", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Πηγαίνοντας στον γιατρό εναντίον αναμονής — τι είναι καλύτερο όταν νιώθετε άρρωστοι;", "sideA": "Γιατρός", "sideB": "Αναμονή", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ύπνος οκτώ ώρες εναντίον λιγότερου ύπνου — τι είναι πιο ρεαλιστικό για τους ενήλικες;", "sideA": "8 ώρες", "sideB": "Λιγότερο", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Περπάτημα προς τη δουλειά εναντίον χρήσης αυτοκινήτου — τι είναι καλύτερο για την υγεία σας;", "sideA": "Περπάτημα", "sideB": "Αυτοκίνητο", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Online αγορές εναντίον αγορών σε κατάστημα — τι προτιμάτε;", "sideA": "Online", "sideB": "Κατάστημα", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Αποταμίευση για το μέλλον εναντίον απόλαυσης χρημάτων τώρα — τι είναι πιο συνετό;", "sideA": "Αποταμίευση", "sideB": "Απόλαυση τώρα", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ακριβά πράγματα εναντίον φθηνών πραγμάτων — τι έχει την καλύτερη αξία;", "sideA": "Ακριβά", "sideB": "Φθηνά", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Αγορά καινούργιων εναντίον αγοράς μεταχειρισμένων — τι είναι καλύτερο;", "sideA": "Καινούργια", "sideB": "Μεταχειρισμένα", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Παρακολούθηση τηλεόρασης στο σπίτι εναντίον εξόδου — ποιο είναι το καλύτερο βράδυ;", "sideA": "Τηλεόραση", "sideB": "Έξοδος", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Διακοπές με την οικογένεια εναντίον διακοπών με φίλους — τι είναι καλύτερο;", "sideA": "Οικογένεια", "sideB": "Φίλοι", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Παραμονή στη χώρα σας εναντίον ταξιδιού στο εξωτερικό — ποιες είναι οι καλύτερες διακοπές;", "sideA": "Στη χώρα σας", "sideB": "Εξωτερικό", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Αθλητισμός εναντίον ανάγνωσης — ποιο είναι το καλύτερο χόμπι για ενήλικες;", "sideA": "Αθλητισμός", "sideB": "Ανάγνωση", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Βλέποντας συχνά φίλους εναντίον χρόνου μόνος — τι είναι πιο σημαντικό;", "sideA": "Φίλοι", "sideB": "Χρόνος μόνος", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Απάντηση στα μηνύματα αμέσως εναντίον του να τα αφήνετε για αργότερα — τι είναι πιο επαγγελματικό;", "sideA": "Αμέσως", "sideB": "Αργότερα", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Πλύσιμο πιάτων αμέσως εναντίον του να τα αφήνετε μέχρι αύριο — τι είναι καλύτερο;", "sideA": "Αμέσως", "sideB": "Αύριο", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Να είστε πάντα νωρίς εναντίον πάντα πέντε λεπτά αργά — τι είναι χειρότερο στη δουλειά;", "sideA": "Νωρίς", "sideB": "Αργά", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Έχοντας ένα πολύ οργανωμένο γραφείο εναντίον ενός ακατάστατου γραφείου — ποιο άτομο είναι πιο παραγωγικό;", "sideA": "Οργανωμένο", "sideB": "Ακατάστατο", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Συζήτηση για τη δουλειά στο δείπνο εναντίον καθόλου συζήτησης για τη δουλειά στο δείπνο — ποιος κανόνας είναι καλύτερος;", "sideA": "Συζήτηση δουλειάς", "sideB": "Καμία συζήτηση", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
 
             {
                 "topic": "Γλώσσα: Συστατική έναντι Εκφραστικής",
                 "sideA": "Συστατική",
                 "sideB": "Εκφραστική",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Διαμορφώνει την πραγματικότητα",
                     "Περιορίζει τη σκέψη"
@@ -10118,7 +10118,7 @@ const speakingData = {
                 "sideA": "Ακρίβεια",
                 "sideB": "Ασάφεια",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Σαφήνεια",
                     "Αποτελεσματικότητα"
@@ -10133,7 +10133,7 @@ const speakingData = {
                 "sideA": "Ρητορική",
                 "sideB": "Λογική",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Πειστική δύναμη",
                     "Συναισθηματική έκκληση"
@@ -10148,7 +10148,7 @@ const speakingData = {
                 "sideA": "Κυριολεκτική",
                 "sideB": "Ερμηνευτική",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Πρόθεση συγγραφέα",
                     "Σταθερότητα"
@@ -10163,7 +10163,7 @@ const speakingData = {
                 "sideA": "Συναίνεση",
                 "sideB": "Ταπεινότητα",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Εδραιωμένη γνώση",
                     "Αυθεντία εμπειρογνωμόνων"
@@ -10178,7 +10178,7 @@ const speakingData = {
                 "sideA": "Εμπειρογνωμοσύνη",
                 "sideB": "Βιωμένη Εμπειρία",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Επιστημονική αυστηρότητα",
                     "Αντικειμενικά δεδομένα"
@@ -10193,7 +10193,7 @@ const speakingData = {
                 "sideA": "Αρετή",
                 "sideB": "Παράλυση",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Κριτική σκέψη",
                     "Σκεπτικισμός"
@@ -10208,7 +10208,7 @@ const speakingData = {
                 "sideA": "Αφήγήση",
                 "sideB": "Δεδομένα",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Συναισθηματική επίδραση",
                     "Ανθρώπινη σύνδεση"
@@ -10223,7 +10223,7 @@ const speakingData = {
                 "sideA": "Συναίνεση",
                 "sideB": "Αποτέλεσμα",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Δημοκρατική διαδικασία",
                     "Ηθικό δικαίωμα"
@@ -10238,7 +10238,7 @@ const speakingData = {
                 "sideA": "Εγγυητής",
                 "sideB": "Απειλή",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Κράτος δικαίου",
                     "Προστασία δικαιωμάτων"
@@ -10253,7 +10253,7 @@ const speakingData = {
                 "sideA": "Δικαιώματα",
                 "sideB": "Ευθύνες",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Ατομική ελευθερία",
                     "Νομική προστασία"
@@ -10268,7 +10268,7 @@ const speakingData = {
                 "sideA": "Ουδετερότητα",
                 "sideB": "Με αξίες",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Αμεροληψία",
                     "Δικαιοσύνη"
@@ -10283,7 +10283,7 @@ const speakingData = {
                 "sideA": "Πρόθεση",
                 "sideB": "Υποδοχή",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Όραμα δημιουργού",
                     "Αρχικό πλαίσιο"
@@ -10298,7 +10298,7 @@ const speakingData = {
                 "sideA": "Αισθητική",
                 "sideB": "Ηθική",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Η τέχνη για την τέχνη",
                     "Καθαρή ομορφιά"
@@ -10313,7 +10313,7 @@ const speakingData = {
                 "sideA": "Πρωτοπορία",
                 "sideB": "Προσβασιμότητα",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Διεύρυνση των ορίων",
                     "Πνευματική πρόκληση"
@@ -10328,7 +10328,7 @@ const speakingData = {
                 "sideA": "Θεσμική",
                 "sideB": "Περιθωριακή",
                 "level": "proficiency",
-                "theme": "leisure_hobbies",
+                "theme": "aesthetics_criticism_C2",
                 "ideasA": [
                     "Ιστορική διατήρηση",
                     "Πρότυπα"
@@ -10343,7 +10343,7 @@ const speakingData = {
                 "sideA": "Προληπτική",
                 "sideB": "Προδραστική",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Αποφυγή κινδύνου",
                     "Προτεραιότητα στην ασφάλεια"
@@ -10358,7 +10358,7 @@ const speakingData = {
                 "sideA": "Εγγενώς Καλή",
                 "sideB": "Ηθικά Ουδέτερη",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Αξίες του Διαφωτισμού",
                     "Επίλυση προβλημάτων"
@@ -10373,7 +10373,7 @@ const speakingData = {
                 "sideA": "Υπαρξιακός Κίνδυνος",
                 "sideB": "Τωρινό Υποφέρειν",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Μακροπρόθεσμη επιβίωση",
                     "Μελλοντικές γενιές"
@@ -10388,7 +10388,7 @@ const speakingData = {
                 "sideA": "Συνείδηση",
                 "sideB": "Τεχνητή Γενική Νοημοσύνη",
                 "level": "proficiency",
-                "theme": "science_technology",
+                "theme": "epistemology_truth_C2",
                 "ideasA": [
                     "Βιολογική μοναδικότητα",
                     "Υποκειμενική εμπειρία"
@@ -10403,7 +10403,7 @@ const speakingData = {
                 "sideA": "Πραγματικότητα",
                 "sideB": "Ψευδαίσθηση",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Τεχνολογική πρόοδος",
                     "Βελτιωμένη ποιότητα ζωής"
@@ -10418,7 +10418,7 @@ const speakingData = {
                 "sideA": "Φιλελεύθερη Τάξη",
                 "sideB": "Πολυπολικότητα",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Παγκόσμιες αξίες",
                     "Παγκόσμια σταθερότητα"
@@ -10433,7 +10433,7 @@ const speakingData = {
                 "sideA": "Μνήμη",
                 "sideB": "Λήθη",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Μάθηση από την ιστορία",
                     "Ταυτότητα"
@@ -10448,7 +10448,7 @@ const speakingData = {
                 "sideA": "Τραγωδία",
                 "sideB": "Συνεργασία",
                 "level": "proficiency",
-                "theme": "people_society",
+                "theme": "ontology_metaphysics_C2",
                 "ideasA": [
                     "Προσωπικό συμφέρον",
                     "Εξάντληση πόρων"
@@ -10463,7 +10463,7 @@ const speakingData = {
                 "sideA": "Κόκκινο",
                 "sideB": "Μπλε",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10472,7 +10472,7 @@ const speakingData = {
                 "sideA": "Κίτρινο",
                 "sideB": "Πράσινο",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10481,7 +10481,7 @@ const speakingData = {
                 "sideA": "Μαύρο",
                 "sideB": "Λευκό",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10490,7 +10490,7 @@ const speakingData = {
                 "sideA": "Ροζ",
                 "sideB": "Μοβ",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10499,7 +10499,7 @@ const speakingData = {
                 "sideA": "Κύκλος",
                 "sideB": "Τετράγωνο",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10508,7 +10508,7 @@ const speakingData = {
                 "sideA": "Μεγάλοι",
                 "sideB": "Μικροί",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10517,7 +10517,7 @@ const speakingData = {
                 "sideA": "Τρίγωνο",
                 "sideB": "Ορθογώνιο",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10526,7 +10526,7 @@ const speakingData = {
                 "sideA": "Μπάλα",
                 "sideB": "Κούκλα",
                 "level": "starter",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10553,7 +10553,7 @@ const speakingData = {
                 "sideA": "Καρέκλα",
                 "sideB": "Πάτωμα",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10598,7 +10598,7 @@ const speakingData = {
                 "sideA": "Νερό",
                 "sideB": "Χυμός",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10607,7 +10607,7 @@ const speakingData = {
                 "sideA": "Μήλο",
                 "sideB": "Μπανάνα",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10616,7 +10616,7 @@ const speakingData = {
                 "sideA": "Ψωμί",
                 "sideB": "Ρύζι",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10625,7 +10625,7 @@ const speakingData = {
                 "sideA": "Γάλα",
                 "sideB": "Νερό",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10634,7 +10634,7 @@ const speakingData = {
                 "sideA": "Με οικογένεια",
                 "sideB": "Μόνος",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10643,7 +10643,7 @@ const speakingData = {
                 "sideA": "Αδελφός",
                 "sideB": "Αδελφή",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10652,7 +10652,7 @@ const speakingData = {
                 "sideA": "Μεγάλη",
                 "sideB": "Μικρή",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10661,7 +10661,7 @@ const speakingData = {
                 "sideA": "Μεγαλύτερο",
                 "sideB": "Μικρότερο",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10670,7 +10670,7 @@ const speakingData = {
                 "sideA": "Πρωί",
                 "sideB": "Απόγευμα",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10679,7 +10679,7 @@ const speakingData = {
                 "sideA": "Ανάγνωση",
                 "sideB": "Μαθηματικά",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10688,7 +10688,7 @@ const speakingData = {
                 "sideA": "Σχολείο",
                 "sideB": "Σπίτι",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10697,7 +10697,7 @@ const speakingData = {
                 "sideA": "Εργασίες",
                 "sideB": "Καμία",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10706,7 +10706,7 @@ const speakingData = {
                 "sideA": "Μόνος",
                 "sideB": "Συνεργάτης",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10715,7 +10715,7 @@ const speakingData = {
                 "sideA": "Χαρτί",
                 "sideB": "Υπολογιστής",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10724,7 +10724,7 @@ const speakingData = {
                 "sideA": "Πρωινό",
                 "sideB": "Δείπνο",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10733,7 +10733,7 @@ const speakingData = {
                 "sideA": "Ζεστό",
                 "sideB": "Κρύο",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10742,7 +10742,7 @@ const speakingData = {
                 "sideA": "Σπίτι",
                 "sideB": "Εστιατόριο",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10751,7 +10751,7 @@ const speakingData = {
                 "sideA": "Γλυκό",
                 "sideB": "Αλμυρό",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10760,7 +10760,7 @@ const speakingData = {
                 "sideA": "Μαγειρική",
                 "sideB": "Έτοιμο",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10769,7 +10769,7 @@ const speakingData = {
                 "sideA": "Πρωί",
                 "sideB": "Αργά",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10778,7 +10778,7 @@ const speakingData = {
                 "sideA": "Πρωί",
                 "sideB": "Βράδυ",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10787,7 +10787,7 @@ const speakingData = {
                 "sideA": "Καθημερινές",
                 "sideB": "Σαββατοκύριακο",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10796,7 +10796,7 @@ const speakingData = {
                 "sideA": "Καλοκαίρι",
                 "sideB": "Χειμώνας",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10805,7 +10805,7 @@ const speakingData = {
                 "sideA": "Νωρίς",
                 "sideB": "Αργά",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10814,7 +10814,7 @@ const speakingData = {
                 "sideA": "Σπίτι",
                 "sideB": "Διαμέρισμα",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10823,7 +10823,7 @@ const speakingData = {
                 "sideA": "Πόλη",
                 "sideB": "Εξοχή",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10832,7 +10832,7 @@ const speakingData = {
                 "sideA": "Υπνοδωμάτιο",
                 "sideB": "Καθιστικό",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10841,7 +10841,7 @@ const speakingData = {
                 "sideA": "Μέσα",
                 "sideB": "Έξω",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10850,7 +10850,7 @@ const speakingData = {
                 "sideA": "Τηλεόραση",
                 "sideB": "Βιβλίο",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10859,7 +10859,7 @@ const speakingData = {
                 "sideA": "Αθλητισμός",
                 "sideB": "Βιντεοπαιχνίδια",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10868,7 +10868,7 @@ const speakingData = {
                 "sideA": "Ζωγραφική",
                 "sideB": "Τραγούδι",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10877,7 +10877,7 @@ const speakingData = {
                 "sideA": "Μόνος",
                 "sideB": "Φίλοι",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10886,7 +10886,7 @@ const speakingData = {
                 "sideA": "Κολύμβηση",
                 "sideB": "Τρέξιμο",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10895,7 +10895,7 @@ const speakingData = {
                 "sideA": "Μουσική",
                 "sideB": "Αθλητισμός",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10913,7 +10913,7 @@ const speakingData = {
                 "sideA": "Βροχή",
                 "sideB": "Λιακάδα",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10922,7 +10922,7 @@ const speakingData = {
                 "sideA": "Θάλασσα",
                 "sideB": "Βουνό",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10931,7 +10931,7 @@ const speakingData = {
                 "sideA": "Λουλούδια",
                 "sideB": "Δέντρα",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10940,7 +10940,7 @@ const speakingData = {
                 "sideA": "Αυτοκίνητο",
                 "sideB": "Λεωφορείο",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10949,7 +10949,7 @@ const speakingData = {
                 "sideA": "Περπάτημα",
                 "sideB": "Ποδήλατο",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10958,7 +10958,7 @@ const speakingData = {
                 "sideA": "Σύντομες",
                 "sideB": "Μεγάλες",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10967,7 +10967,7 @@ const speakingData = {
                 "sideA": "Μόνος",
                 "sideB": "Οικογένεια",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10976,7 +10976,7 @@ const speakingData = {
                 "sideA": "Online",
                 "sideB": "Φυσική παρουσία",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [
                     "Ευκολία",
                     "Καλύτερες τιμές"
@@ -10991,7 +10991,7 @@ const speakingData = {
                 "sideA": "Χαρτί",
                 "sideB": "E-books",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [
                     "Μυρωδιά/Αίσθηση",
                     "Συλλεκτικό"
@@ -11006,7 +11006,7 @@ const speakingData = {
                 "sideA": "Σπίτι",
                 "sideB": "Γραφείο",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [
                     "Όχι μετακινήσεις",
                     "Ευελιξία"
@@ -11021,7 +11021,7 @@ const speakingData = {
                 "sideA": "Ηλεκτρικά",
                 "sideB": "Βενζίνη",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [
                     "Περιβάλλον",
                     "Ησυχία"
@@ -11036,7 +11036,7 @@ const speakingData = {
                 "sideA": "Πρωί",
                 "sideB": "Βράδυ",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11045,7 +11045,7 @@ const speakingData = {
                 "sideA": "Αυστηροί",
                 "sideB": "Φιλικοί",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11054,7 +11054,7 @@ const speakingData = {
                 "sideA": "Βιβλίο",
                 "sideB": "Βίντεο",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11063,7 +11063,7 @@ const speakingData = {
                 "sideA": "Σύντομα",
                 "sideB": "Μεγάλα",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11072,7 +11072,7 @@ const speakingData = {
                 "sideA": "Ομαδικές",
                 "sideB": "Ατομικές",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11081,7 +11081,7 @@ const speakingData = {
                 "sideA": "Στολή",
                 "sideB": "Καθημερινά",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11090,7 +11090,7 @@ const speakingData = {
                 "sideA": "Σπιτικό",
                 "sideB": "Φαστ φουντ",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11099,7 +11099,7 @@ const speakingData = {
                 "sideA": "Μεγάλα γεύματα",
                 "sideB": "Σνακ",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11108,7 +11108,7 @@ const speakingData = {
                 "sideA": "Χορτοφαγία",
                 "sideB": "Κρέας",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11117,7 +11117,7 @@ const speakingData = {
                 "sideA": "Τσάι",
                 "sideB": "Καφές",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11126,7 +11126,7 @@ const speakingData = {
                 "sideA": "Μόνος",
                 "sideB": "Με άλλους",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11135,7 +11135,7 @@ const speakingData = {
                 "sideA": "Ομαδικό",
                 "sideB": "Ατομικό",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11144,7 +11144,7 @@ const speakingData = {
                 "sideA": "Μέσα",
                 "sideB": "Έξω",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11153,7 +11153,7 @@ const speakingData = {
                 "sideA": "Σινεμά",
                 "sideB": "Θέατρο",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11162,7 +11162,7 @@ const speakingData = {
                 "sideA": "Ακρόαση",
                 "sideB": "Εκτέλεση",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11171,7 +11171,7 @@ const speakingData = {
                 "sideA": "Βιντεοπαιχνίδια",
                 "sideB": "Επιτραπέζια",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11180,7 +11180,7 @@ const speakingData = {
                 "sideA": "Ψώνια",
                 "sideB": "Σπίτι",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11189,7 +11189,7 @@ const speakingData = {
                 "sideA": "Κινητό",
                 "sideB": "Υπολογιστής",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11198,7 +11198,7 @@ const speakingData = {
                 "sideA": "Μήνυμα",
                 "sideB": "Κλήση",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11207,7 +11207,7 @@ const speakingData = {
                 "sideA": "E-book",
                 "sideB": "Χάρτινο βιβλίο",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11216,7 +11216,7 @@ const speakingData = {
                 "sideA": "Κινητό",
                 "sideB": "Κάμερα",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11225,7 +11225,7 @@ const speakingData = {
                 "sideA": "Παραλία",
                 "sideB": "Βουνό",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11234,7 +11234,7 @@ const speakingData = {
                 "sideA": "Τρένο",
                 "sideB": "Αεροπλάνο",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11243,7 +11243,7 @@ const speakingData = {
                 "sideA": "Πόλη",
                 "sideB": "Χωριό",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11252,7 +11252,7 @@ const speakingData = {
                 "sideA": "Ξενοδοχείο",
                 "sideB": "Τοπική οικογένεια",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11261,7 +11261,7 @@ const speakingData = {
                 "sideA": "Εξωτερικό",
                 "sideB": "Δική σου χώρα",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11270,7 +11270,7 @@ const speakingData = {
                 "sideA": "Πολλοί",
                 "sideB": "Στενοί φίλοι",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11279,7 +11279,7 @@ const speakingData = {
                 "sideA": "Από κοντά",
                 "sideB": "Online",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11288,7 +11288,7 @@ const speakingData = {
                 "sideA": "Γονείς",
                 "sideB": "Φοιτητικό σπίτι",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11297,7 +11297,7 @@ const speakingData = {
                 "sideA": "Σπίτι",
                 "sideB": "Έξοδος",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11306,7 +11306,7 @@ const speakingData = {
                 "sideA": "Αποταμίευση",
                 "sideB": "Ξόδεμα",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11315,7 +11315,7 @@ const speakingData = {
                 "sideA": "Μερική απασχόληση",
                 "sideB": "Μόνο σχολείο",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11324,7 +11324,7 @@ const speakingData = {
                 "sideA": "Χρήματα",
                 "sideB": "Ελεύθερος χρόνος",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11333,7 +11333,7 @@ const speakingData = {
                 "sideA": "Online",
                 "sideB": "Τάξη",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11342,7 +11342,7 @@ const speakingData = {
                 "sideA": "Γεγονότα",
                 "sideB": "Εύρεση info",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11351,7 +11351,7 @@ const speakingData = {
                 "sideA": "Πανεπιστήμιο",
                 "sideB": "Επαγγελματική",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11360,7 +11360,7 @@ const speakingData = {
                 "sideA": "Εξετάσεις",
                 "sideB": "Συνεχής",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11369,7 +11369,7 @@ const speakingData = {
                 "sideA": "Σχολείο",
                 "sideB": "Εξωτερικό",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11378,7 +11378,7 @@ const speakingData = {
                 "sideA": "Αρρένων/Θηλέων",
                 "sideB": "Μικτά",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11387,7 +11387,7 @@ const speakingData = {
                 "sideA": "Social media",
                 "sideB": "Από κοντά",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11396,7 +11396,7 @@ const speakingData = {
                 "sideA": "Streaming",
                 "sideB": "Παραδοσιακή TV",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11405,7 +11405,7 @@ const speakingData = {
                 "sideA": "Σπίτι",
                 "sideB": "Γραφείο",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11414,7 +11414,7 @@ const speakingData = {
                 "sideA": "Online ειδήσεις",
                 "sideB": "Εφημερίδα",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11423,7 +11423,7 @@ const speakingData = {
                 "sideA": "Social media",
                 "sideB": "Φύση",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11432,7 +11432,7 @@ const speakingData = {
                 "sideA": "Δημόσιες συγκοινωνίες",
                 "sideB": "Αυτοκίνητο",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11441,7 +11441,7 @@ const speakingData = {
                 "sideA": "Μεταχειρισμένα",
                 "sideB": "Καινούργια",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11450,7 +11450,7 @@ const speakingData = {
                 "sideA": "Πόλη",
                 "sideB": "Εξοχή",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11459,7 +11459,7 @@ const speakingData = {
                 "sideA": "Χορτοφαγία",
                 "sideB": "Κρέας",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11468,7 +11468,7 @@ const speakingData = {
                 "sideA": "Ατομικά",
                 "sideB": "Κυβέρνηση",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11477,7 +11477,7 @@ const speakingData = {
                 "sideA": "Σταθερή δουλειά",
                 "sideB": "Δημιουργική",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11486,7 +11486,7 @@ const speakingData = {
                 "sideA": "Δική σου επιχείρηση",
                 "sideB": "Εταιρεία",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11495,7 +11495,7 @@ const speakingData = {
                 "sideA": "Μισθός",
                 "sideB": "Ικανοποίηση",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11504,7 +11504,7 @@ const speakingData = {
                 "sideA": "Πολλές ώρες",
                 "sideB": "Ισορροπία",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11513,7 +11513,7 @@ const speakingData = {
                 "sideA": "Πάθος",
                 "sideB": "Προοπτικές",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11522,7 +11522,7 @@ const speakingData = {
                 "sideA": "Άτομο",
                 "sideB": "Κοινότητα",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11531,7 +11531,7 @@ const speakingData = {
                 "sideA": "Παραδοσιακές",
                 "sideB": "Σύγχρονες",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11540,7 +11540,7 @@ const speakingData = {
                 "sideA": "Εθελοντισμός",
                 "sideB": "Δωρεά",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11549,7 +11549,7 @@ const speakingData = {
                 "sideA": "Φήμη",
                 "sideB": "Αθόρυβη διαφορά",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11558,7 +11558,7 @@ const speakingData = {
                 "sideA": "Κανόνες",
                 "sideB": "Δική σου σκέψη",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11567,7 +11567,7 @@ const speakingData = {
                 "sideA": "Σωματική",
                 "sideB": "Ψυχική",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11576,7 +11576,7 @@ const speakingData = {
                 "sideA": "Πρόληψη",
                 "sideB": "Θεραπεία",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11585,7 +11585,7 @@ const speakingData = {
                 "sideA": "Ανταγωνιστικός",
                 "sideB": "Διασκέδαση",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11594,7 +11594,7 @@ const speakingData = {
                 "sideA": "Ιδιωτική",
                 "sideB": "Δημόσια",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11603,7 +11603,7 @@ const speakingData = {
                 "sideA": "Σινεμά",
                 "sideB": "Λογοτεχνία",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11612,7 +11612,7 @@ const speakingData = {
                 "sideA": "Μοντέρνα",
                 "sideB": "Κλασική",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11621,7 +11621,7 @@ const speakingData = {
                 "sideA": "Διατήρηση παλαιών",
                 "sideB": "Ανέγερση νέων",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11630,7 +11630,7 @@ const speakingData = {
                 "sideA": "Τοπική",
                 "sideB": "Παγκοσμιοποίηση",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11639,7 +11639,7 @@ const speakingData = {
                 "sideA": "Social media",
                 "sideB": "Από κοντά",
                 "level": "upper-intermediate",
-                "theme": "people_society",
+                "theme": "politics_governance_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11648,7 +11648,7 @@ const speakingData = {
                 "sideA": "Αστική",
                 "sideB": "Αγροτική",
                 "level": "upper-intermediate",
-                "theme": "travel_places",
+                "theme": "globalisation_trade_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11657,7 +11657,7 @@ const speakingData = {
                 "sideA": "Online",
                 "sideB": "Τάξη",
                 "level": "upper-intermediate",
-                "theme": "education_work",
+                "theme": "academic_vocabulary_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11666,7 +11666,7 @@ const speakingData = {
                 "sideA": "Ανανεώσιμες",
                 "sideB": "Πυρηνική",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11675,7 +11675,7 @@ const speakingData = {
                 "sideA": "Fast fashion",
                 "sideB": "Βιώσιμη",
                 "level": "upper-intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_policy_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11684,7 +11684,7 @@ const speakingData = {
                 "sideA": "Δημιουργικότητα ΤΝ",
                 "sideB": "Ανθρώπινη τέχνη",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11693,7 +11693,7 @@ const speakingData = {
                 "sideA": "Διάστημα",
                 "sideB": "Βαθιά θάλασσα",
                 "level": "advanced",
-                "theme": "science_technology",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11702,7 +11702,7 @@ const speakingData = {
                 "sideA": "Απόρρητο",
                 "sideB": "Ασφάλεια",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11711,7 +11711,7 @@ const speakingData = {
                 "sideA": "ΓΤΟ",
                 "sideB": "Βιολογική",
                 "level": "advanced",
-                "theme": "nature_environment",
+                "theme": "science_tech_society_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11720,7 +11720,7 @@ const speakingData = {
                 "sideA": "ΚΒΕ",
                 "sideB": "Εγγύηση εργασίας",
                 "level": "advanced",
-                "theme": "people_society",
+                "theme": "power_institutions_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11729,7 +11729,7 @@ const speakingData = {
                 "sideA": "Ροζ",
                 "sideB": "Πορτοκαλί",
                 "level": "starter",
-                "theme": "colors",
+                "theme": "colours_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11738,7 +11738,7 @@ const speakingData = {
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_shapes",
+                "theme": "numbers_1_20_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11747,7 +11747,7 @@ const speakingData = {
                 "sideA": "Καρέκλα",
                 "sideB": "Καναπές",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11756,7 +11756,7 @@ const speakingData = {
                 "sideA": "Τσάντα",
                 "sideB": "Κουτί",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11774,7 +11774,7 @@ const speakingData = {
                 "sideA": "Σοκολάτα",
                 "sideB": "Γλυκά",
                 "level": "starter",
-                "theme": "food_drinks",
+                "theme": "food_drink_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11783,7 +11783,7 @@ const speakingData = {
                 "sideA": "Κουτάλι",
                 "sideB": "Πιρούνι",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11792,7 +11792,7 @@ const speakingData = {
                 "sideA": "Καπέλο",
                 "sideB": "Παπούτσια",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11801,7 +11801,7 @@ const speakingData = {
                 "sideA": "Ήλιος",
                 "sideB": "Φεγγάρι",
                 "level": "starter",
-                "theme": "nature_environment",
+                "theme": "weather_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11810,7 +11810,7 @@ const speakingData = {
                 "sideA": "Κάλτσες",
                 "sideB": "Χωρίς κάλτσες",
                 "level": "starter",
-                "theme": "daily_life",
+                "theme": "home_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11819,7 +11819,7 @@ const speakingData = {
                 "sideA": "Με παππούδες",
                 "sideB": "Χωρίς αυτούς",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11828,7 +11828,7 @@ const speakingData = {
                 "sideA": "Μαμάς",
                 "sideB": "Μπαμπά",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11837,7 +11837,7 @@ const speakingData = {
                 "sideA": "Μαθηματικά",
                 "sideB": "Καλλιτεχνικά",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11846,7 +11846,7 @@ const speakingData = {
                 "sideA": "Χαρτί",
                 "sideB": "Τάμπλετ",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11855,7 +11855,7 @@ const speakingData = {
                 "sideA": "Πίτσα",
                 "sideB": "Μακαρονάδα",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11864,7 +11864,7 @@ const speakingData = {
                 "sideA": "Παγωτό",
                 "sideB": "Κέικ",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11873,7 +11873,7 @@ const speakingData = {
                 "sideA": "Μικρές μέρες",
                 "sideB": "Μεγάλες μέρες",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11882,7 +11882,7 @@ const speakingData = {
                 "sideA": "Πάρκο",
                 "sideB": "Παραλία",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11891,7 +11891,7 @@ const speakingData = {
                 "sideA": "Αεροπλάνο",
                 "sideB": "Τρένο",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11900,7 +11900,7 @@ const speakingData = {
                 "sideA": "Πρωί",
                 "sideB": "Βράδυ",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11918,7 +11918,7 @@ const speakingData = {
                 "sideA": "Πιρούνι",
                 "sideB": "Χέρια",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11927,7 +11927,7 @@ const speakingData = {
                 "sideA": "Με κάλτσες",
                 "sideB": "Χωρίς",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11936,7 +11936,7 @@ const speakingData = {
                 "sideA": "Κάστρο",
                 "sideB": "Χιονάνθρωπος",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11945,7 +11945,7 @@ const speakingData = {
                 "sideA": "Πολλές εξετάσεις",
                 "sideB": "Πολύ λίγες",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11954,7 +11954,7 @@ const speakingData = {
                 "sideA": "Στα 7",
                 "sideB": "Στα 5",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11963,7 +11963,7 @@ const speakingData = {
                 "sideA": "Αργά",
                 "sideB": "Γρήγορα",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11972,7 +11972,7 @@ const speakingData = {
                 "sideA": "Μαγειρική",
                 "sideB": "Παραγγελία",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11981,7 +11981,7 @@ const speakingData = {
                 "sideA": "Μαγειρική",
                 "sideB": "Ζαχαροπλαστική",
                 "level": "elementary",
-                "theme": "leisure_hobbies",
+                "theme": "leisure_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11990,7 +11990,7 @@ const speakingData = {
                 "sideA": "Γυμναστήριο",
                 "sideB": "Έξω",
                 "level": "elementary",
-                "theme": "health_body",
+                "theme": "health_body_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11999,7 +11999,7 @@ const speakingData = {
                 "sideA": "Στο κινητό",
                 "sideB": "Εκτυπωμένες",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12008,7 +12008,7 @@ const speakingData = {
                 "sideA": "Smart TV",
                 "sideB": "Υπολογιστής",
                 "level": "elementary",
-                "theme": "science_technology",
+                "theme": "technology_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12017,7 +12017,7 @@ const speakingData = {
                 "sideA": "Ζεστή",
                 "sideB": "Κρύα",
                 "level": "elementary",
-                "theme": "travel_places",
+                "theme": "transport_travel_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12026,7 +12026,7 @@ const speakingData = {
                 "sideA": "Να δίνεις",
                 "sideB": "Να παίρνεις",
                 "level": "elementary",
-                "theme": "people_society",
+                "theme": "relationships_family_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12035,7 +12035,7 @@ const speakingData = {
                 "sideA": "Μέσα",
                 "sideB": "Έξω",
                 "level": "elementary",
-                "theme": "education_work",
+                "theme": "career_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12044,7 +12044,7 @@ const speakingData = {
                 "sideA": "Ανανάς",
                 "sideB": "Χωρίς ανανά",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12053,7 +12053,7 @@ const speakingData = {
                 "sideA": "Γάλα πρώτα",
                 "sideB": "Τσάι πρώτα",
                 "level": "elementary",
-                "theme": "food_drinks",
+                "theme": "food_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12062,7 +12062,7 @@ const speakingData = {
                 "sideA": "Δευτέρα",
                 "sideB": "Παρασκευή",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12071,7 +12071,7 @@ const speakingData = {
                 "sideA": "Πριν το ξυπνητήρι",
                 "sideB": "Μέχρι το ξυπνητήρι",
                 "level": "elementary",
-                "theme": "daily_life",
+                "theme": "neighbourhood_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12089,7 +12089,7 @@ const speakingData = {
                 "sideA": "Πολύ ζέστη",
                 "sideB": "Πολύ κρύο",
                 "level": "elementary",
-                "theme": "nature_environment",
+                "theme": "environment_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12098,7 +12098,7 @@ const speakingData = {
                 "sideA": "Λάθη",
                 "sideB": "Επιτυχία",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12107,7 +12107,7 @@ const speakingData = {
                 "sideA": "Τάμπλετ",
                 "sideB": "Τετράδια",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12116,7 +12116,7 @@ const speakingData = {
                 "sideA": "Πάντα διαθέσιμος",
                 "sideB": "Ελεύθερος χρόνος",
                 "level": "intermediate",
-                "theme": "science_technology",
+                "theme": "media_news_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12125,7 +12125,7 @@ const speakingData = {
                 "sideA": "Επαναχρησιμοποίηση",
                 "sideB": "Ανακύκλωση",
                 "level": "intermediate",
-                "theme": "nature_environment",
+                "theme": "environment_sustainability_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12134,7 +12134,7 @@ const speakingData = {
                 "sideA": "Μία καριέρα",
                 "sideB": "Συχνή αλλαγή",
                 "level": "intermediate",
-                "theme": "education_work",
+                "theme": "career_development_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12143,7 +12143,7 @@ const speakingData = {
                 "sideA": "Ύπνος",
                 "sideB": "Γυμναστική",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12152,7 +12152,7 @@ const speakingData = {
                 "sideA": "Ποπ",
                 "sideB": "Κλασική",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12161,7 +12161,7 @@ const speakingData = {
                 "sideA": "Να ξέρεις",
                 "sideB": "Έκπληξη",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12170,7 +12170,7 @@ const speakingData = {
                 "sideA": "Άμεσα",
                 "sideB": "Με το πάσο σου",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12179,7 +12179,7 @@ const speakingData = {
                 "sideA": "Binge-watching",
                 "sideB": "Εβδομαδιαία",
                 "level": "intermediate",
-                "theme": "leisure_hobbies",
+                "theme": "opinion_debate_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12188,7 +12188,7 @@ const speakingData = {
                 "sideA": "Παράθυρο",
                 "sideB": "Διάδρομος",
                 "level": "intermediate",
-                "theme": "travel_places",
+                "theme": "travel_cultural_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12197,7 +12197,7 @@ const speakingData = {
                 "sideA": "Να το χάσεις",
                 "sideB": "Κακή προπόνηση",
                 "level": "intermediate",
-                "theme": "health_body",
+                "theme": "mental_health_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12206,7 +12206,7 @@ const speakingData = {
                 "sideA": "Στον εαυτό σου",
                 "sideB": "Στο κατοικίδιο",
                 "level": "intermediate",
-                "theme": "people_society",
+                "theme": "society_community_B1",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -12215,37 +12215,37 @@ const speakingData = {
             {
                 "topic": "Η αγαπημένη μου ανάμνηση από την παιδική ηλικία",
                 "level": "starter",
-                "theme": "people_society"
+                "theme": "family_A0"
             },
             {
                 "topic": "Οι τελευταίες διακοπές που έκανα",
                 "level": "elementary",
-                "theme": "travel_places"
+                "theme": "transport_travel_A2"
             },
             {
                 "topic": "Ένα άτομο που με ενέπνευσε",
                 "level": "intermediate",
-                "theme": "people_society"
+                "theme": "society_community_B1"
             },
             {
                 "topic": "Το μέλλον του κόσμου σε 50 χρόνια",
                 "level": "upper-intermediate",
-                "theme": "science_technology"
+                "theme": "technology_privacy_B2"
             },
             {
                 "topic": "Ο ρόλος της τέχνης στη σύγχρονη κοινωνία",
                 "level": "advanced",
-                "theme": "leisure_hobbies"
+                "theme": "leisure_hobbies_A2"
             },
             {
                 "topic": "Η πολυπλοκότητα της ανθρώπινης συνείδησης",
                 "level": "proficiency",
-                "theme": "people_society"
+                "theme": "ontology_metaphysics_C2"
             },
             {
                 "topic": "Η σημασία της ευαισθητοποίησης για την ψυχική υγεία",
                 "level": "intermediate",
-                "theme": "health_body"
+                "theme": "mental_health_B1"
             },
             {
                 "topic": "Η δουλειά των ονείρων μου και γιατί",
@@ -12255,12 +12255,12 @@ const speakingData = {
             {
                 "topic": "Ο αντίκτυπος της κλιματικής αλλαγής στις τοπικές κοινότητες",
                 "level": "upper-intermediate",
-                "theme": "nature_environment"
+                "theme": "environment_policy_B2"
             },
             {
                 "topic": "Τεχνητή Νοημοσύνη: Εργαλείο ή απειλή;",
                 "level": "advanced",
-                "theme": "science_technology"
+                "theme": "science_tech_society_C1"
             }
         ]
     }

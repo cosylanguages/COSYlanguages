@@ -40,9 +40,11 @@ function clearSession() {
 
 function populateThemes(categoryId) {
     const themeSelect = document.getElementById('practice-theme');
-    if (!themeSelect) return;
+    const levelSelect = document.getElementById('practice-level');
+    if (!themeSelect || !levelSelect) return;
 
     const lang = currentPractice.language;
+    const selectedLevel = levelSelect.value;
     const t = translations[lang] || translations['en'];
 
     themeSelect.innerHTML = '';
@@ -65,33 +67,40 @@ function populateThemes(categoryId) {
             { value: 'grammar_gender', key: 'theme_grammar_gender' }
         ];
 
-        // English refinements: focus mostly on Verb Forms and Plurals per request
         if (lang === 'en') {
             themes = themes.filter(th => th.value === 'grammar_plurals');
             themes.push({ value: 'grammar_verb_forms', key: 'theme_grammar_verb_forms' });
         }
     } else if (categoryId === 'speaking') {
-        themes = [
-            { value: 'opinionArena', key: 'game_opinion_arena' },
-            { value: 'debates', key: 'game_debates' },
-            { value: 'talkThatTalk', key: 'game_talk_talk' },
-            { value: 'criticsCorner', key: 'game_critics_corner' }
-        ];
+        const sd = speakingData[lang] || {};
+        const availableThemes = new Set();
+
+        for (const list of Object.values(sd)) {
+            if (Array.isArray(list)) {
+                list.forEach(item => {
+                    if (selectedLevel === 'all' || item.level === selectedLevel) {
+                        availableThemes.add(item.theme);
+                    }
+                });
+            }
+        }
+
+        Array.from(availableThemes).sort().forEach(val => {
+            themes.push({ value: val, key: 'theme_' + val });
+        });
     } else {
         // vocab
-        themes = [
-            { value: 'numbers', key: 'theme_numbers' },
-            { value: 'profession', key: 'theme_profession' },
-            { value: 'family', key: 'theme_family' },
-            { value: 'animal', key: 'theme_animal' },
-            { value: 'daily_life', key: 'daily_life' },
-            { value: 'food_drinks', key: 'theme_food_drinks' },
-            { value: 'travel_places', key: 'theme_places' },
-            { value: 'leisure_hobbies', key: 'theme_hobby' },
-            { value: 'science_technology', key: 'theme_technology' },
-            { value: 'health_body', key: 'theme_health' },
-            { value: 'education_work', key: 'theme_education' }
-        ];
+        const vd = vocabularyData[lang] || [];
+        const availableThemes = new Set();
+        vd.forEach(item => {
+            if (selectedLevel === 'all' || item.level === selectedLevel) {
+                availableThemes.add(item.theme);
+            }
+        });
+
+        Array.from(availableThemes).sort().forEach(val => {
+            themes.push({ value: val, key: 'theme_' + val });
+        });
     }
 
     themes.forEach(th => {
@@ -101,6 +110,51 @@ function populateThemes(categoryId) {
         opt.setAttribute('data-translate-key', th.key);
         themeSelect.appendChild(opt);
     });
+
+    updateThemeDescription();
+}
+
+function updateThemeDescription() {
+    const themeSelect = document.getElementById('practice-theme');
+    const levelSelect = document.getElementById('practice-level');
+    const descEl = document.getElementById('theme-description');
+    if (!themeSelect || !levelSelect || !descEl) return;
+
+    const level = levelSelect.value;
+    const lang = currentPractice.language;
+    const t = translations[lang] || translations['en'];
+
+    if (level === 'all') {
+        descEl.style.display = 'none';
+        return;
+    }
+
+    const mapping = {
+        'starter': 'desc_a1',
+        'elementary': 'desc_a2',
+        'intermediate': 'desc_b1',
+        'upper-intermediate': 'desc_b2',
+        'advanced': 'desc_c1',
+        'proficiency': 'desc_c2'
+    };
+
+    let descKey = mapping[level];
+
+    // For starter, show A0 description if an A0 theme (or 'all') is selected, else A1
+    if (level === 'starter') {
+        if (themeSelect.value.endsWith('_A1')) {
+            descKey = 'desc_a1';
+        } else {
+            descKey = 'desc_a0';
+        }
+    }
+
+    if (descKey && t[descKey]) {
+        descEl.textContent = t[descKey];
+        descEl.style.display = 'block';
+    } else {
+        descEl.style.display = 'none';
+    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -434,18 +488,26 @@ document.addEventListener('DOMContentLoaded', () => {
         radio.addEventListener('change', window.updateCategoryUI);
     });
 
+    const levelSelect = document.getElementById('practice-level');
+    if (levelSelect) {
+        levelSelect.addEventListener('change', () => {
+            window.updateCategoryUI();
+        });
+    }
+
     const themeSelect = document.getElementById('practice-theme');
     if (themeSelect) {
         themeSelect.addEventListener('change', () => {
+            updateThemeDescription();
             const val = themeSelect.value;
             const lang = currentPractice.language;
             let msg = null;
 
-            if (val === 'numbers') {
+            if (val === 'numbers' || val.startsWith('numbers_')) {
                 msg = (translations[lang] && translations[lang]['bingo_suggestion']) || "Tip: You can also practice numbers playing Bingo in the Events section! 🎲";
-            } else if (['profession', 'family', 'animal'].includes(val)) {
+            } else if (['profession', 'family', 'animal'].includes(val) || val.startsWith('family_') || val.startsWith('jobs_')) {
                 msg = (translations[lang] && translations[lang]['guess_who_suggestion']) || "Tip: You can also practice these words playing Identity Mystery in the Events section! 👤";
-            } else if (['daily_life', 'food_drinks', 'travel_places', 'leisure_hobbies', 'science_technology', 'health_body', 'country', 'city', 'nature_environment'].includes(val)) {
+            } else if (['daily_life', 'food_drinks', 'travel_places', 'leisure_hobbies', 'science_technology', 'health_body', 'country', 'city', 'nature_environment'].includes(val) || val.startsWith('food_') || val.startsWith('home_') || val.startsWith('transport_') || val.startsWith('weather_') || val.startsWith('shopping_') || val.startsWith('technology_')) {
                 msg = (translations[lang] && translations[lang]['guess_what_suggestion']) || "Tip: You can also practice these words playing Object Quest in the Events section! 📦";
             }
 
