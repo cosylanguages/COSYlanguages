@@ -257,9 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const speakingRadio = document.getElementById('cat-speaking');
             if (speakingRadio) {
                 speakingRadio.checked = true;
-                const container = document.getElementById('practice-container');
-                container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
-                container.classList.add('cat-speaking');
+                if (typeof updateCategoryUI === 'function') updateCategoryUI();
             }
         }
         // Start after a small delay to ensure DOM and translations are ready
@@ -617,10 +615,10 @@ function showHint() {
     if (!wordObj) return;
 
     let targetAnswer = "";
-    const t = wordObj.type;
-    if (t === 'type-cl' || t === 'type-mc' || t === 'type-sc' || t === 'type-ga' || t === 'type-np' || t === 'type-ls' || t === 'type-ws') {
+    const taskType = wordObj.type;
+    if (taskType === 'type-cl' || taskType === 'type-mc' || taskType === 'type-sc' || taskType === 'type-ga' || taskType === 'type-np' || taskType === 'type-ls' || taskType === 'type-ws') {
         targetAnswer = wordObj.answer || wordObj.word || wordObj.text || wordObj.topic || wordObj.article || wordObj.gender;
-    } else if (t === 'type-op') {
+    } else if (taskType === 'type-op') {
         targetAnswer = wordObj.opposite;
     } else {
         return; // No hint for type-tf or type-cv
@@ -1056,7 +1054,7 @@ function startPractice(isWheelMode = false) {
                     category: 'conversation',
                     type: 'type-cv',
                     originalTheme: item.theme, // preserve original theme if needed
-                    theme: subCat // Use sub-category as theme for filtering
+                    subCategory: subCat
                 }));
             }
         }
@@ -1073,7 +1071,7 @@ function startPractice(isWheelMode = false) {
         rawItems = rawItems.filter(item => item.level === selectedLevel);
     }
     if (selectedTheme !== 'all') {
-        rawItems = rawItems.filter(item => item.theme === selectedTheme);
+        rawItems = rawItems.filter(item => (item.theme === selectedTheme || item.originalTheme === selectedTheme));
     }
 
     if (rawItems.length === 0) {

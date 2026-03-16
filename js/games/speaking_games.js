@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
             stopTimer();
             const duration = parseInt(document.getElementById('debates-timer-duration')?.value || '120');
             startTimer('debates-timer', duration, () => {
-                topicDisplay.textContent = t('time_up');
+                topicDisplay.textContent += ` (${t('time_up')})`;
             });
 
             const ideasAContainer = sideAIdeas.parentElement;
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
             stopTimer();
             const duration = parseInt(document.getElementById('opinion-timer-duration')?.value || '120');
             startTimer('opinion-timer', duration, () => {
-                statementDisplay.textContent = t('time_up');
+                statementDisplay.textContent += ` (${t('time_up')})`;
             });
         };
 
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
             stopTimer();
             const duration = parseInt(document.getElementById('critics-timer-duration')?.value || '120');
             startTimer('critics-timer', duration, () => {
-                quoteDisplay.textContent = t('time_up');
+                quoteDisplay.textContent += ` (${t('time_up')})`;
             });
         };
 
@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
             stopTimer();
             const duration = parseInt(document.getElementById('talk-timer-duration')?.value || '180');
             startTimer('talk-timer', duration, () => {
-                topicDisplay.textContent = t('time_up');
+                topicDisplay.textContent += ` (${t('time_up')})`;
             });
         };
 
