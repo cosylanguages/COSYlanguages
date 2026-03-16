@@ -1,6 +1,55 @@
 document.addEventListener('DOMContentLoaded', () => {
     const { t, startTimer, stopTimer, handleShare, showGameMessage } = window.gameUtils;
 
+    // --- Helper for Theme Population ---
+    const populateThemes = (gameId, dataSourceType) => {
+        const themeSelect = document.getElementById(`${gameId}-theme`);
+        if (!themeSelect) return;
+        const lang = document.getElementById(`${gameId}-lang`).value;
+        const level = document.getElementById(`${gameId}-level`).value;
+
+        const currentVal = themeSelect.value;
+        themeSelect.innerHTML = '<option value="all" data-translate-key="theme_all">' + (window.translations[lang]?.theme_all || 'All Themes') + '</option>';
+
+        let themes = new Set();
+        let data = [];
+
+        if (dataSourceType === 'speaking') {
+            const speaking = window.speakingData && window.speakingData[lang];
+            if (speaking) {
+                // Combine themes from all speaking categories for this lang/level
+                ['debates', 'opinionArena', 'criticsCorner', 'talkThatTalk'].forEach(cat => {
+                    if (speaking[cat]) {
+                        speaking[cat].forEach(item => {
+                            if (level === 'all' || item.level === level) {
+                                if (item.theme) themes.add(item.theme);
+                            }
+                        });
+                    }
+                });
+            }
+        } else {
+            const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
+            vocab.forEach(item => {
+                if (level === 'all' || item.level === level) {
+                    if (item.theme) themes.add(item.theme);
+                }
+            });
+        }
+
+        Array.from(themes).sort().forEach(th => {
+            const opt = document.createElement('option');
+            opt.value = th;
+            opt.textContent = window.translations[lang]?.['theme_' + th] || th;
+            opt.setAttribute('data-translate-key', 'theme_' + th);
+            themeSelect.appendChild(opt);
+        });
+
+        if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
+            themeSelect.value = currentVal;
+        }
+    };
+
     // --- Battle of Wits Logic ---
     const initDebates = () => {
         const modal = document.getElementById('debates-modal');
@@ -10,6 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeBtn = document.getElementById('close-debates-btn');
         const startBtn = document.getElementById('start-debates-btn');
         const nextBtn = document.getElementById('next-debate-btn');
+        const levelSelect = document.getElementById('debates-level');
+        const langSelect = document.getElementById('debates-lang');
 
         const setupArea = modal.querySelector('.game-setup');
         const gameArea = modal.querySelector('.game-play');
@@ -71,9 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
+            populateThemes('debates', 'speaking');
         };
 
         openBtn?.addEventListener('click', openGame);
+        levelSelect?.addEventListener('change', () => populateThemes('debates', 'speaking'));
+        langSelect?.addEventListener('change', () => populateThemes('debates', 'speaking'));
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             stopTimer();
@@ -82,8 +136,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const startGame = () => {
             const lang = document.getElementById('debates-lang').value;
             const level = document.getElementById('debates-level').value;
+            const theme = document.getElementById('debates-theme').value;
 
             pool = window.speakingData && window.speakingData[lang]?.debates || [];
+
+            if (theme !== 'all') {
+                pool = pool.filter(d => d.theme === theme);
+            }
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
@@ -154,9 +213,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
+            populateThemes('opinion', 'speaking');
         };
 
         openBtn?.addEventListener('click', openGame);
+        document.getElementById('opinion-level')?.addEventListener('change', () => populateThemes('opinion', 'speaking'));
+        document.getElementById('opinion-lang')?.addEventListener('change', () => populateThemes('opinion', 'speaking'));
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             stopTimer();
@@ -165,8 +227,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const startGame = () => {
             const lang = document.getElementById('opinion-lang').value;
             const level = document.getElementById('opinion-level').value;
+            const theme = document.getElementById('opinion-theme').value;
 
             pool = window.speakingData && window.speakingData[lang]?.opinionArena || [];
+
+            if (theme !== 'all') {
+                pool = pool.filter(d => d.theme === theme);
+            }
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
@@ -239,9 +306,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
+            populateThemes('critics', 'speaking');
         };
 
         openBtn?.addEventListener('click', openGame);
+        document.getElementById('critics-level')?.addEventListener('change', () => populateThemes('critics', 'speaking'));
+        document.getElementById('critics-lang')?.addEventListener('change', () => populateThemes('critics', 'speaking'));
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             stopTimer();
@@ -250,8 +320,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const startGame = () => {
             const lang = document.getElementById('critics-lang').value;
             const level = document.getElementById('critics-level').value;
+            const theme = document.getElementById('critics-theme').value;
 
             pool = window.speakingData && window.speakingData[lang]?.criticsCorner || [];
+
+            if (theme !== 'all') {
+                pool = pool.filter(d => d.theme === theme);
+            }
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
@@ -322,9 +397,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
+            populateThemes('talk', 'speaking');
         };
 
         openBtn?.addEventListener('click', openGame);
+        document.getElementById('talk-level')?.addEventListener('change', () => populateThemes('talk', 'speaking'));
+        document.getElementById('talk-lang')?.addEventListener('change', () => populateThemes('talk', 'speaking'));
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             stopTimer();
@@ -333,8 +411,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const startGame = () => {
             const lang = document.getElementById('talk-lang').value;
             const level = document.getElementById('talk-level').value;
+            const theme = document.getElementById('talk-theme').value;
 
             pool = window.speakingData && window.speakingData[lang]?.talkThatTalk || [];
+
+            if (theme !== 'all') {
+                pool = pool.filter(d => d.theme === theme);
+            }
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];

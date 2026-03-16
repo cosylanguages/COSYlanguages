@@ -5,16 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const modal = document.getElementById('linker-modal');
         if (!modal) return;
 
-        const api = {
-            open: () => {
-                modal.style.display = 'flex';
-                setupArea.style.display = 'block';
-                gameArea.style.display = 'none';
-            },
-            start: () => startBtn.click()
-        };
-        window.wordLinkerGame = api;
-
         const openBtn = document.getElementById('open-linker-btn');
         const closeBtn = document.getElementById('close-linker-btn');
         const startBtn = document.getElementById('start-linker-game-btn');
@@ -23,11 +13,63 @@ document.addEventListener('DOMContentLoaded', () => {
         const cluesArea = document.getElementById('linker-clues');
         const optionsGrid = document.getElementById('linker-options');
         const feedback = document.getElementById('linker-feedback');
+        const levelSelect = document.getElementById('linker-level');
+        const langSelect = document.getElementById('linker-lang');
+        const themeSelect = document.getElementById('linker-theme');
+
+        const api = {
+            open: () => {
+                modal.style.display = 'flex';
+                setupArea.style.display = 'block';
+                gameArea.style.display = 'none';
+                populateThemes();
+            },
+            start: () => startBtn.click()
+        };
+        window.wordLinkerGame = api;
 
         let pool = [];
         let currentGameMode = 'association';
 
         const levelsOrder = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+
+        const populateThemes = () => {
+            if (!themeSelect) return;
+            const level = levelSelect.value;
+            const lang = langSelect.value;
+
+            const currentVal = themeSelect.value;
+            themeSelect.innerHTML = '<option value="all" data-translate-key="theme_all">' + (window.translations[lang]?.theme_all || 'All Themes') + '</option>';
+
+            let themes = [];
+            if (level !== 'all' && window.themeConfig && window.themeConfig[level]) {
+                const levelData = window.themeConfig[level];
+                if (level === 'starter') {
+                    if (levelData.A0) Object.keys(levelData.A0.themes).forEach(val => themes.push(val));
+                    if (levelData.A1) Object.keys(levelData.A1.themes).forEach(val => themes.push(val));
+                } else if (levelData.themes) {
+                    Object.keys(levelData.themes).forEach(val => themes.push(val));
+                }
+            } else {
+                const vd = window.vocabularyData && window.vocabularyData[lang] || [];
+                const availableThemes = new Set();
+                vd.forEach(item => {
+                    if (level === 'all' || item.level === level) availableThemes.add(item.theme);
+                });
+                themes = Array.from(availableThemes).sort();
+            }
+
+            themes.forEach(th => {
+                const opt = document.createElement('option');
+                opt.value = th;
+                opt.textContent = window.translations[lang]?.['theme_' + th] || th;
+                opt.setAttribute('data-translate-key', 'theme_' + th);
+                themeSelect.appendChild(opt);
+            });
+            if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
+                themeSelect.value = currentVal;
+            }
+        };
 
         const showNext = () => {
             if (pool.length === 0) {
@@ -183,16 +225,23 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         openBtn?.addEventListener('click', () => api.open());
+        levelSelect?.addEventListener('change', populateThemes);
+        langSelect?.addEventListener('change', populateThemes);
 
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
         startBtn?.addEventListener('click', () => {
             const lang = document.getElementById('linker-lang').value;
             const level = document.getElementById('linker-level').value;
+            const theme = themeSelect.value;
             currentGameMode = document.getElementById('linker-mode')?.value || 'association';
 
             let allVocab = (window.vocabularyData[lang] || [])
                 .filter(v => v.theme !== 'famous_people'); // Exclude names from Word Linker
+
+            if (theme !== 'all') {
+                allVocab = allVocab.filter(v => v.theme === theme);
+            }
 
             // Filter by level (cumulative) if not "all"
             if (level !== 'all') {

@@ -423,6 +423,12 @@
                             </select>
                         </div>
                         <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_theme">Select Theme 🎨</label>
+                            <select id="debates-theme" class="pill-input game-theme" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Themes</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
                             <select id="debates-timer-duration" class="pill-input" style="width: 100%;">
                                 <option value="60" data-translate-key="timer_60s">60s</option>
@@ -498,6 +504,12 @@
                             </select>
                         </div>
                         <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_theme">Select Theme 🎨</label>
+                            <select id="talk-theme" class="pill-input game-theme" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Themes</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
                             <select id="talk-timer-duration" class="pill-input" style="width: 100%;">
                                 <option value="60" data-translate-key="timer_60s">60s</option>
@@ -554,6 +566,12 @@
                                 <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
                                 <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
                                 <option value="advanced" data-translate-key="advanced">Advanced</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_theme">Select Theme 🎨</label>
+                            <select id="opinion-theme" class="pill-input game-theme" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
                         <div class="setup-group" style="flex: 1;">
@@ -615,6 +633,12 @@
                             </select>
                         </div>
                         <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="select_theme">Select Theme 🎨</label>
+                            <select id="critics-theme" class="pill-input game-theme" style="width: 100%;">
+                                <option value="all" data-translate-key="theme_all">All Themes</option>
+                            </select>
+                        </div>
+                        <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
                             <select id="critics-timer-duration" class="pill-input" style="width: 100%;">
                                 <option value="60" data-translate-key="timer_60s">60s</option>
@@ -672,17 +696,25 @@
                 <label data-translate-key="emoji_story_title_label">Story Name 🏷️</label>
                 <input type="text" id="emoji-story-name-input" class="pill-input" style="width: 100%;" placeholder="Once upon a time...">
             </div>
-            <div class="setup-group" style="margin-top: 1rem;">
-                <label data-translate-key="select_level">Select Level 📊</label>
-                <select id="emoji-level" class="pill-input" style="width: 100%;">
-                    <option value="all" data-translate-key="level_all">All Levels</option>
+            <div class="setup-row" style="margin-top: 1rem; gap: 1rem;">
+                <div class="setup-group" style="flex: 1;">
+                    <label data-translate-key="select_level">Select Level 📊</label>
+                    <select id="emoji-level" class="pill-input game-level" style="width: 100%;">
+                        <option value="all" data-translate-key="level_all">All Levels</option>
                     <option value="starter" data-translate-key="starter">Starter</option>
                     <option value="elementary" data-translate-key="elementary">Elementary</option>
                     <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
                     <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
                     <option value="advanced" data-translate-key="advanced">Advanced</option>
-                    <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
-                </select>
+                        <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
+                    </select>
+                </div>
+                <div class="setup-group" style="flex: 1;">
+                    <label data-translate-key="select_theme">Select Theme 🎨</label>
+                    <select id="emoji-theme" class="pill-input game-theme" style="width: 100%;">
+                        <option value="all" data-translate-key="theme_all">All Themes</option>
+                    </select>
+                </div>
             </div>
             <button id="start-emoji-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
         </div>
@@ -810,17 +842,25 @@
                     <option value="odd_one" data-translate-key="linker_mode_odd_one">Odd One Out 🧐</option>
                 </select>
             </div>
-            <div class="setup-group" style="margin-top: 1rem;">
-                <label data-translate-key="select_level">Select Level 📊</label>
-                <select id="linker-level" class="pill-input" style="width: 100%;">
-                    <option value="all" data-translate-key="level_all">All Levels</option>
+            <div class="setup-row" style="margin-top: 1rem; gap: 1rem;">
+                <div class="setup-group" style="flex: 1;">
+                    <label data-translate-key="select_level">Select Level 📊</label>
+                    <select id="linker-level" class="pill-input game-level" style="width: 100%;">
+                        <option value="all" data-translate-key="level_all">All Levels</option>
                     <option value="starter" data-translate-key="starter">Starter</option>
                     <option value="elementary" data-translate-key="elementary">Elementary</option>
                     <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
                     <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
                     <option value="advanced" data-translate-key="advanced">Advanced</option>
-                    <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
-                </select>
+                        <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
+                    </select>
+                </div>
+                <div class="setup-group" style="flex: 1;">
+                    <label data-translate-key="select_theme">Select Theme 🎨</label>
+                    <select id="linker-theme" class="pill-input game-theme" style="width: 100%;">
+                        <option value="all" data-translate-key="theme_all">All Themes</option>
+                    </select>
+                </div>
             </div>
             <button id="start-linker-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
         </div>
