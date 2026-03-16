@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 storyArea.style.display = 'none';
                 storyDisplay.textContent = '';
                 storyNameDisplay.textContent = '';
+                populateThemes();
             },
             start: () => startBtn.click()
         };
@@ -32,6 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const display = document.getElementById('emoji-display-large');
         const optionsGrid = document.getElementById('emoji-options');
         const feedback = document.getElementById('emoji-feedback');
+        const levelSelect = document.getElementById('emoji-level');
+        const langSelect = document.getElementById('emoji-lang');
+        const themeSelect = document.getElementById('emoji-theme');
 
         // Mode specific elements
         const guessArea = document.getElementById('emoji-guess-area');
@@ -44,6 +48,44 @@ document.addEventListener('DOMContentLoaded', () => {
         let pool = [];
         let currentGameMode = 'guess';
         let storyName = '';
+
+        const populateThemes = () => {
+            if (!themeSelect) return;
+            const level = levelSelect.value;
+            const lang = langSelect.value;
+
+            const currentVal = themeSelect.value;
+            themeSelect.innerHTML = '<option value="all" data-translate-key="theme_all">' + (window.translations[lang]?.theme_all || 'All Themes') + '</option>';
+
+            let themes = [];
+            if (level !== 'all' && window.themeConfig && window.themeConfig[level]) {
+                const levelData = window.themeConfig[level];
+                if (level === 'starter') {
+                    if (levelData.A0) Object.keys(levelData.A0.themes).forEach(val => themes.push(val));
+                    if (levelData.A1) Object.keys(levelData.A1.themes).forEach(val => themes.push(val));
+                } else if (levelData.themes) {
+                    Object.keys(levelData.themes).forEach(val => themes.push(val));
+                }
+            } else {
+                const vd = window.vocabularyData && window.vocabularyData[lang] || [];
+                const availableThemes = new Set();
+                vd.forEach(item => {
+                    if (level === 'all' || item.level === level) availableThemes.add(item.theme);
+                });
+                themes = Array.from(availableThemes).sort();
+            }
+
+            themes.forEach(th => {
+                const opt = document.createElement('option');
+                opt.value = th;
+                opt.textContent = window.translations[lang]?.['theme_' + th] || th;
+                opt.setAttribute('data-translate-key', 'theme_' + th);
+                themeSelect.appendChild(opt);
+            });
+            if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
+                themeSelect.value = currentVal;
+            }
+        };
 
         const getRandomEmojis = (count) => {
             const emojis = window.emojiData || [];
@@ -170,16 +212,24 @@ document.addEventListener('DOMContentLoaded', () => {
             if (storySetupExtra) storySetupExtra.style.display = 'none';
         });
 
+        levelSelect?.addEventListener('change', populateThemes);
+        langSelect?.addEventListener('change', populateThemes);
+
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
         startBtn?.addEventListener('click', () => {
             currentGameMode = modeSelect.value;
             const lang = document.getElementById('emoji-lang').value;
             const level = document.getElementById('emoji-level')?.value || 'all';
+            const theme = themeSelect.value;
 
             if (currentGameMode === 'guess') {
                 let vocab = (window.vocabularyData[lang] || [])
                     .filter(v => v.theme !== 'famous_people'); // Never include names in Emoji Odyssey
+
+                if (theme !== 'all') {
+                    vocab = vocab.filter(v => v.theme === theme);
+                }
 
                 if (level !== 'all') {
                     const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
