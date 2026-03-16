@@ -17,6 +17,48 @@ document.addEventListener('DOMContentLoaded', () => {
         const promptList = modal.querySelector('.prompt-questions');
         const themeSelect = modal.querySelector('.game-theme');
 
+        const populateThemes = () => {
+            if (!themeSelect) return;
+            const levelSelect = modal.querySelector('.game-level');
+            const langSelect = modal.querySelector('.game-lang');
+            if (!levelSelect || !langSelect) return;
+
+            const level = levelSelect.value;
+            const lang = langSelect.value;
+
+            const currentVal = themeSelect.value;
+            themeSelect.innerHTML = '<option value="all" data-translate-key="level_all">' + (window.translations[lang]?.level_all || 'All Themes') + '</option>';
+
+            let themes = [];
+            if (level !== 'all' && window.themeConfig && window.themeConfig[level]) {
+                const levelData = window.themeConfig[level];
+                if (level === 'starter') {
+                    if (levelData.A0) Object.keys(levelData.A0.themes).forEach(val => themes.push(val));
+                    if (levelData.A1) Object.keys(levelData.A1.themes).forEach(val => themes.push(val));
+                } else if (levelData.themes) {
+                    Object.keys(levelData.themes).forEach(val => themes.push(val));
+                }
+            } else {
+                const vd = window.vocabularyData && window.vocabularyData[lang] || [];
+                const availableThemes = new Set();
+                vd.forEach(item => {
+                    if (level === 'all' || item.level === level) availableThemes.add(item.theme);
+                });
+                themes = Array.from(availableThemes).sort();
+            }
+
+            themes.forEach(th => {
+                const opt = document.createElement('option');
+                opt.value = th;
+                opt.textContent = window.translations[lang]?.['theme_' + th] || th;
+                opt.setAttribute('data-translate-key', 'theme_' + th);
+                themeSelect.appendChild(opt);
+            });
+            if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
+                themeSelect.value = currentVal;
+            }
+        };
+
         let pool = [];
         let currentItem = null;
         let hintsRevealed = 0;
@@ -70,9 +112,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
+            populateThemes();
         };
 
         openBtn?.addEventListener('click', openGame);
+        modal.querySelector('.game-level')?.addEventListener('change', populateThemes);
+        modal.querySelector('.game-lang')?.addEventListener('change', populateThemes);
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
         const startGame = () => {
@@ -81,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const level = modal.querySelector('.game-level').value;
 
             const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
-            pool = vocab.filter(item => item.theme === theme);
+            pool = vocab.filter(item => theme === 'all' || item.theme === theme);
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];

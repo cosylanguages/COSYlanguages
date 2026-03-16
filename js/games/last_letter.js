@@ -36,6 +36,45 @@
         soloCheck: document.getElementById('last-letter-solo-mode')
     };
 
+    const populateThemes = () => {
+        const themeSelect = elements.themeSelect;
+        if (!themeSelect) return;
+        const level = elements.levelSelect.value;
+        const lang = elements.langSelect.value;
+
+        const currentVal = themeSelect.value;
+        themeSelect.innerHTML = '<option value="all" data-translate-key="level_all">' + (window.translations[lang]?.level_all || 'All Themes') + '</option>';
+
+        let themes = [];
+        if (level !== 'all' && window.themeConfig && window.themeConfig[level]) {
+            const levelData = window.themeConfig[level];
+            if (level === 'starter') {
+                if (levelData.A0) Object.keys(levelData.A0.themes).forEach(val => themes.push(val));
+                if (levelData.A1) Object.keys(levelData.A1.themes).forEach(val => themes.push(val));
+            } else if (levelData.themes) {
+                Object.keys(levelData.themes).forEach(val => themes.push(val));
+            }
+        } else {
+            const vd = window.vocabularyData && window.vocabularyData[lang] || [];
+            const availableThemes = new Set();
+            vd.forEach(item => {
+                if (level === 'all' || item.level === level) availableThemes.add(item.theme);
+            });
+            themes = Array.from(availableThemes).sort();
+        }
+
+        themes.forEach(th => {
+            const opt = document.createElement('option');
+            opt.value = th;
+            opt.textContent = window.translations[lang]?.['theme_' + th] || th;
+            opt.setAttribute('data-translate-key', 'theme_' + th);
+            themeSelect.appendChild(opt);
+        });
+        if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
+            themeSelect.value = currentVal;
+        }
+    };
+
     const game = {
         open() {
             elements.modal.style.display = 'flex';
@@ -45,6 +84,7 @@
             // Sync UI with current global language if any
             const currentLang = getLang();
             if (currentLang) elements.langSelect.value = currentLang;
+            populateThemes();
         },
 
         close() {
@@ -216,6 +256,8 @@
     elements.openBtn.onclick = () => game.open();
     elements.closeBtn.onclick = () => game.close();
     elements.startBtn.onclick = () => game.start();
+    elements.levelSelect.onchange = () => populateThemes();
+    elements.langSelect.onchange = () => populateThemes();
     elements.submitBtn.onclick = () => game.submitWord();
     elements.hintBtn.onclick = () => game.getHint();
 

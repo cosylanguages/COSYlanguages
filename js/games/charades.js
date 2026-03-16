@@ -20,6 +20,44 @@ document.addEventListener('DOMContentLoaded', () => {
         const scoreVal = document.getElementById('charades-score-val');
         const themeSelect = document.getElementById('charades-theme');
 
+        const populateThemes = () => {
+            if (!themeSelect) return;
+            const level = document.getElementById('charades-level').value;
+            const lang = document.getElementById('charades-lang').value;
+
+            const currentVal = themeSelect.value;
+            themeSelect.innerHTML = '<option value="all" data-translate-key="level_all">' + (window.translations[lang]?.level_all || 'All Themes') + '</option>';
+
+            let themes = [];
+            if (level !== 'all' && window.themeConfig && window.themeConfig[level]) {
+                const levelData = window.themeConfig[level];
+                if (level === 'starter') {
+                    if (levelData.A0) Object.keys(levelData.A0.themes).forEach(val => themes.push(val));
+                    if (levelData.A1) Object.keys(levelData.A1.themes).forEach(val => themes.push(val));
+                } else if (levelData.themes) {
+                    Object.keys(levelData.themes).forEach(val => themes.push(val));
+                }
+            } else {
+                const vd = window.vocabularyData && window.vocabularyData[lang] || [];
+                const availableThemes = new Set();
+                vd.forEach(item => {
+                    if (level === 'all' || item.level === level) availableThemes.add(item.theme);
+                });
+                themes = Array.from(availableThemes).sort();
+            }
+
+            themes.forEach(th => {
+                const opt = document.createElement('option');
+                opt.value = th;
+                opt.textContent = window.translations[lang]?.['theme_' + th] || th;
+                opt.setAttribute('data-translate-key', 'theme_' + th);
+                themeSelect.appendChild(opt);
+            });
+            if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
+                themeSelect.value = currentVal;
+            }
+        };
+
         let pool = [];
         let masterPool = [];
         let score = 0;
@@ -52,9 +90,12 @@ document.addEventListener('DOMContentLoaded', () => {
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
             resultArea.style.display = 'none';
+            populateThemes();
         };
 
         openBtn?.addEventListener('click', openCharades);
+        document.getElementById('charades-level')?.addEventListener('change', populateThemes);
+        document.getElementById('charades-lang')?.addEventListener('change', populateThemes);
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
         const startCharades = () => {

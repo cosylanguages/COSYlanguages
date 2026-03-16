@@ -126,7 +126,7 @@
                 <div id="charades-setup">
                     <div class="setup-group" style="text-align: left; margin-bottom: 1rem;">
                         <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="charades-lang" class="pill-input" style="width: 100%;">
+                        <select id="charades-lang" class="pill-input game-lang" class="pill-input" style="width: 100%;">
                             <option value="en">English 🇬🇧</option>
                             <option value="fr">Français 🇫🇷</option>
                             <option value="it">Italiano 🇮🇹</option>
@@ -138,8 +138,8 @@
                     <div class="setup-row" style="margin-bottom: 1rem;">
                         <div class="setup-group" style="flex: 1; text-align: left;">
                             <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="charades-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                            <select id="charades-level" class="pill-input game-level" class="pill-input" style="width: 100%;">
+                                <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter</option>
                                 <option value="elementary" data-translate-key="elementary">Elementary</option>
                                 <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
@@ -150,24 +150,7 @@
                         </div>
                         <div class="setup-group" style="flex: 1; text-align: left;">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="charades-theme" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Themes</option>
-                                <option value="profession" data-translate-key="theme_profession">Professions 🧑‍🔧</option>
-                                <option value="family" data-translate-key="theme_family">Family 👨‍👩‍👧‍👦</option>
-                                <option value="country" data-translate-key="theme_country">Countries 🗺️</option>
-                                <option value="nationality" data-translate-key="theme_nationality">Nationalities 🏳️</option>
-                                <option value="city" data-translate-key="theme_city">Cities 🏙️</option>
-                                <option value="animal" data-translate-key="theme_animal">Animals 🐾</option>
-                                <option value="famous_people" data-translate-key="theme_famous_people">Famous People 🌟</option>
-                                <option value="daily_life" data-translate-key="daily_life">Daily Life 🛒</option>
-                                <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
-                                <option value="travel_places" data-translate-key="theme_places">Travel & Places 📍</option>
-                                <option value="leisure_hobbies" data-translate-key="theme_hobby">Leisure & Hobbies 🎨</option>
-                                <option value="science_technology" data-translate-key="theme_technology">Science & Technology 📱</option>
-                                <option value="health_body" data-translate-key="theme_health">Health & Body 🦷</option>
-                                <option value="education_work" data-translate-key="theme_education">Education & Work 🎓</option>
-                            </select>
-                        </div>
+                                <select id="charades-theme" class="pill-input game-theme" style="width: 100%;"><option value="all" data-translate-key="theme_all">All Themes</option></select></div>
                     </div>
                     <div class="setup-row" style="margin-bottom: 1rem;">
                         <div class="setup-group" style="flex: 1; text-align: left;">
@@ -232,7 +215,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_level">Select Level 📊</label>
                             <select class="pill-input game-level" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter</option>
                                 <option value="elementary" data-translate-key="elementary">Elementary</option>
                                 <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
@@ -244,10 +227,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select class="pill-input game-theme" style="width: 100%;">
-                                <option value="profession" data-translate-key="theme_profession">Professions 🧑‍🔧</option>
-                                <option value="family" data-translate-key="theme_family">Family 👨‍👩‍👧‍👦</option>
-                                <option value="animal" data-translate-key="theme_animal">Animals 🐾</option>
-                                <option value="famous_people" data-translate-key="theme_famous_people">Famous People 🌟</option>
+                                <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
                     </div>
@@ -297,7 +277,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_level">Select Level 📊</label>
                             <select class="pill-input game-level" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter</option>
                                 <option value="elementary" data-translate-key="elementary">Elementary</option>
                                 <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
@@ -309,17 +289,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select class="pill-input game-theme" style="width: 100%;">
-                                <option value="daily_life" data-translate-key="daily_life">Daily Life 🛒</option>
-                                <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
-                                <option value="travel_places" data-translate-key="theme_places">Travel & Places 📍</option>
-                                <option value="leisure_hobbies" data-translate-key="theme_hobby">Leisure & Hobbies 🎨</option>
-                                <option value="science_technology" data-translate-key="theme_technology">Science & Technology 📱</option>
-                                <option value="health_body" data-translate-key="theme_health">Health & Body 🦷</option>
-                                <option value="country" data-translate-key="theme_country">Countries 🗺️</option>
-                                <option value="nationality" data-translate-key="theme_nationality">Nationalities 🏳️</option>
-                                <option value="city" data-translate-key="theme_city">Cities 🏙️</option>
-                                <option value="nature_environment" data-translate-key="theme_environment">Nature & Environment 🌿</option>
-                                <option value="education_work" data-translate-key="theme_education">Education & Work 🎓</option>
+                                <option value="all" data-translate-key="theme_all">All Themes</option>
                             </select>
                         </div>
                     </div>
@@ -444,7 +414,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_level">Select Level 📊</label>
                             <select id="debates-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter</option>
                                 <option value="elementary" data-translate-key="elementary">Elementary</option>
                                 <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
@@ -520,7 +490,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_level">Select Level 📊</label>
                             <select id="talk-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter</option>
                                 <option value="elementary" data-translate-key="elementary">Elementary</option>
                                 <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
@@ -579,7 +549,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_level">Select Level 📊</label>
                             <select id="opinion-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter</option>
                                 <option value="elementary" data-translate-key="elementary">Elementary</option>
                                 <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
@@ -639,7 +609,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_level">Select Level 📊</label>
                             <select id="critics-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
                                 <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
                                 <option value="advanced" data-translate-key="advanced">Advanced</option>
@@ -764,7 +734,7 @@
                         <div class="setup-group" style="flex: 1;">
                             <label data-translate-key="select_level">Select Level 📊</label>
                             <select id="last-letter-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Levels</option>
+                                <option value="all" data-translate-key="level_all">All Levels</option>
                                 <option value="starter" data-translate-key="starter">Starter</option>
                                 <option value="elementary" data-translate-key="elementary">Elementary</option>
                                 <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
@@ -777,11 +747,6 @@
                             <label data-translate-key="select_theme">Select Theme 🎨</label>
                             <select id="last-letter-theme" class="pill-input" style="width: 100%;">
                                 <option value="all" data-translate-key="theme_all">All Themes</option>
-                                <option value="profession" data-translate-key="theme_profession">Professions 🧑‍🔧</option>
-                                <option value="animal" data-translate-key="theme_animal">Animals 🐾</option>
-                                <option value="food_drinks" data-translate-key="theme_food_drinks">Food & Drinks 🍕</option>
-                                <option value="travel_places" data-translate-key="theme_places">Travel & Places 📍</option>
-                                <option value="daily_life" data-translate-key="daily_life">Daily Life 🛒</option>
                             </select>
                         </div>
                     </div>
