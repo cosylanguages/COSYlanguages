@@ -394,6 +394,13 @@
                                 <option value="alphabet" data-translate-key="bingo_alphabet">Alphabet</option>
                             </select>
                         </div>
+                        <div class="setup-group" style="flex: 1;">
+                            <label data-translate-key="bingo_content_label">Card Content 🃏</label>
+                            <select id="bingo-content-type" class="pill-input" style="width: 100%;">
+                                <option value="numbers" data-translate-key="bingo_content_numbers">Numbers 🔢</option>
+                                <option value="words" data-translate-key="bingo_content_words">Words 🔤</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="setup-group" style="margin-bottom: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
                         <label class="toggle-chip">
@@ -427,6 +434,12 @@
                         <h3 data-translate-key="bingo_your_card">Your Card</h3>
                         <div style="font-size: 0.8rem; color: #888;"><span data-translate-key="bingo_card_label">Card #</span><span id="bingo-card-num-display">1</span></div>
                     </div>
+
+                    <div id="bingo-player-last-called-container" style="margin: 1rem 0; padding: 1rem; background: rgba(0,0,0,0.03); border-radius: 15px;">
+                        <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-bottom: 0.5rem;" data-translate-key="bingo_last_called_label">Last Called</div>
+                        <div id="bingo-player-last-called" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color);">---</div>
+                    </div>
+
                     <div id="bingo-player-grid" class="bingo-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 1.5rem 0;">
                         <!-- Cells added by JS -->
                     </div>
