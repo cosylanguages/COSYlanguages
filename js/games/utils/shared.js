@@ -120,7 +120,15 @@ const speak = (text, lang) => {
         'fr': 'fr-FR',
         'it': 'it-IT',
         'ru': 'ru-RU',
-        'el': 'el-GR'
+        'el': 'el-GR',
+        'es': 'es-ES',
+        'de': 'de-DE',
+        'pt': 'pt-PT',
+        'hy': 'hy-AM',
+        'ka': 'ka-GE',
+        'tt': 'ru-RU', // Fallback for Tatar/Bashkir to Russian voice if specific not available
+        'ba': 'ru-RU',
+        'br': 'fr-FR'  // Fallback for Breton to French
     };
 
     const targetLang = langMap[lang] || lang || 'en-GB';

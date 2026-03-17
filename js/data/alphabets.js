@@ -3,6 +3,14 @@ const alphabetsData = {
     "fr": "abcdefghijklmnopqrstuvwxyz",
     "it": "abcdefghijklmnopqrstuvwxyz",
     "ru": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
-    "el": "αβγδεζηθικλμνξοπρστυφχψω"
+    "el": "αβγδεζηθικλμνξοπρστυφχψω",
+    "es": "abcdefghijklmnñopqrstuvwxyz",
+    "de": "abcdefghijklmnopqrstuvwxyzäöüß",
+    "pt": "abcdefghijklmnopqrstuvwxyz",
+    "hy": "աբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆև",
+    "ka": "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
+    "tt": "абвгдеёжзийклмнопрстуфхцчшщъыьэюяәҗңөүһ",
+    "ba": "абвгдеёжзийклмнопрстуфхцчшщъыьэюяәғҙҡңөҫүһ",
+    "br": "abcdefghijklmnoprstuvwyz"
 };
 window.alphabetsData = alphabetsData;

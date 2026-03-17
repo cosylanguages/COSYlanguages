@@ -242,13 +242,13 @@ const speakingData = {
             {"topic": "Meat vs vegetables — which is more important in a meal?", "sideA": "Meat", "sideB": "Vegetables", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
             {"topic": "House vs flat — which is better to live in?", "sideA": "House", "sideB": "Flat", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "City vs village — which is a better place to live?", "sideA": "City", "sideB": "Village", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Cash vs card — which is better to pay with?", "sideA": "Cash", "sideB": "Card", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Saving money vs spending money — which is better?", "sideA": "Saving", "sideB": "Spending", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Renting vs buying — which is better?", "sideA": "Renting", "sideB": "Buying", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Morning work vs evening work — which is better?", "sideA": "Morning", "sideB": "Evening", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Cash vs card — which is better to pay with?", "sideA": "Cash", "sideB": "Card", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Saving money vs spending money — which is better?", "sideA": "Saving", "sideB": "Spending", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Renting vs buying — which is better?", "sideA": "Renting", "sideB": "Buying", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Morning work vs evening work — which is better?", "sideA": "Morning", "sideB": "Evening", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Car vs bus — which is better to go to work?", "sideA": "Car", "sideB": "Bus", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Walking vs driving — which is better in the city?", "sideA": "Walking", "sideB": "Driving", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Office vs home — which is a better place to work?", "sideA": "Office", "sideB": "Home", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Office vs home — which is a better place to work?", "sideA": "Office", "sideB": "Home", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Morning person vs night person — which is better?", "sideA": "Morning", "sideB": "Night", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "Summer vs winter — which season is better?", "sideA": "Summer", "sideB": "Winter", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
             {"topic": "Short holiday vs long holiday — which is better?", "sideA": "Short", "sideB": "Long", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
@@ -723,7 +723,7 @@ const speakingData = {
                 "sideA": "Pencil",
                 "sideB": "Pen",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -732,7 +732,7 @@ const speakingData = {
                 "sideA": "Book",
                 "sideB": "Picture",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2438,7 +2438,7 @@ const speakingData = {
             {
                 "topic": "My dream job and why",
                 "level": "starter",
-                "theme": "education_work"
+                "theme": "work_A1"
             },
             {
                 "topic": "The impact of climate change on local communities",
@@ -2695,13 +2695,13 @@ const speakingData = {
             {"topic": "Viande vs légumes — qu'est-ce qui est le plus important dans un repas ?", "sideA": "Viande", "sideB": "Légumes", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
             {"topic": "Maison vs appartement — où est-il préférable de vivre ?", "sideA": "Maison", "sideB": "Appartement", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "Ville vs village — quel est le meilleur endroit pour vivre ?", "sideA": "Ville", "sideB": "Village", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Espèces vs carte — avec quoi est-il préférable de payer ?", "sideA": "Espèces", "sideB": "Carte", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Économiser de l'argent vs dépenser de l'argent — qu'est-ce qui est mieux ?", "sideA": "Économiser", "sideB": "Dépenser", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Louer vs acheter — qu'est-ce qui est mieux ?", "sideA": "Louer", "sideB": "Acheter", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Travail du matin vs travail du soir — qu'est-ce qui est mieux ?", "sideA": "Matin", "sideB": "Soir", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Espèces vs carte — avec quoi est-il préférable de payer ?", "sideA": "Espèces", "sideB": "Carte", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Économiser de l'argent vs dépenser de l'argent — qu'est-ce qui est mieux ?", "sideA": "Économiser", "sideB": "Dépenser", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Louer vs acheter — qu'est-ce qui est mieux ?", "sideA": "Louer", "sideB": "Acheter", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Travail du matin vs travail du soir — qu'est-ce qui est mieux ?", "sideA": "Matin", "sideB": "Soir", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Voiture vs bus — qu'est-ce qui est mieux pour aller au travail ?", "sideA": "Voiture", "sideB": "Bus", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Marcher vs conduire — qu'est-ce qui est mieux en ville ?", "sideA": "Marcher", "sideB": "Conduire", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Bureau vs maison — quel est le meilleur endroit pour travailler ?", "sideA": "Bureau", "sideB": "Maison", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Bureau vs maison — quel est le meilleur endroit pour travailler ?", "sideA": "Bureau", "sideB": "Maison", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Lève-tôt vs couche-tard — qu'est-ce qui est mieux ?", "sideA": "Lève-tôt", "sideB": "Couche-tard", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "Été vs hiver — quelle saison est la meilleure ?", "sideA": "Été", "sideB": "Hiver", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
             {"topic": "Vacances courtes vs vacances longues — qu'est-ce qui est mieux ?", "sideA": "Courtes", "sideB": "Longues", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
@@ -3176,7 +3176,7 @@ const speakingData = {
                 "sideA": "Crayon",
                 "sideB": "Stylo",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3185,7 +3185,7 @@ const speakingData = {
                 "sideA": "Livre",
                 "sideB": "Image",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4891,7 +4891,7 @@ const speakingData = {
             {
                 "topic": "Le métier de mes rêves et pourquoi",
                 "level": "starter",
-                "theme": "education_work"
+                "theme": "work_A1"
             },
             {
                 "topic": "L'impact du changement climatique sur les communautés locales",
@@ -5148,13 +5148,13 @@ const speakingData = {
             {"topic": "Carne vs verdure — cosa è più importante in un pasto?", "sideA": "Carne", "sideB": "Verdure", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
             {"topic": "Casa vs appartamento — dove è meglio vivere?", "sideA": "Casa", "sideB": "Appartamento", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "Città vs villaggio — qual è il posto migliore dove vivere?", "sideA": "Città", "sideB": "Villaggio", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Contanti vs carta — con cosa è meglio pagare?", "sideA": "Contanti", "sideB": "Carta", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Risparmiare denaro vs spendere denaro — cosa è meglio?", "sideA": "Risparmiare", "sideB": "Spendere", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Affittare vs comprare — cosa è meglio?", "sideA": "Affittare", "sideB": "Comprare", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Lavoro al mattino vs lavoro alla sera — cosa è meglio?", "sideA": "Mattino", "sideB": "Sera", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Contanti vs carta — con cosa è meglio pagare?", "sideA": "Contanti", "sideB": "Carta", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Risparmiare denaro vs spendere denaro — cosa è meglio?", "sideA": "Risparmiare", "sideB": "Spendere", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Affittare vs comprare — cosa è meglio?", "sideA": "Affittare", "sideB": "Comprare", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Lavoro al mattino vs lavoro alla sera — cosa è meglio?", "sideA": "Mattino", "sideB": "Sera", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Auto vs autobus — cosa è meglio per andare al lavoro?", "sideA": "Auto", "sideB": "Autobus", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Camminare vs guidare — cosa è meglio in città?", "sideA": "Camminare", "sideB": "Guidare", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Ufficio vs casa — qual è il posto migliore per lavorare?", "sideA": "Ufficio", "sideB": "Casa", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Ufficio vs casa — qual è il posto migliore per lavorare?", "sideA": "Ufficio", "sideB": "Casa", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Mattiniero vs nottambulo — cosa è meglio?", "sideA": "Mattiniero", "sideB": "Nottambulo", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "Estate vs inverno — quale stagione è la migliore?", "sideA": "Estate", "sideB": "Inverno", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
             {"topic": "Vacanza breve vs vacanza lunga — cosa è meglio?", "sideA": "Breve", "sideB": "Lunga", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
@@ -5629,7 +5629,7 @@ const speakingData = {
                 "sideA": "Matita",
                 "sideB": "Penna",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5638,7 +5638,7 @@ const speakingData = {
                 "sideA": "Libro",
                 "sideB": "Immagine",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7344,7 +7344,7 @@ const speakingData = {
             {
                 "topic": "Il lavoro dei miei sogni e perché",
                 "level": "starter",
-                "theme": "education_work"
+                "theme": "work_A1"
             },
             {
                 "topic": "L'impatto del cambiamento climatico sulle comunità locali",
@@ -7601,13 +7601,13 @@ const speakingData = {
             {"topic": "Мясо или овощи — что важнее в еде?", "sideA": "Мясо", "sideB": "Овощи", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
             {"topic": "Дом или квартира — где лучше жить?", "sideA": "Дом", "sideB": "Квартира", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "Город или деревня — где лучше жить?", "sideA": "Город", "sideB": "Деревня", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Наличные или карта — чем лучше платить?", "sideA": "Наличные", "sideB": "Карта", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Копить деньги или тратить их — что лучше?", "sideA": "Копить", "sideB": "Тратить", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Аренда или покупка — что лучше?", "sideA": "Аренда", "sideB": "Покупка", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Работа утром или работа вечером — что лучше?", "sideA": "Утром", "sideB": "Вечером", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Наличные или карта — чем лучше платить?", "sideA": "Наличные", "sideB": "Карта", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Копить деньги или тратить их — что лучше?", "sideA": "Копить", "sideB": "Тратить", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Аренда или покупка — что лучше?", "sideA": "Аренда", "sideB": "Покупка", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Работа утром или работа вечером — что лучше?", "sideA": "Утром", "sideB": "Вечером", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Машина или автобус — на чем лучше ездить на работу?", "sideA": "Машина", "sideB": "Автобус", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Ходить пешком или водить машину — что лучше в городе?", "sideA": "Пешком", "sideB": "Машина", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Офис или дом — где лучше работать?", "sideA": "Офис", "sideB": "Дом", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Офис или дом — где лучше работать?", "sideA": "Офис", "sideB": "Дом", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Жаворонок или сова — что лучше?", "sideA": "Жаворонок", "sideB": "Сова", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "Лето или зима — какое время года лучше?", "sideA": "Лето", "sideB": "Зима", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
             {"topic": "Короткий отпуск или длинный отпуск — что лучше?", "sideA": "Короткий", "sideB": "Длинный", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
@@ -8082,7 +8082,7 @@ const speakingData = {
                 "sideA": "Карандаш",
                 "sideB": "Ручка",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8091,7 +8091,7 @@ const speakingData = {
                 "sideA": "Книга",
                 "sideB": "Картинка",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9797,7 +9797,7 @@ const speakingData = {
             {
                 "topic": "Работа моей мечты и почему",
                 "level": "starter",
-                "theme": "education_work"
+                "theme": "work_A1"
             },
             {
                 "topic": "Влияние изменения климата на местные сообщества",
@@ -10054,13 +10054,13 @@ const speakingData = {
             {"topic": "Κρέας εναντίον λαχανικών — τι είναι πιο σημαντικό σε ένα γεύμα;", "sideA": "Κρέας", "sideB": "Λαχανικά", "level": "starter", "theme": "food_drink_A0", "ideasA": [], "ideasB": []},
             {"topic": "Σπίτι εναντίον διαμερίσματος — πού είναι καλύτερα να ζεις;", "sideA": "Σπίτι", "sideB": "Διαμέρισμα", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "Πόλη εναντίον χωριού — ποιο είναι το καλύτερο μέρος για να ζεις;", "sideA": "Πόλη", "sideB": "Χωριό", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Μετρητά εναντίον κάρτας — με τι είναι καλύτερο να πληρώνεις;", "sideA": "Μετρητά", "sideB": "Κάρτα", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Αποταμίευση χρημάτων εναντίον ξοδέματος χρημάτων — τι είναι καλύτερο;", "sideA": "Αποταμίευση", "sideB": "Ξόδεμα", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Ενοικίαση εναντίον αγοράς — τι είναι καλύτερο;", "sideA": "Ενοικίαση", "sideB": "Αγορά", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
-            {"topic": "Πρωινή εργασία εναντίον βραδινής εργασίας — τι είναι καλύτερο;", "sideA": "Πρωί", "sideB": "Βράδυ", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Μετρητά εναντίον κάρτας — με τι είναι καλύτερο να πληρώνεις;", "sideA": "Μετρητά", "sideB": "Κάρτα", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Αποταμίευση χρημάτων εναντίον ξοδέματος χρημάτων — τι είναι καλύτερο;", "sideA": "Αποταμίευση", "sideB": "Ξόδεμα", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Ενοικίαση εναντίον αγοράς — τι είναι καλύτερο;", "sideA": "Ενοικίαση", "sideB": "Αγορά", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
+            {"topic": "Πρωινή εργασία εναντίον βραδινής εργασίας — τι είναι καλύτερο;", "sideA": "Πρωί", "sideB": "Βράδυ", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Αυτοκίνητο εναντίον λεωφορείου — τι είναι καλύτερο για να πας στη δουλειά;", "sideA": "Αυτοκίνητο", "sideB": "Λεωφορείο", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
             {"topic": "Περπάτημα εναντίον οδήγησης — τι είναι καλύτερο στην πόλη;", "sideA": "Περπάτημα", "sideB": "Οδήγηση", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
-            {"topic": "Γραφείο εναντίον σπιτιού — ποιο είναι το καλύτερο μέρος για εργασία;", "sideA": "Γραφείο", "sideB": "Σπίτι", "level": "starter", "theme": "education_work", "ideasA": [], "ideasB": []},
+            {"topic": "Γραφείο εναντίον σπιτιού — ποιο είναι το καλύτερο μέρος για εργασία;", "sideA": "Γραφείο", "sideB": "Σπίτι", "level": "starter", "theme": "work_A1", "ideasA": [], "ideasB": []},
             {"topic": "Πρωινός τύπος εναντίον βραδινού τύπου — τι είναι καλύτερο;", "sideA": "Πρωινός", "sideB": "Βραδινός", "level": "starter", "theme": "home_A0", "ideasA": [], "ideasB": []},
             {"topic": "Καλοκαίρι εναντίον χειμώνα — ποια εποχή είναι καλύτερη;", "sideA": "Καλοκαίρι", "sideB": "Χειμώνας", "level": "starter", "theme": "weather_A0", "ideasA": [], "ideasB": []},
             {"topic": "Σύντομες διακοπές εναντίον μεγάλων διακοπών — τι είναι καλύτερο;", "sideA": "Σύντομες", "sideB": "Μεγάλες", "level": "starter", "theme": "places_A0", "ideasA": [], "ideasB": []},
@@ -10535,7 +10535,7 @@ const speakingData = {
                 "sideA": "Μολύβι",
                 "sideB": "Στυλό",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10544,7 +10544,7 @@ const speakingData = {
                 "sideA": "Βιβλίο",
                 "sideB": "Εικόνα",
                 "level": "starter",
-                "theme": "education_work",
+                "theme": "work_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12250,7 +12250,7 @@ const speakingData = {
             {
                 "topic": "Η δουλειά των ονείρων μου και γιατί",
                 "level": "starter",
-                "theme": "education_work"
+                "theme": "work_A1"
             },
             {
                 "topic": "Ο αντίκτυπος της κλιματικής αλλαγής στις τοπικές κοινότητες",

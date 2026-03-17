@@ -55,26 +55,68 @@
                 <!-- 1. Language Selection -->
                 <div class="setup-group full-width">
                     <label data-translate-key="select_practice_language">1. Select language to practice 🌍</label>
-                    <div class="lang-selection-grid" id="lang-selection-grid">
-                        <div class="lang-selection-card active" data-value="en">
-                            <span class="flag">🇬🇧</span>
-                            <span class="name" data-translate-key="english">English</span>
+
+                    <div class="lang-selection-container">
+                        <div class="lang-group taught-languages">
+                            <div class="lang-selection-grid" id="lang-selection-grid-main">
+                                <div class="lang-selection-card active highlighted" data-value="en">
+                                    <span class="flag">🇬🇧</span>
+                                    <span class="name" data-translate-key="english">English</span>
+                                </div>
+                                <div class="lang-selection-card highlighted" data-value="fr">
+                                    <span class="flag">🇫🇷</span>
+                                    <span class="name" data-translate-key="french">Français</span>
+                                </div>
+                                <div class="lang-selection-card highlighted" data-value="it">
+                                    <span class="flag">🇮🇹</span>
+                                    <span class="name" data-translate-key="italian">Italiano</span>
+                                </div>
+                                <div class="lang-selection-card highlighted" data-value="ru">
+                                    <span class="flag">🇷🇺</span>
+                                    <span class="name" data-translate-key="russian">Русский</span>
+                                </div>
+                                <div class="lang-selection-card highlighted" data-value="el">
+                                    <span class="flag">🇬🇷</span>
+                                    <span class="name" data-translate-key="greek">Ελληνικά</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="lang-selection-card" data-value="fr">
-                            <span class="flag">🇫🇷</span>
-                            <span class="name" data-translate-key="french">Français</span>
-                        </div>
-                        <div class="lang-selection-card" data-value="it">
-                            <span class="flag">🇮🇹</span>
-                            <span class="name" data-translate-key="italian">Italiano</span>
-                        </div>
-                        <div class="lang-selection-card" data-value="ru">
-                            <span class="flag">🇷🇺</span>
-                            <span class="name" data-translate-key="russian">Русский</span>
-                        </div>
-                        <div class="lang-selection-card" data-value="el">
-                            <span class="flag">🇬🇷</span>
-                            <span class="name" data-translate-key="greek">Ελληνικά</span>
+
+                        <div class="lang-group other-languages">
+                            <div class="lang-selection-grid compact" id="lang-selection-grid-other">
+                                <div class="lang-selection-card" data-value="es">
+                                    <span class="flag">🇪🇸</span>
+                                    <span class="name" data-translate-key="spanish">Español</span>
+                                </div>
+                                <div class="lang-selection-card" data-value="de">
+                                    <span class="flag">🇩🇪</span>
+                                    <span class="name" data-translate-key="german">Deutsch</span>
+                                </div>
+                                <div class="lang-selection-card" data-value="pt">
+                                    <span class="flag">🇵🇹</span>
+                                    <span class="name" data-translate-key="portuguese">Português</span>
+                                </div>
+                                <div class="lang-selection-card" data-value="hy">
+                                    <span class="flag">🇦🇲</span>
+                                    <span class="name" data-translate-key="armenian">Հայերեն</span>
+                                </div>
+                                <div class="lang-selection-card" data-value="ka">
+                                    <span class="flag">🇬🇪</span>
+                                    <span class="name" data-translate-key="georgian">ქართული</span>
+                                </div>
+                                <div class="lang-selection-card" data-value="tt">
+                                    <span class="flag">☪️</span>
+                                    <span class="name" data-translate-key="tatar">Татарча</span>
+                                </div>
+                                <div class="lang-selection-card" data-value="ba">
+                                    <span class="flag">🌳</span>
+                                    <span class="name" data-translate-key="bashkir">Башҡортса</span>
+                                </div>
+                                <div class="lang-selection-card" data-value="br">
+                                    <span class="flag">🐚</span>
+                                    <span class="name" data-translate-key="breton">Brezhoneg</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -327,6 +369,7 @@
     <script src="js/data/grammar.js"></script>
     <script src="js/data/vocabulary.js"></script>
     <script src="js/data/speaking.js"></script>
+    <script src="js/data/theme_config.js"></script>
     <script src="js/translations.js"></script>
     <script src="js/translate.js"></script>
     <script src="js/games/utils/shared.js"></script>

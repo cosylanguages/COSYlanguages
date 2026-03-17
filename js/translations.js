@@ -714,6 +714,10 @@ const translations = {
     theme_mortality_time_C2: "Mortality & time",
     theme_meta_argument_C2: "Meta-argument vocabulary",
 
+    form_pronoun: "Pronoun",
+    form_verb_form: "Verb Form",
+    form_singular_to_plural: "Singular to Plural",
+    form_plural_to_singular: "Plural to Singular",
   },
   fr: {
     // Hero section
@@ -1416,6 +1420,10 @@ const translations = {
     theme_mortality_time_C2: "Mortality & time",
     theme_meta_argument_C2: "Meta-argument vocabulary",
 
+    form_pronoun: "Pronom",
+    form_verb_form: "Forme verbale",
+    form_singular_to_plural: "Singulier au pluriel",
+    form_plural_to_singular: "Pluriel au singulier",
   },
   it: {
     // Hero section
@@ -2123,6 +2131,10 @@ const translations = {
     theme_mortality_time_C2: "Mortality & time",
     theme_meta_argument_C2: "Meta-argument vocabulary",
 
+    form_pronoun: "Pronome",
+    form_verb_form: "Forma verbale",
+    form_singular_to_plural: "Dal singolare al plurale",
+    form_plural_to_singular: "Dal plurale al singolare",
   },
   ru: {
     // Hero section
@@ -2812,6 +2824,10 @@ const translations = {
     theme_mortality_time_C2: "Mortality & time",
     theme_meta_argument_C2: "Meta-argument vocabulary",
 
+    form_pronoun: "Местоимение",
+    form_verb_form: "Глагольная форма",
+    form_singular_to_plural: "Из ед.ч. во мн.ч.",
+    form_plural_to_singular: "Из мн.ч. в ед.ч.",
   },
   el: {
     // Hero section
@@ -3507,4 +3523,9 @@ const translations = {
     theme_work_meaning_C2: "The philosophy of work & meaning",
     theme_mortality_time_C2: "Mortality & time",
     theme_meta_argument_C2: "Meta-argument vocabulary",
+    form_pronoun: "Αντωνυμία",
+    form_verb_form: "Ρηματικός τύπος",
+    form_singular_to_plural: "Από ενικό σε πληθυντικό",
+    form_plural_to_singular: "Από πληθυντικό σε ενικό",
+    theme_work_life_balance_B1: "Work-life balance & wellbeing",
 };
