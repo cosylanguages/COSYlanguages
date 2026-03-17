@@ -8,6 +8,7 @@ const themeConfig = {
                 "home_A0": "The home (rooms & furniture)",
                 "colours_A0": "Colours",
                 "numbers_1_20_A0": "Numbers 1–20",
+                "numbers_30_100_A0": "Numbers 30–100",
                 "days_week_A0": "Days of the week",
                 "jobs_A0": "Basic jobs (doctor, teacher, driver)",
                 "transport_A0": "Transport (car, bus, train, plane)",

@@ -1219,6 +1219,17 @@ footer {
     display: block;
 }
 
+.emoji-flag {
+    height: 1em;
+    width: 1.4em;
+    object-fit: cover;
+    vertical-align: -0.15em;
+    border-radius: 3px;
+    display: inline-block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
 .task-text {
     font-size: 1rem;
     color: var(--text-color);
