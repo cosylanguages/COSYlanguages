@@ -113,7 +113,19 @@ const speak = (text, lang) => {
     window.speechSynthesis.cancel();
 
     const msg = new SpeechSynthesisUtterance();
-    msg.text = text;
+    let textToSpeak = text;
+
+    // Enhance number speaking for languages with fallbacks (like Tatar, Bashkir, Breton)
+    // If the text is a pure digit string, try to find the word in vocabularyData
+    if (/^\d+$/.test(text) && typeof window.vocabularyData !== 'undefined' && window.vocabularyData[lang]) {
+        const vocab = window.vocabularyData[lang];
+        const numEntry = vocab.find(item => item.theme && item.theme.startsWith('numbers') && item.definitions && item.definitions.some(d => d.text === text));
+        if (numEntry) {
+            textToSpeak = numEntry.word;
+        }
+    }
+
+    msg.text = textToSpeak;
 
     const langMap = {
         'en': 'en-GB',
