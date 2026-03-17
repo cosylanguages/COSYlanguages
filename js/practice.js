@@ -92,6 +92,22 @@ function populateThemes(categoryId) {
         // vocab
         const vd = vocabularyData[lang] || [];
         const availableThemes = new Set();
+
+        // Use themeConfig as the primary source for the order and availability
+        if (typeof themeConfig !== 'undefined') {
+            const config = themeConfig[selectedLevel];
+            if (config) {
+                const levelThemes = config.themes || (config.A0 && config.A1 ? {...config.A0.themes, ...config.A1.themes} : {});
+                Object.keys(levelThemes).forEach(t => availableThemes.add(t));
+            } else if (selectedLevel === 'all') {
+                Object.values(themeConfig).forEach(lv => {
+                    const levelThemes = lv.themes || (lv.A0 && lv.A1 ? {...lv.A0.themes, ...lv.A1.themes} : {});
+                    Object.keys(levelThemes).forEach(t => availableThemes.add(t));
+                });
+            }
+        }
+
+        // Fallback/Supplement with actually present data in vocabulary
         vd.forEach(item => {
             if (selectedLevel === 'all' || item.level === selectedLevel) {
                 availableThemes.add(item.theme);
@@ -627,21 +643,24 @@ function showHint() {
     if (!targetAnswer) return;
 
     // Support multiple correct answers
-    const primaryAnswer = targetAnswer.split(' / ')[0];
-
+    const answers = targetAnswer.split(' / ').map(a => a.trim());
     currentPractice.hintLevel = (currentPractice.hintLevel || 0) + 1;
-    // Reveal up to length - 2 characters to keep some challenge
-    const maxReveal = Math.max(1, primaryAnswer.length - 2);
-    const revealCount = Math.min(currentPractice.hintLevel, maxReveal);
+
+    const hints = answers.map(ans => {
+        // Reveal up to length - 2 characters to keep some challenge
+        const maxReveal = Math.max(1, ans.length - 2);
+        const revealCount = Math.min(currentPractice.hintLevel, maxReveal);
+        let hintPart = ans.substring(0, revealCount);
+        if (hintPart) {
+            hintPart = hintPart.charAt(0).toUpperCase() + hintPart.slice(1);
+            return hintPart + "...";
+        }
+        return "...";
+    });
 
     const feedbackMsg = document.getElementById('feedback-message');
     feedbackMsg.className = 'feedback-text hint';
-
-    let hintPart = primaryAnswer.substring(0, revealCount);
-    // Proper capitalization for the hint display
-    hintPart = hintPart.charAt(0).toUpperCase() + hintPart.slice(1);
-
-    feedbackMsg.textContent = "Hint: " + hintPart + "...";
+    feedbackMsg.textContent = "Hint: " + hints.join(' / ');
 }
 
 function speakWord() {
@@ -1504,11 +1523,11 @@ function showNextWord() {
 
     if (wordObj.type === 'type-mc' || wordObj.type === 'type-ls') {
         const isListen = wordObj.type === 'type-ls';
-        let text = isListen ? '???' : (wordObj.primaryPrompt || wordObj.clozeText || wordObj.word || wordObj.text || wordObj.topic);
+        let text = isListen ? '???' : (wordObj.clozeText || wordObj.primaryPrompt || wordObj.word || wordObj.text || wordObj.topic);
         let sub = wordObj.secondaryContext || (isListen ? "" : wordObj.subtext);
 
         // Fix redundancy: hide target word for MC vocab if emoji is present
-        if (!isListen && (wordObj.category === 'vocabulary' || !wordObj.category) && wordObj.emoji && !wordObj.primaryPrompt) {
+        if (!isListen && (wordObj.category === 'vocabulary' || !wordObj.category || wordObj.category === 'conversation') && wordObj.emoji && !wordObj.primaryPrompt && !wordObj.clozeText) {
             text = "???";
         }
 
@@ -1529,8 +1548,13 @@ function showNextWord() {
         }
     } else if (wordObj.type === 'type-cl' || wordObj.type === 'type-np') {
         const isNP = wordObj.type === 'type-np';
-        let text = wordObj.primaryPrompt || wordObj.clozeText || (isNP ? wordObj.numberPlural || "" : "");
+        let text = wordObj.clozeText || wordObj.primaryPrompt || wordObj.word || wordObj.text || wordObj.topic || (isNP ? wordObj.numberPlural || "" : "");
         let sub = wordObj.secondaryContext || "";
+
+        // Fix redundancy for typing tasks too
+        if ((wordObj.category === 'vocabulary' || !wordObj.category) && wordObj.emoji && !wordObj.primaryPrompt && !wordObj.clozeText) {
+            text = "???";
+        }
 
         document.getElementById('word-display').textContent = text;
         const subDisplay = document.getElementById('subtext-display');
@@ -1822,8 +1846,8 @@ function checkTypedAnswer() {
 
     const possibleAnswers = correctAnswer.split(' / ').map(a => a.trim().toLowerCase());
 
-    // User is correct if they type the full string OR any of the valid alternatives separated by " / "
-    const isCorrect = possibleAnswers.some(a => a === userAnswer) || userAnswer === correctAnswer;
+    // User is correct if they type any of the valid alternatives separated by " / " or the full string
+    const isCorrect = possibleAnswers.some(a => a === userAnswer) || (correctAnswer.includes(' / ') && userAnswer === correctAnswer);
 
     if (isCorrect) {
         showFeedback(true);
