@@ -1991,3 +1991,21 @@ button:active, .choice-btn:active, .bingo-cell:active, .lang-selection-card:acti
     max-width: 200px;
     white-space: nowrap;
 }
+
+/* Loto Ball Styling for Bingo Words Mode */
+.loto-ball {
+    width: 1.2em;
+    height: 1.2em;
+    background: radial-gradient(circle at 30% 30%, #fff, var(--primary-color) 60%, #00897B);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.2), inset -0.05em -0.05em 0.15em rgba(0,0,0,0.1);
+    text-shadow: 0.05em 0.05em 0.1em rgba(0,0,0,0.3);
+    border: 0.05em solid white;
+    line-height: 1;
+    vertical-align: middle;
+}

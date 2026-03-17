@@ -66,8 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const callNext = () => {
             if (bingoPool.length === 0) {
-                lastCalledDisplay.textContent = "🏁";
+                const finishEmoji = "🏁";
+                lastCalledDisplay.textContent = finishEmoji;
                 lastCalledDisplay.style.fontSize = "5rem";
+
+                const playerLastCalled = document.getElementById('bingo-player-last-called');
+                if (playerLastCalled) playerLastCalled.textContent = finishEmoji;
+
                 const finishMsg = t('alert_all_items_called') || "All items called!";
 
                 const msgDiv = document.createElement('div');
@@ -92,7 +97,21 @@ document.addEventListener('DOMContentLoaded', () => {
             playGameSound('click');
             const item = bingoPool.pop();
             calledItems.push(item);
-            lastCalledDisplay.textContent = item;
+
+            const lang = document.getElementById('bingo-lang').value;
+            const contentType = document.getElementById('bingo-content-type').value;
+
+            const updateDisplay = (container, val) => {
+                if (!container) return;
+                if (contentType === 'words' && typeof val === 'number') {
+                    container.innerHTML = `<div class="loto-ball">${val}</div>`;
+                } else {
+                    container.textContent = val;
+                }
+            };
+
+            updateDisplay(lastCalledDisplay, item);
+            updateDisplay(document.getElementById('bingo-player-last-called'), item);
 
             const histSpan = document.createElement('span');
             histSpan.className = 'badge';
@@ -103,7 +122,9 @@ document.addEventListener('DOMContentLoaded', () => {
             histSpan.textContent = item;
             historyDisplay.prepend(histSpan);
 
-            speak(item.toString(), document.getElementById('bingo-lang').value);
+            if (contentType !== 'words') {
+                speak(item.toString(), lang);
+            }
         };
 
         const startBingoCaller = () => {
@@ -114,6 +135,10 @@ document.addEventListener('DOMContentLoaded', () => {
             calledItems = [];
             lastCalledDisplay.textContent = '---';
             lastCalledDisplay.style.fontSize = "";
+
+            const playerLastCalled = document.getElementById('bingo-player-last-called');
+            if (playerLastCalled) playerLastCalled.textContent = '---';
+
             const existingMsg = document.getElementById('bingo-finished-msg');
             if (existingMsg) existingMsg.remove();
 
@@ -165,6 +190,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const generatePlayerCard = () => {
             const level = document.getElementById('bingo-level').value;
+            const lang = document.getElementById('bingo-lang').value;
+            const contentType = document.getElementById('bingo-content-type').value;
+
             const pool = preparePool();
             const urlParams = new URLSearchParams(window.location.search);
             const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
@@ -187,7 +215,17 @@ document.addEventListener('DOMContentLoaded', () => {
             myItems.forEach(item => {
                 const cell = document.createElement('div');
                 cell.className = 'bingo-cell card glass';
-                cell.textContent = item;
+
+                let displayValue = item;
+                if (contentType === 'words' && typeof item === 'number') {
+                    const vocab = window.vocabularyData && window.vocabularyData[lang];
+                    if (vocab) {
+                        const numEntry = vocab.find(v => v.theme && v.theme.startsWith('numbers') && v.definitions && v.definitions.some(d => d.text === item.toString()));
+                        if (numEntry) displayValue = numEntry.word;
+                    }
+                }
+
+                cell.textContent = displayValue;
                 cell.onclick = () => {
                     if (cell.classList.contains('marked')) {
                         cell.classList.remove('marked');
@@ -217,6 +255,9 @@ document.addEventListener('DOMContentLoaded', () => {
             setupArea.style.display = 'none';
             playerArea.style.display = 'block';
 
+            const playerLastCalled = document.getElementById('bingo-player-last-called');
+            if (playerLastCalled) playerLastCalled.textContent = '---';
+
             const soloMode = document.getElementById('bingo-solo-mode')?.checked;
             const soloIndicator = document.getElementById('bingo-solo-indicator');
             if (soloIndicator) soloIndicator.style.display = 'none';
@@ -229,19 +270,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
                 bingoPool = seededShuffle([...pool], seed);
 
-                if (bingoPool.length > 0) {
-                    const item = bingoPool.pop();
-                    speak(item.toString(), document.getElementById('bingo-lang').value);
-                }
+                const lang = document.getElementById('bingo-lang').value;
+                const contentType = document.getElementById('bingo-content-type').value;
 
-                speedInterval = setInterval(() => {
+                const soloCallNext = () => {
                     if (bingoPool.length === 0) {
                         clearInterval(speedInterval);
                         return;
                     }
                     const item = bingoPool.pop();
-                    speak(item.toString(), document.getElementById('bingo-lang').value);
-                }, 5000);
+
+                    if (playerLastCalled) {
+                        if (contentType === 'words' && typeof item === 'number') {
+                            playerLastCalled.innerHTML = `<div class="loto-ball">${item}</div>`;
+                        } else {
+                            playerLastCalled.textContent = item;
+                        }
+                    }
+
+                    if (contentType !== 'words') {
+                        speak(item.toString(), lang);
+                    }
+                };
+
+                soloCallNext();
+                speedInterval = setInterval(soloCallNext, 5000);
             }
         };
 
