@@ -718,13 +718,6 @@ const translations = {
     form_verb_form: "Verb Form",
     form_singular_to_plural: "Singular to Plural",
     form_plural_to_singular: "Plural to Singular",
-    theme_description: "Concrete, single-concept nouns and basic adjectives only.",
-    theme_description: "Everyday adult life — familiar objects and situations.",
-    theme_description: "Adult everyday contexts — work, health, money, relationships.",
-    theme_description: "Broader adult society — work, values, health, environment.",
-    theme_description: "Abstract adult themes — society, politics, economy, ethics.",
-    theme_description: "Conceptual & professional — power, identity, philosophy of adult life.",
-    theme_description: "Philosophical, rhetorical & meta-conceptual.",
   },
   fr: {
     // Hero section
@@ -1431,13 +1424,6 @@ const translations = {
     form_verb_form: "Forme verbale",
     form_singular_to_plural: "Singulier au pluriel",
     form_plural_to_singular: "Pluriel au singulier",
-    theme_description: "Concrete, single-concept nouns and basic adjectives only.",
-    theme_description: "Everyday adult life — familiar objects and situations.",
-    theme_description: "Adult everyday contexts — work, health, money, relationships.",
-    theme_description: "Broader adult society — work, values, health, environment.",
-    theme_description: "Abstract adult themes — society, politics, economy, ethics.",
-    theme_description: "Conceptual & professional — power, identity, philosophy of adult life.",
-    theme_description: "Philosophical, rhetorical & meta-conceptual.",
   },
   it: {
     // Hero section
@@ -2149,13 +2135,6 @@ const translations = {
     form_verb_form: "Forma verbale",
     form_singular_to_plural: "Dal singolare al plurale",
     form_plural_to_singular: "Dal plurale al singolare",
-    theme_description: "Concrete, single-concept nouns and basic adjectives only.",
-    theme_description: "Everyday adult life — familiar objects and situations.",
-    theme_description: "Adult everyday contexts — work, health, money, relationships.",
-    theme_description: "Broader adult society — work, values, health, environment.",
-    theme_description: "Abstract adult themes — society, politics, economy, ethics.",
-    theme_description: "Conceptual & professional — power, identity, philosophy of adult life.",
-    theme_description: "Philosophical, rhetorical & meta-conceptual.",
   },
   ru: {
     // Hero section
@@ -2849,13 +2828,6 @@ const translations = {
     form_verb_form: "Глагольная форма",
     form_singular_to_plural: "Из ед.ч. во мн.ч.",
     form_plural_to_singular: "Из мн.ч. в ед.ч.",
-    theme_description: "Concrete, single-concept nouns and basic adjectives only.",
-    theme_description: "Everyday adult life — familiar objects and situations.",
-    theme_description: "Adult everyday contexts — work, health, money, relationships.",
-    theme_description: "Broader adult society — work, values, health, environment.",
-    theme_description: "Abstract adult themes — society, politics, economy, ethics.",
-    theme_description: "Conceptual & professional — power, identity, philosophy of adult life.",
-    theme_description: "Philosophical, rhetorical & meta-conceptual.",
   },
   el: {
     // Hero section
@@ -3555,12 +3527,5 @@ const translations = {
     form_verb_form: "Ρηματικός τύπος",
     form_singular_to_plural: "Από ενικό σε πληθυντικό",
     form_plural_to_singular: "Από πληθυντικό σε ενικό",
-    theme_description: "Concrete, single-concept nouns and basic adjectives only.",
-    theme_description: "Everyday adult life — familiar objects and situations.",
-    theme_description: "Adult everyday contexts — work, health, money, relationships.",
-    theme_description: "Broader adult society — work, values, health, environment.",
     theme_work_life_balance_B1: "Work-life balance & wellbeing",
-    theme_description: "Abstract adult themes — society, politics, economy, ethics.",
-    theme_description: "Conceptual & professional — power, identity, philosophy of adult life.",
-    theme_description: "Philosophical, rhetorical & meta-conceptual.",
 };

@@ -938,11 +938,23 @@ footer {
     font-family: 'Georgia', serif;
 }
 
+.lang-selection-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
 .lang-selection-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     gap: 1rem;
     margin-top: 0.5rem;
+}
+
+.lang-selection-grid.compact {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.8rem;
 }
 
 .lang-selection-card {
@@ -957,6 +969,21 @@ footer {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.lang-selection-card.highlighted {
+    padding: 1.2rem 1rem;
+    border-width: 3px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.lang-selection-card.highlighted .flag {
+    font-size: 2.2rem;
+}
+
+.lang-selection-card.highlighted .name {
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
 .lang-selection-card:hover {
