@@ -17,12 +17,13 @@ const themeConfig = {
                 "adjectives_A0": "Basic adjectives (big, small, good, bad, cheap, expensive)",
                 "money_A0": "Money (coin, note, price)",
                 "family_A0": "Family members (mother, father, sister, brother, partner)",
-                "places_A0": "Common places (shop, hospital, station, office)"
+                "places_countries_cities_A0": "Countries & cities"
             }
         },
         "A1": {
             "description": "Everyday adult life — familiar objects and situations.",
             "themes": {
+                "places_shops_A1": "Shops",
                 "work_A1": "Work basics (job, boss, salary, office, meeting)",
                 "home_A1": "The home (rent, flat, house, kitchen, clean)",
                 "routine_A1": "Daily routine (morning, commute, lunch, evening)",
@@ -52,6 +53,8 @@ const themeConfig = {
             "transport_travel_A2": "Transport & travel",
             "shopping_consumerism_A2": "Shopping & consumerism",
             "technology_A2": "Technology in daily life",
+            "places_buildings_activities_A2": "Buildings & activities",
+            "places_streets_locations_A2": "Streets & locations",
             "neighbourhood_A2": "The neighbourhood & community",
             "leisure_hobbies_A2": "Leisure & hobbies",
             "personality_A2": "Describing personality",

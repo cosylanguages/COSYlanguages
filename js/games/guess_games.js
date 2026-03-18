@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { t, handleShare, playGameSound, showGameMessage } = window.gameUtils;
+    const { t, handleShare, playGameSound, showGameMessage, populateThemes } = window.gameUtils;
 
     const initGuessGame = (gameType) => {
         const modalId = gameType === 'who' ? 'guess-who-modal' : 'guess-what-modal';
@@ -16,47 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const targetDisplay = modal.querySelector('.target-word');
         const promptList = modal.querySelector('.prompt-questions');
         const themeSelect = modal.querySelector('.game-theme');
+        const levelSelect = modal.querySelector('.game-level');
+        const langSelect = modal.querySelector('.game-lang');
 
-        const populateThemes = () => {
-            if (!themeSelect) return;
-            const levelSelect = modal.querySelector('.game-level');
-            const langSelect = modal.querySelector('.game-lang');
-            if (!levelSelect || !langSelect) return;
-
-            const level = levelSelect.value;
-            const lang = langSelect.value;
-
-            const currentVal = themeSelect.value;
-            themeSelect.innerHTML = '<option value="all" data-translate-key="level_all">' + (window.translations[lang]?.level_all || 'All Themes') + '</option>';
-
-            let themes = [];
-            if (level !== 'all' && window.themeConfig && window.themeConfig[level]) {
-                const levelData = window.themeConfig[level];
-                if (level === 'starter') {
-                    if (levelData.A0) Object.keys(levelData.A0.themes).forEach(val => themes.push(val));
-                    if (levelData.A1) Object.keys(levelData.A1.themes).forEach(val => themes.push(val));
-                } else if (levelData.themes) {
-                    Object.keys(levelData.themes).forEach(val => themes.push(val));
-                }
-            } else {
-                const vd = window.vocabularyData && window.vocabularyData[lang] || [];
-                const availableThemes = new Set();
-                vd.forEach(item => {
-                    if (level === 'all' || item.level === level) availableThemes.add(item.theme);
-                });
-                themes = Array.from(availableThemes).sort();
-            }
-
-            themes.forEach(th => {
-                const opt = document.createElement('option');
-                opt.value = th;
-                opt.textContent = window.translations[lang]?.['theme_' + th] || th;
-                opt.setAttribute('data-translate-key', 'theme_' + th);
-                themeSelect.appendChild(opt);
-            });
-            if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
-                themeSelect.value = currentVal;
-            }
+        const populateThemesLocal = () => {
+            if (!themeSelect || !levelSelect || !langSelect) return;
+            populateThemes(themeSelect, levelSelect, langSelect.value);
         };
 
         let pool = [];
@@ -112,12 +77,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
-            populateThemes();
+            populateThemesLocal();
         };
 
         openBtn?.addEventListener('click', openGame);
-        modal.querySelector('.game-level')?.addEventListener('change', populateThemes);
-        modal.querySelector('.game-lang')?.addEventListener('change', populateThemes);
+        modal.querySelector('.game-level')?.addEventListener('change', populateThemesLocal);
+        modal.querySelector('.game-lang')?.addEventListener('change', populateThemesLocal);
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
         const startGame = () => {
@@ -126,7 +91,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const level = modal.querySelector('.game-level').value;
 
             const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
-            pool = vocab.filter(item => theme === 'all' || item.theme === theme);
+            pool = vocab.filter(item => {
+                if (theme === 'all') return true;
+                if (theme === 'numbers_all') return item.theme.startsWith('numbers_');
+                if (theme === 'places_all') return item.theme.startsWith('places_');
+                return item.theme === theme;
+            });
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
