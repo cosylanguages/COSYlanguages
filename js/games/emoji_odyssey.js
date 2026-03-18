@@ -1,26 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, speak, playGameSound, showGameMessage } = window.gameUtils;
+    const { getLang, t, speak, playGameSound, showGameMessage, populateThemes } = window.gameUtils;
 
     const initEmojiOdyssey = () => {
         const modal = document.getElementById('emoji-modal');
         if (!modal) return;
-
-        const api = {
-            open: () => {
-                modal.style.display = 'flex';
-                setupArea.style.display = 'block';
-                gameArea.style.display = 'none';
-                feedback.textContent = '';
-                // Reset areas
-                guessArea.style.display = 'none';
-                storyArea.style.display = 'none';
-                storyDisplay.textContent = '';
-                storyNameDisplay.textContent = '';
-                populateThemes();
-            },
-            start: () => startBtn.click()
-        };
-        window.emojiOdysseyGame = api;
 
         const openBtn = document.getElementById('open-emoji-btn');
         const closeBtn = document.getElementById('close-emoji-btn');
@@ -37,6 +20,28 @@ document.addEventListener('DOMContentLoaded', () => {
         const langSelect = document.getElementById('emoji-lang');
         const themeSelect = document.getElementById('emoji-theme');
 
+        const populateThemesLocal = () => {
+            if (!themeSelect || !levelSelect || !langSelect) return;
+            populateThemes(themeSelect, levelSelect, langSelect.value);
+        };
+
+        const api = {
+            open: () => {
+                modal.style.display = 'flex';
+                setupArea.style.display = 'block';
+                gameArea.style.display = 'none';
+                feedback.textContent = '';
+                // Reset areas
+                guessArea.style.display = 'none';
+                storyArea.style.display = 'none';
+                storyDisplay.textContent = '';
+                storyNameDisplay.textContent = '';
+                populateThemesLocal();
+            },
+            start: () => startBtn.click()
+        };
+        window.emojiOdysseyGame = api;
+
         // Mode specific elements
         const guessArea = document.getElementById('emoji-guess-area');
         const storyArea = document.getElementById('emoji-story-area');
@@ -48,44 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
         let pool = [];
         let currentGameMode = 'guess';
         let storyName = '';
-
-        const populateThemes = () => {
-            if (!themeSelect) return;
-            const level = levelSelect.value;
-            const lang = langSelect.value;
-
-            const currentVal = themeSelect.value;
-            themeSelect.innerHTML = '<option value="all" data-translate-key="theme_all">' + (window.translations[lang]?.theme_all || 'All Themes') + '</option>';
-
-            let themes = [];
-            if (level !== 'all' && window.themeConfig && window.themeConfig[level]) {
-                const levelData = window.themeConfig[level];
-                if (level === 'starter') {
-                    if (levelData.A0) Object.keys(levelData.A0.themes).forEach(val => themes.push(val));
-                    if (levelData.A1) Object.keys(levelData.A1.themes).forEach(val => themes.push(val));
-                } else if (levelData.themes) {
-                    Object.keys(levelData.themes).forEach(val => themes.push(val));
-                }
-            } else {
-                const vd = window.vocabularyData && window.vocabularyData[lang] || [];
-                const availableThemes = new Set();
-                vd.forEach(item => {
-                    if (level === 'all' || item.level === level) availableThemes.add(item.theme);
-                });
-                themes = Array.from(availableThemes).sort();
-            }
-
-            themes.forEach(th => {
-                const opt = document.createElement('option');
-                opt.value = th;
-                opt.textContent = window.translations[lang]?.['theme_' + th] || th;
-                opt.setAttribute('data-translate-key', 'theme_' + th);
-                themeSelect.appendChild(opt);
-            });
-            if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
-                themeSelect.value = currentVal;
-            }
-        };
 
         const getRandomEmojis = (count) => {
             const emojis = window.emojiData || [];
@@ -212,8 +179,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (storySetupExtra) storySetupExtra.style.display = 'none';
         });
 
-        levelSelect?.addEventListener('change', populateThemes);
-        langSelect?.addEventListener('change', populateThemes);
+        levelSelect?.addEventListener('change', populateThemesLocal);
+        langSelect?.addEventListener('change', populateThemesLocal);
 
         closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
@@ -227,9 +194,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 let vocab = (window.vocabularyData[lang] || [])
                     .filter(v => v.theme !== 'famous_people'); // Never include names in Emoji Odyssey
 
-                if (theme !== 'all') {
-                    vocab = vocab.filter(v => v.theme === theme);
-                }
+                const filterByTheme = (v) => {
+                    if (theme === 'all') return true;
+                    if (theme === 'numbers_all') return v.theme.startsWith('numbers_');
+                    if (theme === 'places_all') return v.theme.startsWith('places_');
+                    return v.theme === theme;
+                };
+
+                vocab = vocab.filter(v => filterByTheme(v));
 
                 if (level !== 'all') {
                     const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];

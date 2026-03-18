@@ -1,54 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { t, startTimer, stopTimer, handleShare, showGameMessage } = window.gameUtils;
-
-    // --- Helper for Theme Population ---
-    const populateThemes = (gameId, dataSourceType) => {
-        const themeSelect = document.getElementById(`${gameId}-theme`);
-        if (!themeSelect) return;
-        const lang = document.getElementById(`${gameId}-lang`).value;
-        const level = document.getElementById(`${gameId}-level`).value;
-
-        const currentVal = themeSelect.value;
-        themeSelect.innerHTML = '<option value="all" data-translate-key="theme_all">' + (window.translations[lang]?.theme_all || 'All Themes') + '</option>';
-
-        let themes = new Set();
-        let data = [];
-
-        if (dataSourceType === 'speaking') {
-            const speaking = window.speakingData && window.speakingData[lang];
-            if (speaking) {
-                // Combine themes from all speaking categories for this lang/level
-                ['debates', 'opinionArena', 'criticsCorner', 'talkThatTalk'].forEach(cat => {
-                    if (speaking[cat]) {
-                        speaking[cat].forEach(item => {
-                            if (level === 'all' || item.level === level) {
-                                if (item.theme) themes.add(item.theme);
-                            }
-                        });
-                    }
-                });
-            }
-        } else {
-            const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
-            vocab.forEach(item => {
-                if (level === 'all' || item.level === level) {
-                    if (item.theme) themes.add(item.theme);
-                }
-            });
-        }
-
-        Array.from(themes).sort().forEach(th => {
-            const opt = document.createElement('option');
-            opt.value = th;
-            opt.textContent = window.translations[lang]?.['theme_' + th] || th;
-            opt.setAttribute('data-translate-key', 'theme_' + th);
-            themeSelect.appendChild(opt);
-        });
-
-        if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
-            themeSelect.value = currentVal;
-        }
-    };
+    const { t, startTimer, stopTimer, handleShare, showGameMessage, populateThemes } = window.gameUtils;
 
     // --- Battle of Wits Logic ---
     const initDebates = () => {
@@ -122,12 +73,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
-            populateThemes('debates', 'speaking');
+            populateThemes(document.getElementById('debates-theme'), document.getElementById('debates-level'), document.getElementById('debates-lang').value, 'speaking');
         };
 
         openBtn?.addEventListener('click', openGame);
-        levelSelect?.addEventListener('change', () => populateThemes('debates', 'speaking'));
-        langSelect?.addEventListener('change', () => populateThemes('debates', 'speaking'));
+        levelSelect?.addEventListener('change', () => populateThemes(document.getElementById('debates-theme'), document.getElementById('debates-level'), document.getElementById('debates-lang').value, 'speaking'));
+        langSelect?.addEventListener('change', () => populateThemes(document.getElementById('debates-theme'), document.getElementById('debates-level'), document.getElementById('debates-lang').value, 'speaking'));
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             stopTimer();
@@ -213,12 +164,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
-            populateThemes('opinion', 'speaking');
+            populateThemes(document.getElementById('opinion-theme'), document.getElementById('opinion-level'), document.getElementById('opinion-lang').value, 'speaking');
         };
 
         openBtn?.addEventListener('click', openGame);
-        document.getElementById('opinion-level')?.addEventListener('change', () => populateThemes('opinion', 'speaking'));
-        document.getElementById('opinion-lang')?.addEventListener('change', () => populateThemes('opinion', 'speaking'));
+        document.getElementById('opinion-level')?.addEventListener('change', () => populateThemes(document.getElementById('opinion-theme'), document.getElementById('opinion-level'), document.getElementById('opinion-lang').value, 'speaking'));
+        document.getElementById('opinion-lang')?.addEventListener('change', () => populateThemes(document.getElementById('opinion-theme'), document.getElementById('opinion-level'), document.getElementById('opinion-lang').value, 'speaking'));
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             stopTimer();
@@ -306,12 +257,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
-            populateThemes('critics', 'speaking');
+            populateThemes(document.getElementById('critics-theme'), document.getElementById('critics-level'), document.getElementById('critics-lang').value, 'speaking');
         };
 
         openBtn?.addEventListener('click', openGame);
-        document.getElementById('critics-level')?.addEventListener('change', () => populateThemes('critics', 'speaking'));
-        document.getElementById('critics-lang')?.addEventListener('change', () => populateThemes('critics', 'speaking'));
+        document.getElementById('critics-level')?.addEventListener('change', () => populateThemes(document.getElementById('critics-theme'), document.getElementById('critics-level'), document.getElementById('critics-lang').value, 'speaking'));
+        document.getElementById('critics-lang')?.addEventListener('change', () => populateThemes(document.getElementById('critics-theme'), document.getElementById('critics-level'), document.getElementById('critics-lang').value, 'speaking'));
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             stopTimer();
@@ -397,12 +348,12 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'flex';
             setupArea.style.display = 'block';
             gameArea.style.display = 'none';
-            populateThemes('talk', 'speaking');
+            populateThemes(document.getElementById('talk-theme'), document.getElementById('talk-level'), document.getElementById('talk-lang').value, 'speaking');
         };
 
         openBtn?.addEventListener('click', openGame);
-        document.getElementById('talk-level')?.addEventListener('change', () => populateThemes('talk', 'speaking'));
-        document.getElementById('talk-lang')?.addEventListener('change', () => populateThemes('talk', 'speaking'));
+        document.getElementById('talk-level')?.addEventListener('change', () => populateThemes(document.getElementById('talk-theme'), document.getElementById('talk-level'), document.getElementById('talk-lang').value, 'speaking'));
+        document.getElementById('talk-lang')?.addEventListener('change', () => populateThemes(document.getElementById('talk-theme'), document.getElementById('talk-level'), document.getElementById('talk-lang').value, 'speaking'));
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             stopTimer();

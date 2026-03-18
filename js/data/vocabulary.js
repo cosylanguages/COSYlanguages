@@ -1073,7 +1073,7 @@ const vocabularyData = {
         {
             "word": "park",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🌳",
             "form": "noun",
             "plural": "parks",
@@ -1103,7 +1103,7 @@ const vocabularyData = {
         {
             "word": "school",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏫",
             "form": "noun",
             "plural": "schools",
@@ -1189,7 +1189,7 @@ const vocabularyData = {
         {
             "word": "library",
             "level": "intermediate",
-            "theme": "travel_cultural_B1",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📚",
             "form": "noun",
             "plural": "libraries"
@@ -1197,7 +1197,7 @@ const vocabularyData = {
         {
             "word": "museum",
             "level": "intermediate",
-            "theme": "travel_cultural_B1",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏛️",
             "form": "noun",
             "plural": "museums"
@@ -1205,7 +1205,7 @@ const vocabularyData = {
         {
             "word": "supermarket",
             "level": "elementary",
-            "theme": "transport_travel_A2",
+            "theme": "places_shops_A1",
             "emoji": "🛒",
             "form": "noun",
             "plural": "supermarkets"
@@ -1213,7 +1213,7 @@ const vocabularyData = {
         {
             "word": "pharmacy",
             "level": "upper-intermediate",
-            "theme": "academic_vocabulary_B2",
+            "theme": "places_shops_A1",
             "emoji": "💊",
             "form": "noun",
             "plural": "pharmacies"
@@ -1707,7 +1707,7 @@ const vocabularyData = {
         {
             "word": "watch",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📺",
             "form": "verb",
             "definitions": [
@@ -1962,7 +1962,7 @@ const vocabularyData = {
         {
             "word": "reading",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📖",
             "form": "verb"
         },
@@ -2573,7 +2573,7 @@ const vocabularyData = {
         {
             "word": "smartphone",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📱",
             "form": "noun",
             "plural": "smartphones"
@@ -2828,7 +2828,7 @@ const vocabularyData = {
         {
             "word": "go",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "subtext": "go to school, go home",
             "form": "verb"
@@ -2965,7 +2965,7 @@ const vocabularyData = {
         {
             "word": "come",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃‍♂️",
             "subtext": "come here, come home",
             "opposite": "go",
@@ -3037,7 +3037,7 @@ const vocabularyData = {
         {
             "word": "leave",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚪",
             "form": "verb"
         },
@@ -3111,14 +3111,14 @@ const vocabularyData = {
         {
             "word": "play",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎮",
             "form": "verb"
         },
         {
             "word": "run",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃",
             "form": "verb"
         },
@@ -3224,7 +3224,7 @@ const vocabularyData = {
         {
             "word": "learn",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📚",
             "form": "verb"
         },
@@ -3259,7 +3259,7 @@ const vocabularyData = {
         {
             "word": "stop",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🛑",
             "form": "verb"
         },
@@ -3310,7 +3310,7 @@ const vocabularyData = {
         {
             "word": "walk",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "form": "verb",
             "definitions": [
@@ -3326,7 +3326,7 @@ const vocabularyData = {
         {
             "word": "win",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏆",
             "opposite": "lose",
             "oppositeEmoji": "📉",
@@ -3416,7 +3416,7 @@ const vocabularyData = {
         {
             "word": "stay",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏨",
             "form": "verb"
         },
@@ -3472,7 +3472,7 @@ const vocabularyData = {
         {
             "word": "pass",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏔️",
             "form": "verb"
         },
@@ -3618,7 +3618,7 @@ const vocabularyData = {
         {
             "word": "draw",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎨",
             "form": "verb"
         },
@@ -3657,35 +3657,35 @@ const vocabularyData = {
         {
             "word": "dance",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "💃",
             "form": "verb"
         },
         {
             "word": "sing",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎤",
             "form": "verb"
         },
         {
             "word": "jump",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🦘",
             "form": "verb"
         },
         {
             "word": "fly",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "swim",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏊",
             "form": "verb"
         },
@@ -3706,35 +3706,35 @@ const vocabularyData = {
         {
             "word": "cook",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🍳",
             "form": "verb"
         },
         {
             "word": "travel",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "study",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📖",
             "form": "verb"
         },
         {
             "word": "teach",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "👨‍🏫",
             "form": "verb"
         },
         {
             "word": "listen",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎧",
             "form": "verb"
         },
@@ -4600,7 +4600,7 @@ const vocabularyData = {
         {
             "word": "parc",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🌳",
             "form": "noun",
             "plural": "parcs",
@@ -4617,7 +4617,7 @@ const vocabularyData = {
         {
             "word": "école",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏫",
             "form": "noun",
             "plural": "écoles",
@@ -4845,7 +4845,7 @@ const vocabularyData = {
         {
             "word": "bureau",
             "level": "elementary",
-            "theme": "neighbourhood_A2",
+            "theme": "places_buildings_activities_A2",
             "theme_alt": "grammar_plurals",
             "numberPlural": "3 bureau",
             "answer": "trois bureaux",
@@ -5142,14 +5142,14 @@ const vocabularyData = {
         {
             "word": "dessiner",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎨",
             "form": "verb"
         },
         {
             "word": "cuisiner",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🍳",
             "form": "verb"
         },
@@ -5166,14 +5166,14 @@ const vocabularyData = {
         {
             "word": "danser",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "💃",
             "form": "verb"
         },
         {
             "word": "chanter",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎤",
             "form": "verb"
         },
@@ -5595,7 +5595,7 @@ const vocabularyData = {
         {
             "word": "voiture",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "article": "la",
             "baseWord": "voiture",
             "numberPlural": "2 voiture",
@@ -5607,7 +5607,7 @@ const vocabularyData = {
         {
             "word": "maison",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "article": "la",
             "baseWord": "maison",
             "numberPlural": "3 maison",
@@ -5670,7 +5670,7 @@ const vocabularyData = {
         {
             "word": "aller",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "subtext": "aller à l'école, rentrer à la maison",
             "form": "noun",
@@ -5814,7 +5814,7 @@ const vocabularyData = {
         {
             "word": "venir",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃‍♂️",
             "subtext": "venir ici, venir à la maison",
             "opposite": "aller",
@@ -5891,7 +5891,7 @@ const vocabularyData = {
         {
             "word": "partir",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚪",
             "form": "noun",
             "plural": "partirs"
@@ -5907,7 +5907,7 @@ const vocabularyData = {
         {
             "word": "regarder",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📺",
             "form": "noun",
             "plural": "regarders"
@@ -5957,7 +5957,7 @@ const vocabularyData = {
         {
             "word": "jouer",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎮",
             "form": "noun",
             "plural": "jouers"
@@ -5965,7 +5965,7 @@ const vocabularyData = {
         {
             "word": "courir",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃",
             "form": "noun",
             "plural": "courirs"
@@ -6084,7 +6084,7 @@ const vocabularyData = {
         {
             "word": "apprendre",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📚",
             "form": "noun",
             "plural": "apprendres"
@@ -6123,7 +6123,7 @@ const vocabularyData = {
         {
             "word": "s'arrêter",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🛑",
             "form": "noun",
             "plural": "s'arrêters"
@@ -6181,7 +6181,7 @@ const vocabularyData = {
         {
             "word": "marcher",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "form": "verb",
             "definitions": [
@@ -6197,7 +6197,7 @@ const vocabularyData = {
         {
             "word": "gagner",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏆",
             "opposite": "perdre",
             "oppositeEmoji": "📉",
@@ -6331,7 +6331,7 @@ const vocabularyData = {
         {
             "word": "passer",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏔️",
             "form": "verb"
         },
@@ -6509,21 +6509,21 @@ const vocabularyData = {
         {
             "word": "sauter",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🦘",
             "form": "verb"
         },
         {
             "word": "voler",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "nager",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏊",
             "form": "verb"
         },
@@ -6544,28 +6544,28 @@ const vocabularyData = {
         {
             "word": "voyager",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "étudier",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📖",
             "form": "verb"
         },
         {
             "word": "enseigner",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "👨‍🏫",
             "form": "verb"
         },
         {
             "word": "écouter",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎧",
             "form": "verb"
         },
@@ -7316,7 +7316,7 @@ const vocabularyData = {
         {
             "word": "parco",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🌳",
             "form": "noun",
             "plural": "parci",
@@ -7333,7 +7333,7 @@ const vocabularyData = {
         {
             "word": "scuola",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏫",
             "form": "noun",
             "plural": "scuole",
@@ -7959,7 +7959,7 @@ const vocabularyData = {
         {
             "word": "disegnare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎨",
             "form": "verb",
             "definitions": [
@@ -7975,7 +7975,7 @@ const vocabularyData = {
         {
             "word": "cucinare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🍳",
             "form": "verb"
         },
@@ -7998,7 +7998,7 @@ const vocabularyData = {
         {
             "word": "cantare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎤",
             "form": "verb"
         },
@@ -8409,7 +8409,7 @@ const vocabularyData = {
         {
             "word": "casa",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "article": "la",
             "baseWord": "casa",
             "numberPlural": "molte casa",
@@ -8481,7 +8481,7 @@ const vocabularyData = {
         {
             "word": "andare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "subtext": "andare a scuola, andare a casa",
             "form": "noun",
@@ -8634,7 +8634,7 @@ const vocabularyData = {
         {
             "word": "venire",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃‍♂️",
             "subtext": "venire qui, venire a casa",
             "opposite": "andare",
@@ -8711,7 +8711,7 @@ const vocabularyData = {
         {
             "word": "partire",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚪",
             "form": "noun",
             "plural": "partiri"
@@ -8727,7 +8727,7 @@ const vocabularyData = {
         {
             "word": "guardare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📺",
             "form": "noun",
             "plural": "guardari"
@@ -8777,7 +8777,7 @@ const vocabularyData = {
         {
             "word": "giocare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎮",
             "form": "noun",
             "plural": "giocari"
@@ -8785,7 +8785,7 @@ const vocabularyData = {
         {
             "word": "correre",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃",
             "form": "noun",
             "plural": "correri"
@@ -8904,7 +8904,7 @@ const vocabularyData = {
         {
             "word": "imparare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📚",
             "form": "noun",
             "plural": "imparari"
@@ -8943,7 +8943,7 @@ const vocabularyData = {
         {
             "word": "fermarsi",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🛑",
             "form": "noun",
             "plural": "fermarsi"
@@ -9001,7 +9001,7 @@ const vocabularyData = {
         {
             "word": "camminare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "form": "verb",
             "definitions": [
@@ -9017,7 +9017,7 @@ const vocabularyData = {
         {
             "word": "vincere",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏆",
             "opposite": "perdere",
             "oppositeEmoji": "📉",
@@ -9109,7 +9109,7 @@ const vocabularyData = {
         {
             "word": "restare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏨",
             "form": "verb"
         },
@@ -9165,7 +9165,7 @@ const vocabularyData = {
         {
             "word": "passare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏔️",
             "form": "verb"
         },
@@ -9336,28 +9336,28 @@ const vocabularyData = {
         {
             "word": "ballare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "💃",
             "form": "verb"
         },
         {
             "word": "saltare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🦘",
             "form": "verb"
         },
         {
             "word": "volare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "nuotare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏊",
             "form": "verb"
         },
@@ -9378,28 +9378,28 @@ const vocabularyData = {
         {
             "word": "viaggiare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "studiare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📖",
             "form": "verb"
         },
         {
             "word": "insegnare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "👨‍🏫",
             "form": "verb"
         },
         {
             "word": "ascoltare",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎧",
             "form": "verb"
         },
@@ -10098,7 +10098,7 @@ const vocabularyData = {
         {
             "word": "парк",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🌳",
             "form": "noun",
             "plural": "парки",
@@ -10115,7 +10115,7 @@ const vocabularyData = {
         {
             "word": "школа",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏫",
             "form": "noun",
             "plural": "школы",
@@ -10734,7 +10734,7 @@ const vocabularyData = {
         {
             "word": "чтение",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "form": "verb"
         },
         {
@@ -11169,7 +11169,7 @@ const vocabularyData = {
         {
             "word": "машина",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "gender": "она",
             "baseWord": "машина",
             "numberPlural": "4 машина",
@@ -11181,7 +11181,7 @@ const vocabularyData = {
         {
             "word": "море",
             "level": "elementary",
-            "theme": "environment_A2",
+            "theme": "places_streets_locations_A2",
             "gender": "оно",
             "baseWord": "море",
             "numberPlural": "много море",
@@ -11211,7 +11211,7 @@ const vocabularyData = {
         {
             "word": "идти",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "subtext": "идти в школу, идти домой",
             "form": "noun",
@@ -11365,7 +11365,7 @@ const vocabularyData = {
         {
             "word": "приходить",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃‍♂️",
             "subtext": "прийти сюда, прийти домой",
             "opposite": "идти",
@@ -11444,7 +11444,7 @@ const vocabularyData = {
         {
             "word": "уходить",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚪",
             "form": "noun",
             "plural": "уходить"
@@ -11460,7 +11460,7 @@ const vocabularyData = {
         {
             "word": "смотреть",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📺",
             "form": "noun",
             "plural": "смотреть"
@@ -11526,7 +11526,7 @@ const vocabularyData = {
         {
             "word": "играть",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎮",
             "form": "noun",
             "plural": "играть"
@@ -11534,7 +11534,7 @@ const vocabularyData = {
         {
             "word": "бегать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃",
             "form": "noun",
             "plural": "бегать"
@@ -11652,7 +11652,7 @@ const vocabularyData = {
         {
             "word": "учить",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📚",
             "form": "noun",
             "plural": "учить"
@@ -11692,7 +11692,7 @@ const vocabularyData = {
         {
             "word": "останавливаться",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🛑",
             "form": "noun",
             "plural": "останавливатьси"
@@ -11749,7 +11749,7 @@ const vocabularyData = {
         {
             "word": "гулять",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "form": "verb",
             "definitions": [
@@ -11765,7 +11765,7 @@ const vocabularyData = {
         {
             "word": "выигрывать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏆",
             "opposite": "терять",
             "oppositeEmoji": "📉",
@@ -11897,7 +11897,7 @@ const vocabularyData = {
         {
             "word": "проходить",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏔️",
             "form": "verb"
         },
@@ -12036,7 +12036,7 @@ const vocabularyData = {
         {
             "word": "рисовать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎨",
             "form": "verb",
             "definitions": [
@@ -12084,35 +12084,35 @@ const vocabularyData = {
         {
             "word": "танцевать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "💃",
             "form": "verb"
         },
         {
             "word": "петь",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎤",
             "form": "verb"
         },
         {
             "word": "прыгать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🦘",
             "form": "verb"
         },
         {
             "word": "летать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "плавать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏊",
             "form": "verb"
         },
@@ -12133,35 +12133,35 @@ const vocabularyData = {
         {
             "word": "готовить",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🍳",
             "form": "verb"
         },
         {
             "word": "путешествовать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "учиться",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📖",
             "form": "verb"
         },
         {
             "word": "преподавать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "👨‍🏫",
             "form": "verb"
         },
         {
             "word": "слушать",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎧",
             "form": "verb"
         },
@@ -13070,7 +13070,7 @@ const vocabularyData = {
         {
             "word": "πάρκο",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🌳",
             "form": "noun",
             "plural": "πάρκα",
@@ -13087,7 +13087,7 @@ const vocabularyData = {
         {
             "word": "σχολείο",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏫",
             "form": "noun",
             "plural": "σχολεία",
@@ -13361,7 +13361,7 @@ const vocabularyData = {
         {
             "word": "γραφείο",
             "level": "elementary",
-            "theme": "neighbourhood_A2",
+            "theme": "places_buildings_activities_A2",
             "emoji": "⌨️",
             "form": "noun",
             "plural": "γραφεία"
@@ -13684,7 +13684,7 @@ const vocabularyData = {
         {
             "word": "διάβασμα",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "form": "noun",
             "plural": "διαβάσματα"
         },
@@ -14095,7 +14095,7 @@ const vocabularyData = {
         {
             "word": "σπίτι",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "article": "το",
             "baseWord": "σπίτι",
             "numberPlural": "πολλά σπίτι",
@@ -14186,7 +14186,7 @@ const vocabularyData = {
         {
             "word": "πηγαίνω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "subtext": "πηγαίνω στο σχολείο, πηγαίνω σπίτι",
             "form": "verb"
@@ -14341,7 +14341,7 @@ const vocabularyData = {
         {
             "word": "έρχομαι",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃‍♂️",
             "subtext": "έλα εδώ, έλα σπίτι",
             "opposite": "πηγαίνω",
@@ -14418,7 +14418,7 @@ const vocabularyData = {
         {
             "word": "φεύγω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚪",
             "form": "noun",
             "plural": "φεύγω"
@@ -14484,7 +14484,7 @@ const vocabularyData = {
         {
             "word": "παίζω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎮",
             "form": "noun",
             "plural": "παίζω"
@@ -14492,7 +14492,7 @@ const vocabularyData = {
         {
             "word": "τρέχω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏃",
             "form": "noun",
             "plural": "τρέχω"
@@ -14611,7 +14611,7 @@ const vocabularyData = {
         {
             "word": "μαθαίνω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📚",
             "form": "noun",
             "plural": "μαθαίνω"
@@ -14643,7 +14643,7 @@ const vocabularyData = {
         {
             "word": "παρακολουθώ",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📺",
             "form": "noun",
             "plural": "παρακολουθώ",
@@ -14667,7 +14667,7 @@ const vocabularyData = {
         {
             "word": "σταματάω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🛑",
             "form": "noun",
             "plural": "σταματάω"
@@ -14725,7 +14725,7 @@ const vocabularyData = {
         {
             "word": "περπατάω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🚶",
             "form": "verb",
             "definitions": [
@@ -14741,7 +14741,7 @@ const vocabularyData = {
         {
             "word": "νικάω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏆",
             "opposite": "χάνω",
             "oppositeEmoji": "📉",
@@ -14829,7 +14829,7 @@ const vocabularyData = {
         {
             "word": "μένω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏨",
             "form": "verb"
         },
@@ -14885,7 +14885,7 @@ const vocabularyData = {
         {
             "word": "περνώ",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏔️",
             "form": "verb"
         },
@@ -15031,7 +15031,7 @@ const vocabularyData = {
         {
             "word": "σχεδιάζω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎨",
             "form": "verb",
             "definitions": [
@@ -15079,35 +15079,35 @@ const vocabularyData = {
         {
             "word": "χορεύω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "💃",
             "form": "verb"
         },
         {
             "word": "τραγουδάω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎤",
             "form": "verb"
         },
         {
             "word": "πηδάω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🦘",
             "form": "verb"
         },
         {
             "word": "πετάω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "κολυμπάω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🏊",
             "form": "verb"
         },
@@ -15128,35 +15128,35 @@ const vocabularyData = {
         {
             "word": "μαγειρεύω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🍳",
             "form": "verb"
         },
         {
             "word": "ταξιδεύω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "σπουδάζω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "📖",
             "form": "verb"
         },
         {
             "word": "διδάσκω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "👨‍🏫",
             "form": "verb"
         },
         {
             "word": "ακούω",
             "level": "starter",
-            "theme": "places_A0",
+            "theme": "places_buildings_activities_A2",
             "emoji": "🎧",
             "form": "verb"
         },

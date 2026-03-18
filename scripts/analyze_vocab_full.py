@@ -40,7 +40,7 @@ def analyze_vocab():
             themes[t] = themes.get(t, 0) + 1
 
         suspicious_themes = [t for t in themes if t not in [
-            'body_A0', 'food_drink_A0', 'home_A0', 'colours_A0', 'numbers_1_20_A0', 'days_week_A0', 'jobs_A0', 'transport_A0', 'weather_A0', 'adjectives_A0', 'money_A0', 'family_A0', 'places_A0',
+            'body_A0', 'food_drink_A0', 'home_A0', 'colours_A0', 'numbers_1_20_A0', 'days_week_A0', 'jobs_A0', 'transport_A0', 'weather_A0', 'adjectives_A0', 'money_A0', 'family_A0', 'places_countries_cities_A0', 'places_shops_A1', 'places_buildings_activities_A2', 'places_streets_locations_A2',
             'work_A1', 'home_A1', 'routine_A1', 'health_A1', 'food_meals_A1', 'shopping_A1', 'technology_A1', 'leisure_A1', 'social_life_A1', 'feelings_A1', 'transport_A1', 'numbers_money_A1',
             'career_A2', 'property_A2', 'finances_A2', 'health_body_A2', 'food_nutrition_A2', 'relationships_family_A2', 'transport_travel_A2', 'shopping_consumerism_A2', 'technology_A2', 'neighbourhood_A2', 'leisure_hobbies_A2', 'personality_A2', 'environment_A2', 'quantities_A2',
             'career_development_B1', 'work_life_balance_B1', 'mental_health_B1', 'finances_investment_B1', 'housing_mortgages_B1', 'parenting_family_B1', 'relationships_communication_B1', 'society_community_B1', 'equality_rights_B1', 'environment_sustainability_B1', 'media_news_B1', 'education_learning_B1', 'travel_cultural_B1', 'opinion_debate_B1',

@@ -137,30 +137,67 @@ function populateThemes(categoryId) {
         const vd = vocabularyData[lang] || [];
         const availableThemes = new Set();
 
-        // Use themeConfig as the primary source for the order and availability
         if (typeof themeConfig !== 'undefined') {
-            const config = themeConfig[selectedLevel];
-            if (config) {
-                const levelThemes = config.themes || (config.A0 && config.A1 ? {...config.A0.themes, ...config.A1.themes} : {});
-                Object.keys(levelThemes).forEach(t => availableThemes.add(t));
-            } else if (selectedLevel === 'all') {
+            if (selectedLevel === 'all') {
                 Object.values(themeConfig).forEach(lv => {
-                    const levelThemes = lv.themes || (lv.A0 && lv.A1 ? {...lv.A0.themes, ...lv.A1.themes} : {});
-                    Object.keys(levelThemes).forEach(t => availableThemes.add(t));
+                    if (lv.themes) Object.keys(lv.themes).forEach(t => availableThemes.add(t));
+                    if (lv.A0) Object.keys(lv.A0.themes).forEach(t => availableThemes.add(t));
+                    if (lv.A1) Object.keys(lv.A1.themes).forEach(t => availableThemes.add(t));
                 });
+            } else {
+                const config = themeConfig[selectedLevel];
+                if (config) {
+                    if (config.themes) Object.keys(config.themes).forEach(t => availableThemes.add(t));
+                    if (config.A0) Object.keys(config.A0.themes).forEach(t => availableThemes.add(t));
+                    if (config.A1) Object.keys(config.A1.themes).forEach(t => availableThemes.add(t));
+                }
             }
         }
 
-        // Fallback/Supplement with actually present data in vocabulary
         vd.forEach(item => {
             if (selectedLevel === 'all' || item.level === selectedLevel) {
-                availableThemes.add(item.theme);
+                if (item.theme) availableThemes.add(item.theme);
             }
         });
 
-        Array.from(availableThemes).sort().forEach(val => {
-            themes.push({ value: val, key: 'theme_' + val });
+        const themeList = Array.from(availableThemes).sort();
+        const groups = {
+            'numbers': { label: 'Numbers', themes: themeList.filter(th => th.startsWith('numbers_')), randomKey: 'numbers_all' },
+            'places': { label: 'Places', themes: themeList.filter(th => th.startsWith('places_')), randomKey: 'places_all' }
+        };
+        const groupedSet = new Set([...groups.numbers.themes, ...groups.places.themes]);
+
+        // Ungrouped
+        themeList.filter(th => !groupedSet.has(th)).forEach(th => {
+            const opt = document.createElement('option');
+            opt.value = th;
+            opt.textContent = t['theme_' + th] || th;
+            opt.setAttribute('data-translate-key', 'theme_' + th);
+            themeSelect.appendChild(opt);
         });
+
+        // Grouped
+        for (const [key, group] of Object.entries(groups)) {
+            if (group.themes.length > 0) {
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = group.label;
+
+                const randomOpt = document.createElement('option');
+                randomOpt.value = group.randomKey;
+                randomOpt.textContent = `Random ${group.label}`;
+                optgroup.appendChild(randomOpt);
+
+                group.themes.forEach(th => {
+                    const opt = document.createElement('option');
+                    opt.value = th;
+                    opt.textContent = t['theme_' + th] || th;
+                    opt.setAttribute('data-translate-key', 'theme_' + th);
+                    optgroup.appendChild(opt);
+                });
+                themeSelect.appendChild(optgroup);
+            }
+        }
+        return; // Already populated
     }
 
     themes.forEach(th => {
@@ -1103,10 +1140,16 @@ function startPractice(isWheelMode = false) {
                 addNum(i, 'numbers_20_99_A0');
                 if (i >= 30 && i < 90) addNum(i+5, 'numbers_20_99_A0'); // Add some non-round ones
             }
-            // 100+
-            [100, 200, 500, 1000].forEach(n => addNum(n, 'numbers_100_plus_A1', 'starter'));
-            // 1000+
-            [1000, 2000, 5000, 10000].forEach(n => addNum(n, 'numbers_1000_plus_A2', 'elementary'));
+            // 100+ Procedural
+            for(let i=0; i<20; i++) {
+                const n = Math.floor(Math.random() * 900) + 100;
+                addNum(n, 'numbers_100_plus_A1', 'starter');
+            }
+            // 1000+ Procedural
+            for(let i=0; i<20; i++) {
+                const n = Math.floor(Math.random() * 9000) + 1000;
+                addNum(n, 'numbers_1000_plus_A2', 'elementary');
+            }
         }
     }
 
@@ -1114,8 +1157,13 @@ function startPractice(isWheelMode = false) {
     if (selectedLevel !== 'all') {
         rawItems = rawItems.filter(item => item.level === selectedLevel);
     }
+
     if (selectedTheme !== 'all') {
-        rawItems = rawItems.filter(item => (item.theme === selectedTheme || item.originalTheme === selectedTheme));
+        rawItems = rawItems.filter(item => {
+            if (selectedTheme === 'numbers_all') return item.theme.startsWith('numbers_');
+            if (selectedTheme === 'places_all') return item.theme.startsWith('places_');
+            return (item.theme === selectedTheme || item.originalTheme === selectedTheme);
+        });
     }
 
     if (rawItems.length === 0) {

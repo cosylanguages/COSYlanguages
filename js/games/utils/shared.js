@@ -425,6 +425,87 @@ const getNumberWord = (n, lang) => {
 };
 
 
+const populateThemes = (themeSelect, levelSelect, lang, dataSourceType = 'vocab') => {
+    if (!themeSelect) return;
+    const level = levelSelect ? levelSelect.value : 'all';
+    const t = (key) => (typeof translations !== 'undefined' && translations[lang] && translations[lang][key]) || key;
+
+    const currentVal = themeSelect.value;
+    themeSelect.innerHTML = '<option value="all" data-translate-key="theme_all">' + t('theme_all') + '</option>';
+
+    let themes = new Set();
+    if (dataSourceType === 'speaking') {
+        const speaking = window.speakingData && window.speakingData[lang];
+        if (speaking) {
+            ['debates', 'opinionArena', 'criticsCorner', 'talkThatTalk'].forEach(cat => {
+                if (speaking[cat]) {
+                    speaking[cat].forEach(item => {
+                        if (level === 'all' || item.level === level) {
+                            if (item.theme) themes.add(item.theme);
+                        }
+                    });
+                }
+            });
+        }
+    } else {
+        const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+        vocab.forEach(item => {
+            if (level === 'all' || item.level === level) {
+                if (item.theme) themes.add(item.theme);
+            }
+        });
+    }
+
+    const themeList = Array.from(themes).sort();
+
+    // Grouping Logic
+    const groups = {
+        'numbers': { label: 'Numbers', themes: themeList.filter(th => th.startsWith('numbers_')), randomKey: 'numbers_all' },
+        'places': { label: 'Places', themes: themeList.filter(th => th.startsWith('places_')), randomKey: 'places_all' }
+    };
+
+    const groupedThemes = new Set([
+        ...groups.numbers.themes,
+        ...groups.places.themes
+    ]);
+
+    // Add Ungrouped Themes first
+    themeList.filter(th => !groupedThemes.has(th)).forEach(th => {
+        const opt = document.createElement('option');
+        opt.value = th;
+        opt.textContent = t('theme_' + th);
+        opt.setAttribute('data-translate-key', 'theme_' + th);
+        themeSelect.appendChild(opt);
+    });
+
+    // Add Grouped Themes
+    for (const [key, group] of Object.entries(groups)) {
+        if (group.themes.length > 0) {
+            const optgroup = document.createElement('optgroup');
+            optgroup.label = group.label;
+
+            // Random option for the group
+            const randomOpt = document.createElement('option');
+            randomOpt.value = group.randomKey;
+            randomOpt.textContent = `Random ${group.label}`;
+            optgroup.appendChild(randomOpt);
+
+            group.themes.forEach(th => {
+                const opt = document.createElement('option');
+                opt.value = th;
+                opt.textContent = t('theme_' + th);
+                opt.setAttribute('data-translate-key', 'theme_' + th);
+                optgroup.appendChild(opt);
+            });
+            themeSelect.appendChild(optgroup);
+        }
+    }
+
+    if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
+        themeSelect.value = currentVal;
+    }
+};
+
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm, getNumberWord
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm, getNumberWord, populateThemes
 };
