@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { speak, seededShuffle, handleShare, playGameSound } = window.gameUtils;
+    const { speak, seededShuffle, handleShare, playGameSound, getNumberWord } = window.gameUtils;
 
     const initBingo = () => {
         const { createConfetti } = window.gameUtils;
