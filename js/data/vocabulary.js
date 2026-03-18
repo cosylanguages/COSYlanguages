@@ -10,8 +10,7 @@ const vocabularyData = {
                 {
                     "text": "0"
                 }
-            ]
-        },
+
         {
             "word": "one",
             "level": "starter",
@@ -22,8 +21,7 @@ const vocabularyData = {
                 {
                     "text": "1"
                 }
-            ]
-        },
+
         {
             "word": "two",
             "level": "starter",
@@ -34,8 +32,7 @@ const vocabularyData = {
                 {
                     "text": "2"
                 }
-            ]
-        },
+
         {
             "word": "three",
             "level": "starter",
@@ -46,8 +43,7 @@ const vocabularyData = {
                 {
                     "text": "3"
                 }
-            ]
-        },
+
         {
             "word": "four",
             "level": "starter",
@@ -58,8 +54,7 @@ const vocabularyData = {
                 {
                     "text": "4"
                 }
-            ]
-        },
+
         {
             "word": "five",
             "level": "starter",
@@ -70,8 +65,7 @@ const vocabularyData = {
                 {
                     "text": "5"
                 }
-            ]
-        },
+
         {
             "word": "six",
             "level": "starter",
@@ -82,8 +76,7 @@ const vocabularyData = {
                 {
                     "text": "6"
                 }
-            ]
-        },
+
         {
             "word": "seven",
             "level": "starter",
@@ -94,8 +87,7 @@ const vocabularyData = {
                 {
                     "text": "7"
                 }
-            ]
-        },
+
         {
             "word": "eight",
             "level": "starter",
@@ -106,8 +98,7 @@ const vocabularyData = {
                 {
                     "text": "8"
                 }
-            ]
-        },
+
         {
             "word": "nine",
             "level": "starter",
@@ -118,8 +109,7 @@ const vocabularyData = {
                 {
                     "text": "9"
                 }
-            ]
-        },
+
         {
             "word": "ten",
             "level": "starter",
@@ -130,8 +120,7 @@ const vocabularyData = {
                 {
                     "text": "10"
                 }
-            ]
-        },
+
         {
             "word": "eleven",
             "level": "starter",
@@ -142,8 +131,7 @@ const vocabularyData = {
                 {
                     "text": "11"
                 }
-            ]
-        },
+
         {
             "word": "twelve",
             "level": "starter",
@@ -154,8 +142,7 @@ const vocabularyData = {
                 {
                     "text": "12"
                 }
-            ]
-        },
+
         {
             "word": "thirteen",
             "level": "starter",
@@ -166,8 +153,7 @@ const vocabularyData = {
                 {
                     "text": "13"
                 }
-            ]
-        },
+
         {
             "word": "fourteen",
             "level": "starter",
@@ -178,8 +164,7 @@ const vocabularyData = {
                 {
                     "text": "14"
                 }
-            ]
-        },
+
         {
             "word": "fifteen",
             "level": "starter",
@@ -190,8 +175,7 @@ const vocabularyData = {
                 {
                     "text": "15"
                 }
-            ]
-        },
+
         {
             "word": "sixteen",
             "level": "starter",
@@ -202,8 +186,7 @@ const vocabularyData = {
                 {
                     "text": "16"
                 }
-            ]
-        },
+
         {
             "word": "seventeen",
             "level": "starter",
@@ -214,8 +197,7 @@ const vocabularyData = {
                 {
                     "text": "17"
                 }
-            ]
-        },
+
         {
             "word": "eighteen",
             "level": "starter",
@@ -226,8 +208,7 @@ const vocabularyData = {
                 {
                     "text": "18"
                 }
-            ]
-        },
+
         {
             "word": "nineteen",
             "level": "starter",
@@ -238,8 +219,7 @@ const vocabularyData = {
                 {
                     "text": "19"
                 }
-            ]
-        },
+
         {
             "word": "twenty",
             "level": "starter",
@@ -250,8 +230,7 @@ const vocabularyData = {
                 {
                     "text": "20"
                 }
-            ]
-        },
+
         {
             "word": "doctor",
             "level": "starter",
@@ -269,14 +248,7 @@ const vocabularyData = {
                         "I need to see a doctor."
                     ]
                 },
-                {
-                    "text": "This person usually works in a hospital or a clinic.",
-                    "examples": [
-                        "Doctors wear white coats."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "engineer",
             "level": "intermediate",
@@ -292,14 +264,7 @@ const vocabularyData = {
                         "He wants to be an electrical engineer."
                     ]
                 },
-                {
-                    "text": "This person often works in an office or on a construction site.",
-                    "examples": [
-                        "Engineers use computers to design things."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "artist",
             "level": "elementary",
@@ -315,14 +280,7 @@ const vocabularyData = {
                         "She is a famous artist."
                     ]
                 },
-                {
-                    "text": "This person often works in a studio.",
-                    "examples": [
-                        "Artists use colors and brushes."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "pilot",
             "level": "intermediate",
@@ -338,14 +296,7 @@ const vocabularyData = {
                         "He wants to be a pilot."
                     ]
                 },
-                {
-                    "text": "This person works in the sky and at the airport.",
-                    "examples": [
-                        "Pilots wear a uniform."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "chef",
             "level": "elementary",
@@ -361,14 +312,7 @@ const vocabularyData = {
                         "Our chef is very talented."
                     ]
                 },
-                {
-                    "text": "This person works in a kitchen.",
-                    "examples": [
-                        "Chefs wear a tall white hat."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "lawyer",
             "level": "upper-intermediate",
@@ -384,14 +328,7 @@ const vocabularyData = {
                         "The lawyer is in the courtroom."
                     ]
                 },
-                {
-                    "text": "This person often works in an office or a court.",
-                    "examples": [
-                        "Lawyers read many documents."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "teacher",
             "level": "starter",
@@ -409,14 +346,7 @@ const vocabularyData = {
                         "My teacher is very helpful."
                     ]
                 },
-                {
-                    "text": "This person usually works in a school or a university.",
-                    "examples": [
-                        "Teachers explain new topics."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "nurse",
             "level": "elementary",
@@ -432,14 +362,7 @@ const vocabularyData = {
                         "She is a kind nurse."
                     ]
                 },
-                {
-                    "text": "This person usually works in a hospital or a clinic.",
-                    "examples": [
-                        "Nurses help doctors take care of people."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "firefighter",
             "level": "advanced",
@@ -455,14 +378,7 @@ const vocabularyData = {
                         "Firefighters are very brave."
                     ]
                 },
-                {
-                    "text": "This person works at a fire station.",
-                    "examples": [
-                        "Firefighters drive a big red truck."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "police officer",
             "level": "upper-intermediate",
@@ -478,14 +394,7 @@ const vocabularyData = {
                         "I asked a police officer for help."
                     ]
                 },
-                {
-                    "text": "This person works at a police station.",
-                    "examples": [
-                        "Police officers wear a uniform and a badge."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "pizza",
             "level": "starter",
@@ -503,14 +412,7 @@ const vocabularyData = {
                         "Let's order a pizza."
                     ]
                 },
-                {
-                    "text": "This food is originally from Italy.",
-                    "examples": [
-                        "Pizza is popular all over the world."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "sushi",
             "level": "intermediate",
@@ -526,14 +428,7 @@ const vocabularyData = {
                         "We are going to a sushi restaurant."
                     ]
                 },
-                {
-                    "text": "This food is originally from Japan.",
-                    "examples": [
-                        "Sushi is often served with ginger and wasabi."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "burger",
             "level": "elementary",
@@ -549,14 +444,7 @@ const vocabularyData = {
                         "This cheese burger is delicious."
                     ]
                 },
-                {
-                    "text": "This is a popular type of fast food.",
-                    "examples": [
-                        "Burgers often have lettuce and tomato."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "pasta",
             "level": "starter",
@@ -572,14 +460,7 @@ const vocabularyData = {
                         "Spaghetti is a type of pasta."
                     ]
                 },
-                {
-                    "text": "This food is originally from Italy.",
-                    "examples": [
-                        "There are many different shapes of pasta."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "taco",
             "level": "elementary",
@@ -595,14 +476,7 @@ const vocabularyData = {
                         "I like spicy beef tacos."
                     ]
                 },
-                {
-                    "text": "This food is originally from Mexico.",
-                    "examples": [
-                        "Tacos are usually small and handheld."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "pancake",
             "level": "intermediate",
@@ -618,14 +492,7 @@ const vocabularyData = {
                         "I like pancakes with honey."
                     ]
                 },
-                {
-                    "text": "People often eat this for breakfast with syrup.",
-                    "examples": [
-                        "Pancakes are soft and sweet."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "salad",
             "level": "elementary",
@@ -641,14 +508,7 @@ const vocabularyData = {
                         "The salad has lettuce and cucumber."
                     ]
                 },
-                {
-                    "text": "This is a healthy food usually served cold.",
-                    "examples": [
-                        "Salads are often served with a dressing."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "steak",
             "level": "upper-intermediate",
@@ -664,14 +524,7 @@ const vocabularyData = {
                         "I ordered a medium-rare steak."
                     ]
                 },
-                {
-                    "text": "This is often served in a steakhouse.",
-                    "examples": [
-                        "Steak is a very filling meal."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "apple",
             "level": "starter",
@@ -689,8 +542,7 @@ const vocabularyData = {
                         "Apple juice is sweet."
                     ]
                 }
-            ]
-        },
+
         {
             "word": "bread",
             "level": "starter",
@@ -706,8 +558,7 @@ const vocabularyData = {
                         "Can you buy some bread?"
                     ]
                 }
-            ]
-        },
+
         {
             "word": "cheese",
             "level": "elementary",
@@ -723,14 +574,7 @@ const vocabularyData = {
                         "There are many types of cheese."
                     ]
                 },
-                {
-                    "text": "Some cheeses have holes in them.",
-                    "examples": [
-                        "France is famous for its cheese."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "egg",
             "level": "starter",
@@ -746,14 +590,7 @@ const vocabularyData = {
                         "How do you like your eggs?"
                     ]
                 },
-                {
-                    "text": "Many people eat eggs for breakfast.",
-                    "examples": [
-                        "We need eggs to bake a cake."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "milk",
             "level": "starter",
@@ -769,14 +606,7 @@ const vocabularyData = {
                         "Children should drink milk."
                     ]
                 },
-                {
-                    "text": "We use milk to make cheese and yogurt.",
-                    "examples": [
-                        "Keep the milk in the fridge."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "rice",
             "level": "elementary",
@@ -792,14 +622,7 @@ const vocabularyData = {
                         "Do you like fried rice?"
                     ]
                 },
-                {
-                    "text": "This is a staple food in many Asian countries.",
-                    "examples": [
-                        "Rice grows in water-filled fields."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "tomato",
             "level": "elementary",
@@ -815,14 +638,7 @@ const vocabularyData = {
                         "I need tomatoes for the pasta sauce."
                     ]
                 },
-                {
-                    "text": "Tomatoes are technically fruit but used as vegetables.",
-                    "examples": [
-                        "Cherry tomatoes are small and sweet."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "potato",
             "level": "elementary",
@@ -838,14 +654,7 @@ const vocabularyData = {
                         "Can you peel the potatoes?"
                     ]
                 },
-                {
-                    "text": "We use potatoes to make French fries.",
-                    "examples": [
-                        "Potatoes grow under the ground."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "carrot",
             "level": "intermediate",
@@ -861,14 +670,7 @@ const vocabularyData = {
                         "I like raw carrots."
                     ]
                 },
-                {
-                    "text": "Rabbits love eating carrots.",
-                    "examples": [
-                        "You can use carrots in a cake."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "banana",
             "level": "starter",
@@ -884,14 +686,7 @@ const vocabularyData = {
                         "I eat a banana every morning."
                     ]
                 },
-                {
-                    "text": "Bananas grow in tropical areas.",
-                    "examples": [
-                        "Peel the banana before eating it."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "coffee",
             "level": "starter",
@@ -907,14 +702,7 @@ const vocabularyData = {
                         "Do you want sugar in your coffee?"
                     ]
                 },
-                {
-                    "text": "Many people drink this to wake up.",
-                    "examples": [
-                        "The coffee is very hot."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "tea",
             "level": "starter",
@@ -930,14 +718,7 @@ const vocabularyData = {
                         "Green tea is very healthy."
                     ]
                 },
-                {
-                    "text": "This is a very popular drink in England and Asia.",
-                    "examples": [
-                        "I like tea with lemon."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "wine",
             "level": "elementary",
@@ -953,14 +734,7 @@ const vocabularyData = {
                         "They drank a bottle of wine."
                     ]
                 },
-                {
-                    "text": "France and Italy are famous for their wines.",
-                    "examples": [
-                        "The wine is made in a vineyard."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "beer",
             "level": "elementary",
@@ -976,14 +750,7 @@ const vocabularyData = {
                         "Beer is often served cold."
                     ]
                 },
-                {
-                    "text": "This drink often has foam on top.",
-                    "examples": [
-                        "Germany is famous for its beer."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "juice",
             "level": "starter",
@@ -999,14 +766,7 @@ const vocabularyData = {
                         "Apple juice is sweet."
                     ]
                 },
-                {
-                    "text": "Orange juice is common for breakfast.",
-                    "examples": [
-                        "Freshly squeezed juice is the best."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "water",
             "level": "starter",
@@ -1022,8 +782,7 @@ const vocabularyData = {
                         "The water is cold."
                     ]
                 }
-            ]
-        },
+
         {
             "word": "milkshake",
             "level": "intermediate",
@@ -1039,14 +798,7 @@ const vocabularyData = {
                         "The milkshake is very thick."
                     ]
                 },
-                {
-                    "text": "This is a sweet and thick drink.",
-                    "examples": [
-                        "Milkshakes are popular in American diners."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "soda",
             "level": "elementary",
@@ -1062,14 +814,7 @@ const vocabularyData = {
                         "Can I have a soda?"
                     ]
                 },
-                {
-                    "text": "This drink has bubbles.",
-                    "examples": [
-                        "Soda is also called pop or soft drink."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "park",
             "level": "starter",
@@ -1085,21 +830,7 @@ const vocabularyData = {
                         "The park has many trees."
                     ]
                 },
-                {
-                    "text": "This is a place where you can see grass, trees, and flowers.",
-                    "examples": [
-                        "Children play in the park."
-                    ]
-                },
-                {
-                    "text": "To leave a car or vehicle in a specific place for a time.",
-                    "examples": [
-                        "Where can I park my car?",
-                        "Don't park here."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "school",
             "level": "starter",
@@ -1115,8 +846,7 @@ const vocabularyData = {
                         "My school is near my house."
                     ]
                 }
-            ]
-        },
+
         {
             "word": "hospital",
             "level": "elementary",
@@ -1132,14 +862,7 @@ const vocabularyData = {
                         "She works at the hospital."
                     ]
                 },
-                {
-                    "text": "This is a place where you go to see a doctor or a nurse.",
-                    "examples": [
-                        "Hospitals are open 24 hours a day."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "cinema",
             "level": "elementary",
@@ -1155,14 +878,7 @@ const vocabularyData = {
                         "What's playing at the cinema?"
                     ]
                 },
-                {
-                    "text": "This is a place where you can eat popcorn and watch a movie.",
-                    "examples": [
-                        "I love going to the cinema with friends."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "restaurant",
             "level": "elementary",
@@ -1178,14 +894,7 @@ const vocabularyData = {
                         "The restaurant is open."
                     ]
                 },
-                {
-                    "text": "In this place, a waiter or waitress brings food to your table.",
-                    "examples": [
-                        "We had dinner at a fancy restaurant."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "library",
             "level": "intermediate",
@@ -1233,14 +942,7 @@ const vocabularyData = {
                         "The airport is very big."
                     ]
                 },
-                {
-                    "text": "This is the place where you go to catch a flight.",
-                    "examples": [
-                        "We need to be at the airport two hours before the flight."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "supermarché",
             "level": "elementary",
@@ -1256,14 +958,7 @@ const vocabularyData = {
                         "Le supermarché est ouvert jusqu'à 21h."
                     ]
                 },
-                {
-                    "text": "On utilise un chariot pour faire ses achats.",
-                    "examples": [
-                        "Il y a beaucoup de choix dans ce supermarché."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "pharmacie",
             "level": "upper-intermediate",
@@ -1279,14 +974,7 @@ const vocabularyData = {
                         "La pharmacie de garde est ouverte."
                     ]
                 },
-                {
-                    "text": "C'est le lieu où l'on présente une ordonnance médicale.",
-                    "examples": [
-                        "Le pharmacien donne des conseils."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "aéroport",
             "level": "intermediate",
@@ -1302,14 +990,7 @@ const vocabularyData = {
                         "L'aéroport est très grand."
                     ]
                 },
-                {
-                    "text": "C'est l'endroit où l'on prend l'avion.",
-                    "examples": [
-                        "On doit enregistrer les bagages à l'aéroport."
-                    ]
-                }
-            ]
-        },
+
         {
             "word": "t-shirt",
             "level": "starter",
@@ -1405,8 +1086,7 @@ const vocabularyData = {
                         "This chair is broken."
                     ]
                 }
-            ]
-        },
+
         {
             "word": "table",
             "level": "starter",
@@ -1422,8 +1102,7 @@ const vocabularyData = {
                         "Let's sit at the table."
                     ]
                 }
-            ]
-        },
+
         {
             "word": "bed",
             "level": "starter",
@@ -1439,8 +1118,7 @@ const vocabularyData = {
                         "It's time to go to bed."
                     ]
                 }
-            ]
-        },
+
         {
             "word": "sofa",
             "level": "elementary",
@@ -1510,8 +1188,7 @@ const vocabularyData = {
                         "That building is tall."
                     ]
                 }
-            ]
-        },
+
         {
             "word": "short",
             "level": "starter",
@@ -1525,8 +1202,7 @@ const vocabularyData = {
                         "The pencil is short."
                     ]
                 }
-            ]
-        },
+
         {
             "word": "beautiful",
             "level": "elementary",
@@ -1585,27 +1261,1073 @@ const vocabularyData = {
             "form": "verb"
         },
         {
-            "word": "breakfast",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🍳",
+                                                "emoji": "🍳",
             "form": "verb"
-        },
+        },,
         {
-            "word": "work",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "💼",
-            "subtext": "work in an office, work hard",
-            "form": "verb",
-            "definitions": [
-                {
-                    "text": "To do a job to earn money.",
-                    "examples": [
-                        "I work five days a week.",
-                        "She works at a bank."
-                    ]
-                },
+                        "word": "be",
+                        "level": "starter",
+                        "theme": "verbs_being_A0",
+                        "form": "verb",
+                        "subtext": "be ready / be tired / be at home / be open",
+                        "definitions": [
+                                    {
+                                                "text": "To exist; to have a quality or state.",
+                                                "examples": [
+                                                            "I am tired.",
+                                                            "She is a nurse.",
+                                                            "We are at work."
+                                                ]
+                                    }
+
+        {
+                        "word": "have",
+                        "level": "starter",
+                        "theme": "verbs_being_A0",
+                        "form": "verb",
+                        "subtext": "have a job / have lunch / have time / have a problem",
+                        "definitions": [
+                                    {
+                                                "text": "To possess or experience something.",
+                                                "examples": [
+                                                            "I have a flat.",
+                                                            "He has a headache.",
+                                                            "She has a job."
+                                                ]
+                                    }
+
+        {
+                        "word": "feel",
+                        "level": "starter",
+                        "theme": "verbs_being_A0",
+                        "form": "verb",
+                        "subtext": "feel tired / feel well / feel better / feel cold",
+                        "definitions": [
+                                    {
+                                                "text": "To experience a physical or emotional sensation.",
+                                                "examples": [
+                                                            "I feel happy.",
+                                                            "She feels tired.",
+                                                            "He feels better."
+                                                ]
+                                    }
+
+        {
+                        "word": "give",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "give advice / give a gift / give money / give information",
+                        "definitions": [
+                                    {
+                                                "text": "To hand something to someone.",
+                                                "examples": [
+                                                            "He gives me good advice.",
+                                                            "She gives a lot."
+                                                ]
+                                    }
+
+        {
+                        "word": "take",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "take the bus / take medicine / take a break / take a photo",
+                        "definitions": [
+                                    {
+                                                "text": "To hold and carry something; to use something.",
+                                                "examples": [
+                                                            "I take the bus.",
+                                                            "She takes medicine.",
+                                                            "He takes notes."
+                                                ]
+                                    }
+
+        {
+                        "word": "get",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "get home / get a job / get tired / get better",
+                        "definitions": [
+                                    {
+                                                "text": "To receive or obtain; to become.",
+                                                "examples": [
+                                                            "I get a good salary.",
+                                                            "She gets tired.",
+                                                            "He gets home at six."
+                                                ]
+                                    }
+
+        {
+                        "word": "put",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "put on / put away / put the phone down / put money aside",
+                        "definitions": [
+                                    {
+                                                "text": "To place something in a position.",
+                                                "examples": [
+                                                            "Put your bag here.",
+                                                            "She puts money in the bank."
+                                                ]
+                                    }
+
+        {
+                        "word": "make",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "make coffee / make a decision / make a mistake / make money",
+                        "definitions": [
+                                    {
+                                                "text": "To create or produce something; to cause.",
+                                                "examples": [
+                                                            "I make coffee every morning.",
+                                                            "She makes decisions quickly."
+                                                ]
+                                    }
+
+        {
+                        "word": "do",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "do work / do exercise / do the shopping / do nothing",
+                        "definitions": [
+                                    {
+                                                "text": "To perform a task or activity.",
+                                                "examples": [
+                                                            "I do my work.",
+                                                            "She does the cooking.",
+                                                            "He does nothing."
+                                                ]
+                                    }
+
+        {
+                        "word": "use",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "use a phone / use public transport / use a computer",
+                        "definitions": [
+                                    {
+                                                "text": "To employ something for a purpose.",
+                                                "examples": [
+                                                            "I use my phone for everything.",
+                                                            "She uses public transport."
+                                                ]
+                                    }
+
+        {
+                        "word": "open",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "open a door / open an account / open at nine",
+                        "definitions": [
+                                    {
+                                                "text": "To make not closed; to begin.",
+                                                "examples": [
+                                                            "He opens the door.",
+                                                            "She opens a bank account."
+                                                ]
+                                    }
+
+        {
+                        "word": "close",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "close a door / close at six / close the meeting",
+                        "definitions": [
+                                    {
+                                                "text": "To make not open; to finish.",
+                                                "examples": [
+                                                            "She closes her laptop.",
+                                                            "The bank closes at five."
+                                                ]
+                                    }
+
+        {
+                        "word": "start",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "start work / start a meeting / start a new job",
+                        "definitions": [
+                                    {
+                                                "text": "To begin something.",
+                                                "examples": [
+                                                            "I start work at eight.",
+                                                            "She starts a new job."
+                                                ]
+                                    }
+
+        {
+                        "word": "finish",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "finish work / finish a project / finish early",
+                        "definitions": [
+                                    {
+                                                "text": "To complete something or stop.",
+                                                "examples": [
+                                                            "He finishes work at five.",
+                                                            "She finishes the report."
+                                                ]
+                                    }
+
+        {
+                        "word": "help",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "help someone / help with / ask for help / help out",
+                        "definitions": [
+                                    {
+                                                "text": "To assist someone.",
+                                                "examples": [
+                                                            "He helps his colleagues.",
+                                                            "Can you help me?"
+                                                ]
+                                    }
+
+        {
+                        "word": "try",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "try to do / try hard / try something new / give it a try",
+                        "definitions": [
+                                    {
+                                                "text": "To make an effort; to attempt something.",
+                                                "examples": [
+                                                            "I always try my best at work.",
+                                                            "Try the coffee here."
+                                                ]
+                                    }
+
+        {
+                        "word": "show",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "show someone / show how / show a document / show interest",
+                        "definitions": [
+                                    {
+                                                "text": "To let someone see something; to explain.",
+                                                "examples": [
+                                                            "She shows me the map.",
+                                                            "He shows his work."
+                                                ]
+                                    }
+
+        {
+                        "word": "find",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "find a job / find out / find it difficult / find time",
+                        "definitions": [
+                                    {
+                                                "text": "To discover or locate something.",
+                                                "examples": [
+                                                            "I find the work interesting.",
+                                                            "She found a new job."
+                                                ]
+                                    }
+
+        {
+                        "word": "keep",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "keep going / keep quiet / keep a record / keep in touch",
+                        "definitions": [
+                                    {
+                                                "text": "To continue having or doing something.",
+                                                "examples": [
+                                                            "Keep the receipt.",
+                                                            "She keeps her phone on all day."
+                                                ]
+                                    }
+
+        {
+                        "word": "lose",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "lose a job / lose money / lose weight / lose time",
+                        "definitions": [
+                                    {
+                                                "text": "To no longer have something; to fail to win.",
+                                                "examples": [
+                                                            "I lost my keys.",
+                                                            "She lost her job.",
+                                                            "He never loses."
+                                                ]
+                                    }
+
+        {
+                        "word": "cut",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "cut costs / cut spending / cut short / cut in half",
+                        "definitions": [
+                                    {
+                                                "text": "To divide with something sharp; to reduce.",
+                                                "examples": [
+                                                            "She cuts her lunch break short.",
+                                                            "He cuts costs."
+                                                ]
+                                    }
+
+        {
+                        "word": "turn",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "turn on / turn off / turn left / turn right",
+                        "definitions": [
+                                    {
+                                                "text": "To move in a direction; to change state.",
+                                                "examples": [
+                                                            "Turn left at the office.",
+                                                            "She turns off the light."
+                                                ]
+                                    }
+
+        {
+                        "word": "bring",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "bring someone / bring food / bring a document / bring up",
+                        "definitions": [
+                                    {
+                                                "text": "To carry something to a place.",
+                                                "examples": [
+                                                            "Bring your ID to the interview.",
+                                                            "He brings lunch."
+                                                ]
+                                    }
+
+        {
+                        "word": "say",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "say hello / say yes / say no / say something",
+                        "definitions": [
+                                    {
+                                                "text": "To express something in words.",
+                                                "examples": [
+                                                            "She says hello every morning.",
+                                                            "He says it is fine."
+                                                ]
+                                    }
+
+        {
+                        "word": "tell",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "tell the truth / tell someone / tell a story / tell lies",
+                        "definitions": [
+                                    {
+                                                "text": "To give information to someone.",
+                                                "examples": [
+                                                            "He tells the truth.",
+                                                            "She tells me about her day."
+                                                ]
+                                    }
+
+        {
+                        "word": "ask",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "ask a question / ask for help / ask about / ask someone",
+                        "definitions": [
+                                    {
+                                                "text": "To put a question; to make a request.",
+                                                "examples": [
+                                                            "She asks good questions.",
+                                                            "I ask my boss for help."
+                                                ]
+                                    }
+
+        {
+                        "word": "speak",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "speak to someone / speak a language / speak clearly",
+                        "definitions": [
+                                    {
+                                                "text": "To communicate verbally; to know a language.",
+                                                "examples": [
+                                                            "He speaks three languages.",
+                                                            "She speaks to her manager."
+                                                ]
+                                    }
+
+        {
+                        "word": "talk",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "talk to someone / talk about / talk openly / talk for a while",
+                        "definitions": [
+                                    {
+                                                "text": "To have a conversation.",
+                                                "examples": [
+                                                            "We talk about work every Monday.",
+                                                            "She talks a lot."
+                                                ]
+                                    }
+
+        {
+                        "word": "call",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "call someone / call back / call a meeting / call in sick",
+                        "definitions": [
+                                    {
+                                                "text": "To telephone someone.",
+                                                "examples": [
+                                                            "I call my clients every morning.",
+                                                            "She calls a meeting."
+                                                ]
+                                    }
+
+        {
+                        "word": "write",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "write an email / write a report / write a letter / write notes",
+                        "definitions": [
+                                    {
+                                                "text": "To put words on paper or screen.",
+                                                "examples": [
+                                                            "I write emails all day.",
+                                                            "She writes a report every Friday."
+                                                ]
+                                    }
+
+        {
+                        "word": "read",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "read a book / read the news / read a contract / read carefully",
+                        "definitions": [
+                                    {
+                                                "text": "To look at and understand written words.",
+                                                "examples": [
+                                                            "She reads the news every morning.",
+                                                            "He reads contracts."
+                                                ]
+                                    }
+
+        {
+                        "word": "listen",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "listen to music / listen carefully / listen to a podcast",
+                        "definitions": [
+                                    {
+                                                "text": "To pay attention to sounds or speech.",
+                                                "examples": [
+                                                            "I listen to podcasts at work.",
+                                                            "She listens carefully."
+                                                ]
+                                    }
+
+        {
+                        "word": "answer",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "answer a question / answer the phone / answer an email",
+                        "definitions": [
+                                    {
+                                                "text": "To respond to a question or communication.",
+                                                "examples": [
+                                                            "He answers all emails quickly.",
+                                                            "She answered the phone."
+                                                ]
+                                    }
+
+        {
+                        "word": "repeat",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "repeat that / repeat yourself / repeat an order",
+                        "definitions": [
+                                    {
+                                                "text": "To say or do something again.",
+                                                "examples": [
+                                                            "Please repeat that.",
+                                                            "He repeated the instruction twice."
+                                                ]
+                                    }
+
+        {
+                        "word": "go",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "go to work / go home / go out / go shopping / go abroad",
+                        "definitions": [
+                                    {
+                                                "text": "To move from one place to another.",
+                                                "examples": [
+                                                            "I go to work by train.",
+                                                            "She goes abroad every year."
+                                                ]
+                                    }
+
+        {
+                        "word": "come",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "come home / come back / come to work / come here",
+                        "definitions": [
+                                    {
+                                                "text": "To move towards a place.",
+                                                "examples": [
+                                                            "He comes to the office at nine.",
+                                                            "She comes home late."
+                                                ]
+                                    }
+
+        {
+                        "word": "walk",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "walk to work / walk home / walk fast / walk every day",
+                        "definitions": [
+                                    {
+                                                "text": "To move on foot at a normal speed.",
+                                                "examples": [
+                                                            "He walks to work every day.",
+                                                            "She walks during lunch."
+                                                ]
+                                    }
+
+        {
+                        "word": "drive",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "drive to work / drive a car / drive home / drive carefully",
+                        "definitions": [
+                                    {
+                                                "text": "To operate and control a vehicle.",
+                                                "examples": [
+                                                            "She drives a company car.",
+                                                            "He drives to meetings."
+                                                ]
+                                    }
+
+        {
+                        "word": "fly",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "fly to a city / fly business class / fly economy",
+                        "definitions": [
+                                    {
+                                                "text": "To travel by plane.",
+                                                "examples": [
+                                                            "She flies to Paris for meetings.",
+                                                            "He hates flying."
+                                                ]
+                                    }
+
+        {
+                        "word": "arrive",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+                        "definitions": [
+                                    {
+                                                "text": "To reach a destination.",
+                                                "examples": [
+                                                            "He arrives at the office at nine.",
+                                                            "The train arrives late."
+                                                ]
+                                    }
+
+        {
+                        "word": "leave",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "leave home / leave work / leave early / leave late",
+                        "definitions": [
+                                    {
+                                                "text": "To go away from a place.",
+                                                "examples": [
+                                                            "I leave home at eight.",
+                                                            "She left the company last year."
+                                                ]
+                                    }
+
+        {
+                        "word": "move",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "move house / move to a city / move on / move forward",
+                        "definitions": [
+                                    {
+                                                "text": "To change position or place of living.",
+                                                "examples": [
+                                                            "They moved to a new flat.",
+                                                            "She moves to a different team."
+                                                ]
+                                    }
+
+        {
+                        "word": "return",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "return home / return to work / return a call / return from",
+                        "definitions": [
+                                    {
+                                                "text": "To come or go back to a place.",
+                                                "examples": [
+                                                            "He returns from a trip on Friday.",
+                                                            "She returned the call."
+                                                ]
+                                    }
+
+        {
+                        "word": "travel",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "travel for work / travel abroad / travel by train",
+                        "definitions": [
+                                    {
+                                                "text": "To go from one place to another, often far.",
+                                                "examples": [
+                                                            "She travels for work once a month. ",
+                                                            "He loves to travel."
+                                                ]
+                                    }
+
+        {
+                        "word": "eat",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
+                        "definitions": [
+                                    {
+                                                "text": "To put food in the mouth and consume it.",
+                                                "examples": [
+                                                            "We eat lunch at one o'clock.",
+                                                            "She eats at her desk."
+                                                ]
+                                    }
+
+        {
+                        "word": "drink",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "drink coffee / drink tea / drink water / drink alcohol",
+                        "definitions": [
+                                    {
+                                                "text": "To swallow liquid.",
+                                                "examples": [
+                                                            "She drinks coffee every morning.",
+                                                            "I drink water at work."
+                                                ]
+                                    }
+
+        {
+                        "word": "sleep",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "sleep well / sleep badly / sleep eight hours",
+                        "definitions": [
+                                    {
+                                                "text": "To rest in an unconscious state.",
+                                                "examples": [
+                                                            "He sleeps seven hours a night.",
+                                                            "She sleeps badly."
+                                                ]
+                                    }
+
+        {
+                        "word": "cook",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "cook dinner / cook a meal / cook at home",
+                        "definitions": [
+                                    {
+                                                "text": "To prepare food using heat.",
+                                                "examples": [
+                                                            "She cooks dinner every evening.",
+                                                            "He cooks for the team."
+                                                ]
+                                    }
+
+        {
+                        "word": "clean",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "clean the flat / clean up / clean the kitchen",
+                        "definitions": [
+                                    {
+                                                "text": "To remove dirt from something.",
+                                                "examples": [
+                                                            "I clean the flat on Saturdays.",
+                                                            "He cleans his desk daily."
+                                                ]
+                                    }
+
+        {
+                        "word": "wear",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "wear a suit / wear glasses / wear casual clothes",
+                        "definitions": [
+                                    {
+                                                "text": "To have clothing or accessories on your body.",
+                                                "examples": [
+                                                            "She wears a suit to work.",
+                                                            "He wears glasses."
+                                                ]
+                                    }
+
+        {
+                        "word": "wash",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "wash the dishes / wash clothes / wash your hands",
+                        "definitions": [
+                                    {
+                                                "text": "To clean something with water.",
+                                                "examples": [
+                                                            "He washes his car every Sunday.",
+                                                            "Wash your hands."
+                                                ]
+                                    }
+
+        {
+                        "word": "buy",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "buy food / buy a ticket / buy online / buy a house",
+                        "definitions": [
+                                    {
+                                                "text": "To get something by paying money.",
+                                                "examples": [
+                                                            "She buys groceries online.",
+                                                            "He wants to buy a flat."
+                                                ]
+                                    }
+
+        {
+                        "word": "pay",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+                        "definitions": [
+                                    {
+                                                "text": "To give money in exchange for something.",
+                                                "examples": [
+                                                            "I pay the rent monthly.",
+                                                            "She pays by card."
+                                                ]
+                                    }
+
+        {
+                        "word": "spend",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "spend money / spend time / spend on rent",
+                        "definitions": [
+                                    {
+                                                "text": "To use money or time.",
+                                                "examples": [
+                                                            "He spends too much on takeaway.",
+                                                            "She spends time commuting."
+                                                ]
+                                    }
+
+        {
+                        "word": "save",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "save money / save for a house / save time",
+                        "definitions": [
+                                    {
+                                                "text": "To keep money rather than spending it.",
+                                                "examples": [
+                                                            "She saves a hundred euros a month.",
+                                                            "Save your work."
+                                                ]
+                                    }
+
+        {
+                        "word": "work",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "work from home / work full-time / work hard / work late",
+                        "definitions": [
+                                    {
+                                                "text": "To do tasks to earn money.",
+                                                "examples": [
+                                                            "He works from home three days a week.",
+                                                            "She works hard."
+                                                ]
+                                    }
+
+        {
+                        "word": "live",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "live in a flat / live alone / live with someone / live abroad",
+                        "definitions": [
+                                    {
+                                                "text": "To have your home in a place; to be alive.",
+                                                "examples": [
+                                                            "She lives in a flat near the centre.",
+                                                            "We live together."
+                                                ]
+                                    }
+
+        {
+                        "word": "think",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "think about / think of / think carefully / think it is",
+                        "definitions": [
+                                    {
+                                                "text": "To use the mind; to have an opinion.",
+                                                "examples": [
+                                                            "I think it is a good idea.",
+                                                            "She thinks about quitting."
+                                                ]
+                                    }
+
+        {
+                        "word": "know",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "know someone / know the answer / know how to / know about",
+                        "definitions": [
+                                    {
+                                                "text": "To have information or be familiar with.",
+                                                "examples": [
+                                                            "I know his name.",
+                                                            "She knows how to negotiate."
+                                                ]
+                                    }
+
+        {
+                        "word": "want",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "want a job / want to do / want more / want help",
+                        "definitions": [
+                                    {
+                                                "text": "To desire or wish for something.",
+                                                "examples": [
+                                                            "I want a coffee.",
+                                                            "She wants a promotion.",
+                                                            "He wants to retire."
+                                                ]
+                                    }
+
+        {
+                        "word": "need",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "need help / need time / need money / need to rest",
+                        "definitions": [
+                                    {
+                                                "text": "To require something.",
+                                                "examples": [
+                                                            "I need a break.",
+                                                            "She needs more time.",
+                                                            "He needs help."
+                                                ]
+                                    }
+
+        {
+                        "word": "like",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "like work / like to travel / like someone / like the idea",
+                        "definitions": [
+                                    {
+                                                "text": "To find something pleasant.",
+                                                "examples": [
+                                                            "I like my job.",
+                                                            "She likes cooking at home.",
+                                                            "He likes coffee."
+                                                ]
+                                    }
+
+        {
+                        "word": "love",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "love someone / love doing / love a place / love the idea",
+                        "definitions": [
+                                    {
+                                                "text": "To have strong affection for; to enjoy greatly.",
+                                                "examples": [
+                                                            "She loves her job.",
+                                                            "He loves travelling for work."
+                                                ]
+                                    }
+
+        {
+                        "word": "hate",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "hate doing / hate someone / hate meetings / hate commuting",
+                        "definitions": [
+                                    {
+                                                "text": "To strongly dislike.",
+                                                "examples": [
+                                                            "He hates commuting by bus.",
+                                                            "She hates long meetings."
+                                                ]
+                                    }
+
+        {
+                        "word": "hope",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "hope for / hope to do / hope that / I hope so",
+                        "definitions": [
+                                    {
+                                                "text": "To wish for something for happen.",
+                                                "examples": [
+                                                            "I hope to get a promotion this year.",
+                                                            "She hopes for better pay."
+                                                ]
+                                    }
+
+        {
+                        "word": "remember",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "remember to do / remember a name / remember clearly",
+                        "definitions": [
+                                    {
+                                                "text": "To have a memory of; to not forget.",
+                                                "examples": [
+                                                            "Please remember the deadline.",
+                                                            "She remembers every client."
+                                                ]
+                                    }
+
+        {
+                        "word": "forget",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "forget a name / forget to do / forget about / completely forget",
+                        "definitions": [
+                                    {
+                                                "text": "To fail to remember.",
+                                                "examples": [
+                                                            "Don't forget the meeting.",
+                                                            "He always forgets passwords."
+                                                ]
+                                    }
+
+        {
+                        "word": "understand",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "understand a problem / understand someone / understand clearly",
+                        "definitions": [
+                                    {
+                                                "text": "To grasp the meaning of something.",
+                                                "examples": [
+                                                            "I understand the contract.",
+                                                            "She understands French."
+                                                ]
+                                    }
+
+        {
+                        "word": "decide",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "decide to do / decide on / make a decision / hard to decide",
+                        "definitions": [
+                                    {
+                                                "text": "To make a choice.",
+                                                "examples": [
+                                                            "She decided to change careers.",
+                                                            "He decides quickly."
+                                                ]
+                                    }
+
+        {
+                        "word": "enjoy",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
+                        "definitions": [
+                                    {
+                                                "text": "To take pleasure from something.",
+                                                "examples": [
+                                                            "He enjoys working from home.",
+                                                            "She enjoys her new role."
+                                                ]
+                                    }
+
+
+                        ],
+                        "emoji": "💼",
+            },
                 {
                     "text": "The place where you do your job.",
                     "examples": [
@@ -1629,21 +2351,23 @@ const vocabularyData = {
             "emoji": "🍽️",
             "form": "verb"
         },
-        {
-            "word": "sleep",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "😴",
-            "subtext": "sleep 8 hours, go to sleep",
-            "form": "verb",
-            "definitions": [
                 {
-                    "text": "To rest with your eyes closed.",
-                    "examples": [
-                        "I need to sleep.",
-                        "The baby is sleeping."
-                    ]
-                }
+                        "word": "sleep",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "sleep well / sleep badly / sleep eight hours",
+                        "definitions": [
+                                    {
+                                                "text": "To rest in an unconscious state.",
+                                                "examples": [
+                                                            "He sleeps seven hours a night.",
+                                                            "She sleeps badly."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "😴",
+            }
             ]
         },
         {
@@ -2809,98 +3533,166 @@ const vocabularyData = {
             "form": "noun",
             "plural": "mice"
         },
-        {
-            "word": "be",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "👤",
-            "subtext": "be cold, be 20 years old",
-            "form": "verb"
-        },
-        {
-            "word": "have",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "👜",
-            "subtext": "have breakfast, have a car",
-            "form": "verb"
-        },
-        {
-            "word": "go",
-            "level": "starter",
-            "theme": "places_buildings_activities_A2",
-            "emoji": "🚶",
-            "subtext": "go to school, go home",
-            "form": "verb"
-        },
-        {
-            "word": "eat",
-            "level": "starter",
-            "theme": "food_drink_A0",
-            "emoji": "🍎",
-            "subtext": "eat an apple, eat dinner",
-            "opposite": "drink",
-            "oppositeEmoji": "🥛",
-            "form": "verb",
-            "definitions": [
                 {
-                    "text": "To put food in your mouth and swallow it.",
-                    "examples": [
-                        "I eat an apple every day.",
-                        "What do you want to eat?"
-                    ]
-                }
+                        "word": "be",
+                        "level": "starter",
+                        "theme": "verbs_being_A0",
+                        "form": "verb",
+                        "subtext": "be ready / be tired / be at home / be open",
+                        "definitions": [
+                                    {
+                                                "text": "To exist; to have a quality or state.",
+                                                "examples": [
+                                                            "I am tired.",
+                                                            "She is a nurse.",
+                                                            "We are at work."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "👤",
+            },
+                {
+                        "word": "have",
+                        "level": "starter",
+                        "theme": "verbs_being_A0",
+                        "form": "verb",
+                        "subtext": "have a job / have lunch / have time / have a problem",
+                        "definitions": [
+                                    {
+                                                "text": "To possess or experience something.",
+                                                "examples": [
+                                                            "I have a flat.",
+                                                            "He has a headache.",
+                                                            "She has a job."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "👜",
+            },
+                {
+                        "word": "go",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "go to work / go home / go out / go shopping / go abroad",
+                        "definitions": [
+                                    {
+                                                "text": "To move from one place to another.",
+                                                "examples": [
+                                                            "I go to work by train.",
+                                                            "She goes abroad every year."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🚶",
+            },
+                {
+                        "word": "eat",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
+                        "definitions": [
+                                    {
+                                                "text": "To put food in the mouth and consume it.",
+                                                "examples": [
+                                                            "We eat lunch at one o'clock.",
+                                                            "She eats at her desk."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🍎",
+            }
             ]
         },
-        {
-            "word": "drink",
-            "level": "starter",
-            "theme": "food_drink_A0",
-            "emoji": "🥛",
-            "subtext": "drink water, drink coffee",
-            "form": "verb",
-            "definitions": [
                 {
-                    "text": "To take liquid into your mouth and swallow it.",
-                    "examples": [
-                        "I drink a lot of water.",
-                        "Do you want a drink?"
-                    ]
-                }
+                        "word": "drink",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "drink coffee / drink tea / drink water / drink alcohol",
+                        "definitions": [
+                                    {
+                                                "text": "To swallow liquid.",
+                                                "examples": [
+                                                            "She drinks coffee every morning.",
+                                                            "I drink water at work."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🥛",
+            }
             ]
         },
-        {
-            "word": "do",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🛠️",
-            "subtext": "do homework, do sport",
-            "form": "verb"
-        },
-        {
-            "word": "speak",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "🗣️",
-            "subtext": "speak English, speak slowly",
-            "form": "verb"
-        },
-        {
-            "word": "know",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "🧠",
-            "subtext": "know the answer, know a person",
-            "form": "verb"
-        },
-        {
-            "word": "think",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "💭",
-            "subtext": "think about, think that",
-            "form": "verb"
-        },
+                {
+                        "word": "do",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "do work / do exercise / do the shopping / do nothing",
+                        "definitions": [
+                                    {
+                                                "text": "To perform a task or activity.",
+                                                "examples": [
+                                                            "I do my work.",
+                                                            "She does the cooking.",
+                                                            "He does nothing."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🛠️",
+            },
+                {
+                        "word": "speak",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "speak to someone / speak a language / speak clearly",
+                        "definitions": [
+                                    {
+                                                "text": "To communicate verbally; to know a language.",
+                                                "examples": [
+                                                            "He speaks three languages.",
+                                                            "She speaks to her manager."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🗣️",
+            },
+                {
+                        "word": "know",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "know someone / know the answer / know how to / know about",
+                        "definitions": [
+                                    {
+                                                "text": "To have information or be familiar with.",
+                                                "examples": [
+                                                            "I know his name.",
+                                                            "She knows how to negotiate."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🧠",
+            },
+                {
+                        "word": "think",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "think about / think of / think carefully / think it is",
+                        "definitions": [
+                                    {
+                                                "text": "To use the mind; to have an opinion.",
+                                                "examples": [
+                                                            "I think it is a good idea.",
+                                                            "She thinks about quitting."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "💭",
+            },
         {
             "word": "see",
             "level": "starter",
@@ -2918,101 +3710,196 @@ const vocabularyData = {
                 }
             ]
         },
-        {
-            "word": "want",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "🙏",
-            "subtext": "want water, want to go",
-            "form": "verb"
-        },
-        {
-            "word": "like",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "👍",
-            "subtext": "like chocolate, like dancing",
-            "form": "verb"
-        },
-        {
-            "word": "love",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "❤️",
-            "subtext": "love my family, love travel",
-            "form": "verb"
-        },
-        {
-            "word": "read",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "📖",
-            "subtext": "read a book, read the news",
-            "opposite": "write",
-            "oppositeEmoji": "✍️",
-            "form": "verb"
-        },
-        {
-            "word": "write",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "✍️",
-            "subtext": "write a letter, write a message",
-            "opposite": "read",
-            "oppositeEmoji": "📖",
-            "form": "verb"
-        },
-        {
-            "word": "come",
-            "level": "starter",
-            "theme": "places_buildings_activities_A2",
-            "emoji": "🏃‍♂️",
-            "subtext": "come here, come home",
-            "opposite": "go",
-            "oppositeEmoji": "🚶",
-            "form": "verb"
-        },
-        {
-            "word": "give",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🎁",
-            "subtext": "give a gift, give help",
-            "opposite": "take",
-            "oppositeEmoji": "👜",
-            "form": "verb"
-        },
-        {
-            "word": "take",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "👜",
-            "subtext": "take a bus, take a photo",
-            "opposite": "give",
-            "oppositeEmoji": "🎁",
-            "form": "verb"
-        },
-        {
-            "word": "find",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🔍",
-            "form": "verb"
-        },
-        {
-            "word": "tell",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "🗣️",
-            "form": "verb"
-        },
-        {
-            "word": "ask",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "❓",
-            "form": "verb"
-        },
+                {
+                        "word": "want",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "want a job / want to do / want more / want help",
+                        "definitions": [
+                                    {
+                                                "text": "To desire or wish for something.",
+                                                "examples": [
+                                                            "I want a coffee.",
+                                                            "She wants a promotion.",
+                                                            "He wants to retire."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🙏",
+            },
+                {
+                        "word": "like",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "like work / like to travel / like someone / like the idea",
+                        "definitions": [
+                                    {
+                                                "text": "To find something pleasant.",
+                                                "examples": [
+                                                            "I like my job.",
+                                                            "She likes cooking at home.",
+                                                            "He likes coffee."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "👍",
+            },
+                {
+                        "word": "love",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "love someone / love doing / love a place / love the idea",
+                        "definitions": [
+                                    {
+                                                "text": "To have strong affection for; to enjoy greatly.",
+                                                "examples": [
+                                                            "She loves her job.",
+                                                            "He loves travelling for work."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "❤️",
+            },
+                {
+                        "word": "read",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "read a book / read the news / read a contract / read carefully",
+                        "definitions": [
+                                    {
+                                                "text": "To look at and understand written words.",
+                                                "examples": [
+                                                            "She reads the news every morning.",
+                                                            "He reads contracts."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "📖",
+            },
+                {
+                        "word": "write",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "write an email / write a report / write a letter / write notes",
+                        "definitions": [
+                                    {
+                                                "text": "To put words on paper or screen.",
+                                                "examples": [
+                                                            "I write emails all day.",
+                                                            "She writes a report every Friday."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "✍️",
+            },
+                {
+                        "word": "come",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "come home / come back / come to work / come here",
+                        "definitions": [
+                                    {
+                                                "text": "To move towards a place.",
+                                                "examples": [
+                                                            "He comes to the office at nine.",
+                                                            "She comes home late."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🏃‍♂️",
+            },
+                {
+                        "word": "give",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "give advice / give a gift / give money / give information",
+                        "definitions": [
+                                    {
+                                                "text": "To hand something to someone.",
+                                                "examples": [
+                                                            "He gives me good advice.",
+                                                            "She gives a lot."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🎁",
+            },
+                {
+                        "word": "take",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "take the bus / take medicine / take a break / take a photo",
+                        "definitions": [
+                                    {
+                                                "text": "To hold and carry something; to use something.",
+                                                "examples": [
+                                                            "I take the bus.",
+                                                            "She takes medicine.",
+                                                            "He takes notes."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "👜",
+            },
+                {
+                        "word": "find",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "find a job / find out / find it difficult / find time",
+                        "definitions": [
+                                    {
+                                                "text": "To discover or locate something.",
+                                                "examples": [
+                                                            "I find the work interesting.",
+                                                            "She found a new job."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🔍",
+            },
+                {
+                        "word": "tell",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "tell the truth / tell someone / tell a story / tell lies",
+                        "definitions": [
+                                    {
+                                                "text": "To give information to someone.",
+                                                "examples": [
+                                                            "He tells the truth.",
+                                                            "She tells me about her day."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🗣️",
+            },
+                {
+                        "word": "ask",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "ask a question / ask for help / ask about / ask someone",
+                        "definitions": [
+                                    {
+                                                "text": "To put a question; to make a request.",
+                                                "examples": [
+                                                            "She asks good questions.",
+                                                            "I ask my boss for help."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "❓",
+            },
         {
             "word": "seem",
             "level": "elementary",
@@ -3020,34 +3907,75 @@ const vocabularyData = {
             "emoji": "🤔",
             "form": "verb"
         },
-        {
-            "word": "feel",
-            "level": "starter",
-            "theme": "body_A0",
-            "emoji": "🌡️",
-            "form": "verb"
-        },
-        {
-            "word": "try",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🎯",
-            "form": "verb"
-        },
-        {
-            "word": "leave",
-            "level": "starter",
-            "theme": "places_buildings_activities_A2",
-            "emoji": "🚪",
-            "form": "verb"
-        },
-        {
-            "word": "call",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "📞",
-            "form": "verb"
-        },
+                {
+                        "word": "feel",
+                        "level": "starter",
+                        "theme": "verbs_being_A0",
+                        "form": "verb",
+                        "subtext": "feel tired / feel well / feel better / feel cold",
+                        "definitions": [
+                                    {
+                                                "text": "To experience a physical or emotional sensation.",
+                                                "examples": [
+                                                            "I feel happy.",
+                                                            "She feels tired.",
+                                                            "He feels better."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🌡️",
+            },
+                {
+                        "word": "try",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "try to do / try hard / try something new / give it a try",
+                        "definitions": [
+                                    {
+                                                "text": "To make an effort; to attempt something.",
+                                                "examples": [
+                                                            "I always try my best at work.",
+                                                            "Try the coffee here."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🎯",
+            },
+                {
+                        "word": "leave",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "leave home / leave work / leave early / leave late",
+                        "definitions": [
+                                    {
+                                                "text": "To go away from a place.",
+                                                "examples": [
+                                                            "I leave home at eight.",
+                                                            "She left the company last year."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🚪",
+            },
+                {
+                        "word": "call",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "call someone / call back / call a meeting / call in sick",
+                        "definitions": [
+                                    {
+                                                "text": "To telephone someone.",
+                                                "examples": [
+                                                            "I call my clients every morning.",
+                                                            "She calls a meeting."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "📞",
+            },
         {
             "word": "look",
             "level": "starter",
@@ -3055,20 +3983,41 @@ const vocabularyData = {
             "emoji": "👀",
             "form": "verb"
         },
-        {
-            "word": "use",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🛠️",
-            "form": "verb"
-        },
-        {
-            "word": "get",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "📥",
-            "form": "verb"
-        },
+                {
+                        "word": "use",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "use a phone / use public transport / use a computer",
+                        "definitions": [
+                                    {
+                                                "text": "To employ something for a purpose.",
+                                                "examples": [
+                                                            "I use my phone for everything.",
+                                                            "She uses public transport."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🛠️",
+            },
+                {
+                        "word": "get",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "get home / get a job / get tired / get better",
+                        "definitions": [
+                                    {
+                                                "text": "To receive or obtain; to become.",
+                                                "examples": [
+                                                            "I get a good salary.",
+                                                            "She gets tired.",
+                                                            "He gets home at six."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "📥",
+            },
         {
             "word": "become",
             "level": "elementary",
@@ -3076,36 +4025,57 @@ const vocabularyData = {
             "emoji": "🦋",
             "form": "verb"
         },
-        {
-            "word": "start",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "▶️",
-            "opposite": "finish",
-            "oppositeEmoji": "🏁",
-            "form": "verb"
-        },
-        {
-            "word": "help",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "🤝",
-            "form": "verb"
-        },
-        {
-            "word": "talk",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "💬",
-            "form": "verb",
-            "definitions": [
                 {
-                    "text": "To say words to someone.",
-                    "examples": [
-                        "I like to talk to my friends.",
-                        "Stop talking and listen."
-                    ]
-                }
+                        "word": "start",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "start work / start a meeting / start a new job",
+                        "definitions": [
+                                    {
+                                                "text": "To begin something.",
+                                                "examples": [
+                                                            "I start work at eight.",
+                                                            "She starts a new job."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "▶️",
+            },
+                {
+                        "word": "help",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "help someone / help with / ask for help / help out",
+                        "definitions": [
+                                    {
+                                                "text": "To assist someone.",
+                                                "examples": [
+                                                            "He helps his colleagues.",
+                                                            "Can you help me?"
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🤝",
+            },
+                {
+                        "word": "talk",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "talk to someone / talk about / talk openly / talk for a while",
+                        "definitions": [
+                                    {
+                                                "text": "To have a conversation.",
+                                                "examples": [
+                                                            "We talk about work every Monday.",
+                                                            "She talks a lot."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "💬",
+            }
             ]
         },
         {
@@ -3122,22 +4092,40 @@ const vocabularyData = {
             "emoji": "🏃",
             "form": "verb"
         },
-        {
-            "word": "move",
-            "level": "elementary",
-            "theme": "neighbourhood_A2",
-            "emoji": "📦",
-            "form": "verb"
-        },
-        {
-            "word": "live",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "🏠",
-            "opposite": "die",
-            "oppositeEmoji": "⚰️",
-            "form": "verb"
-        },
+                {
+                        "word": "move",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "move house / move to a city / move on / move forward",
+                        "definitions": [
+                                    {
+                                                "text": "To change position or place of living.",
+                                                "examples": [
+                                                            "They moved to a new flat.",
+                                                            "She moves to a different team."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "📦",
+            },
+                {
+                        "word": "live",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "live in a flat / live alone / live with someone / live abroad",
+                        "definitions": [
+                                    {
+                                                "text": "To have your home in a place; to be alive.",
+                                                "examples": [
+                                                            "She lives in a flat near the centre.",
+                                                            "We live together."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🏠",
+            },
         {
             "word": "believe",
             "level": "elementary",
@@ -3145,13 +4133,23 @@ const vocabularyData = {
             "emoji": "🙏",
             "form": "verb"
         },
-        {
-            "word": "bring",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🎁",
-            "form": "verb"
-        },
+                {
+                        "word": "bring",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "bring someone / bring food / bring a document / bring up",
+                        "definitions": [
+                                    {
+                                                "text": "To carry something to a place.",
+                                                "examples": [
+                                                            "Bring your ID to the interview.",
+                                                            "He brings lunch."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🎁",
+            },
         {
             "word": "happen",
             "level": "elementary",
@@ -3177,22 +4175,41 @@ const vocabularyData = {
             "oppositeEmoji": "🪑",
             "form": "verb"
         },
-        {
-            "word": "lose",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "📉",
-            "opposite": "win",
-            "oppositeEmoji": "🏆",
-            "form": "verb"
-        },
-        {
-            "word": "pay",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "💰",
-            "form": "verb"
-        },
+                {
+                        "word": "lose",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "lose a job / lose money / lose weight / lose time",
+                        "definitions": [
+                                    {
+                                                "text": "To no longer have something; to fail to win.",
+                                                "examples": [
+                                                            "I lost my keys.",
+                                                            "She lost her job.",
+                                                            "He never loses."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "📉",
+            },
+                {
+                        "word": "pay",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+                        "definitions": [
+                                    {
+                                                "text": "To give money in exchange for something.",
+                                                "examples": [
+                                                            "I pay the rent monthly.",
+                                                            "She pays by card."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "💰",
+            },
         {
             "word": "meet",
             "level": "starter",
@@ -3242,13 +4259,23 @@ const vocabularyData = {
             "emoji": "👑",
             "form": "verb"
         },
-        {
-            "word": "understand",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "💡",
-            "form": "verb"
-        },
+                {
+                        "word": "understand",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "understand a problem / understand someone / understand clearly",
+                        "definitions": [
+                                    {
+                                                "text": "To grasp the meaning of something.",
+                                                "examples": [
+                                                            "I understand the contract.",
+                                                            "She understands French."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "💡",
+            },
         {
             "word": "follow",
             "level": "elementary",
@@ -3284,13 +4311,23 @@ const vocabularyData = {
             "emoji": "➕",
             "form": "verb"
         },
-        {
-            "word": "spend",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "💸",
-            "form": "verb"
-        },
+                {
+                        "word": "spend",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "spend money / spend time / spend on rent",
+                        "definitions": [
+                                    {
+                                                "text": "To use money or time.",
+                                                "examples": [
+                                                            "He spends too much on takeaway.",
+                                                            "She spends time commuting."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "💸",
+            },
         {
             "word": "grow",
             "level": "elementary",
@@ -3298,29 +4335,40 @@ const vocabularyData = {
             "emoji": "🌱",
             "form": "verb"
         },
-        {
-            "word": "open",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "📖",
-            "opposite": "close",
-            "oppositeEmoji": "🔒",
-            "form": "verb"
-        },
-        {
-            "word": "walk",
-            "level": "starter",
-            "theme": "places_buildings_activities_A2",
-            "emoji": "🚶",
-            "form": "verb",
-            "definitions": [
                 {
-                    "text": "To move on your legs at a normal speed.",
-                    "examples": [
-                        "I walk to school.",
-                        "Let's take a walk in the park."
-                    ]
-                }
+                        "word": "open",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "open a door / open an account / open at nine",
+                        "definitions": [
+                                    {
+                                                "text": "To make not closed; to begin.",
+                                                "examples": [
+                                                            "He opens the door.",
+                                                            "She opens a bank account."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "📖",
+            },
+                {
+                        "word": "walk",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "walk to work / walk home / walk fast / walk every day",
+                        "definitions": [
+                                    {
+                                                "text": "To move on foot at a normal speed.",
+                                                "examples": [
+                                                            "He walks to work every day.",
+                                                            "She walks during lunch."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🚶",
+            }
             ]
         },
         {
@@ -3339,13 +4387,23 @@ const vocabularyData = {
             "emoji": "🤲",
             "form": "verb"
         },
-        {
-            "word": "remember",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "🧠",
-            "form": "verb"
-        },
+                {
+                        "word": "remember",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "remember to do / remember a name / remember clearly",
+                        "definitions": [
+                                    {
+                                                "text": "To have a memory of; to not forget.",
+                                                "examples": [
+                                                            "Please remember the deadline.",
+                                                            "She remembers every client."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🧠",
+            },
         {
             "word": "consider",
             "level": "elementary",
@@ -3360,15 +4418,23 @@ const vocabularyData = {
             "emoji": "👻",
             "form": "verb"
         },
-        {
-            "word": "buy",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🛒",
-            "opposite": "sell",
-            "oppositeEmoji": "🏷️",
-            "form": "verb"
-        },
+                {
+                        "word": "buy",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "buy food / buy a ticket / buy online / buy a house",
+                        "definitions": [
+                                    {
+                                                "text": "To get something by paying money.",
+                                                "examples": [
+                                                            "She buys groceries online.",
+                                                            "He wants to buy a flat."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🛒",
+            },
         {
             "word": "wait",
             "level": "starter",
@@ -3427,13 +4493,23 @@ const vocabularyData = {
             "emoji": "🍂",
             "form": "verb"
         },
-        {
-            "word": "cut",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "✂️",
-            "form": "verb"
-        },
+                {
+                        "word": "cut",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "cut costs / cut spending / cut short / cut in half",
+                        "definitions": [
+                                    {
+                                                "text": "To divide with something sharp; to reduce.",
+                                                "examples": [
+                                                            "She cuts her lunch break short.",
+                                                            "He cuts costs."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "✂️",
+            },
         {
             "word": "reach",
             "level": "elementary",
@@ -3499,13 +4575,23 @@ const vocabularyData = {
             "emoji": "📋",
             "form": "verb"
         },
-        {
-            "word": "decide",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
-            "emoji": "⚖️",
-            "form": "verb"
-        },
+                {
+                        "word": "decide",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "decide to do / decide on / make a decision / hard to decide",
+                        "definitions": [
+                                    {
+                                                "text": "To make a choice.",
+                                                "examples": [
+                                                            "She decided to change careers.",
+                                                            "He decides quickly."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "⚖️",
+            },
         {
             "word": "pull",
             "level": "starter",
@@ -3531,13 +4617,23 @@ const vocabularyData = {
             "emoji": "👨‍🏫",
             "form": "verb"
         },
-        {
-            "word": "hope",
-            "level": "starter",
-            "theme": "adjectives_A0",
-            "emoji": "🤞",
-            "form": "verb"
-        },
+                {
+                        "word": "hope",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "hope for / hope to do / hope that / I hope so",
+                        "definitions": [
+                                    {
+                                                "text": "To wish for something for happen.",
+                                                "examples": [
+                                                            "I hope to get a promotion this year.",
+                                                            "She hopes for better pay."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🤞",
+            },
         {
             "word": "develop",
             "level": "elementary",
@@ -3675,13 +4771,23 @@ const vocabularyData = {
             "emoji": "🦘",
             "form": "verb"
         },
-        {
-            "word": "fly",
-            "level": "starter",
-            "theme": "places_buildings_activities_A2",
-            "emoji": "✈️",
-            "form": "verb"
-        },
+                {
+                        "word": "fly",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "fly to a city / fly business class / fly economy",
+                        "definitions": [
+                                    {
+                                                "text": "To travel by plane.",
+                                                "examples": [
+                                                            "She flies to Paris for meetings.",
+                                                            "He hates flying."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "✈️",
+            },
         {
             "word": "swim",
             "level": "starter",
@@ -3689,34 +4795,74 @@ const vocabularyData = {
             "emoji": "🏊",
             "form": "verb"
         },
-        {
-            "word": "wash",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🧼",
-            "form": "verb"
-        },
-        {
-            "word": "clean",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🧹",
-            "form": "verb"
-        },
-        {
-            "word": "cook",
-            "level": "starter",
-            "theme": "places_buildings_activities_A2",
-            "emoji": "🍳",
-            "form": "verb"
-        },
-        {
-            "word": "travel",
-            "level": "starter",
-            "theme": "places_buildings_activities_A2",
-            "emoji": "✈️",
-            "form": "verb"
-        },
+                {
+                        "word": "wash",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "wash the dishes / wash clothes / wash your hands",
+                        "definitions": [
+                                    {
+                                                "text": "To clean something with water.",
+                                                "examples": [
+                                                            "He washes his car every Sunday.",
+                                                            "Wash your hands."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🧼",
+            },
+                {
+                        "word": "clean",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "clean the flat / clean up / clean the kitchen",
+                        "definitions": [
+                                    {
+                                                "text": "To remove dirt from something.",
+                                                "examples": [
+                                                            "I clean the flat on Saturdays.",
+                                                            "He cleans his desk daily."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🧹",
+            },
+                {
+                        "word": "cook",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "cook dinner / cook a meal / cook at home",
+                        "definitions": [
+                                    {
+                                                "text": "To prepare food using heat.",
+                                                "examples": [
+                                                            "She cooks dinner every evening.",
+                                                            "He cooks for the team."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🍳",
+            },
+                {
+                        "word": "travel",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "travel for work / travel abroad / travel by train",
+                        "definitions": [
+                                    {
+                                                "text": "To go from one place to another, often far.",
+                                                "examples": [
+                                                            "She travels for work once a month. ",
+                                                            "He loves to travel."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "✈️",
+            },
         {
             "word": "study",
             "level": "starter",
@@ -3731,31 +4877,330 @@ const vocabularyData = {
             "emoji": "👨‍🏫",
             "form": "verb"
         },
+                {
+                        "word": "listen",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "listen to music / listen carefully / listen to a podcast",
+                        "definitions": [
+                                    {
+                                                "text": "To pay attention to sounds or speech.",
+                                                "examples": [
+                                                            "I listen to podcasts at work.",
+                                                            "She listens carefully."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🎧",
+            },
+                {
+                        "word": "close",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "close a door / close at six / close the meeting",
+                        "definitions": [
+                                    {
+                                                "text": "To make not open; to finish.",
+                                                "examples": [
+                                                            "She closes her laptop.",
+                                                            "The bank closes at five."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🔒",
+            },
+                {
+                        "word": "finish",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "finish work / finish a project / finish early",
+                        "definitions": [
+                                    {
+                                                "text": "To complete something or stop.",
+                                                "examples": [
+                                                            "He finishes work at five.",
+                                                            "She finishes the report."
+                                                ]
+                                    }
+                        ],
+                        "emoji": "🏁",
+            },
         {
-            "word": "listen",
-            "level": "starter",
-            "theme": "places_buildings_activities_A2",
-            "emoji": "🎧",
-            "form": "verb"
-        },
+                        "word": "put",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "put on / put away / put the phone down / put money aside",
+                        "definitions": [
+                                    {
+                                                "text": "To place something in a position.",
+                                                "examples": [
+                                                            "Put your bag here.",
+                                                            "She puts money in the bank."
+                                                ]
+                                    }
+                        ]
+            },
         {
-            "word": "close",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🔒",
-            "opposite": "open",
-            "oppositeEmoji": "📖",
-            "form": "verb"
-        },
+                        "word": "make",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "make coffee / make a decision / make a mistake / make money",
+                        "definitions": [
+                                    {
+                                                "text": "To create or produce something; to cause.",
+                                                "examples": [
+                                                            "I make coffee every morning.",
+                                                            "She makes decisions quickly."
+                                                ]
+                                    }
+                        ]
+            },
         {
-            "word": "finish",
-            "level": "starter",
-            "theme": "home_A0",
-            "emoji": "🏁",
-            "opposite": "start",
-            "oppositeEmoji": "▶️",
-            "form": "verb"
-        }
+                        "word": "show",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "show someone / show how / show a document / show interest",
+                        "definitions": [
+                                    {
+                                                "text": "To let someone see something; to explain.",
+                                                "examples": [
+                                                            "She shows me the map.",
+                                                            "He shows his work."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "keep",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "keep going / keep quiet / keep a record / keep in touch",
+                        "definitions": [
+                                    {
+                                                "text": "To continue having or doing something.",
+                                                "examples": [
+                                                            "Keep the receipt.",
+                                                            "She keeps her phone on all day."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "turn",
+                        "level": "starter",
+                        "theme": "verbs_actions_A0",
+                        "form": "verb",
+                        "subtext": "turn on / turn off / turn left / turn right",
+                        "definitions": [
+                                    {
+                                                "text": "To move in a direction; to change state.",
+                                                "examples": [
+                                                            "Turn left at the office.",
+                                                            "She turns off the light."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "say",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "say hello / say yes / say no / say something",
+                        "definitions": [
+                                    {
+                                                "text": "To express something in words.",
+                                                "examples": [
+                                                            "She says hello every morning.",
+                                                            "He says it is fine."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "answer",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "answer a question / answer the phone / answer an email",
+                        "definitions": [
+                                    {
+                                                "text": "To respond to a question or communication.",
+                                                "examples": [
+                                                            "He answers all emails quickly.",
+                                                            "She answered the phone."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "repeat",
+                        "level": "starter",
+                        "theme": "verbs_communication_A0",
+                        "form": "verb",
+                        "subtext": "repeat that / repeat yourself / repeat an order",
+                        "definitions": [
+                                    {
+                                                "text": "To say or do something again.",
+                                                "examples": [
+                                                            "Please repeat that.",
+                                                            "He repeated the instruction twice."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "drive",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "drive to work / drive a car / drive home / drive carefully",
+                        "definitions": [
+                                    {
+                                                "text": "To operate and control a vehicle.",
+                                                "examples": [
+                                                            "She drives a company car.",
+                                                            "He drives to meetings."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "arrive",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+                        "definitions": [
+                                    {
+                                                "text": "To reach a destination.",
+                                                "examples": [
+                                                            "He arrives at the office at nine.",
+                                                            "The train arrives late."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "return",
+                        "level": "starter",
+                        "theme": "verbs_movement_A0",
+                        "form": "verb",
+                        "subtext": "return home / return to work / return a call / return from",
+                        "definitions": [
+                                    {
+                                                "text": "To come or go back to a place.",
+                                                "examples": [
+                                                            "He returns from a trip on Friday.",
+                                                            "She returned the call."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "wear",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "wear a suit / wear glasses / wear casual clothes",
+                        "definitions": [
+                                    {
+                                                "text": "To have clothing or accessories on your body.",
+                                                "examples": [
+                                                            "She wears a suit to work.",
+                                                            "He wears glasses."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "save",
+                        "level": "starter",
+                        "theme": "verbs_daily_life_A0",
+                        "form": "verb",
+                        "subtext": "save money / save for a house / save time",
+                        "definitions": [
+                                    {
+                                                "text": "To keep money rather than spending it.",
+                                                "examples": [
+                                                            "She saves a hundred euros a month.",
+                                                            "Save your work."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "need",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "need help / need time / need money / need to rest",
+                        "definitions": [
+                                    {
+                                                "text": "To require something.",
+                                                "examples": [
+                                                            "I need a break.",
+                                                            "She needs more time.",
+                                                            "He needs help."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "hate",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "hate doing / hate someone / hate meetings / hate commuting",
+                        "definitions": [
+                                    {
+                                                "text": "To strongly dislike.",
+                                                "examples": [
+                                                            "He hates commuting by bus.",
+                                                            "She hates long meetings."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "forget",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "forget a name / forget to do / forget about / completely forget",
+                        "definitions": [
+                                    {
+                                                "text": "To fail to remember.",
+                                                "examples": [
+                                                            "Don't forget the meeting.",
+                                                            "He always forgets passwords."
+                                                ]
+                                    }
+                        ]
+            },
+        {
+                        "word": "enjoy",
+                        "level": "starter",
+                        "theme": "verbs_mental_A0",
+                        "form": "verb",
+                        "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
+                        "definitions": [
+                                    {
+                                                "text": "To take pleasure from something.",
+                                                "examples": [
+                                                            "He enjoys working from home.",
+                                                            "She enjoys her new role."
+                                                ]
+                                    }
+                        ]
+            }
     ],
     "fr": [
         {
@@ -4129,10 +5574,10 @@ const vocabularyData = {
         },
         {
             "word": "avocat",
-            "level": "upper-intermediate",
-            "theme": "academic_vocabulary_B2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "⚖️",
-            "form": "noun",
+            "form": "verb",
             "plural": "avocats",
             "definitions": [
                 {
@@ -4331,13 +5776,13 @@ const vocabularyData = {
         {
             "word": "pomme",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "article": "la",
             "baseWord": "pomme",
             "emoji": "🍎",
             "numberPlural": "4 pomme",
             "answer": "quatre pommes",
-            "form": "noun",
+            "form": "verb",
             "plural": "pommes",
             "definitions": [
                 {
@@ -4417,9 +5862,9 @@ const vocabularyData = {
         {
             "word": "lait",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🥛",
-            "form": "noun",
+            "form": "verb",
             "plural": "lait",
             "definitions": [
                 {
@@ -4805,17 +6250,17 @@ const vocabularyData = {
         {
             "word": "chaise",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "chaises"
         },
         {
             "word": "table",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "tables"
         },
         {
@@ -4980,9 +6425,9 @@ const vocabularyData = {
         {
             "word": "livre",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
-            "form": "noun",
+            "form": "verb",
             "plural": "livres",
             "definitions": [
                 {
@@ -5149,14 +6594,14 @@ const vocabularyData = {
         {
             "word": "cuisiner",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🍳",
             "form": "verb"
         },
         {
             "word": "lire",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "subtext": "lire un livre, lire les nouvelles",
             "opposite": "écrire",
@@ -5240,9 +6685,9 @@ const vocabularyData = {
         {
             "word": "tête",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
-            "form": "noun",
+            "form": "verb",
             "plural": "têtes",
             "definitions": [
                 {
@@ -5296,9 +6741,9 @@ const vocabularyData = {
         {
             "word": "oeil",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👁️",
-            "form": "noun",
+            "form": "verb",
             "plural": "yeux",
             "definitions": [
                 {
@@ -5375,10 +6820,10 @@ const vocabularyData = {
         },
         {
             "word": "psychologue",
-            "level": "upper-intermediate",
-            "theme": "academic_vocabulary_B2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
-            "form": "noun",
+            "form": "verb",
             "plural": "psychologues",
             "definitions": [
                 {
@@ -5474,8 +6919,8 @@ const vocabularyData = {
         },
         {
             "word": "changement de paradigme",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🔄",
             "form": "verb"
         },
@@ -5488,8 +6933,8 @@ const vocabularyData = {
         },
         {
             "word": "réchauffement climatique",
-            "level": "intermediate",
-            "theme": "environment_sustainability_B1",
+            "level": "starter",
+            "theme": "verbs_being_A0",
             "emoji": "🌡️",
             "form": "verb"
         },
@@ -5652,34 +7097,34 @@ const vocabularyData = {
         {
             "word": "être",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
             "subtext": "avoir froid, avoir 20 ans",
-            "form": "noun",
+            "form": "verb",
             "plural": "êtres"
         },
         {
             "word": "avoir",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👜",
             "subtext": "prendre le petit déjeuner, avoir une voiture",
-            "form": "noun",
+            "form": "verb",
             "plural": "avoirs"
         },
         {
             "word": "aller",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🚶",
             "subtext": "aller à l'école, rentrer à la maison",
-            "form": "noun",
+            "form": "verb",
             "plural": "allers"
         },
         {
             "word": "manger",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🍎",
             "subtext": "manger une pomme, dîner",
             "opposite": "boire",
@@ -5698,7 +7143,7 @@ const vocabularyData = {
         {
             "word": "boire",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🥛",
             "subtext": "boire de l'eau, boire du café",
             "form": "verb",
@@ -5715,10 +7160,10 @@ const vocabularyData = {
         {
             "word": "faire",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🛠️",
             "subtext": "faire les devoirs, faire du sport",
-            "form": "noun",
+            "form": "verb",
             "plural": "faires"
         },
         {
@@ -5733,7 +7178,7 @@ const vocabularyData = {
         {
             "word": "parler",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "💬",
             "subtext": "parler anglais, parler lentement",
             "form": "verb",
@@ -5750,10 +7195,10 @@ const vocabularyData = {
         {
             "word": "savoir",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
             "subtext": "savoir la réponse, connaître une personne",
-            "form": "noun",
+            "form": "verb",
             "plural": "savoirs"
         },
         {
@@ -5768,7 +7213,7 @@ const vocabularyData = {
         {
             "word": "voir",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👁️",
             "subtext": "voir un film, voir un ami",
             "form": "verb",
@@ -5785,41 +7230,41 @@ const vocabularyData = {
         {
             "word": "vouloir",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🙏",
             "subtext": "vouloir de l'eau, vouloir aller",
-            "form": "noun",
+            "form": "verb",
             "plural": "vouloirs"
         },
         {
             "word": "aimer",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "❤️",
             "subtext": "aimer ma famille, aimer voyager",
-            "form": "noun",
+            "form": "verb",
             "plural": "aimers"
         },
         {
             "word": "écrire",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "✍️",
             "subtext": "écrire une lettre, écrire un message",
             "opposite": "lire",
             "oppositeEmoji": "📖",
-            "form": "noun",
+            "form": "verb",
             "plural": "écrires"
         },
         {
             "word": "venir",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🏃‍♂️",
             "subtext": "venir ici, venir à la maison",
             "opposite": "aller",
             "oppositeEmoji": "🚶",
-            "form": "noun",
+            "form": "verb",
             "plural": "venirs"
         },
         {
@@ -5859,9 +7304,9 @@ const vocabularyData = {
         {
             "word": "demander",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "❓",
-            "form": "noun",
+            "form": "verb",
             "plural": "demanders"
         },
         {
@@ -5875,33 +7320,33 @@ const vocabularyData = {
         {
             "word": "sentir",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_being_A0",
             "emoji": "🌡️",
-            "form": "noun",
+            "form": "verb",
             "plural": "sentirs"
         },
         {
             "word": "essayer",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🎯",
-            "form": "noun",
+            "form": "verb",
             "plural": "essayers"
         },
         {
             "word": "partir",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🚪",
-            "form": "noun",
+            "form": "verb",
             "plural": "partirs"
         },
         {
             "word": "appeler",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📞",
-            "form": "noun",
+            "form": "verb",
             "plural": "appelers"
         },
         {
@@ -5915,17 +7360,17 @@ const vocabularyData = {
         {
             "word": "utiliser",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🛠️",
-            "form": "noun",
+            "form": "verb",
             "plural": "utilisers"
         },
         {
             "word": "obtenir",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "📥",
-            "form": "noun",
+            "form": "verb",
             "plural": "obtenirs"
         },
         {
@@ -5939,35 +7384,35 @@ const vocabularyData = {
         {
             "word": "commencer",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "▶️",
             "opposite": "finir",
             "oppositeEmoji": "🏁",
-            "form": "noun",
+            "form": "verb",
             "plural": "commencers"
         },
         {
             "word": "aider",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
-            "form": "noun",
+            "form": "verb",
             "plural": "aiders"
         },
         {
             "word": "jouer",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🎮",
-            "form": "noun",
+            "form": "verb",
             "plural": "jouers"
         },
         {
             "word": "courir",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🏃",
-            "form": "noun",
+            "form": "verb",
             "plural": "courirs"
         },
         {
@@ -5981,27 +7426,27 @@ const vocabularyData = {
         {
             "word": "vivre",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🏠",
             "opposite": "mourir",
             "oppositeEmoji": "⚰️",
-            "form": "noun",
+            "form": "verb",
             "plural": "vivres"
         },
         {
             "word": "croire",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🙏",
-            "form": "noun",
+            "form": "verb",
             "plural": "croires"
         },
         {
             "word": "apporter",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🎁",
-            "form": "noun",
+            "form": "verb",
             "plural": "apporters"
         },
         {
@@ -6014,47 +7459,47 @@ const vocabularyData = {
         {
             "word": "s'asseoir",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
             "opposite": "être debout",
             "oppositeEmoji": "🧍",
-            "form": "noun",
+            "form": "verb",
             "plural": "s'asseoirs"
         },
         {
             "word": "être debout",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🧍",
             "opposite": "s'asseoir",
             "oppositeEmoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "être debouts"
         },
         {
             "word": "perdre",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "📉",
             "opposite": "gagner",
             "oppositeEmoji": "🏆",
-            "form": "noun",
+            "form": "verb",
             "plural": "perdres"
         },
         {
             "word": "payer",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "💰",
-            "form": "noun",
+            "form": "verb",
             "plural": "payers"
         },
         {
             "word": "rencontrer",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
-            "form": "noun",
+            "form": "verb",
             "plural": "rencontrers"
         },
         {
@@ -6123,9 +7568,9 @@ const vocabularyData = {
         {
             "word": "s'arrêter",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🛑",
-            "form": "noun",
+            "form": "verb",
             "plural": "s'arrêters"
         },
         {
@@ -6155,9 +7600,9 @@ const vocabularyData = {
         {
             "word": "dépenser",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "💸",
-            "form": "noun",
+            "form": "verb",
             "plural": "dépensers"
         },
         {
@@ -6171,17 +7616,17 @@ const vocabularyData = {
         {
             "word": "ouvrir",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "opposite": "fermer",
             "oppositeEmoji": "🔒",
-            "form": "noun",
+            "form": "verb",
             "plural": "ouvrirs"
         },
         {
             "word": "marcher",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🚶",
             "form": "verb",
             "definitions": [
@@ -6215,7 +7660,7 @@ const vocabularyData = {
         {
             "word": "se souvenir",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
             "form": "verb"
         },
@@ -6236,7 +7681,7 @@ const vocabularyData = {
         {
             "word": "acheter",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
             "opposite": "vendre",
             "oppositeEmoji": "🏷️",
@@ -6296,14 +7741,14 @@ const vocabularyData = {
         {
             "word": "couper",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "✂️",
             "form": "verb"
         },
         {
             "word": "atteindre",
-            "level": "elementary",
-            "theme": "transport_travel_A2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🏁",
             "form": "verb"
         },
@@ -6360,8 +7805,8 @@ const vocabularyData = {
         },
         {
             "word": "décider",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "⚖️",
             "form": "verb"
         },
@@ -6377,7 +7822,7 @@ const vocabularyData = {
         {
             "word": "pousser",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
             "opposite": "tirer",
             "oppositeEmoji": "🚜",
@@ -6393,7 +7838,7 @@ const vocabularyData = {
         {
             "word": "espérer",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🤞",
             "form": "verb"
         },
@@ -6428,14 +7873,14 @@ const vocabularyData = {
         {
             "word": "être d'accord",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👍",
             "form": "verb"
         },
         {
             "word": "soutenir",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
             "form": "verb"
         },
@@ -6455,8 +7900,8 @@ const vocabularyData = {
         },
         {
             "word": "faire face",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
             "form": "verb"
         },
@@ -6516,7 +7961,7 @@ const vocabularyData = {
         {
             "word": "voler",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
             "form": "verb"
         },
@@ -6530,28 +7975,28 @@ const vocabularyData = {
         {
             "word": "laver",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🧼",
             "form": "verb"
         },
         {
             "word": "nettoyer",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🧹",
             "form": "verb"
         },
         {
             "word": "voyager",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "étudier",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "form": "verb"
         },
@@ -6565,7 +8010,7 @@ const vocabularyData = {
         {
             "word": "écouter",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_communication_A0",
             "emoji": "🎧",
             "form": "verb"
         },
@@ -6581,7 +8026,7 @@ const vocabularyData = {
         {
             "word": "finir",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🏁",
             "opposite": "commencer",
             "oppositeEmoji": "▶️",
@@ -6960,10 +8405,10 @@ const vocabularyData = {
         },
         {
             "word": "avvocato",
-            "level": "upper-intermediate",
-            "theme": "academic_vocabulary_B2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "⚖️",
-            "form": "noun",
+            "form": "verb",
             "plural": "avvocati",
             "definitions": [
                 {
@@ -7141,11 +8586,11 @@ const vocabularyData = {
         {
             "word": "mela",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "numberPlural": "4 mela",
             "answer": "quattro mele",
             "emoji": "🍎",
-            "form": "noun",
+            "form": "verb",
             "plural": "mele",
             "definitions": [
                 {
@@ -7208,9 +8653,9 @@ const vocabularyData = {
         {
             "word": "latte",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🥛",
-            "form": "noun",
+            "form": "verb",
             "plural": "latte"
         },
         {
@@ -7464,10 +8909,10 @@ const vocabularyData = {
         },
         {
             "word": "supermercato",
-            "level": "elementary",
-            "theme": "transport_travel_A2",
+            "level": "starter",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
-            "form": "noun",
+            "form": "verb",
             "plural": "supermercati",
             "definitions": [
                 {
@@ -7510,10 +8955,10 @@ const vocabularyData = {
         },
         {
             "word": "aeroporto",
-            "level": "intermediate",
-            "theme": "travel_cultural_B1",
+            "level": "starter",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
-            "form": "noun",
+            "form": "verb",
             "plural": "aeroporti",
             "definitions": [
                 {
@@ -7590,17 +9035,17 @@ const vocabularyData = {
         {
             "word": "sedia",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "sedie"
         },
         {
             "word": "tavolo",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "tavoli"
         },
         {
@@ -7787,9 +9232,9 @@ const vocabularyData = {
         {
             "word": "libro",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
-            "form": "noun",
+            "form": "verb",
             "plural": "libri",
             "definitions": [
                 {
@@ -7975,14 +9420,14 @@ const vocabularyData = {
         {
             "word": "cucinare",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🍳",
             "form": "verb"
         },
         {
             "word": "leggere",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "subtext": "leggere un libro, leggere le notizie",
             "opposite": "scrivere",
@@ -8065,9 +9510,9 @@ const vocabularyData = {
         {
             "word": "testa",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
-            "form": "noun",
+            "form": "verb",
             "plural": "teste",
             "definitions": [
                 {
@@ -8121,9 +9566,9 @@ const vocabularyData = {
         {
             "word": "occhio",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👁️",
-            "form": "noun",
+            "form": "verb",
             "plural": "occhi",
             "definitions": [
                 {
@@ -8185,10 +9630,10 @@ const vocabularyData = {
         },
         {
             "word": "psicologo",
-            "level": "upper-intermediate",
-            "theme": "academic_vocabulary_B2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
-            "form": "noun",
+            "form": "verb",
             "plural": "psicologi"
         },
         {
@@ -8241,8 +9686,8 @@ const vocabularyData = {
         },
         {
             "word": "cambio di paradigma",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🔄",
             "form": "verb"
         },
@@ -8255,8 +9700,8 @@ const vocabularyData = {
         },
         {
             "word": "riscaldamento globale",
-            "level": "intermediate",
-            "theme": "environment_sustainability_B1",
+            "level": "starter",
+            "theme": "verbs_being_A0",
             "emoji": "🌡️",
             "form": "verb"
         },
@@ -8269,10 +9714,10 @@ const vocabularyData = {
         },
         {
             "word": "salute mentale",
-            "level": "intermediate",
-            "theme": "mental_health_B1",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
-            "form": "noun",
+            "form": "verb",
             "definitions": [
                 {
                     "text": "Η κατάσταση της συναισθηματικής και ψυχολογικής ευεξίας.",
@@ -8463,34 +9908,34 @@ const vocabularyData = {
         {
             "word": "essere",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
             "subtext": "avere freddo, avere 20 anni",
-            "form": "noun",
+            "form": "verb",
             "plural": "esseri"
         },
         {
             "word": "avere",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👜",
             "subtext": "fare colazione, avere un'auto",
-            "form": "noun",
+            "form": "verb",
             "plural": "averi"
         },
         {
             "word": "andare",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🚶",
             "subtext": "andare a scuola, andare a casa",
-            "form": "noun",
+            "form": "verb",
             "plural": "andari"
         },
         {
             "word": "mangiare",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🍎",
             "subtext": "mangiare una mela, cenare",
             "opposite": "bere",
@@ -8509,7 +9954,7 @@ const vocabularyData = {
         {
             "word": "bere",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🥛",
             "subtext": "bere acqua, bere caffè",
             "form": "verb",
@@ -8526,10 +9971,10 @@ const vocabularyData = {
         {
             "word": "fare",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🛠️",
             "subtext": "fare i compiti, fare sport",
-            "form": "noun",
+            "form": "verb",
             "plural": "fari"
         },
         {
@@ -8544,7 +9989,7 @@ const vocabularyData = {
         {
             "word": "parlare",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "💬",
             "subtext": "parlare inglese, parlare lentamente",
             "form": "verb",
@@ -8561,10 +10006,10 @@ const vocabularyData = {
         {
             "word": "sapere",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
             "subtext": "sapere la risposta, conoscere una persona",
-            "form": "noun",
+            "form": "verb",
             "plural": "saperi"
         },
         {
@@ -8579,7 +10024,7 @@ const vocabularyData = {
         {
             "word": "vedere",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👁️",
             "subtext": "vedere un film, vedere un amico",
             "form": "verb",
@@ -8596,50 +10041,50 @@ const vocabularyData = {
         {
             "word": "volere",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🙏",
             "subtext": "volere acqua, volere andare",
-            "form": "noun",
+            "form": "verb",
             "plural": "voleri"
         },
         {
             "word": "piacere",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👍",
             "subtext": "mi piace il cioccolato, mi piace ballare",
-            "form": "noun",
+            "form": "verb",
             "plural": "piaceri"
         },
         {
             "word": "amare",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "❤️",
             "subtext": "amare la mia famiglia, amare viaggiare",
-            "form": "noun",
+            "form": "verb",
             "plural": "amari"
         },
         {
             "word": "scrivere",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "✍️",
             "subtext": "scrivere una lettera, scrivere un messaggio",
             "opposite": "leggere",
             "oppositeEmoji": "📖",
-            "form": "noun",
+            "form": "verb",
             "plural": "scriveri"
         },
         {
             "word": "venire",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🏃‍♂️",
             "subtext": "venire qui, venire a casa",
             "opposite": "andare",
             "oppositeEmoji": "🚶",
-            "form": "noun",
+            "form": "verb",
             "plural": "veniri"
         },
         {
@@ -8679,9 +10124,9 @@ const vocabularyData = {
         {
             "word": "chiedere",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "❓",
-            "form": "noun",
+            "form": "verb",
             "plural": "chiederi"
         },
         {
@@ -8695,33 +10140,33 @@ const vocabularyData = {
         {
             "word": "sentire",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_being_A0",
             "emoji": "🌡️",
-            "form": "noun",
+            "form": "verb",
             "plural": "sentiri"
         },
         {
             "word": "provare",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🎯",
-            "form": "noun",
+            "form": "verb",
             "plural": "provari"
         },
         {
             "word": "partire",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🚪",
-            "form": "noun",
+            "form": "verb",
             "plural": "partiri"
         },
         {
             "word": "chiamare",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📞",
-            "form": "noun",
+            "form": "verb",
             "plural": "chiamari"
         },
         {
@@ -8735,17 +10180,17 @@ const vocabularyData = {
         {
             "word": "usare",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🛠️",
-            "form": "noun",
+            "form": "verb",
             "plural": "usari"
         },
         {
             "word": "ottenere",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "📥",
-            "form": "noun",
+            "form": "verb",
             "plural": "otteneri"
         },
         {
@@ -8759,35 +10204,35 @@ const vocabularyData = {
         {
             "word": "iniziare",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "▶️",
             "opposite": "finire",
             "oppositeEmoji": "🏁",
-            "form": "noun",
+            "form": "verb",
             "plural": "iniziari"
         },
         {
             "word": "aiutare",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
-            "form": "noun",
+            "form": "verb",
             "plural": "aiutari"
         },
         {
             "word": "giocare",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🎮",
-            "form": "noun",
+            "form": "verb",
             "plural": "giocari"
         },
         {
             "word": "correre",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🏃",
-            "form": "noun",
+            "form": "verb",
             "plural": "correri"
         },
         {
@@ -8801,19 +10246,19 @@ const vocabularyData = {
         {
             "word": "vivere",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🏠",
             "opposite": "morire",
             "oppositeEmoji": "⚰️",
-            "form": "noun",
+            "form": "verb",
             "plural": "viveri"
         },
         {
             "word": "credere",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🙏",
-            "form": "noun",
+            "form": "verb",
             "plural": "crederi"
         },
         {
@@ -8834,47 +10279,47 @@ const vocabularyData = {
         {
             "word": "sedersi",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
             "opposite": "stare in piedi",
             "oppositeEmoji": "🧍",
-            "form": "noun",
+            "form": "verb",
             "plural": "sedersi"
         },
         {
             "word": "stare in piedi",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🧍",
             "opposite": "sedersi",
             "oppositeEmoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "stare in piedi"
         },
         {
             "word": "perdere",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "📉",
             "opposite": "vincere",
             "oppositeEmoji": "🏆",
-            "form": "noun",
+            "form": "verb",
             "plural": "perderi"
         },
         {
             "word": "pagare",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "💰",
-            "form": "noun",
+            "form": "verb",
             "plural": "pagari"
         },
         {
             "word": "incontrare",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
-            "form": "noun",
+            "form": "verb",
             "plural": "incontrari"
         },
         {
@@ -8943,9 +10388,9 @@ const vocabularyData = {
         {
             "word": "fermarsi",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🛑",
-            "form": "noun",
+            "form": "verb",
             "plural": "fermarsi"
         },
         {
@@ -8975,9 +10420,9 @@ const vocabularyData = {
         {
             "word": "spendere",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "💸",
-            "form": "noun",
+            "form": "verb",
             "plural": "spenderi"
         },
         {
@@ -8991,17 +10436,17 @@ const vocabularyData = {
         {
             "word": "aprire",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "opposite": "chiudere",
             "oppositeEmoji": "🔒",
-            "form": "noun",
+            "form": "verb",
             "plural": "apriri"
         },
         {
             "word": "camminare",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🚶",
             "form": "verb",
             "definitions": [
@@ -9035,7 +10480,7 @@ const vocabularyData = {
         {
             "word": "ricordare",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
             "form": "verb"
         },
@@ -9056,7 +10501,7 @@ const vocabularyData = {
         {
             "word": "comprare",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
             "opposite": "vendere",
             "oppositeEmoji": "🏷️",
@@ -9123,14 +10568,14 @@ const vocabularyData = {
         {
             "word": "tagliare",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "✂️",
             "form": "verb"
         },
         {
             "word": "raggiungere",
-            "level": "elementary",
-            "theme": "transport_travel_A2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🏁",
             "form": "verb"
         },
@@ -9194,8 +10639,8 @@ const vocabularyData = {
         },
         {
             "word": "decidere",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "⚖️",
             "form": "verb"
         },
@@ -9211,7 +10656,7 @@ const vocabularyData = {
         {
             "word": "spingere",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
             "opposite": "tirare",
             "oppositeEmoji": "🚜",
@@ -9227,7 +10672,7 @@ const vocabularyData = {
         {
             "word": "sperare",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🤞",
             "form": "verb"
         },
@@ -9255,14 +10700,14 @@ const vocabularyData = {
         {
             "word": "essere d'accordo",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👍",
             "form": "verb"
         },
         {
             "word": "sostenere",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
             "form": "verb"
         },
@@ -9282,8 +10727,8 @@ const vocabularyData = {
         },
         {
             "word": "affrontare",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
             "form": "verb"
         },
@@ -9350,7 +10795,7 @@ const vocabularyData = {
         {
             "word": "volare",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
             "form": "verb"
         },
@@ -9364,28 +10809,28 @@ const vocabularyData = {
         {
             "word": "lavare",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🧼",
             "form": "verb"
         },
         {
             "word": "pulire",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🧹",
             "form": "verb"
         },
         {
             "word": "viaggiare",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "studiare",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "form": "verb"
         },
@@ -9399,7 +10844,7 @@ const vocabularyData = {
         {
             "word": "ascoltare",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_communication_A0",
             "emoji": "🎧",
             "form": "verb"
         },
@@ -9415,7 +10860,7 @@ const vocabularyData = {
         {
             "word": "finire",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🏁",
             "opposite": "iniziare",
             "oppositeEmoji": "▶️",
@@ -9794,10 +11239,10 @@ const vocabularyData = {
         },
         {
             "word": "юрист",
-            "level": "upper-intermediate",
-            "theme": "academic_vocabulary_B2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "⚖️",
-            "form": "noun",
+            "form": "verb",
             "plural": "юристы",
             "definitions": [
                 {
@@ -9884,11 +11329,11 @@ const vocabularyData = {
         {
             "word": "яблоко",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "numberPlural": "4 яблоко",
             "answer": "четыре яблока",
             "emoji": "🍎",
-            "form": "noun",
+            "form": "verb",
             "plural": "яблока",
             "definitions": [
                 {
@@ -9936,9 +11381,9 @@ const vocabularyData = {
         {
             "word": "молоко",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🥛",
-            "form": "noun",
+            "form": "verb",
             "plural": "молоко"
         },
         {
@@ -10240,10 +11685,10 @@ const vocabularyData = {
         },
         {
             "word": "супермаркет",
-            "level": "elementary",
-            "theme": "transport_travel_A2",
+            "level": "starter",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
-            "form": "noun",
+            "form": "verb",
             "plural": "супермаркеты",
             "definitions": [
                 {
@@ -10286,10 +11731,10 @@ const vocabularyData = {
         },
         {
             "word": "аэропорт",
-            "level": "intermediate",
-            "theme": "travel_cultural_B1",
+            "level": "starter",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
-            "form": "noun",
+            "form": "verb",
             "plural": "аэропорты",
             "definitions": [
                 {
@@ -10366,17 +11811,17 @@ const vocabularyData = {
         {
             "word": "стул",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "стулы"
         },
         {
             "word": "стол",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "столы"
         },
         {
@@ -10554,9 +11999,9 @@ const vocabularyData = {
         {
             "word": "книга",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
-            "form": "noun",
+            "form": "verb",
             "plural": "книги",
             "definitions": [
                 {
@@ -10814,9 +12259,9 @@ const vocabularyData = {
         {
             "word": "голова",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
-            "form": "noun",
+            "form": "verb",
             "plural": "головы",
             "definitions": [
                 {
@@ -10869,9 +12314,9 @@ const vocabularyData = {
         {
             "word": "глаз",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👁️",
-            "form": "noun",
+            "form": "verb",
             "plural": "глаза",
             "definitions": [
                 {
@@ -10932,10 +12377,10 @@ const vocabularyData = {
         },
         {
             "word": "психолог",
-            "level": "upper-intermediate",
-            "theme": "academic_vocabulary_B2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
-            "form": "noun",
+            "form": "verb",
             "plural": "психологи"
         },
         {
@@ -10986,8 +12431,8 @@ const vocabularyData = {
         },
         {
             "word": "смена парадигмы",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🔄",
             "form": "verb"
         },
@@ -11000,8 +12445,8 @@ const vocabularyData = {
         },
         {
             "word": "глобальное потепление",
-            "level": "intermediate",
-            "theme": "environment_sustainability_B1",
+            "level": "starter",
+            "theme": "verbs_being_A0",
             "emoji": "🌡️",
             "form": "verb"
         },
@@ -11014,10 +12459,10 @@ const vocabularyData = {
         },
         {
             "word": "психическое здоровье",
-            "level": "intermediate",
-            "theme": "mental_health_B1",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
-            "form": "noun",
+            "form": "verb",
             "definitions": [
                 {
                     "text": "Η κατάσταση της συναισθηματικής και ψυχολογικής ευεξίας.",
@@ -11135,14 +12580,14 @@ const vocabularyData = {
         },
         {
             "word": "книга",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "level": "starter",
             "gender": "она",
             "baseWord": "книга",
             "numberPlural": "2 книга",
             "answer": "две книги",
             "emoji": "📖",
-            "form": "noun",
+            "form": "verb",
             "plural": "две книги",
             "definitions": [
                 {
@@ -11157,13 +12602,13 @@ const vocabularyData = {
         {
             "word": "стол",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "gender": "он",
             "baseWord": "стол",
             "numberPlural": "3 стол",
             "answer": "три стола",
             "emoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "стола"
         },
         {
@@ -11193,34 +12638,34 @@ const vocabularyData = {
         {
             "word": "быть",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
             "subtext": "мне холодно, мне 20 лет",
-            "form": "noun",
+            "form": "verb",
             "plural": "быть"
         },
         {
             "word": "иметь",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👜",
             "subtext": "завтракать, иметь машину",
-            "form": "noun",
+            "form": "verb",
             "plural": "иметь"
         },
         {
             "word": "идти",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🚶",
             "subtext": "идти в школу, идти домой",
-            "form": "noun",
+            "form": "verb",
             "plural": "идти"
         },
         {
             "word": "есть",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🍎",
             "subtext": "есть яблоко, ужинать",
             "opposite": "пить",
@@ -11239,7 +12684,7 @@ const vocabularyData = {
         {
             "word": "пить",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🥛",
             "subtext": "пить воду, пить кофе",
             "form": "verb",
@@ -11256,10 +12701,10 @@ const vocabularyData = {
         {
             "word": "делать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🛠️",
             "subtext": "делать уроки, заниматься спортом",
-            "form": "noun",
+            "form": "verb",
             "plural": "делать"
         },
         {
@@ -11274,19 +12719,19 @@ const vocabularyData = {
         {
             "word": "говорить",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "🗣️",
             "subtext": "говорить по-английски, говорить медленно",
-            "form": "noun",
+            "form": "verb",
             "plural": "говорить"
         },
         {
             "word": "знать",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
             "subtext": "знать ответ, знать человека",
-            "form": "noun",
+            "form": "verb",
             "plural": "знать"
         },
         {
@@ -11301,7 +12746,7 @@ const vocabularyData = {
         {
             "word": "видеть",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👁️",
             "subtext": "видеть фильм, видеть друга",
             "form": "verb",
@@ -11318,34 +12763,34 @@ const vocabularyData = {
         {
             "word": "хотеть",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🙏",
             "subtext": "хотеть воды, хотеть пойти",
-            "form": "noun",
+            "form": "verb",
             "plural": "хотеть"
         },
         {
             "word": "нравиться",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👍",
             "subtext": "мне нравится шоколад, мне нравится танцевать",
-            "form": "noun",
+            "form": "verb",
             "plural": "нравитьси"
         },
         {
             "word": "любить",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "❤️",
             "subtext": "любить мою семью, любить путешествовать",
-            "form": "noun",
+            "form": "verb",
             "plural": "любить"
         },
         {
             "word": "читать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "subtext": "читать книгу, читать новости",
             "opposite": "писать",
@@ -11355,7 +12800,7 @@ const vocabularyData = {
         {
             "word": "писать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "✍️",
             "subtext": "писать письмо, писать сообщение",
             "opposite": "читать",
@@ -11365,7 +12810,7 @@ const vocabularyData = {
         {
             "word": "приходить",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🏃‍♂️",
             "subtext": "прийти сюда, прийти домой",
             "opposite": "идти",
@@ -11375,7 +12820,7 @@ const vocabularyData = {
         {
             "word": "давать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🎁",
             "subtext": "дарить подарок, помогать",
             "opposite": "брать",
@@ -11385,36 +12830,36 @@ const vocabularyData = {
         {
             "word": "брать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👜",
             "subtext": "сесть в автобус, сфотографировать",
             "opposite": "давать",
             "oppositeEmoji": "🎁",
-            "form": "noun",
+            "form": "verb",
             "plural": "брать"
         },
         {
             "word": "находить",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🔍",
-            "form": "noun",
+            "form": "verb",
             "plural": "находить"
         },
         {
             "word": "рассказывать",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "🗣️",
-            "form": "noun",
+            "form": "verb",
             "plural": "рассказывать"
         },
         {
             "word": "спрашивать",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "❓",
-            "form": "noun",
+            "form": "verb",
             "plural": "спрашивать"
         },
         {
@@ -11428,33 +12873,33 @@ const vocabularyData = {
         {
             "word": "чувствовать",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_being_A0",
             "emoji": "🌡️",
-            "form": "noun",
+            "form": "verb",
             "plural": "чувствовать"
         },
         {
             "word": "пробовать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🎯",
-            "form": "noun",
+            "form": "verb",
             "plural": "пробовать"
         },
         {
             "word": "уходить",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🚪",
-            "form": "noun",
+            "form": "verb",
             "plural": "уходить"
         },
         {
             "word": "звонить",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📞",
-            "form": "noun",
+            "form": "verb",
             "plural": "звонить"
         },
         {
@@ -11468,9 +12913,9 @@ const vocabularyData = {
         {
             "word": "использовать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🛠️",
-            "form": "noun",
+            "form": "verb",
             "plural": "использовать"
         },
         {
@@ -11492,25 +12937,25 @@ const vocabularyData = {
         {
             "word": "начинать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "▶️",
             "opposite": "заканчивать",
             "oppositeEmoji": "🏁",
-            "form": "noun",
+            "form": "verb",
             "plural": "начинать"
         },
         {
             "word": "помогать",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
-            "form": "noun",
+            "form": "verb",
             "plural": "помогать"
         },
         {
             "word": "разговаривать",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "💬",
             "form": "verb",
             "definitions": [
@@ -11526,17 +12971,17 @@ const vocabularyData = {
         {
             "word": "играть",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🎮",
-            "form": "noun",
+            "form": "verb",
             "plural": "играть"
         },
         {
             "word": "бегать",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🏃",
-            "form": "noun",
+            "form": "verb",
             "plural": "бегать"
         },
         {
@@ -11549,27 +12994,27 @@ const vocabularyData = {
         {
             "word": "жить",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🏠",
             "opposite": "умирать",
             "oppositeEmoji": "⚰️",
-            "form": "noun",
+            "form": "verb",
             "plural": "жить"
         },
         {
             "word": "верить",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🙏",
-            "form": "noun",
+            "form": "verb",
             "plural": "верить"
         },
         {
             "word": "приносить",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🎁",
-            "form": "noun",
+            "form": "verb",
             "plural": "приносить"
         },
         {
@@ -11583,47 +13028,47 @@ const vocabularyData = {
         {
             "word": "сидеть",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
             "opposite": "стоять",
             "oppositeEmoji": "🧍",
-            "form": "noun",
+            "form": "verb",
             "plural": "сидеть"
         },
         {
             "word": "стоять",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🧍",
             "opposite": "сидеть",
             "oppositeEmoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "стоять"
         },
         {
             "word": "терять",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "📉",
             "opposite": "выигрывать",
             "oppositeEmoji": "🏆",
-            "form": "noun",
+            "form": "verb",
             "plural": "терять"
         },
         {
             "word": "платить",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "💰",
-            "form": "noun",
+            "form": "verb",
             "plural": "платить"
         },
         {
             "word": "встречать",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
-            "form": "noun",
+            "form": "verb",
             "plural": "встречать"
         },
         {
@@ -11660,9 +13105,9 @@ const vocabularyData = {
         {
             "word": "менять",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🔄",
-            "form": "noun",
+            "form": "verb",
             "plural": "менять"
         },
         {
@@ -11692,9 +13137,9 @@ const vocabularyData = {
         {
             "word": "останавливаться",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🛑",
-            "form": "noun",
+            "form": "verb",
             "plural": "останавливатьси"
         },
         {
@@ -11724,9 +13169,9 @@ const vocabularyData = {
         {
             "word": "тратить",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "💸",
-            "form": "noun",
+            "form": "verb",
             "plural": "тратить"
         },
         {
@@ -11740,7 +13185,7 @@ const vocabularyData = {
         {
             "word": "открывать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "opposite": "закрывать",
             "oppositeEmoji": "🔒",
@@ -11749,7 +13194,7 @@ const vocabularyData = {
         {
             "word": "гулять",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🚶",
             "form": "verb",
             "definitions": [
@@ -11781,7 +13226,7 @@ const vocabularyData = {
         {
             "word": "помнить",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
             "form": "verb"
         },
@@ -11802,7 +13247,7 @@ const vocabularyData = {
         {
             "word": "покупать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
             "opposite": "продавать",
             "oppositeEmoji": "🏷️",
@@ -11869,14 +13314,14 @@ const vocabularyData = {
         {
             "word": "резать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "✂️",
             "form": "verb"
         },
         {
             "word": "достигать",
-            "level": "elementary",
-            "theme": "transport_travel_A2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🏁",
             "form": "verb"
         },
@@ -11926,8 +13371,8 @@ const vocabularyData = {
         },
         {
             "word": "решать",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "⚖️",
             "form": "verb"
         },
@@ -11943,7 +13388,7 @@ const vocabularyData = {
         {
             "word": "толкать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
             "opposite": "тянуть",
             "oppositeEmoji": "🚜",
@@ -11959,7 +13404,7 @@ const vocabularyData = {
         {
             "word": "надеяться",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🤞",
             "form": "verb"
         },
@@ -11987,14 +13432,14 @@ const vocabularyData = {
         {
             "word": "соглашаться",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👍",
             "form": "verb"
         },
         {
             "word": "поддерживать",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
             "form": "verb"
         },
@@ -12014,8 +13459,8 @@ const vocabularyData = {
         },
         {
             "word": "сталкиваться",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
             "form": "verb"
         },
@@ -12105,7 +13550,7 @@ const vocabularyData = {
         {
             "word": "летать",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
             "form": "verb"
         },
@@ -12119,35 +13564,35 @@ const vocabularyData = {
         {
             "word": "мыть",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🧼",
             "form": "verb"
         },
         {
             "word": "чистить",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🧹",
             "form": "verb"
         },
         {
             "word": "готовить",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🍳",
             "form": "verb"
         },
         {
             "word": "путешествовать",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "учиться",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "form": "verb"
         },
@@ -12161,7 +13606,7 @@ const vocabularyData = {
         {
             "word": "слушать",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_communication_A0",
             "emoji": "🎧",
             "form": "verb"
         },
@@ -12177,7 +13622,7 @@ const vocabularyData = {
         {
             "word": "заканчивать",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🏁",
             "opposite": "начинать",
             "oppositeEmoji": "▶️",
@@ -12556,10 +14001,10 @@ const vocabularyData = {
         },
         {
             "word": "δικηγόρος",
-            "level": "upper-intermediate",
-            "theme": "academic_vocabulary_B2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "⚖️",
-            "form": "noun",
+            "form": "verb",
             "plural": "δικηγόροι",
             "definitions": [
                 {
@@ -12713,11 +14158,11 @@ const vocabularyData = {
         {
             "word": "μήλο",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "numberPlural": "4 μήλο",
             "answer": "τέσσερα μήλα",
             "emoji": "🍎",
-            "form": "noun",
+            "form": "verb",
             "plural": "μήλα",
             "definitions": [
                 {
@@ -12795,9 +14240,9 @@ const vocabularyData = {
         {
             "word": "γάλα",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🥛",
-            "form": "noun",
+            "form": "verb",
             "plural": "γάλα",
             "definitions": [
                 {
@@ -13195,10 +14640,10 @@ const vocabularyData = {
         },
         {
             "word": "σούπερ μάρκετ",
-            "level": "elementary",
-            "theme": "transport_travel_A2",
+            "level": "starter",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
-            "form": "noun",
+            "form": "verb",
             "plural": "σούπερ μάρκετ",
             "definitions": [
                 {
@@ -13241,10 +14686,10 @@ const vocabularyData = {
         },
         {
             "word": "αεροδρόμιο",
-            "level": "intermediate",
-            "theme": "travel_cultural_B1",
+            "level": "starter",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
-            "form": "noun",
+            "form": "verb",
             "plural": "αεροδρόμια",
             "definitions": [
                 {
@@ -13321,17 +14766,17 @@ const vocabularyData = {
         {
             "word": "καρέκλα",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "καρέκλες"
         },
         {
             "word": "τραπέζι",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "τραπέζια"
         },
         {
@@ -13509,9 +14954,9 @@ const vocabularyData = {
         {
             "word": "βιβλίο",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
-            "form": "noun",
+            "form": "verb",
             "plural": "βιβλία",
             "definitions": [
                 {
@@ -13753,9 +15198,9 @@ const vocabularyData = {
         {
             "word": "κεφάλι",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
-            "form": "noun",
+            "form": "verb",
             "plural": "κεφάλια",
             "definitions": [
                 {
@@ -13808,9 +15253,9 @@ const vocabularyData = {
         {
             "word": "μάτι",
             "level": "starter",
-            "theme": "body_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👁️",
-            "form": "noun",
+            "form": "verb",
             "plural": "μάτια",
             "definitions": [
                 {
@@ -13863,10 +15308,10 @@ const vocabularyData = {
         },
         {
             "word": "ψυχολόγος",
-            "level": "upper-intermediate",
-            "theme": "academic_vocabulary_B2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
-            "form": "noun",
+            "form": "verb",
             "plural": "ψυχολόγοι"
         },
         {
@@ -13920,10 +15365,10 @@ const vocabularyData = {
         },
         {
             "word": "αλλαγή παραδείγματος",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🔄",
-            "form": "noun",
+            "form": "verb",
             "plural": "αλλαγή παραδείγματοι"
         },
         {
@@ -13936,10 +15381,10 @@ const vocabularyData = {
         },
         {
             "word": "παγκόσμια θέρμανση",
-            "level": "intermediate",
-            "theme": "environment_sustainability_B1",
+            "level": "starter",
+            "theme": "verbs_being_A0",
             "emoji": "🌡️",
-            "form": "noun",
+            "form": "verb",
             "plural": "παγκόσμια θέρμανσες"
         },
         {
@@ -13952,10 +15397,10 @@ const vocabularyData = {
         },
         {
             "word": "ψυχική υγεία",
-            "level": "intermediate",
-            "theme": "mental_health_B1",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
-            "form": "noun",
+            "form": "verb",
             "definitions": [
                 {
                     "text": "Η κατάσταση της συναισθηματικής και ψυχολογικής ευεξίας.",
@@ -14073,7 +15518,7 @@ const vocabularyData = {
         },
         {
             "word": "βιβλίο",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "level": "starter",
             "article": "το",
             "baseWord": "βιβλίο",
@@ -14170,7 +15615,7 @@ const vocabularyData = {
         {
             "word": "είμαι",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
             "subtext": "κρυώνω, είμαι 20 χρονών",
             "form": "verb"
@@ -14178,7 +15623,7 @@ const vocabularyData = {
         {
             "word": "έχω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_being_A0",
             "emoji": "👜",
             "subtext": "τρώω πρωινό, έχω ένα αυτοκίνητο",
             "form": "verb"
@@ -14186,7 +15631,7 @@ const vocabularyData = {
         {
             "word": "πηγαίνω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🚶",
             "subtext": "πηγαίνω στο σχολείο, πηγαίνω σπίτι",
             "form": "verb"
@@ -14194,7 +15639,7 @@ const vocabularyData = {
         {
             "word": "τρώω",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🍎",
             "subtext": "τρώω ένα μήλο, τρώω βραδινό",
             "opposite": "πίνω",
@@ -14213,7 +15658,7 @@ const vocabularyData = {
         {
             "word": "πίνω",
             "level": "starter",
-            "theme": "food_drink_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🥛",
             "subtext": "πίνω νερό, πίνω καφέ",
             "form": "verb",
@@ -14230,10 +15675,10 @@ const vocabularyData = {
         {
             "word": "κάνω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🛠️",
             "subtext": "κάνω μαθήματα, κάνω σπορ",
-            "form": "noun",
+            "form": "verb",
             "plural": "κάνω"
         },
         {
@@ -14248,19 +15693,19 @@ const vocabularyData = {
         {
             "word": "μιλάω",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "💬",
             "subtext": "μιλάω αγγλικά, μιλάω αργά",
-            "form": "noun",
+            "form": "verb",
             "plural": "μιλάω"
         },
         {
             "word": "ξέρω",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
             "subtext": "ξέρω την απάντηση, ξέρω ένα άτομο",
-            "form": "noun",
+            "form": "verb",
             "plural": "ξέρω"
         },
         {
@@ -14275,7 +15720,7 @@ const vocabularyData = {
         {
             "word": "βλέπω",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👁️",
             "subtext": "βλέπω μια ταινία, βλέπω ένα φίλο",
             "form": "verb",
@@ -14292,91 +15737,91 @@ const vocabularyData = {
         {
             "word": "θέλω",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🙏",
             "subtext": "θέλω νερό, θέλω να πάω",
-            "form": "noun",
+            "form": "verb",
             "plural": "θέλω"
         },
         {
             "word": "μου αρέσει",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👍",
             "subtext": "μου αρέσει η σοκολάτα, μου αρέσει να χορεύω",
-            "form": "noun",
+            "form": "verb",
             "plural": "μου αρέσεια"
         },
         {
             "word": "αγαπώ",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "❤️",
             "subtext": "αγαπώ την οικογένειά μου, αγαπώ τα ταξίδια",
-            "form": "noun",
+            "form": "verb",
             "plural": "αγαπώ"
         },
         {
             "word": "διαβάζω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "subtext": "διαβάζω ένα βιβλίο, διαβάζω τις ειδήσεις",
             "opposite": "γράφω",
             "oppositeEmoji": "✍️",
-            "form": "noun",
+            "form": "verb",
             "plural": "διαβάζω"
         },
         {
             "word": "γράφω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "✍️",
             "subtext": "γράφω ένα γράμμα, γράφω ένα μήνυμα",
             "opposite": "διαβάζω",
             "oppositeEmoji": "📖",
-            "form": "noun",
+            "form": "verb",
             "plural": "γράφω"
         },
         {
             "word": "έρχομαι",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🏃‍♂️",
             "subtext": "έλα εδώ, έλα σπίτι",
             "opposite": "πηγαίνω",
             "oppositeEmoji": "🚶",
-            "form": "noun",
+            "form": "verb",
             "plural": "έρχομαια"
         },
         {
             "word": "δίνω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🎁",
             "subtext": "δίνω ένα δώρο, δίνω βοήθεια",
             "opposite": "παίρνω",
             "oppositeEmoji": "👜",
-            "form": "noun",
+            "form": "verb",
             "plural": "δίνω"
         },
         {
             "word": "παίρνω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "📥",
             "subtext": "παίρνω λεωφορείο, βγάζω φωτογραφία",
             "opposite": "δίνω",
             "oppositeEmoji": "🎁",
-            "form": "noun",
+            "form": "verb",
             "plural": "παίρνω"
         },
         {
             "word": "βρίσκω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🔍",
-            "form": "noun",
+            "form": "verb",
             "plural": "βρίσκω"
         },
         {
@@ -14410,41 +15855,41 @@ const vocabularyData = {
         {
             "word": "προσπαθώ",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🎯",
-            "form": "noun",
+            "form": "verb",
             "plural": "προσπαθώ"
         },
         {
             "word": "φεύγω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🚪",
-            "form": "noun",
+            "form": "verb",
             "plural": "φεύγω"
         },
         {
             "word": "καλώ",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📞",
-            "form": "noun",
+            "form": "verb",
             "plural": "καλώ"
         },
         {
             "word": "κοιτάζω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "👀",
-            "form": "noun",
+            "form": "verb",
             "plural": "κοιτάζω"
         },
         {
             "word": "χρησιμοποιώ",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🛠️",
-            "form": "noun",
+            "form": "verb",
             "plural": "χρησιμοποιώ"
         },
         {
@@ -14458,17 +15903,17 @@ const vocabularyData = {
         {
             "word": "αρχίζω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "▶️",
             "opposite": "τελειώνω",
             "oppositeEmoji": "🏁",
-            "form": "noun",
+            "form": "verb",
             "plural": "αρχίζω"
         },
         {
             "word": "βοηθάω",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
             "form": "verb",
             "definitions": [
@@ -14484,17 +15929,17 @@ const vocabularyData = {
         {
             "word": "παίζω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🎮",
-            "form": "noun",
+            "form": "verb",
             "plural": "παίζω"
         },
         {
             "word": "τρέχω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🏃",
-            "form": "noun",
+            "form": "verb",
             "plural": "τρέχω"
         },
         {
@@ -14508,27 +15953,27 @@ const vocabularyData = {
         {
             "word": "ζω",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🏠",
             "opposite": "πεθαίνω",
             "oppositeEmoji": "⚰️",
-            "form": "noun",
+            "form": "verb",
             "plural": "ζω"
         },
         {
             "word": "πιστεύω",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "🙏",
-            "form": "noun",
+            "form": "verb",
             "plural": "πιστεύω"
         },
         {
             "word": "φέρνω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🎁",
-            "form": "noun",
+            "form": "verb",
             "plural": "φέρνω"
         },
         {
@@ -14542,31 +15987,31 @@ const vocabularyData = {
         {
             "word": "κάθομαι",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🪑",
             "opposite": "στέκομαι",
             "oppositeEmoji": "🧍",
-            "form": "noun",
+            "form": "verb",
             "plural": "κάθομαια"
         },
         {
             "word": "στέκομαι",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🧍",
             "opposite": "κάθομαι",
             "oppositeEmoji": "🪑",
-            "form": "noun",
+            "form": "verb",
             "plural": "στέκομαια"
         },
         {
             "word": "χάνω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "📉",
             "opposite": "νικάω",
             "oppositeEmoji": "🏆",
-            "form": "noun",
+            "form": "verb",
             "plural": "χάνω"
         },
         {
@@ -14579,9 +16024,9 @@ const vocabularyData = {
         {
             "word": "συναντώ",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
-            "form": "noun",
+            "form": "verb",
             "plural": "συναντώ"
         },
         {
@@ -14619,9 +16064,9 @@ const vocabularyData = {
         {
             "word": "αλλάζω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🔄",
-            "form": "noun",
+            "form": "verb",
             "plural": "αλλάζω"
         },
         {
@@ -14667,9 +16112,9 @@ const vocabularyData = {
         {
             "word": "σταματάω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_actions_A0",
             "emoji": "🛑",
-            "form": "noun",
+            "form": "verb",
             "plural": "σταματάω"
         },
         {
@@ -14699,9 +16144,9 @@ const vocabularyData = {
         {
             "word": "ξοδεύω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "💸",
-            "form": "noun",
+            "form": "verb",
             "plural": "ξοδεύω"
         },
         {
@@ -14715,17 +16160,17 @@ const vocabularyData = {
         {
             "word": "ανοίγω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "opposite": "κλείνω",
             "oppositeEmoji": "🔒",
-            "form": "noun",
+            "form": "verb",
             "plural": "ανοίγω"
         },
         {
             "word": "περπατάω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "🚶",
             "form": "verb",
             "definitions": [
@@ -14759,9 +16204,9 @@ const vocabularyData = {
         {
             "word": "θυμάμαι",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🧠",
-            "form": "noun",
+            "form": "verb",
             "plural": "θυμάμαια"
         },
         {
@@ -14783,7 +16228,7 @@ const vocabularyData = {
         {
             "word": "αγοράζω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
             "opposite": "πουλάω",
             "oppositeEmoji": "🏷️",
@@ -14843,14 +16288,14 @@ const vocabularyData = {
         {
             "word": "κόβω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "✂️",
             "form": "verb"
         },
         {
             "word": "φτάνω",
-            "level": "elementary",
-            "theme": "transport_travel_A2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🏁",
             "form": "verb"
         },
@@ -14914,8 +16359,8 @@ const vocabularyData = {
         },
         {
             "word": "αποφασίζω",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_mental_A0",
             "emoji": "⚖️",
             "form": "verb"
         },
@@ -14931,7 +16376,7 @@ const vocabularyData = {
         {
             "word": "σπρώχνω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🛒",
             "opposite": "τραβάω",
             "oppositeEmoji": "🚜",
@@ -14947,7 +16392,7 @@ const vocabularyData = {
         {
             "word": "ελπίζω",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "🤞",
             "form": "verb"
         },
@@ -14982,14 +16427,14 @@ const vocabularyData = {
         {
             "word": "συμφωνώ",
             "level": "starter",
-            "theme": "adjectives_A0",
+            "theme": "verbs_mental_A0",
             "emoji": "👍",
             "form": "verb"
         },
         {
             "word": "υποστηρίζω",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_actions_A0",
             "emoji": "🤝",
             "form": "verb"
         },
@@ -15009,8 +16454,8 @@ const vocabularyData = {
         },
         {
             "word": "αντιμετωπίζω",
-            "level": "elementary",
-            "theme": "relationships_family_A2",
+            "level": "starter",
+            "theme": "verbs_being_A0",
             "emoji": "👤",
             "form": "verb"
         },
@@ -15100,7 +16545,7 @@ const vocabularyData = {
         {
             "word": "πετάω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
             "form": "verb"
         },
@@ -15114,35 +16559,35 @@ const vocabularyData = {
         {
             "word": "πλένω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🧼",
             "form": "verb"
         },
         {
             "word": "καθαρίζω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🧹",
             "form": "verb"
         },
         {
             "word": "μαγειρεύω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_daily_life_A0",
             "emoji": "🍳",
             "form": "verb"
         },
         {
             "word": "ταξιδεύω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_movement_A0",
             "emoji": "✈️",
             "form": "verb"
         },
         {
             "word": "σπουδάζω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_communication_A0",
             "emoji": "📖",
             "form": "verb"
         },
@@ -15156,7 +16601,7 @@ const vocabularyData = {
         {
             "word": "ακούω",
             "level": "starter",
-            "theme": "places_buildings_activities_A2",
+            "theme": "verbs_communication_A0",
             "emoji": "🎧",
             "form": "verb"
         },
@@ -15172,7 +16617,7 @@ const vocabularyData = {
         {
             "word": "τελειώνω",
             "level": "starter",
-            "theme": "home_A0",
+            "theme": "verbs_actions_A0",
             "emoji": "🏁",
             "opposite": "αρχίζω",
             "oppositeEmoji": "▶️",

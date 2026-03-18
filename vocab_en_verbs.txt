@@ -1,0 +1,391 @@
+            "plural": "mice"
+        },
+        {
+            "word": "be",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "👤",
+            "subtext": "be cold, be 20 years old",
+            "form": "verb"
+        },
+        {
+            "word": "have",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "👜",
+            "subtext": "have breakfast, have a car",
+            "form": "verb"
+        },
+        {
+            "word": "go",
+            "level": "starter",
+            "theme": "places_buildings_activities_A2",
+            "emoji": "🚶",
+            "subtext": "go to school, go home",
+            "form": "verb"
+        },
+        {
+            "word": "eat",
+            "level": "starter",
+            "theme": "food_drink_A0",
+            "emoji": "🍎",
+            "subtext": "eat an apple, eat dinner",
+            "opposite": "drink",
+            "oppositeEmoji": "🥛",
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To put food in your mouth and swallow it.",
+                    "examples": [
+                        "I eat an apple every day.",
+                        "What do you want to eat?"
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "drink",
+            "level": "starter",
+            "theme": "food_drink_A0",
+            "emoji": "🥛",
+            "subtext": "drink water, drink coffee",
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To take liquid into your mouth and swallow it.",
+                    "examples": [
+                        "I drink a lot of water.",
+                        "Do you want a drink?"
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "do",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "🛠️",
+            "subtext": "do homework, do sport",
+            "form": "verb"
+        },
+        {
+            "word": "speak",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "🗣️",
+            "subtext": "speak English, speak slowly",
+            "form": "verb"
+        },
+        {
+            "word": "know",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "🧠",
+            "subtext": "know the answer, know a person",
+            "form": "verb"
+        },
+        {
+            "word": "think",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "💭",
+            "subtext": "think about, think that",
+            "form": "verb"
+        },
+        {
+            "word": "see",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "👁️",
+            "subtext": "see a movie, see a friend",
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To use your eyes to look at something.",
+                    "examples": [
+                        "I can see a bird.",
+                        "Did you see that movie?"
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "want",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "🙏",
+            "subtext": "want water, want to go",
+            "form": "verb"
+        },
+        {
+            "word": "like",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "👍",
+            "subtext": "like chocolate, like dancing",
+            "form": "verb"
+        },
+        {
+            "word": "love",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "❤️",
+            "subtext": "love my family, love travel",
+            "form": "verb"
+        },
+        {
+            "word": "read",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "📖",
+            "subtext": "read a book, read the news",
+            "opposite": "write",
+            "oppositeEmoji": "✍️",
+            "form": "verb"
+        },
+        {
+            "word": "write",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "✍️",
+            "subtext": "write a letter, write a message",
+            "opposite": "read",
+            "oppositeEmoji": "📖",
+            "form": "verb"
+        },
+        {
+            "word": "come",
+            "level": "starter",
+            "theme": "places_buildings_activities_A2",
+            "emoji": "🏃‍♂️",
+            "subtext": "come here, come home",
+            "opposite": "go",
+            "oppositeEmoji": "🚶",
+            "form": "verb"
+        },
+        {
+            "word": "give",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "🎁",
+            "subtext": "give a gift, give help",
+            "opposite": "take",
+            "oppositeEmoji": "👜",
+            "form": "verb"
+        },
+        {
+            "word": "take",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "👜",
+            "subtext": "take a bus, take a photo",
+            "opposite": "give",
+            "oppositeEmoji": "🎁",
+            "form": "verb"
+        },
+        {
+            "word": "find",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "🔍",
+            "form": "verb"
+        },
+        {
+            "word": "tell",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "🗣️",
+            "form": "verb"
+        },
+        {
+            "word": "ask",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "❓",
+            "form": "verb"
+        },
+        {
+            "word": "seem",
+            "level": "elementary",
+            "theme": "relationships_family_A2",
+            "emoji": "🤔",
+            "form": "verb"
+        },
+        {
+            "word": "feel",
+            "level": "starter",
+            "theme": "body_A0",
+            "emoji": "🌡️",
+            "form": "verb"
+        },
+        {
+            "word": "try",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "🎯",
+            "form": "verb"
+        },
+        {
+            "word": "leave",
+            "level": "starter",
+            "theme": "places_buildings_activities_A2",
+            "emoji": "🚪",
+            "form": "verb"
+        },
+        {
+            "word": "call",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "📞",
+            "form": "verb"
+        },
+        {
+            "word": "look",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "👀",
+            "form": "verb"
+        },
+        {
+            "word": "use",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "🛠️",
+            "form": "verb"
+        },
+        {
+            "word": "get",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "📥",
+            "form": "verb"
+        },
+        {
+            "word": "become",
+            "level": "elementary",
+            "theme": "relationships_family_A2",
+            "emoji": "🦋",
+            "form": "verb"
+        },
+        {
+            "word": "start",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "▶️",
+            "opposite": "finish",
+            "oppositeEmoji": "🏁",
+            "form": "verb"
+        },
+        {
+            "word": "help",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "🤝",
+            "form": "verb"
+        },
+        {
+            "word": "talk",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "💬",
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "To say words to someone.",
+                    "examples": [
+                        "I like to talk to my friends.",
+                        "Stop talking and listen."
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "play",
+            "level": "starter",
+            "theme": "places_buildings_activities_A2",
+            "emoji": "🎮",
+            "form": "verb"
+        },
+        {
+            "word": "run",
+            "level": "starter",
+            "theme": "places_buildings_activities_A2",
+            "emoji": "🏃",
+            "form": "verb"
+        },
+        {
+            "word": "move",
+            "level": "elementary",
+            "theme": "neighbourhood_A2",
+            "emoji": "📦",
+            "form": "verb"
+        },
+        {
+            "word": "live",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "🏠",
+            "opposite": "die",
+            "oppositeEmoji": "⚰️",
+            "form": "verb"
+        },
+        {
+            "word": "believe",
+            "level": "elementary",
+            "theme": "relationships_family_A2",
+            "emoji": "🙏",
+            "form": "verb"
+        },
+        {
+            "word": "bring",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "🎁",
+            "form": "verb"
+        },
+        {
+            "word": "happen",
+            "level": "elementary",
+            "theme": "relationships_family_A2",
+            "emoji": "⚡",
+            "form": "verb"
+        },
+        {
+            "word": "sit",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "🪑",
+            "opposite": "stand",
+            "oppositeEmoji": "🧍",
+            "form": "verb"
+        },
+        {
+            "word": "stand",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "🧍",
+            "opposite": "sit",
+            "oppositeEmoji": "🪑",
+            "form": "verb"
+        },
+        {
+            "word": "lose",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "📉",
+            "opposite": "win",
+            "oppositeEmoji": "🏆",
+            "form": "verb"
+        },
+        {
+            "word": "pay",
+            "level": "starter",
+            "theme": "home_A0",
+            "emoji": "💰",
+            "form": "verb"
+        },
+        {
+            "word": "meet",
+            "level": "starter",
+            "theme": "adjectives_A0",
+            "emoji": "🤝",
