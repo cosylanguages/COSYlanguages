@@ -1,3 +1,47 @@
+window.updateCategoryUI = function() {
+    const container = document.getElementById("practice-container");
+    const selected = document.querySelector('input[name="practice-cat"]:checked');
+    if (!container || !selected) return;
+
+    const categoryId = selected.id.replace('cat-', '');
+    container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
+    container.classList.add('cat-' + categoryId);
+
+    populateThemes(categoryId);
+
+    const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
+
+    const configureTask = (id, shouldBeChecked, isAvailable) => {
+        const cb = document.getElementById(id);
+        if (!cb) return;
+        cb.checked = shouldBeChecked;
+        const label = cb.closest('.toggle-chip');
+        if (label) {
+            label.style.display = isAvailable ? 'block' : 'none';
+        }
+    };
+
+    if (categoryId === 'speaking') {
+        configureTask('type-cv', true, true);
+        ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf', 'type-ga', 'type-np', 'type-ws'].forEach(id => configureTask(id, false, false));
+    } else if (categoryId === 'grammar') {
+        const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np', 'type-mc'];
+        taskCheckboxes.forEach(cb => {
+            let isGrammar = grammarTasks.includes(cb.id);
+            if (currentPractice.language === 'en' && cb.id === 'type-ga') isGrammar = false;
+            configureTask(cb.id, isGrammar, isGrammar);
+        });
+        ['type-cv', 'type-ls', 'type-sc', 'type-op', 'type-tf'].forEach(id => configureTask(id, false, false));
+    } else {
+        // vocab
+        const vocabTasks = ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf'];
+        taskCheckboxes.forEach(cb => {
+            const isVocab = vocabTasks.includes(cb.id);
+            configureTask(cb.id, isVocab, isVocab);
+        });
+        ['type-cv', 'type-ga', 'type-np', 'type-ws'].forEach(id => configureTask(id, false, false));
+    }
+};
 
 const SESSION_STORAGE_KEY = 'cosy_practice_session';
 
@@ -180,55 +224,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const catRadios = document.querySelectorAll('input[name="practice-cat"]');
     const container = document.getElementById('practice-container');
 
-    window.updateCategoryUI = function() {
-        const selected = document.querySelector('input[name="practice-cat"]:checked');
-        if (!selected) return;
-
-        const categoryId = selected.id.replace('cat-', '');
-        container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
-        container.classList.add('cat-' + categoryId);
-
-        populateThemes(categoryId);
-
-        const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
-
-        // Helper to hide/show and check/uncheck chips based on category
-        const configureTask = (id, shouldBeChecked, isAvailable) => {
-            const cb = document.getElementById(id);
-            if (!cb) return;
-            cb.checked = shouldBeChecked;
-            const label = cb.closest('.toggle-chip');
-            if (label) {
-                label.style.display = isAvailable ? 'block' : 'none';
-            }
-        };
-
-        if (selected.id === 'cat-speaking') {
-            container.classList.add('cat-speaking');
-            taskCheckboxes.forEach(cb => {
-                const isCV = cb.id === 'type-cv';
-                configureTask(cb.id, isCV, isCV);
-            });
-        } else if (selected.id === 'cat-grammar') {
-            container.classList.add('cat-grammar');
-            const grammarTasks = ['type-ga', 'type-ws', 'type-cl', 'type-np', 'type-mc'];
-            taskCheckboxes.forEach(cb => {
-                let isGrammar = grammarTasks.includes(cb.id);
-                // English: hide Gender & Articles
-                if (currentPractice.language === 'en' && cb.id === 'type-ga') {
-                    isGrammar = false;
-                }
-                configureTask(cb.id, isGrammar, isGrammar);
-            });
-        } else {
-            container.classList.add('cat-vocab');
-            const vocabTasks = ['type-mc', 'type-ls', 'type-sc', 'type-op', 'type-cl', 'type-tf'];
-            taskCheckboxes.forEach(cb => {
-                const isVocab = vocabTasks.includes(cb.id);
-                configureTask(cb.id, isVocab, isVocab);
-            });
-        }
-    };
 
     // Deep Linking Support
     const urlParams = new URLSearchParams(window.location.search);
@@ -1028,44 +1023,6 @@ function expandGrammarItems(items, lang) {
     return expanded;
 }
 
-function getNumberWord(n, lang) {
-    const data = window.numbersData && window.numbersData[lang];
-    if (!data) return n.toString();
-
-    if (data[n]) return data[n];
-
-    if (n > 20 && n < 100) {
-        const ten = Math.floor(n / 10) * 10;
-        const digit = n % 10;
-        if (digit === 0) return data.tens[ten];
-
-        // Language specific assembly
-        if (lang === 'ru') return data.tens[ten] + " " + data[digit];
-        if (lang === 'en') return data.tens[ten] + "-" + data[digit];
-        if (lang === 'fr') {
-            if (n === 71) return "soixante et onze";
-            if (n > 71 && n < 80) return "soixante-" + data[10 + digit];
-            if (n === 81) return "quatre-vingt-un";
-            if (n > 90) return "quatre-vingt-" + data[10 + digit];
-            return data.tens[ten] + "-" + data[digit];
-        }
-        if (lang === 'el') return data.tens[ten] + " " + data[digit];
-        if (lang === 'it') {
-            let t = data.tens[ten];
-            let d = data[digit];
-            // Elision: venti + uno = ventuno
-            if (d.startsWith('u') || d.startsWith('o')) return t.slice(0, -1) + d;
-            return t + d;
-        }
-        // Fallback: Space separated
-        return (data.tens[ten] || ten) + " " + (data[digit] || digit);
-    }
-
-    if (n === 100) return data[100];
-    if (n === 1000) return data[1000];
-
-    return n.toString();
-}
 
 function startPractice(isWheelMode = false) {
     const activeLangCard = document.querySelector('.lang-selection-card.active');
@@ -1127,7 +1084,7 @@ function startPractice(isWheelMode = false) {
         const langData = window.numbersData && window.numbersData[lang];
         if (langData) {
             const addNum = (n, theme, level = 'starter') => {
-                const word = getNumberWord(n, lang);
+                const word = window.gameUtils.getNumberWord(n, lang);
                 rawItems.push({
                     word: word,
                     level: level,

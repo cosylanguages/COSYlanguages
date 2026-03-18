@@ -369,6 +369,62 @@ const showGameConfirm = (message, onConfirm) => {
 };
 
 // Export to window
+const getNumberWord = (n, lang) => {
+    const data = window.numbersData && window.numbersData[lang];
+    if (!data) return n.toString();
+    if (data[n]) return data[n];
+
+    const milestones = data.milestones || {};
+    if (milestones[n]) return milestones[n];
+
+    if (n < 100) {
+        const tensVal = Math.floor(n / 10) * 10;
+        const unitsVal = n % 10;
+        const tensWord = data.tens ? data.tens[tensVal] : "";
+        const unitsWord = data[unitsVal];
+
+        if (unitsVal === 0) return tensWord || n.toString();
+
+        if (lang === 'fr') {
+            if (n >= 70 && n <= 79) return data.tens[60] + "-" + getNumberWord(n - 60, lang);
+            if (n >= 80 && n <= 89) {
+                const base = data.tens[80]; // "quatre-vingts"
+                return base.replace(/s$/, "") + "-" + unitsWord; // Drop "s"
+            }
+            if (n >= 90 && n <= 99) return data.tens[80].replace(/s$/, "") + "-" + getNumberWord(n - 80, lang);
+            return tensWord + "-" + unitsWord;
+        }
+        if (lang === 'de') return unitsWord + "und" + tensWord;
+        if (lang === 'es') return (n < 30) ? data[n] : (tensWord + " y " + unitsWord);
+        if (lang === 'it') {
+            if (unitsVal === 1 || unitsVal === 8) return tensWord.slice(0, -1) + unitsWord;
+            return tensWord + unitsWord;
+        }
+        if (lang === 'br') { // Breton vigesimal
+            if (n === 30) return "tregont";
+            if (n > 20 && n < 40) return unitsWord + " warn ugent";
+            if (n > 40 && n < 60) return unitsWord + " ha daou-ugent";
+            if (n > 60 && n < 80) return unitsWord + " ha tri-ugent";
+            if (n > 80 && n < 100) return unitsWord + " ha pevar-ugent";
+            return tensWord + " " + unitsWord;
+        }
+
+        // Defaults: RU, EN, EL, etc.
+        const joiner = (lang === 'ru' || lang === 'el' || lang === 'ka' || lang === 'hy' || lang === 'tt' || lang === 'ba') ? " " : "-";
+        return tensWord + joiner + unitsWord;
+    }
+
+    if (n < 1000) {
+        const hundreds = Math.floor(n / 100) * 100;
+        const remainder = n % 100;
+        if (remainder === 0) return milestones[hundreds] || (getNumberWord(Math.floor(n/100), lang) + " " + data[100]);
+        return (milestones[hundreds] || getNumberWord(Math.floor(n/100), lang) + " " + data[100]) + " " + getNumberWord(remainder, lang);
+    }
+
+    return n.toString();
+};
+
+
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm, getNumberWord
 };
