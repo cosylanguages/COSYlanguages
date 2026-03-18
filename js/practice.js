@@ -1028,6 +1028,45 @@ function expandGrammarItems(items, lang) {
     return expanded;
 }
 
+function getNumberWord(n, lang) {
+    const data = window.numbersData && window.numbersData[lang];
+    if (!data) return n.toString();
+
+    if (data[n]) return data[n];
+
+    if (n > 20 && n < 100) {
+        const ten = Math.floor(n / 10) * 10;
+        const digit = n % 10;
+        if (digit === 0) return data.tens[ten];
+
+        // Language specific assembly
+        if (lang === 'ru') return data.tens[ten] + " " + data[digit];
+        if (lang === 'en') return data.tens[ten] + "-" + data[digit];
+        if (lang === 'fr') {
+            if (n === 71) return "soixante et onze";
+            if (n > 71 && n < 80) return "soixante-" + data[10 + digit];
+            if (n === 81) return "quatre-vingt-un";
+            if (n > 90) return "quatre-vingt-" + data[10 + digit];
+            return data.tens[ten] + "-" + data[digit];
+        }
+        if (lang === 'el') return data.tens[ten] + " " + data[digit];
+        if (lang === 'it') {
+            let t = data.tens[ten];
+            let d = data[digit];
+            // Elision: venti + uno = ventuno
+            if (d.startsWith('u') || d.startsWith('o')) return t.slice(0, -1) + d;
+            return t + d;
+        }
+        // Fallback: Space separated
+        return (data.tens[ten] || ten) + " " + (data[digit] || digit);
+    }
+
+    if (n === 100) return data[100];
+    if (n === 1000) return data[1000];
+
+    return n.toString();
+}
+
 function startPractice(isWheelMode = false) {
     const activeLangCard = document.querySelector('.lang-selection-card.active');
     const lang = activeLangCard ? activeLangCard.getAttribute('data-value') : 'en';
@@ -1082,7 +1121,36 @@ function startPractice(isWheelMode = false) {
         const vd = (vocabularyData[lang] || []).filter(item => item.article || item.gender || item.plural);
         rawItems = expandGrammarItems([...gd, ...vd], lang);
     } else {
-        rawItems = vocabularyData[lang] || [];
+        rawItems = [...(vocabularyData[lang] || [])];
+
+        // Enhanced procedural numbers logic
+        const langData = window.numbersData && window.numbersData[lang];
+        if (langData) {
+            const addNum = (n, theme, level = 'starter') => {
+                const word = getNumberWord(n, lang);
+                rawItems.push({
+                    word: word,
+                    level: level,
+                    theme: theme,
+                    form: 'noun',
+                    definitions: [{ text: n.toString() }]
+                });
+            };
+
+            // 0-9
+            for(let i=0; i<=9; i++) addNum(i, 'numbers_0_9_A0');
+            // 10-19
+            for(let i=10; i<=19; i++) addNum(i, 'numbers_10_19_A0');
+            // 20-99
+            for(let i=20; i<=99; i+= (i<30 ? 1 : 10)) {
+                addNum(i, 'numbers_20_99_A0');
+                if (i >= 30 && i < 90) addNum(i+5, 'numbers_20_99_A0'); // Add some non-round ones
+            }
+            // 100+
+            [100, 200, 500, 1000].forEach(n => addNum(n, 'numbers_100_plus_A1', 'starter'));
+            // 1000+
+            [1000, 2000, 5000, 10000].forEach(n => addNum(n, 'numbers_1000_plus_A2', 'elementary'));
+        }
     }
 
     // Filter by Level & Theme

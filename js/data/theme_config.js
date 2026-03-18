@@ -7,8 +7,9 @@ const themeConfig = {
                 "food_drink_A0": "Food & drink",
                 "home_A0": "The home (rooms & furniture)",
                 "colours_A0": "Colours",
-                "numbers_1_20_A0": "Numbers 1–20",
-                "numbers_30_100_A0": "Numbers 30–100",
+                "numbers_0_9_A0": "Numbers 0–9",
+                "numbers_10_19_A0": "Numbers 10–19",
+                "numbers_20_99_A0": "Numbers 20–99",
                 "days_week_A0": "Days of the week",
                 "jobs_A0": "Basic jobs (doctor, teacher, driver)",
                 "transport_A0": "Transport (car, bus, train, plane)",
@@ -33,6 +34,7 @@ const themeConfig = {
                 "social_life_A1": "Social life (friend, meet, invite, together, alone)",
                 "feelings_A1": "Feelings (happy, worried, relaxed, bored, stressed)",
                 "transport_A1": "Transport (ticket, journey, late, arrive)",
+                "numbers_100_plus_A1": "Numbers 100+",
                 "numbers_money_A1": "Numbers & money (bill, change, bank, account)"
             }
         }
@@ -40,6 +42,7 @@ const themeConfig = {
     "elementary": {
         "description": "Adult everyday contexts — work, health, money, relationships.",
         "themes": {
+            "numbers_1000_plus_A2": "Numbers 1000+",
             "career_A2": "Career & workplace",
             "property_A2": "Renting & buying property",
             "finances_A2": "Personal finances",

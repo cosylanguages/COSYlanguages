@@ -95,7 +95,22 @@ function startLesson() {
     const { showGameMessage } = window.gameUtils || {};
 
     if (window.lessonsData && window.lessonsData[lang] && window.lessonsData[lang][day]) {
-        const rawItems = window.lessonsData[lang][day].words;
+        let rawItems = [...window.lessonsData[lang][day].words];
+
+        // Inject numbers if any items have a number theme but no words (centralized numbers support)
+        const langNumbers = window.numbersData && window.numbersData[lang];
+        if (langNumbers) {
+            rawItems = rawItems.map(item => {
+                if (item.theme && item.theme.startsWith('numbers_') && !item.word) {
+                    const val = item.definitions && item.definitions[0] && item.definitions[0].text;
+                    if (val && langNumbers[val]) {
+                        return { ...item, word: langNumbers[val] };
+                    }
+                }
+                return item;
+            });
+        }
+
         currentLesson.words = rawItems.map(item => {
             let wordCopy = { ...item, lessonTitle: window.lessonsData[lang][day].title };
 
