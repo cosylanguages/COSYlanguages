@@ -17,7 +17,13 @@ const themeConfig = {
                 "adjectives_A0": "Basic adjectives (big, small, good, bad, cheap, expensive)",
                 "money_A0": "Money (coin, note, price)",
                 "family_A0": "Family members (mother, father, sister, brother, partner)",
-                "places_countries_cities_A0": "Countries & cities"
+                "places_countries_cities_A0": "Countries & cities",
+                "verbs_being_A0": "Being & States",
+                "verbs_actions_A0": "Actions",
+                "verbs_communication_A0": "Communication",
+                "verbs_movement_A0": "Movement",
+                "verbs_daily_life_A0": "Daily Life",
+                "verbs_mental_A0": "Mental & Emotional",
             }
         },
         "A1": {
