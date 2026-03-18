@@ -218,10 +218,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 let displayValue = item;
                 if (contentType === 'words' && typeof item === 'number') {
-                    const vocab = window.vocabularyData && window.vocabularyData[lang];
-                    if (vocab) {
-                        const numEntry = vocab.find(v => v.theme && v.theme.startsWith('numbers') && v.definitions && v.definitions.some(d => d.text === item.toString()));
-                        if (numEntry) displayValue = numEntry.word;
+                    const langData = window.numbersData && window.numbersData[lang];
+                    if (langData && langData[item]) {
+                        displayValue = langData[item];
                     }
                 }
 
