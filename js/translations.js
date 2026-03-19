@@ -728,6 +728,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Modifiers, Intensifiers & Degree",
     common_theme_ethics_philosophy: "Ethics, Philosophy & Big Ideas",
     common_theme_opinion_debate: "Opinion, Debate & Argumentation",
+
+    theme_numbers_100_999_A1: "Numbers 100–999",
+    theme_numbers_1000_plus_A1: "Numbers 1,000+",
+    theme_ordinal_numbers_A1: "Ordinal numbers",
+    theme_fractions_A2: "Fractions",
+    theme_decimals_A2: "Decimals",
+    theme_percentages_A2: "Percentages",
+    theme_basic_arithmetic_A2: "Basic arithmetic",
+    theme_approximation_estimation_B1: "Approximation & estimation",
+    theme_mathematical_operations_B2: "Mathematical operations",
   },
   fr: {
     // Hero section
@@ -1473,6 +1483,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Modificateurs & Degré",
     common_theme_ethics_philosophy: "Éthique & Philosophie",
     common_theme_opinion_debate: "Opinion & Débat",
+
+    theme_numbers_100_999_A1: "Nombres 100–999",
+    theme_numbers_1000_plus_A1: "Nombres 1 000+",
+    theme_ordinal_numbers_A1: "Nombres ordinaux",
+    theme_fractions_A2: "Fractions",
+    theme_decimals_A2: "Décimales",
+    theme_percentages_A2: "Pourcentages",
+    theme_basic_arithmetic_A2: "Arithmétique de base",
+    theme_approximation_estimation_B1: "Approximation & estimation",
+    theme_mathematical_operations_B2: "Opérations mathématiques",
   },
   it: {
     // Hero section
@@ -2223,6 +2243,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Modificatori e Grado",
     common_theme_ethics_philosophy: "Etica e Filosofia",
     common_theme_opinion_debate: "Opinione e Dibattito",
+
+    theme_numbers_100_999_A1: "Numeri 100–999",
+    theme_numbers_1000_plus_A1: "Numeri 1.000+",
+    theme_ordinal_numbers_A1: "Numeri ordinali",
+    theme_fractions_A2: "Frazioni",
+    theme_decimals_A2: "Decimali",
+    theme_percentages_A2: "Percentuali",
+    theme_basic_arithmetic_A2: "Aritmetica di base",
+    theme_approximation_estimation_B1: "Approssimazione & stima",
+    theme_mathematical_operations_B2: "Operazioni matematiche",
   },
   ru: {
     // Hero section
@@ -2955,6 +2985,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Степень и интенсивность",
     common_theme_ethics_philosophy: "Этика и философия",
     common_theme_opinion_debate: "Мнения и дебаты",
+
+    theme_numbers_100_999_A1: "Числа 100–999",
+    theme_numbers_1000_plus_A1: "Числа 1 000+",
+    theme_ordinal_numbers_A1: "Порядковые числительные",
+    theme_fractions_A2: "Дроби",
+    theme_decimals_A2: "Десятичные дроби",
+    theme_percentages_A2: "Проценты",
+    theme_basic_arithmetic_A2: "Базовая арифметика",
+    theme_approximation_estimation_B1: "Приближение и оценка",
+    theme_mathematical_operations_B2: "Математические операции",
   },
   el: {
     // Hero section
@@ -3351,6 +3391,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Προσδιορισμοί & Βαθμός",
     common_theme_ethics_philosophy: "Ηθική & Φιλοσοφία",
     common_theme_opinion_debate: "Άποψη & Επιχειρηματολογία",
+
+    theme_numbers_100_999_A1: "Αριθμοί 100–999",
+    theme_numbers_1000_plus_A1: "Αριθμοί 1.000+",
+    theme_ordinal_numbers_A1: "Τακτικά αριθμητικά",
+    theme_fractions_A2: "Κλάσματα",
+    theme_decimals_A2: "Δεκαδικοί",
+    theme_percentages_A2: "Ποσοστά",
+    theme_basic_arithmetic_A2: "Βασική αριθμητική",
+    theme_approximation_estimation_B1: "Προσέγγιση & εκτίμηση",
+    theme_mathematical_operations_B2: "Μαθηματικές πράξεις",
   },
   es: {
     theme_all: "Todos los temas",
@@ -3389,6 +3439,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Modificadores e Intensificadores",
     common_theme_ethics_philosophy: "Ética y Filosofía",
     common_theme_opinion_debate: "Opinión y Debate",
+
+    theme_numbers_100_999_A1: "Números 100–999",
+    theme_numbers_1000_plus_A1: "Números 1.000+",
+    theme_ordinal_numbers_A1: "Números ordinales",
+    theme_fractions_A2: "Fracciones",
+    theme_decimals_A2: "Decimales",
+    theme_percentages_A2: "Porcentajes",
+    theme_basic_arithmetic_A2: "Aritmética básica",
+    theme_approximation_estimation_B1: "Aproximación y estimación",
+    theme_mathematical_operations_B2: "Operaciones matemáticas",
   },
   de: {
     theme_all: "Alle Themen",
@@ -3427,6 +3487,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Graduierung & Intensität",
     common_theme_ethics_philosophy: "Ethik & Philosophie",
     common_theme_opinion_debate: "Meinung & Debatte",
+
+    theme_numbers_100_999_A1: "Zahlen 100–999",
+    theme_numbers_1000_plus_A1: "Zahlen 1.000+",
+    theme_ordinal_numbers_A1: "Ordnungszahlen",
+    theme_fractions_A2: "Brüche",
+    theme_decimals_A2: "Dezimalzahlen",
+    theme_percentages_A2: "Prozentsätze",
+    theme_basic_arithmetic_A2: "Grundrechenarten",
+    theme_approximation_estimation_B1: "Näherung & Schätzung",
+    theme_mathematical_operations_B2: "Mathematische Operationen",
   },
   pt: {
     theme_all: "Todos os temas",
@@ -3465,6 +3535,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Modificadores e Intensificadores",
     common_theme_ethics_philosophy: "Ética e Filosofia",
     common_theme_opinion_debate: "Opinião e Debate",
+
+    theme_numbers_100_999_A1: "Números 100–999",
+    theme_numbers_1000_plus_A1: "Números 1.000+",
+    theme_ordinal_numbers_A1: "Números ordinais",
+    theme_fractions_A2: "Frações",
+    theme_decimals_A2: "Decimais",
+    theme_percentages_A2: "Percentagens",
+    theme_basic_arithmetic_A2: "Aritmética básica",
+    theme_approximation_estimation_B1: "Aproximação e estimativa",
+    theme_mathematical_operations_B2: "Operações matemáticas",
   },
   hy: {
     theme_all: "Բոլոր թեմաները",
@@ -3503,6 +3583,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Աստիճան և ինտենսիվություն",
     common_theme_ethics_philosophy: "Էթիկա և փիլիսոփայություն",
     common_theme_opinion_debate: "Կարծիք և բանավեճ",
+
+    theme_numbers_100_999_A1: "Թվեր 100–999",
+    theme_numbers_1000_plus_A1: "Թվեր 1,000+",
+    theme_ordinal_numbers_A1: "Դասական թվականներ",
+    theme_fractions_A2: "Կոտորակներ",
+    theme_decimals_A2: "Տասնորդականներ",
+    theme_percentages_A2: "Տոկոսներ",
+    theme_basic_arithmetic_A2: "Պարզ թվաբանություն",
+    theme_approximation_estimation_B1: "Մոտավորություն և գնահատում",
+    theme_mathematical_operations_B2: "Մաթեմատիկական գործողություններ",
   },
   ka: {
     theme_all: "ყველა თემა",
@@ -3541,6 +3631,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "ხარისხი და ინტენსივობა",
     common_theme_ethics_philosophy: "ეთიკა და ფილოსოფია",
     common_theme_opinion_debate: "აზრი და დებატები",
+
+    theme_numbers_100_999_A1: "რიცხვები 100–999",
+    theme_numbers_1000_plus_A1: "რიცხვები 1,000+",
+    theme_ordinal_numbers_A1: "რიგობითი რიცხვები",
+    theme_fractions_A2: "წილადები",
+    theme_decimals_A2: "ათწილადები",
+    theme_percentages_A2: "პროცენტები",
+    theme_basic_arithmetic_A2: "ძირითადი არითმეტიკა",
+    theme_approximation_estimation_B1: "მიახლოება და შეფასება",
+    theme_mathematical_operations_B2: "მათემატიკური ოპერაციები",
   },
   tt: {
     theme_all: "Барлык темалар",
@@ -3579,6 +3679,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Дәрәҗә һәм интенсивлык",
     common_theme_ethics_philosophy: "Этика һәм философия",
     common_theme_opinion_debate: "Фикер һәм дебатлар",
+
+    theme_numbers_100_999_A1: "Саннар 100–999",
+    theme_numbers_1000_plus_A1: "Саннар 1,000+",
+    theme_ordinal_numbers_A1: "Тәртип саннары",
+    theme_fractions_A2: "Вакланмалар",
+    theme_decimals_A2: "Унлы вакланмалар",
+    theme_percentages_A2: "Процентлар",
+    theme_basic_arithmetic_A2: "Төп арифметика",
+    theme_approximation_estimation_B1: "Якыնча исәпләү",
+    theme_mathematical_operations_B2: "Математик операцияләр",
   },
   ba: {
     theme_all: "Барлыҡ темалар",
@@ -3617,6 +3727,16 @@ const translations = {
     common_theme_modifiers_intensifiers: "Дәрәжә һәм интенсивлыҡ",
     common_theme_ethics_philosophy: "Этика һәм философия",
     common_theme_opinion_debate: "Фикер һәм дебаттар",
+
+    theme_numbers_100_999_A1: "Һандар 100–999",
+    theme_numbers_1000_plus_A1: "Һандар 1,000+",
+    theme_ordinal_numbers_A1: "Рәт һανдары",
+    theme_fractions_A2: "Вакланмалар",
+    theme_decimals_A2: "Унлы вакланмалар",
+    theme_percentages_A2: "Проценттар",
+    theme_basic_arithmetic_A2: "Төп арифметика",
+    theme_approximation_estimation_B1: "Яҡынса иҫәпләү",
+    theme_mathematical_operations_B2: "Математик операциялар",
   },
   br: {
     theme_all: "An holl danvezioù",
@@ -3655,5 +3775,15 @@ const translations = {
     common_theme_modifiers_intensifiers: "Derezioù & Kreñvaat",
     common_theme_ethics_philosophy: "Etika & Prederouriezh",
     common_theme_opinion_debate: "Ali & Tabut",
+
+    theme_numbers_100_999_A1: "Niveroù 100–999",
+    theme_numbers_1000_plus_A1: "Niveroù 1 000+",
+    theme_ordinal_numbers_A1: "Niveroù urzhiañ",
+    theme_fractions_A2: "Ranngemerioù",
+    theme_decimals_A2: "Dekvedennoù",
+    theme_percentages_A2: "Dregantadoù",
+    theme_basic_arithmetic_A2: "Arithmetikoù diazez",
+    theme_approximation_estimation_B1: "Tostadur & istimadur",
+    theme_mathematical_operations_B2: "Oberiadurioù matematikel",
   }
 };
