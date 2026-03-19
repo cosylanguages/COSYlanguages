@@ -148,7 +148,7 @@ function populateThemes(categoryId) {
         populateSubThemes();
         return;
     } else {
-        // Fallback or speaking
+        // Fallback for categories not yet using hierarchical themes (e.g. legacy vocab lists)
         const vd = vocabularyData[lang] || [];
         const availableThemes = new Set();
         vd.forEach(item => {

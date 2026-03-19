@@ -51,6 +51,13 @@ const themeConfig = {
                 "routine_A1": "Daily routine"
             },
             "personal_identity": {
+                "nationality_country_A0": "Nationality & country",
+                "age_A0": "Age",
+                "marital_status_A0": "Marital status",
+                "occupation_job_A0": "Occupation & job title",
+                "address_location_A1": "Address & location",
+                "contact_details_A1": "Contact details",
+                "physical_appearance_A1": "Physical appearance",
                 "social_life_A1": "Social life"
             },
             "family_relationships": {
@@ -111,7 +118,8 @@ const themeConfig = {
                 "basic_arithmetic_A2": "Basic arithmetic"
             },
             "personal_identity": {
-                "personality_A2": "Describing personality"
+                "personality_character_A2": "Personality & character",
+                "interests_hobbies_A2": "Interests & hobbies"
             },
             "family_relationships": {
                 "relationships_family_A2": "Relationships & family"
@@ -165,6 +173,9 @@ const themeConfig = {
             "numbers_math": {
                 "approximation_estimation_B1": "Approximation & estimation"
             },
+            "personal_identity": {
+                "values_beliefs_B1": "Values & beliefs"
+            },
             "health_body": {
                 "mental_health_B1": "Mental health"
             },
@@ -214,6 +225,9 @@ const themeConfig = {
             "numbers_math": {
                 "mathematical_operations_B2": "Mathematical operations"
             },
+            "personal_identity": {
+                "identity_self_concept_B2": "Identity & self-concept"
+            },
             "health_body": {
                 "healthcare_systems_B2": "Healthcare systems"
             },
@@ -253,7 +267,7 @@ const themeConfig = {
                 "mathematical_operations_B2": "Mathematical operations"
             },
             "personal_identity": {
-                "identity_self_C1": "Identity & the self"
+                "social_identity_belonging_C1": "Social identity & belonging"
             },
             "health_body": {
                 "psychological_concepts_C1": "Psychological concepts"
