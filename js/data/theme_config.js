@@ -61,7 +61,9 @@ const themeConfig = {
                 "social_life_A1": "Social life"
             },
             "family_relationships": {
-                "family_A0": "Family members"
+                "immediate_family_A0": "Immediate family members",
+                "extended_family_A1": "Extended family members",
+                "family_life_A1": "Family life & routines"
             },
             "home_living": {
                 "home_A0": "The home (rooms & furniture)",
@@ -122,7 +124,8 @@ const themeConfig = {
                 "interests_hobbies_A2": "Interests & hobbies"
             },
             "family_relationships": {
-                "relationships_family_A2": "Relationships & family"
+                "relationships_dating_A2": "Relationships & dating",
+                "marriage_partnership_A2": "Marriage & partnership"
             },
             "home_living": {
                 "property_A2": "Renting & buying property",
@@ -203,8 +206,8 @@ const themeConfig = {
                 "equality_rights_B1": "Equality & rights (basic)"
             },
             "family_relationships": {
-                "parenting_family_B1": "Parenting & family decisions",
-                "relationships_communication_B1": "Relationships & communication"
+                "parenting_childcare_B1": "Parenting & childcare",
+                "family_dynamics_B1": "Family dynamics & conflict"
             },
             "opinion_debate": {
                 "opinion_debate_B1": "Opinion & debate vocabulary"
@@ -230,6 +233,10 @@ const themeConfig = {
             },
             "health_body": {
                 "healthcare_systems_B2": "Healthcare systems"
+            },
+            "family_relationships": {
+                "ageing_eldercare_B2": "Ageing & eldercare",
+                "family_structure_B2": "Family structure & society"
             },
             "home_living": {
                 "housing_urban_B2": "Housing & urban development"
@@ -272,6 +279,9 @@ const themeConfig = {
             "health_body": {
                 "psychological_concepts_C1": "Psychological concepts"
             },
+            "family_relationships": {
+                "intergenerational_issues_C1": "Intergenerational issues"
+            },
             "work_employment": {
                 "work_culture_C1": "Work culture & organisational psychology"
             },
@@ -284,7 +294,6 @@ const themeConfig = {
             },
             "society_politics": {
                 "power_institutions_C1": "Power, institutions & ideology",
-                "intergenerational_issues_C1": "Intergenerational issues",
                 "sociology_structures_C1": "Sociology & social structures"
             },
             "language_communication": {
