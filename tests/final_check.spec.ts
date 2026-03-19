@@ -14,7 +14,14 @@ test('Practice Mode filtering by level and theme', async ({ page }) => {
 
     // Select Level and Theme
     await page.selectOption('#practice-level', 'elementary');
-    await page.selectOption('#practice-theme', 'food_nutrition_A2');
+
+    // Wait for the common themes to be populated and select one
+    await page.waitForSelector('#practice-theme option[value="food_drink"]');
+    await page.selectOption('#practice-theme', 'food_drink');
+
+    // Wait for the sub-themes to be populated and select one
+    await page.waitForSelector('#practice-sub-theme option[value="food_nutrition_A2"]');
+    await page.selectOption('#practice-sub-theme', 'food_nutrition_A2');
 
     // Start Practice
     await page.click('#start-btn');

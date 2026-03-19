@@ -92,6 +92,10 @@ function populateThemes(categoryId) {
     const t = translations[lang] || translations['en'];
 
     themeSelect.innerHTML = '';
+    const subThemeSelect = document.getElementById('practice-sub-theme');
+    const subThemeGroup = document.querySelector('.sub-theme-group');
+    if (subThemeSelect) subThemeSelect.innerHTML = '';
+    if (subThemeGroup) subThemeGroup.style.display = 'none';
 
     // Add "All Themes"
     const allOpt = document.createElement('option');
@@ -132,72 +136,33 @@ function populateThemes(categoryId) {
         Array.from(availableThemes).sort().forEach(val => {
             themes.push({ value: val, key: 'theme_' + val });
         });
+    } else if (categoryId === 'vocab' && typeof themeConfig !== 'undefined') {
+        // Show all 26 common themes for vocab regardless of level
+        COMMON_THEMES.forEach(ct => {
+            const opt = document.createElement('option');
+            opt.value = ct.id;
+            opt.textContent = t[ct.label] || ct.id;
+            opt.setAttribute('data-translate-key', ct.label);
+            themeSelect.appendChild(opt);
+        });
+        populateSubThemes();
+        return;
     } else {
-        // vocab
+        // Fallback for categories not yet using hierarchical themes (e.g. legacy vocab lists)
         const vd = vocabularyData[lang] || [];
         const availableThemes = new Set();
-
-        if (typeof themeConfig !== 'undefined') {
-            if (selectedLevel === 'all') {
-                Object.values(themeConfig).forEach(lv => {
-                    if (lv.themes) Object.keys(lv.themes).forEach(t => availableThemes.add(t));
-                    if (lv.A0) Object.keys(lv.A0.themes).forEach(t => availableThemes.add(t));
-                    if (lv.A1) Object.keys(lv.A1.themes).forEach(t => availableThemes.add(t));
-                });
-            } else {
-                const config = themeConfig[selectedLevel];
-                if (config) {
-                    if (config.themes) Object.keys(config.themes).forEach(t => availableThemes.add(t));
-                    if (config.A0) Object.keys(config.A0.themes).forEach(t => availableThemes.add(t));
-                    if (config.A1) Object.keys(config.A1.themes).forEach(t => availableThemes.add(t));
-                }
-            }
-        }
-
         vd.forEach(item => {
             if (selectedLevel === 'all' || item.level === selectedLevel) {
                 if (item.theme) availableThemes.add(item.theme);
             }
         });
-
-        const themeList = Array.from(availableThemes).sort();
-        const groups = {
-            'numbers': { label: 'Numbers', themes: themeList.filter(th => th.startsWith('numbers_')), randomKey: 'numbers_all' },
-            'places': { label: 'Places', themes: themeList.filter(th => th.startsWith('places_')), randomKey: 'places_all' }
-        };
-        const groupedSet = new Set([...groups.numbers.themes, ...groups.places.themes]);
-
-        // Ungrouped
-        themeList.filter(th => !groupedSet.has(th)).forEach(th => {
+        Array.from(availableThemes).sort().forEach(th => {
             const opt = document.createElement('option');
             opt.value = th;
             opt.textContent = t['theme_' + th] || th;
             opt.setAttribute('data-translate-key', 'theme_' + th);
             themeSelect.appendChild(opt);
         });
-
-        // Grouped
-        for (const [key, group] of Object.entries(groups)) {
-            if (group.themes.length > 0) {
-                const optgroup = document.createElement('optgroup');
-                optgroup.label = group.label;
-
-                const randomOpt = document.createElement('option');
-                randomOpt.value = group.randomKey;
-                randomOpt.textContent = `Random ${group.label}`;
-                optgroup.appendChild(randomOpt);
-
-                group.themes.forEach(th => {
-                    const opt = document.createElement('option');
-                    opt.value = th;
-                    opt.textContent = t['theme_' + th] || th;
-                    opt.setAttribute('data-translate-key', 'theme_' + th);
-                    optgroup.appendChild(opt);
-                });
-                themeSelect.appendChild(optgroup);
-            }
-        }
-        return; // Already populated
     }
 
     themes.forEach(th => {
@@ -211,8 +176,56 @@ function populateThemes(categoryId) {
     updateThemeDescription();
 }
 
+function populateSubThemes() {
+    const themeSelect = document.getElementById('practice-theme');
+    const subThemeSelect = document.getElementById('practice-sub-theme');
+    const subThemeGroup = document.querySelector('.sub-theme-group');
+    const levelSelect = document.getElementById('practice-level');
+
+    if (!themeSelect || !subThemeSelect || !subThemeGroup || !levelSelect) return;
+
+    const lang = currentPractice.language;
+    const t = translations[lang] || translations['en'];
+    const selectedLevel = levelSelect.value;
+    const selectedTheme = themeSelect.value;
+
+    subThemeSelect.innerHTML = '';
+
+    if (selectedTheme === 'all' || selectedLevel === 'all') {
+        subThemeGroup.style.display = 'none';
+        updateThemeDescription();
+        return;
+    }
+
+    const config = themeConfig[selectedLevel];
+    if (config && config.common_themes && config.common_themes[selectedTheme]) {
+        subThemeGroup.style.display = 'block';
+
+        // Add "All Sub-Themes"
+        const allOpt = document.createElement('option');
+        allOpt.value = 'all';
+        allOpt.textContent = t['theme_all'] || 'All Themes';
+        allOpt.setAttribute('data-translate-key', 'theme_all');
+        subThemeSelect.appendChild(allOpt);
+
+        const subThemes = config.common_themes[selectedTheme];
+        Object.entries(subThemes).forEach(([id, label]) => {
+            const opt = document.createElement('option');
+            opt.value = id;
+            opt.textContent = t['theme_' + id] || label;
+            opt.setAttribute('data-translate-key', 'theme_' + id);
+            subThemeSelect.appendChild(opt);
+        });
+    } else {
+        subThemeGroup.style.display = 'none';
+    }
+
+    updateThemeDescription();
+}
+
 function updateThemeDescription() {
     const themeSelect = document.getElementById('practice-theme');
+    const subThemeSelect = document.getElementById('practice-sub-theme');
     const levelSelect = document.getElementById('practice-level');
     const descEl = document.getElementById('theme-description');
     if (!themeSelect || !levelSelect || !descEl) return;
@@ -237,9 +250,9 @@ function updateThemeDescription() {
 
     let descKey = mapping[level];
 
-    // For starter, show A0 description if an A0 theme (or 'all') is selected, else A1
+    // For starter, show A0 description if an A0 theme is selected, else A1
     if (level === 'starter') {
-        if (themeSelect.value.endsWith('_A1')) {
+        if (subThemeSelect && subThemeSelect.value.endsWith('_A1')) {
             descKey = 'desc_a1';
         } else {
             descKey = 'desc_a0';
@@ -544,22 +557,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeSelect = document.getElementById('practice-theme');
     if (themeSelect) {
         themeSelect.addEventListener('change', () => {
-            updateThemeDescription();
+            populateSubThemes();
             const val = themeSelect.value;
             const lang = currentPractice.language;
             let msg = null;
 
-            if (val === 'numbers' || val.startsWith('numbers_')) {
+            if (val === 'numbers_math' || val.startsWith('numbers_')) {
                 msg = (translations[lang] && translations[lang]['bingo_suggestion']) || "Tip: You can also practice numbers playing Bingo in the Events section! 🎲";
-            } else if (['profession', 'family', 'animal'].includes(val) || val.startsWith('family_') || val.startsWith('jobs_')) {
+            } else if (['personal_identity', 'family_relationships'].includes(val)) {
                 msg = (translations[lang] && translations[lang]['guess_who_suggestion']) || "Tip: You can also practice these words playing Identity Mystery in the Events section! 👤";
-            } else if (['daily_life', 'food_drinks', 'travel_places', 'leisure_hobbies', 'science_technology', 'health_body', 'country', 'city', 'nature_environment'].includes(val) || val.startsWith('food_') || val.startsWith('home_') || val.startsWith('transport_') || val.startsWith('weather_') || val.startsWith('shopping_') || val.startsWith('technology_')) {
+            } else if (['home_living', 'food_drink', 'transport_travel', 'shopping_money', 'technology_media', 'environment_nature', 'places_geography'].includes(val)) {
                 msg = (translations[lang] && translations[lang]['guess_what_suggestion']) || "Tip: You can also practice these words playing Object Quest in the Events section! 📦";
             }
 
             if (msg) {
                 window.gameUtils.showGameMessage('setup-section', msg);
             }
+        });
+    }
+
+    const subThemeSelect = document.getElementById('practice-sub-theme');
+    if (subThemeSelect) {
+        subThemeSelect.addEventListener('change', () => {
+            updateThemeDescription();
         });
     }
     window.updateCategoryUI(); // Initial call
@@ -1069,6 +1089,7 @@ function startPractice(isWheelMode = false) {
     const urlParams = new URLSearchParams(window.location.search);
     const selectedLevel = urlParams.get('level') || document.getElementById('practice-level').value;
     const selectedTheme = urlParams.get('theme') || document.getElementById('practice-theme').value;
+    const selectedSubTheme = urlParams.get('subTheme') || document.getElementById('practice-sub-theme').value;
 
     currentPractice.words = [];
 
@@ -1140,15 +1161,15 @@ function startPractice(isWheelMode = false) {
                 addNum(i, 'numbers_20_99_A0');
                 if (i >= 30 && i < 90) addNum(i+5, 'numbers_20_99_A0'); // Add some non-round ones
             }
-            // 100+ Procedural
+            // 100-999 Procedural
             for(let i=0; i<20; i++) {
                 const n = Math.floor(Math.random() * 900) + 100;
-                addNum(n, 'numbers_100_plus_A1', 'starter');
+                addNum(n, 'numbers_100_999_A1', 'starter');
             }
-            // 1000+ Procedural
+            // 1,000+ Procedural
             for(let i=0; i<20; i++) {
                 const n = Math.floor(Math.random() * 9000) + 1000;
-                addNum(n, 'numbers_1000_plus_A2', 'elementary');
+                addNum(n, 'numbers_1000_plus_A1', 'starter');
             }
         }
     }
@@ -1159,11 +1180,35 @@ function startPractice(isWheelMode = false) {
     }
 
     if (selectedTheme !== 'all') {
-        rawItems = rawItems.filter(item => {
-            if (selectedTheme === 'numbers_all') return item.theme.startsWith('numbers_');
-            if (selectedTheme === 'places_all') return item.theme.startsWith('places_');
-            return (item.theme === selectedTheme || item.originalTheme === selectedTheme);
-        });
+        if (selectedTheme === 'numbers_math') {
+            rawItems = rawItems.filter(item => item.theme.startsWith('numbers_') || item.theme.startsWith('fractions_') || item.theme.startsWith('decimals_') || item.theme.startsWith('percentages_') || item.theme.startsWith('basic_arithmetic_') || item.theme.startsWith('approximation_') || item.theme.startsWith('mathematical_'));
+        } else if (selectedSubTheme && selectedSubTheme !== 'all' && selectedSubTheme !== '') {
+            rawItems = rawItems.filter(item => (item.theme === selectedSubTheme || item.originalTheme === selectedSubTheme));
+        } else {
+            // Filter by any sub-theme belonging to the common theme
+            const config = themeConfig[selectedLevel];
+            if (config && config.common_themes && config.common_themes[selectedTheme]) {
+                const subThemes = Object.keys(config.common_themes[selectedTheme]);
+                rawItems = rawItems.filter(item => subThemes.includes(item.theme) || subThemes.includes(item.originalTheme));
+            } else if (selectedLevel === 'all') {
+                // If level is "all", filter by theme across all levels
+                const allSubThemes = [];
+                Object.values(themeConfig).forEach(lv => {
+                    if (lv.common_themes && lv.common_themes[selectedTheme]) {
+                        allSubThemes.push(...Object.keys(lv.common_themes[selectedTheme]));
+                    }
+                });
+                if (allSubThemes.length > 0) {
+                    rawItems = rawItems.filter(item => allSubThemes.includes(item.theme) || allSubThemes.includes(item.originalTheme));
+                } else {
+                    // Fallback for simple string themes (e.g. Speaking category)
+                    rawItems = rawItems.filter(item => (item.theme === selectedTheme || item.originalTheme === selectedTheme));
+                }
+            } else {
+                // Fallback for categories not yet using the new common themes structure
+                rawItems = rawItems.filter(item => (item.theme === selectedTheme || item.originalTheme === selectedTheme));
+            }
+        }
     }
 
     if (rawItems.length === 0) {
