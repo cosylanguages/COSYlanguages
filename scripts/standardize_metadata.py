@@ -26,12 +26,26 @@ THEME_MAP = {
     "science_philosophy": "science_technology"
 }
 
+def get_js_obj(content, start_marker):
+    start_idx = content.find(start_marker)
+    if start_idx == -1: return None
+    start_idx += len(start_marker)
+    brace_count = 0
+    for i in range(start_idx, len(content)):
+        if content[i] == '{':
+            brace_count += 1
+        elif content[i] == '}':
+            brace_count -= 1
+            if brace_count == 0:
+                return content[start_idx:i+1]
+    return None
+
 def standardize(file_path, obj_name, is_verbs=False):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
         if is_verbs:
-            match = re.search(r'const verbsData = (\{.*?\});', content, re.DOTALL)
-            data = json.loads(match.group(1))
+            json_str = get_js_obj(content, 'const verbsData = ')
+            data = json.loads(json_str)
         else:
             # More robust extraction for cases like speaking.js that might have window assignment
             match = re.search(rf'const {obj_name} = (\{{.*?\}});\s*(window\.{obj_name}|(?=$))', content, re.DOTALL)

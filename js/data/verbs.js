@@ -3572,17 +3572,17 @@
         "tt": [],
         "ba": [],
         "br": []
-}
+};
 
     if (window.vocabularyData) {
         for (let lang in verbsData) {
             if (window.vocabularyData[lang]) {
-                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...verbsData[lang]]
+                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...verbsData[lang]];
             } else {
-                window.vocabularyData[lang] = verbsData[lang]
+                window.vocabularyData[lang] = verbsData[lang];
             }
         }
     }
 
-    window.verbsData = verbsData
+    window.verbsData = verbsData;
 })();

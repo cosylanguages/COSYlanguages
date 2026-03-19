@@ -12670,5 +12670,5 @@ const vocabularyData = {
             ]
         }
     ]
-}
+};
 window.vocabularyData = vocabularyData;
