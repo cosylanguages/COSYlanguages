@@ -66,8 +66,10 @@ const themeConfig = {
                 "family_life_A1": "Family life & routines"
             },
             "home_living": {
-                "home_A0": "The home (rooms & furniture)",
-                "home_A1": "The home (rent, flat, house, kitchen, clean)"
+                "home_rooms_A0": "Rooms of a home",
+                "home_furniture_A0": "Furniture & objects",
+                "accommodation_types_A1": "Types of accommodation",
+                "household_tasks_A1": "Household tasks"
             },
             "food_drink": {
                 "food_drink_A0": "Food & drink",
@@ -128,8 +130,10 @@ const themeConfig = {
                 "marriage_partnership_A2": "Marriage & partnership"
             },
             "home_living": {
-                "property_A2": "Renting & buying property",
-                "neighbourhood_A2": "The neighbourhood & community"
+                "renting_landlords_A2": "Renting & landlords",
+                "home_repairs_A2": "Home repairs & maintenance",
+                "neighbourhood_A2": "Neighbourhood & local area",
+                "moving_home_A2": "Moving home"
             },
             "food_drink": {
                 "food_nutrition_A2": "Food, diet & nutrition"
@@ -213,7 +217,7 @@ const themeConfig = {
                 "opinion_debate_B1": "Opinion & debate vocabulary"
             },
             "home_living": {
-                "housing_mortgages_B1": "Housing & mortgages"
+                "buying_property_B1": "Buying a property"
             },
             "time": {
                 "tenses_time_B1": "Tenses & time reference",
@@ -239,7 +243,7 @@ const themeConfig = {
                 "family_structure_B2": "Family structure & society"
             },
             "home_living": {
-                "housing_urban_B2": "Housing & urban development"
+                "housing_society_B2": "Housing & society"
             },
             "technology_media": {
                 "technology_privacy_B2": "Technology & privacy",
