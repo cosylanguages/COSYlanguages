@@ -73,7 +73,7 @@ const speakingData = {
                 "text": "Life is what happens when you're busy making other plans.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "relationships_family_A2"
+                "theme": "relationships_dating_A2"
             },
             {
                 "text": "The only constant is change.",
@@ -180,10 +180,10 @@ const speakingData = {
             {"topic": "Spending money on experiences vs on things — which makes you happier?", "sideA": "Experiences", "sideB": "Things", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Cooking every day vs meal prepping once a week — which is more practical?", "sideA": "Daily cooking", "sideB": "Meal prepping", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
             {"topic": "Having a cleaner vs doing your own housework — which is a better choice?", "sideA": "Cleaner", "sideB": "Do it yourself", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Living with a partner vs living alone — which is better for adults?", "sideA": "With partner", "sideB": "Alone", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Having children early vs having children later in life — which is better?", "sideA": "Early", "sideB": "Later", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Close family relationships vs independence from family — which is more important as an adult?", "sideA": "Close relationships", "sideB": "Independence", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Meeting new people vs keeping old friendships — which is more valuable?", "sideA": "New people", "sideB": "Old friends", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Living with a partner vs living alone — which is better for adults?", "sideA": "With partner", "sideB": "Alone", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Having children early vs having children later in life — which is better?", "sideA": "Early", "sideB": "Later", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Close family relationships vs independence from family — which is more important as an adult?", "sideA": "Close relationships", "sideB": "Independence", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Meeting new people vs keeping old friendships — which is more valuable?", "sideA": "New people", "sideB": "Old friends", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Socialising after work vs going straight home — which is better for work relationships?", "sideA": "Socialising", "sideB": "Going home", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Going to the gym vs exercising outdoors — which is better for adults?", "sideA": "Gym", "sideB": "Outdoors", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Strict diet vs eating everything in moderation — which is healthier?", "sideA": "Strict diet", "sideB": "Moderation", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -198,9 +198,9 @@ const speakingData = {
             {"topic": "City break vs beach holiday — which is a better way to relax?", "sideA": "City break", "sideB": "Beach holiday", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "One long holiday a year vs several short breaks — which is better?", "sideA": "One long", "sideB": "Several short", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Travelling as a couple vs travelling alone — which is more enjoyable?", "sideA": "As a couple", "sideB": "Alone", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Telling your partner about every small problem vs keeping things to yourself — which is healthier?", "sideA": "Telling all", "sideB": "Keeping to self", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Telling your partner about every small problem vs keeping things to yourself — which is healthier?", "sideA": "Telling all", "sideB": "Keeping to self", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Checking your phone first thing in the morning vs waiting until after breakfast — which is a better habit?", "sideA": "First thing", "sideB": "After breakfast", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Knowing your neighbours' names vs not knowing them — which is the more normal adult experience today?", "sideA": "Knowing names", "sideB": "Not knowing", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Knowing your neighbours' names vs not knowing them — which is the more normal adult experience today?", "sideA": "Knowing names", "sideB": "Not knowing", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Grocery shopping with a list vs without a list — which type of person has a better life?", "sideA": "With list", "sideB": "Without list", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Telling your boss you are sick vs going to work sick — which is the braver choice?", "sideA": "Telling boss", "sideB": "Going sick", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Remote work vs office work — which is better for productivity and wellbeing?", "sideA": "Remote", "sideB": "Office", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
@@ -262,10 +262,10 @@ const speakingData = {
             {"topic": "A job you love vs a job that pays well — which is more important?", "sideA": "Job you love", "sideB": "Pays well", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Working with other people vs working alone — which is better?", "sideA": "With people", "sideB": "Alone", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "A short commute vs a long commute — which is more acceptable?", "sideA": "Short", "sideB": "Long", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Living alone vs living with a partner — which is better?", "sideA": "Alone", "sideB": "Partner", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Living alone vs living with a partner — which is better?", "sideA": "Alone", "sideB": "Partner", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Big city vs small town — which is a better place to live as an adult?", "sideA": "Big city", "sideB": "Small town", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Cooking at home vs eating out — which is better for daily life?", "sideA": "At home", "sideB": "Eating out", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Having children vs not having children — which life is better?", "sideA": "Children", "sideB": "No children", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Having children vs not having children — which life is better?", "sideA": "Children", "sideB": "No children", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Renting a flat vs buying a house — which is better for young adults?", "sideA": "Renting", "sideB": "Buying", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Exercise every day vs rest — which is better for your health?", "sideA": "Exercise", "sideB": "Rest", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Going to the doctor vs waiting — which is better when you feel ill?", "sideA": "Doctor", "sideB": "Waiting", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -279,7 +279,7 @@ const speakingData = {
             {"topic": "Holidays with family vs holidays with friends — which is better?", "sideA": "Family", "sideB": "Friends", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Staying in your country vs travelling abroad — which is a better holiday?", "sideA": "Your country", "sideB": "Abroad", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Sport vs reading — which is a better hobby for adults?", "sideA": "Sport", "sideB": "Reading", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Seeing friends often vs having time alone — which is more important?", "sideA": "Friends", "sideB": "Alone", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Seeing friends often vs having time alone — which is more important?", "sideA": "Friends", "sideB": "Alone", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Replying to emails immediately vs leaving them for later — which is more professional?", "sideA": "Immediately", "sideB": "Later", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Doing the dishes immediately vs leaving them until tomorrow — which is better?", "sideA": "Immediately", "sideB": "Tomorrow", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Being always early vs always five minutes late — which is worse at work?", "sideA": "Early", "sideB": "Late", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
@@ -822,7 +822,7 @@ const speakingData = {
                 "sideA": "With family",
                 "sideB": "Alone",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -831,7 +831,7 @@ const speakingData = {
                 "sideA": "Brother",
                 "sideB": "Sister",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -840,7 +840,7 @@ const speakingData = {
                 "sideA": "Big family",
                 "sideB": "Small family",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -849,7 +849,7 @@ const speakingData = {
                 "sideA": "Oldest",
                 "sideB": "Youngest",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1458,7 +1458,7 @@ const speakingData = {
                 "sideA": "Many friends",
                 "sideB": "Close friends",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1467,7 +1467,7 @@ const speakingData = {
                 "sideA": "In person",
                 "sideB": "Online",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1476,7 +1476,7 @@ const speakingData = {
                 "sideA": "With parents",
                 "sideB": "Student flat",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1485,7 +1485,7 @@ const speakingData = {
                 "sideA": "Home",
                 "sideB": "Going out",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2007,7 +2007,7 @@ const speakingData = {
                 "sideA": "With grandparents",
                 "sideB": "Not living with them",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2214,7 +2214,7 @@ const speakingData = {
                 "sideA": "Giving",
                 "sideB": "Receiving",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -2403,7 +2403,7 @@ const speakingData = {
             {
                 "topic": "My favorite childhood memory",
                 "level": "starter",
-                "theme": "family_A0"
+                "theme": "immediate_family_A0"
             },
             {
                 "topic": "The last vacation I took",
@@ -2526,7 +2526,7 @@ const speakingData = {
                 "text": "La vie, c'est ce qui arrive quand on est occupé à faire d'autres projets.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "relationships_family_A2"
+                "theme": "relationships_dating_A2"
             },
             {
                 "text": "La seule constante est le changement.",
@@ -2633,10 +2633,10 @@ const speakingData = {
             {"topic": "Dépenser de l'argent pour des expériences vs pour des objets — qu'est-ce qui vous rend plus heureux ?", "sideA": "Expériences", "sideB": "Objets", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Cuisiner tous les jours vs préparer les repas une fois par semaine — qu'est-ce qui est le plus pratique ?", "sideA": "Cuisine quotidienne", "sideB": "Meal prepping", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
             {"topic": "Avoir une femme de ménage vs faire son propre ménage — quel est le meilleur choix ?", "sideA": "Ménage pro", "sideB": "Soi-même", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Vivre avec un partenaire vs vivre seul — qu'est-ce qui est mieux pour les adultes ?", "sideA": "Avec partenaire", "sideB": "Seul", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Avoir des enfants tôt vs avoir des enfants plus tard dans la vie — qu'est-ce qui est mieux ?", "sideA": "Tôt", "sideB": "Plus tard", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Relations familiales étroites vs indépendance vis-à-vis de la famille — qu'est-ce qui est le plus important à l'âge adulte ?", "sideA": "Relations étroites", "sideB": "Indépendance", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Rencontrer de nouvelles personnes vs garder d'anciennes amitiés — qu'est-ce qui a le plus de valeur ?", "sideA": "Nouvelles personnes", "sideB": "Anciens amis", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivre avec un partenaire vs vivre seul — qu'est-ce qui est mieux pour les adultes ?", "sideA": "Avec partenaire", "sideB": "Seul", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avoir des enfants tôt vs avoir des enfants plus tard dans la vie — qu'est-ce qui est mieux ?", "sideA": "Tôt", "sideB": "Plus tard", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Relations familiales étroites vs indépendance vis-à-vis de la famille — qu'est-ce qui est le plus important à l'âge adulte ?", "sideA": "Relations étroites", "sideB": "Indépendance", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Rencontrer de nouvelles personnes vs garder d'anciennes amitiés — qu'est-ce qui a le plus de valeur ?", "sideA": "Nouvelles personnes", "sideB": "Anciens amis", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Socialiser après le travail vs rentrer directement à la maison — qu'est-ce qui est mieux pour les relations de travail ?", "sideA": "Socialiser", "sideB": "Rentrer", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Aller à la salle de sport vs faire de l'exercice à l'extérieur — qu'est-ce qui est mieux pour les adultes ?", "sideA": "Salle de sport", "sideB": "Extérieur", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Régime strict vs manger de tout avec modération — qu'est-ce qui est plus sain ?", "sideA": "Régime strict", "sideB": "Modération", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -2651,9 +2651,9 @@ const speakingData = {
             {"topic": "Séjour en ville vs vacances à la plage — quelle est la meilleure façon de se détendre ?", "sideA": "Séjour en ville", "sideB": "Plage", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Une seule longue vacance par an vs plusieurs courts séjours — qu'est-ce qui est mieux ?", "sideA": "Une seule longue", "sideB": "Plusieurs courtes", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Voyager en couple vs voyager seul — qu'est-ce qui est le plus agréable ?", "sideA": "En couple", "sideB": "Seul", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Parler à son partenaire de chaque petit problème vs garder les choses pour soi — qu'est-ce qui est le plus sain ?", "sideA": "Tout dire", "sideB": "Garder pour soi", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Parler à son partenaire de chaque petit problème vs garder les choses pour soi — qu'est-ce qui est le plus sain ?", "sideA": "Tout dire", "sideB": "Garder pour soi", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Consulter son téléphone dès le matin vs attendre après le petit-déjeuner — quelle est la meilleure habitude ?", "sideA": "Dès le matin", "sideB": "Après petit-déj", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Connaître le nom de ses voisins vs ne pas les connaître — quelle est l'expérience adulte la plus normale aujourd'hui ?", "sideA": "Connaître", "sideB": "Ne pas connaître", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Connaître le nom de ses voisins vs ne pas les connaître — quelle est l'expérience adulte la plus normale aujourd'hui ?", "sideA": "Connaître", "sideB": "Ne pas connaître", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Faire les courses avec une liste vs sans liste — quel type de personne a une meilleure vie ?", "sideA": "Avec liste", "sideB": "Sans liste", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Dire à son patron qu'on est malade vs aller travailler malade — quel est le choix le plus courageux ?", "sideA": "Le dire", "sideB": "Aller travailler", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Télétravail vs travail de bureau — qu'est-ce qui est le mieux pour la productivité et le bien-être ?", "sideA": "Télétravail", "sideB": "Bureau", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
@@ -2715,10 +2715,10 @@ const speakingData = {
             {"topic": "Un travail qu'on aime vs un travail bien payé — qu'est-ce qui est le plus important ?", "sideA": "Travail aimé", "sideB": "Bien payé", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Travailler avec d'autres personnes vs travailler seul — qu'est-ce qui est mieux ?", "sideA": "Avec les autres", "sideB": "Seul", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Un trajet court vs un trajet long — qu'est-ce qui est le plus acceptable ?", "sideA": "Court", "sideB": "Long", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Vivre seul vs vivre avec un partenaire — qu'est-ce qui est mieux ?", "sideA": "Seul", "sideB": "Partenaire", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivre seul vs vivre avec un partenaire — qu'est-ce qui est mieux ?", "sideA": "Seul", "sideB": "Partenaire", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Grande ville vs petite ville — quel est le meilleur endroit pour vivre en tant qu'adulte ?", "sideA": "Grande ville", "sideB": "Petite ville", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Cuisiner à la maison vs manger à l'extérieur — qu'est-ce qui est mieux pour la vie quotidienne ?", "sideA": "À la maison", "sideB": "Extérieur", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Avoir des enfants vs ne pas avoir d'enfants — quelle vie est la meilleure ?", "sideA": "Enfants", "sideB": "Pas d'enfants", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avoir des enfants vs ne pas avoir d'enfants — quelle vie est la meilleure ?", "sideA": "Enfants", "sideB": "Pas d'enfants", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Louer un appartement vs acheter une maison — qu'est-ce qui est mieux pour les jeunes adultes ?", "sideA": "Louer", "sideB": "Acheter", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Faire de l'exercice tous les jours vs se reposer — qu'est-ce qui est mieux pour votre santé ?", "sideA": "Exercice", "sideB": "Repos", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Aller chez le médecin vs attendre — qu'est-ce qui est mieux quand on se sent malade ?", "sideA": "Médecin", "sideB": "Attendre", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -2732,7 +2732,7 @@ const speakingData = {
             {"topic": "Vacances en famille vs vacances entre amis — qu'est-ce qui est mieux ?", "sideA": "Famille", "sideB": "Amis", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Rester dans son pays vs voyager à l'étranger — quelles sont les meilleures vacances ?", "sideA": "Son pays", "sideB": "Étranger", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Le sport vs la lecture — quel est le meilleur passe-temps pour les adultes ?", "sideA": "Sport", "sideB": "Lecture", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Voir des amis souvent vs avoir du temps seul — qu'est-ce qui est le plus important ?", "sideA": "Amis", "sideB": "Seul", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Voir des amis souvent vs avoir du temps seul — qu'est-ce qui est le plus important ?", "sideA": "Amis", "sideB": "Seul", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Répondre aux e-mails immédiatement vs les laisser pour plus tard — qu'est-ce qui est le plus professionnel ?", "sideA": "Immédiatement", "sideB": "Plus tard", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Faire la vaisselle immédiatement vs la laisser jusqu'à demain — qu'est-ce qui est mieux ?", "sideA": "Immédiatement", "sideB": "Demain", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Être toujours en avance vs toujours cinq minutes en retard — qu'est-ce qui est pire au travail ?", "sideA": "En avance", "sideB": "En retard", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
@@ -3275,7 +3275,7 @@ const speakingData = {
                 "sideA": "En famille",
                 "sideB": "Seul",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3284,7 +3284,7 @@ const speakingData = {
                 "sideA": "Frère",
                 "sideB": "Sœur",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3293,7 +3293,7 @@ const speakingData = {
                 "sideA": "Grande",
                 "sideB": "Petite",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3302,7 +3302,7 @@ const speakingData = {
                 "sideA": "Aîné",
                 "sideB": "Cadet",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3911,7 +3911,7 @@ const speakingData = {
                 "sideA": "Beaucoup",
                 "sideB": "Amis proches",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3920,7 +3920,7 @@ const speakingData = {
                 "sideA": "En personne",
                 "sideB": "En ligne",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3929,7 +3929,7 @@ const speakingData = {
                 "sideA": "Parents",
                 "sideB": "Appartement étudiant",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -3938,7 +3938,7 @@ const speakingData = {
                 "sideA": "Maison",
                 "sideB": "Sortir",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4460,7 +4460,7 @@ const speakingData = {
                 "sideA": "Avec les grands-parents",
                 "sideB": "Sans les grands-parents",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4667,7 +4667,7 @@ const speakingData = {
                 "sideA": "Offrir",
                 "sideB": "Recevoir",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -4856,7 +4856,7 @@ const speakingData = {
             {
                 "topic": "Mon souvenir d'enfance préféré",
                 "level": "starter",
-                "theme": "family_A0"
+                "theme": "immediate_family_A0"
             },
             {
                 "topic": "Les dernières vacances que j'ai prises",
@@ -4979,7 +4979,7 @@ const speakingData = {
                 "text": "La vita è quello che ti succede mentre sei occupato a fare altri progetti.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "relationships_family_A2"
+                "theme": "relationships_dating_A2"
             },
             {
                 "text": "L'unica costante è il cambiamento.",
@@ -5086,10 +5086,10 @@ const speakingData = {
             {"topic": "Spendere soldi per esperienze vs per oggetti — cosa ti rende più felice?", "sideA": "Esperienze", "sideB": "Oggetti", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Cucinare ogni giorno vs preparare i pasti una volta a settimana — cosa è più pratico?", "sideA": "Cucinare ogni giorno", "sideB": "Meal prepping", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
             {"topic": "Avere una persona per le pulizie vs fare le pulizie da soli — qual è la scelta migliore?", "sideA": "Pulizie pro", "sideB": "Da soli", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Vivere con un partner vs vivere da soli — cosa è meglio per gli adulti?", "sideA": "Con partner", "sideB": "Da soli", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Avere figli presto vs avere figli più tardi nella vita — cosa è meglio?", "sideA": "Presto", "sideB": "Più tardi", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Legami familiari stretti vs indipendenza dalla famiglia — cosa è più importante da adulti?", "sideA": "Legami stretti", "sideB": "Indipendenza", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Incontrare nuove persone vs mantenere le vecchie amicizie — cosa ha più valore?", "sideA": "Nuove persone", "sideB": "Vecchi amici", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivere con un partner vs vivere da soli — cosa è meglio per gli adulti?", "sideA": "Con partner", "sideB": "Da soli", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avere figli presto vs avere figli più tardi nella vita — cosa è meglio?", "sideA": "Presto", "sideB": "Più tardi", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Legami familiari stretti vs indipendenza dalla famiglia — cosa è più importante da adulti?", "sideA": "Legami stretti", "sideB": "Indipendenza", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Incontrare nuove persone vs mantenere le vecchie amicizie — cosa ha più valore?", "sideA": "Nuove persone", "sideB": "Vecchi amici", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Socializzare dopo il lavoro vs tornare direttamente a casa — cosa è meglio per le relazioni lavorative?", "sideA": "Socializzare", "sideB": "Tornare a casa", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Andare in palestra vs fare esercizio all'aperto — cosa è meglio per gli adulti?", "sideA": "Palestra", "sideB": "All'aperto", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Dieta ferrea vs mangiare tutto con moderazione — cosa è più sano?", "sideA": "Dieta ferrea", "sideB": "Moderazione", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -5104,9 +5104,9 @@ const speakingData = {
             {"topic": "Soggiorno in città vs vacanza al mare — qual è il modo migliore per rilassarsi?", "sideA": "Città", "sideB": "Mare", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Una vacanza lunga all'anno vs diversi brevi soggiorni — cosa è meglio?", "sideA": "Una lunga", "sideB": "Diverse brevi", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Viaggiare in coppia vs viaggiare da soli — cosa è più piacevole?", "sideA": "In coppia", "sideB": "Da soli", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé — cosa è più sano?", "sideA": "Raccontare tutto", "sideB": "Tenere per sé", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Raccontare ogni piccolo problema al partner vs tenere le cose per sé — cosa è più sano?", "sideA": "Raccontare tutto", "sideB": "Tenere per sé", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Controllare il telefono appena svegli vs aspettare dopo colazione — quale è un'abitudine migliore?", "sideA": "Appena svegli", "sideB": "Dopo colazione", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Conoscere il nome dei vicini vs non conoscerli — qual è l'esperienza adulta più normale oggi?", "sideA": "Conoscerli", "sideB": "Non conoscerli", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Conoscere il nome dei vicini vs non conoscerli — qual è l'esperienza adulta più normale oggi?", "sideA": "Conoscerli", "sideB": "Non conoscerli", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Fare la spesa con una lista vs senza lista — quale tipo di persona vive meglio?", "sideA": "Con lista", "sideB": "Senza lista", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Dire al capo che sei malato vs andare al lavoro malato — quale è la scelta più coraggiosa?", "sideA": "Dirlo", "sideB": "Andare malato", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Lavoro da remoto vs lavoro in ufficio — cosa è meglio per produttività e benessere?", "sideA": "Remoto", "sideB": "Ufficio", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
@@ -5168,10 +5168,10 @@ const speakingData = {
             {"topic": "Un lavoro che ami vs un lavoro che paga bene — cosa è più importante?", "sideA": "Lavoro amato", "sideB": "Paga bene", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Lavorare con altre persone vs lavorare da soli — cosa è meglio?", "sideA": "Con altri", "sideB": "Da soli", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Un tragitto breve vs un tragitto lungo — cosa è più accettabile?", "sideA": "Breve", "sideB": "Lungo", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Vivere da soli vs vivere con un partner — cosa è meglio?", "sideA": "Da soli", "sideB": "Partner", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vivere da soli vs vivere con un partner — cosa è meglio?", "sideA": "Da soli", "sideB": "Partner", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Grande città vs piccola città — qual è il posto migliore dove vivere da adulti?", "sideA": "Grande città", "sideB": "Piccola città", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Cucinare a casa vs mangiare fuori — cosa è meglio per la vita quotidiana?", "sideA": "A casa", "sideB": "Fuori", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Avere figli vs non avere figli — quale vita è migliore?", "sideA": "Figli", "sideB": "Niente figli", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Avere figli vs non avere figli — quale vita è migliore?", "sideA": "Figli", "sideB": "Niente figli", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Affittare un appartamento vs comprare una casa — cosa è meglio per i giovani adulti?", "sideA": "Affittare", "sideB": "Comprare", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Esercizio ogni giorno vs riposo — cosa è meglio per la tua salute?", "sideA": "Esercizio", "sideB": "Riposo", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Andare dal medico vs aspettare — cosa è meglio quando ti senti male?", "sideA": "Medico", "sideB": "Aspettare", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -5185,7 +5185,7 @@ const speakingData = {
             {"topic": "Vacanze in famiglia vs vacanze con amici — cosa è meglio?", "sideA": "Famiglia", "sideB": "Amici", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Rimanere nel proprio paese vs viaggiare all'estero — qual è la vacanza migliore?", "sideA": "Proprio paese", "sideB": "Estero", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Sport vs lettura — qual è il miglior hobby per gli adulti?", "sideA": "Sport", "sideB": "Lettura", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Vedere spesso gli amici vs avere tempo da soli — cosa è più importante?", "sideA": "Amici", "sideB": "Da soli", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Vedere spesso gli amici vs avere tempo da soli — cosa è più importante?", "sideA": "Amici", "sideB": "Da soli", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Rispondere alle email immediatamente vs lasciarle per dopo — cosa è più professionale?", "sideA": "Immediatamente", "sideB": "Dopo", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Lavare i piatti immediatamente vs lasciarli fino a domani — cosa è meglio?", "sideA": "Immediatamente", "sideB": "Domani", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Essere sempre in anticipo vs sempre cinque minuti in ritardo — cosa è peggio al lavoro?", "sideA": "Anticipo", "sideB": "Ritardo", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
@@ -5728,7 +5728,7 @@ const speakingData = {
                 "sideA": "In famiglia",
                 "sideB": "Da soli",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5737,7 +5737,7 @@ const speakingData = {
                 "sideA": "Fratello",
                 "sideB": "Sorella",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5746,7 +5746,7 @@ const speakingData = {
                 "sideA": "Grande",
                 "sideB": "Piccola",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -5755,7 +5755,7 @@ const speakingData = {
                 "sideA": "Grande",
                 "sideB": "Piccolo",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6364,7 +6364,7 @@ const speakingData = {
                 "sideA": "Molti amici",
                 "sideB": "Amici stretti",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6373,7 +6373,7 @@ const speakingData = {
                 "sideA": "Di persona",
                 "sideB": "Online",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6382,7 +6382,7 @@ const speakingData = {
                 "sideA": "Genitori",
                 "sideB": "Appartamento studenti",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6391,7 +6391,7 @@ const speakingData = {
                 "sideA": "Casa",
                 "sideB": "Uscire",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -6913,7 +6913,7 @@ const speakingData = {
                 "sideA": "Con i nonni",
                 "sideB": "Senza i nonni",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7120,7 +7120,7 @@ const speakingData = {
                 "sideA": "Fare regali",
                 "sideB": "Ricevere regali",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -7309,7 +7309,7 @@ const speakingData = {
             {
                 "topic": "Il mio ricordo d'infanzia preferito",
                 "level": "starter",
-                "theme": "family_A0"
+                "theme": "immediate_family_A0"
             },
             {
                 "topic": "L'ultima vacanza che ho fatto",
@@ -7432,7 +7432,7 @@ const speakingData = {
                 "text": "Жизнь — это то, что происходит с тобой, пока ты оживленно строишь другие планы.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "relationships_family_A2"
+                "theme": "relationships_dating_A2"
             },
             {
                 "text": "Единственная константа — это перемены.",
@@ -7539,10 +7539,10 @@ const speakingData = {
             {"topic": "Тратить деньги на впечатления или на вещи — что делает вас счастливее?", "sideA": "Впечатления", "sideB": "Вещи", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Готовить каждый день или готовить на неделю вперед — что практичнее?", "sideA": "Каждый день", "sideB": "На неделю", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
             {"topic": "Нанять клинера или делать уборку самому — какой выбор лучше?", "sideA": "Клинер", "sideB": "Самому", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Жить с партнером или жить одному — что лучше для взрослых людей?", "sideA": "С партнером", "sideB": "Одному", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Рожать детей рано или позже в жизни — что лучше?", "sideA": "Рано", "sideB": "Позже", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Близкие отношения с семьей или независимость от нее — что важнее во взрослом возрасте?", "sideA": "Близкие отношения", "sideB": "Независимость", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Знакомство с новыми людьми или сохранение старых друзей — что ценнее?", "sideA": "Новые люди", "sideB": "Старые друзья", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Жить с партнером или жить одному — что лучше для взрослых людей?", "sideA": "С партнером", "sideB": "Одному", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Рожать детей рано или позже в жизни — что лучше?", "sideA": "Рано", "sideB": "Позже", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Близкие отношения с семьей или независимость от нее — что важнее во взрослом возрасте?", "sideA": "Близкие отношения", "sideB": "Независимость", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Знакомство с новыми людьми или сохранение старых друзей — что ценнее?", "sideA": "Новые люди", "sideB": "Старые друзья", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Общение с коллегами после работы или поход прямо домой — что лучше для рабочих отношений?", "sideA": "Общение", "sideB": "Домой", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Ходить в спортзал или тренироваться на улице — что лучше для взрослых?", "sideA": "Спортзал", "sideB": "Улица", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Строгая диета или умеренность во всем — что здоровее?", "sideA": "Строгая диета", "sideB": "Умеренность", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -7557,9 +7557,9 @@ const speakingData = {
             {"topic": "Поездка в город или отдых на пляже — как лучше расслабиться?", "sideA": "Город", "sideB": "Пляж", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Один длинный отпуск в году или несколько коротких — что лучше?", "sideA": "Один длинный", "sideB": "Несколько коротких", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Путешествие парой или в одиночку — что приносит больше удовольствия?", "sideA": "Парой", "sideB": "В одиночку", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Рассказывать партнеру о каждой мелочи или держать все в себе — что здоровее?", "sideA": "Все рассказывать", "sideB": "Держать в себе", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Рассказывать партнеру о каждой мелочи или держать все в себе — что здоровее?", "sideA": "Все рассказывать", "sideB": "Держать в себе", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Проверять телефон первым делом утром или после завтрака — какая привычка лучше?", "sideA": "Сразу", "sideB": "После завтрака", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Знать имена соседей или не знать их — что сейчас считается нормой для взрослого?", "sideA": "Знать имена", "sideB": "Не знать", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Знать имена соседей или не знать их — что сейчас считается нормой для взрослого?", "sideA": "Знать имена", "sideB": "Не знать", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Поход за продуктами со списком или без него — у кого жизнь лучше?", "sideA": "Со списком", "sideB": "Без списка", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Сказать боссу, что заболел, или идти на работу больным — какой выбор смелее?", "sideA": "Сказать боссу", "sideB": "Идти больным", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Удаленка или офис — что лучше для продуктивности и благополучия?", "sideA": "Удаленка", "sideB": "Офис", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
@@ -7621,10 +7621,10 @@ const speakingData = {
             {"topic": "Работа, которую вы любите, или работа, которая хорошо оплачивается — что важнее?", "sideA": "Любимая работа", "sideB": "Хорошая оплата", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Работа с другими людьми или работа в одиночку — что лучше?", "sideA": "С людьми", "sideB": "В одиночку", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Короткий путь на работу или длинный — что более приемлемо?", "sideA": "Короткий", "sideB": "Длинный", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Жить одному или жить с партнером — что лучше?", "sideA": "Одному", "sideB": "С партнером", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Жить одному или жить с партнером — что лучше?", "sideA": "Одному", "sideB": "С партнером", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Большой город или маленький городок — где лучше жить взрослому человеку?", "sideA": "Большой город", "sideB": "Маленький городок", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Готовить дома или есть вне дома — что лучше для повседневной жизни?", "sideA": "Дома", "sideB": "Вне дома", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Иметь детей или не иметь — какая жизнь лучше?", "sideA": "С детьми", "sideB": "Без детей", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Иметь детей или не иметь — какая жизнь лучше?", "sideA": "С детьми", "sideB": "Без детей", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Снимать квартиру или покупать дом — что лучше для молодых людей?", "sideA": "Снимать", "sideB": "Покупать", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Физкультура каждый день или отдых — что лучше для здоровья?", "sideA": "Упражнения", "sideB": "Отдых", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Идти к врачу или ждать — что лучше, когда вы чувствуете себя больным?", "sideA": "Врач", "sideB": "Ждать", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -7638,7 +7638,7 @@ const speakingData = {
             {"topic": "Отпуск с семьей или отпуск с друзьями — что лучше?", "sideA": "С семьей", "sideB": "С друзьями", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Оставаться в своей стране или путешествовать за границу — какой отдых лучше?", "sideA": "Своя страна", "sideB": "За границу", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Спорт или чтение — какое хобби лучше для взрослых?", "sideA": "Спорт", "sideB": "Чтение", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Часто видеться с друзьями или проводить время в одиночестве — что важнее?", "sideA": "Друзья", "sideB": "Одиночество", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Часто видеться с друзьями или проводить время в одиночестве — что важнее?", "sideA": "Друзья", "sideB": "Одиночество", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Отвечать на электронные письма сразу или оставлять их на потом — что более профессионально?", "sideA": "Сразу", "sideB": "Потом", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Мыть посуду сразу или оставить до завтра — что лучше?", "sideA": "Сразу", "sideB": "До завтра", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Всегда приходить заранее или всегда опаздывать на пять минут — что хуже на работе?", "sideA": "Заранее", "sideB": "Опоздание", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
@@ -8181,7 +8181,7 @@ const speakingData = {
                 "sideA": "С семьей",
                 "sideB": "Один",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8190,7 +8190,7 @@ const speakingData = {
                 "sideA": "Брат",
                 "sideB": "Сестра",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8199,7 +8199,7 @@ const speakingData = {
                 "sideA": "Большая",
                 "sideB": "Маленькая",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8208,7 +8208,7 @@ const speakingData = {
                 "sideA": "Старший",
                 "sideB": "Младший",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8817,7 +8817,7 @@ const speakingData = {
                 "sideA": "Много друзей",
                 "sideB": "Близкие друзья",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8826,7 +8826,7 @@ const speakingData = {
                 "sideA": "Лично",
                 "sideB": "Онлайн",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8835,7 +8835,7 @@ const speakingData = {
                 "sideA": "С родителями",
                 "sideB": "Студ. квартира",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -8844,7 +8844,7 @@ const speakingData = {
                 "sideA": "Дома",
                 "sideB": "Вне дома",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9366,7 +9366,7 @@ const speakingData = {
                 "sideA": "С бабушкой и дедушкой",
                 "sideB": "Без них",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9573,7 +9573,7 @@ const speakingData = {
                 "sideA": "Дарить",
                 "sideB": "Получать",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -9762,7 +9762,7 @@ const speakingData = {
             {
                 "topic": "Мое любимое воспоминание из детства",
                 "level": "starter",
-                "theme": "family_A0"
+                "theme": "immediate_family_A0"
             },
             {
                 "topic": "Мой последний отпуск",
@@ -9885,7 +9885,7 @@ const speakingData = {
                 "text": "Ζωή είναι αυτό που σου συμβαίνει ενώ είσαι απασχολημένος κάνοντας άλλα σχέδια.",
                 "author": "John Lennon",
                 "level": "elementary",
-                "theme": "relationships_family_A2"
+                "theme": "relationships_dating_A2"
             },
             {
                 "text": "Η μόνη σταθερά είναι η αλλαγή.",
@@ -9992,10 +9992,10 @@ const speakingData = {
             {"topic": "Δαπάνη χρημάτων σε εμπειρίες εναντίον σε πράγματα — τι σας κάνει πιο ευτυχισμένους;", "sideA": "Εμπειρίες", "sideB": "Πράγματα", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Μαγειρική κάθε μέρα εναντίον προετοιμασίας γευμάτων μία φορά την εβδομάδα — τι είναι πιο πρακτικό;", "sideA": "Καθημερινή μαγειρική", "sideB": "Meal prepping", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
             {"topic": "Ύπαρξη καθαριστή εναντίον προσωπικής ενασχόλησης με τις δουλειές του σπιτιού — ποια είναι η καλύτερη επιλογή;", "sideA": "Καθαριστής", "sideB": "Προσωπικά", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Ζωή με σύντροφο εναντίον ζωής μόνος — τι είναι καλύτερο για τους ενήλικες;", "sideA": "Με σύντροφο", "sideB": "Μόνος", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Απόκτηση παιδιών νωρίς εναντίον απόκτησης παιδιών αργότερα στη ζωή — τι είναι καλύτερο;", "sideA": "Νωρίς", "sideB": "Αργότερα", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Στενές οικογενειακές σχέσεις εναντίον ανεξαρτησίας από την οικογένεια — τι είναι πιο σημαντικό ως ενήλικας;", "sideA": "Στενές σχέσεις", "sideB": "Ανεξαρτησία", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Γνωριμία με νέους ανθρώπους εναντίον διατήρησης παλιών φιλιών — τι είναι πιο πολύτιμο;", "sideA": "Νέοι άνθρωποι", "sideB": "Παλιοί φίλοι", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ζωή με σύντροφο εναντίον ζωής μόνος — τι είναι καλύτερο για τους ενήλικες;", "sideA": "Με σύντροφο", "sideB": "Μόνος", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Απόκτηση παιδιών νωρίς εναντίον απόκτησης παιδιών αργότερα στη ζωή — τι είναι καλύτερο;", "sideA": "Νωρίς", "sideB": "Αργότερα", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Στενές οικογενειακές σχέσεις εναντίον ανεξαρτησίας από την οικογένεια — τι είναι πιο σημαντικό ως ενήλικας;", "sideA": "Στενές σχέσεις", "sideB": "Ανεξαρτησία", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Γνωριμία με νέους ανθρώπους εναντίον διατήρησης παλιών φιλιών — τι είναι πιο πολύτιμο;", "sideA": "Νέοι άνθρωποι", "sideB": "Παλιοί φίλοι", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Κοινωνικοποίηση μετά τη δουλειά εναντίον επιστροφής κατευθείαν στο σπίτι — τι είναι καλύτερο για τις εργασιακές σχέσεις;", "sideA": "Κοινωνικοποίηση", "sideB": "Σπίτι", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Πηγαίνοντας στο γυμναστήριο εναντίον άσκησης σε εξωτερικούς χώρους — τι είναι καλύτερο για τους ενήλικες;", "sideA": "Γυμναστήριο", "sideB": "Έξω", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Αυστηρή δίαιτα εναντίον κατανάλωσης των πάντων με μέτρο — τι είναι πιο υγιεινό;", "sideA": "Αυστηρή δίαιτα", "sideB": "Μέτρο", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -10010,9 +10010,9 @@ const speakingData = {
             {"topic": "Σύντομη απόδραση στην πόλη εναντίον διακοπών στην παραλία — ποιος είναι ο καλύτερος τρόπος για να χαλαρώσετε;", "sideA": "Στην πόλη", "sideB": "Στην παραλία", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Μία μεγάλη διακοπή το χρόνο εναντίον αρκετών μικρών αποδράσεων — τι είναι καλύτερο;", "sideA": "Μία μεγάλη", "sideB": "Πολλές μικρές", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Ταξιδεύοντας ως ζευγάρι εναντίον ταξιδεύοντας μόνος — τι είναι πιο απολαυστικό;", "sideA": "Ως ζευγάρι", "sideB": "Μόνος", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Το να λέτε στον σύντροφό σας για κάθε μικρό πρόβλημα εναντίον του να κρατάτε τα πράγματα για τον εαυτό σας — τι είναι πιο υγιές;", "sideA": "Να τα λέτε όλα", "sideB": "Να τα κρατάτε", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Το να λέτε στον σύντροφό σας για κάθε μικρό πρόβλημα εναντίον του να κρατάτε τα πράγματα για τον εαυτό σας — τι είναι πιο υγιές;", "sideA": "Να τα λέτε όλα", "sideB": "Να τα κρατάτε", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Έλεγχος του τηλεφώνου σας αμέσως το πρωί εναντίον αναμονής μέχρι μετά το πρωινό — ποια είναι η καλύτερη συνήθεια;", "sideA": "Αμέσως", "sideB": "Μετά το πρωινό", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Το να γνωρίζετε τα ονόματα των γειτόνων σας εναντίον του να μην τους γνωρίζετε — ποια είναι η πιο φυσιολογική εμπειρία ενήλικα σήμερα;", "sideA": "Να γνωρίζετε", "sideB": "Να μην γνωρίζετε", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Το να γνωρίζετε τα ονόματα των γειτόνων σας εναντίον του να μην τους γνωρίζετε — ποια είναι η πιο φυσιολογική εμπειρία ενήλικα σήμερα;", "sideA": "Να γνωρίζετε", "sideB": "Να μην γνωρίζετε", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Ψώνια στο σούπερ μάρκετ με λίστα εναντίον χωρίς λίστα — ποιος τύπος ανθρώπου έχει καλύτερη ζωή;", "sideA": "Με λίστα", "sideB": "Χωρίς λίστα", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Το να λέτε στο αφεντικό σας ότι είστε άρρωστοι εναντίον του να πηγαίνετε στη δουλειά άρρωστοι — ποια είναι η πιο γενναία επιλογή;", "sideA": "Να το λέτε", "sideB": "Να πηγαίνετε", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Εξ αποστάσεως εργασία εναντίον εργασίας στο γραφείο — τι είναι καλύτερο για την παραγωγικότητα και την ευημερία;", "sideA": "Εξ αποστάσεως", "sideB": "Γραφείο", "level": "intermediate", "theme": "career_development_B1", "ideasA": [], "ideasB": []},
@@ -10074,10 +10074,10 @@ const speakingData = {
             {"topic": "Μια δουλειά που αγαπάτε εναντίον μιας δουλειάς που πληρώνει καλά — τι είναι πιο σημαντικό;", "sideA": "Δουλειά που αγαπάτε", "sideB": "Καλή αμοιβή", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Εργασία με άλλους ανθρώπους εναντίον εργασίας μόνος — τι είναι καλύτερο;", "sideA": "Με άλλους", "sideB": "Μόνος", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Μια σύντομη διαδρομή εναντίον μιας μεγάλης διαδρομής για τη δουλειά — τι είναι πιο αποδεκτό;", "sideA": "Σύντομη", "sideB": "Μεγάλη", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Ζωή μόνος εναντίον ζωής με σύντροφο — τι είναι καλύτερο;", "sideA": "Μόνος", "sideB": "Σύντροφος", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Ζωή μόνος εναντίον ζωής με σύντροφο — τι είναι καλύτερο;", "sideA": "Μόνος", "sideB": "Σύντροφος", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Μεγάλη πόλη εναντίον μικρής πόλης — ποιο είναι το καλύτερο μέρος για να ζεις ως ενήλικας;", "sideA": "Μεγάλη πόλη", "sideB": "Μικρή πόλη", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Μαγειρική στο σπίτι εναντίον φαγητού έξω — τι είναι καλύτερο για την καθημερινή ζωή;", "sideA": "Σπίτι", "sideB": "Έξω", "level": "elementary", "theme": "food_nutrition_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Έχοντας παιδιά εναντίον μη έχοντας παιδιά — ποια ζωή είναι καλύτερη;", "sideA": "Παιδιά", "sideB": "Χωρίς παιδιά", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Έχοντας παιδιά εναντίον μη έχοντας παιδιά — ποια ζωή είναι καλύτερη;", "sideA": "Παιδιά", "sideB": "Χωρίς παιδιά", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Ενοικίαση διαμερίσματος εναντίον αγοράς σπιτιού — τι είναι καλύτερο για τους νέους ενήλικες;", "sideA": "Ενοικίαση", "sideB": "Αγορά", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Άσκηση κάθε μέρα εναντίον ξεκούρασης — τι είναι καλύτερο για την υγεία σας;", "sideA": "Άσκηση", "sideB": "Ξεκούραση", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
             {"topic": "Πηγαίνοντας στον γιατρό εναντίον αναμονής — τι είναι καλύτερο όταν νιώθετε άρρωστοι;", "sideA": "Γιατρός", "sideB": "Αναμονή", "level": "elementary", "theme": "health_body_A2", "ideasA": [], "ideasB": []},
@@ -10091,7 +10091,7 @@ const speakingData = {
             {"topic": "Διακοπές με την οικογένεια εναντίον διακοπών με φίλους — τι είναι καλύτερο;", "sideA": "Οικογένεια", "sideB": "Φίλοι", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Παραμονή στη χώρα σας εναντίον ταξιδιού στο εξωτερικό — ποιες είναι οι καλύτερες διακοπές;", "sideA": "Στη χώρα σας", "sideB": "Εξωτερικό", "level": "elementary", "theme": "transport_travel_A2", "ideasA": [], "ideasB": []},
             {"topic": "Αθλητισμός εναντίον ανάγνωσης — ποιο είναι το καλύτερο χόμπι για ενήλικες;", "sideA": "Αθλητισμός", "sideB": "Ανάγνωση", "level": "elementary", "theme": "leisure_hobbies_A2", "ideasA": [], "ideasB": []},
-            {"topic": "Βλέποντας συχνά φίλους εναντίον χρόνου μόνος — τι είναι πιο σημαντικό;", "sideA": "Φίλοι", "sideB": "Χρόνος μόνος", "level": "elementary", "theme": "relationships_family_A2", "ideasA": [], "ideasB": []},
+            {"topic": "Βλέποντας συχνά φίλους εναντίον χρόνου μόνος — τι είναι πιο σημαντικό;", "sideA": "Φίλοι", "sideB": "Χρόνος μόνος", "level": "elementary", "theme": "relationships_dating_A2", "ideasA": [], "ideasB": []},
             {"topic": "Απάντηση στα μηνύματα αμέσως εναντίον του να τα αφήνετε για αργότερα — τι είναι πιο επαγγελματικό;", "sideA": "Αμέσως", "sideB": "Αργότερα", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
             {"topic": "Πλύσιμο πιάτων αμέσως εναντίον του να τα αφήνετε μέχρι αύριο — τι είναι καλύτερο;", "sideA": "Αμέσως", "sideB": "Αύριο", "level": "elementary", "theme": "neighbourhood_A2", "ideasA": [], "ideasB": []},
             {"topic": "Να είστε πάντα νωρίς εναντίον πάντα πέντε λεπτά αργά — τι είναι χειρότερο στη δουλειά;", "sideA": "Νωρίς", "sideB": "Αργά", "level": "elementary", "theme": "career_A2", "ideasA": [], "ideasB": []},
@@ -10634,7 +10634,7 @@ const speakingData = {
                 "sideA": "Με οικογένεια",
                 "sideB": "Μόνος",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10643,7 +10643,7 @@ const speakingData = {
                 "sideA": "Αδελφός",
                 "sideB": "Αδελφή",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10652,7 +10652,7 @@ const speakingData = {
                 "sideA": "Μεγάλη",
                 "sideB": "Μικρή",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -10661,7 +10661,7 @@ const speakingData = {
                 "sideA": "Μεγαλύτερο",
                 "sideB": "Μικρότερο",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11270,7 +11270,7 @@ const speakingData = {
                 "sideA": "Πολλοί",
                 "sideB": "Στενοί φίλοι",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11279,7 +11279,7 @@ const speakingData = {
                 "sideA": "Από κοντά",
                 "sideB": "Online",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11288,7 +11288,7 @@ const speakingData = {
                 "sideA": "Γονείς",
                 "sideB": "Φοιτητικό σπίτι",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11297,7 +11297,7 @@ const speakingData = {
                 "sideA": "Σπίτι",
                 "sideB": "Έξοδος",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -11819,7 +11819,7 @@ const speakingData = {
                 "sideA": "Με παππούδες",
                 "sideB": "Χωρίς αυτούς",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12026,7 +12026,7 @@ const speakingData = {
                 "sideA": "Να δίνεις",
                 "sideB": "Να παίρνεις",
                 "level": "elementary",
-                "theme": "relationships_family_A2",
+                "theme": "relationships_dating_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -12215,7 +12215,7 @@ const speakingData = {
             {
                 "topic": "Η αγαπημένη μου ανάμνηση από την παιδική ηλικία",
                 "level": "starter",
-                "theme": "family_A0"
+                "theme": "immediate_family_A0"
             },
             {
                 "topic": "Οι τελευταίες διακοπές που έκανα",

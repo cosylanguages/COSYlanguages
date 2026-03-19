@@ -1530,13 +1530,13 @@ const vocabularyData = {
         {
             "word": "beautiful",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "adjective"
         },
         {
             "word": "strong",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "adjective"
         },
         {
@@ -1560,7 +1560,7 @@ const vocabularyData = {
         {
             "word": "blonde",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "adjective"
         },
         {
@@ -2319,7 +2319,7 @@ const vocabularyData = {
         {
             "word": "athletic",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "adjective"
         },
         {
@@ -2431,7 +2431,7 @@ const vocabularyData = {
         {
             "word": "justice",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚖️",
             "form": "noun",
             "plural": "justices"
@@ -2650,7 +2650,7 @@ const vocabularyData = {
         {
             "word": "mother",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👩",
             "form": "noun",
             "plural": "mothers",
@@ -2673,7 +2673,7 @@ const vocabularyData = {
         {
             "word": "father",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👨",
             "form": "noun",
             "plural": "fathers",
@@ -3016,7 +3016,7 @@ const vocabularyData = {
         {
             "word": "seem",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "verb"
         },
@@ -3072,7 +3072,7 @@ const vocabularyData = {
         {
             "word": "become",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🦋",
             "form": "verb"
         },
@@ -3141,7 +3141,7 @@ const vocabularyData = {
         {
             "word": "believe",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙏",
             "form": "verb"
         },
@@ -3155,7 +3155,7 @@ const vocabularyData = {
         {
             "word": "happen",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚡",
             "form": "verb"
         },
@@ -3238,7 +3238,7 @@ const vocabularyData = {
         {
             "word": "lead",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👑",
             "form": "verb"
         },
@@ -3273,7 +3273,7 @@ const vocabularyData = {
         {
             "word": "allow",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "✅",
             "form": "verb"
         },
@@ -3335,7 +3335,7 @@ const vocabularyData = {
         {
             "word": "offer",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤲",
             "form": "verb"
         },
@@ -3349,14 +3349,14 @@ const vocabularyData = {
         {
             "word": "consider",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "verb"
         },
         {
             "word": "appear",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👻",
             "form": "verb"
         },
@@ -3402,7 +3402,7 @@ const vocabularyData = {
         {
             "word": "expect",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💭",
             "form": "verb"
         },
@@ -3451,21 +3451,21 @@ const vocabularyData = {
         {
             "word": "remain",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⏳",
             "form": "verb"
         },
         {
             "word": "suggest",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💡",
             "form": "verb"
         },
         {
             "word": "raise",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙋",
             "form": "verb"
         },
@@ -3488,7 +3488,7 @@ const vocabularyData = {
         {
             "word": "require",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "📜",
             "form": "verb"
         },
@@ -3502,7 +3502,7 @@ const vocabularyData = {
         {
             "word": "decide",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚖️",
             "form": "verb"
         },
@@ -3576,7 +3576,7 @@ const vocabularyData = {
         {
             "word": "support",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤝",
             "form": "verb"
         },
@@ -3597,7 +3597,7 @@ const vocabularyData = {
         {
             "word": "face",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👤",
             "form": "verb"
         },
@@ -4896,14 +4896,14 @@ const vocabularyData = {
         {
             "word": "beau",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "noun",
             "plural": "beaus"
         },
         {
             "word": "fort",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "noun",
             "plural": "forts"
         },
@@ -5532,7 +5532,7 @@ const vocabularyData = {
         {
             "word": "mère",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👩",
             "form": "noun",
             "definitions": [
@@ -5554,7 +5554,7 @@ const vocabularyData = {
         {
             "word": "père",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👨",
             "form": "noun",
             "definitions": [
@@ -5867,7 +5867,7 @@ const vocabularyData = {
         {
             "word": "sembler",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "noun",
             "plural": "semblers"
@@ -5931,7 +5931,7 @@ const vocabularyData = {
         {
             "word": "devenir",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🦋",
             "form": "noun",
             "plural": "devenirs"
@@ -5991,7 +5991,7 @@ const vocabularyData = {
         {
             "word": "croire",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙏",
             "form": "noun",
             "plural": "croires"
@@ -6007,7 +6007,7 @@ const vocabularyData = {
         {
             "word": "se passer",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚡",
             "form": "adjective"
         },
@@ -6099,7 +6099,7 @@ const vocabularyData = {
         {
             "word": "mener",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👑",
             "form": "noun",
             "plural": "meners"
@@ -6139,7 +6139,7 @@ const vocabularyData = {
         {
             "word": "permettere",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "✅",
             "form": "noun",
             "plural": "permetteres"
@@ -6207,7 +6207,7 @@ const vocabularyData = {
         {
             "word": "offrir",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤲",
             "form": "noun",
             "plural": "offrirs"
@@ -6222,14 +6222,14 @@ const vocabularyData = {
         {
             "word": "considérer",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "verb"
         },
         {
             "word": "apparaître",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👻",
             "form": "verb"
         },
@@ -6245,7 +6245,7 @@ const vocabularyData = {
         {
             "word": "attendre",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💭",
             "form": "verb"
         },
@@ -6282,7 +6282,7 @@ const vocabularyData = {
         {
             "word": "rester",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⏳",
             "form": "verb"
         },
@@ -6317,14 +6317,14 @@ const vocabularyData = {
         {
             "word": "suggérer",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💡",
             "form": "verb"
         },
         {
             "word": "lever",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙋",
             "form": "verb"
         },
@@ -6347,7 +6347,7 @@ const vocabularyData = {
         {
             "word": "exiger",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "📜",
             "form": "verb"
         },
@@ -6361,7 +6361,7 @@ const vocabularyData = {
         {
             "word": "décider",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚖️",
             "form": "verb"
         },
@@ -6435,7 +6435,7 @@ const vocabularyData = {
         {
             "word": "soutenir",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤝",
             "form": "verb"
         },
@@ -6456,7 +6456,7 @@ const vocabularyData = {
         {
             "word": "faire face",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👤",
             "form": "verb"
         },
@@ -7687,14 +7687,14 @@ const vocabularyData = {
         {
             "word": "bello",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "noun",
             "plural": "belli"
         },
         {
             "word": "forte",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "noun",
             "plural": "forti"
         },
@@ -8308,7 +8308,7 @@ const vocabularyData = {
         {
             "word": "madre",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👩",
             "form": "noun",
             "definitions": [
@@ -8330,7 +8330,7 @@ const vocabularyData = {
         {
             "word": "padre",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👨",
             "form": "noun",
             "definitions": [
@@ -8687,7 +8687,7 @@ const vocabularyData = {
         {
             "word": "sembrare",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "noun",
             "plural": "sembrari"
@@ -8751,7 +8751,7 @@ const vocabularyData = {
         {
             "word": "diventare",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🦋",
             "form": "noun",
             "plural": "diventari"
@@ -8811,7 +8811,7 @@ const vocabularyData = {
         {
             "word": "credere",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙏",
             "form": "noun",
             "plural": "crederi"
@@ -8827,7 +8827,7 @@ const vocabularyData = {
         {
             "word": "succedere",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚡",
             "form": "adjective"
         },
@@ -8919,7 +8919,7 @@ const vocabularyData = {
         {
             "word": "guidare",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👑",
             "form": "noun",
             "plural": "guidari"
@@ -8959,7 +8959,7 @@ const vocabularyData = {
         {
             "word": "permettre",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "✅",
             "form": "noun",
             "plural": "permettri"
@@ -9027,7 +9027,7 @@ const vocabularyData = {
         {
             "word": "offrire",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤲",
             "form": "noun",
             "plural": "offriri"
@@ -9042,14 +9042,14 @@ const vocabularyData = {
         {
             "word": "considerare",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "verb"
         },
         {
             "word": "apparire",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👻",
             "form": "verb"
         },
@@ -9095,7 +9095,7 @@ const vocabularyData = {
         {
             "word": "aspettarsi",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💭",
             "form": "verb"
         },
@@ -9144,21 +9144,21 @@ const vocabularyData = {
         {
             "word": "rimanere",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⏳",
             "form": "verb"
         },
         {
             "word": "suggerire",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💡",
             "form": "verb"
         },
         {
             "word": "alzare",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙋",
             "form": "verb"
         },
@@ -9181,7 +9181,7 @@ const vocabularyData = {
         {
             "word": "richiedere",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "📜",
             "form": "verb"
         },
@@ -9195,7 +9195,7 @@ const vocabularyData = {
         {
             "word": "decidere",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚖️",
             "form": "verb"
         },
@@ -9262,7 +9262,7 @@ const vocabularyData = {
         {
             "word": "sostenere",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤝",
             "form": "verb"
         },
@@ -9283,7 +9283,7 @@ const vocabularyData = {
         {
             "word": "affrontare",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👤",
             "form": "verb"
         },
@@ -10454,14 +10454,14 @@ const vocabularyData = {
         {
             "word": "красивый",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "noun",
             "plural": "красивый"
         },
         {
             "word": "сильный",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "noun",
             "plural": "сильный"
         },
@@ -11053,7 +11053,7 @@ const vocabularyData = {
         {
             "word": "мать",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👩",
             "form": "noun",
             "definitions": [
@@ -11075,7 +11075,7 @@ const vocabularyData = {
         {
             "word": "отец",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👨",
             "form": "noun",
             "definitions": [
@@ -11420,7 +11420,7 @@ const vocabularyData = {
         {
             "word": "казаться",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "noun",
             "plural": "казатьси"
@@ -11484,7 +11484,7 @@ const vocabularyData = {
         {
             "word": "становиться",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🦋",
             "form": "noun",
             "plural": "становитьси"
@@ -11559,7 +11559,7 @@ const vocabularyData = {
         {
             "word": "верить",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙏",
             "form": "noun",
             "plural": "верить"
@@ -11575,7 +11575,7 @@ const vocabularyData = {
         {
             "word": "случаться",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚡",
             "form": "noun",
             "plural": "случатьси"
@@ -11668,7 +11668,7 @@ const vocabularyData = {
         {
             "word": "вести",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👑",
             "form": "noun",
             "plural": "вести"
@@ -11708,7 +11708,7 @@ const vocabularyData = {
         {
             "word": "позволять",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "✅",
             "form": "noun",
             "plural": "позволять"
@@ -11774,7 +11774,7 @@ const vocabularyData = {
         {
             "word": "предлагать",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💡",
             "form": "verb"
         },
@@ -11788,14 +11788,14 @@ const vocabularyData = {
         {
             "word": "рассматривать",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "verb"
         },
         {
             "word": "появляться",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👻",
             "form": "verb"
         },
@@ -11841,7 +11841,7 @@ const vocabularyData = {
         {
             "word": "ожидать",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💭",
             "form": "verb"
         },
@@ -11855,7 +11855,7 @@ const vocabularyData = {
         {
             "word": "оставаться",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⏳",
             "form": "verb"
         },
@@ -11890,7 +11890,7 @@ const vocabularyData = {
         {
             "word": "поднимать",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙋",
             "form": "verb"
         },
@@ -11913,7 +11913,7 @@ const vocabularyData = {
         {
             "word": "требовать",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "📜",
             "form": "verb"
         },
@@ -11927,7 +11927,7 @@ const vocabularyData = {
         {
             "word": "решать",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚖️",
             "form": "verb"
         },
@@ -11994,7 +11994,7 @@ const vocabularyData = {
         {
             "word": "поддерживать",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤝",
             "form": "verb"
         },
@@ -12015,7 +12015,7 @@ const vocabularyData = {
         {
             "word": "сталкиваться",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👤",
             "form": "verb"
         },
@@ -13409,14 +13409,14 @@ const vocabularyData = {
         {
             "word": "όμορφος",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "noun",
             "plural": "όμορφοι"
         },
         {
             "word": "δυνατός",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "form": "noun",
             "plural": "δυνατός"
         },
@@ -13991,7 +13991,7 @@ const vocabularyData = {
         {
             "word": "μητέρα",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👩",
             "form": "noun",
             "definitions": [
@@ -14013,7 +14013,7 @@ const vocabularyData = {
         {
             "word": "πατέρας",
             "level": "starter",
-            "theme": "family_A0",
+            "theme": "immediate_family_A0",
             "emoji": "👨",
             "form": "noun",
             "definitions": [
@@ -14396,7 +14396,7 @@ const vocabularyData = {
         {
             "word": "φαίνομαι",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "adjective"
         },
@@ -14450,7 +14450,7 @@ const vocabularyData = {
         {
             "word": "γίνομαι",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🦋",
             "form": "noun",
             "plural": "γίνομαια"
@@ -14518,7 +14518,7 @@ const vocabularyData = {
         {
             "word": "πιστεύω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙏",
             "form": "noun",
             "plural": "πιστεύω"
@@ -14534,7 +14534,7 @@ const vocabularyData = {
         {
             "word": "συμβαίνω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚡",
             "form": "noun",
             "plural": "συμβαίνω"
@@ -14627,7 +14627,7 @@ const vocabularyData = {
         {
             "word": "οδηγώ",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👑",
             "form": "noun",
             "plural": "οδηγώ"
@@ -14683,7 +14683,7 @@ const vocabularyData = {
         {
             "word": "επιτρέπω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "✅",
             "form": "noun",
             "plural": "επιτρέπω"
@@ -14751,7 +14751,7 @@ const vocabularyData = {
         {
             "word": "προσφέρω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤲",
             "form": "noun",
             "plural": "προσφέρω"
@@ -14767,7 +14767,7 @@ const vocabularyData = {
         {
             "word": "θεωρώ",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤔",
             "form": "noun",
             "plural": "θεωρώ"
@@ -14775,7 +14775,7 @@ const vocabularyData = {
         {
             "word": "εμφανίζομαι",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👻",
             "form": "noun",
             "plural": "εμφανίζομαια"
@@ -14792,7 +14792,7 @@ const vocabularyData = {
         {
             "word": "περιμένω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💭",
             "form": "verb"
         },
@@ -14864,21 +14864,21 @@ const vocabularyData = {
         {
             "word": "παραμένω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⏳",
             "form": "verb"
         },
         {
             "word": "προτείνω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "💡",
             "form": "verb"
         },
         {
             "word": "σηκώνω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🙋",
             "form": "verb"
         },
@@ -14901,7 +14901,7 @@ const vocabularyData = {
         {
             "word": "απαιτώ",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "📜",
             "form": "verb"
         },
@@ -14915,7 +14915,7 @@ const vocabularyData = {
         {
             "word": "αποφασίζω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "⚖️",
             "form": "verb"
         },
@@ -14989,7 +14989,7 @@ const vocabularyData = {
         {
             "word": "υποστηρίζω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "🤝",
             "form": "verb"
         },
@@ -15010,7 +15010,7 @@ const vocabularyData = {
         {
             "word": "αντιμετωπίζω",
             "level": "elementary",
-            "theme": "relationships_family_A2",
+            "theme": "relationships_dating_A2",
             "emoji": "👤",
             "form": "verb"
         },
