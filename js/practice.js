@@ -137,30 +137,15 @@ function populateThemes(categoryId) {
             themes.push({ value: val, key: 'theme_' + val });
         });
     } else if (categoryId === 'vocab' && typeof themeConfig !== 'undefined') {
-        if (selectedLevel !== 'all') {
-            const config = themeConfig[selectedLevel];
-            if (config && config.common_themes) {
-                Object.keys(config.common_themes).forEach(themeId => {
-                    const commonTheme = COMMON_THEMES.find(ct => ct.id === themeId);
-                    if (commonTheme) {
-                        const opt = document.createElement('option');
-                        opt.value = commonTheme.id;
-                        opt.textContent = t[commonTheme.label] || commonTheme.id;
-                        opt.setAttribute('data-translate-key', commonTheme.label);
-                        themeSelect.appendChild(opt);
-                    }
-                });
-            }
-        } else {
-            // "All Levels" - show all COMMON_THEMES
-            COMMON_THEMES.forEach(ct => {
-                const opt = document.createElement('option');
-                opt.value = ct.id;
-                opt.textContent = t[ct.label] || ct.id;
-                opt.setAttribute('data-translate-key', ct.label);
-                themeSelect.appendChild(opt);
-            });
-        }
+        // Show all 26 common themes for vocab regardless of level
+        COMMON_THEMES.forEach(ct => {
+            const opt = document.createElement('option');
+            opt.value = ct.id;
+            opt.textContent = t[ct.label] || ct.id;
+            opt.setAttribute('data-translate-key', ct.label);
+            themeSelect.appendChild(opt);
+        });
+        populateSubThemes();
         return;
     } else {
         // Fallback or speaking

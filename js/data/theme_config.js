@@ -41,6 +41,13 @@ const themeConfig = {
             },
             "time": {
                 "days_week_A0": "Days of the week",
+                "months_year_A0": "Months of the year",
+                "seasons_A0": "Seasons",
+                "times_day_A0": "Times of day",
+                "telling_time_A0": "Telling the time",
+                "dates_years_A1": "Dates & years",
+                "frequency_adverbs_A1": "Frequency adverbs",
+                "duration_expressions_A1": "Duration expressions",
                 "routine_A1": "Daily routine"
             },
             "personal_identity": {
@@ -144,6 +151,11 @@ const themeConfig = {
             },
             "modifiers_intensifiers": {
                 "quantities_A2": "Quantities & frequency"
+            },
+            "time": {
+                "past_time_A2": "Past time expressions",
+                "future_time_A2": "Future time expressions",
+                "sequence_order_A2": "Sequence & order"
             }
         }
     },
@@ -188,6 +200,11 @@ const themeConfig = {
             },
             "home_living": {
                 "housing_mortgages_B1": "Housing & mortgages"
+            },
+            "time": {
+                "tenses_time_B1": "Tenses & time reference",
+                "periods_eras_B1": "Periods & eras",
+                "deadlines_scheduling_B1": "Deadlines & scheduling"
             }
         }
     },
