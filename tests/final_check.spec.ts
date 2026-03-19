@@ -1,10 +1,7 @@
 import { test, expect } from '@playwright/test';
-import path from 'path';
-
-const fileUrl = (filename) => 'file://' + path.resolve(filename);
 
 test('Practice Mode filtering by level and theme', async ({ page }) => {
-    await page.goto(fileUrl('practice.html'));
+    await page.goto('http://localhost:8080/practice.html');
 
     // Select Language
     await page.click('.lang-selection-card[data-value="en"]');
@@ -12,15 +9,18 @@ test('Practice Mode filtering by level and theme', async ({ page }) => {
     // Check Category Radio
     await expect(page.locator('#cat-vocab')).toBeChecked();
 
-    // Select Level and Theme
+    // Select Level
     await page.selectOption('#practice-level', 'elementary');
 
     // Wait for the common themes to be populated and select one
-    await page.waitForSelector('#practice-theme option[value="food_drink"]');
+    // We use a broader locator and wait for the specific option to be present
+    const themeSelect = page.locator('#practice-theme');
+    await themeSelect.locator('option[value="food_drink"]').waitFor({ state: 'attached', timeout: 10000 });
     await page.selectOption('#practice-theme', 'food_drink');
 
     // Wait for the sub-themes to be populated and select one
-    await page.waitForSelector('#practice-sub-theme option[value="food_nutrition_A2"]');
+    const subThemeSelect = page.locator('#practice-sub-theme');
+    await subThemeSelect.locator('option[value="food_nutrition_A2"]').waitFor({ state: 'attached', timeout: 10000 });
     await page.selectOption('#practice-sub-theme', 'food_nutrition_A2');
 
     // Start Practice
@@ -32,7 +32,7 @@ test('Practice Mode filtering by level and theme', async ({ page }) => {
 });
 
 test('Student Area access and day selection', async ({ page }) => {
-    await page.goto(fileUrl('days.html'));
+    await page.goto('http://localhost:8080/days.html');
 
     // Gate should be visible
     await expect(page.locator('#unlock-gate')).toBeVisible();
@@ -54,7 +54,7 @@ test('Student Area access and day selection', async ({ page }) => {
 });
 
 test('Game launch with new theme filters', async ({ page }) => {
-    await page.goto(fileUrl('events.html'));
+    await page.goto('http://localhost:8080/events.html');
 
     // Show Games
     await page.click('#toggle-games-btn');
@@ -63,7 +63,7 @@ test('Game launch with new theme filters', async ({ page }) => {
     await page.click('#open-charades-btn');
     await expect(page.locator('#charades-modal')).toBeVisible();
 
-    // Select language first in modal (important!)
+    // Select language first in modal
     await page.selectOption('#charades-lang', 'en');
     // Select theme in modal
     await page.selectOption('#charades-theme', 'all');
