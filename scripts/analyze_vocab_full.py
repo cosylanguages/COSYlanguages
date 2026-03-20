@@ -3,42 +3,38 @@ import re
 import os
 
 def analyze_vocab():
-    families = ["germanic", "romance", "slavic", "hellenic", "turkic", "armenian", "kartvelian", "celtic"]
-
+    data_root = 'js/data'
     combined_data = {}
 
-    for family in families:
-        vocab_path = f'js/data/{family}/vocabulary.js'
-        if os.path.exists(vocab_path):
-            with open(vocab_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-            # Extract JSON-like content from IIFE
-            match = re.search(r'const data = (\{.*?\});', content, re.DOTALL)
-            if match:
-                family_data = json.loads(match.group(1))
-                for lang, items in family_data.items():
-                    if lang not in combined_data:
-                        combined_data[lang] = []
-                    combined_data[lang].extend(items)
+    # Categories that contain vocabulary-like entries (word, level, theme)
+    categories = ['vocabulary.js', 'verbs.js', 'locations.js', 'people.js']
 
-        verbs_path = f'js/data/{family}/verbs.js'
-        if os.path.exists(verbs_path):
-            with open(verbs_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-            match = re.search(r'const data = (\{.*?\});', content, re.DOTALL)
-            if match:
-                family_verbs = json.loads(match.group(1))
-                for lang, items in family_verbs.items():
-                    if lang not in combined_data:
-                        combined_data[lang] = []
-                    combined_data[lang].extend(items)
+    for root, dirs, files in os.walk(data_root):
+        for file in files:
+            if file in categories:
+                file_path = os.path.join(root, file)
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
 
-    languages = list(combined_data.keys())
+                # Extract JSON from IIFE
+                # Standard pattern in split files: const data = [ ... ];
+                # In some cases it might be window.XData = { ... } if I missed some during split
+                list_match = re.search(r'const data = (\[.*?\]);', content, re.DOTALL)
+                if list_match:
+                    items = json.loads(list_match.group(1))
+                    # Determine language from path: js/data/<family>/<lang>/...
+                    parts = root.split(os.sep)
+                    if len(parts) >= 4:
+                        lang = parts[3]
+                        if lang not in combined_data:
+                            combined_data[lang] = []
+                        combined_data[lang].extend(items)
+
+    languages = sorted(list(combined_data.keys()))
     for lang in languages:
         items = combined_data.get(lang, [])
         print(f"\n--- Language: {lang} ({len(items)} items) ---")
 
-        # Check for Russian verbs marked as nouns
         if lang == 'ru':
             verbs_as_nouns = []
             verb_suffixes = ['ть', 'ться', 'ти', 'тись']
@@ -50,17 +46,18 @@ def analyze_vocab():
             if verbs_as_nouns:
                 print(f"  !!! Found {len(verbs_as_nouns)} potential verbs marked as nouns: {', '.join(verbs_as_nouns[:10])}...")
 
-        # Check for weird themes
-        themes = {}
+        # Theme analysis
+        theme_counts = {}
         for item in items:
             t = item.get('theme', 'NONE')
-            themes[t] = themes.get(t, 0) + 1
+            theme_counts[t] = theme_counts.get(t, 0) + 1
 
-        # Check for cat/dog theme
+        # Check for specific historical data bug (animals in weather)
         for item in items:
             if item.get('word') in ['cat', 'dog', 'bird', 'fish', 'chat', 'chien', 'gatto', 'cane', 'кот', 'собака']:
                 if item.get('theme') == 'weather_A0':
                     print(f"  !!! Item '{item.get('word')}' has theme 'weather_A0'")
                     break
 
-analyze_vocab()
+if __name__ == "__main__":
+    analyze_vocab()

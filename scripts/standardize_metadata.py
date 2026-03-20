@@ -27,94 +27,74 @@ THEME_MAP = {
     "science_philosophy": "science_technology"
 }
 
-def standardize_file(file_path, var_name, category):
-    if not os.path.exists(file_path):
+CATEGORY_MAP = {
+    'vocabulary.js': ('vocabularyData', 'vocabulary'),
+    'verbs.js': ('verbsData', 'verbs'),
+    'grammar.js': ('grammarData', 'grammar'),
+    'speaking.js': ('speakingData', 'speaking'),
+    'alphabets.js': ('alphabetsData', 'alphabets'),
+    'locations.js': ('locationsData', 'locations'),
+    'people.js': ('peopleData', 'people')
+}
+
+def standardize_file(file_path):
+    file_name = os.path.basename(file_path)
+    if file_name not in CATEGORY_MAP:
         return
+
+    var_name, category = CATEGORY_MAP[file_name]
 
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    match = re.search(r'const data = (\{.*?\});', content, re.DOTALL)
-    if not match:
+    # Determine language from path
+    path_parts = file_path.split(os.sep)
+    # expected: js/data/<family>/<lang>/...
+    if len(path_parts) < 4:
         return
+    lang = path_parts[3]
 
-    data = json.loads(match.group(1))
-
-    for lang in data:
-        items = data[lang]
-        if isinstance(items, list):
-            for item in items:
+    # Handle List-based data (standard in split files)
+    list_match = re.search(r'const data = (\[.*?\]);', content, re.DOTALL)
+    if list_match:
+        data = json.loads(list_match.group(1))
+        for item in data:
+            if isinstance(item, dict):
                 if 'theme' in item:
                     item['theme'] = THEME_MAP.get(item['theme'], item['theme'])
                 if 'level' not in item:
-                    item['level'] = 'elementary'
-        elif isinstance(items, dict):
-            for subcat in items:
-                for item in items[subcat]:
-                    if 'theme' in item:
-                        item['theme'] = THEME_MAP.get(item['theme'], item['theme'])
-                    if 'level' not in item:
+                    # Try to infer level from path
+                    if len(path_parts) >= 5:
+                        item['level'] = path_parts[4]
+                    else:
                         item['level'] = 'elementary'
 
-    # Merging logic
-    merging_logic = ""
-    if category == 'vocabulary':
-        merging_logic = "window.vocabularyData = { ...window.vocabularyData, ...data };"
-    elif category == 'verbs':
-        merging_logic = """if (window.vocabularyData) {
-        for (let lang in data) {
-            if (window.vocabularyData[lang]) {
-                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...data[lang]];
-            } else {
-                window.vocabularyData[lang] = data[lang];
-            }
-        }
-    }
-    window.verbsData = { ...window.verbsData, ...data };"""
-    elif category == 'grammar':
-        merging_logic = "window.grammarData = { ...window.grammarData, ...data };"
-    elif category == 'speaking':
-        merging_logic = "window.speakingData = { ...window.speakingData, ...data };"
-    elif category == 'alphabets':
-        merging_logic = "window.alphabetsData = { ...window.alphabetsData, ...data };"
-    elif category == 'locations':
-        merging_logic = """if (window.vocabularyData) {
-        for (let lang in data) {
-            if (window.vocabularyData[lang]) {
-                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...data[lang]];
-            }
-        }
-    }
-    window.locationsData = { ...window.locationsData, ...data };"""
-    elif category == 'people':
-        merging_logic = """if (window.vocabularyData) {
-        for (let lang in data) {
-            if (window.vocabularyData[lang]) {
-                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...data[lang].map(p => ({...p, theme: 'famous_people'}))];
-            }
-        }
-    }
-    window.peopleData = { ...window.peopleData, ...data };"""
+        # Generate merging logic
+        merging_logic = f"window.{var_name} = window.{var_name} || {{}};\n    window.{var_name}[lang] = [...(window.{var_name}[lang] || []), ...data];"
 
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(f"""(function() {{
+        if category in ['verbs', 'locations', 'people']:
+            vocab_merge = "data"
+            if category == 'people':
+                vocab_merge = "data.map(p => ({...p, theme: 'famous_people'}))"
+            merging_logic += f"\n    if (window.vocabularyData) {{\n        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...{vocab_merge}];\n    }}"
+
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(f"""(function() {{
     const data = {json.dumps(data, indent=4, ensure_ascii=False)};
+    const lang = "{lang}";
     {merging_logic}
 }})();""")
+        return
+
+    # Handle single string data (alphabets)
+    str_match = re.search(r'const data = "(.*?)";', content)
+    if str_match:
+        # Alphabets usually don't need theme mapping
+        return
 
 if __name__ == "__main__":
-    families = ["germanic", "romance", "slavic", "hellenic", "turkic", "armenian", "kartvelian", "celtic"]
-    cats = [
-        ('vocabulary.js', 'vocabularyData', 'vocabulary'),
-        ('verbs.js', 'verbsData', 'verbs'),
-        ('grammar.js', 'grammarData', 'grammar'),
-        ('speaking.js', 'speakingData', 'speaking'),
-        ('alphabets.js', 'alphabetsData', 'alphabets'),
-        ('locations.js', 'locationsData', 'locations'),
-        ('people.js', 'peopleData', 'people')
-    ]
-
-    for family in families:
-        for filename, var_name, category in cats:
-            path = f"js/data/{family}/{filename}"
-            standardize_file(path, var_name, category)
+    data_root = 'js/data'
+    for root, dirs, files in os.walk(data_root):
+        for file in files:
+            if file in CATEGORY_MAP:
+                standardize_file(os.path.join(root, file))
