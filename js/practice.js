@@ -259,6 +259,16 @@ function updateThemeDescription() {
         }
     }
 
+    // NEW: Priority - Sub-theme specific description
+    if (subThemeSelect && subThemeSelect.value && subThemeSelect.value !== 'all') {
+        const subThemeDescKey = 'desc_theme_' + subThemeSelect.value;
+        if (t[subThemeDescKey]) {
+            descEl.textContent = t[subThemeDescKey];
+            descEl.style.display = 'block';
+            return;
+        }
+    }
+
     if (descKey && t[descKey]) {
         descEl.textContent = t[descKey];
         descEl.style.display = 'block';
