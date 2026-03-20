@@ -1,5 +1,6 @@
 import json
 import re
+import os
 
 THEME_MAP = {
     "popular_people": "people_society",
@@ -26,76 +27,94 @@ THEME_MAP = {
     "science_philosophy": "science_technology"
 }
 
-def get_js_obj(content, start_marker):
-    start_idx = content.find(start_marker)
-    if start_idx == -1: return None
-    start_idx += len(start_marker)
-    brace_count = 0
-    for i in range(start_idx, len(content)):
-        if content[i] == '{':
-            brace_count += 1
-        elif content[i] == '}':
-            brace_count -= 1
-            if brace_count == 0:
-                return content[start_idx:i+1]
-    return None
+def standardize_file(file_path, var_name, category):
+    if not os.path.exists(file_path):
+        return
 
-def standardize(file_path, obj_name, is_verbs=False):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
-        if is_verbs:
-            json_str = get_js_obj(content, 'const verbsData = ')
-            data = json.loads(json_str)
-        else:
-            # More robust extraction for cases like speaking.js that might have window assignment
-            match = re.search(rf'const {obj_name} = (\{{.*?\}});\s*(window\.{obj_name}|(?=$))', content, re.DOTALL)
-            if not match:
-                # Fallback to a simpler approach if the above fails
-                json_str = content.replace(f'const {obj_name} = ', '').replace(f'window.{obj_name} = {obj_name};', '').strip().rstrip(';')
-                data = json.loads(json_str)
-            else:
-                data = json.loads(match.group(1))
 
-    if isinstance(data, dict):
-        for lang in data:
-            items = data[lang]
-            if isinstance(items, list):
-                for item in items:
+    match = re.search(r'const data = (\{.*?\});', content, re.DOTALL)
+    if not match:
+        return
+
+    data = json.loads(match.group(1))
+
+    for lang in data:
+        items = data[lang]
+        if isinstance(items, list):
+            for item in items:
+                if 'theme' in item:
+                    item['theme'] = THEME_MAP.get(item['theme'], item['theme'])
+                if 'level' not in item:
+                    item['level'] = 'elementary'
+        elif isinstance(items, dict):
+            for subcat in items:
+                for item in items[subcat]:
                     if 'theme' in item:
                         item['theme'] = THEME_MAP.get(item['theme'], item['theme'])
                     if 'level' not in item:
                         item['level'] = 'elementary'
-            elif isinstance(items, dict):
-                for subcat in items:
-                    for item in items[subcat]:
-                        if 'theme' in item:
-                            item['theme'] = THEME_MAP.get(item['theme'], item['theme'])
-                        if 'level' not in item:
-                            item['level'] = 'elementary'
+
+    # Merging logic
+    merging_logic = ""
+    if category == 'vocabulary':
+        merging_logic = "window.vocabularyData = { ...window.vocabularyData, ...data };"
+    elif category == 'verbs':
+        merging_logic = """if (window.vocabularyData) {
+        for (let lang in data) {
+            if (window.vocabularyData[lang]) {
+                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...data[lang]];
+            } else {
+                window.vocabularyData[lang] = data[lang];
+            }
+        }
+    }
+    window.verbsData = { ...window.verbsData, ...data };"""
+    elif category == 'grammar':
+        merging_logic = "window.grammarData = { ...window.grammarData, ...data };"
+    elif category == 'speaking':
+        merging_logic = "window.speakingData = { ...window.speakingData, ...data };"
+    elif category == 'alphabets':
+        merging_logic = "window.alphabetsData = { ...window.alphabetsData, ...data };"
+    elif category == 'locations':
+        merging_logic = """if (window.vocabularyData) {
+        for (let lang in data) {
+            if (window.vocabularyData[lang]) {
+                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...data[lang]];
+            }
+        }
+    }
+    window.locationsData = { ...window.locationsData, ...data };"""
+    elif category == 'people':
+        merging_logic = """if (window.vocabularyData) {
+        for (let lang in data) {
+            if (window.vocabularyData[lang]) {
+                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...data[lang].map(p => ({...p, theme: 'famous_people'}))];
+            }
+        }
+    }
+    window.peopleData = { ...window.peopleData, ...data };"""
 
     with open(file_path, 'w', encoding='utf-8') as f:
-        if is_verbs:
-            f.write("(function() {\n")
-            f.write(f"    const verbsData = {json.dumps(data, indent=8, ensure_ascii=False)};\n\n")
-            f.write("    if (window.vocabularyData) {\n")
-            f.write("        for (let lang in verbsData) {\n")
-            f.write("            if (window.vocabularyData[lang]) {\n")
-            f.write("                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...verbsData[lang]];\n")
-            f.write("            } else {\n")
-            f.write("                window.vocabularyData[lang] = verbsData[lang];\n")
-            f.write("            }\n")
-            f.write("        }\n")
-            f.write("    }\n\n")
-            f.write("    window.verbsData = verbsData;\n")
-            f.write("})();")
-        else:
-            f.write(f"const {obj_name} = {json.dumps(data, indent=4, ensure_ascii=False)};\n")
-            if obj_name == 'vocabularyData':
-                f.write("window.vocabularyData = vocabularyData;")
-            elif obj_name == 'speakingData':
-                f.write("window.speakingData = speakingData;")
+        f.write(f"""(function() {{
+    const data = {json.dumps(data, indent=4, ensure_ascii=False)};
+    {merging_logic}
+}})();""")
 
 if __name__ == "__main__":
-    standardize('js/data/vocabulary.js', 'vocabularyData')
-    standardize('js/data/verbs.js', 'verbsData', is_verbs=True)
-    standardize('js/data/speaking.js', 'speakingData')
+    families = ["germanic", "romance", "slavic", "hellenic", "turkic", "armenian", "kartvelian", "celtic"]
+    cats = [
+        ('vocabulary.js', 'vocabularyData', 'vocabulary'),
+        ('verbs.js', 'verbsData', 'verbs'),
+        ('grammar.js', 'grammarData', 'grammar'),
+        ('speaking.js', 'speakingData', 'speaking'),
+        ('alphabets.js', 'alphabetsData', 'alphabets'),
+        ('locations.js', 'locationsData', 'locations'),
+        ('people.js', 'peopleData', 'people')
+    ]
+
+    for family in families:
+        for filename, var_name, category in cats:
+            path = f"js/data/{family}/{filename}"
+            standardize_file(path, var_name, category)
