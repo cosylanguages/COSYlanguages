@@ -66,46 +66,86 @@ const themeConfig = {
                 "family_life_A1": "Family life & routines"
             },
             "home_living": {
-                "home_A0": "The home (rooms & furniture)",
-                "home_A1": "The home (rent, flat, house, kitchen, clean)"
+                "rooms_of_a_home_A0": "Rooms of a home",
+                "furniture_objects_A0": "Furniture & objects",
+                "types_of_accommodation_A1": "Types of accommodation",
+                "household_tasks_A1": "Household tasks"
             },
             "food_drink": {
-                "food_drink_A0": "Food & drink",
-                "food_meals_A1": "Food & meals"
+                "basic_foods_A0": "Basic foods",
+                "drinks_A0": "Drinks",
+                "meals_of_the_day_A0": "Meals of the day",
+                "cooking_methods_A1": "Cooking methods",
+                "tastes_textures_A1": "Tastes & textures"
             },
             "health_body": {
-                "body_A0": "The body",
-                "health_A1": "Health basics"
+                "parts_of_the_body_A0": "Parts of the body",
+                "common_illnesses_symptoms_A1": "Common illnesses & symptoms",
+                "doctor_medical_appointments_A1": "Doctor & medical appointments"
             },
             "work_employment": {
-                "jobs_A0": "Basic jobs",
-                "work_A1": "Work basics"
+                "jobs_titles_professions_A0": "Job titles & professions",
+                "workplace_basics_A1": "Workplace basics",
+                "daily_work_routines_A1": "Daily work routines"
+            },
+            "education_learning":{
+                "school_subjects_A0": "School subjects",
+                "classroom_language_A0": "Classroom language",
+                "types_of_education_A1": "Types of education",
+                "learning_studying_A1": "Learning & studying"
             },
             "transport_travel": {
-                "transport_A0": "Transport",
-                "transport_A1": "Transport (tickets, journey)"
+                "modes_of_transport_A0": "Modes of transport",
+                "travel_vocabulary_basics_A0": "Travel vocabulary basics",
+                "directions_navigation_A1": "Directions & navigation"
             },
             "shopping_money": {
-                "money_A0": "Money",
-                "shopping_A1": "Shopping",
-                "numbers_money_A1": "Numbers & money"
+                "everyday_shopping_A0": "Everyday shopping",
+                "money_payment_A1": "Money & payment"
             },
             "technology_media": {
-                "technology_A1": "Technology basics"
+                "basic_technology_devices_A0": "Basic technology devices",
+                "using_a_smartphone_A1": "Using a smartphone"
+            },
+            "environment_nature": {
+                "weather_A0": "Weather",
+                "animals_A0": "Animals",
+                "plants_natural_world_A1": "Plants & natural world",
+                "seasons_climate_A1": "Seasons & climate"
+            },
+            "culture_arts": {
+                "music_A1": "Music",
+                "cinema_film_A1": "Cinema & film",
+                "books_reading_A1": "Books & reading"
             },
             "sport_leisure": {
-                "leisure_A1": "Leisure"
+                "common_sports_A0": "Common sports",
+                "sports_equipment_A1": "Sports equipment",
+                "playing_watching_sport_A1": "Playing & watching sport",
+                "leisure_activities_A1": "Leisure activities"
             },
             "feelings_emotions": {
-                "feelings_A1": "Feelings"
+                "basic_positive_emotions_A0": "Basic positive emotions",
+                "basic_negative_emotions_A0": "Basic negative emotions",
+                "surprise_interest_A1": "Surprise & interest"
             },
             "places_geography": {
-                "places_countries_cities_A0": "Countries & cities",
-                "places_shops_A1": "Shops"
+                "rooms_indoor_spaces_A0": "Rooms & indoor spaces",
+                "local_places_services_A0": "Local places & services",
+                "cities_towns_A1": "Cities & towns",
+                "countries_capitals_A1": "Countries & capitals"
             },
             "describing_things": {
-                "colours_A0": "Colours",
-                "adjectives_A0": "Basic adjectives"
+                "colours_patterns_A0": "Colours & patterns",
+                "size_shape_A0": "Size & shape"
+            },
+            "clothes_appearance": {
+                "items_of_clothing_A0": "Items of clothing",
+                "acccessories_A1": "Accessories",
+                "dressing_style_A1": "Dressing & style"
+            },
+            "opinion_debate": {
+                "giving_opinions_A1": "Giving opinions"
             }
         }
     },
@@ -129,40 +169,76 @@ const themeConfig = {
             },
             "home_living": {
                 "property_A2": "Renting & buying property",
+                "home_repairs_maintenance_A2": "Home repairs & maintenance",
+                "moving_home_A2": "Moving home",
                 "neighbourhood_A2": "The neighbourhood & community"
             },
             "food_drink": {
-                "food_nutrition_A2": "Food, diet & nutrition"
+                "restaurants_ordering_A2": "Restaurants & ordering",
+                "shopping_for_food_A2": "Shopping for food",
+                "diet_nutrition_A2": "Diet & nutrition"
             },
             "health_body": {
-                "health_body_A2": "Health & the body"
+                "exercise_fitness_A2": "Exercise & fitness",
+                "diet_healthy_eating_A2": "Diet & healthy eating"
             },
             "work_employment": {
-                "career_A2": "Career & workplace"
+                "job_applications_interviews_A2": "Job applications & interviews",
+                "career_development_A2": "Career development"
+             },
+            "education_learning":{
+                "qualifications_exams_A0": "Qualifications & exams"
             },
             "transport_travel": {
-                "transport_travel_A2": "Transport & travel"
+                "booking_planning_a_trip_A2": "Booking & planning a trip",
+                "holiday_types_A2": "Holiday types",
+                "accommodation_A2": "Accommodation",
+                "at_the_airport_A2": "At the airport"
             },
             "shopping_money": {
                 "finances_A2": "Personal finances",
-                "shopping_consumerism_A2": "Shopping & consumerism"
+                "bankingA2": "Banking"
             },
             "technology_media": {
-                "technology_A2": "Technology in daily life"
+                "internet_social_media_A2": "The internet & social media",
+                "news_media_A2": "News & media"
             },
-            "environment_nature": {
-                "environment_A2": "The environment (basic)"
+            "society_politics": {
+                "community_neighbourhood_A2": "Community & neighbourhood",
+                "customs_traditions_A2": "Customs & traditions"
+            },
+            "culture_arts": {
+                "basic_science_A2": "Basic science vocabulary",
+                "human_body_A2": "The human body"
+            },
+            "science_tech": {
+                "art_design_A2": "Art & design",
+                "theatre_performance_A2": "Theatre & performance",
             },
             "sport_leisure": {
-                "leisure_hobbies_A2": "Leisure & hobbies"
+                "exercise_fitness_A2": "Exercise & fitness"
+            },
+            "feelings_emotions": {
+                "social_emotions_A2": "Social emotions",
+                "emotional_intensity_A2": "Emotional intensity",
             },
             "places_geography": {
-                "places_buildings_activities_A2": "Buildings & activities",
-                "places_streets_locations_A2": "Streets & locations"
+                "landscape_geography_A2": "Landscape & geography",
+                "directions_location_A2": "Directions & location"
+            },
+            "describing_things": {
+                "materials_textures_A2": "Materials & textures",
+                "condition_state_A2": "Condition & state"
+            },
+            "clothes_appearance": {
+                "shopping_for_clothes_A0": "Shopping for clothes"
             },
             "modifiers_intensifiers": {
                 "quantities_A2": "Quantities & frequency"
             },
+            "opinion_debate": {
+                "giving_opinions_A1": "Giving opinions"
+            }
             "time": {
                 "past_time_A2": "Past time expressions",
                 "future_time_A2": "Future time expressions",
@@ -322,19 +398,19 @@ const themeConfig = {
             "language_communication": {
                 "rhetoric_persuasion_C2": "Rhetoric & persuasion devices"
             },
-            "opinion_debate": {
-                "meta_argument_C2": "Meta-argument vocabulary"
-            },
             "ethics_philosophy": {
-                "ontology_metaphysics_C2": "Ontology & metaphysics",
-                "epistemology_truth_C2": "Epistemology & truth",
-                "political_theory_C2": "Political theory (advanced)",
+                "ontology_existence_C2": "Ontology & existence",
+                "epistemology_knowledge_C2": "Epistemology & knowledge",
+                "political_theory_C2": "Political theory",
                 "philosophy_language_C2": "Philosophy of language",
-                "ethics_advanced_C2": "Ethics (advanced)",
+                "ethics_advanced_C2": "Ethics",
                 "mortality_time_C2": "Mortality & time"
             },
             "health_body": {
                 "psychoanalysis_unconscious_C2": "Psychoanalysis & the unconscious"
+            },
+            "opinion_debate": {
+                "meta_argument_deconstruction_C2": "Meta-argument & deconstruction"
             }
         }
     }
