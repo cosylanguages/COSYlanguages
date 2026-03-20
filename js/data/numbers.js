@@ -56,18 +56,18 @@ window.numbersData = {
         milestones: { 200: "duzentos", 300: "trezentos", 400: "quatrocentos", 500: "quinhentos", 600: "seiscentos", 700: "setecentos", 800: "oitocentos", 900: "novecentos", 2000: "dois mil", 5000: "cinco mil", 10000: "dez mil" }
     },
     hy: {
-        0: "զրո", 1: "մեկ", 2: "երկու", 3: "երեք", 4: "չորս", 5: "հինգ", 6: "վեց", 7: "յոթ", 8: "ութ", 9: "ինը", 10: "տασը",
-        11: "տասնմեկ", 12: "տասներկու", 13: "տասներեք", 14: "տասնչորս", 15: "տասնհինգ", 16: "տասնվեց", 17: "տասնյոթ", 18: "տասնութ", 19: "տասնինը", 20: "քսαν",
+        0: "զրո", 1: "մեկ", 2: "երկու", 3: "երեք", 4: "չորս", 5: "հինգ", 6: "վեց", 7: "յոթ", 8: "ութ", 9: "ինը", 10: "տասը",
+        11: "տասնմեկ", 12: "տասներկու", 13: "տասներեք", 14: "տասնչորս", 15: "տասնհինգ", 16: "տասնվեց", 17: "տասնյոթ", 18: "տասնութ", 19: "տասնինը", 20: "քսան",
         tens: { 20: "քսαν", 30: "երեսուն", 40: "քառասուն", 50: "հիսուն", 60: "վաթսուն", 70: "յոթանասուն", 80: "ութսուն", 90: "իննսուն" },
         100: "հարյուր", 1000: "հազար",
-        milestones: { 200: "երկու հարյուր", 300: "երեք հαρյուր", 400: "չորս հարյուր", 500: "հինգ հարյուր", 600: "վեց հարյուր", 700: "յոթ հարյուր", 800: "ութ հարյուր", 900: "ինը հարյուր", 2000: "երկու հազար", 5000: "հինγ հազար", 10000: "տասը հազար" }
+        milestones: { 200: "երկու հարյուր", 300: "երեք հարյուր", 400: "չորս հարյուր", 500: "հինգ հարյուր", 600: "վեց հարյուր", 700: "յոթ հարյուր", 800: "ութ հարյուր", 900: "ինը հարյուր", 2000: "երկու հազար", 5000: "հինγ հազար", 10000: "տասը հազար" }
     },
     ka: {
         0: "ნული", 1: "ერთი", 2: "ორი", 3: "სამი", 4: "ოთხი", 5: "ხუთი", 6: "ექვსი", 7: "შვიდი", 8: "რვა", 9: "ცხრა", 10: "ათი",
         11: "თერთმეტი", 12: "თორმეტი", 13: "ცამეტი", 14: "თოთხმეტი", 15: "თხუთმეტი", 16: "თექვსმეტი", 17: "ჩვიდმეტი", 18: "თვრამეტი", 19: "ცხრამეტი", 20: "ოცი",
         tens: { 20: "ოცი", 30: "ოცდაათი", 40: "ორმოცი", 50: "ორმოცდაათი", 60: "სამოცი", 70: "სამოცდაათი", 80: "ოთხმოცი", 90: "ოთხმოცდაათი" },
         100: "ასი", 1000: "ათასი",
-        milestones: { 200: "ორასი", 300: "სამასი", 400: "ოთხასი", 500: "ხუთასი", 600: "ექვსასი", 700: "შვიდასი", 800: "რვაასი", 900: "ცხραასი", 2000: "ორი ათასი", 5000: "ხუთი ათასი", 10000: "ათი ათასი" }
+        milestones: { 200: "ორასი", 300: "სამასი", 400: "ოთხასი", 500: "ხუთასი", 600: "ექვსასი", 700: "შვიდასი", 800: "რვაასი", 900: "ცხრაასი", 2000: "ორი ათასი", 5000: "ხუთი ათასი", 10000: "ათი ათასი" }
     },
     tt: {
         0: "ноль", 1: "бер", 2: "ике", 3: "өч", 4: "дүрт", 5: "биш", 6: "алты", 7: "җиде", 8: "сигез", 9: "тугыз", 10: "ун",
@@ -91,3 +91,117 @@ window.numbersData = {
         milestones: { 200: "daou c'hant", 300: "tri c'hant", 400: "pevar c'hant", 500: "pemp kant", 600: "c'hwec'h kant", 700: "seizh kant", 800: "eizh kant", 900: "nav c'hant", 2000: "daou vil", 5000: "pemp mil", 10000: "dek mil" }
     }
 };
+
+/**
+ * Procedural number word generator shared across games and vocab generation.
+ */
+window.getNumberWord = function(n, lang) {
+    const data = window.numbersData && window.numbersData[lang];
+    if (!data) return n.toString();
+    if (data[n]) return data[n];
+
+    const milestones = data.milestones || {};
+    if (milestones[n]) return milestones[n];
+
+    if (n < 100) {
+        const tensVal = Math.floor(n / 10) * 10;
+        const unitsVal = n % 10;
+        const tensWord = data.tens ? data.tens[tensVal] : "";
+        const unitsWord = data[unitsVal];
+
+        if (unitsVal === 0) return tensWord || n.toString();
+
+        if (lang === 'fr') {
+            if (n >= 70 && n <= 79) return data.tens[60] + "-" + getNumberWord(n - 60, lang);
+            if (n >= 80 && n <= 89) {
+                const base = data.tens[80]; // "quatre-vingts"
+                return base.replace(/s$/, "") + "-" + unitsWord; // Drop "s"
+            }
+            if (n >= 90 && n <= 99) return data.tens[80].replace(/s$/, "") + "-" + getNumberWord(n - 80, lang);
+            return tensWord + "-" + unitsWord;
+        }
+        if (lang === 'de') {
+            const adjustedUnits = (unitsVal === 1) ? "ein" : unitsWord;
+            return adjustedUnits + "und" + tensWord;
+        }
+        if (lang === 'es') return (n < 30) ? data[n] : (tensWord + " y " + unitsWord);
+        if (lang === 'it') {
+            if (unitsVal === 1 || unitsVal === 8) return tensWord.slice(0, -1) + unitsWord;
+            return tensWord + unitsWord;
+        }
+        if (lang === 'br') { // Breton vigesimal
+            if (n === 30) return "tregont";
+            if (n > 20 && n < 40) return unitsWord + " warn ugent";
+            if (n > 40 && n < 60) return unitsWord + " ha daou-ugent";
+            if (n > 60 && n < 80) return unitsWord + " ha tri-ugent";
+            if (n > 80 && n < 100) return unitsWord + " ha pevar-ugent";
+            return tensWord + " " + unitsWord;
+        }
+
+        // Defaults: RU, EN, EL, etc.
+        const joiner = (lang === 'ru' || lang === 'el' || lang === 'ka' || lang === 'hy' || lang === 'tt' || lang === 'ba') ? " " : "-";
+        return tensWord + joiner + unitsWord;
+    }
+
+    if (n < 1000) {
+        const hundreds = Math.floor(n / 100) * 100;
+        const remainder = n % 100;
+        if (remainder === 0) return milestones[hundreds] || (getNumberWord(Math.floor(n/100), lang) + " " + data[100]);
+        return (milestones[hundreds] || getNumberWord(Math.floor(n/100), lang) + " " + data[100]) + " " + getNumberWord(remainder, lang);
+    }
+
+    return n.toString();
+}
+
+window.getDigitEmoji = function(n) {
+    const map = {
+        '0': '0️⃣', '1': '1️⃣', '2': '2️⃣', '3': '3️⃣', '4': '4️⃣',
+        '5': '5️⃣', '6': '6️⃣', '7': '7️⃣', '8': '8️⃣', '9': '9️⃣'
+    };
+    return n.toString().split('').map(d => map[d] || d).join('');
+}
+
+const numbersVocab = {};
+
+// Procedurally generate numbers 0-100 for all supported languages
+(function() {
+    const languages = Object.keys(window.numbersData);
+    languages.forEach(lang => {
+        numbersVocab[lang] = [];
+        for (let i = 0; i <= 100; i++) {
+            let theme = "numbers_20_99_A0";
+            if (i <= 9) theme = "numbers_0_9_A0";
+            else if (i <= 19) theme = "numbers_10_19_A0";
+            else if (i === 100) theme = "numbers_100_999_A1";
+
+            numbersVocab[lang].push({
+                word: getNumberWord(i, lang),
+                digit: i.toString(),
+                level: "starter",
+                theme: theme,
+                emoji: getDigitEmoji(i),
+                form: "noun"
+            });
+        }
+        // Add 1000 separately
+        numbersVocab[lang].push({
+            word: getNumberWord(1000, lang),
+            digit: "1000",
+            level: "starter",
+            theme: "numbers_1000_plus_A1",
+            emoji: "1️⃣0️⃣0️⃣0️⃣",
+            form: "noun"
+        });
+    });
+
+    if (window.vocabularyData) {
+        for (let lang in numbersVocab) {
+            if (window.vocabularyData[lang]) {
+                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...numbersVocab[lang]];
+            } else {
+                window.vocabularyData[lang] = numbersVocab[lang];
+            }
+        }
+    }
+    window.numbersVocab = numbersVocab;
+})();

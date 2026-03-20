@@ -238,7 +238,7 @@ const themeConfig = {
             },
             "opinion_debate": {
                 "giving_opinions_A1": "Giving opinions"
-            }
+            },
             "time": {
                 "past_time_A2": "Past time expressions",
                 "future_time_A2": "Future time expressions",

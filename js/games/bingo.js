@@ -104,7 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const updateDisplay = (container, val) => {
                 if (!container) return;
                 if (contentType === 'words' && typeof val === 'number') {
-                    container.innerHTML = `<div class="loto-ball">${val}</div>`;
+                    const word = window.gameUtils.getNumberWord(val, lang);
+                    container.innerHTML = `<div class="loto-ball" style="font-size: 0.8rem; padding: 5px;">${word}</div>`;
                 } else {
                     container.textContent = val;
                 }
@@ -218,10 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 let displayValue = item;
                 if (contentType === 'words' && typeof item === 'number') {
-                    const langData = window.numbersData && window.numbersData[lang];
-                    if (langData && langData[item]) {
-                        displayValue = langData[item];
-                    }
+                    displayValue = window.gameUtils.getNumberWord(item, lang);
                 }
 
                 cell.textContent = displayValue;
@@ -281,7 +279,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     if (playerLastCalled) {
                         if (contentType === 'words' && typeof item === 'number') {
-                            playerLastCalled.innerHTML = `<div class="loto-ball">${item}</div>`;
+                            const word = window.gameUtils.getNumberWord(item, lang);
+                            playerLastCalled.innerHTML = `<div class="loto-ball" style="font-size: 0.8rem; padding: 5px;">${word}</div>`;
                         } else {
                             playerLastCalled.textContent = item;
                         }

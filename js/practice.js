@@ -1138,37 +1138,31 @@ function startPractice(isWheelMode = false) {
     } else {
         rawItems = [...(vocabularyData[lang] || [])];
 
-        // Enhanced procedural numbers logic
+        // Enhanced procedural numbers logic for variety
         const langData = window.numbersData && window.numbersData[lang];
         if (langData) {
             const addNum = (n, theme, level = 'starter') => {
                 const word = window.gameUtils.getNumberWord(n, lang);
+                // Check if already in rawItems to avoid duplicates (static numbers are already in vocabularyData)
+                if (rawItems.some(item => item.word === word)) return;
+
                 rawItems.push({
                     word: word,
+                    digit: n.toString(),
                     level: level,
                     theme: theme,
-                    form: 'noun',
-                    definitions: [{ text: n.toString() }]
+                    form: 'noun'
                 });
             };
 
-            // 0-9
-            for(let i=0; i<=9; i++) addNum(i, 'numbers_0_9_A0');
-            // 10-19
-            for(let i=10; i<=19; i++) addNum(i, 'numbers_10_19_A0');
-            // 20-99
-            for(let i=20; i<=99; i+= (i<30 ? 1 : 10)) {
-                addNum(i, 'numbers_20_99_A0');
-                if (i >= 30 && i < 90) addNum(i+5, 'numbers_20_99_A0'); // Add some non-round ones
-            }
-            // 100-999 Procedural
-            for(let i=0; i<20; i++) {
-                const n = Math.floor(Math.random() * 900) + 100;
+            // 101-999 Procedural (0-100 are already in numbersVocab)
+            for(let i=0; i<15; i++) {
+                const n = Math.floor(Math.random() * 898) + 101;
                 addNum(n, 'numbers_100_999_A1', 'starter');
             }
-            // 1,000+ Procedural
-            for(let i=0; i<20; i++) {
-                const n = Math.floor(Math.random() * 9000) + 1000;
+            // 1,001+ Procedural (1000 is already in numbersVocab)
+            for(let i=0; i<10; i++) {
+                const n = Math.floor(Math.random() * 8998) + 1001;
                 addNum(n, 'numbers_1000_plus_A1', 'starter');
             }
         }
@@ -1641,11 +1635,11 @@ function showNextWord() {
 
     if (wordObj.type === 'type-mc' || wordObj.type === 'type-ls') {
         const isListen = wordObj.type === 'type-ls';
-        let text = isListen ? '???' : (wordObj.clozeText || wordObj.primaryPrompt || wordObj.word || wordObj.text || wordObj.topic);
+        let text = isListen ? '???' : (wordObj.clozeText || wordObj.primaryPrompt || wordObj.digit || wordObj.word || wordObj.text || wordObj.topic);
         let sub = wordObj.secondaryContext || (isListen ? "" : wordObj.subtext);
 
         // Fix redundancy: hide target word for MC vocab if emoji is present
-        if (!isListen && (wordObj.category === 'vocabulary' || !wordObj.category || wordObj.category === 'conversation') && wordObj.emoji && !wordObj.primaryPrompt && !wordObj.clozeText) {
+        if (!isListen && (wordObj.category === 'vocabulary' || !wordObj.category || wordObj.category === 'conversation') && wordObj.emoji && !wordObj.primaryPrompt && !wordObj.clozeText && !wordObj.digit) {
             text = "???";
         }
 
@@ -1666,11 +1660,11 @@ function showNextWord() {
         }
     } else if (wordObj.type === 'type-cl' || wordObj.type === 'type-np') {
         const isNP = wordObj.type === 'type-np';
-        let text = wordObj.clozeText || wordObj.primaryPrompt || wordObj.word || wordObj.text || wordObj.topic || (isNP ? wordObj.numberPlural || "" : "");
+        let text = wordObj.clozeText || wordObj.primaryPrompt || wordObj.digit || wordObj.word || wordObj.text || wordObj.topic || (isNP ? wordObj.numberPlural || "" : "");
         let sub = wordObj.secondaryContext || "";
 
         // Fix redundancy for typing tasks too
-        if ((wordObj.category === 'vocabulary' || !wordObj.category) && wordObj.emoji && !wordObj.primaryPrompt && !wordObj.clozeText) {
+        if ((wordObj.category === 'vocabulary' || !wordObj.category) && wordObj.emoji && !wordObj.primaryPrompt && !wordObj.clozeText && !wordObj.digit) {
             text = "???";
         }
 
