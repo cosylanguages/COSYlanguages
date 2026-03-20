@@ -1,6 +1,9 @@
 import { test, expect } from '@playwright/test';
 
 test('Practice Mode filtering by level and theme', async ({ page }) => {
+    page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+    page.on('pageerror', err => console.log('PAGE ERROR:', err.message));
+
     await page.goto('http://localhost:8080/practice.html');
 
     // Select Language

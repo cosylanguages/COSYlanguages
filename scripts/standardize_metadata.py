@@ -1,5 +1,6 @@
 import json
 import re
+import os
 
 THEME_MAP = {
     "popular_people": "people_society",
@@ -26,76 +27,74 @@ THEME_MAP = {
     "science_philosophy": "science_technology"
 }
 
-def get_js_obj(content, start_marker):
-    start_idx = content.find(start_marker)
-    if start_idx == -1: return None
-    start_idx += len(start_marker)
-    brace_count = 0
-    for i in range(start_idx, len(content)):
-        if content[i] == '{':
-            brace_count += 1
-        elif content[i] == '}':
-            brace_count -= 1
-            if brace_count == 0:
-                return content[start_idx:i+1]
-    return None
+CATEGORY_MAP = {
+    'vocabulary.js': ('vocabularyData', 'vocabulary'),
+    'verbs.js': ('verbsData', 'verbs'),
+    'grammar.js': ('grammarData', 'grammar'),
+    'speaking.js': ('speakingData', 'speaking'),
+    'alphabets.js': ('alphabetsData', 'alphabets'),
+    'locations.js': ('locationsData', 'locations'),
+    'people.js': ('peopleData', 'people')
+}
 
-def standardize(file_path, obj_name, is_verbs=False):
+def standardize_file(file_path):
+    file_name = os.path.basename(file_path)
+    if file_name not in CATEGORY_MAP:
+        return
+
+    var_name, category = CATEGORY_MAP[file_name]
+
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
-        if is_verbs:
-            json_str = get_js_obj(content, 'const verbsData = ')
-            data = json.loads(json_str)
-        else:
-            # More robust extraction for cases like speaking.js that might have window assignment
-            match = re.search(rf'const {obj_name} = (\{{.*?\}});\s*(window\.{obj_name}|(?=$))', content, re.DOTALL)
-            if not match:
-                # Fallback to a simpler approach if the above fails
-                json_str = content.replace(f'const {obj_name} = ', '').replace(f'window.{obj_name} = {obj_name};', '').strip().rstrip(';')
-                data = json.loads(json_str)
-            else:
-                data = json.loads(match.group(1))
 
-    if isinstance(data, dict):
-        for lang in data:
-            items = data[lang]
-            if isinstance(items, list):
-                for item in items:
-                    if 'theme' in item:
-                        item['theme'] = THEME_MAP.get(item['theme'], item['theme'])
-                    if 'level' not in item:
+    # Determine language from path
+    path_parts = file_path.split(os.sep)
+    # expected: js/data/<family>/<lang>/...
+    if len(path_parts) < 4:
+        return
+    lang = path_parts[3]
+
+    # Handle List-based data (standard in split files)
+    list_match = re.search(r'const data = (\[.*?\]);', content, re.DOTALL)
+    if list_match:
+        data = json.loads(list_match.group(1))
+        for item in data:
+            if isinstance(item, dict):
+                if 'theme' in item:
+                    item['theme'] = THEME_MAP.get(item['theme'], item['theme'])
+                if 'level' not in item:
+                    # Try to infer level from path
+                    if len(path_parts) >= 5:
+                        item['level'] = path_parts[4]
+                    else:
                         item['level'] = 'elementary'
-            elif isinstance(items, dict):
-                for subcat in items:
-                    for item in items[subcat]:
-                        if 'theme' in item:
-                            item['theme'] = THEME_MAP.get(item['theme'], item['theme'])
-                        if 'level' not in item:
-                            item['level'] = 'elementary'
 
-    with open(file_path, 'w', encoding='utf-8') as f:
-        if is_verbs:
-            f.write("(function() {\n")
-            f.write(f"    const verbsData = {json.dumps(data, indent=8, ensure_ascii=False)};\n\n")
-            f.write("    if (window.vocabularyData) {\n")
-            f.write("        for (let lang in verbsData) {\n")
-            f.write("            if (window.vocabularyData[lang]) {\n")
-            f.write("                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...verbsData[lang]];\n")
-            f.write("            } else {\n")
-            f.write("                window.vocabularyData[lang] = verbsData[lang];\n")
-            f.write("            }\n")
-            f.write("        }\n")
-            f.write("    }\n\n")
-            f.write("    window.verbsData = verbsData;\n")
-            f.write("})();")
-        else:
-            f.write(f"const {obj_name} = {json.dumps(data, indent=4, ensure_ascii=False)};\n")
-            if obj_name == 'vocabularyData':
-                f.write("window.vocabularyData = vocabularyData;")
-            elif obj_name == 'speakingData':
-                f.write("window.speakingData = speakingData;")
+        # Generate merging logic
+        merging_logic = f"window.{var_name} = window.{var_name} || {{}};\n    window.{var_name}[lang] = [...(window.{var_name}[lang] || []), ...data];"
+
+        if category in ['verbs', 'locations', 'people']:
+            vocab_merge = "data"
+            if category == 'people':
+                vocab_merge = "data.map(p => ({...p, theme: 'famous_people'}))"
+            merging_logic += f"\n    if (window.vocabularyData) {{\n        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...{vocab_merge}];\n    }}"
+
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(f"""(function() {{
+    const data = {json.dumps(data, indent=4, ensure_ascii=False)};
+    const lang = "{lang}";
+    {merging_logic}
+}})();""")
+        return
+
+    # Handle single string data (alphabets)
+    str_match = re.search(r'const data = "(.*?)";', content)
+    if str_match:
+        # Alphabets usually don't need theme mapping
+        return
 
 if __name__ == "__main__":
-    standardize('js/data/vocabulary.js', 'vocabularyData')
-    standardize('js/data/verbs.js', 'verbsData', is_verbs=True)
-    standardize('js/data/speaking.js', 'speakingData')
+    data_root = 'js/data'
+    for root, dirs, files in os.walk(data_root):
+        for file in files:
+            if file in CATEGORY_MAP:
+                standardize_file(os.path.join(root, file))
