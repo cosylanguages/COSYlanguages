@@ -7,7 +7,7 @@ window.updateCategoryUI = function() {
     container.classList.remove('cat-vocab', 'cat-grammar', 'cat-speaking');
     container.classList.add('cat-' + categoryId);
 
-    populateThemes(categoryId);
+    populatePracticeThemes(categoryId);
 
     const taskCheckboxes = document.querySelectorAll('.advanced-options input[type="checkbox"]');
 
@@ -82,7 +82,7 @@ function clearSession() {
     localStorage.removeItem(SESSION_STORAGE_KEY);
 }
 
-function populateThemes(categoryId) {
+function populatePracticeThemes(categoryId) {
     const themeSelect = document.getElementById('practice-theme');
     const levelSelect = document.getElementById('practice-level');
     if (!themeSelect || !levelSelect) return;

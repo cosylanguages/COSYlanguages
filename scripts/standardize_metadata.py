@@ -1,4 +1,5 @@
 import json
+import re
 
 THEME_MAP = {
     "popular_people": "people_society",
@@ -25,11 +26,35 @@ THEME_MAP = {
     "science_philosophy": "science_technology"
 }
 
-def standardize(file_path, obj_name):
-    with open(file_path, 'r') as f:
+def get_js_obj(content, start_marker):
+    start_idx = content.find(start_marker)
+    if start_idx == -1: return None
+    start_idx += len(start_marker)
+    brace_count = 0
+    for i in range(start_idx, len(content)):
+        if content[i] == '{':
+            brace_count += 1
+        elif content[i] == '}':
+            brace_count -= 1
+            if brace_count == 0:
+                return content[start_idx:i+1]
+    return None
+
+def standardize(file_path, obj_name, is_verbs=False):
+    with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
-        json_str = content.replace(f'const {obj_name} = ', '').strip().rstrip(';')
-        data = json.loads(json_str)
+        if is_verbs:
+            json_str = get_js_obj(content, 'const verbsData = ')
+            data = json.loads(json_str)
+        else:
+            # More robust extraction for cases like speaking.js that might have window assignment
+            match = re.search(rf'const {obj_name} = (\{{.*?\}});\s*(window\.{obj_name}|(?=$))', content, re.DOTALL)
+            if not match:
+                # Fallback to a simpler approach if the above fails
+                json_str = content.replace(f'const {obj_name} = ', '').replace(f'window.{obj_name} = {obj_name};', '').strip().rstrip(';')
+                data = json.loads(json_str)
+            else:
+                data = json.loads(match.group(1))
 
     if isinstance(data, dict):
         for lang in data:
@@ -48,8 +73,29 @@ def standardize(file_path, obj_name):
                         if 'level' not in item:
                             item['level'] = 'elementary'
 
-    with open(file_path, 'w') as f:
-        f.write(f"const {obj_name} = {json.dumps(data, indent=4, ensure_ascii=False)};")
+    with open(file_path, 'w', encoding='utf-8') as f:
+        if is_verbs:
+            f.write("(function() {\n")
+            f.write(f"    const verbsData = {json.dumps(data, indent=8, ensure_ascii=False)};\n\n")
+            f.write("    if (window.vocabularyData) {\n")
+            f.write("        for (let lang in verbsData) {\n")
+            f.write("            if (window.vocabularyData[lang]) {\n")
+            f.write("                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...verbsData[lang]];\n")
+            f.write("            } else {\n")
+            f.write("                window.vocabularyData[lang] = verbsData[lang];\n")
+            f.write("            }\n")
+            f.write("        }\n")
+            f.write("    }\n\n")
+            f.write("    window.verbsData = verbsData;\n")
+            f.write("})();")
+        else:
+            f.write(f"const {obj_name} = {json.dumps(data, indent=4, ensure_ascii=False)};\n")
+            if obj_name == 'vocabularyData':
+                f.write("window.vocabularyData = vocabularyData;")
+            elif obj_name == 'speakingData':
+                f.write("window.speakingData = speakingData;")
 
-standardize('js/data/vocabulary.js', 'vocabularyData')
-standardize('js/data/speaking.js', 'speakingData')
+if __name__ == "__main__":
+    standardize('js/data/vocabulary.js', 'vocabularyData')
+    standardize('js/data/verbs.js', 'verbsData', is_verbs=True)
+    standardize('js/data/speaking.js', 'speakingData')

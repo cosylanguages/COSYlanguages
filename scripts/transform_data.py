@@ -76,28 +76,53 @@ with open('js/data/alphabets.js', 'w') as f:
 with open('js/data/curriculum.js', 'w') as f:
     f.write(f"const lessonsData = {json.dumps(all_data['lessonsData'], indent=4, ensure_ascii=False)};")
 
-# 3. vocabulary.js
+# 3. vocabulary.js & verbs.js
 vocabularyData = {}
+verbsData = {}
 for lang in languages:
     flat_list = []
+    verbs_list = []
     # From gamesData
     d1 = all_data['gamesData'].get(lang, {})
     for theme_key, items in d1.items():
         new_theme = THEME_MAP.get(theme_key, theme_key)
         for item in items:
             item['theme'] = new_theme
-            flat_list.append(item)
+            if item.get('form') == 'verb':
+                verbs_list.append(item)
+            else:
+                flat_list.append(item)
     # From extendedCurriculumData
     d2 = all_data['extendedCurriculumData'].get(lang, {})
     for theme_key, items in d2.items():
         new_theme = THEME_MAP.get(theme_key, theme_key)
         for item in items:
             item['theme'] = new_theme
-            flat_list.append(item)
+            if item.get('form') == 'verb':
+                verbs_list.append(item)
+            else:
+                flat_list.append(item)
     vocabularyData[lang] = flat_list
+    verbsData[lang] = verbs_list
 
 with open('js/data/vocabulary.js', 'w') as f:
-    f.write(f"const vocabularyData = {json.dumps(vocabularyData, indent=4, ensure_ascii=False)};")
+    f.write(f"const vocabularyData = {json.dumps(vocabularyData, indent=4, ensure_ascii=False)};\n")
+    f.write("window.vocabularyData = vocabularyData;")
+
+with open('js/data/verbs.js', 'w') as f:
+    f.write("(function() {\n")
+    f.write(f"    const verbsData = {json.dumps(verbsData, indent=8, ensure_ascii=False)};\n\n")
+    f.write("    if (window.vocabularyData) {\n")
+    f.write("        for (let lang in verbsData) {\n")
+    f.write("            if (window.vocabularyData[lang]) {\n")
+    f.write("                window.vocabularyData[lang] = [...window.vocabularyData[lang], ...verbsData[lang]];\n")
+    f.write("            } else {\n")
+    f.write("                window.vocabularyData[lang] = verbsData[lang];\n")
+    f.write("            }\n")
+    f.write("        }\n")
+    f.write("    }\n\n")
+    f.write("    window.verbsData = verbsData;\n")
+    f.write("})();")
 
 # 4. speaking.js
 speakingData = {}
