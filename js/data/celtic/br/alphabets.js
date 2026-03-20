@@ -1,5 +1,5 @@
 (function() {
-    const data = "abcdefghijklmnoprstuvwyz";
+    const data = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÑñÂâÊêÎîÔôÛûÙùÜü";
     const lang = "br";
     window.alphabetsData = window.alphabetsData || {};
     window.alphabetsData[lang] = data;

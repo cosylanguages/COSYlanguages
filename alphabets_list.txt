@@ -1,0 +1,13 @@
+js/data/armenian/hy/alphabets.js
+js/data/celtic/br/alphabets.js
+js/data/germanic/de/alphabets.js
+js/data/germanic/en/alphabets.js
+js/data/hellenic/el/alphabets.js
+js/data/kartvelian/ka/alphabets.js
+js/data/romance/es/alphabets.js
+js/data/romance/fr/alphabets.js
+js/data/romance/it/alphabets.js
+js/data/romance/pt/alphabets.js
+js/data/slavic/ru/alphabets.js
+js/data/turkic/ba/alphabets.js
+js/data/turkic/tt/alphabets.js
