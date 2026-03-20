@@ -20,8 +20,8 @@ test('Practice Mode filtering by level and theme', async ({ page }) => {
 
     // Wait for the sub-themes to be populated and select one
     const subThemeSelect = page.locator('#practice-sub-theme');
-    await subThemeSelect.locator('option[value="food_nutrition_A2"]').waitFor({ state: 'attached', timeout: 10000 });
-    await page.selectOption('#practice-sub-theme', 'food_nutrition_A2');
+    await subThemeSelect.locator('option[value="diet_nutrition_A2"]').waitFor({ state: 'attached', timeout: 10000 });
+    await page.selectOption('#practice-sub-theme', 'diet_nutrition_A2');
 
     // Start Practice
     await page.click('#start-btn');

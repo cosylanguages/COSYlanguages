@@ -1,258 +1,6 @@
 const vocabularyData = {
     "en": [
         {
-            "word": "zero",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "0"
-                }
-            ]
-        },
-        {
-            "word": "one",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "1"
-                }
-            ]
-        },
-        {
-            "word": "two",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "2"
-                }
-            ]
-        },
-        {
-            "word": "three",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "3"
-                }
-            ]
-        },
-        {
-            "word": "four",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "4"
-                }
-            ]
-        },
-        {
-            "word": "five",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "5"
-                }
-            ]
-        },
-        {
-            "word": "six",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "6"
-                }
-            ]
-        },
-        {
-            "word": "seven",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "7"
-                }
-            ]
-        },
-        {
-            "word": "eight",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "8"
-                }
-            ]
-        },
-        {
-            "word": "nine",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "9"
-                }
-            ]
-        },
-        {
-            "word": "ten",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "10"
-                }
-            ]
-        },
-        {
-            "word": "eleven",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "11"
-                }
-            ]
-        },
-        {
-            "word": "twelve",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "12"
-                }
-            ]
-        },
-        {
-            "word": "thirteen",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "13"
-                }
-            ]
-        },
-        {
-            "word": "fourteen",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "14"
-                }
-            ]
-        },
-        {
-            "word": "fifteen",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "15"
-                }
-            ]
-        },
-        {
-            "word": "sixteen",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "16"
-                }
-            ]
-        },
-        {
-            "word": "seventeen",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "17"
-                }
-            ]
-        },
-        {
-            "word": "eighteen",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "18"
-                }
-            ]
-        },
-        {
-            "word": "nineteen",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "19"
-                }
-            ]
-        },
-        {
-            "word": "twenty",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "20"
-                }
-            ]
-        },
-        {
             "word": "doctor",
             "level": "starter",
             "theme": "jobs_A0",
@@ -537,7 +285,7 @@ const vocabularyData = {
         {
             "word": "burger",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍔",
             "form": "noun",
             "plural": "burgers",
@@ -583,7 +331,7 @@ const vocabularyData = {
         {
             "word": "taco",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🌮",
             "form": "noun",
             "plural": "tacos",
@@ -629,7 +377,7 @@ const vocabularyData = {
         {
             "word": "salad",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🥗",
             "form": "noun",
             "plural": "salads",
@@ -711,7 +459,7 @@ const vocabularyData = {
         {
             "word": "cheese",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🧀",
             "form": "noun",
             "plural": "cheese",
@@ -780,7 +528,7 @@ const vocabularyData = {
         {
             "word": "rice",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍚",
             "form": "noun",
             "plural": "rice",
@@ -803,7 +551,7 @@ const vocabularyData = {
         {
             "word": "tomato",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍅",
             "form": "noun",
             "plural": "tomatoes",
@@ -826,7 +574,7 @@ const vocabularyData = {
         {
             "word": "potato",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🥔",
             "form": "noun",
             "plural": "potatoes",
@@ -941,7 +689,7 @@ const vocabularyData = {
         {
             "word": "wine",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍷",
             "form": "noun",
             "plural": "wine",
@@ -964,7 +712,7 @@ const vocabularyData = {
         {
             "word": "beer",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍺",
             "form": "noun",
             "plural": "beer",
@@ -1050,7 +798,7 @@ const vocabularyData = {
         {
             "word": "soda",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🥤",
             "form": "noun",
             "plural": "soda",
@@ -2388,7 +2136,7 @@ const vocabularyData = {
         {
             "word": "local cuisine",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍜",
             "form": "noun",
             "plural": "local cuisines",
@@ -2650,258 +2398,6 @@ const vocabularyData = {
     ],
     "fr": [
         {
-            "word": "zéro",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "0"
-                }
-            ]
-        },
-        {
-            "word": "un",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "1"
-                }
-            ]
-        },
-        {
-            "word": "deux",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "2"
-                }
-            ]
-        },
-        {
-            "word": "trois",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "3"
-                }
-            ]
-        },
-        {
-            "word": "quatre",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "4"
-                }
-            ]
-        },
-        {
-            "word": "cinq",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "5"
-                }
-            ]
-        },
-        {
-            "word": "six",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "6"
-                }
-            ]
-        },
-        {
-            "word": "sept",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "7"
-                }
-            ]
-        },
-        {
-            "word": "huit",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "8"
-                }
-            ]
-        },
-        {
-            "word": "neuf",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "9"
-                }
-            ]
-        },
-        {
-            "word": "dix",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "10"
-                }
-            ]
-        },
-        {
-            "word": "onze",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "11"
-                }
-            ]
-        },
-        {
-            "word": "douze",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "12"
-                }
-            ]
-        },
-        {
-            "word": "treize",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "13"
-                }
-            ]
-        },
-        {
-            "word": "quatorze",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "14"
-                }
-            ]
-        },
-        {
-            "word": "quinze",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "15"
-                }
-            ]
-        },
-        {
-            "word": "seize",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "16"
-                }
-            ]
-        },
-        {
-            "word": "dix-sept",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "17"
-                }
-            ]
-        },
-        {
-            "word": "dix-huit",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "18"
-                }
-            ]
-        },
-        {
-            "word": "dix-neuf",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "19"
-                }
-            ]
-        },
-        {
-            "word": "vingt",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "20"
-                }
-            ]
-        },
-        {
             "word": "médecin",
             "level": "starter",
             "theme": "jobs_A0",
@@ -3134,7 +2630,7 @@ const vocabularyData = {
         {
             "word": "crêpe",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "form": "noun",
             "plural": "crêpes",
             "definitions": [
@@ -3178,7 +2674,7 @@ const vocabularyData = {
         {
             "word": "fondue",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "form": "noun",
             "plural": "fondues",
             "definitions": [
@@ -3262,7 +2758,7 @@ const vocabularyData = {
         {
             "word": "fromage",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🧀",
             "form": "noun",
             "plural": "fromages",
@@ -3331,7 +2827,7 @@ const vocabularyData = {
         {
             "word": "riz",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍚",
             "form": "noun",
             "plural": "riz",
@@ -3354,7 +2850,7 @@ const vocabularyData = {
         {
             "word": "tomate",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍅",
             "form": "noun",
             "plural": "tomates",
@@ -3377,7 +2873,7 @@ const vocabularyData = {
         {
             "word": "pomme de terre",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🥔",
             "form": "noun",
             "plural": "pomme de terres",
@@ -3420,7 +2916,7 @@ const vocabularyData = {
         {
             "word": "vin",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "article": "le",
             "baseWord": "vin",
             "emoji": "🍷",
@@ -3430,7 +2926,7 @@ const vocabularyData = {
         {
             "word": "bière",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "article": "la",
             "baseWord": "bière",
             "emoji": "🍺",
@@ -4285,7 +3781,7 @@ const vocabularyData = {
         {
             "word": "cuisine locale",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍜",
             "form": "adjective",
             "definitions": [
@@ -4904,258 +4400,6 @@ const vocabularyData = {
     ],
     "it": [
         {
-            "word": "zero",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "0"
-                }
-            ]
-        },
-        {
-            "word": "uno",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "1"
-                }
-            ]
-        },
-        {
-            "word": "due",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "2"
-                }
-            ]
-        },
-        {
-            "word": "tre",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "3"
-                }
-            ]
-        },
-        {
-            "word": "quattro",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "4"
-                }
-            ]
-        },
-        {
-            "word": "cinque",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "5"
-                }
-            ]
-        },
-        {
-            "word": "sei",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "6"
-                }
-            ]
-        },
-        {
-            "word": "sette",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "7"
-                }
-            ]
-        },
-        {
-            "word": "otto",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "8"
-                }
-            ]
-        },
-        {
-            "word": "nove",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "9"
-                }
-            ]
-        },
-        {
-            "word": "dieci",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "10"
-                }
-            ]
-        },
-        {
-            "word": "undici",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "11"
-                }
-            ]
-        },
-        {
-            "word": "dodici",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "12"
-                }
-            ]
-        },
-        {
-            "word": "tredici",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "13"
-                }
-            ]
-        },
-        {
-            "word": "quattordici",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "14"
-                }
-            ]
-        },
-        {
-            "word": "quindici",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "15"
-                }
-            ]
-        },
-        {
-            "word": "sedici",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "16"
-                }
-            ]
-        },
-        {
-            "word": "diciassette",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "17"
-                }
-            ]
-        },
-        {
-            "word": "diciotto",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "18"
-                }
-            ]
-        },
-        {
-            "word": "diciannove",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "19"
-                }
-            ]
-        },
-        {
-            "word": "venti",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "20"
-                }
-            ]
-        },
-        {
             "word": "medico",
             "level": "starter",
             "theme": "jobs_A0",
@@ -5367,7 +4611,7 @@ const vocabularyData = {
         {
             "word": "risotto",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "form": "noun",
             "plural": "risotti",
             "definitions": [
@@ -5411,7 +4655,7 @@ const vocabularyData = {
         {
             "word": "gelato",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "form": "noun",
             "plural": "gelati",
             "definitions": [
@@ -5491,7 +4735,7 @@ const vocabularyData = {
         {
             "word": "formaggio",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🧀",
             "form": "noun",
             "plural": "formaggio",
@@ -5530,7 +4774,7 @@ const vocabularyData = {
         {
             "word": "riso",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍚",
             "form": "noun",
             "plural": "riso"
@@ -5538,7 +4782,7 @@ const vocabularyData = {
         {
             "word": "pomodoro",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍅",
             "form": "noun",
             "plural": "pomodori"
@@ -5546,7 +4790,7 @@ const vocabularyData = {
         {
             "word": "patata",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🥔",
             "form": "noun",
             "plural": "patate"
@@ -5574,7 +4818,7 @@ const vocabularyData = {
         {
             "word": "vino",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "article": "il",
             "baseWord": "vino",
             "emoji": "🍷",
@@ -5584,7 +4828,7 @@ const vocabularyData = {
         {
             "word": "birra",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "article": "la",
             "baseWord": "birra",
             "emoji": "🍺",
@@ -6491,7 +5735,7 @@ const vocabularyData = {
         {
             "word": "cucina locale",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍜",
             "form": "noun",
             "definitions": [
@@ -7154,258 +6398,6 @@ const vocabularyData = {
     ],
     "ru": [
         {
-            "word": "ноль",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "0"
-                }
-            ]
-        },
-        {
-            "word": "один",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "1"
-                }
-            ]
-        },
-        {
-            "word": "два",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "2"
-                }
-            ]
-        },
-        {
-            "word": "три",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "3"
-                }
-            ]
-        },
-        {
-            "word": "четыре",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "4"
-                }
-            ]
-        },
-        {
-            "word": "пять",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "5"
-                }
-            ]
-        },
-        {
-            "word": "шесть",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "6"
-                }
-            ]
-        },
-        {
-            "word": "семь",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "7"
-                }
-            ]
-        },
-        {
-            "word": "восемь",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "8"
-                }
-            ]
-        },
-        {
-            "word": "девять",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "9"
-                }
-            ]
-        },
-        {
-            "word": "десять",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "10"
-                }
-            ]
-        },
-        {
-            "word": "одиннадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "11"
-                }
-            ]
-        },
-        {
-            "word": "двенадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "12"
-                }
-            ]
-        },
-        {
-            "word": "тринадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "13"
-                }
-            ]
-        },
-        {
-            "word": "четырнадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "14"
-                }
-            ]
-        },
-        {
-            "word": "пятнадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "15"
-                }
-            ]
-        },
-        {
-            "word": "шестнадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "16"
-                }
-            ]
-        },
-        {
-            "word": "семнадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "17"
-                }
-            ]
-        },
-        {
-            "word": "восемнадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "18"
-                }
-            ]
-        },
-        {
-            "word": "девятнадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "19"
-                }
-            ]
-        },
-        {
-            "word": "двадцать",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "20"
-                }
-            ]
-        },
-        {
             "word": "врач",
             "level": "starter",
             "theme": "jobs_A0",
@@ -7585,7 +6577,7 @@ const vocabularyData = {
         {
             "word": "блины",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🥞",
             "form": "noun",
             "plural": "блины"
@@ -7600,7 +6592,7 @@ const vocabularyData = {
         {
             "word": "пирожки",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "form": "noun",
             "plural": "пирожки"
         },
@@ -7650,7 +6642,7 @@ const vocabularyData = {
         {
             "word": "сыр",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🧀",
             "form": "noun",
             "plural": "сыры"
@@ -7674,7 +6666,7 @@ const vocabularyData = {
         {
             "word": "рис",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍚",
             "form": "noun",
             "plural": "рис"
@@ -7682,7 +6674,7 @@ const vocabularyData = {
         {
             "word": "помидор",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍅",
             "form": "noun",
             "plural": "помидоры"
@@ -7707,7 +6699,7 @@ const vocabularyData = {
         {
             "word": "картофель",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🥔",
             "form": "noun",
             "plural": "картофель"
@@ -7735,7 +6727,7 @@ const vocabularyData = {
         {
             "word": "вино",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "gender": "оно",
             "baseWord": "вино",
             "emoji": "🍷",
@@ -7745,7 +6737,7 @@ const vocabularyData = {
         {
             "word": "пиво",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "gender": "оно",
             "baseWord": "пиво",
             "emoji": "🍺",
@@ -7806,7 +6798,7 @@ const vocabularyData = {
         {
             "word": "морс",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "form": "noun",
             "plural": "морсы",
             "definitions": [
@@ -8655,7 +7647,7 @@ const vocabularyData = {
         {
             "word": "местная кухня",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍜",
             "form": "noun",
             "definitions": [
@@ -9255,258 +8247,6 @@ const vocabularyData = {
     ],
     "el": [
         {
-            "word": "μηδέν",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "0"
-                }
-            ]
-        },
-        {
-            "word": "ένα",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "1"
-                }
-            ]
-        },
-        {
-            "word": "δύο",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "2"
-                }
-            ]
-        },
-        {
-            "word": "τρία",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "3"
-                }
-            ]
-        },
-        {
-            "word": "τέσσερα",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "4"
-                }
-            ]
-        },
-        {
-            "word": "πέντε",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "5"
-                }
-            ]
-        },
-        {
-            "word": "έξι",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "6"
-                }
-            ]
-        },
-        {
-            "word": "επτά",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "7"
-                }
-            ]
-        },
-        {
-            "word": "οκτώ",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "8"
-                }
-            ]
-        },
-        {
-            "word": "εννέα",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "9"
-                }
-            ]
-        },
-        {
-            "word": "δέκα",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "10"
-                }
-            ]
-        },
-        {
-            "word": "έντεκα",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "11"
-                }
-            ]
-        },
-        {
-            "word": "δώδεκα",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "12"
-                }
-            ]
-        },
-        {
-            "word": "δεκατρία",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "13"
-                }
-            ]
-        },
-        {
-            "word": "δεκατέσσερα",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "14"
-                }
-            ]
-        },
-        {
-            "word": "δεκαπέντε",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "15"
-                }
-            ]
-        },
-        {
-            "word": "δεκάξι",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "16"
-                }
-            ]
-        },
-        {
-            "word": "δεκαεπτά",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "17"
-                }
-            ]
-        },
-        {
-            "word": "δεκαοκτώ",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "18"
-                }
-            ]
-        },
-        {
-            "word": "δεκαεννέα",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "19"
-                }
-            ]
-        },
-        {
-            "word": "είκοσι",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "20"
-                }
-            ]
-        },
-        {
             "word": "γιατρός",
             "level": "starter",
             "theme": "jobs_A0",
@@ -9716,7 +8456,7 @@ const vocabularyData = {
         {
             "word": "χωριάτικη σαλάτα",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "form": "noun",
             "plural": "χωριάτικη σαλάτες",
             "definitions": [
@@ -9760,7 +8500,7 @@ const vocabularyData = {
         {
             "word": "γεμιστά",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "form": "noun",
             "plural": "γεμιστά",
             "definitions": [
@@ -9818,7 +8558,7 @@ const vocabularyData = {
         {
             "word": "τυρί",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🧀",
             "form": "noun",
             "plural": "τυρί",
@@ -9887,7 +8627,7 @@ const vocabularyData = {
         {
             "word": "ρύζι",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍚",
             "form": "noun",
             "plural": "ρύζι",
@@ -9910,7 +8650,7 @@ const vocabularyData = {
         {
             "word": "ντομάτα",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍅",
             "form": "noun",
             "plural": "ντομάτες",
@@ -9933,7 +8673,7 @@ const vocabularyData = {
         {
             "word": "πατάτα",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🥔",
             "form": "noun",
             "plural": "πατάτες",
@@ -10023,7 +8763,7 @@ const vocabularyData = {
         {
             "word": "κρασί",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "article": "το",
             "baseWord": "κρασί",
             "emoji": "🍷",
@@ -10048,7 +8788,7 @@ const vocabularyData = {
         {
             "word": "μπίρα",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "article": "η",
             "baseWord": "μπίρα",
             "emoji": "🍺",
@@ -10977,7 +9717,7 @@ const vocabularyData = {
         {
             "word": "τοπική κουζίνα",
             "level": "elementary",
-            "theme": "food_nutrition_A2",
+            "theme": "diet_nutrition_A2",
             "emoji": "🍜",
             "form": "noun",
             "definitions": [
@@ -11621,1054 +10361,10 @@ const vocabularyData = {
         }
     ],
     "tt": [
-        {
-            "word": "нөл",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "0"
-                }
-            ]
-        },
-        {
-            "word": "бер",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "1"
-                }
-            ]
-        },
-        {
-            "word": "ике",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "2"
-                }
-            ]
-        },
-        {
-            "word": "өч",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "3"
-                }
-            ]
-        },
-        {
-            "word": "дүрт",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "4"
-                }
-            ]
-        },
-        {
-            "word": "биш",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "5"
-                }
-            ]
-        },
-        {
-            "word": "алты",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "6"
-                }
-            ]
-        },
-        {
-            "word": "җиде",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "7"
-                }
-            ]
-        },
-        {
-            "word": "сигез",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "8"
-                }
-            ]
-        },
-        {
-            "word": "тугыз",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "9"
-                }
-            ]
-        },
-        {
-            "word": "ун",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "10"
-                }
-            ]
-        },
-        {
-            "word": "унбер",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "11"
-                }
-            ]
-        },
-        {
-            "word": "унике",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "12"
-                }
-            ]
-        },
-        {
-            "word": "унөч",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "13"
-                }
-            ]
-        },
-        {
-            "word": "ундүрт",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "14"
-                }
-            ]
-        },
-        {
-            "word": "унбиш",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "15"
-                }
-            ]
-        },
-        {
-            "word": "уналты",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "16"
-                }
-            ]
-        },
-        {
-            "word": "унҗиде",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "17"
-                }
-            ]
-        },
-        {
-            "word": "унсигез",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "18"
-                }
-            ]
-        },
-        {
-            "word": "унтугыз",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "19"
-                }
-            ]
-        },
-        {
-            "word": "егерме",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "20"
-                }
-            ]
-        },
-        {
-            "word": "утыз",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "3️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "30"
-                }
-            ]
-        },
-        {
-            "word": "кырык",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "4️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "40"
-                }
-            ]
-        },
-        {
-            "word": "илле",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "5️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "50"
-                }
-            ]
-        },
-        {
-            "word": "алтмыш",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "6️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "60"
-                }
-            ]
-        },
-        {
-            "word": "җитмеш",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "7️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "70"
-                }
-            ]
-        },
-        {
-            "word": "сиксән",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "8️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "80"
-                }
-            ]
-        },
-        {
-            "word": "туксан",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "9️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "90"
-                }
-            ]
-        },
-        {
-            "word": "йөз",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "1️⃣0️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "100"
-                }
-            ]
-        }
     ],
     "ba": [
-        {
-            "word": "нөл",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "0"
-                }
-            ]
-        },
-        {
-            "word": "бер",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "1"
-                }
-            ]
-        },
-        {
-            "word": "ике",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "2"
-                }
-            ]
-        },
-        {
-            "word": "өс",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "3"
-                }
-            ]
-        },
-        {
-            "word": "дүрт",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "4"
-                }
-            ]
-        },
-        {
-            "word": "биш",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "5"
-                }
-            ]
-        },
-        {
-            "word": "алты",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "6"
-                }
-            ]
-        },
-        {
-            "word": "ете",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "7"
-                }
-            ]
-        },
-        {
-            "word": "һигеҙ",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "8"
-                }
-            ]
-        },
-        {
-            "word": "туғыҙ",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "9"
-                }
-            ]
-        },
-        {
-            "word": "ун",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "10"
-                }
-            ]
-        },
-        {
-            "word": "ун бер",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "11"
-                }
-            ]
-        },
-        {
-            "word": "ун ике",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "12"
-                }
-            ]
-        },
-        {
-            "word": "ун өс",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "13"
-                }
-            ]
-        },
-        {
-            "word": "ун дүрт",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "14"
-                }
-            ]
-        },
-        {
-            "word": "ун биш",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "15"
-                }
-            ]
-        },
-        {
-            "word": "ун алты",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "16"
-                }
-            ]
-        },
-        {
-            "word": "ун ете",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "17"
-                }
-            ]
-        },
-        {
-            "word": "ун һигеҙ",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "18"
-                }
-            ]
-        },
-        {
-            "word": "ун туғыҙ",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "19"
-                }
-            ]
-        },
-        {
-            "word": "егерме",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "20"
-                }
-            ]
-        },
-        {
-            "word": "утыҙ",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "3️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "30"
-                }
-            ]
-        },
-        {
-            "word": "ҡырҡ",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "4️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "40"
-                }
-            ]
-        },
-        {
-            "word": "илле",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "5️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "50"
-                }
-            ]
-        },
-        {
-            "word": "алтмыш",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "6️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "60"
-                }
-            ]
-        },
-        {
-            "word": "етмеш",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "7️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "70"
-                }
-            ]
-        },
-        {
-            "word": "һикһән",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "8️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "80"
-                }
-            ]
-        },
-        {
-            "word": "туҡһан",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "9️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "90"
-                }
-            ]
-        },
-        {
-            "word": "йөҙ",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "1️⃣0️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "100"
-                }
-            ]
-        }
     ],
     "br": [
-        {
-            "word": "mann",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "0"
-                }
-            ]
-        },
-        {
-            "word": "unan",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "1"
-                }
-            ]
-        },
-        {
-            "word": "daou",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "2"
-                }
-            ]
-        },
-        {
-            "word": "tri",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "3"
-                }
-            ]
-        },
-        {
-            "word": "pevar",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "4"
-                }
-            ]
-        },
-        {
-            "word": "pemp",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "5"
-                }
-            ]
-        },
-        {
-            "word": "c'hwec'h",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "6"
-                }
-            ]
-        },
-        {
-            "word": "seizh",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "7"
-                }
-            ]
-        },
-        {
-            "word": "eizh",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "8"
-                }
-            ]
-        },
-        {
-            "word": "nav",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "9"
-                }
-            ]
-        },
-        {
-            "word": "dek",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "10"
-                }
-            ]
-        },
-        {
-            "word": "unnek",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣1️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "11"
-                }
-            ]
-        },
-        {
-            "word": "daouzek",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣2️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "12"
-                }
-            ]
-        },
-        {
-            "word": "trizek",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣3️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "13"
-                }
-            ]
-        },
-        {
-            "word": "pevarzek",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣4️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "14"
-                }
-            ]
-        },
-        {
-            "word": "pemzek",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣5️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "15"
-                }
-            ]
-        },
-        {
-            "word": "c'hwezek",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣6️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "16"
-                }
-            ]
-        },
-        {
-            "word": "seitek",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣7️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "17"
-                }
-            ]
-        },
-        {
-            "word": "triwec'h",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣8️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "18"
-                }
-            ]
-        },
-        {
-            "word": "naontek",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "1️⃣9️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "19"
-                }
-            ]
-        },
-        {
-            "word": "ugent",
-            "level": "starter",
-            "theme": "numbers_1_20_A0",
-            "emoji": "2️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "20"
-                }
-            ]
-        },
-        {
-            "word": "tregont",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "3️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "30"
-                }
-            ]
-        },
-        {
-            "word": "daou-ugent",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "4️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "40"
-                }
-            ]
-        },
-        {
-            "word": "hanter-kant",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "5️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "50"
-                }
-            ]
-        },
-        {
-            "word": "tri-ugent",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "6️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "60"
-                }
-            ]
-        },
-        {
-            "word": "dek ha tri-ugent",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "7️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "70"
-                }
-            ]
-        },
-        {
-            "word": "pevar-ugent",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "8️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "80"
-                }
-            ]
-        },
-        {
-            "word": "dek ha pevar-ugent",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "9️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "90"
-                }
-            ]
-        },
-        {
-            "word": "kant",
-            "level": "starter",
-            "theme": "numbers_30_100_A0",
-            "emoji": "1️⃣0️⃣0️⃣",
-            "form": "noun",
-            "definitions": [
-                {
-                    "text": "100"
-                }
-            ]
-        }
     ]
 };
 window.vocabularyData = vocabularyData;
