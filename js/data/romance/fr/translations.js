@@ -1023,6 +1023,8 @@
             footer_copy: "© 2025 COSYlanguages — Tous droits réservés",
                     calc_pack_separator: " · ",
             calc_per_session_suffix: "/session",
+                    calc_original_label: "Prix d'origine",
+            calc_discount_label: "Prix réduit",
         }
         };
     window.translations = window.translations || {};

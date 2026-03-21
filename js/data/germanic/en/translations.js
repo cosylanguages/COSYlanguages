@@ -1024,6 +1024,8 @@
             footer_copy: "© 2025 COSYlanguages — All rights reserved",
                     calc_pack_separator: " · ",
             calc_per_session_suffix: "/session",
+                    calc_original_label: "Original Price",
+            calc_discount_label: "Discounted Price",
         }
         };
     window.translations = window.translations || {};

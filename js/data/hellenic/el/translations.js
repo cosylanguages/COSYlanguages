@@ -1023,6 +1023,8 @@
             footer_copy: "© 2025 COSYlanguages — Με την επιφύλαξη παντός δικαιώματος",
                      calc_pack_separator: " · ",
             calc_per_session_suffix: "/session",
+                     calc_original_label: "Αρχική τιμή",
+            calc_discount_label: "Τιμή με έκπτωση",
          }
         };
     window.translations = window.translations || {};

@@ -72,12 +72,30 @@ window.calcPrice = function() {
     }
 
     const base = RATES[lang][dur];
-    const after = base * TYPE_M[type] * (1 - DISC[pack]);
-    const sym = CUR_S[cur], rate = CUR_R[cur];
-    const single = (after * rate).toFixed(cur === 'RUB' ? 0 : 2);
-    const total = (after * rate * pack).toFixed(cur === 'RUB' ? 0 : 2);
+    const multiplier = TYPE_M[type];
+    const discount = DISC[pack];
 
-    el('calc-total').textContent = pack === 1 ? `${sym}${single}` : `${sym}${total}`;
+    const sym = CUR_S[cur], rate = CUR_R[cur];
+
+    // Original price calculation
+    const origBase = base * multiplier;
+    const origTotal = (origBase * rate * pack).toFixed(cur === 'RUB' ? 0 : 2);
+
+    // Discounted price calculation
+    const discountedBase = origBase * (1 - discount);
+    const discountedSingle = (discountedBase * rate).toFixed(cur === 'RUB' ? 0 : 2);
+    const discountedTotal = (discountedBase * rate * pack).toFixed(cur === 'RUB' ? 0 : 2);
+
+    if (discount > 0) {
+        const origLabel = window.t('calc_original_label') || 'Original';
+        const discLabel = window.t('calc_discount_label') || 'Discounted';
+        el('calc-total').innerHTML = `
+            <span class="original-price" title="${origLabel}">${sym}${origTotal}</span>
+            <span class="discounted-price" title="${discLabel}">${sym}${discountedTotal}</span>
+        `;
+    } else {
+        el('calc-total').textContent = `${sym}${discountedTotal}`;
+    }
 
     if (pack === 1) {
         el('calc-detail').textContent = window.t('calc_per_session').replace('{0}', dur);
@@ -90,7 +108,7 @@ window.calcPrice = function() {
         const packName = window.t(packLabelMap[pack]);
         const separator = window.t('calc_pack_separator') || ' · ';
         const perSessionSuffix = window.t('calc_per_session_suffix') || '/session';
-        el('calc-detail').textContent = `${packName}${separator}${sym}${single}${perSessionSuffix}`;
+        el('calc-detail').textContent = `${packName}${separator}${sym}${discountedSingle}${perSessionSuffix}`;
     }
 
     el('calc-note').textContent = DISC[pack] > 0 ? window.t('calc_discount_applied').replace('{0}', (DISC[pack] * 100).toFixed(0)) : '';
