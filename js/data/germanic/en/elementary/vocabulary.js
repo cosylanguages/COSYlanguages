@@ -3,7 +3,7 @@
     {
         "word": "artist",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "noun",
         "plural": "artists",
@@ -26,7 +26,7 @@
     {
         "word": "chef",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "chefs",
@@ -49,7 +49,7 @@
     {
         "word": "nurse",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👩‍⚕️",
         "form": "noun",
         "plural": "nurses",
@@ -402,7 +402,7 @@
     {
         "word": "dress",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "dresses"
@@ -410,7 +410,7 @@
     {
         "word": "jacket",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "noun",
         "plural": "jackets"
@@ -418,7 +418,7 @@
     {
         "word": "skirt",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "skirts"
@@ -426,7 +426,7 @@
     {
         "word": "sock",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧦",
         "form": "noun",
         "plural": "socks"
@@ -434,7 +434,7 @@
     {
         "word": "sofa",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "sofas"
@@ -442,7 +442,7 @@
     {
         "word": "lamp",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💡",
         "form": "noun",
         "plural": "lamps"
@@ -450,7 +450,7 @@
     {
         "word": "desk",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⌨️",
         "form": "noun",
         "plural": "desks"
@@ -476,7 +476,7 @@
     {
         "word": "wallet",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👛",
         "form": "noun",
         "plural": "wallets"
@@ -484,7 +484,7 @@
     {
         "word": "glasses",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👓",
         "form": "noun",
         "plural": "glasses",
@@ -508,7 +508,7 @@
     {
         "word": "lion",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦁",
         "form": "noun",
         "plural": "lions",
@@ -525,7 +525,7 @@
     {
         "word": "tiger",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐯",
         "form": "noun",
         "plural": "tigers"
@@ -533,7 +533,7 @@
     {
         "word": "horse",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐎",
         "form": "noun",
         "plural": "horses"
@@ -541,7 +541,7 @@
     {
         "word": "rabbit",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐇",
         "form": "noun",
         "plural": "rabbits"
@@ -586,7 +586,7 @@
     {
         "word": "journalist",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📰",
         "form": "noun",
         "plural": "journalists",
@@ -647,7 +647,7 @@
     {
         "word": "university",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🎓",
         "form": "noun",
         "plural": "universities",
@@ -735,7 +735,7 @@
     {
         "word": "mouse",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "numberPlural": "many mouse",
         "answer": "many mice",
         "emoji": "🐭",

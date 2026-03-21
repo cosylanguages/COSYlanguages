@@ -90,7 +90,7 @@
                 "sideA": "Погасить ипотеку",
                 "sideB": "Инвестировать",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -99,7 +99,7 @@
                 "sideA": "Собственное",
                 "sideB": "Аренда",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -108,7 +108,7 @@
                 "sideA": "Копить смолоду",
                 "sideB": "Наслаждаться сейчас",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -117,7 +117,7 @@
                 "sideA": "Жить скромнее",
                 "sideB": "Наслаждаться сейчас",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -180,7 +180,7 @@
                 "sideA": "Физическое",
                 "sideB": "Ментальное",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -189,7 +189,7 @@
                 "sideA": "Частная",
                 "sideB": "Государственная",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -198,7 +198,7 @@
                 "sideA": "Регулярно",
                 "sideB": "Только когда болен",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -207,7 +207,7 @@
                 "sideA": "Меньше алкоголя",
                 "sideB": "Меньше стресса",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -279,7 +279,7 @@
                 "sideA": "Признаться",
                 "sideB": "Притворяться",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -426,7 +426,7 @@
                 "sideA": "Соцсети",
                 "sideB": "Природа",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -570,7 +570,7 @@
                 "sideA": "Физическое",
                 "sideB": "Психическое",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -579,7 +579,7 @@
                 "sideA": "Профилактика",
                 "sideB": "Лечение",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -588,7 +588,7 @@
                 "sideA": "Спорт",
                 "sideB": "Для себя",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -597,7 +597,7 @@
                 "sideA": "Частное",
                 "sideB": "Государственное",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -687,7 +687,7 @@
                 "sideA": "Сон",
                 "sideB": "Упражнения",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -741,7 +741,7 @@
                 "sideA": "Пропустить",
                 "sideB": "Плохая тренировка",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -764,7 +764,7 @@
             {
                 "topic": "Важность осведомленности о ментальном здоровье",
                 "level": "intermediate",
-                "theme": "mental_health_B1"
+                "theme": "mental_health_wellbeing_B1"
             }
         ]
     }

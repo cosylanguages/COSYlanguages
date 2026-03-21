@@ -10,7 +10,7 @@
             {
                 "text": "È meglio vivere in una casa o in un appartamento?",
                 "level": "elementary",
-                "theme": "neighbourhood_A2"
+                "theme": "neighbourhood_local_A2"
             }
         ],
         "criticsCorner": [
@@ -27,7 +27,7 @@
                 "sideA": "Stipendio alto",
                 "sideB": "Breve tragitto",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -36,7 +36,7 @@
                 "sideA": "Cambiare lavoro",
                 "sideB": "Restare",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -45,7 +45,7 @@
                 "sideA": "Straordinari",
                 "sideB": "In orario",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -54,7 +54,7 @@
                 "sideA": "Capo severo",
                 "sideB": "Capo rilassato",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -63,7 +63,7 @@
                 "sideA": "Grande azienda",
                 "sideB": "Piccola azienda",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -72,7 +72,7 @@
                 "sideA": "Promozione",
                 "sideB": "Tempo libero",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -81,7 +81,7 @@
                 "sideA": "Comprare",
                 "sideB": "Affittare",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -99,7 +99,7 @@
                 "sideA": "Esperienze",
                 "sideB": "Oggetti",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -108,7 +108,7 @@
                 "sideA": "Cucinare ogni giorno",
                 "sideB": "Meal prepping",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -117,7 +117,7 @@
                 "sideA": "Pulizie pro",
                 "sideB": "Da soli",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -162,7 +162,7 @@
                 "sideA": "Socializzare",
                 "sideB": "Tornare a casa",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -234,7 +234,7 @@
                 "sideA": "Carta",
                 "sideB": "Digitale",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -243,7 +243,7 @@
                 "sideA": "Social media",
                 "sideB": "Di persona",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -297,7 +297,7 @@
                 "sideA": "Appena svegli",
                 "sideB": "Dopo colazione",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -315,7 +315,7 @@
                 "sideA": "Con lista",
                 "sideB": "Senza lista",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -324,7 +324,7 @@
                 "sideA": "Dirlo",
                 "sideB": "Andare malato",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -333,7 +333,7 @@
                 "sideA": "Tempo pieno",
                 "sideB": "Tempo parziale",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -342,7 +342,7 @@
                 "sideA": "Ufficio",
                 "sideB": "Casa",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -351,7 +351,7 @@
                 "sideA": "Lavoro amato",
                 "sideB": "Paga bene",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -360,7 +360,7 @@
                 "sideA": "Con altri",
                 "sideB": "Da soli",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -369,7 +369,7 @@
                 "sideA": "Breve",
                 "sideB": "Lungo",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -396,7 +396,7 @@
                 "sideA": "A casa",
                 "sideB": "Fuori",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -414,7 +414,7 @@
                 "sideA": "Affittare",
                 "sideB": "Comprare",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -459,7 +459,7 @@
                 "sideA": "Online",
                 "sideB": "Negozio",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -468,7 +468,7 @@
                 "sideA": "Risparmiare",
                 "sideB": "Godersi ora",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -477,7 +477,7 @@
                 "sideA": "Costose",
                 "sideB": "Economiche",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -486,7 +486,7 @@
                 "sideA": "Nuovo",
                 "sideB": "Seconda mano",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -495,7 +495,7 @@
                 "sideA": "TV",
                 "sideB": "Uscire",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -522,7 +522,7 @@
                 "sideA": "Sport",
                 "sideB": "Lettura",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -540,7 +540,7 @@
                 "sideA": "Immediatamente",
                 "sideB": "Dopo",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -549,7 +549,7 @@
                 "sideA": "Immediatamente",
                 "sideB": "Domani",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -558,7 +558,7 @@
                 "sideA": "Anticipo",
                 "sideB": "Ritardo",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -567,7 +567,7 @@
                 "sideA": "Organizzata",
                 "sideB": "Disordinata",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -576,7 +576,7 @@
                 "sideA": "Parlare di lavoro",
                 "sideB": "Niente lavoro",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -621,7 +621,7 @@
                 "sideA": "Mattina",
                 "sideB": "Pomeriggio",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -630,7 +630,7 @@
                 "sideA": "Lettura",
                 "sideB": "Matematica",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -639,7 +639,7 @@
                 "sideA": "Scuola",
                 "sideB": "Casa",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -648,7 +648,7 @@
                 "sideA": "Compiti",
                 "sideB": "Niente",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -657,7 +657,7 @@
                 "sideA": "Da soli",
                 "sideB": "Coppia",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -666,7 +666,7 @@
                 "sideA": "Carta",
                 "sideB": "Computer",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -675,7 +675,7 @@
                 "sideA": "Colazione",
                 "sideB": "Cena",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -684,7 +684,7 @@
                 "sideA": "Caldo",
                 "sideB": "Freddo",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -693,7 +693,7 @@
                 "sideA": "Casa",
                 "sideB": "Ristorante",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -702,7 +702,7 @@
                 "sideA": "Dolce",
                 "sideB": "Salato",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -711,7 +711,7 @@
                 "sideA": "Cucinare",
                 "sideB": "Comprare",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -720,7 +720,7 @@
                 "sideA": "Presto",
                 "sideB": "Tardi",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -729,7 +729,7 @@
                 "sideA": "Mattina",
                 "sideB": "Sera",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -738,7 +738,7 @@
                 "sideA": "Feriali",
                 "sideB": "Fine settimana",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -756,7 +756,7 @@
                 "sideA": "Presto",
                 "sideB": "Tardi",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -765,7 +765,7 @@
                 "sideA": "Casa",
                 "sideB": "Appartamento",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -783,7 +783,7 @@
                 "sideA": "Camera",
                 "sideB": "Soggiorno",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -792,7 +792,7 @@
                 "sideA": "Chiuso",
                 "sideB": "Aperto",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -801,7 +801,7 @@
                 "sideA": "TV",
                 "sideB": "Libro",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -810,7 +810,7 @@
                 "sideA": "Sport",
                 "sideB": "Videogioco",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -819,7 +819,7 @@
                 "sideA": "Disegno",
                 "sideB": "Canto",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -828,7 +828,7 @@
                 "sideA": "Soli",
                 "sideB": "Amici",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -837,7 +837,7 @@
                 "sideA": "Nuoto",
                 "sideB": "Corsa",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -846,7 +846,7 @@
                 "sideA": "Musica",
                 "sideB": "Sport",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -927,7 +927,7 @@
                 "sideA": "Online",
                 "sideB": "Di persona",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [
                     "Comodità",
                     "Prezzi migliori"
@@ -942,7 +942,7 @@
                 "sideA": "Carta",
                 "sideB": "E-book",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [
                     "Odore/Sensazione",
                     "Collezionabile"
@@ -957,7 +957,7 @@
                 "sideA": "Mattina",
                 "sideB": "Sera",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -966,7 +966,7 @@
                 "sideA": "Severi",
                 "sideB": "Amichevoli",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -975,7 +975,7 @@
                 "sideA": "Libro",
                 "sideB": "Video",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -984,7 +984,7 @@
                 "sideA": "Brevi",
                 "sideB": "Lunghe",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -993,7 +993,7 @@
                 "sideA": "Gruppo",
                 "sideB": "Individuale",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1002,7 +1002,7 @@
                 "sideA": "Uniforme",
                 "sideB": "Casual",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1011,7 +1011,7 @@
                 "sideA": "In casa",
                 "sideB": "Fast food",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1020,7 +1020,7 @@
                 "sideA": "Grandi pasti",
                 "sideB": "Spuntini",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1029,7 +1029,7 @@
                 "sideA": "Vegetariano",
                 "sideB": "Carne",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1038,7 +1038,7 @@
                 "sideA": "Tè",
                 "sideB": "Caffè",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1047,7 +1047,7 @@
                 "sideA": "Da soli",
                 "sideB": "Con altri",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1056,7 +1056,7 @@
                 "sideA": "Sport di squadra",
                 "sideB": "Sport individuale",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1065,7 +1065,7 @@
                 "sideA": "Al chiuso",
                 "sideB": "All'aperto",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1074,7 +1074,7 @@
                 "sideA": "Cinema",
                 "sideB": "Teatro",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1083,7 +1083,7 @@
                 "sideA": "Ascoltare",
                 "sideB": "Suonare",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1092,7 +1092,7 @@
                 "sideA": "Videogiochi",
                 "sideB": "Giochi da tavolo",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1101,7 +1101,7 @@
                 "sideA": "Shopping",
                 "sideB": "Restare a casa",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1128,7 +1128,7 @@
                 "sideA": "E-book",
                 "sideB": "Libro cartaceo",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1227,7 +1227,7 @@
                 "sideA": "Risparmiare",
                 "sideB": "Spendere",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1236,7 +1236,7 @@
                 "sideA": "Part-time",
                 "sideB": "Solo scuola",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1245,7 +1245,7 @@
                 "sideA": "Soldi",
                 "sideB": "Tempo libero",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1263,7 +1263,7 @@
                 "sideA": "Mamma",
                 "sideB": "Papà",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1272,7 +1272,7 @@
                 "sideA": "Matematica",
                 "sideB": "Arte",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1281,7 +1281,7 @@
                 "sideA": "Carta",
                 "sideB": "Tablet",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1290,7 +1290,7 @@
                 "sideA": "Pizza",
                 "sideB": "Pasta",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1299,7 +1299,7 @@
                 "sideA": "Gelato",
                 "sideB": "Torta",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1335,7 +1335,7 @@
                 "sideA": "Mattino",
                 "sideB": "Sera",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1353,7 +1353,7 @@
                 "sideA": "Forchetta",
                 "sideB": "Mani",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1362,7 +1362,7 @@
                 "sideA": "Con le calze",
                 "sideB": "Senza",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1371,7 +1371,7 @@
                 "sideA": "Castello di sabbia",
                 "sideB": "Pupazzo di neve",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1380,7 +1380,7 @@
                 "sideA": "Molti esami",
                 "sideB": "Pochissimi esami",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1389,7 +1389,7 @@
                 "sideA": "A 7 anni",
                 "sideB": "A 5 anni",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1407,7 +1407,7 @@
                 "sideA": "Cucinare a casa",
                 "sideB": "Ordinare online",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1416,7 +1416,7 @@
                 "sideA": "Cucinare",
                 "sideB": "Pasticceria",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1470,7 +1470,7 @@
                 "sideA": "Al chiuso",
                 "sideB": "All'aperto",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1479,7 +1479,7 @@
                 "sideA": "Ananas",
                 "sideB": "Niente ananas",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1488,7 +1488,7 @@
                 "sideA": "Prima il latte",
                 "sideB": "Prima il tè",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1497,7 +1497,7 @@
                 "sideA": "Lunedì",
                 "sideB": "Venerdì",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1506,7 +1506,7 @@
                 "sideA": "Prima della sveglia",
                 "sideB": "Fino alla sveglia",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },

@@ -20,7 +20,7 @@
                 "sideA": "Flat hierarchy",
                 "sideB": "Vertical structure",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Productivity",
                 "sideB": "Idleness",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Learnable skill",
                 "sideB": "Innate quality",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Genuine commitment",
                 "sideB": "Reputational management",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -182,7 +182,7 @@
                 "sideA": "Meaningful career",
                 "sideB": "Funding private life",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -308,7 +308,7 @@
             {
                 "topic": "The role of art in modern society",
                 "level": "advanced",
-                "theme": "leisure_hobbies_A2"
+                "theme": "interests_hobbies_A2"
             },
             {
                 "topic": "Artificial Intelligence: Tool or threat?",

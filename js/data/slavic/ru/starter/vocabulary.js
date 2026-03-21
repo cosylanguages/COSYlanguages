@@ -3,7 +3,7 @@
     {
         "word": "врач",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "numberPlural": "2 врач",
         "answer": "два врача",
         "emoji": "🧑‍⚕️",
@@ -28,7 +28,7 @@
     {
         "word": "учитель",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "emoji": "🧑‍🏫",
         "form": "noun",
         "plural": "учителя",
@@ -183,7 +183,7 @@
     {
         "word": "парк",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🌳",
         "form": "noun",
         "plural": "парки",
@@ -200,7 +200,7 @@
     {
         "word": "школа",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏫",
         "form": "noun",
         "plural": "школы",
@@ -468,7 +468,7 @@
     {
         "word": "голова",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👤",
         "form": "noun",
         "plural": "головы",
@@ -492,7 +492,7 @@
     {
         "word": "рука",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "✋",
         "form": "noun",
         "plural": "руки",
@@ -516,14 +516,14 @@
     {
         "word": "нога",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "form": "noun",
         "plural": "ноги"
     },
     {
         "word": "глаз",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👁️",
         "form": "noun",
         "plural": "глаза",
@@ -540,7 +540,7 @@
     {
         "word": "нос",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👃",
         "form": "noun",
         "plural": "носы"
@@ -548,7 +548,7 @@
     {
         "word": "рот",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👄",
         "form": "noun",
         "plural": "роты"
@@ -556,7 +556,7 @@
     {
         "word": "ухо",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👂",
         "form": "noun",
         "plural": "уха"
@@ -564,7 +564,7 @@
     {
         "word": "стопа",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🦶",
         "form": "noun",
         "plural": "стопы"
@@ -688,7 +688,7 @@
     {
         "word": "машина",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "gender": "она",
         "baseWord": "машина",
         "numberPlural": "4 машина",
@@ -718,7 +718,7 @@
     {
         "word": "идти",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "subtext": "идти в школу, идти домой",
         "form": "noun",
@@ -834,7 +834,7 @@
     {
         "word": "чувствовать",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🌡️",
         "form": "noun",
         "plural": "чувствовать"
@@ -850,7 +850,7 @@
     {
         "word": "уходить",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚪",
         "form": "noun",
         "plural": "уходить"
@@ -866,7 +866,7 @@
     {
         "word": "смотреть",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📺",
         "form": "noun",
         "plural": "смотреть"
@@ -908,7 +908,7 @@
     {
         "word": "играть",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎮",
         "form": "noun",
         "plural": "играть"
@@ -916,7 +916,7 @@
     {
         "word": "бегать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃",
         "form": "noun",
         "plural": "бегать"
@@ -988,7 +988,7 @@
     {
         "word": "учить",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📚",
         "form": "noun",
         "plural": "учить"
@@ -1012,7 +1012,7 @@
     {
         "word": "останавливаться",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛑",
         "form": "noun",
         "plural": "останавливатьси"

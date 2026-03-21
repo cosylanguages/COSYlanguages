@@ -32,11 +32,11 @@ const themeConfig = {
         "description": "Concrete, single-concept nouns and basic adjectives only. Everyday adult life — familiar objects and situations.",
         "common_themes": {
             "numbers_math": {
-                "numbers_0_9_A0": "Numbers 0–9",
-                "numbers_10_19_A0": "Numbers 10–19",
-                "numbers_20_99_A0": "Numbers 20–99",
-                "numbers_100_999_A1": "Numbers 100–999",
-                "numbers_1000_plus_A1": "Numbers 1,000+",
+                "numbers_0_9_A0": "Cardinal numbers 0–9",
+                "numbers_10_19_A0": "Cardinal numbers 10–19",
+                "numbers_20_99_A0": "Cardinal numbers 20–99",
+                "numbers_100_999_A1": "Cardinal numbers 100–999",
+                "numbers_1000_plus_A1": "Cardinal numbers 1,000+",
                 "ordinal_numbers_A1": "Ordinal numbers"
             },
             "time": {
@@ -47,18 +47,17 @@ const themeConfig = {
                 "telling_time_A0": "Telling the time",
                 "dates_years_A1": "Dates & years",
                 "frequency_adverbs_A1": "Frequency adverbs",
-                "duration_expressions_A1": "Duration expressions",
-                "routine_A1": "Daily routine"
+                "duration_expressions_A1": "Duration expressions"
             },
             "personal_identity": {
+                "name_greeting_A0": "Name & greeting",
                 "nationality_country_A0": "Nationality & country",
                 "age_A0": "Age",
                 "marital_status_A0": "Marital status",
-                "occupation_job_A0": "Occupation & job title",
+                "job_titles_professions_A0": "Occupation & job title",
                 "address_location_A1": "Address & location",
                 "contact_details_A1": "Contact details",
-                "physical_appearance_A1": "Physical appearance",
-                "social_life_A1": "Social life"
+                "physical_appearance_A1": "Physical appearance"
             },
             "family_relationships": {
                 "immediate_family_A0": "Immediate family members",
@@ -79,12 +78,12 @@ const themeConfig = {
                 "tastes_textures_A1": "Tastes & textures"
             },
             "health_body": {
-                "parts_of_the_body_A0": "Parts of the body",
-                "common_illnesses_symptoms_A1": "Common illnesses & symptoms",
-                "doctor_medical_appointments_A1": "Doctor & medical appointments"
+                "body_parts_A0": "Parts of the body",
+                "illnesses_symptoms_A1": "Common illnesses & symptoms",
+                "medical_appointments_A1": "Doctor & medical appointments"
             },
             "work_employment": {
-                "jobs_titles_professions_A0": "Job titles & professions",
+                "job_titles_professions_A0": "Job titles & professions",
                 "workplace_basics_A1": "Workplace basics",
                 "daily_work_routines_A1": "Daily work routines"
             },
@@ -141,7 +140,7 @@ const themeConfig = {
             },
             "clothes_appearance": {
                 "items_of_clothing_A0": "Items of clothing",
-                "acccessories_A1": "Accessories",
+                "accessories_A1": "Accessories",
                 "dressing_style_A1": "Dressing & style"
             },
             "opinion_debate": {
@@ -153,11 +152,15 @@ const themeConfig = {
         "description": "Adult everyday contexts — work, health, money, relationships.",
         "common_themes": {
             "numbers_math": {
-                "numbers_1000_plus_A2": "Numbers 1,000+",
                 "fractions_A2": "Fractions",
                 "decimals_A2": "Decimals",
                 "percentages_A2": "Percentages",
                 "basic_arithmetic_A2": "Basic arithmetic"
+            },
+            "time": {
+                "past_time_A2": "Past time expressions",
+                "future_time_A2": "Future time expressions",
+                "sequence_order_A2": "Sequence & order"
             },
             "personal_identity": {
                 "personality_character_A2": "Personality & character",
@@ -168,10 +171,10 @@ const themeConfig = {
                 "marriage_partnership_A2": "Marriage & partnership"
             },
             "home_living": {
-                "property_A2": "Renting & buying property",
+                "renting_landlords_A2": "Renting & landlords",
                 "home_repairs_maintenance_A2": "Home repairs & maintenance",
-                "moving_home_A2": "Moving home",
-                "neighbourhood_A2": "The neighbourhood & community"
+                "neighbourhood_local_A2": "Neighbourhood & local area",
+                "moving_home_A2": "Moving home"
             },
             "food_drink": {
                 "restaurants_ordering_A2": "Restaurants & ordering",
@@ -183,7 +186,7 @@ const themeConfig = {
                 "diet_healthy_eating_A2": "Diet & healthy eating"
             },
             "work_employment": {
-                "job_applications_interviews_A2": "Job applications & interviews",
+                "job_apps_interviews_A2": "Job applications & interviews",
                 "career_development_A2": "Career development"
              },
             "education_learning":{
@@ -197,14 +200,14 @@ const themeConfig = {
             },
             "shopping_money": {
                 "finances_A2": "Personal finances",
-                "bankingA2": "Banking"
+                "banking_A2": "Banking"
             },
             "technology_media": {
                 "internet_social_media_A2": "The internet & social media",
                 "news_media_A2": "News & media"
             },
             "society_politics": {
-                "community_neighbourhood_A2": "Community & neighbourhood",
+                "community_neighbourhood_local_A2": "Community & neighbourhood",
                 "customs_traditions_A2": "Customs & traditions"
             },
             "culture_arts": {
@@ -213,14 +216,14 @@ const themeConfig = {
             },
             "science_tech": {
                 "art_design_A2": "Art & design",
-                "theatre_performance_A2": "Theatre & performance",
+                "theatre_performance_A2": "Theatre & performance"
             },
             "sport_leisure": {
                 "exercise_fitness_A2": "Exercise & fitness"
             },
             "feelings_emotions": {
                 "social_emotions_A2": "Social emotions",
-                "emotional_intensity_A2": "Emotional intensity",
+                "emotional_intensity_A2": "Emotional intensity"
             },
             "places_geography": {
                 "landscape_geography_A2": "Landscape & geography",
@@ -235,14 +238,6 @@ const themeConfig = {
             },
             "modifiers_intensifiers": {
                 "quantities_A2": "Quantities & frequency"
-            },
-            "opinion_debate": {
-                "giving_opinions_A1": "Giving opinions"
-            },
-            "time": {
-                "past_time_A2": "Past time expressions",
-                "future_time_A2": "Future time expressions",
-                "sequence_order_A2": "Sequence & order"
             }
         }
     },
@@ -252,15 +247,31 @@ const themeConfig = {
             "numbers_math": {
                 "approximation_estimation_B1": "Approximation & estimation"
             },
+            "time": {
+                "tenses_time_B1": "Tenses & time reference",
+                "periods_eras_B1": "Periods & eras",
+                "deadlines_scheduling_B1": "Deadlines & scheduling"
+            },
             "personal_identity": {
                 "values_beliefs_B1": "Values & beliefs"
             },
+            "family_relationships": {
+                "parenting_childcare_B1": "Parenting & childcare",
+                "family_dynamics_B1": "Family dynamics & conflict"
+            },
+            "home_living": {
+                "buying_property_B1": "Buying a property"
+            },
+            "food_drink": {
+                "food_culture_cuisine_B1": "Food culture & cuisine"
+            },
             "health_body": {
-                "mental_health_B1": "Mental health"
+                "mental_health_wellbeing_B1": "Mental health & wellbeing",
+                "healthcare_systems_B1": "Healthcare systems"
             },
             "work_employment": {
-                "career_development_B1": "Career development & ambition",
-                "work_life_balance_B1": "Work-life balance & wellbeing"
+                "work_life_balance_B1": "Work-life balance",
+                "workplace_communication_B1": "Workplace communication"
             },
             "education_learning": {
                 "education_learning_B1": "Education & learning (adult)"
@@ -281,20 +292,8 @@ const themeConfig = {
                 "society_community_B1": "Society & community",
                 "equality_rights_B1": "Equality & rights (basic)"
             },
-            "family_relationships": {
-                "parenting_childcare_B1": "Parenting & childcare",
-                "family_dynamics_B1": "Family dynamics & conflict"
-            },
             "opinion_debate": {
                 "opinion_debate_B1": "Opinion & debate vocabulary"
-            },
-            "home_living": {
-                "housing_mortgages_B1": "Housing & mortgages"
-            },
-            "time": {
-                "tenses_time_B1": "Tenses & time reference",
-                "periods_eras_B1": "Periods & eras",
-                "deadlines_scheduling_B1": "Deadlines & scheduling"
             }
         }
     },
@@ -304,18 +303,29 @@ const themeConfig = {
             "numbers_math": {
                 "mathematical_operations_B2": "Mathematical operations"
             },
+            "time": {
+                "verb_tenses_overview_B2": "Verb tenses overview"
+            },
             "personal_identity": {
                 "identity_self_concept_B2": "Identity & self-concept"
-            },
-            "health_body": {
-                "healthcare_systems_B2": "Healthcare systems"
             },
             "family_relationships": {
                 "ageing_eldercare_B2": "Ageing & eldercare",
                 "family_structure_B2": "Family structure & society"
             },
             "home_living": {
-                "housing_urban_B2": "Housing & urban development"
+                "housing_society_B2": "Housing & society"
+            },
+            "food_drink": {
+                "food_ethics_sustainability_B2": "Food ethics & sustainability"
+            },
+            "health_body": {
+                "serious_illness_treatment_B2": "Serious illness & treatment",
+                "health_society_B2": "Health & society"
+            },
+            "work_employment": {
+                "employment_law_rights_B2": "Employment law & rights",
+                "economy_labour_market_B2": "The economy & labour market"
             },
             "technology_media": {
                 "technology_privacy_B2": "Technology & privacy",
@@ -325,7 +335,6 @@ const themeConfig = {
                 "environment_policy_B2": "The environment (policy)"
             },
             "society_politics": {
-                "economy_labour_B2": "The economy & labour market",
                 "politics_governance_B2": "Politics & governance",
                 "gender_equality_B2": "Gender & equality",
                 "globalisation_trade_B2": "Globalisation & trade",
@@ -346,20 +355,19 @@ const themeConfig = {
     "advanced": {
         "description": "Conceptual & professional — power, identity, philosophy of adult life.",
         "common_themes": {
-            "numbers_math": {
-                "mathematical_operations_B2": "Mathematical operations"
-            },
             "personal_identity": {
                 "social_identity_belonging_C1": "Social identity & belonging"
-            },
-            "health_body": {
-                "psychological_concepts_C1": "Psychological concepts"
             },
             "family_relationships": {
                 "intergenerational_issues_C1": "Intergenerational issues"
             },
+            "health_body": {
+                "medical_ethics_C1": "Medical ethics",
+                "psychological_concepts_C1": "Psychological concepts"
+            },
             "work_employment": {
-                "work_culture_C1": "Work culture & organisational psychology"
+                "organisational_culture_C1": "Organisational culture",
+                "work_identity_meaning_C1": "Work, identity & meaning"
             },
             "culture_arts": {
                 "art_culture_C1": "Art, culture & criticism"
@@ -385,11 +393,8 @@ const themeConfig = {
     "proficiency": {
         "description": "Philosophical, rhetorical & meta-conceptual.",
         "common_themes": {
-            "numbers_math": {
-                "mathematical_operations_B2": "Mathematical operations"
-            },
-            "work_employment": {
-                "work_meaning_C2": "The philosophy of work & meaning"
+            "health_body": {
+                "psychoanalysis_unconscious_C2": "Psychoanalysis & the unconscious"
             },
             "culture_arts": {
                 "civilisation_history_C2": "Civilisation & history",
@@ -405,9 +410,6 @@ const themeConfig = {
                 "philosophy_language_C2": "Philosophy of language",
                 "ethics_advanced_C2": "Ethics",
                 "mortality_time_C2": "Mortality & time"
-            },
-            "health_body": {
-                "psychoanalysis_unconscious_C2": "Psychoanalysis & the unconscious"
             },
             "opinion_debate": {
                 "meta_argument_deconstruction_C2": "Meta-argument & deconstruction"

@@ -3,7 +3,7 @@
     {
         "word": "medico",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "numberPlural": "2 medico",
         "answer": "due medici",
         "emoji": "🧑‍⚕️",
@@ -28,7 +28,7 @@
     {
         "word": "insegnante",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "emoji": "🧑‍🏫",
         "form": "noun",
         "plural": "insegnanti",
@@ -197,7 +197,7 @@
     {
         "word": "parco",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🌳",
         "form": "noun",
         "plural": "parci",
@@ -214,7 +214,7 @@
     {
         "word": "scuola",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏫",
         "form": "noun",
         "plural": "scuole",
@@ -475,7 +475,7 @@
     {
         "word": "testa",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👤",
         "form": "noun",
         "plural": "teste",
@@ -499,7 +499,7 @@
     {
         "word": "mano",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "✋",
         "form": "noun",
         "plural": "mani",
@@ -523,7 +523,7 @@
     {
         "word": "gamba",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🦵",
         "form": "noun",
         "plural": "gambe"
@@ -531,7 +531,7 @@
     {
         "word": "occhio",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👁️",
         "form": "noun",
         "plural": "occhi",
@@ -548,7 +548,7 @@
     {
         "word": "naso",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👃",
         "form": "noun",
         "plural": "nasi"
@@ -556,7 +556,7 @@
     {
         "word": "bocca",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👄",
         "form": "noun",
         "plural": "bocce"
@@ -564,7 +564,7 @@
     {
         "word": "orecchio",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👂",
         "form": "noun",
         "plural": "orecchii"
@@ -572,7 +572,7 @@
     {
         "word": "piede",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🦶",
         "form": "noun",
         "plural": "piedi"
@@ -681,7 +681,7 @@
     {
         "word": "casa",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "article": "la",
         "baseWord": "casa",
         "numberPlural": "molte casa",
@@ -753,7 +753,7 @@
     {
         "word": "andare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "subtext": "andare a scuola, andare a casa",
         "form": "noun",
@@ -836,7 +836,7 @@
     {
         "word": "venire",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃‍♂️",
         "subtext": "venire qui, venire a casa",
         "opposite": "andare",
@@ -889,7 +889,7 @@
     {
         "word": "sentire",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🌡️",
         "form": "noun",
         "plural": "sentiri"
@@ -905,7 +905,7 @@
     {
         "word": "partire",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚪",
         "form": "noun",
         "plural": "partiri"
@@ -921,7 +921,7 @@
     {
         "word": "guardare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📺",
         "form": "noun",
         "plural": "guardari"
@@ -963,7 +963,7 @@
     {
         "word": "giocare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎮",
         "form": "noun",
         "plural": "giocari"
@@ -971,7 +971,7 @@
     {
         "word": "correre",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃",
         "form": "noun",
         "plural": "correri"
@@ -1043,7 +1043,7 @@
     {
         "word": "imparare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📚",
         "form": "noun",
         "plural": "imparari"
@@ -1066,7 +1066,7 @@
     {
         "word": "fermarsi",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛑",
         "form": "noun",
         "plural": "fermarsi"
@@ -1100,7 +1100,7 @@
     {
         "word": "vincere",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏆",
         "opposite": "perdere",
         "oppositeEmoji": "📉",

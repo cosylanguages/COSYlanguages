@@ -3,42 +3,42 @@
     {
         "word": "brush teeth",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🪥",
         "form": "verb"
     },
     {
         "word": "shower",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚿",
         "form": "verb"
     },
     {
         "word": "drawing",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🎨",
         "form": "verb"
     },
     {
         "word": "cooking",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "👨‍🍳",
         "form": "verb"
     },
     {
         "word": "dancing",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "💃",
         "form": "verb"
     },
     {
         "word": "singing",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🎤",
         "form": "verb"
     },
@@ -59,7 +59,7 @@
     {
         "word": "move",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📦",
         "form": "verb"
     },
@@ -80,21 +80,21 @@
     {
         "word": "include",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➕",
         "form": "verb"
     },
     {
         "word": "continue",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➡️",
         "form": "verb"
     },
     {
         "word": "set",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⚙️",
         "form": "verb"
     },
@@ -115,7 +115,7 @@
     {
         "word": "create",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "verb"
     },
@@ -157,7 +157,7 @@
     {
         "word": "serve",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍽️",
         "form": "verb"
     },
@@ -171,7 +171,7 @@
     {
         "word": "build",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏗️",
         "form": "verb"
     },
@@ -220,7 +220,7 @@
     {
         "word": "report",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb"
     },
@@ -234,14 +234,14 @@
     {
         "word": "explain",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "develop",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "💻",
         "form": "verb"
     },
@@ -255,14 +255,14 @@
     {
         "word": "hit",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🥊",
         "form": "verb"
     },
     {
         "word": "produce",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "verb"
     },
@@ -276,21 +276,21 @@
     {
         "word": "cover",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "verb"
     },
     {
         "word": "describe",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb"
     },
     {
         "word": "catch",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb"
     }

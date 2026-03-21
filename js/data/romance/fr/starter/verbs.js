@@ -12,14 +12,14 @@
     {
         "word": "dessiner",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "verb"
     },
     {
         "word": "cuisiner",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍳",
         "form": "verb"
     },
@@ -36,14 +36,14 @@
     {
         "word": "danser",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💃",
         "form": "verb"
     },
     {
         "word": "chanter",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎤",
         "form": "verb"
     },
@@ -127,7 +127,7 @@
     {
         "word": "marcher",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -159,7 +159,7 @@
     {
         "word": "mourir",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "⚰️",
         "opposite": "vivre",
         "oppositeEmoji": "🏠",
@@ -189,7 +189,7 @@
     {
         "word": "passer",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏔️",
         "form": "verb"
     },
@@ -283,21 +283,21 @@
     {
         "word": "sauter",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦘",
         "form": "verb"
     },
     {
         "word": "voler",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "nager",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏊",
         "form": "verb"
     },
@@ -318,28 +318,28 @@
     {
         "word": "voyager",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "étudier",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📖",
         "form": "verb"
     },
     {
         "word": "enseigner",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "écouter",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎧",
         "form": "verb"
     },

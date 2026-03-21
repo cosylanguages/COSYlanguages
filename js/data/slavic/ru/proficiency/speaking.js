@@ -20,7 +20,7 @@
                 "sideA": "Цивилизационное достижение",
                 "sideB": "Источник страданий",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Совет",
                 "sideB": "Ловушка",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Идентичность",
                 "sideB": "Средство",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Трудоголик",
                 "sideB": "Бездельник",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Достойно восхищения",
                 "sideB": "Неспособность принять конечность",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },

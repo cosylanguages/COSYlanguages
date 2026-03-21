@@ -3,7 +3,7 @@
     {
         "word": "danzare",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "form": "verb"
     },
     {
@@ -23,7 +23,7 @@
     {
         "word": "servire",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍽️",
         "form": "verb"
     },
@@ -37,7 +37,7 @@
     {
         "word": "costruire",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏗️",
         "form": "verb"
     },
@@ -86,7 +86,7 @@
     {
         "word": "riferire",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb"
     },
@@ -100,14 +100,14 @@
     {
         "word": "spiegare",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "sviluppare",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "💻",
         "form": "verb"
     },
@@ -121,14 +121,14 @@
     {
         "word": "colpire",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🥊",
         "form": "verb"
     },
     {
         "word": "produrre",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "verb"
     },
@@ -142,21 +142,21 @@
     {
         "word": "coprire",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "verb"
     },
     {
         "word": "descrivere",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb"
     },
     {
         "word": "catturare",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb"
     }

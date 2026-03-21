@@ -20,7 +20,7 @@
                 "sideA": "Επίπεδη ιεραρχία",
                 "sideB": "Κάθετη δομή",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Παραγωγικότητα",
                 "sideB": "Απραξία",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Μαθημένη δεξιότητα",
                 "sideB": "Έμφυτη ποιότητα",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Πραγματική δέσμευση",
                 "sideB": "Διαχείριση φήμης",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -182,7 +182,7 @@
                 "sideA": "Καριέρα με νόημα",
                 "sideB": "Χρηματοδότηση ζωής",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -308,7 +308,7 @@
             {
                 "topic": "Ο ρόλος της τέχνης στη σύγχρονη κοινωνία",
                 "level": "advanced",
-                "theme": "leisure_hobbies_A2"
+                "theme": "interests_hobbies_A2"
             },
             {
                 "topic": "Τεχνητή Νοημοσύνη: Εργαλείο ή απειλή;",

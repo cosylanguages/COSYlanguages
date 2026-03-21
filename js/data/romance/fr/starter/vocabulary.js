@@ -3,7 +3,7 @@
     {
         "word": "médecin",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "numberPlural": "2 médecin",
         "answer": "deux médecins",
         "emoji": "🧑‍⚕️",
@@ -28,7 +28,7 @@
     {
         "word": "professeur",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "emoji": "🧑‍🏫",
         "form": "noun",
         "plural": "professeurs",
@@ -230,7 +230,7 @@
     {
         "word": "parc",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🌳",
         "form": "noun",
         "plural": "parcs",
@@ -247,7 +247,7 @@
     {
         "word": "école",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏫",
         "form": "noun",
         "plural": "écoles",
@@ -480,7 +480,7 @@
     {
         "word": "tête",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👤",
         "form": "noun",
         "plural": "têtes",
@@ -504,7 +504,7 @@
     {
         "word": "main",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "✋",
         "form": "noun",
         "plural": "mains",
@@ -528,7 +528,7 @@
     {
         "word": "jambe",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🦵",
         "form": "noun",
         "plural": "jambes"
@@ -536,7 +536,7 @@
     {
         "word": "oeil",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👁️",
         "form": "noun",
         "plural": "yeux",
@@ -553,7 +553,7 @@
     {
         "word": "nez",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👃",
         "form": "noun",
         "plural": "nez"
@@ -561,7 +561,7 @@
     {
         "word": "bouche",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👄",
         "form": "noun",
         "plural": "bouches"
@@ -569,7 +569,7 @@
     {
         "word": "oreille",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👂",
         "form": "noun",
         "plural": "oreilles"
@@ -577,7 +577,7 @@
     {
         "word": "pied",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🦶",
         "form": "noun",
         "plural": "pieds"
@@ -648,7 +648,7 @@
     {
         "word": "voiture",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "article": "la",
         "baseWord": "voiture",
         "numberPlural": "2 voiture",
@@ -660,7 +660,7 @@
     {
         "word": "maison",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "article": "la",
         "baseWord": "maison",
         "numberPlural": "3 maison",
@@ -711,7 +711,7 @@
     {
         "word": "aller",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "subtext": "aller à l'école, rentrer à la maison",
         "form": "noun",
@@ -785,7 +785,7 @@
     {
         "word": "venir",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃‍♂️",
         "subtext": "venir ici, venir à la maison",
         "opposite": "aller",
@@ -838,7 +838,7 @@
     {
         "word": "sentir",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🌡️",
         "form": "noun",
         "plural": "sentirs"
@@ -854,7 +854,7 @@
     {
         "word": "partir",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚪",
         "form": "noun",
         "plural": "partirs"
@@ -870,7 +870,7 @@
     {
         "word": "regarder",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📺",
         "form": "noun",
         "plural": "regarders"
@@ -912,7 +912,7 @@
     {
         "word": "jouer",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎮",
         "form": "noun",
         "plural": "jouers"
@@ -920,7 +920,7 @@
     {
         "word": "courir",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃",
         "form": "noun",
         "plural": "courirs"
@@ -992,7 +992,7 @@
     {
         "word": "apprendre",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📚",
         "form": "noun",
         "plural": "apprendres"
@@ -1015,7 +1015,7 @@
     {
         "word": "s'arrêter",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛑",
         "form": "noun",
         "plural": "s'arrêters"
@@ -1049,7 +1049,7 @@
     {
         "word": "gagner",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏆",
         "opposite": "perdre",
         "oppositeEmoji": "📉",

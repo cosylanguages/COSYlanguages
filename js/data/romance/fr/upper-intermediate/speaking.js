@@ -135,7 +135,7 @@
                 "sideA": "Propriété",
                 "sideB": "Location pro",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -180,7 +180,7 @@
                 "sideA": "Resp. personnelle",
                 "sideB": "Facteurs systémiques",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -198,7 +198,7 @@
                 "sideA": "Préventive",
                 "sideB": "Curative",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -207,7 +207,7 @@
                 "sideA": "Anti-âge",
                 "sideB": "Vieillir avec grâce",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -288,7 +288,7 @@
                 "sideA": "Admettre ignorance",
                 "sideB": "Prétendre savoir",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -324,7 +324,7 @@
                 "sideA": "Perplexe",
                 "sideB": "Aime ça",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },

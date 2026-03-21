@@ -31,14 +31,14 @@
     {
         "word": "servir",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍽️",
         "form": "verb"
     },
     {
         "word": "construire",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏗️",
         "form": "verb"
     },
@@ -87,7 +87,7 @@
     {
         "word": "rapporter",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb"
     },
@@ -101,14 +101,14 @@
     {
         "word": "expliquer",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "développer",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "💻",
         "form": "verb"
     },
@@ -122,14 +122,14 @@
     {
         "word": "frapper",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🥊",
         "form": "verb"
     },
     {
         "word": "produire",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "verb"
     },
@@ -143,21 +143,21 @@
     {
         "word": "couvrir",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "verb"
     },
     {
         "word": "décrire",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb"
     },
     {
         "word": "attraper",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb"
     }

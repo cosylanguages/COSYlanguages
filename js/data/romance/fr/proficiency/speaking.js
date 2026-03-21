@@ -20,7 +20,7 @@
                 "sideA": "Réussite civilisationnelle",
                 "sideB": "Source de misère",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Conseil",
                 "sideB": "Piège",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Identité",
                 "sideB": "Moyen",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Travailleur acharné",
                 "sideB": "Oisif",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Admirable",
                 "sideB": "Incapacité à accepter la finitude",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },

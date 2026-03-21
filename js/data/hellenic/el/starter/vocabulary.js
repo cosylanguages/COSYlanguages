@@ -3,7 +3,7 @@
     {
         "word": "γιατρός",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "numberPlural": "2 γιατρός",
         "answer": "δύο γιατροί",
         "emoji": "🧑‍⚕️",
@@ -28,7 +28,7 @@
     {
         "word": "δάσκαλος",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "emoji": "🧑‍🏫",
         "form": "noun",
         "plural": "δάσκαλοι",
@@ -288,7 +288,7 @@
     {
         "word": "πάρκο",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🌳",
         "form": "noun",
         "plural": "πάρκα",
@@ -305,7 +305,7 @@
     {
         "word": "σχολείο",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏫",
         "form": "noun",
         "plural": "σχολεία",
@@ -545,14 +545,14 @@
     {
         "word": "διάβασμα",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "form": "noun",
         "plural": "διαβάσματα"
     },
     {
         "word": "κεφάλι",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👤",
         "form": "noun",
         "plural": "κεφάλια",
@@ -576,7 +576,7 @@
     {
         "word": "χέρι",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "✋",
         "form": "noun",
         "plural": "χέρια",
@@ -600,7 +600,7 @@
     {
         "word": "μάτι",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👁️",
         "form": "noun",
         "plural": "μάτια",
@@ -617,7 +617,7 @@
     {
         "word": "μύτη",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👃",
         "form": "noun",
         "plural": "μύτες"
@@ -625,7 +625,7 @@
     {
         "word": "στόμα",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👄",
         "form": "noun",
         "plural": "στόμες"
@@ -633,7 +633,7 @@
     {
         "word": "αυτί",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👂",
         "form": "noun",
         "plural": "αυτί"
@@ -685,7 +685,7 @@
     {
         "word": "σπίτι",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "article": "το",
         "baseWord": "σπίτι",
         "numberPlural": "πολλά σπίτι",
@@ -854,7 +854,7 @@
     {
         "word": "έρχομαι",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃‍♂️",
         "subtext": "έλα εδώ, έλα σπίτι",
         "opposite": "πηγαίνω",
@@ -909,7 +909,7 @@
     {
         "word": "νιώθω",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🌡️",
         "form": "adjective"
     },
@@ -924,7 +924,7 @@
     {
         "word": "φεύγω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚪",
         "form": "noun",
         "plural": "φεύγω"
@@ -966,7 +966,7 @@
     {
         "word": "παίζω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎮",
         "form": "noun",
         "plural": "παίζω"
@@ -974,7 +974,7 @@
     {
         "word": "τρέχω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃",
         "form": "noun",
         "plural": "τρέχω"
@@ -1045,7 +1045,7 @@
     {
         "word": "μαθαίνω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📚",
         "form": "noun",
         "plural": "μαθαίνω"
@@ -1069,7 +1069,7 @@
     {
         "word": "παρακολουθώ",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📺",
         "form": "noun",
         "plural": "παρακολουθώ",
@@ -1086,7 +1086,7 @@
     {
         "word": "σταματάω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛑",
         "form": "noun",
         "plural": "σταματάω"
@@ -1120,7 +1120,7 @@
     {
         "word": "νικάω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏆",
         "opposite": "χάνω",
         "oppositeEmoji": "📉",

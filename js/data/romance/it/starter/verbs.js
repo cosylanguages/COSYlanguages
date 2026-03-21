@@ -3,7 +3,7 @@
     {
         "word": "disegnare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "verb",
         "definitions": [
@@ -19,7 +19,7 @@
     {
         "word": "cucinare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍳",
         "form": "verb"
     },
@@ -36,7 +36,7 @@
     {
         "word": "cantare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎤",
         "form": "verb"
     },
@@ -127,7 +127,7 @@
     {
         "word": "camminare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -166,7 +166,7 @@
     {
         "word": "morire",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "⚰️",
         "opposite": "vivere",
         "oppositeEmoji": "🏠",
@@ -182,7 +182,7 @@
     {
         "word": "restare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏨",
         "form": "verb"
     },
@@ -203,7 +203,7 @@
     {
         "word": "passare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏔️",
         "form": "verb"
     },
@@ -290,28 +290,28 @@
     {
         "word": "ballare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💃",
         "form": "verb"
     },
     {
         "word": "saltare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦘",
         "form": "verb"
     },
     {
         "word": "volare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "nuotare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏊",
         "form": "verb"
     },
@@ -332,28 +332,28 @@
     {
         "word": "viaggiare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "studiare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📖",
         "form": "verb"
     },
     {
         "word": "insegnare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "ascoltare",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎧",
         "form": "verb"
     },

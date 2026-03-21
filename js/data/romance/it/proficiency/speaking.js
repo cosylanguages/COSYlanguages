@@ -20,7 +20,7 @@
                 "sideA": "Conquista di civiltà",
                 "sideB": "Fonte di miseria",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Consiglio",
                 "sideB": "Trappola",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Identità",
                 "sideB": "Mezzo",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Stakanovista",
                 "sideB": "Ozioso",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Ammirevole",
                 "sideB": "Incapacità di accettare la finitezza",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },

@@ -17,7 +17,7 @@
     {
         "word": "πόδι",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🦶",
         "form": "verb"
     },
@@ -100,7 +100,7 @@
     {
         "word": "πηγαίνω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "subtext": "πηγαίνω στο σχολείο, πηγαίνω σπίτι",
         "form": "verb"
@@ -177,7 +177,7 @@
     {
         "word": "περπατάω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -202,7 +202,7 @@
     {
         "word": "πεθαίνω",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "⚰️",
         "opposite": "ζω",
         "oppositeEmoji": "🏠",
@@ -218,7 +218,7 @@
     {
         "word": "μένω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏨",
         "form": "verb"
     },
@@ -239,7 +239,7 @@
     {
         "word": "περνώ",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏔️",
         "form": "verb"
     },
@@ -308,7 +308,7 @@
     {
         "word": "σχεδιάζω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "verb",
         "definitions": [
@@ -349,35 +349,35 @@
     {
         "word": "χορεύω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💃",
         "form": "verb"
     },
     {
         "word": "τραγουδάω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎤",
         "form": "verb"
     },
     {
         "word": "πηδάω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦘",
         "form": "verb"
     },
     {
         "word": "πετάω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "κολυμπάω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏊",
         "form": "verb"
     },
@@ -398,35 +398,35 @@
     {
         "word": "μαγειρεύω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍳",
         "form": "verb"
     },
     {
         "word": "ταξιδεύω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "σπουδάζω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📖",
         "form": "verb"
     },
     {
         "word": "διδάσκω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "ακούω",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎧",
         "form": "verb"
     },

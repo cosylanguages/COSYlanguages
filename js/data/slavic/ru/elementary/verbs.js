@@ -3,32 +3,32 @@
     {
         "word": "лошадь",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐎",
         "form": "verb"
     },
     {
         "word": "рисование",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "form": "verb"
     },
     {
         "word": "готовка",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "form": "verb"
     },
     {
         "word": "танцы",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "form": "verb"
     },
     {
         "word": "пение",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "form": "verb"
     },
     {
@@ -62,7 +62,7 @@
     {
         "word": "служить",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍽️",
         "form": "verb"
     },
@@ -76,7 +76,7 @@
     {
         "word": "строить",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏗️",
         "form": "verb"
     },
@@ -118,7 +118,7 @@
     {
         "word": "сообщать",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb"
     },
@@ -132,14 +132,14 @@
     {
         "word": "объяснять",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "развивать",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "💻",
         "form": "verb"
     },
@@ -153,14 +153,14 @@
     {
         "word": "ударять",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🥊",
         "form": "verb"
     },
     {
         "word": "производить",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "verb"
     },
@@ -174,21 +174,21 @@
     {
         "word": "покрывать",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "verb"
     },
     {
         "word": "описывать",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb"
     },
     {
         "word": "ловить",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb"
     }
