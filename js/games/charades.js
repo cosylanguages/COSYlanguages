@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, startTimer, stopTimer, parseLessons, handleShare, playGameSound, showGameMessage, populateThemes } = window.gameUtils;
+    const { getLang, t, startTimer, stopTimer, parseLessons, handleShare, playGameSound, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 
     const initCharades = () => {
         const modal = document.getElementById('charades-modal');
@@ -76,12 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             pool = [];
 
-            const filterByTheme = (w) => {
-                if (theme === 'all') return true;
-                if (theme === 'numbers_all') return w.theme.startsWith('numbers_');
-                if (theme === 'places_all') return w.theme.startsWith('places_');
-                return w.theme === theme;
-            };
+            const filterByTheme = (w) => isThemeMatch(w.theme, theme);
 
             if (lessonInput) {
                 const lessons = parseLessons(lessonInput);

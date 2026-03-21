@@ -89,7 +89,13 @@ function populatePracticeThemes(categoryId) {
 
     const lang = currentPractice.language;
     const selectedLevel = levelSelect.value;
-    const t = translations[lang] || translations['en'];
+
+    // Defensive check for translations object
+    if (typeof translations === 'undefined') {
+        console.warn("Translations object not found");
+        return;
+    }
+    const t = translations[lang] || translations['en'] || {};
 
     themeSelect.innerHTML = '';
     const subThemeSelect = document.getElementById('practice-sub-theme');
@@ -185,7 +191,8 @@ function populateSubThemes() {
     if (!themeSelect || !subThemeSelect || !subThemeGroup || !levelSelect) return;
 
     const lang = currentPractice.language;
-    const t = translations[lang] || translations['en'];
+    if (typeof translations === 'undefined') return;
+    const t = translations[lang] || translations['en'] || {};
     const selectedLevel = levelSelect.value;
     const selectedTheme = themeSelect.value;
 
@@ -232,7 +239,8 @@ function updateThemeDescription() {
 
     const level = levelSelect.value;
     const lang = currentPractice.language;
-    const t = translations[lang] || translations['en'];
+    if (typeof translations === 'undefined') return;
+    const t = translations[lang] || translations['en'] || {};
 
     if (level === 'all') {
         descEl.style.display = 'none';
@@ -252,10 +260,11 @@ function updateThemeDescription() {
 
     // For starter, show A0 description if an A0 theme is selected, else A1
     if (level === 'starter') {
-        if (subThemeSelect && subThemeSelect.value.endsWith('_A1')) {
-            descKey = 'desc_a1';
-        } else {
+        const subTheme = subThemeSelect ? subThemeSelect.value : 'all';
+        if (subTheme.endsWith('_A0')) {
             descKey = 'desc_a0';
+        } else {
+            descKey = 'desc_a1';
         }
     }
 

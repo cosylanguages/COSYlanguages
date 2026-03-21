@@ -855,7 +855,7 @@
                 "sideA": "Домашние",
                 "sideB": "Дикие",
                 "level": "elementary",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1344,7 +1344,7 @@
                 "sideA": "Кошки",
                 "sideB": "Собаки",
                 "level": "elementary",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1515,7 +1515,7 @@
                 "sideA": "Кошки",
                 "sideB": "Собаки",
                 "level": "elementary",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },

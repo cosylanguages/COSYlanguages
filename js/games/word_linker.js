@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, speak, showGameMessage, populateThemes } = window.gameUtils;
+    const { getLang, t, speak, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 
     const initWordLinker = () => {
         const modal = document.getElementById('linker-modal');
@@ -206,14 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let allVocab = (window.vocabularyData[lang] || [])
                 .filter(v => v.theme !== 'famous_people'); // Exclude names from Word Linker
 
-            const filterByTheme = (v) => {
-                if (theme === 'all') return true;
-                if (theme === 'numbers_all') return v.theme.startsWith('numbers_');
-                if (theme === 'places_all') return v.theme.startsWith('places_');
-                return v.theme === theme;
-            };
-
-            allVocab = allVocab.filter(v => filterByTheme(v));
+            allVocab = allVocab.filter(v => isThemeMatch(v.theme, theme));
 
             // Filter by level (cumulative) if not "all"
             if (level !== 'all') {

@@ -51,7 +51,7 @@
     {
         "word": "μουσακάς",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "form": "noun",
         "plural": "μουσακάς",
         "definitions": [
@@ -73,7 +73,7 @@
     {
         "word": "παστίτσιο",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "form": "noun",
         "plural": "παστίτσια",
         "definitions": [
@@ -95,7 +95,7 @@
     {
         "word": "μήλο",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "numberPlural": "4 μήλο",
         "answer": "τέσσερα μήλα",
         "emoji": "🍎",
@@ -114,7 +114,7 @@
     {
         "word": "ψωμί",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍞",
         "form": "noun",
         "plural": "ψωμί",
@@ -131,7 +131,7 @@
     {
         "word": "αυγό",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥚",
         "form": "noun",
         "plural": "αυγό",
@@ -154,7 +154,7 @@
     {
         "word": "γάλα",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥛",
         "form": "noun",
         "plural": "γάλα",
@@ -177,7 +177,7 @@
     {
         "word": "πίτσα",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍕",
         "form": "noun",
         "plural": "πίτσες",
@@ -194,7 +194,7 @@
     {
         "word": "καφές",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "ο",
         "baseWord": "καφές",
         "emoji": "☕",
@@ -219,7 +219,7 @@
     {
         "word": "τσάι",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "το",
         "baseWord": "τσάι",
         "emoji": "🍵",
@@ -244,7 +244,7 @@
     {
         "word": "χυμός",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "ο",
         "baseWord": "χυμός",
         "emoji": "🧃",
@@ -269,7 +269,7 @@
     {
         "word": "νερό",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "το",
         "baseWord": "νερό",
         "emoji": "🚰",
@@ -322,7 +322,7 @@
     {
         "word": "μπλουζάκι",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👕",
         "form": "noun",
         "plural": "μπλουζάκια"
@@ -330,7 +330,7 @@
     {
         "word": "παντελόνι",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👖",
         "form": "noun",
         "plural": "παντελόνια"
@@ -338,7 +338,7 @@
     {
         "word": "παπούτσια",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👟",
         "form": "noun",
         "plural": "παπούτσιες"
@@ -346,7 +346,7 @@
     {
         "word": "καπέλο",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👒",
         "form": "noun",
         "plural": "καπέλα"
@@ -354,7 +354,7 @@
     {
         "word": "καρέκλα",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "καρέκλες"
@@ -362,7 +362,7 @@
     {
         "word": "τραπέζι",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "τραπέζια"
@@ -370,7 +370,7 @@
     {
         "word": "κρεβάτι",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛏️",
         "form": "noun",
         "plural": "κρεβάτια"
@@ -378,7 +378,7 @@
     {
         "word": "ψηλός",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "ψηλός",
         "definitions": [
@@ -394,7 +394,7 @@
     {
         "word": "κοντός",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "κοντός",
         "definitions": [
@@ -410,21 +410,21 @@
     {
         "word": "νέος",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "νέοι"
     },
     {
         "word": "γέρος",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "γέροι"
     },
     {
         "word": "ξυπνάω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "⏰",
         "form": "noun",
         "plural": "ξυπνάω"
@@ -432,7 +432,7 @@
     {
         "word": "κοιμάμαι",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "😴",
         "subtext": "κοιμάμαι 8 ώρες, πάω για ύπνο",
         "form": "noun",
@@ -441,7 +441,7 @@
     {
         "word": "κλειδί",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔑",
         "form": "noun",
         "plural": "κλειδιά",
@@ -465,7 +465,7 @@
     {
         "word": "τηλέφωνο",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "τηλέφωνα"
@@ -473,7 +473,7 @@
     {
         "word": "βιβλίο",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "form": "noun",
         "plural": "βιβλία",
@@ -697,7 +697,7 @@
     {
         "word": "γυναίκα",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "article": "η",
         "baseWord": "γυναίκα",
         "numberPlural": "3 γυναίκα",
@@ -718,7 +718,7 @@
     {
         "word": "άνδρας",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "article": "ο",
         "baseWord": "άνδρας",
         "numberPlural": "2 άνδρας",
@@ -739,7 +739,7 @@
     {
         "word": "παιδί",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "article": "το",
         "baseWord": "παιδί",
         "numberPlural": "πολλά παιδί",
@@ -760,7 +760,7 @@
     {
         "word": "κάνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "subtext": "κάνω μαθήματα, κάνω σπορ",
         "form": "noun",
@@ -769,7 +769,7 @@
     {
         "word": "δουλεύω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💼",
         "subtext": "δουλεύω σε γραφείο, δουλεύω σκληρά",
         "form": "noun",
@@ -778,7 +778,7 @@
     {
         "word": "μιλάω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💬",
         "subtext": "μιλάω αγγλικά, μιλάω αργά",
         "form": "noun",
@@ -787,7 +787,7 @@
     {
         "word": "ξέρω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🧠",
         "subtext": "ξέρω την απάντηση, ξέρω ένα άτομο",
         "form": "noun",
@@ -796,7 +796,7 @@
     {
         "word": "σκέφτομαι",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💭",
         "subtext": "σκέφτομαι για, σκέφτομαι ότι",
         "form": "noun",
@@ -805,7 +805,7 @@
     {
         "word": "θέλω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🙏",
         "subtext": "θέλω νερό, θέλω να πάω",
         "form": "noun",
@@ -814,7 +814,7 @@
     {
         "word": "μου αρέσει",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👍",
         "subtext": "μου αρέσει η σοκολάτα, μου αρέσει να χορεύω",
         "form": "noun",
@@ -823,7 +823,7 @@
     {
         "word": "αγαπώ",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❤️",
         "subtext": "αγαπώ την οικογένειά μου, αγαπώ τα ταξίδια",
         "form": "noun",
@@ -832,7 +832,7 @@
     {
         "word": "διαβάζω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "subtext": "διαβάζω ένα βιβλίο, διαβάζω τις ειδήσεις",
         "opposite": "γράφω",
@@ -843,7 +843,7 @@
     {
         "word": "γράφω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✍️",
         "subtext": "γράφω ένα γράμμα, γράφω ένα μήνυμα",
         "opposite": "διαβάζω",
@@ -865,7 +865,7 @@
     {
         "word": "δίνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎁",
         "subtext": "δίνω ένα δώρο, δίνω βοήθεια",
         "opposite": "παίρνω",
@@ -876,7 +876,7 @@
     {
         "word": "παίρνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📥",
         "subtext": "παίρνω λεωφορείο, βγάζω φωτογραφία",
         "opposite": "δίνω",
@@ -887,7 +887,7 @@
     {
         "word": "βρίσκω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔍",
         "form": "noun",
         "plural": "βρίσκω"
@@ -895,14 +895,14 @@
     {
         "word": "λέω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🗣️",
         "form": "adjective"
     },
     {
         "word": "ρωτάω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❓",
         "form": "adjective"
     },
@@ -916,7 +916,7 @@
     {
         "word": "προσπαθώ",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎯",
         "form": "noun",
         "plural": "προσπαθώ"
@@ -932,7 +932,7 @@
     {
         "word": "καλώ",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📞",
         "form": "noun",
         "plural": "καλώ"
@@ -940,7 +940,7 @@
     {
         "word": "κοιτάζω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👀",
         "form": "noun",
         "plural": "κοιτάζω"
@@ -948,7 +948,7 @@
     {
         "word": "χρησιμοποιώ",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "form": "noun",
         "plural": "χρησιμοποιώ"
@@ -956,7 +956,7 @@
     {
         "word": "αρχίζω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "▶️",
         "opposite": "τελειώνω",
         "oppositeEmoji": "🏁",
@@ -982,7 +982,7 @@
     {
         "word": "ζω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🏠",
         "opposite": "πεθαίνω",
         "oppositeEmoji": "⚰️",
@@ -992,7 +992,7 @@
     {
         "word": "φέρνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎁",
         "form": "noun",
         "plural": "φέρνω"
@@ -1000,7 +1000,7 @@
     {
         "word": "κάθομαι",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "opposite": "στέκομαι",
         "oppositeEmoji": "🧍",
@@ -1010,7 +1010,7 @@
     {
         "word": "στέκομαι",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧍",
         "opposite": "κάθομαι",
         "oppositeEmoji": "🪑",
@@ -1020,7 +1020,7 @@
     {
         "word": "χάνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📉",
         "opposite": "νικάω",
         "oppositeEmoji": "🏆",
@@ -1030,14 +1030,14 @@
     {
         "word": "πληρώνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💰",
         "form": "adjective"
     },
     {
         "word": "συναντώ",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "noun",
         "plural": "συναντώ"
@@ -1053,7 +1053,7 @@
     {
         "word": "αλλάζω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔄",
         "form": "noun",
         "plural": "αλλάζω"
@@ -1061,7 +1061,7 @@
     {
         "word": "καταλαβαίνω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💡",
         "form": "noun",
         "plural": "καταλαβαίνω"
@@ -1094,7 +1094,7 @@
     {
         "word": "προσθέτω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "➕",
         "form": "noun",
         "plural": "προσθέτω"
@@ -1102,7 +1102,7 @@
     {
         "word": "ξοδεύω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💸",
         "form": "noun",
         "plural": "ξοδεύω"
@@ -1110,7 +1110,7 @@
     {
         "word": "ανοίγω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "opposite": "κλείνω",
         "oppositeEmoji": "🔒",
@@ -1130,7 +1130,7 @@
     {
         "word": "θυμάμαι",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🧠",
         "form": "noun",
         "plural": "θυμάμαια"

@@ -26,7 +26,7 @@
     {
         "word": "leggere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "subtext": "leggere un libro, leggere le notizie",
         "opposite": "scrivere",
@@ -57,7 +57,7 @@
     {
         "word": "mangiare",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍎",
         "subtext": "mangiare una mela, cenare",
         "opposite": "bere",
@@ -76,7 +76,7 @@
     {
         "word": "bere",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥛",
         "subtext": "bere acqua, bere caffè",
         "form": "verb",
@@ -93,7 +93,7 @@
     {
         "word": "parlare",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💬",
         "subtext": "parlare inglese, parlare lentamente",
         "form": "verb",
@@ -110,7 +110,7 @@
     {
         "word": "vedere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👁️",
         "subtext": "vedere un film, vedere un amico",
         "form": "verb",
@@ -143,14 +143,14 @@
     {
         "word": "ricordare",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🧠",
         "form": "verb"
     },
     {
         "word": "comprare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛒",
         "opposite": "vendere",
         "oppositeEmoji": "🏷️",
@@ -159,7 +159,7 @@
     {
         "word": "aspettare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "⏳",
         "form": "verb"
     },
@@ -175,7 +175,7 @@
     {
         "word": "inviare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✉️",
         "form": "verb"
     },
@@ -196,7 +196,7 @@
     {
         "word": "tagliare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✂️",
         "form": "verb"
     },
@@ -210,7 +210,7 @@
     {
         "word": "vendere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🏷️",
         "opposite": "comprare",
         "oppositeEmoji": "🛒",
@@ -219,7 +219,7 @@
     {
         "word": "tirare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🚜",
         "opposite": "spingere",
         "oppositeEmoji": "🛒",
@@ -228,7 +228,7 @@
     {
         "word": "spingere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛒",
         "opposite": "tirare",
         "oppositeEmoji": "🚜",
@@ -237,42 +237,42 @@
     {
         "word": "sperare",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤞",
         "form": "verb"
     },
     {
         "word": "rompere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💔",
         "form": "verb"
     },
     {
         "word": "ricevere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📩",
         "form": "verb"
     },
     {
         "word": "essere d'accordo",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👍",
         "form": "verb"
     },
     {
         "word": "condividere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🍕",
         "form": "verb"
     },
     {
         "word": "sorridere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "😊",
         "opposite": "piangere",
         "oppositeEmoji": "😢",
@@ -281,7 +281,7 @@
     {
         "word": "piangere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "😢",
         "opposite": "sorridere",
         "oppositeEmoji": "😊",
@@ -318,14 +318,14 @@
     {
         "word": "lavare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧼",
         "form": "verb"
     },
     {
         "word": "pulire",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧹",
         "form": "verb"
     },
@@ -360,7 +360,7 @@
     {
         "word": "chiudere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔒",
         "opposite": "aprire",
         "oppositeEmoji": "📖",
@@ -369,7 +369,7 @@
     {
         "word": "finire",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🏁",
         "opposite": "iniziare",
         "oppositeEmoji": "▶️",

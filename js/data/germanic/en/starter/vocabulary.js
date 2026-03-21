@@ -53,7 +53,7 @@
     {
         "word": "pizza",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "numberPlural": "3 pizza",
         "answer": "three pizzas",
         "emoji": "🍕",
@@ -78,7 +78,7 @@
     {
         "word": "pasta",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍝",
         "form": "noun",
         "plural": "pasta",
@@ -101,7 +101,7 @@
     {
         "word": "apple",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "numberPlural": "4 apple",
         "answer": "four apples",
         "emoji": "🍎",
@@ -120,7 +120,7 @@
     {
         "word": "bread",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍞",
         "form": "noun",
         "plural": "bread",
@@ -137,7 +137,7 @@
     {
         "word": "egg",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥚",
         "form": "noun",
         "plural": "eggs",
@@ -160,7 +160,7 @@
     {
         "word": "milk",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥛",
         "form": "noun",
         "plural": "milk",
@@ -183,7 +183,7 @@
     {
         "word": "banana",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍌",
         "form": "noun",
         "plural": "bananas",
@@ -206,7 +206,7 @@
     {
         "word": "coffee",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "☕",
         "form": "noun",
         "plural": "coffee",
@@ -229,7 +229,7 @@
     {
         "word": "tea",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍵",
         "form": "noun",
         "plural": "tea",
@@ -252,7 +252,7 @@
     {
         "word": "juice",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🧃",
         "form": "noun",
         "plural": "juice",
@@ -275,7 +275,7 @@
     {
         "word": "water",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🚰",
         "form": "noun",
         "plural": "water",
@@ -339,7 +339,7 @@
     {
         "word": "t-shirt",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👕",
         "form": "noun",
         "plural": "t-shirts"
@@ -347,7 +347,7 @@
     {
         "word": "pants",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👖",
         "form": "noun",
         "plural": "pants"
@@ -355,7 +355,7 @@
     {
         "word": "shoe",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👟",
         "form": "noun",
         "plural": "shoes"
@@ -363,7 +363,7 @@
     {
         "word": "hat",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👒",
         "form": "noun",
         "plural": "hats"
@@ -371,7 +371,7 @@
     {
         "word": "chair",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "chairs",
@@ -388,7 +388,7 @@
     {
         "word": "table",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "tables",
@@ -405,7 +405,7 @@
     {
         "word": "bed",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛏️",
         "form": "noun",
         "plural": "beds",
@@ -422,7 +422,7 @@
     {
         "word": "tall",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "adjective",
         "definitions": [
             {
@@ -437,7 +437,7 @@
     {
         "word": "short",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "adjective",
         "definitions": [
             {
@@ -452,19 +452,19 @@
     {
         "word": "young",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "adjective"
     },
     {
         "word": "old",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "adjective"
     },
     {
         "word": "key",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔑",
         "form": "noun",
         "plural": "keys",
@@ -488,7 +488,7 @@
     {
         "word": "phone",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "phones"
@@ -496,7 +496,7 @@
     {
         "word": "book",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "numberPlural": "2 book",
         "answer": "two books",
         "emoji": "📚",
@@ -522,7 +522,7 @@
     {
         "word": "bag",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "form": "noun",
         "plural": "bags",
@@ -539,7 +539,7 @@
     {
         "word": "pen",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🖊️",
         "form": "noun",
         "plural": "pens",
@@ -768,7 +768,7 @@
     {
         "word": "ordinary",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "adjective"
     },
     {
@@ -822,7 +822,7 @@
     {
         "word": "man",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "numberPlural": "2 man",
         "answer": "two men",
         "emoji": "👨",
@@ -841,7 +841,7 @@
     {
         "word": "woman",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "numberPlural": "2 woman",
         "answer": "two women",
         "emoji": "👩",

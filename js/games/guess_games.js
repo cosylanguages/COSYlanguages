@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { t, handleShare, playGameSound, showGameMessage, populateThemes } = window.gameUtils;
+    const { t, handleShare, playGameSound, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 
     const initGuessGame = (gameType) => {
         const modalId = gameType === 'who' ? 'guess-who-modal' : 'guess-what-modal';
@@ -91,12 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const level = modal.querySelector('.game-level').value;
 
             const vocab = window.vocabularyData && window.vocabularyData[lang] || [];
-            pool = vocab.filter(item => {
-                if (theme === 'all') return true;
-                if (theme === 'numbers_all') return item.theme.startsWith('numbers_');
-                if (theme === 'places_all') return item.theme.startsWith('places_');
-                return item.theme === theme;
-            });
+            pool = vocab.filter(item => isThemeMatch(item.theme, theme));
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];

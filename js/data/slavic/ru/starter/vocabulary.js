@@ -51,21 +51,21 @@
     {
         "word": "борщ",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "form": "noun",
         "plural": "борщи"
     },
     {
         "word": "салат оливье",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "form": "noun",
         "plural": "салат оливья"
     },
     {
         "word": "яблоко",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "numberPlural": "4 яблоко",
         "answer": "четыре яблока",
         "emoji": "🍎",
@@ -84,7 +84,7 @@
     {
         "word": "хлеб",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍞",
         "form": "noun",
         "plural": "хлеб",
@@ -101,7 +101,7 @@
     {
         "word": "яйцо",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥚",
         "form": "noun",
         "plural": "яйца"
@@ -109,7 +109,7 @@
     {
         "word": "молоко",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥛",
         "form": "noun",
         "plural": "молоко"
@@ -117,7 +117,7 @@
     {
         "word": "пицца",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍕",
         "form": "noun",
         "plural": "пиццы",
@@ -134,7 +134,7 @@
     {
         "word": "кофе",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "gender": "он",
         "baseWord": "кофе",
         "emoji": "☕",
@@ -144,7 +144,7 @@
     {
         "word": "чай",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "gender": "он",
         "baseWord": "чай",
         "emoji": "🍵",
@@ -154,7 +154,7 @@
     {
         "word": "сок",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "gender": "он",
         "baseWord": "сок",
         "emoji": "🧃",
@@ -164,7 +164,7 @@
     {
         "word": "вода",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "gender": "она",
         "baseWord": "вода",
         "emoji": "🚰",
@@ -217,7 +217,7 @@
     {
         "word": "футболка",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👕",
         "form": "noun",
         "plural": "футболки"
@@ -225,7 +225,7 @@
     {
         "word": "брюки",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👖",
         "form": "noun",
         "plural": "брюки"
@@ -233,7 +233,7 @@
     {
         "word": "обувь",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👟",
         "form": "noun",
         "plural": "обувь"
@@ -241,7 +241,7 @@
     {
         "word": "шапка",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👒",
         "form": "noun",
         "plural": "шапки"
@@ -249,7 +249,7 @@
     {
         "word": "стул",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "стулы"
@@ -257,7 +257,7 @@
     {
         "word": "стол",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "столы"
@@ -265,7 +265,7 @@
     {
         "word": "кровать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛏️",
         "form": "noun",
         "plural": "кровать"
@@ -273,7 +273,7 @@
     {
         "word": "высокий",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "высокий",
         "definitions": [
@@ -289,7 +289,7 @@
     {
         "word": "низкий",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "низкий",
         "definitions": [
@@ -305,21 +305,21 @@
     {
         "word": "молодой",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "молодой"
     },
     {
         "word": "старый",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "старый"
     },
     {
         "word": "просыпаться",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "⏰",
         "form": "noun",
         "plural": "просыпатьси"
@@ -327,7 +327,7 @@
     {
         "word": "спать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "😴",
         "subtext": "спать 8 часов, идти спать",
         "form": "noun",
@@ -336,7 +336,7 @@
     {
         "word": "ключ",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔑",
         "form": "noun",
         "plural": "ключи",
@@ -360,7 +360,7 @@
     {
         "word": "телефон",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "телефоны"
@@ -368,7 +368,7 @@
     {
         "word": "книга",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "form": "noun",
         "plural": "книги",
@@ -615,7 +615,7 @@
     },
     {
         "word": "кофе",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "level": "starter",
         "gender": "он",
         "baseWord": "кофе",
@@ -625,7 +625,7 @@
     },
     {
         "word": "вода",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "level": "starter",
         "gender": "она",
         "baseWord": "вода",
@@ -644,7 +644,7 @@
     },
     {
         "word": "окно",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "level": "starter",
         "gender": "оно",
         "baseWord": "окно",
@@ -654,7 +654,7 @@
     },
     {
         "word": "книга",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "level": "starter",
         "gender": "она",
         "baseWord": "книга",
@@ -676,7 +676,7 @@
     {
         "word": "стол",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "gender": "он",
         "baseWord": "стол",
         "numberPlural": "3 стол",
@@ -700,7 +700,7 @@
     {
         "word": "быть",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👤",
         "subtext": "мне холодно, мне 20 лет",
         "form": "noun",
@@ -709,7 +709,7 @@
     {
         "word": "иметь",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "subtext": "завтракать, иметь машину",
         "form": "noun",
@@ -727,7 +727,7 @@
     {
         "word": "делать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "subtext": "делать уроки, заниматься спортом",
         "form": "noun",
@@ -736,7 +736,7 @@
     {
         "word": "работать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💼",
         "subtext": "работать в офисе, много работать",
         "form": "noun",
@@ -745,7 +745,7 @@
     {
         "word": "говорить",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🗣️",
         "subtext": "говорить по-английски, говорить медленно",
         "form": "noun",
@@ -754,7 +754,7 @@
     {
         "word": "знать",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🧠",
         "subtext": "знать ответ, знать человека",
         "form": "noun",
@@ -763,7 +763,7 @@
     {
         "word": "думать",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💭",
         "subtext": "думать о, думать что",
         "form": "noun",
@@ -772,7 +772,7 @@
     {
         "word": "хотеть",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🙏",
         "subtext": "хотеть воды, хотеть пойти",
         "form": "noun",
@@ -781,7 +781,7 @@
     {
         "word": "нравиться",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👍",
         "subtext": "мне нравится шоколад, мне нравится танцевать",
         "form": "noun",
@@ -790,7 +790,7 @@
     {
         "word": "любить",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❤️",
         "subtext": "любить мою семью, любить путешествовать",
         "form": "noun",
@@ -799,7 +799,7 @@
     {
         "word": "брать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "subtext": "сесть в автобус, сфотографировать",
         "opposite": "давать",
@@ -810,7 +810,7 @@
     {
         "word": "находить",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔍",
         "form": "noun",
         "plural": "находить"
@@ -818,7 +818,7 @@
     {
         "word": "рассказывать",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🗣️",
         "form": "noun",
         "plural": "рассказывать"
@@ -826,7 +826,7 @@
     {
         "word": "спрашивать",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❓",
         "form": "noun",
         "plural": "спрашивать"
@@ -842,7 +842,7 @@
     {
         "word": "пробовать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎯",
         "form": "noun",
         "plural": "пробовать"
@@ -858,7 +858,7 @@
     {
         "word": "звонить",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📞",
         "form": "noun",
         "plural": "звонить"
@@ -874,7 +874,7 @@
     {
         "word": "использовать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "form": "noun",
         "plural": "использовать"
@@ -882,7 +882,7 @@
     {
         "word": "получать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📩",
         "form": "noun",
         "plural": "получать"
@@ -890,7 +890,7 @@
     {
         "word": "начинать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "▶️",
         "opposite": "заканчивать",
         "oppositeEmoji": "🏁",
@@ -900,7 +900,7 @@
     {
         "word": "помогать",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "noun",
         "plural": "помогать"
@@ -924,7 +924,7 @@
     {
         "word": "жить",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🏠",
         "opposite": "умирать",
         "oppositeEmoji": "⚰️",
@@ -934,7 +934,7 @@
     {
         "word": "приносить",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎁",
         "form": "noun",
         "plural": "приносить"
@@ -942,7 +942,7 @@
     {
         "word": "сидеть",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "opposite": "стоять",
         "oppositeEmoji": "🧍",
@@ -952,7 +952,7 @@
     {
         "word": "стоять",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧍",
         "opposite": "сидеть",
         "oppositeEmoji": "🪑",
@@ -962,7 +962,7 @@
     {
         "word": "терять",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📉",
         "opposite": "выигрывать",
         "oppositeEmoji": "🏆",
@@ -972,7 +972,7 @@
     {
         "word": "платить",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💰",
         "form": "noun",
         "plural": "платить"
@@ -980,7 +980,7 @@
     {
         "word": "встречать",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "noun",
         "plural": "встречать"
@@ -996,7 +996,7 @@
     {
         "word": "менять",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔄",
         "form": "noun",
         "plural": "менять"
@@ -1004,7 +1004,7 @@
     {
         "word": "понимать",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💡",
         "form": "noun",
         "plural": "понимать"
@@ -1020,7 +1020,7 @@
     {
         "word": "добавлять",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "➕",
         "form": "noun",
         "plural": "добавлять"
@@ -1028,7 +1028,7 @@
     {
         "word": "тратить",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💸",
         "form": "noun",
         "plural": "тратить"

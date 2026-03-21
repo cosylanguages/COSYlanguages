@@ -1,5 +1,5 @@
 (function() {
-    const { getLang, t, setBySelector, showGameMessage, showGameConfirm, playGameSound, populateThemes } = window.gameUtils;
+    const { getLang, t, setBySelector, showGameMessage, showGameConfirm, playGameSound, populateThemes, isThemeMatch } = window.gameUtils;
 
     const state = {
         lang: 'en',
@@ -81,13 +81,7 @@
             const allVocab = window.vocabularyData[state.lang] || [];
             state.filteredVocab = allVocab.filter(item => {
                 const levelMatch = state.level === 'all' || item.level === state.level;
-                const filterByTheme = (w) => {
-                    if (state.theme === 'all') return true;
-                    if (state.theme === 'numbers_all') return w.theme.startsWith('numbers_');
-                    if (state.theme === 'places_all') return w.theme.startsWith('places_');
-                    return w.theme === state.theme;
-                };
-                return levelMatch && filterByTheme(item);
+                return levelMatch && isThemeMatch(item.theme, state.theme);
             });
 
             elements.setup.style.display = 'none';

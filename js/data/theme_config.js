@@ -29,7 +29,7 @@ const COMMON_THEMES = [
 
 const themeConfig = {
     "starter": {
-        "description": "Concrete, single-concept nouns and basic adjectives only. Everyday adult life — familiar objects and situations.",
+        "description": "desc_a1",
         "common_themes": {
             "numbers_math": {
                 "numbers_0_9_A0": "Cardinal numbers 0–9",
@@ -87,7 +87,7 @@ const themeConfig = {
                 "workplace_basics_A1": "Workplace basics",
                 "daily_work_routines_A1": "Daily work routines"
             },
-            "education_learning":{
+            "education_learning": {
                 "school_subjects_A0": "School subjects",
                 "classroom_language_A0": "Classroom language",
                 "types_of_education_A1": "Types of education",
@@ -114,10 +114,9 @@ const themeConfig = {
                 "plants_natural_world_A1": "Plants & natural world",
                 "seasons_climate_A1": "Seasons & climate"
             },
-            "culture_arts": {
-                "music_A1": "Music",
-                "cinema_film_A1": "Cinema & film",
-                "books_reading_A1": "Books & reading"
+            "language_communication": {
+                "greetings_social_phrases_A0": "Greetings & social phrases",
+                "asking_answering_questions_A0": "Asking & answering questions"
             },
             "sport_leisure": {
                 "common_sports_A0": "Common sports",
@@ -140,10 +139,24 @@ const themeConfig = {
                 "colours_patterns_A0": "Colours & patterns",
                 "size_shape_A0": "Size & shape"
             },
+            "culture_arts": {
+                "music_A1": "Music",
+                "cinema_film_A1": "Cinema & film",
+                "books_reading_A1": "Books & reading"
+            },
             "clothes_appearance": {
                 "items_of_clothing_A0": "Items of clothing",
                 "accessories_A1": "Accessories",
                 "dressing_style_A1": "Dressing & style"
+            },
+            "prepositions_grammar": {
+                "prepositions_place_A0": "Prepositions of place",
+                "prepositions_time_A0": "Prepositions of time",
+                "prepositions_movement_A1": "Prepositions of movement",
+                "conjunctions_connectors_A1": "Conjunctions & connectors"
+            },
+            "modifiers_intensifiers": {
+                "basic_intensifiers_A0": "Basic intensifiers"
             },
             "opinion_debate": {
                 "giving_opinions_A1": "Giving opinions"
@@ -151,7 +164,7 @@ const themeConfig = {
         }
     },
     "elementary": {
-        "description": "Adult everyday contexts — work, health, money, relationships.",
+        "description": "desc_a2",
         "common_themes": {
             "numbers_math": {
                 "fractions_A2": "Fractions",
@@ -190,8 +203,8 @@ const themeConfig = {
             "work_employment": {
                 "job_apps_interviews_A2": "Job applications & interviews",
                 "career_development_A2": "Career development"
-             },
-            "education_learning":{
+            },
+            "education_learning": {
                 "qualifications_exams_A2": "Qualifications & exams",
                 "school_life_routines_A2": "School life & routines"
             },
@@ -222,9 +235,6 @@ const themeConfig = {
                 "basic_science_A2": "Basic science vocabulary",
                 "human_body_A2": "The human body"
             },
-            "sport_leisure": {
-                "sports_leisure_A2": "Exercise & fitness"
-            },
             "feelings_emotions": {
                 "social_emotions_A2": "Social emotions",
                 "emotional_intensity_A2": "Emotional intensity"
@@ -235,18 +245,28 @@ const themeConfig = {
             },
             "describing_things": {
                 "materials_textures_A2": "Materials & textures",
-                "condition_state_A2": "Condition & state"
+                "condition_state_A2": "Condition & state",
+                "quantity_degree_A2": "Quantity & degree",
+                "comparison_A2": "Comparison"
             },
             "clothes_appearance": {
-                "shopping_for_clothes_A0": "Shopping for clothes"
+                "shopping_for_clothes_A2": "Shopping for clothes"
             },
             "modifiers_intensifiers": {
-                "quantities_A2": "Quantities & frequency"
+                "degree_adverbs_A2": "Degree adverbs",
+                "approximation_A2": "Approximation"
+            },
+            "ethics_philosophy": {
+                "right_wrong_basic_A2": "Right & wrong (basic)"
+            },
+            "opinion_debate": {
+                "agreeing_disagreeing_A2": "Agreeing & disagreeing",
+                "giving_reasons_A2": "Giving reasons"
             }
         }
     },
     "intermediate": {
-        "description": "Broader adult society — work, values, health, environment.",
+        "description": "desc_b1",
         "common_themes": {
             "numbers_math": {
                 "approximation_estimation_B1": "Approximation & estimation"
@@ -305,13 +325,39 @@ const themeConfig = {
             "science_tech": {
                 "natural_sciences_B1": "Natural sciences"
             },
+            "language_communication": {
+                "expressing_opinion_B1": "Expressing opinion",
+                "agreeing_disagreeing_B1": "Agreeing & disagreeing",
+                "formal_informal_register_B1": "Formal vs informal register"
+            },
+            "sport_leisure": {
+                "competitive_sport_B1": "Competitive sport"
+            },
+            "feelings_emotions": {
+                "stress_anxiety_B1": "Stress & anxiety"
+            },
+            "places_geography": {
+                "urban_rural_life_B1": "Urban & rural life"
+            },
+            "describing_things": {
+                "spatial_description_B1": "Spatial description"
+            },
+            "prepositions_grammar": {
+                "discourse_markers_B1": "Discourse markers"
+            },
+            "modifiers_intensifiers": {
+                "probability_certainty_B1": "Probability & certainty"
+            },
+            "ethics_philosophy": {
+                "values_principles_B1": "Values & principles"
+            },
             "opinion_debate": {
-                "opinion_debate_B1": "Opinion & debate vocabulary"
+                "structured_argument_B1": "Structured argument"
             }
         }
     },
     "upper-intermediate": {
-        "description": "Abstract adult themes — society, politics, economy, ethics.",
+        "description": "desc_b2",
         "common_themes": {
             "numbers_math": {
                 "mathematical_operations_B2": "Mathematical operations"
@@ -373,19 +419,44 @@ const themeConfig = {
                 "applied_sciences_engineering_B2": "Applied sciences & engineering",
                 "space_exploration_B2": "Space exploration"
             },
-            "describing_things": {
-                "academic_vocabulary_B2": "Academic & discourse vocabulary"
-            },
             "language_communication": {
-                "formal_register_B2": "Formal register & hedging"
+                "conversation_management_B2": "Conversation management",
+                "persuasion_rhetoric_B2": "Persuasion & rhetoric"
+            },
+            "sport_leisure": {
+                "sport_society_B2": "Sport & society"
+            },
+            "feelings_emotions": {
+                "complex_emotions_B2": "Describing complex emotions",
+                "emotional_intelligence_B2": "Emotional intelligence"
+            },
+            "places_geography": {
+                "globalisation_geography_B2": "Globalisation & geography"
+            },
+            "describing_things": {
+                "abstract_description_B2": "Abstract description"
+            },
+            "clothes_appearance": {
+                "fashion_identity_B2": "Fashion & identity"
+            },
+            "prepositions_grammar": {
+                "hedging_qualification_B2": "Hedging & qualification"
+            },
+            "modifiers_intensifiers": {
+                "academic_hedging_B2": "Academic hedging"
             },
             "ethics_philosophy": {
-                "ethics_justice_B2": "Ethics & justice"
+                "ethical_dilemmas_B2": "Ethical dilemmas",
+                "political_ethics_B2": "Political ethics"
+            },
+            "opinion_debate": {
+                "formal_debate_vocab_B2": "Formal debate vocabulary",
+                "critical_thinking_B2": "Critical thinking"
             }
         }
     },
     "advanced": {
-        "description": "Conceptual & professional — power, identity, philosophy of adult life.",
+        "description": "desc_c1",
         "common_themes": {
             "personal_identity": {
                 "social_identity_belonging_C1": "Social identity & belonging"
@@ -394,8 +465,7 @@ const themeConfig = {
                 "intergenerational_issues_C1": "Intergenerational issues"
             },
             "health_body": {
-                "medical_ethics_C1": "Medical ethics",
-                "psychological_concepts_C1": "Psychological concepts"
+                "medical_ethics_C1": "Medical ethics"
             },
             "work_employment": {
                 "organisational_culture_C1": "Organisational culture",
@@ -418,16 +488,25 @@ const themeConfig = {
             },
             "language_communication": {
                 "language_persuasion_C1": "Language & persuasion",
-                "advanced_register_C1": "Advanced register & register-switching"
+                "advanced_register_C1": "Advanced register & register-switching",
+                "discourse_argument_C1": "Discourse & argument structure"
+            },
+            "feelings_emotions": {
+                "psychological_states_C1": "Psychological states"
             },
             "ethics_philosophy": {
                 "political_philosophy_C1": "Political philosophy",
-                "ethics_relationships_C1": "Ethics of care & relationships"
+                "ethics_relationships_C1": "Ethics of care & relationships",
+                "moral_philosophy_C1": "Moral philosophy",
+                "existentialism_identity_C1": "Existentialism & identity"
+            },
+            "opinion_debate": {
+                "rhetoric_persuasion_C1": "Rhetoric & persuasion"
             }
         }
     },
     "proficiency": {
-        "description": "Philosophical, rhetorical & meta-conceptual.",
+        "description": "desc_c2",
         "common_themes": {
             "health_body": {
                 "psychoanalysis_unconscious_C2": "Psychoanalysis & the unconscious"
@@ -437,7 +516,8 @@ const themeConfig = {
                 "aesthetics_criticism_C2": "Aesthetics & art criticism"
             },
             "language_communication": {
-                "rhetoric_persuasion_C2": "Rhetoric & persuasion devices"
+                "rhetoric_persuasion_C2": "Rhetoric & persuasion devices",
+                "linguistics_theory_C2": "Linguistics & language theory"
             },
             "ethics_philosophy": {
                 "ontology_existence_C2": "Ontology & existence",

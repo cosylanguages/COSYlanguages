@@ -5,12 +5,12 @@
             {
                 "text": "Le petit-déjeuner est-il le repas le plus important ?",
                 "level": "starter",
-                "theme": "food_drink_A0"
+                "theme": "basic_foods_A0"
             },
             {
                 "text": "Les chiens sont-ils de meilleurs animaux de compagnie que les chats ?",
                 "level": "starter",
-                "theme": "leisure_A1"
+                "theme": "leisure_activities_A1"
             }
         ],
         "criticsCorner": [],
@@ -20,7 +20,7 @@
                 "sideA": "Café",
                 "sideB": "Thé",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Restaurant",
                 "sideB": "Cuisine maison",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Petit-déjeuner",
                 "sideB": "Aucun",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Eau",
                 "sideB": "Jus",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Viande",
                 "sideB": "Légumes",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -65,7 +65,7 @@
                 "sideA": "Maison",
                 "sideB": "Appartement",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -74,7 +74,7 @@
                 "sideA": "Ville",
                 "sideB": "Village",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -83,7 +83,7 @@
                 "sideA": "Espèces",
                 "sideB": "Carte",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -92,7 +92,7 @@
                 "sideA": "Économiser",
                 "sideB": "Dépenser",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -101,7 +101,7 @@
                 "sideA": "Louer",
                 "sideB": "Acheter",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -110,7 +110,7 @@
                 "sideA": "Matin",
                 "sideB": "Soir",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -119,7 +119,7 @@
                 "sideA": "Voiture",
                 "sideB": "Bus",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -128,7 +128,7 @@
                 "sideA": "Marcher",
                 "sideB": "Conduire",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -137,7 +137,7 @@
                 "sideA": "Bureau",
                 "sideB": "Maison",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -146,7 +146,7 @@
                 "sideA": "Lève-tôt",
                 "sideB": "Couche-tard",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -164,7 +164,7 @@
                 "sideA": "Courtes",
                 "sideB": "Longues",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -173,7 +173,7 @@
                 "sideA": "Appel",
                 "sideB": "Message",
                 "level": "starter",
-                "theme": "technology_A1",
+                "theme": "basic_technology_devices_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -182,7 +182,7 @@
                 "sideA": "Matin",
                 "sideB": "Soir",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -191,7 +191,7 @@
                 "sideA": "Lundi",
                 "sideB": "Vendredi",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -209,7 +209,7 @@
                 "sideA": "Hublot",
                 "sideB": "Couloir",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -218,7 +218,7 @@
                 "sideA": "Rouge",
                 "sideB": "Bleu",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -227,7 +227,7 @@
                 "sideA": "Jaune",
                 "sideB": "Vert",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -236,7 +236,7 @@
                 "sideA": "Noir",
                 "sideB": "Blanc",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -245,7 +245,7 @@
                 "sideA": "Rose",
                 "sideB": "Violet",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -254,7 +254,7 @@
                 "sideA": "Cercle",
                 "sideB": "Carré",
                 "level": "starter",
-                "theme": "numbers_1_20_A0",
+                "theme": "numbers_0_9_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -263,7 +263,7 @@
                 "sideA": "Grands",
                 "sideB": "Petits",
                 "level": "starter",
-                "theme": "numbers_1_20_A0",
+                "theme": "numbers_0_9_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -272,7 +272,7 @@
                 "sideA": "Triangle",
                 "sideB": "Rectangle",
                 "level": "starter",
-                "theme": "numbers_1_20_A0",
+                "theme": "numbers_0_9_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -281,7 +281,7 @@
                 "sideA": "Ballon",
                 "sideB": "Poupée",
                 "level": "starter",
-                "theme": "leisure_A1",
+                "theme": "leisure_activities_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -290,7 +290,7 @@
                 "sideA": "Crayon",
                 "sideB": "Stylo",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -299,7 +299,7 @@
                 "sideA": "Livre",
                 "sideB": "Image",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -308,7 +308,7 @@
                 "sideA": "Chaise",
                 "sideB": "Sol",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -317,7 +317,7 @@
                 "sideA": "Chat",
                 "sideB": "Chien",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -326,7 +326,7 @@
                 "sideA": "Poisson",
                 "sideB": "Oiseau",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -335,7 +335,7 @@
                 "sideA": "Grands",
                 "sideB": "Petits",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -344,7 +344,7 @@
                 "sideA": "Lapin",
                 "sideB": "Hamster",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -353,7 +353,7 @@
                 "sideA": "Eau",
                 "sideB": "Jus",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -362,7 +362,7 @@
                 "sideA": "Pomme",
                 "sideB": "Banane",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -371,7 +371,7 @@
                 "sideA": "Pain",
                 "sideB": "Riz",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -380,7 +380,7 @@
                 "sideA": "Lait",
                 "sideB": "Eau",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -389,7 +389,7 @@
                 "sideA": "Rose",
                 "sideB": "Orange",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -398,7 +398,7 @@
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_1_20_A0",
+                "theme": "numbers_0_9_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -407,7 +407,7 @@
                 "sideA": "Chaise",
                 "sideB": "Canapé",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -416,7 +416,7 @@
                 "sideA": "Sac",
                 "sideB": "Boîte",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -425,7 +425,7 @@
                 "sideA": "Lion",
                 "sideB": "Éléphant",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -434,7 +434,7 @@
                 "sideA": "Chocolat",
                 "sideB": "Bonbons",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -443,7 +443,7 @@
                 "sideA": "Cuillère",
                 "sideB": "Fourchette",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -452,7 +452,7 @@
                 "sideA": "Chapeau",
                 "sideB": "Chaussures",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -470,7 +470,7 @@
                 "sideA": "Chaussettes",
                 "sideB": "Sans chaussettes",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -484,7 +484,7 @@
             {
                 "topic": "Le métier de mes rêves et pourquoi",
                 "level": "starter",
-                "theme": "work_A1"
+                "theme": "workplace_basics_A1"
             }
         ]
     }

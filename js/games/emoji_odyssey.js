@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, speak, playGameSound, showGameMessage, populateThemes } = window.gameUtils;
+    const { getLang, t, speak, playGameSound, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 
     const initEmojiOdyssey = () => {
         const modal = document.getElementById('emoji-modal');
@@ -194,14 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 let vocab = (window.vocabularyData[lang] || [])
                     .filter(v => v.theme !== 'famous_people'); // Never include names in Emoji Odyssey
 
-                const filterByTheme = (v) => {
-                    if (theme === 'all') return true;
-                    if (theme === 'numbers_all') return v.theme.startsWith('numbers_');
-                    if (theme === 'places_all') return v.theme.startsWith('places_');
-                    return v.theme === theme;
-                };
-
-                vocab = vocab.filter(v => filterByTheme(v));
+                vocab = vocab.filter(v => isThemeMatch(v.theme, theme));
 
                 if (level !== 'all') {
                     const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];

@@ -5,14 +5,14 @@ import os
 def get_keys_from_html(filepath):
     if not os.path.exists(filepath):
         return set()
-    with open(filepath, 'r') as f:
+    with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
     return set(re.findall(r'data-translate-key="([^"]*)"', content))
 
 def get_keys_from_js(filepath):
     if not os.path.exists(filepath):
         return set()
-    with open(filepath, 'r') as f:
+    with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
     # Use word boundary for t() to avoid matching things like closest()
     keys = set(re.findall(r"\bt\(['\"]([^'\"]+)['\"]\)", content))
@@ -49,7 +49,7 @@ for f in html_files:
 js_files = []
 for root, dirs, files in os.walk('js'):
     for file in files:
-        if file.endswith('.js') and file != 'translations.js':
+        if file.endswith('.js') and 'translations.js' not in file:
             js_files.append(os.path.join(root, file))
 
 for f in js_files:
@@ -62,63 +62,70 @@ all_required_keys.update({
     'correct', 'incorrect', 'game_over', 'time_up', 'streak_day', 'streak_days',
     'progress_word', 'progress_of', 'level_label', 'exit_confirm', 'copied',
     'theme_grammar_plurals', 'theme_grammar_present_simple', 'theme_grammar_future_simple',
-    'theme_grammar_past_simple', 'theme_grammar_gender',
+    'theme_grammar_past_simple', 'theme_grammar_gender', 'theme_grammar_verb_forms',
     'game_opinion_arena', 'game_debates', 'game_talk_talk', 'game_critics_corner'
 })
 
+# Add all keys from theme_config.js
+with open('js/data/theme_config.js', 'r', encoding='utf-8') as f:
+    config_content = f.read()
+    all_required_keys.update(re.findall(r'label:\s*["\']([^"\']+)["\']', config_content))
+    # Subthemes - improved regex to match A0, A1, A2, B1, B2, C1, C2
+    subthemes = re.findall(r'["\']([a-z0-9_]+_[A-C][0-2])["\']:', config_content)
+    for st in subthemes:
+        all_required_keys.add('theme_' + st)
+
 all_required_keys = {k for k in all_required_keys if k}
 
-def get_translations():
-    if not os.path.exists('js/translations.js'):
-        return {}
-    with open('js/translations.js', 'r') as f:
-        content = f.read()
-
-    langs = ['en', 'fr', 'it', 'ru', 'el']
+def get_modular_translations():
     translations = {}
+    for root, dirs, files in os.walk('js/data'):
+        for file in files:
+            if file == 'translations.js':
+                filepath = os.path.join(root, file)
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    content = f.read()
 
-    for lang in langs:
-        start_marker = f"{lang}: {{"
-        start_idx = content.find(start_marker)
-        if start_idx == -1:
-            continue
-
-        depth = 0
-        end_idx = -1
-        for i in range(start_idx + len(start_marker) - 1, len(content)):
-            if content[i] == '{':
-                depth += 1
-            elif content[i] == '}':
-                depth -= 1
-                if depth == 0:
-                    end_idx = i + 1
-                    break
-
-        if end_idx == -1:
-            continue
-
-        block = content[start_idx:end_idx]
-        keys = set(re.findall(r'^\s*([a-zA-Z0-9_]+):', block, re.MULTILINE))
-        translations[lang] = keys
+                # Find the language code in the data object
+                match = re.search(r'([a-z]{2}): \{', content)
+                if match:
+                    lang = match.group(1)
+                    # Use regex to find all keys in this block
+                    # We look for lines starting with some whitespace, then the key, then a colon
+                    keys = set(re.findall(r'^\s*([a-zA-Z0-9_]+):', content, re.MULTILINE))
+                    # Remove the lang code itself if it was caught
+                    if lang in keys:
+                        keys.remove(lang)
+                    translations[lang] = keys
     return translations
 
-translations = get_translations()
+translations = get_modular_translations()
 
 found_any_missing = False
-for lang in ['en', 'fr', 'it', 'ru', 'el']:
+langs = ['en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt', 'hy', 'ka', 'tt', 'ba', 'br']
+for lang in langs:
     if lang not in translations:
-        print(f"Language {lang} block not found in translations.js")
+        print(f"Language {lang} block not found in modular files")
+        found_any_missing = True
         continue
 
     keys = translations[lang]
     missing = all_required_keys - keys
     if missing:
         found_any_missing = True
-        print(f"Missing keys in {lang}:")
-        for m in sorted(missing):
-            print(f"  - {m}")
+        print(f"Missing {len(missing)} keys in {lang}:")
+        # for m in sorted(missing):
+        #     print(f"  - {m}")
     else:
         print(f"All keys present in {lang}")
 
 if not found_any_missing:
     print("No missing translation keys found!")
+else:
+    # Print the missing keys for English as a reference for what's new
+    if 'en' in translations:
+        missing_en = all_required_keys - translations['en']
+        if missing_en:
+            print("\nKeys missing in English (New Curriculum):")
+            for m in sorted(missing_en):
+                print(f"  - {m}")

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const { t, startTimer, stopTimer, handleShare, showGameMessage, populateThemes } = window.gameUtils;
+    const { t, startTimer, stopTimer, handleShare, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 
     // --- Battle of Wits Logic ---
     const initDebates = () => {
@@ -90,10 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const theme = document.getElementById('debates-theme').value;
 
             pool = window.speakingData && window.speakingData[lang]?.debates || [];
-
-            if (theme !== 'all') {
-                pool = pool.filter(d => d.theme === theme);
-            }
+            pool = pool.filter(d => isThemeMatch(d.theme, theme));
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
@@ -181,10 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const theme = document.getElementById('opinion-theme').value;
 
             pool = window.speakingData && window.speakingData[lang]?.opinionArena || [];
-
-            if (theme !== 'all') {
-                pool = pool.filter(d => d.theme === theme);
-            }
+            pool = pool.filter(d => isThemeMatch(d.theme, theme));
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
@@ -274,10 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const theme = document.getElementById('critics-theme').value;
 
             pool = window.speakingData && window.speakingData[lang]?.criticsCorner || [];
-
-            if (theme !== 'all') {
-                pool = pool.filter(d => d.theme === theme);
-            }
+            pool = pool.filter(d => isThemeMatch(d.theme, theme));
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
@@ -365,10 +356,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const theme = document.getElementById('talk-theme').value;
 
             pool = window.speakingData && window.speakingData[lang]?.talkThatTalk || [];
-
-            if (theme !== 'all') {
-                pool = pool.filter(d => d.theme === theme);
-            }
+            pool = pool.filter(d => isThemeMatch(d.theme, theme));
 
             if (level !== 'all') {
                 const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
