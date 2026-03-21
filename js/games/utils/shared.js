@@ -410,19 +410,42 @@ const populateThemes = (themeSelect, levelSelect, lang, dataSourceType = 'vocab'
 
     const themeList = Array.from(themes).sort();
 
-    // Grouping Logic
-    const groups = {
-        'numbers': { label: 'Numbers', themes: themeList.filter(th => th.startsWith('numbers_')), randomKey: 'numbers_all' },
-        'places': { label: 'Places', themes: themeList.filter(th => th.startsWith('places_')), randomKey: 'places_all' }
-    };
+    // Build mapping from sub-theme to common theme
+    const subToCommon = {};
+    if (typeof themeConfig !== 'undefined') {
+        Object.values(themeConfig).forEach(levelData => {
+            if (levelData.common_themes) {
+                Object.entries(levelData.common_themes).forEach(([commonId, subThemes]) => {
+                    Object.keys(subThemes).forEach(subId => {
+                        subToCommon[subId] = commonId;
+                    });
+                });
+            }
+        });
+    }
 
-    const groupedThemes = new Set([
-        ...groups.numbers.themes,
-        ...groups.places.themes
-    ]);
+    // Group found themes by their common theme
+    const grouped = {}; // commonThemeId -> [subThemeIds]
+    const ungrouped = [];
 
-    // Add Ungrouped Themes first
-    themeList.filter(th => !groupedThemes.has(th)).forEach(th => {
+    themeList.forEach(th => {
+        const commonId = subToCommon[th];
+        if (commonId) {
+            if (!grouped[commonId]) grouped[commonId] = [];
+            grouped[commonId].push(th);
+        } else if (typeof COMMON_THEMES !== 'undefined' && COMMON_THEMES.some(ct => ct.id === th)) {
+            // If the theme ID itself is a common theme ID (common in speaking data)
+            if (!grouped[th]) grouped[th] = [];
+            // We don't necessarily add the sub-theme here if it's already the common theme,
+            // but we might want to allow it.
+            if (!grouped[th].includes(th)) grouped[th].push(th);
+        } else {
+            ungrouped.push(th);
+        }
+    });
+
+    // 1. Add Ungrouped Themes first
+    ungrouped.forEach(th => {
         const opt = document.createElement('option');
         opt.value = th;
         opt.textContent = t('theme_' + th);
@@ -430,27 +453,42 @@ const populateThemes = (themeSelect, levelSelect, lang, dataSourceType = 'vocab'
         themeSelect.appendChild(opt);
     });
 
-    // Add Grouped Themes
-    for (const [key, group] of Object.entries(groups)) {
-        if (group.themes.length > 0) {
-            const optgroup = document.createElement('optgroup');
-            optgroup.label = group.label;
+    // 2. Add Grouped Themes using <optgroup>
+    if (typeof COMMON_THEMES !== 'undefined') {
+        COMMON_THEMES.forEach(ct => {
+            const subThemes = grouped[ct.id];
+            if (subThemes && subThemes.length > 0) {
+                const optgroup = document.createElement('optgroup');
+                // Use localized label for the group
+                optgroup.label = t(ct.label) || ct.id;
 
-            // Random option for the group
-            const randomOpt = document.createElement('option');
-            randomOpt.value = group.randomKey;
-            randomOpt.textContent = `Random ${group.label}`;
-            optgroup.appendChild(randomOpt);
+                // Add a "Group: [Common Theme]" option for random/all selection within the group
+                const groupAllOpt = document.createElement('option');
+                groupAllOpt.value = 'group:' + ct.id;
+                groupAllOpt.textContent = 'All ' + (t(ct.label) || ct.id);
+                optgroup.appendChild(groupAllOpt);
 
-            group.themes.forEach(th => {
+                subThemes.forEach(th => {
+                    const opt = document.createElement('option');
+                    opt.value = th;
+                    opt.textContent = t('theme_' + th);
+                    opt.setAttribute('data-translate-key', 'theme_' + th);
+                    optgroup.appendChild(opt);
+                });
+                themeSelect.appendChild(optgroup);
+            }
+        });
+    } else {
+        // Fallback for missing COMMON_THEMES
+        themeList.forEach(th => {
+            if (!ungrouped.includes(th)) {
                 const opt = document.createElement('option');
                 opt.value = th;
                 opt.textContent = t('theme_' + th);
                 opt.setAttribute('data-translate-key', 'theme_' + th);
-                optgroup.appendChild(opt);
-            });
-            themeSelect.appendChild(optgroup);
-        }
+                themeSelect.appendChild(opt);
+            }
+        });
     }
 
     if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) {
@@ -458,6 +496,37 @@ const populateThemes = (themeSelect, levelSelect, lang, dataSourceType = 'vocab'
     }
 };
 
+const isThemeMatch = (itemTheme, selectedTheme) => {
+    if (!selectedTheme || selectedTheme === 'all') return true;
+    if (!itemTheme) return false;
+
+    if (selectedTheme.startsWith('group:')) {
+        const commonId = selectedTheme.replace('group:', '');
+        // Check themeConfig for sub-themes belonging to this group
+        if (typeof themeConfig !== 'undefined') {
+            for (const lvData of Object.values(themeConfig)) {
+                if (lvData.common_themes && lvData.common_themes[commonId]) {
+                    if (Object.keys(lvData.common_themes[commonId]).includes(itemTheme)) return true;
+                }
+            }
+        }
+        // Fallback: if the item's theme is the common ID itself (common in speaking data)
+        if (itemTheme === commonId) return true;
+
+        // Final fallback for legacy common theme prefixes
+        if (commonId === 'numbers_math' && itemTheme.startsWith('numbers_')) return true;
+        if (commonId === 'places_geography' && itemTheme.startsWith('places_')) return true;
+
+        return false;
+    }
+
+    // Legacy hardcoded group fallbacks
+    if (selectedTheme === 'numbers_all') return itemTheme.startsWith('numbers_');
+    if (selectedTheme === 'places_all') return itemTheme.startsWith('places_');
+
+    return itemTheme === selectedTheme;
+};
+
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm, getNumberWord, populateThemes
+    getLang, t, startTimer, stopTimer, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, showGameMessage, showGameConfirm, getNumberWord, populateThemes, isThemeMatch
 };
