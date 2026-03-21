@@ -54,7 +54,7 @@ const themeConfig = {
                 "nationality_country_A0": "Nationality & country",
                 "age_A0": "Age",
                 "marital_status_A0": "Marital status",
-                "job_titles_professions_A0": "Occupation & job title",
+                "occupation_job_title_A0": "Occupation & job title",
                 "address_location_A1": "Address & location",
                 "contact_details_A1": "Contact details",
                 "physical_appearance_A1": "Physical appearance"
@@ -96,11 +96,13 @@ const themeConfig = {
             "transport_travel": {
                 "modes_of_transport_A0": "Modes of transport",
                 "travel_vocabulary_basics_A0": "Travel vocabulary basics",
-                "directions_navigation_A1": "Directions & navigation"
+                "directions_navigation_A1": "Directions & navigation",
+                "public_transport_A1": "Public transport"
             },
             "shopping_money": {
                 "everyday_shopping_A0": "Everyday shopping",
-                "money_payment_A1": "Money & payment"
+                "money_payment_A1": "Money & payment",
+                "shops_services_A1": "Shops & services"
             },
             "technology_media": {
                 "basic_technology_devices_A0": "Basic technology devices",
@@ -190,13 +192,15 @@ const themeConfig = {
                 "career_development_A2": "Career development"
              },
             "education_learning":{
-                "qualifications_exams_A0": "Qualifications & exams"
+                "qualifications_exams_A2": "Qualifications & exams",
+                "school_life_routines_A2": "School life & routines"
             },
             "transport_travel": {
                 "booking_planning_a_trip_A2": "Booking & planning a trip",
                 "holiday_types_A2": "Holiday types",
                 "accommodation_A2": "Accommodation",
-                "at_the_airport_A2": "At the airport"
+                "at_the_airport_A2": "At the airport",
+                "driving_roads_A2": "Driving & roads"
             },
             "shopping_money": {
                 "finances_A2": "Personal finances",
@@ -211,15 +215,15 @@ const themeConfig = {
                 "customs_traditions_A2": "Customs & traditions"
             },
             "culture_arts": {
-                "basic_science_A2": "Basic science vocabulary",
-                "human_body_A2": "The human body"
-            },
-            "science_tech": {
                 "art_design_A2": "Art & design",
                 "theatre_performance_A2": "Theatre & performance"
             },
+            "science_tech": {
+                "basic_science_A2": "Basic science vocabulary",
+                "human_body_A2": "The human body"
+            },
             "sport_leisure": {
-                "exercise_fitness_A2": "Exercise & fitness"
+                "sports_leisure_A2": "Exercise & fitness"
             },
             "feelings_emotions": {
                 "social_emotions_A2": "Social emotions",
@@ -274,13 +278,16 @@ const themeConfig = {
                 "workplace_communication_B1": "Workplace communication"
             },
             "education_learning": {
-                "education_learning_B1": "Education & learning (adult)"
+                "higher_education_B1": "Higher education",
+                "lifelong_learning_B1": "Lifelong learning"
             },
             "transport_travel": {
-                "travel_cultural_B1": "Travel & cultural experience"
+                "travel_cultural_B1": "Travel & cultural experience",
+                "sustainable_travel_B1": "Sustainable travel"
             },
             "shopping_money": {
-                "finances_investment_B1": "Personal finances & investment"
+                "finances_investment_B1": "Personal finances & investment",
+                "consumer_rights_B1": "Consumer rights"
             },
             "technology_media": {
                 "media_news_B1": "Media & news"
@@ -291,6 +298,12 @@ const themeConfig = {
             "society_politics": {
                 "society_community_B1": "Society & community",
                 "equality_rights_B1": "Equality & rights (basic)"
+            },
+            "culture_arts": {
+                "cultural_heritage_B1": "Cultural heritage"
+            },
+            "science_tech": {
+                "natural_sciences_B1": "Natural sciences"
             },
             "opinion_debate": {
                 "opinion_debate_B1": "Opinion & debate vocabulary"
@@ -327,12 +340,24 @@ const themeConfig = {
                 "employment_law_rights_B2": "Employment law & rights",
                 "economy_labour_market_B2": "The economy & labour market"
             },
+            "education_learning": {
+                "educational_systems_B2": "Educational systems",
+                "education_society_B2": "Education & society"
+            },
+            "transport_travel": {
+                "global_tourism_B2": "Global tourism"
+            },
+            "shopping_money": {
+                "ecommerce_digital_payment_B2": "E-commerce & digital payment",
+                "global_economy_trade_B2": "Global economy & trade"
+            },
             "technology_media": {
                 "technology_privacy_B2": "Technology & privacy",
                 "media_misinformation_B2": "Media & misinformation"
             },
             "environment_nature": {
-                "environment_policy_B2": "The environment (policy)"
+                "environment_policy_B2": "The environment (policy)",
+                "climate_change_global_action_B2": "Climate change & global action"
             },
             "society_politics": {
                 "politics_governance_B2": "Politics & governance",
@@ -340,6 +365,13 @@ const themeConfig = {
                 "globalisation_trade_B2": "Globalisation & trade",
                 "ageing_demographics_B2": "Ageing & demographics",
                 "crime_punishment_B2": "Crime & punishment"
+            },
+            "culture_arts": {
+                "contemporary_art_B2": "Contemporary art"
+            },
+            "science_tech": {
+                "applied_sciences_engineering_B2": "Applied sciences & engineering",
+                "space_exploration_B2": "Space exploration"
             },
             "describing_things": {
                 "academic_vocabulary_B2": "Academic & discourse vocabulary"
@@ -369,12 +401,16 @@ const themeConfig = {
                 "organisational_culture_C1": "Organisational culture",
                 "work_identity_meaning_C1": "Work, identity & meaning"
             },
+            "education_learning": {
+                "philosophy_education_C1": "Philosophy of education"
+            },
             "culture_arts": {
                 "art_culture_C1": "Art, culture & criticism"
             },
             "science_tech": {
                 "knowledge_epistemology_C1": "Knowledge & epistemology",
-                "science_tech_society_C1": "Science, technology & society"
+                "science_tech_society_C1": "Science, technology & society",
+                "digital_ethics_ai_C1": "Digital ethics & AI"
             },
             "society_politics": {
                 "power_institutions_C1": "Power, institutions & ideology",
