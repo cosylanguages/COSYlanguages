@@ -904,8 +904,10 @@
             wtd_ws: "Arrange the words to build a correct sentence.",
             zalando: "Zalando",
             zalando_desc: "Online clothing and shoe store.",
+                    calc_pack_separator: " · ",
+            calc_per_session_suffix: "/занятие",
         }
-    };
+        };
     window.translations = window.translations || {};
     window.translations['tt'] = { ...(window.translations['tt'] || {}), ...data['tt'] };
 })();

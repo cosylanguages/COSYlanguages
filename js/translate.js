@@ -1,11 +1,27 @@
 
+window.t = function(key, lang) {
+    lang = lang || localStorage.getItem('language') || 'en';
+    if (window.translations && window.translations[lang] && window.translations[lang][key]) {
+        return window.translations[lang][key];
+    }
+    if (window.translations && window.translations['en'] && window.translations['en'][key]) {
+        return window.translations['en'][key];
+    }
+    return key;
+};
+
 function setLanguage(lang) {
     const elements = document.querySelectorAll('[data-translate-key]');
     elements.forEach(element => {
         const key = element.getAttribute('data-translate-key');
-        if (translations[lang] && translations[lang][key]) {
-            const translation = translations[lang][key];
-            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+        if (window.translations && window.translations[lang] && window.translations[lang][key]) {
+            const translation = window.translations[lang][key];
+            if (element.tagName === 'META') {
+                element.setAttribute('content', translation);
+            } else if (element.tagName === 'TITLE') {
+                document.title = translation;
+                element.innerText = translation;
+            } else if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
                 if (element.hasAttribute('placeholder')) {
                     element.setAttribute('placeholder', translation);
                 } else {
@@ -22,7 +38,7 @@ function setLanguage(lang) {
     if (examText) {
         const examKey = `exams_${lang}`;
         let finalKey;
-        if (translations[lang] && translations[lang][examKey]) {
+        if (window.translations[lang] && window.translations[lang][examKey]) {
             finalKey = examKey;
         } else {
             // Fallback to English if the key doesn't exist for the selected language
@@ -31,21 +47,26 @@ function setLanguage(lang) {
         examText.setAttribute('data-translate-key', finalKey);
 
         // Update the text content immediately
-        const langForTranslation = (translations[lang] && translations[lang][finalKey]) ? lang : 'en';
-        examText.innerHTML = translations[langForTranslation][finalKey];
+        const langForTranslation = (window.translations[lang] && window.translations[lang][finalKey]) ? lang : 'en';
+        examText.innerHTML = window.translations[langForTranslation][finalKey];
     }
 
     localStorage.setItem('language', lang);
+    if (window.calcPrice) window.calcPrice();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     const languageSwitcher = document.getElementById('language-switcher');
 
-    languageSwitcher.addEventListener('change', (event) => {
-        setLanguage(event.target.value);
-    });
-
-    const savedLanguage = localStorage.getItem('language') || 'en';
-    languageSwitcher.value = savedLanguage;
-    setLanguage(savedLanguage);
+    if (languageSwitcher) {
+        languageSwitcher.addEventListener('change', (event) => {
+            setLanguage(event.target.value);
+        });
+        const savedLanguage = localStorage.getItem('language') || 'en';
+        languageSwitcher.value = savedLanguage;
+        setLanguage(savedLanguage);
+    } else {
+        const savedLanguage = localStorage.getItem('language') || 'en';
+        setLanguage(savedLanguage);
+    }
 });
