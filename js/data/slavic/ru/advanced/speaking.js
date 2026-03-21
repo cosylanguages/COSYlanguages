@@ -20,7 +20,7 @@
                 "sideA": "Плоская иерархия",
                 "sideB": "Вертикальная",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Продуктивность",
                 "sideB": "Праздность",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Навык",
                 "sideB": "Качество",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Искренность",
                 "sideB": "Репутация",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -182,7 +182,7 @@
                 "sideA": "Карьера",
                 "sideB": "Частная жизнь",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -308,7 +308,7 @@
             {
                 "topic": "Роль искусства в современном обществе",
                 "level": "advanced",
-                "theme": "leisure_hobbies_A2"
+                "theme": "interests_hobbies_A2"
             },
             {
                 "topic": "Искусственный интеллект: инструмент или угроза?",

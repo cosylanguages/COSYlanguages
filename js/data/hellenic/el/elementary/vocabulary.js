@@ -3,7 +3,7 @@
     {
         "word": "καλλιτέχνης",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "noun",
         "plural": "καλλιτέχνης",
@@ -26,7 +26,7 @@
     {
         "word": "σεφ",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "σεφ",
@@ -327,7 +327,7 @@
     {
         "word": "φόρεμα",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "φόρεμες"
@@ -335,7 +335,7 @@
     {
         "word": "σακάκι",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "noun",
         "plural": "σακάκια"
@@ -343,7 +343,7 @@
     {
         "word": "φούστα",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "φούστες"
@@ -351,7 +351,7 @@
     {
         "word": "καναπές",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "καναπές"
@@ -359,7 +359,7 @@
     {
         "word": "λάμπα",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💡",
         "form": "noun",
         "plural": "λάμπες"
@@ -367,7 +367,7 @@
     {
         "word": "γραφείο",
         "level": "elementary",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⌨️",
         "form": "noun",
         "plural": "γραφεία"
@@ -389,7 +389,7 @@
     {
         "word": "πλένω τα δόντια",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🪥",
         "form": "noun",
         "plural": "πλένω τα δόντιες"
@@ -397,7 +397,7 @@
     {
         "word": "κάνω ντους",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚿",
         "form": "noun",
         "plural": "κάνω ντους"
@@ -405,14 +405,14 @@
     {
         "word": "ρολόι",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "form": "noun",
         "plural": "ρολόια"
     },
     {
         "word": "πορτοφόλι",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👛",
         "form": "noun",
         "plural": "πορτοφόλια",
@@ -429,7 +429,7 @@
     {
         "word": "γυαλιά",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👓",
         "form": "noun",
         "plural": "γυαλιά",
@@ -453,7 +453,7 @@
     {
         "word": "λιοντάρι",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦁",
         "form": "noun",
         "plural": "λιοντάρια",
@@ -470,7 +470,7 @@
     {
         "word": "τίγρης",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐯",
         "form": "noun",
         "plural": "τίγρεις"
@@ -478,14 +478,14 @@
     {
         "word": "ζωγραφική",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "form": "noun",
         "plural": "ζωγραφικές"
     },
     {
         "word": "μαγειρική",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "form": "noun",
         "plural": "μαγειρικές"
     },
@@ -499,7 +499,7 @@
     {
         "word": "πανεπιστήμιο",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🎓",
         "form": "noun",
         "plural": "πανεπιστήμια",
@@ -553,7 +553,7 @@
     {
         "word": "κουνώ",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📦",
         "form": "noun",
         "plural": "κουνώ"
@@ -577,7 +577,7 @@
     {
         "word": "περιλαμβάνω",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➕",
         "form": "noun",
         "plural": "περιλαμβάνω"
@@ -585,7 +585,7 @@
     {
         "word": "συνεχίζω",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➡️",
         "form": "noun",
         "plural": "συνεχίζω"
@@ -593,7 +593,7 @@
     {
         "word": "θέτω",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⚙️",
         "form": "noun",
         "plural": "θέτω"
@@ -616,7 +616,7 @@
     {
         "word": "δημιουργώ",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "noun",
         "plural": "δημιουργώ"

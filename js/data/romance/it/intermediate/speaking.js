@@ -90,7 +90,7 @@
                 "sideA": "Estinguere mutuo",
                 "sideB": "Investire",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -99,7 +99,7 @@
                 "sideA": "Possedere",
                 "sideB": "Affittare",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -108,7 +108,7 @@
                 "sideA": "Risparmiare presto",
                 "sideB": "Godersi ora",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -117,7 +117,7 @@
                 "sideA": "Sotto possibilità",
                 "sideB": "Godersi ora",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -180,7 +180,7 @@
                 "sideA": "Fisica",
                 "sideB": "Mentale",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -189,7 +189,7 @@
                 "sideA": "Privata",
                 "sideB": "Pubblica",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -198,7 +198,7 @@
                 "sideA": "Controlli regolari",
                 "sideB": "Solo se malati",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -207,7 +207,7 @@
                 "sideA": "Meno alcol",
                 "sideB": "Meno stress",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -279,7 +279,7 @@
                 "sideA": "Ammettere",
                 "sideB": "Fingere",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -426,7 +426,7 @@
                 "sideA": "Social media",
                 "sideB": "Natura",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -570,7 +570,7 @@
                 "sideA": "Fisica",
                 "sideB": "Mentale",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -579,7 +579,7 @@
                 "sideA": "Prevenzione",
                 "sideB": "Cura",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -588,7 +588,7 @@
                 "sideA": "Competitivo",
                 "sideB": "Divertimento",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -597,7 +597,7 @@
                 "sideA": "Privata",
                 "sideB": "Pubblica",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -687,7 +687,7 @@
                 "sideA": "Dormire",
                 "sideB": "Esercizio",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -741,7 +741,7 @@
                 "sideA": "Saltare",
                 "sideB": "Brutta sessione",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -764,7 +764,7 @@
             {
                 "topic": "L'importance della consapevolezza sulla salute mentale",
                 "level": "intermediate",
-                "theme": "mental_health_B1"
+                "theme": "mental_health_wellbeing_B1"
             }
         ]
     }

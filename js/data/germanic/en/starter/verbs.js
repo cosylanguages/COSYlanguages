@@ -72,7 +72,7 @@
     {
         "word": "watch",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📺",
         "form": "verb",
         "definitions": [
@@ -95,7 +95,7 @@
     {
         "word": "reading",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📖",
         "form": "verb"
     },
@@ -118,7 +118,7 @@
     {
         "word": "go",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "subtext": "go to school, go home",
         "form": "verb"
@@ -255,7 +255,7 @@
     {
         "word": "come",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃‍♂️",
         "subtext": "come here, come home",
         "opposite": "go",
@@ -306,7 +306,7 @@
     {
         "word": "feel",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🌡️",
         "form": "verb"
     },
@@ -320,7 +320,7 @@
     {
         "word": "leave",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚪",
         "form": "verb"
     },
@@ -387,14 +387,14 @@
     {
         "word": "play",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎮",
         "form": "verb"
     },
     {
         "word": "run",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃",
         "form": "verb"
     },
@@ -458,7 +458,7 @@
     {
         "word": "learn",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📚",
         "form": "verb"
     },
@@ -479,7 +479,7 @@
     {
         "word": "stop",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛑",
         "form": "verb"
     },
@@ -509,7 +509,7 @@
     {
         "word": "walk",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -525,7 +525,7 @@
     {
         "word": "win",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏆",
         "opposite": "lose",
         "oppositeEmoji": "📉",
@@ -557,7 +557,7 @@
     {
         "word": "die",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "⚰️",
         "opposite": "live",
         "oppositeEmoji": "🏠",
@@ -573,7 +573,7 @@
     {
         "word": "stay",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏨",
         "form": "verb"
     },
@@ -594,7 +594,7 @@
     {
         "word": "pass",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏔️",
         "form": "verb"
     },
@@ -663,7 +663,7 @@
     {
         "word": "draw",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "verb"
     },
@@ -695,35 +695,35 @@
     {
         "word": "dance",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💃",
         "form": "verb"
     },
     {
         "word": "sing",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎤",
         "form": "verb"
     },
     {
         "word": "jump",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦘",
         "form": "verb"
     },
     {
         "word": "fly",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "swim",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏊",
         "form": "verb"
     },
@@ -744,35 +744,35 @@
     {
         "word": "cook",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍳",
         "form": "verb"
     },
     {
         "word": "travel",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "study",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📖",
         "form": "verb"
     },
     {
         "word": "teach",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "listen",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎧",
         "form": "verb"
     },

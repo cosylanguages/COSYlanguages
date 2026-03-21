@@ -3,7 +3,7 @@
     {
         "word": "artista",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "noun",
         "plural": "artisti",
@@ -26,7 +26,7 @@
     {
         "word": "chef",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "chef",
@@ -252,7 +252,7 @@
     {
         "word": "vestito",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "vestiti"
@@ -260,7 +260,7 @@
     {
         "word": "giacca",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "noun",
         "plural": "giacce"
@@ -268,7 +268,7 @@
     {
         "word": "gonna",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "gonne"
@@ -276,7 +276,7 @@
     {
         "word": "divano",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "divani"
@@ -284,7 +284,7 @@
     {
         "word": "lampada",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💡",
         "form": "noun",
         "plural": "lampade"
@@ -292,7 +292,7 @@
     {
         "word": "scrivania",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⌨️",
         "form": "noun",
         "plural": "scrivanie"
@@ -314,7 +314,7 @@
     {
         "word": "lavarsi i denti",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🪥",
         "form": "noun",
         "plural": "lavarsi i denti"
@@ -322,7 +322,7 @@
     {
         "word": "fare la doccia",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚿",
         "form": "noun",
         "plural": "fare la doccie"
@@ -330,7 +330,7 @@
     {
         "word": "orologio",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⌚",
         "form": "noun",
         "plural": "orologi",
@@ -347,7 +347,7 @@
     {
         "word": "portafoglio",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👛",
         "form": "noun",
         "plural": "portafogli",
@@ -364,7 +364,7 @@
     {
         "word": "occhiali",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👓",
         "form": "noun",
         "plural": "occhiali",
@@ -381,7 +381,7 @@
     {
         "word": "leone",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦁",
         "form": "noun",
         "plural": "leoni",
@@ -398,14 +398,14 @@
     {
         "word": "tigre",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐯",
         "form": "adjective"
     },
     {
         "word": "cavallo",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐎",
         "form": "adjective"
     },
@@ -444,7 +444,7 @@
     {
         "word": "università",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🎓",
         "form": "noun",
         "plural": "università",
@@ -499,7 +499,7 @@
     {
         "word": "muovere",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📦",
         "form": "noun",
         "plural": "muoveri"
@@ -522,7 +522,7 @@
     {
         "word": "includere",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➕",
         "form": "noun",
         "plural": "includeri"
@@ -530,7 +530,7 @@
     {
         "word": "continuare",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➡️",
         "form": "noun",
         "plural": "continuari"
@@ -538,7 +538,7 @@
     {
         "word": "impostare",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⚙️",
         "form": "noun",
         "plural": "impostari"
@@ -562,7 +562,7 @@
     {
         "word": "creare",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "noun",
         "plural": "creari"

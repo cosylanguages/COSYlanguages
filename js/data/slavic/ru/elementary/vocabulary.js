@@ -3,7 +3,7 @@
     {
         "word": "художник",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "noun",
         "plural": "художники",
@@ -26,7 +26,7 @@
     {
         "word": "повар",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "повара",
@@ -224,7 +224,7 @@
     {
         "word": "платье",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "платья"
@@ -232,7 +232,7 @@
     {
         "word": "куртка",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "noun",
         "plural": "куртки"
@@ -240,7 +240,7 @@
     {
         "word": "юбка",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "юбки"
@@ -248,7 +248,7 @@
     {
         "word": "диван",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "диваны"
@@ -256,7 +256,7 @@
     {
         "word": "лампа",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💡",
         "form": "noun",
         "plural": "лампы"
@@ -264,7 +264,7 @@
     {
         "word": "письменный стол",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⌨️",
         "form": "noun",
         "plural": "письменный столы"
@@ -286,7 +286,7 @@
     {
         "word": "чистить зубы",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🪥",
         "form": "noun",
         "plural": "чистить зубы"
@@ -294,7 +294,7 @@
     {
         "word": "принимать душ",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚿",
         "form": "noun",
         "plural": "принимать души"
@@ -302,14 +302,14 @@
     {
         "word": "часы",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "form": "noun",
         "plural": "часы"
     },
     {
         "word": "кошелек",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👛",
         "form": "noun",
         "plural": "кошельки",
@@ -326,7 +326,7 @@
     {
         "word": "очки",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👓",
         "form": "noun",
         "plural": "очки",
@@ -343,7 +343,7 @@
     {
         "word": "лев",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦁",
         "form": "noun",
         "plural": "львы",
@@ -360,7 +360,7 @@
     {
         "word": "тигр",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐯",
         "form": "adjective"
     },
@@ -390,7 +390,7 @@
     {
         "word": "университет",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🎓",
         "form": "noun",
         "plural": "университеты",
@@ -457,7 +457,7 @@
     {
         "word": "двигать",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📦",
         "form": "adjective"
     },
@@ -480,14 +480,14 @@
     {
         "word": "включать",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➕",
         "form": "adjective"
     },
     {
         "word": "продолжать",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➡️",
         "form": "noun",
         "plural": "продолжать"
@@ -495,7 +495,7 @@
     {
         "word": "устанавливать",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⚙️",
         "form": "noun",
         "plural": "устанавливать"
@@ -519,7 +519,7 @@
     {
         "word": "создавать",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "noun",
         "plural": "создавать"

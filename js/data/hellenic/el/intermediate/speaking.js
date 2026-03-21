@@ -90,7 +90,7 @@
                 "sideA": "Εξόφληση",
                 "sideB": "Επένδυση",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -99,7 +99,7 @@
                 "sideA": "Ιδιοκτησία",
                 "sideB": "Ενοικίαση",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -108,7 +108,7 @@
                 "sideA": "Αποταμίευση νωρίς",
                 "sideB": "Απόλαυση τώρα",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -117,7 +117,7 @@
                 "sideA": "Κάτω από δυνατότητες",
                 "sideB": "Απόλαυση τώρα",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -180,7 +180,7 @@
                 "sideA": "Σωματική",
                 "sideB": "Ψυχική",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -189,7 +189,7 @@
                 "sideA": "Ιδιωτική",
                 "sideB": "Δημόσια",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -198,7 +198,7 @@
                 "sideA": "Τακτικοί έλεγχοι",
                 "sideB": "Μόνο αν άρρωστος",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -207,7 +207,7 @@
                 "sideA": "Μείωση αλκοόλ",
                 "sideB": "Μείωση στρες",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -279,7 +279,7 @@
                 "sideA": "Παραδοχή",
                 "sideB": "Προσποίηση",
                 "level": "intermediate",
-                "theme": "housing_mortgages_B1",
+                "theme": "buying_property_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -426,7 +426,7 @@
                 "sideA": "Social media",
                 "sideB": "Φύση",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -570,7 +570,7 @@
                 "sideA": "Σωματική",
                 "sideB": "Ψυχική",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -579,7 +579,7 @@
                 "sideA": "Πρόληψη",
                 "sideB": "Θεραπεία",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -588,7 +588,7 @@
                 "sideA": "Ανταγωνιστικός",
                 "sideB": "Διασκέδαση",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -597,7 +597,7 @@
                 "sideA": "Ιδιωτική",
                 "sideB": "Δημόσια",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -687,7 +687,7 @@
                 "sideA": "Ύπνος",
                 "sideB": "Γυμναστική",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -741,7 +741,7 @@
                 "sideA": "Να το χάσεις",
                 "sideB": "Κακή προπόνηση",
                 "level": "intermediate",
-                "theme": "mental_health_B1",
+                "theme": "mental_health_wellbeing_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -764,7 +764,7 @@
             {
                 "topic": "Η σημασία της ευαισθητοποίησης για την ψυχική υγεία",
                 "level": "intermediate",
-                "theme": "mental_health_B1"
+                "theme": "mental_health_wellbeing_B1"
             }
         ]
     }

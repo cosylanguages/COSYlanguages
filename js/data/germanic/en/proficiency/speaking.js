@@ -20,7 +20,7 @@
                 "sideA": "Civilisational achievement",
                 "sideB": "Source of misery",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Advice",
                 "sideB": "Trap",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Identity",
                 "sideB": "Means",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Overworker",
                 "sideB": "Idler",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Admirable",
                 "sideB": "Failure to accept finitude",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },

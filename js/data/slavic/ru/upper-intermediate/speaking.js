@@ -135,7 +135,7 @@
                 "sideA": "Владение",
                 "sideB": "Аренда",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -180,7 +180,7 @@
                 "sideA": "Личная отв-ть",
                 "sideB": "Системные факторы",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -198,7 +198,7 @@
                 "sideA": "Профилактика",
                 "sideB": "Лечение",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -207,7 +207,7 @@
                 "sideA": "Антивозрастная",
                 "sideB": "Грациозное старение",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -288,7 +288,7 @@
                 "sideA": "Признание",
                 "sideB": "Имитация",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -324,7 +324,7 @@
                 "sideA": "Путаются",
                 "sideB": "Нравится",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },

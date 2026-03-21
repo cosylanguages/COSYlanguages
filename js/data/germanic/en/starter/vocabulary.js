@@ -3,7 +3,7 @@
     {
         "word": "doctor",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "numberPlural": "2 doctor",
         "answer": "two doctors",
         "emoji": "🧑‍⚕️",
@@ -28,7 +28,7 @@
     {
         "word": "teacher",
         "level": "starter",
-        "theme": "jobs_A0",
+        "theme": "job_titles_professions_A0",
         "opposite": "student",
         "oppositeEmoji": "🧑‍🎓",
         "emoji": "🧑‍🏫",
@@ -292,7 +292,7 @@
     {
         "word": "park",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🌳",
         "form": "noun",
         "plural": "parks",
@@ -322,7 +322,7 @@
     {
         "word": "school",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏫",
         "form": "noun",
         "plural": "schools",
@@ -663,7 +663,7 @@
     {
         "word": "head",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👤",
         "form": "noun",
         "plural": "heads",
@@ -687,7 +687,7 @@
     {
         "word": "hand",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "✋",
         "form": "noun",
         "plural": "hands",
@@ -711,7 +711,7 @@
     {
         "word": "leg",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🦵",
         "form": "noun",
         "plural": "legs"
@@ -719,7 +719,7 @@
     {
         "word": "eye",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👁️",
         "form": "noun",
         "plural": "eyes",
@@ -736,7 +736,7 @@
     {
         "word": "nose",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👃",
         "form": "noun",
         "plural": "noses"
@@ -744,7 +744,7 @@
     {
         "word": "mouth",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👄",
         "form": "noun",
         "plural": "mouths"
@@ -752,7 +752,7 @@
     {
         "word": "ear",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "👂",
         "form": "noun",
         "plural": "ears"
@@ -760,7 +760,7 @@
     {
         "word": "foot",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "🦶",
         "form": "noun",
         "plural": "feet"
@@ -774,7 +774,7 @@
     {
         "word": "smartphone",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📱",
         "form": "noun",
         "plural": "smartphones"
@@ -860,7 +860,7 @@
     {
         "word": "foot",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "numberPlural": "2 foot",
         "answer": "two feet",
         "emoji": "🦶",

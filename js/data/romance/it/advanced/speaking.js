@@ -20,7 +20,7 @@
                 "sideA": "Gerarchia piatta",
                 "sideB": "Struttura verticale",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Produttività",
                 "sideB": "Ozio",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Abilità acquisita",
                 "sideB": "Qualità innata",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Impegno genuino",
                 "sideB": "Gestione reputazione",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -182,7 +182,7 @@
                 "sideA": "Carriera signif.",
                 "sideB": "Finanziare vita priv.",
                 "level": "advanced",
-                "theme": "work_culture_C1",
+                "theme": "organisational_culture_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -308,7 +308,7 @@
             {
                 "topic": "Il ruolo dell'arte nella società moderna",
                 "level": "advanced",
-                "theme": "leisure_hobbies_A2"
+                "theme": "interests_hobbies_A2"
             },
             {
                 "topic": "Intelligenza Artificiale: Strumento o minaccia ?",

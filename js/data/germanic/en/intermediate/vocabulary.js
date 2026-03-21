@@ -141,7 +141,7 @@
     {
         "word": "library",
         "level": "intermediate",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📚",
         "form": "noun",
         "plural": "libraries"
@@ -149,7 +149,7 @@
     {
         "word": "museum",
         "level": "intermediate",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏛️",
         "form": "noun",
         "plural": "museums"
@@ -398,7 +398,7 @@
     {
         "word": "mental health",
         "level": "intermediate",
-        "theme": "mental_health_B1",
+        "theme": "mental_health_wellbeing_B1",
         "emoji": "🧠",
         "form": "noun",
         "plural": "mental healths"
@@ -466,7 +466,7 @@
     {
         "word": "tooth",
         "level": "intermediate",
-        "theme": "mental_health_B1",
+        "theme": "mental_health_wellbeing_B1",
         "numberPlural": "32 tooth",
         "answer": "thirty-two teeth",
         "emoji": "🦷",

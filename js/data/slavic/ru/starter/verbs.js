@@ -3,7 +3,7 @@
     {
         "word": "чтение",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "form": "verb"
     },
     {
@@ -82,7 +82,7 @@
     {
         "word": "приходить",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏃‍♂️",
         "subtext": "прийти сюда, прийти домой",
         "opposite": "идти",
@@ -127,7 +127,7 @@
     {
         "word": "гулять",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -143,7 +143,7 @@
     {
         "word": "выигрывать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏆",
         "opposite": "терять",
         "oppositeEmoji": "📉",
@@ -175,7 +175,7 @@
     {
         "word": "умирать",
         "level": "starter",
-        "theme": "body_A0",
+        "theme": "body_parts_A0",
         "emoji": "⚰️",
         "opposite": "жить",
         "oppositeEmoji": "🏠",
@@ -205,7 +205,7 @@
     {
         "word": "проходить",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏔️",
         "form": "verb"
     },
@@ -267,7 +267,7 @@
     {
         "word": "рисовать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "verb",
         "definitions": [
@@ -308,35 +308,35 @@
     {
         "word": "танцевать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💃",
         "form": "verb"
     },
     {
         "word": "петь",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎤",
         "form": "verb"
     },
     {
         "word": "прыгать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦘",
         "form": "verb"
     },
     {
         "word": "летать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "плавать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏊",
         "form": "verb"
     },
@@ -357,35 +357,35 @@
     {
         "word": "готовить",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍳",
         "form": "verb"
     },
     {
         "word": "путешествовать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "учиться",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📖",
         "form": "verb"
     },
     {
         "word": "преподавать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "слушать",
         "level": "starter",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎧",
         "form": "verb"
     },

@@ -135,7 +135,7 @@
                 "sideA": "Ιδιοκτησία",
                 "sideB": "Αγορά ενοικίασης",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -180,7 +180,7 @@
                 "sideA": "Προσωπική ευθύνη",
                 "sideB": "Συστημικοί παράγοντες",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -198,7 +198,7 @@
                 "sideA": "Προληπτική",
                 "sideB": "Θεραπευτική",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -207,7 +207,7 @@
                 "sideA": "Αντιγήρανση",
                 "sideB": "Αξιοπρεπής γήρανση",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -288,7 +288,7 @@
                 "sideA": "Παραδοχή άγνοιας",
                 "sideB": "Προσποίηση",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -324,7 +324,7 @@
                 "sideA": "Μπερδεμένοι",
                 "sideB": "Απολαμβάνουν",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },

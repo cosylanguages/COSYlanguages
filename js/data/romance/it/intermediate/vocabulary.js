@@ -215,7 +215,7 @@
     {
         "word": "salute mentale",
         "level": "intermediate",
-        "theme": "mental_health_B1",
+        "theme": "mental_health_wellbeing_B1",
         "emoji": "🧠",
         "form": "noun",
         "definitions": [

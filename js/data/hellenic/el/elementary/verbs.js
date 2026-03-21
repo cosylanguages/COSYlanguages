@@ -3,13 +3,13 @@
     {
         "word": "χορός",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "form": "verb"
     },
     {
         "word": "τραγούδι",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "form": "verb"
     },
     {
@@ -43,14 +43,14 @@
     {
         "word": "υπηρετώ",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🍽️",
         "form": "verb"
     },
     {
         "word": "χτίζω",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🏗️",
         "form": "verb"
     },
@@ -99,7 +99,7 @@
     {
         "word": "αναφέρω",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb"
     },
@@ -113,14 +113,14 @@
     {
         "word": "εξηγώ",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "αναπτύσσω",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "💻",
         "form": "verb"
     },
@@ -134,14 +134,14 @@
     {
         "word": "χτυπώ",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🥊",
         "form": "verb"
     },
     {
         "word": "παράγω",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "verb"
     },
@@ -155,21 +155,21 @@
     {
         "word": "καλύπτω",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "verb"
     },
     {
         "word": "περιγράφω",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb"
     },
     {
         "word": "πιάζω",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb"
     }

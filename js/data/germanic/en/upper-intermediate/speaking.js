@@ -135,7 +135,7 @@
                 "sideA": "Ownership",
                 "sideB": "Rental market",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -180,7 +180,7 @@
                 "sideA": "Personal responsibility",
                 "sideB": "Systemic factors",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -198,7 +198,7 @@
                 "sideA": "Preventive",
                 "sideB": "Curative",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -207,7 +207,7 @@
                 "sideA": "Anti-ageing",
                 "sideB": "Ageing gracefully",
                 "level": "upper-intermediate",
-                "theme": "healthcare_systems_B2",
+                "theme": "healthcare_systems_B1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -288,7 +288,7 @@
                 "sideA": "Admitting ignorance",
                 "sideB": "Pretending",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -324,7 +324,7 @@
                 "sideA": "Confused",
                 "sideB": "Enjoy it",
                 "level": "upper-intermediate",
-                "theme": "economy_labour_B2",
+                "theme": "economy_labour_market_B2",
                 "ideasA": [],
                 "ideasB": []
             },

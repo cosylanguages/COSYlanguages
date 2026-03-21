@@ -3,7 +3,7 @@
     {
         "word": "artiste",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🎨",
         "form": "noun",
         "plural": "artistes",
@@ -26,7 +26,7 @@
     {
         "word": "chef",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "chefs",
@@ -49,7 +49,7 @@
     {
         "word": "infirmier",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👩‍⚕️",
         "form": "noun",
         "plural": "infirmiers",
@@ -297,7 +297,7 @@
     {
         "word": "robe",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "robes"
@@ -305,7 +305,7 @@
     {
         "word": "veste",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🧥",
         "form": "noun",
         "plural": "vestes"
@@ -313,7 +313,7 @@
     {
         "word": "jupe",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "jupes"
@@ -321,7 +321,7 @@
     {
         "word": "canapé",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "canapés"
@@ -329,7 +329,7 @@
     {
         "word": "lampe",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "💡",
         "form": "noun",
         "plural": "lampes"
@@ -337,7 +337,7 @@
     {
         "word": "bureau",
         "level": "elementary",
-        "theme": "places_buildings_activities_A2",
+        "theme": "neighbourhood_local_A2",
         "theme_alt": "grammar_plurals",
         "numberPlural": "3 bureau",
         "answer": "trois bureaux",
@@ -362,7 +362,7 @@
     {
         "word": "se brosser les dents",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🪥",
         "form": "noun",
         "plural": "se brosser les dents"
@@ -370,7 +370,7 @@
     {
         "word": "prendre une douche",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🚿",
         "form": "noun",
         "plural": "prendre une douches"
@@ -378,7 +378,7 @@
     {
         "word": "montre",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "form": "noun",
         "plural": "montres",
         "definitions": [
@@ -401,7 +401,7 @@
     {
         "word": "portefeuille",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👛",
         "form": "noun",
         "plural": "portefeuilles",
@@ -418,7 +418,7 @@
     {
         "word": "lunettes",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "👓",
         "form": "noun",
         "plural": "lunettes"
@@ -426,7 +426,7 @@
     {
         "word": "lion",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🦁",
         "form": "noun",
         "plural": "lions"
@@ -434,7 +434,7 @@
     {
         "word": "tigre",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐯",
         "form": "noun",
         "plural": "tigres"
@@ -442,7 +442,7 @@
     {
         "word": "cheval",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "🐎",
         "form": "noun",
         "plural": "chevaux"
@@ -474,7 +474,7 @@
     {
         "word": "université",
         "level": "elementary",
-        "theme": "career_A2",
+        "theme": "career_development_A2",
         "emoji": "🎓",
         "form": "noun",
         "definitions": [
@@ -512,7 +512,7 @@
     {
         "word": "oiseau",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "article": "l'",
         "baseWord": "oiseau",
         "numberPlural": "2 oiseau",
@@ -540,7 +540,7 @@
     {
         "word": "bouger",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "📦",
         "form": "noun",
         "plural": "bougers"
@@ -563,7 +563,7 @@
     {
         "word": "inclure",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➕",
         "form": "noun",
         "plural": "inclures"
@@ -571,7 +571,7 @@
     {
         "word": "continuer",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "➡️",
         "form": "noun",
         "plural": "continuers"
@@ -579,7 +579,7 @@
     {
         "word": "poser",
         "level": "elementary",
-        "theme": "neighbourhood_A2",
+        "theme": "neighbourhood_local_A2",
         "emoji": "⚙️",
         "form": "noun",
         "plural": "posers"
@@ -603,7 +603,7 @@
     {
         "word": "créer",
         "level": "elementary",
-        "theme": "leisure_hobbies_A2",
+        "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "noun",
         "plural": "créers"

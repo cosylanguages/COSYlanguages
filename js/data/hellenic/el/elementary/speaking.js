@@ -10,7 +10,7 @@
             {
                 "text": "Είναι καλύτερα να ζεις σε σπίτι ή σε διαμέρισμα;",
                 "level": "elementary",
-                "theme": "neighbourhood_A2"
+                "theme": "neighbourhood_local_A2"
             }
         ],
         "criticsCorner": [
@@ -27,7 +27,7 @@
                 "sideA": "Υψηλός μισθός",
                 "sideB": "Σύντομη διαδρομή",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -36,7 +36,7 @@
                 "sideA": "Αλλαγή εργασίας",
                 "sideB": "Παραμονή",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -45,7 +45,7 @@
                 "sideA": "Υπερωρίες",
                 "sideB": "Στην ώρα μου",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -54,7 +54,7 @@
                 "sideA": "Αυστηρό αφεντικό",
                 "sideB": "Χαλαρό αφεντικό",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -63,7 +63,7 @@
                 "sideA": "Μεγάλη εταιρεία",
                 "sideB": "Μικρή εταιρεία",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -72,7 +72,7 @@
                 "sideA": "Προαγωγή",
                 "sideB": "Ελεύθερος χρόνος",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -81,7 +81,7 @@
                 "sideA": "Αγορά",
                 "sideB": "Ενοικίαση",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -99,7 +99,7 @@
                 "sideA": "Εμπειρίες",
                 "sideB": "Πράγματα",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -108,7 +108,7 @@
                 "sideA": "Καθημερινή μαγειρική",
                 "sideB": "Meal prepping",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -117,7 +117,7 @@
                 "sideA": "Καθαριστής",
                 "sideB": "Προσωπικά",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -162,7 +162,7 @@
                 "sideA": "Κοινωνικοποίηση",
                 "sideB": "Σπίτι",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -234,7 +234,7 @@
                 "sideA": "Χαρτί",
                 "sideB": "Ψηφιακά",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -243,7 +243,7 @@
                 "sideA": "Social media",
                 "sideB": "Από κοντά",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -297,7 +297,7 @@
                 "sideA": "Αμέσως",
                 "sideB": "Μετά το πρωινό",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -315,7 +315,7 @@
                 "sideA": "Με λίστα",
                 "sideB": "Χωρίς λίστα",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -324,7 +324,7 @@
                 "sideA": "Να το λέτε",
                 "sideB": "Να πηγαίνετε",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -333,7 +333,7 @@
                 "sideA": "Πλήρης",
                 "sideB": "Μερική",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -342,7 +342,7 @@
                 "sideA": "Γραφείο",
                 "sideB": "Σπίτι",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -351,7 +351,7 @@
                 "sideA": "Δουλειά που αγαπάτε",
                 "sideB": "Καλή αμοιβή",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -360,7 +360,7 @@
                 "sideA": "Με άλλους",
                 "sideB": "Μόνος",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -369,7 +369,7 @@
                 "sideA": "Σύντομη",
                 "sideB": "Μεγάλη",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -396,7 +396,7 @@
                 "sideA": "Σπίτι",
                 "sideB": "Έξω",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -414,7 +414,7 @@
                 "sideA": "Ενοικίαση",
                 "sideB": "Αγορά",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -459,7 +459,7 @@
                 "sideA": "Online",
                 "sideB": "Κατάστημα",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -468,7 +468,7 @@
                 "sideA": "Αποταμίευση",
                 "sideB": "Απόλαυση τώρα",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -477,7 +477,7 @@
                 "sideA": "Ακριβά",
                 "sideB": "Φθηνά",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -486,7 +486,7 @@
                 "sideA": "Καινούργια",
                 "sideB": "Μεταχειρισμένα",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -495,7 +495,7 @@
                 "sideA": "Τηλεόραση",
                 "sideB": "Έξοδος",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -522,7 +522,7 @@
                 "sideA": "Αθλητισμός",
                 "sideB": "Ανάγνωση",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -540,7 +540,7 @@
                 "sideA": "Αμέσως",
                 "sideB": "Αργότερα",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -549,7 +549,7 @@
                 "sideA": "Αμέσως",
                 "sideB": "Αύριο",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -558,7 +558,7 @@
                 "sideA": "Νωρίς",
                 "sideB": "Αργά",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -567,7 +567,7 @@
                 "sideA": "Οργανωμένο",
                 "sideB": "Ακατάστατο",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -576,7 +576,7 @@
                 "sideA": "Συζήτηση δουλειάς",
                 "sideB": "Καμία συζήτηση",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -621,7 +621,7 @@
                 "sideA": "Πρωί",
                 "sideB": "Απόγευμα",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -630,7 +630,7 @@
                 "sideA": "Ανάγνωση",
                 "sideB": "Μαθηματικά",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -639,7 +639,7 @@
                 "sideA": "Σχολείο",
                 "sideB": "Σπίτι",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -648,7 +648,7 @@
                 "sideA": "Εργασίες",
                 "sideB": "Καμία",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -657,7 +657,7 @@
                 "sideA": "Μόνος",
                 "sideB": "Συνεργάτης",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -666,7 +666,7 @@
                 "sideA": "Χαρτί",
                 "sideB": "Υπολογιστής",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -675,7 +675,7 @@
                 "sideA": "Πρωινό",
                 "sideB": "Δείπνο",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -684,7 +684,7 @@
                 "sideA": "Ζεστό",
                 "sideB": "Κρύο",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -693,7 +693,7 @@
                 "sideA": "Σπίτι",
                 "sideB": "Εστιατόριο",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -702,7 +702,7 @@
                 "sideA": "Γλυκό",
                 "sideB": "Αλμυρό",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -711,7 +711,7 @@
                 "sideA": "Μαγειρική",
                 "sideB": "Έτοιμο",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -720,7 +720,7 @@
                 "sideA": "Πρωί",
                 "sideB": "Αργά",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -729,7 +729,7 @@
                 "sideA": "Πρωί",
                 "sideB": "Βράδυ",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -738,7 +738,7 @@
                 "sideA": "Καθημερινές",
                 "sideB": "Σαββατοκύριακο",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -756,7 +756,7 @@
                 "sideA": "Νωρίς",
                 "sideB": "Αργά",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -765,7 +765,7 @@
                 "sideA": "Σπίτι",
                 "sideB": "Διαμέρισμα",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -783,7 +783,7 @@
                 "sideA": "Υπνοδωμάτιο",
                 "sideB": "Καθιστικό",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -792,7 +792,7 @@
                 "sideA": "Μέσα",
                 "sideB": "Έξω",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -801,7 +801,7 @@
                 "sideA": "Τηλεόραση",
                 "sideB": "Βιβλίο",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -810,7 +810,7 @@
                 "sideA": "Αθλητισμός",
                 "sideB": "Βιντεοπαιχνίδια",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -819,7 +819,7 @@
                 "sideA": "Ζωγραφική",
                 "sideB": "Τραγούδι",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -828,7 +828,7 @@
                 "sideA": "Μόνος",
                 "sideB": "Φίλοι",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -837,7 +837,7 @@
                 "sideA": "Κολύμβηση",
                 "sideB": "Τρέξιμο",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -846,7 +846,7 @@
                 "sideA": "Μουσική",
                 "sideB": "Αθλητισμός",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -927,7 +927,7 @@
                 "sideA": "Online",
                 "sideB": "Φυσική παρουσία",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [
                     "Ευκολία",
                     "Καλύτερες τιμές"
@@ -942,7 +942,7 @@
                 "sideA": "Χαρτί",
                 "sideB": "E-books",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [
                     "Μυρωδιά/Αίσθηση",
                     "Συλλεκτικό"
@@ -957,7 +957,7 @@
                 "sideA": "Πρωί",
                 "sideB": "Βράδυ",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -966,7 +966,7 @@
                 "sideA": "Αυστηροί",
                 "sideB": "Φιλικοί",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -975,7 +975,7 @@
                 "sideA": "Βιβλίο",
                 "sideB": "Βίντεο",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -984,7 +984,7 @@
                 "sideA": "Σύντομα",
                 "sideB": "Μεγάλα",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -993,7 +993,7 @@
                 "sideA": "Ομαδικές",
                 "sideB": "Ατομικές",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1002,7 +1002,7 @@
                 "sideA": "Στολή",
                 "sideB": "Καθημερινά",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1011,7 +1011,7 @@
                 "sideA": "Σπιτικό",
                 "sideB": "Φαστ φουντ",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1020,7 +1020,7 @@
                 "sideA": "Μεγάλα γεύματα",
                 "sideB": "Σνακ",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1029,7 +1029,7 @@
                 "sideA": "Χορτοφαγία",
                 "sideB": "Κρέας",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1038,7 +1038,7 @@
                 "sideA": "Τσάι",
                 "sideB": "Καφές",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1047,7 +1047,7 @@
                 "sideA": "Μόνος",
                 "sideB": "Με άλλους",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1056,7 +1056,7 @@
                 "sideA": "Ομαδικό",
                 "sideB": "Ατομικό",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1065,7 +1065,7 @@
                 "sideA": "Μέσα",
                 "sideB": "Έξω",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1074,7 +1074,7 @@
                 "sideA": "Σινεμά",
                 "sideB": "Θέατρο",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1083,7 +1083,7 @@
                 "sideA": "Ακρόαση",
                 "sideB": "Εκτέλεση",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1092,7 +1092,7 @@
                 "sideA": "Βιντεοπαιχνίδια",
                 "sideB": "Επιτραπέζια",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1101,7 +1101,7 @@
                 "sideA": "Ψώνια",
                 "sideB": "Σπίτι",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1128,7 +1128,7 @@
                 "sideA": "E-book",
                 "sideB": "Χάρτινο βιβλίο",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1227,7 +1227,7 @@
                 "sideA": "Αποταμίευση",
                 "sideB": "Ξόδεμα",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1236,7 +1236,7 @@
                 "sideA": "Μερική απασχόληση",
                 "sideB": "Μόνο σχολείο",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1245,7 +1245,7 @@
                 "sideA": "Χρήματα",
                 "sideB": "Ελεύθερος χρόνος",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1263,7 +1263,7 @@
                 "sideA": "Μαμάς",
                 "sideB": "Μπαμπά",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1272,7 +1272,7 @@
                 "sideA": "Μαθηματικά",
                 "sideB": "Καλλιτεχνικά",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1281,7 +1281,7 @@
                 "sideA": "Χαρτί",
                 "sideB": "Τάμπλετ",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1290,7 +1290,7 @@
                 "sideA": "Πίτσα",
                 "sideB": "Μακαρονάδα",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1299,7 +1299,7 @@
                 "sideA": "Παγωτό",
                 "sideB": "Κέικ",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1335,7 +1335,7 @@
                 "sideA": "Πρωί",
                 "sideB": "Βράδυ",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1353,7 +1353,7 @@
                 "sideA": "Πιρούνι",
                 "sideB": "Χέρια",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1362,7 +1362,7 @@
                 "sideA": "Με κάλτσες",
                 "sideB": "Χωρίς",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1371,7 +1371,7 @@
                 "sideA": "Κάστρο",
                 "sideB": "Χιονάνθρωπος",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1380,7 +1380,7 @@
                 "sideA": "Πολλές εξετάσεις",
                 "sideB": "Πολύ λίγες",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1389,7 +1389,7 @@
                 "sideA": "Στα 7",
                 "sideB": "Στα 5",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1407,7 +1407,7 @@
                 "sideA": "Μαγειρική",
                 "sideB": "Παραγγελία",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1416,7 +1416,7 @@
                 "sideA": "Μαγειρική",
                 "sideB": "Ζαχαροπλαστική",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1470,7 +1470,7 @@
                 "sideA": "Μέσα",
                 "sideB": "Έξω",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1479,7 +1479,7 @@
                 "sideA": "Ανανάς",
                 "sideB": "Χωρίς ανανά",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1488,7 +1488,7 @@
                 "sideA": "Γάλα πρώτα",
                 "sideB": "Τσάι πρώτα",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1497,7 +1497,7 @@
                 "sideA": "Δευτέρα",
                 "sideB": "Παρασκευή",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1506,7 +1506,7 @@
                 "sideA": "Πριν το ξυπνητήρι",
                 "sideB": "Μέχρι το ξυπνητήρι",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },

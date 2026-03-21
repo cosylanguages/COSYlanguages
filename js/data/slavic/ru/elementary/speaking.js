@@ -10,7 +10,7 @@
             {
                 "text": "Где лучше жить: в доме или в квартире?",
                 "level": "elementary",
-                "theme": "neighbourhood_A2"
+                "theme": "neighbourhood_local_A2"
             }
         ],
         "criticsCorner": [
@@ -27,7 +27,7 @@
                 "sideA": "Высокая зарплата",
                 "sideB": "Короткий путь",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -36,7 +36,7 @@
                 "sideA": "Частая смена",
                 "sideB": "Одна компания",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -45,7 +45,7 @@
                 "sideA": "Сверхурочно",
                 "sideB": "Вовремя",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -54,7 +54,7 @@
                 "sideA": "Строгий",
                 "sideB": "Мягкий",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -63,7 +63,7 @@
                 "sideA": "Большая",
                 "sideB": "Маленькая",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -72,7 +72,7 @@
                 "sideA": "Повышение",
                 "sideB": "Свободное время",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -81,7 +81,7 @@
                 "sideA": "Покупка",
                 "sideB": "Аренда",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -99,7 +99,7 @@
                 "sideA": "Впечатления",
                 "sideB": "Вещи",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -108,7 +108,7 @@
                 "sideA": "Каждый день",
                 "sideB": "На неделю",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -117,7 +117,7 @@
                 "sideA": "Клинер",
                 "sideB": "Самому",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -162,7 +162,7 @@
                 "sideA": "Общение",
                 "sideB": "Домой",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -234,7 +234,7 @@
                 "sideA": "Бумага",
                 "sideB": "Цифра",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -243,7 +243,7 @@
                 "sideA": "Соцсети",
                 "sideB": "Личные встречи",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -297,7 +297,7 @@
                 "sideA": "Сразу",
                 "sideB": "После завтрака",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -315,7 +315,7 @@
                 "sideA": "Со списком",
                 "sideB": "Без списка",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -324,7 +324,7 @@
                 "sideA": "Сказать боссу",
                 "sideB": "Идти больным",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -333,7 +333,7 @@
                 "sideA": "Полный день",
                 "sideB": "Частичная",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -342,7 +342,7 @@
                 "sideA": "Офис",
                 "sideB": "Дом",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -351,7 +351,7 @@
                 "sideA": "Любимая работа",
                 "sideB": "Хорошая оплата",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -360,7 +360,7 @@
                 "sideA": "С людьми",
                 "sideB": "В одиночку",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -369,7 +369,7 @@
                 "sideA": "Короткий",
                 "sideB": "Длинный",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -396,7 +396,7 @@
                 "sideA": "Дома",
                 "sideB": "Вне дома",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -414,7 +414,7 @@
                 "sideA": "Снимать",
                 "sideB": "Покупать",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -459,7 +459,7 @@
                 "sideA": "Онлайн",
                 "sideB": "Магазин",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -468,7 +468,7 @@
                 "sideA": "Копить",
                 "sideB": "Наслаждаться сейчас",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -477,7 +477,7 @@
                 "sideA": "Дорогие",
                 "sideB": "Дешевые",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -486,7 +486,7 @@
                 "sideA": "Новое",
                 "sideB": "Подержанное",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -495,7 +495,7 @@
                 "sideA": "ТВ",
                 "sideB": "Гулять",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -522,7 +522,7 @@
                 "sideA": "Спорт",
                 "sideB": "Чтение",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -540,7 +540,7 @@
                 "sideA": "Сразу",
                 "sideB": "Потом",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -549,7 +549,7 @@
                 "sideA": "Сразу",
                 "sideB": "До завтра",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -558,7 +558,7 @@
                 "sideA": "Заранее",
                 "sideB": "Опоздание",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -567,7 +567,7 @@
                 "sideA": "Организованный",
                 "sideB": "Беспорядок",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -576,7 +576,7 @@
                 "sideA": "О работе",
                 "sideB": "Без работы",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -621,7 +621,7 @@
                 "sideA": "Утро",
                 "sideB": "День",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -630,7 +630,7 @@
                 "sideA": "Чтение",
                 "sideB": "Математика",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -639,7 +639,7 @@
                 "sideA": "Школа",
                 "sideB": "Дом",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -648,7 +648,7 @@
                 "sideA": "Домашка",
                 "sideB": "Нет",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -657,7 +657,7 @@
                 "sideA": "Один",
                 "sideB": "Пара",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -666,7 +666,7 @@
                 "sideA": "Бумага",
                 "sideB": "Компьютер",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -675,7 +675,7 @@
                 "sideA": "Завтрак",
                 "sideB": "Ужин",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -684,7 +684,7 @@
                 "sideA": "Горячая",
                 "sideB": "Холодная",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -693,7 +693,7 @@
                 "sideA": "Дом",
                 "sideB": "Ресторан",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -702,7 +702,7 @@
                 "sideA": "Сладкое",
                 "sideB": "Соленое",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -711,7 +711,7 @@
                 "sideA": "Готовить",
                 "sideB": "Покупать",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -720,7 +720,7 @@
                 "sideA": "Рано",
                 "sideB": "Поздно",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -729,7 +729,7 @@
                 "sideA": "Утро",
                 "sideB": "Вечер",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -738,7 +738,7 @@
                 "sideA": "Будни",
                 "sideB": "Выходные",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -756,7 +756,7 @@
                 "sideA": "Рано",
                 "sideB": "Поздно",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -765,7 +765,7 @@
                 "sideA": "Дом",
                 "sideB": "Квартира",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -783,7 +783,7 @@
                 "sideA": "Спальня",
                 "sideB": "Гостиная",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -792,7 +792,7 @@
                 "sideA": "Дома",
                 "sideB": "Улица",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -801,7 +801,7 @@
                 "sideA": "ТВ",
                 "sideB": "Книга",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -810,7 +810,7 @@
                 "sideA": "Спорт",
                 "sideB": "Видеоигры",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -819,7 +819,7 @@
                 "sideA": "Рисование",
                 "sideB": "Пение",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -828,7 +828,7 @@
                 "sideA": "Один",
                 "sideB": "Друзья",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -837,7 +837,7 @@
                 "sideA": "Плавание",
                 "sideB": "Бег",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -846,7 +846,7 @@
                 "sideA": "Музыка",
                 "sideB": "Спорт",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -927,7 +927,7 @@
                 "sideA": "Онлайн",
                 "sideB": "Лично",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [
                     "Удобство",
                     "Лучшие цены"
@@ -942,7 +942,7 @@
                 "sideA": "Бумажные",
                 "sideB": "Электронные",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [
                     "Запах/Ощущение",
                     "Предмет коллекционирования"
@@ -957,7 +957,7 @@
                 "sideA": "Утром",
                 "sideB": "Вечером",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -966,7 +966,7 @@
                 "sideA": "Строгие",
                 "sideB": "Добрые",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -975,7 +975,7 @@
                 "sideA": "Учебник",
                 "sideB": "Видео",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -984,7 +984,7 @@
                 "sideA": "Короткие",
                 "sideB": "Длинные",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -993,7 +993,7 @@
                 "sideA": "Группа",
                 "sideB": "Индивидуально",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1002,7 +1002,7 @@
                 "sideA": "Форма",
                 "sideB": "Повседневная",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1011,7 +1011,7 @@
                 "sideA": "Домашняя",
                 "sideB": "Фастфуд",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1020,7 +1020,7 @@
                 "sideA": "Три раза",
                 "sideB": "Перекусы",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1029,7 +1029,7 @@
                 "sideA": "Вегетарианская",
                 "sideB": "Мясо",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1038,7 +1038,7 @@
                 "sideA": "Чай",
                 "sideB": "Кофе",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1047,7 +1047,7 @@
                 "sideA": "Один",
                 "sideB": "С другими",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1056,7 +1056,7 @@
                 "sideA": "Командный",
                 "sideB": "Индивидуальный",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1065,7 +1065,7 @@
                 "sideA": "Дома",
                 "sideB": "На улице",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1074,7 +1074,7 @@
                 "sideA": "Кино",
                 "sideB": "Театр",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1083,7 +1083,7 @@
                 "sideA": "Слушать",
                 "sideB": "Играть",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1092,7 +1092,7 @@
                 "sideA": "Видеоигры",
                 "sideB": "Настольные",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1101,7 +1101,7 @@
                 "sideA": "Магазины",
                 "sideB": "Дома",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1128,7 +1128,7 @@
                 "sideA": "Э-книга",
                 "sideB": "Бумажная",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1227,7 +1227,7 @@
                 "sideA": "Копить",
                 "sideB": "Тратить",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1236,7 +1236,7 @@
                 "sideA": "Подработка",
                 "sideB": "Только учеба",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1245,7 +1245,7 @@
                 "sideA": "Деньги",
                 "sideB": "Свободное время",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1263,7 +1263,7 @@
                 "sideA": "Мамина",
                 "sideB": "Папина",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1272,7 +1272,7 @@
                 "sideA": "Математика",
                 "sideB": "Рисование",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1281,7 +1281,7 @@
                 "sideA": "Бумага",
                 "sideB": "Планшет",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1290,7 +1290,7 @@
                 "sideA": "Пицца",
                 "sideB": "Паста",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1299,7 +1299,7 @@
                 "sideA": "Мороженое",
                 "sideB": "Торт",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1335,7 +1335,7 @@
                 "sideA": "Утром",
                 "sideB": "Вечером",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1353,7 +1353,7 @@
                 "sideA": "Вилкой",
                 "sideB": "Руками",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1362,7 +1362,7 @@
                 "sideA": "В носках",
                 "sideB": "Без носков",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1371,7 +1371,7 @@
                 "sideA": "Замок из песка",
                 "sideB": "Снеговик",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1380,7 +1380,7 @@
                 "sideA": "Много экзаменов",
                 "sideB": "Мало экзаменов",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1389,7 +1389,7 @@
                 "sideA": "В 7 лет",
                 "sideB": "В 5 лет",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1407,7 +1407,7 @@
                 "sideA": "Готовить дома",
                 "sideB": "Заказывать онлайн",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1416,7 +1416,7 @@
                 "sideA": "Готовка",
                 "sideB": "Выпечка",
                 "level": "elementary",
-                "theme": "leisure_hobbies_A2",
+                "theme": "interests_hobbies_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1470,7 +1470,7 @@
                 "sideA": "В помещении",
                 "sideB": "На улице",
                 "level": "elementary",
-                "theme": "career_A2",
+                "theme": "career_development_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1479,7 +1479,7 @@
                 "sideA": "Ананас",
                 "sideB": "Без ананаса",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1488,7 +1488,7 @@
                 "sideA": "Сначала молоко",
                 "sideB": "Сначала чай",
                 "level": "elementary",
-                "theme": "food_nutrition_A2",
+                "theme": "diet_nutrition_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1497,7 +1497,7 @@
                 "sideA": "Понедельник",
                 "sideB": "Пятница",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1506,7 +1506,7 @@
                 "sideA": "До будильника",
                 "sideB": "До конца",
                 "level": "elementary",
-                "theme": "neighbourhood_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },

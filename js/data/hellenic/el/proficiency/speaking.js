@@ -20,7 +20,7 @@
                 "sideA": "Πολιτισμικό επίτευγμα",
                 "sideB": "Πηγή δυστυχίας",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Συμβουλή",
                 "sideB": "Παγίδα",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Ταυτότητα",
                 "sideB": "Μέσο",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Υπερεργαζόμενος",
                 "sideB": "Οκνηρός",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Αξιοθαύμαστη",
                 "sideB": "Αδυναμία αποδοχής",
                 "level": "proficiency",
-                "theme": "work_meaning_C2",
+                "theme": "work_identity_meaning_C1",
                 "ideasA": [],
                 "ideasB": []
             },
