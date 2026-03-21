@@ -9,7 +9,7 @@
     {
         "word": "есть",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍎",
         "subtext": "есть яблоко, ужинать",
         "opposite": "пить",
@@ -28,7 +28,7 @@
     {
         "word": "пить",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥛",
         "subtext": "пить воду, пить кофе",
         "form": "verb",
@@ -45,7 +45,7 @@
     {
         "word": "видеть",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👁️",
         "subtext": "видеть фильм, видеть друга",
         "form": "verb",
@@ -62,7 +62,7 @@
     {
         "word": "читать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "subtext": "читать книгу, читать новости",
         "opposite": "писать",
@@ -72,7 +72,7 @@
     {
         "word": "писать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✍️",
         "subtext": "писать письмо, писать сообщение",
         "opposite": "читать",
@@ -92,7 +92,7 @@
     {
         "word": "давать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎁",
         "subtext": "дарить подарок, помогать",
         "opposite": "брать",
@@ -102,7 +102,7 @@
     {
         "word": "разговаривать",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💬",
         "form": "verb",
         "definitions": [
@@ -118,7 +118,7 @@
     {
         "word": "открывать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "opposite": "закрывать",
         "oppositeEmoji": "🔒",
@@ -152,14 +152,14 @@
     {
         "word": "помнить",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🧠",
         "form": "verb"
     },
     {
         "word": "покупать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛒",
         "opposite": "продавать",
         "oppositeEmoji": "🏷️",
@@ -168,7 +168,7 @@
     {
         "word": "ждать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "⏳",
         "form": "verb"
     },
@@ -184,7 +184,7 @@
     {
         "word": "посылать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✉️",
         "form": "verb"
     },
@@ -198,7 +198,7 @@
     {
         "word": "резать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✂️",
         "form": "verb"
     },
@@ -212,7 +212,7 @@
     {
         "word": "продавать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🏷️",
         "opposite": "покупать",
         "oppositeEmoji": "🛒",
@@ -221,7 +221,7 @@
     {
         "word": "тянуть",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🚜",
         "opposite": "толкать",
         "oppositeEmoji": "🛒",
@@ -230,7 +230,7 @@
     {
         "word": "толкать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛒",
         "opposite": "тянуть",
         "oppositeEmoji": "🚜",
@@ -239,28 +239,28 @@
     {
         "word": "надеяться",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤞",
         "form": "verb"
     },
     {
         "word": "нести",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎒",
         "form": "verb"
     },
     {
         "word": "ломать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💔",
         "form": "verb"
     },
     {
         "word": "соглашаться",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👍",
         "form": "verb"
     },
@@ -283,14 +283,14 @@
     {
         "word": "делиться",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🍕",
         "form": "verb"
     },
     {
         "word": "улыбаться",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "😊",
         "opposite": "плакать",
         "oppositeEmoji": "😢",
@@ -299,7 +299,7 @@
     {
         "word": "плакать",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "😢",
         "opposite": "улыбаться",
         "oppositeEmoji": "😊",
@@ -343,14 +343,14 @@
     {
         "word": "мыть",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧼",
         "form": "verb"
     },
     {
         "word": "чистить",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧹",
         "form": "verb"
     },
@@ -392,7 +392,7 @@
     {
         "word": "закрывать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔒",
         "opposite": "открывать",
         "oppositeEmoji": "📖",
@@ -401,7 +401,7 @@
     {
         "word": "заканчивать",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🏁",
         "opposite": "начинать",
         "oppositeEmoji": "▶️",

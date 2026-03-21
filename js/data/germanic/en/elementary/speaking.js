@@ -855,7 +855,7 @@
                 "sideA": "Farm",
                 "sideB": "Wild",
                 "level": "elementary",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1344,7 +1344,7 @@
                 "sideA": "Cats",
                 "sideB": "Dogs",
                 "level": "elementary",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1515,7 +1515,7 @@
                 "sideA": "Cats",
                 "sideB": "Dogs",
                 "level": "elementary",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },

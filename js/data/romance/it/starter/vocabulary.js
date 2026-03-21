@@ -51,7 +51,7 @@
     {
         "word": "pasta",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍝",
         "form": "noun",
         "plural": "paste",
@@ -74,7 +74,7 @@
     {
         "word": "lasagna",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "form": "noun",
         "plural": "lasagne",
         "definitions": [
@@ -96,7 +96,7 @@
     {
         "word": "mela",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "numberPlural": "4 mela",
         "answer": "quattro mele",
         "emoji": "🍎",
@@ -115,7 +115,7 @@
     {
         "word": "pane",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍞",
         "form": "noun",
         "plural": "pane",
@@ -132,7 +132,7 @@
     {
         "word": "uovo",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥚",
         "form": "noun",
         "plural": "uova"
@@ -140,7 +140,7 @@
     {
         "word": "latte",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥛",
         "form": "noun",
         "plural": "latte"
@@ -148,7 +148,7 @@
     {
         "word": "caffè",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "il",
         "baseWord": "caffè",
         "emoji": "☕",
@@ -158,7 +158,7 @@
     {
         "word": "tè",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "il",
         "baseWord": "tè",
         "emoji": "🍵",
@@ -168,7 +168,7 @@
     {
         "word": "succo",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "il",
         "baseWord": "succo",
         "emoji": "🧃",
@@ -178,7 +178,7 @@
     {
         "word": "acqua",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "l'",
         "baseWord": "acqua",
         "emoji": "🚰",
@@ -231,7 +231,7 @@
     {
         "word": "maglietta",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👕",
         "form": "noun",
         "plural": "magliette"
@@ -239,7 +239,7 @@
     {
         "word": "pantaloni",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👖",
         "form": "noun",
         "plural": "pantaloni"
@@ -247,7 +247,7 @@
     {
         "word": "scarpe",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👟",
         "form": "noun",
         "plural": "scarpi"
@@ -255,7 +255,7 @@
     {
         "word": "cappello",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👒",
         "form": "noun",
         "plural": "cappelli"
@@ -263,7 +263,7 @@
     {
         "word": "sedia",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "sedie"
@@ -271,7 +271,7 @@
     {
         "word": "tavolo",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "tavoli"
@@ -279,7 +279,7 @@
     {
         "word": "letto",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛏️",
         "form": "noun",
         "plural": "letti",
@@ -296,7 +296,7 @@
     {
         "word": "alto",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "alti",
         "definitions": [
@@ -312,7 +312,7 @@
     {
         "word": "basso",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "bassi",
         "definitions": [
@@ -328,21 +328,21 @@
     {
         "word": "giovane",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "giovani"
     },
     {
         "word": "vecchio",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "vecchii"
     },
     {
         "word": "svegliarsi",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "⏰",
         "form": "noun",
         "plural": "svegliarsi"
@@ -350,7 +350,7 @@
     {
         "word": "dormire",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "😴",
         "subtext": "dormire 8 ore, andare a dormire",
         "form": "noun",
@@ -359,7 +359,7 @@
     {
         "word": "chiave",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔑",
         "form": "noun",
         "plural": "chiavi",
@@ -383,7 +383,7 @@
     {
         "word": "telefono",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "telefoni"
@@ -391,7 +391,7 @@
     {
         "word": "libro",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "form": "noun",
         "plural": "libri",
@@ -623,7 +623,7 @@
     },
     {
         "word": "ragazzo",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "level": "starter",
         "article": "il",
         "baseWord": "ragazzo",
@@ -635,7 +635,7 @@
     },
     {
         "word": "ragazza",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "level": "starter",
         "article": "la",
         "baseWord": "ragazza",
@@ -647,7 +647,7 @@
     },
     {
         "word": "amico",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "level": "starter",
         "article": "l'",
         "baseWord": "amico",
@@ -660,7 +660,7 @@
     {
         "word": "libro",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "article": "il",
         "baseWord": "libro",
         "numberPlural": "4 libro",
@@ -693,7 +693,7 @@
     {
         "word": "uomo",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "article": "l'",
         "baseWord": "uomo",
         "numberPlural": "2 uomo",
@@ -714,7 +714,7 @@
     {
         "word": "donna",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "article": "la",
         "baseWord": "donna",
         "numberPlural": "3 donna",
@@ -735,7 +735,7 @@
     {
         "word": "essere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👤",
         "subtext": "avere freddo, avere 20 anni",
         "form": "noun",
@@ -744,7 +744,7 @@
     {
         "word": "avere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "subtext": "fare colazione, avere un'auto",
         "form": "noun",
@@ -762,7 +762,7 @@
     {
         "word": "fare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "subtext": "fare i compiti, fare sport",
         "form": "noun",
@@ -771,7 +771,7 @@
     {
         "word": "lavorare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💼",
         "subtext": "lavorare in un ufficio, lavorare sodo",
         "form": "noun",
@@ -780,7 +780,7 @@
     {
         "word": "sapere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🧠",
         "subtext": "sapere la risposta, conoscere una persona",
         "form": "noun",
@@ -789,7 +789,7 @@
     {
         "word": "pensare",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💭",
         "subtext": "pensare a, pensare che",
         "form": "noun",
@@ -798,7 +798,7 @@
     {
         "word": "volere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🙏",
         "subtext": "volere acqua, volere andare",
         "form": "noun",
@@ -807,7 +807,7 @@
     {
         "word": "piacere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👍",
         "subtext": "mi piace il cioccolato, mi piace ballare",
         "form": "noun",
@@ -816,7 +816,7 @@
     {
         "word": "amare",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❤️",
         "subtext": "amare la mia famiglia, amare viaggiare",
         "form": "noun",
@@ -825,7 +825,7 @@
     {
         "word": "scrivere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✍️",
         "subtext": "scrivere una lettera, scrivere un messaggio",
         "opposite": "leggere",
@@ -847,7 +847,7 @@
     {
         "word": "dare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎁",
         "subtext": "dare un regalo, dare aiuto",
         "opposite": "prendere",
@@ -857,7 +857,7 @@
     {
         "word": "prendere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "subtext": "prendere l'autobus, fare una foto",
         "opposite": "dare",
@@ -867,21 +867,21 @@
     {
         "word": "trovare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔍",
         "form": "adjective"
     },
     {
         "word": "dire",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🗣️",
         "form": "adjective"
     },
     {
         "word": "chiedere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❓",
         "form": "noun",
         "plural": "chiederi"
@@ -897,7 +897,7 @@
     {
         "word": "provare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎯",
         "form": "noun",
         "plural": "provari"
@@ -913,7 +913,7 @@
     {
         "word": "chiamare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📞",
         "form": "noun",
         "plural": "chiamari"
@@ -929,7 +929,7 @@
     {
         "word": "usare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "form": "noun",
         "plural": "usari"
@@ -937,7 +937,7 @@
     {
         "word": "ottenere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📥",
         "form": "noun",
         "plural": "otteneri"
@@ -945,7 +945,7 @@
     {
         "word": "iniziare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "▶️",
         "opposite": "finire",
         "oppositeEmoji": "🏁",
@@ -955,7 +955,7 @@
     {
         "word": "aiutare",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "noun",
         "plural": "aiutari"
@@ -979,7 +979,7 @@
     {
         "word": "vivere",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🏠",
         "opposite": "morire",
         "oppositeEmoji": "⚰️",
@@ -989,7 +989,7 @@
     {
         "word": "portare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎒",
         "form": "noun",
         "plural": "portari"
@@ -997,7 +997,7 @@
     {
         "word": "sedersi",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "opposite": "stare in piedi",
         "oppositeEmoji": "🧍",
@@ -1007,7 +1007,7 @@
     {
         "word": "stare in piedi",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧍",
         "opposite": "sedersi",
         "oppositeEmoji": "🪑",
@@ -1017,7 +1017,7 @@
     {
         "word": "perdere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📉",
         "opposite": "vincere",
         "oppositeEmoji": "🏆",
@@ -1027,7 +1027,7 @@
     {
         "word": "pagare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💰",
         "form": "noun",
         "plural": "pagari"
@@ -1035,7 +1035,7 @@
     {
         "word": "incontrare",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "noun",
         "plural": "incontrari"
@@ -1051,14 +1051,14 @@
     {
         "word": "cambiare",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔄",
         "form": "adjective"
     },
     {
         "word": "capire",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💡",
         "form": "noun",
         "plural": "capiri"
@@ -1074,7 +1074,7 @@
     {
         "word": "aggiungere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "➕",
         "form": "noun",
         "plural": "aggiungeri"
@@ -1082,7 +1082,7 @@
     {
         "word": "spendere",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💸",
         "form": "noun",
         "plural": "spenderi"
@@ -1090,7 +1090,7 @@
     {
         "word": "aprire",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "opposite": "chiudere",
         "oppositeEmoji": "🔒",

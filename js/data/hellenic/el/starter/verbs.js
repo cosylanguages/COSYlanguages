@@ -23,7 +23,7 @@
     },
     {
         "word": "καφές",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "level": "starter",
         "article": "ο",
         "baseWord": "καφές",
@@ -33,7 +33,7 @@
     },
     {
         "word": "μπίρα",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "level": "starter",
         "article": "η",
         "baseWord": "μπίρα",
@@ -43,7 +43,7 @@
     },
     {
         "word": "νερό",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "level": "starter",
         "article": "το",
         "baseWord": "νερό",
@@ -62,7 +62,7 @@
     },
     {
         "word": "βιβλίο",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "level": "starter",
         "article": "το",
         "baseWord": "βιβλίο",
@@ -84,7 +84,7 @@
     {
         "word": "είμαι",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👤",
         "subtext": "κρυώνω, είμαι 20 χρονών",
         "form": "verb"
@@ -92,7 +92,7 @@
     {
         "word": "έχω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "subtext": "τρώω πρωινό, έχω ένα αυτοκίνητο",
         "form": "verb"
@@ -108,7 +108,7 @@
     {
         "word": "τρώω",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍎",
         "subtext": "τρώω ένα μήλο, τρώω βραδινό",
         "opposite": "πίνω",
@@ -127,7 +127,7 @@
     {
         "word": "πίνω",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥛",
         "subtext": "πίνω νερό, πίνω καφέ",
         "form": "verb",
@@ -144,7 +144,7 @@
     {
         "word": "βλέπω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👁️",
         "subtext": "βλέπω μια ταινία, βλέπω ένα φίλο",
         "form": "verb",
@@ -161,7 +161,7 @@
     {
         "word": "βοηθάω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -193,7 +193,7 @@
     {
         "word": "αγοράζω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛒",
         "opposite": "πουλάω",
         "oppositeEmoji": "🏷️",
@@ -211,7 +211,7 @@
     {
         "word": "στέλνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✉️",
         "form": "verb"
     },
@@ -232,7 +232,7 @@
     {
         "word": "κόβω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✂️",
         "form": "verb"
     },
@@ -246,7 +246,7 @@
     {
         "word": "πουλάω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🏷️",
         "opposite": "αγοράζω",
         "oppositeEmoji": "🛒",
@@ -255,7 +255,7 @@
     {
         "word": "τραβάω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🚜",
         "opposite": "σπρώχνω",
         "oppositeEmoji": "🛒",
@@ -264,7 +264,7 @@
     {
         "word": "σπρώχνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛒",
         "opposite": "τραβάω",
         "oppositeEmoji": "🚜",
@@ -273,35 +273,35 @@
     {
         "word": "ελπίζω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤞",
         "form": "verb"
     },
     {
         "word": "κουβαλώ",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎒",
         "form": "verb"
     },
     {
         "word": "σπάω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💔",
         "form": "verb"
     },
     {
         "word": "λαμβάνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📩",
         "form": "verb"
     },
     {
         "word": "συμφωνώ",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👍",
         "form": "verb"
     },
@@ -324,14 +324,14 @@
     {
         "word": "μοιράζομαι",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🍕",
         "form": "verb"
     },
     {
         "word": "χαμογελώ",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "😊",
         "opposite": "κλαίω",
         "oppositeEmoji": "😢",
@@ -340,7 +340,7 @@
     {
         "word": "κλαίω",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "😢",
         "opposite": "χαμογελώ",
         "oppositeEmoji": "😊",
@@ -384,14 +384,14 @@
     {
         "word": "πλένω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧼",
         "form": "verb"
     },
     {
         "word": "καθαρίζω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧹",
         "form": "verb"
     },
@@ -433,7 +433,7 @@
     {
         "word": "κλείνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔒",
         "opposite": "ανοίγω",
         "oppositeEmoji": "📖",
@@ -442,7 +442,7 @@
     {
         "word": "τελειώνω",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🏁",
         "opposite": "αρχίζω",
         "oppositeEmoji": "▶️",

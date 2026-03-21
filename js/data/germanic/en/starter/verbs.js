@@ -3,21 +3,21 @@
     {
         "word": "wake up",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "⏰",
         "form": "verb"
     },
     {
         "word": "breakfast",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🍳",
         "form": "verb"
     },
     {
         "word": "work",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💼",
         "subtext": "work in an office, work hard",
         "form": "verb",
@@ -41,21 +41,21 @@
     {
         "word": "lunch",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🍱",
         "form": "verb"
     },
     {
         "word": "dinner",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🍽️",
         "form": "verb"
     },
     {
         "word": "sleep",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "😴",
         "subtext": "sleep 8 hours, go to sleep",
         "form": "verb",
@@ -102,7 +102,7 @@
     {
         "word": "be",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👤",
         "subtext": "be cold, be 20 years old",
         "form": "verb"
@@ -110,7 +110,7 @@
     {
         "word": "have",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "subtext": "have breakfast, have a car",
         "form": "verb"
@@ -126,7 +126,7 @@
     {
         "word": "eat",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🍎",
         "subtext": "eat an apple, eat dinner",
         "opposite": "drink",
@@ -145,7 +145,7 @@
     {
         "word": "drink",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥛",
         "subtext": "drink water, drink coffee",
         "form": "verb",
@@ -162,7 +162,7 @@
     {
         "word": "do",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "subtext": "do homework, do sport",
         "form": "verb"
@@ -170,7 +170,7 @@
     {
         "word": "speak",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🗣️",
         "subtext": "speak English, speak slowly",
         "form": "verb"
@@ -178,7 +178,7 @@
     {
         "word": "know",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🧠",
         "subtext": "know the answer, know a person",
         "form": "verb"
@@ -186,7 +186,7 @@
     {
         "word": "think",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💭",
         "subtext": "think about, think that",
         "form": "verb"
@@ -194,7 +194,7 @@
     {
         "word": "see",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👁️",
         "subtext": "see a movie, see a friend",
         "form": "verb",
@@ -211,7 +211,7 @@
     {
         "word": "want",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🙏",
         "subtext": "want water, want to go",
         "form": "verb"
@@ -219,7 +219,7 @@
     {
         "word": "like",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👍",
         "subtext": "like chocolate, like dancing",
         "form": "verb"
@@ -227,7 +227,7 @@
     {
         "word": "love",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❤️",
         "subtext": "love my family, love travel",
         "form": "verb"
@@ -235,7 +235,7 @@
     {
         "word": "read",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "subtext": "read a book, read the news",
         "opposite": "write",
@@ -245,7 +245,7 @@
     {
         "word": "write",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✍️",
         "subtext": "write a letter, write a message",
         "opposite": "read",
@@ -265,7 +265,7 @@
     {
         "word": "give",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎁",
         "subtext": "give a gift, give help",
         "opposite": "take",
@@ -275,7 +275,7 @@
     {
         "word": "take",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "subtext": "take a bus, take a photo",
         "opposite": "give",
@@ -285,21 +285,21 @@
     {
         "word": "find",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔍",
         "form": "verb"
     },
     {
         "word": "tell",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🗣️",
         "form": "verb"
     },
     {
         "word": "ask",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❓",
         "form": "verb"
     },
@@ -313,7 +313,7 @@
     {
         "word": "try",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎯",
         "form": "verb"
     },
@@ -327,35 +327,35 @@
     {
         "word": "call",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📞",
         "form": "verb"
     },
     {
         "word": "look",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👀",
         "form": "verb"
     },
     {
         "word": "use",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "form": "verb"
     },
     {
         "word": "get",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📥",
         "form": "verb"
     },
     {
         "word": "start",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "▶️",
         "opposite": "finish",
         "oppositeEmoji": "🏁",
@@ -364,14 +364,14 @@
     {
         "word": "help",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "verb"
     },
     {
         "word": "talk",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💬",
         "form": "verb",
         "definitions": [
@@ -401,7 +401,7 @@
     {
         "word": "live",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🏠",
         "opposite": "die",
         "oppositeEmoji": "⚰️",
@@ -410,14 +410,14 @@
     {
         "word": "bring",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎁",
         "form": "verb"
     },
     {
         "word": "sit",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "opposite": "stand",
         "oppositeEmoji": "🧍",
@@ -426,7 +426,7 @@
     {
         "word": "stand",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧍",
         "opposite": "sit",
         "oppositeEmoji": "🪑",
@@ -435,7 +435,7 @@
     {
         "word": "lose",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📉",
         "opposite": "win",
         "oppositeEmoji": "🏆",
@@ -444,14 +444,14 @@
     {
         "word": "pay",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💰",
         "form": "verb"
     },
     {
         "word": "meet",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "verb"
     },
@@ -465,14 +465,14 @@
     {
         "word": "change",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔄",
         "form": "verb"
     },
     {
         "word": "understand",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💡",
         "form": "verb"
     },
@@ -486,21 +486,21 @@
     {
         "word": "add",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "➕",
         "form": "verb"
     },
     {
         "word": "spend",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💸",
         "form": "verb"
     },
     {
         "word": "open",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "opposite": "close",
         "oppositeEmoji": "🔒",
@@ -534,14 +534,14 @@
     {
         "word": "remember",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🧠",
         "form": "verb"
     },
     {
         "word": "buy",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛒",
         "opposite": "sell",
         "oppositeEmoji": "🏷️",
@@ -550,7 +550,7 @@
     {
         "word": "wait",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "⏳",
         "form": "verb"
     },
@@ -566,7 +566,7 @@
     {
         "word": "send",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✉️",
         "form": "verb"
     },
@@ -587,7 +587,7 @@
     {
         "word": "cut",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✂️",
         "form": "verb"
     },
@@ -601,7 +601,7 @@
     {
         "word": "sell",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🏷️",
         "opposite": "buy",
         "oppositeEmoji": "🛒",
@@ -610,7 +610,7 @@
     {
         "word": "pull",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🚜",
         "opposite": "push",
         "oppositeEmoji": "🛒",
@@ -619,7 +619,7 @@
     {
         "word": "push",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛒",
         "opposite": "pull",
         "oppositeEmoji": "🚜",
@@ -628,35 +628,35 @@
     {
         "word": "hope",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤞",
         "form": "verb"
     },
     {
         "word": "carry",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎒",
         "form": "verb"
     },
     {
         "word": "break",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💔",
         "form": "verb"
     },
     {
         "word": "receive",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📩",
         "form": "verb"
     },
     {
         "word": "agree",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👍",
         "form": "verb"
     },
@@ -670,14 +670,14 @@
     {
         "word": "share",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🍕",
         "form": "verb"
     },
     {
         "word": "smile",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "😊",
         "opposite": "cry",
         "oppositeEmoji": "😢",
@@ -686,7 +686,7 @@
     {
         "word": "cry",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "😢",
         "opposite": "smile",
         "oppositeEmoji": "😊",
@@ -730,14 +730,14 @@
     {
         "word": "wash",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧼",
         "form": "verb"
     },
     {
         "word": "clean",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧹",
         "form": "verb"
     },
@@ -779,7 +779,7 @@
     {
         "word": "close",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔒",
         "opposite": "open",
         "oppositeEmoji": "📖",
@@ -788,7 +788,7 @@
     {
         "word": "finish",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🏁",
         "opposite": "start",
         "oppositeEmoji": "▶️",

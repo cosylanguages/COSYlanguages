@@ -429,7 +429,7 @@
     {
         "word": "море",
         "level": "elementary",
-        "theme": "places_streets_locations_A2",
+        "theme": "neighbourhood_local_A2",
         "gender": "оно",
         "baseWord": "море",
         "numberPlural": "много море",

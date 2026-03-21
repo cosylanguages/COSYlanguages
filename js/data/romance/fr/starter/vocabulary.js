@@ -51,7 +51,7 @@
     {
         "word": "ratatouille",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "form": "noun",
         "plural": "ratatouilles",
         "definitions": [
@@ -73,7 +73,7 @@
     {
         "word": "croissant",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "form": "noun",
         "plural": "croissants",
         "definitions": [
@@ -95,7 +95,7 @@
     {
         "word": "pomme",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "la",
         "baseWord": "pomme",
         "emoji": "🍎",
@@ -116,7 +116,7 @@
     {
         "word": "pain",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "le",
         "baseWord": "pain",
         "emoji": "🥖",
@@ -135,7 +135,7 @@
     {
         "word": "oeuf",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥚",
         "form": "noun",
         "plural": "oeufs",
@@ -158,7 +158,7 @@
     {
         "word": "lait",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "emoji": "🥛",
         "form": "noun",
         "plural": "lait",
@@ -181,7 +181,7 @@
     {
         "word": "café",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "le",
         "baseWord": "café",
         "emoji": "☕",
@@ -191,7 +191,7 @@
     {
         "word": "thé",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "le",
         "baseWord": "thé",
         "emoji": "🍵",
@@ -201,7 +201,7 @@
     {
         "word": "jus",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "le",
         "baseWord": "jus",
         "emoji": "🧃",
@@ -211,7 +211,7 @@
     {
         "word": "eau",
         "level": "starter",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "article": "l'",
         "baseWord": "eau",
         "emoji": "🚰",
@@ -264,7 +264,7 @@
     {
         "word": "t-shirt",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👕",
         "form": "noun",
         "plural": "t-shirts"
@@ -272,7 +272,7 @@
     {
         "word": "pantalon",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👖",
         "form": "noun",
         "plural": "pantalons"
@@ -280,7 +280,7 @@
     {
         "word": "chaussures",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👟",
         "form": "noun",
         "plural": "chaussures"
@@ -288,7 +288,7 @@
     {
         "word": "chapeau",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👒",
         "form": "noun",
         "plural": "chapeaus"
@@ -296,7 +296,7 @@
     {
         "word": "chaise",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "chaises"
@@ -304,7 +304,7 @@
     {
         "word": "table",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
         "plural": "tables"
@@ -312,7 +312,7 @@
     {
         "word": "lit",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛏️",
         "form": "noun",
         "plural": "lits"
@@ -320,7 +320,7 @@
     {
         "word": "grand",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "grands",
         "definitions": [
@@ -336,7 +336,7 @@
     {
         "word": "petit",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "petits",
         "definitions": [
@@ -352,21 +352,21 @@
     {
         "word": "jeune",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "jeunes"
     },
     {
         "word": "vieux",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "form": "noun",
         "plural": "vieux"
     },
     {
         "word": "se réveiller",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "⏰",
         "form": "noun",
         "plural": "se réveillers"
@@ -374,7 +374,7 @@
     {
         "word": "clé",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔑",
         "form": "noun",
         "plural": "clés"
@@ -382,7 +382,7 @@
     {
         "word": "téléphone",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "téléphones"
@@ -390,7 +390,7 @@
     {
         "word": "livre",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "form": "noun",
         "plural": "livres",
@@ -628,7 +628,7 @@
     },
     {
         "word": "eau",
-        "theme": "food_drink_A0",
+        "theme": "basic_foods_A0",
         "level": "starter",
         "article": "l'",
         "baseWord": "eau",
@@ -672,7 +672,7 @@
     {
         "word": "livre",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "article": "le",
         "baseWord": "livre",
         "numberPlural": "des livre",
@@ -693,7 +693,7 @@
     {
         "word": "être",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "👤",
         "subtext": "avoir froid, avoir 20 ans",
         "form": "noun",
@@ -702,7 +702,7 @@
     {
         "word": "avoir",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "subtext": "prendre le petit déjeuner, avoir une voiture",
         "form": "noun",
@@ -720,7 +720,7 @@
     {
         "word": "faire",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "subtext": "faire les devoirs, faire du sport",
         "form": "noun",
@@ -729,7 +729,7 @@
     {
         "word": "travailler",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💼",
         "subtext": "travailler dans un bureau, travailler dur",
         "form": "noun",
@@ -738,7 +738,7 @@
     {
         "word": "savoir",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🧠",
         "subtext": "savoir la réponse, connaître une personne",
         "form": "noun",
@@ -747,7 +747,7 @@
     {
         "word": "penser",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💭",
         "subtext": "penser à, penser que",
         "form": "noun",
@@ -756,7 +756,7 @@
     {
         "word": "vouloir",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🙏",
         "subtext": "vouloir de l'eau, vouloir aller",
         "form": "noun",
@@ -765,7 +765,7 @@
     {
         "word": "aimer",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❤️",
         "subtext": "aimer ma famille, aimer voyager",
         "form": "noun",
@@ -774,7 +774,7 @@
     {
         "word": "écrire",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "✍️",
         "subtext": "écrire une lettre, écrire un message",
         "opposite": "lire",
@@ -796,7 +796,7 @@
     {
         "word": "donner",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎁",
         "subtext": "donner un cadeau, donner de l'aide",
         "opposite": "prendre",
@@ -806,7 +806,7 @@
     {
         "word": "prendre",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "👜",
         "subtext": "prendre le bus, prendre une photo",
         "opposite": "donner",
@@ -816,21 +816,21 @@
     {
         "word": "trouver",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔍",
         "form": "adjective"
     },
     {
         "word": "dire",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🗣️",
         "form": "adjective"
     },
     {
         "word": "demander",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "❓",
         "form": "noun",
         "plural": "demanders"
@@ -846,7 +846,7 @@
     {
         "word": "essayer",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎯",
         "form": "noun",
         "plural": "essayers"
@@ -862,7 +862,7 @@
     {
         "word": "appeler",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📞",
         "form": "noun",
         "plural": "appelers"
@@ -878,7 +878,7 @@
     {
         "word": "utiliser",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🛠️",
         "form": "noun",
         "plural": "utilisers"
@@ -886,7 +886,7 @@
     {
         "word": "obtenir",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📥",
         "form": "noun",
         "plural": "obtenirs"
@@ -894,7 +894,7 @@
     {
         "word": "commencer",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "▶️",
         "opposite": "finir",
         "oppositeEmoji": "🏁",
@@ -904,7 +904,7 @@
     {
         "word": "aider",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "noun",
         "plural": "aiders"
@@ -928,7 +928,7 @@
     {
         "word": "vivre",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🏠",
         "opposite": "mourir",
         "oppositeEmoji": "⚰️",
@@ -938,7 +938,7 @@
     {
         "word": "apporter",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🎁",
         "form": "noun",
         "plural": "apporters"
@@ -946,7 +946,7 @@
     {
         "word": "s'asseoir",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "opposite": "être debout",
         "oppositeEmoji": "🧍",
@@ -956,7 +956,7 @@
     {
         "word": "être debout",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🧍",
         "opposite": "s'asseoir",
         "oppositeEmoji": "🪑",
@@ -966,7 +966,7 @@
     {
         "word": "perdre",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📉",
         "opposite": "gagner",
         "oppositeEmoji": "🏆",
@@ -976,7 +976,7 @@
     {
         "word": "payer",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💰",
         "form": "noun",
         "plural": "payers"
@@ -984,7 +984,7 @@
     {
         "word": "rencontrer",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "🤝",
         "form": "noun",
         "plural": "rencontrers"
@@ -1000,14 +1000,14 @@
     {
         "word": "changer",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "🔄",
         "form": "adjective"
     },
     {
         "word": "comprendre",
         "level": "starter",
-        "theme": "adjectives_A0",
+        "theme": "size_shape_A0",
         "emoji": "💡",
         "form": "noun",
         "plural": "comprendres"
@@ -1023,7 +1023,7 @@
     {
         "word": "ajouter",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "➕",
         "form": "noun",
         "plural": "ajouters"
@@ -1031,7 +1031,7 @@
     {
         "word": "dépenser",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "💸",
         "form": "noun",
         "plural": "dépensers"
@@ -1039,7 +1039,7 @@
     {
         "word": "ouvrir",
         "level": "starter",
-        "theme": "home_A0",
+        "theme": "furniture_objects_A0",
         "emoji": "📖",
         "opposite": "fermer",
         "oppositeEmoji": "🔒",

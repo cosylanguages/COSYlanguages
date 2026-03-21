@@ -855,7 +855,7 @@
                 "sideA": "Fattoria",
                 "sideB": "Selvatici",
                 "level": "elementary",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1344,7 +1344,7 @@
                 "sideA": "Gatti",
                 "sideB": "Cani",
                 "level": "elementary",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1515,7 +1515,7 @@
                 "sideA": "Gatti",
                 "sideB": "Cani",
                 "level": "elementary",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },

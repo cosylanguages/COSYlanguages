@@ -5,12 +5,12 @@
             {
                 "text": "Является ли завтрак самым важным приемом пищи?",
                 "level": "starter",
-                "theme": "food_drink_A0"
+                "theme": "basic_foods_A0"
             },
             {
                 "text": "Собаки лучше кошек в качестве питомцев?",
                 "level": "starter",
-                "theme": "leisure_A1"
+                "theme": "leisure_activities_A1"
             }
         ],
         "criticsCorner": [],
@@ -20,7 +20,7 @@
                 "sideA": "Кофе",
                 "sideB": "Чай",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Ресторан",
                 "sideB": "Домашняя еда",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Завтрак",
                 "sideB": "Без завтрака",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Вода",
                 "sideB": "Сок",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Мясо",
                 "sideB": "Овощи",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -65,7 +65,7 @@
                 "sideA": "Дом",
                 "sideB": "Квартира",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -74,7 +74,7 @@
                 "sideA": "Город",
                 "sideB": "Деревня",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -83,7 +83,7 @@
                 "sideA": "Наличные",
                 "sideB": "Карта",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -92,7 +92,7 @@
                 "sideA": "Копить",
                 "sideB": "Тратить",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -101,7 +101,7 @@
                 "sideA": "Аренда",
                 "sideB": "Покупка",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -110,7 +110,7 @@
                 "sideA": "Утром",
                 "sideB": "Вечером",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -119,7 +119,7 @@
                 "sideA": "Машина",
                 "sideB": "Автобус",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -128,7 +128,7 @@
                 "sideA": "Пешком",
                 "sideB": "Машина",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -137,7 +137,7 @@
                 "sideA": "Офис",
                 "sideB": "Дом",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -146,7 +146,7 @@
                 "sideA": "Жаворонок",
                 "sideB": "Сова",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -164,7 +164,7 @@
                 "sideA": "Короткий",
                 "sideB": "Длинный",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -173,7 +173,7 @@
                 "sideA": "Звонок",
                 "sideB": "Сообщение",
                 "level": "starter",
-                "theme": "technology_A1",
+                "theme": "basic_technology_devices_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -182,7 +182,7 @@
                 "sideA": "Утром",
                 "sideB": "Вечером",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -191,7 +191,7 @@
                 "sideA": "Понедельник",
                 "sideB": "Пятница",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -209,7 +209,7 @@
                 "sideA": "У окна",
                 "sideB": "У прохода",
                 "level": "starter",
-                "theme": "places_streets_locations_A2",
+                "theme": "neighbourhood_local_A2",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -218,7 +218,7 @@
                 "sideA": "Красный",
                 "sideB": "Синий",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -227,7 +227,7 @@
                 "sideA": "Желтый",
                 "sideB": "Зеленый",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -236,7 +236,7 @@
                 "sideA": "Черный",
                 "sideB": "Белый",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -245,7 +245,7 @@
                 "sideA": "Розовый",
                 "sideB": "Фиолетовый",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -254,7 +254,7 @@
                 "sideA": "Круг",
                 "sideB": "Квадрат",
                 "level": "starter",
-                "theme": "numbers_1_20_A0",
+                "theme": "numbers_0_9_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -263,7 +263,7 @@
                 "sideA": "Большие",
                 "sideB": "Маленькие",
                 "level": "starter",
-                "theme": "numbers_1_20_A0",
+                "theme": "numbers_0_9_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -272,7 +272,7 @@
                 "sideA": "Треугольник",
                 "sideB": "Прямоугольник",
                 "level": "starter",
-                "theme": "numbers_1_20_A0",
+                "theme": "numbers_0_9_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -281,7 +281,7 @@
                 "sideA": "Мяч",
                 "sideB": "Кукла",
                 "level": "starter",
-                "theme": "leisure_A1",
+                "theme": "leisure_activities_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -290,7 +290,7 @@
                 "sideA": "Карандаш",
                 "sideB": "Ручка",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -299,7 +299,7 @@
                 "sideA": "Книга",
                 "sideB": "Картинка",
                 "level": "starter",
-                "theme": "work_A1",
+                "theme": "workplace_basics_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -308,7 +308,7 @@
                 "sideA": "Стул",
                 "sideB": "Пол",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -317,7 +317,7 @@
                 "sideA": "Кошка",
                 "sideB": "Собака",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -326,7 +326,7 @@
                 "sideA": "Рыба",
                 "sideB": "Птица",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -335,7 +335,7 @@
                 "sideA": "Большие",
                 "sideB": "Маленькие",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -344,7 +344,7 @@
                 "sideA": "Кролик",
                 "sideB": "Хомяк",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -353,7 +353,7 @@
                 "sideA": "Вода",
                 "sideB": "Сок",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -362,7 +362,7 @@
                 "sideA": "Яблоко",
                 "sideB": "Банан",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -371,7 +371,7 @@
                 "sideA": "Хлеб",
                 "sideB": "Рис",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -380,7 +380,7 @@
                 "sideA": "Молоко",
                 "sideB": "Вода",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -389,7 +389,7 @@
                 "sideA": "Розовый",
                 "sideB": "Оранжевый",
                 "level": "starter",
-                "theme": "colours_A0",
+                "theme": "colours_patterns_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -398,7 +398,7 @@
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_1_20_A0",
+                "theme": "numbers_0_9_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -407,7 +407,7 @@
                 "sideA": "Стул",
                 "sideB": "Диван",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -416,7 +416,7 @@
                 "sideA": "Сумка",
                 "sideB": "Коробка",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -425,7 +425,7 @@
                 "sideA": "Лев",
                 "sideB": "Слон",
                 "level": "starter",
-                "theme": "animals",
+                "theme": "animals_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -434,7 +434,7 @@
                 "sideA": "Шоколад",
                 "sideB": "Конфеты",
                 "level": "starter",
-                "theme": "food_drink_A0",
+                "theme": "basic_foods_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -443,7 +443,7 @@
                 "sideA": "Ложка",
                 "sideB": "Вилка",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -452,7 +452,7 @@
                 "sideA": "Шапка",
                 "sideB": "Обувь",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -470,7 +470,7 @@
                 "sideA": "Носки",
                 "sideB": "Без носков",
                 "level": "starter",
-                "theme": "home_A0",
+                "theme": "furniture_objects_A0",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -484,7 +484,7 @@
             {
                 "topic": "Работа моей мечты и почему",
                 "level": "starter",
-                "theme": "work_A1"
+                "theme": "workplace_basics_A1"
             }
         ]
     }

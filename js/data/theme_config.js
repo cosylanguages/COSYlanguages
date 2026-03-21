@@ -29,173 +29,163 @@ const COMMON_THEMES = [
 
 const themeConfig = {
     "starter": {
-        "description": "Concrete, single-concept nouns and basic adjectives only. Everyday adult life — familiar objects and situations.",
+        "description": "desc_a1",
         "common_themes": {
             "numbers_math": {
                 "numbers_0_9_A0": "Cardinal numbers 0–9",
                 "numbers_10_19_A0": "Cardinal numbers 10–19",
-                "numbers_20_99_A0": "Cardinal numbers 20–99",
-                "numbers_100_999_A1": "Cardinal numbers 100–999",
-                "numbers_1000_plus_A1": "Cardinal numbers 1,000+",
-                "ordinal_numbers_A1": "Ordinal numbers"
+                "numbers_20_99_A0": "Cardinal numbers 20–99"
             },
             "time": {
                 "days_week_A0": "Days of the week",
                 "months_year_A0": "Months of the year",
                 "seasons_A0": "Seasons",
                 "times_day_A0": "Times of day",
-                "telling_time_A0": "Telling the time",
-                "dates_years_A1": "Dates & years",
-                "frequency_adverbs_A1": "Frequency adverbs",
-                "duration_expressions_A1": "Duration expressions"
+                "telling_time_A0": "Telling the time"
             },
             "personal_identity": {
                 "name_greeting_A0": "Name & greeting",
                 "nationality_country_A0": "Nationality & country",
                 "age_A0": "Age",
                 "marital_status_A0": "Marital status",
-                "occupation_job_title_A0": "Occupation & job title",
-                "address_location_A1": "Address & location",
-                "contact_details_A1": "Contact details",
-                "physical_appearance_A1": "Physical appearance"
+                "occupation_job_title_A0": "Occupation & job title"
             },
             "family_relationships": {
-                "immediate_family_A0": "Immediate family members",
-                "extended_family_A1": "Extended family members",
-                "family_life_A1": "Family life & routines"
+                "immediate_family_A0": "Immediate family members"
             },
             "home_living": {
                 "rooms_of_a_home_A0": "Rooms of a home",
-                "furniture_objects_A0": "Furniture & objects",
-                "types_of_accommodation_A1": "Types of accommodation",
-                "household_tasks_A1": "Household tasks"
+                "furniture_objects_A0": "Furniture & objects"
             },
             "food_drink": {
                 "basic_foods_A0": "Basic foods",
                 "drinks_A0": "Drinks",
-                "meals_of_the_day_A0": "Meals of the day",
-                "cooking_methods_A1": "Cooking methods",
-                "tastes_textures_A1": "Tastes & textures"
+                "meals_of_the_day_A0": "Meals of the day"
             },
             "health_body": {
-                "body_parts_A0": "Parts of the body",
-                "illnesses_symptoms_A1": "Common illnesses & symptoms",
-                "medical_appointments_A1": "Doctor & medical appointments"
+                "body_parts_A0": "Parts of the body"
             },
             "work_employment": {
-                "job_titles_professions_A0": "Job titles & professions",
-                "workplace_basics_A1": "Workplace basics",
-                "daily_work_routines_A1": "Daily work routines"
+                "job_titles_professions_A0": "Job titles & professions"
             },
-            "education_learning":{
+            "education_learning": {
                 "school_subjects_A0": "School subjects",
-                "classroom_language_A0": "Classroom language",
-                "types_of_education_A1": "Types of education",
-                "learning_studying_A1": "Learning & studying"
+                "classroom_language_A0": "Classroom language"
             },
             "transport_travel": {
                 "modes_of_transport_A0": "Modes of transport",
-                "travel_vocabulary_basics_A0": "Travel vocabulary basics",
-                "directions_navigation_A1": "Directions & navigation",
-                "public_transport_A1": "Public transport"
+                "travel_vocabulary_basics_A0": "Travel vocabulary basics"
             },
             "shopping_money": {
-                "everyday_shopping_A0": "Everyday shopping",
-                "money_payment_A1": "Money & payment",
-                "shops_services_A1": "Shops & services"
+                "everyday_shopping_A0": "Everyday shopping"
             },
             "technology_media": {
-                "basic_technology_devices_A0": "Basic technology devices",
-                "using_a_smartphone_A1": "Using a smartphone"
+                "basic_technology_devices_A0": "Basic technology devices"
             },
             "environment_nature": {
                 "weather_A0": "Weather",
-                "animals_A0": "Animals",
-                "plants_natural_world_A1": "Plants & natural world",
-                "seasons_climate_A1": "Seasons & climate"
+                "animals_A0": "Animals"
             },
-            "culture_arts": {
-                "music_A1": "Music",
-                "cinema_film_A1": "Cinema & film",
-                "books_reading_A1": "Books & reading"
+            "language_communication": {
+                "greetings_social_phrases_A0": "Greetings & social phrases",
+                "asking_answering_questions_A0": "Asking & answering questions"
             },
             "sport_leisure": {
-                "common_sports_A0": "Common sports",
-                "sports_equipment_A1": "Sports equipment",
-                "playing_watching_sport_A1": "Playing & watching sport",
-                "leisure_activities_A1": "Leisure activities"
+                "common_sports_A0": "Common sports"
             },
             "feelings_emotions": {
                 "basic_positive_emotions_A0": "Basic positive emotions",
-                "basic_negative_emotions_A0": "Basic negative emotions",
-                "surprise_interest_A1": "Surprise & interest"
+                "basic_negative_emotions_A0": "Basic negative emotions"
             },
             "places_geography": {
                 "rooms_indoor_spaces_A0": "Rooms & indoor spaces",
-                "local_places_services_A0": "Local places & services",
-                "cities_towns_A1": "Cities & towns",
-                "countries_capitals_A1": "Countries & capitals"
+                "local_places_services_A0": "Local places & services"
             },
             "describing_things": {
                 "colours_patterns_A0": "Colours & patterns",
                 "size_shape_A0": "Size & shape"
             },
             "clothes_appearance": {
-                "items_of_clothing_A0": "Items of clothing",
-                "accessories_A1": "Accessories",
-                "dressing_style_A1": "Dressing & style"
+                "items_of_clothing_A0": "Items of clothing"
             },
-            "opinion_debate": {
-                "giving_opinions_A1": "Giving opinions"
+            "prepositions_grammar": {
+                "prepositions_place_A0": "Prepositions of place",
+                "prepositions_time_A0": "Prepositions of time"
+            },
+            "modifiers_intensifiers": {
+                "basic_intensifiers_A0": "Basic intensifiers"
             }
         }
     },
     "elementary": {
-        "description": "Adult everyday contexts — work, health, money, relationships.",
+        "description": "desc_a2",
         "common_themes": {
             "numbers_math": {
+                "numbers_100_999_A1": "Cardinal numbers 100–999",
+                "numbers_1000_plus_A1": "Cardinal numbers 1,000+",
+                "ordinal_numbers_A1": "Ordinal numbers",
                 "fractions_A2": "Fractions",
                 "decimals_A2": "Decimals",
                 "percentages_A2": "Percentages",
                 "basic_arithmetic_A2": "Basic arithmetic"
             },
             "time": {
+                "dates_years_A1": "Dates & years",
+                "frequency_adverbs_A1": "Frequency adverbs",
+                "duration_expressions_A1": "Duration expressions",
                 "past_time_A2": "Past time expressions",
                 "future_time_A2": "Future time expressions",
                 "sequence_order_A2": "Sequence & order"
             },
             "personal_identity": {
+                "address_location_A1": "Address & location",
+                "contact_details_A1": "Contact details",
+                "physical_appearance_A1": "Physical appearance",
                 "personality_character_A2": "Personality & character",
                 "interests_hobbies_A2": "Interests & hobbies"
             },
             "family_relationships": {
+                "extended_family_A1": "Extended family members",
+                "family_life_A1": "Family life & routines",
                 "relationships_dating_A2": "Relationships & dating",
                 "marriage_partnership_A2": "Marriage & partnership"
             },
             "home_living": {
+                "types_of_accommodation_A1": "Types of accommodation",
+                "household_tasks_A1": "Household tasks",
                 "renting_landlords_A2": "Renting & landlords",
                 "home_repairs_maintenance_A2": "Home repairs & maintenance",
                 "neighbourhood_local_A2": "Neighbourhood & local area",
                 "moving_home_A2": "Moving home"
             },
             "food_drink": {
+                "cooking_methods_A1": "Cooking methods",
+                "tastes_textures_A1": "Tastes & textures",
                 "restaurants_ordering_A2": "Restaurants & ordering",
                 "shopping_for_food_A2": "Shopping for food",
                 "diet_nutrition_A2": "Diet & nutrition"
             },
             "health_body": {
+                "illnesses_symptoms_A1": "Common illnesses & symptoms",
+                "medical_appointments_A1": "Doctor & medical appointments",
                 "exercise_fitness_A2": "Exercise & fitness",
                 "diet_healthy_eating_A2": "Diet & healthy eating"
             },
             "work_employment": {
+                "workplace_basics_A1": "Workplace basics",
+                "daily_work_routines_A1": "Daily work routines",
                 "job_apps_interviews_A2": "Job applications & interviews",
                 "career_development_A2": "Career development"
-             },
-            "education_learning":{
+            },
+            "education_learning": {
+                "types_of_education_A1": "Types of education",
+                "learning_studying_A1": "Learning & studying",
                 "qualifications_exams_A2": "Qualifications & exams",
                 "school_life_routines_A2": "School life & routines"
             },
             "transport_travel": {
+                "directions_navigation_A1": "Directions & navigation",
+                "public_transport_A1": "Public transport",
                 "booking_planning_a_trip_A2": "Booking & planning a trip",
                 "holiday_types_A2": "Holiday types",
                 "accommodation_A2": "Accommodation",
@@ -203,18 +193,28 @@ const themeConfig = {
                 "driving_roads_A2": "Driving & roads"
             },
             "shopping_money": {
+                "money_payment_A1": "Money & payment",
+                "shops_services_A1": "Shops & services",
                 "finances_A2": "Personal finances",
                 "banking_A2": "Banking"
             },
             "technology_media": {
+                "using_a_smartphone_A1": "Using a smartphone",
                 "internet_social_media_A2": "The internet & social media",
                 "news_media_A2": "News & media"
+            },
+            "environment_nature": {
+                "plants_natural_world_A1": "Plants & natural world",
+                "seasons_climate_A1": "Seasons & climate"
             },
             "society_politics": {
                 "community_neighbourhood_local_A2": "Community & neighbourhood",
                 "customs_traditions_A2": "Customs & traditions"
             },
             "culture_arts": {
+                "music_A1": "Music",
+                "cinema_film_A1": "Cinema & film",
+                "books_reading_A1": "Books & reading",
                 "art_design_A2": "Art & design",
                 "theatre_performance_A2": "Theatre & performance"
             },
@@ -222,31 +222,57 @@ const themeConfig = {
                 "basic_science_A2": "Basic science vocabulary",
                 "human_body_A2": "The human body"
             },
+            "language_communication": {
+                "describing_things_A1": "Describing things"
+            },
             "sport_leisure": {
-                "sports_leisure_A2": "Exercise & fitness"
+                "sports_equipment_A1": "Sports equipment",
+                "playing_watching_sport_A1": "Playing & watching sport",
+                "leisure_activities_A1": "Leisure activities"
             },
             "feelings_emotions": {
+                "surprise_interest_A1": "Surprise & interest",
                 "social_emotions_A2": "Social emotions",
                 "emotional_intensity_A2": "Emotional intensity"
             },
             "places_geography": {
+                "cities_towns_A1": "Cities & towns",
+                "countries_capitals_A1": "Countries & capitals",
                 "landscape_geography_A2": "Landscape & geography",
                 "directions_location_A2": "Directions & location"
             },
             "describing_things": {
                 "materials_textures_A2": "Materials & textures",
-                "condition_state_A2": "Condition & state"
+                "condition_state_A2": "Condition & state",
+                "quantity_degree_A2": "Quantity & degree",
+                "comparison_A2": "Comparison"
             },
             "clothes_appearance": {
-                "shopping_for_clothes_A0": "Shopping for clothes"
+                "accessories_A1": "Accessories",
+                "dressing_style_A1": "Dressing & style",
+                "shopping_for_clothes_A2": "Shopping for clothes"
+            },
+            "prepositions_grammar": {
+                "prepositions_movement_A1": "Prepositions of movement",
+                "conjunctions_connectors_A1": "Conjunctions & connectors"
             },
             "modifiers_intensifiers": {
-                "quantities_A2": "Quantities & frequency"
+                "frequency_adverbs_A1": "Frequency adverbs",
+                "degree_adverbs_A2": "Degree adverbs",
+                "approximation_A2": "Approximation"
+            },
+            "ethics_philosophy": {
+                "right_wrong_basic_A2": "Right & wrong (basic)"
+            },
+            "opinion_debate": {
+                "giving_opinions_A1": "Giving opinions",
+                "agreeing_disagreeing_A2": "Agreeing & disagreeing",
+                "giving_reasons_A2": "Giving reasons"
             }
         }
     },
     "intermediate": {
-        "description": "Broader adult society — work, values, health, environment.",
+        "description": "desc_b1",
         "common_themes": {
             "numbers_math": {
                 "approximation_estimation_B1": "Approximation & estimation"
@@ -305,13 +331,39 @@ const themeConfig = {
             "science_tech": {
                 "natural_sciences_B1": "Natural sciences"
             },
+            "language_communication": {
+                "expressing_opinion_B1": "Expressing opinion",
+                "agreeing_disagreeing_B1": "Agreeing & disagreeing",
+                "formal_informal_register_B1": "Formal vs informal register"
+            },
+            "sport_leisure": {
+                "competitive_sport_B1": "Competitive sport"
+            },
+            "feelings_emotions": {
+                "stress_anxiety_B1": "Stress & anxiety"
+            },
+            "places_geography": {
+                "urban_rural_life_B1": "Urban & rural life"
+            },
+            "describing_things": {
+                "spatial_description_B1": "Spatial description"
+            },
+            "prepositions_grammar": {
+                "discourse_markers_B1": "Discourse markers"
+            },
+            "modifiers_intensifiers": {
+                "probability_certainty_B1": "Probability & certainty"
+            },
+            "ethics_philosophy": {
+                "values_principles_B1": "Values & principles"
+            },
             "opinion_debate": {
-                "opinion_debate_B1": "Opinion & debate vocabulary"
+                "structured_argument_B1": "Structured argument"
             }
         }
     },
     "upper-intermediate": {
-        "description": "Abstract adult themes — society, politics, economy, ethics.",
+        "description": "desc_b2",
         "common_themes": {
             "numbers_math": {
                 "mathematical_operations_B2": "Mathematical operations"
@@ -373,19 +425,44 @@ const themeConfig = {
                 "applied_sciences_engineering_B2": "Applied sciences & engineering",
                 "space_exploration_B2": "Space exploration"
             },
-            "describing_things": {
-                "academic_vocabulary_B2": "Academic & discourse vocabulary"
-            },
             "language_communication": {
-                "formal_register_B2": "Formal register & hedging"
+                "conversation_management_B2": "Conversation management",
+                "persuasion_rhetoric_B2": "Persuasion & rhetoric"
+            },
+            "sport_leisure": {
+                "sport_society_B2": "Sport & society"
+            },
+            "feelings_emotions": {
+                "complex_emotions_B2": "Describing complex emotions",
+                "emotional_intelligence_B2": "Emotional intelligence"
+            },
+            "places_geography": {
+                "globalisation_geography_B2": "Globalisation & geography"
+            },
+            "describing_things": {
+                "abstract_description_B2": "Abstract description"
+            },
+            "clothes_appearance": {
+                "fashion_identity_B2": "Fashion & identity"
+            },
+            "prepositions_grammar": {
+                "hedging_qualification_B2": "Hedging & qualification"
+            },
+            "modifiers_intensifiers": {
+                "academic_hedging_B2": "Academic hedging"
             },
             "ethics_philosophy": {
-                "ethics_justice_B2": "Ethics & justice"
+                "ethical_dilemmas_B2": "Ethical dilemmas",
+                "political_ethics_B2": "Political ethics"
+            },
+            "opinion_debate": {
+                "formal_debate_vocab_B2": "Formal debate vocabulary",
+                "critical_thinking_B2": "Critical thinking"
             }
         }
     },
     "advanced": {
-        "description": "Conceptual & professional — power, identity, philosophy of adult life.",
+        "description": "desc_c1",
         "common_themes": {
             "personal_identity": {
                 "social_identity_belonging_C1": "Social identity & belonging"
@@ -394,8 +471,7 @@ const themeConfig = {
                 "intergenerational_issues_C1": "Intergenerational issues"
             },
             "health_body": {
-                "medical_ethics_C1": "Medical ethics",
-                "psychological_concepts_C1": "Psychological concepts"
+                "medical_ethics_C1": "Medical ethics"
             },
             "work_employment": {
                 "organisational_culture_C1": "Organisational culture",
@@ -418,16 +494,25 @@ const themeConfig = {
             },
             "language_communication": {
                 "language_persuasion_C1": "Language & persuasion",
-                "advanced_register_C1": "Advanced register & register-switching"
+                "advanced_register_C1": "Advanced register & register-switching",
+                "discourse_argument_C1": "Discourse & argument structure"
+            },
+            "feelings_emotions": {
+                "psychological_states_C1": "Psychological states"
             },
             "ethics_philosophy": {
                 "political_philosophy_C1": "Political philosophy",
-                "ethics_relationships_C1": "Ethics of care & relationships"
+                "ethics_relationships_C1": "Ethics of care & relationships",
+                "moral_philosophy_C1": "Moral philosophy",
+                "existentialism_identity_C1": "Existentialism & identity"
+            },
+            "opinion_debate": {
+                "rhetoric_persuasion_C1": "Rhetoric & persuasion"
             }
         }
     },
     "proficiency": {
-        "description": "Philosophical, rhetorical & meta-conceptual.",
+        "description": "desc_c2",
         "common_themes": {
             "health_body": {
                 "psychoanalysis_unconscious_C2": "Psychoanalysis & the unconscious"
@@ -437,7 +522,8 @@ const themeConfig = {
                 "aesthetics_criticism_C2": "Aesthetics & art criticism"
             },
             "language_communication": {
-                "rhetoric_persuasion_C2": "Rhetoric & persuasion devices"
+                "rhetoric_persuasion_C2": "Rhetoric & persuasion devices",
+                "linguistics_theory_C2": "Linguistics & language theory"
             },
             "ethics_philosophy": {
                 "ontology_existence_C2": "Ontology & existence",
