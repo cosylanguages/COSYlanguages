@@ -1,32 +1,144 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // --- Code for all pages ---
+// --- Global Helper Functions ---
 
+// Helper function to get the day of the year
+const getDayOfYear = () => {
+    const now = new Date();
+    const start = new Date(now.getFullYear(), 0, 0);
+    const diff = now - start;
+    const oneDay = 1000 * 60 * 60 * 24;
+    return Math.floor(diff / oneDay);
+};
+
+// --- Page-specific code for index.html (Pricing Calculator) ---
+// Moved outside DOMContentLoaded to ensure it's available for js/translate.js
+const RATES = {
+    en: { 15: 6, 30: 11, 60: 20, 90: 28, 120: 35 },
+    fr: { 15: 6, 30: 11, 60: 20, 90: 28, 120: 35 },
+    it: { 15: 6, 30: 11, 60: 20, 90: 28, 120: 35 },
+    ru: { 15: 5, 30: 9, 60: 16, 90: 22, 120: 28 },
+    el: { 15: 6, 30: 11, 60: 20, 90: 28, 120: 35 },
+};
+const TYPE_M = { general: 1.0, spoken: 0.9, exam: 1.15 };
+const DISC = { 1: 0, 8: .05, 16: .10, 32: .15 };
+const CUR_R = { EUR: 1, USD: 1.08, RUB: 92 };
+const CUR_S = { EUR: '€', USD: '$', RUB: '₽' };
+const GRP_LG = { en: 'English 🇬🇧', fr: 'Français 🇫🇷', it: 'Italiano 🇮🇹', ru: 'Русский 🇷🇺' };
+
+window.calcPrice = function() {
+    const langSelect = document.getElementById('calc-lang');
+    if (!langSelect) return;
+
+    const lang = langSelect.value;
+    const type = document.getElementById('calc-type').value;
+    const dur = parseInt(document.getElementById('calc-dur').value);
+    const pack = parseInt(document.getElementById('calc-pack').value);
+    const cur = document.getElementById('calc-cur').value;
+    const el = id => document.getElementById(id);
+    const durField = document.getElementById('dur-field');
+    const packField = document.getElementById('pack-field');
+
+    if (type === 'group') {
+        durField.style.opacity = '.4';
+        packField.style.opacity = '.4';
+        durField.style.pointerEvents = 'none';
+        packField.style.pointerEvents = 'none';
+        const avail = GRP_LG[lang];
+        if (avail) {
+            el('calc-total').textContent = window.t('calc_contact_us');
+            el('calc-detail').textContent = window.t('calc_group_pricing_desc');
+            el('calc-note').textContent = avail + window.t('calc_group_avail_suffix');
+        } else {
+            el('calc-total').textContent = window.t('calc_not_yet_avail');
+            el('calc-detail').textContent = window.t('calc_group_avail_langs');
+            el('calc-note').textContent = '';
+        }
+        el('calc-cta').textContent = window.t('calc_ask_groups');
+        el('calc-cta').href = `https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons%20in%20${encodeURIComponent(avail || 'this language')}.`;
+        return;
+    }
+
+    durField.style.opacity = '';
+    packField.style.opacity = '';
+    durField.style.pointerEvents = '';
+    packField.style.pointerEvents = '';
+
+    if (lang === 'el') {
+        el('calc-total').textContent = window.t('lang_coming_soon');
+        el('calc-detail').textContent = window.t('calc_greek_soon');
+        el('calc-note').textContent = '';
+        el('calc-cta').textContent = window.t('calc_get_notified');
+        el('calc-cta').href = 'https://wa.me/330766784195?text=Hi!%20Please%20notify%20me%20when%20Greek%20lessons%20are%20available.';
+        return;
+    }
+
+    const base = RATES[lang][dur];
+    const multiplier = TYPE_M[type];
+    const discount = DISC[pack];
+
+    const sym = CUR_S[cur], rate = CUR_R[cur];
+
+    // Original price calculation
+    const origBase = base * multiplier;
+    const origTotal = (origBase * rate * pack).toFixed(cur === 'RUB' ? 0 : 2);
+
+    // Discounted price calculation
+    const discountedBase = origBase * (1 - discount);
+    const discountedSingle = (discountedBase * rate).toFixed(cur === 'RUB' ? 0 : 2);
+    const discountedTotal = (discountedBase * rate * pack).toFixed(cur === 'RUB' ? 0 : 2);
+
+    if (discount > 0) {
+        const origLabel = window.t('calc_original_label') || 'Original';
+        const discLabel = window.t('calc_discount_label') || 'Discounted';
+        el('calc-total').innerHTML = `
+            <span class="original-price" title="${origLabel}">${sym}${origTotal}</span>
+            <span class="discounted-price" title="${discLabel}">${sym}${discountedTotal}</span>
+        `;
+    } else {
+        el('calc-total').textContent = `${sym}${discountedTotal}`;
+    }
+
+    if (pack === 1) {
+        el('calc-detail').textContent = window.t('calc_per_session').replace('{0}', dur);
+    } else {
+        const packLabelMap = {
+            8: 'pack_starter',
+            16: 'pack_progress',
+            32: 'pack_maestro'
+        };
+        const packName = window.t(packLabelMap[pack]);
+        const separator = window.t('calc_pack_separator') || ' · ';
+        const perSessionSuffix = window.t('calc_per_session_suffix') || '/session';
+        el('calc-detail').textContent = `${packName}${separator}${sym}${discountedSingle}${perSessionSuffix}`;
+    }
+
+    el('calc-note').textContent = DISC[pack] > 0 ? window.t('calc_discount_applied').replace('{0}', (DISC[pack] * 100).toFixed(0)) : '';
+    el('calc-cta').textContent = window.t('calc_cta_book');
+    el('calc-cta').href = 'https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20book%20a%20lesson.';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
     // Toggle functionality for events page
     const setupToggleButton = (btnId, contentId, showKey, hideKey) => {
         const toggleBtn = document.getElementById(btnId);
         const contentDiv = document.getElementById(contentId);
 
-        if (toggleBtn && contentDiv) { // This check makes it safe to run on all pages
+        if (toggleBtn && contentDiv) {
             toggleBtn.addEventListener('click', () => {
-                // Use getComputedStyle for a more reliable visibility check
                 const isHidden = window.getComputedStyle(contentDiv).display === 'none';
                 contentDiv.style.display = isHidden ? 'block' : 'none';
                 toggleBtn.setAttribute('data-translate-key', isHidden ? hideKey : showKey);
-                setLanguage(localStorage.getItem('language') || 'en');
+                if (window.setLanguage) {
+                    window.setLanguage(localStorage.getItem('language') || 'en');
+                }
             });
         }
     };
 
-    // Setup for event page buttons
     setupToggleButton('toggle-topics-btn', 'speaking-club-topics', 'toggle_topics_show', 'toggle_topics_hide');
     setupToggleButton('toggle-games-btn', 'game-nights-topics', 'toggle_games_show', 'toggle_games_hide');
 
-    // --- Deep Linking for Events ---
+    // Deep Linking for Events
     const eventUrlParams = new URLSearchParams(window.location.search);
-    const gameParam = eventUrlParams.get('game');
-    const eventLangParam = eventUrlParams.get('lang');
-    const eventLessonParam = eventUrlParams.get('lesson');
-    const eventThemeParam = eventUrlParams.get('theme');
     const eventEmbedParam = eventUrlParams.get('embed');
 
     if (eventEmbedParam === 'true') {
@@ -39,206 +151,37 @@ document.addEventListener('DOMContentLoaded', () => {
         if (main) main.style.paddingTop = '20px';
     }
 
-    // Helper function to get the day of the year
-    const getDayOfYear = () => {
-        const now = new Date();
-        const start = new Date(now.getFullYear(), 0, 0);
-        const diff = now - start;
-        const oneDay = 1000 * 60 * 60 * 24;
-        return Math.floor(diff / oneDay);
-    };
-
-
-    // --- Page-specific code for index.html ---
-    const priceCalculator = document.getElementById('price-calculator');
-    if (priceCalculator) {
-        const languageSelect = document.getElementById('language');
-        const durationSelect = document.getElementById('duration');
-        const courseTypeContainer = document.getElementById('course-type-container');
-        const lessonPackSelect = document.getElementById('lesson-pack');
-        const currencySelect = document.getElementById('currency');
-        const priceResultDiv = document.getElementById('price-result');
-
-        const otherLanguagesPricing = {
-            15: 10,
-            30: 15,
-            60: 25,
-            90: 35,
-            120: 45,
-        };
-
-        const pricing = {
-            english: {
-                15: 5,
-                30: 10,
-                60: 20,
-                90: 30,
-                120: 40,
-            },
-            french: otherLanguagesPricing,
-            italian: otherLanguagesPricing,
-            russian: otherLanguagesPricing,
-            georgian: { 15: 0, 30: 0, 60: 0, 90: 0, 120: 0 },
-            spanish: { 15: 0, 30: 0, 60: 0, 90: 0, 120: 0 },
-            greek: { 15: 0, 30: 0, 60: 0, 90: 0, 120: 0 },
-            portuguese: { 15: 0, 30: 0, 60: 0, 90: 0, 120: 0 },
-            german: { 15: 0, 30: 0, 60: 0, 90: 0, 120: 0 },
-            tatar: { 15: 0, 30: 0, 60: 0, 90: 0, 120: 0 },
-            bashkir: { 15: 0, 30: 0, 60: 0, 90: 0, 120: 0 },
-            breton: { 15: 0, 30: 0, 60: 0, 90: 0, 120: 0 },
-            armenian: { 15: 0, 30: 0, 60: 0, 90: 0, 120: 0 },
-        };
-
-        const courseTypes = {
-            15: ['Spoken course'],
-            30: ['Spoken course'],
-            60: ['General Course'],
-            90: ['General Course', 'Exam preparation'],
-            120: ['Exam preparation'],
-        };
-
-        const lessonPacks = {
-            1: { lessons: 1, discount: 0 },
-            8: { lessons: 8, discount: 0.05 },
-            16: { lessons: 16, discount: 0.10 },
-            32: { lessons: 32, discount: 0.15 },
-        };
-
-        const exchangeRates = {
-            eur: { rate: 1, symbol: '€' },
-            usd: { rate: 1.1, symbol: '$' },
-            rub: { rate: 100, symbol: '₽' },
-        };
-
-        function updateCourseType() {
-            const duration = parseInt(durationSelect.value, 10);
-            const availableCourses = courseTypes[duration] || [];
-
-            courseTypeContainer.innerHTML = ''; // Clear previous content
-
-            let courseElement;
-            const descriptionElement = document.createElement('p');
-            descriptionElement.className = 'course-description'; // For styling
-
-            const updateDescription = (courseName) => {
-                if (courseName) {
-                    const descKey = `course_${courseName.split(' ')[0].toLowerCase()}_desc`;
-                    descriptionElement.setAttribute('data-translate-key', descKey);
-                } else {
-                    descriptionElement.removeAttribute('data-translate-key');
-                    descriptionElement.textContent = '';
-                }
-            };
-
-            if (availableCourses.length > 1) {
-                const select = document.createElement('select');
-                select.id = 'course-type';
-                availableCourses.forEach(course => {
-                    const option = document.createElement('option');
-                    option.value = course;
-                    option.textContent = course;
-                    const courseKey = `course_${course.split(' ')[0].toLowerCase()}`;
-                    option.setAttribute('data-translate-key', courseKey);
-                    select.appendChild(option);
-                });
-                courseElement = select;
-
-                // Add event listener to update description on change
-                select.addEventListener('change', () => {
-                    updateDescription(select.value);
-                    // Re-run translation for the updated element
-                    setLanguage(localStorage.getItem('language') || 'en');
-                });
-            } else {
-                const input = document.createElement('input');
-                input.type = 'text';
-                input.id = 'course-type';
-                const courseName = availableCourses[0] || '';
-                input.value = courseName;
-                input.disabled = true;
-                if(courseName) {
-                    const courseKey = `course_${courseName.split(' ')[0].toLowerCase()}`;
-                    input.setAttribute('data-translate-key', courseKey);
-                }
-                courseElement = input;
-            }
-
-            courseTypeContainer.appendChild(courseElement);
-
-            // Add and set initial description
-            if (availableCourses.length > 0) {
-                courseTypeContainer.appendChild(descriptionElement);
-                updateDescription(courseElement.value);
-            }
-
-            updateCalculator();
-            setLanguage(localStorage.getItem('language') || 'en');
-        }
-
-        function updateCalculator() {
-            const duration = parseInt(durationSelect.value, 10);
-            const language = languageSelect.value;
-            const pack = lessonPacks[lessonPackSelect.value];
-            const currency = currencySelect.value;
-            const numLessons = pack ? pack.lessons : 0;
-            const discount = pack ? pack.discount : 0;
-
-            priceResultDiv.innerHTML = ''; // Clear previous results
-
-            if (language && duration && numLessons > 0) {
-                const basePricePerLesson = pricing[language][duration];
-                if (basePricePerLesson !== undefined) {
-                    const totalCostEUR = basePricePerLesson * numLessons;
-                    const discountedCostEUR = totalCostEUR * (1 - discount);
-
-                    const { rate, symbol } = exchangeRates[currency];
-                    const totalCost = totalCostEUR * rate;
-                    const discountedCost = discountedCostEUR * rate;
-                    
-                    const priceTextSpan = document.createElement('span');
-                    priceTextSpan.setAttribute('data-translate-key', 'total_price');
-                    priceTextSpan.textContent = 'Total Price: '; // Default text
-                    priceResultDiv.appendChild(priceTextSpan);
-
-                    if (discount > 0) {
-                        priceResultDiv.innerHTML += `
-                            <span class="original-price">${symbol}${totalCost.toFixed(2)}</span>
-                            <span class="discounted-price">${symbol}${discountedCost.toFixed(2)}</span>
-                        `;
-                    } else {
-                        priceResultDiv.innerHTML += `${symbol}${totalCost.toFixed(2)}`;
-                    }
-                } else {
-                    const errorSpan = document.createElement('span');
-                    errorSpan.setAttribute('data-translate-key', 'invalid_selection');
-                    errorSpan.textContent = 'Invalid selection'; // Default text
-                    priceResultDiv.appendChild(errorSpan);
-                }
-            }
-            // Re-apply translation to the newly created elements
-            setLanguage(localStorage.getItem('language') || 'en');
-        }
-
-        languageSelect.addEventListener('change', updateCalculator);
-        durationSelect.addEventListener('change', updateCourseType);
-        lessonPackSelect.addEventListener('change', updateCalculator);
-        currencySelect.addEventListener('change', updateCalculator);
-
-        // Initial setup
-        updateCourseType();
+    // Initialize Calculator if present
+    if (document.getElementById('calc-lang')) {
+        window.calcPrice();
+        ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.addEventListener('change', window.calcPrice);
+        });
     }
 
-    // --- Page-specific code for language pages ---
+    // New navigation language switcher logic
+    const navLangLinks = document.querySelectorAll('.nav-lang a[data-lang]');
+    navLangLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const lang = link.getAttribute('data-lang');
+            if (window.setLanguage) {
+                window.setLanguage(lang);
+            }
+        });
+    });
+
+    // Page-specific code for language pages
     const wordOfTheDayElement = document.getElementById('word-of-the-day');
     if (wordOfTheDayElement) {
         const words = {
             en: ["Hello", "Love", "Life", "Dream", "Freedom", "Joy", "Happiness", "Hope", "Star", "Light"],
             fr: ["Bonjour", "Amour", "Vie", "Rêve", "Liberté", "Joie", "Bonheur", "Espoir", "Étoile", "Lumière"],
-            it: ["Ciao", "Amore", "Vita", "Sogno", "Libertà", "Gioia", "Felicità", "Speranza", "Stella", "Luce"],
+            it: ["Ciao", "Amore", "Vita", "Sogno", "Libertà", "Gioia", "Felicità", "Sπeranza", "Stella", "Luce"],
             ru: ["Привет", "Любовь", "Жизнь", "Мечта", "Свобода", "Радость", "Счастье", "Надежда", "Звезда", "Свет"],
             el: ["Γειά", "Αγάπη", "Ζωή", "Όνειρο", "Ελευθερία", "Χαρά", "Ευτυχία", "Ελπίδα", "Αστέρι", "Φως"]
         };
-
         const pageLang = document.documentElement.lang;
         const wordList = words[pageLang] || words.en;
         const dayOfYear = getDayOfYear();
@@ -251,12 +194,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const pageLang = document.documentElement.lang;
         const factListKey = `fun_fact_${pageLang}`;
         const factList = translations[pageLang]?.[factListKey];
-
         if (factList && factList.length > 0) {
             const dayOfYear = getDayOfYear();
             const dailyIndex = dayOfYear % factList.length;
             funFactElement.textContent = factList[dailyIndex];
         }
     }
-
 });
