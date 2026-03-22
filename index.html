@@ -9,7 +9,21 @@
 <meta property="og:description" data-translate-key="site_desc" content="1-to-1 online language lessons with a speaking-first approach. English, French, Italian, Russian, Greek. All levels A0→C2.">
 <meta property="og:image" content="images/cosylanguages.png">
 <link rel="icon" href="images/cosylanguages.png">
+<link rel="manifest" href="/COSYlanguages/manifest.json">
+<meta name="theme-color" content="#4a6b50">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mobile.css">
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/COSYlanguages/sw.js')
+    .catch(e => console.log('SW:', e));
+}
+</script>
 <style>
 /* ── Design tokens ─────────────────────────────────── */
 :root {
@@ -1037,6 +1051,7 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
     <script src="js/data/turkic/ba/translations.js"></script>
     <script src="js/data/celtic/br/translations.js"></script>
     <script src="js/translate.js"></script>
+    <script src="mobile.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

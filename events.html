@@ -10,8 +10,22 @@
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/events.html">
     <link rel="icon" href="images/cosylanguages.png">
+<link rel="manifest" href="/COSYlanguages/manifest.json">
+<meta name="theme-color" content="#4a6b50">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="mobile.css">
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/COSYlanguages/sw.js')
+    .catch(e => console.log('SW:', e));
+}
+</script>
     <style>
 /* ── Design tokens ─────────────────────────────────── */
 :root {
@@ -407,16 +421,16 @@ footer {
                             <div class="game-category">
                                 <h4 data-translate-key="cat_fun_adventure">Fun & Adventure 🎮</h4>
                                 <div class="games-grid" id="games">
-                                    <div class="game-card" data-game="emoji-odyssey">
+                                    <div class="game-card" data-game="emoji-odyssey" onclick="openGameSheet('Emoji Odyssey', '📖')">
                                         <button id="open-emoji-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_emoji">Play Emoji Odyssey 📖</button>
                                     </div>
-                                    <div class="game-card" data-game="lucky-numbers">
+                                    <div class="game-card" data-game="lucky-numbers" onclick="openGameSheet('Lucky Numbers', '🔢')">
                                         <button id="open-bingo-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_bingo">Play Lucky Numbers 🔢</button>
                                     </div>
-                                    <div class="game-card" data-game="word-linker">
+                                    <div class="game-card" data-game="word-linker" onclick="openGameSheet('Word Linker', '🔗')">
                                         <button id="open-linker-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_linker">Play Word Linker 🔗</button>
                                     </div>
-                                    <div class="game-card" data-game="last-letter">
+                                    <div class="game-card" data-game="last-letter" onclick="openGameSheet('Last Letter', '🔤')">
                                         <button id="open-last-letter-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_last_letter">Play Last Letter 🔤</button>
                                     </div>
                                 </div>
@@ -424,13 +438,13 @@ footer {
                             <div class="game-category">
                                 <h4 data-translate-key="cat_mystery_guesses">Mystery & Guesses 🕵️</h4>
                                 <div class="games-grid">
-                                    <div class="game-card" data-game="action-hero">
+                                    <div class="game-card" data-game="action-hero" onclick="openGameSheet('Action Hero', '🎭')">
                                         <button id="open-charades-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_charades">Play Action Hero 🎭</button>
                                     </div>
-                                    <div class="game-card" data-game="identity-mystery">
+                                    <div class="game-card" data-game="identity-mystery" onclick="openGameSheet('Identity Mystery', '👤')">
                                         <button id="open-guess-who-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_guess_who">Play Identity Mystery 👤</button>
                                     </div>
-                                    <div class="game-card" data-game="object-quest">
+                                    <div class="game-card" data-game="object-quest" onclick="openGameSheet('Object Quest', '📦')">
                                         <button id="open-guess-what-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_guess_what">Play Object Quest 📦</button>
                                     </div>
                                 </div>
@@ -438,16 +452,16 @@ footer {
                             <div class="game-category speaking-highlight">
                                 <h4 data-translate-key="cat_speaking_fluency">Speaking & Fluency 🗣️</h4>
                                 <div class="games-grid">
-                                    <div class="game-card" data-game="fluency-flow">
+                                    <div class="game-card" data-game="fluency-flow" onclick="openGameSheet('Fluency Flow', '🗣️')">
                                         <button id="open-talk-talk-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_talk_talk">Play Fluency Flow 🗣️</button>
                                     </div>
-                                    <div class="game-card" data-game="battle-of-wits">
+                                    <div class="game-card" data-game="battle-of-wits" onclick="openGameSheet('Battle of Wits', '⚖️')">
                                         <button id="open-debates-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_debates">Play Battle of Wits ⚖️</button>
                                     </div>
-                                    <div class="game-card" data-game="opinion-arena">
+                                    <div class="game-card" data-game="opinion-arena" onclick="openGameSheet('Opinion Arena', '🏟️')">
                                         <button id="open-opinion-arena-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_opinion_arena">Play Opinion Arena 🏟️</button>
                                     </div>
-                                    <div class="game-card" data-game="critics-corner">
+                                    <div class="game-card" data-game="critics-corner" onclick="openGameSheet('Critic\'s Corner', '🎭')">
                                         <button id="open-critics-corner-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_critics_corner">Play Critic's Corner 🎭</button>
                                     </div>
                                 </div>
@@ -527,15 +541,15 @@ footer {
                     <button id="share-charades-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
-                <div id="charades-gameplay" style="display: none;">
-                    <div id="charades-timer" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 1.5rem;">1:00</div>
+                <div id="charades-gameplay" class="action-hero-mobile" style="display: none;">
+                    <div id="charades-timer" class="ah-timer" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 1.5rem;">1:00</div>
                     <div id="charades-card" class="game-main-card">
                         <div id="charades-emoji" class="game-emoji-large">🍎</div>
-                        <div id="charades-word" class="game-word-large" data-translate-key="placeholder_loading">Loading...</div>
+                        <div id="charades-word" class="ah-word" data-translate-key="placeholder_loading">Loading...</div>
                     </div>
-                    <div style="display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;">
-                        <button id="charades-correct-btn" class="cta-button" style="background: #4CAF50;" data-translate-key="correct_btn">Correct ✅</button>
-                        <button id="charades-incorrect-btn" class="cta-button" style="background: #f44336;" data-translate-key="incorrect_btn">Incorrect ❌</button>
+                    <div class="ah-buttons" style="display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;">
+                        <button id="charades-correct-btn" class="cta-button ah-btn-correct" style="background: #4CAF50;" data-translate-key="correct_btn">Correct ✅</button>
+                        <button id="charades-incorrect-btn" class="cta-button ah-btn-incorrect" style="background: #f44336;" data-translate-key="incorrect_btn">Incorrect ❌</button>
                         <button id="charades-stop-btn" class="cta-button secondary" data-translate-key="stop_game">Stop Game 🛑</button>
                     </div>
                 </div>
@@ -954,13 +968,13 @@ footer {
                     <button id="share-talk-talk-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
-                <div class="game-play" style="display: none; padding: 2rem 0;">
+                <div class="game-play fluency-flow-mobile" style="display: none; padding: 2rem 0;">
                     <div id="talk-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">3:00</div>
-                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
+                    <div class="event-item glass ff-topic-card" style="padding: 2.5rem; margin-bottom: 1.5rem;">
                         <div id="talk-topic-display" style="font-size: 1.8rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Topic</div>
                     </div>
                     <p style="color: #666; font-style: italic; margin-bottom: 2rem;" data-translate-key="talk_time_label">Target Speaking Time: 1-3 minutes</p>
-                    <button id="next-talk-btn" class="cta-button primary" data-translate-key="spin_topic_btn">Spin Again! 🎡</button>
+                    <button id="next-talk-btn" class="cta-button primary ff-spin-btn" data-translate-key="spin_topic_btn">Spin Again! 🎡</button>
                 </div>
 
                 <button id="close-talk-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
@@ -1031,12 +1045,14 @@ footer {
                     <button id="share-opinion-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
                 </div>
 
-                <div class="game-play" style="display: none; padding: 2rem 0;">
+                <div class="game-play opinion-arena-mobile" style="display: none; padding: 2rem 0;">
                     <div id="opinion-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
-                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
+                    <div class="event-item glass oa-statement" style="padding: 2.5rem; margin-bottom: 1.5rem;">
                         <div id="opinion-statement-display" style="font-size: 1.6rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Loading...</div>
                     </div>
-                    <div style="display: flex; gap: 1rem; justify-content: center;">
+                    <div class="oa-buttons" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <button class="cta-button oa-agree" data-translate-key="correct_btn">Agree ✅</button>
+                        <button class="cta-button oa-disagree" data-translate-key="incorrect_btn">Disagree ❌</button>
                         <button id="next-opinion-btn" class="cta-button primary" data-translate-key="next_word">Next Statement ➡️</button>
                     </div>
                 </div>
@@ -1598,11 +1614,42 @@ footer {
     <script src="js/games/emoji_odyssey.js"></script>
     <script src="js/games/word_linker.js"></script>
     <script src="js/games/charades.js"></script>
+    <script src="mobile.js"></script>
     <script src="js/games/guess_games.js"></script>
     <script src="js/games/bingo.js"></script>
     <script src="js/games/speaking_games.js"></script>
     <script src="js/games/last_letter.js"></script>
     <script src="js/games/loader.js"></script>
+
+    <!-- Game Setup Bottom Sheet Template -->
+    <div id="game-setup-sheet" class="game-setup-sheet">
+        <div class="gss-handle"></div>
+        <div class="gss-title">Game Setup</div>
+
+        <div class="gss-field">
+            <label data-translate-key="select_practice_language">Select language 🌍</label>
+            <div class="gss-options" id="gss-lang-options">
+                <button class="gss-option active" data-value="en">EN</button>
+                <button class="gss-option" data-value="fr">FR</button>
+                <button class="gss-option" data-value="it">IT</button>
+                <button class="gss-option" data-value="ru">RU</button>
+                <button class="gss-option" data-value="el">EL</button>
+            </div>
+        </div>
+
+        <div class="gss-field">
+            <label data-translate-key="select_level">Select Level 📊</label>
+            <div class="gss-options" id="gss-level-options">
+                <button class="gss-option active" data-value="starter">A1</button>
+                <button class="gss-option" data-value="elementary">A2</button>
+                <button class="gss-option" data-value="intermediate">B1</button>
+                <button class="gss-option" data-value="upper-intermediate">B2</button>
+                <button class="gss-option" data-value="advanced">C1</button>
+            </div>
+        </div>
+
+        <button class="gss-start" data-translate-key="start_game">Start Game 🚀</button>
+    </div>
 
 
 

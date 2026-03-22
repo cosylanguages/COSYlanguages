@@ -764,6 +764,11 @@ function updateProgress() {
     const ofLabel = (translations[lang] && translations[lang]['progress_of']) ? translations[lang]['progress_of'] : 'of';
 
     progressText.textContent = `${wordLabel} ${displayIndex} ${ofLabel} ${total}`;
+
+    // Mobile UX: update progress bar
+    if (typeof updateProgressBar === 'function') {
+        updateProgressBar(current, total);
+    }
 }
 
 function loadStreak() {
@@ -2061,6 +2066,11 @@ function showFeedback(isCorrect) {
     const feedbackMsg = document.getElementById('feedback-message');
     feedbackMsg.className = 'feedback-text ' + (isCorrect ? 'correct' : 'incorrect');
     feedbackMsg.setAttribute('data-translate-key', isCorrect ? 'correct' : 'incorrect');
+
+    // Mobile UX: flash feedback
+    if (typeof flashAnswer === 'function') {
+        flashAnswer(isCorrect);
+    }
 
     playSound(isCorrect);
     if (!isCorrect) {
