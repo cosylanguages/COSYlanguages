@@ -55,7 +55,8 @@ var currentPractice = {
     scrambleAnswer: "",
     score: 0,
     wheelItems: [],
-    hintLevel: 0
+    hintLevel: 0,
+    usedHint: false
 };
 
 function saveSession() {
@@ -690,6 +691,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function showHint() {
     const wordObj = currentPractice.currentWord;
     if (!wordObj) return;
+    currentPractice.usedHint = true;
 
     let targetAnswer = "";
     const taskType = wordObj.type;
@@ -762,6 +764,11 @@ function updateProgress() {
     const ofLabel = (translations[lang] && translations[lang]['progress_of']) ? translations[lang]['progress_of'] : 'of';
 
     progressText.textContent = `${wordLabel} ${displayIndex} ${ofLabel} ${total}`;
+
+    // Mobile UX: update progress bar
+    if (typeof updateProgressBar === 'function') {
+        updateProgressBar(current, total);
+    }
 }
 
 function loadStreak() {
@@ -1270,6 +1277,16 @@ function startPractice(isWheelMode = false) {
 
         if (possibleTypes.length === 0) return null;
         let selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
+
+        // SRS integration: check for smart task type upgrade/downgrade
+        const itemId = wordCopy.word || wordCopy.text || wordCopy.topic || wordCopy.digit;
+        selectedType = smartTaskType(itemId, currentPractice.language, selectedType);
+
+        // Ensure the smart type is actually enabled/possible
+        if (!possibleTypes.includes(selectedType)) {
+            selectedType = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
+        }
+
         return { ...wordCopy, type: selectedType };
     }).filter(w => w !== null);
 
@@ -1281,7 +1298,10 @@ function startPractice(isWheelMode = false) {
         return;
     }
 
-    currentPractice.words.sort(() => Math.random() - 0.5);
+    // SRS integration: prioritise due and difficult items
+    const srsData = Store.load();
+    currentPractice.words = SM2.selectItems(srsData, currentPractice.words, currentPractice.language, 20);
+
     currentPractice.currentIndex = 0;
     currentPractice.score = 0;
     currentPractice.isWheelMode = isWheelMode;
@@ -1523,6 +1543,7 @@ function showNextWord() {
     }
 
     currentPractice.hintLevel = 0; // Reset hint level for new word
+    currentPractice.usedHint = false;
     updateProgress();
     triggerAnimation('fadeIn');
 
@@ -1851,6 +1872,11 @@ function checkMultipleChoiceAnswer(choice, btn) {
         showFeedback(true);
     } else {
         btn.classList.add('incorrect');
+        // SRS integration: record incorrect
+        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
+        if (itemId) {
+            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
+        }
         showFeedback(false);
     }
 }
@@ -1932,6 +1958,11 @@ function checkScrambleAnswer() {
     if (current === target) {
         showFeedback(true);
     } else {
+        // SRS integration: record incorrect
+        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
+        if (itemId) {
+            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
+        }
         showFeedback(false);
         setTimeout(clearScramble, 1000);
     }
@@ -1945,6 +1976,11 @@ function checkWordScrambleAnswer() {
     if (current === target) {
         showFeedback(true);
     } else {
+        // SRS integration: record incorrect
+        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
+        if (itemId) {
+            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
+        }
         showFeedback(false);
         setTimeout(clearScramble, 1000);
     }
@@ -1973,6 +2009,11 @@ function checkTypedAnswer() {
     if (isCorrect) {
         showFeedback(true);
     } else {
+        // SRS integration: record incorrect
+        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
+        if (itemId) {
+            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
+        }
         showFeedback(false);
     }
 }
@@ -1981,6 +2022,11 @@ function checkTrueFalseAnswer(userAnswer) {
     if (userAnswer === currentPractice.tfCorrectAnswer) {
         showFeedback(true);
     } else {
+        // SRS integration: record incorrect
+        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
+        if (itemId) {
+            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, false, currentPractice.usedHint);
+        }
         showFeedback(false);
     }
 }
@@ -2021,6 +2067,11 @@ function showFeedback(isCorrect) {
     feedbackMsg.className = 'feedback-text ' + (isCorrect ? 'correct' : 'incorrect');
     feedbackMsg.setAttribute('data-translate-key', isCorrect ? 'correct' : 'incorrect');
 
+    // Mobile UX: flash feedback
+    if (typeof flashAnswer === 'function') {
+        flashAnswer(isCorrect);
+    }
+
     playSound(isCorrect);
     if (!isCorrect) {
         triggerAnimation('shake');
@@ -2034,6 +2085,12 @@ function showFeedback(isCorrect) {
         currentPractice.score += 10;
         document.getElementById('score-count').textContent = currentPractice.score;
         updateTotalScore(10);
+
+        // SRS integration: record performance
+        const itemId = currentPractice.currentWord.word || currentPractice.currentWord.text || currentPractice.currentWord.topic || currentPractice.currentWord.digit;
+        if (itemId) {
+            Store.record(itemId, currentPractice.language, currentPractice.currentWord.type, true, currentPractice.usedHint);
+        }
 
         currentPractice.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';

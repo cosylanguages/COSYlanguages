@@ -3,13 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title data-translate-key="site_title_redesign">COSYlanguages 🏡 — Learn languages you'll actually speak</title>
+<title data-translate-key="site_title_redesign">COSYlanguages 🏡 — Learn a language with teachers who love what they teach</title>
 <meta name="description" data-translate-key="site_desc" content="1-to-1 online language lessons in English, French, Italian, Russian and Greek. Speaking first, always. Find your level, pick your pace, start today.">
-<meta property="og:title" data-translate-key="site_title_redesign" content="COSYlanguages — Learn languages you'll actually speak">
+<meta property="og:title" data-translate-key="site_title_redesign" content="COSYlanguages — Learn a language with teachers who love what they teach">
 <meta property="og:description" data-translate-key="site_desc" content="1-to-1 online language lessons with a speaking-first approach. English, French, Italian, Russian, Greek. All levels A0→C2.">
 <meta property="og:image" content="images/cosylanguages.png">
 <link rel="icon" href="images/cosylanguages.png">
+<link rel="manifest" href="/COSYlanguages/manifest.json">
+<meta name="theme-color" content="#4a6b50">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mobile.css">
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/COSYlanguages/sw.js')
+    .catch(e => console.log('SW:', e));
+}
+</script>
 <style>
 /* ── Design tokens ─────────────────────────────────── */
 :root {
@@ -629,11 +643,11 @@ footer {
   <div class="hero-inner">
     <div class="hero-left">
       <div class="hero-tag" data-translate-key="hero_tag">🏡 COSYlanguages</div>
-      <h1 data-translate-key="hero_h1_speak">Learn languages<br>you'll actually <em>speak</em>.</h1>
+      <h1 data-translate-key="hero_h1_speak">Learn a language with <br>teachers who <em>love</em> what they teach.</h1>
       <p class="hero-sub" data-translate-key="hero_sub">1-to-1 online lessons in English, French, Italian, Russian and Greek. Speaking-first, always — because the only way to become fluent is to open your mouth.</p>
       <div class="hero-teacher">
         <span class="ht-icon">🎓</span>
-        <span data-translate-key="hero_teacher_note">Our teachers are active language learners themselves. We know the journey from the inside — and we bring that understanding to every lesson.</span>
+        <span data-translate-key="hero_teacher_note">Our teachers aren't just teachers — we're active language learners ourselves. We know exactly what it feels like to struggle, progress and finally feel fluent.</span>
       </div>
       <div class="hero-ctas">
         <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="btn-primary" data-translate-key="hero_cta_wa">💬 Chat with us on WhatsApp</a>
@@ -1037,6 +1051,7 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
     <script src="js/data/turkic/ba/translations.js"></script>
     <script src="js/data/celtic/br/translations.js"></script>
     <script src="js/translate.js"></script>
+    <script src="mobile.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

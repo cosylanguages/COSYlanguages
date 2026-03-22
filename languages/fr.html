@@ -9,7 +9,22 @@
     <meta property="og:description" data-translate-key="cosy_fr_intro" content="Localized Content">
     <meta property="og:image" content="../images/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/languages/fr.html">
+    <link rel="icon" href="../images/cosylanguages.png">
+    <link rel="manifest" href="/COSYlanguages/manifest.json">
+    <meta name="theme-color" content="#4a6b50">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="COSYlanguages">
+    <link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../mobile.css">
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/COSYlanguages/sw.js')
+        .catch(e => console.log('SW:', e));
+    }
+    </script>
     <nav>
       <a class="nav-logo" href="../index.html">
         <img src="../images/cosylanguages.png" alt="COSYlanguages">
@@ -176,13 +191,7 @@
     <script src="../js/data/turkic/ba/translations.js"></script>
     <script src="../js/data/celtic/br/translations.js"></script>
     <script src="../js/translate.js"></script>
-
-
-
-
-
-
-
+    <script src="../mobile.js"></script>
 
     <script src="../js/script.js"></script>
 </body>

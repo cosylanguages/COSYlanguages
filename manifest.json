@@ -1,0 +1,38 @@
+{
+  "name": "COSYlanguages",
+  "short_name": "COSY",
+  "description": "Learn languages you'll actually speak",
+  "start_url": "/COSYlanguages/practice.html",
+  "display": "standalone",
+  "background_color": "#fdf8f0",
+  "theme_color": "#4a6b50",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/cosylanguages.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/cosylanguages.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "games"],
+  "lang": "en",
+  "shortcuts": [
+    {
+      "name": "Practice",
+      "url": "/COSYlanguages/practice.html",
+      "icons": [{ "src": "images/cosylanguages.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Games",
+      "url": "/COSYlanguages/events.html",
+      "icons": [{ "src": "images/cosylanguages.png", "sizes": "96x96" }]
+    }
+  ]
+}

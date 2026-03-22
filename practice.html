@@ -10,8 +10,22 @@
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/practice.html">
     <link rel="icon" href="images/cosylanguages.png">
+    <link rel="manifest" href="/COSYlanguages/manifest.json">
+    <meta name="theme-color" content="#4a6b50">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="COSYlanguages">
+    <link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/COSYlanguages/sw.js')
+        .catch(e => console.log('SW:', e));
+    }
+    </script>
     <style>
 /* ── Design tokens ─────────────────────────────────── */
 :root {
@@ -527,73 +541,73 @@ footer {
                 <div class="setup-group full-width">
                     <label data-translate-key="select_practice_language">1. Select language to practice 🌍</label>
 
-                    <div class="lang-selection-container">
+                    <div class="lang-selection-container lang-selector-mobile">
                         <div class="lang-group taught-languages">
                             <div class="lang-selection-grid" id="lang-selection-grid-main">
-                                <div class="lang-selection-card active highlighted" data-value="en">
+                                <div class="lang-selection-card active highlighted lang-flag-btn" data-value="en">
                                     <span class="flag">🇬🇧</span>
-                                    <span class="name" data-translate-key="english">English</span>
+                                    <span class="name lf-label" data-translate-key="english">English</span>
                                 </div>
-                                <div class="lang-selection-card highlighted" data-value="fr">
+                                <div class="lang-selection-card highlighted lang-flag-btn" data-value="fr">
                                     <span class="flag">🇫🇷</span>
-                                    <span class="name" data-translate-key="french">Français</span>
+                                    <span class="name lf-label" data-translate-key="french">Français</span>
                                 </div>
-                                <div class="lang-selection-card highlighted" data-value="it">
+                                <div class="lang-selection-card highlighted lang-flag-btn" data-value="it">
                                     <span class="flag">🇮🇹</span>
-                                    <span class="name" data-translate-key="italian">Italiano</span>
+                                    <span class="name lf-label" data-translate-key="italian">Italiano</span>
                                 </div>
-                                <div class="lang-selection-card highlighted" data-value="ru">
+                                <div class="lang-selection-card highlighted lang-flag-btn" data-value="ru">
                                     <span class="flag">🇷🇺</span>
-                                    <span class="name" data-translate-key="russian">Русский</span>
+                                    <span class="name lf-label" data-translate-key="russian">Русский</span>
                                 </div>
-                                <div class="lang-selection-card highlighted" data-value="el">
+                                <div class="lang-selection-card highlighted lang-flag-btn" data-value="el">
                                     <span class="flag">🇬🇷</span>
-                                    <span class="name" data-translate-key="greek">Ελληνικά</span>
+                                    <span class="name lf-label" data-translate-key="greek">Ελληνικά</span>
                                 </div>
                             </div>
                         </div>
 
                         <div class="lang-group other-languages">
                             <div class="lang-selection-grid compact" id="lang-selection-grid-other">
-                                <div class="lang-selection-card lang-btn-soon" data-value="es">
+                                <div class="lang-selection-card lang-btn-soon lang-flag-btn soon" data-value="es">
                                     <span class="soon-badge">Soon</span>
                                     <span class="flag">🇪🇸</span>
-                                    <span class="name" data-translate-key="spanish">Español</span>
+                                    <span class="name lf-label" data-translate-key="spanish">Español</span>
                                 </div>
-                                <div class="lang-selection-card lang-btn-soon" data-value="de">
+                                <div class="lang-selection-card lang-btn-soon lang-flag-btn soon" data-value="de">
                                     <span class="soon-badge">Soon</span>
                                     <span class="flag">🇩🇪</span>
-                                    <span class="name" data-translate-key="german">Deutsch</span>
+                                    <span class="name lf-label" data-translate-key="german">Deutsch</span>
                                 </div>
-                                <div class="lang-selection-card lang-btn-soon" data-value="pt">
+                                <div class="lang-selection-card lang-btn-soon lang-flag-btn soon" data-value="pt">
                                     <span class="soon-badge">Soon</span>
                                     <span class="flag">🇵🇹</span>
-                                    <span class="name" data-translate-key="portuguese">Português</span>
+                                    <span class="name lf-label" data-translate-key="portuguese">Português</span>
                                 </div>
-                                <div class="lang-selection-card lang-btn-soon" data-value="hy">
+                                <div class="lang-selection-card lang-btn-soon lang-flag-btn soon" data-value="hy">
                                     <span class="soon-badge">Soon</span>
                                     <span class="flag">🇦🇲</span>
-                                    <span class="name" data-translate-key="armenian">Հայերեն</span>
+                                    <span class="name lf-label" data-translate-key="armenian">Հայերენ</span>
                                 </div>
-                                <div class="lang-selection-card lang-btn-soon" data-value="ka">
+                                <div class="lang-selection-card lang-btn-soon lang-flag-btn soon" data-value="ka">
                                     <span class="soon-badge">Soon</span>
                                     <span class="flag">🇬🇪</span>
-                                    <span class="name" data-translate-key="georgian">ქართული</span>
+                                    <span class="name lf-label" data-translate-key="georgian">ქართული</span>
                                 </div>
-                                <div class="lang-selection-card lang-btn-soon" data-value="tt">
+                                <div class="lang-selection-card lang-btn-soon lang-flag-btn soon" data-value="tt">
                                     <span class="soon-badge">Soon</span>
                                     <span class="flag"><img src="images/tatarstan_flag.png" class="emoji-flag" alt="Tatar"></span>
-                                    <span class="name" data-translate-key="tatar">Татарча</span>
+                                    <span class="name lf-label" data-translate-key="tatar">Татарча</span>
                                 </div>
-                                <div class="lang-selection-card lang-btn-soon" data-value="ba">
+                                <div class="lang-selection-card lang-btn-soon lang-flag-btn soon" data-value="ba">
                                     <span class="soon-badge">Soon</span>
                                     <span class="flag"><img src="images/bashkortostan_flag.png" class="emoji-flag" alt="Bashkir"></span>
-                                    <span class="name" data-translate-key="bashkir">Башҡортса</span>
+                                    <span class="name lf-label" data-translate-key="bashkir">Башҡортса</span>
                                 </div>
-                                <div class="lang-selection-card lang-btn-soon" data-value="br">
+                                <div class="lang-selection-card lang-btn-soon lang-flag-btn soon" data-value="br">
                                     <span class="soon-badge">Soon</span>
                                     <span class="flag"><img src="images/brittany_flag.png" class="emoji-flag" alt="Breton"></span>
-                                    <span class="name" data-translate-key="breton">Brezhoneg</span>
+                                    <span class="name lf-label" data-translate-key="breton">Brezhoneg</span>
                                 </div>
                             </div>
                         </div>
@@ -604,18 +618,18 @@ footer {
                     <!-- 2. Category Selection -->
                     <div class="setup-group">
                         <label data-translate-key="category_label">2. Select categories: 🏷️</label>
-                        <div class="chips-group">
+                        <div class="chips-group category-pills-mobile">
                             <label class="toggle-chip">
                                 <input type="radio" name="practice-cat" id="cat-vocab" checked>
-                                <span data-translate-key="cat_vocab">Vocab</span>
+                                <span class="cat-pill" data-translate-key="cat_vocab">Vocab</span>
                             </label>
                             <label class="toggle-chip">
                                 <input type="radio" name="practice-cat" id="cat-grammar">
-                                <span data-translate-key="cat_grammar">Grammar</span>
+                                <span class="cat-pill" data-translate-key="cat_grammar">Grammar</span>
                             </label>
                             <label class="toggle-chip">
                                 <input type="radio" name="practice-cat" id="cat-speaking">
-                                <span class="category-btn-speaking" data-translate-key="cat_speaking">Speaking</span>
+                                <span class="category-btn-speaking cat-pill speaking-pill" data-translate-key="cat_speaking">Speaking</span>
                             </label>
                         </div>
                     </div>
@@ -708,7 +722,12 @@ footer {
                 </div>
             </div>
 
-            <div id="practice-section" style="display: none;">
+            <div id="practice-section" class="session-ui-mobile" style="display: none;">
+                <div class="session-progress-mobile"><div class="session-progress-fill"></div></div>
+                <div class="session-stats-mobile">
+                  <span id="mobile-score-display">✨ 0</span>
+                  <span id="mobile-streak-display">🔥 0</span>
+                </div>
                 <!-- Spinning Wheel Section -->
                 <div id="wheel-container" style="display: none; text-align: center; margin-bottom: 30px;">
                     <div class="wheel-wrapper" style="position: relative; display: inline-block;">
@@ -738,7 +757,7 @@ footer {
                 </div>
                 <div id="progress-text"></div>
 
-                <div id="question-card" class="event-item">
+                <div id="question-card" class="event-item question-card-mobile">
                     <div id="word-meta" class="word-meta-container" style="display: none;">
                         <span id="word-form" class="meta-badge form-badge"></span>
                         <span id="word-level" class="meta-badge level-badge"></span>
@@ -758,7 +777,7 @@ footer {
                         <button id="listen-btn" class="cta-button secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem; margin-top: 0.5rem;" data-translate-key="listen_btn">Listen 🔊</button>
                     </div>
 
-                    <div id="answer-area">
+                    <div id="answer-area" class="answers-mobile">
                         <!-- Opposite/Cloze task -->
                         <div id="opposite-input-container" style="display: none; flex-direction: column; align-items: center; width: 100%;">
                             <input type="text" id="opposite-answer" class="app-input" data-translate-key="placeholder_type_here" placeholder="..." autocomplete="off" autocapitalize="off" spellcheck="false" style="width: 100%; max-width: 400px; font-size: 1.5rem; border-radius: 20px; padding: 1.2rem; margin-bottom: 1.5rem; border: 3px solid var(--light-gray); text-align: center;">
@@ -1073,7 +1092,9 @@ footer {
     <script src="js/translate.js"></script>
 
     <script src="js/games/utils/shared.js"></script>
+    <script src="js/srs.js"></script>
     <script src="js/practice.js"></script>
+    <script src="mobile.js"></script>
 
 
 
