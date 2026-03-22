@@ -52,6 +52,14 @@ function setLanguage(lang) {
     }
 
     localStorage.setItem('language', lang);
+
+    // Sync with page UI elements
+    const langSelect = document.getElementById('calc-lang');
+    if (langSelect) langSelect.value = lang;
+
+    const langSwitcher = document.getElementById('language-switcher');
+    if (langSwitcher) langSwitcher.value = lang;
+
     if (window.calcPrice) window.calcPrice();
 }
 

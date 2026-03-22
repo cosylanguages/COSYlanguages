@@ -1025,6 +1025,18 @@
             calc_per_session_suffix: "/session",
                      calc_original_label: "Prezzo originale",
             calc_discount_label: "Prezzo scontato",
+                     sec_tag_faq: "❓ Domande",
+            sec_h2_faq: "Domande Frequenti",
+            faq_1_q: "Come funzionano le lezioni?",
+            faq_1_a: "Le lezioni sono individuali tramite Google Meet o Zoom. Ci concentriamo sulla comunicazione attiva, utilizzando la metodologia COSY per farti parlare fin dal primo giorno.",
+            faq_2_q: "Ho bisogno di esperienza precedente?",
+            faq_2_a: "Niente affatto. Insegniamo a studenti dal livello principiante assoluto (A0) al livello avanzato (C2). Il tuo insegnante adatterà il ritmo e il contenuto al tuo livello.",
+            faq_3_q: "Quanto velocemente progredirò?",
+            faq_3_a: "Il progresso dipende dalla tua costanza. Con la nostra abitudine quotidiana 'Spoken' e le lezioni individuali, la maggior parte degli studenti avverte una differenza significativa nella fiducia in se stessi entro 4-8 settimane.",
+            faq_4_q: "Posso cambiare il mio programma?",
+            faq_4_a: "Sì! Offriamo una programmazione flessibile. Puoi prenotare o spostare le sessioni con 24 ore di preavviso per adattarle alla tua vita lavorativa.",
+            faq_5_q: "Di quali materiali ho bisogno?",
+            faq_5_a: "Basta un dispositivo con fotocamera e microfono. Tutti i materiali didattici, inclusi i nostri strumenti di pratica gratuiti e i giochi, sono forniti da noi.",
          }
         };
     window.translations = window.translations || {};
