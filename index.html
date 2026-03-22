@@ -79,6 +79,7 @@ nav {
   transition: background .18s, color .18s;
 }
 .nav-links a:hover { background: var(--sage-pale); color: var(--sage-dark); }
+.nav-links a.active { background: var(--sage-mist); color: var(--sage-deep); box-shadow: inset 0 0 0 1px var(--border); }
 .nav-student {
   font-size: .75rem !important;
   color: var(--muted) !important;
@@ -489,7 +490,7 @@ section { padding: 4rem 0; }
 .tip h4 { font-size: .85rem; font-weight: 800; margin-bottom: .2rem; }
 .tip p { font-size: .76rem; opacity: .85; line-height: 1.55; }
 
-/* ── Final CTA ────────────────────────────────────────── */
+/* ── Final CTA ─────────────────────────────────────────── */
 .cta-section {
   background:
     radial-gradient(ellipse at 20% 50%, rgba(232,168,56,.12) 0%, transparent 55%),
@@ -544,7 +545,27 @@ footer {
 .reveal { animation: fadeUp .5s ease both; animation-play-state: paused; }
 .visible { animation-play-state: running; }
 
+/* Back to Top */
+#back-to-top {
+  position: fixed; bottom: 1.5rem; left: 1.5rem; z-index: 300;
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--sage); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem; font-weight: 900;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12);
+  border: none; cursor: pointer;
+  opacity: 0; pointer-events: none; transform: translateY(10px);
+  transition: all .25s ease;
+}
+#back-to-top.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+#back-to-top:hover { background: var(--sage-dark); transform: scale(1.1); }
+
 /* ── Responsive ───────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .hero-inner { gap: 2rem; }
+  .steps::before { left: calc(16.67% + 10px); right: calc(16.67% + 10px); }
+}
+
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; gap: 2rem; }
   .hero-sub { max-width: 100%; }
@@ -553,13 +574,15 @@ footer {
   .steps::before { display: none; }
   .lang-grid { grid-template-columns: repeat(3, 1fr); }
   .tools-grid { grid-template-columns: 1fr; }
-  .why-grid { grid-template-columns: 1fr 1fr; }
-  .tips-row { grid-template-columns: 1fr 1fr; }
+  .why-grid { grid-template-columns: repeat(2, 1fr); }
+  .tips-row { grid-template-columns: repeat(2, 1fr); }
 }
+
 @media (max-width: 560px) {
   nav { padding: 0 1rem; }
   .nav-links { gap: .2rem; }
   .nav-links a { font-size: .72rem; padding: .28rem .45rem; }
+  .nav-links li:nth-child(1), .nav-links li:nth-child(2) { display: none; }
   .hero { padding: 3.5rem 1rem 6rem; }
   .lang-grid { grid-template-columns: repeat(2, 1fr); }
   .why-grid { grid-template-columns: 1fr; }
@@ -567,6 +590,12 @@ footer {
   .calc-grid { grid-template-columns: 1fr 1fr; }
   footer { padding: 2rem 1rem; }
   .footer-top { flex-direction: column; }
+}
+
+@media (max-width: 480px) {
+  .hero h1 { font-size: 1.8rem; }
+  .calc-grid { grid-template-columns: 1fr; }
+  .nav-lang { display: none; } /* Hide compact flags on very small screens if needed */
 }
 </style>
 </head>
@@ -584,14 +613,14 @@ footer {
     <li><a href="#how" data-translate-key="nav_how">How it works</a></li>
     <li><a href="#courses" data-translate-key="nav_courses">Courses</a></li>
     <li><a href="#languages" data-translate-key="nav_languages">Languages</a></li>
-    <li><a href="practice.html" data-translate-key="nav_practice">Practice</a></li>
+    <li><a href="#tools" data-translate-key="nav_practice">Practice</a></li>
     <li><a href="#calculator" data-translate-key="nav_pricing">Pricing</a></li>
     <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
     <li><a href="days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
     <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
   </ul>
   <div class="nav-lang">
-    <a data-lang="en">EN</a><a data-lang="fr">FR</a><a data-lang="it">IT</a><a data-lang="ru">RU</a><a data-lang="el">EL</a>
+    <a href="languages/en.html" data-lang="en">EN</a><a href="languages/fr.html" data-lang="fr">FR</a><a href="languages/it.html" data-lang="it">IT</a><a href="languages/ru.html" data-lang="ru">RU</a><a href="languages/el.html" data-lang="el">EL</a>
   </div>
 </nav>
 
@@ -600,11 +629,11 @@ footer {
   <div class="hero-inner">
     <div class="hero-left">
       <div class="hero-tag" data-translate-key="hero_tag">🏡 COSYlanguages</div>
-      <h1 data-translate-key="hero_h1">Learn a language with teachers<br>who <em>love</em> what they teach.</h1>
+      <h1 data-translate-key="hero_h1_speak">Learn languages<br>you'll actually <em>speak</em>.</h1>
       <p class="hero-sub" data-translate-key="hero_sub">1-to-1 online lessons in English, French, Italian, Russian and Greek. Speaking-first, always — because the only way to become fluent is to open your mouth.</p>
       <div class="hero-teacher">
         <span class="ht-icon">🎓</span>
-        <span data-translate-key="hero_teacher_note">Our teachers aren't just teachers — we're active language learners ourselves. We know exactly what it feels like to struggle, progress and finally feel fluent.</span>
+        <span data-translate-key="hero_teacher_note">Our teachers are active language learners themselves. We know the journey from the inside — and we bring that understanding to every lesson.</span>
       </div>
       <div class="hero-ctas">
         <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="btn-primary" data-translate-key="hero_cta_wa">💬 Chat with us on WhatsApp</a>
@@ -684,7 +713,7 @@ footer {
         </div>
         <p class="cr-desc" data-translate-key="course_general_desc_long">The complete journey — all four skills growing together. Structured, progressive, built around your real adult life. From absolute beginner to near-native mastery across 430+ lessons and 7 levels. Every grammar point is introduced because it helps you communicate, not because it's next on a list.</p>
         <div class="cr-sessions" data-translate-key="course_general_sessions">⏱️ 60–90 min sessions &nbsp;·&nbsp; 1-to-1 &nbsp;·&nbsp; English, French, Italian, Russian, Greek</div>
-        <a href="days.html" class="cr-link" style="background:#6b8f71" data-translate-key="course_general_cta">See the full curriculum →</a>
+        <a href="general-course-roadmap.html" class="cr-link" style="background:#6b8f71" data-translate-key="course_general_cta">See the full curriculum →</a>
       </div>
     </div>
 
@@ -698,7 +727,7 @@ footer {
         </div>
         <p class="cr-desc" data-translate-key="course_spoken_desc_long">No grammar tables. No worksheets. Just you, your teacher and a real conversation. 15 or 30 minutes of focused spoken practice — short enough to fit into any day, focused enough to build fluency fast. The perfect daily habit alongside your main lessons.</p>
         <div class="cr-sessions" data-translate-key="course_spoken_sessions">⏱️ 15 or 30 min sessions &nbsp;·&nbsp; Daily practice &nbsp;·&nbsp; English, French, Italian, Russian, Greek</div>
-        <a href="days.html" class="cr-link" style="background:#e8a838" data-translate-key="course_spoken_cta">See how it works →</a>
+        <a href="spoken-roadmap.html" class="cr-link" style="background:#e8a838" data-translate-key="course_spoken_cta">See how it works →</a>
       </div>
     </div>
 
@@ -712,7 +741,7 @@ footer {
         </div>
         <p class="cr-desc" data-translate-key="course_exam_desc_long">We prepare you for the real thing — authentic tasks, exact exam conditions, real marking criteria. Speaking is at the heart of every 120-minute session because the oral component is where most candidates lose the most marks, and where targeted practice makes the biggest difference.</p>
         <div class="cr-sessions" data-translate-key="course_exam_sessions">⏱️ 120 min sessions &nbsp;·&nbsp; English, French, Russian &nbsp;·&nbsp; 6 exams covered</div>
-        <a href="days.html" class="cr-link" style="background:#3a5298" data-translate-key="course_exam_cta">See exam preparation →</a>
+        <a href="exam-roadmap.html" class="cr-link" style="background:#3a5298" data-translate-key="course_exam_cta">See exam preparation →</a>
       </div>
     </div>
 
@@ -777,7 +806,7 @@ footer {
     <div class="lang-card-soon"><img src="images/cosyspanish.png" alt="Español"><div class="ls-flag">🇪🇸</div><div class="ls-name" data-translate-key="spanish">Español</div></div>
     <div class="lang-card-soon"><img src="images/cosygerman.png" alt="Deutsch"><div class="ls-flag">🇩🇪</div><div class="ls-name" data-translate-key="german">Deutsch</div></div>
     <div class="lang-card-soon"><img src="images/cosyportugese.png" alt="Português"><div class="ls-flag">🇵🇹</div><div class="ls-name" data-translate-key="portuguese">Português</div></div>
-    <div class="lang-card-soon"><img src="images/cosyarmenian.png" alt="Հայερεν"><div class="ls-flag">🇦🇲</div><div class="ls-name" data-translate-key="armenian">Հայερεν</div></div>
+    <div class="lang-card-soon"><img src="images/cosyarmenian.png" alt="Հայերεν"><div class="ls-flag">🇦🇲</div><div class="ls-name" data-translate-key="armenian">Հայերεν</div></div>
     <div class="lang-card-soon"><img src="images/cosygeorgian.png" alt="ქართული"><div class="ls-flag">🇬🇪</div><div class="ls-name" data-translate-key="georgian">ქართული</div></div>
     <div class="lang-card-soon"><img src="images/cosytatar.png" alt="Татарча"><div class="ls-flag">🟢</div><div class="ls-name" data-translate-key="tatar">Татарча</div></div>
     <div class="lang-card-soon"><img src="images/cosybachkir.png" alt="Башҡορτσα"><div class="ls-flag">🔵</div><div class="ls-name" data-translate-key="bashkir">Башҡορτσα</div></div>
@@ -957,9 +986,9 @@ footer {
       </div>
       <div class="footer-links-col">
         <h5 data-translate-key="footer_h5_courses">Courses</h5>
-        <a href="days.html" data-translate-key="course_general">General Course 📖</a>
-        <a href="days.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
-        <a href="days.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+        <a href="general-course-roadmap.html" data-translate-key="course_general">General Course 📖</a>
+        <a href="spoken-roadmap.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+        <a href="exam-roadmap.html" data-translate-key="course_exam">Exam Preparation 📝</a>
         <a href="days.html" data-translate-key="footer_roadmap">Full Roadmap 🗺️</a>
       </div>
       <div class="footer-links-col">
@@ -994,148 +1023,6 @@ const io = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 </script>
     <script src="js/data/theme_config.js"></script>
-    <script src="js/data/numbers.js"></script>
-    <script src="js/data/emojis.js"></script>
-    <script src="js/data/armenian/hy/alphabets.js"></script>
-    <script src="js/data/celtic/br/alphabets.js"></script>
-    <script src="js/data/germanic/de/alphabets.js"></script>
-    <script src="js/data/germanic/en/alphabets.js"></script>
-    <script src="js/data/hellenic/el/alphabets.js"></script>
-    <script src="js/data/kartvelian/ka/alphabets.js"></script>
-    <script src="js/data/romance/es/alphabets.js"></script>
-    <script src="js/data/romance/fr/alphabets.js"></script>
-    <script src="js/data/romance/it/alphabets.js"></script>
-    <script src="js/data/romance/pt/alphabets.js"></script>
-    <script src="js/data/slavic/ru/alphabets.js"></script>
-    <script src="js/data/turkic/ba/alphabets.js"></script>
-    <script src="js/data/turkic/tt/alphabets.js"></script>
-    <script src="js/data/germanic/en/starter/grammar.js"></script>
-    <script src="js/data/hellenic/el/starter/grammar.js"></script>
-    <script src="js/data/romance/fr/starter/grammar.js"></script>
-    <script src="js/data/romance/it/starter/grammar.js"></script>
-    <script src="js/data/slavic/ru/starter/grammar.js"></script>
-    <script src="js/data/germanic/en/advanced/vocabulary.js"></script>
-    <script src="js/data/germanic/en/elementary/vocabulary.js"></script>
-    <script src="js/data/germanic/en/intermediate/vocabulary.js"></script>
-    <script src="js/data/germanic/en/proficiency/vocabulary.js"></script>
-    <script src="js/data/germanic/en/starter/vocabulary.js"></script>
-    <script src="js/data/germanic/en/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/advanced/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/elementary/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/intermediate/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/proficiency/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/starter/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/fr/advanced/vocabulary.js"></script>
-    <script src="js/data/romance/fr/elementary/vocabulary.js"></script>
-    <script src="js/data/romance/fr/intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/fr/proficiency/vocabulary.js"></script>
-    <script src="js/data/romance/fr/starter/vocabulary.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/it/elementary/vocabulary.js"></script>
-    <script src="js/data/romance/it/intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/it/proficiency/vocabulary.js"></script>
-    <script src="js/data/romance/it/starter/vocabulary.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/elementary/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/intermediate/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/proficiency/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/starter/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/germanic/en/elementary/verbs.js"></script>
-    <script src="js/data/germanic/en/intermediate/verbs.js"></script>
-    <script src="js/data/germanic/en/starter/verbs.js"></script>
-    <script src="js/data/hellenic/el/elementary/verbs.js"></script>
-    <script src="js/data/hellenic/el/intermediate/verbs.js"></script>
-    <script src="js/data/hellenic/el/starter/verbs.js"></script>
-    <script src="js/data/romance/fr/advanced/verbs.js"></script>
-    <script src="js/data/romance/fr/elementary/verbs.js"></script>
-    <script src="js/data/romance/fr/intermediate/verbs.js"></script>
-    <script src="js/data/romance/fr/proficiency/verbs.js"></script>
-    <script src="js/data/romance/fr/starter/verbs.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/verbs.js"></script>
-    <script src="js/data/romance/it/advanced/verbs.js"></script>
-    <script src="js/data/romance/it/elementary/verbs.js"></script>
-    <script src="js/data/romance/it/intermediate/verbs.js"></script>
-    <script src="js/data/romance/it/proficiency/verbs.js"></script>
-    <script src="js/data/romance/it/starter/verbs.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/verbs.js"></script>
-    <script src="js/data/slavic/ru/advanced/verbs.js"></script>
-    <script src="js/data/slavic/ru/elementary/verbs.js"></script>
-    <script src="js/data/slavic/ru/intermediate/verbs.js"></script>
-    <script src="js/data/slavic/ru/proficiency/verbs.js"></script>
-    <script src="js/data/slavic/ru/starter/verbs.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/verbs.js"></script>
-    <script src="js/data/armenian/hy/elementary/locations.js"></script>
-    <script src="js/data/armenian/hy/intermediate/locations.js"></script>
-    <script src="js/data/armenian/hy/starter/locations.js"></script>
-    <script src="js/data/celtic/br/elementary/locations.js"></script>
-    <script src="js/data/celtic/br/intermediate/locations.js"></script>
-    <script src="js/data/celtic/br/starter/locations.js"></script>
-    <script src="js/data/germanic/de/elementary/locations.js"></script>
-    <script src="js/data/germanic/de/intermediate/locations.js"></script>
-    <script src="js/data/germanic/de/starter/locations.js"></script>
-    <script src="js/data/germanic/en/elementary/locations.js"></script>
-    <script src="js/data/germanic/en/intermediate/locations.js"></script>
-    <script src="js/data/germanic/en/starter/locations.js"></script>
-    <script src="js/data/hellenic/el/elementary/locations.js"></script>
-    <script src="js/data/hellenic/el/intermediate/locations.js"></script>
-    <script src="js/data/hellenic/el/starter/locations.js"></script>
-    <script src="js/data/kartvelian/ka/elementary/locations.js"></script>
-    <script src="js/data/kartvelian/ka/intermediate/locations.js"></script>
-    <script src="js/data/kartvelian/ka/starter/locations.js"></script>
-    <script src="js/data/romance/es/elementary/locations.js"></script>
-    <script src="js/data/romance/es/intermediate/locations.js"></script>
-    <script src="js/data/romance/es/starter/locations.js"></script>
-    <script src="js/data/romance/fr/elementary/locations.js"></script>
-    <script src="js/data/romance/fr/intermediate/locations.js"></script>
-    <script src="js/data/romance/fr/starter/locations.js"></script>
-    <script src="js/data/romance/it/elementary/locations.js"></script>
-    <script src="js/data/romance/it/intermediate/locations.js"></script>
-    <script src="js/data/romance/it/starter/locations.js"></script>
-    <script src="js/data/romance/pt/elementary/locations.js"></script>
-    <script src="js/data/romance/pt/intermediate/locations.js"></script>
-    <script src="js/data/romance/pt/starter/locations.js"></script>
-    <script src="js/data/slavic/ru/elementary/locations.js"></script>
-    <script src="js/data/slavic/ru/intermediate/locations.js"></script>
-    <script src="js/data/slavic/ru/starter/locations.js"></script>
-    <script src="js/data/turkic/ba/elementary/locations.js"></script>
-    <script src="js/data/turkic/ba/intermediate/locations.js"></script>
-    <script src="js/data/turkic/ba/starter/locations.js"></script>
-    <script src="js/data/turkic/tt/elementary/locations.js"></script>
-    <script src="js/data/turkic/tt/intermediate/locations.js"></script>
-    <script src="js/data/turkic/tt/starter/locations.js"></script>
-    <script src="js/data/germanic/en/advanced/people.js"></script>
-    <script src="js/data/germanic/en/elementary/people.js"></script>
-    <script src="js/data/germanic/en/intermediate/people.js"></script>
-    <script src="js/data/germanic/en/proficiency/people.js"></script>
-    <script src="js/data/germanic/en/starter/people.js"></script>
-    <script src="js/data/germanic/en/upper-intermediate/people.js"></script>
-    <script src="js/data/hellenic/el/advanced/people.js"></script>
-    <script src="js/data/hellenic/el/elementary/people.js"></script>
-    <script src="js/data/hellenic/el/intermediate/people.js"></script>
-    <script src="js/data/hellenic/el/starter/people.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/people.js"></script>
-    <script src="js/data/romance/fr/advanced/people.js"></script>
-    <script src="js/data/romance/fr/elementary/people.js"></script>
-    <script src="js/data/romance/fr/intermediate/people.js"></script>
-    <script src="js/data/romance/fr/proficiency/people.js"></script>
-    <script src="js/data/romance/fr/starter/people.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/people.js"></script>
-    <script src="js/data/romance/it/advanced/people.js"></script>
-    <script src="js/data/romance/it/elementary/people.js"></script>
-    <script src="js/data/romance/it/intermediate/people.js"></script>
-    <script src="js/data/romance/it/starter/people.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/people.js"></script>
-    <script src="js/data/slavic/ru/advanced/people.js"></script>
-    <script src="js/data/slavic/ru/elementary/people.js"></script>
-    <script src="js/data/slavic/ru/intermediate/people.js"></script>
-    <script src="js/data/slavic/ru/starter/people.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/people.js"></script>
-    <script src="js/data/lessons/day1.js"></script>
-    <script src="js/data/lessons/day2.js"></script>
-    <script src="js/data/lessons/day3.js"></script>
-    <script src="js/data/lessons/day4.js"></script>
     <script src="js/data/germanic/en/translations.js"></script>
     <script src="js/data/romance/fr/translations.js"></script>
     <script src="js/data/romance/it/translations.js"></script>
@@ -1151,6 +1038,5 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
     <script src="js/data/celtic/br/translations.js"></script>
     <script src="js/translate.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/games/utils/shared.js"></script>
 </body>
 </html>

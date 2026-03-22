@@ -87,7 +87,7 @@ function populatePracticeThemes(categoryId) {
     const levelSelect = document.getElementById('practice-level');
     if (!themeSelect || !levelSelect) return;
 
-    const lang = currentPractice.language;
+    const lang = currentPractice.language || 'en';
     const selectedLevel = levelSelect.value;
 
     // Defensive check for translations object
@@ -737,7 +737,7 @@ function playSound(isCorrect) {
     const failUrl = 'https://assets.mixkit.co/active_storage/sfx/2018/2018-preview.mp3';
 
     const audio = new Audio(isCorrect ? successUrl : failUrl);
-    audio.play().catch(e => console.log("Audio play failed:", e));
+    audio.play().catch(e => {});
 }
 
 function updateProgress() {
