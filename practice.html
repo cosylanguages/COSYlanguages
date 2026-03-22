@@ -3,34 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate-key="practice_title">Practice 💡 - COSYlanguages</title>
-    <meta name="description" data-translate-key="tool_practice_desc" content="Localized Content">
-    <meta property="og:title" data-translate-key="practice_title" content="Localized Content">
-    <meta property="og:description" data-translate-key="tool_practice_desc" content="Localized Content">
-    <meta property="og:image" content="images/cosylanguages.png">
+    <title data-translate-key="practice_title">Practice 💡 — COSYlanguages</title>
+    <meta name="description" data-translate-key="tool_practice_desc" content="Free language practice — vocabulary, grammar and speaking exercises in English, French, Italian, Russian and Greek. All CEFR levels. No account needed.">
+    <meta property="og:title" data-translate-key="practice_title" content="Free Language Practice 💡 — COSYlanguages">
+    <meta property="og:description" data-translate-key="tool_practice_desc" content="Vocabulary, grammar and speaking exercises. Free, no account needed. 5 languages, all CEFR levels.">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/practice.html">
+    <link rel="icon" href="images/cosylanguages.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+/* ── Design tokens ─────────────────────────────────── */
+:root {
+  --sage:       #6b8f71;
+  --sage-dark:  #4a6b50;
+  --sage-deep:  #2e4a33;
+  --sage-mist:  #f0f5f1;
+  --sage-pale:  #e8f0e9;
+  --cream:      #fdf8f0;
+  --cream-dark: #f5ede0;
+  --honey:      #e8a838;
+  --honey-dark: #a06b10;
+  --honey-pale: #fff8e7;
+  --honey-mid:  #fef0c7;
+  --ink:        #2a2a2a;
+  --ink-soft:   #4a4a4a;
+  --muted:      #6b6b6b;
+  --border:     rgba(74,107,80,.12);
+  --radius:     18px;
+  --radius-sm:  10px;
+  --shadow-sm:  0 2px 12px rgba(46,74,51,.07);
+  --shadow:     0 6px 28px rgba(46,74,51,.10);
+}
+
+body {
+  background: var(--cream);
+  font-family: 'Nunito', sans-serif;
+  color: var(--ink);
+}
+
+/* ── Nav ────────────────────────────────────────────── */
+nav {
+  position: sticky; top: 0; z-index: 200;
+  background: rgba(253,248,240,.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  height: 66px; padding: 0 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+  box-shadow: 0 2px 16px rgba(46,74,51,.06);
+}
+.nav-logo { display: flex; align-items: center; gap: .6rem; }
+.nav-logo img { height: 44px; background: none !important; padding: 0 !important; }
+.nav-links { display: flex; gap: .3rem; list-style: none; align-items: center; }
+.nav-links a {
+  font-weight: 700; font-size: .8rem;
+  padding: .35rem .65rem; border-radius: var(--radius-sm);
+  color: var(--ink-soft);
+  transition: background .18s, color .18s;
+  position: relative;
+}
+.nav-links a::after { display: none; } /* Remove legacy underline */
+.nav-links a:hover { background: var(--sage-pale); color: var(--sage-dark); }
+.nav-links a.active { background: var(--sage-mist); color: var(--sage-deep); box-shadow: inset 0 0 0 1px var(--border); }
+.nav-student {
+  font-size: .75rem !important;
+  color: var(--muted) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius-sm) !important;
+}
+.nav-student:hover { background: var(--cream-dark) !important; color: var(--ink) !important; }
+.nav-wa {
+  background: var(--sage) !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+  padding: .38rem .9rem !important;
+}
+.nav-wa:hover { background: var(--sage-dark) !important; color: #fff !important; }
+.nav-lang { display: flex; gap: .2rem; margin-left: .5rem; }
+.nav-lang a {
+  font-size: .73rem; font-weight: 800;
+  padding: .2rem .38rem; border-radius: 6px;
+  color: var(--muted);
+  transition: all .18s;
+  cursor: pointer;
+}
+.nav-lang a:hover { background: var(--sage-pale); color: var(--sage-dark); }
+
+/* ── Practice Page Redesign Styles ──────────────────── */
+.practice-header {
+  padding: 3rem 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ph-free-label {
+  display: inline-block;
+  background: #e5f4ec;
+  color: #1a6b45;
+  font-size: .75rem;
+  font-weight: 800;
+  padding: .3rem .8rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+.practice-header h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  color: var(--sage-deep);
+  margin-bottom: 1rem;
+}
+.practice-header p {
+  color: var(--muted);
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+}
+.ph-speak-note {
+  display: inline-flex;
+  align-items: center;
+  gap: .8rem;
+  background: var(--honey-pale);
+  border: 1px solid var(--honey);
+  padding: .8rem 1.2rem;
+  border-radius: var(--radius);
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.ph-speak-note span:first-child { font-size: 1.5rem; }
+.ph-speak-note span:last-child { font-size: .85rem; color: var(--honey-dark); line-height: 1.4; }
+
+.practice-suggest {
+  background: var(--sage-mist);
+  padding: .8rem 1.2rem;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: .85rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border);
+}
+.practice-suggest span:first-child { font-weight: 800; color: var(--sage-dark); }
+
+.lang-btn-soon {
+  pointer-events: none;
+  opacity: 0.45 !important;
+  position: relative;
+}
+.soon-badge {
+  position: absolute;
+  top: 5px; right: 5px;
+  background: var(--muted);
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 900;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* Speaking category prominence */
+#cat-speaking + span {
+  background: var(--honey-pale) !important;
+  border-color: var(--honey) !important;
+  color: var(--honey-dark) !important;
+  font-weight: 900 !important;
+}
+#cat-speaking:checked + span {
+  background: var(--honey) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 15px rgba(232, 168, 56, 0.4) !important;
+}
+
+.summary-cta {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.summary-cta p { font-size: .9rem; color: var(--muted); margin-bottom: 1rem; }
+.summary-wa-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  background: var(--sage);
+  color: #fff;
+  padding: .7rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 800;
+  transition: background .2s;
+  text-decoration: none;
+}
+.summary-wa-btn:hover { background: var(--sage-dark); }
+
+@media (max-width: 560px) {
+  nav { padding: 0 1rem; }
+  .nav-links { gap: .2rem; }
+  .nav-links a { font-size: .72rem; padding: .28rem .45rem; }
+  .nav-links li:nth-child(1), .nav-links li:nth-child(2) { display: none; }
+  .nav-lang { display: none; }
+}
+    </style>
 </head>
 <body class="practice-page">
-    <header>
-        <div class="logo">
-            <a href="index.html"><img src="images/cosylanguages.png" alt="COSYlanguages Logo"></a>
+    <nav>
+      <a class="nav-logo" href="index.html">
+        <img src="images/cosylanguages.png" alt="COSYlanguages">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#how" data-translate-key="nav_how">How it works</a></li>
+        <li><a href="index.html#courses" data-translate-key="nav_courses">Courses</a></li>
+        <li><a href="index.html#languages" data-translate-key="nav_languages">Languages</a></li>
+        <li><a href="practice.html" class="active" data-translate-key="nav_practice">Practice</a></li>
+        <li><a href="index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
+        <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
+        <li><a href="days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
+        <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
+      </ul>
+      <div class="nav-lang">
+        <a href="languages/en.html" data-lang="en">EN</a><a href="languages/fr.html" data-lang="fr">FR</a><a href="languages/it.html" data-lang="it">IT</a><a href="languages/ru.html" data-lang="ru">RU</a><a href="languages/el.html" data-lang="el">EL</a>
+      </div>
+    </nav>
+
+    <header class="practice-header">
+      <div class="practice-header-inner">
+        <div class="ph-free-label">✅ Free — no account needed</div>
+        <h1>Practice 💡</h1>
+        <p>Vocabulary, grammar and speaking exercises across all our languages.
+           Earn COSY points, build your daily streak, and get better between lessons.</p>
+        <!-- Speaking highlight — this is COSYlanguages' USP -->
+        <div class="ph-speak-note">
+          <span>🗣️</span>
+          <span>The <strong>Speaking</strong> category is our favourite — real conversations, not just word lists. Try it first.</span>
         </div>
-        <nav><ul><li><a href="index.html#how" data-translate-key="nav_how">How it works</a></li><li><a href="index.html#courses" data-translate-key="nav_courses">Courses</a></li><li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li><li><a href="practice.html" data-translate-key="nav_practice">Practice 💡</a></li><li><a href="index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li><li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li><li><a href="days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li></ul></nav><div class="nav-lang"><a href="languages/en.html" data-lang="en">EN</a><a href="languages/fr.html" data-lang="fr">FR</a><a href="languages/it.html" data-lang="it">IT</a><a href="languages/ru.html" data-lang="ru">RU</a><a href="languages/el.html" data-lang="el">EL</a></div>
-        <div class="language-switcher-container">
-            <select id="language-switcher">
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-                <option value="it">Italiano</option>
-                <option value="ru">Русский</option>
-                <option value="el">Ελληνικά</option>
-            </select>
-        </div>
+      </div>
     </header>
 
     <main>
         <section id="practice-container">
-            <h2 data-translate-key="practice_title">Practice 💡</h2>
+            <h2 data-translate-key="practice_title" style="display: none;">Practice 💡</h2>
 
             <div id="setup-section" class="setup-card">
                 <details class="help-details glass" style="margin-bottom: 1.5rem; padding: 1rem; border-radius: 20px;" open>
@@ -47,6 +261,11 @@
                     <span data-translate-key="total_score_label">Total Progress: 🏆</span>
                     <span id="setup-total-score">0</span>
                     <span class="points-label" data-translate-key="points_label">COSY Points</span>
+                </div>
+
+                <div class="practice-suggest">
+                  <span>👋 New here?</span>
+                  <span>Try: <strong>English</strong> · <strong>Speaking</strong> · <strong>Starter (A1)</strong> · Conversation</span>
                 </div>
 
                 <!-- 1. Language Selection -->
@@ -81,35 +300,43 @@
 
                         <div class="lang-group other-languages">
                             <div class="lang-selection-grid compact" id="lang-selection-grid-other">
-                                <div class="lang-selection-card" data-value="es">
+                                <div class="lang-selection-card lang-btn-soon" data-value="es">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇪🇸</span>
                                     <span class="name" data-translate-key="spanish">Español</span>
                                 </div>
-                                <div class="lang-selection-card" data-value="de">
+                                <div class="lang-selection-card lang-btn-soon" data-value="de">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇩🇪</span>
                                     <span class="name" data-translate-key="german">Deutsch</span>
                                 </div>
-                                <div class="lang-selection-card" data-value="pt">
+                                <div class="lang-selection-card lang-btn-soon" data-value="pt">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇵🇹</span>
                                     <span class="name" data-translate-key="portuguese">Português</span>
                                 </div>
-                                <div class="lang-selection-card" data-value="hy">
+                                <div class="lang-selection-card lang-btn-soon" data-value="hy">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇦🇲</span>
                                     <span class="name" data-translate-key="armenian">Հայերեն</span>
                                 </div>
-                                <div class="lang-selection-card" data-value="ka">
+                                <div class="lang-selection-card lang-btn-soon" data-value="ka">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇬🇪</span>
                                     <span class="name" data-translate-key="georgian">ქართული</span>
                                 </div>
-                                <div class="lang-selection-card" data-value="tt">
+                                <div class="lang-selection-card lang-btn-soon" data-value="tt">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag"><img src="images/tatarstan_flag.png" class="emoji-flag" alt="Tatar"></span>
                                     <span class="name" data-translate-key="tatar">Татарча</span>
                                 </div>
-                                <div class="lang-selection-card" data-value="ba">
+                                <div class="lang-selection-card lang-btn-soon" data-value="ba">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag"><img src="images/bashkortostan_flag.png" class="emoji-flag" alt="Bashkir"></span>
                                     <span class="name" data-translate-key="bashkir">Башҡортса</span>
                                 </div>
-                                <div class="lang-selection-card" data-value="br">
+                                <div class="lang-selection-card lang-btn-soon" data-value="br">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag"><img src="images/brittany_flag.png" class="emoji-flag" alt="Breton"></span>
                                     <span class="name" data-translate-key="breton">Brezhoneg</span>
                                 </div>
@@ -359,6 +586,11 @@
                 </div>
             </div>
             <button id="back-to-menu-btn" class="cta-button" data-translate-key="back_to_menu">Back to Menu 🏠</button>
+            <div class="summary-cta">
+              <p>Want to go deeper? A real lesson takes you further.</p>
+              <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20book%20a%20lesson%20after%20practising."
+                 class="summary-wa-btn">💬 Book a lesson →</a>
+            </div>
         </div>
     </div>
 
