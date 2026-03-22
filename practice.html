@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate-key="practice_title">Practice 💡 — COSYlanguages</title>
-    <meta name="description" data-translate-key="tool_practice_desc" content="Free language practice — vocabulary, grammar and speaking exercises in English, French, Italian, Russian and Greek. All CEFR levels. No account needed.">
-    <meta property="og:title" data-translate-key="practice_title" content="Free Language Practice 💡 — COSYlanguages">
-    <meta property="og:description" data-translate-key="tool_practice_desc" content="Vocabulary, grammar and speaking exercises. Free, no account needed. 5 languages, all CEFR levels.">
+    <title>Practice 💡 — COSYlanguages</title>
+    <meta name="description" content="Free language practice — vocabulary, grammar and speaking exercises in English, French, Italian, Russian and Greek. All CEFR levels. No account needed.">
+    <meta property="og:title" content="Free Language Practice 💡 — COSYlanguages">
+    <meta property="og:description" content="Vocabulary, grammar and speaking exercises. Free, no account needed. 5 languages, all CEFR levels.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/practice.html">
     <link rel="icon" href="images/cosylanguages.png">
@@ -233,13 +233,12 @@ nav {
 
 /* ── Coming soon language buttons ── */
 .lang-btn-soon {
-  opacity: .42 !important;
+  opacity: .45 !important;
   pointer-events: none !important;
   cursor: not-allowed !important;
   position: relative;
 }
-.lang-btn-soon::after {
-  content: 'Soon';
+.soon-badge {
   position: absolute; top: .2rem; right: .2rem;
   font-size: .52rem; font-weight: 900; letter-spacing: .04em;
   background: var(--cream-dark); color: var(--muted);
@@ -264,7 +263,9 @@ nav {
 .toggle-chip input:checked + span { border-color: var(--sage) !important; background: var(--sage-pale) !important; color: var(--sage-dark) !important; box-shadow: 0 0 0 3px rgba(107,143,113,.18) !important; }
 
 /* Speaking category — amber/honey — most prominent */
-span.category-btn-speaking {
+.category-btn-speaking,
+.category-btn[data-category="speaking"],
+button[value="speaking"] {
   background: var(--honey-pale) !important;
   border-color: var(--honey) !important;
   color: var(--honey-dark) !important;
@@ -437,14 +438,24 @@ select.pill-input:focus {
 
 /* ── Footer ── */
 footer {
-  text-align: center;
-  padding: 2rem;
-  background: var(--sage-deep);
-  color: rgba(255,255,255,.8);
-  font-size: .82rem;
+  background: var(--sage-deep); color: rgba(255,255,255,.78);
+  padding: 2.5rem 2rem; font-size: .82rem;
   margin-top: 3rem;
 }
-footer .contact a { color: rgba(255,255,255,.95); font-weight: 700; }
+.footer-inner { max-width: 1040px; margin: 0 auto; }
+.footer-top {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap; gap: 1.5rem; margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.footer-brand .fb-logo { display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem; }
+.footer-brand .fb-logo img { height: 36px; background: none !important; padding: 0 !important; }
+.footer-brand .fb-name { font-family: 'Lora', serif; font-weight: 700; font-size: 1rem; color: #fff; }
+.footer-brand p { font-size: .8rem; opacity: .75; max-width: 240px; line-height: 1.6; text-align: left; }
+.footer-links-col h5 { font-size: .73rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; color: rgba(255,255,255,.5); margin-bottom: .6rem; text-align: left; }
+.footer-links-col a { display: block; font-size: .8rem; color: rgba(255,255,255,.78); margin-bottom: .3rem; font-weight: 700; transition: color .18s; text-align: left; }
+.footer-links-col a:hover { color: #fff; }
+.footer-bottom { text-align: center; font-size: .75rem; opacity: .5; }
 
 @media (max-width: 600px) {
   .practice-header { padding: 2.5rem 1rem 3rem; }
@@ -545,34 +556,42 @@ footer .contact a { color: rgba(255,255,255,.95); font-weight: 700; }
                         <div class="lang-group other-languages">
                             <div class="lang-selection-grid compact" id="lang-selection-grid-other">
                                 <div class="lang-selection-card lang-btn-soon" data-value="es">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇪🇸</span>
                                     <span class="name" data-translate-key="spanish">Español</span>
                                 </div>
                                 <div class="lang-selection-card lang-btn-soon" data-value="de">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇩🇪</span>
                                     <span class="name" data-translate-key="german">Deutsch</span>
                                 </div>
                                 <div class="lang-selection-card lang-btn-soon" data-value="pt">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇵🇹</span>
                                     <span class="name" data-translate-key="portuguese">Português</span>
                                 </div>
                                 <div class="lang-selection-card lang-btn-soon" data-value="hy">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇦🇲</span>
                                     <span class="name" data-translate-key="armenian">Հայերեն</span>
                                 </div>
                                 <div class="lang-selection-card lang-btn-soon" data-value="ka">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag">🇬🇪</span>
                                     <span class="name" data-translate-key="georgian">ქართული</span>
                                 </div>
                                 <div class="lang-selection-card lang-btn-soon" data-value="tt">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag"><img src="images/tatarstan_flag.png" class="emoji-flag" alt="Tatar"></span>
                                     <span class="name" data-translate-key="tatar">Татарча</span>
                                 </div>
                                 <div class="lang-selection-card lang-btn-soon" data-value="ba">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag"><img src="images/bashkortostan_flag.png" class="emoji-flag" alt="Bashkir"></span>
                                     <span class="name" data-translate-key="bashkir">Башҡортса</span>
                                 </div>
                                 <div class="lang-selection-card lang-btn-soon" data-value="br">
+                                    <span class="soon-badge">Soon</span>
                                     <span class="flag"><img src="images/brittany_flag.png" class="emoji-flag" alt="Breton"></span>
                                     <span class="name" data-translate-key="breton">Brezhoneg</span>
                                 </div>
@@ -830,13 +849,40 @@ footer .contact a { color: rgba(255,255,255,.95); font-weight: 700; }
         </div>
     </div>
 
-    <footer>
-        <div class="contact">
-            <h3 data-translate-key="contact_title">Contact Us 📬</h3>
-            <p><span data-translate-key="contact_whatsapp">WhatsApp 📱:</span> <a href="https://wa.me/330766784195">+33 07 66 78 41 95</a></p>
-            <p><span data-translate-key="contact_telegram">Telegram ✈️:</span> <a href="https://t.me/cosylanguagesproject" target="_blank" rel="noopener noreferrer">@cosylanguages</a></p>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
         </div>
-    </footer>
+        <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_courses">Courses</h5>
+        <a href="general-course-roadmap.html" data-translate-key="course_general">General Course 📖</a>
+        <a href="spoken-roadmap.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+        <a href="exam-roadmap.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+        <a href="days.html" data-translate-key="footer_roadmap">Full Roadmap 🗺️</a>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_explore">Explore</h5>
+        <a href="#languages" data-translate-key="nav_languages">Languages 🌍</a>
+        <a href="practice.html" data-translate-key="nav_practice">Free Practice 💡</a>
+        <a href="events.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
+        <a href="#calculator" data-translate-key="nav_pricing">Pricing 🧮</a>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_contact">Contact</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+      </div>
+    </div>
+    <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>
+  </div>
+</footer>
 
     <script src="js/data/theme_config.js"></script>
     <script src="js/data/numbers.js"></script>
