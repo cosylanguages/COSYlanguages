@@ -3,39 +3,367 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate-key="nav_events">COSYlanguages - Events</title>
-    <meta name="description" data-translate-key="how_it_works_events_p1" content="Localized Content">
-    <meta property="og:title" data-translate-key="nav_events" content="Localized Content">
-    <meta property="og:description" data-translate-key="how_it_works_events_p1" content="Localized Content">
-    <meta property="og:image" content="images/cosylanguages.png">
+    <title data-translate-key="nav_events">Events 🎉 — COSYlanguages</title>
+    <meta name="description" data-translate-key="how_it_works_events_p1" content="Language clubs and interactive games to practice your skills. English, French, Italian, Russian and Greek. All CEFR levels.">
+    <meta property="og:title" data-translate-key="nav_events" content="Language Events 🎉 — COSYlanguages">
+    <meta property="og:description" data-translate-key="how_it_works_events_p1" content="Language clubs and interactive games to practice your skills. English, French, Italian, Russian and Greek. All CEFR levels.">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/events.html">
+    <link rel="icon" href="images/cosylanguages.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+/* ── Design tokens ─────────────────────────────────── */
+:root {
+  --sage:       #6b8f71;
+  --sage-dark:  #4a6b50;
+  --sage-deep:  #2e4a33;
+  --sage-mist:  #f0f5f1;
+  --sage-pale:  #e8f0e9;
+  --cream:      #fdf8f0;
+  --cream-dark: #f5ede0;
+  --honey:      #e8a838;
+  --honey-dark: #a06b10;
+  --honey-pale: #fff8e7;
+  --honey-mid:  #fef0c7;
+  --ink:        #2a2a2a;
+  --ink-soft:   #4a4a4a;
+  --muted:      #6b6b6b;
+  --border:     rgba(74,107,80,.12);
+  --radius:     18px;
+  --radius-sm:  10px;
+  --shadow-sm:  0 2px 12px rgba(46,74,51,.07);
+  --shadow:     0 6px 28px rgba(46,74,51,.10);
+}
+
+body {
+  background: var(--cream);
+  font-family: 'Nunito', sans-serif;
+  color: var(--ink);
+}
+
+/* ── Nav ────────────────────────────────────────────── */
+nav {
+  position: sticky; top: 0; z-index: 200;
+  background: rgba(253,248,240,.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  height: 66px; padding: 0 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+  box-shadow: 0 2px 16px rgba(46,74,51,.06);
+}
+.nav-logo { display: flex; align-items: center; gap: .6rem; }
+.nav-logo img { height: 44px; }
+.nav-links { display: flex; gap: .3rem; list-style: none; align-items: center; }
+.nav-links a {
+  font-weight: 700; font-size: .8rem;
+  padding: .35rem .65rem; border-radius: var(--radius-sm);
+  color: var(--ink-soft);
+  transition: background .18s, color .18s;
+}
+.nav-links a:hover { background: var(--sage-pale); color: var(--sage-dark); }
+.nav-links a.active { background: var(--sage-mist); color: var(--sage-deep); box-shadow: inset 0 0 0 1px var(--border); }
+.nav-student {
+  font-size: .75rem !important;
+  color: var(--muted) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius-sm) !important;
+}
+.nav-student:hover { background: var(--cream-dark) !important; color: var(--ink) !important; }
+.nav-wa {
+  background: var(--sage) !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+  padding: .38rem .9rem !important;
+}
+.nav-wa:hover { background: var(--sage-dark) !important; color: #fff !important; }
+.nav-lang { display: flex; gap: .2rem; margin-left: .5rem; }
+.nav-lang a {
+  font-size: .73rem; font-weight: 800;
+  padding: .2rem .38rem; border-radius: 6px;
+  color: var(--muted);
+  transition: all .18s;
+  cursor: pointer;
+}
+.nav-lang a:hover { background: var(--sage-pale); color: var(--sage-dark); }
+
+@media (max-width: 560px) {
+  nav { padding: 0 1rem; }
+  .nav-links { gap: .2rem; }
+  .nav-links a { font-size: .72rem; padding: .28rem .45rem; }
+  .nav-links li:nth-child(1), .nav-links li:nth-child(2) { display: none; }
+  .nav-lang { display: none; }
+}
+
+/* ── Events page header ── */
+.events-header {
+  background: linear-gradient(145deg, var(--sage-deep) 0%, var(--sage-dark) 50%, var(--sage) 100%);
+  color: #fff;
+  padding: 3rem 2rem 3.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.events-header::before {
+  content: '🎉';
+  position: absolute; right: 2rem; top: -1rem;
+  font-size: 10rem; opacity: .06; pointer-events: none;
+}
+.events-header::after {
+  content: '';
+  position: absolute; bottom: -2px; left: 0; right: 0;
+  height: 40px;
+  background: var(--cream);
+  clip-path: ellipse(52% 100% at 50% 100%);
+}
+.events-header-inner {
+  position: relative; max-width: 640px; margin: 0 auto;
+}
+.eh-free-label {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25);
+  border-radius: 999px; padding: .25rem .85rem;
+  font-size: .72rem; font-weight: 900; letter-spacing: .05em;
+  margin-bottom: 1rem;
+}
+.events-header h1 {
+  font-family: 'Lora', serif !important;
+  font-size: 2rem; font-weight: 700;
+  margin-bottom: .7rem;
+}
+.events-header p {
+  font-size: .95rem; opacity: .9; line-height: 1.7;
+}
+
+/* ── Main content layout ── */
+#events {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.help-details {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+  overflow: hidden;
+  transition: all .3s;
+}
+.help-details:hover { border-color: var(--sage); box-shadow: var(--shadow-sm); }
+.help-details summary {
+  padding: 1.2rem;
+  font-weight: 700;
+  color: var(--sage-dark);
+  cursor: pointer;
+  outline: none;
+}
+.info-content { padding: 0 1.2rem 1.2rem; font-size: .9rem; line-height: 1.6; }
+.info-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: .6rem; }
+.info-list li strong { color: var(--sage-deep); }
+
+/* ── Grid of tools/events ── */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+.tool-card {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 1.8rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  transition: transform .22s, box-shadow .22s;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.tool-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.tool-card h3 {
+  font-family: 'Lora', serif;
+  font-size: 1.25rem;
+  color: var(--sage-deep);
+  margin-bottom: .8rem;
+}
+.tool-card p {
+  font-size: .88rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  flex: 1;
+}
+
+/* Speaking Clubs specific highlight */
+.tool-card.speaking-highlight {
+  border-color: var(--honey);
+  background: linear-gradient(180deg, #fff 0%, var(--honey-pale) 100%);
+}
+.tool-card.speaking-highlight h3 { color: var(--honey-dark); }
+
+/* ── Games section ── */
+.games-categories { display: flex; flex-direction: column; gap: 2rem; }
+.game-category h4 {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  color: var(--sage-dark);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.game-category h4::after {
+  content: ''; flex: 1; height: 1px; background: var(--border);
+}
+.game-category.speaking-highlight h4 { color: var(--honey-dark); }
+.game-category.speaking-highlight h4::after { background: var(--honey); opacity: .3; }
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.game-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  text-align: center;
+  transition: all .2s;
+  cursor: pointer;
+}
+.game-card:hover { border-color: var(--sage); background: var(--sage-mist); }
+
+.gc-play-btn {
+  width: 100%;
+  margin: 0 !important;
+}
+
+/* Highlighted games */
+.game-category.speaking-highlight .game-card:hover { border-color: var(--honey); background: var(--honey-pale); }
+
+/* ── Footer ───────────────────────────────────────────── */
+footer {
+  background: var(--sage-deep); color: rgba(255,255,255,.78);
+  padding: 2.5rem 2rem; font-size: .82rem;
+  margin-top: 4rem;
+}
+.footer-inner { max-width: 1040px; margin: 0 auto; }
+.footer-top {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap; gap: 1.5rem; margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.footer-brand .fb-logo { display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem; }
+.footer-brand .fb-logo img { height: 36px; }
+.footer-brand .fb-name { font-family: 'Lora', serif; font-weight: 700; font-size: 1rem; color: #fff; }
+.footer-brand p { font-size: .8rem; opacity: .75; max-width: 240px; line-height: 1.6; text-align: left;}
+.footer-links-col h5 { font-size: .73rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; color: rgba(255,255,255,.5); margin-bottom: .6rem; text-align: left;}
+.footer-links-col a { display: block; font-size: .8rem; color: rgba(255,255,255,.78); margin-bottom: .3rem; font-weight: 700; transition: color .18s; text-align: left;}
+.footer-links-col a:hover { color: #fff; }
+.footer-bottom { text-align: center; font-size: .75rem; opacity: .5; }
+
+/* ── Topics list ── */
+#speaking-club-topics ul { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .8rem; margin-top: 1rem; }
+#speaking-club-topics li { background: rgba(255,255,255,.5); padding: .6rem 1rem; border-radius: var(--radius-sm); font-size: .85rem; font-weight: 700; color: var(--sage-deep); border: 1px solid var(--border); }
+.speaking-highlight #speaking-club-topics li { background: #fff; border-color: var(--honey); color: var(--honey-dark); }
+
+/* ── Modals standardisation ── */
+.modal-overlay { z-index: 10000 !important; }
+.modal-content {
+  background: #fff !important;
+  border-radius: var(--radius) !important;
+  padding: 2.5rem 2rem !important;
+  box-shadow: var(--shadow) !important;
+  border-top: 4px solid var(--sage) !important;
+}
+.modal-content h2 {
+  font-family: 'Lora', serif !important;
+  font-size: 1.6rem !important;
+  color: var(--sage-deep) !important;
+  margin-bottom: 1.5rem !important;
+  background: none !important;
+  -webkit-text-fill-color: initial !important;
+}
+.cta-button.primary {
+  background: var(--sage) !important;
+  color: #fff !important;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 900 !important;
+  padding: .75rem 2rem !important;
+  border-radius: 999px !important;
+  border: none !important;
+  box-shadow: 0 4px 16px rgba(107,143,113,.3) !important;
+  cursor: pointer;
+  transition: transform .18s, box-shadow .18s;
+}
+.cta-button.primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(107,143,113,.4) !important; }
+
+.cta-button.secondary {
+  background: var(--cream) !important;
+  color: var(--ink-soft) !important;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: .85rem !important;
+  padding: .6rem 1.2rem !important;
+  border-radius: 999px !important;
+  border: 1.5px solid var(--border) !important;
+  cursor: pointer !important;
+  transition: all .18s !important;
+  box-shadow: none !important;
+}
+.cta-button.secondary:hover { border-color: var(--sage) !important; background: var(--sage-pale) !important; }
+
+/* Honey styling for Speaking CTA */
+.speaking-highlight .cta-button.primary {
+  background: var(--honey) !important;
+  box-shadow: 0 4px 16px rgba(232,168,56,.3) !important;
+}
+.speaking-highlight .cta-button.primary:hover {
+  box-shadow: 0 6px 20px rgba(232,168,56,.4) !important;
+}
+</style>
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="images/cosylanguages.png" alt="COSYlanguages Logo">
-        </div>
-        <nav><ul><li><a href="index.html#how" data-translate-key="nav_how">How it works</a></li><li><a href="index.html#courses" data-translate-key="nav_courses">Courses</a></li><li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li><li><a href="practice.html" data-translate-key="nav_practice">Practice 💡</a></li><li><a href="index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li><li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li><li><a href="days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li></ul></nav><div class="nav-lang"><a href="languages/en.html" data-lang="en">EN</a><a href="languages/fr.html" data-lang="fr">FR</a><a href="languages/it.html" data-lang="it">IT</a><a href="languages/ru.html" data-lang="ru">RU</a><a href="languages/el.html" data-lang="el">EL</a></div>
-        <div class="language-switcher-container">
-            <select id="language-switcher">
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-                <option value="it">Italiano</option>
-                <option value="ru">Русский</option>
-                <option value="el">Ελληνικά</option>
-            </select>
-        </div>
+<body class="events-page">
+    <nav>
+      <a class="nav-logo" href="index.html">
+        <img src="images/cosylanguages.png" alt="COSYlanguages">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#how" data-translate-key="nav_how">How it works</a></li>
+        <li><a href="index.html#courses" data-translate-key="nav_courses">Courses</a></li>
+        <li><a href="index.html#languages" data-translate-key="nav_languages">Languages</a></li>
+        <li><a href="practice.html" data-translate-key="nav_practice">Practice</a></li>
+        <li><a href="index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
+        <li><a href="events.html" class="active" data-translate-key="nav_events">Events 🎉</a></li>
+        <li><a href="days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
+        <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
+      </ul>
+      <div class="nav-lang">
+        <a href="languages/en.html" data-lang="en">EN</a><a href="languages/fr.html" data-lang="fr">FR</a><a href="languages/it.html" data-lang="it">IT</a><a href="languages/ru.html" data-lang="ru">RU</a><a href="languages/el.html" data-lang="el">EL</a>
+      </div>
+    </nav>
+
+    <header class="events-header">
+      <div class="events-header-inner">
+        <div class="eh-free-label">✅ Free — no account needed</div>
+        <h1 data-translate-key="events_title">Our Events 🎉</h1>
+        <p data-translate-key="how_it_works_events_p1">Welcome to our Events corner! Here you can find our scheduled clubs and interactive games to practice your language skills.</p>
+      </div>
     </header>
 
     <main>
         <section id="events">
-            <h2 data-translate-key="events_title">Our Events 🎉</h2>
+            <h2 data-translate-key="events_title" style="display: none;">Our Events 🎉</h2>
 
             <details class="help-details glass centered-info" open>
-                <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="how_it_works">How it works? 💡</summary>
+                <summary style="cursor: pointer; font-weight: bold; color: var(--sage-dark);" data-translate-key="how_it_works">How it works? 💡</summary>
                 <div class="info-content">
-                    <p style="margin-bottom: 0.8rem;" data-translate-key="how_it_works_events_p1">Welcome to our Events corner! Here you can find our scheduled clubs and interactive games to practice your language skills.</p>
                     <ul class="info-list">
                         <li data-translate-key="how_it_works_events_li1">🎭 <strong>Games:</strong> Click "Show Games" to see available interactive tools. Perfect for solo or group practice!</li>
                         <li data-translate-key="how_it_works_events_li2">🗣️ <strong>Speaking Clubs:</strong> Check the topics we discuss in our live sessions.</li>
@@ -47,10 +375,10 @@
             </details>
 
             <div class="tools-grid">
-                <div class="tool-card">
+                <div class="tool-card speaking-highlight">
                     <h3 data-translate-key="event_speaking_club">Speaking Clubs 🗣️</h3>
                     <p data-translate-key="event_speaking_club_desc">Practice your speaking skills in a relaxed and friendly environment. A great way to meet new people and improve your fluency!</p>
-                    <button id="toggle-topics-btn" class="topics-toggle-btn" data-translate-key="toggle_topics_show">Show Topics</button>
+                    <button id="toggle-topics-btn" class="cta-button primary gc-play-btn" data-translate-key="toggle_topics_show">Show Topics</button>
                     <div id="speaking-club-topics" style="display: block;">
                         <ul>
                             <li data-translate-key="club_science">Keeping up with science 🧪</li>
@@ -73,23 +401,23 @@
                 <div class="tool-card">
                     <h3 data-translate-key="event_games">Game Nights 🎲</h3>
                     <p data-translate-key="event_games_desc">Play board games, card games, and video games in different languages. A fun and engaging way to learn new words and practice your communication skills.</p>
-                    <button id="toggle-games-btn" class="topics-toggle-btn" data-translate-key="toggle_games_show">Show Games</button>
+                    <button id="toggle-games-btn" class="cta-button primary gc-play-btn" data-translate-key="toggle_games_show">Show Games</button>
                     <div id="game-nights-topics" style="display: block;">
                         <div class="games-categories">
                             <div class="game-category">
                                 <h4 data-translate-key="cat_fun_adventure">Fun & Adventure 🎮</h4>
                                 <div class="games-grid" id="games">
                                     <div class="game-card" data-game="emoji-odyssey">
-                                        <button id="open-emoji-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_emoji">Play Emoji Odyssey 📖</button>
+                                        <button id="open-emoji-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_emoji">Play Emoji Odyssey 📖</button>
                                     </div>
                                     <div class="game-card" data-game="lucky-numbers">
-                                        <button id="open-bingo-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_bingo">Play Lucky Numbers 🔢</button>
+                                        <button id="open-bingo-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_bingo">Play Lucky Numbers 🔢</button>
                                     </div>
                                     <div class="game-card" data-game="word-linker">
-                                        <button id="open-linker-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_linker">Play Word Linker 🔗</button>
+                                        <button id="open-linker-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_linker">Play Word Linker 🔗</button>
                                     </div>
                                     <div class="game-card" data-game="last-letter">
-                                        <button id="open-last-letter-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_last_letter">Play Last Letter 🔤</button>
+                                        <button id="open-last-letter-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_last_letter">Play Last Letter 🔤</button>
                                     </div>
                                 </div>
                             </div>
@@ -97,30 +425,30 @@
                                 <h4 data-translate-key="cat_mystery_guesses">Mystery & Guesses 🕵️</h4>
                                 <div class="games-grid">
                                     <div class="game-card" data-game="action-hero">
-                                        <button id="open-charades-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Action Hero 🎭</button>
+                                        <button id="open-charades-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_charades">Play Action Hero 🎭</button>
                                     </div>
                                     <div class="game-card" data-game="identity-mystery">
-                                        <button id="open-guess-who-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_guess_who">Play Identity Mystery 👤</button>
+                                        <button id="open-guess-who-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_guess_who">Play Identity Mystery 👤</button>
                                     </div>
                                     <div class="game-card" data-game="object-quest">
-                                        <button id="open-guess-what-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_guess_what">Play Object Quest 📦</button>
+                                        <button id="open-guess-what-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_guess_what">Play Object Quest 📦</button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="game-category">
+                            <div class="game-category speaking-highlight">
                                 <h4 data-translate-key="cat_speaking_fluency">Speaking & Fluency 🗣️</h4>
                                 <div class="games-grid">
                                     <div class="game-card" data-game="fluency-flow">
-                                        <button id="open-talk-talk-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_talk_talk">Play Fluency Flow 🗣️</button>
+                                        <button id="open-talk-talk-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_talk_talk">Play Fluency Flow 🗣️</button>
                                     </div>
                                     <div class="game-card" data-game="battle-of-wits">
-                                        <button id="open-debates-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_debates">Play Battle of Wits ⚖️</button>
+                                        <button id="open-debates-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_debates">Play Battle of Wits ⚖️</button>
                                     </div>
                                     <div class="game-card" data-game="opinion-arena">
-                                        <button id="open-opinion-arena-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_opinion_arena">Play Opinion Arena 🏟️</button>
+                                        <button id="open-opinion-arena-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_opinion_arena">Play Opinion Arena 🏟️</button>
                                     </div>
                                     <div class="game-card" data-game="critics-corner">
-                                        <button id="open-critics-corner-btn" class="gc-play-btn topics-toggle-btn secondary-btn" data-translate-key="play_critics_corner">Play Critic's Corner 🎭</button>
+                                        <button id="open-critics-corner-btn" class="gc-play-btn cta-button secondary" data-translate-key="play_critics_corner">Play Critic's Corner 🎭</button>
                                     </div>
                                 </div>
                             </div>
@@ -1039,13 +1367,40 @@
 
     </main>
 
-    <footer>
-        <div class="contact">
-            <h3 data-translate-key="contact_title">Contact Us 📬</h3>
-            <p><span data-translate-key="contact_whatsapp">WhatsApp 📱:</span> <a href="https://wa.me/330766784195">+33 07 66 78 41 95</a></p>
-            <p><span data-translate-key="contact_telegram">Telegram ✈️:</span> <a href="https://t.me/cosylanguagesproject" target="_blank" rel="noopener noreferrer">@cosylanguages</a></p>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
         </div>
-    </footer>
+        <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_courses">Courses</h5>
+        <a href="general-course-roadmap.html" data-translate-key="course_general">General Course 📖</a>
+        <a href="spoken-roadmap.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+        <a href="exam-roadmap.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+        <a href="days.html" data-translate-key="footer_roadmap">Full Roadmap 🗺️</a>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_explore">Explore</h5>
+        <a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
+        <a href="practice.html" data-translate-key="nav_practice">Free Practice 💡</a>
+        <a href="events.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
+        <a href="index.html#calculator" data-translate-key="nav_pricing">Pricing 🧮</a>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_contact">Contact</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+      </div>
+    </div>
+    <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>
+  </div>
+</footer>
 
     <script src="js/data/theme_config.js"></script>
     <script src="js/data/numbers.js"></script>
