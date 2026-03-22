@@ -12,30 +12,51 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="language-page italian-page">
-    <header>
-        <div class="logo">
-            <a href="../index.html"><img src="../images/cosylanguages.png" alt="COSYlanguages Logo"></a>
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="wa-fab" title="Chat on WhatsApp">💬</a>
+
+    <nav>
+        <a class="nav-logo" href="../index.html">
+            <img src="../images/cosylanguages.png" alt="COSYlanguages">
+        </a>
+        <ul class="nav-links">
+            <li><a href="../index.html#how" data-translate-key="nav_how">How it works</a></li>
+            <li><a href="../index.html#courses" data-translate-key="nav_courses">Courses</a></li>
+            <li><a href="../index.html#languages" data-translate-key="nav_languages">Languages</a></li>
+            <li><a href="../practice.html" data-translate-key="nav_practice">Practice</a></li>
+            <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
+            <li><a href="../events.html" data-translate-key="nav_events">Events 🎉</a></li>
+            <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
+            <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
+        </ul>
+        <div class="nav-lang">
+            <a href="en.html" data-lang="en">EN</a><a href="fr.html" data-lang="fr">FR</a><a href="it.html" data-lang="it">IT</a><a href="ru.html" data-lang="ru">RU</a><a href="el.html" data-lang="el">EL</a>
         </div>
-        <nav><ul><li><a href="../index.html#how" data-translate-key="nav_how">How it works</a></li><li><a href="../index.html#courses" data-translate-key="nav_courses">Courses</a></li><li><a href="../index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li><li><a href="../practice.html" data-translate-key="nav_practice">Practice 💡</a></li><li><a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li><li><a href="../events.html" data-translate-key="nav_events">Events 🎉</a></li><li><a href="../days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li></ul></nav><div class="nav-lang"><a href="en.html" data-lang="en">EN</a><a href="fr.html" data-lang="fr">FR</a><a href="it.html" data-lang="it">IT</a><a href="ru.html" data-lang="ru">RU</a><a href="el.html" data-lang="el">EL</a></div>
-        <div class="language-switcher-container">
-            <select id="language-switcher">
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-                <option value="it">Italiano</option>
-                <option value="ru">Русский</option>
-                <option value="el">Ελληνικά</option>
-            </select>
+    </nav>
+
+    <header class="hero" style="padding: 4rem 2rem 5rem;">
+      <div class="hero-inner" style="display: block; text-align: center; max-width: 800px;">
+        <div class="hero-tag" data-translate-key="hero_tag">🏡 COSYlanguages</div>
+        <h1 data-translate-key="cosy_italiano_title">Benvenuti a COSYitaliano</h1>
+        <p class="hero-sub" style="margin: 0 auto 2rem;" data-translate-key="cosy_italiano_intro">Impara l'italiano con noi!</p>
+        <div class="hero-ctas" style="justify-content: center;">
+          <a href="https://wa.me/330766784195" class="btn-primary" data-translate-key="hero_cta_wa">💬 Prenota una lezione</a>
+          <a href="../practice.html" class="btn-ghost" data-translate-key="nav_practice">Prova la pratica 💡</a>
         </div>
+      </div>
+      <div class="hero-wave">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fdf8f0"/>
+        </svg>
+      </div>
     </header>
 
     <main>
-        <section id="language-hero">
-            <h1 data-translate-key="cosy_italiano_title">Benvenuti a COSYitaliano</h1>
-            <p data-translate-key="cosy_italiano_intro">Impara l'italiano con noi!</p>
-        </section>
-
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="learning_resources">Risorse di apprendimento 📚</h2>
+        <section class="reveal">
+            <div class="sec-head">
+                <span class="sec-tag" data-translate-key="learning_resources">Risorse</span>
+                <h2 data-translate-key="learning_resources">Risorse di apprendimento 📚</h2>
+            </div>
             <div class="tools-grid">
                 <a href="https://www.treccani.it/vocabolario/" target="_blank" rel="noopener noreferrer" class="tool-card">
                     <h3 data-translate-key="treccani_dictionary">Vocabolario Treccani</h3>
@@ -56,22 +77,28 @@
             </div>
         </section>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="daily_dose_title">Your Daily Dose 💊</h2>
+        <section class="reveal">
+            <div class="sec-head">
+                <span class="sec-tag" data-translate-key="daily_dose_title">Quotidiano</span>
+                <h2 data-translate-key="daily_dose_title">Your Daily Dose 💊</h2>
+            </div>
             <div class="tools-grid">
-                <div class="tool-card">
+                <div class="tool-card event-item">
                     <h3 data-translate-key="word_of_the_day">Parola del giorno</h3>
                     <p id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Caricamento...</p>
                 </div>
-                <div class="tool-card" id="fun-fact-card">
+                <div class="tool-card event-item" id="fun-fact-card">
                     <h3 data-translate-key="fun_fact_title">Fun Fact of the Day 🤣</h3>
                     <p id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Loading...</p>
                 </div>
             </div>
         </section>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="media_culture">Media & Cultura 🎭</h2>
+        <section class="reveal">
+            <div class="sec-head">
+                <span class="sec-tag" data-translate-key="media_culture">Cultura</span>
+                <h2 data-translate-key="media_culture">Media & Cultura 🎭</h2>
+            </div>
             <div class="tools-grid">
                 <a href="https://radio.garden/" target="_blank" rel="noopener noreferrer" class="tool-card">
                     <h3 data-translate-key="radio_garden">Radio Garden 📻</h3>
@@ -84,12 +111,15 @@
             </div>
         </section>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="daily_life">Vita quotidiana 🛒</h2>
-            <h3 class="country-header" data-translate-key="italy">Italia 🇮🇹</h3>
+        <section class="reveal">
+            <div class="sec-head">
+                <span class="sec-tag" data-translate-key="daily_life">Stile di vita</span>
+                <h2 data-translate-key="daily_life">Vita quotidiana 🛒</h2>
+            </div>
+            <h3 style="text-align: center; margin: 2rem 0 1rem; color: var(--sage-deep);" data-translate-key="italy">Italia 🇮🇹</h3>
             <div class="tools-grid">
-                <div class="tool-card">
-                    <h4 data-translate-key="fashion_beauty">Moda & Bellezza 💄</h4>
+                <div class="tool-card event-item">
+                    <h4 style="color: var(--sage); margin-bottom: 1rem;" data-translate-key="fashion_beauty">Moda & Bellezza 💄</h4>
                     <a href="https://www.zalando.it/" target="_blank" rel="noopener noreferrer">
                         <h5 data-translate-key="zalando">Zalando</h5>
                         <p data-translate-key="zalando_desc">Negozio online di moda.</p>
@@ -99,8 +129,8 @@
                         <p data-translate-key="sephora_it_desc">Cosmetici e prodotti di bellezza.</p>
                     </a>
                 </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="electronics_home">Elettronica & Casa 🏡</h4>
+                <div class="tool-card event-item">
+                    <h4 style="color: var(--sage); margin-bottom: 1rem;" data-translate-key="electronics_home">Elettronica & Casa 🏡</h4>
                     <a href="https://www.mediaworld.it/" target="_blank" rel="noopener noreferrer">
                         <h5 data-translate-key="mediaworld">MediaWorld</h5>
                         <p data-translate-key="mediaworld_desc">Rivenditore di elettronica.</p>
@@ -110,8 +140,8 @@
                         <p data-translate-key="unieuro_desc">Rivenditore di elettronica ed elettrodomestici.</p>
                     </a>
                 </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="food_groceries">Alimentari & Spesa 🍲</h4>
+                <div class="tool-card event-item">
+                    <h4 style="color: var(--sage); margin-bottom: 1rem;" data-translate-key="food_groceries">Alimentari & Spesa 🍲</h4>
                     <a href="https://www.coop.it/" target="_blank" rel="noopener noreferrer">
                         <h5 data-translate-key="coop">Coop</h5>
                         <p data-translate-key="coop_desc">Supermercato e negozio di alimentari.</p>
@@ -125,13 +155,40 @@
         </section>
     </main>
 
-    <footer>
-        <div class="contact">
-            <h3 data-translate-key="contact_title">Contattaci 📬</h3>
-            <p><span data-translate-key="contact_whatsapp">WhatsApp 📱:</span> <a href="https://wa.me/330766784195">+33 07 66 78 41 95</a></p>
-            <p><span data-translate-key="contact_telegram">Telegram ✈️:</span> <a href="https://t.me/cosylanguagesproject" target="_blank" rel="noopener noreferrer">@cosylanguages</a></p>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
         </div>
-    </footer>
+        <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_courses">Courses</h5>
+        <a href="../general-course-roadmap.html" data-translate-key="course_general">General Course 📖</a>
+        <a href="../spoken-roadmap.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+        <a href="../exam-roadmap.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+        <a href="../days.html" data-translate-key="footer_roadmap">Full Roadmap 🗺️</a>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_explore">Explore</h5>
+        <a href="../index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
+        <a href="../practice.html" data-translate-key="nav_practice">Free Practice 💡</a>
+        <a href="../events.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
+        <a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing 🧮</a>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_contact">Contact</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="../days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+      </div>
+    </div>
+    <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>
+  </div>
+</footer>
 
 
     <script src="../js/data/germanic/en/translations.js"></script>

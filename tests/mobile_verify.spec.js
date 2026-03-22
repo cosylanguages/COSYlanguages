@@ -8,6 +8,7 @@ test('mobile view screenshots', async ({ page }) => {
 
     // Show games grid
     await page.click('#toggle-games-btn');
+    await page.waitForSelector('#game-nights-topics', { state: 'visible' });
     await page.waitForSelector('#open-bingo-btn', { state: 'visible' });
 
     // Test Bingo Modal

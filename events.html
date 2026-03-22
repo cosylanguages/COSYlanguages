@@ -3,1028 +3,864 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate-key="nav_events">COSYlanguages - Events</title>
-    <meta name="description" data-translate-key="how_it_works_events_p1" content="Localized Content">
-    <meta property="og:title" data-translate-key="nav_events" content="Localized Content">
-    <meta property="og:description" data-translate-key="how_it_works_events_p1" content="Localized Content">
+    <title data-translate-key="nav_events">Events & Games 🎉 — COSYlanguages</title>
+    <meta name="description" content="Free language games — play solo or with friends in any language. Plus bookable live events: speaking clubs, karaoke nights and cinema evenings.">
+    <meta property="og:title" content="Events & Games 🎉 — COSYlanguages">
+    <meta property="og:description" content="11 free interactive language games + bookable live events. Speaking clubs, karaoke, cinema. All languages, all levels.">
     <meta property="og:image" content="images/cosylanguages.png">
-    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/events.html">
+    <link rel="icon" href="images/cosylanguages.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+/* ── Events page header ── */
+.events-header {
+  background: linear-gradient(145deg, var(--sage-deep) 0%, var(--sage-dark) 45%, #5a8f6a 100%);
+  color: #fff;
+  padding: 4rem 2rem 4.5rem;
+  text-align: center;
+  position: relative; overflow: hidden;
+}
+.events-header::before {
+  content: '🎉';
+  position: absolute; right: 2rem; top: -1rem;
+  font-size: 12rem; opacity: .055; pointer-events: none;
+}
+.events-header-wave {
+  position: absolute; bottom: -2px; left: 0; right: 0;
+  height: 60px; overflow: hidden;
+}
+.events-header-wave svg { width: 100%; height: 100%; }
+.events-header-inner {
+  position: relative; max-width: 620px; margin: 0 auto; z-index: 2;
+}
+.eh-eyebrow {
+  display: inline-flex; align-items: center; gap: .4rem;
+  background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25);
+  border-radius: 999px; padding: .25rem .85rem;
+  font-size: .73rem; font-weight: 900; letter-spacing: .05em;
+  margin-bottom: 1.1rem;
+}
+.events-header h1 {
+  font-family: 'Lora', serif !important;
+  font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 700; margin-bottom: .7rem;
+}
+.events-header p {
+  font-size: .95rem; opacity: .9; line-height: 1.7; margin-bottom: 1.4rem;
+}
+/* free vs bookable legend */
+.eh-legend {
+  display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;
+}
+.eh-legend-item {
+  display: flex; align-items: center; gap: .5rem;
+  background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2);
+  border-radius: 999px; padding: .35rem .9rem;
+  font-size: .8rem; font-weight: 700;
+}
+.eh-legend-item.free  { border-color: rgba(232,168,56,.5); background: rgba(232,168,56,.15); }
+.eh-legend-item.paid  { border-color: rgba(255,255,255,.3); }
+.eh-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.free .eh-dot { background: #4CAF50; }
+.paid .eh-dot { background: var(--honey); }
+
+/* ── Games section ── */
+.games-section { padding: 3rem 0 2rem; }
+.games-section-inner { max-width: 1040px; margin: 0 auto; padding: 0 1.5rem; }
+
+.gs-header { text-align: center; margin-bottom: 2.2rem; }
+.gs-free-label {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: #e5f4ec; color: #1a6b45;
+  font-size: .68rem; font-weight: 900; letter-spacing: .05em;
+  padding: .22rem .65rem; border-radius: 999px; margin-bottom: .8rem;
+}
+.gs-header h2 {
+  font-family: 'Lora', serif !important;
+  font-size: 1.7rem; font-weight: 700; color: var(--sage-deep);
+  margin-bottom: .4rem;
+}
+.gs-header p { font-size: .92rem; color: var(--muted); margin-bottom: .9rem; }
+.gs-share-tip {
+  display: inline-block;
+  background: var(--honey-pale); border: 1px solid rgba(232,168,56,.4);
+  border-radius: var(--radius-sm); padding: .55rem 1rem;
+  font-size: .8rem; color: var(--honey-dark); line-height: 1.5;
+  max-width: 520px;
+}
+
+/* ── Game category labels ── */
+.game-category-label {
+  font-size: .72rem; font-weight: 900; letter-spacing: .07em;
+  color: var(--sage); text-transform: uppercase;
+  margin: 2rem 0 .9rem;
+  display: flex; align-items: center; gap: .6rem;
+}
+.game-category-label::after {
+  content: ''; flex: 1; height: 1px; background: var(--sage-pale);
+}
+.speaking-cat { color: var(--honey-dark); }
+.speaking-cat::after { background: var(--honey-mid); }
+
+/* ── Game cards grid ── */
+.game-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: .9rem;
+  margin-bottom: .5rem;
+}
+
+/* ── Individual game card ── */
+.game-card {
+  background: #fff;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  padding: 1.2rem;
+  display: flex; flex-direction: column; gap: .7rem;
+  transition: transform .22s, box-shadow .22s, border-color .22s;
+}
+.game-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+  border-color: var(--sage);
+}
+.game-card-speak {
+  background: var(--honey-pale);
+  border-color: rgba(232,168,56,.4);
+}
+.game-card-speak:hover { border-color: var(--honey); }
+
+.gc-icon { font-size: 1.8rem; line-height: 1; }
+.gc-body { flex: 1; }
+.gc-title {
+  font-family: 'Lora', serif;
+  font-size: .95rem; font-weight: 700;
+  color: var(--sage-deep); margin-bottom: .25rem;
+}
+.gc-desc { font-size: .78rem; color: var(--muted); line-height: 1.55; margin-bottom: .5rem; }
+.gc-tags { display: flex; flex-wrap: wrap; gap: .3rem; }
+.gc-tag {
+  font-size: .66rem; font-weight: 700;
+  background: var(--sage-mist); color: var(--sage-dark);
+  border: 1px solid var(--border); border-radius: 999px;
+  padding: .12rem .45rem;
+}
+.game-card-speak .gc-tag {
+  background: var(--honey-mid); color: var(--honey-dark);
+  border-color: rgba(232, 168, 56, 0.3);
+}
+
+.gc-play-btn {
+  background: var(--sage); color: #fff;
+  font-family: 'Nunito', sans-serif; font-weight: 900; font-size: .8rem;
+  padding: .45rem 1rem; border-radius: 999px; border: none; cursor: pointer;
+  transition: opacity .18s, transform .18s;
+  align-self: flex-start;
+}
+.gc-play-btn:hover { opacity: .87; transform: scale(1.04); }
+.gc-speak-btn { background: var(--honey); }
+.gc-speak-btn:hover { opacity: .87; }
+
+/* ── Live events section ── */
+.live-events-section {
+  background: var(--cream-dark);
+  border-top: 1px solid var(--border-warm);
+  padding: 3.5rem 0 4rem;
+}
+.live-events-inner { max-width: 1040px; margin: 0 auto; padding: 0 1.5rem; }
+
+.le-header { text-align: center; margin-bottom: 2.2rem; }
+.le-label {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: var(--cream); border: 1px solid var(--border-warm);
+  color: var(--bark); font-size: .68rem; font-weight: 900; letter-spacing: .05em;
+  padding: .22rem .65rem; border-radius: 999px; margin-bottom: .8rem;
+}
+.le-header h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.7rem; font-weight: 700; color: var(--bark);
+  margin-bottom: .4rem;
+}
+.le-header p { font-size: .92rem; color: var(--muted); }
+
+.le-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.1rem;
+}
+
+.le-card {
+  background: #fff; border-radius: var(--radius);
+  border: 1px solid var(--border-warm);
+  box-shadow: var(--shadow-sm); padding: 1.4rem;
+  display: flex; flex-direction: column; gap: .6rem;
+  transition: transform .22s, box-shadow .22s;
+}
+.le-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.le-icon { font-size: 2rem; line-height: 1; }
+.le-card h3 {
+  font-family: 'Lora', serif;
+  font-size: .95rem; font-weight: 700;
+  color: var(--bark); margin: 0;
+}
+.le-card p { font-size: .8rem; color: var(--muted); line-height: 1.6; flex: 1; }
+
+/* speaking club topics */
+.le-topics-label { font-size: .68rem; font-weight: 900; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; margin-bottom: .4rem; }
+.le-topic-pills { display: flex; flex-wrap: wrap; gap: .3rem; margin-bottom: .5rem; }
+.le-topic-pills span {
+  font-size: .68rem; font-weight: 700;
+  background: var(--sage-pale); color: var(--sage-dark);
+  border: 1px solid var(--border); border-radius: 999px; padding: .15rem .5rem;
+}
+
+.le-cta {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: var(--bark); color: #fff;
+  font-family: 'Nunito', sans-serif; font-weight: 800; font-size: .78rem;
+  padding: .45rem 1rem; border-radius: 999px;
+  transition: opacity .18s; align-self: flex-start;
+}
+.le-cta:hover { opacity: .88; }
+
+/* ── Individual game panels ── */
+.modal-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(46, 74, 51, 0.4); backdrop-filter: blur(4px);
+    display: flex; align-items: center; justify-content: center; z-index: 1000;
+    padding: 1.5rem;
+}
+.modal-content {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border);
+  padding: 2rem;
+  max-width: 600px; width: 100%;
+  max-height: 90vh; overflow-y: auto;
+  position: relative;
+}
+
+.modal-content h2 {
+  font-family: 'Lora', serif !important;
+  font-size: 1.5rem !important; font-weight: 700 !important;
+  color: var(--sage-deep) !important; margin-bottom: 1.5rem !important;
+  text-align: center;
+}
+
+.game-main-card {
+    background: var(--sage-mist); border: 2px solid var(--sage-pale); border-radius: var(--radius-sm);
+    padding: 2.5rem; text-align: center; margin: 1.5rem 0;
+}
+.game-emoji-large { font-size: 6rem; margin-bottom: 1.5rem; }
+.game-word-large { font-size: 2.2rem; font-weight: 700; color: var(--sage-deep); }
+.game-timer {
+    font-size: 2.2rem !important; font-weight: 800 !important; color: var(--sage-dark) !important; margin-bottom: 1rem; text-align: center;
+}
+
+.setup-group { margin-bottom: 1.2rem; text-align: left; }
+.setup-group label { display: block; font-size: .75rem; font-weight: 800; color: var(--muted); margin-bottom: .4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.setup-row { display: flex; gap: 1rem; }
+
+.pill-input {
+    width: 100%; padding: .6rem .9rem; border-radius: var(--radius-sm); border: 1.5px solid var(--border);
+    background: var(--cream); font-family: 'Nunito', sans-serif; font-size: .85rem; font-weight: 700; color: var(--ink);
+}
+
+.choices-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .events-header { padding: 3rem 1rem 3.5rem; }
+  .events-header h1 { font-size: 1.8rem; }
+  .game-cards-grid { grid-template-columns: 1fr 1fr; }
+  .le-grid { grid-template-columns: 1fr; }
+  .setup-row { flex-direction: column; gap: 0; }
+}
+@media (max-width: 400px) {
+  .game-cards-grid { grid-template-columns: 1fr; }
+}
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="images/cosylanguages.png" alt="COSYlanguages Logo">
+    <nav>
+        <a class="nav-logo" href="index.html">
+            <img src="images/cosylanguages.png" alt="COSYlanguages">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html#how" data-translate-key="nav_how">How it works</a></li>
+            <li><a href="index.html#courses" data-translate-key="nav_courses">Courses</a></li>
+            <li><a href="index.html#languages" data-translate-key="nav_languages">Languages</a></li>
+            <li><a href="practice.html" data-translate-key="nav_practice">Practice</a></li>
+            <li><a href="index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
+            <li><a href="events.html" class="active" data-translate-key="nav_events">Events 🎉</a></li>
+            <li><a href="days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
+            <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
+        </ul>
+        <div class="nav-lang">
+            <a data-lang="en">EN</a><a data-lang="fr">FR</a><a data-lang="it">IT</a><a data-lang="ru">RU</a><a data-lang="el">EL</a>
         </div>
-        <nav><ul><li><a href="index.html#how" data-translate-key="nav_how">How it works</a></li><li><a href="index.html#courses" data-translate-key="nav_courses">Courses</a></li><li><a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a></li><li><a href="practice.html" data-translate-key="nav_practice">Practice 💡</a></li><li><a href="index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li><li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li><li><a href="days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li></ul></nav><div class="nav-lang"><a href="languages/en.html" data-lang="en">EN</a><a href="languages/fr.html" data-lang="fr">FR</a><a href="languages/it.html" data-lang="it">IT</a><a href="languages/ru.html" data-lang="ru">RU</a><a href="languages/el.html" data-lang="el">EL</a></div>
-        <div class="language-switcher-container">
-            <select id="language-switcher">
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-                <option value="it">Italiano</option>
-                <option value="ru">Русский</option>
-                <option value="el">Ελληνικά</option>
-            </select>
+    </nav>
+
+    <header class="events-header">
+        <div class="events-header-inner">
+            <div class="eh-eyebrow" data-translate-key="nav_events">🎉 Events & Games</div>
+            <h1 data-translate-key="events_hero_h1">Play. Practise. Connect.</h1>
+            <p data-translate-key="events_hero_p">Free interactive games you can play right now — solo or with friends. Plus bookable live events with a teacher or host.</p>
+            <div class="eh-legend">
+                <div class="eh-legend-item free">
+                    <span class="eh-dot"></span>
+                    <span data-translate-key="legend_free">✅ <strong>Free games</strong> — play anytime</span>
+                </div>
+                <div class="eh-legend-item paid">
+                    <span class="eh-dot"></span>
+                    <span data-translate-key="legend_events">📅 <strong>Live events</strong> — organised sessions</span>
+                </div>
+            </div>
+        </div>
+        <div class="events-header-wave">
+            <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/>
+            </svg>
         </div>
     </header>
 
     <main>
-        <section id="events">
-            <h2 data-translate-key="events_title">Our Events 🎉</h2>
-
-            <details class="help-details glass centered-info" open>
-                <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="how_it_works">How it works? 💡</summary>
-                <div class="info-content">
-                    <p style="margin-bottom: 0.8rem;" data-translate-key="how_it_works_events_p1">Welcome to our Events corner! Here you can find our scheduled clubs and interactive games to practice your language skills.</p>
-                    <ul class="info-list">
-                        <li data-translate-key="how_it_works_events_li1">🎭 <strong>Games:</strong> Click "Show Games" to see available interactive tools. Perfect for solo or group practice!</li>
-                        <li data-translate-key="how_it_works_events_li2">🗣️ <strong>Speaking Clubs:</strong> Check the topics we discuss in our live sessions.</li>
-                        <li data-translate-key="how_it_works_events_li3">🎤 <strong>Immersive Nights:</strong> Join us for karaoke or cinema to learn in a fun, cultural way.</li>
-                        <li data-translate-key="how_it_works_events_li4">👥 <strong>Play Together:</strong> To play with friends, click "Share" and send the link. The 'Game Code' (or seed in the URL) ensures everyone has the same board or sequence, whether playing online or sitting together offline!</li>
-                        <li data-translate-key="how_it_works_events_li5">👤 <strong>Solo Mode:</strong> Most games have a "Solo Mode" or can be played alone to practice at your own pace.</li>
-                    </ul>
-                </div>
-            </details>
-
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h3 data-translate-key="event_speaking_club">Speaking Clubs 🗣️</h3>
-                    <p data-translate-key="event_speaking_club_desc">Practice your speaking skills in a relaxed and friendly environment. A great way to meet new people and improve your fluency!</p>
-                    <button id="toggle-topics-btn" class="topics-toggle-btn" data-translate-key="toggle_topics_show">Show Topics</button>
-                    <div id="speaking-club-topics" style="display: none;">
-                        <ul>
-                            <li data-translate-key="club_science">Keeping up with science 🧪</li>
-                            <li data-translate-key="club_quotes">The greatest quotes 📜</li>
-                            <li data-translate-key="club_celebrate">Let's celebrate 🥳</li>
-                            <li data-translate-key="club_mind">Mind matters 🧠</li>
-                            <li data-translate-key="club_wonder">I couldn't help but wonder 🤔</li>
-                            <li data-translate-key="club_debatable">Debatable & relatable 🧐</li>
-                        </ul>
+        <section class="games-section" id="games">
+            <div class="games-section-inner">
+                <div class="gs-header">
+                    <div class="gs-free-label" data-translate-key="tool_free_label">✅ Always free — play now</div>
+                    <h2 data-translate-key="tool_games_title">Language Games 🎮</h2>
+                    <p data-translate-key="tool_games_desc_long">Play solo or share a link to play with friends. Works in all languages at any CEFR level.</p>
+                    <button id="toggle-games-btn" class="gc-play-btn" style="margin: 1.5rem auto; width: auto; padding: 0.8rem 2.5rem; display: block;" data-translate-key="toggle_games_show">Show Games</button>
+                    <div class="gs-share-tip" data-translate-key="gs_share_tip">
+                        💡 <strong>Playing with friends?</strong> Hit "Share 🔗" inside any game — everyone who opens the link gets the same board.
                     </div>
                 </div>
-                <div class="tool-card">
-                    <h3 data-translate-key="event_karaoke">Karaoke Nights 🎤</h3>
-                    <p data-translate-key="event_karaoke_desc">Sing your heart out in different languages! A fun and interactive way to learn new vocabulary and practice pronunciation.</p>
-                </div>
-                <div class="tool-card">
-                    <h3 data-translate-key="event_cinema">Cinema Evenings 🎬</h3>
-                    <p data-translate-key="event_cinema_desc">Watch movies from around the world in their original language with subtitles. A great way to immerse yourself in the culture and improve your listening skills.</p>
-                </div>
-                <div class="tool-card">
-                    <h3 data-translate-key="event_games">Game Nights 🎲</h3>
-                    <p data-translate-key="event_games_desc">Play board games, card games, and video games in different languages. A fun and engaging way to learn new words and practice your communication skills.</p>
-                    <button id="toggle-games-btn" class="topics-toggle-btn" data-translate-key="toggle_games_show">Show Games</button>
-                    <div id="game-nights-topics" style="display: none;">
-                        <div class="games-categories">
-                            <div class="game-category">
-                                <h4 data-translate-key="cat_fun_adventure">Fun & Adventure 🎮</h4>
-                                <div class="games-grid">
-                                    <button id="open-emoji-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_emoji">Play Emoji Odyssey 📖</button>
-                                    <button id="open-bingo-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_bingo">Play Lucky Numbers 🔢</button>
-                                    <button id="open-linker-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_linker">Play Word Linker 🔗</button>
-                                    <button id="open-last-letter-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_last_letter">Play Last Letter 🔤</button>
-                                </div>
+
+                <div id="game-nights-topics" style="display: none;">
+                    <div style="height: 1px; overflow: hidden; opacity: 0.01; position: absolute;">
+                      <button id="open-emoji-btn">Emoji</button>
+                      <button id="open-bingo-btn">Bingo</button>
+                      <button id="open-linker-btn">Linker</button>
+                      <button id="open-last-letter-btn">Last Letter</button>
+                      <button id="open-charades-btn">Charades</button>
+                      <button id="open-guess-who-btn">Guess Who</button>
+                      <button id="open-guess-what-btn">Guess What</button>
+                      <button id="open-talk-talk-btn">Talk Talk</button>
+                      <button id="open-debates-btn">Debates</button>
+                      <button id="open-opinion-arena-btn">Opinion Arena</button>
+                      <button id="open-critics-corner-btn">Critics Corner</button>
+                    </div>
+
+                    <div class="game-category-label" data-translate-key="cat_fun_adventure">🎮 Fun & Adventure</div>
+                    <div class="game-cards-grid">
+                        <div class="game-card">
+                            <div class="gc-icon">📖</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="game_emoji">Emoji Odyssey</div>
+                                <div class="gc-desc" data-translate-key="game_emoji_desc">Guess the word or phrase from emojis — or use them to build a story together.</div>
+                                <div class="gc-tags"><span class="gc-tag">Solo</span><span class="gc-tag">Group</span><span class="gc-tag">All levels</span></div>
                             </div>
-                            <div class="game-category">
-                                <h4 data-translate-key="cat_mystery_guesses">Mystery & Guesses 🕵️</h4>
-                                <div class="games-grid">
-                                    <button id="open-charades-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_charades">Play Action Hero 🎭</button>
-                                    <button id="open-guess-who-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_who">Play Identity Mystery 👤</button>
-                                    <button id="open-guess-what-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_guess_what">Play Object Quest 📦</button>
-                                </div>
+                            <button class="gc-play-btn" onclick="showGame('emoji-odyssey')">Play →</button>
+                        </div>
+                        <div class="game-card">
+                            <div class="gc-icon">🔢</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="game_bingo">Lucky Numbers</div>
+                                <div class="gc-desc" data-translate-key="game_bingo_desc">Language bingo — the caller reads items, players mark their grid. Sync with friends.</div>
+                                <div class="gc-tags"><span class="gc-tag">Solo</span><span class="gc-tag">Group</span><span class="gc-tag">Numbers</span></div>
                             </div>
-                            <div class="game-category">
-                                <h4 data-translate-key="cat_speaking_fluency">Speaking & Fluency 🗣️</h4>
-                                <div class="games-grid">
-                                    <button id="open-talk-talk-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_talk_talk">Play Fluency Flow 🗣️</button>
-                                    <button id="open-debates-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_debates">Play Battle of Wits ⚖️</button>
-                                    <button id="open-opinion-arena-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_opinion_arena">Play Opinion Arena 🏟️</button>
-                                    <button id="open-critics-corner-btn" class="topics-toggle-btn secondary-btn" data-translate-key="play_critics_corner">Play Critic's Corner 🎭</button>
-                                </div>
+                            <button class="gc-play-btn" onclick="showGame('lucky-numbers')">Play →</button>
+                        </div>
+                        <div class="game-card">
+                            <div class="gc-icon">🔗</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="game_word_association">Word Linker</div>
+                                <div class="gc-desc" data-translate-key="game_linker_desc">Find the word that links clues — associations or odd one out.</div>
+                                <div class="gc-tags"><span class="gc-tag">Solo</span><span class="gc-tag">Group</span><span class="gc-tag">Vocabulary</span></div>
                             </div>
+                            <button class="gc-play-btn" onclick="showGame('word-linker')">Play →</button>
+                        </div>
+                        <div class="game-card">
+                            <div class="gc-icon">🔤</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="game_last_letter">Last Letter</div>
+                                <div class="gc-desc" data-translate-key="game_last_letter_desc">Each word starts with the last letter of the previous one.</div>
+                                <div class="gc-tags"><span class="gc-tag">Solo</span><span class="gc-tag">Group</span><span class="gc-tag">Vocabulary</span></div>
+                            </div>
+                            <button class="gc-play-btn" onclick="showGame('last-letter')">Play →</button>
+                        </div>
+                    </div>
+
+                    <div class="game-category-label" data-translate-key="cat_mystery_guesses">🕵️ Mystery & Guesses</div>
+                    <div class="game-cards-grid">
+                        <div class="game-card">
+                            <div class="gc-icon">🎭</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="charades_title">Action Hero</div>
+                                <div class="gc-desc" data-translate-key="game_charades_desc">Hold your phone above your head. Others describe the word — you guess!</div>
+                                <div class="gc-tags"><span class="gc-tag">Group</span><span class="gc-tag">Speaking</span><span class="gc-tag">Lively</span></div>
+                            </div>
+                            <button class="gc-play-btn" onclick="showGame('action-hero')">Play →</button>
+                        </div>
+                        <div class="game-card">
+                            <div class="gc-icon">👤</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="game_guess_who">Identity Mystery</div>
+                                <div class="gc-desc" data-translate-key="game_guess_who_desc">Describe a person or profession. Others ask Yes/No questions.</div>
+                                <div class="gc-tags"><span class="gc-tag">Group</span><span class="gc-tag">Speaking</span><span class="gc-tag">Questions</span></div>
+                            </div>
+                            <button class="gc-play-btn" onclick="showGame('identity-mystery')">Play →</button>
+                        </div>
+                        <div class="game-card">
+                            <div class="gc-icon">📦</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="game_guess_what">Object Quest</div>
+                                <div class="gc-desc" data-translate-key="game_guess_what_desc">Describe an object or place using size, colour and location clues.</div>
+                                <div class="gc-tags"><span class="gc-tag">Group</span><span class="gc-tag">Speaking</span><span class="gc-tag">Descriptions</span></div>
+                            </div>
+                            <button class="gc-play-btn" onclick="showGame('object-quest')">Play →</button>
+                        </div>
+                    </div>
+
+                    <div class="game-category-label speaking-cat" data-translate-key="cat_speaking_fluency">🗣️ Speaking & Fluency</div>
+                    <div class="game-cards-grid">
+                        <div class="game-card game-card-speak">
+                            <div class="gc-icon">🗣️</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="talk_talk_title">Fluency Flow</div>
+                                <div class="gc-desc" data-translate-key="game_talk_talk_desc">Spin for a random topic and speak for 1–5 minutes. Just keep talking!</div>
+                                <div class="gc-tags"><span class="gc-tag">Solo</span><span class="gc-tag">Group</span><span class="gc-tag">Fluency</span></div>
+                            </div>
+                            <button class="gc-play-btn gc-speak-btn" onclick="showGame('fluency-flow')">Play →</button>
+                        </div>
+                        <div class="game-card game-card-speak">
+                            <div class="gc-icon">⚖️</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="debates_title">Battle of Wits</div>
+                                <div class="gc-desc" data-translate-key="game_debates_desc">Compare two things and build arguments for or against.</div>
+                                <div class="gc-tags"><span class="gc-tag">Group</span><span class="gc-tag">Debate</span><span class="gc-tag">B1+</span></div>
+                            </div>
+                            <button class="gc-play-btn gc-speak-btn" onclick="showGame('battle-of-wits')">Play →</button>
+                        </div>
+                        <div class="game-card game-card-speak">
+                            <div class="gc-icon">🏟️</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="opinion_arena_title">Opinion Arena</div>
+                                <div class="gc-desc" data-translate-key="game_opinion_arena_desc">Read a statement. Agree or disagree — and explain your reasoning.</div>
+                                <div class="gc-tags"><span class="gc-tag">Solo</span><span class="gc-tag">Group</span><span class="gc-tag">Opinions</span></div>
+                            </div>
+                            <button class="gc-play-btn gc-speak-btn" onclick="showGame('opinion-arena')">Play →</button>
+                        </div>
+                        <div class="game-card game-card-speak">
+                            <div class="gc-icon">🎭</div>
+                            <div class="gc-body">
+                                <div class="gc-title" data-translate-key="critics_corner_title">Critic's Corner</div>
+                                <div class="gc-desc" data-translate-key="game_critics_corner_desc">Analyse a famous quote and share your perspective.</div>
+                                <div class="gc-tags"><span class="gc-tag">Solo</span><span class="gc-tag">Group</span><span class="gc-tag">B1+</span></div>
+                            </div>
+                            <button class="gc-play-btn gc-speak-btn" onclick="showGame('critics-corner')">Play →</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Charades Game Modal -->
-        <div id="charades-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
-                <h2 data-translate-key="charades_title">Action Hero 🎭</h2>
-
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="charades_guide_text">One player holds the phone above their head. Others describe the word/emoji without saying it! Use the buttons to mark as Correct or Incorrect.</p>
-                </details>
-
-                <p data-translate-key="charades_instruction" style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">Grab a phone, set a 1-minute timer, and hold it above your head!</p>
-
-                <div id="charades-setup">
-                    <div class="setup-group" style="text-align: left; margin-bottom: 1rem;">
-                        <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="charades-lang" class="pill-input game-lang" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
-                    </div>
-
-                    <div class="setup-row" style="margin-bottom: 1rem;">
-                        <div class="setup-group" style="flex: 1; text-align: left;">
-                            <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="charades-level" class="pill-input game-level" style="width: 100%;">
-                                <option value="all" data-translate-key="level_all">All Levels</option>
-                                <option value="starter" data-translate-key="starter">Starter</option>
-                                <option value="elementary" data-translate-key="elementary">Elementary</option>
-                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                                <option value="advanced" data-translate-key="advanced">Advanced</option>
-                                <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1; text-align: left;">
-                            <label data-translate-key="select_theme">Select Theme 🎨</label>
-                                <select id="charades-theme" class="pill-input game-theme" style="width: 100%;"><option value="all" data-translate-key="theme_all">All Themes</option></select></div>
-                    </div>
-                    <div class="setup-row" style="margin-bottom: 1rem;">
-                        <div class="setup-group" style="flex: 1; text-align: left;">
-                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="charades-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="30" data-translate-key="timer_30s">30s</option>
-                                <option value="60" selected data-translate-key="timer_60s">60s</option>
-                                <option value="90" data-translate-key="timer_90s">90s</option>
-                                <option value="120" data-translate-key="timer_120s">120s</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <button id="start-charades-game-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
-                    <button id="share-charades-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
+        <section class="live-events-section" id="live-events">
+            <div class="live-events-inner">
+                <div class="le-header">
+                    <div class="le-label" data-translate-key="legend_events">📅 Bookable events</div>
+                    <h2 data-translate-key="events_title">Live Events 🎉</h2>
+                    <p data-translate-key="events_p">Organised sessions with a teacher or host. Contact us to find out about upcoming dates.</p>
                 </div>
 
+                <div class="le-grid">
+                    <div class="le-card">
+                        <div class="le-icon">🗣️</div>
+                        <h3 data-translate-key="event_speaking_club">Speaking Clubs</h3>
+                        <p data-translate-key="event_speaking_club_desc">Practise your speaking in a relaxed and friendly environment. Each session has a different topic.</p>
+                        <div class="le-topics">
+                            <button id="toggle-topics-btn" class="le-cta" style="margin-bottom: 1rem; width: 100%; border: none; cursor: pointer;" data-translate-key="toggle_topics_show">Show Topics</button>
+                            <div id="speaking-club-topics" class="le-topic-pills" style="display: none; margin-bottom: 1rem;">
+                                <span data-translate-key="club_science">Keeping up with science 🧪</span>
+                                <span data-translate-key="club_quotes">The greatest quotes 📜</span>
+                                <span data-translate-key="club_celebrate">Let's celebrate 🥳</span>
+                                <span data-translate-key="club_mind">Mind matters 🧠</span>
+                                <span data-translate-key="club_wonder">I couldn't help but wonder 🤔</span>
+                                <span data-translate-key="club_debatable">Debatable & relatable 🧐</span>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20a%20Speaking%20Club." class="le-cta">Ask about speaking clubs →</a>
+                    </div>
+
+                    <div class="le-card">
+                        <div class="le-icon">🎤</div>
+                        <h3 data-translate-key="event_karaoke">Karaoke Nights</h3>
+                        <p data-translate-key="event_karaoke_desc">Sing in different languages! A fun, immersive way to work on pronunciation and cultural understanding.</p>
+                        <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20a%20Karaoke%20Night." class="le-cta">Ask about karaoke nights →</a>
+                    </div>
+
+                    <div class="le-card">
+                        <div class="le-icon">🎬</div>
+                        <h3 data-translate-key="event_cinema">Cinema Evenings</h3>
+                        <p data-translate-key="event_cinema_desc">Watch films in their original language with subtitles — followed by a discussion in your target language.</p>
+                        <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20a%20Cinema%20Evening." class="le-cta">Ask about cinema evenings →</a>
+                    </div>
+
+                    <div class="le-card">
+                        <div class="le-icon">🎲</div>
+                        <h3 data-translate-key="event_games">Game Nights</h3>
+                        <p data-translate-key="event_games_desc">Board games, card games and word games — played in your target language with a group.</p>
+                        <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20a%20Game%20Night." class="le-cta">Ask about game nights →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modals -->
+        <div id="charades-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content">
+                <h2 data-translate-key="charades_title">Action Hero 🎭</h2>
+                <div id="charades-setup">
+                    <div class="setup-group">
+                        <label data-translate-key="select_practice_language">Select language 🌍</label>
+                        <select id="charades-lang" class="pill-input"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select>
+                    </div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_level">Level</label><select id="charades-level" class="pill-input"><option value="all">All Levels</option></select></div>
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_theme">Theme</label><select id="charades-theme" class="pill-input"><option value="all">All Themes</option></select></div>
+                    </div>
+                    <button id="start-charades-game-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="start_game">Start Game 🚀</button>
+                </div>
                 <div id="charades-gameplay" style="display: none;">
-                    <div id="charades-timer" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 1.5rem;">1:00</div>
+                    <div id="charades-timer" class="game-timer">1:00</div>
                     <div id="charades-card" class="game-main-card">
                         <div id="charades-emoji" class="game-emoji-large">🍎</div>
-                        <div id="charades-word" class="game-word-large" data-translate-key="placeholder_loading">Loading...</div>
+                        <div id="charades-word" class="game-word-large">Loading...</div>
                     </div>
-                    <div style="display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;">
-                        <button id="charades-correct-btn" class="cta-button" style="background: #4CAF50;" data-translate-key="correct_btn">Correct ✅</button>
-                        <button id="charades-incorrect-btn" class="cta-button" style="background: #f44336;" data-translate-key="incorrect_btn">Incorrect ❌</button>
-                        <button id="charades-stop-btn" class="cta-button secondary" data-translate-key="stop_game">Stop Game 🛑</button>
+                    <div style="display: flex; gap: 0.8rem; justify-content: center;">
+                        <button id="charades-correct-btn" class="btn-primary" style="background:#4CAF50" data-translate-key="correct_btn">Correct ✅</button>
+                        <button id="charades-incorrect-btn" class="btn-primary" style="background:#f44336" data-translate-key="incorrect_btn">Incorrect ❌</button>
                     </div>
+                    <button id="charades-stop-btn" class="btn-ghost" style="margin-top:1rem; width:100%; color:var(--ink);" data-translate-key="stop_game">Stop Game 🛑</button>
                 </div>
-
-                <div id="charades-result" style="display: none; margin: 2rem 0;">
+                <div id="charades-result" style="display: none; text-align:center; margin-top:2rem;">
                     <h3 data-translate-key="game_over">Game Over! 🏁</h3>
-                    <p style="font-size: 1.2rem; margin-top: 1rem;"><span data-translate-key="charades_score">Your Score:</span> <span id="charades-score-val" style="font-weight: 700; color: var(--primary-color);">0</span></p>
+                    <p style="font-size: 1.5rem; font-weight: 700; color: var(--sage-dark); margin: 1rem 0;">Score: <span id="charades-score-val">0</span></p>
                 </div>
-
-                <button id="close-charades-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 2rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-charades-btn" class="btn-ghost" style="margin-top: 1rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
-        <!-- Guess Who Modal -->
         <div id="guess-who-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+            <div class="modal-content">
                 <h2 data-translate-key="game_guess_who">Identity Mystery 👤</h2>
-
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="guess_who_guide_text">One person describes a person or profession. Others ask Yes/No questions using the 'Help Questions' to identify them!</p>
-                </details>
-
                 <div class="game-setup">
-                    <div class="setup-group">
-                        <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select class="pill-input game-lang" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select class="pill-input game-lang"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_level">Level</label><select class="pill-input game-level"><option value="all">All Levels</option></select></div>
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_theme">Theme</label><select class="pill-input game-theme"><option value="all">All Themes</option></select></div>
                     </div>
-                    <div class="setup-row" style="margin-bottom: 1rem; gap: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_level">Select Level 📊</label>
-                            <select class="pill-input game-level" style="width: 100%;">
-                                <option value="all" data-translate-key="level_all">All Levels</option>
-                                <option value="starter" data-translate-key="starter">Starter</option>
-                                <option value="elementary" data-translate-key="elementary">Elementary</option>
-                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                                <option value="advanced" data-translate-key="advanced">Advanced</option>
-                                <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select class="pill-input game-theme" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Themes</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button id="start-guess-who-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
-                    <button id="share-guess-who-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="start-guess-who-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="start_game">Start Game 🚀</button>
                 </div>
                 <div class="game-play" style="display: none;">
-                    <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
-                        <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-color);">...</div>
-                        <div class="hint-display" style="margin-top: 1rem; color: var(--accent-color); font-weight: 600;"></div>
+                    <div class="game-main-card">
+                        <div class="target-word game-word-large">...</div>
+                        <div class="hint-display" style="margin-top: 1rem; font-weight: 600; color: var(--honey-dark);"></div>
                         <div style="margin-top: 1.5rem; text-align: left;">
-                            <h4 style="margin-bottom: 0.5rem;" data-translate-key="help_questions">Help Questions:</h4>
-                            <ul class="prompt-questions" style="list-style: none; padding: 0;"></ul>
+                            <h4 style="font-size:0.7rem; margin-bottom:0.4rem; color:var(--muted); text-transform:uppercase;">Help Questions:</h4>
+                            <ul class="prompt-questions" style="font-size:0.85rem; padding-left:1.2rem;"></ul>
                         </div>
                     </div>
-                    <div style="display: flex; gap: 1rem; justify-content: center;">
-                        <button class="cta-button hint-btn" style="background: var(--secondary-color);" data-translate-key="hint_btn">Hint 💡</button>
-                        <button id="guess-who-next-btn" class="cta-button primary" data-translate-key="next_word">Next Person ➡️</button>
+                    <div style="display: flex; gap: 0.8rem;">
+                        <button class="btn-ghost hint-btn" style="flex:1; color:var(--ink);" data-translate-key="hint_btn">Hint 💡</button>
+                        <button id="guess-who-next-btn" class="btn-primary" style="flex:2" data-translate-key="next_word">Next ➡️</button>
                     </div>
                 </div>
-                <button id="close-guess-who-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-guess-who-btn" class="btn-ghost" style="margin-top: 1rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
-        <!-- Guess What Modal -->
         <div id="guess-what-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+            <div class="modal-content">
                 <h2 data-translate-key="game_guess_what">Object Quest 📦</h2>
-
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="guess_what_guide_text">One person describes an object or place. Others ask questions about size, color, or location to guess what it is!</p>
-                </details>
-
                 <div class="game-setup">
-                    <div class="setup-group">
-                        <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select class="pill-input game-lang" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select class="pill-input game-lang"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_level">Level</label><select class="pill-input game-level"><option value="all">All Levels</option></select></div>
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_theme">Theme</label><select class="pill-input game-theme"><option value="all">All Themes</option></select></div>
                     </div>
-                    <div class="setup-row" style="margin-bottom: 1rem; gap: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_level">Select Level 📊</label>
-                            <select class="pill-input game-level" style="width: 100%;">
-                                <option value="all" data-translate-key="level_all">All Levels</option>
-                                <option value="starter" data-translate-key="starter">Starter</option>
-                                <option value="elementary" data-translate-key="elementary">Elementary</option>
-                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                                <option value="advanced" data-translate-key="advanced">Advanced</option>
-                                <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select class="pill-input game-theme" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Themes</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button id="start-guess-what-btn" class="cta-button primary" data-translate-key="start_game">Start Game 🚀</button>
-                    <button id="share-guess-what-btn" class="cta-button secondary" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="start-guess-what-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="start_game">Start Game 🚀</button>
                 </div>
                 <div class="game-play" style="display: none;">
-                    <div class="event-item glass" style="margin: 1.5rem 0; padding: 2rem;">
-                        <div class="target-word" style="font-size: 2.5rem; font-weight: 700; color: var(--primary-color);">...</div>
-                        <div class="hint-display" style="margin-top: 1rem; color: var(--accent-color); font-weight: 600;"></div>
+                    <div class="game-main-card">
+                        <div class="target-word game-word-large">...</div>
+                        <div class="hint-display" style="margin-top: 1rem; font-weight: 600; color: var(--honey-dark);"></div>
                         <div style="margin-top: 1.5rem; text-align: left;">
-                            <h4 style="margin-bottom: 0.5rem;" data-translate-key="help_questions">Help Questions:</h4>
-                            <ul class="prompt-questions" style="list-style: none; padding: 0;"></ul>
+                            <h4 style="font-size:0.7rem; margin-bottom:0.4rem; color:var(--muted); text-transform:uppercase;">Help Questions:</h4>
+                            <ul class="prompt-questions" style="font-size:0.85rem; padding-left:1.2rem;"></ul>
                         </div>
                     </div>
-                    <div style="display: flex; gap: 1rem; justify-content: center;">
-                        <button class="cta-button hint-btn" style="background: var(--secondary-color);" data-translate-key="hint_btn">Hint 💡</button>
-                        <button id="guess-what-next-btn" class="cta-button primary" data-translate-key="next_word">Next Object ➡️</button>
+                    <div style="display: flex; gap: 0.8rem;">
+                        <button class="btn-ghost hint-btn" style="flex:1; color:var(--ink);" data-translate-key="hint_btn">Hint 💡</button>
+                        <button id="guess-what-next-btn" class="btn-primary" style="flex:2" data-translate-key="next_word">Next ➡️</button>
                     </div>
                 </div>
-                <button id="close-guess-what-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-guess-what-btn" class="btn-ghost" style="margin-top: 1rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
-        <!-- Bingo Modal -->
         <div id="bingo-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+            <div class="modal-content">
                 <h2 data-translate-key="game_bingo">Lucky Numbers 🔢</h2>
-
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="bingo_guide_text">The Caller calls out items. Players mark them on their grid. Use the 'Game Code' to play with friends on the same board!</p>
-                </details>
-
                 <div id="bingo-setup">
-                    <div class="setup-group">
-                        <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="bingo-lang" class="pill-input" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select id="bingo-lang" class="pill-input"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="bingo_level_label">Level</label><select id="bingo-level" class="pill-input"><option value="1">0-9</option><option value="2">0-19</option><option value="3">20-99</option><option value="5">Random</option></select></div>
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="bingo_content_label">Content</label><select id="bingo-content-type" class="pill-input"><option value="numbers">Numbers 🔢</option><option value="words">Words 🔤</option></select></div>
                     </div>
-                    <div class="setup-row" style="margin-bottom: 1rem; gap: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="bingo_level_label">Level / Type ⚙️</label>
-                            <select id="bingo-level" class="pill-input" style="width: 100%;">
-                                <option value="1" data-translate-key="bingo_lvl_1">Bingo 1 (0-9)</option>
-                                <option value="2" data-translate-key="bingo_lvl_2">Bingo 2 (0-19)</option>
-                                <option value="3" data-translate-key="bingo_lvl_3">Bingo 3 (20-99)</option>
-                                <option value="5" data-translate-key="bingo_lvl_5">Bingo 5 (Random)</option>
-                                <option value="alphabet" data-translate-key="bingo_alphabet">Alphabet</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="bingo_content_label">Card Content 🃏</label>
-                            <select id="bingo-content-type" class="pill-input" style="width: 100%;">
-                                <option value="numbers" data-translate-key="bingo_content_numbers">Numbers 🔢</option>
-                                <option value="words" data-translate-key="bingo_content_words">Words 🔤</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="setup-group" style="margin-bottom: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="bingo-solo-mode">
-                            <span data-translate-key="solo_mode">Solo Mode 👤</span>
-                        </label>
-                    </div>
-                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
-                        <button id="start-bingo-caller-btn" class="cta-button primary" data-translate-key="bingo_caller" style="flex: 1;">Caller 📣</button>
-                        <button id="start-bingo-player-btn" class="cta-button primary" data-translate-key="bingo_player" style="flex: 1;">Player 🃏</button>
-                    </div>
-                    <button id="share-bingo-btn" class="cta-button secondary" data-translate-key="share_btn" style="width: 100%;">Share 🔗</button>
-                </div>
-
-                <!-- Caller Area -->
-                <div id="bingo-caller-area" style="display: none; padding: 2rem 0;">
-                        <div id="bingo-auto-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_auto_active">⚡ Auto-Calling Active ⚡</div>
-                    <div id="bingo-last-called" style="font-size: 10rem; font-weight: 900; color: var(--primary-color); margin-bottom: 2.5rem; text-shadow: 0 4px 20px rgba(0, 168, 150, 0.25);">---</div>
-                    <button id="bingo-call-next-btn" class="cta-button primary" data-translate-key="bingo_call_next" style="margin-bottom: 2rem;">Call Next 🎲</button>
-
-                    <div class="game-history-box">
-                        <h4 data-translate-key="called_numbers">Called Numbers:</h4>
-                        <div id="bingo-history" style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;"></div>
+                    <div style="margin-bottom:1rem"><label style="display:flex; align-items:center; gap:0.5rem; font-size:0.85rem; font-weight:700;"><input type="checkbox" id="bingo-solo-mode"> Solo Mode (Auto-Caller)</label></div>
+                    <div style="display: flex; gap: 0.8rem;">
+                        <button id="start-bingo-caller-btn" class="btn-primary" style="flex:1" data-translate-key="bingo_caller">Caller</button>
+                        <button id="start-bingo-player-btn" class="btn-primary" style="flex:1" data-translate-key="bingo_player">Player</button>
                     </div>
                 </div>
-
-                <!-- Player Area -->
-                <div id="bingo-player-area" style="display: none; padding: 1rem 0;">
-                    <div id="bingo-solo-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_solo_active">👤 Solo Mode (Auto-Caller) 👤</div>
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <h3 data-translate-key="bingo_your_card">Your Card</h3>
-                        <div style="font-size: 0.8rem; color: #888;"><span data-translate-key="bingo_card_label">Card #</span><span id="bingo-card-num-display">1</span></div>
-                    </div>
-
-                    <div id="bingo-player-last-called-container" style="margin: 1rem 0; padding: 1rem; background: rgba(0,0,0,0.03); border-radius: 15px;">
-                        <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-bottom: 0.5rem;" data-translate-key="bingo_last_called_label">Last Called</div>
-                        <div id="bingo-player-last-called" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color);">---</div>
-                    </div>
-
-                    <div id="bingo-player-grid" class="bingo-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 1.5rem 0;">
-                        <!-- Cells added by JS -->
-                    </div>
-                    <button id="bingo-next-card-btn" class="topics-toggle-btn secondary-btn" style="width: 100%; font-size: 0.8rem;" data-translate-key="bingo_new_card">New Card 🃏</button>
+                <div id="bingo-caller-area" style="display: none; text-align:center;">
+                    <div id="bingo-last-called" style="font-size: 8rem; font-weight: 900; color: var(--sage); margin-bottom: 2rem;">---</div>
+                    <button id="bingo-call-next-btn" class="btn-primary" data-translate-key="bingo_call_next">Call Next 🎲</button>
                 </div>
-
-                <button id="close-bingo-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <div id="bingo-player-area" style="display: none;">
+                    <div id="bingo-player-last-called" style="font-size: 2rem; font-weight: 800; color: var(--sage-deep); text-align:center; margin-bottom:1rem;">---</div>
+                    <div id="bingo-player-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;"></div>
+                    <button id="bingo-next-card-btn" class="btn-ghost" style="margin-top:1rem; width:100%; color:var(--ink);" data-translate-key="bingo_new_card">New Card 🃏</button>
+                </div>
+                <button id="close-bingo-btn" class="btn-ghost" style="margin-top: 1.5rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
-        <!-- Debates Modal -->
         <div id="debates-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 700px;">
+            <div class="modal-content">
                 <h2 data-translate-key="debates_title">Battle of Wits ⚖️</h2>
-
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="debates_guide_text">Compare two things! Use the 'General Ideas' to help you build your arguments for or against.</p>
-                </details>
-
                 <div class="game-setup">
-                    <div class="setup-group">
-                        <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="debates-lang" class="pill-input" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select id="debates-lang" class="pill-input"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_level">Level</label><select id="debates-level" class="pill-input"><option value="all">All Levels</option></select></div>
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="timer_label">Timer</label><select id="debates-timer-duration" class="pill-input"><option value="60">60s</option><option value="120" selected>120s</option></select></div>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="debates-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="level_all">All Levels</option>
-                                <option value="starter" data-translate-key="starter">Starter</option>
-                                <option value="elementary" data-translate-key="elementary">Elementary</option>
-                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                                <option value="advanced" data-translate-key="advanced">Advanced</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="debates-theme" class="pill-input game-theme" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Themes</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="debates-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="60" data-translate-key="timer_60s">60s</option>
-                                <option value="120" selected data-translate-key="timer_120s">120s</option>
-                                <option value="180" data-translate-key="timer_180s">180s</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button id="start-debates-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
-                    <button id="share-debates-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="start-debates-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="start_game">Start Game 🚀</button>
                 </div>
-
                 <div class="game-play" style="display: none;">
-                    <div id="debates-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 0.5rem;">2:00</div>
-                    <h3 id="debate-topic" style="margin: 1.5rem 0; font-size: 1.5rem; color: var(--primary-color);" data-translate-key="placeholder_loading">Topic</h3>
-
-                    <div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: 1rem; margin-bottom: 2rem;">
-                        <div class="debate-side glass" style="padding: 1rem; border-radius: 15px;">
-                            <h4 id="side-a-name" style="margin-bottom: 0.8rem; color: var(--accent-color);" data-translate-key="debates_side_a">Side A</h4>
-                            <div style="text-align: left; font-size: 0.85rem;">
-                                <strong data-translate-key="debates_ideas_title">Ideas:</strong>
-                                <ul id="side-a-ideas" style="padding-left: 1.2rem; margin-top: 0.4rem;"></ul>
-                            </div>
-                        </div>
-                        <div style="font-weight: 800; font-size: 1.2rem; align-self: center; color: #888;" data-translate-key="debates_vs">VS</div>
-                        <div class="debate-side glass" style="padding: 1rem; border-radius: 15px;">
-                            <h4 id="side-b-name" style="margin-bottom: 0.8rem; color: var(--vocab-color);" data-translate-key="debates_side_b">Side B</h4>
-                            <div style="text-align: left; font-size: 0.85rem;">
-                                <strong data-translate-key="debates_ideas_title">Ideas:</strong>
-                                <ul id="side-b-ideas" style="padding-left: 1.2rem; margin-top: 0.4rem;"></ul>
-                            </div>
+                    <div id="debates-timer" class="game-timer">2:00</div>
+                    <div class="game-main-card">
+                        <h3 id="debate-topic" style="font-size: 1.3rem; color: var(--sage-deep); margin:0;">Topic</h3>
+                        <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem; align-items: start; margin-top: 1.5rem;">
+                            <div style="text-align: left; background: #fff; padding: 0.8rem; border-radius: 10px; box-shadow:var(--shadow-sm);"><h4 id="side-a-name" style="font-size:0.7rem; color:var(--muted); text-transform:uppercase;">Side A</h4><ul id="side-a-ideas" style="font-size:0.75rem; padding-left:1.2rem; margin-top:0.4rem;"></ul></div>
+                            <div style="align-self: center; font-weight: 800; color: var(--muted); font-size:0.8rem;">VS</div>
+                            <div style="text-align: left; background: #fff; padding: 0.8rem; border-radius: 10px; box-shadow:var(--shadow-sm);"><h4 id="side-b-name" style="font-size:0.7rem; color:var(--muted); text-transform:uppercase;">Side B</h4><ul id="side-b-ideas" style="font-size:0.75rem; padding-left:1.2rem; margin-top:0.4rem;"></ul></div>
                         </div>
                     </div>
-
-                    <button id="next-debate-btn" class="cta-button" data-translate-key="next_word">Next Topic ➡️</button>
+                    <button id="next-debate-btn" class="btn-primary" style="width:100%" data-translate-key="next_word">Next Topic ➡️</button>
                 </div>
-
-                <button id="close-debates-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 2rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-debates-btn" class="btn-ghost" style="margin-top: 1rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
-        <!-- Talk That Talk Modal -->
         <div id="talk-talk-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+            <div class="modal-content">
                 <h2 data-translate-key="talk_talk_title">Fluency Flow 🗣️</h2>
-
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="talk_talk_guide_text">Spin the wheel for a random topic. Try to speak for 1-5 minutes about it! Focus on flow and idea generation.</p>
-                </details>
-
                 <div class="game-setup">
-                    <div class="setup-group">
-                        <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="talk-lang" class="pill-input" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select id="talk-lang" class="pill-input"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_level">Level</label><select id="talk-level" class="pill-input"><option value="all">All Levels</option></select></div>
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="timer_label">Timer</label><select id="talk-timer-duration" class="pill-input"><option value="60">60s</option><option value="180" selected>180s</option></select></div>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="talk-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="level_all">All Levels</option>
-                                <option value="starter" data-translate-key="starter">Starter</option>
-                                <option value="elementary" data-translate-key="elementary">Elementary</option>
-                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                                <option value="advanced" data-translate-key="advanced">Advanced</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="talk-theme" class="pill-input game-theme" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Themes</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="talk-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="60" data-translate-key="timer_60s">60s</option>
-                                <option value="120" data-translate-key="timer_120s">120s</option>
-                                <option value="180" selected data-translate-key="timer_180s">180s</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button id="start-talk-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="spin_topic_btn">Spin for Topic! 🎡</button>
-                    <button id="share-talk-talk-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="start-talk-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="spin_topic_btn">Spin for Topic! 🎡</button>
                 </div>
-
-                <div class="game-play" style="display: none; padding: 2rem 0;">
-                    <div id="talk-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">3:00</div>
-                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
-                        <div id="talk-topic-display" style="font-size: 1.8rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Topic</div>
+                <div class="game-play" style="display: none;">
+                    <div id="talk-timer" class="game-timer">3:00</div>
+                    <div class="game-main-card">
+                        <div id="talk-topic-display" class="game-word-large">Topic</div>
                     </div>
-                    <p style="color: #666; font-style: italic; margin-bottom: 2rem;" data-translate-key="talk_time_label">Target Speaking Time: 1-3 minutes</p>
-                    <button id="next-talk-btn" class="cta-button primary" data-translate-key="spin_topic_btn">Spin Again! 🎡</button>
+                    <button id="next-talk-btn" class="btn-primary" style="width:100%" data-translate-key="spin_topic_btn">Spin Again! 🎡</button>
                 </div>
-
-                <button id="close-talk-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-talk-btn" class="btn-ghost" style="margin-top: 1rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
-        <!-- Opinion Arena Modal -->
         <div id="opinion-arena-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+            <div class="modal-content">
                 <h2 data-translate-key="opinion_arena_title">Opinion Arena 🏟️</h2>
-
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="opinion_arena_guide_text">Read the statement and decide if you agree or disagree. Explain your reasoning!</p>
-                </details>
-
                 <div class="game-setup">
-                    <div class="setup-group">
-                        <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="opinion-lang" class="pill-input" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select id="opinion-lang" class="pill-input"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_level">Level</label><select id="opinion-level" class="pill-input"><option value="all">All Levels</option></select></div>
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="timer_label">Timer</label><select id="opinion-timer-duration" class="pill-input"><option value="120" selected>120s</option></select></div>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="opinion-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="level_all">All Levels</option>
-                                <option value="starter" data-translate-key="starter">Starter</option>
-                                <option value="elementary" data-translate-key="elementary">Elementary</option>
-                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                                <option value="advanced" data-translate-key="advanced">Advanced</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="opinion-theme" class="pill-input game-theme" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Themes</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="opinion-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="60" data-translate-key="timer_60s">60s</option>
-                                <option value="120" selected data-translate-key="timer_120s">120s</option>
-                                <option value="180" data-translate-key="timer_180s">180s</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button id="start-opinion-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
-                    <button id="share-opinion-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                    <button id="start-opinion-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="start_game">Start Game 🚀</button>
                 </div>
-
-                <div class="game-play" style="display: none; padding: 2rem 0;">
-                    <div id="opinion-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
-                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
-                        <div id="opinion-statement-display" style="font-size: 1.6rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Loading...</div>
+                <div class="game-play" style="display: none;">
+                    <div id="opinion-timer" class="game-timer">2:00</div>
+                    <div class="game-main-card">
+                        <div id="opinion-statement-display" style="font-size: 1.2rem; line-height: 1.4; font-weight: 700; color: var(--sage-deep);">Statement</div>
                     </div>
-                    <div style="display: flex; gap: 1rem; justify-content: center;">
-                        <button id="next-opinion-btn" class="cta-button primary" data-translate-key="next_word">Next Statement ➡️</button>
-                    </div>
+                    <button id="next-opinion-btn" class="btn-primary" style="width:100%" data-translate-key="next_word">Next Statement ➡️</button>
                 </div>
-
-                <button id="close-opinion-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-opinion-btn" class="btn-ghost" style="margin-top: 1rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
-        <!-- Critic's Corner Modal -->
         <div id="critics-corner-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
-                <h2 data-translate-key="critics_corner_title">The Critic's Corner 🎭</h2>
-
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="critics_corner_guide_text">Analyze the famous quote and share your perspective!</p>
-                </details>
-
+            <div class="modal-content">
+                <h2 data-translate-key="critics_corner_title">Critic's Corner 🎭</h2>
                 <div class="game-setup">
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select id="critics-lang" class="pill-input"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="select_level">Level</label><select id="critics-level" class="pill-input"><option value="all">All Levels</option></select></div>
+                        <div class="setup-group" style="flex: 1;"><label data-translate-key="timer_label">Timer</label><select id="critics-timer-duration" class="pill-input"><option value="120" selected>120s</option></select></div>
+                    </div>
+                    <button id="start-critics-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="start_game">Start Game 🚀</button>
+                </div>
+                <div class="game-play" style="display: none;">
+                    <div id="critics-timer" class="game-timer">2:00</div>
+                    <div class="game-main-card">
+                        <div id="critics-quote-display" style="font-size: 1.1rem; line-height: 1.5; font-weight: 700; color: var(--sage-deep); font-style: italic;">Quote</div>
+                        <div id="critics-author-display" style="margin-top: 1rem; color: var(--muted); font-weight: 800; font-size:0.9rem;">- Author</div>
+                    </div>
+                    <button id="next-critics-btn" class="btn-primary" style="width:100%" data-translate-key="next_word">Next Quote ➡️</button>
+                </div>
+                <button id="close-critics-btn" class="btn-ghost" style="margin-top: 1rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <div id="emoji-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content">
+                <h2 data-translate-key="game_emoji">Emoji Odyssey 📖</h2>
+                <div id="emoji-setup">
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select id="emoji-lang" class="pill-input"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
                     <div class="setup-group">
-                        <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="critics-lang" class="pill-input" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
+                        <label data-translate-key="emoji_mode_label">Mode</label>
+                        <select id="emoji-mode" class="pill-input"><option value="guess">Guess Emoji</option><option value="story">Tell a Story</option></select>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="critics-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="level_all">All Levels</option>
-                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                                <option value="advanced" data-translate-key="advanced">Advanced</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="critics-theme" class="pill-input game-theme" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Themes</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="timer_label">Timer (seconds) ⏱️</label>
-                            <select id="critics-timer-duration" class="pill-input" style="width: 100%;">
-                                <option value="60" data-translate-key="timer_60s">60s</option>
-                                <option value="120" selected data-translate-key="timer_120s">120s</option>
-                                <option value="180" data-translate-key="timer_180s">180s</option>
-                            </select>
-                        </div>
+                    <div id="emoji-story-setup-extra" style="display:none" class="setup-group">
+                        <label data-translate-key="emoji_story_name_label">Story Name</label>
+                        <input type="text" id="emoji-story-name-input" class="pill-input" placeholder="Enter story name...">
                     </div>
-                    <button id="start-critics-btn" class="cta-button primary" style="margin-top: 1.5rem;" data-translate-key="start_game">Start Game 🚀</button>
-                    <button id="share-critics-btn" class="cta-button secondary" style="margin-top: 1.5rem;" data-translate-key="share_btn">Share 🔗</button>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex:1"><label>Level</label><select id="emoji-level" class="pill-input"><option value="all">All</option></select></div>
+                        <div class="setup-group" style="flex:1"><label>Theme</label><select id="emoji-theme" class="pill-input"><option value="all">All</option></select></div>
+                    </div>
+                    <button id="start-emoji-game-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="start_game">Start Game 🚀</button>
                 </div>
-
-                <div class="game-play" style="display: none; padding: 2rem 0;">
-                    <div id="critics-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
-                    <div class="event-item glass" style="padding: 2.5rem; margin-bottom: 1.5rem;">
-                        <div id="critics-quote-display" style="font-size: 1.4rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif; line-height: 1.4;" data-translate-key="placeholder_loading">Loading...</div>
-                        <div id="critics-author-display" style="margin-top: 1rem; font-style: italic; color: #666;"></div>
+                <div id="emoji-gameplay" style="display: none;">
+                    <div id="emoji-guess-area" style="text-align:center;">
+                        <div id="emoji-display-large" style="font-size: 6rem; margin-bottom: 2rem;">🍎🍎</div>
+                        <div id="emoji-options" class="choices-grid"></div>
                     </div>
-                    <div style="display: flex; gap: 1rem; justify-content: center;">
-                        <button id="next-critics-btn" class="cta-button primary" data-translate-key="next_word">Next Quote ➡️</button>
+                    <div id="emoji-story-area" style="display:none; text-align:center;">
+                        <h3 id="emoji-story-name-display" style="font-size:1.1rem; color:var(--sage-deep);">Story</h3>
+                        <div id="emoji-story-display" class="game-main-card" style="font-size:4rem; letter-spacing:10px;"></div>
+                        <div style="display:flex; gap:0.5rem;">
+                            <button id="emoji-next-set-btn" class="btn-primary" style="flex:1" data-translate-key="emoji_next_set">Next Player</button>
+                            <button id="emoji-finish-btn" class="btn-ghost" style="flex:1; color:var(--ink);" data-translate-key="emoji_finish_story">Finish</button>
+                        </div>
                     </div>
+                    <div id="emoji-feedback" style="margin-top: 1rem; text-align:center; font-weight: 800;"></div>
                 </div>
-
-                <button id="close-critics-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-emoji-btn" class="btn-ghost" style="margin-top: 1.5rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
 
-<!-- Emoji Odyssey Modal -->
-<div id="emoji-modal" class="modal-overlay" style="display: none;">
-    <div class="modal-content glass" style="max-width: 600px;">
-        <h2 data-translate-key="game_emoji">Emoji Odyssey 📖</h2>
-        <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-            <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-            <p style="margin-top: 0.5rem;" data-translate-key="emoji_guide_text">Guess the word or phrase based on the emojis shown! Type your answer or select from options.</p>
-        </details>
-        <div id="emoji-setup">
-            <div class="setup-group">
-                <label data-translate-key="select_practice_language">Select language 🌍</label>
-                <select id="emoji-lang" class="pill-input" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
-            </div>
-            <div class="setup-group" style="margin-top: 1rem;">
-                <label data-translate-key="emoji_mode_label">Game Mode 🎮</label>
-                <select id="emoji-mode" class="pill-input" style="width: 100%;">
-                    <option value="guess" data-translate-key="emoji_mode_guess">Guess the Emoji 🧩</option>
-                    <option value="story" data-translate-key="emoji_mode_story">Tell a Story 📖</option>
-                </select>
-            </div>
-            <div id="emoji-story-setup-extra" style="display: none; margin-top: 1rem;">
-                <label data-translate-key="emoji_story_title_label">Story Name 🏷️</label>
-                <input type="text" id="emoji-story-name-input" class="pill-input" style="width: 100%;" placeholder="Once upon a time...">
-            </div>
-            <div class="setup-row" style="margin-top: 1rem; gap: 1rem;">
-                <div class="setup-group" style="flex: 1;">
-                    <label data-translate-key="select_level">Select Level 📊</label>
-                    <select id="emoji-level" class="pill-input game-level" style="width: 100%;">
-                        <option value="all" data-translate-key="level_all">All Levels</option>
-                    <option value="starter" data-translate-key="starter">Starter</option>
-                    <option value="elementary" data-translate-key="elementary">Elementary</option>
-                    <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                    <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                    <option value="advanced" data-translate-key="advanced">Advanced</option>
-                        <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
-                    </select>
-                </div>
-                <div class="setup-group" style="flex: 1;">
-                    <label data-translate-key="select_theme">Select Theme 🎨</label>
-                    <select id="emoji-theme" class="pill-input game-theme" style="width: 100%;">
-                        <option value="all" data-translate-key="theme_all">All Themes</option>
-                    </select>
-                </div>
-            </div>
-            <button id="start-emoji-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
-        </div>
-        <div id="emoji-gameplay" style="display: none; padding: 2rem 0;">
-            <div id="emoji-guess-area">
-                <div id="emoji-display-large" style="font-size: 6.5rem; margin-bottom: 2.5rem; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.12));">🍎🍎</div>
-                <div id="emoji-options" class="choices-grid"></div>
-            </div>
-
-            <div id="emoji-story-area" style="display: none;">
-                <h3 id="emoji-story-name-display" style="color: var(--primary-color); margin-bottom: 1rem;"></h3>
-                <p id="emoji-story-prompt" style="font-style: italic; color: #666; margin-bottom: 1.5rem;" data-translate-key="emoji_story_next_player">Use these 4 emojis to continue the story!</p>
-                <div id="emoji-story-display" class="game-display-box" style="font-size: 5rem; letter-spacing: 15px; min-height: 180px;"></div>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                    <button id="emoji-next-set-btn" class="cta-button primary" data-translate-key="emoji_next_set">Next Player ➡️</button>
-                    <button id="emoji-finish-btn" class="cta-button secondary" data-translate-key="emoji_finish_story">Finish Story 🏁</button>
-                </div>
-            </div>
-
-            <div id="emoji-feedback" class="feedback-text"></div>
-        </div>
-        <button id="close-emoji-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
-    </div>
-</div>
-
-        <!-- Last Letter Modal -->
         <div id="last-letter-modal" class="modal-overlay" style="display: none;">
-            <div class="modal-content glass" style="max-width: 600px;">
+            <div class="modal-content">
                 <h2 data-translate-key="game_last_letter">Last Letter 🔤</h2>
-
-                <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-                    <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-                    <p style="margin-top: 0.5rem;" data-translate-key="last_letter_guide_text">Write a word! The next word must start with the last letter of the previous word. (e.g., ca<b>t</b> -> <b>t</b>all -> <b>l</b>ake)</p>
-                </details>
-
                 <div id="last-letter-setup">
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select id="last-letter-lang" class="pill-input"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex:1"><label>Level</label><select id="last-letter-level" class="pill-input"><option value="all">All</option></select></div>
+                        <div class="setup-group" style="flex:1"><label>Theme</label><select id="last-letter-theme" class="pill-input"><option value="all">All</option></select></div>
+                    </div>
+                    <button id="start-last-letter-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="start_game">Start Game 🚀</button>
+                </div>
+                <div id="last-letter-gameplay" style="display: none;">
+                    <div id="last-letter-history" style="height: 120px; overflow-y: auto; background: var(--sage-mist); border-radius: 10px; padding: 1rem; margin-bottom: 1rem; font-size: 0.85rem; border:1px solid var(--border);"></div>
+                    <div style="text-align: center; margin-bottom: 1rem;">
+                        <span data-translate-key="last_letter_starts_with" style="font-size:0.8rem; color:var(--muted); text-transform:uppercase; font-weight:800;">Next starts with:</span>
+                        <div id="target-letter" style="font-size: 3rem; font-weight: 900; color: var(--sage);">?</div>
+                    </div>
+                    <input type="text" id="last-letter-input" class="pill-input" style="text-align: center; font-size: 1.2rem; margin-bottom: 0.5rem;" autocomplete="off">
+                    <div id="last-letter-feedback" style="height: 1.2rem; color: #f44336; font-weight: 800; font-size: 0.75rem; text-align: center;"></div>
+                    <div style="display: flex; gap: 0.5rem; margin-top:0.5rem;">
+                        <button id="submit-last-letter-btn" class="btn-primary" style="flex:2" data-translate-key="submit_btn">Submit</button>
+                        <button id="hint-last-letter-btn" class="btn-ghost" style="flex:1; color:var(--ink);" data-translate-key="hint_btn">Hint</button>
+                    </div>
+                </div>
+                <button id="close-last-letter-btn" class="btn-ghost" style="margin-top: 1rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
+            </div>
+        </div>
+
+        <div id="linker-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content">
+                <h2 data-translate-key="game_word_association">Word Linker 🔗</h2>
+                <div id="linker-setup">
+                    <div class="setup-group"><label data-translate-key="select_practice_language">Select language 🌍</label><select id="linker-lang" class="pill-input"><optgroup label="Taught Languages"><option value="en">English 🇬🇧</option><option value="fr">Français 🇫🇷</option><option value="it">Italiano 🇮🇹</option><option value="ru">Русский 🇷🇺</option><option value="el">Ελληνικά 🇬🇷</option></optgroup></select></div>
                     <div class="setup-group">
-                        <label data-translate-key="select_practice_language">Select language 🌍</label>
-                        <select id="last-letter-lang" class="pill-input" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
+                        <label data-translate-key="linker_mode_label">Mode</label>
+                        <select id="linker-mode" class="pill-input"><option value="association">Association</option><option value="odd_one">Odd One Out</option></select>
                     </div>
-                    <div class="setup-row" style="margin-top: 1rem; gap: 1rem;">
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_level">Select Level 📊</label>
-                            <select id="last-letter-level" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="level_all">All Levels</option>
-                                <option value="starter" data-translate-key="starter">Starter</option>
-                                <option value="elementary" data-translate-key="elementary">Elementary</option>
-                                <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                                <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                                <option value="advanced" data-translate-key="advanced">Advanced</option>
-                                <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
-                            </select>
-                        </div>
-                        <div class="setup-group" style="flex: 1;">
-                            <label data-translate-key="select_theme">Select Theme 🎨</label>
-                            <select id="last-letter-theme" class="pill-input" style="width: 100%;">
-                                <option value="all" data-translate-key="theme_all">All Themes</option>
-                            </select>
-                        </div>
+                    <div class="setup-row">
+                        <div class="setup-group" style="flex:1"><label>Level</label><select id="linker-level" class="pill-input"><option value="all">All</option></select></div>
+                        <div class="setup-group" style="flex:1"><label>Theme</label><select id="linker-theme" class="pill-input"><option value="all">All</option></select></div>
                     </div>
-                    <div class="setup-group" style="margin-top: 1rem;">
-                        <label class="toggle-chip">
-                            <input type="checkbox" id="last-letter-solo-mode" checked>
-                            <span data-translate-key="solo_mode">Solo Mode (vs Computer) 👤</span>
-                        </label>
-                    </div>
-                    <button id="start-last-letter-btn" class="cta-button primary" style="margin-top: 1.5rem; width: 100%;" data-translate-key="start_game">Start Game 🚀</button>
+                    <button id="start-linker-game-btn" class="btn-primary" style="margin-top:1rem; width:100%" data-translate-key="start_game">Start Game 🚀</button>
                 </div>
-
-                <div id="last-letter-gameplay" style="display: none; padding: 1rem 0;">
-                    <div id="last-letter-history" class="game-display-box" style="min-height: 100px; max-height: 200px; overflow-y: auto; font-size: 1rem; text-align: left; padding: 1rem; margin-bottom: 1rem; background: rgba(255,255,255,0.5); line-height: 1.6;">
-                        <!-- History of words -->
-                    </div>
-
-                    <div id="last-letter-target-display" style="margin-bottom: 1.5rem;">
-                        <span data-translate-key="last_letter_starts_with">Next word starts with: </span>
-                        <span id="target-letter" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color);">?</span>
-                    </div>
-
-                    <div class="setup-group">
-                        <input type="text" id="last-letter-input" class="pill-input" style="width: 100%; font-size: 1.2rem; text-align: center;" placeholder="Type your word here..." autocomplete="off">
-                    </div>
-
-                    <div id="last-letter-feedback" style="min-height: 1.5rem; margin: 0.5rem 0; font-weight: 600; color: #f44336;"></div>
-
-                    <div style="display: flex; gap: 0.8rem; margin-top: 1rem;">
-                        <button id="submit-last-letter-btn" class="cta-button primary" style="flex: 2;" data-translate-key="submit_btn">Submit ✅</button>
-                        <button id="hint-last-letter-btn" class="cta-button secondary" style="flex: 1;" data-translate-key="hint_btn">Hint 💡</button>
-                    </div>
+                <div id="linker-gameplay" style="display: none;">
+                    <div id="linker-clues" style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin-bottom: 2rem;"></div>
+                    <div id="linker-options" class="choices-grid"></div>
+                    <div id="linker-feedback" style="margin-top: 1.5rem; text-align:center; font-weight: 800;"></div>
                 </div>
-
-                <button id="close-last-letter-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
+                <button id="close-linker-btn" class="btn-ghost" style="margin-top: 1.5rem; width:100%; color:var(--muted);" data-translate-key="close_btn">Close ❌</button>
             </div>
         </div>
-
-<!-- Word Linker Modal -->
-<div id="linker-modal" class="modal-overlay" style="display: none;">
-    <div class="modal-content glass" style="max-width: 600px;">
-        <h2 data-translate-key="game_word_association">Word Linker 🔗</h2>
-        <details class="help-details" style="margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem; background: rgba(0,0,0,0.05); padding: 0.8rem; border-radius: 15px;" open>
-            <summary style="cursor: pointer; font-weight: bold; color: var(--primary-color);" data-translate-key="game_guide_title">How to play 📖</summary>
-            <p style="margin-top: 0.5rem;" data-translate-key="linker_guide_text">Find the word that links the given words together. Think of associations!</p>
-        </details>
-        <div id="linker-setup">
-            <div class="setup-group">
-                <label data-translate-key="select_practice_language">Select language 🌍</label>
-                <select id="linker-lang" class="pill-input" style="width: 100%;">
-                            <optgroup label="Taught Languages">
-                                <option value="en">English 🇬🇧</option>
-                                <option value="fr">Français 🇫🇷</option>
-                                <option value="it">Italiano 🇮🇹</option>
-                                <option value="ru">Русский 🇷🇺</option>
-                                <option value="el">Ελληνικά 🇬🇷</option>
-                            </optgroup>
-                            <optgroup label="Other Languages">
-                                <option value="es">Español 🇪🇸</option>
-                                <option value="de">Deutsch 🇩🇪</option>
-                                <option value="pt">Português 🇵🇹</option>
-                                <option value="hy">Armenian 🇦🇲</option>
-                                <option value="ka">Georgian 🇬🇪</option>
-                                <option value="tt">Tatar 🟢</option>
-                                <option value="ba">Bashkir 🔵</option>
-                                <option value="br">Breton ⚪</option>
-                            </optgroup>
-                        </select>
-            </div>
-            <div class="setup-group" style="margin-top: 1rem;">
-                <label data-translate-key="linker_mode_label">Game Mode 🎮</label>
-                <select id="linker-mode" class="pill-input" style="width: 100%;">
-                    <option value="association" data-translate-key="linker_mode_association">Logical Association 🔗</option>
-                    <option value="odd_one" data-translate-key="linker_mode_odd_one">Odd One Out 🧐</option>
-                </select>
-            </div>
-            <div class="setup-row" style="margin-top: 1rem; gap: 1rem;">
-                <div class="setup-group" style="flex: 1;">
-                    <label data-translate-key="select_level">Select Level 📊</label>
-                    <select id="linker-level" class="pill-input game-level" style="width: 100%;">
-                        <option value="all" data-translate-key="level_all">All Levels</option>
-                    <option value="starter" data-translate-key="starter">Starter</option>
-                    <option value="elementary" data-translate-key="elementary">Elementary</option>
-                    <option value="intermediate" data-translate-key="intermediate">Intermediate</option>
-                    <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate</option>
-                    <option value="advanced" data-translate-key="advanced">Advanced</option>
-                        <option value="proficiency" data-translate-key="proficiency">Proficiency</option>
-                    </select>
-                </div>
-                <div class="setup-group" style="flex: 1;">
-                    <label data-translate-key="select_theme">Select Theme 🎨</label>
-                    <select id="linker-theme" class="pill-input game-theme" style="width: 100%;">
-                        <option value="all" data-translate-key="theme_all">All Themes</option>
-                    </select>
-                </div>
-            </div>
-            <button id="start-linker-game-btn" class="cta-button primary" style="margin-top: 1rem;" data-translate-key="start_game">Start Game 🚀</button>
-        </div>
-        <div id="linker-gameplay" style="display: none; padding: 2.5rem 1rem;">
-            <div id="linker-clues" style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem;"></div>
-            <div id="linker-options" class="choices-grid" style="max-width: 500px; gap: 1.5rem;"></div>
-            <div id="linker-feedback" class="feedback-text" style="margin-top: 2rem;"></div>
-        </div>
-        <button id="close-linker-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
-    </div>
-</div>
 
     </main>
 
     <footer>
-        <div class="contact">
-            <h3 data-translate-key="contact_title">Contact Us 📬</h3>
-            <p><span data-translate-key="contact_whatsapp">WhatsApp 📱:</span> <a href="https://wa.me/330766784195">+33 07 66 78 41 95</a></p>
-            <p><span data-translate-key="contact_telegram">Telegram ✈️:</span> <a href="https://t.me/cosylanguagesproject" target="_blank" rel="noopener noreferrer">@cosylanguages</a></p>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="fb-logo">
+                        <img src="images/cosylanguages.png" alt="COSYlanguages">
+                        <span class="fb-name">COSYlanguages</span>
+                    </div>
+                    <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+                </div>
+                <div class="footer-links-col">
+                    <h5 data-translate-key="footer_h5_courses">Courses</h5>
+                    <a href="general-course-roadmap.html" data-translate-key="course_general">General Course 📖</a>
+                    <a href="spoken-roadmap.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+                    <a href="exam-roadmap.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+                    <a href="days.html" data-translate-key="footer_roadmap">Full Roadmap 🗺️</a>
+                </div>
+                <div class="footer-links-col">
+                    <h5 data-translate-key="footer_h5_explore">Explore</h5>
+                    <a href="index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
+                    <a href="practice.html" data-translate-key="nav_practice">Free Practice 💡</a>
+                    <a href="events.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
+                    <a href="index.html#calculator" data-translate-key="nav_pricing">Pricing 🧮</a>
+                </div>
+                <div class="footer-links-col">
+                    <h5 data-translate-key="footer_h5_contact">Contact</h5>
+                    <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+                    <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+                    <a href="days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+                </div>
+            </div>
+            <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="js/data/theme_config.js"></script>
     <script src="js/data/numbers.js"></script>
     <script src="js/data/emojis.js"></script>
@@ -1041,163 +877,22 @@
     <script src="js/data/slavic/ru/alphabets.js"></script>
     <script src="js/data/turkic/ba/alphabets.js"></script>
     <script src="js/data/turkic/tt/alphabets.js"></script>
-    <script src="js/data/germanic/en/starter/grammar.js"></script>
-    <script src="js/data/hellenic/el/starter/grammar.js"></script>
-    <script src="js/data/romance/fr/starter/grammar.js"></script>
-    <script src="js/data/romance/it/starter/grammar.js"></script>
-    <script src="js/data/slavic/ru/starter/grammar.js"></script>
-    <script src="js/data/germanic/en/advanced/vocabulary.js"></script>
+
+    <script src="js/data/germanic/en/starter/vocabulary.js"></script>
     <script src="js/data/germanic/en/elementary/vocabulary.js"></script>
     <script src="js/data/germanic/en/intermediate/vocabulary.js"></script>
-    <script src="js/data/germanic/en/proficiency/vocabulary.js"></script>
-    <script src="js/data/germanic/en/starter/vocabulary.js"></script>
     <script src="js/data/germanic/en/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/advanced/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/elementary/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/intermediate/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/proficiency/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/starter/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/fr/advanced/vocabulary.js"></script>
-    <script src="js/data/romance/fr/elementary/vocabulary.js"></script>
-    <script src="js/data/romance/fr/intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/fr/proficiency/vocabulary.js"></script>
-    <script src="js/data/romance/fr/starter/vocabulary.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/it/elementary/vocabulary.js"></script>
-    <script src="js/data/romance/it/intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/it/proficiency/vocabulary.js"></script>
-    <script src="js/data/romance/it/starter/vocabulary.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/elementary/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/intermediate/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/proficiency/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/starter/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/germanic/en/elementary/verbs.js"></script>
-    <script src="js/data/germanic/en/intermediate/verbs.js"></script>
+    <script src="js/data/germanic/en/advanced/vocabulary.js"></script>
+    <script src="js/data/germanic/en/proficiency/vocabulary.js"></script>
+
     <script src="js/data/germanic/en/starter/verbs.js"></script>
-    <script src="js/data/hellenic/el/elementary/verbs.js"></script>
-    <script src="js/data/hellenic/el/intermediate/verbs.js"></script>
-    <script src="js/data/hellenic/el/starter/verbs.js"></script>
-    <script src="js/data/romance/fr/advanced/verbs.js"></script>
-    <script src="js/data/romance/fr/elementary/verbs.js"></script>
-    <script src="js/data/romance/fr/intermediate/verbs.js"></script>
-    <script src="js/data/romance/fr/proficiency/verbs.js"></script>
-    <script src="js/data/romance/fr/starter/verbs.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/verbs.js"></script>
-    <script src="js/data/romance/it/advanced/verbs.js"></script>
-    <script src="js/data/romance/it/elementary/verbs.js"></script>
-    <script src="js/data/romance/it/intermediate/verbs.js"></script>
-    <script src="js/data/romance/it/proficiency/verbs.js"></script>
-    <script src="js/data/romance/it/starter/verbs.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/verbs.js"></script>
-    <script src="js/data/slavic/ru/advanced/verbs.js"></script>
-    <script src="js/data/slavic/ru/elementary/verbs.js"></script>
-    <script src="js/data/slavic/ru/intermediate/verbs.js"></script>
-    <script src="js/data/slavic/ru/proficiency/verbs.js"></script>
-    <script src="js/data/slavic/ru/starter/verbs.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/verbs.js"></script>
-    <script src="js/data/armenian/hy/elementary/locations.js"></script>
-    <script src="js/data/armenian/hy/intermediate/locations.js"></script>
-    <script src="js/data/armenian/hy/starter/locations.js"></script>
-    <script src="js/data/celtic/br/elementary/locations.js"></script>
-    <script src="js/data/celtic/br/intermediate/locations.js"></script>
-    <script src="js/data/celtic/br/starter/locations.js"></script>
-    <script src="js/data/germanic/de/elementary/locations.js"></script>
-    <script src="js/data/germanic/de/intermediate/locations.js"></script>
-    <script src="js/data/germanic/de/starter/locations.js"></script>
-    <script src="js/data/germanic/en/elementary/locations.js"></script>
-    <script src="js/data/germanic/en/intermediate/locations.js"></script>
-    <script src="js/data/germanic/en/starter/locations.js"></script>
-    <script src="js/data/hellenic/el/elementary/locations.js"></script>
-    <script src="js/data/hellenic/el/intermediate/locations.js"></script>
-    <script src="js/data/hellenic/el/starter/locations.js"></script>
-    <script src="js/data/kartvelian/ka/elementary/locations.js"></script>
-    <script src="js/data/kartvelian/ka/intermediate/locations.js"></script>
-    <script src="js/data/kartvelian/ka/starter/locations.js"></script>
-    <script src="js/data/romance/es/elementary/locations.js"></script>
-    <script src="js/data/romance/es/intermediate/locations.js"></script>
-    <script src="js/data/romance/es/starter/locations.js"></script>
-    <script src="js/data/romance/fr/elementary/locations.js"></script>
-    <script src="js/data/romance/fr/intermediate/locations.js"></script>
-    <script src="js/data/romance/fr/starter/locations.js"></script>
-    <script src="js/data/romance/it/elementary/locations.js"></script>
-    <script src="js/data/romance/it/intermediate/locations.js"></script>
-    <script src="js/data/romance/it/starter/locations.js"></script>
-    <script src="js/data/romance/pt/elementary/locations.js"></script>
-    <script src="js/data/romance/pt/intermediate/locations.js"></script>
-    <script src="js/data/romance/pt/starter/locations.js"></script>
-    <script src="js/data/slavic/ru/elementary/locations.js"></script>
-    <script src="js/data/slavic/ru/intermediate/locations.js"></script>
-    <script src="js/data/slavic/ru/starter/locations.js"></script>
-    <script src="js/data/turkic/ba/elementary/locations.js"></script>
-    <script src="js/data/turkic/ba/intermediate/locations.js"></script>
-    <script src="js/data/turkic/ba/starter/locations.js"></script>
-    <script src="js/data/turkic/tt/elementary/locations.js"></script>
-    <script src="js/data/turkic/tt/intermediate/locations.js"></script>
-    <script src="js/data/turkic/tt/starter/locations.js"></script>
-    <script src="js/data/germanic/en/advanced/people.js"></script>
-    <script src="js/data/germanic/en/elementary/people.js"></script>
-    <script src="js/data/germanic/en/intermediate/people.js"></script>
-    <script src="js/data/germanic/en/proficiency/people.js"></script>
-    <script src="js/data/germanic/en/starter/people.js"></script>
-    <script src="js/data/germanic/en/upper-intermediate/people.js"></script>
-    <script src="js/data/hellenic/el/advanced/people.js"></script>
-    <script src="js/data/hellenic/el/elementary/people.js"></script>
-    <script src="js/data/hellenic/el/intermediate/people.js"></script>
-    <script src="js/data/hellenic/el/starter/people.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/people.js"></script>
-    <script src="js/data/romance/fr/advanced/people.js"></script>
-    <script src="js/data/romance/fr/elementary/people.js"></script>
-    <script src="js/data/romance/fr/intermediate/people.js"></script>
-    <script src="js/data/romance/fr/proficiency/people.js"></script>
-    <script src="js/data/romance/fr/starter/people.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/people.js"></script>
-    <script src="js/data/romance/it/advanced/people.js"></script>
-    <script src="js/data/romance/it/elementary/people.js"></script>
-    <script src="js/data/romance/it/intermediate/people.js"></script>
-    <script src="js/data/romance/it/starter/people.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/people.js"></script>
-    <script src="js/data/slavic/ru/advanced/people.js"></script>
-    <script src="js/data/slavic/ru/elementary/people.js"></script>
-    <script src="js/data/slavic/ru/intermediate/people.js"></script>
-    <script src="js/data/slavic/ru/starter/people.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/people.js"></script>
-    <script src="js/data/lessons/day1.js"></script>
-    <script src="js/data/lessons/day2.js"></script>
-    <script src="js/data/lessons/day3.js"></script>
-    <script src="js/data/lessons/day4.js"></script>
-    <script src="js/data/germanic/en/advanced/speaking.js"></script>
+    <script src="js/data/germanic/en/starter/grammar.js"></script>
+    <script src="js/data/germanic/en/starter/speaking.js"></script>
     <script src="js/data/germanic/en/elementary/speaking.js"></script>
     <script src="js/data/germanic/en/intermediate/speaking.js"></script>
-    <script src="js/data/germanic/en/proficiency/speaking.js"></script>
-    <script src="js/data/germanic/en/starter/speaking.js"></script>
     <script src="js/data/germanic/en/upper-intermediate/speaking.js"></script>
-    <script src="js/data/hellenic/el/advanced/speaking.js"></script>
-    <script src="js/data/hellenic/el/elementary/speaking.js"></script>
-    <script src="js/data/hellenic/el/intermediate/speaking.js"></script>
-    <script src="js/data/hellenic/el/proficiency/speaking.js"></script>
-    <script src="js/data/hellenic/el/starter/speaking.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/speaking.js"></script>
-    <script src="js/data/romance/fr/advanced/speaking.js"></script>
-    <script src="js/data/romance/fr/elementary/speaking.js"></script>
-    <script src="js/data/romance/fr/intermediate/speaking.js"></script>
-    <script src="js/data/romance/fr/proficiency/speaking.js"></script>
-    <script src="js/data/romance/fr/starter/speaking.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/speaking.js"></script>
-    <script src="js/data/romance/it/advanced/speaking.js"></script>
-    <script src="js/data/romance/it/elementary/speaking.js"></script>
-    <script src="js/data/romance/it/intermediate/speaking.js"></script>
-    <script src="js/data/romance/it/proficiency/speaking.js"></script>
-    <script src="js/data/romance/it/starter/speaking.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/speaking.js"></script>
-    <script src="js/data/slavic/ru/advanced/speaking.js"></script>
-    <script src="js/data/slavic/ru/elementary/speaking.js"></script>
-    <script src="js/data/slavic/ru/intermediate/speaking.js"></script>
-    <script src="js/data/slavic/ru/proficiency/speaking.js"></script>
-    <script src="js/data/slavic/ru/starter/speaking.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/speaking.js"></script>
+    <script src="js/data/germanic/en/advanced/speaking.js"></script>
+    <script src="js/data/germanic/en/proficiency/speaking.js"></script>
 
     <script src="js/data/germanic/en/translations.js"></script>
     <script src="js/data/romance/fr/translations.js"></script>
@@ -1214,8 +909,6 @@
     <script src="js/data/celtic/br/translations.js"></script>
     <script src="js/translate.js"></script>
 
-    <script src="js/data/emojis.js"></script>
-
     <!-- Games Logic -->
     <script src="js/games/utils/shared.js"></script>
     <script src="js/games/emoji_odyssey.js"></script>
@@ -1227,12 +920,28 @@
     <script src="js/games/last_letter.js"></script>
     <script src="js/games/loader.js"></script>
 
-
-
-
-
-
-
+    <script>
+        function showGame(gameId) {
+            const map = {
+                'emoji-odyssey': 'open-emoji-btn',
+                'lucky-numbers': 'open-bingo-btn',
+                'word-linker': 'open-linker-btn',
+                'last-letter': 'open-last-letter-btn',
+                'action-hero': 'open-charades-btn',
+                'identity-mystery': 'open-guess-who-btn',
+                'object-quest': 'open-guess-what-btn',
+                'fluency-flow': 'open-talk-talk-btn',
+                'battle-of-wits': 'open-debates-btn',
+                'opinion-arena': 'open-opinion-arena-btn',
+                'critics-corner': 'open-critics-corner-btn'
+            };
+            const targetId = map[gameId];
+            if (targetId) {
+                const originalBtn = document.getElementById(targetId);
+                if (originalBtn) originalBtn.click();
+            }
+        }
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>

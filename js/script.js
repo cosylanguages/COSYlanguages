@@ -160,10 +160,25 @@
         });
     };
 
+    // --- Scroll Reveal ---
+    const setupReveal = () => {
+        const io = new IntersectionObserver(entries => {
+            entries.forEach((e, i) => {
+                if (e.isIntersecting) {
+                    e.target.style.animationDelay = (i * 0.07) + 's';
+                    e.target.classList.add('visible');
+                    io.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.08 });
+        document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+    };
+
     // --- Initialize ---
     const init = () => {
         updateNavActiveState();
         setupBackToTop();
+        setupReveal();
         setupFAQ();
         window.addEventListener('hashchange', updateNavActiveState);
 

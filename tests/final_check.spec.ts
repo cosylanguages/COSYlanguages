@@ -61,6 +61,7 @@ test('Game launch with new theme filters', async ({ page }) => {
 
     // Show Games
     await page.click('#toggle-games-btn');
+    await page.waitForSelector('#game-nights-topics', { state: 'visible' });
 
     // Open Charades (Action Hero)
     await page.click('#open-charades-btn');

@@ -10,112 +10,9 @@
 <meta property="og:image" content="images/cosylanguages.png">
 <link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 <style>
-/* ── Design tokens ─────────────────────────────────── */
-:root {
-  /* Palette — inspired by logo: warm sage greens, honey gold, cream */
-  --sage:        #6b8f71;
-  --sage-dark:   #4a6b50;
-  --sage-deep:   #2e4a33;
-  --sage-light:  #8aab8f;
-  --sage-pale:   #e8f0e9;
-  --sage-mist:   #f0f5f1;
-  --cream:       #fdf8f0;
-  --cream-dark:  #f5ede0;
-  --honey:       #e8a838;
-  --honey-dark:  #a06b10;
-  --honey-pale:  #fff8e7;
-  --honey-mid:   #fef0c7;
-  --bark:        #7a5c3a;
-  --ink:         #2a2a2a;
-  --ink-soft:    #4a4a4a;
-  --muted:       #6b6b6b;
-  --border:      rgba(74,107,80,.12);
-  --border-warm: rgba(122,92,58,.1);
-  --radius-sm:   10px;
-  --radius:      18px;
-  --radius-lg:   26px;
-  --shadow-sm:   0 2px 12px rgba(46,74,51,.07);
-  --shadow:      0 6px 28px rgba(46,74,51,.10);
-  --shadow-lg:   0 16px 48px rgba(46,74,51,.13);
-}
-
-*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: 'Nunito', sans-serif;
-  background: var(--cream);
-  color: var(--ink);
-  line-height: 1.65;
-  overflow-x: hidden;
-}
-a { color: inherit; text-decoration: none; }
-img { display: block; }
-
-/* ── Nav ────────────────────────────────────────────── */
-nav {
-  position: sticky; top: 0; z-index: 200;
-  background: rgba(253,248,240,.96);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
-  height: 66px; padding: 0 2rem;
-  display: flex; align-items: center; justify-content: space-between;
-  box-shadow: 0 2px 16px rgba(46,74,51,.06);
-}
-.nav-logo { display: flex; align-items: center; gap: .6rem; }
-.nav-logo img { height: 44px; }
-.nav-logo-text {
-  font-family: 'Lora', serif;
-  font-size: 1.1rem; font-weight: 700;
-  color: var(--sage-dark);
-  display: none;
-}
-.nav-links { display: flex; gap: .3rem; list-style: none; align-items: center; }
-.nav-links a {
-  font-weight: 700; font-size: .8rem;
-  padding: .35rem .65rem; border-radius: var(--radius-sm);
-  color: var(--ink-soft);
-  transition: background .18s, color .18s;
-}
-.nav-links a:hover { background: var(--sage-pale); color: var(--sage-dark); }
-.nav-links a.active { background: var(--sage-mist); color: var(--sage-deep); box-shadow: inset 0 0 0 1px var(--border); }
-.nav-student {
-  font-size: .75rem !important;
-  color: var(--muted) !important;
-  border: 1px solid var(--border) !important;
-  border-radius: var(--radius-sm) !important;
-}
-.nav-student:hover { background: var(--cream-dark) !important; color: var(--ink) !important; }
-.nav-wa {
-  background: var(--sage) !important;
-  color: #fff !important;
-  border-radius: 999px !important;
-  padding: .38rem .9rem !important;
-}
-.nav-wa:hover { background: var(--sage-dark) !important; color: #fff !important; }
-.nav-lang { display: flex; gap: .2rem; margin-left: .5rem; }
-.nav-lang a {
-  font-size: .73rem; font-weight: 800;
-  padding: .2rem .38rem; border-radius: 6px;
-  color: var(--muted);
-  transition: all .18s;
-  cursor: pointer;
-}
-.nav-lang a:hover { background: var(--sage-pale); color: var(--sage-dark); }
-
-/* ── Floating WhatsApp ──────────────────────────────── */
-.wa-fab {
-  position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 300;
-  width: 54px; height: 54px; border-radius: 50%;
-  background: #25d366; color: #fff;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,.18);
-  transition: transform .2s, box-shadow .2s;
-}
-.wa-fab:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(0,0,0,.24); }
-
-/* ── Hero ───────────────────────────────────────────── */
+/* Page-specific overrides or decorative elements */
 .hero {
   background:
     radial-gradient(ellipse at 80% 20%, rgba(138,171,143,.35) 0%, transparent 55%),
@@ -143,7 +40,6 @@ nav {
   max-width: 860px; margin: 0 auto;
   display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;
 }
-.hero-left {}
 .hero-tag {
   display: inline-flex; align-items: center; gap: .45rem;
   background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25);
@@ -173,25 +69,6 @@ nav {
 .hero-teacher .ht-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: .05rem; }
 /* CTAs */
 .hero-ctas { display: flex; gap: .75rem; flex-wrap: wrap; }
-.btn-primary {
-  display: inline-flex; align-items: center; gap: .4rem;
-  background: #fff; color: var(--sage-dark);
-  font-family: 'Nunito', sans-serif; font-weight: 900; font-size: .9rem;
-  padding: .7rem 1.6rem; border-radius: 999px;
-  box-shadow: 0 4px 20px rgba(0,0,0,.12);
-  transition: transform .18s, box-shadow .18s;
-  border: none; cursor: pointer;
-}
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 28px rgba(0,0,0,.15); }
-.btn-ghost {
-  display: inline-flex; align-items: center; gap: .4rem;
-  background: rgba(255,255,255,.12); color: #fff;
-  font-family: 'Nunito', sans-serif; font-weight: 800; font-size: .9rem;
-  padding: .7rem 1.6rem; border-radius: 999px;
-  border: 1.5px solid rgba(255,255,255,.4);
-  transition: background .18s; cursor: pointer;
-}
-.btn-ghost:hover { background: rgba(255,255,255,.22); }
 
 /* hero right — speak badge + stats */
 .hero-right { display: flex; flex-direction: column; gap: 1.2rem; }
@@ -519,84 +396,6 @@ section { padding: 4rem 0; }
   transition: background .18s;
 }
 .cta-tg:hover { background: rgba(255,255,255,.25); }
-
-/* ── Footer ───────────────────────────────────────────── */
-footer {
-  background: var(--sage-deep); color: rgba(255,255,255,.78);
-  padding: 2.5rem 2rem; font-size: .82rem;
-}
-.footer-inner { max-width: 1040px; margin: 0 auto; }
-.footer-top {
-  display: flex; justify-content: space-between; align-items: flex-start;
-  flex-wrap: wrap; gap: 1.5rem; margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,.1);
-}
-.footer-brand .fb-logo { display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem; }
-.footer-brand .fb-logo img { height: 36px; }
-.footer-brand .fb-name { font-family: 'Lora', serif; font-weight: 700; font-size: 1rem; color: #fff; }
-.footer-brand p { font-size: .8rem; opacity: .75; max-width: 240px; line-height: 1.6; }
-.footer-links-col h5 { font-size: .73rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; color: rgba(255,255,255,.5); margin-bottom: .6rem; }
-.footer-links-col a { display: block; font-size: .8rem; color: rgba(255,255,255,.78); margin-bottom: .3rem; font-weight: 700; transition: color .18s; }
-.footer-links-col a:hover { color: #fff; }
-.footer-bottom { text-align: center; font-size: .75rem; opacity: .5; }
-
-/* ── Animations ───────────────────────────────────────── */
-@keyframes fadeUp { from { opacity:0; transform:translateY(18px); } to { opacity:1; transform:translateY(0); } }
-.reveal { animation: fadeUp .5s ease both; animation-play-state: paused; }
-.visible { animation-play-state: running; }
-
-/* Back to Top */
-#back-to-top {
-  position: fixed; bottom: 1.5rem; left: 1.5rem; z-index: 300;
-  width: 44px; height: 44px; border-radius: 50%;
-  background: var(--sage); color: #fff;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1.2rem; font-weight: 900;
-  box-shadow: 0 4px 16px rgba(0,0,0,.12);
-  border: none; cursor: pointer;
-  opacity: 0; pointer-events: none; transform: translateY(10px);
-  transition: all .25s ease;
-}
-#back-to-top.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
-#back-to-top:hover { background: var(--sage-dark); transform: scale(1.1); }
-
-/* ── Responsive ───────────────────────────────────────── */
-@media (max-width: 1024px) {
-  .hero-inner { gap: 2rem; }
-  .steps::before { left: calc(16.67% + 10px); right: calc(16.67% + 10px); }
-}
-
-@media (max-width: 860px) {
-  .hero-inner { grid-template-columns: 1fr; gap: 2rem; }
-  .hero-sub { max-width: 100%; }
-  .hero-teacher { max-width: 100%; }
-  .steps { grid-template-columns: 1fr; }
-  .steps::before { display: none; }
-  .lang-grid { grid-template-columns: repeat(3, 1fr); }
-  .tools-grid { grid-template-columns: 1fr; }
-  .why-grid { grid-template-columns: repeat(2, 1fr); }
-  .tips-row { grid-template-columns: repeat(2, 1fr); }
-}
-
-@media (max-width: 560px) {
-  nav { padding: 0 1rem; }
-  .nav-links { gap: .2rem; }
-  .nav-links a { font-size: .72rem; padding: .28rem .45rem; }
-  .nav-links li:nth-child(1), .nav-links li:nth-child(2) { display: none; }
-  .hero { padding: 3.5rem 1rem 6rem; }
-  .lang-grid { grid-template-columns: repeat(2, 1fr); }
-  .why-grid { grid-template-columns: 1fr; }
-  .tips-row { grid-template-columns: 1fr; }
-  .calc-grid { grid-template-columns: 1fr 1fr; }
-  footer { padding: 2rem 1rem; }
-  .footer-top { flex-direction: column; }
-}
-
-@media (max-width: 480px) {
-  .hero h1 { font-size: 1.8rem; }
-  .calc-grid { grid-template-columns: 1fr; }
-  .nav-lang { display: none; } /* Hide compact flags on very small screens if needed */
-}
 </style>
 </head>
 <body>
@@ -629,7 +428,7 @@ footer {
   <div class="hero-inner">
     <div class="hero-left">
       <div class="hero-tag" data-translate-key="hero_tag">🏡 COSYlanguages</div>
-      <h1 data-translate-key="hero_h1_speak">Learn languages<br>you'll actually <em>speak</em>.</h1>
+      <h1 data-translate-key="hero_h1">Learn a language with teachers who <em>love</em> what they teach.</h1>
       <p class="hero-sub" data-translate-key="hero_sub">1-to-1 online lessons in English, French, Italian, Russian and Greek. Speaking-first, always — because the only way to become fluent is to open your mouth.</p>
       <div class="hero-teacher">
         <span class="ht-icon">🎓</span>
@@ -1009,19 +808,6 @@ footer {
   </div>
 </footer>
 
-<script>
-/* ── Scroll reveal ──────────────────────────────────────── */
-const io = new IntersectionObserver(entries => {
-  entries.forEach((e,i) => {
-    if(e.isIntersecting){
-      e.target.style.animationDelay = (i*0.07)+'s';
-      e.target.classList.add('visible');
-      io.unobserve(e.target);
-    }
-  });
-},{threshold:0.08});
-document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-</script>
     <script src="js/data/theme_config.js"></script>
     <script src="js/data/germanic/en/translations.js"></script>
     <script src="js/data/romance/fr/translations.js"></script>

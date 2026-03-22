@@ -114,8 +114,9 @@ for lang in langs:
     if missing:
         found_any_missing = True
         print(f"Missing {len(missing)} keys in {lang}:")
-        # for m in sorted(missing):
-        #     print(f"  - {m}")
+        if lang in ['en', 'fr', 'it', 'ru', 'el']:
+            for m in sorted(missing):
+                print(f"  - {m}")
     else:
         print(f"All keys present in {lang}")
 
