@@ -6,11 +6,6 @@ test('mobile view screenshots', async ({ page }) => {
 
     await page.goto('http://localhost:8080/events.html');
 
-    // Show games grid
-    await page.click('#toggle-games-btn');
-    await page.waitForSelector('#game-nights-topics', { state: 'visible' });
-    await page.waitForSelector('#open-bingo-btn', { state: 'visible' });
-
     // Test Bingo Modal
     await page.click('#open-bingo-btn');
     await page.waitForTimeout(500);

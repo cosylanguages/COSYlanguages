@@ -59,10 +59,6 @@ test('Student Area access and day selection', async ({ page }) => {
 test('Game launch with new theme filters', async ({ page }) => {
     await page.goto('http://localhost:8080/events.html');
 
-    // Show Games
-    await page.click('#toggle-games-btn');
-    await page.waitForSelector('#game-nights-topics', { state: 'visible' });
-
     // Open Charades (Action Hero)
     await page.click('#open-charades-btn');
     await expect(page.locator('#charades-modal')).toBeVisible();

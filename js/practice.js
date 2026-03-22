@@ -677,7 +677,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (backToMenuBtn) {
         backToMenuBtn.addEventListener('click', () => {
-            document.getElementById('summary-modal').style.display = 'none';
+            const summaryModal = document.getElementById('summary-modal');
+            summaryModal.style.display = 'none';
+            summaryModal.classList.remove('visible');
             document.getElementById('setup-section').style.display = 'block';
             clearSession();
             loadStreak();
@@ -2010,7 +2012,10 @@ function showSummary() {
         streakUnitEl.setAttribute('data-translate-key', dayKey);
     }
 
-    if (summaryModal) summaryModal.style.display = 'flex';
+    if (summaryModal) {
+        summaryModal.style.display = 'flex';
+        summaryModal.classList.add('visible');
+    }
     if (practiceSection) practiceSection.style.display = 'none';
 
     window.gameUtils.createConfetti();

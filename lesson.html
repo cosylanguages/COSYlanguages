@@ -3,37 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate-key="nav_courses">Courses 📚 - COSYlanguages</title>
-    <meta name="description" data-translate-key="site_desc" content="Localized Content">
-    <meta property="og:title" data-translate-key="site_title_redesign" content="Localized Content">
-    <meta property="og:description" data-translate-key="site_desc" content="Localized Content">
-    <meta property="og:image" content="images/cosylanguages.png">
-    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/lesson.html">
+    <title data-translate-key="nav_courses">Courses 📚 — COSYlanguages</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body class="practice-page">
     <nav>
-      <a class="nav-logo" href="index.html">
-        <img src="images/cosylanguages.png" alt="COSYlanguages">
-      </a>
-      <ul class="nav-links">
-        <li><a href="index.html#how" data-translate-key="nav_how">How it works</a></li>
-        <li><a href="index.html#courses" data-translate-key="nav_courses">Courses</a></li>
-        <li><a href="index.html#languages" data-translate-key="nav_languages">Languages</a></li>
-        <li><a href="practice.html" data-translate-key="nav_practice">Practice</a></li>
-        <li><a href="index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
-        <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
-        <li><a href="days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
-        <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
-      </ul>
-      <div class="nav-lang">
-        <a href="languages/en.html" data-lang="en">EN</a><a href="languages/fr.html" data-lang="fr">FR</a><a href="languages/it.html" data-lang="it">IT</a><a href="languages/ru.html" data-lang="ru">RU</a><a href="languages/el.html" data-lang="el">EL</a>
-      </div>
+        <a class="nav-logo" href="index.html">
+            <img src="images/cosylanguages.png" alt="COSYlanguages">
+            <span class="nav-logo-text">COSYlanguages</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html#how" data-translate-key="nav_how">How it works</a></li>
+            <li><a href="index.html#courses" data-translate-key="nav_courses">Courses</a></li>
+            <li><a href="index.html#languages" data-translate-key="nav_languages">Languages</a></li>
+            <li><a href="practice.html" data-translate-key="nav_practice">Practice</a></li>
+            <li><a href="index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
+            <li><a href="events.html" data-translate-key="nav_events">Events 🎉</a></li>
+            <li><a href="days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
+            <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
+        </ul>
+        <div class="nav-lang">
+            <a data-lang="en">EN</a><a data-lang="fr">FR</a><a data-lang="it">IT</a><a data-lang="ru">RU</a><a data-lang="el">EL</a>
+        </div>
     </nav>
 
-    <main>
+    <main class="practice-main">
         <section id="practice-container">
-            <h2 data-translate-key="curriculum_title">Days Curriculum 🗓️</h2>
+            <header class="practice-header" style="padding-top: 2rem; padding-bottom: 2rem;">
+                <h2 data-translate-key="curriculum_title">Days Curriculum 🗓️</h2>
+            </header>
 
             <div id="practice-section">
                 <div id="practice-progress" class="progress-bar-container">
@@ -41,234 +40,87 @@
                 </div>
                 <div id="progress-text"></div>
 
-                <div id="question-card" class="event-item">
+                <div id="question-card" class="event-item glass">
                     <div id="lesson-info" class="lesson-badge"></div>
                     <div id="emoji-display" class="practice-emoji"></div>
-                    <div id="task-instruction" class="task-text" style="margin-bottom: 0.5rem;"></div>
+                    <div id="task-instruction" class="sec-tag"></div>
                     <div id="task-what-to-do" class="what-to-do-box" style="display: none;"></div>
-                    <div id="task-example" class="subtext-display" style="display: none; background: rgba(255, 193, 7, 0.1); border-color: var(--secondary-color); margin-bottom: 1rem;"></div>
+                    <div id="task-example" class="subtext-display" style="display: none; margin-bottom: 1.5rem;"></div>
+
                     <div class="word-container">
                         <div id="word-display" class="word-text"></div>
-                        <button id="listen-btn" class="icon-btn" title="Listen">🔊</button>
+                        <div id="subtext-display" class="subtext-display"></div>
+                        <button id="listen-btn" class="cta-button secondary" style="padding: .4rem 1rem; font-size: .8rem; margin-top: .5rem;" data-translate-key="listen_btn">Listen 🔊</button>
                     </div>
-                    <div id="subtext-display" class="subtext-display"></div>
 
                     <div id="answer-area">
-                        <!-- Opposite/Cloze task -->
-                        <div id="opposite-input-container" style="display: none; flex-direction: column; align-items: center; width: 100%;">
-                            <input type="text" id="opposite-answer" class="app-input" data-translate-key="placeholder_type_here" placeholder="..." autocomplete="off" autocapitalize="off" spellcheck="false" style="width: 100%; max-width: 400px; font-size: 1.5rem; border-radius: 20px; padding: 1.2rem; margin-bottom: 1.5rem; border: 3px solid var(--light-gray); text-align: center;">
-                        </div>
-
-                        <div id="action-buttons-container" style="display: none;">
-                            <button id="check-opposite-btn" class="cta-button primary" data-translate-key="check_btn">Check 🔍</button>
-                            <button id="hint-btn" class="cta-button secondary" data-translate-key="hint_btn">Hint 💡</button>
-                        </div>
-
-                        <!-- True/False task -->
-                        <div id="tf-buttons-container" style="display: none;">
-                            <button id="true-btn" class="topics-toggle-btn" data-translate-key="true_btn">True ✅</button>
-                            <button id="false-btn" class="topics-toggle-btn" data-translate-key="false_btn">False ❌</button>
-                        </div>
-
-                        <!-- Multiple Choice task -->
-                        <div id="choices-grid" class="choices-grid" style="display: none;">
-                            <!-- Buttons will be generated here -->
-                        </div>
-
-                        <!-- Scramble task -->
-                        <div id="scramble-container" style="display: none;">
-                            <div id="word-assembly" class="word-assembly"></div>
-                            <div id="scramble-letters" class="choices-grid"></div>
-                            <button id="clear-scramble-btn" class="topics-toggle-btn secondary-btn" data-translate-key="clear_btn">Clear 🔄</button>
-                        </div>
-
-                        <!-- Conversation task -->
-                        <div id="conversation-container" style="display: none;">
-                            <textarea id="conversation-response" class="pill-input" style="width: 100%; height: 100px; padding: 15px; border-radius: 20px; margin-bottom: 10px;" data-translate-key="placeholder_conversation" placeholder="Type your response here..."></textarea>
-                            <button id="finish-conversation-btn" class="topics-toggle-btn success-btn" data-translate-key="done_btn">Done ✅</button>
-                        </div>
+                        <div id="opposite-input-container" style="display: none;"><input type="text" id="opposite-answer" class="app-input" data-translate-key="placeholder_type_here" placeholder="..."></div>
+                        <div id="action-buttons-container" style="display: none; justify-content: center; gap: 1rem; margin-bottom: 1rem;"><button id="check-opposite-btn" class="cta-button primary">Check</button></div>
+                        <div id="choices-grid" class="choices-grid"></div>
+                        <div id="scramble-container" style="display: none;"><div id="word-assembly" class="word-assembly"></div><div id="scramble-letters" class="choices-grid"></div><button id="clear-scramble-btn" class="cta-button secondary" style="margin-top: 1rem;">Clear</button></div>
+                        <div id="tf-buttons-container" style="display: none; justify-content: center; gap: 1rem;"><button id="true-btn" class="cta-button primary">True</button><button id="false-btn" class="cta-button primary" style="background: #f44336;">False</button></div>
+                        <div id="conversation-container" style="display: none;"><textarea id="conversation-response" class="pill-input" style="height: 100px; margin-bottom: 1rem;"></textarea><button id="finish-conversation-btn" class="cta-button primary">Done</button></div>
                     </div>
 
                     <div id="feedback-message" class="feedback-text"></div>
-                    <button id="next-btn" class="cta-button" style="display: none;" data-translate-key="next_word">Next Word ➡️</button>
+
+                    <div style="display: flex; gap: 1rem; justify-content: center;">
+                        <button id="hint-btn" class="cta-button secondary" data-translate-key="hint_btn">Hint 💡</button>
+                        <button id="next-btn" class="cta-button primary" style="display: none;" data-translate-key="next_word">Next Word ➡️</button>
+                    </div>
                 </div>
 
-                <div class="practice-footer" style="display: flex; justify-content: center; gap: 2rem; margin-top: 20px;">
+                <div class="practice-footer" style="display: flex; justify-content: center; gap: 2rem; margin-top: 2rem;">
                     <div><span data-translate-key="score_label">COSY Points: ✨</span> <span id="score-count">0</span></div>
                 </div>
-                <div style="text-align: center; margin-top: 30px;">
+                <div style="text-align: center; margin-top: 3rem;">
                     <button id="exit-lesson-btn" class="cta-button secondary" data-translate-key="exit_btn">Exit Lesson 🏠</button>
                 </div>
             </div>
         </section>
     </main>
 
-    <div id="summary-modal" class="modal-overlay" style="display: none;">
+    <div id="summary-modal" class="modal-overlay">
         <div class="modal-content glass">
-            <h2 data-translate-key="session_summary_title">Session Summary 🎉</h2>
+            <h2 data-translate-key="session_summary_title">Lesson Summary 🎉</h2>
             <div class="summary-stats">
                 <div class="stat-item">
-                    <p data-translate-key="session_points">Session Points:</p>
+                    <p data-translate-key="session_points">Lesson Points</p>
                     <span id="final-score" class="stat-value">0</span>
                     <span class="stat-emoji">✨</span>
                 </div>
             </div>
-            <button id="back-to-menu-btn" class="cta-button" data-translate-key="back_to_menu">Back to Menu 🏠</button>
+            <button id="back-to-menu-btn" class="cta-button primary" data-translate-key="back_to_menu" style="width: 100%;">Back to Menu 🏠</button>
         </div>
     </div>
 
     <footer>
-        <div class="contact">
-            <h3 data-translate-key="contact_title">Contact Us 📬</h3>
-            <p><span data-translate-key="contact_whatsapp">WhatsApp 📱:</span> <a href="https://wa.me/330766784195">+33 07 66 78 41 95</a></p>
-            <p><span data-translate-key="contact_telegram">Telegram ✈️:</span> <a href="https://t.me/cosylanguagesproject" target="_blank" rel="noopener noreferrer">@cosylanguages</a></p>
+        <div class="footer-inner">
+            <div class="footer-bottom">© 2025 COSYlanguages — All rights reserved</div>
         </div>
     </footer>
-
 
     <script src="js/data/theme_config.js"></script>
     <script src="js/data/numbers.js"></script>
     <script src="js/data/emojis.js"></script>
-    <script src="js/data/armenian/hy/alphabets.js"></script>
-    <script src="js/data/celtic/br/alphabets.js"></script>
-    <script src="js/data/germanic/de/alphabets.js"></script>
     <script src="js/data/germanic/en/alphabets.js"></script>
-    <script src="js/data/hellenic/el/alphabets.js"></script>
-    <script src="js/data/kartvelian/ka/alphabets.js"></script>
-    <script src="js/data/romance/es/alphabets.js"></script>
     <script src="js/data/romance/fr/alphabets.js"></script>
     <script src="js/data/romance/it/alphabets.js"></script>
-    <script src="js/data/romance/pt/alphabets.js"></script>
     <script src="js/data/slavic/ru/alphabets.js"></script>
-    <script src="js/data/turkic/ba/alphabets.js"></script>
-    <script src="js/data/turkic/tt/alphabets.js"></script>
+    <script src="js/data/hellenic/el/alphabets.js"></script>
+
     <script src="js/data/germanic/en/starter/grammar.js"></script>
     <script src="js/data/hellenic/el/starter/grammar.js"></script>
     <script src="js/data/romance/fr/starter/grammar.js"></script>
     <script src="js/data/romance/it/starter/grammar.js"></script>
     <script src="js/data/slavic/ru/starter/grammar.js"></script>
-    <script src="js/data/germanic/en/advanced/vocabulary.js"></script>
-    <script src="js/data/germanic/en/elementary/vocabulary.js"></script>
-    <script src="js/data/germanic/en/intermediate/vocabulary.js"></script>
-    <script src="js/data/germanic/en/proficiency/vocabulary.js"></script>
-    <script src="js/data/germanic/en/starter/vocabulary.js"></script>
-    <script src="js/data/germanic/en/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/advanced/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/elementary/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/intermediate/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/proficiency/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/starter/vocabulary.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/fr/advanced/vocabulary.js"></script>
-    <script src="js/data/romance/fr/elementary/vocabulary.js"></script>
-    <script src="js/data/romance/fr/intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/fr/proficiency/vocabulary.js"></script>
-    <script src="js/data/romance/fr/starter/vocabulary.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/it/elementary/vocabulary.js"></script>
-    <script src="js/data/romance/it/intermediate/vocabulary.js"></script>
-    <script src="js/data/romance/it/proficiency/vocabulary.js"></script>
-    <script src="js/data/romance/it/starter/vocabulary.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/elementary/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/intermediate/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/proficiency/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/starter/vocabulary.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/vocabulary.js"></script>
-    <script src="js/data/germanic/en/elementary/verbs.js"></script>
-    <script src="js/data/germanic/en/intermediate/verbs.js"></script>
-    <script src="js/data/germanic/en/starter/verbs.js"></script>
-    <script src="js/data/hellenic/el/elementary/verbs.js"></script>
-    <script src="js/data/hellenic/el/intermediate/verbs.js"></script>
-    <script src="js/data/hellenic/el/starter/verbs.js"></script>
-    <script src="js/data/romance/fr/advanced/verbs.js"></script>
-    <script src="js/data/romance/fr/elementary/verbs.js"></script>
-    <script src="js/data/romance/fr/intermediate/verbs.js"></script>
-    <script src="js/data/romance/fr/proficiency/verbs.js"></script>
-    <script src="js/data/romance/fr/starter/verbs.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/verbs.js"></script>
-    <script src="js/data/romance/it/advanced/verbs.js"></script>
-    <script src="js/data/romance/it/elementary/verbs.js"></script>
-    <script src="js/data/romance/it/intermediate/verbs.js"></script>
-    <script src="js/data/romance/it/proficiency/verbs.js"></script>
-    <script src="js/data/romance/it/starter/verbs.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/verbs.js"></script>
-    <script src="js/data/slavic/ru/advanced/verbs.js"></script>
-    <script src="js/data/slavic/ru/elementary/verbs.js"></script>
-    <script src="js/data/slavic/ru/intermediate/verbs.js"></script>
-    <script src="js/data/slavic/ru/proficiency/verbs.js"></script>
-    <script src="js/data/slavic/ru/starter/verbs.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/verbs.js"></script>
-    <script src="js/data/armenian/hy/elementary/locations.js"></script>
-    <script src="js/data/armenian/hy/intermediate/locations.js"></script>
-    <script src="js/data/armenian/hy/starter/locations.js"></script>
-    <script src="js/data/celtic/br/elementary/locations.js"></script>
-    <script src="js/data/celtic/br/intermediate/locations.js"></script>
-    <script src="js/data/celtic/br/starter/locations.js"></script>
-    <script src="js/data/germanic/de/elementary/locations.js"></script>
-    <script src="js/data/germanic/de/intermediate/locations.js"></script>
-    <script src="js/data/germanic/de/starter/locations.js"></script>
-    <script src="js/data/germanic/en/elementary/locations.js"></script>
-    <script src="js/data/germanic/en/intermediate/locations.js"></script>
-    <script src="js/data/germanic/en/starter/locations.js"></script>
-    <script src="js/data/hellenic/el/elementary/locations.js"></script>
-    <script src="js/data/hellenic/el/intermediate/locations.js"></script>
-    <script src="js/data/hellenic/el/starter/locations.js"></script>
-    <script src="js/data/kartvelian/ka/elementary/locations.js"></script>
-    <script src="js/data/kartvelian/ka/intermediate/locations.js"></script>
-    <script src="js/data/kartvelian/ka/starter/locations.js"></script>
-    <script src="js/data/romance/es/elementary/locations.js"></script>
-    <script src="js/data/romance/es/intermediate/locations.js"></script>
-    <script src="js/data/romance/es/starter/locations.js"></script>
-    <script src="js/data/romance/fr/elementary/locations.js"></script>
-    <script src="js/data/romance/fr/intermediate/locations.js"></script>
-    <script src="js/data/romance/fr/starter/locations.js"></script>
-    <script src="js/data/romance/it/elementary/locations.js"></script>
-    <script src="js/data/romance/it/intermediate/locations.js"></script>
-    <script src="js/data/romance/it/starter/locations.js"></script>
-    <script src="js/data/romance/pt/elementary/locations.js"></script>
-    <script src="js/data/romance/pt/intermediate/locations.js"></script>
-    <script src="js/data/romance/pt/starter/locations.js"></script>
-    <script src="js/data/slavic/ru/elementary/locations.js"></script>
-    <script src="js/data/slavic/ru/intermediate/locations.js"></script>
-    <script src="js/data/slavic/ru/starter/locations.js"></script>
-    <script src="js/data/turkic/ba/elementary/locations.js"></script>
-    <script src="js/data/turkic/ba/intermediate/locations.js"></script>
-    <script src="js/data/turkic/ba/starter/locations.js"></script>
-    <script src="js/data/turkic/tt/elementary/locations.js"></script>
-    <script src="js/data/turkic/tt/intermediate/locations.js"></script>
-    <script src="js/data/turkic/tt/starter/locations.js"></script>
-    <script src="js/data/germanic/en/advanced/people.js"></script>
-    <script src="js/data/germanic/en/elementary/people.js"></script>
-    <script src="js/data/germanic/en/intermediate/people.js"></script>
-    <script src="js/data/germanic/en/proficiency/people.js"></script>
-    <script src="js/data/germanic/en/starter/people.js"></script>
-    <script src="js/data/germanic/en/upper-intermediate/people.js"></script>
-    <script src="js/data/hellenic/el/advanced/people.js"></script>
-    <script src="js/data/hellenic/el/elementary/people.js"></script>
-    <script src="js/data/hellenic/el/intermediate/people.js"></script>
-    <script src="js/data/hellenic/el/starter/people.js"></script>
-    <script src="js/data/hellenic/el/upper-intermediate/people.js"></script>
-    <script src="js/data/romance/fr/advanced/people.js"></script>
-    <script src="js/data/romance/fr/elementary/people.js"></script>
-    <script src="js/data/romance/fr/intermediate/people.js"></script>
-    <script src="js/data/romance/fr/proficiency/people.js"></script>
-    <script src="js/data/romance/fr/starter/people.js"></script>
-    <script src="js/data/romance/fr/upper-intermediate/people.js"></script>
-    <script src="js/data/romance/it/advanced/people.js"></script>
-    <script src="js/data/romance/it/elementary/people.js"></script>
-    <script src="js/data/romance/it/intermediate/people.js"></script>
-    <script src="js/data/romance/it/starter/people.js"></script>
-    <script src="js/data/romance/it/upper-intermediate/people.js"></script>
-    <script src="js/data/slavic/ru/advanced/people.js"></script>
-    <script src="js/data/slavic/ru/elementary/people.js"></script>
-    <script src="js/data/slavic/ru/intermediate/people.js"></script>
-    <script src="js/data/slavic/ru/starter/people.js"></script>
-    <script src="js/data/slavic/ru/upper-intermediate/people.js"></script>
+
+    <!-- Data loading for lesson player -->
     <script src="js/data/lessons/day1.js"></script>
     <script src="js/data/lessons/day2.js"></script>
     <script src="js/data/lessons/day3.js"></script>
     <script src="js/data/lessons/day4.js"></script>
+
     <script src="js/data/germanic/en/translations.js"></script>
     <script src="js/data/romance/fr/translations.js"></script>
     <script src="js/data/romance/it/translations.js"></script>
@@ -282,17 +134,10 @@
     <script src="js/data/turkic/tt/translations.js"></script>
     <script src="js/data/turkic/ba/translations.js"></script>
     <script src="js/data/celtic/br/translations.js"></script>
-    <script src="js/translate.js"></script>
 
+    <script src="js/translate.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/games/utils/shared.js"></script>
     <script src="js/lesson.js"></script>
-
-
-
-
-
-
-
-    <script src="js/script.js"></script>
 </body>
 </html>

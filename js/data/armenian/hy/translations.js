@@ -904,24 +904,8 @@
             wtd_ws: "Arrange the words to build a correct sentence.",
             zalando: "Zalando",
             zalando_desc: "Online clothing and shoe store.",
-                    calc_pack_separator: " · ",
-            calc_per_session_suffix: "/session",
-                    calc_original_label: "Original Price",
-            calc_discount_label: "Discounted Price",
-                    sec_tag_faq: "❓ Questions",
-            sec_h2_faq: "Frequently Asked Questions",
-            faq_1_q: "How do the lessons work?",
-            faq_1_a: "Lessons are 1-to-1 via Google Meet or Zoom. We focus on active communication, using the COSY methodology to get you speaking from day one.",
-            faq_2_q: "Do I need prior experience?",
-            faq_2_a: "Not at all. We teach students from absolute beginner (A0) to proficiency (C2). Your teacher will adapt the pace and content to your level.",
-            faq_3_q: "How quickly will I progress?",
-            faq_3_a: "Progress depends on your consistency. With our 'Spoken' daily habit and 1-to-1 lessons, most students feel a significant difference in confidence within 4-8 weeks.",
-            faq_4_q: "Can I change my schedule?",
-            faq_4_a: "Yes! We offer flexible scheduling. You can book or reschedule sessions with 24 hours notice to fit your busy adult life.",
-            faq_5_q: "What materials do I need?",
-            faq_5_a: "Just a device with a camera and microphone. All learning materials, including our free practice tools and games, are provided by us.",
         }
-        };
+    };
     window.translations = window.translations || {};
     window.translations['hy'] = { ...(window.translations['hy'] || {}), ...data['hy'] };
 })();
