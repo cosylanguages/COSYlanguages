@@ -3,7 +3,8 @@
     {
         "word": "artista",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "art_design_A2",
+        "article": "l'",
         "emoji": "🎨",
         "form": "noun",
         "plural": "artisti",
@@ -26,7 +27,8 @@
     {
         "word": "chef",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "restaurants_ordering_A2",
+        "article": "lo",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "chef",
@@ -50,6 +52,7 @@
         "word": "risotto",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "form": "noun",
         "plural": "risotti",
         "definitions": [
@@ -72,6 +75,7 @@
         "word": "gelato",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "form": "noun",
         "plural": "gelati",
         "definitions": [
@@ -94,9 +98,10 @@
         "word": "formaggio",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "emoji": "🧀",
         "form": "noun",
-        "plural": "formaggio",
+        "plural": "formaggi",
         "definitions": [
             {
                 "text": "Un alimento solido ricavato dal latte.",
@@ -117,6 +122,7 @@
         "word": "riso",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "emoji": "🍚",
         "form": "noun",
         "plural": "riso"
@@ -125,6 +131,7 @@
         "word": "pomodoro",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "emoji": "🍅",
         "form": "noun",
         "plural": "pomodori"
@@ -133,6 +140,7 @@
         "word": "patata",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🥔",
         "form": "noun",
         "plural": "patate"
@@ -160,7 +168,8 @@
     {
         "word": "ospedale",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "medical_appointments_A1",
+        "article": "l'",
         "emoji": "🏥",
         "form": "noun",
         "plural": "ospedali",
@@ -183,7 +192,8 @@
     {
         "word": "cinema",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "theatre_performance_A2",
+        "article": "il",
         "emoji": "🎬",
         "form": "noun",
         "plural": "cinema",
@@ -206,7 +216,8 @@
     {
         "word": "ristorante",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "restaurants_ordering_A2",
+        "article": "il",
         "emoji": "🍴",
         "form": "noun",
         "plural": "ristoranti",
@@ -229,7 +240,8 @@
     {
         "word": "supermercato",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "shopping_for_food_A2",
+        "article": "il",
         "emoji": "🛒",
         "form": "noun",
         "plural": "supermercati",
@@ -252,7 +264,8 @@
     {
         "word": "vestito",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "shopping_for_clothes_A2",
+        "article": "il",
         "emoji": "👗",
         "form": "noun",
         "plural": "vestiti"
@@ -260,15 +273,17 @@
     {
         "word": "giacca",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "🧥",
         "form": "noun",
-        "plural": "giacce"
+        "plural": "giacche"
     },
     {
         "word": "gonna",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "👗",
         "form": "noun",
         "plural": "gonne"
@@ -276,7 +291,8 @@
     {
         "word": "divano",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_furnishings_A2",
+        "article": "il",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "divani"
@@ -284,7 +300,8 @@
     {
         "word": "lampada",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_furnishings_A2",
+        "article": "la",
         "emoji": "💡",
         "form": "noun",
         "plural": "lampade"
@@ -292,7 +309,8 @@
     {
         "word": "scrivania",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_furnishings_A2",
+        "article": "la",
         "emoji": "⌨️",
         "form": "noun",
         "plural": "scrivanie"
@@ -300,37 +318,34 @@
     {
         "word": "bello",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "form": "noun",
-        "plural": "belli"
+        "theme": "physical_appearance_A1",
+        "form": "adjective"
     },
     {
         "word": "forte",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "form": "noun",
-        "plural": "forti"
+        "theme": "physical_appearance_A1",
+        "form": "adjective"
     },
     {
         "word": "lavarsi i denti",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "household_tasks_A1",
         "emoji": "🪥",
-        "form": "noun",
-        "plural": "lavarsi i denti"
+        "form": "noun"
     },
     {
         "word": "fare la doccia",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "household_tasks_A1",
         "emoji": "🚿",
-        "form": "noun",
-        "plural": "fare la doccie"
+        "form": "noun"
     },
     {
         "word": "orologio",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "accessories_A1",
+        "article": "l'",
         "emoji": "⌚",
         "form": "noun",
         "plural": "orologi",
@@ -347,7 +362,8 @@
     {
         "word": "portafoglio",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "accessories_A1",
+        "article": "il",
         "emoji": "👛",
         "form": "noun",
         "plural": "portafogli",
@@ -364,7 +380,8 @@
     {
         "word": "occhiali",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "accessories_A1",
+        "article": "gli",
         "emoji": "👓",
         "form": "noun",
         "plural": "occhiali",
@@ -381,7 +398,8 @@
     {
         "word": "leone",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
+        "article": "il",
         "emoji": "🦁",
         "form": "noun",
         "plural": "leoni",
@@ -398,53 +416,56 @@
     {
         "word": "tigre",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
+        "article": "la",
         "emoji": "🐯",
-        "form": "adjective"
+        "form": "noun",
+        "plural": "tigri"
     },
     {
         "word": "cavallo",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
+        "article": "il",
         "emoji": "🐎",
-        "form": "adjective"
+        "form": "noun",
+        "plural": "cavalli"
     },
     {
         "word": "nevoso",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "❄️",
-        "form": "noun",
-        "plural": "nevosi"
+        "form": "adjective"
     },
     {
         "word": "ventoso",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "💨",
-        "form": "noun",
-        "plural": "ventosi"
+        "form": "adjective"
     },
     {
         "word": "nuvoloso",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "☁️",
-        "form": "noun",
-        "plural": "nuvolosi"
+        "form": "adjective"
     },
     {
         "word": "braccio",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "body_parts_A0",
+        "article": "il",
         "emoji": "💪",
         "form": "noun",
-        "plural": "braccii"
+        "plural": "braccia"
     },
     {
         "word": "università",
         "level": "elementary",
         "theme": "career_development_A2",
+        "article": "l'",
         "emoji": "🎓",
         "form": "noun",
         "plural": "università",
@@ -462,6 +483,7 @@
         "word": "cucina locale",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🍜",
         "form": "noun",
         "definitions": [
@@ -483,105 +505,93 @@
     {
         "word": "sembrare",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "🤔",
-        "form": "noun",
-        "plural": "sembrari"
+        "form": "verb"
     },
     {
         "word": "diventare",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "🦋",
-        "form": "noun",
-        "plural": "diventari"
+        "form": "verb"
     },
     {
         "word": "muovere",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "moving_home_A2",
         "emoji": "📦",
-        "form": "noun",
-        "plural": "muoveri"
+        "form": "verb"
     },
     {
         "word": "credere",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "🙏",
-        "form": "noun",
-        "plural": "crederi"
+        "form": "verb"
     },
     {
         "word": "succedere",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "⚡",
-        "form": "adjective"
+        "form": "verb"
     },
     {
         "word": "includere",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "➕",
-        "form": "noun",
-        "plural": "includeri"
+        "form": "verb"
     },
     {
         "word": "continuare",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "➡️",
-        "form": "noun",
-        "plural": "continuari"
+        "form": "verb"
     },
     {
         "word": "impostare",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
-        "form": "noun",
-        "plural": "impostari"
+        "form": "verb"
     },
     {
         "word": "guidare",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "career_development_A2",
         "emoji": "👑",
-        "form": "noun",
-        "plural": "guidari"
+        "form": "verb"
     },
     {
         "word": "seguire",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "directions_navigation_A1",
         "emoji": "👣",
-        "form": "noun",
-        "plural": "seguiri"
+        "form": "verb"
     },
     {
         "word": "creare",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
-        "form": "noun",
-        "plural": "creari"
+        "form": "verb"
     },
     {
-        "word": "permettre",
+        "word": "permettere",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "✅",
-        "form": "noun",
-        "plural": "permettri"
+        "form": "verb"
     },
     {
         "word": "crescere",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "environmental_protection_A2",
         "emoji": "🌱",
-        "form": "noun",
-        "plural": "cresceri"
+        "form": "verb"
     },
     {
         "word": "offrire",
@@ -590,6 +600,571 @@
         "emoji": "🤲",
         "form": "noun",
         "plural": "offriri"
+    },
+    {
+        "word": "straordinari",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⏰",
+        "form": "noun",
+        "article": "gli",
+        "plural": "straordinari",
+        "definitions": [
+            {
+                "text": "Ore di lavoro in più rispetto alla normale giornata lavorativa.",
+                "examples": [
+                    "Lavora facendo gli straordinari per finire il progetto."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "promozione",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📈",
+        "form": "noun",
+        "article": "la",
+        "plural": "promozioni",
+        "definitions": [
+            {
+                "text": "Passaggio a un lavoro più alto e meglio retribuito all'interno della stessa azienda.",
+                "examples": [
+                    "Ha ottenuto una promozione il mese scorso."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "colloquio",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "🤝",
+        "form": "noun",
+        "article": "il",
+        "plural": "colloqui",
+        "definitions": [
+            {
+                "text": "Un incontro formale in cui a qualcuno vengono fatte domande per un lavoro.",
+                "examples": [
+                    "Ho un colloquio di lavoro lunedì."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "contratto",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📄",
+        "form": "noun",
+        "article": "il",
+        "plural": "contratti",
+        "definitions": [
+            {
+                "text": "Un accordo scritto tra un datore di lavoro e un dipendente.",
+                "examples": [
+                    "Ha firmato un contratto di due anni."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "scadenza",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⏳",
+        "form": "noun",
+        "article": "la",
+        "plural": "scadenze",
+        "definitions": [
+            {
+                "text": "L'ultimo momento entro il quale un lavoro deve essere terminato.",
+                "examples": [
+                    "La scadenza è venerdì."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "esperienza",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🧠",
+        "form": "noun",
+        "article": "l'",
+        "plural": "esperienze",
+        "definitions": [
+            {
+                "text": "Conoscenza o abilità acquisita facendo qualcosa.",
+                "examples": [
+                    "Ha cinque anni di esperienza."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "mutuo",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "🏠",
+        "form": "noun",
+        "article": "il",
+        "plural": "mutui",
+        "definitions": [
+            {
+                "text": "Un prestito da una banca per comprare una casa o un appartamento.",
+                "examples": [
+                    "Hanno un mutuo alto."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "prestito",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "💰",
+        "form": "noun",
+        "article": "il",
+        "plural": "prestiti",
+        "definitions": [
+            {
+                "text": "Denaro preso in prestito da una banca che deve essere restituito.",
+                "examples": [
+                    "Ha chiesto un prestito per comprare un'auto."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bolletta",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🧾",
+        "form": "noun",
+        "article": "la",
+        "plural": "bollette",
+        "definitions": [
+            {
+                "text": "Un documento che mostra quanto denaro devi pagare.",
+                "examples": [
+                    "Pago la bolletta della luce ogni mese."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "debito",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💸",
+        "form": "noun",
+        "article": "il",
+        "plural": "debiti",
+        "definitions": [
+            {
+                "text": "Denaro che devi a un'altra persona o a una banca.",
+                "examples": [
+                    "Ha molti debiti."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "conto",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "🏦",
+        "form": "noun",
+        "article": "il",
+        "plural": "conti",
+        "definitions": [
+            {
+                "text": "Un accordo con una banca per depositare i tuoi soldi.",
+                "examples": [
+                    "Ho un conto di risparmio."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bilancio",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "📊",
+        "form": "noun",
+        "article": "il",
+        "plural": "bilanci",
+        "definitions": [
+            {
+                "text": "Un piano su come spendere il denaro.",
+                "examples": [
+                    "Abbiamo bisogno di un bilancio mensile."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dieta",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "🥗",
+        "form": "noun",
+        "article": "la",
+        "plural": "diete",
+        "definitions": [
+            {
+                "text": "Il cibo che una persona mangia normalmente; o un piano alimentare speciale.",
+                "examples": [
+                    "Segue una dieta sana."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "appuntamento",
+        "level": "elementary",
+        "theme": "medical_appointments_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "article": "l'",
+        "plural": "appuntamenti",
+        "definitions": [
+            {
+                "text": "Un momento che organizzi per incontrare qualcuno, ad esempio un medico.",
+                "examples": [
+                    "Ho un appuntamento dal medico martedì."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "in forma",
+        "level": "elementary",
+        "theme": "exercise_fitness_A2",
+        "emoji": "💪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "In buona salute fisica grazie all'esercizio regolare.",
+                "examples": [
+                    "Va a correre per stare in forma."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sovrappeso",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Più pesante di quanto sia considerato sano.",
+                "examples": [
+                    "Il medico ha detto che è leggermente in sovrappeso."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vitamina",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "💊",
+        "form": "noun",
+        "article": "la",
+        "plural": "vitamine",
+        "definitions": [
+            {
+                "text": "Una sostanza naturale negli alimenti di cui il tuo corpo ha bisogno per stare in salute.",
+                "examples": [
+                    "Le arance contengono vitamina C."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dolore",
+        "level": "elementary",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤕",
+        "form": "noun",
+        "article": "il",
+        "plural": "dolori",
+        "definitions": [
+            {
+                "text": "Una sensazione spiacevole nel corpo quando qualcosa non va.",
+                "examples": [
+                    "Ha dolore alla schiena."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sostegno",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "noun",
+        "article": "il",
+        "plural": "sostegni",
+        "definitions": [
+            {
+                "text": "Aiuto o incoraggiamento dato a qualcuno.",
+                "examples": [
+                    "Ho bisogno del tuo sostegno."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fiducia",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "noun",
+        "article": "la",
+        "definitions": [
+            {
+                "text": "Il credere che qualcuno sia onesto e affidabile.",
+                "examples": [
+                    "La fiducia è importante in una relazione."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "compromesso",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "noun",
+        "article": "il",
+        "plural": "compromessi",
+        "definitions": [
+            {
+                "text": "Un accordo in cui entrambe le parti accettano meno di quanto volevano.",
+                "examples": [
+                    "Le buone relazioni hanno bisogno di compromessi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "viaggio",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "🛤️",
+        "form": "noun",
+        "article": "il",
+        "plural": "viaggi",
+        "definitions": [
+            {
+                "text": "Spostamento da un luogo a un altro.",
+                "examples": [
+                    "Il viaggio verso il lavoro dura 40 minuti."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "all'estero",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "✈️",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "In o verso un altro paese.",
+                "examples": [
+                    "Vanno all'estero ogni estate."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "destinazione",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "📍",
+        "form": "noun",
+        "article": "la",
+        "plural": "destinazioni",
+        "definitions": [
+            {
+                "text": "Il luogo verso cui stai viaggiando.",
+                "examples": [
+                    "Parigi è una destinazione popolare."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "volo",
+        "level": "elementary",
+        "theme": "at_the_airport_A2",
+        "emoji": "✈️",
+        "form": "noun",
+        "article": "il",
+        "plural": "voli",
+        "definitions": [
+            {
+                "text": "Uno spostamento fatto in aereo.",
+                "examples": [
+                    "Il volo per Londra dura due ore."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bagagli",
+        "level": "elementary",
+        "theme": "at_the_airport_A2",
+        "emoji": "🧳",
+        "form": "noun",
+        "article": "i",
+        "plural": "bagagli",
+        "definitions": [
+            {
+                "text": "Borse e valigie che porti con te quando viaggi.",
+                "examples": [
+                    "Ha molti bagagli."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "quartiere",
+        "level": "elementary",
+        "theme": "neighbourhood_local_A2",
+        "emoji": "🏘️",
+        "form": "noun",
+        "article": "il",
+        "plural": "quartieri",
+        "definitions": [
+            {
+                "text": "L'area intorno alla tua casa.",
+                "examples": [
+                    "Viviamo in un quartiere sicuro."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "comunità",
+        "level": "elementary",
+        "theme": "community_neighbourhood_local_A2",
+        "emoji": "👥",
+        "form": "noun",
+        "article": "la",
+        "plural": "comunità",
+        "definitions": [
+            {
+                "text": "Un gruppo di persone che vivono nella stessa area o condividono interessi.",
+                "examples": [
+                    "È attiva nella sua comunità locale."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "inquinamento",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🏭",
+        "form": "noun",
+        "article": "l'",
+        "definitions": [
+            {
+                "text": "Danno all'ambiente causato da sostanze nocive.",
+                "examples": [
+                    "L'inquinamento dell'aria è un grosso problema qui."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "comodo",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "👌",
+        "form": "adjective",
+        "opposite": "scomodo",
+        "definitions": [
+            {
+                "text": "Facile da usare o adatto alle tue necessità.",
+                "examples": [
+                    "Fare shopping online è molto comodo."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "stressante",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "😫",
+        "form": "adjective",
+        "opposite": "rilassante",
+        "definitions": [
+            {
+                "text": "Che causa preoccupazione o ansia.",
+                "examples": [
+                    "Il suo lavoro è molto stressante."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "confortevole",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🛋️",
+        "form": "adjective",
+        "opposite": "scomodo",
+        "definitions": [
+            {
+                "text": "Fisicamente rilassante; che non causa dolore o difficoltà.",
+                "examples": [
+                    "La sedia dell'ufficio è confortevole."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pratico",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🛠️",
+        "form": "adjective",
+        "opposite": "impensabile",
+        "definitions": [
+            {
+                "text": "Utile e sensato in situazioni reali.",
+                "examples": [
+                    "Un'auto è pratica in campagna."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "popolare",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "🌟",
+        "form": "adjective",
+        "opposite": "impopolare",
+        "definitions": [
+            {
+                "text": "Piaciuto o apprezzato da molte persone.",
+                "examples": [
+                    "Questo ristorante è molto popolare."
+                ]
+            }
+        ]
     }
 ];
     const lang = "it";

@@ -167,6 +167,7 @@
         "article": "le",
         "emoji": "🍚",
         "form": "noun",
+        "plural": "riz",
         "definitions": [
             {
                 "text": "De petits grains blancs que nous cuisons et mangeons.",
@@ -183,6 +184,7 @@
         "article": "la",
         "emoji": "🥩",
         "form": "noun",
+        "plural": "viandes",
         "definitions": [
             {
                 "text": "Nourriture qui provient des animaux.",
@@ -199,6 +201,7 @@
         "article": "la",
         "emoji": "🍲",
         "form": "noun",
+        "plural": "nourritures",
         "definitions": [
             {
                 "text": "Choses que les gens mangent.",
@@ -290,6 +293,7 @@
         "article": "le",
         "emoji": "🍳",
         "form": "noun",
+        "plural": "petits-déjeuners",
         "definitions": [
             {
                 "text": "Le premier repas de la journée.",
@@ -306,6 +310,7 @@
         "article": "le",
         "emoji": "🍽️",
         "form": "noun",
+        "plural": "dîners",
         "definitions": [
             {
                 "text": "Le repas principal de la journée, généralement le soir.",
@@ -322,6 +327,7 @@
         "article": "le",
         "emoji": "🍱",
         "form": "noun",
+        "plural": "déjeuners",
         "definitions": [
             {
                 "text": "Un repas mangé au milieu de la journée.",
@@ -620,6 +626,7 @@
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "form": "adjective",
+        "opposite": "malheureux",
         "definitions": [
             {
                 "text": "Ressentir du plaisir ou de la joie.",
@@ -635,6 +642,7 @@
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
         "form": "adjective",
+        "opposite": "reposé",
         "definitions": [
             {
                 "text": "Ayant besoin de repos ou de sommeil.",
@@ -1030,6 +1038,7 @@
         "article": "l'",
         "emoji": "💰",
         "form": "noun",
+        "plural": "argents",
         "definitions": [
             {
                 "text": "Pièces ou billets utilisés pour acheter des choses.",
@@ -1152,6 +1161,562 @@
                 "text": "Tous les jours sans exception.",
                 "examples": [
                     "Je bois du café chaque jour."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "à plein temps",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "form": "adjective",
+        "opposite": "à temps partiel",
+        "definitions": [
+            {
+                "text": "Travailler le nombre complet d'heures d'une semaine de travail.",
+                "examples": [
+                    "Elle a un emploi à plein temps dans une banque."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "à temps partiel",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "form": "adjective",
+        "opposite": "à plein temps",
+        "definitions": [
+            {
+                "text": "Travailler moins d'heures qu'une semaine de travail standard.",
+                "examples": [
+                    "Il travaille à temps partiel le samedi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "patron",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "le",
+        "emoji": "👨‍💼",
+        "form": "noun",
+        "plural": "patrons",
+        "definitions": [
+            {
+                "text": "La personne qui est responsable au travail.",
+                "examples": [
+                    "Mon patron est très amical."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "collègue",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "le",
+        "emoji": "🧑‍💼",
+        "form": "noun",
+        "plural": "collègues",
+        "definitions": [
+            {
+                "text": "Une personne avec qui vous travaillez.",
+                "examples": [
+                    "Mes collègues sont serviables."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "salaire",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "le",
+        "emoji": "💰",
+        "form": "noun",
+        "plural": "salaires",
+        "subtext": "paie, rémunération",
+        "definitions": [
+            {
+                "text": "L'argent qu'une personne gagne de son travail chaque mois.",
+                "examples": [
+                    "Son salaire est bon."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "réunion",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "la",
+        "emoji": "🤝",
+        "form": "noun",
+        "plural": "réunions",
+        "subtext": "rencontre, assemblée",
+        "definitions": [
+            {
+                "text": "Un moment où les gens se rassemblent pour parler de quelque chose.",
+                "examples": [
+                    "Nous avons une réunion tous les lundis."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "trajet",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "le",
+        "emoji": "🚆",
+        "form": "noun",
+        "plural": "trajets",
+        "definitions": [
+            {
+                "text": "Le voyage pour aller et revenir du travail chaque jour.",
+                "examples": [
+                    "Mon trajet prend une heure."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "stress",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "le",
+        "emoji": "😫",
+        "form": "noun",
+        "subtext": "pression, tension",
+        "definitions": [
+            {
+                "text": "Un sentiment d'inquiétude causé par une situation difficile.",
+                "examples": [
+                    "J'ai beaucoup de stress au travail."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "loyer",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "article": "le",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "loyers",
+        "definitions": [
+            {
+                "text": "L'argent payé pour utiliser une maison ou un appartement qui appartient à quelqu'un d'autre.",
+                "examples": [
+                    "Le loyer est cher ici."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "voisin",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "le",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "voisins",
+        "definitions": [
+            {
+                "text": "Une personne qui vit à côté de vous ou près de vous.",
+                "examples": [
+                    "Mes voisins sont très gentils."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pièce",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "article": "la",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "pièces",
+        "definitions": [
+            {
+                "text": "Une partie séparée d'un bâtiment avec des murs et une porte.",
+                "examples": [
+                    "L'appartement a trois pièces."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cuisine",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "article": "la",
+        "emoji": "🍳",
+        "form": "noun",
+        "plural": "cuisines",
+        "definitions": [
+            {
+                "text": "La pièce d'une maison où la nourriture est préparée.",
+                "examples": [
+                    "Je cuisine dans la cuisine."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "propre",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "✨",
+        "form": "adjective",
+        "opposite": "sale",
+        "oppositeEmoji": "💩",
+        "subtext": "net, impeccable",
+        "definitions": [
+            {
+                "text": "Exempt de saleté.",
+                "examples": [
+                    "Ma chambre est propre."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sain",
+        "level": "starter",
+        "theme": "medical_appointments_A1",
+        "emoji": "🍎",
+        "form": "adjective",
+        "opposite": "malsain",
+        "definitions": [
+            {
+                "text": "Bon pour votre corps ; pas malade.",
+                "examples": [
+                    "Les légumes sont des aliments sains."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "malade",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤒",
+        "form": "adjective",
+        "opposite": "en bonne santé",
+        "definitions": [
+            {
+                "text": "Pas bien ; souffrant d'une maladie.",
+                "examples": [
+                    "Je me sens malade aujourd'hui."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sommeil",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "article": "le",
+        "emoji": "😴",
+        "form": "noun",
+        "plural": "sommeils",
+        "definitions": [
+            {
+                "text": "Le repos naturel dont votre corps a besoin chaque nuit.",
+                "examples": [
+                    "Je dors huit heures par nuit."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "exercice",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "article": "l'",
+        "emoji": "🏋️",
+        "form": "noun",
+        "plural": "exercices",
+        "definitions": [
+            {
+                "text": "Activité physique qui vous maintient en forme et en bonne santé.",
+                "examples": [
+                    "Je fais de l'exercice trois fois par semaine."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "prix",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "le",
+        "emoji": "🏷️",
+        "form": "noun",
+        "plural": "prix",
+        "definitions": [
+            {
+                "text": "Le montant d'argent que vous payez pour quelque chose.",
+                "examples": [
+                    "Le prix de la nourriture est élevé."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "coût",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "le",
+        "emoji": "💰",
+        "form": "noun",
+        "plural": "coûts",
+        "definitions": [
+            {
+                "text": "Le montant d'argent nécessaire pour acheter quelque chose.",
+                "examples": [
+                    "Le coût de l'appartement est élevé."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "en ligne",
+        "level": "starter",
+        "theme": "using_a_smartphone_A1",
+        "emoji": "🌐",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Utilisant l'internet.",
+                "examples": [
+                    "J'achète parfois de la nourriture en ligne."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "relation",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "article": "la",
+        "emoji": "❤️",
+        "form": "noun",
+        "plural": "relations",
+        "subtext": "rapport, lien",
+        "definitions": [
+            {
+                "text": "Une connexion entre deux personnes.",
+                "examples": [
+                    "Ils ont une bonne relation."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "seul",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "🧍",
+        "form": "adjective",
+        "opposite": "ensemble",
+        "oppositeEmoji": "👫",
+        "definitions": [
+            {
+                "text": "Sans autres personnes ; par soi-même.",
+                "examples": [
+                    "Elle vit seule."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ensemble",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "👫",
+        "form": "adverb",
+        "opposite": "seul",
+        "oppositeEmoji": "🧍",
+        "definitions": [
+            {
+                "text": "Avec une autre personne ou un groupe.",
+                "examples": [
+                    "Nous dînons ensemble."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vacances",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "article": "les",
+        "emoji": "🏖️",
+        "form": "noun",
+        "plural": "vacances",
+        "definitions": [
+            {
+                "text": "Une période de temps loin du travail quand vous voyagez ou vous détendez.",
+                "examples": [
+                    "Nous avons des vacances en juillet."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "voyage",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "article": "le",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "voyages",
+        "definitions": [
+            {
+                "text": "L'action d'aller d'un endroit à un autre.",
+                "examples": [
+                    "J'adore les voyages."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hôtel",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "article": "l'",
+        "emoji": "🏨",
+        "form": "noun",
+        "plural": "hôtels",
+        "definitions": [
+            {
+                "text": "Un bâtiment où les gens paient pour passer la nuit.",
+                "examples": [
+                    "L'hôtel est près de la gare."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "week-end",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "article": "le",
+        "emoji": "🗓️",
+        "form": "noun",
+        "plural": "week-ends",
+        "definitions": [
+            {
+                "text": "Samedi et dimanche.",
+                "examples": [
+                    "Je me détends le week-end."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "temps libre",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "article": "le",
+        "emoji": "🎮",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Moment où vous ne travaillez pas et pouvez faire ce que vous voulez.",
+                "examples": [
+                    "Je lis des livres pendant mon temps libre."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "détendu",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "😌",
+        "form": "adjective",
+        "opposite": "stressé",
+        "oppositeEmoji": "😫",
+        "subtext": "calme, relaxé",
+        "definitions": [
+            {
+                "text": "Calme ; pas inquiet ou stressé.",
+                "examples": [
+                    "Je me sens détendu le week-end."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "inquiet",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "😟",
+        "form": "adjective",
+        "opposite": "calme",
+        "oppositeEmoji": "😌",
+        "subtext": "anxieux",
+        "definitions": [
+            {
+                "text": "Se sentir anxieux à propos de quelque chose qui pourrait arriver.",
+                "examples": [
+                    "Elle est inquiète pour son travail."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "occupé",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏃",
+        "form": "adjective",
+        "opposite": "libre",
+        "definitions": [
+            {
+                "text": "Avoir beaucoup de choses à faire.",
+                "examples": [
+                    "Je suis très occupé cette semaine."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "utile",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "🛠️",
+        "form": "adjective",
+        "opposite": "inutile",
+        "definitions": [
+            {
+                "text": "Serviable ; ayant un but pratique.",
+                "examples": [
+                    "Une voiture est très utile à la campagne."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "important",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💎",
+        "form": "adjective",
+        "opposite": "insignifiant",
+        "subtext": "essentiel",
+        "definitions": [
+            {
+                "text": "Ayant une grande valeur ou un grand effet.",
+                "examples": [
+                    "Le sommeil est très important."
                 ]
             }
         ]

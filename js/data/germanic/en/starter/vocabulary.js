@@ -349,7 +349,15 @@
         "theme": "items_of_clothing_A0",
         "emoji": "👕",
         "form": "noun",
-        "plural": "t-shirts"
+        "plural": "t-shirts",
+        "definitions": [
+            {
+                "text": "A casual shirt with short sleeves and no collar.",
+                "examples": [
+                    "I am wearing a white t-shirt."
+                ]
+            }
+        ]
     },
     {
         "word": "pants",
@@ -357,7 +365,16 @@
         "theme": "items_of_clothing_A0",
         "emoji": "👖",
         "form": "noun",
-        "plural": "pants"
+        "plural": "pants",
+        "subtext": "trousers",
+        "definitions": [
+            {
+                "text": "An outer garment covering each leg separately from waist to ankle.",
+                "examples": [
+                    "I need new pants."
+                ]
+            }
+        ]
     },
     {
         "word": "shoe",
@@ -365,7 +382,15 @@
         "theme": "items_of_clothing_A0",
         "emoji": "👟",
         "form": "noun",
-        "plural": "shoes"
+        "plural": "shoes",
+        "definitions": [
+            {
+                "text": "Something you wear on your feet.",
+                "examples": [
+                    "Put on your shoes."
+                ]
+            }
+        ]
     },
     {
         "word": "hat",
@@ -373,7 +398,15 @@
         "theme": "items_of_clothing_A0",
         "emoji": "👒",
         "form": "noun",
-        "plural": "hats"
+        "plural": "hats",
+        "definitions": [
+            {
+                "text": "Something you wear on your head.",
+                "examples": [
+                    "She is wearing a beautiful hat."
+                ]
+            }
+        ]
     },
     {
         "word": "chair",
@@ -466,7 +499,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "old",
-        "oppositeEmoji": "👴"
+        "oppositeEmoji": "👴",
+        "definitions": [
+            {
+                "text": "Having lived or existed for only a short time.",
+                "examples": [
+                    "He is a young man."
+                ]
+            }
+        ]
     },
     {
         "word": "old",
@@ -474,7 +515,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "young",
-        "oppositeEmoji": "👶"
+        "oppositeEmoji": "👶",
+        "definitions": [
+            {
+                "text": "Having lived or existed for a long time.",
+                "examples": [
+                    "This is an old book."
+                ]
+            }
+        ]
     },
     {
         "word": "key",
@@ -506,7 +555,16 @@
         "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
-        "plural": "phones"
+        "plural": "phones",
+        "subtext": "telephone",
+        "definitions": [
+            {
+                "text": "A device used to talk to people far away.",
+                "examples": [
+                    "I am talking on the phone."
+                ]
+            }
+        ]
     },
     {
         "word": "book",
@@ -705,7 +763,15 @@
         "theme": "body_parts_A0",
         "emoji": "🦵",
         "form": "noun",
-        "plural": "legs"
+        "plural": "legs",
+        "definitions": [
+            {
+                "text": "The long part of the body that you use for walking.",
+                "examples": [
+                    "I have two legs."
+                ]
+            }
+        ]
     },
     {
         "word": "eye",
@@ -730,7 +796,15 @@
         "theme": "body_parts_A0",
         "emoji": "👃",
         "form": "noun",
-        "plural": "noses"
+        "plural": "noses",
+        "definitions": [
+            {
+                "text": "The part of the face that you use for smelling.",
+                "examples": [
+                    "He has a small nose."
+                ]
+            }
+        ]
     },
     {
         "word": "mouth",
@@ -738,7 +812,15 @@
         "theme": "body_parts_A0",
         "emoji": "👄",
         "form": "noun",
-        "plural": "mouths"
+        "plural": "mouths",
+        "definitions": [
+            {
+                "text": "The part of the face that you use for eating and speaking.",
+                "examples": [
+                    "Open your mouth."
+                ]
+            }
+        ]
     },
     {
         "word": "ear",
@@ -746,21 +828,31 @@
         "theme": "body_parts_A0",
         "emoji": "👂",
         "form": "noun",
-        "plural": "ears"
-    },
-    {
-        "word": "foot",
-        "level": "starter",
-        "theme": "body_parts_A0",
-        "emoji": "🦶",
-        "form": "noun",
-        "plural": "feet"
+        "plural": "ears",
+        "definitions": [
+            {
+                "text": "The part of the body that you use for hearing.",
+                "examples": [
+                    "I have two ears."
+                ]
+            }
+        ]
     },
     {
         "word": "ordinary",
         "level": "starter",
         "theme": "size_shape_A0",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "special",
+        "oppositeEmoji": "✨",
+        "definitions": [
+            {
+                "text": "Normal or usual; not special.",
+                "examples": [
+                    "It was an ordinary day."
+                ]
+            }
+        ]
     },
     {
         "word": "smartphone",
@@ -768,7 +860,15 @@
         "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
-        "plural": "smartphones"
+        "plural": "smartphones",
+        "definitions": [
+            {
+                "text": "A mobile phone that can also connect to the internet.",
+                "examples": [
+                    "I use my smartphone every day."
+                ]
+            }
+        ]
     },
     {
         "word": "mother",
@@ -1400,6 +1500,552 @@
                 "examples": [
                     "I eat lunch at one o'clock.",
                     "What is for lunch?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "full-time",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏰",
+        "form": "adjective",
+        "opposite": "part-time",
+        "oppositeEmoji": "⏳",
+        "definitions": [
+            {
+                "text": "Working the complete number of hours in a working week.",
+                "examples": [
+                    "She has a full-time job in a bank."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "part-time",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏳",
+        "form": "adjective",
+        "opposite": "full-time",
+        "oppositeEmoji": "⏰",
+        "definitions": [
+            {
+                "text": "Working fewer hours than a standard working week.",
+                "examples": [
+                    "He works part-time on Saturdays."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "boss",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "💼",
+        "form": "noun",
+        "plural": "bosses",
+        "definitions": [
+            {
+                "text": "The person who is in charge at work.",
+                "examples": [
+                    "My boss is very friendly."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "colleague",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🧑‍💼",
+        "form": "noun",
+        "plural": "colleagues",
+        "definitions": [
+            {
+                "text": "A person you work with.",
+                "examples": [
+                    "My colleagues are helpful."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "salary",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💸",
+        "form": "noun",
+        "plural": "salaries",
+        "subtext": "pay, income",
+        "definitions": [
+            {
+                "text": "The money a person earns from their job each month.",
+                "examples": [
+                    "Her salary is good.",
+                    "The job has a high salary."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "meeting",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🤝",
+        "form": "noun",
+        "plural": "meetings",
+        "subtext": "have a meeting, go to a meeting",
+        "definitions": [
+            {
+                "text": "A time when people come together to talk about something.",
+                "examples": [
+                    "We have a meeting every Monday.",
+                    "The meeting is in the office."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "commute",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🚆",
+        "form": "noun",
+        "plural": "commutes",
+        "definitions": [
+            {
+                "text": "The journey to and from work each day.",
+                "examples": [
+                    "My commute takes one hour."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "stress",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "😫",
+        "form": "noun",
+        "subtext": "under stress, a lot of stress",
+        "definitions": [
+            {
+                "text": "A feeling of worry caused by a difficult situation.",
+                "examples": [
+                    "I have a lot of stress at work."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rent",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "emoji": "🏠",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Money you pay to live in a house or flat.",
+                "examples": [
+                    "I pay rent on the first of the month."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "neighbour",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "emoji": "🏘️",
+        "form": "noun",
+        "plural": "neighbours",
+        "subtext": "next-door neighbour",
+        "definitions": [
+            {
+                "text": "A person who lives next to you or near you.",
+                "examples": [
+                    "My neighbours are very nice."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "room",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "rooms",
+        "definitions": [
+            {
+                "text": "A separate part of a building with walls and a door.",
+                "examples": [
+                    "The flat has three rooms."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "kitchen",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "emoji": "🍳",
+        "form": "noun",
+        "plural": "kitchens",
+        "definitions": [
+            {
+                "text": "The room in a house where food is prepared.",
+                "examples": [
+                    "I cook in the kitchen."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "clean",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "✨",
+        "form": "adjective",
+        "opposite": "dirty",
+        "oppositeEmoji": "💩",
+        "subtext": "tidy, spotless",
+        "definitions": [
+            {
+                "text": "Free from dirt.",
+                "examples": [
+                    "The flat is clean now."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "healthy",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🥗",
+        "form": "adjective",
+        "opposite": "unhealthy",
+        "oppositeEmoji": "🍔",
+        "subtext": "well, fit, healthy diet",
+        "definitions": [
+            {
+                "text": "Good for your body; not ill.",
+                "examples": [
+                    "Vegetables are healthy food."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ill",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤒",
+        "form": "adjective",
+        "opposite": "well",
+        "oppositeEmoji": "💪",
+        "subtext": "sick, feel ill",
+        "definitions": [
+            {
+                "text": "Not well; sick.",
+                "examples": [
+                    "I feel ill today."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sleep",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "😴",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The natural rest your body needs each night.",
+                "examples": [
+                    "I need eight hours of sleep."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "exercise",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏃",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Physical activity that keeps you fit and healthy.",
+                "examples": [
+                    "I do exercise three times a week."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "price",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "🏷️",
+        "form": "noun",
+        "plural": "prices",
+        "definitions": [
+            {
+                "text": "The amount of money you pay for something.",
+                "examples": [
+                    "The price of food is high."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cost",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "noun",
+        "plural": "costs",
+        "definitions": [
+            {
+                "text": "The amount of money needed to buy something.",
+                "examples": [
+                    "What is the cost of the flat?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "online",
+        "level": "starter",
+        "theme": "using_a_smartphone_A1",
+        "emoji": "🌐",
+        "form": "adjective",
+        "opposite": "offline",
+        "oppositeEmoji": "📴",
+        "definitions": [
+            {
+                "text": "Using the internet.",
+                "examples": [
+                    "I buy food online sometimes."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "relationship",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "👫",
+        "form": "noun",
+        "plural": "relationships",
+        "definitions": [
+            {
+                "text": "A connection between two people.",
+                "examples": [
+                    "They have a good relationship."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "alone",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "👤",
+        "form": "adjective",
+        "opposite": "together",
+        "oppositeEmoji": "👫",
+        "definitions": [
+            {
+                "text": "Without other people; by yourself.",
+                "examples": [
+                    "She lives alone."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "together",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "👫",
+        "form": "adverb",
+        "opposite": "alone",
+        "oppositeEmoji": "👤",
+        "definitions": [
+            {
+                "text": "With another person or group.",
+                "examples": [
+                    "We eat dinner together."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "holiday",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏖️",
+        "form": "noun",
+        "plural": "holidays",
+        "subtext": "vacation, go on holiday",
+        "definitions": [
+            {
+                "text": "A period of time away from work when you travel or relax.",
+                "examples": [
+                    "We have a holiday in July."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hotel",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🏨",
+        "form": "noun",
+        "plural": "hotels",
+        "definitions": [
+            {
+                "text": "A building where people pay to stay overnight.",
+                "examples": [
+                    "The hotel is near the station."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "weekend",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "weekends",
+        "subtext": "at the weekend, on weekends",
+        "definitions": [
+            {
+                "text": "Saturday and Sunday.",
+                "examples": [
+                    "I relax at the weekend."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "free time",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎮",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Time when you are not working and can do what you want.",
+                "examples": [
+                    "I read books in my free time."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "relaxed",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "😌",
+        "form": "adjective",
+        "opposite": "stressed",
+        "oppositeEmoji": "😫",
+        "subtext": "calm, feeling relaxed",
+        "definitions": [
+            {
+                "text": "Calm; not worried or stressed.",
+                "examples": [
+                    "I feel relaxed at the weekend."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "worried",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "😟",
+        "form": "adjective",
+        "opposite": "calm",
+        "oppositeEmoji": "😌",
+        "subtext": "anxious",
+        "definitions": [
+            {
+                "text": "Feeling anxious about something that might happen.",
+                "examples": [
+                    "She is worried about her job."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "busy",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏃",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a lot of things to do.",
+                "examples": [
+                    "I am very busy this week."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "useful",
+        "level": "starter",
+        "theme": "using_a_smartphone_A1",
+        "emoji": "🛠️",
+        "form": "adjective",
+        "opposite": "useless",
+        "oppositeEmoji": "🗑️",
+        "subtext": "helpful, practical",
+        "definitions": [
+            {
+                "text": "Helpful; having a practical purpose.",
+                "examples": [
+                    "A car is very useful in the country."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "important",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "❗",
+        "form": "adjective",
+        "subtext": "essential",
+        "definitions": [
+            {
+                "text": "Having great value or effect.",
+                "examples": [
+                    "Sleep is very important."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "travel",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "✈️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The activity of going to different places.",
+                "examples": [
+                    "Air travel is fast."
                 ]
             }
         ]

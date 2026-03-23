@@ -3,7 +3,8 @@
     {
         "word": "artiste",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "art_design_A2",
+        "article": "l'",
         "emoji": "🎨",
         "form": "noun",
         "plural": "artistes",
@@ -26,7 +27,8 @@
     {
         "word": "chef",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "restaurants_ordering_A2",
+        "article": "le",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "chefs",
@@ -49,7 +51,8 @@
     {
         "word": "infirmier",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "medical_appointments_A1",
+        "article": "l'",
         "emoji": "👩‍⚕️",
         "form": "noun",
         "plural": "infirmiers",
@@ -73,6 +76,7 @@
         "word": "crêpe",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "form": "noun",
         "plural": "crêpes",
         "definitions": [
@@ -95,6 +99,7 @@
         "word": "fondue",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "form": "noun",
         "plural": "fondues",
         "definitions": [
@@ -117,6 +122,7 @@
         "word": "fromage",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "le",
         "emoji": "🧀",
         "form": "noun",
         "plural": "fromages",
@@ -140,6 +146,7 @@
         "word": "riz",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "le",
         "emoji": "🍚",
         "form": "noun",
         "plural": "riz",
@@ -163,6 +170,7 @@
         "word": "tomate",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🍅",
         "form": "noun",
         "plural": "tomates",
@@ -186,9 +194,10 @@
         "word": "pomme de terre",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🥔",
         "form": "noun",
-        "plural": "pomme de terres",
+        "plural": "pommes de terre",
         "definitions": [
             {
                 "text": "Un légume qui pousse sous la terre.",
@@ -228,7 +237,8 @@
     {
         "word": "hôpital",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "medical_appointments_A1",
+        "article": "l'",
         "emoji": "🏥",
         "form": "noun",
         "plural": "hôpitaux",
@@ -251,7 +261,8 @@
     {
         "word": "cinéma",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "theatre_performance_A2",
+        "article": "le",
         "emoji": "🎬",
         "form": "noun",
         "plural": "cinémas",
@@ -274,7 +285,8 @@
     {
         "word": "restaurant",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "restaurants_ordering_A2",
+        "article": "le",
         "emoji": "🍴",
         "form": "noun",
         "plural": "restaurants",
@@ -297,7 +309,8 @@
     {
         "word": "robe",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "👗",
         "form": "noun",
         "plural": "robes"
@@ -305,7 +318,8 @@
     {
         "word": "veste",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "🧥",
         "form": "noun",
         "plural": "vestes"
@@ -313,7 +327,8 @@
     {
         "word": "jupe",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "👗",
         "form": "noun",
         "plural": "jupes"
@@ -321,7 +336,8 @@
     {
         "word": "canapé",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_furnishings_A2",
+        "article": "le",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "canapés"
@@ -329,7 +345,8 @@
     {
         "word": "lampe",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_furnishings_A2",
+        "article": "la",
         "emoji": "💡",
         "form": "noun",
         "plural": "lampes"
@@ -337,7 +354,7 @@
     {
         "word": "bureau",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_furnishings_A2",
         "theme_alt": "grammar_plurals",
         "numberPlural": "3 bureau",
         "answer": "trois bureaux",
@@ -348,37 +365,34 @@
     {
         "word": "beau",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "form": "noun",
-        "plural": "beaus"
+        "theme": "physical_appearance_A1",
+        "form": "adjective"
     },
     {
         "word": "fort",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "form": "noun",
-        "plural": "forts"
+        "theme": "physical_appearance_A1",
+        "form": "adjective"
     },
     {
         "word": "se brosser les dents",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "household_tasks_A1",
         "emoji": "🪥",
-        "form": "noun",
-        "plural": "se brosser les dents"
+        "form": "noun"
     },
     {
         "word": "prendre une douche",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "household_tasks_A1",
         "emoji": "🚿",
-        "form": "noun",
-        "plural": "prendre une douches"
+        "form": "noun"
     },
     {
         "word": "montre",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "accessories_A1",
+        "article": "la",
         "form": "noun",
         "plural": "montres",
         "definitions": [
@@ -401,7 +415,8 @@
     {
         "word": "portefeuille",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "accessories_A1",
+        "article": "le",
         "emoji": "👛",
         "form": "noun",
         "plural": "portefeuilles",
@@ -418,7 +433,7 @@
     {
         "word": "lunettes",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "accessories_A1",
         "emoji": "👓",
         "form": "noun",
         "plural": "lunettes"
@@ -426,7 +441,8 @@
     {
         "word": "lion",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
+        "article": "le",
         "emoji": "🦁",
         "form": "noun",
         "plural": "lions"
@@ -434,7 +450,8 @@
     {
         "word": "tigre",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
+        "article": "le",
         "emoji": "🐯",
         "form": "noun",
         "plural": "tigres"
@@ -442,7 +459,8 @@
     {
         "word": "cheval",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
+        "article": "le",
         "emoji": "🐎",
         "form": "noun",
         "plural": "chevaux"
@@ -450,23 +468,22 @@
     {
         "word": "neigeux",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "❄️",
-        "form": "noun",
-        "plural": "neigeux"
+        "form": "adjective"
     },
     {
         "word": "venteux",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "💨",
-        "form": "noun",
-        "plural": "venteux"
+        "form": "adjective"
     },
     {
         "word": "bras",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "body_parts_A0",
+        "article": "le",
         "emoji": "💪",
         "form": "noun",
         "plural": "bras"
@@ -491,8 +508,9 @@
         "word": "cuisine locale",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🍜",
-        "form": "adjective",
+        "form": "noun",
         "definitions": [
             {
                 "text": "La nourriture traditionnelle d'une région précise.",
@@ -512,7 +530,7 @@
     {
         "word": "oiseau",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
         "article": "l'",
         "baseWord": "oiseau",
         "numberPlural": "2 oiseau",
@@ -524,113 +542,649 @@
     {
         "word": "sembler",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "🤔",
-        "form": "noun",
-        "plural": "semblers"
+        "form": "verb"
     },
     {
         "word": "devenir",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "🦋",
-        "form": "noun",
-        "plural": "devenirs"
+        "form": "verb"
     },
     {
         "word": "bouger",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "moving_home_A2",
         "emoji": "📦",
-        "form": "noun",
-        "plural": "bougers"
+        "form": "verb"
     },
     {
         "word": "croire",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "🙏",
-        "form": "noun",
-        "plural": "croires"
+        "form": "verb"
     },
     {
         "word": "se passer",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "⚡",
-        "form": "adjective"
+        "form": "verb"
     },
     {
         "word": "inclure",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "➕",
-        "form": "noun",
-        "plural": "inclures"
+        "form": "verb"
     },
     {
         "word": "continuer",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "➡️",
-        "form": "noun",
-        "plural": "continuers"
+        "form": "verb"
     },
     {
         "word": "poser",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
-        "form": "noun",
-        "plural": "posers"
+        "form": "verb"
     },
     {
         "word": "mener",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "career_development_A2",
         "emoji": "👑",
-        "form": "noun",
-        "plural": "meners"
+        "form": "verb"
     },
     {
         "word": "suivre",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "directions_navigation_A1",
         "emoji": "👣",
-        "form": "noun",
-        "plural": "suivres"
+        "form": "verb"
     },
     {
         "word": "créer",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
-        "form": "noun",
-        "plural": "créers"
+        "form": "verb"
     },
     {
-        "word": "permettere",
+        "word": "permettre",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "✅",
-        "form": "noun",
-        "plural": "permetteres"
+        "form": "verb"
     },
     {
         "word": "grandir",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "environmental_protection_A2",
         "emoji": "🌱",
+        "form": "verb"
+    },
+    {
+        "word": "pollution",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🏭",
+        "article": "la",
         "form": "noun",
-        "plural": "grandirs"
+        "definitions": [
+            {
+                "text": "Dommages causés à l'environnement par des substances nocives.",
+                "examples": [
+                    "La pollution de l'air est un gros problème ici."
+                ]
+            }
+        ]
     },
     {
         "word": "offrir",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤲",
+        "form": "verb"
+    },
+    {
+        "word": "heures supplémentaires",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⏰",
         "form": "noun",
-        "plural": "offrirs"
+        "article": "les",
+        "plural": "heures supplémentaires",
+        "definitions": [
+            {
+                "text": "Heures de travail effectuées au-delà de la journée normale de travail.",
+                "examples": [
+                    "Elle fait des heures supplémentaires pour finir le projet."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "promotion",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📈",
+        "form": "noun",
+        "article": "la",
+        "plural": "promotions",
+        "definitions": [
+            {
+                "text": "Passage à un poste plus élevé et mieux rémunéré au sein de la même entreprise.",
+                "examples": [
+                    "Il a obtenu une promotion le mois dernier."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "entretien d'embauche",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "🤝",
+        "form": "noun",
+        "article": "l'",
+        "plural": "entretiens d'embauche",
+        "definitions": [
+            {
+                "text": "Une réunion formelle où l'on pose des questions à quelqu'un pour un emploi.",
+                "examples": [
+                    "J'ai un entretien d'embauche lundi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "contrat",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📄",
+        "form": "noun",
+        "article": "le",
+        "plural": "contrats",
+        "definitions": [
+            {
+                "text": "Un accord écrit entre un employeur et un employé.",
+                "examples": [
+                    "Elle a signé un contrat de deux ans."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "date limite",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⏳",
+        "form": "noun",
+        "article": "la",
+        "plural": "dates limites",
+        "definitions": [
+            {
+                "text": "Le moment ultime où un travail doit être terminé.",
+                "examples": [
+                    "La date limite est vendredi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "expérience",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🧠",
+        "form": "noun",
+        "article": "l'",
+        "plural": "expériences",
+        "definitions": [
+            {
+                "text": "Connaissances ou compétences acquises en faisant quelque chose.",
+                "examples": [
+                    "Il a cinq ans d'expérience."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "prêt hypothécaire",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "🏠",
+        "form": "noun",
+        "article": "le",
+        "plural": "prêts hypothécaires",
+        "definitions": [
+            {
+                "text": "Un prêt d'une banque pour acheter une maison ou un appartement.",
+                "examples": [
+                    "Ils ont un gros prêt hypothécaire."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "prêt",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "💰",
+        "form": "noun",
+        "article": "le",
+        "plural": "prêts",
+        "definitions": [
+            {
+                "text": "Argent emprunté à une banque qui doit être remboursé.",
+                "examples": [
+                    "Elle a contracté un prêt pour acheter une voiture."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "facture",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🧾",
+        "form": "noun",
+        "article": "la",
+        "plural": "factures",
+        "definitions": [
+            {
+                "text": "Un document qui indique combien d'argent vous devez payer.",
+                "examples": [
+                    "Je paie ma facture d'électricité chaque mois."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dette",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💸",
+        "form": "noun",
+        "article": "la",
+        "plural": "dettes",
+        "definitions": [
+            {
+                "text": "Argent que vous devez à une autre personne ou à une banque.",
+                "examples": [
+                    "Il a beaucoup de dettes."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "compte",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "🏦",
+        "form": "noun",
+        "article": "le",
+        "plural": "comptes",
+        "definitions": [
+            {
+                "text": "Un arrangement avec une banque pour stocker votre argent.",
+                "examples": [
+                    "J'ai un compte d'épargne."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "budget",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "📊",
+        "form": "noun",
+        "article": "le",
+        "plural": "budgets",
+        "definitions": [
+            {
+                "text": "Un plan pour la façon de dépenser l'argent.",
+                "examples": [
+                    "Nous avons besoin d'un budget mensuel."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "régime",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "🥗",
+        "form": "noun",
+        "article": "le",
+        "plural": "régimes",
+        "definitions": [
+            {
+                "text": "La nourriture qu'une personne mange normalement ; ou un plan alimentaire spécial.",
+                "examples": [
+                    "Elle suit un régime sain."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rendez-vous",
+        "level": "elementary",
+        "theme": "medical_appointments_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "article": "le",
+        "plural": "rendez-vous",
+        "definitions": [
+            {
+                "text": "Un moment que vous organisez pour rencontrer quelqu'un, par exemple un médecin.",
+                "examples": [
+                    "J'ai un rendez-vous chez le médecin mardi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "en forme",
+        "level": "elementary",
+        "theme": "exercise_fitness_A2",
+        "emoji": "💪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "En bonne santé physique grâce à un exercice régulier.",
+                "examples": [
+                    "Il court pour rester en forme."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "en surpoids",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Plus lourd que ce qui est considéré comme sain.",
+                "examples": [
+                    "Le médecin a dit qu'il est légèrement en surpoids."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vitamine",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "💊",
+        "form": "noun",
+        "article": "la",
+        "plural": "vitamines",
+        "definitions": [
+            {
+                "text": "Une substance naturelle dans les aliments dont votre corps a besoin pour rester en bonne santé.",
+                "examples": [
+                    "Les oranges contiennent de la vitamine C."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "douleur",
+        "level": "elementary",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤕",
+        "form": "noun",
+        "article": "la",
+        "plural": "douleurs",
+        "definitions": [
+            {
+                "text": "Une sensation désagréable dans votre corps quand quelque chose ne va pas.",
+                "examples": [
+                    "Elle a une douleur au dos."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "soutien",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "noun",
+        "article": "le",
+        "plural": "soutiens",
+        "definitions": [
+            {
+                "text": "Aide ou encouragement donné à quelqu'un.",
+                "examples": [
+                    "J'ai besoin de votre soutien."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "confiance",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "noun",
+        "article": "la",
+        "definitions": [
+            {
+                "text": "Le fait de croire que quelqu'un est honnête et fiable.",
+                "examples": [
+                    "La confiance est importante dans une relation."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "compromis",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "noun",
+        "article": "le",
+        "plural": "compromis",
+        "definitions": [
+            {
+                "text": "Un accord où les deux parties acceptent moins que ce qu'elles voulaient.",
+                "examples": [
+                    "Les bonnes relations ont besoin de compromis."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "voyage",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "🛤️",
+        "form": "noun",
+        "article": "le",
+        "plural": "voyages",
+        "definitions": [
+            {
+                "text": "Déplacement d'un endroit à un autre.",
+                "examples": [
+                    "Le trajet jusqu'au travail prend 40 minutes."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "à l'étranger",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "✈️",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Dans ou vers un autre pays.",
+                "examples": [
+                    "Ils vont à l'étranger chaque été."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "destination",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "📍",
+        "form": "noun",
+        "article": "la",
+        "plural": "destinations",
+        "definitions": [
+            {
+                "text": "L'endroit où vous voyagez.",
+                "examples": [
+                    "Paris est une destination populaire."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vol",
+        "level": "elementary",
+        "theme": "at_the_airport_A2",
+        "emoji": "✈️",
+        "form": "noun",
+        "article": "le",
+        "plural": "vols",
+        "definitions": [
+            {
+                "text": "Un trajet effectué en avion.",
+                "examples": [
+                    "Le vol pour Londres dure deux heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bagages",
+        "level": "elementary",
+        "theme": "at_the_airport_A2",
+        "emoji": "🧳",
+        "form": "noun",
+        "article": "les",
+        "plural": "bagages",
+        "definitions": [
+            {
+                "text": "Sacs et valises que vous emportez avec vous lorsque vous voyagez.",
+                "examples": [
+                    "Elle a beaucoup de bagages."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "quartier",
+        "level": "elementary",
+        "theme": "neighbourhood_local_A2",
+        "emoji": "🏘️",
+        "form": "noun",
+        "article": "le",
+        "plural": "quartiers",
+        "definitions": [
+            {
+                "text": "La zone autour de votre maison.",
+                "examples": [
+                    "Nous vivons dans un quartier sûr."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "communauté",
+        "level": "elementary",
+        "theme": "community_neighbourhood_local_A2",
+        "emoji": "👥",
+        "form": "noun",
+        "article": "la",
+        "plural": "communautés",
+        "definitions": [
+            {
+                "text": "Un groupe de personnes qui vivent dans la même zone ou partagent des intérêts.",
+                "examples": [
+                    "Elle est active dans sa communauté locale."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pratique",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "👌",
+        "form": "adjective",
+        "opposite": "peu pratique",
+        "definitions": [
+            {
+                "text": "Facile à utiliser ou adapté à vos besoins.",
+                "examples": [
+                    "Les achats en ligne sont très pratiques."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "stressant",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "😫",
+        "form": "adjective",
+        "opposite": "relaxant",
+        "definitions": [
+            {
+                "text": "Causant de l'inquiétude ou de l'anxiété.",
+                "examples": [
+                    "Son travail est très stressant."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "confortable",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🛋️",
+        "form": "adjective",
+        "opposite": "inconfortable",
+        "definitions": [
+            {
+                "text": "Physiquement relaxant ; ne causant pas de douleur ou de difficulté.",
+                "examples": [
+                    "La chaise de bureau est confortable."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "populaire",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "🌟",
+        "form": "adjective",
+        "opposite": "impopulaire",
+        "definitions": [
+            {
+                "text": "Aimé ou apprécié par beaucoup de gens.",
+                "examples": [
+                    "Ce restaurant est très populaire."
+                ]
+            }
+        ]
     }
 ];
     const lang = "fr";

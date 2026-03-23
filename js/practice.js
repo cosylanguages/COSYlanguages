@@ -1030,6 +1030,7 @@ function expandGrammarItems(items, lang) {
                 expanded.push({
                     ...item,
                     type: 'type-ga',
+                    baseWord: baseWord,
                     primaryPrompt: baseWord,
                     clozeText: `____ ${baseWord}`,
                     answer: correctAnswer,
@@ -1723,7 +1724,7 @@ function showNextWord() {
             renderScramble();
         }
     } else if (wordObj.type === 'type-ga') {
-        document.getElementById('word-display').textContent = wordObj.baseWord;
+        document.getElementById('word-display').textContent = wordObj.baseWord || wordObj.word;
         document.getElementById('emoji-display').textContent = wordObj.emoji || '💡';
         document.getElementById('task-instruction').setAttribute('data-translate-key', 'task_gender_articles');
         document.getElementById('choices-grid').style.display = 'grid';

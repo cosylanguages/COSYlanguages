@@ -137,7 +137,8 @@ const themeConfig = {
             },
             "describing_things": {
                 "colours_patterns_A0": "Colours & patterns",
-                "size_shape_A0": "Size & shape"
+                "size_shape_A0": "Size & shape",
+                "describing_things_A1": "Describing things"
             },
             "culture_arts": {
                 "music_A1": "Music",
@@ -188,6 +189,7 @@ const themeConfig = {
             "home_living": {
                 "renting_landlords_A2": "Renting & landlords",
                 "home_repairs_maintenance_A2": "Home repairs & maintenance",
+                "home_furnishings_A2": "Home furnishings",
                 "neighbourhood_local_A2": "Neighbourhood & local area",
                 "moving_home_A2": "Moving home"
             },
@@ -223,6 +225,11 @@ const themeConfig = {
                 "internet_social_media_A2": "The internet & social media",
                 "news_media_A2": "News & media"
             },
+            "environment_nature": {
+                "weather_climate_A2": "Weather & climate",
+                "animals_nature_A2": "Animals & nature",
+                "environmental_protection_A2": "Environmental protection"
+            },
             "society_politics": {
                 "community_neighbourhood_local_A2": "Community & neighbourhood",
                 "customs_traditions_A2": "Customs & traditions"
@@ -246,6 +253,7 @@ const themeConfig = {
             "describing_things": {
                 "materials_textures_A2": "Materials & textures",
                 "condition_state_A2": "Condition & state",
+                "personal_qualities_A2": "Personal qualities",
                 "quantity_degree_A2": "Quantity & degree",
                 "comparison_A2": "Comparison"
             },
