@@ -17,6 +17,14 @@
             {
                 "text": "Я мыслю, следовательно, я существую.",
                 "author": "Descartes",
+                "options": ["Descartes", "Kant", "Socrates", "Nietzsche"],
+                "level": "intermediate",
+                "theme": "society_community_B1"
+            },
+            {
+                "text": "Красота спасет мир.",
+                "author": "Dostoevsky",
+                "options": ["Dostoevsky", "Tolstoy", "Chekhov", "Pushkin"],
                 "level": "intermediate",
                 "theme": "society_community_B1"
             }

@@ -17,6 +17,21 @@
             {
                 "text": "I think, therefore I am.",
                 "author": "Descartes",
+                "options": ["Descartes", "Kant", "Socrates", "Nietzsche"],
+                "level": "intermediate",
+                "theme": "society_community_B1"
+            },
+            {
+                "text": "Be the change you wish to see in the world.",
+                "author": "Mahatma Gandhi",
+                "options": ["Mahatma Gandhi", "Nelson Mandela", "Martin Luther King Jr.", "Dalai Lama"],
+                "level": "intermediate",
+                "theme": "society_community_B1"
+            },
+            {
+                "text": "The only thing we have to fear is fear itself.",
+                "author": "Franklin D. Roosevelt",
+                "options": ["Franklin D. Roosevelt", "Winston Churchill", "Abraham Lincoln", "Theodore Roosevelt"],
                 "level": "intermediate",
                 "theme": "society_community_B1"
             }

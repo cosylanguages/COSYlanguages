@@ -17,6 +17,14 @@
             {
                 "text": "Σκέφτομαι, άρα υπάρχω.",
                 "author": "Descartes",
+                "options": ["Descartes", "Kant", "Socrates", "Nietzsche"],
+                "level": "intermediate",
+                "theme": "society_community_B1"
+            },
+            {
+                "text": "Η γνώση είναι δύναμη.",
+                "author": "Francis Bacon",
+                "options": ["Francis Bacon", "Aristotle", "Plato", "Democritus"],
                 "level": "intermediate",
                 "theme": "society_community_B1"
             }

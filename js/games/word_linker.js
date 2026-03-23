@@ -133,7 +133,13 @@ document.addEventListener('DOMContentLoaded', () => {
                             feedback.textContent = t('correct');
                             feedback.style.color = 'var(--primary-color)';
                             speak(opt, lang);
-                            setTimeout(showNext, 1500);
+
+                            // Improvements: WordLinkerGame.buildExplanation
+                            if (window.WordLinkerGame) {
+                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current);
+                            }
+
+                            setTimeout(showNext, 3000);
                         } else {
                             feedback.textContent = t('incorrect');
                             feedback.style.color = 'var(--accent-color)';
@@ -180,7 +186,13 @@ document.addEventListener('DOMContentLoaded', () => {
                             feedback.textContent = t('correct');
                             feedback.style.color = 'var(--primary-color)';
                             speak(opt, lang);
-                            setTimeout(showNext, 1500);
+
+                            // Improvements: WordLinkerGame.buildExplanation
+                            if (window.WordLinkerGame) {
+                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current);
+                            }
+
+                            setTimeout(showNext, 3000);
                         } else {
                             feedback.textContent = t('incorrect');
                             feedback.style.color = 'var(--accent-color)';
