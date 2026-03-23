@@ -755,6 +755,7 @@
             theme_philosophy_language_C2: "Philosophy of language",
             theme_physical_appearance_A1: "Physical appearance",
             theme_places: "Places 📍",
+            theme_places_shops_A1: "Places & shops",
             theme_plants_natural_world_A1: "Plants & natural world",
             theme_playing_watching_sport_A1: "Playing & watching sport",
             theme_political_ethics_B2: "Political ethics",

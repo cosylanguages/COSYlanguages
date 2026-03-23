@@ -100,7 +100,7 @@
             {
                 "text": "Un accordo che permette ai dipendenti di variare l'orario o il luogo di lavoro.",
                 "examples": [
-                    "L'azienda offre il lavoro flessibile da casa."
+                    "Lo studio offre il lavoro flessibile da casa."
                 ]
             }
         ]
@@ -382,7 +382,7 @@
         ]
     },
     {
-        "word": "prevenzione",
+        "word": "prevention",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
         "article": "la",
@@ -719,7 +719,7 @@
             {
                 "text": "Materiale che non è più necessario e viene buttato via.",
                 "examples": [
-                    "Dobbymi ridurre i rifiuti alimentari."
+                    "Dobbiamo ridurre i rifiuti alimentari."
                 ]
             }
         ]
@@ -953,23 +953,6 @@
                 "text": "Un animale che si arrampica sugli alberi e somiglia all'uomo.",
                 "examples": [
                     "La scimmia mangia una banana."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "algoritmo",
-        "level": "intermediate",
-        "theme": "science_tech",
-        "article": "l'",
-        "emoji": "💻",
-        "form": "noun",
-        "plural": "algoritmi",
-        "definitions": [
-            {
-                "text": "Una sequenza di istruzioni per risolvere un problema.",
-                "examples": [
-                    "I social media usano degli algoritmi."
                 ]
             }
         ]

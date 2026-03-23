@@ -1,18 +1,20 @@
 (function() {
     const data = [
     {
-        "word": "устойчивый",
+        "word": "утверждать, что",
         "level": "upper-intermediate",
-        "theme": "environment_policy_B2",
-        "emoji": "🌱",
-        "form": "verb"
-    },
-    {
-        "word": "искусственный интеллект",
-        "level": "upper-intermediate",
-        "theme": "technology_privacy_B2",
-        "emoji": "🤖",
-        "form": "verb"
+        "theme": "formal_debate_vocab_B2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "subtext": "доказывать, аргументировать",
+        "definitions": [
+            {
+                "text": "Приводить доводы в поддержку определенной точки зрения.",
+                "examples": [
+                    "Некоторые утверждают, что удаленная работа снижает инновации."
+                ]
+            }
+        ]
     }
 ];
     const lang = "ru";

@@ -102,7 +102,8 @@ const themeConfig = {
             "shopping_money": {
                 "everyday_shopping_A0": "Everyday shopping",
                 "money_payment_A1": "Money & payment",
-                "shops_services_A1": "Shops & services"
+                "shops_services_A1": "Shops & services",
+                "places_shops_A1": "Places & shops"
             },
             "technology_media": {
                 "basic_technology_devices_A0": "Basic technology devices",
