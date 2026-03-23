@@ -51,6 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const level = document.getElementById('linker-level').value;
             let vocabSource = window.vocabularyData[lang] || [];
 
+            // Clear explanation area
+            const expl = document.getElementById('wl-explanation-area');
+            if (expl) expl.innerHTML = '';
+
             // For clues and distractors, we include words at or below the current level
             let accessibleVocab = vocabSource;
             if (level !== 'all') {
@@ -136,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                             // Improvements: WordLinkerGame.buildExplanation
                             if (window.WordLinkerGame) {
-                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current);
+                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, null);
                             }
 
                             setTimeout(showNext, 3000);
@@ -149,7 +153,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             } else {
                 // Odd One Out mode
-                // current.word is the odd one. We need 3 words from another theme.
                 const otherThemes = [...new Set(accessibleVocab.map(v => v.theme))].filter(th => th && th !== current.theme);
 
                 if (otherThemes.length === 0) {
@@ -189,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                             // Improvements: WordLinkerGame.buildExplanation
                             if (window.WordLinkerGame) {
-                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current);
+                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, current.explanation);
                             }
 
                             setTimeout(showNext, 3000);

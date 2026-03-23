@@ -17,14 +17,12 @@
             {
                 "text": "Penso, dunque sono.",
                 "author": "Descartes",
-                "options": ["Descartes", "Kant", "Socrates", "Nietzsche"],
                 "level": "intermediate",
                 "theme": "society_community_B1"
             },
             {
                 "text": "La bellezza salverà il mondo.",
                 "author": "Dostoevskij",
-                "options": ["Dostoevskij", "Tolstoj", "Čechov", "Puškin"],
                 "level": "intermediate",
                 "theme": "society_community_B1"
             }

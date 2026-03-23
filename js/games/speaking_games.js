@@ -248,26 +248,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
             const item = pool.pop();
-
-            // Improvements: CriticsCornerGame.buildGuessAuthor
-            if (window.currentCCMode === 'guess' && window.CriticsCornerGame) {
-                document.getElementById('critics-quote-display').style.display = 'none';
-                document.getElementById('critics-author-display').style.display = 'none';
-
-                let container = document.getElementById('cc-content');
-                if (!container) {
-                    container = document.createElement('div');
-                    container.id = 'cc-content';
-                    quoteDisplay.parentElement.appendChild(container);
-                }
-                container.innerHTML = CriticsCornerGame.buildGuessAuthor(item);
-            } else {
-                if (document.getElementById('cc-content')) document.getElementById('cc-content').innerHTML = '';
-                quoteDisplay.style.display = 'block';
-                authorDisplay.style.display = 'block';
-                quoteDisplay.textContent = `"${item.text}"`;
-                authorDisplay.textContent = item.author ? `- ${item.author}` : "";
-            }
+            quoteDisplay.textContent = `"${item.text}"`;
+            authorDisplay.textContent = item.author ? `- ${item.author}` : "";
 
             stopTimer();
             const duration = parseInt(document.getElementById('critics-timer-duration')?.value || '120');

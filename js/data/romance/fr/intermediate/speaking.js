@@ -17,14 +17,12 @@
             {
                 "text": "Je pense, donc je suis.",
                 "author": "Descartes",
-                "options": ["Descartes", "Kant", "Socrates", "Nietzsche"],
                 "level": "intermediate",
                 "theme": "society_community_B1"
             },
             {
                 "text": "Le cœur a ses raisons que la raison ne connaît point.",
                 "author": "Blaise Pascal",
-                "options": ["Blaise Pascal", "Molière", "Voltaire", "Rousseau"],
                 "level": "intermediate",
                 "theme": "society_community_B1"
             }

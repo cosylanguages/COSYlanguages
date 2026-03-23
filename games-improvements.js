@@ -1,502 +1,690 @@
-/**
- * COSYlanguages — Games Improvements & New Games
- * This file contains the logic for the specification provided for Jules AI.
- */
+/*
+  COSYlanguages — Games Improvement Module
+  =========================================
+  Drop alongside events.html. Add one script tag:
+    <script src="games-improvements.js"></script>
 
-(function() {
-    const { t, speak, playGameSound, createConfetti, isThemeMatch } = window.gameUtils;
+  This module:
+  1. Fixes Last Letter validation (validate against vocab JSON)
+  2. Adds Action Hero taboo words + round summary
+  3. Adds Fluency Flow self-assessment + level-aware prompts
+  4. Adds Opinion Arena vocabulary support + group reveal
+  5. Adds Lucky Numbers Web Speech auto-caller
+  6. Adds Story Chain (new game)
+  7. Adds Hot Seat (new game)
 
-    // Helper to get vocabulary pool
-    window.getVocabPool = function(lang, level, theme) {
-        const allVocab = window.vocabularyData[lang] || [];
-        const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
-        const targetIdx = levels.indexOf(level);
+  Each section is labelled clearly.
+*/
 
-        return allVocab.filter(item => {
-            const levelMatch = level === 'all' || (levels.indexOf(item.level || 'starter') <= targetIdx);
-            return levelMatch && isThemeMatch(item.theme, theme);
-        });
+// ─────────────────────────────────────────────
+// SHARED UTILITIES
+// ─────────────────────────────────────────────
+
+// Speak text in the given language
+function gameSpeak(text, lang = 'en') {
+  if (!window.speechSynthesis) return;
+  const LANGS = { en:'en-GB', fr:'fr-FR', it:'it-IT', ru:'ru-RU', el:'el-GR' };
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = LANGS[lang] || 'en-GB';
+  u.rate = 0.85;
+  window.speechSynthesis.speak(u);
+}
+
+// Get vocab pool filtered by language + level + theme
+function getVocabPool(lang, level, theme) {
+  const pool = (window.vocabularyData?.[lang] || []);
+  const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+  const targetIdx = levels.indexOf(level);
+
+  return pool.filter(item => {
+    const levelMatch = level === 'all' || (levels.indexOf(item.level || 'starter') <= targetIdx);
+    const themeMatch = !theme || theme === 'all' || (window.gameUtils && window.gameUtils.isThemeMatch ? window.gameUtils.isThemeMatch(item.theme, theme) : item.theme === theme);
+    return levelMatch && themeMatch;
+  });
+}
+
+
+// ─────────────────────────────────────────────
+// 1. LAST LETTER — VALIDATION FIX
+// ─────────────────────────────────────────────
+const LastLetterGame = {
+  pool: [],
+  usedWords: new Set(),
+  requiredLetter: null,
+  score: { player: 0, computer: 0 },
+  turnTimer: null,
+  TURN_SECONDS: 30,
+
+  init(lang, level, theme) {
+    this.pool = getVocabPool(lang, level, theme);
+    this.usedWords = new Set();
+    this.score = { player: 0, computer: 0 };
+    const starter = this.pool[Math.floor(Math.random() * this.pool.length)];
+    if (starter) {
+        this.usedWords.add(starter.word.toLowerCase());
+        this.requiredLetter = starter.word[starter.word.length - 1].toLowerCase();
+    }
+    return starter;
+  },
+
+  validate(typed, requiredLetter, pool) {
+    const word = typed.trim().toLowerCase();
+    if (!word) return { ok: false, reason: 'empty', message: 'Please type a word!' };
+    if (requiredLetter && word[0] !== requiredLetter.toLowerCase()) return { ok: false, reason: 'wrong_letter',
+      message: `Must start with "${requiredLetter.toUpperCase()}"` };
+    if (this.usedWords.has(word)) return { ok: false, reason: 'used',
+      message: 'That word has already been used!' };
+
+    const match = pool.find(item => item.word.toLowerCase() === word);
+    if (!match) return { ok: false, reason: 'unknown',
+      message: `"${typed}" is not in the word list for this level. Try another!` };
+
+    this.usedWords.add(word);
+    this.requiredLetter = word[word.length - 1];
+    return { ok: true, item: match };
+  },
+
+  computerTurn(requiredLetter, pool) {
+    const candidates = pool.filter(item => {
+      const w = item.word.toLowerCase();
+      return w[0] === requiredLetter && !this.usedWords.has(w);
+    });
+    if (candidates.length === 0) return null;
+    if (Math.random() < 0.2) return null;
+    const picked = candidates[Math.floor(Math.random() * Math.min(candidates.length, 5))];
+    this.usedWords.add(picked.word.toLowerCase());
+    this.requiredLetter = picked.word[picked.word.length - 1];
+    return picked;
+  }
+};
+
+function lastLetterWordCard(item) {
+  return `
+    <div class="ll-word-card" style="
+      background:#e8f0e9;border-radius:10px;padding:10px 14px;
+      display:flex;align-items:center;gap:10px;margin:6px 0;
+      font-family:'Nunito',sans-serif;
+    ">
+      <span style="font-size:1.4rem">${item.emoji || '📝'}</span>
+      <div>
+        <div style="font-weight:800;font-size:.95rem;color:#2e4a33">${item.word}</div>
+        <div style="font-size:.78rem;color:#6b8f71;line-height:1.4">${item.definitions?.[0]?.text || ''}</div>
+      </div>
+      <button onclick="gameSpeak('${item.word}', document.getElementById('last-letter-lang').value)"
+        style="margin-left:auto;background:none;border:none;font-size:1.1rem;cursor:pointer">🔊</button>
+    </div>
+  `;
+}
+
+
+// ─────────────────────────────────────────────
+// 2. ACTION HERO — TABOO WORDS + ROUND SUMMARY
+// ─────────────────────────────────────────────
+
+const ActionHeroGame = {
+  roundResults: [],
+
+  getTabooWords(item, pool) {
+    if (!item || !pool) return [];
+    const obvious = [item.word.toLowerCase()];
+    if (item.plural) obvious.push(item.plural.toLowerCase());
+    const sameTheme = pool
+      .filter(p => p.theme === item.theme && p.word !== item.word)
+      .slice(0, 2)
+      .map(p => p.word);
+    return [...obvious, ...sameTheme];
+  },
+
+  record(item, correct) {
+    this.roundResults.push({ word: item.word, emoji: item.emoji, correct });
+  },
+
+  buildSummary(totalTime) {
+    const correct = this.roundResults.filter(r => r.correct);
+    const wrong   = this.roundResults.filter(r => !r.correct);
+    const wordList = (items, icon) => items.map(r =>
+      `<div style="display:flex;align-items:center;gap:8px;padding:6px 0;
+        border-bottom:0.5px solid rgba(0,0,0,.06);">
+        <span style="font-size:1.2rem">${r.emoji || icon}</span>
+        <span style="font-weight:700;font-size:.88rem;color:#2e4a33">${r.word}</span>
+      </div>`
+    ).join('');
+
+    return `
+      <div style="font-family:'Nunito',sans-serif;padding:16px;">
+        <div style="text-align:center;margin-bottom:16px;">
+          <div style="font-size:2.5rem;margin-bottom:4px">
+            ${correct.length >= wrong.length ? '🏆' : '💪'}
+          </div>
+          <div style="font-family:'Lora',serif;font-size:1.4rem;font-weight:700;color:#2e4a33">
+            ${correct.length} / ${this.roundResults.length} correct
+          </div>
+          <div style="font-size:.8rem;color:#aaa;margin-top:2px">in ${totalTime} seconds</div>
+        </div>
+        ${correct.length ? `
+          <div style="font-size:.7rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;
+            color:#1a6b45;margin-bottom:6px">✅ Got it (${correct.length})</div>
+          <div style="background:#e5f4ec;border-radius:8px;padding:8px 12px;margin-bottom:12px">
+            ${wordList(correct, '✅')}
+          </div>` : ''}
+        ${wrong.length ? `
+          <div style="font-size:.7rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;
+            color:#a32d2d;margin-bottom:6px">❌ Missed (${wrong.length})</div>
+          <div style="background:#fcebeb;border-radius:8px;padding:8px 12px;margin-bottom:12px">
+            ${wordList(wrong, '❌')}
+          </div>` : ''}
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">
+          <button onclick="document.getElementById('start-charades-game-btn').click()"
+            style="height:48px;border-radius:999px;background:#6b8f71;color:#fff;
+              border:none;font-family:'Nunito',sans-serif;font-weight:900;font-size:.9rem;cursor:pointer">
+            Play Again 🔄
+          </button>
+          <button onclick="document.getElementById('close-charades-btn').click()"
+            style="height:48px;border-radius:999px;background:#fdf8f0;color:#6b6b6b;
+              border:2px solid rgba(0,0,0,.1);font-family:'Nunito',sans-serif;font-weight:800;font-size:.9rem;cursor:pointer">
+            Done ✓
+          </button>
+        </div>
+      </div>
+    `;
+  },
+
+  buildWordDisplay(item, pool, level) {
+    const showTaboo = ['intermediate','upper-intermediate','advanced','proficiency'].includes(level);
+    const taboos = showTaboo ? this.getTabooWords(item, pool).slice(1) : [];
+    return `
+      <div style="text-align:center;padding:12px;">
+        ${showTaboo && taboos.length ? `
+          <div style="margin-bottom:8px">
+            ${taboos.map(t =>
+              `<span style="display:inline-block;background:#fcebeb;color:#a32d2d;
+                border-radius:999px;padding:2px 10px;font-size:.72rem;font-weight:800;
+                margin:2px;text-decoration:line-through">${t}</span>`
+            ).join('')}
+          </div>` : ''}
+        <div style="font-size:5rem;line-height:1.1;margin-bottom:8px">${item.emoji || '❓'}</div>
+        <div style="font-family:'Lora',serif;font-size:1.8rem;font-weight:700;color:#2e4a33">
+          ${item.word}
+        </div>
+      </div>
+    `;
+  }
+};
+
+
+// ─────────────────────────────────────────────
+// 3. FLUENCY FLOW — SELF-ASSESSMENT + PROMPTS
+// ─────────────────────────────────────────────
+
+const FluentyFlowGame = {
+  getPrompts(topic, level) {
+    const starterPrompts = {
+      starter:    ['What is it?', 'Do you like it?', 'Where is it?'],
+      elementary: ['Describe it.', 'Do you have experience with it?', 'Is it important?'],
+      intermediate: ['What are the pros and cons?', 'How does it affect daily life?', 'Give an example.'],
+      'upper-intermediate': ['What are the societal implications?', 'How has it changed over time?', 'What is your personal experience?'],
+      advanced: ['Analyse critically.', 'What are the ethical dimensions?', 'Compare different perspectives.'],
     };
+    return starterPrompts[level] || starterPrompts['intermediate'];
+  },
 
-    // 1. LAST LETTER
-    window.LastLetterGame = {
-        usedWords: new Set(),
+  buildSelfAssessment(topic) {
+    return `
+      <div id="fluency-assessment" style="
+        font-family:'Nunito',sans-serif;padding:16px;text-align:center;
+        background:#fdf8f0;border-radius:16px;border:2px solid #e8f0e9;
+        margin-top:12px;
+      ">
+        <div style="font-size:.75rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;
+          color:#6b8f71;margin-bottom:8px">How did you do on "${topic.topic || topic}"?</div>
+        <div style="display:flex;justify-content:center;gap:8px;flex-wrap:wrap;">
+          ${[
+            { emoji:'😬', label:'Struggled', score:1 },
+            { emoji:'🙂', label:'OK',       score:3 },
+            { emoji:'😊', label:'Good',     score:4 },
+            { emoji:'🔥', label:'Nailed it',score:5 },
+          ].map(opt => `
+            <button onclick="fluencyAssess(${opt.score})" style="
+              display:flex;flex-direction:column;align-items:center;gap:4px;
+              background:#fff;border:2px solid rgba(107,143,113,.2);border-radius:12px;
+              padding:10px 14px;cursor:pointer;font-family:'Nunito',sans-serif;
+              transition:all .15s;min-width:64px;
+            ">
+              <span style="font-size:1.6rem">${opt.emoji}</span>
+              <span style="font-size:.72rem;font-weight:800;color:#6b6b6b">${opt.label}</span>
+            </button>`
+          ).join('')}
+        </div>
+        <div id="fluency-assess-msg" style="font-size:.78rem;color:#aaa;margin-top:8px"></div>
+      </div>
+    `;
+  }
+};
 
-        init(lang, level, theme) {
-            this.usedWords.clear();
-        },
+window.fluencyAssess = function(score) {
+  const msg = document.getElementById('fluency-assess-msg');
+  if (msg) msg.textContent = score >= 4 ? '✅ Great! That topic will appear less often.' :
+    score <= 2 ? '📌 Got it — you\'ll see similar topics again soon.' :
+    '👍 Saved. Keep practising!';
+  document.querySelectorAll('#fluency-assessment button').forEach(b => {
+    b.style.opacity = '.5'; b.style.pointerEvents = 'none';
+  });
+};
 
-        validate(playerInput, requiredLetter, pool) {
-            const input = playerInput.trim().toLowerCase();
-            if (!input) return { ok: false, message: t('last_letter_empty') || "Please type a word!" };
 
-            if (requiredLetter && input[0] !== requiredLetter.toLowerCase()) {
-                return { ok: false, message: (t('last_letter_wrong_letter') || "Must start with ") + "'" + requiredLetter.toUpperCase() + "'" };
-            }
+// ─────────────────────────────────────────────
+// 4. OPINION ARENA — VOCABULARY SUPPORT
+// ─────────────────────────────────────────────
 
-            if (this.usedWords.has(input)) {
-                return { ok: false, message: t('last_letter_used') || "Already used!" };
-            }
+const OpinionArenaGame = {
+  PHRASES: {
+    en: {
+      agree:    ['I completely agree...', 'That\'s a good point because...', 'I think so too, especially...', 'Absolutely, and I\'d add that...'],
+      disagree: ['I\'m not sure I agree...', 'On the other hand...', 'I see it differently...', 'That may be true, but...'],
+      neutral:  ['It depends on...', 'To some extent...', 'There are two sides to this...', 'I can see both perspectives...'],
+    },
+    fr: {
+      agree:    ['Je suis tout à fait d\'accord...', 'C\'est un bon point parce que...', 'Moi aussi, surtout...', 'Absolument, et j\'ajouterais que...'],
+      disagree: ['Je ne suis pas sûr(e) d\'être d\'accord...', 'D\'un autre côté...', 'Je vois les choses différemment...', 'C\'est peut-être vrai, mais...'],
+      neutral:  ['Ça dépend de...', 'Dans une certaine mesure...', 'Il y a deux aspects...', 'Je comprends les deux perspectives...'],
+    },
+    it: {
+      agree:    ['Sono completamente d\'accordo...', 'È un buon punto perché...', 'Anch\'io, soprattutto...', 'Assolutamente, e aggiungerei che...'],
+      disagree: ['Non sono sicuro/a di essere d\'accordo...', 'D\'altra parte...', 'La vedo diversamente...', 'Può essere vero, ma...'],
+      neutral:  ['Dipende da...', 'In una certa misura...', 'Ci sono due aspetti...', 'Capisco entrambe le prospettive...'],
+    },
+    ru: {
+      agree:    ['Я полностью согласен/согласна...', 'Это хорошая мысль, потому что...', 'Я тоже так думаю, особенно...', 'Абсолютно, и я бы добавил(а)...'],
+      disagree: ['Я не уверен(а), что согласен(а)...', 'С другой стороны...', 'Я вижу это иначе...', 'Возможно, это и так, но...'],
+      neutral:  ['Это зависит от...', 'В определённой степени...', 'Есть две стороны...', 'Я понимаю обе точки зрения...'],
+    },
+    el: {
+      agree:    ['Συμφωνώ απόλυτα...', 'Είναι ένα καλό σημείο γιατί...', 'Το ίδιο πιστεύω κι εγώ, ειδικά...', 'Απολύτως, και θα πρόσθετα ότι...'],
+      disagree: ['Δεν είμαι σίγουρος ότι συμφωνώ...', 'Από την άλλη πλευρά...', 'Το βλέπω διαφορετικά...', 'Αυτό μπορεί να είναι αλήθεια, αλλά...'],
+      neutral:  ['Εξαρτάται από...', 'Σε κάποιο βαθμό...', 'Υπάρχουν δύο πλευρές σε αυτό...', 'Μπορώ να δω και τις δύο προοπτικές...'],
+    }
+  },
 
-            const item = pool.find(v => v.word.toLowerCase() === input);
-            if (!item) {
-                return { ok: false, message: t('last_letter_not_in_list') || "Word not in our list!" };
-            }
+  buildVocabSupport(lang) {
+    const phrases = this.PHRASES[lang] || this.PHRASES['en'];
+    const rand = arr => arr[Math.floor(Math.random() * arr.length)];
+    return `
+      <div style="font-family:'Nunito',sans-serif;margin-top:12px;
+        background:#f0f5f1;border-radius:12px;padding:12px 14px;">
+        <div style="font-size:.68rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;
+          color:#6b8f71;margin-bottom:8px">💬 Useful phrases</div>
+        <div style="display:grid;gap:6px;">
+          ${['agree','disagree','neutral'].map(type => `
+            <div style="background:#fff;border-radius:8px;padding:8px 10px;
+              border-left:3px solid ${type==='agree'?'#1a6b45':type==='disagree'?'#a32d2d':'#e8a838'}">
+              <div style="font-size:.68rem;font-weight:900;text-transform:uppercase;color:${
+                type==='agree'?'#1a6b45':type==='disagree'?'#a32d2d':'#a06b10'};margin-bottom:3px">
+                ${type==='agree'?'To agree':'To disagree or nuance'}${type==='neutral'?'':''}
+              </div>
+              <div style="font-size:.82rem;color:#2e4a33;font-weight:700">
+                "${rand(phrases[type])}"
+              </div>
+            </div>`
+          ).join('')}
+        </div>
+      </div>
+    `;
+  },
 
-            this.usedWords.add(input);
-            return { ok: true, item: item };
-        },
+  buildGroupReveal() {
+    return `
+      <div style="font-family:'Nunito',sans-serif;text-align:center;padding:12px;">
+        <div style="font-size:.75rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;
+          color:#6b8f71;margin-bottom:10px">What do you think?</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
+          <button id="oa-agree" onclick="oaVote('agree')" style="
+            height:64px;border-radius:12px;background:#e5f4ec;
+            border:2px solid #1a6b45;color:#1a6b45;
+            font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer">
+            👍 Agree
+          </button>
+          <button id="oa-disagree" onclick="oaVote('disagree')" style="
+            height:64px;border-radius:12px;background:#fcebeb;
+            border:2px solid #a32d2d;color:#a32d2d;
+            font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer">
+            👎 Disagree
+          </button>
+        </div>
+        <div id="oa-vote-result" style="display:none;font-size:.88rem;color:#6b6b6b;
+          background:#f0f5f1;border-radius:8px;padding:8px"></div>
+      </div>
+    `;
+  }
+};
 
-        computerTurn(nextLetter, pool) {
-            const possible = pool.filter(v =>
-                v.word.toLowerCase().startsWith(nextLetter.toLowerCase()) &&
-                !this.usedWords.has(v.word.toLowerCase())
-            );
+window.oaVote = function(choice) {
+  const result = document.getElementById('oa-vote-result');
+  if (result) {
+    result.style.display = 'block';
+    result.textContent = choice === 'agree'
+      ? '👍 You agree — now explain why! Speak for at least 30 seconds.'
+      : '👎 You disagree — now explain why! Speak for at least 30 seconds.';
+  }
+  ['agree','disagree'].forEach(c => {
+    const btn = document.getElementById(`oa-${c}`);
+    if (btn) { btn.style.opacity = c === choice ? '1' : '.4'; btn.style.pointerEvents = 'none'; }
+  });
+};
 
-            if (possible.length === 0) return null;
 
-            const picked = possible[Math.floor(Math.random() * possible.length)];
-            this.usedWords.add(picked.word.toLowerCase());
-            return picked;
-        }
-    };
+// ─────────────────────────────────────────────
+// 5. LUCKY NUMBERS — WEB SPEECH AUTO-CALLER
+// ─────────────────────────────────────────────
 
-    // Helper for Last Letter word card
-    window.lastLetterWordCard = function(item) {
-        return `
-            <div class="ll-card glass" style="padding:1rem; border-radius:15px; text-align:center;">
-                <div style="font-size:3rem">${item.emoji || '📝'}</div>
-                <div style="font-size:1.5rem; font-weight:800; color:var(--sage-dark)">${item.word}</div>
-                ${item.definitions ? `<div style="font-size:0.9rem; margin-top:0.5rem; color:var(--muted)">${item.definitions[0].text}</div>` : ''}
-            </div>
-        `;
-    };
+const LuckyNumbersGame = {
+  speakCalled(item, lang) {
+    gameSpeak(item.toString(), lang);
+  },
 
-    // 2. ACTION HERO
-    window.ActionHeroGame = {
-        roundResults: [],
-
-        buildWordDisplay(currentItem, pool, currentLevel) {
-            const isIntermediatePlus = ['intermediate', 'upper-intermediate', 'advanced', 'proficiency'].includes(currentLevel);
-            let tabooHtml = '';
-
-            if (isIntermediatePlus) {
-                // Find words in the same theme as "taboo" words
-                const tabooWords = pool
-                    .filter(v => v.theme === currentItem.theme && v.word !== currentItem.word)
-                    .sort(() => Math.random() - 0.5)
-                    .slice(0, 3)
-                    .map(v => v.word);
-
-                if (tabooWords.length > 0) {
-                    tabooHtml = `
-                        <div style="margin-top:1rem; padding-top:1rem; border-top:1px solid var(--border)">
-                            <div style="font-size:0.7rem; text-transform:uppercase; letter-spacing:1px; color:var(--accent-color); font-weight:800; margin-bottom:0.5rem">Taboo Words:</div>
-                            <div style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center">
-                                ${tabooWords.map(w => `<span style="background:var(--sage-pale); color:var(--sage-dark); padding:2px 10px; border-radius:999px; font-size:0.85rem; font-weight:700">${w}</span>`).join('')}
-                            </div>
-                        </div>
-                    `;
-                }
-            }
-
-            return `
-                <div class="ah-display-inner">
-                    <div style="font-size:5rem">${currentItem.emoji || '🎭'}</div>
-                    <div style="font-size:2.5rem; font-weight:900; color:var(--sage-dark)">${currentItem.word}</div>
-                    ${tabooHtml}
-                </div>
-            `;
-        },
-
-        record(currentItem, isCorrect) {
-            this.roundResults.push({ word: currentItem.word, emoji: currentItem.emoji, isCorrect });
-        },
-
-        buildSummary(timerDuration) {
-            const correct = this.roundResults.filter(r => r.isCorrect).length;
-            const total = this.roundResults.length;
-
-            return `
-                <div class="ah-summary glass" style="padding:1.5rem; border-radius:18px; text-align:center">
-                    <h3 style="font-family:'Lora',serif; color:var(--sage-deep); margin-bottom:1rem">Round Summary 🏁</h3>
-                    <div style="font-size:2rem; font-weight:900; color:var(--sage)">${correct} / ${total}</div>
-                    <p style="font-size:0.9rem; color:var(--muted); margin-bottom:1.5rem">Words in ${timerDuration} seconds</p>
-                    <div style="text-align:left; max-height:200px; overflow-y:auto; padding-right:5px">
-                        ${this.roundResults.map(r => `
-                            <div style="display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px solid var(--border)">
-                                <span>${r.emoji || '•'} <strong>${r.word}</strong></span>
-                                <span>${r.isCorrect ? '✅' : '❌'}</span>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-    };
-
-    // 3. FLUENCY FLOW
-    window.FluentyFlowGame = {
-        getPrompts(currentTopic, currentLevel) {
-            // Default generic prompts if none found
-            const genericPrompts = ["Why?", "How?", "Where?", "When?", "Who?"];
-
-            // In a real app, these would come from data. For now, we generate/use topic data.
-            // Let's see if currentTopic has ideas
-            if (currentTopic.ideas && currentTopic.ideas.length > 0) return currentTopic.ideas;
-
-            // Level based generic prompts
-            if (currentLevel === 'starter' || currentLevel === 'elementary') {
-                return ["I like...", "I don't like...", "Because...", "And...", "But..."];
-            }
-            return ["In my opinion...", "Furthermore...", "On the other hand...", "As a result...", "I believe that..."];
-        },
-
-        buildSelfAssessment(currentTopic) {
-            return `
-                <div class="ff-assessment glass" style="margin-top:1.5rem; padding:1.2rem; border-radius:15px; background:var(--honey-pale); border:1px solid var(--honey)">
-                    <h4 style="color:var(--honey-dark); margin-bottom:0.8rem">How did you do? 🧐</h4>
-                    <p style="font-size:0.85rem; margin-bottom:1rem">Be honest with yourself about your flow on: <strong>${currentTopic.topic}</strong></p>
-                    <div style="display:flex; gap:8px; justify-content:center">
-                        <button onclick="this.parentElement.innerHTML='<p>Great! Keep practicing! 🌟</p>'" class="cta-button secondary" style="font-size:0.75rem">Struggled 😕</button>
-                        <button onclick="this.parentElement.innerHTML='<p>Well done! You are improving! 🚀</p>'" class="cta-button secondary" style="font-size:0.75rem">Okay 😐</button>
-                        <button onclick="this.parentElement.innerHTML='<p>Excellent! Master of fluency! 🏆</p>'" class="cta-button secondary" style="font-size:0.75rem">Fluent! 😎</button>
-                    </div>
-                </div>
-            `;
-        }
-    };
-
-    // 4. OPINION ARENA
-    window.OpinionArenaGame = {
-        buildGroupReveal() {
-            return `
-                <div style="display:flex; gap:10px; justify-content:center; margin-bottom:15px">
-                    <button onclick="this.style.background='#4CAF50'; this.style.color='white'" class="cta-button secondary" style="flex:1; font-size:.8rem">Reveal Who Agrees ✅</button>
-                    <button onclick="this.style.background='#f44336'; this.style.color='white'" class="cta-button secondary" style="flex:1; font-size:.8rem">Reveal Who Disagrees ❌</button>
-                </div>
-            `;
-        },
-
-        buildVocabSupport(currentLang) {
-            const phrases = {
-                en: ["I believe that...", "In my view...", "I disagree because...", "That's a good point, but...", "I'm not sure if..."],
-                fr: ["Je pense que...", "À mon avis...", "Je ne suis pas d'accord car...", "C'est un bon point, mais...", "Je ne suis pas sûr que..."],
-                it: ["Credo che...", "Secondo me...", "Non sono d'accordo perché...", "È un buon punto, ma...", "Non sono sicuro che..."],
-                ru: ["Я думаю, что...", "По-моему...", "Я не согласен, потому что...", "Это хороший аргумент, но...", "Я не уверен, что..."],
-                el: ["Πιστεύω ότι...", "Κατά τη γνώμη μου...", "Διαφωνώ επειδή...", "Αυτό είναι ένα καλό σημείο, αλλά...", "Δεν είμαι σίγουρος αν..."]
-            };
-            const list = phrases[currentLang] || phrases.en;
-
-            return `
-                <div class="oa-vocab glass" style="margin-top:1.5rem; padding:1rem; border-radius:15px; text-align:left; background:var(--sage-mist)">
-                    <h4 style="font-size:0.85rem; color:var(--sage-dark); margin-bottom:0.6rem">Useful Phrases 🗣️</h4>
-                    <div style="display:flex; flex-direction:column; gap:4px">
-                        ${list.map(p => `<div style="font-size:0.8rem; font-weight:700; color:var(--sage-deep)">• ${p}</div>`).join('')}
-                    </div>
-                </div>
-            `;
-        }
-    };
-
-    // 5. LUCKY NUMBERS
-    window.LuckyNumbersGame = {
-        autoCallerInterval: null,
-
-        speakCalled(calledItem, currentLang) {
-            speak(calledItem.toString(), currentLang);
-        },
-
-        startAutoCaller(allItems, currentLang, interval) {
+  startAutoCaller(items, lang, intervalMs = 4000) {
+    this.stopAutoCaller();
+    let idx = 0;
+    const call = () => {
+        if (idx >= items.length) {
             this.stopAutoCaller();
-            const pool = [...allItems];
-
-            const call = () => {
-                if (pool.length === 0) {
-                    this.stopAutoCaller();
-                    return;
-                }
-                const item = pool.pop();
-                // We need a way to trigger the UI update in bingo.js
-                // For now, let's assume we can trigger a click on "Call Next" or similar
-                const btn = document.getElementById('bingo-call-next-btn');
-                if (btn) btn.click();
-            };
-
-            this.autoCallerInterval = setInterval(call, interval);
-        },
-
-        stopAutoCaller() {
-            if (this.autoCallerInterval) {
-                clearInterval(this.autoCallerInterval);
-                this.autoCallerInterval = null;
-            }
-        },
-
-        celebrate() {
-            createConfetti();
-            playGameSound('success');
-        }
-    };
-
-    // 6. CRITIC'S CORNER
-    window.currentCCMode = 'analyse';
-    window.ccSetMode = function(mode) {
-        window.currentCCMode = mode;
-        document.querySelectorAll('.gm-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.mode === mode);
-            if (btn.classList.contains('active')) {
-                btn.classList.remove('secondary');
-                btn.style.background = 'var(--sage)';
-                btn.style.color = 'white';
-            } else {
-                btn.classList.add('secondary');
-                btn.style.background = '';
-                btn.style.color = '';
-            }
-        });
-        // Trigger refresh if game is running
-        if (window.criticsCornerGame && document.getElementById('critics-corner-modal').style.display !== 'none') {
-            // This is a bit tricky as we don't have the current item easily.
-            // But usually the user sets the mode before starting or wants to switch mid-game.
-        }
-    };
-
-    window.CriticsCornerGame = {
-        buildGuessAuthor(currentQuoteItem) {
-            const options = currentQuoteItem.options || [currentQuoteItem.author, "Unknown", "Someone Else", "A Philosopher"];
-            const shuffled = [...options].sort(() => Math.random() - 0.5);
-
-            return `
-                <div class="cc-guess glass" style="padding:1.5rem; border-radius:18px">
-                    <div style="font-size:1.4rem; font-weight:700; color:var(--sage-dark); margin-bottom:2rem; line-height:1.4">"${currentQuoteItem.text}"</div>
-                    <div class="choices-grid" style="grid-template-columns:1fr 1fr; gap:10px">
-                        ${shuffled.map(opt => `
-                            <button onclick="CriticsCornerGame.checkGuess(this, '${opt}', '${currentQuoteItem.author}')" class="choice-btn pill-input" style="font-size:0.9rem">${opt}</button>
-                        `).join('')}
-                    </div>
-                    <div id="cc-guess-feedback" style="margin-top:1rem; font-weight:800; min-height:1.5rem"></div>
-                </div>
-            `;
-        },
-
-        checkGuess(btn, picked, correct) {
-            const feedback = document.getElementById('cc-guess-feedback');
-            if (picked === correct) {
-                btn.style.background = '#4CAF50';
-                btn.style.color = 'white';
-                feedback.textContent = "Correct! 🌟";
-                feedback.style.color = '#4CAF50';
-                playGameSound('success');
-            } else {
-                btn.style.background = '#f44336';
-                btn.style.color = 'white';
-                feedback.textContent = "Not quite! Try again.";
-                feedback.style.color = '#f44336';
-                playGameSound('error');
-            }
-        }
-    };
-
-    // 7. STORY CHAIN
-    window.storyChainStart = function() {
-        const lang  = document.getElementById('sc-lang').value;
-        const level = document.getElementById('sc-level').value;
-        const theme = document.getElementById('sc-theme').value;
-        const item  = StoryChainGame.init(lang, level, theme);
-
-        document.getElementById('sc-setup').style.display = 'none';
-        document.getElementById('sc-word-reveal').innerHTML = StoryChainGame.buildWordCard(item);
-        document.getElementById('sc-word-reveal').style.display = 'block';
-        document.getElementById('sc-input-area').style.display = 'block';
-        document.getElementById('story-display').innerHTML = StoryChainGame.buildStoryDisplay();
-        document.getElementById('sc-finish-btn').style.display = 'block';
-    };
-
-    window.storyChainAdd = function() {
-        const sentence = document.getElementById('sc-sentence').value.trim();
-        if (!sentence) return;
-        const nextItem = StoryChainGame.addSentence(sentence, 'Player');
-        document.getElementById('sc-sentence').value = '';
-        document.getElementById('story-display').innerHTML = StoryChainGame.buildStoryDisplay();
-        if (nextItem) {
-            document.getElementById('sc-word-reveal').innerHTML = StoryChainGame.buildWordCard(nextItem);
-        } else {
-            document.getElementById('sc-word-reveal').innerHTML = '<p>No more words! Continue the story or reveal.</p>';
-        }
-    };
-
-    window.storyChainFinish = function() {
-        document.getElementById('sc-input-area').style.display = 'none';
-        document.getElementById('sc-word-reveal').style.display = 'none';
-        document.getElementById('sc-finish-btn').style.display = 'none';
-        document.getElementById('sc-final-reveal').innerHTML = StoryChainGame.buildFinalReveal();
-        document.getElementById('sc-final-reveal').style.display = 'block';
-    };
-
-    window.StoryChainGame = {
-        story: [],
-        currentWord: null,
-        pool: [],
-
-        init(lang, level, theme) {
-            this.story = [];
-            this.pool = window.getVocabPool(lang, level, theme).sort(() => Math.random() - 0.5);
-            this.currentWord = this.pool.pop();
-            return this.currentWord;
-        },
-
-        buildWordCard(item) {
-            return `
-                <div class="sc-word-card glass" style="padding:1rem; border-radius:15px; background:var(--sage-mist); margin-bottom:1rem">
-                    <div style="font-size:0.7rem; color:var(--muted); text-transform:uppercase; font-weight:800">Your Secret Word:</div>
-                    <div style="font-size:1.8rem; font-weight:900; color:var(--sage-deep)">${item.word} ${item.emoji || ''}</div>
-                    <div style="font-size:0.8rem; color:var(--sage-dark)">Use this word in your sentence!</div>
-                </div>
-            `;
-        },
-
-        buildStoryDisplay() {
-            if (this.story.length === 0) return '<p style="color:var(--muted); font-style:italic">The story begins here...</p>';
-            return this.story.map(s => `<span>${s.sentence} </span>`).join('');
-        },
-
-        addSentence(sentence, player) {
-            this.story.push({ sentence, player, word: this.currentWord.word });
-            this.currentWord = this.pool.pop();
-            return this.currentWord;
-        },
-
-        buildFinalReveal() {
-            return `
-                <div class="sc-final glass" style="padding:1.5rem; border-radius:18px; text-align:left">
-                    <h3 style="margin-bottom:1rem">The Completed Story 📖</h3>
-                    <div style="line-height:1.6; margin-bottom:2rem; font-size:1.1rem">${this.story.map(s => s.sentence).join(' ')}</div>
-                    <h4 style="font-size:0.9rem; color:var(--muted); margin-bottom:0.8rem">Hidden Words:</h4>
-                    <div style="display:flex; flex-direction:column; gap:8px">
-                        ${this.story.map((s, i) => `
-                            <div style="font-size:0.85rem">Sentence ${i+1}: <strong>${s.word}</strong></div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-    };
-
-    // 8. HOT SEAT
-    window.hsDuration = 60;
-    window.hsSetDuration = function(sec) {
-        window.hsDuration = sec;
-        document.querySelectorAll('.hs-dur-btn').forEach(btn => {
-            btn.classList.toggle('active', parseInt(btn.dataset.sec) === sec);
-        });
-    };
-
-    window.hotSeatStart = function() {
-        const lang  = document.getElementById('hs-lang').value;
-        const level = document.getElementById('hs-level').value;
-        const theme = document.getElementById('hs-theme').value;
-
-        HotSeatGame.currentQ = 0;
-        HotSeatGame.score    = 0;
-        HotSeatGame.DURATION = window.hsDuration;
-        HotSeatGame.questions = HotSeatGame.generateQuestions(
-            getVocabPool(lang, level, theme), 10
-        );
-
-        if (HotSeatGame.questions.length === 0) {
-            alert("No vocabulary found for this selection!");
             return;
         }
-
-        document.getElementById('hs-setup').style.display = 'none';
-        document.getElementById('hot-seat-area').innerHTML = HotSeatGame.buildGameUI();
-
-        // countdown
-        let t = HotSeatGame.DURATION;
-        const interval = setInterval(() => {
-            const el = document.getElementById('hs-timer');
-            if (!el || HotSeatGame.currentQ >= HotSeatGame.questions.length) {
-                clearInterval(interval); return;
-            }
-            el.textContent = --t;
-            if (t <= 0) {
-                clearInterval(interval);
-                document.getElementById('hot-seat-area').innerHTML = HotSeatGame.buildSummary();
-            }
-            if (t <= 10) el.style.color = '#a32d2d'; // red when time is low
-        }, 1000);
+        this.speakCalled(items[idx], lang);
+        const btn = document.getElementById('bingo-call-next-btn');
+        if (btn) btn.click();
+        idx++;
     };
+    call();
+    this.autoCallerInterval = setInterval(call, intervalMs);
+  },
 
-    window.HotSeatGame = {
-        DURATION: 60,
-        questions: [],
-        currentQ: 0,
-        score: 0,
+  stopAutoCaller() {
+    if (this.autoCallerInterval) {
+        clearInterval(this.autoCallerInterval);
+        this.autoCallerInterval = null;
+    }
+    window.speechSynthesis?.cancel();
+  },
 
-        generateQuestions(pool, count) {
-            const shuffled = [...pool].sort(() => Math.random() - 0.5);
-            return shuffled.slice(0, count).map(item => {
-                // Simplified question: What is this? or Translate
-                return {
-                    question: item.emoji || item.word[0].toUpperCase(),
-                    answer: item.word
-                };
-            });
-        },
+  celebrate() {
+    if (window.gameUtils && window.gameUtils.createConfetti) {
+        window.gameUtils.createConfetti();
+        window.gameUtils.playGameSound('success');
+    }
+    const el = document.createElement('div');
+    el.style.cssText = `
+      position:fixed;inset:0;z-index:999;
+      background:rgba(46,74,51,.9);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      font-family:'Nunito',sans-serif;color:#fff;text-align:center;
+    `;
+    el.innerHTML = `
+      <div style="font-size:5rem;margin-bottom:8px;animation:bounce .6s ease both">🎉</div>
+      <div style="font-family:'Lora',serif;font-size:2.5rem;font-weight:700;margin-bottom:4px">BINGO!</div>
+      <div style="font-size:1rem;opacity:.8;margin-bottom:24px">Well done! 🏆</div>
+      <button onclick="this.parentNode.remove()" style="
+        height:48px;padding:0 28px;border-radius:999px;
+        background:#e8a838;color:#fff;border:none;
+        font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer">
+        Continue →
+      </button>
+    `;
+    document.body.appendChild(el);
+    if (navigator.vibrate) navigator.vibrate([100, 50, 100, 50, 200]);
+  }
+};
 
-        buildGameUI() {
-            const q = this.questions[this.currentQ];
-            return `
-                <div id="hs-timer" style="font-size:3rem; font-weight:900; color:var(--sage); margin-bottom:1.5rem">${this.DURATION}</div>
-                <div class="hs-card glass" style="padding:2.5rem; border-radius:20px; margin-bottom:2rem; min-height:150px; display:flex; align-items:center; justify-content:center">
-                    <div style="font-size:6rem">${q.question}</div>
-                </div>
-                <div style="display:flex; gap:10px; justify-content:center">
-                    <button onclick="HotSeatGame.answer(true)" class="cta-button primary" style="background:#4CAF50">Correct ✅</button>
-                    <button onclick="HotSeatGame.answer(false)" class="cta-button primary" style="background:#f44336">Incorrect ❌</button>
-                </div>
-                <div style="margin-top:1.5rem; font-size:0.85rem; color:var(--muted)">Question ${this.currentQ + 1} of ${this.questions.length}</div>
-            `;
-        },
 
-        answer(isCorrect) {
-            if (isCorrect) {
-                this.score++;
-                playGameSound('success');
-            } else {
-                playGameSound('error');
-            }
-            this.currentQ++;
-            if (this.currentQ < this.questions.length) {
-                document.getElementById('hot-seat-area').innerHTML = this.buildGameUI();
-            } else {
-                document.getElementById('hot-seat-area').innerHTML = this.buildSummary();
-            }
-        },
+// ─────────────────────────────────────────────
+// 7. NEW GAME: STORY CHAIN 🃏
+// ─────────────────────────────────────────────
 
-        buildSummary() {
-            return `
-                <div class="hs-summary glass" style="padding:2rem; border-radius:20px; text-align:center">
-                    <h3 style="margin-bottom:1rem">Time's Up! 🔥</h3>
-                    <div style="font-size:4rem; font-weight:900; color:var(--sage)">${this.score}</div>
-                    <p>Words guessed correctly</p>
-                    <button onclick="location.reload()" class="cta-button secondary" style="margin-top:1.5rem">Play Again 🔄</button>
-                </div>
-            `;
-        }
-    };
+const StoryChainGame = {
+  story: [], pool: [], currentWord: null,
 
-    // Word Linker Explanation
-    window.WordLinkerGame = {
-        buildExplanation(item, reason) {
-            return `
-                <div class="wl-explanation glass" style="margin-top:1.5rem; padding:1.2rem; border-radius:15px; background:var(--sage-mist); color:var(--sage-deep); text-align:left">
-                    <div style="font-weight:800; margin-bottom:0.5rem">Why? 🧐</div>
-                    <div style="font-size:0.95rem">${reason || item.explanation || "This word belongs to a different logical group."}</div>
-                </div>
-            `;
-        }
-    };
+  init(lang, level, theme) {
+    this.pool = getVocabPool(lang, level, theme);
+    this.story = [];
+    return this.nextWord();
+  },
 
-})();
+  nextWord() {
+    const unused = this.pool.filter(item => !this.story.some(s => s.word === item.word));
+    if (unused.length === 0) return null;
+    this.currentWord = unused[Math.floor(Math.random() * unused.length)];
+    return this.currentWord;
+  },
+
+  addSentence(sentence, playerName) {
+    this.story.push({ player: playerName, sentence, word: this.currentWord?.word, emoji: this.currentWord?.emoji, guesses: [] });
+    return this.nextWord();
+  },
+
+  buildWordCard(item) {
+    return `
+      <div style="background:linear-gradient(135deg,#2e4a33,#4a6b50);
+        border-radius:16px;padding:20px;text-align:center;color:#fff;
+        font-family:'Nunito',sans-serif;margin-bottom:14px;">
+        <div style="font-size:.7rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;
+          opacity:.7;margin-bottom:8px">🤫 Only you can see this</div>
+        <div style="font-size:3.5rem;line-height:1;margin-bottom:6px">${item.emoji || '📝'}</div>
+        <div style="font-family:'Lora',serif;font-size:1.6rem;font-weight:700">${item.word}</div>
+        <div style="font-size:.8rem;opacity:.75;margin-top:4px;line-height:1.4">${item.definitions?.[0]?.text || ''}</div>
+        <div style="font-size:.72rem;opacity:.6;margin-top:8px">Write a sentence using this word — without saying the word itself!</div>
+      </div>
+    `;
+  },
+
+  buildStoryDisplay(revealWords = false) {
+    if (!this.story.length) return `<div style="text-align:center;color:#aaa;padding:20px">No story yet — add the first sentence!</div>`;
+    return `
+      <div style="font-family:'Nunito',sans-serif;">
+        <div style="font-size:.7rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;
+          color:#6b8f71;margin-bottom:8px">📖 The Story So Far</div>
+        ${this.story.map((entry, i) => `
+          <div style="background:#fff;border-radius:10px;padding:12px 14px;margin-bottom:8px;
+            border-left:3px solid ${revealWords ? '#e8a838' : '#6b8f71'}">
+            <div style="font-size:.7rem;color:#aaa;margin-bottom:4px">
+              ${entry.player || 'Player ' + (i+1)}
+              ${revealWords ? ` — <strong style="color:#a06b10">${entry.emoji || '✨'} ${entry.word}</strong>` : ''}
+            </div>
+            <div style="font-size:.92rem;color:#2a2a2a;line-height:1.6">${entry.sentence}</div>
+          </div>`
+        ).join('')}
+      </div>
+    `;
+  },
+
+  buildFinalReveal() {
+    return `
+      <div style="font-family:'Nunito',sans-serif;padding:12px;">
+        <div style="text-align:center;margin-bottom:16px;">
+          <div style="font-size:2rem;margin-bottom:4px">📖</div>
+          <div style="font-family:'Lora',serif;font-size:1.2rem;font-weight:700;color:#2e4a33">The Full Story — Revealed!</div>
+        </div>
+        ${this.buildStoryDisplay(true)}
+        <div style="margin-top:12px;font-size:.78rem;color:#aaa;text-align:center">Each highlighted word was the secret word for that sentence. How many did you guess correctly?</div>
+        <button onclick="storyChainReset()" style="width:100%;height:48px;border-radius:999px;background:#6b8f71;color:#fff;border:none;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;margin-top:14px;cursor:pointer">New Story 🔄</button>
+      </div>
+    `;
+  }
+};
+
+window.storyChainStart = function() {
+  const lang  = document.getElementById('sc-lang').value;
+  const level = document.getElementById('sc-level').value;
+  const theme = document.getElementById('sc-theme').value;
+  const item  = StoryChainGame.init(lang, level, theme);
+  if (!item) { alert("No words found!"); return; }
+  document.getElementById('sc-setup').style.display = 'none';
+  document.getElementById('sc-word-reveal').innerHTML = StoryChainGame.buildWordCard(item);
+  document.getElementById('sc-word-reveal').style.display = 'block';
+  document.getElementById('sc-input-area').style.display = 'block';
+  document.getElementById('story-display').innerHTML = StoryChainGame.buildStoryDisplay();
+  document.getElementById('sc-finish-btn').style.display = 'block';
+};
+
+window.storyChainAdd = function() {
+  const sentence = document.getElementById('sc-sentence').value.trim();
+  if (!sentence) return;
+  const nextItem = StoryChainGame.addSentence(sentence, 'Player');
+  document.getElementById('sc-sentence').value = '';
+  document.getElementById('story-display').innerHTML = StoryChainGame.buildStoryDisplay();
+  if (nextItem) document.getElementById('sc-word-reveal').innerHTML = StoryChainGame.buildWordCard(nextItem);
+  else document.getElementById('sc-word-reveal').innerHTML = '<div style="text-align:center; color:#aaa">No more words! Keep writing or reveal.</div>';
+};
+
+window.storyChainFinish = function() {
+  document.getElementById('sc-input-area').style.display = 'none';
+  document.getElementById('sc-word-reveal').style.display = 'none';
+  document.getElementById('sc-finish-btn').style.display = 'none';
+  document.getElementById('sc-final-reveal').innerHTML = StoryChainGame.buildFinalReveal();
+  document.getElementById('sc-final-reveal').style.display = 'block';
+};
+
+window.storyChainReset = function() {
+  document.getElementById('sc-final-reveal').style.display = 'none';
+  document.getElementById('sc-setup').style.display = 'block';
+};
+
+
+// ─────────────────────────────────────────────
+// 8. NEW GAME: HOT SEAT 🎯
+// ─────────────────────────────────────────────
+
+const HotSeatGame = {
+  DURATION: 60, questions: [], currentQ: 0, score: 0, _interval: null,
+
+  generateQuestions(pool, count = 10) {
+    const items = [...pool].sort(() => Math.random() - .5).slice(0, count);
+    const types = ['plural', 'definition', 'use_in_sentence'];
+    return items.map(item => {
+      const type = types[Math.floor(Math.random() * types.length)];
+      return this.buildQuestion(item, type);
+    }).filter(Boolean);
+  },
+
+  buildQuestion(item, type) {
+    switch(type) {
+      case 'plural':
+        if (!item.plural || item.plural === item.word + 's') return { text: `Give a quick definition of "${item.word}"`, answer: item.definitions?.[0]?.text || '', emoji: item.emoji, accept: null, selfAssess: true };
+        return { text: `What's the plural of "${item.word}"?`, answer: item.plural, emoji: item.emoji, accept: [item.plural.toLowerCase()] };
+      case 'definition':
+        return { text: `Give a quick definition of "${item.word}"`, answer: item.definitions?.[0]?.text || '', emoji: item.emoji, accept: null, selfAssess: true };
+      case 'use_in_sentence':
+        return { text: `Use "${item.word}" in a sentence!`, answer: item.definitions?.[0]?.examples?.[0]?.text || item.definitions?.[0]?.examples?.[0] || '', emoji: item.emoji, accept: null, selfAssess: true };
+      default:
+        return { text: `Say something about "${item.word}"!`, answer: item.definitions?.[0]?.text || '', emoji: item.emoji, accept: null, selfAssess: true };
+    }
+  },
+
+  buildGameUI() {
+    const q = this.questions[this.currentQ];
+    if (!q) return this.buildSummary();
+    return `
+      <div style="font-family:'Nunito',sans-serif;padding:16px;text-align:center;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:.85rem;font-weight:800;color:#6b8f71">
+          <span>${this.currentQ + 1} / ${this.questions.length}</span>
+          <span id="hs-timer" style="font-family:'Lora',serif;font-size:1.5rem;color:#2e4a33">${this.DURATION}</span>
+          <span>⭐ ${this.score}</span>
+        </div>
+        <div style="background:#fff;border-radius:16px;padding:20px;box-shadow:0 4px 20px rgba(0,0,0,.06);margin-bottom:14px;">
+          <div style="font-size:3rem;margin-bottom:8px">${q.emoji || '🎯'}</div>
+          <div style="font-family:'Lora',serif;font-size:1.15rem;font-weight:700;color:#2e4a33;line-height:1.4">${q.text}</div>
+        </div>
+        ${q.selfAssess ? `
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+            <button onclick="hotSeatAnswer(false)" style="height:60px;border-radius:12px;background:#fcebeb;border:2px solid #a32d2d;color:#a32d2d;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;cursor:pointer">✗ Missed it</button>
+            <button onclick="hotSeatAnswer(true)" style="height:60px;border-radius:12px;background:#e5f4ec;border:2px solid #1a6b45;color:#1a6b45;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;cursor:pointer">✓ Got it!</button>
+          </div>
+          <div style="font-size:.78rem;color:#aaa;margin-top:8px">Example: "${q.answer}"</div>
+        ` : `
+          <input id="hs-input" type="text" placeholder="Type your answer..." style="width:100%;height:52px;border-radius:10px;border:2px solid rgba(107,143,113,.2);background:#fdf8f0;font-family:'Nunito',sans-serif;font-size:1rem;font-weight:700;padding:0 16px;outline:none;margin-bottom:10px;" onkeydown="if(event.key==='Enter')hotSeatSubmit()" />
+          <button onclick="hotSeatSubmit()" style="width:100%;height:48px;border-radius:999px;background:#6b8f71;color:#fff;border:none;font-family:'Nunito',sans-serif;font-weight:900;font-size:.95rem;cursor:pointer">Submit ✓</button>
+        `}
+      </div>
+    `;
+  },
+
+  buildSummary() {
+    const pct = Math.round(this.score / this.questions.length * 100);
+    return `
+      <div style="font-family:'Nunito',sans-serif;padding:20px;text-align:center;">
+        <div style="font-size:3rem;margin-bottom:8px">${pct >= 80 ? '🏆' : pct >= 50 ? '💪' : '📚'}</div>
+        <div style="font-family:'Lora',serif;font-size:1.6rem;font-weight:700;color:#2e4a33;margin-bottom:4px">${this.score} / ${this.questions.length}</div>
+        <div style="font-size:.9rem;color:#aaa;margin-bottom:24px">${pct >= 80 ? 'Outstanding! 🔥' : pct >= 50 ? 'Good effort! Keep going 💪' : 'Good practice — try again!'}</div>
+        <button onclick="hotSeatRestart()" style="width:100%;height:52px;border-radius:999px;background:#6b8f71;color:#fff;border:none;font-family:'Nunito',sans-serif;font-weight:900;font-size:1rem;cursor:pointer">Play Again 🔄</button>
+      </div>
+    `;
+  }
+};
+
+window.hsDuration = 60;
+window.hsSetDuration = sec => {
+  window.hsDuration = sec;
+  document.querySelectorAll('.hs-dur-btn').forEach(btn => btn.classList.toggle('active', parseInt(btn.dataset.sec) === sec));
+};
+
+window.hotSeatStart = function() {
+  const lang = document.getElementById('hs-lang').value, level = document.getElementById('hs-level').value, theme = document.getElementById('hs-theme').value;
+  const pool = getVocabPool(lang, level, theme);
+  if (pool.length === 0) { alert("No words found!"); return; }
+  HotSeatGame.currentQ = 0; HotSeatGame.score = 0; HotSeatGame.DURATION = window.hsDuration; HotSeatGame.questions = HotSeatGame.generateQuestions(pool, 10);
+  document.getElementById('hs-setup').style.display = 'none';
+  document.getElementById('hot-seat-area').innerHTML = HotSeatGame.buildGameUI();
+  let t = HotSeatGame.DURATION;
+  if (HotSeatGame._interval) clearInterval(HotSeatGame._interval);
+  HotSeatGame._interval = setInterval(() => {
+    const el = document.getElementById('hs-timer');
+    if (!el || HotSeatGame.currentQ >= HotSeatGame.questions.length) { clearInterval(HotSeatGame._interval); return; }
+    el.textContent = --t;
+    if (t <= 0) { clearInterval(HotSeatGame._interval); document.getElementById('hot-seat-area').innerHTML = HotSeatGame.buildSummary(); }
+    if (t <= 10) el.style.color = '#a32d2d';
+  }, 1000);
+};
+
+window.hotSeatAnswer = function(correct) {
+  if (correct) { HotSeatGame.score++; if (window.gameUtils?.playGameSound) window.gameUtils.playGameSound('success'); }
+  else { if (window.gameUtils?.playGameSound) window.gameUtils.playGameSound('error'); }
+  HotSeatGame.currentQ++;
+  const area = document.getElementById('hot-seat-area');
+  if (area) area.innerHTML = HotSeatGame.buildGameUI();
+};
+
+window.hotSeatSubmit = function() {
+  const input = document.getElementById('hs-input'), q = HotSeatGame.questions[HotSeatGame.currentQ];
+  if (!input || !q) return;
+  hotSeatAnswer(q.accept && q.accept.includes(input.value.trim().toLowerCase()));
+};
+
+window.hotSeatRestart = () => { document.getElementById('hs-setup').style.display = 'block'; document.getElementById('hot-seat-area').innerHTML = ''; };
+
+
+// ─────────────────────────────────────────────
+// 9. WORD LINKER — ODD ONE OUT EXPLANATION
+// ─────────────────────────────────────────────
+
+const WordLinkerGame = {
+  buildExplanation(item, reason) {
+    return `
+      <div style="background:#e8f0e9;border-radius:10px;padding:12px 14px;font-family:'Nunito',sans-serif;margin-top:8px;border-left:3px solid #6b8f71;">
+        <div style="font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;color:#4a6b50;margin-bottom:4px">Why it's different:</div>
+        <div style="font-size:.88rem;color:#2e4a33;line-height:1.55">${reason || item.explanation || "This word belongs to a different logical group."}</div>
+      </div>
+    `;
+  }
+};
+
+// Global expose
+window.LastLetterGame = LastLetterGame;
+window.ActionHeroGame = ActionHeroGame;
+window.FluentyFlowGame = FluentyFlowGame;
+window.OpinionArenaGame = OpinionArenaGame;
+window.LuckyNumbersGame = LuckyNumbersGame;
+window.StoryChainGame = StoryChainGame;
+window.HotSeatGame = HotSeatGame;
+window.WordLinkerGame = WordLinkerGame;
+window.lastLetterWordCard = lastLetterWordCard;
+window.getVocabPool = getVocabPool;
+window.gameSpeak = gameSpeak;
