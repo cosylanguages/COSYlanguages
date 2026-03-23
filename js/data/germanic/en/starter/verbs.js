@@ -97,7 +97,16 @@
         "theme": "personal_identity",
         "emoji": "👤",
         "subtext": "be cold, be 20 years old",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To exist or live.",
+                "examples": [
+                    "I am a student.",
+                    "She is happy."
+                ]
+            }
+        ]
     },
     {
         "word": "have",
@@ -105,7 +114,16 @@
         "theme": "personal_identity",
         "emoji": "👜",
         "subtext": "have breakfast, have a car",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To own or possess something.",
+                "examples": [
+                    "I have a red car.",
+                    "We have two cats."
+                ]
+            }
+        ]
     },
     {
         "word": "go",
@@ -113,7 +131,16 @@
         "theme": "modes_of_transport_A0",
         "emoji": "🚶",
         "subtext": "go to school, go home",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move from one place to another.",
+                "examples": [
+                    "I go to school by bus.",
+                    "Let's go home."
+                ]
+            }
+        ]
     },
     {
         "word": "eat",
@@ -159,7 +186,16 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "subtext": "do homework, do sport",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To perform an action or activity.",
+                "examples": [
+                    "I do my homework in the afternoon.",
+                    "What are you doing?"
+                ]
+            }
+        ]
     },
     {
         "word": "speak",
@@ -167,7 +203,16 @@
         "theme": "language_communication",
         "emoji": "🗣️",
         "subtext": "speak English, speak slowly",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To use your voice to say words.",
+                "examples": [
+                    "I speak English and French.",
+                    "Please speak slowly."
+                ]
+            }
+        ]
     },
     {
         "word": "know",
@@ -175,7 +220,16 @@
         "theme": "education_learning",
         "emoji": "🧠",
         "subtext": "know the answer, know a person",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have information about something in your mind.",
+                "examples": [
+                    "I know the answer.",
+                    "Do you know that man?"
+                ]
+            }
+        ]
     },
     {
         "word": "think",
@@ -183,7 +237,16 @@
         "theme": "language_communication",
         "emoji": "💭",
         "subtext": "think about, think that",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To use your mind to have ideas or opinions.",
+                "examples": [
+                    "I think this is a good idea.",
+                    "What do you think about the movie?"
+                ]
+            }
+        ]
     },
     {
         "word": "see",
@@ -208,7 +271,16 @@
         "theme": "feelings_emotions",
         "emoji": "🙏",
         "subtext": "want water, want to go",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To feel that you would like to have or do something.",
+                "examples": [
+                    "I want a glass of water.",
+                    "I want to go home."
+                ]
+            }
+        ]
     },
     {
         "word": "like",
@@ -216,7 +288,16 @@
         "theme": "feelings_emotions",
         "emoji": "👍",
         "subtext": "like chocolate, like dancing",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To enjoy something or think it is nice.",
+                "examples": [
+                    "I like chocolate.",
+                    "Do you like dancing?"
+                ]
+            }
+        ]
     },
     {
         "word": "love",
@@ -224,7 +305,16 @@
         "theme": "feelings_emotions",
         "emoji": "❤️",
         "subtext": "love my family, love travel",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To like someone or something very much.",
+                "examples": [
+                    "I love my family.",
+                    "I love travel."
+                ]
+            }
+        ]
     },
     {
         "word": "write",
@@ -234,7 +324,16 @@
         "subtext": "write a letter, write a message",
         "opposite": "read",
         "oppositeEmoji": "📖",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make marks on paper or a screen with a pen or keyboard.",
+                "examples": [
+                    "I write in my journal every day.",
+                    "She writes books for children."
+                ]
+            }
+        ]
     },
     {
         "word": "come",
@@ -244,7 +343,16 @@
         "subtext": "come here, come home",
         "opposite": "go",
         "oppositeEmoji": "🚶",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move toward the speaker or the place where they are.",
+                "examples": [
+                    "Please come here.",
+                    "He is coming to the party."
+                ]
+            }
+        ]
     },
     {
         "word": "give",
@@ -254,7 +362,16 @@
         "subtext": "give a gift, give help",
         "opposite": "take",
         "oppositeEmoji": "👜",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To hand something to someone so that they can keep it.",
+                "examples": [
+                    "Can you give me that book?",
+                    "I give gifts to my family."
+                ]
+            }
+        ]
     },
     {
         "word": "take",
@@ -264,77 +381,176 @@
         "subtext": "take a bus, take a photo",
         "opposite": "give",
         "oppositeEmoji": "🎁",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get something into your hands or possession.",
+                "examples": [
+                    "I take the bus to work.",
+                    "She takes beautiful photos."
+                ]
+            }
+        ]
     },
     {
         "word": "find",
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "emoji": "🔍",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To see or get something after looking for it.",
+                "examples": [
+                    "I can't find my keys.",
+                    "Did you find your way?"
+                ]
+            }
+        ]
     },
     {
         "word": "tell",
         "level": "starter",
         "theme": "language_communication",
         "emoji": "🗣️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say something to someone, giving them information.",
+                "examples": [
+                    "Tell me a story.",
+                    "He told her the truth."
+                ]
+            }
+        ]
     },
     {
         "word": "ask",
         "level": "starter",
         "theme": "language_communication",
         "emoji": "❓",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say something to someone because you want to know something.",
+                "examples": [
+                    "I need to ask a question.",
+                    "She asked me for help."
+                ]
+            }
+        ]
     },
     {
         "word": "feel",
         "level": "starter",
         "theme": "feelings_emotions",
         "emoji": "🌡️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To experience an emotion or physical sensation.",
+                "examples": [
+                    "I feel happy today.",
+                    "Do you feel cold?"
+                ]
+            }
+        ]
     },
     {
         "word": "try",
         "level": "starter",
         "theme": "education_learning",
         "emoji": "🎯",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To attempt to do something.",
+                "examples": [
+                    "I try to exercise every day.",
+                    "Try one of these cookies."
+                ]
+            }
+        ]
     },
     {
         "word": "leave",
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "emoji": "🚪",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go away from a place.",
+                "examples": [
+                    "I leave for work at 8am.",
+                    "Don't leave your bag here."
+                ]
+            }
+        ]
     },
     {
         "word": "call",
         "level": "starter",
         "theme": "language_communication",
         "emoji": "📞",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To phone someone or to shout their name.",
+                "examples": [
+                    "Call me later.",
+                    "He called my name."
+                ]
+            }
+        ]
     },
     {
         "word": "look",
         "level": "starter",
         "theme": "health_body",
         "emoji": "👀",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To direct your eyes toward something.",
+                "examples": [
+                    "Look at this photo.",
+                    "He is looking for his keys."
+                ]
+            }
+        ]
     },
     {
         "word": "use",
         "level": "starter",
         "theme": "technology_media",
         "emoji": "🛠️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do something with an object to complete a task.",
+                "examples": [
+                    "I use a computer for work.",
+                    "Can I use your pen?"
+                ]
+            }
+        ]
     },
     {
         "word": "get",
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "emoji": "📥",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To receive, buy, or obtain something.",
+                "examples": [
+                    "I get a lot of emails.",
+                    "Can you get some milk?"
+                ]
+            }
+        ]
     },
     {
         "word": "start",
@@ -343,14 +559,32 @@
         "emoji": "▶️",
         "opposite": "finish",
         "oppositeEmoji": "🏁",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To begin doing something.",
+                "examples": [
+                    "The movie starts at 7pm.",
+                    "Let's start the meeting."
+                ]
+            }
+        ]
     },
     {
         "word": "help",
         "level": "starter",
         "theme": "society_politics",
         "emoji": "🤝",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do something for someone to make a task easier.",
+                "examples": [
+                    "Can you help me?",
+                    "I help my mother with the shopping."
+                ]
+            }
+        ]
     },
     {
         "word": "talk",
@@ -373,14 +607,32 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do something for fun or in a game.",
+                "examples": [
+                    "I play football with my friends.",
+                    "She likes to play video games."
+                ]
+            }
+        ]
     },
     {
         "word": "run",
         "level": "starter",
         "theme": "common_sports_A0",
         "emoji": "🏃",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move very fast on your legs.",
+                "examples": [
+                    "I run in the park.",
+                    "He runs to catch the bus."
+                ]
+            }
+        ]
     },
     {
         "word": "live",
@@ -389,14 +641,32 @@
         "emoji": "🏠",
         "opposite": "die",
         "oppositeEmoji": "⚰️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have your home in a particular place.",
+                "examples": [
+                    "I live in London.",
+                    "She lives with her family."
+                ]
+            }
+        ]
     },
     {
         "word": "bring",
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "emoji": "🎁",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take someone or something to a place with you.",
+                "examples": [
+                    "Please bring me a glass of water.",
+                    "He brings his lunch to work."
+                ]
+            }
+        ]
     },
     {
         "word": "sit",
@@ -405,7 +675,16 @@
         "emoji": "🪑",
         "opposite": "stand",
         "oppositeEmoji": "🧍",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To rest your weight on your bottom rather than your feet.",
+                "examples": [
+                    "Please sit down.",
+                    "I sit on a chair."
+                ]
+            }
+        ]
     },
     {
         "word": "stand",
@@ -414,7 +693,16 @@
         "emoji": "🧍",
         "opposite": "sit",
         "oppositeEmoji": "🪑",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be on your feet in an upright position.",
+                "examples": [
+                    "Please stand up.",
+                    "She is standing near the door."
+                ]
+            }
+        ]
     },
     {
         "word": "lose",
@@ -423,63 +711,143 @@
         "emoji": "📉",
         "opposite": "win",
         "oppositeEmoji": "🏆",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To fail to win or to not be able to find something.",
+                "examples": [
+                    "I don't want to lose the game.",
+                    "I often lose my keys."
+                ]
+            }
+        ]
     },
     {
         "word": "pay",
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "emoji": "💰",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give money for something.",
+                "examples": [
+                    "I pay for my coffee.",
+                    "How do you want to pay?"
+                ]
+            }
+        ]
     },
     {
         "word": "meet",
         "level": "starter",
         "theme": "society_politics",
         "emoji": "🤝",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To see and talk to someone for the first time.",
+                "examples": [
+                    "Nice to meet you.",
+                    "We meet every Friday."
+                ]
+            }
+        ]
     },
     {
         "word": "learn",
         "level": "starter",
         "theme": "education_learning",
         "emoji": "📚",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get knowledge or a skill.",
+                "examples": [
+                    "I want to learn English.",
+                    "Children learn fast."
+                ]
+            }
+        ]
     },
     {
         "word": "change",
         "level": "starter",
         "theme": "time",
         "emoji": "🔄",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something different.",
+                "examples": [
+                    "I want to change my clothes.",
+                    "The weather changes quickly."
+                ]
+            }
+        ]
     },
     {
         "word": "understand",
         "level": "starter",
         "theme": "language_communication",
         "emoji": "💡",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To know the meaning of something.",
+                "examples": [
+                    "I don't understand this word.",
+                    "Do you understand English?"
+                ]
+            }
+        ]
     },
     {
         "word": "stop",
         "level": "starter",
         "theme": "time",
         "emoji": "🛑",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To finish doing something or to not move anymore.",
+                "examples": [
+                    "Stop the car.",
+                    "Please stop talking."
+                ]
+            }
+        ]
     },
     {
         "word": "add",
         "level": "starter",
         "theme": "numbers_math",
         "emoji": "➕",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put things together to make a larger group.",
+                "examples": [
+                    "Add some sugar to the tea.",
+                    "What is five plus five?"
+                ]
+            }
+        ]
     },
     {
         "word": "spend",
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "emoji": "💸",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To use money to pay for things.",
+                "examples": [
+                    "I spend a lot of money on food."
+                ]
+            }
+        ]
     },
     {
         "word": "open",
@@ -488,7 +856,16 @@
         "emoji": "📖",
         "opposite": "close",
         "oppositeEmoji": "🔒",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move something so that an opening is not covered.",
+                "examples": [
+                    "Open the door.",
+                    "Can you open the window?"
+                ]
+            }
+        ]
     },
     {
         "word": "walk",
@@ -513,14 +890,31 @@
         "emoji": "🏆",
         "opposite": "lose",
         "oppositeEmoji": "📉",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be the best in a game or competition.",
+                "examples": [
+                    "We want to win the game."
+                ]
+            }
+        ]
     },
     {
         "word": "remember",
         "level": "starter",
         "theme": "education_learning",
         "emoji": "🧠",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To keep information in your mind.",
+                "examples": [
+                    "I remember your name.",
+                    "Do you remember me?"
+                ]
+            }
+        ]
     },
     {
         "word": "buy",
@@ -529,14 +923,32 @@
         "emoji": "🛒",
         "opposite": "sell",
         "oppositeEmoji": "🏷️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get something by paying money for it.",
+                "examples": [
+                    "I want to buy a new phone.",
+                    "Where can I buy milk?"
+                ]
+            }
+        ]
     },
     {
         "word": "wait",
         "level": "starter",
         "theme": "time",
         "emoji": "⏳",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stay in a place until something happens.",
+                "examples": [
+                    "Wait for the bus here.",
+                    "I am waiting for my friend."
+                ]
+            }
+        ]
     },
     {
         "word": "die",
@@ -545,42 +957,95 @@
         "emoji": "⚰️",
         "opposite": "live",
         "oppositeEmoji": "🏠",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stop living.",
+                "examples": [
+                    "Plants die without water."
+                ]
+            }
+        ]
     },
     {
         "word": "send",
         "level": "starter",
         "theme": "language_communication",
         "emoji": "✉️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To cause something to go to a place.",
+                "examples": [
+                    "I send an email every morning.",
+                    "Can you send me a photo?"
+                ]
+            }
+        ]
     },
     {
         "word": "stay",
         "level": "starter",
         "theme": "places_geography",
         "emoji": "🏨",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To continue to be in a place.",
+                "examples": [
+                    "I stay at home on Sundays.",
+                    "We are staying in a hotel."
+                ]
+            }
+        ]
     },
     {
         "word": "fall",
         "level": "starter",
         "theme": "environment_nature",
         "emoji": "🍂",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move down toward the ground.",
+                "examples": [
+                    "Leaves fall in autumn.",
+                    "Be careful, don't fall."
+                ]
+            }
+        ]
     },
     {
         "word": "cut",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "✂️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To use a knife or scissors to divide something.",
+                "examples": [
+                    "I cut the bread.",
+                    "Can you cut the paper?"
+                ]
+            }
+        ]
     },
     {
         "word": "pass",
         "level": "starter",
         "theme": "education_learning",
         "emoji": "🏔️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go past something or to succeed in an exam.",
+                "examples": [
+                    "I pass the park on my way home.",
+                    "I hope I pass the test."
+                ]
+            }
+        ]
     },
     {
         "word": "sell",
@@ -589,7 +1054,15 @@
         "emoji": "🏷️",
         "opposite": "buy",
         "oppositeEmoji": "🛒",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give something to someone for money.",
+                "examples": [
+                    "They sell fruit at the market."
+                ]
+            }
+        ]
     },
     {
         "word": "pull",
@@ -598,7 +1071,15 @@
         "emoji": "🚜",
         "opposite": "push",
         "oppositeEmoji": "🛒",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move something toward you.",
+                "examples": [
+                    "Pull the door to open it."
+                ]
+            }
+        ]
     },
     {
         "word": "push",
@@ -607,56 +1088,128 @@
         "emoji": "🛒",
         "opposite": "pull",
         "oppositeEmoji": "🚜",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move something away from you.",
+                "examples": [
+                    "Push the button.",
+                    "I push the shopping cart."
+                ]
+            }
+        ]
     },
     {
         "word": "hope",
         "level": "starter",
         "theme": "feelings_emotions",
         "emoji": "🤞",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To want something to happen.",
+                "examples": [
+                    "I hope you feel better.",
+                    "We hope to see you soon."
+                ]
+            }
+        ]
     },
     {
         "word": "carry",
         "level": "starter",
         "theme": "health_body",
         "emoji": "🎒",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To hold something and move it from one place to another.",
+                "examples": [
+                    "I carry my bag to school.",
+                    "Can you help me carry this box?"
+                ]
+            }
+        ]
     },
     {
         "word": "break",
         "level": "starter",
         "theme": "describing_things",
         "emoji": "💔",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To separate something into two or more pieces.",
+                "examples": [
+                    "Don't break the glass.",
+                    "He broke his leg."
+                ]
+            }
+        ]
     },
     {
         "word": "receive",
         "level": "starter",
         "theme": "language_communication",
         "emoji": "📩",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get something that someone gave or sent to you.",
+                "examples": [
+                    "I receive a lot of mail.",
+                    "She received a gift."
+                ]
+            }
+        ]
     },
     {
         "word": "agree",
         "level": "starter",
         "theme": "opinion_debate",
         "emoji": "👍",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have the same opinion as someone.",
+                "examples": [
+                    "I agree with you.",
+                    "We agree on the plan."
+                ]
+            }
+        ]
     },
     {
         "word": "draw",
         "level": "starter",
         "theme": "culture_arts",
         "emoji": "🎨",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a picture with a pen or pencil.",
+                "examples": [
+                    "I like to draw birds.",
+                    "Can you draw a map?"
+                ]
+            }
+        ]
     },
     {
         "word": "share",
         "level": "starter",
         "theme": "society_politics",
         "emoji": "🍕",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give a part of something to others.",
+                "examples": [
+                    "Let's share the pizza.",
+                    "I share a room with my brother."
+                ]
+            }
+        ]
     },
     {
         "word": "smile",
@@ -665,7 +1218,16 @@
         "emoji": "😊",
         "opposite": "cry",
         "oppositeEmoji": "😢",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a happy expression with your mouth.",
+                "examples": [
+                    "She has a beautiful smile.",
+                    "Smile for the camera."
+                ]
+            }
+        ]
     },
     {
         "word": "cry",
@@ -674,91 +1236,207 @@
         "emoji": "😢",
         "opposite": "smile",
         "oppositeEmoji": "😊",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To produce tears because you are sad or in pain.",
+                "examples": [
+                    "The baby is crying.",
+                    "Don't cry."
+                ]
+            }
+        ]
     },
     {
         "word": "dance",
         "level": "starter",
         "theme": "culture_arts",
         "emoji": "💃",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move your body to music.",
+                "examples": [
+                    "I love to dance.",
+                    "They are dancing."
+                ]
+            }
+        ]
     },
     {
         "word": "sing",
         "level": "starter",
         "theme": "culture_arts",
         "emoji": "🎤",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make musical sounds with your voice.",
+                "examples": [
+                    "I like to sing in the shower.",
+                    "She sings very well."
+                ]
+            }
+        ]
     },
     {
         "word": "jump",
         "level": "starter",
         "theme": "health_body",
         "emoji": "🦘",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To push yourself off the ground with your legs.",
+                "examples": [
+                    "Can you jump high?",
+                    "The cat jumped onto the table."
+                ]
+            }
+        ]
     },
     {
         "word": "fly",
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "emoji": "✈️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move through the air.",
+                "examples": [
+                    "Birds can fly.",
+                    "I fly to Paris tomorrow."
+                ]
+            }
+        ]
     },
     {
         "word": "swim",
         "level": "starter",
         "theme": "common_sports_A0",
         "emoji": "🏊",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move through water using your arms and legs.",
+                "examples": [
+                    "I swim every morning.",
+                    "Can you swim?"
+                ]
+            }
+        ]
     },
     {
         "word": "wash",
         "level": "starter",
         "theme": "home_living",
         "emoji": "🧼",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something clean using water and soap.",
+                "examples": [
+                    "I wash my hands.",
+                    "Can you wash the car?"
+                ]
+            }
+        ]
     },
     {
         "word": "clean",
         "level": "starter",
         "theme": "home_living",
         "emoji": "🧹",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To remove dirt from something.",
+                "examples": [
+                    "I clean my room every week."
+                ]
+            }
+        ]
     },
     {
         "word": "cook",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "🍳",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To prepare food by heating it.",
+                "examples": [
+                    "I cook dinner for my family.",
+                    "She likes to cook."
+                ]
+            }
+        ]
     },
     {
         "word": "travel",
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "emoji": "✈️",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go from one place to another.",
+                "examples": [
+                    "I love to travel.",
+                    "We travel by train."
+                ]
+            }
+        ]
     },
     {
         "word": "study",
         "level": "starter",
         "theme": "education_learning",
         "emoji": "📖",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To spend time learning about a subject.",
+                "examples": [
+                    "I study English at school.",
+                    "He is studying for his exams."
+                ]
+            }
+        ]
     },
     {
         "word": "teach",
         "level": "starter",
         "theme": "education_learning",
         "emoji": "👨‍🏫",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give knowledge to others.",
+                "examples": [
+                    "I teach English.",
+                    "She teaches at a university."
+                ]
+            }
+        ]
     },
     {
         "word": "listen",
         "level": "starter",
         "theme": "language_communication",
         "emoji": "🎧",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To pay attention to a sound.",
+                "examples": [
+                    "I like to listen to music.",
+                    "Listen to me!"
+                ]
+            }
+        ]
     },
     {
         "word": "close",

@@ -349,7 +349,15 @@
         "theme": "items_of_clothing_A0",
         "emoji": "👕",
         "form": "noun",
-        "plural": "t-shirts"
+        "plural": "t-shirts",
+        "definitions": [
+            {
+                "text": "A casual shirt with short sleeves and no collar.",
+                "examples": [
+                    "I am wearing a white t-shirt."
+                ]
+            }
+        ]
     },
     {
         "word": "pants",
@@ -357,7 +365,16 @@
         "theme": "items_of_clothing_A0",
         "emoji": "👖",
         "form": "noun",
-        "plural": "pants"
+        "plural": "pants",
+        "subtext": "trousers",
+        "definitions": [
+            {
+                "text": "An outer garment covering each leg separately from waist to ankle.",
+                "examples": [
+                    "I need new pants."
+                ]
+            }
+        ]
     },
     {
         "word": "shoe",
@@ -365,7 +382,15 @@
         "theme": "items_of_clothing_A0",
         "emoji": "👟",
         "form": "noun",
-        "plural": "shoes"
+        "plural": "shoes",
+        "definitions": [
+            {
+                "text": "Something you wear on your feet.",
+                "examples": [
+                    "Put on your shoes."
+                ]
+            }
+        ]
     },
     {
         "word": "hat",
@@ -373,7 +398,15 @@
         "theme": "items_of_clothing_A0",
         "emoji": "👒",
         "form": "noun",
-        "plural": "hats"
+        "plural": "hats",
+        "definitions": [
+            {
+                "text": "Something you wear on your head.",
+                "examples": [
+                    "She is wearing a beautiful hat."
+                ]
+            }
+        ]
     },
     {
         "word": "chair",
@@ -466,7 +499,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "old",
-        "oppositeEmoji": "👴"
+        "oppositeEmoji": "👴",
+        "definitions": [
+            {
+                "text": "Having lived or existed for only a short time.",
+                "examples": [
+                    "He is a young man."
+                ]
+            }
+        ]
     },
     {
         "word": "old",
@@ -474,7 +515,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "young",
-        "oppositeEmoji": "👶"
+        "oppositeEmoji": "👶",
+        "definitions": [
+            {
+                "text": "Having lived or existed for a long time.",
+                "examples": [
+                    "This is an old book."
+                ]
+            }
+        ]
     },
     {
         "word": "key",
@@ -506,7 +555,16 @@
         "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
-        "plural": "phones"
+        "plural": "phones",
+        "subtext": "telephone",
+        "definitions": [
+            {
+                "text": "A device used to talk to people far away.",
+                "examples": [
+                    "I am talking on the phone."
+                ]
+            }
+        ]
     },
     {
         "word": "book",
@@ -705,7 +763,15 @@
         "theme": "body_parts_A0",
         "emoji": "🦵",
         "form": "noun",
-        "plural": "legs"
+        "plural": "legs",
+        "definitions": [
+            {
+                "text": "The long part of the body that you use for walking.",
+                "examples": [
+                    "I have two legs."
+                ]
+            }
+        ]
     },
     {
         "word": "eye",
@@ -730,7 +796,15 @@
         "theme": "body_parts_A0",
         "emoji": "👃",
         "form": "noun",
-        "plural": "noses"
+        "plural": "noses",
+        "definitions": [
+            {
+                "text": "The part of the face that you use for smelling.",
+                "examples": [
+                    "He has a small nose."
+                ]
+            }
+        ]
     },
     {
         "word": "mouth",
@@ -738,7 +812,15 @@
         "theme": "body_parts_A0",
         "emoji": "👄",
         "form": "noun",
-        "plural": "mouths"
+        "plural": "mouths",
+        "definitions": [
+            {
+                "text": "The part of the face that you use for eating and speaking.",
+                "examples": [
+                    "Open your mouth."
+                ]
+            }
+        ]
     },
     {
         "word": "ear",
@@ -746,21 +828,31 @@
         "theme": "body_parts_A0",
         "emoji": "👂",
         "form": "noun",
-        "plural": "ears"
-    },
-    {
-        "word": "foot",
-        "level": "starter",
-        "theme": "body_parts_A0",
-        "emoji": "🦶",
-        "form": "noun",
-        "plural": "feet"
+        "plural": "ears",
+        "definitions": [
+            {
+                "text": "The part of the body that you use for hearing.",
+                "examples": [
+                    "I have two ears."
+                ]
+            }
+        ]
     },
     {
         "word": "ordinary",
         "level": "starter",
         "theme": "size_shape_A0",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "special",
+        "oppositeEmoji": "✨",
+        "definitions": [
+            {
+                "text": "Normal or usual; not special.",
+                "examples": [
+                    "It was an ordinary day."
+                ]
+            }
+        ]
     },
     {
         "word": "smartphone",
@@ -768,7 +860,15 @@
         "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
-        "plural": "smartphones"
+        "plural": "smartphones",
+        "definitions": [
+            {
+                "text": "A mobile phone that can also connect to the internet.",
+                "examples": [
+                    "I use my smartphone every day."
+                ]
+            }
+        ]
     },
     {
         "word": "mother",
@@ -1930,6 +2030,21 @@
                 "text": "Having great value or effect.",
                 "examples": [
                     "Sleep is very important."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "travel",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "✈️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The activity of going to different places.",
+                "examples": [
+                    "Air travel is fast."
                 ]
             }
         ]

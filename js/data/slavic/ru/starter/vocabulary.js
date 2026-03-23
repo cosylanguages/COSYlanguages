@@ -422,7 +422,17 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "обеспокоенный",
+        "oppositeEmoji": "😟",
+        "definitions": [
+            {
+                "text": "Чувство потребности в отдыхе или сне.",
+                "examples": [
+                    "Я очень устал после работы."
+                ]
+            }
+        ]
     },
     {
         "word": "кот",
@@ -707,7 +717,559 @@
         "level": "starter",
         "theme": "times_day_A0",
         "emoji": "🔁",
-        "form": "adverb"
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Ежедневно, без исключений.",
+                "examples": [
+                    "Я пью кофе каждый день."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "полный рабочий день",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Работа в течение полного количества часов в рабочую неделю.",
+                "examples": [
+                    "У неё работа на полный рабочий день в банке."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "неполный рабочий день",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Работа меньшее количество часов, чем стандартная рабочая неделя.",
+                "examples": [
+                    "Он работает неполный рабочий день по субботам."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "босс",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "gender": "он",
+        "emoji": "👨‍💼",
+        "form": "noun",
+        "plural": "боссы",
+        "subtext": "начальник",
+        "definitions": [
+            {
+                "text": "Человек, который руководит на работе.",
+                "examples": [
+                    "Мой босс очень дружелюбный."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "коллега",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "gender": "он",
+        "emoji": "🧑‍💼",
+        "form": "noun",
+        "plural": "коллеги",
+        "definitions": [
+            {
+                "text": "Человек, с которым вы работаете.",
+                "examples": [
+                    "Мои коллеги всегда помогают."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "зарплата",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "gender": "она",
+        "emoji": "💰",
+        "form": "noun",
+        "plural": "зарплаты",
+        "subtext": "заработная плата",
+        "definitions": [
+            {
+                "text": "Деньги, которые человек получает за свою работу каждый месяц.",
+                "examples": [
+                    "У неё хорошая зарплата."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "собрание",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "gender": "оно",
+        "emoji": "🤝",
+        "form": "noun",
+        "plural": "собрания",
+        "subtext": "встреча, совещание",
+        "definitions": [
+            {
+                "text": "Время, когда люди собираются вместе, чтобы что-то обсудить.",
+                "examples": [
+                    "У нас собрание каждый понедельник."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "поездка на работу",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "gender": "она",
+        "emoji": "🚆",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Путь на работу и обратно каждый день.",
+                "examples": [
+                    "Моя поездка на работу занимает один час."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "стресс",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "gender": "он",
+        "emoji": "😫",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Чувство беспокойства, вызванное трудной ситуацией.",
+                "examples": [
+                    "У меня много стресса на работе."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "аренда",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "gender": "она",
+        "emoji": "🏠",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Деньги, выплачиваемые за пользование домом или квартирой, которые принадлежат кому-то другому.",
+                "examples": [
+                    "Аренда в этом городе дорогая."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "сосед",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "gender": "он",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "соседи",
+        "definitions": [
+            {
+                "text": "Человек, который живет рядом с вами.",
+                "examples": [
+                    "Мои соседи очень приятные люди."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "комната",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "gender": "она",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "комнаты",
+        "definitions": [
+            {
+                "text": "Отдельная часть здания со стенами и дверью.",
+                "examples": [
+                    "В квартире три комнаты."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "кухня",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "gender": "она",
+        "emoji": "🍳",
+        "form": "noun",
+        "plural": "кухни",
+        "definitions": [
+            {
+                "text": "Комната в доме, где готовят еду.",
+                "examples": [
+                    "Я готовлю на кухне."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "чистый",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "✨",
+        "form": "adjective",
+        "opposite": "грязный",
+        "oppositeEmoji": "💩",
+        "definitions": [
+            {
+                "text": "Свободный от грязи.",
+                "examples": [
+                    "Моя комната чистая."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "здоровый",
+        "level": "starter",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "🍎",
+        "form": "adjective",
+        "opposite": "больной",
+        "definitions": [
+            {
+                "text": "Полезный для тела; не больной.",
+                "examples": [
+                    "Овощи — это здоровая еда."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "больной",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤒",
+        "form": "adjective",
+        "opposite": "здоровый",
+        "definitions": [
+            {
+                "text": "Чувствующий себя плохо; страдающий от болезни.",
+                "examples": [
+                    "Я чувствую себя больным сегодня."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "сон",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "gender": "он",
+        "emoji": "😴",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Естественный отдых, в котором ваше тело нуждается каждую ночь.",
+                "examples": [
+                    "Мне нужен восьмичасовой сон."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "упражнение",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "gender": "оно",
+        "emoji": "🏋️",
+        "form": "noun",
+        "plural": "упражнения",
+        "definitions": [
+            {
+                "text": "Физическая активность, которая поддерживает вас в форме и здоровье.",
+                "examples": [
+                    "Я делаю упражнения три раза в неделю."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "цена",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "gender": "она",
+        "emoji": "🏷️",
+        "form": "noun",
+        "plural": "цены",
+        "definitions": [
+            {
+                "text": "Количество денег, которое вы платите за что-то.",
+                "examples": [
+                    "Цена на еду высокая."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "стоимость",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "gender": "она",
+        "emoji": "💰",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Количество денег, необходимое для покупки чего-либо.",
+                "examples": [
+                    "Стоимость квартиры очень высокая."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "онлайн",
+        "level": "starter",
+        "theme": "using_a_smartphone_A1",
+        "emoji": "🌐",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "С использованием интернета.",
+                "examples": [
+                    "Я иногда покупаю еду онлайн."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "отношения",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "gender": "они",
+        "emoji": "❤️",
+        "form": "noun",
+        "subtext": "связь",
+        "definitions": [
+            {
+                "text": "Связь между двумя людьми.",
+                "examples": [
+                    "У них хорошие отношения."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "один",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "🧍",
+        "form": "adjective",
+        "opposite": "вместе",
+        "oppositeEmoji": "👫",
+        "definitions": [
+            {
+                "text": "Без других людей; сам по себе.",
+                "examples": [
+                    "Она живет одна."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "вместе",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "👫",
+        "form": "adverb",
+        "opposite": "один",
+        "oppositeEmoji": "🧍",
+        "definitions": [
+            {
+                "text": "С другим человеком или группой.",
+                "examples": [
+                    "Мы ужинаем вместе."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "отпуск",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "gender": "он",
+        "emoji": "🏖️",
+        "form": "noun",
+        "plural": "отпуска",
+        "subtext": "каникулы",
+        "definitions": [
+            {
+                "text": "Период времени вдали от работы, когда вы путешествуете или отдыхаете.",
+                "examples": [
+                    "У нас отпуск в июле."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "путешествие",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "gender": "оно",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "путешествия",
+        "definitions": [
+            {
+                "text": "Поездка из одного места в другое.",
+                "examples": [
+                    "Я люблю путешествия."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "отель",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "gender": "он",
+        "emoji": "🏨",
+        "form": "noun",
+        "plural": "отели",
+        "subtext": "гостиница",
+        "definitions": [
+            {
+                "text": "Здание, где люди платят за ночлег.",
+                "examples": [
+                    "Отель находится рядом с вокзалом."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "выходные",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "gender": "они",
+        "emoji": "🗓️",
+        "form": "noun",
+        "subtext": "уикенд",
+        "definitions": [
+            {
+                "text": "Суббота и воскресенье.",
+                "examples": [
+                    "Я отдыхаю в выходные."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "свободное время",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "gender": "оно",
+        "emoji": "🎮",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Время, когда вы не работаете и можете делать то, что хотите.",
+                "examples": [
+                    "Я читаю книги в свободное время."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "расслабленный",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "😌",
+        "form": "adjective",
+        "opposite": "напряженный",
+        "definitions": [
+            {
+                "text": "Спокойный; не встревоженный и не напряженный.",
+                "examples": [
+                    "Я чувствую себя расслабленным в выходные."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "обеспокоенный",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "😟",
+        "form": "adjective",
+        "opposite": "спокойный",
+        "definitions": [
+            {
+                "text": "Чувство тревоги из-за того, что может случиться.",
+                "examples": [
+                    "Она обеспокоена своей работой."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "занятой",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏃",
+        "form": "adjective",
+        "opposite": "свободный",
+        "definitions": [
+            {
+                "text": "Имеющий много дел.",
+                "examples": [
+                    "Я очень занят на этой неделе."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "полезный",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "🛠️",
+        "form": "adjective",
+        "opposite": "бесполезный",
+        "definitions": [
+            {
+                "text": "Помогающий; имеющий практическую цель.",
+                "examples": [
+                    "Машина очень полезна в деревне."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "важный",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "💎",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Имеющий большое значение или влияние.",
+                "examples": [
+                    "Сон очень важен."
+                ]
+            }
+        ]
     }
 ];
     const lang = "ru";
