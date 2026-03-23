@@ -103,17 +103,17 @@ if ('serviceWorker' in navigator) {
 <!-- Daily dose -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">💊 Твой русский на каждый день</span>
-    <h2>Слово дня и интересный факт</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Твой русский на каждый день</span>
+    <h2 data-translate-key="daily_dose_title">Слово дня и интересный факт</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="📖">
-      <h3>Слово дня 📖</h3>
-      <div class="daily-content" id="word-of-the-day">Загрузка...</div>
+      <h3 data-translate-key="word_of_the_day">Слово дня 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Загрузка...</div>
     </div>
     <div class="daily-card reveal" data-bg="🤣">
-      <h3>Факт дня 🤣</h3>
-      <div class="daily-content" id="fun-fact-of-the-day">Загрузка...</div>
+      <h3 data-translate-key="fun_fact_title">Факт дня 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Загрузка...</div>
     </div>
   </div>
 </section>
@@ -121,9 +121,9 @@ if ('serviceWorker' in navigator) {
 <!-- Learning resources -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">📚 Учебные ресурсы</span>
-    <h2>Полезные инструменты</h2>
-    <p>Словари, грамматика и произношение — всё бесплатно.</p>
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Учебные ресурсы</span>
+    <h2 data-translate-key="learning_resources">Полезные инструменты</h2>
+    <p data-translate-key="learning_resources_desc">Словари, грамматика и произношение — всё бесплатно.</p>
   </div>
   <div class="resources-grid">
         <a href="http://www.gramota.ru/slovari/dic/" target="_blank" class="resource-card reveal">
@@ -156,9 +156,9 @@ if ('serviceWorker' in navigator) {
 <!-- Media & Culture -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">🎭 Погружение</span>
-    <h2>Медиа и культура на русском</h2>
-    <p>Слушайте живое радио и смотрите ТВ из разных городов России.</p>
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Погружение</span>
+    <h2 data-translate-key="media_culture">Медиа и культура на русском</h2>
+    <p data-translate-key="media_culture_desc">Слушайте живое радио и смотрите ТВ из разных городов России.</p>
   </div>
   <div class="media-grid">
     <div class="media-card reveal">
@@ -184,12 +184,12 @@ if ('serviceWorker' in navigator) {
 <!-- Daily life / shopping -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">🛒 Повседневная жизнь</span>
-    <h2>Жизнь в России</h2>
-    <p>Изучайте реальные магазины и сервисы — лучший способ учить бытовую лексику.</p>
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Повседневная жизнь</span>
+    <h2 data-translate-key="daily_life_title">Жизнь в России</h2>
+    <p data-translate-key="daily_life_desc">Изучайте реальные магазины и сервисы — лучший способ учить бытовую лексику.</p>
   </div>
     <div class="country-tabs">
-    <button class="ctab" data-country="ru" onclick="showCountry('ru')">🇷🇺 Россия</button>
+    <button class="ctab" data-country="ru" onclick="showCountry('ru')" data-translate-key="russia">🇷🇺 Россия</button>
   </div>
   <div class="country-panel" id="country-ru">
     <div class="country-name">🇷🇺 Россия</div>

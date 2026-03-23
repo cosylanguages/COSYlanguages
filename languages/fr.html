@@ -102,17 +102,17 @@ if ('serviceWorker' in navigator) {
 <!-- Daily dose -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">💊 Votre dose de français</span>
-    <h2>Mot du jour & Anecdote</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Votre dose de français</span>
+    <h2 data-translate-key="daily_dose_title">Mot du jour & Anecdote</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="📖">
-      <h3>Mot du jour 📖</h3>
-      <div class="daily-content" id="word-of-the-day">Chargement...</div>
+      <h3 data-translate-key="word_of_the_day">Mot du jour 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Chargement...</div>
     </div>
     <div class="daily-card reveal" data-bg="🤣">
-      <h3>Anecdote du jour 🤣</h3>
-      <div class="daily-content" id="fun-fact-of-the-day">Chargement...</div>
+      <h3 data-translate-key="fun_fact_title">Anecdote du jour 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Chargement...</div>
     </div>
   </div>
 </section>
@@ -120,9 +120,9 @@ if ('serviceWorker' in navigator) {
 <!-- Learning resources -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">📚 Outils d'apprentissage</span>
-    <h2>Ressources essentielles pour le français</h2>
-    <p>Dictionnaires, outils de grammaire, guides de prononciation — tous gratuits.</p>
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Outils d'apprentissage</span>
+    <h2 data-translate-key="learning_resources">Ressources essentielles pour le français</h2>
+    <p data-translate-key="learning_resources_desc">Dictionnaires, outils de grammaire, guides de prononciation — tous gratuits.</p>
   </div>
   <div class="resources-grid">
     <a href="https://www.larousse.fr/dictionnaires/francais" target="_blank" class="resource-card reveal">
@@ -161,9 +161,9 @@ if ('serviceWorker' in navigator) {
 <!-- Media & Culture -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">🎭 Immersion</span>
-    <h2>Médias et culture en français</h2>
-    <p>Immergez-vous dans le français — écoutez la radio en direct et regardez les chaînes de télévision.</p>
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Immersion</span>
+    <h2 data-translate-key="media_culture">Médias et culture en français</h2>
+    <p data-translate-key="media_culture_desc">Immergez-vous dans le français — écoutez la radio en direct et regardez les chaînes de télévision.</p>
   </div>
   <div class="media-grid">
     <div class="media-card reveal">
@@ -188,15 +188,15 @@ if ('serviceWorker' in navigator) {
 <!-- Daily life / shopping -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">🛒 Vie quotidienne</span>
-    <h2>La vie quotidienne en français</h2>
-    <p>Explorez les magasins et services réels — idéal pour un vocabulaire pratique en contexte.</p>
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Vie quotidienne</span>
+    <h2 data-translate-key="daily_life_title">La vie quotidienne en français</h2>
+    <p data-translate-key="daily_life_desc">Explorez les magasins et services réels — idéal pour un vocabulaire pratique en contexte.</p>
   </div>
   <div class="country-tabs">
-    <button class="ctab" data-country="fr" onclick="showCountry('fr')">🇫🇷 France</button>
-    <button class="ctab" data-country="be" onclick="showCountry('be')">🇧🇪 Belgique</button>
-    <button class="ctab" data-country="ch" onclick="showCountry('ch')">🇨🇭 Suisse</button>
-    <button class="ctab" data-country="ca" onclick="showCountry('ca')">🇨🇦 Canada (QC)</button>
+    <button class="ctab" data-country="fr" onclick="showCountry('fr')" data-translate-key="france">🇫🇷 France</button>
+    <button class="ctab" data-country="be" onclick="showCountry('be')" data-translate-key="belgium">🇧🇪 Belgique</button>
+    <button class="ctab" data-country="ch" onclick="showCountry('ch')" data-translate-key="switzerland">🇨🇭 Suisse</button>
+    <button class="ctab" data-country="ca" onclick="showCountry('ca')" data-translate-key="canada">🇨🇦 Canada (QC)</button>
   </div>
   <div class="country-panel" id="country-fr">
     <div class="country-name">🇫🇷 France</div>

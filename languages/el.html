@@ -102,17 +102,17 @@ if ('serviceWorker' in navigator) {
 <!-- Daily dose -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">💊 Η καθημερινή σας δόση</span>
-    <h2>Λέξη ημέρας & Αστείο γεγονός</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Η καθημερινή σας δόση</span>
+    <h2 data-translate-key="daily_dose_title">Λέξη ημέρας & Αστείο γεγονός</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="📖">
-      <h3>Λέξη της ημέρας 📖</h3>
-      <div class="daily-content" id="word-of-the-day">Φόρτωση...</div>
+      <h3 data-translate-key="word_of_the_day">Λέξη της ημέρας 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Φόρτωση...</div>
     </div>
     <div class="daily-card reveal" data-bg="🤣">
-      <h3>Αστείο γεγονός ημέρας 🤣</h3>
-      <div class="daily-content" id="fun-fact-of-the-day">Φόρτωση...</div>
+      <h3 data-translate-key="fun_fact_title">Αστείο γεγονός ημέρας 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Φόρτωση...</div>
     </div>
   </div>
 </section>
@@ -120,9 +120,9 @@ if ('serviceWorker' in navigator) {
 <!-- Learning resources -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">📚 Εργαλεία μάθησης</span>
-    <h2>Βασικοί πόροι για τα ελληνικά</h2>
-    <p>Λεξικά, εργαλεία κλίσης, οδηγοί προφοράς — όλα δωρεάν.</p>
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Εργαλεία μάθησης</span>
+    <h2 data-translate-key="learning_resources">Βασικοί πόροι για τα ελληνικά</h2>
+    <p data-translate-key="learning_resources_desc">Λεξικά, εργαλεία κλίσης, οδηγοί προφοράς — όλα δωρεάν.</p>
   </div>
   <div class="resources-grid">
         <a href="https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html" target="_blank" class="resource-card reveal">
@@ -167,9 +167,9 @@ if ('serviceWorker' in navigator) {
 <!-- Media & Culture -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">🎭 Βύθιση στη γλώσσα</span>
-    <h2>Μέσα και πολιτισμός στα ελληνικά</h2>
-    <p>Βυθιστείτε στην ελληνική γλώσσα — ακούστε ραδιόφωνο και παρακολουθήστε ελληνικά κανάλια ζωντανά.</p>
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Βύθιση στη γλώσσα</span>
+    <h2 data-translate-key="media_culture">Μέσα και πολιτισμός στα ελληνικά</h2>
+    <p data-translate-key="media_culture_desc">Βυθιστείτε στην ελληνική γλώσσα — ακούστε ραδιόφωνο και παρακολουθήστε ελληνικά κανάλια ζωντανά.</p>
   </div>
   <div class="media-grid">
     <div class="media-card reveal">
@@ -195,13 +195,13 @@ if ('serviceWorker' in navigator) {
 <!-- Daily life / shopping -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">🛒 Καθημερινή ζωή</span>
-    <h2>Η καθημερινή ζωή στα ελληνικά</h2>
-    <p>Εξερευνήστε ελληνικά καταστήματα και υπηρεσίες — ιδανικό για πρακτικό λεξιλόγιο.</p>
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Καθημερινή ζωή</span>
+    <h2 data-translate-key="daily_life_title">Η καθημερινή ζωή στα ελληνικά</h2>
+    <p data-translate-key="daily_life_desc">Εξερευνήστε ελληνικά καταστήματα και υπηρεσίες — ιδανικό για πρακτικό λεξιλόγιο.</p>
   </div>
     <div class="country-tabs">
-    <button class="ctab" data-country="gr" onclick="showCountry('gr')">🇬🇷 Ελλάδα</button>
-    <button class="ctab" data-country="cy" onclick="showCountry('cy')">🇨🇾 Κύπρος</button>
+    <button class="ctab" data-country="gr" onclick="showCountry('gr')" data-translate-key="greece">🇬🇷 Ελλάδα</button>
+    <button class="ctab" data-country="cy" onclick="showCountry('cy')" data-translate-key="cyprus">🇨🇾 Κύπρος</button>
   </div>
   <div class="country-panel" id="country-gr">
     <div class="country-name">🇬🇷 Ελλάδα</div>

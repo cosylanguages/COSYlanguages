@@ -102,17 +102,17 @@ if ('serviceWorker' in navigator) {
 <!-- Daily dose -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">💊 La tua dose quotidiana</span>
-    <h2>Parola del giorno & Curiosità</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 La tua dose quotidiana</span>
+    <h2 data-translate-key="daily_dose_title">Parola del giorno & Curiosità</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="📖">
-      <h3>Parola del giorno 📖</h3>
-      <div class="daily-content" id="word-of-the-day">Caricamento...</div>
+      <h3 data-translate-key="word_of_the_day">Parola del giorno 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Caricamento...</div>
     </div>
     <div class="daily-card reveal" data-bg="🤣">
-      <h3>Curiosità del giorno 🤣</h3>
-      <div class="daily-content" id="fun-fact-of-the-day">Caricamento...</div>
+      <h3 data-translate-key="fun_fact_title">Curiosità del giorno 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Caricamento...</div>
     </div>
   </div>
 </section>
@@ -120,9 +120,9 @@ if ('serviceWorker' in navigator) {
 <!-- Learning resources -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">📚 Strumenti di apprendimento</span>
-    <h2>Risorse essenziali per l'italiano</h2>
-    <p>Dizionari, strumenti di coniugazione, guide alla pronuncia — tutti gratuiti.</p>
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Strumenti di apprendimento</span>
+    <h2 data-translate-key="learning_resources">Risorse essenziali per l'italiano</h2>
+    <p data-translate-key="learning_resources_desc">Dizionari, strumenti di coniugazione, guide alla pronuncia — tutti gratuiti.</p>
   </div>
   <div class="resources-grid">
     <a href="https://www.treccani.it/vocabolario/" target="_blank" class="resource-card reveal">
@@ -167,9 +167,9 @@ if ('serviceWorker' in navigator) {
 <!-- Media & Culture -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">🎭 Immersione</span>
-    <h2>Media e cultura in italiano</h2>
-    <p>Immergetevi nella lingua italiana — ascoltate la radio dal vivo e guardate i canali TV italiani.</p>
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Immersione</span>
+    <h2 data-translate-key="media_culture">Media e cultura in italiano</h2>
+    <p data-translate-key="media_culture_desc">Immergetevi nella lingua italiana — ascoltate la radio dal vivo e guardate i canali TV italiani.</p>
   </div>
   <div class="media-grid">
     <div class="media-card reveal">
@@ -194,12 +194,12 @@ if ('serviceWorker' in navigator) {
 <!-- Daily life / shopping -->
 <section>
   <div class="sec-head reveal">
-    <span class="sec-tag">🛒 Vita quotidiana</span>
-    <h2>La vita quotidiana in italiano</h2>
-    <p>Esplorate i negozi e i servizi italiani — ottimo per un vocabolario pratico e concreto.</p>
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Vita quotidiana</span>
+    <h2 data-translate-key="daily_life_title">La vita quotidiana in italiano</h2>
+    <p data-translate-key="daily_life_desc">Esplorate i negozi e i servizi italiani — ottimo per un vocabolario pratico e concreto.</p>
   </div>
   <div class="country-tabs">
-    <button class="ctab" data-country="it" onclick="showCountry('it')">🇮🇹 Italia</button>
+    <button class="ctab" data-country="it" onclick="showCountry('it')" data-translate-key="italy">🇮🇹 Italia</button>
   </div>
   <div class="country-panel" id="country-it">
     <div class="country-name">🇮🇹 Italia</div>

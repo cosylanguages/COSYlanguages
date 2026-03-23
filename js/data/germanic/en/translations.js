@@ -1039,6 +1039,24 @@
             faq_4_a: "Yes! We offer flexible scheduling. You can book or reschedule sessions with 24 hours notice to fit your busy adult life.",
             faq_5_q: "What materials do I need?",
             faq_5_a: "Just a device with a camera and microphone. All learning materials, including our free practice tools and games, are provided by us.",
+            fun_fact_en: [
+                "The word 'alphabet' comes from the first two letters of the Greek alphabet: alpha and beta.",
+                "English is the official language of the sky! All pilots must speak English regardless of their origin.",
+                "'Queueing' is the only word with five consecutive vowels.",
+                "'Rhythm' is the longest English word without a real vowel (a, e, i, o, u).",
+                "The shortest complete sentence in English is 'I am.'"
+            ],
+            daily_dose_tag: "💊 Your daily English",
+            daily_dose_title: "Word of the Day & Fun Fact",
+            learning_resources_desc: "Dictionaries, grammar tools, pronunciation guides and learning platforms — all free.",
+            media_culture_tag: "🎭 Immersion",
+            media_culture_desc: "Immerse yourself in English — listen to live radio and watch real TV channels from English-speaking countries.",
+            daily_life_title: "Daily life in English-speaking countries",
+            daily_life_desc: "Explore real shops, services and websites in English — great for practical vocabulary in context.",
+            belgium: "Belgium 🇧🇪",
+            switzerland: "Switzerland 🇨🇭",
+            cyprus: "Cyprus 🇨🇾",
+            greece: "Greece 🇬🇷"
         }
         };
     window.translations = window.translations || {};

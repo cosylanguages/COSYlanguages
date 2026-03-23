@@ -1,6 +1,15 @@
 (function() {
     const data = {
         it: {
+            cyprus: "Cipro 🇨🇾",
+            switzerland: "Svizzera 🇨🇭",
+            belgium: "Belgio 🇧🇪",
+            daily_life_desc: "Esplora negozi e servizi reali — ottimo per il vocabolario pratico in contesto.",
+            daily_life_title: "Vita quotidiana in Italia",
+            media_culture_desc: "Immergiti nell'italiano — ascolta la radio in diretta e guarda i canali TV.",
+            media_culture_tag: "🎭 Immersione",
+            learning_resources_desc: "Dizionari, strumenti grammaticali, guide alla pronuncia — tutti gratuiti.",
+            daily_dose_tag: "💊 La tua dose di italiano",
             ab_vassilopoulos: "AB Vassilopoulos",
             ab_vassilopoulos_desc: "Supermercato e negozio di alimentari online.",
             advanced: "Avanzato (C1)",
@@ -168,7 +177,7 @@
             curriculum_title: "Programma dei Giorni 🗓️",
             currys: "Currys",
             currys_desc: "Rivenditore di materiale elettrico.",
-            daily_dose_title: "La tua dose quotidiana 💊",
+            daily_dose_title: "Parola del giorno & Curiosità",
             daily_life: "Vita quotidiana 🛒",
             darty: "Darty",
             darty_desc: "Elettrodomestici ed elettronica.",
@@ -1038,6 +1047,13 @@
             faq_4_a: "Sì! Offriamo una programmazione flessibile. Puoi prenotare o spostare le sessioni con 24 ore di preavviso per adattarle alla tua vita lavorativa.",
             faq_5_q: "Di quali materiali ho bisogno?",
             faq_5_a: "Basta un dispositivo con fotocamera e microfono. Tutti i materiali didattici, inclusi i nostri strumenti di pratica gratuiti e i giochi, sono forniti da noi.",
+            fun_fact_it: [
+                "L'italiano è diventato la lingua ufficiale d'Italia solo nel 1861.",
+                "Il nome 'Italia' deriva probabilmente dal vocabolo 'vitu' (vitello) delle tribù italiche.",
+                "L'italiano è la quarta lingua più studiata al mondo.",
+                "La parola 'Ciao' deriva dal veneziano 's'ciavo vostro', che significa 'sono vostro schiavo'.",
+                "L'alfabeto italiano standard ha solo 21 lettere; J, K, W, X e Y sono usate solo per parole straniere."
+            ]
          }
         };
     window.translations = window.translations || {};
