@@ -26,6 +26,16 @@
         ]
     },
     {
+        "word": "foot",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "numberPlural": "2 foot",
+        "answer": "two feet",
+        "emoji": "🦶",
+        "form": "noun",
+        "plural": "feet"
+    },
+    {
         "word": "teacher",
         "level": "starter",
         "theme": "job_titles_professions_A0",
@@ -207,7 +217,7 @@
     {
         "word": "coffee",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "☕",
         "form": "noun",
         "plural": "coffee",
@@ -231,7 +241,7 @@
     {
         "word": "tea",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "🍵",
         "form": "noun",
         "plural": "tea",
@@ -255,7 +265,7 @@
     {
         "word": "juice",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "🧃",
         "form": "noun",
         "plural": "juice",
@@ -278,7 +288,7 @@
     {
         "word": "water",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "🚰",
         "form": "noun",
         "plural": "water",
@@ -296,7 +306,7 @@
     {
         "word": "park",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "local_places_services_A0",
         "emoji": "🌳",
         "form": "noun",
         "plural": "parks",
@@ -313,20 +323,13 @@
                 "examples": [
                     "Children play in the park."
                 ]
-            },
-            {
-                "text": "To leave a car or vehicle in a specific place for a time.",
-                "examples": [
-                    "Where can I park my car?",
-                    "Don't park here."
-                ]
             }
         ]
     },
     {
         "word": "school",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "local_places_services_A0",
         "emoji": "🏫",
         "form": "noun",
         "plural": "schools",
@@ -343,7 +346,7 @@
     {
         "word": "t-shirt",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👕",
         "form": "noun",
         "plural": "t-shirts"
@@ -351,7 +354,7 @@
     {
         "word": "pants",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👖",
         "form": "noun",
         "plural": "pants"
@@ -359,7 +362,7 @@
     {
         "word": "shoe",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👟",
         "form": "noun",
         "plural": "shoes"
@@ -367,7 +370,7 @@
     {
         "word": "hat",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👒",
         "form": "noun",
         "plural": "hats"
@@ -428,6 +431,8 @@
         "level": "starter",
         "theme": "size_shape_A0",
         "form": "adjective",
+        "opposite": "short",
+        "oppositeEmoji": "📏",
         "definitions": [
             {
                 "text": "A person or thing that is big from bottom to top.",
@@ -443,6 +448,8 @@
         "level": "starter",
         "theme": "size_shape_A0",
         "form": "adjective",
+        "opposite": "tall",
+        "oppositeEmoji": "🗼",
         "definitions": [
             {
                 "text": "A person or thing that is not tall.",
@@ -457,13 +464,17 @@
         "word": "young",
         "level": "starter",
         "theme": "size_shape_A0",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "old",
+        "oppositeEmoji": "👴"
     },
     {
         "word": "old",
         "level": "starter",
         "theme": "size_shape_A0",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "young",
+        "oppositeEmoji": "👶"
     },
     {
         "word": "key",
@@ -492,7 +503,7 @@
     {
         "word": "phone",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "phones"
@@ -512,13 +523,6 @@
                 "examples": [
                     "I read a book every night.",
                     "This book is interesting."
-                ]
-            },
-            {
-                "text": "To arrange to have something in the future (like a room or a table).",
-                "examples": [
-                    "I want to book a hotel room.",
-                    "We should book a table for dinner."
                 ]
             }
         ]
@@ -560,7 +564,7 @@
     {
         "word": "cat",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "emoji": "🐈",
         "numberPlural": "2 cat",
         "answer": "two cats",
@@ -579,7 +583,7 @@
     {
         "word": "dog",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "emoji": "🐕",
         "numberPlural": "5 dog",
         "answer": "five dogs",
@@ -598,7 +602,7 @@
     {
         "word": "bird",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "emoji": "🐦",
         "form": "noun",
         "plural": "birds",
@@ -615,7 +619,7 @@
     {
         "word": "fish",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "emoji": "🐟",
         "form": "noun",
         "plural": "fish",
@@ -625,13 +629,6 @@
                 "examples": [
                     "There are many fish in the sea.",
                     "The fish is swimming."
-                ]
-            },
-            {
-                "text": "To try to catch fish with a net or a hook.",
-                "examples": [
-                    "We like to fish in the river.",
-                    "He is fishing today."
                 ]
             }
         ]
@@ -655,14 +652,18 @@
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "🔥",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "cold",
+        "oppositeEmoji": "❄️"
     },
     {
         "word": "cold",
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "❄️",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "hot",
+        "oppositeEmoji": "🔥"
     },
     {
         "word": "head",
@@ -677,13 +678,6 @@
                 "examples": [
                     "I have a hat on my head.",
                     "He nodded his head."
-                ]
-            },
-            {
-                "text": "The leader of a group or organization.",
-                "examples": [
-                    "She is the head of the department.",
-                    "Who is the head of this school?"
                 ]
             }
         ]
@@ -701,13 +695,6 @@
                 "examples": [
                     "Wash your hands before dinner.",
                     "Give me your hand."
-                ]
-            },
-            {
-                "text": "Help or assistance.",
-                "examples": [
-                    "Can you give me a hand?",
-                    "I need some help here."
                 ]
             }
         ]
@@ -778,7 +765,7 @@
     {
         "word": "smartphone",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "smartphones"
@@ -796,12 +783,6 @@
                 "examples": [
                     "My mother is very kind.",
                     "I love my mother."
-                ]
-            },
-            {
-                "text": "This person is usually the wife of your father (or another parent).",
-                "examples": [
-                    "Mothers take care of their children."
                 ]
             }
         ]
@@ -826,7 +807,7 @@
     {
         "word": "man",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "physical_appearance_A1",
         "numberPlural": "2 man",
         "answer": "two men",
         "emoji": "👨",
@@ -846,7 +827,7 @@
     {
         "word": "woman",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "physical_appearance_A1",
         "numberPlural": "2 woman",
         "answer": "two women",
         "emoji": "👩",
@@ -862,16 +843,6 @@
                 ]
             }
         ]
-    },
-    {
-        "word": "foot",
-        "level": "starter",
-        "theme": "body_parts_A0",
-        "numberPlural": "2 foot",
-        "answer": "two feet",
-        "emoji": "🦶",
-        "form": "noun",
-        "plural": "feet"
     },
     {
         "word": "work",
@@ -1413,6 +1384,22 @@
                 "text": "On each day without exception.",
                 "examples": [
                     "I drink coffee every day."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lunch",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "emoji": "🍱",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A meal eaten in the middle of the day.",
+                "examples": [
+                    "I eat lunch at one o'clock.",
+                    "What is for lunch?"
                 ]
             }
         ]

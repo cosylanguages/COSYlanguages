@@ -3,14 +3,26 @@
     {
         "word": "wake up",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "daily_work_routines_A1",
         "emoji": "⏰",
-        "form": "verb"
+        "form": "verb",
+        "subtext": "wake up early, wake up at 7am",
+        "opposite": "sleep",
+        "oppositeEmoji": "😴",
+        "definitions": [
+            {
+                "text": "To stop sleeping and open your eyes.",
+                "examples": [
+                    "I wake up at seven o'clock.",
+                    "What time do you wake up?"
+                ]
+            }
+        ]
     },
     {
         "word": "work",
         "level": "starter",
-        "theme": "job_titles_professions_A0",
+        "theme": "daily_work_routines_A1",
         "emoji": "💼",
         "subtext": "work in an office, work hard",
         "form": "verb",
@@ -25,18 +37,13 @@
         ]
     },
     {
-        "word": "lunch",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🍱",
-        "form": "verb"
-    },
-    {
         "word": "sleep",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "daily_work_routines_A1",
         "emoji": "😴",
         "subtext": "sleep 8 hours, go to sleep",
+        "opposite": "wake up",
+        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -51,9 +58,10 @@
     {
         "word": "watch",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
+        "subtext": "watch TV, watch a movie",
         "definitions": [
             {
                 "text": "To look at something for a period of time.",
@@ -61,27 +69,32 @@
                     "I watch TV in the evening.",
                     "They watch the birds."
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "word": "read",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "form": "verb",
+        "subtext": "read a book, read a newspaper",
+        "opposite": "write",
+        "oppositeEmoji": "✍️",
+        "definitions": [
             {
-                "text": "A small clock that you wear on your arm.",
+                "text": "To look at and understand words in a book or on paper.",
                 "examples": [
-                    "My watch is broken.",
-                    "What time is it on your watch?"
+                    "I read a book every night.",
+                    "She can read English."
                 ]
             }
         ]
     },
     {
-        "word": "reading",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "📖",
-        "form": "verb"
-    },
-    {
         "word": "be",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "personal_identity",
         "emoji": "👤",
         "subtext": "be cold, be 20 years old",
         "form": "verb"
@@ -89,7 +102,7 @@
     {
         "word": "have",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "personal_identity",
         "emoji": "👜",
         "subtext": "have breakfast, have a car",
         "form": "verb"
@@ -97,7 +110,7 @@
     {
         "word": "go",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "🚶",
         "subtext": "go to school, go home",
         "form": "verb"
@@ -124,9 +137,11 @@
     {
         "word": "drink",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "🥛",
         "subtext": "drink water, drink coffee",
+        "opposite": "eat",
+        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -141,7 +156,7 @@
     {
         "word": "do",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "subtext": "do homework, do sport",
         "form": "verb"
@@ -149,7 +164,7 @@
     {
         "word": "speak",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "language_communication",
         "emoji": "🗣️",
         "subtext": "speak English, speak slowly",
         "form": "verb"
@@ -157,7 +172,7 @@
     {
         "word": "know",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "education_learning",
         "emoji": "🧠",
         "subtext": "know the answer, know a person",
         "form": "verb"
@@ -165,7 +180,7 @@
     {
         "word": "think",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "language_communication",
         "emoji": "💭",
         "subtext": "think about, think that",
         "form": "verb"
@@ -173,7 +188,7 @@
     {
         "word": "see",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "health_body",
         "emoji": "👁️",
         "subtext": "see a movie, see a friend",
         "form": "verb",
@@ -190,7 +205,7 @@
     {
         "word": "want",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "feelings_emotions",
         "emoji": "🙏",
         "subtext": "want water, want to go",
         "form": "verb"
@@ -198,7 +213,7 @@
     {
         "word": "like",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "feelings_emotions",
         "emoji": "👍",
         "subtext": "like chocolate, like dancing",
         "form": "verb"
@@ -206,25 +221,15 @@
     {
         "word": "love",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "feelings_emotions",
         "emoji": "❤️",
         "subtext": "love my family, love travel",
         "form": "verb"
     },
     {
-        "word": "read",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📖",
-        "subtext": "read a book, read the news",
-        "opposite": "write",
-        "oppositeEmoji": "✍️",
-        "form": "verb"
-    },
-    {
         "word": "write",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "write a letter, write a message",
         "opposite": "read",
@@ -234,7 +239,7 @@
     {
         "word": "come",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "🏃‍♂️",
         "subtext": "come here, come home",
         "opposite": "go",
@@ -244,7 +249,7 @@
     {
         "word": "give",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🎁",
         "subtext": "give a gift, give help",
         "opposite": "take",
@@ -254,7 +259,7 @@
     {
         "word": "take",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "modes_of_transport_A0",
         "emoji": "👜",
         "subtext": "take a bus, take a photo",
         "opposite": "give",
@@ -264,77 +269,77 @@
     {
         "word": "find",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🔍",
         "form": "verb"
     },
     {
         "word": "tell",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "language_communication",
         "emoji": "🗣️",
         "form": "verb"
     },
     {
         "word": "ask",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "language_communication",
         "emoji": "❓",
         "form": "verb"
     },
     {
         "word": "feel",
         "level": "starter",
-        "theme": "body_parts_A0",
+        "theme": "feelings_emotions",
         "emoji": "🌡️",
         "form": "verb"
     },
     {
         "word": "try",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "education_learning",
         "emoji": "🎯",
         "form": "verb"
     },
     {
         "word": "leave",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "🚪",
         "form": "verb"
     },
     {
         "word": "call",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "language_communication",
         "emoji": "📞",
         "form": "verb"
     },
     {
         "word": "look",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "👀",
         "form": "verb"
     },
     {
         "word": "use",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "technology_media",
         "emoji": "🛠️",
         "form": "verb"
     },
     {
         "word": "get",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "📥",
         "form": "verb"
     },
     {
         "word": "start",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "time",
         "emoji": "▶️",
         "opposite": "finish",
         "oppositeEmoji": "🏁",
@@ -343,14 +348,14 @@
     {
         "word": "help",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "society_politics",
         "emoji": "🤝",
         "form": "verb"
     },
     {
         "word": "talk",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "language_communication",
         "emoji": "💬",
         "form": "verb",
         "definitions": [
@@ -366,21 +371,21 @@
     {
         "word": "play",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "leisure_activities_A1",
         "emoji": "🎮",
         "form": "verb"
     },
     {
         "word": "run",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "common_sports_A0",
         "emoji": "🏃",
         "form": "verb"
     },
     {
         "word": "live",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "personal_identity",
         "emoji": "🏠",
         "opposite": "die",
         "oppositeEmoji": "⚰️",
@@ -389,14 +394,14 @@
     {
         "word": "bring",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🎁",
         "form": "verb"
     },
     {
         "word": "sit",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🪑",
         "opposite": "stand",
         "oppositeEmoji": "🧍",
@@ -405,7 +410,7 @@
     {
         "word": "stand",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🧍",
         "opposite": "sit",
         "oppositeEmoji": "🪑",
@@ -414,7 +419,7 @@
     {
         "word": "lose",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "leisure_activities_A1",
         "emoji": "📉",
         "opposite": "win",
         "oppositeEmoji": "🏆",
@@ -423,63 +428,63 @@
     {
         "word": "pay",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "💰",
         "form": "verb"
     },
     {
         "word": "meet",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "society_politics",
         "emoji": "🤝",
         "form": "verb"
     },
     {
         "word": "learn",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "education_learning",
         "emoji": "📚",
         "form": "verb"
     },
     {
         "word": "change",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "time",
         "emoji": "🔄",
         "form": "verb"
     },
     {
         "word": "understand",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "language_communication",
         "emoji": "💡",
         "form": "verb"
     },
     {
         "word": "stop",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "time",
         "emoji": "🛑",
         "form": "verb"
     },
     {
         "word": "add",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "numbers_math",
         "emoji": "➕",
         "form": "verb"
     },
     {
         "word": "spend",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "💸",
         "form": "verb"
     },
     {
         "word": "open",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "📖",
         "opposite": "close",
         "oppositeEmoji": "🔒",
@@ -488,7 +493,7 @@
     {
         "word": "walk",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -504,7 +509,7 @@
     {
         "word": "win",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "opposite": "lose",
         "oppositeEmoji": "📉",
@@ -513,14 +518,14 @@
     {
         "word": "remember",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "education_learning",
         "emoji": "🧠",
         "form": "verb"
     },
     {
         "word": "buy",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🛒",
         "opposite": "sell",
         "oppositeEmoji": "🏷️",
@@ -529,14 +534,14 @@
     {
         "word": "wait",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "time",
         "emoji": "⏳",
         "form": "verb"
     },
     {
         "word": "die",
         "level": "starter",
-        "theme": "body_parts_A0",
+        "theme": "health_body",
         "emoji": "⚰️",
         "opposite": "live",
         "oppositeEmoji": "🏠",
@@ -545,42 +550,42 @@
     {
         "word": "send",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "language_communication",
         "emoji": "✉️",
         "form": "verb"
     },
     {
         "word": "stay",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "places_geography",
         "emoji": "🏨",
         "form": "verb"
     },
     {
         "word": "fall",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "environment_nature",
         "emoji": "🍂",
         "form": "verb"
     },
     {
         "word": "cut",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "food_drink",
         "emoji": "✂️",
         "form": "verb"
     },
     {
         "word": "pass",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "education_learning",
         "emoji": "🏔️",
         "form": "verb"
     },
     {
         "word": "sell",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🏷️",
         "opposite": "buy",
         "oppositeEmoji": "🛒",
@@ -589,7 +594,7 @@
     {
         "word": "pull",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🚜",
         "opposite": "push",
         "oppositeEmoji": "🛒",
@@ -598,7 +603,7 @@
     {
         "word": "push",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🛒",
         "opposite": "pull",
         "oppositeEmoji": "🚜",
@@ -607,56 +612,56 @@
     {
         "word": "hope",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "feelings_emotions",
         "emoji": "🤞",
         "form": "verb"
     },
     {
         "word": "carry",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🎒",
         "form": "verb"
     },
     {
         "word": "break",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "describing_things",
         "emoji": "💔",
         "form": "verb"
     },
     {
         "word": "receive",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "language_communication",
         "emoji": "📩",
         "form": "verb"
     },
     {
         "word": "agree",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "opinion_debate",
         "emoji": "👍",
         "form": "verb"
     },
     {
         "word": "draw",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "culture_arts",
         "emoji": "🎨",
         "form": "verb"
     },
     {
         "word": "share",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "society_politics",
         "emoji": "🍕",
         "form": "verb"
     },
     {
         "word": "smile",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "feelings_emotions",
         "emoji": "😊",
         "opposite": "cry",
         "oppositeEmoji": "😢",
@@ -665,7 +670,7 @@
     {
         "word": "cry",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "feelings_emotions",
         "emoji": "😢",
         "opposite": "smile",
         "oppositeEmoji": "😊",
@@ -674,91 +679,91 @@
     {
         "word": "dance",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "culture_arts",
         "emoji": "💃",
         "form": "verb"
     },
     {
         "word": "sing",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "culture_arts",
         "emoji": "🎤",
         "form": "verb"
     },
     {
         "word": "jump",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "health_body",
         "emoji": "🦘",
         "form": "verb"
     },
     {
         "word": "fly",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "swim",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "common_sports_A0",
         "emoji": "🏊",
         "form": "verb"
     },
     {
         "word": "wash",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "home_living",
         "emoji": "🧼",
         "form": "verb"
     },
     {
         "word": "clean",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "home_living",
         "emoji": "🧹",
         "form": "verb"
     },
     {
         "word": "cook",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "food_drink",
         "emoji": "🍳",
         "form": "verb"
     },
     {
         "word": "travel",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "✈️",
         "form": "verb"
     },
     {
         "word": "study",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "education_learning",
         "emoji": "📖",
         "form": "verb"
     },
     {
         "word": "teach",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "education_learning",
         "emoji": "👨‍🏫",
         "form": "verb"
     },
     {
         "word": "listen",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "language_communication",
         "emoji": "🎧",
         "form": "verb"
     },
     {
         "word": "close",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🔒",
         "opposite": "open",
         "oppositeEmoji": "📖",
@@ -767,7 +772,7 @@
     {
         "word": "finish",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "time",
         "emoji": "🏁",
         "opposite": "start",
         "oppositeEmoji": "▶️",
