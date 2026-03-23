@@ -777,6 +777,98 @@
         "opposite": "start",
         "oppositeEmoji": "▶️",
         "form": "verb"
+    },
+    {
+        "word": "commute",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🚆",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To travel some distance between one's home and place of work on a regular basis.",
+                "examples": [
+                    "I commute to the city by train."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rent",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "emoji": "🏠",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To pay money to use a house or flat that belongs to someone else.",
+                "examples": [
+                    "We rent a flat in the city."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "exercise",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏋️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do physical activity to stay healthy.",
+                "examples": [
+                    "I exercise every morning."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "save",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "verb",
+        "opposite": "spend",
+        "oppositeEmoji": "💸",
+        "definitions": [
+            {
+                "text": "To keep money instead of spending it.",
+                "examples": [
+                    "She saves money every month."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cost",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a certain price.",
+                "examples": [
+                    "The flat costs a lot."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "invite",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "✉️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To ask someone to come to a place or event.",
+                "examples": [
+                    "I invite friends for dinner."
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";
