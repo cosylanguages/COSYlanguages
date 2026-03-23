@@ -854,19 +854,19 @@ function triggerAnimation(type) {
 
 const GRAMMAR_CONFIG = {
     fr: {
-        articles: ['le', 'la', "l'"],
+        articles: ['le', 'la', "l'", 'les'],
         pronouns: ['je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles']
     },
     it: {
-        articles: ['il', 'lo', 'la', "l'"],
+        articles: ['il', 'lo', 'la', "l'", 'i', 'gli', 'le'],
         pronouns: ['io', 'tu', 'lui', 'lei', 'noi', 'voi', 'loro']
     },
     ru: {
-        articles: ['он', 'она', 'оно'],
+        articles: ['он', 'она', 'оно', 'они'],
         pronouns: ['я', 'ты', 'он', 'она', 'оно', 'мы', 'вы', 'они']
     },
     el: {
-        articles: ['ο', 'η', 'το'],
+        articles: ['ο', 'η', 'το', 'οι', 'τα'],
         pronouns: ['εγώ', 'εσύ', 'αυτός', 'αυτή', 'αυτό', 'εμείς', 'εσείς', 'αυτοί', 'αυτές', 'αυτά']
     },
     en: {

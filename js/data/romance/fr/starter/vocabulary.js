@@ -4,6 +4,7 @@
         "word": "médecin",
         "level": "starter",
         "theme": "job_titles_professions_A0",
+        "article": "le",
         "numberPlural": "2 médecin",
         "answer": "deux médecins",
         "emoji": "🧑‍⚕️",
@@ -16,19 +17,25 @@
                     "Le médecin travaille à l'hôpital.",
                     "Je dois voir un médecin."
                 ]
-            },
-            {
-                "text": "Cette personne travaille généralement dans un hôpital ou une clinique.",
-                "examples": [
-                    "Les médecins portent une blouse blanche."
-                ]
             }
         ]
+    },
+    {
+        "word": "pied",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "le",
+        "numberPlural": "2 pied",
+        "answer": "deux pieds",
+        "emoji": "🦶",
+        "form": "noun",
+        "plural": "pieds"
     },
     {
         "word": "professeur",
         "level": "starter",
         "theme": "job_titles_professions_A0",
+        "article": "le",
         "emoji": "🧑‍🏫",
         "form": "noun",
         "plural": "professeurs",
@@ -39,12 +46,6 @@
                     "Le professeur parle à la classe.",
                     "C'est un bon professeur."
                 ]
-            },
-            {
-                "text": "Cette personne travaille généralement dans une école ou une université.",
-                "examples": [
-                    "Les professeurs expliquent de nouveaux sujets."
-                ]
             }
         ]
     },
@@ -52,6 +53,7 @@
         "word": "ratatouille",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "la",
         "form": "noun",
         "plural": "ratatouilles",
         "definitions": [
@@ -61,12 +63,6 @@
                     "On met des aubergines dans la ratatouille.",
                     "La ratatouille est un plat sain."
                 ]
-            },
-            {
-                "text": "C'est un plat traditionnel du sud de la France.",
-                "examples": [
-                    "On peut manger la ratatouille chaude ou froide."
-                ]
             }
         ]
     },
@@ -74,6 +70,7 @@
         "word": "croissant",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "le",
         "form": "noun",
         "plural": "croissants",
         "definitions": [
@@ -82,12 +79,6 @@
                 "examples": [
                     "Je mange un croissant au petit-déjeuner.",
                     "Le boulanger fait des croissants frais."
-                ]
-            },
-            {
-                "text": "C'est un symbole classique de la gastronomie française.",
-                "examples": [
-                    "Un bon croissant doit être croustillant."
                 ]
             }
         ]
@@ -124,10 +115,11 @@
         "plural": "pains",
         "definitions": [
             {
-                "text": "Un aliment fait de farine et d'eau, puis cuit au four.",
+                "text": "Un aliment de base fait de farine et d'eau.",
                 "examples": [
                     "J'aime le pain frais.",
-                    "Peux-tu acheter du pain ?"
+                    "Peux-tu acheter du pain ?",
+                    "Je mange du pain au petit-déjeuner."
                 ]
             }
         ]
@@ -136,6 +128,7 @@
         "word": "oeuf",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "l'",
         "emoji": "🥚",
         "form": "noun",
         "plural": "oeufs",
@@ -146,12 +139,6 @@
                     "J'ai mangé un oeuf à la coque.",
                     "On a besoin d'oeufs pour faire un gâteau."
                 ]
-            },
-            {
-                "text": "On mange souvent des œufs au petit-déjeuner.",
-                "examples": [
-                    "Les oeufs sont riches en protéines."
-                ]
             }
         ]
     },
@@ -159,6 +146,7 @@
         "word": "lait",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "le",
         "emoji": "🥛",
         "form": "noun",
         "plural": "lait",
@@ -169,11 +157,53 @@
                     "Tu veux du lait dans ton café ?",
                     "Les enfants boivent du lait."
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "word": "riz",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "le",
+        "emoji": "🍚",
+        "form": "noun",
+        "definitions": [
             {
-                "text": "On utilise le lait pour faire du fromage.",
+                "text": "De petits grains blancs que nous cuisons et mangeons.",
                 "examples": [
-                    "Le lait doit rester au frais."
+                    "Nous mangeons du riz tous les jours."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "viande",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "la",
+        "emoji": "🥩",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Nourriture qui provient des animaux.",
+                "examples": [
+                    "Il mange de la viande et des légumes."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "nourriture",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "la",
+        "emoji": "🍲",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Choses que les gens mangent.",
+                "examples": [
+                    "La nourriture est bonne ici."
                 ]
             }
         ]
@@ -181,37 +211,63 @@
     {
         "word": "café",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "article": "le",
         "baseWord": "café",
         "emoji": "☕",
         "form": "noun",
-        "plural": "café"
+        "plural": "cafés",
+        "definitions": [
+            {
+                "text": "Une boisson marron chaude faite à partir de grains de café.",
+                "examples": [
+                    "Je bois du café le matin.",
+                    "Tu veux du sucre dans ton café ?"
+                ]
+            }
+        ]
     },
     {
         "word": "thé",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "article": "le",
         "baseWord": "thé",
         "emoji": "🍵",
         "form": "noun",
-        "plural": "thé"
+        "plural": "thés",
+        "definitions": [
+            {
+                "text": "Une boisson chaude faite avec de l'eau chaude et des feuilles de thé.",
+                "examples": [
+                    "Voulez-vous une tasse de thé ?",
+                    "Elle boit du thé chaque jour."
+                ]
+            }
+        ]
     },
     {
         "word": "jus",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "article": "le",
         "baseWord": "jus",
         "emoji": "🧃",
         "form": "noun",
-        "plural": "jus"
+        "plural": "jus",
+        "definitions": [
+            {
+                "text": "Un liquide provenant de fruits ou de légumes.",
+                "examples": [
+                    "Je veux un verre de jus d'orange."
+                ]
+            }
+        ]
     },
     {
         "word": "eau",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "article": "l'",
         "baseWord": "eau",
         "emoji": "🚰",
@@ -219,10 +275,58 @@
         "plural": "eaux",
         "definitions": [
             {
-                "text": "Un liquide clair que nous buvons pour rester en vie.",
+                "text": "Un liquide clair que nous buvons.",
                 "examples": [
-                    "Je bois un verre d'eau.",
+                    "S'il vous plaît, buvez de l'eau.",
                     "L'eau est froide."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "petit-déjeuner",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "article": "le",
+        "emoji": "🍳",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Le premier repas de la journée.",
+                "examples": [
+                    "Le petit-déjeuner est à sept heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dîner",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "article": "le",
+        "emoji": "🍽️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Le repas principal de la journée, généralement le soir.",
+                "examples": [
+                    "Le dîner est à huit heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "déjeuner",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "article": "le",
+        "emoji": "🍱",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Un repas mangé au milieu de la journée.",
+                "examples": [
+                    "Je mange mon déjeuner à une heure."
                 ]
             }
         ]
@@ -230,16 +334,16 @@
     {
         "word": "parc",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "local_places_services_A0",
+        "article": "le",
         "emoji": "🌳",
         "form": "noun",
         "plural": "parcs",
         "definitions": [
             {
-                "text": "Un grand jardin public avec de l'herbe et des arbres.",
+                "text": "Un jardin public où les gens vont marcher et se détendre.",
                 "examples": [
-                    "Je joue au ballon dans le parc.",
-                    "Il y a des fleurs au parc."
+                    "Marchons dans le parc."
                 ]
             }
         ]
@@ -247,7 +351,8 @@
     {
         "word": "école",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "local_places_services_A0",
+        "article": "l'",
         "emoji": "🏫",
         "form": "noun",
         "plural": "écoles",
@@ -255,8 +360,24 @@
             {
                 "text": "Un endroit où les enfants vont pour apprendre.",
                 "examples": [
-                    "Je vais à l'école en bus.",
                     "Mon école est près de ma maison."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "magasin",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "le",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": "magasins",
+        "definitions": [
+            {
+                "text": "Un endroit où vous pouvez acheter des choses.",
+                "examples": [
+                    "Le magasin est ouvert."
                 ]
             }
         ]
@@ -264,7 +385,8 @@
     {
         "word": "t-shirt",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
+        "article": "le",
         "emoji": "👕",
         "form": "noun",
         "plural": "t-shirts"
@@ -272,7 +394,8 @@
     {
         "word": "pantalon",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
+        "article": "le",
         "emoji": "👖",
         "form": "noun",
         "plural": "pantalons"
@@ -280,7 +403,8 @@
     {
         "word": "chaussures",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
+        "article": "les",
         "emoji": "👟",
         "form": "noun",
         "plural": "chaussures"
@@ -288,15 +412,17 @@
     {
         "word": "chapeau",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
+        "article": "le",
         "emoji": "👒",
         "form": "noun",
-        "plural": "chapeaus"
+        "plural": "chapeaux"
     },
     {
         "word": "chaise",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "la",
         "emoji": "🪑",
         "form": "noun",
         "plural": "chaises"
@@ -305,6 +431,7 @@
         "word": "table",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "la",
         "emoji": "🪑",
         "form": "noun",
         "plural": "tables"
@@ -313,68 +440,16 @@
         "word": "lit",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "le",
         "emoji": "🛏️",
         "form": "noun",
         "plural": "lits"
     },
     {
-        "word": "grand",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "noun",
-        "plural": "grands",
-        "definitions": [
-            {
-                "text": "Une personne ou une chose qui est de grande taille de bas en haut.",
-                "examples": [
-                    "Il est très grand.",
-                    "Ce bâtiment est grand."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "petit",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "noun",
-        "plural": "petits",
-        "definitions": [
-            {
-                "text": "Une personne ou une chose qui n'est pas grande.",
-                "examples": [
-                    "Elle est petite.",
-                    "Le crayon est petit."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "jeune",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "noun",
-        "plural": "jeunes"
-    },
-    {
-        "word": "vieux",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "noun",
-        "plural": "vieux"
-    },
-    {
-        "word": "se réveiller",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "⏰",
-        "form": "noun",
-        "plural": "se réveillers"
-    },
-    {
         "word": "clé",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "la",
         "emoji": "🔑",
         "form": "noun",
         "plural": "clés"
@@ -382,7 +457,8 @@
     {
         "word": "téléphone",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "basic_technology_devices_A0",
+        "article": "le",
         "emoji": "📱",
         "form": "noun",
         "plural": "téléphones"
@@ -391,22 +467,179 @@
         "word": "livre",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "le",
         "emoji": "📖",
         "form": "noun",
-        "plural": "livres",
+        "plural": "livres"
+    },
+    {
+        "word": "sac",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "article": "le",
+        "emoji": "👜",
+        "form": "noun",
+        "plural": "sacs",
         "definitions": [
             {
-                "text": "Un objet avec beaucoup de pages pour lire une histoire.",
+                "text": "Un contenant pour transporter des choses.",
                 "examples": [
-                    "C'est mon livre préféré.",
-                    "Ouvre ton livre à la page dix."
+                    "J'ai de l'argent dans mon sac."
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "word": "stylo",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "article": "le",
+        "emoji": "🖊️",
+        "form": "noun",
+        "plural": "stylos"
+    },
+    {
+        "word": "grand",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "form": "adjective",
+        "opposite": "petit",
+        "oppositeEmoji": "📏",
+        "definitions": [
             {
-                "text": "Une ancienne unité de mesure ou monnaie (la livre).",
+                "text": "De grande taille.",
                 "examples": [
-                    "J'achète une livre de pommes.",
-                    "La livre sterling est la monnaie du Royaume-Uni."
+                    "C'est un grand bureau."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "petit",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "form": "adjective",
+        "opposite": "grand",
+        "oppositeEmoji": "🗼",
+        "definitions": [
+            {
+                "text": "De petite taille.",
+                "examples": [
+                    "Elle a un petit appartement."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "jeune",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "form": "adjective",
+        "opposite": "vieux",
+        "oppositeEmoji": "👴"
+    },
+    {
+        "word": "vieux",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "form": "adjective",
+        "opposite": "jeune",
+        "oppositeEmoji": "👶"
+    },
+    {
+        "word": "bon",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "👍",
+        "form": "adjective",
+        "opposite": "mauvais",
+        "oppositeEmoji": "👎",
+        "definitions": [
+            {
+                "text": "De haute qualité ou agréable.",
+                "examples": [
+                    "C'est un bon travail."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "mauvais",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "👎",
+        "form": "adjective",
+        "opposite": "bon",
+        "oppositeEmoji": "👍",
+        "definitions": [
+            {
+                "text": "Pas bon ; désagréable.",
+                "examples": [
+                    "Le temps est mauvais aujourd'hui."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "facile",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "difficile",
+        "oppositeEmoji": "❌",
+        "definitions": [
+            {
+                "text": "Pas difficile.",
+                "examples": [
+                    "Le test est facile."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "difficile",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "❌",
+        "form": "adjective",
+        "opposite": "facile",
+        "oppositeEmoji": "✅",
+        "definitions": [
+            {
+                "text": "Dur à faire ou à comprendre.",
+                "examples": [
+                    "Ce travail est difficile."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "heureux",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "😊",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ressentir du plaisir ou de la joie.",
+                "examples": [
+                    "Je suis heureux aujourd'hui."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fatigué",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "😫",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ayant besoin de repos ou de sommeil.",
+                "examples": [
+                    "Je suis très fatigué après le travail."
                 ]
             }
         ]
@@ -414,7 +647,7 @@
     {
         "word": "chat",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "article": "le",
         "baseWord": "chat",
         "emoji": "🐈",
@@ -424,10 +657,9 @@
         "plural": "chats",
         "definitions": [
             {
-                "text": "Un petit animal à fourrure que beaucoup de gens gardent à la maison.",
+                "text": "Un petit animal à fourrure.",
                 "examples": [
-                    "Mon chat dort.",
-                    "J'aime les chats."
+                    "Mon chat dort."
                 ]
             }
         ]
@@ -435,7 +667,7 @@
     {
         "word": "chien",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "article": "le",
         "baseWord": "chien",
         "emoji": "🐕",
@@ -445,10 +677,9 @@
         "plural": "chiens",
         "definitions": [
             {
-                "text": "Un animal qui est souvent appelé 'le meilleur ami de l'homme'.",
+                "text": "Le meilleur ami de l'homme.",
                 "examples": [
-                    "Je promène mon chien dans le parc.",
-                    "Le chien aboie."
+                    "Je promène mon chien."
                 ]
             }
         ]
@@ -456,79 +687,76 @@
     {
         "word": "oiseau",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
+        "article": "l'",
         "emoji": "🐦",
         "form": "noun",
         "plural": "oiseaux"
+    },
+    {
+        "word": "poisson",
+        "level": "starter",
+        "theme": "animals_A0",
+        "article": "le",
+        "emoji": "🐟",
+        "form": "noun",
+        "plural": "poissons"
+    },
+    {
+        "word": "ensoleillé",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "☀️",
+        "form": "adjective"
     },
     {
         "word": "pluvieux",
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "🌧️",
-        "form": "noun",
-        "plural": "pluvieux"
+        "form": "adjective"
+    },
+    {
+        "word": "chaud",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "🔥",
+        "form": "adjective",
+        "opposite": "froid",
+        "oppositeEmoji": "❄️"
     },
     {
         "word": "froid",
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "❄️",
-        "form": "noun",
-        "plural": "froids"
+        "form": "adjective",
+        "opposite": "chaud",
+        "oppositeEmoji": "🔥"
     },
     {
         "word": "tête",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "la",
         "emoji": "👤",
         "form": "noun",
-        "plural": "têtes",
-        "definitions": [
-            {
-                "text": "La partie supérieure du corps contenant le cerveau et le visage.",
-                "examples": [
-                    "Il porte un chapeau sur la tête.",
-                    "Elle a mal à la tête."
-                ]
-            },
-            {
-                "text": "Le chef ou le dirigeant d'un groupe.",
-                "examples": [
-                    "Il est à la tête de l'entreprise.",
-                    "C'est la tête pensante du projet."
-                ]
-            }
-        ]
+        "plural": "têtes"
     },
     {
         "word": "main",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "la",
         "emoji": "✋",
         "form": "noun",
-        "plural": "mains",
-        "definitions": [
-            {
-                "text": "La partie du corps au bout du bras, avec des doigts.",
-                "examples": [
-                    "Lave-toi les mains.",
-                    "Elle tient son sac à la main."
-                ]
-            },
-            {
-                "text": "Une aide ou une assistance.",
-                "examples": [
-                    "Peux-tu me donner un coup de main ?",
-                    "J'ai besoin d'une main secourable."
-                ]
-            }
-        ]
+        "plural": "mains"
     },
     {
         "word": "jambe",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "la",
         "emoji": "🦵",
         "form": "noun",
         "plural": "jambes"
@@ -537,23 +765,16 @@
         "word": "oeil",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "l'",
         "emoji": "👁️",
         "form": "noun",
-        "plural": "yeux",
-        "definitions": [
-            {
-                "text": "L'organe de la vue.",
-                "examples": [
-                    "Ferme les yeux.",
-                    "Elle a les yeux bleus."
-                ]
-            }
-        ]
+        "plural": "yeux"
     },
     {
         "word": "nez",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "le",
         "emoji": "👃",
         "form": "noun",
         "plural": "nez"
@@ -562,6 +783,7 @@
         "word": "bouche",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "la",
         "emoji": "👄",
         "form": "noun",
         "plural": "bouches"
@@ -570,77 +792,182 @@
         "word": "oreille",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "l'",
         "emoji": "👂",
         "form": "noun",
         "plural": "oreilles"
     },
     {
-        "word": "pied",
-        "level": "starter",
-        "theme": "body_parts_A0",
-        "emoji": "🦶",
-        "form": "noun",
-        "plural": "pieds"
-    },
-    {
         "word": "mère",
         "level": "starter",
         "theme": "immediate_family_A0",
+        "article": "la",
         "emoji": "👩",
         "form": "noun",
-        "definitions": [
-            {
-                "text": "La femme qui est votre parent.",
-                "examples": [
-                    "Ma mère est gentille.",
-                    "J'aime ma mère."
-                ]
-            },
-            {
-                "text": "Cette personne est généralement la femme de votre père (ou un autre parent).",
-                "examples": [
-                    "Les mères s'occupent de leurs enfants."
-                ]
-            }
-        ]
+        "plural": "mères"
     },
     {
         "word": "père",
         "level": "starter",
         "theme": "immediate_family_A0",
+        "article": "le",
         "emoji": "👨",
         "form": "noun",
+        "plural": "pères"
+    },
+    {
+        "word": "famille",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "la",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "familles",
         "definitions": [
             {
-                "text": "L'homme qui est votre parent.",
+                "text": "Un groupe de personnes qui sont liées.",
                 "examples": [
-                    "Mon père est grand.",
-                    "Il ressemble à son père."
-                ]
-            },
-            {
-                "text": "Cette personne est généralement le mari de votre mère (ou un autre parent).",
-                "examples": [
-                    "Mon père travaille beaucoup."
+                    "Ma famille est grande."
                 ]
             }
         ]
     },
     {
-        "word": "eau",
-        "theme": "basic_foods_A0",
+        "word": "ami",
         "level": "starter",
+        "theme": "immediate_family_A0",
         "article": "l'",
-        "baseWord": "eau",
-        "emoji": "🚰",
-        "form": "adjective",
-        "plural": "eaux",
+        "emoji": "👫",
+        "form": "noun",
+        "plural": "amis",
         "definitions": [
             {
-                "text": "Un liquide clair que nous buvons pour rester en vie.",
+                "text": "Une personne que vous aimez et connaissez bien.",
                 "examples": [
-                    "Je bois un verre d'eau.",
-                    "L'eau est froide."
+                    "Elle est mon amie."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "partenaire",
+        "level": "starter",
+        "theme": "marital_status_A0",
+        "article": "le",
+        "emoji": "💑",
+        "form": "noun",
+        "plural": "partenaires",
+        "definitions": [
+            {
+                "text": "La personne avec qui vous vivez ou êtes en couple.",
+                "examples": [
+                    "Mon partenaire travaille ici."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "homme",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "article": "l'",
+        "numberPlural": "2 homme",
+        "answer": "deux hommes",
+        "emoji": "👨",
+        "form": "noun",
+        "plural": "hommes",
+        "definitions": [
+            {
+                "text": "Une person mâle adulte.",
+                "examples": [
+                    "Cet homme est mon patron."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "femme",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "article": "la",
+        "numberPlural": "2 femme",
+        "answer": "deux femmes",
+        "emoji": "👩",
+        "form": "noun",
+        "plural": "femmes",
+        "definitions": [
+            {
+                "text": "Une personne femelle adulte.",
+                "examples": [
+                    "Cette femme est médecin."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "maison",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "article": "la",
+        "emoji": "🏡",
+        "form": "noun",
+        "plural": "maisons",
+        "definitions": [
+            {
+                "text": "Un bâtiment où vit une famille.",
+                "examples": [
+                    "Ils ont une grande maison."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "appartement",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "article": "l'",
+        "emoji": "🏢",
+        "form": "noun",
+        "plural": "appartements",
+        "definitions": [
+            {
+                "text": "Un ensemble de pièces sur un étage d'un bâtiment.",
+                "examples": [
+                    "Elle vit dans un appartement."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "foyer",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "article": "le",
+        "emoji": "🏠",
+        "form": "noun",
+        "subtext": "à la maison, rentrer",
+        "definitions": [
+            {
+                "text": "L'endroit où vous vivez.",
+                "examples": [
+                    "Je rentre à la maison à six heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bureau",
+        "level": "starter",
+        "theme": "rooms_indoor_spaces_A0",
+        "article": "le",
+        "emoji": "🏢",
+        "form": "noun",
+        "plural": "bureaux",
+        "definitions": [
+            {
+                "text": "Une pièce ou un bâtiment où les gens travaillent.",
+                "examples": [
+                    "Il est au bureau."
                 ]
             }
         ]
@@ -648,413 +975,186 @@
     {
         "word": "voiture",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "article": "la",
-        "baseWord": "voiture",
-        "numberPlural": "2 voiture",
-        "answer": "deux voitures",
         "emoji": "🚗",
-        "form": "adjective",
-        "plural": "voitures"
-    },
-    {
-        "word": "maison",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "article": "la",
-        "baseWord": "maison",
-        "numberPlural": "3 maison",
-        "answer": "trois maisons",
-        "emoji": "🏠",
-        "form": "adjective",
-        "plural": "maisons"
-    },
-    {
-        "word": "livre",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "article": "le",
-        "baseWord": "livre",
-        "numberPlural": "des livre",
-        "answer": "des livres",
-        "emoji": "📚",
-        "form": "adjective",
-        "plural": "livres",
+        "form": "noun",
+        "plural": "voitures",
         "definitions": [
             {
-                "text": "De nombreuses pages avec des mots et des images que vous lisez.",
+                "text": "Un véhicule avec quatre roues et un moteur.",
                 "examples": [
-                    "Je lis un livre tous les soirs.",
-                    "Ce livre est intéressant."
+                    "Sa voiture est rouge."
                 ]
             }
         ]
     },
     {
-        "word": "être",
+        "word": "bus",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "👤",
-        "subtext": "avoir froid, avoir 20 ans",
+        "theme": "modes_of_transport_A0",
+        "article": "le",
+        "emoji": "🚌",
         "form": "noun",
-        "plural": "êtres"
+        "plural": "bus",
+        "definitions": [
+            {
+                "text": "Un grand véhicule qui transporte beaucoup de gens.",
+                "examples": [
+                    "Je prends le bus pour aller au travail."
+                ]
+            }
+        ]
     },
     {
-        "word": "avoir",
+        "word": "train",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "👜",
-        "subtext": "prendre le petit déjeuner, avoir une voiture",
+        "theme": "modes_of_transport_A0",
+        "article": "le",
+        "emoji": "🚆",
         "form": "noun",
-        "plural": "avoirs"
+        "plural": "trains",
+        "definitions": [
+            {
+                "text": "Un véhicule qui circule sur des rails.",
+                "examples": [
+                    "Le train est rapide."
+                ]
+            }
+        ]
     },
     {
-        "word": "aller",
+        "word": "argent",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🚶",
-        "subtext": "aller à l'école, rentrer à la maison",
-        "form": "noun",
-        "plural": "allers"
-    },
-    {
-        "word": "faire",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🛠️",
-        "subtext": "faire les devoirs, faire du sport",
-        "form": "noun",
-        "plural": "faires"
-    },
-    {
-        "word": "travailler",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "💼",
-        "subtext": "travailler dans un bureau, travailler dur",
-        "form": "noun",
-        "plural": "travaillers"
-    },
-    {
-        "word": "savoir",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🧠",
-        "subtext": "savoir la réponse, connaître une personne",
-        "form": "noun",
-        "plural": "savoirs"
-    },
-    {
-        "word": "penser",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "💭",
-        "subtext": "penser à, penser que",
-        "form": "noun",
-        "plural": "pensers"
-    },
-    {
-        "word": "vouloir",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🙏",
-        "subtext": "vouloir de l'eau, vouloir aller",
-        "form": "noun",
-        "plural": "vouloirs"
-    },
-    {
-        "word": "aimer",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "❤️",
-        "subtext": "aimer ma famille, aimer voyager",
-        "form": "noun",
-        "plural": "aimers"
-    },
-    {
-        "word": "écrire",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "✍️",
-        "subtext": "écrire une lettre, écrire un message",
-        "opposite": "lire",
-        "oppositeEmoji": "📖",
-        "form": "noun",
-        "plural": "écrires"
-    },
-    {
-        "word": "venir",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏃‍♂️",
-        "subtext": "venir ici, venir à la maison",
-        "opposite": "aller",
-        "oppositeEmoji": "🚶",
-        "form": "noun",
-        "plural": "venirs"
-    },
-    {
-        "word": "donner",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🎁",
-        "subtext": "donner un cadeau, donner de l'aide",
-        "opposite": "prendre",
-        "oppositeEmoji": "👜",
-        "form": "adjective"
-    },
-    {
-        "word": "prendre",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "👜",
-        "subtext": "prendre le bus, prendre une photo",
-        "opposite": "donner",
-        "oppositeEmoji": "🎁",
-        "form": "adjective"
-    },
-    {
-        "word": "trouver",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🔍",
-        "form": "adjective"
-    },
-    {
-        "word": "dire",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🗣️",
-        "form": "adjective"
-    },
-    {
-        "word": "demander",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "❓",
-        "form": "noun",
-        "plural": "demanders"
-    },
-    {
-        "word": "sentir",
-        "level": "starter",
-        "theme": "body_parts_A0",
-        "emoji": "🌡️",
-        "form": "noun",
-        "plural": "sentirs"
-    },
-    {
-        "word": "essayer",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🎯",
-        "form": "noun",
-        "plural": "essayers"
-    },
-    {
-        "word": "partir",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🚪",
-        "form": "noun",
-        "plural": "partirs"
-    },
-    {
-        "word": "appeler",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📞",
-        "form": "noun",
-        "plural": "appelers"
-    },
-    {
-        "word": "regarder",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "📺",
-        "form": "noun",
-        "plural": "regarders"
-    },
-    {
-        "word": "utiliser",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🛠️",
-        "form": "noun",
-        "plural": "utilisers"
-    },
-    {
-        "word": "obtenir",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📥",
-        "form": "noun",
-        "plural": "obtenirs"
-    },
-    {
-        "word": "commencer",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "▶️",
-        "opposite": "finir",
-        "oppositeEmoji": "🏁",
-        "form": "noun",
-        "plural": "commencers"
-    },
-    {
-        "word": "aider",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🤝",
-        "form": "noun",
-        "plural": "aiders"
-    },
-    {
-        "word": "jouer",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎮",
-        "form": "noun",
-        "plural": "jouers"
-    },
-    {
-        "word": "courir",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏃",
-        "form": "noun",
-        "plural": "courirs"
-    },
-    {
-        "word": "vivre",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🏠",
-        "opposite": "mourir",
-        "oppositeEmoji": "⚰️",
-        "form": "noun",
-        "plural": "vivres"
-    },
-    {
-        "word": "apporter",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🎁",
-        "form": "noun",
-        "plural": "apporters"
-    },
-    {
-        "word": "s'asseoir",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🪑",
-        "opposite": "être debout",
-        "oppositeEmoji": "🧍",
-        "form": "noun",
-        "plural": "s'asseoirs"
-    },
-    {
-        "word": "être debout",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🧍",
-        "opposite": "s'asseoir",
-        "oppositeEmoji": "🪑",
-        "form": "noun",
-        "plural": "être debouts"
-    },
-    {
-        "word": "perdre",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📉",
-        "opposite": "gagner",
-        "oppositeEmoji": "🏆",
-        "form": "noun",
-        "plural": "perdres"
-    },
-    {
-        "word": "payer",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
+        "article": "l'",
         "emoji": "💰",
         "form": "noun",
-        "plural": "payers"
+        "definitions": [
+            {
+                "text": "Pièces ou billets utilisés pour acheter des choses.",
+                "examples": [
+                    "J'ai de l'argent dans mon sac."
+                ]
+            }
+        ]
     },
     {
-        "word": "rencontrer",
+        "word": "cher",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🤝",
+        "theme": "everyday_shopping_A0",
+        "form": "adjective",
+        "emoji": "💎",
+        "opposite": "bon marché",
+        "oppositeEmoji": "🏷️",
+        "definitions": [
+            {
+                "text": "Qui coûte beaucoup d'argent.",
+                "examples": [
+                    "Cette voiture est chère."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bon marché",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "form": "adjective",
+        "emoji": "🏷️",
+        "opposite": "cher",
+        "oppositeEmoji": "💎",
+        "definitions": [
+            {
+                "text": "Pas cher ; à bas prix.",
+                "examples": [
+                    "Ce café est bon marché."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "matin",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "article": "le",
+        "emoji": "🌅",
         "form": "noun",
-        "plural": "rencontrers"
+        "plural": "matins",
+        "definitions": [
+            {
+                "text": "La partie de la journée avant 12 heures.",
+                "examples": [
+                    "Je commence le travail le matin."
+                ]
+            }
+        ]
     },
     {
-        "word": "apprendre",
+        "word": "soir",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "📚",
+        "theme": "times_day_A0",
+        "article": "le",
+        "emoji": "🌆",
         "form": "noun",
-        "plural": "apprendres"
+        "plural": "soirs",
+        "definitions": [
+            {
+                "text": "La partie de la journée après l'après-midi.",
+                "examples": [
+                    "Nous dînons le soir."
+                ]
+            }
+        ]
     },
     {
-        "word": "changer",
+        "word": "jour",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🔄",
-        "form": "adjective"
-    },
-    {
-        "word": "comprendre",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "💡",
+        "theme": "times_day_A0",
+        "article": "le",
+        "emoji": "☀️",
         "form": "noun",
-        "plural": "comprendres"
+        "plural": "jours",
+        "definitions": [
+            {
+                "text": "Une période de 24 heures.",
+                "examples": [
+                    "Je travaille cinq jours par semaine."
+                ]
+            }
+        ]
     },
     {
-        "word": "s'arrêter",
+        "word": "semaine",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🛑",
+        "theme": "times_day_A0",
+        "article": "la",
+        "emoji": "📅",
         "form": "noun",
-        "plural": "s'arrêters"
+        "plural": "semaines",
+        "definitions": [
+            {
+                "text": "Une période de sept jours.",
+                "examples": [
+                    "Je travaille cinq jours par semaine."
+                ]
+            }
+        ]
     },
     {
-        "word": "ajouter",
+        "word": "chaque jour",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "➕",
-        "form": "noun",
-        "plural": "ajouters"
-    },
-    {
-        "word": "dépenser",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "💸",
-        "form": "noun",
-        "plural": "dépensers"
-    },
-    {
-        "word": "ouvrir",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📖",
-        "opposite": "fermer",
-        "oppositeEmoji": "🔒",
-        "form": "noun",
-        "plural": "ouvrirs"
-    },
-    {
-        "word": "gagner",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏆",
-        "opposite": "perdre",
-        "oppositeEmoji": "📉",
-        "form": "noun",
-        "plural": "gagners"
+        "theme": "times_day_A0",
+        "emoji": "🔁",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Tous les jours sans exception.",
+                "examples": [
+                    "Je bois du café chaque jour."
+                ]
+            }
+        ]
     }
 ];
     const lang = "fr";

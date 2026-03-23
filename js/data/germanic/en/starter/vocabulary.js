@@ -26,6 +26,16 @@
         ]
     },
     {
+        "word": "foot",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "numberPlural": "2 foot",
+        "answer": "two feet",
+        "emoji": "🦶",
+        "form": "noun",
+        "plural": "feet"
+    },
+    {
         "word": "teacher",
         "level": "starter",
         "theme": "job_titles_professions_A0",
@@ -126,10 +136,11 @@
         "plural": "bread",
         "definitions": [
             {
-                "text": "A food made from flour and water, then baked.",
+                "text": "A common food made from flour and water.",
                 "examples": [
                     "I like fresh bread.",
-                    "Can you buy some bread?"
+                    "Can you buy some bread?",
+                    "I eat bread for breakfast."
                 ]
             }
         ]
@@ -206,14 +217,15 @@
     {
         "word": "coffee",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "☕",
         "form": "noun",
         "plural": "coffee",
         "definitions": [
             {
-                "text": "A dark drink made from roasted beans.",
+                "text": "A hot brown drink made from coffee beans.",
                 "examples": [
+                    "I drink coffee in the morning.",
                     "I drink coffee every morning.",
                     "Do you want sugar in your coffee?"
                 ]
@@ -229,16 +241,17 @@
     {
         "word": "tea",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "🍵",
         "form": "noun",
         "plural": "tea",
         "definitions": [
             {
-                "text": "A drink made by pouring hot water over dried leaves.",
+                "text": "A hot drink made with hot water and tea leaves.",
                 "examples": [
                     "Would you like a cup of tea?",
-                    "Green tea is very healthy."
+                    "Green tea is very healthy.",
+                    "She drinks tea every day."
                 ]
             },
             {
@@ -252,7 +265,7 @@
     {
         "word": "juice",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "🧃",
         "form": "noun",
         "plural": "juice",
@@ -275,16 +288,17 @@
     {
         "word": "water",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "🚰",
         "form": "noun",
         "plural": "water",
         "definitions": [
             {
-                "text": "A clear liquid that we drink to stay alive.",
+                "text": "A clear liquid that we drink.",
                 "examples": [
                     "I drink a glass of water.",
-                    "The water is cold."
+                    "The water is cold.",
+                    "Please drink water."
                 ]
             }
         ]
@@ -292,7 +306,7 @@
     {
         "word": "park",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "local_places_services_A0",
         "emoji": "🌳",
         "form": "noun",
         "plural": "parks",
@@ -309,20 +323,13 @@
                 "examples": [
                     "Children play in the park."
                 ]
-            },
-            {
-                "text": "To leave a car or vehicle in a specific place for a time.",
-                "examples": [
-                    "Where can I park my car?",
-                    "Don't park here."
-                ]
             }
         ]
     },
     {
         "word": "school",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "local_places_services_A0",
         "emoji": "🏫",
         "form": "noun",
         "plural": "schools",
@@ -339,7 +346,7 @@
     {
         "word": "t-shirt",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👕",
         "form": "noun",
         "plural": "t-shirts"
@@ -347,7 +354,7 @@
     {
         "word": "pants",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👖",
         "form": "noun",
         "plural": "pants"
@@ -355,7 +362,7 @@
     {
         "word": "shoe",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👟",
         "form": "noun",
         "plural": "shoes"
@@ -363,7 +370,7 @@
     {
         "word": "hat",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👒",
         "form": "noun",
         "plural": "hats"
@@ -424,6 +431,8 @@
         "level": "starter",
         "theme": "size_shape_A0",
         "form": "adjective",
+        "opposite": "short",
+        "oppositeEmoji": "📏",
         "definitions": [
             {
                 "text": "A person or thing that is big from bottom to top.",
@@ -439,6 +448,8 @@
         "level": "starter",
         "theme": "size_shape_A0",
         "form": "adjective",
+        "opposite": "tall",
+        "oppositeEmoji": "🗼",
         "definitions": [
             {
                 "text": "A person or thing that is not tall.",
@@ -453,13 +464,17 @@
         "word": "young",
         "level": "starter",
         "theme": "size_shape_A0",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "old",
+        "oppositeEmoji": "👴"
     },
     {
         "word": "old",
         "level": "starter",
         "theme": "size_shape_A0",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "young",
+        "oppositeEmoji": "👶"
     },
     {
         "word": "key",
@@ -488,7 +503,7 @@
     {
         "word": "phone",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "phones"
@@ -508,13 +523,6 @@
                 "examples": [
                     "I read a book every night.",
                     "This book is interesting."
-                ]
-            },
-            {
-                "text": "To arrange to have something in the future (like a room or a table).",
-                "examples": [
-                    "I want to book a hotel room.",
-                    "We should book a table for dinner."
                 ]
             }
         ]
@@ -556,7 +564,7 @@
     {
         "word": "cat",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "emoji": "🐈",
         "numberPlural": "2 cat",
         "answer": "two cats",
@@ -575,7 +583,7 @@
     {
         "word": "dog",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "emoji": "🐕",
         "numberPlural": "5 dog",
         "answer": "five dogs",
@@ -594,7 +602,7 @@
     {
         "word": "bird",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "emoji": "🐦",
         "form": "noun",
         "plural": "birds",
@@ -611,7 +619,7 @@
     {
         "word": "fish",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "emoji": "🐟",
         "form": "noun",
         "plural": "fish",
@@ -621,13 +629,6 @@
                 "examples": [
                     "There are many fish in the sea.",
                     "The fish is swimming."
-                ]
-            },
-            {
-                "text": "To try to catch fish with a net or a hook.",
-                "examples": [
-                    "We like to fish in the river.",
-                    "He is fishing today."
                 ]
             }
         ]
@@ -651,14 +652,18 @@
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "🔥",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "cold",
+        "oppositeEmoji": "❄️"
     },
     {
         "word": "cold",
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "❄️",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "hot",
+        "oppositeEmoji": "🔥"
     },
     {
         "word": "head",
@@ -673,13 +678,6 @@
                 "examples": [
                     "I have a hat on my head.",
                     "He nodded his head."
-                ]
-            },
-            {
-                "text": "The leader of a group or organization.",
-                "examples": [
-                    "She is the head of the department.",
-                    "Who is the head of this school?"
                 ]
             }
         ]
@@ -697,13 +695,6 @@
                 "examples": [
                     "Wash your hands before dinner.",
                     "Give me your hand."
-                ]
-            },
-            {
-                "text": "Help or assistance.",
-                "examples": [
-                    "Can you give me a hand?",
-                    "I need some help here."
                 ]
             }
         ]
@@ -774,7 +765,7 @@
     {
         "word": "smartphone",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "smartphones"
@@ -792,12 +783,6 @@
                 "examples": [
                     "My mother is very kind.",
                     "I love my mother."
-                ]
-            },
-            {
-                "text": "This person is usually the wife of your father (or another parent).",
-                "examples": [
-                    "Mothers take care of their children."
                 ]
             }
         ]
@@ -822,7 +807,7 @@
     {
         "word": "man",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "physical_appearance_A1",
         "numberPlural": "2 man",
         "answer": "two men",
         "emoji": "👨",
@@ -830,10 +815,11 @@
         "plural": "men",
         "definitions": [
             {
-                "text": "An adult male human.",
+                "text": "An adult male person.",
                 "examples": [
                     "That man is my teacher.",
-                    "A tall man is standing there."
+                    "A tall man is standing there.",
+                    "That man is my boss."
                 ]
             }
         ]
@@ -841,7 +827,7 @@
     {
         "word": "woman",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "physical_appearance_A1",
         "numberPlural": "2 woman",
         "answer": "two women",
         "emoji": "👩",
@@ -849,23 +835,574 @@
         "plural": "women",
         "definitions": [
             {
-                "text": "An adult female human.",
+                "text": "An adult female person.",
                 "examples": [
                     "She is a very strong woman.",
-                    "There are three women in the office."
+                    "There are three women in the office.",
+                    "That woman is a doctor."
                 ]
             }
         ]
     },
     {
-        "word": "foot",
+        "word": "work",
         "level": "starter",
-        "theme": "body_parts_A0",
-        "numberPlural": "2 foot",
-        "answer": "two feet",
-        "emoji": "🦶",
+        "theme": "job_titles_professions_A0",
+        "emoji": "💼",
         "form": "noun",
-        "plural": "feet"
+        "subtext": "at work, go to work",
+        "definitions": [
+            {
+                "text": "A job; a place where people go to earn money.",
+                "examples": [
+                    "I go to work every day."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "job",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "emoji": "💼",
+        "form": "noun",
+        "plural": "jobs",
+        "definitions": [
+            {
+                "text": "The work that a person does to earn money.",
+                "examples": [
+                    "She has a good job."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "office",
+        "level": "starter",
+        "theme": "rooms_indoor_spaces_A0",
+        "emoji": "🏢",
+        "form": "noun",
+        "plural": "offices",
+        "definitions": [
+            {
+                "text": "A room or building where people work.",
+                "examples": [
+                    "He is in the office."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "home",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "emoji": "🏠",
+        "form": "noun",
+        "subtext": "go home, at home",
+        "definitions": [
+            {
+                "text": "The place where you live.",
+                "examples": [
+                    "I go home at six o'clock."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "house",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "emoji": "🏡",
+        "form": "noun",
+        "plural": "houses",
+        "definitions": [
+            {
+                "text": "A building where a family lives.",
+                "examples": [
+                    "They have a big house."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "flat",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A0",
+        "emoji": "🏢",
+        "form": "noun",
+        "plural": "flats",
+        "subtext": "live in a flat",
+        "definitions": [
+            {
+                "text": "A set of rooms on one floor of a building.",
+                "examples": [
+                    "She lives in a flat."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "car",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚗",
+        "form": "noun",
+        "plural": "cars",
+        "definitions": [
+            {
+                "text": "A vehicle with four wheels and an engine.",
+                "examples": [
+                    "His car is red."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bus",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚌",
+        "form": "noun",
+        "plural": "buses",
+        "subtext": "take the bus, go by bus",
+        "definitions": [
+            {
+                "text": "A large vehicle that carries many people.",
+                "examples": [
+                    "I take the bus to work."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "train",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚆",
+        "form": "noun",
+        "plural": "trains",
+        "subtext": "take the train, by train",
+        "definitions": [
+            {
+                "text": "A vehicle that runs on rails.",
+                "examples": [
+                    "The train is fast."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "food",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍲",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Things that people eat.",
+                "examples": [
+                    "The food is good here."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rice",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍚",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Small white grains that we cook and eat.",
+                "examples": [
+                    "We eat rice every day."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "meat",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🥩",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Food that comes from animals.",
+                "examples": [
+                    "He eats meat and vegetables."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "breakfast",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "emoji": "🍳",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The first meal of the day.",
+                "examples": [
+                    "Breakfast is at seven o'clock."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dinner",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "emoji": "🍽️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The main meal of the day, usually in the evening.",
+                "examples": [
+                    "Dinner is at eight o'clock."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "money",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💰",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Coins or notes used to buy things.",
+                "examples": [
+                    "I have money in my bag."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cheap",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🏷️",
+        "form": "adjective",
+        "opposite": "expensive",
+        "oppositeEmoji": "💎",
+        "definitions": [
+            {
+                "text": "Not expensive; low in price.",
+                "examples": [
+                    "This coffee is cheap."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "expensive",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💎",
+        "form": "adjective",
+        "opposite": "cheap",
+        "oppositeEmoji": "🏷️",
+        "definitions": [
+            {
+                "text": "Costing a lot of money.",
+                "examples": [
+                    "That car is expensive."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "shop",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": "shops",
+        "definitions": [
+            {
+                "text": "A place where you can buy things.",
+                "examples": [
+                    "The shop is open."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "family",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "families",
+        "definitions": [
+            {
+                "text": "A group of people who are related.",
+                "examples": [
+                    "My family is big."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "friend",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "👫",
+        "form": "noun",
+        "plural": "friends",
+        "definitions": [
+            {
+                "text": "A person you like and know well.",
+                "examples": [
+                    "She is my friend."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "partner",
+        "level": "starter",
+        "theme": "marital_status_A0",
+        "emoji": "💑",
+        "form": "noun",
+        "plural": "partners",
+        "definitions": [
+            {
+                "text": "The person you live with or are in a relationship with.",
+                "examples": [
+                    "My partner works here."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "good",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "👍",
+        "form": "adjective",
+        "opposite": "bad",
+        "oppositeEmoji": "👎",
+        "definitions": [
+            {
+                "text": "Of high quality or ability; pleasant.",
+                "examples": [
+                    "This is a good job."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bad",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "👎",
+        "form": "adjective",
+        "opposite": "good",
+        "oppositeEmoji": "👍",
+        "definitions": [
+            {
+                "text": "Not good; unpleasant or of poor quality.",
+                "examples": [
+                    "The weather is bad today."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "big",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "🐘",
+        "form": "adjective",
+        "opposite": "small",
+        "oppositeEmoji": "🐭",
+        "definitions": [
+            {
+                "text": "Large in size.",
+                "examples": [
+                    "It is a big office."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "small",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "🐭",
+        "form": "adjective",
+        "opposite": "big",
+        "oppositeEmoji": "🐘",
+        "definitions": [
+            {
+                "text": "Little in size.",
+                "examples": [
+                    "She has a small flat."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "easy",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "difficult",
+        "oppositeEmoji": "❌",
+        "definitions": [
+            {
+                "text": "Not difficult.",
+                "examples": [
+                    "The test is easy."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "difficult",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "❌",
+        "form": "adjective",
+        "opposite": "easy",
+        "oppositeEmoji": "✅",
+        "definitions": [
+            {
+                "text": "Hard to do or understand.",
+                "examples": [
+                    "This work is difficult."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "happy",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "😊",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Feeling pleasure or joy.",
+                "examples": [
+                    "I am happy today."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tired",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "😫",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Needing rest or sleep.",
+                "examples": [
+                    "I am very tired after work."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "morning",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "🌅",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The part of the day before 12 o'clock.",
+                "examples": [
+                    "I start work in the morning."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "evening",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "🌆",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The part of the day after afternoon and before night.",
+                "examples": [
+                    "We eat dinner in the evening."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "day",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "☀️",
+        "form": "noun",
+        "plural": "days",
+        "definitions": [
+            {
+                "text": "A period of 24 hours.",
+                "examples": [
+                    "I work five days a week."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "week",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "weeks",
+        "definitions": [
+            {
+                "text": "A period of seven days.",
+                "examples": [
+                    "I work five days a week."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "every day",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "🔁",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "On each day without exception.",
+                "examples": [
+                    "I drink coffee every day."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lunch",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "emoji": "🍱",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A meal eaten in the middle of the day.",
+                "examples": [
+                    "I eat lunch at one o'clock.",
+                    "What is for lunch?"
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";

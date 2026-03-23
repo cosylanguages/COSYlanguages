@@ -1,57 +1,115 @@
 (function() {
     const data = [
     {
-        "word": "disegnare",
+        "word": "svegliarsi",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎨",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏰",
         "form": "verb",
+        "subtext": "svegliarsi presto, svegliarsi alle 7",
+        "opposite": "dormire",
+        "oppositeEmoji": "😴",
         "definitions": [
             {
-                "text": "Rappresentare qualcosa con linee e colori su carta.",
+                "text": "Smettere di dormire e aprire gli occhi.",
                 "examples": [
-                    "Mi piace disegnare paesaggi.",
-                    "Disegna un cerchio."
+                    "Mi sveglio alle sette.",
+                    "A che ora ti svegli?"
                 ]
             }
         ]
     },
     {
-        "word": "cucinare",
+        "word": "lavorare",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🍳",
-        "form": "verb"
+        "theme": "daily_work_routines_A1",
+        "emoji": "💼",
+        "subtext": "lavorare in ufficio, lavorare sodo",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Fare un lavoro per guadagnare denaro.",
+                "examples": [
+                    "Lavoro cinque giorni a settimana.",
+                    "Lei lavora in banca."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dormire",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "😴",
+        "subtext": "dormire 8 ore, andare a dormire",
+        "opposite": "svegliarsi",
+        "oppositeEmoji": "⏰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Riposare con gli occhi chiusi.",
+                "examples": [
+                    "Ho bisogno di dormire.",
+                    "Il bambino dorme."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "guardare",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "📺",
+        "form": "verb",
+        "subtext": "guardare la TV, guardare un film",
+        "definitions": [
+            {
+                "text": "Fissare lo sguardo su qualcosa.",
+                "examples": [
+                    "Guardo la TV la sera.",
+                    "Guardano gli uccelli."
+                ]
+            }
+        ]
     },
     {
         "word": "leggere",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "leggere un libro, leggere le notizie",
+        "form": "verb",
+        "subtext": "leggere un libro, leggere il giornale",
         "opposite": "scrivere",
         "oppositeEmoji": "✍️",
+        "definitions": [
+            {
+                "text": "Guardare e capire parole scritte.",
+                "examples": [
+                    "Leggo un libro ogni notte.",
+                    "Lei sa leggere l'italiano."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "essere",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "👤",
         "form": "verb"
     },
     {
-        "word": "cantare",
+        "word": "avere",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎤",
+        "theme": "personal_identity",
+        "emoji": "👜",
         "form": "verb"
     },
     {
-        "word": "soleggiato",
+        "word": "andare",
         "level": "starter",
-        "theme": "weather_A0",
-        "emoji": "☀️",
-        "form": "verb"
-    },
-    {
-        "word": "piovoso",
-        "level": "starter",
-        "theme": "weather_A0",
-        "emoji": "🌧️",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚶",
         "form": "verb"
     },
     {
@@ -59,15 +117,15 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "emoji": "🍎",
-        "subtext": "mangiare una mela, cenare",
+        "subtext": "mangiare una mela, mangiare la cena",
         "opposite": "bere",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
-                "text": "Mettere del cibo in bocca e deglutire.",
+                "text": "Mettere cibo in bocca e deglutire.",
                 "examples": [
-                    "Mangio una mela al giorno.",
+                    "Mangio una mela ogni giorno.",
                     "Cosa vuoi mangiare?"
                 ]
             }
@@ -76,303 +134,398 @@
     {
         "word": "bere",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "🥛",
         "subtext": "bere acqua, bere caffè",
+        "opposite": "mangiare",
+        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
-                "text": "Introdurre un liquido in bocca e deglutire.",
+                "text": "Prendere un liquido per bocca e deglutire.",
                 "examples": [
                     "Bevo molta acqua.",
-                    "Vuoi qualcosa da bere?"
+                    "Vuoi bere qualcosa?"
                 ]
             }
         ]
+    },
+    {
+        "word": "fare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛠️",
+        "form": "verb"
     },
     {
         "word": "parlare",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "💬",
-        "subtext": "parlare inglese, parlare lentamente",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Esprimersi con la voce.",
-                "examples": [
-                    "Parlo con il mio amico.",
-                    "Lui parla tre lingue."
-                ]
-            }
-        ]
+        "theme": "language_communication",
+        "emoji": "🗣️",
+        "form": "verb"
+    },
+    {
+        "word": "sapere",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🧠",
+        "form": "verb"
+    },
+    {
+        "word": "pensare",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "💭",
+        "form": "verb"
     },
     {
         "word": "vedere",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "health_body",
         "emoji": "👁️",
-        "subtext": "vedere un film, vedere un amico",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Usare gli occhi per guardare qualcosa.",
-                "examples": [
-                    "Vedo un uccello.",
-                    "Hai visto quel film?"
-                ]
-            }
-        ]
+        "form": "verb"
+    },
+    {
+        "word": "volere",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🙏",
+        "form": "verb"
+    },
+    {
+        "word": "amare",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "❤️",
+        "form": "verb"
+    },
+    {
+        "word": "scrivere",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "✍️",
+        "form": "verb"
+    },
+    {
+        "word": "venire",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🏃‍♂️",
+        "form": "verb"
+    },
+    {
+        "word": "dare",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "verb"
+    },
+    {
+        "word": "prendere",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "👜",
+        "form": "verb"
+    },
+    {
+        "word": "trovare",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔍",
+        "form": "verb"
+    },
+    {
+        "word": "dire",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗣️",
+        "form": "verb"
+    },
+    {
+        "word": "chiedere",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "❓",
+        "form": "verb"
+    },
+    {
+        "word": "sentire",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🌡️",
+        "form": "verb"
+    },
+    {
+        "word": "provare",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🎯",
+        "form": "verb"
+    },
+    {
+        "word": "partire",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚪",
+        "form": "verb"
+    },
+    {
+        "word": "chiamare",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "📞",
+        "form": "verb"
+    },
+    {
+        "word": "utilizzare",
+        "level": "starter",
+        "theme": "technology_media",
+        "emoji": "🛠️",
+        "form": "verb"
+    },
+    {
+        "word": "ottenere",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📥",
+        "form": "verb"
+    },
+    {
+        "word": "iniziare",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "▶️",
+        "form": "verb"
+    },
+    {
+        "word": "aiutare",
+        "level": "starter",
+        "theme": "society_politics",
+        "emoji": "🤝",
+        "form": "verb"
+    },
+    {
+        "word": "giocare",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎮",
+        "form": "verb"
+    },
+    {
+        "word": "correre",
+        "level": "starter",
+        "theme": "common_sports_A0",
+        "emoji": "🏃",
+        "form": "verb"
+    },
+    {
+        "word": "vivere",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "🏠",
+        "form": "verb"
+    },
+    {
+        "word": "portare",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "verb"
+    },
+    {
+        "word": "sedersi",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🪑",
+        "form": "verb"
+    },
+    {
+        "word": "stare in piedi",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🧍",
+        "form": "verb"
+    },
+    {
+        "word": "perdere",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "📉",
+        "form": "verb"
+    },
+    {
+        "word": "pagare",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💰",
+        "form": "verb"
+    },
+    {
+        "word": "incontrare",
+        "level": "starter",
+        "theme": "society_politics",
+        "emoji": "🤝",
+        "form": "verb"
+    },
+    {
+        "word": "imparare",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "📚",
+        "form": "verb"
+    },
+    {
+        "word": "cambiare",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🔄",
+        "form": "verb"
+    },
+    {
+        "word": "capire",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "💡",
+        "form": "verb"
+    },
+    {
+        "word": "fermarsi",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🛑",
+        "form": "verb"
+    },
+    {
+        "word": "aggiungere",
+        "level": "starter",
+        "theme": "numbers_math",
+        "emoji": "➕",
+        "form": "verb"
+    },
+    {
+        "word": "spendere",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💸",
+        "form": "verb"
+    },
+    {
+        "word": "aprire",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "form": "verb"
+    },
+    {
+        "word": "vincere",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏆",
+        "form": "verb"
     },
     {
         "word": "camminare",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "🚶",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Muoversi a piedi.",
-                "examples": [
-                    "Mi piace camminare in montagna.",
-                    "Camminiamo verso casa."
-                ]
-            }
-        ]
+        "form": "verb"
     },
     {
         "word": "ricordare",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "education_learning",
         "emoji": "🧠",
         "form": "verb"
     },
     {
         "word": "comprare",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🛒",
-        "opposite": "vendere",
-        "oppositeEmoji": "🏷️",
-        "form": "verb"
-    },
-    {
-        "word": "aspettare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "⏳",
         "form": "verb"
     },
     {
         "word": "morire",
         "level": "starter",
-        "theme": "body_parts_A0",
+        "theme": "health_body",
         "emoji": "⚰️",
-        "opposite": "vivere",
-        "oppositeEmoji": "🏠",
         "form": "verb"
     },
     {
         "word": "inviare",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "language_communication",
         "emoji": "✉️",
-        "form": "verb"
-    },
-    {
-        "word": "restare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏨",
         "form": "verb"
     },
     {
         "word": "cadere",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "environment_nature",
         "emoji": "🍂",
         "form": "verb"
     },
     {
         "word": "tagliare",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "food_drink",
         "emoji": "✂️",
         "form": "verb"
     },
     {
         "word": "passare",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "education_learning",
         "emoji": "🏔️",
         "form": "verb"
     },
     {
         "word": "vendere",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🏷️",
-        "opposite": "comprare",
-        "oppositeEmoji": "🛒",
         "form": "verb"
     },
     {
         "word": "tirare",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🚜",
-        "opposite": "spingere",
-        "oppositeEmoji": "🛒",
         "form": "verb"
     },
     {
         "word": "spingere",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🛒",
-        "opposite": "tirare",
-        "oppositeEmoji": "🚜",
         "form": "verb"
     },
     {
         "word": "sperare",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "feelings_emotions",
         "emoji": "🤞",
         "form": "verb"
     },
     {
-        "word": "rompere",
+        "word": "cucinare",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "💔",
+        "theme": "food_drink",
+        "emoji": "🍳",
         "form": "verb"
     },
     {
-        "word": "ricevere",
+        "word": "fermare",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📩",
-        "form": "verb"
-    },
-    {
-        "word": "essere d'accordo",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "👍",
-        "form": "verb"
-    },
-    {
-        "word": "condividere",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🍕",
-        "form": "verb"
-    },
-    {
-        "word": "sorridere",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "😊",
-        "opposite": "piangere",
-        "oppositeEmoji": "😢",
-        "form": "verb"
-    },
-    {
-        "word": "piangere",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "😢",
-        "opposite": "sorridere",
-        "oppositeEmoji": "😊",
-        "form": "verb"
-    },
-    {
-        "word": "ballare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "💃",
-        "form": "verb"
-    },
-    {
-        "word": "saltare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🦘",
-        "form": "verb"
-    },
-    {
-        "word": "volare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "✈️",
-        "form": "verb"
-    },
-    {
-        "word": "nuotare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏊",
-        "form": "verb"
-    },
-    {
-        "word": "lavare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🧼",
-        "form": "verb"
-    },
-    {
-        "word": "pulire",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🧹",
-        "form": "verb"
-    },
-    {
-        "word": "viaggiare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "✈️",
-        "form": "verb"
-    },
-    {
-        "word": "studiare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "📖",
-        "form": "verb"
-    },
-    {
-        "word": "insegnare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "👨‍🏫",
-        "form": "verb"
-    },
-    {
-        "word": "ascoltare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎧",
-        "form": "verb"
-    },
-    {
-        "word": "chiudere",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🔒",
-        "opposite": "aprire",
-        "oppositeEmoji": "📖",
         "form": "verb"
     },
     {
         "word": "finire",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "time",
         "emoji": "🏁",
-        "opposite": "iniziare",
-        "oppositeEmoji": "▶️",
         "form": "verb"
     }
 ];

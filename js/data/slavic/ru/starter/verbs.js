@@ -1,9 +1,115 @@
 (function() {
     const data = [
     {
-        "word": "чтение",
+        "word": "просыпаться",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏰",
+        "form": "verb",
+        "subtext": "просыпаться рано, просыпаться в 7 утра",
+        "opposite": "спать",
+        "oppositeEmoji": "😴",
+        "definitions": [
+            {
+                "text": "Перестать спать и открыть глаза.",
+                "examples": [
+                    "Я просыпаюсь в семь часов.",
+                    "Во сколько ты просыпаешься?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "работать",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💼",
+        "subtext": "работать в офисе, много работать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Заниматься делом, чтобы зарабатывать деньги.",
+                "examples": [
+                    "Я работаю пять дней в неделю.",
+                    "Она работает в банке."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "спать",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "😴",
+        "subtext": "спать 8 часов, ложиться спать",
+        "opposite": "просыпаться",
+        "oppositeEmoji": "⏰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Отдыхать с закрытыми глазами.",
+                "examples": [
+                    "Мне нужно поспать.",
+                    "Ребёнок спит."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "смотреть",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "📺",
+        "form": "verb",
+        "subtext": "смотреть телевизор, смотреть фильм",
+        "definitions": [
+            {
+                "text": "Направлять взгляд на что-либо.",
+                "examples": [
+                    "Я смотрю телевизор вечером.",
+                    "Они смотрят на птиц."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "читать",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "form": "verb",
+        "subtext": "читать книгу, читать газету",
+        "opposite": "писать",
+        "oppositeEmoji": "✍️",
+        "definitions": [
+            {
+                "text": "Воспринимать и понимать написанное.",
+                "examples": [
+                    "Я читаю книгу каждый вечер.",
+                    "Она умеет читать по-русски."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "быть",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "👤",
+        "form": "verb"
+    },
+    {
+        "word": "иметь",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "👜",
+        "form": "verb"
+    },
+    {
+        "word": "идти",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚶",
         "form": "verb"
     },
     {
@@ -11,13 +117,13 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "emoji": "🍎",
-        "subtext": "есть яблоко, ужинать",
+        "subtext": "синоним: кушать",
         "opposite": "пить",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
-                "text": "Класть еду в рот и глотать ее.",
+                "text": "Принимать пищу.",
                 "examples": [
                     "Я ем яблоко каждый день.",
                     "Что ты хочешь поесть?"
@@ -26,385 +132,419 @@
         ]
     },
     {
-        "word": "пить",
+        "word": "кушать",
         "level": "starter",
         "theme": "basic_foods_A0",
-        "emoji": "🥛",
-        "subtext": "пить воду, пить кофе",
+        "emoji": "🍎",
+        "subtext": "синоним: есть",
+        "opposite": "пить",
+        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
-                "text": "Принимать жидкость внутрь через рот.",
+                "text": "Принимать пищу (более вежливый или детский вариант).",
                 "examples": [
-                    "Я пью много воды.",
-                    "Хочешь чего-нибудь выпить?"
+                    "Садись кушать.",
+                    "Приятного аппетита!"
                 ]
             }
         ]
+    },
+    {
+        "word": "пить",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "emoji": "🥛",
+        "subtext": "пить воду, пить кофе",
+        "opposite": "кушать",
+        "oppositeEmoji": "🍎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Поглощать жидкость.",
+                "examples": [
+                    "Я пью много воды.",
+                    "Хочешь что-нибудь попить?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "делать",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛠️",
+        "form": "verb"
+    },
+    {
+        "word": "говорить",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗣️",
+        "form": "verb"
+    },
+    {
+        "word": "знать",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🧠",
+        "form": "verb"
+    },
+    {
+        "word": "думать",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "💭",
+        "form": "verb"
     },
     {
         "word": "видеть",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "health_body",
         "emoji": "👁️",
-        "subtext": "видеть фильм, видеть друга",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Воспринимать что-либо глазами.",
-                "examples": [
-                    "Я вижу птицу.",
-                    "Ты видел этот фильм?"
-                ]
-            }
-        ]
+        "form": "verb"
     },
     {
-        "word": "читать",
+        "word": "хотеть",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📖",
-        "subtext": "читать книгу, читать новости",
-        "opposite": "писать",
-        "oppositeEmoji": "✍️",
+        "theme": "feelings_emotions",
+        "emoji": "🙏",
+        "form": "verb"
+    },
+    {
+        "word": "любить",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "❤️",
         "form": "verb"
     },
     {
         "word": "писать",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "learning_studying_A1",
         "emoji": "✍️",
-        "subtext": "писать письмо, писать сообщение",
-        "opposite": "читать",
-        "oppositeEmoji": "📖",
         "form": "verb"
     },
     {
         "word": "приходить",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "🏃‍♂️",
-        "subtext": "прийти сюда, прийти домой",
-        "opposite": "идти",
-        "oppositeEmoji": "🚶",
         "form": "verb"
     },
     {
         "word": "давать",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🎁",
-        "subtext": "дарить подарок, помогать",
-        "opposite": "брать",
-        "oppositeEmoji": "👜",
         "form": "verb"
     },
     {
-        "word": "разговаривать",
+        "word": "брать",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "💬",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Общаться с помощью слов.",
-                "examples": [
-                    "Я люблю разговаривать с друзьями.",
-                    "Они долго разговаривали."
-                ]
-            }
-        ]
+        "theme": "modes_of_transport_A0",
+        "emoji": "👜",
+        "form": "verb"
+    },
+    {
+        "word": "находить",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔍",
+        "form": "verb"
+    },
+    {
+        "word": "рассказывать",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗣️",
+        "form": "verb"
+    },
+    {
+        "word": "спрашивать",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "❓",
+        "form": "verb"
+    },
+    {
+        "word": "чувствовать",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🌡️",
+        "form": "verb"
+    },
+    {
+        "word": "пробовать",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🎯",
+        "form": "verb"
+    },
+    {
+        "word": "уходить",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚪",
+        "form": "verb"
+    },
+    {
+        "word": "звонить",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "📞",
+        "form": "verb"
+    },
+    {
+        "word": "использовать",
+        "level": "starter",
+        "theme": "technology_media",
+        "emoji": "🛠️",
+        "form": "verb"
+    },
+    {
+        "word": "получать",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📥",
+        "form": "verb"
+    },
+    {
+        "word": "начинать",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "▶️",
+        "form": "verb"
+    },
+    {
+        "word": "помогать",
+        "level": "starter",
+        "theme": "society_politics",
+        "emoji": "🤝",
+        "form": "verb"
+    },
+    {
+        "word": "играть",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎮",
+        "form": "verb"
+    },
+    {
+        "word": "бегать",
+        "level": "starter",
+        "theme": "common_sports_A0",
+        "emoji": "🏃",
+        "form": "verb"
+    },
+    {
+        "word": "жить",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "🏠",
+        "form": "verb"
+    },
+    {
+        "word": "приносить",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "verb"
+    },
+    {
+        "word": "сидеть",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🪑",
+        "form": "verb"
+    },
+    {
+        "word": "стоять",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🧍",
+        "form": "verb"
+    },
+    {
+        "word": "проигрывать",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "📉",
+        "form": "verb"
+    },
+    {
+        "word": "платить",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💰",
+        "form": "verb"
+    },
+    {
+        "word": "встречать",
+        "level": "starter",
+        "theme": "society_politics",
+        "emoji": "🤝",
+        "form": "verb"
+    },
+    {
+        "word": "учить",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "📚",
+        "form": "verb"
+    },
+    {
+        "word": "менять",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🔄",
+        "form": "verb"
+    },
+    {
+        "word": "понимать",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "💡",
+        "form": "verb"
+    },
+    {
+        "word": "останавливаться",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🛑",
+        "form": "verb"
+    },
+    {
+        "word": "добавлять",
+        "level": "starter",
+        "theme": "numbers_math",
+        "emoji": "➕",
+        "form": "verb"
+    },
+    {
+        "word": "тратить",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💸",
+        "form": "verb"
     },
     {
         "word": "открывать",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "📖",
-        "opposite": "закрывать",
-        "oppositeEmoji": "🔒",
+        "form": "verb"
+    },
+    {
+        "word": "побеждать",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏆",
         "form": "verb"
     },
     {
         "word": "гулять",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "🚶",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Идти пешком ради удовольствия.",
-                "examples": [
-                    "Я гуляю в парке.",
-                    "Пойдем погуляем?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "выигрывать",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏆",
-        "opposite": "терять",
-        "oppositeEmoji": "📉",
         "form": "verb"
     },
     {
         "word": "помнить",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "education_learning",
         "emoji": "🧠",
         "form": "verb"
     },
     {
         "word": "покупать",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🛒",
-        "opposite": "продавать",
-        "oppositeEmoji": "🏷️",
-        "form": "verb"
-    },
-    {
-        "word": "ждать",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "⏳",
         "form": "verb"
     },
     {
         "word": "умирать",
         "level": "starter",
-        "theme": "body_parts_A0",
+        "theme": "health_body",
         "emoji": "⚰️",
-        "opposite": "жить",
-        "oppositeEmoji": "🏠",
         "form": "verb"
     },
     {
-        "word": "посылать",
+        "word": "отправлять",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "language_communication",
         "emoji": "✉️",
         "form": "verb"
     },
     {
         "word": "падать",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "environment_nature",
         "emoji": "🍂",
         "form": "verb"
     },
     {
         "word": "резать",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "food_drink",
         "emoji": "✂️",
         "form": "verb"
     },
     {
         "word": "проходить",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "education_learning",
         "emoji": "🏔️",
         "form": "verb"
     },
     {
         "word": "продавать",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🏷️",
-        "opposite": "покупать",
-        "oppositeEmoji": "🛒",
         "form": "verb"
     },
     {
         "word": "тянуть",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🚜",
-        "opposite": "толкать",
-        "oppositeEmoji": "🛒",
         "form": "verb"
     },
     {
         "word": "толкать",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🛒",
-        "opposite": "тянуть",
-        "oppositeEmoji": "🚜",
         "form": "verb"
     },
     {
         "word": "надеяться",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "feelings_emotions",
         "emoji": "🤞",
-        "form": "verb"
-    },
-    {
-        "word": "нести",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🎒",
-        "form": "verb"
-    },
-    {
-        "word": "ломать",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "💔",
-        "form": "verb"
-    },
-    {
-        "word": "соглашаться",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "👍",
-        "form": "verb"
-    },
-    {
-        "word": "рисовать",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎨",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Изображать что-либо с помощью линий и красок на бумаге.",
-                "examples": [
-                    "Мне нравится рисовать пейзажи.",
-                    "Нарисуй круг."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "делиться",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🍕",
-        "form": "verb"
-    },
-    {
-        "word": "улыбаться",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "😊",
-        "opposite": "плакать",
-        "oppositeEmoji": "😢",
-        "form": "verb"
-    },
-    {
-        "word": "плакать",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "😢",
-        "opposite": "улыбаться",
-        "oppositeEmoji": "😊",
-        "form": "verb"
-    },
-    {
-        "word": "танцевать",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "💃",
-        "form": "verb"
-    },
-    {
-        "word": "петь",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎤",
-        "form": "verb"
-    },
-    {
-        "word": "прыгать",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🦘",
-        "form": "verb"
-    },
-    {
-        "word": "летать",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "✈️",
-        "form": "verb"
-    },
-    {
-        "word": "плавать",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏊",
-        "form": "verb"
-    },
-    {
-        "word": "мыть",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🧼",
-        "form": "verb"
-    },
-    {
-        "word": "чистить",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🧹",
         "form": "verb"
     },
     {
         "word": "готовить",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "food_drink",
         "emoji": "🍳",
-        "form": "verb"
-    },
-    {
-        "word": "путешествовать",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "✈️",
-        "form": "verb"
-    },
-    {
-        "word": "учиться",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "📖",
-        "form": "verb"
-    },
-    {
-        "word": "преподавать",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "👨‍🏫",
-        "form": "verb"
-    },
-    {
-        "word": "слушать",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎧",
         "form": "verb"
     },
     {
         "word": "закрывать",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🔒",
-        "opposite": "открывать",
-        "oppositeEmoji": "📖",
         "form": "verb"
     },
     {
         "word": "заканчивать",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "time",
         "emoji": "🏁",
-        "opposite": "начинать",
-        "oppositeEmoji": "▶️",
         "form": "verb"
     }
 ];
