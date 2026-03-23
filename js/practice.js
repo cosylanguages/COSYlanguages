@@ -183,6 +183,16 @@ function populatePracticeThemes(categoryId) {
     updateThemeDescription();
 }
 
+// Group items by sub-theme for the sort exercise
+function buildSortGroups(itemPool) {
+    const subThemes = [...new Set(itemPool.map(i => i.theme).filter(Boolean))];
+    const picked = subThemes.sort(() => 0.5 - Math.random()).slice(0, 2); // pick 2 sub-themes
+    return picked.map(st => ({
+        label: st.replace(/_/g, ' '),
+        items: itemPool.filter(i => i.theme === st).slice(0, 5)
+    }));
+}
+
 function populateSubThemes() {
     const themeSelect = document.getElementById('practice-theme');
     const subThemeSelect = document.getElementById('practice-sub-theme');
@@ -1302,6 +1312,23 @@ function startPractice(isWheelMode = false) {
     const srsData = Store.load();
     currentPractice.words = SM2.selectItems(srsData, currentPractice.words, currentPractice.language, 20);
 
+    // Multi-item Exercise Integration (only for 'vocab' category)
+    if (selectedCat === 'vocab' && !isWheelMode) {
+        const roll = Math.random();
+        if (roll < 0.15) {
+            // Category Sort Warm-up
+            const groups = buildSortGroups(currentPractice.words);
+            if (groups.length >= 2 && groups.every(g => g.items.length >= 3)) {
+                currentPractice.currentExerciseMode = 'categorySort';
+                currentPractice.sortGroups = groups;
+            }
+        } else if (roll < 0.3) {
+            // Speed Round Triage
+            currentPractice.currentExerciseMode = 'speedRound';
+            currentPractice.speedItems = currentPractice.words.slice(0, 15);
+        }
+    }
+
     currentPractice.currentIndex = 0;
     currentPractice.score = 0;
     currentPractice.isWheelMode = isWheelMode;
@@ -1532,8 +1559,59 @@ function showWordDefinition() {
     if (typeof setLanguage === 'function') setLanguage(lang);
 }
 
-function showNextWord() {
+async function showNextWord() {
     if (!currentPractice.isWheelMode) {
+        if (currentPractice.currentExerciseMode === 'categorySort') {
+            const exerciseArea = document.getElementById('exercise-area');
+            window.currentExercise = exerciseCategorySort(currentPractice.sortGroups);
+            exerciseArea.innerHTML = window.currentExercise.html;
+            exerciseArea.style.display = 'block';
+            // Hide legacy
+            document.getElementById('word-meta').style.display = 'none';
+            document.querySelector('.task-header').style.display = 'none';
+            document.querySelector('.word-container').style.display = 'none';
+            document.getElementById('answer-area').style.display = 'none';
+            // Clear mode so it doesn't loop
+            currentPractice.currentExerciseMode = null;
+            return;
+        }
+
+        if (currentPractice.currentExerciseMode === 'speedRound') {
+            const exerciseArea = document.getElementById('exercise-area');
+            window.currentExercise = exerciseSpeedRound(currentPractice.speedItems, currentPractice.language);
+            exerciseArea.innerHTML = window.currentExercise.html;
+            exerciseArea.style.display = 'block';
+            // Hide legacy
+            document.getElementById('word-meta').style.display = 'none';
+            document.querySelector('.task-header').style.display = 'none';
+            document.querySelector('.word-container').style.display = 'none';
+            document.getElementById('answer-area').style.display = 'none';
+
+            // Start Timer
+            let timeLeft = 60;
+            const timerInterval = setInterval(() => {
+                const el = document.getElementById('speed-timer');
+                if (el) el.textContent = timeLeft--;
+                if (timeLeft < 0 || !document.getElementById('speed-round')) {
+                    clearInterval(timerInterval);
+                    if (timeLeft < 0) {
+                        const results = window.speedResults || { know: [], dontKnow: [] };
+                        results.know.forEach(item => CosyIntegration.onAnswer({
+                            language: currentPractice.language, itemId: item.word, itemType: 'vocab',
+                            theme: item.theme, taskType: 'speedRound', correct: true, usedHint: false, pointsEarned: 5
+                        }));
+                        results.dontKnow.forEach(item => CosyIntegration.onAnswer({
+                            language: currentPractice.language, itemId: item.word, itemType: 'vocab',
+                            theme: item.theme, taskType: 'speedRound', correct: false, usedHint: false, pointsEarned: 0
+                        }));
+                    }
+                }
+            }, 1000);
+
+            currentPractice.currentExerciseMode = null;
+            return;
+        }
+
         if (currentPractice.currentIndex >= currentPractice.words.length) {
             updateProgress();
             showSummary();
@@ -1542,12 +1620,49 @@ function showNextWord() {
         currentPractice.currentWord = currentPractice.words[currentPractice.currentIndex];
     }
 
+    const wordObj = currentPractice.currentWord;
+    const category = document.querySelector('input[name="practice-cat"]:checked').id.replace('cat-', '');
+    const exerciseArea = document.getElementById('exercise-area');
+
+    // Reset Engine State
+    window.hintWasUsed = false;
+
+    // Use Vocabulary Exercise Engine for 'vocab' category (non-wheel)
+    if (category === 'vocab' && !currentPractice.isWheelMode && exerciseArea) {
+        // Hide legacy UI
+        document.getElementById('word-meta').style.display = 'none';
+        document.querySelector('.task-header').style.display = 'none';
+        document.getElementById('task-example').style.display = 'none';
+        document.querySelector('.word-container').style.display = 'none';
+        document.getElementById('answer-area').style.display = 'none';
+        document.getElementById('feedback-message').textContent = '';
+        document.getElementById('next-btn').style.display = 'none';
+
+        // Load SRS History and Render Exercise
+        const history = await CosyDB.getItem(currentPractice.language, wordObj.word || wordObj.text);
+        const pool = vocabularyData[currentPractice.language] || [];
+
+        window.currentExercise = selectExercise(wordObj, pool, history, currentPractice.language);
+        exerciseArea.innerHTML = window.currentExercise.html;
+        exerciseArea.style.display = 'block';
+
+        updateProgress();
+        triggerAnimation('fadeIn');
+        return;
+    }
+
+    // --- Legacy / Wheel Mode Rendering ---
+    if (exerciseArea) exerciseArea.style.display = 'none';
+    document.getElementById('word-meta').style.display = 'flex';
+    document.querySelector('.task-header').style.display = 'block';
+    document.querySelector('.word-container').style.display = 'flex';
+    document.getElementById('answer-area').style.display = 'block';
+
     currentPractice.hintLevel = 0; // Reset hint level for new word
     currentPractice.usedHint = false;
     updateProgress();
     triggerAnimation('fadeIn');
 
-    const wordObj = currentPractice.currentWord;
     currentPractice.isCorrect = false;
 
     document.getElementById('feedback-message').textContent = '';

@@ -20,7 +20,250 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="mobile.css">
+    <script src="vocab-exercises.js"></script>
     <script>
+    // --- Vocabulary Exercise Engine Glue Code ---
+    window.currentExercise = null;
+    window.currentSelection = null;
+    window.hintWasUsed = false;
+
+    window.CosyDB = {
+        getItem: async (lang, id) => {
+            const data = Store.load();
+            return data[lang + '::' + id] || null;
+        }
+    };
+
+    window.CosyIntegration = {
+        onAnswer: async (data) => {
+            // Record in SRS
+            Store.record(data.itemId, data.language, data.taskType, data.correct, data.usedHint);
+
+            // Update Points based on task difficulty if pointsEarned not provided
+            let points = data.pointsEarned;
+            if (points === undefined) {
+                if (!data.correct) points = 0;
+                else if (data.usedHint) points = 5;
+                else {
+                    const hardTasks = ['cloze', 'sentenceBuilder', 'scramble'];
+                    const easyTasks = ['multipleChoice', 'truefalse', 'emojiMatch'];
+                    points = hardTasks.includes(data.taskType) ? 15 : easyTasks.includes(data.taskType) ? 8 : 10;
+                }
+            }
+
+            // Update Practice Score
+            if (typeof currentPractice !== 'undefined') {
+                currentPractice.score += points;
+                const scoreEl = document.getElementById('score-count');
+                if (scoreEl) scoreEl.textContent = currentPractice.score;
+                updateTotalScore(points);
+            }
+
+            // Show Next Button
+            const nextBtn = document.getElementById('next-btn');
+            if (nextBtn) nextBtn.style.display = 'block';
+
+            // Trigger feedback message
+            const feedback = document.querySelector('.ex-feedback');
+            if (feedback && feedback.classList.contains('hidden')) {
+                feedback.textContent = data.correct ? '✅ Correct!' : '❌ Not quite';
+                feedback.className = `ex-feedback ${data.correct ? 'correct' : 'incorrect'}`;
+                feedback.classList.remove('hidden');
+            }
+
+            if (typeof flashAnswer === 'function') flashAnswer(data.correct);
+            if (typeof playSound === 'function') playSound(data.correct);
+        }
+    };
+
+    window.selectOption = function(btn, value) {
+        const container = btn.closest('.exercise');
+        container.querySelectorAll('.ex-option').forEach(b => {
+            b.classList.remove('selected');
+        });
+        btn.classList.add('selected');
+        window.currentSelection = value;
+
+        // Auto-submit on mobile or delay for feel
+        const delay = window.innerWidth <= 768 ? 200 : 0;
+
+        setTimeout(() => {
+            const isCorrect = window.currentExercise.check(value) === 'correct';
+            window.currentExercise.reveal();
+
+            // Determine taskType from container classes
+            let taskType = 'multipleChoice';
+            if (container.classList.contains('exercise-emoji')) taskType = 'emojiMatch';
+            if (container.classList.contains('exercise-gender')) taskType = 'gender';
+            if (container.classList.contains('exercise-colloc')) taskType = 'collocation';
+            if (container.classList.contains('exercise-defmatch')) taskType = 'definitionMatch';
+
+            window.CosyIntegration.onAnswer({
+                language: currentPractice.language,
+                itemId: currentPractice.currentWord.word || currentPractice.currentWord.text,
+                itemType: 'vocab',
+                theme: currentPractice.currentWord.theme,
+                taskType: taskType,
+                correct: isCorrect,
+                usedHint: window.hintWasUsed,
+                pointsEarned: isCorrect ? (taskType === 'multipleChoice' ? 8 : 10) : 0
+            });
+        }, delay);
+    };
+
+    window.clozeCheck = function(btn) {
+        const input = btn.closest('.exercise').querySelector('.cloze-input');
+        if (!input) return;
+        const result = window.currentExercise.check(input.value);
+        input.classList.add(
+            result === 'exact' ? 'cloze-correct' :
+            result === 'close' ? 'cloze-close' : 'cloze-wrong'
+        );
+
+        window.CosyIntegration.onAnswer({
+            language: currentPractice.language,
+            itemId: currentPractice.currentWord.word || currentPractice.currentWord.text,
+            itemType: 'vocab',
+            theme: currentPractice.currentWord.theme,
+            taskType: 'cloze',
+            correct: result !== 'wrong',
+            usedHint: window.hintWasUsed,
+            pointsEarned: result === 'exact' ? 15 : result === 'close' ? 8 : 0
+        });
+    };
+
+    window.clozeInput = function(input) {
+        input.classList.remove('cloze-correct', 'cloze-close', 'cloze-wrong');
+    };
+
+    window.clozeHint = function(btn, word) {
+        window.hintWasUsed = true;
+        window.currentExercise.hint();
+    };
+
+    window.mcHint = function(btn) {
+        window.hintWasUsed = true;
+        window.currentExercise.hint();
+    };
+
+    window.pickLetter = function(el) {
+        if (el.classList.contains('used')) return;
+        const slots = document.querySelectorAll('.scramble-slot');
+        const emptySlot = [...slots].find(s => !s.textContent);
+        if (emptySlot) {
+            emptySlot.textContent = el.textContent;
+            emptySlot.dataset.letterIndex = el.dataset.index;
+            el.classList.add('used');
+
+            // Check if full
+            if ([...slots].every(s => s.textContent)) {
+                const built = [...slots].map(s => s.textContent).join('').toLowerCase();
+                const isCorrect = window.currentExercise.check(built) === 'correct';
+                if (isCorrect) {
+                    window.CosyIntegration.onAnswer({
+                        language: currentPractice.language,
+                        itemId: currentPractice.currentWord.word,
+                        itemType: 'vocab',
+                        theme: currentPractice.currentWord.theme,
+                        taskType: 'scramble',
+                        correct: true,
+                        usedHint: window.hintWasUsed,
+                        pointsEarned: 10
+                    });
+                }
+            }
+        }
+    };
+
+    window.unpickLetter = function(el) {
+        if (!el.textContent) return;
+        const letterIndex = el.dataset.letterIndex;
+        const letterEl = document.querySelector(`.scramble-letter[data-index="${letterIndex}"]`);
+        if (letterEl) letterEl.classList.remove('used');
+        el.textContent = '';
+        delete el.dataset.letterIndex;
+    };
+
+    window.scrambleClear = function() {
+        document.querySelectorAll('.scramble-slot').forEach(s => s.textContent = '');
+        document.querySelectorAll('.scramble-letter').forEach(l => l.classList.remove('used'));
+    };
+
+    window.scrambleHint = function(btn, word) {
+        window.hintWasUsed = true;
+        window.currentExercise.hint();
+    };
+
+    window.pickTile = function(el) {
+        if (el.classList.contains('used')) return;
+        const drop = document.getElementById('tile-drop');
+        const slots = drop.querySelectorAll('.tile-slot');
+        const emptySlot = [...slots].find(s => !s.textContent);
+        if (emptySlot) {
+            emptySlot.textContent = el.textContent;
+            emptySlot.classList.add('tile');
+            emptySlot.dataset.tileIndex = el.dataset.index;
+            el.classList.add('used');
+        }
+    };
+
+    window.builderClear = function() {
+        document.querySelectorAll('.tile-slot').forEach(s => {
+            s.textContent = '';
+            s.classList.remove('tile');
+        });
+        document.querySelectorAll('.tile-bank .tile').forEach(t => t.classList.remove('used'));
+    };
+
+    window.builderCheck = function(btn) {
+        const built = [...document.querySelectorAll('.tile-slot')].map(s => s.textContent).join(' ').trim();
+        const isCorrect = window.currentExercise.check(built) === 'correct';
+
+        window.CosyIntegration.onAnswer({
+            language: currentPractice.language,
+            itemId: currentPractice.currentWord.word,
+            itemType: 'vocab',
+            theme: currentPractice.currentWord.theme,
+            taskType: 'sentenceBuilder',
+            correct: isCorrect,
+            usedHint: window.hintWasUsed,
+            pointsEarned: isCorrect ? 12 : 0
+        });
+    };
+
+    window.builderHint = function(btn) {
+        window.hintWasUsed = true;
+        window.currentExercise.hint();
+    };
+
+    window.sortTap = function(el) {
+        // Simple cycle between zones
+        const zones = document.querySelectorAll('.sort-zone-items');
+        const currentZone = el.parentElement;
+        let nextIdx = 0;
+        if (currentZone.classList.contains('sort-zone-items')) {
+            const allZones = [...document.querySelectorAll('.sort-zone-items'), document.querySelector('.sort-cards')];
+            nextIdx = (allZones.indexOf(currentZone) + 1) % allZones.length;
+            allZones[nextIdx].appendChild(el);
+        } else {
+            zones[0].appendChild(el);
+        }
+    };
+
+    window.sortCheck = function(btn) {
+        const result = window.currentExercise.check();
+        window.CosyIntegration.onAnswer({
+            language: currentPractice.language,
+            itemId: 'category_sort_' + currentPractice.currentWord.theme,
+            itemType: 'vocab',
+            theme: currentPractice.currentWord.theme,
+            taskType: 'categorySort',
+            correct: result.score > 70,
+            usedHint: false,
+            pointsEarned: result.correct * 3
+        });
+    };
+
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/COSYlanguages/sw.js')
         .catch(e => console.log('SW:', e));
@@ -475,6 +718,154 @@ footer {
   .practice-header { padding: 2.5rem 1rem 3rem; }
   .practice-header h1 { font-size: 1.6rem; }
 }
+
+  .exercise { padding: 16px; max-width: 600px; margin: 0 auto; }
+  .ex-emoji { font-size: 3rem; text-align: center; margin-bottom: 8px; line-height: 1; }
+  .ex-emoji-large { font-size: 5rem; text-align: center; line-height: 1.1; }
+  .ex-word { font-family: 'Lora', serif; font-size: 1.6rem; font-weight: 700;
+    text-align: center; color: #2e4a33; margin-bottom: 6px; }
+  .ex-word-large { font-size: 2rem; font-weight: 900; text-align: center;
+    font-family: 'Nunito', sans-serif; color: #2e4a33; }
+  .ex-definition { font-size: 1rem; color: #4a4a4a; text-align: center;
+    line-height: 1.6; margin: 8px 0 12px; font-style: italic; }
+  .ex-prompt { font-size: .85rem; font-weight: 700; color: #6b6b6b;
+    text-align: center; margin-bottom: 12px; text-transform: uppercase;
+    letter-spacing: .04em; }
+  .ex-sentence { background: #f0f5f1; border-radius: 10px; padding: 14px 18px;
+    font-size: 1rem; line-height: 1.65; text-align: center; margin-bottom: 14px;
+    border: 1px solid rgba(74,107,80,.15); }
+  .blank { font-weight: 900; letter-spacing: 2px; color: #6b8f71; }
+
+  /* Options */
+  .ex-options { display: grid; gap: 10px; margin: 12px 0; }
+  .ex-option { padding: 14px 18px; border-radius: 10px; border: 2px solid rgba(74,107,80,.15);
+    background: #fdf8f0; font-family: 'Nunito', sans-serif; font-size: .95rem;
+    font-weight: 700; color: #2a2a2a; cursor: pointer; text-align: left;
+    transition: all .15s; line-height: 1.4; -webkit-tap-highlight-color: transparent; }
+  .ex-option:active { transform: scale(.98); }
+  .ex-option.selected { border-color: #6b8f71; background: #e8f0e9; }
+  .ex-option.correct  { border-color: #1a6b45 !important; background: #e5f4ec !important; color: #1a6b45 !important; }
+  .ex-option.incorrect{ border-color: #a32d2d !important; background: #fcebeb !important; color: #a32d2d !important; }
+  .ex-option.eliminated { opacity: .3; pointer-events: none; }
+  .ex-options-emoji { grid-template-columns: 1fr 1fr; }
+  .ex-option-emoji { font-size: 2.5rem; text-align: center; padding: 18px; border-radius: 14px; }
+  .ex-option-def { text-align: left; font-size: .88rem; }
+
+  /* Cloze input */
+  .cloze-input { width: 100%; height: 52px; padding: 0 18px; border-radius: 10px;
+    border: 2px solid rgba(74,107,80,.2); background: #fdf8f0;
+    font-family: 'Nunito', sans-serif; font-size: 1.05rem; font-weight: 700; color: #2a2a2a;
+    outline: none; margin-bottom: 10px; transition: border-color .18s; }
+  .cloze-input:focus { border-color: #6b8f71; }
+  .cloze-input.cloze-close { border-color: #e8a838; background: #fff8e7; }
+  .cloze-input.cloze-correct { border-color: #1a6b45; background: #e5f4ec; }
+  .cloze-input.cloze-wrong   { border-color: #a32d2d; background: #fcebeb; }
+
+  /* Scramble */
+  .scramble-slots, .scramble-letters { display: flex; gap: 8px; flex-wrap: wrap;
+    justify-content: center; margin: 10px 0; min-height: 50px; }
+  .scramble-slot { width: 42px; height: 42px; border-radius: 8px; border: 2px dashed rgba(107,143,113,.4);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem; font-weight: 900; color: #2e4a33; background: #e8f0e9; }
+  .scramble-letter { width: 42px; height: 42px; border-radius: 8px;
+    background: #fff; border: 2px solid rgba(74,107,80,.2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem; font-weight: 900; color: #2a2a2a; cursor: pointer;
+    transition: all .15s; -webkit-tap-highlight-color: transparent; }
+  .scramble-letter:active { transform: scale(.9); }
+  .scramble-letter.used { opacity: .3; pointer-events: none; }
+  .scramble-letter.hinted { background: #fff8e7; border-color: #e8a838; }
+
+  /* Sentence builder tiles */
+  .tile-drop { min-height: 52px; border-radius: 10px; border: 2px dashed rgba(107,143,113,.3);
+    padding: 8px; display: flex; flex-wrap: wrap; gap: 6px; background: #e8f0e9; margin-bottom: 10px; }
+  .tile-bank { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .tile { padding: 8px 14px; border-radius: 8px; background: #fff;
+    border: 2px solid rgba(74,107,80,.2); font-family: 'Nunito', sans-serif;
+    font-weight: 700; font-size: .92rem; cursor: pointer;
+    transition: all .15s; -webkit-tap-highlight-color: transparent; }
+  .tile:active { transform: scale(.95); }
+  .tile.used { opacity: .25; pointer-events: none; }
+  .tile.tile-highlight { background: #fff8e7; border-color: #e8a838; font-weight: 900; }
+
+  /* Speed round */
+  .speed-round { text-align: center; padding: 16px; }
+  .speed-timer { font-family: 'Lora', serif; font-size: 3rem; font-weight: 700;
+    color: #6b8f71; line-height: 1; margin-bottom: 4px; }
+  .speed-progress { font-size: .75rem; color: #aaa; margin-bottom: 16px; }
+  .speed-card { background: #fff; border-radius: 18px; padding: 32px 24px;
+    box-shadow: 0 6px 28px rgba(46,74,51,.10); margin-bottom: 16px; }
+  .speed-emoji { font-size: 4rem; line-height: 1; margin-bottom: 8px; }
+  .speed-word { font-family: 'Lora', serif; font-size: 1.8rem; font-weight: 700; color: #2e4a33; }
+  .speed-def { font-size: .88rem; color: #6b6b6b; margin: 8px 0; padding: 8px;
+    background: #f0f5f1; border-radius: 8px; }
+  .speed-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+  .speed-btn { height: 64px; border-radius: 12px; border: none;
+    font-family: 'Nunito', sans-serif; font-weight: 900; font-size: 1rem; cursor: pointer;
+    transition: transform .12s; -webkit-tap-highlight-color: transparent; }
+  .speed-btn:active { transform: scale(.94); }
+  .speed-know  { background: #e5f4ec; color: #1a6b45; border: 2px solid #1a6b45; }
+  .speed-dont  { background: #fcebeb; color: #a32d2d; border: 2px solid #a32d2d; }
+
+  /* Category sort */
+  .sort-categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px; margin-bottom: 14px; }
+  .sort-zone { border-radius: 12px; border: 2px dashed rgba(107,143,113,.3);
+    background: #f0f5f1; padding: 10px; min-height: 80px; }
+  .sort-zone-label { font-size: .75rem; font-weight: 900; letter-spacing: .05em;
+    text-transform: uppercase; color: #6b8f71; margin-bottom: 6px; }
+  .sort-zone-items { display: flex; flex-wrap: wrap; gap: 6px; }
+  .sort-cards { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  .sort-card { padding: 8px 12px; border-radius: 8px; background: #fff;
+    border: 2px solid rgba(74,107,80,.15); cursor: pointer; display: flex;
+    align-items: center; gap: 6px; font-weight: 700; font-size: .88rem;
+    transition: all .15s; -webkit-tap-highlight-color: transparent; }
+  .sort-card.sort-correct  { border-color: #1a6b45; background: #e5f4ec; }
+  .sort-card.sort-incorrect{ border-color: #a32d2d; background: #fcebeb; }
+  .sort-emoji { font-size: 1.2rem; }
+
+  /* Collocation */
+  .ex-colloc-phrase { font-family: 'Lora', serif; font-size: 1.3rem; font-weight: 700;
+    text-align: center; color: #2e4a33; background: #e8f0e9; border-radius: 10px;
+    padding: 16px; margin-bottom: 14px; }
+  .colloc-hint { font-size: .82rem; color: #a06b10; background: #fff8e7;
+    border-radius: 8px; padding: 8px 12px; margin-top: 6px; text-align: center; }
+
+  /* Gender rule */
+  .ex-gender-rule { font-size: .82rem; color: #3a5e40; background: #e8f0e9;
+    border-radius: 8px; padding: 8px 12px; margin-top: 6px; border-left: 3px solid #6b8f71; }
+
+  /* Feedback */
+  .ex-feedback { text-align: center; font-weight: 800; font-size: 1rem;
+    padding: 10px; border-radius: 8px; margin: 10px 0; }
+  .ex-feedback.correct  { background: #e5f4ec; color: #1a6b45; }
+  .ex-feedback.incorrect{ background: #fcebeb; color: #a32d2d; }
+  .ex-feedback.close    { background: #fff8e7; color: #a06b10; }
+  .hidden { display: none; }
+
+  /* Buttons */
+  .ex-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .ex-btn { padding: 10px 18px; border-radius: 999px; border: none; cursor: pointer;
+    font-family: 'Nunito', sans-serif; font-weight: 800; font-size: .85rem;
+    transition: opacity .15s, transform .15s; -webkit-tap-highlight-color: transparent; }
+  .ex-btn:active { transform: scale(.96); }
+  .ex-btn-check { background: #6b8f71; color: #fff; flex: 1; height: 48px; font-size: .95rem; }
+  .ex-btn-hint  { background: #fff8e7; color: #a06b10; border: 1.5px solid #e8a838; }
+  .ex-btn-clear { background: #fdf8f0; color: #6b6b6b; border: 1.5px solid rgba(0,0,0,.1); }
+  .ex-speak-btn { background: none; border: none; font-size: 1.2rem; cursor: pointer;
+    padding: 8px; opacity: .7; transition: opacity .15s; }
+  .ex-speak-btn:hover { opacity: 1; }
+
+  /* Word meta */
+  .ex-word-meta { text-align: center; font-size: .78rem; color: #aaa;
+    margin-bottom: 10px; font-style: italic; }
+
+  @media (max-width: 480px) {
+    .ex-option { padding: 12px 14px; font-size: .88rem; }
+    .ex-word { font-size: 1.3rem; }
+    .scramble-slot, .scramble-letter { width: 36px; height: 36px; font-size: 1rem; }
+    .speed-btn { height: 56px; font-size: .92rem; }
+  }
     </style>
 </head>
 <body class="practice-page">
@@ -758,6 +1149,7 @@ footer {
                 <div id="progress-text"></div>
 
                 <div id="question-card" class="event-item question-card-mobile">
+                    <div id="exercise-area" style="display: none; margin-bottom: 2rem;"></div>
                     <div id="word-meta" class="word-meta-container" style="display: none;">
                         <span id="word-form" class="meta-badge form-badge"></span>
                         <span id="word-level" class="meta-badge level-badge"></span>
