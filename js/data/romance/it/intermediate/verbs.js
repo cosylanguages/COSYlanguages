@@ -1,32 +1,35 @@
 (function() {
     const data = [
     {
-        "word": "giardinaggio",
+        "word": "fare giardinaggio",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "emoji": "🪴",
-        "form": "verb"
+        "emoji": "🧑‍🌾",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Lavorare in un giardino per far crescere le piante.",
+                "examples": [
+                    "Gli piace fare giardinaggio nel fine settimana."
+                ]
+            }
+        ]
     },
     {
-        "word": "caldo",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "🔥",
-        "form": "verb"
-    },
-    {
-        "word": "telelavoro",
+        "word": "fare volontariato",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "emoji": "💻",
-        "form": "verb"
-    },
-    {
-        "word": "riscaldamento globale",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "🌡️",
-        "form": "verb"
+        "emoji": "🙋",
+        "form": "verb",
+        "subtext": "prestare servizio",
+        "definitions": [
+            {
+                "text": "Offrirsi di fare qualcosa senza essere pagati.",
+                "examples": [
+                    "Fa volontariato alla banca alimentare locale."
+                ]
+            }
+        ]
     }
 ];
     const lang = "it";

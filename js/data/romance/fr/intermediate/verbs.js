@@ -4,28 +4,32 @@
         "word": "jardiner",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "form": "verb"
+        "emoji": "🧑‍🌾",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Travailler dans un jardin pour faire pousser des plantes.",
+                "examples": [
+                    "Il aime jardiner le week-end."
+                ]
+            }
+        ]
     },
     {
-        "word": "collègue",
-        "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "👥",
-        "form": "verb"
-    },
-    {
-        "word": "télétravail",
+        "word": "faire du bénévolat",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "emoji": "💻",
-        "form": "verb"
-    },
-    {
-        "word": "réchauffement climatique",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "🌡️",
-        "form": "verb"
+        "emoji": "🙋",
+        "form": "verb",
+        "subtext": "se porter volontaire",
+        "definitions": [
+            {
+                "text": "Offrir de faire quelque chose sans être payé.",
+                "examples": [
+                    "Elle fait du bénévolat à la banque alimentaire locale."
+                ]
+            }
+        ]
     }
 ];
     const lang = "fr";

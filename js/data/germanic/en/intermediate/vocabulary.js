@@ -470,7 +470,7 @@
         "level": "intermediate",
         "theme": "work_life_balance_B1",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun phrase",
         "plural": null,
         "subtext": "work from home, flexitime",
         "definitions": [
@@ -596,7 +596,7 @@
         "level": "intermediate",
         "theme": "work_life_balance_B1",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun phrase",
         "plural": null,
         "subtext": "paternity leave, parental leave",
         "definitions": [
@@ -650,7 +650,7 @@
         "level": "intermediate",
         "theme": "finances_investment_B1",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun phrase",
         "plural": "interest rates",
         "subtext": "high interest rate, low interest rate",
         "definitions": [
@@ -742,7 +742,7 @@
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun phrase",
         "plural": null,
         "subtext": "mental health awareness, psychological state",
         "definitions": [
@@ -1007,9 +1007,9 @@
         "subtext": "volunteer work, unpaid work",
         "definitions": [
             {
-                "text": "To offer to do something without being paid.",
+                "text": "A person who offers to do something without being paid.",
                 "examples": [
-                    "She volunteers at the local food bank.",
+                    "He is a volunteer at the hospital.",
                     "Many volunteers helped clean up the park."
                 ]
             }
@@ -1056,7 +1056,7 @@
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
         "emoji": "🌍🌡️",
-        "form": "noun",
+        "form": "noun phrase",
         "plural": null,
         "subtext": "global warming, environmental impact",
         "definitions": [
@@ -1074,7 +1074,7 @@
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
         "emoji": "☀️💨",
-        "form": "noun",
+        "form": "noun phrase",
         "plural": null,
         "subtext": "solar power, wind energy",
         "opposite": "fossil fuels",
@@ -1093,7 +1093,7 @@
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
         "emoji": "👣",
-        "form": "noun",
+        "form": "noun phrase",
         "plural": "carbon footprints",
         "subtext": "reduce carbon footprint, environmental impact",
         "definitions": [
@@ -1163,7 +1163,7 @@
         "level": "intermediate",
         "theme": "discourse_markers_B1",
         "emoji": "🔄",
-        "form": "adverb",
+        "form": "conjunction",
         "subtext": "even though, despite the fact",
         "definitions": [
             {
@@ -1180,7 +1180,7 @@
         "level": "intermediate",
         "theme": "discourse_markers_B1",
         "emoji": "⚖️",
-        "form": "adverb",
+        "form": "phrase",
         "subtext": "alternatively, conversely",
         "definitions": [
             {
@@ -1197,7 +1197,7 @@
         "level": "intermediate",
         "theme": "expressing_opinion_B1",
         "emoji": "🗣️",
-        "form": "adverb",
+        "form": "phrase",
         "subtext": "from my perspective, I think",
         "definitions": [
             {
@@ -1214,7 +1214,7 @@
         "level": "intermediate",
         "theme": "discourse_markers_B1",
         "emoji": "🔚",
-        "form": "adverb",
+        "form": "phrase",
         "subtext": "consequently, therefore",
         "definitions": [
             {
