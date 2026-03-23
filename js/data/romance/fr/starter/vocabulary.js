@@ -4,6 +4,7 @@
         "word": "médecin",
         "level": "starter",
         "theme": "job_titles_professions_A0",
+        "article": "le",
         "numberPlural": "2 médecin",
         "answer": "deux médecins",
         "emoji": "🧑‍⚕️",
@@ -23,6 +24,7 @@
         "word": "pied",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "le",
         "numberPlural": "2 pied",
         "answer": "deux pieds",
         "emoji": "🦶",
@@ -33,6 +35,7 @@
         "word": "professeur",
         "level": "starter",
         "theme": "job_titles_professions_A0",
+        "article": "le",
         "emoji": "🧑‍🏫",
         "form": "noun",
         "plural": "professeurs",
@@ -50,6 +53,7 @@
         "word": "ratatouille",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "la",
         "form": "noun",
         "plural": "ratatouilles",
         "definitions": [
@@ -66,6 +70,7 @@
         "word": "croissant",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "le",
         "form": "noun",
         "plural": "croissants",
         "definitions": [
@@ -123,6 +128,7 @@
         "word": "oeuf",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "l'",
         "emoji": "🥚",
         "form": "noun",
         "plural": "oeufs",
@@ -140,6 +146,7 @@
         "word": "lait",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "le",
         "emoji": "🥛",
         "form": "noun",
         "plural": "lait",
@@ -157,6 +164,7 @@
         "word": "riz",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "le",
         "emoji": "🍚",
         "form": "noun",
         "definitions": [
@@ -172,6 +180,7 @@
         "word": "viande",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "la",
         "emoji": "🥩",
         "form": "noun",
         "definitions": [
@@ -187,6 +196,7 @@
         "word": "nourriture",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "article": "la",
         "emoji": "🍲",
         "form": "noun",
         "definitions": [
@@ -277,6 +287,7 @@
         "word": "petit-déjeuner",
         "level": "starter",
         "theme": "meals_of_the_day_A0",
+        "article": "le",
         "emoji": "🍳",
         "form": "noun",
         "definitions": [
@@ -292,6 +303,7 @@
         "word": "dîner",
         "level": "starter",
         "theme": "meals_of_the_day_A0",
+        "article": "le",
         "emoji": "🍽️",
         "form": "noun",
         "definitions": [
@@ -307,6 +319,7 @@
         "word": "déjeuner",
         "level": "starter",
         "theme": "meals_of_the_day_A0",
+        "article": "le",
         "emoji": "🍱",
         "form": "noun",
         "definitions": [
@@ -322,6 +335,7 @@
         "word": "parc",
         "level": "starter",
         "theme": "local_places_services_A0",
+        "article": "le",
         "emoji": "🌳",
         "form": "noun",
         "plural": "parcs",
@@ -338,6 +352,7 @@
         "word": "école",
         "level": "starter",
         "theme": "local_places_services_A0",
+        "article": "l'",
         "emoji": "🏫",
         "form": "noun",
         "plural": "écoles",
@@ -354,6 +369,7 @@
         "word": "magasin",
         "level": "starter",
         "theme": "local_places_services_A0",
+        "article": "le",
         "emoji": "🛒",
         "form": "noun",
         "plural": "magasins",
@@ -370,6 +386,7 @@
         "word": "t-shirt",
         "level": "starter",
         "theme": "items_of_clothing_A0",
+        "article": "le",
         "emoji": "👕",
         "form": "noun",
         "plural": "t-shirts"
@@ -378,6 +395,7 @@
         "word": "pantalon",
         "level": "starter",
         "theme": "items_of_clothing_A0",
+        "article": "le",
         "emoji": "👖",
         "form": "noun",
         "plural": "pantalons"
@@ -386,6 +404,7 @@
         "word": "chaussures",
         "level": "starter",
         "theme": "items_of_clothing_A0",
+        "article": "les",
         "emoji": "👟",
         "form": "noun",
         "plural": "chaussures"
@@ -394,6 +413,7 @@
         "word": "chapeau",
         "level": "starter",
         "theme": "items_of_clothing_A0",
+        "article": "le",
         "emoji": "👒",
         "form": "noun",
         "plural": "chapeaux"
@@ -402,6 +422,7 @@
         "word": "chaise",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "la",
         "emoji": "🪑",
         "form": "noun",
         "plural": "chaises"
@@ -410,6 +431,7 @@
         "word": "table",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "la",
         "emoji": "🪑",
         "form": "noun",
         "plural": "tables"
@@ -418,6 +440,7 @@
         "word": "lit",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "le",
         "emoji": "🛏️",
         "form": "noun",
         "plural": "lits"
@@ -426,6 +449,7 @@
         "word": "clé",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "la",
         "emoji": "🔑",
         "form": "noun",
         "plural": "clés"
@@ -434,6 +458,7 @@
         "word": "téléphone",
         "level": "starter",
         "theme": "basic_technology_devices_A0",
+        "article": "le",
         "emoji": "📱",
         "form": "noun",
         "plural": "téléphones"
@@ -442,6 +467,7 @@
         "word": "livre",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "le",
         "emoji": "📖",
         "form": "noun",
         "plural": "livres"
@@ -450,6 +476,7 @@
         "word": "sac",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "le",
         "emoji": "👜",
         "form": "noun",
         "plural": "sacs",
@@ -466,6 +493,7 @@
         "word": "stylo",
         "level": "starter",
         "theme": "furniture_objects_A0",
+        "article": "le",
         "emoji": "🖊️",
         "form": "noun",
         "plural": "stylos"
@@ -660,6 +688,7 @@
         "word": "oiseau",
         "level": "starter",
         "theme": "animals_A0",
+        "article": "l'",
         "emoji": "🐦",
         "form": "noun",
         "plural": "oiseaux"
@@ -668,6 +697,7 @@
         "word": "poisson",
         "level": "starter",
         "theme": "animals_A0",
+        "article": "le",
         "emoji": "🐟",
         "form": "noun",
         "plural": "poissons"
@@ -708,6 +738,7 @@
         "word": "tête",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "la",
         "emoji": "👤",
         "form": "noun",
         "plural": "têtes"
@@ -716,6 +747,7 @@
         "word": "main",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "la",
         "emoji": "✋",
         "form": "noun",
         "plural": "mains"
@@ -724,6 +756,7 @@
         "word": "jambe",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "la",
         "emoji": "🦵",
         "form": "noun",
         "plural": "jambes"
@@ -732,6 +765,7 @@
         "word": "oeil",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "l'",
         "emoji": "👁️",
         "form": "noun",
         "plural": "yeux"
@@ -740,6 +774,7 @@
         "word": "nez",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "le",
         "emoji": "👃",
         "form": "noun",
         "plural": "nez"
@@ -748,6 +783,7 @@
         "word": "bouche",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "la",
         "emoji": "👄",
         "form": "noun",
         "plural": "bouches"
@@ -756,6 +792,7 @@
         "word": "oreille",
         "level": "starter",
         "theme": "body_parts_A0",
+        "article": "l'",
         "emoji": "👂",
         "form": "noun",
         "plural": "oreilles"
@@ -764,6 +801,7 @@
         "word": "mère",
         "level": "starter",
         "theme": "immediate_family_A0",
+        "article": "la",
         "emoji": "👩",
         "form": "noun",
         "plural": "mères"
@@ -772,6 +810,7 @@
         "word": "père",
         "level": "starter",
         "theme": "immediate_family_A0",
+        "article": "le",
         "emoji": "👨",
         "form": "noun",
         "plural": "pères"
@@ -780,6 +819,7 @@
         "word": "famille",
         "level": "starter",
         "theme": "immediate_family_A0",
+        "article": "la",
         "emoji": "👪",
         "form": "noun",
         "plural": "familles",
@@ -796,6 +836,7 @@
         "word": "ami",
         "level": "starter",
         "theme": "immediate_family_A0",
+        "article": "l'",
         "emoji": "👫",
         "form": "noun",
         "plural": "amis",
@@ -812,6 +853,7 @@
         "word": "partenaire",
         "level": "starter",
         "theme": "marital_status_A0",
+        "article": "le",
         "emoji": "💑",
         "form": "noun",
         "plural": "partenaires",
@@ -828,6 +870,7 @@
         "word": "homme",
         "level": "starter",
         "theme": "physical_appearance_A1",
+        "article": "l'",
         "numberPlural": "2 homme",
         "answer": "deux hommes",
         "emoji": "👨",
@@ -835,7 +878,7 @@
         "plural": "hommes",
         "definitions": [
             {
-                "text": "Une personne mâle adulte.",
+                "text": "Une person mâle adulte.",
                 "examples": [
                     "Cet homme est mon patron."
                 ]
@@ -846,6 +889,7 @@
         "word": "femme",
         "level": "starter",
         "theme": "physical_appearance_A1",
+        "article": "la",
         "numberPlural": "2 femme",
         "answer": "deux femmes",
         "emoji": "👩",
@@ -864,6 +908,7 @@
         "word": "maison",
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
+        "article": "la",
         "emoji": "🏡",
         "form": "noun",
         "plural": "maisons",
@@ -880,6 +925,7 @@
         "word": "appartement",
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
+        "article": "l'",
         "emoji": "🏢",
         "form": "noun",
         "plural": "appartements",
@@ -896,6 +942,7 @@
         "word": "foyer",
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
+        "article": "le",
         "emoji": "🏠",
         "form": "noun",
         "subtext": "à la maison, rentrer",
@@ -912,6 +959,7 @@
         "word": "bureau",
         "level": "starter",
         "theme": "rooms_indoor_spaces_A0",
+        "article": "le",
         "emoji": "🏢",
         "form": "noun",
         "plural": "bureaux",
@@ -928,6 +976,7 @@
         "word": "voiture",
         "level": "starter",
         "theme": "modes_of_transport_A0",
+        "article": "la",
         "emoji": "🚗",
         "form": "noun",
         "plural": "voitures",
@@ -944,6 +993,7 @@
         "word": "bus",
         "level": "starter",
         "theme": "modes_of_transport_A0",
+        "article": "le",
         "emoji": "🚌",
         "form": "noun",
         "plural": "bus",
@@ -960,6 +1010,7 @@
         "word": "train",
         "level": "starter",
         "theme": "modes_of_transport_A0",
+        "article": "le",
         "emoji": "🚆",
         "form": "noun",
         "plural": "trains",
@@ -976,6 +1027,7 @@
         "word": "argent",
         "level": "starter",
         "theme": "everyday_shopping_A0",
+        "article": "l'",
         "emoji": "💰",
         "form": "noun",
         "definitions": [
@@ -991,8 +1043,8 @@
         "word": "cher",
         "level": "starter",
         "theme": "everyday_shopping_A0",
-        "emoji": "💎",
         "form": "adjective",
+        "emoji": "💎",
         "opposite": "bon marché",
         "oppositeEmoji": "🏷️",
         "definitions": [
@@ -1008,8 +1060,8 @@
         "word": "bon marché",
         "level": "starter",
         "theme": "everyday_shopping_A0",
-        "emoji": "🏷️",
         "form": "adjective",
+        "emoji": "🏷️",
         "opposite": "cher",
         "oppositeEmoji": "💎",
         "definitions": [
@@ -1025,6 +1077,7 @@
         "word": "matin",
         "level": "starter",
         "theme": "times_day_A0",
+        "article": "le",
         "emoji": "🌅",
         "form": "noun",
         "plural": "matins",
@@ -1041,6 +1094,7 @@
         "word": "soir",
         "level": "starter",
         "theme": "times_day_A0",
+        "article": "le",
         "emoji": "🌆",
         "form": "noun",
         "plural": "soirs",
@@ -1057,6 +1111,7 @@
         "word": "jour",
         "level": "starter",
         "theme": "times_day_A0",
+        "article": "le",
         "emoji": "☀️",
         "form": "noun",
         "plural": "jours",
@@ -1073,6 +1128,7 @@
         "word": "semaine",
         "level": "starter",
         "theme": "times_day_A0",
+        "article": "la",
         "emoji": "📅",
         "form": "noun",
         "plural": "semaines",

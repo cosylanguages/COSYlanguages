@@ -113,11 +113,11 @@
         "form": "verb"
     },
     {
-        "word": "кушать",
+        "word": "есть",
         "level": "starter",
         "theme": "basic_foods_A0",
         "emoji": "🍎",
-        "subtext": "кушать яблоко, кушать ужин",
+        "subtext": "синоним: кушать",
         "opposite": "пить",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -127,6 +127,25 @@
                 "examples": [
                     "Я ем яблоко каждый день.",
                     "Что ты хочешь поесть?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "кушать",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍎",
+        "subtext": "синоним: есть",
+        "opposite": "пить",
+        "oppositeEmoji": "🥛",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Принимать пищу (более вежливый или детский вариант).",
+                "examples": [
+                    "Садись кушать.",
+                    "Приятного аппетита!"
                 ]
             }
         ]
