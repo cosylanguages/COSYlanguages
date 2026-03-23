@@ -4,6 +4,7 @@
         "word": "художник",
         "level": "elementary",
         "theme": "art_design_A2",
+        "gender": "он",
         "emoji": "🎨",
         "form": "noun",
         "plural": "художники",
@@ -27,6 +28,7 @@
         "word": "повар",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
+        "gender": "он",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "повара",
@@ -50,6 +52,7 @@
         "word": "блины",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "gender": "они",
         "emoji": "🥞",
         "form": "noun",
         "plural": "блины"
@@ -58,6 +61,7 @@
         "word": "пирожки",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "gender": "они",
         "form": "noun",
         "plural": "пирожки"
     },
@@ -65,6 +69,7 @@
         "word": "сыр",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "gender": "он",
         "emoji": "🧀",
         "form": "noun",
         "plural": "сыры"
@@ -73,6 +78,7 @@
         "word": "рис",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "gender": "он",
         "emoji": "🍚",
         "form": "noun",
         "plural": "рис"
@@ -81,6 +87,7 @@
         "word": "помидор",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "gender": "он",
         "emoji": "🍅",
         "form": "noun",
         "plural": "помидоры"
@@ -89,6 +96,7 @@
         "word": "картофель",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "gender": "он",
         "emoji": "🥔",
         "form": "noun",
         "plural": "картофель"
@@ -139,6 +147,7 @@
         "word": "больница",
         "level": "elementary",
         "theme": "medical_appointments_A1",
+        "gender": "она",
         "emoji": "🏥",
         "form": "noun",
         "plural": "больницы",
@@ -162,6 +171,7 @@
         "word": "кинотеатр",
         "level": "elementary",
         "theme": "theatre_performance_A2",
+        "gender": "он",
         "emoji": "🎬",
         "form": "noun",
         "plural": "кинотеатры",
@@ -185,6 +195,7 @@
         "word": "ресторан",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
+        "gender": "он",
         "emoji": "🍴",
         "form": "noun",
         "plural": "рестораны",
@@ -202,6 +213,7 @@
         "word": "супермаркет",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
+        "gender": "он",
         "emoji": "🛒",
         "form": "noun",
         "plural": "супермаркеты",
@@ -225,6 +237,7 @@
         "word": "платье",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "gender": "оно",
         "emoji": "👗",
         "form": "noun",
         "plural": "платья"
@@ -233,6 +246,7 @@
         "word": "куртка",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "gender": "она",
         "emoji": "🧥",
         "form": "noun",
         "plural": "куртки"
@@ -241,6 +255,7 @@
         "word": "юбка",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "gender": "она",
         "emoji": "👗",
         "form": "noun",
         "plural": "юбки"
@@ -249,6 +264,7 @@
         "word": "диван",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "gender": "он",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "диваны"
@@ -257,6 +273,7 @@
         "word": "лампа",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "gender": "она",
         "emoji": "💡",
         "form": "noun",
         "plural": "лампы"
@@ -265,9 +282,10 @@
         "word": "письменный стол",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "gender": "он",
         "emoji": "⌨️",
         "form": "noun",
-        "plural": "письменный столы"
+        "plural": "письменные столы"
     },
     {
         "word": "красивый",
@@ -306,6 +324,7 @@
         "word": "кошелек",
         "level": "elementary",
         "theme": "accessories_A1",
+        "gender": "он",
         "emoji": "👛",
         "form": "noun",
         "plural": "кошельки",
@@ -340,6 +359,7 @@
         "word": "лев",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "gender": "он",
         "emoji": "🦁",
         "form": "noun",
         "plural": "львы",
@@ -357,8 +377,10 @@
         "word": "тигр",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "gender": "он",
         "emoji": "🐯",
-        "form": "adjective"
+        "form": "noun",
+        "plural": "тигры"
     },
     {
         "word": "снежно",
@@ -378,13 +400,15 @@
         "word": "плечо",
         "level": "elementary",
         "theme": "body_parts_A0",
+        "gender": "оно",
         "form": "noun",
-        "plural": "плеча"
+        "plural": "плечи"
     },
     {
         "word": "университет",
         "level": "elementary",
         "theme": "career_development_A2",
+        "gender": "он",
         "emoji": "🎓",
         "form": "noun",
         "plural": "университеты",
@@ -402,6 +426,7 @@
         "word": "местная кухня",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "gender": "она",
         "emoji": "🍜",
         "form": "noun",
         "definitions": [

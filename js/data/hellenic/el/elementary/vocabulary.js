@@ -4,9 +4,10 @@
         "word": "καλλιτέχνης",
         "level": "elementary",
         "theme": "art_design_A2",
+        "article": "ο",
         "emoji": "🎨",
         "form": "noun",
-        "plural": "καλλιτέχνης",
+        "plural": "καλλιτέχνες",
         "definitions": [
             {
                 "text": "Ένα άτομο που δημιουργεί πίνακες ή σχέδια.",
@@ -27,6 +28,7 @@
         "word": "σεφ",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
+        "article": "ο",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "σεφ",
@@ -50,8 +52,9 @@
         "word": "χωριάτικη σαλάτα",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "η",
         "form": "noun",
-        "plural": "χωριάτικη σαλάτες",
+        "plural": "χωριάτικες σαλάτες",
         "definitions": [
             {
                 "text": "Σαλάτα με ντομάτα, αγγούρι, κρεμμύδι και φέτα.",
@@ -72,6 +75,7 @@
         "word": "γεμιστά",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "τα",
         "form": "noun",
         "plural": "γεμιστά",
         "definitions": [
@@ -94,9 +98,10 @@
         "word": "τυρί",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "το",
         "emoji": "🧀",
         "form": "noun",
-        "plural": "τυρί",
+        "plural": "τυριά",
         "definitions": [
             {
                 "text": "Μια στερεά τροφή που φτιάχνεται από γάλα.",
@@ -117,6 +122,7 @@
         "word": "ρύζι",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "το",
         "emoji": "🍚",
         "form": "noun",
         "plural": "ρύζι",
@@ -140,6 +146,7 @@
         "word": "ντομάτα",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "η",
         "emoji": "🍅",
         "form": "noun",
         "plural": "ντομάτες",
@@ -163,6 +170,7 @@
         "word": "πατάτα",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "η",
         "emoji": "🥔",
         "form": "noun",
         "plural": "πατάτες",
@@ -236,6 +244,7 @@
         "word": "νοσοκομείο",
         "level": "elementary",
         "theme": "medical_appointments_A1",
+        "article": "το",
         "emoji": "🏥",
         "form": "noun",
         "plural": "νοσοκομεία",
@@ -259,6 +268,7 @@
         "word": "κινηματογράφος",
         "level": "elementary",
         "theme": "theatre_performance_A2",
+        "article": "ο",
         "emoji": "🎬",
         "form": "noun",
         "plural": "κινηματογράφοι",
@@ -282,6 +292,7 @@
         "word": "εστιατόριο",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
+        "article": "το",
         "emoji": "🍴",
         "form": "noun",
         "plural": "εστιατόρια",
@@ -305,6 +316,7 @@
         "word": "σούπερ μάρκετ",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
+        "article": "το",
         "emoji": "🛒",
         "form": "noun",
         "plural": "σούπερ μάρκετ",
@@ -328,14 +340,16 @@
         "word": "φόρεμα",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "article": "το",
         "emoji": "👗",
         "form": "noun",
-        "plural": "φόρεμες"
+        "plural": "φορέματα"
     },
     {
         "word": "σακάκι",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "article": "το",
         "emoji": "🧥",
         "form": "noun",
         "plural": "σακάκια"
@@ -344,6 +358,7 @@
         "word": "φούστα",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "article": "η",
         "emoji": "👗",
         "form": "noun",
         "plural": "φούστες"
@@ -352,14 +367,16 @@
         "word": "καναπές",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "article": "ο",
         "emoji": "🛋️",
         "form": "noun",
-        "plural": "καναπές"
+        "plural": "καναπέδες"
     },
     {
         "word": "λάμπα",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "article": "η",
         "emoji": "💡",
         "form": "noun",
         "plural": "λάμπες"
@@ -368,6 +385,7 @@
         "word": "γραφείο",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "article": "το",
         "emoji": "⌨️",
         "form": "noun",
         "plural": "γραφεία"
@@ -376,13 +394,15 @@
         "word": "όμορφος",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "άσχημος"
     },
     {
         "word": "δυνατός",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "αδύναμος"
     },
     {
         "word": "πλένω τα δόντια",
@@ -402,13 +422,15 @@
         "word": "ρολόι",
         "level": "elementary",
         "theme": "accessories_A1",
+        "article": "το",
         "form": "noun",
-        "plural": "ρολόια"
+        "plural": "ρολόγια"
     },
     {
         "word": "πορτοφόλι",
         "level": "elementary",
         "theme": "accessories_A1",
+        "article": "το",
         "emoji": "👛",
         "form": "noun",
         "plural": "πορτοφόλια",
@@ -426,6 +448,7 @@
         "word": "γυαλιά",
         "level": "elementary",
         "theme": "accessories_A1",
+        "article": "τα",
         "emoji": "👓",
         "form": "noun",
         "plural": "γυαλιά",
@@ -450,6 +473,7 @@
         "word": "λιοντάρι",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "article": "το",
         "emoji": "🦁",
         "form": "noun",
         "plural": "λιοντάρια",
@@ -467,6 +491,7 @@
         "word": "τίγρης",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "article": "ο",
         "emoji": "🐯",
         "form": "noun",
         "plural": "τίγρεις"
@@ -475,6 +500,7 @@
         "word": "ζωγραφική",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
+        "article": "η",
         "form": "noun",
         "plural": "ζωγραφικές"
     },
@@ -482,6 +508,7 @@
         "word": "μαγειρική",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
+        "article": "η",
         "form": "noun",
         "plural": "μαγειρικές"
     },
@@ -489,6 +516,7 @@
         "word": "ώμος",
         "level": "elementary",
         "theme": "body_parts_A0",
+        "article": "ο",
         "form": "noun",
         "plural": "ώμοι"
     },
@@ -513,6 +541,7 @@
         "word": "τοπική κουζίνα",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "η",
         "emoji": "🍜",
         "form": "noun",
         "definitions": [

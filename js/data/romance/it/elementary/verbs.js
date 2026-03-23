@@ -124,7 +124,13 @@
                     "La mia famiglia sostiene le mie decisioni."
                 ]
             }
-        ]
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": ["sostengo", "sostieni", "sostiene", "sostiene", "sosteniamo", "sostenete", "sostengono"],
+                "negative": ["non sostengo", "non sostieni", "non sostiene", "non sostiene", "non sosteniamo", "non sostenete", "non sostengono"]
+            }
+        }
     },
     {
         "word": "colpire",

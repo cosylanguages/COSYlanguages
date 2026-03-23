@@ -4,6 +4,7 @@
         "word": "artiste",
         "level": "elementary",
         "theme": "art_design_A2",
+        "article": "l'",
         "emoji": "🎨",
         "form": "noun",
         "plural": "artistes",
@@ -27,6 +28,7 @@
         "word": "chef",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
+        "article": "le",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "chefs",
@@ -50,6 +52,7 @@
         "word": "infirmier",
         "level": "elementary",
         "theme": "medical_appointments_A1",
+        "article": "l'",
         "emoji": "👩‍⚕️",
         "form": "noun",
         "plural": "infirmiers",
@@ -73,6 +76,7 @@
         "word": "crêpe",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "form": "noun",
         "plural": "crêpes",
         "definitions": [
@@ -95,6 +99,7 @@
         "word": "fondue",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "form": "noun",
         "plural": "fondues",
         "definitions": [
@@ -117,6 +122,7 @@
         "word": "fromage",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "le",
         "emoji": "🧀",
         "form": "noun",
         "plural": "fromages",
@@ -140,6 +146,7 @@
         "word": "riz",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "le",
         "emoji": "🍚",
         "form": "noun",
         "plural": "riz",
@@ -163,6 +170,7 @@
         "word": "tomate",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🍅",
         "form": "noun",
         "plural": "tomates",
@@ -186,9 +194,10 @@
         "word": "pomme de terre",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🥔",
         "form": "noun",
-        "plural": "pomme de terres",
+        "plural": "pommes de terre",
         "definitions": [
             {
                 "text": "Un légume qui pousse sous la terre.",
@@ -229,6 +238,7 @@
         "word": "hôpital",
         "level": "elementary",
         "theme": "medical_appointments_A1",
+        "article": "l'",
         "emoji": "🏥",
         "form": "noun",
         "plural": "hôpitaux",
@@ -252,6 +262,7 @@
         "word": "cinéma",
         "level": "elementary",
         "theme": "theatre_performance_A2",
+        "article": "le",
         "emoji": "🎬",
         "form": "noun",
         "plural": "cinémas",
@@ -275,6 +286,7 @@
         "word": "restaurant",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
+        "article": "le",
         "emoji": "🍴",
         "form": "noun",
         "plural": "restaurants",
@@ -298,6 +310,7 @@
         "word": "robe",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "👗",
         "form": "noun",
         "plural": "robes"
@@ -306,6 +319,7 @@
         "word": "veste",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "🧥",
         "form": "noun",
         "plural": "vestes"
@@ -314,6 +328,7 @@
         "word": "jupe",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "👗",
         "form": "noun",
         "plural": "jupes"
@@ -322,6 +337,7 @@
         "word": "canapé",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "article": "le",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "canapés"
@@ -330,6 +346,7 @@
         "word": "lampe",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "article": "la",
         "emoji": "💡",
         "form": "noun",
         "plural": "lampes"
@@ -375,6 +392,7 @@
         "word": "montre",
         "level": "elementary",
         "theme": "accessories_A1",
+        "article": "la",
         "form": "noun",
         "plural": "montres",
         "definitions": [
@@ -398,6 +416,7 @@
         "word": "portefeuille",
         "level": "elementary",
         "theme": "accessories_A1",
+        "article": "le",
         "emoji": "👛",
         "form": "noun",
         "plural": "portefeuilles",
@@ -423,6 +442,7 @@
         "word": "lion",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "article": "le",
         "emoji": "🦁",
         "form": "noun",
         "plural": "lions"
@@ -431,6 +451,7 @@
         "word": "tigre",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "article": "le",
         "emoji": "🐯",
         "form": "noun",
         "plural": "tigres"
@@ -439,6 +460,7 @@
         "word": "cheval",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "article": "le",
         "emoji": "🐎",
         "form": "noun",
         "plural": "chevaux"
@@ -461,6 +483,7 @@
         "word": "bras",
         "level": "elementary",
         "theme": "body_parts_A0",
+        "article": "le",
         "emoji": "💪",
         "form": "noun",
         "plural": "bras"
@@ -485,6 +508,7 @@
         "word": "cuisine locale",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🍜",
         "form": "noun",
         "definitions": [

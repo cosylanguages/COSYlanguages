@@ -108,7 +108,8 @@
         "theme": "basic_foods_A0",
         "article": "il",
         "emoji": "🥛",
-        "form": "noun"
+        "form": "noun",
+        "plural": "latti"
     },
     {
         "word": "riso",
@@ -116,7 +117,8 @@
         "theme": "basic_foods_A0",
         "article": "il",
         "emoji": "🍚",
-        "form": "noun"
+        "form": "noun",
+        "plural": "risi"
     },
     {
         "word": "carne",
@@ -124,7 +126,8 @@
         "theme": "basic_foods_A0",
         "article": "la",
         "emoji": "🥩",
-        "form": "noun"
+        "form": "noun",
+        "plural": "carni"
     },
     {
         "word": "cibo",
@@ -132,7 +135,8 @@
         "theme": "basic_foods_A0",
         "article": "il",
         "emoji": "🍲",
-        "form": "noun"
+        "form": "noun",
+        "plural": "cibi"
     },
     {
         "word": "caffè",
@@ -176,7 +180,8 @@
         "theme": "meals_of_the_day_A0",
         "article": "la",
         "emoji": "🍳",
-        "form": "noun"
+        "form": "noun",
+        "plural": "colazioni"
     },
     {
         "word": "cena",
@@ -184,7 +189,8 @@
         "theme": "meals_of_the_day_A0",
         "article": "la",
         "emoji": "🍽️",
-        "form": "noun"
+        "form": "noun",
+        "plural": "cene"
     },
     {
         "word": "pranzo",
@@ -192,7 +198,8 @@
         "theme": "meals_of_the_day_A0",
         "article": "il",
         "emoji": "🍱",
-        "form": "noun"
+        "form": "noun",
+        "plural": "pranzi"
     },
     {
         "word": "parco",
@@ -420,14 +427,16 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "triste"
     },
     {
         "word": "stanco",
         "level": "starter",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "riposato"
     },
     {
         "word": "gatto",
@@ -660,7 +669,8 @@
         "theme": "everyday_shopping_A0",
         "article": "il",
         "emoji": "💰",
-        "form": "noun"
+        "form": "noun",
+        "plural": "denari"
     },
     {
         "word": "caro",
@@ -736,6 +746,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
+        "opposite": "a tempo parziale",
         "definitions": [
             {
                 "text": "Lavorare il numero completo di ore di una settimana lavorativa.",
@@ -750,6 +761,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
+        "opposite": "a tempo pieno",
         "definitions": [
             {
                 "text": "Lavorare meno ore di una settimana lavorativa standard.",
@@ -939,6 +951,7 @@
         "form": "adjective",
         "opposite": "sporco",
         "oppositeEmoji": "💩",
+        "subtext": "ordinato, limpido",
         "definitions": [
             {
                 "text": "Privo di sporco.",
@@ -1207,6 +1220,7 @@
         "form": "adjective",
         "opposite": "stressato",
         "oppositeEmoji": "😫",
+        "subtext": "calmo, tranquillo",
         "definitions": [
             {
                 "text": "Calmo; non preoccupato o stressato.",
@@ -1223,6 +1237,8 @@
         "emoji": "😟",
         "form": "adjective",
         "opposite": "calmo",
+        "oppositeEmoji": "😌",
+        "subtext": "ansioso",
         "definitions": [
             {
                 "text": "Sentirsi ansiosi per qualcosa che potrebbe accadere.",
@@ -1267,9 +1283,10 @@
     {
         "word": "importante",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "describing_things_A1",
         "emoji": "💎",
         "form": "adjective",
+        "subtext": "essenziale",
         "definitions": [
             {
                 "text": "Che ha grande valore o effetto.",

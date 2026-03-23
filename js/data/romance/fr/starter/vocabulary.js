@@ -167,6 +167,7 @@
         "article": "le",
         "emoji": "🍚",
         "form": "noun",
+        "plural": "riz",
         "definitions": [
             {
                 "text": "De petits grains blancs que nous cuisons et mangeons.",
@@ -183,6 +184,7 @@
         "article": "la",
         "emoji": "🥩",
         "form": "noun",
+        "plural": "viandes",
         "definitions": [
             {
                 "text": "Nourriture qui provient des animaux.",
@@ -199,6 +201,7 @@
         "article": "la",
         "emoji": "🍲",
         "form": "noun",
+        "plural": "nourritures",
         "definitions": [
             {
                 "text": "Choses que les gens mangent.",
@@ -290,6 +293,7 @@
         "article": "le",
         "emoji": "🍳",
         "form": "noun",
+        "plural": "petits-déjeuners",
         "definitions": [
             {
                 "text": "Le premier repas de la journée.",
@@ -306,6 +310,7 @@
         "article": "le",
         "emoji": "🍽️",
         "form": "noun",
+        "plural": "dîners",
         "definitions": [
             {
                 "text": "Le repas principal de la journée, généralement le soir.",
@@ -322,6 +327,7 @@
         "article": "le",
         "emoji": "🍱",
         "form": "noun",
+        "plural": "déjeuners",
         "definitions": [
             {
                 "text": "Un repas mangé au milieu de la journée.",
@@ -620,6 +626,7 @@
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "form": "adjective",
+        "opposite": "malheureux",
         "definitions": [
             {
                 "text": "Ressentir du plaisir ou de la joie.",
@@ -635,6 +642,7 @@
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
         "form": "adjective",
+        "opposite": "reposé",
         "definitions": [
             {
                 "text": "Ayant besoin de repos ou de sommeil.",
@@ -1030,6 +1038,7 @@
         "article": "l'",
         "emoji": "💰",
         "form": "noun",
+        "plural": "argents",
         "definitions": [
             {
                 "text": "Pièces ou billets utilisés pour acheter des choses.",
@@ -1161,6 +1170,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
+        "opposite": "à temps partiel",
         "definitions": [
             {
                 "text": "Travailler le nombre complet d'heures d'une semaine de travail.",
@@ -1175,6 +1185,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
+        "opposite": "à plein temps",
         "definitions": [
             {
                 "text": "Travailler moins d'heures qu'une semaine de travail standard.",
@@ -1364,6 +1375,7 @@
         "form": "adjective",
         "opposite": "sale",
         "oppositeEmoji": "💩",
+        "subtext": "net, impeccable",
         "definitions": [
             {
                 "text": "Exempt de saleté.",
@@ -1412,6 +1424,7 @@
         "article": "le",
         "emoji": "😴",
         "form": "noun",
+        "plural": "sommeils",
         "definitions": [
             {
                 "text": "Le repos naturel dont votre corps a besoin chaque nuit.",
@@ -1631,6 +1644,7 @@
         "form": "adjective",
         "opposite": "stressé",
         "oppositeEmoji": "😫",
+        "subtext": "calme, relaxé",
         "definitions": [
             {
                 "text": "Calme ; pas inquiet ou stressé.",
@@ -1647,6 +1661,8 @@
         "emoji": "😟",
         "form": "adjective",
         "opposite": "calme",
+        "oppositeEmoji": "😌",
+        "subtext": "anxieux",
         "definitions": [
             {
                 "text": "Se sentir anxieux à propos de quelque chose qui pourrait arriver.",
@@ -1691,9 +1707,11 @@
     {
         "word": "important",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "describing_things_A1",
         "emoji": "💎",
         "form": "adjective",
+        "opposite": "insignifiant",
+        "subtext": "essentiel",
         "definitions": [
             {
                 "text": "Ayant une grande valeur ou un grand effet.",

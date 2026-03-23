@@ -54,6 +54,7 @@
         "theme": "basic_foods_A0",
         "gender": "он",
         "form": "noun",
+        "plural": "борщи",
         "definitions": [
             {
                 "text": "Традиционный русский суп со свеклой."
@@ -65,7 +66,8 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "gender": "он",
-        "form": "noun"
+        "form": "noun",
+        "plural": "салаты оливье"
     },
     {
         "word": "яблоко",
@@ -102,7 +104,8 @@
         "theme": "basic_foods_A0",
         "gender": "оно",
         "emoji": "🥛",
-        "form": "noun"
+        "form": "noun",
+        "plural": "молоко"
     },
     {
         "word": "пицца",
@@ -110,7 +113,8 @@
         "theme": "basic_foods_A0",
         "gender": "она",
         "emoji": "🍕",
-        "form": "noun"
+        "form": "noun",
+        "plural": "пиццы"
     },
     {
         "word": "рис",
@@ -118,7 +122,8 @@
         "theme": "basic_foods_A0",
         "gender": "он",
         "emoji": "🍚",
-        "form": "noun"
+        "form": "noun",
+        "plural": "рис"
     },
     {
         "word": "мясо",
@@ -126,7 +131,8 @@
         "theme": "basic_foods_A0",
         "gender": "оно",
         "emoji": "🥩",
-        "form": "noun"
+        "form": "noun",
+        "plural": "мясо"
     },
     {
         "word": "еда",
@@ -134,7 +140,8 @@
         "theme": "basic_foods_A0",
         "gender": "она",
         "emoji": "🍲",
-        "form": "noun"
+        "form": "noun",
+        "plural": "еда"
     },
     {
         "word": "кофе",
@@ -142,7 +149,8 @@
         "theme": "drinks_A0",
         "gender": "он",
         "emoji": "☕",
-        "form": "noun"
+        "form": "noun",
+        "plural": "кофе"
     },
     {
         "word": "чай",
@@ -150,7 +158,8 @@
         "theme": "drinks_A0",
         "gender": "он",
         "emoji": "🍵",
-        "form": "noun"
+        "form": "noun",
+        "plural": "чаи"
     },
     {
         "word": "сок",
@@ -158,7 +167,8 @@
         "theme": "drinks_A0",
         "gender": "он",
         "emoji": "🧃",
-        "form": "noun"
+        "form": "noun",
+        "plural": "соки"
     },
     {
         "word": "вода",
@@ -166,7 +176,8 @@
         "theme": "drinks_A0",
         "gender": "она",
         "emoji": "🚰",
-        "form": "noun"
+        "form": "noun",
+        "plural": "воды"
     },
     {
         "word": "завтрак",
@@ -174,7 +185,8 @@
         "theme": "meals_of_the_day_A0",
         "gender": "он",
         "emoji": "🍳",
-        "form": "noun"
+        "form": "noun",
+        "plural": "завтраки"
     },
     {
         "word": "ужин",
@@ -182,7 +194,8 @@
         "theme": "meals_of_the_day_A0",
         "gender": "он",
         "emoji": "🍽️",
-        "form": "noun"
+        "form": "noun",
+        "plural": "ужины"
     },
     {
         "word": "обед",
@@ -190,7 +203,8 @@
         "theme": "meals_of_the_day_A0",
         "gender": "он",
         "emoji": "🍱",
-        "form": "noun"
+        "form": "noun",
+        "plural": "обеды"
     },
     {
         "word": "парк",
@@ -198,7 +212,8 @@
         "theme": "local_places_services_A0",
         "gender": "он",
         "emoji": "🌳",
-        "form": "noun"
+        "form": "noun",
+        "plural": "парки"
     },
     {
         "word": "школа",
@@ -233,7 +248,8 @@
         "theme": "items_of_clothing_A0",
         "gender": "они",
         "emoji": "👖",
-        "form": "noun"
+        "form": "noun",
+        "plural": "брюки"
     },
     {
         "word": "обувь",
@@ -241,7 +257,8 @@
         "theme": "items_of_clothing_A0",
         "gender": "она",
         "emoji": "👟",
-        "form": "noun"
+        "form": "noun",
+        "plural": "обувь"
     },
     {
         "word": "шапка",
@@ -415,7 +432,8 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "грустный"
     },
     {
         "word": "усталый",
@@ -656,7 +674,8 @@
         "theme": "everyday_shopping_A0",
         "gender": "они",
         "emoji": "💰",
-        "form": "noun"
+        "form": "noun",
+        "plural": "деньги"
     },
     {
         "word": "дорогой",
@@ -732,6 +751,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
+        "opposite": "неполный рабочий день",
         "definitions": [
             {
                 "text": "Работа в течение полного количества часов в рабочую неделю.",
@@ -746,6 +766,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
+        "opposite": "полный рабочий день",
         "definitions": [
             {
                 "text": "Работа меньшее количество часов, чем стандартная рабочая неделя.",
@@ -933,6 +954,7 @@
         "form": "adjective",
         "opposite": "грязный",
         "oppositeEmoji": "💩",
+        "subtext": "опрятный, безупречный",
         "definitions": [
             {
                 "text": "Свободный от грязи.",
@@ -1199,6 +1221,8 @@
         "emoji": "😌",
         "form": "adjective",
         "opposite": "напряженный",
+        "oppositeEmoji": "😫",
+        "subtext": "спокойный",
         "definitions": [
             {
                 "text": "Спокойный; не встревоженный и не напряженный.",
@@ -1215,6 +1239,8 @@
         "emoji": "😟",
         "form": "adjective",
         "opposite": "спокойный",
+        "oppositeEmoji": "😌",
+        "subtext": "тревожный",
         "definitions": [
             {
                 "text": "Чувство тревоги из-за того, что может случиться.",
@@ -1259,9 +1285,10 @@
     {
         "word": "важный",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "describing_things_A1",
         "emoji": "💎",
         "form": "adjective",
+        "subtext": "значимый, основной",
         "definitions": [
             {
                 "text": "Имеющий большое значение или влияние.",

@@ -4,6 +4,7 @@
         "word": "artista",
         "level": "elementary",
         "theme": "art_design_A2",
+        "article": "l'",
         "emoji": "🎨",
         "form": "noun",
         "plural": "artisti",
@@ -27,6 +28,7 @@
         "word": "chef",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
+        "article": "lo",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "chef",
@@ -50,6 +52,7 @@
         "word": "risotto",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "form": "noun",
         "plural": "risotti",
         "definitions": [
@@ -72,6 +75,7 @@
         "word": "gelato",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "form": "noun",
         "plural": "gelati",
         "definitions": [
@@ -94,9 +98,10 @@
         "word": "formaggio",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "emoji": "🧀",
         "form": "noun",
-        "plural": "formaggio",
+        "plural": "formaggi",
         "definitions": [
             {
                 "text": "Un alimento solido ricavato dal latte.",
@@ -117,6 +122,7 @@
         "word": "riso",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "emoji": "🍚",
         "form": "noun",
         "plural": "riso"
@@ -125,6 +131,7 @@
         "word": "pomodoro",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "il",
         "emoji": "🍅",
         "form": "noun",
         "plural": "pomodori"
@@ -133,6 +140,7 @@
         "word": "patata",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🥔",
         "form": "noun",
         "plural": "patate"
@@ -161,6 +169,7 @@
         "word": "ospedale",
         "level": "elementary",
         "theme": "medical_appointments_A1",
+        "article": "l'",
         "emoji": "🏥",
         "form": "noun",
         "plural": "ospedali",
@@ -184,6 +193,7 @@
         "word": "cinema",
         "level": "elementary",
         "theme": "theatre_performance_A2",
+        "article": "il",
         "emoji": "🎬",
         "form": "noun",
         "plural": "cinema",
@@ -207,6 +217,7 @@
         "word": "ristorante",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
+        "article": "il",
         "emoji": "🍴",
         "form": "noun",
         "plural": "ristoranti",
@@ -230,6 +241,7 @@
         "word": "supermercato",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
+        "article": "il",
         "emoji": "🛒",
         "form": "noun",
         "plural": "supermercati",
@@ -253,6 +265,7 @@
         "word": "vestito",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "article": "il",
         "emoji": "👗",
         "form": "noun",
         "plural": "vestiti"
@@ -261,14 +274,16 @@
         "word": "giacca",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "🧥",
         "form": "noun",
-        "plural": "giacce"
+        "plural": "giacche"
     },
     {
         "word": "gonna",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
+        "article": "la",
         "emoji": "👗",
         "form": "noun",
         "plural": "gonne"
@@ -277,6 +292,7 @@
         "word": "divano",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "article": "il",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "divani"
@@ -285,6 +301,7 @@
         "word": "lampada",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "article": "la",
         "emoji": "💡",
         "form": "noun",
         "plural": "lampade"
@@ -293,6 +310,7 @@
         "word": "scrivania",
         "level": "elementary",
         "theme": "home_furnishings_A2",
+        "article": "la",
         "emoji": "⌨️",
         "form": "noun",
         "plural": "scrivanie"
@@ -327,6 +345,7 @@
         "word": "orologio",
         "level": "elementary",
         "theme": "accessories_A1",
+        "article": "l'",
         "emoji": "⌚",
         "form": "noun",
         "plural": "orologi",
@@ -344,6 +363,7 @@
         "word": "portafoglio",
         "level": "elementary",
         "theme": "accessories_A1",
+        "article": "il",
         "emoji": "👛",
         "form": "noun",
         "plural": "portafogli",
@@ -361,6 +381,7 @@
         "word": "occhiali",
         "level": "elementary",
         "theme": "accessories_A1",
+        "article": "gli",
         "emoji": "👓",
         "form": "noun",
         "plural": "occhiali",
@@ -378,6 +399,7 @@
         "word": "leone",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "article": "il",
         "emoji": "🦁",
         "form": "noun",
         "plural": "leoni",
@@ -395,52 +417,55 @@
         "word": "tigre",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "article": "la",
         "emoji": "🐯",
-        "form": "noun"
+        "form": "noun",
+        "plural": "tigri"
     },
     {
         "word": "cavallo",
         "level": "elementary",
         "theme": "animals_nature_A2",
+        "article": "il",
         "emoji": "🐎",
-        "form": "noun"
+        "form": "noun",
+        "plural": "cavalli"
     },
     {
         "word": "nevoso",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "❄️",
-        "form": "noun",
-        "plural": "nevosi"
+        "form": "adjective"
     },
     {
         "word": "ventoso",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "💨",
-        "form": "noun",
-        "plural": "ventosi"
+        "form": "adjective"
     },
     {
         "word": "nuvoloso",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "☁️",
-        "form": "noun",
-        "plural": "nuvolosi"
+        "form": "adjective"
     },
     {
         "word": "braccio",
         "level": "elementary",
         "theme": "body_parts_A0",
+        "article": "il",
         "emoji": "💪",
         "form": "noun",
-        "plural": "braccii"
+        "plural": "braccia"
     },
     {
         "word": "università",
         "level": "elementary",
         "theme": "career_development_A2",
+        "article": "l'",
         "emoji": "🎓",
         "form": "noun",
         "plural": "università",
@@ -458,6 +483,7 @@
         "word": "cucina locale",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
+        "article": "la",
         "emoji": "🍜",
         "form": "noun",
         "definitions": [

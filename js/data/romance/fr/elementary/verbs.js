@@ -125,7 +125,13 @@
                     "Ma famille soutient mes décisions."
                 ]
             }
-        ]
+        ],
+        "tenses": {
+            "present_simple": {
+                "positive": ["soutiens", "soutiens", "soutient", "soutient", "soutenons", "soutenez", "soutiennent", "soutiennent"],
+                "negative": ["ne soutiens pas", "ne soutiens pas", "ne soutient pas", "ne soutient pas", "ne soutenons pas", "ne soutenez pas", "ne soutiennent pas", "ne soutiennent pas"]
+            }
+        }
     },
     {
         "word": "frapper",

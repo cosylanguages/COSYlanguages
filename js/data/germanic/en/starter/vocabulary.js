@@ -1577,7 +1577,7 @@
         "emoji": "💸",
         "form": "noun",
         "plural": "salaries",
-        "subtext": "pay, income, earnings",
+        "subtext": "pay, income",
         "definitions": [
             {
                 "text": "The money a person earns from their job each month.",
@@ -1706,10 +1706,10 @@
         "word": "clean",
         "level": "starter",
         "theme": "household_tasks_A1",
-        "emoji": "🧹",
+        "emoji": "✨",
         "form": "adjective",
         "opposite": "dirty",
-        "oppositeEmoji": "🗑️",
+        "oppositeEmoji": "💩",
         "subtext": "tidy, spotless",
         "definitions": [
             {
@@ -1956,8 +1956,8 @@
         "theme": "basic_positive_emotions_A0",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "worried",
-        "oppositeEmoji": "😟",
+        "opposite": "stressed",
+        "oppositeEmoji": "😫",
         "subtext": "calm, feeling relaxed",
         "definitions": [
             {
@@ -1974,9 +1974,9 @@
         "theme": "basic_negative_emotions_A0",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "relaxed",
+        "opposite": "calm",
         "oppositeEmoji": "😌",
-        "subtext": "anxious, concerned, worried about",
+        "subtext": "anxious",
         "definitions": [
             {
                 "text": "Feeling anxious about something that might happen.",
@@ -2022,9 +2022,10 @@
     {
         "word": "important",
         "level": "starter",
-        "theme": "values_beliefs_B1",
+        "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
+        "subtext": "essential",
         "definitions": [
             {
                 "text": "Having great value or effect.",

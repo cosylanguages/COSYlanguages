@@ -139,7 +139,8 @@
         "theme": "basic_foods_A0",
         "article": "το",
         "emoji": "🥛",
-        "form": "noun"
+        "form": "noun",
+        "plural": "γάλατα"
     },
     {
         "word": "πίτσα",
@@ -147,7 +148,8 @@
         "theme": "basic_foods_A0",
         "article": "η",
         "emoji": "🍕",
-        "form": "noun"
+        "form": "noun",
+        "plural": "πίτσες"
     },
     {
         "word": "ρύζι",
@@ -155,7 +157,8 @@
         "theme": "basic_foods_A0",
         "article": "το",
         "emoji": "🍚",
-        "form": "noun"
+        "form": "noun",
+        "plural": "ρύζια"
     },
     {
         "word": "κρέας",
@@ -163,7 +166,8 @@
         "theme": "basic_foods_A0",
         "article": "το",
         "emoji": "🥩",
-        "form": "noun"
+        "form": "noun",
+        "plural": "κρέατα"
     },
     {
         "word": "φαγητό",
@@ -171,7 +175,8 @@
         "theme": "basic_foods_A0",
         "article": "το",
         "emoji": "🍲",
-        "form": "noun"
+        "form": "noun",
+        "plural": "φαγητά"
     },
     {
         "word": "καφές",
@@ -188,7 +193,8 @@
         "theme": "drinks_A0",
         "article": "το",
         "emoji": "🍵",
-        "form": "noun"
+        "form": "noun",
+        "plural": "τσάγια"
     },
     {
         "word": "χυμός",
@@ -205,7 +211,8 @@
         "theme": "drinks_A0",
         "article": "το",
         "emoji": "🚰",
-        "form": "noun"
+        "form": "noun",
+        "plural": "νερά"
     },
     {
         "word": "πρωινό",
@@ -213,7 +220,8 @@
         "theme": "meals_of_the_day_A0",
         "article": "το",
         "emoji": "🍳",
-        "form": "noun"
+        "form": "noun",
+        "plural": "πρωινά"
     },
     {
         "word": "βραδινό",
@@ -221,7 +229,8 @@
         "theme": "meals_of_the_day_A0",
         "article": "το",
         "emoji": "🍽️",
-        "form": "noun"
+        "form": "noun",
+        "plural": "βραδινά"
     },
     {
         "word": "μεσημεριανό",
@@ -229,7 +238,8 @@
         "theme": "meals_of_the_day_A0",
         "article": "το",
         "emoji": "🍱",
-        "form": "noun"
+        "form": "noun",
+        "plural": "μεσημεριανά"
     },
     {
         "word": "πάρκο",
@@ -282,7 +292,8 @@
         "theme": "items_of_clothing_A0",
         "article": "τα",
         "emoji": "👟",
-        "form": "noun"
+        "form": "noun",
+        "plural": "παπούτσια"
     },
     {
         "word": "καπέλο",
@@ -362,7 +373,8 @@
         "theme": "furniture_objects_A0",
         "article": "το",
         "emoji": "🖊️",
-        "form": "noun"
+        "form": "noun",
+        "plural": "στυλό"
     },
     {
         "word": "ψηλός",
@@ -455,14 +467,16 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "λυπημένος"
     },
     {
         "word": "κουρασμένος",
         "level": "starter",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
-        "form": "adjective"
+        "form": "adjective",
+        "opposite": "ξεκούραστος"
     },
     {
         "word": "γάτα",
@@ -762,6 +776,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
+        "opposite": "μερικής απασχόλησης",
         "definitions": [
             {
                 "text": "Εργασία για το πλήρες ωράριο μιας εργάσιμης εβδομάδας.",
@@ -776,6 +791,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
+        "opposite": "πλήρους απασχόλησης",
         "definitions": [
             {
                 "text": "Εργασία για λιγότερες ώρες από μια τυπική εργάσιμη εβδομάδα.",
@@ -964,6 +980,7 @@
         "form": "adjective",
         "opposite": "βρώμικος",
         "oppositeEmoji": "💩",
+        "subtext": "τακτοποιημένος",
         "definitions": [
             {
                 "text": "Χωρίς βρωμιά.",
@@ -1230,6 +1247,7 @@
         "form": "adjective",
         "opposite": "αγχωμένος",
         "oppositeEmoji": "😫",
+        "subtext": "ήρεμος",
         "definitions": [
             {
                 "text": "Ήρεμος. Όχι ανήσυχος ή αγχωμένος.",
@@ -1246,6 +1264,8 @@
         "emoji": "😟",
         "form": "adjective",
         "opposite": "ήρεμος",
+        "oppositeEmoji": "😌",
+        "subtext": "αγχωμένος",
         "definitions": [
             {
                 "text": "Το να νιώθεις άγχος για κάτι που μπορεί να συμβεί.",
@@ -1290,9 +1310,10 @@
     {
         "word": "σημαντικός",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "describing_things_A1",
         "emoji": "💎",
         "form": "adjective",
+        "subtext": "ουσιώδης",
         "definitions": [
             {
                 "text": "Έχοντας μεγάλη αξία ή αποτέλεσμα.",
