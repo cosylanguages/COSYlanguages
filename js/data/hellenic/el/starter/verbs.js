@@ -1,82 +1,75 @@
 (function() {
     const data = [
     {
-        "word": "ηλιόλουστος",
+        "word": "ξυπνάω",
         "level": "starter",
-        "theme": "weather_A0",
-        "emoji": "☀️",
-        "form": "verb"
-    },
-    {
-        "word": "βροχερός",
-        "level": "starter",
-        "theme": "weather_A0",
-        "emoji": "🌧️",
-        "form": "verb"
-    },
-    {
-        "word": "πόδι",
-        "level": "starter",
-        "theme": "body_parts_A0",
-        "emoji": "🦶",
-        "form": "verb"
-    },
-    {
-        "word": "καφές",
-        "theme": "basic_foods_A0",
-        "level": "starter",
-        "article": "ο",
-        "baseWord": "καφές",
-        "emoji": "☕",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⏰",
         "form": "verb",
-        "plural": "καφές"
-    },
-    {
-        "word": "μπίρα",
-        "theme": "basic_foods_A0",
-        "level": "starter",
-        "article": "η",
-        "baseWord": "μπίρα",
-        "emoji": "🍺",
-        "form": "verb",
-        "plural": "μπίρα"
-    },
-    {
-        "word": "νερό",
-        "theme": "basic_foods_A0",
-        "level": "starter",
-        "article": "το",
-        "baseWord": "νερό",
-        "emoji": "🚰",
-        "form": "verb",
-        "plural": "νερό",
+        "subtext": "ξυπνάω νωρίς, ξυπνάω στις 7 π.μ.",
+        "opposite": "κοιμάμαι",
+        "oppositeEmoji": "😴",
         "definitions": [
             {
-                "text": "Ένα διαφανές υγρό που πίνουμε για να ζήσουμε.",
+                "text": "Σταματάω να κοιμάμαι και ανοίγω τα μάτια μου.",
                 "examples": [
-                    "Πίνω ένα ποτήρι νερό.",
-                    "Το νερό είναι κρύο."
+                    "Ξυπνάω στις επτά.",
+                    "Τι ώρα ξυπνάς;"
                 ]
             }
         ]
     },
     {
-        "word": "βιβλίο",
-        "theme": "furniture_objects_A0",
+        "word": "δουλεύω",
         "level": "starter",
-        "article": "το",
-        "baseWord": "βιβλίο",
-        "numberPlural": "2 βιβλίο",
-        "answer": "δύο βιβλία",
-        "emoji": "📖",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💼",
+        "subtext": "δουλεύω σε γραφείο, δουλεύω σκληρά",
         "form": "verb",
-        "plural": "βιβλία",
         "definitions": [
             {
-                "text": "Πολλές σελίδες με λέξεις και εικόνες που διαβάζετε.",
+                "text": "Κάνω μια εργασία για να κερδίσω χρήματα.",
+                "examples": [
+                    "Δουλεύω πέντε μέρες την εβδομάδα.",
+                    "Δουλεύει σε τράπεζα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "κοιμάμαι",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "😴",
+        "subtext": "κοιμάμαι 8 ώρες, πάω για ύπνο",
+        "opposite": "ξυπνάω",
+        "oppositeEmoji": "⏰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Ξεκουράζομαι με τα μάτια κλειστά.",
+                "examples": [
+                    "Πρέπει να κοιμηθώ.",
+                    "Το μωρό κοιμάται."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "διαβάζω",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "form": "verb",
+        "subtext": "διαβάζω ένα βιβλίο, διαβάζω εφημερίδα",
+        "opposite": "γράφω",
+        "oppositeEmoji": "✍️",
+        "definitions": [
+            {
+                "text": "Κοιτάζω και καταλαβαίνω γραμμένες λέξεις.",
                 "examples": [
                     "Διαβάζω ένα βιβλίο κάθε βράδυ.",
-                    "Αυτό το βιβλίο είναι ενδιαφέρον."
+                    "Μπορεί να διαβάσει ελληνικά."
                 ]
             }
         ]
@@ -84,25 +77,22 @@
     {
         "word": "είμαι",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "personal_identity",
         "emoji": "👤",
-        "subtext": "κρυώνω, είμαι 20 χρονών",
         "form": "verb"
     },
     {
         "word": "έχω",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "personal_identity",
         "emoji": "👜",
-        "subtext": "τρώω πρωινό, έχω ένα αυτοκίνητο",
         "form": "verb"
     },
     {
         "word": "πηγαίνω",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "🚶",
-        "subtext": "πηγαίνω στο σχολείο, πηγαίνω σπίτι",
         "form": "verb"
     },
     {
@@ -116,7 +106,7 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "Βάζω τροφή στο στόμα και την καταπίνω.",
+                "text": "Βάζω τροφή στο στόμα μου και την καταπίνω.",
                 "examples": [
                     "Τρώω ένα μήλο κάθε μέρα.",
                     "Τι θέλεις να φας;"
@@ -127,325 +117,402 @@
     {
         "word": "πίνω",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "drinks_A0",
         "emoji": "🥛",
         "subtext": "πίνω νερό, πίνω καφέ",
+        "opposite": "τρώω",
+        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
-                "text": "Βάζω υγρό στο στόμα και το καταπίνω.",
+                "text": "Παίρνω υγρό στο στόμα μου και το καταπίνω.",
                 "examples": [
                     "Πίνω πολύ νερό.",
-                    "Θέλεις κάτι να πιεις;"
+                    "Θέλεις να πιεις κάτι;"
                 ]
             }
         ]
+    },
+    {
+        "word": "κάνω",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛠️",
+        "form": "verb"
+    },
+    {
+        "word": "μιλάω",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗣️",
+        "form": "verb"
+    },
+    {
+        "word": "ξέρω",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🧠",
+        "form": "verb"
+    },
+    {
+        "word": "σκέφτομαι",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "💭",
+        "form": "verb"
     },
     {
         "word": "βλέπω",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "👁️",
-        "subtext": "βλέπω μια ταινία, βλέπω ένα φίλο",
+        "theme": "leisure_activities_A1",
+        "emoji": "📺",
         "form": "verb",
+        "subtext": "βλέπω τηλεόραση, βλέπω μια ταινία",
         "definitions": [
             {
-                "text": "Χρησιμοποιώ τα μάτια μου για να κοιτάξω κάτι.",
+                "text": "Κοιτάζω κάτι για κάποιο χρονικό διάστημα.",
                 "examples": [
-                    "Βλέπω ένα πουλί.",
-                    "Είδες αυτή την ταινία;"
+                    "Βλέπω τηλεόραση το βράδυ.",
+                    "Βλέπουν τα πουλιά."
                 ]
             }
         ]
+    },
+    {
+        "word": "θέλω",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🙏",
+        "form": "verb"
+    },
+    {
+        "word": "αγαπάω",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "❤️",
+        "form": "verb"
+    },
+    {
+        "word": "γράφω",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "✍️",
+        "form": "verb"
+    },
+    {
+        "word": "έρχομαι",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🏃‍♂️",
+        "form": "verb"
+    },
+    {
+        "word": "δίνω",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "verb"
+    },
+    {
+        "word": "παίρνω",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "👜",
+        "form": "verb",
+        "subtext": "παίρνω το λεωφορείο, παίρνω μια φωτογραφία"
+    },
+    {
+        "word": "βρίσκω",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔍",
+        "form": "verb"
+    },
+    {
+        "word": "λέω",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗣️",
+        "form": "verb"
+    },
+    {
+        "word": "ρωτάω",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "❓",
+        "form": "verb"
+    },
+    {
+        "word": "νιώθω",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🌡️",
+        "form": "verb"
+    },
+    {
+        "word": "προσπαθώ",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🎯",
+        "form": "verb"
+    },
+    {
+        "word": "φεύγω",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚪",
+        "form": "verb"
+    },
+    {
+        "word": "τηλεφωνώ",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "📞",
+        "form": "verb"
+    },
+    {
+        "word": "χρησιμοποιώ",
+        "level": "starter",
+        "theme": "technology_media",
+        "emoji": "🛠️",
+        "form": "verb"
+    },
+    {
+        "word": "ξεκινάω",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "▶️",
+        "form": "verb"
     },
     {
         "word": "βοηθάω",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "society_politics",
         "emoji": "🤝",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Δίνω βοήθεια σε κάποιον που τη χρειάζεται.",
-                "examples": [
-                    "Μπορώ να σε βοηθήσω;",
-                    "Βοηθάει τη μητέρα του στο σπίτι."
-                ]
-            }
-        ]
+        "form": "verb"
+    },
+    {
+        "word": "παίζω",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎮",
+        "form": "verb"
+    },
+    {
+        "word": "τρέχω",
+        "level": "starter",
+        "theme": "common_sports_A0",
+        "emoji": "🏃",
+        "form": "verb"
+    },
+    {
+        "word": "ζω",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "🏠",
+        "form": "verb"
+    },
+    {
+        "word": "φέρνω",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "verb"
+    },
+    {
+        "word": "κάθομαι",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🪑",
+        "form": "verb"
+    },
+    {
+        "word": "στέκομαι",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🧍",
+        "form": "verb"
+    },
+    {
+        "word": "χάνω",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "📉",
+        "form": "verb"
+    },
+    {
+        "word": "πληρώνω",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💰",
+        "form": "verb"
+    },
+    {
+        "word": "συναντώ",
+        "level": "starter",
+        "theme": "society_politics",
+        "emoji": "🤝",
+        "form": "verb"
+    },
+    {
+        "word": "μαθαίνω",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "📚",
+        "form": "verb"
+    },
+    {
+        "word": "αλλάζω",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🔄",
+        "form": "verb"
+    },
+    {
+        "word": "καταλαβαίνω",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "💡",
+        "form": "verb"
+    },
+    {
+        "word": "σταματάω",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🛑",
+        "form": "verb"
+    },
+    {
+        "word": "προσθέτω",
+        "level": "starter",
+        "theme": "numbers_math",
+        "emoji": "➕",
+        "form": "verb"
+    },
+    {
+        "word": "ξοδεύω",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💸",
+        "form": "verb"
+    },
+    {
+        "word": "ανοίγω",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "form": "verb"
+    },
+    {
+        "word": "νικάω",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏆",
+        "form": "verb"
     },
     {
         "word": "περπατάω",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "modes_of_transport_A0",
         "emoji": "🚶",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Μετακινούμαι με τα πόδια.",
-                "examples": [
-                    "Περπατάω για να πάω στο σχολείο.",
-                    "Ας περπατήσουμε στο πάρκο."
-                ]
-            }
-        ]
+        "form": "verb"
+    },
+    {
+        "word": "θυμάμαι",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🧠",
+        "form": "verb"
     },
     {
         "word": "αγοράζω",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🛒",
-        "opposite": "πουλάω",
-        "oppositeEmoji": "🏷️",
         "form": "verb"
     },
     {
         "word": "πεθαίνω",
         "level": "starter",
-        "theme": "body_parts_A0",
+        "theme": "health_body",
         "emoji": "⚰️",
-        "opposite": "ζω",
-        "oppositeEmoji": "🏠",
         "form": "verb"
     },
     {
         "word": "στέλνω",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "language_communication",
         "emoji": "✉️",
-        "form": "verb"
-    },
-    {
-        "word": "μένω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏨",
         "form": "verb"
     },
     {
         "word": "πέφτω",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "environment_nature",
         "emoji": "🍂",
         "form": "verb"
     },
     {
         "word": "κόβω",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "food_drink",
         "emoji": "✂️",
         "form": "verb"
     },
     {
-        "word": "περνώ",
+        "word": "περνάω",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "education_learning",
         "emoji": "🏔️",
         "form": "verb"
     },
     {
         "word": "πουλάω",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🏷️",
-        "opposite": "αγοράζω",
-        "oppositeEmoji": "🛒",
         "form": "verb"
     },
     {
         "word": "τραβάω",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🚜",
-        "opposite": "σπρώχνω",
-        "oppositeEmoji": "🛒",
         "form": "verb"
     },
     {
         "word": "σπρώχνω",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "health_body",
         "emoji": "🛒",
-        "opposite": "τραβάω",
-        "oppositeEmoji": "🚜",
         "form": "verb"
     },
     {
         "word": "ελπίζω",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "feelings_emotions",
         "emoji": "🤞",
-        "form": "verb"
-    },
-    {
-        "word": "κουβαλώ",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🎒",
-        "form": "verb"
-    },
-    {
-        "word": "σπάω",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "💔",
-        "form": "verb"
-    },
-    {
-        "word": "λαμβάνω",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📩",
-        "form": "verb"
-    },
-    {
-        "word": "συμφωνώ",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "👍",
-        "form": "verb"
-    },
-    {
-        "word": "σχεδιάζω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎨",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Αναπαριστώ κάτι με γραμμές και χρώματα στο χαρτί.",
-                "examples": [
-                    "Μου αρέσει να σχεδιάζω τοπία.",
-                    "Σχεδίασε έναν κύκλο."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "μοιράζομαι",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🍕",
-        "form": "verb"
-    },
-    {
-        "word": "χαμογελώ",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "😊",
-        "opposite": "κλαίω",
-        "oppositeEmoji": "😢",
-        "form": "verb"
-    },
-    {
-        "word": "κλαίω",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "😢",
-        "opposite": "χαμογελώ",
-        "oppositeEmoji": "😊",
-        "form": "verb"
-    },
-    {
-        "word": "χορεύω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "💃",
-        "form": "verb"
-    },
-    {
-        "word": "τραγουδάω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎤",
-        "form": "verb"
-    },
-    {
-        "word": "πηδάω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🦘",
-        "form": "verb"
-    },
-    {
-        "word": "πετάω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "✈️",
-        "form": "verb"
-    },
-    {
-        "word": "κολυμπάω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏊",
-        "form": "verb"
-    },
-    {
-        "word": "πλένω",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🧼",
-        "form": "verb"
-    },
-    {
-        "word": "καθαρίζω",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🧹",
         "form": "verb"
     },
     {
         "word": "μαγειρεύω",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "food_drink",
         "emoji": "🍳",
-        "form": "verb"
-    },
-    {
-        "word": "ταξιδεύω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "✈️",
-        "form": "verb"
-    },
-    {
-        "word": "σπουδάζω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "📖",
-        "form": "verb"
-    },
-    {
-        "word": "διδάσκω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "👨‍🏫",
-        "form": "verb"
-    },
-    {
-        "word": "ακούω",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎧",
         "form": "verb"
     },
     {
         "word": "κλείνω",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "🔒",
-        "opposite": "ανοίγω",
-        "oppositeEmoji": "📖",
         "form": "verb"
     },
     {
         "word": "τελειώνω",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "time",
         "emoji": "🏁",
-        "opposite": "αρχίζω",
-        "oppositeEmoji": "▶️",
         "form": "verb"
     }
 ];

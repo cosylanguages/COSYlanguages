@@ -11,19 +11,23 @@
         "plural": "medici",
         "definitions": [
             {
-                "text": "Una persona che cura i malati.",
+                "text": "Una persona che aiuta le persone malate.",
                 "examples": [
-                    "Il medico è in ospedale.",
-                    "Vado dal medico."
-                ]
-            },
-            {
-                "text": "Questa persona lavora solitamente in un ospedale o in una clinica.",
-                "examples": [
-                    "I medici portano il camice bianco."
+                    "Il medico è all'ospedale.",
+                    "Devo vedere un medico."
                 ]
             }
         ]
+    },
+    {
+        "word": "piede",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "numberPlural": "2 piede",
+        "answer": "due piedi",
+        "emoji": "🦶",
+        "form": "noun",
+        "plural": "piedi"
     },
     {
         "word": "insegnante",
@@ -34,16 +38,9 @@
         "plural": "insegnanti",
         "definitions": [
             {
-                "text": "Una persona che aiuta a imparare.",
+                "text": "Una persona che aiuta a imparare cose nuove.",
                 "examples": [
-                    "L'insegnante spiega la lezione.",
-                    "Ho una brava insegnante."
-                ]
-            },
-            {
-                "text": "Questa persona lavora solitamente in una scuola o all'università.",
-                "examples": [
-                    "Gli insegnanti spiegano nuovi argomenti."
+                    "L'insegnante è in classe."
                 ]
             }
         ]
@@ -54,19 +51,12 @@
         "theme": "basic_foods_A0",
         "emoji": "🍝",
         "form": "noun",
-        "plural": "paste",
+        "plural": "pasta",
         "definitions": [
             {
-                "text": "Un alimento a base di farina e acqua o uova.",
+                "text": "Un cibo tipico italiano fatto di farina.",
                 "examples": [
-                    "Mi piace la pasta al pomodoro.",
-                    "Gli spaghetti sono un tipo di pasta."
-                ]
-            },
-            {
-                "text": "Questo cibo è il simbolo della cucina italiana.",
-                "examples": [
-                    "Ci sono molti formati di pasta."
+                    "Amo la pasta al pomodoro."
                 ]
             }
         ]
@@ -76,41 +66,17 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "form": "noun",
-        "plural": "lasagne",
-        "definitions": [
-            {
-                "text": "Fogli di pasta alternati con ragù e besciamella.",
-                "examples": [
-                    "Le lasagne sono nel forno.",
-                    "Mi piacciono le lasagne della mamma."
-                ]
-            },
-            {
-                "text": "Questo piatto viene spesso mangiato la domenica.",
-                "examples": [
-                    "Le lasagne sono molto nutrienti."
-                ]
-            }
-        ]
+        "plural": "lasagne"
     },
     {
         "word": "mela",
         "level": "starter",
         "theme": "basic_foods_A0",
+        "emoji": "🍎",
         "numberPlural": "4 mela",
         "answer": "quattro mele",
-        "emoji": "🍎",
         "form": "noun",
-        "plural": "mele",
-        "definitions": [
-            {
-                "text": "Un frutto tondo, rosso o verde.",
-                "examples": [
-                    "Mangio una mela ogni giorno.",
-                    "La mela è buona."
-                ]
-            }
-        ]
+        "plural": "mele"
     },
     {
         "word": "pane",
@@ -118,16 +84,7 @@
         "theme": "basic_foods_A0",
         "emoji": "🍞",
         "form": "noun",
-        "plural": "pane",
-        "definitions": [
-            {
-                "text": "Un cibo fatto di farina e acqua, poi cotto al forno.",
-                "examples": [
-                    "Mi piace il pane fresco.",
-                    "Puoi comprare del pane?"
-                ]
-            }
-        ]
+        "plural": "pani"
     },
     {
         "word": "uovo",
@@ -142,15 +99,33 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "emoji": "🥛",
-        "form": "noun",
-        "plural": "latte"
+        "form": "noun"
+    },
+    {
+        "word": "riso",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍚",
+        "form": "noun"
+    },
+    {
+        "word": "carne",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🥩",
+        "form": "noun"
+    },
+    {
+        "word": "cibo",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍲",
+        "form": "noun"
     },
     {
         "word": "caffè",
         "level": "starter",
-        "theme": "basic_foods_A0",
-        "article": "il",
-        "baseWord": "caffè",
+        "theme": "drinks_A0",
         "emoji": "☕",
         "form": "noun",
         "plural": "caffè"
@@ -158,9 +133,7 @@
     {
         "word": "tè",
         "level": "starter",
-        "theme": "basic_foods_A0",
-        "article": "il",
-        "baseWord": "tè",
+        "theme": "drinks_A0",
         "emoji": "🍵",
         "form": "noun",
         "plural": "tè"
@@ -168,70 +141,68 @@
     {
         "word": "succo",
         "level": "starter",
-        "theme": "basic_foods_A0",
-        "article": "il",
-        "baseWord": "succo",
+        "theme": "drinks_A0",
         "emoji": "🧃",
         "form": "noun",
-        "plural": "succo"
+        "plural": "succhi"
     },
     {
         "word": "acqua",
         "level": "starter",
-        "theme": "basic_foods_A0",
-        "article": "l'",
-        "baseWord": "acqua",
+        "theme": "drinks_A0",
         "emoji": "🚰",
         "form": "noun",
-        "plural": "acqua",
-        "definitions": [
-            {
-                "text": "Un liquido trasparente che beviamo per vivere.",
-                "examples": [
-                    "Bevo un bicchiere d'acqua.",
-                    "L'acqua è fredda."
-                ]
-            }
-        ]
+        "plural": "acque"
+    },
+    {
+        "word": "colazione",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "emoji": "🍳",
+        "form": "noun"
+    },
+    {
+        "word": "cena",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "emoji": "🍽️",
+        "form": "noun"
+    },
+    {
+        "word": "pranzo",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "emoji": "🍱",
+        "form": "noun"
     },
     {
         "word": "parco",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "local_places_services_A0",
         "emoji": "🌳",
         "form": "noun",
-        "plural": "parci",
-        "definitions": [
-            {
-                "text": "Un'area verde pubblica per camminare o giocare.",
-                "examples": [
-                    "Domenica andiamo al parco.",
-                    "Ci sono molti fiori nel parco."
-                ]
-            }
-        ]
+        "plural": "parchi"
     },
     {
         "word": "scuola",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
+        "theme": "local_places_services_A0",
         "emoji": "🏫",
         "form": "noun",
-        "plural": "scuole",
-        "definitions": [
-            {
-                "text": "Un luogo dove i bambini vanno per imparare.",
-                "examples": [
-                    "Vado a scuola in autobus.",
-                    "La mia scuola è vicino a casa mia."
-                ]
-            }
-        ]
+        "plural": "scuole"
+    },
+    {
+        "word": "negozio",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": "negozi"
     },
     {
         "word": "maglietta",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👕",
         "form": "noun",
         "plural": "magliette"
@@ -239,7 +210,7 @@
     {
         "word": "pantaloni",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👖",
         "form": "noun",
         "plural": "pantaloni"
@@ -247,15 +218,15 @@
     {
         "word": "scarpe",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👟",
         "form": "noun",
-        "plural": "scarpi"
+        "plural": "scarpe"
     },
     {
         "word": "cappello",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👒",
         "form": "noun",
         "plural": "cappelli"
@@ -282,79 +253,7 @@
         "theme": "furniture_objects_A0",
         "emoji": "🛏️",
         "form": "noun",
-        "plural": "letti",
-        "definitions": [
-            {
-                "text": "Un mobile su cui si dorme.",
-                "examples": [
-                    "Il mio letto è molto comodo.",
-                    "È ora di andare a letto."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "alto",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "noun",
-        "plural": "alti",
-        "definitions": [
-            {
-                "text": "Una persona o una cosa che è grande dal basso verso l'alto.",
-                "examples": [
-                    "Lui è molto alto.",
-                    "Quell'edificio è alto."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "basso",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "noun",
-        "plural": "bassi",
-        "definitions": [
-            {
-                "text": "Una persona o una cosa che non è alta.",
-                "examples": [
-                    "Lei è bassa.",
-                    "La matita è bassa."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "giovane",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "noun",
-        "plural": "giovani"
-    },
-    {
-        "word": "vecchio",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "noun",
-        "plural": "vecchii"
-    },
-    {
-        "word": "svegliarsi",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "⏰",
-        "form": "noun",
-        "plural": "svegliarsi"
-    },
-    {
-        "word": "dormire",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "😴",
-        "subtext": "dormire 8 ore, andare a dormire",
-        "form": "noun",
-        "plural": "dormiri"
+        "plural": "letti"
     },
     {
         "word": "chiave",
@@ -362,28 +261,12 @@
         "theme": "furniture_objects_A0",
         "emoji": "🔑",
         "form": "noun",
-        "plural": "chiavi",
-        "definitions": [
-            {
-                "text": "Un oggetto metallico per aprire una porta o accendere l'auto.",
-                "examples": [
-                    "Non trovo le mie chiavi.",
-                    "Ecco la chiave della camera."
-                ]
-            },
-            {
-                "text": "Qualcosa di molto importante (come la chiave del successo).",
-                "examples": [
-                    "La pratica è la chiave per imparare.",
-                    "Qual è il punto chiave?"
-                ]
-            }
-        ]
+        "plural": "chiavi"
     },
     {
         "word": "telefono",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
         "plural": "telefoni"
@@ -394,83 +277,159 @@
         "theme": "furniture_objects_A0",
         "emoji": "📖",
         "form": "noun",
-        "plural": "libri",
-        "definitions": [
-            {
-                "text": "Un insieme di fogli stampati che si leggono.",
-                "examples": [
-                    "Il libro è sul tavolo.",
-                    "Amo leggere libri gialli."
-                ]
-            }
-        ]
+        "plural": "libri"
+    },
+    {
+        "word": "borsa",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "emoji": "👜",
+        "form": "noun",
+        "plural": "borse"
+    },
+    {
+        "word": "penna",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "emoji": "🖊️",
+        "form": "noun",
+        "plural": "penne"
+    },
+    {
+        "word": "alto",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "form": "adjective",
+        "opposite": "basso",
+        "oppositeEmoji": "📏"
+    },
+    {
+        "word": "basso",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "form": "adjective",
+        "opposite": "alto",
+        "oppositeEmoji": "🗼"
+    },
+    {
+        "word": "giovane",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "form": "adjective",
+        "opposite": "vecchio",
+        "oppositeEmoji": "👴"
+    },
+    {
+        "word": "vecchio",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "form": "adjective",
+        "opposite": "giovane",
+        "oppositeEmoji": "👶"
+    },
+    {
+        "word": "buono",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "👍",
+        "form": "adjective",
+        "opposite": "cattivo",
+        "oppositeEmoji": "👎"
+    },
+    {
+        "word": "cattivo",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "👎",
+        "form": "adjective",
+        "opposite": "buono",
+        "oppositeEmoji": "👍"
+    },
+    {
+        "word": "facile",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "difficile",
+        "oppositeEmoji": "❌"
+    },
+    {
+        "word": "difficile",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "❌",
+        "form": "adjective",
+        "opposite": "facile",
+        "oppositeEmoji": "✅"
+    },
+    {
+        "word": "grande",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "🐘",
+        "form": "adjective",
+        "opposite": "piccolo",
+        "oppositeEmoji": "🐭"
+    },
+    {
+        "word": "piccolo",
+        "level": "starter",
+        "theme": "size_shape_A0",
+        "emoji": "🐭",
+        "form": "adjective",
+        "opposite": "grande",
+        "oppositeEmoji": "🐘"
+    },
+    {
+        "word": "felice",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "😊",
+        "form": "adjective"
+    },
+    {
+        "word": "stanco",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "😫",
+        "form": "adjective"
     },
     {
         "word": "gatto",
         "level": "starter",
-        "theme": "weather_A0",
-        "article": "il",
-        "baseWord": "gatto",
+        "theme": "animals_A0",
         "emoji": "🐈",
         "numberPlural": "2 gatto",
         "answer": "due gatti",
-        "form": "adjective",
-        "plural": "gatti",
-        "definitions": [
-            {
-                "text": "Un piccolo animale con il pelo che molte persone tengono in casa.",
-                "examples": [
-                    "Il mio gatto dorme.",
-                    "Amo i gatti."
-                ]
-            }
-        ]
+        "form": "noun",
+        "plural": "gatti"
     },
     {
         "word": "cane",
         "level": "starter",
-        "theme": "weather_A0",
-        "article": "il",
-        "baseWord": "cane",
+        "theme": "animals_A0",
         "emoji": "🐕",
         "numberPlural": "5 cane",
         "answer": "cinque cani",
-        "form": "adjective",
-        "plural": "cani",
-        "definitions": [
-            {
-                "text": "Un animale che viene spesso chiamato 'il migliore amico dell'uomo'.",
-                "examples": [
-                    "Porto il mio cane al parco.",
-                    "Il cane abbaia."
-                ]
-            }
-        ]
+        "form": "noun",
+        "plural": "cani"
     },
     {
         "word": "uccello",
         "level": "starter",
-        "theme": "weather_A0",
+        "theme": "animals_A0",
         "emoji": "🐦",
         "form": "noun",
-        "plural": "uccelli",
-        "definitions": [
-            {
-                "text": "Un animale con piume e ali che di solito può volare.",
-                "examples": [
-                    "L'uccello canta al mattino.",
-                    "Guarda quel bell'uccello!"
-                ]
-            }
-        ]
+        "plural": "uccelli"
     },
     {
-        "word": "freddo",
+        "word": "pesce",
         "level": "starter",
-        "theme": "weather_A0",
-        "emoji": "❄️",
+        "theme": "animals_A0",
+        "emoji": "🐟",
         "form": "noun",
-        "plural": "freddi"
+        "plural": "pesci"
     },
     {
         "word": "testa",
@@ -478,23 +437,7 @@
         "theme": "body_parts_A0",
         "emoji": "👤",
         "form": "noun",
-        "plural": "teste",
-        "definitions": [
-            {
-                "text": "La parte superiore del corpo umano.",
-                "examples": [
-                    "Porta un cappello in testa.",
-                    "Muove la testa per dire di sì."
-                ]
-            },
-            {
-                "text": "La parte anteriore o superiore di qualcosa.",
-                "examples": [
-                    "In testa alla classifica.",
-                    "Il treno è in testa al binario."
-                ]
-            }
-        ]
+        "plural": "teste"
     },
     {
         "word": "mano",
@@ -502,23 +445,7 @@
         "theme": "body_parts_A0",
         "emoji": "✋",
         "form": "noun",
-        "plural": "mani",
-        "definitions": [
-            {
-                "text": "La parte finale del braccio con cinque dita.",
-                "examples": [
-                    "Lavarsi le mani.",
-                    "Tenersi per mano."
-                ]
-            },
-            {
-                "text": "Un aiuto.",
-                "examples": [
-                    "Dammi una mano con queste buste.",
-                    "Serve una mano?"
-                ]
-            }
-        ]
+        "plural": "mani"
     },
     {
         "word": "gamba",
@@ -534,16 +461,7 @@
         "theme": "body_parts_A0",
         "emoji": "👁️",
         "form": "noun",
-        "plural": "occhi",
-        "definitions": [
-            {
-                "text": "L'organo della vista.",
-                "examples": [
-                    "Chiudi gli occhi.",
-                    "Ha gli occhi azzurri."
-                ]
-            }
-        ]
+        "plural": "occhi"
     },
     {
         "word": "naso",
@@ -559,7 +477,7 @@
         "theme": "body_parts_A0",
         "emoji": "👄",
         "form": "noun",
-        "plural": "bocce"
+        "plural": "bocche"
     },
     {
         "word": "orecchio",
@@ -567,15 +485,7 @@
         "theme": "body_parts_A0",
         "emoji": "👂",
         "form": "noun",
-        "plural": "orecchii"
-    },
-    {
-        "word": "piede",
-        "level": "starter",
-        "theme": "body_parts_A0",
-        "emoji": "🦶",
-        "form": "noun",
-        "plural": "piedi"
+        "plural": "orecchi"
     },
     {
         "word": "madre",
@@ -583,21 +493,7 @@
         "theme": "immediate_family_A0",
         "emoji": "👩",
         "form": "noun",
-        "definitions": [
-            {
-                "text": "Una donna che è un tuo genitore.",
-                "examples": [
-                    "Mia madre cucina bene.",
-                    "Voglio bene a mia madre."
-                ]
-            },
-            {
-                "text": "Questa persona è solitamente la moglie di tuo padre (o un altro genitore).",
-                "examples": [
-                    "Le madri si prendono cura dei loro figli."
-                ]
-            }
-        ]
+        "plural": "madri"
     },
     {
         "word": "padre",
@@ -605,507 +501,164 @@
         "theme": "immediate_family_A0",
         "emoji": "👨",
         "form": "noun",
-        "definitions": [
-            {
-                "text": "Un uomo che è un tuo genitore.",
-                "examples": [
-                    "Mio padre lavora molto.",
-                    "Mio padre è simpatico."
-                ]
-            },
-            {
-                "text": "Questa persona è solitamente il marito di tua madre (o un altro genitore).",
-                "examples": [
-                    "Mio padre lavora molto."
-                ]
-            }
-        ]
+        "plural": "padri"
     },
     {
-        "word": "ragazzo",
-        "theme": "size_shape_A0",
+        "word": "famiglia",
         "level": "starter",
-        "article": "il",
-        "baseWord": "ragazzo",
-        "numberPlural": "2 ragazzo",
-        "answer": "due ragazzi",
-        "emoji": "👦",
-        "form": "adjective",
-        "plural": "ragazzi"
-    },
-    {
-        "word": "ragazza",
-        "theme": "size_shape_A0",
-        "level": "starter",
-        "article": "la",
-        "baseWord": "ragazza",
-        "numberPlural": "3 ragazza",
-        "answer": "tre ragazze",
-        "emoji": "👧",
-        "form": "adjective",
-        "plural": "ragazze"
+        "theme": "immediate_family_A0",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "famiglie"
     },
     {
         "word": "amico",
-        "theme": "size_shape_A0",
         "level": "starter",
-        "article": "l'",
-        "baseWord": "amico",
-        "numberPlural": "2 amico",
-        "answer": "due amici",
-        "emoji": "🧑‍🤝‍🧑",
-        "form": "adjective",
+        "theme": "immediate_family_A0",
+        "emoji": "👫",
+        "form": "noun",
         "plural": "amici"
     },
     {
-        "word": "libro",
+        "word": "partner",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "article": "il",
-        "baseWord": "libro",
-        "numberPlural": "4 libro",
-        "answer": "quattro libri",
-        "emoji": "📚",
-        "form": "adjective",
-        "plural": "libri",
-        "definitions": [
-            {
-                "text": "Molte pagine con parole e immagini che si leggono.",
-                "examples": [
-                    "Leggo un libro ogni sera.",
-                    "Questo libro è interessante."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "casa",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "article": "la",
-        "baseWord": "casa",
-        "numberPlural": "molte casa",
-        "answer": "molte case",
-        "emoji": "🏠",
-        "form": "adjective",
-        "plural": "case"
+        "theme": "marital_status_A0",
+        "emoji": "💑",
+        "form": "noun",
+        "plural": "partner"
     },
     {
         "word": "uomo",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "article": "l'",
-        "baseWord": "uomo",
+        "theme": "physical_appearance_A1",
         "numberPlural": "2 uomo",
         "answer": "due uomini",
         "emoji": "👨",
         "form": "noun",
-        "plural": "uomini",
-        "definitions": [
-            {
-                "text": "Un essere umano maschio adulto.",
-                "examples": [
-                    "Quell'uomo è mio padre.",
-                    "Un uomo alto attraversa la strada."
-                ]
-            }
-        ]
+        "plural": "uomini"
     },
     {
         "word": "donna",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "article": "la",
-        "baseWord": "donna",
-        "numberPlural": "3 donna",
-        "answer": "tre donne",
+        "theme": "physical_appearance_A1",
+        "numberPlural": "2 donna",
+        "answer": "due donne",
         "emoji": "👩",
         "form": "noun",
-        "plural": "donne",
-        "definitions": [
-            {
-                "text": "Un essere umano femmina adulta.",
-                "examples": [
-                    "È una donna molto intelligente.",
-                    "Tre donne lavorano qui."
-                ]
-            }
-        ]
+        "plural": "donne"
     },
     {
-        "word": "essere",
+        "word": "casa",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "👤",
-        "subtext": "avere freddo, avere 20 anni",
+        "theme": "rooms_of_a_home_A0",
+        "emoji": "🏡",
         "form": "noun",
-        "plural": "esseri"
+        "plural": "case",
+        "subtext": "a casa, tornare a casa"
     },
     {
-        "word": "avere",
+        "word": "appartamento",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "👜",
-        "subtext": "fare colazione, avere un'auto",
+        "theme": "rooms_of_a_home_A0",
+        "emoji": "🏢",
         "form": "noun",
-        "plural": "averi"
+        "plural": "appartamenti"
     },
     {
-        "word": "andare",
+        "word": "ufficio",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🚶",
-        "subtext": "andare a scuola, andare a casa",
+        "theme": "rooms_indoor_spaces_A0",
+        "emoji": "🏢",
         "form": "noun",
-        "plural": "andari"
+        "plural": "uffici"
     },
     {
-        "word": "fare",
+        "word": "macchina",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🛠️",
-        "subtext": "fare i compiti, fare sport",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚗",
         "form": "noun",
-        "plural": "fari"
+        "plural": "macchine"
     },
     {
-        "word": "lavorare",
+        "word": "autobus",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "💼",
-        "subtext": "lavorare in un ufficio, lavorare sodo",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚌",
         "form": "noun",
-        "plural": "lavorari"
+        "plural": "autobus"
     },
     {
-        "word": "sapere",
+        "word": "treno",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🧠",
-        "subtext": "sapere la risposta, conoscere una persona",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚆",
         "form": "noun",
-        "plural": "saperi"
+        "plural": "treni"
     },
     {
-        "word": "pensare",
+        "word": "denaro",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "💭",
-        "subtext": "pensare a, pensare che",
-        "form": "noun",
-        "plural": "pensari"
-    },
-    {
-        "word": "volere",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🙏",
-        "subtext": "volere acqua, volere andare",
-        "form": "noun",
-        "plural": "voleri"
-    },
-    {
-        "word": "piacere",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "👍",
-        "subtext": "mi piace il cioccolato, mi piace ballare",
-        "form": "noun",
-        "plural": "piaceri"
-    },
-    {
-        "word": "amare",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "❤️",
-        "subtext": "amare la mia famiglia, amare viaggiare",
-        "form": "noun",
-        "plural": "amari"
-    },
-    {
-        "word": "scrivere",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "✍️",
-        "subtext": "scrivere una lettera, scrivere un messaggio",
-        "opposite": "leggere",
-        "oppositeEmoji": "📖",
-        "form": "noun",
-        "plural": "scriveri"
-    },
-    {
-        "word": "venire",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏃‍♂️",
-        "subtext": "venire qui, venire a casa",
-        "opposite": "andare",
-        "oppositeEmoji": "🚶",
-        "form": "noun",
-        "plural": "veniri"
-    },
-    {
-        "word": "dare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🎁",
-        "subtext": "dare un regalo, dare aiuto",
-        "opposite": "prendere",
-        "oppositeEmoji": "👜",
-        "form": "adjective"
-    },
-    {
-        "word": "prendere",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "👜",
-        "subtext": "prendere l'autobus, fare una foto",
-        "opposite": "dare",
-        "oppositeEmoji": "🎁",
-        "form": "adjective"
-    },
-    {
-        "word": "trovare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🔍",
-        "form": "adjective"
-    },
-    {
-        "word": "dire",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🗣️",
-        "form": "adjective"
-    },
-    {
-        "word": "chiedere",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "❓",
-        "form": "noun",
-        "plural": "chiederi"
-    },
-    {
-        "word": "sentire",
-        "level": "starter",
-        "theme": "body_parts_A0",
-        "emoji": "🌡️",
-        "form": "noun",
-        "plural": "sentiri"
-    },
-    {
-        "word": "provare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🎯",
-        "form": "noun",
-        "plural": "provari"
-    },
-    {
-        "word": "partire",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🚪",
-        "form": "noun",
-        "plural": "partiri"
-    },
-    {
-        "word": "chiamare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📞",
-        "form": "noun",
-        "plural": "chiamari"
-    },
-    {
-        "word": "guardare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "📺",
-        "form": "noun",
-        "plural": "guardari"
-    },
-    {
-        "word": "usare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🛠️",
-        "form": "noun",
-        "plural": "usari"
-    },
-    {
-        "word": "ottenere",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📥",
-        "form": "noun",
-        "plural": "otteneri"
-    },
-    {
-        "word": "iniziare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "▶️",
-        "opposite": "finire",
-        "oppositeEmoji": "🏁",
-        "form": "noun",
-        "plural": "iniziari"
-    },
-    {
-        "word": "aiutare",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🤝",
-        "form": "noun",
-        "plural": "aiutari"
-    },
-    {
-        "word": "giocare",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🎮",
-        "form": "noun",
-        "plural": "giocari"
-    },
-    {
-        "word": "correre",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏃",
-        "form": "noun",
-        "plural": "correri"
-    },
-    {
-        "word": "vivere",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🏠",
-        "opposite": "morire",
-        "oppositeEmoji": "⚰️",
-        "form": "noun",
-        "plural": "viveri"
-    },
-    {
-        "word": "portare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🎒",
-        "form": "noun",
-        "plural": "portari"
-    },
-    {
-        "word": "sedersi",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🪑",
-        "opposite": "stare in piedi",
-        "oppositeEmoji": "🧍",
-        "form": "noun",
-        "plural": "sedersi"
-    },
-    {
-        "word": "stare in piedi",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🧍",
-        "opposite": "sedersi",
-        "oppositeEmoji": "🪑",
-        "form": "noun",
-        "plural": "stare in piedi"
-    },
-    {
-        "word": "perdere",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📉",
-        "opposite": "vincere",
-        "oppositeEmoji": "🏆",
-        "form": "noun",
-        "plural": "perderi"
-    },
-    {
-        "word": "pagare",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "everyday_shopping_A0",
         "emoji": "💰",
-        "form": "noun",
-        "plural": "pagari"
+        "form": "noun"
     },
     {
-        "word": "incontrare",
+        "word": "caro",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🤝",
-        "form": "noun",
-        "plural": "incontrari"
+        "theme": "everyday_shopping_A0",
+        "emoji": "💎",
+        "form": "adjective",
+        "opposite": "economico",
+        "oppositeEmoji": "🏷️"
     },
     {
-        "word": "imparare",
+        "word": "economico",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "📚",
-        "form": "noun",
-        "plural": "imparari"
+        "theme": "everyday_shopping_A0",
+        "emoji": "🏷️",
+        "form": "adjective",
+        "opposite": "caro",
+        "oppositeEmoji": "💎"
     },
     {
-        "word": "cambiare",
+        "word": "mattina",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🔄",
-        "form": "adjective"
+        "theme": "times_day_A0",
+        "emoji": "🌅",
+        "form": "noun",
+        "plural": "mattine"
     },
     {
-        "word": "capire",
+        "word": "sera",
         "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "💡",
+        "theme": "times_day_A0",
+        "emoji": "🌆",
         "form": "noun",
-        "plural": "capiri"
+        "plural": "sere"
     },
     {
-        "word": "fermarsi",
+        "word": "giorno",
         "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🛑",
+        "theme": "times_day_A0",
+        "emoji": "☀️",
         "form": "noun",
-        "plural": "fermarsi"
+        "plural": "giorni"
     },
     {
-        "word": "aggiungere",
+        "word": "settimana",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "➕",
+        "theme": "times_day_A0",
+        "emoji": "📅",
         "form": "noun",
-        "plural": "aggiungeri"
+        "plural": "settimane"
     },
     {
-        "word": "spendere",
+        "word": "ogni giorno",
         "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "💸",
-        "form": "noun",
-        "plural": "spenderi"
-    },
-    {
-        "word": "aprire",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "📖",
-        "opposite": "chiudere",
-        "oppositeEmoji": "🔒",
-        "form": "noun",
-        "plural": "apriri"
-    },
-    {
-        "word": "vincere",
-        "level": "starter",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏆",
-        "opposite": "perdere",
-        "oppositeEmoji": "📉",
-        "form": "noun",
-        "plural": "vinceri"
+        "theme": "times_day_A0",
+        "emoji": "🔁",
+        "form": "adverb"
     }
 ];
     const lang = "it";
