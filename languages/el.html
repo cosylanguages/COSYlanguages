@@ -1,145 +1,235 @@
 <!DOCTYPE html>
 <html lang="el">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COSYελληνικά</title>
-    <meta name="description" data-translate-key="cosy_el_intro" content="Localized Content">
-    <meta property="og:title" data-translate-key="cosy_el_title" content="Localized Content">
-    <meta property="og:description" data-translate-key="cosy_el_intro" content="Localized Content">
-    <meta property="og:image" content="../images/cosylanguages.png">
-    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/languages/el.html">
-    <link rel="icon" href="../images/cosylanguages.png">
-    <link rel="manifest" href="/COSYlanguages/manifest.json">
-    <meta name="theme-color" content="#4a6b50">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-    <link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../mobile.css">
-    <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/COSYlanguages/sw.js')
-        .catch(e => console.log('SW:', e));
-    }
-    </script>
-    <nav>
-      <a class="nav-logo" href="../index.html">
-        <img src="../images/cosylanguages.png" alt="COSYlanguages">
-      </a>
-      <ul class="nav-links">
-        <li><a href="../index.html#how" data-translate-key="nav_how">How it works</a></li>
-        <li><a href="../index.html#courses" data-translate-key="nav_courses">Courses</a></li>
-        <li><a href="../index.html#languages" data-translate-key="nav_languages">Languages</a></li>
-        <li><a href="../practice.html" data-translate-key="nav_practice">Practice</a></li>
-        <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
-        <li><a href="../events.html" data-translate-key="nav_events">Events 🎉</a></li>
-        <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
-        <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
-      </ul>
-      <div class="nav-lang">
-        <a href="en.html" data-lang="en">EN</a><a href="fr.html" data-lang="fr">FR</a><a href="it.html" data-lang="it">IT</a><a href="ru.html" data-lang="ru">RU</a><a href="el.html" data-lang="el">EL</a>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSYελληνικά — Μάθετε Ελληνικά — COSYlanguages</title>
+<meta name="description" content="Μάθετε ελληνικά με έμφαση στην ομιλία. Online μαθήματα 1-προς-1, από A0 έως C2. Προετοιμασία για Ελληνομάθεια. Δωρεάν εξάσκηση και πόροι.">
+<meta property="og:title" content="COSYελληνικά — Μάθετε Ελληνικά — COSYlanguages">
+<meta property="og:description" content="Μάθετε ελληνικά με έμφαση στην ομιλία. Online μαθήματα 1-προς-1, από A0 έως C2. Προετοιμασία για Ελληνομάθεια. Δωρεάν εξάσκηση και πόροι.">
+<meta property="og:image" content="../images/cosylanguages.png">
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="manifest" href="/COSYlanguages/manifest.json">
+<meta name="theme-color" content="#4a6b50">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/lang-pages.css">
+<style>
+:root {
+  --accent:#4a85b8; --accent-dark:#1a3f5c; --accent-pale:#eef1fb;
+}
+</style>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/COSYlanguages/sw.js').catch(e => console.log('SW:', e));
+}
+</script>
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Γεια%20σας!%20Θα%20ήθελα%20να%20μάθω%20περισσότερα%20για%20τα%20μαθήματα%20ελληνικών." class="wa-fab" title="WhatsApp">💬</a>
+
+<nav>
+  <a class="nav-logo" href="../index.html">
+    <img src="../images/cosylanguages.png" alt="COSYlanguages">
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html#how" data-translate-key="nav_how">Πώς λειτουργεί</a></li>
+    <li><a href="../index.html#courses" data-translate-key="nav_courses">Μαθήματα</a></li>
+    <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Γλώσσες 🌍</a></li>
+    <li><a href="../practice.html" data-translate-key="nav_practice">Πρακτική 💡</a></li>
+    <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Τιμές 🧮</a></li>
+    <li><a href="../events.html" data-translate-key="nav_events">Εκδηλώσεις 🎉</a></li>
+    <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">Τα Μαθήματά μου 🔐</a></li>
+    <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Επικοινωνία</a></li>
+  </ul>
+  <div class="nav-lang">
+    <a href="en.html" data-lang="en">EN</a>
+    <a href="fr.html" data-lang="fr">FR</a>
+    <a href="it.html" data-lang="it">IT</a>
+    <a href="ru.html" data-lang="ru">RU</a>
+    <a href="el.html" class="active-lang" data-lang="el">EL</a>
+  </div>
+</nav>
+
+<header class="hero" data-flag="🇬🇷">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">🇬🇷 COSYελληνικά</div>
+    <h1>Μιλήστε ελληνικά με <em>αυτοπεποίθηση</em>.</h1>
+    <p class="hero-sub">Από το « Γειά » στο επίπεδο A0 έως τον άπταιστο επαγγελματικό λόγο στο επίπεδο C2. Η ομιλία πρώτα, πάντα — γιατί τα ελληνικά ανοίγουν πόρτες στην ιστορία και τον πολιτισμό.</p>
+    <div class="hero-ctas">
+      <a href="https://wa.me/330766784195?text=Γεια%20σας!%20Θα%20ήθελα%20να%20ξεκινήσω%20μαθήματα%20ελληνικών." class="btn-primary">💬 Ξεκινήστε μαθήματα</a>
+      <a href="../days.html" class="btn-ghost">Δείτε το πρόγραμμα →</a>
+    </div>
+    <div class="hero-why">
+      <span class="hw-pill">🌍 Ιστορική γλώσσα</span>
+      <span class="hw-pill">🎨 Πολιτισμός</span>
+      <span class="hw-pill">🎓 Ελληνομάθεια</span>
+      <span class="hw-pill">🗣️ 1-προς-1 &amp; γκρουπ</span>
+    </div>
+  </div>
+  <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
+</header>
+
+<main>
+
+<section style="padding-bottom:0">
+  <div class="start-strip reveal">
+    <div class="ss-left">
+      <h3>Έτοιμοι να μάθετε ελληνικά;</h3>
+      <p>Μαθήματα με έμφαση στην ομιλία, από A0 έως C2, 1-προς-1 ή γκρουπ. Όλα τα επίπεδα.</p>
+    </div>
+    <div class="ss-links">
+      <a href="../days.html" class="ss-link ss-link-primary">Δείτε το πρόγραμμα →</a>
+      <a href="../index.html#calculator" class="ss-link ss-link-ghost">Δείτε τις τιμές →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag">💊 Η δική σας δόση Ελληνικών</span>
+    <h2>Λέξη της Ημέρας & Ενδιαφέρον Γεγονός</h2>
+  </div>
+  <div class="daily-grid">
+    <div class="daily-card reveal" data-bg="📖">
+      <h3>Λέξη της Ημέρας 📖</h3>
+      <div class="daily-content" id="word-of-the-day">Φόρτωση...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="🤣">
+      <h3>Γεγονός της Ημέρας 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day">Φόρτωση...</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag">📚 Μαθησιακά εργαλεία</span>
+    <h2>Βασικοί πόροι για τα Ελληνικά</h2>
+    <p>Λεξικά, εργαλεία γραμματικής, οδηγοί προφοράς — όλα δωρεάν.</p>
+  </div>
+  <div class="resources-grid">
+    <a href="https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📖</div>
+      <div class="rc-name">Λεξικό Τριανταφυλλίδη</div>
+      <div class="rc-desc">Έγκυρο μονόγλωσσο λεξικό της κοινής νεοελληνικής.</div>
+      <div class="rc-link">Επίσκεψη →</div>
+    </a>
+    <a href="https://www.wordreference.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔄</div>
+      <div class="rc-name">WordReference</div>
+      <div class="rc-desc">Πολύγλωσσο λεξικό — μετάφραση από/προς οποιαδήποτε γλώσσα.</div>
+      <div class="rc-link">Επίσκεψη →</div>
+    </a>
+    <a href="https://www.cooljugator.com/gr" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📝</div>
+      <div class="rc-name">Cooljugator</div>
+      <div class="rc-desc">Ολοκληρωμένο εργαλείο κλίσης ελληνικών ρημάτων.</div>
+      <div class="rc-link">Επίσκεψη →</div>
+    </a>
+    <a href="https://forvo.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔊</div>
+      <div class="rc-name">Forvo</div>
+      <div class="rc-desc">Προφορά από φυσικούς ομιλητές για οποιαδήποτε λέξη.</div>
+      <div class="rc-link">Επίσκεψη →</div>
+    </a>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag">🎭 Εμβάθυνση</span>
+    <h2>Μέσα ενημέρωσης & πολιτισμός</h2>
+    <p>Βυθιστείτε στα ελληνικά — ακούστε ζωντανό ραδιόφωνο και δείτε τηλεόραση.</p>
+  </div>
+  <div class="media-grid">
+    <div class="media-card reveal">
+      <div class="mc-icon">📻</div>
+      <div class="mc-body">
+        <h4>Radio Garden</h4>
+        <p>Ακούστε ελληνικούς ραδιοφωνικούς σταθμούς ζωντανά από όλη την Ελλάδα και την Κύπρο.</p>
+        <a href="https://radio.garden/" target="_blank" class="mc-link">Άνοιγμα Radio Garden →</a>
       </div>
-    </nav>
+    </div>
+    <div class="media-card reveal">
+      <div class="mc-icon">📺</div>
+      <div class="mc-body">
+        <h4>TV Garden</h4>
+        <p>Παρακολουθήστε ελληνικά τηλεοπτικά κανάλια ζωντανά — ειδήσεις, ψυχαγωγία, πολιτισμός.</p>
+        <a href="https://tv.garden/" target="_blank" class="mc-link">Άνοιγμα TV Garden →</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <main>
-        <section id="language-hero">
-            <h1 data-translate-key="cosy_ellinika_title">Καλώς ήρθατε στο COSYελληνικά</h1>
-            <p data-translate-key="cosy_ellinika_intro">Μάθετε ελληνικά μαζί μας!</p>
-        </section>
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag">🛒 Καθημερινή ζωή</span>
+    <h2>Η καθημερινή ζωή στην Ελλάδα</h2>
+    <p>Εξερευνήστε πραγματικά καταστήματα και υπηρεσίες — ιδανικό για πρακτικό λεξιλόγιο.</p>
+  </div>
+  <div class="country-tabs">
+    <button class="ctab" data-country="gr" onclick="showCountry('gr')">🇬🇷 Ελλάδα</button>
+  </div>
+  <div class="country-panel" id="country-gr">
+    <div class="country-name">🇬🇷 Ελλάδα</div>
+      <div class="shop-category">
+        <h4>💄 Μόδα & Ομορφιά</h4>
+        <div class="shop-grid">
+          <a href="https://www.skroutz.gr/c/52/andrika-fashion-axesouar.html" target="_blank" class="shop-card">
+            <div class="sc-name">Skroutz Fashion</div>
+            <div class="sc-desc">Η μεγαλύτερη online αγορά στην Ελλάδα.</div>
+          </a>
+          <a href="https://www.hondoscenter.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Hondos Center</div>
+            <div class="sc-desc">Πολυκατάστημα καλλυντικών και μόδας.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🏡 Ηλεκτρονικά & Σπίτι</h4>
+        <div class="shop-grid">
+          <a href="https://www.kotsovolos.gr/" target="_blank" class="shop-card">
+            <div class="sc-name">Κωτσόβολος</div>
+            <div class="sc-desc">Ηλεκτρικά και ηλεκτρονικά είδη.</div>
+          </a>
+          <a href="https://www.plaisio.gr/" target="_blank" class="shop-card">
+            <div class="sc-name">Πλαίσιο</div>
+            <div class="sc-desc">Υπολογιστές, τεχνολογία και είδη γραφείου.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Τρόφιμα & Παντοπωλεία</h4>
+        <div class="shop-grid">
+          <a href="https://www.sklavenitis.gr/" target="_blank" class="shop-card">
+            <div class="sc-name">Σκλαβενίτης</div>
+            <div class="sc-desc">Μεγάλη αλυσίδα σούπερ μάρκετ.</div>
+          </a>
+          <a href="https://www.ab.gr/" target="_blank" class="shop-card">
+            <div class="sc-name">ΑΒ Βασιλόπουλος</div>
+            <div class="sc-desc">Σούπερ μάρκετ και online αγορές.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="learning_resources">Μαθησιακοί πόροι 📚</h2>
-            <div class="tools-grid">
-                <a href="https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="triantafyllides_dictionary">Λεξικό Τριανταφυλλίδη</h3>
-                    <p data-translate-key="triantafyllides_dictionary_desc">Μονόγλωσσο λεξικό.</p>
-                </a>
-                <a href="https://www.wordreference.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="word_reference">WordReference</h3>
-                    <p data-translate-key="word_reference_desc">Πολύγλωσσο λεξικό.</p>
-                </a>
-                <a href="https://www.cooljugator.com/gr" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="cooljugator">Cooljugator</h3>
-                    <p data-translate-key="cooljugator_desc">Ένα εργαλείο κλίσης.</p>
-                </a>
-                <a href="https://forvo.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="forvo">Forvo</h3>
-                    <p data-translate-key="forvo_desc">Ο οδηγός προφοράς.</p>
-                </a>
-            </div>
-        </section>
+<div class="cta-block reveal">
+  <h2>Έτοιμοι να μιλήσετε ελληνικά; 🗣️</h2>
+  <p>Στείλτε μας ένα μήνυμα στο WhatsApp ή στο Telegram. Θα σχεδιάσουμε ένα πλάνο που θα σας κάνει να μιλάτε από το πρώτο μάθημα.</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195?text=Γεια%20σας!%20Θα%20ήθελα%20να%20μάθω%20περισσότερα%20για%20τα%20μαθήματα%20ελληνικών." class="cta-wa">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+  </div>
+</div>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="daily_dose_title">Your Daily Dose 💊</h2>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h3 data-translate-key="word_of_the_day">Λέξη της ημέρας</h3>
-                    <p id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Φόρτωση...</p>
-                </div>
-                <div class="tool-card" id="fun-fact-card">
-                    <h3 data-translate-key="fun_fact_title">Fun Fact of the Day 🤣</h3>
-                    <p id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Loading...</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="media_culture">Μέσα & Πολιτισμός 🎭</h2>
-            <div class="tools-grid">
-                <a href="https://radio.garden/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="radio_garden">Radio Garden 📻</h3>
-                    <p data-translate-key="radio_garden_desc">Ακούστε ραδιοφωνικούς σταθμούς από όλο τον κόσμο.</p>
-                </a>
-                <a href="https://tv.garden/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="tv_garden">TV Garden 📺</h3>
-                    <p data-translate-key="tv_garden_desc">Παρακολουθήστε τηλεοπτικά κανάλια από όλο τον κόσμο.</p>
-                </a>
-            </div>
-        </section>
-
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="daily_life">Καθημερινή ζωή 🛒</h2>
-            <h3 class="country-header" data-translate-key="greece">Ελλάδα 🇬🇷</h3>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h4 data-translate-key="fashion_beauty">Μόδα & Ομορφιά 💄</h4>
-                    <a href="https://www.skroutz.gr/c/52/andrika-fashion-axesouar.html" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="skroutz_fashion">Skroutz Fashion</h5>
-                        <p data-translate-key="skroutz_fashion_desc">Δημοφιλής online αγορά για μόδα.</p>
-                    </a>
-                    <a href="https://www.hondoscenter.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="hondos_center">Hondos Center</h5>
-                        <p data-translate-key="hondos_center_desc">Πολυκατάστημα καλλυντικών και ομορφιάς.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="electronics_home">Ηλεκτρονικά & Σπίτι 🏡</h4>
-                    <a href="https://www.kotsovolos.gr/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="kotsovolos">Κωτσόβολος</h5>
-                        <p data-translate-key="kotsovolos_desc">Λιανοπωλητής ηλεκτρονικών.</p>
-                    </a>
-                    <a href="https://www.plaisio.gr/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="plaisio">Πλαίσιο</h5>
-                        <p data-translate-key="plaisio_desc">Λιανοπωλητής ηλεκτρονικών και ειδών γραφείου.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="food_groceries">Τρόφιμα & Παντοπωλεία 🍲</h4>
-                    <a href="https://www.sklavenitis.gr/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="sklavenitis">Σκλαβενίτης</h5>
-                        <p data-translate-key="sklavenitis_desc">Σούπερ μάρκετ και παντοπωλείο.</p>
-                    </a>
-                    <a href="https://www.ab.gr/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="ab_vassilopoulos">ΑΒ Βασιλόπουλος</h5>
-                        <p data-translate-key="ab_vassilopoulos_desc">Σούπερ μάρκετ και παντοπωλείο.</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
+</main>
 
 <footer>
   <div class="footer-inner">
@@ -149,50 +239,48 @@
           <img src="../images/cosylanguages.png" alt="COSYlanguages">
           <span class="fb-name">COSYlanguages</span>
         </div>
-        <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+        <p>Η ζεστή σας γωνιά για να μάθετε νέες γλώσσες και να συνδεθείτε με τον κόσμο. 🌍</p>
       </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_courses">Courses</h5>
-        <a href="../general-course-roadmap.html" data-translate-key="course_general">General Course 📖</a>
-        <a href="../spoken-roadmap.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
-        <a href="../exam-roadmap.html" data-translate-key="course_exam">Exam Preparation 📝</a>
-        <a href="../days.html" data-translate-key="footer_roadmap">Full Roadmap 🗺️</a>
+      <div class="footer-col">
+        <h5>Μαθήματα</h5>
+        <a href="../days.html">Γενικό Πρόγραμμα 📖</a>
+        <a href="../days.html">Πρόγραμμα Ομιλίας 🗣️</a>
+        <a href="../days.html">Προετοιμασία Εξετάσεων 📝</a>
       </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_explore">Explore</h5>
-        <a href="../index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
-        <a href="../practice.html" data-translate-key="nav_practice">Free Practice 💡</a>
-        <a href="../events.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
-        <a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing 🧮</a>
+      <div class="footer-col">
+        <h5>Εξερεύνηση</h5>
+        <a href="../index.html#languages">Όλες οι Γλώσσες 🌍</a>
+        <a href="../practice.html">Δωρεάν Εξάσκηση 💡</a>
+        <a href="../events.html">Εκδηλώσεις &amp; Παιχνίδια 🎉</a>
       </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_contact">Contact</h5>
+      <div class="footer-col">
+        <h5>Επικοινωνία</h5>
         <a href="https://wa.me/330766784195">WhatsApp 📱</a>
         <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="../days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+        <a href="../days.html">Τα μαθήματά μου 🔐</a>
       </div>
     </div>
-    <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>
+    <div class="footer-bottom">© 2025 COSYlanguages — Με επιφύλαξη παντός δικαιώματος</div>
   </div>
 </footer>
 
-
-    <script src="../js/data/germanic/en/translations.js"></script>
-    <script src="../js/data/romance/fr/translations.js"></script>
-    <script src="../js/data/romance/it/translations.js"></script>
-    <script src="../js/data/slavic/ru/translations.js"></script>
-    <script src="../js/data/hellenic/el/translations.js"></script>
-    <script src="../js/data/romance/es/translations.js"></script>
-    <script src="../js/data/germanic/de/translations.js"></script>
-    <script src="../js/data/romance/pt/translations.js"></script>
-    <script src="../js/data/armenian/hy/translations.js"></script>
-    <script src="../js/data/kartvelian/ka/translations.js"></script>
-    <script src="../js/data/turkic/tt/translations.js"></script>
-    <script src="../js/data/turkic/ba/translations.js"></script>
-    <script src="../js/data/celtic/br/translations.js"></script>
-    <script src="../js/translate.js"></script>
-    <script src="../mobile.js"></script>
-
-    <script src="../js/script.js"></script>
+<script src="../js/data/theme_config.js"></script>
+<script src="../js/data/germanic/en/translations.js"></script>
+<script src="../js/data/romance/fr/translations.js"></script>
+<script src="../js/data/romance/it/translations.js"></script>
+<script src="../js/data/slavic/ru/translations.js"></script>
+<script src="../js/data/hellenic/el/translations.js"></script>
+<script src="../js/data/romance/es/translations.js"></script>
+<script src="../js/data/germanic/de/translations.js"></script>
+<script src="../js/data/romance/pt/translations.js"></script>
+<script src="../js/data/armenian/hy/translations.js"></script>
+<script src="../js/data/kartvelian/ka/translations.js"></script>
+<script src="../js/data/turkic/tt/translations.js"></script>
+<script src="../js/data/turkic/ba/translations.js"></script>
+<script src="../js/data/celtic/br/translations.js"></script>
+<script src="../js/translate.js"></script>
+<script src="../mobile.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/lang-pages.js"></script>
 </body>
 </html>

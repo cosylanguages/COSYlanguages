@@ -1,145 +1,251 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COSYfrançais</title>
-    <meta name="description" data-translate-key="cosy_fr_intro" content="Localized Content">
-    <meta property="og:title" data-translate-key="cosy_fr_title" content="Localized Content">
-    <meta property="og:description" data-translate-key="cosy_fr_intro" content="Localized Content">
-    <meta property="og:image" content="../images/cosylanguages.png">
-    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/languages/fr.html">
-    <link rel="icon" href="../images/cosylanguages.png">
-    <link rel="manifest" href="/COSYlanguages/manifest.json">
-    <meta name="theme-color" content="#4a6b50">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-    <link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../mobile.css">
-    <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/COSYlanguages/sw.js')
-        .catch(e => console.log('SW:', e));
-    }
-    </script>
-    <nav>
-      <a class="nav-logo" href="../index.html">
-        <img src="../images/cosylanguages.png" alt="COSYlanguages">
-      </a>
-      <ul class="nav-links">
-        <li><a href="../index.html#how" data-translate-key="nav_how">How it works</a></li>
-        <li><a href="../index.html#courses" data-translate-key="nav_courses">Courses</a></li>
-        <li><a href="../index.html#languages" data-translate-key="nav_languages">Languages</a></li>
-        <li><a href="../practice.html" data-translate-key="nav_practice">Practice</a></li>
-        <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
-        <li><a href="../events.html" data-translate-key="nav_events">Events 🎉</a></li>
-        <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
-        <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
-      </ul>
-      <div class="nav-lang">
-        <a href="en.html" data-lang="en">EN</a><a href="fr.html" data-lang="fr">FR</a><a href="it.html" data-lang="it">IT</a><a href="ru.html" data-lang="ru">RU</a><a href="el.html" data-lang="el">EL</a>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSYfrançais — Apprendre le français — COSYlanguages</title>
+<meta name="description" content="Apprenez le français avec une approche axée sur l'oral. Leçons en ligne 1-à-1, de A0 à C2. Préparation aux examens DELF, DALF. Pratique et ressources gratuites.">
+<meta property="og:title" content="COSYfrançais — Apprendre le français — COSYlanguages">
+<meta property="og:description" content="Apprenez le français avec une approche axée sur l'oral. Leçons en ligne 1-à-1, de A0 à C2. Préparation aux examens DELF, DALF. Pratique et ressources gratuites.">
+<meta property="og:image" content="../images/cosylanguages.png">
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="manifest" href="/COSYlanguages/manifest.json">
+<meta name="theme-color" content="#4a6b50">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/lang-pages.css">
+<style>
+:root {
+  --accent:#d66161; --accent-dark:#a04040; --accent-pale:#fdeaea;
+}
+</style>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/COSYlanguages/sw.js')
+    .catch(e => console.log('SW:', e));
+}
+</script>
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Bonjour%20!%20J%27aimerais%20en%20savoir%20plus%20sur%20les%20cours%20de%20français." class="wa-fab" title="Discuter sur WhatsApp">💬</a>
+
+<nav>
+  <a class="nav-logo" href="../index.html">
+    <img src="../images/cosylanguages.png" alt="COSYlanguages">
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html#how" data-translate-key="nav_how">Comment ça marche</a></li>
+    <li><a href="../index.html#courses" data-translate-key="nav_courses">Cours</a></li>
+    <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Langues 🌍</a></li>
+    <li><a href="../practice.html" data-translate-key="nav_practice">Pratique 💡</a></li>
+    <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Tarifs 🧮</a></li>
+    <li><a href="../events.html" data-translate-key="nav_events">Événements 🎉</a></li>
+    <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">Mes Leçons 🔐</a></li>
+    <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact</a></li>
+  </ul>
+  <div class="nav-lang">
+    <a href="en.html" data-lang="en">EN</a>
+    <a href="fr.html" class="active-lang" data-lang="fr">FR</a>
+    <a href="it.html" data-lang="it">IT</a>
+    <a href="ru.html" data-lang="ru">RU</a>
+    <a href="el.html" data-lang="el">EL</a>
+  </div>
+</nav>
+
+<header class="hero" data-flag="🇫🇷">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">🇫🇷 COSYfrançais</div>
+    <h1>Parlez français avec <em>assurance</em>.</h1>
+    <p class="hero-sub">Du « Bonjour » au niveau A0 au discours professionnel fluide au niveau C2. L'oral d'abord, toujours — parce que le français ouvre toutes les portes.</p>
+    <div class="hero-ctas">
+      <a href="https://wa.me/330766784195?text=Bonjour%20!%20J%27aimerais%20commencer%20des%20cours%20de%20français." class="btn-primary">💬 Commencer les cours</a>
+      <a href="../days.html" class="btn-ghost">Voir le programme →</a>
+    </div>
+    <div class="hero-why">
+      <span class="hw-pill">🌍 Langue mondiale</span>
+      <span class="hw-pill">💼 Essentiel carrière</span>
+      <span class="hw-pill">🎓 DELF · DALF · TCF</span>
+      <span class="hw-pill">🗣️ 1-à-1 &amp; groupe</span>
+    </div>
+  </div>
+  <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
+</header>
+
+<main>
+
+<!-- Start learning strip -->
+<section style="padding-bottom:0">
+  <div class="start-strip reveal">
+    <div class="ss-left">
+      <h3>Prêt à apprendre le français ?</h3>
+      <p>Cours axés sur l'oral, de A0 à C2, en 1-à-1 ou en groupe. Tous niveaux, tous types de cours.</p>
+    </div>
+    <div class="ss-links">
+      <a href="../days.html" class="ss-link ss-link-primary">Voir le programme complet →</a>
+      <a href="../index.html#calculator" class="ss-link ss-link-ghost">Voir les tarifs →</a>
+    </div>
+  </div>
+    <div class="exam-strip reveal" style="margin-top:1.1rem">
+    <span class="es-icon">📝</span>
+    <div>
+      <h3>Préparation au DELF ou DALF ?</h3>
+      <p>Nous couvrons tous les examens majeurs avec des sessions de préparation de 120 minutes — expression orale dans chaque session.</p>
+    </div>
+    <a href="../days.html">Voir la préparation →</a>
+  </div>
+</section>
+
+<!-- Daily dose -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag">💊 Votre dose de français</span>
+    <h2>Mot du jour & Fait amusant</h2>
+  </div>
+  <div class="daily-grid">
+    <div class="daily-card reveal" data-bg="📖">
+      <h3>Mot du jour 📖</h3>
+      <div class="daily-content" id="word-of-the-day">Chargement...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="🤣">
+      <h3>Fait amusant du jour 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day">Chargement...</div>
+    </div>
+  </div>
+</section>
+
+<!-- Learning resources -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag">📚 Outils d'apprentissage</span>
+    <h2>Ressources essentielles</h2>
+    <p>Dictionnaires, outils de grammaire, guides de prononciation — tout est gratuit.</p>
+  </div>
+  <div class="resources-grid">
+        <a href="https://www.larousse.fr/dictionnaires/francais" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📖</div>
+      <div class="rc-name">Dictionnaire Larousse</div>
+      <div class="rc-desc">Dictionnaire monolingue avec définitions et exemples.</div>
+      <div class="rc-link">Visiter →</div>
+    </a>
+    <a href="https://www.wordreference.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔄</div>
+      <div class="rc-name">WordReference</div>
+      <div class="rc-desc">Dictionnaire multilingue — traduction vers/depuis n'importe quelle langue.</div>
+      <div class="rc-link">Visiter →</div>
+    </a>
+    <a href="https://www.cooljugator.com/fr" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📝</div>
+      <div class="rc-name">Cooljugator</div>
+      <div class="rc-desc">Outil de conjugaison complet pour les verbes français.</div>
+      <div class="rc-link">Visiter →</div>
+    </a>
+    <a href="https://forvo.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔊</div>
+      <div class="rc-name">Forvo</div>
+      <div class="rc-desc">Prononciation par des locuteurs natifs pour n'importe quel mot.</div>
+      <div class="rc-link">Visiter →</div>
+    </a>
+  </div>
+</section>
+
+<!-- Media & Culture -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag">🎭 Immersion</span>
+    <h2>Médias & culture en français</h2>
+    <p>Immergez-vous dans le français — écoutez la radio en direct et regardez des chaînes de télévision françaises.</p>
+  </div>
+  <div class="media-grid">
+    <div class="media-card reveal">
+      <div class="mc-icon">📻</div>
+      <div class="mc-body">
+        <h4>Radio Garden</h4>
+        <p>Écoutez des stations de radio françaises en direct de Paris, Lyon, Montréal et au-delà.</p>
+        <a href="https://radio.garden/" target="_blank" class="mc-link">Ouvrir Radio Garden →</a>
       </div>
-    </nav>
+    </div>
+    <div class="media-card reveal">
+      <div class="mc-icon">📺</div>
+      <div class="mc-body">
+        <h4>TV Garden</h4>
+        <p>Regardez des chaînes de télévision françaises en direct — actualités, divertissement, culture.</p>
+        <a href="https://tv.garden/" target="_blank" class="mc-link">Ouvrir TV Garden →</a>
+      </div>
+    </div>
 
-    <main>
-        <section id="language-hero">
-            <h1 data-translate-key="cosy_francais_title">Bienvenue chez COSYfrançais</h1>
-            <p data-translate-key="cosy_francais_intro">Apprenez le français avec nous !</p>
-        </section>
+  </div>
+</section>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="learning_resources">Ressources d'apprentissage 📚</h2>
-            <div class="tools-grid">
-                <a href="https://www.larousse.fr/dictionnaires/francais" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="larousse_dictionary">Dictionnaire Larousse</h3>
-                    <p data-translate-key="larousse_dictionary_desc">Dictionnaire monolingue.</p>
-                </a>
-                <a href="https://www.wordreference.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="word_reference">WordReference</h3>
-                    <p data-translate-key="word_reference_desc">Dictionnaire multilingue.</p>
-                </a>
-                <a href="https://www.cooljugator.com/fr" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="cooljugator">Cooljugator</h3>
-                    <p data-translate-key="cooljugator_desc">Un outil de conjugaison.</p>
-                </a>
-                <a href="https://forvo.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="forvo">Forvo</h3>
-                    <p data-translate-key="forvo_desc">Le guide de la prononciation.</p>
-                </a>
-            </div>
-        </section>
+<!-- Daily life / shopping -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag">🛒 Vie quotidienne</span>
+    <h2>La vie quotidienne en France</h2>
+    <p>Explorez les vrais magasins et services en français — idéal pour le vocabulaire pratique en contexte.</p>
+  </div>
+    <div class="country-tabs">
+    <button class="ctab" data-country="fr" onclick="showCountry('fr')">🇫🇷 France</button>
+  </div>
+  <div class="country-panel" id="country-fr">
+    <div class="country-name">🇫🇷 France</div>
+      <div class="shop-category">
+        <h4>💄 Mode & Beauté</h4>
+        <div class="shop-grid">
+          <a href="https://www.galerieslafayette.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Galeries Lafayette</div>
+            <div class="sc-desc">Grand magasin de mode et de luxe.</div>
+          </a>
+          <a href="https://www.sephora.fr/" target="_blank" class="shop-card">
+            <div class="sc-name">Sephora</div>
+            <div class="sc-desc">Cosmétiques et produits de beauté.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🏡 Électronique & Maison</h4>
+        <div class="shop-grid">
+          <a href="https://www.fnac.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Fnac</div>
+            <div class="sc-desc">Produits culturels et électroniques.</div>
+          </a>
+          <a href="https://www.darty.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Darty</div>
+            <div class="sc-desc">Électroménager et électronique.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Alimentation & Épicerie</h4>
+        <div class="shop-grid">
+          <a href="https://www.carrefour.fr/" target="_blank" class="shop-card">
+            <div class="sc-name">Carrefour</div>
+            <div class="sc-desc">Supermarché et épicerie en ligne.</div>
+          </a>
+          <a href="https://www.auchan.fr/" target="_blank" class="shop-card">
+            <div class="sc-name">Auchan</div>
+            <div class="sc-desc">Supermarché et courses en ligne.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="daily_dose_title">Your Daily Dose 💊</h2>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h3 data-translate-key="word_of_the_day">Mot du jour</h3>
-                    <p id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Chargement...</p>
-                </div>
-                <div class="tool-card" id="fun-fact-card">
-                    <h3 data-translate-key="fun_fact_title">Fun Fact of the Day 🤣</h3>
-                    <p id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Loading...</p>
-                </div>
-            </div>
-        </section>
+<!-- CTA -->
+<div class="cta-block reveal">
+  <h2>Prêt à parler français ? 🗣️</h2>
+  <p>Envoyez-nous un message sur WhatsApp ou Telegram. Nous concevrons un plan qui vous fera parler dès la première leçon.</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195?text=Bonjour%20!%20J%27aimerais%20commencer%20des%20cours%20de%20français." class="cta-wa">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+  </div>
+</div>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="media_culture">Médias & Culture 🎭</h2>
-            <div class="tools-grid">
-                <a href="https://radio.garden/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="radio_garden">Radio Garden 📻</h3>
-                    <p data-translate-key="radio_garden_desc">Écoutez des stations de radio du monde entier.</p>
-                </a>
-                <a href="https://tv.garden/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="tv_garden">TV Garden 📺</h3>
-                    <p data-translate-key="tv_garden_desc">Regardez des chaînes de télévision du monde entier.</p>
-                </a>
-            </div>
-        </section>
-
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="daily_life">Vie quotidienne 🛒</h2>
-            <h3 class="country-header" data-translate-key="france">France 🇫🇷</h3>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h4 data-translate-key="fashion_beauty">Mode & Beauté 💄</h4>
-                    <a href="https://www.galerieslafayette.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="galeries_lafayette">Galeries Lafayette</h5>
-                        <p data-translate-key="galeries_lafayette_desc">Grand magasin de mode et de luxe.</p>
-                    </a>
-                    <a href="https://www.sephora.fr/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="sephora_fr">Sephora</h5>
-                        <p data-translate-key="sephora_fr_desc">Cosmétiques et produits de beauté.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="electronics_home">Électronique & Maison 🏡</h4>
-                    <a href="https://www.fnac.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="fnac">Fnac</h5>
-                        <p data-translate-key="fnac_desc">Détaillant de produits électroniques et culturels.</p>
-                    </a>
-                    <a href="https://www.darty.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="darty">Darty</h5>
-                        <p data-translate-key="darty_desc">Détaillant d'électronique et d'électroménager.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="food_groceries">Alimentation & Épicerie 🍲</h4>
-                    <a href="https://www.carrefour.fr/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="carrefour">Carrefour</h5>
-                        <p data-translate-key="carrefour_desc">Supermarché et épicerie.</p>
-                    </a>
-                    <a href="https://www.auchan.fr/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="auchan">Auchan</h5>
-                        <p data-translate-key="auchan_desc">Supermarché et épicerie.</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
+</main>
 
 <footer>
   <div class="footer-inner">
@@ -149,50 +255,49 @@
           <img src="../images/cosylanguages.png" alt="COSYlanguages">
           <span class="fb-name">COSYlanguages</span>
         </div>
-        <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+        <p>Votre coin convivial pour maîtriser de nouvelles langues et vous connecter avec le monde. 🌍</p>
       </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_courses">Courses</h5>
-        <a href="../general-course-roadmap.html" data-translate-key="course_general">General Course 📖</a>
-        <a href="../spoken-roadmap.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
-        <a href="../exam-roadmap.html" data-translate-key="course_exam">Exam Preparation 📝</a>
-        <a href="../days.html" data-translate-key="footer_roadmap">Full Roadmap 🗺️</a>
+      <div class="footer-col">
+        <h5>Cours</h5>
+        <a href="../days.html">Cours Général 📖</a>
+        <a href="../days.html">Cours de Conversation 🗣️</a>
+        <a href="../days.html">Préparation aux Examens 📝</a>
       </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_explore">Explore</h5>
-        <a href="../index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
-        <a href="../practice.html" data-translate-key="nav_practice">Free Practice 💡</a>
-        <a href="../events.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
-        <a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing 🧮</a>
+      <div class="footer-col">
+        <h5>Explorer</h5>
+        <a href="../index.html#languages">Toutes les Langues 🌍</a>
+        <a href="../practice.html">Pratique Gratuite 💡</a>
+        <a href="../events.html">Événements &amp; Jeux 🎉</a>
       </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_contact">Contact</h5>
+      <div class="footer-col">
+        <h5>Contact</h5>
         <a href="https://wa.me/330766784195">WhatsApp 📱</a>
         <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="../days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+        <a href="../days.html">Mes Leçons 🔐</a>
       </div>
     </div>
-    <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>
+    <div class="footer-bottom">© 2025 COSYlanguages — Tous droits réservés</div>
   </div>
 </footer>
 
+<script src="../js/data/theme_config.js"></script>
+<script src="../js/data/germanic/en/translations.js"></script>
+<script src="../js/data/romance/fr/translations.js"></script>
+<script src="../js/data/romance/it/translations.js"></script>
+<script src="../js/data/slavic/ru/translations.js"></script>
+<script src="../js/data/hellenic/el/translations.js"></script>
+<script src="../js/data/romance/es/translations.js"></script>
+<script src="../js/data/germanic/de/translations.js"></script>
+<script src="../js/data/romance/pt/translations.js"></script>
+<script src="../js/data/armenian/hy/translations.js"></script>
+<script src="../js/data/kartvelian/ka/translations.js"></script>
+<script src="../js/data/turkic/tt/translations.js"></script>
+<script src="../js/data/turkic/ba/translations.js"></script>
+<script src="../js/data/celtic/br/translations.js"></script>
+<script src="../js/translate.js"></script>
+<script src="../mobile.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/lang-pages.js"></script>
 
-    <script src="../js/data/germanic/en/translations.js"></script>
-    <script src="../js/data/romance/fr/translations.js"></script>
-    <script src="../js/data/romance/it/translations.js"></script>
-    <script src="../js/data/slavic/ru/translations.js"></script>
-    <script src="../js/data/hellenic/el/translations.js"></script>
-    <script src="../js/data/romance/es/translations.js"></script>
-    <script src="../js/data/germanic/de/translations.js"></script>
-    <script src="../js/data/romance/pt/translations.js"></script>
-    <script src="../js/data/armenian/hy/translations.js"></script>
-    <script src="../js/data/kartvelian/ka/translations.js"></script>
-    <script src="../js/data/turkic/tt/translations.js"></script>
-    <script src="../js/data/turkic/ba/translations.js"></script>
-    <script src="../js/data/celtic/br/translations.js"></script>
-    <script src="../js/translate.js"></script>
-    <script src="../mobile.js"></script>
-
-    <script src="../js/script.js"></script>
 </body>
 </html>
