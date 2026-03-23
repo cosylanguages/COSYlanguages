@@ -1,273 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COSYEnglish</title>
-    <meta name="description" data-translate-key="cosy_en_intro" content="Localized Content">
-    <meta property="og:title" data-translate-key="cosy_en_title" content="Localized Content">
-    <meta property="og:description" data-translate-key="cosy_en_intro" content="Localized Content">
-    <meta property="og:image" content="../images/cosylanguages.png">
-    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/languages/en.html">
-    <link rel="icon" href="../images/cosylanguages.png">
-    <link rel="manifest" href="/COSYlanguages/manifest.json">
-    <meta name="theme-color" content="#4a6b50">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="COSYlanguages">
-    <link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../mobile.css">
-    <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/COSYlanguages/sw.js')
-        .catch(e => console.log('SW:', e));
-    }
-    </script>
-    <nav>
-      <a class="nav-logo" href="../index.html">
-        <img src="../images/cosylanguages.png" alt="COSYlanguages">
-      </a>
-      <ul class="nav-links">
-        <li><a href="../index.html#how" data-translate-key="nav_how">How it works</a></li>
-        <li><a href="../index.html#courses" data-translate-key="nav_courses">Courses</a></li>
-        <li><a href="../index.html#languages" data-translate-key="nav_languages">Languages</a></li>
-        <li><a href="../practice.html" data-translate-key="nav_practice">Practice</a></li>
-        <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing</a></li>
-        <li><a href="../events.html" data-translate-key="nav_events">Events 🎉</a></li>
-        <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
-        <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
-      </ul>
-      <div class="nav-lang">
-        <a href="en.html" data-lang="en">EN</a><a href="fr.html" data-lang="fr">FR</a><a href="it.html" data-lang="it">IT</a><a href="ru.html" data-lang="ru">RU</a><a href="el.html" data-lang="el">EL</a>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSYEnglish — Learn English — COSYlanguages</title>
+<meta name="description" content="Learn English with a speaking-first approach. 1-to-1 online lessons, A0 to C2. IELTS, Cambridge, TOEFL exam preparation. Free practice and resources.">
+<meta property="og:title" content="COSYEnglish — Learn English — COSYlanguages">
+<meta property="og:description" content="Learn English with a speaking-first approach. 1-to-1 online lessons, A0 to C2. IELTS, Cambridge, TOEFL exam preparation. Free practice and resources.">
+<meta property="og:image" content="../images/cosylanguages.png">
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="manifest" href="/COSYlanguages/manifest.json">
+<meta name="theme-color" content="#4a6b50">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="/COSYlanguages/images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/lang-pages.css">
+<style>
+:root {
+  --accent:#2a6099; --accent-dark:#1a3f5c; --accent-pale:#eef1fb;
+}
+</style>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/COSYlanguages/sw.js').catch(e => console.log('SW:', e));
+}
+</script>
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20English%20lessons." class="wa-fab" title="Chat on WhatsApp">💬</a>
+
+<nav>
+  <a class="nav-logo" href="../index.html">
+    <img src="../images/cosylanguages.png" alt="COSYlanguages">
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html#how" data-translate-key="nav_how">How it works</a></li>
+    <li><a href="../index.html#courses" data-translate-key="nav_courses">Courses</a></li>
+    <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Languages 🌍</a></li>
+    <li><a href="../practice.html" data-translate-key="nav_practice">Practice 💡</a></li>
+    <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing 🧮</a></li>
+    <li><a href="../events.html" data-translate-key="nav_events">Events 🎉</a></li>
+    <li><a href="../days.html" class="nav-student" data-translate-key="nav_my_lessons">My Lessons 🔐</a></li>
+    <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contact us</a></li>
+  </ul>
+  <div class="nav-lang">
+    <a href="en.html" class="active-lang" data-lang="en">EN</a>
+    <a href="fr.html" data-lang="fr">FR</a>
+    <a href="it.html" data-lang="it">IT</a>
+    <a href="ru.html" data-lang="ru">RU</a>
+    <a href="el.html" data-lang="el">EL</a>
+  </div>
+</nav>
+
+<header class="hero" data-flag="🇬🇧">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">🇬🇧 COSYEnglish</div>
+    <h1>Speak English with <em>confidence</em>.</h1>
+    <p class="hero-sub">From "Hello, I'm..." at A0 to fluent professional and academic discourse at C2. Speaking-first, always — because English opens every door.</p>
+    <div class="hero-ctas">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20start%20English%20lessons." class="btn-primary">💬 Start English lessons</a>
+      <a href="../days.html" class="btn-ghost">See the curriculum →</a>
+    </div>
+    <div class="hero-why">
+      <span class="hw-pill">🌍 World language</span>
+      <span class="hw-pill">💼 Career essential</span>
+      <span class="hw-pill">🎓 IELTS · Cambridge · TOEFL</span>
+      <span class="hw-pill">🗣️ 1-to-1 &amp; group</span>
+    </div>
+  </div>
+  <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
+</header>
+
+<main>
+
+<!-- Start learning strip -->
+<section style="padding-bottom:0">
+  <div class="start-strip reveal">
+    <div class="ss-left">
+      <h3>Ready to start learning English?</h3>
+      <p>Speaking-first lessons, A0 to C2, 1-to-1 or group. All levels, all course types.</p>
+    </div>
+    <div class="ss-links">
+      <a href="../days.html" class="ss-link ss-link-primary">See the full curriculum →</a>
+      <a href="../index.html#calculator" class="ss-link ss-link-ghost">See pricing →</a>
+    </div>
+  </div>
+    <div class="exam-strip reveal" style="margin-top:1.1rem">
+    <span class="es-icon">📝</span>
+    <div>
+      <h3>Preparing for IELTS, Cambridge or TOEFL?</h3>
+      <p>We cover all major English exams with 120-minute preparation sessions — speaking component in every session.</p>
+    </div>
+    <a href="../days.html">See exam preparation →</a>
+  </div>
+</section>
+
+<!-- Daily dose -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Your daily English</span>
+    <h2 data-translate-key="daily_dose_title">Word of the Day & Fun Fact</h2>
+  </div>
+  <div class="daily-grid">
+    <div class="daily-card reveal" data-bg="📖">
+      <h3 data-translate-key="word_of_the_day">Word of the Day 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Loading...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="🤣">
+      <h3 data-translate-key="fun_fact_title">Fun Fact of the Day 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Loading...</div>
+    </div>
+  </div>
+</section>
+
+<!-- Learning resources -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Learning tools</span>
+    <h2 data-translate-key="learning_resources">Essential English resources</h2>
+    <p data-translate-key="learning_resources_desc">Dictionaries, grammar tools, pronunciation guides and learning platforms — all free.</p>
+  </div>
+  <div class="resources-grid">
+        <a href="https://www.oxfordlearnersdictionaries.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📖</div>
+      <div class="rc-name">Oxford Learner's Dictionary</div>
+      <div class="rc-desc">Monolingual dictionary with examples, collocations and audio.</div>
+      <div class="rc-link">Visit →</div>
+    </a>
+    <a href="https://www.collinsdictionary.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📘</div>
+      <div class="rc-name">Collins Dictionary</div>
+      <div class="rc-desc">Comprehensive English dictionary with usage examples.</div>
+      <div class="rc-link">Visit →</div>
+    </a>
+    <a href="https://www.wordreference.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔄</div>
+      <div class="rc-name">WordReference</div>
+      <div class="rc-desc">Multilingual dictionary — translate to/from any language.</div>
+      <div class="rc-link">Visit →</div>
+    </a>
+    <a href="https://irregularverbs.org/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📝</div>
+      <div class="rc-name">Irregular Verbs</div>
+      <div class="rc-desc">Interactive tool for all English irregular verb forms.</div>
+      <div class="rc-link">Visit →</div>
+    </a>
+    <a href="https://forvo.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔊</div>
+      <div class="rc-name">Forvo</div>
+      <div class="rc-desc">Native speaker pronunciations for any word.</div>
+      <div class="rc-link">Visit →</div>
+    </a>
+    <a href="https://www.bbc.co.uk/learningenglish/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📰</div>
+      <div class="rc-name">BBC Learning English</div>
+      <div class="rc-desc">Free lessons, videos and grammar guides from the BBC.</div>
+      <div class="rc-link">Visit →</div>
+    </a>
+  </div>
+</section>
+
+<!-- Media & Culture -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Immersion</span>
+    <h2 data-translate-key="media_culture">Media & culture in English</h2>
+    <p data-translate-key="media_culture_desc">Immerse yourself in English — listen to live radio and watch real TV channels from English-speaking countries.</p>
+  </div>
+  <div class="media-grid">
+    <div class="media-card reveal">
+      <div class="mc-icon">📻</div>
+      <div class="mc-body">
+        <h4>Radio Garden</h4>
+        <p>Tune in to live English radio stations from the UK, USA, Australia and beyond.</p>
+        <a href="https://radio.garden/" target="_blank" class="mc-link">Open Radio Garden →</a>
       </div>
-    </nav>
+    </div>
+    <div class="media-card reveal">
+      <div class="mc-icon">📺</div>
+      <div class="mc-body">
+        <h4>TV Garden</h4>
+        <p>Watch live English TV channels from around the world — news, entertainment, culture.</p>
+        <a href="https://tv.garden/" target="_blank" class="mc-link">Open TV Garden →</a>
+      </div>
+    </div>
 
-    <main>
-        <section id="language-hero">
-            <h1 data-translate-key="cosy_english_title">Welcome to COSYEnglish</h1>
-            <p data-translate-key="cosy_english_intro">Learn English with us!</p>
-        </section>
+  </div>
+</section>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="learning_resources">Learning Resources 📚</h2>
-            <div class="tools-grid">
-                <a href="https://www.oxfordlearnersdictionaries.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="oxford_english_dictionary">Oxford English Dictionary</h3>
-                    <p data-translate-key="oxford_english_dictionary_desc">Monolingual dictionary.</p>
-                </a>
-                <a href="https://www.collinsdictionary.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="collins_dictionary">Collins Dictionary</h3>
-                    <p data-translate-key="collins_dictionary_desc">Monolingual dictionary.</p>
-                </a>
-                <a href="https://www.wordreference.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="word_reference">WordReference</h3>
-                    <p data-translate-key="word_reference_desc">Multilingual dictionary.</p>
-                </a>
-                <a href="https://irregularverbs.org/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="irregular_verbs">Irregular Verbs 🧐</h3>
-                    <p data-translate-key="irregular_verbs_desc">A tool for irregular verbs.</p>
-                </a>
-                <a href="https://forvo.com/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="forvo">Forvo</h3>
-                    <p data-translate-key="forvo_desc">The pronunciation guide.</p>
-                </a>
-            </div>
-        </section>
+<!-- Daily life / shopping -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Daily life</span>
+    <h2 data-translate-key="daily_life_title">Daily life in English-speaking countries</h2>
+    <p data-translate-key="daily_life_desc">Explore real shops, services and websites in English — great for practical vocabulary in context.</p>
+  </div>
+    <div class="country-tabs">
+    <button class="ctab" data-country="uk" onclick="showCountry('uk')" data-translate-key="uk">🇬🇧 United Kingdom</button>
+    <button class="ctab" data-country="us" onclick="showCountry('us')" data-translate-key="us">🇺🇸 United States</button>
+    <button class="ctab" data-country="ca" onclick="showCountry('ca')" data-translate-key="canada">🇨🇦 Canada</button>
+    <button class="ctab" data-country="au" onclick="showCountry('au')" data-translate-key="australia">🇦🇺 Australia</button>
+  </div>
+  <div class="country-panel" id="country-uk">
+    <div class="country-name">🇬🇧 United Kingdom</div>
+      <div class="shop-category">
+        <h4>💄 Fashion & Beauty</h4>
+        <div class="shop-grid">
+          <a href="https://www.next.co.uk/" target="_blank" class="shop-card">
+            <div class="sc-name">Next</div>
+            <div class="sc-desc">Clothing, footwear and home products.</div>
+          </a>
+          <a href="https://www.marksandspencer.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Marks & Spencer</div>
+            <div class="sc-desc">Clothing, food and home products.</div>
+          </a>
+          <a href="https://www.boots.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Boots</div>
+            <div class="sc-desc">Health and beauty retailer.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🏡 Electronics & Home</h4>
+        <div class="shop-grid">
+          <a href="https://www.currys.co.uk/" target="_blank" class="shop-card">
+            <div class="sc-name">Currys</div>
+            <div class="sc-desc">Electrical and tech retailer.</div>
+          </a>
+          <a href="https://www.argos.co.uk/" target="_blank" class="shop-card">
+            <div class="sc-name">Argos</div>
+            <div class="sc-desc">Electronics and home goods.</div>
+          </a>
+          <a href="https://www.johnlewis.com/" target="_blank" class="shop-card">
+            <div class="sc-name">John Lewis</div>
+            <div class="sc-desc">High-end department store.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Food & Groceries</h4>
+        <div class="shop-grid">
+          <a href="https://www.tesco.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Tesco</div>
+            <div class="sc-desc">Supermarket and grocery store.</div>
+          </a>
+          <a href="https://www.sainsburys.co.uk/" target="_blank" class="shop-card">
+            <div class="sc-name">Sainsbury's</div>
+            <div class="sc-desc">Supermarket and grocery store.</div>
+          </a>
+          <a href="https://www.waitrose.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Waitrose</div>
+            <div class="sc-desc">Premium supermarket.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+  <div class="country-panel" id="country-us">
+    <div class="country-name">🇺🇸 United States</div>
+      <div class="shop-category">
+        <h4>💄 Fashion & Beauty</h4>
+        <div class="shop-grid">
+          <a href="https://www.macys.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Macy's</div>
+            <div class="sc-desc">Department store for fashion and beauty.</div>
+          </a>
+          <a href="https://www.sephora.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Sephora</div>
+            <div class="sc-desc">Cosmetics and beauty products.</div>
+          </a>
+          <a href="https://www.target.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Target</div>
+            <div class="sc-desc">General merchandise retailer.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🏡 Electronics & Home</h4>
+        <div class="shop-grid">
+          <a href="https://www.bestbuy.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Best Buy</div>
+            <div class="sc-desc">Electronics and home appliances.</div>
+          </a>
+          <a href="https://www.homedepot.com/" target="_blank" class="shop-card">
+            <div class="sc-name">The Home Depot</div>
+            <div class="sc-desc">Home improvement and construction.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Food & Groceries</h4>
+        <div class="shop-grid">
+          <a href="https://www.walmart.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Walmart</div>
+            <div class="sc-desc">Supermarket and general store.</div>
+          </a>
+          <a href="https://www.kroger.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Kroger</div>
+            <div class="sc-desc">Supermarket and grocery store.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+  <div class="country-panel" id="country-ca">
+    <div class="country-name">🇨🇦 Canada</div>
+      <div class="shop-category">
+        <h4>💄 Fashion & Beauty</h4>
+        <div class="shop-grid">
+          <a href="https://www.thebay.com/" target="_blank" class="shop-card">
+            <div class="sc-name">The Bay</div>
+            <div class="sc-desc">Department store for fashion and beauty.</div>
+          </a>
+          <a href="https://www.simons.ca/" target="_blank" class="shop-card">
+            <div class="sc-name">Simons</div>
+            <div class="sc-desc">Canadian fashion retailer.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🏡 Electronics & Home</h4>
+        <div class="shop-grid">
+          <a href="https://www.bestbuy.ca/" target="_blank" class="shop-card">
+            <div class="sc-name">Best Buy Canada</div>
+            <div class="sc-desc">Electronics and appliances.</div>
+          </a>
+          <a href="https://www.canadiantire.ca/" target="_blank" class="shop-card">
+            <div class="sc-name">Canadian Tire</div>
+            <div class="sc-desc">Home goods, automotive and electronics.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Food & Groceries</h4>
+        <div class="shop-grid">
+          <a href="https://www.loblaws.ca/" target="_blank" class="shop-card">
+            <div class="sc-name">Loblaws</div>
+            <div class="sc-desc">Online grocery store.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+  <div class="country-panel" id="country-au">
+    <div class="country-name">🇦🇺 Australia</div>
+      <div class="shop-category">
+        <h4>💄 Fashion & Beauty</h4>
+        <div class="shop-grid">
+          <a href="https://www.myer.com.au/" target="_blank" class="shop-card">
+            <div class="sc-name">Myer</div>
+            <div class="sc-desc">Australian department store.</div>
+          </a>
+          <a href="https://www.davidjones.com/" target="_blank" class="shop-card">
+            <div class="sc-name">David Jones</div>
+            <div class="sc-desc">Department store with fashion and beauty.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🏡 Electronics & Home</h4>
+        <div class="shop-grid">
+          <a href="https://www.jbhifi.com.au/" target="_blank" class="shop-card">
+            <div class="sc-name">JB Hi-Fi</div>
+            <div class="sc-desc">Electronics and entertainment.</div>
+          </a>
+          <a href="https://www.harveynorman.com.au/" target="_blank" class="shop-card">
+            <div class="sc-name">Harvey Norman</div>
+            <div class="sc-desc">Electronics, furniture and bedding.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Food & Groceries</h4>
+        <div class="shop-grid">
+          <a href="https://www.woolworths.com.au/" target="_blank" class="shop-card">
+            <div class="sc-name">Woolworths</div>
+            <div class="sc-desc">Supermarket and grocery store.</div>
+          </a>
+          <a href="https://www.coles.com.au/" target="_blank" class="shop-card">
+            <div class="sc-name">Coles</div>
+            <div class="sc-desc">Supermarket and grocery store.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="daily_dose_title">Your Daily Dose 💊</h2>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h3 data-translate-key="word_of_the_day">Word of the Day</h3>
-                    <p id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Loading...</p>
-                </div>
-                <div class="tool-card" id="fun-fact-card">
-                    <h3 data-translate-key="fun_fact_title">Fun Fact of the Day 🤣</h3>
-                    <p id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Loading...</p>
-                </div>
-            </div>
-        </section>
+<!-- CTA -->
+<div class="cta-block reveal">
+  <h2>Ready to speak English? 🗣️</h2>
+  <p>Message us on WhatsApp or Telegram and tell us where you are. We'll design a plan that gets you speaking from lesson one.</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20start%20English%20lessons." class="cta-wa">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+  </div>
+</div>
 
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="media_culture">Media & Culture 🎭</h2>
-            <div class="tools-grid">
-                <a href="https://radio.garden/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="radio_garden">Radio Garden 📻</h3>
-                    <p data-translate-key="radio_garden_desc">Listen to radio stations from all over the world.</p>
-                </a>
-                <a href="https://tv.garden/" target="_blank" rel="noopener noreferrer" class="tool-card">
-                    <h3 data-translate-key="tv_garden">TV Garden 📺</h3>
-                    <p data-translate-key="tv_garden_desc">Watch TV channels from all over the world.</p>
-                </a>
-            </div>
-        </section>
-
-        <section class="language-section">
-            <h2 class="category-header" data-translate-key="daily_life">Daily Life 🛒</h2>
-
-            <h3 class="country-header" data-translate-key="uk">United Kingdom 🇬🇧</h3>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h4 data-translate-key="fashion_beauty">Fashion & Beauty 💄</h4>
-                    <a href="https://www.next.co.uk/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="next">Next</h5>
-                        <p data-translate-key="next_desc">Clothing, footwear, and home products retailer.</p>
-                    </a>
-                    <a href="https://www.marksandspencer.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="marks_spencer">Marks & Spencer</h5>
-                        <p data-translate-key="marks_spencer_desc">Clothing, home products, and food.</p>
-                    </a>
-                    <a href="https://www.boots.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="boots">Boots</h5>
-                        <p data-translate-key="boots_desc">Health and beauty retailer.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="electronics_home">Electronics & Home 🏡</h4>
-                    <a href="https://www.currys.co.uk/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="currys">Currys</h5>
-                        <p data-translate-key="currys_desc">Electrical retailer.</p>
-                    </a>
-                    <a href="https://www.argos.co.uk/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="argos">Argos</h5>
-                        <p data-translate-key="argos_desc">Catalogue retailer for electronics and home goods.</p>
-                    </a>
-                    <a href="https://www.johnlewis.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="john_lewis">John Lewis</h5>
-                        <p data-translate-key="john_lewis_desc">High-end department store.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="food_groceries">Food & Groceries 🍲</h4>
-                    <a href="https://www.tesco.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="tesco">Tesco</h5>
-                        <p data-translate-key="tesco_desc">Supermarket and grocery store.</p>
-                    </a>
-                    <a href="https://www.sainsburys.co.uk/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="sainsburys">Sainsbury's</h5>
-                        <p data-translate-key="sainsburys_desc">Supermarket and grocery store.</p>
-                    </a>
-                </div>
-            </div>
-
-            <h3 class="country-header" data-translate-key="us">United States 🇺🇸</h3>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h4 data-translate-key="fashion_beauty">Fashion & Beauty 💄</h4>
-                    <a href="https://www.macys.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="macys">Macy's</h5>
-                        <p data-translate-key="macys_desc">Department store for fashion and beauty.</p>
-                    </a>
-                    <a href="https://www.sephora.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="sephora_us">Sephora</h5>
-                        <p data-translate-key="sephora_us_desc">Cosmetics and beauty products.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="electronics_home">Electronics & Home 🏡</h4>
-                    <a href="https://www.bestbuy.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="best_buy_us">Best Buy</h5>
-                        <p data-translate-key="best_buy_us_desc">Electronics and home appliances.</p>
-                    </a>
-                    <a href="https://www.homedepot.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="home_depot">The Home Depot</h5>
-                        <p data-translate-key="home_depot_desc">Home improvement and construction products.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="food_groceries">Food & Groceries 🍲</h4>
-                    <a href="https://www.walmart.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="walmart">Walmart</h5>
-                        <p data-translate-key="walmart_desc">Supermarket and grocery store.</p>
-                    </a>
-                    <a href="https://www.kroger.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="kroger">Kroger</h5>
-                        <p data-translate-key="kroger_desc">Supermarket and grocery store.</p>
-                    </a>
-                </div>
-            </div>
-
-            <h3 class="country-header" data-translate-key="canada">Canada 🇨🇦</h3>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h4 data-translate-key="fashion_beauty">Fashion & Beauty 💄</h4>
-                    <a href="https://www.thebay.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="the_bay">The Bay</h5>
-                        <p data-translate-key="the_bay_desc">Online department store for fashion and beauty.</p>
-                    </a>
-                    <a href="https://www.simons.ca/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="simons">Simons</h5>
-                        <p data-translate-key="simons_desc">Canadian fashion retailer.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="electronics_home">Electronics & Home 🏡</h4>
-                    <a href="https://www.bestbuy.ca/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="best_buy_ca">Best Buy Canada</h5>
-                        <p data-translate-key="best_buy_ca_desc">Electronics and home appliances.</p>
-                    </a>
-                    <a href="https://www.canadiantire.ca/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="canadian_tire">Canadian Tire</h5>
-                        <p data-translate-key="canadian_tire_desc">Home goods, automotive, and electronics.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="food_groceries">Food & Groceries 🍲</h4>
-                    <a href="https://www.loblaws.ca/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="loblaws">Loblaws</h5>
-                        <p data-translate-key="loblaws_desc">Online grocery store.</p>
-                    </a>
-                </div>
-            </div>
-
-            <h3 class="country-header" data-translate-key="australia">Australia 🇦🇺</h3>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <h4 data-translate-key="fashion_beauty">Fashion & Beauty 💄</h4>
-                    <a href="https://www.myer.com.au/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="myer">Myer</h5>
-                        <p data-translate-key="myer_desc">Australian department store.</p>
-                    </a>
-                    <a href="https://www.davidjones.com/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="david_jones">David Jones</h5>
-                        <p data-translate-key="david_jones_desc">Department store with fashion and beauty products.</p>
-                    </a>
-                    <a href="https://www.chemistwarehouse.com.au/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="chemist_warehouse">Chemist Warehouse</h5>
-                        <p data-translate-key="chemist_warehouse_desc">Pharmacy and beauty retailer.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="electronics_home">Electronics & Home 🏡</h4>
-                    <a href="https://www.jbhifi.com.au/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="jb_hifi">JB Hi-Fi</h5>
-                        <p data-translate-key="jb_hifi_desc">Electronics and entertainment retailer.</p>
-                    </a>
-                    <a href="https://www.harveynorman.com.au/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="harvey_norman">Harvey Norman</h5>
-                        <p data-translate-key="harvey_norman_desc">Electronics, furniture, and bedding retailer.</p>
-                    </a>
-                    <a href="https://www.bunnings.com.au/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="bunnings">Bunnings Warehouse</h5>
-                        <p data-translate-key="bunnings_desc">Home improvement and hardware store.</p>
-                    </a>
-                </div>
-                <div class="tool-card">
-                    <h4 data-translate-key="food_groceries">Food & Groceries 🍲</h4>
-                    <a href="https://www.woolworths.com.au/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="woolworths">Woolworths</h5>
-                        <p data-translate-key="woolworths_desc">Supermarket and grocery store.</p>
-                    </a>
-                    <a href="https://www.coles.com.au/" target="_blank" rel="noopener noreferrer">
-                        <h5 data-translate-key="coles">Coles</h5>
-                        <p data-translate-key="coles_desc">Supermarket and grocery store.</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
+</main>
 
 <footer>
   <div class="footer-inner">
@@ -277,50 +407,49 @@
           <img src="../images/cosylanguages.png" alt="COSYlanguages">
           <span class="fb-name">COSYlanguages</span>
         </div>
-        <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+        <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
       </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_courses">Courses</h5>
-        <a href="../general-course-roadmap.html" data-translate-key="course_general">General Course 📖</a>
-        <a href="../spoken-roadmap.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
-        <a href="../exam-roadmap.html" data-translate-key="course_exam">Exam Preparation 📝</a>
-        <a href="../days.html" data-translate-key="footer_roadmap">Full Roadmap 🗺️</a>
+      <div class="footer-col">
+        <h5>Courses</h5>
+        <a href="../days.html">General Course 📖</a>
+        <a href="../days.html">Spoken Course 🗣️</a>
+        <a href="../days.html">Exam Prep 📝</a>
       </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_explore">Explore</h5>
-        <a href="../index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
-        <a href="../practice.html" data-translate-key="nav_practice">Free Practice 💡</a>
-        <a href="../events.html" data-translate-key="nav_events">Events &amp; Games 🎉</a>
-        <a href="../index.html#calculator" data-translate-key="nav_pricing">Pricing 🧮</a>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <a href="../index.html#languages">All Languages 🌍</a>
+        <a href="../practice.html">Free Practice 💡</a>
+        <a href="../events.html">Events &amp; Games 🎉</a>
       </div>
-      <div class="footer-links-col">
-        <h5 data-translate-key="footer_h5_contact">Contact</h5>
+      <div class="footer-col">
+        <h5>Contact</h5>
         <a href="https://wa.me/330766784195">WhatsApp 📱</a>
         <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-        <a href="../days.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+        <a href="../days.html">My Lessons 🔐</a>
       </div>
     </div>
-    <div class="footer-bottom" data-translate-key="footer_copy">© 2025 COSYlanguages — All rights reserved</div>
+    <div class="footer-bottom">© 2025 COSYlanguages — All rights reserved</div>
   </div>
 </footer>
 
+<script src="../js/data/theme_config.js"></script>
+<script src="../js/data/germanic/en/translations.js"></script>
+<script src="../js/data/romance/fr/translations.js"></script>
+<script src="../js/data/romance/it/translations.js"></script>
+<script src="../js/data/slavic/ru/translations.js"></script>
+<script src="../js/data/hellenic/el/translations.js"></script>
+<script src="../js/data/romance/es/translations.js"></script>
+<script src="../js/data/germanic/de/translations.js"></script>
+<script src="../js/data/romance/pt/translations.js"></script>
+<script src="../js/data/armenian/hy/translations.js"></script>
+<script src="../js/data/kartvelian/ka/translations.js"></script>
+<script src="../js/data/turkic/tt/translations.js"></script>
+<script src="../js/data/turkic/ba/translations.js"></script>
+<script src="../js/data/celtic/br/translations.js"></script>
+<script src="../js/translate.js"></script>
+<script src="../mobile.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/lang-pages.js"></script>
 
-    <script src="../js/data/germanic/en/translations.js"></script>
-    <script src="../js/data/romance/fr/translations.js"></script>
-    <script src="../js/data/romance/it/translations.js"></script>
-    <script src="../js/data/slavic/ru/translations.js"></script>
-    <script src="../js/data/hellenic/el/translations.js"></script>
-    <script src="../js/data/romance/es/translations.js"></script>
-    <script src="../js/data/germanic/de/translations.js"></script>
-    <script src="../js/data/romance/pt/translations.js"></script>
-    <script src="../js/data/armenian/hy/translations.js"></script>
-    <script src="../js/data/kartvelian/ka/translations.js"></script>
-    <script src="../js/data/turkic/tt/translations.js"></script>
-    <script src="../js/data/turkic/ba/translations.js"></script>
-    <script src="../js/data/celtic/br/translations.js"></script>
-    <script src="../js/translate.js"></script>
-    <script src="../mobile.js"></script>
-
-    <script src="../js/script.js"></script>
 </body>
 </html>

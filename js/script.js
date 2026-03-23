@@ -202,25 +202,37 @@
         });
 
         // Word/Fact of the Day
+        window.updateDailyDose();
+    };
+
+    window.updateDailyDose = function() {
+        const pageLang = document.documentElement.lang || localStorage.getItem('language') || 'en';
+
         const wotd = document.getElementById('word-of-the-day');
         if (wotd) {
             const words = {
                 en: ["Hello", "Love", "Life", "Dream", "Freedom", "Joy", "Happiness", "Hope", "Star", "Light"],
                 fr: ["Bonjour", "Amour", "Vie", "Rêve", "Liberté", "Joie", "Bonheur", "Espoir", "Étoile", "Lumière"],
-                it: ["Ciao", "Amore", "Vita", "Sogno", "Libertà", "Gioia", "Felicità", "Speranza", "Stella", "Luce"],
-                ru: ["Привет", "Любовь", "Жизнь", "Мечта", "Свобода", "Радость", "Счастье", "Надежда", "Звезда", "Свет"],
+                it: ["Ciao", "Amore", "Vita", "Sogno", "Libertà", "Gioia", "Felicità", "Sπεράντζα", "Stella", "Luce"],
+                ru: ["Привет", "Любовь", "Жизнь", "Мечта", "Свобоδα", "Радость", "Счастье", "Надежда", "Звезда", "Свет"],
                 el: ["Γειά", "Αγάπη", "Ζωή", "Όνειρο", "Ελευθερία", "Χαρά", "Ευτυχία", "Ελπίδα", "Αστέρι", "Φως"]
             };
-            const pageLang = document.documentElement.lang;
             const list = words[pageLang] || words.en;
             wotd.textContent = list[getDayOfYear() % list.length];
         }
 
         const fact = document.getElementById('fun-fact-of-the-day');
         if (fact) {
-            const pageLang = document.documentElement.lang;
             const list = window.translations?.[pageLang]?.[`fun_fact_${pageLang}`];
-            if (list && list.length) fact.textContent = list[getDayOfYear() % list.length];
+            if (list && list.length) {
+                fact.textContent = list[getDayOfYear() % list.length];
+            } else {
+                // Fallback to English if not available for current lang
+                const enList = window.translations?.['en']?.[`fun_fact_en`];
+                if (enList && enList.length) {
+                    fact.textContent = enList[getDayOfYear() % enList.length];
+                }
+            }
         }
     };
 

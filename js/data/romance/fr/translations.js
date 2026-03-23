@@ -1038,6 +1038,24 @@
             faq_4_a: "Oui ! Nous proposons une planification flexible. Vous pouvez réserver ou reporter des sessions avec un préavis de 24 heures pour s'adapter à votre vie d'adulte bien remplie.",
             faq_5_q: "De quel matériel ai-je besoin ?",
             faq_5_a: "Juste un appareil avec une caméra et un microphone. Tous les supports d'apprentissage, y compris nos outils de pratique gratuits et nos jeux, sont fournis par nos soins.",
+            fun_fact_fr: [
+                "Le français a été la langue officielle de l'Angleterre pendant environ 300 ans.",
+                "Le mot 'salut' peut signifier à la fois 'bonjour' et 'au revoir'.",
+                "Le français est souvent considéré comme la langue de la diplomatie.",
+                "Environ 45 % des mots anglais sont d'origine française.",
+                "Le français est la seule langue, avec l'anglais, à être parlée sur les 5 continents."
+            ],
+            daily_dose_tag: "💊 Votre dose de français",
+            daily_dose_title: "Mot du jour & Anecdote",
+            learning_resources_desc: "Dictionnaires, outils de grammaire, guides de prononciation — tous gratuits.",
+            media_culture_tag: "🎭 Immersion",
+            media_culture_desc: "Immergez-vous dans le français — écoutez la radio en direct et regardez les chaînes de télévision.",
+            daily_life_title: "La vie quotidienne en français",
+            daily_life_desc: "Explorez les magasins et services réels — idéal pour un vocabulaire pratique en contexte.",
+            belgium: "Belgique 🇧🇪",
+            switzerland: "Suisse 🇨🇭",
+            cyprus: "Chypre 🇨🇾",
+            greece: "Grèce 🇬🇷"
         }
         };
     window.translations = window.translations || {};
