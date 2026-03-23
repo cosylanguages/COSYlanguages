@@ -3,9 +3,9 @@
     {
         "word": "лошадь",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
         "emoji": "🐎",
-        "form": "verb"
+        "form": "noun"
     },
     {
         "word": "рисование",
@@ -34,56 +34,56 @@
     {
         "word": "ветрено",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "💨",
-        "form": "verb"
+        "form": "adjective"
     },
     {
         "word": "предлагать",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "💡",
         "form": "verb"
     },
     {
         "word": "рассматривать",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "🤔",
         "form": "verb"
     },
     {
         "word": "появляться",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "👻",
         "form": "verb"
     },
     {
         "word": "служить",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
         "form": "verb"
     },
     {
         "word": "ожидать",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "💭",
         "form": "verb"
     },
     {
         "word": "строить",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_repairs_maintenance_A2",
         "emoji": "🏗️",
         "form": "verb"
     },
     {
         "word": "оставаться",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "condition_state_A2",
         "emoji": "⏳",
         "form": "verb"
     },
@@ -97,21 +97,21 @@
     {
         "word": "убивать",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
         "form": "verb"
     },
     {
         "word": "поднимать",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "family_life_A1",
         "emoji": "🙋",
         "form": "verb"
     },
     {
         "word": "требовать",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "📜",
         "form": "verb"
     },
@@ -125,7 +125,7 @@
     {
         "word": "решать",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "⚖️",
         "form": "verb"
     },
@@ -148,7 +148,15 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Помогать или ободрять кого-либо.",
+                "examples": [
+                    "Моя семья поддерживает мои решения."
+                ]
+            }
+        ]
     },
     {
         "word": "ударять",
@@ -167,14 +175,14 @@
     {
         "word": "сталкиваться",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "👤",
         "form": "verb"
     },
     {
         "word": "покрывать",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
         "form": "verb"
     },
@@ -191,6 +199,141 @@
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb"
+    },
+    {
+        "word": "подавать заявку",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "📝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Подавать официальный запрос о приеме на работу.",
+                "examples": [
+                    "Она подала заявку на должность менеджера."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "нанимать",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Предоставлять кому-либо работу.",
+                "examples": [
+                    "Компания наняла двух новых сотрудников."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "выходить на пенсию",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👴",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Прекращать работу по достижении определенного возраста.",
+                "examples": [
+                    "Мой отец выйдет на пенсию в следующем году."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "позволить себе",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Иметь достаточно денег, чтобы заплатить за что-то.",
+                "examples": [
+                    "Мы не можем позволить себе квартиру побольше."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "спорить",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Выражать несогласие с кем-либо в сердитой форме.",
+                "examples": [
+                    "Они иногда спорят из-за денег."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "доверять",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Верить в честность и надежность кого-либо.",
+                "examples": [
+                    "Вы должны доверять своему партнеру."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "соглашаться",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "👍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Иметь такое же мнение, как и кто-то другой.",
+                "examples": [
+                    "Мы не всегда соглашаемся."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "идти на компромисс",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Принимать условия, при которых обе стороны будут удовлетворены.",
+                "examples": [
+                    "Хорошие отношения требуют умения идти на компромисс."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "перерабатывать",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "♻️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Перерабатывать использованные материалы для повторного использования.",
+                "examples": [
+                    "Мы перерабатываем бумагу и стекло."
+                ]
+            }
+        ]
     }
 ];
     const lang = "ru";

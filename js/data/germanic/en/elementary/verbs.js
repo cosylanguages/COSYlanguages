@@ -3,14 +3,14 @@
     {
         "word": "brush teeth",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "household_tasks_A1",
         "emoji": "🪥",
         "form": "verb"
     },
     {
         "word": "shower",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "household_tasks_A1",
         "emoji": "🚿",
         "form": "verb"
     },
@@ -59,42 +59,42 @@
     {
         "word": "move",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "moving_home_A2",
         "emoji": "📦",
         "form": "verb"
     },
     {
         "word": "believe",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "🙏",
         "form": "verb"
     },
     {
         "word": "happen",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb"
     },
     {
         "word": "include",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "➕",
         "form": "verb"
     },
     {
         "word": "continue",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "➡️",
         "form": "verb"
     },
     {
         "word": "set",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "form": "verb"
     },
@@ -108,7 +108,7 @@
     {
         "word": "follow",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "directions_navigation_A1",
         "emoji": "👣",
         "form": "verb"
     },
@@ -129,7 +129,7 @@
     {
         "word": "grow",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "environmental_protection_A2",
         "emoji": "🌱",
         "form": "verb"
     },
@@ -143,35 +143,35 @@
     {
         "word": "consider",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "🤔",
         "form": "verb"
     },
     {
         "word": "appear",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "👻",
         "form": "verb"
     },
     {
         "word": "serve",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
         "form": "verb"
     },
     {
         "word": "expect",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "💭",
         "form": "verb"
     },
     {
         "word": "build",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_repairs_maintenance_A2",
         "emoji": "🏗️",
         "form": "verb"
     },
@@ -185,35 +185,35 @@
     {
         "word": "kill",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
         "form": "verb"
     },
     {
         "word": "remain",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "condition_state_A2",
         "emoji": "⏳",
         "form": "verb"
     },
     {
         "word": "suggest",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "💡",
         "form": "verb"
     },
     {
         "word": "raise",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "family_life_A1",
         "emoji": "🙋",
         "form": "verb"
     },
     {
         "word": "require",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "📜",
         "form": "verb"
     },
@@ -227,7 +227,7 @@
     {
         "word": "decide",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "⚖️",
         "form": "verb"
     },
@@ -250,7 +250,150 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To help or encourage someone.",
+                "examples": [
+                    "My family supports my decisions."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "apply for",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "📝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a formal request for a job.",
+                "examples": [
+                    "She applied for the manager position."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hire",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give someone a job.",
+                "examples": [
+                    "The company hired two new people."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "retire",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👴",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stop working because you have reached a certain age.",
+                "examples": [
+                    "My father will retire next year."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "afford",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have enough money to pay for something.",
+                "examples": [
+                    "We can't afford a bigger flat."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "argue",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To disagree with someone in an angry way.",
+                "examples": [
+                    "They sometimes argue about money."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "trust",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To believe that someone is honest and reliable.",
+                "examples": [
+                    "You need to trust your partner."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "agree",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "👍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have the same opinion as someone else.",
+                "examples": [
+                    "We don't always agree."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "compromise",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To accept less than you want so both sides are satisfied.",
+                "examples": [
+                    "Good relationships need compromise."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "recycle",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "♻️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To process used materials so they can be used again.",
+                "examples": [
+                    "We recycle paper and glass."
+                ]
+            }
+        ]
     },
     {
         "word": "hit",
@@ -269,14 +412,14 @@
     {
         "word": "face",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "👤",
         "form": "verb"
     },
     {
         "word": "cover",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
         "form": "verb"
     },

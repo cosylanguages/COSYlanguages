@@ -15,42 +15,42 @@
     {
         "word": "χιονισμένος",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "❄️",
-        "form": "verb"
+        "form": "adjective"
     },
     {
         "word": "ανεμώδης",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "💨",
-        "form": "verb"
+        "form": "adjective"
     },
     {
         "word": "συννεφιασμένος",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "☁️",
-        "form": "verb"
+        "form": "adjective"
     },
     {
         "word": "περιμένω",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "💭",
         "form": "verb"
     },
     {
         "word": "υπηρετώ",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
         "form": "verb"
     },
     {
         "word": "χτίζω",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_repairs_maintenance_A2",
         "emoji": "🏗️",
         "form": "verb"
     },
@@ -64,35 +64,35 @@
     {
         "word": "σκοτώνω",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
         "form": "verb"
     },
     {
         "word": "παραμένω",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "condition_state_A2",
         "emoji": "⏳",
         "form": "verb"
     },
     {
         "word": "προτείνω",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "💡",
         "form": "verb"
     },
     {
         "word": "σηκώνω",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "family_life_A1",
         "emoji": "🙋",
         "form": "verb"
     },
     {
         "word": "απαιτώ",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "📜",
         "form": "verb"
     },
@@ -106,7 +106,7 @@
     {
         "word": "αποφασίζω",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "⚖️",
         "form": "verb"
     },
@@ -129,7 +129,15 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "verb"
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Βοηθώ ή ενθαρρύνω κάποιον.",
+                "examples": [
+                    "Η οικογένειά μου υποστηρίζει τις αποφάσεις μου."
+                ]
+            }
+        ]
     },
     {
         "word": "χτυπώ",
@@ -148,14 +156,14 @@
     {
         "word": "αντιμετωπίζω",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "👤",
         "form": "verb"
     },
     {
         "word": "καλύπτω",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
         "form": "verb"
     },
@@ -172,6 +180,141 @@
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb"
+    },
+    {
+        "word": "κάνω αίτηση",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "📝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Κάνω ένα επίσημο αίτημα για μια θέση εργασίας.",
+                "examples": [
+                    "Έκανε αίτηση για τη θέση του διευθυντή."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "προσλαμβάνω",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Δίνω σε κάποιον μια δουλειά.",
+                "examples": [
+                    "Η εταιρεία προσέλαβε δύο νέα άτομα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "βγαίνω στη σύνταξη",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👴",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Σταματώ να εργάζομαι επειδή έφτασα σε μια ορισμένη ηλικία.",
+                "examples": [
+                    "Ο πατέρας μου θα βγει στη σύνταξη του χρόνου."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "έχω την οικονομική δυνατότητα",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Έχω αρκετά χρήματα για να πληρώσω κάτι.",
+                "examples": [
+                    "Δεν έχουμε την οικονομική δυνατότητα για ένα μεγαλύτερο διαμέρισμα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "μαλώνω",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Διαφωνώ με κάποιον με θυμωμένο τρόπο.",
+                "examples": [
+                    "Μερικές φορές μαλώνουν για τα χρήματα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "εμπιστεύομαι",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Πιστεύω ότι κάποιος είναι ειλικρινής και αξιόπιστος.",
+                "examples": [
+                    "Πρέπει να εμπιστεύεσαι τον σύντροφό σου."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "συμφωνώ",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "👍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Έχω την ίδια γνώμη με κάποιον άλλον.",
+                "examples": [
+                    "Δεν συμφωνούμε πάντα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "συμβιβάζομαι",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Δέχομαι λιγότερα από όσα θέλω ώστε και οι δύο πλευρές να είναι ικανοποιημένες.",
+                "examples": [
+                    "Οι καλές σχέσεις χρειάζονται συμβιβασμό."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ανακυκλώνω",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "♻️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Επεξεργάζομαι χρησιμοποιημένα υλικά ώστε να μπορούν να χρησιμοποιηθούν ξανά.",
+                "examples": [
+                    "Ανακυκλώνουμε χαρτί και γυαλί."
+                ]
+            }
+        ]
     }
 ];
     const lang = "el";

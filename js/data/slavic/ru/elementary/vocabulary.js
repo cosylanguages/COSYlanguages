@@ -3,7 +3,7 @@
     {
         "word": "художник",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "art_design_A2",
         "emoji": "🎨",
         "form": "noun",
         "plural": "художники",
@@ -26,7 +26,7 @@
     {
         "word": "повар",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "restaurants_ordering_A2",
         "emoji": "👨‍🍳",
         "form": "noun",
         "plural": "повара",
@@ -138,7 +138,7 @@
     {
         "word": "больница",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "medical_appointments_A1",
         "emoji": "🏥",
         "form": "noun",
         "plural": "больницы",
@@ -161,7 +161,7 @@
     {
         "word": "кинотеатр",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "theatre_performance_A2",
         "emoji": "🎬",
         "form": "noun",
         "plural": "кинотеатры",
@@ -184,7 +184,7 @@
     {
         "word": "ресторан",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "restaurants_ordering_A2",
         "emoji": "🍴",
         "form": "noun",
         "plural": "рестораны",
@@ -201,7 +201,7 @@
     {
         "word": "супермаркет",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "shopping_for_food_A2",
         "emoji": "🛒",
         "form": "noun",
         "plural": "супермаркеты",
@@ -224,7 +224,7 @@
     {
         "word": "платье",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "shopping_for_clothes_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "платья"
@@ -232,7 +232,7 @@
     {
         "word": "куртка",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "shopping_for_clothes_A2",
         "emoji": "🧥",
         "form": "noun",
         "plural": "куртки"
@@ -240,7 +240,7 @@
     {
         "word": "юбка",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "shopping_for_clothes_A2",
         "emoji": "👗",
         "form": "noun",
         "plural": "юбки"
@@ -248,7 +248,7 @@
     {
         "word": "диван",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_furnishings_A2",
         "emoji": "🛋️",
         "form": "noun",
         "plural": "диваны"
@@ -256,7 +256,7 @@
     {
         "word": "лампа",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_furnishings_A2",
         "emoji": "💡",
         "form": "noun",
         "plural": "лампы"
@@ -264,7 +264,7 @@
     {
         "word": "письменный стол",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "home_furnishings_A2",
         "emoji": "⌨️",
         "form": "noun",
         "plural": "письменный столы"
@@ -272,44 +272,40 @@
     {
         "word": "красивый",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "form": "noun",
-        "plural": "красивый"
+        "theme": "physical_appearance_A1",
+        "form": "adjective"
     },
     {
         "word": "сильный",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "form": "noun",
-        "plural": "сильный"
+        "theme": "physical_appearance_A1",
+        "form": "adjective"
     },
     {
         "word": "чистить зубы",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "household_tasks_A1",
         "emoji": "🪥",
-        "form": "noun",
-        "plural": "чистить зубы"
+        "form": "noun"
     },
     {
         "word": "принимать душ",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "household_tasks_A1",
         "emoji": "🚿",
-        "form": "noun",
-        "plural": "принимать души"
+        "form": "noun"
     },
     {
         "word": "часы",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "accessories_A1",
         "form": "noun",
         "plural": "часы"
     },
     {
         "word": "кошелек",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "accessories_A1",
         "emoji": "👛",
         "form": "noun",
         "plural": "кошельки",
@@ -326,7 +322,7 @@
     {
         "word": "очки",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "accessories_A1",
         "emoji": "👓",
         "form": "noun",
         "plural": "очки",
@@ -343,7 +339,7 @@
     {
         "word": "лев",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
         "emoji": "🦁",
         "form": "noun",
         "plural": "львы",
@@ -360,30 +356,28 @@
     {
         "word": "тигр",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "animals_nature_A2",
         "emoji": "🐯",
         "form": "adjective"
     },
     {
         "word": "снежно",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "❄️",
-        "form": "noun",
-        "plural": "снежна"
+        "form": "adjective"
     },
     {
         "word": "облачно",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "weather_climate_A2",
         "emoji": "☁️",
-        "form": "noun",
-        "plural": "облачна"
+        "form": "adjective"
     },
     {
         "word": "плечо",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "body_parts_A0",
         "form": "noun",
         "plural": "плеча"
     },
@@ -429,7 +423,7 @@
     {
         "word": "море",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "landscape_geography_A2",
         "gender": "оно",
         "baseWord": "море",
         "numberPlural": "много море",
@@ -441,104 +435,655 @@
     {
         "word": "казаться",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "🤔",
-        "form": "noun",
-        "plural": "казатьси"
+        "form": "verb"
     },
     {
         "word": "становиться",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "personal_qualities_A2",
         "emoji": "🦋",
-        "form": "noun",
-        "plural": "становитьси"
+        "form": "verb"
     },
     {
         "word": "двигать",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "moving_home_A2",
         "emoji": "📦",
-        "form": "adjective"
+        "form": "verb"
     },
     {
         "word": "верить",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "🙏",
-        "form": "noun",
-        "plural": "верить"
+        "form": "verb"
     },
     {
         "word": "случаться",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "⚡",
-        "form": "noun",
-        "plural": "случатьси"
+        "form": "verb"
     },
     {
         "word": "включать",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "➕",
-        "form": "adjective"
+        "form": "verb"
     },
     {
         "word": "продолжать",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "➡️",
-        "form": "noun",
-        "plural": "продолжать"
+        "form": "verb"
     },
     {
         "word": "устанавливать",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
-        "form": "noun",
-        "plural": "устанавливать"
+        "form": "verb"
     },
     {
         "word": "вести",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "career_development_A2",
         "emoji": "👑",
-        "form": "noun",
-        "plural": "вести"
+        "form": "verb"
     },
     {
         "word": "следовать",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "directions_navigation_A1",
         "emoji": "👣",
-        "form": "noun",
-        "plural": "следовать"
+        "form": "verb"
     },
     {
         "word": "создавать",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
-        "form": "noun",
-        "plural": "создавать"
+        "form": "verb"
     },
     {
         "word": "позволять",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "✅",
-        "form": "noun",
-        "plural": "позволять"
+        "form": "verb"
     },
     {
         "word": "расти",
         "level": "elementary",
-        "theme": "environment_A2",
+        "theme": "environmental_protection_A2",
         "emoji": "🌱",
+        "form": "verb"
+    },
+    {
+        "word": "переработка",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⏰",
+        "gender": "она",
         "form": "noun",
-        "plural": "расти"
+        "definitions": [
+            {
+                "text": "Дополнительные часы работы сверх нормы рабочего дня.",
+                "examples": [
+                    "Она работает сверхурочно, чтобы закончить проект."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "повышение",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📈",
+        "gender": "оно",
+        "form": "noun",
+        "plural": "повышения",
+        "definitions": [
+            {
+                "text": "Переход на более высокую и лучше оплачиваемую должность в той же компании.",
+                "examples": [
+                    "В прошлом месяце он получил повышение."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "собеседование",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "🤝",
+        "gender": "оно",
+        "form": "noun",
+        "plural": "собеседования",
+        "definitions": [
+            {
+                "text": "Формальная встреча, на которой человеку задают вопросы при приеме на работу.",
+                "examples": [
+                    "У меня собеседование в понедельник."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "контракт",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📄",
+        "gender": "он",
+        "form": "noun",
+        "plural": "контракты",
+        "definitions": [
+            {
+                "text": "Письменное соглашение между работодателем и работником.",
+                "examples": [
+                    "Она подписала двухлетний контракт."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "дедлайн",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⏳",
+        "gender": "он",
+        "form": "noun",
+        "plural": "дедлайны",
+        "definitions": [
+            {
+                "text": "Крайний срок, к которому работа должна быть закончена.",
+                "examples": [
+                    "Крайний срок — в пятницу."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "опыт",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🧠",
+        "gender": "он",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Знания или навыки, полученные в процессе какой-либо деятельности.",
+                "examples": [
+                    "У него пять лет опыта."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ипотека",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "🏠",
+        "gender": "она",
+        "form": "noun",
+        "plural": "ипотеки",
+        "definitions": [
+            {
+                "text": "Кредит в банке на покупку дома или квартиры.",
+                "examples": [
+                    "У них большая ипотека."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "кредит",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "💰",
+        "gender": "он",
+        "form": "noun",
+        "plural": "кредиты",
+        "definitions": [
+            {
+                "text": "Деньги, взятые в долг у банка, которые должны быть возвращены.",
+                "examples": [
+                    "Она взяла кредит, чтобы купить машину."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "счёт",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🧾",
+        "gender": "он",
+        "form": "noun",
+        "plural": "счета",
+        "definitions": [
+            {
+                "text": "Документ, в котором указано, сколько денег вы должны заплатить.",
+                "examples": [
+                    "Я оплачиваю счет за электричество каждый месяц."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "долг",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💸",
+        "gender": "он",
+        "form": "noun",
+        "plural": "долги",
+        "definitions": [
+            {
+                "text": "Деньги, которые вы должны другому человеку или банку.",
+                "examples": [
+                    "У него много долгов."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "банковский счёт",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "🏦",
+        "gender": "он",
+        "form": "noun",
+        "plural": "банковские счета",
+        "definitions": [
+            {
+                "text": "Соглашение с банком о хранении ваших денег.",
+                "examples": [
+                    "У меня есть сберегательный счет."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "бюджет",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "📊",
+        "gender": "он",
+        "form": "noun",
+        "plural": "бюджеты",
+        "definitions": [
+            {
+                "text": "План того, как тратить деньги.",
+                "examples": [
+                    "Нам нужен ежемесячный бюджет."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "диета",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "🥗",
+        "gender": "она",
+        "form": "noun",
+        "plural": "диеты",
+        "definitions": [
+            {
+                "text": "Пища, которую человек обычно ест; или специальный план питания.",
+                "examples": [
+                    "Она на здоровой диете."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "приём",
+        "level": "elementary",
+        "theme": "medical_appointments_A1",
+        "emoji": "📅",
+        "gender": "он",
+        "form": "noun",
+        "plural": "приёмы",
+        "definitions": [
+            {
+                "text": "Время, когда вы договариваетесь о встрече с кем-то, например, с врачом.",
+                "examples": [
+                    "У меня прием у врача во вторник."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "в форме",
+        "level": "elementary",
+        "theme": "exercise_fitness_A2",
+        "emoji": "💪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "В хорошем физическом состоянии благодаря регулярным упражнениям.",
+                "examples": [
+                    "Он бегает, чтобы оставаться в форме."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "лишний вес",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "⚖️",
+        "gender": "он",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Вес больше того, который считается здоровым.",
+                "examples": [
+                    "Врач сказал, что у него небольшой лишний вес."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "витамин",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "💊",
+        "gender": "он",
+        "form": "noun",
+        "plural": "витамины",
+        "definitions": [
+            {
+                "text": "Природное вещество в пище, которое необходимо вашему организму для здоровья.",
+                "examples": [
+                    "Апельсины содержат витамин С."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "боль",
+        "level": "elementary",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤕",
+        "gender": "она",
+        "form": "noun",
+        "plural": "боли",
+        "definitions": [
+            {
+                "text": "Неприятное ощущение в теле, когда что-то не так.",
+                "examples": [
+                    "У нее боль в спине."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "поддержка",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "gender": "она",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Помощь или поощрение, оказываемые кому-либо.",
+                "examples": [
+                    "Мне нужна твоя поддержка."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "доверие",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "gender": "оно",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Убежденность в том, что кто-то честен и надежен.",
+                "examples": [
+                    "Доверие важно в отношениях."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "компромисс",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "🤝",
+        "gender": "он",
+        "form": "noun",
+        "plural": "компромиссы",
+        "definitions": [
+            {
+                "text": "Соглашение, при котором обе стороны принимают меньше, чем хотели.",
+                "examples": [
+                    "Хорошие отношения требуют компромисса."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "путешествие",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "🛤️",
+        "gender": "оно",
+        "form": "noun",
+        "plural": "путешествия",
+        "definitions": [
+            {
+                "text": "Поездка из одного места в другое.",
+                "examples": [
+                    "Поездка на работу занимает 40 минут."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "за границу",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "✈️",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "В другую страну.",
+                "examples": [
+                    "Они ездят за границу каждое лето."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "пункт назначения",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "📍",
+        "gender": "он",
+        "form": "noun",
+        "plural": "пункты назначения",
+        "definitions": [
+            {
+                "text": "Место, куда вы направляетесь.",
+                "examples": [
+                    "Париж — популярное направление."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "рейс",
+        "level": "elementary",
+        "theme": "at_the_airport_A2",
+        "emoji": "✈️",
+        "gender": "он",
+        "form": "noun",
+        "plural": "рейсы",
+        "definitions": [
+            {
+                "text": "Путешествие, совершенное на самолете.",
+                "examples": [
+                    "Полет в Лондон занимает два часа."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "багаж",
+        "level": "elementary",
+        "theme": "at_the_airport_A2",
+        "emoji": "🧳",
+        "gender": "он",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Сумки и чемоданы, которые вы берете с собой в поездку.",
+                "examples": [
+                    "У нее много багажа."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "район",
+        "level": "elementary",
+        "theme": "neighbourhood_local_A2",
+        "emoji": "🏘️",
+        "gender": "он",
+        "form": "noun",
+        "plural": "районы",
+        "definitions": [
+            {
+                "text": "Местность вокруг вашего дома.",
+                "examples": [
+                    "Мы живем в безопасном районе."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "сообщество",
+        "level": "elementary",
+        "theme": "community_neighbourhood_local_A2",
+        "emoji": "👥",
+        "gender": "оно",
+        "form": "noun",
+        "plural": "сообщества",
+        "definitions": [
+            {
+                "text": "Группа людей, живущих в одной местности или имеющих общие интересы.",
+                "examples": [
+                    "Она активно участвует в жизни местного сообщества."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "загрязнение",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🏭",
+        "gender": "оно",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Ущерб окружающей среде, вызванный вредными веществами.",
+                "examples": [
+                    "Загрязнение воздуха — большая проблема здесь."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "удобный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "👌",
+        "form": "adjective",
+        "opposite": "неудобный",
+        "definitions": [
+            {
+                "text": "Простой в использовании или подходящий для ваших нужд.",
+                "examples": [
+                    "Онлайн-шопинг — это очень удобно."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "стрессовый",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "😫",
+        "form": "adjective",
+        "opposite": "расслабляющий",
+        "definitions": [
+            {
+                "text": "Вызывающий беспокойство или тревогу.",
+                "examples": [
+                    "У нее очень стрессовая работа."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "комфортный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🛋️",
+        "form": "adjective",
+        "opposite": "неудобный",
+        "definitions": [
+            {
+                "text": "Физически расслабляющий; не вызывающий боли или трудностей.",
+                "examples": [
+                    "Офисное кресло очень комфортное."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "практичный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🛠️",
+        "form": "adjective",
+        "opposite": "непрактичный",
+        "definitions": [
+            {
+                "text": "Полезный и разумный в реальных ситуациях.",
+                "examples": [
+                    "Машина практична в сельской местности."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "популярный",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "🌟",
+        "form": "adjective",
+        "opposite": "непопулярный",
+        "definitions": [
+            {
+                "text": "Нравящийся многим людям.",
+                "examples": [
+                    "Этот ресторан очень популярен."
+                ]
+            }
+        ]
     }
 ];
     const lang = "ru";
