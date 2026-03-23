@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let pool = [];
         let masterPool = [];
         let score = 0;
+        let currentItem = null;
 
         const showNext = () => {
             if (pool.length === 0) {
@@ -41,9 +42,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             playGameSound('click');
-            const item = pool.pop();
-            wordDisplay.textContent = typeof item === 'string' ? item : (item.answer || item.word);
-            emojiDisplay.textContent = item.emoji || '🎭';
+            currentItem = pool.pop();
+
+            // Improvements: ActionHeroGame.buildWordDisplay
+            if (window.ActionHeroGame) {
+                const currentLevel = levelSelect.value;
+                const vocabPool = window.getVocabPool(langSelect.value, currentLevel, themeSelect.value);
+                document.getElementById('ah-word-display').innerHTML = ActionHeroGame.buildWordDisplay(currentItem, vocabPool, currentLevel);
+            } else {
+                wordDisplay.textContent = typeof currentItem === 'string' ? currentItem : (currentItem.answer || currentItem.word);
+                emojiDisplay.textContent = currentItem.emoji || '🎭';
+            }
         };
 
         const endGame = () => {
@@ -52,6 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
             resultArea.style.display = 'block';
             setupArea.style.display = 'block';
             scoreVal.textContent = score;
+
+            // Improvements: ActionHeroGame.buildSummary
+            if (window.ActionHeroGame) {
+                const duration = parseInt(document.getElementById('charades-timer-duration')?.value || '60');
+                document.getElementById('action-hero-summary').innerHTML = ActionHeroGame.buildSummary(duration);
+            }
         };
 
         const openCharades = () => {
@@ -69,6 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const startCharades = () => {
             score = 0;
+            // Improvements: reset round results
+            if (window.ActionHeroGame) ActionHeroGame.roundResults = [];
+
             const lang = langSelect.value;
             const theme = themeSelect.value;
             const level = levelSelect.value;
@@ -126,10 +144,14 @@ document.addEventListener('DOMContentLoaded', () => {
         correctBtn?.addEventListener('click', () => {
             score++;
             playGameSound('success');
+            // Improvements: record answer
+            if (window.ActionHeroGame && currentItem) ActionHeroGame.record(currentItem, true);
             showNext();
         });
         incorrectBtn?.addEventListener('click', () => {
             playGameSound('error');
+            // Improvements: record answer
+            if (window.ActionHeroGame && currentItem) ActionHeroGame.record(currentItem, false);
             showNext();
         });
         stopBtn?.addEventListener('click', endGame);

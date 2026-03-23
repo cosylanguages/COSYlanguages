@@ -96,6 +96,7 @@
         "word": "carrot",
         "level": "intermediate",
         "theme": "society_community_B1",
+        "explanation": "Carrot is a vegetable, the others are fruits.",
         "emoji": "🥕",
         "form": "noun",
         "plural": "carrots",
@@ -142,6 +143,7 @@
         "word": "library",
         "level": "intermediate",
         "theme": "neighbourhood_local_A2",
+        "explanation": "A library is a place for books, while the others might be related to food or travel.",
         "emoji": "📚",
         "form": "noun",
         "plural": "libraries"
@@ -289,6 +291,7 @@
         "word": "software developer",
         "level": "intermediate",
         "theme": "career_development_B1",
+        "explanation": "A software developer creates code, while the others are physical structures or objects.",
         "emoji": "💻",
         "form": "noun",
         "plural": "software developers",

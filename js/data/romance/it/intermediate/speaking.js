@@ -19,6 +19,12 @@
                 "author": "Descartes",
                 "level": "intermediate",
                 "theme": "society_community_B1"
+            },
+            {
+                "text": "La bellezza salverà il mondo.",
+                "author": "Dostoevskij",
+                "level": "intermediate",
+                "theme": "society_community_B1"
             }
         ],
         "debates": [

@@ -150,10 +150,21 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = pool.pop();
             statementDisplay.textContent = item.text;
 
+            // Improvements: buildGroupReveal
+            if (window.OpinionArenaGame) {
+                document.getElementById('oa-group-reveal').innerHTML = OpinionArenaGame.buildGroupReveal();
+                document.getElementById('oa-vocab-support').innerHTML = ''; // Hide until end
+            }
+
             stopTimer();
             const duration = parseInt(document.getElementById('opinion-timer-duration')?.value || '120');
+            const lang = document.getElementById('opinion-lang').value;
             startTimer('opinion-timer', duration, () => {
                 statementDisplay.textContent += ` (${t('time_up')})`;
+                // Improvements: buildVocabSupport
+                if (window.OpinionArenaGame) {
+                    document.getElementById('oa-vocab-support').innerHTML = OpinionArenaGame.buildVocabSupport(lang);
+                }
             });
         };
 
@@ -328,10 +339,30 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = pool.pop();
             topicDisplay.textContent = item.topic;
 
+            // Improvements: FluentyFlowGame.getPrompts
+            if (window.FluentyFlowGame) {
+                const currentLevel = document.getElementById('talk-level').value;
+                const prompts = FluentyFlowGame.getPrompts(item, currentLevel);
+                const promptsHtml = `
+                    <div style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:8px">
+                        ${prompts.map(p =>
+                        `<span style="background:#e8f0e9;color:#4a6b50;border-radius:999px;
+                            padding:4px 12px;font-size:.78rem;font-weight:700">${p}</span>`
+                        ).join('')}
+                    </div>
+                `;
+                document.getElementById('ff-prompts').innerHTML = promptsHtml;
+                document.getElementById('ff-assessment-area').innerHTML = '';
+            }
+
             stopTimer();
             const duration = parseInt(document.getElementById('talk-timer-duration')?.value || '180');
             startTimer('talk-timer', duration, () => {
                 topicDisplay.textContent += ` (${t('time_up')})`;
+                // Improvements: buildSelfAssessment
+                if (window.FluentyFlowGame) {
+                    document.getElementById('ff-assessment-area').innerHTML = FluentyFlowGame.buildSelfAssessment(item);
+                }
             });
         };
 

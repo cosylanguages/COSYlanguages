@@ -110,6 +110,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (theme) setById('last-letter-theme', theme);
                     window.lastLetterGame.start();
                 }
+            } else if (game === 'story-chain') {
+                const modal = document.getElementById('story-chain-modal');
+                if (modal) {
+                    modal.style.display = 'flex';
+                    if (lang) setById('sc-lang', lang);
+                    if (level) setById('sc-level', level);
+                    if (theme) setById('sc-theme', theme);
+                    if (window.storyChainStart) window.storyChainStart();
+                }
+            } else if (game === 'hot-seat') {
+                const modal = document.getElementById('hot-seat-modal');
+                if (modal) {
+                    modal.style.display = 'flex';
+                    if (lang) setById('hs-lang', lang);
+                    if (level) setById('hs-level', level);
+                    if (theme) setById('hs-theme', theme);
+                    if (window.hotSeatStart) window.hotSeatStart();
+                }
             }
 
             // Apply language to modals if lang param provided

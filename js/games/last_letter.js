@@ -77,12 +77,11 @@
 
             this.reset();
 
+        // Improvements: init LastLetterGame helper
+        if (window.LastLetterGame) window.LastLetterGame.init(state.lang, state.level, state.theme);
+
             // Prepare vocabulary
-            const allVocab = window.vocabularyData[state.lang] || [];
-            state.filteredVocab = allVocab.filter(item => {
-                const levelMatch = state.level === 'all' || item.level === state.level;
-                return levelMatch && isThemeMatch(item.theme, state.theme);
-            });
+        state.filteredVocab = window.getVocabPool ? window.getVocabPool(state.lang, state.level, state.theme) : [];
 
             elements.setup.style.display = 'none';
             elements.gameplay.style.display = 'block';
@@ -142,31 +141,43 @@
 
         if (!inputWord) return;
 
-        // Validation: Starts with target letter
+        // Improvements: use LastLetterGame.validate
+        if (window.LastLetterGame) {
+            const result = window.LastLetterGame.validate(inputWord, state.targetLetter, state.filteredVocab);
+            if (result.ok) {
+                // Valid word — show the word card with definition
+                document.getElementById('ll-word-display').innerHTML = lastLetterWordCard(result.item);
+                if (typeof window.gameSpeak === 'function') window.gameSpeak(result.item.word, state.lang);
+                else speak(result.item.word, state.lang);
+
+                this.processWord(result.item.word, state.turn);
+            } else {
+                elements.feedback.textContent = result.message;
+                playGameSound('error');
+            }
+            return;
+        }
+
+        // Fallback to legacy check if helper missing
         if (state.targetLetter && inputWord.charAt(0) !== state.targetLetter) {
             const msg = t('last_letter_wrong_letter') + state.targetLetter.toUpperCase();
             elements.feedback.textContent = msg;
             playGameSound('error');
             return;
         }
-
-        // Validation: Already used
         if (state.usedWords.has(inputWord)) {
             const msg = t('last_letter_used');
             elements.feedback.textContent = msg;
             playGameSound('error');
             return;
         }
-
-        // Accept word
-        // In group mode, turn cycles between players, but for color coding we can alternate
         this.processWord(inputWord, state.turn);
     };
 
     game.processWord = function(word, turn) {
-        state.usedWords.add(word);
+        state.usedWords.add(normalize(word));
         state.currentWord = word;
-        state.targetLetter = getValidNextLetter(word);
+        state.targetLetter = getValidNextLetter(normalize(word));
 
         addWordToHistory(word, turn);
         elements.input.value = '';
@@ -175,13 +186,27 @@
 
         if (state.isSolo && turn === 'player') {
             state.turn = 'computer';
-            setTimeout(() => this.computerTurn(), 1000);
+            setTimeout(() => this.computerTurn(state.targetLetter), 1500);
         } else {
-            state.turn = turn === 'player' ? 'computer' : 'player'; // In group mode, just toggle
+            state.turn = turn === 'player' ? 'computer' : 'player';
         }
     };
 
-    game.computerTurn = function() {
+    game.computerTurn = function(nextLetter) {
+        if (window.LastLetterGame) {
+            const compWord = window.LastLetterGame.computerTurn(nextLetter, state.filteredVocab);
+            if (compWord) {
+                document.getElementById('ll-word-display').innerHTML = lastLetterWordCard(compWord);
+                if (typeof window.gameSpeak === 'function') window.gameSpeak(compWord.word, state.lang);
+                else speak(compWord.word, state.lang);
+                this.processWord(compWord.word, 'computer');
+            } else {
+                showGameMessage(elements.gameplay, 'The computer couldn\'t find a word — you win! 🏆');
+                playGameSound('success');
+            }
+            return;
+        }
+
         const potentialWords = state.filteredVocab.filter(v => {
             const word = normalize(v.word);
             return word.charAt(0) === state.targetLetter && !state.usedWords.has(word);
@@ -194,11 +219,8 @@
             return;
         }
 
-        // Pick a random word
         const pickedItem = potentialWords[Math.floor(Math.random() * potentialWords.length)];
-        const pickedWord = normalize(pickedItem.word);
-
-        this.processWord(pickedWord, 'computer');
+        this.processWord(pickedItem.word, 'computer');
     };
 
     game.getHint = function() {

@@ -19,6 +19,12 @@
                 "author": "Descartes",
                 "level": "intermediate",
                 "theme": "society_community_B1"
+            },
+            {
+                "text": "Le cœur a ses raisons que la raison ne connaît point.",
+                "author": "Blaise Pascal",
+                "level": "intermediate",
+                "theme": "society_community_B1"
             }
         ],
         "debates": [

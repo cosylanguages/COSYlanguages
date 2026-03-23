@@ -469,6 +469,33 @@ footer {
                         </div>
                     </div>
                 </div>
+
+                <div class="game-category-label" style="font-family: 'Lora', serif; font-size: 1.1rem; color: var(--sage-dark); margin: 2rem 0 1rem; display: flex; align-items: center; gap: .5rem;">🆕 New games <span style="flex: 1; height: 1px; background: var(--border);"></span></div>
+                <div class="games-grid">
+                    <div class="game-card game-card-speak" data-game="story-chain" onclick="openGameSheet('Story Chain', '🃏')">
+                        <div class="gc-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🃏</div>
+                        <div class="gc-body">
+                            <div class="gc-title" style="font-weight: 800; margin-bottom: 0.5rem;">Story Chain</div>
+                            <div class="gc-tags" style="display: flex; gap: 4px; justify-content: center;">
+                                <span class="gc-tag" style="font-size: 0.65rem; background: var(--sage-pale); color: var(--sage-dark); padding: 2px 8px; border-radius: 999px; font-weight: 800;">Group</span>
+                                <span class="gc-tag" style="font-size: 0.65rem; background: var(--sage-pale); color: var(--sage-dark); padding: 2px 8px; border-radius: 999px; font-weight: 800;">Creative</span>
+                            </div>
+                        </div>
+                        <button class="gc-play-btn cta-button secondary" style="margin-top: 1rem !important;">Play →</button>
+                    </div>
+
+                    <div class="game-card" data-game="hot-seat" onclick="openGameSheet('Hot Seat', '🎯')">
+                        <div class="gc-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
+                        <div class="gc-body">
+                            <div class="gc-title" style="font-weight: 800; margin-bottom: 0.5rem;">Hot Seat</div>
+                            <div class="gc-tags" style="display: flex; gap: 4px; justify-content: center;">
+                                <span class="gc-tag" style="font-size: 0.65rem; background: var(--sage-pale); color: var(--sage-dark); padding: 2px 8px; border-radius: 999px; font-weight: 800;">Group</span>
+                                <span class="gc-tag" style="font-size: 0.65rem; background: var(--sage-pale); color: var(--sage-dark); padding: 2px 8px; border-radius: 999px; font-weight: 800;">Vocab</span>
+                            </div>
+                        </div>
+                        <button class="gc-play-btn cta-button secondary" style="margin-top: 1rem !important;">Play →</button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -544,8 +571,10 @@ footer {
                 <div id="charades-gameplay" class="action-hero-mobile" style="display: none;">
                     <div id="charades-timer" class="ah-timer" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color); margin-bottom: 1.5rem;">1:00</div>
                     <div id="charades-card" class="game-main-card">
-                        <div id="charades-emoji" class="game-emoji-large">🍎</div>
-                        <div id="charades-word" class="ah-word" data-translate-key="placeholder_loading">Loading...</div>
+                        <div id="ah-word-display">
+                            <div id="charades-emoji" class="game-emoji-large">🍎</div>
+                            <div id="charades-word" class="ah-word" data-translate-key="placeholder_loading">Loading...</div>
+                        </div>
                     </div>
                     <div class="ah-buttons" style="display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;">
                         <button id="charades-correct-btn" class="cta-button ah-btn-correct" style="background: #4CAF50;" data-translate-key="correct_btn">Correct ✅</button>
@@ -555,8 +584,10 @@ footer {
                 </div>
 
                 <div id="charades-result" style="display: none; margin: 2rem 0;">
-                    <h3 data-translate-key="game_over">Game Over! 🏁</h3>
-                    <p style="font-size: 1.2rem; margin-top: 1rem;"><span data-translate-key="charades_score">Your Score:</span> <span id="charades-score-val" style="font-weight: 700; color: var(--primary-color);">0</span></p>
+                    <div id="action-hero-summary">
+                        <h3 data-translate-key="game_over">Game Over! 🏁</h3>
+                        <p style="font-size: 1.2rem; margin-top: 1rem;"><span data-translate-key="charades_score">Your Score:</span> <span id="charades-score-val" style="font-weight: 700; color: var(--primary-color);">0</span></p>
+                    </div>
                 </div>
 
                 <button id="close-charades-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 2rem;" data-translate-key="close_btn">Close ❌</button>
@@ -778,9 +809,10 @@ footer {
 
                 <!-- Caller Area -->
                 <div id="bingo-caller-area" style="display: none; padding: 2rem 0;">
-                        <div id="bingo-auto-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_auto_active">⚡ Auto-Calling Active ⚡</div>
+                    <div id="bingo-auto-indicator" style="display: none; color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; animation: pulse 1s infinite;" data-translate-key="bingo_auto_active">⚡ Auto-Calling Active ⚡</div>
                     <div id="bingo-last-called" style="font-size: 10rem; font-weight: 900; color: var(--primary-color); margin-bottom: 2.5rem; text-shadow: 0 4px 20px rgba(0, 168, 150, 0.25);">---</div>
                     <button id="bingo-call-next-btn" class="cta-button primary" data-translate-key="bingo_call_next" style="margin-bottom: 2rem;">Call Next 🎲</button>
+                    <button id="bingo-auto-caller-toggle-btn" class="cta-button secondary" style="margin-bottom: 2rem;">Auto-Caller ⚡</button>
 
                     <div class="game-history-box">
                         <h4 data-translate-key="called_numbers">Called Numbers:</h4>
@@ -970,8 +1002,10 @@ footer {
 
                 <div class="game-play fluency-flow-mobile" style="display: none; padding: 2rem 0;">
                     <div id="talk-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">3:00</div>
+                    <div id="ff-assessment-area"></div>
                     <div class="event-item glass ff-topic-card" style="padding: 2.5rem; margin-bottom: 1.5rem;">
                         <div id="talk-topic-display" style="font-size: 1.8rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Topic</div>
+                        <div id="ff-prompts"></div>
                     </div>
                     <p style="color: #666; font-style: italic; margin-bottom: 2rem;" data-translate-key="talk_time_label">Target Speaking Time: 1-3 minutes</p>
                     <button id="next-talk-btn" class="cta-button primary ff-spin-btn" data-translate-key="spin_topic_btn">Spin Again! 🎡</button>
@@ -1046,10 +1080,12 @@ footer {
                 </div>
 
                 <div class="game-play opinion-arena-mobile" style="display: none; padding: 2rem 0;">
+                    <div id="oa-group-reveal"></div>
                     <div id="opinion-timer" style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;">2:00</div>
                     <div class="event-item glass oa-statement" style="padding: 2.5rem; margin-bottom: 1.5rem;">
                         <div id="opinion-statement-display" style="font-size: 1.6rem; font-weight: 700; color: var(--primary-color); font-family: 'Georgia', serif;" data-translate-key="placeholder_loading">Loading...</div>
                     </div>
+                    <div id="oa-vocab-support"></div>
                     <div class="oa-buttons" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
                         <button class="cta-button oa-agree" data-translate-key="correct_btn">Agree ✅</button>
                         <button class="cta-button oa-disagree" data-translate-key="incorrect_btn">Disagree ❌</button>
@@ -1291,6 +1327,8 @@ footer {
                         <!-- History of words -->
                     </div>
 
+                    <div id="ll-word-display" style="margin-bottom: 1.5rem;"></div>
+
                     <div id="last-letter-target-display" style="margin-bottom: 1.5rem;">
                         <span data-translate-key="last_letter_starts_with">Next word starts with: </span>
                         <span id="target-letter" style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color);">?</span>
@@ -1376,9 +1414,130 @@ footer {
             <div id="linker-clues" style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem;"></div>
             <div id="linker-options" class="choices-grid" style="max-width: 500px; gap: 1.5rem;"></div>
             <div id="linker-feedback" class="feedback-text" style="margin-top: 2rem;"></div>
+            <div id="wl-explanation-area"></div>
         </div>
         <button id="close-linker-btn" class="topics-toggle-btn secondary-btn" style="margin-top: 1rem;" data-translate-key="close_btn">Close ❌</button>
     </div>
+</div>
+
+<!-- Story Chain game panel -->
+<div class="modal-overlay" id="story-chain-modal" style="display:none">
+  <div class="modal-content glass" style="max-width: 600px;">
+    <h2>Story Chain 🃏</h2>
+    <div class="game-instructions" style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">
+      Each player adds one sentence to a story — but each sentence must
+      secretly use a word shown only to that player. Others try to guess
+      the hidden word!
+    </div>
+
+    <!-- Setup -->
+    <div id="sc-setup">
+        <div class="setup-group" style="text-align: left; margin-bottom: 1rem;">
+            <label data-translate-key="select_practice_language">Select language 🌍</label>
+            <select id="sc-lang" class="pill-input game-lang" style="width: 100%;">
+                <option value="en">English 🇬🇧</option>
+                <option value="fr">Français 🇫🇷</option>
+                <option value="it">Italiano 🇮🇹</option>
+                <option value="ru">Русский 🇷🇺</option>
+                <option value="el">Ελληνικά 🇬🇷</option>
+            </select>
+        </div>
+        <div class="setup-row" style="margin-bottom: 1rem; display: flex; gap: 1rem;">
+            <div class="setup-group" style="flex: 1; text-align: left;">
+                <label data-translate-key="select_level">Select Level 📊</label>
+                <select id="sc-level" class="pill-input game-level" style="width: 100%;">
+                    <option value="starter">A1</option>
+                    <option value="elementary">A2</option>
+                    <option value="intermediate">B1</option>
+                    <option value="upper-intermediate">B2</option>
+                    <option value="advanced">C1</option>
+                </select>
+            </div>
+            <div class="setup-group" style="flex: 1; text-align: left;">
+                <label data-translate-key="select_theme">Select Theme 🎨</label>
+                <select id="sc-theme" class="pill-input game-theme" style="width: 100%;">
+                    <option value="all">All Themes</option>
+                </select>
+            </div>
+        </div>
+        <button id="start-story-chain-game-btn" onclick="storyChainStart()" class="cta-button primary">Start Story 🚀</button>
+    </div>
+
+    <!-- Word reveal (private — only shown to current player) -->
+    <div id="sc-word-reveal" style="display:none; margin: 1.5rem 0;"></div>
+
+    <!-- Sentence input -->
+    <div id="sc-input-area" style="display:none">
+        <div id="story-display" class="game-display-box" style="padding: 1rem; margin-bottom: 1rem; text-align: left; line-height: 1.6; min-height: 80px;"></div>
+        <textarea id="sc-sentence" rows="3" placeholder="Add your sentence..."
+          style="width:100%; border-radius:10px; border:2px solid rgba(107,143,113,.2);
+            padding:12px; font-family:'Nunito',sans-serif; font-size:.95rem;
+            resize:none; outline:none; margin-bottom: 1rem;"></textarea>
+        <button onclick="storyChainAdd()" class="cta-button primary">Add to Story →</button>
+    </div>
+
+    <!-- Final reveal -->
+    <div id="sc-final-reveal" style="display:none; margin: 1.5rem 0;"></div>
+
+    <button onclick="storyChainFinish()" id="sc-finish-btn" class="cta-button secondary"
+      style="display:none; margin: 1.5rem auto 0;">📖 Reveal Full Story</button>
+    <button class="topics-toggle-btn secondary-btn" onclick="document.getElementById('story-chain-modal').style.display='none'" style="margin-top: 1rem;">Close ❌</button>
+  </div>
+</div>
+
+<!-- Hot Seat game panel -->
+<div class="modal-overlay" id="hot-seat-modal" style="display:none">
+  <div class="modal-content glass" style="max-width: 600px;">
+    <h2>Hot Seat 🎯</h2>
+    <div class="game-instructions" style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">
+      One player is in the hot seat! Answer rapid-fire vocabulary questions
+      for 60 seconds. Others judge your answers.
+    </div>
+
+    <!-- Setup -->
+    <div id="hs-setup">
+        <div class="setup-group" style="text-align: left; margin-bottom: 1rem;">
+            <label data-translate-key="select_practice_language">Select language 🌍</label>
+            <select id="hs-lang" class="pill-input game-lang" style="width: 100%;">
+                <option value="en">English 🇬🇧</option>
+                <option value="fr">Français 🇫🇷</option>
+                <option value="it">Italiano 🇮🇹</option>
+                <option value="ru">Русский 🇷🇺</option>
+                <option value="el">Ελληνικά 🇬🇷</option>
+            </select>
+        </div>
+        <div class="setup-row" style="margin-bottom: 1rem; display: flex; gap: 1rem;">
+            <div class="setup-group" style="flex: 1; text-align: left;">
+                <label data-translate-key="select_level">Select Level 📊</label>
+                <select id="hs-level" class="pill-input game-level" style="width: 100%;">
+                    <option value="starter">A1</option>
+                    <option value="elementary">A2</option>
+                    <option value="intermediate">B1</option>
+                    <option value="upper-intermediate">B2</option>
+                    <option value="advanced">C1</option>
+                </select>
+            </div>
+            <div class="setup-group" style="flex: 1; text-align: left;">
+                <label data-translate-key="select_theme">Select Theme 🎨</label>
+                <select id="hs-theme" class="pill-input game-theme" style="width: 100%;">
+                    <option value="all">All Themes</option>
+                </select>
+            </div>
+        </div>
+        <div style="margin: 1.5rem 0; text-align: left;">
+          <label style="display: block; margin-bottom: 0.5rem; font-weight: 700;">Time per game:</label>
+          <div style="display: flex; gap: 10px;">
+              <button class="timer-btn hs-dur-btn cta-button secondary active" data-sec="60" onclick="hsSetDuration(60)">60s</button>
+              <button class="timer-btn hs-dur-btn cta-button secondary" data-sec="90" onclick="hsSetDuration(90)">90s</button>
+          </div>
+        </div>
+        <button id="start-hot-seat-game-btn" onclick="hotSeatStart()" class="cta-button primary">Start Hot Seat 🔥</button>
+    </div>
+
+    <div id="hot-seat-area"></div>
+
+    <button class="topics-toggle-btn secondary-btn" onclick="document.getElementById('hot-seat-modal').style.display='none'" style="margin-top: 1rem;">Close ❌</button>
+  </div>
 </div>
 
     </main>
@@ -1611,6 +1770,7 @@ footer {
 
     <!-- Games Logic -->
     <script src="js/games/utils/shared.js"></script>
+    <script src="games-improvements.js"></script>
     <script src="js/games/emoji_odyssey.js"></script>
     <script src="js/games/word_linker.js"></script>
     <script src="js/games/charades.js"></script>

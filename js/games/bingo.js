@@ -38,6 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
         closeBtn?.addEventListener('click', () => {
             modal.style.display = 'none';
             clearInterval(speedInterval);
+            // Improvements: stopAutoCaller
+            if (window.LuckyNumbersGame) LuckyNumbersGame.stopAutoCaller();
             window.speechSynthesis.cancel();
         });
 
@@ -114,6 +116,11 @@ document.addEventListener('DOMContentLoaded', () => {
             updateDisplay(lastCalledDisplay, item);
             updateDisplay(document.getElementById('bingo-player-last-called'), item);
 
+            // Improvements: speakCalled
+            if (window.LuckyNumbersGame && contentType === 'numbers') {
+                LuckyNumbersGame.speakCalled(item, lang);
+            }
+
             const histSpan = document.createElement('span');
             histSpan.className = 'badge';
             histSpan.style.background = 'var(--primary-color)';
@@ -155,6 +162,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         startCallerBtn?.addEventListener('click', startBingoCaller);
         callNextBtn?.addEventListener('click', callNext);
+
+        // Improvements: auto-caller toggle
+        document.getElementById('bingo-auto-caller-toggle-btn')?.addEventListener('click', () => {
+            if (window.LuckyNumbersGame) {
+                if (LuckyNumbersGame.autoCallerInterval) {
+                    LuckyNumbersGame.stopAutoCaller();
+                    document.getElementById('bingo-auto-indicator').style.display = 'none';
+                } else {
+                    LuckyNumbersGame.startAutoCaller(bingoPool, document.getElementById('bingo-lang').value, 4000);
+                    document.getElementById('bingo-auto-indicator').style.display = 'block';
+                }
+            }
+        });
 
         const checkWin = (grid, cols, rows) => {
             const cells = Array.from(grid.querySelectorAll('.bingo-cell'));
@@ -234,8 +254,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         playGameSound('click');
                         if (!hasWonCurrentCard && checkWin(playerGrid, cols, rows)) {
                             hasWonCurrentCard = true;
-                            playGameSound('success');
-                            createConfetti();
+                            // Improvements: celebrate
+                            if (window.LuckyNumbersGame) {
+                                LuckyNumbersGame.celebrate();
+                            } else {
+                                playGameSound('success');
+                                createConfetti();
+                            }
                             window.gameUtils.showGameMessage(playerArea, "BINGO! 🎉");
                         }
                     }

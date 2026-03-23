@@ -71,7 +71,9 @@ function openGameSheet(gameName, gameIcon) {
         'Fluency Flow': 'talk-talk',
         'Battle of Wits': 'debates',
         'Opinion Arena': 'opinion-arena',
-        "Critic's Corner": 'critics-corner'
+        "Critic's Corner": 'critics-corner',
+        'Story Chain': 'story-chain',
+        'Hot Seat': 'hot-seat'
       };
 
       const prefix = gameMap[gameName];

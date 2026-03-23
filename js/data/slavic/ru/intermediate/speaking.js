@@ -19,6 +19,12 @@
                 "author": "Descartes",
                 "level": "intermediate",
                 "theme": "society_community_B1"
+            },
+            {
+                "text": "Красота спасет мир.",
+                "author": "Dostoevsky",
+                "level": "intermediate",
+                "theme": "society_community_B1"
             }
         ],
         "debates": [
