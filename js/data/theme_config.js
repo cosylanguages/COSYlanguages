@@ -303,7 +303,8 @@ const themeConfig = {
             },
             "work_employment": {
                 "work_life_balance_B1": "Work-life balance",
-                "workplace_communication_B1": "Workplace communication"
+                "workplace_communication_B1": "Workplace communication",
+                "career_development_B1": "Career development & ambition"
             },
             "education_learning": {
                 "higher_education_B1": "Higher education",
