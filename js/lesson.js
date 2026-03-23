@@ -91,13 +91,31 @@ document.addEventListener('DOMContentLoaded', () => {
 function startLesson() {
     const lang = currentLesson.language;
     const day = currentLesson.day;
+    const urlParams = new URLSearchParams(window.location.search);
+    const sessionType = urlParams.get('session') || 'lesson';
 
     const { showGameMessage } = window.gameUtils || {};
 
     if (window.lessonsData && window.lessonsData[lang] && window.lessonsData[lang][day]) {
-        let rawItems = [...window.lessonsData[lang][day].words];
+        let rawItems = [];
 
-        // Inject numbers if any items have a number theme but no words (centralized numbers support)
+        // Handle review session populated by overdue SRS items
+        if (sessionType === 'review' && typeof CosySRS !== 'undefined') {
+            const due = CosySRS.getDueItems(lang);
+            if (due.length > 0) {
+                const allLessonWords = Object.values(window.lessonsData[lang]).flatMap(d => d.words);
+                due.forEach(d => {
+                    const found = allLessonWords.find(w => (w.word || w.text || w.topic) === d.item_id);
+                    if (found) rawItems.push(found);
+                });
+            }
+        }
+
+        if (rawItems.length === 0) {
+            rawItems = [...window.lessonsData[lang][day].words];
+        }
+
+        // Inject numbers if any items have a number theme but no words
         const langNumbers = window.numbersData && window.numbersData[lang];
         if (langNumbers) {
             rawItems = rawItems.map(item => {
@@ -114,7 +132,6 @@ function startLesson() {
         currentLesson.words = rawItems.map(item => {
             let wordCopy = { ...item, lessonTitle: window.lessonsData[lang][day].title };
 
-            // Determine task type based on available metadata
             let possibleTypes = ['type-mc', 'type-ls', 'type-sc', 'type-tf'];
             if (wordCopy.opposite) possibleTypes.push('type-op');
             if (wordCopy.clozeText) possibleTypes.push('type-cl');
@@ -127,26 +144,45 @@ function startLesson() {
 
             const isSentence = wordCopy.word && wordCopy.word.includes(' ');
             if (isSentence) {
-                // If it's a sentence, prefer word_scramble or number_plural
                 if (wordCopy.numberPlural) {
                     wordCopy.type = 'type-np';
                 } else {
                     wordCopy.type = 'type-ws';
                 }
             } else {
-                // Pick a random possible type
-                wordCopy.type = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
+                const preferred = possibleTypes[Math.floor(Math.random() * possibleTypes.length)];
+                const itemId = wordCopy.word || wordCopy.text || wordCopy.topic;
+                if (typeof CosySRS !== 'undefined') {
+                    wordCopy.type = CosySRS.getTaskType(lang, itemId, preferred);
+                } else {
+                    wordCopy.type = preferred;
+                }
             }
 
-            // Specific overrides for curriculum if needed
             if (wordCopy.category === 'conversation') wordCopy.type = 'type-cv';
 
             return wordCopy;
         });
 
         currentLesson.words.sort(() => Math.random() - 0.5);
+
+        // SRS prioritization
+        if (typeof CosySRS !== 'undefined') {
+            const ids = currentLesson.words.map(w => w.word || w.text || w.topic);
+            const sortedIds = CosySRS.sortItems(lang, ids);
+            currentLesson.words.sort((a, b) => {
+                const idA = a.word || a.text || a.topic;
+                const idB = b.word || b.text || b.topic;
+                return sortedIds.indexOf(idA) - sortedIds.indexOf(idB);
+            });
+        }
+
         currentLesson.currentIndex = 0;
         currentLesson.score = 0;
+
+        if (typeof CosySRS !== 'undefined') {
+            CosySRS.onSessionStart(lang, sessionType);
+        }
 
         if (typeof setLanguage === 'function') {
             setLanguage(lang);
@@ -169,7 +205,7 @@ function showNextWord() {
         return;
     }
 
-    currentLesson.hintLevel = 0; // Reset hint level for new word
+    currentLesson.hintLevel = 0;
     currentLesson.currentWord = currentLesson.words[currentLesson.currentIndex];
     const wordObj = currentLesson.currentWord;
     currentLesson.isCorrect = false;
@@ -334,7 +370,6 @@ function renderMultipleChoice() {
     const correct = wordObj.answer || wordObj.word || wordObj.text || wordObj.topic;
     let choices = [correct];
 
-    // Distractors from same lesson
     const distractors = currentLesson.words
         .map(w => w.answer || w.word || w.text || w.topic)
         .filter(val => val && val.toLowerCase() !== correct.toLowerCase());
@@ -368,7 +403,7 @@ function renderGenderArticles() {
         it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
         fr: ['le', 'la', "l'", 'les'],
         el: ['ο', 'η', 'το', 'οι', 'τα'],
-        ru: ['он', 'она', 'оно']
+        ru: ['он', 'она', 'оνο']
     };
     const choices = articlesMap[lang] || [];
     const target = wordObj.article || wordObj.gender;
@@ -468,10 +503,26 @@ function showFeedback(isCorrect) {
     msg.setAttribute('data-translate-key', isCorrect ? 'correct' : 'incorrect');
     if (typeof setLanguage === 'function') setLanguage(currentLesson.language);
 
+    if (typeof CosySRS !== 'undefined') {
+        const wordObj = currentLesson.currentWord;
+        CosySRS.onAnswer({
+            language: currentLesson.language,
+            itemId: wordObj.word || wordObj.text || wordObj.topic,
+            itemType: wordObj.category || 'vocabulary',
+            theme: wordObj.theme,
+            subTheme: wordObj.subTheme,
+            taskType: wordObj.type,
+            correct: isCorrect,
+            usedHint: currentLesson.hintLevel > 0,
+            pointsEarned: isCorrect ? 10 : 0
+        });
+    }
+
     if (isCorrect) {
         currentLesson.score += 10;
         document.getElementById('score-count').textContent = currentLesson.score;
         updateTotalScore(10);
+
         currentLesson.isCorrect = true;
         document.getElementById('next-btn').style.display = 'block';
 
@@ -540,6 +591,12 @@ function updateProgress() {
 
 function showSummary() {
     updateStreak();
+
+    if (typeof CosySRS !== 'undefined') {
+        const totalItems = currentLesson.words.length;
+        CosySRS.onSessionEnd(currentLesson.score, totalItems, totalItems);
+    }
+
     document.getElementById('practice-section').style.display = 'none';
     document.getElementById('summary-modal').style.display = 'flex';
     document.getElementById('final-score').textContent = currentLesson.score;
@@ -559,11 +616,9 @@ function showHint() {
     let target = wordObj.answer || wordObj.word || wordObj.article || wordObj.gender || wordObj.opposite;
     if (!target) return;
 
-    // Support multiple correct answers
     const primaryAnswer = target.split(' / ')[0];
 
     currentLesson.hintLevel = (currentLesson.hintLevel || 0) + 1;
-    // Reveal up to length - 2 characters to keep some challenge
     const maxReveal = Math.max(1, primaryAnswer.length - 2);
     const revealCount = Math.min(currentLesson.hintLevel, maxReveal);
 
@@ -571,7 +626,6 @@ function showHint() {
     feedbackMsg.className = 'feedback-text hint';
 
     let hintPart = primaryAnswer.substring(0, revealCount);
-    // Proper capitalization for the hint display
     hintPart = hintPart.charAt(0).toUpperCase() + hintPart.slice(1);
 
     feedbackMsg.textContent = "Hint: " + hintPart + "...";
