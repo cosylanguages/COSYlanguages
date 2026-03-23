@@ -8,16 +8,9 @@
         "form": "verb"
     },
     {
-        "word": "breakfast",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🍳",
-        "form": "verb"
-    },
-    {
         "word": "work",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "job_titles_professions_A0",
         "emoji": "💼",
         "subtext": "work in an office, work hard",
         "form": "verb",
@@ -28,13 +21,6 @@
                     "I work five days a week.",
                     "She works at a bank."
                 ]
-            },
-            {
-                "text": "The place where you do your job.",
-                "examples": [
-                    "I am at work right now.",
-                    "He goes to work by bus."
-                ]
             }
         ]
     },
@@ -43,13 +29,6 @@
         "level": "starter",
         "theme": "furniture_objects_A0",
         "emoji": "🍱",
-        "form": "verb"
-    },
-    {
-        "word": "dinner",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "emoji": "🍽️",
         "form": "verb"
     },
     {
