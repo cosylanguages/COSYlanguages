@@ -862,7 +862,7 @@
                 "text": "To move something so that an opening is not covered.",
                 "examples": [
                     "Open the door.",
-                    "Can you open the window?"
+                    "The office is open from eight to six."
                 ]
             }
         ]
@@ -1353,7 +1353,8 @@
             {
                 "text": "To remove dirt from something.",
                 "examples": [
-                    "I clean my room every week."
+                    "I clean my room every week.",
+                    "Keep the workspace clean."
                 ]
             }
         ]
@@ -1544,6 +1545,51 @@
                 "text": "To ask someone to come to a place or event.",
                 "examples": [
                     "I invite friends for dinner."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dry",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "form": "verb",
+        "emoji": "🏜️",
+        "definitions": [
+            {
+                "text": "To remove water or liquid.",
+                "examples": [
+                    "Dry your hands."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "wet",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "form": "verb",
+        "emoji": "☔",
+        "definitions": [
+            {
+                "text": "To cover with water or liquid.",
+                "examples": [
+                    "Wet the cloth before cleaning."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "slow",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "verb",
+        "emoji": "🐢",
+        "definitions": [
+            {
+                "text": "To become less fast.",
+                "examples": [
+                    "The car slowed down."
                 ]
             }
         ]
