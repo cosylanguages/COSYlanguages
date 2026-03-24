@@ -5,11 +5,13 @@
         "level": "starter",
         "theme": "job_titles_professions_A0",
         "article": "ο",
+        "gender": "masculine",
         "numberPlural": "2 γιατρός",
         "answer": "δύο γιατροί",
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "γιατροί",
+        "subtext": "βλέπω γιατρό, παθολόγος",
         "definitions": [
             {
                 "text": "Ένα άτομο που βοηθά τους άρρωστους ανθρώπους.",
@@ -21,10 +23,30 @@
         ]
     },
     {
+        "word": "μπράτσο",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "💪",
+        "form": "noun",
+        "plural": "μπράτσα",
+        "subtext": "σπασμένο μπράτσο, αριστερό μπράτσο",
+        "definitions": [
+            {
+                "text": "Το μέρος του σώματος από τον ώμο μέχρι το χέρι.",
+                "examples": [
+                    "Έσπασε το μπράτσο της."
+                ]
+            }
+        ]
+    },
+    {
         "word": "πόδι",
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "το",
+        "gender": "neuter",
         "numberPlural": "2 πόδι",
         "answer": "δύο πόδια",
         "emoji": "🦶",
@@ -32,9 +54,10 @@
         "plural": "πόδια",
         "definitions": [
             {
-                "text": "Το μέρος του σώματος που χρησιμοποιούμε για να περπατάμε.",
+                "text": "Το κάτω μέρος του ποδιού ή ολόκληρο το άκρο.",
                 "examples": [
-                    "Έχω δύο πόδια."
+                    "Έχω δύο πόδια.",
+                    "Πονάει το πόδι μου."
                 ]
             }
         ]
@@ -44,14 +67,17 @@
         "level": "starter",
         "theme": "job_titles_professions_A0",
         "article": "ο",
+        "gender": "masculine",
         "emoji": "🧑‍🏫",
         "form": "noun",
         "plural": "δάσκαλοι",
+        "subtext": "δάσκαλος αγγλικών, σχολείο",
         "definitions": [
             {
                 "text": "Ένα άτομο που σε βοηθά να μάθεις νέα πράγματα.",
                 "examples": [
-                    "Ο δάσκαλος είναι στην τάξη."
+                    "Ο δάσκαλος είναι στην τάξη.",
+                    "Ο δάσκαλος μου είναι πολύ καλός."
                 ]
             }
         ]
@@ -61,22 +87,15 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "ο",
+        "gender": "masculine",
+        "emoji": "🥘",
         "form": "noun",
         "definitions": [
             {
-                "text": "Παραδοσιακό ελληνικό φαγητό με μελιτζάνες και κιμά."
-            }
-        ]
-    },
-    {
-        "word": "παστίτσιο",
-        "level": "starter",
-        "theme": "basic_foods_A0",
-        "article": "το",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Παραδοσιακό ελληνικό φαγητό με μακαρόνια και κιμά."
+                "text": "Παραδοσιακό ελληνικό φαγητό με μελιτζάνες και κιμά.",
+                "examples": [
+                    "Μου αρέσει ο μουσακάς."
+                ]
             }
         ]
     },
@@ -85,6 +104,7 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🍎",
         "numberPlural": "4 μήλο",
         "answer": "τέσσερα μήλα",
@@ -94,7 +114,7 @@
             {
                 "text": "Ένα στρογγυλό φρούτο, κόκκινο ή πράσινο.",
                 "examples": [
-                    "Τρώω ένα μήλο."
+                    "Τρώω ένα μήλο κάθε μέρα."
                 ]
             }
         ]
@@ -104,14 +124,17 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🍞",
         "form": "noun",
-        "plural": "ψωμιά",
+        "plural": null,
+        "subtext": "φρέσκο ψωμί, φραντζόλα",
         "definitions": [
             {
                 "text": "Ένα βασικό τρόφιμο φτιαγμένο από αλεύρι και νερό.",
                 "examples": [
-                    "Θέλω λίγο ψωμί."
+                    "Θέλω λίγο ψωμί.",
+                    "Αγοράζω ψωμί από τον φούρνο."
                 ]
             }
         ]
@@ -121,9 +144,11 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🥚",
         "form": "noun",
         "plural": "αυγά",
+        "subtext": "βραστό αυγό, ομελέτα",
         "definitions": [
             {
                 "text": "Ένα ωοειδές αντικείμενο που γεννά η κότα.",
@@ -138,652 +163,509 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🥛",
         "form": "noun",
-        "plural": "γάλατα"
-    },
-    {
-        "word": "πίτσα",
-        "level": "starter",
-        "theme": "basic_foods_A0",
-        "article": "η",
-        "emoji": "🍕",
-        "form": "noun",
-        "plural": "πίτσες"
+        "plural": null,
+        "subtext": "ένα ποτήρι γάλα, φρέσκο γάλα",
+        "definitions": [
+            {
+                "text": "Ένα λευκό υγρό που παράγουν οι αγελάδες.",
+                "examples": [
+                    "Πίνω γάλα το πρωί."
+                ]
+            }
+        ]
     },
     {
         "word": "ρύζι",
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🍚",
         "form": "noun",
-        "plural": "ρύζια"
+        "plural": null,
+        "subtext": "άσπρο ρύζι, πιλάφι",
+        "definitions": [
+            {
+                "text": "Μικροί λευκοί σπόροι που μαγειρεύονται και τρώγονται.",
+                "examples": [
+                    "Τρώμε ρύζι με το φαγητό."
+                ]
+            }
+        ]
     },
     {
         "word": "κρέας",
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🥩",
         "form": "noun",
-        "plural": "κρέατα"
+        "plural": null,
+        "subtext": "φρέσκο κρέας, μοσχάρι, κοτόπουλο",
+        "definitions": [
+            {
+                "text": "Τροφή που προέρχεται από ζώα.",
+                "examples": [
+                    "Δεν τρώω κρέας."
+                ]
+            }
+        ]
     },
     {
         "word": "φαγητό",
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🍲",
         "form": "noun",
-        "plural": "φαγητά"
+        "plural": "φαγητά",
+        "definitions": [
+            {
+                "text": "Κάτι που τρώμε.",
+                "examples": [
+                    "Το φαγητό είναι έτοιμο."
+                ]
+            }
+        ]
     },
     {
         "word": "καφές",
         "level": "starter",
         "theme": "drinks_A0",
         "article": "ο",
+        "gender": "masculine",
         "emoji": "☕",
         "form": "noun",
-        "plural": "καφέδες"
+        "plural": null,
+        "subtext": "μαύρος καφές, ένα φλιτζάνι καφέ",
+        "definitions": [
+            {
+                "text": "Ένα ζεστό σκούρο ρόφημα από καβουρδισμένους κόκκους.",
+                "examples": [
+                    "Πίνω καφέ κάθε πρωί."
+                ]
+            }
+        ]
     },
     {
         "word": "τσάι",
         "level": "starter",
         "theme": "drinks_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🍵",
         "form": "noun",
-        "plural": "τσάγια"
-    },
-    {
-        "word": "χυμός",
-        "level": "starter",
-        "theme": "drinks_A0",
-        "article": "ο",
-        "emoji": "🧃",
-        "form": "noun",
-        "plural": "χυμοί"
+        "plural": null,
+        "subtext": "πράσινο τσάι, ένα φλιτζάνι τσάι",
+        "definitions": [
+            {
+                "text": "Ένα ζεστό ρόφημα από φύλλα τσαγιού και νερό.",
+                "examples": [
+                    "Πίνω τσάι το βράδυ."
+                ]
+            }
+        ]
     },
     {
         "word": "νερό",
         "level": "starter",
         "theme": "drinks_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🚰",
         "form": "noun",
-        "plural": "νερά"
-    },
-    {
-        "word": "πρωινό",
-        "level": "starter",
-        "theme": "meals_of_the_day_A0",
-        "article": "το",
-        "emoji": "🍳",
-        "form": "noun",
-        "plural": "πρωινά"
-    },
-    {
-        "word": "βραδινό",
-        "level": "starter",
-        "theme": "meals_of_the_day_A0",
-        "article": "το",
-        "emoji": "🍽️",
-        "form": "noun",
-        "plural": "βραδινά"
-    },
-    {
-        "word": "μεσημεριανό",
-        "level": "starter",
-        "theme": "meals_of_the_day_A0",
-        "article": "το",
-        "emoji": "🍱",
-        "form": "noun",
-        "plural": "μεσημεριανά"
-    },
-    {
-        "word": "πάρκο",
-        "level": "starter",
-        "theme": "local_places_services_A0",
-        "article": "το",
-        "emoji": "🌳",
-        "form": "noun",
-        "plural": "πάρκα"
-    },
-    {
-        "word": "σχολείο",
-        "level": "starter",
-        "theme": "local_places_services_A0",
-        "article": "το",
-        "emoji": "🏫",
-        "form": "noun",
-        "plural": "σχολεία"
-    },
-    {
-        "word": "μαγαζί",
-        "level": "starter",
-        "theme": "local_places_services_A0",
-        "article": "το",
-        "emoji": "🛒",
-        "form": "noun",
-        "plural": "μαγαζιά"
-    },
-    {
-        "word": "μπλουζάκι",
-        "level": "starter",
-        "theme": "items_of_clothing_A0",
-        "article": "το",
-        "emoji": "👕",
-        "form": "noun",
-        "plural": "μπλουζάκια"
-    },
-    {
-        "word": "παντελόνι",
-        "level": "starter",
-        "theme": "items_of_clothing_A0",
-        "article": "το",
-        "emoji": "👖",
-        "form": "noun",
-        "plural": "παντελόνια"
-    },
-    {
-        "word": "παπούτσια",
-        "level": "starter",
-        "theme": "items_of_clothing_A0",
-        "article": "τα",
-        "emoji": "👟",
-        "form": "noun",
-        "plural": "παπούτσια"
-    },
-    {
-        "word": "καπέλο",
-        "level": "starter",
-        "theme": "items_of_clothing_A0",
-        "article": "το",
-        "emoji": "👒",
-        "form": "noun",
-        "plural": "καπέλα"
+        "plural": null,
+        "subtext": "κρύο νερό, ένα ποτήρι νερό",
+        "definitions": [
+            {
+                "text": "Ένα διαυγές υγρό που χρειαζόμαστε για να ζήσουμε.",
+                "examples": [
+                    "Πίνω πολύ νερό."
+                ]
+            }
+        ]
     },
     {
         "word": "καρέκλα",
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "η",
+        "gender": "feminine",
         "emoji": "🪑",
         "form": "noun",
-        "plural": "καρέκλες"
+        "plural": "καρέκλες",
+        "subtext": "ξύλινη καρέκλα, κάθομαι σε καρέκλα",
+        "definitions": [
+            {
+                "text": "Ένα έπιπλο για να κάθεται ένα άτομο.",
+                "examples": [
+                    "Παρακαλώ καθίστε στην καρέκλα."
+                ]
+            }
+        ]
     },
     {
         "word": "τραπέζι",
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🪑",
         "form": "noun",
-        "plural": "τραπέζια"
+        "plural": "τραπέζια",
+        "subtext": "τραπέζι κουζίνας, πάνω στο τραπέζι",
+        "definitions": [
+            {
+                "text": "Ένα έπιπλο με επιφάνεια και πόδια για φαγητό ή εργασία.",
+                "examples": [
+                    "Το φαγητό είναι στο τραπέζι."
+                ]
+            }
+        ]
     },
     {
         "word": "κρεβάτι",
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🛏️",
         "form": "noun",
-        "plural": "κρεβάτια"
+        "plural": "κρεβάτια",
+        "subtext": "άνετο κρεβάτι, πάω για ύπνο",
+        "definitions": [
+            {
+                "text": "Ένα έπιπλο για ύπνο.",
+                "examples": [
+                    "Το κρεβάτι μου είναι άνετο."
+                ]
+            }
+        ]
     },
     {
-        "word": "κλειδί",
+        "word": "μαγαζί",
         "level": "starter",
-        "theme": "furniture_objects_A0",
+        "theme": "local_places_services_A0",
         "article": "το",
-        "emoji": "🔑",
+        "gender": "neuter",
+        "emoji": "🛒",
         "form": "noun",
-        "plural": "κλειδιά"
-    },
-    {
-        "word": "τηλέφωνο",
-        "level": "starter",
-        "theme": "basic_technology_devices_A0",
-        "article": "το",
-        "emoji": "📱",
-        "form": "noun",
-        "plural": "τηλέφωνα"
-    },
-    {
-        "word": "βιβλίο",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "article": "το",
-        "emoji": "📖",
-        "form": "noun",
-        "plural": "βιβλία"
-    },
-    {
-        "word": "τσάντα",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "article": "η",
-        "emoji": "👜",
-        "form": "noun",
-        "plural": "τσάντες"
-    },
-    {
-        "word": "στυλό",
-        "level": "starter",
-        "theme": "furniture_objects_A0",
-        "article": "το",
-        "emoji": "🖊️",
-        "form": "noun",
-        "plural": "στυλό"
-    },
-    {
-        "word": "γάτα",
-        "level": "starter",
-        "theme": "animals_A0",
-        "article": "η",
-        "emoji": "🐈",
-        "numberPlural": "2 γάτα",
-        "answer": "δύο γάτες",
-        "form": "noun",
-        "plural": "γάτες"
-    },
-    {
-        "word": "σκύλος",
-        "level": "starter",
-        "theme": "animals_A0",
-        "article": "ο",
-        "emoji": "🐕",
-        "numberPlural": "5 σκύλος",
-        "answer": "πέντε σκύλοι",
-        "form": "noun",
-        "plural": "σκύλοι"
-    },
-    {
-        "word": "πουλί",
-        "level": "starter",
-        "theme": "animals_A0",
-        "article": "το",
-        "emoji": "🐦",
-        "form": "noun",
-        "plural": "πουλιά"
-    },
-    {
-        "word": "ψάρι",
-        "level": "starter",
-        "theme": "animals_A0",
-        "article": "το",
-        "emoji": "🐟",
-        "form": "noun",
-        "plural": "ψάρια"
+        "plural": "μαγαζιά",
+        "subtext": "κατάστημα, ψωνίζω",
+        "definitions": [
+            {
+                "text": "Ένα μέρος όπου αγοράζεις πράγματα.",
+                "examples": [
+                    "Το μαγαζί είναι ανοιχτό."
+                ]
+            }
+        ]
     },
     {
         "word": "κεφάλι",
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "👤",
         "form": "noun",
-        "plural": "κεφάλια"
+        "plural": "κεφάλια",
+        "subtext": "το κεφάλι μου πονάει, κουνάω το κεφάλι",
+        "definitions": [
+            {
+                "text": "Το πάνω μέρος του σώματος όπου είναι ο εγκέφαλος.",
+                "examples": [
+                    "Φοράω καπέλο στο κεφάλι."
+                ]
+            }
+        ]
     },
     {
         "word": "χέρι",
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "✋",
         "form": "noun",
-        "plural": "χέρια"
+        "plural": "χέρια",
+        "subtext": "κρατάω το χέρι, δεξί χέρι, πλένω τα χέρια",
+        "definitions": [
+            {
+                "text": "Το μέρος του σώματος από τον ώμο μέχρι τα δάχτυλα.",
+                "examples": [
+                    "Δώσε μου το χέρι σου."
+                ]
+            }
+        ]
     },
     {
         "word": "μάτι",
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "👁️",
         "form": "noun",
-        "plural": "μάτια"
-    },
-    {
-        "word": "μύτη",
-        "level": "starter",
-        "theme": "body_parts_A0",
-        "article": "η",
-        "emoji": "👃",
-        "form": "noun",
-        "plural": "μύτες"
+        "plural": "μάτια",
+        "subtext": "μπλε μάτια, ανοίγω τα μάτια",
+        "definitions": [
+            {
+                "text": "Το μέρος του σώματος με το οποίο βλέπουμε.",
+                "examples": [
+                    "Έχει γαλανά μάτια."
+                ]
+            }
+        ]
     },
     {
         "word": "στόμα",
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "👄",
         "form": "noun",
-        "plural": "στόματα"
+        "plural": "στόματα",
+        "subtext": "ανοίγω το στόμα",
+        "definitions": [
+            {
+                "text": "Το μέρος του προσώπου για φαγητό και ομιλία.",
+                "examples": [
+                    "Άνοιξε το στόμα σου."
+                ]
+            }
+        ]
     },
     {
         "word": "αυτί",
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "👂",
         "form": "noun",
-        "plural": "αυτιά"
+        "plural": "αυτιά",
+        "subtext": "το αυτί μου πονάει",
+        "definitions": [
+            {
+                "text": "Το μέρος του σώματος με το οποίο ακούμε.",
+                "examples": [
+                    "Έχω δύο αυτιά."
+                ]
+            }
+        ]
     },
     {
-        "word": "μητέρα",
+        "word": "πλάτη",
         "level": "starter",
-        "theme": "immediate_family_A0",
+        "theme": "body_parts_A0",
         "article": "η",
-        "emoji": "👩",
+        "gender": "feminine",
+        "emoji": "🚶",
         "form": "noun",
-        "plural": "μητέρες"
-    },
-    {
-        "word": "πατέρας",
-        "level": "starter",
-        "theme": "immediate_family_A0",
-        "article": "ο",
-        "emoji": "👨",
-        "form": "noun",
-        "plural": "πατέρες"
-    },
-    {
-        "word": "οικογένεια",
-        "level": "starter",
-        "theme": "immediate_family_A0",
-        "article": "η",
-        "emoji": "👪",
-        "form": "noun",
-        "plural": "οικογένειες"
-    },
-    {
-        "word": "φίλος",
-        "level": "starter",
-        "theme": "immediate_family_A0",
-        "article": "ο",
-        "emoji": "👫",
-        "form": "noun",
-        "plural": "φίλοι"
-    },
-    {
-        "word": "σύντροφος",
-        "level": "starter",
-        "theme": "marital_status_A0",
-        "article": "ο",
-        "emoji": "💑",
-        "form": "noun",
-        "plural": "σύντροφοι"
-    },
-    {
-        "word": "άντρας",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "article": "ο",
-        "numberPlural": "2 άντρας",
-        "answer": "δύο άντρες",
-        "emoji": "👨",
-        "form": "noun",
-        "plural": "άντρες"
-    },
-    {
-        "word": "γυναίκα",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "article": "η",
-        "numberPlural": "2 γυναίκα",
-        "answer": "δύο γυναίκες",
-        "emoji": "👩",
-        "form": "noun",
-        "plural": "γυναίκες"
+        "plural": "πλάτες",
+        "subtext": "πόνος στην πλάτη, ξαπλώνω ανάσκελα",
+        "definitions": [
+            {
+                "text": "Το πίσω μέρος του σώματος.",
+                "examples": [
+                    "Έχω πόνο στην πλάτη."
+                ]
+            }
+        ]
     },
     {
         "word": "σπίτι",
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🏡",
         "form": "noun",
         "plural": "σπίτια",
-        "subtext": "στο σπίτι, πάω σπίτι"
+        "subtext": "στο σπίτι, πάω σπίτι",
+        "definitions": [
+            {
+                "text": "Το κτίριο όπου μένει μια οικογένεια.",
+                "examples": [
+                    "Μένω σε ένα μεγάλο σπίτι."
+                ]
+            }
+        ]
     },
     {
         "word": "διαμέρισμα",
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🏢",
         "form": "noun",
-        "plural": "διαμερίσματα"
+        "plural": "διαμερίσματα",
+        "subtext": "φλατ, μένω σε διαμέρισμα",
+        "definitions": [
+            {
+                "text": "Ένα σύνολο δωματίων σε έναν όροφο κτιρίου.",
+                "examples": [
+                    "Το διαμέρισμα είναι μικρό."
+                ]
+            }
+        ]
     },
     {
         "word": "γραφείο",
         "level": "starter",
         "theme": "rooms_indoor_spaces_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🏢",
         "form": "noun",
-        "plural": "γραφεία"
+        "plural": "γραφεία",
+        "subtext": "δουλεύω σε γραφείο",
+        "definitions": [
+            {
+                "text": "Ένας χώρος εργασίας.",
+                "examples": [
+                    "Το γραφείο μου είναι στο κέντρο."
+                ]
+            }
+        ]
     },
     {
         "word": "αυτοκίνητο",
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🚗",
         "form": "noun",
-        "plural": "αυτοκίνητα"
+        "plural": "αυτοκίνητα",
+        "subtext": "αμάξι, οδηγώ αυτοκίνητο",
+        "definitions": [
+            {
+                "text": "Ένα όχημα με τέσσερις τροχούς.",
+                "examples": [
+                    "Έχω ένα κόκκινο αυτοκίνητο."
+                ]
+            }
+        ]
     },
     {
         "word": "λεωφορείο",
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🚌",
         "form": "noun",
-        "plural": "λεωφορεία"
+        "plural": "λεωφορεία",
+        "subtext": "παίρνω το λεωφορείο, στάση λεωφορείου",
+        "definitions": [
+            {
+                "text": "Ένα μεγάλο όχημα για πολλούς επιβάτες.",
+                "examples": [
+                    "Πηγαίνω στη δουλειά με το λεωφορείο."
+                ]
+            }
+        ]
     },
     {
         "word": "τρένο",
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🚆",
         "form": "noun",
-        "plural": "τρένα"
+        "plural": "τρένα",
+        "subtext": "ταξιδεύω με τρένο, σταθμός",
+        "definitions": [
+            {
+                "text": "Ένα όχημα που κινείται πάνω σε ράγες.",
+                "examples": [
+                    "Το τρένο είναι γρήγορο."
+                ]
+            }
+        ]
     },
     {
         "word": "λεφτά",
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "article": "τα",
+        "gender": "neuter",
         "emoji": "💰",
-        "form": "noun"
+        "form": "noun",
+        "plural": null,
+        "subtext": "χρήματα, ξοδεύω λεφτά",
+        "definitions": [
+            {
+                "text": "Νομίσματα και χαρτονομίσματα.",
+                "examples": [
+                    "Δεν έχω λεφτά σήμερα."
+                ]
+            }
+        ]
     },
     {
         "word": "πρωί",
         "level": "starter",
         "theme": "times_day_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🌅",
         "form": "noun",
-        "plural": "πρωινά"
+        "plural": "πρωινά",
+        "subtext": "νωρίς το πρωί, καλημέρα",
+        "definitions": [
+            {
+                "text": "Το πρώτο μέρος της ημέρας.",
+                "examples": [
+                    "Δουλεύω το πρωί."
+                ]
+            }
+        ]
     },
     {
         "word": "απόγευμα",
         "level": "starter",
         "theme": "times_day_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🌆",
         "form": "noun",
-        "plural": "απογεύματα"
-    },
-    {
-        "word": "μέρα",
-        "level": "starter",
-        "theme": "times_day_A0",
-        "article": "η",
-        "emoji": "☀️",
-        "form": "noun",
-        "plural": "μέρες"
+        "plural": "απογεύματα",
+        "subtext": "καλησπέρα",
+        "definitions": [
+            {
+                "text": "Το μέρος της ημέρας μετά το μεσημέρι.",
+                "examples": [
+                    "Θα σε δω το απόγευμα."
+                ]
+            }
+        ]
     },
     {
         "word": "βδομάδα",
         "level": "starter",
         "theme": "times_day_A0",
         "article": "η",
+        "gender": "feminine",
         "emoji": "📅",
         "form": "noun",
-        "plural": "βδομάδες"
-    },
-    {
-        "word": "κάθε μέρα",
-        "level": "starter",
-        "theme": "times_day_A0",
-        "emoji": "🔁",
-        "form": "adverb",
+        "plural": "βδομάδες",
+        "subtext": "εβδομάδα",
         "definitions": [
             {
-                "text": "Κάθε μέρα χωρίς εξαίρεση.",
+                "text": "Μια περίοδος επτά ημερών.",
                 "examples": [
-                    "Πίνω καφέ κάθε μέρα."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "αφεντικό",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "article": "το",
-        "emoji": "👨‍💼",
-        "form": "noun",
-        "plural": "αφεντικά",
-        "definitions": [
-            {
-                "text": "Το άτομο που είναι υπεύθυνο στη δουλειά.",
-                "examples": [
-                    "Το αφεντικό μου είναι πολύ φιλικό."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "συνάδελφος",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "article": "ο",
-        "emoji": "🧑‍💼",
-        "form": "noun",
-        "plural": "συνάδελφοι",
-        "definitions": [
-            {
-                "text": "Ένα άτομο με το οποίο συνεργάζεσαι.",
-                "examples": [
-                    "Οι συνάδελφοί μου είναι εξυπηρετικοί."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "μισθός",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "article": "ο",
-        "emoji": "💰",
-        "form": "noun",
-        "plural": "μισθοί",
-        "definitions": [
-            {
-                "text": "Τα χρήματα που κερδίζει ένα άτομο από τη δουλειά του κάθε μήνα.",
-                "examples": [
-                    "Ο μισθός της είναι καλός."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "συνάντηση",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "article": "η",
-        "emoji": "🤝",
-        "form": "noun",
-        "plural": "συναντήσεις",
-        "subtext": "σύσκεψη, ραντεβού",
-        "definitions": [
-            {
-                "text": "Μια στιγμή που οι άνθρωποι συγκεντρώνονται για να μιλήσουν για κάτι.",
-                "examples": [
-                    "Έχουμε μια συνάντηση κάθε Δευτέρα."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "διαδρομή",
-        "level": "starter",
-        "theme": "public_transport_A1",
-        "article": "η",
-        "emoji": "🚆",
-        "form": "noun",
-        "plural": "διαδρομές",
-        "definitions": [
-            {
-                "text": "Το ταξίδι προς και από τη δουλειά κάθε μέρα.",
-                "examples": [
-                    "Η διαδρομή μου διαρκεί μία ώρα."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "άγχος",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "article": "το",
-        "emoji": "😫",
-        "form": "noun",
-        "subtext": "στρες",
-        "definitions": [
-            {
-                "text": "Ένα συναίσθημα ανησυχίας που προκαλείται από μια δύσκολη κατάσταση.",
-                "examples": [
-                    "Έχω πολύ άγχος στη δουλειά."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "ενοίκιο",
-        "level": "starter",
-        "theme": "types_of_accommodation_A1",
-        "article": "το",
-        "emoji": "🏠",
-        "form": "noun",
-        "plural": "ενοίκια",
-        "definitions": [
-            {
-                "text": "Τα χρήματα που καταβάλλονται για τη χρήση ενός σπιτιού ή διαμερίσματος που ανήκει σε κάποιον άλλο.",
-                "examples": [
-                    "Το ενοίκιο είναι ακριβό στην πόλη."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "γείτονας",
-        "level": "starter",
-        "theme": "address_location_A1",
-        "article": "ο",
-        "emoji": "🏠",
-        "form": "noun",
-        "plural": "γείτονες",
-        "definitions": [
-            {
-                "text": "Ένα άτομο που ζει δίπλα σου ή κοντά σου.",
-                "examples": [
-                    "Οι γείτονές μου είναι πολύ καλοί."
+                    "Δουλεύω πέντε μέρες τη βδομάδα."
                 ]
             }
         ]
@@ -793,12 +675,13 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
         "article": "το",
+        "gender": "neuter",
         "emoji": "🚪",
         "form": "noun",
         "plural": "δωμάτια",
         "definitions": [
             {
-                "text": "Ένα ξεχωριστό τμήμα ενός κτιρίου με τοίχους και μια πόρτα.",
+                "text": "Ένας ξεχωριστός χώρος σε ένα κτίριο.",
                 "examples": [
                     "Το διαμέρισμα έχει τρία δωμάτια."
                 ]
@@ -810,12 +693,13 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
         "article": "η",
+        "gender": "feminine",
         "emoji": "🍳",
         "form": "noun",
         "plural": "κουζίνες",
         "definitions": [
             {
-                "text": "Το δωμάτιο σε ένα σπίτι όπου προετοιμάζεται το φαγητό.",
+                "text": "Ο χώρος του σπιτιού όπου μαγειρεύουμε.",
                 "examples": [
                     "Μαγειρεύω στην κουζίνα."
                 ]
@@ -823,186 +707,557 @@
         ]
     },
     {
-        "word": "ύπνος",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "article": "ο",
-        "emoji": "😴",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Η φυσική ανάπαυση που χρειάζεται το σώμα σου κάθε βράδυ.",
-                "examples": [
-                    "Χρειάζομαι οκτώ ώρες ύπνο."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "άσκηση",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "article": "η",
-        "emoji": "🏋️",
-        "form": "noun",
-        "plural": "ασκήσεις",
-        "definitions": [
-            {
-                "text": "Φυσική δραστηριότητα που σε κρατά σε φόρμα και υγιή.",
-                "examples": [
-                    "Κάνω άσκηση τρεις φορές την εβδομάδα."
-                ]
-            }
-        ]
-    },
-    {
         "word": "τιμή",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "everyday_shopping_A0",
         "article": "η",
+        "gender": "feminine",
         "emoji": "🏷️",
         "form": "noun",
         "plural": "τιμές",
+        "subtext": "κόστος",
         "definitions": [
             {
-                "text": "Το χρηματικό ποσό που πληρώνεις για κάτι.",
+                "text": "Το ποσό των χρημάτων που πληρώνεις για κάτι.",
                 "examples": [
-                    "Η τιμή του φαγητού είναι υψηλή."
+                    "Η τιμή είναι υψηλή."
                 ]
             }
         ]
     },
     {
-        "word": "κόστος",
+        "word": "πόρτα",
         "level": "starter",
-        "theme": "money_payment_A1",
-        "article": "το",
-        "emoji": "💰",
-        "form": "noun",
-        "plural": "κόστη",
-        "definitions": [
-            {
-                "text": "Το χρηματικό ποσό που χρειάζεται για να αγοράσεις κάτι.",
-                "examples": [
-                    "Το κόστος του διαμερίσματος είναι μεγάλο."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "σχέση",
-        "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "furniture_objects_A0",
         "article": "η",
-        "emoji": "❤️",
+        "gender": "feminine",
+        "emoji": "🚪",
         "form": "noun",
-        "plural": "σχέσεις",
+        "plural": "πόρτες",
+        "subtext": "ανοίγω την πόρτα",
         "definitions": [
             {
-                "text": "Μια σύνδεση μεταξύ δύο ανθρώπων.",
+                "text": "Κάτι που ανοίγει και κλείνει για να μπούμε σε ένα χώρο.",
                 "examples": [
-                    "Έχουν μια καλή σχέση."
+                    "Παρακαλώ κλείστε την πόρτα."
                 ]
             }
         ]
     },
     {
-        "word": "μαζί",
+        "word": "παράθυρο",
         "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "👫",
+        "theme": "furniture_objects_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "🪟",
+        "form": "noun",
+        "plural": "παράθυρα",
+        "subtext": "ανοίγω το παράθυρο",
+        "definitions": [
+            {
+                "text": "Ένα άνοιγμα στον τοίχο με τζάμι.",
+                "examples": [
+                    "Άνοιξε το παράθυρο, κάνει ζέστη."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "νοσοκομείο",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "🏥",
+        "form": "noun",
+        "plural": "νοσοκομεία",
+        "definitions": [
+            {
+                "text": "Μέρος όπου περιθάλπονται οι ασθενείς.",
+                "examples": [
+                    "Πήγε στο νοσοκομείο."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "εστιατόριο",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "🍴",
+        "form": "noun",
+        "plural": "εστιατόρια",
+        "definitions": [
+            {
+                "text": "Μέρος όπου τρως πληρώνοντας.",
+                "examples": [
+                    "Πάμε σε ένα εστιατόριο."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "τράπεζα",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "η",
+        "gender": "feminine",
+        "emoji": "🏦",
+        "form": "noun",
+        "plural": "τράπεζες",
+        "definitions": [
+            {
+                "text": "Μέρος όπου φυλάσσονται χρήματα.",
+                "examples": [
+                    "Η τράπεζα είναι κοντά."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "σταθμός",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "ο",
+        "gender": "masculine",
+        "emoji": "🚉",
+        "form": "noun",
+        "plural": "σταθμοί",
+        "subtext": "σταθμός τρένων",
+        "definitions": [
+            {
+                "text": "Κτίριο όπου σταματούν τρένα ή λεωφορεία.",
+                "examples": [
+                    "Ο σταθμός είναι δέκα λεπτά από εδώ."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "σούπερ μάρκετ",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Ένα μεγάλο κατάστημα τροφίμων.",
+                "examples": [
+                    "Πάω στο σούπερ μάρκετ τα Σάββατα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ήλιος",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "ο",
+        "gender": "masculine",
+        "emoji": "☀️",
+        "form": "noun",
+        "plural": "ήλιοι",
+        "definitions": [
+            {
+                "text": "Το αστέρι που δίνει φως και ζέστη την ημέρα.",
+                "examples": [
+                    "Ο ήλιος είναι πολύ δυνατός σήμερα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "βροχή",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "η",
+        "gender": "feminine",
+        "emoji": "🌧️",
+        "form": "noun",
+        "plural": "βροχές",
+        "definitions": [
+            {
+                "text": "Το νερό που πέφτει από τα σύννεφα.",
+                "examples": [
+                    "Έχει πολλή βροχή το φθινόπωρο."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "αέρας",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "ο",
+        "gender": "masculine",
+        "emoji": "💨",
+        "form": "noun",
+        "plural": "αέρηδες",
+        "subtext": "άνεμος",
+        "definitions": [
+            {
+                "text": "Ο αέρας που κινείται, ο άνεμος.",
+                "examples": [
+                    "Φυσάει δυνατός αέρας."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "σήμερα",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "📅",
         "form": "adverb",
-        "opposite": "μόνος",
-        "oppositeEmoji": "🧍",
+        "subtext": "αυτή τη μέρα",
         "definitions": [
             {
-                "text": "Με άλλο άτομο ή ομάδα.",
+                "text": "Την τρέχουσα ημέρα.",
                 "examples": [
-                    "Τρώμε βραδινό μαζί."
+                    "Έχω ραντεβού σήμερα."
                 ]
             }
         ]
     },
     {
-        "word": "διακοπές",
+        "word": "αύριο",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A0",
-        "article": "οι",
-        "emoji": "🏖️",
-        "form": "noun",
-        "plural": "διακοπές",
+        "theme": "times_day_A0",
+        "emoji": "🔜",
+        "form": "adverb",
+        "subtext": "την επόμενη μέρα",
         "definitions": [
             {
-                "text": "Μια περίοδος χρόνου μακριά από τη δουλειά όταν ταξιδεύεις ή χαλαρώνεις.",
+                "text": "Την ημέρα μετά τη σημερινή.",
                 "examples": [
-                    "Έχουμε διακοπές τον Ιούλιο."
+                    "Θα πάω στον γιατρό αύριο."
                 ]
             }
         ]
     },
     {
-        "word": "ταξίδι",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A0",
-        "article": "το",
-        "emoji": "✈️",
-        "form": "noun",
-        "plural": "ταξίδια",
-        "definitions": [
-            {
-                "text": "Η πράξη της μετάβασης από ένα μέρος σε άλλο.",
-                "examples": [
-                    "Λατρεύω τα ταξίδια."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "ξενοδοχείο",
-        "level": "starter",
-        "theme": "types_of_accommodation_A1",
-        "article": "το",
-        "emoji": "🏨",
-        "form": "noun",
-        "plural": "ξενοδοχεία",
-        "definitions": [
-            {
-                "text": "Ένα κτίριο όπου οι άνθρωποι πληρώνουν για να μείνουν κατά τη διάρκεια της νύχτας.",
-                "examples": [
-                    "Το ξενοδοχείο είναι κοντά στο σταθμό."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "σαββατοκύριακο",
+        "word": "βράδυ",
         "level": "starter",
         "theme": "times_day_A0",
         "article": "το",
-        "emoji": "🗓️",
+        "gender": "neuter",
+        "emoji": "🌃",
         "form": "noun",
-        "plural": "σαββατοκύριακα",
+        "plural": "βράδια",
+        "subtext": "εσπέρα, καλησπέρα",
         "definitions": [
             {
-                "text": "Σάββατο και Κυριακή.",
+                "text": "Το τελευταίο μέρος της ημέρας.",
                 "examples": [
-                    "Χαλαρώνω το σαββατοκύριακο."
+                    "Τρώμε βραδινό το βράδυ."
                 ]
             }
         ]
     },
     {
-        "word": "ελεύθερος χρόνος",
+        "word": "νύχτα",
         "level": "starter",
-        "theme": "leisure_activities_A1",
-        "article": "ο",
-        "emoji": "🎮",
+        "theme": "times_day_A0",
+        "article": "η",
+        "gender": "feminine",
+        "emoji": "🌙",
         "form": "noun",
+        "plural": "νύχτες",
+        "subtext": "καληνύχτα",
         "definitions": [
             {
-                "text": "Ο χρόνος που δεν εργάζεσαι και μπορείς να κάνεις ό,τι θέλεις.",
+                "text": "Η περίοδος του σκότους μεταξύ απογεύματος και πρωινού.",
                 "examples": [
-                    "Διαβάζω βιβλία στον ελεύθερο χρόνο μου."
+                    "Κοιμάμαι οκτώ ώρες κάθε νύχτα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "φρούτο",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": "φρούτα",
+        "subtext": "φρέσκο φρούτο, χυμός φρούτων",
+        "definitions": [
+            {
+                "text": "Το γλυκό μέρος ενός φυτού που περιέχει σπόρους.",
+                "examples": [
+                    "Τα φρούτα είναι υγιεινά."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "λαχανικό",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "🥦",
+        "form": "noun",
+        "plural": "λαχανικά",
+        "subtext": "φρέσκα λαχανικά, πράσινα λαχανικά",
+        "definitions": [
+            {
+                "text": "Φυτό που τρώγεται ως τροφή, όπως το καρότο.",
+                "examples": [
+                    "Τρώει λαχανικά κάθε μέρα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "μπύρα",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "η",
+        "gender": "feminine",
+        "emoji": "🍺",
+        "form": "noun",
+        "plural": "μπύρες",
+        "subtext": "κρύα μπύρα",
+        "definitions": [
+            {
+                "text": "Ένα δημοφιλές αλκοολούχο ποτό.",
+                "examples": [
+                    "Πίνει μια μπύρα το Σαββατοκύριακο."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "κρασί",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "🍷",
+        "form": "noun",
+        "plural": "κρασιά",
+        "subtext": "κόκκινο κρασί, λευκό κρασί",
+        "definitions": [
+            {
+                "text": "Ένα αλκοολούχο ποτό από σταφύλια.",
+                "examples": [
+                    "Πίνει ένα ποτήρι κρασί το βράδυ."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "νοσοκόμα",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "η",
+        "gender": "feminine",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "νοσοκόμες",
+        "definitions": [
+            {
+                "text": "Άτομο εκπαιδευμένο να φροντίζει αρρώστους.",
+                "examples": [
+                    "Η νοσοκόμα ελέγχει την πίεση."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "οδηγός",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "ο",
+        "gender": "masculine",
+        "emoji": "🚗",
+        "form": "noun",
+        "plural": "οδηγοί",
+        "subtext": "οδηγός λεωφορείου, ταξί",
+        "definitions": [
+            {
+                "text": "Άτομο που οδηγεί ένα όχημα ως επάγγελμα.",
+                "examples": [
+                    "Ο οδηγός του λεωφορείου ήταν ευγενικός."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "μάγειρας",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "ο",
+        "gender": "masculine",
+        "emoji": "👨‍🍳",
+        "form": "noun",
+        "plural": "μάγειρες",
+        "subtext": "σεφ",
+        "definitions": [
+            {
+                "text": "Επαγγελματίας που μαγειρεύει φαγητά.",
+                "examples": [
+                    "Ο μάγειρας φτιάχνει εξαιρετικό φαγητό."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "διευθυντής",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "ο",
+        "gender": "masculine",
+        "emoji": "🧑‍💼",
+        "form": "noun",
+        "plural": "διευθυντές",
+        "subtext": "μάνατζερ",
+        "definitions": [
+            {
+                "text": "Άτομο που είναι υπεύθυνο για μια ομάδα ή επιχείρηση.",
+                "examples": [
+                    "Ο διευθυντής μου δουλεύει πολλές ώρες."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "αεροπλάνο",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "αεροπλάνα",
+        "definitions": [
+            {
+                "text": "Ένα όχημα με φτερά που πετάει.",
+                "examples": [
+                    "Το αεροπλάνο προσγειώνεται στις εννέα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ποδήλατο",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "ποδήλατα",
+        "subtext": "κάνω ποδήλατο",
+        "definitions": [
+            {
+                "text": "Όχημα με δύο τροχούς που κινείται με πεντάλ.",
+                "examples": [
+                    "Πηγαίνει στη δουλειά με το ποδήλατο."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "σύντροφος",
+        "level": "starter",
+        "theme": "marital_status_A0",
+        "article": "ο",
+        "gender": "masculine",
+        "emoji": "💑",
+        "form": "noun",
+        "plural": "σύντροφοι",
+        "subtext": "παρτενέρ, σύζυγος",
+        "definitions": [
+            {
+                "text": "Το άτομο με το οποίο ζεις ή έχεις σχέση.",
+                "examples": [
+                    "Ο σύντροφός μου δουλεύει εδώ."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "άντρας",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "article": "ο",
+        "gender": "masculine",
+        "emoji": "👨",
+        "form": "noun",
+        "plural": "άντρες",
+        "subtext": "σύζυγος",
+        "definitions": [
+            {
+                "text": "Ένας ενήλικος άνδρας ή ο σύζυγος.",
+                "examples": [
+                    "Ο άντρας της είναι γιατρός."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "γυναίκα",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "article": "η",
+        "gender": "feminine",
+        "emoji": "👩",
+        "form": "noun",
+        "plural": "γυναίκες",
+        "subtext": "σύζυγος",
+        "definitions": [
+            {
+                "text": "Μια ενήλικη γυναίκα ή η σύζυγος.",
+                "examples": [
+                    "Η γυναίκα του είναι δασκάλα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "παιδί",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "το",
+        "gender": "neuter",
+        "emoji": "👶",
+        "form": "noun",
+        "plural": "παιδιά",
+        "subtext": "γιος ή κόρη",
+        "definitions": [
+            {
+                "text": "Ένας νέος άνθρωπος, γιος ή κόρη.",
+                "examples": [
+                    "Έχουν δύο παιδιά."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "γονέας",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "ο",
+        "gender": "masculine",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "γονείς",
+        "subtext": "μητέρα ή πατέρας",
+        "definitions": [
+            {
+                "text": "Η μητέρα ή ο πατέρας.",
+                "examples": [
+                    "Οι γονείς μου μένουν στην Αθήνα."
                 ]
             }
         ]

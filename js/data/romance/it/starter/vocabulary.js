@@ -89,45 +89,55 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "🍞",
         "form": "noun",
-        "plural": "pani"
+        "plural": null,
+        "subtext": "pane fresco, baguette"
     },
     {
         "word": "uovo",
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "🥚",
         "form": "noun",
-        "plural": "uova"
+        "plural": "uova",
+        "subtext": "uovo sodo, frittata"
     },
     {
         "word": "latte",
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "🥛",
         "form": "noun",
-        "plural": "latti"
+        "plural": null,
+        "subtext": "bicchiere di latte, latte fresco"
     },
     {
         "word": "riso",
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "🍚",
         "form": "noun",
-        "plural": "risi"
+        "plural": null,
+        "subtext": "riso bianco, risotto"
     },
     {
         "word": "carne",
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🥩",
         "form": "noun",
-        "plural": "carni"
+        "plural": null,
+        "subtext": "carne fresca, manzo, pollo"
     },
     {
         "word": "cibo",
@@ -143,36 +153,44 @@
         "level": "starter",
         "theme": "drinks_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "☕",
         "form": "noun",
-        "plural": "caffè"
+        "plural": null,
+        "subtext": "caffè nero, tazzina di caffè"
     },
     {
         "word": "tè",
         "level": "starter",
         "theme": "drinks_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "🍵",
         "form": "noun",
-        "plural": "tè"
+        "plural": null,
+        "subtext": "tè verde, tazza di tè"
     },
     {
         "word": "succo",
         "level": "starter",
         "theme": "drinks_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "🧃",
         "form": "noun",
-        "plural": "succhi"
+        "plural": null,
+        "subtext": "succo d'arancia, succo di mela"
     },
     {
         "word": "acqua",
         "level": "starter",
         "theme": "drinks_A0",
         "article": "l'",
+        "gender": "feminine",
         "emoji": "🚰",
         "form": "noun",
-        "plural": "acque"
+        "plural": null,
+        "subtext": "acqua fredda, bicchiere d'acqua"
     },
     {
         "word": "colazione",
@@ -269,27 +287,33 @@
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🪑",
         "form": "noun",
-        "plural": "sedie"
+        "plural": "sedie",
+        "subtext": "sedia di legno, sedersi su una sedia"
     },
     {
         "word": "tavolo",
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "🪑",
         "form": "noun",
-        "plural": "tavoli"
+        "plural": "tavoli",
+        "subtext": "tavolo da cucina, sul tavolo"
     },
     {
         "word": "letto",
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "🛏️",
         "form": "noun",
-        "plural": "letti"
+        "plural": "letti",
+        "subtext": "letto comodo, andare a letto"
     },
     {
         "word": "chiave",
@@ -368,6 +392,44 @@
         "plural": "uccelli"
     },
     {
+        "word": "frutta",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": null,
+        "subtext": "frutta fresca, succo di frutta",
+        "definitions": [
+            {
+                "text": "La parte dolce di una pianta che contiene semi, usata come cibo.",
+                "examples": [
+                    "La frutta è sana."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "verdura",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🥦",
+        "form": "noun",
+        "plural": "verdure",
+        "subtext": "verdura fresca, verdure verdi",
+        "definitions": [
+            {
+                "text": "Una pianta che viene mangiata come cibo, come una carota o un pomodoro.",
+                "examples": [
+                    "Lui mangia verdura ogni giorno."
+                ]
+            }
+        ]
+    },
+    {
         "word": "pesce",
         "level": "starter",
         "theme": "animals_A0",
@@ -440,49 +502,135 @@
         "plural": "orecchi"
     },
     {
+        "word": "schiena",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚶",
+        "form": "noun",
+        "plural": "schiene",
+        "subtext": "mal di schiena, sdraiarsi sulla schiena",
+        "definitions": [
+            {
+                "text": "La parte posteriore del corpo, dal collo al sedere.",
+                "examples": [
+                    "Ho dolore alla schiena."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "braccio",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💪",
+        "form": "noun",
+        "plural": "braccia",
+        "subtext": "braccio rotto, braccio sinistro",
+        "definitions": [
+            {
+                "text": "La parte del corpo dalla spalla alla mano.",
+                "examples": [
+                    "Si è rotta il braccio."
+                ]
+            }
+        ]
+    },
+    {
         "word": "madre",
         "level": "starter",
         "theme": "immediate_family_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "👩",
         "form": "noun",
-        "plural": "madri"
+        "plural": "madri",
+        "subtext": "mamma",
+        "definitions": [
+            {
+                "text": "La donna che è vostra parente.",
+                "examples": [
+                    "Mia madre è gentile."
+                ]
+            }
+        ]
     },
     {
         "word": "padre",
         "level": "starter",
         "theme": "immediate_family_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "👨",
         "form": "noun",
-        "plural": "padri"
+        "plural": "padri",
+        "subtext": "papà",
+        "definitions": [
+            {
+                "text": "L'uomo che è vostro parente.",
+                "examples": [
+                    "Mio padre è al lavoro."
+                ]
+            }
+        ]
     },
     {
         "word": "famiglia",
         "level": "starter",
         "theme": "immediate_family_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "👪",
         "form": "noun",
-        "plural": "famiglie"
+        "plural": "famiglie",
+        "definitions": [
+            {
+                "text": "Un gruppo di persone che sono legate.",
+                "examples": [
+                    "Mia famiglia è grande."
+                ]
+            }
+        ]
     },
     {
         "word": "amico",
         "level": "starter",
         "theme": "immediate_family_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "👫",
         "form": "noun",
-        "plural": "amici"
+        "plural": "amici",
+        "definitions": [
+            {
+                "text": "Una persona che amate e conoscete bene.",
+                "examples": [
+                    "Lei è la mia amica."
+                ]
+            }
+        ]
     },
     {
         "word": "partner",
         "level": "starter",
         "theme": "marital_status_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "💑",
         "form": "noun",
-        "plural": "partner"
+        "plural": "partner",
+        "subtext": "marito, moglie, fidanzato, fidanzata",
+        "definitions": [
+            {
+                "text": "La persona con cui vivi o hai una relazione.",
+                "examples": [
+                    "Il mio partner lavora qui."
+                ]
+            }
+        ]
     },
     {
         "word": "uomo",
@@ -511,82 +659,163 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🏡",
         "form": "noun",
         "plural": "case",
-        "subtext": "a casa, tornare a casa"
+        "subtext": "a casa, tornare a casa",
+        "definitions": [
+            {
+                "text": "Un edificio dove vive una famiglia.",
+                "examples": [
+                    "Hanno una grande casa."
+                ]
+            }
+        ]
     },
     {
         "word": "appartamento",
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "🏢",
         "form": "noun",
-        "plural": "appartamenti"
+        "plural": "appartamenti",
+        "subtext": "flat, vivere in un appartamento",
+        "definitions": [
+            {
+                "text": "Un insieme di stanze su un piano di un edificio.",
+                "examples": [
+                    "Lei vive in un appartamento."
+                ]
+            }
+        ]
     },
     {
         "word": "ufficio",
         "level": "starter",
         "theme": "rooms_indoor_spaces_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "🏢",
         "form": "noun",
-        "plural": "uffici"
+        "plural": "uffici",
+        "subtext": "luogo di lavoro, grande ufficio",
+        "definitions": [
+            {
+                "text": "Una stanza o un edificio dove lavorano le persone.",
+                "examples": [
+                    "Lui è in ufficio."
+                ]
+            }
+        ]
     },
     {
         "word": "macchina",
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🚗",
         "form": "noun",
-        "plural": "macchine"
+        "plural": "macchine",
+        "subtext": "guidare una macchina, macchina veloce",
+        "definitions": [
+            {
+                "text": "Un veicolo con quattro ruote e un motore.",
+                "examples": [
+                    "La sua macchina è rossa."
+                ]
+            }
+        ]
     },
     {
         "word": "autobus",
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "🚌",
         "form": "noun",
-        "plural": "autobus"
+        "plural": "autobus",
+        "subtext": "prendere l'autobus, fermata dell'autobus",
+        "definitions": [
+            {
+                "text": "Un grande veicolo che trasporta molte persone.",
+                "examples": [
+                    "Prendo l'autobus per andare al lavoro."
+                ]
+            }
+        ]
     },
     {
         "word": "treno",
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "🚆",
         "form": "noun",
-        "plural": "treni"
+        "plural": "treni",
+        "subtext": "prendere il treno, in treno, stazione",
+        "definitions": [
+            {
+                "text": "Un veicolo che circola su rotaie.",
+                "examples": [
+                    "Il treno è veloce."
+                ]
+            }
+        ]
     },
     {
         "word": "denaro",
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "article": "il",
+        "gender": "masculine",
         "emoji": "💰",
         "form": "noun",
-        "plural": "denari"
+        "plural": null,
+        "subtext": "spendere denaro, risparmiare denaro"
     },
     {
         "word": "mattina",
         "level": "starter",
         "theme": "times_day_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🌅",
         "form": "noun",
-        "plural": "mattine"
+        "plural": "mattine",
+        "subtext": "mattina presto, buongiorno",
+        "definitions": [
+            {
+                "text": "La parte della giornata prima delle 12.",
+                "examples": [
+                    "Inizio a lavorare la mattina."
+                ]
+            }
+        ]
     },
     {
         "word": "sera",
         "level": "starter",
         "theme": "times_day_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🌆",
         "form": "noun",
-        "plural": "sere"
+        "plural": "sere",
+        "subtext": "stasera, buonasera",
+        "definitions": [
+            {
+                "text": "La parte della giornata dopo il pomeriggio.",
+                "examples": [
+                    "Ceniamo la sera."
+                ]
+            }
+        ]
     },
     {
         "word": "giorno",
@@ -969,13 +1198,508 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "article": "il",
+        "gender": "masculine",
         "emoji": "🎮",
         "form": "noun",
+        "plural": null,
+        "subtext": "svago, relax",
         "definitions": [
             {
                 "text": "Momento in cui non lavori e puoi fare ciò che vuoi.",
                 "examples": [
                     "Leggo libri nel mio tempo libero."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "birra",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍺",
+        "form": "noun",
+        "plural": null,
+        "subtext": "birra fredda, alla spina",
+        "definitions": [
+            {
+                "text": "Una bevanda alcolica popolare fatta dal grano.",
+                "examples": [
+                    "Lui beve una birra nel fine settimana."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vino",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍷",
+        "form": "noun",
+        "plural": null,
+        "subtext": "vino rosso, vino bianco, bicchiere di vino",
+        "definitions": [
+            {
+                "text": "Una bevanda alcolica fatta dall'uva.",
+                "examples": [
+                    "Lei beve un bicchiere di vino la sera."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "porta",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "porte",
+        "subtext": "aprire la porta, porta d'ingresso",
+        "definitions": [
+            {
+                "text": "Un pannello piatto che si apre e si chiude per far entrare e uscire le persone.",
+                "examples": [
+                    "Per favore, chiudi la porta."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "finestra",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🪟",
+        "form": "noun",
+        "plural": "finestre",
+        "subtext": "aprire la finestra, vetrina",
+        "definitions": [
+            {
+                "text": "Un'apertura in una parete riempita di vetro che lascia entrare la luce.",
+                "examples": [
+                    "Apri la finestra — fa caldo."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "infermiere",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "infermieri",
+        "subtext": "infermiera, assistente",
+        "definitions": [
+            {
+                "text": "Una persona addestrata per curare malati o feriti.",
+                "examples": [
+                    "L'infermiere controlla la pressione sanguigna."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "conducente",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🚗",
+        "form": "noun",
+        "plural": "conducenti",
+        "subtext": "autista, guidatore",
+        "definitions": [
+            {
+                "text": "Una persona che guida un veicolo per lavoro.",
+                "examples": [
+                    "L'autista dell'autobus era amichevole."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cuoco",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👨‍🍳",
+        "form": "noun",
+        "plural": "cuochi",
+        "subtext": "chef, cuciniere",
+        "definitions": [
+            {
+                "text": "Un cuoco professionista, specialmente il capo cuoco in un ristorante.",
+                "examples": [
+                    "Il cuoco prepara un cibo eccellente."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "direttore",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧑‍💼",
+        "form": "noun",
+        "plural": "direttori",
+        "subtext": "manager, dirigente",
+        "definitions": [
+            {
+                "text": "Una persona che è a capo di un team o di un'azienda.",
+                "examples": [
+                    "Il mio direttore lavora per molte ore."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "aereo",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "aerei",
+        "subtext": "prendere l'aereo, volo",
+        "definitions": [
+            {
+                "text": "Un veicolo con ali che vola nell'aria.",
+                "examples": [
+                    "L'aereo atterra alle nove."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bicicletta",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "biciclette",
+        "subtext": "bici, andare in bici",
+        "definitions": [
+            {
+                "text": "Un veicolo a due ruote che guidi spingendo i pedali.",
+                "examples": [
+                    "Lui va al lavoro in bicicletta."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ospedale",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏥",
+        "form": "noun",
+        "plural": "ospedali",
+        "subtext": "andare all'ospedale, pronto soccorso",
+        "definitions": [
+            {
+                "text": "Un luogo dove le persone malate o ferite ricevono cure mediche.",
+                "examples": [
+                    "È andato all'ospedale in ambulanza."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ristorante",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍴",
+        "form": "noun",
+        "plural": "ristoranti",
+        "subtext": "ristorante italiano, andare al ristorante",
+        "definitions": [
+            {
+                "text": "Un luogo dove paghi per mangiare i pasti.",
+                "examples": [
+                    "Andiamo al ristorante il venerdì."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "banca",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏦",
+        "form": "noun",
+        "plural": "banche",
+        "subtext": "conto in banca, andare in banca",
+        "definitions": [
+            {
+                "text": "Un luogo dove le persone tengono i soldi e fanno transazioni finanziarie.",
+                "examples": [
+                    "La banca è vicino al mio ufficio."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "stazione",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚉",
+        "form": "noun",
+        "plural": "stazioni",
+        "subtext": "stazione ferroviaria, stazione degli autobus",
+        "definitions": [
+            {
+                "text": "Un edificio dove i treni o gli autobus si fermano per i passeggeri.",
+                "examples": [
+                    "La stazione è a dieci minuti da qui."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "supermercato",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": "supermercati",
+        "subtext": "andare al supermercato",
+        "definitions": [
+            {
+                "text": "Un grande negozio che vende cibo e altri beni per la casa.",
+                "examples": [
+                    "Vado al supermercato il sabato."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sole",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "☀️",
+        "form": "noun",
+        "plural": null,
+        "subtext": "sole caldo, sole del mattino",
+        "definitions": [
+            {
+                "text": "La stella che dà luce e calore durante il giorno.",
+                "examples": [
+                    "Il sole è molto forte oggi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pioggia",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌧️",
+        "form": "noun",
+        "plural": null,
+        "subtext": "forte pioggia, stivali da pioggia",
+        "definitions": [
+            {
+                "text": "Acqua che cade dalle nuvole in gocce.",
+                "examples": [
+                    "C'è molta pioggia in autunno."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vento",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💨",
+        "form": "noun",
+        "plural": null,
+        "subtext": "vento forte, vento freddo",
+        "definitions": [
+            {
+                "text": "Aria che si muove, a volte fortemente.",
+                "examples": [
+                    "Il vento è molto forte oggi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pomeriggio",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "☀️",
+        "form": "noun",
+        "plural": "pomeriggi",
+        "subtext": "questo pomeriggio, buon pomeriggio",
+        "definitions": [
+            {
+                "text": "La parte della giornata da mezzogiorno fino a sera.",
+                "examples": [
+                    "Finisco di lavorare alle cinque del pomeriggio."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "notte",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌙",
+        "form": "noun",
+        "plural": "notti",
+        "subtext": "buonanotte, di notte",
+        "definitions": [
+            {
+                "text": "Il periodo di oscurità tra sera e mattina.",
+                "examples": [
+                    "Dormo otto ore ogni notte."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "oggi",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "📅",
+        "form": "adverb",
+        "subtext": "la riunione di oggi, iniziare oggi",
+        "definitions": [
+            {
+                "text": "In questo giorno; il giorno attuale.",
+                "examples": [
+                    "Ho una riunione oggi alle dieci."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "domani",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "⏭️",
+        "form": "adverb",
+        "subtext": "domani mattina, a domani",
+        "definitions": [
+            {
+                "text": "Il giorno dopo oggi.",
+                "examples": [
+                    "Lei ha un appuntamento dal medico domani."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "marito",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👨",
+        "form": "noun",
+        "plural": "mariti",
+        "opposite": "moglie",
+        "oppositeEmoji": "👩",
+        "subtext": "sposo, compagno",
+        "definitions": [
+            {
+                "text": "Un uomo sposato, in relazione a sua moglie.",
+                "examples": [
+                    "Suo marito è un medico."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "moglie",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👩",
+        "form": "noun",
+        "plural": "mogli",
+        "opposite": "marito",
+        "oppositeEmoji": "👨",
+        "subtext": "sposa, compagna",
+        "definitions": [
+            {
+                "text": "Una donna sposata, in relazione a suo marito.",
+                "examples": [
+                    "Sua moglie lavora in finanza."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bambino",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👶",
+        "form": "noun",
+        "plural": "bambini",
+        "subtext": "bimbo, ragazzino",
+        "definitions": [
+            {
+                "text": "Una giovane persona; un figlio o una figlia.",
+                "examples": [
+                    "Hanno due bambini."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "genitore",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "genitori",
+        "subtext": "madre o padre",
+        "definitions": [
+            {
+                "text": "Una madre o un padre.",
+                "examples": [
+                    "I miei genitori vivono al nord."
                 ]
             }
         ]

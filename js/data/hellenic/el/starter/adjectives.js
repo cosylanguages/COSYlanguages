@@ -6,7 +6,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "κοντός",
-        "oppositeEmoji": "📏"
+        "oppositeEmoji": "📏",
+        "definitions": [
+            {
+                "text": "Άνθρωπος ή πράγμα με μεγάλο ύψος.",
+                "examples": [
+                    "Είναι πολύ ψηλός."
+                ]
+            }
+        ]
     },
     {
         "word": "κοντός",
@@ -14,7 +22,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "ψηλός",
-        "oppositeEmoji": "🗼"
+        "oppositeEmoji": "🗼",
+        "definitions": [
+            {
+                "text": "Άνθρωπος ή πράγμα με μικρό ύψος.",
+                "examples": [
+                    "Είναι κοντός."
+                ]
+            }
+        ]
     },
     {
         "word": "νέος",
@@ -22,7 +38,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "γέρος",
-        "oppositeEmoji": "👴"
+        "oppositeEmoji": "👴",
+        "definitions": [
+            {
+                "text": "Κάποιος που έχει μικρή ηλικία.",
+                "examples": [
+                    "Είναι ένας νέος άντρας."
+                ]
+            }
+        ]
     },
     {
         "word": "γέρος",
@@ -30,7 +54,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "νέος",
-        "oppositeEmoji": "👶"
+        "oppositeEmoji": "👶",
+        "definitions": [
+            {
+                "text": "Κάποιος που έχει μεγάλη ηλικία.",
+                "examples": [
+                    "Είναι ένας γέρος άνθρωπος."
+                ]
+            }
+        ]
     },
     {
         "word": "καλός",
@@ -39,7 +71,15 @@
         "emoji": "👍",
         "form": "adjective",
         "opposite": "κακός",
-        "oppositeEmoji": "👎"
+        "oppositeEmoji": "👎",
+        "definitions": [
+            {
+                "text": "Κάτι που έχει καλή ποιότητα.",
+                "examples": [
+                    "Είναι ένας καλός δάσκαλος."
+                ]
+            }
+        ]
     },
     {
         "word": "κακός",
@@ -48,7 +88,15 @@
         "emoji": "👎",
         "form": "adjective",
         "opposite": "καλός",
-        "oppositeEmoji": "👍"
+        "oppositeEmoji": "👍",
+        "definitions": [
+            {
+                "text": "Κάτι που δεν είναι καλό.",
+                "examples": [
+                    "Ο καιρός είναι κακός σήμερα."
+                ]
+            }
+        ]
     },
     {
         "word": "εύκολος",
@@ -57,7 +105,15 @@
         "emoji": "✅",
         "form": "adjective",
         "opposite": "δύσκολος",
-        "oppositeEmoji": "❌"
+        "oppositeEmoji": "❌",
+        "definitions": [
+            {
+                "text": "Κάτι που δεν είναι δύσκολο.",
+                "examples": [
+                    "Το τεστ είναι εύκολο."
+                ]
+            }
+        ]
     },
     {
         "word": "δύσκολος",
@@ -66,7 +122,15 @@
         "emoji": "❌",
         "form": "adjective",
         "opposite": "εύκολος",
-        "oppositeEmoji": "✅"
+        "oppositeEmoji": "✅",
+        "definitions": [
+            {
+                "text": "Κάτι που απαιτεί προσπάθεια.",
+                "examples": [
+                    "Αυτή η δουλειά είναι δύσκολη."
+                ]
+            }
+        ]
     },
     {
         "word": "μεγάλος",
@@ -75,7 +139,15 @@
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "μικρός",
-        "oppositeEmoji": "🐭"
+        "oppositeEmoji": "🐭",
+        "definitions": [
+            {
+                "text": "Κάτι με μεγάλες διαστάσεις.",
+                "examples": [
+                    "Είναι ένα μεγάλο σπίτι."
+                ]
+            }
+        ]
     },
     {
         "word": "μικρός",
@@ -84,7 +156,15 @@
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "μεγάλος",
-        "oppositeEmoji": "🐘"
+        "oppositeEmoji": "🐘",
+        "definitions": [
+            {
+                "text": "Κάτι με μικρές διαστάσεις.",
+                "examples": [
+                    "Έχει ένα μικρό αυτοκίνητο."
+                ]
+            }
+        ]
     },
     {
         "word": "χαρούμενος",
@@ -92,7 +172,15 @@
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "form": "adjective",
-        "opposite": "λυπημένος"
+        "opposite": "λυπημένος",
+        "definitions": [
+            {
+                "text": "Κάποιος που νιώθει χαρά.",
+                "examples": [
+                    "Είμαι χαρούμενος σήμερα."
+                ]
+            }
+        ]
     },
     {
         "word": "κουρασμένος",
@@ -100,7 +188,15 @@
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
         "form": "adjective",
-        "opposite": "ξεκούραστος"
+        "opposite": "ξεκούραστος",
+        "definitions": [
+            {
+                "text": "Κάποιος που χρειάζεται ξεκούραση.",
+                "examples": [
+                    "Είμαι πολύ κουρασμένος μετά τη δουλειά."
+                ]
+            }
+        ]
     },
     {
         "word": "ακριβός",
@@ -109,7 +205,15 @@
         "emoji": "💎",
         "form": "adjective",
         "opposite": "φτηνός",
-        "oppositeEmoji": "🏷️"
+        "oppositeEmoji": "🏷️",
+        "definitions": [
+            {
+                "text": "Κάτι που κοστίζει πολλά λεφτά.",
+                "examples": [
+                    "Αυτό το ξενοδοχείο είναι πολύ ακριβό."
+                ]
+            }
+        ]
     },
     {
         "word": "φτηνός",
@@ -118,7 +222,15 @@
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "ακριβός",
-        "oppositeEmoji": "💎"
+        "oppositeEmoji": "💎",
+        "definitions": [
+            {
+                "text": "Κάτι που κοστίζει λίγα λεφτά.",
+                "examples": [
+                    "Αυτό το μαγαζί είναι φτηνό."
+                ]
+            }
+        ]
     },
     {
         "word": "πλήρους απασχόλησης",
@@ -177,7 +289,7 @@
         "opposite": "ανθυγιεινός",
         "definitions": [
             {
-                "text": "Καλό για το σώμα σου. Όχι άρρωστο.",
+                "text": "Καλό για το σώμα σου.",
                 "examples": [
                     "Τα λαχανικά είναι υγιεινή τροφή."
                 ]
@@ -193,7 +305,7 @@
         "opposite": "υγιής",
         "definitions": [
             {
-                "text": "Όχι καλά. Πάσχει από μια ασθένεια.",
+                "text": "Κάποιος που δεν είναι καλά στην υγεία του.",
                 "examples": [
                     "Νιώθω άρρωστος σήμερα."
                 ]
@@ -208,9 +320,9 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Χρησιμοποιώντας το διαδίκτυο.",
+                "text": "Αυτό που γίνεται μέσω του διαδικτύου.",
                 "examples": [
-                    "Αγοράζω φαγητό διαδικτυακά μερικές φορές."
+                    "Αγοράζω φαγητό διαδικτυακά."
                 ]
             }
         ]
@@ -225,7 +337,7 @@
         "oppositeEmoji": "👫",
         "definitions": [
             {
-                "text": "Χωρίς άλλους ανθρώπους. Από μόνος σου.",
+                "text": "Χωρίς άλλους ανθρώπους.",
                 "examples": [
                     "Ζει μόνη της."
                 ]
@@ -243,7 +355,7 @@
         "subtext": "ήρεμος",
         "definitions": [
             {
-                "text": "Ήρεμος. Όχι ανήσυχος ή αγχωμένος.",
+                "text": "Ήρεμος, χωρίς άγχος.",
                 "examples": [
                     "Νιώθω χαλαρός το σαββατοκύριακο."
                 ]
@@ -261,7 +373,7 @@
         "subtext": "αγχωμένος",
         "definitions": [
             {
-                "text": "Το να νιώθεις άγχος για κάτι που μπορεί να συμβεί.",
+                "text": "Κάποιος που νιώθει άγχος για κάτι.",
                 "examples": [
                     "Είναι ανήσυχη για τη δουλειά της."
                 ]
@@ -277,7 +389,7 @@
         "opposite": "ελεύθερος",
         "definitions": [
             {
-                "text": "Το να έχεις πολλά πράγματα να κάνεις.",
+                "text": "Κάποιος που έχει πολλά πράγματα να κάνει.",
                 "examples": [
                     "Είμαι πολύ απασχολημένος αυτή την εβδομάδα."
                 ]
@@ -293,9 +405,9 @@
         "opposite": "άχρηστος",
         "definitions": [
             {
-                "text": "Εξυπηρετικός. Έχοντας πρακτικό σκοπό.",
+                "text": "Κάτι που εξυπηρετεί έναν σκοπό.",
                 "examples": [
-                    "Ένα αυτοκίνητο είναι πολύ χρήσιμο στην επαρχία."
+                    "Ένα αυτοκίνητο είναι πολύ χρήσιμο."
                 ]
             }
         ]
@@ -309,9 +421,187 @@
         "subtext": "ουσιώδης",
         "definitions": [
             {
-                "text": "Έχοντας μεγάλη αξία ή αποτέλεσμα.",
+                "text": "Κάτι που έχει μεγάλη αξία.",
                 "examples": [
                     "Ο ύπνος είναι πολύ σημαντικός."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "κόκκινος",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔴",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Το χρώμα του αίματος.",
+                "examples": [
+                    "Έχει μια κόκκινη τσάντα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "μπλε",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔵",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Το χρώμα του ουρανού.",
+                "examples": [
+                    "Το αυτοκίνητό του είναι μπλε."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "πράσινος",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟢",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Το χρώμα του γρασιδιού.",
+                "examples": [
+                    "Φοράει ένα πράσινο φόρεμα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "άσπρος",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚪",
+        "form": "adjective",
+        "opposite": "μαύρος",
+        "subtext": "λευκός",
+        "definitions": [
+            {
+                "text": "Το χρώμα του χιονιού.",
+                "examples": [
+                    "Οι τοίχοι είναι άσπροι."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "μαύρος",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚫",
+        "form": "adjective",
+        "opposite": "άσπρος",
+        "definitions": [
+            {
+                "text": "Το πιο σκούρο χρώμα.",
+                "examples": [
+                    "Φοράει ένα μαύρο παλτό."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "κίτρινος",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟡",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Το χρώμα του ήλιου.",
+                "examples": [
+                    "Έχει μια κίτρινη ομπρέλα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "δωρεάν",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "adjective",
+        "subtext": "χωρίς χρήματα",
+        "definitions": [
+            {
+                "text": "Κάτι που δεν κοστίζει λεφτά.",
+                "examples": [
+                    "Το μουσείο είναι δωρεάν τις Κυριακές."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "κρύος",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "❄️",
+        "form": "adjective",
+        "opposite": "ζεστός",
+        "oppositeEmoji": "🔥",
+        "definitions": [
+            {
+                "text": "Κάτι με χαμηλή θερμοκρασία.",
+                "examples": [
+                    "Κάνει πολύ κρύο σήμερα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ζεστός",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "🔥",
+        "form": "adjective",
+        "opposite": "κρύος",
+        "oppositeEmoji": "❄️",
+        "subtext": "καυτός",
+        "definitions": [
+            {
+                "text": "Κάτι με υψηλή θερμοκρασία.",
+                "examples": [
+                    "Κάνει πολλή ζέστη έξω."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ανοιχτός",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔓",
+        "form": "adjective",
+        "opposite": "κλειστός",
+        "oppositeEmoji": "🔒",
+        "definitions": [
+            {
+                "text": "Κάτι που δεν είναι κλειστό.",
+                "examples": [
+                    "Το μαγαζί είναι ανοιχτό."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "κλειστός",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "ανοιχτός",
+        "oppositeEmoji": "🔓",
+        "definitions": [
+            {
+                "text": "Κάτι που δεν είναι ανοιχτό.",
+                "examples": [
+                    "Η τράπεζα είναι κλειστή τις Κυριακές."
                 ]
             }
         ]

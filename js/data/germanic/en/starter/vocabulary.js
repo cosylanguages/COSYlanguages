@@ -144,7 +144,7 @@
         "theme": "basic_foods_A0",
         "emoji": "🍞",
         "form": "noun",
-        "plural": "bread",
+        "plural": null,
         "subtext": "fresh bread, white bread",
         "definitions": [
             {
@@ -164,7 +164,7 @@
         "emoji": "🥚",
         "form": "noun",
         "plural": "eggs",
-        "subtext": "boiled egg, fried egg",
+        "subtext": "boiled egg, fried egg, scrambled eggs",
         "definitions": [
             {
                 "text": "An oval object laid by a hen.",
@@ -187,7 +187,7 @@
         "theme": "basic_foods_A0",
         "emoji": "🥛",
         "form": "noun",
-        "plural": "milk",
+        "plural": null,
         "subtext": "fresh milk, glass of milk",
         "definitions": [
             {
@@ -234,7 +234,7 @@
         "theme": "drinks_A0",
         "emoji": "☕",
         "form": "noun",
-        "plural": "coffee",
+        "plural": null,
         "subtext": "black coffee, cup of coffee",
         "definitions": [
             {
@@ -259,7 +259,7 @@
         "theme": "drinks_A0",
         "emoji": "🍵",
         "form": "noun",
-        "plural": "tea",
+        "plural": null,
         "subtext": "green tea, cup of tea",
         "definitions": [
             {
@@ -284,7 +284,7 @@
         "theme": "drinks_A0",
         "emoji": "🧃",
         "form": "noun",
-        "plural": "juice",
+        "plural": null,
         "definitions": [
             {
                 "text": "A liquid from fruit or vegetables.",
@@ -307,7 +307,7 @@
         "theme": "drinks_A0",
         "emoji": "🚰",
         "form": "noun",
-        "plural": "water",
+        "plural": null,
         "subtext": "cold water, glass of water",
         "definitions": [
             {
@@ -652,7 +652,7 @@
         "emoji": "👤",
         "form": "noun",
         "plural": "heads",
-        "subtext": "head ache, shake your head",
+        "subtext": "headache, shake your head",
         "definitions": [
             {
                 "text": "The top part of your body that has your eyes, mouth, and brain.",
@@ -756,7 +756,7 @@
         "emoji": "👂",
         "form": "noun",
         "plural": "ears",
-        "subtext": "left ear, right ear, ear ache",
+        "subtext": "left ear, right ear, earache",
         "definitions": [
             {
                 "text": "The part of the body that you use for hearing.",
@@ -1027,6 +1027,7 @@
         "theme": "basic_foods_A0",
         "emoji": "🍚",
         "form": "noun",
+        "plural": null,
         "subtext": "white rice, fried rice",
         "definitions": [
             {
@@ -1043,6 +1044,7 @@
         "theme": "basic_foods_A0",
         "emoji": "🥩",
         "form": "noun",
+        "plural": null,
         "subtext": "fresh meat, eat meat",
         "definitions": [
             {
@@ -1089,6 +1091,7 @@
         "theme": "everyday_shopping_A0",
         "emoji": "💰",
         "form": "noun",
+        "plural": null,
         "subtext": "spend money, save money",
         "definitions": [
             {
@@ -1644,7 +1647,7 @@
         "theme": "basic_foods_A0",
         "emoji": "🍎",
         "form": "noun",
-        "plural": "fruit",
+        "plural": null,
         "subtext": "fresh fruit, fruit juice",
         "definitions": [
             {
@@ -1678,7 +1681,7 @@
         "theme": "drinks_A0",
         "emoji": "🍺",
         "form": "noun",
-        "plural": "beer",
+        "plural": null,
         "subtext": "cold beer, bottle of beer",
         "definitions": [
             {
@@ -1695,7 +1698,7 @@
         "theme": "drinks_A0",
         "emoji": "🍷",
         "form": "noun",
-        "plural": "wine",
+        "plural": null,
         "subtext": "red wine, white wine, a glass of wine",
         "definitions": [
             {
@@ -1933,6 +1936,7 @@
         "theme": "weather_A0",
         "emoji": "☀️",
         "form": "noun",
+        "plural": null,
         "subtext": "hot sun, morning sun",
         "definitions": [
             {
@@ -1949,6 +1953,7 @@
         "theme": "weather_A0",
         "emoji": "🌧️",
         "form": "noun",
+        "plural": null,
         "subtext": "heavy rain, rain boots",
         "definitions": [
             {
@@ -1965,6 +1970,7 @@
         "theme": "weather_A0",
         "emoji": "💨",
         "form": "noun",
+        "plural": null,
         "subtext": "strong wind, cold wind",
         "definitions": [
             {
