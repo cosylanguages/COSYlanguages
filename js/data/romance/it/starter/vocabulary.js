@@ -337,108 +337,6 @@
         "plural": "penne"
     },
     {
-        "word": "alto",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "adjective",
-        "opposite": "basso",
-        "oppositeEmoji": "📏"
-    },
-    {
-        "word": "basso",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "adjective",
-        "opposite": "alto",
-        "oppositeEmoji": "🗼"
-    },
-    {
-        "word": "giovane",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "adjective",
-        "opposite": "vecchio",
-        "oppositeEmoji": "👴"
-    },
-    {
-        "word": "vecchio",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "form": "adjective",
-        "opposite": "giovane",
-        "oppositeEmoji": "👶"
-    },
-    {
-        "word": "buono",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "👍",
-        "form": "adjective",
-        "opposite": "cattivo",
-        "oppositeEmoji": "👎"
-    },
-    {
-        "word": "cattivo",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "👎",
-        "form": "adjective",
-        "opposite": "buono",
-        "oppositeEmoji": "👍"
-    },
-    {
-        "word": "facile",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "✅",
-        "form": "adjective",
-        "opposite": "difficile",
-        "oppositeEmoji": "❌"
-    },
-    {
-        "word": "difficile",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "❌",
-        "form": "adjective",
-        "opposite": "facile",
-        "oppositeEmoji": "✅"
-    },
-    {
-        "word": "grande",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🐘",
-        "form": "adjective",
-        "opposite": "piccolo",
-        "oppositeEmoji": "🐭"
-    },
-    {
-        "word": "piccolo",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🐭",
-        "form": "adjective",
-        "opposite": "grande",
-        "oppositeEmoji": "🐘"
-    },
-    {
-        "word": "felice",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A0",
-        "emoji": "😊",
-        "form": "adjective",
-        "opposite": "triste"
-    },
-    {
-        "word": "stanco",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A0",
-        "emoji": "😫",
-        "form": "adjective",
-        "opposite": "riposato"
-    },
-    {
         "word": "gatto",
         "level": "starter",
         "theme": "animals_A0",
@@ -673,24 +571,6 @@
         "plural": "denari"
     },
     {
-        "word": "caro",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "💎",
-        "form": "adjective",
-        "opposite": "economico",
-        "oppositeEmoji": "🏷️"
-    },
-    {
-        "word": "economico",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🏷️",
-        "form": "adjective",
-        "opposite": "caro",
-        "oppositeEmoji": "💎"
-    },
-    {
         "word": "mattina",
         "level": "starter",
         "theme": "times_day_A0",
@@ -737,36 +617,6 @@
                 "text": "Tutti i giorni senza eccezioni.",
                 "examples": [
                     "Bevo caffè ogni giorno."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "a tempo pieno",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "form": "adjective",
-        "opposite": "a tempo parziale",
-        "definitions": [
-            {
-                "text": "Lavorare il numero completo di ore di una settimana lavorativa.",
-                "examples": [
-                    "Ha un lavoro a tempo pieno in banca."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "a tempo parziale",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "form": "adjective",
-        "opposite": "a tempo pieno",
-        "definitions": [
-            {
-                "text": "Lavorare meno ore di una settimana lavorativa standard.",
-                "examples": [
-                    "Lavora a tempo parziale il sabato."
                 ]
             }
         ]
@@ -944,56 +794,6 @@
         ]
     },
     {
-        "word": "pulito",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "✨",
-        "form": "adjective",
-        "opposite": "sporco",
-        "oppositeEmoji": "💩",
-        "subtext": "ordinato, limpido",
-        "definitions": [
-            {
-                "text": "Privo di sporco.",
-                "examples": [
-                    "La mia camera è pulita."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sano",
-        "level": "starter",
-        "theme": "diet_healthy_eating_A2",
-        "emoji": "🍎",
-        "form": "adjective",
-        "opposite": "malsano",
-        "definitions": [
-            {
-                "text": "Che fa bene al corpo; non malato.",
-                "examples": [
-                    "Le verdure sono cibo sano."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "malato",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
-        "emoji": "🤒",
-        "form": "adjective",
-        "opposite": "sano",
-        "definitions": [
-            {
-                "text": "Non bene; sofferente di una malattia.",
-                "examples": [
-                    "Mi sento malato oggi."
-                ]
-            }
-        ]
-    },
-    {
         "word": "sonno",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1061,21 +861,6 @@
         ]
     },
     {
-        "word": "online",
-        "level": "starter",
-        "theme": "using_a_smartphone_A1",
-        "emoji": "🌐",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Utilizzando internet.",
-                "examples": [
-                    "A volte compro cibo online."
-                ]
-            }
-        ]
-    },
-    {
         "word": "relazione",
         "level": "starter",
         "theme": "family_life_A1",
@@ -1089,23 +874,6 @@
                 "text": "Una connessione tra due persone.",
                 "examples": [
                     "Hanno una buona relazione."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "solo",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A0",
-        "emoji": "🧍",
-        "form": "adjective",
-        "opposite": "insieme",
-        "oppositeEmoji": "👫",
-        "definitions": [
-            {
-                "text": "Senza altre persone; da solo.",
-                "examples": [
-                    "Vive da sola."
                 ]
             }
         ]
@@ -1208,90 +976,6 @@
                 "text": "Momento in cui non lavori e puoi fare ciò che vuoi.",
                 "examples": [
                     "Leggo libri nel mio tempo libero."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "rilassato",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A0",
-        "emoji": "😌",
-        "form": "adjective",
-        "opposite": "stressato",
-        "oppositeEmoji": "😫",
-        "subtext": "calmo, tranquillo",
-        "definitions": [
-            {
-                "text": "Calmo; non preoccupato o stressato.",
-                "examples": [
-                    "Mi sento rilassato nel fine settimana."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "preoccupato",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A0",
-        "emoji": "😟",
-        "form": "adjective",
-        "opposite": "calmo",
-        "oppositeEmoji": "😌",
-        "subtext": "ansioso",
-        "definitions": [
-            {
-                "text": "Sentirsi ansiosi per qualcosa che potrebbe accadere.",
-                "examples": [
-                    "È preoccupata per il suo lavoro."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "occupato",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🏃",
-        "form": "adjective",
-        "opposite": "libero",
-        "definitions": [
-            {
-                "text": "Avere molte cose da fare.",
-                "examples": [
-                    "Sono molto occupato questa settimana."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "utile",
-        "level": "starter",
-        "theme": "size_shape_A0",
-        "emoji": "🛠️",
-        "form": "adjective",
-        "opposite": "inutile",
-        "definitions": [
-            {
-                "text": "D'aiuto; che ha uno scopo pratico.",
-                "examples": [
-                    "Un'auto è molto utile in campagna."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "importante",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "💎",
-        "form": "adjective",
-        "subtext": "essenziale",
-        "definitions": [
-            {
-                "text": "Che ha grande valore o effetto.",
-                "examples": [
-                    "Il sonno è molto importante."
                 ]
             }
         ]

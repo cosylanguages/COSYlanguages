@@ -192,22 +192,6 @@
         ]
     },
     {
-        "word": "indépendant",
-        "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "👨‍💻",
-        "form": "adjective",
-        "subtext": "à son compte, freelance",
-        "definitions": [
-            {
-                "text": "Travailler pour soi-même plutôt que pour une entreprise.",
-                "examples": [
-                    "Elle est graphiste indépendante."
-                ]
-            }
-        ]
-    },
-    {
         "word": "congé maternité",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -685,22 +669,6 @@
                 "text": "La quantité totale de gaz à effet de serre produits par les activités d'une personne.",
                 "examples": [
                     "Prendre l'avion augmente votre empreinte carbone."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "durable",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "♻️",
-        "form": "adjective",
-        "opposite": "insoutenable",
-        "definitions": [
-            {
-                "text": "Utiliser les ressources d'une manière qui ne nuit pas à l'environnement pour l'avenir.",
-                "examples": [
-                    "Nous avons besoin de modes de vie plus durables."
                 ]
             }
         ]

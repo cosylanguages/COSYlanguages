@@ -456,24 +456,6 @@
         "plural": "desks"
     },
     {
-        "word": "beautiful",
-        "level": "elementary",
-        "theme": "physical_appearance_A1",
-        "form": "adjective"
-    },
-    {
-        "word": "strong",
-        "level": "elementary",
-        "theme": "physical_appearance_A1",
-        "form": "adjective"
-    },
-    {
-        "word": "blonde",
-        "level": "elementary",
-        "theme": "physical_appearance_A1",
-        "form": "adjective"
-    },
-    {
         "word": "wallet",
         "level": "elementary",
         "theme": "accessories_A1",
@@ -547,27 +529,6 @@
         "plural": "rabbits"
     },
     {
-        "word": "snowy",
-        "level": "elementary",
-        "theme": "weather_climate_A2",
-        "emoji": "❄️",
-        "form": "adjective"
-    },
-    {
-        "word": "windy",
-        "level": "elementary",
-        "theme": "weather_climate_A2",
-        "emoji": "💨",
-        "form": "adjective"
-    },
-    {
-        "word": "cloudy",
-        "level": "elementary",
-        "theme": "weather_climate_A2",
-        "emoji": "☁️",
-        "form": "adjective"
-    },
-    {
         "word": "arm",
         "level": "elementary",
         "theme": "body_parts_A0",
@@ -605,12 +566,6 @@
                 ]
             }
         ]
-    },
-    {
-        "word": "athletic",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
-        "form": "adjective"
     },
     {
         "word": "streaming",
@@ -972,38 +927,6 @@
         ]
     },
     {
-        "word": "fit",
-        "level": "elementary",
-        "theme": "exercise_fitness_A2",
-        "emoji": "💪",
-        "form": "adjective",
-        "opposite": "unfit",
-        "definitions": [
-            {
-                "text": "In good physical health because of regular exercise.",
-                "examples": [
-                    "He goes running to stay fit."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "overweight",
-        "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
-        "emoji": "⚖️",
-        "form": "adjective",
-        "opposite": "underweight",
-        "definitions": [
-            {
-                "text": "Heavier than is considered healthy.",
-                "examples": [
-                    "The doctor said he is slightly overweight."
-                ]
-            }
-        ]
-    },
-    {
         "word": "vitamin",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
@@ -1187,86 +1110,6 @@
                 "text": "A group of people who live in the same area or share interests.",
                 "examples": [
                     "She is active in her local community."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "convenient",
-        "level": "elementary",
-        "theme": "condition_state_A2",
-        "emoji": "👌",
-        "form": "adjective",
-        "opposite": "inconvenient",
-        "definitions": [
-            {
-                "text": "Easy to use or suitable for what you need.",
-                "examples": [
-                    "Online shopping is very convenient."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "stressful",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
-        "emoji": "😫",
-        "form": "adjective",
-        "opposite": "relaxing",
-        "definitions": [
-            {
-                "text": "Causing worry or anxiety.",
-                "examples": [
-                    "Her job is very stressful."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "comfortable",
-        "level": "elementary",
-        "theme": "condition_state_A2",
-        "emoji": "🛋️",
-        "form": "adjective",
-        "opposite": "uncomfortable",
-        "definitions": [
-            {
-                "text": "Physically relaxed; not causing pain or difficulty.",
-                "examples": [
-                    "The office chair is comfortable."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "practical",
-        "level": "elementary",
-        "theme": "condition_state_A2",
-        "emoji": "🛠️",
-        "form": "adjective",
-        "opposite": "impractical",
-        "definitions": [
-            {
-                "text": "Useful and sensible in real situations.",
-                "examples": [
-                    "A car is practical in the countryside."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "popular",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
-        "emoji": "🌟",
-        "form": "adjective",
-        "opposite": "unpopular",
-        "definitions": [
-            {
-                "text": "Liked or enjoyed by many people.",
-                "examples": [
-                    "This restaurant is very popular."
                 ]
             }
         ]

@@ -1,13 +1,6 @@
 (function() {
     const data = [
     {
-        "word": "nuageux",
-        "level": "elementary",
-        "theme": "weather_climate_A2",
-        "emoji": "☁️",
-        "form": "adjective"
-    },
-    {
         "word": "considérer",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -128,8 +121,26 @@
         ],
         "tenses": {
             "present_simple": {
-                "positive": ["soutiens", "soutiens", "soutient", "soutient", "soutenons", "soutenez", "soutiennent", "soutiennent"],
-                "negative": ["ne soutiens pas", "ne soutiens pas", "ne soutient pas", "ne soutient pas", "ne soutenons pas", "ne soutenez pas", "ne soutiennent pas", "ne soutiennent pas"]
+                "positive": [
+                    "soutiens",
+                    "soutiens",
+                    "soutient",
+                    "soutient",
+                    "soutenons",
+                    "soutenez",
+                    "soutiennent",
+                    "soutiennent"
+                ],
+                "negative": [
+                    "ne soutiens pas",
+                    "ne soutiens pas",
+                    "ne soutient pas",
+                    "ne soutient pas",
+                    "ne soutenons pas",
+                    "ne soutenez pas",
+                    "ne soutiennent pas",
+                    "ne soutiennent pas"
+                ]
             }
         }
     },
