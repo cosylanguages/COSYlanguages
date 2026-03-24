@@ -1062,7 +1062,18 @@
                 "Το ερωτηματικό στα ελληνικά μοιάζει με το αγγλικό ερωτηματικό (;), αλλά είναι η ελληνική ερωτηματική τελεία.",
                 "Η λέξη 'αλφάβητο' προέρχεται από τα δύο πρώτα γράμματα: άλφα και βήτα.",
                 "Τα ελληνικά είναι η γλώσσα με το μεγαλύτερο λεξιλόγιο στον κόσμο (πάνω από 5 εκατομμύρια λέξεις)."
-            ]
+            ],
+            verb_classification_regular: "Ομαλό",
+            verb_classification_irregular: "Ανώμαλο",
+            verb_classification_both: "Και τα δύο",
+            verb_aspect_action: "Ρήμα ενέργειας",
+            verb_aspect_stative: "Ρήμα κατάστασης",
+            verb_aspect_both: "Ενέργεια & Κατάσταση",
+            verb_group_a: "Α' Συζυγία",
+            verb_group_b1: "Β1' Συζυγία",
+            verb_group_b2: "Β2' Συζυγία",
+            verb_group_a_passive: "Α' Συζυγία (Παθητική)",
+            verb_group_irregular: "Ανώμαλο ρήμα"
          }
         };
     window.translations = window.translations || {};

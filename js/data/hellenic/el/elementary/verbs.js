@@ -17,91 +17,117 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💭",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "υπηρετώ",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group B2",
+        "classification": "regular"
     },
     {
         "word": "χτίζω",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🏗️",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "φτάνω",
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🏁",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "σκοτώνω",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "παραμένω",
         "level": "elementary",
         "theme": "condition_state_A2",
         "emoji": "⏳",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "προτείνω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💡",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "σηκώνω",
         "level": "elementary",
         "theme": "family_life_A1",
         "emoji": "🙋",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "απαιτώ",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📜",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group B2",
+        "classification": "regular"
     },
     {
         "word": "αναφέρω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📋",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "αποφασίζω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚖️",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "εξηγώ",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👨‍🏫",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group B2",
+        "classification": "regular"
     },
     {
         "word": "αναπτύσσω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "💻",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "υποστηρίζω",
@@ -147,42 +173,54 @@
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🥊",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group B1",
+        "classification": "regular"
     },
     {
         "word": "παράγω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏭",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A (irregular)",
+        "classification": "irregular"
     },
     {
         "word": "αντιμετωπίζω",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👤",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "καλύπτω",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "περιγράφω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📝",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "πιάζω",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
-        "form": "verb"
+        "form": "verb",
+        "group": "Group A",
+        "classification": "regular"
     },
     {
         "word": "κάνω αίτηση",

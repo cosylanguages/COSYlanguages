@@ -4,112 +4,160 @@
         "word": "danzare",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
-        "form": "verb"
+        "form": "verb",
+        "group": "-are",
+        "classification": "regular",
+        "past_participle": "danzato"
     },
     {
         "word": "considerare",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
-        "form": "verb"
+        "form": "verb",
+        "group": "-are",
+        "classification": "regular",
+        "past_participle": "considerato"
     },
     {
         "word": "apparire",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👻",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ire",
+        "classification": "irregular",
+        "past_participle": "apparso"
     },
     {
         "word": "servire",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ire",
+        "classification": "regular",
+        "past_participle": "servito"
     },
     {
         "word": "aspettarsi",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💭",
-        "form": "verb"
+        "form": "verb",
+        "group": "-are",
+        "classification": "regular",
+        "past_participle": "aspettato"
     },
     {
         "word": "costruire",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🏗️",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ire (isc)",
+        "classification": "regular",
+        "past_participle": "costruito"
     },
     {
         "word": "raggiungere",
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🏁",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ere",
+        "classification": "irregular",
+        "past_participle": "raggiunto"
     },
     {
         "word": "uccidere",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ere",
+        "classification": "irregular",
+        "past_participle": "ucciso"
     },
     {
         "word": "rimanere",
         "level": "elementary",
         "theme": "condition_state_A2",
         "emoji": "⏳",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ere",
+        "classification": "irregular",
+        "past_participle": "rimasto"
     },
     {
         "word": "suggerire",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💡",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ire (isc)",
+        "classification": "regular",
+        "past_participle": "suggerito"
     },
     {
         "word": "alzare",
         "level": "elementary",
         "theme": "family_life_A1",
         "emoji": "🙋",
-        "form": "verb"
+        "form": "verb",
+        "group": "-are",
+        "classification": "regular",
+        "past_participle": "alzato"
     },
     {
         "word": "richiedere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📜",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ere",
+        "classification": "irregular",
+        "past_participle": "richiesto"
     },
     {
         "word": "riferire",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📋",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ire (isc)",
+        "classification": "regular",
+        "past_participle": "riferito"
     },
     {
         "word": "decidere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚖️",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ere",
+        "classification": "irregular",
+        "past_participle": "deciso"
     },
     {
         "word": "spiegare",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👨‍🏫",
-        "form": "verb"
+        "form": "verb",
+        "group": "-are",
+        "classification": "regular",
+        "past_participle": "spiegato"
     },
     {
         "word": "sviluppare",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "💻",
-        "form": "verb"
+        "form": "verb",
+        "group": "-are",
+        "classification": "regular",
+        "past_participle": "sviluppato"
     },
     {
         "word": "sostenere",
@@ -137,42 +185,60 @@
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🥊",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ire (isc)",
+        "classification": "regular",
+        "past_participle": "colpito"
     },
     {
         "word": "produrre",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏭",
-        "form": "verb"
+        "form": "verb",
+        "group": "-urre",
+        "classification": "irregular",
+        "past_participle": "prodotto"
     },
     {
         "word": "affrontare",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👤",
-        "form": "verb"
+        "form": "verb",
+        "group": "-are",
+        "classification": "regular",
+        "past_participle": "affrontato"
     },
     {
         "word": "coprire",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ire",
+        "classification": "irregular",
+        "past_participle": "coperto"
     },
     {
         "word": "descrivere",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📝",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ere",
+        "classification": "irregular",
+        "past_participle": "descritto"
     },
     {
         "word": "catturare",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
-        "form": "verb"
+        "form": "verb",
+        "group": "-are",
+        "classification": "regular",
+        "past_participle": "catturato"
     },
     {
         "word": "fare domanda",

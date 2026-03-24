@@ -17,7 +17,11 @@
                     "What time do you wake up?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "woke up",
+        "v3": "woken up"
     },
     {
         "word": "work",
@@ -34,7 +38,11 @@
                     "She works at a bank."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "worked",
+        "v3": "worked"
     },
     {
         "word": "sleep",
@@ -53,7 +61,11 @@
                     "The baby is sleeping."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "slept",
+        "v3": "slept"
     },
     {
         "word": "watch",
@@ -70,7 +82,11 @@
                     "They watch the birds."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "watched",
+        "v3": "watched"
     },
     {
         "word": "read",
@@ -89,7 +105,11 @@
                     "She can read English."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "read",
+        "v3": "read"
     },
     {
         "word": "be",
@@ -106,7 +126,11 @@
                     "She is happy."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "was/were",
+        "v3": "been"
     },
     {
         "word": "have",
@@ -123,7 +147,11 @@
                     "We have two cats."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "had",
+        "v3": "had"
     },
     {
         "word": "go",
@@ -140,7 +168,11 @@
                     "Let's go home."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "went",
+        "v3": "gone"
     },
     {
         "word": "eat",
@@ -159,7 +191,11 @@
                     "What do you want to eat?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "ate",
+        "v3": "eaten"
     },
     {
         "word": "drink",
@@ -178,7 +214,11 @@
                     "Do you want a drink?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drank",
+        "v3": "drunk"
     },
     {
         "word": "do",
@@ -195,7 +235,11 @@
                     "What are you doing?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "did",
+        "v3": "done"
     },
     {
         "word": "speak",
@@ -212,7 +256,11 @@
                     "Please speak slowly."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spoke",
+        "v3": "spoken"
     },
     {
         "word": "know",
@@ -229,7 +277,11 @@
                     "Do you know that man?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "knew",
+        "v3": "known"
     },
     {
         "word": "think",
@@ -246,7 +298,11 @@
                     "What do you think about the movie?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "thought",
+        "v3": "thought"
     },
     {
         "word": "see",
@@ -263,7 +319,11 @@
                     "Did you see that movie?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "saw",
+        "v3": "seen"
     },
     {
         "word": "want",
@@ -280,7 +340,11 @@
                     "I want to go home."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "wanted",
+        "v3": "wanted"
     },
     {
         "word": "like",
@@ -297,7 +361,11 @@
                     "Do you like dancing?"
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "liked",
+        "v3": "liked"
     },
     {
         "word": "love",
@@ -314,7 +382,11 @@
                     "I love travel."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "loved",
+        "v3": "loved"
     },
     {
         "word": "write",
@@ -333,7 +405,11 @@
                     "She writes books for children."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "wrote",
+        "v3": "written"
     },
     {
         "word": "come",
@@ -352,7 +428,11 @@
                     "He is coming to the party."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "came",
+        "v3": "come"
     },
     {
         "word": "give",
@@ -371,7 +451,11 @@
                     "I give gifts to my family."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "gave",
+        "v3": "given"
     },
     {
         "word": "take",
@@ -390,7 +474,11 @@
                     "She takes beautiful photos."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "took",
+        "v3": "taken"
     },
     {
         "word": "find",
@@ -406,7 +494,11 @@
                     "Did you find your way?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "found",
+        "v3": "found"
     },
     {
         "word": "tell",
@@ -422,7 +514,11 @@
                     "He told her the truth."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "told",
+        "v3": "told"
     },
     {
         "word": "ask",
@@ -438,7 +534,11 @@
                     "She asked me for help."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "asked",
+        "v3": "asked"
     },
     {
         "word": "feel",
@@ -454,7 +554,11 @@
                     "Do you feel cold?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "felt",
+        "v3": "felt"
     },
     {
         "word": "try",
@@ -470,7 +574,11 @@
                     "Try one of these cookies."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "tried",
+        "v3": "tried"
     },
     {
         "word": "leave",
@@ -486,7 +594,11 @@
                     "Don't leave your bag here."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "left",
+        "v3": "left"
     },
     {
         "word": "call",
@@ -502,7 +614,11 @@
                     "He called my name."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "called",
+        "v3": "called"
     },
     {
         "word": "look",
@@ -518,7 +634,11 @@
                     "He is looking for his keys."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "looked",
+        "v3": "looked"
     },
     {
         "word": "use",
@@ -534,7 +654,11 @@
                     "Can I use your pen?"
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "used",
+        "v3": "used"
     },
     {
         "word": "get",
@@ -550,7 +674,11 @@
                     "Can you get some milk?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "got",
+        "v3": "got/gotten"
     },
     {
         "word": "start",
@@ -568,7 +696,11 @@
                     "Let's start the meeting."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "started",
+        "v3": "started"
     },
     {
         "word": "help",
@@ -584,7 +716,11 @@
                     "I help my mother with the shopping."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "helped",
+        "v3": "helped"
     },
     {
         "word": "talk",
@@ -600,7 +736,11 @@
                     "Stop talking and listen."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "talked",
+        "v3": "talked"
     },
     {
         "word": "play",
@@ -616,7 +756,11 @@
                     "She likes to play video games."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "played",
+        "v3": "played"
     },
     {
         "word": "run",
@@ -632,7 +776,11 @@
                     "He runs to catch the bus."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "ran",
+        "v3": "run"
     },
     {
         "word": "live",
@@ -650,7 +798,11 @@
                     "She lives with her family."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "lived",
+        "v3": "lived"
     },
     {
         "word": "bring",
@@ -666,7 +818,11 @@
                     "He brings his lunch to work."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "brought",
+        "v3": "brought"
     },
     {
         "word": "sit",
@@ -684,7 +840,11 @@
                     "I sit on a chair."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sat",
+        "v3": "sat"
     },
     {
         "word": "stand",
@@ -702,7 +862,11 @@
                     "She is standing near the door."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "stood",
+        "v3": "stood"
     },
     {
         "word": "lose",
@@ -720,7 +884,11 @@
                     "I often lose my keys."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "lost",
+        "v3": "lost"
     },
     {
         "word": "pay",
@@ -736,7 +904,11 @@
                     "How do you want to pay?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "paid",
+        "v3": "paid"
     },
     {
         "word": "meet",
@@ -752,7 +924,11 @@
                     "We meet every Friday."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "met",
+        "v3": "met"
     },
     {
         "word": "learn",
@@ -768,7 +944,11 @@
                     "Children learn fast."
                 ]
             }
-        ]
+        ],
+        "classification": "both",
+        "aspect": "action",
+        "v2": "learned/learnt",
+        "v3": "learned/learnt"
     },
     {
         "word": "change",
@@ -784,7 +964,11 @@
                     "The weather changes quickly."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "changed",
+        "v3": "changed"
     },
     {
         "word": "understand",
@@ -800,7 +984,11 @@
                     "Do you understand English?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "understood",
+        "v3": "understood"
     },
     {
         "word": "stop",
@@ -816,7 +1004,11 @@
                     "Please stop talking."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "stopped",
+        "v3": "stopped"
     },
     {
         "word": "add",
@@ -832,7 +1024,11 @@
                     "What is five plus five?"
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "added",
+        "v3": "added"
     },
     {
         "word": "spend",
@@ -847,7 +1043,11 @@
                     "I spend a lot of money on food."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spent",
+        "v3": "spent"
     },
     {
         "word": "open",
@@ -865,7 +1065,11 @@
                     "Can you open the window?"
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "opened",
+        "v3": "opened"
     },
     {
         "word": "walk",
@@ -881,7 +1085,11 @@
                     "Let's take a walk in the park."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "walked",
+        "v3": "walked"
     },
     {
         "word": "win",
@@ -898,7 +1106,11 @@
                     "We want to win the game."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "won",
+        "v3": "won"
     },
     {
         "word": "remember",
@@ -914,7 +1126,11 @@
                     "Do you remember me?"
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "remembered",
+        "v3": "remembered"
     },
     {
         "word": "buy",
@@ -932,7 +1148,11 @@
                     "Where can I buy milk?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "bought",
+        "v3": "bought"
     },
     {
         "word": "wait",
@@ -948,7 +1168,11 @@
                     "I am waiting for my friend."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "waited",
+        "v3": "waited"
     },
     {
         "word": "die",
@@ -965,7 +1189,11 @@
                     "Plants die without water."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "died",
+        "v3": "died"
     },
     {
         "word": "send",
@@ -981,7 +1209,11 @@
                     "Can you send me a photo?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sent",
+        "v3": "sent"
     },
     {
         "word": "stay",
@@ -997,7 +1229,11 @@
                     "We are staying in a hotel."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "stayed",
+        "v3": "stayed"
     },
     {
         "word": "fall",
@@ -1013,7 +1249,11 @@
                     "Be careful, don't fall."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "fell",
+        "v3": "fallen"
     },
     {
         "word": "cut",
@@ -1029,7 +1269,11 @@
                     "Can you cut the paper?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "cut",
+        "v3": "cut"
     },
     {
         "word": "pass",
@@ -1045,7 +1289,11 @@
                     "I hope I pass the test."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "passed",
+        "v3": "passed"
     },
     {
         "word": "sell",
@@ -1062,7 +1310,11 @@
                     "They sell fruit at the market."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sold",
+        "v3": "sold"
     },
     {
         "word": "pull",
@@ -1079,7 +1331,11 @@
                     "Pull the door to open it."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "pulled",
+        "v3": "pulled"
     },
     {
         "word": "push",
@@ -1097,7 +1353,11 @@
                     "I push the shopping cart."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "pushed",
+        "v3": "pushed"
     },
     {
         "word": "hope",
@@ -1113,7 +1373,11 @@
                     "We hope to see you soon."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "hoped",
+        "v3": "hoped"
     },
     {
         "word": "carry",
@@ -1129,7 +1393,11 @@
                     "Can you help me carry this box?"
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "carried",
+        "v3": "carried"
     },
     {
         "word": "break",
@@ -1145,7 +1413,11 @@
                     "He broke his leg."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "broke",
+        "v3": "broken"
     },
     {
         "word": "receive",
@@ -1161,7 +1433,11 @@
                     "She received a gift."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "received",
+        "v3": "received"
     },
     {
         "word": "agree",
@@ -1177,7 +1453,11 @@
                     "We agree on the plan."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "agreed",
+        "v3": "agreed"
     },
     {
         "word": "draw",
@@ -1193,7 +1473,11 @@
                     "Can you draw a map?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drew",
+        "v3": "drawn"
     },
     {
         "word": "share",
@@ -1209,7 +1493,11 @@
                     "I share a room with my brother."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "shared",
+        "v3": "shared"
     },
     {
         "word": "smile",
@@ -1227,7 +1515,11 @@
                     "Smile for the camera."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "smiled",
+        "v3": "smiled"
     },
     {
         "word": "cry",
@@ -1245,7 +1537,11 @@
                     "Don't cry."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cried",
+        "v3": "cried"
     },
     {
         "word": "dance",
@@ -1261,7 +1557,11 @@
                     "They are dancing."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "danced",
+        "v3": "danced"
     },
     {
         "word": "sing",
@@ -1277,7 +1577,11 @@
                     "She sings very well."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sang",
+        "v3": "sung"
     },
     {
         "word": "jump",
@@ -1293,7 +1597,11 @@
                     "The cat jumped onto the table."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "jumped",
+        "v3": "jumped"
     },
     {
         "word": "fly",
@@ -1309,7 +1617,11 @@
                     "I fly to Paris tomorrow."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "flew",
+        "v3": "flown"
     },
     {
         "word": "swim",
@@ -1325,7 +1637,11 @@
                     "Can you swim?"
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "swam",
+        "v3": "swum"
     },
     {
         "word": "wash",
@@ -1341,7 +1657,11 @@
                     "Can you wash the car?"
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "washed",
+        "v3": "washed"
     },
     {
         "word": "clean",
@@ -1356,7 +1676,11 @@
                     "I clean my room every week."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cleaned",
+        "v3": "cleaned"
     },
     {
         "word": "cook",
@@ -1372,7 +1696,11 @@
                     "She likes to cook."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cooked",
+        "v3": "cooked"
     },
     {
         "word": "travel",
@@ -1388,7 +1716,11 @@
                     "We travel by train."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "traveled",
+        "v3": "traveled"
     },
     {
         "word": "study",
@@ -1404,7 +1736,11 @@
                     "He is studying for his exams."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "studied",
+        "v3": "studied"
     },
     {
         "word": "teach",
@@ -1420,7 +1756,11 @@
                     "She teaches at a university."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "taught",
+        "v3": "taught"
     },
     {
         "word": "listen",
@@ -1436,7 +1776,11 @@
                     "Listen to me!"
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "listened",
+        "v3": "listened"
     },
     {
         "word": "close",
@@ -1445,7 +1789,11 @@
         "emoji": "🔒",
         "opposite": "open",
         "oppositeEmoji": "📖",
-        "form": "verb"
+        "form": "verb",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "closed",
+        "v3": "closed"
     },
     {
         "word": "finish",
@@ -1454,7 +1802,11 @@
         "emoji": "🏁",
         "opposite": "start",
         "oppositeEmoji": "▶️",
-        "form": "verb"
+        "form": "verb",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "finished",
+        "v3": "finished"
     },
     {
         "word": "commute",
@@ -1469,7 +1821,11 @@
                     "I commute to the city by train."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "commuted",
+        "v3": "commuted"
     },
     {
         "word": "rent",
@@ -1484,7 +1840,11 @@
                     "We rent a flat in the city."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "rented",
+        "v3": "rented"
     },
     {
         "word": "exercise",
@@ -1499,7 +1859,11 @@
                     "I exercise every morning."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "exercised",
+        "v3": "exercised"
     },
     {
         "word": "save",
@@ -1516,7 +1880,11 @@
                     "She saves money every month."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "saved",
+        "v3": "saved"
     },
     {
         "word": "cost",
@@ -1531,7 +1899,11 @@
                     "The flat costs a lot."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "cost",
+        "v3": "cost"
     },
     {
         "word": "invite",
@@ -1546,7 +1918,11 @@
                     "I invite friends for dinner."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "invited",
+        "v3": "invited"
     }
 ];
     const lang = "en";

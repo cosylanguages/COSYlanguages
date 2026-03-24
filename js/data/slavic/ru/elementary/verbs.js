@@ -36,105 +36,135 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💡",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "рассматривать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "появляться",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👻",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "служить",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
-        "form": "verb"
+        "form": "verb",
+        "group": "2nd conjugation",
+        "classification": "regular"
     },
     {
         "word": "ожидать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💭",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "строить",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🏗️",
-        "form": "verb"
+        "form": "verb",
+        "group": "2nd conjugation",
+        "classification": "regular"
     },
     {
         "word": "оставаться",
         "level": "elementary",
         "theme": "condition_state_A2",
         "emoji": "⏳",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "достигать",
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🏁",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "убивать",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "поднимать",
         "level": "elementary",
         "theme": "family_life_A1",
         "emoji": "🙋",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "требовать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📜",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "сообщать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📋",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "решать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚖️",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "объяснять",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👨‍🏫",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "развивать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "💻",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "поддерживать",
@@ -180,42 +210,54 @@
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🥊",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "производить",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏭",
-        "form": "verb"
+        "form": "verb",
+        "group": "2nd conjugation",
+        "classification": "regular"
     },
     {
         "word": "сталкиваться",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👤",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "покрывать",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "описывать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📝",
-        "form": "verb"
+        "form": "verb",
+        "group": "1st conjugation",
+        "classification": "regular"
     },
     {
         "word": "ловить",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
-        "form": "verb"
+        "form": "verb",
+        "group": "2nd conjugation",
+        "classification": "regular"
     },
     {
         "word": "подавать заявку",

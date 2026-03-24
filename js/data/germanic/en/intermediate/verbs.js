@@ -1,25 +1,37 @@
 (function() {
     const data = [
     {
-        "word": "photography",
+        "word": "photograph",
         "level": "intermediate",
         "theme": "society_community_B1",
         "emoji": "📷",
-        "form": "verb"
+        "form": "verb",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "photographed",
+        "v3": "photographed"
     },
     {
-        "word": "gardening",
+        "word": "garden",
         "level": "intermediate",
         "theme": "society_community_B1",
         "emoji": "🪴",
-        "form": "verb"
+        "form": "verb",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "gardened",
+        "v3": "gardened"
     },
     {
-        "word": "fishing",
+        "word": "fish",
         "level": "intermediate",
         "theme": "society_community_B1",
         "emoji": "🎣",
-        "form": "verb"
+        "form": "verb",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "fished",
+        "v3": "fished"
     },
     {
         "word": "volunteer",

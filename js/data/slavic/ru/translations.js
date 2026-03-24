@@ -1058,7 +1058,17 @@
                 "Русский — один из шести официальных языков ООН.",
                 "Слово 'космонавт' происходит от греческих слов 'космос' (вселенная) и 'навтес' (моряк).",
                 "Русский язык является обязательным для изучения всеми астронавтами на МКС."
-            ]
+            ],
+            verb_classification_regular: "Правильный",
+            verb_classification_irregular: "Неправильный",
+            verb_classification_both: "Оба",
+            verb_aspect_action: "Глагол действия",
+            verb_aspect_stative: "Стативный глагол",
+            verb_aspect_both: "Действие и состояние",
+            verb_group_1st_conj: "1-е спряжение",
+            verb_group_2nd_conj: "2-е спряжение",
+            verb_group_mixed_conj: "Смешанное спряжение",
+            verb_group_irregular: "Иррегулярный глагол"
          }
         };
     window.translations = window.translations || {};

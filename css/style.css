@@ -158,6 +158,24 @@ h2 {
     background-color: var(--honey);
     color: var(--ink);
 }
+
+.class-badge {
+    background-color: var(--sage-mist);
+    color: var(--sage-deep);
+    border: 1px solid var(--sage);
+}
+
+.aspect-badge {
+    background-color: #fef0c7;
+    color: #a06b10;
+    border: 1px solid #e8a838;
+}
+
+.group-badge {
+    background-color: #e8f0e9;
+    color: #2e4a33;
+    border: 1px solid var(--sage-dark);
+}
 .topics-toggle-btn.secondary-btn:hover { background-color: var(--honey-dark); color: #fff; }
 
 footer {

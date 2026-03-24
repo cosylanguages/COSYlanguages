@@ -2,6 +2,8 @@
     const data = [
     {
         "verb": "είμαι",
+        "group": "irregular",
+        "classification": "irregular",
         "level": "starter",
         "pronouns": [
             "εγώ",
@@ -134,6 +136,8 @@
     },
     {
         "verb": "έχω",
+        "group": "Group A",
+        "classification": "regular",
         "level": "starter",
         "pronouns": [
             "εγώ",
@@ -266,6 +270,8 @@
     },
     {
         "verb": "δουλεύω",
+        "group": "Group A",
+        "classification": "regular",
         "level": "starter",
         "pronouns": [
             "εγώ",
@@ -398,6 +404,8 @@
     },
     {
         "verb": "κάνω",
+        "group": "Group A",
+        "classification": "regular",
         "level": "starter",
         "pronouns": [
             "εγώ",
@@ -530,6 +538,8 @@
     },
     {
         "verb": "πηγαίνω",
+        "group": "Group A (irregular)",
+        "classification": "irregular",
         "level": "starter",
         "pronouns": [
             "εγώ",
@@ -662,6 +672,8 @@
     },
     {
         "verb": "μιλάω",
+        "group": "Group B1",
+        "classification": "regular",
         "level": "starter",
         "pronouns": [
             "εγώ",

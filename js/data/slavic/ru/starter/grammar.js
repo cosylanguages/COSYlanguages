@@ -2,6 +2,8 @@
     const data = [
     {
         "verb": "быть",
+        "group": "irregular",
+        "classification": "irregular",
         "level": "starter",
         "pronouns": [
             "я",
@@ -114,6 +116,8 @@
     },
     {
         "verb": "работать",
+        "group": "1st conjugation",
+        "classification": "regular",
         "level": "starter",
         "pronouns": [
             "я",
@@ -194,6 +198,8 @@
     },
     {
         "verb": "делать",
+        "group": "1st conjugation",
+        "classification": "regular",
         "level": "starter",
         "pronouns": [
             "я",
@@ -306,6 +312,8 @@
     },
     {
         "verb": "идти",
+        "group": "1st conjugation (irregular)",
+        "classification": "irregular",
         "level": "starter",
         "pronouns": [
             "я",
@@ -418,6 +426,8 @@
     },
     {
         "verb": "говорить",
+        "group": "2nd conjugation",
+        "classification": "regular",
         "level": "starter",
         "pronouns": [
             "я",

@@ -5,105 +5,150 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "considéré"
     },
     {
         "word": "apparaître",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👻",
-        "form": "verb"
+        "form": "verb",
+        "group": "-re",
+        "classification": "irregular",
+        "past_participle": "apparu"
     },
     {
         "word": "attendre",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💭",
-        "form": "verb"
+        "form": "verb",
+        "group": "-re",
+        "classification": "regular",
+        "past_participle": "attendu"
     },
     {
         "word": "servir",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ir",
+        "classification": "irregular",
+        "past_participle": "servi"
     },
     {
         "word": "construire",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🏗️",
-        "form": "verb"
+        "form": "verb",
+        "group": "-re",
+        "classification": "irregular",
+        "past_participle": "construit"
     },
     {
         "word": "rester",
         "level": "elementary",
         "theme": "condition_state_A2",
         "emoji": "⏳",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "resté"
     },
     {
         "word": "atteindre",
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🏁",
-        "form": "verb"
+        "form": "verb",
+        "group": "-re",
+        "classification": "irregular",
+        "past_participle": "atteint"
     },
     {
         "word": "tuer",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "tué"
     },
     {
         "word": "suggérer",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💡",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "suggéré"
     },
     {
         "word": "lever",
         "level": "elementary",
         "theme": "family_life_A1",
         "emoji": "🙋",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "levé"
     },
     {
         "word": "exiger",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📜",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "exigé"
     },
     {
         "word": "rapporter",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📋",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "rapporté"
     },
     {
         "word": "décider",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚖️",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "décidé"
     },
     {
         "word": "expliquer",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👨‍🏫",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "expliqué"
     },
     {
         "word": "développer",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "💻",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "développé"
     },
     {
         "word": "soutenir",
@@ -149,42 +194,60 @@
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🥊",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "frappé"
     },
     {
         "word": "produire",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏭",
-        "form": "verb"
+        "form": "verb",
+        "group": "-re",
+        "classification": "irregular",
+        "past_participle": "produit"
     },
     {
         "word": "faire face",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👤",
-        "form": "verb"
+        "form": "verb",
+        "group": "irregular",
+        "classification": "irregular",
+        "past_participle": "fait face"
     },
     {
         "word": "couvrir",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
-        "form": "verb"
+        "form": "verb",
+        "group": "-ir",
+        "classification": "irregular",
+        "past_participle": "couvert"
     },
     {
         "word": "décrire",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📝",
-        "form": "verb"
+        "form": "verb",
+        "group": "-re",
+        "classification": "irregular",
+        "past_participle": "décrit"
     },
     {
         "word": "attraper",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
-        "form": "verb"
+        "form": "verb",
+        "group": "-er",
+        "classification": "regular",
+        "past_participle": "attrapé"
     },
     {
         "word": "postuler",
