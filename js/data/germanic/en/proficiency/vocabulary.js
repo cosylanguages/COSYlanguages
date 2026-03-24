@@ -46,13 +46,6 @@
         "emoji": "🔄",
         "form": "noun",
         "plural": "paradigm shifts"
-    },
-    {
-        "word": "interdisciplinary",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
-        "emoji": "🧪",
-        "form": "adjective"
     }
 ];
     const lang = "en";

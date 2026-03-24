@@ -342,23 +342,6 @@
         ]
     },
     {
-        "word": "гражданский",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
-        "gender": "он",
-        "emoji": "🏛️",
-        "form": "adjective",
-        "subtext": "гражданский долг, общественный",
-        "definitions": [
-            {
-                "text": "Относящийся к городу, обществу или его жителям.",
-                "examples": [
-                    "Участие в выборах — это гражданский долг."
-                ]
-            }
-        ]
-    },
-    {
         "word": "дискурс",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -450,41 +433,6 @@
         ]
     },
     {
-        "word": "хронический",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
-        "gender": "он",
-        "emoji": "⏳🤒",
-        "form": "adjective",
-        "subtext": "хроническая боль, длительный",
-        "opposite": "острый",
-        "definitions": [
-            {
-                "text": "Длительный; о состоянии здоровья, которое является постоянным.",
-                "examples": [
-                    "Она страдает от хронических болей в спине."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "превентивный",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
-        "gender": "он",
-        "emoji": "🛡️",
-        "form": "adjective",
-        "subtext": "профилактический, упреждающий",
-        "definitions": [
-            {
-                "text": "Направленный на предотвращение чего-то плохого.",
-                "examples": [
-                    "Превентивная медицина снижает долгосрочные расходы."
-                ]
-            }
-        ]
-    },
-    {
         "word": "ожирение",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -516,40 +464,6 @@
                 "text": "Среднее количество лет, которое человек может прожить.",
                 "examples": [
                     "Продолжительность жизни увеличилась в большинстве стран."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "нравственный",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
-        "gender": "он",
-        "emoji": "⚖️",
-        "form": "adjective",
-        "subtext": "моральный, этический",
-        "definitions": [
-            {
-                "text": "Относящийся к принципам правильного и неправильного поведения.",
-                "examples": [
-                    "Она приняла нравственное решение отказаться от денег."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "этичный",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
-        "gender": "он",
-        "emoji": "🤔⚖️",
-        "form": "adjective",
-        "subtext": "этичное поведение",
-        "definitions": [
-            {
-                "text": "Относящийся к этике; следующий принятым правилам правильного поведения.",
-                "examples": [
-                    "Компании должны работать этично."
                 ]
             }
         ]
@@ -741,23 +655,6 @@
                 "text": "Используется для показа разницы между двумя вещами.",
                 "examples": [
                     "В Швеции длинный отпуск по уходу за ребенком. Напротив, в США его почти нет."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "устойчивый",
-        "level": "upper-intermediate",
-        "theme": "environment_policy_B2",
-        "gender": "он",
-        "emoji": "🌱",
-        "form": "adjective",
-        "subtext": "экологически чистый",
-        "definitions": [
-            {
-                "text": "Не наносящий ущерба окружающей среде.",
-                "examples": [
-                    "Нам нужны устойчивые методы развития."
                 ]
             }
         ]

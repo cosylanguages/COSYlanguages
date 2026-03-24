@@ -326,22 +326,6 @@
         ]
     },
     {
-        "word": "civique",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
-        "emoji": "🏛️",
-        "form": "adjective",
-        "subtext": "devoir civique, engagement citoyen",
-        "definitions": [
-            {
-                "text": "Relatif à un citoyen, à une ville ou à leur vie politique.",
-                "examples": [
-                    "Voter est un devoir civique."
-                ]
-            }
-        ]
-    },
-    {
         "word": "discours",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -433,39 +417,6 @@
         ]
     },
     {
-        "word": "chronique",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
-        "emoji": "⏳🤒",
-        "form": "adjective",
-        "subtext": "douleur chronique, maladie de longue durée",
-        "opposite": "aigu",
-        "definitions": [
-            {
-                "text": "Qui dure longtemps ou revient souvent.",
-                "examples": [
-                    "Elle souffre de maux de dos chroniques."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "préventif",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
-        "emoji": "🛡️",
-        "form": "adjective",
-        "subtext": "médecine préventive, mesure de précaution",
-        "definitions": [
-            {
-                "text": "Conçu pour empêcher quelque chose de mal de se produire.",
-                "examples": [
-                    "La médecine préventive réduit les coûts à long terme."
-                ]
-            }
-        ]
-    },
-    {
         "word": "obésité",
         "level": "upper-intermediate",
         "theme": "health_society_B2",
@@ -497,38 +448,6 @@
                 "text": "Nombre moyen d'années qu'une personne peut espérer vivre.",
                 "examples": [
                     "L'espérance de vie a augmenté dans la plupart des pays."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "moral",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
-        "emoji": "⚖️",
-        "form": "adjective",
-        "subtext": "décision morale, éthique",
-        "definitions": [
-            {
-                "text": "Relatif aux principes du bien et du mal.",
-                "examples": [
-                    "Elle a pris une décision morale en refusant l'argent."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "éthique",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
-        "emoji": "🤔⚖️",
-        "form": "adjective",
-        "subtext": "conduite éthique, déontologie",
-        "definitions": [
-            {
-                "text": "Relatif à l'éthique ; conforme aux règles de conduite acceptées.",
-                "examples": [
-                    "Les entreprises doivent fonctionner de manière éthique."
                 ]
             }
         ]
@@ -720,21 +639,6 @@
                 "text": "Utilisé pour montrer une différence entre deux choses.",
                 "examples": [
                     "La Suède a un long congé parental. Par contre, les États-Unis en ont très peu."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "durable",
-        "level": "upper-intermediate",
-        "theme": "environment_policy_B2",
-        "emoji": "🌱",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Qui peut durer longtemps ; qui respecte l'environnement.",
-                "examples": [
-                    "Le développement durable est essentiel."
                 ]
             }
         ]

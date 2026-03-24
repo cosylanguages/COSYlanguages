@@ -47,12 +47,6 @@
         ]
     },
     {
-        "word": "charismatic",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
-        "form": "adjective"
-    },
-    {
         "word": "virtual reality",
         "level": "advanced",
         "theme": "science_tech_society_C1",

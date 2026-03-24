@@ -691,22 +691,6 @@
         ]
     },
     {
-        "word": "sostenibile",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "♻️",
-        "form": "adjective",
-        "opposite": "insostenibile",
-        "definitions": [
-            {
-                "text": "Usare le risorse in modo da non danneggiare l'ambiente per il futuro.",
-                "examples": [
-                    "Abbiamo bisogno di stili di vita più sostenibili."
-                ]
-            }
-        ]
-    },
-    {
         "word": "rifiuti",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
