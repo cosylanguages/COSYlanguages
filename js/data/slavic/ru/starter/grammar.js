@@ -2,9 +2,12 @@
     const data = [
     {
         "verb": "быть",
-        "group": "irregular",
+        "group": "неправильный",
         "classification": "irregular",
+        "aspect": "stative",
         "level": "starter",
+        "v2": "был",
+        "v3": "была",
         "pronouns": [
             "я",
             "ты",
@@ -116,9 +119,12 @@
     },
     {
         "verb": "работать",
-        "group": "1st conjugation",
+        "group": "1-е спряжение",
         "classification": "regular",
+        "aspect": "action",
         "level": "starter",
+        "v2": "работал",
+        "v3": "работала",
         "pronouns": [
             "я",
             "ты",
@@ -198,9 +204,12 @@
     },
     {
         "verb": "делать",
-        "group": "1st conjugation",
+        "group": "1-е спряжение",
         "classification": "regular",
+        "aspect": "action",
         "level": "starter",
+        "v2": "делал",
+        "v3": "делала",
         "pronouns": [
             "я",
             "ты",
@@ -312,9 +321,12 @@
     },
     {
         "verb": "идти",
-        "group": "1st conjugation (irregular)",
+        "group": "1-е спряжение",
         "classification": "irregular",
+        "aspect": "action",
         "level": "starter",
+        "v2": "шёл",
+        "v3": "шла",
         "pronouns": [
             "я",
             "ты",
@@ -426,9 +438,12 @@
     },
     {
         "verb": "говорить",
-        "group": "2nd conjugation",
+        "group": "2-е спряжение",
         "classification": "regular",
+        "aspect": "action",
         "level": "starter",
+        "v2": "говорил",
+        "v3": "говорила",
         "pronouns": [
             "я",
             "ты",

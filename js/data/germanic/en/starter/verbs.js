@@ -1,6 +1,730 @@
 (function() {
     const data = [
     {
+        "word": "be",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "👤",
+        "subtext": "be tired / be happy / be at work / be ready",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To exist; to have a quality or state.",
+                "examples": [
+                    "I am tired. She is a doctor. We are late."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "was/were",
+        "v3": "been"
+    },
+    {
+        "word": "have",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "👜",
+        "subtext": "have a job / have lunch / have a problem / have time",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To possess something; to experience something.",
+                "examples": [
+                    "I have a job. He has a car. She has a headache."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "had",
+        "v3": "had"
+    },
+    {
+        "word": "do",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛠️",
+        "subtext": "do work / do the shopping / do exercise / do nothing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To perform an action or activity.",
+                "examples": [
+                    "I do my work every day. She does the shopping."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "did",
+        "v3": "done"
+    },
+    {
+        "word": "go",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚶",
+        "subtext": "go to work / go home / go out / go shopping",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move from one place to another.",
+                "examples": [
+                    "I go to work by bus. She goes to the doctor."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "went",
+        "v3": "gone"
+    },
+    {
+        "word": "come",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🏃‍♂️",
+        "subtext": "come home / come to work / come back / come here",
+        "opposite": "go",
+        "oppositeEmoji": "🚶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move towards a place or person.",
+                "examples": [
+                    "He comes to the office at nine. She comes home late."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "came",
+        "v3": "come"
+    },
+    {
+        "word": "eat",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍎",
+        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
+        "opposite": "drink",
+        "oppositeEmoji": "🥛",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put food in your mouth and swallow it.",
+                "examples": [
+                    "We eat dinner at seven. He eats lunch at his desk."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "ate",
+        "v3": "eaten"
+    },
+    {
+        "word": "drink",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "emoji": "🥛",
+        "subtext": "drink coffee / drink tea / drink water / drink beer",
+        "opposite": "eat",
+        "oppositeEmoji": "🍎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take liquid into your mouth and swallow it.",
+                "examples": [
+                    "She drinks coffee every morning. I drink water."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drank",
+        "v3": "drunk"
+    },
+    {
+        "word": "sleep",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "😴",
+        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
+        "opposite": "wake up",
+        "oppositeEmoji": "⏰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To rest with your eyes closed in a natural state of unconsciousness.",
+                "examples": [
+                    "He sleeps seven hours a night. I sleep badly."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "slept",
+        "v3": "slept"
+    },
+    {
+        "word": "work",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💼",
+        "subtext": "work from home / work full-time / work hard / work late",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do a job in order to earn money.",
+                "examples": [
+                    "She works in a hospital. I work from home."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "worked",
+        "v3": "worked"
+    },
+    {
+        "word": "live",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "🏠",
+        "subtext": "live in a flat / live alone / live with someone / live abroad",
+        "opposite": "die",
+        "oppositeEmoji": "⚰️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have your home in a place; to be alive.",
+                "examples": [
+                    "He lives in a flat near the centre. We live together."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "lived",
+        "v3": "lived"
+    },
+    {
+        "word": "like",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "👍",
+        "subtext": "like work / like to travel / like someone / like the idea",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To find something pleasant; to enjoy.",
+                "examples": [
+                    "I like my job. She likes cooking. He likes coffee."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "liked",
+        "v3": "liked"
+    },
+    {
+        "word": "want",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🙏",
+        "subtext": "want a job / want to leave / want more money / want help",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To desire or wish for something.",
+                "examples": [
+                    "I want a coffee. She wants a better job. He wants to retire."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "wanted",
+        "v3": "wanted"
+    },
+    {
+        "word": "need",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🆘",
+        "subtext": "need help / need time / need money / need to rest",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To require something; to feel that something is necessary.",
+                "examples": [
+                    "I need a break. She needs help. We need more time."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "needed",
+        "v3": "needed"
+    },
+    {
+        "word": "see",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "👁️",
+        "subtext": "see a doctor / see friends / see the problem / see clearly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To notice or perceive with the eyes.",
+                "examples": [
+                    "I see my doctor tomorrow. She sees the problem."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "saw",
+        "v3": "seen"
+    },
+    {
+        "word": "hear",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "👂",
+        "subtext": "hear news / hear from someone / hear a sound / hear clearly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To perceive sound through the ears.",
+                "examples": [
+                    "I hear the alarm every morning. Can you hear me?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "heard",
+        "v3": "heard"
+    },
+    {
+        "word": "feel",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🌡️",
+        "subtext": "feel tired / feel better / feel well / feel stressed",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To experience an emotion or physical sensation.",
+                "examples": [
+                    "I feel tired. She feels stressed. He feels better."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "felt",
+        "v3": "felt"
+    },
+    {
+        "word": "know",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🧠",
+        "subtext": "know someone / know the answer / know a place / know how to",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have information or awareness about something.",
+                "examples": [
+                    "I know his name. She knows the answer. Do you know him?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "knew",
+        "v3": "known"
+    },
+    {
+        "word": "think",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "💭",
+        "subtext": "think about / think of / think it is / think carefully",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a belief or opinion; to use the mind.",
+                "examples": [
+                    "I think it is a good idea. She thinks about her job."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "thought",
+        "v3": "thought"
+    },
+    {
+        "word": "speak",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗣️",
+        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say words; to communicate verbally.",
+                "examples": [
+                    "He speaks French. She speaks to her manager every day."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spoke",
+        "v3": "spoken"
+    },
+    {
+        "word": "say",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗨️",
+        "subtext": "say hello / say yes / say no / say something",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To express something in words.",
+                "examples": [
+                    "She says hello every morning. He says it is difficult."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "said",
+        "v3": "said"
+    },
+    {
+        "word": "ask",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "❓",
+        "subtext": "ask a question / ask for help / ask someone / ask about",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put a question to someone; to request something.",
+                "examples": [
+                    "She asks a lot of questions. I ask my boss for advice."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "asked",
+        "v3": "asked"
+    },
+    {
+        "word": "give",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "subtext": "give advice / give money / give a present / give information",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To hand or transfer something to someone.",
+                "examples": [
+                    "He gives me a lot of work. She gives advice."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "gave",
+        "v3": "given"
+    },
+    {
+        "word": "take",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "👜",
+        "subtext": "take the bus / take medicine / take a break / take time",
+        "opposite": "give",
+        "oppositeEmoji": "🎁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To hold and move something; to use or consume.",
+                "examples": [
+                    "I take the bus to work. She takes medicine."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "took",
+        "v3": "taken"
+    },
+    {
+        "word": "make",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏗️",
+        "subtext": "make coffee / make a decision / make a mistake / make money",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To create or produce something; to cause something.",
+                "examples": [
+                    "I make coffee in the morning. She makes a decision."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "made",
+        "v3": "made"
+    },
+    {
+        "word": "get",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📥",
+        "subtext": "get a job / get tired / get better / get home",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To receive, obtain or become.",
+                "examples": [
+                    "I get a good salary. He gets tired quickly. She gets a promotion."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "got",
+        "v3": "got/gotten"
+    },
+    {
+        "word": "pay",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💰",
+        "subtext": "pay the rent / pay by card / pay cash / pay a bill",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give money for something.",
+                "examples": [
+                    "I pay the rent every month. He pays by card."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "paid",
+        "v3": "paid"
+    },
+    {
+        "word": "buy",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🛒",
+        "subtext": "buy food / buy a ticket / buy online / buy a house",
+        "opposite": "sell",
+        "oppositeEmoji": "🏷️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get something in exchange for money.",
+                "examples": [
+                    "She buys food online. He wants to buy a flat."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "bought",
+        "v3": "bought"
+    },
+    {
+        "word": "open",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "subtext": "open a door / open an account / open a shop / open at nine",
+        "opposite": "close",
+        "oppositeEmoji": "🔒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something not closed; or to start.",
+                "examples": [
+                    "He opens the office at eight. She opens a bank account."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "opened",
+        "v3": "opened"
+    },
+    {
+        "word": "close",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔒",
+        "subtext": "close a door / close at six / close an account / close the meeting",
+        "opposite": "open",
+        "oppositeEmoji": "📖",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something not open; or to finish.",
+                "examples": [
+                    "The office closes at six. She closes her laptop."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "closed",
+        "v3": "closed"
+    },
+    {
+        "word": "start",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "▶️",
+        "subtext": "start work / start a meeting / start a new job / start early",
+        "opposite": "finish",
+        "oppositeEmoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To begin doing something.",
+                "examples": [
+                    "I start work at eight thirty. She starts a new job."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "started",
+        "v3": "started"
+    },
+    {
+        "word": "finish",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🏁",
+        "subtext": "finish work / finish a project / finish early / finish late",
+        "opposite": "start",
+        "oppositeEmoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To complete something; to come to an end.",
+                "examples": [
+                    "He finishes work at five. She finishes the report."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "finished",
+        "v3": "finished"
+    },
+    {
+        "word": "use",
+        "level": "starter",
+        "theme": "technology_media",
+        "emoji": "🛠️",
+        "subtext": "use a phone / use public transport / use a computer / use time",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To employ something for a purpose.",
+                "examples": [
+                    "I use my phone for everything. She uses public transport."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "used",
+        "v3": "used"
+    },
+    {
+        "word": "walk",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚶",
+        "subtext": "walk to work / walk home / walk slowly / walk every day",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move on foot at a normal pace.",
+                "examples": [
+                    "He walks to work every day. She walks during her lunch break."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "walked",
+        "v3": "walked"
+    },
+    {
+        "word": "drive",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚗",
+        "subtext": "drive to work / drive a car / drive home / drive carefully",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To operate a vehicle.",
+                "examples": [
+                    "She drives to work. He drives a company car."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "drove",
+        "v3": "driven"
+    },
+    {
+        "word": "call",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "📞",
+        "subtext": "call someone / call a meeting / call back / call in sick",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To telephone someone.",
+                "examples": [
+                    "I call my boss every morning. She calls a meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "called",
+        "v3": "called"
+    },
+    {
         "word": "wake up",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -22,50 +746,6 @@
         "aspect": "action",
         "v2": "woke up",
         "v3": "woken up"
-    },
-    {
-        "word": "work",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "💼",
-        "subtext": "work in an office, work hard",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To do a job to earn money.",
-                "examples": [
-                    "I work five days a week.",
-                    "She works at a bank."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "worked",
-        "v3": "worked"
-    },
-    {
-        "word": "sleep",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "😴",
-        "subtext": "sleep 8 hours, go to sleep",
-        "opposite": "wake up",
-        "oppositeEmoji": "⏰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To rest with your eyes closed.",
-                "examples": [
-                    "I need to sleep.",
-                    "The baby is sleeping."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "slept",
-        "v3": "slept"
     },
     {
         "word": "watch",
@@ -112,262 +792,6 @@
         "v3": "read"
     },
     {
-        "word": "be",
-        "level": "starter",
-        "theme": "personal_identity",
-        "emoji": "👤",
-        "subtext": "be cold, be 20 years old",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To exist or live.",
-                "examples": [
-                    "I am a student.",
-                    "She is happy."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "was/were",
-        "v3": "been"
-    },
-    {
-        "word": "have",
-        "level": "starter",
-        "theme": "personal_identity",
-        "emoji": "👜",
-        "subtext": "have breakfast, have a car",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To own or possess something.",
-                "examples": [
-                    "I have a red car.",
-                    "We have two cats."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "had",
-        "v3": "had"
-    },
-    {
-        "word": "go",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🚶",
-        "subtext": "go to school, go home",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move from one place to another.",
-                "examples": [
-                    "I go to school by bus.",
-                    "Let's go home."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "went",
-        "v3": "gone"
-    },
-    {
-        "word": "eat",
-        "level": "starter",
-        "theme": "basic_foods_A0",
-        "emoji": "🍎",
-        "subtext": "eat an apple, eat dinner",
-        "opposite": "drink",
-        "oppositeEmoji": "🥛",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To put food in your mouth and swallow it.",
-                "examples": [
-                    "I eat an apple every day.",
-                    "What do you want to eat?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "ate",
-        "v3": "eaten"
-    },
-    {
-        "word": "drink",
-        "level": "starter",
-        "theme": "drinks_A0",
-        "emoji": "🥛",
-        "subtext": "drink water, drink coffee",
-        "opposite": "eat",
-        "oppositeEmoji": "🍎",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take liquid into your mouth and swallow it.",
-                "examples": [
-                    "I drink a lot of water.",
-                    "Do you want a drink?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "drank",
-        "v3": "drunk"
-    },
-    {
-        "word": "do",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "subtext": "do homework, do sport",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To perform an action or activity.",
-                "examples": [
-                    "I do my homework in the afternoon.",
-                    "What are you doing?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "did",
-        "v3": "done"
-    },
-    {
-        "word": "speak",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "🗣️",
-        "subtext": "speak English, speak slowly",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To use your voice to say words.",
-                "examples": [
-                    "I speak English and French.",
-                    "Please speak slowly."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "spoke",
-        "v3": "spoken"
-    },
-    {
-        "word": "know",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "🧠",
-        "subtext": "know the answer, know a person",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have information about something in your mind.",
-                "examples": [
-                    "I know the answer.",
-                    "Do you know that man?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "knew",
-        "v3": "known"
-    },
-    {
-        "word": "think",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "💭",
-        "subtext": "think about, think that",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To use your mind to have ideas or opinions.",
-                "examples": [
-                    "I think this is a good idea.",
-                    "What do you think about the movie?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "thought",
-        "v3": "thought"
-    },
-    {
-        "word": "see",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "👁️",
-        "subtext": "see a movie, see a friend",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To use your eyes to look at something.",
-                "examples": [
-                    "I can see a bird.",
-                    "Did you see that movie?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "saw",
-        "v3": "seen"
-    },
-    {
-        "word": "want",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "🙏",
-        "subtext": "want water, want to go",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To feel that you would like to have or do something.",
-                "examples": [
-                    "I want a glass of water.",
-                    "I want to go home."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "wanted",
-        "v3": "wanted"
-    },
-    {
-        "word": "like",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "👍",
-        "subtext": "like chocolate, like dancing",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To enjoy something or think it is nice.",
-                "examples": [
-                    "I like chocolate.",
-                    "Do you like dancing?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "liked",
-        "v3": "liked"
-    },
-    {
         "word": "love",
         "level": "starter",
         "theme": "feelings_emotions",
@@ -412,75 +836,6 @@
         "v3": "written"
     },
     {
-        "word": "come",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🏃‍♂️",
-        "subtext": "come here, come home",
-        "opposite": "go",
-        "oppositeEmoji": "🚶",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move toward the speaker or the place where they are.",
-                "examples": [
-                    "Please come here.",
-                    "He is coming to the party."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "came",
-        "v3": "come"
-    },
-    {
-        "word": "give",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🎁",
-        "subtext": "give a gift, give help",
-        "opposite": "take",
-        "oppositeEmoji": "👜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To hand something to someone so that they can keep it.",
-                "examples": [
-                    "Can you give me that book?",
-                    "I give gifts to my family."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "gave",
-        "v3": "given"
-    },
-    {
-        "word": "take",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "👜",
-        "subtext": "take a bus, take a photo",
-        "opposite": "give",
-        "oppositeEmoji": "🎁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To get something into your hands or possession.",
-                "examples": [
-                    "I take the bus to work.",
-                    "She takes beautiful photos."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "took",
-        "v3": "taken"
-    },
-    {
         "word": "find",
         "level": "starter",
         "theme": "everyday_shopping_A0",
@@ -519,46 +874,6 @@
         "aspect": "action",
         "v2": "told",
         "v3": "told"
-    },
-    {
-        "word": "ask",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "❓",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To say something to someone because you want to know something.",
-                "examples": [
-                    "I need to ask a question.",
-                    "She asked me for help."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "asked",
-        "v3": "asked"
-    },
-    {
-        "word": "feel",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "🌡️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To experience an emotion or physical sensation.",
-                "examples": [
-                    "I feel happy today.",
-                    "Do you feel cold?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "felt",
-        "v3": "felt"
     },
     {
         "word": "try",
@@ -601,26 +916,6 @@
         "v3": "left"
     },
     {
-        "word": "call",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "📞",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To phone someone or to shout their name.",
-                "examples": [
-                    "Call me later.",
-                    "He called my name."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "called",
-        "v3": "called"
-    },
-    {
         "word": "look",
         "level": "starter",
         "theme": "health_body",
@@ -639,68 +934,6 @@
         "aspect": "both",
         "v2": "looked",
         "v3": "looked"
-    },
-    {
-        "word": "use",
-        "level": "starter",
-        "theme": "technology_media",
-        "emoji": "🛠️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To do something with an object to complete a task.",
-                "examples": [
-                    "I use a computer for work.",
-                    "Can I use your pen?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "used",
-        "v3": "used"
-    },
-    {
-        "word": "get",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "📥",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To receive, buy, or obtain something.",
-                "examples": [
-                    "I get a lot of emails.",
-                    "Can you get some milk?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "got",
-        "v3": "got/gotten"
-    },
-    {
-        "word": "start",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "▶️",
-        "opposite": "finish",
-        "oppositeEmoji": "🏁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To begin doing something.",
-                "examples": [
-                    "The movie starts at 7pm.",
-                    "Let's start the meeting."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "started",
-        "v3": "started"
     },
     {
         "word": "help",
@@ -781,28 +1014,6 @@
         "aspect": "action",
         "v2": "ran",
         "v3": "run"
-    },
-    {
-        "word": "live",
-        "level": "starter",
-        "theme": "personal_identity",
-        "emoji": "🏠",
-        "opposite": "die",
-        "oppositeEmoji": "⚰️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have your home in a particular place.",
-                "examples": [
-                    "I live in London.",
-                    "She lives with her family."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "lived",
-        "v3": "lived"
     },
     {
         "word": "bring",
@@ -889,26 +1100,6 @@
         "aspect": "action",
         "v2": "lost",
         "v3": "lost"
-    },
-    {
-        "word": "pay",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "💰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To give money for something.",
-                "examples": [
-                    "I pay for my coffee.",
-                    "How do you want to pay?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "paid",
-        "v3": "paid"
     },
     {
         "word": "meet",
@@ -1050,28 +1241,6 @@
         "v3": "spent"
     },
     {
-        "word": "open",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "📖",
-        "opposite": "close",
-        "oppositeEmoji": "🔒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move something so that an opening is not covered.",
-                "examples": [
-                    "Open the door.",
-                    "Can you open the window?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "opened",
-        "v3": "opened"
-    },
-    {
         "word": "walk",
         "level": "starter",
         "theme": "modes_of_transport_A0",
@@ -1131,28 +1300,6 @@
         "aspect": "stative",
         "v2": "remembered",
         "v3": "remembered"
-    },
-    {
-        "word": "buy",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🛒",
-        "opposite": "sell",
-        "oppositeEmoji": "🏷️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To get something by paying money for it.",
-                "examples": [
-                    "I want to buy a new phone.",
-                    "Where can I buy milk?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "bought",
-        "v3": "bought"
     },
     {
         "word": "wait",
@@ -1781,32 +1928,6 @@
         "aspect": "action",
         "v2": "listened",
         "v3": "listened"
-    },
-    {
-        "word": "close",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🔒",
-        "opposite": "open",
-        "oppositeEmoji": "📖",
-        "form": "verb",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "closed",
-        "v3": "closed"
-    },
-    {
-        "word": "finish",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "🏁",
-        "opposite": "start",
-        "oppositeEmoji": "▶️",
-        "form": "verb",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "finished",
-        "v3": "finished"
     },
     {
         "word": "commute",

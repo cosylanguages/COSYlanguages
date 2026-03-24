@@ -6,6 +6,10 @@
         "theme": "society_community_B1",
         "emoji": "🧑‍🌾",
         "form": "verb",
+        "group": "locuzione",
+        "classification": "irregular",
+        "aspect": "action",
+        "subtext": "giardinaggio biologico",
         "definitions": [
             {
                 "text": "Lavorare in un giardino per far crescere le piante.",
@@ -13,7 +17,8 @@
                     "Gli piace fare giardinaggio nel fine settimana."
                 ]
             }
-        ]
+        ],
+        "v3": "fatto giardinaggio"
     },
     {
         "word": "fare volontariato",
@@ -21,6 +26,9 @@
         "theme": "society_community_B1",
         "emoji": "🙋",
         "form": "verb",
+        "group": "locuzione",
+        "classification": "irregular",
+        "aspect": "action",
         "subtext": "prestare servizio",
         "definitions": [
             {
@@ -29,7 +37,8 @@
                     "Fa volontariato alla banca alimentare locale."
                 ]
             }
-        ]
+        ],
+        "v3": "fatto volontariato"
     }
 ];
     const lang = "it";

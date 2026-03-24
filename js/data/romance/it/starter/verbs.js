@@ -1,6 +1,710 @@
 (function() {
     const data = [
     {
+        "word": "essere",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "👤",
+        "subtext": "essere stanco / essere felice / essere al lavoro / essere pronto",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Esistere; avere una qualità o uno stato.",
+                "examples": [
+                    "Sono stanco. Lei è un medico. Siamo in ritardo."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "essere",
+        "v3": "stato"
+    },
+    {
+        "word": "avere",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "👜",
+        "subtext": "avere un lavoro / avere un problema / avere tempo",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Possedere qualcosa; provare qualcosa.",
+                "examples": [
+                    "Ho un lavoro. Lui ha una macchina. Lei ha mal di testa."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "avere",
+        "v3": "avuto"
+    },
+    {
+        "word": "fare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛠️",
+        "subtext": "fare il lavoro / fare la spesa / fare esercizio / non fare nulla",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Compiere un'azione o un'attività; creare o produrre qualcosa.",
+                "examples": [
+                    "Faccio il mio lavoro ogni giorno. Lei fa la spesa."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-are (irregolare)",
+        "v3": "fatto"
+    },
+    {
+        "word": "andare",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚶",
+        "subtext": "andare al lavoro / andare a casa / uscire / fare shopping",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Spostarsi da un luogo a un altro.",
+                "examples": [
+                    "Vado al lavoro in autobus. Lei va dal dottore."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-are (irregolare)",
+        "v3": "andato"
+    },
+    {
+        "word": "venire",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🏃‍♂️",
+        "subtext": "venire a casa / venire al lavoro / tornare / venire qui",
+        "opposite": "andare",
+        "oppositeEmoji": "🚶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Spostarsi verso un luogo o una persona.",
+                "examples": [
+                    "Lui viene in ufficio alle nove. Lei viene a casa tardi."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ire (irregolare)",
+        "v3": "venuto"
+    },
+    {
+        "word": "mangiare",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍎",
+        "subtext": "mangiare la colazione / mangiare il pranzo / mangiare la cena / mangiare fuori",
+        "opposite": "bere",
+        "oppositeEmoji": "🥛",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettere cibo in bocca e deglutire.",
+                "examples": [
+                    "Mangiamo la cena alle sette. Lui mangia il pranzo alla sua scrivania."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "mangiato"
+    },
+    {
+        "word": "bere",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "emoji": "🥛",
+        "subtext": "bere caffè / bere tè / bere acqua / bere birra",
+        "opposite": "mangiare",
+        "oppositeEmoji": "🍎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Prendere un liquido in bocca e deglutire.",
+                "examples": [
+                    "Lei beve caffè ogni mattina. Io bevo acqua."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ere (irregolare)",
+        "v3": "bevuto"
+    },
+    {
+        "word": "dormire",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "😴",
+        "subtext": "dormire bene / dormire male / dormire otto ore / dormire tardi",
+        "opposite": "svegliarsi",
+        "oppositeEmoji": "⏰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Riposare con gli occhi chiusi in uno stato naturale di incoscienza.",
+                "examples": [
+                    "Lui dorme sette ore a notte. Io dormo male."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-ire",
+        "v3": "dormito"
+    },
+    {
+        "word": "lavorare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💼",
+        "subtext": "lavorare da casa / lavorare a tempo pieno / lavorare sodo / lavorare fino a tardi",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Svolgere un lavoro per guadagnare denaro.",
+                "examples": [
+                    "Lei lavora in un ospedale. Io lavoro da casa."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "lavorato"
+    },
+    {
+        "word": "vivere",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "🏠",
+        "subtext": "vivere in un appartamento / vivere da soli / vivere con qualcuno / vivere all'estero",
+        "opposite": "morire",
+        "oppositeEmoji": "⚰️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avere la propria casa in un luogo; essere vivo.",
+                "examples": [
+                    "Lui vive in un appartamento vicino al centro. Viviamo insieme."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "-ere (irregolare)",
+        "v3": "vissuto"
+    },
+    {
+        "word": "piacere",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "👍",
+        "subtext": "mi piace il lavoro / mi piace viaggiare / mi piace l'idea",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Trovare qualcosa di piacevole; gradire.",
+                "examples": [
+                    "Mi piace il mio lavoro. A lei piace cucinare. A lui piace il caffè."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "-ere (irregolare)",
+        "v3": "piaciuto"
+    },
+    {
+        "word": "volere",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🙏",
+        "subtext": "volere un lavoro / volere partire / volere più soldi / volere aiuto",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Desiderare o augurarsi qualcosa.",
+                "examples": [
+                    "Voglio un caffè. Lei vuole un lavoro migliore. Lui vuole andare in pensione."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "-ere (irregolare)",
+        "v3": "voluto"
+    },
+    {
+        "word": "avere bisogno di",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🆘",
+        "subtext": "bisogno di aiuto / bisogno di tempo / bisogno di soldi / bisogno di riposare",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Richiedere qualcosa; sentire che qualcosa è necessario.",
+                "examples": [
+                    "Ho bisogno di una pausa. Lei ha bisogno di aiuto. Abbiamo bisogno di più tempo."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "locuzione",
+        "v3": "avuto bisogno"
+    },
+    {
+        "word": "vedere",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "👁️",
+        "subtext": "vedere un dottore / vedere gli amici / vedere il problema / vedere chiaramente",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Notare o percepire con gli occhi.",
+                "examples": [
+                    "Vedo il mio dottore domani. Lei vede il problema."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "group": "-ere (irregolare)",
+        "v3": "visto"
+    },
+    {
+        "word": "udire",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "👂",
+        "subtext": "udire notizie / udire qualcuno / udire un suono / udire chiaramente",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Percepire il suono attraverso le orecchie.",
+                "examples": [
+                    "Odo l'allarme ogni mattina. Puoi udirmi?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "group": "-ire (irregolare)",
+        "v3": "udito"
+    },
+    {
+        "word": "sentire",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🌡️",
+        "subtext": "sentirsi stanco / sentirsi meglio / sentirsi bene / sentirsi stressato",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Provare un'emozione o una sensazione fisica.",
+                "examples": [
+                    "Mi sento stanco. Lei si sente stressata. Lui si sente meglio."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "group": "-ire",
+        "v3": "sentito"
+    },
+    {
+        "word": "sapere",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🧠",
+        "subtext": "conoscere qualcuno / sapere la risposta / conoscere un posto / sapere come fare",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avere informazioni o consapevolezza di qualcosa.",
+                "examples": [
+                    "So il suo nome. Lei sa la risposta. Lo conosci?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "-ere (irregolare)",
+        "v3": "saputo"
+    },
+    {
+        "word": "pensare",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "💭",
+        "subtext": "pensare a / pensare di / pensare che / pensare attentamente",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avere una credenza o un'opinione; usare la mente.",
+                "examples": [
+                    "Penso che sia una buona idea. Lei pensa al suo lavoro."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "group": "-are",
+        "v3": "pensato"
+    },
+    {
+        "word": "parlare",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗣️",
+        "subtext": "parlare con qualcuno / parlare italiano / parlare chiaramente / parlare a una riunione",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dire parole; comunicare verbalmente.",
+                "examples": [
+                    "Lui parla francese. Lei parla con il suo manager ogni giorno."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "parlato"
+    },
+    {
+        "word": "dire",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗨️",
+        "subtext": "dire ciao / dire di sì / dire di no / dire qualcosa",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Esprimere qualcosa a parole.",
+                "examples": [
+                    "Lei dice ciao ogni mattina. Lui dice che è difficile."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ire (irregolare)",
+        "v3": "detto"
+    },
+    {
+        "word": "chiedere",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "❓",
+        "subtext": "fare una domanda / chiedere aiuto / chiedere a qualcuno / chiedere di",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Porre una domanda a qualcuno; richiedere qualcosa.",
+                "examples": [
+                    "Lei fa un sacco di domande. Chiedo consiglio al mio capo."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ere (irregolare)",
+        "v3": "chiesto"
+    },
+    {
+        "word": "dare",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "subtext": "dare consigli / dare soldi / dare un regalo / dare informazioni",
+        "opposite": "prendere",
+        "oppositeEmoji": "👜",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Consegnare o trasferire qualcosa a qualcuno.",
+                "examples": [
+                    "Lui mi dà un sacco di lavoro. Lei dà consigli."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-are (irregolare)",
+        "v3": "dato"
+    },
+    {
+        "word": "prendere",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "👜",
+        "subtext": "prendere l'autobus / prendere una medicina / fare una pausa / prendere tempo",
+        "opposite": "dare",
+        "oppositeEmoji": "🎁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Tenere e spostare qualcosa; usare o consumare.",
+                "examples": [
+                    "Prendo l'autobus per andare al lavoro. Lei prende le medicine."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ere (irregolare)",
+        "v3": "preso"
+    },
+    {
+        "word": "ottenere",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📥",
+        "subtext": "ottenere un lavoro / stancarsi / migliorare / tornare a casa",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Ricevere, ottenere o diventare.",
+                "examples": [
+                    "Ottengo un buon stipendio. Lui si stanca velocemente. Lei ottiene una promozione."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ere (irregolare)",
+        "v3": "ottenuto"
+    },
+    {
+        "word": "pagare",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💰",
+        "subtext": "pagare l'affitto / pagare con carta / pagare in contanti / pagare una bolletta",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dare denaro per qualcosa.",
+                "examples": [
+                    "Pago l'affitto ogni mese. Lui paga con carta."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "pagato"
+    },
+    {
+        "word": "comprare",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🛒",
+        "subtext": "comprare cibo / comprare un biglietto / comprare online / comprare casa",
+        "opposite": "vendere",
+        "oppositeEmoji": "🏷️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Ottenere qualcosa in cambio di denaro.",
+                "examples": [
+                    "Lei compra cibo online. Lui vuole comprare un appartamento."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "comprato"
+    },
+    {
+        "word": "aprire",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "subtext": "aprire una porta / aprire un conto / aprire un negozio / aprire alle nove",
+        "opposite": "chiudere",
+        "oppositeEmoji": "🔒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Fare in modo che qualcosa non sia chiuso; o iniziare.",
+                "examples": [
+                    "Lui apre l'ufficio alle otto. Lei apre un conto bancario."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ire (irregolare)",
+        "v3": "aperto"
+    },
+    {
+        "word": "chiudere",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔒",
+        "subtext": "chiudere una porta / chiudere alle sei / chiudere un conto / chiudere la riunione",
+        "opposite": "aprire",
+        "oppositeEmoji": "📖",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Fare in modo che qualcosa non sia aperto; o finire.",
+                "examples": [
+                    "L'ufficio chiude alle sei. Lei chiude il portatile."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ere (irregolare)",
+        "v3": "chiuso"
+    },
+    {
+        "word": "iniziare",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "▶️",
+        "subtext": "iniziare il lavoro / iniziare una riunione / iniziare un nuovo lavoro / iniziare presto",
+        "opposite": "finire",
+        "oppositeEmoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Iniziare a fare qualcosa.",
+                "examples": [
+                    "Inizio a lavorare alle otto e mezza. Lei inizia un nuovo lavoro."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "iniziato"
+    },
+    {
+        "word": "finire",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🏁",
+        "subtext": "finire il lavoro / finire un progetto / finire presto / finire tardi",
+        "opposite": "iniziare",
+        "oppositeEmoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Completare qualcosa; giungere al termine.",
+                "examples": [
+                    "Lui finisce il lavoro alle cinque. Lei finisce il rapporto."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-ire",
+        "v3": "finito"
+    },
+    {
+        "word": "usare",
+        "level": "starter",
+        "theme": "technology_media",
+        "emoji": "🛠️",
+        "subtext": "usare un telefono / usare i mezzi pubblici / usare un computer / usare il tempo",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Impiegare qualcosa per uno scopo.",
+                "examples": [
+                    "Uso il mio telefono per tutto. Lei usa i mezzi pubblici."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "usato"
+    },
+    {
+        "word": "camminare",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚶",
+        "subtext": "camminare verso il lavoro / camminare verso casa / camminare lentamente / camminare ogni giorno",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Muoversi a piedi a passo normale.",
+                "examples": [
+                    "Lui cammina verso il lavoro ogni giorno. Lei cammina durante la pausa pranzo."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "camminato"
+    },
+    {
+        "word": "guidare",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚗",
+        "subtext": "guidare verso il lavoro / guidare la macchina / guidare verso casa / guidare con prudenza",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Azionare un veicolo.",
+                "examples": [
+                    "Lei guida verso il lavoro. Lui guida un'auto aziendale."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "guidato"
+    },
+    {
+        "word": "chiamare",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "📞",
+        "subtext": "chiamare qualcuno / convocare una riunione / richiamare / chiamare per malattia",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Telefonare a qualcuno.",
+                "examples": [
+                    "Chiamo il mio capo ogni mattina. Lei convoca una riunione."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "chiamato"
+    },
+    {
         "word": "svegliarsi",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -17,43 +721,11 @@
                     "A che ora ti svegli?"
                 ]
             }
-        ]
-    },
-    {
-        "word": "lavorare",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "💼",
-        "subtext": "lavorare in ufficio, lavorare sodo",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Fare un lavoro per guadagnare denaro.",
-                "examples": [
-                    "Lavoro cinque giorni a settimana.",
-                    "Lei lavora in banca."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "dormire",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "😴",
-        "subtext": "dormire 8 ore, andare a dormire",
-        "opposite": "svegliarsi",
-        "oppositeEmoji": "⏰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Riposare con gli occhi chiusi.",
-                "examples": [
-                    "Ho bisogno di dormire.",
-                    "Il bambino dorme."
-                ]
-            }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "svegliato"
     },
     {
         "word": "guardare",
@@ -70,7 +742,11 @@
                     "Guardano gli uccelli."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "guardato"
     },
     {
         "word": "leggere",
@@ -89,205 +765,11 @@
                     "Lei sa leggere l'italiano."
                 ]
             }
-        ]
-    },
-    {
-        "word": "essere",
-        "level": "starter",
-        "theme": "personal_identity",
-        "emoji": "👤",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Esistere o vivere.",
-                "examples": [
-                    "Io sono uno studente.",
-                    "Lei è felice."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "avere",
-        "level": "starter",
-        "theme": "personal_identity",
-        "emoji": "👜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Possedere qualcosa.",
-                "examples": [
-                    "Ho una macchina rossa.",
-                    "Abbiamo due gatti."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "andare",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🚶",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Spostarsi da un luogo all'altro.",
-                "examples": [
-                    "Vado a scuola in autobus.",
-                    "Andiamo a casa."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "mangiare",
-        "level": "starter",
-        "theme": "basic_foods_A0",
-        "emoji": "🍎",
-        "subtext": "mangiare una mela, mangiare la cena",
-        "opposite": "bere",
-        "oppositeEmoji": "🥛",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Mettere cibo in bocca e deglutire.",
-                "examples": [
-                    "Mangio una mela ogni giorno.",
-                    "Cosa vuoi mangiare?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "bere",
-        "level": "starter",
-        "theme": "drinks_A0",
-        "emoji": "🥛",
-        "subtext": "bere acqua, bere caffè",
-        "opposite": "mangiare",
-        "oppositeEmoji": "🍎",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Prendere un liquido per bocca e deglutire.",
-                "examples": [
-                    "Bevo molta acqua.",
-                    "Vuoi bere qualcosa?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "fare",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Compiere un'azione o un'attività.",
-                "examples": [
-                    "Faccio i compiti nel pomeriggio.",
-                    "Cosa fai ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "parlare",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "🗣️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Usare la propria voce per dire parole.",
-                "examples": [
-                    "Parlo italiano e inglese.",
-                    "Per favore, parla lentamente."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sapere",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "🧠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avere informazioni nella propria mente.",
-                "examples": [
-                    "So la risposta.",
-                    "Sai dov'è ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "pensare",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "💭",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Usare la propria mente per avere idee o opinioni.",
-                "examples": [
-                    "Penso che sia una buona idea.",
-                    "Cosa ne pensi ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vedere",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "👁️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Usare i propri occhi per guardare qualcosa.",
-                "examples": [
-                    "Vedo un uccello.",
-                    "Hai visto quel film ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "volere",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "🙏",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Desiderare di avere o fare qualcosa.",
-                "examples": [
-                    "Voglio un bicchiere d'acqua.",
-                    "Voglio andare a casa."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "amare",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "❤️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Provare un forte affetto per qualcuno o qualcosa.",
-                "examples": [
-                    "Amo la mia famiglia.",
-                    "Amo viaggiare."
-                ]
-            }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ere (irregolare)",
+        "v3": "letto"
     },
     {
         "word": "scrivere",
@@ -303,783 +785,11 @@
                     "Lei scrive libri per bambini."
                 ]
             }
-        ]
-    },
-    {
-        "word": "venire",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🏃‍♂️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Spostarsi verso il luogo dove si trova chi parla.",
-                "examples": [
-                    "Vieni qui, per favore.",
-                    "Viene alla festa."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "dare",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🎁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Consegnare qualcosa a qualcuno.",
-                "examples": [
-                    "Puoi darmi quel libro ?",
-                    "Do dei regali alla mia famiglia."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "prendere",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "👜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Afferrare o ottenere qualcosa.",
-                "examples": [
-                    "Prendo l'autobus per andare al lavoro.",
-                    "Lei scatta delle belle foto."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "trovare",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🔍",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Incontrare qualcosa dopo averlo cercato.",
-                "examples": [
-                    "Non riesco a trovare le mie chiavi.",
-                    "Hai trovato la strada ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "dire",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "🗣️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Esprimere qualcosa a parole.",
-                "examples": [
-                    "Dimmi una storia.",
-                    "Le ha detto la verità."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chiedere",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "❓",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Rivolgersi a qualcuno per sapere o ottenere qualcosa.",
-                "examples": [
-                    "Devo fare una domanda.",
-                    "Mi ha chiesto aiuto."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sentire",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "🌡️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Provare un'emozione o una sensazione fisica.",
-                "examples": [
-                    "Mi sento felice oggi.",
-                    "Hai freddo ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "provare",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "🎯",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Tentare di fare qualcosa.",
-                "examples": [
-                    "Provo a fare esercizio ogni giorno.",
-                    "Prova uno di questi biscotti."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "partire",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🚪",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Andare via da un luogo.",
-                "examples": [
-                    "Parto per il lavoro alle 8.",
-                    "Non lasciare la borsa qui."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chiamare",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "📞",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Telefonare a qualcuno o gridare il suo nome.",
-                "examples": [
-                    "Chiamami più tardi.",
-                    "Ha chiamato il mio nome."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "utilizzare",
-        "level": "starter",
-        "theme": "technology_media",
-        "emoji": "🛠️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Servirsi di qualcosa per compiere un compito.",
-                "examples": [
-                    "Uso un computer per il lavoro.",
-                    "Posso usare la tua penna ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "ottenere",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "📥",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Ricevere o comprare qualcosa.",
-                "examples": [
-                    "Ricevo molte e-mail.",
-                    "Puoi prendere del latte ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "iniziare",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "▶️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Cominciare a fare qualcosa.",
-                "examples": [
-                    "Il film inizia alle 19.",
-                    "Iniziamo la riunione."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "aiutare",
-        "level": "starter",
-        "theme": "society_politics",
-        "emoji": "🤝",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Fare qualcosa per qualcuno per rendere un compito più facile.",
-                "examples": [
-                    "Puoi aiutarmi ?",
-                    "Aiuto mia madre con la spesa."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "giocare",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🎮",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Divertirsi o partecipare a un gioco.",
-                "examples": [
-                    "Gioco a calcio con i miei amici.",
-                    "Le piace giocare ai videogiochi."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "correre",
-        "level": "starter",
-        "theme": "common_sports_A0",
-        "emoji": "🏃",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Muoversi molto velocemente sulle proprie gambe.",
-                "examples": [
-                    "Corro nel parco.",
-                    "Corre per prendere l'autobus."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vivere",
-        "level": "starter",
-        "theme": "personal_identity",
-        "emoji": "🏠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avere la propria casa in un luogo particolare.",
-                "examples": [
-                    "Vivo a Londra.",
-                    "Vive con la sua famiglia."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "portare",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🎁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Prendere qualcuno o qualcosa con sé in un luogo.",
-                "examples": [
-                    "Per favore, portami un bicchiere d'acqua.",
-                    "Porta il pranzo al lavoro."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sedersi",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🪑",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Poggiare il proprio peso sul sedere invece che sui piedi.",
-                "examples": [
-                    "Per favore, siediti.",
-                    "Mi siedo su una sedia."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "stare in piedi",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🧍",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Essere sui propri piedi in posizione eretta.",
-                "examples": [
-                    "Per favore, stai in piedi.",
-                    "È in piedi vicino alla porta."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "perdere",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "📉",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Fallire nel vincere o non riuscire a trovare qualcosa.",
-                "examples": [
-                    "Non voglio perdere la partita.",
-                    "Perdo spesso le chiavi."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "pagare",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "💰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Dare denaro per qualcosa.",
-                "examples": [
-                    "Pago il mio caffè.",
-                    "Come vuoi pagare ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "incontrare",
-        "level": "starter",
-        "theme": "society_politics",
-        "emoji": "🤝",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Vedere e parlare con qualcuno per la prima volta.",
-                "examples": [
-                    "Piacere di conoscerti.",
-                    "Ci incontriamo ogni venerdì."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "imparare",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "📚",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Ottenere conoscenza o un'abilità.",
-                "examples": [
-                    "Voglio imparare l'italiano.",
-                    "I bambini imparano in fretta."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "cambiare",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "🔄",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Rendere qualcosa diverso.",
-                "examples": [
-                    "Voglio cambiare i miei vestiti.",
-                    "Il tempo cambia rapidamente."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "capire",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "💡",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Conoscere il significato di qualcosa.",
-                "examples": [
-                    "Non capisco questa parola.",
-                    "Capisci l'italiano ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "fermarsi",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "🛑",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Finire di fare qualcosa o non muoversi più.",
-                "examples": [
-                    "Ferma la macchina.",
-                    "Per favore, smetti di parlare."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "aggiungere",
-        "level": "starter",
-        "theme": "numbers_math",
-        "emoji": "➕",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Mettere insieme delle cose per formare un gruppo più grande.",
-                "examples": [
-                    "Aggiungi dello zucchero al tè.",
-                    "Quanto fa cinque più cinque ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "spendere",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "💸",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Usare denaro per pagare le cose.",
-                "examples": [
-                    "Spendo molto denaro per il cibo."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "aprire",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "📖",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Spostare qualcosa in modo che un'apertura non sia coperta.",
-                "examples": [
-                    "Apri la porta.",
-                    "Puoi aprire la finestra ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vincere",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏆",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Essere il migliore in un gioco o in una competizione.",
-                "examples": [
-                    "Vogliamo vincere la partita."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "camminare",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🚶",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Muoversi sulle proprie gambe a velocità normale.",
-                "examples": [
-                    "Cammino verso scuola.",
-                    "Facciamo una camminata nel parco."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "ricordare",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "🧠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Mantenere le informazioni nella propria mente.",
-                "examples": [
-                    "Ricordo il tuo nome.",
-                    "Ti ricordi di me ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "comprare",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🛒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Ottenere qualcosa pagando denaro.",
-                "examples": [
-                    "Voglio comprare un nuovo telefono.",
-                    "Dove posso comprare del latte ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "morire",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "⚰️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Smettere di vivere.",
-                "examples": [
-                    "Le piante muoiono senza acqua."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "inviare",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "✉️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Fare in modo che qualcosa vada verso un luogo.",
-                "examples": [
-                    "Invio un'e-mail ogni mattina.",
-                    "Puoi inviarmi una foto ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "cadere",
-        "level": "starter",
-        "theme": "environment_nature",
-        "emoji": "🍂",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Muoversi verso il basso verso il suolo.",
-                "examples": [
-                    "Le foglie cadono in autunno.",
-                    "Fai attenzione, non cadere."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "tagliare",
-        "level": "starter",
-        "theme": "food_drink",
-        "emoji": "✂️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Usare un coltello o le forbici per dividere qualcosa.",
-                "examples": [
-                    "Taglio il pane.",
-                    "Puoi tagliare la carta ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "passare",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "🏔️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Oltrepassare qualcosa o superare un esame.",
-                "examples": [
-                    "Passo davanti al parco tornando a casa.",
-                    "Spero di passare l'esame."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vendere",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🏷️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Dare qualcosa a qualcuno in cambio di denaro.",
-                "examples": [
-                    "Vendono frutta al mercato."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "tirare",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🚜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Spostare qualcosa verso di sé.",
-                "examples": [
-                    "Tira la porta per aprirla."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "spingere",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🛒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Spostare qualcosa lontano da sé.",
-                "examples": [
-                    "Spingi il bottone.",
-                    "Spingo il carrello della spesa."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sperare",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "🤞",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Volere che qualcosa accada.",
-                "examples": [
-                    "Spero che tu ti senta meglio.",
-                    "Speriamo di vederti presto."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "cucinare",
-        "level": "starter",
-        "theme": "food_drink",
-        "emoji": "🍳",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Preparare il cibo scaldandolo.",
-                "examples": [
-                    "Cucino la cena per la mia famiglia.",
-                    "Le piace cucinare."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chiudere",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🔒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Mettere qualcosa in posizione chiusa.",
-                "examples": [
-                    "Chiudi la porta.",
-                    "Non dimenticare di chiudere la finestra."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "finire",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "🏁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Terminare un'azione.",
-                "examples": [
-                    "Finisco il mio lavoro alle 17.",
-                    "Hai finito il tuo libro ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "noleggiare",
-        "level": "starter",
-        "theme": "types_of_accommodation_A1",
-        "emoji": "🏠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Pagare denaro per usare una casa o un appartamento che appartiene a qualcun altro.",
-                "examples": [
-                    "Noleggiamo un appartamento in città."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "risparmiare",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Tenere il denaro invece di spenderlo.",
-                "examples": [
-                    "Lei risparmia denaro ogni mese."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "costare",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avere un certo prezzo.",
-                "examples": [
-                    "L'appartamento costa molto."
-                ]
-            }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "-ere (irregolare)",
+        "v3": "scritto"
     },
     {
         "word": "invitare",
@@ -1094,84 +804,11 @@
                     "Invito degli amici a cena."
                 ]
             }
-        ]
-    },
-    {
-        "word": "viaggiare",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "✈️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Andare da un luogo all'altro.",
-                "examples": [
-                    "Amo viaggiare.",
-                    "Viaggiamo in treno."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "pulire",
-        "level": "starter",
-        "theme": "home_living",
-        "emoji": "🧹",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Rendere pulito qualcosa.",
-                "examples": [
-                    "Pulisco la mia camera ogni settimana."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "esercitarsi",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏋️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Fare attività fisica per restare in salute.",
-                "examples": [
-                    "Mi esercito ogni mattina."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "fare il pendolare",
-        "level": "starter",
-        "theme": "public_transport_A1",
-        "emoji": "🚆",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Fare il viaggio tra casa e lavoro.",
-                "examples": [
-                    "Faccio il pendolare in treno."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "lavare",
-        "level": "starter",
-        "theme": "home_living",
-        "emoji": "🧼",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Pulire con acqua e sapone.",
-                "examples": [
-                    "Lavo le mani.",
-                    "Puoi lavare la macchina ?"
-                ]
-            }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "-are",
+        "v3": "invitato"
     }
 ];
     const lang = "it";

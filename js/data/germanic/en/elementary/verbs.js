@@ -6,6 +6,15 @@
         "theme": "household_tasks_A1",
         "emoji": "🪥",
         "form": "verb",
+        "subtext": "brush my teeth, brush twice a day",
+        "definitions": [
+            {
+                "text": "To clean your teeth using a toothbrush.",
+                "examples": [
+                    "I brush my teeth every morning and night."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "brushed teeth",
@@ -17,6 +26,15 @@
         "theme": "household_tasks_A1",
         "emoji": "🚿",
         "form": "verb",
+        "subtext": "take a shower, morning shower",
+        "definitions": [
+            {
+                "text": "To wash your body under a shower.",
+                "examples": [
+                    "I usually shower in the morning."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "showered",
@@ -28,6 +46,15 @@
         "theme": "interests_hobbies_A2",
         "emoji": "🎨",
         "form": "verb",
+        "subtext": "draw a picture, draw with a pencil",
+        "definitions": [
+            {
+                "text": "To make a picture with a pen or pencil.",
+                "examples": [
+                    "She loves to draw birds."
+                ]
+            }
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "drew",
@@ -39,6 +66,15 @@
         "theme": "interests_hobbies_A2",
         "emoji": "👨‍🍳",
         "form": "verb",
+        "subtext": "cook dinner, cook for friends",
+        "definitions": [
+            {
+                "text": "To prepare food by heating it.",
+                "examples": [
+                    "I like to cook Italian food."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "cooked",
@@ -50,6 +86,15 @@
         "theme": "interests_hobbies_A2",
         "emoji": "💃",
         "form": "verb",
+        "subtext": "dance to music, go dancing",
+        "definitions": [
+            {
+                "text": "To move your body to music.",
+                "examples": [
+                    "We danced all night at the party."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "danced",
@@ -61,6 +106,15 @@
         "theme": "interests_hobbies_A2",
         "emoji": "🎤",
         "form": "verb",
+        "subtext": "sing a song, sing in a choir",
+        "definitions": [
+            {
+                "text": "To make musical sounds with your voice.",
+                "examples": [
+                    "She sings beautifully."
+                ]
+            }
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "sang",
@@ -72,6 +126,15 @@
         "theme": "relationships_dating_A2",
         "emoji": "🤔",
         "form": "verb",
+        "subtext": "seem happy, seem like a good idea",
+        "definitions": [
+            {
+                "text": "To give the impression of being something.",
+                "examples": [
+                    "You seem tired today."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "seemed",
@@ -83,6 +146,15 @@
         "theme": "relationships_dating_A2",
         "emoji": "🦋",
         "form": "verb",
+        "subtext": "become a doctor, become famous",
+        "definitions": [
+            {
+                "text": "To begin to be something.",
+                "examples": [
+                    "He wants to become a pilot."
+                ]
+            }
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "became",
@@ -94,6 +166,15 @@
         "theme": "moving_home_A2",
         "emoji": "📦",
         "form": "verb",
+        "subtext": "move house, move to a new city",
+        "definitions": [
+            {
+                "text": "To go to live in a different place.",
+                "examples": [
+                    "We are moving to London next month."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "moved",
@@ -105,6 +186,15 @@
         "theme": "giving_reasons_A2",
         "emoji": "🙏",
         "form": "verb",
+        "subtext": "believe in something, believe someone",
+        "definitions": [
+            {
+                "text": "To think that something is true.",
+                "examples": [
+                    "I believe you."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "believed",
@@ -116,6 +206,15 @@
         "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb",
+        "subtext": "happen suddenly, what happened?",
+        "definitions": [
+            {
+                "text": "To take place; to occur.",
+                "examples": [
+                    "The accident happened yesterday."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "happened",
@@ -127,6 +226,15 @@
         "theme": "daily_work_routines_A1",
         "emoji": "➕",
         "form": "verb",
+        "subtext": "include everything, price includes tax",
+        "definitions": [
+            {
+                "text": "To contain something as part of a whole.",
+                "examples": [
+                    "The breakfast is included in the price."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "included",
@@ -138,6 +246,15 @@
         "theme": "daily_work_routines_A1",
         "emoji": "➡️",
         "form": "verb",
+        "subtext": "continue working, continue to do something",
+        "definitions": [
+            {
+                "text": "To keep doing something without stopping.",
+                "examples": [
+                    "Please continue reading."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "continued",
@@ -149,6 +266,15 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "form": "verb",
+        "subtext": "set the table, set an alarm",
+        "definitions": [
+            {
+                "text": "To put something in a particular place or position.",
+                "examples": [
+                    "I set my alarm for 7 am."
+                ]
+            }
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "set",
@@ -160,6 +286,15 @@
         "theme": "relationships_dating_A2",
         "emoji": "👑",
         "form": "verb",
+        "subtext": "lead a team, lead the way",
+        "definitions": [
+            {
+                "text": "To show the way or be in charge of a group.",
+                "examples": [
+                    "She leads a large team of researchers."
+                ]
+            }
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "led",
@@ -171,6 +306,15 @@
         "theme": "directions_navigation_A1",
         "emoji": "👣",
         "form": "verb",
+        "subtext": "follow the rules, follow someone",
+        "definitions": [
+            {
+                "text": "To go behind someone or obey something.",
+                "examples": [
+                    "Please follow me to the meeting room."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "followed",
@@ -182,6 +326,15 @@
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "verb",
+        "subtext": "create a website, create a mess",
+        "definitions": [
+            {
+                "text": "To make something new.",
+                "examples": [
+                    "He created a beautiful piece of art."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "created",
@@ -193,6 +346,15 @@
         "theme": "relationships_dating_A2",
         "emoji": "✅",
         "form": "verb",
+        "subtext": "allow someone to do something, not allowed",
+        "definitions": [
+            {
+                "text": "To let someone do something.",
+                "examples": [
+                    "Smoking is not allowed here."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "allowed",
@@ -204,6 +366,15 @@
         "theme": "environmental_protection_A2",
         "emoji": "🌱",
         "form": "verb",
+        "subtext": "grow plants, grow up",
+        "definitions": [
+            {
+                "text": "To increase in size or develop.",
+                "examples": [
+                    "Children grow very fast."
+                ]
+            }
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "grew",
@@ -215,6 +386,15 @@
         "theme": "relationships_dating_A2",
         "emoji": "🤲",
         "form": "verb",
+        "subtext": "offer a job, offer help",
+        "definitions": [
+            {
+                "text": "To ask someone if they would like something.",
+                "examples": [
+                    "He offered me a coffee."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "offered",
@@ -226,6 +406,15 @@
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
         "form": "verb",
+        "subtext": "consider an option, consider someone for a job",
+        "definitions": [
+            {
+                "text": "To think about something carefully.",
+                "examples": [
+                    "Please consider my application."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "both",
         "v2": "considered",
@@ -237,6 +426,15 @@
         "theme": "personal_qualities_A2",
         "emoji": "👻",
         "form": "verb",
+        "subtext": "appear on TV, appear suddenly",
+        "definitions": [
+            {
+                "text": "To become visible or seem to be.",
+                "examples": [
+                    "He appeared to be very happy."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "appeared",
@@ -248,6 +446,15 @@
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
         "form": "verb",
+        "subtext": "serve food, serve a purpose",
+        "definitions": [
+            {
+                "text": "To provide food or a service.",
+                "examples": [
+                    "They serve breakfast until 11 am."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "served",
@@ -259,6 +466,15 @@
         "theme": "giving_reasons_A2",
         "emoji": "💭",
         "form": "verb",
+        "subtext": "expect a baby, expect someone to arrive",
+        "definitions": [
+            {
+                "text": "To think that something will happen.",
+                "examples": [
+                    "I expect them to arrive soon."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "expected",
@@ -270,6 +486,15 @@
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🏗️",
         "form": "verb",
+        "subtext": "build a house, build a relationship",
+        "definitions": [
+            {
+                "text": "To make something by putting parts together.",
+                "examples": [
+                    "They are building a new office block."
+                ]
+            }
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "built",
@@ -281,6 +506,15 @@
         "theme": "transport_travel_A2",
         "emoji": "🏁",
         "form": "verb",
+        "subtext": "reach the top, reach an agreement",
+        "definitions": [
+            {
+                "text": "To arrive at a place or a level.",
+                "examples": [
+                    "We reached the hotel late at night."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "reached",
@@ -292,6 +526,15 @@
         "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
         "form": "verb",
+        "subtext": "kill time, kill an insect",
+        "definitions": [
+            {
+                "text": "To cause the death of someone or something.",
+                "examples": [
+                    "The cold weather killed the plants."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "killed",
@@ -303,6 +546,15 @@
         "theme": "condition_state_A2",
         "emoji": "⏳",
         "form": "verb",
+        "subtext": "remain calm, remain at home",
+        "definitions": [
+            {
+                "text": "To stay in the same place or condition.",
+                "examples": [
+                    "Please remain seated until the plane stops."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "remained",
@@ -314,6 +566,15 @@
         "theme": "giving_reasons_A2",
         "emoji": "💡",
         "form": "verb",
+        "subtext": "suggest a plan, suggest doing something",
+        "definitions": [
+            {
+                "text": "To mention an idea or plan.",
+                "examples": [
+                    "I suggest we go for a walk."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "suggested",
@@ -325,6 +586,15 @@
         "theme": "family_life_A1",
         "emoji": "🙋",
         "form": "verb",
+        "subtext": "raise your hand, raise a child",
+        "definitions": [
+            {
+                "text": "To lift something up or look after a child.",
+                "examples": [
+                    "She raised her hand to ask a question."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "raised",
@@ -336,6 +606,15 @@
         "theme": "giving_reasons_A2",
         "emoji": "📜",
         "form": "verb",
+        "subtext": "require help, require a passport",
+        "definitions": [
+            {
+                "text": "To need something.",
+                "examples": [
+                    "This job requires a lot of travel."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "required",
@@ -347,6 +626,15 @@
         "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb",
+        "subtext": "report a crime, report a problem",
+        "definitions": [
+            {
+                "text": "To give information about something.",
+                "examples": [
+                    "He reported the stolen car to the police."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "reported",
@@ -358,6 +646,15 @@
         "theme": "giving_reasons_A2",
         "emoji": "⚖️",
         "form": "verb",
+        "subtext": "decide to go, decide between",
+        "definitions": [
+            {
+                "text": "To make a choice after thinking.",
+                "examples": [
+                    "I can't decide which one I want."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "decided",
@@ -369,6 +666,15 @@
         "theme": "career_development_A2",
         "emoji": "👨‍🏫",
         "form": "verb",
+        "subtext": "explain the rules, explain why",
+        "definitions": [
+            {
+                "text": "To make something clear by giving details.",
+                "examples": [
+                    "Can you explain this word to me?"
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "explained",
@@ -380,6 +686,15 @@
         "theme": "career_development_A2",
         "emoji": "💻",
         "form": "verb",
+        "subtext": "develop a skill, develop a product",
+        "definitions": [
+            {
+                "text": "To grow or change into something more advanced.",
+                "examples": [
+                    "The company is developing a new app."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "developed",
@@ -391,6 +706,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
         "form": "verb",
+        "subtext": "support a friend, support a team",
         "definitions": [
             {
                 "text": "To help or encourage someone.",
@@ -410,6 +726,7 @@
         "theme": "job_apps_interviews_A2",
         "emoji": "📝",
         "form": "verb",
+        "subtext": "apply for a job, apply for a visa",
         "definitions": [
             {
                 "text": "To make a formal request for a job.",
@@ -429,6 +746,7 @@
         "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
         "form": "verb",
+        "subtext": "hire a new employee, hire a car",
         "definitions": [
             {
                 "text": "To give someone a job.",
@@ -448,6 +766,7 @@
         "theme": "career_development_A2",
         "emoji": "👴",
         "form": "verb",
+        "subtext": "retire from work, early retirement",
         "definitions": [
             {
                 "text": "To stop working because you have reached a certain age.",
@@ -467,6 +786,7 @@
         "theme": "finances_A2",
         "emoji": "💰",
         "form": "verb",
+        "subtext": "can't afford, afford a house",
         "definitions": [
             {
                 "text": "To have enough money to pay for something.",
@@ -486,6 +806,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "🗣️",
         "form": "verb",
+        "subtext": "argue about money, have an argument",
         "definitions": [
             {
                 "text": "To disagree with someone in an angry way.",
@@ -505,6 +826,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
         "form": "verb",
+        "subtext": "trust someone, break someone's trust",
         "definitions": [
             {
                 "text": "To believe that someone is honest and reliable.",
@@ -524,6 +846,7 @@
         "theme": "agreeing_disagreeing_A2",
         "emoji": "👍",
         "form": "verb",
+        "subtext": "agree with someone, agree on a plan",
         "definitions": [
             {
                 "text": "To have the same opinion as someone else.",
@@ -543,6 +866,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
         "form": "verb",
+        "subtext": "reach a compromise, willing to compromise",
         "definitions": [
             {
                 "text": "To accept less than you want so both sides are satisfied.",
@@ -562,6 +886,7 @@
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
         "form": "verb",
+        "subtext": "recycle paper, recycle bins",
         "definitions": [
             {
                 "text": "To process used materials so they can be used again.",
@@ -581,6 +906,15 @@
         "theme": "interests_hobbies_A2",
         "emoji": "🥊",
         "form": "verb",
+        "subtext": "hit the ball, hit a target",
+        "definitions": [
+            {
+                "text": "To touch something with sudden force.",
+                "examples": [
+                    "He hit the ball with the bat."
+                ]
+            }
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "hit",
@@ -592,6 +926,15 @@
         "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "verb",
+        "subtext": "produce energy, produce a movie",
+        "definitions": [
+            {
+                "text": "To make or create something.",
+                "examples": [
+                    "The factory produces cars."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "produced",
@@ -603,6 +946,15 @@
         "theme": "personal_qualities_A2",
         "emoji": "👤",
         "form": "verb",
+        "subtext": "face a problem, face reality",
+        "definitions": [
+            {
+                "text": "To deal with a difficult situation.",
+                "examples": [
+                    "We must face our fears."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "faced",
@@ -614,6 +966,15 @@
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
         "form": "verb",
+        "subtext": "cover with a blanket, cover a story",
+        "definitions": [
+            {
+                "text": "To put something over something else.",
+                "examples": [
+                    "She covered the table with a cloth."
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "covered",
@@ -625,6 +986,15 @@
         "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb",
+        "subtext": "describe someone, describe a situation",
+        "definitions": [
+            {
+                "text": "To say what someone or something is like.",
+                "examples": [
+                    "Can you describe the man you saw?"
+                ]
+            }
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "described",
@@ -636,6 +1006,15 @@
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb",
+        "subtext": "catch a ball, catch a cold, catch a bus",
+        "definitions": [
+            {
+                "text": "To take hold of something that is moving.",
+                "examples": [
+                    "Try to catch the ball!"
+                ]
+            }
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "caught",

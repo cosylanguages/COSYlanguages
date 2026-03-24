@@ -109,4 +109,54 @@ test.describe('Practice Engine Grammar Features', () => {
 
     expect(hasPluralDistractors).toBe(true);
   });
+
+  test('Verb metadata badges are visible in Practice', async ({ page }) => {
+    await page.goto('http://localhost:8080/practice.html');
+    await page.click('.lang-selection-card[data-value="en"]');
+
+    await page.evaluate(() => {
+        (document.getElementById('cat-grammar') as HTMLInputElement).checked = true;
+        (window as any).updateCategoryUI();
+    });
+
+    await page.click('#start-btn');
+
+    const badgesVisible = await page.evaluate(() => {
+        const current = (window as any).currentPractice;
+        const verbTask = current.words.find(w => w.classification && w.aspect);
+        if (!verbTask) return false;
+
+        (window as any).currentPractice.currentWord = verbTask;
+        (window as any).showNextWord();
+
+        const meta = document.getElementById('word-meta');
+        return !!(meta && meta.style.display !== 'none' &&
+               meta.querySelector('.class-badge') &&
+               meta.querySelector('.aspect-badge'));
+    });
+
+    expect(badgesVisible).toBe(true);
+  });
+
+  test('Verb Forms theme includes items from vocabularyData', async ({ page }) => {
+    await page.goto('http://localhost:8080/practice.html');
+    await page.click('.lang-selection-card[data-value="en"]');
+
+    await page.evaluate(() => {
+        (document.getElementById('cat-grammar') as HTMLInputElement).checked = true;
+        (window as any).updateCategoryUI();
+        const themeSelect = document.getElementById('practice-theme') as HTMLSelectElement;
+        themeSelect.value = 'grammar_verb_forms';
+        themeSelect.dispatchEvent(new Event('change'));
+    });
+
+    await page.click('#start-btn');
+
+    const hasVerbFormTasks = await page.evaluate(() => {
+        const current = (window as any).currentPractice;
+        return current.words.some(w => w.theme === 'grammar_verb_forms');
+    });
+
+    expect(hasVerbFormTasks).toBe(true);
+  });
 });

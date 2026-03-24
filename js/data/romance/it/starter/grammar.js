@@ -2,8 +2,9 @@
     const data = [
     {
         "verb": "essere",
-        "group": "irregular",
+        "group": "essere",
         "classification": "irregular",
+        "aspect": "stative",
         "past_participle": "stato",
         "level": "starter",
         "pronouns": [
@@ -107,8 +108,9 @@
     },
     {
         "verb": "avere",
-        "group": "irregular",
+        "group": "avere",
         "classification": "irregular",
+        "aspect": "stative",
         "past_participle": "avuto",
         "level": "starter",
         "pronouns": [
@@ -214,6 +216,7 @@
         "verb": "lavorare",
         "group": "-are",
         "classification": "regular",
+        "aspect": "action",
         "past_participle": "lavorato",
         "level": "starter",
         "pronouns": [
@@ -319,6 +322,7 @@
         "verb": "fare",
         "group": "irregular",
         "classification": "irregular",
+        "aspect": "action",
         "past_participle": "fatto",
         "level": "starter",
         "pronouns": [
@@ -422,8 +426,9 @@
     },
     {
         "verb": "andare",
-        "group": "-are (irregular)",
+        "group": "irregular",
         "classification": "irregular",
+        "aspect": "action",
         "past_participle": "andato",
         "level": "starter",
         "pronouns": [
@@ -529,6 +534,7 @@
         "verb": "mangiare",
         "group": "-are",
         "classification": "regular",
+        "aspect": "action",
         "past_participle": "mangiato",
         "level": "starter",
         "pronouns": [
@@ -634,6 +640,7 @@
         "verb": "parlare",
         "group": "-are",
         "classification": "regular",
+        "aspect": "action",
         "past_participle": "parlato",
         "level": "starter",
         "pronouns": [
