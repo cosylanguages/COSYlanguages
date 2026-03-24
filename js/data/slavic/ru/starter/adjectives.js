@@ -313,7 +313,7 @@
         "word": "важный",
         "level": "starter",
         "theme": "describing_things_A1",
-        "emoji": "💎",
+        "emoji": "❗",
         "form": "adjective",
         "subtext": "значимый, основной",
         "definitions": [
@@ -321,6 +321,190 @@
                 "text": "Имеющий большое значение или влияние.",
                 "examples": [
                     "Сон очень важен."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "красный",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟥",
+        "form": "adjective",
+        "subtext": "тёмно-красный, ярко-красный",
+        "definitions": [
+            {
+                "text": "Имеющий цвет крови или спелого помидора.",
+                "examples": [
+                    "У неё красная сумка."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "синий",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟦",
+        "form": "adjective",
+        "subtext": "голубой, тёмно-синий",
+        "definitions": [
+            {
+                "text": "Имеющий цвет чистого неба.",
+                "examples": [
+                    "Его машина синяя."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "зелёный",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟩",
+        "form": "adjective",
+        "subtext": "светло-зелёный, тёмно-зелёный",
+        "definitions": [
+            {
+                "text": "Имеющий цвет травы или листьев.",
+                "examples": [
+                    "Она носит зелёное платье."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "белый",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬜",
+        "form": "adjective",
+        "subtext": "чисто-белый, белоснежный",
+        "definitions": [
+            {
+                "text": "Имеющий цвет снега или молока.",
+                "examples": [
+                    "Стены белые."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "чёрный",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬛",
+        "form": "adjective",
+        "subtext": "чёрный как смоль, тёмный",
+        "definitions": [
+            {
+                "text": "Имеющий самый тёмный цвет, как ночное небо.",
+                "examples": [
+                    "Он носит чёрное пальто."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "жёлтый",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟨",
+        "form": "adjective",
+        "subtext": "лимонно-жёлтый, ярко-жёлтый",
+        "definitions": [
+            {
+                "text": "Имеющий цвет солнца или лимона.",
+                "examples": [
+                    "У неё жёлтый зонт."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "бесплатный",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "adjective",
+        "subtext": "даром, в подарок",
+        "definitions": [
+            {
+                "text": "Который не стоит денег.",
+                "examples": [
+                    "Музей бесплатный по воскресеньям."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "открытый",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "form": "adjective",
+        "opposite": "закрытый",
+        "oppositeEmoji": "🔒",
+        "subtext": "свободный вход",
+        "definitions": [
+            {
+                "text": "Не закрытый; позволяющий войти.",
+                "examples": [
+                    "Магазин открыт до восьми."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "закрытый",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "открытый",
+        "oppositeEmoji": "📖",
+        "subtext": "недоступный",
+        "definitions": [
+            {
+                "text": "Не открытый.",
+                "examples": [
+                    "Банк закрыт по воскресеньям."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "холодный",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "❄️",
+        "form": "adjective",
+        "opposite": "горячий",
+        "oppositeEmoji": "🔥",
+        "subtext": "очень холодный, морозный",
+        "definitions": [
+            {
+                "text": "Имеющий низкую температуру.",
+                "examples": [
+                    "Вода холодная."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "горячий",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "🔥",
+        "form": "adjective",
+        "opposite": "холодный",
+        "oppositeEmoji": "❄️",
+        "subtext": "очень жаркий, кипяток",
+        "definitions": [
+            {
+                "text": "Имеющий высокую температуру.",
+                "examples": [
+                    "Кофе горячий."
                 ]
             }
         ]

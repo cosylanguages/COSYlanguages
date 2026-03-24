@@ -106,6 +106,7 @@
         "form": "adjective",
         "opposite": "cold",
         "oppositeEmoji": "❄️",
+        "subtext": "very hot, hot weather",
         "definitions": [
             {
                 "text": "Having a high temperature.",
@@ -124,6 +125,7 @@
         "form": "adjective",
         "opposite": "hot",
         "oppositeEmoji": "🔥",
+        "subtext": "very cold, cold morning",
         "definitions": [
             {
                 "text": "Having a low temperature.",
@@ -158,6 +160,7 @@
         "form": "adjective",
         "opposite": "expensive",
         "oppositeEmoji": "💎",
+        "subtext": "low price, inexpensive",
         "definitions": [
             {
                 "text": "Not expensive; low in price.",
@@ -175,6 +178,7 @@
         "form": "adjective",
         "opposite": "cheap",
         "oppositeEmoji": "🏷️",
+        "subtext": "costly, high price",
         "definitions": [
             {
                 "text": "Costing a lot of money.",
@@ -192,6 +196,7 @@
         "form": "adjective",
         "opposite": "bad",
         "oppositeEmoji": "👎",
+        "subtext": "great, nice, pleasant",
         "definitions": [
             {
                 "text": "Of high quality or ability; pleasant.",
@@ -209,6 +214,7 @@
         "form": "adjective",
         "opposite": "good",
         "oppositeEmoji": "👍",
+        "subtext": "terrible, awful, unpleasant",
         "definitions": [
             {
                 "text": "Not good; unpleasant or of poor quality.",
@@ -226,6 +232,7 @@
         "form": "adjective",
         "opposite": "small",
         "oppositeEmoji": "🐭",
+        "subtext": "large, huge",
         "definitions": [
             {
                 "text": "Large in size.",
@@ -243,6 +250,7 @@
         "form": "adjective",
         "opposite": "big",
         "oppositeEmoji": "🐘",
+        "subtext": "little, tiny",
         "definitions": [
             {
                 "text": "Little in size.",
@@ -292,6 +300,7 @@
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "form": "adjective",
+        "subtext": "glad, cheerful, feel happy",
         "definitions": [
             {
                 "text": "Feeling pleasure or joy.",
@@ -307,6 +316,7 @@
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
         "form": "adjective",
+        "subtext": "sleepy, exhausted, feel tired",
         "definitions": [
             {
                 "text": "Needing rest or sleep.",
@@ -358,7 +368,7 @@
         "form": "adjective",
         "opposite": "dirty",
         "oppositeEmoji": "💩",
-        "subtext": "oпрятный, безупречный",
+        "subtext": "tidy, not dirty, keep it clean",
         "definitions": [
             {
                 "text": "Free from dirt.",
@@ -480,6 +490,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
+        "subtext": "very busy, busy day",
         "definitions": [
             {
                 "text": "Having a lot of things to do.",
@@ -519,6 +530,154 @@
                 "text": "Having great value or effect.",
                 "examples": [
                     "Sleep is very important."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "red",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟥",
+        "form": "adjective",
+        "subtext": "dark red, bright red",
+        "definitions": [
+            {
+                "text": "Having the colour of blood or a ripe tomato.",
+                "examples": [
+                    "She has a red bag."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "blue",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟦",
+        "form": "adjective",
+        "subtext": "light blue, dark blue",
+        "definitions": [
+            {
+                "text": "Having the colour of a clear sky.",
+                "examples": [
+                    "His car is blue."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "green",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟩",
+        "form": "adjective",
+        "subtext": "bright green, dark green",
+        "definitions": [
+            {
+                "text": "Having the colour of grass or leaves.",
+                "examples": [
+                    "She wears a green dress."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "white",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬜",
+        "form": "adjective",
+        "subtext": "pure white, snow white",
+        "definitions": [
+            {
+                "text": "Having the colour of snow or milk.",
+                "examples": [
+                    "The walls are white."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "black",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬛",
+        "form": "adjective",
+        "subtext": "jet black, dark as night",
+        "definitions": [
+            {
+                "text": "Having the darkest colour, like the night sky.",
+                "examples": [
+                    "He wears a black coat."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "yellow",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟨",
+        "form": "adjective",
+        "subtext": "bright yellow, lemon yellow",
+        "definitions": [
+            {
+                "text": "Having the colour of the sun or a lemon.",
+                "examples": [
+                    "She has a yellow umbrella."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "free",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "adjective",
+        "subtext": "free of charge, free gift",
+        "definitions": [
+            {
+                "text": "Costing no money; at no charge.",
+                "examples": [
+                    "The museum is free on Sundays."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "open",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "form": "adjective",
+        "opposite": "closed",
+        "oppositeEmoji": "🔒",
+        "subtext": "now open, open for business",
+        "definitions": [
+            {
+                "text": "Not closed; allowing entry or access.",
+                "examples": [
+                    "The shop is open until eight."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "closed",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "open",
+        "oppositeEmoji": "📖",
+        "subtext": "now closed, temporarily closed",
+        "definitions": [
+            {
+                "text": "Not open; shut.",
+                "examples": [
+                    "The bank is closed on Sundays."
                 ]
             }
         ]

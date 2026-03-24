@@ -5,11 +5,13 @@
         "level": "starter",
         "theme": "job_titles_professions_A0",
         "article": "le",
+        "gender": "masculine",
         "numberPlural": "2 médecin",
         "answer": "deux médecins",
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "médecins",
+        "subtext": "voir un médecin, médecin de famille",
         "definitions": [
             {
                 "text": "Une personne qui soigne les gens malades.",
@@ -21,10 +23,49 @@
         ]
     },
     {
+        "word": "fruit",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": null,
+        "subtext": "fruit frais, jus de fruit",
+        "definitions": [
+            {
+                "text": "La partie sucrée d'une plante qui contient des graines, utilisée comme nourriture.",
+                "examples": [
+                    "Les fruits sont bons pour la santé."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "légume",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🥦",
+        "form": "noun",
+        "plural": "légumes",
+        "subtext": "légumes frais, légumes verts",
+        "definitions": [
+            {
+                "text": "Une plante qui est mangée comme nourriture, comme une carotte ou une tomate.",
+                "examples": [
+                    "Il mange des légumes tous les jours."
+                ]
+            }
+        ]
+    },
+    {
         "word": "pied",
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "le",
+        "gender": "masculine",
         "numberPlural": "2 pied",
         "answer": "deux pieds",
         "emoji": "🦶",
@@ -45,9 +86,11 @@
         "level": "starter",
         "theme": "job_titles_professions_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🧑‍🏫",
         "form": "noun",
         "plural": "professeurs",
+        "subtext": "professeur de français, professeur d'école",
         "definitions": [
             {
                 "text": "Une personne qui aide à apprendre.",
@@ -118,10 +161,11 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "le",
-        "baseWord": "pain",
+        "gender": "masculine",
         "emoji": "🥖",
         "form": "noun",
-        "plural": "pains",
+        "plural": null,
+        "subtext": "pain frais, baguette",
         "definitions": [
             {
                 "text": "Un aliment de base fait de farine et d'eau.",
@@ -138,9 +182,11 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "🥚",
         "form": "noun",
         "plural": "oeufs",
+        "subtext": "oeuf dur, omelette",
         "definitions": [
             {
                 "text": "Un objet de forme ovale pondu par une poule.",
@@ -156,9 +202,11 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🥛",
         "form": "noun",
-        "plural": "lait",
+        "plural": null,
+        "subtext": "verre de lait, lait frais",
         "definitions": [
             {
                 "text": "Un liquide blanc produit par les vaches.",
@@ -174,9 +222,11 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🍚",
         "form": "noun",
-        "plural": "riz",
+        "plural": null,
+        "subtext": "riz blanc, riz frit",
         "definitions": [
             {
                 "text": "De petits grains blancs que nous cuisons et mangeons.",
@@ -191,9 +241,11 @@
         "level": "starter",
         "theme": "basic_foods_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🥩",
         "form": "noun",
-        "plural": "viandes",
+        "plural": null,
+        "subtext": "viande fraîche, boeuf, poulet",
         "definitions": [
             {
                 "text": "Nourriture qui provient des animaux.",
@@ -225,10 +277,11 @@
         "level": "starter",
         "theme": "drinks_A0",
         "article": "le",
-        "baseWord": "café",
+        "gender": "masculine",
         "emoji": "☕",
         "form": "noun",
-        "plural": "cafés",
+        "plural": null,
+        "subtext": "café noir, tasse de café",
         "definitions": [
             {
                 "text": "Une boisson marron chaude faite à partir de grains de café.",
@@ -244,10 +297,11 @@
         "level": "starter",
         "theme": "drinks_A0",
         "article": "le",
-        "baseWord": "thé",
+        "gender": "masculine",
         "emoji": "🍵",
         "form": "noun",
-        "plural": "thés",
+        "plural": null,
+        "subtext": "thé vert, tasse de thé",
         "definitions": [
             {
                 "text": "Une boisson chaude faite avec de l'eau chaude et des feuilles de thé.",
@@ -263,10 +317,11 @@
         "level": "starter",
         "theme": "drinks_A0",
         "article": "le",
-        "baseWord": "jus",
+        "gender": "masculine",
         "emoji": "🧃",
         "form": "noun",
-        "plural": "jus",
+        "plural": null,
+        "subtext": "jus d'orange, jus de pomme",
         "definitions": [
             {
                 "text": "Un liquide provenant de fruits ou de légumes.",
@@ -281,10 +336,11 @@
         "level": "starter",
         "theme": "drinks_A0",
         "article": "l'",
-        "baseWord": "eau",
+        "gender": "feminine",
         "emoji": "🚰",
         "form": "noun",
-        "plural": "eaux",
+        "plural": null,
+        "subtext": "eau froide, verre d'eau",
         "definitions": [
             {
                 "text": "Un liquide clair que nous buvons.",
@@ -300,6 +356,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🍳",
         "form": "noun",
         "plural": "petits-déjeuners",
@@ -317,6 +374,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🍽️",
         "form": "noun",
         "plural": "dîners",
@@ -334,6 +392,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🍱",
         "form": "noun",
         "plural": "déjeuners",
@@ -351,6 +410,7 @@
         "level": "starter",
         "theme": "local_places_services_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🌳",
         "form": "noun",
         "plural": "parcs",
@@ -368,6 +428,7 @@
         "level": "starter",
         "theme": "local_places_services_A0",
         "article": "l'",
+        "gender": "feminine",
         "emoji": "🏫",
         "form": "noun",
         "plural": "écoles",
@@ -385,6 +446,7 @@
         "level": "starter",
         "theme": "local_places_services_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🛒",
         "form": "noun",
         "plural": "magasins",
@@ -402,6 +464,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "👕",
         "form": "noun",
         "plural": "t-shirts",
@@ -419,6 +482,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "👖",
         "form": "noun",
         "plural": "pantalons",
@@ -436,6 +500,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A0",
         "article": "les",
+        "gender": "feminine",
         "emoji": "👟",
         "form": "noun",
         "plural": "chaussures",
@@ -453,6 +518,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "👒",
         "form": "noun",
         "plural": "chapeaux",
@@ -470,9 +536,11 @@
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🪑",
         "form": "noun",
         "plural": "chaises",
+        "subtext": "chaise en bois, s'asseoir sur une chaise",
         "definitions": [
             {
                 "text": "Un meuble pour s'asseoir.",
@@ -487,9 +555,11 @@
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🪑",
         "form": "noun",
         "plural": "tables",
+        "subtext": "table de cuisine, sur la table",
         "definitions": [
             {
                 "text": "Un meuble utilisé pour manger ou travailler.",
@@ -504,9 +574,11 @@
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🛏️",
         "form": "noun",
         "plural": "lits",
+        "subtext": "lit confortable, aller au lit",
         "definitions": [
             {
                 "text": "Un meuble pour dormir.",
@@ -521,6 +593,7 @@
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🔑",
         "form": "noun",
         "plural": "clés",
@@ -538,6 +611,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "📱",
         "form": "noun",
         "plural": "téléphones",
@@ -555,6 +629,7 @@
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "📖",
         "form": "noun",
         "plural": "livres",
@@ -572,6 +647,7 @@
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "👜",
         "form": "noun",
         "plural": "sacs",
@@ -589,6 +665,7 @@
         "level": "starter",
         "theme": "furniture_objects_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🖊️",
         "form": "noun",
         "plural": "stylos",
@@ -680,9 +757,11 @@
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "👤",
         "form": "noun",
         "plural": "têtes",
+        "subtext": "mal de tête, secouer la tête",
         "definitions": [
             {
                 "text": "La partie supérieure du corps.",
@@ -697,9 +776,11 @@
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "✋",
         "form": "noun",
         "plural": "mains",
+        "subtext": "main gauche, main droite, laver les mains",
         "definitions": [
             {
                 "text": "La partie du bras avec les doigts.",
@@ -714,9 +795,11 @@
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🦵",
         "form": "noun",
         "plural": "jambes",
+        "subtext": "jambe gauche, jambe droite, longues jambes",
         "definitions": [
             {
                 "text": "La partie du corps utilisée pour marcher.",
@@ -731,9 +814,11 @@
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "👁️",
         "form": "noun",
         "plural": "yeux",
+        "subtext": "yeux bleus, fermer les yeux",
         "definitions": [
             {
                 "text": "La partie du corps pour voir.",
@@ -748,6 +833,7 @@
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "👃",
         "form": "noun",
         "plural": "nez",
@@ -765,9 +851,11 @@
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "👄",
         "form": "noun",
         "plural": "bouches",
+        "subtext": "ouvrir la bouche, se taire",
         "definitions": [
             {
                 "text": "La partie du visage pour manger et parler.",
@@ -782,9 +870,11 @@
         "level": "starter",
         "theme": "body_parts_A0",
         "article": "l'",
+        "gender": "feminine",
         "emoji": "👂",
         "form": "noun",
         "plural": "oreilles",
+        "subtext": "oreille gauche, oreille droite, mal à l'oreille",
         "definitions": [
             {
                 "text": "La partie du corps pour entendre.",
@@ -795,13 +885,53 @@
         ]
     },
     {
+        "word": "dos",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🚶",
+        "form": "noun",
+        "plural": "dos",
+        "subtext": "mal de dos, s'allonger sur le dos",
+        "definitions": [
+            {
+                "text": "La partie arrière du corps, du cou aux fesses.",
+                "examples": [
+                    "J'ai mal au dos."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bras",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "💪",
+        "form": "noun",
+        "plural": "bras",
+        "subtext": "bras cassé, bras gauche",
+        "definitions": [
+            {
+                "text": "La partie du corps de l'épaule à la main.",
+                "examples": [
+                    "Elle s'est cassé le bras."
+                ]
+            }
+        ]
+    },
+    {
         "word": "mère",
         "level": "starter",
         "theme": "immediate_family_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "👩",
         "form": "noun",
         "plural": "mères",
+        "subtext": "maman",
         "definitions": [
             {
                 "text": "La femme qui est votre parent.",
@@ -816,9 +946,11 @@
         "level": "starter",
         "theme": "immediate_family_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "👨",
         "form": "noun",
         "plural": "pères",
+        "subtext": "papa",
         "definitions": [
             {
                 "text": "L'homme qui est votre parent.",
@@ -833,6 +965,7 @@
         "level": "starter",
         "theme": "immediate_family_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "👪",
         "form": "noun",
         "plural": "familles",
@@ -850,6 +983,7 @@
         "level": "starter",
         "theme": "immediate_family_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "👫",
         "form": "noun",
         "plural": "amis",
@@ -867,9 +1001,11 @@
         "level": "starter",
         "theme": "marital_status_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "💑",
         "form": "noun",
         "plural": "partenaires",
+        "subtext": "mari, femme, copain, copine",
         "definitions": [
             {
                 "text": "La personne avec qui vous vivez ou êtes en couple.",
@@ -922,9 +1058,11 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🏡",
         "form": "noun",
         "plural": "maisons",
+        "subtext": "grande maison, vivre dans une maison",
         "definitions": [
             {
                 "text": "Un bâtiment où vit une famille.",
@@ -939,9 +1077,11 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "🏢",
         "form": "noun",
         "plural": "appartements",
+        "subtext": "flat, vivre dans un appartement",
         "definitions": [
             {
                 "text": "Un ensemble de pièces sur un étage d'un bâtiment.",
@@ -956,6 +1096,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🏠",
         "form": "noun",
         "subtext": "à la maison, rentrer",
@@ -973,9 +1114,11 @@
         "level": "starter",
         "theme": "rooms_indoor_spaces_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🏢",
         "form": "noun",
         "plural": "bureaux",
+        "subtext": "lieu de travail, grand bureau",
         "definitions": [
             {
                 "text": "Une pièce ou un bâtiment où les gens travaillent.",
@@ -990,9 +1133,11 @@
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "🚗",
         "form": "noun",
         "plural": "voitures",
+        "subtext": "conduire une voiture, voiture rapide",
         "definitions": [
             {
                 "text": "Un véhicule avec quatre roues et un moteur.",
@@ -1007,9 +1152,11 @@
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🚌",
         "form": "noun",
         "plural": "bus",
+        "subtext": "prendre le bus, arrêt de bus",
         "definitions": [
             {
                 "text": "Un grand véhicule qui transporte beaucoup de gens.",
@@ -1024,9 +1171,11 @@
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🚆",
         "form": "noun",
         "plural": "trains",
+        "subtext": "prendre le train, par le train, gare",
         "definitions": [
             {
                 "text": "Un véhicule qui circule sur des rails.",
@@ -1041,9 +1190,11 @@
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "article": "l'",
+        "gender": "masculine",
         "emoji": "💰",
         "form": "noun",
-        "plural": "argents",
+        "plural": null,
+        "subtext": "dépenser de l'argent, économiser de l'argent",
         "definitions": [
             {
                 "text": "Pièces ou billets utilisés pour acheter des choses.",
@@ -1058,9 +1209,11 @@
         "level": "starter",
         "theme": "times_day_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🌅",
         "form": "noun",
         "plural": "matins",
+        "subtext": "tôt le matin, bonjour",
         "definitions": [
             {
                 "text": "La partie de la journée avant 12 heures.",
@@ -1075,9 +1228,11 @@
         "level": "starter",
         "theme": "times_day_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🌆",
         "form": "noun",
         "plural": "soirs",
+        "subtext": "ce soir, bonsoir",
         "definitions": [
             {
                 "text": "La partie de la journée après l'après-midi.",
@@ -1092,6 +1247,7 @@
         "level": "starter",
         "theme": "times_day_A0",
         "article": "le",
+        "gender": "masculine",
         "emoji": "☀️",
         "form": "noun",
         "plural": "jours",
@@ -1109,9 +1265,11 @@
         "level": "starter",
         "theme": "times_day_A0",
         "article": "la",
+        "gender": "feminine",
         "emoji": "📅",
         "form": "noun",
         "plural": "semaines",
+        "subtext": "la semaine prochaine, la semaine dernière",
         "definitions": [
             {
                 "text": "Une période de sept jours.",
@@ -1484,13 +1642,487 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "article": "le",
+        "gender": "masculine",
         "emoji": "🎮",
         "form": "noun",
+        "plural": null,
+        "subtext": "loisirs, détente",
         "definitions": [
             {
                 "text": "Moment où vous ne travaillez pas et pouvez faire ce que vous voulez.",
                 "examples": [
                     "Je lis des livres pendant mon temps libre."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bière",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍺",
+        "form": "noun",
+        "plural": null,
+        "subtext": "bière froide, pression",
+        "definitions": [
+            {
+                "text": "Une boisson alcoolisée populaire faite à partir de grains.",
+                "examples": [
+                    "Il boit une bière le week-end."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vin",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🍷",
+        "form": "noun",
+        "plural": null,
+        "subtext": "vin rouge, vin blanc, verre de vin",
+        "definitions": [
+            {
+                "text": "Une boisson alcoolisée faite à partir de raisins.",
+                "examples": [
+                    "Elle boit un verre de vin le soir."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "porte",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "portes",
+        "subtext": "ouvrir la porte, porte d'entrée",
+        "definitions": [
+            {
+                "text": "Un panneau plat qui s'ouvre et se ferme pour laisser entrer et sortir les gens.",
+                "examples": [
+                    "S'il vous plaît, fermez la porte."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fenêtre",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🪟",
+        "form": "noun",
+        "plural": "fenêtres",
+        "subtext": "ouvrir la fenêtre, vitrine",
+        "definitions": [
+            {
+                "text": "Une ouverture dans un mur remplie de verre qui laisse entrer la lumière.",
+                "examples": [
+                    "Ouvrez la fenêtre — il fait chaud."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "infirmier",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "infirmiers",
+        "subtext": "infirmière, soignant",
+        "definitions": [
+            {
+                "text": "Une personne formée pour soigner les malades ou les blessés.",
+                "examples": [
+                    "L'infirmier vérifie votre tension artérielle."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "conducteur",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🚗",
+        "form": "noun",
+        "plural": "conducteurs",
+        "subtext": "chauffeur de bus, chauffeur de taxi",
+        "definitions": [
+            {
+                "text": "Une personne qui conduit un véhicule comme métier.",
+                "examples": [
+                    "Le chauffeur de bus était amical."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "chef",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "👨‍🍳",
+        "form": "noun",
+        "plural": "chefs",
+        "subtext": "chef de cuisine, cuisinier",
+        "definitions": [
+            {
+                "text": "Un cuisinier professionnel, surtout le chef de cuisine d'un restaurant.",
+                "examples": [
+                    "Le chef prépare une excellente cuisine."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "directeur",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🧑‍💼",
+        "form": "noun",
+        "plural": "directeurs",
+        "subtext": "manager, gérant",
+        "definitions": [
+            {
+                "text": "Une personne responsable d'une équipe ou d'une entreprise.",
+                "examples": [
+                    "Mon directeur travaille de très longues heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "avion",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "avions",
+        "subtext": "prendre l'avion, vol",
+        "definitions": [
+            {
+                "text": "Un véhicule avec des ailes qui vole dans les airs.",
+                "examples": [
+                    "L'avion atterrit à neuf heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vélo",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "vélos",
+        "subtext": "bicyclette, faire du vélo",
+        "definitions": [
+            {
+                "text": "Un véhicule à deux roues que l'on conduit en poussant des pédales.",
+                "examples": [
+                    "Il va au travail à vélo."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hôpital",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏥",
+        "form": "noun",
+        "plural": "hôpitaux",
+        "subtext": "aller à l'hôpital, lit d'hôpital",
+        "definitions": [
+            {
+                "text": "Un endroit où les malades ou les blessés reçoivent des soins médicaux.",
+                "examples": [
+                    "Il est allé à l'hôpital en ambulance."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "restaurant",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🍴",
+        "form": "noun",
+        "plural": "restaurants",
+        "subtext": "restaurant italien, aller au restaurant",
+        "definitions": [
+            {
+                "text": "Un endroit où l'on paie pour manger des repas.",
+                "examples": [
+                    "Nous allons au restaurant le vendredi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "banque",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏦",
+        "form": "noun",
+        "plural": "banques",
+        "subtext": "compte bancaire, aller à la banque",
+        "definitions": [
+            {
+                "text": "Un endroit où les gens gardent de l'argent et effectuent des transactions financières.",
+                "examples": [
+                    "La banque est près de mon bureau."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "gare",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚉",
+        "form": "noun",
+        "plural": "gares",
+        "subtext": "gare ferroviaire, station de bus",
+        "definitions": [
+            {
+                "text": "Un bâtiment où les trains ou les bus s'arrêtent pour les passagers.",
+                "examples": [
+                    "La gare est à dix minutes d'ici."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "supermarché",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": "supermarchés",
+        "subtext": "aller au supermarché",
+        "definitions": [
+            {
+                "text": "Un grand magasin vendant de la nourriture et d'autres articles ménagers.",
+                "examples": [
+                    "Je vais au supermarché le samedi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "soleil",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "☀️",
+        "form": "noun",
+        "plural": null,
+        "subtext": "soleil chaud, soleil du matin",
+        "definitions": [
+            {
+                "text": "L'étoile qui donne de la lumière et de la chaleur pendant la journée.",
+                "examples": [
+                    "Le soleil est très fort aujourd'hui."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pluie",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌧️",
+        "form": "noun",
+        "plural": null,
+        "subtext": "forte pluie, bottes de pluie",
+        "definitions": [
+            {
+                "text": "De l'eau qui tombe des nuages en gouttes.",
+                "examples": [
+                    "Il y a beaucoup de pluie en automne."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vent",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "💨",
+        "form": "noun",
+        "plural": null,
+        "subtext": "vent fort, vent froid",
+        "definitions": [
+            {
+                "text": "De l'air qui bouge, parfois fortement.",
+                "examples": [
+                    "Le vent est très fort aujourd'hui."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "après-midi",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "☀️",
+        "form": "noun",
+        "plural": "après-midi",
+        "subtext": "cet après-midi, bon après-midi",
+        "definitions": [
+            {
+                "text": "La partie de la journée allant de midi jusqu'au soir.",
+                "examples": [
+                    "Je finis le travail à cinq heures de l'après-midi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "nuit",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌙",
+        "form": "noun",
+        "plural": "nuits",
+        "subtext": "bonne nuit, à la nuit",
+        "definitions": [
+            {
+                "text": "La période d'obscurité entre le soir et le matin.",
+                "examples": [
+                    "Je dors huit heures chaque nuit."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "aujourd'hui",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "📅",
+        "form": "adverb",
+        "subtext": "la réunion d'aujourd'hui, commencer aujourd'hui",
+        "definitions": [
+            {
+                "text": "En ce jour ; le jour actuel.",
+                "examples": [
+                    "J'ai une réunion aujourd'hui à dix heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "demain",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "⏭️",
+        "form": "adverb",
+        "subtext": "demain matin, à demain",
+        "definitions": [
+            {
+                "text": "Le jour après aujourd'hui.",
+                "examples": [
+                    "Elle a un rendez-vous chez le médecin demain."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "mari",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "👨",
+        "form": "noun",
+        "plural": "maris",
+        "opposite": "femme",
+        "oppositeEmoji": "👩",
+        "subtext": "époux, partenaire",
+        "definitions": [
+            {
+                "text": "Un homme marié, par rapport à sa femme.",
+                "examples": [
+                    "Son mari est médecin."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "enfant",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "👶",
+        "form": "noun",
+        "plural": "enfants",
+        "subtext": "gamin, jeune personne",
+        "definitions": [
+            {
+                "text": "Une jeune personne ; un fils ou une fille.",
+                "examples": [
+                    "Ils ont deux enfants."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "parent",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "parents",
+        "subtext": "mère ou père",
+        "definitions": [
+            {
+                "text": "Une mère ou un père.",
+                "examples": [
+                    "Mes parents vivent dans le nord."
                 ]
             }
         ]

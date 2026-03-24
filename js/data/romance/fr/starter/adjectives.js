@@ -445,7 +445,7 @@
         "word": "important",
         "level": "starter",
         "theme": "describing_things_A1",
-        "emoji": "💎",
+        "emoji": "❗",
         "form": "adjective",
         "subtext": "essentiel",
         "definitions": [
@@ -453,6 +453,154 @@
                 "text": "Ayant une grande valeur ou un grand effet.",
                 "examples": [
                     "Le sommeil est très important."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rouge",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟥",
+        "form": "adjective",
+        "subtext": "rouge foncé, rouge vif",
+        "definitions": [
+            {
+                "text": "Ayant la couleur du sang ou d'une tomate mûre.",
+                "examples": [
+                    "Elle a un sac rouge."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bleu",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟦",
+        "form": "adjective",
+        "subtext": "bleu ciel, bleu foncé",
+        "definitions": [
+            {
+                "text": "Ayant la couleur d'un ciel dégagé.",
+                "examples": [
+                    "Sa voiture est bleue."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vert",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟩",
+        "form": "adjective",
+        "subtext": "vert clair, vert foncé",
+        "definitions": [
+            {
+                "text": "Ayant la couleur de l'herbe ou des feuilles.",
+                "examples": [
+                    "Elle porte une robe verte."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "blanc",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬜",
+        "form": "adjective",
+        "subtext": "tout blanc, blanc comme neige",
+        "definitions": [
+            {
+                "text": "Ayant la couleur de la neige ou du lait.",
+                "examples": [
+                    "Les murs sont blancs."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "noir",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬛",
+        "form": "adjective",
+        "subtext": "noir foncé, sombre",
+        "definitions": [
+            {
+                "text": "Ayant la couleur la plus sombre, comme le ciel nocturne.",
+                "examples": [
+                    "Il porte un manteau noir."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "jaune",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟨",
+        "form": "adjective",
+        "subtext": "jaune vif, citron",
+        "definitions": [
+            {
+                "text": "Ayant la couleur du soleil ou d'un citron.",
+                "examples": [
+                    "Elle a un parapluie jaune."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "gratuit",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "adjective",
+        "subtext": "sans frais, cadeau",
+        "definitions": [
+            {
+                "text": "Qui ne coûte pas d'argent.",
+                "examples": [
+                    "Le musée est gratuit le dimanche."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ouvert",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "form": "adjective",
+        "opposite": "fermé",
+        "oppositeEmoji": "🔒",
+        "subtext": "libre d'accès",
+        "definitions": [
+            {
+                "text": "Qui n'est pas fermé ; permettant l'entrée.",
+                "examples": [
+                    "Le magasin est ouvert jusqu'à huit heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fermé",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "ouvert",
+        "oppositeEmoji": "📖",
+        "subtext": "clos, non accessible",
+        "definitions": [
+            {
+                "text": "Qui n'est pas ouvert ; clos.",
+                "examples": [
+                    "La banque est fermée le dimanche."
                 ]
             }
         ]

@@ -304,7 +304,7 @@
         "word": "importante",
         "level": "starter",
         "theme": "describing_things_A1",
-        "emoji": "💎",
+        "emoji": "❗",
         "form": "adjective",
         "subtext": "essenziale",
         "definitions": [
@@ -312,6 +312,190 @@
                 "text": "Che ha grande valore o effetto.",
                 "examples": [
                     "Il sonno è molto importante."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rosso",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟥",
+        "form": "adjective",
+        "subtext": "rosso scuro, rosso vivo",
+        "definitions": [
+            {
+                "text": "Che ha il colore del sangue o di un pomodoro maturo.",
+                "examples": [
+                    "Lei ha una borsa rossa."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "blu",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟦",
+        "form": "adjective",
+        "subtext": "azzurro, blu scuro",
+        "definitions": [
+            {
+                "text": "Che ha il colore del cielo limpido.",
+                "examples": [
+                    "La sua macchina è blu."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "verde",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟩",
+        "form": "adjective",
+        "subtext": "verde chiaro, verde scuro",
+        "definitions": [
+            {
+                "text": "Che ha il colore dell'erba o delle foglie.",
+                "examples": [
+                    "Lei indossa un vestito verde."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bianco",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬜",
+        "form": "adjective",
+        "subtext": "bianco puro, bianco neve",
+        "definitions": [
+            {
+                "text": "Che ha il colore della neve o del latte.",
+                "examples": [
+                    "Le pareti sono bianche."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "nero",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬛",
+        "form": "adjective",
+        "subtext": "nero come la pece, scuro",
+        "definitions": [
+            {
+                "text": "Che ha il colore più scuro, come il cielo notturno.",
+                "examples": [
+                    "Lui indossa un cappotto nero."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "giallo",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟨",
+        "form": "adjective",
+        "subtext": "giallo limone, giallo oro",
+        "definitions": [
+            {
+                "text": "Che ha il colore del sole o di un limone.",
+                "examples": [
+                    "Lei ha un ombrello giallo."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "gratuito",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "adjective",
+        "subtext": "gratis, senza costi",
+        "definitions": [
+            {
+                "text": "Che non costa denaro.",
+                "examples": [
+                    "Il museo è gratuito la domenica."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "aperto",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "form": "adjective",
+        "opposite": "chiuso",
+        "oppositeEmoji": "🔒",
+        "subtext": "libero, non chiuso",
+        "definitions": [
+            {
+                "text": "Che non è chiuso; che permette l'ingresso.",
+                "examples": [
+                    "Il negozio è aperto fino alle otto."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "chiuso",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "aperto",
+        "oppositeEmoji": "📖",
+        "subtext": "non accessibile",
+        "definitions": [
+            {
+                "text": "Che non è aperto.",
+                "examples": [
+                    "La banca è chiusa la domenica."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "freddo",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "❄️",
+        "form": "adjective",
+        "opposite": "caldo",
+        "oppositeEmoji": "🔥",
+        "subtext": "molto freddo, gelido",
+        "definitions": [
+            {
+                "text": "Che ha una bassa temperatura.",
+                "examples": [
+                    "L'acqua è fredda."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "caldo",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "🔥",
+        "form": "adjective",
+        "opposite": "freddo",
+        "oppositeEmoji": "❄️",
+        "subtext": "molto caldo, bollente",
+        "definitions": [
+            {
+                "text": "Che ha un'alta temperatura.",
+                "examples": [
+                    "Il caffè è caldo."
                 ]
             }
         ]

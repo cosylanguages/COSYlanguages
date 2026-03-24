@@ -9,6 +9,7 @@
         "emoji": "🧑‍⚕️",
         "form": "noun",
         "plural": "doctors",
+        "subtext": "see a doctor, family doctor",
         "definitions": [
             {
                 "text": "A person who helps people when they are sick.",
@@ -53,6 +54,7 @@
         "emoji": "🧑‍🏫",
         "form": "noun",
         "plural": "teachers",
+        "subtext": "English teacher, school teacher",
         "definitions": [
             {
                 "text": "A person who helps you learn new things.",
@@ -142,7 +144,8 @@
         "theme": "basic_foods_A0",
         "emoji": "🍞",
         "form": "noun",
-        "plural": "bread",
+        "plural": null,
+        "subtext": "fresh bread, white bread",
         "definitions": [
             {
                 "text": "A common food made from flour and water.",
@@ -161,6 +164,7 @@
         "emoji": "🥚",
         "form": "noun",
         "plural": "eggs",
+        "subtext": "boiled egg, fried egg, scrambled eggs",
         "definitions": [
             {
                 "text": "An oval object laid by a hen.",
@@ -183,7 +187,8 @@
         "theme": "basic_foods_A0",
         "emoji": "🥛",
         "form": "noun",
-        "plural": "milk",
+        "plural": null,
+        "subtext": "fresh milk, glass of milk",
         "definitions": [
             {
                 "text": "A white liquid produced by cows.",
@@ -229,7 +234,8 @@
         "theme": "drinks_A0",
         "emoji": "☕",
         "form": "noun",
-        "plural": "coffee",
+        "plural": null,
+        "subtext": "black coffee, cup of coffee",
         "definitions": [
             {
                 "text": "A hot brown drink made from coffee beans.",
@@ -253,7 +259,8 @@
         "theme": "drinks_A0",
         "emoji": "🍵",
         "form": "noun",
-        "plural": "tea",
+        "plural": null,
+        "subtext": "green tea, cup of tea",
         "definitions": [
             {
                 "text": "A hot drink made with hot water and tea leaves.",
@@ -277,7 +284,7 @@
         "theme": "drinks_A0",
         "emoji": "🧃",
         "form": "noun",
-        "plural": "juice",
+        "plural": null,
         "definitions": [
             {
                 "text": "A liquid from fruit or vegetables.",
@@ -300,7 +307,8 @@
         "theme": "drinks_A0",
         "emoji": "🚰",
         "form": "noun",
-        "plural": "water",
+        "plural": null,
+        "subtext": "cold water, glass of water",
         "definitions": [
             {
                 "text": "A clear liquid that we drink.",
@@ -424,6 +432,7 @@
         "emoji": "🪑",
         "form": "noun",
         "plural": "chairs",
+        "subtext": "wooden chair, sit on a chair",
         "definitions": [
             {
                 "text": "A piece of furniture for one person to sit on.",
@@ -441,6 +450,7 @@
         "emoji": "🪑",
         "form": "noun",
         "plural": "tables",
+        "subtext": "kitchen table, on the table",
         "definitions": [
             {
                 "text": "A piece of furniture with four legs used for eating or working.",
@@ -458,6 +468,7 @@
         "emoji": "🛏️",
         "form": "noun",
         "plural": "beds",
+        "subtext": "comfortable bed, go to bed",
         "definitions": [
             {
                 "text": "A piece of furniture that you sleep on.",
@@ -641,6 +652,7 @@
         "emoji": "👤",
         "form": "noun",
         "plural": "heads",
+        "subtext": "headache, shake your head",
         "definitions": [
             {
                 "text": "The top part of your body that has your eyes, mouth, and brain.",
@@ -658,6 +670,7 @@
         "emoji": "✋",
         "form": "noun",
         "plural": "hands",
+        "subtext": "left hand, right hand, wash your hands",
         "definitions": [
             {
                 "text": "The part of your arm that has fingers.",
@@ -675,6 +688,7 @@
         "emoji": "🦵",
         "form": "noun",
         "plural": "legs",
+        "subtext": "left leg, right leg, long legs",
         "definitions": [
             {
                 "text": "The long part of the body that you use for walking.",
@@ -691,6 +705,7 @@
         "emoji": "👁️",
         "form": "noun",
         "plural": "eyes",
+        "subtext": "blue eyes, close your eyes",
         "definitions": [
             {
                 "text": "The part of your body that you use for seeing.",
@@ -724,6 +739,7 @@
         "emoji": "👄",
         "form": "noun",
         "plural": "mouths",
+        "subtext": "open your mouth, mouth shut",
         "definitions": [
             {
                 "text": "The part of the face that you use for eating and speaking.",
@@ -740,6 +756,7 @@
         "emoji": "👂",
         "form": "noun",
         "plural": "ears",
+        "subtext": "left ear, right ear, earache",
         "definitions": [
             {
                 "text": "The part of the body that you use for hearing.",
@@ -878,6 +895,7 @@
         "emoji": "🏢",
         "form": "noun",
         "plural": "offices",
+        "subtext": "workplace, big office, work in an office",
         "definitions": [
             {
                 "text": "A room or building where people work.",
@@ -910,6 +928,7 @@
         "emoji": "🏡",
         "form": "noun",
         "plural": "houses",
+        "subtext": "big house, live in a house",
         "definitions": [
             {
                 "text": "A building where a family lives.",
@@ -926,7 +945,7 @@
         "emoji": "🏢",
         "form": "noun",
         "plural": "flats",
-        "subtext": "live in a flat",
+        "subtext": "apartment, live in a flat, small flat",
         "definitions": [
             {
                 "text": "A set of rooms on one floor of a building.",
@@ -943,6 +962,7 @@
         "emoji": "🚗",
         "form": "noun",
         "plural": "cars",
+        "subtext": "drive a car, fast car",
         "definitions": [
             {
                 "text": "A vehicle with four wheels and an engine.",
@@ -959,7 +979,7 @@
         "emoji": "🚌",
         "form": "noun",
         "plural": "buses",
-        "subtext": "take the bus, go by bus",
+        "subtext": "take the bus, go by bus, bus stop",
         "definitions": [
             {
                 "text": "A large vehicle that carries many people.",
@@ -976,7 +996,7 @@
         "emoji": "🚆",
         "form": "noun",
         "plural": "trains",
-        "subtext": "take the train, by train",
+        "subtext": "take the train, by train, train station",
         "definitions": [
             {
                 "text": "A vehicle that runs on rails.",
@@ -1007,6 +1027,8 @@
         "theme": "basic_foods_A0",
         "emoji": "🍚",
         "form": "noun",
+        "plural": null,
+        "subtext": "white rice, fried rice",
         "definitions": [
             {
                 "text": "Small white grains that we cook and eat.",
@@ -1022,6 +1044,8 @@
         "theme": "basic_foods_A0",
         "emoji": "🥩",
         "form": "noun",
+        "plural": null,
+        "subtext": "fresh meat, eat meat",
         "definitions": [
             {
                 "text": "Food that comes from animals.",
@@ -1067,6 +1091,8 @@
         "theme": "everyday_shopping_A0",
         "emoji": "💰",
         "form": "noun",
+        "plural": null,
+        "subtext": "spend money, save money",
         "definitions": [
             {
                 "text": "Coins or notes used to buy things.",
@@ -1083,6 +1109,7 @@
         "emoji": "🛒",
         "form": "noun",
         "plural": "shops",
+        "subtext": "go to a shop, local shop",
         "definitions": [
             {
                 "text": "A place where you can buy things.",
@@ -1131,6 +1158,7 @@
         "emoji": "💑",
         "form": "noun",
         "plural": "partners",
+        "subtext": "husband, wife, boyfriend, girlfriend",
         "definitions": [
             {
                 "text": "The person you live with or are in a relationship with.",
@@ -1146,6 +1174,7 @@
         "theme": "times_day_A0",
         "emoji": "🌅",
         "form": "noun",
+        "subtext": "early morning, good morning",
         "definitions": [
             {
                 "text": "The part of the day before 12 o'clock.",
@@ -1161,6 +1190,7 @@
         "theme": "times_day_A0",
         "emoji": "🌆",
         "form": "noun",
+        "subtext": "this evening, good evening",
         "definitions": [
             {
                 "text": "The part of the day after afternoon and before night.",
@@ -1193,6 +1223,7 @@
         "emoji": "📅",
         "form": "noun",
         "plural": "weeks",
+        "subtext": "next week, last week",
         "definitions": [
             {
                 "text": "A period of seven days.",
@@ -1223,6 +1254,7 @@
         "theme": "meals_of_the_day_A0",
         "emoji": "🍱",
         "form": "noun",
+        "subtext": "eat lunch, lunch break",
         "definitions": [
             {
                 "text": "A meal eaten in the middle of the day.",
@@ -1372,6 +1404,7 @@
         "emoji": "🚪",
         "form": "noun",
         "plural": "rooms",
+        "subtext": "living room, bedroom, clean the room",
         "definitions": [
             {
                 "text": "A separate part of a building with walls and a door.",
@@ -1388,6 +1421,7 @@
         "emoji": "🍳",
         "form": "noun",
         "plural": "kitchens",
+        "subtext": "clean the kitchen, in the kitchen",
         "definitions": [
             {
                 "text": "The room in a house where food is prepared.",
@@ -1434,6 +1468,7 @@
         "emoji": "🏷️",
         "form": "noun",
         "plural": "prices",
+        "subtext": "cost, high price, low price",
         "definitions": [
             {
                 "text": "The amount of money you pay for something.",
@@ -1568,6 +1603,517 @@
                 "text": "The activity of going to different places.",
                 "examples": [
                     "Air travel is fast."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "back",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "emoji": "🚶",
+        "form": "noun",
+        "plural": "backs",
+        "subtext": "back pain, lie on your back",
+        "definitions": [
+            {
+                "text": "The rear part of the body, from neck to bottom.",
+                "examples": [
+                    "I have pain in my back."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "arm",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "emoji": "💪",
+        "form": "noun",
+        "plural": "arms",
+        "subtext": "broken arm, left arm",
+        "definitions": [
+            {
+                "text": "The part of the body from the shoulder to the hand.",
+                "examples": [
+                    "She broke her arm."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fruit",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": null,
+        "subtext": "fresh fruit, fruit juice",
+        "definitions": [
+            {
+                "text": "The sweet part of a plant that contains seeds, used as food.",
+                "examples": [
+                    "Fruit is healthy and good for you."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vegetable",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🥦",
+        "form": "noun",
+        "plural": "vegetables",
+        "subtext": "fresh vegetables, green vegetables",
+        "definitions": [
+            {
+                "text": "A plant that is eaten as food, such as a carrot or tomato.",
+                "examples": [
+                    "He eats vegetables every day."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "beer",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "emoji": "🍺",
+        "form": "noun",
+        "plural": null,
+        "subtext": "cold beer, bottle of beer",
+        "definitions": [
+            {
+                "text": "A popular alcoholic drink made from grain.",
+                "examples": [
+                    "He drinks beer at the weekend."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "wine",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "emoji": "🍷",
+        "form": "noun",
+        "plural": null,
+        "subtext": "red wine, white wine, a glass of wine",
+        "definitions": [
+            {
+                "text": "An alcoholic drink made from grapes.",
+                "examples": [
+                    "She drinks a glass of wine in the evening."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "door",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "doors",
+        "subtext": "open the door, front door",
+        "definitions": [
+            {
+                "text": "A flat panel that opens and closes to let people in and out.",
+                "examples": [
+                    "Please close the door."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "window",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "emoji": "🪟",
+        "form": "noun",
+        "plural": "windows",
+        "subtext": "open the window, shop window",
+        "definitions": [
+            {
+                "text": "An opening in a wall filled with glass that lets in light.",
+                "examples": [
+                    "Open the window — it is hot."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "nurse",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "nurses",
+        "subtext": "hospital nurse, school nurse",
+        "definitions": [
+            {
+                "text": "A person trained to care for sick or injured people.",
+                "examples": [
+                    "The nurse checks your blood pressure."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "driver",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "emoji": "🚗",
+        "form": "noun",
+        "plural": "drivers",
+        "subtext": "bus driver, taxi driver, car driver",
+        "definitions": [
+            {
+                "text": "A person who drives a vehicle as their job.",
+                "examples": [
+                    "The bus driver was friendly."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "chef",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "emoji": "👨‍🍳",
+        "form": "noun",
+        "plural": "chefs",
+        "subtext": "restaurant chef, head chef",
+        "definitions": [
+            {
+                "text": "A professional cook, especially the head cook in a restaurant.",
+                "examples": [
+                    "The chef makes excellent food."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "manager",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "emoji": "🧑‍💼",
+        "form": "noun",
+        "plural": "managers",
+        "subtext": "office manager, bank manager",
+        "definitions": [
+            {
+                "text": "A person who is in charge of a team or business.",
+                "examples": [
+                    "My manager works very long hours."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "plane",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "planes",
+        "subtext": "airplane, take a plane",
+        "definitions": [
+            {
+                "text": "A vehicle with wings that flies through the air.",
+                "examples": [
+                    "The plane lands at nine o'clock."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bike",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "bikes",
+        "subtext": "bicycle, ride a bike",
+        "definitions": [
+            {
+                "text": "A two-wheeled vehicle that you ride by pushing pedals.",
+                "examples": [
+                    "He cycles to work on his bike."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hospital",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🏥",
+        "form": "noun",
+        "plural": "hospitals",
+        "subtext": "go to hospital, hospital bed",
+        "definitions": [
+            {
+                "text": "A place where sick or injured people receive medical care.",
+                "examples": [
+                    "He went to the hospital by ambulance."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "restaurant",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🍴",
+        "form": "noun",
+        "plural": "restaurants",
+        "subtext": "Italian restaurant, go to a restaurant",
+        "definitions": [
+            {
+                "text": "A place where you pay to eat meals.",
+                "examples": [
+                    "We go to a restaurant on Fridays."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bank",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🏦",
+        "form": "noun",
+        "plural": "banks",
+        "subtext": "bank account, go to the bank",
+        "definitions": [
+            {
+                "text": "A place where people keep money and do financial transactions.",
+                "examples": [
+                    "The bank is near my office."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "station",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🚉",
+        "form": "noun",
+        "plural": "stations",
+        "subtext": "train station, bus station",
+        "definitions": [
+            {
+                "text": "A building where trains or buses stop for passengers.",
+                "examples": [
+                    "The station is ten minutes from here."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "supermarket",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": "supermarkets",
+        "subtext": "go to the supermarket",
+        "definitions": [
+            {
+                "text": "A large shop selling food and other household goods.",
+                "examples": [
+                    "I go to the supermarket on Saturdays."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sun",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "☀️",
+        "form": "noun",
+        "plural": null,
+        "subtext": "hot sun, morning sun",
+        "definitions": [
+            {
+                "text": "The star that gives light and heat during the day.",
+                "examples": [
+                    "The sun is very strong today."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rain",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "🌧️",
+        "form": "noun",
+        "plural": null,
+        "subtext": "heavy rain, rain boots",
+        "definitions": [
+            {
+                "text": "Water that falls from clouds in drops.",
+                "examples": [
+                    "There is a lot of rain in autumn."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "wind",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "💨",
+        "form": "noun",
+        "plural": null,
+        "subtext": "strong wind, cold wind",
+        "definitions": [
+            {
+                "text": "Air that moves, sometimes strongly.",
+                "examples": [
+                    "The wind is very strong today."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "afternoon",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "☀️",
+        "form": "noun",
+        "subtext": "this afternoon, good afternoon",
+        "definitions": [
+            {
+                "text": "The part of the day from noon until the evening.",
+                "examples": [
+                    "I finish work at five in the afternoon."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "night",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "🌙",
+        "form": "noun",
+        "plural": "nights",
+        "subtext": "good night, at night",
+        "definitions": [
+            {
+                "text": "The period of darkness between evening and morning.",
+                "examples": [
+                    "I sleep eight hours every night."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "today",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "📅",
+        "form": "adverb",
+        "subtext": "today's meeting, start today",
+        "definitions": [
+            {
+                "text": "On this day; the current day.",
+                "examples": [
+                    "I have a meeting today at ten."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tomorrow",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "⏭️",
+        "form": "adverb",
+        "subtext": "tomorrow morning, see you tomorrow",
+        "definitions": [
+            {
+                "text": "On the day after today.",
+                "examples": [
+                    "She has a doctor's appointment tomorrow."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "husband",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "👨",
+        "form": "noun",
+        "plural": "husbands",
+        "opposite": "wife",
+        "oppositeEmoji": "👩",
+        "subtext": "spouse, partner",
+        "definitions": [
+            {
+                "text": "A married man, in relation to his wife.",
+                "examples": [
+                    "Her husband is a doctor."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "wife",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "👩",
+        "form": "noun",
+        "plural": "wives",
+        "opposite": "husband",
+        "oppositeEmoji": "👨",
+        "subtext": "spouse, partner",
+        "definitions": [
+            {
+                "text": "A married woman, in relation to her husband.",
+                "examples": [
+                    "His wife works in finance."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "child",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "👶",
+        "form": "noun",
+        "plural": "children",
+        "subtext": "kid, young person",
+        "definitions": [
+            {
+                "text": "A young person; a son or daughter.",
+                "examples": [
+                    "They have two children."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "parent",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "parents",
+        "subtext": "mother or father",
+        "definitions": [
+            {
+                "text": "A mother or father.",
+                "examples": [
+                    "My parents live in the north."
                 ]
             }
         ]
