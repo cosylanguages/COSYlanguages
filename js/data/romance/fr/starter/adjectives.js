@@ -17,6 +17,96 @@
         ]
     },
     {
+        "word": "rouge",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔴",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ayant la couleur du sang ou d'une tomate mûre.",
+                "examples": [
+                    "Elle a un sac rouge."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bleu",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔵",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ayant la couleur d'un ciel dégagé.",
+                "examples": [
+                    "Sa voiture est bleue."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vert",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟢",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ayant la couleur de l'herbe ou des feuilles.",
+                "examples": [
+                    "Elle porte une robe verte."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "blanc",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ayant la couleur de la neige ou du lait.",
+                "examples": [
+                    "Les murs sont blancs."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "noir",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚫",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ayant la couleur la plus sombre, comme le ciel nocturne.",
+                "examples": [
+                    "Il porte un manteau noir."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "jaune",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟡",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ayant la couleur du soleil ou d'un citron.",
+                "examples": [
+                    "Elle a un parapluie jaune."
+                ]
+            }
+        ]
+    },
+    {
         "word": "petit",
         "level": "starter",
         "theme": "size_shape_A0",
@@ -416,11 +506,62 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
+        "opposite": "libre",
         "definitions": [
             {
                 "text": "Avoir beaucoup de choses à faire.",
                 "examples": [
                     "Je suis très occupé cette semaine."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ouvert",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔓",
+        "form": "adjective",
+        "opposite": "fermé",
+        "oppositeEmoji": "🔒",
+        "definitions": [
+            {
+                "text": "Pas fermé ; permettant l'entrée ou l'accès.",
+                "examples": [
+                    "Le magasin est ouvert jusqu'à huit heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fermé",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "ouvert",
+        "oppositeEmoji": "🔓",
+        "definitions": [
+            {
+                "text": "Pas ouvert ; clos.",
+                "examples": [
+                    "La banque est fermée le dimanche."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "gratuit",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "adjective",
+        "opposite": "payant",
+        "definitions": [
+            {
+                "text": "Ne coûtant pas d'argent ; sans frais.",
+                "examples": [
+                    "Le musée est gratuit le dimanche."
                 ]
             }
         ]

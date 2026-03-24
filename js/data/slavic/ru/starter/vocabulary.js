@@ -306,6 +306,40 @@
         "plural": "ключи"
     },
     {
+        "word": "дверь",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "gender": "она",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "двери",
+        "definitions": [
+            {
+                "text": "Плоская панель, которая открывается и закрывается.",
+                "examples": [
+                    "Пожалуйста, закройте дверь."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "окно",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "gender": "оно",
+        "emoji": "🪟",
+        "form": "noun",
+        "plural": "окна",
+        "definitions": [
+            {
+                "text": "Проем в стене со стеклом, который пропускает свет.",
+                "examples": [
+                    "Откройте окно — жарко."
+                ]
+            }
+        ]
+    },
+    {
         "word": "телефон",
         "level": "starter",
         "theme": "basic_technology_devices_A0",
@@ -436,6 +470,91 @@
         "plural": "уши"
     },
     {
+        "word": "спина",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "gender": "она",
+        "emoji": "🧍",
+        "form": "noun",
+        "plural": "спины",
+        "definitions": [
+            {
+                "text": "Задняя часть тела от шеи до поясницы.",
+                "examples": [
+                    "У меня сегодня болит спина."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "медсестра",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "gender": "она",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "медсёстры",
+        "definitions": [
+            {
+                "text": "Человек, обученный уходу за больными или ранеными людьми.",
+                "examples": [
+                    "Медсестра проверяет ваше давление."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "водитель",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "gender": "он",
+        "emoji": "👨‍✈️",
+        "form": "noun",
+        "plural": "водители",
+        "definitions": [
+            {
+                "text": "Человек, который водит машину как профессию.",
+                "examples": [
+                    "Водитель автобуса был дружелюбным."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "повар",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "gender": "он",
+        "emoji": "👨‍🍳",
+        "form": "noun",
+        "plural": "повара",
+        "definitions": [
+            {
+                "text": "Профессиональный кулинар, особенно главный повар в ресторане.",
+                "examples": [
+                    "Повар готовит отличную еду."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "менеджер",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "gender": "он",
+        "emoji": "👨‍💼",
+        "form": "noun",
+        "plural": "менеджеры",
+        "definitions": [
+            {
+                "text": "Человек, отвечающий за команду или бизнес.",
+                "examples": [
+                    "Мой менеджер работает очень много."
+                ]
+            }
+        ]
+    },
+    {
         "word": "мать",
         "level": "starter",
         "theme": "immediate_family_A0",
@@ -443,6 +562,40 @@
         "emoji": "👩",
         "form": "noun",
         "plural": "матери"
+    },
+    {
+        "word": "фрукты",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "gender": "они",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": "фрукты",
+        "definitions": [
+            {
+                "text": "Сладкая часть растения, содержащая семена.",
+                "examples": [
+                    "Фрукты — это полезно и вкусно."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "овощи",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "gender": "они",
+        "emoji": "🥕",
+        "form": "noun",
+        "plural": "овощи",
+        "definitions": [
+            {
+                "text": "Растение, которое едят в пищу, например, морковь.",
+                "examples": [
+                    "Он ест овощи каждый день."
+                ]
+            }
+        ]
     },
     {
         "word": "отец",
@@ -531,6 +684,40 @@
         "plural": "офисы"
     },
     {
+        "word": "пиво",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "gender": "оно",
+        "emoji": "🍺",
+        "form": "noun",
+        "plural": "пиво",
+        "definitions": [
+            {
+                "text": "Популярный алкогольный напиток из зерна.",
+                "examples": [
+                    "Он пьет пиво по выходным."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "вино",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "gender": "оно",
+        "emoji": "🍷",
+        "form": "noun",
+        "plural": "вина",
+        "definitions": [
+            {
+                "text": "Алкогольный напиток из винограда.",
+                "examples": [
+                    "Она выпивает бокал вина вечером."
+                ]
+            }
+        ]
+    },
+    {
         "word": "машина",
         "level": "starter",
         "theme": "modes_of_transport_A0",
@@ -556,6 +743,40 @@
         "emoji": "🚆",
         "form": "noun",
         "plural": "поезда"
+    },
+    {
+        "word": "самолёт",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "gender": "он",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "самолёты",
+        "definitions": [
+            {
+                "text": "Транспортное средство с крыльями, которое летает по воздуху.",
+                "examples": [
+                    "Самолёт приземляется в девять часов."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "велосипед",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "gender": "он",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "велосипеды",
+        "definitions": [
+            {
+                "text": "Двухколесное транспортное средство с педалями.",
+                "examples": [
+                    "Он ездит на работу на велосипеде."
+                ]
+            }
+        ]
     },
     {
         "word": "деньги",
@@ -603,6 +824,91 @@
         "plural": "недели"
     },
     {
+        "word": "больница",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "gender": "она",
+        "emoji": "🏥",
+        "form": "noun",
+        "plural": "больницы",
+        "definitions": [
+            {
+                "text": "Место, где лечат больных или раненых людей.",
+                "examples": [
+                    "Он поехал в больницу на скорой."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ресторан",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "gender": "он",
+        "emoji": "🍴",
+        "form": "noun",
+        "plural": "рестораны",
+        "definitions": [
+            {
+                "text": "Место, где вы платите за еду.",
+                "examples": [
+                    "Мы ходим в ресторан по пятницам."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "банк",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "gender": "он",
+        "emoji": "🏦",
+        "form": "noun",
+        "plural": "банки",
+        "definitions": [
+            {
+                "text": "Место, где люди хранят деньги.",
+                "examples": [
+                    "Банк находится рядом с моим офисом."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "вокзал",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "gender": "он",
+        "emoji": "🚉",
+        "form": "noun",
+        "plural": "вокзалы",
+        "definitions": [
+            {
+                "text": "Здание, где останавливаются поезда или автобусы.",
+                "examples": [
+                    "Вокзал находится в десяти минутах отсюда."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "супермаркет",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "gender": "он",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": "супермаркеты",
+        "definitions": [
+            {
+                "text": "Большой магазин, торгующий продуктами питания и другими товарами.",
+                "examples": [
+                    "Я хожу в супермаркет по субботам."
+                ]
+            }
+        ]
+    },
+    {
         "word": "каждый день",
         "level": "starter",
         "theme": "times_day_A0",
@@ -613,6 +919,36 @@
                 "text": "Ежедневно, без исключений.",
                 "examples": [
                     "Я пью кофе каждый день."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "сегодня",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "📅",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "В этот день.",
+                "examples": [
+                    "У меня сегодня собрание в десять."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "завтра",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "🗓️",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "День после сегодня.",
+                "examples": [
+                    "У неё завтра визит к врачу."
                 ]
             }
         ]
@@ -631,6 +967,76 @@
                 "text": "Человек, который руководит на работе.",
                 "examples": [
                     "Мой босс очень дружелюбный."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "муж",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "gender": "он",
+        "emoji": "👨",
+        "form": "noun",
+        "plural": "мужья",
+        "opposite": "жена",
+        "definitions": [
+            {
+                "text": "Женатый мужчина по отношению к своей жене.",
+                "examples": [
+                    "Её муж врач."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "жена",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "gender": "она",
+        "emoji": "👩",
+        "form": "noun",
+        "plural": "жёны",
+        "opposite": "муж",
+        "definitions": [
+            {
+                "text": "Замужняя женщина по отношению к своему мужу.",
+                "examples": [
+                    "Его жена работает в банке."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ребёнок",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "gender": "он",
+        "emoji": "🧒",
+        "form": "noun",
+        "plural": "дети",
+        "definitions": [
+            {
+                "text": "Молодой человек; сын или дочь.",
+                "examples": [
+                    "У них двое детей."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "родитель",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "gender": "он",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "родители",
+        "definitions": [
+            {
+                "text": "Мать или отец.",
+                "examples": [
+                    "Мои родители живут на севере."
                 ]
             }
         ]

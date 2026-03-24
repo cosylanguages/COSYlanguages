@@ -1547,6 +1547,22 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "rain",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "🌧️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "When water falls from the sky in drops.",
+                "examples": [
+                    "It is raining today.",
+                    "Does it rain a lot in autumn?"
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";

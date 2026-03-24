@@ -51,6 +51,96 @@
         "oppositeEmoji": "👍"
     },
     {
+        "word": "rosso",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔴",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Che ha il colore del sangue o di un pomodoro maturo.",
+                "examples": [
+                    "Lei ha una borsa rossa."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "blu",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔵",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Che ha il colore di un cielo sereno.",
+                "examples": [
+                    "La sua macchina è blu."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "verde",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟢",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Che ha il colore dell'erba o delle foglie.",
+                "examples": [
+                    "Lei indossa un vestito verde."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bianco",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Che ha il colore della neve o del latte.",
+                "examples": [
+                    "Le pareti sono bianche."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "nero",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚫",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Che ha il colore più scuro, come il cielo notturno.",
+                "examples": [
+                    "Lui indossa un cappotto nero."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "giallo",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟡",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Che ha il colore del sole o di un limone.",
+                "examples": [
+                    "Lei ha un ombrello giallo."
+                ]
+            }
+        ]
+    },
+    {
         "word": "facile",
         "level": "starter",
         "theme": "size_shape_A0",
@@ -131,6 +221,56 @@
                 "text": "Lavorare il numero completo di ore di una settimana lavorativa.",
                 "examples": [
                     "Ha un lavoro a tempo pieno in banca."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "aperto",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔓",
+        "form": "adjective",
+        "opposite": "chiuso",
+        "oppositeEmoji": "🔒",
+        "definitions": [
+            {
+                "text": "Non chiuso ; che permette l'ingresso o l'accesso.",
+                "examples": [
+                    "Il negozio è aperto fino alle otto."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "chiuso",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "aperto",
+        "oppositeEmoji": "🔓",
+        "definitions": [
+            {
+                "text": "Non aperto.",
+                "examples": [
+                    "La banca è chiusa la domenica."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "gratis",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "adjective",
+        "opposite": "a pagamento",
+        "definitions": [
+            {
+                "text": "Che non costa denaro ; senza alcun costo.",
+                "examples": [
+                    "Il museo è gratis la domenica."
                 ]
             }
         ]

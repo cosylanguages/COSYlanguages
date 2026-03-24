@@ -21,6 +21,57 @@
         ]
     },
     {
+        "word": "autista",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "l'",
+        "emoji": "👨‍✈️",
+        "form": "noun",
+        "plural": "autisti",
+        "definitions": [
+            {
+                "text": "Una persona che guida un veicolo per lavoro.",
+                "examples": [
+                    "L'autista dell'autobus era gentile."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "chef",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "lo",
+        "emoji": "👨‍🍳",
+        "form": "noun",
+        "plural": "chef",
+        "definitions": [
+            {
+                "text": "Un cuoco professionista.",
+                "examples": [
+                    "Lo chef cucina cibo eccellente."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "manager",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "il",
+        "emoji": "👨‍💼",
+        "form": "noun",
+        "plural": "manager",
+        "definitions": [
+            {
+                "text": "Una persona responsabile di un team.",
+                "examples": [
+                    "Il mio manager lavora molte ore."
+                ]
+            }
+        ]
+    },
+    {
         "word": "piede",
         "level": "starter",
         "theme": "body_parts_A0",
@@ -49,6 +100,58 @@
         ]
     },
     {
+        "word": "moglie",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "la",
+        "emoji": "👩",
+        "form": "noun",
+        "plural": "mogli",
+        "opposite": "marito",
+        "definitions": [
+            {
+                "text": "Una donna sposata.",
+                "examples": [
+                    "Sua moglie lavora in banca."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bambino",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "il",
+        "emoji": "🧒",
+        "form": "noun",
+        "plural": "bambini",
+        "definitions": [
+            {
+                "text": "Una persona giovane.",
+                "examples": [
+                    "Hanno due bambini."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "genitore",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "il",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "genitori",
+        "definitions": [
+            {
+                "text": "Una madre o un padre.",
+                "examples": [
+                    "I miei genitori vivono al nord."
+                ]
+            }
+        ]
+    },
+    {
         "word": "pasta",
         "level": "starter",
         "theme": "basic_foods_A0",
@@ -61,6 +164,24 @@
                 "text": "Un cibo tipico italiano fatto di farina.",
                 "examples": [
                     "Amo la pasta al pomodoro."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bicicletta",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "article": "la",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "biciclette",
+        "subtext": "bici",
+        "definitions": [
+            {
+                "text": "Un veicolo a due ruote.",
+                "examples": [
+                    "Lui va al lavoro in bicicletta."
                 ]
             }
         ]
@@ -440,6 +561,40 @@
         "plural": "orecchi"
     },
     {
+        "word": "schiena",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "la",
+        "emoji": "🧍",
+        "form": "noun",
+        "plural": "schiene",
+        "definitions": [
+            {
+                "text": "La parte posteriore del corpo, dal collo al sedere.",
+                "examples": [
+                    "Ho dolore alla schiena."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "braccio",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "il",
+        "emoji": "💪",
+        "form": "noun",
+        "plural": "braccia",
+        "definitions": [
+            {
+                "text": "La parte del corpo dalla spalla alla mano.",
+                "examples": [
+                    "Lei si è rotta il braccio."
+                ]
+            }
+        ]
+    },
+    {
         "word": "madre",
         "level": "starter",
         "theme": "immediate_family_A0",
@@ -447,6 +602,40 @@
         "emoji": "👩",
         "form": "noun",
         "plural": "madri"
+    },
+    {
+        "word": "frutta",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "la",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": "frutta",
+        "definitions": [
+            {
+                "text": "La parte dolce di una pianta che contiene semi.",
+                "examples": [
+                    "La frutta è sana."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "verdura",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "la",
+        "emoji": "🥕",
+        "form": "noun",
+        "plural": "verdure",
+        "definitions": [
+            {
+                "text": "Una pianta che viene mangiata come cibo, come la carota.",
+                "examples": [
+                    "Mangia verdura ogni giorno."
+                ]
+            }
+        ]
     },
     {
         "word": "padre",
@@ -474,6 +663,40 @@
         "emoji": "👫",
         "form": "noun",
         "plural": "amici"
+    },
+    {
+        "word": "birra",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "la",
+        "emoji": "🍺",
+        "form": "noun",
+        "plural": "birre",
+        "definitions": [
+            {
+                "text": "Una bevanda alcolica popolare fatta di cereali.",
+                "examples": [
+                    "Lui beve birra nel fine settimana."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vino",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "il",
+        "emoji": "🍷",
+        "form": "noun",
+        "plural": "vini",
+        "definitions": [
+            {
+                "text": "Una bevanda alcolica fatta di uva.",
+                "examples": [
+                    "Lei beve un bicchiere di vino la sera."
+                ]
+            }
+        ]
     },
     {
         "word": "partner",

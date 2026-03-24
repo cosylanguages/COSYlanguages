@@ -26,6 +26,142 @@
         ]
     },
     {
+        "word": "nurse",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "nurses",
+        "definitions": [
+            {
+                "text": "A person trained to care for sick or injured people.",
+                "examples": [
+                    "The nurse checks your blood pressure.",
+                    "She works as a nurse in a hospital."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "driver",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "emoji": "🧑‍✈️",
+        "form": "noun",
+        "plural": "drivers",
+        "definitions": [
+            {
+                "text": "A person who drives a vehicle as their job.",
+                "examples": [
+                    "The bus driver was friendly.",
+                    "He is a taxi driver."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "chef",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "emoji": "🧑‍🍳",
+        "form": "noun",
+        "plural": "chefs",
+        "definitions": [
+            {
+                "text": "A professional cook, especially the head cook in a restaurant.",
+                "examples": [
+                    "The chef makes excellent food.",
+                    "She wants to be a chef."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "manager",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "emoji": "🧑‍💼",
+        "form": "noun",
+        "plural": "managers",
+        "definitions": [
+            {
+                "text": "A person who is in charge of a team or business.",
+                "examples": [
+                    "My manager works very long hours.",
+                    "She is a manager at a big company."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "today",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "📅",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "On this day; the current day.",
+                "examples": [
+                    "I have a meeting today at ten.",
+                    "The weather is good today."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tomorrow",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "⏭️",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "On the day after today.",
+                "examples": [
+                    "She has a doctor's appointment tomorrow.",
+                    "I will see you tomorrow."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "door",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "doors",
+        "subtext": "close the door, open the door",
+        "definitions": [
+            {
+                "text": "A flat panel that opens and closes to let people in and out.",
+                "examples": [
+                    "Please close the door.",
+                    "He is standing at the door."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "window",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "emoji": "🪟",
+        "form": "noun",
+        "plural": "windows",
+        "subtext": "open the window",
+        "definitions": [
+            {
+                "text": "An opening in a wall filled with glass that lets in light.",
+                "examples": [
+                    "Open the window — it is hot.",
+                    "The sun is shining through the window."
+                ]
+            }
+        ]
+    },
+    {
         "word": "foot",
         "level": "starter",
         "theme": "body_parts_A0",
@@ -307,7 +443,41 @@
                 "examples": [
                     "I drink a glass of water.",
                     "The water is cold.",
-                    "Please drink water."
+                    "Please drink more water."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "beer",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "emoji": "🍺",
+        "form": "noun",
+        "plural": "beer",
+        "definitions": [
+            {
+                "text": "A popular alcoholic drink made from grain.",
+                "examples": [
+                    "He drinks beer at the weekend.",
+                    "I don't like beer."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "wine",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "emoji": "🍷",
+        "form": "noun",
+        "plural": "wine",
+        "definitions": [
+            {
+                "text": "An alcoholic drink made from grapes.",
+                "examples": [
+                    "She drinks a glass of wine in the evening.",
+                    "Red wine is my favourite."
                 ]
             }
         ]
@@ -646,7 +816,8 @@
                 "text": "The top part of your body that has your eyes, mouth, and brain.",
                 "examples": [
                     "I have a hat on my head.",
-                    "He nodded his head."
+                    "He nodded his head.",
+                    "My head hurts today."
                 ]
             }
         ]
@@ -663,7 +834,8 @@
                 "text": "The part of your arm that has fingers.",
                 "examples": [
                     "Wash your hands before dinner.",
-                    "Give me your hand."
+                    "Give me your hand.",
+                    "She has a phone in her hand."
                 ]
             }
         ]
@@ -679,7 +851,8 @@
             {
                 "text": "The long part of the body that you use for walking.",
                 "examples": [
-                    "I have two legs."
+                    "I have two legs.",
+                    "My legs are tired."
                 ]
             }
         ]
@@ -744,7 +917,42 @@
             {
                 "text": "The part of the body that you use for hearing.",
                 "examples": [
-                    "I have two ears."
+                    "I have two ears.",
+                    "My ear hurts."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "back",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "emoji": "🧍",
+        "form": "noun",
+        "plural": "backs",
+        "definitions": [
+            {
+                "text": "The rear part of the body, from neck to bottom.",
+                "examples": [
+                    "I have pain in my back.",
+                    "He carries a bag on his back."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "arm",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "emoji": "💪",
+        "form": "noun",
+        "plural": "arms",
+        "definitions": [
+            {
+                "text": "The part of the body from the shoulder to the hand.",
+                "examples": [
+                    "She broke her arm.",
+                    "He has strong arms."
                 ]
             }
         ]
@@ -789,12 +997,90 @@
         "emoji": "👨",
         "form": "noun",
         "plural": "fathers",
+        "opposite": "mother",
+        "oppositeEmoji": "👩",
         "definitions": [
             {
                 "text": "A man who is your parent (usually the husband of your mother).",
                 "examples": [
                     "My father is at work.",
                     "His father is tall."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "husband",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "👨‍💼",
+        "form": "noun",
+        "plural": "husbands",
+        "opposite": "wife",
+        "oppositeEmoji": "👩‍💼",
+        "definitions": [
+            {
+                "text": "A married man, in relation to his wife.",
+                "examples": [
+                    "Her husband is a doctor.",
+                    "My husband works in finance."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "wife",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "👩‍💼",
+        "form": "noun",
+        "plural": "wives",
+        "opposite": "husband",
+        "oppositeEmoji": "👨‍💼",
+        "definitions": [
+            {
+                "text": "A married woman, in relation to her husband.",
+                "examples": [
+                    "His wife works in finance.",
+                    "My wife is a teacher."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "child",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "🧒",
+        "form": "noun",
+        "plural": "children",
+        "opposite": "parent",
+        "oppositeEmoji": "👪",
+        "definitions": [
+            {
+                "text": "A young person; a son or daughter.",
+                "examples": [
+                    "They have two children.",
+                    "The child is playing in the park."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "parent",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "parents",
+        "opposite": "child",
+        "oppositeEmoji": "🧒",
+        "definitions": [
+            {
+                "text": "A mother or father.",
+                "examples": [
+                    "My parents live in the north.",
+                    "Are your parents at home?"
                 ]
             }
         ]
@@ -981,7 +1267,44 @@
             {
                 "text": "A vehicle that runs on rails.",
                 "examples": [
-                    "The train is fast."
+                    "The train is fast.",
+                    "The train to Paris takes two hours."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "plane",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "planes",
+        "subtext": "by plane, fly",
+        "definitions": [
+            {
+                "text": "A vehicle with wings that flies through the air.",
+                "examples": [
+                    "The plane lands at nine o'clock.",
+                    "I travel by plane."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bike",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "bikes",
+        "subtext": "cycle, on his bike",
+        "definitions": [
+            {
+                "text": "A two-wheeled vehicle that you ride by pushing pedals.",
+                "examples": [
+                    "He cycles to work on his bike.",
+                    "I have a new bike."
                 ]
             }
         ]
@@ -1011,7 +1334,8 @@
             {
                 "text": "Small white grains that we cook and eat.",
                 "examples": [
-                    "We eat rice every day."
+                    "We eat rice every day.",
+                    "We have rice with every meal."
                 ]
             }
         ]
@@ -1026,7 +1350,42 @@
             {
                 "text": "Food that comes from animals.",
                 "examples": [
+                    "He does not eat meat.",
                     "He eats meat and vegetables."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fruit",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": "fruit",
+        "definitions": [
+            {
+                "text": "The sweet part of a plant that contains seeds, used as food.",
+                "examples": [
+                    "Fruit is healthy and good for you.",
+                    "I love fresh fruit."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vegetable",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🥦",
+        "form": "noun",
+        "plural": "vegetables",
+        "definitions": [
+            {
+                "text": "A plant that is eaten as food, such as a carrot or tomato.",
+                "examples": [
+                    "He eats vegetables every day.",
+                    "Vegetables are good for you."
                 ]
             }
         ]
@@ -1071,7 +1430,8 @@
             {
                 "text": "Coins or notes used to buy things.",
                 "examples": [
-                    "I have money in my bag."
+                    "I have money in my bag.",
+                    "I do not have money today."
                 ]
             }
         ]
@@ -1087,7 +1447,93 @@
             {
                 "text": "A place where you can buy things.",
                 "examples": [
-                    "The shop is open."
+                    "The shop is open.",
+                    "The shop closes at eight."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hospital",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🏥",
+        "form": "noun",
+        "plural": "hospitals",
+        "definitions": [
+            {
+                "text": "A place where sick or injured people receive medical care.",
+                "examples": [
+                    "He went to the hospital by ambulance.",
+                    "The hospital is very big."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "restaurant",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🍴",
+        "form": "noun",
+        "plural": "restaurants",
+        "definitions": [
+            {
+                "text": "A place where you pay to eat meals.",
+                "examples": [
+                    "We go to a restaurant on Fridays.",
+                    "This restaurant is cheap and good."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bank",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🏦",
+        "form": "noun",
+        "plural": "banks",
+        "definitions": [
+            {
+                "text": "A place where people keep money and do financial transactions.",
+                "examples": [
+                    "The bank is near my office.",
+                    "The bank is closed on Sundays."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "station",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🚉",
+        "form": "noun",
+        "plural": "stations",
+        "definitions": [
+            {
+                "text": "A building where trains or buses stop for passengers.",
+                "examples": [
+                    "The station is ten minutes from here.",
+                    "The hotel is near the station."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "supermarket",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": "supermarkets",
+        "definitions": [
+            {
+                "text": "A large shop selling food and other household goods.",
+                "examples": [
+                    "I go to the supermarket on Saturdays.",
+                    "The supermarket is very busy."
                 ]
             }
         ]
@@ -1150,7 +1596,24 @@
             {
                 "text": "The part of the day before 12 o'clock.",
                 "examples": [
-                    "I start work in the morning."
+                    "I start work in the morning.",
+                    "I have a meeting in the morning."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "afternoon",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "☀️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The part of the day from noon until the evening.",
+                "examples": [
+                    "I finish work at five in the afternoon.",
+                    "I see my friends in the afternoon."
                 ]
             }
         ]
@@ -1165,7 +1628,24 @@
             {
                 "text": "The part of the day after afternoon and before night.",
                 "examples": [
-                    "We eat dinner in the evening."
+                    "We eat dinner in the evening.",
+                    "I drink tea in the evening."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "night",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "🌙",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The period of darkness between evening and morning.",
+                "examples": [
+                    "I sleep eight hours every night.",
+                    "The night sky is beautiful."
                 ]
             }
         ]
@@ -1568,6 +2048,54 @@
                 "text": "The activity of going to different places.",
                 "examples": [
                     "Air travel is fast."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sun",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "☀️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The star that gives light and heat during the day.",
+                "examples": [
+                    "The sun is very strong today.",
+                    "The sun rises in the east."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rain",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "🌧️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Water that falls from clouds in drops.",
+                "examples": [
+                    "There is a lot of rain in autumn.",
+                    "I like the sound of rain."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "wind",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "🌬️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Air that moves, sometimes strongly.",
+                "examples": [
+                    "The wind is very strong today.",
+                    "The wind blew his hat off."
                 ]
             }
         ]

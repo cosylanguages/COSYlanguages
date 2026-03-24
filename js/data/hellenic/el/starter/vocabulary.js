@@ -471,6 +471,40 @@
         "plural": "αυτιά"
     },
     {
+        "word": "πλάτη",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "η",
+        "emoji": "🧍",
+        "form": "noun",
+        "plural": "πλάτες",
+        "definitions": [
+            {
+                "text": "Το πίσω μέρος του σώματος.",
+                "examples": [
+                    "Έχω πόνο στην πλάτη."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "μπράτσο",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "το",
+        "emoji": "💪",
+        "form": "noun",
+        "plural": "μπράτσα",
+        "definitions": [
+            {
+                "text": "Το μέρος του σώματος από τον ώμο έως το χέρι.",
+                "examples": [
+                    "Έσπασε το μπράτσο της."
+                ]
+            }
+        ]
+    },
+    {
         "word": "μητέρα",
         "level": "starter",
         "theme": "immediate_family_A0",
@@ -593,6 +627,40 @@
         "plural": "τρένα"
     },
     {
+        "word": "φρούτο",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "το",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": "φρούτα",
+        "definitions": [
+            {
+                "text": "Το γλυκό μέρος ενός φυτού που περιέχει σπόρους.",
+                "examples": [
+                    "Τα φρούτα είναι υγιεινά."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "λαχανικό",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "το",
+        "emoji": "🥕",
+        "form": "noun",
+        "plural": "λαχανικά",
+        "definitions": [
+            {
+                "text": "Ένα φυτό που τρώγεται ως τροφή, όπως το καρότο.",
+                "examples": [
+                    "Τρώει λαχανικά κάθε μέρα."
+                ]
+            }
+        ]
+    },
+    {
         "word": "λεφτά",
         "level": "starter",
         "theme": "everyday_shopping_A0",
@@ -626,6 +694,40 @@
         "emoji": "☀️",
         "form": "noun",
         "plural": "μέρες"
+    },
+    {
+        "word": "μπύρα",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "η",
+        "emoji": "🍺",
+        "form": "noun",
+        "plural": "μπύρες",
+        "definitions": [
+            {
+                "text": "Ένα δημοφιλές αλκοολούχο ποτό.",
+                "examples": [
+                    "Πίνει μπύρα το Σαββατοκύριακο."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "κρασί",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "το",
+        "emoji": "🍷",
+        "form": "noun",
+        "plural": "κρασιά",
+        "definitions": [
+            {
+                "text": "Ένα αλκοολούχο ποτό από σταφύλια.",
+                "examples": [
+                    "Πίνει ένα ποτήρι κρασί το βράδυ."
+                ]
+            }
+        ]
     },
     {
         "word": "βδομάδα",
