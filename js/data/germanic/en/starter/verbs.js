@@ -1547,6 +1547,38 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "rain",
+        "level": "starter",
+        "theme": "weather_A0",
+        "emoji": "🌧️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To fall as water from the clouds.",
+                "examples": [
+                    "It is raining today.",
+                    "It often rains in autumn."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bike",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚲",
+        "form": "verb",
+        "subtext": "cycle",
+        "definitions": [
+            {
+                "text": "To ride a bicycle.",
+                "examples": [
+                    "He bikes to work every day."
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";
