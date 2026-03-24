@@ -867,7 +867,8 @@
             {
                 "text": "A job; a place where people go to earn money.",
                 "examples": [
-                    "I go to work every day."
+                    "I go to work every day.",
+                    "He had a bad day at work."
                 ]
             }
         ]
@@ -2117,7 +2118,7 @@
                 ]
             }
         ]
-    }
+    },
 ];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
