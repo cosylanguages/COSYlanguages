@@ -1,23 +1,24 @@
 (function() {
     const data = [
     {
-        "word": "sostenere che",
+        "word": "argue",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
-        "subtext": "affermare, argomentare",
+        "subtext": "argue that, argue for/against",
         "definitions": [
             {
-                "text": "Fornire ragioni per supportare un particolare punto di vista.",
+                "text": "To give reasons to support a particular view.",
                 "examples": [
-                    "Alcuni sostengono che il lavoro a distanza riduca l'innovazione."
+                    "Some argue that remote work reduces innovation.",
+                    "She argued for better working conditions."
                 ]
             }
         ]
     }
 ];
-    const lang = "it";
+    const lang = "en";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
     if (window.vocabularyData) {

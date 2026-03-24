@@ -102,7 +102,8 @@ const themeConfig = {
             "shopping_money": {
                 "everyday_shopping_A0": "Everyday shopping",
                 "money_payment_A1": "Money & payment",
-                "shops_services_A1": "Shops & services"
+                "shops_services_A1": "Shops & services",
+                "places_shops_A1": "Places & shops"
             },
             "technology_media": {
                 "basic_technology_devices_A0": "Basic technology devices",
@@ -303,7 +304,8 @@ const themeConfig = {
             },
             "work_employment": {
                 "work_life_balance_B1": "Work-life balance",
-                "workplace_communication_B1": "Workplace communication"
+                "workplace_communication_B1": "Workplace communication",
+                "career_development_B1": "Career development & ambition"
             },
             "education_learning": {
                 "higher_education_B1": "Higher education",

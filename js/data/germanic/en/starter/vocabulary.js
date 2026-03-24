@@ -33,7 +33,16 @@
         "answer": "two feet",
         "emoji": "🦶",
         "form": "noun",
-        "plural": "feet"
+        "plural": "feet",
+        "definitions": [
+            {
+                "text": "The part of the body at the bottom of the leg.",
+                "examples": [
+                    "I have a pain in my foot.",
+                    "She has small feet."
+                ]
+            }
+        ]
     },
     {
         "word": "teacher",
@@ -696,14 +705,32 @@
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "☀️",
-        "form": "adjective"
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a lot of light from the sun.",
+                "examples": [
+                    "It is a sunny day.",
+                    "I like sunny weather."
+                ]
+            }
+        ]
     },
     {
         "word": "rainy",
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "🌧️",
-        "form": "adjective"
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a lot of rain.",
+                "examples": [
+                    "It is a rainy day.",
+                    "Wear a coat, it's rainy outside."
+                ]
+            }
+        ]
     },
     {
         "word": "hot",
@@ -712,7 +739,16 @@
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "cold",
-        "oppositeEmoji": "❄️"
+        "oppositeEmoji": "❄️",
+        "definitions": [
+            {
+                "text": "Having a high temperature.",
+                "examples": [
+                    "The coffee is hot.",
+                    "It is very hot in summer."
+                ]
+            }
+        ]
     },
     {
         "word": "cold",
@@ -721,7 +757,16 @@
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "hot",
-        "oppositeEmoji": "🔥"
+        "oppositeEmoji": "🔥",
+        "definitions": [
+            {
+                "text": "Having a low temperature.",
+                "examples": [
+                    "The water is cold.",
+                    "It is cold in winter."
+                ]
+            }
+        ]
     },
     {
         "word": "head",
@@ -1710,7 +1755,7 @@
         "form": "adjective",
         "opposite": "dirty",
         "oppositeEmoji": "💩",
-        "subtext": "tidy, spotless",
+        "subtext": "oпрятный, безупречный",
         "definitions": [
             {
                 "text": "Free from dirt.",

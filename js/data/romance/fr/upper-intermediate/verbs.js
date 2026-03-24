@@ -1,18 +1,20 @@
 (function() {
     const data = [
     {
-        "word": "durable",
+        "word": "soutenir que",
         "level": "upper-intermediate",
-        "theme": "environment_policy_B2",
-        "emoji": "🌱",
-        "form": "verb"
-    },
-    {
-        "word": "intelligence artificielle",
-        "level": "upper-intermediate",
-        "theme": "technology_privacy_B2",
-        "emoji": "🤖",
-        "form": "verb"
+        "theme": "formal_debate_vocab_B2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "subtext": "prétendre, affirmer",
+        "definitions": [
+            {
+                "text": "Donner des raisons pour appuyer un point de vue particulier.",
+                "examples": [
+                    "Certains soutiennent que le travail à distance réduit l'innovation."
+                ]
+            }
+        ]
     }
 ];
     const lang = "fr";

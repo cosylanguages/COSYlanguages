@@ -1,38 +1,34 @@
 (function() {
     const data = [
     {
-        "word": "обезьяна",
+        "word": "заниматься садоводством",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "form": "verb"
+        "emoji": "🧑‍🌾",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Работать в саду, выращивать растения.",
+                "examples": [
+                    "Ему нравится заниматься садоводством по выходным."
+                ]
+            }
+        ]
     },
     {
-        "word": "садоводство",
+        "word": "работать волонтёром",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "emoji": "🪴",
-        "form": "verb"
-    },
-    {
-        "word": "коллега",
-        "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "👥",
-        "form": "verb"
-    },
-    {
-        "word": "удаленная работа",
-        "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "💻",
-        "form": "verb"
-    },
-    {
-        "word": "глобальное потепление",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "🌡️",
-        "form": "verb"
+        "emoji": "🙋",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Предлагать сделать что-то без оплаты.",
+                "examples": [
+                    "Она работает волонтёром в местном банке еды."
+                ]
+            }
+        ]
     }
 ];
     const lang = "ru";

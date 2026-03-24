@@ -1,23 +1,23 @@
 (function() {
     const data = [
     {
-        "word": "sostenere che",
+        "word": "ισχυρίζονται ότι",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
-        "subtext": "affermare, argomentare",
+        "subtext": "υποστηρίζω, επιχειρηματολογώ",
         "definitions": [
             {
-                "text": "Fornire ragioni per supportare un particolare punto di vista.",
+                "text": "Δίνω λόγους για να υποστηρίξω μια συγκεκριμένη άποψη.",
                 "examples": [
-                    "Alcuni sostengono che il lavoro a distanza riduca l'innovazione."
+                    "Κάποιοι ισχυρίζονται ότι η τηλεργασία μειώνει την καινοτομία."
                 ]
             }
         ]
     }
 ];
-    const lang = "it";
+    const lang = "el";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
     if (window.vocabularyData) {

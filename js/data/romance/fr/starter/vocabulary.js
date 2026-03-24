@@ -29,7 +29,16 @@
         "answer": "deux pieds",
         "emoji": "🦶",
         "form": "noun",
-        "plural": "pieds"
+        "plural": "pieds",
+        "definitions": [
+            {
+                "text": "La partie du corps au bout de la jambe.",
+                "examples": [
+                    "J'ai mal au pied.",
+                    "Elle a de petits pieds."
+                ]
+            }
+        ]
     },
     {
         "word": "professeur",
@@ -395,7 +404,15 @@
         "article": "le",
         "emoji": "👕",
         "form": "noun",
-        "plural": "t-shirts"
+        "plural": "t-shirts",
+        "definitions": [
+            {
+                "text": "Un haut léger à manches courtes.",
+                "examples": [
+                    "Je porte un t-shirt blanc."
+                ]
+            }
+        ]
     },
     {
         "word": "pantalon",
@@ -404,7 +421,15 @@
         "article": "le",
         "emoji": "👖",
         "form": "noun",
-        "plural": "pantalons"
+        "plural": "pantalons",
+        "definitions": [
+            {
+                "text": "Un vêtement qui couvre les jambes séparément.",
+                "examples": [
+                    "J'ai besoin d'un nouveau pantalon."
+                ]
+            }
+        ]
     },
     {
         "word": "chaussures",
@@ -413,7 +438,15 @@
         "article": "les",
         "emoji": "👟",
         "form": "noun",
-        "plural": "chaussures"
+        "plural": "chaussures",
+        "definitions": [
+            {
+                "text": "Ce que l'on porte aux pieds.",
+                "examples": [
+                    "Mets tes chaussures."
+                ]
+            }
+        ]
     },
     {
         "word": "chapeau",
@@ -422,7 +455,15 @@
         "article": "le",
         "emoji": "👒",
         "form": "noun",
-        "plural": "chapeaux"
+        "plural": "chapeaux",
+        "definitions": [
+            {
+                "text": "Ce que l'on porte sur la tête.",
+                "examples": [
+                    "Elle porte un beau chapeau."
+                ]
+            }
+        ]
     },
     {
         "word": "chaise",
@@ -431,7 +472,15 @@
         "article": "la",
         "emoji": "🪑",
         "form": "noun",
-        "plural": "chaises"
+        "plural": "chaises",
+        "definitions": [
+            {
+                "text": "Un meuble pour s'asseoir.",
+                "examples": [
+                    "Assieds-toi sur la chaise."
+                ]
+            }
+        ]
     },
     {
         "word": "table",
@@ -440,7 +489,15 @@
         "article": "la",
         "emoji": "🪑",
         "form": "noun",
-        "plural": "tables"
+        "plural": "tables",
+        "definitions": [
+            {
+                "text": "Un meuble utilisé pour manger ou travailler.",
+                "examples": [
+                    "Le repas est sur la table."
+                ]
+            }
+        ]
     },
     {
         "word": "lit",
@@ -449,7 +506,15 @@
         "article": "le",
         "emoji": "🛏️",
         "form": "noun",
-        "plural": "lits"
+        "plural": "lits",
+        "definitions": [
+            {
+                "text": "Un meuble pour dormir.",
+                "examples": [
+                    "Mon lit est confortable."
+                ]
+            }
+        ]
     },
     {
         "word": "clé",
@@ -458,7 +523,15 @@
         "article": "la",
         "emoji": "🔑",
         "form": "noun",
-        "plural": "clés"
+        "plural": "clés",
+        "definitions": [
+            {
+                "text": "Un objet métallique pour ouvrir une porte.",
+                "examples": [
+                    "Où sont mes clés ?"
+                ]
+            }
+        ]
     },
     {
         "word": "téléphone",
@@ -467,7 +540,15 @@
         "article": "le",
         "emoji": "📱",
         "form": "noun",
-        "plural": "téléphones"
+        "plural": "téléphones",
+        "definitions": [
+            {
+                "text": "Un appareil pour parler à distance.",
+                "examples": [
+                    "Je parle au téléphone."
+                ]
+            }
+        ]
     },
     {
         "word": "livre",
@@ -476,7 +557,15 @@
         "article": "le",
         "emoji": "📖",
         "form": "noun",
-        "plural": "livres"
+        "plural": "livres",
+        "definitions": [
+            {
+                "text": "Des pages avec du texte que l'on lit.",
+                "examples": [
+                    "Je lis un livre."
+                ]
+            }
+        ]
     },
     {
         "word": "sac",
@@ -502,7 +591,15 @@
         "article": "le",
         "emoji": "🖊️",
         "form": "noun",
-        "plural": "stylos"
+        "plural": "stylos",
+        "definitions": [
+            {
+                "text": "Un objet utilisé pour écrire avec de l'encre.",
+                "examples": [
+                    "Puis-je emprunter ton stylo ?"
+                ]
+            }
+        ]
     },
     {
         "word": "grand",
@@ -542,7 +639,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "vieux",
-        "oppositeEmoji": "👴"
+        "oppositeEmoji": "👴",
+        "definitions": [
+            {
+                "text": "Qui a peu d'années.",
+                "examples": [
+                    "C'est un jeune homme."
+                ]
+            }
+        ]
     },
     {
         "word": "vieux",
@@ -550,7 +655,15 @@
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "jeune",
-        "oppositeEmoji": "👶"
+        "oppositeEmoji": "👶",
+        "definitions": [
+            {
+                "text": "Qui a beaucoup d'années.",
+                "examples": [
+                    "C'est un vieux livre."
+                ]
+            }
+        ]
     },
     {
         "word": "bon",
@@ -699,7 +812,15 @@
         "article": "l'",
         "emoji": "🐦",
         "form": "noun",
-        "plural": "oiseaux"
+        "plural": "oiseaux",
+        "definitions": [
+            {
+                "text": "Un animal avec des plumes et des ailes.",
+                "examples": [
+                    "L'oiseau chante."
+                ]
+            }
+        ]
     },
     {
         "word": "poisson",
@@ -708,21 +829,45 @@
         "article": "le",
         "emoji": "🐟",
         "form": "noun",
-        "plural": "poissons"
+        "plural": "poissons",
+        "definitions": [
+            {
+                "text": "Un animal qui vit dans l'eau.",
+                "examples": [
+                    "Le poisson nage."
+                ]
+            }
+        ]
     },
     {
         "word": "ensoleillé",
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "☀️",
-        "form": "adjective"
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Quand le soleil brille.",
+                "examples": [
+                    "Il fait un temps ensoleillé."
+                ]
+            }
+        ]
     },
     {
         "word": "pluvieux",
         "level": "starter",
         "theme": "weather_A0",
         "emoji": "🌧️",
-        "form": "adjective"
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Quand il pleut.",
+                "examples": [
+                    "C'est un jour pluvieux."
+                ]
+            }
+        ]
     },
     {
         "word": "chaud",
@@ -731,7 +876,15 @@
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "froid",
-        "oppositeEmoji": "❄️"
+        "oppositeEmoji": "❄️",
+        "definitions": [
+            {
+                "text": "Quand la température est élevée.",
+                "examples": [
+                    "Il fait chaud en été."
+                ]
+            }
+        ]
     },
     {
         "word": "froid",
@@ -740,7 +893,15 @@
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "chaud",
-        "oppositeEmoji": "🔥"
+        "oppositeEmoji": "🔥",
+        "definitions": [
+            {
+                "text": "Quand la température est basse.",
+                "examples": [
+                    "Il fait froid en hiver."
+                ]
+            }
+        ]
     },
     {
         "word": "tête",
@@ -749,7 +910,15 @@
         "article": "la",
         "emoji": "👤",
         "form": "noun",
-        "plural": "têtes"
+        "plural": "têtes",
+        "definitions": [
+            {
+                "text": "La partie supérieure du corps.",
+                "examples": [
+                    "J'ai un chapeau sur la tête."
+                ]
+            }
+        ]
     },
     {
         "word": "main",
@@ -758,7 +927,15 @@
         "article": "la",
         "emoji": "✋",
         "form": "noun",
-        "plural": "mains"
+        "plural": "mains",
+        "definitions": [
+            {
+                "text": "La partie du bras avec les doigts.",
+                "examples": [
+                    "Lave tes mains."
+                ]
+            }
+        ]
     },
     {
         "word": "jambe",
@@ -767,7 +944,15 @@
         "article": "la",
         "emoji": "🦵",
         "form": "noun",
-        "plural": "jambes"
+        "plural": "jambes",
+        "definitions": [
+            {
+                "text": "La partie du corps utilisée pour marcher.",
+                "examples": [
+                    "Il a de longues jambes."
+                ]
+            }
+        ]
     },
     {
         "word": "oeil",
@@ -776,7 +961,15 @@
         "article": "l'",
         "emoji": "👁️",
         "form": "noun",
-        "plural": "yeux"
+        "plural": "yeux",
+        "definitions": [
+            {
+                "text": "La partie du corps pour voir.",
+                "examples": [
+                    "Elle a les yeux bleus."
+                ]
+            }
+        ]
     },
     {
         "word": "nez",
@@ -785,7 +978,15 @@
         "article": "le",
         "emoji": "👃",
         "form": "noun",
-        "plural": "nez"
+        "plural": "nez",
+        "definitions": [
+            {
+                "text": "La partie du visage pour sentir les odeurs.",
+                "examples": [
+                    "Il a un petit nez."
+                ]
+            }
+        ]
     },
     {
         "word": "bouche",
@@ -794,7 +995,15 @@
         "article": "la",
         "emoji": "👄",
         "form": "noun",
-        "plural": "bouches"
+        "plural": "bouches",
+        "definitions": [
+            {
+                "text": "La partie du visage pour manger et parler.",
+                "examples": [
+                    "Ouvre la bouche."
+                ]
+            }
+        ]
     },
     {
         "word": "oreille",
@@ -803,7 +1012,15 @@
         "article": "l'",
         "emoji": "👂",
         "form": "noun",
-        "plural": "oreilles"
+        "plural": "oreilles",
+        "definitions": [
+            {
+                "text": "La partie du corps pour entendre.",
+                "examples": [
+                    "J'ai deux oreilles."
+                ]
+            }
+        ]
     },
     {
         "word": "mère",
@@ -812,7 +1029,15 @@
         "article": "la",
         "emoji": "👩",
         "form": "noun",
-        "plural": "mères"
+        "plural": "mères",
+        "definitions": [
+            {
+                "text": "La femme qui est votre parent.",
+                "examples": [
+                    "Ma mère est gentille."
+                ]
+            }
+        ]
     },
     {
         "word": "père",
@@ -821,7 +1046,15 @@
         "article": "le",
         "emoji": "👨",
         "form": "noun",
-        "plural": "pères"
+        "plural": "pères",
+        "definitions": [
+            {
+                "text": "L'homme qui est votre parent.",
+                "examples": [
+                    "Mon père est au travail."
+                ]
+            }
+        ]
     },
     {
         "word": "famille",
@@ -1168,7 +1401,7 @@
     {
         "word": "à plein temps",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "daily_work_routines_A1",
         "form": "adjective",
         "opposite": "à temps partiel",
         "definitions": [
@@ -1183,7 +1416,7 @@
     {
         "word": "à temps partiel",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "daily_work_routines_A1",
         "form": "adjective",
         "opposite": "à plein temps",
         "definitions": [
@@ -1232,7 +1465,7 @@
     {
         "word": "salaire",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "money_payment_A1",
         "article": "le",
         "emoji": "💰",
         "form": "noun",
@@ -1285,7 +1518,7 @@
     {
         "word": "stress",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "basic_negative_emotions_A0",
         "article": "le",
         "emoji": "😫",
         "form": "noun",
@@ -1388,7 +1621,7 @@
     {
         "word": "sain",
         "level": "starter",
-        "theme": "medical_appointments_A1",
+        "theme": "basic_foods_A0",
         "emoji": "🍎",
         "form": "adjective",
         "opposite": "malsain",
@@ -1555,7 +1788,7 @@
     {
         "word": "vacances",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A0",
+        "theme": "leisure_activities_A1",
         "article": "les",
         "emoji": "🏖️",
         "form": "noun",
@@ -1589,7 +1822,7 @@
     {
         "word": "hôtel",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "public_transport_A1",
         "article": "l'",
         "emoji": "🏨",
         "form": "noun",
@@ -1678,7 +1911,6 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "opposite": "libre",
         "definitions": [
             {
                 "text": "Avoir beaucoup de choses à faire.",
@@ -1691,7 +1923,7 @@
     {
         "word": "utile",
         "level": "starter",
-        "theme": "size_shape_A0",
+        "theme": "using_a_smartphone_A1",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "inutile",
@@ -1710,7 +1942,6 @@
         "theme": "describing_things_A1",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "insignifiant",
         "subtext": "essentiel",
         "definitions": [
             {
