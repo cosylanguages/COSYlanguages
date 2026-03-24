@@ -51,6 +51,96 @@
         "oppositeEmoji": "👍"
     },
     {
+        "word": "κόκκινο",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔴",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Έχοντας το χρώμα του αίματος ή μιας ώριμης ντομάτας.",
+                "examples": [
+                    "Έχει μια κόκκινη τσάντα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "μπλε",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔵",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Έχοντας το χρώμα του καθαρού ουρανού.",
+                "examples": [
+                    "Το αυτοκίνητό του είναι μπλε."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "πράσινο",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟢",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Έχοντας το χρώμα του γρασιδιού ή των φύλλων.",
+                "examples": [
+                    "Φοράει ένα πράσινο φόρεμα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "λευκό",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Έχοντας το χρώμα του χιονιού ή του γάλακτος.",
+                "examples": [
+                    "Οι τοίχοι είναι λευκοί."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "μαύρο",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚫",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Έχοντας το πιο σκούρο χρώμα, όπως ο νυχτερινός ουρανός.",
+                "examples": [
+                    "Φοράει ένα μαύρο παλτό."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "κίτρινο",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟡",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Έχοντας το χρώμα του ήλιου ή ενός λεμονιού.",
+                "examples": [
+                    "Έχει μια κίτρινη ομπρέλα."
+                ]
+            }
+        ]
+    },
+    {
         "word": "εύκολος",
         "level": "starter",
         "theme": "size_shape_A0",
@@ -131,6 +221,55 @@
                 "text": "Εργασία για το πλήρες ωράριο μιας εργάσιμης εβδομάδας.",
                 "examples": [
                     "Έχει μια δουλειά πλήρους απασχόλησης σε τράπεζα."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ανοιχτό",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔓",
+        "form": "adjective",
+        "opposite": "κλειστό",
+        "oppositeEmoji": "🔒",
+        "definitions": [
+            {
+                "text": "Όχι κλειστό. που επιτρέπει την είσοδο.",
+                "examples": [
+                    "Το μαγαζί είναι ανοιχτό μέχρι τις οκτώ."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "κλειστό",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "ανοιχτό",
+        "oppositeEmoji": "🔓",
+        "definitions": [
+            {
+                "text": "Όχι ανοιχτό.",
+                "examples": [
+                    "Η τράπεζα είναι κλειστή τις Κυριακές."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "δωρεάν",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Που δεν κοστίζει χρήματα.",
+                "examples": [
+                    "Το μουσείο είναι δωρεάν τις Κυριακές."
                 ]
             }
         ]

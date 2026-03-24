@@ -21,6 +21,176 @@
         ]
     },
     {
+        "word": "porte",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "article": "la",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "portes",
+        "definitions": [
+            {
+                "text": "Un panneau plat qui s'ouvre et se ferme pour laisser passer les gens.",
+                "examples": [
+                    "S'il vous plaît, fermez la porte."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fenêtre",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "article": "la",
+        "emoji": "🪟",
+        "form": "noun",
+        "plural": "fenêtres",
+        "definitions": [
+            {
+                "text": "Une ouverture dans un mur remplie de verre qui laisse entrer la lumière.",
+                "examples": [
+                    "Ouvrez la fenêtre — il fait chaud."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dos",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "le",
+        "emoji": "🧍",
+        "form": "noun",
+        "plural": "dos",
+        "definitions": [
+            {
+                "text": "La partie arrière du corps, du cou aux fesses.",
+                "examples": [
+                    "J'ai mal au dos."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "infirmier",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "l'",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "infirmiers",
+        "definitions": [
+            {
+                "text": "Une personne formée pour soigner les personnes malades ou blessées.",
+                "examples": [
+                    "L'infirmier vérifie votre tension artérielle."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "conducteur",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "le",
+        "emoji": "👨‍✈️",
+        "form": "noun",
+        "plural": "conducteurs",
+        "definitions": [
+            {
+                "text": "Une personne qui conduit un véhicule comme métier.",
+                "examples": [
+                    "Le conducteur de bus était amical."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "chef",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "le",
+        "emoji": "👨‍🍳",
+        "form": "noun",
+        "plural": "chefs",
+        "definitions": [
+            {
+                "text": "Un cuisinier professionnel, surtout le chef de cuisine d'un restaurant.",
+                "examples": [
+                    "Le chef prépare une excellente nourriture."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "directeur",
+        "level": "starter",
+        "theme": "job_titles_professions_A0",
+        "article": "le",
+        "emoji": "👨‍💼",
+        "form": "noun",
+        "plural": "directeurs",
+        "definitions": [
+            {
+                "text": "Une personne qui est responsable d'une équipe ou d'une entreprise.",
+                "examples": [
+                    "Mon directeur travaille de très longues heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bras",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "article": "le",
+        "emoji": "💪",
+        "form": "noun",
+        "plural": "bras",
+        "definitions": [
+            {
+                "text": "La partie du corps de l'épaule à la main.",
+                "examples": [
+                    "Elle s'est cassé le bras."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "avion",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "article": "l'",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "avions",
+        "definitions": [
+            {
+                "text": "Un véhicule avec des ailes qui vole dans les airs.",
+                "examples": [
+                    "L'avion atterrit à neuf heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vélo",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "article": "le",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "vélos",
+        "definitions": [
+            {
+                "text": "Un véhicule à deux roues que vous montez en poussant des pédales.",
+                "examples": [
+                    "Il va au travail sur son vélo."
+                ]
+            }
+        ]
+    },
+    {
         "word": "pied",
         "level": "starter",
         "theme": "body_parts_A0",
@@ -41,6 +211,240 @@
         ]
     },
     {
+        "word": "hôpital",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "l'",
+        "emoji": "🏥",
+        "form": "noun",
+        "plural": "hôpitaux",
+        "definitions": [
+            {
+                "text": "Un endroit où les personnes malades ou blessées reçoivent des soins médicaux.",
+                "examples": [
+                    "Il est allé à l'hôpital en ambulance."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "restaurant",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "le",
+        "emoji": "🍴",
+        "form": "noun",
+        "plural": "restaurants",
+        "definitions": [
+            {
+                "text": "Un endroit où vous payez pour manger des repas.",
+                "examples": [
+                    "Nous allons au restaurant le vendredi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "banque",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "la",
+        "emoji": "🏦",
+        "form": "noun",
+        "plural": "banques",
+        "definitions": [
+            {
+                "text": "Un endroit où les gens gardent de l'argent et font des transactions financières.",
+                "examples": [
+                    "La banque est près de mon bureau."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "gare",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "la",
+        "emoji": "🚉",
+        "form": "noun",
+        "plural": "gares",
+        "definitions": [
+            {
+                "text": "Un bâtiment où les trains s'arrêtent pour les passagers.",
+                "examples": [
+                    "La gare est à dix minutes d'ici."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "supermarché",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "article": "le",
+        "emoji": "🛒",
+        "form": "noun",
+        "plural": "supermarchés",
+        "definitions": [
+            {
+                "text": "Un grand magasin vendant de la nourriture et d'autres articles ménagers.",
+                "examples": [
+                    "Je vais au supermarché le samedi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fruit",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "le",
+        "emoji": "🍎",
+        "form": "noun",
+        "plural": "fruits",
+        "definitions": [
+            {
+                "text": "La partie sucrée d'une plante qui contient des graines.",
+                "examples": [
+                    "Le fruit est sain et bon pour vous."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "aujourd'hui",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "📅",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "En ce jour ; le jour actuel.",
+                "examples": [
+                    "J'ai une réunion aujourd'hui à dix heures."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "demain",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "emoji": "🗓️",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Le jour après aujourd'hui.",
+                "examples": [
+                    "Elle a un rendez-vous chez le médecin demain."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "légume",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "article": "le",
+        "emoji": "🥕",
+        "form": "noun",
+        "plural": "légumes",
+        "definitions": [
+            {
+                "text": "Une plante qui est mangée comme nourriture, comme une carotte.",
+                "examples": [
+                    "Il mange des légumes tous les jours."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "soleil",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "le",
+        "emoji": "☀️",
+        "form": "noun",
+        "plural": "soleils",
+        "definitions": [
+            {
+                "text": "L'étoile qui donne de la lumière et de la chaleur pendant la journée.",
+                "examples": [
+                    "Le soleil est très fort aujourd'hui."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pluie",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "la",
+        "emoji": "🌧️",
+        "form": "noun",
+        "plural": "pluies",
+        "definitions": [
+            {
+                "text": "De l'eau qui tombe des nuages en gouttes.",
+                "examples": [
+                    "Il y a beaucoup de pluie en automne."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vent",
+        "level": "starter",
+        "theme": "weather_A0",
+        "article": "le",
+        "emoji": "💨",
+        "form": "noun",
+        "plural": "vents",
+        "definitions": [
+            {
+                "text": "De l'air qui bouge, parfois fortement.",
+                "examples": [
+                    "Le vent est très fort aujourd'hui."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "après-midi",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "article": "l'",
+        "emoji": "🌇",
+        "form": "noun",
+        "plural": "après-midi",
+        "definitions": [
+            {
+                "text": "La partie de la journée de midi jusqu'au soir.",
+                "examples": [
+                    "Je finis le travail à cinq heures de l'après-midi."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "nuit",
+        "level": "starter",
+        "theme": "times_day_A0",
+        "article": "la",
+        "emoji": "🌙",
+        "form": "noun",
+        "plural": "nuits",
+        "definitions": [
+            {
+                "text": "La période d'obscurité entre le soir et le matin.",
+                "examples": [
+                    "Je dors huit heures chaque nuit."
+                ]
+            }
+        ]
+    },
+    {
         "word": "professeur",
         "level": "starter",
         "theme": "job_titles_professions_A0",
@@ -54,6 +458,110 @@
                 "examples": [
                     "Le professeur parle à la classe.",
                     "C'est un bon professeur."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "mari",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "le",
+        "emoji": "👨",
+        "form": "noun",
+        "plural": "maris",
+        "opposite": "épouse",
+        "definitions": [
+            {
+                "text": "Un homme marié, par rapport à sa femme.",
+                "examples": [
+                    "Son mari est médecin."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "épouse",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "l'",
+        "emoji": "👩",
+        "form": "noun",
+        "plural": "épouses",
+        "opposite": "mari",
+        "definitions": [
+            {
+                "text": "Une femme mariée, par rapport à son mari.",
+                "examples": [
+                    "Son épouse travaille dans la finance."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "enfant",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "l'",
+        "emoji": "🧒",
+        "form": "noun",
+        "plural": "enfants",
+        "definitions": [
+            {
+                "text": "Une jeune personne ; un fils ou une fille.",
+                "examples": [
+                    "Ils ont deux enfants."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "parent",
+        "level": "starter",
+        "theme": "immediate_family_A0",
+        "article": "le",
+        "emoji": "👪",
+        "form": "noun",
+        "plural": "parents",
+        "definitions": [
+            {
+                "text": "Une mère ou un père.",
+                "examples": [
+                    "Mes parents vivent dans le nord."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bière",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "la",
+        "emoji": "🍺",
+        "form": "noun",
+        "plural": "bières",
+        "definitions": [
+            {
+                "text": "Une boisson alcoolisée populaire faite à partir de grains.",
+                "examples": [
+                    "Il boit de la bière le week-end."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vin",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "article": "le",
+        "emoji": "🍷",
+        "form": "noun",
+        "plural": "vins",
+        "definitions": [
+            {
+                "text": "Une boisson alcoolisée faite à partir de raisins.",
+                "examples": [
+                    "Elle boit un verre de vin le soir."
                 ]
             }
         ]

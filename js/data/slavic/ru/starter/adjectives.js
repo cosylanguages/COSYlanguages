@@ -51,6 +51,96 @@
         "oppositeEmoji": "👍"
     },
     {
+        "word": "красный",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔴",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Имеющий цвет крови или спелого помидора.",
+                "examples": [
+                    "У неё красная сумка."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "синий",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🔵",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Имеющий цвет ясного неба.",
+                "examples": [
+                    "Его машина синего цвета."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "зелёный",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟢",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Имеющий цвет травы или листьев.",
+                "examples": [
+                    "Она носит зелёное платье."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "белый",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Имеющий цвет снега или молока.",
+                "examples": [
+                    "Стены белые."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "чёрный",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⚫",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Имеющий самый темный цвет, как ночное небо.",
+                "examples": [
+                    "Он носит чёрное пальто."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "жёлтый",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟡",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Имеющий цвет солнца или лимона.",
+                "examples": [
+                    "У неё жёлтый зонт."
+                ]
+            }
+        ]
+    },
+    {
         "word": "лёгкий",
         "level": "starter",
         "theme": "size_shape_A0",
@@ -107,6 +197,56 @@
                 "text": "Чувство потребности в отдыхе или сне.",
                 "examples": [
                     "Я очень устал после работы."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "открыт",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔓",
+        "form": "adjective",
+        "opposite": "закрыт",
+        "oppositeEmoji": "🔒",
+        "definitions": [
+            {
+                "text": "Не закрыт; позволяющий вход или доступ.",
+                "examples": [
+                    "Магазин открыт до восьми."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "закрыт",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "открыт",
+        "oppositeEmoji": "🔓",
+        "definitions": [
+            {
+                "text": "Не открыт.",
+                "examples": [
+                    "Банк закрыт по воскресеньям."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "бесплатный",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "form": "adjective",
+        "opposite": "платный",
+        "definitions": [
+            {
+                "text": "Не стоящий денег; без оплаты.",
+                "examples": [
+                    "Музей бесплатный по воскресеньям."
                 ]
             }
         ]

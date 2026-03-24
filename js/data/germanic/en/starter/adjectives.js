@@ -179,7 +179,8 @@
             {
                 "text": "Costing a lot of money.",
                 "examples": [
-                    "That car is expensive."
+                    "That car is expensive.",
+                    "That hotel is very expensive."
                 ]
             }
         ]
@@ -247,6 +248,7 @@
             {
                 "text": "Little in size.",
                 "examples": [
+                    "He drives a small car.",
                     "She has a small flat."
                 ]
             }
@@ -292,6 +294,9 @@
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "form": "adjective",
+        "opposite": "sad",
+        "oppositeEmoji": "😢",
+        "subtext": "glad, joyful",
         "definitions": [
             {
                 "text": "Feeling pleasure or joy.",
@@ -302,11 +307,30 @@
         ]
     },
     {
+        "word": "sad",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "😢",
+        "form": "adjective",
+        "opposite": "happy",
+        "oppositeEmoji": "😊",
+        "subtext": "unhappy, upset",
+        "definitions": [
+            {
+                "text": "Feeling unhappy or sorrowful.",
+                "examples": [
+                    "I am sad today."
+                ]
+            }
+        ]
+    },
+    {
         "word": "tired",
         "level": "starter",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
         "form": "adjective",
+        "subtext": "sleepy, exhausted",
         "definitions": [
             {
                 "text": "Needing rest or sleep.",
@@ -480,11 +504,32 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
+        "opposite": "free",
+        "oppositeEmoji": "🆓",
+        "subtext": "active, occupied",
         "definitions": [
             {
                 "text": "Having a lot of things to do.",
                 "examples": [
                     "I am very busy this week."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dirty",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "💩",
+        "form": "adjective",
+        "opposite": "clean",
+        "oppositeEmoji": "✨",
+        "subtext": "not clean",
+        "definitions": [
+            {
+                "text": "Not clean; marked with dirt.",
+                "examples": [
+                    "My hands are dirty."
                 ]
             }
         ]
@@ -513,12 +558,202 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "essential",
+        "opposite": "unimportant",
+        "oppositeEmoji": "⚪",
+        "subtext": "essential, main",
         "definitions": [
             {
                 "text": "Having great value or effect.",
                 "examples": [
                     "Sleep is very important."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "offline",
+        "level": "starter",
+        "theme": "using_a_smartphone_A1",
+        "emoji": "📴",
+        "form": "adjective",
+        "opposite": "online",
+        "oppositeEmoji": "🌐",
+        "definitions": [
+            {
+                "text": "Not using the internet.",
+                "examples": [
+                    "I am offline today."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "together",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "👫",
+        "form": "adjective",
+        "opposite": "alone",
+        "oppositeEmoji": "👤",
+        "definitions": [
+            {
+                "text": "With other people.",
+                "examples": [
+                    "We work together."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "red",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟥",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having the colour of blood or a ripe tomato.",
+                "examples": [
+                    "She has a red bag.",
+                    "The car is red."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "blue",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟦",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having the colour of a clear sky.",
+                "examples": [
+                    "His car is blue.",
+                    "She has blue eyes."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "green",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟩",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having the colour of grass or leaves.",
+                "examples": [
+                    "She wears a green dress.",
+                    "The grass is green."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "white",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬜",
+        "form": "adjective",
+        "opposite": "black",
+        "oppositeEmoji": "⬛",
+        "definitions": [
+            {
+                "text": "Having the colour of snow or milk.",
+                "examples": [
+                    "The walls are white.",
+                    "He has a white t-shirt."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "black",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "⬛",
+        "form": "adjective",
+        "opposite": "white",
+        "oppositeEmoji": "⬜",
+        "definitions": [
+            {
+                "text": "Having the darkest colour, like the night sky.",
+                "examples": [
+                    "He wears a black coat.",
+                    "She has black hair."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "yellow",
+        "level": "starter",
+        "theme": "colours_patterns_A0",
+        "emoji": "🟨",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having the colour of the sun or a lemon.",
+                "examples": [
+                    "She has a yellow umbrella.",
+                    "The sun is yellow."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "free",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🆓",
+        "form": "adjective",
+        "opposite": "expensive",
+        "oppositeEmoji": "💎",
+        "definitions": [
+            {
+                "text": "Costing no money; at no charge.",
+                "examples": [
+                    "The museum is free on Sundays.",
+                    "This app is free."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "open",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "📖",
+        "form": "adjective",
+        "opposite": "closed",
+        "oppositeEmoji": "🔒",
+        "definitions": [
+            {
+                "text": "Not closed; allowing entry or access.",
+                "examples": [
+                    "The shop is open until eight.",
+                    "The window is open."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "closed",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "open",
+        "oppositeEmoji": "📖",
+        "definitions": [
+            {
+                "text": "Not open; shut.",
+                "examples": [
+                    "The bank is closed on Sundays.",
+                    "The door is closed."
                 ]
             }
         ]
