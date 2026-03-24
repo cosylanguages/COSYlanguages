@@ -57,7 +57,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-are (irregolare)",
+        "group": "are",
         "v3": "fatto"
     },
     {
@@ -77,7 +77,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-are (irregolare)",
+        "group": "are",
         "v3": "andato"
     },
     {
@@ -99,7 +99,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ire (irregolare)",
+        "group": "ire",
         "v3": "venuto"
     },
     {
@@ -121,7 +121,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "mangiato"
     },
     {
@@ -143,7 +143,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "bevuto"
     },
     {
@@ -165,7 +165,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-ire",
+        "group": "ire",
         "v3": "dormito"
     },
     {
@@ -185,7 +185,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "lavorato"
     },
     {
@@ -207,7 +207,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "vissuto"
     },
     {
@@ -227,7 +227,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "piaciuto"
     },
     {
@@ -247,7 +247,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "voluto"
     },
     {
@@ -267,7 +267,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "locuzione",
+        "group": "locution",
         "v3": "avuto bisogno"
     },
     {
@@ -287,7 +287,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "visto"
     },
     {
@@ -307,7 +307,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "group": "-ire (irregolare)",
+        "group": "ire",
         "v3": "udito"
     },
     {
@@ -327,7 +327,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "group": "-ire",
+        "group": "ire",
         "v3": "sentito"
     },
     {
@@ -347,7 +347,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "saputo"
     },
     {
@@ -367,7 +367,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "group": "-are",
+        "group": "are",
         "v3": "pensato"
     },
     {
@@ -387,7 +387,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "parlato"
     },
     {
@@ -407,7 +407,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ire (irregolare)",
+        "group": "ire",
         "v3": "detto"
     },
     {
@@ -427,7 +427,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "chiesto"
     },
     {
@@ -449,7 +449,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-are (irregolare)",
+        "group": "are",
         "v3": "dato"
     },
     {
@@ -471,7 +471,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "preso"
     },
     {
@@ -491,7 +491,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "ottenuto"
     },
     {
@@ -511,7 +511,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "pagato"
     },
     {
@@ -533,7 +533,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "comprato"
     },
     {
@@ -555,7 +555,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ire (irregolare)",
+        "group": "ire",
         "v3": "aperto"
     },
     {
@@ -577,7 +577,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "chiuso"
     },
     {
@@ -599,7 +599,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "iniziato"
     },
     {
@@ -621,7 +621,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-ire",
+        "group": "ire",
         "v3": "finito"
     },
     {
@@ -641,7 +641,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "usato"
     },
     {
@@ -661,7 +661,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "camminato"
     },
     {
@@ -681,7 +681,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "guidato"
     },
     {
@@ -701,7 +701,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "chiamato"
     },
     {
@@ -724,7 +724,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "svegliato"
     },
     {
@@ -745,7 +745,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "guardato"
     },
     {
@@ -768,7 +768,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "letto"
     },
     {
@@ -788,7 +788,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "-ere (irregolare)",
+        "group": "ere",
         "v3": "scritto"
     },
     {
@@ -807,7 +807,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "-are",
+        "group": "are",
         "v3": "invitato"
     }
 ];

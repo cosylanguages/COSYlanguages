@@ -17,7 +17,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "неправильный",
+        "group": "irregular",
         "v2": "был",
         "v3": "была"
     },
@@ -38,7 +38,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "имел",
         "v3": "имела"
     },
@@ -59,7 +59,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "делал",
         "v3": "делала"
     },
@@ -80,7 +80,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "шёл",
         "v3": "шла"
     },
@@ -103,7 +103,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2-е спряжение",
+        "group": "2nd_conj",
         "v2": "приходил",
         "v3": "приходила"
     },
@@ -126,7 +126,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "неправильный",
+        "group": "irregular",
         "v2": "ел",
         "v3": "ела"
     },
@@ -149,7 +149,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "пил",
         "v3": "пила"
     },
@@ -172,7 +172,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2-е спряжение",
+        "group": "2nd_conj",
         "v2": "спал",
         "v3": "спала"
     },
@@ -193,7 +193,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "работал",
         "v3": "работала"
     },
@@ -216,7 +216,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "жил",
         "v3": "жила"
     },
@@ -237,7 +237,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "2-е спряжение",
+        "group": "2nd_conj",
         "v2": "нравился",
         "v3": "нравилась"
     },
@@ -258,7 +258,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "разноспрягаемый",
+        "group": "mixed_conj",
         "v2": "хотел",
         "v3": "хотела"
     },
@@ -279,7 +279,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "нуждался",
         "v3": "нуждалась"
     },
@@ -300,7 +300,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "group": "2-е спряжение (искл.)",
+        "group": "2nd_conj",
         "v2": "видел",
         "v3": "видела"
     },
@@ -321,7 +321,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "group": "2-е спряжение (искл.)",
+        "group": "2nd_conj",
         "v2": "слышал",
         "v3": "слышала"
     },
@@ -342,7 +342,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "чувствовал",
         "v3": "чувствовала"
     },
@@ -363,7 +363,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "знал",
         "v3": "знала"
     },
@@ -384,7 +384,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "думал",
         "v3": "думала"
     },
@@ -405,7 +405,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2-е спряжение",
+        "group": "2nd_conj",
         "v2": "говорил",
         "v3": "говорила"
     },
@@ -426,7 +426,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "сказал",
         "v3": "сказала"
     },
@@ -447,7 +447,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "спрашивал",
         "v3": "спрашивала"
     },
@@ -470,7 +470,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "давал",
         "v3": "давала"
     },
@@ -493,7 +493,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "брал",
         "v3": "брала"
     },
@@ -514,7 +514,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "получал",
         "v3": "получала"
     },
@@ -535,7 +535,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2-е спряжение",
+        "group": "2nd_conj",
         "v2": "платил",
         "v3": "платила"
     },
@@ -558,7 +558,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "покупал",
         "v3": "покупала"
     },
@@ -581,7 +581,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "открывал",
         "v3": "открывала"
     },
@@ -604,7 +604,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "закрывал",
         "v3": "закрывала"
     },
@@ -627,7 +627,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "начинал",
         "v3": "начинала"
     },
@@ -650,7 +650,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "заканчивал",
         "v3": "заканчивала"
     },
@@ -671,7 +671,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "использовал",
         "v3": "использовала"
     },
@@ -692,7 +692,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "гулял",
         "v3": "гуляла"
     },
@@ -713,7 +713,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2-е спряжение",
+        "group": "2nd_conj",
         "v2": "водил",
         "v3": "водила"
     },
@@ -734,7 +734,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2-е спряжение",
+        "group": "2nd_conj",
         "v2": "звонил",
         "v3": "звонила"
     },
@@ -758,7 +758,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "просыпался",
         "v3": "просыпалась"
     },
@@ -780,7 +780,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2-е спряжение (искл.)",
+        "group": "2nd_conj",
         "v2": "смотрел",
         "v3": "смотрела"
     },
@@ -804,7 +804,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "читал",
         "v3": "читала"
     },
@@ -825,7 +825,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "писал",
         "v3": "писала"
     },
@@ -845,7 +845,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "v2": "приглашал",
         "v3": "приглашала"
     }

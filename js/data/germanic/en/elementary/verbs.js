@@ -41,86 +41,6 @@
         "v3": "showered"
     },
     {
-        "word": "draw",
-        "level": "elementary",
-        "theme": "interests_hobbies_A2",
-        "emoji": "🎨",
-        "form": "verb",
-        "subtext": "draw a picture, draw with a pencil",
-        "definitions": [
-            {
-                "text": "To make a picture with a pen or pencil.",
-                "examples": [
-                    "She loves to draw birds."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "drew",
-        "v3": "drawn"
-    },
-    {
-        "word": "cook",
-        "level": "elementary",
-        "theme": "interests_hobbies_A2",
-        "emoji": "👨‍🍳",
-        "form": "verb",
-        "subtext": "cook dinner, cook for friends",
-        "definitions": [
-            {
-                "text": "To prepare food by heating it.",
-                "examples": [
-                    "I like to cook Italian food."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "cooked",
-        "v3": "cooked"
-    },
-    {
-        "word": "dance",
-        "level": "elementary",
-        "theme": "interests_hobbies_A2",
-        "emoji": "💃",
-        "form": "verb",
-        "subtext": "dance to music, go dancing",
-        "definitions": [
-            {
-                "text": "To move your body to music.",
-                "examples": [
-                    "We danced all night at the party."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "danced",
-        "v3": "danced"
-    },
-    {
-        "word": "sing",
-        "level": "elementary",
-        "theme": "interests_hobbies_A2",
-        "emoji": "🎤",
-        "form": "verb",
-        "subtext": "sing a song, sing in a choir",
-        "definitions": [
-            {
-                "text": "To make musical sounds with your voice.",
-                "examples": [
-                    "She sings beautifully."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "sang",
-        "v3": "sung"
-    },
-    {
         "word": "seem",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -159,26 +79,6 @@
         "aspect": "action",
         "v2": "became",
         "v3": "become"
-    },
-    {
-        "word": "move",
-        "level": "elementary",
-        "theme": "moving_home_A2",
-        "emoji": "📦",
-        "form": "verb",
-        "subtext": "move house, move to a new city",
-        "definitions": [
-            {
-                "text": "To go to live in a different place.",
-                "examples": [
-                    "We are moving to London next month."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "moved",
-        "v3": "moved"
     },
     {
         "word": "believe",
@@ -641,26 +541,6 @@
         "v3": "reported"
     },
     {
-        "word": "decide",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
-        "emoji": "⚖️",
-        "form": "verb",
-        "subtext": "decide to go, decide between",
-        "definitions": [
-            {
-                "text": "To make a choice after thinking.",
-                "examples": [
-                    "I can't decide which one I want."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "decided",
-        "v3": "decided"
-    },
-    {
         "word": "explain",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -839,26 +719,6 @@
         "aspect": "stative",
         "v2": "trusted",
         "v3": "trusted"
-    },
-    {
-        "word": "agree",
-        "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
-        "emoji": "👍",
-        "form": "verb",
-        "subtext": "agree with someone, agree on a plan",
-        "definitions": [
-            {
-                "text": "To have the same opinion as someone else.",
-                "examples": [
-                    "We don't always agree."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "agreed",
-        "v3": "agreed"
     },
     {
         "word": "compromise",

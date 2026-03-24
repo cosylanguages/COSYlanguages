@@ -17,7 +17,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "βοηθητικό",
+        "group": "auxiliary",
         "v3": "ήμουν"
     },
     {
@@ -37,7 +37,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "είχα"
     },
     {
@@ -57,7 +57,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "έκανα"
     },
     {
@@ -77,7 +77,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "πήγα"
     },
     {
@@ -99,7 +99,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "παθητική φωνή",
+        "group": "a_passive",
         "v3": "ήρθα"
     },
     {
@@ -121,7 +121,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2η συζυγία (ιδιόρρυθμο)",
+        "group": "irregular",
         "v3": "έφαγα"
     },
     {
@@ -143,7 +143,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "ήπια"
     },
     {
@@ -165,7 +165,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "παθητική φωνή",
+        "group": "a_passive",
         "v3": "κοιμήθηκα"
     },
     {
@@ -185,7 +185,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "δούλεψα"
     },
     {
@@ -207,7 +207,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "έζησα"
     },
     {
@@ -227,7 +227,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "απρόσωπο",
+        "group": "impersonal",
         "v3": "μου άρεσε"
     },
     {
@@ -247,7 +247,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "ήθελα"
     },
     {
@@ -267,7 +267,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "παθητική φωνή",
+        "group": "a_passive",
         "v3": "χρειάστηκα"
     },
     {
@@ -287,7 +287,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "είδα"
     },
     {
@@ -307,7 +307,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "άκουσα"
     },
     {
@@ -327,7 +327,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "ένιωσα"
     },
     {
@@ -347,7 +347,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "ήξερα"
     },
     {
@@ -367,7 +367,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "νόμισα"
     },
     {
@@ -387,7 +387,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "μίλησα"
     },
     {
@@ -407,7 +407,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "είπα"
     },
     {
@@ -427,7 +427,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "ρώτησα"
     },
     {
@@ -449,7 +449,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "έδωσα"
     },
     {
@@ -471,7 +471,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "πήρα"
     },
     {
@@ -491,7 +491,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "πήρα"
     },
     {
@@ -511,7 +511,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "πλήρωσα"
     },
     {
@@ -533,7 +533,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "αγόρασα"
     },
     {
@@ -555,7 +555,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "άνοιξα"
     },
     {
@@ -577,7 +577,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "έκλεισα"
     },
     {
@@ -599,7 +599,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "ξεκίνησα"
     },
     {
@@ -621,7 +621,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "τελείωσα"
     },
     {
@@ -641,7 +641,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "χρησιμοποίησα"
     },
     {
@@ -661,7 +661,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "περπάτησα"
     },
     {
@@ -681,7 +681,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "οδήγησα"
     },
     {
@@ -701,7 +701,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "κάλεσα"
     },
     {
@@ -724,7 +724,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "ξύπνησα"
     },
     {
@@ -745,7 +745,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "είδα"
     },
     {
@@ -768,7 +768,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "διάβασα"
     },
     {
@@ -788,7 +788,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1η συζυγία",
+        "group": "1st_conj",
         "v3": "έγραψα"
     },
     {
@@ -807,7 +807,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2η συζυγία",
+        "group": "2nd_conj",
         "v3": "προσκάλεσα"
     }
 ];
