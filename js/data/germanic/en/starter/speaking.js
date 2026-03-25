@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "Is breakfast the most important meal?",
-                "level": "starter",
+                "level": "baby",
                 "theme": "basic_foods_A0"
             },
             {

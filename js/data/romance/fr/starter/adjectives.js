@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "grand",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "petit",
@@ -18,7 +18,7 @@
     },
     {
         "word": "petit",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "grand",
@@ -34,7 +34,7 @@
     },
     {
         "word": "jeune",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "vieux",
@@ -50,7 +50,7 @@
     },
     {
         "word": "vieux",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "jeune",
@@ -66,7 +66,7 @@
     },
     {
         "word": "bon",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "👍",
         "form": "adjective",
@@ -83,7 +83,7 @@
     },
     {
         "word": "mauvais",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "👎",
         "form": "adjective",
@@ -100,7 +100,7 @@
     },
     {
         "word": "facile",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "✅",
         "form": "adjective",
@@ -117,7 +117,7 @@
     },
     {
         "word": "difficile",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "❌",
         "form": "adjective",
@@ -134,7 +134,7 @@
     },
     {
         "word": "heureux",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "form": "adjective",
@@ -150,7 +150,7 @@
     },
     {
         "word": "fatigué",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
         "form": "adjective",
@@ -166,7 +166,7 @@
     },
     {
         "word": "ensoleillé",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "☀️",
         "form": "adjective",
@@ -181,7 +181,7 @@
     },
     {
         "word": "pluvieux",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "🌧️",
         "form": "adjective",
@@ -196,7 +196,7 @@
     },
     {
         "word": "chaud",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "🔥",
         "form": "adjective",
@@ -213,7 +213,7 @@
     },
     {
         "word": "froid",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "❄️",
         "form": "adjective",
@@ -230,7 +230,7 @@
     },
     {
         "word": "cher",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "form": "adjective",
         "emoji": "💎",
@@ -247,7 +247,7 @@
     },
     {
         "word": "bon marché",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "form": "adjective",
         "emoji": "🏷️",
@@ -264,7 +264,7 @@
     },
     {
         "word": "à plein temps",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "form": "adjective",
         "opposite": "à temps partiel",
@@ -279,7 +279,7 @@
     },
     {
         "word": "à temps partiel",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "form": "adjective",
         "opposite": "à plein temps",
@@ -294,7 +294,7 @@
     },
     {
         "word": "propre",
-        "level": "starter",
+        "level": "baby",
         "theme": "household_tasks_A1",
         "emoji": "✨",
         "form": "adjective",
@@ -312,7 +312,7 @@
     },
     {
         "word": "sain",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🍎",
         "form": "adjective",
@@ -328,7 +328,7 @@
     },
     {
         "word": "malade",
-        "level": "starter",
+        "level": "baby",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
@@ -344,7 +344,7 @@
     },
     {
         "word": "en ligne",
-        "level": "starter",
+        "level": "baby",
         "theme": "using_a_smartphone_A1",
         "emoji": "🌐",
         "form": "adjective",
@@ -359,7 +359,7 @@
     },
     {
         "word": "seul",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "🧍",
         "form": "adjective",
@@ -376,7 +376,7 @@
     },
     {
         "word": "détendu",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😌",
         "form": "adjective",
@@ -394,7 +394,7 @@
     },
     {
         "word": "inquiet",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😟",
         "form": "adjective",
@@ -412,7 +412,7 @@
     },
     {
         "word": "occupé",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
@@ -427,7 +427,7 @@
     },
     {
         "word": "utile",
-        "level": "starter",
+        "level": "baby",
         "theme": "using_a_smartphone_A1",
         "emoji": "🛠️",
         "form": "adjective",
@@ -443,7 +443,7 @@
     },
     {
         "word": "important",
-        "level": "starter",
+        "level": "baby",
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
@@ -459,7 +459,7 @@
     },
     {
         "word": "rouge",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟥",
         "form": "adjective",
@@ -475,7 +475,7 @@
     },
     {
         "word": "bleu",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟦",
         "form": "adjective",
@@ -491,7 +491,7 @@
     },
     {
         "word": "vert",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟩",
         "form": "adjective",
@@ -507,7 +507,7 @@
     },
     {
         "word": "blanc",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "⬜",
         "form": "adjective",
@@ -523,7 +523,7 @@
     },
     {
         "word": "noir",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "⬛",
         "form": "adjective",
@@ -539,7 +539,7 @@
     },
     {
         "word": "jaune",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟨",
         "form": "adjective",
@@ -555,7 +555,7 @@
     },
     {
         "word": "gratuit",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🎁",
         "form": "adjective",
@@ -571,7 +571,7 @@
     },
     {
         "word": "ouvert",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "📖",
         "form": "adjective",
@@ -589,7 +589,7 @@
     },
     {
         "word": "fermé",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🔒",
         "form": "adjective",

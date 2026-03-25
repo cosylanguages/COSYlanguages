@@ -372,7 +372,7 @@
     },
     {
         "word": "плечо",
-        "level": "elementary",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "оно",
         "form": "noun",

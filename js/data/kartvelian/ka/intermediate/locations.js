@@ -2,57 +2,57 @@
     const data = [
     {
         "word": "ავსტრალია",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "იაპონია",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "ჩინეთი",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "ბრაზილია",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "ინდოეთი",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "ტოკიო",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "სიდნეი",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "პეკინი",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "რიო-დე-ჟანეირო",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "კაირო",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "დელი",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     }
 ];

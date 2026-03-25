@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "высокий",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "низкий",
@@ -10,7 +10,7 @@
     },
     {
         "word": "низкий",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "высокий",
@@ -18,7 +18,7 @@
     },
     {
         "word": "молодой",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "старый",
@@ -26,7 +26,7 @@
     },
     {
         "word": "старый",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "молодой",
@@ -34,7 +34,7 @@
     },
     {
         "word": "хороший",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "👍",
         "form": "adjective",
@@ -43,7 +43,7 @@
     },
     {
         "word": "плохой",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "👎",
         "form": "adjective",
@@ -52,7 +52,7 @@
     },
     {
         "word": "лёгкий",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "✅",
         "form": "adjective",
@@ -61,7 +61,7 @@
     },
     {
         "word": "трудный",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "❌",
         "form": "adjective",
@@ -70,7 +70,7 @@
     },
     {
         "word": "большой",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "🐘",
         "form": "adjective",
@@ -79,7 +79,7 @@
     },
     {
         "word": "маленький",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "🐭",
         "form": "adjective",
@@ -88,7 +88,7 @@
     },
     {
         "word": "счастливый",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "form": "adjective",
@@ -96,7 +96,7 @@
     },
     {
         "word": "усталый",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
         "form": "adjective",
@@ -113,7 +113,7 @@
     },
     {
         "word": "дорогой",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "💎",
         "form": "adjective",
@@ -122,7 +122,7 @@
     },
     {
         "word": "дешёвый",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🏷️",
         "form": "adjective",
@@ -131,7 +131,7 @@
     },
     {
         "word": "полный рабочий день",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "form": "adjective",
         "opposite": "неполный рабочий день",
@@ -146,7 +146,7 @@
     },
     {
         "word": "неполный рабочий день",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "form": "adjective",
         "opposite": "полный рабочий день",
@@ -161,7 +161,7 @@
     },
     {
         "word": "чистый",
-        "level": "starter",
+        "level": "baby",
         "theme": "household_tasks_A1",
         "emoji": "✨",
         "form": "adjective",
@@ -179,7 +179,7 @@
     },
     {
         "word": "здоровый",
-        "level": "starter",
+        "level": "baby",
         "theme": "diet_healthy_eating_A2",
         "emoji": "🍎",
         "form": "adjective",
@@ -195,7 +195,7 @@
     },
     {
         "word": "больной",
-        "level": "starter",
+        "level": "baby",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
@@ -211,7 +211,7 @@
     },
     {
         "word": "онлайн",
-        "level": "starter",
+        "level": "baby",
         "theme": "using_a_smartphone_A1",
         "emoji": "🌐",
         "form": "adjective",
@@ -226,7 +226,7 @@
     },
     {
         "word": "один",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "🧍",
         "form": "adjective",
@@ -243,7 +243,7 @@
     },
     {
         "word": "расслабленный",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😌",
         "form": "adjective",
@@ -261,7 +261,7 @@
     },
     {
         "word": "обеспокоенный",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😟",
         "form": "adjective",
@@ -279,7 +279,7 @@
     },
     {
         "word": "занятой",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
@@ -295,7 +295,7 @@
     },
     {
         "word": "полезный",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "🛠️",
         "form": "adjective",
@@ -311,7 +311,7 @@
     },
     {
         "word": "важный",
-        "level": "starter",
+        "level": "baby",
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
@@ -327,7 +327,7 @@
     },
     {
         "word": "красный",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟥",
         "form": "adjective",
@@ -343,7 +343,7 @@
     },
     {
         "word": "синий",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟦",
         "form": "adjective",
@@ -359,7 +359,7 @@
     },
     {
         "word": "зелёный",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟩",
         "form": "adjective",
@@ -375,7 +375,7 @@
     },
     {
         "word": "белый",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "⬜",
         "form": "adjective",
@@ -391,7 +391,7 @@
     },
     {
         "word": "чёрный",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "⬛",
         "form": "adjective",
@@ -407,7 +407,7 @@
     },
     {
         "word": "жёлтый",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟨",
         "form": "adjective",
@@ -423,7 +423,7 @@
     },
     {
         "word": "бесплатный",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🎁",
         "form": "adjective",
@@ -439,7 +439,7 @@
     },
     {
         "word": "открытый",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "📖",
         "form": "adjective",
@@ -457,7 +457,7 @@
     },
     {
         "word": "закрытый",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🔒",
         "form": "adjective",
@@ -475,7 +475,7 @@
     },
     {
         "word": "холодный",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "❄️",
         "form": "adjective",
@@ -493,7 +493,7 @@
     },
     {
         "word": "горячий",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "🔥",
         "form": "adjective",

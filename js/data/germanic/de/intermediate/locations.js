@@ -2,57 +2,57 @@
     const data = [
     {
         "word": "Australien",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Japan",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "China",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Brasilien",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Indien",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Tokio",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Sydney",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Peking",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Rio de Janeiro",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Kairo",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Delhi",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     }
 ];

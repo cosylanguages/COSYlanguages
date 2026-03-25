@@ -2,82 +2,82 @@
     const data = [
     {
         "word": "Alemania",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Canadá",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "México",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Egipto",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Turquía",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Portugal",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Armenia",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Georgia",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Berlín",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Madrid",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Toronto",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Estambul",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Lisboa",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Ereván",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Tiflis",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Kazán",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     }
 ];

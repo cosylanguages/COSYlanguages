@@ -2,67 +2,67 @@
     const data = [
     {
         "word": "Сибирь",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Урал",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Австралия",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Япония",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Китай",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Бразилия",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Индия",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Токио",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Сидней",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Пекин",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Рио-де-Жанейро",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Каир",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Дели",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     }
 ];

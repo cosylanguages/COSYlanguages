@@ -2,57 +2,57 @@
     const data = [
     {
         "word": "Austrália",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Japão",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "China",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Brasil",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Índia",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Tóquio",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Sydney",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Pequim",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Rio de Janeiro",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Cairo",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Deli",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     }
 ];

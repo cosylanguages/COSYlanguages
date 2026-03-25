@@ -530,7 +530,7 @@
     },
     {
         "word": "arm",
-        "level": "elementary",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "💪",
         "form": "noun",
@@ -538,7 +538,7 @@
     },
     {
         "word": "finger",
-        "level": "elementary",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "☝️",
         "form": "noun",

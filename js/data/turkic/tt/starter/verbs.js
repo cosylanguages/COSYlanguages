@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "булырга",
-        "level": "starter",
+        "level": "baby",
         "theme": "personal_identity_A0",
         "emoji": "👤",
         "form": "verb",
@@ -20,7 +20,7 @@
     },
     {
         "word": "эшләргә",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "form": "verb",
@@ -38,7 +38,7 @@
     },
     {
         "word": "барырга",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "🚶",
         "form": "verb",
@@ -56,7 +56,7 @@
     },
     {
         "word": "ашарга",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🍎",
         "form": "verb",
@@ -74,7 +74,7 @@
     },
     {
         "word": "эчергә",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "emoji": "🥛",
         "form": "verb",
@@ -92,7 +92,7 @@
     },
     {
         "word": "күрергә",
-        "level": "starter",
+        "level": "baby",
         "theme": "health_body_A0",
         "emoji": "👁️",
         "form": "verb",

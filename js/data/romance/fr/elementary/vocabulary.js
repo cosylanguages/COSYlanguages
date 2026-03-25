@@ -455,7 +455,7 @@
     },
     {
         "word": "bras",
-        "level": "elementary",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "le",
         "emoji": "💪",

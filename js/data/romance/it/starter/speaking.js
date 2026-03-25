@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "La colazione è il pasto più importante?",
-                "level": "starter",
+                "level": "baby",
                 "theme": "basic_foods_A0"
             },
             {

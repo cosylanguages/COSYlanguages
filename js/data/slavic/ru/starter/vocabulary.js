@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "врач",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "gender": "он",
         "numberPlural": "2 врач",
@@ -23,7 +23,7 @@
     },
     {
         "word": "рука",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "она",
         "emoji": "💪",
@@ -41,7 +41,7 @@
     },
     {
         "word": "нога",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "она",
         "numberPlural": "2 нога",
@@ -60,7 +60,7 @@
     },
     {
         "word": "учитель",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "gender": "он",
         "emoji": "🧑‍🏫",
@@ -78,7 +78,7 @@
     },
     {
         "word": "борщ",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "он",
         "form": "noun",
@@ -91,7 +91,7 @@
     },
     {
         "word": "салат оливье",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "он",
         "form": "noun",
@@ -99,7 +99,7 @@
     },
     {
         "word": "яблоко",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "оно",
         "emoji": "🍎",
@@ -110,7 +110,7 @@
     },
     {
         "word": "хлеб",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "он",
         "emoji": "🍞",
@@ -128,7 +128,7 @@
     },
     {
         "word": "яйцо",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "оно",
         "emoji": "🥚",
@@ -146,7 +146,7 @@
     },
     {
         "word": "молоко",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "оно",
         "emoji": "🥛",
@@ -164,7 +164,7 @@
     },
     {
         "word": "пицца",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "она",
         "emoji": "🍕",
@@ -173,7 +173,7 @@
     },
     {
         "word": "рис",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "он",
         "emoji": "🍚",
@@ -183,7 +183,7 @@
     },
     {
         "word": "мясо",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "оно",
         "emoji": "🥩",
@@ -193,7 +193,7 @@
     },
     {
         "word": "еда",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "она",
         "emoji": "🍲",
@@ -210,7 +210,7 @@
     },
     {
         "word": "фрукт",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "он",
         "emoji": "🍎",
@@ -228,7 +228,7 @@
     },
     {
         "word": "овощ",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "gender": "он",
         "emoji": "🥦",
@@ -246,7 +246,7 @@
     },
     {
         "word": "кофе",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "gender": "он",
         "emoji": "☕",
@@ -264,7 +264,7 @@
     },
     {
         "word": "чай",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "gender": "он",
         "emoji": "🍵",
@@ -282,7 +282,7 @@
     },
     {
         "word": "сок",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "gender": "он",
         "emoji": "🧃",
@@ -300,7 +300,7 @@
     },
     {
         "word": "вода",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "gender": "она",
         "emoji": "🚰",
@@ -318,7 +318,7 @@
     },
     {
         "word": "завтрак",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "gender": "он",
         "emoji": "🍳",
@@ -335,7 +335,7 @@
     },
     {
         "word": "ужин",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "gender": "он",
         "emoji": "🍽️",
@@ -352,7 +352,7 @@
     },
     {
         "word": "обед",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "gender": "он",
         "emoji": "🍱",
@@ -369,7 +369,7 @@
     },
     {
         "word": "парк",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "gender": "он",
         "emoji": "🌳",
@@ -386,7 +386,7 @@
     },
     {
         "word": "школа",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "gender": "она",
         "emoji": "🏫",
@@ -403,7 +403,7 @@
     },
     {
         "word": "магазин",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "gender": "он",
         "emoji": "🛒",
@@ -420,7 +420,7 @@
     },
     {
         "word": "футболка",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "gender": "она",
         "emoji": "👕",
@@ -437,7 +437,7 @@
     },
     {
         "word": "брюки",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "gender": "они",
         "emoji": "👖",
@@ -454,7 +454,7 @@
     },
     {
         "word": "обувь",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "gender": "она",
         "emoji": "👟",
@@ -471,7 +471,7 @@
     },
     {
         "word": "шапка",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "gender": "она",
         "emoji": "👒",
@@ -488,7 +488,7 @@
     },
     {
         "word": "стул",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "gender": "он",
         "emoji": "🪑",
@@ -498,7 +498,7 @@
     },
     {
         "word": "стол",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "gender": "он",
         "emoji": "🪑",
@@ -508,7 +508,7 @@
     },
     {
         "word": "кровать",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "gender": "она",
         "emoji": "🛏️",
@@ -518,7 +518,7 @@
     },
     {
         "word": "ключ",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "gender": "он",
         "emoji": "🔑",
@@ -535,7 +535,7 @@
     },
     {
         "word": "телефон",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_technology_devices_A0",
         "gender": "он",
         "emoji": "📱",
@@ -552,7 +552,7 @@
     },
     {
         "word": "книга",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "gender": "она",
         "emoji": "📖",
@@ -569,7 +569,7 @@
     },
     {
         "word": "сумка",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "gender": "она",
         "emoji": "👜",
@@ -586,7 +586,7 @@
     },
     {
         "word": "ручка",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "gender": "она",
         "emoji": "🖊️",
@@ -603,7 +603,7 @@
     },
     {
         "word": "кот",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "gender": "он",
         "emoji": "🐈",
@@ -614,7 +614,7 @@
     },
     {
         "word": "собака",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "gender": "она",
         "emoji": "🐕",
@@ -625,7 +625,7 @@
     },
     {
         "word": "птица",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "gender": "она",
         "emoji": "🐦",
@@ -642,7 +642,7 @@
     },
     {
         "word": "рыба",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "gender": "она",
         "emoji": "🐟",
@@ -659,7 +659,7 @@
     },
     {
         "word": "голова",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "она",
         "emoji": "👤",
@@ -677,7 +677,7 @@
     },
     {
         "word": "рука",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "она",
         "emoji": "✋",
@@ -695,7 +695,7 @@
     },
     {
         "word": "глаз",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "он",
         "emoji": "👁️",
@@ -713,7 +713,7 @@
     },
     {
         "word": "нос",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "он",
         "emoji": "👃",
@@ -730,7 +730,7 @@
     },
     {
         "word": "рот",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "он",
         "emoji": "👄",
@@ -748,7 +748,7 @@
     },
     {
         "word": "ухо",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "оно",
         "emoji": "👂",
@@ -766,7 +766,7 @@
     },
     {
         "word": "спина",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "gender": "она",
         "emoji": "🚶",
@@ -784,7 +784,7 @@
     },
     {
         "word": "мать",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "gender": "она",
         "emoji": "👩",
@@ -793,7 +793,7 @@
     },
     {
         "word": "отец",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "gender": "он",
         "emoji": "👨",
@@ -802,7 +802,7 @@
     },
     {
         "word": "семья",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "gender": "она",
         "emoji": "👪",
@@ -811,7 +811,7 @@
     },
     {
         "word": "друг",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "gender": "он",
         "emoji": "👫",
@@ -820,7 +820,7 @@
     },
     {
         "word": "партнёр",
-        "level": "starter",
+        "level": "baby",
         "theme": "marital_status_A0",
         "gender": "он",
         "emoji": "💑",
@@ -829,7 +829,7 @@
     },
     {
         "word": "мужчина",
-        "level": "starter",
+        "level": "baby",
         "theme": "physical_appearance_A1",
         "gender": "он",
         "numberPlural": "2 мужчина",
@@ -840,7 +840,7 @@
     },
     {
         "word": "женщина",
-        "level": "starter",
+        "level": "baby",
         "theme": "physical_appearance_A1",
         "gender": "она",
         "numberPlural": "2 женщина",
@@ -851,7 +851,7 @@
     },
     {
         "word": "дом",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "gender": "он",
         "emoji": "🏡",
@@ -861,7 +861,7 @@
     },
     {
         "word": "квартира",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "gender": "она",
         "emoji": "🏢",
@@ -879,7 +879,7 @@
     },
     {
         "word": "офис",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_indoor_spaces_A0",
         "gender": "он",
         "emoji": "🏢",
@@ -897,7 +897,7 @@
     },
     {
         "word": "машина",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "gender": "она",
         "emoji": "🚗",
@@ -915,7 +915,7 @@
     },
     {
         "word": "автобус",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "gender": "он",
         "emoji": "🚌",
@@ -933,7 +933,7 @@
     },
     {
         "word": "поезд",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "gender": "он",
         "emoji": "🚆",
@@ -951,7 +951,7 @@
     },
     {
         "word": "деньги",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "gender": "они",
         "emoji": "💰",
@@ -961,7 +961,7 @@
     },
     {
         "word": "утро",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "gender": "оно",
         "emoji": "🌅",
@@ -970,7 +970,7 @@
     },
     {
         "word": "вечер",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "gender": "он",
         "emoji": "🌆",
@@ -979,7 +979,7 @@
     },
     {
         "word": "день",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "gender": "он",
         "emoji": "☀️",
@@ -988,7 +988,7 @@
     },
     {
         "word": "неделя",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "gender": "она",
         "emoji": "📅",
@@ -997,7 +997,7 @@
     },
     {
         "word": "каждый день",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "🔁",
         "form": "adverb",
@@ -1012,7 +1012,7 @@
     },
     {
         "word": "босс",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "gender": "он",
         "emoji": "👨‍💼",
@@ -1030,7 +1030,7 @@
     },
     {
         "word": "коллега",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "gender": "он",
         "emoji": "🧑‍💼",
@@ -1047,7 +1047,7 @@
     },
     {
         "word": "зарплата",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "gender": "она",
         "emoji": "💰",
@@ -1065,7 +1065,7 @@
     },
     {
         "word": "собрание",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "gender": "оно",
         "emoji": "🤝",
@@ -1083,7 +1083,7 @@
     },
     {
         "word": "поездка на работу",
-        "level": "starter",
+        "level": "baby",
         "theme": "public_transport_A1",
         "gender": "она",
         "emoji": "🚆",
@@ -1099,7 +1099,7 @@
     },
     {
         "word": "стресс",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "gender": "он",
         "emoji": "😫",
@@ -1115,7 +1115,7 @@
     },
     {
         "word": "аренда",
-        "level": "starter",
+        "level": "baby",
         "theme": "types_of_accommodation_A1",
         "gender": "она",
         "emoji": "🏠",
@@ -1131,7 +1131,7 @@
     },
     {
         "word": "сосед",
-        "level": "starter",
+        "level": "baby",
         "theme": "address_location_A1",
         "gender": "он",
         "emoji": "🏠",
@@ -1148,7 +1148,7 @@
     },
     {
         "word": "комната",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "gender": "она",
         "emoji": "🚪",
@@ -1165,7 +1165,7 @@
     },
     {
         "word": "кухня",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "gender": "она",
         "emoji": "🍳",
@@ -1182,7 +1182,7 @@
     },
     {
         "word": "сон",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "gender": "он",
         "emoji": "😴",
@@ -1198,7 +1198,7 @@
     },
     {
         "word": "упражнение",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "gender": "оно",
         "emoji": "🏋️",
@@ -1215,7 +1215,7 @@
     },
     {
         "word": "цена",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "gender": "она",
         "emoji": "🏷️",
@@ -1232,7 +1232,7 @@
     },
     {
         "word": "стоимость",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "gender": "она",
         "emoji": "💰",
@@ -1248,7 +1248,7 @@
     },
     {
         "word": "отношения",
-        "level": "starter",
+        "level": "baby",
         "theme": "family_life_A1",
         "gender": "они",
         "emoji": "❤️",
@@ -1265,7 +1265,7 @@
     },
     {
         "word": "вместе",
-        "level": "starter",
+        "level": "baby",
         "theme": "family_life_A1",
         "emoji": "👫",
         "form": "adverb",
@@ -1282,7 +1282,7 @@
     },
     {
         "word": "отпуск",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "gender": "он",
         "emoji": "🏖️",
@@ -1300,7 +1300,7 @@
     },
     {
         "word": "путешествие",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "gender": "оно",
         "emoji": "✈️",
@@ -1317,7 +1317,7 @@
     },
     {
         "word": "отель",
-        "level": "starter",
+        "level": "baby",
         "theme": "types_of_accommodation_A1",
         "gender": "он",
         "emoji": "🏨",
@@ -1335,7 +1335,7 @@
     },
     {
         "word": "выходные",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "gender": "они",
         "emoji": "🗓️",
@@ -1352,7 +1352,7 @@
     },
     {
         "word": "свободное время",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "gender": "оно",
         "emoji": "🎮",
@@ -1370,7 +1370,7 @@
     },
     {
         "word": "пиво",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "gender": "оно",
         "emoji": "🍺",
@@ -1388,7 +1388,7 @@
     },
     {
         "word": "вино",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "gender": "оно",
         "emoji": "🍷",
@@ -1406,7 +1406,7 @@
     },
     {
         "word": "дверь",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "gender": "она",
         "emoji": "🚪",
@@ -1424,7 +1424,7 @@
     },
     {
         "word": "окно",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "gender": "оно",
         "emoji": "🪟",
@@ -1442,7 +1442,7 @@
     },
     {
         "word": "медсестра",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "gender": "она",
         "emoji": "🧑‍⚕️",
@@ -1460,7 +1460,7 @@
     },
     {
         "word": "водитель",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "gender": "он",
         "emoji": "🚗",
@@ -1478,7 +1478,7 @@
     },
     {
         "word": "повар",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "gender": "он",
         "emoji": "👨‍🍳",
@@ -1496,7 +1496,7 @@
     },
     {
         "word": "менеджер",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "gender": "он",
         "emoji": "🧑‍💼",
@@ -1514,7 +1514,7 @@
     },
     {
         "word": "самолёт",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "gender": "он",
         "emoji": "✈️",
@@ -1532,7 +1532,7 @@
     },
     {
         "word": "велосипед",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "gender": "он",
         "emoji": "🚲",
@@ -1550,7 +1550,7 @@
     },
     {
         "word": "больница",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "gender": "она",
         "emoji": "🏥",
@@ -1568,7 +1568,7 @@
     },
     {
         "word": "ресторан",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "gender": "он",
         "emoji": "🍴",
@@ -1586,7 +1586,7 @@
     },
     {
         "word": "банк",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "gender": "он",
         "emoji": "🏦",
@@ -1604,7 +1604,7 @@
     },
     {
         "word": "станция",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "gender": "она",
         "emoji": "🚉",
@@ -1622,7 +1622,7 @@
     },
     {
         "word": "супермаркет",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "gender": "он",
         "emoji": "🛒",
@@ -1640,7 +1640,7 @@
     },
     {
         "word": "солнце",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "gender": "оно",
         "emoji": "☀️",
@@ -1658,7 +1658,7 @@
     },
     {
         "word": "дождь",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "gender": "он",
         "emoji": "🌧️",
@@ -1676,7 +1676,7 @@
     },
     {
         "word": "ветер",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "gender": "он",
         "emoji": "💨",
@@ -1694,7 +1694,7 @@
     },
     {
         "word": "днём",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "☀️",
         "form": "adverb",
@@ -1709,7 +1709,7 @@
     },
     {
         "word": "ночь",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "gender": "она",
         "emoji": "🌙",
@@ -1727,7 +1727,7 @@
     },
     {
         "word": "сегодня",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "📅",
         "form": "adverb",
@@ -1743,7 +1743,7 @@
     },
     {
         "word": "завтра",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "⏭️",
         "form": "adverb",
@@ -1759,7 +1759,7 @@
     },
     {
         "word": "муж",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "gender": "он",
         "emoji": "👨",
@@ -1779,7 +1779,7 @@
     },
     {
         "word": "жена",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "gender": "она",
         "emoji": "👩",
@@ -1799,7 +1799,7 @@
     },
     {
         "word": "ребёнок",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "gender": "он",
         "emoji": "👶",
@@ -1817,7 +1817,7 @@
     },
     {
         "word": "родитель",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "gender": "он",
         "emoji": "👪",

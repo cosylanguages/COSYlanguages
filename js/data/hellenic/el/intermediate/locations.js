@@ -2,62 +2,62 @@
     const data = [
     {
         "word": "Πελοπόννησος",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Αυστραλία",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Ιαπωνία",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Κίνα",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Βραζιλία",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Ινδία",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Τόκιο",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Σίδνεϊ",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Πεκίνο",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Ρίο ντε Τζανέιρο",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Κάιρο",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Δελχί",
-        "level": "intermediate",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     }
 ];

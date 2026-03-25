@@ -2,12 +2,12 @@
     const data = [
     {
         "word": "Albert Einstein",
-        "level": "starter",
+        "level": "baby",
         "theme": "identity_self_C1"
     },
     {
         "word": "Taylor Swift",
-        "level": "starter",
+        "level": "baby",
         "theme": "identity_self_C1"
     }
 ];

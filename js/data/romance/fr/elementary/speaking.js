@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "Les enfants devraient-ils avoir des téléphones portables ?",
-                "level": "elementary",
+                "level": "baby",
                 "theme": "technology_A2"
             },
             {

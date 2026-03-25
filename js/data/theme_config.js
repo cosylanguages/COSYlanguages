@@ -28,117 +28,166 @@ const COMMON_THEMES = [
 ];
 
 const themeConfig = {
-    "starter": {
-        "description": "desc_a1",
+    "baby": {
+        "description": "desc_a0",
         "common_themes": {
             "numbers_math": {
                 "numbers_0_9_A0": "Cardinal numbers 0–9",
                 "numbers_10_19_A0": "Cardinal numbers 10–19",
-                "numbers_20_99_A0": "Cardinal numbers 20–99",
-                "numbers_100_999_A1": "Cardinal numbers 100–999",
-                "numbers_1000_plus_A1": "Cardinal numbers 1,000+",
-                "ordinal_numbers_A1": "Ordinal numbers"
+                "numbers_20_99_A0": "Cardinal numbers 20–99"
             },
             "time": {
                 "days_week_A0": "Days of the week",
                 "months_year_A0": "Months of the year",
                 "seasons_A0": "Seasons",
                 "times_day_A0": "Times of day",
-                "telling_time_A0": "Telling the time",
-                "dates_years_A1": "Dates & years",
-                "frequency_adverbs_A1": "Frequency adverbs",
-                "duration_expressions_A1": "Duration expressions"
+                "telling_time_A0": "Telling the time"
             },
             "personal_identity": {
                 "name_greeting_A0": "Name & greeting",
                 "nationality_country_A0": "Nationality & country",
                 "age_A0": "Age",
                 "marital_status_A0": "Marital status",
-                "occupation_job_title_A0": "Occupation & job title",
-                "address_location_A1": "Address & location",
-                "contact_details_A1": "Contact details",
-                "physical_appearance_A1": "Physical appearance"
+                "occupation_job_title_A0": "Occupation & job title"
             },
             "family_relationships": {
-                "immediate_family_A0": "Immediate family members",
-                "extended_family_A1": "Extended family members",
-                "family_life_A1": "Family life & routines"
+                "immediate_family_A0": "Immediate family members"
             },
             "home_living": {
                 "rooms_of_a_home_A0": "Rooms of a home",
-                "furniture_objects_A0": "Furniture & objects",
-                "types_of_accommodation_A1": "Types of accommodation",
-                "household_tasks_A1": "Household tasks"
+                "furniture_objects_A0": "Furniture & objects"
             },
             "food_drink": {
                 "basic_foods_A0": "Basic foods",
                 "drinks_A0": "Drinks",
-                "meals_of_the_day_A0": "Meals of the day",
-                "cooking_methods_A1": "Cooking methods",
-                "tastes_textures_A1": "Tastes & textures"
+                "meals_of_the_day_A0": "Meals of the day"
             },
             "health_body": {
-                "body_parts_A0": "Parts of the body",
-                "illnesses_symptoms_A1": "Common illnesses & symptoms",
-                "medical_appointments_A1": "Doctor & medical appointments"
+                "body_parts_A0": "Parts of the body"
             },
             "work_employment": {
-                "job_titles_professions_A0": "Job titles & professions",
-                "workplace_basics_A1": "Workplace basics",
-                "daily_work_routines_A1": "Daily work routines"
+                "job_titles_professions_A0": "Job titles & professions"
             },
             "education_learning": {
                 "school_subjects_A0": "School subjects",
-                "classroom_language_A0": "Classroom language",
-                "types_of_education_A1": "Types of education",
-                "learning_studying_A1": "Learning & studying"
+                "classroom_language_A0": "Classroom language"
             },
             "transport_travel": {
                 "modes_of_transport_A0": "Modes of transport",
-                "travel_vocabulary_basics_A0": "Travel vocabulary basics",
-                "directions_navigation_A1": "Directions & navigation",
-                "public_transport_A1": "Public transport"
+                "travel_vocabulary_basics_A0": "Travel vocabulary basics"
             },
             "shopping_money": {
-                "everyday_shopping_A0": "Everyday shopping",
-                "money_payment_A1": "Money & payment",
-                "shops_services_A1": "Shops & services",
-                "places_shops_A1": "Places & shops"
+                "everyday_shopping_A0": "Everyday shopping"
             },
             "technology_media": {
-                "basic_technology_devices_A0": "Basic technology devices",
-                "using_a_smartphone_A1": "Using a smartphone"
+                "basic_technology_devices_A0": "Basic technology devices"
             },
             "environment_nature": {
                 "weather_A0": "Weather",
-                "animals_A0": "Animals",
-                "plants_natural_world_A1": "Plants & natural world",
-                "seasons_climate_A1": "Seasons & climate"
+                "animals_A0": "Animals"
             },
             "language_communication": {
                 "greetings_social_phrases_A0": "Greetings & social phrases",
                 "asking_answering_questions_A0": "Asking & answering questions"
             },
             "sport_leisure": {
-                "common_sports_A0": "Common sports",
+                "common_sports_A0": "Common sports"
+            },
+            "feelings_emotions": {
+                "basic_positive_emotions_A0": "Basic positive emotions",
+                "basic_negative_emotions_A0": "Basic negative emotions"
+            },
+            "places_geography": {
+                "rooms_indoor_spaces_A0": "Rooms & indoor spaces",
+                "local_places_services_A0": "Local places & services"
+            },
+            "describing_things": {
+                "colours_patterns_A0": "Colours & patterns",
+                "size_shape_A0": "Size & shape"
+            },
+            "clothes_appearance": {
+                "items_of_clothing_A0": "Items of clothing"
+            },
+            "prepositions_grammar": {
+                "prepositions_place_A0": "Prepositions of place",
+                "prepositions_time_A0": "Prepositions of time"
+            },
+            "modifiers_intensifiers": {
+                "basic_intensifiers_A0": "Basic intensifiers"
+            }
+        }
+    },
+    "starter": {
+        "description": "desc_a1",
+        "common_themes": {
+            "numbers_math": {
+                "numbers_100_999_A1": "Cardinal numbers 100–999",
+                "numbers_1000_plus_A1": "Cardinal numbers 1,000+",
+                "ordinal_numbers_A1": "Ordinal numbers"
+            },
+            "time": {
+                "dates_years_A1": "Dates & years",
+                "frequency_adverbs_A1": "Frequency adverbs",
+                "duration_expressions_A1": "Duration expressions"
+            },
+            "personal_identity": {
+                "address_location_A1": "Address & location",
+                "contact_details_A1": "Contact details",
+                "physical_appearance_A1": "Physical appearance"
+            },
+            "family_relationships": {
+                "extended_family_A1": "Extended family members",
+                "family_life_A1": "Family life & routines"
+            },
+            "home_living": {
+                "types_of_accommodation_A1": "Types of accommodation",
+                "household_tasks_A1": "Household tasks"
+            },
+            "food_drink": {
+                "cooking_methods_A1": "Cooking methods",
+                "tastes_textures_A1": "Tastes & textures"
+            },
+            "health_body": {
+                "illnesses_symptoms_A1": "Common illnesses & symptoms",
+                "medical_appointments_A1": "Doctor & medical appointments"
+            },
+            "work_employment": {
+                "workplace_basics_A1": "Workplace basics",
+                "daily_work_routines_A1": "Daily work routines"
+            },
+            "education_learning": {
+                "types_of_education_A1": "Types of education",
+                "learning_studying_A1": "Learning & studying"
+            },
+            "transport_travel": {
+                "directions_navigation_A1": "Directions & navigation",
+                "public_transport_A1": "Public transport"
+            },
+            "shopping_money": {
+                "money_payment_A1": "Money & payment",
+                "shops_services_A1": "Shops & services",
+                "places_shops_A1": "Places & shops"
+            },
+            "technology_media": {
+                "using_a_smartphone_A1" : "Using a smartphone"
+            },
+            "environment_nature": {
+                "plants_natural_world_A1": "Plants & natural world",
+                "seasons_climate_A1": "Seasons & climate"
+            },
+            "sport_leisure": {
                 "sports_equipment_A1": "Sports equipment",
                 "playing_watching_sport_A1": "Playing & watching sport",
                 "leisure_activities_A1": "Leisure activities"
             },
             "feelings_emotions": {
-                "basic_positive_emotions_A0": "Basic positive emotions",
-                "basic_negative_emotions_A0": "Basic negative emotions",
                 "surprise_interest_A1": "Surprise & interest"
             },
             "places_geography": {
-                "rooms_indoor_spaces_A0": "Rooms & indoor spaces",
-                "local_places_services_A0": "Local places & services",
                 "cities_towns_A1": "Cities & towns",
                 "countries_capitals_A1": "Countries & capitals"
             },
             "describing_things": {
-                "colours_patterns_A0": "Colours & patterns",
-                "size_shape_A0": "Size & shape",
                 "describing_things_A1": "Describing things"
             },
             "culture_arts": {
@@ -147,18 +196,12 @@ const themeConfig = {
                 "books_reading_A1": "Books & reading"
             },
             "clothes_appearance": {
-                "items_of_clothing_A0": "Items of clothing",
                 "accessories_A1": "Accessories",
                 "dressing_style_A1": "Dressing & style"
             },
             "prepositions_grammar": {
-                "prepositions_place_A0": "Prepositions of place",
-                "prepositions_time_A0": "Prepositions of time",
                 "prepositions_movement_A1": "Prepositions of movement",
                 "conjunctions_connectors_A1": "Conjunctions & connectors"
-            },
-            "modifiers_intensifiers": {
-                "basic_intensifiers_A0": "Basic intensifiers"
             },
             "opinion_debate": {
                 "giving_opinions_A1": "Giving opinions"

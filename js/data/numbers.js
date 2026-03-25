@@ -177,7 +177,7 @@ const numbersVocab = {};
             numbersVocab[lang].push({
                 word: getNumberWord(i, lang),
                 digit: i.toString(),
-                level: "starter",
+                level: "baby",
                 theme: theme,
                 emoji: getDigitEmoji(i),
                 form: "noun"

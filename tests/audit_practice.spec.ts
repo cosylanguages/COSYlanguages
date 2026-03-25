@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 const languages = ['en', 'fr', 'it', 'ru', 'el'];
-const levels = ['starter', 'elementary'];
+const levels = ['baby', 'starter', 'elementary'];
 const categories = ['vocabulary', 'grammar'];
 
 test.describe('Practice Data Audit', () => {

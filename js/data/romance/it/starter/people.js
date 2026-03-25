@@ -2,12 +2,12 @@
     const data = [
     {
         "word": "Leonardo da Vinci",
-        "level": "starter",
+        "level": "baby",
         "theme": "identity_self_C1"
     },
     {
         "word": "Monica Bellucci",
-        "level": "starter",
+        "level": "baby",
         "theme": "identity_self_C1"
     }
 ];

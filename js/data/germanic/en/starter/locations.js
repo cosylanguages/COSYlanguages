@@ -2,222 +2,222 @@
     const data = [
     {
         "word": "Mexico City",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Amsterdam",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Vienna",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Prague",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Barcelona",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Venice",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Florence",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Dublin",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Edinburgh",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Chicago",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Los Angeles",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "San Francisco",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Miami",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Washington DC",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Vancouver",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Montreal",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Melbourne",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Thailand",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "South Korea",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Sweden",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Norway",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Denmark",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Finland",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Poland",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Ukraine",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Austria",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Switzerland",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Netherlands",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Belgium",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Ireland",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "London",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "France",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Italy",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Russia",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Greece",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "England",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Spain",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "USA",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Paris",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "London",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Rome",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Moscow",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Athens",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "New York",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     }
 ];

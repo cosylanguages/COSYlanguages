@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "I bambini dovrebbero avere il cellulare?",
-                "level": "elementary",
+                "level": "baby",
                 "theme": "technology_A2"
             },
             {

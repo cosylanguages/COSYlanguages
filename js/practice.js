@@ -249,6 +249,7 @@ function updateThemeDescription() {
     }
 
     const mapping = {
+        'baby': 'desc_a0',
         'starter': 'desc_a1',
         'elementary': 'desc_a2',
         'intermediate': 'desc_b1',
@@ -258,16 +259,6 @@ function updateThemeDescription() {
     };
 
     let descKey = mapping[level];
-
-    // For starter, show A0 description if an A0 theme is selected, else A1
-    if (level === 'starter') {
-        const subTheme = subThemeSelect ? subThemeSelect.value : 'all';
-        if (subTheme.endsWith('_A0')) {
-            descKey = 'desc_a0';
-        } else {
-            descKey = 'desc_a1';
-        }
-    }
 
     if (descKey && t[descKey]) {
         descEl.textContent = t[descKey];

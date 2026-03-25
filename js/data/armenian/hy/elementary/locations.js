@@ -2,82 +2,82 @@
     const data = [
     {
         "word": "Գերմանիա",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Կանադա",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Մեքսիկա",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Եգիպտոս",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Թուրքիա",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Պորտուգալիա",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Հայաստան",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Վրաստան",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Բերլին",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Մադրիդ",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Տորոնտո",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Ստամբուլ",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Լիսաբոն",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Երևան",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Թբիլիսի",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Կազան",
-        "level": "elementary",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     }
 ];

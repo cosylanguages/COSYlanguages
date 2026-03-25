@@ -5,7 +5,7 @@
         "group": "неправильный",
         "classification": "irregular",
         "aspect": "stative",
-        "level": "starter",
+        "level": "baby",
         "v2": "был",
         "v3": "была",
         "pronouns": [
@@ -122,7 +122,7 @@
         "group": "1-е спряжение",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
+        "level": "baby",
         "v2": "работал",
         "v3": "работала",
         "pronouns": [
@@ -207,7 +207,7 @@
         "group": "1-е спряжение",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
+        "level": "baby",
         "v2": "делал",
         "v3": "делала",
         "pronouns": [
@@ -324,7 +324,7 @@
         "group": "1-е спряжение",
         "classification": "irregular",
         "aspect": "action",
-        "level": "starter",
+        "level": "baby",
         "v2": "шёл",
         "v3": "шла",
         "pronouns": [
@@ -441,7 +441,7 @@
         "group": "2-е спряжение",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
+        "level": "baby",
         "v2": "говорил",
         "v3": "говорила",
         "pronouns": [
