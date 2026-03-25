@@ -3,17 +3,17 @@
     {
         "word": "be",
         "level": "starter",
-        "theme": "personal_identity",
+        "theme": "name_greeting_A0",
         "emoji": "👤",
-        "subtext": "be ready / be tired / be at home / be open",
+        "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
         "definitions": [
             {
                 "text": "To exist; to have a quality or state.",
                 "examples": [
                     "I am tired.",
-                    "She is a nurse.",
-                    "We are at work."
+                    "She is a doctor.",
+                    "We are late."
                 ]
             }
         ],
@@ -25,17 +25,17 @@
     {
         "word": "have",
         "level": "starter",
-        "theme": "personal_identity",
+        "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "have a job / have lunch / have time / have a problem",
+        "subtext": "have a job / have lunch / have a problem / have time",
         "form": "verb",
         "definitions": [
             {
-                "text": "To possess or experience something.",
+                "text": "To possess something; to experience something.",
                 "examples": [
-                    "I have a flat.",
-                    "He has a headache.",
-                    "She has a job."
+                    "I have a job.",
+                    "He has a car.",
+                    "She has a headache."
                 ]
             }
         ],
@@ -47,16 +47,16 @@
     {
         "word": "feel",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_positive_emotions_A0",
         "emoji": "🌡️",
-        "subtext": "feel tired / feel well / feel better / feel cold",
+        "subtext": "feel tired / feel better / feel well / feel stressed",
         "form": "verb",
         "definitions": [
             {
-                "text": "To experience a physical or emotional sensation.",
+                "text": "To experience an emotion or physical sensation.",
                 "examples": [
-                    "I feel happy.",
-                    "She feels tired.",
+                    "I feel tired.",
+                    "She feels stressed.",
                     "He feels better."
                 ]
             }
@@ -71,16 +71,16 @@
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "emoji": "🎁",
-        "subtext": "give advice / give a gift / give money / give information",
+        "subtext": "give advice / give money / give a present / give information",
         "opposite": "take",
         "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
-                "text": "To hand something to someone.",
+                "text": "To hand or transfer something to someone.",
                 "examples": [
-                    "He gives me good advice.",
-                    "She gives a lot."
+                    "He gives me a lot of work.",
+                    "She gives advice."
                 ]
             }
         ],
@@ -94,17 +94,16 @@
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "emoji": "👜",
-        "subtext": "take the bus / take medicine / take a break / take a photo",
+        "subtext": "take the bus / take medicine / take a break / take time",
         "opposite": "give",
         "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
-                "text": "To hold and carry something; to use something.",
+                "text": "To hold and move something; to use or consume.",
                 "examples": [
-                    "I take the bus.",
-                    "She takes medicine.",
-                    "He takes notes."
+                    "I take the bus to work.",
+                    "She takes medicine."
                 ]
             }
         ],
@@ -118,15 +117,15 @@
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "emoji": "📥",
-        "subtext": "get home / get a job / get tired / get better",
+        "subtext": "get a job / get tired / get better / get home",
         "form": "verb",
         "definitions": [
             {
-                "text": "To receive or obtain; to become.",
+                "text": "To receive, obtain or become.",
                 "examples": [
                     "I get a good salary.",
-                    "She gets tired.",
-                    "He gets home at six."
+                    "He gets tired quickly.",
+                    "She gets a promotion."
                 ]
             }
         ],
@@ -138,7 +137,7 @@
     {
         "word": "put",
         "level": "starter",
-        "theme": "home_living",
+        "theme": "furniture_objects_A0",
         "emoji": "📥",
         "subtext": "put on / put away / put the phone down / put money aside",
         "form": "verb",
@@ -165,10 +164,10 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To create or produce something; to cause.",
+                "text": "To create or produce something; to cause something.",
                 "examples": [
-                    "I make coffee every morning.",
-                    "She makes decisions quickly."
+                    "I make coffee in the morning.",
+                    "She makes a decision."
                 ]
             }
         ],
@@ -182,15 +181,14 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
-        "subtext": "do work / do exercise / do the shopping / do nothing",
+        "subtext": "do work / do the shopping / do exercise / do nothing",
         "form": "verb",
         "definitions": [
             {
-                "text": "To perform a task or activity.",
+                "text": "To perform an action or activity.",
                 "examples": [
-                    "I do my work.",
-                    "She does the cooking.",
-                    "He does nothing."
+                    "I do my work every day.",
+                    "She does the shopping."
                 ]
             }
         ],
@@ -202,9 +200,9 @@
     {
         "word": "use",
         "level": "starter",
-        "theme": "technology_media",
+        "theme": "basic_technology_devices_A0",
         "emoji": "🛠️",
-        "subtext": "use a phone / use public transport / use a computer",
+        "subtext": "use a phone / use public transport / use a computer / use time",
         "form": "verb",
         "definitions": [
             {
@@ -225,15 +223,15 @@
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "emoji": "📖",
-        "subtext": "open a door / open an account / open at nine",
+        "subtext": "open a door / open an account / open a shop / open at nine",
         "opposite": "close",
         "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
-                "text": "To make not closed; to begin.",
+                "text": "To make something not closed; or to start.",
                 "examples": [
-                    "He opens the door.",
+                    "He opens the office at eight.",
                     "She opens a bank account."
                 ]
             }
@@ -248,16 +246,16 @@
         "level": "starter",
         "theme": "everyday_shopping_A0",
         "emoji": "🔒",
-        "subtext": "close a door / close at six / close the meeting",
+        "subtext": "close a door / close at six / close an account / close the meeting",
         "opposite": "open",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
-                "text": "To make not open; to finish.",
+                "text": "To make something not open; or to finish.",
                 "examples": [
-                    "She closes her laptop.",
-                    "The bank closes at five."
+                    "The office closes at six.",
+                    "She closes her laptop."
                 ]
             }
         ],
@@ -269,17 +267,17 @@
     {
         "word": "start",
         "level": "starter",
-        "theme": "time",
+        "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "start work / start a meeting / start a new job",
+        "subtext": "start work / start a meeting / start a new job / start early",
         "opposite": "finish",
         "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
-                "text": "To begin something.",
+                "text": "To begin doing something.",
                 "examples": [
-                    "I start work at eight.",
+                    "I start work at eight thirty.",
                     "She starts a new job."
                 ]
             }
@@ -292,15 +290,15 @@
     {
         "word": "finish",
         "level": "starter",
-        "theme": "time",
+        "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finish work / finish a project / finish early",
+        "subtext": "finish work / finish a project / finish early / finish late",
         "opposite": "start",
         "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
-                "text": "To complete something or stop.",
+                "text": "To complete something; to come to an end.",
                 "examples": [
                     "He finishes work at five.",
                     "She finishes the report."
@@ -315,7 +313,7 @@
     {
         "word": "help",
         "level": "starter",
-        "theme": "society_politics",
+        "theme": "family_life_A1",
         "emoji": "🤝",
         "subtext": "help someone / help with / ask for help / help out",
         "form": "verb",
@@ -336,7 +334,7 @@
     {
         "word": "try",
         "level": "starter",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "try to do / try hard / try something new / give it a try",
         "form": "verb",
@@ -357,7 +355,7 @@
     {
         "word": "show",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "asking_answering_questions_A0",
         "emoji": "📽️",
         "subtext": "show someone / show how / show a document / show interest",
         "form": "verb",
@@ -420,7 +418,7 @@
     {
         "word": "lose",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "everyday_shopping_A0",
         "emoji": "📉",
         "subtext": "lose a job / lose money / lose weight / lose time",
         "opposite": "win",
@@ -444,7 +442,7 @@
     {
         "word": "cut",
         "level": "starter",
-        "theme": "food_drink",
+        "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "cut costs / cut spending / cut short / cut in half",
         "form": "verb",
@@ -486,7 +484,7 @@
     {
         "word": "bring",
         "level": "starter",
-        "theme": "everyday_shopping_A0",
+        "theme": "meals_of_the_day_A0",
         "emoji": "🎁",
         "subtext": "bring someone / bring food / bring a document / bring up",
         "form": "verb",
@@ -507,7 +505,7 @@
     {
         "word": "say",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "greetings_social_phrases_A0",
         "emoji": "🗨️",
         "subtext": "say hello / say yes / say no / say something",
         "form": "verb",
@@ -516,7 +514,7 @@
                 "text": "To express something in words.",
                 "examples": [
                     "She says hello every morning.",
-                    "He says it is fine."
+                    "He says it is difficult."
                 ]
             }
         ],
@@ -528,7 +526,7 @@
     {
         "word": "tell",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "asking_answering_questions_A0",
         "emoji": "🗣️",
         "subtext": "tell the truth / tell someone / tell a story / tell lies",
         "form": "verb",
@@ -549,16 +547,16 @@
     {
         "word": "ask",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "asking_answering_questions_A0",
         "emoji": "❓",
-        "subtext": "ask a question / ask for help / ask about / ask someone",
+        "subtext": "ask a question / ask for help / ask someone / ask about",
         "form": "verb",
         "definitions": [
             {
-                "text": "To put a question; to make a request.",
+                "text": "To put a question to someone; to request something.",
                 "examples": [
-                    "She asks good questions.",
-                    "I ask my boss for help."
+                    "She asks a lot of questions.",
+                    "I ask my boss for advice."
                 ]
             }
         ],
@@ -570,16 +568,16 @@
     {
         "word": "speak",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "greetings_social_phrases_A0",
         "emoji": "🗣️",
-        "subtext": "speak to someone / speak a language / speak clearly",
+        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
         "form": "verb",
         "definitions": [
             {
-                "text": "To communicate verbally; to know a language.",
+                "text": "To say words; to communicate verbally.",
                 "examples": [
-                    "He speaks three languages.",
-                    "She speaks to her manager."
+                    "He speaks French.",
+                    "She speaks to her manager every day."
                 ]
             }
         ],
@@ -591,7 +589,7 @@
     {
         "word": "talk",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "greetings_social_phrases_A0",
         "emoji": "💬",
         "subtext": "talk to someone / talk about / talk openly / talk for a while",
         "form": "verb",
@@ -612,15 +610,15 @@
     {
         "word": "call",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "using_a_smartphone_A1",
         "emoji": "📞",
-        "subtext": "call someone / call back / call a meeting / call in sick",
+        "subtext": "call someone / call a meeting / call back / call in sick",
         "form": "verb",
         "definitions": [
             {
                 "text": "To telephone someone.",
                 "examples": [
-                    "I call my clients every morning.",
+                    "I call my boss every morning.",
                     "She calls a meeting."
                 ]
             }
@@ -679,7 +677,7 @@
     {
         "word": "listen",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "learning_studying_A1",
         "emoji": "🎧",
         "subtext": "listen to music / listen carefully / listen to a podcast",
         "form": "verb",
@@ -700,7 +698,7 @@
     {
         "word": "answer",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "asking_answering_questions_A0",
         "emoji": "📞",
         "subtext": "answer a question / answer the phone / answer an email",
         "form": "verb",
@@ -721,7 +719,7 @@
     {
         "word": "repeat",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "classroom_language_A0",
         "emoji": "🔁",
         "subtext": "repeat that / repeat yourself / repeat an order",
         "form": "verb",
@@ -742,16 +740,16 @@
     {
         "word": "go",
         "level": "starter",
-        "theme": "modes_of_transport_A0",
+        "theme": "travel_vocabulary_basics_A0",
         "emoji": "🚶",
-        "subtext": "go to work / go home / go out / go shopping / go abroad",
+        "subtext": "go to work / go home / go out / go shopping",
         "form": "verb",
         "definitions": [
             {
                 "text": "To move from one place to another.",
                 "examples": [
-                    "I go to work by train.",
-                    "She goes abroad every year."
+                    "I go to work by bus.",
+                    "She goes to the doctor."
                 ]
             }
         ],
@@ -763,15 +761,15 @@
     {
         "word": "come",
         "level": "starter",
-        "theme": "modes_of_transport_A0",
+        "theme": "travel_vocabulary_basics_A0",
         "emoji": "🏃‍♂️",
-        "subtext": "come home / come back / come to work / come here",
+        "subtext": "come home / come to work / come back / come here",
         "opposite": "go",
         "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
-                "text": "To move towards a place.",
+                "text": "To move towards a place or person.",
                 "examples": [
                     "He comes to the office at nine.",
                     "She comes home late."
@@ -788,14 +786,14 @@
         "level": "starter",
         "theme": "modes_of_transport_A0",
         "emoji": "🚶",
-        "subtext": "walk to work / walk home / walk fast / walk every day",
+        "subtext": "walk to work / walk home / walk slowly / walk every day",
         "form": "verb",
         "definitions": [
             {
-                "text": "To move on foot at a normal speed.",
+                "text": "To move on foot at a normal pace.",
                 "examples": [
                     "He walks to work every day.",
-                    "She walks during lunch."
+                    "She walks during her lunch break."
                 ]
             }
         ],
@@ -813,10 +811,10 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To operate and control a vehicle.",
+                "text": "To operate a vehicle.",
                 "examples": [
-                    "She drives a company car.",
-                    "He drives to meetings."
+                    "She drives to work.",
+                    "He drives a company car."
                 ]
             }
         ],
@@ -849,7 +847,7 @@
     {
         "word": "arrive",
         "level": "starter",
-        "theme": "modes_of_transport_A0",
+        "theme": "travel_vocabulary_basics_A0",
         "emoji": "🏁",
         "subtext": "arrive at work / arrive late / arrive on time / arrive home",
         "form": "verb",
@@ -870,7 +868,7 @@
     {
         "word": "leave",
         "level": "starter",
-        "theme": "modes_of_transport_A0",
+        "theme": "travel_vocabulary_basics_A0",
         "emoji": "🚪",
         "subtext": "leave home / leave work / leave early / leave late",
         "form": "verb",
@@ -891,7 +889,7 @@
     {
         "word": "move",
         "level": "starter",
-        "theme": "home_living",
+        "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "move house / move to a city / move on / move forward",
         "form": "verb",
@@ -912,7 +910,7 @@
     {
         "word": "return",
         "level": "starter",
-        "theme": "modes_of_transport_A0",
+        "theme": "travel_vocabulary_basics_A0",
         "emoji": "🔙",
         "subtext": "return home / return to work / return a call / return from",
         "form": "verb",
@@ -933,7 +931,7 @@
     {
         "word": "travel",
         "level": "starter",
-        "theme": "modes_of_transport_A0",
+        "theme": "travel_vocabulary_basics_A0",
         "emoji": "✈️",
         "subtext": "travel for work / travel abroad / travel by train",
         "form": "verb",
@@ -954,7 +952,7 @@
     {
         "word": "eat",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "meals_of_the_day_A0",
         "emoji": "🍎",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
         "opposite": "drink",
@@ -962,10 +960,10 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To put food in the mouth and consume it.",
+                "text": "To put food in your mouth and swallow it.",
                 "examples": [
-                    "We eat lunch at one o'clock.",
-                    "She eats at her desk."
+                    "We eat dinner at seven.",
+                    "He eats lunch at his desk."
                 ]
             }
         ],
@@ -979,16 +977,16 @@
         "level": "starter",
         "theme": "drinks_A0",
         "emoji": "🥛",
-        "subtext": "drink coffee / drink tea / drink water / drink alcohol",
+        "subtext": "drink coffee / drink tea / drink water / drink beer",
         "opposite": "eat",
         "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
-                "text": "To swallow liquid.",
+                "text": "To take liquid into your mouth and swallow it.",
                 "examples": [
                     "She drinks coffee every morning.",
-                    "I drink water at work."
+                    "I drink water."
                 ]
             }
         ],
@@ -1000,18 +998,18 @@
     {
         "word": "sleep",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "times_day_A0",
         "emoji": "😴",
-        "subtext": "sleep well / sleep badly / sleep eight hours",
+        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
         "opposite": "wake up",
         "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
-                "text": "To rest in an unconscious state.",
+                "text": "To rest with your eyes closed in a natural state of unconsciousness.",
                 "examples": [
                     "He sleeps seven hours a night.",
-                    "She sleeps badly."
+                    "I sleep badly."
                 ]
             }
         ],
@@ -1023,7 +1021,7 @@
     {
         "word": "cook",
         "level": "starter",
-        "theme": "food_drink",
+        "theme": "cooking_methods_A1",
         "emoji": "🍳",
         "subtext": "cook dinner / cook a meal / cook at home",
         "form": "verb",
@@ -1044,7 +1042,7 @@
     {
         "word": "clean",
         "level": "starter",
-        "theme": "home_living",
+        "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "clean the flat / clean up / clean the kitchen",
         "form": "verb",
@@ -1065,7 +1063,7 @@
     {
         "word": "wear",
         "level": "starter",
-        "theme": "colours_patterns_A0",
+        "theme": "items_of_clothing_A0",
         "emoji": "👕",
         "subtext": "wear a suit / wear glasses / wear casual clothes",
         "form": "verb",
@@ -1086,7 +1084,7 @@
     {
         "word": "wash",
         "level": "starter",
-        "theme": "home_living",
+        "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "wash the dishes / wash clothes / wash your hands",
         "form": "verb",
@@ -1115,9 +1113,9 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To get something by paying money.",
+                "text": "To get something in exchange for money.",
                 "examples": [
-                    "She buys groceries online.",
+                    "She buys food online.",
                     "He wants to buy a flat."
                 ]
             }
@@ -1130,16 +1128,16 @@
     {
         "word": "pay",
         "level": "starter",
-        "theme": "everyday_shopping_A0",
+        "theme": "money_payment_A1",
         "emoji": "💰",
-        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+        "subtext": "pay the rent / pay by card / pay cash / pay a bill",
         "form": "verb",
         "definitions": [
             {
-                "text": "To give money in exchange for something.",
+                "text": "To give money for something.",
                 "examples": [
-                    "I pay the rent monthly.",
-                    "She pays by card."
+                    "I pay the rent every month.",
+                    "He pays by card."
                 ]
             }
         ],
@@ -1151,7 +1149,7 @@
     {
         "word": "spend",
         "level": "starter",
-        "theme": "everyday_shopping_A0",
+        "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "spend money / spend time / spend on rent",
         "form": "verb",
@@ -1172,7 +1170,7 @@
     {
         "word": "save",
         "level": "starter",
-        "theme": "everyday_shopping_A0",
+        "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "save money / save for a house / save time",
         "opposite": "spend",
@@ -1201,10 +1199,10 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To do tasks to earn money.",
+                "text": "To do a job in order to earn money.",
                 "examples": [
-                    "He works from home three days a week.",
-                    "She works hard."
+                    "She works in a hospital.",
+                    "I work from home."
                 ]
             }
         ],
@@ -1216,7 +1214,7 @@
     {
         "word": "live",
         "level": "starter",
-        "theme": "personal_identity",
+        "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "live in a flat / live alone / live with someone / live abroad",
         "opposite": "die",
@@ -1226,7 +1224,7 @@
             {
                 "text": "To have your home in a place; to be alive.",
                 "examples": [
-                    "She lives in a flat near the centre.",
+                    "He lives in a flat near the centre.",
                     "We live together."
                 ]
             }
@@ -1239,16 +1237,16 @@
     {
         "word": "think",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "think about / think of / think carefully / think it is",
+        "subtext": "think about / think of / think it is / think carefully",
         "form": "verb",
         "definitions": [
             {
-                "text": "To use the mind; to have an opinion.",
+                "text": "To have a belief or opinion; to use the mind.",
                 "examples": [
                     "I think it is a good idea.",
-                    "She thinks about quitting."
+                    "She thinks about her job."
                 ]
             }
         ],
@@ -1260,16 +1258,17 @@
     {
         "word": "know",
         "level": "starter",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "know someone / know the answer / know how to / know about",
+        "subtext": "know someone / know the answer / know a place / know how to",
         "form": "verb",
         "definitions": [
             {
-                "text": "To have information or be familiar with.",
+                "text": "To have information or awareness about something.",
                 "examples": [
                     "I know his name.",
-                    "She knows how to negotiate."
+                    "She knows the answer.",
+                    "Do you know him?"
                 ]
             }
         ],
@@ -1281,16 +1280,16 @@
     {
         "word": "want",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_positive_emotions_A0",
         "emoji": "🙏",
-        "subtext": "want a job / want to do / want more / want help",
+        "subtext": "want a job / want to leave / want more money / want help",
         "form": "verb",
         "definitions": [
             {
                 "text": "To desire or wish for something.",
                 "examples": [
                     "I want a coffee.",
-                    "She wants a promotion.",
+                    "She wants a better job.",
                     "He wants to retire."
                 ]
             }
@@ -1303,17 +1302,17 @@
     {
         "word": "need",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_negative_emotions_A0",
         "emoji": "🆘",
         "subtext": "need help / need time / need money / need to rest",
         "form": "verb",
         "definitions": [
             {
-                "text": "To require something.",
+                "text": "To require something; to feel that something is necessary.",
                 "examples": [
                     "I need a break.",
-                    "She needs more time.",
-                    "He needs help."
+                    "She needs help.",
+                    "We need more time."
                 ]
             }
         ],
@@ -1325,16 +1324,16 @@
     {
         "word": "like",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_positive_emotions_A0",
         "emoji": "👍",
         "subtext": "like work / like to travel / like someone / like the idea",
         "form": "verb",
         "definitions": [
             {
-                "text": "To find something pleasant.",
+                "text": "To find something pleasant; to enjoy.",
                 "examples": [
                     "I like my job.",
-                    "She likes cooking at home.",
+                    "She likes cooking.",
                     "He likes coffee."
                 ]
             }
@@ -1347,7 +1346,7 @@
     {
         "word": "love",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_positive_emotions_A0",
         "emoji": "❤️",
         "subtext": "love someone / love doing / love a place / love the idea",
         "form": "verb",
@@ -1368,7 +1367,7 @@
     {
         "word": "hate",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_negative_emotions_A0",
         "emoji": "😡",
         "subtext": "hate doing / hate someone / hate meetings / hate commuting",
         "form": "verb",
@@ -1389,7 +1388,7 @@
     {
         "word": "hope",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_positive_emotions_A0",
         "emoji": "🤞",
         "subtext": "hope for / hope to do / hope that / I hope so",
         "form": "verb",
@@ -1410,7 +1409,7 @@
     {
         "word": "remember",
         "level": "starter",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "remember to do / remember a name / remember clearly",
         "form": "verb",
@@ -1431,7 +1430,7 @@
     {
         "word": "forget",
         "level": "starter",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "forget a name / forget to do / forget about / completely forget",
         "form": "verb",
@@ -1452,7 +1451,7 @@
     {
         "word": "understand",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "asking_answering_questions_A0",
         "emoji": "💡",
         "subtext": "understand a problem / understand someone / understand clearly",
         "form": "verb",
@@ -1473,7 +1472,7 @@
     {
         "word": "decide",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "decide to do / decide on / make a decision / hard to decide",
         "form": "verb",
@@ -1494,7 +1493,7 @@
     {
         "word": "enjoy",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
         "form": "verb",
@@ -1515,7 +1514,7 @@
     {
         "word": "see",
         "level": "starter",
-        "theme": "health_body",
+        "theme": "body_parts_A0",
         "emoji": "👁️",
         "subtext": "see a doctor / see friends / see the problem / see clearly",
         "form": "verb",
@@ -1536,7 +1535,7 @@
     {
         "word": "hear",
         "level": "starter",
-        "theme": "health_body",
+        "theme": "body_parts_A0",
         "emoji": "👂",
         "subtext": "hear news / hear from someone / hear a sound / hear clearly",
         "form": "verb",
