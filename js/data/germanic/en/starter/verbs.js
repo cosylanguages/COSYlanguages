@@ -1576,8 +1576,9 @@
     {
         "word": "look",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "physical_appearance_A1",
         "emoji": "👀",
+        "subtext": "look at / look for / look like / look happy",
         "form": "verb",
         "definitions": [
             {
@@ -1618,6 +1619,7 @@
         "level": "baby",
         "theme": "common_sports_A0",
         "emoji": "🏃",
+        "subtext": "run a race / run a business / run out of / run late",
         "form": "verb",
         "definitions": [
             {
@@ -1636,7 +1638,7 @@
     {
         "word": "sit",
         "level": "starter",
-        "theme": "health_body",
+        "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
         "opposite": "stand",
@@ -1658,7 +1660,7 @@
     {
         "word": "stand",
         "level": "starter",
-        "theme": "health_body",
+        "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "stand up / stand in a queue / stand by / stand out",
         "opposite": "sit",
@@ -1700,7 +1702,7 @@
     {
         "word": "learn",
         "level": "starter",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "📚",
         "subtext": "learn a language / learn a skill / learn from / learn how to",
         "form": "verb",
@@ -1720,7 +1722,7 @@
     {
         "word": "change",
         "level": "starter",
-        "theme": "time",
+        "theme": "daily_work_routines_A1",
         "emoji": "🔄",
         "subtext": "change jobs / change your mind / change the plan / change something",
         "form": "verb",
@@ -1740,7 +1742,7 @@
     {
         "word": "stop",
         "level": "starter",
-        "theme": "time",
+        "theme": "daily_work_routines_A1",
         "emoji": "🛑",
         "subtext": "stop doing / stop working / stop a habit / stop someone",
         "form": "verb",
@@ -1760,8 +1762,9 @@
     {
         "word": "add",
         "level": "baby",
-        "theme": "numbers_math",
+        "theme": "numbers_100_999_A1",
         "emoji": "➕",
+        "subtext": "add some sugar / add to / add up / add a comment",
         "form": "verb",
         "definitions": [
             {
@@ -1782,6 +1785,7 @@
         "level": "baby",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
+        "subtext": "win a game / win a prize / win an award / win a contract",
         "opposite": "lose",
         "oppositeEmoji": "📉",
         "form": "verb",
@@ -1801,7 +1805,7 @@
     {
         "word": "wait",
         "level": "starter",
-        "theme": "time",
+        "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "subtext": "wait for someone / wait in a queue / wait a moment",
         "form": "verb",
@@ -1821,8 +1825,9 @@
     {
         "word": "die",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
+        "subtext": "die of / die for / die from / die out",
         "opposite": "live",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -1862,8 +1867,9 @@
     {
         "word": "stay",
         "level": "baby",
-        "theme": "places_geography",
+        "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
+        "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
         "form": "verb",
         "definitions": [
             {
@@ -1882,8 +1888,9 @@
     {
         "word": "fall",
         "level": "baby",
-        "theme": "environment_nature",
+        "theme": "seasons_climate_A1",
         "emoji": "🍂",
+        "subtext": "fall down / fall off / fall in love / fall asleep",
         "form": "verb",
         "definitions": [
             {
@@ -1902,8 +1909,9 @@
     {
         "word": "pass",
         "level": "baby",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "🏔️",
+        "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
         "form": "verb",
         "definitions": [
             {
@@ -1924,6 +1932,7 @@
         "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🏷️",
+        "subtext": "sell products / sell online / sell at the market / best seller",
         "opposite": "buy",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -1943,8 +1952,9 @@
     {
         "word": "pull",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "daily_work_routines_A1",
         "emoji": "🚜",
+        "subtext": "pull the door / pull something / pull up / pull away",
         "opposite": "push",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -1964,8 +1974,9 @@
     {
         "word": "push",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "daily_work_routines_A1",
         "emoji": "🛒",
+        "subtext": "push the button / push a cart / push away / push through",
         "opposite": "pull",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -1986,7 +1997,7 @@
     {
         "word": "carry",
         "level": "starter",
-        "theme": "health_body",
+        "theme": "daily_work_routines_A1",
         "emoji": "🎒",
         "subtext": "carry a bag / carry notes / carry out / carry on",
         "form": "verb",
@@ -2006,8 +2017,9 @@
     {
         "word": "break",
         "level": "baby",
-        "theme": "describing_things",
+        "theme": "describing_things_A1",
         "emoji": "💔",
+        "subtext": "break the glass / break a law / take a break / break down",
         "form": "verb",
         "definitions": [
             {
@@ -2026,8 +2038,9 @@
     {
         "word": "receive",
         "level": "baby",
-        "theme": "language_communication",
+        "theme": "money_payment_A1",
         "emoji": "📩",
+        "subtext": "receive an email / receive a gift / receive payment / receive news",
         "form": "verb",
         "definitions": [
             {
@@ -2046,8 +2059,9 @@
     {
         "word": "agree",
         "level": "baby",
-        "theme": "opinion_debate",
+        "theme": "giving_opinions_A1",
         "emoji": "👍",
+        "subtext": "agree with someone / agree to do / agree on / I agree",
         "form": "verb",
         "definitions": [
             {
@@ -2066,8 +2080,9 @@
     {
         "word": "draw",
         "level": "baby",
-        "theme": "culture_arts",
+        "theme": "cinema_film_A1",
         "emoji": "🎨",
+        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
         "form": "verb",
         "definitions": [
             {
@@ -2086,8 +2101,9 @@
     {
         "word": "share",
         "level": "baby",
-        "theme": "society_politics",
+        "theme": "family_life_A1",
         "emoji": "🍕",
+        "subtext": "share a room / share information / share an idea / share with",
         "form": "verb",
         "definitions": [
             {
@@ -2106,8 +2122,9 @@
     {
         "word": "smile",
         "level": "baby",
-        "theme": "feelings_emotions",
+        "theme": "physical_appearance_A1",
         "emoji": "😊",
+        "subtext": "smile at someone / a big smile / smile broadly",
         "opposite": "cry",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2128,8 +2145,9 @@
     {
         "word": "cry",
         "level": "baby",
-        "theme": "feelings_emotions",
+        "theme": "surprise_interest_A1",
         "emoji": "😢",
+        "subtext": "cry for help / cry out / start crying / cry about something",
         "opposite": "smile",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2150,8 +2168,9 @@
     {
         "word": "dance",
         "level": "baby",
-        "theme": "culture_arts",
+        "theme": "music_A1",
         "emoji": "💃",
+        "subtext": "dance to music / go dancing / dance together / slow dance",
         "form": "verb",
         "definitions": [
             {
@@ -2170,8 +2189,9 @@
     {
         "word": "sing",
         "level": "baby",
-        "theme": "culture_arts",
+        "theme": "music_A1",
         "emoji": "🎤",
+        "subtext": "sing a song / sing along / sing well / lead singer",
         "form": "verb",
         "definitions": [
             {
@@ -2190,8 +2210,9 @@
     {
         "word": "jump",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
+        "subtext": "jump high / jump over / jump up / jump in",
         "form": "verb",
         "definitions": [
             {
@@ -2212,6 +2233,7 @@
         "level": "baby",
         "theme": "common_sports_A0",
         "emoji": "🏊",
+        "subtext": "go swimming / swim across / swim laps / swim well",
         "form": "verb",
         "definitions": [
             {
@@ -2230,7 +2252,7 @@
     {
         "word": "study",
         "level": "starter",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "study English / study for an exam / study hard / self-study",
         "form": "verb",
@@ -2250,7 +2272,7 @@
     {
         "word": "teach",
         "level": "starter",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
         "subtext": "teach someone / teach a subject / teach how to / teach a class",
         "form": "verb",
@@ -2272,6 +2294,7 @@
         "level": "baby",
         "theme": "public_transport_A1",
         "emoji": "🚆",
+        "subtext": "commute to work / daily commute / long commute / commute by train",
         "form": "verb",
         "definitions": [
             {
