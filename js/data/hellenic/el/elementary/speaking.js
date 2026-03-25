@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "Πρέπει τα παιδιά να έχουν κινητά τηλέφωνα;",
-                "level": "elementary",
+                "level": "baby",
                 "theme": "technology_A2"
             },
             {

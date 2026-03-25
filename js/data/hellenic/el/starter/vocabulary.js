@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "γιατρός",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "ο",
         "gender": "masculine",
@@ -24,7 +24,7 @@
     },
     {
         "word": "μπράτσο",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "το",
         "gender": "neuter",
@@ -43,7 +43,7 @@
     },
     {
         "word": "πόδι",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "το",
         "gender": "neuter",
@@ -64,7 +64,7 @@
     },
     {
         "word": "δάσκαλος",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "ο",
         "gender": "masculine",
@@ -84,7 +84,7 @@
     },
     {
         "word": "μουσακάς",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "ο",
         "gender": "masculine",
@@ -101,7 +101,7 @@
     },
     {
         "word": "μήλο",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "το",
         "gender": "neuter",
@@ -121,7 +121,7 @@
     },
     {
         "word": "ψωμί",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "το",
         "gender": "neuter",
@@ -141,7 +141,7 @@
     },
     {
         "word": "αυγό",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "το",
         "gender": "neuter",
@@ -160,7 +160,7 @@
     },
     {
         "word": "γάλα",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "το",
         "gender": "neuter",
@@ -179,7 +179,7 @@
     },
     {
         "word": "ρύζι",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "το",
         "gender": "neuter",
@@ -198,7 +198,7 @@
     },
     {
         "word": "κρέας",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "το",
         "gender": "neuter",
@@ -217,7 +217,7 @@
     },
     {
         "word": "φαγητό",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "το",
         "gender": "neuter",
@@ -235,7 +235,7 @@
     },
     {
         "word": "καφές",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "ο",
         "gender": "masculine",
@@ -254,7 +254,7 @@
     },
     {
         "word": "τσάι",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "το",
         "gender": "neuter",
@@ -273,7 +273,7 @@
     },
     {
         "word": "νερό",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "το",
         "gender": "neuter",
@@ -292,7 +292,7 @@
     },
     {
         "word": "καρέκλα",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "η",
         "gender": "feminine",
@@ -311,7 +311,7 @@
     },
     {
         "word": "τραπέζι",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "το",
         "gender": "neuter",
@@ -330,7 +330,7 @@
     },
     {
         "word": "κρεβάτι",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "το",
         "gender": "neuter",
@@ -349,7 +349,7 @@
     },
     {
         "word": "μαγαζί",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "το",
         "gender": "neuter",
@@ -368,7 +368,7 @@
     },
     {
         "word": "κεφάλι",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "το",
         "gender": "neuter",
@@ -387,7 +387,7 @@
     },
     {
         "word": "χέρι",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "το",
         "gender": "neuter",
@@ -406,7 +406,7 @@
     },
     {
         "word": "μάτι",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "το",
         "gender": "neuter",
@@ -425,7 +425,7 @@
     },
     {
         "word": "στόμα",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "το",
         "gender": "neuter",
@@ -444,7 +444,7 @@
     },
     {
         "word": "αυτί",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "το",
         "gender": "neuter",
@@ -463,7 +463,7 @@
     },
     {
         "word": "πλάτη",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "η",
         "gender": "feminine",
@@ -482,7 +482,7 @@
     },
     {
         "word": "σπίτι",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "article": "το",
         "gender": "neuter",
@@ -501,7 +501,7 @@
     },
     {
         "word": "διαμέρισμα",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "article": "το",
         "gender": "neuter",
@@ -520,7 +520,7 @@
     },
     {
         "word": "γραφείο",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_indoor_spaces_A0",
         "article": "το",
         "gender": "neuter",
@@ -539,7 +539,7 @@
     },
     {
         "word": "αυτοκίνητο",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "το",
         "gender": "neuter",
@@ -558,7 +558,7 @@
     },
     {
         "word": "λεωφορείο",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "το",
         "gender": "neuter",
@@ -577,7 +577,7 @@
     },
     {
         "word": "τρένο",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "το",
         "gender": "neuter",
@@ -596,7 +596,7 @@
     },
     {
         "word": "λεφτά",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "article": "τα",
         "gender": "neuter",
@@ -615,7 +615,7 @@
     },
     {
         "word": "πρωί",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "το",
         "gender": "neuter",
@@ -634,7 +634,7 @@
     },
     {
         "word": "απόγευμα",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "το",
         "gender": "neuter",
@@ -653,7 +653,7 @@
     },
     {
         "word": "βδομάδα",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "η",
         "gender": "feminine",
@@ -672,7 +672,7 @@
     },
     {
         "word": "δωμάτιο",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "article": "το",
         "gender": "neuter",
@@ -690,7 +690,7 @@
     },
     {
         "word": "κουζίνα",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "article": "η",
         "gender": "feminine",
@@ -708,7 +708,7 @@
     },
     {
         "word": "τιμή",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "article": "η",
         "gender": "feminine",
@@ -727,7 +727,7 @@
     },
     {
         "word": "πόρτα",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "η",
         "gender": "feminine",
@@ -746,7 +746,7 @@
     },
     {
         "word": "παράθυρο",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "το",
         "gender": "neuter",
@@ -765,7 +765,7 @@
     },
     {
         "word": "νοσοκομείο",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "το",
         "gender": "neuter",
@@ -783,7 +783,7 @@
     },
     {
         "word": "εστιατόριο",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "το",
         "gender": "neuter",
@@ -801,7 +801,7 @@
     },
     {
         "word": "τράπεζα",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "η",
         "gender": "feminine",
@@ -819,7 +819,7 @@
     },
     {
         "word": "σταθμός",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "ο",
         "gender": "masculine",
@@ -838,7 +838,7 @@
     },
     {
         "word": "σούπερ μάρκετ",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "το",
         "gender": "neuter",
@@ -856,7 +856,7 @@
     },
     {
         "word": "ήλιος",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "article": "ο",
         "gender": "masculine",
@@ -874,7 +874,7 @@
     },
     {
         "word": "βροχή",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "article": "η",
         "gender": "feminine",
@@ -892,7 +892,7 @@
     },
     {
         "word": "αέρας",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "article": "ο",
         "gender": "masculine",
@@ -911,7 +911,7 @@
     },
     {
         "word": "σήμερα",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "📅",
         "form": "adverb",
@@ -927,7 +927,7 @@
     },
     {
         "word": "αύριο",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "🔜",
         "form": "adverb",
@@ -943,7 +943,7 @@
     },
     {
         "word": "βράδυ",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "το",
         "gender": "neuter",
@@ -962,7 +962,7 @@
     },
     {
         "word": "νύχτα",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "η",
         "gender": "feminine",
@@ -981,7 +981,7 @@
     },
     {
         "word": "φρούτο",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "το",
         "gender": "neuter",
@@ -1000,7 +1000,7 @@
     },
     {
         "word": "λαχανικό",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "το",
         "gender": "neuter",
@@ -1019,7 +1019,7 @@
     },
     {
         "word": "μπύρα",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "η",
         "gender": "feminine",
@@ -1038,7 +1038,7 @@
     },
     {
         "word": "κρασί",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "το",
         "gender": "neuter",
@@ -1057,7 +1057,7 @@
     },
     {
         "word": "νοσοκόμα",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "η",
         "gender": "feminine",
@@ -1075,7 +1075,7 @@
     },
     {
         "word": "οδηγός",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "ο",
         "gender": "masculine",
@@ -1094,7 +1094,7 @@
     },
     {
         "word": "μάγειρας",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "ο",
         "gender": "masculine",
@@ -1113,7 +1113,7 @@
     },
     {
         "word": "διευθυντής",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "ο",
         "gender": "masculine",
@@ -1132,7 +1132,7 @@
     },
     {
         "word": "αεροπλάνο",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "το",
         "gender": "neuter",
@@ -1150,7 +1150,7 @@
     },
     {
         "word": "ποδήλατο",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "το",
         "gender": "neuter",
@@ -1169,7 +1169,7 @@
     },
     {
         "word": "σύντροφος",
-        "level": "starter",
+        "level": "baby",
         "theme": "marital_status_A0",
         "article": "ο",
         "gender": "masculine",
@@ -1188,7 +1188,7 @@
     },
     {
         "word": "άντρας",
-        "level": "starter",
+        "level": "baby",
         "theme": "physical_appearance_A1",
         "article": "ο",
         "gender": "masculine",
@@ -1207,7 +1207,7 @@
     },
     {
         "word": "γυναίκα",
-        "level": "starter",
+        "level": "baby",
         "theme": "physical_appearance_A1",
         "article": "η",
         "gender": "feminine",
@@ -1226,7 +1226,7 @@
     },
     {
         "word": "παιδί",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "article": "το",
         "gender": "neuter",
@@ -1245,7 +1245,7 @@
     },
     {
         "word": "γονέας",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "article": "ο",
         "gender": "masculine",

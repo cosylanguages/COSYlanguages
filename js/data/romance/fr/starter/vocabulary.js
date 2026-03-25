@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "médecin",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "le",
         "gender": "masculine",
@@ -24,7 +24,7 @@
     },
     {
         "word": "fruit",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "le",
         "gender": "masculine",
@@ -43,7 +43,7 @@
     },
     {
         "word": "légume",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "le",
         "gender": "masculine",
@@ -62,7 +62,7 @@
     },
     {
         "word": "pied",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "le",
         "gender": "masculine",
@@ -83,7 +83,7 @@
     },
     {
         "word": "professeur",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "le",
         "gender": "masculine",
@@ -103,7 +103,7 @@
     },
     {
         "word": "ratatouille",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "la",
         "form": "noun",
@@ -120,7 +120,7 @@
     },
     {
         "word": "croissant",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "le",
         "form": "noun",
@@ -137,7 +137,7 @@
     },
     {
         "word": "pomme",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "la",
         "baseWord": "pomme",
@@ -158,7 +158,7 @@
     },
     {
         "word": "pain",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "le",
         "gender": "masculine",
@@ -179,7 +179,7 @@
     },
     {
         "word": "oeuf",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "l'",
         "gender": "masculine",
@@ -199,7 +199,7 @@
     },
     {
         "word": "lait",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "le",
         "gender": "masculine",
@@ -219,7 +219,7 @@
     },
     {
         "word": "riz",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "le",
         "gender": "masculine",
@@ -238,7 +238,7 @@
     },
     {
         "word": "viande",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "la",
         "gender": "feminine",
@@ -257,7 +257,7 @@
     },
     {
         "word": "nourriture",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "article": "la",
         "emoji": "🍲",
@@ -274,7 +274,7 @@
     },
     {
         "word": "café",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "le",
         "gender": "masculine",
@@ -294,7 +294,7 @@
     },
     {
         "word": "thé",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "le",
         "gender": "masculine",
@@ -314,7 +314,7 @@
     },
     {
         "word": "jus",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "le",
         "gender": "masculine",
@@ -333,7 +333,7 @@
     },
     {
         "word": "eau",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "l'",
         "gender": "feminine",
@@ -353,7 +353,7 @@
     },
     {
         "word": "petit-déjeuner",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "article": "le",
         "gender": "masculine",
@@ -371,7 +371,7 @@
     },
     {
         "word": "dîner",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "article": "le",
         "gender": "masculine",
@@ -389,7 +389,7 @@
     },
     {
         "word": "déjeuner",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "article": "le",
         "gender": "masculine",
@@ -407,7 +407,7 @@
     },
     {
         "word": "parc",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "le",
         "gender": "masculine",
@@ -425,7 +425,7 @@
     },
     {
         "word": "école",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "l'",
         "gender": "feminine",
@@ -443,7 +443,7 @@
     },
     {
         "word": "magasin",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "le",
         "gender": "masculine",
@@ -461,7 +461,7 @@
     },
     {
         "word": "t-shirt",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "article": "le",
         "gender": "masculine",
@@ -479,7 +479,7 @@
     },
     {
         "word": "pantalon",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "article": "le",
         "gender": "masculine",
@@ -497,7 +497,7 @@
     },
     {
         "word": "chaussures",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "article": "les",
         "gender": "feminine",
@@ -515,7 +515,7 @@
     },
     {
         "word": "chapeau",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "article": "le",
         "gender": "masculine",
@@ -533,7 +533,7 @@
     },
     {
         "word": "chaise",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "la",
         "gender": "feminine",
@@ -552,7 +552,7 @@
     },
     {
         "word": "table",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "la",
         "gender": "feminine",
@@ -571,7 +571,7 @@
     },
     {
         "word": "lit",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "le",
         "gender": "masculine",
@@ -590,7 +590,7 @@
     },
     {
         "word": "clé",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "la",
         "gender": "feminine",
@@ -608,7 +608,7 @@
     },
     {
         "word": "téléphone",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_technology_devices_A0",
         "article": "le",
         "gender": "masculine",
@@ -626,7 +626,7 @@
     },
     {
         "word": "livre",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "le",
         "gender": "masculine",
@@ -644,7 +644,7 @@
     },
     {
         "word": "sac",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "le",
         "gender": "masculine",
@@ -662,7 +662,7 @@
     },
     {
         "word": "stylo",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "le",
         "gender": "masculine",
@@ -680,7 +680,7 @@
     },
     {
         "word": "chat",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "article": "le",
         "baseWord": "chat",
@@ -700,7 +700,7 @@
     },
     {
         "word": "chien",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "article": "le",
         "baseWord": "chien",
@@ -720,7 +720,7 @@
     },
     {
         "word": "oiseau",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "article": "l'",
         "emoji": "🐦",
@@ -737,7 +737,7 @@
     },
     {
         "word": "poisson",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "article": "le",
         "emoji": "🐟",
@@ -754,7 +754,7 @@
     },
     {
         "word": "tête",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "la",
         "gender": "feminine",
@@ -773,7 +773,7 @@
     },
     {
         "word": "main",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "la",
         "gender": "feminine",
@@ -792,7 +792,7 @@
     },
     {
         "word": "jambe",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "la",
         "gender": "feminine",
@@ -811,7 +811,7 @@
     },
     {
         "word": "oeil",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "l'",
         "gender": "masculine",
@@ -830,7 +830,7 @@
     },
     {
         "word": "nez",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "le",
         "gender": "masculine",
@@ -848,7 +848,7 @@
     },
     {
         "word": "bouche",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "la",
         "gender": "feminine",
@@ -867,7 +867,7 @@
     },
     {
         "word": "oreille",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "l'",
         "gender": "feminine",
@@ -886,7 +886,7 @@
     },
     {
         "word": "dos",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "le",
         "gender": "masculine",
@@ -905,7 +905,7 @@
     },
     {
         "word": "bras",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "le",
         "gender": "masculine",
@@ -924,7 +924,7 @@
     },
     {
         "word": "mère",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "article": "la",
         "gender": "feminine",
@@ -943,7 +943,7 @@
     },
     {
         "word": "père",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "article": "le",
         "gender": "masculine",
@@ -962,7 +962,7 @@
     },
     {
         "word": "famille",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "article": "la",
         "gender": "feminine",
@@ -980,7 +980,7 @@
     },
     {
         "word": "ami",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "article": "l'",
         "gender": "masculine",
@@ -998,7 +998,7 @@
     },
     {
         "word": "partenaire",
-        "level": "starter",
+        "level": "baby",
         "theme": "marital_status_A0",
         "article": "le",
         "gender": "masculine",
@@ -1017,7 +1017,7 @@
     },
     {
         "word": "homme",
-        "level": "starter",
+        "level": "baby",
         "theme": "physical_appearance_A1",
         "article": "l'",
         "numberPlural": "2 homme",
@@ -1036,7 +1036,7 @@
     },
     {
         "word": "femme",
-        "level": "starter",
+        "level": "baby",
         "theme": "physical_appearance_A1",
         "article": "la",
         "numberPlural": "2 femme",
@@ -1055,7 +1055,7 @@
     },
     {
         "word": "maison",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "article": "la",
         "gender": "feminine",
@@ -1074,7 +1074,7 @@
     },
     {
         "word": "appartement",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "article": "l'",
         "gender": "masculine",
@@ -1093,7 +1093,7 @@
     },
     {
         "word": "foyer",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "article": "le",
         "gender": "masculine",
@@ -1111,7 +1111,7 @@
     },
     {
         "word": "bureau",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_indoor_spaces_A0",
         "article": "le",
         "gender": "masculine",
@@ -1130,7 +1130,7 @@
     },
     {
         "word": "voiture",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "la",
         "gender": "feminine",
@@ -1149,7 +1149,7 @@
     },
     {
         "word": "bus",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "le",
         "gender": "masculine",
@@ -1168,7 +1168,7 @@
     },
     {
         "word": "train",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "le",
         "gender": "masculine",
@@ -1187,7 +1187,7 @@
     },
     {
         "word": "argent",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "article": "l'",
         "gender": "masculine",
@@ -1206,7 +1206,7 @@
     },
     {
         "word": "matin",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "le",
         "gender": "masculine",
@@ -1225,7 +1225,7 @@
     },
     {
         "word": "soir",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "le",
         "gender": "masculine",
@@ -1244,7 +1244,7 @@
     },
     {
         "word": "jour",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "le",
         "gender": "masculine",
@@ -1262,7 +1262,7 @@
     },
     {
         "word": "semaine",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "la",
         "gender": "feminine",
@@ -1281,7 +1281,7 @@
     },
     {
         "word": "chaque jour",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "🔁",
         "form": "adverb",
@@ -1296,7 +1296,7 @@
     },
     {
         "word": "patron",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "article": "le",
         "emoji": "👨‍💼",
@@ -1313,7 +1313,7 @@
     },
     {
         "word": "collègue",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "article": "le",
         "emoji": "🧑‍💼",
@@ -1330,7 +1330,7 @@
     },
     {
         "word": "salaire",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "article": "le",
         "emoji": "💰",
@@ -1348,7 +1348,7 @@
     },
     {
         "word": "réunion",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "article": "la",
         "emoji": "🤝",
@@ -1366,7 +1366,7 @@
     },
     {
         "word": "trajet",
-        "level": "starter",
+        "level": "baby",
         "theme": "public_transport_A1",
         "article": "le",
         "emoji": "🚆",
@@ -1383,7 +1383,7 @@
     },
     {
         "word": "stress",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "article": "le",
         "emoji": "😫",
@@ -1400,7 +1400,7 @@
     },
     {
         "word": "loyer",
-        "level": "starter",
+        "level": "baby",
         "theme": "types_of_accommodation_A1",
         "article": "le",
         "emoji": "🏠",
@@ -1417,7 +1417,7 @@
     },
     {
         "word": "voisin",
-        "level": "starter",
+        "level": "baby",
         "theme": "address_location_A1",
         "article": "le",
         "emoji": "🏠",
@@ -1434,7 +1434,7 @@
     },
     {
         "word": "pièce",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "article": "la",
         "emoji": "🚪",
@@ -1451,7 +1451,7 @@
     },
     {
         "word": "cuisine",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "article": "la",
         "emoji": "🍳",
@@ -1468,7 +1468,7 @@
     },
     {
         "word": "sommeil",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "article": "le",
         "emoji": "😴",
@@ -1485,7 +1485,7 @@
     },
     {
         "word": "exercice",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "article": "l'",
         "emoji": "🏋️",
@@ -1502,7 +1502,7 @@
     },
     {
         "word": "prix",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "article": "le",
         "emoji": "🏷️",
@@ -1519,7 +1519,7 @@
     },
     {
         "word": "coût",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "article": "le",
         "emoji": "💰",
@@ -1536,7 +1536,7 @@
     },
     {
         "word": "relation",
-        "level": "starter",
+        "level": "baby",
         "theme": "family_life_A1",
         "article": "la",
         "emoji": "❤️",
@@ -1554,7 +1554,7 @@
     },
     {
         "word": "ensemble",
-        "level": "starter",
+        "level": "baby",
         "theme": "family_life_A1",
         "emoji": "👫",
         "form": "adverb",
@@ -1571,7 +1571,7 @@
     },
     {
         "word": "vacances",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "article": "les",
         "emoji": "🏖️",
@@ -1588,7 +1588,7 @@
     },
     {
         "word": "voyage",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "article": "le",
         "emoji": "✈️",
@@ -1605,7 +1605,7 @@
     },
     {
         "word": "hôtel",
-        "level": "starter",
+        "level": "baby",
         "theme": "public_transport_A1",
         "article": "l'",
         "emoji": "🏨",
@@ -1622,7 +1622,7 @@
     },
     {
         "word": "week-end",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "le",
         "emoji": "🗓️",
@@ -1639,7 +1639,7 @@
     },
     {
         "word": "temps libre",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "article": "le",
         "gender": "masculine",
@@ -1658,7 +1658,7 @@
     },
     {
         "word": "bière",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "la",
         "gender": "feminine",
@@ -1677,7 +1677,7 @@
     },
     {
         "word": "vin",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "article": "le",
         "gender": "masculine",
@@ -1696,7 +1696,7 @@
     },
     {
         "word": "porte",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "la",
         "gender": "feminine",
@@ -1715,7 +1715,7 @@
     },
     {
         "word": "fenêtre",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "article": "la",
         "gender": "feminine",
@@ -1734,7 +1734,7 @@
     },
     {
         "word": "infirmier",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "l'",
         "gender": "masculine",
@@ -1753,7 +1753,7 @@
     },
     {
         "word": "conducteur",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "le",
         "gender": "masculine",
@@ -1772,7 +1772,7 @@
     },
     {
         "word": "chef",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "le",
         "gender": "masculine",
@@ -1791,7 +1791,7 @@
     },
     {
         "word": "directeur",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "article": "le",
         "gender": "masculine",
@@ -1810,7 +1810,7 @@
     },
     {
         "word": "avion",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "l'",
         "gender": "masculine",
@@ -1829,7 +1829,7 @@
     },
     {
         "word": "vélo",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "article": "le",
         "gender": "masculine",
@@ -1848,7 +1848,7 @@
     },
     {
         "word": "hôpital",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "l'",
         "gender": "masculine",
@@ -1867,7 +1867,7 @@
     },
     {
         "word": "restaurant",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "le",
         "gender": "masculine",
@@ -1886,7 +1886,7 @@
     },
     {
         "word": "banque",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "la",
         "gender": "feminine",
@@ -1905,7 +1905,7 @@
     },
     {
         "word": "gare",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "la",
         "gender": "feminine",
@@ -1924,7 +1924,7 @@
     },
     {
         "word": "supermarché",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "article": "le",
         "gender": "masculine",
@@ -1943,7 +1943,7 @@
     },
     {
         "word": "soleil",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "article": "le",
         "gender": "masculine",
@@ -1962,7 +1962,7 @@
     },
     {
         "word": "pluie",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "article": "la",
         "gender": "feminine",
@@ -1981,7 +1981,7 @@
     },
     {
         "word": "vent",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "article": "le",
         "gender": "masculine",
@@ -2000,7 +2000,7 @@
     },
     {
         "word": "après-midi",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "l'",
         "gender": "masculine",
@@ -2019,7 +2019,7 @@
     },
     {
         "word": "nuit",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "article": "la",
         "gender": "feminine",
@@ -2038,7 +2038,7 @@
     },
     {
         "word": "aujourd'hui",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "📅",
         "form": "adverb",
@@ -2054,7 +2054,7 @@
     },
     {
         "word": "demain",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "⏭️",
         "form": "adverb",
@@ -2070,7 +2070,7 @@
     },
     {
         "word": "mari",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "article": "le",
         "gender": "masculine",
@@ -2091,7 +2091,7 @@
     },
     {
         "word": "enfant",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "article": "l'",
         "gender": "masculine",
@@ -2110,7 +2110,7 @@
     },
     {
         "word": "parent",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "article": "le",
         "gender": "masculine",

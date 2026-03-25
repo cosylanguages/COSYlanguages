@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "tall",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "short",
@@ -19,7 +19,7 @@
     },
     {
         "word": "short",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "tall",
@@ -36,7 +36,7 @@
     },
     {
         "word": "young",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "old",
@@ -52,7 +52,7 @@
     },
     {
         "word": "old",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "young",
@@ -68,7 +68,7 @@
     },
     {
         "word": "sunny",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "☀️",
         "form": "adjective",
@@ -84,7 +84,7 @@
     },
     {
         "word": "rainy",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "🌧️",
         "form": "adjective",
@@ -100,7 +100,7 @@
     },
     {
         "word": "hot",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "🔥",
         "form": "adjective",
@@ -119,7 +119,7 @@
     },
     {
         "word": "cold",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "❄️",
         "form": "adjective",
@@ -138,7 +138,7 @@
     },
     {
         "word": "ordinary",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "form": "adjective",
         "opposite": "special",
@@ -154,7 +154,7 @@
     },
     {
         "word": "cheap",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🏷️",
         "form": "adjective",
@@ -172,7 +172,7 @@
     },
     {
         "word": "expensive",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "💎",
         "form": "adjective",
@@ -190,7 +190,7 @@
     },
     {
         "word": "good",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "👍",
         "form": "adjective",
@@ -208,7 +208,7 @@
     },
     {
         "word": "bad",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "👎",
         "form": "adjective",
@@ -226,7 +226,7 @@
     },
     {
         "word": "big",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "🐘",
         "form": "adjective",
@@ -244,7 +244,7 @@
     },
     {
         "word": "small",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "🐭",
         "form": "adjective",
@@ -262,7 +262,7 @@
     },
     {
         "word": "easy",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "✅",
         "form": "adjective",
@@ -279,7 +279,7 @@
     },
     {
         "word": "difficult",
-        "level": "starter",
+        "level": "baby",
         "theme": "size_shape_A0",
         "emoji": "❌",
         "form": "adjective",
@@ -296,7 +296,7 @@
     },
     {
         "word": "happy",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "form": "adjective",
@@ -312,7 +312,7 @@
     },
     {
         "word": "tired",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
         "form": "adjective",
@@ -328,7 +328,7 @@
     },
     {
         "word": "full-time",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
@@ -345,7 +345,7 @@
     },
     {
         "word": "part-time",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
@@ -362,7 +362,7 @@
     },
     {
         "word": "clean",
-        "level": "starter",
+        "level": "baby",
         "theme": "household_tasks_A1",
         "emoji": "✨",
         "form": "adjective",
@@ -380,7 +380,7 @@
     },
     {
         "word": "healthy",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🥗",
         "form": "adjective",
@@ -398,7 +398,7 @@
     },
     {
         "word": "ill",
-        "level": "starter",
+        "level": "baby",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
@@ -416,7 +416,7 @@
     },
     {
         "word": "online",
-        "level": "starter",
+        "level": "baby",
         "theme": "using_a_smartphone_A1",
         "emoji": "🌐",
         "form": "adjective",
@@ -433,7 +433,7 @@
     },
     {
         "word": "alone",
-        "level": "starter",
+        "level": "baby",
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
@@ -450,7 +450,7 @@
     },
     {
         "word": "relaxed",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😌",
         "form": "adjective",
@@ -468,7 +468,7 @@
     },
     {
         "word": "worried",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😟",
         "form": "adjective",
@@ -486,7 +486,7 @@
     },
     {
         "word": "busy",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
@@ -502,7 +502,7 @@
     },
     {
         "word": "useful",
-        "level": "starter",
+        "level": "baby",
         "theme": "using_a_smartphone_A1",
         "emoji": "🛠️",
         "form": "adjective",
@@ -520,7 +520,7 @@
     },
     {
         "word": "important",
-        "level": "starter",
+        "level": "baby",
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
@@ -536,7 +536,7 @@
     },
     {
         "word": "red",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟥",
         "form": "adjective",
@@ -552,7 +552,7 @@
     },
     {
         "word": "blue",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟦",
         "form": "adjective",
@@ -568,7 +568,7 @@
     },
     {
         "word": "green",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟩",
         "form": "adjective",
@@ -584,7 +584,7 @@
     },
     {
         "word": "white",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "⬜",
         "form": "adjective",
@@ -600,7 +600,7 @@
     },
     {
         "word": "black",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "⬛",
         "form": "adjective",
@@ -616,7 +616,7 @@
     },
     {
         "word": "yellow",
-        "level": "starter",
+        "level": "baby",
         "theme": "colours_patterns_A0",
         "emoji": "🟨",
         "form": "adjective",
@@ -632,7 +632,7 @@
     },
     {
         "word": "free",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🎁",
         "form": "adjective",
@@ -648,7 +648,7 @@
     },
     {
         "word": "open",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "📖",
         "form": "adjective",
@@ -666,7 +666,7 @@
     },
     {
         "word": "closed",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🔒",
         "form": "adjective",

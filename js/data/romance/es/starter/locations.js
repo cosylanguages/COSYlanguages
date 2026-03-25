@@ -2,67 +2,67 @@
     const data = [
     {
         "word": "Francia",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Italia",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Rusia",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Grecia",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Inglaterra",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "España",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "EE. UU.",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "París",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Londres",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Roma",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Moscú",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Atenas",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     },
     {
         "word": "Nueva York",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_countries_cities_A0"
     }
 ];

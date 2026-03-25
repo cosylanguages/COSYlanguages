@@ -500,7 +500,7 @@
     },
     {
         "word": "ώμος",
-        "level": "elementary",
+        "level": "baby",
         "theme": "body_parts_A0",
         "article": "ο",
         "form": "noun",

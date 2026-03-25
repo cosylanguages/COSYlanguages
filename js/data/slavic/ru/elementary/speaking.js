@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "Должны ли у детей быть мобильные телефоны?",
-                "level": "elementary",
+                "level": "baby",
                 "theme": "technology_A2"
             },
             {

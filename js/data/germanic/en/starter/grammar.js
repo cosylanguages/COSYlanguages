@@ -639,7 +639,7 @@
     };
 
     const data = [
-        { "verb": "to be", "level": "starter", "past_participle": "been", "pronouns": pronouns, "tenses": tenses,
+        { "verb": "to be", "level": "baby", "past_participle": "been", "pronouns": pronouns, "tenses": tenses,
         "classification": "irregular",
         "aspect": "stative",
         "v2": "was/were",

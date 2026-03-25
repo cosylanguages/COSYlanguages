@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "doctor",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "numberPlural": "2 doctor",
         "answer": "two doctors",
@@ -28,7 +28,7 @@
     },
     {
         "word": "foot",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "numberPlural": "2 foot",
         "answer": "two feet",
@@ -47,7 +47,7 @@
     },
     {
         "word": "teacher",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "opposite": "student",
         "oppositeEmoji": "🧑‍🎓",
@@ -73,7 +73,7 @@
     },
     {
         "word": "pizza",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "numberPlural": "3 pizza",
         "answer": "three pizzas",
@@ -98,7 +98,7 @@
     },
     {
         "word": "pasta",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🍝",
         "form": "noun",
@@ -121,7 +121,7 @@
     },
     {
         "word": "apple",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "numberPlural": "4 apple",
         "answer": "four apples",
@@ -140,7 +140,7 @@
     },
     {
         "word": "bread",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🍞",
         "form": "noun",
@@ -159,7 +159,7 @@
     },
     {
         "word": "egg",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🥚",
         "form": "noun",
@@ -183,7 +183,7 @@
     },
     {
         "word": "milk",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🥛",
         "form": "noun",
@@ -207,7 +207,7 @@
     },
     {
         "word": "banana",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🍌",
         "form": "noun",
@@ -230,7 +230,7 @@
     },
     {
         "word": "coffee",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "emoji": "☕",
         "form": "noun",
@@ -255,7 +255,7 @@
     },
     {
         "word": "tea",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "emoji": "🍵",
         "form": "noun",
@@ -280,7 +280,7 @@
     },
     {
         "word": "juice",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "emoji": "🧃",
         "form": "noun",
@@ -303,7 +303,7 @@
     },
     {
         "word": "water",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "emoji": "🚰",
         "form": "noun",
@@ -322,7 +322,7 @@
     },
     {
         "word": "park",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "emoji": "🌳",
         "form": "noun",
@@ -345,7 +345,7 @@
     },
     {
         "word": "school",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "emoji": "🏫",
         "form": "noun",
@@ -362,7 +362,7 @@
     },
     {
         "word": "t-shirt",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "emoji": "👕",
         "form": "noun",
@@ -378,7 +378,7 @@
     },
     {
         "word": "pants",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "emoji": "👖",
         "form": "noun",
@@ -395,7 +395,7 @@
     },
     {
         "word": "shoe",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "emoji": "👟",
         "form": "noun",
@@ -411,7 +411,7 @@
     },
     {
         "word": "hat",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "emoji": "👒",
         "form": "noun",
@@ -427,7 +427,7 @@
     },
     {
         "word": "chair",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
@@ -445,7 +445,7 @@
     },
     {
         "word": "table",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "emoji": "🪑",
         "form": "noun",
@@ -463,7 +463,7 @@
     },
     {
         "word": "bed",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "emoji": "🛏️",
         "form": "noun",
@@ -481,7 +481,7 @@
     },
     {
         "word": "key",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "emoji": "🔑",
         "form": "noun",
@@ -505,7 +505,7 @@
     },
     {
         "word": "phone",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
@@ -522,7 +522,7 @@
     },
     {
         "word": "book",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "numberPlural": "2 book",
         "answer": "two books",
@@ -541,7 +541,7 @@
     },
     {
         "word": "bag",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "emoji": "👜",
         "form": "noun",
@@ -558,7 +558,7 @@
     },
     {
         "word": "pen",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "emoji": "🖊️",
         "form": "noun",
@@ -575,7 +575,7 @@
     },
     {
         "word": "cat",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "emoji": "🐈",
         "numberPlural": "2 cat",
@@ -594,7 +594,7 @@
     },
     {
         "word": "dog",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "emoji": "🐕",
         "numberPlural": "5 dog",
@@ -613,7 +613,7 @@
     },
     {
         "word": "bird",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "emoji": "🐦",
         "form": "noun",
@@ -630,7 +630,7 @@
     },
     {
         "word": "fish",
-        "level": "starter",
+        "level": "baby",
         "theme": "animals_A0",
         "emoji": "🐟",
         "form": "noun",
@@ -647,7 +647,7 @@
     },
     {
         "word": "head",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "👤",
         "form": "noun",
@@ -665,7 +665,7 @@
     },
     {
         "word": "hand",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "✋",
         "form": "noun",
@@ -683,7 +683,7 @@
     },
     {
         "word": "leg",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "🦵",
         "form": "noun",
@@ -700,7 +700,7 @@
     },
     {
         "word": "eye",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "👁️",
         "form": "noun",
@@ -718,7 +718,7 @@
     },
     {
         "word": "nose",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "👃",
         "form": "noun",
@@ -734,7 +734,7 @@
     },
     {
         "word": "mouth",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "👄",
         "form": "noun",
@@ -751,7 +751,7 @@
     },
     {
         "word": "ear",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "👂",
         "form": "noun",
@@ -768,7 +768,7 @@
     },
     {
         "word": "smartphone",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_technology_devices_A0",
         "emoji": "📱",
         "form": "noun",
@@ -784,7 +784,7 @@
     },
     {
         "word": "mother",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "emoji": "👩",
         "form": "noun",
@@ -801,7 +801,7 @@
     },
     {
         "word": "father",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "emoji": "👨",
         "form": "noun",
@@ -818,7 +818,7 @@
     },
     {
         "word": "man",
-        "level": "starter",
+        "level": "baby",
         "theme": "physical_appearance_A1",
         "numberPlural": "2 man",
         "answer": "two men",
@@ -838,7 +838,7 @@
     },
     {
         "word": "woman",
-        "level": "starter",
+        "level": "baby",
         "theme": "physical_appearance_A1",
         "numberPlural": "2 woman",
         "answer": "two women",
@@ -858,7 +858,7 @@
     },
     {
         "word": "work",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "emoji": "💼",
         "form": "noun",
@@ -874,7 +874,7 @@
     },
     {
         "word": "job",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "emoji": "💼",
         "form": "noun",
@@ -890,7 +890,7 @@
     },
     {
         "word": "office",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_indoor_spaces_A0",
         "emoji": "🏢",
         "form": "noun",
@@ -907,7 +907,7 @@
     },
     {
         "word": "home",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "emoji": "🏠",
         "form": "noun",
@@ -923,7 +923,7 @@
     },
     {
         "word": "house",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "emoji": "🏡",
         "form": "noun",
@@ -940,7 +940,7 @@
     },
     {
         "word": "flat",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "emoji": "🏢",
         "form": "noun",
@@ -957,7 +957,7 @@
     },
     {
         "word": "car",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "🚗",
         "form": "noun",
@@ -974,7 +974,7 @@
     },
     {
         "word": "bus",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "🚌",
         "form": "noun",
@@ -991,7 +991,7 @@
     },
     {
         "word": "train",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "🚆",
         "form": "noun",
@@ -1008,7 +1008,7 @@
     },
     {
         "word": "food",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🍲",
         "form": "noun",
@@ -1023,7 +1023,7 @@
     },
     {
         "word": "rice",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🍚",
         "form": "noun",
@@ -1040,7 +1040,7 @@
     },
     {
         "word": "meat",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🥩",
         "form": "noun",
@@ -1057,7 +1057,7 @@
     },
     {
         "word": "breakfast",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "emoji": "🍳",
         "form": "noun",
@@ -1072,7 +1072,7 @@
     },
     {
         "word": "dinner",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "emoji": "🍽️",
         "form": "noun",
@@ -1087,7 +1087,7 @@
     },
     {
         "word": "money",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "💰",
         "form": "noun",
@@ -1104,7 +1104,7 @@
     },
     {
         "word": "shop",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "emoji": "🛒",
         "form": "noun",
@@ -1121,7 +1121,7 @@
     },
     {
         "word": "family",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "emoji": "👪",
         "form": "noun",
@@ -1137,7 +1137,7 @@
     },
     {
         "word": "friend",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "emoji": "👫",
         "form": "noun",
@@ -1153,7 +1153,7 @@
     },
     {
         "word": "partner",
-        "level": "starter",
+        "level": "baby",
         "theme": "marital_status_A0",
         "emoji": "💑",
         "form": "noun",
@@ -1170,7 +1170,7 @@
     },
     {
         "word": "morning",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "🌅",
         "form": "noun",
@@ -1186,7 +1186,7 @@
     },
     {
         "word": "evening",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "🌆",
         "form": "noun",
@@ -1202,7 +1202,7 @@
     },
     {
         "word": "day",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "☀️",
         "form": "noun",
@@ -1218,7 +1218,7 @@
     },
     {
         "word": "week",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "📅",
         "form": "noun",
@@ -1235,7 +1235,7 @@
     },
     {
         "word": "every day",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "🔁",
         "form": "adverb",
@@ -1250,7 +1250,7 @@
     },
     {
         "word": "lunch",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "emoji": "🍱",
         "form": "noun",
@@ -1267,7 +1267,7 @@
     },
     {
         "word": "boss",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "emoji": "💼",
         "form": "noun",
@@ -1283,7 +1283,7 @@
     },
     {
         "word": "colleague",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "emoji": "🧑‍💼",
         "form": "noun",
@@ -1299,7 +1299,7 @@
     },
     {
         "word": "salary",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "emoji": "💸",
         "form": "noun",
@@ -1317,7 +1317,7 @@
     },
     {
         "word": "meeting",
-        "level": "starter",
+        "level": "baby",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "form": "noun",
@@ -1335,7 +1335,7 @@
     },
     {
         "word": "commute",
-        "level": "starter",
+        "level": "baby",
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "form": "noun",
@@ -1351,7 +1351,7 @@
     },
     {
         "word": "stress",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😫",
         "form": "noun",
@@ -1367,7 +1367,7 @@
     },
     {
         "word": "rent",
-        "level": "starter",
+        "level": "baby",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
         "form": "noun",
@@ -1382,7 +1382,7 @@
     },
     {
         "word": "neighbour",
-        "level": "starter",
+        "level": "baby",
         "theme": "address_location_A1",
         "emoji": "🏘️",
         "form": "noun",
@@ -1399,7 +1399,7 @@
     },
     {
         "word": "room",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "emoji": "🚪",
         "form": "noun",
@@ -1416,7 +1416,7 @@
     },
     {
         "word": "kitchen",
-        "level": "starter",
+        "level": "baby",
         "theme": "rooms_of_a_home_A0",
         "emoji": "🍳",
         "form": "noun",
@@ -1433,7 +1433,7 @@
     },
     {
         "word": "sleep",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "😴",
         "form": "noun",
@@ -1448,7 +1448,7 @@
     },
     {
         "word": "exercise",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "emoji": "🏃",
         "form": "noun",
@@ -1463,7 +1463,7 @@
     },
     {
         "word": "price",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "emoji": "🏷️",
         "form": "noun",
@@ -1480,7 +1480,7 @@
     },
     {
         "word": "cost",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "emoji": "💰",
         "form": "noun",
@@ -1496,7 +1496,7 @@
     },
     {
         "word": "relationship",
-        "level": "starter",
+        "level": "baby",
         "theme": "family_life_A1",
         "emoji": "👫",
         "form": "noun",
@@ -1512,7 +1512,7 @@
     },
     {
         "word": "together",
-        "level": "starter",
+        "level": "baby",
         "theme": "family_life_A1",
         "emoji": "👫",
         "form": "adverb",
@@ -1529,7 +1529,7 @@
     },
     {
         "word": "holiday",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "emoji": "🏖️",
         "form": "noun",
@@ -1546,7 +1546,7 @@
     },
     {
         "word": "hotel",
-        "level": "starter",
+        "level": "baby",
         "theme": "public_transport_A1",
         "emoji": "🏨",
         "form": "noun",
@@ -1562,7 +1562,7 @@
     },
     {
         "word": "weekend",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "📅",
         "form": "noun",
@@ -1579,7 +1579,7 @@
     },
     {
         "word": "free time",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
         "form": "noun",
@@ -1594,7 +1594,7 @@
     },
     {
         "word": "travel",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "✈️",
         "form": "noun",
@@ -1609,7 +1609,7 @@
     },
     {
         "word": "back",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "🚶",
         "form": "noun",
@@ -1626,7 +1626,7 @@
     },
     {
         "word": "arm",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "💪",
         "form": "noun",
@@ -1643,7 +1643,7 @@
     },
     {
         "word": "fruit",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🍎",
         "form": "noun",
@@ -1660,7 +1660,7 @@
     },
     {
         "word": "vegetable",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_foods_A0",
         "emoji": "🥦",
         "form": "noun",
@@ -1677,7 +1677,7 @@
     },
     {
         "word": "beer",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "emoji": "🍺",
         "form": "noun",
@@ -1694,7 +1694,7 @@
     },
     {
         "word": "wine",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "emoji": "🍷",
         "form": "noun",
@@ -1711,7 +1711,7 @@
     },
     {
         "word": "door",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "emoji": "🚪",
         "form": "noun",
@@ -1728,7 +1728,7 @@
     },
     {
         "word": "window",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "emoji": "🪟",
         "form": "noun",
@@ -1745,7 +1745,7 @@
     },
     {
         "word": "nurse",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "emoji": "🧑‍⚕️",
         "form": "noun",
@@ -1762,7 +1762,7 @@
     },
     {
         "word": "driver",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "emoji": "🚗",
         "form": "noun",
@@ -1779,7 +1779,7 @@
     },
     {
         "word": "chef",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "emoji": "👨‍🍳",
         "form": "noun",
@@ -1796,7 +1796,7 @@
     },
     {
         "word": "manager",
-        "level": "starter",
+        "level": "baby",
         "theme": "job_titles_professions_A0",
         "emoji": "🧑‍💼",
         "form": "noun",
@@ -1813,7 +1813,7 @@
     },
     {
         "word": "plane",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "✈️",
         "form": "noun",
@@ -1830,7 +1830,7 @@
     },
     {
         "word": "bike",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "🚲",
         "form": "noun",
@@ -1847,7 +1847,7 @@
     },
     {
         "word": "hospital",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "emoji": "🏥",
         "form": "noun",
@@ -1864,7 +1864,7 @@
     },
     {
         "word": "restaurant",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "emoji": "🍴",
         "form": "noun",
@@ -1881,7 +1881,7 @@
     },
     {
         "word": "bank",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "emoji": "🏦",
         "form": "noun",
@@ -1898,7 +1898,7 @@
     },
     {
         "word": "station",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "emoji": "🚉",
         "form": "noun",
@@ -1915,7 +1915,7 @@
     },
     {
         "word": "supermarket",
-        "level": "starter",
+        "level": "baby",
         "theme": "local_places_services_A0",
         "emoji": "🛒",
         "form": "noun",
@@ -1932,7 +1932,7 @@
     },
     {
         "word": "sun",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "☀️",
         "form": "noun",
@@ -1949,7 +1949,7 @@
     },
     {
         "word": "rain",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "🌧️",
         "form": "noun",
@@ -1966,7 +1966,7 @@
     },
     {
         "word": "wind",
-        "level": "starter",
+        "level": "baby",
         "theme": "weather_A0",
         "emoji": "💨",
         "form": "noun",
@@ -1983,7 +1983,7 @@
     },
     {
         "word": "afternoon",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "☀️",
         "form": "noun",
@@ -1999,7 +1999,7 @@
     },
     {
         "word": "night",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "🌙",
         "form": "noun",
@@ -2016,7 +2016,7 @@
     },
     {
         "word": "today",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "📅",
         "form": "adverb",
@@ -2032,7 +2032,7 @@
     },
     {
         "word": "tomorrow",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "⏭️",
         "form": "adverb",
@@ -2048,7 +2048,7 @@
     },
     {
         "word": "husband",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "emoji": "👨",
         "form": "noun",
@@ -2067,7 +2067,7 @@
     },
     {
         "word": "wife",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "emoji": "👩",
         "form": "noun",
@@ -2086,7 +2086,7 @@
     },
     {
         "word": "child",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "emoji": "👶",
         "form": "noun",
@@ -2103,7 +2103,7 @@
     },
     {
         "word": "parent",
-        "level": "starter",
+        "level": "baby",
         "theme": "immediate_family_A0",
         "emoji": "👪",
         "form": "noun",

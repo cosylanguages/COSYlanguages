@@ -5,7 +5,7 @@
         "group": "βοηθητικό",
         "classification": "irregular",
         "aspect": "stative",
-        "level": "starter",
+        "level": "baby",
         "v3": "ήμουν",
         "pronouns": [
             "εγώ",
@@ -141,7 +141,7 @@
         "group": "1η συζυγία",
         "classification": "regular",
         "aspect": "stative",
-        "level": "starter",
+        "level": "baby",
         "v3": "είχα",
         "pronouns": [
             "εγώ",
@@ -277,7 +277,7 @@
         "group": "1η συζυγία",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
+        "level": "baby",
         "v3": "δούλεψα",
         "pronouns": [
             "εγώ",
@@ -413,7 +413,7 @@
         "group": "1η συζυγία",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
+        "level": "baby",
         "v3": "έκανα",
         "pronouns": [
             "εγώ",
@@ -549,7 +549,7 @@
         "group": "1η συζυγία",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
+        "level": "baby",
         "v3": "πήγα",
         "pronouns": [
             "εγώ",
@@ -685,7 +685,7 @@
         "group": "2η συζυγία",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
+        "level": "baby",
         "v3": "μίλησα",
         "pronouns": [
             "εγώ",

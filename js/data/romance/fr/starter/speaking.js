@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "Le petit-déjeuner est-il le repas le plus important ?",
-                "level": "starter",
+                "level": "baby",
                 "theme": "basic_foods_A0"
             },
             {

@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "Should children have mobile phones?",
-                "level": "elementary",
+                "level": "baby",
                 "theme": "technology_A2"
             },
             {

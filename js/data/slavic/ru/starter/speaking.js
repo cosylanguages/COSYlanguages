@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "Является ли завтрак самым важным приемом пищи?",
-                "level": "starter",
+                "level": "baby",
                 "theme": "basic_foods_A0"
             },
             {

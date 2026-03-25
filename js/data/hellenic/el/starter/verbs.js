@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "είμαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "name_greeting_A0",
         "emoji": "👤",
         "subtext": "είμαι κουρασμένος / είμαι χαρούμενος / είμαι στη δουλειά",
@@ -24,7 +24,7 @@
     },
     {
         "word": "έχω",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "έχω δουλειά / έχω πρόβλημα / έχω χρόνο",
@@ -46,7 +46,7 @@
     },
     {
         "word": "νιώθω",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "🌡️",
         "subtext": "νιώθω κουρασμένος / νιώθω καλύτερα / νιώθω καλά",
@@ -67,7 +67,7 @@
     },
     {
         "word": "δίνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🎁",
         "subtext": "δίνω συμβουλές / δίνω χρήματα / δίνω ένα δώρο",
@@ -88,7 +88,7 @@
     },
     {
         "word": "παίρνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "👜",
         "subtext": "παίρνω το λεωφορείο / παίρνω φάρμακο / κάνω διάλειμμα",
@@ -109,7 +109,7 @@
     },
     {
         "word": "παίρνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "📥",
         "subtext": "βρίσκω δουλειά / κουράζομαι / γίνομαι καλύτερος",
@@ -130,7 +130,7 @@
     },
     {
         "word": "βάζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "furniture_objects_A0",
         "emoji": "📥",
         "subtext": "βάζω / βάζω κάτω / βάζω το τηλέφωνο",
@@ -151,7 +151,7 @@
     },
     {
         "word": "φτιάχνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "φτιάχνω καφέ / παίρνω απόφαση / κάνω λάθος",
@@ -172,7 +172,7 @@
     },
     {
         "word": "κάνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "subtext": "κάνω τη δουλειά / κάνω τα ψώνια / κάνω γυμναστική",
@@ -193,7 +193,7 @@
     },
     {
         "word": "χρησιμοποιώ",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_technology_devices_A0",
         "emoji": "🛠️",
         "subtext": "χρησιμοποιώ τηλέφωνο / χρησιμοποιώ τη συγκοινωνία",
@@ -214,7 +214,7 @@
     },
     {
         "word": "ανοίγω",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "📖",
         "subtext": "ανοίγω μια πόρτα / ανοίγω λογαριασμό",
@@ -235,7 +235,7 @@
     },
     {
         "word": "κλείνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🔒",
         "subtext": "κλείνω μια πόρτα / κλείνω στις έξι / κλείνω λογαριασμό",
@@ -256,7 +256,7 @@
     },
     {
         "word": "ξεκινάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "ξεκινάω δουλειά / ξεκινάω μια συνάντηση",
@@ -277,7 +277,7 @@
     },
     {
         "word": "τελειώνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "τελειώνω τη δουλειά / τελειώνω ένα έργο",
@@ -298,7 +298,7 @@
     },
     {
         "word": "βοηθάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "family_life_A1",
         "emoji": "🤝",
         "subtext": "βοηθάω κάποιον / βοηθάω με / ζητάω βοήθεια",
@@ -319,7 +319,7 @@
     },
     {
         "word": "προσπαθώ",
-        "level": "starter",
+        "level": "baby",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "προσπαθώ να κάνω / δοκιμάζω / δοκιμάζω κάτι νέο",
@@ -340,7 +340,7 @@
     },
     {
         "word": "δείχνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "asking_answering_questions_A0",
         "emoji": "📽️",
         "subtext": "δείχνω σε κάποιον / δείχνω πώς / δείχνω έγγραφο",
@@ -361,7 +361,7 @@
     },
     {
         "word": "βρίσκω",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🔍",
         "subtext": "βρίσκω δουλειά / ανακαλύπτω / βρίσκω χρόνο",
@@ -382,7 +382,7 @@
     },
     {
         "word": "κρατάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "συνεχίζω / μένω σιωπηλός / κρατάω επαφή",
@@ -403,7 +403,7 @@
     },
     {
         "word": "χάνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "📉",
         "subtext": "χάνω τη δουλειά / χάνω χρήματα / χάνω βάρος",
@@ -424,7 +424,7 @@
     },
     {
         "word": "κόβω",
-        "level": "starter",
+        "level": "baby",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "κόβω έξοδα / κόβω στη μέση / κόβω χρόνο",
@@ -445,7 +445,7 @@
     },
     {
         "word": "στρίβω",
-        "level": "starter",
+        "level": "baby",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "ανάβω / σβήνω / στρίβω αριστερά / δεξιά",
@@ -466,7 +466,7 @@
     },
     {
         "word": "φέρνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "emoji": "🎁",
         "subtext": "φέρνω κάποιον / φέρνω φαγητό / φέρνω έγγραφο",
@@ -487,7 +487,7 @@
     },
     {
         "word": "λέω",
-        "level": "starter",
+        "level": "baby",
         "theme": "greetings_social_phrases_A0",
         "emoji": "🗨️",
         "subtext": "λέω γεια / λέω ναι / λέω όχι",
@@ -508,7 +508,7 @@
     },
     {
         "word": "λέω",
-        "level": "starter",
+        "level": "baby",
         "theme": "asking_answering_questions_A0",
         "emoji": "🗣️",
         "subtext": "λέω την αλήθεια / λέω μια ιστορία / λέω σε κάποιον",
@@ -529,7 +529,7 @@
     },
     {
         "word": "ρωτάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "asking_answering_questions_A0",
         "emoji": "❓",
         "subtext": "κάνω μια ερώτηση / ζητάω βοήθεια / ρωτάω κάποιον",
@@ -550,7 +550,7 @@
     },
     {
         "word": "μιλάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "greetings_social_phrases_A0",
         "emoji": "🗣️",
         "subtext": "μιλάω με κάποιον / μιλάω ελληνικά / μιλάω καθαρά",
@@ -571,7 +571,7 @@
     },
     {
         "word": "μιλάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "greetings_social_phrases_A0",
         "emoji": "💬",
         "subtext": "μιλάω με κάποιον / μιλάω για / μιλάω ανοιχτά",
@@ -592,7 +592,7 @@
     },
     {
         "word": "καλώ",
-        "level": "starter",
+        "level": "baby",
         "theme": "using_a_smartphone_A1",
         "emoji": "📞",
         "subtext": "παίρνω τηλέφωνο / καλώ σε συνάντηση",
@@ -613,7 +613,7 @@
     },
     {
         "word": "γράφω",
-        "level": "starter",
+        "level": "baby",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "γράφω γράμμα / γράφω αναφορά / γράφω σημειώσεις",
@@ -634,7 +634,7 @@
     },
     {
         "word": "διαβάζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "διαβάζω βιβλίο / διαβάζω ειδήσεις / διαβάζω προσεκτικά",
@@ -655,7 +655,7 @@
     },
     {
         "word": "ακούω",
-        "level": "starter",
+        "level": "baby",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
         "subtext": "ακούω μουσική / ακούω προσεκτικά / ακούω podcast",
@@ -676,7 +676,7 @@
     },
     {
         "word": "απαντάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "asking_answering_questions_A0",
         "emoji": "📞",
         "subtext": "απαντάω σε ερώτηση / απαντάω στο τηλέφωνο",
@@ -697,7 +697,7 @@
     },
     {
         "word": "επαναλαμβάνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "classroom_language_A0",
         "emoji": "🔁",
         "subtext": "επαναλαμβάνω αυτό / επαναλαμβάνομαι",
@@ -718,7 +718,7 @@
     },
     {
         "word": "πηγαίνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🚶",
         "subtext": "πηγαίνω στη δουλειά / πηγαίνω σπίτι / βγαίνω έξω",
@@ -739,7 +739,7 @@
     },
     {
         "word": "έρχομαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🏃‍♂️",
         "subtext": "έρχομαι σπίτι / έρχομαι στη δουλειά / επιστρέφω",
@@ -760,7 +760,7 @@
     },
     {
         "word": "περπατάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "🚶",
         "subtext": "περπατάω προς τη δουλειά / περπατάω αργά",
@@ -781,7 +781,7 @@
     },
     {
         "word": "οδηγώ",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "🚗",
         "subtext": "οδηγώ προς τη δουλειά / οδηγώ το αυτοκίνητο",
@@ -802,7 +802,7 @@
     },
     {
         "word": "πετάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "✈️",
         "subtext": "πετάω για μια πόλη / πετάω business class",
@@ -823,7 +823,7 @@
     },
     {
         "word": "φτάνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🏁",
         "subtext": "φτάνω στη δουλειά / φτάνω αργά / στην ώρα μου",
@@ -844,7 +844,7 @@
     },
     {
         "word": "φεύγω",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🚪",
         "subtext": "φεύγω από το σπίτι / από τη δουλειά / φεύγω νωρίς",
@@ -865,7 +865,7 @@
     },
     {
         "word": "κουνάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "μετακομίζω / μετακομίζω στην πόλη / προχωράω",
@@ -886,7 +886,7 @@
     },
     {
         "word": "επιστρέφω",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🔙",
         "subtext": "επιστρέφω σπίτι / στη δουλειά / επιστρέφω κλήση",
@@ -907,7 +907,7 @@
     },
     {
         "word": "ταξιδεύω",
-        "level": "starter",
+        "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "✈️",
         "subtext": "ταξιδεύω για δουλειά / στο εξωτερικό / με τρένο",
@@ -928,7 +928,7 @@
     },
     {
         "word": "τρώω",
-        "level": "starter",
+        "level": "baby",
         "theme": "meals_of_the_day_A0",
         "emoji": "🍎",
         "subtext": "τρώω πρωινό / τρώω μεσημεριανό / τρώω βραδινό",
@@ -949,7 +949,7 @@
     },
     {
         "word": "πίνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "drinks_A0",
         "emoji": "🥛",
         "subtext": "πίνω καφέ / πίνω τσάι / πίνω νερό",
@@ -970,7 +970,7 @@
     },
     {
         "word": "κοιμάμαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "times_day_A0",
         "emoji": "😴",
         "subtext": "κοιμάμαι καλά / κοιμάμαι άσχημα / κοιμάμαι οκτώ ώρες",
@@ -991,7 +991,7 @@
     },
     {
         "word": "μαγειρεύω",
-        "level": "starter",
+        "level": "baby",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
         "subtext": "μαγειρεύω δείπνο / μαγειρεύω φαγητό",
@@ -1012,7 +1012,7 @@
     },
     {
         "word": "καθαρίζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "καθαρίζω το σπίτι / καθαρίζω την κουζίνα",
@@ -1033,7 +1033,7 @@
     },
     {
         "word": "φοράω",
-        "level": "starter",
+        "level": "baby",
         "theme": "items_of_clothing_A0",
         "emoji": "👕",
         "subtext": "φοράω κοστούμι / φοράω γυαλιά",
@@ -1054,7 +1054,7 @@
     },
     {
         "word": "πλένω",
-        "level": "starter",
+        "level": "baby",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "πλένω τα πιάτα / πλένω τα χέρια",
@@ -1075,7 +1075,7 @@
     },
     {
         "word": "αγοράζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🛒",
         "subtext": "αγοράζω φαγητό / αγοράζω εισιτήριο / αγοράζω online",
@@ -1096,7 +1096,7 @@
     },
     {
         "word": "πληρώνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "πληρώνω το ενοίκιο / πληρώνω με κάρτα",
@@ -1117,7 +1117,7 @@
     },
     {
         "word": "ξοδεύω",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "ξοδεύω χρήματα / περνάω χρόνο",
@@ -1138,7 +1138,7 @@
     },
     {
         "word": "αποταμιεύω",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "αποταμιεύω χρήματα / αποθηκεύω αρχείο",
@@ -1159,7 +1159,7 @@
     },
     {
         "word": "δουλεύω",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
         "subtext": "δουλεύω από το σπίτι / δουλεύω πλήρες ωράριο",
@@ -1180,7 +1180,7 @@
     },
     {
         "word": "ζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "ζω σε διαμέρισμα / ζω μόνος / ζω με κάποιον",
@@ -1201,7 +1201,7 @@
     },
     {
         "word": "σκέφτομαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "σκέφτομαι για / σκέφτομαι προσεκτικά",
@@ -1222,7 +1222,7 @@
     },
     {
         "word": "ξέρω",
-        "level": "starter",
+        "level": "baby",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "ξέρω κάποιον / ξέρω την απάντηση / ξέρω ένα μέρος",
@@ -1243,7 +1243,7 @@
     },
     {
         "word": "θέλω",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "🙏",
         "subtext": "θέλω δουλειά / θέλω να φύγω / θέλω περισσότερα χρήματα",
@@ -1264,7 +1264,7 @@
     },
     {
         "word": "χρειάζομαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "🆘",
         "subtext": "χρειάζομαι βοήθεια / χρειάζομαι χρόνο",
@@ -1285,7 +1285,7 @@
     },
     {
         "word": "μου αρέσει",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "👍",
         "subtext": "μου αρέσει η δουλειά / μου αρέσουν τα ταξίδια",
@@ -1306,7 +1306,7 @@
     },
     {
         "word": "αγαπάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "❤️",
         "subtext": "αγαπάω κάποιον / αγαπάω να κάνω",
@@ -1327,7 +1327,7 @@
     },
     {
         "word": "μισώ",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_negative_emotions_A0",
         "emoji": "😡",
         "subtext": "μισώ να κάνω / μισώ κάποιον",
@@ -1348,7 +1348,7 @@
     },
     {
         "word": "ελπίζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "🤞",
         "subtext": "ελπίζω για / ελπίζω να κάνω",
@@ -1369,7 +1369,7 @@
     },
     {
         "word": "θυμάμαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "θυμάμαι να κάνω / θυμάμαι το όνομα",
@@ -1390,7 +1390,7 @@
     },
     {
         "word": "ξεχνάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "ξεχνάω το όνομα / ξεχνάω να κάνω",
@@ -1411,7 +1411,7 @@
     },
     {
         "word": "καταλαβαίνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "asking_answering_questions_A0",
         "emoji": "💡",
         "subtext": "καταλαβαίνω το πρόβλημα / καταλαβαίνω κάποιον",
@@ -1432,7 +1432,7 @@
     },
     {
         "word": "αποφασίζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "αποφασίζω να κάνω / αποφασίζω για",
@@ -1453,7 +1453,7 @@
     },
     {
         "word": "απολαμβάνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "subtext": "απολαμβάνω να κάνω / απολαμβάνω το φαγητό",
@@ -1474,7 +1474,7 @@
     },
     {
         "word": "βλέπω",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "👁️",
         "subtext": "βλέπω γιατρό / βλέπω φίλους / βλέπω το πρόβλημα",
@@ -1495,7 +1495,7 @@
     },
     {
         "word": "ακούω",
-        "level": "starter",
+        "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "👂",
         "subtext": "ακούω νέα / ακούω κάποιον / ακούω έναν ήχο",
@@ -1516,7 +1516,7 @@
     },
     {
         "word": "ξυπνάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "subtext": "ξυπνάω νωρίς / ξυπνάω στις 7",
@@ -1537,7 +1537,7 @@
     },
     {
         "word": "βλέπω",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "emoji": "📺",
         "subtext": "βλέπω τηλεόραση / βλέπω ταινία",
@@ -1558,7 +1558,7 @@
     },
     {
         "word": "κοιτάζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "health_body",
         "emoji": "👀",
         "subtext": "κοιτάζω / ψάχνω για / φαίνομαι",
@@ -1579,7 +1579,7 @@
     },
     {
         "word": "παίζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
         "subtext": "παίζω ποδόσφαιρο / παίζω μουσική",
@@ -1600,7 +1600,7 @@
     },
     {
         "word": "τρέχω",
-        "level": "starter",
+        "level": "baby",
         "theme": "common_sports_A0",
         "emoji": "🏃",
         "subtext": "τρέχω στο πάρκο / διευθύνω μια επιχείρηση",
@@ -1621,7 +1621,7 @@
     },
     {
         "word": "κάθομαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "health_body",
         "emoji": "🪑",
         "subtext": "κάθομαι / κάθομαι κάτω",
@@ -1642,7 +1642,7 @@
     },
     {
         "word": "στέκομαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "health_body",
         "emoji": "🧍",
         "subtext": "στέκομαι όρθιος / αντέχω",
@@ -1663,7 +1663,7 @@
     },
     {
         "word": "συναντάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "society_politics",
         "emoji": "🤝",
         "subtext": "συναντάω κάποιον / γνωρίζω κόσμο",
@@ -1684,7 +1684,7 @@
     },
     {
         "word": "μαθαίνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "education_learning",
         "emoji": "📚",
         "subtext": "μαθαίνω αγγλικά / μαθαίνω πώς",
@@ -1705,7 +1705,7 @@
     },
     {
         "word": "αλλάζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "time",
         "emoji": "🔄",
         "subtext": "αλλάζω ρούχα / αλλάζω γνώμη / αλλάζω δουλειά",
@@ -1726,7 +1726,7 @@
     },
     {
         "word": "σταματάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "time",
         "emoji": "🛑",
         "subtext": "σταματάω να κάνω / σταματάω το αυτοκίνητο",
@@ -1747,7 +1747,7 @@
     },
     {
         "word": "προσθέτω",
-        "level": "starter",
+        "level": "baby",
         "theme": "numbers_math",
         "emoji": "➕",
         "subtext": "προσθέτω / προσθέτω πληροφορίες",
@@ -1768,7 +1768,7 @@
     },
     {
         "word": "νικάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "νικάω το παιχνίδι / κερδίζω χρήματα",
@@ -1788,7 +1788,7 @@
     },
     {
         "word": "περιμένω",
-        "level": "starter",
+        "level": "baby",
         "theme": "time",
         "emoji": "⏳",
         "subtext": "περιμένω το λεωφορείο / περιμένω για",
@@ -1809,7 +1809,7 @@
     },
     {
         "word": "πεθαίνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "health_body",
         "emoji": "⚰️",
         "subtext": "πεθαίνω",
@@ -1829,7 +1829,7 @@
     },
     {
         "word": "στέλνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "language_communication",
         "emoji": "✉️",
         "subtext": "στέλνω email / στέλνω μήνυμα",
@@ -1850,7 +1850,7 @@
     },
     {
         "word": "μένω",
-        "level": "starter",
+        "level": "baby",
         "theme": "places_geography",
         "emoji": "🏨",
         "subtext": "μένω στο σπίτι / μένω σε ξενοδοχείο",
@@ -1871,7 +1871,7 @@
     },
     {
         "word": "πέφτω",
-        "level": "starter",
+        "level": "baby",
         "theme": "environment_nature",
         "emoji": "🍂",
         "subtext": "πέφτω κάτω / πέφτω από",
@@ -1892,7 +1892,7 @@
     },
     {
         "word": "περνάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "education_learning",
         "emoji": "🏔️",
         "subtext": "περνάω το τεστ / περνάω τον χρόνο",
@@ -1913,7 +1913,7 @@
     },
     {
         "word": "πουλάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🏷️",
         "subtext": "πουλάω το αυτοκίνητο / πουλάω online",
@@ -1933,7 +1933,7 @@
     },
     {
         "word": "τραβάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "health_body",
         "emoji": "🚜",
         "subtext": "τραβάω / τραβάω τη φωτογραφία",
@@ -1953,7 +1953,7 @@
     },
     {
         "word": "σπρώχνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "health_body",
         "emoji": "🛒",
         "subtext": "σπρώχνω / πιέζω το κουμπί",
@@ -1974,7 +1974,7 @@
     },
     {
         "word": "κουβαλάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "health_body",
         "emoji": "🎒",
         "subtext": "κουβαλάω τσάντα / κουβαλάω το κουτί",
@@ -1995,7 +1995,7 @@
     },
     {
         "word": "σπάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "describing_things",
         "emoji": "💔",
         "subtext": "σπάω το γυαλί / σπάω το πόδι / κάνω διάλειμμα",
@@ -2016,7 +2016,7 @@
     },
     {
         "word": "λαμβάνω",
-        "level": "starter",
+        "level": "baby",
         "theme": "language_communication",
         "emoji": "📩",
         "subtext": "λαμβάνω email / λαμβάνω δώρο",
@@ -2037,7 +2037,7 @@
     },
     {
         "word": "συμφωνώ",
-        "level": "starter",
+        "level": "baby",
         "theme": "opinion_debate",
         "emoji": "👍",
         "subtext": "συμφωνώ με κάποιον / συμφωνώ να κάνω",
@@ -2058,7 +2058,7 @@
     },
     {
         "word": "ζωγραφίζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "culture_arts",
         "emoji": "🎨",
         "subtext": "ζωγραφίζω εικόνα / σχεδιάζω χάρτη",
@@ -2079,7 +2079,7 @@
     },
     {
         "word": "μοιράζομαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "society_politics",
         "emoji": "🍕",
         "subtext": "μοιράζομαι μια πίτσα / μοιράζομαι πληροφορίες",
@@ -2100,7 +2100,7 @@
     },
     {
         "word": "χαμογελάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "feelings_emotions",
         "emoji": "😊",
         "subtext": "χαμογελάω σε κάποιον",
@@ -2121,7 +2121,7 @@
     },
     {
         "word": "κλαίω",
-        "level": "starter",
+        "level": "baby",
         "theme": "feelings_emotions",
         "emoji": "😢",
         "subtext": "κλαίω",
@@ -2142,7 +2142,7 @@
     },
     {
         "word": "χορεύω",
-        "level": "starter",
+        "level": "baby",
         "theme": "culture_arts",
         "emoji": "💃",
         "subtext": "χορεύω στη μουσική",
@@ -2163,7 +2163,7 @@
     },
     {
         "word": "τραγουδάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "culture_arts",
         "emoji": "🎤",
         "subtext": "τραγουδάω ένα τραγούδι",
@@ -2184,7 +2184,7 @@
     },
     {
         "word": "πηδάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "health_body",
         "emoji": "🦘",
         "subtext": "πηδάω ψηλά",
@@ -2205,7 +2205,7 @@
     },
     {
         "word": "κολυμπάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "common_sports_A0",
         "emoji": "🏊",
         "subtext": "κολυμπάω στη θάλασσα / στην πισίνα",
@@ -2226,7 +2226,7 @@
     },
     {
         "word": "μελετάω",
-        "level": "starter",
+        "level": "baby",
         "theme": "education_learning",
         "emoji": "📖",
         "subtext": "μελετάω για το τεστ / διαβάζω βιβλίο",
@@ -2247,7 +2247,7 @@
     },
     {
         "word": "διδάσκω",
-        "level": "starter",
+        "level": "baby",
         "theme": "education_learning",
         "emoji": "👨‍🏫",
         "subtext": "διδάσκω αγγλικά / διδάσκω κάποιον",
@@ -2268,7 +2268,7 @@
     },
     {
         "word": "μετακινούμαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "μετακινούμαι στη δουλειά",
@@ -2288,7 +2288,7 @@
     },
     {
         "word": "νοικιάζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
         "subtext": "νοικιάζω διαμέρισμα / νοικιάζω αυτοκίνητο",
@@ -2308,7 +2308,7 @@
     },
     {
         "word": "γυμνάζομαι",
-        "level": "starter",
+        "level": "baby",
         "theme": "leisure_activities_A1",
         "emoji": "🏋️",
         "subtext": "γυμνάζομαι στο γυμναστήριο",
@@ -2328,7 +2328,7 @@
     },
     {
         "word": "κοστίζω",
-        "level": "starter",
+        "level": "baby",
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "κοστίζει πολύ / πόσο κοστίζει",
@@ -2348,7 +2348,7 @@
     },
     {
         "word": "προσκαλώ",
-        "level": "starter",
+        "level": "baby",
         "theme": "family_life_A1",
         "emoji": "✉️",
         "subtext": "προσκαλώ σε πάρτι / σε δείπνο",

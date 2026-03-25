@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "Александр Пушкин",
-        "level": "starter",
+        "level": "baby",
         "theme": "identity_self_C1"
     }
 ];
