@@ -49,15 +49,13 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A0",
         "emoji": "🌡️",
-        "subtext": "feel tired / feel better / feel well / feel stressed",
+        "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
         "definitions": [
             {
-                "text": "To experience an emotion or physical sensation.",
+                "text": "To experience a physical or emotional state.",
                 "examples": [
-                    "I feel tired.",
-                    "She feels stressed.",
-                    "He feels better."
+                    "She feels exhausted after a long week of meetings."
                 ]
             }
         ],
@@ -269,16 +267,16 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "start work / start a meeting / start a new job / start early",
+        "subtext": "start work / start a meeting / start a new job",
         "opposite": "finish",
         "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
-                "text": "To begin doing something.",
+                "text": "To begin an activity or period.",
                 "examples": [
                     "I start work at eight thirty.",
-                    "She starts a new job."
+                    "She starts a new role next month."
                 ]
             }
         ],
@@ -298,10 +296,10 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To complete something; to come to an end.",
+                "text": "To complete something.",
                 "examples": [
                     "He finishes work at five.",
-                    "She finishes the report."
+                    "She finishes the report by noon."
                 ]
             }
         ],
@@ -313,16 +311,15 @@
     {
         "word": "help",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "daily_work_routines_A1",
         "emoji": "🤝",
-        "subtext": "help someone / help with / ask for help / help out",
+        "subtext": "help someone / help with a task / ask for help",
         "form": "verb",
         "definitions": [
             {
-                "text": "To assist someone.",
+                "text": "To assist someone with something.",
                 "examples": [
-                    "He helps his colleagues.",
-                    "Can you help me?"
+                    "He helps new colleagues understand the systems."
                 ]
             }
         ],
@@ -340,10 +337,9 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To make an effort; to attempt something.",
+                "text": "To attempt to do something; to test something.",
                 "examples": [
-                    "I always try my best at work.",
-                    "Try the coffee here."
+                    "I always try to reply to all messages within an hour."
                 ]
             }
         ],
@@ -355,16 +351,15 @@
     {
         "word": "show",
         "level": "starter",
-        "theme": "asking_answering_questions_A0",
+        "theme": "daily_work_routines_A1",
         "emoji": "📽️",
-        "subtext": "show someone / show how / show a document / show interest",
+        "subtext": "show someone how / show a document / show interest",
         "form": "verb",
         "definitions": [
             {
-                "text": "To let someone see something; to explain.",
+                "text": "To let someone see or demonstrate something.",
                 "examples": [
-                    "She shows me the map.",
-                    "He shows his work."
+                    "Can you show me how the system works?"
                 ]
             }
         ],
@@ -526,16 +521,15 @@
     {
         "word": "tell",
         "level": "starter",
-        "theme": "asking_answering_questions_A0",
+        "theme": "daily_work_routines_A1",
         "emoji": "🗣️",
-        "subtext": "tell the truth / tell someone / tell a story / tell lies",
+        "subtext": "tell the truth / tell someone / tell a story / tell someone about",
         "form": "verb",
         "definitions": [
             {
-                "text": "To give information to someone.",
+                "text": "To give information or instructions to someone.",
                 "examples": [
-                    "He tells the truth.",
-                    "She tells me about her day."
+                    "She tells the team about changes before they happen."
                 ]
             }
         ],
@@ -547,16 +541,15 @@
     {
         "word": "ask",
         "level": "starter",
-        "theme": "asking_answering_questions_A0",
+        "theme": "daily_work_routines_A1",
         "emoji": "❓",
-        "subtext": "ask a question / ask for help / ask someone / ask about",
+        "subtext": "ask a question / ask for help / ask about / ask someone",
         "form": "verb",
         "definitions": [
             {
-                "text": "To put a question to someone; to request something.",
+                "text": "To put a question or make a request.",
                 "examples": [
-                    "She asks a lot of questions.",
-                    "I ask my boss for advice."
+                    "She asks for feedback after every presentation."
                 ]
             }
         ],
@@ -610,16 +603,15 @@
     {
         "word": "call",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "daily_work_routines_A1",
         "emoji": "📞",
-        "subtext": "call someone / call a meeting / call back / call in sick",
+        "subtext": "call someone / call back / call a meeting / call in sick",
         "form": "verb",
         "definitions": [
             {
                 "text": "To telephone someone.",
                 "examples": [
-                    "I call my boss every morning.",
-                    "She calls a meeting."
+                    "I call my clients every morning before checking emails."
                 ]
             }
         ],
@@ -847,16 +839,15 @@
     {
         "word": "arrive",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A0",
+        "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "subtext": "arrive at work / arrive late / arrive on time",
         "form": "verb",
         "definitions": [
             {
                 "text": "To reach a destination.",
                 "examples": [
-                    "He arrives at the office at nine.",
-                    "The train arrives late."
+                    "He arrives at the office every day at nine."
                 ]
             }
         ],
@@ -868,16 +859,16 @@
     {
         "word": "leave",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A0",
+        "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "leave home / leave work / leave early / leave late",
         "form": "verb",
         "definitions": [
             {
-                "text": "To go away from a place.",
+                "text": "To go away from a place or person.",
                 "examples": [
-                    "I leave home at eight.",
-                    "She left the company last year."
+                    "I leave home at eight fifteen.",
+                    "She left work early."
                 ]
             }
         ],
@@ -891,14 +882,13 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "move house / move to a city / move on / move forward",
+        "subtext": "move to a new place / move in / move out / move house",
         "form": "verb",
         "definitions": [
             {
-                "text": "To change position or place of living.",
+                "text": "To go to live or work in a different place.",
                 "examples": [
-                    "They moved to a new flat.",
-                    "She moves to a different team."
+                    "They moved to a larger flat when they had children."
                 ]
             }
         ],
@@ -937,10 +927,9 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To go from one place to another, often far.",
+                "text": "To go from one place to another.",
                 "examples": [
-                    "She travels for work once a month.",
-                    "He loves to travel."
+                    "She travels for work three times a month."
                 ]
             }
         ],
@@ -1023,14 +1012,13 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
-        "subtext": "cook dinner / cook a meal / cook at home",
+        "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
         "form": "verb",
         "definitions": [
             {
                 "text": "To prepare food using heat.",
                 "examples": [
-                    "She cooks dinner every evening.",
-                    "He cooks for the team."
+                    "She cooks dinner every evening to save money."
                 ]
             }
         ],
@@ -1044,14 +1032,13 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
-        "subtext": "clean the flat / clean up / clean the kitchen",
+        "subtext": "clean the flat / clean the kitchen / clean up after work",
         "form": "verb",
         "definitions": [
             {
                 "text": "To remove dirt from something.",
                 "examples": [
-                    "I clean the flat on Saturdays.",
-                    "He cleans his desk daily."
+                    "I clean the flat every Saturday morning."
                 ]
             }
         ],
@@ -1130,14 +1117,13 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
-        "subtext": "pay the rent / pay by card / pay cash / pay a bill",
+        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
         "form": "verb",
         "definitions": [
             {
-                "text": "To give money for something.",
+                "text": "To give money for goods or a service.",
                 "examples": [
-                    "I pay the rent every month.",
-                    "He pays by card."
+                    "I pay my rent by bank transfer on the first of the month."
                 ]
             }
         ],
@@ -1151,14 +1137,13 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
-        "subtext": "spend money / spend time / spend on rent",
+        "subtext": "spend money / spend on food / spend on rent / spend time",
         "form": "verb",
         "definitions": [
             {
                 "text": "To use money or time.",
                 "examples": [
-                    "He spends too much on takeaway.",
-                    "She spends time commuting."
+                    "He spends too much money on takeaway food every week."
                 ]
             }
         ],
@@ -1171,8 +1156,8 @@
         "word": "save",
         "level": "starter",
         "theme": "money_payment_A1",
-        "emoji": "💰",
-        "subtext": "save money / save for a house / save time",
+        "emoji": "🏦",
+        "subtext": "save money / save for a holiday / save for a house",
         "opposite": "spend",
         "oppositeEmoji": "💸",
         "form": "verb",
@@ -1180,8 +1165,7 @@
             {
                 "text": "To keep money rather than spending it.",
                 "examples": [
-                    "She saves a hundred euros a month.",
-                    "Save your work."
+                    "She saves a hundred euros every month for a holiday."
                 ]
             }
         ],
@@ -1493,7 +1477,7 @@
     {
         "word": "enjoy",
         "level": "starter",
-        "theme": "basic_positive_emotions_A0",
+        "theme": "leisure_activities_A1",
         "emoji": "😊",
         "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
         "form": "verb",
@@ -1501,8 +1485,7 @@
             {
                 "text": "To take pleasure from something.",
                 "examples": [
-                    "He enjoys working from home.",
-                    "She enjoys her new role."
+                    "She really enjoys working from home three days a week."
                 ]
             }
         ],
@@ -1559,15 +1542,15 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
-        "subtext": "wake up early, wake up at 7am",
+        "subtext": "wake up early / wake up tired / wake up on time",
         "opposite": "sleep",
         "oppositeEmoji": "😴",
         "definitions": [
             {
-                "text": "To stop sleeping and open your eyes.",
+                "text": "To stop sleeping; to become conscious.",
                 "examples": [
-                    "I wake up at seven o'clock.",
-                    "What time do you wake up?"
+                    "I wake up at six thirty.",
+                    "She wakes up early for work."
                 ]
             }
         ],
@@ -1582,13 +1565,12 @@
         "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
-        "subtext": "watch TV, watch a movie",
+        "subtext": "watch TV / watch a film / watch the news / watch closely",
         "definitions": [
             {
                 "text": "To look at something for a period of time.",
                 "examples": [
-                    "I watch TV in the evening.",
-                    "They watch the birds."
+                    "She watches the market news every morning before work."
                 ]
             }
         ],
@@ -1625,17 +1607,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To do something for fun or in a game.",
+                "text": "To take part in a game or sport; to produce music.",
                 "examples": [
-                    "I play football with my friends.",
-                    "She likes to play video games."
+                    "He plays football at the weekend to de-stress."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "played",
-        "v3": "played"
+        "v3": "played",
+        "subtext": "play sport / play a game / play music / play a role"
     },
     {
         "word": "run",
@@ -1667,17 +1649,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To rest your weight on your bottom rather than your feet.",
+                "text": "To be in or take a seated position.",
                 "examples": [
-                    "Please sit down.",
-                    "I sit on a chair."
+                    "He sits at his desk for eight hours a day."
                 ]
             }
         ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "sat",
-        "v3": "sat"
+        "v3": "sat",
+        "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly"
     },
     {
         "word": "stand",
@@ -1689,37 +1671,37 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To be on your feet in an upright position.",
+                "text": "To be in or rise to an upright position.",
                 "examples": [
-                    "Please stand up.",
-                    "She is standing near the door."
+                    "She stands when she presents to keep her energy up."
                 ]
             }
         ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "stood",
-        "v3": "stood"
+        "v3": "stood",
+        "subtext": "stand up / stand in a queue / stand by / stand out"
     },
     {
         "word": "meet",
         "level": "starter",
-        "theme": "society_politics",
+        "theme": "daily_work_routines_A1",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
             {
-                "text": "To see and talk to someone for the first time.",
+                "text": "To come together with someone by arrangement.",
                 "examples": [
-                    "Nice to meet you.",
-                    "We meet every Friday."
+                    "We meet every Monday to discuss the week's work."
                 ]
             }
         ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "met",
-        "v3": "met"
+        "v3": "met",
+        "subtext": "meet a client / meet a colleague / meet for lunch"
     },
     {
         "word": "learn",
@@ -1729,17 +1711,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To get knowledge or a skill.",
+                "text": "To gain knowledge or skill.",
                 "examples": [
-                    "I want to learn English.",
-                    "Children learn fast."
+                    "She is learning Spanish for her new job abroad."
                 ]
             }
         ],
         "classification": "both",
         "aspect": "action",
         "v2": "learned / learnt",
-        "v3": "learned / learnt"
+        "v3": "learned / learnt",
+        "subtext": "learn a language / learn a skill / learn from / learn how to"
     },
     {
         "word": "change",
@@ -1749,17 +1731,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To make something different.",
+                "text": "To become different; to make something different.",
                 "examples": [
-                    "I want to change my clothes.",
-                    "The weather changes quickly."
+                    "She changed jobs twice in three years. Things change fast."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "changed",
-        "v3": "changed"
+        "v3": "changed",
+        "subtext": "change jobs / change your mind / change the plan / change something"
     },
     {
         "word": "stop",
@@ -1769,17 +1751,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To finish doing something or to not move anymore.",
+                "text": "To end an activity or movement.",
                 "examples": [
-                    "Stop the car.",
-                    "Please stop talking."
+                    "She stopped taking the bus and cycles to work now."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "stopped",
-        "v3": "stopped"
+        "v3": "stopped",
+        "subtext": "stop doing / stop working / stop a habit / stop someone"
     },
     {
         "word": "add",
@@ -1832,15 +1814,15 @@
             {
                 "text": "To stay in a place until something happens.",
                 "examples": [
-                    "Wait for the bus here.",
-                    "I am waiting for my friend."
+                    "He waited twenty minutes for the meeting to start."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "waited",
-        "v3": "waited"
+        "v3": "waited",
+        "subtext": "wait for someone / wait in a queue / wait a moment"
     },
     {
         "word": "die",
@@ -1866,22 +1848,22 @@
     {
         "word": "send",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "daily_work_routines_A1",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
             {
-                "text": "To cause something to go to a place.",
+                "text": "To transmit a message or file electronically.",
                 "examples": [
-                    "I send an email every morning.",
-                    "Can you send me a photo?"
+                    "She sends twenty emails before lunch every day."
                 ]
             }
         ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "sent",
-        "v3": "sent"
+        "v3": "sent",
+        "subtext": "send an email / send a message / send a report"
     },
     {
         "word": "stay",
@@ -2015,17 +1997,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To hold something and move it from one place to another.",
+                "text": "To hold and take something with you.",
                 "examples": [
-                    "I carry my bag to school.",
-                    "Can you help me carry this box?"
+                    "I carry my laptop and notes to every meeting."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "carried",
-        "v3": "carried"
+        "v3": "carried",
+        "subtext": "carry a bag / carry notes / carry out / carry on"
     },
     {
         "word": "break",
@@ -2259,17 +2241,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To spend time learning about a subject.",
+                "text": "To read and practise to gain knowledge.",
                 "examples": [
-                    "I study English at school.",
-                    "He is studying for his exams."
+                    "He is studying for a professional qualification."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "studied",
-        "v3": "studied"
+        "v3": "studied",
+        "subtext": "study English / study for an exam / study hard / self-study"
     },
     {
         "word": "teach",
@@ -2279,17 +2261,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To give knowledge to others.",
+                "text": "To give instruction in a subject.",
                 "examples": [
-                    "I teach English.",
-                    "She teaches at a university."
+                    "She teaches communication skills to senior managers."
                 ]
             }
         ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "taught",
-        "v3": "taught"
+        "v3": "taught",
+        "subtext": "teach someone / teach a subject / teach how to / teach a class"
     },
     {
         "word": "commute",
@@ -2318,16 +2300,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To pay money to use a house or flat that belongs to someone else.",
+                "text": "To pay money to use property belonging to someone else.",
                 "examples": [
-                    "We rent a flat in the city."
+                    "They rent a two-bedroom flat near the city centre."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "rented",
-        "v3": "rented"
+        "v3": "rented",
+        "subtext": "rent a flat / rent a property / rent out a room"
     },
     {
         "word": "exercise",
@@ -2337,16 +2320,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To do physical activity to stay healthy.",
+                "text": "To do physical activity for health and fitness.",
                 "examples": [
-                    "I exercise every morning."
+                    "He exercises four times a week to manage work stress."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "exercised",
-        "v3": "exercised"
+        "v3": "exercised",
+        "subtext": "exercise regularly / exercise at the gym / exercise outdoors"
     },
     {
         "word": "cost",
@@ -2356,16 +2340,17 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To have a certain price.",
+                "text": "To have a price of a particular amount.",
                 "examples": [
-                    "The flat costs a lot."
+                    "The flat costs twelve hundred euros a month."
                 ]
             }
         ],
         "classification": "irregular",
         "aspect": "stative",
         "v2": "cost",
-        "v3": "cost"
+        "v3": "cost",
+        "subtext": "cost a lot / cost too much / cost less / how much does it cost"
     },
     {
         "word": "invite",
@@ -2375,16 +2360,717 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To ask someone to come to a place or event.",
+                "text": "To ask someone to come to an event or place.",
                 "examples": [
-                    "I invite friends for dinner."
+                    "She invited all her colleagues to the leaving party."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "v2": "invited",
-        "v3": "invited"
+        "v3": "invited",
+        "subtext": "invite someone / invite to dinner / invite to a party"
+    },
+    {
+        "word": "get up",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🌅",
+        "subtext": "get up early / get up late / get up quickly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To rise from bed after waking.",
+                "examples": [
+                    "He gets up at seven and showers immediately."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v2": "got up",
+        "v3": "got up / gotten up",
+        "aspect": "action"
+    },
+    {
+        "word": "check",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✅",
+        "subtext": "check emails / check messages / check a document",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To examine or verify something.",
+                "examples": [
+                    "I check my emails first thing every morning."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "checked",
+        "v3": "checked"
+    },
+    {
+        "word": "reply",
+        "level": "starter",
+        "theme": "asking_answering_questions_A0",
+        "emoji": "📨",
+        "subtext": "reply to an email / reply quickly / reply to a message",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To respond to a message.",
+                "examples": [
+                    "He always replies to emails the same day."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "replied",
+        "v3": "replied"
+    },
+    {
+        "word": "attend",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👥",
+        "subtext": "attend a meeting / attend a course / attend an event",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go to a meeting or event.",
+                "examples": [
+                    "She attends the management meeting every Monday."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "attended",
+        "v3": "attended"
+    },
+    {
+        "word": "manage",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👔",
+        "subtext": "manage a team / manage a project / manage your time",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be in charge of people or a situation.",
+                "examples": [
+                    "She manages a team of twelve people in the sales office."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "managed",
+        "v3": "managed"
+    },
+    {
+        "word": "order",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📦",
+        "subtext": "order food / order a drink / order online / order supplies",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To request something formally, especially food or goods.",
+                "examples": [
+                    "I always order lunch from the same place near the office."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "ordered",
+        "v3": "ordered"
+    },
+    {
+        "word": "visit",
+        "level": "starter",
+        "theme": "local_places_services_A0",
+        "emoji": "🏠",
+        "subtext": "visit a client / visit a city / visit family / visit regularly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go to see a person or place.",
+                "examples": [
+                    "She visits clients in different cities every week."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "visited",
+        "v3": "visited"
+    },
+    {
+        "word": "explain",
+        "level": "starter",
+        "theme": "asking_answering_questions_A0",
+        "emoji": "👨‍🏫",
+        "form": "verb",
+        "subtext": "explain a process / explain clearly / explain to someone",
+        "definitions": [
+            {
+                "text": "To make something clear by giving details.",
+                "examples": [
+                    "He always explains the process to new team members."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "explained",
+        "v3": "explained"
+    },
+    {
+        "word": "thank",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A0",
+        "emoji": "🙏",
+        "subtext": "thank someone / thank you for / many thanks",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To express gratitude to someone.",
+                "examples": [
+                    "He thanked the team for their hard work on the project."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "thanked",
+        "v3": "thanked"
+    },
+    {
+        "word": "introduce",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A0",
+        "emoji": "🤝",
+        "subtext": "introduce yourself / introduce someone / introduce a topic",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To present someone to another person.",
+                "examples": [
+                    "She introduced herself at the start of the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "introduced",
+        "v3": "introduced"
+    },
+    {
+        "word": "recommend",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👍",
+        "subtext": "recommend a person / recommend a place / highly recommend",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To suggest something as good or suitable.",
+                "examples": [
+                    "Can you recommend a good accountant?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "recommended",
+        "v3": "recommended"
+    },
+    {
+        "word": "earn",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💸",
+        "subtext": "earn a salary / earn money / earn more / earn enough",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To receive money for work you do.",
+                "examples": [
+                    "He earns a good salary as a senior developer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "earned",
+        "v3": "earned"
+    },
+    {
+        "word": "afford",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "verb",
+        "subtext": "afford a house / afford to travel / can't afford it",
+        "definitions": [
+            {
+                "text": "To have enough money for something.",
+                "examples": [
+                    "They cannot afford to buy a flat in the city centre."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "afforded",
+        "v3": "afforded"
+    },
+    {
+        "word": "charge",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💳",
+        "subtext": "charge a fee / charge extra / charge for a service",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To ask a sum of money for a service.",
+                "examples": [
+                    "The mechanic charged three hundred euros for the repair."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "charged",
+        "v3": "charged"
+    },
+    {
+        "word": "book",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "📖",
+        "subtext": "book a hotel / book a flight / book a table / book in advance",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To reserve a place, ticket or service in advance.",
+                "examples": [
+                    "I always book restaurants online before going."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "booked",
+        "v3": "booked"
+    },
+    {
+        "word": "pack",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "🎒",
+        "subtext": "pack a bag / pack a suitcase / pack lightly",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put items into a bag or case for a trip.",
+                "examples": [
+                    "He packs his bag the night before every business trip."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "packed",
+        "v3": "packed"
+    },
+    {
+        "word": "cancel",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "❌",
+        "subtext": "cancel a flight / cancel a booking / cancel a meeting",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To decide that something planned will not happen.",
+                "examples": [
+                    "She had to cancel the client meeting due to illness."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cancelled",
+        "v3": "cancelled"
+    },
+    {
+        "word": "miss",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "🚂",
+        "subtext": "miss a train / miss a flight / miss a meeting / miss someone",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To fail to catch transport; to feel sad about absence.",
+                "examples": [
+                    "He missed his train and was late for the interview."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "missed",
+        "v3": "missed"
+    },
+    {
+        "word": "relax",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🛀",
+        "subtext": "relax at home / relax after work / relax on holiday",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stop working and rest; to become less tense.",
+                "examples": [
+                    "I relax at the weekend and never check emails."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "relaxed",
+        "v3": "relaxed"
+    },
+    {
+        "word": "hurt",
+        "level": "starter",
+        "theme": "body_parts_A0",
+        "emoji": "🤕",
+        "subtext": "hurt your back / hurt someone / it hurts / get hurt",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To cause pain; or to be in pain.",
+                "examples": [
+                    "My back hurts after sitting at a desk all day."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v2": "hurt",
+        "v3": "hurt",
+        "aspect": "both"
+    },
+    {
+        "word": "rest",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🛌",
+        "subtext": "rest at home / rest after work / need rest / get some rest",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To stop working in order to recover energy.",
+                "examples": [
+                    "He rests for an hour every afternoon after lunch."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "rested",
+        "v3": "rested"
+    },
+    {
+        "word": "recover",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "💪",
+        "subtext": "recover from illness / recover quickly / recover fully",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To return to good health after illness.",
+                "examples": [
+                    "She is recovering from surgery and working part-time."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "recovered",
+        "v3": "recovered"
+    },
+    {
+        "word": "repair",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🛠️",
+        "subtext": "repair something / get repaired / repair costs",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To fix something that is broken.",
+                "examples": [
+                    "The landlord is slow to repair things in the flat."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "repaired",
+        "v3": "repaired"
+    },
+    {
+        "word": "celebrate",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "🎉",
+        "subtext": "celebrate a birthday / celebrate success / celebrate together",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To do something enjoyable for a special occasion.",
+                "examples": [
+                    "They celebrate every work anniversary as a team."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "celebrated",
+        "v3": "celebrated"
+    },
+    {
+        "word": "happen",
+        "level": "starter",
+        "theme": "asking_answering_questions_A0",
+        "emoji": "⚡",
+        "form": "verb",
+        "subtext": "what happened / happen to someone / it happens / happen again",
+        "definitions": [
+            {
+                "text": "To take place; to occur.",
+                "examples": [
+                    "What happened at the meeting? Something went wrong."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "happened",
+        "v3": "happened"
+    },
+    {
+        "word": "seem",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🤔",
+        "form": "verb",
+        "subtext": "seem fine / seem worried / seem happy / seem like",
+        "definitions": [
+            {
+                "text": "To appear to be something; to give an impression.",
+                "examples": [
+                    "She seems very confident in client meetings."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "seemed",
+        "v3": "seemed"
+    },
+    {
+        "word": "mean",
+        "level": "starter",
+        "theme": "asking_answering_questions_A0",
+        "emoji": "🗨️",
+        "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have a particular meaning; to intend.",
+                "examples": [
+                    "What does this clause in the contract mean?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v2": "meant",
+        "v3": "meant",
+        "aspect": "stative"
+    },
+    {
+        "word": "follow",
+        "level": "starter",
+        "theme": "directions_navigation_A1",
+        "emoji": "👣",
+        "form": "verb",
+        "subtext": "follow instructions / follow someone / follow the news / follow up",
+        "definitions": [
+            {
+                "text": "To come after; to obey rules or instructions.",
+                "examples": [
+                    "Please follow the instructions carefully. He follows the news."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "followed",
+        "v3": "followed"
+    },
+    {
+        "word": "continue",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "➡️",
+        "form": "verb",
+        "subtext": "continue working / continue to do / continue with / continue a task",
+        "definitions": [
+            {
+                "text": "To keep doing something without stopping.",
+                "examples": [
+                    "He continued working after six despite feeling ill."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "continued",
+        "v3": "continued"
+    },
+    {
+        "word": "grow",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌱",
+        "form": "verb",
+        "subtext": "grow a business / grow quickly / grow by / grow into",
+        "definitions": [
+            {
+                "text": "To increase in size or amount; to develop.",
+                "examples": [
+                    "The company grew by twenty percent last year."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "grew",
+        "v3": "grown"
+    },
+    {
+        "word": "include",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "➕",
+        "form": "verb",
+        "subtext": "include something / include in / not included / price includes",
+        "definitions": [
+            {
+                "text": "To make something part of a whole.",
+                "examples": [
+                    "The price includes breakfast and evening meals."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "included",
+        "v3": "included"
+    },
+    {
+        "word": "become",
+        "level": "starter",
+        "theme": "relationships_dating_A2",
+        "emoji": "🦋",
+        "form": "verb",
+        "subtext": "become a manager / become popular / become clear / become important",
+        "definitions": [
+            {
+                "text": "To start to be something.",
+                "examples": [
+                    "She became a manager after just two years in the role."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "became",
+        "v3": "become"
+    },
+    {
+        "word": "belong",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏠",
+        "subtext": "belong to someone / belong in / feel like you belong",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be the property of someone; to be a member.",
+                "examples": [
+                    "That account belongs to the finance department."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "belonged",
+        "v3": "belonged"
+    },
+    {
+        "word": "choose",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "👈",
+        "subtext": "choose between / choose to do / choose carefully / choose a career",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To select from options.",
+                "examples": [
+                    "He chose to work part-time to spend more time with family."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "v2": "chose",
+        "v3": "chosen",
+        "aspect": "action"
+    },
+    {
+        "word": "build",
+        "level": "starter",
+        "theme": "home_repairs_maintenance_A2",
+        "emoji": "🏗️",
+        "form": "verb",
+        "subtext": "build a career / build a team / build experience / build trust",
+        "definitions": [
+            {
+                "text": "To construct something; to develop something over time.",
+                "examples": [
+                    "She built a strong reputation over ten years."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "built",
+        "v3": "built"
     }
 ];
     const lang = "en";

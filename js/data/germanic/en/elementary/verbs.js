@@ -41,46 +41,6 @@
         "v3": "showered"
     },
     {
-        "word": "seem",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "emoji": "🤔",
-        "form": "verb",
-        "subtext": "seem happy, seem like a good idea",
-        "definitions": [
-            {
-                "text": "To give the impression of being something.",
-                "examples": [
-                    "You seem tired today."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "seemed",
-        "v3": "seemed"
-    },
-    {
-        "word": "become",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "emoji": "🦋",
-        "form": "verb",
-        "subtext": "become a doctor, become famous",
-        "definitions": [
-            {
-                "text": "To begin to be something.",
-                "examples": [
-                    "He wants to become a pilot."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "became",
-        "v3": "become"
-    },
-    {
         "word": "believe",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -99,66 +59,6 @@
         "aspect": "stative",
         "v2": "believed",
         "v3": "believed"
-    },
-    {
-        "word": "happen",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
-        "emoji": "⚡",
-        "form": "verb",
-        "subtext": "happen suddenly, what happened?",
-        "definitions": [
-            {
-                "text": "To take place; to occur.",
-                "examples": [
-                    "The accident happened yesterday."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "happened",
-        "v3": "happened"
-    },
-    {
-        "word": "include",
-        "level": "elementary",
-        "theme": "daily_work_routines_A1",
-        "emoji": "➕",
-        "form": "verb",
-        "subtext": "include everything, price includes tax",
-        "definitions": [
-            {
-                "text": "To contain something as part of a whole.",
-                "examples": [
-                    "The breakfast is included in the price."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "included",
-        "v3": "included"
-    },
-    {
-        "word": "continue",
-        "level": "elementary",
-        "theme": "daily_work_routines_A1",
-        "emoji": "➡️",
-        "form": "verb",
-        "subtext": "continue working, continue to do something",
-        "definitions": [
-            {
-                "text": "To keep doing something without stopping.",
-                "examples": [
-                    "Please continue reading."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "continued",
-        "v3": "continued"
     },
     {
         "word": "set",
@@ -201,26 +101,6 @@
         "v3": "led"
     },
     {
-        "word": "follow",
-        "level": "elementary",
-        "theme": "directions_navigation_A1",
-        "emoji": "👣",
-        "form": "verb",
-        "subtext": "follow the rules, follow someone",
-        "definitions": [
-            {
-                "text": "To go behind someone or obey something.",
-                "examples": [
-                    "Please follow me to the meeting room."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "followed",
-        "v3": "followed"
-    },
-    {
         "word": "create",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -259,26 +139,6 @@
         "aspect": "action",
         "v2": "allowed",
         "v3": "allowed"
-    },
-    {
-        "word": "grow",
-        "level": "elementary",
-        "theme": "environmental_protection_A2",
-        "emoji": "🌱",
-        "form": "verb",
-        "subtext": "grow plants, grow up",
-        "definitions": [
-            {
-                "text": "To increase in size or develop.",
-                "examples": [
-                    "Children grow very fast."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "grew",
-        "v3": "grown"
     },
     {
         "word": "offer",
@@ -379,26 +239,6 @@
         "aspect": "stative",
         "v2": "expected",
         "v3": "expected"
-    },
-    {
-        "word": "build",
-        "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
-        "emoji": "🏗️",
-        "form": "verb",
-        "subtext": "build a house, build a relationship",
-        "definitions": [
-            {
-                "text": "To make something by putting parts together.",
-                "examples": [
-                    "They are building a new office block."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "built",
-        "v3": "built"
     },
     {
         "word": "reach",
@@ -541,26 +381,6 @@
         "v3": "reported"
     },
     {
-        "word": "explain",
-        "level": "elementary",
-        "theme": "career_development_A2",
-        "emoji": "👨‍🏫",
-        "form": "verb",
-        "subtext": "explain the rules, explain why",
-        "definitions": [
-            {
-                "text": "To make something clear by giving details.",
-                "examples": [
-                    "Can you explain this word to me?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "explained",
-        "v3": "explained"
-    },
-    {
         "word": "develop",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -659,26 +479,6 @@
         "aspect": "action",
         "v2": "retired",
         "v3": "retired"
-    },
-    {
-        "word": "afford",
-        "level": "elementary",
-        "theme": "finances_A2",
-        "emoji": "💰",
-        "form": "verb",
-        "subtext": "can't afford, afford a house",
-        "definitions": [
-            {
-                "text": "To have enough money to pay for something.",
-                "examples": [
-                    "We can't afford a bigger flat."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "afforded",
-        "v3": "afforded"
     },
     {
         "word": "argue",
