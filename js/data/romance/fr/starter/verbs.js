@@ -3,7 +3,7 @@
     {
         "word": "être",
         "level": "starter",
-        "theme": "personal_identity",
+        "theme": "name_greeting_A0",
         "emoji": "👤",
         "subtext": "être fatigué / être heureux / être au travail / être prêt",
         "form": "verb",
@@ -11,7 +11,9 @@
             {
                 "text": "Exister ; avoir une qualité ou un état.",
                 "examples": [
-                    "Je suis fatigué. Elle est médecin. Nous sommes en retard."
+                    "Je suis fatigué.",
+                    "Elle est médecin.",
+                    "Nous sommes en retard."
                 ]
             }
         ],
@@ -23,7 +25,7 @@
     {
         "word": "avoir",
         "level": "starter",
-        "theme": "personal_identity",
+        "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "avoir un travail / avoir un problème / avoir le temps",
         "form": "verb",
@@ -31,7 +33,9 @@
             {
                 "text": "Posséder quelque chose ; éprouver quelque chose.",
                 "examples": [
-                    "J'ai un travail. Il a une voiture. Elle a mal à la tête."
+                    "J'ai un travail.",
+                    "Il a une voiture.",
+                    "Elle a mal à la tête."
                 ]
             }
         ],
@@ -51,7 +55,8 @@
             {
                 "text": "Effectuer une action ou une activité ; créer ou produire quelque chose.",
                 "examples": [
-                    "Je fais mon travail chaque jour. Elle fait les courses."
+                    "Je fais mon travail chaque jour.",
+                    "Elle fait les courses."
                 ]
             }
         ],
@@ -63,7 +68,7 @@
     {
         "word": "aller",
         "level": "starter",
-        "theme": "modes_of_transport_A0",
+        "theme": "travel_vocabulary_basics_A0",
         "emoji": "🚶",
         "subtext": "aller au travail / aller à la maison / sortir / faire du shopping",
         "form": "verb",
@@ -71,7 +76,8 @@
             {
                 "text": "Se déplacer d'un endroit à un autre.",
                 "examples": [
-                    "Je vais au travail en bus. Elle va chez le médecin."
+                    "Je vais au travail en bus.",
+                    "Elle va chez le médecin."
                 ]
             }
         ],
@@ -83,7 +89,7 @@
     {
         "word": "venir",
         "level": "starter",
-        "theme": "modes_of_transport_A0",
+        "theme": "travel_vocabulary_basics_A0",
         "emoji": "🏃‍♂️",
         "subtext": "venir à la maison / venir au travail / revenir / venir ici",
         "opposite": "aller",
@@ -93,7 +99,8 @@
             {
                 "text": "Se déplacer vers un lieu ou une personne.",
                 "examples": [
-                    "Il vient au bureau à neuf heures. Elle vient tard à la maison."
+                    "Il vient au bureau à neuf heures.",
+                    "Elle vient tard à la maison."
                 ]
             }
         ],
@@ -105,7 +112,7 @@
     {
         "word": "manger",
         "level": "starter",
-        "theme": "basic_foods_A0",
+        "theme": "meals_of_the_day_A0",
         "emoji": "🍎",
         "subtext": "manger le petit-déjeuner / manger le déjeuner / manger le dîner / manger dehors",
         "opposite": "boire",
@@ -115,7 +122,8 @@
             {
                 "text": "Mettre de la nourriture dans sa bouche et l'avaler.",
                 "examples": [
-                    "Nous mangeons le dîner à sept heures. Il mange le déjeuner à son bureau."
+                    "Nous mangeons le dîner à sept heures.",
+                    "Il mange le déjeuner à son bureau."
                 ]
             }
         ],
@@ -137,7 +145,8 @@
             {
                 "text": "Prendre un liquide dans sa bouche et l'avaler.",
                 "examples": [
-                    "Elle boit du café chaque matin. Je bois de l'eau."
+                    "Elle boit du café chaque matin.",
+                    "Je bois de l'eau."
                 ]
             }
         ],
@@ -149,7 +158,7 @@
     {
         "word": "dormir",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "times_day_A0",
         "emoji": "😴",
         "subtext": "bien dormir / mal dormir / dormir huit heures / dormir tard",
         "opposite": "se réveiller",
@@ -159,7 +168,8 @@
             {
                 "text": "Se reposer les yeux fermés dans un état naturel d'inconscience.",
                 "examples": [
-                    "Il dort sept heures par nuit. Je dors mal."
+                    "Il dort sept heures par nuit.",
+                    "Je dors mal."
                 ]
             }
         ],
@@ -179,7 +189,8 @@
             {
                 "text": "Faire un travail afin de gagner de l'argent.",
                 "examples": [
-                    "Elle travaille dans un hôpital. Je travaille à domicile."
+                    "Elle travaille dans un hôpital.",
+                    "Je travaille à domicile."
                 ]
             }
         ],
@@ -191,7 +202,7 @@
     {
         "word": "vivre",
         "level": "starter",
-        "theme": "personal_identity",
+        "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "vivre dans un appartement / vivre seul / vivre avec quelqu'un / vivre à l'étranger",
         "opposite": "mourir",
@@ -201,7 +212,8 @@
             {
                 "text": "Avoir son domicile dans un lieu ; être vivant.",
                 "examples": [
-                    "Il vit dans un appartement près du centre. Nous vivons ensemble."
+                    "Il vit dans un appartement près du centre.",
+                    "Nous vivons ensemble."
                 ]
             }
         ],
@@ -213,7 +225,7 @@
     {
         "word": "aimer",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_positive_emotions_A0",
         "emoji": "👍",
         "subtext": "aimer le travail / aimer voyager / aimer quelqu'un / aimer l'idée",
         "form": "verb",
@@ -221,7 +233,9 @@
             {
                 "text": "Trouver quelque chose d'agréable ; apprécier.",
                 "examples": [
-                    "J'aime mon travail. Elle aime cuisiner. Il aime le café."
+                    "J'aime mon travail.",
+                    "Elle aime cuisiner.",
+                    "Il aime le café."
                 ]
             }
         ],
@@ -233,7 +247,7 @@
     {
         "word": "vouloir",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_positive_emotions_A0",
         "emoji": "🙏",
         "subtext": "vouloir un travail / vouloir partir / vouloir plus d'argent / vouloir de l'aide",
         "form": "verb",
@@ -241,7 +255,9 @@
             {
                 "text": "Désirer ou souhaiter quelque chose.",
                 "examples": [
-                    "Je veux un café. Elle veut un meilleur travail. Il veut prendre sa retraite."
+                    "Je veux un café.",
+                    "Elle veut un meilleur travail.",
+                    "Il veut prendre sa retraite."
                 ]
             }
         ],
@@ -253,7 +269,7 @@
     {
         "word": "avoir besoin de",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_negative_emotions_A0",
         "emoji": "🆘",
         "subtext": "besoin d'aide / besoin de temps / besoin d'argent / besoin de se reposer",
         "form": "verb",
@@ -261,7 +277,9 @@
             {
                 "text": "Nécessiter quelque chose ; sentir que quelque chose est nécessaire.",
                 "examples": [
-                    "J'ai besoin d'une pause. Elle a besoin d'aide. Nous avons besoin de plus de temps."
+                    "J'ai besoin d'une pause.",
+                    "Elle a besoin d'aide.",
+                    "Nous avons besoin de plus de temps."
                 ]
             }
         ],
@@ -273,7 +291,7 @@
     {
         "word": "voir",
         "level": "starter",
-        "theme": "health_body",
+        "theme": "body_parts_A0",
         "emoji": "👁️",
         "subtext": "voir un médecin / voir des amis / voir le problème / voir clairement",
         "form": "verb",
@@ -281,7 +299,8 @@
             {
                 "text": "Remarquer ou percevoir avec les yeux.",
                 "examples": [
-                    "Je vois mon médecin demain. Elle voit le problème."
+                    "Je vois mon médecin demain.",
+                    "Elle voit le problème."
                 ]
             }
         ],
@@ -293,7 +312,7 @@
     {
         "word": "entendre",
         "level": "starter",
-        "theme": "health_body",
+        "theme": "body_parts_A0",
         "emoji": "👂",
         "subtext": "entendre des nouvelles / entendre quelqu'un / entendre un son / entendre clairement",
         "form": "verb",
@@ -301,7 +320,8 @@
             {
                 "text": "Percevoir un son par les oreilles.",
                 "examples": [
-                    "J'entends l'alarme chaque matin. Est-ce que tu m'entends ?"
+                    "J'entends l'alarme chaque matin.",
+                    "Est-ce que tu m'entends ?."
                 ]
             }
         ],
@@ -313,7 +333,7 @@
     {
         "word": "se sentir",
         "level": "starter",
-        "theme": "feelings_emotions",
+        "theme": "basic_positive_emotions_A0",
         "emoji": "🌡️",
         "subtext": "se sentir fatigué / se sentir mieux / se sentir bien / se sentir stressé",
         "form": "verb",
@@ -321,7 +341,9 @@
             {
                 "text": "Éprouver une émotion ou une sensation physique.",
                 "examples": [
-                    "Je me sens fatigué. Elle se sent stressée. Il se sent mieux."
+                    "Je me sens fatigué.",
+                    "Elle se sent stressée.",
+                    "Il se sent mieux."
                 ]
             }
         ],
@@ -333,7 +355,7 @@
     {
         "word": "savoir",
         "level": "starter",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "connaître quelqu'un / savoir la réponse / connaître un lieu / savoir comment faire",
         "form": "verb",
@@ -341,7 +363,9 @@
             {
                 "text": "Avoir des informations ou une conscience de quelque chose.",
                 "examples": [
-                    "Je sais son nom. Elle sait la réponse. Est-ce que tu le connais ?"
+                    "Je sais son nom.",
+                    "Elle sait la réponse.",
+                    "Est-ce que tu le connais ?."
                 ]
             }
         ],
@@ -353,7 +377,7 @@
     {
         "word": "penser",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "penser à / penser de / penser que / penser attentivement",
         "form": "verb",
@@ -361,7 +385,8 @@
             {
                 "text": "Avoir une croyance ou une opinion ; utiliser l'esprit.",
                 "examples": [
-                    "Je pense que c'est une bonne idée. Elle pense à son travail."
+                    "Je pense que c'est une bonne idée.",
+                    "Elle pense à son travail."
                 ]
             }
         ],
@@ -373,7 +398,7 @@
     {
         "word": "parler",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "greetings_social_phrases_A0",
         "emoji": "🗣️",
         "subtext": "parler à quelqu'un / parler français / parler clairement / parler lors d'une réunion",
         "form": "verb",
@@ -381,7 +406,8 @@
             {
                 "text": "Dire des mots ; communiquer verbalement.",
                 "examples": [
-                    "Il parle français. Elle parle à son manager chaque jour."
+                    "Il parle français.",
+                    "Elle parle à son manager chaque jour."
                 ]
             }
         ],
@@ -393,7 +419,7 @@
     {
         "word": "dire",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "greetings_social_phrases_A0",
         "emoji": "🗨️",
         "subtext": "dire bonjour / dire oui / dire non / dire quelque chose",
         "form": "verb",
@@ -401,7 +427,8 @@
             {
                 "text": "Exprimer quelque chose en paroles.",
                 "examples": [
-                    "Elle dit bonjour chaque matin. Il dit que c'est difficile."
+                    "Elle dit bonjour chaque matin.",
+                    "Il dit que c'est difficile."
                 ]
             }
         ],
@@ -413,7 +440,7 @@
     {
         "word": "demander",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "asking_answering_questions_A0",
         "emoji": "❓",
         "subtext": "poser une question / demander de l'aide / demander à quelqu'un / demander à propos de",
         "form": "verb",
@@ -421,7 +448,8 @@
             {
                 "text": "Poser une question à quelqu'un ; solliciter quelque chose.",
                 "examples": [
-                    "Elle demande beaucoup de questions. Je demande conseil à mon patron."
+                    "Elle demande beaucoup de questions.",
+                    "Je demande conseil à mon patron."
                 ]
             }
         ],
@@ -443,7 +471,8 @@
             {
                 "text": "Remettre ou transférer quelque chose à quelqu'un.",
                 "examples": [
-                    "Il me donne beaucoup de travail. Elle donne des conseils."
+                    "Il me donne beaucoup de travail.",
+                    "Elle donne des conseils."
                 ]
             }
         ],
@@ -465,7 +494,8 @@
             {
                 "text": "Tenir et déplacer quelque chose ; utiliser ou consommer.",
                 "examples": [
-                    "Je prends le bus pour aller au travail. Elle prend des médicaments."
+                    "Je prends le bus pour aller au travail.",
+                    "Elle prend des médicaments."
                 ]
             }
         ],
@@ -485,7 +515,9 @@
             {
                 "text": "Recevoir, obtenir ou devenir.",
                 "examples": [
-                    "J'obtiens un bon salaire. Il se fatigue rapidement. Elle obtient une promotion."
+                    "J'obtiens un bon salaire.",
+                    "Il se fatigue rapidement.",
+                    "Elle obtient une promotion."
                 ]
             }
         ],
@@ -497,7 +529,7 @@
     {
         "word": "payer",
         "level": "starter",
-        "theme": "everyday_shopping_A0",
+        "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "payer le loyer / payer par carte / payer en espèces / payer une facture",
         "form": "verb",
@@ -505,7 +537,8 @@
             {
                 "text": "Donner de l'argent pour quelque chose.",
                 "examples": [
-                    "Je paie le loyer chaque mois. Il paie par carte."
+                    "Je paie le loyer chaque mois.",
+                    "Il paie par carte."
                 ]
             }
         ],
@@ -527,7 +560,8 @@
             {
                 "text": "Obtenir quelque chose en échange d'argent.",
                 "examples": [
-                    "Elle achète de la nourriture en ligne. Il veut acheter un appartement."
+                    "Elle achète de la nourriture en ligne.",
+                    "Il veut acheter un appartement."
                 ]
             }
         ],
@@ -549,7 +583,8 @@
             {
                 "text": "Faire en sorte que quelque chose ne soit pas fermé ; ou commencer.",
                 "examples": [
-                    "Il ouvre le bureau à huit heures. Elle ouvre un compte bancaire."
+                    "Il ouvre le bureau à huit heures.",
+                    "Elle ouvre un compte bancaire."
                 ]
             }
         ],
@@ -571,7 +606,8 @@
             {
                 "text": "Faire en sorte que quelque chose ne soit pas ouvert ; ou finir.",
                 "examples": [
-                    "Le bureau ferme à six heures. Elle ferme son ordinateur portable."
+                    "Le bureau ferme à six heures.",
+                    "Elle ferme son ordinateur portable."
                 ]
             }
         ],
@@ -583,7 +619,7 @@
     {
         "word": "commencer",
         "level": "starter",
-        "theme": "time",
+        "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "commencer le travail / commencer une réunion / commencer un nouveau travail / commencer tôt",
         "opposite": "finir",
@@ -593,7 +629,8 @@
             {
                 "text": "Débuter une action.",
                 "examples": [
-                    "Je commence le travail à huit heures trente. Elle commence un nouveau travail."
+                    "Je commence le travail à huit heures trente.",
+                    "Elle commence un nouveau travail."
                 ]
             }
         ],
@@ -605,7 +642,7 @@
     {
         "word": "finir",
         "level": "starter",
-        "theme": "time",
+        "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "finir le travail / finir un projet / finir tôt / finir tard",
         "opposite": "commencer",
@@ -615,7 +652,8 @@
             {
                 "text": "Terminer quelque chose ; en arriver à la fin.",
                 "examples": [
-                    "Il finit son travail à cinq heures. Elle finit le rapport."
+                    "Il finit son travail à cinq heures.",
+                    "Elle finit le rapport."
                 ]
             }
         ],
@@ -627,7 +665,7 @@
     {
         "word": "utiliser",
         "level": "starter",
-        "theme": "technology_media",
+        "theme": "basic_technology_devices_A0",
         "emoji": "🛠️",
         "subtext": "utiliser un téléphone / utiliser les transports en commun / utiliser un ordinateur / utiliser du temps",
         "form": "verb",
@@ -635,7 +673,8 @@
             {
                 "text": "Employer quelque chose dans un but précis.",
                 "examples": [
-                    "J'utilise mon téléphone pour tout. Elle utilise les transports en commun."
+                    "J'utilise mon téléphone pour tout.",
+                    "Elle utilise les transports en commun."
                 ]
             }
         ],
@@ -655,7 +694,8 @@
             {
                 "text": "Se déplacer à pied à une allure normale.",
                 "examples": [
-                    "Il marche au travail chaque jour. Elle marche pendant sa pause déjeuner."
+                    "Il marche au travail chaque jour.",
+                    "Elle marche pendant sa pause déjeuner."
                 ]
             }
         ],
@@ -675,7 +715,8 @@
             {
                 "text": "Faire fonctionner un véhicule.",
                 "examples": [
-                    "Elle conduit au travail. Il conduit une voiture de fonction."
+                    "Elle conduit au travail.",
+                    "Il conduit une voiture de fonction."
                 ]
             }
         ],
@@ -687,7 +728,7 @@
     {
         "word": "appeler",
         "level": "starter",
-        "theme": "language_communication",
+        "theme": "using_a_smartphone_A1",
         "emoji": "📞",
         "subtext": "appeler quelqu'un / convoquer une réunion / rappeler / appeler pour dire qu'on est malade",
         "form": "verb",
@@ -695,7 +736,8 @@
             {
                 "text": "Téléphoner à quelqu'un.",
                 "examples": [
-                    "J'appelle mon patron chaque matin. Elle convoque une réunion."
+                    "J'appelle mon patron chaque matin.",
+                    "Elle convoque une réunion."
                 ]
             }
         ],
