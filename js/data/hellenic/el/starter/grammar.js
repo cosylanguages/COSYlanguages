@@ -2,7 +2,11 @@
     const data = [
     {
         "verb": "είμαι",
+        "group": "βοηθητικό",
+        "classification": "irregular",
+        "aspect": "stative",
         "level": "starter",
+        "v3": "ήμουν",
         "pronouns": [
             "εγώ",
             "εσύ",
@@ -134,7 +138,11 @@
     },
     {
         "verb": "έχω",
+        "group": "1η συζυγία",
+        "classification": "regular",
+        "aspect": "stative",
         "level": "starter",
+        "v3": "είχα",
         "pronouns": [
             "εγώ",
             "εσύ",
@@ -266,7 +274,11 @@
     },
     {
         "verb": "δουλεύω",
+        "group": "1η συζυγία",
+        "classification": "regular",
+        "aspect": "action",
         "level": "starter",
+        "v3": "δούλεψα",
         "pronouns": [
             "εγώ",
             "εσύ",
@@ -398,7 +410,11 @@
     },
     {
         "verb": "κάνω",
+        "group": "1η συζυγία",
+        "classification": "regular",
+        "aspect": "action",
         "level": "starter",
+        "v3": "έκανα",
         "pronouns": [
             "εγώ",
             "εσύ",
@@ -530,7 +546,11 @@
     },
     {
         "verb": "πηγαίνω",
+        "group": "1η συζυγία",
+        "classification": "regular",
+        "aspect": "action",
         "level": "starter",
+        "v3": "πήγα",
         "pronouns": [
             "εγώ",
             "εσύ",
@@ -662,7 +682,11 @@
     },
     {
         "verb": "μιλάω",
+        "group": "2η συζυγία",
+        "classification": "regular",
+        "aspect": "action",
         "level": "starter",
+        "v3": "μίλησα",
         "pronouns": [
             "εγώ",
             "εσύ",

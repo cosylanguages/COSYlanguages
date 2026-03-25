@@ -1,6 +1,710 @@
 (function() {
     const data = [
     {
+        "word": "être",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "👤",
+        "subtext": "être fatigué / être heureux / être au travail / être prêt",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Exister ; avoir une qualité ou un état.",
+                "examples": [
+                    "Je suis fatigué. Elle est médecin. Nous sommes en retard."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "irregular",
+        "v3": "été"
+    },
+    {
+        "word": "avoir",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "👜",
+        "subtext": "avoir un travail / avoir un problème / avoir le temps",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Posséder quelque chose ; éprouver quelque chose.",
+                "examples": [
+                    "J'ai un travail. Il a une voiture. Elle a mal à la tête."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "irregular",
+        "v3": "eu"
+    },
+    {
+        "word": "faire",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛠️",
+        "subtext": "faire le travail / faire les courses / faire de l'exercice / ne rien faire",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Effectuer une action ou une activité ; créer ou produire quelque chose.",
+                "examples": [
+                    "Je fais mon travail chaque jour. Elle fait les courses."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "re",
+        "v3": "fait"
+    },
+    {
+        "word": "aller",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚶",
+        "subtext": "aller au travail / aller à la maison / sortir / faire du shopping",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Se déplacer d'un endroit à un autre.",
+                "examples": [
+                    "Je vais au travail en bus. Elle va chez le médecin."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "irregular",
+        "v3": "allé"
+    },
+    {
+        "word": "venir",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🏃‍♂️",
+        "subtext": "venir à la maison / venir au travail / revenir / venir ici",
+        "opposite": "aller",
+        "oppositeEmoji": "🚶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Se déplacer vers un lieu ou une personne.",
+                "examples": [
+                    "Il vient au bureau à neuf heures. Elle vient tard à la maison."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "ir",
+        "v3": "venu"
+    },
+    {
+        "word": "manger",
+        "level": "starter",
+        "theme": "basic_foods_A0",
+        "emoji": "🍎",
+        "subtext": "manger le petit-déjeuner / manger le déjeuner / manger le dîner / manger dehors",
+        "opposite": "boire",
+        "oppositeEmoji": "🥛",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettre de la nourriture dans sa bouche et l'avaler.",
+                "examples": [
+                    "Nous mangeons le dîner à sept heures. Il mange le déjeuner à son bureau."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "mangé"
+    },
+    {
+        "word": "boire",
+        "level": "starter",
+        "theme": "drinks_A0",
+        "emoji": "🥛",
+        "subtext": "boire du café / boire du thé / boire de l'eau / boire de la bière",
+        "opposite": "manger",
+        "oppositeEmoji": "🍎",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Prendre un liquide dans sa bouche et l'avaler.",
+                "examples": [
+                    "Elle boit du café chaque matin. Je bois de l'eau."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "re",
+        "v3": "bu"
+    },
+    {
+        "word": "dormir",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "😴",
+        "subtext": "bien dormir / mal dormir / dormir huit heures / dormir tard",
+        "opposite": "se réveiller",
+        "oppositeEmoji": "⏰",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Se reposer les yeux fermés dans un état naturel d'inconscience.",
+                "examples": [
+                    "Il dort sept heures par nuit. Je dors mal."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "ir",
+        "v3": "dormi"
+    },
+    {
+        "word": "travailler",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💼",
+        "subtext": "travailler à domicile / travailler à plein temps / travailler dur / travailler tard",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire un travail afin de gagner de l'argent.",
+                "examples": [
+                    "Elle travaille dans un hôpital. Je travaille à domicile."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "travaillé"
+    },
+    {
+        "word": "vivre",
+        "level": "starter",
+        "theme": "personal_identity",
+        "emoji": "🏠",
+        "subtext": "vivre dans un appartement / vivre seul / vivre avec quelqu'un / vivre à l'étranger",
+        "opposite": "mourir",
+        "oppositeEmoji": "⚰️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avoir son domicile dans un lieu ; être vivant.",
+                "examples": [
+                    "Il vit dans un appartement près du centre. Nous vivons ensemble."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "re",
+        "v3": "vécu"
+    },
+    {
+        "word": "aimer",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "👍",
+        "subtext": "aimer le travail / aimer voyager / aimer quelqu'un / aimer l'idée",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Trouver quelque chose d'agréable ; apprécier.",
+                "examples": [
+                    "J'aime mon travail. Elle aime cuisiner. Il aime le café."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "er",
+        "v3": "aimé"
+    },
+    {
+        "word": "vouloir",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🙏",
+        "subtext": "vouloir un travail / vouloir partir / vouloir plus d'argent / vouloir de l'aide",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Désirer ou souhaiter quelque chose.",
+                "examples": [
+                    "Je veux un café. Elle veut un meilleur travail. Il veut prendre sa retraite."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "oir",
+        "v3": "voulu"
+    },
+    {
+        "word": "avoir besoin de",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🆘",
+        "subtext": "besoin d'aide / besoin de temps / besoin d'argent / besoin de se reposer",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Nécessiter quelque chose ; sentir que quelque chose est nécessaire.",
+                "examples": [
+                    "J'ai besoin d'une pause. Elle a besoin d'aide. Nous avons besoin de plus de temps."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "locution",
+        "v3": "eu besoin"
+    },
+    {
+        "word": "voir",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "👁️",
+        "subtext": "voir un médecin / voir des amis / voir le problème / voir clairement",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Remarquer ou percevoir avec les yeux.",
+                "examples": [
+                    "Je vois mon médecin demain. Elle voit le problème."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "group": "oir",
+        "v3": "vu"
+    },
+    {
+        "word": "entendre",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "👂",
+        "subtext": "entendre des nouvelles / entendre quelqu'un / entendre un son / entendre clairement",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Percevoir un son par les oreilles.",
+                "examples": [
+                    "J'entends l'alarme chaque matin. Est-ce que tu m'entends ?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "group": "re",
+        "v3": "entendu"
+    },
+    {
+        "word": "se sentir",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "🌡️",
+        "subtext": "se sentir fatigué / se sentir mieux / se sentir bien / se sentir stressé",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Éprouver une émotion ou une sensation physique.",
+                "examples": [
+                    "Je me sens fatigué. Elle se sent stressée. Il se sent mieux."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "group": "ir",
+        "v3": "senti"
+    },
+    {
+        "word": "savoir",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🧠",
+        "subtext": "connaître quelqu'un / savoir la réponse / connaître un lieu / savoir comment faire",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avoir des informations ou une conscience de quelque chose.",
+                "examples": [
+                    "Je sais son nom. Elle sait la réponse. Est-ce que tu le connais ?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "group": "oir",
+        "v3": "su"
+    },
+    {
+        "word": "penser",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "💭",
+        "subtext": "penser à / penser de / penser que / penser attentivement",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avoir une croyance ou une opinion ; utiliser l'esprit.",
+                "examples": [
+                    "Je pense que c'est une bonne idée. Elle pense à son travail."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "group": "er",
+        "v3": "pensé"
+    },
+    {
+        "word": "parler",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗣️",
+        "subtext": "parler à quelqu'un / parler français / parler clairement / parler lors d'une réunion",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dire des mots ; communiquer verbalement.",
+                "examples": [
+                    "Il parle français. Elle parle à son manager chaque jour."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "parlé"
+    },
+    {
+        "word": "dire",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "🗨️",
+        "subtext": "dire bonjour / dire oui / dire non / dire quelque chose",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Exprimer quelque chose en paroles.",
+                "examples": [
+                    "Elle dit bonjour chaque matin. Il dit que c'est difficile."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "re",
+        "v3": "dit"
+    },
+    {
+        "word": "demander",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "❓",
+        "subtext": "poser une question / demander de l'aide / demander à quelqu'un / demander à propos de",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Poser une question à quelqu'un ; solliciter quelque chose.",
+                "examples": [
+                    "Elle demande beaucoup de questions. Je demande conseil à mon patron."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "demandé"
+    },
+    {
+        "word": "donner",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "subtext": "donner des conseils / donner de l'argent / donner un cadeau / donner des informations",
+        "opposite": "prendre",
+        "oppositeEmoji": "👜",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Remettre ou transférer quelque chose à quelqu'un.",
+                "examples": [
+                    "Il me donne beaucoup de travail. Elle donne des conseils."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "donné"
+    },
+    {
+        "word": "prendre",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "👜",
+        "subtext": "prendre le bus / prendre un médicament / prendre une pause / prendre du temps",
+        "opposite": "donner",
+        "oppositeEmoji": "🎁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Tenir et déplacer quelque chose ; utiliser ou consommer.",
+                "examples": [
+                    "Je prends le bus pour aller au travail. Elle prend des médicaments."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "re",
+        "v3": "pris"
+    },
+    {
+        "word": "obtenir",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📥",
+        "subtext": "obtenir un travail / se fatiguer / s'améliorer / rentrer à la maison",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Recevoir, obtenir ou devenir.",
+                "examples": [
+                    "J'obtiens un bon salaire. Il se fatigue rapidement. Elle obtient une promotion."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "ir",
+        "v3": "obtenu"
+    },
+    {
+        "word": "payer",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "💰",
+        "subtext": "payer le loyer / payer par carte / payer en espèces / payer une facture",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Donner de l'argent pour quelque chose.",
+                "examples": [
+                    "Je paie le loyer chaque mois. Il paie par carte."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "payé"
+    },
+    {
+        "word": "acheter",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🛒",
+        "subtext": "acheter de la nourriture / acheter un billet / acheter en ligne / acheter une maison",
+        "opposite": "vendre",
+        "oppositeEmoji": "🏷️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Obtenir quelque chose en échange d'argent.",
+                "examples": [
+                    "Elle achète de la nourriture en ligne. Il veut acheter un appartement."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "acheté"
+    },
+    {
+        "word": "ouvrir",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "subtext": "ouvrir une porte / ouvrir un compte / ouvrir un magasin / ouvrir à neuf heures",
+        "opposite": "fermer",
+        "oppositeEmoji": "🔒",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire en sorte que quelque chose ne soit pas fermé ; ou commencer.",
+                "examples": [
+                    "Il ouvre le bureau à huit heures. Elle ouvre un compte bancaire."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "ir",
+        "v3": "ouvert"
+    },
+    {
+        "word": "fermer",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔒",
+        "subtext": "fermer une porte / fermer à six heures / fermer un compte / fermer la réunion",
+        "opposite": "ouvrir",
+        "oppositeEmoji": "📖",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire en sorte que quelque chose ne soit pas ouvert ; ou finir.",
+                "examples": [
+                    "Le bureau ferme à six heures. Elle ferme son ordinateur portable."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "fermé"
+    },
+    {
+        "word": "commencer",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "▶️",
+        "subtext": "commencer le travail / commencer une réunion / commencer un nouveau travail / commencer tôt",
+        "opposite": "finir",
+        "oppositeEmoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Débuter une action.",
+                "examples": [
+                    "Je commence le travail à huit heures trente. Elle commence un nouveau travail."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "commencé"
+    },
+    {
+        "word": "finir",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🏁",
+        "subtext": "finir le travail / finir un projet / finir tôt / finir tard",
+        "opposite": "commencer",
+        "oppositeEmoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Terminer quelque chose ; en arriver à la fin.",
+                "examples": [
+                    "Il finit son travail à cinq heures. Elle finit le rapport."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "ir",
+        "v3": "fini"
+    },
+    {
+        "word": "utiliser",
+        "level": "starter",
+        "theme": "technology_media",
+        "emoji": "🛠️",
+        "subtext": "utiliser un téléphone / utiliser les transports en commun / utiliser un ordinateur / utiliser du temps",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Employer quelque chose dans un but précis.",
+                "examples": [
+                    "J'utilise mon téléphone pour tout. Elle utilise les transports en commun."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "utilisé"
+    },
+    {
+        "word": "marcher",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚶",
+        "subtext": "marcher pour aller au travail / marcher jusqu'à la maison / marcher lentement / marcher chaque jour",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Se déplacer à pied à une allure normale.",
+                "examples": [
+                    "Il marche au travail chaque jour. Elle marche pendant sa pause déjeuner."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "marché"
+    },
+    {
+        "word": "conduire",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚗",
+        "subtext": "conduire au travail / conduire une voiture / conduire jusqu'à la maison / conduire prudemment",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire fonctionner un véhicule.",
+                "examples": [
+                    "Elle conduit au travail. Il conduit une voiture de fonction."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "re",
+        "v3": "conduit"
+    },
+    {
+        "word": "appeler",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "📞",
+        "subtext": "appeler quelqu'un / convoquer une réunion / rappeler / appeler pour dire qu'on est malade",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Téléphoner à quelqu'un.",
+                "examples": [
+                    "J'appelle mon patron chaque matin. Elle convoque une réunion."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "appelé"
+    },
+    {
         "word": "se réveiller",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -17,43 +721,11 @@
                     "À quelle heure te réveilles-tu ?"
                 ]
             }
-        ]
-    },
-    {
-        "word": "travailler",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "💼",
-        "subtext": "travailler dans un bureau, travailler dur",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Faire un travail pour gagner de l'argent.",
-                "examples": [
-                    "Je travaille cinq jours par semaine.",
-                    "Elle travaille dans une banque."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "dormir",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "😴",
-        "subtext": "dormir 8 heures, aller dormir",
-        "opposite": "se réveiller",
-        "oppositeEmoji": "⏰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se reposer les yeux fermés.",
-                "examples": [
-                    "J'ai besoin de dormir.",
-                    "Le bébé dort."
-                ]
-            }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "réveillé"
     },
     {
         "word": "regarder",
@@ -70,7 +742,11 @@
                     "Ils regardent les oiseaux."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "regardé"
     },
     {
         "word": "lire",
@@ -89,205 +765,11 @@
                     "Elle sait lire le français."
                 ]
             }
-        ]
-    },
-    {
-        "word": "être",
-        "level": "starter",
-        "theme": "personal_identity",
-        "emoji": "👤",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Exister ou vivre.",
-                "examples": [
-                    "Je suis étudiant.",
-                    "Elle est heureuse."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "avoir",
-        "level": "starter",
-        "theme": "personal_identity",
-        "emoji": "👜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Posséder quelque chose.",
-                "examples": [
-                    "J'ai une voiture rouge.",
-                    "Nous avons deux chats."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "aller",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🚶",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se déplacer d'un endroit à un autre.",
-                "examples": [
-                    "Je vais à l'école en bus.",
-                    "Allons à la maison."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "manger",
-        "level": "starter",
-        "theme": "basic_foods_A0",
-        "emoji": "🍎",
-        "subtext": "manger une pomme, manger le dîner",
-        "opposite": "boire",
-        "oppositeEmoji": "🥛",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Mettre de la nourriture dans sa bouche et l'avaler.",
-                "examples": [
-                    "Je mange une pomme chaque jour.",
-                    "Qu'est-ce que tu veux manger ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "boire",
-        "level": "starter",
-        "theme": "drinks_A0",
-        "emoji": "🥛",
-        "subtext": "boire de l'eau, boire du café",
-        "opposite": "manger",
-        "oppositeEmoji": "🍎",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Prendre un liquide par la bouche et l'avaler.",
-                "examples": [
-                    "Je bois beaucoup d'eau.",
-                    "Tu veux boire quelque chose ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "faire",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Réaliser une action ou une activité.",
-                "examples": [
-                    "Je fais mes devoirs l'après-midi.",
-                    "Que fais-tu ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "parler",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "🗣️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Utiliser sa voix pour dire des mots.",
-                "examples": [
-                    "Je parle français et anglais.",
-                    "Parlez lentement, s'il vous plaît."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "savoir",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "🧠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avoir des informations dans son esprit.",
-                "examples": [
-                    "Je sais la réponse.",
-                    "Est-ce que tu sais où il est ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "penser",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "💭",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Utiliser son esprit pour avoir des idées ou des opinions.",
-                "examples": [
-                    "Je pense que c'est une bonne idée.",
-                    "À quoi penses-tu ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "voir",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "👁️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Utiliser ses yeux pour regarder quelque chose.",
-                "examples": [
-                    "Je vois un oiseau.",
-                    "As-tu vu ce film ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vouloir",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "🙏",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Désirer avoir ou faire quelque chose.",
-                "examples": [
-                    "Je veux un verre d'eau.",
-                    "Je veux rentrer à la maison."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "aimer",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "❤️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Apprécier quelqu'un ou quelque chose.",
-                "examples": [
-                    "J'aime le chocolat.",
-                    "Est-ce que tu aimes danser ?"
-                ]
-            }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "re",
+        "v3": "lu"
     },
     {
         "word": "écrire",
@@ -303,1087 +785,11 @@
                     "Elle écrit des livres pour enfants."
                 ]
             }
-        ]
-    },
-    {
-        "word": "venir",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🏃‍♂️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se déplacer vers le lieu où se trouve celui qui parle.",
-                "examples": [
-                    "Viens ici, s'il te plaît.",
-                    "Il vient à la fête."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "donner",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🎁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Remettre quelque chose à quelqu'un.",
-                "examples": [
-                    "Peux-tu me donner ce livre ?",
-                    "Je donne des cadeaux à ma famille."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "prendre",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "👜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Saisir ou obtenir quelque chose.",
-                "examples": [
-                    "Je prends le bus pour aller au travail.",
-                    "Elle prend de belles photos."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "trouver",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🔍",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Découvrir quelque chose après l'avoir cherché.",
-                "examples": [
-                    "Je ne trouve pas mes clés.",
-                    "As-tu trouvé ton chemin ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "dire",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "🗣️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Exprimer quelque chose par la parole.",
-                "examples": [
-                    "Dis-moi une histoire.",
-                    "Il lui a dit la vérité."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "demander",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "❓",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "S'adresser à quelqu'un pour savoir quelque chose ou obtenir quelque chose.",
-                "examples": [
-                    "Je dois poser une question.",
-                    "Elle m'a demandé de l'aide."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sentir",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "🌡️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Éprouver une émotion ou une sensation physique.",
-                "examples": [
-                    "Je me sens heureux aujourd'hui.",
-                    "Est-ce que tu as froid ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "essayer",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "🎯",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Tenter de faire quelque chose.",
-                "examples": [
-                    "J'essaie de faire de l'exercice chaque jour.",
-                    "Essaie un de ces biscuits."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "partir",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🚪",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "S'en aller d'un lieu.",
-                "examples": [
-                    "Je pars pour le travail à 8h.",
-                    "Ne laisse pas ton sac ici."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "appeler",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "📞",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Téléphoner à quelqu'un ou crier son nom.",
-                "examples": [
-                    "Appelle-moi plus tard.",
-                    "Il a appelé mon nom."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "utiliser",
-        "level": "starter",
-        "theme": "technology_media",
-        "emoji": "🛠️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se servir de quelque chose pour accomplir une tâche.",
-                "examples": [
-                    "J'utilise un ordinateur pour le travail.",
-                    "Puis-je utiliser ton stylo ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "obtenir",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "📥",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Recevoir ou acheter quelque chose.",
-                "examples": [
-                    "Je reçois beaucoup d'e-mails.",
-                    "Peux-tu aller chercher du lait ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "commencer",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "▶️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Débuter une action.",
-                "examples": [
-                    "Le film commence à 19h.",
-                    "Commençons la réunion."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "aider",
-        "level": "starter",
-        "theme": "society_politics",
-        "emoji": "🤝",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Faire quelque chose pour quelqu'un pour faciliter une tâche.",
-                "examples": [
-                    "Peux-tu m'aider ?",
-                    "J'aide ma mère avec les courses."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "jouer",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🎮",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "S'amuser ou participer à un jeu.",
-                "examples": [
-                    "Je joue au football avec mes amis.",
-                    "Elle aime jouer aux jeux vidéo."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "courir",
-        "level": "starter",
-        "theme": "common_sports_A0",
-        "emoji": "🏃",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se déplacer très vite sur ses jambes.",
-                "examples": [
-                    "Je cours dans le parc.",
-                    "Il court pour attraper le bus."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vivre",
-        "level": "starter",
-        "theme": "personal_identity",
-        "emoji": "🏠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avoir son domicile dans un endroit particulier.",
-                "examples": [
-                    "J'habite à Londres.",
-                    "Elle vit avec sa famille."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "apporter",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🎁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Prendre quelqu'un ou quelque chose avec soi dans un lieu.",
-                "examples": [
-                    "S'il te plaît, apporte-moi un verre d'eau.",
-                    "Il apporte son déjeuner au travail."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "s'asseoir",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🪑",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se poser sur un siège.",
-                "examples": [
-                    "Asseyez-vous, s'il vous plaît.",
-                    "Je m'assois sur une chaise."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "être debout",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🧍",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Être sur ses pieds en position verticale.",
-                "examples": [
-                    "Levez-vous, s'il vous plaît.",
-                    "Elle est debout près de la porte."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "perdre",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "📉",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Échouer à gagner ou ne plus pouvoir trouver quelque chose.",
-                "examples": [
-                    "Je ne veux pas perdre le match.",
-                    "Je perds souvent mes clés."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "payer",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "💰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Donner de l'argent pour quelque chose.",
-                "examples": [
-                    "Je paie pour mon café.",
-                    "Comment voulez-vous payer ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "rencontrer",
-        "level": "starter",
-        "theme": "society_politics",
-        "emoji": "🤝",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Voir et parler à quelqu'un pour la première fois.",
-                "examples": [
-                    "Enchanté de vous rencontrer.",
-                    "On se rencontre tous les vendredis."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "apprendre",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "📚",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Acquérir des connaissances ou une compétence.",
-                "examples": [
-                    "Je veux apprendre le français.",
-                    "Les enfants apprennent vite."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "changer",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "🔄",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Rendre quelque chose différent.",
-                "examples": [
-                    "Je veux changer de vêtements.",
-                    "Le temps change rapidement."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "comprendre",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "💡",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Saisir le sens de quelque chose.",
-                "examples": [
-                    "Je ne comprends pas ce mot.",
-                    "Est-ce que tu comprends le français ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "s'arrêter",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "🛑",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Finir de faire quelque chose ou ne plus bouger.",
-                "examples": [
-                    "Arrête la voiture.",
-                    "Arrête de parler, s'il te plaît."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "ajouter",
-        "level": "starter",
-        "theme": "numbers_math",
-        "emoji": "➕",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Mettre des choses ensemble pour faire un groupe plus grand.",
-                "examples": [
-                    "Ajoute du sucre dans le thé.",
-                    "Combien font cinq plus cinq ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "dépenser",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "💸",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Utiliser de l'argent pour payer des choses.",
-                "examples": [
-                    "Je dépense beaucoup d'argent pour la nourriture."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "ouvrir",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "📖",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Déplacer quelque chose pour qu'une ouverture ne soit plus couverte.",
-                "examples": [
-                    "Ouvre la porte.",
-                    "Peux-tu ouvrir la fenêtre ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "gagner",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏆",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Être le meilleur dans un jeu ou une compétition.",
-                "examples": [
-                    "Nous voulons gagner le match."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "marcher",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🚶",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se déplacer sur ses jambes à une vitesse normale.",
-                "examples": [
-                    "Je marche jusqu'à l'école.",
-                    "Faisons une marche dans le parc."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "se souvenir",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "🧠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Garder des informations dans son esprit.",
-                "examples": [
-                    "Je me souviens de ton nom.",
-                    "Est-ce que tu te souviens de moi ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "acheter",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🛒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Obtenir quelque chose en payant de l'argent pour cela.",
-                "examples": [
-                    "Je veux acheter un nouveau téléphone.",
-                    "Où puis-je acheter du lait ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "mourir",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "⚰️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Cesser de vivre.",
-                "examples": [
-                    "Les plantes meurent sans eau."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "envoyer",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "✉️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Faire en sorte que quelque chose aille vers un lieu.",
-                "examples": [
-                    "J'envoie un e-mail chaque matin.",
-                    "Peux-tu m'envoyer une photo ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "tomber",
-        "level": "starter",
-        "theme": "environment_nature",
-        "emoji": "🍂",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se déplacer vers le bas, vers le sol.",
-                "examples": [
-                    "Les feuilles tombent en automne.",
-                    "Fais attention, ne tombe pas."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "couper",
-        "level": "starter",
-        "theme": "food_drink",
-        "emoji": "✂️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Utiliser un couteau ou des ciseaux pour diviser quelque chose.",
-                "examples": [
-                    "Je coupe le pain.",
-                    "Peux-tu couper le papier ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "passer",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "🏔️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Aller au-delà de quelque chose ou réussir un examen.",
-                "examples": [
-                    "Je passe devant le parc en rentrant.",
-                    "J'espère que je vais passer le test."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "vendre",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🏷️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Donner quelque chose à quelqu'un contre de l'argent.",
-                "examples": [
-                    "Ils vendent des fruits au marché."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "tirer",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🚜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Déplacer quelque chose vers soi.",
-                "examples": [
-                    "Tire la porte pour l'ouvrir."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "pousser",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🛒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Déplacer quelque chose loin de soi.",
-                "examples": [
-                    "Pousse le bouton.",
-                    "Je pousse le chariot de courses."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "espérer",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "🤞",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Vouloir que quelque chose arrive.",
-                "examples": [
-                    "J'espère que tu te sens mieux.",
-                    "Nous espérons vous voir bientôt."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "porter",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🎒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Tenir quelque chose et le déplacer d'un endroit à un autre.",
-                "examples": [
-                    "Je porte mon sac à l'école.",
-                    "Peux-tu m'aider à porter cette boîte ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "casser",
-        "level": "starter",
-        "theme": "describing_things",
-        "emoji": "💔",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Séparer quelque chose en deux ou plusieurs morceaux.",
-                "examples": [
-                    "Ne casse pas le verre.",
-                    "Il s'est cassé la jambe."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "recevoir",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "📩",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Obtenir quelque chose que quelqu'un vous a donné ou envoyé.",
-                "examples": [
-                    "Je reçois beaucoup de courrier.",
-                    "Elle a reçu un cadeau."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "être d'accord",
-        "level": "starter",
-        "theme": "opinion_debate",
-        "emoji": "👍",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avoir la même opinion que quelqu'un.",
-                "examples": [
-                    "Je suis d'accord avec toi.",
-                    "On est d'accord sur le plan."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "dessiner",
-        "level": "starter",
-        "theme": "culture_arts",
-        "emoji": "🎨",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Faire une image avec un stylo ou un crayon.",
-                "examples": [
-                    "J'aime dessiner des oiseaux.",
-                    "Peux-tu dessiner une carte ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "partager",
-        "level": "starter",
-        "theme": "society_politics",
-        "emoji": "🍕",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Donner une partie de quelque chose à d'autres.",
-                "examples": [
-                    "Partageons la pizza.",
-                    "Je partage une chambre avec mon frère."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sourire",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "😊",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Prendre une expression joyeuse avec sa bouche.",
-                "examples": [
-                    "Elle a un beau sourire.",
-                    "Souris pour la photo."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "pleurer",
-        "level": "starter",
-        "theme": "feelings_emotions",
-        "emoji": "😢",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Produire des larmes parce que vous êtes triste ou que vous avez mal.",
-                "examples": [
-                    "Le bébé pleure.",
-                    "Ne pleure pas."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "danser",
-        "level": "starter",
-        "theme": "culture_arts",
-        "emoji": "💃",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Bouger son corps en mesure sur de la musique.",
-                "examples": [
-                    "J'adore danser.",
-                    "Ils dansent."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "chanter",
-        "level": "starter",
-        "theme": "culture_arts",
-        "emoji": "🎤",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Produire des sons musicaux avec sa voix.",
-                "examples": [
-                    "J'aime chanter sous la douche.",
-                    "Elle chante très bien."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "sauter",
-        "level": "starter",
-        "theme": "health_body",
-        "emoji": "🦘",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se détacher du sol par une poussée des jambes.",
-                "examples": [
-                    "Peux-tu sauter haut ?",
-                    "Le chat a sauté sur la table."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "voler",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "✈️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se déplacer dans l'air.",
-                "examples": [
-                    "Les oiseaux peuvent voler.",
-                    "Je vole vers Paris demain."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "nager",
-        "level": "starter",
-        "theme": "common_sports_A0",
-        "emoji": "🏊",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Se déplacer dans l'eau en utilisant ses bras et ses jambes.",
-                "examples": [
-                    "Je nage chaque matin.",
-                    "Sais-tu nager ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "laver",
-        "level": "starter",
-        "theme": "home_living",
-        "emoji": "🧼",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Rendre propre avec de l'eau et du savon.",
-                "examples": [
-                    "Je me lave les mains.",
-                    "Peux-tu laver la voiture ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "nettoyer",
-        "level": "starter",
-        "theme": "home_living",
-        "emoji": "🧹",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Enlever la saleté de quelque chose.",
-                "examples": [
-                    "Je nettoie ma chambre chaque semaine."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "cuisiner",
-        "level": "starter",
-        "theme": "food_drink",
-        "emoji": "🍳",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Préparer de la nourriture en la chauffant.",
-                "examples": [
-                    "Je cuisine le dîner pour ma famille.",
-                    "Elle aime cuisiner."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "voyager",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "✈️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Aller d'un lieu à un autre.",
-                "examples": [
-                    "J'adore voyager.",
-                    "Nous voyageons en train."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "étudier",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "📖",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Passer du temps à apprendre un sujet.",
-                "examples": [
-                    "J'étudie le français à l'école.",
-                    "Il étudie pour ses examens."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "enseigner",
-        "level": "starter",
-        "theme": "education_learning",
-        "emoji": "👨‍🏫",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Transmettre des connaissances à d'autres.",
-                "examples": [
-                    "J'enseigne le français.",
-                    "Elle enseigne à l'université."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "écouter",
-        "level": "starter",
-        "theme": "language_communication",
-        "emoji": "🎧",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Prêter attention à un son.",
-                "examples": [
-                    "J'aime écouter de la musique.",
-                    "Écoutez-moi !"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "fermer",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🔒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Mettre quelque chose en position close.",
-                "examples": [
-                    "Ferme la porte.",
-                    "N'oublie pas de fermer la fenêtre."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "finir",
-        "level": "starter",
-        "theme": "time",
-        "emoji": "🏁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Terminer une action.",
-                "examples": [
-                    "Je finis mon travail à 17h.",
-                    "As-tu fini ton livre ?"
-                ]
-            }
-        ]
-    },
-    {
-        "word": "louer",
-        "level": "starter",
-        "theme": "types_of_accommodation_A1",
-        "emoji": "🏠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Payer de l'argent pour utiliser une maison ou un appartement qui appartient à quelqu'un d'autre.",
-                "examples": [
-                    "Nous louons un appartement en ville."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "épargner",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💰",
-        "form": "verb",
-        "subtext": "économiser",
-        "definitions": [
-            {
-                "text": "Garder de l'argent au lieu de le dépenser.",
-                "examples": [
-                    "Elle épargne de l'argent chaque mois."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "coûter",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Avoir un certain prix.",
-                "examples": [
-                    "L'appartement coûte cher."
-                ]
-            }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "re",
+        "v3": "écrit"
     },
     {
         "word": "inviter",
@@ -1398,38 +804,11 @@
                     "J'invite des amis à dîner."
                 ]
             }
-        ]
-    },
-    {
-        "word": "faire de l'exercice",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏋️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Faire de l'activité physique pour rester en bonne santé.",
-                "examples": [
-                    "Je fais de l'exercice tous les matins."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "faire le trajet",
-        "level": "starter",
-        "theme": "public_transport_A1",
-        "emoji": "🚆",
-        "form": "verb",
-        "subtext": "commuter",
-        "definitions": [
-            {
-                "text": "Faire le voyage entre la maison et le travail.",
-                "examples": [
-                    "Je fais le trajet en train."
-                ]
-            }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "er",
+        "v3": "invité"
     }
 ];
     const lang = "fr";

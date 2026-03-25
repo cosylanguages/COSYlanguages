@@ -6,6 +6,9 @@
         "theme": "society_community_B1",
         "emoji": "🧑‍🌾",
         "form": "verb",
+        "group": "locution",
+        "classification": "regular",
+        "aspect": "action",
         "definitions": [
             {
                 "text": "Εργάζομαι σε έναν κήπο για την καλλιέργεια φυτών.",
@@ -13,7 +16,8 @@
                     "Του αρέσει να κάνει κηπουρική τα σαββατοκύριακα."
                 ]
             }
-        ]
+        ],
+        "v3": "έκανα κηπουρική"
     },
     {
         "word": "κάνω εθελοντισμό",
@@ -21,6 +25,9 @@
         "theme": "society_community_B1",
         "emoji": "🙋",
         "form": "verb",
+        "group": "locution",
+        "classification": "regular",
+        "aspect": "action",
         "definitions": [
             {
                 "text": "Προσφέρομαι να κάνω κάτι χωρίς να πληρωθώ.",
@@ -28,7 +35,8 @@
                     "Κάνει εθελοντισμό στην τοπική τράπεζα τροφίμων."
                 ]
             }
-        ]
+        ],
+        "v3": "έκανα εθελοντισμό"
     }
 ];
     const lang = "el";

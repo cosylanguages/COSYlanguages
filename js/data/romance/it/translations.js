@@ -1058,7 +1058,20 @@
                 "L'italiano è la quarta lingua più studiata al mondo.",
                 "La parola 'Ciao' deriva dal veneziano 's'ciavo vostro', che significa 'sono vostro schiavo'.",
                 "L'alfabeto italiano standard ha solo 21 lettere; J, K, W, X e Y sono usate solo per parole straniere."
-            ]
+            ],
+            verb_classification_regular: "Regolare",
+            verb_classification_irregular: "Irregolare",
+            verb_classification_both: "Entrambi",
+            verb_aspect_action: "Verbo di azione",
+            verb_aspect_stative: "Verbo di stato",
+            verb_aspect_both: "Azione & Stato",
+            verb_group_are: "1° gruppo (-are)",
+            verb_group_ere: "2° gruppo (-ere)",
+            verb_group_ire: "3° gruppo (-ire)",
+            verb_group_ire_isc: "3° gruppo (-ire isc)",
+            verb_group_urre: "Gruppo -urre",
+            verb_group_irregular: "Gruppo irregolare",
+            label_past_participle: "Participio Passato"
          }
         };
     window.translations = window.translations || {};

@@ -1060,7 +1060,19 @@
             belgium: "Belgique 🇧🇪",
             switzerland: "Suisse 🇨🇭",
             cyprus: "Chypre 🇨🇾",
-            greece: "Grèce 🇬🇷"
+            greece: "Grèce 🇬🇷",
+            verb_classification_regular: "Régulier",
+            verb_classification_irregular: "Irrégulier",
+            verb_classification_both: "Les deux",
+            verb_aspect_action: "Verbe d'action",
+            verb_aspect_stative: "Verbe d'état",
+            verb_aspect_both: "Action & État",
+            verb_group_er: "1er groupe (-er)",
+            verb_group_ir: "2ème groupe (-ir)",
+            verb_group_re: "3ème groupe (-re)",
+            verb_group_oir: "3ème groupe (-oir)",
+            verb_group_irregular: "Groupe irrégulier",
+            label_past_participle: "Participe Passé"
         }
         };
     window.translations = window.translations || {};

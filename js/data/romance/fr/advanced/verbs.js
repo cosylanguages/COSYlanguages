@@ -5,7 +5,11 @@
         "level": "advanced",
         "theme": "science_tech_society_C1",
         "emoji": "🏗️",
-        "form": "verb"
+        "form": "verb",
+        "group": "nom",
+        "classification": "regular",
+        "aspect": "stative",
+        "v3": "infrastructure"
     }
 ];
     const lang = "fr";

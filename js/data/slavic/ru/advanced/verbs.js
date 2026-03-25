@@ -5,7 +5,11 @@
         "level": "advanced",
         "theme": "science_tech_society_C1",
         "emoji": "🏗️",
-        "form": "verb"
+        "form": "verb",
+        "group": "существительное",
+        "classification": "regular",
+        "aspect": "stative",
+        "v3": "инфраструктура"
     }
 ];
     const lang = "ru";

@@ -122,9 +122,9 @@ function populatePracticeThemes(categoryId) {
             { value: 'grammar_gender', key: 'theme_grammar_gender' }
         ];
 
+        themes.push({ value: 'grammar_verb_forms', key: 'theme_grammar_verb_forms' });
         if (lang === 'en') {
-            themes = themes.filter(th => th.value === 'grammar_plurals');
-            themes.push({ value: 'grammar_verb_forms', key: 'theme_grammar_verb_forms' });
+            themes = themes.filter(th => th.value === 'grammar_plurals' || th.value === 'grammar_verb_forms');
         }
     } else if (categoryId === 'speaking') {
         const sd = speakingData[lang] || {};
@@ -705,6 +705,16 @@ function showHint() {
 
     if (!targetAnswer) return;
 
+    let tip = "";
+    if (wordObj.classification) {
+        const classLabel = (translations[currentPractice.language] && translations[currentPractice.language][`verb_classification_${wordObj.classification}`]) || wordObj.classification;
+        tip += classLabel + " ";
+    }
+    if (wordObj.group) {
+        tip += "(" + wordObj.group + ") ";
+    }
+    if (tip) tip = tip.trim() + ": ";
+
     // Support multiple correct answers
     const answers = targetAnswer.split(' / ').map(a => a.trim());
     currentPractice.hintLevel = (currentPractice.hintLevel || 0) + 1;
@@ -723,7 +733,7 @@ function showHint() {
 
     const feedbackMsg = document.getElementById('feedback-message');
     feedbackMsg.className = 'feedback-text hint';
-    feedbackMsg.textContent = "Hint: " + hints.join(' / ');
+    feedbackMsg.textContent = "Hint: " + tip + hints.join(' / ');
 }
 
 function speakWord() {
@@ -893,9 +903,11 @@ function expandGrammarItems(items, lang) {
     globalVerbForms = [...new Set(globalVerbForms)];
 
     items.forEach(item => {
-        if (item.verb) {
+        let processed = false;
+
+        // 1. Conjugation tasks (requires item.verb and item.tenses)
+        if (item.verb && item.tenses) {
             const pronouns = item.pronouns || config.pronouns;
-            if (!item.tenses) return;
 
             // Collect all possible conjugation forms for this verb across all tenses to use as distractors
             let itemVerbForms = [];
@@ -920,7 +932,7 @@ function expandGrammarItems(items, lang) {
                             return; // skip some common forms to focus on 3rd person singular
                         }
 
-                        // 1. Verb form practice
+                        // 1a. Verb form practice
                         const label = (formType === 'negative') ? " (-)" : (formType === 'question') ? " (?)" : "";
                         let verbPrompt = (formType === 'question') ? `____? (${pronoun} + ${item.verb})` : `${pronoun} ____ (${item.verb}${label})`;
 
@@ -957,7 +969,7 @@ function expandGrammarItems(items, lang) {
                             form: 'verb'
                         });
 
-                        // 2. Personal Pronoun practice - skip for question forms to avoid redundancy
+                        // 1b. Personal Pronoun practice - skip for question forms to avoid redundancy
                         // English: skip pronoun practice per request ("only practice regular and irregular verbs")
                         if (formType !== 'question' && lang !== 'en') {
                             // Find all pronouns that are technically correct for this conjugation
@@ -980,36 +992,47 @@ function expandGrammarItems(items, lang) {
                     });
                 }
             }
+            processed = true;
+        }
 
-            // English: Add Verb Form practice (V1, V2, V3)
-            if (lang === 'en' && item.past_participle) {
-                const v1 = item.verb.replace(/^to\s+/i, '');
-                const v2 = item.tenses.past_simple.positive[0]; // Using first pronoun's past form as representative
-                const v3 = item.past_participle;
-
-                expanded.push({
-                    ...item,
-                    type: 'type-cl',
-                    primaryPrompt: v1,
-                    secondaryContext: 'V2 (Past)',
-                    clozeText: `${item.verb} (V2 / Past) -> ____`,
-                    answer: v2,
-                    theme: 'grammar_verb_forms',
-                    form: 'verb_form'
-                });
+        // 2. Verb Form tasks (V2, V3, Past Participle) - handles both Grammar and Vocabulary entries
+        if (item.past_participle || item.v3 || item.v2) {
+            const v1 = (item.verb || item.word || "").replace(/^to\s+/i, '');
+            const v3 = item.past_participle || item.v3;
+            if (v3) {
+                const labelKey = (lang === 'en') ? 'label_v3' : 'label_past_participle';
+                const label = (translations[lang] && translations[lang][labelKey]) || "Past Participle";
 
                 expanded.push({
                     ...item,
                     type: 'type-cl',
                     primaryPrompt: v1,
-                    secondaryContext: 'V3 (Past Participle)',
-                    clozeText: `${item.verb} (V3 / Past Participle) -> ____`,
+                    secondaryContext: label,
+                    clozeText: `${v1} (${label}) -> ____`,
                     answer: v3,
                     theme: 'grammar_verb_forms',
                     form: 'verb_form'
                 });
             }
-        } else if (item.article || item.gender || item.numberPlural) {
+
+            if (item.v2) {
+                const v2Label = (translations[lang] && translations[lang]['label_v2']) || "V2 (Past Simple)";
+                expanded.push({
+                    ...item,
+                    type: 'type-cl',
+                    primaryPrompt: v1,
+                    secondaryContext: v2Label,
+                    clozeText: `${v1} (${v2Label}) -> ____`,
+                    answer: item.v2,
+                    theme: 'grammar_verb_forms',
+                    form: 'verb_form'
+                });
+            }
+            processed = true;
+        }
+
+        // 3. Articles, Gender, and Plurals
+        if (item.article || item.gender || item.plural) {
             if (item.article || item.gender) {
                 const correctAnswer = item.article || item.gender;
                 const baseWord = item.baseWord || item.word;
@@ -1150,7 +1173,7 @@ function startPractice(isWheelMode = false) {
         }
     } else if (selectedCat === 'grammar') {
         const gd = grammarData[lang] || [];
-        const vd = (vocabularyData[lang] || []).filter(item => item.article || item.gender || item.plural);
+        const vd = (vocabularyData[lang] || []).filter(item => item.article || item.gender || item.plural || item.v2 || item.v3 || item.past_participle);
         rawItems = expandGrammarItems([...gd, ...vd], lang);
     } else {
         rawItems = [...(vocabularyData[lang] || [])];
@@ -1637,25 +1660,35 @@ function showNextWord() {
     const formBadge = document.getElementById('word-form');
     const levelBadge = document.getElementById('word-level');
 
-    if (wordObj.form || wordObj.level) {
+    if (wordObj.form || wordObj.level || wordObj.classification || wordObj.aspect || wordObj.group) {
         metaContainer.style.display = 'flex';
+        metaContainer.innerHTML = ''; // Clear existing badges
         const lang = currentPractice.language;
 
-        if (wordObj.form) {
-            formBadge.style.display = 'inline-block';
-            const formKey = `form_${wordObj.form}`;
-            formBadge.textContent = (translations[lang] && translations[lang][formKey]) ? translations[lang][formKey] : wordObj.form;
-            formBadge.setAttribute('data-translate-key', formKey);
-        } else {
-            formBadge.style.display = 'none';
-        }
+        const addBadge = (text, className, translateKey) => {
+            const span = document.createElement('span');
+            span.className = 'meta-badge ' + className;
+            span.textContent = (translateKey && translations[lang] && translations[lang][translateKey]) ? translations[lang][translateKey] : text;
+            if (translateKey) span.setAttribute('data-translate-key', translateKey);
+            metaContainer.appendChild(span);
+        };
 
+        if (wordObj.form) {
+            addBadge(wordObj.form, 'form-badge', `form_${wordObj.form}`);
+        }
+        if (wordObj.classification) {
+            addBadge(wordObj.classification, 'class-badge', `verb_classification_${wordObj.classification}`);
+        }
+        if (wordObj.aspect) {
+            addBadge(wordObj.aspect, 'aspect-badge', `verb_aspect_${wordObj.aspect}`);
+        }
+        if (wordObj.group) {
+            let groupKey = 'verb_group_' + wordObj.group.toLowerCase().replace(/^-/, '').replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_').replace(/_$/, '');
+            addBadge(wordObj.group, 'group-badge', groupKey);
+        }
         if (wordObj.level) {
-            levelBadge.style.display = 'inline-block';
             const levelLabel = (translations[lang] && translations[lang]['level_label']) ? translations[lang]['level_label'] : 'Level';
-            levelBadge.textContent = `${levelLabel}: ${wordObj.level}`;
-        } else {
-            levelBadge.style.display = 'none';
+            addBadge(`${levelLabel}: ${wordObj.level}`, 'level-badge');
         }
     } else {
         metaContainer.style.display = 'none';

@@ -1,25 +1,64 @@
 (function() {
     const data = [
     {
-        "word": "photography",
+        "word": "photograph",
         "level": "intermediate",
         "theme": "society_community_B1",
         "emoji": "📷",
-        "form": "verb"
+        "form": "verb",
+        "subtext": "photograph a wedding, photograph wildlife",
+        "definitions": [
+            {
+                "text": "To take a picture of someone or something using a camera.",
+                "examples": [
+                    "He spent the day photographing the local wildlife."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "photographed",
+        "v3": "photographed"
     },
     {
-        "word": "gardening",
+        "word": "garden",
         "level": "intermediate",
         "theme": "society_community_B1",
         "emoji": "🪴",
-        "form": "verb"
+        "form": "verb",
+        "subtext": "garden on weekends, organic gardening",
+        "definitions": [
+            {
+                "text": "To work in a garden, taking care of plants and flowers.",
+                "examples": [
+                    "My grandmother loves to garden in the morning."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "gardened",
+        "v3": "gardened"
     },
     {
-        "word": "fishing",
+        "word": "fish",
         "level": "intermediate",
         "theme": "society_community_B1",
         "emoji": "🎣",
-        "form": "verb"
+        "form": "verb",
+        "subtext": "go fishing, fish for trout",
+        "definitions": [
+            {
+                "text": "To try to catch fish using a net or a line.",
+                "examples": [
+                    "They fish in the river every summer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "fished",
+        "v3": "fished"
     },
     {
         "word": "volunteer",
@@ -36,7 +75,11 @@
                     "I want to volunteer for the charity event."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "volunteered",
+        "v3": "volunteered"
     }
 ];
     const lang = "en";

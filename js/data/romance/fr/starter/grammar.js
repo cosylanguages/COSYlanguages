@@ -2,6 +2,10 @@
     const data = [
     {
         "verb": "être",
+        "group": "irregular",
+        "classification": "irregular",
+        "aspect": "stative",
+        "past_participle": "été",
         "level": "starter",
         "pronouns": [
             "je",
@@ -114,6 +118,10 @@
     },
     {
         "verb": "avoir",
+        "group": "irregular",
+        "classification": "irregular",
+        "aspect": "stative",
+        "past_participle": "eu",
         "level": "starter",
         "pronouns": [
             "j'",
@@ -226,6 +234,10 @@
     },
     {
         "verb": "travailler",
+        "group": "-er",
+        "classification": "regular",
+        "aspect": "action",
+        "past_participle": "travaillé",
         "level": "starter",
         "pronouns": [
             "je",
@@ -338,6 +350,10 @@
     },
     {
         "verb": "faire",
+        "group": "irregular",
+        "classification": "irregular",
+        "aspect": "action",
+        "past_participle": "fait",
         "level": "starter",
         "pronouns": [
             "je",
@@ -450,6 +466,10 @@
     },
     {
         "verb": "manger",
+        "group": "-er",
+        "classification": "regular",
+        "aspect": "action",
+        "past_participle": "mangé",
         "level": "starter",
         "pronouns": [
             "je",
@@ -562,6 +582,10 @@
     },
     {
         "verb": "parler",
+        "group": "-er",
+        "classification": "regular",
+        "aspect": "action",
+        "past_participle": "parlé",
         "level": "starter",
         "pronouns": [
             "je",
@@ -674,6 +698,10 @@
     },
     {
         "verb": "aller",
+        "group": "-er (irregular)",
+        "classification": "irregular",
+        "aspect": "action",
+        "past_participle": "allé",
         "level": "starter",
         "pronouns": [
             "je",

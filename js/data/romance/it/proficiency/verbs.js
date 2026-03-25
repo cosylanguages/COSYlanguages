@@ -5,7 +5,11 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "🔄",
-        "form": "verb"
+        "form": "verb",
+        "group": "locuzione",
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "cambiato paradigma"
     }
 ];
     const lang = "it";
