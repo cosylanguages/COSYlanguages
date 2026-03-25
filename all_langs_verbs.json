@@ -1,0 +1,6506 @@
+{
+  "fr": [
+    {
+      "word": "être",
+      "level": "starter",
+      "theme": "name_greeting_A0",
+      "emoji": "👤",
+      "subtext": "être fatigué / être heureux / être au travail / être prêt",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Exister ; avoir une qualité ou un état.",
+          "examples": [
+            "Je suis fatigué.",
+            "Elle est médecin.",
+            "Nous sommes en retard."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "irregular",
+      "v3": "été",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "avoir",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "👜",
+      "subtext": "avoir un travail / avoir un problème / avoir le temps",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Posséder quelque chose ; éprouver quelque chose.",
+          "examples": [
+            "J'ai un travail.",
+            "Il a une voiture.",
+            "Elle a mal à la tête."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "irregular",
+      "v3": "eu",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "faire",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "🛠️",
+      "subtext": "faire le travail / faire les courses / faire de l'exercice / ne rien faire",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Effectuer une action ou une activité ; créer ou produire quelque chose.",
+          "examples": [
+            "Je fais mon travail chaque jour.",
+            "Elle fait les courses."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "re",
+      "v3": "fait",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "aller",
+      "level": "starter",
+      "theme": "travel_vocabulary_basics_A0",
+      "emoji": "🚶",
+      "subtext": "aller au travail / aller à la maison / sortir / faire du shopping",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Se déplacer d'un endroit à un autre.",
+          "examples": [
+            "Je vais au travail en bus.",
+            "Elle va chez le médecin."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "irregular",
+      "v3": "allé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "venir",
+      "level": "starter",
+      "theme": "travel_vocabulary_basics_A0",
+      "emoji": "🏃‍♂️",
+      "subtext": "venir à la maison / venir au travail / revenir / venir ici",
+      "opposite": "aller",
+      "oppositeEmoji": "🚶",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Se déplacer vers un lieu ou une personne.",
+          "examples": [
+            "Il vient au bureau à neuf heures.",
+            "Elle vient tard à la maison."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ir",
+      "v3": "venu",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "manger",
+      "level": "starter",
+      "theme": "meals_of_the_day_A0",
+      "emoji": "🍎",
+      "subtext": "manger le petit-déjeuner / manger le déjeuner / manger le dîner / manger dehors",
+      "opposite": "boire",
+      "oppositeEmoji": "🥛",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Mettre de la nourriture dans sa bouche et l'avaler.",
+          "examples": [
+            "Nous mangeons le dîner à sept heures.",
+            "Il mange le déjeuner à son bureau."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "mangé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "boire",
+      "level": "starter",
+      "theme": "drinks_A0",
+      "emoji": "🥛",
+      "subtext": "boire du café / boire du thé / boire de l'eau / boire de la bière",
+      "opposite": "manger",
+      "oppositeEmoji": "🍎",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Prendre un liquide dans sa bouche et l'avaler.",
+          "examples": [
+            "Elle boit du café chaque matin.",
+            "Je bois de l'eau."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "re",
+      "v3": "bu",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "dormir",
+      "level": "starter",
+      "theme": "times_day_A0",
+      "emoji": "😴",
+      "subtext": "bien dormir / mal dormir / dormir huit heures / dormir tard",
+      "opposite": "se réveiller",
+      "oppositeEmoji": "⏰",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Se reposer les yeux fermés dans un état naturel d'inconscience.",
+          "examples": [
+            "Il dort sept heures par nuit.",
+            "Je dors mal."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ir",
+      "v3": "dormi",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "travailler",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "💼",
+      "subtext": "travailler à domicile / travailler à plein temps / travailler dur / travailler tard",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Faire un travail afin de gagner de l'argent.",
+          "examples": [
+            "Elle travaille dans un hôpital.",
+            "Je travaille à domicile."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "travaillé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "vivre",
+      "level": "starter",
+      "theme": "address_location_A1",
+      "emoji": "🏠",
+      "subtext": "vivre dans un appartement / vivre seul / vivre avec quelqu'un / vivre à l'étranger",
+      "opposite": "mourir",
+      "oppositeEmoji": "⚰️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Avoir son domicile dans un lieu ; être vivant.",
+          "examples": [
+            "Il vit dans un appartement près du centre.",
+            "Nous vivons ensemble."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "re",
+      "v3": "vécu",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "aimer",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "👍",
+      "subtext": "aimer le travail / aimer voyager / aimer quelqu'un / aimer l'idée",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Trouver quelque chose d'agréable ; apprécier.",
+          "examples": [
+            "J'aime mon travail.",
+            "Elle aime cuisiner.",
+            "Il aime le café."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "er",
+      "v3": "aimé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "vouloir",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "🙏",
+      "subtext": "vouloir un travail / vouloir partir / vouloir plus d'argent / vouloir de l'aide",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Désirer ou souhaiter quelque chose.",
+          "examples": [
+            "Je veux un café.",
+            "Elle veut un meilleur travail.",
+            "Il veut prendre sa retraite."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "oir",
+      "v3": "voulu",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "avoir besoin de",
+      "level": "starter",
+      "theme": "basic_negative_emotions_A0",
+      "emoji": "🆘",
+      "subtext": "besoin d'aide / besoin de temps / besoin d'argent / besoin de se reposer",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Nécessiter quelque chose ; sentir que quelque chose est nécessaire.",
+          "examples": [
+            "J'ai besoin d'une pause.",
+            "Elle a besoin d'aide.",
+            "Nous avons besoin de plus de temps."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "locution",
+      "v3": "eu besoin",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "voir",
+      "level": "starter",
+      "theme": "body_parts_A0",
+      "emoji": "👁️",
+      "subtext": "voir un médecin / voir des amis / voir le problème / voir clairement",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Remarquer ou percevoir avec les yeux.",
+          "examples": [
+            "Je vois mon médecin demain.",
+            "Elle voit le problème."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "both",
+      "group": "oir",
+      "v3": "vu",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "entendre",
+      "level": "starter",
+      "theme": "body_parts_A0",
+      "emoji": "👂",
+      "subtext": "entendre des nouvelles / entendre quelqu'un / entendre un son / entendre clairement",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Percevoir un son par les oreilles.",
+          "examples": [
+            "J'entends l'alarme chaque matin.",
+            "Est-ce que tu m'entends ?."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "both",
+      "group": "re",
+      "v3": "entendu",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "se sentir",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "🌡️",
+      "subtext": "se sentir fatigué / se sentir mieux / se sentir bien / se sentir stressé",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Éprouver une émotion ou une sensation physique.",
+          "examples": [
+            "Je me sens fatigué.",
+            "Elle se sent stressée.",
+            "Il se sent mieux."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "both",
+      "group": "ir",
+      "v3": "senti",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "savoir",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "🧠",
+      "subtext": "connaître quelqu'un / savoir la réponse / connaître un lieu / savoir comment faire",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Avoir des informations ou une conscience de quelque chose.",
+          "examples": [
+            "Je sais son nom.",
+            "Elle sait la réponse.",
+            "Est-ce que tu le connais ?."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "oir",
+      "v3": "su",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "penser",
+      "level": "starter",
+      "theme": "giving_opinions_A1",
+      "emoji": "💭",
+      "subtext": "penser à / penser de / penser que / penser attentivement",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Avoir une croyance ou une opinion ; utiliser l'esprit.",
+          "examples": [
+            "Je pense que c'est une bonne idée.",
+            "Elle pense à son travail."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "both",
+      "group": "er",
+      "v3": "pensé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "parler",
+      "level": "starter",
+      "theme": "greetings_social_phrases_A0",
+      "emoji": "🗣️",
+      "subtext": "parler à quelqu'un / parler français / parler clairement / parler lors d'une réunion",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Dire des mots ; communiquer verbalement.",
+          "examples": [
+            "Il parle français.",
+            "Elle parle à son manager chaque jour."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "parlé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "dire",
+      "level": "starter",
+      "theme": "greetings_social_phrases_A0",
+      "emoji": "🗨️",
+      "subtext": "dire bonjour / dire oui / dire non / dire quelque chose",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Exprimer quelque chose en paroles.",
+          "examples": [
+            "Elle dit bonjour chaque matin.",
+            "Il dit que c'est difficile."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "re",
+      "v3": "dit",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "demander",
+      "level": "starter",
+      "theme": "asking_answering_questions_A0",
+      "emoji": "❓",
+      "subtext": "poser une question / demander de l'aide / demander à quelqu'un / demander à propos de",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Poser une question à quelqu'un ; solliciter quelque chose.",
+          "examples": [
+            "Elle demande beaucoup de questions.",
+            "Je demande conseil à mon patron."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "demandé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "donner",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🎁",
+      "subtext": "donner des conseils / donner de l'argent / donner un cadeau / donner des informations",
+      "opposite": "prendre",
+      "oppositeEmoji": "👜",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Remettre ou transférer quelque chose à quelqu'un.",
+          "examples": [
+            "Il me donne beaucoup de travail.",
+            "Elle donne des conseils."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "donné",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "prendre",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "👜",
+      "subtext": "prendre le bus / prendre un médicament / prendre une pause / prendre du temps",
+      "opposite": "donner",
+      "oppositeEmoji": "🎁",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Tenir et déplacer quelque chose ; utiliser ou consommer.",
+          "examples": [
+            "Je prends le bus pour aller au travail.",
+            "Elle prend des médicaments."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "re",
+      "v3": "pris",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "obtenir",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "📥",
+      "subtext": "obtenir un travail / se fatiguer / s'améliorer / rentrer à la maison",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Recevoir, obtenir ou devenir.",
+          "examples": [
+            "J'obtiens un bon salaire.",
+            "Il se fatigue rapidement.",
+            "Elle obtient une promotion."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ir",
+      "v3": "obtenu",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "payer",
+      "level": "starter",
+      "theme": "money_payment_A1",
+      "emoji": "💰",
+      "subtext": "payer le loyer / payer par carte / payer en espèces / payer une facture",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Donner de l'argent pour quelque chose.",
+          "examples": [
+            "Je paie le loyer chaque mois.",
+            "Il paie par carte."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "payé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "acheter",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🛒",
+      "subtext": "acheter de la nourriture / acheter un billet / acheter en ligne / acheter une maison",
+      "opposite": "vendre",
+      "oppositeEmoji": "🏷️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Obtenir quelque chose en échange d'argent.",
+          "examples": [
+            "Elle achète de la nourriture en ligne.",
+            "Il veut acheter un appartement."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "acheté",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "ouvrir",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "📖",
+      "subtext": "ouvrir une porte / ouvrir un compte / ouvrir un magasin / ouvrir à neuf heures",
+      "opposite": "fermer",
+      "oppositeEmoji": "🔒",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Faire en sorte que quelque chose ne soit pas fermé ; ou commencer.",
+          "examples": [
+            "Il ouvre le bureau à huit heures.",
+            "Elle ouvre un compte bancaire."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ir",
+      "v3": "ouvert",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "fermer",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🔒",
+      "subtext": "fermer une porte / fermer à six heures / fermer un compte / fermer la réunion",
+      "opposite": "ouvrir",
+      "oppositeEmoji": "📖",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Faire en sorte que quelque chose ne soit pas ouvert ; ou finir.",
+          "examples": [
+            "Le bureau ferme à six heures.",
+            "Elle ferme son ordinateur portable."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "fermé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "commencer",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "▶️",
+      "subtext": "commencer le travail / commencer une réunion / commencer un nouveau travail / commencer tôt",
+      "opposite": "finir",
+      "oppositeEmoji": "🏁",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Débuter une action.",
+          "examples": [
+            "Je commence le travail à huit heures trente.",
+            "Elle commence un nouveau travail."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "commencé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "finir",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "🏁",
+      "subtext": "finir le travail / finir un projet / finir tôt / finir tard",
+      "opposite": "commencer",
+      "oppositeEmoji": "▶️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Terminer quelque chose ; en arriver à la fin.",
+          "examples": [
+            "Il finit son travail à cinq heures.",
+            "Elle finit le rapport."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "ir",
+      "v3": "fini",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "utiliser",
+      "level": "starter",
+      "theme": "basic_technology_devices_A0",
+      "emoji": "🛠️",
+      "subtext": "utiliser un téléphone / utiliser les transports en commun / utiliser un ordinateur / utiliser du temps",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Employer quelque chose dans un but précis.",
+          "examples": [
+            "J'utilise mon téléphone pour tout.",
+            "Elle utilise les transports en commun."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "utilisé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "marcher",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "🚶",
+      "subtext": "marcher pour aller au travail / marcher jusqu'à la maison / marcher lentement / marcher chaque jour",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Se déplacer à pied à une allure normale.",
+          "examples": [
+            "Il marche au travail chaque jour.",
+            "Elle marche pendant sa pause déjeuner."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "marché",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "conduire",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "🚗",
+      "subtext": "conduire au travail / conduire une voiture / conduire jusqu'à la maison / conduire prudemment",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Faire fonctionner un véhicule.",
+          "examples": [
+            "Elle conduit au travail.",
+            "Il conduit une voiture de fonction."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "re",
+      "v3": "conduit",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "appeler",
+      "level": "starter",
+      "theme": "using_a_smartphone_A1",
+      "emoji": "📞",
+      "subtext": "appeler quelqu'un / convoquer une réunion / rappeler / appeler pour dire qu'on est malade",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Téléphoner à quelqu'un.",
+          "examples": [
+            "J'appelle mon patron chaque matin.",
+            "Elle convoque une réunion."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "appelé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "se réveiller",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "⏰",
+      "form": "verb",
+      "subtext": "se réveiller tôt, se réveiller à 7h",
+      "opposite": "dormir",
+      "oppositeEmoji": "😴",
+      "definitions": [
+        {
+          "text": "Arrêter de dormir et ouvrir les yeux.",
+          "examples": [
+            "Je me réveille à sept heures.",
+            "À quelle heure te réveilles-tu ?"
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "réveillé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "regarder",
+      "level": "starter",
+      "theme": "leisure_activities_A1",
+      "emoji": "📺",
+      "form": "verb",
+      "subtext": "regarder la télé, regarder un film",
+      "definitions": [
+        {
+          "text": "Porter son regard sur quelque chose.",
+          "examples": [
+            "Je regarde la télé le soir.",
+            "Ils regardent les oiseaux."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "regardé",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "lire",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "📖",
+      "form": "verb",
+      "subtext": "lire un livre, lire le journal",
+      "opposite": "écrire",
+      "oppositeEmoji": "✍️",
+      "definitions": [
+        {
+          "text": "Regarder et comprendre des mots écrits.",
+          "examples": [
+            "Je lis un livre tous les soirs.",
+            "Elle sait lire le français."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "re",
+      "v3": "lu",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "écrire",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "✍️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Tracer des signes sur du papier ou un écran.",
+          "examples": [
+            "J'écris dans mon journal chaque jour.",
+            "Elle écrit des livres pour enfants."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "re",
+      "v3": "écrit",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "inviter",
+      "level": "starter",
+      "theme": "family_life_A1",
+      "emoji": "✉️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Demander à quelqu'un de venir dans un lieu ou à un événement.",
+          "examples": [
+            "J'invite des amis à dîner."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "er",
+      "v3": "invité",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "considérer",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "🤔",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "both",
+      "subtext": "considérer une option / considérer comme",
+      "definitions": [
+        {
+          "text": "Examiner attentivement quelque chose.",
+          "examples": [
+            "Nous devons considérer toutes les options."
+          ]
+        }
+      ],
+      "v3": "considéré",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "apparaître",
+      "level": "elementary",
+      "theme": "personal_qualities_A2",
+      "emoji": "👻",
+      "form": "verb",
+      "group": "3ème groupe",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "apparaître soudainement / apparaître à l'écran",
+      "definitions": [
+        {
+          "text": "Devenir visible.",
+          "examples": [
+            "Le soleil commence à apparaître."
+          ]
+        }
+      ],
+      "v3": "apparu",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "attendre",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "💭",
+      "form": "verb",
+      "group": "3ème groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "attendre le bus / attendre quelqu'un",
+      "definitions": [
+        {
+          "text": "Rester en un lieu jusqu'à ce que quelqu'un arrive ou que quelque chose se passe.",
+          "examples": [
+            "J'attends le train depuis dix minutes."
+          ]
+        }
+      ],
+      "v3": "attendu",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "servir",
+      "level": "elementary",
+      "theme": "restaurants_ordering_A2",
+      "emoji": "🍽️",
+      "form": "verb",
+      "group": "3ème groupe",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "servir le dîner / servir à quelque chose",
+      "definitions": [
+        {
+          "text": "Présenter un plat à quelqu'un.",
+          "examples": [
+            "Le dîner est servi."
+          ]
+        }
+      ],
+      "v3": "servi",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "construire",
+      "level": "elementary",
+      "theme": "home_repairs_maintenance_A2",
+      "emoji": "🏗️",
+      "form": "verb",
+      "group": "3ème groupe",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "construire une maison / construire un projet",
+      "definitions": [
+        {
+          "text": "Bâtir un édifice ou assembler les éléments de quelque chose.",
+          "examples": [
+            "Ils construisent un nouvel immeuble."
+          ]
+        }
+      ],
+      "v3": "construit",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "rester",
+      "level": "elementary",
+      "theme": "condition_state_A2",
+      "emoji": "⏳",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "stative",
+      "subtext": "rester à la maison / rester calme",
+      "definitions": [
+        {
+          "text": "Demeurer en un lieu ou dans un état.",
+          "examples": [
+            "Je reste à la maison ce soir."
+          ]
+        }
+      ],
+      "v3": "resté",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "atteindre",
+      "level": "elementary",
+      "theme": "transport_travel_A2",
+      "emoji": "🏁",
+      "form": "verb",
+      "group": "3ème groupe",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "atteindre un but / atteindre le sommet",
+      "definitions": [
+        {
+          "text": "Arriver à un lieu ou à un niveau.",
+          "examples": [
+            "Nous avons atteint le sommet de la montagne."
+          ]
+        }
+      ],
+      "v3": "atteint",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "tuer",
+      "level": "elementary",
+      "theme": "right_wrong_basic_A2",
+      "emoji": "⚔️",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "tuer le temps",
+      "definitions": [
+        {
+          "text": "Causer la mort de quelqu'un ou de quelque chose.",
+          "examples": [
+            "Il a tué l'araignée."
+          ]
+        }
+      ],
+      "v3": "tué",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "suggérer",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "💡",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "suggérer une idée / suggérer de faire",
+      "definitions": [
+        {
+          "text": "Proposer une idée ou une action.",
+          "examples": [
+            "Je suggère de partir maintenant."
+          ]
+        }
+      ],
+      "v3": "suggéré",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "lever",
+      "level": "elementary",
+      "theme": "family_life_A1",
+      "emoji": "🙋",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "lever la main / se lever tôt",
+      "definitions": [
+        {
+          "text": "Déplacer quelque chose vers le haut.",
+          "examples": [
+            "Veuillez lever la main si vous avez une question."
+          ]
+        }
+      ],
+      "v3": "levé",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "exiger",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "📜",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "exiger le respect / exiger une réponse",
+      "definitions": [
+        {
+          "text": "Demander quelque chose de façon ferme et impérative.",
+          "examples": [
+            "Le client exige un remboursement."
+          ]
+        }
+      ],
+      "v3": "exigé",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "rapporter",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "📋",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "rapporter un problème / rapporter de l'argent",
+      "definitions": [
+        {
+          "text": "Apporter quelque chose de nouveau ou donner une information.",
+          "examples": [
+            "Il doit rapporter ce qu'il a vu."
+          ]
+        }
+      ],
+      "v3": "rapporté",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "décider",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "⚖️",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "stative",
+      "subtext": "décider de / se décider",
+      "definitions": [
+        {
+          "text": "Prendre une résolution ou faire un choix.",
+          "examples": [
+            "J'ai décidé de changer de travail."
+          ]
+        }
+      ],
+      "v3": "décidé",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "expliquer",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "👨‍🏫",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "expliquer le problème / expliquer comment",
+      "definitions": [
+        {
+          "text": "Faire comprendre quelque chose par des explications.",
+          "examples": [
+            "Le professeur explique la leçon."
+          ]
+        }
+      ],
+      "v3": "expliqué",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "développer",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "💻",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "développer un projet / développer une compétence",
+      "definitions": [
+        {
+          "text": "Faire croître ou progresser quelque chose.",
+          "examples": [
+            "Elle développe un nouveau logiciel."
+          ]
+        }
+      ],
+      "v3": "développé",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "soutenir",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "3ème groupe",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "soutenir un ami / soutenir un projet",
+      "definitions": [
+        {
+          "text": "Aider ou encourager quelqu'un.",
+          "examples": [
+            "Ma famille soutient mes décisions."
+          ]
+        }
+      ],
+      "v3": "soutenu",
+      "tenses": {
+        "present_simple": {
+          "positive": [
+            "soutiens",
+            "soutiens",
+            "soutient",
+            "soutient",
+            "soutenons",
+            "soutenez",
+            "soutiennent",
+            "soutiennent"
+          ],
+          "negative": [
+            "ne soutiens pas",
+            "ne soutiens pas",
+            "ne soutient pas",
+            "ne soutient pas",
+            "ne soutenons pas",
+            "ne soutenez pas",
+            "ne soutiennent pas",
+            "ne soutiennent pas"
+          ]
+        }
+      },
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "frapper",
+      "level": "elementary",
+      "theme": "interests_hobbies_A2",
+      "emoji": "🥊",
+      "form": "verb",
+      "group": "-er",
+      "classification": "regular",
+      "aspect": "action",
+      "v3": "frappé",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "produire",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "🏭",
+      "form": "verb",
+      "group": "3ème groupe",
+      "classification": "irregular",
+      "aspect": "action",
+      "v3": "produit",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "faire face",
+      "level": "elementary",
+      "theme": "personal_qualities_A2",
+      "emoji": "👤",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "v3": "fait face",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "couvrir",
+      "level": "elementary",
+      "theme": "home_repairs_maintenance_A2",
+      "emoji": "🧥",
+      "form": "verb",
+      "group": "3ème groupe",
+      "classification": "irregular",
+      "aspect": "action",
+      "v3": "couvert",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "décrire",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "📝",
+      "form": "verb",
+      "group": "3ème groupe",
+      "classification": "irregular",
+      "aspect": "action",
+      "v3": "décrit",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "attraper",
+      "level": "elementary",
+      "theme": "interests_hobbies_A2",
+      "emoji": "🎣",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "v3": "attrapé",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "postuler",
+      "level": "elementary",
+      "theme": "job_apps_interviews_A2",
+      "emoji": "📝",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "postuler à un emploi",
+      "definitions": [
+        {
+          "text": "Faire une demande formelle pour un emploi.",
+          "examples": [
+            "Elle a postulé pour le poste de manager."
+          ]
+        }
+      ],
+      "v3": "postulé",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "embaucher",
+      "level": "elementary",
+      "theme": "job_apps_interviews_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Donner un emploi à quelqu'un.",
+          "examples": [
+            "L'entreprise a embauché deux nouvelles personnes."
+          ]
+        }
+      ],
+      "v3": "embauché",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "prendre sa retraite",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "👴",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Arrêter de travailler parce qu'on a atteint un certain âge.",
+          "examples": [
+            "Mon père prendra sa retraite l'année prochaine."
+          ]
+        }
+      ],
+      "v3": "pris sa retraite",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "avoir les moyens",
+      "level": "elementary",
+      "theme": "finances_A2",
+      "emoji": "💰",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Avoir assez d'argent pour payer quelque chose.",
+          "examples": [
+            "Nous n'avons pas les moyens d'acheter un plus grand appartement."
+          ]
+        }
+      ],
+      "v3": "eu les moyens",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "se disputer",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🗣️",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Ne pas être d'accord avec quelqu'un de façon colérique.",
+          "examples": [
+            "Ils se disputent parfois à propos de l'argent."
+          ]
+        }
+      ],
+      "v3": "disputé",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "faire confiance",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Croire que quelqu'un est honnête et fiable.",
+          "examples": [
+            "Tu dois faire confiance à ton partenaire."
+          ]
+        }
+      ],
+      "v3": "fait confiance",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "être d'accord",
+      "level": "elementary",
+      "theme": "agreeing_disagreeing_A2",
+      "emoji": "👍",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Avoir la même opinion que quelqu'un d'autre.",
+          "examples": [
+            "Nous ne sommes pas toujours d'accord."
+          ]
+        }
+      ],
+      "v3": "été d'accord",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "faire un compromis",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Accepter moins que ce que l'on veut pour que les deux parties soient satisfaites.",
+          "examples": [
+            "Les bonnes relations nécessitent de faire des compromis."
+          ]
+        }
+      ],
+      "v3": "fait un compromis",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "recycler",
+      "level": "elementary",
+      "theme": "environmental_protection_A2",
+      "emoji": "♻️",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Traiter des matériaux usagés pour qu'ils puissent être réutilisés.",
+          "examples": [
+            "Nous recyclons le papier et le verre."
+          ]
+        }
+      ],
+      "v3": "recyclé",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "jardiner",
+      "level": "intermediate",
+      "theme": "society_community_B1",
+      "emoji": "🧑‍🌾",
+      "form": "verb",
+      "group": "1er groupe",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "jardiner le week-end / jardinage bio",
+      "definitions": [
+        {
+          "text": "Travailler dans un jardin pour faire pousser des plantes.",
+          "examples": [
+            "Il aime jardiner le week-end."
+          ]
+        }
+      ],
+      "v3": "jardiné",
+      "originalLevel": "intermediate"
+    },
+    {
+      "word": "faire du bénévolat",
+      "level": "intermediate",
+      "theme": "society_community_B1",
+      "emoji": "🙋",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "se porter volontaire",
+      "definitions": [
+        {
+          "text": "Offrir de faire quelque chose sans être payé.",
+          "examples": [
+            "Elle fait du bénévolat à la banque alimentaire locale."
+          ]
+        }
+      ],
+      "v3": "fait du bénévolat",
+      "originalLevel": "intermediate"
+    },
+    {
+      "word": "soutenir que",
+      "level": "upper-intermediate",
+      "theme": "formal_debate_vocab_B2",
+      "emoji": "🗣️",
+      "form": "verb",
+      "subtext": "prétendre, affirmer",
+      "definitions": [
+        {
+          "text": "Donner des raisons pour appuyer un point de vue particulier.",
+          "examples": [
+            "Certains soutiennent que le travail à distance réduit l'innovation."
+          ]
+        }
+      ],
+      "originalLevel": "upper-intermediate"
+    },
+    {
+      "word": "infrastructure",
+      "level": "advanced",
+      "theme": "science_tech_society_C1",
+      "emoji": "🏗️",
+      "form": "verb",
+      "group": "nom",
+      "classification": "regular",
+      "aspect": "stative",
+      "v3": "infrastructure",
+      "originalLevel": "advanced"
+    },
+    {
+      "word": "changement de paradigme",
+      "level": "proficiency",
+      "theme": "ontology_metaphysics_C2",
+      "emoji": "🔄",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "v3": "changé de paradigme",
+      "originalLevel": "proficiency"
+    }
+  ],
+  "it": [
+    {
+      "word": "essere",
+      "level": "starter",
+      "theme": "name_greeting_A0",
+      "emoji": "👤",
+      "subtext": "essere stanco / essere felice / essere al lavoro / essere pronto",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Esistere; avere una qualità o uno stato.",
+          "examples": [
+            "Sono stanco.",
+            "Lei è un medico.",
+            "Siamo in ritardo."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "essere",
+      "v3": "stato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "avere",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "👜",
+      "subtext": "avere un lavoro / avere un problema / avere tempo",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Possedere qualcosa; provare qualcosa.",
+          "examples": [
+            "Ho un lavoro.",
+            "Lui ha una macchina.",
+            "Lei ha mal di testa."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "avere",
+      "v3": "avuto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "fare",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "🛠️",
+      "subtext": "fare il lavoro / fare la spesa / fare esercizio / non fare nulla",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Compiere un'azione o un'attività; creare o produrre qualcosa.",
+          "examples": [
+            "Faccio il mio lavoro ogni giorno.",
+            "Lei fa la spesa."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "fatto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "andare",
+      "level": "starter",
+      "theme": "travel_vocabulary_basics_A0",
+      "emoji": "🚶",
+      "subtext": "andare al lavoro / andare a casa / uscire / fare shopping",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Spostarsi da un luogo a un altro.",
+          "examples": [
+            "Vado al lavoro in autobus.",
+            "Lei va dal dottore."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "andato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "venire",
+      "level": "starter",
+      "theme": "travel_vocabulary_basics_A0",
+      "emoji": "🏃‍♂️",
+      "subtext": "venire a casa / venire al lavoro / tornare / venire qui",
+      "opposite": "andare",
+      "oppositeEmoji": "🚶",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Spostarsi verso un luogo o una persona.",
+          "examples": [
+            "Lui viene in ufficio alle nove.",
+            "Lei viene a casa tardi."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ire",
+      "v3": "venuto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "mangiare",
+      "level": "starter",
+      "theme": "meals_of_the_day_A0",
+      "emoji": "🍎",
+      "subtext": "mangiare la colazione / mangiare il pranzo / mangiare la cena / mangiare fuori",
+      "opposite": "bere",
+      "oppositeEmoji": "🥛",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Mettere cibo in bocca e deglutire.",
+          "examples": [
+            "Mangiamo la cena alle sette.",
+            "Lui mangia il pranzo alla sua scrivania."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "mangiato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "bere",
+      "level": "starter",
+      "theme": "drinks_A0",
+      "emoji": "🥛",
+      "subtext": "bere caffè / bere tè / bere acqua / bere birra",
+      "opposite": "mangiare",
+      "oppositeEmoji": "🍎",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Prendere un liquido in bocca e deglutire.",
+          "examples": [
+            "Lei beve caffè ogni mattina.",
+            "Io bevo acqua."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ere",
+      "v3": "bevuto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "dormire",
+      "level": "starter",
+      "theme": "times_day_A0",
+      "emoji": "😴",
+      "subtext": "dormire bene / dormire male / dormire otto ore / dormire tardi",
+      "opposite": "svegliarsi",
+      "oppositeEmoji": "⏰",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Riposare con gli occhi chiusi in uno stato naturale di incoscienza.",
+          "examples": [
+            "Lui dorme sette ore a notte.",
+            "Io dormo male."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "ire",
+      "v3": "dormito",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "lavorare",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "💼",
+      "subtext": "lavorare da casa / lavorare a tempo pieno / lavorare sodo / lavorare fino a tardi",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Svolgere un lavoro per guadagnare denaro.",
+          "examples": [
+            "Lei lavora in un ospedale.",
+            "Io lavoro da casa."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "lavorato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "vivere",
+      "level": "starter",
+      "theme": "address_location_A1",
+      "emoji": "🏠",
+      "subtext": "vivere in un appartamento / vivere da soli / vivere con qualcuno / vivere all'estero",
+      "opposite": "morire",
+      "oppositeEmoji": "⚰️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Avere la propria casa in un luogo; essere vivo.",
+          "examples": [
+            "Lui vive in un appartamento vicino al centro.",
+            "Viviamo insieme."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "ere",
+      "v3": "vissuto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "piacere",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "👍",
+      "subtext": "mi piace il lavoro / mi piace viaggiare / mi piace l'idea",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Trovare qualcosa di piacevole; gradire.",
+          "examples": [
+            "Mi piace il mio lavoro.",
+            "A lei piace cucinare.",
+            "A lui piace il caffè."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "ere",
+      "v3": "piaciuto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "volere",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "🙏",
+      "subtext": "volere un lavoro / volere partire / volere più soldi / volere aiuto",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Desiderare o augurarsi qualcosa.",
+          "examples": [
+            "Voglio un caffè.",
+            "Lei vuole un lavoro migliore.",
+            "Lui vuole andare in pensione."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "ere",
+      "v3": "voluto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "avere bisogno di",
+      "level": "starter",
+      "theme": "basic_negative_emotions_A0",
+      "emoji": "🆘",
+      "subtext": "bisogno di aiuto / bisogno di tempo / bisogno di soldi / bisogno di riposare",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Richiedere qualcosa; sentire che qualcosa è necessario.",
+          "examples": [
+            "Ho bisogno di una pausa.",
+            "Lei ha bisogno di aiuto.",
+            "Abbiamo bisogno di più tempo."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "locution",
+      "v3": "avuto bisogno",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "vedere",
+      "level": "starter",
+      "theme": "body_parts_A0",
+      "emoji": "👁️",
+      "subtext": "vedere un dottore / vedere gli amici / vedere il problema / vedere chiaramente",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Notare o percepire con gli occhi.",
+          "examples": [
+            "Vedo il mio dottore domani.",
+            "Lei vede il problema."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "both",
+      "group": "ere",
+      "v3": "visto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "udire",
+      "level": "starter",
+      "theme": "body_parts_A0",
+      "emoji": "👂",
+      "subtext": "udire notizie / udire qualcuno / udire un suono / udire chiaramente",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Percepire il suono attraverso le orecchie.",
+          "examples": [
+            "Odo l'allarme ogni mattina.",
+            "Puoi udirmi?."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "both",
+      "group": "ire",
+      "v3": "udito",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "sentire",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "🌡️",
+      "subtext": "sentirsi stanco / sentirsi meglio / sentirsi bene / sentirsi stressato",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Provare un'emozione o una sensazione fisica.",
+          "examples": [
+            "Mi sento stanco.",
+            "Lei si sente stressata.",
+            "Lui si sente meglio."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "both",
+      "group": "ire",
+      "v3": "sentito",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "sapere",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "🧠",
+      "subtext": "conoscere qualcuno / sapere la risposta / conoscere un posto / sapere come fare",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Avere informazioni o consapevolezza di qualcosa.",
+          "examples": [
+            "So il suo nome.",
+            "Lei sa la risposta.",
+            "Lo conosci?."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "ere",
+      "v3": "saputo",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "pensare",
+      "level": "starter",
+      "theme": "giving_opinions_A1",
+      "emoji": "💭",
+      "subtext": "pensare a / pensare di / pensare che / pensare attentamente",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Avere una credenza o un'opinione; usare la mente.",
+          "examples": [
+            "Penso che sia una buona idea.",
+            "Lei pensa al suo lavoro."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "both",
+      "group": "are",
+      "v3": "pensato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "parlare",
+      "level": "starter",
+      "theme": "greetings_social_phrases_A0",
+      "emoji": "🗣️",
+      "subtext": "parlare con qualcuno / parlare italiano / parlare chiaramente / parlare a una riunione",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Dire parole; comunicare verbalmente.",
+          "examples": [
+            "Lui parla francese.",
+            "Lei parla con il suo manager ogni giorno."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "parlato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "dire",
+      "level": "starter",
+      "theme": "greetings_social_phrases_A0",
+      "emoji": "🗨️",
+      "subtext": "dire ciao / dire di sì / dire di no / dire qualcosa",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Esprimere qualcosa a parole.",
+          "examples": [
+            "Lei dice ciao ogni mattina.",
+            "Lui dice che è difficile."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ire",
+      "v3": "detto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "chiedere",
+      "level": "starter",
+      "theme": "asking_answering_questions_A0",
+      "emoji": "❓",
+      "subtext": "fare una domanda / chiedere aiuto / chiedere a qualcuno / chiedere di",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Porre una domanda a qualcuno; richiedere qualcosa.",
+          "examples": [
+            "Lei fa un sacco di domande.",
+            "Chiedo consiglio al mio capo."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ere",
+      "v3": "chiesto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "dare",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🎁",
+      "subtext": "dare consigli / dare soldi / dare un regalo / dare informazioni",
+      "opposite": "prendere",
+      "oppositeEmoji": "👜",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Consegnare o trasferire qualcosa a qualcuno.",
+          "examples": [
+            "Lui mi dà un sacco di lavoro.",
+            "Lei dà consigli."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "dato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "prendere",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "👜",
+      "subtext": "prendere l'autobus / prendere una medicina / fare una pausa / prendere tempo",
+      "opposite": "dare",
+      "oppositeEmoji": "🎁",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Tenere e spostare qualcosa; usare o consumare.",
+          "examples": [
+            "Prendo l'autobus per andare al lavoro.",
+            "Lei prende le medicine."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ere",
+      "v3": "preso",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "ottenere",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "📥",
+      "subtext": "ottenere un lavoro / stancarsi / migliorare / tornare a casa",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Ricevere, ottenere o diventare.",
+          "examples": [
+            "Ottengo un buon stipendio.",
+            "Lui si stanca velocemente.",
+            "Lei ottiene una promozione."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ere",
+      "v3": "ottenuto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "pagare",
+      "level": "starter",
+      "theme": "money_payment_A1",
+      "emoji": "💰",
+      "subtext": "pagare l'affitto / pagare con carta / pagare in contanti / pagare una bolletta",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Dare denaro per qualcosa.",
+          "examples": [
+            "Pago l'affitto ogni mese.",
+            "Lui paga con carta."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "pagato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "comprare",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🛒",
+      "subtext": "comprare cibo / comprare un biglietto / comprare online / comprare casa",
+      "opposite": "vendere",
+      "oppositeEmoji": "🏷️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Ottenere qualcosa in cambio di denaro.",
+          "examples": [
+            "Lei compra cibo online.",
+            "Lui vuole comprare un appartamento."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "comprato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "aprire",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "📖",
+      "subtext": "aprire una porta / aprire un conto / aprire un negozio / aprire alle nove",
+      "opposite": "chiudere",
+      "oppositeEmoji": "🔒",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Fare in modo che qualcosa non sia chiuso; o iniziare.",
+          "examples": [
+            "Lui apre l'ufficio alle otto.",
+            "Lei apre un conto bancario."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ire",
+      "v3": "aperto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "chiudere",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🔒",
+      "subtext": "chiudere una porta / chiudere alle sei / chiudere un conto / chiudere la riunione",
+      "opposite": "aprire",
+      "oppositeEmoji": "📖",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Fare in modo che qualcosa non sia aperto; o finire.",
+          "examples": [
+            "L'ufficio chiude alle sei.",
+            "Lei chiude il portatile."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ere",
+      "v3": "chiuso",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "iniziare",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "▶️",
+      "subtext": "iniziare il lavoro / iniziare una riunione / iniziare un nuovo lavoro / iniziare presto",
+      "opposite": "finire",
+      "oppositeEmoji": "🏁",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Iniziare a fare qualcosa.",
+          "examples": [
+            "Inizio a lavorare alle otto e mezza.",
+            "Lei inizia un nuovo lavoro."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "iniziato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "finire",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "🏁",
+      "subtext": "finire il lavoro / finire un progetto / finire presto / finire tardi",
+      "opposite": "iniziare",
+      "oppositeEmoji": "▶️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Completare qualcosa; giungere al termine.",
+          "examples": [
+            "Lui finisce il lavoro alle cinque.",
+            "Lei finisce il rapporto."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "ire",
+      "v3": "finito",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "usare",
+      "level": "starter",
+      "theme": "basic_technology_devices_A0",
+      "emoji": "🛠️",
+      "subtext": "usare un telefono / usare i mezzi pubblici / usare un computer / usare il tempo",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Impiegare qualcosa per uno scopo.",
+          "examples": [
+            "Uso il mio telefono per tutto.",
+            "Lei usa i mezzi pubblici."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "usato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "camminare",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "🚶",
+      "subtext": "camminare verso il lavoro / camminare verso casa / camminare lentamente / camminare ogni giorno",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Muoversi a piedi a passo normale.",
+          "examples": [
+            "Lui cammina verso il lavoro ogni giorno.",
+            "Lei cammina durante la pausa pranzo."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "camminato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "guidare",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "🚗",
+      "subtext": "guidare verso il lavoro / guidare la macchina / guidare verso casa / guidare con prudenza",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Azionare un veicolo.",
+          "examples": [
+            "Lei guida verso il lavoro.",
+            "Lui guida un'auto aziendale."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "guidato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "chiamare",
+      "level": "starter",
+      "theme": "using_a_smartphone_A1",
+      "emoji": "📞",
+      "subtext": "chiamare qualcuno / convocare una riunione / richiamare / chiamare per malattia",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Telefonare a qualcuno.",
+          "examples": [
+            "Chiamo il mio capo ogni mattina.",
+            "Lei convoca una riunione."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "chiamato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "svegliarsi",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "⏰",
+      "form": "verb",
+      "subtext": "svegliarsi presto, svegliarsi alle 7",
+      "opposite": "dormire",
+      "oppositeEmoji": "😴",
+      "definitions": [
+        {
+          "text": "Smettere di dormire e aprire gli occhi.",
+          "examples": [
+            "Mi sveglio alle sette.",
+            "A che ora ti svegli?"
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "svegliato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "guardare",
+      "level": "starter",
+      "theme": "leisure_activities_A1",
+      "emoji": "📺",
+      "form": "verb",
+      "subtext": "guardare la TV, guardare un film",
+      "definitions": [
+        {
+          "text": "Fissare lo sguardo su qualcosa.",
+          "examples": [
+            "Guardo la TV la sera.",
+            "Guardano gli uccelli."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "guardato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "leggere",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "📖",
+      "form": "verb",
+      "subtext": "leggere un libro, leggere il giornale",
+      "opposite": "scrivere",
+      "oppositeEmoji": "✍️",
+      "definitions": [
+        {
+          "text": "Guardare e capire parole scritte.",
+          "examples": [
+            "Leggo un libro ogni notte.",
+            "Lei sa leggere l'italiano."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ere",
+      "v3": "letto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "scrivere",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "✍️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Tracciare segni su carta o su uno schermo.",
+          "examples": [
+            "Scrivo nel mio diario ogni giorno.",
+            "Lei scrive libri per bambini."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "ere",
+      "v3": "scritto",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "invitare",
+      "level": "starter",
+      "theme": "family_life_A1",
+      "emoji": "✉️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Chiedere a qualcuno di venire in un luogo o a un evento.",
+          "examples": [
+            "Invito degli amici a cena."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "are",
+      "v3": "invitato",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "danzare",
+      "level": "elementary",
+      "theme": "interests_hobbies_A2",
+      "emoji": "💃",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "danzare con qualcuno / andare a danzare",
+      "definitions": [
+        {
+          "text": "Muoversi a ritmo di musica.",
+          "examples": [
+            "Abbiamo danzato tutta la notte."
+          ]
+        }
+      ],
+      "v3": "danzato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "considerare",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "🤔",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "both",
+      "subtext": "considerare un'opzione / considerare qualcuno",
+      "definitions": [
+        {
+          "text": "Esaminare attentamente qualcosa.",
+          "examples": [
+            "Dobbiamo considerare tutte le opzioni."
+          ]
+        }
+      ],
+      "v3": "considerato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "apparire",
+      "level": "elementary",
+      "theme": "personal_qualities_A2",
+      "emoji": "👻",
+      "form": "verb",
+      "group": "-ire",
+      "classification": "irregular",
+      "aspect": "stative",
+      "subtext": "apparire in TV / apparire improvvisamente",
+      "definitions": [
+        {
+          "text": "Diventare visibile.",
+          "examples": [
+            "Il sole comincia ad apparire."
+          ]
+        }
+      ],
+      "v3": "apparso",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "servire",
+      "level": "elementary",
+      "theme": "restaurants_ordering_A2",
+      "emoji": "🍽️",
+      "form": "verb",
+      "group": "-ire",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "servire la cena / servire a qualcosa",
+      "definitions": [
+        {
+          "text": "Presentare un piatto a qualcuno o essere utile.",
+          "examples": [
+            "La cena è servita."
+          ]
+        }
+      ],
+      "v3": "servito",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "aspettarsi",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "💭",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "aspettarsi il peggio / aspettarsi qualcuno",
+      "definitions": [
+        {
+          "text": "Rimanere in attesa o prevedere qualcosa.",
+          "examples": [
+            "Mi aspetto che arrivino presto."
+          ]
+        }
+      ],
+      "v3": "aspettato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "costruire",
+      "level": "elementary",
+      "theme": "home_repairs_maintenance_A2",
+      "emoji": "🏗️",
+      "form": "verb",
+      "group": "-ire (isc)",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "costruire una casa / costruire un futuro",
+      "definitions": [
+        {
+          "text": "Edificare o assemblare le parti di qualcosa.",
+          "examples": [
+            "Stanno costruendo un nuovo palazzo."
+          ]
+        }
+      ],
+      "v3": "costruito",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "raggiungere",
+      "level": "elementary",
+      "theme": "transport_travel_A2",
+      "emoji": "🏁",
+      "form": "verb",
+      "group": "-ere",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "raggiungere un obiettivo / raggiungere la vetta",
+      "definitions": [
+        {
+          "text": "Arrivare a un luogo o a un livello.",
+          "examples": [
+            "Abbiamo raggiunto la cima della montagna."
+          ]
+        }
+      ],
+      "v3": "raggiunto",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "uccidere",
+      "level": "elementary",
+      "theme": "right_wrong_basic_A2",
+      "emoji": "⚔️",
+      "form": "verb",
+      "group": "-ere",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "uccidere il tempo",
+      "definitions": [
+        {
+          "text": "Causare la morte di qualcuno o qualcosa.",
+          "examples": [
+            "Il freddo ha ucciso le piante."
+          ]
+        }
+      ],
+      "v3": "ucciso",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "rimanere",
+      "level": "elementary",
+      "theme": "condition_state_A2",
+      "emoji": "⏳",
+      "form": "verb",
+      "group": "-ere",
+      "classification": "irregular",
+      "aspect": "stative",
+      "subtext": "rimanere a casa / rimanere calmi",
+      "definitions": [
+        {
+          "text": "Restare in un luogo o in una condizione.",
+          "examples": [
+            "Rimango a casa stasera."
+          ]
+        }
+      ],
+      "v3": "rimasto",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "suggerire",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "💡",
+      "form": "verb",
+      "group": "-ire (isc)",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "suggerire un'idea / suggerire di fare",
+      "definitions": [
+        {
+          "text": "Proporre un'idea o un'azione.",
+          "examples": [
+            "Suggerisco di partire ora."
+          ]
+        }
+      ],
+      "v3": "suggerito",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "alzare",
+      "level": "elementary",
+      "theme": "family_life_A1",
+      "emoji": "🙋",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "alzare la mano / alzarsi presto",
+      "definitions": [
+        {
+          "text": "Spostare qualcosa verso l'alto.",
+          "examples": [
+            "Alza la mano se hai una domanda."
+          ]
+        }
+      ],
+      "v3": "alzato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "richiedere",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "📜",
+      "form": "verb",
+      "group": "-ere",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "richiedere aiuto / richiedere il passaporto",
+      "definitions": [
+        {
+          "text": "Domandare qualcosa in modo formale o necessario.",
+          "examples": [
+            "Questo lavoro richiede molta pazienza."
+          ]
+        }
+      ],
+      "v3": "richiesto",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "riferire",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "📋",
+      "form": "verb",
+      "group": "-ire (isc)",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "riferire un problema / riferire a qualcuno",
+      "definitions": [
+        {
+          "text": "Riportare un'informazione.",
+          "examples": [
+            "Deve riferire quello che ha visto."
+          ]
+        }
+      ],
+      "v3": "riferito",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "decidere",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "⚖️",
+      "form": "verb",
+      "group": "-ere",
+      "classification": "irregular",
+      "aspect": "stative",
+      "subtext": "decidere di / decidersi",
+      "definitions": [
+        {
+          "text": "Prendere una risoluzione o fare una scelta.",
+          "examples": [
+            "Ho deciso di cambiare lavoro."
+          ]
+        }
+      ],
+      "v3": "deciso",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "spiegare",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "👨‍🏫",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "spiegare il problema / spiegare come",
+      "definitions": [
+        {
+          "text": "Far capire qualcosa tramite spiegazioni.",
+          "examples": [
+            "L'insegnante spiega la lezione."
+          ]
+        }
+      ],
+      "v3": "spiegato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "sviluppare",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "💻",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "sviluppare un progetto / sviluppare una competenza",
+      "definitions": [
+        {
+          "text": "Far crescere o progredire qualcosa.",
+          "examples": [
+            "Lei sviluppa un nuovo software."
+          ]
+        }
+      ],
+      "v3": "sviluppato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "sostenere",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "-ere",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "sostenere un amico / sostenere un esame",
+      "definitions": [
+        {
+          "text": "Aiutare o incoraggiare qualcuno.",
+          "examples": [
+            "La mia famiglia sostiene le mie decisioni."
+          ]
+        }
+      ],
+      "v3": "sostenuto",
+      "tenses": {
+        "present_simple": {
+          "positive": [
+            "sostengo",
+            "sostieni",
+            "sostiene",
+            "sostiene",
+            "sosteniamo",
+            "sostenete",
+            "sostengono"
+          ],
+          "negative": [
+            "non sostengo",
+            "non sostieni",
+            "non sostiene",
+            "non sostiene",
+            "non sosteniamo",
+            "non sostenete",
+            "non sostengono"
+          ]
+        }
+      },
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "colpire",
+      "level": "elementary",
+      "theme": "interests_hobbies_A2",
+      "emoji": "🥊",
+      "form": "verb",
+      "group": "-ire (isc)",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "colpire la palla / colpire il bersaglio",
+      "definitions": [
+        {
+          "text": "Toccare qualcosa con forza improvvisa.",
+          "examples": [
+            "Ha colpito la palla con la mazza."
+          ]
+        }
+      ],
+      "v3": "colpito",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "produrre",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "🏭",
+      "form": "verb",
+      "group": "-urre",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "produrre energia / produrre un film",
+      "definitions": [
+        {
+          "text": "Creare o fabbricare qualcosa.",
+          "examples": [
+            "La fabbrica produce auto."
+          ]
+        }
+      ],
+      "v3": "prodotto",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "affrontare",
+      "level": "elementary",
+      "theme": "personal_qualities_A2",
+      "emoji": "👤",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "affrontare un problema / affrontare la realtà",
+      "definitions": [
+        {
+          "text": "Gestire una situazione difficile.",
+          "examples": [
+            "Dobbiamo affrontare le nostre paure."
+          ]
+        }
+      ],
+      "v3": "affrontato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "coprire",
+      "level": "elementary",
+      "theme": "home_repairs_maintenance_A2",
+      "emoji": "🧥",
+      "form": "verb",
+      "group": "-ire",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "coprire con una coperta / coprire una notizia",
+      "definitions": [
+        {
+          "text": "Mettere qualcosa sopra qualcos'altro.",
+          "examples": [
+            "Ha coperto il tavolo con una tovaglia."
+          ]
+        }
+      ],
+      "v3": "coperto",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "descrivere",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "📝",
+      "form": "verb",
+      "group": "-ere",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "descrivere qualcuno / descrivere una situazione",
+      "definitions": [
+        {
+          "text": "Dire com'è qualcuno o qualcosa.",
+          "examples": [
+            "Puoi descrivere l'uomo che hai visto?"
+          ]
+        }
+      ],
+      "v3": "descritto",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "catturare",
+      "level": "elementary",
+      "theme": "interests_hobbies_A2",
+      "emoji": "🎣",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "catturare la palla / catturare un ladro",
+      "definitions": [
+        {
+          "text": "Prendere possesso di qualcosa che si muove.",
+          "examples": [
+            "Cerca di catturare la palla!"
+          ]
+        }
+      ],
+      "v3": "catturato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "fare domanda",
+      "level": "elementary",
+      "theme": "job_apps_interviews_A2",
+      "emoji": "📝",
+      "form": "verb",
+      "group": "locuzione",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "fare domanda per un lavoro",
+      "definitions": [
+        {
+          "text": "Fare una richiesta formale per un lavoro.",
+          "examples": [
+            "Ha fatto domanda per la posizione di manager."
+          ]
+        }
+      ],
+      "v3": "fatto domanda",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "assumere",
+      "level": "elementary",
+      "theme": "job_apps_interviews_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "-ere",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Dare un lavoro a qualcuno.",
+          "examples": [
+            "L'azienda ha assunto due nuove persone."
+          ]
+        }
+      ],
+      "v3": "assunto",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "andare in pensione",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "👴",
+      "form": "verb",
+      "group": "locuzione",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Smettere di lavorare perché si è raggiunta una certa età.",
+          "examples": [
+            "Mio padre andrà in pensione l'anno prossimo."
+          ]
+        }
+      ],
+      "v3": "andato in pensione",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "permettersi",
+      "level": "elementary",
+      "theme": "finances_A2",
+      "emoji": "💰",
+      "form": "verb",
+      "group": "riflessivo",
+      "classification": "regular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Avere abbastanza denaro per pagare qualcosa.",
+          "examples": [
+            "Non possiamo permetterci un appartamento più grande."
+          ]
+        }
+      ],
+      "v3": "permesso",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "litigare",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🗣️",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Essere in disaccordo con qualcuno in modo arrabbiato.",
+          "examples": [
+            "A volte litigano per i soldi."
+          ]
+        }
+      ],
+      "v3": "litigato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "fidarsi",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "riflessivo",
+      "classification": "regular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Credere che qualcuno sia onesto e affidabile.",
+          "examples": [
+            "Devi fidarti del tuo partner."
+          ]
+        }
+      ],
+      "v3": "fidato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "essere d'accordo",
+      "level": "elementary",
+      "theme": "agreeing_disagreeing_A2",
+      "emoji": "👍",
+      "form": "verb",
+      "group": "locuzione",
+      "classification": "irregular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Avere la stessa opinione di qualcun altro.",
+          "examples": [
+            "Non siamo sempre d'accordo."
+          ]
+        }
+      ],
+      "v3": "stato d'accordo",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "scendere a compromessi",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "locuzione",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Accettare meno di quanto si desidera in modo che entrambe le parti siano soddisfatte.",
+          "examples": [
+            "Le buone relazioni hanno bisogno di scendere a compromessi."
+          ]
+        }
+      ],
+      "v3": "sceso a compromessi",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "riciclare",
+      "level": "elementary",
+      "theme": "environmental_protection_A2",
+      "emoji": "♻️",
+      "form": "verb",
+      "group": "-are",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Trattare materiali usati in modo che possano essere riutilizzati.",
+          "examples": [
+            "Ricicliamo carta e vetro."
+          ]
+        }
+      ],
+      "v3": "riciclato",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "fare giardinaggio",
+      "level": "intermediate",
+      "theme": "society_community_B1",
+      "emoji": "🧑‍🌾",
+      "form": "verb",
+      "group": "locuzione",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "giardinaggio biologico",
+      "definitions": [
+        {
+          "text": "Lavorare in un giardino per far crescere le piante.",
+          "examples": [
+            "Gli piace fare giardinaggio nel fine settimana."
+          ]
+        }
+      ],
+      "v3": "fatto giardinaggio",
+      "originalLevel": "intermediate"
+    },
+    {
+      "word": "fare volontariato",
+      "level": "intermediate",
+      "theme": "society_community_B1",
+      "emoji": "🙋",
+      "form": "verb",
+      "group": "locuzione",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "prestare servizio",
+      "definitions": [
+        {
+          "text": "Offrirsi di fare qualcosa senza essere pagati.",
+          "examples": [
+            "Fa volontariato alla banca alimentare locale."
+          ]
+        }
+      ],
+      "v3": "fatto volontariato",
+      "originalLevel": "intermediate"
+    },
+    {
+      "word": "sostenere che",
+      "level": "upper-intermediate",
+      "theme": "formal_debate_vocab_B2",
+      "emoji": "🗣️",
+      "form": "verb",
+      "subtext": "affermare, argomentare",
+      "definitions": [
+        {
+          "text": "Fornire ragioni per supportare un particolare punto di vista.",
+          "examples": [
+            "Alcuni sostengono che il lavoro a distanza riduca l'innovazione."
+          ]
+        }
+      ],
+      "originalLevel": "upper-intermediate"
+    },
+    {
+      "word": "infrastruttura",
+      "level": "advanced",
+      "theme": "science_tech_society_C1",
+      "emoji": "🏗️",
+      "form": "verb",
+      "group": "sostantivo",
+      "classification": "regular",
+      "aspect": "stative",
+      "v3": "infrastruttura",
+      "originalLevel": "advanced"
+    },
+    {
+      "word": "cambio di paradigma",
+      "level": "proficiency",
+      "theme": "ontology_metaphysics_C2",
+      "emoji": "🔄",
+      "form": "verb",
+      "group": "locuzione",
+      "classification": "irregular",
+      "aspect": "action",
+      "v3": "cambiato paradigma",
+      "originalLevel": "proficiency"
+    }
+  ],
+  "ru": [
+    {
+      "word": "быть",
+      "level": "starter",
+      "theme": "name_greeting_A0",
+      "emoji": "👤",
+      "subtext": "быть уставшим / быть счастливым / быть на работе / быть готовым",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Существовать, находиться в каком-либо состоянии.",
+          "examples": [
+            "Я был уставшим.",
+            "Она врач.",
+            "Мы опоздали."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "irregular",
+      "v2": "был",
+      "v3": "была",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "иметь",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "👜",
+      "subtext": "иметь работу / иметь проблему / иметь время",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Обладать чем-либо.",
+          "examples": [
+            "У меня есть работа.",
+            "У него есть машина.",
+            "У неё болит голова."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "1st_conj",
+      "v2": "имел",
+      "v3": "имела",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "делать",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "🛠️",
+      "subtext": "делать работу / делать покупки / делать упражнения / ничего не делать",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Заниматься какой-либо деятельностью, создавать что-либо.",
+          "examples": [
+            "Я делаю свою работу каждый день.",
+            "Она делает покупки."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "делал",
+      "v3": "делала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "идти",
+      "level": "starter",
+      "theme": "travel_vocabulary_basics_A0",
+      "emoji": "🚶",
+      "subtext": "идти на работу / идти домой / выходить / ходить за покупками",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Двигаться, перемещаться шагом.",
+          "examples": [
+            "Я иду на работу пешком.",
+            "Она идет к врачу."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "шёл",
+      "v3": "шла",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "приходить",
+      "level": "starter",
+      "theme": "travel_vocabulary_basics_A0",
+      "emoji": "🏃‍♂️",
+      "subtext": "приходить домой / приходить на работу / возвращаться / приходить сюда",
+      "opposite": "идти",
+      "oppositeEmoji": "🚶",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Прибывать куда-либо.",
+          "examples": [
+            "Он приходит в офис в девять.",
+            "Она поздно приходит домой."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v2": "приходил",
+      "v3": "приходила",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "есть",
+      "level": "starter",
+      "theme": "meals_of_the_day_A0",
+      "emoji": "🍎",
+      "subtext": "завтракать / обедать / ужинать / есть вне дома",
+      "opposite": "пить",
+      "oppositeEmoji": "🥛",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Принимать пищу.",
+          "examples": [
+            "Мы ужинаем в семь.",
+            "Он обедает за своим столом."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "irregular",
+      "v2": "ел",
+      "v3": "ела",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "пить",
+      "level": "starter",
+      "theme": "drinks_A0",
+      "emoji": "🥛",
+      "subtext": "пить кофе / пить чай / пить воду / пить пиво",
+      "opposite": "есть",
+      "oppositeEmoji": "🍎",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Поглощать какую-либо жидкость.",
+          "examples": [
+            "Она пьет кофе каждое утро.",
+            "Я пью воду."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "пил",
+      "v3": "пила",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "спать",
+      "level": "starter",
+      "theme": "times_day_A0",
+      "emoji": "😴",
+      "subtext": "хорошо спать / плохо спать / спать восемь часов / поздно ложиться спать",
+      "opposite": "просыпаться",
+      "oppositeEmoji": "⏰",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Находиться в состоянии сна.",
+          "examples": [
+            "Он спит по семь часов в сутки.",
+            "Я плохо сплю."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v2": "спал",
+      "v3": "спала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "работать",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "💼",
+      "subtext": "работать из дома / работать полный рабочий день / усердно работать / работать допоздна",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Заниматься трудом, делом.",
+          "examples": [
+            "Она работает в больнице.",
+            "Я работаю из дома."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "работал",
+      "v3": "работала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "жить",
+      "level": "starter",
+      "theme": "address_location_A1",
+      "emoji": "🏠",
+      "subtext": "жить в квартире / жить одному / жить с кем-то / жить за границей",
+      "opposite": "умирать",
+      "oppositeEmoji": "⚰️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Существовать; иметь местожительство.",
+          "examples": [
+            "Он живет в квартире рядом с центром.",
+            "Мы живем вместе."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "1st_conj",
+      "v2": "жил",
+      "v3": "жила",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "нравиться",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "👍",
+      "subtext": "мне нравится работа / мне нравится путешествовать / мне нравится идея",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Вызывать симпатию, быть по вкусу.",
+          "examples": [
+            "Мне нравится моя работа.",
+            "Ей нравится готовить.",
+            "Ему нравится кофе."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "2nd_conj",
+      "v2": "нравился",
+      "v3": "нравилась",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "хотеть",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "🙏",
+      "subtext": "хотеть работу / хотеть уехать / хотеть больше денег / хотеть помощи",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Иметь желание или намерение.",
+          "examples": [
+            "Я хочу кофе.",
+            "Она хочет лучшую работу.",
+            "Он хочет выйти на пенсию."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "mixed_conj",
+      "v2": "хотел",
+      "v3": "хотела",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "нуждаться",
+      "level": "starter",
+      "theme": "basic_negative_emotions_A0",
+      "emoji": "🆘",
+      "subtext": "нуждаться в помощи / нуждаться во времени / нуждаться в деньгах / нужно отдохнуть",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Испытывать потребность в чем-либо.",
+          "examples": [
+            "Мне нужен перерыв.",
+            "Ей нужна помощь.",
+            "Нам нужно больше времени."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "1st_conj",
+      "v2": "нуждался",
+      "v3": "нуждалась",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "видеть",
+      "level": "starter",
+      "theme": "body_parts_A0",
+      "emoji": "👁️",
+      "subtext": "видеть врача / видеть друзей / видеть проблему / ясно видеть",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Воспринимать зрением.",
+          "examples": [
+            "Я увижу своего врача завтра.",
+            "Она видит проблему."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "both",
+      "group": "2nd_conj",
+      "v2": "видел",
+      "v3": "видела",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "слышать",
+      "level": "starter",
+      "theme": "body_parts_A0",
+      "emoji": "👂",
+      "subtext": "слышать новости / слышать кого-то / слышать звук / отчетливо слышать",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Воспринимать слухом.",
+          "examples": [
+            "Я слышу будильник каждое утро.",
+            "Вы меня слышите?."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "both",
+      "group": "2nd_conj",
+      "v2": "слышал",
+      "v3": "слышала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "чувствовать",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "🌡️",
+      "subtext": "чувствовать усталость / чувствовать себя лучше / чувствовать себя хорошо / чувствовать стресс",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Испытывать какое-либо чувство, физическое или душевное состояние.",
+          "examples": [
+            "Я чувствую усталость.",
+            "Она чувствует стресс.",
+            "Он чувствует себя лучше."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "both",
+      "group": "1st_conj",
+      "v2": "чувствовал",
+      "v3": "чувствовала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "знать",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "🧠",
+      "subtext": "знать кого-то / знать ответ / знать место / знать как сделать",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Обладать какими-либо сведениями, знаниями.",
+          "examples": [
+            "Я знаю его имя.",
+            "Она знает ответ.",
+            "Вы его знаете?."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "1st_conj",
+      "v2": "знал",
+      "v3": "знала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "думать",
+      "level": "starter",
+      "theme": "giving_opinions_A1",
+      "emoji": "💭",
+      "subtext": "думать о / думать о чем-то / думать что / внимательно думать",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Размышлять, иметь мнение.",
+          "examples": [
+            "Я думаю, это хорошая идея.",
+            "Она думает о своей работе."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "both",
+      "group": "1st_conj",
+      "v2": "думал",
+      "v3": "думала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "говорить",
+      "level": "starter",
+      "theme": "greetings_social_phrases_A0",
+      "emoji": "🗣️",
+      "subtext": "говорить с кем-то / говорить по-русски / говорить четко / говорить на встрече",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Выражать мысли словами; владеть языком.",
+          "examples": [
+            "Он говорит по-французски.",
+            "Она каждый день говорит со своим менеджером."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v2": "говорил",
+      "v3": "говорила",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "сказать",
+      "level": "starter",
+      "theme": "greetings_social_phrases_A0",
+      "emoji": "🗨️",
+      "subtext": "сказать привет / сказать да / сказать нет / сказать что-нибудь",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Выразить что-либо словами.",
+          "examples": [
+            "Она говорит «привет» каждое утро.",
+            "Он говорит, что это трудно."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "сказал",
+      "v3": "сказала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "спрашивать",
+      "level": "starter",
+      "theme": "asking_answering_questions_A0",
+      "emoji": "❓",
+      "subtext": "задавать вопрос / просить о помощи / спрашивать кого-то / просить о",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Обращаться к кому-либо с вопросом или просьбой.",
+          "examples": [
+            "Она задает много вопросов.",
+            "Я прошу совета у начальника."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "спрашивал",
+      "v3": "спрашивала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "давать",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🎁",
+      "subtext": "давать советы / давать деньги / давать подарок / давать информацию",
+      "opposite": "брать",
+      "oppositeEmoji": "👜",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Вручать, передавать что-либо.",
+          "examples": [
+            "Он дает мне много работы.",
+            "Она дает советы."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "давал",
+      "v3": "давала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "брать",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "👜",
+      "subtext": "садиться в автобус / принимать лекарство / делать перерыв / занимать время",
+      "opposite": "давать",
+      "oppositeEmoji": "🎁",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Принимать, захватывать руками или иным способом.",
+          "examples": [
+            "Я еду на работу на автобусе.",
+            "Она принимает лекарство."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "брал",
+      "v3": "брала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "получать",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "📥",
+      "subtext": "получить работу / уставать / становиться лучше / приходить домой",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Приобретать, становиться обладателем чего-либо.",
+          "examples": [
+            "Я получаю хорошую зарплату.",
+            "Он быстро устает.",
+            "Она получает повышение."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "получал",
+      "v3": "получала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "платить",
+      "level": "starter",
+      "theme": "money_payment_A1",
+      "emoji": "💰",
+      "subtext": "платить за аренду / платить картой / платить наличными / оплачивать счета",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Отдавать деньги за что-либо.",
+          "examples": [
+            "Я плачу за аренду каждый месяц.",
+            "Он платит картой."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v2": "платил",
+      "v3": "платила",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "покупать",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🛒",
+      "subtext": "покупать еду / покупать билет / покупать онлайн / покупать дом",
+      "opposite": "продавать",
+      "oppositeEmoji": "🏷️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Приобретать за деньги.",
+          "examples": [
+            "Она покупает еду онлайн.",
+            "Он хочет купить квартиру."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "покупал",
+      "v3": "покупала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "открывать",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "📖",
+      "subtext": "открывать дверь / открывать счет / открывать магазин / открываться в девять",
+      "opposite": "закрывать",
+      "oppositeEmoji": "🔒",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Делать доступным, открытым.",
+          "examples": [
+            "Он открывает офис в восемь.",
+            "Она открывает банковский счет."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "открывал",
+      "v3": "открывала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "закрывать",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🔒",
+      "subtext": "закрывать дверь / закрываться в шесть / закрывать счет / закрывать встречу",
+      "opposite": "открывать",
+      "oppositeEmoji": "📖",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Прекращать доступ куда-либо; заканчивать.",
+          "examples": [
+            "Офис закрывается в шесть.",
+            "Она закрывает ноутбук."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "закрывал",
+      "v3": "закрывала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "начинать",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "▶️",
+      "subtext": "начинать работу / начинать встречу / начинать новую работу / начинать рано",
+      "opposite": "заканчивать",
+      "oppositeEmoji": "🏁",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Приступать к какому-либо действию.",
+          "examples": [
+            "Я начинаю работать в восемь тридцать.",
+            "Она начинает новую работу."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "начинал",
+      "v3": "начинала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "заканчивать",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "🏁",
+      "subtext": "заканчивать работу / заканчивать проект / заканчивать рано / заканчивать поздно",
+      "opposite": "начинать",
+      "oppositeEmoji": "▶️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Доводить до конца, завершать.",
+          "examples": [
+            "Он заканчивает работу в пять.",
+            "Она заканчивает отчет."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "заканчивал",
+      "v3": "заканчивала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "использовать",
+      "level": "starter",
+      "theme": "basic_technology_devices_A0",
+      "emoji": "🛠️",
+      "subtext": "пользоваться телефоном / пользоваться общественным транспортом / использовать компьютер / тратить время",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Пользоваться чем-либо.",
+          "examples": [
+            "Я пользуюсь телефоном для всего.",
+            "Она пользуется общественным транспортом."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "использовал",
+      "v3": "использовала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "гулять",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "🚶",
+      "subtext": "идти на работу / идти домой / медленно гулять / гулять каждый день",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Идти пешком ради удовольствия или перемещения.",
+          "examples": [
+            "Он гуляет до работы каждый день.",
+            "Она гуляет во время обеденного перерыва."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "гулял",
+      "v3": "гуляла",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "водить",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "🚗",
+      "subtext": "ехать на работу / водить машину / ехать домой / осторожно водить",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Управлять транспортным средством.",
+          "examples": [
+            "Она едет на работу на машине.",
+            "Он водит служебный автомобиль."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v2": "водил",
+      "v3": "водила",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "звонить",
+      "level": "starter",
+      "theme": "using_a_smartphone_A1",
+      "emoji": "📞",
+      "subtext": "звонить кому-то / назначать встречу / перезванивать / звонить по болезни",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Вызывать по телефону.",
+          "examples": [
+            "Я звоню начальнику каждое утро.",
+            "Она назначает встречу."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v2": "звонил",
+      "v3": "звонила",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "просыпаться",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "⏰",
+      "form": "verb",
+      "subtext": "рано просыпаться, просыпаться в 7",
+      "opposite": "спать",
+      "oppositeEmoji": "😴",
+      "definitions": [
+        {
+          "text": "Переставать спать.",
+          "examples": [
+            "Я просыпаюсь в семь.",
+            "Во сколько ты просыпаешься?"
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "просыпался",
+      "v3": "просыпалась",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "смотреть",
+      "level": "starter",
+      "theme": "leisure_activities_A1",
+      "emoji": "📺",
+      "form": "verb",
+      "subtext": "смотреть телевизор, смотреть фильм",
+      "definitions": [
+        {
+          "text": "Направлять взгляд на что-либо.",
+          "examples": [
+            "Я смотрю телевизор по вечерам.",
+            "Они смотрят на птиц."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v2": "смотрел",
+      "v3": "смотрела",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "читать",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "📖",
+      "form": "verb",
+      "subtext": "читать книгу, читать газету",
+      "opposite": "писать",
+      "oppositeEmoji": "✍️",
+      "definitions": [
+        {
+          "text": "Воспринимать написанное.",
+          "examples": [
+            "Я читаю книгу каждую ночь.",
+            "Она умеет читать по-русски."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "читал",
+      "v3": "читала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "писать",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "✍️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Изображать знаки на бумаге или экране.",
+          "examples": [
+            "Я пишу в дневнике каждый день.",
+            "Она пишет книги для детей."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "писал",
+      "v3": "писала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "приглашать",
+      "level": "starter",
+      "theme": "family_life_A1",
+      "emoji": "✉️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Просить кого-либо прийти куда-либо.",
+          "examples": [
+            "Я приглашаю друзей на ужин."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v2": "приглашал",
+      "v3": "приглашала",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "предлагать",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "💡",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "предлагать идею / предлагать помощь",
+      "definitions": [
+        {
+          "text": "Выдвигать что-либо на рассмотрение.",
+          "examples": [
+            "Я предлагаю пойти в парк."
+          ]
+        }
+      ],
+      "v3": "предложил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "рассматривать",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "🤔",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "both",
+      "subtext": "рассматривать вариант / внимательно рассматривать",
+      "definitions": [
+        {
+          "text": "Обсуждать или обдумывать что-либо.",
+          "examples": [
+            "Мы рассматриваем ваше предложение."
+          ]
+        }
+      ],
+      "v3": "рассмотрел",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "появляться",
+      "level": "elementary",
+      "theme": "personal_qualities_A2",
+      "emoji": "👻",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "появляться внезапно / появляться на ТВ",
+      "definitions": [
+        {
+          "text": "Становиться видимым или обнаруживаться.",
+          "examples": [
+            "На небе появилось солнце."
+          ]
+        }
+      ],
+      "v3": "появился",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "служить",
+      "level": "elementary",
+      "theme": "restaurants_ordering_A2",
+      "emoji": "🍽️",
+      "form": "verb",
+      "group": "2-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "служить в армии / служить примером",
+      "definitions": [
+        {
+          "text": "Выполнять свои обязанности.",
+          "examples": [
+            "Он служит в этом ресторане десять лет."
+          ]
+        }
+      ],
+      "v3": "служил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "ожидать",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "💭",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "stative",
+      "subtext": "ожидать звонка / ожидать ребенка",
+      "definitions": [
+        {
+          "text": "Надеяться на что-то, полагать что что-то произойдет.",
+          "examples": [
+            "Я ожидаю вашего ответа."
+          ]
+        }
+      ],
+      "v3": "ожидал",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "строить",
+      "level": "elementary",
+      "theme": "home_repairs_maintenance_A2",
+      "emoji": "🏗️",
+      "form": "verb",
+      "group": "2-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "строить дом / строить планы",
+      "definitions": [
+        {
+          "text": "Создавать здание или структуру.",
+          "examples": [
+            "Они строят новый торговый центр."
+          ]
+        }
+      ],
+      "v3": "строил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "оставаться",
+      "level": "elementary",
+      "theme": "condition_state_A2",
+      "emoji": "⏳",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "stative",
+      "subtext": "оставаться дома / оставаться спокойным",
+      "definitions": [
+        {
+          "text": "Не уходить, пребывать в том же состоянии.",
+          "examples": [
+            "Я остаюсь дома сегодня вечером."
+          ]
+        }
+      ],
+      "v3": "остался",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "достигать",
+      "level": "elementary",
+      "theme": "transport_travel_A2",
+      "emoji": "🏁",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "достигать цели / достигать вершины",
+      "definitions": [
+        {
+          "text": "Доходить до какого-либо предела или уровня.",
+          "examples": [
+            "Мы достигли вершины горы."
+          ]
+        }
+      ],
+      "v3": "достиг",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "убивать",
+      "level": "elementary",
+      "theme": "right_wrong_basic_A2",
+      "emoji": "⚔️",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "убивать время",
+      "definitions": [
+        {
+          "text": "Лишать жизни.",
+          "examples": [
+            "Холод убил растения."
+          ]
+        }
+      ],
+      "v3": "убил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "поднимать",
+      "level": "elementary",
+      "theme": "family_life_A1",
+      "emoji": "🙋",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "поднимать руку / поднимать вопрос",
+      "definitions": [
+        {
+          "text": "Перемещать на более высокое место.",
+          "examples": [
+            "Поднимите руку, если есть вопросы."
+          ]
+        }
+      ],
+      "v3": "поднял",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "требовать",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "📜",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "требовать внимания / требовать ответа",
+      "definitions": [
+        {
+          "text": "Настойчиво просить что-либо.",
+          "examples": [
+            "Клиент требует возврата денег."
+          ]
+        }
+      ],
+      "v3": "требовал",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "сообщать",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "📋",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "сообщать новости / сообщать о проблеме",
+      "definitions": [
+        {
+          "text": "Передавать информацию.",
+          "examples": [
+            "Он должен сообщить о том, что видел."
+          ]
+        }
+      ],
+      "v3": "сообщил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "решать",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "⚖️",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "stative",
+      "subtext": "решать задачу / решать уйти",
+      "definitions": [
+        {
+          "text": "Принимать решение или находить ответ.",
+          "examples": [
+            "Я решил сменить работу."
+          ]
+        }
+      ],
+      "v3": "решил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "объяснять",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "👨‍🏫",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "объяснять правило / объяснять почему",
+      "definitions": [
+        {
+          "text": "Делать понятным.",
+          "examples": [
+            "Учитель объясняет урок."
+          ]
+        }
+      ],
+      "v3": "объяснил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "развивать",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "💻",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "развивать навыки / развивать бизнес",
+      "definitions": [
+        {
+          "text": "Совершенствовать, способствовать росту.",
+          "examples": [
+            "Она развивает новый проект."
+          ]
+        }
+      ],
+      "v3": "развивал",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "поддерживать",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "поддерживать друга / поддерживать связь",
+      "definitions": [
+        {
+          "text": "Оказывать помощь или одобрение.",
+          "examples": [
+            "Моя семья поддерживает мои решения."
+          ]
+        }
+      ],
+      "v3": "поддерживал",
+      "tenses": {
+        "present_simple": {
+          "positive": [
+            "поддерживаю",
+            "поддерживаешь",
+            "поддерживает",
+            "поддерживает",
+            "поддерживает",
+            "поддерживаем",
+            "поддерживаете",
+            "поддерживают"
+          ],
+          "negative": [
+            "не поддерживаю",
+            "не поддерживаешь",
+            "не поддерживает",
+            "не поддерживает",
+            "не поддерживает",
+            "не поддерживаем",
+            "не поддерживаете",
+            "не поддерживают"
+          ]
+        }
+      },
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "ударять",
+      "level": "elementary",
+      "theme": "interests_hobbies_A2",
+      "emoji": "🥊",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "ударять по мячу / ударять в барабан",
+      "definitions": [
+        {
+          "text": "Наносить удар.",
+          "examples": [
+            "Он ударил по мячу."
+          ]
+        }
+      ],
+      "v3": "ударил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "производить",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "🏭",
+      "form": "verb",
+      "group": "2-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "производить энергию / производить впечатление",
+      "definitions": [
+        {
+          "text": "Изготавливать, вырабатывать.",
+          "examples": [
+            "Завод производит автомобили."
+          ]
+        }
+      ],
+      "v3": "производил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "сталкиваться",
+      "level": "elementary",
+      "theme": "personal_qualities_A2",
+      "emoji": "👤",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "сталкиваться с проблемой / сталкиваться лбами",
+      "definitions": [
+        {
+          "text": "Встречаться с чем-либо трудным.",
+          "examples": [
+            "Мы должны столкнуться со своими страхами."
+          ]
+        }
+      ],
+      "v3": "столкнулся",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "покрывать",
+      "level": "elementary",
+      "theme": "home_repairs_maintenance_A2",
+      "emoji": "🧥",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "покрывать одеялом / покрывать расходы",
+      "definitions": [
+        {
+          "text": "Помещать что-либо поверх другого.",
+          "examples": [
+            "Она покрыла стол скатертью."
+          ]
+        }
+      ],
+      "v3": "покрыл",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "описывать",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "📝",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "описывать человека / описывать ситуацию",
+      "definitions": [
+        {
+          "text": "Изображать словами.",
+          "examples": [
+            "Вы можете описать человека, которого видели?"
+          ]
+        }
+      ],
+      "v3": "описал",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "ловить",
+      "level": "elementary",
+      "theme": "interests_hobbies_A2",
+      "emoji": "🎣",
+      "form": "verb",
+      "group": "2-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "ловить рыбу / ловить такси / ловить мяч",
+      "definitions": [
+        {
+          "text": "Захватывать движущийся предмет.",
+          "examples": [
+            "Попробуй поймать мяч!"
+          ]
+        }
+      ],
+      "v3": "ловил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "подавать заявку",
+      "level": "elementary",
+      "theme": "job_apps_interviews_A2",
+      "emoji": "📝",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Подавать официальный запрос о приеме на работу.",
+          "examples": [
+            "Она подала заявку на должность менеджера."
+          ]
+        }
+      ],
+      "v3": "подал заявку",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "нанимать",
+      "level": "elementary",
+      "theme": "job_apps_interviews_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Предоставлять кому-либо работу.",
+          "examples": [
+            "Компания наняла двух новых сотрудников."
+          ]
+        }
+      ],
+      "v3": "нанял",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "выходить на пенсию",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "👴",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Прекращать работу по достижении определенного возраста.",
+          "examples": [
+            "Мой отец выйдет на пенсию в следующем году."
+          ]
+        }
+      ],
+      "v3": "вышел на пенсию",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "позволить себе",
+      "level": "elementary",
+      "theme": "finances_A2",
+      "emoji": "💰",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Иметь достаточно денег, чтобы заплатить за что-то.",
+          "examples": [
+            "Мы не можем позволить себе квартиру побольше."
+          ]
+        }
+      ],
+      "v3": "позволил себе",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "спорить",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🗣️",
+      "form": "verb",
+      "group": "2-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Выражать несогласие с кем-либо в сердитой форме.",
+          "examples": [
+            "Они иногда спорят из-за денег."
+          ]
+        }
+      ],
+      "v3": "спорил",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "доверять",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Верить в честность и надежность кого-либо.",
+          "examples": [
+            "Вы должны доверять своему партнеру."
+          ]
+        }
+      ],
+      "v3": "доверял",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "соглашаться",
+      "level": "elementary",
+      "theme": "agreeing_disagreeing_A2",
+      "emoji": "👍",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Иметь такое же мнение, как и кто-то другой.",
+          "examples": [
+            "Мы не всегда соглашаемся."
+          ]
+        }
+      ],
+      "v3": "согласился",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "идти на компромисс",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Принимать условия, при которых обе стороны будут удовлетворены.",
+          "examples": [
+            "Хорошие отношения требуют умения идти на компромисс."
+          ]
+        }
+      ],
+      "v3": "пошел на компромисс",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "перерабатывать",
+      "level": "elementary",
+      "theme": "environmental_protection_A2",
+      "emoji": "♻️",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Перерабатывать использованные материалы для повторного использования.",
+          "examples": [
+            "Мы перерабатываем бумагу и стекло."
+          ]
+        }
+      ],
+      "v3": "переработал",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "заниматься садоводством",
+      "level": "intermediate",
+      "theme": "society_community_B1",
+      "emoji": "🧑‍🌾",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Работать в саду, выращивать растения.",
+          "examples": [
+            "Ему нравится заниматься садоводством по выходным."
+          ]
+        }
+      ],
+      "v3": "занимался садоводством",
+      "originalLevel": "intermediate"
+    },
+    {
+      "word": "работать волонтёром",
+      "level": "intermediate",
+      "theme": "society_community_B1",
+      "emoji": "🙋",
+      "form": "verb",
+      "group": "1-е спряжение",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Предлагать сделать что-то без оплаты.",
+          "examples": [
+            "Она работает волонтёром в местном банке еды."
+          ]
+        }
+      ],
+      "v3": "работал волонтёром",
+      "originalLevel": "intermediate"
+    },
+    {
+      "word": "утверждать, что",
+      "level": "upper-intermediate",
+      "theme": "formal_debate_vocab_B2",
+      "emoji": "🗣️",
+      "form": "verb",
+      "subtext": "доказывать, аргументировать",
+      "definitions": [
+        {
+          "text": "Приводить доводы в поддержку определенной точки зрения.",
+          "examples": [
+            "Некоторые утверждают, что удаленная работа снижает инновации."
+          ]
+        }
+      ],
+      "originalLevel": "upper-intermediate"
+    },
+    {
+      "word": "инфраструктура",
+      "level": "advanced",
+      "theme": "science_tech_society_C1",
+      "emoji": "🏗️",
+      "form": "verb",
+      "group": "существительное",
+      "classification": "regular",
+      "aspect": "stative",
+      "v3": "инфраструктура",
+      "originalLevel": "advanced"
+    },
+    {
+      "word": "смена парадигмы",
+      "level": "proficiency",
+      "theme": "ontology_metaphysics_C2",
+      "emoji": "🔄",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "v3": "сменил парадигму",
+      "originalLevel": "proficiency"
+    }
+  ],
+  "el": [
+    {
+      "word": "είμαι",
+      "level": "starter",
+      "theme": "name_greeting_A0",
+      "emoji": "👤",
+      "subtext": "είμαι κουρασμένος / είμαι χαρούμενος / είμαι στη δουλειά / είμαι έτοιμος",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Υπάρχω, βρίσκομαι σε μια κατάσταση.",
+          "examples": [
+            "Είμαι κουρασμένος.",
+            "Είναι γιατρός.",
+            "Είμαστε αργοπορημένοι."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "auxiliary",
+      "v3": "ήμουν",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "έχω",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "👜",
+      "subtext": "έχω δουλειά / έχω πρόβλημα / έχω χρόνο",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Κατέχω κάτι, αισθάνομαι κάτι.",
+          "examples": [
+            "Έχω δουλειά.",
+            "Έχει αυτοκίνητο.",
+            "Έχει πονοκέφαλο."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "1st_conj",
+      "v3": "είχα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "κάνω",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "🛠️",
+      "subtext": "κάνω τη δουλειά / κάνω τα ψώνια / κάνω γυμναστική / δεν κάνω τίποτα",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Εκτελώ μια ενέργεια ή δραστηριότητα.",
+          "examples": [
+            "Κάνω τη δουλειά μου κάθε μέρα.",
+            "Κάνει τα ψώνια."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "έκανα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "πηγαίνω",
+      "level": "starter",
+      "theme": "travel_vocabulary_basics_A0",
+      "emoji": "🚶",
+      "subtext": "πηγαίνω στη δουλειά / πηγαίνω σπίτι / βγαίνω έξω / πηγαίνω για ψώνια",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Μετακινούμαι από ένα μέρος σε άλλο.",
+          "examples": [
+            "Πηγαίνω στη δουλειά με το λεωφορείο.",
+            "Πηγαίνει στον γιατρό."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "πήγα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "έρχομαι",
+      "level": "starter",
+      "theme": "travel_vocabulary_basics_A0",
+      "emoji": "🏃‍♂️",
+      "subtext": "έρχομαι σπίτι / έρχομαι στη δουλειά / επιστρέφω / έλα εδώ",
+      "opposite": "πηγαίνω",
+      "oppositeEmoji": "🚶",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Φτάνω ή κινούμαι προς το μέρος του ομιλητή.",
+          "examples": [
+            "Έρχεται στο γραφείο στις εννιά.",
+            "Έρχεται σπίτι αργά."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "a_passive",
+      "v3": "ήρθα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "τρώω",
+      "level": "starter",
+      "theme": "meals_of_the_day_A0",
+      "emoji": "🍎",
+      "subtext": "τρώω πρωινό / τρώω μεσημεριανό / τρώω βραδινό / τρώω έξω",
+      "opposite": "πίνω",
+      "oppositeEmoji": "🥛",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Καταναλώνω τροφή.",
+          "examples": [
+            "Τρώμε βραδινό στις επτά.",
+            "Τρώει μεσημεριανό στο γραφείο του."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "irregular",
+      "v3": "έφαγα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "πίνω",
+      "level": "starter",
+      "theme": "drinks_A0",
+      "emoji": "🥛",
+      "subtext": "πίνω καφέ / πίνω τσάι / πίνω νερό / πίνω μπίρα",
+      "opposite": "τρώω",
+      "oppositeEmoji": "🍎",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Καταναλώνω υγρό.",
+          "examples": [
+            "Πίνει καφέ κάθε πρωί.",
+            "Πίνω νερό."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "ήπια",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "κοιμάμαι",
+      "level": "starter",
+      "theme": "times_day_A0",
+      "emoji": "😴",
+      "subtext": "κοιμάμαι καλά / κοιμάμαι άσχημα / κοιμάμαι οκτώ ώρες / κοιμάμαι αργά",
+      "opposite": "ξυπνάω",
+      "oppositeEmoji": "⏰",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Αναπαύομαι με κλειστά μάτια.",
+          "examples": [
+            "Κοιμάται επτά ώρες τη νύχτα.",
+            "Κοιμάμαι άσχημα."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "a_passive",
+      "v3": "κοιμήθηκα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "δουλεύω",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "💼",
+      "subtext": "δουλεύω από το σπίτι / δουλεύω πλήρες ωράριο / δουλεύω σκληρά / δουλεύω μέχρι αργά",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Εργάζομαι για να κερδίσω χρήματα.",
+          "examples": [
+            "Δουλεύει σε νοσοκομείο.",
+            "Δουλεύω από το σπίτι."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "δούλεψα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "ζω",
+      "level": "starter",
+      "theme": "address_location_A1",
+      "emoji": "🏠",
+      "subtext": "ζω σε διαμέρισμα / ζω μόνος / ζω με κάποιον / ζω στο εξωτερικό",
+      "opposite": "πεθαίνω",
+      "oppositeEmoji": "⚰️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Είμαι ζωντανός, κατοικώ κάπου.",
+          "examples": [
+            "Ζει σε ένα διαμέρισμα κοντά στο κέντρο.",
+            "Ζούμε μαζί."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "stative",
+      "group": "2nd_conj",
+      "v3": "έζησα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "μου αρέσει",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "👍",
+      "subtext": "μου αρέσει η δουλειά / μου αρέσουν τα ταξίδια / μου αρέσει η ιδέα",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Βρίσκω κάτι ευχάριστο.",
+          "examples": [
+            "Μου αρέσει η δουλειά μου.",
+            "Της αρέσει να μαγειρεύει.",
+            "Του αρέσει ο καφές."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "impersonal",
+      "v3": "μου άρεσε",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "θέλω",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "🙏",
+      "subtext": "θέλω δουλειά / θέλω να φύγω / θέλω περισσότερα χρήματα / θέλω βοήθεια",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Επιθυμώ κάτι.",
+          "examples": [
+            "Θέλω έναν καφέ.",
+            "Θέλει μια καλύτερη δουλειά.",
+            "Θέλει να βγει στη σύνταξη."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "1st_conj",
+      "v3": "ήθελα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "χρειάζομαι",
+      "level": "starter",
+      "theme": "basic_negative_emotions_A0",
+      "emoji": "🆘",
+      "subtext": "χρειάζομαι βοήθεια / χρειάζομαι χρόνο / χρειάζομαι χρήματα / χρειάζεται να ξεκουραστώ",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Έχω ανάγκη από κάτι.",
+          "examples": [
+            "Χρειάζομαι ένα διάλειμμα.",
+            "Χρειάζεται βοήθεια.",
+            "Χρειαζόμαστε περισσότερο χρόνο."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "a_passive",
+      "v3": "χρειάστηκα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "βλέπω",
+      "level": "starter",
+      "theme": "body_parts_A0",
+      "emoji": "👁️",
+      "subtext": "βλέπω γιατρό / βλέπω φίλους / βλέπω το πρόβλημα / βλέπω καθαρά",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Αντιλαμβάνομαι με την όραση.",
+          "examples": [
+            "Βλέπω τον γιατρό μου αύριο.",
+            "Βλέπει το πρόβλημα."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "both",
+      "group": "1st_conj",
+      "v3": "είδα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "ακούω",
+      "level": "starter",
+      "theme": "body_parts_A0",
+      "emoji": "👂",
+      "subtext": "ακούω νέα / ακούω κάποιον / ακούω έναν ήχο / ακούω καθαρά",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Αντιλαμβάνομαι με την ακοή.",
+          "examples": [
+            "Ακούω το ξυπνητήρι κάθε πρωί.",
+            "Με ακούτε;."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "both",
+      "group": "1st_conj",
+      "v3": "άκουσα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "νιώθω",
+      "level": "starter",
+      "theme": "basic_positive_emotions_A0",
+      "emoji": "🌡️",
+      "subtext": "νιώθω κουρασμένος / νιώθω καλύτερα / νιώθω καλά / νιώθω στρες",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Αισθάνομαι κάτι σωματικά ή ψυχικά.",
+          "examples": [
+            "Νιώθω κουρασμένος.",
+            "Νιώθει στρες.",
+            "Νιώθει καλύτερα."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "both",
+      "group": "1st_conj",
+      "v3": "ένιωσα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "ξέρω",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "🧠",
+      "subtext": "ξέρω κάποιον / ξέρω την απάντηση / ξέρω ένα μέρος / ξέρω πώς να κάνω",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Έχω γνώση ή πληροφορία για κάτι.",
+          "examples": [
+            "Ξέρω το όνομά του.",
+            "Ξέρει την απάντηση.",
+            "Τον ξέρετε;."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "stative",
+      "group": "1st_conj",
+      "v3": "ήξερα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "νομίζω",
+      "level": "starter",
+      "theme": "giving_opinions_A1",
+      "emoji": "💭",
+      "subtext": "σκέφτομαι / πιστεύω ότι / νομίζω ότι / σκέφτομαι προσεκτικά",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Έχω μια γνώμη ή πεποίθηση.",
+          "examples": [
+            "Νομίζω ότι είναι καλή ιδέα.",
+            "Σκέφτεται τη δουλειά της."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "both",
+      "group": "1st_conj",
+      "v3": "νόμισα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "μιλάω",
+      "level": "starter",
+      "theme": "greetings_social_phrases_A0",
+      "emoji": "🗣️",
+      "subtext": "μιλάω με κάποιον / μιλάω ελληνικά / μιλάω καθαρά / μιλάω σε μια συνάντηση",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Λέω λέξεις, επικοινωνώ προφορικά.",
+          "examples": [
+            "Μιλάει γαλλικά.",
+            "Μιλάει με τον διευθυντή της κάθε μέρα."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v3": "μίλησα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "λέω",
+      "level": "starter",
+      "theme": "greetings_social_phrases_A0",
+      "emoji": "🗨️",
+      "subtext": "λέω γεια / λέω ναι / λέω όχι / λέω κάτι",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Εκφράζω κάτι με λόγια.",
+          "examples": [
+            "Λέει γεια κάθε πρωί.",
+            "Λέει ότι είναι δύσκολο."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "είπα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "ρωτάω",
+      "level": "starter",
+      "theme": "asking_answering_questions_A0",
+      "emoji": "❓",
+      "subtext": "κάνω μια ερώτηση / ζητάω βοήθεια / ρωτάω κάποιον / ζητάω για",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Θέτω ένα ερώτημα ή ζητώ κάτι.",
+          "examples": [
+            "Κάνει πολλές ερωτήσεις.",
+            "Ζητάω συμβουλή από το αφεντικό μου."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v3": "ρώτησα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "δίνω",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🎁",
+      "subtext": "δίνω συμβουλές / δίνω χρήματα / δίνω ένα δώρο / δίνω πληροφορίες",
+      "opposite": "παίρνω",
+      "oppositeEmoji": "👜",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Παραδίδω κάτι σε κάποιον.",
+          "examples": [
+            "Μου δίνει πολλή δουλειά.",
+            "Δίνει συμβουλές."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "έδωσα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "παίρνω",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "👜",
+      "subtext": "παίρνω το λεωφορείο / παίρνω φάρμακο / κάνω διάλειμμα / παίρνω χρόνο",
+      "opposite": "δίνω",
+      "oppositeEmoji": "🎁",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Κρατώ και μετακινώ κάτι, χρησιμοποιώ.",
+          "examples": [
+            "Παίρνω το λεωφορείο για τη δουλειά.",
+            "Παίρνει το φάρμακό της."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "πήρα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "παίρνω",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "📥",
+      "subtext": "βρίσκω δουλειά / κουράζομαι / γίνομαι καλύτερος / πάω σπίτι",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Λαμβάνω, αποκτώ ή γίνομαι.",
+          "examples": [
+            "Παίρνω καλό μισθό.",
+            "Κουράζεται γρήγορα.",
+            "Παίρνει προαγωγή."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "πήρα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "πληρώνω",
+      "level": "starter",
+      "theme": "money_payment_A1",
+      "emoji": "💰",
+      "subtext": "πληρώνω το ενοίκιο / πληρώνω με κάρτα / πληρώνω με μετρητά / πληρώνω λογαριασμό",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Δίνω χρήματα για κάτι.",
+          "examples": [
+            "Πληρώνω το ενοίκιο κάθε μήνα.",
+            "Πληρώνει με κάρτα."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "πλήρωσα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "αγοράζω",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🛒",
+      "subtext": "αγοράζω φαγητό / αγοράζω εισιτήριο / αγοράζω online / αγοράζω σπίτι",
+      "opposite": "πουλάω",
+      "oppositeEmoji": "🏷️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Αποκτώ κάτι με χρήματα.",
+          "examples": [
+            "Αγοράζει φαγητό online.",
+            "Θέλει να αγοράσει ένα διαμέρισμα."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "αγόρασα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "ανοίγω",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "📖",
+      "subtext": "ανοίγω μια πόρτα / ανοίγω λογαριασμό / ανοίγω μαγαζί / ανοίγω στις εννιά",
+      "opposite": "κλείνω",
+      "oppositeEmoji": "🔒",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Κάνω κάτι να μην είναι κλειστό, ή ξεκινώ.",
+          "examples": [
+            "Ανοίγει το γραφείο στις οκτώ.",
+            "Ανοίγει τραπεζικό λογαριασμό."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "άνοιξα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "κλείνω",
+      "level": "starter",
+      "theme": "everyday_shopping_A0",
+      "emoji": "🔒",
+      "subtext": "κλείνω μια πόρτα / κλείνω στις έξι / κλείνω λογαριασμό / κλείνω τη συνάντηση",
+      "opposite": "ανοίγω",
+      "oppositeEmoji": "📖",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Κάνω κάτι να μην είναι ανοιχτό, ή τελειώνω.",
+          "examples": [
+            "Το γραφείο κλείνει στις έξι.",
+            "Κλείνει το λάπτοπ της."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "έκλεισα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "ξεκινάω",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "▶️",
+      "subtext": "ξεκινάω δουλειά / ξεκινάω μια συνάντηση / ξεκινάω μια νέα δουλειά / ξεκινάω νωρίς",
+      "opposite": "τελειώνω",
+      "oppositeEmoji": "🏁",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Αρχίζω να κάνω κάτι.",
+          "examples": [
+            "Ξεκινάω δουλειά στις οκτώ και μισή.",
+            "Ξεκινάει μια νέα δουλειά."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v3": "ξεκίνησα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "τελειώνω",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "🏁",
+      "subtext": "τελειώνω τη δουλειά / τελειώνω ένα έργο / τελειώνω νωρίς / τελειώνω αργά",
+      "opposite": "ξεκινάω",
+      "oppositeEmoji": "▶️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Ολοκληρώνω κάτι, φτάνω στο τέλος.",
+          "examples": [
+            "Τελειώνει τη δουλειά στις πέντε.",
+            "Τελειώνει την αναφορά."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "τελείωσα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "χρησιμοποιώ",
+      "level": "starter",
+      "theme": "basic_technology_devices_A0",
+      "emoji": "🛠️",
+      "subtext": "χρησιμοποιώ τηλέφωνο / χρησιμοποιώ τη συγκοινωνία / χρησιμοποιώ υπολογιστή / χρησιμοποιώ τον χρόνο",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Θέτω κάτι σε λειτουργία για έναν σκοπό.",
+          "examples": [
+            "Χρησιμοποιώ το τηλέφωνό μου για τα πάντα.",
+            "Χρησιμοποιεί τη συγκοινωνία."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v3": "χρησιμοποίησα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "περπατάω",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "🚶",
+      "subtext": "περπατάω προς τη δουλειά / περπατάω προς το σπίτι / περπατάω αργά / περπατάω κάθε μέρα",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Κινούμαι με τα πόδια.",
+          "examples": [
+            "Περπατάει προς τη δουλειά κάθε μέρα.",
+            "Περπατάει στο διάλειμμα για φαγητό."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v3": "περπάτησα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "οδηγώ",
+      "level": "starter",
+      "theme": "modes_of_transport_A0",
+      "emoji": "🚗",
+      "subtext": "οδηγώ προς τη δουλειά / οδηγώ το αυτοκίνητο / οδηγώ προς το σπίτι / οδηγώ προσεκτικά",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Χειρίζομαι ένα όχημα.",
+          "examples": [
+            "Οδηγεί προς τη δουλειά.",
+            "Οδηγεί ένα εταιρικό αυτοκίνητο."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v3": "οδήγησα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "καλώ",
+      "level": "starter",
+      "theme": "using_a_smartphone_A1",
+      "emoji": "📞",
+      "subtext": "παίρνω τηλέφωνο / καλώ σε συνάντηση / παίρνω πίσω / δηλώνω ασθένεια",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Τηλεφωνώ σε κάποιον.",
+          "examples": [
+            "Καλώ το αφεντικό μου κάθε πρωί.",
+            "Καλεί σε συνάντηση."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v3": "κάλεσα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "ξυπνάω",
+      "level": "starter",
+      "theme": "daily_work_routines_A1",
+      "emoji": "⏰",
+      "form": "verb",
+      "subtext": "ξυπνάω νωρίς, ξυπνάω στις 7",
+      "opposite": "κοιμάμαι",
+      "oppositeEmoji": "😴",
+      "definitions": [
+        {
+          "text": "Σταματώ να κοιμάμαι.",
+          "examples": [
+            "Ξυπνάω στις επτά.",
+            "Τι ώρα ξυπνάς;"
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v3": "ξύπνησα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "βλέπω",
+      "level": "starter",
+      "theme": "body_parts_A0",
+      "emoji": "📺",
+      "form": "verb",
+      "subtext": "βλέπω τηλεόραση, βλέπω ταινία",
+      "definitions": [
+        {
+          "text": "Κοιτάζω κάτι.",
+          "examples": [
+            "Βλέπω τηλεόραση το βράδυ.",
+            "Βλέπουν τα πουλιά."
+          ]
+        }
+      ],
+      "classification": "irregular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "είδα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "διαβάζω",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "📖",
+      "form": "verb",
+      "subtext": "διαβάζω βιβλίο, διαβάζω εφημερίδα",
+      "opposite": "γράφω",
+      "oppositeEmoji": "✍️",
+      "definitions": [
+        {
+          "text": "Κοιτάζω και καταλαβαίνω γραπτές λέξεις.",
+          "examples": [
+            "Διαβάζω ένα βιβλίο κάθε βράδυ.",
+            "Ξέρει να διαβάζει ελληνικά."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "διάβασα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "γράφω",
+      "level": "starter",
+      "theme": "learning_studying_A1",
+      "emoji": "✍️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Σχηματίζω γράμματα σε χαρτί ή οθόνη.",
+          "examples": [
+            "Γράφω στο ημερολόγιό μου κάθε μέρα.",
+            "Γράφει βιβλία για παιδιά."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "1st_conj",
+      "v3": "έγραψα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "προσκαλώ",
+      "level": "starter",
+      "theme": "family_life_A1",
+      "emoji": "✉️",
+      "form": "verb",
+      "definitions": [
+        {
+          "text": "Ζητώ από κάποιον να έρθει κάπου.",
+          "examples": [
+            "Προσκαλώ φίλους για δείπνο."
+          ]
+        }
+      ],
+      "classification": "regular",
+      "aspect": "action",
+      "group": "2nd_conj",
+      "v3": "προσκάλεσα",
+      "originalLevel": "starter"
+    },
+    {
+      "word": "περιμένω",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "💭",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "περιμένω το λεωφορείο / περιμένω κάποιον",
+      "definitions": [
+        {
+          "text": "Μένω κάπου μέχρι να έρθει κάποιος.",
+          "examples": [
+            "Περιμένω το τρένο δέκα λεπτά."
+          ]
+        }
+      ],
+      "v3": "περίμενα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "υπηρετώ",
+      "level": "elementary",
+      "theme": "restaurants_ordering_A2",
+      "emoji": "🍽️",
+      "form": "verb",
+      "group": "Group B2",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "υπηρετώ στο στρατό",
+      "definitions": [
+        {
+          "text": "Εκτελώ μια υπηρεσία.",
+          "examples": [
+            "Υπηρετεί στην εταιρεία χρόνια."
+          ]
+        }
+      ],
+      "v3": "υπηρέτησα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "χτίζω",
+      "level": "elementary",
+      "theme": "home_repairs_maintenance_A2",
+      "emoji": "🏗️",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "χτίζω σπίτι / χτίζω καριέρα",
+      "definitions": [
+        {
+          "text": "Κατασκευάζω ένα κτίριο.",
+          "examples": [
+            "Χτίζουν ένα νέο ξενοδοχείο."
+          ]
+        }
+      ],
+      "v3": "έχτισα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "φτάνω",
+      "level": "elementary",
+      "theme": "transport_travel_A2",
+      "emoji": "🏁",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "φτάνω στο σπίτι / φτάνω στο τέλος",
+      "definitions": [
+        {
+          "text": "Έρχομαι σε ένα μέρος.",
+          "examples": [
+            "Φτάσαμε αργά το βράδυ."
+          ]
+        }
+      ],
+      "v3": "έφτασα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "σκοτώνω",
+      "level": "elementary",
+      "theme": "right_wrong_basic_A2",
+      "emoji": "⚔️",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "σκοτώνω την ώρα μου",
+      "definitions": [
+        {
+          "text": "Προκαλώ θάνατο.",
+          "examples": [
+            "Το κρύο σκότωσε τα φυτά."
+          ]
+        }
+      ],
+      "v3": "σκότωσα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "παραμένω",
+      "level": "elementary",
+      "theme": "condition_state_A2",
+      "emoji": "⏳",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "stative",
+      "subtext": "παραμένω ήρεμος / παραμένω στο σπίτι",
+      "definitions": [
+        {
+          "text": "Μένω στην ίδια κατάσταση.",
+          "examples": [
+            "Παραμένω στη διάθεσή σας."
+          ]
+        }
+      ],
+      "v3": "παρέμεινα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "προτείνω",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "💡",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "προτείνω μια ιδέα / προτείνω λύση",
+      "definitions": [
+        {
+          "text": "Λέω μια ιδέα για εξέταση.",
+          "examples": [
+            "Προτείνω να φύγουμε τώρα."
+          ]
+        }
+      ],
+      "v3": "πρότεινα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "σηκώνω",
+      "level": "elementary",
+      "theme": "family_life_A1",
+      "emoji": "🙋",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "σηκώνω το χέρι / σηκώνω βάρη",
+      "definitions": [
+        {
+          "text": "Μετακινώ κάτι προς τα πάνω.",
+          "examples": [
+            "Σήκωσε το χέρι σου αν ξέρεις."
+          ]
+        }
+      ],
+      "v3": "σήκωσα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "απαιτώ",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "📜",
+      "form": "verb",
+      "group": "Group B2",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "απαιτώ σεβασμό / απαιτώ απάντηση",
+      "definitions": [
+        {
+          "text": "Ζητώ κάτι επιτακτικά.",
+          "examples": [
+            "Η δουλειά απαιτεί υπομονή."
+          ]
+        }
+      ],
+      "v3": "απαίτησα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "αναφέρω",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "📋",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "αναφέρω ένα πρόβλημα",
+      "definitions": [
+        {
+          "text": "Λέω κάτι επίσημα.",
+          "examples": [
+            "Πρέπει να αναφέρω τι είδα."
+          ]
+        }
+      ],
+      "v3": "ανέφερα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "αποφασίζω",
+      "level": "elementary",
+      "theme": "giving_reasons_A2",
+      "emoji": "⚖️",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "stative",
+      "subtext": "αποφασίζω να φύγω",
+      "definitions": [
+        {
+          "text": "Παίρνω μια απόφαση.",
+          "examples": [
+            "Αποφάσισα να αλλάξω δουλειά."
+          ]
+        }
+      ],
+      "v3": "αποφάσισα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "εξηγώ",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "👨‍🏫",
+      "form": "verb",
+      "group": "Group B2",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "εξηγώ τον κανόνα / εξηγώ γιατί",
+      "definitions": [
+        {
+          "text": "Κάνω κάτι κατανοητό.",
+          "examples": [
+            "Ο δάσκαλος εξηγεί το μάθημα."
+          ]
+        }
+      ],
+      "v3": "εξήγησα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "αναπτύσσω",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "💻",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "αναπτύσσω μια δεξιότητα",
+      "definitions": [
+        {
+          "text": "Κάνω κάτι να μεγαλώσει.",
+          "examples": [
+            "Αναπτύσσει ένα νέο λογισμικό."
+          ]
+        }
+      ],
+      "v3": "ανέπτυξα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "υποστηρίζω",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "υποστηρίζω έναν φίλο / υποστηρίζω μια ομάδα",
+      "definitions": [
+        {
+          "text": "Βοηθώ ή ενθαρρύνω κάποιον.",
+          "examples": [
+            "Η οικογένειά μου υποστηρίζει τις αποφάσεις μου."
+          ]
+        }
+      ],
+      "v3": "υποστήριξα",
+      "tenses": {
+        "present_simple": {
+          "positive": [
+            "υποστηρίζω",
+            "υποστηρίζεις",
+            "υποστηρίζει",
+            "υποστηρίζει",
+            "υποστηρίζει",
+            "υποστηρίζουμε",
+            "υποστηρίζετε",
+            "υποστηρίζουν"
+          ],
+          "negative": [
+            "δεν υποστηρίζω",
+            "δεν υποστηρίζεις",
+            "δεν υποστηρίζει",
+            "δεν υποστηρίζει",
+            "δεν υποστηρίζει",
+            "δεν υποστηρίζουμε",
+            "δεν υποστηρίζετε",
+            "δεν υποστηρίζουν"
+          ]
+        }
+      },
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "χτυπώ",
+      "level": "elementary",
+      "theme": "interests_hobbies_A2",
+      "emoji": "🥊",
+      "form": "verb",
+      "group": "Group B1",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "χτυπώ την πόρτα / χτυπώ την μπάλα",
+      "definitions": [
+        {
+          "text": "Δίνω χτύπημα.",
+          "examples": [
+            "Χτύπησε την μπάλα δυνατά."
+          ]
+        }
+      ],
+      "v3": "χτύπησα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "παράγω",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "🏭",
+      "form": "verb",
+      "group": "Group A (irregular)",
+      "classification": "irregular",
+      "aspect": "action",
+      "subtext": "παράγω ενέργεια",
+      "definitions": [
+        {
+          "text": "Φτιάχνω ή δημιουργώ κάτι.",
+          "examples": [
+            "Το εργοστάσιο παράγει αυτοκίνητα."
+          ]
+        }
+      ],
+      "v3": "παρήγαγα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "αντιμετωπίζω",
+      "level": "elementary",
+      "theme": "personal_qualities_A2",
+      "emoji": "👤",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "αντιμετωπίζω ένα πρόβλημα",
+      "definitions": [
+        {
+          "text": "Διαχειρίζομαι μια κατάσταση.",
+          "examples": [
+            "Πρέπει να αντιμετωπίσουμε τους φόβους μας."
+          ]
+        }
+      ],
+      "v3": "αντιμετώπισα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "καλύπτω",
+      "level": "elementary",
+      "theme": "home_repairs_maintenance_A2",
+      "emoji": "🧥",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "καλύπτω με κουβέρτα / καλύπτω τα έξοδα",
+      "definitions": [
+        {
+          "text": "Βάζω κάτι πάνω από κάτι άλλο.",
+          "examples": [
+            "Κάλυψε το τραπέζι με ένα πανί."
+          ]
+        }
+      ],
+      "v3": "κάλυψα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "περιγράφω",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "📝",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "περιγράφω κάποιον / περιγράφω μια εικόνα",
+      "definitions": [
+        {
+          "text": "Λέω πώς είναι κάποιος ή κάτι.",
+          "examples": [
+            "Μπορείς να περιγράψεις τι έγινε;"
+          ]
+        }
+      ],
+      "v3": "περιέγραψα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "πιάζω",
+      "level": "elementary",
+      "theme": "interests_hobbies_A2",
+      "emoji": "🎣",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "subtext": "πιάζω ψάρια / πιάζω την μπάλα",
+      "definitions": [
+        {
+          "text": "Κρατώ κάτι που κινείται.",
+          "examples": [
+            "Προσπάθησε να πιάσεις την μπάλα!"
+          ]
+        }
+      ],
+      "v3": "έπιασα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "κάνω αίτηση",
+      "level": "elementary",
+      "theme": "job_apps_interviews_A2",
+      "emoji": "📝",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Κάνω ένα επίσημο αίτημα για μια θέση εργασίας.",
+          "examples": [
+            "Έκανε αίτηση για τη θέση του διευθυντή."
+          ]
+        }
+      ],
+      "v3": "έκανα αίτηση",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "προσλαμβάνω",
+      "level": "elementary",
+      "theme": "job_apps_interviews_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Δίνω σε κάποιον μια δουλειά.",
+          "examples": [
+            "Η εταιρεία προσέλαβε δύο νέα άτομα."
+          ]
+        }
+      ],
+      "v3": "προσέλαβα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "βγαίνω στη σύνταξη",
+      "level": "elementary",
+      "theme": "career_development_A2",
+      "emoji": "👴",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Σταματώ να εργάζομαι επειδή έφτασα σε μια ορισμένη ηλικία.",
+          "examples": [
+            "Ο πατέρας μου θα βγει στη σύνταξη του χρόνου."
+          ]
+        }
+      ],
+      "v3": "βγήκα στη σύνταξη",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "έχω την οικονομική δυνατότητα",
+      "level": "elementary",
+      "theme": "finances_A2",
+      "emoji": "💰",
+      "form": "verb",
+      "group": "locution",
+      "classification": "irregular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Έχω αρκετά χρήματα για να πληρώσω κάτι.",
+          "examples": [
+            "Δεν έχουμε την οικονομική δυνατότητα για ένα μεγαλύτερο διαμέρισμα."
+          ]
+        }
+      ],
+      "v3": "είχα τη δυνατότητα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "μαλώνω",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🗣️",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Διαφωνώ με κάποιον με θυμωμένο τρόπο.",
+          "examples": [
+            "Μερικές φορές μαλώνουν για τα χρήματα."
+          ]
+        }
+      ],
+      "v3": "μάλωσα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "εμπιστεύομαι",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "Group A (passive)",
+      "classification": "regular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Πιστεύω ότι κάποιος είναι ειλικρινής και αξιόπιστος.",
+          "examples": [
+            "Πρέπει να εμπιστεύεσαι τον σύντροφό σου."
+          ]
+        }
+      ],
+      "v3": "εμπιστεύτηκα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "συμφωνώ",
+      "level": "elementary",
+      "theme": "agreeing_disagreeing_A2",
+      "emoji": "👍",
+      "form": "verb",
+      "group": "Group B1",
+      "classification": "regular",
+      "aspect": "stative",
+      "definitions": [
+        {
+          "text": "Έχω την ίδια γνώμη με κάποιον άλλον.",
+          "examples": [
+            "Δεν συμφωνούμε πάντα."
+          ]
+        }
+      ],
+      "v3": "συμφώνησα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "συμβιβάζομαι",
+      "level": "elementary",
+      "theme": "relationships_dating_A2",
+      "emoji": "🤝",
+      "form": "verb",
+      "group": "Group A (passive)",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Δέχομαι λιγότερα από όσα θέλω ώστε και οι δύο πλευρές να είναι ικανοποιημένες.",
+          "examples": [
+            "Οι καλές σχέσεις χρειάζονται συμβιβασμό."
+          ]
+        }
+      ],
+      "v3": "συμβιβάστηκα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "ανακυκλώνω",
+      "level": "elementary",
+      "theme": "environmental_protection_A2",
+      "emoji": "♻️",
+      "form": "verb",
+      "group": "Group A",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Επεξεργάζομαι χρησιμοποιημένα υλικά ώστε να μπορούν να χρησιμοποιηθούν ξανά.",
+          "examples": [
+            "Ανακυκλώνουμε χαρτί και γυαλί."
+          ]
+        }
+      ],
+      "v3": "ανακύκλωσα",
+      "originalLevel": "elementary"
+    },
+    {
+      "word": "κάνω κηπουρική",
+      "level": "intermediate",
+      "theme": "society_community_B1",
+      "emoji": "🧑‍🌾",
+      "form": "verb",
+      "group": "locution",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Εργάζομαι σε έναν κήπο για την καλλιέργεια φυτών.",
+          "examples": [
+            "Του αρέσει να κάνει κηπουρική τα σαββατοκύριακα."
+          ]
+        }
+      ],
+      "v3": "έκανα κηπουρική",
+      "originalLevel": "intermediate"
+    },
+    {
+      "word": "κάνω εθελοντισμό",
+      "level": "intermediate",
+      "theme": "society_community_B1",
+      "emoji": "🙋",
+      "form": "verb",
+      "group": "locution",
+      "classification": "regular",
+      "aspect": "action",
+      "definitions": [
+        {
+          "text": "Προσφέρομαι να κάνω κάτι χωρίς να πληρωθώ.",
+          "examples": [
+            "Κάνει εθελοντισμό στην τοπική τράπεζα τροφίμων."
+          ]
+        }
+      ],
+      "v3": "έκανα εθελοντισμό",
+      "originalLevel": "intermediate"
+    },
+    {
+      "word": "ισχυρίζονται ότι",
+      "level": "upper-intermediate",
+      "theme": "formal_debate_vocab_B2",
+      "emoji": "🗣️",
+      "form": "verb",
+      "subtext": "υποστηρίζω, επιχειρηματολογώ",
+      "definitions": [
+        {
+          "text": "Δίνω λόγους για να υποστηρίξω μια συγκεκριμένη άποψη.",
+          "examples": [
+            "Κάποιοι ισχυρίζονται ότι η τηλεργασία μειώνει την καινοτομία."
+          ]
+        }
+      ],
+      "originalLevel": "upper-intermediate"
+    }
+  ]
+}

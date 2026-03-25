@@ -5,7 +5,7 @@
         "level": "starter",
         "theme": "name_greeting_A0",
         "emoji": "👤",
-        "subtext": "быть уставшим / быть счастливым / быть на работе / быть готовым",
+        "subtext": "быть готовым / быть уставшим / быть дома",
         "form": "verb",
         "definitions": [
             {
@@ -28,7 +28,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "иметь работу / иметь проблему / иметь время",
+        "subtext": "иметь работу / обедать / иметь проблему",
         "form": "verb",
         "definitions": [
             {
@@ -47,15 +47,149 @@
         "v3": "имела"
     },
     {
+        "word": "чувствовать",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "🌡️",
+        "subtext": "чувствовать усталость / чувствовать себя лучше",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Испытывать какое-либо чувство, физическое или душевное состояние.",
+                "examples": [
+                    "Я чувствую усталость.",
+                    "Она чувствует стресс.",
+                    "Он чувствует себя лучше."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "group": "1st_conj",
+        "v2": "чувствовал",
+        "v3": "чувствовала"
+    },
+    {
+        "word": "давать",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🎁",
+        "subtext": "давать советы / давать деньги / давать подарок",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Вручать, передавать что-либо.",
+                "examples": [
+                    "Он дает мне много работы.",
+                    "Она дает советы."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "давал",
+        "v3": "давала"
+    },
+    {
+        "word": "брать",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "👜",
+        "subtext": "садиться в автобус / принимать лекарство",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Принимать, захватывать руками или иным способом.",
+                "examples": [
+                    "Я еду на работу на автобусе.",
+                    "Она принимает лекарство."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "брал",
+        "v3": "брала"
+    },
+    {
+        "word": "получать",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📥",
+        "subtext": "получить работу / уставать / становиться лучше",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Приобретать, становиться обладателем чего-либо.",
+                "examples": [
+                    "Я получаю хорошую зарплату.",
+                    "Он быстро устает.",
+                    "Она получает повышение."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "получал",
+        "v3": "получала"
+    },
+    {
+        "word": "класть",
+        "level": "starter",
+        "theme": "furniture_objects_A0",
+        "emoji": "📥",
+        "subtext": "класть / убирать / положить телефон",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Помещать что-либо куда-либо.",
+                "examples": [
+                    "Положи свою сумку здесь.",
+                    "Она кладет деньги в банк."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "клал",
+        "v3": "клала"
+    },
+    {
+        "word": "делать",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏗️",
+        "subtext": "делать кофе / принимать решение / совершать ошибку",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Создавать или производить что-либо.",
+                "examples": [
+                    "Я делаю кофе утром.",
+                    "Она быстро принимает решения."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "делал",
+        "v3": "делала"
+    },
+    {
         "word": "делать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
-        "subtext": "делать работу / делать покупки / делать упражнения / ничего не делать",
+        "subtext": "делать работу / делать покупки / делать упражнения",
         "form": "verb",
         "definitions": [
             {
-                "text": "Заниматься какой-либо деятельностью, создавать что-либо.",
+                "text": "Заниматься какой-либо деятельностью.",
                 "examples": [
                     "Я делаю свою работу каждый день.",
                     "Она делает покупки."
@@ -69,18 +203,569 @@
         "v3": "делала"
     },
     {
+        "word": "использовать",
+        "level": "starter",
+        "theme": "basic_technology_devices_A0",
+        "emoji": "🛠️",
+        "subtext": "пользоваться телефоном / пользоваться транспортом",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Пользоваться чем-либо.",
+                "examples": [
+                    "Я пользуюсь телефоном для всего.",
+                    "Она пользуется общественным транспортом."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "использовал",
+        "v3": "использовала"
+    },
+    {
+        "word": "открывать",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📖",
+        "subtext": "открывать дверь / открывать счет / открывать магазин",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Делать доступным, открытым.",
+                "examples": [
+                    "Он открывает офис в восемь.",
+                    "Она открывает банковский счет."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "открывал",
+        "v3": "открывала"
+    },
+    {
+        "word": "закрывать",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔒",
+        "subtext": "закрывать дверь / закрываться в шесть",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Прекращать доступ куда-либо; заканчивать.",
+                "examples": [
+                    "Офис закрывается в шесть.",
+                    "Она закрывает ноутбук."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "закрывал",
+        "v3": "закрывала"
+    },
+    {
+        "word": "начинать",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "▶️",
+        "subtext": "начинать работу / начинать встречу / начинать рано",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Приступать к какому-либо действию.",
+                "examples": [
+                    "Я начинаю работать в восемь тридцать.",
+                    "Она начинает новую работу."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "начинал",
+        "v3": "начинала"
+    },
+    {
+        "word": "заканчивать",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "subtext": "заканчивать работу / заканчивать проект",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Доводить до конца, завершать.",
+                "examples": [
+                    "Он заканчивает работу в пять.",
+                    "Она заканчивает отчет."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "заканчивал",
+        "v3": "заканчивала"
+    },
+    {
+        "word": "помогать",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "🤝",
+        "subtext": "помогать кому-то / помогать с / просить о помощи",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Оказывать помощь кому-либо.",
+                "examples": [
+                    "Он помогает коллегам.",
+                    "Вы можете мне помочь?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "помогал",
+        "v3": "помогала"
+    },
+    {
+        "word": "пробовать",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🎯",
+        "subtext": "пробовать делать / стараться / пробовать новое",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Делать попытку что-либо совершить.",
+                "examples": [
+                    "Я всегда стараюсь делать всё возможное на работе.",
+                    "Попробуйте кофе здесь."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "пробовал",
+        "v3": "пробовала"
+    },
+    {
+        "word": "показывать",
+        "level": "starter",
+        "theme": "asking_answering_questions_A0",
+        "emoji": "📽️",
+        "subtext": "показывать кому-то / показывать как / показывать документ",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Давать возможность увидеть что-либо.",
+                "examples": [
+                    "Она показывает мне карту.",
+                    "Он показывает свою работу."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "показывал",
+        "v3": "показывала"
+    },
+    {
+        "word": "находить",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🔍",
+        "subtext": "найти работу / обнаружить / найти время",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Обнаруживать что-либо скрытое или потерянное.",
+                "examples": [
+                    "Я нахожу работу интересной.",
+                    "Она нашла новую работу."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "находил",
+        "v3": "находила"
+    },
+    {
+        "word": "хранить",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "📦",
+        "subtext": "продолжать / молчать / вести учет / оставаться на связи",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Сохранять что-либо в течение времени.",
+                "examples": [
+                    "Храните чек.",
+                    "Она держит телефон включенным весь день."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "group": "2nd_conj",
+        "v2": "хранил",
+        "v3": "хранила"
+    },
+    {
+        "word": "терять",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "📉",
+        "subtext": "потерять работу / терять деньги / терять вес",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Лишаться чего-либо.",
+                "examples": [
+                    "Я потерял ключи.",
+                    "Она потеряла работу.",
+                    "Он никогда не проигрывает."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "терял",
+        "v3": "теряла"
+    },
+    {
+        "word": "резать",
+        "level": "starter",
+        "theme": "cooking_methods_A1",
+        "emoji": "✂️",
+        "subtext": "сокращать расходы / резать пополам / сокращать время",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Разделять на части чем-то острым.",
+                "examples": [
+                    "Она сокращает обеденный перерыв.",
+                    "Это сокращает расходы."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "резал",
+        "v3": "резала"
+    },
+    {
+        "word": "поворачивать",
+        "level": "starter",
+        "theme": "directions_navigation_A1",
+        "emoji": "🔄",
+        "subtext": "включать / выключать / поворачивать налево / направо",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Изменять направление движения.",
+                "examples": [
+                    "Поверните налево у офиса.",
+                    "Она выключает свет."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "поворачивал",
+        "v3": "поворачивала"
+    },
+    {
+        "word": "приносить",
+        "level": "starter",
+        "theme": "meals_of_the_day_A0",
+        "emoji": "🎁",
+        "subtext": "приводить кого-то / приносить еду / приносить документ",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Доставлять что-либо куда-либо.",
+                "examples": [
+                    "Принесите удостоверение личности на собеседование.",
+                    "Он приносит обед."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "приносил",
+        "v3": "приносила"
+    },
+    {
+        "word": "сказать",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A0",
+        "emoji": "🗨️",
+        "subtext": "сказать привет / сказать да / сказать нет",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Выразить что-либо словами.",
+                "examples": [
+                    "Она говорит «привет» каждое утро.",
+                    "Он говорит, что это хорошо."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "сказал",
+        "v3": "сказала"
+    },
+    {
+        "word": "рассказывать",
+        "level": "starter",
+        "theme": "asking_answering_questions_A0",
+        "emoji": "🗣️",
+        "subtext": "говорить правду / рассказывать историю / рассказывать кому-то",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Сообщать что-либо кому-либо.",
+                "examples": [
+                    "Он говорит правду.",
+                    "Она рассказывает мне о своем дне."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "рассказывал",
+        "v3": "рассказывала"
+    },
+    {
+        "word": "спрашивать",
+        "level": "starter",
+        "theme": "asking_answering_questions_A0",
+        "emoji": "❓",
+        "subtext": "задавать вопрос / просить о помощи / спрашивать о",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Обращаться к кому-либо с вопросом.",
+                "examples": [
+                    "Она задает хорошие вопросы.",
+                    "Я прошу совета у начальника."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "спрашивал",
+        "v3": "спрашивала"
+    },
+    {
+        "word": "говорить",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A0",
+        "emoji": "🗣️",
+        "subtext": "говорить с кем-то / говорить на языке / говорить четко",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Выражать мысли словами; владеть языком.",
+                "examples": [
+                    "Он говорит на трех языках.",
+                    "Она говорит со своим менеджером."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "говорил",
+        "v3": "говорила"
+    },
+    {
+        "word": "разговаривать",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A0",
+        "emoji": "💬",
+        "subtext": "разговаривать с кем-то / разговаривать о / открыто говорить",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Вести беседу с кем-либо.",
+                "examples": [
+                    "Мы разговариваем о работе каждый понедельник.",
+                    "Она много разговаривает."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "разговаривал",
+        "v3": "разговаривала"
+    },
+    {
+        "word": "звонить",
+        "level": "starter",
+        "theme": "using_a_smartphone_A1",
+        "emoji": "📞",
+        "subtext": "звонить кому-то / перезванивать / назначать встречу",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Вызывать по телефону.",
+                "examples": [
+                    "Я звоню клиентам каждое утро.",
+                    "Она назначает встречу."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "звонил",
+        "v3": "звонила"
+    },
+    {
+        "word": "писать",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "✍️",
+        "subtext": "писать письмо / писать отчет / писать заметки",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Изображать знаки на бумаге или экране.",
+                "examples": [
+                    "Я пишу электронные письма весь день.",
+                    "Она пишет отчет каждую пятницу."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "писал",
+        "v3": "писала"
+    },
+    {
+        "word": "читать",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📖",
+        "subtext": "читать книгу / читать новости / читать внимательно",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Воспринимать написанное.",
+                "examples": [
+                    "Она читает новости каждое утро.",
+                    "Он читает контракты."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "читал",
+        "v3": "читала"
+    },
+    {
+        "word": "слушать",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🎧",
+        "subtext": "слушать музыку / слушать внимательно / слушать подкаст",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Направлять слух на что-либо.",
+                "examples": [
+                    "Я слушаю подкасты на работе.",
+                    "Она слушает внимательно."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "слушал",
+        "v3": "слушала"
+    },
+    {
+        "word": "отвечать",
+        "level": "starter",
+        "theme": "asking_answering_questions_A0",
+        "emoji": "📞",
+        "subtext": "отвечать на вопрос / отвечать на звонок / на письмо",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Давать ответ на вопрос или сообщение.",
+                "examples": [
+                    "Он быстро отвечает на все письма.",
+                    "Она ответила на телефонный звонок."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "отвечал",
+        "v3": "отвечала"
+    },
+    {
+        "word": "повторять",
+        "level": "starter",
+        "theme": "classroom_language_A0",
+        "emoji": "🔁",
+        "subtext": "повторить это / повторяться / повторить заказ",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Делать или говорить что-либо снова.",
+                "examples": [
+                    "Пожалуйста, повторите это.",
+                    "Он повторил инструкцию дважды."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "повторял",
+        "v3": "повторяла"
+    },
+    {
         "word": "идти",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🚶",
-        "subtext": "идти на работу / идти домой / выходить / ходить за покупками",
+        "subtext": "идти на работу / идти домой / выходить / ходить по магазинам",
         "form": "verb",
         "definitions": [
             {
-                "text": "Двигаться, перемещаться шагом.",
+                "text": "Двигаться, перемещаться в пространстве.",
                 "examples": [
-                    "Я иду на работу пешком.",
-                    "Она идет к врачу."
+                    "Я еду на работу на поезде.",
+                    "Она уезжает за границу каждый год."
                 ]
             }
         ],
@@ -95,9 +780,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🏃‍♂️",
-        "subtext": "приходить домой / приходить на работу / возвращаться / приходить сюда",
-        "opposite": "идти",
-        "oppositeEmoji": "🚶",
+        "subtext": "приходить домой / возвращаться / приходить сюда",
         "form": "verb",
         "definitions": [
             {
@@ -115,20 +798,194 @@
         "v3": "приходила"
     },
     {
+        "word": "гулять",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚶",
+        "subtext": "идти на работу пешком / идти домой / гулять медленно",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Идти пешком.",
+                "examples": [
+                    "Он гуляет до работы каждый день.",
+                    "Она гуляет во время обеденного перерыва."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "гулял",
+        "v3": "гуляла"
+    },
+    {
+        "word": "водить",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "🚗",
+        "subtext": "ехать на работу / водить машину / ехать домой",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Управлять транспортным средством.",
+                "examples": [
+                    "Она водит служебный автомобиль.",
+                    "Он ездит на встречи на машине."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "водил",
+        "v3": "водила"
+    },
+    {
+        "word": "летать",
+        "level": "starter",
+        "theme": "modes_of_transport_A0",
+        "emoji": "✈️",
+        "subtext": "лететь в город / лететь бизнес-классом / эконом-классом",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Перемещаться по воздуху.",
+                "examples": [
+                    "Она летает в Париж на встречи.",
+                    "Он ненавидит летать."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "летал",
+        "v3": "летала"
+    },
+    {
+        "word": "приезжать",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "🏁",
+        "subtext": "приезжать на работу / приезжать поздно / вовремя",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Прибывать к месту назначения.",
+                "examples": [
+                    "Он приезжает в офис в девять.",
+                    "Поезд приезжает поздно."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "приезжал",
+        "v3": "приезжала"
+    },
+    {
+        "word": "уходить",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "🚪",
+        "subtext": "уходить из дома / с работы / уходить рано / поздно",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Отправляться из какого-либо места.",
+                "examples": [
+                    "Я ухожу из дома в восемь.",
+                    "Она ушла из компании в прошлом году."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "уходил",
+        "v3": "уходила"
+    },
+    {
+        "word": "двигаться",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "📦",
+        "subtext": "переезжать / переезжать в город / двигаться вперед",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Изменять положение или место жительства.",
+                "examples": [
+                    "Они переехали в новую квартиру.",
+                    "Она переходит в другую команду."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "двигался",
+        "v3": "двигалась"
+    },
+    {
+        "word": "возвращаться",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "🔙",
+        "subtext": "возвращаться домой / на работу / возвращать звонок",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Приходить или возвращаться в какое-либо место.",
+                "examples": [
+                    "Он возвращается из поездки в пятницу.",
+                    "Она перезвонила."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "возвращался",
+        "v3": "возвращалась"
+    },
+    {
+        "word": "путешествовать",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "✈️",
+        "subtext": "путешествовать по работе / за границу / на поезде",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Ездить из одного места в другое, часто далеко.",
+                "examples": [
+                    "Она путешествует по работе раз в месяц.",
+                    "Он любит путешествовать."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "путешествовал",
+        "v3": "путешествовала"
+    },
+    {
         "word": "есть",
         "level": "starter",
         "theme": "meals_of_the_day_A0",
         "emoji": "🍎",
         "subtext": "завтракать / обедать / ужинать / есть вне дома",
-        "opposite": "пить",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
                 "text": "Принимать пищу.",
                 "examples": [
-                    "Мы ужинаем в семь.",
-                    "Он обедает за своим столом."
+                    "Мы обедаем в час дня.",
+                    "Она ест за своим столом."
                 ]
             }
         ],
@@ -143,16 +1000,14 @@
         "level": "starter",
         "theme": "drinks_A0",
         "emoji": "🥛",
-        "subtext": "пить кофе / пить чай / пить воду / пить пиво",
-        "opposite": "есть",
-        "oppositeEmoji": "🍎",
+        "subtext": "пить кофе / пить чай / пить воду / пить алкоголь",
         "form": "verb",
         "definitions": [
             {
-                "text": "Поглощать какую-либо жидкость.",
+                "text": "Поглощать жидкость.",
                 "examples": [
                     "Она пьет кофе каждое утро.",
-                    "Я пью воду."
+                    "Я пью воду на работе."
                 ]
             }
         ],
@@ -167,16 +1022,14 @@
         "level": "starter",
         "theme": "times_day_A0",
         "emoji": "😴",
-        "subtext": "хорошо спать / плохо спать / спать восемь часов / поздно ложиться спать",
-        "opposite": "просыпаться",
-        "oppositeEmoji": "⏰",
+        "subtext": "хорошо спать / плохо спать / спать восемь часов",
         "form": "verb",
         "definitions": [
             {
                 "text": "Находиться в состоянии сна.",
                 "examples": [
                     "Он спит по семь часов в сутки.",
-                    "Я плохо сплю."
+                    "Она плохо спит."
                 ]
             }
         ],
@@ -187,18 +1040,194 @@
         "v3": "спала"
     },
     {
+        "word": "готовить",
+        "level": "starter",
+        "theme": "cooking_methods_A1",
+        "emoji": "🍳",
+        "subtext": "готовить ужин / готовить еду / готовить дома",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Подготавливать пищу с помощью тепла.",
+                "examples": [
+                    "Она готовит ужин каждый вечер.",
+                    "Он готовит для команды."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "готовил",
+        "v3": "готовила"
+    },
+    {
+        "word": "чистить",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🧹",
+        "subtext": "чистить квартиру / убираться / чистить кухню",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Удалять грязь с чего-либо.",
+                "examples": [
+                    "Я убираю квартиру по субботам.",
+                    "Он чистит свой стол ежедневно."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "чистил",
+        "v3": "чистила"
+    },
+    {
+        "word": "носить",
+        "level": "starter",
+        "theme": "items_of_clothing_A0",
+        "emoji": "👕",
+        "subtext": "носить костюм / носить очки / носить повседневную одежду",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Иметь на себе одежду или аксессуары.",
+                "examples": [
+                    "Она носит костюм на работу.",
+                    "Он носит очки."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "носил",
+        "v3": "носила"
+    },
+    {
+        "word": "мыть",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🧼",
+        "subtext": "мыть посуду / стирать одежду / мыть руки",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Очищать что-либо водой.",
+                "examples": [
+                    "Он моет машину каждое воскресенье.",
+                    "Помой руки."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "мыл",
+        "v3": "мыла"
+    },
+    {
+        "word": "покупать",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🛒",
+        "subtext": "покупать еду / покупать билет / покупать онлайн",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Приобретать что-либо за деньги.",
+                "examples": [
+                    "Она покупает продукты онлайн.",
+                    "Он хочет купить квартиру."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "покупал",
+        "v3": "покупала"
+    },
+    {
+        "word": "платить",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "subtext": "оплачивать счет / платить за аренду / платить картой",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Отдавать деньги в обмен на что-либо.",
+                "examples": [
+                    "Я плачу за аренду ежемесячно.",
+                    "Она платит картой."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "платил",
+        "v3": "платила"
+    },
+    {
+        "word": "тратить",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💸",
+        "subtext": "тратить деньги / тратить время / тратить на аренду",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Использовать деньги или время.",
+                "examples": [
+                    "Он слишком много тратит на еду навынос.",
+                    "Она тратит время на дорогу."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "тратил",
+        "v3": "тратила"
+    },
+    {
+        "word": "сохранять",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "subtext": "копить деньги / копить на дом / экономить время",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Беречь деньги, не тратя их.",
+                "examples": [
+                    "Она откладывает сто евро в месяц.",
+                    "Сохраните свою работу."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "сохранял",
+        "v3": "сохраняла"
+    },
+    {
         "word": "работать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
-        "subtext": "работать из дома / работать полный рабочий день / усердно работать / работать допоздна",
+        "subtext": "работать из дома / работать полный день / усердно работать",
         "form": "verb",
         "definitions": [
             {
-                "text": "Заниматься трудом, делом.",
+                "text": "Заниматься трудом для заработка денег.",
                 "examples": [
-                    "Она работает в больнице.",
-                    "Я работаю из дома."
+                    "Он работает из дома три дня в неделю.",
+                    "Она усердно работает."
                 ]
             }
         ],
@@ -213,15 +1242,13 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
-        "subtext": "жить в квартире / жить одному / жить с кем-то / жить за границей",
-        "opposite": "умирать",
-        "oppositeEmoji": "⚰️",
+        "subtext": "жить в квартире / жить одному / жить с кем-то",
         "form": "verb",
         "definitions": [
             {
-                "text": "Существовать; иметь местожительство.",
+                "text": "Иметь жилище в каком-либо месте; существовать.",
                 "examples": [
-                    "Он живет в квартире рядом с центром.",
+                    "Она живет в квартире рядом с центром.",
                     "Мы живем вместе."
                 ]
             }
@@ -233,41 +1260,62 @@
         "v3": "жила"
     },
     {
-        "word": "нравиться",
+        "word": "думать",
         "level": "starter",
-        "theme": "basic_positive_emotions_A0",
-        "emoji": "👍",
-        "subtext": "мне нравится работа / мне нравится путешествовать / мне нравится идея",
+        "theme": "giving_opinions_A1",
+        "emoji": "💭",
+        "subtext": "думать о / размышлять / внимательно думать",
         "form": "verb",
         "definitions": [
             {
-                "text": "Вызывать симпатию, быть по вкусу.",
+                "text": "Размышлять; иметь мнение.",
                 "examples": [
-                    "Мне нравится моя работа.",
-                    "Ей нравится готовить.",
-                    "Ему нравится кофе."
+                    "Я думаю, что это хорошая идея.",
+                    "Она подумывает об увольнении."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "group": "1st_conj",
+        "v2": "думал",
+        "v3": "думала"
+    },
+    {
+        "word": "знать",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "subtext": "знать кого-то / знать ответ / знать как",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Обладать информацией или быть знакомым с чем-либо.",
+                "examples": [
+                    "Я знаю его имя.",
+                    "Она знает, как вести переговоры."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "2nd_conj",
-        "v2": "нравился",
-        "v3": "нравилась"
+        "group": "1st_conj",
+        "v2": "знал",
+        "v3": "знала"
     },
     {
         "word": "хотеть",
         "level": "starter",
         "theme": "basic_positive_emotions_A0",
         "emoji": "🙏",
-        "subtext": "хотеть работу / хотеть уехать / хотеть больше денег / хотеть помощи",
+        "subtext": "хотеть работу / хотеть сделать / хотеть больше",
         "form": "verb",
         "definitions": [
             {
                 "text": "Иметь желание или намерение.",
                 "examples": [
                     "Я хочу кофе.",
-                    "Она хочет лучшую работу.",
+                    "Она хочет повышения.",
                     "Он хочет выйти на пенсию."
                 ]
             }
@@ -283,15 +1331,15 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A0",
         "emoji": "🆘",
-        "subtext": "нуждаться в помощи / нуждаться во времени / нуждаться в деньгах / нужно отдохнуть",
+        "subtext": "нуждаться в помощи / нуждаться во времени / в деньгах",
         "form": "verb",
         "definitions": [
             {
                 "text": "Испытывать потребность в чем-либо.",
                 "examples": [
                     "Мне нужен перерыв.",
-                    "Ей нужна помощь.",
-                    "Нам нужно больше времени."
+                    "Ей нужно больше времени.",
+                    "Ему нужна помощь."
                 ]
             }
         ],
@@ -300,6 +1348,205 @@
         "group": "1st_conj",
         "v2": "нуждался",
         "v3": "нуждалась"
+    },
+    {
+        "word": "нравиться",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "👍",
+        "subtext": "мне нравится работа / нравится путешествовать / нравится идея",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Вызывать симпатию.",
+                "examples": [
+                    "Мне нравится моя работа.",
+                    "Ей нравится готовить дома.",
+                    "Ему нравится кофе."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "2nd_conj",
+        "v2": "нравился",
+        "v3": "нравилась"
+    },
+    {
+        "word": "любить",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "❤️",
+        "subtext": "любить кого-то / любить делать / любить место",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Испытывать глубокую привязанность; очень наслаждаться.",
+                "examples": [
+                    "Она любит свою работу.",
+                    "Он любит путешествовать по работе."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "2nd_conj",
+        "v2": "любил",
+        "v3": "любила"
+    },
+    {
+        "word": "ненавидеть",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A0",
+        "emoji": "😡",
+        "subtext": "ненавидеть делать / ненавидеть кого-то / ненавидеть встречи",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Испытывать сильную неприязнь.",
+                "examples": [
+                    "Он ненавидит ездить на автобусе.",
+                    "Она ненавидит долгие встречи."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "2nd_conj",
+        "v2": "ненавидел",
+        "v3": "ненавидела"
+    },
+    {
+        "word": "надеяться",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "🤞",
+        "subtext": "надеяться на / надеяться сделать / надеюсь, что так",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Желать, чтобы что-то произошло.",
+                "examples": [
+                    "Я надеюсь получить повышение в этом году.",
+                    "Она надеется на лучшую зарплату."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "1st_conj",
+        "v2": "надеялся",
+        "v3": "надеялась"
+    },
+    {
+        "word": "помнить",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "subtext": "помнить сделать / помнить имя / ясно помнить",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Удерживать в памяти; не забывать.",
+                "examples": [
+                    "Пожалуйста, помните о крайнем сроке.",
+                    "Она помнит каждого клиента."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "2nd_conj",
+        "v2": "помнил",
+        "v3": "помнила"
+    },
+    {
+        "word": "забывать",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🤔",
+        "subtext": "забыть имя / забыть сделать / совсем забыть",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Переставать помнить.",
+                "examples": [
+                    "Не забудьте о встрече.",
+                    "Он всегда забывает пароли."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "1st_conj",
+        "v2": "забывал",
+        "v3": "забывала"
+    },
+    {
+        "word": "понимать",
+        "level": "starter",
+        "theme": "asking_answering_questions_A0",
+        "emoji": "💡",
+        "subtext": "понимать проблему / понимать кого-то / ясно понимать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Осознавать смысл чего-либо.",
+                "examples": [
+                    "Я понимаю контракт.",
+                    "Она понимает по-французски."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "1st_conj",
+        "v2": "понимал",
+        "v3": "понимала"
+    },
+    {
+        "word": "решать",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "⚖️",
+        "subtext": "решать сделать / решать по поводу / принимать решение",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Делать выбор.",
+                "examples": [
+                    "Она решила сменить карьеру.",
+                    "Он решает быстро."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "1st_conj",
+        "v2": "решал",
+        "v3": "решала"
+    },
+    {
+        "word": "наслаждаться",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A0",
+        "emoji": "😊",
+        "subtext": "наслаждаться делом / наслаждаться едой / своей работой",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Получать удовольствие от чего-либо.",
+                "examples": [
+                    "Ему нравится работать из дома.",
+                    "Она наслаждается своей новой ролью."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "1st_conj",
+        "v2": "наслаждался",
+        "v3": "наслаждалась"
     },
     {
         "word": "видеть",
@@ -328,14 +1575,14 @@
         "level": "starter",
         "theme": "body_parts_A0",
         "emoji": "👂",
-        "subtext": "слышать новости / слышать кого-то / слышать звук / отчетливо слышать",
+        "subtext": "слышать новости / слышать кого-то / слышать звук",
         "form": "verb",
         "definitions": [
             {
-                "text": "Воспринимать слухом.",
+                "text": "Воспринимать звуки ушами.",
                 "examples": [
                     "Я слышу будильник каждое утро.",
-                    "Вы меня слышите?."
+                    "Вы меня слышите?"
                 ]
             }
         ],
@@ -346,454 +1593,17 @@
         "v3": "слышала"
     },
     {
-        "word": "чувствовать",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A0",
-        "emoji": "🌡️",
-        "subtext": "чувствовать усталость / чувствовать себя лучше / чувствовать себя хорошо / чувствовать стресс",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Испытывать какое-либо чувство, физическое или душевное состояние.",
-                "examples": [
-                    "Я чувствую усталость.",
-                    "Она чувствует стресс.",
-                    "Он чувствует себя лучше."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "group": "1st_conj",
-        "v2": "чувствовал",
-        "v3": "чувствовала"
-    },
-    {
-        "word": "знать",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🧠",
-        "subtext": "знать кого-то / знать ответ / знать место / знать как сделать",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Обладать какими-либо сведениями, знаниями.",
-                "examples": [
-                    "Я знаю его имя.",
-                    "Она знает ответ.",
-                    "Вы его знаете?."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "group": "1st_conj",
-        "v2": "знал",
-        "v3": "знала"
-    },
-    {
-        "word": "думать",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "💭",
-        "subtext": "думать о / думать о чем-то / думать что / внимательно думать",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Размышлять, иметь мнение.",
-                "examples": [
-                    "Я думаю, это хорошая идея.",
-                    "Она думает о своей работе."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "group": "1st_conj",
-        "v2": "думал",
-        "v3": "думала"
-    },
-    {
-        "word": "говорить",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A0",
-        "emoji": "🗣️",
-        "subtext": "говорить с кем-то / говорить по-русски / говорить четко / говорить на встрече",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Выражать мысли словами; владеть языком.",
-                "examples": [
-                    "Он говорит по-французски.",
-                    "Она каждый день говорит со своим менеджером."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "2nd_conj",
-        "v2": "говорил",
-        "v3": "говорила"
-    },
-    {
-        "word": "сказать",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A0",
-        "emoji": "🗨️",
-        "subtext": "сказать привет / сказать да / сказать нет / сказать что-нибудь",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Выразить что-либо словами.",
-                "examples": [
-                    "Она говорит «привет» каждое утро.",
-                    "Он говорит, что это трудно."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "сказал",
-        "v3": "сказала"
-    },
-    {
-        "word": "спрашивать",
-        "level": "starter",
-        "theme": "asking_answering_questions_A0",
-        "emoji": "❓",
-        "subtext": "задавать вопрос / просить о помощи / спрашивать кого-то / просить о",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Обращаться к кому-либо с вопросом или просьбой.",
-                "examples": [
-                    "Она задает много вопросов.",
-                    "Я прошу совета у начальника."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "спрашивал",
-        "v3": "спрашивала"
-    },
-    {
-        "word": "давать",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🎁",
-        "subtext": "давать советы / давать деньги / давать подарок / давать информацию",
-        "opposite": "брать",
-        "oppositeEmoji": "👜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Вручать, передавать что-либо.",
-                "examples": [
-                    "Он дает мне много работы.",
-                    "Она дает советы."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "давал",
-        "v3": "давала"
-    },
-    {
-        "word": "брать",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "👜",
-        "subtext": "садиться в автобус / принимать лекарство / делать перерыв / занимать время",
-        "opposite": "давать",
-        "oppositeEmoji": "🎁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Принимать, захватывать руками или иным способом.",
-                "examples": [
-                    "Я еду на работу на автобусе.",
-                    "Она принимает лекарство."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "брал",
-        "v3": "брала"
-    },
-    {
-        "word": "получать",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "📥",
-        "subtext": "получить работу / уставать / становиться лучше / приходить домой",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Приобретать, становиться обладателем чего-либо.",
-                "examples": [
-                    "Я получаю хорошую зарплату.",
-                    "Он быстро устает.",
-                    "Она получает повышение."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "получал",
-        "v3": "получала"
-    },
-    {
-        "word": "платить",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💰",
-        "subtext": "платить за аренду / платить картой / платить наличными / оплачивать счета",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Отдавать деньги за что-либо.",
-                "examples": [
-                    "Я плачу за аренду каждый месяц.",
-                    "Он платит картой."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "group": "2nd_conj",
-        "v2": "платил",
-        "v3": "платила"
-    },
-    {
-        "word": "покупать",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🛒",
-        "subtext": "покупать еду / покупать билет / покупать онлайн / покупать дом",
-        "opposite": "продавать",
-        "oppositeEmoji": "🏷️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Приобретать за деньги.",
-                "examples": [
-                    "Она покупает еду онлайн.",
-                    "Он хочет купить квартиру."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "покупал",
-        "v3": "покупала"
-    },
-    {
-        "word": "открывать",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "📖",
-        "subtext": "открывать дверь / открывать счет / открывать магазин / открываться в девять",
-        "opposite": "закрывать",
-        "oppositeEmoji": "🔒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Делать доступным, открытым.",
-                "examples": [
-                    "Он открывает офис в восемь.",
-                    "Она открывает банковский счет."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "открывал",
-        "v3": "открывала"
-    },
-    {
-        "word": "закрывать",
-        "level": "starter",
-        "theme": "everyday_shopping_A0",
-        "emoji": "🔒",
-        "subtext": "закрывать дверь / закрываться в шесть / закрывать счет / закрывать встречу",
-        "opposite": "открывать",
-        "oppositeEmoji": "📖",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Прекращать доступ куда-либо; заканчивать.",
-                "examples": [
-                    "Офис закрывается в шесть.",
-                    "Она закрывает ноутбук."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "закрывал",
-        "v3": "закрывала"
-    },
-    {
-        "word": "начинать",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "▶️",
-        "subtext": "начинать работу / начинать встречу / начинать новую работу / начинать рано",
-        "opposite": "заканчивать",
-        "oppositeEmoji": "🏁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Приступать к какому-либо действию.",
-                "examples": [
-                    "Я начинаю работать в восемь тридцать.",
-                    "Она начинает новую работу."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "начинал",
-        "v3": "начинала"
-    },
-    {
-        "word": "заканчивать",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🏁",
-        "subtext": "заканчивать работу / заканчивать проект / заканчивать рано / заканчивать поздно",
-        "opposite": "начинать",
-        "oppositeEmoji": "▶️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Доводить до конца, завершать.",
-                "examples": [
-                    "Он заканчивает работу в пять.",
-                    "Она заканчивает отчет."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "заканчивал",
-        "v3": "заканчивала"
-    },
-    {
-        "word": "использовать",
-        "level": "starter",
-        "theme": "basic_technology_devices_A0",
-        "emoji": "🛠️",
-        "subtext": "пользоваться телефоном / пользоваться общественным транспортом / использовать компьютер / тратить время",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Пользоваться чем-либо.",
-                "examples": [
-                    "Я пользуюсь телефоном для всего.",
-                    "Она пользуется общественным транспортом."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "использовал",
-        "v3": "использовала"
-    },
-    {
-        "word": "гулять",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🚶",
-        "subtext": "идти на работу / идти домой / медленно гулять / гулять каждый день",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Идти пешком ради удовольствия или перемещения.",
-                "examples": [
-                    "Он гуляет до работы каждый день.",
-                    "Она гуляет во время обеденного перерыва."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "1st_conj",
-        "v2": "гулял",
-        "v3": "гуляла"
-    },
-    {
-        "word": "водить",
-        "level": "starter",
-        "theme": "modes_of_transport_A0",
-        "emoji": "🚗",
-        "subtext": "ехать на работу / водить машину / ехать домой / осторожно водить",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Управлять транспортным средством.",
-                "examples": [
-                    "Она едет на работу на машине.",
-                    "Он водит служебный автомобиль."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "group": "2nd_conj",
-        "v2": "водил",
-        "v3": "водила"
-    },
-    {
-        "word": "звонить",
-        "level": "starter",
-        "theme": "using_a_smartphone_A1",
-        "emoji": "📞",
-        "subtext": "звонить кому-то / назначать встречу / перезванивать / звонить по болезни",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Вызывать по телефону.",
-                "examples": [
-                    "Я звоню начальнику каждое утро.",
-                    "Она назначает встречу."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "group": "2nd_conj",
-        "v2": "звонил",
-        "v3": "звонила"
-    },
-    {
         "word": "просыпаться",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
-        "form": "verb",
         "subtext": "рано просыпаться, просыпаться в 7",
-        "opposite": "спать",
-        "oppositeEmoji": "😴",
+        "form": "verb",
         "definitions": [
             {
-                "text": "Переставать спать.",
+                "text": "Переставать спать и открывать глаза.",
                 "examples": [
-                    "Я просыпаюсь в семь.",
+                    "Я просыпаюсь в семь часов.",
                     "Во сколько ты просыпаешься?"
                 ]
             }
@@ -809,13 +1619,13 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "📺",
-        "form": "verb",
         "subtext": "смотреть телевизор, смотреть фильм",
+        "form": "verb",
         "definitions": [
             {
-                "text": "Направлять взгляд на что-либо.",
+                "text": "Наблюдать за чем-либо в течение времени.",
                 "examples": [
-                    "Я смотрю телевизор по вечерам.",
+                    "Я смотрю телевизор вечером.",
                     "Они смотрят на птиц."
                 ]
             }
@@ -827,55 +1637,839 @@
         "v3": "смотрела"
     },
     {
-        "word": "читать",
+        "word": "смотреть",
         "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "📖",
+        "theme": "health_body",
+        "emoji": "👀",
+        "subtext": "смотреть",
         "form": "verb",
-        "subtext": "читать книгу, читать газету",
-        "opposite": "писать",
-        "oppositeEmoji": "✍️",
         "definitions": [
             {
-                "text": "Воспринимать написанное.",
+                "text": "Направлять взгляд на что-либо.",
                 "examples": [
-                    "Я читаю книгу каждую ночь.",
-                    "Она умеет читать по-русски."
+                    "Посмотри на это фото.",
+                    "Он ищет свои ключи."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "both",
+        "group": "2nd_conj",
+        "v2": "смотрел",
+        "v3": "смотрела"
+    },
+    {
+        "word": "играть",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎮",
+        "subtext": "играть",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Делать что-то для удовольствия или в игре.",
+                "examples": [
+                    "Я играю в футбол с друзьями.",
+                    "Она любит играть в видеоигры."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "action",
         "group": "1st_conj",
-        "v2": "читал",
-        "v3": "читала"
+        "v2": "играл",
+        "v3": "играла"
     },
     {
-        "word": "писать",
+        "word": "бегать",
         "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "✍️",
+        "theme": "common_sports_A0",
+        "emoji": "🏃",
+        "subtext": "бегать",
         "form": "verb",
         "definitions": [
             {
-                "text": "Изображать знаки на бумаге или экране.",
+                "text": "Двигаться очень быстро на ногах.",
                 "examples": [
-                    "Я пишу в дневнике каждый день.",
-                    "Она пишет книги для детей."
+                    "Я бегаю в парке.",
+                    "Он бежит, чтобы успеть на автобус."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "бегал",
+        "v3": "бегала"
+    },
+    {
+        "word": "сидеть",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🪑",
+        "subtext": "сидеть",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Находиться в положении, при котором опора приходится на ягодицы.",
+                "examples": [
+                    "Пожалуйста, садись.",
+                    "Я сижу на стуле."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "сидел",
+        "v3": "сидела"
+    },
+    {
+        "word": "стоять",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🧍",
+        "subtext": "стоять",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Находиться на ногах в вертикальном положении.",
+                "examples": [
+                    "Пожалуйста, встаньте.",
+                    "Она стоит у двери."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "стоял",
+        "v3": "стояла"
+    },
+    {
+        "word": "встречать",
+        "level": "starter",
+        "theme": "society_politics",
+        "emoji": "🤝",
+        "subtext": "встречать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Видеть и разговаривать с кем-то впервые.",
+                "examples": [
+                    "Рад познакомиться.",
+                    "Мы встречаемся каждую пятницу."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "встречал",
+        "v3": "встречала"
+    },
+    {
+        "word": "учить",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "📚",
+        "subtext": "учить",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Получать знания или навыки.",
+                "examples": [
+                    "Я хочу учить английский.",
+                    "Дети учатся быстро."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "учил",
+        "v3": "учила"
+    },
+    {
+        "word": "менять",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🔄",
+        "subtext": "менять",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Делать что-либо другим.",
+                "examples": [
+                    "Я хочу сменить одежду.",
+                    "Погода быстро меняется."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "менял",
+        "v3": "меняла"
+    },
+    {
+        "word": "останавливать",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "🛑",
+        "subtext": "останавливать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Заканчивать что-то делать или переставать двигаться.",
+                "examples": [
+                    "Остановите машину.",
+                    "Пожалуйста, перестаньте говорить."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "останавливал",
+        "v3": "останавливала"
+    },
+    {
+        "word": "добавлять",
+        "level": "starter",
+        "theme": "numbers_math",
+        "emoji": "➕",
+        "subtext": "добавлять",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Соединять вещи вместе для создания большой группы.",
+                "examples": [
+                    "Добавьте немного сахара в чай.",
+                    "Сколько будет пять плюс пять?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "добавлял",
+        "v3": "добавляла"
+    },
+    {
+        "word": "побеждать",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏆",
+        "subtext": "побеждать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Быть лучшим в игре или соревновании.",
+                "examples": [
+                    "Мы хотим победить в игре."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "побеждал",
+        "v3": "побеждала"
+    },
+    {
+        "word": "ждать",
+        "level": "starter",
+        "theme": "time",
+        "emoji": "⏳",
+        "subtext": "ждать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Оставаться на месте, пока что-то не произойдет.",
+                "examples": [
+                    "Ждите автобус здесь.",
+                    "Я жду своего друга."
                 ]
             }
         ],
         "classification": "irregular",
         "aspect": "action",
         "group": "1st_conj",
-        "v2": "писал",
-        "v3": "писала"
+        "v2": "ждал",
+        "v3": "ждала"
+    },
+    {
+        "word": "умирать",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "⚰️",
+        "subtext": "умирать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Прекращать жить.",
+                "examples": [
+                    "Растения умирают без воды."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "умирал",
+        "v3": "умирала"
+    },
+    {
+        "word": "посылать",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "✉️",
+        "subtext": "посылать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Заставлять что-либо переместиться в какое-то место.",
+                "examples": [
+                    "Я отправляю письмо каждое утро.",
+                    "Вы можете прислать мне фото?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "посылал",
+        "v3": "посылала"
+    },
+    {
+        "word": "оставаться",
+        "level": "starter",
+        "theme": "places_geography",
+        "emoji": "🏨",
+        "subtext": "оставаться",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Продолжать находиться в каком-либо месте.",
+                "examples": [
+                    "Я остаюсь дома по воскресеньям.",
+                    "Мы остановились в отеле."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "оставался",
+        "v3": "оставалась"
+    },
+    {
+        "word": "падать",
+        "level": "starter",
+        "theme": "environment_nature",
+        "emoji": "🍂",
+        "subtext": "падать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Перемещаться вниз к земле.",
+                "examples": [
+                    "Листья падают осенью.",
+                    "Осторожно, не упади."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "падал",
+        "v3": "падала"
+    },
+    {
+        "word": "проходить",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "🏔️",
+        "subtext": "проходить",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Проходить мимо чего-либо или успешно сдать экзамен.",
+                "examples": [
+                    "Я прохожу мимо парка по дороге домой.",
+                    "Надеюсь, я сдам тест."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "проходил",
+        "v3": "проходила"
+    },
+    {
+        "word": "продавать",
+        "level": "starter",
+        "theme": "everyday_shopping_A0",
+        "emoji": "🏷️",
+        "subtext": "продавать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Отдавать что-либо кому-либо за деньги.",
+                "examples": [
+                    "Они продают фрукты на рынке."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "продавал",
+        "v3": "продавала"
+    },
+    {
+        "word": "тянуть",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🚜",
+        "subtext": "тянуть",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Перемещать что-либо к себе.",
+                "examples": [
+                    "Потяните дверь, чтобы открыть её."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "тянул",
+        "v3": "тянула"
+    },
+    {
+        "word": "толкать",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🛒",
+        "subtext": "толкать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Перемещать что-либо от себя.",
+                "examples": [
+                    "Нажмите на кнопку.",
+                    "Я толкаю тележку в магазине."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "толкал",
+        "v3": "толкала"
+    },
+    {
+        "word": "нести",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🎒",
+        "subtext": "нести",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Держать что-либо и перемещать это из одного места в другое.",
+                "examples": [
+                    "Я несу сумку в школу.",
+                    "Вы можете помочь мне донести эту коробку?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "нёс",
+        "v3": "несла"
+    },
+    {
+        "word": "ломать",
+        "level": "starter",
+        "theme": "describing_things",
+        "emoji": "💔",
+        "subtext": "ломать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Разделять что-либо на две или более частей.",
+                "examples": [
+                    "Не разбей стекло.",
+                    "Он сломал ногу."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "ломал",
+        "v3": "ломала"
+    },
+    {
+        "word": "получать",
+        "level": "starter",
+        "theme": "language_communication",
+        "emoji": "📩",
+        "subtext": "получать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Принимать то, что кто-то дал или послал вам.",
+                "examples": [
+                    "Я получаю много почты.",
+                    "Она получила подарок."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "получал",
+        "v3": "получала"
+    },
+    {
+        "word": "соглашаться",
+        "level": "starter",
+        "theme": "opinion_debate",
+        "emoji": "👍",
+        "subtext": "соглашаться",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Иметь такое же мнение, как и кто-то другой.",
+                "examples": [
+                    "Я согласен с вами.",
+                    "Мы согласны с планом."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "1st_conj",
+        "v2": "соглашался",
+        "v3": "соглашалась"
+    },
+    {
+        "word": "рисовать",
+        "level": "starter",
+        "theme": "culture_arts",
+        "emoji": "🎨",
+        "subtext": "рисовать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Создавать изображение ручкой или карандашом.",
+                "examples": [
+                    "Мне нравится рисовать птиц.",
+                    "Вы можете нарисовать карту?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "рисовал",
+        "v3": "рисовала"
+    },
+    {
+        "word": "делиться",
+        "level": "starter",
+        "theme": "society_politics",
+        "emoji": "🍕",
+        "subtext": "делиться",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Отдавать часть чего-либо другим.",
+                "examples": [
+                    "Давайте поделимся пиццей.",
+                    "Я живу в одной комнате с братом."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "делился",
+        "v3": "делилась"
+    },
+    {
+        "word": "улыбаться",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "😊",
+        "subtext": "улыбаться",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Делать счастливое выражение лица ртом.",
+                "examples": [
+                    "У нее красивая улыбка.",
+                    "Улыбнитесь на камеру."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "улыбался",
+        "v3": "улыбалась"
+    },
+    {
+        "word": "плакать",
+        "level": "starter",
+        "theme": "feelings_emotions",
+        "emoji": "😢",
+        "subtext": "плакать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Выделять слезы из-за грусти или боли.",
+                "examples": [
+                    "Ребенок плачет.",
+                    "Не плачь."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "плакал",
+        "v3": "плакала"
+    },
+    {
+        "word": "танцевать",
+        "level": "starter",
+        "theme": "culture_arts",
+        "emoji": "💃",
+        "subtext": "танцевать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Двигаться телом под музыку.",
+                "examples": [
+                    "Я люблю танцевать.",
+                    "Они танцуют."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "танцевал",
+        "v3": "танцевала"
+    },
+    {
+        "word": "петь",
+        "level": "starter",
+        "theme": "culture_arts",
+        "emoji": "🎤",
+        "subtext": "петь",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Издавать музыкальные звуки голосом.",
+                "examples": [
+                    "Мне нравится петь в душе.",
+                    "Она очень хорошо поет."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "пел",
+        "v3": "пела"
+    },
+    {
+        "word": "прыгать",
+        "level": "starter",
+        "theme": "health_body",
+        "emoji": "🦘",
+        "subtext": "прыгать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Отталкиваться от земли ногами.",
+                "examples": [
+                    "Ты можешь прыгнуть высоко?",
+                    "Кошка прыгнула на стол."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "прыгал",
+        "v3": "прыгала"
+    },
+    {
+        "word": "плавать",
+        "level": "starter",
+        "theme": "common_sports_A0",
+        "emoji": "🏊",
+        "subtext": "плавать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Передвигаться в воде, используя руки и ноги.",
+                "examples": [
+                    "Я плаваю каждое утро.",
+                    "Ты умеешь плавать?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "плавал",
+        "v3": "плавала"
+    },
+    {
+        "word": "изучать",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "📖",
+        "subtext": "изучать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Тратить время на изучение предмета.",
+                "examples": [
+                    "Я учу английский в школе.",
+                    "Он готовится к экзаменам."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "изучал",
+        "v3": "изучала"
+    },
+    {
+        "word": "учить",
+        "level": "starter",
+        "theme": "education_learning",
+        "emoji": "👨‍🏫",
+        "subtext": "учить",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Передавать знания другим.",
+                "examples": [
+                    "Я учу английскому.",
+                    "Она преподает в университете."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "2nd_conj",
+        "v2": "учил",
+        "v3": "учила"
+    },
+    {
+        "word": "ездить на работу",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🚆",
+        "subtext": "ездить на работу",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Регулярно ездить на работу и обратно.",
+                "examples": [
+                    "Я езжу на работу в город на поезде."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "locution",
+        "v2": "ездил на работу",
+        "v3": "ездила на работу"
+    },
+    {
+        "word": "арендовать",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "emoji": "🏠",
+        "subtext": "арендовать",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Платить деньги за пользование домом или квартирой, принадлежащей кому-то другому.",
+                "examples": [
+                    "Мы снимаем квартиру в городе."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "арендовал",
+        "v3": "арендовала"
+    },
+    {
+        "word": "тренироваться",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏋️",
+        "subtext": "тренироваться",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Заниматься физической активностью, чтобы оставаться здоровым.",
+                "examples": [
+                    "Я тренируюсь каждое утро."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "1st_conj",
+        "v2": "тренировался",
+        "v3": "тренировалась"
+    },
+    {
+        "word": "стоить",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "subtext": "стоить",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Иметь определенную цену.",
+                "examples": [
+                    "Квартира стоит дорого."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "group": "2nd_conj",
+        "v2": "стоил",
+        "v3": "стоила"
     },
     {
         "word": "приглашать",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "✉️",
+        "subtext": "приглашать",
         "form": "verb",
         "definitions": [
             {
