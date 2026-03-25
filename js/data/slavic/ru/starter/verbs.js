@@ -19,9 +19,9 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "irregular",
         "v2": "был",
-        "v3": "была"
+        "v3": "была",
+        "group": "irregular"
     },
     {
         "word": "иметь",
@@ -40,16 +40,16 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "имел",
-        "v3": "имела"
+        "v3": "имела",
+        "group": "1st_conj"
     },
     {
         "word": "чувствовать",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
         "subtext": "чувствовать усталость / чувствовать себя лучше",
         "form": "verb",
@@ -63,11 +63,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "both",
-        "group": "1st_conj",
         "v2": "чувствовал",
-        "v3": "чувствовала"
+        "v3": "чувствовала",
+        "group": "1st_conj"
     },
     {
         "word": "давать",
@@ -75,6 +75,8 @@
         "theme": "everyday_shopping_A0",
         "emoji": "🎁",
         "subtext": "давать советы / давать деньги / давать подарок",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -87,9 +89,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "давал",
-        "v3": "давала"
+        "v3": "давала",
+        "group": "1st_conj"
     },
     {
         "word": "брать",
@@ -97,6 +99,8 @@
         "theme": "modes_of_transport_A0",
         "emoji": "👜",
         "subtext": "садиться в автобус / принимать лекарство",
+        "opposite": "give",
+        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -109,9 +113,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "брал",
-        "v3": "брала"
+        "v3": "брала",
+        "group": "1st_conj"
     },
     {
         "word": "получать",
@@ -130,11 +134,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "получал",
-        "v3": "получала"
+        "v3": "получала",
+        "group": "1st_conj"
     },
     {
         "word": "класть",
@@ -154,9 +158,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "клал",
-        "v3": "клала"
+        "v3": "клала",
+        "group": "1st_conj"
     },
     {
         "word": "делать",
@@ -174,11 +178,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "делал",
-        "v3": "делала"
+        "v3": "делала",
+        "group": "1st_conj"
     },
     {
         "word": "делать",
@@ -196,11 +200,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "делал",
-        "v3": "делала"
+        "v3": "делала",
+        "group": "1st_conj"
     },
     {
         "word": "использовать",
@@ -220,9 +224,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "использовал",
-        "v3": "использовала"
+        "v3": "использовала",
+        "group": "1st_conj"
     },
     {
         "word": "открывать",
@@ -230,6 +234,8 @@
         "theme": "everyday_shopping_A0",
         "emoji": "📖",
         "subtext": "открывать дверь / открывать счет / открывать магазин",
+        "opposite": "close",
+        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -242,9 +248,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "открывал",
-        "v3": "открывала"
+        "v3": "открывала",
+        "group": "1st_conj"
     },
     {
         "word": "закрывать",
@@ -252,6 +258,8 @@
         "theme": "everyday_shopping_A0",
         "emoji": "🔒",
         "subtext": "закрывать дверь / закрываться в шесть",
+        "opposite": "open",
+        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -264,16 +272,18 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "закрывал",
-        "v3": "закрывала"
+        "v3": "закрывала",
+        "group": "1st_conj"
     },
     {
         "word": "начинать",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "начинать работу / начинать встречу / начинать рано",
+        "opposite": "finish",
+        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -286,16 +296,18 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "начинал",
-        "v3": "начинала"
+        "v3": "начинала",
+        "group": "1st_conj"
     },
     {
         "word": "заканчивать",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "заканчивать работу / заканчивать проект",
+        "opposite": "start",
+        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -308,14 +320,14 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "заканчивал",
-        "v3": "заканчивала"
+        "v3": "заканчивала",
+        "group": "1st_conj"
     },
     {
         "word": "помогать",
-        "level": "baby",
-        "theme": "family_life_A1",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "subtext": "помогать кому-то / помогать с / просить о помощи",
         "form": "verb",
@@ -330,13 +342,13 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "помогал",
-        "v3": "помогала"
+        "v3": "помогала",
+        "group": "1st_conj"
     },
     {
         "word": "пробовать",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "пробовать делать / стараться / пробовать новое",
@@ -350,15 +362,15 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "пробовал",
-        "v3": "пробовала"
+        "v3": "пробовала",
+        "group": "1st_conj"
     },
     {
         "word": "показывать",
-        "level": "baby",
+        "level": "starter",
         "theme": "asking_answering_questions_A0",
         "emoji": "📽️",
         "subtext": "показывать кому-то / показывать как / показывать документ",
@@ -372,11 +384,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "показывал",
-        "v3": "показывала"
+        "v3": "показывала",
+        "group": "1st_conj"
     },
     {
         "word": "находить",
@@ -394,18 +406,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "находил",
-        "v3": "находила"
+        "v3": "находила",
+        "group": "2nd_conj"
     },
     {
         "word": "хранить",
         "level": "baby",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "продолжать / молчать / вести учет / оставаться на связи",
+        "subtext": "продолжать / молчать / вести учет",
         "form": "verb",
         "definitions": [
             {
@@ -416,11 +428,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "both",
-        "group": "2nd_conj",
         "v2": "хранил",
-        "v3": "хранила"
+        "v3": "хранила",
+        "group": "2nd_conj"
     },
     {
         "word": "терять",
@@ -428,6 +440,8 @@
         "theme": "everyday_shopping_A0",
         "emoji": "📉",
         "subtext": "потерять работу / терять деньги / терять вес",
+        "opposite": "win",
+        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -439,11 +453,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "терял",
-        "v3": "теряла"
+        "v3": "теряла",
+        "group": "1st_conj"
     },
     {
         "word": "резать",
@@ -461,11 +475,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "резал",
-        "v3": "резала"
+        "v3": "резала",
+        "group": "1st_conj"
     },
     {
         "word": "поворачивать",
@@ -485,9 +499,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "поворачивал",
-        "v3": "поворачивала"
+        "v3": "поворачивала",
+        "group": "1st_conj"
     },
     {
         "word": "приносить",
@@ -505,11 +519,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "приносил",
-        "v3": "приносила"
+        "v3": "приносила",
+        "group": "2nd_conj"
     },
     {
         "word": "сказать",
@@ -529,13 +543,13 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "сказал",
-        "v3": "сказала"
+        "v3": "сказала",
+        "group": "1st_conj"
     },
     {
         "word": "рассказывать",
-        "level": "baby",
+        "level": "starter",
         "theme": "asking_answering_questions_A0",
         "emoji": "🗣️",
         "subtext": "говорить правду / рассказывать историю / рассказывать кому-то",
@@ -549,15 +563,15 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "рассказывал",
-        "v3": "рассказывала"
+        "v3": "рассказывала",
+        "group": "1st_conj"
     },
     {
         "word": "спрашивать",
-        "level": "baby",
+        "level": "starter",
         "theme": "asking_answering_questions_A0",
         "emoji": "❓",
         "subtext": "задавать вопрос / просить о помощи / спрашивать о",
@@ -573,9 +587,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "спрашивал",
-        "v3": "спрашивала"
+        "v3": "спрашивала",
+        "group": "1st_conj"
     },
     {
         "word": "говорить",
@@ -593,16 +607,16 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "говорил",
-        "v3": "говорила"
+        "v3": "говорила",
+        "group": "2nd_conj"
     },
     {
         "word": "разговаривать",
-        "level": "baby",
-        "theme": "greetings_social_phrases_A0",
+        "level": "starter",
+        "theme": "family_life_A1",
         "emoji": "💬",
         "subtext": "разговаривать с кем-то / разговаривать о / открыто говорить",
         "form": "verb",
@@ -617,13 +631,13 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "разговаривал",
-        "v3": "разговаривала"
+        "v3": "разговаривала",
+        "group": "1st_conj"
     },
     {
         "word": "звонить",
-        "level": "baby",
+        "level": "starter",
         "theme": "using_a_smartphone_A1",
         "emoji": "📞",
         "subtext": "звонить кому-то / перезванивать / назначать встречу",
@@ -639,9 +653,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "звонил",
-        "v3": "звонила"
+        "v3": "звонила",
+        "group": "2nd_conj"
     },
     {
         "word": "писать",
@@ -649,6 +663,8 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "писать письмо / писать отчет / писать заметки",
+        "opposite": "read",
+        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -661,9 +677,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "писал",
-        "v3": "писала"
+        "v3": "писала",
+        "group": "1st_conj"
     },
     {
         "word": "читать",
@@ -671,6 +687,8 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "читать книгу / читать новости / читать внимательно",
+        "opposite": "write",
+        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -681,11 +699,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "читал",
-        "v3": "читала"
+        "v3": "читала",
+        "group": "1st_conj"
     },
     {
         "word": "слушать",
@@ -705,9 +723,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "слушал",
-        "v3": "слушала"
+        "v3": "слушала",
+        "group": "1st_conj"
     },
     {
         "word": "отвечать",
@@ -727,9 +745,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "отвечал",
-        "v3": "отвечала"
+        "v3": "отвечала",
+        "group": "1st_conj"
     },
     {
         "word": "повторять",
@@ -749,16 +767,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "повторял",
-        "v3": "повторяла"
+        "v3": "повторяла",
+        "group": "1st_conj"
     },
     {
         "word": "идти",
         "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🚶",
-        "subtext": "идти на работу / идти домой / выходить / ходить по магазинам",
+        "subtext": "идти на работу / идти домой / выходить",
         "form": "verb",
         "definitions": [
             {
@@ -771,9 +789,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "шёл",
-        "v3": "шла"
+        "v3": "шла",
+        "group": "1st_conj"
     },
     {
         "word": "приходить",
@@ -781,6 +799,8 @@
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🏃‍♂️",
         "subtext": "приходить домой / возвращаться / приходить сюда",
+        "opposite": "go",
+        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -791,11 +811,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "приходил",
-        "v3": "приходила"
+        "v3": "приходила",
+        "group": "2nd_conj"
     },
     {
         "word": "гулять",
@@ -815,9 +835,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "гулял",
-        "v3": "гуляла"
+        "v3": "гуляла",
+        "group": "1st_conj"
     },
     {
         "word": "водить",
@@ -837,16 +857,16 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "водил",
-        "v3": "водила"
+        "v3": "водила",
+        "group": "2nd_conj"
     },
     {
         "word": "летать",
         "level": "baby",
         "theme": "modes_of_transport_A0",
         "emoji": "✈️",
-        "subtext": "лететь в город / лететь бизнес-классом / эконом-классом",
+        "subtext": "лететь в город / лететь бизнес-классом",
         "form": "verb",
         "definitions": [
             {
@@ -857,16 +877,16 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "летал",
-        "v3": "летала"
+        "v3": "летала",
+        "group": "1st_conj"
     },
     {
         "word": "приезжать",
-        "level": "baby",
-        "theme": "travel_vocabulary_basics_A0",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "приезжать на работу / приезжать поздно / вовремя",
         "form": "verb",
@@ -881,16 +901,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "приезжал",
-        "v3": "приезжала"
+        "v3": "приезжала",
+        "group": "1st_conj"
     },
     {
         "word": "уходить",
-        "level": "baby",
-        "theme": "travel_vocabulary_basics_A0",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "уходить из дома / с работы / уходить рано / поздно",
+        "subtext": "уходить из дома / с работы / уходить рано",
         "form": "verb",
         "definitions": [
             {
@@ -901,15 +921,15 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "уходил",
-        "v3": "уходила"
+        "v3": "уходила",
+        "group": "2nd_conj"
     },
     {
         "word": "двигаться",
-        "level": "baby",
+        "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "переезжать / переезжать в город / двигаться вперед",
@@ -925,16 +945,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "двигался",
-        "v3": "двигалась"
+        "v3": "двигалась",
+        "group": "1st_conj"
     },
     {
         "word": "возвращаться",
         "level": "baby",
         "theme": "travel_vocabulary_basics_A0",
         "emoji": "🔙",
-        "subtext": "возвращаться домой / на работу / возвращать звонок",
+        "subtext": "возвращаться домой / на работу",
         "form": "verb",
         "definitions": [
             {
@@ -947,16 +967,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "возвращался",
-        "v3": "возвращалась"
+        "v3": "возвращалась",
+        "group": "1st_conj"
     },
     {
         "word": "путешествовать",
-        "level": "baby",
-        "theme": "travel_vocabulary_basics_A0",
+        "level": "starter",
+        "theme": "public_transport_A1",
         "emoji": "✈️",
-        "subtext": "путешествовать по работе / за границу / на поезде",
+        "subtext": "путешествовать по работе / за границу",
         "form": "verb",
         "definitions": [
             {
@@ -969,16 +989,18 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "путешествовал",
-        "v3": "путешествовала"
+        "v3": "путешествовала",
+        "group": "1st_conj"
     },
     {
         "word": "есть",
         "level": "baby",
         "theme": "meals_of_the_day_A0",
         "emoji": "🍎",
-        "subtext": "завтракать / обедать / ужинать / есть вне дома",
+        "subtext": "завтракать / обедать / ужинать",
+        "opposite": "drink",
+        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -991,16 +1013,18 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "irregular",
         "v2": "ел",
-        "v3": "ела"
+        "v3": "ела",
+        "group": "irregular"
     },
     {
         "word": "пить",
         "level": "baby",
         "theme": "drinks_A0",
         "emoji": "🥛",
-        "subtext": "пить кофе / пить чай / пить воду / пить алкоголь",
+        "subtext": "пить кофе / пить чай / пить воду",
+        "opposite": "eat",
+        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1013,9 +1037,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "пил",
-        "v3": "пила"
+        "v3": "пила",
+        "group": "1st_conj"
     },
     {
         "word": "спать",
@@ -1023,6 +1047,8 @@
         "theme": "times_day_A0",
         "emoji": "😴",
         "subtext": "хорошо спать / плохо спать / спать восемь часов",
+        "opposite": "wake up",
+        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1035,16 +1061,16 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "спал",
-        "v3": "спала"
+        "v3": "спала",
+        "group": "2nd_conj"
     },
     {
         "word": "готовить",
-        "level": "baby",
+        "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
-        "subtext": "готовить ужин / готовить еду / готовить дома",
+        "subtext": "готовить ужин / готовить еду",
         "form": "verb",
         "definitions": [
             {
@@ -1057,13 +1083,13 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "готовил",
-        "v3": "готовила"
+        "v3": "готовила",
+        "group": "2nd_conj"
     },
     {
         "word": "чистить",
-        "level": "baby",
+        "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "чистить квартиру / убираться / чистить кухню",
@@ -1079,16 +1105,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "чистил",
-        "v3": "чистила"
+        "v3": "чистила",
+        "group": "2nd_conj"
     },
     {
         "word": "носить",
         "level": "baby",
         "theme": "items_of_clothing_A0",
         "emoji": "👕",
-        "subtext": "носить костюм / носить очки / носить повседневную одежду",
+        "subtext": "носить костюм / носить очки",
         "form": "verb",
         "definitions": [
             {
@@ -1099,11 +1125,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "носил",
-        "v3": "носила"
+        "v3": "носила",
+        "group": "2nd_conj"
     },
     {
         "word": "мыть",
@@ -1123,16 +1149,18 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "мыл",
-        "v3": "мыла"
+        "v3": "мыла",
+        "group": "1st_conj"
     },
     {
         "word": "покупать",
         "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🛒",
-        "subtext": "покупать еду / покупать билет / покупать онлайн",
+        "subtext": "покупать еду / покупать билет",
+        "opposite": "sell",
+        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1143,17 +1171,17 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "покупал",
-        "v3": "покупала"
+        "v3": "покупала",
+        "group": "1st_conj"
     },
     {
         "word": "платить",
-        "level": "baby",
+        "level": "starter",
         "theme": "money_payment_A1",
-        "emoji": "💰",
+        "emoji": "💳",
         "subtext": "оплачивать счет / платить за аренду / платить картой",
         "form": "verb",
         "definitions": [
@@ -1167,16 +1195,16 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "платил",
-        "v3": "платила"
+        "v3": "платила",
+        "group": "2nd_conj"
     },
     {
         "word": "тратить",
-        "level": "baby",
+        "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
-        "subtext": "тратить деньги / тратить время / тратить на аренду",
+        "subtext": "тратить деньги / тратить время",
         "form": "verb",
         "definitions": [
             {
@@ -1187,18 +1215,20 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "тратил",
-        "v3": "тратила"
+        "v3": "тратила",
+        "group": "2nd_conj"
     },
     {
         "word": "сохранять",
-        "level": "baby",
+        "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "копить деньги / копить на дом / экономить время",
+        "opposite": "spend",
+        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1211,16 +1241,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "сохранял",
-        "v3": "сохраняла"
+        "v3": "сохраняла",
+        "group": "1st_conj"
     },
     {
         "word": "работать",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
-        "subtext": "работать из дома / работать полный день / усердно работать",
+        "subtext": "работать из дома / работать полный день",
         "form": "verb",
         "definitions": [
             {
@@ -1233,9 +1263,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "работал",
-        "v3": "работала"
+        "v3": "работала",
+        "group": "1st_conj"
     },
     {
         "word": "жить",
@@ -1243,6 +1273,8 @@
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "жить в квартире / жить одному / жить с кем-то",
+        "opposite": "die",
+        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1253,11 +1285,11 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "жил",
-        "v3": "жила"
+        "v3": "жила",
+        "group": "1st_conj"
     },
     {
         "word": "думать",
@@ -1275,11 +1307,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "both",
-        "group": "1st_conj",
         "v2": "думал",
-        "v3": "думала"
+        "v3": "думала",
+        "group": "1st_conj"
     },
     {
         "word": "знать",
@@ -1297,11 +1329,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "знал",
-        "v3": "знала"
+        "v3": "знала",
+        "group": "1st_conj"
     },
     {
         "word": "хотеть",
@@ -1322,9 +1354,9 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "group": "mixed_conj",
         "v2": "хотел",
-        "v3": "хотела"
+        "v3": "хотела",
+        "group": "mixed_conj"
     },
     {
         "word": "нуждаться",
@@ -1345,9 +1377,9 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "нуждался",
-        "v3": "нуждалась"
+        "v3": "нуждалась",
+        "group": "1st_conj"
     },
     {
         "word": "нравиться",
@@ -1368,9 +1400,9 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "2nd_conj",
         "v2": "нравился",
-        "v3": "нравилась"
+        "v3": "нравилась",
+        "group": "2nd_conj"
     },
     {
         "word": "любить",
@@ -1390,9 +1422,9 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "2nd_conj",
         "v2": "любил",
-        "v3": "любила"
+        "v3": "любила",
+        "group": "2nd_conj"
     },
     {
         "word": "ненавидеть",
@@ -1412,9 +1444,9 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "2nd_conj",
         "v2": "ненавидел",
-        "v3": "ненавидела"
+        "v3": "ненавидела",
+        "group": "2nd_conj"
     },
     {
         "word": "надеяться",
@@ -1434,9 +1466,9 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "надеялся",
-        "v3": "надеялась"
+        "v3": "надеялась",
+        "group": "1st_conj"
     },
     {
         "word": "помнить",
@@ -1456,9 +1488,9 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "2nd_conj",
         "v2": "помнил",
-        "v3": "помнила"
+        "v3": "помнила",
+        "group": "2nd_conj"
     },
     {
         "word": "забывать",
@@ -1476,11 +1508,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "забывал",
-        "v3": "забывала"
+        "v3": "забывала",
+        "group": "1st_conj"
     },
     {
         "word": "понимать",
@@ -1498,11 +1530,11 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "понимал",
-        "v3": "понимала"
+        "v3": "понимала",
+        "group": "1st_conj"
     },
     {
         "word": "решать",
@@ -1522,13 +1554,13 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "решал",
-        "v3": "решала"
+        "v3": "решала",
+        "group": "1st_conj"
     },
     {
         "word": "наслаждаться",
-        "level": "baby",
+        "level": "starter",
         "theme": "basic_positive_emotions_A0",
         "emoji": "😊",
         "subtext": "наслаждаться делом / наслаждаться едой / своей работой",
@@ -1544,16 +1576,16 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "наслаждался",
-        "v3": "наслаждалась"
+        "v3": "наслаждалась",
+        "group": "1st_conj"
     },
     {
         "word": "видеть",
         "level": "baby",
         "theme": "body_parts_A0",
         "emoji": "👁️",
-        "subtext": "видеть врача / видеть друзей / видеть проблему / ясно видеть",
+        "subtext": "видеть врача / видеть друзей / видеть проблему",
         "form": "verb",
         "definitions": [
             {
@@ -1566,9 +1598,9 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "group": "2nd_conj",
         "v2": "видел",
-        "v3": "видела"
+        "v3": "видела",
+        "group": "2nd_conj"
     },
     {
         "word": "слышать",
@@ -1588,17 +1620,19 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "group": "2nd_conj",
         "v2": "слышал",
-        "v3": "слышала"
+        "v3": "слышала",
+        "group": "2nd_conj"
     },
     {
         "word": "просыпаться",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
-        "subtext": "рано просыпаться, просыпаться в 7",
         "form": "verb",
+        "subtext": "рано просыпаться / просыпаться в 7 / просыпаться уставшим",
+        "opposite": "sleep",
+        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Переставать спать и открывать глаза.",
@@ -1608,19 +1642,19 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "просыпался",
-        "v3": "просыпалась"
+        "v3": "просыпалась",
+        "group": "1st_conj"
     },
     {
         "word": "смотреть",
-        "level": "baby",
+        "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "📺",
-        "subtext": "смотреть телевизор, смотреть фильм",
         "form": "verb",
+        "subtext": "смотреть телевизор / смотреть фильм / смотреть новости",
         "definitions": [
             {
                 "text": "Наблюдать за чем-либо в течение времени.",
@@ -1630,18 +1664,18 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "смотрел",
-        "v3": "смотрела"
+        "v3": "смотрела",
+        "group": "2nd_conj"
     },
     {
         "word": "смотреть",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "смотреть",
+        "subtext": "смотреть / искать / выглядеть счастливым",
         "form": "verb",
         "definitions": [
             {
@@ -1652,18 +1686,18 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "both",
-        "group": "2nd_conj",
         "v2": "смотрел",
-        "v3": "смотрела"
+        "v3": "смотрела",
+        "group": "2nd_conj"
     },
     {
         "word": "играть",
-        "level": "baby",
+        "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "subtext": "играть",
+        "subtext": "играть в спорт / играть в игру / играть роль",
         "form": "verb",
         "definitions": [
             {
@@ -1676,16 +1710,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "играл",
-        "v3": "играла"
+        "v3": "играла",
+        "group": "1st_conj"
     },
     {
         "word": "бегать",
         "level": "baby",
         "theme": "common_sports_A0",
         "emoji": "🏃",
-        "subtext": "бегать",
+        "subtext": "бегать / бежать гонку / управлять бизнесом",
         "form": "verb",
         "definitions": [
             {
@@ -1696,18 +1730,20 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "бегал",
-        "v3": "бегала"
+        "v3": "бегала",
+        "group": "1st_conj"
     },
     {
         "word": "сидеть",
-        "level": "baby",
-        "theme": "health_body",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
         "emoji": "🪑",
-        "subtext": "сидеть",
+        "subtext": "сидеть / сидеть за столом / сидеть на встрече",
+        "opposite": "stand",
+        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -1720,16 +1756,18 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "сидел",
-        "v3": "сидела"
+        "v3": "сидела",
+        "group": "2nd_conj"
     },
     {
         "word": "стоять",
-        "level": "baby",
-        "theme": "health_body",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "стоять",
+        "subtext": "стоять / вставать / стоять в очереди",
+        "opposite": "sit",
+        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -1742,16 +1780,15 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "стоял",
-        "v3": "стояла"
+        "v3": "стояла",
+        "group": "2nd_conj"
     },
     {
         "word": "встречать",
-        "level": "baby",
-        "theme": "society_politics",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "встречать",
         "form": "verb",
         "definitions": [
             {
@@ -1762,18 +1799,19 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "встречал",
-        "v3": "встречала"
+        "v3": "встречала",
+        "subtext": "встречать кого-то / встретиться за обедом",
+        "group": "1st_conj"
     },
     {
         "word": "учить",
-        "level": "baby",
-        "theme": "education_learning",
+        "level": "starter",
+        "theme": "learning_studying_A1",
         "emoji": "📚",
-        "subtext": "учить",
+        "subtext": "учить / учить язык / учиться быстро",
         "form": "verb",
         "definitions": [
             {
@@ -1784,18 +1822,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "both",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "учил",
-        "v3": "учила"
+        "v3": "учила",
+        "group": "2nd_conj"
     },
     {
         "word": "менять",
-        "level": "baby",
-        "theme": "time",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
         "emoji": "🔄",
-        "subtext": "менять",
+        "subtext": "менять / менять мнение / менять план",
         "form": "verb",
         "definitions": [
             {
@@ -1808,16 +1846,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "менял",
-        "v3": "меняла"
+        "v3": "меняла",
+        "group": "1st_conj"
     },
     {
         "word": "останавливать",
-        "level": "baby",
-        "theme": "time",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "останавливать",
+        "subtext": "останавливать / перестать делать / остановить кого-то",
         "form": "verb",
         "definitions": [
             {
@@ -1830,16 +1868,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "останавливал",
-        "v3": "останавливала"
+        "v3": "останавливала",
+        "group": "1st_conj"
     },
     {
         "word": "добавлять",
         "level": "baby",
-        "theme": "numbers_math",
+        "theme": "numbers_100_999_A1",
         "emoji": "➕",
-        "subtext": "добавлять",
+        "subtext": "добавлять / добавить комментарий / добавить сахар",
         "form": "verb",
         "definitions": [
             {
@@ -1852,16 +1890,18 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "добавлял",
-        "v3": "добавляла"
+        "v3": "добавляла",
+        "group": "1st_conj"
     },
     {
         "word": "побеждать",
         "level": "baby",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
-        "subtext": "побеждать",
+        "subtext": "побеждать / выиграть приз / выиграть контракт",
+        "opposite": "lose",
+        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -1871,18 +1911,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "побеждал",
-        "v3": "побеждала"
+        "v3": "побеждала",
+        "group": "1st_conj"
     },
     {
         "word": "ждать",
-        "level": "baby",
-        "theme": "time",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
         "emoji": "⏳",
-        "subtext": "ждать",
+        "subtext": "ждать / ждать кого-то / подождать минутку",
         "form": "verb",
         "definitions": [
             {
@@ -1893,18 +1933,20 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "ждал",
-        "v3": "ждала"
+        "v3": "ждала",
+        "group": "1st_conj"
     },
     {
         "word": "умирать",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
-        "subtext": "умирать",
+        "subtext": "умирать / умирать от / вымирать",
+        "opposite": "live",
+        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -1916,16 +1958,15 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "умирал",
-        "v3": "умирала"
+        "v3": "умирала",
+        "group": "1st_conj"
     },
     {
         "word": "посылать",
-        "level": "baby",
-        "theme": "language_communication",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
         "emoji": "✉️",
-        "subtext": "посылать",
         "form": "verb",
         "definitions": [
             {
@@ -1936,18 +1977,19 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "посылал",
-        "v3": "посылала"
+        "v3": "посылала",
+        "subtext": "посылать / отправить письмо / отправить сообщение",
+        "group": "1st_conj"
     },
     {
         "word": "оставаться",
         "level": "baby",
-        "theme": "places_geography",
+        "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
-        "subtext": "оставаться",
+        "subtext": "оставаться / оставаться дома / остановиться в отеле",
         "form": "verb",
         "definitions": [
             {
@@ -1960,16 +2002,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "оставался",
-        "v3": "оставалась"
+        "v3": "оставалась",
+        "group": "1st_conj"
     },
     {
         "word": "падать",
         "level": "baby",
-        "theme": "environment_nature",
+        "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "subtext": "падать",
+        "subtext": "падать / влюбиться / заснуть",
         "form": "verb",
         "definitions": [
             {
@@ -1980,18 +2022,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "падал",
-        "v3": "падала"
+        "v3": "падала",
+        "group": "1st_conj"
     },
     {
         "word": "проходить",
         "level": "baby",
-        "theme": "education_learning",
+        "theme": "learning_studying_A1",
         "emoji": "🏔️",
-        "subtext": "проходить",
+        "subtext": "проходить / сдать экзамен / проводить время",
         "form": "verb",
         "definitions": [
             {
@@ -2004,16 +2046,18 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "проходил",
-        "v3": "проходила"
+        "v3": "проходила",
+        "group": "2nd_conj"
     },
     {
         "word": "продавать",
         "level": "baby",
         "theme": "everyday_shopping_A0",
         "emoji": "🏷️",
-        "subtext": "продавать",
+        "subtext": "продавать / продавать онлайн / продавать на рынке",
+        "opposite": "buy",
+        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2023,18 +2067,20 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "продавал",
-        "v3": "продавала"
+        "v3": "продавала",
+        "group": "1st_conj"
     },
     {
         "word": "тянуть",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "тянуть",
+        "subtext": "тянуть / тянуть дверь / отъезжать",
+        "opposite": "push",
+        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2046,16 +2092,18 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "тянул",
-        "v3": "тянула"
+        "v3": "тянула",
+        "group": "1st_conj"
     },
     {
         "word": "толкать",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "daily_work_routines_A1",
         "emoji": "🛒",
-        "subtext": "толкать",
+        "subtext": "толкать / нажать кнопку / толкать тележку",
+        "opposite": "pull",
+        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2068,16 +2116,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "толкал",
-        "v3": "толкала"
+        "v3": "толкала",
+        "group": "1st_conj"
     },
     {
         "word": "нести",
-        "level": "baby",
-        "theme": "health_body",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
         "emoji": "🎒",
-        "subtext": "нести",
+        "subtext": "нести / нести сумку / нести заметки",
         "form": "verb",
         "definitions": [
             {
@@ -2088,18 +2136,18 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "нёс",
-        "v3": "несла"
+        "v3": "несла",
+        "group": "1st_conj"
     },
     {
         "word": "ломать",
         "level": "baby",
-        "theme": "describing_things",
+        "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "ломать",
+        "subtext": "ломать / разбить стекло / сделать перерыв",
         "form": "verb",
         "definitions": [
             {
@@ -2110,18 +2158,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "ломал",
-        "v3": "ломала"
+        "v3": "ломала",
+        "group": "1st_conj"
     },
     {
         "word": "получать",
         "level": "baby",
-        "theme": "language_communication",
+        "theme": "money_payment_A1",
         "emoji": "📩",
-        "subtext": "получать",
+        "subtext": "получать / получить письмо / получить платеж",
         "form": "verb",
         "definitions": [
             {
@@ -2134,16 +2182,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "получал",
-        "v3": "получала"
+        "v3": "получала",
+        "group": "1st_conj"
     },
     {
         "word": "соглашаться",
         "level": "baby",
-        "theme": "opinion_debate",
+        "theme": "giving_opinions_A1",
         "emoji": "👍",
-        "subtext": "соглашаться",
+        "subtext": "соглашаться / соглашаться с кем-то",
         "form": "verb",
         "definitions": [
             {
@@ -2156,16 +2204,16 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "group": "1st_conj",
         "v2": "соглашался",
-        "v3": "соглашалась"
+        "v3": "соглашалась",
+        "group": "1st_conj"
     },
     {
         "word": "рисовать",
         "level": "baby",
-        "theme": "culture_arts",
+        "theme": "cinema_film_A1",
         "emoji": "🎨",
-        "subtext": "рисовать",
+        "subtext": "рисовать / рисовать картинку / рисовать линию",
         "form": "verb",
         "definitions": [
             {
@@ -2176,18 +2224,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "рисовал",
-        "v3": "рисовала"
+        "v3": "рисовала",
+        "group": "1st_conj"
     },
     {
         "word": "делиться",
         "level": "baby",
-        "theme": "society_politics",
+        "theme": "family_life_A1",
         "emoji": "🍕",
-        "subtext": "делиться",
+        "subtext": "делиться / делить комнату / делиться идеей",
         "form": "verb",
         "definitions": [
             {
@@ -2200,16 +2248,18 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "2nd_conj",
         "v2": "делился",
-        "v3": "делилась"
+        "v3": "делилась",
+        "group": "2nd_conj"
     },
     {
         "word": "улыбаться",
         "level": "baby",
-        "theme": "feelings_emotions",
+        "theme": "physical_appearance_A1",
         "emoji": "😊",
-        "subtext": "улыбаться",
+        "subtext": "улыбаться / улыбаться кому-то / широко улыбаться",
+        "opposite": "cry",
+        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2222,16 +2272,18 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "улыбался",
-        "v3": "улыбалась"
+        "v3": "улыбалась",
+        "group": "1st_conj"
     },
     {
         "word": "плакать",
         "level": "baby",
-        "theme": "feelings_emotions",
+        "theme": "surprise_interest_A1",
         "emoji": "😢",
-        "subtext": "плакать",
+        "subtext": "плакать / плакать о помощи / плакать из-за чего-то",
+        "opposite": "smile",
+        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2244,16 +2296,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "плакал",
-        "v3": "плакала"
+        "v3": "плакала",
+        "group": "1st_conj"
     },
     {
         "word": "танцевать",
         "level": "baby",
-        "theme": "culture_arts",
+        "theme": "music_A1",
         "emoji": "💃",
-        "subtext": "танцевать",
+        "subtext": "танцевать / танцевать под музыку / идти танцевать",
         "form": "verb",
         "definitions": [
             {
@@ -2266,16 +2318,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "танцевал",
-        "v3": "танцевала"
+        "v3": "танцевала",
+        "group": "1st_conj"
     },
     {
         "word": "петь",
         "level": "baby",
-        "theme": "culture_arts",
+        "theme": "music_A1",
         "emoji": "🎤",
-        "subtext": "петь",
+        "subtext": "петь / петь песню / подпевать",
         "form": "verb",
         "definitions": [
             {
@@ -2288,16 +2340,16 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "пел",
-        "v3": "пела"
+        "v3": "пела",
+        "group": "1st_conj"
     },
     {
         "word": "прыгать",
         "level": "baby",
-        "theme": "health_body",
+        "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
-        "subtext": "прыгать",
+        "subtext": "прыгать / прыгать высоко / перепрыгивать",
         "form": "verb",
         "definitions": [
             {
@@ -2310,16 +2362,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "прыгал",
-        "v3": "прыгала"
+        "v3": "прыгала",
+        "group": "1st_conj"
     },
     {
         "word": "плавать",
         "level": "baby",
         "theme": "common_sports_A0",
         "emoji": "🏊",
-        "subtext": "плавать",
+        "subtext": "плавать / идти плавать / плавать кругами",
         "form": "verb",
         "definitions": [
             {
@@ -2330,18 +2382,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "плавал",
-        "v3": "плавала"
+        "v3": "плавала",
+        "group": "1st_conj"
     },
     {
-        "word": "изучать",
-        "level": "baby",
-        "theme": "education_learning",
+        "word": "учиться",
+        "level": "starter",
+        "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "изучать",
+        "subtext": "учиться / учить английский / готовиться к экзамену",
         "form": "verb",
         "definitions": [
             {
@@ -2354,16 +2406,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
-        "v2": "изучал",
-        "v3": "изучала"
+        "v2": "учился",
+        "v3": "училась",
+        "group": "2nd_conj"
     },
     {
-        "word": "учить",
-        "level": "baby",
-        "theme": "education_learning",
+        "word": "преподавать",
+        "level": "starter",
+        "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
-        "subtext": "учить",
+        "subtext": "преподавать / учить кого-то / преподавать предмет",
         "form": "verb",
         "definitions": [
             {
@@ -2374,18 +2426,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "2nd_conj",
-        "v2": "учил",
-        "v3": "учила"
+        "v2": "преподавал",
+        "v3": "преподавала",
+        "group": "1st_conj"
     },
     {
         "word": "ездить на работу",
         "level": "baby",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "ездить на работу",
+        "subtext": "ездить на работу / ежедневная поездка / долгая поездка",
         "form": "verb",
         "definitions": [
             {
@@ -2395,18 +2447,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "action",
-        "group": "locution",
         "v2": "ездил на работу",
-        "v3": "ездила на работу"
+        "v3": "ездила на работу",
+        "group": "locution"
     },
     {
-        "word": "арендовать",
-        "level": "baby",
+        "word": "снимать",
+        "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
-        "subtext": "арендовать",
+        "subtext": "снимать / снимать квартиру / снимать комнату",
         "form": "verb",
         "definitions": [
             {
@@ -2418,16 +2470,15 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
-        "v2": "арендовал",
-        "v3": "арендовала"
+        "v2": "снимал",
+        "v3": "снимала",
+        "group": "1st_conj"
     },
     {
         "word": "тренироваться",
-        "level": "baby",
+        "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏋️",
-        "subtext": "тренироваться",
         "form": "verb",
         "definitions": [
             {
@@ -2439,16 +2490,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "тренировался",
-        "v3": "тренировалась"
+        "v3": "тренировалась",
+        "subtext": "тренироваться / тренироваться регулярно / в зале",
+        "group": "1st_conj"
     },
     {
         "word": "стоить",
-        "level": "baby",
+        "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
-        "subtext": "стоить",
         "form": "verb",
         "definitions": [
             {
@@ -2458,18 +2509,18 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "stative",
-        "group": "2nd_conj",
         "v2": "стоил",
-        "v3": "стоила"
+        "v3": "стоила",
+        "subtext": "стоить / стоить дорого / стоить денег",
+        "group": "2nd_conj"
     },
     {
         "word": "приглашать",
-        "level": "baby",
+        "level": "starter",
         "theme": "family_life_A1",
         "emoji": "✉️",
-        "subtext": "приглашать",
         "form": "verb",
         "definitions": [
             {
@@ -2481,9 +2532,850 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "group": "1st_conj",
         "v2": "приглашал",
-        "v3": "приглашала"
+        "v3": "приглашала",
+        "subtext": "приглашать / пригласить кого-то / пригласить на ужин",
+        "group": "1st_conj"
+    },
+    {
+        "word": "вставать",
+        "definitions": [
+            {
+                "text": "Вставать с постели после пробуждения.",
+                "examples": [
+                    "Он встает в семь и сразу делает кофе."
+                ]
+            }
+        ],
+        "subtext": "вставать рано / вставать поздно / вставать быстро",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "вставал",
+        "v3": "вставала",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "завтракать",
+        "definitions": [
+            {
+                "text": "Принимать утреннюю пищу.",
+                "examples": [
+                    "Она всегда завтракает перед выходом из дома."
+                ]
+            }
+        ],
+        "subtext": "завтракать дома / быстрый завтрак / пропускать завтрак",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "завтракал",
+        "v3": "завтракала",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🍳",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "возвращаться",
+        "definitions": [
+            {
+                "text": "Вернуться в какое-либо место.",
+                "examples": [
+                    "Она возвращается с обеда в два."
+                ]
+            }
+        ],
+        "subtext": "возвращаться домой / возвращаться поздно / из поездки",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "возвращался",
+        "v3": "возвращалась",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🔙",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "ложиться спать",
+        "definitions": [
+            {
+                "text": "Ложиться в постель, чтобы заснуть.",
+                "examples": [
+                    "Они ложатся спать в одиннадцать каждый вечер."
+                ]
+            }
+        ],
+        "subtext": "ложиться спать рано / ложиться поздно / ложиться уставшим",
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "ложился спать",
+        "v3": "ложилась спать",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "level": "starter",
+        "form": "verb",
+        "group": "2nd_conj"
+    },
+    {
+        "word": "проверять",
+        "definitions": [
+            {
+                "text": "Изучать или проверять что-либо.",
+                "examples": [
+                    "Я проверяю электронную почту первым делом каждое утро."
+                ]
+            }
+        ],
+        "subtext": "проверять почту / проверять сообщения / проверять документ",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "проверял",
+        "v3": "проверяла",
+        "theme": "workplace_basics_A1",
+        "emoji": "✅",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "отвечать",
+        "definitions": [
+            {
+                "text": "Отвечать на сообщение или вопрос.",
+                "examples": [
+                    "Он всегда отвечает на письма в тот же день."
+                ]
+            }
+        ],
+        "subtext": "отвечать на письмо / отвечать быстро / отвечать на сообщение",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "отвечал",
+        "v3": "отвечала",
+        "theme": "workplace_basics_A1",
+        "emoji": "↩️",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "презентовать",
+        "definitions": [
+            {
+                "text": "Показывать или объяснять что-то группе людей.",
+                "examples": [
+                    "Она презентует результаты каждую пятницу после обеда."
+                ]
+            }
+        ],
+        "subtext": "презентовать отчет / презентовать идеи / клиенту",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "презентовал",
+        "v3": "презентовала",
+        "theme": "workplace_basics_A1",
+        "emoji": "📊",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "посещать",
+        "definitions": [
+            {
+                "text": "Ходить на мероприятие или собрание.",
+                "examples": [
+                    "Я посещаю собрание руководства каждый понедельник."
+                ]
+            }
+        ],
+        "subtext": "посещать собрание / посещать курс / посещать мероприятие",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "посещал",
+        "v3": "посещала",
+        "theme": "workplace_basics_A1",
+        "emoji": "📅",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "управлять",
+        "definitions": [
+            {
+                "text": "Руководить людьми или ситуацией.",
+                "examples": [
+                    "Она управляет командой из восьми человек."
+                ]
+            }
+        ],
+        "subtext": "управлять командой / управлять проектом / временем",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "управлял",
+        "v3": "управляла",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "взимать плату",
+        "definitions": [
+            {
+                "text": "Просить сумму денег за услугу.",
+                "examples": [
+                    "Механик взял триста евро."
+                ]
+            }
+        ],
+        "subtext": "взимать комиссию / плата за услугу / брать дополнительно",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "взимал плату",
+        "v3": "взимала плату",
+        "theme": "money_payment_A1",
+        "emoji": "💳",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "позволить себе",
+        "definitions": [
+            {
+                "text": "Иметь достаточно денег на что-либо.",
+                "examples": [
+                    "Они не могут позволить себе купить квартиру в центре города."
+                ]
+            }
+        ],
+        "subtext": "позволить себе дом / позволить себе путешествие",
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "позволил себе",
+        "v3": "позволила себе",
+        "theme": "money_payment_A1",
+        "emoji": "🏦",
+        "level": "starter",
+        "form": "verb",
+        "group": "2nd_conj"
+    },
+    {
+        "word": "быть должным",
+        "definitions": [
+            {
+                "text": "Быть обязанным выплатить деньги кому-либо.",
+                "examples": [
+                    "Он должен банку пятьдесят тысяч евро."
+                ]
+            }
+        ],
+        "subtext": "быть должным деньги / быть должным кому-то / много",
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "был должен",
+        "v3": "была должна",
+        "theme": "money_payment_A1",
+        "emoji": "💸",
+        "level": "starter",
+        "form": "verb",
+        "group": "irregular"
+    },
+    {
+        "word": "зарабатывать",
+        "definitions": [
+            {
+                "text": "Получать деньги за выполненную работу.",
+                "examples": [
+                    "Она зарабатывает хорошую зарплату в качестве менеджера проектов."
+                ]
+            }
+        ],
+        "subtext": "зарабатывать зарплату / зарабатывать деньги / больше",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "зарабатывал",
+        "v3": "зарабатывала",
+        "theme": "money_payment_A1",
+        "emoji": "💶",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "навещать",
+        "definitions": [
+            {
+                "text": "Ходить в гости к человеку или посещать место.",
+                "examples": [
+                    "Она навещает своих родителей каждые вторые выходные."
+                ]
+            }
+        ],
+        "subtext": "навещать семью / навестить друга / посетить город",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "навещал",
+        "v3": "навещала",
+        "theme": "family_life_A1",
+        "emoji": "🏘️",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "праздновать",
+        "definitions": [
+            {
+                "text": "Заниматься чем-то приятным по особому случаю.",
+                "examples": [
+                    "Они вместе празднуют каждую годовщину работы."
+                ]
+            }
+        ],
+        "subtext": "праздновать день рождения / праздновать успех / вместе",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "праздновал",
+        "v3": "праздновала",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎉",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "рекомендовать",
+        "definitions": [
+            {
+                "text": "Предлагать что-либо как хорошее или подходящее.",
+                "examples": [
+                    "Можете ли вы порекомендовать хороший ресторан рядом с офисом?"
+                ]
+            }
+        ],
+        "subtext": "рекомендовать место / рекомендовать кого-то / фильм",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "рекомендовал",
+        "v3": "рекомендовала",
+        "theme": "giving_opinions_A1",
+        "emoji": "👍",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "болеть",
+        "definitions": [
+            {
+                "text": "Причинять боль; или чувствовать боль.",
+                "examples": [
+                    "У меня болит спина после того, как я просидел весь день."
+                ]
+            }
+        ],
+        "subtext": "болит спина / причинить боль кому-то / это больно",
+        "classification": "irregular",
+        "aspect": "both",
+        "v2": "болел",
+        "v3": "болела",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "🤕",
+        "level": "starter",
+        "form": "verb",
+        "group": "2nd_conj"
+    },
+    {
+        "word": "отдыхать",
+        "definitions": [
+            {
+                "text": "Прекращать работу и расслабляться, чтобы восстановить силы.",
+                "examples": [
+                    "Он отдыхает по часу после обеда каждый день."
+                ]
+            }
+        ],
+        "subtext": "отдыхать дома / отдыхать после работы / нужен отдых",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "отдыхал",
+        "v3": "отдыхала",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛋️",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "выздоравливать",
+        "definitions": [
+            {
+                "text": "Возвращаться к хорошему здоровью после болезни или травмы.",
+                "examples": [
+                    "Она выздоравливает после травмы спины."
+                ]
+            }
+        ],
+        "subtext": "выздоравливать после болезни / быстро / полностью",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "выздоравливал",
+        "v3": "выздоравливала",
+        "theme": "medical_appointments_A1",
+        "emoji": "🩹",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "бронировать",
+        "definitions": [
+            {
+                "text": "Резервировать место, билет или услугу заранее.",
+                "examples": [
+                    "Я всегда бронирую отели онлайн."
+                ]
+            }
+        ],
+        "subtext": "бронировать отель / бронировать рейс / столик",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "бронировал",
+        "v3": "бронировала",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "📖",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "собирать вещи",
+        "definitions": [
+            {
+                "text": "Складывать предметы в сумку или чемодан для поездки.",
+                "examples": [
+                    "Он собирает чемодан накануне поездки."
+                ]
+            }
+        ],
+        "subtext": "собирать сумку / собирать чемодан / собираться налегке",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "собирал вещи",
+        "v3": "собирала вещи",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "🎒",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "отменять",
+        "definitions": [
+            {
+                "text": "Решать, что запланированное не состоится.",
+                "examples": [
+                    "Ей пришлось отменить рейс из-за болезни."
+                ]
+            }
+        ],
+        "subtext": "отменить рейс / отменить бронь / отменить встречу",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "отменял",
+        "v3": "отменяла",
+        "theme": "travel_vocabulary_basics_A0",
+        "emoji": "❌",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "скучать",
+        "definitions": [
+            {
+                "text": "Опоздать на транспорт; или грустить об отсутствии кого-то.",
+                "examples": [
+                    "Он опоздал на поезд, и ему пришлось ждать час."
+                ]
+            }
+        ],
+        "subtext": "опоздать на поезд / опоздать на рейс / скучать по кому-то",
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "скучал",
+        "v3": "скучала",
+        "theme": "public_transport_A1",
+        "emoji": "🏃‍♂️",
+        "level": "starter",
+        "form": "verb",
+        "group": "1st_conj"
+    },
+    {
+        "word": "заказывать",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📦",
+        "subtext": "заказывать еду / заказывать напиток / заказывать онлайн",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Официально запрашивать что-либо, особенно еду или товары.",
+                "examples": [
+                    "Я всегда заказываю обед в одном и том же месте рядом с офисом."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "заказывал",
+        "v3": "заказывала",
+        "group": "1st_conj"
+    },
+    {
+        "word": "объяснять",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "💡",
+        "subtext": "объяснять процесс / объяснять четко / кому-то",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Разъяснять что-либо, приводя подробности.",
+                "examples": [
+                    "Он всегда объясняет процесс новым членам команды."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "объяснял",
+        "v3": "объясняла",
+        "group": "1st_conj"
+    },
+    {
+        "word": "благодарить",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A0",
+        "emoji": "🙏",
+        "subtext": "благодарить кого-то / благодарить за / большое спасибо",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Выражать благодарность кому-либо.",
+                "examples": [
+                    "Он поблагодарил команду за усердную работу над проектом."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "благодарил",
+        "v3": "благодарила",
+        "group": "2nd_conj"
+    },
+    {
+        "word": "представлять",
+        "level": "starter",
+        "theme": "name_greeting_A0",
+        "emoji": "🤝",
+        "subtext": "представиться / представить кого-то / представить тему",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Представлять кого-либо другому человеку.",
+                "examples": [
+                    "Она представилась в начале встречи."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "представлял",
+        "v3": "представляла",
+        "group": "1st_conj"
+    },
+    {
+        "word": "расслабляться",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🧘",
+        "subtext": "расслабляться дома / после работы / на отдыхе",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Прекращать работу и отдыхать; становиться менее напряженным.",
+                "examples": [
+                    "Я расслабляюсь на выходных и никогда не проверяю почту."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "расслаблялся",
+        "v3": "расслаблялась",
+        "group": "1st_conj"
+    },
+    {
+        "word": "чинить",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🛠️",
+        "subtext": "чинить что-то / отремонтировать / стоимость ремонта",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Исправлять то, что сломано.",
+                "examples": [
+                    "Домовладелец не спешит чинить вещи в квартире."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "чинил",
+        "v3": "чинила",
+        "group": "2nd_conj"
+    },
+    {
+        "word": "случаться",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "❔",
+        "subtext": "что случилось / случиться с кем-то / это случается",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Происходить; иметь место.",
+                "examples": [
+                    "Что случилось на встрече? Что-то пошло не так."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "случался",
+        "v3": "случалась",
+        "group": "1st_conj"
+    },
+    {
+        "word": "казаться",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🎭",
+        "subtext": "казаться хорошим / казаться обеспокоенным / счастливым",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Представляться чем-либо; производить впечатление.",
+                "examples": [
+                    "Она кажется очень уверенной на встречах с клиентами."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "казался",
+        "v3": "казалась",
+        "group": "1st_conj"
+    },
+    {
+        "word": "значить",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "❔",
+        "subtext": "значить что-то / что это значит / иметь в виду",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Иметь определенное значение; иметь намерение.",
+                "examples": [
+                    "Что значит этот пункт в контракте?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "значил",
+        "v3": "значила",
+        "group": "2nd_conj"
+    },
+    {
+        "word": "следовать",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👣",
+        "subtext": "следовать инструкциям / следовать за кем-то / за новостями",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Идти следом; подчиняться правилам или инструкциям.",
+                "examples": [
+                    "Пожалуйста, внимательно следуйте инструкциям. Он следит за новостями."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "следовал",
+        "v3": "следовала",
+        "group": "1st_conj"
+    },
+    {
+        "word": "продолжать",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "⏩",
+        "subtext": "продолжать работать / продолжать делать / задачу",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Продолжать делать что-либо не останавливаясь.",
+                "examples": [
+                    "Он продолжал работать после шести, несмотря на плохое самочувствие."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "продолжал",
+        "v3": "продолжала",
+        "group": "1st_conj"
+    },
+    {
+        "word": "расти",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📈",
+        "subtext": "развивать бизнес / расти быстро / превращаться в",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Увеличиваться в размере или количестве; развиваться.",
+                "examples": [
+                    "Компания выросла на двадцать процентов в прошлом году."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "рос",
+        "v3": "росла",
+        "group": "1st_conj"
+    },
+    {
+        "word": "включать",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "➕",
+        "subtext": "включать что-то / включать в / не включено",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Делать что-либо частью целого.",
+                "examples": [
+                    "В стоимость включены завтрак и ужин."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "включал",
+        "v3": "включала",
+        "group": "1st_conj"
+    },
+    {
+        "word": "становиться",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "✨",
+        "subtext": "стать менеджером / стать популярным / стать понятным",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Начинать быть кем-либо или чем-либо.",
+                "examples": [
+                    "Она стала менеджером всего через два года работы в этой роли."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "становился",
+        "v3": "становилась",
+        "group": "1st_conj"
+    },
+    {
+        "word": "принадлежать",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📎",
+        "subtext": "принадлежать кому-то / принадлежать к / чувствовать себя своим",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Быть собственностью кого-либо; быть участником.",
+                "examples": [
+                    "Этот счет принадлежит финансовому отделу."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "принадлежал",
+        "v3": "принадлежала",
+        "group": "2nd_conj"
+    },
+    {
+        "word": "выбирать",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👉",
+        "subtext": "выбирать между / выбирать сделать / выбирать тщательно",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Отбирать из вариантов.",
+                "examples": [
+                    "Он выбрал работу на неполный рабочий день, чтобы проводить больше времени с семьей."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "выбирал",
+        "v3": "выбирала",
+        "group": "1st_conj"
+    },
+    {
+        "word": "строить",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🏗️",
+        "subtext": "строить карьеру / строить команду / строить доверие",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Сооружать что-либо; развивать что-либо со временем.",
+                "examples": [
+                    "Она построила прочную репутацию за десять лет."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "строил",
+        "v3": "строила",
+        "group": "2nd_conj"
     }
 ];
     const lang = "ru";
