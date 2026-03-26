@@ -2,58 +2,58 @@
     const data = [
     {
         "word": "Ավստրալիա",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Ճապոնիա",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Չինաստան",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Բրազիլիա",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Հնդկաստան",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Տոկիո",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Սիդնեյ",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Պեկին",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Ռիո դե Ժանեյրո",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Կահիրե",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Դելի",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     }
 ];
     const lang = "hy";

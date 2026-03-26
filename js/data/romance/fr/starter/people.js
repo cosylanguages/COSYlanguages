@@ -2,12 +2,12 @@
     const data = [
     {
         "word": "Napoléon Bonaparte",
-        "level": "baby",
+        "level": "starter",
         "theme": "identity_self_C1"
     },
     {
         "word": "Zinedine Zidane",
-        "level": "baby",
+        "level": "starter",
         "theme": "identity_self_C1"
     }
 ];

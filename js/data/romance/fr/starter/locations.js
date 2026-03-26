@@ -2,68 +2,68 @@
     const data = [
     {
         "word": "France",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Italie",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Russie",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Grèce",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Angleterre",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Espagne",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "États-Unis",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Paris",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Londres",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Rome",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Moscou",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Athènes",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "New York",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     }
 ];
     const lang = "fr";

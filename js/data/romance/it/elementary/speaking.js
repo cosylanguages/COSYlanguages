@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "I bambini dovrebbero avere il cellulare?",
-                "level": "baby",
+                "level": "starter",
                 "theme": "technology_A2"
             },
             {
@@ -855,7 +855,7 @@
                 "sideA": "Fattoria",
                 "sideB": "Selvatici",
                 "level": "elementary",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1344,7 +1344,7 @@
                 "sideA": "Gatti",
                 "sideB": "Cani",
                 "level": "elementary",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1515,7 +1515,7 @@
                 "sideA": "Gatti",
                 "sideB": "Cani",
                 "level": "elementary",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },

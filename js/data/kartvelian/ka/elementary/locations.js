@@ -2,83 +2,83 @@
     const data = [
     {
         "word": "გერმანია",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "კანადა",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "მექსიკა",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "ეგვიპტე",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "თურქეთი",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "პორტუგალია",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "სომხეთი",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "საქართველო",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "ბერლინი",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "მადრიდი",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "ტორონტო",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "სტამბოლი",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "ლისაბონი",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "ერევანი",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "თბილისი",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "ყაზანი",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     }
 ];
     const lang = "ka";

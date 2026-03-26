@@ -2,68 +2,68 @@
     const data = [
     {
         "word": "Франция",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Италия",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Россия",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Греция",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Англия",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Испания",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "США",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Париж",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Лондон",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Рим",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Москва",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Афины",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Нью-Йорк",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     }
 ];
     const lang = "ru";

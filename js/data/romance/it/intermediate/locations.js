@@ -2,63 +2,63 @@
     const data = [
     {
         "word": "Toscana",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Australia",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Giappone",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Cina",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Brasile",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "India",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Tokyo",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Sydney",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Pechino",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Rio de Janeiro",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Il Cairo",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     },
     {
         "word": "Delhi",
-        "level": "baby",
-        "theme": "places_countries_cities_A0"
+        "level": "starter",
+        "theme": "places_countries_cities_A1"
     }
 ];
     const lang = "it";

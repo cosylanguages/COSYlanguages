@@ -6,7 +6,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "past_participle": "été",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -122,7 +122,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "past_participle": "eu",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "j'",
             "tu",
@@ -238,7 +238,7 @@
         "classification": "regular",
         "aspect": "action",
         "past_participle": "travaillé",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -354,7 +354,7 @@
         "classification": "irregular",
         "aspect": "action",
         "past_participle": "fait",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -470,7 +470,7 @@
         "classification": "regular",
         "aspect": "action",
         "past_participle": "mangé",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -586,7 +586,7 @@
         "classification": "regular",
         "aspect": "action",
         "past_participle": "parlé",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -702,7 +702,7 @@
         "classification": "irregular",
         "aspect": "action",
         "past_participle": "allé",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "je",
             "tu",

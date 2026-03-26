@@ -372,8 +372,8 @@
     },
     {
         "word": "плечо",
-        "level": "baby",
-        "theme": "body_parts_A0",
+        "level": "starter",
+        "theme": "body_parts_A1",
         "gender": "оно",
         "form": "noun",
         "plural": "плечи"

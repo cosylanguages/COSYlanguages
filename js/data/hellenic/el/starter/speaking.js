@@ -4,8 +4,8 @@
         "opinionArena": [
             {
                 "text": "Είναι το πρωινό το πιο σημαντικό γεύμα;",
-                "level": "baby",
-                "theme": "basic_foods_A0"
+                "level": "starter",
+                "theme": "basic_foods_A1"
             },
             {
                 "text": "Είναι οι σκύλοι καλύτερα κατοικίδια από τις γάτες;",
@@ -20,7 +20,7 @@
                 "sideA": "Καφές",
                 "sideB": "Τσάι",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Εστιατόριο",
                 "sideB": "Σπιτικό φαγητό",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Πρωινό",
                 "sideB": "Καθόλου",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Νερό",
                 "sideB": "Χυμός",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Κρέας",
                 "sideB": "Λαχανικά",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -65,7 +65,7 @@
                 "sideA": "Σπίτι",
                 "sideB": "Διαμέρισμα",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -146,7 +146,7 @@
                 "sideA": "Πρωινός",
                 "sideB": "Βραδινός",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -155,7 +155,7 @@
                 "sideA": "Καλοκαίρι",
                 "sideB": "Χειμώνας",
                 "level": "starter",
-                "theme": "weather_A0",
+                "theme": "weather_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -173,7 +173,7 @@
                 "sideA": "Τηλεφώνημα",
                 "sideB": "Μήνυμα",
                 "level": "starter",
-                "theme": "basic_technology_devices_A0",
+                "theme": "basic_technology_devices_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -182,7 +182,7 @@
                 "sideA": "Πρωί",
                 "sideB": "Βράδυ",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -191,7 +191,7 @@
                 "sideA": "Δευτέρα",
                 "sideB": "Παρασκευή",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -200,7 +200,7 @@
                 "sideA": "Ζέστη",
                 "sideB": "Κρύο",
                 "level": "starter",
-                "theme": "weather_A0",
+                "theme": "weather_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -218,7 +218,7 @@
                 "sideA": "Κόκκινο",
                 "sideB": "Μπλε",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -227,7 +227,7 @@
                 "sideA": "Κίτρινο",
                 "sideB": "Πράσινο",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -236,7 +236,7 @@
                 "sideA": "Μαύρο",
                 "sideB": "Λευκό",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -245,7 +245,7 @@
                 "sideA": "Ροζ",
                 "sideB": "Μοβ",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -254,7 +254,7 @@
                 "sideA": "Κύκλος",
                 "sideB": "Τετράγωνο",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -263,7 +263,7 @@
                 "sideA": "Μεγάλοι",
                 "sideB": "Μικροί",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -272,7 +272,7 @@
                 "sideA": "Τρίγωνο",
                 "sideB": "Ορθογώνιο",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -308,7 +308,7 @@
                 "sideA": "Καρέκλα",
                 "sideB": "Πάτωμα",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -317,7 +317,7 @@
                 "sideA": "Γάτα",
                 "sideB": "Σκύλος",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -326,7 +326,7 @@
                 "sideA": "Ψάρι",
                 "sideB": "Πουλί",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -335,7 +335,7 @@
                 "sideA": "Μεγάλα",
                 "sideB": "Μικρά",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -344,7 +344,7 @@
                 "sideA": "Κουνέλι",
                 "sideB": "Χάμστερ",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -353,7 +353,7 @@
                 "sideA": "Νερό",
                 "sideB": "Χυμός",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -362,7 +362,7 @@
                 "sideA": "Μήλο",
                 "sideB": "Μπανάνα",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -371,7 +371,7 @@
                 "sideA": "Ψωμί",
                 "sideB": "Ρύζι",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -380,7 +380,7 @@
                 "sideA": "Γάλα",
                 "sideB": "Νερό",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -389,7 +389,7 @@
                 "sideA": "Ροζ",
                 "sideB": "Πορτοκαλί",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -398,7 +398,7 @@
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -407,7 +407,7 @@
                 "sideA": "Καρέκλα",
                 "sideB": "Καναπές",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -416,7 +416,7 @@
                 "sideA": "Τσάντα",
                 "sideB": "Κουτί",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -425,7 +425,7 @@
                 "sideA": "Λιοντάρι",
                 "sideB": "Ελέφαντας",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -434,7 +434,7 @@
                 "sideA": "Σοκολάτα",
                 "sideB": "Γλυκά",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -443,7 +443,7 @@
                 "sideA": "Κουτάλι",
                 "sideB": "Πιρούνι",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -452,7 +452,7 @@
                 "sideA": "Καπέλο",
                 "sideB": "Παπούτσια",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -461,7 +461,7 @@
                 "sideA": "Ήλιος",
                 "sideB": "Φεγγάρι",
                 "level": "starter",
-                "theme": "weather_A0",
+                "theme": "weather_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -470,7 +470,7 @@
                 "sideA": "Κάλτσες",
                 "sideB": "Χωρίς κάλτσες",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -479,7 +479,7 @@
             {
                 "topic": "Η αγαπημένη μου ανάμνηση από την παιδική ηλικία",
                 "level": "starter",
-                "theme": "immediate_family_A0"
+                "theme": "immediate_family_A1"
             },
             {
                 "topic": "Η δουλειά των ονείρων μου και γιατί",

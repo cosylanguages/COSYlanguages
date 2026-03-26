@@ -2,8 +2,8 @@
     const data = [
     {
         "word": "sein",
-        "level": "baby",
-        "theme": "personal_identity_A0",
+        "level": "starter",
+        "theme": "personal_identity_A1",
         "emoji": "👤",
         "form": "verb",
         "classification": "irregular",
@@ -21,8 +21,8 @@
     },
     {
         "word": "haben",
-        "level": "baby",
-        "theme": "personal_identity_A0",
+        "level": "starter",
+        "theme": "personal_identity_A1",
         "emoji": "👜",
         "form": "verb",
         "classification": "irregular",
@@ -40,7 +40,7 @@
     },
     {
         "word": "machen",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "form": "verb",
@@ -59,8 +59,8 @@
     },
     {
         "word": "gehen",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "form": "verb",
         "classification": "irregular",
@@ -78,8 +78,8 @@
     },
     {
         "word": "essen",
-        "level": "baby",
-        "theme": "basic_foods_A0",
+        "level": "starter",
+        "theme": "basic_foods_A1",
         "emoji": "🍎",
         "form": "verb",
         "classification": "irregular",
@@ -97,8 +97,8 @@
     },
     {
         "word": "trinken",
-        "level": "baby",
-        "theme": "drinks_A0",
+        "level": "starter",
+        "theme": "drinks_A1",
         "emoji": "🥛",
         "form": "verb",
         "classification": "irregular",

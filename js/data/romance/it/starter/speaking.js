@@ -4,8 +4,8 @@
         "opinionArena": [
             {
                 "text": "La colazione è il pasto più importante?",
-                "level": "baby",
-                "theme": "basic_foods_A0"
+                "level": "starter",
+                "theme": "basic_foods_A1"
             },
             {
                 "text": "I cani sono animali domestici migliori dei gatti?",
@@ -20,7 +20,7 @@
                 "sideA": "Caffè",
                 "sideB": "Tè",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Ristorante",
                 "sideB": "Cucina casalinga",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Colazione",
                 "sideB": "Niente",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Acqua",
                 "sideB": "Succo",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Carne",
                 "sideB": "Verdure",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -65,7 +65,7 @@
                 "sideA": "Casa",
                 "sideB": "Appartamento",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -146,7 +146,7 @@
                 "sideA": "Mattiniero",
                 "sideB": "Nottambulo",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -155,7 +155,7 @@
                 "sideA": "Estate",
                 "sideB": "Inverno",
                 "level": "starter",
-                "theme": "weather_A0",
+                "theme": "weather_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -173,7 +173,7 @@
                 "sideA": "Telefonata",
                 "sideB": "Messaggio",
                 "level": "starter",
-                "theme": "basic_technology_devices_A0",
+                "theme": "basic_technology_devices_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -182,7 +182,7 @@
                 "sideA": "Mattino",
                 "sideB": "Sera",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -191,7 +191,7 @@
                 "sideA": "Lunedì",
                 "sideB": "Venerdì",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -200,7 +200,7 @@
                 "sideA": "Troppo caldo",
                 "sideB": "Troppo freddo",
                 "level": "starter",
-                "theme": "weather_A0",
+                "theme": "weather_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -218,7 +218,7 @@
                 "sideA": "Rosso",
                 "sideB": "Blu",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -227,7 +227,7 @@
                 "sideA": "Giallo",
                 "sideB": "Verde",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -236,7 +236,7 @@
                 "sideA": "Nero",
                 "sideB": "Bianco",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -245,7 +245,7 @@
                 "sideA": "Rosa",
                 "sideB": "Viola",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -254,7 +254,7 @@
                 "sideA": "Cerchio",
                 "sideB": "Quadrato",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -263,7 +263,7 @@
                 "sideA": "Grandi",
                 "sideB": "Piccoli",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -272,7 +272,7 @@
                 "sideA": "Triangolo",
                 "sideB": "Rettangolo",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -308,7 +308,7 @@
                 "sideA": "Sedia",
                 "sideB": "Pavimento",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -317,7 +317,7 @@
                 "sideA": "Gatto",
                 "sideB": "Cane",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -326,7 +326,7 @@
                 "sideA": "Pesce",
                 "sideB": "Uccello",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -335,7 +335,7 @@
                 "sideA": "Grandi",
                 "sideB": "Piccoli",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -344,7 +344,7 @@
                 "sideA": "Coniglio",
                 "sideB": "Criceto",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -353,7 +353,7 @@
                 "sideA": "Acqua",
                 "sideB": "Succo",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -362,7 +362,7 @@
                 "sideA": "Mela",
                 "sideB": "Banana",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -371,7 +371,7 @@
                 "sideA": "Pane",
                 "sideB": "Riso",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -380,7 +380,7 @@
                 "sideA": "Latte",
                 "sideB": "Acqua",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -389,7 +389,7 @@
                 "sideA": "Rosa",
                 "sideB": "Arancione",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -398,7 +398,7 @@
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -407,7 +407,7 @@
                 "sideA": "Sedia",
                 "sideB": "Divano",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -416,7 +416,7 @@
                 "sideA": "Borsa",
                 "sideB": "Scatola",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -425,7 +425,7 @@
                 "sideA": "Leone",
                 "sideB": "Elefante",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -434,7 +434,7 @@
                 "sideA": "Cioccolato",
                 "sideB": "Caramelle",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -443,7 +443,7 @@
                 "sideA": "Cucchiaio",
                 "sideB": "Forchetta",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -452,7 +452,7 @@
                 "sideA": "Cappello",
                 "sideB": "Scarpe",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -461,7 +461,7 @@
                 "sideA": "Sole",
                 "sideB": "Luna",
                 "level": "starter",
-                "theme": "weather_A0",
+                "theme": "weather_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -470,7 +470,7 @@
                 "sideA": "Calze",
                 "sideB": "Senza calze",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -479,7 +479,7 @@
             {
                 "topic": "Il mio ricordo d'infanzia preferito",
                 "level": "starter",
-                "theme": "immediate_family_A0"
+                "theme": "immediate_family_A1"
             },
             {
                 "topic": "Il lavoro dei miei sogni e perché",

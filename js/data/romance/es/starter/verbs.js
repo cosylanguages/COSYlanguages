@@ -2,8 +2,8 @@
     const data = [
     {
         "word": "ser",
-        "level": "baby",
-        "theme": "personal_identity_A0",
+        "level": "starter",
+        "theme": "personal_identity_A1",
         "emoji": "👤",
         "form": "verb",
         "classification": "irregular",
@@ -21,8 +21,8 @@
     },
     {
         "word": "estar",
-        "level": "baby",
-        "theme": "personal_identity_A0",
+        "level": "starter",
+        "theme": "personal_identity_A1",
         "emoji": "📍",
         "form": "verb",
         "classification": "irregular",
@@ -40,8 +40,8 @@
     },
     {
         "word": "haber",
-        "level": "baby",
-        "theme": "personal_identity_A0",
+        "level": "starter",
+        "theme": "personal_identity_A1",
         "emoji": "👜",
         "form": "verb",
         "classification": "irregular",
@@ -59,8 +59,8 @@
     },
     {
         "word": "tener",
-        "level": "baby",
-        "theme": "personal_identity_A0",
+        "level": "starter",
+        "theme": "personal_identity_A1",
         "emoji": "🤲",
         "form": "verb",
         "classification": "irregular",
@@ -78,7 +78,7 @@
     },
     {
         "word": "hacer",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "form": "verb",
@@ -97,8 +97,8 @@
     },
     {
         "word": "ir",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "form": "verb",
         "classification": "irregular",

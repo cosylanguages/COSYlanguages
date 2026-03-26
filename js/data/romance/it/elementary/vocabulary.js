@@ -421,8 +421,8 @@
     },
     {
         "word": "braccio",
-        "level": "baby",
-        "theme": "body_parts_A0",
+        "level": "starter",
+        "theme": "body_parts_A1",
         "article": "il",
         "emoji": "💪",
         "form": "noun",

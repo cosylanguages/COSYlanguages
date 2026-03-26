@@ -530,16 +530,16 @@
     },
     {
         "word": "arm",
-        "level": "baby",
-        "theme": "body_parts_A0",
+        "level": "starter",
+        "theme": "body_parts_A1",
         "emoji": "💪",
         "form": "noun",
         "plural": "arms"
     },
     {
         "word": "finger",
-        "level": "baby",
-        "theme": "body_parts_A0",
+        "level": "starter",
+        "theme": "body_parts_A1",
         "emoji": "☝️",
         "form": "noun",
         "plural": "fingers"

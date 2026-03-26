@@ -56,37 +56,37 @@ window.lessonsData["en"]["1"] = {
             "word": "coffee",
             "emoji": "☕",
             "category": "vocabulary",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "tea",
             "emoji": "🍵",
             "category": "vocabulary",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "juice",
             "emoji": "🧃",
             "category": "vocabulary",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "wine",
             "emoji": "🍷",
             "category": "vocabulary",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "beer",
             "emoji": "🍺",
             "category": "vocabulary",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "water",
             "emoji": "🚰",
             "category": "vocabulary",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "cash",
@@ -243,7 +243,7 @@ window.lessonsData["fr"]["1"] = {
             "category": "vocabulary",
             "article": "le",
             "baseWord": "café",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "le thé",
@@ -251,7 +251,7 @@ window.lessonsData["fr"]["1"] = {
             "category": "vocabulary",
             "article": "le",
             "baseWord": "thé",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "le jus",
@@ -259,7 +259,7 @@ window.lessonsData["fr"]["1"] = {
             "category": "vocabulary",
             "article": "le",
             "baseWord": "jus",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "le vin",
@@ -267,7 +267,7 @@ window.lessonsData["fr"]["1"] = {
             "category": "vocabulary",
             "article": "le",
             "baseWord": "vin",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "la bière",
@@ -275,7 +275,7 @@ window.lessonsData["fr"]["1"] = {
             "category": "vocabulary",
             "article": "la",
             "baseWord": "bière",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "l'eau",
@@ -283,7 +283,7 @@ window.lessonsData["fr"]["1"] = {
             "category": "vocabulary",
             "article": "l'",
             "baseWord": "eau",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "les espèces",
@@ -423,7 +423,7 @@ window.lessonsData["it"]["1"] = {
             "category": "vocabulary",
             "article": "il",
             "baseWord": "caffè",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "il tè",
@@ -431,7 +431,7 @@ window.lessonsData["it"]["1"] = {
             "category": "vocabulary",
             "article": "il",
             "baseWord": "tè",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "il succo",
@@ -439,7 +439,7 @@ window.lessonsData["it"]["1"] = {
             "category": "vocabulary",
             "article": "il",
             "baseWord": "succo",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "il vino",
@@ -447,7 +447,7 @@ window.lessonsData["it"]["1"] = {
             "category": "vocabulary",
             "article": "il",
             "baseWord": "vino",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "la birra",
@@ -455,7 +455,7 @@ window.lessonsData["it"]["1"] = {
             "category": "vocabulary",
             "article": "la",
             "baseWord": "birra",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "l'acqua",
@@ -463,7 +463,7 @@ window.lessonsData["it"]["1"] = {
             "category": "vocabulary",
             "article": "l'",
             "baseWord": "acqua",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "i contanti",
@@ -603,7 +603,7 @@ window.lessonsData["ru"]["1"] = {
             "category": "vocabulary",
             "gender": "он",
             "baseWord": "кофе",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "чай",
@@ -611,7 +611,7 @@ window.lessonsData["ru"]["1"] = {
             "category": "vocabulary",
             "gender": "он",
             "baseWord": "чай",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "сок",
@@ -619,7 +619,7 @@ window.lessonsData["ru"]["1"] = {
             "category": "vocabulary",
             "gender": "он",
             "baseWord": "сок",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "вино",
@@ -627,7 +627,7 @@ window.lessonsData["ru"]["1"] = {
             "category": "vocabulary",
             "gender": "оно",
             "baseWord": "вино",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "пиво",
@@ -635,7 +635,7 @@ window.lessonsData["ru"]["1"] = {
             "category": "vocabulary",
             "gender": "оно",
             "baseWord": "пиво",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "вода",
@@ -643,7 +643,7 @@ window.lessonsData["ru"]["1"] = {
             "category": "vocabulary",
             "gender": "она",
             "baseWord": "вода",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "наличные",
@@ -788,7 +788,7 @@ window.lessonsData["el"]["1"] = {
             "category": "vocabulary",
             "article": "ο",
             "baseWord": "καφές",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "το τσάι",
@@ -796,7 +796,7 @@ window.lessonsData["el"]["1"] = {
             "category": "vocabulary",
             "article": "το",
             "baseWord": "τσάι",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "ο χυμός",
@@ -804,7 +804,7 @@ window.lessonsData["el"]["1"] = {
             "category": "vocabulary",
             "article": "ο",
             "baseWord": "χυμός",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "το κρασί",
@@ -812,7 +812,7 @@ window.lessonsData["el"]["1"] = {
             "category": "vocabulary",
             "article": "το",
             "baseWord": "κρασί",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "η μπίρα",
@@ -820,7 +820,7 @@ window.lessonsData["el"]["1"] = {
             "category": "vocabulary",
             "article": "η",
             "baseWord": "μπίρα",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "το νερό",
@@ -828,7 +828,7 @@ window.lessonsData["el"]["1"] = {
             "category": "vocabulary",
             "article": "το",
             "baseWord": "νερό",
-            "theme": "basic_foods_A0"
+            "theme": "basic_foods_A1"
         },
         {
             "word": "τα μετρητά",
