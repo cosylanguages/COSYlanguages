@@ -19,7 +19,8 @@
         "translation": "big",
         "emoji": "🐘",
         "plural": "grands",
-        "femininePlural": "grandes"
+        "femininePlural": "grandes",
+        "subtext": "large, huge / a big house / a big problem / big enough"
     },
     {
         "word": "petit",
@@ -40,7 +41,8 @@
         "translation": "small",
         "emoji": "🐭",
         "plural": "petits",
-        "femininePlural": "petites"
+        "femininePlural": "petites",
+        "subtext": "little, tiny / a small flat / a small salary / too small"
     },
     {
         "word": "jeune",
@@ -77,7 +79,8 @@
         "translation": "old",
         "emoji": "👴",
         "plural": "vieux",
-        "femininePlural": "vieilles"
+        "femininePlural": "vieilles",
+        "subtext": "old friend / old habits / very old"
     },
     {
         "word": "bon",
@@ -98,7 +101,8 @@
         "feminine": "bonne",
         "translation": "good",
         "plural": "bons",
-        "femininePlural": "bonnes"
+        "femininePlural": "bonnes",
+        "subtext": "great, nice, pleasant / good idea / good luck / good value"
     },
     {
         "word": "mauvais",
@@ -119,7 +123,8 @@
         "feminine": "mauvaise",
         "translation": "bad",
         "plural": "mauvais",
-        "femininePlural": "mauvaises"
+        "femininePlural": "mauvaises",
+        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision"
     },
     {
         "word": "facile",
@@ -140,7 +145,8 @@
         "feminine": "facile",
         "translation": "easy",
         "plural": "faciles",
-        "femininePlural": "faciles"
+        "femininePlural": "faciles",
+        "subtext": "easy to do / nice and easy / not easy"
     },
     {
         "word": "difficile",
@@ -161,7 +167,8 @@
         "feminine": "difficile",
         "translation": "difficult",
         "plural": "difficiles",
-        "femininePlural": "difficiles"
+        "femininePlural": "difficiles",
+        "subtext": "difficult to do / very difficult / find it difficult"
     },
     {
         "word": "heureux",
@@ -181,7 +188,8 @@
         "feminine": "heureuse",
         "translation": "happy",
         "plural": "heureux",
-        "femininePlural": "heureuses"
+        "femininePlural": "heureuses",
+        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day"
     },
     {
         "word": "fatigué",
@@ -201,7 +209,8 @@
         "feminine": "fatiguée",
         "translation": "tired",
         "plural": "fatigués",
-        "femininePlural": "fatiguées"
+        "femininePlural": "fatiguées",
+        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired"
     },
     {
         "word": "ensoleillé",
@@ -252,7 +261,8 @@
         "feminine": "chaude",
         "translation": "hot",
         "plural": "chauds",
-        "femininePlural": "chaudes"
+        "femininePlural": "chaudes",
+        "subtext": "very hot, hot weather / hot weather / a hot drink / too hot"
     },
     {
         "word": "froid",
@@ -273,7 +283,8 @@
         "feminine": "froide",
         "translation": "cold",
         "plural": "froids",
-        "femininePlural": "froides"
+        "femininePlural": "froides",
+        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold"
     },
     {
         "word": "cher",
@@ -294,7 +305,8 @@
         "feminine": "chère",
         "translation": "expensive",
         "plural": "chers",
-        "femininePlural": "chères"
+        "femininePlural": "chères",
+        "subtext": "costly, high price / very expensive / expensive taste / too expensive"
     },
     {
         "word": "bon marché",
@@ -315,7 +327,8 @@
         "feminine": "bon marché",
         "translation": "cheap",
         "plural": "bon marché",
-        "femininePlural": "bon marché"
+        "femininePlural": "bon marché",
+        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful"
     },
     {
         "word": "à plein temps",
@@ -486,7 +499,8 @@
         "feminine": "occupée",
         "translation": "busy",
         "plural": "occupés",
-        "femininePlural": "occupées"
+        "femininePlural": "occupées",
+        "subtext": "very busy, busy day / busy schedule / very busy / too busy"
     },
     {
         "word": "utile",
@@ -717,7 +731,16 @@
         "emoji": "📏",
         "form": "adjective",
         "plural": "grands",
-        "femininePlural": "grandes"
+        "femininePlural": "grandes",
+        "definitions": [
+            {
+                "text": "Of more than average size or amount.",
+                "examples": [
+                    "Paris is a very large city."
+                ]
+            }
+        ],
+        "subtext": "a large city / a large company / a large amount"
     },
     {
         "word": "petit",
@@ -728,7 +751,16 @@
         "emoji": "📏",
         "form": "adjective",
         "plural": "petits",
-        "femininePlural": "petites"
+        "femininePlural": "petites",
+        "definitions": [
+            {
+                "text": "Small in size; a small amount of.",
+                "examples": [
+                    "He drives a little car to save on fuel."
+                ]
+            }
+        ],
+        "subtext": "a little bit / a little money / too little"
     },
     {
         "word": "grand",
@@ -739,7 +771,23 @@
         "emoji": "🦒",
         "form": "adjective",
         "plural": "grands",
-        "femininePlural": "grandes"
+        "femininePlural": "grandes",
+        "definitions": [
+            {
+                "text": "A person or thing that is big from bottom to top.",
+                "examples": [
+                    "He is very tall.",
+                    "That building is tall."
+                ]
+            },
+            {
+                "text": "Of greater than average height.",
+                "examples": [
+                    "She is a tall woman who works as an engineer."
+                ]
+            }
+        ],
+        "subtext": "a tall building / a tall person / tall enough"
     },
     {
         "word": "court",
@@ -750,7 +798,23 @@
         "emoji": "📏",
         "form": "adjective",
         "plural": "courts",
-        "femininePlural": "courtes"
+        "femininePlural": "courtes",
+        "definitions": [
+            {
+                "text": "A person or thing that is not tall.",
+                "examples": [
+                    "She is short.",
+                    "The pencil is short."
+                ]
+            },
+            {
+                "text": "Of less than average height or length.",
+                "examples": [
+                    "He has a short commute — ten minutes by bike."
+                ]
+            }
+        ],
+        "subtext": "a short journey / short hair / too short"
     },
     {
         "word": "long",
@@ -761,7 +825,16 @@
         "emoji": "📏",
         "form": "adjective",
         "plural": "longs",
-        "femininePlural": "longues"
+        "femininePlural": "longues",
+        "definitions": [
+            {
+                "text": "Of great length; lasting a long time.",
+                "examples": [
+                    "She has a long commute every day."
+                ]
+            }
+        ],
+        "subtext": "a long journey / a long day / a long time"
     },
     {
         "word": "haut",
@@ -772,7 +845,16 @@
         "emoji": "📈",
         "form": "adjective",
         "plural": "hauts",
-        "femininePlural": "hautes"
+        "femininePlural": "hautes",
+        "definitions": [
+            {
+                "text": "Of greater than average height or level.",
+                "examples": [
+                    "The rent in this area is very high."
+                ]
+            }
+        ],
+        "subtext": "high price / high rent / high quality"
     },
     {
         "word": "bas",
@@ -783,7 +865,16 @@
         "emoji": "📉",
         "form": "adjective",
         "plural": "bas",
-        "femininePlural": "basses"
+        "femininePlural": "basses",
+        "definitions": [
+            {
+                "text": "Of less than average height or level.",
+                "examples": [
+                    "The salary is too low for the hours involved."
+                ]
+            }
+        ],
+        "subtext": "low price / low salary / low quality"
     },
     {
         "word": "plein",
@@ -794,7 +885,16 @@
         "emoji": "🥛",
         "form": "adjective",
         "plural": "pleins",
-        "femininePlural": "pleines"
+        "femininePlural": "pleines",
+        "definitions": [
+            {
+                "text": "Containing as much as possible; complete.",
+                "examples": [
+                    "I feel full after that lunch."
+                ]
+            }
+        ],
+        "subtext": "full time / a full day / full of people"
     },
     {
         "word": "vide",
@@ -805,7 +905,16 @@
         "emoji": "🫙",
         "form": "adjective",
         "plural": "vides",
-        "femininePlural": "vides"
+        "femininePlural": "vides",
+        "definitions": [
+            {
+                "text": "Containing nothing; with no people.",
+                "examples": [
+                    "The office is empty at weekends."
+                ]
+            }
+        ],
+        "subtext": "an empty flat / an empty room / nearly empty"
     },
     {
         "word": "tiède",
@@ -816,7 +925,16 @@
         "emoji": "☀️",
         "form": "adjective",
         "plural": "tièdes",
-        "femininePlural": "tièdes"
+        "femininePlural": "tièdes",
+        "definitions": [
+            {
+                "text": "Slightly hot; pleasantly heated.",
+                "examples": [
+                    "The office is warm and comfortable."
+                ]
+            }
+        ],
+        "subtext": "warm weather / a warm welcome / keep warm"
     },
     {
         "word": "frais",
@@ -827,7 +945,16 @@
         "emoji": "🌬️",
         "form": "adjective",
         "plural": "frais",
-        "femininePlural": "fraîches"
+        "femininePlural": "fraîches",
+        "definitions": [
+            {
+                "text": "Slightly cold; pleasantly low temperature.",
+                "examples": [
+                    "She prefers cool weather for working."
+                ]
+            }
+        ],
+        "subtext": "cool weather / a cool drink / stay cool"
     },
     {
         "word": "mouillé",
@@ -838,7 +965,16 @@
         "emoji": "🚿",
         "form": "adjective",
         "plural": "mouillés",
-        "femininePlural": "mouillées"
+        "femininePlural": "mouillées",
+        "definitions": [
+            {
+                "text": "Covered with water or liquid.",
+                "examples": [
+                    "His jacket is wet from the rain."
+                ]
+            }
+        ],
+        "subtext": "wet weather / wet clothes / get wet"
     },
     {
         "word": "sec",
@@ -849,7 +985,16 @@
         "emoji": "🏜️",
         "form": "adjective",
         "plural": "secs",
-        "femininePlural": "sèches"
+        "femininePlural": "sèches",
+        "definitions": [
+            {
+                "text": "Without water or liquid; not wet.",
+                "examples": [
+                    "The storage room must stay dry."
+                ]
+            }
+        ],
+        "subtext": "dry weather / dry skin / keep dry"
     },
     {
         "word": "sale",
@@ -860,7 +1005,16 @@
         "emoji": "💩",
         "form": "adjective",
         "plural": "sales",
-        "femininePlural": "sales"
+        "femininePlural": "sales",
+        "definitions": [
+            {
+                "text": "Covered in dirt or impurities.",
+                "examples": [
+                    "His hands are dirty after fixing the car."
+                ]
+            }
+        ],
+        "subtext": "dirty hands / dirty clothes / get dirty"
     },
     {
         "word": "dur",
@@ -871,7 +1025,16 @@
         "emoji": "🧱",
         "form": "adjective",
         "plural": "durs",
-        "femininePlural": "dures"
+        "femininePlural": "dures",
+        "definitions": [
+            {
+                "text": "Firm and solid; difficult.",
+                "examples": [
+                    "The chair is very hard and uncomfortable."
+                ]
+            }
+        ],
+        "subtext": "hard work / a hard decision / too hard"
     },
     {
         "word": "doux",
@@ -882,7 +1045,16 @@
         "emoji": "☁️",
         "form": "adjective",
         "plural": "doux",
-        "femininePlural": "douces"
+        "femininePlural": "douces",
+        "definitions": [
+            {
+                "text": "Not hard; gentle to the touch.",
+                "examples": [
+                    "The sofa is very soft and comfortable."
+                ]
+            }
+        ],
+        "subtext": "soft light / soft music / soft skills"
     },
     {
         "word": "lourd",
@@ -893,7 +1065,16 @@
         "emoji": "🏋️",
         "form": "adjective",
         "plural": "lourds",
-        "femininePlural": "lourdes"
+        "femininePlural": "lourdes",
+        "definitions": [
+            {
+                "text": "Of great weight; difficult to carry.",
+                "examples": [
+                    "The bag is very heavy with all those files."
+                ]
+            }
+        ],
+        "subtext": "heavy traffic / heavy rain / too heavy"
     },
     {
         "word": "léger",
@@ -904,7 +1085,16 @@
         "emoji": "🪶",
         "form": "adjective",
         "plural": "légers",
-        "femininePlural": "légères"
+        "femininePlural": "légères",
+        "definitions": [
+            {
+                "text": "Not heavy; pale in colour.",
+                "examples": [
+                    "She carries a light bag to work every day."
+                ]
+            }
+        ],
+        "subtext": "light rain / light traffic / a light meal"
     },
     {
         "word": "brun",
@@ -915,7 +1105,16 @@
         "emoji": "🟫",
         "form": "adjective",
         "plural": "bruns",
-        "femininePlural": "brunes"
+        "femininePlural": "brunes",
+        "definitions": [
+            {
+                "text": "Having the colour of wood or earth.",
+                "examples": [
+                    "She has brown eyes and dark hair."
+                ]
+            }
+        ],
+        "subtext": "dark brown / light brown / brown bread"
     },
     {
         "word": "gris",
@@ -926,7 +1125,16 @@
         "emoji": "🩶",
         "form": "adjective",
         "plural": "gris",
-        "femininePlural": "grises"
+        "femininePlural": "grises",
+        "definitions": [
+            {
+                "text": "Having a colour between black and white.",
+                "examples": [
+                    "He has grey hair and a kind face."
+                ]
+            }
+        ],
+        "subtext": "grey area / grey sky / pale grey"
     },
     {
         "word": "rose",
@@ -937,7 +1145,16 @@
         "emoji": "🩷",
         "form": "adjective",
         "plural": "roses",
-        "femininePlural": "rose"
+        "femininePlural": "rose",
+        "definitions": [
+            {
+                "text": "Having a pale red colour.",
+                "examples": [
+                    "She prefers pink to red."
+                ]
+            }
+        ],
+        "subtext": "light pink / bright pink / hot pink"
     },
     {
         "word": "orange",
@@ -948,84 +1165,156 @@
         "emoji": "🟧",
         "form": "adjective",
         "plural": "orange",
-        "femininePlural": "orange"
+        "femininePlural": "orange",
+        "definitions": [
+            {
+                "text": "Having the colour of an orange fruit.",
+                "examples": [
+                    "He bought an orange jacket."
+                ]
+            }
+        ],
+        "subtext": "bright orange / dark orange / orange light"
     },
     {
         "word": "génial",
         "feminine": "géniale",
         "translation": "great",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "🌟",
         "form": "adjective",
         "plural": "géniaux",
-        "femininePlural": "géniales"
+        "femininePlural": "géniales",
+        "definitions": [
+            {
+                "text": "Extremely good; large in amount.",
+                "examples": [
+                    "She is a great manager."
+                ]
+            }
+        ],
+        "subtext": "a great idea / a great opportunity / great value"
     },
     {
         "word": "sympa",
         "feminine": "sympa",
         "translation": "nice",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "😊",
         "form": "adjective",
         "plural": "sympas",
-        "femininePlural": "sympas"
+        "femininePlural": "sympas",
+        "definitions": [
+            {
+                "text": "Pleasant or kind.",
+                "examples": [
+                    "The new office is very nice."
+                ]
+            }
+        ],
+        "subtext": "a nice day / a nice place / a nice person"
     },
     {
         "word": "merveilleux",
         "feminine": "merveilleuse",
         "translation": "wonderful",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "✨",
         "form": "adjective",
         "plural": "merveilleux",
-        "femininePlural": "merveilleuses"
+        "femininePlural": "merveilleuses",
+        "definitions": [
+            {
+                "text": "Extremely good; causing delight.",
+                "examples": [
+                    "They had a wonderful team."
+                ]
+            }
+        ],
+        "subtext": "a wonderful opportunity / a wonderful time"
     },
     {
         "word": "terrible",
         "feminine": "terrible",
         "translation": "terrible",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "😫",
         "form": "adjective",
         "plural": "terribles",
-        "femininePlural": "terribles"
+        "femininePlural": "terribles",
+        "definitions": [
+            {
+                "text": "Extremely bad.",
+                "examples": [
+                    "The traffic this morning was terrible."
+                ]
+            }
+        ],
+        "subtext": "terrible weather / a terrible mistake / terrible news"
     },
     {
         "word": "affreux",
         "feminine": "affreuse",
         "translation": "awful",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "🤮",
         "form": "adjective",
         "plural": "affreux",
-        "femininePlural": "affreuses"
+        "femininePlural": "affreuses",
+        "definitions": [
+            {
+                "text": "Very bad or unpleasant.",
+                "examples": [
+                    "The noise in the open office is awful."
+                ]
+            }
+        ],
+        "subtext": "awful weather / awful news / simply awful"
     },
     {
         "word": "incroyable",
         "feminine": "incroyable",
         "translation": "amazing",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "😲",
         "form": "adjective",
         "plural": "incroyables",
-        "femininePlural": "incroyables"
+        "femininePlural": "incroyables",
+        "definitions": [
+            {
+                "text": "Causing great surprise or admiration.",
+                "examples": [
+                    "She gave an amazing presentation."
+                ]
+            }
+        ],
+        "subtext": "an amazing result / an amazing offer / truly amazing"
     },
     {
         "word": "fantastique",
         "feminine": "fantastique",
         "translation": "fantastic",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "🤩",
         "form": "adjective",
         "plural": "fantastiques",
-        "femininePlural": "fantastiques"
+        "femininePlural": "fantastiques",
+        "definitions": [
+            {
+                "text": "Extremely good.",
+                "examples": [
+                    "The new system works in a fantastic way."
+                ]
+            }
+        ],
+        "subtext": "fantastic news / a fantastic opportunity / truly fantastic"
     },
     {
         "word": "triste",
@@ -1036,7 +1325,16 @@
         "emoji": "😢",
         "form": "adjective",
         "plural": "tristes",
-        "femininePlural": "tristes"
+        "femininePlural": "tristes",
+        "definitions": [
+            {
+                "text": "Feeling unhappy or sorrowful.",
+                "examples": [
+                    "He was sad to leave the company."
+                ]
+            }
+        ],
+        "subtext": "feel sad / a sad situation / deeply sad"
     },
     {
         "word": "affamé",
@@ -1047,7 +1345,16 @@
         "emoji": "🤤",
         "form": "adjective",
         "plural": "affamés",
-        "femininePlural": "affamées"
+        "femininePlural": "affamées",
+        "definitions": [
+            {
+                "text": "Needing food.",
+                "examples": [
+                    "I am hungry — it is already two o'clock."
+                ]
+            }
+        ],
+        "subtext": "feel hungry / very hungry / go hungry"
     },
     {
         "word": "fâché",
@@ -1058,7 +1365,16 @@
         "emoji": "😠",
         "form": "adjective",
         "plural": "fâchés",
-        "femininePlural": "fâchées"
+        "femininePlural": "fâchées",
+        "definitions": [
+            {
+                "text": "Feeling strong displeasure.",
+                "examples": [
+                    "She was angry about the decision."
+                ]
+            }
+        ],
+        "subtext": "feel angry / angry with someone / very angry"
     },
     {
         "word": "ennuyé",
@@ -1069,7 +1385,16 @@
         "emoji": "😐",
         "form": "adjective",
         "plural": "ennuyés",
-        "femininePlural": "ennuyées"
+        "femininePlural": "ennuyées",
+        "definitions": [
+            {
+                "text": "Feeling uninterested or restless.",
+                "examples": [
+                    "He feels bored in long meetings."
+                ]
+            }
+        ],
+        "subtext": "feel bored / bored with / easily bored"
     },
     {
         "word": "excité",
@@ -1080,7 +1405,16 @@
         "emoji": "🤩",
         "form": "adjective",
         "plural": "excités",
-        "femininePlural": "excitées"
+        "femininePlural": "excitées",
+        "definitions": [
+            {
+                "text": "Feeling enthusiasm and eagerness.",
+                "examples": [
+                    "She is excited about her new job."
+                ]
+            }
+        ],
+        "subtext": "feel excited / excited about / very excited"
     },
     {
         "word": "effrayé",
@@ -1091,7 +1425,16 @@
         "emoji": "😨",
         "form": "adjective",
         "plural": "effrayés",
-        "femininePlural": "effrayées"
+        "femininePlural": "effrayées",
+        "definitions": [
+            {
+                "text": "Feeling fear.",
+                "examples": [
+                    "He is afraid of making mistakes."
+                ]
+            }
+        ],
+        "subtext": "afraid of / feel afraid / deeply afraid"
     },
     {
         "word": "désolé",
@@ -1102,7 +1445,16 @@
         "emoji": "🥺",
         "form": "adjective",
         "plural": "désolés",
-        "femininePlural": "désolées"
+        "femininePlural": "désolées",
+        "definitions": [
+            {
+                "text": "Feeling regret or sadness.",
+                "examples": [
+                    "She is sorry for the delay."
+                ]
+            }
+        ],
+        "subtext": "feel sorry / sorry for / sorry about"
     },
     {
         "word": "correct",
@@ -1113,7 +1465,16 @@
         "emoji": "✅",
         "form": "adjective",
         "plural": "corrects",
-        "femininePlural": "correctes"
+        "femininePlural": "correctes",
+        "definitions": [
+            {
+                "text": "Correct; suitable.",
+                "examples": [
+                    "Is this the right office?"
+                ]
+            }
+        ],
+        "subtext": "right answer / right time / absolutely right"
     },
     {
         "word": "mauvais",
@@ -1124,7 +1485,16 @@
         "emoji": "❌",
         "form": "adjective",
         "plural": "mauvais",
-        "femininePlural": "mauvaises"
+        "femininePlural": "mauvaises",
+        "definitions": [
+            {
+                "text": "Not correct; not suitable.",
+                "examples": [
+                    "That was the wrong decision."
+                ]
+            }
+        ],
+        "subtext": "wrong answer / go wrong / completely wrong"
     },
     {
         "word": "nouveau",
@@ -1135,7 +1505,16 @@
         "emoji": "🆕",
         "form": "adjective",
         "plural": "nouveaux",
-        "femininePlural": "nouvelles"
+        "femininePlural": "nouvelles",
+        "definitions": [
+            {
+                "text": "Not existing before; recently made.",
+                "examples": [
+                    "She has a new job starting in March."
+                ]
+            }
+        ],
+        "subtext": "new job / brand new / completely new"
     },
     {
         "word": "différent",
@@ -1146,7 +1525,16 @@
         "emoji": "↔️",
         "form": "adjective",
         "plural": "différents",
-        "femininePlural": "différentes"
+        "femininePlural": "différentes",
+        "definitions": [
+            {
+                "text": "Not the same as another.",
+                "examples": [
+                    "This job is very different from my last one."
+                ]
+            }
+        ],
+        "subtext": "completely different / very different / different from"
     },
     {
         "word": "même",
@@ -1157,7 +1545,16 @@
         "emoji": "identical",
         "form": "adjective",
         "plural": "mêmes",
-        "femininePlural": "mêmes"
+        "femininePlural": "mêmes",
+        "definitions": [
+            {
+                "text": "Not different; identical.",
+                "examples": [
+                    "They earn the same salary."
+                ]
+            }
+        ],
+        "subtext": "the same as / exactly the same / same time"
     },
     {
         "word": "rapide",
@@ -1168,7 +1565,16 @@
         "emoji": "⚡",
         "form": "adjective",
         "plural": "rapides",
-        "femininePlural": "rapides"
+        "femininePlural": "rapides",
+        "definitions": [
+            {
+                "text": "Moving or happening quickly.",
+                "examples": [
+                    "The train to work is fast and reliable."
+                ]
+            }
+        ],
+        "subtext": "fast food / fast train / very fast"
     },
     {
         "word": "lent",
@@ -1179,7 +1585,16 @@
         "emoji": "🐢",
         "form": "adjective",
         "plural": "lents",
-        "femininePlural": "lentes"
+        "femininePlural": "lentes",
+        "definitions": [
+            {
+                "text": "Not fast; taking a long time.",
+                "examples": [
+                    "The new system is very slow."
+                ]
+            }
+        ],
+        "subtext": "slow progress / slow internet / very slow"
     },
     {
         "word": "calme",
@@ -1190,7 +1605,16 @@
         "emoji": "🤫",
         "form": "adjective",
         "plural": "calmes",
-        "femininePlural": "calmes"
+        "femininePlural": "calmes",
+        "definitions": [
+            {
+                "text": "Making little or no noise; peaceful.",
+                "examples": [
+                    "The office is quiet at lunchtime."
+                ]
+            }
+        ],
+        "subtext": "quiet area / keep quiet / nice and quiet"
     },
     {
         "word": "bruyant",
@@ -1201,7 +1625,16 @@
         "emoji": "🔊",
         "form": "adjective",
         "plural": "bruyants",
-        "femininePlural": "bruyantes"
+        "femininePlural": "bruyantes",
+        "definitions": [
+            {
+                "text": "Making a lot of noise.",
+                "examples": [
+                    "The open-plan office is too loud."
+                ]
+            }
+        ],
+        "subtext": "loud noise / too loud / a loud voice"
     },
     {
         "word": "sûr",
@@ -1212,7 +1645,16 @@
         "emoji": "🛡️",
         "form": "adjective",
         "plural": "sûrs",
-        "femininePlural": "sûres"
+        "femininePlural": "sûres",
+        "definitions": [
+            {
+                "text": "Not dangerous; protected from harm.",
+                "examples": [
+                    "This neighbourhood is very safe."
+                ]
+            }
+        ],
+        "subtext": "safe area / safe to do / feel safe"
     },
     {
         "word": "dangereux",
@@ -1223,7 +1665,16 @@
         "emoji": "⚠️",
         "form": "adjective",
         "plural": "dangereux",
-        "femininePlural": "dangereuses"
+        "femininePlural": "dangereuses",
+        "definitions": [
+            {
+                "text": "Likely to cause harm.",
+                "examples": [
+                    "The commute on that road is dangerous."
+                ]
+            }
+        ],
+        "subtext": "dangerous situation / very dangerous / potentially dangerous"
     },
     {
         "word": "malheureux",
@@ -1233,7 +1684,16 @@
         "translation": "unhappy",
         "feminine": "malheureuse",
         "plural": "malheureux",
-        "femininePlural": "malheureuses"
+        "femininePlural": "malheureuses",
+        "definitions": [
+            {
+                "text": "Ne pas se sentir satisfait ou heureux.",
+                "examples": [
+                    "He is unhappy with his current salary."
+                ]
+            }
+        ],
+        "subtext": "malheureux de quelque chose / profondément malheureux"
     },
     {
         "word": "nerveux",
@@ -1243,7 +1703,16 @@
         "translation": "nervous",
         "feminine": "nerveuse",
         "plural": "nerveux",
-        "femininePlural": "nerveuses"
+        "femininePlural": "nerveuses",
+        "definitions": [
+            {
+                "text": "Se sentir anxieux ou inquiet.",
+                "examples": [
+                    "He was nervous before the job interview."
+                ]
+            }
+        ],
+        "subtext": "nerveux avant un entretien / très nerveux"
     },
     {
         "word": "stressé",
@@ -1253,27 +1722,54 @@
         "translation": "stressed",
         "feminine": "stressée",
         "plural": "stressés",
-        "femininePlural": "stressées"
+        "femininePlural": "stressées",
+        "definitions": [
+            {
+                "text": "Feeling worried and tense from pressure.",
+                "examples": [
+                    "She feels stressed before every deadline."
+                ]
+            }
+        ],
+        "subtext": "feel stressed / very stressed / stressed out"
     },
     {
         "word": "confiant",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "confident",
         "feminine": "confiante",
         "plural": "confiants",
-        "femininePlural": "confiantes"
+        "femininePlural": "confiantes",
+        "definitions": [
+            {
+                "text": "Feeling sure of your own abilities.",
+                "examples": [
+                    "She is very confident in client presentations."
+                ]
+            }
+        ],
+        "subtext": "feel confident / self-confident / very confident"
     },
     {
         "word": "fier",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "proud",
         "feminine": "fière",
         "plural": "fiers",
-        "femininePlural": "fières"
+        "femininePlural": "fières",
+        "definitions": [
+            {
+                "text": "Feeling pleased about an achievement.",
+                "examples": [
+                    "He was proud to get his first promotion."
+                ]
+            }
+        ],
+        "subtext": "feel proud / very proud / proud of"
     },
     {
         "word": "effrayé",
@@ -1283,7 +1779,16 @@
         "translation": "scared",
         "feminine": "effrayée",
         "plural": "effrayés",
-        "femininePlural": "effrayées"
+        "femininePlural": "effrayées",
+        "definitions": [
+            {
+                "text": "Feeling fear about something.",
+                "examples": [
+                    "She was scared about giving the presentation."
+                ]
+            }
+        ],
+        "subtext": "feel scared / scared of / very scared"
     },
     {
         "word": "surpris",
@@ -1293,7 +1798,16 @@
         "translation": "surprised",
         "feminine": "surprise",
         "plural": "surpris",
-        "femininePlural": "surprises"
+        "femininePlural": "surprises",
+        "definitions": [
+            {
+                "text": "Feeling shock at something unexpected.",
+                "examples": [
+                    "He was surprised to get a pay rise."
+                ]
+            }
+        ],
+        "subtext": "feel surprised / very surprised / pleasantly surprised"
     },
     {
         "word": "déçu",
@@ -1303,7 +1817,16 @@
         "translation": "disappointed",
         "feminine": "déçue",
         "plural": "déçus",
-        "femininePlural": "déçues"
+        "femininePlural": "déçues",
+        "definitions": [
+            {
+                "text": "Feeling sad because something was not as good as expected.",
+                "examples": [
+                    "She was disappointed not to get the job."
+                ]
+            }
+        ],
+        "subtext": "feel disappointed / deeply disappointed / disappointed with"
     },
     {
         "word": "beau",
@@ -1313,7 +1836,16 @@
         "translation": "beautiful",
         "feminine": "belle",
         "plural": "beaux",
-        "femininePlural": "belles"
+        "femininePlural": "belles",
+        "definitions": [
+            {
+                "text": "Attractive and pleasing to look at.",
+                "examples": [
+                    "She has a beautiful, bright office with city views."
+                ]
+            }
+        ],
+        "subtext": "beautiful view / beautiful city / absolutely beautiful"
     },
     {
         "word": "joli",
@@ -1323,37 +1855,73 @@
         "translation": "pretty",
         "feminine": "jolie",
         "plural": "jolis",
-        "femininePlural": "jolies"
+        "femininePlural": "jolies",
+        "definitions": [
+            {
+                "text": "Pleasant to look at; quite attractive.",
+                "examples": [
+                    "The new meeting room is very pretty."
+                ]
+            }
+        ],
+        "subtext": "pretty good / a pretty place / quite pretty"
     },
     {
         "word": "fort",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "strong",
         "feminine": "forte",
         "plural": "forts",
-        "femininePlural": "fortes"
+        "femininePlural": "fortes",
+        "definitions": [
+            {
+                "text": "Having great physical or mental power.",
+                "examples": [
+                    "She is a strong leader and very respected."
+                ]
+            }
+        ],
+        "subtext": "strong coffee / strong opinion / very strong"
     },
     {
         "word": "faible",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "weak",
         "feminine": "faible",
         "plural": "faibles",
-        "femininePlural": "faibles"
+        "femininePlural": "faibles",
+        "definitions": [
+            {
+                "text": "Lacking strength or power.",
+                "examples": [
+                    "The signal is weak on the top floor."
+                ]
+            }
+        ],
+        "subtext": "weak connection / a weak argument / very weak"
     },
     {
         "word": "en forme",
         "level": "starter",
-        "theme": "health_A1",
+        "theme": "illnesses_symptoms_A1",
         "form": "adjective",
         "translation": "fit",
         "feminine": "en forme",
         "plural": "en forme",
-        "femininePlural": "en forme"
+        "femininePlural": "en forme",
+        "definitions": [
+            {
+                "text": "In good physical condition through exercise.",
+                "examples": [
+                    "She keeps fit by cycling to work every day."
+                ]
+            }
+        ],
+        "subtext": "physically fit / stay fit / keep fit"
     },
     {
         "word": "excellent",
@@ -1363,7 +1931,16 @@
         "translation": "excellent",
         "feminine": "excellente",
         "plural": "excellents",
-        "femininePlural": "excellentes"
+        "femininePlural": "excellentes",
+        "definitions": [
+            {
+                "text": "Extremely good; of a very high standard.",
+                "examples": [
+                    "She received an excellent review."
+                ]
+            }
+        ],
+        "subtext": "excellent work / excellent results / absolutely excellent"
     },
     {
         "word": "parfait",
@@ -1373,7 +1950,16 @@
         "translation": "perfect",
         "feminine": "parfaite",
         "plural": "parfaits",
-        "femininePlural": "parfaites"
+        "femininePlural": "parfaites",
+        "definitions": [
+            {
+                "text": "Without any faults; completely correct.",
+                "examples": [
+                    "The timing of the launch was perfect."
+                ]
+            }
+        ],
+        "subtext": "a perfect opportunity / perfect timing / absolutely perfect"
     },
     {
         "word": "inutile",
@@ -1383,7 +1969,16 @@
         "translation": "useless",
         "feminine": "inutile",
         "plural": "inutiles",
-        "femininePlural": "inutiles"
+        "femininePlural": "inutiles",
+        "definitions": [
+            {
+                "text": "Without any useful value; not helpful.",
+                "examples": [
+                    "This software is useless for our needs."
+                ]
+            }
+        ],
+        "subtext": "completely useless / prove useless / a useless idea"
     },
     {
         "word": "correct",
@@ -1393,7 +1988,16 @@
         "translation": "correct",
         "feminine": "correcte",
         "plural": "corrects",
-        "femininePlural": "correctes"
+        "femininePlural": "correctes",
+        "definitions": [
+            {
+                "text": "True or right; without errors.",
+                "examples": [
+                    "Please check the figures are correct."
+                ]
+            }
+        ],
+        "subtext": "correct answer / the correct way / completely correct"
     },
     {
         "word": "intéressant",
@@ -1403,7 +2007,16 @@
         "translation": "interesting",
         "feminine": "intéressante",
         "plural": "intéressants",
-        "femininePlural": "intéressantes"
+        "femininePlural": "intéressantes",
+        "definitions": [
+            {
+                "text": "Attracting attention; worth knowing about.",
+                "examples": [
+                    "The new proposal is very interesting."
+                ]
+            }
+        ],
+        "subtext": "find interesting / very interesting / an interesting idea"
     },
     {
         "word": "ennuyeux",
@@ -1413,7 +2026,16 @@
         "translation": "boring",
         "feminine": "ennuyeuse",
         "plural": "ennuyeux",
-        "femininePlural": "ennuyeuses"
+        "femininePlural": "ennuyeuses",
+        "definitions": [
+            {
+                "text": "Not interesting; dull.",
+                "examples": [
+                    "The training session was very boring."
+                ]
+            }
+        ],
+        "subtext": "very boring / a boring meeting / find boring"
     },
     {
         "word": "nécessaire",
@@ -1423,7 +2045,16 @@
         "translation": "necessary",
         "feminine": "nécessaire",
         "plural": "nécessaires",
-        "femininePlural": "nécessaires"
+        "femininePlural": "nécessaires",
+        "definitions": [
+            {
+                "text": "Needed; required in order to do something.",
+                "examples": [
+                    "A good internet connection is necessary for remote work."
+                ]
+            }
+        ],
+        "subtext": "absolutely necessary / if necessary / necessary to do"
     },
     {
         "word": "possible",
@@ -1433,7 +2064,16 @@
         "translation": "possible",
         "feminine": "possible",
         "plural": "possibles",
-        "femininePlural": "possibles"
+        "femininePlural": "possibles",
+        "definitions": [
+            {
+                "text": "Able to happen or be achieved.",
+                "examples": [
+                    "Is it possible to finish by Friday?"
+                ]
+            }
+        ],
+        "subtext": "as soon as possible / it is possible / make possible"
     },
     {
         "word": "impossible",
@@ -1443,7 +2083,16 @@
         "translation": "impossible",
         "feminine": "impossible",
         "plural": "impossibles",
-        "femininePlural": "impossibles"
+        "femininePlural": "impossibles",
+        "definitions": [
+            {
+                "text": "Not able to happen or be done.",
+                "examples": [
+                    "It is impossible to finish in one day."
+                ]
+            }
+        ],
+        "subtext": "virtually impossible / make impossible / nearly impossible"
     },
     {
         "word": "spécial",
@@ -1453,17 +2102,35 @@
         "translation": "special",
         "feminine": "spéciale",
         "plural": "spéciaux",
-        "femininePlural": "spéciales"
+        "femininePlural": "spéciales",
+        "definitions": [
+            {
+                "text": "Different from what is usual; particularly important.",
+                "examples": [
+                    "She has a special talent for problem-solving."
+                ]
+            }
+        ],
+        "subtext": "a special offer / special occasion / very special"
     },
     {
         "word": "populaire",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "popular",
         "feminine": "populaire",
         "plural": "populaires",
-        "femininePlural": "populaires"
+        "femininePlural": "populaires",
+        "definitions": [
+            {
+                "text": "Liked by many people.",
+                "examples": [
+                    "The new café near the office is very popular."
+                ]
+            }
+        ],
+        "subtext": "very popular / popular choice / most popular"
     },
     {
         "word": "similaire",
@@ -1473,87 +2140,168 @@
         "translation": "similar",
         "feminine": "similaire",
         "plural": "similaires",
-        "femininePlural": "similaires"
+        "femininePlural": "similaires",
+        "definitions": [
+            {
+                "text": "Almost the same; having many shared features.",
+                "examples": [
+                    "Our approaches are very similar."
+                ]
+            }
+        ],
+        "subtext": "very similar / similar to / similar results"
     },
     {
         "word": "amical",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "friendly",
         "feminine": "amicale",
         "plural": "amicaux",
-        "femininePlural": "amicales"
+        "femininePlural": "amicales",
+        "definitions": [
+            {
+                "text": "Kind and pleasant; easy to talk to.",
+                "examples": [
+                    "The new manager is very friendly and approachable."
+                ]
+            }
+        ],
+        "subtext": "very friendly / a friendly face / friendly atmosphere"
     },
     {
         "word": "gentil",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "kind",
         "feminine": "gentille",
         "plural": "gentils",
-        "femininePlural": "gentilles"
+        "femininePlural": "gentilles",
+        "definitions": [
+            {
+                "text": "Caring and generous to others.",
+                "examples": [
+                    "She is kind to everyone in the office."
+                ]
+            }
+        ],
+        "subtext": "very kind / kind of you / a kind person"
     },
     {
         "word": "drôle",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "funny",
         "feminine": "drôle",
         "plural": "drôles",
-        "femininePlural": "drôles"
+        "femininePlural": "drôles",
+        "definitions": [
+            {
+                "text": "Making people laugh; humorous.",
+                "examples": [
+                    "He has a funny way of explaining complex ideas."
+                ]
+            }
+        ],
+        "subtext": "very funny / funny story / find funny"
     },
     {
         "word": "intelligent",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "clever",
         "feminine": "intelligente",
         "plural": "intelligents",
-        "femininePlural": "intelligentes"
+        "femininePlural": "intelligentes",
+        "definitions": [
+            {
+                "text": "Intelligent; quick to understand.",
+                "examples": [
+                    "She is a clever negotiator."
+                ]
+            }
+        ],
+        "subtext": "very clever / a clever idea / clever enough"
     },
     {
         "word": "poli",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "polite",
         "feminine": "polie",
         "plural": "polis",
-        "femininePlural": "polies"
+        "femininePlural": "polies",
+        "definitions": [
+            {
+                "text": "Behaving in a respectful and courteous way.",
+                "examples": [
+                    "He is always polite with clients."
+                ]
+            }
+        ],
+        "subtext": "very polite / polite request / polite enough"
     },
     {
         "word": "impoli",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "rude",
         "feminine": "impolie",
         "plural": "impolis",
-        "femininePlural": "impolies"
+        "femininePlural": "impolies",
+        "definitions": [
+            {
+                "text": "Not polite; showing a lack of respect.",
+                "examples": [
+                    "That email was quite rude and unprofessional."
+                ]
+            }
+        ],
+        "subtext": "very rude / incredibly rude / deliberately rude"
     },
     {
         "word": "paresseux",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "lazy",
         "feminine": "paresseuse",
         "plural": "paresseux",
-        "femininePlural": "paresseuses"
+        "femininePlural": "paresseuses",
+        "definitions": [
+            {
+                "text": "Not willing to work or use effort.",
+                "examples": [
+                    "He has a reputation for being lazy with follow-ups."
+                ]
+            }
+        ],
+        "subtext": "very lazy / a lazy approach / too lazy"
     },
     {
         "word": "honnête",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "honest",
         "feminine": "honnête",
         "plural": "honnêtes",
-        "femininePlural": "honnêtes"
+        "femininePlural": "honnêtes",
+        "definitions": [
+            {
+                "text": "Telling the truth; not deceiving.",
+                "examples": [
+                    "She is known for being completely honest with clients."
+                ]
+            }
+        ],
+        "subtext": "very honest / brutally honest / completely honest"
     },
     {
         "word": "bruyant",
@@ -1563,36 +2311,71 @@
         "translation": "noisy",
         "feminine": "bruyante",
         "plural": "bruyants",
-        "femininePlural": "bruyantes"
+        "femininePlural": "bruyantes",
+        "definitions": [
+            {
+                "text": "Making a lot of sound; loud.",
+                "examples": [
+                    "The open plan office is very noisy."
+                ]
+            }
+        ],
+        "subtext": "very noisy / noisy environment / too noisy"
     },
     {
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "size_shape_A1",
         "form": "adjective",
         "translation": "young",
         "feminine": "jeune",
         "plural": "jeunes",
-        "femininePlural": "jeunes"
+        "femininePlural": "jeunes",
+        "definitions": [
+            {
+                "text": "Having lived or existed for only a short time.",
+                "examples": [
+                    "He is a young man."
+                ]
+            }
+        ]
     },
     {
         "word": "sain",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "basic_foods_A1",
         "form": "adjective",
         "translation": "healthy",
         "feminine": "saine",
         "plural": "sains",
-        "femininePlural": "saines"
+        "femininePlural": "saines",
+        "definitions": [
+            {
+                "text": "Good for your body; not ill.",
+                "examples": [
+                    "Vegetables are healthy food."
+                ]
+            }
+        ],
+        "subtext": "well, fit, healthy diet"
     },
     {
         "word": "malade",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "illnesses_symptoms_A1",
         "form": "adjective",
         "translation": "ill",
         "feminine": "malade",
         "plural": "malades",
-        "femininePlural": "malades"
+        "femininePlural": "malades",
+        "definitions": [
+            {
+                "text": "Not well; sick.",
+                "examples": [
+                    "I feel ill today."
+                ]
+            }
+        ],
+        "subtext": "sick, feel ill"
     },
     {
         "word": "utile",
@@ -1602,27 +2385,54 @@
         "translation": "useful",
         "feminine": "utile",
         "plural": "utiles",
-        "femininePlural": "utiles"
+        "femininePlural": "utiles",
+        "definitions": [
+            {
+                "text": "Helpful; having a practical purpose.",
+                "examples": [
+                    "A car is very useful in the country."
+                ]
+            }
+        ],
+        "subtext": "helpful, practical"
     },
     {
         "word": "détendu",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "translation": "relaxed",
         "feminine": "détendue",
         "plural": "détendus",
-        "femininePlural": "détendues"
+        "femininePlural": "détendues",
+        "definitions": [
+            {
+                "text": "Calm; not worried or stressed.",
+                "examples": [
+                    "I feel relaxed at the weekend."
+                ]
+            }
+        ],
+        "subtext": "calm, feeling relaxed"
     },
     {
         "word": "inquiet",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "basic_negative_emotions_A1",
         "form": "adjective",
         "translation": "worried",
         "feminine": "inquiète",
         "plural": "inquiets",
-        "femininePlural": "inquiètes"
+        "femininePlural": "inquiètes",
+        "definitions": [
+            {
+                "text": "Feeling anxious about something that might happen.",
+                "examples": [
+                    "She is worried about her job."
+                ]
+            }
+        ],
+        "subtext": "anxious"
     }
 ];
     const lang = "fr";

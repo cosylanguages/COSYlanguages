@@ -62,7 +62,8 @@
                     "He is a young man."
                 ]
             }
-        ]
+        ],
+        "subtext": "young person / young professional / young at heart"
     },
     {
         "word": "old",
@@ -101,7 +102,8 @@
                     "I like sunny weather."
                 ]
             }
-        ]
+        ],
+        "subtext": "sunny day / sunny weather / sunny spell"
     },
     {
         "word": "rainy",
@@ -117,7 +119,8 @@
                     "Wear a coat, it's rainy outside."
                 ]
             }
-        ]
+        ],
+        "subtext": "rainy day / rainy weather / rainy season"
     },
     {
         "word": "hot",
@@ -178,7 +181,8 @@
                     "It was an ordinary day."
                 ]
             }
-        ]
+        ],
+        "subtext": "ordinary day / ordinary life / nothing ordinary"
     },
     {
         "word": "cheap",
@@ -421,7 +425,8 @@
                     "She has a full-time job in a bank."
                 ]
             }
-        ]
+        ],
+        "subtext": "full-time job / full-time work / full-time employee"
     },
     {
         "word": "part-time",
@@ -438,7 +443,8 @@
                     "He works part-time on Saturdays."
                 ]
             }
-        ]
+        ],
+        "subtext": "part-time job / part-time work / part-time student"
     },
     {
         "word": "clean",
@@ -510,7 +516,8 @@
                     "I buy food online sometimes."
                 ]
             }
-        ]
+        ],
+        "subtext": "online shopping / online course / stay online"
     },
     {
         "word": "alone",
@@ -527,7 +534,8 @@
                     "She lives alone."
                 ]
             }
-        ]
+        ],
+        "subtext": "live alone / travel alone / feel alone"
     },
     {
         "word": "relaxed",
@@ -590,7 +598,7 @@
     {
         "word": "useful",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "describing_things_A1",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "useless",
@@ -836,7 +844,8 @@
                     "Paris is a very large city."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "little",
@@ -850,7 +859,8 @@
                     "He drives a little car to save on fuel."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "long",
@@ -864,7 +874,8 @@
                     "She has a long commute every day."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "high",
@@ -878,7 +889,8 @@
                     "The rent in this area is very high."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "low",
@@ -892,7 +904,8 @@
                     "The salary is too low for the hours involved."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "full",
@@ -906,7 +919,8 @@
                     "I feel full after that lunch."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "empty",
@@ -920,7 +934,8 @@
                     "The office is empty at weekends."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "warm",
@@ -934,7 +949,8 @@
                     "The office is warm and comfortable."
                 ]
             }
-        ]
+        ],
+        "theme": "weather_A1"
     },
     {
         "word": "cool",
@@ -948,7 +964,8 @@
                     "She prefers cool weather for working."
                 ]
             }
-        ]
+        ],
+        "theme": "weather_A1"
     },
     {
         "word": "wet",
@@ -962,7 +979,8 @@
                     "His jacket is wet from the rain."
                 ]
             }
-        ]
+        ],
+        "theme": "weather_A1"
     },
     {
         "word": "dry",
@@ -976,7 +994,8 @@
                     "The storage room must stay dry."
                 ]
             }
-        ]
+        ],
+        "theme": "weather_A1"
     },
     {
         "word": "dirty",
@@ -1004,7 +1023,8 @@
                     "The chair is very hard and uncomfortable."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "soft",
@@ -1018,7 +1038,8 @@
                     "The sofa is very soft and comfortable."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "heavy",
@@ -1032,7 +1053,8 @@
                     "The bag is very heavy with all those files."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "light",
@@ -1046,7 +1068,8 @@
                     "She carries a light bag to work every day."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "brown",
@@ -1060,7 +1083,8 @@
                     "She has brown eyes and dark hair."
                 ]
             }
-        ]
+        ],
+        "theme": "colours_patterns_A1"
     },
     {
         "word": "grey",
@@ -1074,7 +1098,8 @@
                     "He has grey hair and a kind face."
                 ]
             }
-        ]
+        ],
+        "theme": "colours_patterns_A1"
     },
     {
         "word": "pink",
@@ -1088,7 +1113,8 @@
                     "She prefers pink to red."
                 ]
             }
-        ]
+        ],
+        "theme": "colours_patterns_A1"
     },
     {
         "word": "orange",
@@ -1102,7 +1128,8 @@
                     "He bought an orange jacket."
                 ]
             }
-        ]
+        ],
+        "theme": "colours_patterns_A1"
     },
     {
         "word": "great",
@@ -1116,7 +1143,8 @@
                     "She is a great manager."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "nice",
@@ -1130,7 +1158,8 @@
                     "The new office is very nice."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "wonderful",
@@ -1144,7 +1173,8 @@
                     "They had a wonderful team."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "terrible",
@@ -1158,7 +1188,8 @@
                     "The traffic this morning was terrible."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "awful",
@@ -1172,7 +1203,8 @@
                     "The noise in the open office is awful."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "amazing",
@@ -1186,7 +1218,8 @@
                     "She gave an amazing presentation."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "fantastic",
@@ -1200,7 +1233,8 @@
                     "The new system works in a fantastic way."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "sad",
@@ -1214,7 +1248,8 @@
                     "He was sad to leave the company."
                 ]
             }
-        ]
+        ],
+        "theme": "basic_negative_emotions_A1"
     },
     {
         "word": "hungry",
@@ -1228,7 +1263,8 @@
                     "I am hungry — it is already two o'clock."
                 ]
             }
-        ]
+        ],
+        "theme": "basic_negative_emotions_A1"
     },
     {
         "word": "angry",
@@ -1242,7 +1278,8 @@
                     "She was angry about the decision."
                 ]
             }
-        ]
+        ],
+        "theme": "basic_negative_emotions_A1"
     },
     {
         "word": "bored",
@@ -1256,7 +1293,8 @@
                     "He feels bored in long meetings."
                 ]
             }
-        ]
+        ],
+        "theme": "basic_negative_emotions_A1"
     },
     {
         "word": "excited",
@@ -1284,7 +1322,8 @@
                     "He is afraid of making mistakes."
                 ]
             }
-        ]
+        ],
+        "theme": "basic_negative_emotions_A1"
     },
     {
         "word": "sorry",
@@ -1298,7 +1337,8 @@
                     "She is sorry for the delay."
                 ]
             }
-        ]
+        ],
+        "theme": "basic_negative_emotions_A1"
     },
     {
         "word": "right",
@@ -1312,7 +1352,8 @@
                     "Is this the right office?"
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "wrong",
@@ -1326,7 +1367,8 @@
                     "That was the wrong decision."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "new",
@@ -1340,7 +1382,8 @@
                     "She has a new job starting in March."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "different",
@@ -1354,7 +1397,8 @@
                     "This job is very different from my last one."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "same",
@@ -1368,7 +1412,8 @@
                     "They earn the same salary."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "fast",
@@ -1382,7 +1427,8 @@
                     "The train to work is fast and reliable."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "slow",
@@ -1396,7 +1442,8 @@
                     "The new system is very slow."
                 ]
             }
-        ]
+        ],
+        "theme": "size_shape_A1"
     },
     {
         "word": "quiet",
@@ -1410,7 +1457,8 @@
                     "The office is quiet at lunchtime."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "loud",
@@ -1424,7 +1472,8 @@
                     "The open-plan office is too loud."
                 ]
             }
-        ]
+        ],
+        "theme": "describing_things_A1"
     },
     {
         "word": "safe",
@@ -1438,7 +1487,8 @@
                     "This neighbourhood is very safe."
                 ]
             }
-        ]
+        ],
+        "theme": "local_places_services_A1"
     },
     {
         "word": "dangerous",
@@ -1452,7 +1502,8 @@
                     "The commute on that road is dangerous."
                 ]
             }
-        ]
+        ],
+        "theme": "local_places_services_A1"
     },
     {
         "word": "unhappy",
@@ -1502,7 +1553,7 @@
     {
         "word": "confident",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1517,7 +1568,7 @@
     {
         "word": "proud",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1607,7 +1658,7 @@
     {
         "word": "strong",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1622,7 +1673,7 @@
     {
         "word": "weak",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1637,7 +1688,7 @@
     {
         "word": "fit",
         "level": "starter",
-        "theme": "health_A1",
+        "theme": "illnesses_symptoms_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1802,7 +1853,7 @@
     {
         "word": "popular",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1832,7 +1883,7 @@
     {
         "word": "friendly",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1847,7 +1898,7 @@
     {
         "word": "kind",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1862,7 +1913,7 @@
     {
         "word": "funny",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1877,7 +1928,7 @@
     {
         "word": "clever",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1892,7 +1943,7 @@
     {
         "word": "polite",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1907,7 +1958,7 @@
     {
         "word": "rude",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1922,7 +1973,7 @@
     {
         "word": "lazy",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {
@@ -1937,7 +1988,7 @@
     {
         "word": "honest",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "definitions": [
             {

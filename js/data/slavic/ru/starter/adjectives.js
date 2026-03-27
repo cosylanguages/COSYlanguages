@@ -11,7 +11,23 @@
         "translation": "tall",
         "emoji": "🦒",
         "neuter": "высокое",
-        "plural": "высокие"
+        "plural": "высокие",
+        "definitions": [
+            {
+                "text": "A person or thing that is big from bottom to top.",
+                "examples": [
+                    "He is very tall.",
+                    "That building is tall."
+                ]
+            },
+            {
+                "text": "Of greater than average height.",
+                "examples": [
+                    "She is a tall woman who works as an engineer."
+                ]
+            }
+        ],
+        "subtext": "a tall building / a tall person / tall enough"
     },
     {
         "word": "низкий",
@@ -24,7 +40,16 @@
         "translation": "low",
         "emoji": "📉",
         "neuter": "низкое",
-        "plural": "низкие"
+        "plural": "низкие",
+        "definitions": [
+            {
+                "text": "Of less than average height or level.",
+                "examples": [
+                    "The salary is too low for the hours involved."
+                ]
+            }
+        ],
+        "subtext": "low price / low salary / low quality"
     },
     {
         "word": "молодой",
@@ -45,7 +70,22 @@
         "translation": "old",
         "emoji": "👴",
         "neuter": "старое",
-        "plural": "старые"
+        "plural": "старые",
+        "definitions": [
+            {
+                "text": "Having lived or existed for a long time.",
+                "examples": [
+                    "This is an old book."
+                ]
+            },
+            {
+                "text": "Having existed for a long time.",
+                "examples": [
+                    "He works with old clients from ten years ago."
+                ]
+            }
+        ],
+        "subtext": "old friend / old habits / very old"
     },
     {
         "word": "хороший",
@@ -58,7 +98,22 @@
         "feminine": "хорошая",
         "translation": "good",
         "neuter": "хорощее",
-        "plural": "хорошие"
+        "plural": "хорошие",
+        "definitions": [
+            {
+                "text": "Of high quality or ability; pleasant.",
+                "examples": [
+                    "This is a good job."
+                ]
+            },
+            {
+                "text": "Of high quality or pleasant.",
+                "examples": [
+                    "She has a good job with flexible hours."
+                ]
+            }
+        ],
+        "subtext": "great, nice, pleasant / good idea / good luck / good value"
     },
     {
         "word": "плохой",
@@ -71,7 +126,22 @@
         "feminine": "плохая",
         "translation": "bad",
         "neuter": "плохое",
-        "plural": "плохие"
+        "plural": "плохие",
+        "definitions": [
+            {
+                "text": "Not good; unpleasant or of poor quality.",
+                "examples": [
+                    "The weather is bad today."
+                ]
+            },
+            {
+                "text": "Of low quality; unpleasant or harmful.",
+                "examples": [
+                    "He had a bad day at work."
+                ]
+            }
+        ],
+        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision"
     },
     {
         "word": "лёгкий",
@@ -84,7 +154,16 @@
         "feminine": "лёгкая",
         "translation": "light",
         "neuter": "лёгкое",
-        "plural": "лёгкие"
+        "plural": "лёгкие",
+        "definitions": [
+            {
+                "text": "Not heavy; pale in colour.",
+                "examples": [
+                    "She carries a light bag to work every day."
+                ]
+            }
+        ],
+        "subtext": "light rain / light traffic / a light meal"
     },
     {
         "word": "трудный",
@@ -97,7 +176,22 @@
         "feminine": "трудная",
         "translation": "difficult",
         "neuter": "трудное",
-        "plural": "трудные"
+        "plural": "трудные",
+        "definitions": [
+            {
+                "text": "Hard to do or understand.",
+                "examples": [
+                    "This work is difficult."
+                ]
+            },
+            {
+                "text": "Not easy; requiring effort.",
+                "examples": [
+                    "The negotiation was very difficult."
+                ]
+            }
+        ],
+        "subtext": "difficult to do / very difficult / find it difficult"
     },
     {
         "word": "большой",
@@ -110,7 +204,22 @@
         "feminine": "большая",
         "translation": "big",
         "neuter": "большое",
-        "plural": "большие"
+        "plural": "большие",
+        "definitions": [
+            {
+                "text": "Large in size.",
+                "examples": [
+                    "It is a big office."
+                ]
+            },
+            {
+                "text": "Large in size or amount.",
+                "examples": [
+                    "They have a big house near the park."
+                ]
+            }
+        ],
+        "subtext": "large, huge / a big house / a big problem / big enough"
     },
     {
         "word": "маленький",
@@ -123,7 +232,22 @@
         "feminine": "маленькая",
         "translation": "small",
         "neuter": "маленькое",
-        "plural": "маленькие"
+        "plural": "маленькие",
+        "definitions": [
+            {
+                "text": "Little in size.",
+                "examples": [
+                    "She has a small flat."
+                ]
+            },
+            {
+                "text": "Little in size or amount.",
+                "examples": [
+                    "She rents a small flat in the city centre."
+                ]
+            }
+        ],
+        "subtext": "little, tiny / a small flat / a small salary / too small"
     },
     {
         "word": "счастливый",
@@ -135,7 +259,22 @@
         "feminine": "счастливая",
         "translation": "happy",
         "neuter": "счастливое",
-        "plural": "счастливые"
+        "plural": "счастливые",
+        "definitions": [
+            {
+                "text": "Feeling pleasure or joy.",
+                "examples": [
+                    "I am happy today."
+                ]
+            },
+            {
+                "text": "Feeling pleasure or satisfaction.",
+                "examples": [
+                    "She is happy in her new role."
+                ]
+            }
+        ],
+        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day"
     },
     {
         "word": "усталый",
@@ -156,7 +295,8 @@
         "feminine": "усталая",
         "translation": "tired",
         "neuter": "усталое",
-        "plural": "усталые"
+        "plural": "усталые",
+        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired"
     },
     {
         "word": "дорогой",
@@ -169,7 +309,22 @@
         "feminine": "дорогая",
         "translation": "expensive",
         "neuter": "дорогое",
-        "plural": "дорогие"
+        "plural": "дорогие",
+        "definitions": [
+            {
+                "text": "Costing a lot of money.",
+                "examples": [
+                    "That car is expensive."
+                ]
+            },
+            {
+                "text": "High in price.",
+                "examples": [
+                    "The city centre is expensive for rent."
+                ]
+            }
+        ],
+        "subtext": "costly, high price / very expensive / expensive taste / too expensive"
     },
     {
         "word": "дешёвый",
@@ -182,7 +337,22 @@
         "feminine": "дешёвая",
         "translation": "cheap",
         "neuter": "дешёвое",
-        "plural": "дешёвые"
+        "plural": "дешёвые",
+        "definitions": [
+            {
+                "text": "Not expensive; low in price.",
+                "examples": [
+                    "This coffee is cheap."
+                ]
+            },
+            {
+                "text": "Low in price.",
+                "examples": [
+                    "The lunch near the office is very cheap."
+                ]
+            }
+        ],
+        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful"
     },
     {
         "word": "полный рабочий день",
@@ -239,7 +409,7 @@
     {
         "word": "здоровый",
         "level": "starter",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "basic_foods_A1",
         "emoji": "🍎",
         "form": "adjective",
         "opposite": "больной",
@@ -354,7 +524,8 @@
         "feminine": "занятая",
         "translation": "busy",
         "neuter": "занятое",
-        "plural": "занятые"
+        "plural": "занятые",
+        "subtext": "very busy, busy day / busy schedule / very busy / too busy"
     },
     {
         "word": "полезный",
@@ -629,7 +800,16 @@
         "emoji": "📏",
         "form": "adjective",
         "neuter": "крупное",
-        "plural": "крупные"
+        "plural": "крупные",
+        "definitions": [
+            {
+                "text": "Of more than average size or amount.",
+                "examples": [
+                    "Paris is a very large city."
+                ]
+            }
+        ],
+        "subtext": "a large city / a large company / a large amount"
     },
     {
         "word": "небольшой",
@@ -640,7 +820,16 @@
         "emoji": "📏",
         "form": "adjective",
         "neuter": "небольшое",
-        "plural": "небольшие"
+        "plural": "небольшие",
+        "definitions": [
+            {
+                "text": "Small in size; a small amount of.",
+                "examples": [
+                    "He drives a little car to save on fuel."
+                ]
+            }
+        ],
+        "subtext": "a little bit / a little money / too little"
     },
     {
         "word": "короткий",
@@ -651,7 +840,23 @@
         "emoji": "📏",
         "form": "adjective",
         "neuter": "короткое",
-        "plural": "короткие"
+        "plural": "короткие",
+        "definitions": [
+            {
+                "text": "A person or thing that is not tall.",
+                "examples": [
+                    "She is short.",
+                    "The pencil is short."
+                ]
+            },
+            {
+                "text": "Of less than average height or length.",
+                "examples": [
+                    "He has a short commute — ten minutes by bike."
+                ]
+            }
+        ],
+        "subtext": "a short journey / short hair / too short"
     },
     {
         "word": "длинный",
@@ -662,7 +867,16 @@
         "emoji": "📏",
         "form": "adjective",
         "neuter": "длинное",
-        "plural": "длинные"
+        "plural": "длинные",
+        "definitions": [
+            {
+                "text": "Of great length; lasting a long time.",
+                "examples": [
+                    "She has a long commute every day."
+                ]
+            }
+        ],
+        "subtext": "a long journey / a long day / a long time"
     },
     {
         "word": "высокий",
@@ -673,7 +887,16 @@
         "emoji": "📈",
         "form": "adjective",
         "neuter": "высокое",
-        "plural": "высокие"
+        "plural": "высокие",
+        "definitions": [
+            {
+                "text": "Of greater than average height or level.",
+                "examples": [
+                    "The rent in this area is very high."
+                ]
+            }
+        ],
+        "subtext": "high price / high rent / high quality"
     },
     {
         "word": "полный",
@@ -684,7 +907,16 @@
         "emoji": "🥛",
         "form": "adjective",
         "neuter": "полное",
-        "plural": "полные"
+        "plural": "полные",
+        "definitions": [
+            {
+                "text": "Containing as much as possible; complete.",
+                "examples": [
+                    "I feel full after that lunch."
+                ]
+            }
+        ],
+        "subtext": "full time / a full day / full of people"
     },
     {
         "word": "пустой",
@@ -695,7 +927,16 @@
         "emoji": "🫙",
         "form": "adjective",
         "neuter": "пустое",
-        "plural": "пустые"
+        "plural": "пустые",
+        "definitions": [
+            {
+                "text": "Containing nothing; with no people.",
+                "examples": [
+                    "The office is empty at weekends."
+                ]
+            }
+        ],
+        "subtext": "an empty flat / an empty room / nearly empty"
     },
     {
         "word": "тёплый",
@@ -706,7 +947,16 @@
         "emoji": "☀️",
         "form": "adjective",
         "neuter": "тёплое",
-        "plural": "тёплые"
+        "plural": "тёплые",
+        "definitions": [
+            {
+                "text": "Slightly hot; pleasantly heated.",
+                "examples": [
+                    "The office is warm and comfortable."
+                ]
+            }
+        ],
+        "subtext": "warm weather / a warm welcome / keep warm"
     },
     {
         "word": "прохладный",
@@ -717,7 +967,16 @@
         "emoji": "🌬️",
         "form": "adjective",
         "neuter": "прохладное",
-        "plural": "прохладные"
+        "plural": "прохладные",
+        "definitions": [
+            {
+                "text": "Slightly cold; pleasantly low temperature.",
+                "examples": [
+                    "She prefers cool weather for working."
+                ]
+            }
+        ],
+        "subtext": "cool weather / a cool drink / stay cool"
     },
     {
         "word": "мокрый",
@@ -728,7 +987,16 @@
         "emoji": "🚿",
         "form": "adjective",
         "neuter": "мокрое",
-        "plural": "мокрые"
+        "plural": "мокрые",
+        "definitions": [
+            {
+                "text": "Covered with water or liquid.",
+                "examples": [
+                    "His jacket is wet from the rain."
+                ]
+            }
+        ],
+        "subtext": "wet weather / wet clothes / get wet"
     },
     {
         "word": "сухой",
@@ -739,7 +1007,16 @@
         "emoji": "🏜️",
         "form": "adjective",
         "neuter": "сухое",
-        "plural": "сухие"
+        "plural": "сухие",
+        "definitions": [
+            {
+                "text": "Without water or liquid; not wet.",
+                "examples": [
+                    "The storage room must stay dry."
+                ]
+            }
+        ],
+        "subtext": "dry weather / dry skin / keep dry"
     },
     {
         "word": "грязный",
@@ -750,7 +1027,16 @@
         "emoji": "💩",
         "form": "adjective",
         "neuter": "грязное",
-        "plural": "грязные"
+        "plural": "грязные",
+        "definitions": [
+            {
+                "text": "Covered in dirt or impurities.",
+                "examples": [
+                    "His hands are dirty after fixing the car."
+                ]
+            }
+        ],
+        "subtext": "dirty hands / dirty clothes / get dirty"
     },
     {
         "word": "твёрдый",
@@ -761,7 +1047,16 @@
         "emoji": "🧱",
         "form": "adjective",
         "neuter": "твёрдое",
-        "plural": "твёрдые"
+        "plural": "твёрдые",
+        "definitions": [
+            {
+                "text": "Firm and solid; difficult.",
+                "examples": [
+                    "The chair is very hard and uncomfortable."
+                ]
+            }
+        ],
+        "subtext": "hard work / a hard decision / too hard"
     },
     {
         "word": "мягкий",
@@ -772,7 +1067,16 @@
         "emoji": "☁️",
         "form": "adjective",
         "neuter": "мягкое",
-        "plural": "мягкие"
+        "plural": "мягкие",
+        "definitions": [
+            {
+                "text": "Not hard; gentle to the touch.",
+                "examples": [
+                    "The sofa is very soft and comfortable."
+                ]
+            }
+        ],
+        "subtext": "soft light / soft music / soft skills"
     },
     {
         "word": "тяжёлый",
@@ -783,7 +1087,16 @@
         "emoji": "🏋️",
         "form": "adjective",
         "neuter": "тяжёлое",
-        "plural": "тяжёлые"
+        "plural": "тяжёлые",
+        "definitions": [
+            {
+                "text": "Of great weight; difficult to carry.",
+                "examples": [
+                    "The bag is very heavy with all those files."
+                ]
+            }
+        ],
+        "subtext": "heavy traffic / heavy rain / too heavy"
     },
     {
         "word": "коричневый",
@@ -794,7 +1107,16 @@
         "emoji": "🟫",
         "form": "adjective",
         "neuter": "коричневое",
-        "plural": "коричневые"
+        "plural": "коричневые",
+        "definitions": [
+            {
+                "text": "Having the colour of wood or earth.",
+                "examples": [
+                    "She has brown eyes and dark hair."
+                ]
+            }
+        ],
+        "subtext": "dark brown / light brown / brown bread"
     },
     {
         "word": "серый",
@@ -805,7 +1127,16 @@
         "emoji": "🩶",
         "form": "adjective",
         "neuter": "серое",
-        "plural": "серые"
+        "plural": "серые",
+        "definitions": [
+            {
+                "text": "Having a colour between black and white.",
+                "examples": [
+                    "He has grey hair and a kind face."
+                ]
+            }
+        ],
+        "subtext": "grey area / grey sky / pale grey"
     },
     {
         "word": "розовый",
@@ -816,7 +1147,16 @@
         "emoji": "🩷",
         "form": "adjective",
         "neuter": "розовое",
-        "plural": "розовые"
+        "plural": "розовые",
+        "definitions": [
+            {
+                "text": "Having a pale red colour.",
+                "examples": [
+                    "She prefers pink to red."
+                ]
+            }
+        ],
+        "subtext": "light pink / bright pink / hot pink"
     },
     {
         "word": "оранжевый",
@@ -827,84 +1167,156 @@
         "emoji": "🟧",
         "form": "adjective",
         "neuter": "оранжевое",
-        "plural": "оранжевые"
+        "plural": "оранжевые",
+        "definitions": [
+            {
+                "text": "Having the colour of an orange fruit.",
+                "examples": [
+                    "He bought an orange jacket."
+                ]
+            }
+        ],
+        "subtext": "bright orange / dark orange / orange light"
     },
     {
         "word": "великолепный",
         "feminine": "великолепная",
         "translation": "great",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "🌟",
         "form": "adjective",
         "neuter": "великолепное",
-        "plural": "великолепные"
+        "plural": "великолепные",
+        "definitions": [
+            {
+                "text": "Extremely good; large in amount.",
+                "examples": [
+                    "She is a great manager."
+                ]
+            }
+        ],
+        "subtext": "a great idea / a great opportunity / great value"
     },
     {
         "word": "приятный",
         "feminine": "приятная",
         "translation": "nice",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "😊",
         "form": "adjective",
         "neuter": "приятное",
-        "plural": "приятные"
+        "plural": "приятные",
+        "definitions": [
+            {
+                "text": "Pleasant or kind.",
+                "examples": [
+                    "The new office is very nice."
+                ]
+            }
+        ],
+        "subtext": "a nice day / a nice place / a nice person"
     },
     {
         "word": "замечательный",
         "feminine": "замечательная",
         "translation": "wonderful",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "✨",
         "form": "adjective",
         "neuter": "замечательное",
-        "plural": "замечательные"
+        "plural": "замечательные",
+        "definitions": [
+            {
+                "text": "Extremely good; causing delight.",
+                "examples": [
+                    "They had a wonderful team."
+                ]
+            }
+        ],
+        "subtext": "a wonderful opportunity / a wonderful time"
     },
     {
         "word": "ужасный",
         "feminine": "ужасная",
         "translation": "terrible",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "😫",
         "form": "adjective",
         "neuter": "ужасное",
-        "plural": "ужасные"
+        "plural": "ужасные",
+        "definitions": [
+            {
+                "text": "Extremely bad.",
+                "examples": [
+                    "The traffic this morning was terrible."
+                ]
+            }
+        ],
+        "subtext": "terrible weather / a terrible mistake / terrible news"
     },
     {
         "word": "отвратительный",
         "feminine": "отвратительная",
         "translation": "awful",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "🤮",
         "form": "adjective",
         "neuter": "отвратительное",
-        "plural": "отвратительные"
+        "plural": "отвратительные",
+        "definitions": [
+            {
+                "text": "Very bad or unpleasant.",
+                "examples": [
+                    "The noise in the open office is awful."
+                ]
+            }
+        ],
+        "subtext": "awful weather / awful news / simply awful"
     },
     {
         "word": "удивительный",
         "feminine": "удивительная",
         "translation": "amazing",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "😲",
         "form": "adjective",
         "neuter": "удивительное",
-        "plural": "удивительные"
+        "plural": "удивительные",
+        "definitions": [
+            {
+                "text": "Causing great surprise or admiration.",
+                "examples": [
+                    "She gave an amazing presentation."
+                ]
+            }
+        ],
+        "subtext": "an amazing result / an amazing offer / truly amazing"
     },
     {
         "word": "фантастический",
         "feminine": "фантастическая",
         "translation": "fantastic",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing_things_A1",
         "emoji": "🤩",
         "form": "adjective",
         "neuter": "фантастическое",
-        "plural": "фантастические"
+        "plural": "фантастические",
+        "definitions": [
+            {
+                "text": "Extremely good.",
+                "examples": [
+                    "The new system works in a fantastic way."
+                ]
+            }
+        ],
+        "subtext": "fantastic news / a fantastic opportunity / truly fantastic"
     },
     {
         "word": "грустный",
@@ -915,7 +1327,16 @@
         "emoji": "😢",
         "form": "adjective",
         "neuter": "грустное",
-        "plural": "грустные"
+        "plural": "грустные",
+        "definitions": [
+            {
+                "text": "Feeling unhappy or sorrowful.",
+                "examples": [
+                    "He was sad to leave the company."
+                ]
+            }
+        ],
+        "subtext": "feel sad / a sad situation / deeply sad"
     },
     {
         "word": "голодный",
@@ -926,7 +1347,16 @@
         "emoji": "🤤",
         "form": "adjective",
         "neuter": "голодное",
-        "plural": "голодные"
+        "plural": "голодные",
+        "definitions": [
+            {
+                "text": "Needing food.",
+                "examples": [
+                    "I am hungry — it is already two o'clock."
+                ]
+            }
+        ],
+        "subtext": "feel hungry / very hungry / go hungry"
     },
     {
         "word": "сердитый",
@@ -937,7 +1367,16 @@
         "emoji": "😠",
         "form": "adjective",
         "neuter": "сердитое",
-        "plural": "сердитые"
+        "plural": "сердитые",
+        "definitions": [
+            {
+                "text": "Feeling strong displeasure.",
+                "examples": [
+                    "She was angry about the decision."
+                ]
+            }
+        ],
+        "subtext": "feel angry / angry with someone / very angry"
     },
     {
         "word": "скучающий",
@@ -948,7 +1387,16 @@
         "emoji": "😐",
         "form": "adjective",
         "neuter": "скучающее",
-        "plural": "скучающие"
+        "plural": "скучающие",
+        "definitions": [
+            {
+                "text": "Feeling uninterested or restless.",
+                "examples": [
+                    "He feels bored in long meetings."
+                ]
+            }
+        ],
+        "subtext": "feel bored / bored with / easily bored"
     },
     {
         "word": "взволнованный",
@@ -959,7 +1407,16 @@
         "emoji": "🤩",
         "form": "adjective",
         "neuter": "взволнованное",
-        "plural": "взволнованные"
+        "plural": "взволнованные",
+        "definitions": [
+            {
+                "text": "Feeling enthusiasm and eagerness.",
+                "examples": [
+                    "She is excited about her new job."
+                ]
+            }
+        ],
+        "subtext": "feel excited / excited about / very excited"
     },
     {
         "word": "испуганный",
@@ -970,7 +1427,16 @@
         "emoji": "😨",
         "form": "adjective",
         "neuter": "испуганное",
-        "plural": "испуганные"
+        "plural": "испуганные",
+        "definitions": [
+            {
+                "text": "Feeling fear.",
+                "examples": [
+                    "He is afraid of making mistakes."
+                ]
+            }
+        ],
+        "subtext": "afraid of / feel afraid / deeply afraid"
     },
     {
         "word": "огорчённый",
@@ -981,7 +1447,16 @@
         "emoji": "🥺",
         "form": "adjective",
         "neuter": "огорчённое",
-        "plural": "огорчённые"
+        "plural": "огорчённые",
+        "definitions": [
+            {
+                "text": "Feeling regret or sadness.",
+                "examples": [
+                    "She is sorry for the delay."
+                ]
+            }
+        ],
+        "subtext": "feel sorry / sorry for / sorry about"
     },
     {
         "word": "правильный",
@@ -992,7 +1467,16 @@
         "emoji": "✅",
         "form": "adjective",
         "neuter": "правильное",
-        "plural": "правильные"
+        "plural": "правильные",
+        "definitions": [
+            {
+                "text": "Correct; suitable.",
+                "examples": [
+                    "Is this the right office?"
+                ]
+            }
+        ],
+        "subtext": "right answer / right time / absolutely right"
     },
     {
         "word": "неправильный",
@@ -1003,7 +1487,16 @@
         "emoji": "❌",
         "form": "adjective",
         "neuter": "неправильное",
-        "plural": "неправильные"
+        "plural": "неправильные",
+        "definitions": [
+            {
+                "text": "Not correct; not suitable.",
+                "examples": [
+                    "That was the wrong decision."
+                ]
+            }
+        ],
+        "subtext": "wrong answer / go wrong / completely wrong"
     },
     {
         "word": "новый",
@@ -1014,7 +1507,16 @@
         "emoji": "🆕",
         "form": "adjective",
         "neuter": "новое",
-        "plural": "новые"
+        "plural": "новые",
+        "definitions": [
+            {
+                "text": "Not existing before; recently made.",
+                "examples": [
+                    "She has a new job starting in March."
+                ]
+            }
+        ],
+        "subtext": "new job / brand new / completely new"
     },
     {
         "word": "другой",
@@ -1025,7 +1527,16 @@
         "emoji": "↔️",
         "form": "adjective",
         "neuter": "другое",
-        "plural": "другие"
+        "plural": "другие",
+        "definitions": [
+            {
+                "text": "Not the same as another.",
+                "examples": [
+                    "This job is very different from my last one."
+                ]
+            }
+        ],
+        "subtext": "completely different / very different / different from"
     },
     {
         "word": "одинаковый",
@@ -1036,7 +1547,16 @@
         "emoji": "identical",
         "form": "adjective",
         "neuter": "одинаковое",
-        "plural": "одинаковые"
+        "plural": "одинаковые",
+        "definitions": [
+            {
+                "text": "Not different; identical.",
+                "examples": [
+                    "They earn the same salary."
+                ]
+            }
+        ],
+        "subtext": "the same as / exactly the same / same time"
     },
     {
         "word": "лёгкий",
@@ -1047,7 +1567,17 @@
         "emoji": "✅",
         "form": "adjective",
         "neuter": "лёгкое",
-        "plural": "лёгкие"
+        "plural": "лёгкие",
+        "definitions": [
+            {
+                "text": "Not difficult.",
+                "examples": [
+                    "The test is easy.",
+                    "The application form is easy to complete."
+                ]
+            }
+        ],
+        "subtext": "easy to do / nice and easy / not easy"
     },
     {
         "word": "быстрый",
@@ -1058,7 +1588,16 @@
         "emoji": "⚡",
         "form": "adjective",
         "neuter": "быстрое",
-        "plural": "быстрые"
+        "plural": "быстрые",
+        "definitions": [
+            {
+                "text": "Moving or happening quickly.",
+                "examples": [
+                    "The train to work is fast and reliable."
+                ]
+            }
+        ],
+        "subtext": "fast food / fast train / very fast"
     },
     {
         "word": "медленный",
@@ -1069,7 +1608,16 @@
         "emoji": "🐢",
         "form": "adjective",
         "neuter": "медленное",
-        "plural": "медленные"
+        "plural": "медленные",
+        "definitions": [
+            {
+                "text": "Not fast; taking a long time.",
+                "examples": [
+                    "The new system is very slow."
+                ]
+            }
+        ],
+        "subtext": "slow progress / slow internet / very slow"
     },
     {
         "word": "тихий",
@@ -1080,7 +1628,16 @@
         "emoji": "🤫",
         "form": "adjective",
         "neuter": "тихое",
-        "plural": "тихие"
+        "plural": "тихие",
+        "definitions": [
+            {
+                "text": "Making little or no noise; peaceful.",
+                "examples": [
+                    "The office is quiet at lunchtime."
+                ]
+            }
+        ],
+        "subtext": "quiet area / keep quiet / nice and quiet"
     },
     {
         "word": "громкий",
@@ -1091,7 +1648,16 @@
         "emoji": "🔊",
         "form": "adjective",
         "neuter": "громкое",
-        "plural": "громкие"
+        "plural": "громкие",
+        "definitions": [
+            {
+                "text": "Making a lot of noise.",
+                "examples": [
+                    "The open-plan office is too loud."
+                ]
+            }
+        ],
+        "subtext": "loud noise / too loud / a loud voice"
     },
     {
         "word": "безопасный",
@@ -1102,7 +1668,16 @@
         "emoji": "🛡️",
         "form": "adjective",
         "neuter": "безопасное",
-        "plural": "безопасные"
+        "plural": "безопасные",
+        "definitions": [
+            {
+                "text": "Not dangerous; protected from harm.",
+                "examples": [
+                    "This neighbourhood is very safe."
+                ]
+            }
+        ],
+        "subtext": "safe area / safe to do / feel safe"
     },
     {
         "word": "опасный",
@@ -1113,7 +1688,16 @@
         "emoji": "⚠️",
         "form": "adjective",
         "neuter": "опасное",
-        "plural": "опасные"
+        "plural": "опасные",
+        "definitions": [
+            {
+                "text": "Likely to cause harm.",
+                "examples": [
+                    "The commute on that road is dangerous."
+                ]
+            }
+        ],
+        "subtext": "dangerous situation / very dangerous / potentially dangerous"
     },
     {
         "word": "несчастный",
@@ -1123,7 +1707,16 @@
         "translation": "unhappy",
         "feminine": "несчастная",
         "neuter": "несчастное",
-        "plural": "несчастные"
+        "plural": "несчастные",
+        "definitions": [
+            {
+                "text": "Чувство неудовлетворенности или грусти.",
+                "examples": [
+                    "He is unhappy with his current salary."
+                ]
+            }
+        ],
+        "subtext": "несчастен из-за чего-то / глубоко несчастен"
     },
     {
         "word": "нервный",
@@ -1133,7 +1726,16 @@
         "translation": "nervous",
         "feminine": "нервная",
         "neuter": "нервное",
-        "plural": "нервные"
+        "plural": "нервные",
+        "definitions": [
+            {
+                "text": "Чувство беспокойства или тревоги.",
+                "examples": [
+                    "He was nervous before the job interview."
+                ]
+            }
+        ],
+        "subtext": "нервничать перед собеседованием / очень нервный"
     },
     {
         "word": "напряжённый",
@@ -1143,27 +1745,54 @@
         "translation": "stressed",
         "feminine": "напряжённая",
         "neuter": "напряжённое",
-        "plural": "напряжённые"
+        "plural": "напряжённые",
+        "definitions": [
+            {
+                "text": "Feeling worried and tense from pressure.",
+                "examples": [
+                    "She feels stressed before every deadline."
+                ]
+            }
+        ],
+        "subtext": "feel stressed / very stressed / stressed out"
     },
     {
         "word": "уверенный",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "confident",
         "feminine": "уверенная",
         "neuter": "уверенное",
-        "plural": "уверенные"
+        "plural": "уверенные",
+        "definitions": [
+            {
+                "text": "Feeling sure of your own abilities.",
+                "examples": [
+                    "She is very confident in client presentations."
+                ]
+            }
+        ],
+        "subtext": "feel confident / self-confident / very confident"
     },
     {
         "word": "гордый",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "proud",
         "feminine": "гордая",
         "neuter": "гордое",
-        "plural": "гордые"
+        "plural": "гордые",
+        "definitions": [
+            {
+                "text": "Feeling pleased about an achievement.",
+                "examples": [
+                    "He was proud to get his first promotion."
+                ]
+            }
+        ],
+        "subtext": "feel proud / very proud / proud of"
     },
     {
         "word": "напуганный",
@@ -1173,7 +1802,16 @@
         "translation": "scared",
         "feminine": "напуганная",
         "neuter": "напуганное",
-        "plural": "напуганные"
+        "plural": "напуганные",
+        "definitions": [
+            {
+                "text": "Feeling fear about something.",
+                "examples": [
+                    "She was scared about giving the presentation."
+                ]
+            }
+        ],
+        "subtext": "feel scared / scared of / very scared"
     },
     {
         "word": "удивлённый",
@@ -1183,7 +1821,16 @@
         "translation": "surprised",
         "feminine": "удивлённая",
         "neuter": "удивлённое",
-        "plural": "удивлённые"
+        "plural": "удивлённые",
+        "definitions": [
+            {
+                "text": "Feeling shock at something unexpected.",
+                "examples": [
+                    "He was surprised to get a pay rise."
+                ]
+            }
+        ],
+        "subtext": "feel surprised / very surprised / pleasantly surprised"
     },
     {
         "word": "разочарованный",
@@ -1193,7 +1840,16 @@
         "translation": "disappointed",
         "feminine": "разочарованная",
         "neuter": "разочарованное",
-        "plural": "разочарованные"
+        "plural": "разочарованные",
+        "definitions": [
+            {
+                "text": "Feeling sad because something was not as good as expected.",
+                "examples": [
+                    "She was disappointed not to get the job."
+                ]
+            }
+        ],
+        "subtext": "feel disappointed / deeply disappointed / disappointed with"
     },
     {
         "word": "красивый",
@@ -1203,7 +1859,16 @@
         "translation": "beautiful",
         "feminine": "красивая",
         "neuter": "красивое",
-        "plural": "красивые"
+        "plural": "красивые",
+        "definitions": [
+            {
+                "text": "Attractive and pleasing to look at.",
+                "examples": [
+                    "She has a beautiful, bright office with city views."
+                ]
+            }
+        ],
+        "subtext": "beautiful view / beautiful city / absolutely beautiful"
     },
     {
         "word": "симпатичный",
@@ -1213,37 +1878,73 @@
         "translation": "pretty",
         "feminine": "симпатичная",
         "neuter": "симпатичное",
-        "plural": "симпатичные"
+        "plural": "симпатичные",
+        "definitions": [
+            {
+                "text": "Pleasant to look at; quite attractive.",
+                "examples": [
+                    "The new meeting room is very pretty."
+                ]
+            }
+        ],
+        "subtext": "pretty good / a pretty place / quite pretty"
     },
     {
         "word": "сильный",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "strong",
         "feminine": "сильная",
         "neuter": "сильное",
-        "plural": "сильные"
+        "plural": "сильные",
+        "definitions": [
+            {
+                "text": "Having great physical or mental power.",
+                "examples": [
+                    "She is a strong leader and very respected."
+                ]
+            }
+        ],
+        "subtext": "strong coffee / strong opinion / very strong"
     },
     {
         "word": "слабый",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "weak",
         "feminine": "слабая",
         "neuter": "слабое",
-        "plural": "слабые"
+        "plural": "слабые",
+        "definitions": [
+            {
+                "text": "Lacking strength or power.",
+                "examples": [
+                    "The signal is weak on the top floor."
+                ]
+            }
+        ],
+        "subtext": "weak connection / a weak argument / very weak"
     },
     {
         "word": "спортивный",
         "level": "starter",
-        "theme": "health_A1",
+        "theme": "illnesses_symptoms_A1",
         "form": "adjective",
         "translation": "fit",
         "feminine": "спортивная",
         "neuter": "спортивное",
-        "plural": "спортивные"
+        "plural": "спортивные",
+        "definitions": [
+            {
+                "text": "In good physical condition through exercise.",
+                "examples": [
+                    "She keeps fit by cycling to work every day."
+                ]
+            }
+        ],
+        "subtext": "physically fit / stay fit / keep fit"
     },
     {
         "word": "отличный",
@@ -1253,7 +1954,16 @@
         "translation": "excellent",
         "feminine": "отличная",
         "neuter": "отличное",
-        "plural": "отличные"
+        "plural": "отличные",
+        "definitions": [
+            {
+                "text": "Extremely good; of a very high standard.",
+                "examples": [
+                    "She received an excellent review."
+                ]
+            }
+        ],
+        "subtext": "excellent work / excellent results / absolutely excellent"
     },
     {
         "word": "идеальный",
@@ -1263,7 +1973,16 @@
         "translation": "perfect",
         "feminine": "идеальная",
         "neuter": "идеальное",
-        "plural": "идеальные"
+        "plural": "идеальные",
+        "definitions": [
+            {
+                "text": "Without any faults; completely correct.",
+                "examples": [
+                    "The timing of the launch was perfect."
+                ]
+            }
+        ],
+        "subtext": "a perfect opportunity / perfect timing / absolutely perfect"
     },
     {
         "word": "бесполезный",
@@ -1273,7 +1992,16 @@
         "translation": "useless",
         "feminine": "бесполезная",
         "neuter": "бесполезное",
-        "plural": "бесполезные"
+        "plural": "бесполезные",
+        "definitions": [
+            {
+                "text": "Without any useful value; not helpful.",
+                "examples": [
+                    "This software is useless for our needs."
+                ]
+            }
+        ],
+        "subtext": "completely useless / prove useless / a useless idea"
     },
     {
         "word": "верный",
@@ -1283,7 +2011,16 @@
         "translation": "correct",
         "feminine": "верная",
         "neuter": "верное",
-        "plural": "верные"
+        "plural": "верные",
+        "definitions": [
+            {
+                "text": "True or right; without errors.",
+                "examples": [
+                    "Please check the figures are correct."
+                ]
+            }
+        ],
+        "subtext": "correct answer / the correct way / completely correct"
     },
     {
         "word": "интересный",
@@ -1293,7 +2030,16 @@
         "translation": "interesting",
         "feminine": "интересная",
         "neuter": "интересное",
-        "plural": "интересные"
+        "plural": "интересные",
+        "definitions": [
+            {
+                "text": "Attracting attention; worth knowing about.",
+                "examples": [
+                    "The new proposal is very interesting."
+                ]
+            }
+        ],
+        "subtext": "find interesting / very interesting / an interesting idea"
     },
     {
         "word": "скучный",
@@ -1303,7 +2049,16 @@
         "translation": "boring",
         "feminine": "скучная",
         "neuter": "скучное",
-        "plural": "скучные"
+        "plural": "скучные",
+        "definitions": [
+            {
+                "text": "Not interesting; dull.",
+                "examples": [
+                    "The training session was very boring."
+                ]
+            }
+        ],
+        "subtext": "very boring / a boring meeting / find boring"
     },
     {
         "word": "необходимый",
@@ -1313,7 +2068,16 @@
         "translation": "necessary",
         "feminine": "необходимая",
         "neuter": "необходимое",
-        "plural": "необходимые"
+        "plural": "необходимые",
+        "definitions": [
+            {
+                "text": "Needed; required in order to do something.",
+                "examples": [
+                    "A good internet connection is necessary for remote work."
+                ]
+            }
+        ],
+        "subtext": "absolutely necessary / if necessary / necessary to do"
     },
     {
         "word": "возможный",
@@ -1323,7 +2087,16 @@
         "translation": "possible",
         "feminine": "возможная",
         "neuter": "возможное",
-        "plural": "возможные"
+        "plural": "возможные",
+        "definitions": [
+            {
+                "text": "Able to happen or be achieved.",
+                "examples": [
+                    "Is it possible to finish by Friday?"
+                ]
+            }
+        ],
+        "subtext": "as soon as possible / it is possible / make possible"
     },
     {
         "word": "невозможный",
@@ -1333,7 +2106,16 @@
         "translation": "impossible",
         "feminine": "невозможная",
         "neuter": "невозможное",
-        "plural": "невозможные"
+        "plural": "невозможные",
+        "definitions": [
+            {
+                "text": "Not able to happen or be done.",
+                "examples": [
+                    "It is impossible to finish in one day."
+                ]
+            }
+        ],
+        "subtext": "virtually impossible / make impossible / nearly impossible"
     },
     {
         "word": "особенный",
@@ -1343,17 +2125,35 @@
         "translation": "special",
         "feminine": "особенная",
         "neuter": "особенное",
-        "plural": "особенные"
+        "plural": "особенные",
+        "definitions": [
+            {
+                "text": "Different from what is usual; particularly important.",
+                "examples": [
+                    "She has a special talent for problem-solving."
+                ]
+            }
+        ],
+        "subtext": "a special offer / special occasion / very special"
     },
     {
         "word": "популярный",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "popular",
         "feminine": "популярная",
         "neuter": "популярное",
-        "plural": "популярные"
+        "plural": "популярные",
+        "definitions": [
+            {
+                "text": "Liked by many people.",
+                "examples": [
+                    "The new café near the office is very popular."
+                ]
+            }
+        ],
+        "subtext": "very popular / popular choice / most popular"
     },
     {
         "word": "похожий",
@@ -1363,87 +2163,168 @@
         "translation": "similar",
         "feminine": "похожая",
         "neuter": "похожее",
-        "plural": "похожие"
+        "plural": "похожие",
+        "definitions": [
+            {
+                "text": "Almost the same; having many shared features.",
+                "examples": [
+                    "Our approaches are very similar."
+                ]
+            }
+        ],
+        "subtext": "very similar / similar to / similar results"
     },
     {
         "word": "дружелюбный",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "friendly",
         "feminine": "дружелюбная",
         "neuter": "дружелюбное",
-        "plural": "дружелюбные"
+        "plural": "дружелюбные",
+        "definitions": [
+            {
+                "text": "Kind and pleasant; easy to talk to.",
+                "examples": [
+                    "The new manager is very friendly and approachable."
+                ]
+            }
+        ],
+        "subtext": "very friendly / a friendly face / friendly atmosphere"
     },
     {
         "word": "добрый",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "kind",
         "feminine": "добрая",
         "neuter": "доброе",
-        "plural": "добрые"
+        "plural": "добрые",
+        "definitions": [
+            {
+                "text": "Caring and generous to others.",
+                "examples": [
+                    "She is kind to everyone in the office."
+                ]
+            }
+        ],
+        "subtext": "very kind / kind of you / a kind person"
     },
     {
         "word": "смешной",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "funny",
         "feminine": "смешная",
         "neuter": "смешное",
-        "plural": "смешные"
+        "plural": "смешные",
+        "definitions": [
+            {
+                "text": "Making people laugh; humorous.",
+                "examples": [
+                    "He has a funny way of explaining complex ideas."
+                ]
+            }
+        ],
+        "subtext": "very funny / funny story / find funny"
     },
     {
         "word": "умный",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "clever",
         "feminine": "умная",
         "neuter": "умное",
-        "plural": "умные"
+        "plural": "умные",
+        "definitions": [
+            {
+                "text": "Intelligent; quick to understand.",
+                "examples": [
+                    "She is a clever negotiator."
+                ]
+            }
+        ],
+        "subtext": "very clever / a clever idea / clever enough"
     },
     {
         "word": "вежливый",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "polite",
         "feminine": "вежливая",
         "neuter": "вежливое",
-        "plural": "вежливые"
+        "plural": "вежливые",
+        "definitions": [
+            {
+                "text": "Behaving in a respectful and courteous way.",
+                "examples": [
+                    "He is always polite with clients."
+                ]
+            }
+        ],
+        "subtext": "very polite / polite request / polite enough"
     },
     {
         "word": "грубый",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "rude",
         "feminine": "грубая",
         "neuter": "грубое",
-        "plural": "грубые"
+        "plural": "грубые",
+        "definitions": [
+            {
+                "text": "Not polite; showing a lack of respect.",
+                "examples": [
+                    "That email was quite rude and unprofessional."
+                ]
+            }
+        ],
+        "subtext": "very rude / incredibly rude / deliberately rude"
     },
     {
         "word": "ленивый",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "lazy",
         "feminine": "ленивая",
         "neuter": "ленивое",
-        "plural": "ленивые"
+        "plural": "ленивые",
+        "definitions": [
+            {
+                "text": "Not willing to work or use effort.",
+                "examples": [
+                    "He has a reputation for being lazy with follow-ups."
+                ]
+            }
+        ],
+        "subtext": "very lazy / a lazy approach / too lazy"
     },
     {
         "word": "честный",
         "level": "starter",
-        "theme": "personality_A1",
+        "theme": "describing_things_A1",
         "form": "adjective",
         "translation": "honest",
         "feminine": "честная",
         "neuter": "честное",
-        "plural": "честные"
+        "plural": "честные",
+        "definitions": [
+            {
+                "text": "Telling the truth; not deceiving.",
+                "examples": [
+                    "She is known for being completely honest with clients."
+                ]
+            }
+        ],
+        "subtext": "very honest / brutally honest / completely honest"
     },
     {
         "word": "шумный",
@@ -1453,36 +2334,71 @@
         "translation": "noisy",
         "feminine": "шумная",
         "neuter": "шумное",
-        "plural": "шумные"
+        "plural": "шумные",
+        "definitions": [
+            {
+                "text": "Making a lot of sound; loud.",
+                "examples": [
+                    "The open plan office is very noisy."
+                ]
+            }
+        ],
+        "subtext": "very noisy / noisy environment / too noisy"
     },
     {
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "size_shape_A1",
         "form": "adjective",
         "translation": "young",
         "feminine": "молодая",
         "neuter": "молодое",
-        "plural": "молодые"
+        "plural": "молодые",
+        "definitions": [
+            {
+                "text": "Having lived or existed for only a short time.",
+                "examples": [
+                    "He is a young man."
+                ]
+            }
+        ]
     },
     {
         "word": "здоровый",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "basic_foods_A1",
         "form": "adjective",
         "translation": "healthy",
         "feminine": "здоровая",
         "neuter": "здоровое",
-        "plural": "здоровые"
+        "plural": "здоровые",
+        "definitions": [
+            {
+                "text": "Good for your body; not ill.",
+                "examples": [
+                    "Vegetables are healthy food."
+                ]
+            }
+        ],
+        "subtext": "well, fit, healthy diet"
     },
     {
         "word": "больной",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "illnesses_symptoms_A1",
         "form": "adjective",
         "translation": "ill",
         "feminine": "больная",
         "neuter": "больное",
-        "plural": "больные"
+        "plural": "больные",
+        "definitions": [
+            {
+                "text": "Not well; sick.",
+                "examples": [
+                    "I feel ill today."
+                ]
+            }
+        ],
+        "subtext": "sick, feel ill"
     },
     {
         "word": "полезный",
@@ -1492,27 +2408,54 @@
         "translation": "useful",
         "feminine": "полезная",
         "neuter": "полезное",
-        "plural": "полезные"
+        "plural": "полезные",
+        "definitions": [
+            {
+                "text": "Helpful; having a practical purpose.",
+                "examples": [
+                    "A car is very useful in the country."
+                ]
+            }
+        ],
+        "subtext": "helpful, practical"
     },
     {
         "word": "расслабленный",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "translation": "relaxed",
         "feminine": "расслабленная",
         "neuter": "расслабленное",
-        "plural": "расслабленные"
+        "plural": "расслабленные",
+        "definitions": [
+            {
+                "text": "Calm; not worried or stressed.",
+                "examples": [
+                    "I feel relaxed at the weekend."
+                ]
+            }
+        ],
+        "subtext": "calm, feeling relaxed"
     },
     {
         "word": "обеспокоенный",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "basic_negative_emotions_A1",
         "form": "adjective",
         "translation": "worried",
         "feminine": "обеспокоенная",
         "neuter": "обеспокоенное",
-        "plural": "обеспокоенные"
+        "plural": "обеспокоенные",
+        "definitions": [
+            {
+                "text": "Feeling anxious about something that might happen.",
+                "examples": [
+                    "She is worried about her job."
+                ]
+            }
+        ],
+        "subtext": "anxious"
     }
 ];
     const lang = "ru";
