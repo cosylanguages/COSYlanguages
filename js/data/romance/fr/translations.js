@@ -659,6 +659,7 @@
             theme_grammar_past_simple: "Passé Simple 📜",
             theme_grammar_plurals: "Singulier & Pluriel ↔️",
             theme_grammar_present_simple: "Présent Simple 🕒",
+            theme_grammar_auxiliary: "Avoir vs. Être ⚖️",
             theme_grammar_verb_forms: "Formes verbales (V1, V2, V3) 🕒",
             theme_greetings_social_phrases_A1: "Greetings & social phrases",
             theme_health: "Santé et corps 🏥",
@@ -774,7 +775,7 @@
             theme_quantity_degree_A2: "Quantity & degree",
             theme_relationships_communication_B1: "Relationships & communication",
             theme_relationships_dating_A2: "Relations et rencontres",
-            theme_relationships_family_A2: "Relationships & family",
+            theme_relationships_family_A2: "Relations et famille",
             theme_renting_landlords_A2: "Location et propriétaires",
             theme_restaurants_ordering_A2: "Restaurants et commande",
             theme_rhetoric_persuasion_C1: "Rhetoric & persuasion",
@@ -1071,7 +1072,9 @@
             verb_group_re: "3ème groupe (-re)",
             verb_group_oir: "3ème groupe (-oir)",
             verb_group_irregular: "Groupe irrégulier",
-            label_past_participle: "Participe Passé"
+            label_past_participle: "Participe Passé",
+            label_v2: "V2 (Passé Simple)",
+            label_v3: "V3 (Participe Passé)"
         }
         };
     window.translations = window.translations || {};

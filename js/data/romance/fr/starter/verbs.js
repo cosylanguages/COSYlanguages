@@ -20,7 +20,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "été",
-        "group": "auxiliary"
+        "group": "auxiliary",
+        "auxiliary": "avoir"
     },
     {
         "word": "avoir",
@@ -42,7 +43,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "eu",
-        "group": "auxiliary"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "se sentir",
@@ -64,7 +66,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "senti",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "être"
     },
     {
         "word": "donner",
@@ -87,7 +90,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "donné",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "prendre",
@@ -110,7 +114,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "pris",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "obtenir",
@@ -132,7 +137,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "obtenu",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "mettre",
@@ -153,7 +159,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "mis",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "faire",
@@ -174,7 +181,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "fait",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "faire",
@@ -196,7 +204,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "fait",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "utiliser",
@@ -217,7 +226,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "utilisé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "ouvrir",
@@ -240,7 +250,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ouvert",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "fermer",
@@ -263,7 +274,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "fermé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "commencer",
@@ -286,7 +298,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "commencé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "finir",
@@ -309,7 +322,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "fini",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "aider",
@@ -330,7 +344,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "aidé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "essayer",
@@ -351,7 +366,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "essayé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "montrer",
@@ -372,7 +388,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "montré",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "trouver",
@@ -393,7 +410,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "trouvé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "garder",
@@ -414,7 +432,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "gardé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "perdre",
@@ -438,7 +457,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "perdu",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "couper",
@@ -459,7 +479,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "coupé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "tourner",
@@ -480,7 +501,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "tourné",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "apporter",
@@ -501,7 +523,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "apporté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "dire",
@@ -522,7 +545,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "dit",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "dire",
@@ -543,7 +567,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "dit",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "demander",
@@ -564,7 +589,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "demandé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "parler",
@@ -585,7 +611,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "parlé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "parler",
@@ -606,7 +633,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "parlé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "appeler",
@@ -627,7 +655,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "appelé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "écrire",
@@ -650,7 +679,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "écrit",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "lire",
@@ -673,7 +703,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "lu",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "écouter",
@@ -694,7 +725,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "écouté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "répondre",
@@ -715,7 +747,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "répondu",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "répéter",
@@ -736,7 +769,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "répété",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "aller",
@@ -757,7 +791,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "allé",
-        "group": "irregular"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "venir",
@@ -780,7 +815,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "venu",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "être"
     },
     {
         "word": "marcher",
@@ -801,7 +837,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "marché",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "conduire",
@@ -822,7 +859,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "conduit",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "voler",
@@ -843,7 +881,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "volé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "arriver",
@@ -864,7 +903,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "arrivé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "partir",
@@ -885,7 +925,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "parti",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "être"
     },
     {
         "word": "bouger",
@@ -906,7 +947,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "bougé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "revenir",
@@ -927,7 +969,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "revenu",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "être"
     },
     {
         "word": "voyager",
@@ -948,7 +991,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "voyagé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "manger",
@@ -971,7 +1015,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "mangé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "boire",
@@ -994,7 +1039,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "bu",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "dormir",
@@ -1017,7 +1063,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "dormi",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "cuisiner",
@@ -1038,7 +1085,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "cuisiné",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "nettoyer",
@@ -1059,7 +1107,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "nettoyé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "porter",
@@ -1080,7 +1129,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "porté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "laver",
@@ -1101,7 +1151,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "lavé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "acheter",
@@ -1124,7 +1175,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "acheté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "payer",
@@ -1145,7 +1197,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "payé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "dépenser",
@@ -1166,7 +1219,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "dépensé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "économiser",
@@ -1189,7 +1243,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "économisé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "travailler",
@@ -1210,7 +1265,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "travaillé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "vivre",
@@ -1233,7 +1289,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "vécu",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "penser",
@@ -1254,7 +1311,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "pensé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "savoir",
@@ -1275,7 +1333,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "su",
-        "group": "re"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "vouloir",
@@ -1297,7 +1356,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "voulu",
-        "group": "oir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "avoir besoin de",
@@ -1319,7 +1379,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "eu besoin",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "avoir"
     },
     {
         "word": "aimer",
@@ -1341,7 +1402,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "aimé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "adorer",
@@ -1362,7 +1424,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "adoré",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "détester",
@@ -1383,7 +1446,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "détesté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "espérer",
@@ -1404,7 +1468,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "espéré",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "se souvenir",
@@ -1425,7 +1490,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "souvenu",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "être"
     },
     {
         "word": "oublier",
@@ -1446,7 +1512,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "oublié",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "comprendre",
@@ -1467,7 +1534,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "compris",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "décider",
@@ -1488,7 +1556,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "décidé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "apprécier",
@@ -1509,7 +1578,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "apprécié",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "voir",
@@ -1530,7 +1600,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "vu",
-        "group": "oir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "entendre",
@@ -1551,7 +1622,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "entendu",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "se réveiller",
@@ -1574,7 +1646,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "réveillé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "regarder",
@@ -1595,7 +1668,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "regardé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "regarder",
@@ -1616,7 +1690,8 @@
         "classification": "regular",
         "aspect": "both",
         "v3": "regardé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "jouer",
@@ -1637,7 +1712,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "joué",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "courir",
@@ -1658,7 +1734,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "couru",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "s asseoir",
@@ -1681,7 +1758,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "assis",
-        "group": "re"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "se tenir debout",
@@ -1704,7 +1782,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "tenu debout",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "rencontrer",
@@ -1725,7 +1804,8 @@
         "aspect": "action",
         "v3": "rencontré",
         "subtext": "rencontrer quelqu un / rencontrer pour le déjeuner",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "apprendre",
@@ -1746,7 +1826,8 @@
         "classification": "both",
         "aspect": "action",
         "v3": "appris",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "changer",
@@ -1767,7 +1848,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "changé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "arrêter",
@@ -1788,7 +1870,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "arrêté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "ajouter",
@@ -1809,7 +1892,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ajouté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "gagner",
@@ -1831,7 +1915,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "gagné",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "attendre",
@@ -1852,7 +1937,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "attendu",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "mourir",
@@ -1874,7 +1960,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "mort",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "être"
     },
     {
         "word": "envoyer",
@@ -1895,7 +1982,8 @@
         "aspect": "action",
         "v3": "envoyé",
         "subtext": "envoyer / envoyer un email / envoyer un message",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "rester",
@@ -1916,7 +2004,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "resté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "tomber",
@@ -1937,7 +2026,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "tombé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "passer",
@@ -1958,7 +2048,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "passé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "vendre",
@@ -1980,7 +2071,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "vendu",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "tirer",
@@ -2002,7 +2094,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "tiré",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "pousser",
@@ -2025,7 +2118,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "poussé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "porter",
@@ -2046,7 +2140,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "porté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "casser",
@@ -2067,7 +2162,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "cassé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "recevoir",
@@ -2088,7 +2184,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "reçu",
-        "group": "oir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "être d accord",
@@ -2109,7 +2206,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "été d accord",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "avoir"
     },
     {
         "word": "dessiner",
@@ -2130,7 +2228,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "dessiné",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "partager",
@@ -2151,7 +2250,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "partagé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "sourire",
@@ -2174,7 +2274,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "souri",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "pleurer",
@@ -2197,7 +2298,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "pleuré",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "danser",
@@ -2218,7 +2320,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "dansé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "chanter",
@@ -2239,7 +2342,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "chanté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "sauter",
@@ -2260,7 +2364,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "sauté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "nager",
@@ -2281,7 +2386,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "nagé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "étudier",
@@ -2302,7 +2408,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "étudié",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "enseigner",
@@ -2323,7 +2430,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "enseigné",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "faire le trajet",
@@ -2343,7 +2451,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "fait le trajet",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "avoir"
     },
     {
         "word": "louer",
@@ -2363,7 +2472,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "loué",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "s exercer",
@@ -2383,7 +2493,8 @@
         "aspect": "action",
         "v3": "exercé",
         "subtext": "s exercer / s exercer régulièrement / s exercer à la gym",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "coûter",
@@ -2403,7 +2514,8 @@
         "aspect": "stative",
         "v3": "coûté",
         "subtext": "coûter / coûter cher / coûter de l argent",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "inviter",
@@ -2423,7 +2535,8 @@
         "aspect": "action",
         "v3": "invité",
         "subtext": "inviter / inviter quelqu un / inviter à dîner",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "se lever",
@@ -2443,7 +2556,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "prendre le petit-déjeuner",
@@ -2463,7 +2577,8 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "locution"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "revenir",
@@ -2483,7 +2598,8 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "être"
     },
     {
         "word": "se coucher",
@@ -2503,7 +2619,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "vérifier",
@@ -2523,7 +2640,8 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "répondre",
@@ -2543,7 +2661,8 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "présenter",
@@ -2563,7 +2682,8 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "assister à",
@@ -2583,7 +2703,8 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "gérer",
@@ -2603,7 +2724,8 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "facturer",
@@ -2623,7 +2745,8 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "avoir les moyens",
@@ -2643,7 +2766,8 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "avoir"
     },
     {
         "word": "devoir",
@@ -2663,7 +2787,8 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "oir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "gagner",
@@ -2683,7 +2808,8 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "visiter",
@@ -2703,7 +2829,8 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "fêter",
@@ -2723,7 +2850,8 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "recommander",
@@ -2743,7 +2871,8 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "faire mal",
@@ -2763,7 +2892,8 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "avoir"
     },
     {
         "word": "se reposer",
@@ -2783,7 +2913,8 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "se rétablir",
@@ -2803,7 +2934,8 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "être"
     },
     {
         "word": "réserver",
@@ -2823,7 +2955,8 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "faire sa valise",
@@ -2843,7 +2976,8 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "avoir"
     },
     {
         "word": "annuler",
@@ -2863,7 +2997,8 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "manquer",
@@ -2883,7 +3018,8 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "commander",
@@ -2903,7 +3039,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "commandé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "expliquer",
@@ -2923,7 +3060,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "expliqué",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "remercier",
@@ -2943,7 +3081,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "remercié",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "présenter",
@@ -2963,7 +3102,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "présenté",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "se détendre",
@@ -2983,7 +3123,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "détendu",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "être"
     },
     {
         "word": "réparer",
@@ -3003,7 +3144,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "réparé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "se passer",
@@ -3023,7 +3165,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "passé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "être"
     },
     {
         "word": "sembler",
@@ -3043,7 +3186,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "semblé",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "vouloir dire",
@@ -3063,7 +3207,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "voulu dire",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "avoir"
     },
     {
         "word": "suivre",
@@ -3083,7 +3228,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "suivi",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "continuer",
@@ -3103,7 +3249,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "continué",
-        "group": "er"
+        "group": "er",
+        "auxiliary": "avoir"
     },
     {
         "word": "croître",
@@ -3123,7 +3270,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "crû",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "inclure",
@@ -3143,7 +3291,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "inclus",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     },
     {
         "word": "devenir",
@@ -3163,7 +3312,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "devenu",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "être"
     },
     {
         "word": "appartenir",
@@ -3183,7 +3333,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "appartenu",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "choisir",
@@ -3203,7 +3354,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "choisi",
-        "group": "ir"
+        "group": "ir",
+        "auxiliary": "avoir"
     },
     {
         "word": "construire",
@@ -3223,7 +3375,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "construit",
-        "group": "re"
+        "group": "re",
+        "auxiliary": "avoir"
     }
 ];
     const lang = "fr";

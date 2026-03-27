@@ -667,6 +667,8 @@
             theme_grammar_past_simple: "Αόριστος 📜",
             theme_grammar_plurals: "Ενικός & Πληθυντικός ↔️",
             theme_grammar_present_simple: "Ενεστώτας 🕒",
+            theme_grammar_auxiliary: "Βοηθητικά ρήματα ⚖️",
+            theme_grammar_stative_action: "Ενέργεια vs. Κατάσταση 💡",
             theme_grammar_verb_forms: "Verb Forms (V1, V2, V3) 🕒",
             theme_greetings_social_phrases_A1: "Greetings & social phrases",
             theme_health: "Health & Body 🏥",
@@ -784,7 +786,7 @@
             theme_quantity_degree_A2: "Quantity & degree",
             theme_relationships_communication_B1: "Relationships & communication",
             theme_relationships_dating_A2: "Σχέσεις και γνωριμίες",
-            theme_relationships_family_A2: "Relationships & family",
+            theme_relationships_family_A2: "Σχέσεις & οικογένεια",
             theme_renting_landlords_A2: "Ενοικίαση και ιδιοκτήτες",
             theme_restaurants_ordering_A2: "Εστιατόρια και παραγγελίες",
             theme_rhetoric_persuasion_C1: "Rhetoric & persuasion",
@@ -1072,7 +1074,10 @@
             verb_group_b1: "Β1' Συζυγία",
             verb_group_b2: "Β2' Συζυγία",
             verb_group_a_passive: "Α' Συζυγία (Παθητική)",
-            verb_group_irregular: "Ανώμαλο ρήμα"
+            verb_group_irregular: "Ανώμαλο ρήμα",
+            label_past_participle: "Παθητική Μετοχή",
+            label_v2: "V2 (Αόριστος)",
+            label_v3: "V3 (Παθητική Μετοχή)"
          }
         };
     window.translations = window.translations || {};

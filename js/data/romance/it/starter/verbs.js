@@ -20,7 +20,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "stato",
-        "group": "essere"
+        "group": "ere",
+        "auxiliary": "essere"
     },
     {
         "word": "avere",
@@ -42,7 +43,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "avuto",
-        "group": "avere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "sentire",
@@ -64,7 +66,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "sentito",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "dare",
@@ -87,7 +90,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "dato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "prendere",
@@ -110,7 +114,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "preso",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "ottenere",
@@ -132,7 +137,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "ottenuto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "mettere",
@@ -153,7 +159,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "messo",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "fare",
@@ -174,7 +181,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "fatto",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "fare",
@@ -195,7 +203,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "fatto",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "usare",
@@ -216,7 +225,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "usato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "aprire",
@@ -239,7 +249,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "aperto",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "chiudere",
@@ -262,7 +273,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "chiuso",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "iniziare",
@@ -285,7 +297,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "iniziato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "finire",
@@ -308,7 +321,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "finito",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "aiutare",
@@ -329,7 +343,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "aiutato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "provare",
@@ -350,7 +365,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "provato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "mostrare",
@@ -371,7 +387,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "mostrato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "trovare",
@@ -392,7 +409,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "trovato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "tenere",
@@ -413,7 +431,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "tenuto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "perdere",
@@ -437,7 +456,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "perso",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "tagliare",
@@ -458,7 +478,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "tagliato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "girare",
@@ -479,7 +500,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "girato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "portare",
@@ -500,7 +522,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "portato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "dire",
@@ -521,7 +544,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "detto",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "dire",
@@ -542,7 +566,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "detto",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "chiedere",
@@ -563,7 +588,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "chiesto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "parlare",
@@ -584,7 +610,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "parlato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "parlare",
@@ -605,7 +632,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "parlato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "chiamare",
@@ -626,7 +654,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "chiamato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "scrivere",
@@ -649,7 +678,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "scritto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "leggere",
@@ -672,7 +702,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "letto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "ascoltare",
@@ -693,7 +724,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ascoltato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "rispondere",
@@ -714,7 +746,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "risposto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "ripetere",
@@ -735,7 +768,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ripetuto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "andare",
@@ -756,7 +790,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "andato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "essere"
     },
     {
         "word": "venire",
@@ -779,7 +814,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "venuto",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "essere"
     },
     {
         "word": "camminare",
@@ -800,7 +836,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "camminato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "guidare",
@@ -821,7 +858,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "guidato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "volare",
@@ -842,7 +880,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "volato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "arrivare",
@@ -863,7 +902,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "arrivato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "essere"
     },
     {
         "word": "partire",
@@ -884,7 +924,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "partito",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "essere"
     },
     {
         "word": "muovere",
@@ -905,7 +946,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "mosso",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "tornare",
@@ -926,7 +968,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "tornato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "essere"
     },
     {
         "word": "viaggiare",
@@ -947,7 +990,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "viaggiato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "mangiare",
@@ -970,7 +1014,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "mangiato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "bere",
@@ -993,7 +1038,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "bevuto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "dormire",
@@ -1016,7 +1062,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "dormito",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "cucinare",
@@ -1037,7 +1084,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "cucinato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "pulire",
@@ -1058,7 +1106,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "pulito",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "indossare",
@@ -1079,7 +1128,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "indossato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "lavare",
@@ -1100,7 +1150,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "lavato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "comprare",
@@ -1123,7 +1174,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "comprato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "pagare",
@@ -1144,7 +1196,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "pagato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "spendere",
@@ -1165,7 +1218,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "speso",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "risparmiare",
@@ -1188,7 +1242,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "risparmiato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "lavorare",
@@ -1209,7 +1264,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "lavorato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "vivere",
@@ -1232,7 +1288,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "vissuto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "pensare",
@@ -1253,7 +1310,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "pensato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "sapere",
@@ -1274,7 +1332,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "saputo",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "volere",
@@ -1296,7 +1355,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "voluto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "avere bisogno di",
@@ -1318,7 +1378,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "avuto bisogno",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "avere"
     },
     {
         "word": "piacere",
@@ -1340,7 +1401,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "piaciuto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "essere"
     },
     {
         "word": "amare",
@@ -1361,7 +1423,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "amato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "odiare",
@@ -1382,7 +1445,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "odiato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "sperare",
@@ -1403,7 +1467,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "sperato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "ricordare",
@@ -1424,7 +1489,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "ricordato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "dimenticare",
@@ -1445,7 +1511,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "dimenticato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "capire",
@@ -1466,7 +1533,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "capito",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "decidere",
@@ -1487,7 +1555,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "deciso",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "godere",
@@ -1508,7 +1577,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "goduto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "vedere",
@@ -1529,7 +1599,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "visto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "udire",
@@ -1550,7 +1621,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "udito",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "svegliarsi",
@@ -1573,7 +1645,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "svegliato",
-        "group": "are"
+        "group": "riflessivo",
+        "auxiliary": "essere"
     },
     {
         "word": "guardare",
@@ -1594,7 +1667,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "guardato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "guardare",
@@ -1615,7 +1689,8 @@
         "classification": "regular",
         "aspect": "both",
         "v3": "guardato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "giocare",
@@ -1636,7 +1711,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "giocato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "correre",
@@ -1657,7 +1733,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "corso",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "s asseoir",
@@ -1680,7 +1757,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "seduto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "stare in piedi",
@@ -1703,7 +1781,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "stato in piedi",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "essere"
     },
     {
         "word": "incontrare",
@@ -1724,7 +1803,8 @@
         "aspect": "action",
         "v3": "incontrato",
         "subtext": "incontrare qualcuno / incontrare per il pranzo",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "imparare",
@@ -1745,7 +1825,8 @@
         "classification": "both",
         "aspect": "action",
         "v3": "imparato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "cambiare",
@@ -1766,7 +1847,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "cambiato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "fermare",
@@ -1787,7 +1869,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "fermato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "aggiungere",
@@ -1808,7 +1891,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "aggiunto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "vincere",
@@ -1830,7 +1914,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "vinto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "aspettare",
@@ -1851,7 +1936,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "aspettato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "morire",
@@ -1873,7 +1959,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "morto",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "essere"
     },
     {
         "word": "inviare",
@@ -1894,7 +1981,8 @@
         "aspect": "action",
         "v3": "inviato",
         "subtext": "inviare / inviare un email / inviare un messaggio",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "restare",
@@ -1915,7 +2003,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "restato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "essere"
     },
     {
         "word": "cadere",
@@ -1936,7 +2025,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "caduto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "essere"
     },
     {
         "word": "passare",
@@ -1957,7 +2047,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "passato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "vendere",
@@ -1979,7 +2070,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "venduto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "tirare",
@@ -2001,7 +2093,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "tirato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "spingere",
@@ -2024,7 +2117,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "spinto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "trasportare",
@@ -2045,7 +2139,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "trasportato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "rompere",
@@ -2066,7 +2161,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "rotto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "ricevere",
@@ -2087,7 +2183,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ricevuto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "essere d accordo",
@@ -2108,7 +2205,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "stato d accordo",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "essere"
     },
     {
         "word": "disegnare",
@@ -2129,7 +2227,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "disegnato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "condividere",
@@ -2150,7 +2249,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "condiviso",
-        "group": "ire"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "sorridere",
@@ -2173,7 +2273,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "sorriso",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "piangere",
@@ -2196,7 +2297,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "pianto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "ballare",
@@ -2217,7 +2319,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ballato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "cantare",
@@ -2238,7 +2341,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "cantato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "saltare",
@@ -2259,7 +2363,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "saltato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "nuotare",
@@ -2280,7 +2385,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "nuotato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "studiare",
@@ -2301,7 +2407,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "studiato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "insegnare",
@@ -2322,7 +2429,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "insegnato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "fare il pendolare",
@@ -2342,7 +2450,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "fatto il pendolare",
-        "group": "locution"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "affittare",
@@ -2362,7 +2471,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "affittato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "esercitarsi",
@@ -2382,7 +2492,8 @@
         "aspect": "action",
         "v3": "esercitato",
         "subtext": "esercitarsi / esercitarsi regolarmente / esercitarsi in palestra",
-        "group": "are"
+        "group": "riflessivo",
+        "auxiliary": "essere"
     },
     {
         "word": "costare",
@@ -2402,7 +2513,8 @@
         "aspect": "stative",
         "v3": "costato",
         "subtext": "costare / costare molto / costare soldi",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "essere"
     },
     {
         "word": "invitare",
@@ -2422,7 +2534,8 @@
         "aspect": "action",
         "v3": "invitato",
         "subtext": "invitare / invitare qualcuno / invitare a cena",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "alzarsi",
@@ -2442,7 +2555,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "riflessivo",
+        "auxiliary": "essere"
     },
     {
         "word": "fare colazione",
@@ -2462,7 +2576,8 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "locution"
+        "group": "locution",
+        "auxiliary": "avere"
     },
     {
         "word": "tornare",
@@ -2482,7 +2597,8 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "essere"
     },
     {
         "word": "andare a letto",
@@ -2502,7 +2618,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "essere"
     },
     {
         "word": "controllare",
@@ -2522,7 +2639,8 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "rispondere",
@@ -2542,7 +2660,8 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "presentare",
@@ -2562,7 +2681,8 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "partecipare",
@@ -2582,7 +2702,8 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "gestire",
@@ -2602,7 +2723,8 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "addebitare",
@@ -2622,7 +2744,8 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "permettersi",
@@ -2642,7 +2765,8 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "ere"
+        "group": "riflessivo",
+        "auxiliary": "essere"
     },
     {
         "word": "dovere",
@@ -2662,7 +2786,8 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "guadagnare",
@@ -2682,7 +2807,8 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "visitare",
@@ -2702,7 +2828,8 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "festeggiare",
@@ -2722,7 +2849,8 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "consigliare",
@@ -2742,7 +2870,8 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "far male",
@@ -2762,7 +2891,8 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "riposare",
@@ -2782,7 +2912,8 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "guarire",
@@ -2802,7 +2933,8 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "essere"
     },
     {
         "word": "prenotare",
@@ -2822,7 +2954,8 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "fare le valigie",
@@ -2842,7 +2975,8 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "annullare",
@@ -2862,7 +2996,8 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "perdere",
@@ -2882,7 +3017,8 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "ordinare",
@@ -2902,7 +3038,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ordinato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "spiegare",
@@ -2922,7 +3059,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "spiegato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "ringraziare",
@@ -2942,7 +3080,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ringraziato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "presentare",
@@ -2962,7 +3101,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "presentato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "rilassarsi",
@@ -2982,7 +3122,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "rilassato",
-        "group": "are"
+        "group": "riflessivo",
+        "auxiliary": "essere"
     },
     {
         "word": "riparare",
@@ -3002,7 +3143,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "riparato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "succedere",
@@ -3022,7 +3164,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "successo",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "essere"
     },
     {
         "word": "sembrare",
@@ -3042,7 +3185,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "sembrato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "essere"
     },
     {
         "word": "significare",
@@ -3062,7 +3206,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "significato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "seguire",
@@ -3082,7 +3227,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "seguito",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     },
     {
         "word": "continuare",
@@ -3102,7 +3248,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "continuato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "avere"
     },
     {
         "word": "crescere",
@@ -3122,7 +3269,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "cresciuto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "essere"
     },
     {
         "word": "includere",
@@ -3142,7 +3290,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "incluso",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "diventare",
@@ -3162,7 +3311,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "diventato",
-        "group": "are"
+        "group": "are",
+        "auxiliary": "essere"
     },
     {
         "word": "appartenere",
@@ -3182,7 +3332,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "appartenuto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "essere"
     },
     {
         "word": "scegliere",
@@ -3202,7 +3353,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "scelto",
-        "group": "ere"
+        "group": "ere",
+        "auxiliary": "avere"
     },
     {
         "word": "costruire",
@@ -3222,7 +3374,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "costruito",
-        "group": "ire"
+        "group": "ire",
+        "auxiliary": "avere"
     }
 ];
     const lang = "it";
