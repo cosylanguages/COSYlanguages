@@ -581,66 +581,6 @@
         "v3": "developed"
     },
     {
-        "word": "support",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "emoji": "🤝",
-        "form": "verb",
-        "subtext": "support a friend, support a team",
-        "definitions": [
-            {
-                "text": "To help or encourage someone.",
-                "examples": [
-                    "My family supports my decisions."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "supported",
-        "v3": "supported"
-    },
-    {
-        "word": "apply for",
-        "level": "elementary",
-        "theme": "job_apps_interviews_A2",
-        "emoji": "📝",
-        "form": "verb",
-        "subtext": "apply for a job, apply for a visa",
-        "definitions": [
-            {
-                "text": "To make a formal request for a job.",
-                "examples": [
-                    "She applied for the manager position."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "applied for",
-        "v3": "applied for"
-    },
-    {
-        "word": "hire",
-        "level": "elementary",
-        "theme": "job_apps_interviews_A2",
-        "emoji": "🤝",
-        "form": "verb",
-        "subtext": "hire a new employee, hire a car",
-        "definitions": [
-            {
-                "text": "To give someone a job.",
-                "examples": [
-                    "The company hired two new people."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "hired",
-        "v3": "hired"
-    },
-    {
         "word": "retire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -679,66 +619,6 @@
         "aspect": "stative",
         "v2": "afforded",
         "v3": "afforded"
-    },
-    {
-        "word": "argue",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "emoji": "🗣️",
-        "form": "verb",
-        "subtext": "argue about money, have an argument",
-        "definitions": [
-            {
-                "text": "To disagree with someone in an angry way.",
-                "examples": [
-                    "They sometimes argue about money."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "argued",
-        "v3": "argued"
-    },
-    {
-        "word": "trust",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "emoji": "🤝",
-        "form": "verb",
-        "subtext": "trust someone, break someone's trust",
-        "definitions": [
-            {
-                "text": "To believe that someone is honest and reliable.",
-                "examples": [
-                    "You need to trust your partner."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "trusted",
-        "v3": "trusted"
-    },
-    {
-        "word": "compromise",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
-        "emoji": "🤝",
-        "form": "verb",
-        "subtext": "reach a compromise, willing to compromise",
-        "definitions": [
-            {
-                "text": "To accept less than you want so both sides are satisfied.",
-                "examples": [
-                    "Good relationships need compromise."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "compromised",
-        "v3": "compromised"
     },
     {
         "word": "recycle",
@@ -879,6 +759,926 @@
         "aspect": "action",
         "v2": "caught",
         "v3": "caught"
+    },
+    {
+        "word": "apply for",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "📝",
+        "form": "verb",
+        "subtext": "apply for a job / apply for a position / apply online",
+        "definitions": [
+            {
+                "text": "To make a formal written request for a job or position.",
+                "examples": [
+                    "She applied for three different management positions."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "applied for",
+        "v3": "applied for"
+    },
+    {
+        "word": "hire",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "hire someone / hire a team / hire for a role",
+        "definitions": [
+            {
+                "text": "To formally take someone on as an employee.",
+                "examples": [
+                    "The company hired fifteen new people last quarter."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "hired",
+        "v3": "hired"
+    },
+    {
+        "word": "promote",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📈",
+        "form": "verb",
+        "subtext": "promote someone / get promoted / promote from within",
+        "definitions": [
+            {
+                "text": "To move an employee to a higher position.",
+                "examples": [
+                    "He was promoted to senior manager after two years."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "promoted",
+        "v3": "promoted"
+    },
+    {
+        "word": "resign",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🚪",
+        "form": "verb",
+        "subtext": "resign from a job / resign formally / hand in your resignation",
+        "definitions": [
+            {
+                "text": "To formally leave a job by choice.",
+                "examples": [
+                    "She resigned after disagreeing with the new strategy."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "resigned",
+        "v3": "resigned"
+    },
+    {
+        "word": "dismiss",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "❌",
+        "form": "verb",
+        "subtext": "dismiss an employee / be dismissed / dismissal proceedings",
+        "definitions": [
+            {
+                "text": "To officially remove someone from their job.",
+                "examples": [
+                    "He was dismissed for repeated absence without explanation."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "dismissed",
+        "v3": "dismissed"
+    },
+    {
+        "word": "delegate",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📋",
+        "form": "verb",
+        "subtext": "delegate a task / delegate responsibility / delegate to a colleague",
+        "definitions": [
+            {
+                "text": "To give a task or responsibility to someone else.",
+                "examples": [
+                    "A good manager knows how to delegate effectively."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "delegated",
+        "v3": "delegated"
+    },
+    {
+        "word": "negotiate",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "negotiate a salary / negotiate terms / negotiate a deal",
+        "definitions": [
+            {
+                "text": "To discuss something to reach an agreement.",
+                "examples": [
+                    "She negotiated a higher salary before signing the contract."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "negotiated",
+        "v3": "negotiated"
+    },
+    {
+        "word": "evaluate",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📊",
+        "form": "verb",
+        "subtext": "evaluate performance / evaluate results / evaluate a proposal",
+        "definitions": [
+            {
+                "text": "To judge the quality or value of something.",
+                "examples": [
+                    "The manager evaluates each team member's performance annually."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "evaluated",
+        "v3": "evaluated"
+    },
+    {
+        "word": "collaborate",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👥",
+        "form": "verb",
+        "subtext": "collaborate with / collaborate on a project / work collaboratively",
+        "definitions": [
+            {
+                "text": "To work jointly with others on a shared project.",
+                "examples": [
+                    "They collaborated with a team in Berlin on the campaign."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "collaborated",
+        "v3": "collaborated"
+    },
+    {
+        "word": "schedule",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📅",
+        "form": "verb",
+        "subtext": "schedule a meeting / schedule time / schedule a call",
+        "definitions": [
+            {
+                "text": "To arrange a time for something to happen.",
+                "examples": [
+                    "Can we schedule a meeting for Thursday afternoon?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "scheduled",
+        "v3": "scheduled"
+    },
+    {
+        "word": "invest",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "📈",
+        "form": "verb",
+        "subtext": "invest money / invest in property / invest long-term",
+        "definitions": [
+            {
+                "text": "To put money into something expecting a future return.",
+                "examples": [
+                    "He invests part of his salary in an index fund every month."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "invested",
+        "v3": "invested"
+    },
+    {
+        "word": "borrow",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💸",
+        "form": "verb",
+        "subtext": "borrow money / borrow from a bank / borrow from someone",
+        "definitions": [
+            {
+                "text": "To take something with the intention of returning it.",
+                "examples": [
+                    "She borrowed money from her parents for the deposit."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "borrowed",
+        "v3": "borrowed"
+    },
+    {
+        "word": "lend",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "lend money / lend to someone / lend a hand",
+        "definitions": [
+            {
+                "text": "To give something to someone temporarily.",
+                "examples": [
+                    "The bank refused to lend him more money."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "lent",
+        "v3": "lent"
+    },
+    {
+        "word": "budget",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "📊",
+        "form": "verb",
+        "subtext": "budget for something / budget carefully / budget monthly",
+        "definitions": [
+            {
+                "text": "To plan how money will be spent.",
+                "examples": [
+                    "They budget carefully to save for a house."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "budgeted",
+        "v3": "budgeted"
+    },
+    {
+        "word": "withdraw",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "🏧",
+        "form": "verb",
+        "subtext": "withdraw cash / withdraw from an account / withdraw funds",
+        "definitions": [
+            {
+                "text": "To take money out of a bank account.",
+                "examples": [
+                    "I withdraw cash every Monday for the week."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "withdrew",
+        "v3": "withdrawn"
+    },
+    {
+        "word": "transfer",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "📲",
+        "form": "verb",
+        "subtext": "transfer money / transfer funds / bank transfer",
+        "definitions": [
+            {
+                "text": "To move money from one account to another.",
+                "examples": [
+                    "She transferred the rent to the landlord's account."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "transferred",
+        "v3": "transferred"
+    },
+    {
+        "word": "charge",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💳",
+        "form": "verb",
+        "subtext": "charge a fee / charge for a service / charge extra",
+        "definitions": [
+            {
+                "text": "To ask an amount of money for a service.",
+                "examples": [
+                    "The mechanic charged more than the estimate."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "charged",
+        "v3": "charged"
+    },
+    {
+        "word": "claim",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "📜",
+        "form": "verb",
+        "subtext": "claim insurance / claim expenses / claim a refund",
+        "definitions": [
+            {
+                "text": "To formally ask for money you are owed, especially insurance.",
+                "examples": [
+                    "He claimed on his insurance after the accident."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "claimed",
+        "v3": "claimed"
+    },
+    {
+        "word": "argue",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "subtext": "argue about / argue with someone / argue over something",
+        "definitions": [
+            {
+                "text": "To disagree with someone in an angry or forceful way.",
+                "examples": [
+                    "They often argue about money and work schedules."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "argued",
+        "v3": "argued"
+    },
+    {
+        "word": "trust",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "trust someone / trust your instincts / trust a process",
+        "definitions": [
+            {
+                "text": "To have confidence in someone's honesty and reliability.",
+                "examples": [
+                    "She trusts her business partner completely."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "trusted",
+        "v3": "trusted"
+    },
+    {
+        "word": "support",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "support someone / support a decision / offer support",
+        "definitions": [
+            {
+                "text": "To help and encourage someone through difficulties.",
+                "examples": [
+                    "He supports his partner during a difficult period at work."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "supported",
+        "v3": "supported"
+    },
+    {
+        "word": "disagree",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "👎",
+        "form": "verb",
+        "subtext": "disagree with someone / disagree on something / agree to disagree",
+        "definitions": [
+            {
+                "text": "To have a different opinion from someone.",
+                "examples": [
+                    "She respectfully disagreed with the manager's decision."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "disagreed",
+        "v3": "disagreed"
+    },
+    {
+        "word": "apologise",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "🙏",
+        "form": "verb",
+        "subtext": "apologise for / apologise to someone / sincerely apologise",
+        "definitions": [
+            {
+                "text": "To express regret for something you have done wrong.",
+                "examples": [
+                    "He apologised for missing the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "apologised",
+        "v3": "apologised"
+    },
+    {
+        "word": "forgive",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "forgive someone / forgive a mistake / hard to forgive",
+        "definitions": [
+            {
+                "text": "To stop feeling angry with someone for something they did.",
+                "examples": [
+                    "She eventually forgave him for the mistake."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "forgave",
+        "v3": "forgiven"
+    },
+    {
+        "word": "compromise",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "compromise on something / reach a compromise / be willing to compromise",
+        "definitions": [
+            {
+                "text": "To accept less than ideal in order to reach an agreement.",
+                "examples": [
+                    "They compromised on the price and signed the contract."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "compromised",
+        "v3": "compromised"
+    },
+    {
+        "word": "diagnose",
+        "level": "elementary",
+        "theme": "medical_appointments_A1",
+        "emoji": "🩺",
+        "form": "verb",
+        "subtext": "diagnose an illness / be diagnosed with / diagnose early",
+        "definitions": [
+            {
+                "text": "To identify an illness or problem after examination.",
+                "examples": [
+                    "The doctor diagnosed her with high blood pressure."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "diagnosed",
+        "v3": "diagnosed"
+    },
+    {
+        "word": "treat",
+        "level": "elementary",
+        "theme": "medical_appointments_A1",
+        "emoji": "🩹",
+        "form": "verb",
+        "subtext": "treat a patient / treat an illness / treat with medicine",
+        "definitions": [
+            {
+                "text": "To give medical care to someone who is ill or injured.",
+                "examples": [
+                    "The specialist treated his knee injury with physiotherapy."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "treated",
+        "v3": "treated"
+    },
+    {
+        "word": "prevent",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "🛡️",
+        "form": "verb",
+        "subtext": "prevent illness / prevent disease / take steps to prevent",
+        "definitions": [
+            {
+                "text": "To stop something bad from happening.",
+                "examples": [
+                    "Exercise and diet can prevent many common illnesses."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "prevented",
+        "v3": "prevented"
+    },
+    {
+        "word": "suffer",
+        "level": "elementary",
+        "theme": "human_body_A2",
+        "emoji": "🤕",
+        "form": "verb",
+        "subtext": "suffer from / suffer pain / suffer stress",
+        "definitions": [
+            {
+                "text": "To experience pain or distress.",
+                "examples": [
+                    "She suffers from chronic back pain due to desk work."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "suffered",
+        "v3": "suffered"
+    },
+    {
+        "word": "recommend",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "👍",
+        "form": "verb",
+        "subtext": "recommend treatment / recommend rest / recommend seeing a specialist",
+        "definitions": [
+            {
+                "text": "To suggest a course of action as good or suitable.",
+                "examples": [
+                    "The doctor recommended more sleep and less caffeine."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "recommended",
+        "v3": "recommended"
+    },
+    {
+        "word": "improve",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📈",
+        "form": "verb",
+        "subtext": "improve health / improve fitness / room for improvement",
+        "definitions": [
+            {
+                "text": "To get better; or to make something better.",
+                "examples": [
+                    "His health improved after changing his diet and routine."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "improved",
+        "v3": "improved"
+    },
+    {
+        "word": "rent",
+        "level": "elementary",
+        "theme": "renting_landlords_A2",
+        "emoji": "🏠",
+        "form": "verb",
+        "subtext": "rent a flat / rent a property / rent out a room",
+        "definitions": [
+            {
+                "text": "To pay regularly to use property belonging to someone else.",
+                "examples": [
+                    "They rent a two-bedroom flat near the city centre."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "rented",
+        "v3": "rented"
+    },
+    {
+        "word": "own",
+        "level": "elementary",
+        "theme": "renting_landlords_A2",
+        "emoji": "🏡",
+        "form": "verb",
+        "subtext": "own a property / own a car / own a business",
+        "definitions": [
+            {
+                "text": "To legally possess something.",
+                "examples": [
+                    "She owns a small flat in the suburbs."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "owned",
+        "v3": "owned"
+    },
+    {
+        "word": "repair",
+        "level": "elementary",
+        "theme": "home_repairs_maintenance_A2",
+        "emoji": "🛠️",
+        "form": "verb",
+        "subtext": "repair something / carry out repairs / repair costs",
+        "definitions": [
+            {
+                "text": "To fix something that is broken or not working.",
+                "examples": [
+                    "The landlord is slow to repair things in the flat."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "repaired",
+        "v3": "repaired"
+    },
+    {
+        "word": "move",
+        "level": "elementary",
+        "theme": "moving_home_A2",
+        "emoji": "📦",
+        "form": "verb",
+        "subtext": "move to a new place / move in / move out / move house",
+        "definitions": [
+            {
+                "text": "To go to live or work in a different place.",
+                "examples": [
+                    "They moved to a larger flat when their daughter was born."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "moved",
+        "v3": "moved"
+    },
+    {
+        "word": "decorate",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🎨",
+        "form": "verb",
+        "subtext": "decorate a room / redecorate / interior decoration",
+        "definitions": [
+            {
+                "text": "To make a place more attractive, especially by painting.",
+                "examples": [
+                    "They decorated the flat before moving in."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "decorated",
+        "v3": "decorated"
+    },
+    {
+        "word": "set up",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🏗️",
+        "form": "verb",
+        "subtext": "set up a business / set up a meeting / set up an account",
+        "definitions": [
+            {
+                "text": "To start or establish something.",
+                "examples": [
+                    "He set up his own consulting business at the age of thirty."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "set up",
+        "v3": "set up"
+    },
+    {
+        "word": "find out",
+        "level": "elementary",
+        "theme": "news_media_A2",
+        "emoji": "🔎",
+        "form": "verb",
+        "subtext": "find out about / find out the truth / find out later",
+        "definitions": [
+            {
+                "text": "To discover or learn information.",
+                "examples": [
+                    "She found out that the rent was going to increase."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "found out",
+        "v3": "found out"
+    },
+    {
+        "word": "carry on",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⏩",
+        "form": "verb",
+        "subtext": "carry on working / carry on regardless / carry on with something",
+        "definitions": [
+            {
+                "text": "To continue doing something.",
+                "examples": [
+                    "He carried on working despite feeling ill."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "carried on",
+        "v3": "carried on"
+    },
+    {
+        "word": "give up",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🏳️",
+        "form": "verb",
+        "subtext": "give up a job / give up smoking / give up trying",
+        "definitions": [
+            {
+                "text": "To stop trying to do something; to quit.",
+                "examples": [
+                    "She gave up her job to start her own company."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "gave up",
+        "v3": "given up"
+    },
+    {
+        "word": "sort out",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🔧",
+        "form": "verb",
+        "subtext": "sort out a problem / sort out a situation / sort something out",
+        "definitions": [
+            {
+                "text": "To resolve a problem or deal with something.",
+                "examples": [
+                    "Can you sort out the problem with the contract?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "sorted out",
+        "v3": "sorted out"
+    },
+    {
+        "word": "look after",
+        "level": "elementary",
+        "theme": "family_life_A1",
+        "emoji": "👶",
+        "form": "verb",
+        "subtext": "look after someone / look after yourself / look after a child",
+        "definitions": [
+            {
+                "text": "To take care of someone or something.",
+                "examples": [
+                    "He looks after his elderly mother at weekends."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "looked after",
+        "v3": "looked after"
+    },
+    {
+        "word": "cut down on",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "📉",
+        "form": "verb",
+        "subtext": "cut down on spending / cut down on sugar / cut costs",
+        "definitions": [
+            {
+                "text": "To reduce the amount of something you do or consume.",
+                "examples": [
+                    "She cut down on caffeine to improve her sleep."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "cut down on",
+        "v3": "cut down on"
+    },
+    {
+        "word": "take on",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "💪",
+        "form": "verb",
+        "subtext": "take on responsibility / take on extra work / take on a project",
+        "definitions": [
+            {
+                "text": "To accept a responsibility or piece of work.",
+                "examples": [
+                    "He took on a second job to pay off the mortgage faster."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "took on",
+        "v3": "taken on"
+    },
+    {
+        "word": "turn down",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "👎",
+        "form": "verb",
+        "subtext": "turn down an offer / turn down a job / turn down a request",
+        "definitions": [
+            {
+                "text": "To refuse an offer or request.",
+                "examples": [
+                    "She turned down the job because the salary was too low."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "turned down",
+        "v3": "turned down"
+    },
+    {
+        "word": "put off",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⏳",
+        "form": "verb",
+        "subtext": "put off a meeting / put off a decision / stop putting things off",
+        "definitions": [
+            {
+                "text": "To postpone something to a later time.",
+                "examples": [
+                    "He keeps putting off the conversation about his salary."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "put off",
+        "v3": "put off"
     }
 ];
     const lang = "en";
