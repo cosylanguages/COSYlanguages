@@ -668,6 +668,8 @@
             theme_grammar_past_simple: "Прошлое простое время 📜",
             theme_grammar_plurals: "Единственное и множественное число ↔️",
             theme_grammar_present_simple: "Настоящее простое время 🕒",
+            theme_grammar_auxiliary: "Вспомогательные глаголы ⚖️",
+            theme_grammar_stative_action: "Состояние vs. Действие 💡",
             theme_grammar_verb_forms: "Формы глагола (V1, V2, V3) 🕒",
             theme_greetings_social_phrases_A1: "Greetings & social phrases",
             theme_health: "Здоровье и тело 🏥",
@@ -1067,7 +1069,10 @@
             verb_group_1st_conj: "1-е спряжение",
             verb_group_2nd_conj: "2-е спряжение",
             verb_group_mixed_conj: "Смешанное спряжение",
-            verb_group_irregular: "Иррегулярный глагол"
+            verb_group_irregular: "Иррегулярный глагол",
+            label_past_participle: "Прош. время (жен.р.)",
+            label_v2: "Прош. время (муж.р.)",
+            label_v3: "Прош. время (жен.р.)"
          }
         };
     window.translations = window.translations || {};

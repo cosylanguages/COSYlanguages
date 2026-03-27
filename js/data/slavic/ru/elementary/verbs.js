@@ -18,7 +18,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "чистил зубы",
-        "v3": "чистила зубы"
+        "v3": "чистила зубы",
+        "group": "1st_conj"
     },
     {
         "word": "принимать душ",
@@ -38,7 +39,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "принимал душ",
-        "v3": "принимала душ"
+        "v3": "принимала душ",
+        "group": "1st_conj"
     },
     {
         "word": "казаться",
@@ -58,7 +60,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "казался",
-        "v3": "казалась"
+        "v3": "казалась",
+        "group": "1st_conj"
     },
     {
         "word": "становиться",
@@ -78,7 +81,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "стал",
-        "v3": "стала"
+        "v3": "стала",
+        "group": "1st_conj"
     },
     {
         "word": "верить",
@@ -98,7 +102,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "верил",
-        "v3": "верила"
+        "v3": "верила",
+        "group": "2nd_conj"
     },
     {
         "word": "случаться",
@@ -118,7 +123,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "случился",
-        "v3": "случилась"
+        "v3": "случилась",
+        "group": "1st_conj"
     },
     {
         "word": "включать",
@@ -138,7 +144,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "включал",
-        "v3": "включала"
+        "v3": "включала",
+        "group": "1st_conj"
     },
     {
         "word": "продолжать",
@@ -158,7 +165,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "продолжал",
-        "v3": "продолжала"
+        "v3": "продолжала",
+        "group": "1st_conj"
     },
     {
         "word": "устанавливать",
@@ -178,7 +186,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "установил",
-        "v3": "установила"
+        "v3": "установила",
+        "group": "1st_conj"
     },
     {
         "word": "вести",
@@ -198,7 +207,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "вел",
-        "v3": "вела"
+        "v3": "вела",
+        "group": "1st_conj"
     },
     {
         "word": "следовать",
@@ -218,7 +228,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "следовал",
-        "v3": "следовала"
+        "v3": "следовала",
+        "group": "1st_conj"
     },
     {
         "word": "создавать",
@@ -238,7 +249,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "создал",
-        "v3": "создала"
+        "v3": "создала",
+        "group": "1st_conj"
     },
     {
         "word": "разрешать",
@@ -258,7 +270,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "разрешил",
-        "v3": "разрешила"
+        "v3": "разрешила",
+        "group": "1st_conj"
     },
     {
         "word": "расти",
@@ -278,7 +291,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "рос",
-        "v3": "росла"
+        "v3": "росла",
+        "group": "1st_conj"
     },
     {
         "word": "предлагать",
@@ -298,7 +312,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "предложил",
-        "v3": "предложила"
+        "v3": "предложила",
+        "group": "1st_conj"
     },
     {
         "word": "рассматривать",
@@ -318,7 +333,8 @@
         "classification": "regular",
         "aspect": "both",
         "v2": "рассматривал",
-        "v3": "рассматривала"
+        "v3": "рассматривала",
+        "group": "1st_conj"
     },
     {
         "word": "появляться",
@@ -338,7 +354,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "появился",
-        "v3": "появилась"
+        "v3": "появилась",
+        "group": "1st_conj"
     },
     {
         "word": "служить",
@@ -358,7 +375,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "служил",
-        "v3": "служила"
+        "v3": "служила",
+        "group": "2nd_conj"
     },
     {
         "word": "ожидать",
@@ -378,7 +396,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "ожидал",
-        "v3": "ожидала"
+        "v3": "ожидала",
+        "group": "1st_conj"
     },
     {
         "word": "строить",
@@ -398,7 +417,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "строил",
-        "v3": "строила"
+        "v3": "строила",
+        "group": "2nd_conj"
     },
     {
         "word": "достигать",
@@ -418,7 +438,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "достиг",
-        "v3": "достигла"
+        "v3": "достигла",
+        "group": "1st_conj"
     },
     {
         "word": "убивать",
@@ -438,7 +459,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "убил",
-        "v3": "убила"
+        "v3": "убила",
+        "group": "1st_conj"
     },
     {
         "word": "оставаться",
@@ -458,7 +480,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "оставался",
-        "v3": "оставалась"
+        "v3": "оставалась",
+        "group": "1st_conj"
     },
     {
         "word": "предлагать",
@@ -478,7 +501,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "предложил",
-        "v3": "предложила"
+        "v3": "предложила",
+        "group": "1st_conj"
     },
     {
         "word": "поднимать",
@@ -498,7 +522,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "поднял",
-        "v3": "подняла"
+        "v3": "подняла",
+        "group": "1st_conj"
     },
     {
         "word": "требовать",
@@ -518,7 +543,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "требовал",
-        "v3": "требовала"
+        "v3": "требовала",
+        "group": "1st_conj"
     },
     {
         "word": "сообщать",
@@ -538,7 +564,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "сообщил",
-        "v3": "сообщила"
+        "v3": "сообщила",
+        "group": "1st_conj"
     },
     {
         "word": "объяснять",
@@ -558,7 +585,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "объяснил",
-        "v3": "объяснила"
+        "v3": "объяснила",
+        "group": "1st_conj"
     },
     {
         "word": "развивать",
@@ -578,7 +606,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "развивал",
-        "v3": "развивала"
+        "v3": "развивала",
+        "group": "1st_conj"
     },
     {
         "word": "уходить на пенсию",
@@ -598,7 +627,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "ушел на пенсию",
-        "v3": "ушла на пенсию"
+        "v3": "ушла на пенсию",
+        "group": "1st_conj"
     },
     {
         "word": "позволить себе",
@@ -618,7 +648,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "позволил себе",
-        "v3": "позволила себе"
+        "v3": "позволила себе",
+        "group": "1st_conj"
     },
     {
         "word": "перерабатывать",
@@ -638,7 +669,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "перерабатывал",
-        "v3": "перерабатывала"
+        "v3": "перерабатывала",
+        "group": "1st_conj"
     },
     {
         "word": "ударить",
@@ -658,7 +690,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "ударил",
-        "v3": "ударила"
+        "v3": "ударила",
+        "group": "2nd_conj"
     },
     {
         "word": "производить",
@@ -678,7 +711,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "производил",
-        "v3": "производила"
+        "v3": "производила",
+        "group": "2nd_conj"
     },
     {
         "word": "сталкиваться",
@@ -698,7 +732,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "столкнулся",
-        "v3": "столкнулась"
+        "v3": "столкнулась",
+        "group": "1st_conj"
     },
     {
         "word": "покрывать",
@@ -718,7 +753,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "покрывал",
-        "v3": "покрывала"
+        "v3": "покрывала",
+        "group": "1st_conj"
     },
     {
         "word": "описывать",
@@ -738,7 +774,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "описывал",
-        "v3": "описывала"
+        "v3": "описывала",
+        "group": "1st_conj"
     },
     {
         "word": "ловить",
@@ -758,7 +795,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "ловил",
-        "v3": "ловила"
+        "v3": "ловила",
+        "group": "2nd_conj"
     },
     {
         "word": "подавать заявление на",
@@ -778,7 +816,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "подал заявление",
-        "v3": "подала заявление"
+        "v3": "подала заявление",
+        "group": "1st_conj"
     },
     {
         "word": "нанимать",
@@ -798,7 +837,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "нанял",
-        "v3": "наняла"
+        "v3": "наняла",
+        "group": "1st_conj"
     },
     {
         "word": "повышать в должности",
@@ -818,7 +858,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "повысил",
-        "v3": "повысила"
+        "v3": "повысила",
+        "group": "1st_conj"
     },
     {
         "word": "увольняться",
@@ -838,7 +879,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "уволился",
-        "v3": "уволилась"
+        "v3": "уволилась",
+        "group": "1st_conj"
     },
     {
         "word": "увольнять",
@@ -858,7 +900,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "уволил",
-        "v3": "уволила"
+        "v3": "уволила",
+        "group": "1st_conj"
     },
     {
         "word": "делегировать",
@@ -878,7 +921,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "делегировал",
-        "v3": "делегировала"
+        "v3": "делегировала",
+        "group": "1st_conj"
     },
     {
         "word": "вести переговоры",
@@ -898,7 +942,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "вел переговоры",
-        "v3": "вела переговоры"
+        "v3": "вела переговоры",
+        "group": "1st_conj"
     },
     {
         "word": "оценивать",
@@ -918,7 +963,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "оценивал",
-        "v3": "оценивала"
+        "v3": "оценивала",
+        "group": "1st_conj"
     },
     {
         "word": "сотрудничать",
@@ -938,7 +984,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "сотрудничал",
-        "v3": "сотрудничала"
+        "v3": "сотрудничала",
+        "group": "1st_conj"
     },
     {
         "word": "планировать",
@@ -958,7 +1005,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "планировал",
-        "v3": "планировала"
+        "v3": "планировала",
+        "group": "1st_conj"
     },
     {
         "word": "инвестировать",
@@ -978,7 +1026,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "инвестировал",
-        "v3": "инвестировала"
+        "v3": "инвестировала",
+        "group": "1st_conj"
     },
     {
         "word": "занимать",
@@ -998,7 +1047,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "занимал",
-        "v3": "занимала"
+        "v3": "занимала",
+        "group": "1st_conj"
     },
     {
         "word": "давать в долг",
@@ -1018,7 +1068,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "давал в долг",
-        "v3": "давала в долг"
+        "v3": "давала в долг",
+        "group": "1st_conj"
     },
     {
         "word": "планировать бюджет",
@@ -1038,7 +1089,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "планировал бюджет",
-        "v3": "планировала бюджет"
+        "v3": "планировала бюджет",
+        "group": "1st_conj"
     },
     {
         "word": "снимать деньги",
@@ -1058,7 +1110,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "снимал деньги",
-        "v3": "снимала деньги"
+        "v3": "снимала деньги",
+        "group": "1st_conj"
     },
     {
         "word": "переводить",
@@ -1078,7 +1131,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "переводил",
-        "v3": "переводила"
+        "v3": "переводила",
+        "group": "2nd_conj"
     },
     {
         "word": "назначать цену",
@@ -1098,7 +1152,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "назначил цену",
-        "v3": "назначила цену"
+        "v3": "назначила цену",
+        "group": "1st_conj"
     },
     {
         "word": "требовать",
@@ -1118,7 +1173,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "требовал",
-        "v3": "требовала"
+        "v3": "требовала",
+        "group": "1st_conj"
     },
     {
         "word": "спорить",
@@ -1138,7 +1194,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "спорил",
-        "v3": "спорила"
+        "v3": "спорила",
+        "group": "2nd_conj"
     },
     {
         "word": "доверять",
@@ -1158,7 +1215,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "доверял",
-        "v3": "доверяла"
+        "v3": "доверяла",
+        "group": "1st_conj"
     },
     {
         "word": "поддерживать",
@@ -1178,7 +1236,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "поддерживал",
-        "v3": "поддерживала"
+        "v3": "поддерживала",
+        "group": "1st_conj"
     },
     {
         "word": "не соглашаться",
@@ -1198,7 +1257,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "не согласился",
-        "v3": "не согласилась"
+        "v3": "не согласилась",
+        "group": "1st_conj"
     },
     {
         "word": "извиняться",
@@ -1218,7 +1278,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "извинялся",
-        "v3": "извинялась"
+        "v3": "извинялась",
+        "group": "1st_conj"
     },
     {
         "word": "прощать",
@@ -1238,7 +1299,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "простил",
-        "v3": "простила"
+        "v3": "простила",
+        "group": "1st_conj"
     },
     {
         "word": "идти на компромисс",
@@ -1258,7 +1320,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "пошел на компромисс",
-        "v3": "пошла на компромисс"
+        "v3": "пошла на компромисс",
+        "group": "1st_conj"
     },
     {
         "word": "диагностировать",
@@ -1278,7 +1341,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "диагностировал",
-        "v3": "диагностировала"
+        "v3": "диагностировала",
+        "group": "1st_conj"
     },
     {
         "word": "лечить",
@@ -1298,7 +1362,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "лечил",
-        "v3": "лечила"
+        "v3": "лечила",
+        "group": "2nd_conj"
     },
     {
         "word": "предотвращать",
@@ -1318,7 +1383,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "предотвращал",
-        "v3": "предотвращала"
+        "v3": "предотвращала",
+        "group": "1st_conj"
     },
     {
         "word": "страдать",
@@ -1338,7 +1404,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "страдал",
-        "v3": "страдала"
+        "v3": "страдала",
+        "group": "1st_conj"
     },
     {
         "word": "рекомендовать",
@@ -1358,7 +1425,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "рекомендовал",
-        "v3": "рекомендовала"
+        "v3": "рекомендовала",
+        "group": "1st_conj"
     },
     {
         "word": "улучшать",
@@ -1378,7 +1446,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "улучшал",
-        "v3": "улучшала"
+        "v3": "улучшала",
+        "group": "1st_conj"
     },
     {
         "word": "арендовать",
@@ -1398,7 +1467,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "арендовал",
-        "v3": "арендовала"
+        "v3": "арендовала",
+        "group": "1st_conj"
     },
     {
         "word": "владеть",
@@ -1418,7 +1488,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "владел",
-        "v3": "владела"
+        "v3": "владела",
+        "group": "1st_conj"
     },
     {
         "word": "ремонтировать",
@@ -1438,7 +1509,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "ремонтировал",
-        "v3": "ремонтировала"
+        "v3": "ремонтировала",
+        "group": "1st_conj"
     },
     {
         "word": "переезжать",
@@ -1458,7 +1530,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "переехал",
-        "v3": "переехала"
+        "v3": "переехала",
+        "group": "1st_conj"
     },
     {
         "word": "украшать",
@@ -1478,7 +1551,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "украшал",
-        "v3": "украшала"
+        "v3": "украшала",
+        "group": "1st_conj"
     },
     {
         "word": "основывать",
@@ -1498,7 +1572,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "основал",
-        "v3": "основала"
+        "v3": "основала",
+        "group": "1st_conj"
     },
     {
         "word": "выяснять",
@@ -1518,7 +1593,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "выяснил",
-        "v3": "выяснила"
+        "v3": "выяснила",
+        "group": "1st_conj"
     },
     {
         "word": "продолжать",
@@ -1538,7 +1614,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "продолжал",
-        "v3": "продолжала"
+        "v3": "продолжала",
+        "group": "1st_conj"
     },
     {
         "word": "сдаваться",
@@ -1558,7 +1635,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "сдался",
-        "v3": "сдалась"
+        "v3": "сдалась",
+        "group": "1st_conj"
     },
     {
         "word": "улаживать",
@@ -1578,7 +1656,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "уладил",
-        "v3": "уладила"
+        "v3": "уладила",
+        "group": "1st_conj"
     },
     {
         "word": "присматривать за",
@@ -1598,7 +1677,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "присматривал",
-        "v3": "присматривала"
+        "v3": "присматривала",
+        "group": "1st_conj"
     },
     {
         "word": "сокращать",
@@ -1618,7 +1698,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "сократил",
-        "v3": "сократила"
+        "v3": "сократила",
+        "group": "1st_conj"
     },
     {
         "word": "брать на себя",
@@ -1638,7 +1719,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "взял на себя",
-        "v3": "взяла на себя"
+        "v3": "взяла на себя",
+        "group": "1st_conj"
     },
     {
         "word": "отклонять",
@@ -1658,7 +1740,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "отклонил",
-        "v3": "отклонила"
+        "v3": "отклонила",
+        "group": "1st_conj"
     },
     {
         "word": "откладывать",
@@ -1678,7 +1761,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "откладывал",
-        "v3": "откладывала"
+        "v3": "откладывала",
+        "group": "1st_conj"
     },
     {
         "word": "быть должным",
@@ -1698,7 +1782,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v2": "был должен",
-        "v3": "была должна"
+        "v3": "была должна",
+        "group": "1st_conj"
     },
     {
         "word": "приглашать",
@@ -1718,7 +1803,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "пригласил",
-        "v3": "пригласила"
+        "v3": "пригласила",
+        "group": "1st_conj"
     },
     {
         "word": "подтверждать",
@@ -1738,7 +1824,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "подтвердил",
-        "v3": "подтвердила"
+        "v3": "подтвердила",
+        "group": "1st_conj"
     },
     {
         "word": "связываться",
@@ -1758,7 +1845,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "связался",
-        "v3": "связалась"
+        "v3": "связалась",
+        "group": "1st_conj"
     },
     {
         "word": "жаловаться",
@@ -1778,7 +1866,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "жаловался",
-        "v3": "жаловалась"
+        "v3": "жаловалась",
+        "group": "1st_conj"
     },
     {
         "word": "обсуждать",
@@ -1798,7 +1887,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "обсуждал",
-        "v3": "обсуждала"
+        "v3": "обсуждала",
+        "group": "1st_conj"
     },
     {
         "word": "представлять",
@@ -1818,7 +1908,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "представлял",
-        "v3": "представляла"
+        "v3": "представляла",
+        "group": "1st_conj"
     },
     {
         "word": "принимать",
@@ -1838,7 +1929,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "принял",
-        "v3": "приняла"
+        "v3": "приняла",
+        "group": "1st_conj"
     },
     {
         "word": "отказываться",
@@ -1858,7 +1950,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "отказался",
-        "v3": "отказалась"
+        "v3": "отказалась",
+        "group": "1st_conj"
     },
     {
         "word": "худеть",
@@ -1878,7 +1971,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "худел",
-        "v3": "худела"
+        "v3": "худела",
+        "group": "1st_conj"
     },
     {
         "word": "увеличивать",
@@ -1898,7 +1992,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "увеличивал",
-        "v3": "увеличивала"
+        "v3": "увеличивала",
+        "group": "1st_conj"
     },
     {
         "word": "уменьшать",
@@ -1918,7 +2013,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "уменьшал",
-        "v3": "уменьшала"
+        "v3": "уменьшала",
+        "group": "1st_conj"
     },
     {
         "word": "улучшать навыки",
@@ -1938,7 +2034,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "улучшал навыки",
-        "v3": "улучшала навыки"
+        "v3": "улучшала навыки",
+        "group": "1st_conj"
     },
     {
         "word": "предоставлять",
@@ -1958,7 +2055,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "предоставил",
-        "v3": "предоставила"
+        "v3": "предоставила",
+        "group": "1st_conj"
     },
     {
         "word": "решать",
@@ -1978,7 +2076,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "решил",
-        "v3": "решила"
+        "v3": "решила",
+        "group": "1st_conj"
     },
     {
         "word": "делиться",
@@ -1998,7 +2097,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "делился",
-        "v3": "делилась"
+        "v3": "делилась",
+        "group": "1st_conj"
     },
     {
         "word": "присоединяться",
@@ -2018,7 +2118,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "присоединился",
-        "v3": "присоединилась"
+        "v3": "присоединилась",
+        "group": "1st_conj"
     },
     {
         "word": "получать",
@@ -2038,7 +2139,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "получил",
-        "v3": "получила"
+        "v3": "получила",
+        "group": "1st_conj"
     },
     {
         "word": "содержать",
@@ -2058,7 +2160,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "содержал",
-        "v3": "содержала"
+        "v3": "содержала",
+        "group": "1st_conj"
     },
     {
         "word": "планировать",
@@ -2078,7 +2181,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "планировал",
-        "v3": "планировала"
+        "v3": "планировала",
+        "group": "1st_conj"
     },
     {
         "word": "готовиться",
@@ -2098,7 +2202,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "готовился",
-        "v3": "готовилась"
+        "v3": "готовилась",
+        "group": "1st_conj"
     },
     {
         "word": "потерпеть неудачу",
@@ -2118,7 +2223,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "потерпел неудачу",
-        "v3": "потерпела неудачу"
+        "v3": "потерпела неудачу",
+        "group": "1st_conj"
     },
     {
         "word": "преуспевать",
@@ -2138,7 +2244,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "преуспевал",
-        "v3": "преуспевала"
+        "v3": "преуспевала",
+        "group": "1st_conj"
     },
     {
         "word": "соглашаться",
@@ -2158,7 +2265,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "согласился",
-        "v3": "согласилась"
+        "v3": "согласилась",
+        "group": "1st_conj"
     },
     {
         "word": "заменять",
@@ -2178,7 +2286,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "заменил",
-        "v3": "заменила"
+        "v3": "заменила",
+        "group": "1st_conj"
     },
     {
         "word": "искать",
@@ -2198,7 +2307,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "искал",
-        "v3": "искала"
+        "v3": "искала",
+        "group": "1st_conj"
     },
     {
         "word": "выходить из системы",
@@ -2218,7 +2328,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "вышел из системы",
-        "v3": "вышла из системы"
+        "v3": "вышла из системы",
+        "group": "1st_conj"
     }
 ];
     const lang = "ru";

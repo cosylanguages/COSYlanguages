@@ -91,7 +91,6 @@ function populatePracticeThemes(categoryId) {
     const lang = currentPractice.language || 'en';
     const selectedLevel = levelSelect.value;
 
-    // Defensive check for translations object
     if (typeof translations === 'undefined') {
         console.warn("Translations object not found");
         return;
@@ -104,7 +103,6 @@ function populatePracticeThemes(categoryId) {
     if (subThemeSelect) subThemeSelect.innerHTML = '';
     if (subThemeGroup) subThemeGroup.style.display = 'none';
 
-    // Add "All Themes"
     const allOpt = document.createElement('option');
     allOpt.value = 'all';
     allOpt.textContent = t['theme_all'] || 'All Themes';
@@ -114,22 +112,27 @@ function populatePracticeThemes(categoryId) {
     let themes = [];
 
     if (categoryId === 'grammar') {
-        themes = [
+        const baseThemes = [
             { value: 'grammar_plurals', key: 'theme_grammar_plurals' },
             { value: 'grammar_present_simple', key: 'theme_grammar_present_simple' },
             { value: 'grammar_future_simple', key: 'theme_grammar_future_simple' },
             { value: 'grammar_past_simple', key: 'theme_grammar_past_simple' },
-            { value: 'grammar_gender', key: 'theme_grammar_gender' }
+            { value: 'grammar_gender', key: 'theme_grammar_gender' },
+            { value: 'grammar_verb_forms', key: 'theme_grammar_verb_forms' }
         ];
 
-        themes.push({ value: 'grammar_verb_forms', key: 'theme_grammar_verb_forms' });
         if (lang === 'en') {
-            themes = themes.filter(th => th.value === 'grammar_plurals' || th.value === 'grammar_verb_forms');
+            themes = baseThemes.filter(th => th.value !== 'grammar_gender' && th.value !== 'grammar_future_simple');
+            themes.push({ value: 'grammar_stative_action', key: 'theme_grammar_stative_action' });
+        } else if (lang === 'fr' || lang === 'it') {
+            themes = [...baseThemes];
+            themes.push({ value: 'grammar_auxiliary', key: 'theme_grammar_auxiliary' });
+        } else {
+            themes = baseThemes;
         }
     } else if (categoryId === 'speaking') {
         const sd = speakingData[lang] || {};
         const availableThemes = new Set();
-
         for (const list of Object.values(sd)) {
             if (Array.isArray(list)) {
                 list.forEach(item => {
@@ -139,12 +142,10 @@ function populatePracticeThemes(categoryId) {
                 });
             }
         }
-
         Array.from(availableThemes).sort().forEach(val => {
             themes.push({ value: val, key: 'theme_' + val });
         });
     } else if (categoryId === 'vocab' && typeof themeConfig !== 'undefined') {
-        // Show all 26 common themes for vocab regardless of level
         COMMON_THEMES.forEach(ct => {
             const opt = document.createElement('option');
             opt.value = ct.id;
@@ -155,7 +156,6 @@ function populatePracticeThemes(categoryId) {
         populateSubThemes();
         return;
     } else {
-        // Fallback for categories not yet using hierarchical themes (e.g. legacy vocab lists)
         const vd = vocabularyData[lang] || [];
         const availableThemes = new Set();
         vd.forEach(item => {
@@ -180,6 +180,7 @@ function populatePracticeThemes(categoryId) {
         themeSelect.appendChild(opt);
     });
 
+    populateSubThemes();
     updateThemeDescription();
 }
 
@@ -188,6 +189,7 @@ function populateSubThemes() {
     const subThemeSelect = document.getElementById('practice-sub-theme');
     const subThemeGroup = document.querySelector('.sub-theme-group');
     const levelSelect = document.getElementById('practice-level');
+    const categoryId = document.querySelector('input[name="practice-cat"]:checked')?.id.replace('cat-', '');
 
     if (!themeSelect || !subThemeSelect || !subThemeGroup || !levelSelect) return;
 
@@ -199,7 +201,43 @@ function populateSubThemes() {
 
     subThemeSelect.innerHTML = '';
 
-    if (selectedTheme === 'all' || selectedLevel === 'all') {
+    if (selectedTheme === 'all') {
+        subThemeGroup.style.display = 'none';
+        updateThemeDescription();
+        return;
+    }
+
+    if (categoryId === 'grammar') {
+        const tenses = ['grammar_present_simple', 'grammar_past_simple', 'grammar_future_simple'];
+        if (tenses.includes(selectedTheme)) {
+            subThemeGroup.style.display = 'block';
+
+            const allOpt = document.createElement('option');
+            allOpt.value = 'all';
+            allOpt.textContent = t['theme_all'] || 'All Groups';
+            allOpt.setAttribute('data-translate-key', 'theme_all');
+            subThemeSelect.appendChild(allOpt);
+
+            let groups = [];
+            if (lang === 'fr') groups = ['er', 'ir', 're', 'oir', 'irregular'];
+            else if (lang === 'it') groups = ['are', 'ere', 'ire', 'ire_isc', 'urre', 'riflessivo', 'irregular'];
+            else if (lang === 'en') groups = ['regular', 'irregular'];
+            else if (lang === 'ru') groups = ['1st_conj', '2nd_conj', 'mixed_conj', 'irregular'];
+            else if (lang === 'el') groups = ['a', 'b1', 'b2', 'a_passive', 'irregular'];
+
+            groups.forEach(g => {
+                const opt = document.createElement('option');
+                opt.value = 'verb_group_' + g;
+                const labelKey = 'verb_group_' + g;
+                opt.textContent = t[labelKey] || g;
+                opt.setAttribute('data-translate-key', labelKey);
+                subThemeSelect.appendChild(opt);
+            });
+            return;
+        }
+    }
+
+    if (selectedLevel === 'all') {
         subThemeGroup.style.display = 'none';
         updateThemeDescription();
         return;
@@ -879,10 +917,10 @@ function expandGrammarItems(items, lang) {
     let expanded = [];
     const config = GRAMMAR_CONFIG[lang] || { articles: [], pronouns: [] };
 
-    // Global verb forms pool for cross-verb distractors (be vs do distinction)
     let globalVerbForms = [];
     items.forEach(it => {
-        if (it.verb && it.tenses) {
+        const infinitive = it.verb || it.word;
+        if (infinitive && it.tenses) {
             Object.values(it.tenses).forEach(tense => {
                 Object.values(tense).forEach(forms => {
                     globalVerbForms.push(...forms.map(f => f.toLowerCase()));
@@ -893,13 +931,34 @@ function expandGrammarItems(items, lang) {
     globalVerbForms = [...new Set(globalVerbForms)];
 
     items.forEach(item => {
-        let processed = false;
+        const infinitive = item.verb || item.word;
+        if (lang === 'en' && item.form === 'verb' && item.aspect && item.aspect !== 'both') {
+            expanded.push({
+                ...item,
+                type: 'type-mc',
+                primaryPrompt: infinitive,
+                secondaryContext: 'stative_vs_action',
+                answer: item.aspect === 'action' ? 'Action' : 'Stative',
+                distractors: [item.aspect === 'action' ? 'Stative' : 'Action'],
+                theme: 'grammar_stative_action'
+            });
+        }
+        if ((lang === 'fr' || lang === 'it') && item.form === 'verb' && item.auxiliary) {
+            const auxLabel = lang === 'fr' ? 'Avoir vs. Être' : 'Avere vs. Essere';
+            const choices = lang === 'fr' ? ['avoir', 'être'] : ['avere', 'essere'];
+            expanded.push({
+                ...item,
+                type: 'type-mc',
+                primaryPrompt: infinitive,
+                secondaryContext: auxLabel,
+                answer: item.auxiliary,
+                distractors: choices.filter(c => c !== item.auxiliary),
+                theme: 'grammar_auxiliary'
+            });
+        }
 
-        // 1. Conjugation tasks (requires item.verb and item.tenses)
-        if (item.verb && item.tenses) {
+        if (infinitive && item.tenses) {
             const pronouns = item.pronouns || config.pronouns;
-
-            // Collect all possible conjugation forms for this verb across all tenses to use as distractors
             let itemVerbForms = [];
             for (const tense of Object.values(item.tenses)) {
                 for (const forms of Object.values(tense)) {
@@ -909,48 +968,34 @@ function expandGrammarItems(items, lang) {
             itemVerbForms = [...new Set(itemVerbForms.map(v => v.toLowerCase()))];
 
             for (const [tense, forms] of Object.entries(item.tenses)) {
-                // English: only practice present and past simple, no future
                 if (lang === 'en' && tense === 'future_simple') continue;
-
                 const theme = 'grammar_' + tense;
                 for (const [formType, conjugations] of Object.entries(forms)) {
                     conjugations.forEach((conj, idx) => {
                         const pronoun = pronouns[idx];
-
-                        // English Present Simple focus: bias towards 3rd person singular (he/she/it)
                         if (lang === 'en' && tense === 'present_simple' && !['he', 'she', 'it'].includes(pronoun.toLowerCase()) && Math.random() > 0.4) {
-                            return; // skip some common forms to focus on 3rd person singular
+                            return;
                         }
-
-                        // 1a. Verb form practice
                         const label = (formType === 'negative') ? " (-)" : (formType === 'question') ? " (?)" : "";
-                        let verbPrompt = (formType === 'question') ? `____? (${pronoun} + ${item.verb})` : `${pronoun} ____ (${item.verb}${label})`;
-
-                        // Improved distractors: use other forms from the same verb + mix in global auxiliary forms
+                        let verbPrompt = (formType === 'question') ? `____? (${pronoun} + ${infinitive})` : `${pronoun} ____ (${infinitive}${label})`;
                         let distractors = itemVerbForms.filter(v => v !== conj.toLowerCase());
-
-                        // English distinction: mix in common distractors for be/do
                         if (lang === 'en') {
                             const beForms = ['am', 'is', 'are', 'was', 'were', 'am not', 'is not', 'are not', 'was not', 'were not'];
                             const auxForms = ['do', 'does', 'did', "don't", "doesn't", "didn't"];
-
-                            if (item.verb.toLowerCase() === 'to be') {
+                            if (infinitive.toLowerCase() === 'to be') {
                                 distractors.push(...auxForms.filter(v => !distractors.includes(v)));
                             } else {
                                 distractors.push(...beForms.filter(v => !distractors.includes(v)));
                             }
                         }
-
-                        // Fallback: pick random forms from global pool
                         if (distractors.length < 3) {
                             distractors.push(...globalVerbForms.filter(v => v !== conj.toLowerCase() && !distractors.includes(v)).sort(() => 0.5 - Math.random()).slice(0, 3));
                         }
-
                         expanded.push({
                             ...item,
-                            type: 'type-cl', // base type, startPractice might change to MC
+                            type: 'type-cl',
                             primaryPrompt: pronoun,
-                            secondaryContext: `${item.verb}${label}`,
+                            secondaryContext: `${infinitive}${label}`,
                             clozeText: verbPrompt,
                             answer: conj,
                             word: conj,
@@ -958,22 +1003,16 @@ function expandGrammarItems(items, lang) {
                             theme: theme,
                             form: 'verb'
                         });
-
-                        // 1b. Personal Pronoun practice - skip for question forms to avoid redundancy
-                        // English: skip pronoun practice per request ("only practice regular and irregular verbs")
                         if (formType !== 'question' && lang !== 'en') {
-                            // Find all pronouns that are technically correct for this conjugation
                             const correctPronouns = pronouns.filter((p, pIdx) => conjugations[pIdx] === conj);
-
                             expanded.push({
                                 ...item,
-                                type: 'type-cl', // Changed to cloze so it can also be typed
+                                type: 'type-cl',
                                 primaryPrompt: conj,
-                                secondaryContext: item.verb,
-                                clozeText: `____ ${conj} (${item.verb})`,
+                                secondaryContext: infinitive,
+                                clozeText: `____ ${conj} (${infinitive})`,
                                 answer: correctPronouns.join(' / '),
                                 word: pronoun,
-                                // Distractors MUST NOT include any of the correct pronouns for this conjugation
                                 distractors: pronouns.filter(p => !correctPronouns.includes(p)),
                                 theme: theme,
                                 form: 'pronoun'
@@ -982,17 +1021,13 @@ function expandGrammarItems(items, lang) {
                     });
                 }
             }
-            processed = true;
         }
-
-        // 2. Verb Form tasks (V2, V3, Past Participle) - handles both Grammar and Vocabulary entries
         if (item.past_participle || item.v3 || item.v2) {
-            const v1 = (item.verb || item.word || "").replace(/^to\s+/i, '');
+            const v1 = (infinitive || "").replace(/^to\s+/i, '');
             const v3 = item.past_participle || item.v3;
             if (v3) {
                 const labelKey = (lang === 'en') ? 'label_v3' : 'label_past_participle';
                 const label = (translations[lang] && translations[lang][labelKey]) || "Past Participle";
-
                 expanded.push({
                     ...item,
                     type: 'type-cl',
@@ -1004,7 +1039,6 @@ function expandGrammarItems(items, lang) {
                     form: 'verb_form'
                 });
             }
-
             if (item.v2) {
                 const v2Label = (translations[lang] && translations[lang]['label_v2']) || "V2 (Past Simple)";
                 expanded.push({
@@ -1018,93 +1052,31 @@ function expandGrammarItems(items, lang) {
                     form: 'verb_form'
                 });
             }
-            processed = true;
         }
-
-        // 3. Articles, Gender, and Plurals
         if (item.article || item.gender || item.plural) {
             if (item.article || item.gender) {
                 const correctAnswer = item.article || item.gender;
                 const baseWord = item.baseWord || item.word;
                 let distractors = config.articles.filter(a => a.toLowerCase() !== correctAnswer.toLowerCase());
-
-                // Fallback distractors if config is empty for this language
                 if (distractors.length === 0) {
-                    const articlesMap = {
-                        it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'],
-                        fr: ['le', 'la', "l'", 'les'],
-                        el: ['ο', 'η', 'το', 'οι', 'τα'],
-                        ru: ['он', 'она', 'оно']
-                    };
+                    const articlesMap = { it: ['il', 'la', 'lo', "l'", 'i', 'gli', 'le'], fr: ['le', 'la', "l'", 'les'], el: ['ο', 'η', 'το', 'οι', 'τα'], ru: ['он', 'она', 'оно'] };
                     const fallbackArticles = articlesMap[lang] || [];
                     distractors = fallbackArticles.filter(a => a.toLowerCase() !== correctAnswer.toLowerCase());
                 }
-
-                expanded.push({
-                    ...item,
-                    type: 'type-ga',
-                    baseWord: baseWord,
-                    primaryPrompt: baseWord,
-                    clozeText: `____ ${baseWord}`,
-                    answer: correctAnswer,
-                    distractors: distractors,
-                    theme: 'grammar_gender'
-                });
+                expanded.push({ ...item, type: 'type-ga', baseWord: baseWord, primaryPrompt: baseWord, clozeText: `____ ${baseWord}`, answer: correctAnswer, distractors: distractors, theme: 'grammar_gender' });
             }
             if (item.plural) {
                 const singular = item.word;
                 const plural = item.plural;
-
-                // 1. Singular to Plural
                 let distractorsSP = [];
-                if (lang === 'en') {
-                    distractorsSP = [singular + "s", singular + "es", singular + "ies", singular];
-                } else {
-                    distractorsSP = [singular];
-                    const otherPlurals = items.filter(i => i.plural && i !== item).map(i => i.plural);
-                    if (otherPlurals.length > 0) {
-                        distractorsSP.push(...otherPlurals.sort(() => 0.5 - Math.random()).slice(0, 3));
-                    }
-                }
-
-                expanded.push({
-                    ...item,
-                    type: 'type-np',
-                    primaryPrompt: singular,
-                    secondaryContext: 'plural',
-                    clozeText: `${singular} -> ____`,
-                    answer: plural,
-                    distractors: [...new Set(distractorsSP.map(d => d.toLowerCase()).filter(d => d !== plural.toLowerCase()))],
-                    theme: 'grammar_plurals',
-                    form: 'singular_to_plural'
-                });
-
-                // 2. Plural to Singular
+                if (lang === 'en') { distractorsSP = [singular + "s", singular + "es", singular + "ies", singular]; }
+                else { distractorsSP = [singular]; const otherPlurals = items.filter(i => i.plural && i !== item).map(i => i.plural); if (otherPlurals.length > 0) { distractorsSP.push(...otherPlurals.sort(() => 0.5 - Math.random()).slice(0, 3)); } }
+                expanded.push({ ...item, type: 'type-np', primaryPrompt: singular, secondaryContext: 'plural', clozeText: `${singular} -> ____`, answer: plural, distractors: [...new Set(distractorsSP.map(d => d.toLowerCase()).filter(d => d !== plural.toLowerCase()))], theme: 'grammar_plurals', form: 'singular_to_plural' });
                 let distractorsPS = [];
-                if (lang === 'en') {
-                    distractorsPS = [plural.replace(/s$/i, ''), plural.replace(/es$/i, ''), plural.replace(/ies$/i, 'y'), plural];
-                } else {
-                    distractorsPS = [plural];
-                    const otherSingulars = items.filter(i => i.word && i !== item).map(i => i.word);
-                    if (otherSingulars.length > 0) {
-                        distractorsPS.push(...otherSingulars.sort(() => 0.5 - Math.random()).slice(0, 3));
-                    }
-                }
-
-                expanded.push({
-                    ...item,
-                    type: 'type-np',
-                    primaryPrompt: plural,
-                    secondaryContext: 'singular',
-                    clozeText: `${plural} -> ____`,
-                    answer: singular,
-                    distractors: [...new Set(distractorsPS.map(d => d.toLowerCase()).filter(d => d !== singular.toLowerCase()))],
-                    theme: 'grammar_plurals',
-                    form: 'plural_to_singular'
-                });
+                if (lang === 'en') { distractorsPS = [plural.replace(/s$/i, ''), plural.replace(/es$/i, ''), plural.replace(/ies$/i, 'y'), plural]; }
+                else { distractorsPS = [plural]; const otherSingulars = items.filter(i => i.word && i !== item).map(i => i.word); if (otherSingulars.length > 0) { distractorsPS.push(...otherSingulars.sort(() => 0.5 - Math.random()).slice(0, 3)); } }
+                expanded.push({ ...item, type: 'type-np', primaryPrompt: plural, secondaryContext: 'singular', clozeText: `${plural} -> ____`, answer: singular, distractors: [...new Set(distractorsPS.map(d => d.toLowerCase()).filter(d => d !== singular.toLowerCase()))], theme: 'grammar_plurals', form: 'plural_to_singular' });
             }
-        } else {
-            expanded.push(item);
         }
     });
     return expanded;
@@ -1163,7 +1135,11 @@ function startPractice(isWheelMode = false) {
         }
     } else if (selectedCat === 'grammar') {
         const gd = grammarData[lang] || [];
-        const vd = (vocabularyData[lang] || []).filter(item => item.article || item.gender || item.plural || item.v2 || item.v3 || item.past_participle);
+        const vd = (vocabularyData[lang] || []).filter(item =>
+            item.article || item.gender || item.plural ||
+            item.v2 || item.v3 || item.past_participle ||
+            item.aspect || item.auxiliary
+        );
         rawItems = expandGrammarItems([...gd, ...vd], lang);
     } else {
         rawItems = [...(vocabularyData[lang] || [])];
@@ -1206,6 +1182,23 @@ function startPractice(isWheelMode = false) {
     if (selectedTheme !== 'all') {
         if (selectedTheme === 'numbers_math') {
             rawItems = rawItems.filter(item => item.theme.startsWith('numbers_') || item.theme.startsWith('fractions_') || item.theme.startsWith('decimals_') || item.theme.startsWith('percentages_') || item.theme.startsWith('basic_arithmetic_') || item.theme.startsWith('approximation_') || item.theme.startsWith('mathematical_'));
+        } else if (selectedCat === 'grammar') {
+            // Primary Grammar theme filter (Tense/Topic)
+            rawItems = rawItems.filter(item => item.theme === selectedTheme);
+
+            // Secondary Grammar theme filter (Group)
+            if (selectedSubTheme && selectedSubTheme !== 'all' && selectedSubTheme !== '') {
+                if (selectedSubTheme.startsWith('verb_group_')) {
+                    const targetGroup = selectedSubTheme.replace('verb_group_', '');
+                    rawItems = rawItems.filter(item => {
+                        if (!item.group) return false;
+                        const itemGroup = item.group.toLowerCase().replace(/^-/, '').replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_').replace(/_$/, '');
+                        return itemGroup === targetGroup || (targetGroup === 'irregular' && item.classification === 'irregular');
+                    });
+                } else {
+                    rawItems = rawItems.filter(item => (item.theme === selectedSubTheme || item.originalTheme === selectedSubTheme));
+                }
+            }
         } else if (selectedSubTheme && selectedSubTheme !== 'all' && selectedSubTheme !== '') {
             rawItems = rawItems.filter(item => (item.theme === selectedSubTheme || item.originalTheme === selectedSubTheme));
         } else {

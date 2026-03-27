@@ -18,7 +18,8 @@
                 ]
             }
         ],
-        "v3": "lavato i denti"
+        "v3": "lavato i denti",
+        "auxiliary": "essere"
     },
     {
         "word": "farsi la doccia",
@@ -38,7 +39,8 @@
                 ]
             }
         ],
-        "v3": "fatto la doccia"
+        "v3": "fatto la doccia",
+        "auxiliary": "essere"
     },
     {
         "word": "sembrare",
@@ -46,7 +48,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "🤔",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "stative",
         "subtext": "sembrare felice / sembrare una buona idea",
@@ -58,7 +60,8 @@
                 ]
             }
         ],
-        "v3": "sembrato"
+        "v3": "sembrato",
+        "auxiliary": "essere"
     },
     {
         "word": "diventare",
@@ -66,7 +69,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "🦋",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "diventare un medico / diventare famoso",
@@ -78,7 +81,8 @@
                 ]
             }
         ],
-        "v3": "diventato"
+        "v3": "diventato",
+        "auxiliary": "essere"
     },
     {
         "word": "credere",
@@ -86,7 +90,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "🙏",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "regular",
         "aspect": "stative",
         "subtext": "credere in qualcosa / credere a qualcuno",
@@ -98,7 +102,8 @@
                 ]
             }
         ],
-        "v3": "creduto"
+        "v3": "creduto",
+        "auxiliary": "avere"
     },
     {
         "word": "succedere",
@@ -106,7 +111,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "regular",
         "aspect": "action",
         "subtext": "succedere improvvisamente / cosa è successo?",
@@ -118,7 +123,8 @@
                 ]
             }
         ],
-        "v3": "successo"
+        "v3": "successo",
+        "auxiliary": "essere"
     },
     {
         "word": "includere",
@@ -126,7 +132,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "➕",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "stative",
         "subtext": "includere tutto / il prezzo include le tasse",
@@ -138,7 +144,8 @@
                 ]
             }
         ],
-        "v3": "incluso"
+        "v3": "incluso",
+        "auxiliary": "avere"
     },
     {
         "word": "continuare",
@@ -146,7 +153,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "➡️",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "continuare a lavorare / continuare a fare",
@@ -158,7 +165,8 @@
                 ]
             }
         ],
-        "v3": "continuato"
+        "v3": "continuato",
+        "auxiliary": "avere"
     },
     {
         "word": "impostare",
@@ -166,7 +174,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "impostare la sveglia / impostare i parametri",
@@ -178,7 +186,8 @@
                 ]
             }
         ],
-        "v3": "impostato"
+        "v3": "impostato",
+        "auxiliary": "avere"
     },
     {
         "word": "guidare",
@@ -186,7 +195,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "👑",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "guidare una squadra / guidare l'auto",
@@ -198,7 +207,8 @@
                 ]
             }
         ],
-        "v3": "guidato"
+        "v3": "guidato",
+        "auxiliary": "avere"
     },
     {
         "word": "seguire",
@@ -206,7 +216,7 @@
         "theme": "directions_navigation_A1",
         "emoji": "👣",
         "form": "verb",
-        "group": "-ire",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "seguire le regole / seguire qualcuno",
@@ -218,7 +228,8 @@
                 ]
             }
         ],
-        "v3": "seguito"
+        "v3": "seguito",
+        "auxiliary": "avere"
     },
     {
         "word": "creare",
@@ -226,7 +237,7 @@
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "creare un sito web / creare confusione",
@@ -238,7 +249,8 @@
                 ]
             }
         ],
-        "v3": "creato"
+        "v3": "creato",
+        "auxiliary": "avere"
     },
     {
         "word": "permettere",
@@ -246,7 +258,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "✅",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "permettere a qualcuno di fare / permettersi il lusso",
@@ -258,7 +270,8 @@
                 ]
             }
         ],
-        "v3": "permesso"
+        "v3": "permesso",
+        "auxiliary": "avere"
     },
     {
         "word": "crescere",
@@ -266,7 +279,7 @@
         "theme": "environmental_protection_A2",
         "emoji": "🌱",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "crescere in fretta / far crescere",
@@ -278,7 +291,8 @@
                 ]
             }
         ],
-        "v3": "cresciuto"
+        "v3": "cresciuto",
+        "auxiliary": "essere"
     },
     {
         "word": "offrire",
@@ -286,7 +300,7 @@
         "theme": "relationships_dating_A2",
         "emoji": "🤲",
         "form": "verb",
-        "group": "-ire",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "offrire un lavoro / offrire aiuto",
@@ -298,7 +312,8 @@
                 ]
             }
         ],
-        "v3": "offerto"
+        "v3": "offerto",
+        "auxiliary": "avere"
     },
     {
         "word": "considerare",
@@ -306,7 +321,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "both",
         "subtext": "considerare un'opzione / considerare qualcuno per un lavoro",
@@ -318,7 +333,8 @@
                 ]
             }
         ],
-        "v3": "considerato"
+        "v3": "considerato",
+        "auxiliary": "avere"
     },
     {
         "word": "apparire",
@@ -326,7 +342,7 @@
         "theme": "personal_qualities_A2",
         "emoji": "👻",
         "form": "verb",
-        "group": "-ire",
+        "group": "ire",
         "classification": "irregular",
         "aspect": "stative",
         "subtext": "apparire in TV / apparire improvvisamente",
@@ -338,7 +354,8 @@
                 ]
             }
         ],
-        "v3": "apparso"
+        "v3": "apparso",
+        "auxiliary": "essere"
     },
     {
         "word": "servire",
@@ -346,7 +363,7 @@
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
         "form": "verb",
-        "group": "-ire",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "servire il cibo / servire a uno scopo",
@@ -358,7 +375,8 @@
                 ]
             }
         ],
-        "v3": "servito"
+        "v3": "servito",
+        "auxiliary": "avere"
     },
     {
         "word": "aspettarsi",
@@ -378,7 +396,8 @@
                 ]
             }
         ],
-        "v3": "aspettato"
+        "v3": "aspettato",
+        "auxiliary": "essere"
     },
     {
         "word": "costruire",
@@ -386,7 +405,7 @@
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🏗️",
         "form": "verb",
-        "group": "-ire (isc)",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "costruire una casa / costruire una relazione",
@@ -398,7 +417,8 @@
                 ]
             }
         ],
-        "v3": "costruito"
+        "v3": "costruito",
+        "auxiliary": "avere"
     },
     {
         "word": "raggiungere",
@@ -406,7 +426,7 @@
         "theme": "booking_planning_a_trip_A2",
         "emoji": "🏁",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "raggiungere la vetta / raggiungere un accordo",
@@ -418,7 +438,8 @@
                 ]
             }
         ],
-        "v3": "raggiunto"
+        "v3": "raggiunto",
+        "auxiliary": "avere"
     },
     {
         "word": "uccidere",
@@ -426,7 +447,7 @@
         "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "uccidere il tempo / uccidere un insetto",
@@ -438,7 +459,8 @@
                 ]
             }
         ],
-        "v3": "ucciso"
+        "v3": "ucciso",
+        "auxiliary": "avere"
     },
     {
         "word": "rimanere",
@@ -446,7 +468,7 @@
         "theme": "condition_state_A2",
         "emoji": "⏳",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "stative",
         "subtext": "rimanere calmi / rimanere a casa",
@@ -458,7 +480,8 @@
                 ]
             }
         ],
-        "v3": "rimasto"
+        "v3": "rimasto",
+        "auxiliary": "essere"
     },
     {
         "word": "suggerire",
@@ -466,7 +489,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "💡",
         "form": "verb",
-        "group": "-ire (isc)",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "suggerire un piano / suggerire di fare qualcosa",
@@ -478,7 +501,8 @@
                 ]
             }
         ],
-        "v3": "suggerito"
+        "v3": "suggerito",
+        "auxiliary": "avere"
     },
     {
         "word": "alzare",
@@ -486,7 +510,7 @@
         "theme": "family_life_A1",
         "emoji": "🙋",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "alzare la mano / crescere un figlio",
@@ -498,7 +522,8 @@
                 ]
             }
         ],
-        "v3": "alzato"
+        "v3": "alzato",
+        "auxiliary": "avere"
     },
     {
         "word": "richiedere",
@@ -506,7 +531,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "📜",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "stative",
         "subtext": "richiedere aiuto / richiedere il passaporto",
@@ -518,7 +543,8 @@
                 ]
             }
         ],
-        "v3": "richiesto"
+        "v3": "richiesto",
+        "auxiliary": "avere"
     },
     {
         "word": "riferire",
@@ -526,7 +552,7 @@
         "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb",
-        "group": "-ire (isc)",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "riferire un crimine / riferire un problema",
@@ -538,7 +564,8 @@
                 ]
             }
         ],
-        "v3": "riferito"
+        "v3": "riferito",
+        "auxiliary": "avere"
     },
     {
         "word": "spiegare",
@@ -546,7 +573,7 @@
         "theme": "career_development_A2",
         "emoji": "👨‍🏫",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "spiegare le regole / spiegare perché",
@@ -558,7 +585,8 @@
                 ]
             }
         ],
-        "v3": "spiegato"
+        "v3": "spiegato",
+        "auxiliary": "avere"
     },
     {
         "word": "sviluppare",
@@ -566,7 +594,7 @@
         "theme": "career_development_A2",
         "emoji": "💻",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "sviluppare un'abilità / sviluppare un prodotto",
@@ -578,7 +606,8 @@
                 ]
             }
         ],
-        "v3": "sviluppato"
+        "v3": "sviluppato",
+        "auxiliary": "avere"
     },
     {
         "word": "andare in pensione",
@@ -598,7 +627,8 @@
                 ]
             }
         ],
-        "v3": "andato in pensione"
+        "v3": "andato in pensione",
+        "auxiliary": "essere"
     },
     {
         "word": "permettersi",
@@ -618,7 +648,8 @@
                 ]
             }
         ],
-        "v3": "permesso"
+        "v3": "permesso",
+        "auxiliary": "essere"
     },
     {
         "word": "riciclare",
@@ -626,7 +657,7 @@
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "riciclare la carta / bidoni del riciclo",
@@ -638,7 +669,8 @@
                 ]
             }
         ],
-        "v3": "riciclato"
+        "v3": "riciclato",
+        "auxiliary": "avere"
     },
     {
         "word": "colpire",
@@ -646,7 +678,7 @@
         "theme": "interests_hobbies_A2",
         "emoji": "🥊",
         "form": "verb",
-        "group": "-ire (isc)",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "colpire la palla / colpire un bersaglio",
@@ -658,7 +690,8 @@
                 ]
             }
         ],
-        "v3": "colpito"
+        "v3": "colpito",
+        "auxiliary": "avere"
     },
     {
         "word": "produrre",
@@ -678,7 +711,8 @@
                 ]
             }
         ],
-        "v3": "prodotto"
+        "v3": "prodotto",
+        "auxiliary": "avere"
     },
     {
         "word": "affrontare",
@@ -686,7 +720,7 @@
         "theme": "personal_qualities_A2",
         "emoji": "👤",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "affrontare un problema / affrontare la realtà",
@@ -698,7 +732,8 @@
                 ]
             }
         ],
-        "v3": "affrontato"
+        "v3": "affrontato",
+        "auxiliary": "avere"
     },
     {
         "word": "coprire",
@@ -706,7 +741,7 @@
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
         "form": "verb",
-        "group": "-ire",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "coprire con una coperta / coprire una storia",
@@ -718,7 +753,8 @@
                 ]
             }
         ],
-        "v3": "coperto"
+        "v3": "coperto",
+        "auxiliary": "avere"
     },
     {
         "word": "descrivere",
@@ -726,7 +762,7 @@
         "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "descrivere qualcuno / descrivere una situazione",
@@ -738,7 +774,8 @@
                 ]
             }
         ],
-        "v3": "descritto"
+        "v3": "descritto",
+        "auxiliary": "avere"
     },
     {
         "word": "prendere",
@@ -746,7 +783,7 @@
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "prendere una palla / prendere il raffreddore / prendere l'autobus",
@@ -758,7 +795,8 @@
                 ]
             }
         ],
-        "v3": "preso"
+        "v3": "preso",
+        "auxiliary": "avere"
     },
     {
         "word": "fare domanda per",
@@ -778,7 +816,8 @@
                 ]
             }
         ],
-        "v3": "fatto domanda per"
+        "v3": "fatto domanda per",
+        "auxiliary": "avere"
     },
     {
         "word": "assumere",
@@ -786,7 +825,7 @@
         "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "assumere qualcuno / assumere una squadra",
@@ -798,7 +837,8 @@
                 ]
             }
         ],
-        "v3": "assunto"
+        "v3": "assunto",
+        "auxiliary": "avere"
     },
     {
         "word": "promuovere",
@@ -806,7 +846,7 @@
         "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "essere promosso / promozione interna",
@@ -818,7 +858,8 @@
                 ]
             }
         ],
-        "v3": "promosso"
+        "v3": "promosso",
+        "auxiliary": "avere"
     },
     {
         "word": "dimettersi",
@@ -838,7 +879,8 @@
                 ]
             }
         ],
-        "v3": "dimesso"
+        "v3": "dimesso",
+        "auxiliary": "essere"
     },
     {
         "word": "licenziare",
@@ -846,7 +888,7 @@
         "theme": "job_apps_interviews_A2",
         "emoji": "❌",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "licenziare un dipendente / essere licenziato",
@@ -858,7 +900,8 @@
                 ]
             }
         ],
-        "v3": "licenziato"
+        "v3": "licenziato",
+        "auxiliary": "avere"
     },
     {
         "word": "delegare",
@@ -866,7 +909,7 @@
         "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "delegare un compito / delegare responsabilità",
@@ -878,7 +921,8 @@
                 ]
             }
         ],
-        "v3": "delegato"
+        "v3": "delegato",
+        "auxiliary": "avere"
     },
     {
         "word": "negoziare",
@@ -886,7 +930,7 @@
         "theme": "career_development_A2",
         "emoji": "🤝",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "negoziare uno stipendio / negoziare i termini",
@@ -898,7 +942,8 @@
                 ]
             }
         ],
-        "v3": "negoziato"
+        "v3": "negoziato",
+        "auxiliary": "avere"
     },
     {
         "word": "valutare",
@@ -906,7 +951,7 @@
         "theme": "career_development_A2",
         "emoji": "📊",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "valutare la performance / valutare i risultati",
@@ -918,7 +963,8 @@
                 ]
             }
         ],
-        "v3": "valutato"
+        "v3": "valutato",
+        "auxiliary": "avere"
     },
     {
         "word": "collaborare",
@@ -926,7 +972,7 @@
         "theme": "career_development_A2",
         "emoji": "👥",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "collaborare con / collaborare a un progetto",
@@ -938,7 +984,8 @@
                 ]
             }
         ],
-        "v3": "collaborato"
+        "v3": "collaborato",
+        "auxiliary": "avere"
     },
     {
         "word": "pianificare",
@@ -946,7 +993,7 @@
         "theme": "career_development_A2",
         "emoji": "📅",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "pianificare una riunione / pianificare il tempo",
@@ -958,7 +1005,8 @@
                 ]
             }
         ],
-        "v3": "pianificato"
+        "v3": "pianificato",
+        "auxiliary": "avere"
     },
     {
         "word": "investire",
@@ -966,7 +1014,7 @@
         "theme": "finances_A2",
         "emoji": "📈",
         "form": "verb",
-        "group": "-ire",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "investire denaro / investire in immobili",
@@ -978,7 +1026,8 @@
                 ]
             }
         ],
-        "v3": "investito"
+        "v3": "investito",
+        "auxiliary": "avere"
     },
     {
         "word": "prendere in prestito",
@@ -998,7 +1047,8 @@
                 ]
             }
         ],
-        "v3": "preso in prestito"
+        "v3": "preso in prestito",
+        "auxiliary": "avere"
     },
     {
         "word": "prestare",
@@ -1006,7 +1056,7 @@
         "theme": "finances_A2",
         "emoji": "🤝",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "prestare soldi / prestare attenzione",
@@ -1018,7 +1068,8 @@
                 ]
             }
         ],
-        "v3": "prestato"
+        "v3": "prestato",
+        "auxiliary": "avere"
     },
     {
         "word": "preventivare",
@@ -1026,7 +1077,7 @@
         "theme": "finances_A2",
         "emoji": "📊",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "preventivare con cura / budget mensile",
@@ -1038,7 +1089,8 @@
                 ]
             }
         ],
-        "v3": "preventivato"
+        "v3": "preventivato",
+        "auxiliary": "avere"
     },
     {
         "word": "prelevare",
@@ -1046,7 +1098,7 @@
         "theme": "banking_A2",
         "emoji": "🏧",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "prelevare contanti / prelevare dal conto",
@@ -1058,7 +1110,8 @@
                 ]
             }
         ],
-        "v3": "prelevato"
+        "v3": "prelevato",
+        "auxiliary": "avere"
     },
     {
         "word": "trasferire",
@@ -1066,7 +1119,7 @@
         "theme": "banking_A2",
         "emoji": "📲",
         "form": "verb",
-        "group": "-ire (isc)",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "trasferire denaro / bonifico bancario",
@@ -1078,7 +1131,8 @@
                 ]
             }
         ],
-        "v3": "trasferito"
+        "v3": "trasferito",
+        "auxiliary": "avere"
     },
     {
         "word": "addebitare",
@@ -1086,7 +1140,7 @@
         "theme": "finances_A2",
         "emoji": "💳",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "addebitare una tariffa / addebitare extra",
@@ -1098,7 +1152,8 @@
                 ]
             }
         ],
-        "v3": "addebitato"
+        "v3": "addebitato",
+        "auxiliary": "avere"
     },
     {
         "word": "richiedere",
@@ -1106,7 +1161,7 @@
         "theme": "finances_A2",
         "emoji": "📜",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "richiedere assicurazione / richiedere un rimborso",
@@ -1118,7 +1173,8 @@
                 ]
             }
         ],
-        "v3": "richiesto"
+        "v3": "richiesto",
+        "auxiliary": "avere"
     },
     {
         "word": "litigare",
@@ -1126,7 +1182,7 @@
         "theme": "agreeing_disagreeing_A2",
         "emoji": "🗣️",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "litigare per / litigare con qualcuno",
@@ -1138,7 +1194,8 @@
                 ]
             }
         ],
-        "v3": "litigato"
+        "v3": "litigato",
+        "auxiliary": "avere"
     },
     {
         "word": "fidarsi",
@@ -1158,7 +1215,8 @@
                 ]
             }
         ],
-        "v3": "fidato"
+        "v3": "fidato",
+        "auxiliary": "essere"
     },
     {
         "word": "sostenere",
@@ -1166,7 +1224,7 @@
         "theme": "social_emotions_A2",
         "emoji": "🤝",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "sostenere qualcuno / sostenere una decisione",
@@ -1178,7 +1236,8 @@
                 ]
             }
         ],
-        "v3": "sostenuto"
+        "v3": "sostenuto",
+        "auxiliary": "avere"
     },
     {
         "word": "non essere d'accordo",
@@ -1198,7 +1257,8 @@
                 ]
             }
         ],
-        "v3": "stato in disaccordo"
+        "v3": "stato in disaccordo",
+        "auxiliary": "avere"
     },
     {
         "word": "scusarsi",
@@ -1218,7 +1278,8 @@
                 ]
             }
         ],
-        "v3": "scusato"
+        "v3": "scusato",
+        "auxiliary": "essere"
     },
     {
         "word": "perdonare",
@@ -1226,7 +1287,7 @@
         "theme": "social_emotions_A2",
         "emoji": "🤝",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "perdonare qualcuno / perdonare un errore",
@@ -1238,7 +1299,8 @@
                 ]
             }
         ],
-        "v3": "perdonato"
+        "v3": "perdonato",
+        "auxiliary": "avere"
     },
     {
         "word": "scendere a compromessi",
@@ -1246,7 +1308,7 @@
         "theme": "agreeing_disagreeing_A2",
         "emoji": "🤝",
         "form": "verb",
-        "group": "locution",
+        "group": "riflessivo",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "trovare un compromesso / scendere a patti",
@@ -1258,7 +1320,8 @@
                 ]
             }
         ],
-        "v3": "sceso a compromessi"
+        "v3": "sceso a compromessi",
+        "auxiliary": "essere"
     },
     {
         "word": "diagnosticare",
@@ -1266,7 +1329,7 @@
         "theme": "diet_healthy_eating_A2",
         "emoji": "🩺",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "diagnosticare una malattia / diagnosticare precocemente",
@@ -1278,7 +1341,8 @@
                 ]
             }
         ],
-        "v3": "diagnosticato"
+        "v3": "diagnosticato",
+        "auxiliary": "avere"
     },
     {
         "word": "trattare",
@@ -1286,7 +1350,7 @@
         "theme": "diet_healthy_eating_A2",
         "emoji": "🩹",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "trattare un paziente / trattare una malattia",
@@ -1298,7 +1362,8 @@
                 ]
             }
         ],
-        "v3": "trattato"
+        "v3": "trattato",
+        "auxiliary": "avere"
     },
     {
         "word": "prevenire",
@@ -1306,7 +1371,7 @@
         "theme": "diet_healthy_eating_A2",
         "emoji": "🛡️",
         "form": "verb",
-        "group": "-ire",
+        "group": "ire",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "prevenire malattie / adottare misure preventive",
@@ -1318,7 +1383,8 @@
                 ]
             }
         ],
-        "v3": "prevenuto"
+        "v3": "prevenuto",
+        "auxiliary": "avere"
     },
     {
         "word": "soffrire",
@@ -1326,7 +1392,7 @@
         "theme": "human_body_A2",
         "emoji": "🤕",
         "form": "verb",
-        "group": "-ire",
+        "group": "ire",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "soffrire di / soffrire dolore",
@@ -1338,7 +1404,8 @@
                 ]
             }
         ],
-        "v3": "sofferto"
+        "v3": "sofferto",
+        "auxiliary": "avere"
     },
     {
         "word": "raccomandare",
@@ -1346,7 +1413,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "💡",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "raccomandare un trattamento / raccomandare il riposo",
@@ -1358,7 +1425,8 @@
                 ]
             }
         ],
-        "v3": "raccomandato"
+        "v3": "raccomandato",
+        "auxiliary": "avere"
     },
     {
         "word": "migliorare",
@@ -1366,7 +1434,7 @@
         "theme": "diet_healthy_eating_A2",
         "emoji": "📈",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "migliorare la salute / migliorare la forma fisica",
@@ -1378,7 +1446,8 @@
                 ]
             }
         ],
-        "v3": "migliorato"
+        "v3": "migliorato",
+        "auxiliary": "avere"
     },
     {
         "word": "affittare",
@@ -1386,7 +1455,7 @@
         "theme": "renting_landlords_A2",
         "emoji": "🏠",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "affittare un appartamento / affittare una stanza",
@@ -1398,7 +1467,8 @@
                 ]
             }
         ],
-        "v3": "affittato"
+        "v3": "affittato",
+        "auxiliary": "avere"
     },
     {
         "word": "possedere",
@@ -1406,7 +1476,7 @@
         "theme": "renting_landlords_A2",
         "emoji": "🏡",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "regular",
         "aspect": "stative",
         "subtext": "possedere una proprietà / possedere un'auto",
@@ -1418,7 +1488,8 @@
                 ]
             }
         ],
-        "v3": "posseduto"
+        "v3": "posseduto",
+        "auxiliary": "avere"
     },
     {
         "word": "riparare",
@@ -1426,7 +1497,7 @@
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🔧",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "riparare qualcosa / effettuare riparazioni",
@@ -1438,7 +1509,8 @@
                 ]
             }
         ],
-        "v3": "riparato"
+        "v3": "riparato",
+        "auxiliary": "avere"
     },
     {
         "word": "traslocare",
@@ -1446,7 +1518,7 @@
         "theme": "moving_home_A2",
         "emoji": "📦",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "trasferirsi / cambiare casa",
@@ -1458,7 +1530,8 @@
                 ]
             }
         ],
-        "v3": "traslocato"
+        "v3": "traslocato",
+        "auxiliary": "avere"
     },
     {
         "word": "decorare",
@@ -1466,7 +1539,7 @@
         "theme": "home_furnishings_A2",
         "emoji": "🎨",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "decorare una stanza / arredamento d'interni",
@@ -1478,7 +1551,8 @@
                 ]
             }
         ],
-        "v3": "decorato"
+        "v3": "decorato",
+        "auxiliary": "avere"
     },
     {
         "word": "avviare",
@@ -1486,7 +1560,7 @@
         "theme": "career_development_A2",
         "emoji": "🏗️",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "avviare un'attività / avviare un'azienda",
@@ -1498,7 +1572,8 @@
                 ]
             }
         ],
-        "v3": "avviato"
+        "v3": "avviato",
+        "auxiliary": "avere"
     },
     {
         "word": "scoprire",
@@ -1506,7 +1581,7 @@
         "theme": "news_media_A2",
         "emoji": "🔎",
         "form": "verb",
-        "group": "-ire",
+        "group": "ire",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "scoprire la verità / scoprire più tardi",
@@ -1518,7 +1593,8 @@
                 ]
             }
         ],
-        "v3": "scoperto"
+        "v3": "scoperto",
+        "auxiliary": "avere"
     },
     {
         "word": "continuare",
@@ -1526,7 +1602,7 @@
         "theme": "career_development_A2",
         "emoji": "⏩",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "continuare a lavorare / continuare nonostante tutto",
@@ -1538,7 +1614,8 @@
                 ]
             }
         ],
-        "v3": "continuato"
+        "v3": "continuato",
+        "auxiliary": "avere"
     },
     {
         "word": "arrendersi",
@@ -1558,7 +1635,8 @@
                 ]
             }
         ],
-        "v3": "arreso"
+        "v3": "arreso",
+        "auxiliary": "essere"
     },
     {
         "word": "risolvere",
@@ -1566,7 +1644,7 @@
         "theme": "career_development_A2",
         "emoji": "🔧",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "risolvere un problema / risolvere una situazione",
@@ -1578,7 +1656,8 @@
                 ]
             }
         ],
-        "v3": "risolto"
+        "v3": "risolto",
+        "auxiliary": "avere"
     },
     {
         "word": "prendersi cura di",
@@ -1598,7 +1677,8 @@
                 ]
             }
         ],
-        "v3": "preso cura di"
+        "v3": "preso cura di",
+        "auxiliary": "avere"
     },
     {
         "word": "ridurre",
@@ -1618,7 +1698,8 @@
                 ]
             }
         ],
-        "v3": "ridotto"
+        "v3": "ridotto",
+        "auxiliary": "avere"
     },
     {
         "word": "assumere",
@@ -1626,7 +1707,7 @@
         "theme": "career_development_A2",
         "emoji": "💪",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "assumersi la responsabilità / assumersi un impegno",
@@ -1638,7 +1719,8 @@
                 ]
             }
         ],
-        "v3": "assunto"
+        "v3": "assunto",
+        "auxiliary": "avere"
     },
     {
         "word": "rifiutare",
@@ -1646,7 +1728,7 @@
         "theme": "job_apps_interviews_A2",
         "emoji": "👎",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "rifiutare un'offerta / rifiutare un lavoro",
@@ -1658,7 +1740,8 @@
                 ]
             }
         ],
-        "v3": "rifiutato"
+        "v3": "rifiutato",
+        "auxiliary": "avere"
     },
     {
         "word": "rimandare",
@@ -1666,7 +1749,7 @@
         "theme": "career_development_A2",
         "emoji": "⏳",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "rimandare una riunione / rimandare una decisione",
@@ -1678,7 +1761,8 @@
                 ]
             }
         ],
-        "v3": "rimandato"
+        "v3": "rimandato",
+        "auxiliary": "avere"
     },
     {
         "word": "dovere",
@@ -1686,7 +1770,7 @@
         "theme": "finances_A2",
         "emoji": "💸",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "stative",
         "subtext": "dovere dei soldi / dovere molto",
@@ -1698,7 +1782,8 @@
                 ]
             }
         ],
-        "v3": "dovuto"
+        "v3": "dovuto",
+        "auxiliary": "avere"
     },
     {
         "word": "invitare",
@@ -1706,7 +1791,7 @@
         "theme": "social_emotions_A2",
         "emoji": "📩",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "invitare a cena / invitare a una festa",
@@ -1718,7 +1803,8 @@
                 ]
             }
         ],
-        "v3": "invitato"
+        "v3": "invitato",
+        "auxiliary": "avere"
     },
     {
         "word": "confermare",
@@ -1726,7 +1812,7 @@
         "theme": "giving_reasons_A2",
         "emoji": "✅",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "confermare una prenotazione / confermare per iscritto",
@@ -1738,7 +1824,8 @@
                 ]
             }
         ],
-        "v3": "confermato"
+        "v3": "confermato",
+        "auxiliary": "avere"
     },
     {
         "word": "contattare",
@@ -1746,7 +1833,7 @@
         "theme": "internet_social_media_A2",
         "emoji": "📞",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "contattare via email / contattaci",
@@ -1758,7 +1845,8 @@
                 ]
             }
         ],
-        "v3": "contattato"
+        "v3": "contattato",
+        "auxiliary": "avere"
     },
     {
         "word": "lamentarsi",
@@ -1778,7 +1866,8 @@
                 ]
             }
         ],
-        "v3": "lamentato"
+        "v3": "lamentato",
+        "auxiliary": "essere"
     },
     {
         "word": "discutere",
@@ -1786,7 +1875,7 @@
         "theme": "agreeing_disagreeing_A2",
         "emoji": "🗣️",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "discutere un argomento / discutere in dettaglio",
@@ -1798,7 +1887,8 @@
                 ]
             }
         ],
-        "v3": "discusso"
+        "v3": "discusso",
+        "auxiliary": "avere"
     },
     {
         "word": "presentare",
@@ -1806,7 +1896,7 @@
         "theme": "career_development_A2",
         "emoji": "📊",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "presentare dati / presentare a un cliente",
@@ -1818,7 +1908,8 @@
                 ]
             }
         ],
-        "v3": "presentato"
+        "v3": "presentato",
+        "auxiliary": "avere"
     },
     {
         "word": "accettare",
@@ -1826,7 +1917,7 @@
         "theme": "career_development_A2",
         "emoji": "✅",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "accettare un'offerta / accettare una sfida",
@@ -1838,7 +1929,8 @@
                 ]
             }
         ],
-        "v3": "accettato"
+        "v3": "accettato",
+        "auxiliary": "avere"
     },
     {
         "word": "rifiutare",
@@ -1846,7 +1938,7 @@
         "theme": "career_development_A2",
         "emoji": "❌",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "rifiutare un'offerta / rifiutare il permesso",
@@ -1858,7 +1950,8 @@
                 ]
             }
         ],
-        "v3": "rifiutato"
+        "v3": "rifiutato",
+        "auxiliary": "avere"
     },
     {
         "word": "perdere peso",
@@ -1878,7 +1971,8 @@
                 ]
             }
         ],
-        "v3": "perso peso"
+        "v3": "perso peso",
+        "auxiliary": "avere"
     },
     {
         "word": "aumentare",
@@ -1886,7 +1980,7 @@
         "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "aumentare di / aumentare rapidamente",
@@ -1898,7 +1992,8 @@
                 ]
             }
         ],
-        "v3": "aumentato"
+        "v3": "aumentato",
+        "auxiliary": "avere"
     },
     {
         "word": "ridurre",
@@ -1918,7 +2013,8 @@
                 ]
             }
         ],
-        "v3": "ridotto"
+        "v3": "ridotto",
+        "auxiliary": "avere"
     },
     {
         "word": "migliorare le competenze",
@@ -1938,7 +2034,8 @@
                 ]
             }
         ],
-        "v3": "migliorato le competenze"
+        "v3": "migliorato le competenze",
+        "auxiliary": "avere"
     },
     {
         "word": "fornire",
@@ -1946,7 +2043,7 @@
         "theme": "career_development_A2",
         "emoji": "🤲",
         "form": "verb",
-        "group": "-ire (isc)",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "fornire supporto / fornire un servizio",
@@ -1958,7 +2055,8 @@
                 ]
             }
         ],
-        "v3": "fornito"
+        "v3": "fornito",
+        "auxiliary": "avere"
     },
     {
         "word": "risolvere",
@@ -1966,7 +2064,7 @@
         "theme": "career_development_A2",
         "emoji": "🧩",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "risolvere un mistero / trovare una soluzione",
@@ -1978,7 +2076,8 @@
                 ]
             }
         ],
-        "v3": "risolto"
+        "v3": "risolto",
+        "auxiliary": "avere"
     },
     {
         "word": "condividere",
@@ -1986,7 +2085,7 @@
         "theme": "career_development_A2",
         "emoji": "🤝",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "regular",
         "aspect": "action",
         "subtext": "condividere informazioni / condividere un pasto / condividere idee",
@@ -1998,7 +2097,8 @@
                 ]
             }
         ],
-        "v3": "condiviso"
+        "v3": "condiviso",
+        "auxiliary": "avere"
     },
     {
         "word": "unirsi",
@@ -2018,7 +2118,8 @@
                 ]
             }
         ],
-        "v3": "unito"
+        "v3": "unito",
+        "auxiliary": "essere"
     },
     {
         "word": "ricevere",
@@ -2026,7 +2127,7 @@
         "theme": "career_development_A2",
         "emoji": "📩",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "regular",
         "aspect": "action",
         "subtext": "ricevere una lettera / ricevere un pagamento",
@@ -2038,7 +2139,8 @@
                 ]
             }
         ],
-        "v3": "ricevuto"
+        "v3": "ricevuto",
+        "auxiliary": "avere"
     },
     {
         "word": "contenere",
@@ -2046,7 +2148,7 @@
         "theme": "career_development_A2",
         "emoji": "📦",
         "form": "verb",
-        "group": "-ere",
+        "group": "ere",
         "classification": "irregular",
         "aspect": "stative",
         "subtext": "contenere informazioni / il file contiene",
@@ -2058,7 +2160,8 @@
                 ]
             }
         ],
-        "v3": "contenuto"
+        "v3": "contenuto",
+        "auxiliary": "avere"
     },
     {
         "word": "pianificare",
@@ -2066,7 +2169,7 @@
         "theme": "career_development_A2",
         "emoji": "📅",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "pianificare un viaggio / pianificare in anticipo",
@@ -2078,7 +2181,8 @@
                 ]
             }
         ],
-        "v3": "pianificato"
+        "v3": "pianificato",
+        "auxiliary": "avere"
     },
     {
         "word": "preparare",
@@ -2086,7 +2190,7 @@
         "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "preparare una riunione / preparare un rapporto",
@@ -2098,7 +2202,8 @@
                 ]
             }
         ],
-        "v3": "preparato"
+        "v3": "preparato",
+        "auxiliary": "avere"
     },
     {
         "word": "fallire",
@@ -2106,7 +2211,7 @@
         "theme": "career_development_A2",
         "emoji": "❌",
         "form": "verb",
-        "group": "-ire (isc)",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "fallire un esame / mancare di fare",
@@ -2118,7 +2223,8 @@
                 ]
             }
         ],
-        "v3": "fallito"
+        "v3": "fallito",
+        "auxiliary": "avere"
     },
     {
         "word": "avere successo",
@@ -2138,7 +2244,8 @@
                 ]
             }
         ],
-        "v3": "avuto successo"
+        "v3": "avuto successo",
+        "auxiliary": "avere"
     },
     {
         "word": "essere d'accordo",
@@ -2158,7 +2265,8 @@
                 ]
             }
         ],
-        "v3": "stato d'accordo"
+        "v3": "stato d'accordo",
+        "auxiliary": "essere"
     },
     {
         "word": "sostituire",
@@ -2166,7 +2274,7 @@
         "theme": "career_development_A2",
         "emoji": "🔄",
         "form": "verb",
-        "group": "-ire (isc)",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "sostituire qualcosa / essere sostituito da",
@@ -2178,7 +2286,8 @@
                 ]
             }
         ],
-        "v3": "sostituito"
+        "v3": "sostituito",
+        "auxiliary": "avere"
     },
     {
         "word": "cercare",
@@ -2186,7 +2295,7 @@
         "theme": "job_apps_interviews_A2",
         "emoji": "🔍",
         "form": "verb",
-        "group": "-are",
+        "group": "are",
         "classification": "regular",
         "aspect": "action",
         "subtext": "cercare lavoro / cercare una soluzione",
@@ -2198,7 +2307,8 @@
                 ]
             }
         ],
-        "v3": "cercato"
+        "v3": "cercato",
+        "auxiliary": "avere"
     },
     {
         "word": "disconnettersi",
@@ -2218,7 +2328,8 @@
                 ]
             }
         ],
-        "v3": "disconnesso"
+        "v3": "disconnesso",
+        "auxiliary": "essere"
     }
 ];
     const lang = "it";

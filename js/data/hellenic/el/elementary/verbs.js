@@ -17,7 +17,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "βουρτσισμένος"
+        "v3": "βουρτσισμένος",
+        "group": "a"
     },
     {
         "word": "κάνω ντους",
@@ -36,7 +37,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "κάνει ντους"
+        "v3": "κάνει ντους",
+        "group": "a"
     },
     {
         "word": "φαίνομαι",
@@ -55,7 +57,8 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v3": "φανεί"
+        "v3": "φανεί",
+        "group": "a"
     },
     {
         "word": "γίνομαι",
@@ -74,7 +77,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "γίνει"
+        "v3": "γίνει",
+        "group": "a"
     },
     {
         "word": "πιστεύω",
@@ -93,7 +97,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v3": "πιστέψει"
+        "v3": "πιστέψει",
+        "group": "a"
     },
     {
         "word": "συμβαίνω",
@@ -112,7 +117,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "συμβεί"
+        "v3": "συμβεί",
+        "group": "a"
     },
     {
         "word": "περιλαμβάνω",
@@ -131,7 +137,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v3": "περιλάβει"
+        "v3": "περιλάβει",
+        "group": "a"
     },
     {
         "word": "συνεχίζω",
@@ -150,7 +157,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "συνεχίσει"
+        "v3": "συνεχίσει",
+        "group": "a"
     },
     {
         "word": "ρυθμίζω",
@@ -169,7 +177,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "ρυθμίσει"
+        "v3": "ρυθμίσει",
+        "group": "a"
     },
     {
         "word": "οδηγώ",
@@ -188,7 +197,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "οδηγήσει"
+        "v3": "οδηγήσει",
+        "group": "b1"
     },
     {
         "word": "ακολουθώ",
@@ -207,7 +217,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "ακολουθήσει"
+        "v3": "ακολουθήσει",
+        "group": "b1"
     },
     {
         "word": "δημιουργώ",
@@ -226,7 +237,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "δημιουργήσει"
+        "v3": "δημιουργήσει",
+        "group": "b1"
     },
     {
         "word": "επιτρέπω",
@@ -245,7 +257,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "επιτρέψει"
+        "v3": "επιτρέψει",
+        "group": "a"
     },
     {
         "word": "μεγαλώνω",
@@ -264,7 +277,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "μεγαλώσει"
+        "v3": "μεγαλώσει",
+        "group": "a"
     },
     {
         "word": "προσφέρω",
@@ -283,7 +297,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "προσφέρει"
+        "v3": "προσφέρει",
+        "group": "a"
     },
     {
         "word": "εξετάζω",
@@ -302,7 +317,8 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "v3": "εξετάσει"
+        "v3": "εξετάσει",
+        "group": "a"
     },
     {
         "word": "εμφανίζομαι",
@@ -321,7 +337,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v3": "εμφανιστεί"
+        "v3": "εμφανιστεί",
+        "group": "a"
     },
     {
         "word": "σερβίρω",
@@ -340,7 +357,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "σερβίρει"
+        "v3": "σερβίρει",
+        "group": "a"
     },
     {
         "word": "περιμένω",
@@ -359,7 +377,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v3": "περιμένει"
+        "v3": "περιμένει",
+        "group": "a"
     },
     {
         "word": "χτίζω",
@@ -378,7 +397,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "χτίσει"
+        "v3": "χτίσει",
+        "group": "a"
     },
     {
         "word": "φτάνω",
@@ -397,7 +417,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "φτάσει"
+        "v3": "φτάσει",
+        "group": "a"
     },
     {
         "word": "σκοτώνω",
@@ -416,7 +437,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "σκοτώσει"
+        "v3": "σκοτώσει",
+        "group": "a"
     },
     {
         "word": "παραμένω",
@@ -435,7 +457,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v3": "παραμείνει"
+        "v3": "παραμείνει",
+        "group": "a"
     },
     {
         "word": "προτείνω",
@@ -454,7 +477,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "προτείνει"
+        "v3": "προτείνει",
+        "group": "a"
     },
     {
         "word": "σηκώνω",
@@ -473,7 +497,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "σηκώσει"
+        "v3": "σηκώσει",
+        "group": "a"
     },
     {
         "word": "απαιτώ",
@@ -492,7 +517,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v3": "απαιτήσει"
+        "v3": "απαιτήσει",
+        "group": "b1"
     },
     {
         "word": "αναφέρω",
@@ -511,7 +537,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "αναφέρει"
+        "v3": "αναφέρει",
+        "group": "a"
     },
     {
         "word": "εξηγώ",
@@ -530,7 +557,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "εξηγήσει"
+        "v3": "εξηγήσει",
+        "group": "b1"
     },
     {
         "word": "αναπτύσσω",
@@ -549,7 +577,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "αναπτύξει"
+        "v3": "αναπτύξει",
+        "group": "a"
     },
     {
         "word": "συνταξιοδοτούμαι",
@@ -568,7 +597,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "συνταξιοδοτηθεί"
+        "v3": "συνταξιοδοτηθεί",
+        "group": "a"
     },
     {
         "word": "έχω την οικονομική δυνατότητα",
@@ -587,7 +617,8 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v3": "έχει την οικονομική δυνατότητα"
+        "v3": "έχει την οικονομική δυνατότητα",
+        "group": "a"
     },
     {
         "word": "ανακυκλώνω",
@@ -606,7 +637,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "ανακυκλώσει"
+        "v3": "ανακυκλώσει",
+        "group": "a"
     },
     {
         "word": "χτυπώ",
@@ -625,7 +657,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "χτυπήσει"
+        "v3": "χτυπήσει",
+        "group": "b1"
     },
     {
         "word": "παράγω",
@@ -644,7 +677,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "παραγάγει"
+        "v3": "παραγάγει",
+        "group": "a"
     },
     {
         "word": "αντιμετωπίζω",
@@ -663,7 +697,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "αντιμετωπίσει"
+        "v3": "αντιμετωπίσει",
+        "group": "a"
     },
     {
         "word": "καλύπτω",
@@ -682,7 +717,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "καλύψει"
+        "v3": "καλύψει",
+        "group": "a"
     },
     {
         "word": "περιγράφω",
@@ -701,7 +737,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "περιγράψει"
+        "v3": "περιγράψει",
+        "group": "a"
     },
     {
         "word": "πιάνω",
@@ -720,7 +757,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "πιάσει"
+        "v3": "πιάσει",
+        "group": "a"
     },
     {
         "word": "κάνω αίτηση για",
@@ -739,7 +777,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "κάνει αίτηση για"
+        "v3": "κάνει αίτηση για",
+        "group": "a"
     },
     {
         "word": "προσλαμβάνω",
@@ -758,7 +797,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "προσλάβει"
+        "v3": "προσλάβει",
+        "group": "a"
     },
     {
         "word": "προάγω",
@@ -777,7 +817,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "προαγάγει"
+        "v3": "προαγάγει",
+        "group": "a"
     },
     {
         "word": "παραιτούμαι",
@@ -796,7 +837,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "παραιτηθεί"
+        "v3": "παραιτηθεί",
+        "group": "a"
     },
     {
         "word": "απολύω",
@@ -815,7 +857,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "απολύσει"
+        "v3": "απολύσει",
+        "group": "a"
     },
     {
         "word": "αναθέτω",
@@ -834,7 +877,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "αναθέσει"
+        "v3": "αναθέσει",
+        "group": "a"
     },
     {
         "word": "διαπραγματεύομαι",
@@ -853,7 +897,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "διαπραγματευτεί"
+        "v3": "διαπραγματευτεί",
+        "group": "a"
     },
     {
         "word": "αξιολογώ",
@@ -872,7 +917,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "αξιολογήσει"
+        "v3": "αξιολογήσει",
+        "group": "b1"
     },
     {
         "word": "συνεργάζομαι",
@@ -891,7 +937,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "συνεργαστεί"
+        "v3": "συνεργαστεί",
+        "group": "a"
     },
     {
         "word": "προγραμματίζω",
@@ -910,7 +957,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "προγραμματίσει"
+        "v3": "προγραμματίσει",
+        "group": "a"
     },
     {
         "word": "επενδύω",
@@ -929,7 +977,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "επενδύσει"
+        "v3": "επενδύσει",
+        "group": "a"
     },
     {
         "word": "δανείζομαι",
@@ -948,7 +997,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "δανειστεί"
+        "v3": "δανειστεί",
+        "group": "a"
     },
     {
         "word": "δανείζω",
@@ -967,7 +1017,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "δανείσει"
+        "v3": "δανείσει",
+        "group": "a"
     },
     {
         "word": "προϋπολογίζω",
@@ -986,7 +1037,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "προϋπολογίσει"
+        "v3": "προϋπολογίσει",
+        "group": "a"
     },
     {
         "word": "κάνω ανάληψη",
@@ -1005,7 +1057,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "κάνει ανάληψη"
+        "v3": "κάνει ανάληψη",
+        "group": "a"
     },
     {
         "word": "μεταφέρω",
@@ -1024,7 +1077,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "μεταφέρει"
+        "v3": "μεταφέρει",
+        "group": "a"
     },
     {
         "word": "χρεώνω",
@@ -1043,7 +1097,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "χρεώσει"
+        "v3": "χρεώσει",
+        "group": "a"
     },
     {
         "word": "διεκδικώ",
@@ -1062,7 +1117,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "διεκδικήσει"
+        "v3": "διεκδικήσει",
+        "group": "b1"
     },
     {
         "word": "μαλώνω",
@@ -1081,7 +1137,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "μαλώσει"
+        "v3": "μαλώσει",
+        "group": "a"
     },
     {
         "word": "εμπιστεύομαι",
@@ -1100,7 +1157,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v3": "εμπιστευτεί"
+        "v3": "εμπιστευτεί",
+        "group": "a"
     },
     {
         "word": "υποστηρίζω",
@@ -1119,7 +1177,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "υποστηρίξει"
+        "v3": "υποστηρίξει",
+        "group": "a"
     },
     {
         "word": "διαφωνώ",
@@ -1138,7 +1197,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "διαφωνήσει"
+        "v3": "διαφωνήσει",
+        "group": "b1"
     },
     {
         "word": "ζητώ συγγνώμη",
@@ -1157,7 +1217,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "ζητήσει συγγνώμη"
+        "v3": "ζητήσει συγγνώμη",
+        "group": "a"
     },
     {
         "word": "συγχωρώ",
@@ -1176,7 +1237,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "συγχωρέσει"
+        "v3": "συγχωρέσει",
+        "group": "b1"
     },
     {
         "word": "συμβιβάζομαι",
@@ -1195,7 +1257,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "συμβιβαστεί"
+        "v3": "συμβιβαστεί",
+        "group": "a"
     },
     {
         "word": "διαγιγνώσκω",
@@ -1214,7 +1277,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "διαγνώσει"
+        "v3": "διαγνώσει",
+        "group": "a"
     },
     {
         "word": "θεραπεύω",
@@ -1233,7 +1297,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "θεραπεύσει"
+        "v3": "θεραπεύσει",
+        "group": "a"
     },
     {
         "word": "προλαμβάνω",
@@ -1252,7 +1317,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "προλάβει"
+        "v3": "προλάβει",
+        "group": "a"
     },
     {
         "word": "υποφέρω",
@@ -1271,7 +1337,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "υποφέρει"
+        "v3": "υποφέρει",
+        "group": "a"
     },
     {
         "word": "συνιστώ",
@@ -1290,7 +1357,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "συστήσει"
+        "v3": "συστήσει",
+        "group": "b1"
     },
     {
         "word": "βελτιώνω",
@@ -1309,7 +1377,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "βελτιώσει"
+        "v3": "βελτιώσει",
+        "group": "a"
     },
     {
         "word": "νοικιάζω",
@@ -1328,7 +1397,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "νοικιάσει"
+        "v3": "νοικιάσει",
+        "group": "a"
     },
     {
         "word": "κατέχω",
@@ -1347,7 +1417,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v3": "κατέχει"
+        "v3": "κατέχει",
+        "group": "a"
     },
     {
         "word": "επισκευάζω",
@@ -1366,7 +1437,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "επισκευάσει"
+        "v3": "επισκευάσει",
+        "group": "a"
     },
     {
         "word": "μετακομίζω",
@@ -1385,7 +1457,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "μετακομίσει"
+        "v3": "μετακομίσει",
+        "group": "a"
     },
     {
         "word": "διακοσμώ",
@@ -1404,7 +1477,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "διακοσμήσει"
+        "v3": "διακοσμήσει",
+        "group": "b1"
     },
     {
         "word": "ιδρύω",
@@ -1423,7 +1497,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "ιδρύσει"
+        "v3": "ιδρύσει",
+        "group": "a"
     },
     {
         "word": "ανακαλύπτω",
@@ -1442,7 +1517,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "ανακαλύψει"
+        "v3": "ανακαλύψει",
+        "group": "a"
     },
     {
         "word": "συνεχίζω",
@@ -1461,7 +1537,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "συνεχίσει"
+        "v3": "συνεχίσει",
+        "group": "a"
     },
     {
         "word": "παρατάω",
@@ -1480,7 +1557,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "παρατήσει"
+        "v3": "παρατήσει",
+        "group": "a"
     },
     {
         "word": "διευθετώ",
@@ -1499,7 +1577,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "διευθετήσει"
+        "v3": "διευθετήσει",
+        "group": "b1"
     },
     {
         "word": "φροντίζω",
@@ -1518,7 +1597,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "φροντίσει"
+        "v3": "φροντίσει",
+        "group": "a"
     },
     {
         "word": "περιορίζω",
@@ -1537,7 +1617,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "περιορίσει"
+        "v3": "περιορίσει",
+        "group": "a"
     },
     {
         "word": "αναλαμβάνω",
@@ -1556,7 +1637,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "αναλάβει"
+        "v3": "αναλάβει",
+        "group": "a"
     },
     {
         "word": "απορρίπτω",
@@ -1575,7 +1657,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "απορρίψει"
+        "v3": "απορρίψει",
+        "group": "a"
     },
     {
         "word": "αναβάλλω",
@@ -1594,7 +1677,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "αναβάλει"
+        "v3": "αναβάλει",
+        "group": "a"
     },
     {
         "word": "χρωστάω",
@@ -1613,7 +1697,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v3": "χρωστάει"
+        "v3": "χρωστάει",
+        "group": "a"
     },
     {
         "word": "προσκαλώ",
@@ -1632,7 +1717,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "προσκαλέσει"
+        "v3": "προσκαλέσει",
+        "group": "b1"
     },
     {
         "word": "επιβεβαιώνω",
@@ -1651,7 +1737,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "επιβεβαιώσει"
+        "v3": "επιβεβαιώσει",
+        "group": "a"
     },
     {
         "word": "επικοινωνώ",
@@ -1670,7 +1757,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "επικοινωνήσει"
+        "v3": "επικοινωνήσει",
+        "group": "b1"
     },
     {
         "word": "παραπονιέμαι",
@@ -1689,7 +1777,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "παραπονεθεί"
+        "v3": "παραπονεθεί",
+        "group": "a"
     },
     {
         "word": "συζητώ",
@@ -1708,7 +1797,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "συζητήσει"
+        "v3": "συζητήσει",
+        "group": "b1"
     },
     {
         "word": "παρουσιάζω",
@@ -1727,7 +1817,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "παρουσιάσει"
+        "v3": "παρουσιάσει",
+        "group": "a"
     },
     {
         "word": "αποδέχομαι",
@@ -1746,7 +1837,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "αποδεχτεί"
+        "v3": "αποδεχτεί",
+        "group": "a"
     },
     {
         "word": "αρνούμαι",
@@ -1765,7 +1857,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "αρνηθεί"
+        "v3": "αρνηθεί",
+        "group": "a"
     },
     {
         "word": "χάνω βάρος",
@@ -1784,7 +1877,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "χάσει βάρος"
+        "v3": "χάσει βάρος",
+        "group": "a"
     },
     {
         "word": "αυξάνω",
@@ -1803,7 +1897,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "αυξήσει"
+        "v3": "αυξήσει",
+        "group": "a"
     },
     {
         "word": "μειώνω",
@@ -1822,7 +1917,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "μειώσει"
+        "v3": "μειώσει",
+        "group": "a"
     },
     {
         "word": "βελτιώνω τις δεξιότητες",
@@ -1841,7 +1937,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "βελτιώσει τις δεξιότητες"
+        "v3": "βελτιώσει τις δεξιότητες",
+        "group": "a"
     },
     {
         "word": "παρέχω",
@@ -1860,7 +1957,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "παράσχει"
+        "v3": "παράσχει",
+        "group": "a"
     },
     {
         "word": "λύνω",
@@ -1879,7 +1977,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "λύσει"
+        "v3": "λύσει",
+        "group": "a"
     },
     {
         "word": "μοιράζομαι",
@@ -1898,7 +1997,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "μοιραστεί"
+        "v3": "μοιραστεί",
+        "group": "a"
     },
     {
         "word": "συμμετέχω",
@@ -1917,7 +2017,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "συμμετάσχει"
+        "v3": "συμμετάσχει",
+        "group": "a"
     },
     {
         "word": "λαμβάνω",
@@ -1936,7 +2037,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "λάβει"
+        "v3": "λάβει",
+        "group": "a"
     },
     {
         "word": "περιέχω",
@@ -1955,7 +2057,8 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v3": "περιέχει"
+        "v3": "περιέχει",
+        "group": "a"
     },
     {
         "word": "σχεδιάζω",
@@ -1974,7 +2077,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "σχεδιάσει"
+        "v3": "σχεδιάσει",
+        "group": "a"
     },
     {
         "word": "προετοιμάζω",
@@ -1993,7 +2097,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "προετοιμάσει"
+        "v3": "προετοιμάσει",
+        "group": "a"
     },
     {
         "word": "αποτυγχάνω",
@@ -2012,7 +2117,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "αποτύχει"
+        "v3": "αποτύχει",
+        "group": "a"
     },
     {
         "word": "πετυχαίνω",
@@ -2031,7 +2137,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "πετύχει"
+        "v3": "πετύχει",
+        "group": "a"
     },
     {
         "word": "συμφωνώ",
@@ -2050,7 +2157,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "συμφωνήσει"
+        "v3": "συμφωνήσει",
+        "group": "b1"
     },
     {
         "word": "αντικαθιστώ",
@@ -2069,7 +2177,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v3": "αντικαταστήσει"
+        "v3": "αντικαταστήσει",
+        "group": "b1"
     },
     {
         "word": "ψάχνω",
@@ -2088,7 +2197,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "ψάξει"
+        "v3": "ψάξει",
+        "group": "a"
     },
     {
         "word": "αποσυνδέομαι",
@@ -2107,7 +2217,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v3": "αποσυνδεθεί"
+        "v3": "αποσυνδεθεί",
+        "group": "a"
     }
 ];
     const lang = "el";

@@ -659,6 +659,7 @@
             theme_grammar_past_simple: "Passé Simple 📜",
             theme_grammar_plurals: "Singulier & Pluriel ↔️",
             theme_grammar_present_simple: "Présent Simple 🕒",
+            theme_grammar_auxiliary: "Avoir vs. Être ⚖️",
             theme_grammar_verb_forms: "Formes verbales (V1, V2, V3) 🕒",
             theme_greetings_social_phrases_A1: "Greetings & social phrases",
             theme_health: "Santé et corps 🏥",
@@ -1071,7 +1072,9 @@
             verb_group_re: "3ème groupe (-re)",
             verb_group_oir: "3ème groupe (-oir)",
             verb_group_irregular: "Groupe irrégulier",
-            label_past_participle: "Participe Passé"
+            label_past_participle: "Participe Passé",
+            label_v2: "V2 (Passé Simple)",
+            label_v3: "V3 (Participe Passé)"
         }
         };
     window.translations = window.translations || {};

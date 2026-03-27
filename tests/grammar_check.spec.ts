@@ -159,4 +159,87 @@ test.describe('Practice Engine Grammar Features', () => {
 
     expect(hasVerbFormTasks).toBe(true);
   });
+
+  test('Stative vs Action theme in English', async ({ page }) => {
+    await page.goto('http://localhost:8080/practice.html');
+    await page.click('.lang-selection-card[data-value="en"]');
+
+    await page.evaluate(() => {
+        (document.getElementById('cat-grammar') as HTMLInputElement).checked = true;
+        (window as any).updateCategoryUI();
+    });
+
+    const themeSelect = page.locator('#practice-theme');
+    const options = await themeSelect.locator('option').allTextContents();
+    expect(options).toContain('Stative vs. Action 💡');
+
+    await page.evaluate(() => {
+        const themeSelect = document.getElementById('practice-theme') as HTMLSelectElement;
+        themeSelect.value = 'grammar_stative_action';
+        themeSelect.dispatchEvent(new Event('change'));
+    });
+
+    await page.click('#start-btn');
+
+    const hasStativeActionTasks = await page.evaluate(() => {
+        const current = (window as any).currentPractice;
+        return current.words.some(w => w.theme === 'grammar_stative_action');
+    });
+
+    expect(hasStativeActionTasks).toBe(true);
+  });
+
+  test('Auxiliary selection in French', async ({ page }) => {
+    await page.goto('http://localhost:8080/practice.html');
+    await page.click('.lang-selection-card[data-value="fr"]');
+
+    await page.evaluate(() => {
+        (document.getElementById('cat-grammar') as HTMLInputElement).checked = true;
+        (window as any).updateCategoryUI();
+    });
+
+    const themeSelect = page.locator('#practice-theme');
+    const options = await themeSelect.locator('option').allTextContents();
+    expect(options).toContain('Avoir vs. Être ⚖️');
+
+    await page.evaluate(() => {
+        const themeSelect = document.getElementById('practice-theme') as HTMLSelectElement;
+        themeSelect.value = 'grammar_auxiliary';
+        themeSelect.dispatchEvent(new Event('change'));
+    });
+
+    await page.click('#start-btn');
+
+    const hasAuxiliaryTasks = await page.evaluate(() => {
+        const current = (window as any).currentPractice;
+        return current.words.some(w => w.theme === 'grammar_auxiliary');
+    });
+
+    expect(hasAuxiliaryTasks).toBe(true);
+  });
+
+  test('Verb group sub-selection in French', async ({ page }) => {
+    await page.goto('http://localhost:8080/practice.html');
+    await page.click('.lang-selection-card[data-value="fr"]');
+
+    await page.evaluate(() => {
+        (document.getElementById('cat-grammar') as HTMLInputElement).checked = true;
+        (window as any).updateCategoryUI();
+    });
+
+    await page.evaluate(() => {
+        const themeSelect = document.getElementById('practice-theme') as HTMLSelectElement;
+        themeSelect.value = 'grammar_present_simple';
+        themeSelect.dispatchEvent(new Event('change'));
+    });
+
+    const subThemeGroup = page.locator('.sub-theme-group');
+    await expect(subThemeGroup).toBeVisible();
+
+    const subThemeSelect = page.locator('#practice-sub-theme');
+    const options = await subThemeSelect.locator('option').allTextContents();
+    expect(options).toContain('1er groupe (-er)');
+    expect(options).toContain('2ème groupe (-ir)');
+    expect(options).toContain('3ème groupe (-re)');
+  });
 });
