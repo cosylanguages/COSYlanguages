@@ -1077,7 +1077,13 @@
             verb_group_irregular: "Ανώμαλο ρήμα",
             label_past_participle: "Παθητική Μετοχή",
             label_v2: "V2 (Αόριστος)",
-            label_v3: "V3 (Παθητική Μετοχή)"
+            label_v3: "V3 (Παθητική Μετοχή)",
+            theme_grammar_reg_irregular: "Ομαλά vs. Ανώμαλα 🧐",
+            theme_grammar_stative_action: "Ενέργεια vs. Κατάσταση 💡",
+            wtd_ri: "Προσδιορίστε αν το ρήμα είναι ομαλό ή ανώμαλο.",
+            example_ri: "Παράδειγμα: 🧩 Αυτός ____ (μιλάω) -> μιλάει",
+            wtd_vf: "Πληκτρολογήστε τον σωστό ρηματικό τύπο (V2 ή V3) όπως ζητείται.",
+            example_vf: "Παράδειγμα: 🕒 to go (V3) -> gone"
          }
         };
     window.translations = window.translations || {};

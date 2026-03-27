@@ -15,7 +15,11 @@
                     "She argued for better working conditions."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "argued",
+        "v3": "argued"
     }
 ];
     const lang = "en";

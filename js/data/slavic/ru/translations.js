@@ -1072,7 +1072,13 @@
             verb_group_irregular: "Иррегулярный глагол",
             label_past_participle: "Прош. время (жен.р.)",
             label_v2: "Прош. время (муж.р.)",
-            label_v3: "Прош. время (жен.р.)"
+            label_v3: "Прош. время (жен.р.)",
+            theme_grammar_reg_irregular: "Правильные vs. Неправильные 🧐",
+            theme_grammar_stative_action: "Действие vs. Состояние 💡",
+            wtd_ri: "Определите, является ли глагол правильным или неправильным.",
+            example_ri: "Пример: 🧩 He ____ (to speak) -> speaks",
+            wtd_vf: "Введите правильную форму глагола в соответствии с запросом.",
+            example_vf: "Пример: 🕒 to go (V3) -> gone"
          }
         };
     window.translations = window.translations || {};

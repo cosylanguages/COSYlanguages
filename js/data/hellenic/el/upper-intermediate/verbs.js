@@ -14,7 +14,11 @@
                     "Κάποιοι ισχυρίζονται ότι η τηλεργασία μειώνει την καινοτομία."
                 ]
             }
-        ]
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "ισχυριστούν",
+        "group": "group_a"
     }
 ];
     const lang = "el";

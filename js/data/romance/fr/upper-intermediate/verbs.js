@@ -14,7 +14,11 @@
                     "Certains soutiennent que le travail à distance réduit l'innovation."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "soutenu",
+        "group": "ir"
     }
 ];
     const lang = "fr";
