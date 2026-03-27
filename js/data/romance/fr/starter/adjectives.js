@@ -283,8 +283,8 @@
         "plural": "bons",
         "femininePlural": "bonnes",
         "subtext": "great, nice, pleasant / good idea / good luck / good value",
-        "comparative": "plus bon",
-        "superlative": "le plus bon"
+        "comparative": "meilleur",
+        "superlative": "le meilleur"
     },
     {
         "word": "mauvais",
@@ -306,8 +306,8 @@
         "plural": "mauvais",
         "femininePlural": "mauvaises",
         "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
-        "comparative": "plus mauvais",
-        "superlative": "le plus mauvais"
+        "comparative": "pire",
+        "superlative": "le pire"
     },
     {
         "word": "grand",
@@ -1654,8 +1654,8 @@
             }
         ],
         "subtext": "wrong answer / go wrong / completely wrong",
-        "comparative": "plus mauvais",
-        "superlative": "le plus mauvais"
+        "comparative": "pire",
+        "superlative": "le pire"
     },
     {
         "word": "nouveau",

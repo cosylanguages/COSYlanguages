@@ -307,8 +307,8 @@
             }
         ],
         "subtext": "great, nice, pleasant / good idea / good luck / good value",
-        "comparative": "più buono",
-        "superlative": "il più buono"
+        "comparative": "migliore",
+        "superlative": "il migliore"
     },
     {
         "word": "cattivo",
@@ -336,8 +336,8 @@
             }
         ],
         "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
-        "comparative": "più cattivo",
-        "superlative": "il più cattivo"
+        "comparative": "peggiore",
+        "superlative": "il peggiore"
     },
     {
         "word": "grande",

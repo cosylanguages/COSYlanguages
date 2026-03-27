@@ -112,8 +112,8 @@
             }
         ],
         "subtext": "sunny day / sunny weather / sunny spell",
-        "comparative": "sunnyer",
-        "superlative": "the sunnyest"
+        "comparative": "sunnier",
+        "superlative": "the sunniest"
     },
     {
         "word": "rainy",
@@ -131,8 +131,8 @@
             }
         ],
         "subtext": "rainy day / rainy weather / rainy season",
-        "comparative": "rainyer",
-        "superlative": "the rainyest"
+        "comparative": "rainier",
+        "superlative": "the rainiest"
     },
     {
         "word": "hot",
@@ -153,8 +153,8 @@
                 ]
             }
         ],
-        "comparative": "hoter",
-        "superlative": "the hotest"
+        "comparative": "hotter",
+        "superlative": "the hottest"
     },
     {
         "word": "cold",
@@ -277,8 +277,8 @@
                 ]
             }
         ],
-        "comparative": "gooder",
-        "superlative": "the goodest"
+        "comparative": "better",
+        "superlative": "the best"
     },
     {
         "word": "bad",
@@ -303,8 +303,8 @@
                 ]
             }
         ],
-        "comparative": "bader",
-        "superlative": "the badest"
+        "comparative": "worse",
+        "superlative": "the worst"
     },
     {
         "word": "big",
@@ -329,8 +329,8 @@
                 ]
             }
         ],
-        "comparative": "biger",
-        "superlative": "the bigest"
+        "comparative": "bigger",
+        "superlative": "the biggest"
     },
     {
         "word": "small",
@@ -376,8 +376,8 @@
             }
         ],
         "subtext": "easy to do / nice and easy / not easy",
-        "comparative": "easyer",
-        "superlative": "the easyest"
+        "comparative": "easier",
+        "superlative": "the easiest"
     },
     {
         "word": "difficult",
@@ -426,8 +426,8 @@
                 ]
             }
         ],
-        "comparative": "happyer",
-        "superlative": "the happyest"
+        "comparative": "happier",
+        "superlative": "the happiest"
     },
     {
         "word": "tired",
@@ -465,8 +465,8 @@
             }
         ],
         "subtext": "full-time job / full-time work / full-time employee",
-        "comparative": "more full-time",
-        "superlative": "the most full-time"
+        "comparative": null,
+        "superlative": null
     },
     {
         "word": "part-time",
@@ -485,8 +485,8 @@
             }
         ],
         "subtext": "part-time job / part-time work / part-time student",
-        "comparative": "more part-time",
-        "superlative": "the most part-time"
+        "comparative": null,
+        "superlative": null
     },
     {
         "word": "clean",
@@ -526,8 +526,8 @@
                 ]
             }
         ],
-        "comparative": "healthyer",
-        "superlative": "the healthyest"
+        "comparative": "healthier",
+        "superlative": "the healthiest"
     },
     {
         "word": "ill",
@@ -566,8 +566,8 @@
             }
         ],
         "subtext": "online shopping / online course / stay online",
-        "comparative": "onlineer",
-        "superlative": "the onlineest"
+        "comparative": "more online",
+        "superlative": "the most online"
     },
     {
         "word": "alone",
@@ -586,8 +586,8 @@
             }
         ],
         "subtext": "live alone / travel alone / feel alone",
-        "comparative": "aloneer",
-        "superlative": "the aloneest"
+        "comparative": "more alone",
+        "superlative": "the most alone"
     },
     {
         "word": "relaxed",
@@ -606,8 +606,8 @@
                 ]
             }
         ],
-        "comparative": "relaxeder",
-        "superlative": "the relaxedest"
+        "comparative": "more relaxed",
+        "superlative": "the most relaxed"
     },
     {
         "word": "worried",
@@ -626,8 +626,8 @@
                 ]
             }
         ],
-        "comparative": "worrieder",
-        "superlative": "the worriedest"
+        "comparative": "more worried",
+        "superlative": "the most worried"
     },
     {
         "word": "busy",
@@ -650,8 +650,8 @@
                 ]
             }
         ],
-        "comparative": "busyer",
-        "superlative": "the busyest"
+        "comparative": "busier",
+        "superlative": "the busiest"
     },
     {
         "word": "useful",
@@ -670,8 +670,8 @@
                 ]
             }
         ],
-        "comparative": "usefuler",
-        "superlative": "the usefulest"
+        "comparative": "more useful",
+        "superlative": "the most useful"
     },
     {
         "word": "important",
@@ -718,8 +718,8 @@
                 ]
             }
         ],
-        "comparative": "reder",
-        "superlative": "the redest"
+        "comparative": "redder",
+        "superlative": "the reddest"
     },
     {
         "word": "blue",
@@ -742,8 +742,8 @@
                 ]
             }
         ],
-        "comparative": "blueer",
-        "superlative": "the blueest"
+        "comparative": "bluer",
+        "superlative": "the bluest"
     },
     {
         "word": "green",
@@ -790,8 +790,8 @@
                 ]
             }
         ],
-        "comparative": "whiteer",
-        "superlative": "the whiteest"
+        "comparative": "whiter",
+        "superlative": "the whitest"
     },
     {
         "word": "black",
@@ -926,8 +926,8 @@
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "largeer",
-        "superlative": "the largeest"
+        "comparative": "larger",
+        "superlative": "the largest"
     },
     {
         "word": "little",
@@ -943,8 +943,8 @@
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "littleer",
-        "superlative": "the littleest"
+        "comparative": "smaller",
+        "superlative": "the smallest"
     },
     {
         "word": "long",
@@ -1028,8 +1028,8 @@
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "emptyer",
-        "superlative": "the emptyest"
+        "comparative": "emptier",
+        "superlative": "the emptiest"
     },
     {
         "word": "warm",
@@ -1079,8 +1079,8 @@
             }
         ],
         "theme": "weather_A1",
-        "comparative": "weter",
-        "superlative": "the wetest"
+        "comparative": "wetter",
+        "superlative": "the wettest"
     },
     {
         "word": "dry",
@@ -1112,8 +1112,8 @@
                 ]
             }
         ],
-        "comparative": "dirtyer",
-        "superlative": "the dirtyest"
+        "comparative": "dirtier",
+        "superlative": "the dirtiest"
     },
     {
         "word": "hard",
@@ -1282,8 +1282,8 @@
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "niceer",
-        "superlative": "the niceest"
+        "comparative": "nicer",
+        "superlative": "the nicest"
     },
     {
         "word": "wonderful",
@@ -1333,8 +1333,8 @@
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "awfuler",
-        "superlative": "the awfulest"
+        "comparative": "more awful",
+        "superlative": "the most awful"
     },
     {
         "word": "amazing",
@@ -1350,8 +1350,8 @@
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "amazinger",
-        "superlative": "the amazingest"
+        "comparative": "more amazing",
+        "superlative": "the most amazing"
     },
     {
         "word": "fantastic",
@@ -1384,8 +1384,8 @@
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "sader",
-        "superlative": "the sadest"
+        "comparative": "sadder",
+        "superlative": "the saddest"
     },
     {
         "word": "hungry",
@@ -1401,8 +1401,8 @@
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "hungryer",
-        "superlative": "the hungryest"
+        "comparative": "hungrier",
+        "superlative": "the hungriest"
     },
     {
         "word": "angry",
@@ -1418,8 +1418,8 @@
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "angryer",
-        "superlative": "the angryest"
+        "comparative": "angrier",
+        "superlative": "the angriest"
     },
     {
         "word": "bored",
@@ -1435,8 +1435,8 @@
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "boreder",
-        "superlative": "the boredest"
+        "comparative": "more bored",
+        "superlative": "the most bored"
     },
     {
         "word": "excited",
@@ -1451,8 +1451,8 @@
                 ]
             }
         ],
-        "comparative": "exciteder",
-        "superlative": "the excitedest"
+        "comparative": "more excited",
+        "superlative": "the most excited"
     },
     {
         "word": "afraid",
@@ -1468,8 +1468,8 @@
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "afraider",
-        "superlative": "the afraidest"
+        "comparative": "more afraid",
+        "superlative": "the most afraid"
     },
     {
         "word": "sorry",
@@ -1485,8 +1485,8 @@
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "sorryer",
-        "superlative": "the sorryest"
+        "comparative": "sorrier",
+        "superlative": "the sorriest"
     },
     {
         "word": "right",
@@ -1570,8 +1570,8 @@
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "sameer",
-        "superlative": "the sameest"
+        "comparative": null,
+        "superlative": null
     },
     {
         "word": "fast",
@@ -1655,8 +1655,8 @@
             }
         ],
         "theme": "local_places_services_A1",
-        "comparative": "safeer",
-        "superlative": "the safeest"
+        "comparative": "safer",
+        "superlative": "the safest"
     },
     {
         "word": "dangerous",
@@ -1689,8 +1689,8 @@
             }
         ],
         "subtext": "feel unhappy / very unhappy / unhappy about",
-        "comparative": "unhappyer",
-        "superlative": "the unhappyest"
+        "comparative": "unhappier",
+        "superlative": "the unhappiest"
     },
     {
         "word": "nervous",
@@ -1706,8 +1706,8 @@
             }
         ],
         "subtext": "feel nervous / nervous about / very nervous",
-        "comparative": "nervouser",
-        "superlative": "the nervousest"
+        "comparative": "more nervous",
+        "superlative": "the most nervous"
     },
     {
         "word": "stressed",
@@ -1842,8 +1842,8 @@
             }
         ],
         "subtext": "pretty good / a pretty place / quite pretty",
-        "comparative": "prettyer",
-        "superlative": "the prettyest"
+        "comparative": "prettier",
+        "superlative": "the prettiest"
     },
     {
         "word": "strong",
@@ -1893,8 +1893,8 @@
             }
         ],
         "subtext": "physically fit / stay fit / keep fit",
-        "comparative": "fiter",
-        "superlative": "the fitest"
+        "comparative": "fitter",
+        "superlative": "the fittest"
     },
     {
         "word": "excellent",
@@ -1927,8 +1927,8 @@
             }
         ],
         "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
-        "comparative": "perfecter",
-        "superlative": "the perfectest"
+        "comparative": "more perfect",
+        "superlative": "the most perfect"
     },
     {
         "word": "useless",
@@ -1944,8 +1944,8 @@
             }
         ],
         "subtext": "completely useless / prove useless / a useless idea",
-        "comparative": "uselesser",
-        "superlative": "the uselessest"
+        "comparative": "more useless",
+        "superlative": "the most useless"
     },
     {
         "word": "correct",
@@ -1961,8 +1961,8 @@
             }
         ],
         "subtext": "correct answer / the correct way / completely correct",
-        "comparative": "correcter",
-        "superlative": "the correctest"
+        "comparative": "more correct",
+        "superlative": "the most correct"
     },
     {
         "word": "interesting",
@@ -1995,8 +1995,8 @@
             }
         ],
         "subtext": "very boring / a boring meeting / find boring",
-        "comparative": "boringer",
-        "superlative": "the boringest"
+        "comparative": "more boring",
+        "superlative": "the most boring"
     },
     {
         "word": "necessary",
@@ -2063,8 +2063,8 @@
             }
         ],
         "subtext": "a special offer / special occasion / very special",
-        "comparative": "specialer",
-        "superlative": "the specialest"
+        "comparative": "more special",
+        "superlative": "the most special"
     },
     {
         "word": "popular",
@@ -2080,8 +2080,8 @@
             }
         ],
         "subtext": "very popular / popular choice / most popular",
-        "comparative": "popularer",
-        "superlative": "the popularest"
+        "comparative": "more popular",
+        "superlative": "the most popular"
     },
     {
         "word": "similar",
@@ -2097,8 +2097,8 @@
             }
         ],
         "subtext": "very similar / similar to / similar results",
-        "comparative": "similarer",
-        "superlative": "the similarest"
+        "comparative": "more similar",
+        "superlative": "the most similar"
     },
     {
         "word": "friendly",
@@ -2148,8 +2148,8 @@
             }
         ],
         "subtext": "very funny / funny story / find funny",
-        "comparative": "funnyer",
-        "superlative": "the funnyest"
+        "comparative": "funnier",
+        "superlative": "the funniest"
     },
     {
         "word": "clever",
@@ -2199,8 +2199,8 @@
             }
         ],
         "subtext": "very rude / incredibly rude / deliberately rude",
-        "comparative": "rudeer",
-        "superlative": "the rudeest"
+        "comparative": "ruder",
+        "superlative": "the rudest"
     },
     {
         "word": "lazy",
@@ -2216,8 +2216,8 @@
             }
         ],
         "subtext": "very lazy / a lazy approach / too lazy",
-        "comparative": "lazyer",
-        "superlative": "the lazyest"
+        "comparative": "lazier",
+        "superlative": "the laziest"
     },
     {
         "word": "honest",
@@ -2233,8 +2233,8 @@
             }
         ],
         "subtext": "very honest / brutally honest / completely honest",
-        "comparative": "honester",
-        "superlative": "the honestest"
+        "comparative": "more honest",
+        "superlative": "the most honest"
     },
     {
         "word": "noisy",
@@ -2250,8 +2250,8 @@
             }
         ],
         "subtext": "very noisy / noisy environment / too noisy",
-        "comparative": "noisyer",
-        "superlative": "the noisyest"
+        "comparative": "noisier",
+        "superlative": "the noisiest"
     }
 ];
     const lang = "en";

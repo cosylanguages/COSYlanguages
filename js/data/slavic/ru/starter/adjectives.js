@@ -27,7 +27,7 @@
             }
         ],
         "subtext": "a tall building / a tall person / tall enough",
-        "comparative": "высокее",
+        "comparative": "выше",
         "superlative": "самый высокий"
     },
     {
@@ -55,7 +55,7 @@
             }
         ],
         "subtext": "a short journey / short hair / too short",
-        "comparative": "короткее",
+        "comparative": "короче",
         "superlative": "самый короткий",
         "opposite": "tall",
         "oppositeEmoji": "🗼"
@@ -108,7 +108,7 @@
             }
         ],
         "subtext": "old friend / old habits / very old",
-        "comparative": "старее",
+        "comparative": "старше",
         "superlative": "самый старый"
     },
     {
@@ -249,7 +249,7 @@
             }
         ],
         "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful",
-        "comparative": "дешёвее",
+        "comparative": "дешевле",
         "superlative": "самый дешёвый"
     },
     {
@@ -278,7 +278,7 @@
             }
         ],
         "subtext": "costly, high price / very expensive / expensive taste / too expensive",
-        "comparative": "более дорогой",
+        "comparative": "дороже",
         "superlative": "самый дорогой"
     },
     {
@@ -307,7 +307,7 @@
             }
         ],
         "subtext": "great, nice, pleasant / good idea / good luck / good value",
-        "comparative": "хорошее",
+        "comparative": "лучше",
         "superlative": "самый хороший"
     },
     {
@@ -336,7 +336,7 @@
             }
         ],
         "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
-        "comparative": "более плохой",
+        "comparative": "хуже",
         "superlative": "самый плохой"
     },
     {
@@ -365,7 +365,7 @@
             }
         ],
         "subtext": "large, huge / a big house / a big problem / big enough",
-        "comparative": "более большой",
+        "comparative": "больше",
         "superlative": "самый большой"
     },
     {
@@ -394,7 +394,7 @@
             }
         ],
         "subtext": "little, tiny / a small flat / a small salary / too small",
-        "comparative": "маленькее",
+        "comparative": "меньше",
         "superlative": "самый маленький"
     },
     {
@@ -416,7 +416,7 @@
             }
         ],
         "subtext": "easy to do / nice and easy / not easy",
-        "comparative": "лёгкее",
+        "comparative": "легче",
         "superlative": "самый лёгкий",
         "opposite": "difficult",
         "oppositeEmoji": "❌"
@@ -515,8 +515,8 @@
             }
         ],
         "subtext": "full-time job / full-time work / full-time employee",
-        "comparative": "более полный",
-        "superlative": "самый полный",
+        "comparative": null,
+        "superlative": null,
         "feminine": "полная",
         "neuter": "полное",
         "plural": "полные"
@@ -538,8 +538,8 @@
             }
         ],
         "subtext": "part-time job / part-time work / part-time student",
-        "comparative": "более неполный",
-        "superlative": "самый неполный",
+        "comparative": null,
+        "superlative": null,
         "feminine": "неполная",
         "neuter": "неполное",
         "plural": "неполные"
@@ -564,7 +564,7 @@
         "feminine": "чистая",
         "neuter": "чистое",
         "plural": "чистые",
-        "comparative": "чистее",
+        "comparative": "чище",
         "superlative": "самый чистый"
     },
     {
@@ -1039,7 +1039,7 @@
             }
         ],
         "subtext": "high price / high rent / high quality",
-        "comparative": "высокее",
+        "comparative": "выше",
         "superlative": "самый высокий"
     },
     {
@@ -1060,7 +1060,7 @@
             }
         ],
         "subtext": "low price / low salary / low quality",
-        "comparative": "низкее",
+        "comparative": "ниже",
         "superlative": "самый низкий"
     },
     {
@@ -1081,8 +1081,8 @@
             }
         ],
         "subtext": "full time / a full day / full of people",
-        "comparative": "полнее",
-        "superlative": "самый полный"
+        "comparative": null,
+        "superlative": null
     },
     {
         "word": "пустой",
@@ -1290,7 +1290,7 @@
             }
         ],
         "subtext": "light rain / light traffic / a light meal",
-        "comparative": "лёгкее",
+        "comparative": "легче",
         "superlative": "самый лёгкий"
     },
     {
@@ -1772,8 +1772,8 @@
             }
         ],
         "subtext": "the same as / exactly the same / same time",
-        "comparative": "одинаковее",
-        "superlative": "самый одинаковый"
+        "comparative": null,
+        "superlative": null
     },
     {
         "word": "быстрый",
@@ -1835,7 +1835,7 @@
             }
         ],
         "subtext": "quiet area / keep quiet / nice and quiet",
-        "comparative": "тихее",
+        "comparative": "тише",
         "superlative": "самый тихий"
     },
     {
@@ -1856,7 +1856,7 @@
             }
         ],
         "subtext": "loud noise / too loud / a loud voice",
-        "comparative": "громкее",
+        "comparative": "громче",
         "superlative": "самый громкий"
     },
     {
