@@ -784,7 +784,7 @@
             theme_quantity_degree_A2: "Quantity & degree",
             theme_relationships_communication_B1: "Relationships & communication",
             theme_relationships_dating_A2: "Σχέσεις και γνωριμίες",
-            theme_relationships_family_A2: "Relationships & family",
+            theme_relationships_family_A2: "Σχέσεις & οικογένεια",
             theme_renting_landlords_A2: "Ενοικίαση και ιδιοκτήτες",
             theme_restaurants_ordering_A2: "Εστιατόρια και παραγγελίες",
             theme_rhetoric_persuasion_C1: "Rhetoric & persuasion",

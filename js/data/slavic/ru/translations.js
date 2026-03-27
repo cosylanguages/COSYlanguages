@@ -783,7 +783,7 @@
             theme_quantity_degree_A2: "Quantity & degree",
             theme_relationships_communication_B1: "Relationships & communication",
             theme_relationships_dating_A2: "Отношения и свидания",
-            theme_relationships_family_A2: "Relationships & family",
+            theme_relationships_family_A2: "Отношения и семья",
             theme_renting_landlords_A2: "Аренда и домовладельцы",
             theme_restaurants_ordering_A2: "Рестораны и заказ еды",
             theme_rhetoric_persuasion_C1: "Rhetoric & persuasion",

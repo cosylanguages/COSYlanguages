@@ -774,7 +774,7 @@
             theme_quantity_degree_A2: "Quantity & degree",
             theme_relationships_communication_B1: "Relationships & communication",
             theme_relationships_dating_A2: "Relations et rencontres",
-            theme_relationships_family_A2: "Relationships & family",
+            theme_relationships_family_A2: "Relations et famille",
             theme_renting_landlords_A2: "Location et propriétaires",
             theme_restaurants_ordering_A2: "Restaurants et commande",
             theme_rhetoric_persuasion_C1: "Rhetoric & persuasion",

@@ -403,7 +403,7 @@
     {
         "word": "reach",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "booking_planning_a_trip_A2",
         "emoji": "🏁",
         "form": "verb",
         "subtext": "reach the top, reach an agreement",
