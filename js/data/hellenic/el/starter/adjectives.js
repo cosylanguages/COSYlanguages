@@ -2,8 +2,8 @@
     const data = [
     {
         "word": "ψηλός",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "form": "adjective",
         "opposite": "κοντός",
         "oppositeEmoji": "📏",
@@ -18,8 +18,8 @@
     },
     {
         "word": "κοντός",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "form": "adjective",
         "opposite": "ψηλός",
         "oppositeEmoji": "🗼",
@@ -34,8 +34,8 @@
     },
     {
         "word": "νέος",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "form": "adjective",
         "opposite": "γέρος",
         "oppositeEmoji": "👴",
@@ -50,8 +50,8 @@
     },
     {
         "word": "γέρος",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "form": "adjective",
         "opposite": "νέος",
         "oppositeEmoji": "👶",
@@ -66,8 +66,8 @@
     },
     {
         "word": "καλός",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "κακός",
@@ -83,8 +83,8 @@
     },
     {
         "word": "κακός",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "καλός",
@@ -100,8 +100,8 @@
     },
     {
         "word": "εύκολος",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "δύσκολος",
@@ -117,8 +117,8 @@
     },
     {
         "word": "δύσκολος",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "εύκολος",
@@ -134,8 +134,8 @@
     },
     {
         "word": "μεγάλος",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "μικρός",
@@ -151,8 +151,8 @@
     },
     {
         "word": "μικρός",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "μεγάλος",
@@ -168,8 +168,8 @@
     },
     {
         "word": "χαρούμενος",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
         "opposite": "λυπημένος",
@@ -184,8 +184,8 @@
     },
     {
         "word": "κουρασμένος",
-        "level": "baby",
-        "theme": "basic_negative_emotions_A0",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
         "opposite": "ξεκούραστος",
@@ -200,8 +200,8 @@
     },
     {
         "word": "ακριβός",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "φτηνός",
@@ -217,8 +217,8 @@
     },
     {
         "word": "φτηνός",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "ακριβός",
@@ -234,7 +234,7 @@
     },
     {
         "word": "πλήρους απασχόλησης",
-        "level": "baby",
+        "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
         "opposite": "μερικής απασχόλησης",
@@ -249,7 +249,7 @@
     },
     {
         "word": "μερικής απασχόλησης",
-        "level": "baby",
+        "level": "starter",
         "theme": "workplace_basics_A1",
         "form": "adjective",
         "opposite": "πλήρους απασχόλησης",
@@ -264,7 +264,7 @@
     },
     {
         "word": "καθαρός",
-        "level": "baby",
+        "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "✨",
         "form": "adjective",
@@ -282,7 +282,7 @@
     },
     {
         "word": "υγιεινός",
-        "level": "baby",
+        "level": "starter",
         "theme": "diet_healthy_eating_A2",
         "emoji": "🍎",
         "form": "adjective",
@@ -298,7 +298,7 @@
     },
     {
         "word": "άρρωστος",
-        "level": "baby",
+        "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
@@ -314,7 +314,7 @@
     },
     {
         "word": "διαδικτυακός",
-        "level": "baby",
+        "level": "starter",
         "theme": "using_a_smartphone_A1",
         "emoji": "🌐",
         "form": "adjective",
@@ -329,8 +329,8 @@
     },
     {
         "word": "μόνος",
-        "level": "baby",
-        "theme": "basic_negative_emotions_A0",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
         "emoji": "🧍",
         "form": "adjective",
         "opposite": "μαζί",
@@ -346,8 +346,8 @@
     },
     {
         "word": "χαλαρός",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "αγχωμένος",
@@ -364,8 +364,8 @@
     },
     {
         "word": "ανήσυχος",
-        "level": "baby",
-        "theme": "basic_negative_emotions_A0",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "ήρεμος",
@@ -382,7 +382,7 @@
     },
     {
         "word": "απασχολημένος",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
@@ -398,8 +398,8 @@
     },
     {
         "word": "χρήσιμος",
-        "level": "baby",
-        "theme": "size_shape_A0",
+        "level": "starter",
+        "theme": "size_shape_A1",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "άχρηστος",
@@ -414,7 +414,7 @@
     },
     {
         "word": "σημαντικός",
-        "level": "baby",
+        "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💎",
         "form": "adjective",
@@ -430,8 +430,8 @@
     },
     {
         "word": "κόκκινος",
-        "level": "baby",
-        "theme": "colours_patterns_A0",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
         "emoji": "🔴",
         "form": "adjective",
         "definitions": [
@@ -445,8 +445,8 @@
     },
     {
         "word": "μπλε",
-        "level": "baby",
-        "theme": "colours_patterns_A0",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
         "emoji": "🔵",
         "form": "adjective",
         "definitions": [
@@ -460,8 +460,8 @@
     },
     {
         "word": "πράσινος",
-        "level": "baby",
-        "theme": "colours_patterns_A0",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
         "emoji": "🟢",
         "form": "adjective",
         "definitions": [
@@ -475,8 +475,8 @@
     },
     {
         "word": "άσπρος",
-        "level": "baby",
-        "theme": "colours_patterns_A0",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
         "emoji": "⚪",
         "form": "adjective",
         "opposite": "μαύρος",
@@ -492,8 +492,8 @@
     },
     {
         "word": "μαύρος",
-        "level": "baby",
-        "theme": "colours_patterns_A0",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
         "emoji": "⚫",
         "form": "adjective",
         "opposite": "άσπρος",
@@ -508,8 +508,8 @@
     },
     {
         "word": "κίτρινος",
-        "level": "baby",
-        "theme": "colours_patterns_A0",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
         "emoji": "🟡",
         "form": "adjective",
         "definitions": [
@@ -523,8 +523,8 @@
     },
     {
         "word": "δωρεάν",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "χωρίς χρήματα",
@@ -539,8 +539,8 @@
     },
     {
         "word": "κρύος",
-        "level": "baby",
-        "theme": "weather_A0",
+        "level": "starter",
+        "theme": "weather_A1",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "ζεστός",
@@ -556,8 +556,8 @@
     },
     {
         "word": "ζεστός",
-        "level": "baby",
-        "theme": "weather_A0",
+        "level": "starter",
+        "theme": "weather_A1",
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "κρύος",
@@ -574,8 +574,8 @@
     },
     {
         "word": "ανοιχτός",
-        "level": "baby",
-        "theme": "local_places_services_A0",
+        "level": "starter",
+        "theme": "local_places_services_A1",
         "emoji": "🔓",
         "form": "adjective",
         "opposite": "κλειστός",
@@ -591,8 +591,8 @@
     },
     {
         "word": "κλειστός",
-        "level": "baby",
-        "theme": "local_places_services_A0",
+        "level": "starter",
+        "theme": "local_places_services_A1",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "ανοιχτός",

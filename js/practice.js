@@ -249,7 +249,6 @@ function updateThemeDescription() {
     }
 
     const mapping = {
-        'baby': 'desc_a0',
         'starter': 'desc_a1',
         'elementary': 'desc_a2',
         'intermediate': 'desc_b1',

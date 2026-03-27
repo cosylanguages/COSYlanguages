@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "Should children have mobile phones?",
-                "level": "baby",
+                "level": "starter",
                 "theme": "technology_A2"
             },
             {
@@ -855,7 +855,7 @@
                 "sideA": "Farm",
                 "sideB": "Wild",
                 "level": "elementary",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1344,7 +1344,7 @@
                 "sideA": "Cats",
                 "sideB": "Dogs",
                 "level": "elementary",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1515,7 +1515,7 @@
                 "sideA": "Cats",
                 "sideB": "Dogs",
                 "level": "elementary",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },

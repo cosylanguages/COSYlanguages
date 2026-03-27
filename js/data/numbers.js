@@ -169,15 +169,15 @@ const numbersVocab = {};
     languages.forEach(lang => {
         numbersVocab[lang] = [];
         for (let i = 0; i <= 100; i++) {
-            let theme = "numbers_20_99_A0";
-            if (i <= 9) theme = "numbers_0_9_A0";
-            else if (i <= 19) theme = "numbers_10_19_A0";
+            let theme = "numbers_20_99_A1";
+            if (i <= 9) theme = "numbers_0_9_A1";
+            else if (i <= 19) theme = "numbers_10_19_A1";
             else if (i === 100) theme = "numbers_100_999_A1";
 
             numbersVocab[lang].push({
                 word: getNumberWord(i, lang),
                 digit: i.toString(),
-                level: "baby",
+                level: "starter",
                 theme: theme,
                 emoji: getDigitEmoji(i),
                 form: "noun"

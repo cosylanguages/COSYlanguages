@@ -2,7 +2,7 @@
     const data = [
     {
         "word": "Σωκράτης",
-        "level": "baby",
+        "level": "starter",
         "theme": "identity_self_C1"
     }
 ];

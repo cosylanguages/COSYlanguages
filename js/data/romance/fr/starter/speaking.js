@@ -4,8 +4,8 @@
         "opinionArena": [
             {
                 "text": "Le petit-déjeuner est-il le repas le plus important ?",
-                "level": "baby",
-                "theme": "basic_foods_A0"
+                "level": "starter",
+                "theme": "basic_foods_A1"
             },
             {
                 "text": "Les chiens sont-ils de meilleurs animaux de compagnie que les chats ?",
@@ -20,7 +20,7 @@
                 "sideA": "Café",
                 "sideB": "Thé",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -29,7 +29,7 @@
                 "sideA": "Restaurant",
                 "sideB": "Cuisine maison",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -38,7 +38,7 @@
                 "sideA": "Petit-déjeuner",
                 "sideB": "Aucun",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -47,7 +47,7 @@
                 "sideA": "Eau",
                 "sideB": "Jus",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -56,7 +56,7 @@
                 "sideA": "Viande",
                 "sideB": "Légumes",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -65,7 +65,7 @@
                 "sideA": "Maison",
                 "sideB": "Appartement",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -146,7 +146,7 @@
                 "sideA": "Lève-tôt",
                 "sideB": "Couche-tard",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -155,7 +155,7 @@
                 "sideA": "Été",
                 "sideB": "Hiver",
                 "level": "starter",
-                "theme": "weather_A0",
+                "theme": "weather_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -173,7 +173,7 @@
                 "sideA": "Appel",
                 "sideB": "Message",
                 "level": "starter",
-                "theme": "basic_technology_devices_A0",
+                "theme": "basic_technology_devices_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -182,7 +182,7 @@
                 "sideA": "Matin",
                 "sideB": "Soir",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -191,7 +191,7 @@
                 "sideA": "Lundi",
                 "sideB": "Vendredi",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -200,7 +200,7 @@
                 "sideA": "Trop chaud",
                 "sideB": "Trop froid",
                 "level": "starter",
-                "theme": "weather_A0",
+                "theme": "weather_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -218,7 +218,7 @@
                 "sideA": "Rouge",
                 "sideB": "Bleu",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -227,7 +227,7 @@
                 "sideA": "Jaune",
                 "sideB": "Vert",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -236,7 +236,7 @@
                 "sideA": "Noir",
                 "sideB": "Blanc",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -245,7 +245,7 @@
                 "sideA": "Rose",
                 "sideB": "Violet",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -254,7 +254,7 @@
                 "sideA": "Cercle",
                 "sideB": "Carré",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -263,7 +263,7 @@
                 "sideA": "Grands",
                 "sideB": "Petits",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -272,7 +272,7 @@
                 "sideA": "Triangle",
                 "sideB": "Rectangle",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -308,7 +308,7 @@
                 "sideA": "Chaise",
                 "sideB": "Sol",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -317,7 +317,7 @@
                 "sideA": "Chat",
                 "sideB": "Chien",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -326,7 +326,7 @@
                 "sideA": "Poisson",
                 "sideB": "Oiseau",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -335,7 +335,7 @@
                 "sideA": "Grands",
                 "sideB": "Petits",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -344,7 +344,7 @@
                 "sideA": "Lapin",
                 "sideB": "Hamster",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -353,7 +353,7 @@
                 "sideA": "Eau",
                 "sideB": "Jus",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -362,7 +362,7 @@
                 "sideA": "Pomme",
                 "sideB": "Banane",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -371,7 +371,7 @@
                 "sideA": "Pain",
                 "sideB": "Riz",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -380,7 +380,7 @@
                 "sideA": "Lait",
                 "sideB": "Eau",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -389,7 +389,7 @@
                 "sideA": "Rose",
                 "sideB": "Orange",
                 "level": "starter",
-                "theme": "colours_patterns_A0",
+                "theme": "colours_patterns_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -398,7 +398,7 @@
                 "sideA": "1",
                 "sideB": "10",
                 "level": "starter",
-                "theme": "numbers_0_9_A0",
+                "theme": "numbers_0_9_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -407,7 +407,7 @@
                 "sideA": "Chaise",
                 "sideB": "Canapé",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -416,7 +416,7 @@
                 "sideA": "Sac",
                 "sideB": "Boîte",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -425,7 +425,7 @@
                 "sideA": "Lion",
                 "sideB": "Éléphant",
                 "level": "starter",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -434,7 +434,7 @@
                 "sideA": "Chocolat",
                 "sideB": "Bonbons",
                 "level": "starter",
-                "theme": "basic_foods_A0",
+                "theme": "basic_foods_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -443,7 +443,7 @@
                 "sideA": "Cuillère",
                 "sideB": "Fourchette",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -452,7 +452,7 @@
                 "sideA": "Chapeau",
                 "sideB": "Chaussures",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -461,7 +461,7 @@
                 "sideA": "Soleil",
                 "sideB": "Lune",
                 "level": "starter",
-                "theme": "weather_A0",
+                "theme": "weather_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -470,7 +470,7 @@
                 "sideA": "Chaussettes",
                 "sideB": "Sans chaussettes",
                 "level": "starter",
-                "theme": "furniture_objects_A0",
+                "theme": "furniture_objects_A1",
                 "ideasA": [],
                 "ideasB": []
             }
@@ -479,7 +479,7 @@
             {
                 "topic": "Mon souvenir d'enfance préféré",
                 "level": "starter",
-                "theme": "immediate_family_A0"
+                "theme": "immediate_family_A1"
             },
             {
                 "topic": "Le métier de mes rêves et pourquoi",

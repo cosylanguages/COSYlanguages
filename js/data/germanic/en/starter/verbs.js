@@ -2,8 +2,8 @@
     const data = [
     {
         "word": "be",
-        "level": "baby",
-        "theme": "name_greeting_A0",
+        "level": "starter",
+        "theme": "name_greeting_A1",
         "emoji": "👤",
         "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
@@ -24,7 +24,7 @@
     },
     {
         "word": "have",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "have a job / have lunch / have a problem / have time",
@@ -66,8 +66,8 @@
     },
     {
         "word": "give",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "give advice / give money / give a present / give information",
         "opposite": "take",
@@ -89,8 +89,8 @@
     },
     {
         "word": "take",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "take the bus / take medicine / take a break / take time",
         "opposite": "give",
@@ -112,8 +112,8 @@
     },
     {
         "word": "get",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "get a job / get tired / get better / get home",
         "form": "verb",
@@ -134,8 +134,8 @@
     },
     {
         "word": "put",
-        "level": "baby",
-        "theme": "furniture_objects_A0",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "put on / put away / put the phone down / put money aside",
         "form": "verb",
@@ -155,7 +155,7 @@
     },
     {
         "word": "make",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "make coffee / make a decision / make a mistake / make money",
@@ -176,7 +176,7 @@
     },
     {
         "word": "do",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "subtext": "do work / do the shopping / do exercise / do nothing",
@@ -197,8 +197,8 @@
     },
     {
         "word": "use",
-        "level": "baby",
-        "theme": "basic_technology_devices_A0",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
         "subtext": "use a phone / use public transport / use a computer / use time",
         "form": "verb",
@@ -218,8 +218,8 @@
     },
     {
         "word": "open",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "open a door / open an account / open a shop / open at nine",
         "opposite": "close",
@@ -241,8 +241,8 @@
     },
     {
         "word": "close",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "close a door / close at six / close an account / close the meeting",
         "opposite": "open",
@@ -349,7 +349,7 @@
     {
         "word": "show",
         "level": "starter",
-        "theme": "asking_answering_questions_A0",
+        "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
         "subtext": "show someone how / show a document / show interest",
         "form": "verb",
@@ -368,8 +368,8 @@
     },
     {
         "word": "find",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "find a job / find out / find it difficult / find time",
         "form": "verb",
@@ -389,7 +389,7 @@
     },
     {
         "word": "keep",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "keep going / keep quiet / keep a record / keep in touch",
@@ -410,8 +410,8 @@
     },
     {
         "word": "lose",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "lose a job / lose money / lose weight / lose time",
         "opposite": "win",
@@ -434,7 +434,7 @@
     },
     {
         "word": "cut",
-        "level": "baby",
+        "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "cut costs / cut spending / cut short / cut in half",
@@ -455,7 +455,7 @@
     },
     {
         "word": "turn",
-        "level": "baby",
+        "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "turn on / turn off / turn left / turn right",
@@ -476,8 +476,8 @@
     },
     {
         "word": "bring",
-        "level": "baby",
-        "theme": "meals_of_the_day_A0",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
         "subtext": "bring someone / bring food / bring a document / bring up",
         "form": "verb",
@@ -497,8 +497,8 @@
     },
     {
         "word": "say",
-        "level": "baby",
-        "theme": "greetings_social_phrases_A0",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
         "subtext": "say hello / say yes / say no / say something",
         "form": "verb",
@@ -519,7 +519,7 @@
     {
         "word": "tell",
         "level": "starter",
-        "theme": "asking_answering_questions_A0",
+        "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "tell the truth / tell someone / tell a story / tell someone about",
         "form": "verb",
@@ -539,7 +539,7 @@
     {
         "word": "ask",
         "level": "starter",
-        "theme": "asking_answering_questions_A0",
+        "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "ask a question / ask for help / ask about / ask someone",
         "form": "verb",
@@ -558,8 +558,8 @@
     },
     {
         "word": "speak",
-        "level": "baby",
-        "theme": "greetings_social_phrases_A0",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
         "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
         "form": "verb",
@@ -619,7 +619,7 @@
     },
     {
         "word": "write",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "write an email / write a report / write a letter / write notes",
@@ -642,7 +642,7 @@
     },
     {
         "word": "read",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "read a book / read the news / read a contract / read carefully",
@@ -665,7 +665,7 @@
     },
     {
         "word": "listen",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
         "subtext": "listen to music / listen carefully / listen to a podcast",
@@ -686,8 +686,8 @@
     },
     {
         "word": "answer",
-        "level": "baby",
-        "theme": "asking_answering_questions_A0",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
         "emoji": "📞",
         "subtext": "answer a question / answer the phone / answer an email",
         "form": "verb",
@@ -707,8 +707,8 @@
     },
     {
         "word": "repeat",
-        "level": "baby",
-        "theme": "classroom_language_A0",
+        "level": "starter",
+        "theme": "classroom_language_A1",
         "emoji": "🔁",
         "subtext": "repeat that / repeat yourself / repeat an order",
         "form": "verb",
@@ -728,8 +728,8 @@
     },
     {
         "word": "go",
-        "level": "baby",
-        "theme": "travel_vocabulary_basics_A0",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "go to work / go home / go out / go shopping",
         "form": "verb",
@@ -749,8 +749,8 @@
     },
     {
         "word": "come",
-        "level": "baby",
-        "theme": "travel_vocabulary_basics_A0",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "come home / come to work / come back / come here",
         "opposite": "go",
@@ -772,8 +772,8 @@
     },
     {
         "word": "walk",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "walk to work / walk home / walk slowly / walk every day",
         "form": "verb",
@@ -793,8 +793,8 @@
     },
     {
         "word": "drive",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "🚗",
         "subtext": "drive to work / drive a car / drive home / drive carefully",
         "form": "verb",
@@ -814,8 +814,8 @@
     },
     {
         "word": "fly",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "✈️",
         "subtext": "fly to a city / fly business class / fly economy",
         "form": "verb",
@@ -895,8 +895,8 @@
     },
     {
         "word": "return",
-        "level": "baby",
-        "theme": "travel_vocabulary_basics_A0",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "return home / return to work / return a call / return from",
         "form": "verb",
@@ -936,8 +936,8 @@
     },
     {
         "word": "eat",
-        "level": "baby",
-        "theme": "meals_of_the_day_A0",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
         "opposite": "drink",
@@ -959,8 +959,8 @@
     },
     {
         "word": "drink",
-        "level": "baby",
-        "theme": "drinks_A0",
+        "level": "starter",
+        "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "drink coffee / drink tea / drink water / drink beer",
         "opposite": "eat",
@@ -982,8 +982,8 @@
     },
     {
         "word": "sleep",
-        "level": "baby",
-        "theme": "times_day_A0",
+        "level": "starter",
+        "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
         "opposite": "wake up",
@@ -1045,8 +1045,8 @@
     },
     {
         "word": "wear",
-        "level": "baby",
-        "theme": "items_of_clothing_A0",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
         "emoji": "👕",
         "subtext": "wear a suit / wear glasses / wear casual clothes",
         "form": "verb",
@@ -1066,7 +1066,7 @@
     },
     {
         "word": "wash",
-        "level": "baby",
+        "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "wash the dishes / wash clothes / wash your hands",
@@ -1087,8 +1087,8 @@
     },
     {
         "word": "buy",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "buy food / buy a ticket / buy online / buy a house",
         "opposite": "sell",
@@ -1192,7 +1192,7 @@
     },
     {
         "word": "live",
-        "level": "baby",
+        "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "live in a flat / live alone / live with someone / live abroad",
@@ -1215,7 +1215,7 @@
     },
     {
         "word": "think",
-        "level": "baby",
+        "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "think about / think of / think it is / think carefully",
@@ -1236,7 +1236,7 @@
     },
     {
         "word": "know",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "know someone / know the answer / know a place / know how to",
@@ -1258,8 +1258,8 @@
     },
     {
         "word": "want",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
         "subtext": "want a job / want to leave / want more money / want help",
         "form": "verb",
@@ -1280,8 +1280,8 @@
     },
     {
         "word": "need",
-        "level": "baby",
-        "theme": "basic_negative_emotions_A0",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
         "subtext": "need help / need time / need money / need to rest",
         "form": "verb",
@@ -1302,8 +1302,8 @@
     },
     {
         "word": "like",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
         "subtext": "like work / like to travel / like someone / like the idea",
         "form": "verb",
@@ -1324,8 +1324,8 @@
     },
     {
         "word": "love",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
         "subtext": "love someone / love doing / love a place / love the idea",
         "form": "verb",
@@ -1345,8 +1345,8 @@
     },
     {
         "word": "hate",
-        "level": "baby",
-        "theme": "basic_negative_emotions_A0",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
         "subtext": "hate doing / hate someone / hate meetings / hate commuting",
         "form": "verb",
@@ -1366,8 +1366,8 @@
     },
     {
         "word": "hope",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "hope for / hope to do / hope that / I hope so",
         "form": "verb",
@@ -1387,7 +1387,7 @@
     },
     {
         "word": "remember",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "remember to do / remember a name / remember clearly",
@@ -1408,7 +1408,7 @@
     },
     {
         "word": "forget",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "forget a name / forget to do / forget about / completely forget",
@@ -1429,8 +1429,8 @@
     },
     {
         "word": "understand",
-        "level": "baby",
-        "theme": "asking_answering_questions_A0",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
         "emoji": "💡",
         "subtext": "understand a problem / understand someone / understand clearly",
         "form": "verb",
@@ -1450,7 +1450,7 @@
     },
     {
         "word": "decide",
-        "level": "baby",
+        "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "decide to do / decide on / make a decision / hard to decide",
@@ -1472,7 +1472,7 @@
     {
         "word": "enjoy",
         "level": "starter",
-        "theme": "basic_positive_emotions_A0",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
         "form": "verb",
@@ -1491,8 +1491,8 @@
     },
     {
         "word": "see",
-        "level": "baby",
-        "theme": "body_parts_A0",
+        "level": "starter",
+        "theme": "body_parts_A1",
         "emoji": "👁️",
         "subtext": "see a doctor / see friends / see the problem / see clearly",
         "form": "verb",
@@ -1512,8 +1512,8 @@
     },
     {
         "word": "hear",
-        "level": "baby",
-        "theme": "body_parts_A0",
+        "level": "starter",
+        "theme": "body_parts_A1",
         "emoji": "👂",
         "subtext": "hear news / hear from someone / hear a sound / hear clearly",
         "form": "verb",
@@ -1575,7 +1575,7 @@
     },
     {
         "word": "look",
-        "level": "baby",
+        "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "look at / look for / look like / look happy",
@@ -1616,8 +1616,8 @@
     },
     {
         "word": "run",
-        "level": "baby",
-        "theme": "common_sports_A0",
+        "level": "starter",
+        "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "run a race / run a business / run out of / run late",
         "form": "verb",
@@ -1761,7 +1761,7 @@
     },
     {
         "word": "add",
-        "level": "baby",
+        "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "add some sugar / add to / add up / add a comment",
@@ -1782,7 +1782,7 @@
     },
     {
         "word": "win",
-        "level": "baby",
+        "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "win a game / win a prize / win an award / win a contract",
@@ -1824,7 +1824,7 @@
     },
     {
         "word": "die",
-        "level": "baby",
+        "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "die of / die for / die from / die out",
@@ -1866,7 +1866,7 @@
     },
     {
         "word": "stay",
-        "level": "baby",
+        "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
@@ -1887,7 +1887,7 @@
     },
     {
         "word": "fall",
-        "level": "baby",
+        "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "fall down / fall off / fall in love / fall asleep",
@@ -1908,7 +1908,7 @@
     },
     {
         "word": "pass",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
         "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
@@ -1929,8 +1929,8 @@
     },
     {
         "word": "sell",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "sell products / sell online / sell at the market / best seller",
         "opposite": "buy",
@@ -1951,7 +1951,7 @@
     },
     {
         "word": "pull",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "pull the door / pull something / pull up / pull away",
@@ -1973,7 +1973,7 @@
     },
     {
         "word": "push",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "push the button / push a cart / push away / push through",
@@ -2016,7 +2016,7 @@
     },
     {
         "word": "break",
-        "level": "baby",
+        "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "break the glass / break a law / take a break / break down",
@@ -2037,7 +2037,7 @@
     },
     {
         "word": "receive",
-        "level": "baby",
+        "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "receive an email / receive a gift / receive payment / receive news",
@@ -2058,7 +2058,7 @@
     },
     {
         "word": "agree",
-        "level": "baby",
+        "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "agree with someone / agree to do / agree on / I agree",
@@ -2079,7 +2079,7 @@
     },
     {
         "word": "draw",
-        "level": "baby",
+        "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
         "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
@@ -2100,7 +2100,7 @@
     },
     {
         "word": "share",
-        "level": "baby",
+        "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
         "subtext": "share a room / share information / share an idea / share with",
@@ -2121,7 +2121,7 @@
     },
     {
         "word": "smile",
-        "level": "baby",
+        "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "smile at someone / a big smile / smile broadly",
@@ -2144,7 +2144,7 @@
     },
     {
         "word": "cry",
-        "level": "baby",
+        "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "cry for help / cry out / start crying / cry about something",
@@ -2167,7 +2167,7 @@
     },
     {
         "word": "dance",
-        "level": "baby",
+        "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "dance to music / go dancing / dance together / slow dance",
@@ -2188,7 +2188,7 @@
     },
     {
         "word": "sing",
-        "level": "baby",
+        "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "sing a song / sing along / sing well / lead singer",
@@ -2209,7 +2209,7 @@
     },
     {
         "word": "jump",
-        "level": "baby",
+        "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
         "subtext": "jump high / jump over / jump up / jump in",
@@ -2230,8 +2230,8 @@
     },
     {
         "word": "swim",
-        "level": "baby",
-        "theme": "common_sports_A0",
+        "level": "starter",
+        "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "go swimming / swim across / swim laps / swim well",
         "form": "verb",
@@ -2291,7 +2291,7 @@
     },
     {
         "word": "commute",
-        "level": "baby",
+        "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "commute to work / daily commute / long commute / commute by train",
@@ -2784,7 +2784,7 @@
         "aspect": "action",
         "v2": "booked",
         "v3": "booked",
-        "theme": "travel_vocabulary_basics_A0",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "📖",
         "level": "starter",
         "form": "verb"
@@ -2804,7 +2804,7 @@
         "aspect": "action",
         "v2": "packed",
         "v3": "packed",
-        "theme": "travel_vocabulary_basics_A0",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb"
@@ -2824,7 +2824,7 @@
         "aspect": "action",
         "v2": "cancelled",
         "v3": "cancelled",
-        "theme": "travel_vocabulary_basics_A0",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "❌",
         "level": "starter",
         "form": "verb"
@@ -2892,7 +2892,7 @@
     {
         "word": "thank",
         "level": "starter",
-        "theme": "greetings_social_phrases_A0",
+        "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "thank someone / thank you for / many thanks",
         "form": "verb",
@@ -2912,7 +2912,7 @@
     {
         "word": "introduce",
         "level": "starter",
-        "theme": "name_greeting_A0",
+        "theme": "name_greeting_A1",
         "emoji": "🤝",
         "subtext": "introduce yourself / introduce someone / introduce a topic",
         "form": "verb",

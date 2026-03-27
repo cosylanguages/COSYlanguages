@@ -6,7 +6,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "past_participle": "stato",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "io",
             "tu",
@@ -112,7 +112,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "past_participle": "avuto",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "io",
             "tu",
@@ -218,7 +218,7 @@
         "classification": "regular",
         "aspect": "action",
         "past_participle": "lavorato",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "io",
             "tu",
@@ -324,7 +324,7 @@
         "classification": "irregular",
         "aspect": "action",
         "past_participle": "fatto",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "io",
             "tu",
@@ -430,7 +430,7 @@
         "classification": "irregular",
         "aspect": "action",
         "past_participle": "andato",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "io",
             "tu",
@@ -536,7 +536,7 @@
         "classification": "regular",
         "aspect": "action",
         "past_participle": "mangiato",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "io",
             "tu",
@@ -642,7 +642,7 @@
         "classification": "regular",
         "aspect": "action",
         "past_participle": "parlato",
-        "level": "baby",
+        "level": "starter",
         "pronouns": [
             "io",
             "tu",

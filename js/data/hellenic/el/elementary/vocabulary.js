@@ -500,8 +500,8 @@
     },
     {
         "word": "ώμος",
-        "level": "baby",
-        "theme": "body_parts_A0",
+        "level": "starter",
+        "theme": "body_parts_A1",
         "article": "ο",
         "form": "noun",
         "plural": "ώμοι"

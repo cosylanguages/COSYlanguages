@@ -4,7 +4,7 @@
         "opinionArena": [
             {
                 "text": "Должны ли у детей быть мобильные телефоны?",
-                "level": "baby",
+                "level": "starter",
                 "theme": "technology_A2"
             },
             {
@@ -855,7 +855,7 @@
                 "sideA": "Домашние",
                 "sideB": "Дикие",
                 "level": "elementary",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1344,7 +1344,7 @@
                 "sideA": "Кошки",
                 "sideB": "Собаки",
                 "level": "elementary",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },
@@ -1515,7 +1515,7 @@
                 "sideA": "Кошки",
                 "sideB": "Собаки",
                 "level": "elementary",
-                "theme": "animals_A0",
+                "theme": "animals_A1",
                 "ideasA": [],
                 "ideasB": []
             },

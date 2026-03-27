@@ -2,8 +2,8 @@
     const data = [
     {
         "word": "être",
-        "level": "baby",
-        "theme": "name_greeting_A0",
+        "level": "starter",
+        "theme": "name_greeting_A1",
         "emoji": "👤",
         "subtext": "être prêt / être fatigué / à la maison / être ouvert",
         "form": "verb",
@@ -24,7 +24,7 @@
     },
     {
         "word": "avoir",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "avoir un travail / avoir déjeuner / avoir un problème",
@@ -68,8 +68,8 @@
     },
     {
         "word": "donner",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "donner des conseils / donner de l argent / donner un cadeau",
         "opposite": "take",
@@ -91,8 +91,8 @@
     },
     {
         "word": "prendre",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "prendre le bus / prendre un médicament / prendre une pause",
         "opposite": "give",
@@ -114,8 +114,8 @@
     },
     {
         "word": "obtenir",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "obtenir un travail / se fatiguer / s améliorer",
         "form": "verb",
@@ -136,8 +136,8 @@
     },
     {
         "word": "mettre",
-        "level": "baby",
-        "theme": "furniture_objects_A0",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "mettre / ranger / poser le téléphone",
         "form": "verb",
@@ -157,7 +157,7 @@
     },
     {
         "word": "faire",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "faire du café / prendre une décision / faire une erreur",
@@ -178,7 +178,7 @@
     },
     {
         "word": "faire",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "subtext": "faire le travail / faire de l exercice / faire les courses",
@@ -200,8 +200,8 @@
     },
     {
         "word": "utiliser",
-        "level": "baby",
-        "theme": "basic_technology_devices_A0",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
         "subtext": "utiliser un téléphone / utiliser les transports / utiliser un ordinateur",
         "form": "verb",
@@ -221,8 +221,8 @@
     },
     {
         "word": "ouvrir",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "ouvrir une porte / ouvrir un compte / ouvrir à neuf heures",
         "opposite": "close",
@@ -244,8 +244,8 @@
     },
     {
         "word": "fermer",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "fermer une porte / fermer à six heures / fermer la réunion",
         "opposite": "open",
@@ -356,7 +356,7 @@
     {
         "word": "montrer",
         "level": "starter",
-        "theme": "asking_answering_questions_A0",
+        "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
         "subtext": "montrer à quelqu un / montrer comment / montrer un document",
         "form": "verb",
@@ -376,8 +376,8 @@
     },
     {
         "word": "trouver",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "trouver un travail / découvrir / trouver cela difficile",
         "form": "verb",
@@ -397,7 +397,7 @@
     },
     {
         "word": "garder",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "continuer / rester silencieux / garder une trace",
@@ -418,8 +418,8 @@
     },
     {
         "word": "perdre",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "perdre un travail / perdre de l argent / perdre du poids",
         "opposite": "win",
@@ -442,7 +442,7 @@
     },
     {
         "word": "couper",
-        "level": "baby",
+        "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "réduire les coûts / réduire les dépenses / couper en deux",
@@ -463,7 +463,7 @@
     },
     {
         "word": "tourner",
-        "level": "baby",
+        "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "allumer / éteindre / tourner à gauche / tourner à droite",
@@ -484,8 +484,8 @@
     },
     {
         "word": "apporter",
-        "level": "baby",
-        "theme": "meals_of_the_day_A0",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
         "subtext": "apporter quelqu un / apporter de la nourriture / apporter un document",
         "form": "verb",
@@ -505,8 +505,8 @@
     },
     {
         "word": "dire",
-        "level": "baby",
-        "theme": "greetings_social_phrases_A0",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
         "subtext": "dire bonjour / dire oui / dire non / dire quelque chose",
         "form": "verb",
@@ -527,7 +527,7 @@
     {
         "word": "dire",
         "level": "starter",
-        "theme": "asking_answering_questions_A0",
+        "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "dire la vérité / dire à quelqu un / raconter une histoire",
         "form": "verb",
@@ -548,7 +548,7 @@
     {
         "word": "demander",
         "level": "starter",
-        "theme": "asking_answering_questions_A0",
+        "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "poser une question / demander de l aide / demander à propos de",
         "form": "verb",
@@ -568,8 +568,8 @@
     },
     {
         "word": "parler",
-        "level": "baby",
-        "theme": "greetings_social_phrases_A0",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
         "subtext": "parler à quelqu un / parler une langue / parler clairement",
         "form": "verb",
@@ -631,7 +631,7 @@
     },
     {
         "word": "écrire",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "écrire un email / écrire un rapport / écrire une lettre",
@@ -654,7 +654,7 @@
     },
     {
         "word": "lire",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "lire un livre / lire les nouvelles / lire un contrat",
@@ -677,7 +677,7 @@
     },
     {
         "word": "écouter",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
         "subtext": "écouter de la musique / écouter attentivement / écouter un podcast",
@@ -698,8 +698,8 @@
     },
     {
         "word": "répondre",
-        "level": "baby",
-        "theme": "asking_answering_questions_A0",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
         "emoji": "📞",
         "subtext": "répondre à une question / répondre au téléphone",
         "form": "verb",
@@ -719,8 +719,8 @@
     },
     {
         "word": "répéter",
-        "level": "baby",
-        "theme": "classroom_language_A0",
+        "level": "starter",
+        "theme": "classroom_language_A1",
         "emoji": "🔁",
         "subtext": "répéter cela / se répéter / répéter une commande",
         "form": "verb",
@@ -740,8 +740,8 @@
     },
     {
         "word": "aller",
-        "level": "baby",
-        "theme": "travel_vocabulary_basics_A0",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "aller au travail / aller à la maison / sortir",
         "form": "verb",
@@ -761,8 +761,8 @@
     },
     {
         "word": "venir",
-        "level": "baby",
-        "theme": "travel_vocabulary_basics_A0",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "rentrer à la maison / revenir / venir au travail",
         "opposite": "go",
@@ -784,8 +784,8 @@
     },
     {
         "word": "marcher",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "marcher au travail / rentrer à pied / marcher vite",
         "form": "verb",
@@ -805,8 +805,8 @@
     },
     {
         "word": "conduire",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "🚗",
         "subtext": "conduire au travail / conduire une voiture / rentrer en voiture",
         "form": "verb",
@@ -826,8 +826,8 @@
     },
     {
         "word": "voler",
-        "level": "baby",
-        "theme": "modes_of_transport_A0",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
         "emoji": "✈️",
         "subtext": "voler vers une ville / voler en classe affaires",
         "form": "verb",
@@ -910,8 +910,8 @@
     },
     {
         "word": "revenir",
-        "level": "baby",
-        "theme": "travel_vocabulary_basics_A0",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "rentrer à la maison / retourner au travail",
         "form": "verb",
@@ -952,8 +952,8 @@
     },
     {
         "word": "manger",
-        "level": "baby",
-        "theme": "meals_of_the_day_A0",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "prendre le petit-déjeuner / déjeuner / dîner",
         "opposite": "drink",
@@ -975,8 +975,8 @@
     },
     {
         "word": "boire",
-        "level": "baby",
-        "theme": "drinks_A0",
+        "level": "starter",
+        "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "boire du café / boire du thé / boire de l eau",
         "opposite": "eat",
@@ -998,8 +998,8 @@
     },
     {
         "word": "dormir",
-        "level": "baby",
-        "theme": "times_day_A0",
+        "level": "starter",
+        "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "bien dormir / mal dormir / dormir huit heures",
         "opposite": "wake up",
@@ -1063,8 +1063,8 @@
     },
     {
         "word": "porter",
-        "level": "baby",
-        "theme": "items_of_clothing_A0",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
         "emoji": "👕",
         "subtext": "porter un costume / porter des lunettes",
         "form": "verb",
@@ -1084,7 +1084,7 @@
     },
     {
         "word": "laver",
-        "level": "baby",
+        "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "faire la vaisselle / laver les vêtements / se laver les mains",
@@ -1105,8 +1105,8 @@
     },
     {
         "word": "acheter",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "acheter de la nourriture / acheter un billet",
         "opposite": "sell",
@@ -1214,7 +1214,7 @@
     },
     {
         "word": "vivre",
-        "level": "baby",
+        "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "vivre dans un appartement / vivre seul / vivre avec quelqu un",
@@ -1237,7 +1237,7 @@
     },
     {
         "word": "penser",
-        "level": "baby",
+        "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "penser à / penser de / réfléchir attentivement",
@@ -1258,7 +1258,7 @@
     },
     {
         "word": "savoir",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "connaître quelqu un / connaître la réponse / savoir comment",
@@ -1279,8 +1279,8 @@
     },
     {
         "word": "vouloir",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
         "subtext": "vouloir un travail / vouloir faire / vouloir plus",
         "form": "verb",
@@ -1301,8 +1301,8 @@
     },
     {
         "word": "avoir besoin de",
-        "level": "baby",
-        "theme": "basic_negative_emotions_A0",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
         "subtext": "besoin d aide / besoin de temps / besoin d argent",
         "form": "verb",
@@ -1323,8 +1323,8 @@
     },
     {
         "word": "aimer",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
         "subtext": "aimer le travail / aimer voyager / aimer quelqu un",
         "form": "verb",
@@ -1345,8 +1345,8 @@
     },
     {
         "word": "adorer",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
         "subtext": "aimer quelqu un / aimer faire / aimer un lieu",
         "form": "verb",
@@ -1366,8 +1366,8 @@
     },
     {
         "word": "détester",
-        "level": "baby",
-        "theme": "basic_negative_emotions_A0",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
         "subtext": "détester faire / détester quelqu un / détester les réunions",
         "form": "verb",
@@ -1387,8 +1387,8 @@
     },
     {
         "word": "espérer",
-        "level": "baby",
-        "theme": "basic_positive_emotions_A0",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "espérer / espérer faire / espérer que",
         "form": "verb",
@@ -1408,7 +1408,7 @@
     },
     {
         "word": "se souvenir",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "se souvenir de faire / se souvenir d un nom",
@@ -1429,7 +1429,7 @@
     },
     {
         "word": "oublier",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "oublier un nom / oublier de faire / oublier",
@@ -1450,8 +1450,8 @@
     },
     {
         "word": "comprendre",
-        "level": "baby",
-        "theme": "asking_answering_questions_A0",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
         "emoji": "💡",
         "subtext": "comprendre un problème / comprendre quelqu un",
         "form": "verb",
@@ -1471,7 +1471,7 @@
     },
     {
         "word": "décider",
-        "level": "baby",
+        "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "décider de faire / se décider pour / prendre une décision",
@@ -1493,7 +1493,7 @@
     {
         "word": "apprécier",
         "level": "starter",
-        "theme": "basic_positive_emotions_A0",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "subtext": "apprécier de faire / apprécier un repas / apprécier votre travail",
         "form": "verb",
@@ -1513,8 +1513,8 @@
     },
     {
         "word": "voir",
-        "level": "baby",
-        "theme": "body_parts_A0",
+        "level": "starter",
+        "theme": "body_parts_A1",
         "emoji": "👁️",
         "subtext": "voir un médecin / voir des amis / voir le problème",
         "form": "verb",
@@ -1534,8 +1534,8 @@
     },
     {
         "word": "entendre",
-        "level": "baby",
-        "theme": "body_parts_A0",
+        "level": "starter",
+        "theme": "body_parts_A1",
         "emoji": "👂",
         "subtext": "entendre des nouvelles / entendre quelqu un / entendre un son",
         "form": "verb",
@@ -1599,7 +1599,7 @@
     },
     {
         "word": "regarder",
-        "level": "baby",
+        "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "regarder / chercher / ressembler à",
@@ -1641,8 +1641,8 @@
     },
     {
         "word": "courir",
-        "level": "baby",
-        "theme": "common_sports_A0",
+        "level": "starter",
+        "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "courir / courir une course / diriger une entreprise",
         "form": "verb",
@@ -1792,7 +1792,7 @@
     },
     {
         "word": "ajouter",
-        "level": "baby",
+        "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "ajouter / ajouter un commentaire / ajouter du sucre",
@@ -1813,7 +1813,7 @@
     },
     {
         "word": "gagner",
-        "level": "baby",
+        "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "gagner / gagner un prix / gagner un contrat",
@@ -1856,7 +1856,7 @@
     },
     {
         "word": "mourir",
-        "level": "baby",
+        "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "mourir / mourir de / s éteindre",
@@ -1899,7 +1899,7 @@
     },
     {
         "word": "rester",
-        "level": "baby",
+        "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "rester / rester à la maison / séjourner dans un hôtel",
@@ -1920,7 +1920,7 @@
     },
     {
         "word": "tomber",
-        "level": "baby",
+        "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "tomber / tomber amoureux / s endormir",
@@ -1941,7 +1941,7 @@
     },
     {
         "word": "passer",
-        "level": "baby",
+        "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
         "subtext": "passer / passer un examen / passer le temps",
@@ -1962,8 +1962,8 @@
     },
     {
         "word": "vendre",
-        "level": "baby",
-        "theme": "everyday_shopping_A0",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "vendre / vendre en ligne / vendre au marché",
         "opposite": "buy",
@@ -1984,7 +1984,7 @@
     },
     {
         "word": "tirer",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "tirer / tirer la porte / s éloigner",
@@ -2006,7 +2006,7 @@
     },
     {
         "word": "pousser",
-        "level": "baby",
+        "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "pousser / pousser le bouton / pousser le chariot",
@@ -2050,7 +2050,7 @@
     },
     {
         "word": "casser",
-        "level": "baby",
+        "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "casser / casser le verre / faire une pause",
@@ -2071,7 +2071,7 @@
     },
     {
         "word": "recevoir",
-        "level": "baby",
+        "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "recevoir / recevoir un email / recevoir un paiement",
@@ -2092,7 +2092,7 @@
     },
     {
         "word": "être d accord",
-        "level": "baby",
+        "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "être d accord / être d accord avec quelqu un",
@@ -2113,7 +2113,7 @@
     },
     {
         "word": "dessiner",
-        "level": "baby",
+        "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
         "subtext": "dessiner / dessiner une image / dessiner une ligne",
@@ -2134,7 +2134,7 @@
     },
     {
         "word": "partager",
-        "level": "baby",
+        "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
         "subtext": "partager / partager une chambre / partager une idée",
@@ -2155,7 +2155,7 @@
     },
     {
         "word": "sourire",
-        "level": "baby",
+        "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "sourire / sourire à quelqu un / sourire largement",
@@ -2178,7 +2178,7 @@
     },
     {
         "word": "pleurer",
-        "level": "baby",
+        "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "pleurer / pleurer pour obtenir de l aide / pleurer sur quelque chose",
@@ -2201,7 +2201,7 @@
     },
     {
         "word": "danser",
-        "level": "baby",
+        "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "danser / danser sur de la musique / aller danser",
@@ -2222,7 +2222,7 @@
     },
     {
         "word": "chanter",
-        "level": "baby",
+        "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "chanter / chanter une chanson / chanter ensemble",
@@ -2243,7 +2243,7 @@
     },
     {
         "word": "sauter",
-        "level": "baby",
+        "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
         "subtext": "sauter / sauter haut / sauter par-dessus",
@@ -2264,8 +2264,8 @@
     },
     {
         "word": "nager",
-        "level": "baby",
-        "theme": "common_sports_A0",
+        "level": "starter",
+        "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "nager / aller nager / nager des longueurs",
         "form": "verb",
@@ -2327,7 +2327,7 @@
     },
     {
         "word": "faire le trajet",
-        "level": "baby",
+        "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "faire le trajet / trajet quotidien / long trajet",
@@ -2819,7 +2819,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "réservé",
-        "theme": "travel_vocabulary_basics_A0",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
@@ -2839,7 +2839,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "fait sa valise",
-        "theme": "travel_vocabulary_basics_A0",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
@@ -2859,7 +2859,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "annulé",
-        "theme": "travel_vocabulary_basics_A0",
+        "theme": "travel_vocabulary_basics_A1",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
@@ -2928,7 +2928,7 @@
     {
         "word": "remercier",
         "level": "starter",
-        "theme": "greetings_social_phrases_A0",
+        "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "remercier quelqu un / remercier pour / un grand merci",
         "form": "verb",
@@ -2948,7 +2948,7 @@
     {
         "word": "présenter",
         "level": "starter",
-        "theme": "name_greeting_A0",
+        "theme": "name_greeting_A1",
         "emoji": "🤝",
         "subtext": "se présenter / présenter quelqu un / présenter un sujet",
         "form": "verb",
