@@ -1224,6 +1224,405 @@
         "form": "adjective",
         "neuter": "επικίνδυνο",
         "plural": "επικίνδυνοι"
+    },
+    {
+        "word": "δυστυχισμένος",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "unhappy",
+        "feminine": "δυστυχισμένη",
+        "neuter": "δυστυχισμένο",
+        "plural": "δυστυχισμένοι"
+    },
+    {
+        "word": "νευρικός",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "nervous",
+        "feminine": "νευρική",
+        "neuter": "νευρικό",
+        "plural": "νευρικοί"
+    },
+    {
+        "word": "αγχωμένος",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "stressed",
+        "feminine": "αγχωμένη",
+        "neuter": "αγχωμένο",
+        "plural": "αγχωμένοι"
+    },
+    {
+        "word": "σίγουρος",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "confident",
+        "feminine": "σίγουρη",
+        "neuter": "σίγουρο",
+        "plural": "σίγουροι"
+    },
+    {
+        "word": "περήφανος",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "proud",
+        "feminine": "περήφανη",
+        "neuter": "περήφανο",
+        "plural": "περήφανοι"
+    },
+    {
+        "word": "φοβισμένος",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "scared",
+        "feminine": "φοβισμένη",
+        "neuter": "φοβισμένο",
+        "plural": "φοβισμένοι"
+    },
+    {
+        "word": "έκπληκτος",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "form": "adjective",
+        "translation": "surprised",
+        "feminine": "έκπληκτη",
+        "neuter": "έκπληκτο",
+        "plural": "έκπληκτοι"
+    },
+    {
+        "word": "απογοητευμένος",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "disappointed",
+        "feminine": "απογοητευμένη",
+        "neuter": "απογοητευμένο",
+        "plural": "απογοητευμένοι"
+    },
+    {
+        "word": "όμορφος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "beautiful",
+        "feminine": "όμορφη",
+        "neuter": "όμορφο",
+        "plural": "όμορφοι"
+    },
+    {
+        "word": "ωραίος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "pretty",
+        "feminine": "ωραία",
+        "neuter": "ωραίο",
+        "plural": "ωραίοι"
+    },
+    {
+        "word": "δυνατός",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "strong",
+        "feminine": "δυνατή",
+        "neuter": "δυνατό",
+        "plural": "δυνατοί"
+    },
+    {
+        "word": "αδύναμος",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "weak",
+        "feminine": "αδύναμη",
+        "neuter": "αδύναμο",
+        "plural": "αδύναμοι"
+    },
+    {
+        "word": "γυμνασμένος",
+        "level": "starter",
+        "theme": "health_A1",
+        "form": "adjective",
+        "translation": "fit",
+        "feminine": "γυμνασμένη",
+        "neuter": "γυμνασμένο",
+        "plural": "γυμνασμένοι"
+    },
+    {
+        "word": "εξαιρετικός",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "excellent",
+        "feminine": "εξαιρετική",
+        "neuter": "εξαιρετικό",
+        "plural": "εξαιρετικοί"
+    },
+    {
+        "word": "τέλειος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "perfect",
+        "feminine": "τέλεια",
+        "neuter": "τέλειο",
+        "plural": "τέλειοι"
+    },
+    {
+        "word": "άχρηστος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "useless",
+        "feminine": "άχρηστη",
+        "neuter": "άχρηστο",
+        "plural": "άχρηστοι"
+    },
+    {
+        "word": "σωστός",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "correct",
+        "feminine": "σωστή",
+        "neuter": "σωστό",
+        "plural": "σωστοί"
+    },
+    {
+        "word": "ενδιαφέρων",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "interesting",
+        "feminine": "ενδιαφέρουσα",
+        "neuter": "ενδιαφέρον",
+        "plural": "ενδιαφέροντες"
+    },
+    {
+        "word": "βαρετός",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "boring",
+        "feminine": "βαρετή",
+        "neuter": "βαρετό",
+        "plural": "βαρετοί"
+    },
+    {
+        "word": "απαραίτητος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "necessary",
+        "feminine": "απαραίτητη",
+        "neuter": "απαραίτητο",
+        "plural": "απαραίτητοι"
+    },
+    {
+        "word": "πιθανός",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "possible",
+        "feminine": "πιθανή",
+        "neuter": "πιθανό",
+        "plural": "πιθανοί"
+    },
+    {
+        "word": "αδύνατος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "impossible",
+        "feminine": "αδύνατη",
+        "neuter": "αδύνατο",
+        "plural": "αδύνατοι"
+    },
+    {
+        "word": "ειδικός",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "special",
+        "feminine": "ειδική",
+        "neuter": "ειδικό",
+        "plural": "ειδικοί"
+    },
+    {
+        "word": "δημοφιλής",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "popular",
+        "feminine": "δημοφιλής",
+        "neuter": "δημοφιλές",
+        "plural": "δημοφιλείς"
+    },
+    {
+        "word": "παρόμοιος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "similar",
+        "feminine": "παρόμοια",
+        "neuter": "παρόμοιο",
+        "plural": "παρόμοιοι"
+    },
+    {
+        "word": "φιλικός",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "friendly",
+        "feminine": "φιλική",
+        "neuter": "φιλικό",
+        "plural": "φιλικοί"
+    },
+    {
+        "word": "ευγενικός",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "kind",
+        "feminine": "ευγενική",
+        "neuter": "ευγενικό",
+        "plural": "ευγενικοί"
+    },
+    {
+        "word": "αστείος",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "funny",
+        "feminine": "αστεία",
+        "neuter": "αστείο",
+        "plural": "αστείοι"
+    },
+    {
+        "word": "έξυπνος",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "clever",
+        "feminine": "έξυπνη",
+        "neuter": "έξυπνο",
+        "plural": "έξυπνοι"
+    },
+    {
+        "word": "ευγενής",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "polite",
+        "feminine": "ευγενής",
+        "neuter": "ευγενές",
+        "plural": "ευγενείς"
+    },
+    {
+        "word": "αγενής",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "rude",
+        "feminine": "αγενής",
+        "neuter": "αγενές",
+        "plural": "αγενείς"
+    },
+    {
+        "word": "τεμπέλης",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "lazy",
+        "feminine": "τεμπέλα",
+        "neuter": "τεμπέλικο",
+        "plural": "τεμπέληδες"
+    },
+    {
+        "word": "ειλικρινής",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "honest",
+        "feminine": "ειλικρινής",
+        "neuter": "ειλικρινές",
+        "plural": "ειλικρινείς"
+    },
+    {
+        "word": "θορυβώδης",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "noisy",
+        "feminine": "θορυβώδης",
+        "neuter": "θορυβώδες",
+        "plural": "θορυβώδεις"
+    },
+    {
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "young",
+        "feminine": "νέα",
+        "neuter": "νέο",
+        "plural": "νέοι"
+    },
+    {
+        "word": "υγιής",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "healthy",
+        "feminine": "υγιής",
+        "neuter": "υγιές",
+        "plural": "υγιείς"
+    },
+    {
+        "word": "άρρωστος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "ill",
+        "feminine": "άρρωστη",
+        "neuter": "άρρωστο",
+        "plural": "άρρωστοι"
+    },
+    {
+        "word": "χρήσιμος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "useful",
+        "feminine": "χρήσιμη",
+        "neuter": "χρήσιμο",
+        "plural": "χρήσιμοι"
+    },
+    {
+        "word": "χαλαρός",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "relaxed",
+        "feminine": "χαλαρή",
+        "neuter": "χαλαρό",
+        "plural": "χαλαροί"
+    },
+    {
+        "word": "ανήσυχος",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "worried",
+        "feminine": "ανήσυχη",
+        "neuter": "ανήσυχο",
+        "plural": "ανήσυχοι"
     }
 ];
     const lang = "el";

@@ -1453,6 +1453,516 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "unhappy",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Not feeling pleased; dissatisfied.",
+                "examples": [
+                    "He is unhappy with his current salary."
+                ]
+            }
+        ],
+        "subtext": "feel unhappy / very unhappy / unhappy about"
+    },
+    {
+        "word": "nervous",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Feeling anxious or uneasy.",
+                "examples": [
+                    "He was nervous before the job interview."
+                ]
+            }
+        ],
+        "subtext": "feel nervous / nervous about / very nervous"
+    },
+    {
+        "word": "stressed",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Feeling worried and tense from pressure.",
+                "examples": [
+                    "She feels stressed before every deadline."
+                ]
+            }
+        ],
+        "subtext": "feel stressed / very stressed / stressed out"
+    },
+    {
+        "word": "confident",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Feeling sure of your own abilities.",
+                "examples": [
+                    "She is very confident in client presentations."
+                ]
+            }
+        ],
+        "subtext": "feel confident / self-confident / very confident"
+    },
+    {
+        "word": "proud",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Feeling pleased about an achievement.",
+                "examples": [
+                    "He was proud to get his first promotion."
+                ]
+            }
+        ],
+        "subtext": "feel proud / very proud / proud of"
+    },
+    {
+        "word": "scared",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Feeling fear about something.",
+                "examples": [
+                    "She was scared about giving the presentation."
+                ]
+            }
+        ],
+        "subtext": "feel scared / scared of / very scared"
+    },
+    {
+        "word": "surprised",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Feeling shock at something unexpected.",
+                "examples": [
+                    "He was surprised to get a pay rise."
+                ]
+            }
+        ],
+        "subtext": "feel surprised / very surprised / pleasantly surprised"
+    },
+    {
+        "word": "disappointed",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Feeling sad because something was not as good as expected.",
+                "examples": [
+                    "She was disappointed not to get the job."
+                ]
+            }
+        ],
+        "subtext": "feel disappointed / deeply disappointed / disappointed with"
+    },
+    {
+        "word": "beautiful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Attractive and pleasing to look at.",
+                "examples": [
+                    "She has a beautiful, bright office with city views."
+                ]
+            }
+        ],
+        "subtext": "beautiful view / beautiful city / absolutely beautiful"
+    },
+    {
+        "word": "pretty",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Pleasant to look at; quite attractive.",
+                "examples": [
+                    "The new meeting room is very pretty."
+                ]
+            }
+        ],
+        "subtext": "pretty good / a pretty place / quite pretty"
+    },
+    {
+        "word": "strong",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having great physical or mental power.",
+                "examples": [
+                    "She is a strong leader and very respected."
+                ]
+            }
+        ],
+        "subtext": "strong coffee / strong opinion / very strong"
+    },
+    {
+        "word": "weak",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Lacking strength or power.",
+                "examples": [
+                    "The signal is weak on the top floor."
+                ]
+            }
+        ],
+        "subtext": "weak connection / a weak argument / very weak"
+    },
+    {
+        "word": "fit",
+        "level": "starter",
+        "theme": "health_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "In good physical condition through exercise.",
+                "examples": [
+                    "She keeps fit by cycling to work every day."
+                ]
+            }
+        ],
+        "subtext": "physically fit / stay fit / keep fit"
+    },
+    {
+        "word": "excellent",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Extremely good; of a very high standard.",
+                "examples": [
+                    "She received an excellent review."
+                ]
+            }
+        ],
+        "subtext": "excellent work / excellent results / absolutely excellent"
+    },
+    {
+        "word": "perfect",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Without any faults; completely correct.",
+                "examples": [
+                    "The timing of the launch was perfect."
+                ]
+            }
+        ],
+        "subtext": "a perfect opportunity / perfect timing / absolutely perfect"
+    },
+    {
+        "word": "useless",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Without any useful value; not helpful.",
+                "examples": [
+                    "This software is useless for our needs."
+                ]
+            }
+        ],
+        "subtext": "completely useless / prove useless / a useless idea"
+    },
+    {
+        "word": "correct",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "True or right; without errors.",
+                "examples": [
+                    "Please check the figures are correct."
+                ]
+            }
+        ],
+        "subtext": "correct answer / the correct way / completely correct"
+    },
+    {
+        "word": "interesting",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Attracting attention; worth knowing about.",
+                "examples": [
+                    "The new proposal is very interesting."
+                ]
+            }
+        ],
+        "subtext": "find interesting / very interesting / an interesting idea"
+    },
+    {
+        "word": "boring",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Not interesting; dull.",
+                "examples": [
+                    "The training session was very boring."
+                ]
+            }
+        ],
+        "subtext": "very boring / a boring meeting / find boring"
+    },
+    {
+        "word": "necessary",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Needed; required in order to do something.",
+                "examples": [
+                    "A good internet connection is necessary for remote work."
+                ]
+            }
+        ],
+        "subtext": "absolutely necessary / if necessary / necessary to do"
+    },
+    {
+        "word": "possible",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Able to happen or be achieved.",
+                "examples": [
+                    "Is it possible to finish by Friday?"
+                ]
+            }
+        ],
+        "subtext": "as soon as possible / it is possible / make possible"
+    },
+    {
+        "word": "impossible",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Not able to happen or be done.",
+                "examples": [
+                    "It is impossible to finish in one day."
+                ]
+            }
+        ],
+        "subtext": "virtually impossible / make impossible / nearly impossible"
+    },
+    {
+        "word": "special",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Different from what is usual; particularly important.",
+                "examples": [
+                    "She has a special talent for problem-solving."
+                ]
+            }
+        ],
+        "subtext": "a special offer / special occasion / very special"
+    },
+    {
+        "word": "popular",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Liked by many people.",
+                "examples": [
+                    "The new café near the office is very popular."
+                ]
+            }
+        ],
+        "subtext": "very popular / popular choice / most popular"
+    },
+    {
+        "word": "similar",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Almost the same; having many shared features.",
+                "examples": [
+                    "Our approaches are very similar."
+                ]
+            }
+        ],
+        "subtext": "very similar / similar to / similar results"
+    },
+    {
+        "word": "friendly",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Kind and pleasant; easy to talk to.",
+                "examples": [
+                    "The new manager is very friendly and approachable."
+                ]
+            }
+        ],
+        "subtext": "very friendly / a friendly face / friendly atmosphere"
+    },
+    {
+        "word": "kind",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Caring and generous to others.",
+                "examples": [
+                    "She is kind to everyone in the office."
+                ]
+            }
+        ],
+        "subtext": "very kind / kind of you / a kind person"
+    },
+    {
+        "word": "funny",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Making people laugh; humorous.",
+                "examples": [
+                    "He has a funny way of explaining complex ideas."
+                ]
+            }
+        ],
+        "subtext": "very funny / funny story / find funny"
+    },
+    {
+        "word": "clever",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Intelligent; quick to understand.",
+                "examples": [
+                    "She is a clever negotiator."
+                ]
+            }
+        ],
+        "subtext": "very clever / a clever idea / clever enough"
+    },
+    {
+        "word": "polite",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Behaving in a respectful and courteous way.",
+                "examples": [
+                    "He is always polite with clients."
+                ]
+            }
+        ],
+        "subtext": "very polite / polite request / polite enough"
+    },
+    {
+        "word": "rude",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Not polite; showing a lack of respect.",
+                "examples": [
+                    "That email was quite rude and unprofessional."
+                ]
+            }
+        ],
+        "subtext": "very rude / incredibly rude / deliberately rude"
+    },
+    {
+        "word": "lazy",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Not willing to work or use effort.",
+                "examples": [
+                    "He has a reputation for being lazy with follow-ups."
+                ]
+            }
+        ],
+        "subtext": "very lazy / a lazy approach / too lazy"
+    },
+    {
+        "word": "honest",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Telling the truth; not deceiving.",
+                "examples": [
+                    "She is known for being completely honest with clients."
+                ]
+            }
+        ],
+        "subtext": "very honest / brutally honest / completely honest"
+    },
+    {
+        "word": "noisy",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Making a lot of sound; loud.",
+                "examples": [
+                    "The open plan office is very noisy."
+                ]
+            }
+        ],
+        "subtext": "very noisy / noisy environment / too noisy"
     }
 ];
     const lang = "en";

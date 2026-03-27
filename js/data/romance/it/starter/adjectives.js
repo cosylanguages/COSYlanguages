@@ -500,7 +500,7 @@
         "femininePlural": "gialle"
     },
     {
-        "word": "gratuito",
+        "word": "libero",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
@@ -514,10 +514,10 @@
                 ]
             }
         ],
-        "feminine": "gratuita",
+        "feminine": "libera",
         "translation": "free",
-        "plural": "gratuiti",
-        "femininePlural": "gratuite"
+        "plural": "liberi",
+        "femininePlural": "libere"
     },
     {
         "word": "aperto",
@@ -1112,6 +1112,405 @@
         "form": "adjective",
         "plural": "pericolosi",
         "femininePlural": "pericolose"
+    },
+    {
+        "word": "infelice",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "unhappy",
+        "feminine": "infelice",
+        "plural": "infelici",
+        "femininePlural": "infelici"
+    },
+    {
+        "word": "nervoso",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "nervous",
+        "feminine": "nervosa",
+        "plural": "nervosi",
+        "femininePlural": "nervose"
+    },
+    {
+        "word": "stressato",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "stressed",
+        "feminine": "stressata",
+        "plural": "stressati",
+        "femininePlural": "stressate"
+    },
+    {
+        "word": "sicuro di sé",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "confident",
+        "feminine": "sicura di sé",
+        "plural": "sicuri di sé",
+        "femininePlural": "sicure di sé"
+    },
+    {
+        "word": "orgoglioso",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "proud",
+        "feminine": "orgogliosa",
+        "plural": "orgogliosi",
+        "femininePlural": "orgogliose"
+    },
+    {
+        "word": "spaventato",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "scared",
+        "feminine": "spaventata",
+        "plural": "spaventati",
+        "femininePlural": "spaventate"
+    },
+    {
+        "word": "sorpreso",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "form": "adjective",
+        "translation": "surprised",
+        "feminine": "sorpresa",
+        "plural": "sorpresi",
+        "femininePlural": "sorprese"
+    },
+    {
+        "word": "deluso",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "disappointed",
+        "feminine": "delusa",
+        "plural": "delusi",
+        "femininePlural": "deluse"
+    },
+    {
+        "word": "bello",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "beautiful",
+        "feminine": "bella",
+        "plural": "belli",
+        "femininePlural": "belle"
+    },
+    {
+        "word": "carino",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "pretty",
+        "feminine": "carina",
+        "plural": "carini",
+        "femininePlural": "carine"
+    },
+    {
+        "word": "forte",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "strong",
+        "feminine": "forte",
+        "plural": "forti",
+        "femininePlural": "forti"
+    },
+    {
+        "word": "debole",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "weak",
+        "feminine": "debole",
+        "plural": "deboli",
+        "femininePlural": "deboli"
+    },
+    {
+        "word": "in forma",
+        "level": "starter",
+        "theme": "health_A1",
+        "form": "adjective",
+        "translation": "fit",
+        "feminine": "in forma",
+        "plural": "in forma",
+        "femininePlural": "in forma"
+    },
+    {
+        "word": "eccellente",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "excellent",
+        "feminine": "eccellente",
+        "plural": "eccellenti",
+        "femininePlural": "eccellenti"
+    },
+    {
+        "word": "perfetto",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "perfect",
+        "feminine": "perfetta",
+        "plural": "perfetti",
+        "femininePlural": "perfette"
+    },
+    {
+        "word": "inutile",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "useless",
+        "feminine": "inutile",
+        "plural": "inutili",
+        "femininePlural": "inutili"
+    },
+    {
+        "word": "corretto",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "correct",
+        "feminine": "corretta",
+        "plural": "corretti",
+        "femininePlural": "corrette"
+    },
+    {
+        "word": "interessante",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "interesting",
+        "feminine": "interessante",
+        "plural": "interessanti",
+        "femininePlural": "interessanti"
+    },
+    {
+        "word": "noioso",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "boring",
+        "feminine": "noiosa",
+        "plural": "noiosi",
+        "femininePlural": "noiose"
+    },
+    {
+        "word": "necessario",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "necessary",
+        "feminine": "necessaria",
+        "plural": "necessari",
+        "femininePlural": "necessarie"
+    },
+    {
+        "word": "possibile",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "possible",
+        "feminine": "possibile",
+        "plural": "possibili",
+        "femininePlural": "possibili"
+    },
+    {
+        "word": "impossibile",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "impossible",
+        "feminine": "impossibile",
+        "plural": "impossibili",
+        "femininePlural": "impossibili"
+    },
+    {
+        "word": "speciale",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "special",
+        "feminine": "speciale",
+        "plural": "speciali",
+        "femininePlural": "speciali"
+    },
+    {
+        "word": "popolare",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "popular",
+        "feminine": "popolare",
+        "plural": "popolari",
+        "femininePlural": "popolari"
+    },
+    {
+        "word": "simile",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "similar",
+        "feminine": "simile",
+        "plural": "simili",
+        "femininePlural": "simili"
+    },
+    {
+        "word": "amichevole",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "friendly",
+        "feminine": "amichevole",
+        "plural": "amichevoli",
+        "femininePlural": "amichevoli"
+    },
+    {
+        "word": "gentile",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "kind",
+        "feminine": "gentile",
+        "plural": "gentili",
+        "femininePlural": "gentili"
+    },
+    {
+        "word": "divertente",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "funny",
+        "feminine": "divertente",
+        "plural": "divertenti",
+        "femininePlural": "divertenti"
+    },
+    {
+        "word": "intelligente",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "clever",
+        "feminine": "intelligente",
+        "plural": "intelligenti",
+        "femininePlural": "intelligenti"
+    },
+    {
+        "word": "educato",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "polite",
+        "feminine": "educata",
+        "plural": "educati",
+        "femininePlural": "educate"
+    },
+    {
+        "word": "maleducato",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "rude",
+        "feminine": "maleducata",
+        "plural": "maleducati",
+        "femininePlural": "maleducate"
+    },
+    {
+        "word": "pigro",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "lazy",
+        "feminine": "pigra",
+        "plural": "pigri",
+        "femininePlural": "pigre"
+    },
+    {
+        "word": "onesto",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "honest",
+        "feminine": "onesta",
+        "plural": "onesti",
+        "femininePlural": "oneste"
+    },
+    {
+        "word": "rumoroso",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "noisy",
+        "feminine": "rumorosa",
+        "plural": "rumorosi",
+        "femininePlural": "rumorose"
+    },
+    {
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "young",
+        "feminine": "giovane",
+        "plural": "giovani",
+        "femininePlural": "giovani"
+    },
+    {
+        "word": "sano",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "healthy",
+        "feminine": "sana",
+        "plural": "sani",
+        "femininePlural": "sane"
+    },
+    {
+        "word": "malato",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "ill",
+        "feminine": "malata",
+        "plural": "malati",
+        "femininePlural": "malate"
+    },
+    {
+        "word": "utile",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "useful",
+        "feminine": "utile",
+        "plural": "utili",
+        "femininePlural": "utili"
+    },
+    {
+        "word": "rilassato",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "relaxed",
+        "feminine": "rilassata",
+        "plural": "rilassati",
+        "femininePlural": "rilassate"
+    },
+    {
+        "word": "preoccupato",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "worried",
+        "feminine": "preoccupata",
+        "plural": "preoccupati",
+        "femininePlural": "preoccupate"
     }
 ];
     const lang = "it";

@@ -513,7 +513,7 @@
         "plural": "жёлтые"
     },
     {
-        "word": "бесплатный",
+        "word": "свободный",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
@@ -527,10 +527,10 @@
                 ]
             }
         ],
-        "feminine": "бесплатная",
+        "feminine": "свободная",
         "translation": "free",
-        "neuter": "бесплатное",
-        "plural": "бесплатные"
+        "neuter": "свободное",
+        "plural": "свободные"
     },
     {
         "word": "открытый",
@@ -1114,6 +1114,405 @@
         "form": "adjective",
         "neuter": "опасное",
         "plural": "опасные"
+    },
+    {
+        "word": "несчастный",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "unhappy",
+        "feminine": "несчастная",
+        "neuter": "несчастное",
+        "plural": "несчастные"
+    },
+    {
+        "word": "нервный",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "nervous",
+        "feminine": "нервная",
+        "neuter": "нервное",
+        "plural": "нервные"
+    },
+    {
+        "word": "напряжённый",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "stressed",
+        "feminine": "напряжённая",
+        "neuter": "напряжённое",
+        "plural": "напряжённые"
+    },
+    {
+        "word": "уверенный",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "confident",
+        "feminine": "уверенная",
+        "neuter": "уверенное",
+        "plural": "уверенные"
+    },
+    {
+        "word": "гордый",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "proud",
+        "feminine": "гордая",
+        "neuter": "гордое",
+        "plural": "гордые"
+    },
+    {
+        "word": "напуганный",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "scared",
+        "feminine": "напуганная",
+        "neuter": "напуганное",
+        "plural": "напуганные"
+    },
+    {
+        "word": "удивлённый",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "form": "adjective",
+        "translation": "surprised",
+        "feminine": "удивлённая",
+        "neuter": "удивлённое",
+        "plural": "удивлённые"
+    },
+    {
+        "word": "разочарованный",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "disappointed",
+        "feminine": "разочарованная",
+        "neuter": "разочарованное",
+        "plural": "разочарованные"
+    },
+    {
+        "word": "красивый",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "beautiful",
+        "feminine": "красивая",
+        "neuter": "красивое",
+        "plural": "красивые"
+    },
+    {
+        "word": "симпатичный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "pretty",
+        "feminine": "симпатичная",
+        "neuter": "симпатичное",
+        "plural": "симпатичные"
+    },
+    {
+        "word": "сильный",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "strong",
+        "feminine": "сильная",
+        "neuter": "сильное",
+        "plural": "сильные"
+    },
+    {
+        "word": "слабый",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "weak",
+        "feminine": "слабая",
+        "neuter": "слабое",
+        "plural": "слабые"
+    },
+    {
+        "word": "спортивный",
+        "level": "starter",
+        "theme": "health_A1",
+        "form": "adjective",
+        "translation": "fit",
+        "feminine": "спортивная",
+        "neuter": "спортивное",
+        "plural": "спортивные"
+    },
+    {
+        "word": "отличный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "excellent",
+        "feminine": "отличная",
+        "neuter": "отличное",
+        "plural": "отличные"
+    },
+    {
+        "word": "идеальный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "perfect",
+        "feminine": "идеальная",
+        "neuter": "идеальное",
+        "plural": "идеальные"
+    },
+    {
+        "word": "бесполезный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "useless",
+        "feminine": "бесполезная",
+        "neuter": "бесполезное",
+        "plural": "бесполезные"
+    },
+    {
+        "word": "верный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "correct",
+        "feminine": "верная",
+        "neuter": "верное",
+        "plural": "верные"
+    },
+    {
+        "word": "интересный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "interesting",
+        "feminine": "интересная",
+        "neuter": "интересное",
+        "plural": "интересные"
+    },
+    {
+        "word": "скучный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "boring",
+        "feminine": "скучная",
+        "neuter": "скучное",
+        "plural": "скучные"
+    },
+    {
+        "word": "необходимый",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "necessary",
+        "feminine": "необходимая",
+        "neuter": "необходимое",
+        "plural": "необходимые"
+    },
+    {
+        "word": "возможный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "possible",
+        "feminine": "возможная",
+        "neuter": "возможное",
+        "plural": "возможные"
+    },
+    {
+        "word": "невозможный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "impossible",
+        "feminine": "невозможная",
+        "neuter": "невозможное",
+        "plural": "невозможные"
+    },
+    {
+        "word": "особенный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "special",
+        "feminine": "особенная",
+        "neuter": "особенное",
+        "plural": "особенные"
+    },
+    {
+        "word": "популярный",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "popular",
+        "feminine": "популярная",
+        "neuter": "популярное",
+        "plural": "популярные"
+    },
+    {
+        "word": "похожий",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "similar",
+        "feminine": "похожая",
+        "neuter": "похожее",
+        "plural": "похожие"
+    },
+    {
+        "word": "дружелюбный",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "friendly",
+        "feminine": "дружелюбная",
+        "neuter": "дружелюбное",
+        "plural": "дружелюбные"
+    },
+    {
+        "word": "добрый",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "kind",
+        "feminine": "добрая",
+        "neuter": "доброе",
+        "plural": "добрые"
+    },
+    {
+        "word": "смешной",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "funny",
+        "feminine": "смешная",
+        "neuter": "смешное",
+        "plural": "смешные"
+    },
+    {
+        "word": "умный",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "clever",
+        "feminine": "умная",
+        "neuter": "умное",
+        "plural": "умные"
+    },
+    {
+        "word": "вежливый",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "polite",
+        "feminine": "вежливая",
+        "neuter": "вежливое",
+        "plural": "вежливые"
+    },
+    {
+        "word": "грубый",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "rude",
+        "feminine": "грубая",
+        "neuter": "грубое",
+        "plural": "грубые"
+    },
+    {
+        "word": "ленивый",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "lazy",
+        "feminine": "ленивая",
+        "neuter": "ленивое",
+        "plural": "ленивые"
+    },
+    {
+        "word": "честный",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "honest",
+        "feminine": "честная",
+        "neuter": "честное",
+        "plural": "честные"
+    },
+    {
+        "word": "шумный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "noisy",
+        "feminine": "шумная",
+        "neuter": "шумное",
+        "plural": "шумные"
+    },
+    {
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "young",
+        "feminine": "молодая",
+        "neuter": "молодое",
+        "plural": "молодые"
+    },
+    {
+        "word": "здоровый",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "healthy",
+        "feminine": "здоровая",
+        "neuter": "здоровое",
+        "plural": "здоровые"
+    },
+    {
+        "word": "больной",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "ill",
+        "feminine": "больная",
+        "neuter": "больное",
+        "plural": "больные"
+    },
+    {
+        "word": "полезный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "useful",
+        "feminine": "полезная",
+        "neuter": "полезное",
+        "plural": "полезные"
+    },
+    {
+        "word": "расслабленный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "relaxed",
+        "feminine": "расслабленная",
+        "neuter": "расслабленное",
+        "plural": "расслабленные"
+    },
+    {
+        "word": "обеспокоенный",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "worried",
+        "feminine": "обеспокоенная",
+        "neuter": "обеспокоенное",
+        "plural": "обеспокоенные"
     }
 ];
     const lang = "ru";

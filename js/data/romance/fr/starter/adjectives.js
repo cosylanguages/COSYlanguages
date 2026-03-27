@@ -645,7 +645,7 @@
         "femininePlural": "jaunes"
     },
     {
-        "word": "gratuit",
+        "word": "libre",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
@@ -659,10 +659,10 @@
                 ]
             }
         ],
-        "feminine": "gratuite",
+        "feminine": "libre",
         "translation": "free",
-        "plural": "gratuits",
-        "femininePlural": "gratuites"
+        "plural": "libres",
+        "femininePlural": "libres"
     },
     {
         "word": "ouvert",
@@ -1224,6 +1224,405 @@
         "form": "adjective",
         "plural": "dangereux",
         "femininePlural": "dangereuses"
+    },
+    {
+        "word": "malheureux",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "unhappy",
+        "feminine": "malheureuse",
+        "plural": "malheureux",
+        "femininePlural": "malheureuses"
+    },
+    {
+        "word": "nerveux",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "nervous",
+        "feminine": "nerveuse",
+        "plural": "nerveux",
+        "femininePlural": "nerveuses"
+    },
+    {
+        "word": "stressé",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "stressed",
+        "feminine": "stressée",
+        "plural": "stressés",
+        "femininePlural": "stressées"
+    },
+    {
+        "word": "confiant",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "confident",
+        "feminine": "confiante",
+        "plural": "confiants",
+        "femininePlural": "confiantes"
+    },
+    {
+        "word": "fier",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "proud",
+        "feminine": "fière",
+        "plural": "fiers",
+        "femininePlural": "fières"
+    },
+    {
+        "word": "effrayé",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "scared",
+        "feminine": "effrayée",
+        "plural": "effrayés",
+        "femininePlural": "effrayées"
+    },
+    {
+        "word": "surpris",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "form": "adjective",
+        "translation": "surprised",
+        "feminine": "surprise",
+        "plural": "surpris",
+        "femininePlural": "surprises"
+    },
+    {
+        "word": "déçu",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adjective",
+        "translation": "disappointed",
+        "feminine": "déçue",
+        "plural": "déçus",
+        "femininePlural": "déçues"
+    },
+    {
+        "word": "beau",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "beautiful",
+        "feminine": "belle",
+        "plural": "beaux",
+        "femininePlural": "belles"
+    },
+    {
+        "word": "joli",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "pretty",
+        "feminine": "jolie",
+        "plural": "jolis",
+        "femininePlural": "jolies"
+    },
+    {
+        "word": "fort",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "strong",
+        "feminine": "forte",
+        "plural": "forts",
+        "femininePlural": "fortes"
+    },
+    {
+        "word": "faible",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "weak",
+        "feminine": "faible",
+        "plural": "faibles",
+        "femininePlural": "faibles"
+    },
+    {
+        "word": "en forme",
+        "level": "starter",
+        "theme": "health_A1",
+        "form": "adjective",
+        "translation": "fit",
+        "feminine": "en forme",
+        "plural": "en forme",
+        "femininePlural": "en forme"
+    },
+    {
+        "word": "excellent",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "excellent",
+        "feminine": "excellente",
+        "plural": "excellents",
+        "femininePlural": "excellentes"
+    },
+    {
+        "word": "parfait",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "perfect",
+        "feminine": "parfaite",
+        "plural": "parfaits",
+        "femininePlural": "parfaites"
+    },
+    {
+        "word": "inutile",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "useless",
+        "feminine": "inutile",
+        "plural": "inutiles",
+        "femininePlural": "inutiles"
+    },
+    {
+        "word": "correct",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "correct",
+        "feminine": "correcte",
+        "plural": "corrects",
+        "femininePlural": "correctes"
+    },
+    {
+        "word": "intéressant",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "interesting",
+        "feminine": "intéressante",
+        "plural": "intéressants",
+        "femininePlural": "intéressantes"
+    },
+    {
+        "word": "ennuyeux",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "boring",
+        "feminine": "ennuyeuse",
+        "plural": "ennuyeux",
+        "femininePlural": "ennuyeuses"
+    },
+    {
+        "word": "nécessaire",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "necessary",
+        "feminine": "nécessaire",
+        "plural": "nécessaires",
+        "femininePlural": "nécessaires"
+    },
+    {
+        "word": "possible",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "possible",
+        "feminine": "possible",
+        "plural": "possibles",
+        "femininePlural": "possibles"
+    },
+    {
+        "word": "impossible",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "impossible",
+        "feminine": "impossible",
+        "plural": "impossibles",
+        "femininePlural": "impossibles"
+    },
+    {
+        "word": "spécial",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "special",
+        "feminine": "spéciale",
+        "plural": "spéciaux",
+        "femininePlural": "spéciales"
+    },
+    {
+        "word": "populaire",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "popular",
+        "feminine": "populaire",
+        "plural": "populaires",
+        "femininePlural": "populaires"
+    },
+    {
+        "word": "similaire",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "similar",
+        "feminine": "similaire",
+        "plural": "similaires",
+        "femininePlural": "similaires"
+    },
+    {
+        "word": "amical",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "friendly",
+        "feminine": "amicale",
+        "plural": "amicaux",
+        "femininePlural": "amicales"
+    },
+    {
+        "word": "gentil",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "kind",
+        "feminine": "gentille",
+        "plural": "gentils",
+        "femininePlural": "gentilles"
+    },
+    {
+        "word": "drôle",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "funny",
+        "feminine": "drôle",
+        "plural": "drôles",
+        "femininePlural": "drôles"
+    },
+    {
+        "word": "intelligent",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "clever",
+        "feminine": "intelligente",
+        "plural": "intelligents",
+        "femininePlural": "intelligentes"
+    },
+    {
+        "word": "poli",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "polite",
+        "feminine": "polie",
+        "plural": "polis",
+        "femininePlural": "polies"
+    },
+    {
+        "word": "impoli",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "rude",
+        "feminine": "impolie",
+        "plural": "impolis",
+        "femininePlural": "impolies"
+    },
+    {
+        "word": "paresseux",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "lazy",
+        "feminine": "paresseuse",
+        "plural": "paresseux",
+        "femininePlural": "paresseuses"
+    },
+    {
+        "word": "honnête",
+        "level": "starter",
+        "theme": "personality_A1",
+        "form": "adjective",
+        "translation": "honest",
+        "feminine": "honnête",
+        "plural": "honnêtes",
+        "femininePlural": "honnêtes"
+    },
+    {
+        "word": "bruyant",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "noisy",
+        "feminine": "bruyante",
+        "plural": "bruyants",
+        "femininePlural": "bruyantes"
+    },
+    {
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "young",
+        "feminine": "jeune",
+        "plural": "jeunes",
+        "femininePlural": "jeunes"
+    },
+    {
+        "word": "sain",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "healthy",
+        "feminine": "saine",
+        "plural": "sains",
+        "femininePlural": "saines"
+    },
+    {
+        "word": "malade",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "ill",
+        "feminine": "malade",
+        "plural": "malades",
+        "femininePlural": "malades"
+    },
+    {
+        "word": "utile",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "useful",
+        "feminine": "utile",
+        "plural": "utiles",
+        "femininePlural": "utiles"
+    },
+    {
+        "word": "détendu",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "relaxed",
+        "feminine": "détendue",
+        "plural": "détendus",
+        "femininePlural": "détendues"
+    },
+    {
+        "word": "inquiet",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "translation": "worried",
+        "feminine": "inquiète",
+        "plural": "inquiets",
+        "femininePlural": "inquiètes"
     }
 ];
     const lang = "fr";
