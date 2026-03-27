@@ -22,7 +22,9 @@
                 ]
             }
         ],
-        "subtext": "a tall building / a tall person / tall enough"
+        "subtext": "a tall building / a tall person / tall enough",
+        "comparative": "taller",
+        "superlative": "the tallest"
     },
     {
         "word": "short",
@@ -46,7 +48,9 @@
                 ]
             }
         ],
-        "subtext": "a short journey / short hair / too short"
+        "subtext": "a short journey / short hair / too short",
+        "comparative": "shorter",
+        "superlative": "the shortest"
     },
     {
         "word": "young",
@@ -63,7 +67,9 @@
                 ]
             }
         ],
-        "subtext": "young person / young professional / young at heart"
+        "subtext": "young person / young professional / young at heart",
+        "comparative": "younger",
+        "superlative": "the youngest"
     },
     {
         "word": "old",
@@ -86,7 +92,9 @@
                 ]
             }
         ],
-        "subtext": "old friend / old habits / very old"
+        "subtext": "old friend / old habits / very old",
+        "comparative": "older",
+        "superlative": "the oldest"
     },
     {
         "word": "sunny",
@@ -103,7 +111,9 @@
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell"
+        "subtext": "sunny day / sunny weather / sunny spell",
+        "comparative": "sunnyer",
+        "superlative": "the sunnyest"
     },
     {
         "word": "rainy",
@@ -120,7 +130,9 @@
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season"
+        "subtext": "rainy day / rainy weather / rainy season",
+        "comparative": "rainyer",
+        "superlative": "the rainyest"
     },
     {
         "word": "hot",
@@ -140,7 +152,9 @@
                     "It is too hot to work comfortably today."
                 ]
             }
-        ]
+        ],
+        "comparative": "hoter",
+        "superlative": "the hotest"
     },
     {
         "word": "cold",
@@ -165,7 +179,9 @@
                     "I need a coat — it is very cold outside."
                 ]
             }
-        ]
+        ],
+        "comparative": "colder",
+        "superlative": "the coldest"
     },
     {
         "word": "ordinary",
@@ -182,7 +198,9 @@
                 ]
             }
         ],
-        "subtext": "ordinary day / ordinary life / nothing ordinary"
+        "subtext": "ordinary day / ordinary life / nothing ordinary",
+        "comparative": "more ordinary",
+        "superlative": "the most ordinary"
     },
     {
         "word": "cheap",
@@ -206,7 +224,9 @@
                     "The lunch near the office is very cheap."
                 ]
             }
-        ]
+        ],
+        "comparative": "cheaper",
+        "superlative": "the cheapest"
     },
     {
         "word": "expensive",
@@ -230,7 +250,9 @@
                     "The city centre is expensive for rent."
                 ]
             }
-        ]
+        ],
+        "comparative": "more expensive",
+        "superlative": "the most expensive"
     },
     {
         "word": "good",
@@ -254,7 +276,9 @@
                     "She has a good job with flexible hours."
                 ]
             }
-        ]
+        ],
+        "comparative": "gooder",
+        "superlative": "the goodest"
     },
     {
         "word": "bad",
@@ -278,7 +302,9 @@
                     "He had a bad day at work."
                 ]
             }
-        ]
+        ],
+        "comparative": "bader",
+        "superlative": "the badest"
     },
     {
         "word": "big",
@@ -302,7 +328,9 @@
                     "They have a big house near the park."
                 ]
             }
-        ]
+        ],
+        "comparative": "biger",
+        "superlative": "the bigest"
     },
     {
         "word": "small",
@@ -326,7 +354,9 @@
                     "She rents a small flat in the city centre."
                 ]
             }
-        ]
+        ],
+        "comparative": "smaller",
+        "superlative": "the smallest"
     },
     {
         "word": "easy",
@@ -345,7 +375,9 @@
                 ]
             }
         ],
-        "subtext": "easy to do / nice and easy / not easy"
+        "subtext": "easy to do / nice and easy / not easy",
+        "comparative": "easyer",
+        "superlative": "the easyest"
     },
     {
         "word": "difficult",
@@ -369,7 +401,9 @@
                 ]
             }
         ],
-        "subtext": "difficult to do / very difficult / find it difficult"
+        "subtext": "difficult to do / very difficult / find it difficult",
+        "comparative": "more difficult",
+        "superlative": "the most difficult"
     },
     {
         "word": "happy",
@@ -391,7 +425,9 @@
                     "She is happy in her new role."
                 ]
             }
-        ]
+        ],
+        "comparative": "happyer",
+        "superlative": "the happyest"
     },
     {
         "word": "tired",
@@ -408,7 +444,9 @@
                     "I feel tired after a long week."
                 ]
             }
-        ]
+        ],
+        "comparative": "tireder",
+        "superlative": "the tiredest"
     },
     {
         "word": "full-time",
@@ -426,7 +464,9 @@
                 ]
             }
         ],
-        "subtext": "full-time job / full-time work / full-time employee"
+        "subtext": "full-time job / full-time work / full-time employee",
+        "comparative": "more full-time",
+        "superlative": "the most full-time"
     },
     {
         "word": "part-time",
@@ -444,7 +484,9 @@
                 ]
             }
         ],
-        "subtext": "part-time job / part-time work / part-time student"
+        "subtext": "part-time job / part-time work / part-time student",
+        "comparative": "more part-time",
+        "superlative": "the most part-time"
     },
     {
         "word": "clean",
@@ -463,7 +505,9 @@
                     "Keep the workspace clean and tidy."
                 ]
             }
-        ]
+        ],
+        "comparative": "cleaner",
+        "superlative": "the cleanest"
     },
     {
         "word": "healthy",
@@ -481,7 +525,9 @@
                     "Vegetables are healthy food."
                 ]
             }
-        ]
+        ],
+        "comparative": "healthyer",
+        "superlative": "the healthyest"
     },
     {
         "word": "ill",
@@ -499,7 +545,9 @@
                     "I feel ill today."
                 ]
             }
-        ]
+        ],
+        "comparative": "iller",
+        "superlative": "the illest"
     },
     {
         "word": "online",
@@ -517,7 +565,9 @@
                 ]
             }
         ],
-        "subtext": "online shopping / online course / stay online"
+        "subtext": "online shopping / online course / stay online",
+        "comparative": "onlineer",
+        "superlative": "the onlineest"
     },
     {
         "word": "alone",
@@ -535,7 +585,9 @@
                 ]
             }
         ],
-        "subtext": "live alone / travel alone / feel alone"
+        "subtext": "live alone / travel alone / feel alone",
+        "comparative": "aloneer",
+        "superlative": "the aloneest"
     },
     {
         "word": "relaxed",
@@ -553,7 +605,9 @@
                     "I feel relaxed at the weekend."
                 ]
             }
-        ]
+        ],
+        "comparative": "relaxeder",
+        "superlative": "the relaxedest"
     },
     {
         "word": "worried",
@@ -571,7 +625,9 @@
                     "She is worried about her job."
                 ]
             }
-        ]
+        ],
+        "comparative": "worrieder",
+        "superlative": "the worriedest"
     },
     {
         "word": "busy",
@@ -593,7 +649,9 @@
                     "Monday morning is always very busy."
                 ]
             }
-        ]
+        ],
+        "comparative": "busyer",
+        "superlative": "the busyest"
     },
     {
         "word": "useful",
@@ -611,7 +669,9 @@
                     "A car is very useful in the country."
                 ]
             }
-        ]
+        ],
+        "comparative": "usefuler",
+        "superlative": "the usefulest"
     },
     {
         "word": "important",
@@ -633,7 +693,9 @@
                     "Sleep is very important for performance."
                 ]
             }
-        ]
+        ],
+        "comparative": "more important",
+        "superlative": "the most important"
     },
     {
         "word": "red",
@@ -655,7 +717,9 @@
                     "She drives a red car."
                 ]
             }
-        ]
+        ],
+        "comparative": "reder",
+        "superlative": "the redest"
     },
     {
         "word": "blue",
@@ -677,7 +741,9 @@
                     "He wears a blue shirt to work."
                 ]
             }
-        ]
+        ],
+        "comparative": "blueer",
+        "superlative": "the blueest"
     },
     {
         "word": "green",
@@ -699,7 +765,9 @@
                     "The company has green credentials."
                 ]
             }
-        ]
+        ],
+        "comparative": "greener",
+        "superlative": "the greenest"
     },
     {
         "word": "white",
@@ -721,7 +789,9 @@
                     "The office walls are painted white."
                 ]
             }
-        ]
+        ],
+        "comparative": "whiteer",
+        "superlative": "the whiteest"
     },
     {
         "word": "black",
@@ -743,7 +813,9 @@
                     "He always wears a black suit."
                 ]
             }
-        ]
+        ],
+        "comparative": "blacker",
+        "superlative": "the blackest"
     },
     {
         "word": "yellow",
@@ -765,7 +837,9 @@
                     "She bought a yellow notepad."
                 ]
             }
-        ]
+        ],
+        "comparative": "yellower",
+        "superlative": "the yellowest"
     },
     {
         "word": "free",
@@ -787,7 +861,9 @@
                     "The parking here is free."
                 ]
             }
-        ]
+        ],
+        "comparative": "freeer",
+        "superlative": "the freeest"
     },
     {
         "word": "open",
@@ -811,7 +887,9 @@
                     "The office is open from eight to six."
                 ]
             }
-        ]
+        ],
+        "comparative": "opener",
+        "superlative": "the openest"
     },
     {
         "word": "closed",
@@ -830,7 +908,9 @@
                     "The bank is closed on Sunday."
                 ]
             }
-        ]
+        ],
+        "comparative": "closeder",
+        "superlative": "the closedest"
     },
     {
         "word": "large",
@@ -845,7 +925,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "largeer",
+        "superlative": "the largeest"
     },
     {
         "word": "little",
@@ -860,7 +942,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "littleer",
+        "superlative": "the littleest"
     },
     {
         "word": "long",
@@ -875,7 +959,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "longer",
+        "superlative": "the longest"
     },
     {
         "word": "high",
@@ -890,7 +976,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "higher",
+        "superlative": "the highest"
     },
     {
         "word": "low",
@@ -905,7 +993,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "lower",
+        "superlative": "the lowest"
     },
     {
         "word": "full",
@@ -920,7 +1010,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "fuller",
+        "superlative": "the fullest"
     },
     {
         "word": "empty",
@@ -935,7 +1027,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "emptyer",
+        "superlative": "the emptyest"
     },
     {
         "word": "warm",
@@ -950,7 +1044,9 @@
                 ]
             }
         ],
-        "theme": "weather_A1"
+        "theme": "weather_A1",
+        "comparative": "warmer",
+        "superlative": "the warmest"
     },
     {
         "word": "cool",
@@ -965,7 +1061,9 @@
                 ]
             }
         ],
-        "theme": "weather_A1"
+        "theme": "weather_A1",
+        "comparative": "cooler",
+        "superlative": "the coolest"
     },
     {
         "word": "wet",
@@ -980,7 +1078,9 @@
                 ]
             }
         ],
-        "theme": "weather_A1"
+        "theme": "weather_A1",
+        "comparative": "weter",
+        "superlative": "the wetest"
     },
     {
         "word": "dry",
@@ -995,7 +1095,9 @@
                 ]
             }
         ],
-        "theme": "weather_A1"
+        "theme": "weather_A1",
+        "comparative": "dryer",
+        "superlative": "the dryest"
     },
     {
         "word": "dirty",
@@ -1009,7 +1111,9 @@
                     "His hands are dirty after fixing the car."
                 ]
             }
-        ]
+        ],
+        "comparative": "dirtyer",
+        "superlative": "the dirtyest"
     },
     {
         "word": "hard",
@@ -1024,7 +1128,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "harder",
+        "superlative": "the hardest"
     },
     {
         "word": "soft",
@@ -1039,7 +1145,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "softer",
+        "superlative": "the softest"
     },
     {
         "word": "heavy",
@@ -1054,7 +1162,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "heavyer",
+        "superlative": "the heavyest"
     },
     {
         "word": "light",
@@ -1069,7 +1179,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "lighter",
+        "superlative": "the lightest"
     },
     {
         "word": "brown",
@@ -1084,7 +1196,9 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1"
+        "theme": "colours_patterns_A1",
+        "comparative": "browner",
+        "superlative": "the brownest"
     },
     {
         "word": "grey",
@@ -1099,7 +1213,9 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1"
+        "theme": "colours_patterns_A1",
+        "comparative": "greyer",
+        "superlative": "the greyest"
     },
     {
         "word": "pink",
@@ -1114,7 +1230,9 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1"
+        "theme": "colours_patterns_A1",
+        "comparative": "pinker",
+        "superlative": "the pinkest"
     },
     {
         "word": "orange",
@@ -1129,7 +1247,9 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1"
+        "theme": "colours_patterns_A1",
+        "comparative": "orangeer",
+        "superlative": "the orangeest"
     },
     {
         "word": "great",
@@ -1144,7 +1264,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "greater",
+        "superlative": "the greatest"
     },
     {
         "word": "nice",
@@ -1159,7 +1281,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "niceer",
+        "superlative": "the niceest"
     },
     {
         "word": "wonderful",
@@ -1174,7 +1298,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "more wonderful",
+        "superlative": "the most wonderful"
     },
     {
         "word": "terrible",
@@ -1189,7 +1315,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "more terrible",
+        "superlative": "the most terrible"
     },
     {
         "word": "awful",
@@ -1204,7 +1332,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "awfuler",
+        "superlative": "the awfulest"
     },
     {
         "word": "amazing",
@@ -1219,7 +1349,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "amazinger",
+        "superlative": "the amazingest"
     },
     {
         "word": "fantastic",
@@ -1234,7 +1366,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "more fantastic",
+        "superlative": "the most fantastic"
     },
     {
         "word": "sad",
@@ -1249,7 +1383,9 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1"
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "sader",
+        "superlative": "the sadest"
     },
     {
         "word": "hungry",
@@ -1264,7 +1400,9 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1"
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "hungryer",
+        "superlative": "the hungryest"
     },
     {
         "word": "angry",
@@ -1279,7 +1417,9 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1"
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "angryer",
+        "superlative": "the angryest"
     },
     {
         "word": "bored",
@@ -1294,7 +1434,9 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1"
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "boreder",
+        "superlative": "the boredest"
     },
     {
         "word": "excited",
@@ -1308,7 +1450,9 @@
                     "She is excited about her new job."
                 ]
             }
-        ]
+        ],
+        "comparative": "exciteder",
+        "superlative": "the excitedest"
     },
     {
         "word": "afraid",
@@ -1323,7 +1467,9 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1"
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "afraider",
+        "superlative": "the afraidest"
     },
     {
         "word": "sorry",
@@ -1338,7 +1484,9 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1"
+        "theme": "basic_negative_emotions_A1",
+        "comparative": "sorryer",
+        "superlative": "the sorryest"
     },
     {
         "word": "right",
@@ -1353,7 +1501,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "righter",
+        "superlative": "the rightest"
     },
     {
         "word": "wrong",
@@ -1368,7 +1518,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "wronger",
+        "superlative": "the wrongest"
     },
     {
         "word": "new",
@@ -1383,7 +1535,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "newer",
+        "superlative": "the newest"
     },
     {
         "word": "different",
@@ -1398,7 +1552,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "more different",
+        "superlative": "the most different"
     },
     {
         "word": "same",
@@ -1413,7 +1569,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "sameer",
+        "superlative": "the sameest"
     },
     {
         "word": "fast",
@@ -1428,7 +1586,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "faster",
+        "superlative": "the fastest"
     },
     {
         "word": "slow",
@@ -1443,7 +1603,9 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1"
+        "theme": "size_shape_A1",
+        "comparative": "slower",
+        "superlative": "the slowest"
     },
     {
         "word": "quiet",
@@ -1458,7 +1620,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "quieter",
+        "superlative": "the quietest"
     },
     {
         "word": "loud",
@@ -1473,7 +1637,9 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1"
+        "theme": "describing_things_A1",
+        "comparative": "louder",
+        "superlative": "the loudest"
     },
     {
         "word": "safe",
@@ -1488,7 +1654,9 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1"
+        "theme": "local_places_services_A1",
+        "comparative": "safeer",
+        "superlative": "the safeest"
     },
     {
         "word": "dangerous",
@@ -1503,7 +1671,9 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1"
+        "theme": "local_places_services_A1",
+        "comparative": "more dangerous",
+        "superlative": "the most dangerous"
     },
     {
         "word": "unhappy",
@@ -1518,7 +1688,9 @@
                 ]
             }
         ],
-        "subtext": "feel unhappy / very unhappy / unhappy about"
+        "subtext": "feel unhappy / very unhappy / unhappy about",
+        "comparative": "unhappyer",
+        "superlative": "the unhappyest"
     },
     {
         "word": "nervous",
@@ -1533,7 +1705,9 @@
                 ]
             }
         ],
-        "subtext": "feel nervous / nervous about / very nervous"
+        "subtext": "feel nervous / nervous about / very nervous",
+        "comparative": "nervouser",
+        "superlative": "the nervousest"
     },
     {
         "word": "stressed",
@@ -1548,7 +1722,9 @@
                 ]
             }
         ],
-        "subtext": "feel stressed / very stressed / stressed out"
+        "subtext": "feel stressed / very stressed / stressed out",
+        "comparative": "more stressed",
+        "superlative": "the most stressed"
     },
     {
         "word": "confident",
@@ -1563,7 +1739,9 @@
                 ]
             }
         ],
-        "subtext": "feel confident / self-confident / very confident"
+        "subtext": "feel confident / self-confident / very confident",
+        "comparative": "more confident",
+        "superlative": "the most confident"
     },
     {
         "word": "proud",
@@ -1578,7 +1756,9 @@
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of"
+        "subtext": "feel proud / very proud / proud of",
+        "comparative": "prouder",
+        "superlative": "the proudest"
     },
     {
         "word": "scared",
@@ -1593,7 +1773,9 @@
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared"
+        "subtext": "feel scared / scared of / very scared",
+        "comparative": "scareder",
+        "superlative": "the scaredest"
     },
     {
         "word": "surprised",
@@ -1608,7 +1790,9 @@
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised"
+        "subtext": "feel surprised / very surprised / pleasantly surprised",
+        "comparative": "more surprised",
+        "superlative": "the most surprised"
     },
     {
         "word": "disappointed",
@@ -1623,7 +1807,9 @@
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with"
+        "subtext": "feel disappointed / deeply disappointed / disappointed with",
+        "comparative": "more disappointed",
+        "superlative": "the most disappointed"
     },
     {
         "word": "beautiful",
@@ -1638,7 +1824,9 @@
                 ]
             }
         ],
-        "subtext": "beautiful view / beautiful city / absolutely beautiful"
+        "subtext": "beautiful view / beautiful city / absolutely beautiful",
+        "comparative": "more beautiful",
+        "superlative": "the most beautiful"
     },
     {
         "word": "pretty",
@@ -1653,7 +1841,9 @@
                 ]
             }
         ],
-        "subtext": "pretty good / a pretty place / quite pretty"
+        "subtext": "pretty good / a pretty place / quite pretty",
+        "comparative": "prettyer",
+        "superlative": "the prettyest"
     },
     {
         "word": "strong",
@@ -1668,7 +1858,9 @@
                 ]
             }
         ],
-        "subtext": "strong coffee / strong opinion / very strong"
+        "subtext": "strong coffee / strong opinion / very strong",
+        "comparative": "stronger",
+        "superlative": "the strongest"
     },
     {
         "word": "weak",
@@ -1683,7 +1875,9 @@
                 ]
             }
         ],
-        "subtext": "weak connection / a weak argument / very weak"
+        "subtext": "weak connection / a weak argument / very weak",
+        "comparative": "weaker",
+        "superlative": "the weakest"
     },
     {
         "word": "fit",
@@ -1698,7 +1892,9 @@
                 ]
             }
         ],
-        "subtext": "physically fit / stay fit / keep fit"
+        "subtext": "physically fit / stay fit / keep fit",
+        "comparative": "fiter",
+        "superlative": "the fitest"
     },
     {
         "word": "excellent",
@@ -1713,7 +1909,9 @@
                 ]
             }
         ],
-        "subtext": "excellent work / excellent results / absolutely excellent"
+        "subtext": "excellent work / excellent results / absolutely excellent",
+        "comparative": "more excellent",
+        "superlative": "the most excellent"
     },
     {
         "word": "perfect",
@@ -1728,7 +1926,9 @@
                 ]
             }
         ],
-        "subtext": "a perfect opportunity / perfect timing / absolutely perfect"
+        "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
+        "comparative": "perfecter",
+        "superlative": "the perfectest"
     },
     {
         "word": "useless",
@@ -1743,7 +1943,9 @@
                 ]
             }
         ],
-        "subtext": "completely useless / prove useless / a useless idea"
+        "subtext": "completely useless / prove useless / a useless idea",
+        "comparative": "uselesser",
+        "superlative": "the uselessest"
     },
     {
         "word": "correct",
@@ -1758,7 +1960,9 @@
                 ]
             }
         ],
-        "subtext": "correct answer / the correct way / completely correct"
+        "subtext": "correct answer / the correct way / completely correct",
+        "comparative": "correcter",
+        "superlative": "the correctest"
     },
     {
         "word": "interesting",
@@ -1773,7 +1977,9 @@
                 ]
             }
         ],
-        "subtext": "find interesting / very interesting / an interesting idea"
+        "subtext": "find interesting / very interesting / an interesting idea",
+        "comparative": "more interesting",
+        "superlative": "the most interesting"
     },
     {
         "word": "boring",
@@ -1788,7 +1994,9 @@
                 ]
             }
         ],
-        "subtext": "very boring / a boring meeting / find boring"
+        "subtext": "very boring / a boring meeting / find boring",
+        "comparative": "boringer",
+        "superlative": "the boringest"
     },
     {
         "word": "necessary",
@@ -1803,7 +2011,9 @@
                 ]
             }
         ],
-        "subtext": "absolutely necessary / if necessary / necessary to do"
+        "subtext": "absolutely necessary / if necessary / necessary to do",
+        "comparative": "more necessary",
+        "superlative": "the most necessary"
     },
     {
         "word": "possible",
@@ -1818,7 +2028,9 @@
                 ]
             }
         ],
-        "subtext": "as soon as possible / it is possible / make possible"
+        "subtext": "as soon as possible / it is possible / make possible",
+        "comparative": "more possible",
+        "superlative": "the most possible"
     },
     {
         "word": "impossible",
@@ -1833,7 +2045,9 @@
                 ]
             }
         ],
-        "subtext": "virtually impossible / make impossible / nearly impossible"
+        "subtext": "virtually impossible / make impossible / nearly impossible",
+        "comparative": "more impossible",
+        "superlative": "the most impossible"
     },
     {
         "word": "special",
@@ -1848,7 +2062,9 @@
                 ]
             }
         ],
-        "subtext": "a special offer / special occasion / very special"
+        "subtext": "a special offer / special occasion / very special",
+        "comparative": "specialer",
+        "superlative": "the specialest"
     },
     {
         "word": "popular",
@@ -1863,7 +2079,9 @@
                 ]
             }
         ],
-        "subtext": "very popular / popular choice / most popular"
+        "subtext": "very popular / popular choice / most popular",
+        "comparative": "popularer",
+        "superlative": "the popularest"
     },
     {
         "word": "similar",
@@ -1878,7 +2096,9 @@
                 ]
             }
         ],
-        "subtext": "very similar / similar to / similar results"
+        "subtext": "very similar / similar to / similar results",
+        "comparative": "similarer",
+        "superlative": "the similarest"
     },
     {
         "word": "friendly",
@@ -1893,7 +2113,9 @@
                 ]
             }
         ],
-        "subtext": "very friendly / a friendly face / friendly atmosphere"
+        "subtext": "very friendly / a friendly face / friendly atmosphere",
+        "comparative": "more friendly",
+        "superlative": "the most friendly"
     },
     {
         "word": "kind",
@@ -1908,7 +2130,9 @@
                 ]
             }
         ],
-        "subtext": "very kind / kind of you / a kind person"
+        "subtext": "very kind / kind of you / a kind person",
+        "comparative": "kinder",
+        "superlative": "the kindest"
     },
     {
         "word": "funny",
@@ -1923,7 +2147,9 @@
                 ]
             }
         ],
-        "subtext": "very funny / funny story / find funny"
+        "subtext": "very funny / funny story / find funny",
+        "comparative": "funnyer",
+        "superlative": "the funnyest"
     },
     {
         "word": "clever",
@@ -1938,7 +2164,9 @@
                 ]
             }
         ],
-        "subtext": "very clever / a clever idea / clever enough"
+        "subtext": "very clever / a clever idea / clever enough",
+        "comparative": "cleverer",
+        "superlative": "the cleverest"
     },
     {
         "word": "polite",
@@ -1953,7 +2181,9 @@
                 ]
             }
         ],
-        "subtext": "very polite / polite request / polite enough"
+        "subtext": "very polite / polite request / polite enough",
+        "comparative": "politeer",
+        "superlative": "the politeest"
     },
     {
         "word": "rude",
@@ -1968,7 +2198,9 @@
                 ]
             }
         ],
-        "subtext": "very rude / incredibly rude / deliberately rude"
+        "subtext": "very rude / incredibly rude / deliberately rude",
+        "comparative": "rudeer",
+        "superlative": "the rudeest"
     },
     {
         "word": "lazy",
@@ -1983,7 +2215,9 @@
                 ]
             }
         ],
-        "subtext": "very lazy / a lazy approach / too lazy"
+        "subtext": "very lazy / a lazy approach / too lazy",
+        "comparative": "lazyer",
+        "superlative": "the lazyest"
     },
     {
         "word": "honest",
@@ -1998,7 +2232,9 @@
                 ]
             }
         ],
-        "subtext": "very honest / brutally honest / completely honest"
+        "subtext": "very honest / brutally honest / completely honest",
+        "comparative": "honester",
+        "superlative": "the honestest"
     },
     {
         "word": "noisy",
@@ -2013,7 +2249,9 @@
                 ]
             }
         ],
-        "subtext": "very noisy / noisy environment / too noisy"
+        "subtext": "very noisy / noisy environment / too noisy",
+        "comparative": "noisyer",
+        "superlative": "the noisyest"
     }
 ];
     const lang = "en";
