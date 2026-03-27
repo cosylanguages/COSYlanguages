@@ -275,8 +275,8 @@
         "neuter": "καλό",
         "plural": "καλοί",
         "subtext": "great, nice, pleasant / good idea / good luck / good value",
-        "comparative": "πιο καλός",
-        "superlative": "ο πιο καλός"
+        "comparative": "καλύτερος",
+        "superlative": "ο καλύτερος"
     },
     {
         "word": "κακός",
@@ -298,8 +298,8 @@
         "neuter": "κακό",
         "plural": "κακοί",
         "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
-        "comparative": "πιο κακός",
-        "superlative": "ο πιο κακός"
+        "comparative": "χειρότερος",
+        "superlative": "ο χειρότερος"
     },
     {
         "word": "μεγάλος",
