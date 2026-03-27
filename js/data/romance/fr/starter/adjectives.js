@@ -14,7 +14,12 @@
                     "C'est un grand bureau."
                 ]
             }
-        ]
+        ],
+        "feminine": "grande",
+        "translation": "big",
+        "emoji": "🐘",
+        "plural": "grands",
+        "femininePlural": "grandes"
     },
     {
         "word": "petit",
@@ -30,7 +35,12 @@
                     "Elle a un petit appartement."
                 ]
             }
-        ]
+        ],
+        "feminine": "petite",
+        "translation": "small",
+        "emoji": "🐭",
+        "plural": "petits",
+        "femininePlural": "petites"
     },
     {
         "word": "jeune",
@@ -62,7 +72,12 @@
                     "C'est un vieux livre."
                 ]
             }
-        ]
+        ],
+        "feminine": "vieille",
+        "translation": "old",
+        "emoji": "👴",
+        "plural": "vieux",
+        "femininePlural": "vieilles"
     },
     {
         "word": "bon",
@@ -79,7 +94,11 @@
                     "C'est un bon travail."
                 ]
             }
-        ]
+        ],
+        "feminine": "bonne",
+        "translation": "good",
+        "plural": "bons",
+        "femininePlural": "bonnes"
     },
     {
         "word": "mauvais",
@@ -96,7 +115,11 @@
                     "Le temps est mauvais aujourd'hui."
                 ]
             }
-        ]
+        ],
+        "feminine": "mauvaise",
+        "translation": "bad",
+        "plural": "mauvais",
+        "femininePlural": "mauvaises"
     },
     {
         "word": "facile",
@@ -113,7 +136,11 @@
                     "Le test est facile."
                 ]
             }
-        ]
+        ],
+        "feminine": "facile",
+        "translation": "easy",
+        "plural": "faciles",
+        "femininePlural": "faciles"
     },
     {
         "word": "difficile",
@@ -130,7 +157,11 @@
                     "Ce travail est difficile."
                 ]
             }
-        ]
+        ],
+        "feminine": "difficile",
+        "translation": "difficult",
+        "plural": "difficiles",
+        "femininePlural": "difficiles"
     },
     {
         "word": "heureux",
@@ -146,7 +177,11 @@
                     "Je suis heureux aujourd'hui."
                 ]
             }
-        ]
+        ],
+        "feminine": "heureuse",
+        "translation": "happy",
+        "plural": "heureux",
+        "femininePlural": "heureuses"
     },
     {
         "word": "fatigué",
@@ -162,7 +197,11 @@
                     "Je suis très fatigué après le travail."
                 ]
             }
-        ]
+        ],
+        "feminine": "fatiguée",
+        "translation": "tired",
+        "plural": "fatigués",
+        "femininePlural": "fatiguées"
     },
     {
         "word": "ensoleillé",
@@ -209,7 +248,11 @@
                     "Il fait chaud en été."
                 ]
             }
-        ]
+        ],
+        "feminine": "chaude",
+        "translation": "hot",
+        "plural": "chauds",
+        "femininePlural": "chaudes"
     },
     {
         "word": "froid",
@@ -226,7 +269,11 @@
                     "Il fait froid en hiver."
                 ]
             }
-        ]
+        ],
+        "feminine": "froide",
+        "translation": "cold",
+        "plural": "froids",
+        "femininePlural": "froides"
     },
     {
         "word": "cher",
@@ -243,7 +290,11 @@
                     "Cette voiture est chère."
                 ]
             }
-        ]
+        ],
+        "feminine": "chère",
+        "translation": "expensive",
+        "plural": "chers",
+        "femininePlural": "chères"
     },
     {
         "word": "bon marché",
@@ -260,7 +311,11 @@
                     "Ce café est bon marché."
                 ]
             }
-        ]
+        ],
+        "feminine": "bon marché",
+        "translation": "cheap",
+        "plural": "bon marché",
+        "femininePlural": "bon marché"
     },
     {
         "word": "à plein temps",
@@ -308,7 +363,11 @@
                     "Ma chambre est propre."
                 ]
             }
-        ]
+        ],
+        "feminine": "propre",
+        "translation": "clean",
+        "plural": "propres",
+        "femininePlural": "propres"
     },
     {
         "word": "sain",
@@ -423,7 +482,11 @@
                     "Je suis très occupé cette semaine."
                 ]
             }
-        ]
+        ],
+        "feminine": "occupée",
+        "translation": "busy",
+        "plural": "occupés",
+        "femininePlural": "occupées"
     },
     {
         "word": "utile",
@@ -455,7 +518,11 @@
                     "Le sommeil est très important."
                 ]
             }
-        ]
+        ],
+        "feminine": "importante",
+        "translation": "important",
+        "plural": "importants",
+        "femininePlural": "importantes"
     },
     {
         "word": "rouge",
@@ -471,7 +538,11 @@
                     "Elle a un sac rouge."
                 ]
             }
-        ]
+        ],
+        "feminine": "rouge",
+        "translation": "red",
+        "plural": "rouges",
+        "femininePlural": "rouges"
     },
     {
         "word": "bleu",
@@ -487,7 +558,11 @@
                     "Sa voiture est bleue."
                 ]
             }
-        ]
+        ],
+        "feminine": "bleue",
+        "translation": "blue",
+        "plural": "bleus",
+        "femininePlural": "bleues"
     },
     {
         "word": "vert",
@@ -503,7 +578,11 @@
                     "Elle porte une robe verte."
                 ]
             }
-        ]
+        ],
+        "feminine": "verte",
+        "translation": "green",
+        "plural": "verts",
+        "femininePlural": "vertes"
     },
     {
         "word": "blanc",
@@ -519,7 +598,11 @@
                     "Les murs sont blancs."
                 ]
             }
-        ]
+        ],
+        "feminine": "blanche",
+        "translation": "white",
+        "plural": "blancs",
+        "femininePlural": "blanches"
     },
     {
         "word": "noir",
@@ -535,7 +618,11 @@
                     "Il porte un manteau noir."
                 ]
             }
-        ]
+        ],
+        "feminine": "noire",
+        "translation": "black",
+        "plural": "noirs",
+        "femininePlural": "noires"
     },
     {
         "word": "jaune",
@@ -551,7 +638,11 @@
                     "Elle a un parapluie jaune."
                 ]
             }
-        ]
+        ],
+        "feminine": "jaune",
+        "translation": "yellow",
+        "plural": "jaunes",
+        "femininePlural": "jaunes"
     },
     {
         "word": "gratuit",
@@ -567,7 +658,11 @@
                     "Le musée est gratuit le dimanche."
                 ]
             }
-        ]
+        ],
+        "feminine": "gratuite",
+        "translation": "free",
+        "plural": "gratuits",
+        "femininePlural": "gratuites"
     },
     {
         "word": "ouvert",
@@ -585,7 +680,11 @@
                     "Le magasin est ouvert jusqu'à huit heures."
                 ]
             }
-        ]
+        ],
+        "feminine": "ouverte",
+        "translation": "open",
+        "plural": "ouverts",
+        "femininePlural": "ouvertes"
     },
     {
         "word": "fermé",
@@ -603,7 +702,528 @@
                     "La banque est fermée le dimanche."
                 ]
             }
-        ]
+        ],
+        "feminine": "fermée",
+        "translation": "closed",
+        "plural": "fermés",
+        "femininePlural": "fermées"
+    },
+    {
+        "word": "grand",
+        "feminine": "grande",
+        "translation": "large",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "plural": "grands",
+        "femininePlural": "grandes"
+    },
+    {
+        "word": "petit",
+        "feminine": "petite",
+        "translation": "little",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "plural": "petits",
+        "femininePlural": "petites"
+    },
+    {
+        "word": "grand",
+        "feminine": "grande",
+        "translation": "tall",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🦒",
+        "form": "adjective",
+        "plural": "grands",
+        "femininePlural": "grandes"
+    },
+    {
+        "word": "court",
+        "feminine": "courte",
+        "translation": "short",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "plural": "courts",
+        "femininePlural": "courtes"
+    },
+    {
+        "word": "long",
+        "feminine": "longue",
+        "translation": "long",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "plural": "longs",
+        "femininePlural": "longues"
+    },
+    {
+        "word": "haut",
+        "feminine": "haute",
+        "translation": "high",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📈",
+        "form": "adjective",
+        "plural": "hauts",
+        "femininePlural": "hautes"
+    },
+    {
+        "word": "bas",
+        "feminine": "basse",
+        "translation": "low",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📉",
+        "form": "adjective",
+        "plural": "bas",
+        "femininePlural": "basses"
+    },
+    {
+        "word": "plein",
+        "feminine": "pleine",
+        "translation": "full",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🥛",
+        "form": "adjective",
+        "plural": "pleins",
+        "femininePlural": "pleines"
+    },
+    {
+        "word": "vide",
+        "feminine": "vide",
+        "translation": "empty",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🫙",
+        "form": "adjective",
+        "plural": "vides",
+        "femininePlural": "vides"
+    },
+    {
+        "word": "tiède",
+        "feminine": "tiède",
+        "translation": "warm",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "☀️",
+        "form": "adjective",
+        "plural": "tièdes",
+        "femininePlural": "tièdes"
+    },
+    {
+        "word": "frais",
+        "feminine": "fraîche",
+        "translation": "cool",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🌬️",
+        "form": "adjective",
+        "plural": "frais",
+        "femininePlural": "fraîches"
+    },
+    {
+        "word": "mouillé",
+        "feminine": "mouillée",
+        "translation": "wet",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🚿",
+        "form": "adjective",
+        "plural": "mouillés",
+        "femininePlural": "mouillées"
+    },
+    {
+        "word": "sec",
+        "feminine": "sèche",
+        "translation": "dry",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🏜️",
+        "form": "adjective",
+        "plural": "secs",
+        "femininePlural": "sèches"
+    },
+    {
+        "word": "sale",
+        "feminine": "sale",
+        "translation": "dirty",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "💩",
+        "form": "adjective",
+        "plural": "sales",
+        "femininePlural": "sales"
+    },
+    {
+        "word": "dur",
+        "feminine": "dure",
+        "translation": "hard",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🧱",
+        "form": "adjective",
+        "plural": "durs",
+        "femininePlural": "dures"
+    },
+    {
+        "word": "doux",
+        "feminine": "douce",
+        "translation": "soft",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "☁️",
+        "form": "adjective",
+        "plural": "doux",
+        "femininePlural": "douces"
+    },
+    {
+        "word": "lourd",
+        "feminine": "lourde",
+        "translation": "heavy",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🏋️",
+        "form": "adjective",
+        "plural": "lourds",
+        "femininePlural": "lourdes"
+    },
+    {
+        "word": "léger",
+        "feminine": "légère",
+        "translation": "light",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🪶",
+        "form": "adjective",
+        "plural": "légers",
+        "femininePlural": "légères"
+    },
+    {
+        "word": "brun",
+        "feminine": "brune",
+        "translation": "brown",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟫",
+        "form": "adjective",
+        "plural": "bruns",
+        "femininePlural": "brunes"
+    },
+    {
+        "word": "gris",
+        "feminine": "grise",
+        "translation": "grey",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🩶",
+        "form": "adjective",
+        "plural": "gris",
+        "femininePlural": "grises"
+    },
+    {
+        "word": "rose",
+        "feminine": "rose",
+        "translation": "pink",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🩷",
+        "form": "adjective",
+        "plural": "roses",
+        "femininePlural": "rose"
+    },
+    {
+        "word": "orange",
+        "feminine": "orange",
+        "translation": "orange",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟧",
+        "form": "adjective",
+        "plural": "orange",
+        "femininePlural": "orange"
+    },
+    {
+        "word": "génial",
+        "feminine": "géniale",
+        "translation": "great",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🌟",
+        "form": "adjective",
+        "plural": "géniaux",
+        "femininePlural": "géniales"
+    },
+    {
+        "word": "sympa",
+        "feminine": "sympa",
+        "translation": "nice",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "😊",
+        "form": "adjective",
+        "plural": "sympas",
+        "femininePlural": "sympas"
+    },
+    {
+        "word": "merveilleux",
+        "feminine": "merveilleuse",
+        "translation": "wonderful",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "✨",
+        "form": "adjective",
+        "plural": "merveilleux",
+        "femininePlural": "merveilleuses"
+    },
+    {
+        "word": "terrible",
+        "feminine": "terrible",
+        "translation": "terrible",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "😫",
+        "form": "adjective",
+        "plural": "terribles",
+        "femininePlural": "terribles"
+    },
+    {
+        "word": "affreux",
+        "feminine": "affreuse",
+        "translation": "awful",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🤮",
+        "form": "adjective",
+        "plural": "affreux",
+        "femininePlural": "affreuses"
+    },
+    {
+        "word": "incroyable",
+        "feminine": "incroyable",
+        "translation": "amazing",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "😲",
+        "form": "adjective",
+        "plural": "incroyables",
+        "femininePlural": "incroyables"
+    },
+    {
+        "word": "fantastique",
+        "feminine": "fantastique",
+        "translation": "fantastic",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🤩",
+        "form": "adjective",
+        "plural": "fantastiques",
+        "femininePlural": "fantastiques"
+    },
+    {
+        "word": "triste",
+        "feminine": "triste",
+        "translation": "sad",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😢",
+        "form": "adjective",
+        "plural": "tristes",
+        "femininePlural": "tristes"
+    },
+    {
+        "word": "affamé",
+        "feminine": "affamée",
+        "translation": "hungry",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "🤤",
+        "form": "adjective",
+        "plural": "affamés",
+        "femininePlural": "affamées"
+    },
+    {
+        "word": "fâché",
+        "feminine": "fâchée",
+        "translation": "angry",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😠",
+        "form": "adjective",
+        "plural": "fâchés",
+        "femininePlural": "fâchées"
+    },
+    {
+        "word": "ennuyé",
+        "feminine": "ennuyée",
+        "translation": "bored",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😐",
+        "form": "adjective",
+        "plural": "ennuyés",
+        "femininePlural": "ennuyées"
+    },
+    {
+        "word": "excité",
+        "feminine": "excitée",
+        "translation": "excited",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "🤩",
+        "form": "adjective",
+        "plural": "excités",
+        "femininePlural": "excitées"
+    },
+    {
+        "word": "effrayé",
+        "feminine": "effrayée",
+        "translation": "afraid",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😨",
+        "form": "adjective",
+        "plural": "effrayés",
+        "femininePlural": "effrayées"
+    },
+    {
+        "word": "désolé",
+        "feminine": "désolée",
+        "translation": "sorry",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "🥺",
+        "form": "adjective",
+        "plural": "désolés",
+        "femininePlural": "désolées"
+    },
+    {
+        "word": "correct",
+        "feminine": "correcte",
+        "translation": "right",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "plural": "corrects",
+        "femininePlural": "correctes"
+    },
+    {
+        "word": "mauvais",
+        "feminine": "mauvaise",
+        "translation": "wrong",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "❌",
+        "form": "adjective",
+        "plural": "mauvais",
+        "femininePlural": "mauvaises"
+    },
+    {
+        "word": "nouveau",
+        "feminine": "nouvelle",
+        "translation": "new",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🆕",
+        "form": "adjective",
+        "plural": "nouveaux",
+        "femininePlural": "nouvelles"
+    },
+    {
+        "word": "différent",
+        "feminine": "différente",
+        "translation": "different",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "↔️",
+        "form": "adjective",
+        "plural": "différents",
+        "femininePlural": "différentes"
+    },
+    {
+        "word": "même",
+        "feminine": "même",
+        "translation": "same",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "identical",
+        "form": "adjective",
+        "plural": "mêmes",
+        "femininePlural": "mêmes"
+    },
+    {
+        "word": "rapide",
+        "feminine": "rapide",
+        "translation": "fast",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⚡",
+        "form": "adjective",
+        "plural": "rapides",
+        "femininePlural": "rapides"
+    },
+    {
+        "word": "lent",
+        "feminine": "lente",
+        "translation": "slow",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🐢",
+        "form": "adjective",
+        "plural": "lents",
+        "femininePlural": "lentes"
+    },
+    {
+        "word": "calme",
+        "feminine": "calme",
+        "translation": "quiet",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🤫",
+        "form": "adjective",
+        "plural": "calmes",
+        "femininePlural": "calmes"
+    },
+    {
+        "word": "bruyant",
+        "feminine": "bruyante",
+        "translation": "loud",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🔊",
+        "form": "adjective",
+        "plural": "bruyants",
+        "femininePlural": "bruyantes"
+    },
+    {
+        "word": "sûr",
+        "feminine": "sûre",
+        "translation": "safe",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🛡️",
+        "form": "adjective",
+        "plural": "sûrs",
+        "femininePlural": "sûres"
+    },
+    {
+        "word": "dangereux",
+        "feminine": "dangereuse",
+        "translation": "dangerous",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "⚠️",
+        "form": "adjective",
+        "plural": "dangereux",
+        "femininePlural": "dangereuses"
     }
 ];
     const lang = "fr";
