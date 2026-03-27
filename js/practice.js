@@ -122,7 +122,9 @@ function populatePracticeThemes(categoryId) {
         ];
 
         if (lang === 'en') {
-            themes = baseThemes.filter(th => th.value !== 'grammar_gender' && th.value !== 'grammar_future_simple');
+            // English: Replace Verb Forms with Regular vs. Irregular
+            themes = baseThemes.filter(th => th.value !== 'grammar_gender' && th.value !== 'grammar_future_simple' && th.value !== 'grammar_verb_forms');
+            themes.push({ value: 'grammar_reg_irregular', key: 'theme_grammar_reg_irregular' });
             themes.push({ value: 'grammar_stative_action', key: 'theme_grammar_stative_action' });
         } else if (lang === 'fr' || lang === 'it') {
             themes = [...baseThemes];
@@ -224,6 +226,9 @@ function populateSubThemes() {
             else if (lang === 'en') groups = ['regular', 'irregular'];
             else if (lang === 'ru') groups = ['1st_conj', '2nd_conj', 'mixed_conj', 'irregular'];
             else if (lang === 'el') groups = ['a', 'b1', 'b2', 'a_passive', 'irregular'];
+
+            // Normalise group IDs to 'group_' prefix for consistency with translations
+            groups = groups.map(g => (g === 'irregular' || g.startsWith('group_')) ? g : 'group_' + g);
 
             groups.forEach(g => {
                 const opt = document.createElement('option');
@@ -1022,9 +1027,25 @@ function expandGrammarItems(items, lang) {
                 }
             }
         }
+        // English special: Regular vs Irregular
+        if (lang === 'en' && item.form === 'verb' && item.classification) {
+            expanded.push({
+                ...item,
+                type: 'type-mc',
+                primaryPrompt: infinitive,
+                secondaryContext: 'reg_vs_irregular',
+                answer: item.classification.charAt(0).toUpperCase() + item.classification.slice(1),
+                distractors: [item.classification === 'regular' ? 'Irregular' : 'Regular'],
+                theme: 'grammar_reg_irregular'
+            });
+        }
+
         if (item.past_participle || item.v3 || item.v2) {
             const v1 = (infinitive || "").replace(/^to\s+/i, '');
             const v3 = item.past_participle || item.v3;
+            // Map verb forms to Past Simple theme for non-English languages
+            const targetTheme = (lang === 'en') ? 'grammar_verb_forms' : 'grammar_past_simple';
+
             if (v3) {
                 const labelKey = (lang === 'en') ? 'label_v3' : 'label_past_participle';
                 const label = (translations[lang] && translations[lang][labelKey]) || "Past Participle";
@@ -1035,7 +1056,7 @@ function expandGrammarItems(items, lang) {
                     secondaryContext: label,
                     clozeText: `${v1} (${label}) -> ____`,
                     answer: v3,
-                    theme: 'grammar_verb_forms',
+                    theme: targetTheme,
                     form: 'verb_form'
                 });
             }
@@ -1048,7 +1069,7 @@ function expandGrammarItems(items, lang) {
                     secondaryContext: v2Label,
                     clozeText: `${v1} (${v2Label}) -> ____`,
                     answer: item.v2,
-                    theme: 'grammar_verb_forms',
+                    theme: targetTheme,
                     form: 'verb_form'
                 });
             }
@@ -1248,8 +1269,18 @@ function startPractice(isWheelMode = false) {
         // Respect preferred type from grammar expansion if it's enabled
         if (wordCopy.type && enabledTypes.includes(wordCopy.type)) {
             // Verbs can be either Cloze or Multiple Choice
-            if (wordCopy.form === 'verb' && enabledTypes.includes('type-mc') && enabledTypes.includes('type-cl')) {
-                wordCopy.type = Math.random() > 0.5 ? 'type-mc' : 'type-cl';
+            if (wordCopy.form === 'verb' && (enabledTypes.includes('type-mc') || enabledTypes.includes('type-cl'))) {
+                // If it's a classification or auxiliary task, keep it as MC for better UX
+                const isClassification = wordCopy.secondaryContext === 'reg_vs_irregular' ||
+                                       wordCopy.secondaryContext === 'stative_vs_action' ||
+                                       wordCopy.secondaryContext === 'Avere vs. Essere' ||
+                                       wordCopy.secondaryContext === 'Avoir vs. Être';
+
+                if (isClassification) {
+                    wordCopy.type = 'type-mc';
+                } else if (enabledTypes.includes('type-mc') && enabledTypes.includes('type-cl')) {
+                    wordCopy.type = Math.random() > 0.5 ? 'type-mc' : 'type-cl';
+                }
             }
             return wordCopy;
         }
@@ -1572,7 +1603,8 @@ function showNextWord() {
     const wtdEl = document.getElementById('task-what-to-do');
     if (wtdEl) {
         const lang = currentPractice.language;
-        let typeKey = wordObj.form === 'verb_form' ? 'vf' :
+        let typeKey = wordObj.secondaryContext === 'reg_vs_irregular' ? 'ri' :
+                      wordObj.form === 'verb_form' ? 'vf' :
                       wordObj.form === 'verb' ? 'gv' :
                       wordObj.form === 'pronoun' ? 'gp' :
                       wordObj.type === 'type-ws' ? 'ws' :

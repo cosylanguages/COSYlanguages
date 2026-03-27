@@ -50,6 +50,7 @@ const themeConfig = {
                 "duration_expressions_A1": "Duration expressions"
             },
             "personal_identity": {
+                "personal_identity_A1": "Personal identity",
                 "name_greeting_A1": "Name & greeting",
                 "nationality_country_A1": "Nationality & country",
                 "age_A1": "Age",
@@ -78,6 +79,7 @@ const themeConfig = {
                 "tastes_textures_A1": "Tastes & textures"
             },
             "health_body": {
+                "health_body_A1": "Health & the body",
                 "body_parts_A1": "Parts of the body",
                 "illnesses_symptoms_A1": "Common illnesses & symptoms",
                 "medical_appointments_A1": "Doctor & medical appointments"
@@ -462,7 +464,8 @@ const themeConfig = {
             },
             "opinion_debate": {
                 "formal_debate_vocab_B2": "Formal debate vocabulary",
-                "critical_thinking_B2": "Critical thinking"
+                "critical_thinking_B2": "Critical thinking",
+                "opinion_debate_B2": "Opinions & Debate (Advanced)"
             }
         }
     },
@@ -519,6 +522,9 @@ const themeConfig = {
     "proficiency": {
         "description": "desc_c2",
         "common_themes": {
+            "ethics_philosophy": {
+                "ontology_metaphysics_C2": "Ontology & metaphysics"
+            },
             "health_body": {
                 "psychoanalysis_unconscious_C2": "Psychoanalysis & the unconscious"
             },

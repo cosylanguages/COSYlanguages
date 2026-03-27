@@ -1094,7 +1094,13 @@
             verb_group_irregular: "Irregular Group",
             label_past_participle: "Past Participle",
             label_v2: "V2 (Past Simple)",
-            label_v3: "V3 (Past Participle)"
+            label_v3: "V3 (Past Participle)",
+            theme_grammar_reg_irregular: "Regular vs. Irregular 🧐",
+            theme_grammar_stative_action: "Stative vs. Action 💡",
+            wtd_ri: "Identify if the verb is regular or irregular.",
+            example_ri: "Example: 🧩 He ____ (to speak) -> speaks",
+            wtd_vf: "Type the correct verb form (V2 or V3) as requested.",
+            example_vf: "Example: 🕒 to go (V3) -> gone"
         }
         };
     window.translations = window.translations || {};

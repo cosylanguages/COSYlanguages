@@ -1074,7 +1074,13 @@
             verb_group_irregular: "Groupe irrégulier",
             label_past_participle: "Participe Passé",
             label_v2: "V2 (Passé Simple)",
-            label_v3: "V3 (Participe Passé)"
+            label_v3: "V3 (Participe Passé)",
+            theme_grammar_reg_irregular: "Régulier vs. Irrégulier 🧐",
+            theme_grammar_stative_action: "Action vs. État 💡",
+            wtd_ri: "Identifiez si le verbe est régulier ou irrégulier.",
+            example_ri: "Exemple : 🧩 He ____ (to speak) -> speaks",
+            wtd_vf: "Tapez la forme verbale correcte demandée.",
+            example_vf: "Exemple : 🕒 to go (V3) -> gone"
         }
         };
     window.translations = window.translations || {};

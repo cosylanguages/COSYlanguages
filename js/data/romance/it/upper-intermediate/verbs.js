@@ -14,7 +14,11 @@
                     "Alcuni sostengono che il lavoro a distanza riduca l'innovazione."
                 ]
             }
-        ]
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "sostenuto",
+        "group": "ere"
     }
 ];
     const lang = "it";
