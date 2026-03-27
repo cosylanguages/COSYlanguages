@@ -4,46 +4,134 @@
         "word": "beautiful",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective"
+        "form": "adjective",
+        "emoji": "✨",
+        "opposite": "ugly",
+        "definitions": [
+            {
+                "text": "Pleasing the senses or mind aesthetically.",
+                "examples": [
+                    "The view from the top of the mountain was absolutely beautiful."
+                ]
+            }
+        ],
+        "subtext": "absolutely beautiful / a beautiful day / beautiful view",
+        "comparative": "more beautiful",
+        "superlative": "the most beautiful"
     },
     {
         "word": "strong",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective"
+        "form": "adjective",
+        "emoji": "💪",
+        "opposite": "weak",
+        "definitions": [
+            {
+                "text": "Having the power to move heavy weights or perform other physically demanding tasks.",
+                "examples": [
+                    "He is a strong swimmer and can cross the lake easily."
+                ]
+            }
+        ],
+        "subtext": "strong muscles / very strong / strong enough",
+        "comparative": "stronger",
+        "superlative": "the strongest"
     },
     {
         "word": "blonde",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective"
+        "form": "adjective",
+        "emoji": "👱",
+        "opposite": "brunette",
+        "definitions": [
+            {
+                "text": "Having fair or pale yellow hair.",
+                "examples": [
+                    "She has long blonde hair and blue eyes."
+                ]
+            }
+        ],
+        "subtext": "natural blonde / blonde hair / light blonde",
+        "comparative": "blonder",
+        "superlative": "the blondest"
     },
     {
         "word": "snowy",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "❄️",
-        "form": "adjective"
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Covered with snow or characterized by snow.",
+                "examples": [
+                    "It was a snowy morning, so the children went out to play."
+                ]
+            }
+        ],
+        "subtext": "snowy weather / snowy day / cold and snowy",
+        "comparative": "snowier",
+        "superlative": "the snowiest",
+        "opposite": "clear"
     },
     {
         "word": "windy",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "💨",
-        "form": "adjective"
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Characterized by or exposed to strong winds.",
+                "examples": [
+                    "It is very windy today, so be careful with your umbrella."
+                ]
+            }
+        ],
+        "subtext": "very windy / windy day / cold and windy",
+        "comparative": "windier",
+        "superlative": "the windiest",
+        "opposite": "calm"
     },
     {
         "word": "cloudy",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "☁️",
-        "form": "adjective"
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Covered with or characterized by clouds.",
+                "examples": [
+                    "It is a cloudy afternoon, but it might not rain."
+                ]
+            }
+        ],
+        "subtext": "cloudy sky / very cloudy / partly cloudy",
+        "comparative": "cloudier",
+        "superlative": "the cloudiest",
+        "opposite": "clear"
     },
     {
         "word": "athletic",
         "level": "elementary",
         "theme": "personal_qualities_A2",
-        "form": "adjective"
+        "form": "adjective",
+        "emoji": "🏃",
+        "opposite": "lazy",
+        "definitions": [
+            {
+                "text": "Physically strong, fit, and active.",
+                "examples": [
+                    "He has an athletic build because he plays football every day."
+                ]
+            }
+        ],
+        "subtext": "athletic build / very athletic / athletic performance",
+        "comparative": "more athletic",
+        "superlative": "the most athletic"
     },
     {
         "word": "fit",
@@ -116,7 +204,10 @@
                     "Her job is very stressful."
                 ]
             }
-        ]
+        ],
+        "subtext": "a stressful job / very stressful / stressful situation",
+        "comparative": "more stressful",
+        "superlative": "the most stressful"
     },
     {
         "word": "comfortable",
@@ -170,7 +261,10 @@
                     "This restaurant is very popular."
                 ]
             }
-        ]
+        ],
+        "subtext": "very popular / popular choice / a popular person",
+        "comparative": "more popular",
+        "superlative": "the most popular"
     },
     {
         "word": "busy",
