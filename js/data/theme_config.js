@@ -184,6 +184,7 @@ const themeConfig = {
                 "interests_hobbies_A2": "Interests & hobbies"
             },
             "family_relationships": {
+                "relationships_family_A2": "Relationships & family",
                 "relationships_dating_A2": "Relationships & dating",
                 "marriage_partnership_A2": "Marriage & partnership"
             },

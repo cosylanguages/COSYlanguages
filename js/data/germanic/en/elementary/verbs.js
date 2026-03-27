@@ -106,12 +106,12 @@
         "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb",
-        "subtext": "happen suddenly, what happened?",
+        "subtext": "what happened / happen to someone / if it happens",
         "definitions": [
             {
-                "text": "To take place; to occur.",
+                "text": "To occur; to take place.",
                 "examples": [
-                    "The accident happened yesterday."
+                    "What happened in the meeting? Everything went wrong."
                 ]
             }
         ],
@@ -326,12 +326,12 @@
         "theme": "personal_qualities_A2",
         "emoji": "👻",
         "form": "verb",
-        "subtext": "appear on TV, appear suddenly",
+        "subtext": "appear to be / appear in public / appear online / appear confident",
         "definitions": [
             {
-                "text": "To become visible or seem to be.",
+                "text": "To come into view; to seem.",
                 "examples": [
-                    "He appeared to be very happy."
+                    "She appeared calm despite the difficult situation."
                 ]
             }
         ],
@@ -606,12 +606,12 @@
         "theme": "finances_A2",
         "emoji": "💰",
         "form": "verb",
-        "subtext": "can't afford, afford a house",
+        "subtext": "afford a house / afford to travel / can't afford it",
         "definitions": [
             {
-                "text": "To have enough money to pay for something.",
+                "text": "To have enough money for something.",
                 "examples": [
-                    "We can't afford a bigger flat."
+                    "They cannot afford to buy a flat in the city centre."
                 ]
             }
         ],
@@ -1263,7 +1263,7 @@
     {
         "word": "diagnose",
         "level": "elementary",
-        "theme": "medical_appointments_A1",
+        "theme": "diet_healthy_eating_A2",
         "emoji": "🩺",
         "form": "verb",
         "subtext": "diagnose an illness / be diagnosed with / diagnose early",
@@ -1283,7 +1283,7 @@
     {
         "word": "treat",
         "level": "elementary",
-        "theme": "medical_appointments_A1",
+        "theme": "diet_healthy_eating_A2",
         "emoji": "🩹",
         "form": "verb",
         "subtext": "treat a patient / treat an illness / treat with medicine",
@@ -1344,7 +1344,7 @@
         "word": "recommend",
         "level": "elementary",
         "theme": "giving_reasons_A2",
-        "emoji": "👍",
+        "emoji": "💡",
         "form": "verb",
         "subtext": "recommend treatment / recommend rest / recommend seeing a specialist",
         "definitions": [
@@ -1363,7 +1363,7 @@
     {
         "word": "improve",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "diet_healthy_eating_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "improve health / improve fitness / room for improvement",
@@ -1424,7 +1424,7 @@
         "word": "repair",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
-        "emoji": "🛠️",
+        "emoji": "🔧",
         "form": "verb",
         "subtext": "repair something / carry out repairs / repair costs",
         "definitions": [
@@ -1583,7 +1583,7 @@
     {
         "word": "look after",
         "level": "elementary",
-        "theme": "family_life_A1",
+        "theme": "relationships_family_A2",
         "emoji": "👶",
         "form": "verb",
         "subtext": "look after someone / look after yourself / look after a child",
@@ -1679,6 +1679,546 @@
         "aspect": "action",
         "v2": "put off",
         "v3": "put off"
+    },
+    {
+        "word": "owe",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💸",
+        "form": "verb",
+        "subtext": "owe money / owe someone / owe a lot / clear what you owe",
+        "definitions": [
+            {
+                "text": "To be required to pay money to someone.",
+                "examples": [
+                    "He owes the bank fifty thousand euros on the mortgage."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "owed",
+        "v3": "owed"
+    },
+    {
+        "word": "invite",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "📩",
+        "form": "verb",
+        "subtext": "invite someone / invite to dinner / invite to a party",
+        "definitions": [
+            {
+                "text": "To ask someone to come to an event.",
+                "examples": [
+                    "She invited the whole team to dinner after the project ended."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "invited",
+        "v3": "invited"
+    },
+    {
+        "word": "confirm",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "✅",
+        "form": "verb",
+        "subtext": "confirm a booking / confirm receipt / confirm in writing",
+        "definitions": [
+            {
+                "text": "To say definitively that something is true or will happen.",
+                "examples": [
+                    "Please confirm your attendance before Friday morning."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "confirmed",
+        "v3": "confirmed"
+    },
+    {
+        "word": "contact",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "📞",
+        "form": "verb",
+        "subtext": "contact someone / contact by email / contact us",
+        "definitions": [
+            {
+                "text": "To get in touch with someone.",
+                "examples": [
+                    "I will contact you by the end of the week with an answer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "contacted",
+        "v3": "contacted"
+    },
+    {
+        "word": "complain",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "😠",
+        "form": "verb",
+        "subtext": "complain about / make a complaint / complain to someone",
+        "definitions": [
+            {
+                "text": "To express dissatisfaction about something.",
+                "examples": [
+                    "She complained about the noise from the flat above."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "complained",
+        "v3": "complained"
+    },
+    {
+        "word": "discuss",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "subtext": "discuss a topic / discuss in detail / discuss with someone",
+        "definitions": [
+            {
+                "text": "To talk about something in detail.",
+                "examples": [
+                    "We discussed the new contract terms for two hours."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "discussed",
+        "v3": "discussed"
+    },
+    {
+        "word": "present",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📊",
+        "form": "verb",
+        "subtext": "present data / present a proposal / present to a client",
+        "definitions": [
+            {
+                "text": "To show or explain something to a group.",
+                "examples": [
+                    "She presents the sales results to the board every quarter."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "presented",
+        "v3": "presented"
+    },
+    {
+        "word": "accept",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "✅",
+        "form": "verb",
+        "subtext": "accept an offer / accept a challenge / accept a decision",
+        "definitions": [
+            {
+                "text": "To agree to take or receive something.",
+                "examples": [
+                    "She accepted the job offer after negotiating the salary."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "accepted",
+        "v3": "accepted"
+    },
+    {
+        "word": "refuse",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "❌",
+        "form": "verb",
+        "subtext": "refuse an offer / refuse to do / refuse permission",
+        "definitions": [
+            {
+                "text": "To say no to something; to decline.",
+                "examples": [
+                    "He refused to sign the contract without legal advice."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "refused",
+        "v3": "refused"
+    },
+    {
+        "word": "lose weight",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "⚖️",
+        "form": "verb",
+        "subtext": "lose weight / lose a few kilos / trying to lose weight",
+        "definitions": [
+            {
+                "text": "To become lighter; to reduce body weight.",
+                "examples": [
+                    "He lost ten kilos after changing his diet and lifestyle."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "lost weight",
+        "v3": "lost weight"
+    },
+    {
+        "word": "increase",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📈",
+        "form": "verb",
+        "subtext": "increase by / increase rapidly / increase productivity",
+        "definitions": [
+            {
+                "text": "To become or make something larger.",
+                "examples": [
+                    "The company increased salaries by three percent."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "increased",
+        "v3": "increased"
+    },
+    {
+        "word": "reduce",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📉",
+        "form": "verb",
+        "subtext": "reduce costs / reduce stress / significantly reduce",
+        "definitions": [
+            {
+                "text": "To make something smaller in size or amount.",
+                "examples": [
+                    "They reduced the team from twelve to eight members."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "reduced",
+        "v3": "reduced"
+    },
+    {
+        "word": "improve skills",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📈",
+        "form": "verb",
+        "subtext": "improve performance / improve health / room for improvement",
+        "definitions": [
+            {
+                "text": "To become or make something better.",
+                "examples": [
+                    "She improved her public speaking skills significantly."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "improved skills",
+        "v3": "improved skills"
+    },
+    {
+        "word": "provide",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🤲",
+        "form": "verb",
+        "subtext": "provide support / provide information / provide a service",
+        "definitions": [
+            {
+                "text": "To give or supply something to someone.",
+                "examples": [
+                    "The company provides all employees with a laptop."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "provided",
+        "v3": "provided"
+    },
+    {
+        "word": "solve",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🧩",
+        "form": "verb",
+        "subtext": "solve a problem / solve a mystery / find a solution",
+        "definitions": [
+            {
+                "text": "To find an answer to a problem.",
+                "examples": [
+                    "He solves problems quickly under pressure."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "solved",
+        "v3": "solved"
+    },
+    {
+        "word": "share",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "share information / share a meal / share a flat / share ideas",
+        "definitions": [
+            {
+                "text": "To divide something between people; to tell others.",
+                "examples": [
+                    "She shared the report with the whole team on Monday."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "shared",
+        "v3": "shared"
+    },
+    {
+        "word": "join",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "➕",
+        "form": "verb",
+        "subtext": "join a company / join a team / join a club / join an event",
+        "definitions": [
+            {
+                "text": "To become a member of a group or organisation.",
+                "examples": [
+                    "He joined the company as a trainee seven years ago."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "joined",
+        "v3": "joined"
+    },
+    {
+        "word": "receive",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📩",
+        "form": "verb",
+        "subtext": "receive a letter / receive payment / receive feedback",
+        "definitions": [
+            {
+                "text": "To be given or presented with something.",
+                "examples": [
+                    "He received the job offer by email on a Friday afternoon."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "received",
+        "v3": "received"
+    },
+    {
+        "word": "contain",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📦",
+        "form": "verb",
+        "subtext": "contain information / contain ingredients / the file contains",
+        "definitions": [
+            {
+                "text": "To have something inside; to include.",
+                "examples": [
+                    "The report contains detailed financial projections."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "contained",
+        "v3": "contained"
+    },
+    {
+        "word": "plan",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📅",
+        "form": "verb",
+        "subtext": "plan a trip / plan a meeting / plan ahead / plan carefully",
+        "definitions": [
+            {
+                "text": "To think about and arrange future actions.",
+                "examples": [
+                    "She plans her whole week every Sunday evening."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "planned",
+        "v3": "planned"
+    },
+    {
+        "word": "prepare",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📝",
+        "form": "verb",
+        "subtext": "prepare for a meeting / prepare a report / prepare carefully",
+        "definitions": [
+            {
+                "text": "To make something ready; to get yourself ready.",
+                "examples": [
+                    "He prepares a detailed agenda before every meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "prepared",
+        "v3": "prepared"
+    },
+    {
+        "word": "fail",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "❌",
+        "form": "verb",
+        "subtext": "fail an exam / fail to do / fail a test / fail to meet a deadline",
+        "definitions": [
+            {
+                "text": "To not succeed; to not do something required.",
+                "examples": [
+                    "She failed the first exam but passed the second attempt."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "failed",
+        "v3": "failed"
+    },
+    {
+        "word": "succeed",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🏆",
+        "form": "verb",
+        "subtext": "succeed in doing / succeed at something / succeed against the odds",
+        "definitions": [
+            {
+                "text": "To achieve what you set out to do.",
+                "examples": [
+                    "He succeeded in closing the deal after three months."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "succeeded",
+        "v3": "succeeded"
+    },
+    {
+        "word": "agree",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "agree with someone / agree on something / agree to do",
+        "definitions": [
+            {
+                "text": "To have the same opinion; to say yes to something.",
+                "examples": [
+                    "They agreed to meet again the following Tuesday."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "agreed",
+        "v3": "agreed"
+    },
+    {
+        "word": "replace",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🔄",
+        "form": "verb",
+        "subtext": "replace something / replace someone / be replaced by",
+        "definitions": [
+            {
+                "text": "To take the place of someone or something.",
+                "examples": [
+                    "The new software will replace the old system next year."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "replaced",
+        "v3": "replaced"
+    },
+    {
+        "word": "look for",
+        "level": "elementary",
+        "theme": "job_apps_interviews_A2",
+        "emoji": "🔍",
+        "form": "verb",
+        "subtext": "look for a job / look for something / look for a solution",
+        "definitions": [
+            {
+                "text": "To try to find something.",
+                "examples": [
+                    "He is looking for a new job with better work-life balance."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "looked for",
+        "v3": "looked for"
+    },
+    {
+        "word": "log out",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "🚪",
+        "form": "verb",
+        "subtext": "log in to a system / log out / log in with a password",
+        "definitions": [
+            {
+                "text": "To connect to or disconnect from a computer system.",
+                "examples": [
+                    "Please log out of the system when you leave the office."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "logged out",
+        "v3": "logged out"
     }
 ];
     const lang = "en";
