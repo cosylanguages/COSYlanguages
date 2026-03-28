@@ -1074,12 +1074,23 @@
             label_past_participle: "Participio Passato",
             label_v2: "V2 (Passato Prossimo/Remoto)",
             label_v3: "V3 (Participio Passato)",
+            label_comparative: "Comparativo",
+            label_superlative: "Superlativo",
             theme_grammar_reg_irregular: "Regolare vs. Irregolare 🧐",
             theme_grammar_stative_action: "Azione vs. Stato 💡",
+            theme_grammar_adjectives: "Aggettivi 🎨",
+            sub_theme_comparatives: "Comparativi & Superlativi",
+            sub_theme_agreement: "Generi & Numeri",
             wtd_ri: "Identifica se il verbo è regolare o irregolare.",
-            example_ri: "Esempio: 🧩 He ____ (to speak) -> speaks",
+            example_ri: "Esempio: 🧩 andare -> Irregolare",
             wtd_vf: "Scrivi la forma verbale corretta come richiesto.",
-            example_vf: "Esempio: 🕒 to go (V3) -> gone"
+            example_vf: "Esempio: 🕒 to go (V3) -> gone",
+            wtd_vs: "Classifica il verbo correttamente (Azione vs. Stato).",
+            example_vs: "Esempio: 🧩 camminare -> Azione",
+            wtd_ac: "Completa la frase con la forma comparativa o superlativa corretta.",
+            example_ac: "Esempio: 🧩 grande (Comparativo) -> più grande",
+            wtd_aa: "Completa la frase con la forma corretta dell'aggettivo (accordo).",
+            example_aa: "Esempio: 🧩 La ragazza è ____ (piccolo) -> piccola"
          }
         };
     window.translations = window.translations || {};

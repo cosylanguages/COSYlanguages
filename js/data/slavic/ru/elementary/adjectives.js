@@ -1,37 +1,88 @@
 (function() {
     const data = [
     {
-        "word": "ветрено",
-        "level": "elementary",
-        "theme": "weather_climate_A2",
-        "emoji": "💨",
-        "form": "adjective"
-    },
-    {
         "word": "красивый",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective"
+        "form": "adjective",
+        "emoji": "✨",
+        "feminine": "красивая",
+        "neuter": "красивое",
+        "plural": "красивые",
+        "comparative": "более красивый",
+        "superlative": "самый красивый"
     },
     {
         "word": "сильный",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective"
+        "form": "adjective",
+        "emoji": "💪",
+        "feminine": "сильная",
+        "neuter": "сильное",
+        "plural": "сильные",
+        "comparative": "более сильный",
+        "superlative": "самый сильный"
     },
     {
-        "word": "снежно",
+        "word": "блондин",
+        "level": "elementary",
+        "theme": "physical_appearance_A1",
+        "form": "adjective",
+        "emoji": "👱",
+        "feminine": "блондинка",
+        "neuter": "блондин",
+        "plural": "блондины",
+        "comparative": "более блондин",
+        "superlative": "самый блондин"
+    },
+    {
+        "word": "снежный",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "❄️",
-        "form": "adjective"
+        "form": "adjective",
+        "feminine": "снежная",
+        "neuter": "снежное",
+        "plural": "снежные",
+        "comparative": "более снежный",
+        "superlative": "самый снежный"
     },
     {
-        "word": "облачно",
+        "word": "ветреный",
+        "level": "elementary",
+        "theme": "weather_climate_A2",
+        "emoji": "💨",
+        "form": "adjective",
+        "feminine": "ветреная",
+        "neuter": "ветреное",
+        "plural": "ветреные",
+        "comparative": "более ветреный",
+        "superlative": "самый ветреный"
+    },
+    {
+        "word": "облачный",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "☁️",
-        "form": "adjective"
+        "form": "adjective",
+        "feminine": "облачная",
+        "neuter": "облачное",
+        "plural": "облачные",
+        "comparative": "более облачный",
+        "superlative": "самый облачный"
+    },
+    {
+        "word": "атлетичный",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "form": "adjective",
+        "emoji": "🏃",
+        "feminine": "атлетичная",
+        "neuter": "атлетичное",
+        "plural": "атлетичные",
+        "comparative": "более атлетичный",
+        "superlative": "самый атлетичный"
     },
     {
         "word": "в форме",
@@ -39,14 +90,23 @@
         "theme": "exercise_fitness_A2",
         "emoji": "💪",
         "form": "adjective",
-        "definitions": [
-            {
-                "text": "В хорошем физическом состоянии благодаря регулярным упражнениям.",
-                "examples": [
-                    "Он бегает, чтобы оставаться в форме."
-                ]
-            }
-        ]
+        "feminine": "в форме",
+        "neuter": "в форме",
+        "plural": "в форме",
+        "comparative": "более в форме",
+        "superlative": "самый в форме"
+    },
+    {
+        "word": "с лишним весом",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "feminine": "с лишним весом",
+        "neuter": "с лишним весом",
+        "plural": "с лишним весом",
+        "comparative": "более с лишним весом",
+        "superlative": "самый с лишним весом"
     },
     {
         "word": "удобный",
@@ -54,15 +114,11 @@
         "theme": "condition_state_A2",
         "emoji": "👌",
         "form": "adjective",
-        "opposite": "неудобный",
-        "definitions": [
-            {
-                "text": "Простой в использовании или подходящий для ваших нужд.",
-                "examples": [
-                    "Онлайн-шопинг — это очень удобно."
-                ]
-            }
-        ]
+        "feminine": "удобная",
+        "neuter": "удобное",
+        "plural": "удобные",
+        "comparative": "более удобный",
+        "superlative": "самый удобный"
     },
     {
         "word": "стрессовый",
@@ -70,15 +126,11 @@
         "theme": "social_emotions_A2",
         "emoji": "😫",
         "form": "adjective",
-        "opposite": "расслабляющий",
-        "definitions": [
-            {
-                "text": "Вызывающий беспокойство или тревогу.",
-                "examples": [
-                    "У нее очень стрессовая работа."
-                ]
-            }
-        ]
+        "feminine": "стрессовая",
+        "neuter": "стрессовое",
+        "plural": "стрессовые",
+        "comparative": "более стрессовый",
+        "superlative": "самый стрессовый"
     },
     {
         "word": "комфортный",
@@ -86,15 +138,11 @@
         "theme": "condition_state_A2",
         "emoji": "🛋️",
         "form": "adjective",
-        "opposite": "неудобный",
-        "definitions": [
-            {
-                "text": "Физически расслабляющий; не вызывающий боли или трудностей.",
-                "examples": [
-                    "Офисное кресло очень комфортное."
-                ]
-            }
-        ]
+        "feminine": "комфортная",
+        "neuter": "комфортное",
+        "plural": "комфортные",
+        "comparative": "более комфортный",
+        "superlative": "самый комфортный"
     },
     {
         "word": "практичный",
@@ -102,15 +150,11 @@
         "theme": "condition_state_A2",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": "непрактичный",
-        "definitions": [
-            {
-                "text": "Полезный и разумный в реальных ситуациях.",
-                "examples": [
-                    "Машина практична в сельской местности."
-                ]
-            }
-        ]
+        "feminine": "практичная",
+        "neuter": "практичное",
+        "plural": "практичные",
+        "comparative": "более практичный",
+        "superlative": "самый практичный"
     },
     {
         "word": "популярный",
@@ -118,20 +162,731 @@
         "theme": "quantity_degree_A2",
         "emoji": "🌟",
         "form": "adjective",
-        "opposite": "непопулярный",
-        "definitions": [
-            {
-                "text": "Нравящийся многим людям.",
-                "examples": [
-                    "Этот ресторан очень популярен."
-                ]
-            }
-        ]
+        "feminine": "популярная",
+        "neuter": "популярное",
+        "plural": "популярные",
+        "comparative": "более популярный",
+        "superlative": "самый популярный"
+    },
+    {
+        "word": "занятый",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🏃",
+        "form": "adjective",
+        "feminine": "занятая",
+        "neuter": "занятое",
+        "plural": "занятые",
+        "comparative": "более занятый",
+        "superlative": "самый занятый"
+    },
+    {
+        "word": "гибкий",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🧘",
+        "form": "adjective",
+        "feminine": "гибкая",
+        "neuter": "гибкое",
+        "plural": "гибкие",
+        "comparative": "более гибкий",
+        "superlative": "самый гибкий"
+    },
+    {
+        "word": "организованный",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📁",
+        "form": "adjective",
+        "feminine": "организованная",
+        "neuter": "организованное",
+        "plural": "организованные",
+        "comparative": "более организованный",
+        "superlative": "самый организованный"
+    },
+    {
+        "word": "профессиональный",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👔",
+        "form": "adjective",
+        "feminine": "профессиональная",
+        "neuter": "профессиональное",
+        "plural": "профессиональные",
+        "comparative": "более профессиональный",
+        "superlative": "самый профессиональный"
+    },
+    {
+        "word": "ответственный",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🛡️",
+        "form": "adjective",
+        "feminine": "ответственная",
+        "neuter": "ответственное",
+        "plural": "ответственные",
+        "comparative": "более ответственный",
+        "superlative": "самый ответственный"
+    },
+    {
+        "word": "опытный",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🎓",
+        "form": "adjective",
+        "feminine": "опытная",
+        "neuter": "опытное",
+        "plural": "опытные",
+        "comparative": "более опытный",
+        "superlative": "самый опытный"
+    },
+    {
+        "word": "квалифицированный",
+        "level": "elementary",
+        "theme": "qualifications_exams_A2",
+        "emoji": "✅",
+        "form": "adjective",
+        "feminine": "квалифицированная",
+        "neuter": "квалифицированное",
+        "plural": "квалифицированные",
+        "comparative": "более квалифицированный",
+        "superlative": "самый квалифицированный"
+    },
+    {
+        "word": "доступный",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🙋",
+        "form": "adjective",
+        "feminine": "доступная",
+        "neuter": "доступное",
+        "plural": "доступные",
+        "comparative": "более доступный",
+        "superlative": "самый доступный"
+    },
+    {
+        "word": "успешный",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🏆",
+        "form": "adjective",
+        "feminine": "успешная",
+        "neuter": "успешное",
+        "plural": "успешные",
+        "comparative": "более успешный",
+        "superlative": "самый успешный"
+    },
+    {
+        "word": "амбициозный",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🚀",
+        "form": "adjective",
+        "feminine": "амбициозная",
+        "neuter": "амбициозное",
+        "plural": "амбициозные",
+        "comparative": "более амбициозный",
+        "superlative": "самый амбициозный"
+    },
+    {
+        "word": "творческий",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🎨",
+        "form": "adjective",
+        "feminine": "творческая",
+        "neuter": "творческое",
+        "plural": "творческие",
+        "comparative": "более творческий",
+        "superlative": "самый творческий"
+    },
+    {
+        "word": "продуктивный",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "⚙️",
+        "form": "adjective",
+        "feminine": "продуктивная",
+        "neuter": "продуктивное",
+        "plural": "продуктивные",
+        "comparative": "более продуктивный",
+        "superlative": "самый продуктивный"
+    },
+    {
+        "word": "надежный",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🤝",
+        "form": "adjective",
+        "feminine": "надежная",
+        "neuter": "надежное",
+        "plural": "надежные",
+        "comparative": "более надежный",
+        "superlative": "самый надежный"
+    },
+    {
+        "word": "независимый",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🦅",
+        "form": "adjective",
+        "feminine": "независимая",
+        "neuter": "независимое",
+        "plural": "независимые",
+        "comparative": "более независимый",
+        "superlative": "самый независимый"
+    },
+    {
+        "word": "дешевый",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🏷️",
+        "form": "adjective",
+        "feminine": "дешевая",
+        "neuter": "дешевое",
+        "plural": "дешевые",
+        "comparative": "более дешевый",
+        "superlative": "самый дешевый"
+    },
+    {
+        "word": "дорогой",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💎",
+        "form": "adjective",
+        "feminine": "дорогая",
+        "neuter": "дорогое",
+        "plural": "дорогие",
+        "comparative": "более дорогой",
+        "superlative": "самый дорогой"
+    },
+    {
+        "word": "доступный по цене",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💵",
+        "form": "adjective",
+        "feminine": "доступная по цене",
+        "neuter": "доступное по цене",
+        "plural": "доступные по цене",
+        "comparative": "более доступный по цене",
+        "superlative": "самый доступный по цене"
+    },
+    {
+        "word": "стоит",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💰",
+        "form": "adjective",
+        "feminine": "стоит",
+        "neuter": "стоит",
+        "plural": "стоит",
+        "comparative": "более стоит",
+        "superlative": "самый стоит"
+    },
+    {
+        "word": "бесплатный",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🎁",
+        "form": "adjective",
+        "feminine": "бесплатная",
+        "neuter": "бесплатное",
+        "plural": "бесплатные",
+        "comparative": "более бесплатный",
+        "superlative": "самый бесплатный"
+    },
+    {
+        "word": "на мели",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "📉",
+        "form": "adjective",
+        "feminine": "на мели",
+        "neuter": "на мели",
+        "plural": "на мели",
+        "comparative": "более на мели",
+        "superlative": "самый на мели"
+    },
+    {
+        "word": "богатый",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🏦",
+        "form": "adjective",
+        "feminine": "богатая",
+        "neuter": "богатое",
+        "plural": "богатые",
+        "comparative": "более богатый",
+        "superlative": "самый богатый"
+    },
+    {
+        "word": "бедный",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🏚️",
+        "form": "adjective",
+        "feminine": "бедная",
+        "neuter": "бедное",
+        "plural": "бедные",
+        "comparative": "более бедный",
+        "superlative": "самый бедный"
+    },
+    {
+        "word": "здоровый",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "🍎",
+        "form": "adjective",
+        "feminine": "здоровая",
+        "neuter": "здоровое",
+        "plural": "здоровые",
+        "comparative": "более здоровый",
+        "superlative": "самый здоровый"
+    },
+    {
+        "word": "нездоровый",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "🍔",
+        "form": "adjective",
+        "feminine": "нездоровая",
+        "neuter": "нездоровое",
+        "plural": "нездоровые",
+        "comparative": "более нездоровый",
+        "superlative": "самый нездоровый"
+    },
+    {
+        "word": "больной",
+        "level": "elementary",
+        "theme": "diet_healthy_eating_A2",
+        "emoji": "🤒",
+        "form": "adjective",
+        "feminine": "больная",
+        "neuter": "больное",
+        "plural": "больные",
+        "comparative": "более больной",
+        "superlative": "самый больной"
+    },
+    {
+        "word": "уставший",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "😴",
+        "form": "adjective",
+        "feminine": "уставшая",
+        "neuter": "уставшое",
+        "plural": "уставшие",
+        "comparative": "более уставший",
+        "superlative": "самый уставший"
+    },
+    {
+        "word": "напряженный",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "😫",
+        "form": "adjective",
+        "feminine": "напряженная",
+        "neuter": "напряженное",
+        "plural": "напряженные",
+        "comparative": "более напряженный",
+        "superlative": "самый напряженный"
+    },
+    {
+        "word": "дружелюбный",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "👋",
+        "form": "adjective",
+        "feminine": "дружелюбная",
+        "neuter": "дружелюбное",
+        "plural": "дружелюбные",
+        "comparative": "более дружелюбный",
+        "superlative": "самый дружелюбный"
+    },
+    {
+        "word": "добрый",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "❤️",
+        "form": "adjective",
+        "feminine": "добрая",
+        "neuter": "доброе",
+        "plural": "добрые",
+        "comparative": "более добрый",
+        "superlative": "самый добрый"
+    },
+    {
+        "word": "честный",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "feminine": "честная",
+        "neuter": "честное",
+        "plural": "честные",
+        "comparative": "более честный",
+        "superlative": "самый честный"
+    },
+    {
+        "word": "терпеливый",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "⏳",
+        "form": "adjective",
+        "feminine": "терпеливая",
+        "neuter": "терпеливое",
+        "plural": "терпеливые",
+        "comparative": "более терпеливый",
+        "superlative": "самый терпеливый"
+    },
+    {
+        "word": "вежливый",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🙇",
+        "form": "adjective",
+        "feminine": "вежливая",
+        "neuter": "вежливое",
+        "plural": "вежливые",
+        "comparative": "более вежливый",
+        "superlative": "самый вежливый"
+    },
+    {
+        "word": "поддерживающий",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🤝",
+        "form": "adjective",
+        "feminine": "поддерживающая",
+        "neuter": "поддерживающее",
+        "plural": "поддерживающие",
+        "comparative": "более поддерживающий",
+        "superlative": "самый поддерживающий"
+    },
+    {
+        "word": "уверенный",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "✨",
+        "form": "adjective",
+        "feminine": "уверенная",
+        "neuter": "уверенное",
+        "plural": "уверенные",
+        "comparative": "более уверенный",
+        "superlative": "самый уверенный"
+    },
+    {
+        "word": "общительный",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🗣️",
+        "form": "adjective",
+        "feminine": "общительная",
+        "neuter": "общительное",
+        "plural": "общительные",
+        "comparative": "более общительный",
+        "superlative": "самый общительный"
+    },
+    {
+        "word": "современный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "feminine": "современная",
+        "neuter": "современное",
+        "plural": "современные",
+        "comparative": "более современный",
+        "superlative": "самый современный"
+    },
+    {
+        "word": "традиционный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🏛️",
+        "form": "adjective",
+        "feminine": "традиционная",
+        "neuter": "традиционное",
+        "plural": "традиционные",
+        "comparative": "более традиционный",
+        "superlative": "самый традиционный"
+    },
+    {
+        "word": "местный",
+        "level": "elementary",
+        "theme": "neighbourhood_local_A2",
+        "emoji": "📍",
+        "form": "adjective",
+        "feminine": "местная",
+        "neuter": "местное",
+        "plural": "местные",
+        "comparative": "более местный",
+        "superlative": "самый местный"
+    },
+    {
+        "word": "международный",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🌎",
+        "form": "adjective",
+        "feminine": "международная",
+        "neuter": "международное",
+        "plural": "международные",
+        "comparative": "более международный",
+        "superlative": "самый международный"
+    },
+    {
+        "word": "интересный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "💡",
+        "form": "adjective",
+        "feminine": "интересная",
+        "neuter": "интересное",
+        "plural": "интересные",
+        "comparative": "более интересный",
+        "superlative": "самый интересный"
+    },
+    {
+        "word": "скучный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "💤",
+        "form": "adjective",
+        "feminine": "скучная",
+        "neuter": "скучное",
+        "plural": "скучные",
+        "comparative": "более скучный",
+        "superlative": "самый скучный"
+    },
+    {
+        "word": "странный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "❓",
+        "form": "adjective",
+        "feminine": "странная",
+        "neuter": "странное",
+        "plural": "странные",
+        "comparative": "более странный",
+        "superlative": "самый странный"
+    },
+    {
+        "word": "нормальный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "✅",
+        "form": "adjective",
+        "feminine": "нормальная",
+        "neuter": "нормальное",
+        "plural": "нормальные",
+        "comparative": "более нормальный",
+        "superlative": "самый нормальный"
+    },
+    {
+        "word": "типичный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🔄",
+        "form": "adjective",
+        "feminine": "типичная",
+        "neuter": "типичное",
+        "plural": "типичные",
+        "comparative": "более типичный",
+        "superlative": "самый типичный"
+    },
+    {
+        "word": "общий",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "📍",
+        "form": "adjective",
+        "feminine": "общая",
+        "neuter": "общее",
+        "plural": "общие",
+        "comparative": "более общий",
+        "superlative": "самый общий"
+    },
+    {
+        "word": "редкий",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "💎",
+        "form": "adjective",
+        "feminine": "редкая",
+        "neuter": "редкое",
+        "plural": "редкие",
+        "comparative": "более редкий",
+        "superlative": "самый редкий"
+    },
+    {
+        "word": "определенный",
+        "level": "elementary",
+        "theme": "comparison_A2",
+        "emoji": "🎯",
+        "form": "adjective",
+        "feminine": "определенная",
+        "neuter": "определенное",
+        "plural": "определенные",
+        "comparative": "более определенный",
+        "superlative": "самый определенный"
+    },
+    {
+        "word": "ясный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🔍",
+        "form": "adjective",
+        "feminine": "ясная",
+        "neuter": "ясное",
+        "plural": "ясные",
+        "comparative": "более ясный",
+        "superlative": "самый ясный"
+    },
+    {
+        "word": "трудный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🧩",
+        "form": "adjective",
+        "feminine": "трудная",
+        "neuter": "трудное",
+        "plural": "трудные",
+        "comparative": "более трудный",
+        "superlative": "самый трудный"
+    },
+    {
+        "word": "простой",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "💡",
+        "form": "adjective",
+        "feminine": "простая",
+        "neuter": "простое",
+        "plural": "простые",
+        "comparative": "более простой",
+        "superlative": "самый простой"
+    },
+    {
+        "word": "сложный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🕸️",
+        "form": "adjective",
+        "feminine": "сложная",
+        "neuter": "сложное",
+        "plural": "сложные",
+        "comparative": "более сложный",
+        "superlative": "самый сложный"
+    },
+    {
+        "word": "серьезный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "👔",
+        "form": "adjective",
+        "feminine": "серьезная",
+        "neuter": "серьезное",
+        "plural": "серьезные",
+        "comparative": "более серьезный",
+        "superlative": "самый серьезный"
+    },
+    {
+        "word": "смешной",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "😂",
+        "form": "adjective",
+        "feminine": "смешная",
+        "neuter": "смешное",
+        "plural": "смешные",
+        "comparative": "более смешной",
+        "superlative": "самый смешной"
+    },
+    {
+        "word": "прямой",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "➡️",
+        "form": "adjective",
+        "feminine": "прямая",
+        "neuter": "прямое",
+        "plural": "прямые",
+        "comparative": "более прямой",
+        "superlative": "самый прямой"
+    },
+    {
+        "word": "ежедневный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "📅",
+        "form": "adjective",
+        "feminine": "ежедневная",
+        "neuter": "ежедневное",
+        "plural": "ежедневные",
+        "comparative": "более ежедневный",
+        "superlative": "самый ежедневный"
+    },
+    {
+        "word": "регулярный",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🔁",
+        "form": "adjective",
+        "feminine": "регулярная",
+        "neuter": "регулярное",
+        "plural": "регулярные",
+        "comparative": "более регулярный",
+        "superlative": "самый регулярный"
+    },
+    {
+        "word": "недавний",
+        "level": "elementary",
+        "theme": "past_time_A2",
+        "emoji": "🕒",
+        "form": "adjective",
+        "feminine": "недавняя",
+        "neuter": "недавнее",
+        "plural": "недавние",
+        "comparative": "более недавний",
+        "superlative": "самый недавний"
+    },
+    {
+        "word": "текущий",
+        "level": "elementary",
+        "theme": "sequence_order_A2",
+        "emoji": "📍",
+        "form": "adjective",
+        "feminine": "текущая",
+        "neuter": "текущее",
+        "plural": "текущие",
+        "comparative": "более текущий",
+        "superlative": "самый текущий"
+    },
+    {
+        "word": "будущий",
+        "level": "elementary",
+        "theme": "future_time_A2",
+        "emoji": "🔮",
+        "form": "adjective",
+        "feminine": "будущая",
+        "neuter": "будущее",
+        "plural": "будущие",
+        "comparative": "более будущий",
+        "superlative": "самый будущий"
+    },
+    {
+        "word": "предыдущий",
+        "level": "elementary",
+        "theme": "past_time_A2",
+        "emoji": "⬅️",
+        "form": "adjective",
+        "feminine": "предыдущая",
+        "neuter": "предыдущее",
+        "plural": "предыдущие",
+        "comparative": "более предыдущий",
+        "superlative": "самый предыдущий"
     }
 ];
-    const lang = "ru";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
