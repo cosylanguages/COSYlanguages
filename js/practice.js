@@ -118,12 +118,13 @@ function populatePracticeThemes(categoryId) {
             { value: 'grammar_future_simple', key: 'theme_grammar_future_simple' },
             { value: 'grammar_past_simple', key: 'theme_grammar_past_simple' },
             { value: 'grammar_gender', key: 'theme_grammar_gender' },
-            { value: 'grammar_verb_forms', key: 'theme_grammar_verb_forms' }
+            { value: 'grammar_verb_forms', key: 'theme_grammar_verb_forms' },
+            { value: 'grammar_adjectives', key: 'theme_grammar_adjectives' }
         ];
 
         if (lang === 'en') {
-            // English: Replace Verb Forms with Regular vs. Irregular
-            themes = baseThemes.filter(th => th.value !== 'grammar_gender' && th.value !== 'grammar_future_simple' && th.value !== 'grammar_verb_forms');
+            // English: Replace Gender and Future Simple (not used)
+            themes = baseThemes.filter(th => th.value !== 'grammar_gender' && th.value !== 'grammar_future_simple');
             themes.push({ value: 'grammar_reg_irregular', key: 'theme_grammar_reg_irregular' });
             themes.push({ value: 'grammar_stative_action', key: 'theme_grammar_stative_action' });
         } else if (lang === 'fr' || lang === 'it') {
@@ -227,17 +228,40 @@ function populateSubThemes() {
             else if (lang === 'ru') groups = ['1st_conj', '2nd_conj', 'mixed_conj', 'irregular'];
             else if (lang === 'el') groups = ['a', 'b1', 'b2', 'a_passive', 'irregular'];
 
-            // Normalise group IDs to 'group_' prefix for consistency with translations
-            groups = groups.map(g => (g === 'irregular' || g.startsWith('group_')) ? g : 'group_' + g);
-
             groups.forEach(g => {
                 const opt = document.createElement('option');
-                opt.value = 'verb_group_' + g;
                 const labelKey = 'verb_group_' + g;
+                opt.value = labelKey;
                 opt.textContent = t[labelKey] || g;
                 opt.setAttribute('data-translate-key', labelKey);
                 subThemeSelect.appendChild(opt);
             });
+            return;
+        }
+
+        if (selectedTheme === 'grammar_adjectives') {
+            subThemeGroup.style.display = 'block';
+            const allOpt = document.createElement('option');
+            allOpt.value = 'all';
+            allOpt.textContent = t['theme_all'] || 'All';
+            allOpt.setAttribute('data-translate-key', 'theme_all');
+            subThemeSelect.appendChild(allOpt);
+
+            const opt1 = document.createElement('option');
+            opt1.value = 'grammar_comparative_superlative';
+            const label1 = t['sub_theme_comparatives'] || 'Comparatives & Superlatives';
+            opt1.textContent = label1;
+            opt1.setAttribute('data-translate-key', 'sub_theme_comparatives');
+            subThemeSelect.appendChild(opt1);
+
+            if (lang !== 'en') {
+                const opt2 = document.createElement('option');
+                opt2.value = 'grammar_adjective_agreement';
+                const label2 = t['sub_theme_agreement'] || 'Gender & Numbers';
+                opt2.textContent = label2;
+                opt2.setAttribute('data-translate-key', 'sub_theme_agreement');
+                subThemeSelect.appendChild(opt2);
+            }
             return;
         }
     }
@@ -938,13 +962,15 @@ function expandGrammarItems(items, lang) {
     items.forEach(item => {
         const infinitive = item.verb || item.word;
         if (lang === 'en' && item.form === 'verb' && item.aspect && item.aspect !== 'both') {
+            const actionLabel = (translations[lang] && translations[lang]['verb_aspect_action']) || 'Action';
+            const stativeLabel = (translations[lang] && translations[lang]['verb_aspect_stative']) || 'Stative';
             expanded.push({
                 ...item,
                 type: 'type-mc',
                 primaryPrompt: infinitive,
                 secondaryContext: 'stative_vs_action',
-                answer: item.aspect === 'action' ? 'Action' : 'Stative',
-                distractors: [item.aspect === 'action' ? 'Stative' : 'Action'],
+                answer: item.aspect === 'action' ? actionLabel : stativeLabel,
+                distractors: [item.aspect === 'action' ? stativeLabel : actionLabel],
                 theme: 'grammar_stative_action'
             });
         }
@@ -1029,13 +1055,15 @@ function expandGrammarItems(items, lang) {
         }
         // English special: Regular vs Irregular
         if (lang === 'en' && item.form === 'verb' && item.classification) {
+            const regLabel = (translations[lang] && translations[lang]['verb_classification_regular']) || 'Regular';
+            const irregLabel = (translations[lang] && translations[lang]['verb_classification_irregular']) || 'Irregular';
             expanded.push({
                 ...item,
                 type: 'type-mc',
                 primaryPrompt: infinitive,
                 secondaryContext: 'reg_vs_irregular',
-                answer: item.classification.charAt(0).toUpperCase() + item.classification.slice(1),
-                distractors: [item.classification === 'regular' ? 'Irregular' : 'Regular'],
+                answer: item.classification === 'regular' ? regLabel : irregLabel,
+                distractors: [item.classification === 'regular' ? irregLabel : regLabel],
                 theme: 'grammar_reg_irregular'
             });
         }
@@ -1074,6 +1102,92 @@ function expandGrammarItems(items, lang) {
                 });
             }
         }
+        if (item.form === 'adjective') {
+            const baseAdj = item.word;
+            if (item.comparative && item.superlative) {
+                const compLabel = (translations[lang] && translations[lang]['label_comparative']) || "Comparative";
+                const superLabel = (translations[lang] && translations[lang]['label_superlative']) || "Superlative";
+
+                expanded.push({
+                    ...item,
+                    type: 'type-cl',
+                    primaryPrompt: baseAdj,
+                    secondaryContext: compLabel,
+                    clozeText: `${baseAdj} (${compLabel}) -> ____`,
+                    answer: item.comparative,
+                    theme: 'grammar_adjectives',
+                    subTheme: 'grammar_comparative_superlative'
+                });
+                expanded.push({
+                    ...item,
+                    type: 'type-cl',
+                    primaryPrompt: baseAdj,
+                    secondaryContext: superLabel,
+                    clozeText: `${baseAdj} (${superLabel}) -> ____`,
+                    answer: item.superlative,
+                    theme: 'grammar_adjectives',
+                    subTheme: 'grammar_comparative_superlative'
+                });
+            }
+
+            // Gender & Number Agreement context sentences
+            const agreementContexts = {
+                fr: [
+                    { key: 'm', label: 'm.', noun: 'Le garçon', verb: 'est' },
+                    { key: 'f', label: 'f.', noun: 'La fille', verb: 'est' },
+                    { key: 'mp', label: 'm.pl.', noun: 'Les garçons', verb: 'sont' },
+                    { key: 'fp', label: 'f.pl.', noun: 'Les filles', verb: 'sont' }
+                ],
+                it: [
+                    { key: 'm', label: 'm.', noun: 'Il ragazzo', verb: 'è' },
+                    { key: 'f', label: 'f.', noun: 'La ragazza', verb: 'è' },
+                    { key: 'mp', label: 'm.pl.', noun: 'I ragazzi', verb: 'sono' },
+                    { key: 'fp', label: 'f.pl.', noun: 'Le ragazze', verb: 'sono' }
+                ],
+                ru: [
+                    { key: 'm', label: 'он', noun: 'Этот дом', verb: '' },
+                    { key: 'f', label: 'она', noun: 'Эта машина', verb: '' },
+                    { key: 'n', label: 'оно', noun: 'Это окно', verb: '' },
+                    { key: 'p', label: 'они', noun: 'Эти люди', verb: '' }
+                ],
+                el: [
+                    { key: 'm', label: 'm.', noun: 'Ο άντρας', verb: 'είναι' },
+                    { key: 'f', label: 'f.', noun: 'Η γυναίκα', verb: 'είναι' },
+                    { key: 'n', label: 'n.', noun: 'Το παιδί', verb: 'είναι' },
+                    { key: 'mp', label: 'm.pl.', noun: 'Οι άντρες', verb: 'είναι' },
+                    { key: 'fp', label: 'f.pl.', noun: 'Οι γυναίκες', verb: 'είναι' },
+                    { key: 'np', label: 'n.pl.', noun: 'Τα παιδιά', verb: 'είναι' }
+                ]
+            };
+
+            const langContexts = agreementContexts[lang];
+            if (langContexts) {
+                langContexts.forEach(ctx => {
+                    let answer = null;
+                    if (ctx.key === 'm') answer = item.word;
+                    else if (ctx.key === 'f') answer = item.feminine;
+                    else if (ctx.key === 'n') answer = item.neuter;
+                    else if (ctx.key === 'p') answer = item.plural;
+                    else if (ctx.key === 'mp') answer = item.plural;
+                    else if (ctx.key === 'fp') answer = item.femininePlural || item.plural;
+                    else if (ctx.key === 'np') answer = item.neuterPlural || item.plural;
+
+                    if (answer) {
+                        expanded.push({
+                            ...item,
+                            type: 'type-cl',
+                            primaryPrompt: `${ctx.noun} ${ctx.verb}`.trim(),
+                            secondaryContext: `(${item.word})`,
+                            clozeText: `${ctx.noun} ${ctx.verb} ____ (${item.word})`.trim().replace(/\s+/g, ' '),
+                            answer: answer,
+                            theme: 'grammar_adjectives',
+                            subTheme: 'grammar_adjective_agreement'
+                        });
+                    }
+                });
+            }
+        }
+
         if (item.article || item.gender || item.plural) {
             if (item.article || item.gender) {
                 const correctAnswer = item.article || item.gender;
@@ -1159,7 +1273,7 @@ function startPractice(isWheelMode = false) {
         const vd = (vocabularyData[lang] || []).filter(item =>
             item.article || item.gender || item.plural ||
             item.v2 || item.v3 || item.past_participle ||
-            item.aspect || item.auxiliary
+            item.aspect || item.auxiliary || item.form === 'adjective'
         );
         rawItems = expandGrammarItems([...gd, ...vd], lang);
     } else {
@@ -1217,7 +1331,7 @@ function startPractice(isWheelMode = false) {
                         return itemGroup === targetGroup || (targetGroup === 'irregular' && item.classification === 'irregular');
                     });
                 } else {
-                    rawItems = rawItems.filter(item => (item.theme === selectedSubTheme || item.originalTheme === selectedSubTheme));
+                    rawItems = rawItems.filter(item => (item.theme === selectedSubTheme || item.originalTheme === selectedSubTheme || item.subTheme === selectedSubTheme));
                 }
             }
         } else if (selectedSubTheme && selectedSubTheme !== 'all' && selectedSubTheme !== '') {
@@ -1603,16 +1717,19 @@ function showNextWord() {
     const wtdEl = document.getElementById('task-what-to-do');
     if (wtdEl) {
         const lang = currentPractice.language;
-        let typeKey = wordObj.secondaryContext === 'reg_vs_irregular' ? 'ri' :
+        let typeKey = (wordObj.subTheme === 'grammar_comparative_superlative' || wordObj.theme === 'grammar_comparative_superlative') ? 'ac' :
+                      (wordObj.subTheme === 'grammar_adjective_agreement' || wordObj.theme === 'grammar_adjective_agreement') ? 'aa' :
+                      wordObj.secondaryContext === 'reg_vs_irregular' ? 'ri' :
+                      wordObj.secondaryContext === 'stative_vs_action' ? 'vs' :
                       wordObj.form === 'verb_form' ? 'vf' :
                       wordObj.form === 'verb' ? 'gv' :
                       wordObj.form === 'pronoun' ? 'gp' :
                       wordObj.type === 'type-ws' ? 'ws' :
+                      wordObj.type === 'type-op' ? 'op' :
+                      wordObj.type === 'type-cl' ? 'cl' :
                       wordObj.type === 'type-mc' ? 'mc' :
                       wordObj.type === 'type-ls' ? 'ls' :
                       wordObj.type === 'type-sc' ? 'sc' :
-                      wordObj.type === 'type-op' ? 'op' :
-                      wordObj.type === 'type-cl' ? 'cl' :
                       wordObj.type === 'type-tf' ? 'tf' :
                       wordObj.type === 'type-ga' ? 'ga' :
                       wordObj.type === 'type-np' ? 'np' : '';
@@ -1632,7 +1749,11 @@ function showNextWord() {
     if (exampleEl) {
         const lang = currentPractice.language;
         let typeKey = "";
-        if (wordObj.form === 'verb_form') {
+        if (wordObj.subTheme === 'grammar_comparative_superlative' || wordObj.theme === 'grammar_comparative_superlative') {
+            typeKey = 'ac';
+        } else if (wordObj.subTheme === 'grammar_adjective_agreement' || wordObj.theme === 'grammar_adjective_agreement') {
+            typeKey = 'aa';
+        } else if (wordObj.form === 'verb_form') {
             typeKey = 'vf';
         } else if (wordObj.form === 'verb') {
             typeKey = 'gv';
@@ -1641,15 +1762,17 @@ function showNextWord() {
         } else if (wordObj.type === 'type-cv') {
             typeKey = 'cv';
         } else {
-            typeKey = wordObj.type === 'type-ws' ? 'ws' :
-                        wordObj.type === 'type-mc' ? 'mc' :
-                        wordObj.type === 'type-ls' ? 'ls' :
-                        wordObj.type === 'type-sc' ? 'sc' :
-                        wordObj.type === 'type-op' ? 'op' :
-                        wordObj.type === 'type-cl' ? 'cl' :
-                        wordObj.type === 'type-tf' ? 'tf' :
-                        wordObj.type === 'type-ga' ? 'ga' :
-                        wordObj.type === 'type-np' ? 'np' : '';
+            typeKey = wordObj.secondaryContext === 'reg_vs_irregular' ? 'ri' :
+                      wordObj.secondaryContext === 'stative_vs_action' ? 'vs' :
+                      wordObj.type === 'type-ws' ? 'ws' :
+                      wordObj.type === 'type-mc' ? 'mc' :
+                      wordObj.type === 'type-ls' ? 'ls' :
+                      wordObj.type === 'type-sc' ? 'sc' :
+                      wordObj.type === 'type-op' ? 'op' :
+                      wordObj.type === 'type-cl' ? 'cl' :
+                      wordObj.type === 'type-tf' ? 'tf' :
+                      wordObj.type === 'type-ga' ? 'ga' :
+                      wordObj.type === 'type-np' ? 'np' : '';
         }
         const exampleKey = `example_${typeKey}`;
         if (translations[lang] && translations[lang][exampleKey]) {
@@ -1690,6 +1813,8 @@ function showNextWord() {
 
         if (wordObj.form) {
             addBadge(wordObj.form, 'form-badge', `form_${wordObj.form}`);
+        } else if (wordObj.type === 'type-ga' || wordObj.type === 'type-np') {
+            addBadge('noun', 'form-badge', 'form_noun');
         }
         if (wordObj.classification) {
             addBadge(wordObj.classification, 'class-badge', `verb_classification_${wordObj.classification}`);

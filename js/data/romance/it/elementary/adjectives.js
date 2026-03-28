@@ -700,8 +700,8 @@
             }
         ],
         "subtext": "vale i soldi / vale la pena farlo / vale la pena considerare",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "più valere la pena",
+        "superlative": "il più valere la pena",
         "opposite": "senza valore"
     },
     {
@@ -1536,8 +1536,8 @@
             }
         ],
         "subtext": "routine quotidiana / su base quotidiana / rapporto quotidiano",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "più quotidiano",
+        "superlative": "il più quotidiano",
         "opposite": "mensile"
     },
     {
@@ -1602,8 +1602,8 @@
             }
         ],
         "subtext": "situazione attuale / datore di lavoro attuale / attualmente",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "più attuale",
+        "superlative": "il più attuale",
         "opposite": "passato"
     },
     {
@@ -1624,8 +1624,8 @@
             }
         ],
         "subtext": "progetti futuri / in futuro / futuro datore di lavoro",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "più futuro",
+        "superlative": "il più futuro",
         "opposite": "passato"
     },
     {
@@ -1646,14 +1646,9 @@
             }
         ],
         "subtext": "lavoro precedente / datore di lavoro precedente / esperienza precedente",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "più precedente",
+        "superlative": "il più precedente",
         "opposite": "seguente"
     }
 ];
-    const lang = "it";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

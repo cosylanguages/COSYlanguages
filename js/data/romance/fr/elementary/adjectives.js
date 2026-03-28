@@ -700,8 +700,8 @@
             }
         ],
         "subtext": "vaut l'argent / vaut le coup / vaut la peine d'être considéré",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "plus valoir la peine",
+        "superlative": "le plus valoir la peine",
         "opposite": "sans valeur"
     },
     {
@@ -1536,8 +1536,8 @@
             }
         ],
         "subtext": "routine quotidienne / quotidiennement / rapport quotidien",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "plus quotidien",
+        "superlative": "le plus quotidien",
         "opposite": "mensuel"
     },
     {
@@ -1602,8 +1602,8 @@
             }
         ],
         "subtext": "situation actuelle / employeur actuel / actuellement",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "plus actuel",
+        "superlative": "le plus actuel",
         "opposite": "passé"
     },
     {
@@ -1624,8 +1624,8 @@
             }
         ],
         "subtext": "projets futurs / à l'avenir / futur employeur",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "plus futur",
+        "superlative": "le plus futur",
         "opposite": "passé"
     },
     {
@@ -1646,14 +1646,9 @@
             }
         ],
         "subtext": "travail précédent / employeur précédent / expérience précédente",
-        "comparative": null,
-        "superlative": null,
+        "comparative": "plus précédent",
+        "superlative": "le plus précédent",
         "opposite": "suivant"
     }
 ];
-    const lang = "fr";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

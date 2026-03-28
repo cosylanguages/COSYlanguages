@@ -1097,10 +1097,21 @@
             label_v3: "V3 (Past Participle)",
             theme_grammar_reg_irregular: "Regular vs. Irregular 🧐",
             theme_grammar_stative_action: "Stative vs. Action 💡",
+            theme_grammar_adjectives: "Adjectives 🎨",
+            sub_theme_comparatives: "Comparatives & Superlatives",
+            sub_theme_agreement: "Gender & Numbers",
+            label_comparative: "Comparative",
+            label_superlative: "Superlative",
             wtd_ri: "Identify if the verb is regular or irregular.",
-            example_ri: "Example: 🧩 He ____ (to speak) -> speaks",
+            example_ri: "Example: 🧩 to go -> Irregular",
             wtd_vf: "Type the correct verb form (V2 or V3) as requested.",
-            example_vf: "Example: 🕒 to go (V3) -> gone"
+            example_vf: "Example: 🕒 to go (V3) -> gone",
+            wtd_vs: "Classify the verb correctly (Action vs. Stative).",
+            example_vs: "Example: 🧩 to walk -> Action",
+            wtd_ac: "Type the correct comparative or superlative form.",
+            example_ac: "Example: 🧩 big (Comparative) -> bigger",
+            wtd_aa: "Type the correct form of the adjective to match the noun.",
+            example_aa: "Example: ⚖️ A ____ house (small) -> small"
         }
         };
     window.translations = window.translations || {};
