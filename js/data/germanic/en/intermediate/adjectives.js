@@ -4,14 +4,16 @@
         "word": "thin",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "form": "adjective"
+        "form": "adjective",
+        "subtext": "paper thin / exceptionally thin / growing thin"
     },
     {
         "word": "stormy",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
         "emoji": "⛈️",
-        "form": "adjective"
+        "form": "adjective",
+        "subtext": "stormy weather / a stormy relationship / stormy skies"
     },
     {
         "word": "self-employed",
