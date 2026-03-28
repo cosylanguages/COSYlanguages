@@ -75,7 +75,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "давать советы / давать деньги / давать подарок",
-        "opposite": "take",
+        "opposite": "брать",
         "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
@@ -99,7 +99,7 @@
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "садиться в автобус / принимать лекарство",
-        "opposite": "give",
+        "opposite": "давать",
         "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
@@ -234,7 +234,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "открывать дверь / открывать счет / открывать магазин",
-        "opposite": "close",
+        "opposite": "закрывать",
         "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
@@ -258,7 +258,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "закрывать дверь / закрываться в шесть",
-        "opposite": "open",
+        "opposite": "открывать",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -282,7 +282,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "начинать работу / начинать встречу / начинать рано",
-        "opposite": "finish",
+        "opposite": "заканчивать",
         "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
@@ -306,7 +306,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "заканчивать работу / заканчивать проект",
-        "opposite": "start",
+        "opposite": "начинать",
         "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
@@ -440,7 +440,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "потерять работу / терять деньги / терять вес",
-        "opposite": "win",
+        "opposite": "побеждать",
         "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
@@ -663,7 +663,7 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "писать письмо / писать отчет / писать заметки",
-        "opposite": "read",
+        "opposite": "читать",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -687,7 +687,7 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "читать книгу / читать новости / читать внимательно",
-        "opposite": "write",
+        "opposite": "писать",
         "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
@@ -799,7 +799,7 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "приходить домой / возвращаться / приходить сюда",
-        "opposite": "go",
+        "opposite": "идти",
         "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -999,7 +999,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "завтракать / обедать / ужинать",
-        "opposite": "drink",
+        "opposite": "пить",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
@@ -1023,7 +1023,7 @@
         "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "пить кофе / пить чай / пить воду",
-        "opposite": "eat",
+        "opposite": "есть",
         "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
@@ -1047,7 +1047,7 @@
         "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "хорошо спать / плохо спать / спать восемь часов",
-        "opposite": "wake up",
+        "opposite": "просыпаться",
         "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
@@ -1159,7 +1159,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "покупать еду / покупать билет",
-        "opposite": "sell",
+        "opposite": "продавать",
         "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
@@ -1227,7 +1227,7 @@
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "копить деньги / копить на дом / экономить время",
-        "opposite": "spend",
+        "opposite": "тратить",
         "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
@@ -1273,7 +1273,7 @@
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "жить в квартире / жить одному / жить с кем-то",
-        "opposite": "die",
+        "opposite": "умирать",
         "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
@@ -1631,7 +1631,7 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "рано просыпаться / просыпаться в 7 / просыпаться уставшим",
-        "opposite": "sleep",
+        "opposite": "спать",
         "oppositeEmoji": "😴",
         "definitions": [
             {
@@ -1742,7 +1742,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "сидеть / сидеть за столом / сидеть на встрече",
-        "opposite": "stand",
+        "opposite": "стоять",
         "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
@@ -1766,7 +1766,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "стоять / вставать / стоять в очереди",
-        "opposite": "sit",
+        "opposite": "сидеть",
         "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
@@ -1900,7 +1900,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "побеждать / выиграть приз / выиграть контракт",
-        "opposite": "lose",
+        "opposite": "терять",
         "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
@@ -1945,7 +1945,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "умирать / умирать от / вымирать",
-        "opposite": "live",
+        "opposite": "жить",
         "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
@@ -2056,7 +2056,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "продавать / продавать онлайн / продавать на рынке",
-        "opposite": "buy",
+        "opposite": "покупать",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -2079,7 +2079,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "тянуть / тянуть дверь / отъезжать",
-        "opposite": "push",
+        "opposite": "толкать",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -2102,7 +2102,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "толкать / нажать кнопку / толкать тележку",
-        "opposite": "pull",
+        "opposite": "тянуть",
         "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
@@ -2258,7 +2258,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "улыбаться / улыбаться кому-то / широко улыбаться",
-        "opposite": "cry",
+        "opposite": "плакать",
         "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
@@ -2282,7 +2282,7 @@
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "плакать / плакать о помощи / плакать из-за чего-то",
-        "opposite": "smile",
+        "opposite": "улыбаться",
         "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [

@@ -72,7 +72,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "δίνω συμβουλές / δίνω χρήματα / δίνω δώρο",
-        "opposite": "take",
+        "opposite": "παίρνω",
         "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
@@ -95,7 +95,7 @@
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "παίρνω το λεωφορείο / παίρνω φάρμακο / κάνω διάλειμμα",
-        "opposite": "give",
+        "opposite": "δίνω",
         "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
@@ -224,7 +224,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "ανοίγω πόρτα / ανοίγω λογαριασμό / ανοίγω μαγαζί",
-        "opposite": "close",
+        "opposite": "κλείνω",
         "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
@@ -247,7 +247,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "κλείνω πόρτα / κλείνω στις έξι / κλείνω λογαριασμό",
-        "opposite": "open",
+        "opposite": "ανοίγω",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -270,7 +270,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "ξεκινώ δουλειά / ξεκινώ συνάντηση / ξεκινώ νέα δουλειά",
-        "opposite": "finish",
+        "opposite": "τελειώνω",
         "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
@@ -293,7 +293,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "τελειώνω δουλειά / τελειώνω έργο / τελειώνω νωρίς",
-        "opposite": "start",
+        "opposite": "ξεκινώ",
         "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
@@ -421,7 +421,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "χάνω δουλειά / χάνω χρήματα / χάνω βάρος",
-        "opposite": "win",
+        "opposite": "κερδίζω",
         "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
@@ -634,7 +634,7 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "γράφω email / γράφω αναφορά / γράφω γράμμα",
-        "opposite": "read",
+        "opposite": "διαβάζω",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -657,7 +657,7 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "διαβάζω βιβλίο / διαβάζω ειδήσεις / διαβάζω συμβόλαιο",
-        "opposite": "write",
+        "opposite": "γράφω",
         "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
@@ -764,7 +764,7 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "έρχομαι σπίτι / επιστρέφω / έρχομαι στη δουλειά",
-        "opposite": "go",
+        "opposite": "πηγαίνω",
         "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -955,7 +955,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "τρώω πρωινό / μεσημεριανό / βραδινό",
-        "opposite": "drink",
+        "opposite": "πίνω",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
@@ -978,7 +978,7 @@
         "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "πίνω καφέ / πίνω τσάι / πίνω νερό",
-        "opposite": "eat",
+        "opposite": "τρώω",
         "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
@@ -1001,7 +1001,7 @@
         "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "κοιμάμαι καλά / κοιμάμαι άσχημα / κοιμάμαι οκτώ ώρες",
-        "opposite": "wake up",
+        "opposite": "ξυπνάω",
         "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
@@ -1108,7 +1108,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "αγοράζω φαγητό / αγοράζω εισιτήριο",
-        "opposite": "sell",
+        "opposite": "πουλώ",
         "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
@@ -1173,7 +1173,7 @@
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "αποταμιεύω χρήματα / αποταμιεύω για σπίτι",
-        "opposite": "spend",
+        "opposite": "ξοδεύω",
         "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
@@ -1217,7 +1217,7 @@
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "ζω σε διαμέρισμα / ζω μόνος / ζω με κάποιον",
-        "opposite": "die",
+        "opposite": "πεθαίνω",
         "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
@@ -1559,7 +1559,7 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "ξυπνάω νωρίς / ξυπνάω στις 7 / ξυπνάω κουρασμένος",
-        "opposite": "sleep",
+        "opposite": "κοιμάμαι",
         "oppositeEmoji": "😴",
         "definitions": [
             {
@@ -1665,7 +1665,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "κάθομαι / κάθομαι στο γραφείο / κάθομαι σε συνάντηση",
-        "opposite": "stand",
+        "opposite": "στέκομαι",
         "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
@@ -1688,7 +1688,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "στέκομαι / σηκώνομαι / στέκομαι στην ουρά",
-        "opposite": "sit",
+        "opposite": "κάθομαι",
         "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
@@ -1816,7 +1816,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "κερδίζω / κερδίζω βραβείο / κερδίζω συμβόλαιο",
-        "opposite": "lose",
+        "opposite": "χάνω",
         "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
@@ -1859,7 +1859,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "πεθαίνω / πεθαίνω από / εξαφανίζομαι",
-        "opposite": "live",
+        "opposite": "ζω",
         "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
@@ -1965,7 +1965,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "πουλώ / πουλώ online / πουλώ στην αγορά",
-        "opposite": "buy",
+        "opposite": "αγοράζω",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -1987,7 +1987,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "τραβώ / τραβώ την πόρτα / απομακρύνομαι",
-        "opposite": "push",
+        "opposite": "σπρώχνω",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -2009,7 +2009,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "σπρώχνω / πατώ κουμπί / σπρώχνω καρότσι",
-        "opposite": "pull",
+        "opposite": "τραβώ",
         "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
@@ -2158,7 +2158,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "χαμογελώ / χαμογελώ σε κάποιον / πλατιά",
-        "opposite": "cry",
+        "opposite": "κλαίω",
         "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
@@ -2181,7 +2181,7 @@
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "κλαίω / κλαίω για βοήθεια / κλαίω για κάτι",
-        "opposite": "smile",
+        "opposite": "χαμογελώ",
         "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [

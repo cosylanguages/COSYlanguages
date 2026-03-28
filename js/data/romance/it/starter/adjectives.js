@@ -5,7 +5,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "short",
+        "opposite": "corto",
         "oppositeEmoji": "📏",
         "feminine": "alta",
         "emoji": "🦒",
@@ -26,7 +26,7 @@
                 ]
             }
         ],
-        "subtext": "a tall building / a tall person / tall enough",
+        "subtext": "un edificio alto / una persona alta / abbastanza alto",
         "comparative": "più alto",
         "superlative": "il più alto"
     },
@@ -57,7 +57,7 @@
         "subtext": "a short journey / short hair / too short",
         "comparative": "più corto",
         "superlative": "il più corto",
-        "opposite": "tall",
+        "opposite": "alto",
         "oppositeEmoji": "🗼"
     },
     {
@@ -77,7 +77,7 @@
         ],
         "comparative": "più giovane",
         "superlative": "il più giovane",
-        "opposite": "old",
+        "opposite": "vecchio",
         "oppositeEmoji": "👴",
         "subtext": "young person / young professional / young at heart",
         "word": "giovane"
@@ -87,7 +87,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "young",
+        "opposite": "giovane",
         "oppositeEmoji": "👶",
         "feminine": "vecchia",
         "emoji": "👴",
@@ -161,7 +161,7 @@
         "theme": "weather_A1",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "cold",
+        "opposite": "freddo",
         "oppositeEmoji": "❄️",
         "subtext": "molto caldo, bollente",
         "definitions": [
@@ -184,7 +184,7 @@
         "theme": "weather_A1",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "hot",
+        "opposite": "caldo",
         "oppositeEmoji": "🔥",
         "subtext": "molto freddo, gelido",
         "definitions": [
@@ -206,7 +206,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "special",
+        "opposite": "speciale",
         "oppositeEmoji": "✨",
         "definitions": [
             {
@@ -229,7 +229,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "expensive",
+        "opposite": "costoso",
         "oppositeEmoji": "💎",
         "feminine": "economica",
         "plural": "economici",
@@ -278,7 +278,7 @@
         "subtext": "costly, high price / very expensive / expensive taste / too expensive",
         "comparative": "più costoso",
         "superlative": "il più costoso",
-        "opposite": "cheap",
+        "opposite": "economico",
         "oppositeEmoji": "🏷️"
     },
     {
@@ -287,7 +287,7 @@
         "theme": "size_shape_A1",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "bad",
+        "opposite": "cattivo",
         "oppositeEmoji": "👎",
         "feminine": "buona",
         "plural": "buoni",
@@ -316,7 +316,7 @@
         "theme": "size_shape_A1",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "good",
+        "opposite": "buono",
         "oppositeEmoji": "👍",
         "feminine": "cattiva",
         "plural": "cattivi",
@@ -345,7 +345,7 @@
         "theme": "size_shape_A1",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "small",
+        "opposite": "piccolo",
         "oppositeEmoji": "🐭",
         "feminine": "grande",
         "plural": "grandi",
@@ -374,7 +374,7 @@
         "theme": "size_shape_A1",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "big",
+        "opposite": "grande",
         "oppositeEmoji": "🐘",
         "feminine": "piccola",
         "plural": "piccoli",
@@ -403,7 +403,7 @@
         "theme": "size_shape_A1",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "difficult",
+        "opposite": "difficile",
         "oppositeEmoji": "❌",
         "feminine": "facile",
         "plural": "facili",
@@ -427,7 +427,7 @@
         "theme": "size_shape_A1",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "easy",
+        "opposite": "facile",
         "oppositeEmoji": "✅",
         "feminine": "difficile",
         "plural": "difficili",
@@ -505,7 +505,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "part-time",
+        "opposite": "a tempo parziale",
         "oppositeEmoji": "⏳",
         "definitions": [
             {
@@ -528,7 +528,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "full-time",
+        "opposite": "a tempo pieno",
         "oppositeEmoji": "⏰",
         "definitions": [
             {
@@ -551,7 +551,7 @@
         "theme": "household_tasks_A1",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "dirty",
+        "opposite": "sporco",
         "oppositeEmoji": "💩",
         "subtext": "ordinato, limpido",
         "definitions": [
@@ -677,7 +677,7 @@
         "subtext": "calm, feeling relaxed",
         "comparative": "più rilassato",
         "superlative": "il più rilassato",
-        "opposite": "stressed",
+        "opposite": "stressato",
         "oppositeEmoji": "😫"
     },
     {
@@ -742,7 +742,7 @@
         "subtext": "helpful, practical",
         "comparative": "più utile",
         "superlative": "il più utile",
-        "opposite": "useless",
+        "opposite": "inutile",
         "oppositeEmoji": "🗑️"
     },
     {
@@ -919,7 +919,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "closed",
+        "opposite": "chiuso",
         "oppositeEmoji": "🔒",
         "subtext": "libero, non chiuso",
         "definitions": [
@@ -942,7 +942,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "open",
+        "opposite": "aperto",
         "oppositeEmoji": "📖",
         "subtext": "non accessibile",
         "definitions": [

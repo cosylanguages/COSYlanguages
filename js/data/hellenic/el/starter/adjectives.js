@@ -5,7 +5,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "short",
+        "opposite": "κοντός",
         "oppositeEmoji": "📏",
         "definitions": [
             {
@@ -19,7 +19,7 @@
         "emoji": "🦒",
         "neuter": "ψηλό",
         "plural": "ψηλοί",
-        "subtext": "a tall building / a tall person / tall enough",
+        "subtext": "ένα ψηλό κτίριο / ένας ψηλός άνθρωπος / αρκετά ψηλός",
         "comparative": "πιο ψηλός",
         "superlative": "ο πιο ψηλός"
     },
@@ -28,7 +28,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "tall",
+        "opposite": "ψηλός",
         "oppositeEmoji": "🗼",
         "definitions": [
             {
@@ -63,7 +63,7 @@
         ],
         "comparative": "πιο νέος",
         "superlative": "ο πιο νέος",
-        "opposite": "old",
+        "opposite": "παλιός",
         "oppositeEmoji": "👴",
         "subtext": "young person / young professional / young at heart",
         "word": "νέος"
@@ -94,7 +94,7 @@
         "subtext": "old friend / old habits / very old",
         "comparative": "πιο παλιός",
         "superlative": "ο πιο παλιός",
-        "opposite": "young",
+        "opposite": "νέος",
         "oppositeEmoji": "👶"
     },
     {
@@ -147,7 +147,7 @@
         "theme": "weather_A1",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "cold",
+        "opposite": "κρύος",
         "oppositeEmoji": "❄️",
         "subtext": "καυτός",
         "definitions": [
@@ -170,7 +170,7 @@
         "theme": "weather_A1",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "hot",
+        "opposite": "ζεστός",
         "oppositeEmoji": "🔥",
         "definitions": [
             {
@@ -192,7 +192,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "special",
+        "opposite": "ειδικός",
         "oppositeEmoji": "✨",
         "definitions": [
             {
@@ -215,7 +215,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "expensive",
+        "opposite": "ακριβός",
         "oppositeEmoji": "💎",
         "definitions": [
             {
@@ -238,7 +238,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "cheap",
+        "opposite": "φτηνός",
         "oppositeEmoji": "🏷️",
         "definitions": [
             {
@@ -261,7 +261,7 @@
         "theme": "size_shape_A1",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "bad",
+        "opposite": "κακός",
         "oppositeEmoji": "👎",
         "definitions": [
             {
@@ -284,7 +284,7 @@
         "theme": "size_shape_A1",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "good",
+        "opposite": "καλός",
         "oppositeEmoji": "👍",
         "definitions": [
             {
@@ -307,7 +307,7 @@
         "theme": "size_shape_A1",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "small",
+        "opposite": "μικρός",
         "oppositeEmoji": "🐭",
         "definitions": [
             {
@@ -330,7 +330,7 @@
         "theme": "size_shape_A1",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "big",
+        "opposite": "μεγάλος",
         "oppositeEmoji": "🐘",
         "definitions": [
             {
@@ -353,7 +353,7 @@
         "theme": "size_shape_A1",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "difficult",
+        "opposite": "δύσκολος",
         "oppositeEmoji": "❌",
         "definitions": [
             {
@@ -376,7 +376,7 @@
         "theme": "size_shape_A1",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "easy",
+        "opposite": "εύκολος",
         "oppositeEmoji": "✅",
         "definitions": [
             {
@@ -441,7 +441,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "part-time",
+        "opposite": "μερικής απασχόλησης",
         "oppositeEmoji": "⏳",
         "definitions": [
             {
@@ -464,7 +464,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "full-time",
+        "opposite": "πλήρους απασχόλησης",
         "oppositeEmoji": "⏰",
         "definitions": [
             {
@@ -487,7 +487,7 @@
         "theme": "household_tasks_A1",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "dirty",
+        "opposite": "βρώμικος",
         "oppositeEmoji": "💩",
         "subtext": "τακτοποιημένος",
         "definitions": [
@@ -613,7 +613,7 @@
         "subtext": "calm, feeling relaxed",
         "comparative": "πιο χαλαρός",
         "superlative": "ο πιο χαλαρός",
-        "opposite": "stressed",
+        "opposite": "αγχωμένος",
         "oppositeEmoji": "😫"
     },
     {
@@ -678,7 +678,7 @@
         "subtext": "helpful, practical",
         "comparative": "χρήσιμτερος",
         "superlative": "ο πιο χρήσιμος",
-        "opposite": "useless",
+        "opposite": "άχρηστος",
         "oppositeEmoji": "🗑️"
     },
     {
@@ -861,7 +861,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "closed",
+        "opposite": "κλειστός",
         "oppositeEmoji": "🔒",
         "definitions": [
             {
@@ -884,7 +884,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "open",
+        "opposite": "ανοιχτός",
         "oppositeEmoji": "📖",
         "definitions": [
             {

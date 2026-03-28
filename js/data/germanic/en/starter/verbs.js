@@ -20,7 +20,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v2": "was / were",
-        "v3": "been"
+        "v3": "been",
+        "group": "irregular"
     },
     {
         "word": "have",
@@ -42,7 +43,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v2": "had",
-        "v3": "had"
+        "v3": "had",
+        "group": "irregular"
     },
     {
         "word": "feel",
@@ -62,7 +64,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v2": "felt",
-        "v3": "felt"
+        "v3": "felt",
+        "group": "irregular"
     },
     {
         "word": "give",
@@ -85,7 +88,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "gave",
-        "v3": "given"
+        "v3": "given",
+        "group": "irregular"
     },
     {
         "word": "take",
@@ -108,7 +112,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "took",
-        "v3": "taken"
+        "v3": "taken",
+        "group": "irregular"
     },
     {
         "word": "get",
@@ -130,7 +135,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "got",
-        "v3": "got / gotten"
+        "v3": "got / gotten",
+        "group": "irregular"
     },
     {
         "word": "put",
@@ -151,7 +157,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "put",
-        "v3": "put"
+        "v3": "put",
+        "group": "irregular"
     },
     {
         "word": "make",
@@ -172,7 +179,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "made",
-        "v3": "made"
+        "v3": "made",
+        "group": "irregular"
     },
     {
         "word": "do",
@@ -193,7 +201,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "did",
-        "v3": "done"
+        "v3": "done",
+        "group": "irregular"
     },
     {
         "word": "use",
@@ -214,7 +223,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "used",
-        "v3": "used"
+        "v3": "used",
+        "group": "regular"
     },
     {
         "word": "open",
@@ -237,7 +247,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "opened",
-        "v3": "opened"
+        "v3": "opened",
+        "group": "regular"
     },
     {
         "word": "close",
@@ -260,7 +271,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "closed",
-        "v3": "closed"
+        "v3": "closed",
+        "group": "regular"
     },
     {
         "word": "start",
@@ -282,7 +294,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "started",
-        "v3": "started"
+        "v3": "started",
+        "group": "regular"
     },
     {
         "word": "finish",
@@ -304,7 +317,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "finished",
-        "v3": "finished"
+        "v3": "finished",
+        "group": "regular"
     },
     {
         "word": "help",
@@ -324,7 +338,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "helped",
-        "v3": "helped"
+        "v3": "helped",
+        "group": "regular"
     },
     {
         "word": "try",
@@ -344,7 +359,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "tried",
-        "v3": "tried"
+        "v3": "tried",
+        "group": "regular"
     },
     {
         "word": "show",
@@ -364,7 +380,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "showed",
-        "v3": "shown"
+        "v3": "shown",
+        "group": "irregular"
     },
     {
         "word": "find",
@@ -385,7 +402,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "found",
-        "v3": "found"
+        "v3": "found",
+        "group": "irregular"
     },
     {
         "word": "keep",
@@ -406,7 +424,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v2": "kept",
-        "v3": "kept"
+        "v3": "kept",
+        "group": "irregular"
     },
     {
         "word": "lose",
@@ -430,7 +449,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "lost",
-        "v3": "lost"
+        "v3": "lost",
+        "group": "irregular"
     },
     {
         "word": "cut",
@@ -451,7 +471,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "cut",
-        "v3": "cut"
+        "v3": "cut",
+        "group": "irregular"
     },
     {
         "word": "turn",
@@ -472,7 +493,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "turned",
-        "v3": "turned"
+        "v3": "turned",
+        "group": "regular"
     },
     {
         "word": "bring",
@@ -493,7 +515,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "brought",
-        "v3": "brought"
+        "v3": "brought",
+        "group": "irregular"
     },
     {
         "word": "say",
@@ -514,7 +537,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "said",
-        "v3": "said"
+        "v3": "said",
+        "group": "irregular"
     },
     {
         "word": "tell",
@@ -534,7 +558,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "told",
-        "v3": "told"
+        "v3": "told",
+        "group": "irregular"
     },
     {
         "word": "ask",
@@ -554,7 +579,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "asked",
-        "v3": "asked"
+        "v3": "asked",
+        "group": "regular"
     },
     {
         "word": "speak",
@@ -575,7 +601,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "spoke",
-        "v3": "spoken"
+        "v3": "spoken",
+        "group": "irregular"
     },
     {
         "word": "talk",
@@ -595,7 +622,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "talked",
-        "v3": "talked"
+        "v3": "talked",
+        "group": "regular"
     },
     {
         "word": "call",
@@ -615,7 +643,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "called",
-        "v3": "called"
+        "v3": "called",
+        "group": "regular"
     },
     {
         "word": "write",
@@ -638,7 +667,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "wrote",
-        "v3": "written"
+        "v3": "written",
+        "group": "irregular"
     },
     {
         "word": "read",
@@ -661,7 +691,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "read",
-        "v3": "read"
+        "v3": "read",
+        "group": "irregular"
     },
     {
         "word": "listen",
@@ -682,7 +713,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "listened",
-        "v3": "listened"
+        "v3": "listened",
+        "group": "regular"
     },
     {
         "word": "answer",
@@ -703,7 +735,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "answered",
-        "v3": "answered"
+        "v3": "answered",
+        "group": "regular"
     },
     {
         "word": "repeat",
@@ -724,7 +757,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "repeated",
-        "v3": "repeated"
+        "v3": "repeated",
+        "group": "regular"
     },
     {
         "word": "go",
@@ -745,7 +779,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "went",
-        "v3": "gone"
+        "v3": "gone",
+        "group": "irregular"
     },
     {
         "word": "come",
@@ -768,7 +803,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "came",
-        "v3": "come"
+        "v3": "come",
+        "group": "irregular"
     },
     {
         "word": "walk",
@@ -789,7 +825,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "walked",
-        "v3": "walked"
+        "v3": "walked",
+        "group": "regular"
     },
     {
         "word": "drive",
@@ -810,7 +847,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "drove",
-        "v3": "driven"
+        "v3": "driven",
+        "group": "irregular"
     },
     {
         "word": "fly",
@@ -831,7 +869,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "flew",
-        "v3": "flown"
+        "v3": "flown",
+        "group": "irregular"
     },
     {
         "word": "arrive",
@@ -851,7 +890,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "arrived",
-        "v3": "arrived"
+        "v3": "arrived",
+        "group": "regular"
     },
     {
         "word": "leave",
@@ -871,7 +911,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "left",
-        "v3": "left"
+        "v3": "left",
+        "group": "irregular"
     },
     {
         "word": "move",
@@ -891,7 +932,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "moved",
-        "v3": "moved"
+        "v3": "moved",
+        "group": "regular"
     },
     {
         "word": "return",
@@ -912,7 +954,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "returned",
-        "v3": "returned"
+        "v3": "returned",
+        "group": "regular"
     },
     {
         "word": "travel",
@@ -932,7 +975,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "traveled",
-        "v3": "traveled"
+        "v3": "traveled",
+        "group": "regular"
     },
     {
         "word": "eat",
@@ -955,7 +999,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "ate",
-        "v3": "eaten"
+        "v3": "eaten",
+        "group": "irregular"
     },
     {
         "word": "drink",
@@ -978,7 +1023,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "drank",
-        "v3": "drunk"
+        "v3": "drunk",
+        "group": "irregular"
     },
     {
         "word": "sleep",
@@ -1001,7 +1047,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "slept",
-        "v3": "slept"
+        "v3": "slept",
+        "group": "irregular"
     },
     {
         "word": "cook",
@@ -1021,7 +1068,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "cooked",
-        "v3": "cooked"
+        "v3": "cooked",
+        "group": "regular"
     },
     {
         "word": "clean",
@@ -1041,7 +1089,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "cleaned",
-        "v3": "cleaned"
+        "v3": "cleaned",
+        "group": "regular"
     },
     {
         "word": "wear",
@@ -1062,7 +1111,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "wore",
-        "v3": "worn"
+        "v3": "worn",
+        "group": "irregular"
     },
     {
         "word": "wash",
@@ -1083,7 +1133,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "washed",
-        "v3": "washed"
+        "v3": "washed",
+        "group": "regular"
     },
     {
         "word": "buy",
@@ -1106,7 +1157,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "bought",
-        "v3": "bought"
+        "v3": "bought",
+        "group": "irregular"
     },
     {
         "word": "pay",
@@ -1126,7 +1178,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "paid",
-        "v3": "paid"
+        "v3": "paid",
+        "group": "irregular"
     },
     {
         "word": "spend",
@@ -1146,7 +1199,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "spent",
-        "v3": "spent"
+        "v3": "spent",
+        "group": "irregular"
     },
     {
         "word": "save",
@@ -1168,7 +1222,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "saved",
-        "v3": "saved"
+        "v3": "saved",
+        "group": "regular"
     },
     {
         "word": "work",
@@ -1188,7 +1243,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "worked",
-        "v3": "worked"
+        "v3": "worked",
+        "group": "regular"
     },
     {
         "word": "live",
@@ -1211,7 +1267,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "lived",
-        "v3": "lived"
+        "v3": "lived",
+        "group": "regular"
     },
     {
         "word": "think",
@@ -1232,7 +1289,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v2": "thought",
-        "v3": "thought"
+        "v3": "thought",
+        "group": "irregular"
     },
     {
         "word": "know",
@@ -1254,7 +1312,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v2": "knew",
-        "v3": "known"
+        "v3": "known",
+        "group": "irregular"
     },
     {
         "word": "want",
@@ -1276,7 +1335,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "wanted",
-        "v3": "wanted"
+        "v3": "wanted",
+        "group": "regular"
     },
     {
         "word": "need",
@@ -1298,7 +1358,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "needed",
-        "v3": "needed"
+        "v3": "needed",
+        "group": "regular"
     },
     {
         "word": "like",
@@ -1320,7 +1381,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "liked",
-        "v3": "liked"
+        "v3": "liked",
+        "group": "regular"
     },
     {
         "word": "love",
@@ -1341,7 +1403,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "loved",
-        "v3": "loved"
+        "v3": "loved",
+        "group": "regular"
     },
     {
         "word": "hate",
@@ -1362,7 +1425,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "hated",
-        "v3": "hated"
+        "v3": "hated",
+        "group": "regular"
     },
     {
         "word": "hope",
@@ -1383,7 +1447,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "hoped",
-        "v3": "hoped"
+        "v3": "hoped",
+        "group": "regular"
     },
     {
         "word": "remember",
@@ -1404,7 +1469,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "remembered",
-        "v3": "remembered"
+        "v3": "remembered",
+        "group": "regular"
     },
     {
         "word": "forget",
@@ -1425,7 +1491,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v2": "forgot",
-        "v3": "forgotten"
+        "v3": "forgotten",
+        "group": "irregular"
     },
     {
         "word": "understand",
@@ -1446,7 +1513,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v2": "understood",
-        "v3": "understood"
+        "v3": "understood",
+        "group": "irregular"
     },
     {
         "word": "decide",
@@ -1467,7 +1535,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "decided",
-        "v3": "decided"
+        "v3": "decided",
+        "group": "regular"
     },
     {
         "word": "enjoy",
@@ -1487,7 +1556,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "enjoyed",
-        "v3": "enjoyed"
+        "v3": "enjoyed",
+        "group": "regular"
     },
     {
         "word": "see",
@@ -1508,7 +1578,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v2": "saw",
-        "v3": "seen"
+        "v3": "seen",
+        "group": "irregular"
     },
     {
         "word": "hear",
@@ -1529,7 +1600,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v2": "heard",
-        "v3": "heard"
+        "v3": "heard",
+        "group": "irregular"
     },
     {
         "word": "wake up",
@@ -1551,7 +1623,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "woke up",
-        "v3": "woken up"
+        "v3": "woken up",
+        "group": "irregular"
     },
     {
         "word": "watch",
@@ -1571,7 +1644,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "watched",
-        "v3": "watched"
+        "v3": "watched",
+        "group": "regular"
     },
     {
         "word": "look",
@@ -1592,7 +1666,8 @@
         "classification": "regular",
         "aspect": "both",
         "v2": "looked",
-        "v3": "looked"
+        "v3": "looked",
+        "group": "regular"
     },
     {
         "word": "play",
@@ -1612,7 +1687,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "played",
-        "v3": "played"
+        "v3": "played",
+        "group": "regular"
     },
     {
         "word": "run",
@@ -1633,7 +1709,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "ran",
-        "v3": "run"
+        "v3": "run",
+        "group": "irregular"
     },
     {
         "word": "sit",
@@ -1655,7 +1732,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "sat",
-        "v3": "sat"
+        "v3": "sat",
+        "group": "irregular"
     },
     {
         "word": "stand",
@@ -1677,7 +1755,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "stood",
-        "v3": "stood"
+        "v3": "stood",
+        "group": "irregular"
     },
     {
         "word": "meet",
@@ -1697,7 +1776,8 @@
         "aspect": "action",
         "v2": "met",
         "v3": "met",
-        "subtext": "meet a client / meet a colleague / meet for lunch / meet online"
+        "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
+        "group": "irregular"
     },
     {
         "word": "learn",
@@ -1717,7 +1797,8 @@
         "classification": "both",
         "aspect": "action",
         "v2": "learned / learnt",
-        "v3": "learned / learnt"
+        "v3": "learned / learnt",
+        "group": "both"
     },
     {
         "word": "change",
@@ -1737,7 +1818,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "changed",
-        "v3": "changed"
+        "v3": "changed",
+        "group": "regular"
     },
     {
         "word": "stop",
@@ -1757,7 +1839,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "stopped",
-        "v3": "stopped"
+        "v3": "stopped",
+        "group": "regular"
     },
     {
         "word": "add",
@@ -1778,7 +1861,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "added",
-        "v3": "added"
+        "v3": "added",
+        "group": "regular"
     },
     {
         "word": "win",
@@ -1800,7 +1884,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "won",
-        "v3": "won"
+        "v3": "won",
+        "group": "irregular"
     },
     {
         "word": "wait",
@@ -1820,7 +1905,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "waited",
-        "v3": "waited"
+        "v3": "waited",
+        "group": "regular"
     },
     {
         "word": "die",
@@ -1842,7 +1928,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "died",
-        "v3": "died"
+        "v3": "died",
+        "group": "regular"
     },
     {
         "word": "send",
@@ -1862,7 +1949,8 @@
         "aspect": "action",
         "v2": "sent",
         "v3": "sent",
-        "subtext": "send an email / send a message / send a report / send a file"
+        "subtext": "send an email / send a message / send a report / send a file",
+        "group": "irregular"
     },
     {
         "word": "stay",
@@ -1883,7 +1971,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "stayed",
-        "v3": "stayed"
+        "v3": "stayed",
+        "group": "regular"
     },
     {
         "word": "fall",
@@ -1904,7 +1993,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "fell",
-        "v3": "fallen"
+        "v3": "fallen",
+        "group": "irregular"
     },
     {
         "word": "pass",
@@ -1925,7 +2015,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "passed",
-        "v3": "passed"
+        "v3": "passed",
+        "group": "regular"
     },
     {
         "word": "sell",
@@ -1947,7 +2038,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "sold",
-        "v3": "sold"
+        "v3": "sold",
+        "group": "irregular"
     },
     {
         "word": "pull",
@@ -1969,7 +2061,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "pulled",
-        "v3": "pulled"
+        "v3": "pulled",
+        "group": "regular"
     },
     {
         "word": "push",
@@ -1992,7 +2085,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "pushed",
-        "v3": "pushed"
+        "v3": "pushed",
+        "group": "regular"
     },
     {
         "word": "carry",
@@ -2012,7 +2106,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "carried",
-        "v3": "carried"
+        "v3": "carried",
+        "group": "regular"
     },
     {
         "word": "break",
@@ -2033,7 +2128,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "broke",
-        "v3": "broken"
+        "v3": "broken",
+        "group": "irregular"
     },
     {
         "word": "receive",
@@ -2054,7 +2150,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "received",
-        "v3": "received"
+        "v3": "received",
+        "group": "regular"
     },
     {
         "word": "agree",
@@ -2075,7 +2172,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "agreed",
-        "v3": "agreed"
+        "v3": "agreed",
+        "group": "regular"
     },
     {
         "word": "draw",
@@ -2096,7 +2194,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "drew",
-        "v3": "drawn"
+        "v3": "drawn",
+        "group": "irregular"
     },
     {
         "word": "share",
@@ -2117,7 +2216,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "shared",
-        "v3": "shared"
+        "v3": "shared",
+        "group": "regular"
     },
     {
         "word": "smile",
@@ -2140,7 +2240,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "smiled",
-        "v3": "smiled"
+        "v3": "smiled",
+        "group": "regular"
     },
     {
         "word": "cry",
@@ -2163,7 +2264,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "cried",
-        "v3": "cried"
+        "v3": "cried",
+        "group": "regular"
     },
     {
         "word": "dance",
@@ -2184,7 +2286,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "danced",
-        "v3": "danced"
+        "v3": "danced",
+        "group": "regular"
     },
     {
         "word": "sing",
@@ -2205,7 +2308,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "sang",
-        "v3": "sung"
+        "v3": "sung",
+        "group": "irregular"
     },
     {
         "word": "jump",
@@ -2226,7 +2330,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "jumped",
-        "v3": "jumped"
+        "v3": "jumped",
+        "group": "regular"
     },
     {
         "word": "swim",
@@ -2247,7 +2352,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "swam",
-        "v3": "swum"
+        "v3": "swum",
+        "group": "irregular"
     },
     {
         "word": "study",
@@ -2267,7 +2373,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "studied",
-        "v3": "studied"
+        "v3": "studied",
+        "group": "regular"
     },
     {
         "word": "teach",
@@ -2287,7 +2394,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "taught",
-        "v3": "taught"
+        "v3": "taught",
+        "group": "irregular"
     },
     {
         "word": "commute",
@@ -2307,7 +2415,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "commuted",
-        "v3": "commuted"
+        "v3": "commuted",
+        "group": "regular"
     },
     {
         "word": "rent",
@@ -2327,7 +2436,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "rented",
-        "v3": "rented"
+        "v3": "rented",
+        "group": "regular"
     },
     {
         "word": "exercise",
@@ -2347,7 +2457,8 @@
         "aspect": "action",
         "v2": "exercised",
         "v3": "exercised",
-        "subtext": "exercise regularly / exercise at the gym / exercise outdoors"
+        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
+        "group": "regular"
     },
     {
         "word": "cost",
@@ -2367,7 +2478,8 @@
         "aspect": "stative",
         "v2": "cost",
         "v3": "cost",
-        "subtext": "cost a lot / cost money / cost too much / cost less"
+        "subtext": "cost a lot / cost money / cost too much / cost less",
+        "group": "irregular"
     },
     {
         "word": "invite",
@@ -2387,7 +2499,8 @@
         "aspect": "action",
         "v2": "invited",
         "v3": "invited",
-        "subtext": "invite someone / invite to dinner / invite to a party"
+        "subtext": "invite someone / invite to dinner / invite to a party",
+        "group": "regular"
     },
     {
         "word": "get up",
@@ -2407,7 +2520,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "irregular"
     },
     {
         "word": "have breakfast",
@@ -2427,7 +2541,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🍳",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "irregular"
     },
     {
         "word": "come back",
@@ -2447,7 +2562,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🔙",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "irregular"
     },
     {
         "word": "go to bed",
@@ -2467,7 +2583,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "irregular"
     },
     {
         "word": "check",
@@ -2487,7 +2604,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "✅",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "reply",
@@ -2507,7 +2625,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "↩️",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "present",
@@ -2527,7 +2646,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "📊",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "attend",
@@ -2547,7 +2667,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "📅",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "manage",
@@ -2567,7 +2688,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "👤",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "charge",
@@ -2587,7 +2709,8 @@
         "theme": "money_payment_A1",
         "emoji": "💳",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "afford",
@@ -2607,7 +2730,8 @@
         "theme": "money_payment_A1",
         "emoji": "🏦",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "owe",
@@ -2627,7 +2751,8 @@
         "theme": "money_payment_A1",
         "emoji": "💸",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "earn",
@@ -2647,7 +2772,8 @@
         "theme": "money_payment_A1",
         "emoji": "💶",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "visit",
@@ -2667,7 +2793,8 @@
         "theme": "family_life_A1",
         "emoji": "🏘️",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "celebrate",
@@ -2687,7 +2814,8 @@
         "theme": "leisure_activities_A1",
         "emoji": "🎉",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "recommend",
@@ -2707,7 +2835,8 @@
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "hurt",
@@ -2727,7 +2856,8 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "irregular"
     },
     {
         "word": "rest",
@@ -2747,7 +2877,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛋️",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "recover",
@@ -2767,7 +2898,8 @@
         "theme": "medical_appointments_A1",
         "emoji": "🩹",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "book",
@@ -2787,7 +2919,8 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "📖",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "pack",
@@ -2807,7 +2940,8 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎒",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "cancel",
@@ -2827,7 +2961,8 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "❌",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "miss",
@@ -2847,7 +2982,8 @@
         "theme": "public_transport_A1",
         "emoji": "🏃‍♂️",
         "level": "starter",
-        "form": "verb"
+        "form": "verb",
+        "group": "regular"
     },
     {
         "word": "order",
@@ -2867,7 +3003,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "ordered",
-        "v3": "ordered"
+        "v3": "ordered",
+        "group": "regular"
     },
     {
         "word": "explain",
@@ -2887,7 +3024,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "explained",
-        "v3": "explained"
+        "v3": "explained",
+        "group": "regular"
     },
     {
         "word": "thank",
@@ -2907,7 +3045,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "thanked",
-        "v3": "thanked"
+        "v3": "thanked",
+        "group": "regular"
     },
     {
         "word": "introduce",
@@ -2927,7 +3066,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "introduced",
-        "v3": "introduced"
+        "v3": "introduced",
+        "group": "regular"
     },
     {
         "word": "relax",
@@ -2947,7 +3087,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "relaxed",
-        "v3": "relaxed"
+        "v3": "relaxed",
+        "group": "regular"
     },
     {
         "word": "repair",
@@ -2967,7 +3108,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "repaired",
-        "v3": "repaired"
+        "v3": "repaired",
+        "group": "regular"
     },
     {
         "word": "happen",
@@ -2987,7 +3129,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "happened",
-        "v3": "happened"
+        "v3": "happened",
+        "group": "regular"
     },
     {
         "word": "seem",
@@ -3007,7 +3150,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "seemed",
-        "v3": "seemed"
+        "v3": "seemed",
+        "group": "regular"
     },
     {
         "word": "mean",
@@ -3027,7 +3171,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v2": "meant",
-        "v3": "meant"
+        "v3": "meant",
+        "group": "irregular"
     },
     {
         "word": "follow",
@@ -3047,7 +3192,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "followed",
-        "v3": "followed"
+        "v3": "followed",
+        "group": "regular"
     },
     {
         "word": "continue",
@@ -3067,7 +3213,8 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "continued",
-        "v3": "continued"
+        "v3": "continued",
+        "group": "regular"
     },
     {
         "word": "grow",
@@ -3087,7 +3234,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "grew",
-        "v3": "grown"
+        "v3": "grown",
+        "group": "irregular"
     },
     {
         "word": "include",
@@ -3107,7 +3255,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "included",
-        "v3": "included"
+        "v3": "included",
+        "group": "regular"
     },
     {
         "word": "become",
@@ -3127,7 +3276,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "became",
-        "v3": "become"
+        "v3": "become",
+        "group": "irregular"
     },
     {
         "word": "belong",
@@ -3147,7 +3297,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "belonged",
-        "v3": "belonged"
+        "v3": "belonged",
+        "group": "regular"
     },
     {
         "word": "choose",
@@ -3167,7 +3318,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "chose",
-        "v3": "chosen"
+        "v3": "chosen",
+        "group": "irregular"
     },
     {
         "word": "build",
@@ -3187,7 +3339,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "built",
-        "v3": "built"
+        "v3": "built",
+        "group": "irregular"
     }
 ];
     const lang = "en";
