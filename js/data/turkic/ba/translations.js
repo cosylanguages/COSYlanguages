@@ -919,7 +919,13 @@
             faq_4_a: "Yes! We offer flexible scheduling. You can book or reschedule sessions with 24 hours notice to fit your busy adult life.",
             faq_5_q: "What materials do I need?",
             faq_5_a: "Just a device with a camera and microphone. All learning materials, including our free practice tools and games, are provided by us.",
-        }
+        },
+            label_v3: "V3 (Үткән заман)",
+            verb_group_yr: "-ыр төркөмө",
+            verb_group_er: "-ер төркөмө",
+            verb_group_ar: "-ар төркөмө",
+            verb_group_ur: "-үр төркөмө",
+            verb_group_irregular: "Дөрөҫ булмаған төркөм"
         };
     window.translations = window.translations || {};
     window.translations['ba'] = { ...(window.translations['ba'] || {}), ...data['ba'] };

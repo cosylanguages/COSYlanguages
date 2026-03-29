@@ -75,7 +75,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "dare consigli / dare soldi / dare un regalo",
-        "opposite": "take",
+        "opposite": "prendere",
         "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
@@ -99,7 +99,7 @@
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "prendere l autobus / prendere una medicina / fare una pausa",
-        "opposite": "give",
+        "opposite": "dare",
         "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
@@ -234,7 +234,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "aprire una porta / aprire un conto / aprire un negozio",
-        "opposite": "close",
+        "opposite": "chiudere",
         "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
@@ -258,7 +258,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "chiudere una porta / chiudere alle sei / chiudere un conto",
-        "opposite": "open",
+        "opposite": "aprire",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -282,7 +282,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "iniziare il lavoro / iniziare una riunione / iniziare un nuovo lavoro",
-        "opposite": "finish",
+        "opposite": "finire",
         "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
@@ -306,7 +306,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "finire il lavoro / finire un progetto / finire presto",
-        "opposite": "start",
+        "opposite": "iniziare",
         "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
@@ -440,7 +440,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "perdere un lavoro / perdere soldi / perdere peso",
-        "opposite": "win",
+        "opposite": "vincere",
         "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
@@ -663,7 +663,7 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "scrivere un email / scrivere un rapporto / scrivere una lettera",
-        "opposite": "read",
+        "opposite": "leggere",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -687,7 +687,7 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "leggere un libro / leggere le notizie / leggere un contratto",
-        "opposite": "write",
+        "opposite": "scrivere",
         "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
@@ -799,7 +799,7 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "venire a casa / tornare / venire al lavoro",
-        "opposite": "go",
+        "opposite": "andare",
         "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -999,7 +999,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "fare colazione / pranzare / cenare",
-        "opposite": "drink",
+        "opposite": "bere",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
@@ -1023,7 +1023,7 @@
         "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "bere caffè / bere tè / bere acqua",
-        "opposite": "eat",
+        "opposite": "mangiare",
         "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
@@ -1047,7 +1047,7 @@
         "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "dormire bene / dormire male / dormire otto ore",
-        "opposite": "wake up",
+        "opposite": "svegliarsi",
         "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
@@ -1159,7 +1159,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "comprare cibo / comprare un biglietto",
-        "opposite": "sell",
+        "opposite": "vendere",
         "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
@@ -1227,7 +1227,7 @@
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "risparmiare soldi / risparmiare per una casa",
-        "opposite": "spend",
+        "opposite": "spendere",
         "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
@@ -1273,7 +1273,7 @@
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "vivere in un appartamento / vivere da soli",
-        "opposite": "die",
+        "opposite": "morire",
         "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
@@ -1631,7 +1631,7 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "svegliarsi presto / svegliarsi alle 7 / svegliarsi stanco",
-        "opposite": "sleep",
+        "opposite": "dormire",
         "oppositeEmoji": "😴",
         "definitions": [
             {
@@ -1742,7 +1742,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "sedersi / sedersi a un ufficio / sedersi in riunione",
-        "opposite": "stand",
+        "opposite": "stare in piedi",
         "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
@@ -1766,7 +1766,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "stare in piedi / alzarsi / essere in piedi",
-        "opposite": "sit",
+        "opposite": "s asseoir",
         "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
@@ -1900,7 +1900,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "vincere / vincere un premio / vincere un contratto",
-        "opposite": "lose",
+        "opposite": "perdere",
         "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
@@ -1945,7 +1945,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "morire / morire di / estinguersi",
-        "opposite": "live",
+        "opposite": "vivere",
         "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
@@ -2056,7 +2056,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "vendere / vendere online / vendere al mercato",
-        "opposite": "buy",
+        "opposite": "comprare",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -2079,7 +2079,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "tirare / tirare la porta / allontanarsi",
-        "opposite": "push",
+        "opposite": "spingere",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -2102,7 +2102,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "spingere / spingere il pulsante / spingere il carrello",
-        "opposite": "pull",
+        "opposite": "tirare",
         "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
@@ -2258,7 +2258,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "sorridere / sorridere a qualcuno / sorridere ampiamente",
-        "opposite": "cry",
+        "opposite": "piangere",
         "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
@@ -2282,7 +2282,7 @@
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "piangere / piangere per aiuto / piangere per qualcosa",
-        "opposite": "smile",
+        "opposite": "sorridere",
         "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [

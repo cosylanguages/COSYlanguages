@@ -5,7 +5,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "short",
+        "opposite": "короткий",
         "oppositeEmoji": "📏",
         "feminine": "высокая",
         "emoji": "🦒",
@@ -26,7 +26,7 @@
                 ]
             }
         ],
-        "subtext": "a tall building / a tall person / tall enough",
+        "subtext": "высокое здание / высокий человек / достаточно высокий",
         "comparative": "выше",
         "superlative": "самый высокий"
     },
@@ -57,7 +57,7 @@
         "subtext": "a short journey / short hair / too short",
         "comparative": "короче",
         "superlative": "самый короткий",
-        "opposite": "tall",
+        "opposite": "высокий",
         "oppositeEmoji": "🗼"
     },
     {
@@ -77,7 +77,7 @@
         ],
         "comparative": "моложе",
         "superlative": "самый молодой",
-        "opposite": "old",
+        "opposite": "старый",
         "oppositeEmoji": "👴",
         "subtext": "young person / young professional / young at heart",
         "word": "молодой"
@@ -87,7 +87,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "young",
+        "opposite": "молодой",
         "oppositeEmoji": "👶",
         "feminine": "старая",
         "emoji": "👴",
@@ -161,7 +161,7 @@
         "theme": "weather_A1",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "cold",
+        "opposite": "холодный",
         "oppositeEmoji": "❄️",
         "subtext": "очень жаркий, кипяток",
         "definitions": [
@@ -184,7 +184,7 @@
         "theme": "weather_A1",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "hot",
+        "opposite": "горячий",
         "oppositeEmoji": "🔥",
         "subtext": "очень холодный, морозный",
         "definitions": [
@@ -206,7 +206,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "special",
+        "opposite": "особенный",
         "oppositeEmoji": "✨",
         "definitions": [
             {
@@ -229,7 +229,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "expensive",
+        "opposite": "дорогой",
         "oppositeEmoji": "💎",
         "feminine": "дешёвая",
         "neuter": "дешёвое",
@@ -258,7 +258,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "cheap",
+        "opposite": "дешёвый",
         "oppositeEmoji": "🏷️",
         "feminine": "дорогая",
         "neuter": "дорогое",
@@ -287,7 +287,7 @@
         "theme": "size_shape_A1",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "bad",
+        "opposite": "плохой",
         "oppositeEmoji": "👎",
         "feminine": "хорошая",
         "neuter": "хорощее",
@@ -316,7 +316,7 @@
         "theme": "size_shape_A1",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "good",
+        "opposite": "хороший",
         "oppositeEmoji": "👍",
         "feminine": "плохая",
         "neuter": "плохое",
@@ -345,7 +345,7 @@
         "theme": "size_shape_A1",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "small",
+        "opposite": "маленький",
         "oppositeEmoji": "🐭",
         "feminine": "большая",
         "neuter": "большое",
@@ -374,7 +374,7 @@
         "theme": "size_shape_A1",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "big",
+        "opposite": "большой",
         "oppositeEmoji": "🐘",
         "feminine": "маленькая",
         "neuter": "маленькое",
@@ -418,7 +418,7 @@
         "subtext": "easy to do / nice and easy / not easy",
         "comparative": "легче",
         "superlative": "самый лёгкий",
-        "opposite": "difficult",
+        "opposite": "трудный",
         "oppositeEmoji": "❌"
     },
     {
@@ -427,7 +427,7 @@
         "theme": "size_shape_A1",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "easy",
+        "opposite": "лёгкий",
         "oppositeEmoji": "✅",
         "feminine": "трудная",
         "neuter": "трудное",
@@ -504,7 +504,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "part-time",
+        "opposite": "неполный",
         "oppositeEmoji": "⏳",
         "definitions": [
             {
@@ -527,7 +527,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "full-time",
+        "opposite": "полный",
         "oppositeEmoji": "⏰",
         "definitions": [
             {
@@ -550,7 +550,7 @@
         "theme": "household_tasks_A1",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "dirty",
+        "opposite": "грязный",
         "oppositeEmoji": "💩",
         "subtext": "опрятный, безупречный",
         "definitions": [
@@ -676,7 +676,7 @@
         "subtext": "calm, feeling relaxed",
         "comparative": "расслабленнее",
         "superlative": "самый расслабленный",
-        "opposite": "stressed",
+        "opposite": "напряжённый",
         "oppositeEmoji": "😫"
     },
     {
@@ -741,7 +741,7 @@
         "subtext": "helpful, practical",
         "comparative": "полезнее",
         "superlative": "самый полезный",
-        "opposite": "useless",
+        "opposite": "бесполезный",
         "oppositeEmoji": "🗑️"
     },
     {
@@ -918,7 +918,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "closed",
+        "opposite": "закрытый",
         "oppositeEmoji": "🔒",
         "subtext": "свободный вход",
         "definitions": [
@@ -941,7 +941,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "open",
+        "opposite": "открытый",
         "oppositeEmoji": "📖",
         "subtext": "недоступный",
         "definitions": [

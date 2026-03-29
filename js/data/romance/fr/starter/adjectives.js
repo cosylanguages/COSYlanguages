@@ -24,10 +24,10 @@
                 ]
             }
         ],
-        "subtext": "a tall building / a tall person / tall enough",
+        "subtext": "un grand bâtiment / une grande personne / assez grand",
         "comparative": "plus grand",
         "superlative": "le plus grand",
-        "opposite": "short",
+        "opposite": "court",
         "oppositeEmoji": "📏"
     },
     {
@@ -57,7 +57,7 @@
         "subtext": "a short journey / short hair / too short",
         "comparative": "plus court",
         "superlative": "le plus court",
-        "opposite": "tall",
+        "opposite": "grand",
         "oppositeEmoji": "🗼"
     },
     {
@@ -77,7 +77,7 @@
         ],
         "comparative": "plus jeune",
         "superlative": "le plus jeune",
-        "opposite": "old",
+        "opposite": "vieux",
         "oppositeEmoji": "👴",
         "subtext": "young person / young professional / young at heart",
         "word": "jeune"
@@ -87,7 +87,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "young",
+        "opposite": "jeune",
         "oppositeEmoji": "👶",
         "definitions": [
             {
@@ -155,7 +155,7 @@
         "theme": "weather_A1",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "cold",
+        "opposite": "froid",
         "oppositeEmoji": "❄️",
         "definitions": [
             {
@@ -178,7 +178,7 @@
         "theme": "weather_A1",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "hot",
+        "opposite": "chaud",
         "oppositeEmoji": "🔥",
         "definitions": [
             {
@@ -200,7 +200,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "special",
+        "opposite": "spécial",
         "oppositeEmoji": "✨",
         "definitions": [
             {
@@ -223,7 +223,7 @@
         "theme": "everyday_shopping_A1",
         "form": "adjective",
         "emoji": "🏷️",
-        "opposite": "expensive",
+        "opposite": "cher",
         "oppositeEmoji": "💎",
         "definitions": [
             {
@@ -246,7 +246,7 @@
         "theme": "everyday_shopping_A1",
         "form": "adjective",
         "emoji": "💎",
-        "opposite": "cheap",
+        "opposite": "bon marché",
         "oppositeEmoji": "🏷️",
         "definitions": [
             {
@@ -269,7 +269,7 @@
         "theme": "size_shape_A1",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "bad",
+        "opposite": "mauvais",
         "oppositeEmoji": "👎",
         "definitions": [
             {
@@ -292,7 +292,7 @@
         "theme": "size_shape_A1",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "good",
+        "opposite": "bon",
         "oppositeEmoji": "👍",
         "definitions": [
             {
@@ -314,7 +314,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "small",
+        "opposite": "petit",
         "oppositeEmoji": "🐭",
         "definitions": [
             {
@@ -337,7 +337,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
-        "opposite": "big",
+        "opposite": "grand",
         "oppositeEmoji": "🐘",
         "definitions": [
             {
@@ -361,7 +361,7 @@
         "theme": "size_shape_A1",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "difficult",
+        "opposite": "difficile",
         "oppositeEmoji": "❌",
         "definitions": [
             {
@@ -384,7 +384,7 @@
         "theme": "size_shape_A1",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "easy",
+        "opposite": "facile",
         "oppositeEmoji": "✅",
         "definitions": [
             {
@@ -449,7 +449,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "part-time",
+        "opposite": "à temps partiel",
         "oppositeEmoji": "⏳",
         "definitions": [
             {
@@ -472,7 +472,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "full-time",
+        "opposite": "à plein temps",
         "oppositeEmoji": "⏰",
         "definitions": [
             {
@@ -495,7 +495,7 @@
         "theme": "household_tasks_A1",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "dirty",
+        "opposite": "sale",
         "oppositeEmoji": "💩",
         "subtext": "net, impeccable",
         "definitions": [
@@ -621,7 +621,7 @@
         "subtext": "calm, feeling relaxed",
         "comparative": "plus détendu",
         "superlative": "le plus détendu",
-        "opposite": "stressed",
+        "opposite": "stressé",
         "oppositeEmoji": "😫"
     },
     {
@@ -686,7 +686,7 @@
         "subtext": "helpful, practical",
         "comparative": "plus utile",
         "superlative": "le plus utile",
-        "opposite": "useless",
+        "opposite": "inutile",
         "oppositeEmoji": "🗑️"
     },
     {
@@ -863,7 +863,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "closed",
+        "opposite": "fermé",
         "oppositeEmoji": "🔒",
         "subtext": "libre d'accès",
         "definitions": [
@@ -886,7 +886,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "open",
+        "opposite": "ouvert",
         "oppositeEmoji": "📖",
         "subtext": "clos, non accessible",
         "definitions": [
