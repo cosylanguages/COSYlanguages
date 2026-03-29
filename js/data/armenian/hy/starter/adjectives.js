@@ -37,7 +37,7 @@
                 ]
             }
         ],
-        "subtext": "a short journey / short hair / too short",
+        "subtext": "կարճ ճանապարհորդություն / կարճ մազեր / շատ կարճ",
         "comparative": "ավելի կարճ",
         "superlative": "ամենակարճ",
         "feminine": null,
@@ -177,7 +177,7 @@
         "femininePlural": null
     },
     {
-        "word": "ordinary",
+        "word": "սովորական",
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
@@ -508,7 +508,7 @@
         "femininePlural": null
     },
     {
-        "word": "ill",
+        "word": "հիվանդ",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
@@ -528,9 +528,9 @@
         "superlative": "the illest"
     },
     {
-        "word": "online",
+        "word": "առցանց",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "offline",
@@ -548,7 +548,7 @@
         "superlative": "the most online"
     },
     {
-        "word": "alone",
+        "word": "մենակ",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "👤",
@@ -568,7 +568,7 @@
         "superlative": "the most alone"
     },
     {
-        "word": "relaxed",
+        "word": "հանգիստ",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
@@ -588,7 +588,7 @@
         "superlative": "the most relaxed"
     },
     {
-        "word": "worried",
+        "word": "անհանգիստ",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
@@ -673,7 +673,7 @@
         "femininePlural": null
     },
     {
-        "word": "red",
+        "word": "կարմիր",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
@@ -697,7 +697,7 @@
         "superlative": "the reddest"
     },
     {
-        "word": "blue",
+        "word": "կապույտ",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
@@ -721,7 +721,7 @@
         "superlative": "the bluest"
     },
     {
-        "word": "green",
+        "word": "կանաչ",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
@@ -745,7 +745,7 @@
         "superlative": "the greenest"
     },
     {
-        "word": "white",
+        "word": "սպիտակ",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
@@ -769,7 +769,7 @@
         "superlative": "the whitest"
     },
     {
-        "word": "black",
+        "word": "սև",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "⬛",
@@ -793,7 +793,7 @@
         "superlative": "the blackest"
     },
     {
-        "word": "yellow",
+        "word": "դեղին",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
@@ -884,7 +884,7 @@
         "femininePlural": null
     },
     {
-        "word": "large",
+        "word": "մեծ",
         "level": "starter",
         "form": "adjective",
         "subtext": "a large city / a large company / a large amount",
@@ -901,7 +901,7 @@
         "superlative": "the largest"
     },
     {
-        "word": "little",
+        "word": "փոքր",
         "level": "starter",
         "form": "adjective",
         "subtext": "a little bit / a little money / too little",
@@ -938,7 +938,7 @@
         "femininePlural": null
     },
     {
-        "word": "high",
+        "word": "բարձր",
         "level": "starter",
         "form": "adjective",
         "subtext": "high price / high rent / high quality",
@@ -955,7 +955,7 @@
         "superlative": "the highest"
     },
     {
-        "word": "low",
+        "word": "ցածր",
         "level": "starter",
         "form": "adjective",
         "subtext": "low price / low salary / low quality",
@@ -1012,7 +1012,7 @@
         "femininePlural": null
     },
     {
-        "word": "warm",
+        "word": "տաք",
         "level": "starter",
         "form": "adjective",
         "subtext": "warm weather / a warm welcome / keep warm",
@@ -1029,7 +1029,7 @@
         "superlative": "the warmest"
     },
     {
-        "word": "cool",
+        "word": "զով",
         "level": "starter",
         "form": "adjective",
         "subtext": "cool weather / a cool drink / stay cool",
@@ -1165,7 +1165,7 @@
         "femininePlural": null
     },
     {
-        "word": "light",
+        "word": "թեթև",
         "level": "starter",
         "form": "adjective",
         "subtext": "light rain / light traffic / a light meal",
@@ -1182,7 +1182,7 @@
         "superlative": "the lightest"
     },
     {
-        "word": "brown",
+        "word": "շագանակագույն",
         "level": "starter",
         "form": "adjective",
         "subtext": "dark brown / light brown / brown bread",
@@ -1199,7 +1199,7 @@
         "superlative": "the brownest"
     },
     {
-        "word": "grey",
+        "word": "մոխրագույն",
         "level": "starter",
         "form": "adjective",
         "subtext": "grey area / grey sky / pale grey",
@@ -1216,7 +1216,7 @@
         "superlative": "the greyest"
     },
     {
-        "word": "pink",
+        "word": "վարդագույն",
         "level": "starter",
         "form": "adjective",
         "subtext": "light pink / bright pink / hot pink",
@@ -1233,7 +1233,7 @@
         "superlative": "the pinkest"
     },
     {
-        "word": "orange",
+        "word": "նարնջագույν",
         "level": "starter",
         "form": "adjective",
         "subtext": "bright orange / dark orange / orange light",
@@ -1250,7 +1250,7 @@
         "superlative": "the orangeest"
     },
     {
-        "word": "great",
+        "word": "հիանալի",
         "level": "starter",
         "form": "adjective",
         "subtext": "a great idea / a great opportunity / great value",
@@ -1267,7 +1267,7 @@
         "superlative": "the greatest"
     },
     {
-        "word": "nice",
+        "word": "հաճելի",
         "level": "starter",
         "form": "adjective",
         "subtext": "a nice day / a nice place / a nice person",
@@ -1284,7 +1284,7 @@
         "superlative": "the nicest"
     },
     {
-        "word": "wonderful",
+        "word": "սքանչելի",
         "level": "starter",
         "form": "adjective",
         "subtext": "a wonderful opportunity / a wonderful time",
@@ -1321,7 +1321,7 @@
         "femininePlural": null
     },
     {
-        "word": "awful",
+        "word": "սարսափելի",
         "level": "starter",
         "form": "adjective",
         "subtext": "awful weather / awful news / simply awful",
@@ -1338,7 +1338,7 @@
         "superlative": "the most awful"
     },
     {
-        "word": "amazing",
+        "word": "զարմանալի",
         "level": "starter",
         "form": "adjective",
         "subtext": "an amazing result / an amazing offer / truly amazing",
@@ -1355,7 +1355,7 @@
         "superlative": "the most amazing"
     },
     {
-        "word": "fantastic",
+        "word": "ֆանտաստիկ",
         "level": "starter",
         "form": "adjective",
         "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
@@ -1432,7 +1432,7 @@
         "femininePlural": null
     },
     {
-        "word": "bored",
+        "word": "ձանձրացած",
         "level": "starter",
         "form": "adjective",
         "subtext": "feel bored / bored with / easily bored",
@@ -1449,7 +1449,7 @@
         "superlative": "the most bored"
     },
     {
-        "word": "excited",
+        "word": "ոգևորված",
         "level": "starter",
         "form": "adjective",
         "subtext": "feel excited / excited about / very excited",
@@ -1465,7 +1465,7 @@
         "superlative": "the most excited"
     },
     {
-        "word": "afraid",
+        "word": "վախեցած",
         "level": "starter",
         "form": "adjective",
         "subtext": "afraid of / feel afraid / deeply afraid",
@@ -1482,7 +1482,7 @@
         "superlative": "the most afraid"
     },
     {
-        "word": "sorry",
+        "word": "զղջացող",
         "level": "starter",
         "form": "adjective",
         "subtext": "feel sorry / sorry for / sorry about",
@@ -1499,7 +1499,7 @@
         "superlative": "the sorriest"
     },
     {
-        "word": "right",
+        "word": "ճիշտ",
         "level": "starter",
         "form": "adjective",
         "subtext": "right answer / right time / absolutely right",
@@ -1716,7 +1716,7 @@
         "femininePlural": null
     },
     {
-        "word": "unhappy",
+        "word": "դժբախտ",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
@@ -1753,7 +1753,7 @@
         "femininePlural": null
     },
     {
-        "word": "stressed",
+        "word": "սթրեսի մեջ",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
@@ -1770,7 +1770,7 @@
         "superlative": "the most stressed"
     },
     {
-        "word": "confident",
+        "word": "ինքնավստահ",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -1827,7 +1827,7 @@
         "femininePlural": null
     },
     {
-        "word": "surprised",
+        "word": "զարմացած",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "form": "adjective",
@@ -1844,7 +1844,7 @@
         "superlative": "the most surprised"
     },
     {
-        "word": "disappointed",
+        "word": "հիասթափված",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
@@ -1881,7 +1881,7 @@
         "femininePlural": null
     },
     {
-        "word": "pretty",
+        "word": "գեղեցիկ",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -1938,7 +1938,7 @@
         "femininePlural": null
     },
     {
-        "word": "fit",
+        "word": "կոկիկ",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "form": "adjective",
@@ -1955,7 +1955,7 @@
         "superlative": "the fittest"
     },
     {
-        "word": "excellent",
+        "word": "գերազանց",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2072,7 +2072,7 @@
         "femininePlural": null
     },
     {
-        "word": "necessary",
+        "word": "անհրաժեշտ",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2149,7 +2149,7 @@
         "femininePlural": null
     },
     {
-        "word": "popular",
+        "word": "հանրաճանաչ",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2166,7 +2166,7 @@
         "superlative": "the most popular"
     },
     {
-        "word": "similar",
+        "word": "նման",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2183,7 +2183,7 @@
         "superlative": "the most similar"
     },
     {
-        "word": "friendly",
+        "word": "ընկերական",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2320,7 +2320,7 @@
         "femininePlural": null
     },
     {
-        "word": "honest",
+        "word": "ազնիվ",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2361,6 +2361,5 @@
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

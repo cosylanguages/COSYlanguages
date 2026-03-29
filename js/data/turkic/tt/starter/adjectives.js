@@ -37,7 +37,7 @@
                 ]
             }
         ],
-        "subtext": "a short journey / short hair / too short",
+        "subtext": "кыска сәяхәт / кыска чәч / бик кыска",
         "comparative": null,
         "superlative": null,
         "feminine": "тәпәш",
@@ -542,7 +542,7 @@
     {
         "word": "онлайн",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "offline",

@@ -42,7 +42,7 @@
         "emoji": "📏",
         "neuter": "κοντό",
         "plural": "κοντοί",
-        "subtext": "a short journey / short hair / too short",
+        "subtext": "μια σύντομη διαδρομή / κοντά μαλλιά / πολύ κοντό",
         "comparative": "πιο κοντός",
         "superlative": "ο πιο κοντός"
     },
@@ -65,7 +65,7 @@
         "superlative": "ο πιο νέος",
         "opposite": "παλιός",
         "oppositeEmoji": "👴",
-        "subtext": "young person / young professional / young at heart",
+        "subtext": "νέα δουλειά / ολοκαίνουργιο",
         "word": "νέος"
     },
     {
@@ -83,15 +83,9 @@
                 "examples": [
                     "This is an old book."
                 ]
-            },
-            {
-                "text": "Having existed for a long time.",
-                "examples": [
-                    "He works with old clients from ten years ago."
-                ]
             }
         ],
-        "subtext": "old friend / old habits / very old",
+        "subtext": "παλιός φίλος / παλιές συνήθειες / πολύ παλιό",
         "comparative": "πιο παλιός",
         "superlative": "ο πιο παλιός",
         "opposite": "νέος",
@@ -112,7 +106,7 @@
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell",
+        "subtext": "ηλιόλουστη μέρα / ηλιόλουστος καιρός / ηλιοφάνεια",
         "comparative": "πιο ηλιόλουστος",
         "superlative": "ο πιο ηλιόλουστος",
         "feminine": "ηλιόλουστη",
@@ -134,7 +128,7 @@
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season",
+        "subtext": "βροχερή μέρα / βροχερός καιρός / εποχή των βροχών",
         "comparative": "πιο βροχερός",
         "superlative": "ο πιο βροχερός",
         "feminine": "βροχερή",
@@ -149,7 +143,7 @@
         "form": "adjective",
         "opposite": "κρύος",
         "oppositeEmoji": "❄️",
-        "subtext": "καυτός",
+        "subtext": "πολύ ζεστό / ζεστός καιρός / ένα ζεστό ρόφημα / πολύ ζεστό",
         "definitions": [
             {
                 "text": "Κάτι με υψηλή θερμοκρασία.",
@@ -183,7 +177,7 @@
         "feminine": "κρύα",
         "neuter": "κρύο",
         "plural": "κρύοι",
-        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
+        "subtext": "πολύ κρύο / κρύο πρωινό / κρύος καιρός / ένα κρύο ρόφημα",
         "comparative": "κρύτερος",
         "superlative": "ο πιο κρύος"
     },
@@ -202,7 +196,7 @@
                 ]
             }
         ],
-        "subtext": "ordinary day / ordinary life / nothing ordinary",
+        "subtext": "συνηθισμένη μέρα / συνηθισμένη ζωή / τίποτα το συνηθισμένο",
         "comparative": "πιο συνηθισμένος",
         "superlative": "ο πιο συνηθισμένος",
         "feminine": "συνηθισμένη",
@@ -251,7 +245,7 @@
         "feminine": "ακριβή",
         "neuter": "ακριβό",
         "plural": "ακριβοί",
-        "subtext": "costly, high price / very expensive / expensive taste / too expensive",
+        "subtext": "ακριβό αυτοκίνητο / πολύ ακριβό / ακριβό γούστο / πολύ ακριβό",
         "comparative": "πιο ακριβός",
         "superlative": "ο πιο ακριβός"
     },
@@ -274,7 +268,7 @@
         "feminine": "καλή",
         "neuter": "καλό",
         "plural": "καλοί",
-        "subtext": "great, nice, pleasant / good idea / good luck / good value",
+        "subtext": "καλή ιδέα / καλή τύχη / καλή αξία",
         "comparative": "καλύτερος",
         "superlative": "ο καλύτερος"
     },
@@ -297,7 +291,7 @@
         "feminine": "κακή",
         "neuter": "κακό",
         "plural": "κακοί",
-        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
+        "subtext": "κακά νέα / κακή τύχη / κακή απόφαση",
         "comparative": "χειρότερος",
         "superlative": "ο χειρότερος"
     },
@@ -320,7 +314,7 @@
         "feminine": "μεγάλη",
         "neuter": "μεγάλο",
         "plural": "μεγάλοι",
-        "subtext": "large, huge / a big house / a big problem / big enough",
+        "subtext": "μεγάλο σπίτι / μεγάλο πρόβλημα / αρκετά μεγάλο",
         "comparative": "μεγάλτερος",
         "superlative": "ο πιο μεγάλος"
     },
@@ -343,7 +337,7 @@
         "feminine": "μικρή",
         "neuter": "μικρό",
         "plural": "μικροί",
-        "subtext": "little, tiny / a small flat / a small salary / too small",
+        "subtext": "μικρό διαμέρισμα / μικρός μισθός / πολύ μικρό",
         "comparative": "πιο μικρός",
         "superlative": "ο πιο μικρός"
     },
@@ -366,7 +360,7 @@
         "feminine": "εύκολη",
         "neuter": "εύκολο",
         "plural": "εύκολοι",
-        "subtext": "easy to do / nice and easy / not easy",
+        "subtext": "εύκολο να γίνει / ωραίο και εύκολο / όχι εύκολο",
         "comparative": "εύκολτερος",
         "superlative": "ο πιο εύκολος"
     },
@@ -389,7 +383,7 @@
         "feminine": "δύσκολη",
         "neuter": "δύσκολο",
         "plural": "δύσκολοι",
-        "subtext": "difficult to do / very difficult / find it difficult",
+        "subtext": "δύσκολο να γίνει / πολύ δύσκολο / το βρίσκω δύσκολο",
         "comparative": "δύσκολτερος",
         "superlative": "ο πιο δύσκολος"
     },
@@ -410,7 +404,7 @@
         "feminine": "χαρούμενη",
         "neuter": "χαρούμενο",
         "plural": "χαρούμενοι",
-        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day",
+        "subtext": "νιώθω χαρούμενος / χαρούμενος με κάτι / μια χαρούμενη μέρα",
         "comparative": "χαρούμεντερος",
         "superlative": "ο πιο χαρούμενος"
     },
@@ -431,7 +425,7 @@
         "feminine": "κουρασμένη",
         "neuter": "κουρασμένο",
         "plural": "κουρασμένοι",
-        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
+        "subtext": "νιώθω κουρασμένος / κουρασμένος από κάτι / πολύ κουρασμένος",
         "comparative": "κουρασμέντερος",
         "superlative": "ο πιο κουρασμένος"
     },
@@ -451,7 +445,7 @@
                 ]
             }
         ],
-        "subtext": "full-time job / full-time work / full-time employee",
+        "subtext": "εργασία πλήρους απασχόλησης / υπάλληλος πλήρους απασχόλησης",
         "comparative": "πιο πλήρους απασχόλησης",
         "superlative": "ο πιο πλήρους απασχόλησης",
         "feminine": "πλήρους απασχόλησης",
@@ -474,7 +468,7 @@
                 ]
             }
         ],
-        "subtext": "part-time job / part-time work / part-time student",
+        "subtext": "εργασία μερικής απασχόλησης / φοιτητής μερικής απασχόλησης",
         "comparative": "πιο μερικής απασχόλησης",
         "superlative": "ο πιο μερικής απασχόλησης",
         "feminine": "μερικής απασχόλησης",
@@ -489,7 +483,7 @@
         "form": "adjective",
         "opposite": "βρώμικος",
         "oppositeEmoji": "💩",
-        "subtext": "τακτοποιημένος",
+        "subtext": "καθαρά ρούχα / ένα καθαρό δωμάτιο / διατηρώ καθαρό",
         "definitions": [
             {
                 "text": "Χωρίς βρωμιά.",
@@ -520,7 +514,7 @@
                 ]
             }
         ],
-        "subtext": "well, fit, healthy diet",
+        "subtext": "καλή φυσική κατάσταση / υγιεινή διατροφή",
         "comparative": "πιο υγιής",
         "superlative": "ο πιο υγιής",
         "opposite": "unhealthy",
@@ -542,7 +536,7 @@
                 ]
             }
         ],
-        "subtext": "sick, feel ill",
+        "subtext": "νιώθω άρρωστος",
         "comparative": "άρρωσττερος",
         "superlative": "ο πιο άρρωστος",
         "opposite": "well",
@@ -551,7 +545,7 @@
     {
         "word": "διαδικτυακός",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "offline",
@@ -564,7 +558,7 @@
                 ]
             }
         ],
-        "subtext": "online shopping / online course / stay online",
+        "subtext": "διαδικτυακές αγορές / διαδικτυακό μάθημα / μένω συνδεδεμένος",
         "comparative": "πιο διαδικτυακός",
         "superlative": "ο πιο διαδικτυακός",
         "feminine": "διαδικτυακή",
@@ -587,7 +581,7 @@
                 ]
             }
         ],
-        "subtext": "live alone / travel alone / feel alone",
+        "subtext": "μένω μόνος / ταξιδεύω μόνος / νιώθω μόνος",
         "comparative": "πιο μόνος",
         "superlative": "ο πιο μόνος",
         "feminine": "μόνη",
@@ -610,7 +604,7 @@
                 ]
             }
         ],
-        "subtext": "calm, feeling relaxed",
+        "subtext": "ήρεμος / νιώθω χαλαρός",
         "comparative": "πιο χαλαρός",
         "superlative": "ο πιο χαλαρός",
         "opposite": "αγχωμένος",
@@ -632,7 +626,7 @@
                 ]
             }
         ],
-        "subtext": "anxious",
+        "subtext": "αγχωμένος",
         "comparative": "ανήσυχτερος",
         "superlative": "ο πιο ανήσυχος",
         "opposite": "calm",
@@ -655,7 +649,7 @@
         "feminine": "απασχολημένη",
         "neuter": "απασχολημένο",
         "plural": "απασχολημένοι",
-        "subtext": "very busy, busy day / busy schedule / very busy / too busy",
+        "subtext": "πολυάσχολη μέρα / γεμάτο πρόγραμμα / πολύ απασχολημένος",
         "comparative": "απασχολημέντερος",
         "superlative": "ο πιο απασχολημένος"
     },
@@ -675,7 +669,7 @@
                 ]
             }
         ],
-        "subtext": "helpful, practical",
+        "subtext": "βοηθητικός / πρακτικός",
         "comparative": "χρήσιμτερος",
         "superlative": "ο πιο χρήσιμος",
         "opposite": "άχρηστος",
@@ -687,7 +681,7 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "ουσιώδης",
+        "subtext": "απαραίτητος / σημαντική συνάντηση / πολύ σημαντικός",
         "definitions": [
             {
                 "text": "Κάτι που έχει μεγάλη αξία.",
@@ -719,7 +713,7 @@
         "feminine": "κόκκινη",
         "neuter": "κόκκινο",
         "plural": "κόκκινοι",
-        "subtext": "dark red, bright red / red wine / red face / red light",
+        "subtext": "κόκκινο κρασί / κόκκινο πρόσωπο / κόκκινο φως",
         "comparative": "κόκκιντερος",
         "superlative": "ο πιο κόκκινος"
     },
@@ -740,7 +734,7 @@
         "feminine": "μπλε",
         "neuter": "μπλε",
         "plural": "μπλε",
-        "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
+        "subtext": "σκούρο μπλε / γαλάζιο / μπλε ουρανός",
         "comparative": "πιο μπλε",
         "superlative": "ο πιο μπλε"
     },
@@ -761,7 +755,7 @@
         "feminine": "πράσινη",
         "neuter": "πράσινο",
         "plural": "πράσινοι",
-        "subtext": "bright green, dark green / green energy / green space / bright green",
+        "subtext": "πράσινη ενέργεια / χώρος πρασίνου / έντονο πράσινο",
         "comparative": "πράσιντερος",
         "superlative": "ο πιο πράσινος"
     },
@@ -771,7 +765,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
         "form": "adjective",
-        "subtext": "λευκός",
+        "subtext": "λευκό κρασί / υπόλευκο / καθαρό λευκό",
         "definitions": [
             {
                 "text": "Το χρώμα του χιονιού.",
@@ -803,7 +797,7 @@
         "feminine": "μαύρη",
         "neuter": "μαύρο",
         "plural": "μαύροι",
-        "subtext": "jet black, dark as night / black coffee / black market / jet black",
+        "subtext": "μαύρος καφές / μαύρη αγορά / κατάμαυρος",
         "comparative": "μαύρτερος",
         "superlative": "ο πιο μαύρος"
     },
@@ -824,7 +818,7 @@
         "feminine": "κίτρινη",
         "neuter": "κίτρινο",
         "plural": "κίτρινοι",
-        "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
+        "subtext": "κίτρινο φως / απαλό κίτρινο / έντονο κίτρινο",
         "comparative": "κίτριντερος",
         "superlative": "ο πιο κίτρινος"
     },
@@ -842,12 +836,6 @@
                 "text": "Costing no money; at no charge.",
                 "examples": [
                     "The museum is free on Sundays."
-                ]
-            },
-            {
-                "text": "Not costing money; not restricted.",
-                "examples": [
-                    "The parking here is free."
                 ]
             }
         ],
@@ -874,7 +862,7 @@
         "feminine": "ανοιχτή",
         "neuter": "ανοιχτό",
         "plural": "ανοιχτοί",
-        "subtext": "now open, open for business / open door / open to ideas / wide open",
+        "subtext": "ανοιχτή πόρτα / ανοιχτός σε ιδέες / ορθάνοιχτος",
         "comparative": "πιο ανοιχτός",
         "superlative": "ο πιο ανοιχτός"
     },
@@ -897,7 +885,7 @@
         "feminine": "κλειστή",
         "neuter": "κλειστό",
         "plural": "κλειστοί",
-        "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
+        "subtext": "κλειστό για μεσημεριανό / κλειστό μυαλό / κλειστή πόρτα",
         "comparative": "πιο κλειστός",
         "superlative": "ο πιο κλειστός"
     },
@@ -918,7 +906,7 @@
                 ]
             }
         ],
-        "subtext": "a large city / a large company / a large amount",
+        "subtext": "μεγάλο σπίτι / μεγάλο πρόβλημα / αρκετά μεγάλο",
         "comparative": "μεγάλτερος",
         "superlative": "ο πιο μεγάλος"
     },
@@ -939,7 +927,7 @@
                 ]
             }
         ],
-        "subtext": "a little bit / a little money / too little",
+        "subtext": "μικρό διαμέρισμα / μικρός μισθός / πολύ μικρό",
         "comparative": "πιο μικρός",
         "superlative": "ο πιο μικρός"
     },
@@ -960,7 +948,7 @@
                 ]
             }
         ],
-        "subtext": "a long journey / a long day / a long time",
+        "subtext": "μεγάλο ταξίδι / μεγάλη μέρα / πολύς καιρός",
         "comparative": "πιο μακρύς",
         "superlative": "ο πιο μακρύς"
     },
@@ -981,7 +969,7 @@
                 ]
             }
         ],
-        "subtext": "high price / high rent / high quality",
+        "subtext": "υψηλή τιμή / υψηλό ενοίκιο / υψηλή ποιότητα",
         "comparative": "πιο υψηλός",
         "superlative": "ο πιο υψηλός"
     },
@@ -1002,7 +990,7 @@
                 ]
             }
         ],
-        "subtext": "low price / low salary / low quality",
+        "subtext": "χαμηλή τιμή / χαμηλός μισθός / χαμηλή ποιότητα",
         "comparative": "πιο χαμηλός",
         "superlative": "ο πιο χαμηλός"
     },
@@ -1023,7 +1011,7 @@
                 ]
             }
         ],
-        "subtext": "full time / a full day / full of people",
+        "subtext": "πλήρες ωράριο / μια γεμάτη μέρα / γεμάτο κόσμο",
         "comparative": "γεμάττερος",
         "superlative": "ο πιο γεμάτος"
     },
@@ -1044,7 +1032,7 @@
                 ]
             }
         ],
-        "subtext": "an empty flat / an empty room / nearly empty",
+        "subtext": "άδειο διαμέρισμα / άδειο δωμάτιο / σχεδόν άδειο",
         "comparative": "άδειτερος",
         "superlative": "ο πιο άδειος"
     },
@@ -1065,7 +1053,7 @@
                 ]
             }
         ],
-        "subtext": "warm weather / a warm welcome / keep warm",
+        "subtext": "πολύ ζεστό / ζεστός καιρός / ένα ζεστό ρόφημα / πολύ ζεστό",
         "comparative": "πιο ζεστός",
         "superlative": "ο πιο ζεστός"
     },
@@ -1086,7 +1074,7 @@
                 ]
             }
         ],
-        "subtext": "cool weather / a cool drink / stay cool",
+        "subtext": "δροσερός καιρός / ένα δροσερό ποτό / μένω δροσερός",
         "comparative": "πιο δροσερός",
         "superlative": "ο πιο δροσερός"
     },
@@ -1128,7 +1116,7 @@
                 ]
             }
         ],
-        "subtext": "dry weather / dry skin / keep dry",
+        "subtext": "ξηρός καιρός / ξηρό δέρμα / διατηρώ στεγνό",
         "comparative": "πιο στεγνός",
         "superlative": "ο πιο στεγνός"
     },
@@ -1148,7 +1136,7 @@
                 ]
             }
         ],
-        "subtext": "dirty hands / dirty clothes / get dirty",
+        "subtext": "βρώμικα χέρια / βρώμικα ρούχα / λερώνω",
         "comparative": "βρώμικτερος",
         "superlative": "ο πιο βρώμικος"
     },
@@ -1169,7 +1157,7 @@
                 ]
             }
         ],
-        "subtext": "hard work / a hard decision / too hard",
+        "subtext": "σκληρή δουλειά / μια δύσκολη απόφαση / πολύ σκληρό",
         "comparative": "πιο σκληρός",
         "superlative": "ο πιο σκληρός"
     },
@@ -1190,7 +1178,7 @@
                 ]
             }
         ],
-        "subtext": "soft light / soft music / soft skills",
+        "subtext": "απαλό φως / απαλή μουσική / ήπιες δεξιότητες",
         "comparative": "πιο μαλακός",
         "superlative": "ο πιο μαλακός"
     },
@@ -1211,7 +1199,7 @@
                 ]
             }
         ],
-        "subtext": "heavy traffic / heavy rain / too heavy",
+        "subtext": "έντονη κίνηση / δυνατή βροχή / πολύ βαρύ",
         "comparative": "πιο βαρύς",
         "superlative": "ο πιο βαρύς"
     },
@@ -1232,7 +1220,7 @@
                 ]
             }
         ],
-        "subtext": "light rain / light traffic / a light meal",
+        "subtext": "ψιλή βροχή / λίγη κίνηση / ένα ελαφρύ γεύμα",
         "comparative": "πιο ελαφρύς",
         "superlative": "ο πιο ελαφρύς"
     },
@@ -1253,7 +1241,7 @@
                 ]
             }
         ],
-        "subtext": "dark brown / light brown / brown bread",
+        "subtext": "σκούρο καφέ / ανοιχτό καφέ / μαύρο ψωμί",
         "comparative": "πιο καφέ",
         "superlative": "ο πιο καφέ"
     },
@@ -1274,7 +1262,7 @@
                 ]
             }
         ],
-        "subtext": "grey area / grey sky / pale grey",
+        "subtext": "γκρίζα ζώνη / γκρίζος ουρανός / ανοιχτό γκρι",
         "comparative": "πιο γκρι",
         "superlative": "ο πιο γκρι"
     },
@@ -1295,7 +1283,7 @@
                 ]
             }
         ],
-        "subtext": "light pink / bright pink / hot pink",
+        "subtext": "ανοιχτό ροζ / έντονο ροζ / φούξια",
         "comparative": "πιο ροζ",
         "superlative": "ο πιο ροζ"
     },
@@ -1316,7 +1304,7 @@
                 ]
             }
         ],
-        "subtext": "bright orange / dark orange / orange light",
+        "subtext": "έντονο πορτοκαλί / σκούρο πορτοκαλί / πορτοκαλί φως",
         "comparative": "πιο πορτοκαλί",
         "superlative": "ο πιο πορτοκαλί"
     },
@@ -1337,7 +1325,7 @@
                 ]
             }
         ],
-        "subtext": "a great idea / a great opportunity / great value",
+        "subtext": "μια υπέροχη ευκαιρία / μια υπέροχη στιγμή",
         "comparative": "υπέροχτερος",
         "superlative": "ο πιο υπέροχος"
     },
@@ -1358,7 +1346,7 @@
                 ]
             }
         ],
-        "subtext": "a nice day / a nice place / a nice person",
+        "subtext": "μια ωραία μέρα / ένα ωραίο μέρος / ένας ωραίος άνθρωπος",
         "comparative": "ωραίτερος",
         "superlative": "ο πιο ωραίος"
     },
@@ -1400,7 +1388,7 @@
                 ]
             }
         ],
-        "subtext": "terrible weather / a terrible mistake / terrible news",
+        "subtext": "τρομερός καιρός / ένα τρομερό λάθος / τρομερά νέα",
         "comparative": "πιο τρομερός",
         "superlative": "ο πιο τρομερός"
     },
@@ -1421,7 +1409,7 @@
                 ]
             }
         ],
-        "subtext": "awful weather / awful news / simply awful",
+        "subtext": "απαίσιος καιρός / απαίσια νέα / απλώς απαίσιο",
         "comparative": "απαίσιτερος",
         "superlative": "ο πιο απαίσιος"
     },
@@ -1463,7 +1451,7 @@
                 ]
             }
         ],
-        "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
+        "subtext": "φανταστικά νέα / μια φανταστική ευκαιρία",
         "comparative": "πιο φανταστικός",
         "superlative": "ο πιο φανταστικός"
     },
@@ -1484,7 +1472,7 @@
                 ]
             }
         ],
-        "subtext": "feel sad / a sad situation / deeply sad",
+        "subtext": "νιώθω λυπημένος / μια λυπηρή κατάσταση",
         "comparative": "λυπημέντερος",
         "superlative": "ο πιο λυπημένος"
     },
@@ -1505,7 +1493,7 @@
                 ]
             }
         ],
-        "subtext": "feel hungry / very hungry / go hungry",
+        "subtext": "νιώθω πεινασμένος / πολύ πεινασμένος",
         "comparative": "πεινασμέντερος",
         "superlative": "ο πιο πεινασμένος"
     },
@@ -1526,7 +1514,7 @@
                 ]
             }
         ],
-        "subtext": "feel angry / angry with someone / very angry",
+        "subtext": "νιώθω θυμωμένος / θυμωμένος με κάποιον",
         "comparative": "θυμωμέντερος",
         "superlative": "ο πιο θυμωμένος"
     },
@@ -1547,7 +1535,7 @@
                 ]
             }
         ],
-        "subtext": "feel bored / bored with / easily bored",
+        "subtext": "νιώθω βαριεστημένος / βαριέμαι εύκολα",
         "comparative": "βαριεστημέντερος",
         "superlative": "ο πιο βαριεστημένος"
     },
@@ -1567,7 +1555,7 @@
                 ]
             }
         ],
-        "subtext": "feel excited / excited about / very excited",
+        "subtext": "νιώθω ενθουσιασμένος / πολύ ενθουσιασμένος",
         "comparative": "ενθουσιασμέντερος",
         "superlative": "ο πιο ενθουσιασμένος"
     },
@@ -1588,7 +1576,7 @@
                 ]
             }
         ],
-        "subtext": "afraid of / feel afraid / deeply afraid",
+        "subtext": "φοβάμαι κάτι / νιώθω φοβισμένος",
         "comparative": "φοβισμέντερος",
         "superlative": "ο πιο φοβισμένος"
     },
@@ -1630,7 +1618,7 @@
                 ]
             }
         ],
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "σωστή απάντηση / σωστή ώρα / απόλυτα σωστό",
         "comparative": "πιο σωστός",
         "superlative": "ο πιο σωστός"
     },
@@ -1693,7 +1681,7 @@
                 ]
             }
         ],
-        "subtext": "completely different / very different / different from",
+        "subtext": "εντελώς διαφορετικό / πολύ διαφορετικό",
         "comparative": "πιο διαφορετικός",
         "superlative": "ο πιο διαφορετικός"
     },
@@ -1714,7 +1702,7 @@
                 ]
             }
         ],
-        "subtext": "the same as / exactly the same / same time",
+        "subtext": "το ίδιο με / ακριβώς το ίδιο / την ίδια στιγμή",
         "comparative": "ίδιτερος",
         "superlative": "ο πιο ίδιος"
     },
@@ -1735,7 +1723,7 @@
                 ]
             }
         ],
-        "subtext": "fast food / fast train / very fast",
+        "subtext": "γρήγορο φαγητό / γρήγορο τρένο / πολύ γρήγορο",
         "comparative": "γρήγορτερος",
         "superlative": "ο πιο γρήγορος"
     },
@@ -1756,7 +1744,7 @@
                 ]
             }
         ],
-        "subtext": "slow progress / slow internet / very slow",
+        "subtext": "αργή πρόοδος / αργό ίντερνετ / πολύ αργό",
         "comparative": "πιο αργός",
         "superlative": "ο πιο αργός"
     },
@@ -1777,7 +1765,7 @@
                 ]
             }
         ],
-        "subtext": "quiet area / keep quiet / nice and quiet",
+        "subtext": "ήσυχη περιοχή / μένω ήσυχος / ωραία και ήσυχα",
         "comparative": "ήσυχτερος",
         "superlative": "ο πιο ήσυχος"
     },
@@ -1798,7 +1786,7 @@
                 ]
             }
         ],
-        "subtext": "loud noise / too loud / a loud voice",
+        "subtext": "δυνατός θόρυβος / πολύ δυνατά / μια δυνατή φωνή",
         "comparative": "πιο δυνατός",
         "superlative": "ο πιο δυνατός"
     },
@@ -1819,7 +1807,7 @@
                 ]
             }
         ],
-        "subtext": "safe area / safe to do / feel safe",
+        "subtext": "ασφαλής περιοχή / ασφαλές να γίνει / νιώθω ασφαλής",
         "comparative": "πιο ασφαλής",
         "superlative": "ο πιο ασφαλής"
     },
@@ -1840,7 +1828,7 @@
                 ]
             }
         ],
-        "subtext": "dangerous situation / very dangerous / potentially dangerous",
+        "subtext": "επικίνδυνη κατάσταση / πολύ επικίνδυνο",
         "comparative": "επικίνδυντερος",
         "superlative": "ο πιο επικίνδυνος"
     },
@@ -1860,7 +1848,7 @@
                 ]
             }
         ],
-        "subtext": "δυστυχισμένος για κάτι / βαθιά δυστυχισμένος",
+        "subtext": "νιώθω δυστυχισμένος / δυσαρεστημένος με",
         "comparative": "δυστυχισμέντερος",
         "superlative": "ο πιο δυστυχισμένος"
     },
@@ -1880,7 +1868,7 @@
                 ]
             }
         ],
-        "subtext": "νευρικός πριν από μια συνέντευξη / πολύ νευρικός",
+        "subtext": "νιώθω νευρικότητα / νευρικός για / πολύ νευρικός",
         "comparative": "πιο νευρικός",
         "superlative": "ο πιο νευρικός"
     },
@@ -1900,7 +1888,7 @@
                 ]
             }
         ],
-        "subtext": "feel stressed / very stressed / stressed out",
+        "subtext": "νιώθω άγχος / πολύ αγχωμένος / εξουθενωμένος",
         "comparative": "αγχωμέντερος",
         "superlative": "ο πιο αγχωμένος"
     },
@@ -1920,7 +1908,7 @@
                 ]
             }
         ],
-        "subtext": "feel confident / self-confident / very confident",
+        "subtext": "νιώθω σιγουριά / με αυτοπεποίθηση",
         "comparative": "σίγουρτερος",
         "superlative": "ο πιο σίγουρος"
     },
@@ -1940,7 +1928,7 @@
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of",
+        "subtext": "νιώθω περήφανος / πολύ περήφανος / περήφανος για",
         "comparative": "περήφαντερος",
         "superlative": "ο πιο περήφανος"
     },
@@ -1960,7 +1948,7 @@
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared",
+        "subtext": "φοβάμαι κάτι / νιώθω φοβισμένος",
         "comparative": "φοβισμέντερος",
         "superlative": "ο πιο φοβισμένος"
     },
@@ -1980,7 +1968,7 @@
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised",
+        "subtext": "πολύ έκπληκτος / ευχάριστα έκπληκτος",
         "comparative": "έκπληκττερος",
         "superlative": "ο πιο έκπληκτος"
     },
@@ -2000,7 +1988,7 @@
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with",
+        "subtext": "βαθιά απογοητευμένος / απογοητευμένος με",
         "comparative": "απογοητευμέντερος",
         "superlative": "ο πιο απογοητευμένος"
     },
@@ -2020,7 +2008,7 @@
                 ]
             }
         ],
-        "subtext": "beautiful view / beautiful city / absolutely beautiful",
+        "subtext": "όμορφη θέα / όμορφη πόλη / απόλυτα όμορφο",
         "comparative": "όμορφτερος",
         "superlative": "ο πιο όμορφος"
     },
@@ -2040,7 +2028,7 @@
                 ]
             }
         ],
-        "subtext": "pretty good / a pretty place / quite pretty",
+        "subtext": "μια ωραία μέρα / ένα ωραίο μέρος / ένας ωραίος άνθρωπος",
         "comparative": "ωραίτερος",
         "superlative": "ο πιο ωραίος"
     },
@@ -2060,7 +2048,7 @@
                 ]
             }
         ],
-        "subtext": "strong coffee / strong opinion / very strong",
+        "subtext": "δυνατός θόρυβος / πολύ δυνατά / μια δυνατή φωνή",
         "comparative": "πιο δυνατός",
         "superlative": "ο πιο δυνατός"
     },
@@ -2080,7 +2068,7 @@
                 ]
             }
         ],
-        "subtext": "weak connection / a weak argument / very weak",
+        "subtext": "αδύναμη σύνδεση / ένα αδύναμο επιχείρημα",
         "comparative": "αδύναμτερος",
         "superlative": "ο πιο αδύναμος"
     },
@@ -2120,7 +2108,7 @@
                 ]
             }
         ],
-        "subtext": "excellent work / excellent results / absolutely excellent",
+        "subtext": "εξαιρετική δουλειά / εξαιρετικά αποτελέσματα",
         "comparative": "πιο εξαιρετικός",
         "superlative": "ο πιο εξαιρετικός"
     },
@@ -2140,7 +2128,7 @@
                 ]
             }
         ],
-        "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
+        "subtext": "μια τέλεια ευκαιρία / τέλειος χρόνος",
         "comparative": "τέλειτερος",
         "superlative": "ο πιο τέλειος"
     },
@@ -2160,7 +2148,7 @@
                 ]
             }
         ],
-        "subtext": "completely useless / prove useless / a useless idea",
+        "subtext": "εντελώς άχρηστος / αποδεικνύεται άχρηστος",
         "comparative": "άχρησττερος",
         "superlative": "ο πιο άχρηστος"
     },
@@ -2180,7 +2168,7 @@
                 ]
             }
         ],
-        "subtext": "correct answer / the correct way / completely correct",
+        "subtext": "σωστή απάντηση / σωστή ώρα / απόλυτα σωστό",
         "comparative": "πιο σωστός",
         "superlative": "ο πιο σωστός"
     },
@@ -2200,7 +2188,7 @@
                 ]
             }
         ],
-        "subtext": "find interesting / very interesting / an interesting idea",
+        "subtext": "βρίσκω ενδιαφέρον / πολύ ενδιαφέρον",
         "comparative": "πιο ενδιαφέρων",
         "superlative": "ο πιο ενδιαφέρων"
     },
@@ -2220,7 +2208,7 @@
                 ]
             }
         ],
-        "subtext": "very boring / a boring meeting / find boring",
+        "subtext": "πολύ βαρετό / μια βαρετή συνάντηση",
         "comparative": "πιο βαρετός",
         "superlative": "ο πιο βαρετός"
     },
@@ -2240,7 +2228,7 @@
                 ]
             }
         ],
-        "subtext": "absolutely necessary / if necessary / necessary to do",
+        "subtext": "απολύτως απαραίτητο / εάν χρειαστεί",
         "comparative": "απαραίτηττερος",
         "superlative": "ο πιο απαραίτητος"
     },
@@ -2260,7 +2248,7 @@
                 ]
             }
         ],
-        "subtext": "as soon as possible / it is possible / make possible",
+        "subtext": "το συντομότερο δυνατό / είναι δυνατόν",
         "comparative": "πιο πιθανός",
         "superlative": "ο πιο πιθανός"
     },
@@ -2320,7 +2308,7 @@
                 ]
             }
         ],
-        "subtext": "very popular / popular choice / most popular",
+        "subtext": "πολύ δημοφιλής / δημοφιλής επιλογή",
         "comparative": "πιο δημοφιλής",
         "superlative": "ο πιο δημοφιλής"
     },
@@ -2340,7 +2328,7 @@
                 ]
             }
         ],
-        "subtext": "very similar / similar to / similar results",
+        "subtext": "πολύ παρόμοιος / παρόμοιος με",
         "comparative": "παρόμοιτερος",
         "superlative": "ο πιο παρόμοιος"
     },
@@ -2360,7 +2348,7 @@
                 ]
             }
         ],
-        "subtext": "very friendly / a friendly face / friendly atmosphere",
+        "subtext": "πολύ φιλικός / ένα φιλικό πρόσωπο",
         "comparative": "πιο φιλικός",
         "superlative": "ο πιο φιλικός"
     },
@@ -2380,7 +2368,7 @@
                 ]
             }
         ],
-        "subtext": "very kind / kind of you / a kind person",
+        "subtext": "πολύ ευγενικός / ευγενικό εκ μέρους σας",
         "comparative": "πιο ευγενικός",
         "superlative": "ο πιο ευγενικός"
     },
@@ -2400,7 +2388,7 @@
                 ]
             }
         ],
-        "subtext": "very funny / funny story / find funny",
+        "subtext": "πολύ αστείος / αστεία ιστορία",
         "comparative": "αστείτερος",
         "superlative": "ο πιο αστείος"
     },
@@ -2420,7 +2408,7 @@
                 ]
             }
         ],
-        "subtext": "very clever / a clever idea / clever enough",
+        "subtext": "πολύ έξυπνος / μια έξυπνη ιδέα",
         "comparative": "έξυπντερος",
         "superlative": "ο πιο έξυπνος"
     },
@@ -2460,7 +2448,7 @@
                 ]
             }
         ],
-        "subtext": "very rude / incredibly rude / deliberately rude",
+        "subtext": "πολύ αγενής / απίστευτα αγενής",
         "comparative": "πιο αγενής",
         "superlative": "ο πιο αγενής"
     },
@@ -2480,7 +2468,7 @@
                 ]
             }
         ],
-        "subtext": "very lazy / a lazy approach / too lazy",
+        "subtext": "πολύ τεμπέλης / μια τεμπέλικη προσέγγιση",
         "comparative": "πιο τεμπέλης",
         "superlative": "ο πιο τεμπέλης"
     },
@@ -2500,7 +2488,7 @@
                 ]
             }
         ],
-        "subtext": "very honest / brutally honest / completely honest",
+        "subtext": "πολύ ειλικρινής / βάναυσα ειλικρινής",
         "comparative": "πιο ειλικρινής",
         "superlative": "ο πιο ειλικρινής"
     },
@@ -2520,7 +2508,7 @@
                 ]
             }
         ],
-        "subtext": "very noisy / noisy environment / too noisy",
+        "subtext": "πολύ θορυβώδης / θορυβώδες περιβάλλον",
         "comparative": "πιο θορυβώδης",
         "superlative": "ο πιο θορυβώδης"
     }

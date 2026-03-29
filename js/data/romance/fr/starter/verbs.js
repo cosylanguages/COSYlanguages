@@ -639,7 +639,7 @@
     {
         "word": "appeler",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "appeler quelqu un / rappeler / convoquer une réunion",
         "form": "verb",

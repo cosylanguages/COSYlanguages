@@ -824,7 +824,7 @@
             theme_types_of_accommodation_A1: "Types d'hébergement",
             theme_types_of_education_A1: "Types of education",
             theme_urban_rural_life_B1: "Urban & rural life",
-            theme_using_a_smartphone_A1: "Using a smartphone",
+            theme_basic_technology_devices_A1: "Using a smartphone",
             theme_values_beliefs_B1: "Valeurs et croyances",
             theme_values_principles_B1: "Values & principles",
             theme_verb_tenses_overview_B2: "Aperçu des temps verbaux",

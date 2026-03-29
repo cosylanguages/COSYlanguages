@@ -13,16 +13,10 @@
         "plural": "высокие",
         "definitions": [
             {
-                "text": "A person or thing that is big from bottom to top.",
+                "text": "Человек или предмет, имеющий большую высоту.",
                 "examples": [
-                    "He is very tall.",
-                    "That building is tall."
-                ]
-            },
-            {
-                "text": "Of greater than average height.",
-                "examples": [
-                    "She is a tall woman who works as an engineer."
+                    "Он очень высокий.",
+                    "Это здание высокое."
                 ]
             }
         ],
@@ -41,20 +35,14 @@
         "plural": "короткие",
         "definitions": [
             {
-                "text": "A person or thing that is not tall.",
+                "text": "Человек или предмет небольшого роста или длины.",
                 "examples": [
-                    "She is short.",
-                    "The pencil is short."
-                ]
-            },
-            {
-                "text": "Of less than average height or length.",
-                "examples": [
-                    "He has a short commute — ten minutes by bike."
+                    "Она невысокая.",
+                    "Карандаш короткий."
                 ]
             }
         ],
-        "subtext": "a short journey / short hair / too short",
+        "subtext": "короткая поездка / короткие волосы / слишком короткий",
         "comparative": "короче",
         "superlative": "самый короткий",
         "opposite": "высокий",
@@ -69,9 +57,9 @@
         "plural": "молодые",
         "definitions": [
             {
-                "text": "Having lived or existed for only a short time.",
+                "text": "Живущий или существующий лишь короткое время.",
                 "examples": [
-                    "He is a young man."
+                    "Он молодой человек."
                 ]
             }
         ],
@@ -79,7 +67,7 @@
         "superlative": "самый молодой",
         "opposite": "старый",
         "oppositeEmoji": "👴",
-        "subtext": "young person / young professional / young at heart",
+        "subtext": "молодой человек / молодой специалист / молод душой",
         "word": "молодой"
     },
     {
@@ -95,19 +83,13 @@
         "plural": "старые",
         "definitions": [
             {
-                "text": "Having lived or existed for a long time.",
+                "text": "Живущий или существующий долгое время.",
                 "examples": [
-                    "This is an old book."
-                ]
-            },
-            {
-                "text": "Having existed for a long time.",
-                "examples": [
-                    "He works with old clients from ten years ago."
+                    "Это старая книга."
                 ]
             }
         ],
-        "subtext": "old friend / old habits / very old",
+        "subtext": "старый друг / старые привычки / очень старый",
         "comparative": "старше",
         "superlative": "самый старый"
     },
@@ -119,14 +101,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Having a lot of light from the sun.",
+                "text": "Имеющий много солнечного света.",
                 "examples": [
-                    "It is a sunny day.",
-                    "I like sunny weather."
+                    "Сегодня солнечный день."
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell",
+        "subtext": "солнечный день / солнечная погода / солнечный период",
         "comparative": "более солнечный",
         "superlative": "самый солнечный",
         "feminine": "солнечная",
@@ -141,14 +122,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Having a lot of rain.",
+                "text": "Имеющий много дождя.",
                 "examples": [
-                    "It is a rainy day.",
-                    "Wear a coat, it's rainy outside."
+                    "Сегодня дождливый день."
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season",
+        "subtext": "дождливый день / дождливая погода / сезон дождей",
         "comparative": "более дождливый",
         "superlative": "самый дождливый",
         "feminine": "дождливая",
@@ -163,7 +143,7 @@
         "form": "adjective",
         "opposite": "холодный",
         "oppositeEmoji": "❄️",
-        "subtext": "очень жаркий, кипяток",
+        "subtext": "очень горячий / горячая погода / горячий напиток / слишком горячий",
         "definitions": [
             {
                 "text": "Имеющий высокую температуру.",
@@ -186,7 +166,7 @@
         "form": "adjective",
         "opposite": "горячий",
         "oppositeEmoji": "🔥",
-        "subtext": "очень холодный, морозный",
+        "subtext": "очень холодный / холодное утро / холодная погода / холодный напиток",
         "definitions": [
             {
                 "text": "Имеющий низкую температуру.",
@@ -210,13 +190,13 @@
         "oppositeEmoji": "✨",
         "definitions": [
             {
-                "text": "Normal or usual; not special.",
+                "text": "Нормальный или привычный; не особенный.",
                 "examples": [
-                    "It was an ordinary day."
+                    "Это был обычный день."
                 ]
             }
         ],
-        "subtext": "ordinary day / ordinary life / nothing ordinary",
+        "subtext": "обычный день / обычная жизнь / ничего обычного",
         "comparative": "обычнее",
         "superlative": "самый обычный",
         "feminine": "обычная",
@@ -236,19 +216,13 @@
         "plural": "дешёвые",
         "definitions": [
             {
-                "text": "Not expensive; low in price.",
+                "text": "Стоящий мало денег; не дорогой.",
                 "examples": [
-                    "This coffee is cheap."
-                ]
-            },
-            {
-                "text": "Low in price.",
-                "examples": [
-                    "The lunch near the office is very cheap."
+                    "Этот кофе дешёвый."
                 ]
             }
         ],
-        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful",
+        "subtext": "дешёвый полет / очень дешёвый / дешёво и сердито",
         "comparative": "дешевле",
         "superlative": "самый дешёвый"
     },
@@ -265,19 +239,13 @@
         "plural": "дорогие",
         "definitions": [
             {
-                "text": "Costing a lot of money.",
+                "text": "Стоящий много денег.",
                 "examples": [
-                    "That car is expensive."
-                ]
-            },
-            {
-                "text": "High in price.",
-                "examples": [
-                    "The city centre is expensive for rent."
+                    "Эта машина дорогая."
                 ]
             }
         ],
-        "subtext": "costly, high price / very expensive / expensive taste / too expensive",
+        "subtext": "дорогая машина / очень дорогой / дорогой вкус / слишком дорогой",
         "comparative": "дороже",
         "superlative": "самый дорогой"
     },
@@ -294,19 +262,13 @@
         "plural": "хорошие",
         "definitions": [
             {
-                "text": "Of high quality or ability; pleasant.",
+                "text": "Высокого качества или приятный.",
                 "examples": [
-                    "This is a good job."
-                ]
-            },
-            {
-                "text": "Of high quality or pleasant.",
-                "examples": [
-                    "She has a good job with flexible hours."
+                    "Это хорошая работа."
                 ]
             }
         ],
-        "subtext": "great, nice, pleasant / good idea / good luck / good value",
+        "subtext": "хорошая идея / удачи / хорошее соотношение цены и качества",
         "comparative": "лучше",
         "superlative": "самый хороший"
     },
@@ -323,19 +285,13 @@
         "plural": "плохие",
         "definitions": [
             {
-                "text": "Not good; unpleasant or of poor quality.",
+                "text": "Не хороший; неприятный.",
                 "examples": [
-                    "The weather is bad today."
-                ]
-            },
-            {
-                "text": "Of low quality; unpleasant or harmful.",
-                "examples": [
-                    "He had a bad day at work."
+                    "Сегодня плохая погода."
                 ]
             }
         ],
-        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
+        "subtext": "плохие новости / неудача / плохое решение",
         "comparative": "хуже",
         "superlative": "самый плохой"
     },
@@ -352,19 +308,13 @@
         "plural": "большие",
         "definitions": [
             {
-                "text": "Large in size.",
+                "text": "Крупный по размеру или количеству.",
                 "examples": [
-                    "It is a big office."
-                ]
-            },
-            {
-                "text": "Large in size or amount.",
-                "examples": [
-                    "They have a big house near the park."
+                    "Это большой офис."
                 ]
             }
         ],
-        "subtext": "large, huge / a big house / a big problem / big enough",
+        "subtext": "большой дом / большая проблема / достаточно большой",
         "comparative": "больше",
         "superlative": "самый большой"
     },
@@ -381,19 +331,13 @@
         "plural": "маленькие",
         "definitions": [
             {
-                "text": "Little in size.",
+                "text": "Небольшой по размеру или количеству.",
                 "examples": [
-                    "She has a small flat."
-                ]
-            },
-            {
-                "text": "Little in size or amount.",
-                "examples": [
-                    "She rents a small flat in the city centre."
+                    "У неё маленькая квартира."
                 ]
             }
         ],
-        "subtext": "little, tiny / a small flat / a small salary / too small",
+        "subtext": "маленькая квартира / маленькая зарплата / слишком маленький",
         "comparative": "меньше",
         "superlative": "самый маленький"
     },
@@ -408,14 +352,13 @@
         "plural": "лёгкие",
         "definitions": [
             {
-                "text": "Not difficult.",
+                "text": "Не сложный.",
                 "examples": [
-                    "The test is easy.",
-                    "The application form is easy to complete."
+                    "Этот тест лёгкий."
                 ]
             }
         ],
-        "subtext": "easy to do / nice and easy / not easy",
+        "subtext": "легко сделать / легко и просто / нелегко",
         "comparative": "легче",
         "superlative": "самый лёгкий",
         "opposite": "трудный",
@@ -434,19 +377,13 @@
         "plural": "трудные",
         "definitions": [
             {
-                "text": "Hard to do or understand.",
+                "text": "Сложный для выполнения или понимания.",
                 "examples": [
-                    "This work is difficult."
-                ]
-            },
-            {
-                "text": "Not easy; requiring effort.",
-                "examples": [
-                    "The negotiation was very difficult."
+                    "Эта работа трудная."
                 ]
             }
         ],
-        "subtext": "difficult to do / very difficult / find it difficult",
+        "subtext": "трудно сделать / очень трудно / находить это трудным",
         "comparative": "труднее",
         "superlative": "самый трудный"
     },
@@ -461,19 +398,13 @@
         "plural": "счастливые",
         "definitions": [
             {
-                "text": "Feeling pleasure or joy.",
+                "text": "Испытывающий удовольствие или радость.",
                 "examples": [
-                    "I am happy today."
-                ]
-            },
-            {
-                "text": "Feeling pleasure or satisfaction.",
-                "examples": [
-                    "She is happy in her new role."
+                    "Я сегодня счастлив."
                 ]
             }
         ],
-        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day",
+        "subtext": "чувствовать себя счастливым / доволен чем-то / счастливый день",
         "comparative": "счастливее",
         "superlative": "самый счастливый"
     },
@@ -494,7 +425,7 @@
         "feminine": "усталая",
         "neuter": "усталое",
         "plural": "усталые",
-        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
+        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / очень tired",
         "comparative": "усталее",
         "superlative": "самый усталый"
     },
@@ -508,13 +439,13 @@
         "oppositeEmoji": "⏳",
         "definitions": [
             {
-                "text": "Working the complete number of hours in a working week.",
+                "text": "Содержащий столько, сколько возможно.",
                 "examples": [
-                    "She has a full-time job in a bank."
+                    "Я чувствую себя полным (сытым) после еды."
                 ]
             }
         ],
-        "subtext": "full-time job / full-time work / full-time employee",
+        "subtext": "полный рабочий день / полный день / полон людей",
         "comparative": null,
         "superlative": null,
         "feminine": "полная",
@@ -537,7 +468,7 @@
                 ]
             }
         ],
-        "subtext": "part-time job / part-time work / part-time student",
+        "subtext": "part-time работа / part-time work / part-time student",
         "comparative": null,
         "superlative": null,
         "feminine": "неполная",
@@ -552,12 +483,12 @@
         "form": "adjective",
         "opposite": "грязный",
         "oppositeEmoji": "💩",
-        "subtext": "опрятный, безупречный",
+        "subtext": "чистая одежда / чистая комната / содержать в чистоте",
         "definitions": [
             {
                 "text": "Свободный от грязи.",
                 "examples": [
-                    "Моя комната чистая."
+                    "Кухня теперь чистая."
                 ]
             }
         ],
@@ -577,13 +508,13 @@
         "plural": "здоровые",
         "definitions": [
             {
-                "text": "Good for your body; not ill.",
+                "text": "В хорошем состоянии здоровья; не больной.",
                 "examples": [
-                    "Vegetables are healthy food."
+                    "Овощи — это здоровая еда."
                 ]
             }
         ],
-        "subtext": "well, fit, healthy diet",
+        "subtext": "здоровое питание / вести здоровый образ жизни",
         "comparative": "здоровее",
         "superlative": "самый здоровый",
         "opposite": "unhealthy",
@@ -599,13 +530,13 @@
         "plural": "больные",
         "definitions": [
             {
-                "text": "Not well; sick.",
+                "text": "Не здоровый; приболевший.",
                 "examples": [
-                    "I feel ill today."
+                    "Я чувствую себя больным сегодня."
                 ]
             }
         ],
-        "subtext": "sick, feel ill",
+        "subtext": "чувствовать себя больным / заболеть",
         "comparative": "более больной",
         "superlative": "самый больной",
         "opposite": "well",
@@ -614,20 +545,20 @@
     {
         "word": "онлайн",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "offline",
         "oppositeEmoji": "📴",
         "definitions": [
             {
-                "text": "Using the internet.",
+                "text": "Использующий интернет.",
                 "examples": [
-                    "I buy food online sometimes."
+                    "Я иногда покупаю еду онлайн."
                 ]
             }
         ],
-        "subtext": "online shopping / online course / stay online",
+        "subtext": "онлайн-покупки / онлайн-курс / оставаться онлайн",
         "comparative": "более онлайн",
         "superlative": "самый онлайн",
         "feminine": "онлайн",
@@ -667,13 +598,13 @@
         "plural": "расслабленные",
         "definitions": [
             {
-                "text": "Calm; not worried or stressed.",
+                "text": "Спокойный; не беспокоящийся и не напряжённый.",
                 "examples": [
-                    "I feel relaxed at the weekend."
+                    "Я чувствую себя расслабленно в выходные."
                 ]
             }
         ],
-        "subtext": "calm, feeling relaxed",
+        "subtext": "чувствовать себя расслабленным / спокойная атмосфера",
         "comparative": "расслабленнее",
         "superlative": "самый расслабленный",
         "opposite": "напряжённый",
@@ -689,13 +620,13 @@
         "plural": "обеспокоенные",
         "definitions": [
             {
-                "text": "Feeling anxious about something that might happen.",
+                "text": "Испытывающий тревогу из-за того, что может случиться.",
                 "examples": [
-                    "She is worried about her job."
+                    "Она беспокоится о своей работе."
                 ]
             }
         ],
-        "subtext": "anxious",
+        "subtext": "беспокоиться о работе / обеспокоенный вид",
         "comparative": "обеспокоеннее",
         "superlative": "самый обеспокоенный",
         "opposite": "calm",
@@ -718,7 +649,7 @@
         "feminine": "занятая",
         "neuter": "занятое",
         "plural": "занятые",
-        "subtext": "very busy, busy day / busy schedule / very busy / too busy",
+        "subtext": "занятой день / плотный график / очень занят",
         "comparative": "более занятой",
         "superlative": "самый занятой"
     },
@@ -732,13 +663,13 @@
         "plural": "полезные",
         "definitions": [
             {
-                "text": "Helpful; having a practical purpose.",
+                "text": "Помогающий вам что-то сделать; пригодный.",
                 "examples": [
-                    "A car is very useful in the country."
+                    "Персонал очень полезен."
                 ]
             }
         ],
-        "subtext": "helpful, practical",
+        "subtext": "полезный совет / очень полезный",
         "comparative": "полезнее",
         "superlative": "самый полезный",
         "opposite": "бесполезный",
@@ -750,10 +681,10 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "значимый, основной",
+        "subtext": "важная встреча / очень важный / самый важный",
         "definitions": [
             {
-                "text": "Имеющий большое значение или влияние.",
+                "text": "Имеющий большую ценность или влияние.",
                 "examples": [
                     "Сон очень важен."
                 ]
@@ -771,12 +702,12 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
         "form": "adjective",
-        "subtext": "тёмно-красный, ярко-красный",
+        "subtext": "красное вино / красное лицо / красный свет",
         "definitions": [
             {
-                "text": "Имеющий цвет крови или спелого помидора.",
+                "text": "Имеющий цвет крови.",
                 "examples": [
-                    "У неё красная сумка."
+                    "У нее красная сумка."
                 ]
             }
         ],
@@ -792,10 +723,10 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
         "form": "adjective",
-        "subtext": "голубой, тёмно-синий",
+        "subtext": "темно-синий / светло-синий / синее небо",
         "definitions": [
             {
-                "text": "Имеющий цвет чистого неба.",
+                "text": "Имеющий цвет ясного неба.",
                 "examples": [
                     "Его машина синяя."
                 ]
@@ -813,12 +744,12 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
-        "subtext": "светло-зелёный, тёмно-зелёный",
+        "subtext": "зелёная энергия / зелёное пространство / ярко-зелёный",
         "definitions": [
             {
                 "text": "Имеющий цвет травы или листьев.",
                 "examples": [
-                    "Она носит зелёное платье."
+                    "Она носит зеленое платье."
                 ]
             }
         ],
@@ -834,7 +765,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
         "form": "adjective",
-        "subtext": "чисто-белый, белоснежный",
+        "subtext": "белое вино / почти белый / ярко-белый",
         "definitions": [
             {
                 "text": "Имеющий цвет снега или молока.",
@@ -855,12 +786,12 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬛",
         "form": "adjective",
-        "subtext": "чёрный как смоль, тёмный",
+        "subtext": "чёрный кофе / чёрный рынок / иссиня-чёрный",
         "definitions": [
             {
-                "text": "Имеющий самый тёмный цвет, как ночное небо.",
+                "text": "Имеющий самый темный цвет.",
                 "examples": [
-                    "Он носит чёрное пальто."
+                    "Он носит черное пальто."
                 ]
             }
         ],
@@ -876,12 +807,12 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
-        "subtext": "лимонно-жёлтый, ярко-жёлтый",
+        "subtext": "жёлтый свет / бледно-жёлтый / ярко-жёлтый",
         "definitions": [
             {
                 "text": "Имеющий цвет солнца или лимона.",
                 "examples": [
-                    "У неё жёлтый зонт."
+                    "У нее желтый зонт."
                 ]
             }
         ],
@@ -920,10 +851,10 @@
         "form": "adjective",
         "opposite": "закрытый",
         "oppositeEmoji": "🔒",
-        "subtext": "свободный вход",
+        "subtext": "открытая дверь / открыт для идей / широко открыт",
         "definitions": [
             {
-                "text": "Не закрытый; позволяющий войти.",
+                "text": "Не закрытый.",
                 "examples": [
                     "Магазин открыт до восьми."
                 ]
@@ -943,12 +874,12 @@
         "form": "adjective",
         "opposite": "открытый",
         "oppositeEmoji": "📖",
-        "subtext": "недоступный",
+        "subtext": "закрыт на обед / ограниченный ум / закрытая дверь",
         "definitions": [
             {
                 "text": "Не открытый.",
                 "examples": [
-                    "Банк закрыт по воскресеньям."
+                    "Офис закрыт в выходные."
                 ]
             }
         ],
@@ -969,13 +900,13 @@
         "plural": "крупные",
         "definitions": [
             {
-                "text": "Of more than average size or amount.",
+                "text": "Больше среднего размера.",
                 "examples": [
-                    "Paris is a very large city."
+                    "Париж — очень крупный город."
                 ]
             }
         ],
-        "subtext": "a large city / a large company / a large amount",
+        "subtext": "крупный город / крупная компания / крупная сумма",
         "comparative": "крупнее",
         "superlative": "самый крупный"
     },
@@ -996,7 +927,7 @@
                 ]
             }
         ],
-        "subtext": "a little bit / a little money / too little",
+        "subtext": "little bit / a little money / слишком little",
         "comparative": "более небольшой",
         "superlative": "самый небольшой"
     },
@@ -1011,13 +942,13 @@
         "plural": "длинные",
         "definitions": [
             {
-                "text": "Of great length; lasting a long time.",
+                "text": "Имеющий большую длину.",
                 "examples": [
-                    "She has a long commute every day."
+                    "У нее длинная дорога на работу каждый день."
                 ]
             }
         ],
-        "subtext": "a long journey / a long day / a long time",
+        "subtext": "длинное путешествие / длинный день / долгое время",
         "comparative": "длиннее",
         "superlative": "самый длинный"
     },
@@ -1032,13 +963,14 @@
         "plural": "высокие",
         "definitions": [
             {
-                "text": "Of greater than average height or level.",
+                "text": "Человек или предмет, имеющий большую высоту.",
                 "examples": [
-                    "The rent in this area is very high."
+                    "Он очень высокий.",
+                    "Это здание высокое."
                 ]
             }
         ],
-        "subtext": "high price / high rent / high quality",
+        "subtext": "высокое здание / высокий человек / достаточно высокий",
         "comparative": "выше",
         "superlative": "самый высокий"
     },
@@ -1053,13 +985,13 @@
         "plural": "низкие",
         "definitions": [
             {
-                "text": "Of less than average height or level.",
+                "text": "Ниже среднего уровня.",
                 "examples": [
-                    "The salary is too low for the hours involved."
+                    "Зарплата слишком низкая."
                 ]
             }
         ],
-        "subtext": "low price / low salary / low quality",
+        "subtext": "низкая цена / низкая зарплата / низкое качество",
         "comparative": "ниже",
         "superlative": "самый низкий"
     },
@@ -1074,13 +1006,13 @@
         "plural": "полные",
         "definitions": [
             {
-                "text": "Containing as much as possible; complete.",
+                "text": "Содержащий столько, сколько возможно.",
                 "examples": [
-                    "I feel full after that lunch."
+                    "Я чувствую себя полным (сытым) после еды."
                 ]
             }
         ],
-        "subtext": "full time / a full day / full of people",
+        "subtext": "полный рабочий день / полный день / полон людей",
         "comparative": null,
         "superlative": null
     },
@@ -1095,13 +1027,13 @@
         "plural": "пустые",
         "definitions": [
             {
-                "text": "Containing nothing; with no people.",
+                "text": "Ничего не содержащий.",
                 "examples": [
-                    "The office is empty at weekends."
+                    "Офис пуст в выходные."
                 ]
             }
         ],
-        "subtext": "an empty flat / an empty room / nearly empty",
+        "subtext": "пустая квартира / пустая комната / почти пустой",
         "comparative": "более пустой",
         "superlative": "самый пустой"
     },
@@ -1116,13 +1048,13 @@
         "plural": "тёплые",
         "definitions": [
             {
-                "text": "Slightly hot; pleasantly heated.",
+                "text": "Слегка горячий.",
                 "examples": [
-                    "The office is warm and comfortable."
+                    "В офисе тепло и уютно."
                 ]
             }
         ],
-        "subtext": "warm weather / a warm welcome / keep warm",
+        "subtext": "тёплая погода / тёплый прием / держать в тепле",
         "comparative": "тёплее",
         "superlative": "самый тёплый"
     },
@@ -1137,13 +1069,13 @@
         "plural": "прохладные",
         "definitions": [
             {
-                "text": "Slightly cold; pleasantly low temperature.",
+                "text": "Слегка холодный.",
                 "examples": [
-                    "She prefers cool weather for working."
+                    "Она предпочитает прохладную погоду для работы."
                 ]
             }
         ],
-        "subtext": "cool weather / a cool drink / stay cool",
+        "subtext": "прохладная погода / прохладный напиток / сохранять прохладу",
         "comparative": "прохладнее",
         "superlative": "самый прохладный"
     },
@@ -1158,13 +1090,13 @@
         "plural": "мокрые",
         "definitions": [
             {
-                "text": "Covered with water or liquid.",
+                "text": "Покрытый водой.",
                 "examples": [
-                    "His jacket is wet from the rain."
+                    "Его куртка мокрая от дождя."
                 ]
             }
         ],
-        "subtext": "wet weather / wet clothes / get wet",
+        "subtext": "мокрая погода / мокрая одежда / промокнуть",
         "comparative": "мокрее",
         "superlative": "самый мокрый"
     },
@@ -1179,13 +1111,13 @@
         "plural": "сухие",
         "definitions": [
             {
-                "text": "Without water or liquid; not wet.",
+                "text": "Без воды или влаги.",
                 "examples": [
-                    "The storage room must stay dry."
+                    "Кладовая должна оставаться сухой."
                 ]
             }
         ],
-        "subtext": "dry weather / dry skin / keep dry",
+        "subtext": "сухая погода / сухая кожа / оставаться сухим",
         "comparative": "более сухой",
         "superlative": "самый сухой"
     },
@@ -1199,13 +1131,13 @@
         "plural": "грязные",
         "definitions": [
             {
-                "text": "Covered in dirt or impurities.",
+                "text": "Покрытый грязью.",
                 "examples": [
-                    "His hands are dirty after fixing the car."
+                    "Его руки грязные."
                 ]
             }
         ],
-        "subtext": "dirty hands / dirty clothes / get dirty",
+        "subtext": "грязные руки / грязная одежда / испачкаться",
         "comparative": "грязнее",
         "superlative": "самый грязный"
     },
@@ -1220,13 +1152,13 @@
         "plural": "твёрдые",
         "definitions": [
             {
-                "text": "Firm and solid; difficult.",
+                "text": "Не мягкий; сложный.",
                 "examples": [
-                    "The chair is very hard and uncomfortable."
+                    "Стул очень твёрдый."
                 ]
             }
         ],
-        "subtext": "hard work / a hard decision / too hard",
+        "subtext": "тяжелая работа / трудное решение / слишком твердый",
         "comparative": "твёрдее",
         "superlative": "самый твёрдый"
     },
@@ -1241,13 +1173,13 @@
         "plural": "мягкие",
         "definitions": [
             {
-                "text": "Not hard; gentle to the touch.",
+                "text": "Не твёрдый.",
                 "examples": [
-                    "The sofa is very soft and comfortable."
+                    "Диван очень мягкий."
                 ]
             }
         ],
-        "subtext": "soft light / soft music / soft skills",
+        "subtext": "мягкий свет / мягкая музыка / мягкие навыки",
         "comparative": "мягкее",
         "superlative": "самый мягкий"
     },
@@ -1262,13 +1194,13 @@
         "plural": "тяжёлые",
         "definitions": [
             {
-                "text": "Of great weight; difficult to carry.",
+                "text": "Имеющий большой вес.",
                 "examples": [
-                    "The bag is very heavy with all those files."
+                    "Сумка очень тяжёлая."
                 ]
             }
         ],
-        "subtext": "heavy traffic / heavy rain / too heavy",
+        "subtext": "интенсивное движение / сильный дождь / слишком тяжелый",
         "comparative": "тяжёлее",
         "superlative": "самый тяжёлый"
     },
@@ -1283,13 +1215,13 @@
         "plural": "лёгкие",
         "definitions": [
             {
-                "text": "Not heavy; pale in colour.",
+                "text": "Не сложный.",
                 "examples": [
-                    "She carries a light bag to work every day."
+                    "Этот тест лёгкий."
                 ]
             }
         ],
-        "subtext": "light rain / light traffic / a light meal",
+        "subtext": "легко сделать / легко и просто / нелегко",
         "comparative": "легче",
         "superlative": "самый лёгкий"
     },
@@ -1304,13 +1236,13 @@
         "plural": "коричневые",
         "definitions": [
             {
-                "text": "Having the colour of wood or earth.",
+                "text": "Цвета дерева или земли.",
                 "examples": [
-                    "She has brown eyes and dark hair."
+                    "У нее карие (коричневые) глаза."
                 ]
             }
         ],
-        "subtext": "dark brown / light brown / brown bread",
+        "subtext": "тёмно-коричневый / светло-коричневый / коричневый хлеб",
         "comparative": "коричневее",
         "superlative": "самый коричневый"
     },
@@ -1325,13 +1257,13 @@
         "plural": "серые",
         "definitions": [
             {
-                "text": "Having a colour between black and white.",
+                "text": "Цвета между черным и белым.",
                 "examples": [
-                    "He has grey hair and a kind face."
+                    "У него седые (серые) волосы."
                 ]
             }
         ],
-        "subtext": "grey area / grey sky / pale grey",
+        "subtext": "серая зона / серое небо / бледно-серый",
         "comparative": "серее",
         "superlative": "самый серый"
     },
@@ -1346,13 +1278,13 @@
         "plural": "розовые",
         "definitions": [
             {
-                "text": "Having a pale red colour.",
+                "text": "Бледно-красный цвет.",
                 "examples": [
-                    "She prefers pink to red."
+                    "Она предпочитает розовый красному."
                 ]
             }
         ],
-        "subtext": "light pink / bright pink / hot pink",
+        "subtext": "светло-розовый / ярко-розовый / насыщенный розовый",
         "comparative": "розовее",
         "superlative": "самый розовый"
     },
@@ -1367,13 +1299,13 @@
         "plural": "оранжевые",
         "definitions": [
             {
-                "text": "Having the colour of an orange fruit.",
+                "text": "Цвета апельсина.",
                 "examples": [
-                    "He bought an orange jacket."
+                    "Он купил оранжевую куртку."
                 ]
             }
         ],
-        "subtext": "bright orange / dark orange / orange light",
+        "subtext": "ярко-оранжевый / тёмно-оранжевый / оранжевый свет",
         "comparative": "оранжевее",
         "superlative": "самый оранжевый"
     },
@@ -1388,13 +1320,13 @@
         "plural": "великолепные",
         "definitions": [
             {
-                "text": "Extremely good; large in amount.",
+                "text": "Чрезвычайно хороший.",
                 "examples": [
-                    "She is a great manager."
+                    "Она великолепный менеджер."
                 ]
             }
         ],
-        "subtext": "a great idea / a great opportunity / great value",
+        "subtext": "отличная идея / отличная возможность / высокая ценность",
         "comparative": "великолепнее",
         "superlative": "самый великолепный"
     },
@@ -1409,13 +1341,13 @@
         "plural": "приятные",
         "definitions": [
             {
-                "text": "Pleasant or kind.",
+                "text": "Приятный или добрый.",
                 "examples": [
-                    "The new office is very nice."
+                    "Новый офис очень приятный."
                 ]
             }
         ],
-        "subtext": "a nice day / a nice place / a nice person",
+        "subtext": "хороший день / хорошее место / приятный человек",
         "comparative": "приятнее",
         "superlative": "самый приятный"
     },
@@ -1430,13 +1362,13 @@
         "plural": "замечательные",
         "definitions": [
             {
-                "text": "Extremely good; causing delight.",
+                "text": "Чрезвычайно хороший; вызывающий восторг.",
                 "examples": [
-                    "They had a wonderful team."
+                    "У них была замечательная команда."
                 ]
             }
         ],
-        "subtext": "a wonderful opportunity / a wonderful time",
+        "subtext": "замечательная возможность / замечательное время",
         "comparative": "замечательнее",
         "superlative": "самый замечательный"
     },
@@ -1451,13 +1383,13 @@
         "plural": "ужасные",
         "definitions": [
             {
-                "text": "Extremely bad.",
+                "text": "Очень плохой или неприятный.",
                 "examples": [
-                    "The traffic this morning was terrible."
+                    "Шум в офисе ужасный."
                 ]
             }
         ],
-        "subtext": "terrible weather / a terrible mistake / terrible news",
+        "subtext": "ужасная погода / ужасная ошибка / ужасные новости",
         "comparative": "ужаснее",
         "superlative": "самый ужасный"
     },
@@ -1478,7 +1410,7 @@
                 ]
             }
         ],
-        "subtext": "awful weather / awful news / simply awful",
+        "subtext": "awful погода / awful новости / simply awful",
         "comparative": "отвратительнее",
         "superlative": "самый отвратительный"
     },
@@ -1514,13 +1446,13 @@
         "plural": "фантастические",
         "definitions": [
             {
-                "text": "Extremely good.",
+                "text": "Чрезвычайно хороший.",
                 "examples": [
-                    "The new system works in a fantastic way."
+                    "Новая система работает фантастически."
                 ]
             }
         ],
-        "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
+        "subtext": "фантастические новости / фантастическая возможность",
         "comparative": "фантастическее",
         "superlative": "самый фантастический"
     },
@@ -1535,13 +1467,13 @@
         "plural": "грустные",
         "definitions": [
             {
-                "text": "Feeling unhappy or sorrowful.",
+                "text": "Чувствующий несчастье.",
                 "examples": [
-                    "He was sad to leave the company."
+                    "Ему было грустно покидать компанию."
                 ]
             }
         ],
-        "subtext": "feel sad / a sad situation / deeply sad",
+        "subtext": "грустная ситуация / глубоко грустно",
         "comparative": "грустнее",
         "superlative": "самый грустный"
     },
@@ -1556,13 +1488,13 @@
         "plural": "голодные",
         "definitions": [
             {
-                "text": "Needing food.",
+                "text": "Нуждающийся в еде.",
                 "examples": [
-                    "I am hungry — it is already two o'clock."
+                    "Я голоден."
                 ]
             }
         ],
-        "subtext": "feel hungry / very hungry / go hungry",
+        "subtext": "очень голодный / остаться голодным",
         "comparative": "голоднее",
         "superlative": "самый голодный"
     },
@@ -1577,13 +1509,13 @@
         "plural": "сердитые",
         "definitions": [
             {
-                "text": "Feeling strong displeasure.",
+                "text": "Чувствующий сильное недовольство.",
                 "examples": [
-                    "She was angry about the decision."
+                    "Она была сердита на решение."
                 ]
             }
         ],
-        "subtext": "feel angry / angry with someone / very angry",
+        "subtext": "злиться на кого-то / очень сердитый",
         "comparative": "сердитее",
         "superlative": "самый сердитый"
     },
@@ -1598,13 +1530,13 @@
         "plural": "скучающие",
         "definitions": [
             {
-                "text": "Feeling uninterested or restless.",
+                "text": "Чувствующий отсутствие интереса.",
                 "examples": [
-                    "He feels bored in long meetings."
+                    "Ему скучно на длинных совещаниях."
                 ]
             }
         ],
-        "subtext": "feel bored / bored with / easily bored",
+        "subtext": "скучно на / легко наскучивает",
         "comparative": "скучающее",
         "superlative": "самый скучающий"
     },
@@ -1618,13 +1550,13 @@
         "plural": "взволнованные",
         "definitions": [
             {
-                "text": "Feeling enthusiasm and eagerness.",
+                "text": "Чувствующий энтузиазм и нетерпение.",
                 "examples": [
-                    "She is excited about her new job."
+                    "Она взволнована своей новой работой."
                 ]
             }
         ],
-        "subtext": "feel excited / excited about / very excited",
+        "subtext": "взволнован чем-то / очень взволнован",
         "comparative": "взволнованнее",
         "superlative": "самый взволнованный"
     },
@@ -1639,13 +1571,13 @@
         "plural": "испуганные",
         "definitions": [
             {
-                "text": "Feeling fear.",
+                "text": "Чувствующий страх.",
                 "examples": [
-                    "He is afraid of making mistakes."
+                    "Он боится совершить ошибку."
                 ]
             }
         ],
-        "subtext": "afraid of / feel afraid / deeply afraid",
+        "subtext": "бояться чего-то / глубоко испуган",
         "comparative": "испуганнее",
         "superlative": "самый испуганный"
     },
@@ -1681,13 +1613,13 @@
         "plural": "правильные",
         "definitions": [
             {
-                "text": "Correct; suitable.",
+                "text": "Верный; подходящий.",
                 "examples": [
-                    "Is this the right office?"
+                    "Это правильный офис?"
                 ]
             }
         ],
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "правильный ответ / правильное время / абсолютно верно",
         "comparative": "правильнее",
         "superlative": "самый правильный"
     },
@@ -1702,13 +1634,13 @@
         "plural": "неправильные",
         "definitions": [
             {
-                "text": "Not correct; not suitable.",
+                "text": "Имеющий ошибку.",
                 "examples": [
-                    "That was the wrong decision."
+                    "Это был неправильный выбор."
                 ]
             }
         ],
-        "subtext": "wrong answer / go wrong / completely wrong",
+        "subtext": "неправильный ответ / пойти не так / совершенно неправильно",
         "comparative": "неправильнее",
         "superlative": "самый неправильный"
     },
@@ -1723,13 +1655,13 @@
         "plural": "новые",
         "definitions": [
             {
-                "text": "Not existing before; recently made.",
+                "text": "Существующий недавно.",
                 "examples": [
-                    "She has a new job starting in March."
+                    "У меня новый компьютер."
                 ]
             }
         ],
-        "subtext": "new job / brand new / completely new",
+        "subtext": "новая работа / совершенно новый",
         "comparative": "новее",
         "superlative": "самый новый"
     },
@@ -1744,13 +1676,13 @@
         "plural": "другие",
         "definitions": [
             {
-                "text": "Not the same as another.",
+                "text": "Не такой же.",
                 "examples": [
-                    "This job is very different from my last one."
+                    "У нас разные мнения по этому вопросу."
                 ]
             }
         ],
-        "subtext": "completely different / very different / different from",
+        "subtext": "совершенно другой / очень разный / отличный от",
         "comparative": "более другой",
         "superlative": "самый другой"
     },
@@ -1786,13 +1718,13 @@
         "plural": "быстрые",
         "definitions": [
             {
-                "text": "Moving or happening quickly.",
+                "text": "Двигающийся с большой скоростью.",
                 "examples": [
-                    "The train to work is fast and reliable."
+                    "Поезд быстрый."
                 ]
             }
         ],
-        "subtext": "fast food / fast train / very fast",
+        "subtext": "фастфуд / скорый поезд / очень быстрый",
         "comparative": "быстрее",
         "superlative": "самый быстрый"
     },
@@ -1807,13 +1739,13 @@
         "plural": "медленные",
         "definitions": [
             {
-                "text": "Not fast; taking a long time.",
+                "text": "Не быстрый.",
                 "examples": [
-                    "The new system is very slow."
+                    "Новая система очень медленная."
                 ]
             }
         ],
-        "subtext": "slow progress / slow internet / very slow",
+        "subtext": "медленный прогресс / медленный интернет / очень медленный",
         "comparative": "медленнее",
         "superlative": "самый медленный"
     },
@@ -1828,13 +1760,13 @@
         "plural": "тихие",
         "definitions": [
             {
-                "text": "Making little or no noise; peaceful.",
+                "text": "Издающий мало шума или не издающий его вовсе.",
                 "examples": [
-                    "The office is quiet at lunchtime."
+                    "В офисе тихо в обед."
                 ]
             }
         ],
-        "subtext": "quiet area / keep quiet / nice and quiet",
+        "subtext": "тихий район / вести себя тихо / мило и тихо",
         "comparative": "тише",
         "superlative": "самый тихий"
     },
@@ -1849,13 +1781,13 @@
         "plural": "громкие",
         "definitions": [
             {
-                "text": "Making a lot of noise.",
+                "text": "Издающий много шума.",
                 "examples": [
-                    "The open-plan office is too loud."
+                    "В офисе слишком громко."
                 ]
             }
         ],
-        "subtext": "loud noise / too loud / a loud voice",
+        "subtext": "громкий шум / слишком громко / громкий голос",
         "comparative": "громче",
         "superlative": "самый громкий"
     },
@@ -1870,13 +1802,13 @@
         "plural": "безопасные",
         "definitions": [
             {
-                "text": "Not dangerous; protected from harm.",
+                "text": "Не опасный.",
                 "examples": [
-                    "This neighbourhood is very safe."
+                    "Этот район очень безопасный."
                 ]
             }
         ],
-        "subtext": "safe area / safe to do / feel safe",
+        "subtext": "безопасный район / безопасно делать / чувствовать себя в безопасности",
         "comparative": "безопаснее",
         "superlative": "самый безопасный"
     },
@@ -1891,13 +1823,13 @@
         "plural": "опасные",
         "definitions": [
             {
-                "text": "Likely to cause harm.",
+                "text": "Способный причинить вред.",
                 "examples": [
-                    "The commute on that road is dangerous."
+                    "Эта дорога опасна."
                 ]
             }
         ],
-        "subtext": "dangerous situation / very dangerous / potentially dangerous",
+        "subtext": "опасная ситуация / очень опасный / потенциально опасный",
         "comparative": "опаснее",
         "superlative": "самый опасный"
     },
@@ -1911,13 +1843,13 @@
         "plural": "несчастные",
         "definitions": [
             {
-                "text": "Чувство неудовлетворенности или грусти.",
+                "text": "Не чувствующий себя довольным; неудовлетворенный.",
                 "examples": [
-                    "He is unhappy with his current salary."
+                    "Он несчастлив из-за своей текущей зарплаты."
                 ]
             }
         ],
-        "subtext": "несчастен из-за чего-то / глубоко несчастен",
+        "subtext": "очень несчастный / недоволен чем-то",
         "comparative": "несчастнее",
         "superlative": "самый несчастный"
     },
@@ -1931,13 +1863,13 @@
         "plural": "нервные",
         "definitions": [
             {
-                "text": "Чувство беспокойства или тревоги.",
+                "text": "Чувствующий тревогу.",
                 "examples": [
-                    "He was nervous before the job interview."
+                    "Он нервничал перед собеседованием."
                 ]
             }
         ],
-        "subtext": "нервничать перед собеседованием / очень нервный",
+        "subtext": "нервничать из-за / очень нервный",
         "comparative": "нервнее",
         "superlative": "самый нервный"
     },
@@ -1951,13 +1883,13 @@
         "plural": "напряжённые",
         "definitions": [
             {
-                "text": "Feeling worried and tense from pressure.",
+                "text": "Чувствующий беспокойство и напряжение от давления.",
                 "examples": [
-                    "She feels stressed before every deadline."
+                    "Она чувствует стресс перед каждым дедлайном."
                 ]
             }
         ],
-        "subtext": "feel stressed / very stressed / stressed out",
+        "subtext": "чувствовать стресс / очень напряжённый / измотанный",
         "comparative": "напряжённее",
         "superlative": "самый напряжённый"
     },
@@ -1971,13 +1903,13 @@
         "plural": "уверенные",
         "definitions": [
             {
-                "text": "Feeling sure of your own abilities.",
+                "text": "Уверенный в своих способностях.",
                 "examples": [
-                    "She is very confident in client presentations."
+                    "Она очень уверена в себе."
                 ]
             }
         ],
-        "subtext": "feel confident / self-confident / very confident",
+        "subtext": "чувствовать себя уверенно / уверенный в себе / очень уверенный",
         "comparative": "увереннее",
         "superlative": "самый уверенный"
     },
@@ -1991,13 +1923,13 @@
         "plural": "гордые",
         "definitions": [
             {
-                "text": "Feeling pleased about an achievement.",
+                "text": "Чувствующий удовлетворение от достижений.",
                 "examples": [
-                    "He was proud to get his first promotion."
+                    "Он гордился своим повышением."
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of",
+        "subtext": "чувствовать гордость / очень гордый / гордиться чем-то",
         "comparative": "гордее",
         "superlative": "самый гордый"
     },
@@ -2011,13 +1943,13 @@
         "plural": "напуганные",
         "definitions": [
             {
-                "text": "Feeling fear about something.",
+                "text": "Испытывающий страх.",
                 "examples": [
-                    "She was scared about giving the presentation."
+                    "Ей было страшно."
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared",
+        "subtext": "испуган чем-то / очень напуган",
         "comparative": "напуганнее",
         "superlative": "самый напуганный"
     },
@@ -2031,13 +1963,13 @@
         "plural": "удивлённые",
         "definitions": [
             {
-                "text": "Feeling shock at something unexpected.",
+                "text": "Чувствующий шок от чего-то неожиданного.",
                 "examples": [
-                    "He was surprised to get a pay rise."
+                    "Он был удивлен."
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised",
+        "subtext": "очень удивлён / приятно удивлён",
         "comparative": "удивлённее",
         "superlative": "самый удивлённый"
     },
@@ -2051,13 +1983,13 @@
         "plural": "разочарованные",
         "definitions": [
             {
-                "text": "Feeling sad because something was not as good as expected.",
+                "text": "Чувствующий грусть, потому что что-то оказалось не таким хорошим, как ожидалось.",
                 "examples": [
-                    "She was disappointed not to get the job."
+                    "Она была разочарована."
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with",
+        "subtext": "глубоко разочарован / разочарован чем-то",
         "comparative": "разочарованнее",
         "superlative": "самый разочарованный"
     },
@@ -2071,13 +2003,13 @@
         "plural": "красивые",
         "definitions": [
             {
-                "text": "Attractive and pleasing to look at.",
+                "text": "Приятный на вид.",
                 "examples": [
-                    "She has a beautiful, bright office with city views."
+                    "Вид из офиса красивый."
                 ]
             }
         ],
-        "subtext": "beautiful view / beautiful city / absolutely beautiful",
+        "subtext": "красивый вид / красивый город / абсолютно красивый",
         "comparative": "красивее",
         "superlative": "самый красивый"
     },
@@ -2097,7 +2029,7 @@
                 ]
             }
         ],
-        "subtext": "pretty good / a pretty place / quite pretty",
+        "subtext": "pretty хороший / a pretty place / quite pretty",
         "comparative": "симпатичнее",
         "superlative": "самый симпатичный"
     },
@@ -2111,13 +2043,13 @@
         "plural": "сильные",
         "definitions": [
             {
-                "text": "Having great physical or mental power.",
+                "text": "Имеющий большую физическую или умственную силу.",
                 "examples": [
-                    "She is a strong leader and very respected."
+                    "Она сильный лидер."
                 ]
             }
         ],
-        "subtext": "strong coffee / strong opinion / very strong",
+        "subtext": "крепкий кофе / сильное мнение / очень сильный",
         "comparative": "сильнее",
         "superlative": "самый сильный"
     },
@@ -2131,13 +2063,13 @@
         "plural": "слабые",
         "definitions": [
             {
-                "text": "Lacking strength or power.",
+                "text": "Не имеющий силы.",
                 "examples": [
-                    "The signal is weak on the top floor."
+                    "Сигнал слабый."
                 ]
             }
         ],
-        "subtext": "weak connection / a weak argument / very weak",
+        "subtext": "слабое соединение / слабый аргумент / очень слабый",
         "comparative": "слабее",
         "superlative": "самый слабый"
     },
@@ -2171,13 +2103,13 @@
         "plural": "отличные",
         "definitions": [
             {
-                "text": "Extremely good; of a very high standard.",
+                "text": "Чрезвычайно хороший; высокого стандарта.",
                 "examples": [
-                    "She received an excellent review."
+                    "Она получила отличный отзыв."
                 ]
             }
         ],
-        "subtext": "excellent work / excellent results / absolutely excellent",
+        "subtext": "отличная работа / отличные результаты / абсолютно отлично",
         "comparative": "отличнее",
         "superlative": "самый отличный"
     },
@@ -2191,13 +2123,13 @@
         "plural": "идеальные",
         "definitions": [
             {
-                "text": "Without any faults; completely correct.",
+                "text": "Без каких-либо ошибок.",
                 "examples": [
-                    "The timing of the launch was perfect."
+                    "Это идеальный день для путешествия."
                 ]
             }
         ],
-        "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
+        "subtext": "идеальная возможность / идеальное время / абсолютно идеально",
         "comparative": "идеальнее",
         "superlative": "самый идеальный"
     },
@@ -2211,13 +2143,13 @@
         "plural": "бесполезные",
         "definitions": [
             {
-                "text": "Without any useful value; not helpful.",
+                "text": "Не имеющий пользы.",
                 "examples": [
-                    "This software is useless for our needs."
+                    "Это программное обеспечение бесполезно."
                 ]
             }
         ],
-        "subtext": "completely useless / prove useless / a useless idea",
+        "subtext": "совершенно бесполезный / оказаться бесполезным / бесполезная идея",
         "comparative": "бесполезнее",
         "superlative": "самый бесполезный"
     },
@@ -2251,13 +2183,13 @@
         "plural": "интересные",
         "definitions": [
             {
-                "text": "Attracting attention; worth knowing about.",
+                "text": "Привлекающий внимание.",
                 "examples": [
-                    "The new proposal is very interesting."
+                    "Предложение очень интересное."
                 ]
             }
         ],
-        "subtext": "find interesting / very interesting / an interesting idea",
+        "subtext": "очень интересный / интересная идея",
         "comparative": "интереснее",
         "superlative": "самый интересный"
     },
@@ -2271,13 +2203,13 @@
         "plural": "скучные",
         "definitions": [
             {
-                "text": "Not interesting; dull.",
+                "text": "Не интересный.",
                 "examples": [
-                    "The training session was very boring."
+                    "Встреча была очень скучной."
                 ]
             }
         ],
-        "subtext": "very boring / a boring meeting / find boring",
+        "subtext": "очень скучный / скучная встреча",
         "comparative": "скучнее",
         "superlative": "самый скучный"
     },
@@ -2291,13 +2223,13 @@
         "plural": "необходимые",
         "definitions": [
             {
-                "text": "Needed; required in order to do something.",
+                "text": "Требуемый; обязательный.",
                 "examples": [
-                    "A good internet connection is necessary for remote work."
+                    "Хорошее интернет-соединение необходимо."
                 ]
             }
         ],
-        "subtext": "absolutely necessary / if necessary / necessary to do",
+        "subtext": "абсолютно необходимый / если необходимо / необходимо сделать",
         "comparative": "необходимее",
         "superlative": "самый необходимый"
     },
@@ -2311,13 +2243,13 @@
         "plural": "возможные",
         "definitions": [
             {
-                "text": "Able to happen or be achieved.",
+                "text": "Способный произойти.",
                 "examples": [
-                    "Is it possible to finish by Friday?"
+                    "Возможно ли закончить к пятнице?"
                 ]
             }
         ],
-        "subtext": "as soon as possible / it is possible / make possible",
+        "subtext": "как можно скорее / это возможно / сделать возможным",
         "comparative": "возможнее",
         "superlative": "самый возможный"
     },
@@ -2331,13 +2263,13 @@
         "plural": "невозможные",
         "definitions": [
             {
-                "text": "Not able to happen or be done.",
+                "text": "Неспособный произойти.",
                 "examples": [
-                    "It is impossible to finish in one day."
+                    "Это невозможно."
                 ]
             }
         ],
-        "subtext": "virtually impossible / make impossible / nearly impossible",
+        "subtext": "практически невозможный / сделать невозможным",
         "comparative": "невозможнее",
         "superlative": "самый невозможный"
     },
@@ -2351,13 +2283,13 @@
         "plural": "особенные",
         "definitions": [
             {
-                "text": "Different from what is usual; particularly important.",
+                "text": "Отличный от обычного.",
                 "examples": [
-                    "She has a special talent for problem-solving."
+                    "У нее есть особенный талант."
                 ]
             }
         ],
-        "subtext": "a special offer / special occasion / very special",
+        "subtext": "специальное предложение / особый случай / очень особенный",
         "comparative": "особеннее",
         "superlative": "самый особенный"
     },
@@ -2371,13 +2303,13 @@
         "plural": "популярные",
         "definitions": [
             {
-                "text": "Liked by many people.",
+                "text": "Нравящийся многим людям.",
                 "examples": [
-                    "The new café near the office is very popular."
+                    "Кафе очень популярное."
                 ]
             }
         ],
-        "subtext": "very popular / popular choice / most popular",
+        "subtext": "очень популярный / популярный выбор / самый популярный",
         "comparative": "популярнее",
         "superlative": "самый популярный"
     },
@@ -2391,13 +2323,13 @@
         "plural": "похожие",
         "definitions": [
             {
-                "text": "Almost the same; having many shared features.",
+                "text": "Почти такой же.",
                 "examples": [
-                    "Our approaches are very similar."
+                    "Наши подходы очень похожи."
                 ]
             }
         ],
-        "subtext": "very similar / similar to / similar results",
+        "subtext": "очень похожий / похож на / похожие результаты",
         "comparative": "похожее",
         "superlative": "самый похожий"
     },
@@ -2411,13 +2343,13 @@
         "plural": "дружелюбные",
         "definitions": [
             {
-                "text": "Kind and pleasant; easy to talk to.",
+                "text": "Добрый и приятный.",
                 "examples": [
-                    "The new manager is very friendly and approachable."
+                    "Новый менеджер очень дружелюбен."
                 ]
             }
         ],
-        "subtext": "very friendly / a friendly face / friendly atmosphere",
+        "subtext": "очень дружелюбный / дружелюбное лицо / дружелюбная атмосфера",
         "comparative": "дружелюбнее",
         "superlative": "самый дружелюбный"
     },
@@ -2431,13 +2363,13 @@
         "plural": "добрые",
         "definitions": [
             {
-                "text": "Caring and generous to others.",
+                "text": "Щедрый по отношению к другим.",
                 "examples": [
-                    "She is kind to everyone in the office."
+                    "Она добра ко всем."
                 ]
             }
         ],
-        "subtext": "very kind / kind of you / a kind person",
+        "subtext": "очень добрый / любезно с вашей стороны / добрый человек",
         "comparative": "добрее",
         "superlative": "самый добрый"
     },
@@ -2451,13 +2383,13 @@
         "plural": "смешные",
         "definitions": [
             {
-                "text": "Making people laugh; humorous.",
+                "text": "Заставляющий людей смеяться.",
                 "examples": [
-                    "He has a funny way of explaining complex ideas."
+                    "У него весёлый характер."
                 ]
             }
         ],
-        "subtext": "very funny / funny story / find funny",
+        "subtext": "очень смешной / смешная история",
         "comparative": "более смешной",
         "superlative": "самый смешной"
     },
@@ -2471,13 +2403,13 @@
         "plural": "умные",
         "definitions": [
             {
-                "text": "Intelligent; quick to understand.",
+                "text": "Интеллектуальный; быстро соображающий.",
                 "examples": [
-                    "She is a clever negotiator."
+                    "Она умный переговорщик."
                 ]
             }
         ],
-        "subtext": "very clever / a clever idea / clever enough",
+        "subtext": "очень умный / умная идея / достаточно умный",
         "comparative": "умнее",
         "superlative": "самый умный"
     },
@@ -2491,13 +2423,13 @@
         "plural": "вежливые",
         "definitions": [
             {
-                "text": "Behaving in a respectful and courteous way.",
+                "text": "Ведущий себя уважительно.",
                 "examples": [
-                    "He is always polite with clients."
+                    "Он всегда вежлив."
                 ]
             }
         ],
-        "subtext": "very polite / polite request / polite enough",
+        "subtext": "очень вежливый / вежливая просьба / достаточно вежливый",
         "comparative": "вежливее",
         "superlative": "самый вежливый"
     },
@@ -2511,13 +2443,13 @@
         "plural": "грубые",
         "definitions": [
             {
-                "text": "Not polite; showing a lack of respect.",
+                "text": "Невежливый.",
                 "examples": [
-                    "That email was quite rude and unprofessional."
+                    "Это письмо было довольно грубым."
                 ]
             }
         ],
-        "subtext": "very rude / incredibly rude / deliberately rude",
+        "subtext": "очень грубый / невероятно грубый / намеренно грубый",
         "comparative": "грубее",
         "superlative": "самый грубый"
     },
@@ -2531,13 +2463,13 @@
         "plural": "ленивые",
         "definitions": [
             {
-                "text": "Not willing to work or use effort.",
+                "text": "Не желающий работать.",
                 "examples": [
-                    "He has a reputation for being lazy with follow-ups."
+                    "Он ленив."
                 ]
             }
         ],
-        "subtext": "very lazy / a lazy approach / too lazy",
+        "subtext": "очень ленивый / ленивый подход / слишком ленивый",
         "comparative": "ленивее",
         "superlative": "самый ленивый"
     },
@@ -2551,13 +2483,13 @@
         "plural": "честные",
         "definitions": [
             {
-                "text": "Telling the truth; not deceiving.",
+                "text": "Говорящий правду.",
                 "examples": [
-                    "She is known for being completely honest with clients."
+                    "Она честна."
                 ]
             }
         ],
-        "subtext": "very honest / brutally honest / completely honest",
+        "subtext": "очень честный / предельно честный / совершенно честный",
         "comparative": "честнее",
         "superlative": "самый честный"
     },
@@ -2571,13 +2503,13 @@
         "plural": "шумные",
         "definitions": [
             {
-                "text": "Making a lot of sound; loud.",
+                "text": "Издающий много звуков; громкий.",
                 "examples": [
-                    "The open plan office is very noisy."
+                    "Офис открытого типа очень шумный."
                 ]
             }
         ],
-        "subtext": "very noisy / noisy environment / too noisy",
+        "subtext": "очень шумный / шумная обстановка / слишком шумный",
         "comparative": "шумнее",
         "superlative": "самый шумный"
     }

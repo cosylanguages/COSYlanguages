@@ -43,7 +43,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "had",
+        "v2": "hatte",
         "v3": "gehabt",
         "group": "irregular",
         "auxiliary": "haben"
@@ -65,7 +65,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "v2": "felt",
+        "v2": "fühlte",
         "v3": "gefühlt",
         "group": "en",
         "auxiliary": "haben"
@@ -90,7 +90,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "gave",
+        "v2": "gab",
         "v3": "gegeben",
         "group": "irregular",
         "auxiliary": "haben"
@@ -115,7 +115,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "took",
+        "v2": "nahm",
         "v3": "genommen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -139,7 +139,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "got",
+        "v2": "bekam",
         "v3": "bekommen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -162,7 +162,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "put",
+        "v2": "stellte",
         "v3": "gestellt",
         "group": "en",
         "auxiliary": "haben"
@@ -185,7 +185,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "made",
+        "v2": "machte",
         "v3": "gemacht",
         "group": "en",
         "auxiliary": "haben"
@@ -231,7 +231,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "used",
+        "v2": "benutzte",
         "v3": "benutzt",
         "group": "en",
         "auxiliary": "haben"
@@ -256,7 +256,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "opened",
+        "v2": "öffnete",
         "v3": "geöffnet",
         "group": "en",
         "auxiliary": "haben"
@@ -281,7 +281,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "closed",
+        "v2": "schloss",
         "v3": "geschlossen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -306,7 +306,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "started",
+        "v2": "begann",
         "v3": "begonnen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -331,7 +331,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "finished",
+        "v2": "beendete",
         "v3": "beendet",
         "group": "en",
         "auxiliary": "haben"
@@ -353,7 +353,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "helped",
+        "v2": "half",
         "v3": "geholfen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -375,7 +375,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "tried",
+        "v2": "versuchte",
         "v3": "versucht",
         "group": "en",
         "auxiliary": "haben"
@@ -397,7 +397,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "showed",
+        "v2": "zeigte",
         "v3": "gezeigt",
         "group": "en",
         "auxiliary": "haben"
@@ -420,7 +420,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "found",
+        "v2": "fand",
         "v3": "gefunden",
         "group": "irregular",
         "auxiliary": "haben"
@@ -443,7 +443,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "kept",
+        "v2": "behielt",
         "v3": "behalten",
         "group": "irregular",
         "auxiliary": "haben"
@@ -469,7 +469,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "lost",
+        "v2": "verlor",
         "v3": "verloren",
         "group": "irregular",
         "auxiliary": "haben"
@@ -492,7 +492,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "cut",
+        "v2": "schnitt",
         "v3": "geschnitten",
         "group": "irregular",
         "auxiliary": "haben"
@@ -515,7 +515,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "turned",
+        "v2": "drehte",
         "v3": "gedreht",
         "group": "en",
         "auxiliary": "haben"
@@ -538,7 +538,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "brought",
+        "v2": "brachte",
         "v3": "gebracht",
         "group": "irregular",
         "auxiliary": "haben"
@@ -561,7 +561,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "said",
+        "v2": "sagte",
         "v3": "gesagt",
         "group": "en",
         "auxiliary": "haben"
@@ -583,7 +583,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "told",
+        "v2": "erzählte",
         "v3": "erzählt",
         "group": "en",
         "auxiliary": "haben"
@@ -605,7 +605,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "asked",
+        "v2": "fragte",
         "v3": "gefragt",
         "group": "en",
         "auxiliary": "haben"
@@ -628,7 +628,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "spoke",
+        "v2": "sprach",
         "v3": "gesprochen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -650,7 +650,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "talked",
+        "v2": "redete",
         "v3": "geredet",
         "group": "en",
         "auxiliary": "haben"
@@ -658,7 +658,7 @@
     {
         "word": "anrufen",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "call someone / call back / call a meeting / call in sick",
         "form": "verb",
@@ -672,7 +672,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "called",
+        "v2": "rief an",
         "v3": "angerufen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -697,7 +697,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "wrote",
+        "v2": "schrieb",
         "v3": "geschrieben",
         "group": "irregular",
         "auxiliary": "haben"
@@ -722,7 +722,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "read",
+        "v2": "las",
         "v3": "gelesen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -745,7 +745,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "listened",
+        "v2": "hörte",
         "v3": "gehört",
         "group": "en",
         "auxiliary": "haben"
@@ -768,7 +768,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "answered",
+        "v2": "antwortete",
         "v3": "geantwortet",
         "group": "en",
         "auxiliary": "haben"
@@ -791,7 +791,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "repeated",
+        "v2": "wiederholte",
         "v3": "wiederholt",
         "group": "en",
         "auxiliary": "haben"
@@ -814,7 +814,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": null,
+        "v2": "ging",
         "v3": "gegangen",
         "group": "irregular",
         "auxiliary": "sein"
@@ -839,7 +839,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "came",
+        "v2": "kam",
         "v3": "gekommen",
         "group": "irregular",
         "auxiliary": "sein"
@@ -862,7 +862,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "walked",
+        "v2": "lief",
         "v3": "gelaufen",
         "group": "irregular",
         "auxiliary": "sein"
@@ -885,7 +885,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drove",
+        "v2": "fuhr",
         "v3": "gefahren",
         "group": "irregular",
         "auxiliary": "sein"
@@ -908,7 +908,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "flew",
+        "v2": "flog",
         "v3": "geflogen",
         "group": "irregular",
         "auxiliary": "sein"
@@ -930,7 +930,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "arrived",
+        "v2": "kam an",
         "v3": "angekommen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -952,7 +952,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "left",
+        "v2": "verließ",
         "v3": "verlassen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -974,7 +974,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "moved",
+        "v2": "zog um",
         "v3": "umgezogen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -997,7 +997,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "returned",
+        "v2": "kehrte zurück",
         "v3": "zurückgekehrt",
         "group": "en",
         "auxiliary": "haben"
@@ -1019,7 +1019,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "traveled",
+        "v2": "reiste",
         "v3": "gereist",
         "group": "en",
         "auxiliary": "haben"
@@ -1044,7 +1044,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "ate",
+        "v2": "aß",
         "v3": "gegessen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1069,7 +1069,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drank",
+        "v2": "trank",
         "v3": "getrunken",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1094,7 +1094,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "slept",
+        "v2": "schlief",
         "v3": "geschlafen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1116,7 +1116,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cooked",
+        "v2": "kochte",
         "v3": "gekocht",
         "group": "en",
         "auxiliary": "haben"
@@ -1138,7 +1138,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cleaned",
+        "v2": "reinigte",
         "v3": "gereinigt",
         "group": "en",
         "auxiliary": "haben"
@@ -1161,7 +1161,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "wore",
+        "v2": "trug",
         "v3": "getragen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1184,7 +1184,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": null,
+        "v2": "wusch",
         "v3": "gewaschen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1209,7 +1209,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "bought",
+        "v2": "kaufte",
         "v3": "gekauft",
         "group": "en",
         "auxiliary": "haben"
@@ -1231,7 +1231,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "paid",
+        "v2": "bezahlte",
         "v3": "bezahlt",
         "group": "en",
         "auxiliary": "haben"
@@ -1253,7 +1253,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "spent",
+        "v2": "gab aus",
         "v3": "ausgegeben",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1277,7 +1277,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "saved",
+        "v2": "sparte",
         "v3": "gespart",
         "group": "en",
         "auxiliary": "haben"
@@ -1299,8 +1299,8 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "worked",
-        "v3": "gearbeitet",
+        "v2": "arbeitete",
+        "v3": "gearbeitete",
         "group": "en",
         "auxiliary": "haben"
     },
@@ -1324,7 +1324,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "lived",
+        "v2": "lebte",
         "v3": "gelebt",
         "group": "en",
         "auxiliary": "haben"
@@ -1347,7 +1347,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "thought",
+        "v2": "dachte",
         "v3": "gedacht",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1371,7 +1371,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "knew",
+        "v2": "wusste",
         "v3": "gewusst",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1395,7 +1395,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "wanted",
+        "v2": "wollte",
         "v3": "gewollt",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1419,7 +1419,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "needed",
+        "v2": "brauchte",
         "v3": "gebraucht",
         "group": "en",
         "auxiliary": "haben"
@@ -1443,7 +1443,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "liked",
+        "v2": "mochte",
         "v3": "gemocht",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1466,7 +1466,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "loved",
+        "v2": "liebte",
         "v3": "geliebt",
         "group": "en",
         "auxiliary": "haben"
@@ -1489,7 +1489,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "hated",
+        "v2": "hasste",
         "v3": "gehasst",
         "group": "en",
         "auxiliary": "haben"
@@ -1512,7 +1512,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "hoped",
+        "v2": "hoffte",
         "v3": "gehofft",
         "group": "en",
         "auxiliary": "haben"
@@ -1535,7 +1535,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "remembered",
+        "v2": "erinnerte",
         "v3": "erinnert",
         "group": "rn",
         "auxiliary": "haben"
@@ -1558,7 +1558,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "forgot",
+        "v2": "vergaß",
         "v3": "vergessen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1581,7 +1581,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "understood",
+        "v2": "verstand",
         "v3": "verstanden",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1604,7 +1604,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "decided",
+        "v2": "entschied",
         "v3": "entschieden",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1626,7 +1626,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "enjoyed",
+        "v2": "genoss",
         "v3": "genossen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1649,7 +1649,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "saw",
+        "v2": "sah",
         "v3": "gesehen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1672,7 +1672,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "v2": "heard",
+        "v2": "hörte",
         "v3": "gehört",
         "group": "en",
         "auxiliary": "haben"
@@ -1696,7 +1696,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "woke up",
+        "v2": "wachte auf",
         "v3": "aufgewacht",
         "group": "irregular",
         "auxiliary": "sein"
@@ -1718,7 +1718,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "watched",
+        "v2": "schaute",
         "v3": "geschaut",
         "group": "en",
         "auxiliary": "haben"
@@ -1741,7 +1741,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "looked",
+        "v2": "sah",
         "v3": "gesehen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1763,7 +1763,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "played",
+        "v2": "spielte",
         "v3": "gespielt",
         "group": "en",
         "auxiliary": "haben"
@@ -1786,7 +1786,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "ran",
+        "v2": "rannte",
         "v3": "gerannt",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1810,7 +1810,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sat",
+        "v2": "saß",
         "v3": "gesessen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1834,7 +1834,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "stood",
+        "v2": "stand",
         "v3": "gestanden",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1855,7 +1855,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "met",
+        "v2": "traf",
         "v3": "getroffen",
         "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
         "group": "irregular",
@@ -1878,7 +1878,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "learned / learnt",
+        "v2": "lernte",
         "v3": "gelernt",
         "group": "en",
         "auxiliary": "haben"
@@ -1900,7 +1900,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "changed",
+        "v2": "änderte",
         "v3": "geändert",
         "group": "rn",
         "auxiliary": "haben"
@@ -1922,7 +1922,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "stopped",
+        "v2": "stoppte",
         "v3": "gestoppt",
         "group": "en",
         "auxiliary": "haben"
@@ -1945,7 +1945,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "added",
+        "v2": "fügte hinzu",
         "v3": "hinzugefügt",
         "group": "en",
         "auxiliary": "haben"
@@ -1969,7 +1969,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "won",
+        "v2": "gewann",
         "v3": "gewonnen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -1991,7 +1991,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "waited",
+        "v2": "wartete",
         "v3": "gewartet",
         "group": "en",
         "auxiliary": "haben"
@@ -2015,7 +2015,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "died",
+        "v2": "starb",
         "v3": "gestorben",
         "group": "irregular",
         "auxiliary": "haben"
@@ -2036,7 +2036,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "sent",
+        "v2": "sandte",
         "v3": "gesendet",
         "subtext": "send an email / send a message / send a report / send a file",
         "group": "en",
@@ -2060,7 +2060,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "stayed",
+        "v2": "blieb",
         "v3": "geblieben",
         "group": "irregular",
         "auxiliary": "sein"
@@ -2083,7 +2083,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "fell",
+        "v2": "fiel",
         "v3": "gefallen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -2106,7 +2106,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "passed",
+        "v2": "bestand",
         "v3": "bestanden",
         "group": "irregular",
         "auxiliary": "haben"
@@ -2130,7 +2130,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "sold",
+        "v2": "verkaufte",
         "v3": "verkauft",
         "group": "en",
         "auxiliary": "haben"
@@ -2154,7 +2154,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "pulled",
+        "v2": "zog",
         "v3": "gezogen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -2179,7 +2179,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "pushed",
+        "v2": "gedrückte",
         "v3": "gedrückt",
         "group": "en",
         "auxiliary": "haben"
@@ -2201,7 +2201,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "carried",
+        "v2": "trug",
         "v3": "getragen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -2224,7 +2224,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "broke",
+        "v2": "brach",
         "v3": "gebrochen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -2247,7 +2247,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "received",
+        "v2": "empfing",
         "v3": "empfangen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -2270,7 +2270,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "agreed",
+        "v2": "stimmte zu",
         "v3": "zugestimmt",
         "group": "en",
         "auxiliary": "haben"
@@ -2293,7 +2293,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "drew",
+        "v2": "zeichnete",
         "v3": "gezeichnet",
         "group": "en",
         "auxiliary": "haben"
@@ -2316,7 +2316,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "shared",
+        "v2": "teilte",
         "v3": "geteilt",
         "group": "en",
         "auxiliary": "haben"
@@ -2341,7 +2341,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "smiled",
+        "v2": "lächelte",
         "v3": "gelächelt",
         "group": "ln",
         "auxiliary": "haben"
@@ -2366,7 +2366,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cried",
+        "v2": "weinte",
         "v3": "geweint",
         "group": "en",
         "auxiliary": "haben"
@@ -2389,7 +2389,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "danced",
+        "v2": "tanzte",
         "v3": "getanzt",
         "group": "en",
         "auxiliary": "haben"
@@ -2435,7 +2435,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "jumped",
+        "v2": "sprang",
         "v3": "gesprungen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -2458,7 +2458,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "swam",
+        "v2": "schwamm",
         "v3": "geschwommen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -2480,7 +2480,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "studied",
+        "v2": "studierte",
         "v3": "studiert",
         "group": "en",
         "auxiliary": "haben"
@@ -2502,7 +2502,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "taught",
+        "v2": "lehrte",
         "v3": "gelehrt",
         "group": "en",
         "auxiliary": "haben"
@@ -2524,7 +2524,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "commuted",
+        "v2": "pendelte",
         "v3": "gependelt",
         "group": "ln",
         "auxiliary": "haben"
@@ -2546,7 +2546,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "rented",
+        "v2": "mietete",
         "v3": "gemietet",
         "group": "en",
         "auxiliary": "haben"
@@ -2567,7 +2567,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "exercised",
+        "v2": "trainierte",
         "v3": "trainiert",
         "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
         "group": "en",
@@ -2589,9 +2589,8 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "cost",
+        "v2": "kostete",
         "v3": "gekostet",
-        "subtext": "cost a lot / cost money / cost too much / cost less",
         "group": "en",
         "auxiliary": "haben"
     },
@@ -2611,9 +2610,8 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "invited",
+        "v2": "lud ein",
         "v3": "eingeladen",
-        "subtext": "invite someone / invite to dinner / invite to a party",
         "group": "irregular",
         "auxiliary": "haben"
     },
@@ -2630,7 +2628,7 @@
         "subtext": "get up early / get up late / get up quickly",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "got up",
+        "v2": "stand auf",
         "v3": "aufgestanden",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
@@ -2652,7 +2650,7 @@
         "subtext": "have breakfast at home / have a quick breakfast / skip breakfast",
         "classification": "regular",
         "aspect": "action",
-        "v2": "had breakfast",
+        "v2": "frühstückte",
         "v3": "gefrühstückt",
         "theme": "daily_work_routines_A1",
         "emoji": "🍳",
@@ -2674,7 +2672,7 @@
         "subtext": "come back home / come back late / come back from a trip",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "came back",
+        "v2": "kam zurück",
         "v3": "zurückgekommen",
         "theme": "daily_work_routines_A1",
         "emoji": "🔙",
@@ -2696,7 +2694,7 @@
         "subtext": "go to bed early / go to bed late / go to bed tired",
         "classification": "irregular",
         "aspect": "action",
-        "v2": null,
+        "v2": "ging ins Bett",
         "v3": "ins Bett gegangen",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
@@ -2718,7 +2716,7 @@
         "subtext": "check emails / check messages / check a document / check the time",
         "classification": "regular",
         "aspect": "action",
-        "v2": "checked",
+        "v2": "prüfte",
         "v3": "geprüft",
         "theme": "workplace_basics_A1",
         "emoji": "✅",
@@ -2740,7 +2738,7 @@
         "subtext": "reply to an email / reply quickly / reply to a message",
         "classification": "regular",
         "aspect": "action",
-        "v2": "replied",
+        "v2": "antwortete",
         "v3": "geantwortet",
         "theme": "workplace_basics_A1",
         "emoji": "↩️",
@@ -2762,7 +2760,7 @@
         "subtext": "present a report / present ideas / present to a client",
         "classification": "regular",
         "aspect": "action",
-        "v2": "presented",
+        "v2": "präsentierte",
         "v3": "präsentiert",
         "theme": "workplace_basics_A1",
         "emoji": "📊",
@@ -2784,7 +2782,7 @@
         "subtext": "attend a meeting / attend a course / attend an event",
         "classification": "regular",
         "aspect": "action",
-        "v2": "attended",
+        "v2": "besuchte",
         "v3": "besucht",
         "theme": "workplace_basics_A1",
         "emoji": "📅",
@@ -2806,7 +2804,7 @@
         "subtext": "manage a team / manage a project / manage time / manage stress",
         "classification": "regular",
         "aspect": "action",
-        "v2": "managed",
+        "v2": "leitete",
         "v3": "geleitet",
         "theme": "workplace_basics_A1",
         "emoji": "👤",
@@ -2828,7 +2826,7 @@
         "subtext": "charge a fee / charge for a service / charge extra",
         "classification": "regular",
         "aspect": "action",
-        "v2": "charged",
+        "v2": "berechnete",
         "v3": "berechnet",
         "theme": "money_payment_A1",
         "emoji": "💳",
@@ -2850,7 +2848,7 @@
         "subtext": "afford a house / afford to travel / afford something",
         "classification": "regular",
         "aspect": "stative",
-        "v2": "afforded",
+        "v2": "leistete",
         "v3": "geleistet",
         "theme": "money_payment_A1",
         "emoji": "🏦",
@@ -2872,7 +2870,7 @@
         "subtext": "owe money / owe someone / owe a lot / owe nothing",
         "classification": "regular",
         "aspect": "stative",
-        "v2": "owed",
+        "v2": "schuldete",
         "v3": "geschuldet",
         "theme": "money_payment_A1",
         "emoji": "💸",
@@ -2894,7 +2892,7 @@
         "subtext": "earn a salary / earn money / earn more / earn enough",
         "classification": "regular",
         "aspect": "action",
-        "v2": "earned",
+        "v2": "verdiente",
         "v3": "verdient",
         "theme": "money_payment_A1",
         "emoji": "💶",
@@ -2916,7 +2914,7 @@
         "subtext": "visit family / visit a friend / visit a city / visit regularly",
         "classification": "regular",
         "aspect": "action",
-        "v2": "visited",
+        "v2": "besuchte",
         "v3": "besucht",
         "theme": "family_life_A1",
         "emoji": "🏘️",
@@ -2938,7 +2936,7 @@
         "subtext": "celebrate a birthday / celebrate success / celebrate together",
         "classification": "regular",
         "aspect": "action",
-        "v2": "celebrated",
+        "v2": "feierte",
         "v3": "gefeiert",
         "theme": "leisure_activities_A1",
         "emoji": "🎉",
@@ -2960,7 +2958,7 @@
         "subtext": "recommend a place / recommend someone / recommend a film",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "recommended",
+        "v2": "empfahl",
         "v3": "empfohlen",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
@@ -2982,7 +2980,7 @@
         "subtext": "hurt your back / hurt someone / hurt yourself / it hurts",
         "classification": "irregular",
         "aspect": "both",
-        "v2": "hurt",
+        "v2": "tat weh",
         "v3": "weh getan",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
@@ -3004,7 +3002,7 @@
         "subtext": "rest at home / rest after work / need rest / get some rest",
         "classification": "regular",
         "aspect": "action",
-        "v2": "rested",
+        "v2": "ruhte",
         "v3": "geruht",
         "theme": "daily_work_routines_A1",
         "emoji": "🛋️",
@@ -3026,7 +3024,7 @@
         "subtext": "recover from illness / recover quickly / recover fully",
         "classification": "regular",
         "aspect": "action",
-        "v2": "recovered",
+        "v2": "erholte",
         "v3": "erholt",
         "theme": "medical_appointments_A1",
         "emoji": "🩹",
@@ -3048,7 +3046,7 @@
         "subtext": "book a hotel / book a flight / book a table / book in advance",
         "classification": "regular",
         "aspect": "action",
-        "v2": "booked",
+        "v2": "buchte",
         "v3": "gebucht",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "📖",
@@ -3070,7 +3068,7 @@
         "subtext": "pack a bag / pack a suitcase / pack lightly",
         "classification": "regular",
         "aspect": "action",
-        "v2": "packed",
+        "v2": "packte",
         "v3": "gepackt",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎒",
@@ -3092,7 +3090,7 @@
         "subtext": "cancel a flight / cancel a booking / cancel a meeting",
         "classification": "regular",
         "aspect": "action",
-        "v2": "cancelled",
+        "v2": "stornierte",
         "v3": "storniert",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "❌",
@@ -3114,7 +3112,7 @@
         "subtext": "miss a train / miss a flight / miss someone / miss work",
         "classification": "regular",
         "aspect": "both",
-        "v2": "missed",
+        "v2": "verpasste",
         "v3": "verpasst",
         "theme": "public_transport_A1",
         "emoji": "🏃‍♂️",
@@ -3140,7 +3138,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "ordered",
+        "v2": "bestellte",
         "v3": "bestellt",
         "group": "en",
         "auxiliary": "haben"
@@ -3162,7 +3160,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "explained",
+        "v2": "erklärte",
         "v3": "erklärt",
         "group": "en",
         "auxiliary": "haben"
@@ -3184,7 +3182,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "thanked",
+        "v2": "dankte",
         "v3": "gedankt",
         "group": "en",
         "auxiliary": "haben"
@@ -3206,7 +3204,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "introduced",
+        "v2": "stellte vor",
         "v3": "vorgestellt",
         "group": "en",
         "auxiliary": "haben"
@@ -3228,7 +3226,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "relaxed",
+        "v2": "entspannte",
         "v3": "entspannt",
         "group": "en",
         "auxiliary": "haben"
@@ -3250,7 +3248,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "repaired",
+        "v2": "reparierte",
         "v3": "repariert",
         "group": "en",
         "auxiliary": "haben"
@@ -3272,7 +3270,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "happened",
+        "v2": "passierte",
         "v3": "passiert",
         "group": "en",
         "auxiliary": "sein"
@@ -3294,7 +3292,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "seemed",
+        "v2": "schien",
         "v3": "geschienen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -3316,7 +3314,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "meant",
+        "v2": "bedeutete",
         "v3": "bedeutet",
         "group": "en",
         "auxiliary": "haben"
@@ -3338,7 +3336,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "followed",
+        "v2": "folgte",
         "v3": "gefolgt",
         "group": "en",
         "auxiliary": "haben"
@@ -3360,7 +3358,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "continued",
+        "v2": "fortgesetzt",
         "v3": "fortgesetzt",
         "group": "irregular",
         "auxiliary": "haben"
@@ -3382,7 +3380,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "grew",
+        "v2": "wuchs",
         "v3": "gewachsen",
         "group": "irregular",
         "auxiliary": "haben"
@@ -3404,7 +3402,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "included",
+        "v2": "beinhaltete",
         "v3": "beinhaltet",
         "group": "en",
         "auxiliary": "haben"
@@ -3426,7 +3424,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "became",
+        "v2": "wurde",
         "v3": "geworden",
         "group": "irregular",
         "auxiliary": "sein"
@@ -3448,7 +3446,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "belonged",
+        "v2": "gehörte",
         "v3": "gehört",
         "group": "en",
         "auxiliary": "haben"
@@ -3470,7 +3468,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "chose",
+        "v2": "wählte",
         "v3": "gewählt",
         "group": "en",
         "auxiliary": "haben"
@@ -3492,7 +3490,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "built",
+        "v2": "baute",
         "v3": "gebaut",
         "group": "en",
         "auxiliary": "haben"
@@ -3503,5 +3501,4 @@
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
 })();

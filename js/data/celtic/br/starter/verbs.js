@@ -28,7 +28,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "have a job / have lunch / have a problem / have time",
+        "subtext": "kaout ul labour / merenniñ / kaout ur gudenn / kaout amzer",
         "form": "verb",
         "definitions": [
             {
@@ -41,7 +41,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "had",
+        "v2": "en devoe",
         "v3": "bet",
         "group": "irregular"
     },
@@ -50,7 +50,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
-        "subtext": "feel tired / feel better / feel ill / feel stressed",
+        "subtext": "en em santiñ skuizh / en em santiñ gwelloc'h / en em santiñ klañv",
         "form": "verb",
         "definitions": [
             {
@@ -62,7 +62,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "felt",
+        "v2": "santas",
         "v3": "santet",
         "group": "irregular"
     },
@@ -71,7 +71,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
-        "subtext": "give advice / give money / give a present / give information",
+        "subtext": "reiñ kuzul / reiñ arc'hant / reiñ ur proad / reiñ titouroù",
         "opposite": "take",
         "oppositeEmoji": "👜",
         "form": "verb",
@@ -85,7 +85,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "gave",
+        "v2": "roas",
         "v3": "roet",
         "group": "irregular"
     },
@@ -94,7 +94,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
-        "subtext": "take the bus / take medicine / take a break / take time",
+        "subtext": "kemer ar c'harr-boutin / kemer louzoù / kemer un ehan",
         "opposite": "give",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -108,7 +108,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "took",
+        "v2": "kemeras",
         "v3": "kemeret",
         "group": "irregular"
     },
@@ -117,7 +117,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "get a job / get tired / get better / get home",
+        "subtext": "kaout ul labour / bezañ skuizh / gwellat / mont d'ar gêr",
         "form": "verb",
         "definitions": [
             {
@@ -129,7 +129,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "got",
+        "v2": "en devoe",
         "v3": "bet",
         "group": "irregular"
     },
@@ -138,7 +138,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
-        "subtext": "put on / put away / put the phone down / put money aside",
+        "subtext": "lakaat / lakaat a-gostez / lakaat arc'hant a-gostez",
         "form": "verb",
         "definitions": [
             {
@@ -150,7 +150,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "put",
+        "v2": "lakas",
         "v3": "lakaet",
         "group": "irregular"
     },
@@ -159,7 +159,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "make coffee / make a decision / make a mistake / make money",
+        "subtext": "ober kafe / kemer un diviz / ober ur fazi / gounit arc'hant",
         "form": "verb",
         "definitions": [
             {
@@ -171,7 +171,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "made",
+        "v2": "reas",
         "v3": "graet",
         "group": "irregular"
     },
@@ -180,7 +180,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
-        "subtext": "do work / do the shopping / do exercise / do nothing",
+        "subtext": "ober e labour / ober ar gwerzh / ober sport / ober netra",
         "form": "verb",
         "definitions": [
             {
@@ -192,7 +192,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": null,
+        "v2": "reas",
         "v3": "graet",
         "group": "irregular"
     },
@@ -201,7 +201,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
-        "subtext": "use a phone / use public transport / use a computer / use time",
+        "subtext": "implijout ur pellgomz / implijout an treuzdougen / implijout un urzhiataer",
         "form": "verb",
         "definitions": [
             {
@@ -213,7 +213,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "used",
+        "v2": "implijas",
         "v3": "implijet",
         "group": "regular"
     },
@@ -222,7 +222,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
-        "subtext": "open a door / open an account / open a shop / open at nine",
+        "subtext": "digeriñ un nor / digeriñ ur gont / digeriñ ur stal",
         "opposite": "close",
         "oppositeEmoji": "🔒",
         "form": "verb",
@@ -236,7 +236,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "opened",
+        "v2": "digoras",
         "v3": "digoret",
         "group": "iñ"
     },
@@ -245,7 +245,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
-        "subtext": "close a door / close at six / close an account / close the meeting",
+        "subtext": "serriñ un nor / serriñ da c'hwec'h eur / serriñ ur gont",
         "opposite": "open",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -259,7 +259,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "closed",
+        "v2": "serras",
         "v3": "serret",
         "group": "iñ"
     },
@@ -268,7 +268,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "start work / start a meeting / start a new job",
+        "subtext": "kregiñ gant al labour / kregiñ gant an emvod / kregiñ gant ul labour nevez",
         "opposite": "finish",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -282,7 +282,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "started",
+        "v2": "krogas",
         "v3": "kroget",
         "group": "iñ"
     },
@@ -291,7 +291,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finish work / finish a project / finish early / finish late",
+        "subtext": "echuiñ gant al labour / echuiñ ur raktres / echuiñ abred",
         "opposite": "start",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -305,7 +305,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "finished",
+        "v2": "echuas",
         "v3": "echuet",
         "group": "iñ"
     },
@@ -314,7 +314,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "help someone / help with a task / help out / ask for help",
+        "subtext": "sikour unan bennak / sikour gant ul labour / goulenn sikour",
         "form": "verb",
         "definitions": [
             {
@@ -326,7 +326,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "helped",
+        "v2": "sikouras",
         "v3": "sikouret",
         "group": "regular"
     },
@@ -335,7 +335,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "try to do / try hard / try something new / give it a try",
+        "subtext": "klask ober / klask kalet / klask un dra nevez",
         "form": "verb",
         "definitions": [
             {
@@ -347,7 +347,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "tried",
+        "v2": "klaskas",
         "v3": "klasket",
         "group": "regular"
     },
@@ -356,7 +356,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
-        "subtext": "show someone how / show a document / show interest",
+        "subtext": "diskouez da unan bennak / diskouez un teul / diskouez dedenn",
         "form": "verb",
         "definitions": [
             {
@@ -368,7 +368,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "showed",
+        "v2": "diskouezas",
         "v3": "diskouezet",
         "group": "irregular"
     },
@@ -377,7 +377,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
-        "subtext": "find a job / find out / find it difficult / find time",
+        "subtext": "kavout ul labour / kavout amzer / kavout diaes",
         "form": "verb",
         "definitions": [
             {
@@ -389,7 +389,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "found",
+        "v2": "kavas",
         "v3": "kavet",
         "group": "irregular"
     },
@@ -398,7 +398,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "keep going / keep quiet / keep a record / keep in touch",
+        "subtext": "kenderc'hel / chom sioul / chom e darempred",
         "form": "verb",
         "definitions": [
             {
@@ -410,7 +410,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "kept",
+        "v2": "dalc'has",
         "v3": "dalc'het",
         "group": "irregular"
     },
@@ -419,7 +419,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
-        "subtext": "lose a job / lose money / lose weight / lose time",
+        "subtext": "koll ul labour / koll arc'hant / koll pouez",
         "opposite": "win",
         "oppositeEmoji": "🏆",
         "form": "verb",
@@ -433,7 +433,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "lost",
+        "v2": "hollas",
         "v3": "kollet",
         "group": "irregular"
     },
@@ -442,7 +442,7 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
-        "subtext": "cut costs / cut spending / cut short / cut in half",
+        "subtext": "trochañ mizoù / trochañ e div",
         "form": "verb",
         "definitions": [
             {
@@ -454,7 +454,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "cut",
+        "v2": "troc'has",
         "v3": "troc'het",
         "group": "irregular"
     },
@@ -463,7 +463,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "turn on / turn off / turn left / turn right",
+        "subtext": "enaouiñ / lazhañ / treiñ a-gleiz / treiñ a-zehou",
         "form": "verb",
         "definitions": [
             {
@@ -475,7 +475,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "turned",
+        "v2": "troas",
         "v3": "troet",
         "group": "iñ"
     },
@@ -484,7 +484,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
-        "subtext": "bring someone / bring food / bring a document / bring up",
+        "subtext": "degas unan bennak / degas boued",
         "form": "verb",
         "definitions": [
             {
@@ -496,7 +496,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "brought",
+        "v2": "degasas",
         "v3": "degaset",
         "group": "irregular"
     },
@@ -505,7 +505,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
-        "subtext": "say hello / say yes / say no / say something",
+        "subtext": "lavarout demat / lavarout ya / lavarout nann / lavarout un dra bennak",
         "form": "verb",
         "definitions": [
             {
@@ -517,7 +517,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "said",
+        "v2": "lavaras",
         "v3": "lavaret",
         "group": "irregular"
     },
@@ -526,7 +526,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
-        "subtext": "tell the truth / tell someone / tell a story / tell someone about",
+        "subtext": "kontañ ar wirionez / kontañ da unan bennak / kontañ un istor",
         "form": "verb",
         "definitions": [
             {
@@ -538,7 +538,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "told",
+        "v2": "kontas",
         "v3": "kontet",
         "group": "irregular"
     },
@@ -547,7 +547,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "ask a question / ask for help / ask about / ask someone",
+        "subtext": "goulenn ur goulenn / goulenn sikour / goulenn diwar-benn",
         "form": "verb",
         "definitions": [
             {
@@ -559,7 +559,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "asked",
+        "v2": "goulenne",
         "v3": "goulennet",
         "group": "regular"
     },
@@ -568,7 +568,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
+        "subtext": "komz ouzh unan bennak / komz saozneg / komz sklaer",
         "form": "verb",
         "definitions": [
             {
@@ -580,7 +580,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "spoke",
+        "v2": "komzas",
         "v3": "komzet",
         "group": "irregular"
     },
@@ -589,7 +589,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "talk to someone / talk about / talk openly / talk for a long time",
+        "subtext": "komz ouzh unan bennak / komz diwar-benn / komz sklaer",
         "form": "verb",
         "definitions": [
             {
@@ -601,16 +601,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "talked",
+        "v2": "kaozeas",
         "v3": "kaozeet",
         "group": "al"
     },
     {
         "word": "gervel",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
-        "subtext": "call someone / call back / call a meeting / call in sick",
+        "subtext": "gervel unan bennak / gervel en-dro",
         "form": "verb",
         "definitions": [
             {
@@ -622,7 +622,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "called",
+        "v2": "galvas",
         "v3": "galvet",
         "group": "el"
     },
@@ -631,7 +631,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
-        "subtext": "write an email / write a report / write a letter / write notes",
+        "subtext": "skrivañ ur postel / skrivañ un danevell / skrivañ ul lizher",
         "opposite": "read",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -645,7 +645,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "wrote",
+        "v2": "skrivas",
         "v3": "skrivet",
         "group": "irregular"
     },
@@ -654,7 +654,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "read a book / read the news / read a contract / read carefully",
+        "subtext": "lenn ul levr / lenn ar c'heleier / lenn ur gevrat",
         "opposite": "write",
         "oppositeEmoji": "✍️",
         "form": "verb",
@@ -668,7 +668,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "read",
+        "v2": "lennas",
         "v3": "lennet",
         "group": "irregular"
     },
@@ -677,7 +677,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
-        "subtext": "listen to music / listen carefully / listen to a podcast",
+        "subtext": "selaou ouzh sonerezh / selaou gant evezh",
         "form": "verb",
         "definitions": [
             {
@@ -689,7 +689,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "listened",
+        "v2": "selaouas",
         "v3": "selaouet",
         "group": "regular"
     },
@@ -698,7 +698,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
-        "subtext": "answer a question / answer the phone / answer an email",
+        "subtext": "respont d'ur goulenn / respont d'ar pellgomz",
         "form": "verb",
         "definitions": [
             {
@@ -710,7 +710,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "answered",
+        "v2": "respontas",
         "v3": "respontet",
         "group": "regular"
     },
@@ -719,7 +719,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
-        "subtext": "repeat that / repeat yourself / repeat an order",
+        "subtext": "adzilavarout an dra-se / adober un urzh",
         "form": "verb",
         "definitions": [
             {
@@ -731,7 +731,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "repeated",
+        "v2": "adlavaras",
         "v3": "adlavaret",
         "group": "regular"
     },
@@ -740,7 +740,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "go to work / go home / go out / go shopping",
+        "subtext": "mont d'al labour / mont d'ar gêr / mont er-maez / mont da brenañ",
         "form": "verb",
         "definitions": [
             {
@@ -761,7 +761,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "come home / come to work / come back / come here",
+        "subtext": "dont d'ar gêr / dont d'al labour / dont en-dro / dont amañ",
         "opposite": "go",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -775,7 +775,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "came",
+        "v2": "deuas",
         "v3": "deut",
         "group": "irregular"
     },
@@ -784,7 +784,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
-        "subtext": "walk to work / walk home / walk slowly / walk every day",
+        "subtext": "mont d'al labour war droad / mont d'ar gêr war droad",
         "form": "verb",
         "definitions": [
             {
@@ -796,7 +796,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "walked",
+        "v2": "baleas",
         "v3": "balet",
         "group": "regular"
     },
@@ -805,7 +805,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "subtext": "drive to work / drive a car / drive home / drive carefully",
+        "subtext": "mont d'al labour gant ar c'harr / bleniañ ur c'harr",
         "form": "verb",
         "definitions": [
             {
@@ -817,7 +817,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drove",
+        "v2": "blenias",
         "v3": "bleniet",
         "group": "irregular"
     },
@@ -826,7 +826,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
-        "subtext": "fly to a city / fly business class / fly economy",
+        "subtext": "nijout d'ur gêr / nijout e kentañ klas",
         "form": "verb",
         "definitions": [
             {
@@ -838,7 +838,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "flew",
+        "v2": "nijas",
         "v3": "nijet",
         "group": "irregular"
     },
@@ -847,7 +847,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "subtext": "erruout d'al labour / erruout diwezhat",
         "form": "verb",
         "definitions": [
             {
@@ -859,7 +859,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "arrived",
+        "v2": "degouezhas",
         "v3": "degouezhet",
         "group": "regular"
     },
@@ -868,7 +868,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "leave home / leave work / leave early / leave late",
+        "subtext": "kuitaat ar gêr / kuitaat al labour / kuitaat abred",
         "form": "verb",
         "definitions": [
             {
@@ -880,7 +880,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "left",
+        "v2": "kuitaas",
         "v3": "kuitaet",
         "group": "irregular"
     },
@@ -889,7 +889,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "move to a new place / move in / move out / move house",
+        "subtext": "dilojiñ / mont da chom d'ul lec'h nevez",
         "form": "verb",
         "definitions": [
             {
@@ -901,7 +901,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "moved",
+        "v2": "dilec'hias",
         "v3": "dilec'hiet",
         "group": "añ"
     },
@@ -910,7 +910,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
-        "subtext": "return home / return to work / return a call / return from",
+        "subtext": "distreiñ d'ar gêr / distreiñ d'al labour",
         "form": "verb",
         "definitions": [
             {
@@ -922,7 +922,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "returned",
+        "v2": "distroas",
         "v3": "distroet",
         "group": "iñ"
     },
@@ -931,7 +931,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
-        "subtext": "travel for work / travel abroad / travel by train",
+        "subtext": "beajiñ evit al labour / beajiñ d'an estrenvro",
         "form": "verb",
         "definitions": [
             {
@@ -943,7 +943,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "traveled",
+        "v2": "beajas",
         "v3": "beajet",
         "group": "iñ"
     },
@@ -952,7 +952,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
-        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
+        "subtext": "debriñ lein / debriñ merenn / debriñ koan / debriñ er-maez",
         "opposite": "drink",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -966,7 +966,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "ate",
+        "v2": "debras",
         "v3": "debret",
         "group": "irregular"
     },
@@ -975,7 +975,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
-        "subtext": "drink coffee / drink tea / drink water / drink beer",
+        "subtext": "evañ kafe / evañ te / evañ dour / evañ bier",
         "opposite": "eat",
         "oppositeEmoji": "🍎",
         "form": "verb",
@@ -989,7 +989,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drank",
+        "v2": "evas",
         "v3": "evet",
         "group": "irregular"
     },
@@ -998,7 +998,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
-        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
+        "subtext": "kousket mat / kousket fall / kousket kalz",
         "opposite": "wake up",
         "oppositeEmoji": "⏰",
         "form": "verb",
@@ -1012,7 +1012,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "slept",
+        "v2": "kouskas",
         "v3": "kousket",
         "group": "irregular"
     },
@@ -1021,7 +1021,7 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
-        "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
+        "subtext": "aozañ koan / aozañ ur meuz",
         "form": "verb",
         "definitions": [
             {
@@ -1033,7 +1033,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cooked",
+        "v2": "poazhas",
         "v3": "poazhet",
         "group": "añ"
     },
@@ -1042,7 +1042,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
-        "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
+        "subtext": "naetaat an ranndi / naetaat ar gegin",
         "form": "verb",
         "definitions": [
             {
@@ -1054,7 +1054,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cleaned",
+        "v2": "naetaas",
         "v3": "naetaet",
         "group": "regular"
     },
@@ -1063,7 +1063,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "subtext": "wear a suit / wear glasses / wear casual clothes",
+        "subtext": "dougen un dilhad / dougen lunedoù",
         "form": "verb",
         "definitions": [
             {
@@ -1075,7 +1075,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "wore",
+        "v2": "dougas",
         "v3": "douget",
         "group": "irregular"
     },
@@ -1084,7 +1084,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
-        "subtext": "wash the dishes / wash clothes / wash your hands",
+        "subtext": "walc'hiñ al listri / walc'hiñ an daouarn",
         "form": "verb",
         "definitions": [
             {
@@ -1096,7 +1096,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": null,
+        "v2": "walc'has",
         "v3": "walc'het",
         "group": "iñ"
     },
@@ -1105,7 +1105,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
-        "subtext": "buy food / buy a ticket / buy online / buy a house",
+        "subtext": "prenañ boued / prenañ un tikeդ / prenañ enlinenn",
         "opposite": "sell",
         "oppositeEmoji": "🏷️",
         "form": "verb",
@@ -1119,7 +1119,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "bought",
+        "v2": "prenas",
         "v3": "prenet",
         "group": "irregular"
     },
@@ -1128,7 +1128,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+        "subtext": "paeañ ur fakturenn / paeañ ar feurm",
         "form": "verb",
         "definitions": [
             {
@@ -1140,7 +1140,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "paid",
+        "v2": "paeas",
         "v3": "paeet",
         "group": "irregular"
     },
@@ -1149,7 +1149,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
-        "subtext": "spend money / spend on food / spend on rent / spend time",
+        "subtext": "dispend arc'hant / dispend amzer",
         "form": "verb",
         "definitions": [
             {
@@ -1161,7 +1161,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "spent",
+        "v2": "dispendas",
         "v3": "dispendet",
         "group": "irregular"
     },
@@ -1170,7 +1170,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
-        "subtext": "save money / save for a holiday / save for a house",
+        "subtext": "espern arc'hant / espern evit ar vakañsoù",
         "opposite": "spend",
         "oppositeEmoji": "💸",
         "form": "verb",
@@ -1184,7 +1184,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "saved",
+        "v2": "espernas",
         "v3": "espernet",
         "group": "regular"
     },
@@ -1193,7 +1193,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
-        "subtext": "work from home / work full-time / work hard / work late",
+        "subtext": "labourat er gêr / labourat leun-amzer / labourat kalet",
         "form": "verb",
         "definitions": [
             {
@@ -1205,7 +1205,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "worked",
+        "v2": "labouras",
         "v3": "labouret",
         "group": "regular"
     },
@@ -1214,7 +1214,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
-        "subtext": "live in a flat / live alone / live with someone / live abroad",
+        "subtext": "bevañ en un ranndi / bevañ e-unan / bevañ d'an estrenvro",
         "opposite": "die",
         "oppositeEmoji": "⚰️",
         "form": "verb",
@@ -1228,7 +1228,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "lived",
+        "v2": "bevas",
         "v3": "bevet",
         "group": "añ"
     },
@@ -1237,7 +1237,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "think about / think of / think it is / think carefully",
+        "subtext": "soñjal e / soñjal diwar-benn / soñjal gant evezh",
         "form": "verb",
         "definitions": [
             {
@@ -1249,7 +1249,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "thought",
+        "v2": "soñjas",
         "v3": "soñjet",
         "group": "irregular"
     },
@@ -1258,7 +1258,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "know someone / know the answer / know a place / know how to",
+        "subtext": "anavezout unan bennak / gouzout ar respont / anavezout ul lec'h",
         "form": "verb",
         "definitions": [
             {
@@ -1270,7 +1270,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "knew",
+        "v2": "gouezas",
         "v3": "gouezet",
         "group": "irregular"
     },
@@ -1279,7 +1279,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
-        "subtext": "want a job / want to leave / want more money / want help",
+        "subtext": "fellout ul labour / fellout kuitaat / fellout muioc'h a arc'hant",
         "form": "verb",
         "definitions": [
             {
@@ -1291,7 +1291,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "wanted",
+        "v2": "falas",
         "v3": "fallet",
         "group": "regular"
     },
@@ -1300,7 +1300,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
-        "subtext": "need help / need time / need money / need to rest",
+        "subtext": "kaout ezhomm sikour / kaout ezhomm amzer / kaout ezhomm arc'hant",
         "form": "verb",
         "definitions": [
             {
@@ -1312,7 +1312,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "needed",
+        "v2": "ezhommas",
         "v3": "ezhommet",
         "group": "regular"
     },
@@ -1321,7 +1321,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
-        "subtext": "like work / like to travel / like someone / like the idea",
+        "subtext": "karet al labour / karet beajiñ / karet unan bennak / karet ar mennozh",
         "form": "verb",
         "definitions": [
             {
@@ -1333,7 +1333,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "liked",
+        "v2": "karas",
         "v3": "karet",
         "group": "et"
     },
@@ -1342,7 +1342,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
-        "subtext": "love someone / love doing / love a place / love the idea",
+        "subtext": "karet unan bennak / karet ober",
         "form": "verb",
         "definitions": [
             {
@@ -1354,7 +1354,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "loved",
+        "v2": "karas",
         "v3": "karet",
         "group": "regular"
     },
@@ -1363,7 +1363,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
-        "subtext": "hate doing / hate someone / hate meetings / hate commuting",
+        "subtext": "kaout kasoni ouzh / kasoni ober",
         "form": "verb",
         "definitions": [
             {
@@ -1375,7 +1375,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "hated",
+        "v2": "kazas",
         "v3": "kazet",
         "group": "regular"
     },
@@ -1384,7 +1384,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
-        "subtext": "hope for / hope to do / hope that / I hope so",
+        "subtext": "esperout / kaout goanag / spi am eus",
         "form": "verb",
         "definitions": [
             {
@@ -1396,7 +1396,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "hoped",
+        "v2": "esperas",
         "v3": "esperet",
         "group": "regular"
     },
@@ -1405,7 +1405,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "remember to do / remember a name / remember clearly",
+        "subtext": "kaout soñj / kounaat un anv / soñjal sklaer",
         "form": "verb",
         "definitions": [
             {
@@ -1417,7 +1417,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "remembered",
+        "v2": "en devoe soñj",
         "v3": "bet soñj",
         "group": "regular"
     },
@@ -1426,7 +1426,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
-        "subtext": "forget a name / forget to do / forget about / completely forget",
+        "subtext": "ankounac'haat un anv / disoñjal ober",
         "form": "verb",
         "definitions": [
             {
@@ -1438,7 +1438,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "forgot",
+        "v2": "ankounac'haas",
         "v3": "ankounac'haet",
         "group": "irregular"
     },
@@ -1447,7 +1447,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💡",
-        "subtext": "understand a problem / understand someone / understand clearly",
+        "subtext": "kompren ur gudenn / kompren sklaer",
         "form": "verb",
         "definitions": [
             {
@@ -1459,7 +1459,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "understood",
+        "v2": "komprenas",
         "v3": "komprenet",
         "group": "irregular"
     },
@@ -1468,7 +1468,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "decide to do / decide on / make a decision / hard to decide",
+        "subtext": "divizout ober / kemer un diviz",
         "form": "verb",
         "definitions": [
             {
@@ -1480,7 +1480,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "decided",
+        "v2": "divizas",
         "v3": "divizet",
         "group": "regular"
     },
@@ -1489,7 +1489,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
-        "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
+        "subtext": "kemer plijadur oc'h ober / kemer plijadur gant ar vuhez",
         "form": "verb",
         "definitions": [
             {
@@ -1501,7 +1501,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "enjoyed",
+        "v2": "plijas",
         "v3": "plijet",
         "group": "regular"
     },
@@ -1510,7 +1510,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "subtext": "see a doctor / see friends / see the problem / see clearly",
+        "subtext": "gwelet ur mezeg / gwelet mignoned / gwelet sklaer",
         "form": "verb",
         "definitions": [
             {
@@ -1522,7 +1522,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "saw",
+        "v2": "gwelas",
         "v3": "gwelet",
         "group": "irregular"
     },
@@ -1531,7 +1531,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "subtext": "hear news / hear from someone / hear a sound / hear clearly",
+        "subtext": "klevout keleier / klevout unan bennak",
         "form": "verb",
         "definitions": [
             {
@@ -1543,7 +1543,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "heard",
+        "v2": "klevas",
         "v3": "klevet",
         "group": "irregular"
     },
@@ -1553,7 +1553,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
-        "subtext": "wake up early / wake up late / wake up tired",
+        "subtext": "diwennañ abred / diwennañ diwezhat",
         "opposite": "sleep",
         "oppositeEmoji": "😴",
         "definitions": [
@@ -1566,7 +1566,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "woke up",
+        "v2": "dihunas",
         "v3": "dihunet",
         "group": "irregular"
     },
@@ -1576,7 +1576,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
-        "subtext": "watch TV / watch a film / watch the news / watch closely",
+        "subtext": "sellet ouzh an tele / sellet ouzh ur film",
         "definitions": [
             {
                 "text": "Sellet ouzh un dra bennak e-pad un tamm amzer.",
@@ -1587,7 +1587,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "watched",
+        "v2": "sellas",
         "v3": "sellet",
         "group": "et"
     },
@@ -1596,7 +1596,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "look at / look for / look like / look happy",
+        "subtext": "sellet ouzh / klask / bezañ heñvel ouzh",
         "form": "verb",
         "definitions": [
             {
@@ -1608,7 +1608,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "v2": "looked",
+        "v2": "sellas",
         "v3": "sellet",
         "group": "regular"
     },
@@ -1617,7 +1617,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "subtext": "play sport / play a game / play music / play a role",
+        "subtext": "c'hoari sport / c'hoari ur c'hoari",
         "form": "verb",
         "definitions": [
             {
@@ -1629,7 +1629,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "played",
+        "v2": "c'hoarias",
         "v3": "c'hoariet",
         "group": "regular"
     },
@@ -1638,7 +1638,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
-        "subtext": "run a race / run a business / run out of / run late",
+        "subtext": "redek / redek ur redadeg",
         "form": "verb",
         "definitions": [
             {
@@ -1650,7 +1650,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "ran",
+        "v2": "redas",
         "v3": "redet",
         "group": "irregular"
     },
@@ -1659,7 +1659,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
-        "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
+        "subtext": "azezañ / azezañ ouzh un daol",
         "opposite": "stand",
         "oppositeEmoji": "🧍",
         "form": "verb",
@@ -1673,7 +1673,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sat",
+        "v2": "azezas",
         "v3": "azezeet",
         "group": "irregular"
     },
@@ -1682,7 +1682,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "stand up / stand in a queue / stand by / stand out",
+        "subtext": "sevel en e sav / chom en e sav",
         "opposite": "sit",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1696,7 +1696,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "stood",
+        "v2": "savas",
         "v3": "savet",
         "group": "irregular"
     },
@@ -1716,9 +1716,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "met",
+        "v2": "kejas",
         "v3": "kejet",
-        "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
+        "subtext": "kejañ gant ur c'hliant / kejañ evit merenniñ",
         "group": "irregular"
     },
     {
@@ -1726,7 +1726,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
-        "subtext": "learn a language / learn a skill / learn from / learn how to",
+        "subtext": "deskiñ ur yezh / deskiñ un ampartiz",
         "form": "verb",
         "definitions": [
             {
@@ -1747,7 +1747,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🔄",
-        "subtext": "change jobs / change your mind / change the plan / change something",
+        "subtext": "cheñch labour / cheñch soñj / cheñch ar raktres",
         "form": "verb",
         "definitions": [
             {
@@ -1759,7 +1759,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "changed",
+        "v2": "cheñchas",
         "v3": "cheñchet",
         "group": "regular"
     },
@@ -1768,7 +1768,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "stop doing / stop working / stop a habit / stop someone",
+        "subtext": "paouez d'ober / paouez da labourat",
         "form": "verb",
         "definitions": [
             {
@@ -1780,7 +1780,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "stopped",
+        "v2": "paouezas",
         "v3": "paouezet",
         "group": "regular"
     },
@@ -1789,7 +1789,7 @@
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
-        "subtext": "add some sugar / add to / add up / add a comment",
+        "subtext": "ouzhpennañ sukr / ouzhpennañ / lakaat un evezhiadenn",
         "form": "verb",
         "definitions": [
             {
@@ -1801,7 +1801,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "added",
+        "v2": "ouzhpennas",
         "v3": "ouzhpennet",
         "group": "añ"
     },
@@ -1810,7 +1810,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
-        "subtext": "win a game / win a prize / win an award / win a contract",
+        "subtext": "gounit ur c'hoari / gounit ur priz",
         "opposite": "lose",
         "oppositeEmoji": "📉",
         "form": "verb",
@@ -1824,7 +1824,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "won",
+        "v2": "gounezas",
         "v3": "gounezet",
         "group": "irregular"
     },
@@ -1833,7 +1833,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
-        "subtext": "wait for someone / wait in a queue / wait a moment",
+        "subtext": "gortoz unan bennak / gortoz ur pennad",
         "form": "verb",
         "definitions": [
             {
@@ -1845,7 +1845,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "waited",
+        "v2": "gortozas",
         "v3": "gortozet",
         "group": "regular"
     },
@@ -1854,7 +1854,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
-        "subtext": "die of / die for / die from / die out",
+        "subtext": "mervel gant / mervel evit",
         "opposite": "live",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -1868,7 +1868,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "died",
+        "v2": "marvas",
         "v3": "marvet",
         "group": "el"
     },
@@ -1888,9 +1888,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sent",
+        "v2": "kasas",
         "v3": "kaset",
-        "subtext": "send an email / send a message / send a report / send a file",
+        "subtext": "kas ur postel / kas ur gemennadenn",
         "group": "irregular"
     },
     {
@@ -1898,7 +1898,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
-        "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
+        "subtext": "chom er gêr / chom en ul leti",
         "form": "verb",
         "definitions": [
             {
@@ -1910,7 +1910,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "stayed",
+        "v2": "chomas",
         "v3": "chomet",
         "group": "regular"
     },
@@ -1919,7 +1919,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "subtext": "fall down / fall off / fall in love / fall asleep",
+        "subtext": "kouezhañ d'an douar / kouezhañ e karantez",
         "form": "verb",
         "definitions": [
             {
@@ -1931,7 +1931,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "fell",
+        "v2": "kouezhas",
         "v3": "kouezhet",
         "group": "irregular"
     },
@@ -1940,7 +1940,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
-        "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
+        "subtext": "tremen un arnodenn / tremen an amzer",
         "form": "verb",
         "definitions": [
             {
@@ -1952,7 +1952,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "passed",
+        "v2": "tremenas",
         "v3": "tremenet",
         "group": "regular"
     },
@@ -1961,7 +1961,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
-        "subtext": "sell products / sell online / sell at the market / best seller",
+        "subtext": "gwerzhañ produioù / gwerzhañ enlinenn",
         "opposite": "buy",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -1975,7 +1975,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sold",
+        "v2": "gwerzhas",
         "v3": "gwerzhet",
         "group": "irregular"
     },
@@ -1984,7 +1984,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "pull the door / pull something / pull up / pull away",
+        "subtext": "tennañ an nor / tennañ un dra bennak",
         "opposite": "push",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -1998,7 +1998,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "pulled",
+        "v2": "sachas",
         "v3": "sachet",
         "group": "añ"
     },
@@ -2007,7 +2007,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
-        "subtext": "push the button / push a cart / push away / push through",
+        "subtext": "pousañ ar bouton / pousañ ur c'harrig",
         "opposite": "pull",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2021,7 +2021,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "pushed",
+        "v2": "pousas",
         "v3": "pouset",
         "group": "añ"
     },
@@ -2030,7 +2030,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
-        "subtext": "carry a bag / carry notes / carry out / carry on",
+        "subtext": "dougen ur sac'h / dougen notennoù",
         "form": "verb",
         "definitions": [
             {
@@ -2042,7 +2042,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "carried",
+        "v2": "dougas",
         "v3": "douget",
         "group": "regular"
     },
@@ -2051,7 +2051,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "break the glass / break a law / take a break / break down",
+        "subtext": "terriñ ar werenn / terriñ ul lezenn",
         "form": "verb",
         "definitions": [
             {
@@ -2063,7 +2063,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "broke",
+        "v2": "torras",
         "v3": "torret",
         "group": "irregular"
     },
@@ -2072,7 +2072,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
-        "subtext": "receive an email / receive a gift / receive payment / receive news",
+        "subtext": "degemer ur postel / degemer ur road",
         "form": "verb",
         "definitions": [
             {
@@ -2084,7 +2084,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "received",
+        "v2": "resevas",
         "v3": "resevet",
         "group": "regular"
     },
@@ -2093,7 +2093,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
-        "subtext": "agree with someone / agree to do / agree on / I agree",
+        "subtext": "bezañ a-du gant unan bennak / a-du emaon",
         "form": "verb",
         "definitions": [
             {
@@ -2105,7 +2105,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "agreed",
+        "v2": "emglezas",
         "v3": "emglezet",
         "group": "regular"
     },
@@ -2114,7 +2114,7 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
-        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
+        "subtext": "treset ur skeudenn / treset ul linenn",
         "form": "verb",
         "definitions": [
             {
@@ -2126,7 +2126,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drew",
+        "v2": "tresas",
         "v3": "treset",
         "group": "irregular"
     },
@@ -2135,7 +2135,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
-        "subtext": "share a room / share information / share an idea / share with",
+        "subtext": "rannañ ur gambr / rannañ titouroù",
         "form": "verb",
         "definitions": [
             {
@@ -2147,7 +2147,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "shared",
+        "v2": "lodennas",
         "v3": "lodennet",
         "group": "añ"
     },
@@ -2156,7 +2156,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
-        "subtext": "smile at someone / a big smile / smile broadly",
+        "subtext": "strakal ur mousc'hoarzh / mousc'hoarzhin",
         "opposite": "cry",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2170,7 +2170,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "smiled",
+        "v2": "mousc'hoarzhinas",
         "v3": "mousc'hoarzhet",
         "group": "regular"
     },
@@ -2179,7 +2179,7 @@
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
-        "subtext": "cry for help / cry out / start crying / cry about something",
+        "subtext": "krial evit sikour / kregiñ da ouelañ",
         "opposite": "smile",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2193,7 +2193,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cried",
+        "v2": "gouelas",
         "v3": "gouelet",
         "group": "añ"
     },
@@ -2202,7 +2202,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
-        "subtext": "dance to music / go dancing / dance together / slow dance",
+        "subtext": "dañsal gant sonerezh / mont da zañsal / dañsal asambles",
         "form": "verb",
         "definitions": [
             {
@@ -2214,7 +2214,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "danced",
+        "v2": "dañsas",
         "v3": "dañset",
         "group": "al"
     },
@@ -2223,7 +2223,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
-        "subtext": "sing a song / sing along / sing well / lead singer",
+        "subtext": "kanañ ur ganaouenn / kanañ asambles",
         "form": "verb",
         "definitions": [
             {
@@ -2235,7 +2235,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sang",
+        "v2": "kanas",
         "v3": "kanet",
         "group": "irregular"
     },
@@ -2244,7 +2244,7 @@
         "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
-        "subtext": "jump high / jump over / jump up / jump in",
+        "subtext": "lammat uhel / lammat dreist",
         "form": "verb",
         "definitions": [
             {
@@ -2256,7 +2256,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "jumped",
+        "v2": "lammas",
         "v3": "lammet",
         "group": "regular"
     },
@@ -2265,7 +2265,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
-        "subtext": "go swimming / swim across / swim laps / swim well",
+        "subtext": "mont da neuñviñ / neuñviñ mat",
         "form": "verb",
         "definitions": [
             {
@@ -2277,7 +2277,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "swam",
+        "v2": "neuñvias",
         "v3": "neuñviet",
         "group": "irregular"
     },
@@ -2286,7 +2286,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "study English / study for an exam / study hard / self-study",
+        "subtext": "studiañ saozneg / studiañ evit un arnodenn",
         "form": "verb",
         "definitions": [
             {
@@ -2298,7 +2298,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "studied",
+        "v2": "studias",
         "v3": "studiet",
         "group": "añ"
     },
@@ -2307,7 +2307,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
-        "subtext": "teach someone / teach a subject / teach how to / teach a class",
+        "subtext": "kelenn unan bennak / kelenn ur danvez",
         "form": "verb",
         "definitions": [
             {
@@ -2319,7 +2319,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "taught",
+        "v2": "kelennas",
         "v3": "kelennet",
         "group": "irregular"
     },
@@ -2328,7 +2328,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "commute to work / daily commute / long commute / commute by train",
+        "subtext": "beajiñ d'al labour / beaj pemdeziek",
         "form": "verb",
         "definitions": [
             {
@@ -2340,7 +2340,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "commuted",
+        "v2": "beajas bemdez",
         "v3": "beajet bemdez",
         "group": "regular"
     },
@@ -2349,7 +2349,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
-        "subtext": "rent a flat / rent a property / rent out a room",
+        "subtext": "feurmiñ un ranndi / feurmiñ ur gambr",
         "form": "verb",
         "definitions": [
             {
@@ -2361,7 +2361,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "rented",
+        "v2": "feurmas",
         "v3": "feurmet",
         "group": "iñ"
     },
@@ -2381,9 +2381,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "exercised",
+        "v2": "reas sport",
         "v3": "graet sport",
-        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
+        "subtext": "ober sport / ober sport ingալ",
         "group": "regular"
     },
     {
@@ -2402,9 +2402,9 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "cost",
+        "v2": "koustas",
         "v3": "koustet",
-        "subtext": "cost a lot / cost money / cost too much / cost less",
+        "subtext": "koust kalz / koust arc'hant",
         "group": "irregular"
     },
     {
@@ -2423,9 +2423,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "invited",
+        "v2": "pedas",
         "v3": "pedet",
-        "subtext": "invite someone / invite to dinner / invite to a party",
+        "subtext": "pediñ unan bennak / pediñ da goaniañ",
         "group": "iñ"
     },
     {
@@ -2438,10 +2438,10 @@
                 ]
             }
         ],
-        "subtext": "get up early / get up late / get up quickly",
+        "subtext": "sevel abred / sevel diwezhat",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "got up",
+        "v2": "savas",
         "v3": "savet",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
@@ -2459,10 +2459,10 @@
                 ]
             }
         ],
-        "subtext": "have breakfast at home / have a quick breakfast / skip breakfast",
+        "subtext": "debriñ lein er gêr",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "had breakfast",
+        "v2": "leinas",
         "v3": "leinet",
         "theme": "daily_work_routines_A1",
         "emoji": "🍳",
@@ -2480,10 +2480,10 @@
                 ]
             }
         ],
-        "subtext": "come back home / come back late / come back from a trip",
+        "subtext": "distreiñ d'ar gêr / distreiñ diwezhat",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "came back",
+        "v2": "distroas",
         "v3": "distroet",
         "theme": "daily_work_routines_A1",
         "emoji": "🔙",
@@ -2501,10 +2501,10 @@
                 ]
             }
         ],
-        "subtext": "go to bed early / go to bed late / go to bed tired",
+        "subtext": "mont da gousket abred / mont da gousket diwezhat",
         "classification": "irregular",
         "aspect": "action",
-        "v2": null,
+        "v2": "eas da gousket",
         "v3": "aet da gousket",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
@@ -2522,10 +2522,10 @@
                 ]
             }
         ],
-        "subtext": "check emails / check messages / check a document / check the time",
+        "subtext": "gwiriañ ar postelioù / gwiriañ an amzer",
         "classification": "regular",
         "aspect": "action",
-        "v2": "checked",
+        "v2": "gwirias",
         "v3": "gwiriet",
         "theme": "workplace_basics_A1",
         "emoji": "✅",
@@ -2543,10 +2543,10 @@
                 ]
             }
         ],
-        "subtext": "reply to an email / reply quickly / reply to a message",
+        "subtext": "respont d'ur postel / respont prim",
         "classification": "regular",
         "aspect": "action",
-        "v2": "replied",
+        "v2": "respontas",
         "v3": "respontet",
         "theme": "workplace_basics_A1",
         "emoji": "↩️",
@@ -2564,10 +2564,10 @@
                 ]
             }
         ],
-        "subtext": "present a report / present ideas / present to a client",
+        "subtext": "disկouez un danevell / kinnig mennozhioù",
         "classification": "regular",
         "aspect": "action",
-        "v2": "presented",
+        "v2": "displegas",
         "v3": "displeget",
         "theme": "workplace_basics_A1",
         "emoji": "📊",
@@ -2585,10 +2585,10 @@
                 ]
             }
         ],
-        "subtext": "attend a meeting / attend a course / attend an event",
+        "subtext": "kemer perzh en un emvod / kemer perzh en ur c'hourse",
         "classification": "regular",
         "aspect": "action",
-        "v2": "attended",
+        "v2": "kemeras perzh",
         "v3": "kemeret perzh",
         "theme": "workplace_basics_A1",
         "emoji": "📅",
@@ -2606,10 +2606,10 @@
                 ]
             }
         ],
-        "subtext": "manage a team / manage a project / manage time / manage stress",
+        "subtext": "merañ ur skipailh / merañ ur raktres",
         "classification": "regular",
         "aspect": "action",
-        "v2": "managed",
+        "v2": "meras",
         "v3": "meret",
         "theme": "workplace_basics_A1",
         "emoji": "👤",
@@ -2627,10 +2627,10 @@
                 ]
             }
         ],
-        "subtext": "charge a fee / charge for a service / charge extra",
+        "subtext": "dougen ur freuz / dougen evit ur servij",
         "classification": "regular",
         "aspect": "action",
-        "v2": "charged",
+        "v2": "fakturas",
         "v3": "fakturet",
         "theme": "money_payment_A1",
         "emoji": "💳",
@@ -2648,10 +2648,10 @@
                 ]
             }
         ],
-        "subtext": "afford a house / afford to travel / afford something",
+        "subtext": "kaout an tu da brenañ un ti",
         "classification": "regular",
         "aspect": "stative",
-        "v2": "afforded",
+        "v2": "gallas paeañ",
         "v3": "gallet paeañ",
         "theme": "money_payment_A1",
         "emoji": "🏦",
@@ -2669,10 +2669,10 @@
                 ]
             }
         ],
-        "subtext": "owe money / owe someone / owe a lot / owe nothing",
+        "subtext": "dleout arc'hant / dleout da unan bennak",
         "classification": "regular",
         "aspect": "stative",
-        "v2": "owed",
+        "v2": "dleas",
         "v3": "dleet",
         "theme": "money_payment_A1",
         "emoji": "💸",
@@ -2690,10 +2690,10 @@
                 ]
             }
         ],
-        "subtext": "earn a salary / earn money / earn more / earn enough",
+        "subtext": "gounit ur gopr / gounit arc'hant",
         "classification": "regular",
         "aspect": "action",
-        "v2": "earned",
+        "v2": "gounezas arc'hant",
         "v3": "gounezet arc'hant",
         "theme": "money_payment_A1",
         "emoji": "💶",
@@ -2711,10 +2711,10 @@
                 ]
             }
         ],
-        "subtext": "visit family / visit a friend / visit a city / visit regularly",
+        "subtext": "gweladenniñ ar familh / gweladenniñ ur mignon",
         "classification": "regular",
         "aspect": "action",
-        "v2": "visited",
+        "v2": "gweladennias",
         "v3": "gweladennet",
         "theme": "family_life_A1",
         "emoji": "🏘️",
@@ -2732,10 +2732,10 @@
                 ]
             }
         ],
-        "subtext": "celebrate a birthday / celebrate success / celebrate together",
+        "subtext": "lidat un deiz-ha-bloaz / lidat ar berzh",
         "classification": "regular",
         "aspect": "action",
-        "v2": "celebrated",
+        "v2": "lidas",
         "v3": "lidet",
         "theme": "leisure_activities_A1",
         "emoji": "🎉",
@@ -2753,10 +2753,10 @@
                 ]
             }
         ],
-        "subtext": "recommend a place / recommend someone / recommend a film",
+        "subtext": "erbediñ ul lec'h / erbediñ unan bennak",
         "classification": "regular",
         "aspect": "action",
-        "v2": "recommended",
+        "v2": "erbedas",
         "v3": "erbedet",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
@@ -2774,10 +2774,10 @@
                 ]
             }
         ],
-        "subtext": "hurt your back / hurt someone / hurt yourself / it hurts",
+        "subtext": "ober droug d'e gein / ober droug da unan bennak",
         "classification": "irregular",
         "aspect": "both",
-        "v2": "hurt",
+        "v2": "reas droug",
         "v3": "graet droug",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
@@ -2795,10 +2795,10 @@
                 ]
             }
         ],
-        "subtext": "rest at home / rest after work / need rest / get some rest",
+        "subtext": "diskuizhañ er gêr / diskuizhañ goude al labour",
         "classification": "regular",
         "aspect": "action",
-        "v2": "rested",
+        "v2": "diskuizhas",
         "v3": "diskuizhet",
         "theme": "daily_work_routines_A1",
         "emoji": "🛋️",
@@ -2816,10 +2816,10 @@
                 ]
             }
         ],
-        "subtext": "recover from illness / recover quickly / recover fully",
+        "subtext": "pareañ / pareañ buan",
         "classification": "regular",
         "aspect": "action",
-        "v2": "recovered",
+        "v2": "pareas",
         "v3": "pareet",
         "theme": "medical_appointments_A1",
         "emoji": "🩹",
@@ -2837,10 +2837,10 @@
                 ]
             }
         ],
-        "subtext": "book a hotel / book a flight / book a table / book in advance",
+        "subtext": "mirout ul leti / mirout ur rann",
         "classification": "regular",
         "aspect": "action",
-        "v2": "booked",
+        "v2": "miras",
         "v3": "miret",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "📖",
@@ -2858,10 +2858,10 @@
                 ]
             }
         ],
-        "subtext": "pack a bag / pack a suitcase / pack lightly",
+        "subtext": "ober e sac'h / ober e valizenn",
         "classification": "regular",
         "aspect": "action",
-        "v2": "packed",
+        "v2": "aozas ar malizenn",
         "v3": "aozet ar malizenn",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎒",
@@ -2879,10 +2879,10 @@
                 ]
             }
         ],
-        "subtext": "cancel a flight / cancel a booking / cancel a meeting",
+        "subtext": "nullañ un nijadenn / nullañ ur miridigezh",
         "classification": "regular",
         "aspect": "action",
-        "v2": "cancelled",
+        "v2": "nullas",
         "v3": "nullet",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "❌",
@@ -2900,10 +2900,10 @@
                 ]
             }
         ],
-        "subtext": "miss a train / miss a flight / miss someone / miss work",
+        "subtext": "mankout un tren / mankout unan bennak",
         "classification": "regular",
         "aspect": "both",
-        "v2": "missed",
+        "v2": "mankas",
         "v3": "manket",
         "theme": "public_transport_A1",
         "emoji": "🏃‍♂️",
@@ -2916,7 +2916,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📦",
-        "subtext": "order food / order a drink / order online / order supplies",
+        "subtext": "urzhiañ boued / urzhiañ enlinenn",
         "form": "verb",
         "definitions": [
             {
@@ -2928,7 +2928,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "ordered",
+        "v2": "urzhias",
         "v3": "urzhiet",
         "group": "añ"
     },
@@ -2937,7 +2937,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💡",
-        "subtext": "explain a process / explain clearly / explain to someone",
+        "subtext": "displegañ un argerzh / displegañ sklaer",
         "form": "verb",
         "definitions": [
             {
@@ -2949,7 +2949,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "explained",
+        "v2": "displegas",
         "v3": "displeget",
         "group": "añ"
     },
@@ -2958,7 +2958,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "subtext": "thank someone / thank you for / many thanks",
+        "subtext": "trugarekaat unan bennak / trugarez deoc'h",
         "form": "verb",
         "definitions": [
             {
@@ -2970,7 +2970,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "thanked",
+        "v2": "trugarekaas",
         "v3": "trugarekaet",
         "group": "regular"
     },
@@ -2979,7 +2979,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
-        "subtext": "introduce yourself / introduce someone / introduce a topic",
+        "subtext": "en em ginnig / kinnig unan bennak",
         "form": "verb",
         "definitions": [
             {
@@ -2991,7 +2991,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "introduced",
+        "v2": "en em ginnigas",
         "v3": "en em ginniget",
         "group": "regular"
     },
@@ -3000,7 +3000,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
-        "subtext": "relax at home / relax after work / relax on holiday",
+        "subtext": "diskuizhañ er gêr / en em zistendañ",
         "form": "verb",
         "definitions": [
             {
@@ -3012,7 +3012,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "relaxed",
+        "v2": "en em zistendas",
         "v3": "en em zistendet",
         "group": "añ"
     },
@@ -3021,7 +3021,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
-        "subtext": "repair something / get repaired / repair costs",
+        "subtext": "repaerañ un dra bennak",
         "form": "verb",
         "definitions": [
             {
@@ -3033,7 +3033,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "repaired",
+        "v2": "ratreas",
         "v3": "ratreet",
         "group": "añ"
     },
@@ -3042,7 +3042,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
-        "subtext": "what happened / happen to someone / it happens / happen again",
+        "subtext": "petra a zo c'hoarvezet / c'hoarvezout gant unan bennak",
         "form": "verb",
         "definitions": [
             {
@@ -3054,7 +3054,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "happened",
+        "v2": "degouezhas",
         "v3": "degouezhet",
         "group": "regular"
     },
@@ -3063,7 +3063,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
-        "subtext": "seem fine / seem worried / seem happy / seem like",
+        "subtext": "seblantout bezañ mat / seblantout bezañ laouen",
         "form": "verb",
         "definitions": [
             {
@@ -3075,7 +3075,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "seemed",
+        "v2": "hañvalas",
         "v3": "hañvalet",
         "group": "regular"
     },
@@ -3084,7 +3084,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
-        "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
+        "subtext": "ster un dra bennak / petra a dalv",
         "form": "verb",
         "definitions": [
             {
@@ -3096,7 +3096,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "meant",
+        "v2": "talvezas",
         "v3": "talvezet",
         "group": "irregular"
     },
@@ -3105,7 +3105,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
-        "subtext": "follow instructions / follow someone / follow the news / follow up",
+        "subtext": "heuliañ an urzhioù / heuliañ unan bennak",
         "form": "verb",
         "definitions": [
             {
@@ -3117,7 +3117,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "followed",
+        "v2": "heulias",
         "v3": "heuliet",
         "group": "añ"
     },
@@ -3126,7 +3126,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "continue working / continue to do / continue with / continue a task",
+        "subtext": "kenderc'hel da labourat / kenderc'hel gant",
         "form": "verb",
         "definitions": [
             {
@@ -3138,7 +3138,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "continued",
+        "v2": "kendalc'has",
         "v3": "kendalc'het",
         "group": "el"
     },
@@ -3147,7 +3147,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
-        "subtext": "grow a business / grow quickly / grow by / grow into",
+        "subtext": "kreskiñ un embregerezh / kreskiñ buan",
         "form": "verb",
         "definitions": [
             {
@@ -3159,7 +3159,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "grew",
+        "v2": "kreskas",
         "v3": "kresket",
         "group": "irregular"
     },
@@ -3168,7 +3168,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
-        "subtext": "include something / include in / not included / price includes",
+        "subtext": "endalvout un dra bennak / e-barzh",
         "form": "verb",
         "definitions": [
             {
@@ -3180,7 +3180,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "included",
+        "v2": "oa e-barzh",
         "v3": "bet e-barzh",
         "group": "regular"
     },
@@ -3189,7 +3189,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✨",
-        "subtext": "become a manager / become popular / become clear / become important",
+        "subtext": "dont da vezañ merour / dont da vezañ brudet",
         "form": "verb",
         "definitions": [
             {
@@ -3201,7 +3201,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "became",
+        "v2": "deuas da vezañ",
         "v3": "deut da vezañ",
         "group": "irregular"
     },
@@ -3210,7 +3210,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
-        "subtext": "belong to someone / belong in / feel like you belong",
+        "subtext": "bezañ da unan bennak / bezañ en e blas",
         "form": "verb",
         "definitions": [
             {
@@ -3222,7 +3222,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "belonged",
+        "v2": "oa da",
         "v3": "bet da",
         "group": "regular"
     },
@@ -3231,7 +3231,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👉",
-        "subtext": "choose between / choose to do / choose carefully / choose a career",
+        "subtext": "dibab etre / dibab ober / dibab gant evezh",
         "form": "verb",
         "definitions": [
             {
@@ -3243,7 +3243,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "chose",
+        "v2": "dibabas",
         "v3": "dibabet",
         "group": "irregular"
     },
@@ -3252,7 +3252,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
-        "subtext": "build a career / build a team / build experience / build trust",
+        "subtext": "sevel ur vicher / sevel ur skipailh",
         "form": "verb",
         "definitions": [
             {
@@ -3264,7 +3264,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "built",
+        "v2": "savas",
         "v3": "savet",
         "group": "irregular"
     }
@@ -3273,6 +3273,5 @@
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

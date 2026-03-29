@@ -109,7 +109,7 @@ const themeConfig = {
             },
             "technology_media": {
                 "basic_technology_devices_A1": "Basic technology devices",
-                "using_a_smartphone_A1" : "Using a smartphone"
+                "basic_technology_devices_A1" : "Using a smartphone"
             },
             "environment_nature": {
                 "weather_A1": "Weather",

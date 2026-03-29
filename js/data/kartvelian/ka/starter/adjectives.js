@@ -37,7 +37,7 @@
                 ]
             }
         ],
-        "subtext": "a short journey / short hair / too short",
+        "subtext": "მოკლე მგზავრობა / მოკლე თმა / ძალიან მოკლე",
         "comparative": "უფრო მოკლე",
         "superlative": "ყველაზე მოკლე",
         "feminine": null,
@@ -177,7 +177,7 @@
         "femininePlural": null
     },
     {
-        "word": "ordinary",
+        "word": "ჩვეულებრივი",
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
@@ -508,7 +508,7 @@
         "femininePlural": null
     },
     {
-        "word": "ill",
+        "word": "ავადმყოფი",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
@@ -528,9 +528,9 @@
         "superlative": "the illest"
     },
     {
-        "word": "online",
+        "word": "ონლაინ",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "offline",
@@ -548,7 +548,7 @@
         "superlative": "the most online"
     },
     {
-        "word": "alone",
+        "word": "მარტო",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "👤",
@@ -568,7 +568,7 @@
         "superlative": "the most alone"
     },
     {
-        "word": "relaxed",
+        "word": "მოდუნებული",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
@@ -588,7 +588,7 @@
         "superlative": "the most relaxed"
     },
     {
-        "word": "worried",
+        "word": "შეწუხებული",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
@@ -673,7 +673,7 @@
         "femininePlural": null
     },
     {
-        "word": "red",
+        "word": "წითელი",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
@@ -697,7 +697,7 @@
         "superlative": "the reddest"
     },
     {
-        "word": "blue",
+        "word": "ლურჯი",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
@@ -721,7 +721,7 @@
         "superlative": "the bluest"
     },
     {
-        "word": "green",
+        "word": "მწვანე",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
@@ -745,7 +745,7 @@
         "superlative": "the greenest"
     },
     {
-        "word": "white",
+        "word": "თეთრი",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
@@ -769,7 +769,7 @@
         "superlative": "the whitest"
     },
     {
-        "word": "black",
+        "word": "შავი",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "⬛",
@@ -793,7 +793,7 @@
         "superlative": "the blackest"
     },
     {
-        "word": "yellow",
+        "word": "ყვითელი",
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
@@ -884,7 +884,7 @@
         "femininePlural": null
     },
     {
-        "word": "large",
+        "word": "დიდი",
         "level": "starter",
         "form": "adjective",
         "subtext": "a large city / a large company / a large amount",
@@ -901,7 +901,7 @@
         "superlative": "the largest"
     },
     {
-        "word": "little",
+        "word": "პატარა",
         "level": "starter",
         "form": "adjective",
         "subtext": "a little bit / a little money / too little",
@@ -938,7 +938,7 @@
         "femininePlural": null
     },
     {
-        "word": "high",
+        "word": "მაღალი",
         "level": "starter",
         "form": "adjective",
         "subtext": "high price / high rent / high quality",
@@ -955,7 +955,7 @@
         "superlative": "the highest"
     },
     {
-        "word": "low",
+        "word": "დაბალი",
         "level": "starter",
         "form": "adjective",
         "subtext": "low price / low salary / low quality",
@@ -1012,7 +1012,7 @@
         "femininePlural": null
     },
     {
-        "word": "warm",
+        "word": "თბილი",
         "level": "starter",
         "form": "adjective",
         "subtext": "warm weather / a warm welcome / keep warm",
@@ -1029,7 +1029,7 @@
         "superlative": "the warmest"
     },
     {
-        "word": "cool",
+        "word": "გრილი",
         "level": "starter",
         "form": "adjective",
         "subtext": "cool weather / a cool drink / stay cool",
@@ -1165,7 +1165,7 @@
         "femininePlural": null
     },
     {
-        "word": "light",
+        "word": "მსუბუქი",
         "level": "starter",
         "form": "adjective",
         "subtext": "light rain / light traffic / a light meal",
@@ -1182,7 +1182,7 @@
         "superlative": "the lightest"
     },
     {
-        "word": "brown",
+        "word": "ყავისფერი",
         "level": "starter",
         "form": "adjective",
         "subtext": "dark brown / light brown / brown bread",
@@ -1199,7 +1199,7 @@
         "superlative": "the brownest"
     },
     {
-        "word": "grey",
+        "word": "ნაცრისფერი",
         "level": "starter",
         "form": "adjective",
         "subtext": "grey area / grey sky / pale grey",
@@ -1216,7 +1216,7 @@
         "superlative": "the greyest"
     },
     {
-        "word": "pink",
+        "word": "ვარდისფერი",
         "level": "starter",
         "form": "adjective",
         "subtext": "light pink / bright pink / hot pink",
@@ -1233,7 +1233,7 @@
         "superlative": "the pinkest"
     },
     {
-        "word": "orange",
+        "word": "ნარინჯისფერი",
         "level": "starter",
         "form": "adjective",
         "subtext": "bright orange / dark orange / orange light",
@@ -1250,7 +1250,7 @@
         "superlative": "the orangeest"
     },
     {
-        "word": "great",
+        "word": "დიდებული",
         "level": "starter",
         "form": "adjective",
         "subtext": "a great idea / a great opportunity / great value",
@@ -1267,7 +1267,7 @@
         "superlative": "the greatest"
     },
     {
-        "word": "nice",
+        "word": "კარგი",
         "level": "starter",
         "form": "adjective",
         "subtext": "a nice day / a nice place / a nice person",
@@ -1284,7 +1284,7 @@
         "superlative": "the nicest"
     },
     {
-        "word": "wonderful",
+        "word": "საოცარი",
         "level": "starter",
         "form": "adjective",
         "subtext": "a wonderful opportunity / a wonderful time",
@@ -1321,7 +1321,7 @@
         "femininePlural": null
     },
     {
-        "word": "awful",
+        "word": "საშინელი",
         "level": "starter",
         "form": "adjective",
         "subtext": "awful weather / awful news / simply awful",
@@ -1338,7 +1338,7 @@
         "superlative": "the most awful"
     },
     {
-        "word": "amazing",
+        "word": "გადასარევი",
         "level": "starter",
         "form": "adjective",
         "subtext": "an amazing result / an amazing offer / truly amazing",
@@ -1355,7 +1355,7 @@
         "superlative": "the most amazing"
     },
     {
-        "word": "fantastic",
+        "word": "ფანტასტიკური",
         "level": "starter",
         "form": "adjective",
         "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
@@ -1432,7 +1432,7 @@
         "femininePlural": null
     },
     {
-        "word": "bored",
+        "word": "მოწყენილი",
         "level": "starter",
         "form": "adjective",
         "subtext": "feel bored / bored with / easily bored",
@@ -1449,7 +1449,7 @@
         "superlative": "the most bored"
     },
     {
-        "word": "excited",
+        "word": "აღელვებული",
         "level": "starter",
         "form": "adjective",
         "subtext": "feel excited / excited about / very excited",
@@ -1465,7 +1465,7 @@
         "superlative": "the most excited"
     },
     {
-        "word": "afraid",
+        "word": "შეშინებული",
         "level": "starter",
         "form": "adjective",
         "subtext": "afraid of / feel afraid / deeply afraid",
@@ -1482,7 +1482,7 @@
         "superlative": "the most afraid"
     },
     {
-        "word": "sorry",
+        "word": "მწუხარე",
         "level": "starter",
         "form": "adjective",
         "subtext": "feel sorry / sorry for / sorry about",
@@ -1499,7 +1499,7 @@
         "superlative": "the sorriest"
     },
     {
-        "word": "right",
+        "word": "სწორი",
         "level": "starter",
         "form": "adjective",
         "subtext": "right answer / right time / absolutely right",
@@ -1716,7 +1716,7 @@
         "femininePlural": null
     },
     {
-        "word": "unhappy",
+        "word": "უბედური",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
@@ -1753,7 +1753,7 @@
         "femininePlural": null
     },
     {
-        "word": "stressed",
+        "word": "დასტრესილი",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
@@ -1770,7 +1770,7 @@
         "superlative": "the most stressed"
     },
     {
-        "word": "confident",
+        "word": "თავდაჯერებული",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -1827,7 +1827,7 @@
         "femininePlural": null
     },
     {
-        "word": "surprised",
+        "word": "გაკვირვებული",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "form": "adjective",
@@ -1844,7 +1844,7 @@
         "superlative": "the most surprised"
     },
     {
-        "word": "disappointed",
+        "word": "იმედგაცრუებული",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
@@ -1881,7 +1881,7 @@
         "femininePlural": null
     },
     {
-        "word": "pretty",
+        "word": "ლამაზი",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -1938,7 +1938,7 @@
         "femininePlural": null
     },
     {
-        "word": "fit",
+        "word": "ფორმაში",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "form": "adjective",
@@ -1955,7 +1955,7 @@
         "superlative": "the fittest"
     },
     {
-        "word": "excellent",
+        "word": "შესანიშნავი",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2072,7 +2072,7 @@
         "femininePlural": null
     },
     {
-        "word": "necessary",
+        "word": "საჭირო",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2149,7 +2149,7 @@
         "femininePlural": null
     },
     {
-        "word": "popular",
+        "word": "პოპულარული",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2166,7 +2166,7 @@
         "superlative": "the most popular"
     },
     {
-        "word": "similar",
+        "word": "მსგავსი",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2183,7 +2183,7 @@
         "superlative": "the most similar"
     },
     {
-        "word": "friendly",
+        "word": "მეგობრული",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2320,7 +2320,7 @@
         "femininePlural": null
     },
     {
-        "word": "honest",
+        "word": "პატიოსანი",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
@@ -2361,6 +2361,5 @@
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

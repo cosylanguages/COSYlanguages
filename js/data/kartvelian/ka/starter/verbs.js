@@ -19,7 +19,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": null,
+        "v2": "იყო",
         "v3": "ყოფილი",
         "group": "irregular"
     },
@@ -28,7 +28,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "have a job / have lunch / have a problem / have time",
+        "subtext": "გქონდეს სამსახური / ისადილო / გქონდეს პრობლემა / გქონდეს დრო",
         "form": "verb",
         "definitions": [
             {
@@ -41,7 +41,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "had",
+        "v2": "ჰქონდა",
         "v3": "ქონებული",
         "group": "irregular"
     },
@@ -50,7 +50,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
-        "subtext": "feel tired / feel better / feel ill / feel stressed",
+        "subtext": "თავს გრძნობდე დაღლილად / უკეთესად / ავად / დასტრესილად",
         "form": "verb",
         "definitions": [
             {
@@ -62,7 +62,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "felt",
+        "v2": "იგრძნო",
         "v3": "გრძნობილი",
         "group": "irregular"
     },
@@ -71,7 +71,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
-        "subtext": "give advice / give money / give a present / give information",
+        "subtext": "მისცე რჩევა / ფული / საჩუქარი / ინფორმაცია",
         "opposite": "take",
         "oppositeEmoji": "👜",
         "form": "verb",
@@ -85,7 +85,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "gave",
+        "v2": "მისცა",
         "v3": "მიცემული",
         "group": "irregular"
     },
@@ -94,7 +94,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
-        "subtext": "take the bus / take medicine / take a break / take time",
+        "subtext": "წახვიდე ავტობუსით / მიიღო წამალი / შეისვენო / დახარჯო დრო",
         "opposite": "give",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -108,7 +108,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "took",
+        "v2": "აიღო",
         "v3": "აღებული",
         "group": "irregular"
     },
@@ -117,7 +117,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "get a job / get tired / get better / get home",
+        "subtext": "იშოვო სამსახური / დაიღალო / გამოჯანმრთელდე / მიხვიდე სახლში",
         "form": "verb",
         "definitions": [
             {
@@ -129,7 +129,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "got",
+        "v2": "მიიღო",
         "v3": "მიღებული",
         "group": "irregular"
     },
@@ -138,7 +138,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
-        "subtext": "put on / put away / put the phone down / put money aside",
+        "subtext": "ჩაიცვა / გადადო / დადო ტელეფონი",
         "form": "verb",
         "definitions": [
             {
@@ -150,7 +150,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "put",
+        "v2": "დადო",
         "v3": "დადებული",
         "group": "irregular"
     },
@@ -159,7 +159,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "make coffee / make a decision / make a mistake / make money",
+        "subtext": "მოადუღო ყავა / მიიღო გადაწყვეტილება / დაუშვა შეცდომა / იშოვო ფული",
         "form": "verb",
         "definitions": [
             {
@@ -171,7 +171,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "made",
+        "v2": "გააკეთა",
         "v3": "გაკეთებული",
         "group": "irregular"
     },
@@ -180,7 +180,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
-        "subtext": "do work / do the shopping / do exercise / do nothing",
+        "subtext": "გააკეთო სამუშაო / იშოპინგო / ივარჯიშო / არაფერი აკეთო",
         "form": "verb",
         "definitions": [
             {
@@ -201,7 +201,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
-        "subtext": "use a phone / use public transport / use a computer / use time",
+        "subtext": "გამოიყენო ტელეფონი / ტრანსპორტი / კომპიუტერი",
         "form": "verb",
         "definitions": [
             {
@@ -213,7 +213,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "used",
+        "v2": "გამოიყენა",
         "v3": "გამოყენებული",
         "group": "regular"
     },
@@ -222,7 +222,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
-        "subtext": "open a door / open an account / open a shop / open at nine",
+        "subtext": "გააღო კარი / გახსნა ანგარიში / გახსნა მაღაზია",
         "opposite": "close",
         "oppositeEmoji": "🔒",
         "form": "verb",
@@ -245,7 +245,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
-        "subtext": "close a door / close at six / close an account / close the meeting",
+        "subtext": "დაკეტო კარი / დაიკეტოს ექვსზე / დახურო შეხვედრა",
         "opposite": "open",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -259,7 +259,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "closed",
+        "v2": "დაკეტა",
         "v3": "დაკეტილი",
         "group": "regular"
     },
@@ -268,7 +268,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "start work / start a meeting / start a new job",
+        "subtext": "დაიწყო მუშაობა / დაიწყო შეხვედრა / დაიწყო ახალი სამსახური",
         "opposite": "finish",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -282,7 +282,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "started",
+        "v2": "დაიწყო",
         "v3": "დაწყებული",
         "group": "regular"
     },
@@ -291,7 +291,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finish work / finish a project / finish early / finish late",
+        "subtext": "დაამთავრო სამუშაო / პროექტი / ადრე / გვიან",
         "opposite": "start",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -305,7 +305,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "finished",
+        "v2": "დაამთავრა",
         "v3": "დამთავრებული",
         "group": "regular"
     },
@@ -314,7 +314,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "help someone / help with a task / help out / ask for help",
+        "subtext": "დაეხმარო ვინმეს / დავალებაში / სთხოვო დახმარება",
         "form": "verb",
         "definitions": [
             {
@@ -326,7 +326,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "helped",
+        "v2": "დაეხმარა",
         "v3": "დახმარებული",
         "group": "regular"
     },
@@ -335,7 +335,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "try to do / try hard / try something new / give it a try",
+        "subtext": "ეცადო გააკეთო / ბევრი ეცადო / სცადო სიახლე",
         "form": "verb",
         "definitions": [
             {
@@ -347,7 +347,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "tried",
+        "v2": "ცადა",
         "v3": "ნაცადი",
         "group": "regular"
     },
@@ -356,7 +356,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
-        "subtext": "show someone how / show a document / show interest",
+        "subtext": "აჩვენო ვინმეს როგორ / აჩვენო დოკუმენტი / გამოიჩინო ინტერესი",
         "form": "verb",
         "definitions": [
             {
@@ -368,7 +368,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "showed",
+        "v2": "აჩვენა",
         "v3": "ნაჩვენები",
         "group": "irregular"
     },
@@ -377,7 +377,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
-        "subtext": "find a job / find out / find it difficult / find time",
+        "subtext": "იშოვო სამსახური / გაიგო / გაგიჭირდეს / გამონახო დრო",
         "form": "verb",
         "definitions": [
             {
@@ -389,7 +389,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "found",
+        "v2": "იპოვა",
         "v3": "ნაპოვნი",
         "group": "irregular"
     },
@@ -398,7 +398,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "keep going / keep quiet / keep a record / keep in touch",
+        "subtext": "გააგრძელო / გაჩუმდე / გქონდეს კონტაქტი",
         "form": "verb",
         "definitions": [
             {
@@ -410,7 +410,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "kept",
+        "v2": "შეინახა",
         "v3": "შენახული",
         "group": "irregular"
     },
@@ -419,7 +419,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
-        "subtext": "lose a job / lose money / lose weight / lose time",
+        "subtext": "დაკარგო სამსახური / ფული / დაიკლო წონაში",
         "opposite": "win",
         "oppositeEmoji": "🏆",
         "form": "verb",
@@ -433,7 +433,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "lost",
+        "v2": "დაკარგა",
         "v3": "დაკარგული",
         "group": "irregular"
     },
@@ -442,7 +442,7 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
-        "subtext": "cut costs / cut spending / cut short / cut in half",
+        "subtext": "შეამცირო ხარჯები / გაჭრა შუაზე",
         "form": "verb",
         "definitions": [
             {
@@ -454,7 +454,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "cut",
+        "v2": "მოჭრა",
         "v3": "გაჭრილი",
         "group": "irregular"
     },
@@ -463,7 +463,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "turn on / turn off / turn left / turn right",
+        "subtext": "ჩართო / გამორთო / მოუხვიო მარცხნივ",
         "form": "verb",
         "definitions": [
             {
@@ -484,7 +484,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
-        "subtext": "bring someone / bring food / bring a document / bring up",
+        "subtext": "მოიყვანო ვინმე / მოიტანო საჭმელი",
         "form": "verb",
         "definitions": [
             {
@@ -496,7 +496,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "brought",
+        "v2": "მოიტანა",
         "v3": "მოტანილი",
         "group": "irregular"
     },
@@ -505,7 +505,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
-        "subtext": "say hello / say yes / say no / say something",
+        "subtext": "მიესალმო / თქვა დიახ / თქვა არა / თქვა რამე",
         "form": "verb",
         "definitions": [
             {
@@ -517,7 +517,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "said",
+        "v2": "თქვა",
         "v3": "თქმული",
         "group": "irregular"
     },
@@ -526,7 +526,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
-        "subtext": "tell the truth / tell someone / tell a story / tell someone about",
+        "subtext": "თქვა სიმართლე / მოუყვე ვინმეს / მოყვე ამბავი",
         "form": "verb",
         "definitions": [
             {
@@ -547,7 +547,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "ask a question / ask for help / ask about / ask someone",
+        "subtext": "დასვა კითხვა / სთხოვო დახმარება / იკითხო რაღაცის შესახებ",
         "form": "verb",
         "definitions": [
             {
@@ -559,7 +559,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "asked",
+        "v2": "იკითხა",
         "v3": "ნაკითხი",
         "group": "regular"
     },
@@ -568,7 +568,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
+        "subtext": "ელაპარაკო ვინმეს / ინგლისურად / გარკვევით",
         "form": "verb",
         "definitions": [
             {
@@ -580,7 +580,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "spoke",
+        "v2": "ილაპარაკა",
         "v3": "ნალაპარაკები",
         "group": "irregular"
     },
@@ -589,7 +589,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "talk to someone / talk about / talk openly / talk for a long time",
+        "subtext": "ელაპარაკო ვინმეს / ილაპარაკო რამეზე / გულახდილად",
         "form": "verb",
         "definitions": [
             {
@@ -601,16 +601,16 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "talked",
+        "v2": "ისაუბრა",
         "v3": "ნასაუბრები",
         "group": "regular"
     },
     {
         "word": "დარეკვა",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
-        "subtext": "call someone / call back / call a meeting / call in sick",
+        "subtext": "დაურეკო ვინმეს / გადაურეკო / მოიწვიო შეხვედრა",
         "form": "verb",
         "definitions": [
             {
@@ -622,7 +622,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "called",
+        "v2": "დარეკა",
         "v3": "დარეკილი",
         "group": "regular"
     },
@@ -631,7 +631,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
-        "subtext": "write an email / write a report / write a letter / write notes",
+        "subtext": "დაწერო იმეილი / ანგარიში / წერილი / შენიშვნები",
         "opposite": "read",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -645,7 +645,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "wrote",
+        "v2": "დაწერა",
         "v3": "დაწერილი",
         "group": "irregular"
     },
@@ -654,7 +654,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "read a book / read the news / read a contract / read carefully",
+        "subtext": "წაიკითხო წიგნი / ახალი ამბები / ხელშეკრულება",
         "opposite": "write",
         "oppositeEmoji": "✍️",
         "form": "verb",
@@ -668,7 +668,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "read",
+        "v2": "იკითხა",
         "v3": "წაკითხული",
         "group": "irregular"
     },
@@ -677,7 +677,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
-        "subtext": "listen to music / listen carefully / listen to a podcast",
+        "subtext": "მოუსმინო მუსიკას / ყურადღებით / მოუსმინო პოდკასტს",
         "form": "verb",
         "definitions": [
             {
@@ -689,7 +689,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "listened",
+        "v2": "მოისმინა",
         "v3": "მოსმენილი",
         "group": "regular"
     },
@@ -698,7 +698,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
-        "subtext": "answer a question / answer the phone / answer an email",
+        "subtext": "უპასუხო კითხვას / ტელეფონს / იმეილს",
         "form": "verb",
         "definitions": [
             {
@@ -710,7 +710,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "answered",
+        "v2": "უპასუხა",
         "v3": "გაცემული",
         "group": "regular"
     },
@@ -719,7 +719,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
-        "subtext": "repeat that / repeat yourself / repeat an order",
+        "subtext": "გაიმეორო / გაიმეორო შეკვეთა",
         "form": "verb",
         "definitions": [
             {
@@ -731,7 +731,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "repeated",
+        "v2": "გაიმეორა",
         "v3": "გამეორებული",
         "group": "regular"
     },
@@ -740,7 +740,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "go to work / go home / go out / go shopping",
+        "subtext": "წახვიდე სამუშაოზე / სახლში / გარეთ / საყიდლებზე",
         "form": "verb",
         "definitions": [
             {
@@ -761,7 +761,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "come home / come to work / come back / come here",
+        "subtext": "მოხვიდე სახლში / სამუშაოზე / დაბრუნდე / მოხვიდე აქ",
         "opposite": "go",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -775,7 +775,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "came",
+        "v2": "მოვიდა",
         "v3": "მოსული",
         "group": "irregular"
     },
@@ -784,7 +784,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
-        "subtext": "walk to work / walk home / walk slowly / walk every day",
+        "subtext": "ფეხით წახვიდე სამსახურში / სახლში / ნელა იარო",
         "form": "verb",
         "definitions": [
             {
@@ -796,7 +796,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "walked",
+        "v2": "იარა",
         "v3": "ვლილი",
         "group": "regular"
     },
@@ -805,7 +805,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "subtext": "drive to work / drive a car / drive home / drive carefully",
+        "subtext": "წახვიდე მანქანით სამსახურში / ატარო მანქანა",
         "form": "verb",
         "definitions": [
             {
@@ -817,7 +817,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drove",
+        "v2": "მართა",
         "v3": "მართული",
         "group": "irregular"
     },
@@ -826,7 +826,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
-        "subtext": "fly to a city / fly business class / fly economy",
+        "subtext": "გაფრინდე ქალაქში / ბიზნეს კლასით / ეკონომით",
         "form": "verb",
         "definitions": [
             {
@@ -838,7 +838,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "flew",
+        "v2": "იფრინა",
         "v3": "ნაფრენი",
         "group": "irregular"
     },
@@ -880,7 +880,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "left",
+        "v2": "წავიდა",
         "v3": "წასული",
         "group": "irregular"
     },
@@ -889,7 +889,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "move to a new place / move in / move out / move house",
+        "subtext": "გადახვიდე ახალ ადგილას / გადასახლდე",
         "form": "verb",
         "definitions": [
             {
@@ -901,7 +901,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "moved",
+        "v2": "გადავიდა",
         "v3": "გადასული",
         "group": "regular"
     },
@@ -910,7 +910,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
-        "subtext": "return home / return to work / return a call / return from",
+        "subtext": "დაბრუნდე სახლში / სამსახურში / გადაურეკო",
         "form": "verb",
         "definitions": [
             {
@@ -922,7 +922,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "returned",
+        "v2": "დაბრუნდა",
         "v3": "დაბრუნებული",
         "group": "regular"
     },
@@ -943,7 +943,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "traveled",
+        "v2": "იმოგზაურა",
         "v3": "ნამოგზაურები",
         "group": "regular"
     },
@@ -952,7 +952,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
-        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
+        "subtext": "ისაუზმო / ისადილო / ივახშმო / გარეთ ჭამო",
         "opposite": "drink",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -966,7 +966,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "ate",
+        "v2": "ჭამა",
         "v3": "ნაჭამი",
         "group": "irregular"
     },
@@ -975,7 +975,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
-        "subtext": "drink coffee / drink tea / drink water / drink beer",
+        "subtext": "დალიო ყავა / ჩაი / წყალი / ლუდი",
         "opposite": "eat",
         "oppositeEmoji": "🍎",
         "form": "verb",
@@ -1012,7 +1012,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "slept",
+        "v2": "ეძინა",
         "v3": "ნაძინები",
         "group": "irregular"
     },
@@ -1033,7 +1033,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cooked",
+        "v2": "მოამზადა",
         "v3": "მომზადებული",
         "group": "regular"
     },
@@ -1075,7 +1075,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "wore",
+        "v2": "ატარა",
         "v3": "ნატარები",
         "group": "irregular"
     },
@@ -1084,7 +1084,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
-        "subtext": "wash the dishes / wash clothes / wash your hands",
+        "subtext": "გარეცხო ჭურჭელი / ტანსაცმელი / ხელები",
         "form": "verb",
         "definitions": [
             {
@@ -1105,7 +1105,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
-        "subtext": "buy food / buy a ticket / buy online / buy a house",
+        "subtext": "იყიდო საჭმელი / ბილეთი / ონლაინ",
         "opposite": "sell",
         "oppositeEmoji": "🏷️",
         "form": "verb",
@@ -1119,7 +1119,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "bought",
+        "v2": "იყიდა",
         "v3": "ნაყიდი",
         "group": "irregular"
     },
@@ -1128,7 +1128,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+        "subtext": "გადაიხადო გადასახადი / ქირა / ბარათით",
         "form": "verb",
         "definitions": [
             {
@@ -1140,7 +1140,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "paid",
+        "v2": "გადაიხადა",
         "v3": "გადახდილი",
         "group": "irregular"
     },
@@ -1149,7 +1149,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
-        "subtext": "spend money / spend on food / spend on rent / spend time",
+        "subtext": "დახარჯო ფული / დრო",
         "form": "verb",
         "definitions": [
             {
@@ -1161,7 +1161,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "spent",
+        "v2": "დახარჯა",
         "v3": "დახარჯული",
         "group": "irregular"
     },
@@ -1170,7 +1170,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
-        "subtext": "save money / save for a holiday / save for a house",
+        "subtext": "დაზოგო ფული / შეინახო",
         "opposite": "spend",
         "oppositeEmoji": "💸",
         "form": "verb",
@@ -1184,7 +1184,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "saved",
+        "v2": "დაზოგა",
         "v3": "დაზოგილი",
         "group": "regular"
     },
@@ -1193,7 +1193,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
-        "subtext": "work from home / work full-time / work hard / work late",
+        "subtext": "იმუშაო სახლიდან / სრულ განაკვეთზე / ბევრი იმუშაო",
         "form": "verb",
         "definitions": [
             {
@@ -1205,7 +1205,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "worked",
+        "v2": "იმუშავა",
         "v3": "ნამუშევარი",
         "group": "regular"
     },
@@ -1214,7 +1214,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
-        "subtext": "live in a flat / live alone / live with someone / live abroad",
+        "subtext": "იცხოვრო ბინაში / მარტომ / ვინმესთან / საზღვარგარეთ",
         "opposite": "die",
         "oppositeEmoji": "⚰️",
         "form": "verb",
@@ -1228,7 +1228,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "lived",
+        "v2": "იცხოვრა",
         "v3": "ნაცხოვრები",
         "group": "regular"
     },
@@ -1237,7 +1237,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "think about / think of / think it is / think carefully",
+        "subtext": "იფიქრო რამეზე / გქონდეს აზრი / კარგად დაფიქრდე",
         "form": "verb",
         "definitions": [
             {
@@ -1249,7 +1249,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "thought",
+        "v2": "იფიქრა",
         "v3": "ნაფიქრი",
         "group": "irregular"
     },
@@ -1258,7 +1258,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "know someone / know the answer / know a place / know how to",
+        "subtext": "იცნობდე ვინმეს / იცოდე პასუხი / იცოდე ადგილი",
         "form": "verb",
         "definitions": [
             {
@@ -1270,7 +1270,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "knew",
+        "v2": "იცოდა",
         "v3": "ცნობილი",
         "group": "irregular"
     },
@@ -1279,7 +1279,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
-        "subtext": "want a job / want to leave / want more money / want help",
+        "subtext": "გინდოდეს სამსახური / წასვლა / მეტი ფული / დახმარება",
         "form": "verb",
         "definitions": [
             {
@@ -1291,7 +1291,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "wanted",
+        "v2": "უნდოდა",
         "v3": "ნანდომი",
         "group": "regular"
     },
@@ -1300,7 +1300,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
-        "subtext": "need help / need time / need money / need to rest",
+        "subtext": "გჭირდებოდეს დახმარება / დრო / ფული / დასვენება",
         "form": "verb",
         "definitions": [
             {
@@ -1312,7 +1312,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "needed",
+        "v2": "სჭირდებოდა",
         "v3": "საჭიროებული",
         "group": "regular"
     },
@@ -1321,7 +1321,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
-        "subtext": "like work / like to travel / like someone / like the idea",
+        "subtext": "მოგწონდეს მუშაობა / მოგზაურობა / ვინმე / იდეა",
         "form": "verb",
         "definitions": [
             {
@@ -1333,7 +1333,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "liked",
+        "v2": "მოეწონა",
         "v3": "მოწონებული",
         "group": "regular"
     },
@@ -1342,7 +1342,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
-        "subtext": "love someone / love doing / love a place / love the idea",
+        "subtext": "გიყვარდეს ვინმე / რამის კეთება / ადგილი",
         "form": "verb",
         "definitions": [
             {
@@ -1354,7 +1354,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "loved",
+        "v2": "უყვარდა",
         "v3": "ყვარებული",
         "group": "regular"
     },
@@ -1363,7 +1363,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
-        "subtext": "hate doing / hate someone / hate meetings / hate commuting",
+        "subtext": "გძულდეს რამის კეთება / ვინმე / შეხვედრები",
         "form": "verb",
         "definitions": [
             {
@@ -1384,7 +1384,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
-        "subtext": "hope for / hope to do / hope that / I hope so",
+        "subtext": "გქონდეს იმედი / გინდოდეს გააკეთო / იმედი მაქვს",
         "form": "verb",
         "definitions": [
             {
@@ -1405,7 +1405,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "remember to do / remember a name / remember clearly",
+        "subtext": "გახსოვდეს გაკეთება / გახსოვდეს სახელი / ნათლად",
         "form": "verb",
         "definitions": [
             {
@@ -1417,7 +1417,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "remembered",
+        "v2": "გაახსენდა",
         "v3": "გახსენებული",
         "group": "regular"
     },
@@ -1426,7 +1426,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
-        "subtext": "forget a name / forget to do / forget about / completely forget",
+        "subtext": "დაგავიწყდეს სახელი / დაგავიწყდეს გაკეთება",
         "form": "verb",
         "definitions": [
             {
@@ -1438,7 +1438,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "forgot",
+        "v2": "დაავიწყდა",
         "v3": "დავიწყებული",
         "group": "irregular"
     },
@@ -1447,7 +1447,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💡",
-        "subtext": "understand a problem / understand someone / understand clearly",
+        "subtext": "გაიგო პრობლემა / გაუგო ვინმეს / ნათლად",
         "form": "verb",
         "definitions": [
             {
@@ -1459,7 +1459,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "understood",
+        "v2": "გაიგო",
         "v3": "გაგებული",
         "group": "irregular"
     },
@@ -1468,7 +1468,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "decide to do / decide on / make a decision / hard to decide",
+        "subtext": "გადაწყვიტო გაკეთება / მიიღო გადაწყვეტილება",
         "form": "verb",
         "definitions": [
             {
@@ -1480,7 +1480,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "decided",
+        "v2": "გადაწყვიტა",
         "v3": "გადაწყვეტილი",
         "group": "regular"
     },
@@ -1489,7 +1489,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
-        "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
+        "subtext": "ისიამოვნო კეთებით / კერძით / ცხოვრებით",
         "form": "verb",
         "definitions": [
             {
@@ -1501,7 +1501,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "enjoyed",
+        "v2": "ისიამოვნა",
         "v3": "ნასიამოვნები",
         "group": "regular"
     },
@@ -1510,7 +1510,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "subtext": "see a doctor / see friends / see the problem / see clearly",
+        "subtext": "ნახო ექიმი / მეგობრები / დაინახო პრობლემა",
         "form": "verb",
         "definitions": [
             {
@@ -1522,7 +1522,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "saw",
+        "v2": "დაინახა",
         "v3": "ნანახი",
         "group": "irregular"
     },
@@ -1531,7 +1531,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "subtext": "hear news / hear from someone / hear a sound / hear clearly",
+        "subtext": "გაიგო ამბები / გაიგონო ხმა / ნათლად",
         "form": "verb",
         "definitions": [
             {
@@ -1543,7 +1543,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "heard",
+        "v2": "გაიგონა",
         "v3": "გაგონილი",
         "group": "irregular"
     },
@@ -1553,7 +1553,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
-        "subtext": "wake up early / wake up late / wake up tired",
+        "subtext": "გაიღვიძო ადრე / გვიან / დაღლილმა",
         "opposite": "sleep",
         "oppositeEmoji": "😴",
         "definitions": [
@@ -1566,7 +1566,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "woke up",
+        "v2": "გაიღვიძა",
         "v3": "გაღვიძებული",
         "group": "irregular"
     },
@@ -1576,7 +1576,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
-        "subtext": "watch TV / watch a film / watch the news / watch closely",
+        "subtext": "უყურო ტელევიზორს / ფილმს / ახალ ამბებს",
         "definitions": [
             {
                 "text": "რაიმესთვის ყურება გარკვეული დროით:",
@@ -1587,7 +1587,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "watched",
+        "v2": "უყურა",
         "v3": "ნანახი",
         "group": "regular"
     },
@@ -1596,7 +1596,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "look at / look for / look like / look happy",
+        "subtext": "შეხედო / მოძებნო / გავდე ვინმეს / ჩანდე ბედნიერი",
         "form": "verb",
         "definitions": [
             {
@@ -1608,7 +1608,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "v2": "looked",
+        "v2": "უყურა",
         "v3": "ნანახი",
         "group": "regular"
     },
@@ -1617,7 +1617,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "subtext": "play sport / play a game / play music / play a role",
+        "subtext": "ითამაშო სპორტი / თამაში / მუსიკა",
         "form": "verb",
         "definitions": [
             {
@@ -1629,7 +1629,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "played",
+        "v2": "ითამაშა",
         "v3": "ნათამაშები",
         "group": "regular"
     },
@@ -1638,7 +1638,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
-        "subtext": "run a race / run a business / run out of / run late",
+        "subtext": "ირბინო / მართო ბიზნესი / დააგვიანო",
         "form": "verb",
         "definitions": [
             {
@@ -1650,7 +1650,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "ran",
+        "v2": "ირბინა",
         "v3": "ნარბენი",
         "group": "irregular"
     },
@@ -1659,7 +1659,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
-        "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
+        "subtext": "დაჯდე / დაჯდე მაგიდასთან / იჯდე შეხვედრაზე",
         "opposite": "stand",
         "oppositeEmoji": "🧍",
         "form": "verb",
@@ -1673,7 +1673,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sat",
+        "v2": "იჯდა",
         "v3": "ნაჯდომი",
         "group": "irregular"
     },
@@ -1682,7 +1682,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "stand up / stand in a queue / stand by / stand out",
+        "subtext": "ადგე / იდგე რიგში / გამოირჩეოდე",
         "opposite": "sit",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1696,7 +1696,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "stood",
+        "v2": "იდგა",
         "v3": "მდგარი",
         "group": "irregular"
     },
@@ -1716,9 +1716,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "met",
+        "v2": "შეხვდა",
         "v3": "შეხვედრილი",
-        "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
+        "subtext": "შეხვდე კლიენტს / კოლეგას / ისადილოთ",
         "group": "irregular"
     },
     {
@@ -1726,7 +1726,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
-        "subtext": "learn a language / learn a skill / learn from / learn how to",
+        "subtext": "ისწავლო ენა / უნარი / ისწავლო როგორ",
         "form": "verb",
         "definitions": [
             {
@@ -1738,7 +1738,7 @@
         ],
         "classification": "both",
         "aspect": "action",
-        "v2": "learned / learnt",
+        "v2": "ისწავლა",
         "v3": "ნასწავლი",
         "group": "both"
     },
@@ -1747,7 +1747,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🔄",
-        "subtext": "change jobs / change your mind / change the plan / change something",
+        "subtext": "შეიცვალო სამსახური / აზრი / გეგმა",
         "form": "verb",
         "definitions": [
             {
@@ -1759,7 +1759,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "changed",
+        "v2": "შეცვალა",
         "v3": "შეცვლილი",
         "group": "regular"
     },
@@ -1768,7 +1768,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "stop doing / stop working / stop a habit / stop someone",
+        "subtext": "შეწყვიტო კეთება / მუშაობა / გააჩერო ვინმე",
         "form": "verb",
         "definitions": [
             {
@@ -1780,7 +1780,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "stopped",
+        "v2": "გაჩერდა",
         "v3": "გაჩერებული",
         "group": "regular"
     },
@@ -1789,7 +1789,7 @@
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
-        "subtext": "add some sugar / add to / add up / add a comment",
+        "subtext": "დაამატო შაქარი / დაამატო / დაამატო კომენტარი",
         "form": "verb",
         "definitions": [
             {
@@ -1801,7 +1801,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "added",
+        "v2": "დაამატა",
         "v3": "დამატებული",
         "group": "regular"
     },
@@ -1810,7 +1810,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
-        "subtext": "win a game / win a prize / win an award / win a contract",
+        "subtext": "მოიგო თამაში / პრიზი / კონტრაქტი",
         "opposite": "lose",
         "oppositeEmoji": "📉",
         "form": "verb",
@@ -1824,7 +1824,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "won",
+        "v2": "მოიგო",
         "v3": "მოგებული",
         "group": "irregular"
     },
@@ -1833,7 +1833,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
-        "subtext": "wait for someone / wait in a queue / wait a moment",
+        "subtext": "დაელოდო ვინმეს / იცადო რიგში / დაიცადო ცოტა ხანი",
         "form": "verb",
         "definitions": [
             {
@@ -1845,7 +1845,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "waited",
+        "v2": "ელოდა",
         "v3": "ნალოდინები",
         "group": "regular"
     },
@@ -1854,7 +1854,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
-        "subtext": "die of / die for / die from / die out",
+        "subtext": "მოკვდე რამით / დაიღუპო",
         "opposite": "live",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -1888,9 +1888,9 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sent",
+        "v2": "გაგზავნა",
         "v3": "გაგზავნილი",
-        "subtext": "send an email / send a message / send a report / send a file",
+        "subtext": "გააგზავნო იმეილი / შეტყობინება / ანგარიში",
         "group": "irregular"
     },
     {
@@ -1898,7 +1898,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
-        "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
+        "subtext": "დარჩე სახლში / სასტუმროში / გვიანობამდე",
         "form": "verb",
         "definitions": [
             {
@@ -1910,7 +1910,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "stayed",
+        "v2": "დარჩა",
         "v3": "დარჩენილი",
         "group": "regular"
     },
@@ -1919,7 +1919,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "subtext": "fall down / fall off / fall in love / fall asleep",
+        "subtext": "ჩამოვარდე / წაიქცე / შეგიყვარდეს / დაგეძინოს",
         "form": "verb",
         "definitions": [
             {
@@ -1931,7 +1931,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "fell",
+        "v2": "დავარდა",
         "v3": "დაცემული",
         "group": "irregular"
     },
@@ -1940,7 +1940,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
-        "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
+        "subtext": "ჩააბარო გამოცდა / გადააწოდო ბურთი / გაატარო დრო",
         "form": "verb",
         "definitions": [
             {
@@ -1952,7 +1952,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "passed",
+        "v2": "გაიარა",
         "v3": "გავლილი",
         "group": "regular"
     },
@@ -1961,7 +1961,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
-        "subtext": "sell products / sell online / sell at the market / best seller",
+        "subtext": "გაყიდო პროდუქტები / ონლაინ / ბაზარზე",
         "opposite": "buy",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -1975,7 +1975,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sold",
+        "v2": "გაყიდა",
         "v3": "გაყიდული",
         "group": "irregular"
     },
@@ -1984,7 +1984,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "pull the door / pull something / pull up / pull away",
+        "subtext": "გამოაღო კარი / მოქაჩო რამე",
         "opposite": "push",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -1998,7 +1998,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "pulled",
+        "v2": "გაწია",
         "v3": "გამოწეული",
         "group": "regular"
     },
@@ -2007,7 +2007,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
-        "subtext": "push the button / push a cart / push away / push through",
+        "subtext": "დააჭირო ღილაკს / მიაწვე რამეს",
         "opposite": "pull",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2030,7 +2030,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
-        "subtext": "carry a bag / carry notes / carry out / carry on",
+        "subtext": "ატარო ჩანთა / ჩანაწერები / შეასრულო",
         "form": "verb",
         "definitions": [
             {
@@ -2042,7 +2042,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "carried",
+        "v2": "ატარა",
         "v3": "ნატარები",
         "group": "regular"
     },
@@ -2051,7 +2051,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "break the glass / break a law / take a break / break down",
+        "subtext": "გატეხო შუშა / დაარღვიო კანონი / შეისვენო",
         "form": "verb",
         "definitions": [
             {
@@ -2063,7 +2063,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "broke",
+        "v2": "გატეხა",
         "v3": "გატეხილი",
         "group": "irregular"
     },
@@ -2072,7 +2072,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
-        "subtext": "receive an email / receive a gift / receive payment / receive news",
+        "subtext": "მიიღო იმეილი / საჩუქარი / გადახდა",
         "form": "verb",
         "definitions": [
             {
@@ -2084,7 +2084,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "received",
+        "v2": "მიიღო",
         "v3": "მიღებული",
         "group": "regular"
     },
@@ -2093,7 +2093,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
-        "subtext": "agree with someone / agree to do / agree on / I agree",
+        "subtext": "დაეთანხმო ვინმეს / დაეთანხმო გაკეთებას",
         "form": "verb",
         "definitions": [
             {
@@ -2105,7 +2105,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "agreed",
+        "v2": "დაეთანხმა",
         "v3": "დათანხმებული",
         "group": "regular"
     },
@@ -2114,7 +2114,7 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
-        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
+        "subtext": "დახატო სურათი / გამოიტანო დასკვნა",
         "form": "verb",
         "definitions": [
             {
@@ -2126,7 +2126,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drew",
+        "v2": "დახატა",
         "v3": "დახატული",
         "group": "irregular"
     },
@@ -2135,7 +2135,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
-        "subtext": "share a room / share information / share an idea / share with",
+        "subtext": "გაიყო ოთახი / გააზიარო ინფორმაცია",
         "form": "verb",
         "definitions": [
             {
@@ -2147,7 +2147,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "shared",
+        "v2": "გააზიარა",
         "v3": "გაზიარებული",
         "group": "regular"
     },
@@ -2156,7 +2156,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
-        "subtext": "smile at someone / a big smile / smile broadly",
+        "subtext": "გაუღიმო ვინმეს / დიდი ღიმილი",
         "opposite": "cry",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2170,7 +2170,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "smiled",
+        "v2": "გაიღიმა",
         "v3": "გაღიმებული",
         "group": "regular"
     },
@@ -2179,7 +2179,7 @@
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
-        "subtext": "cry for help / cry out / start crying / cry about something",
+        "subtext": "ითხოვო დახმარება / დაიყვირო / ატირდე",
         "opposite": "smile",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2193,7 +2193,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cried",
+        "v2": "იტირა",
         "v3": "ნატირები",
         "group": "regular"
     },
@@ -2202,7 +2202,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
-        "subtext": "dance to music / go dancing / dance together / slow dance",
+        "subtext": "იცეკვო მუსიკაზე / წახვიდე საცეკვაოდ",
         "form": "verb",
         "definitions": [
             {
@@ -2214,7 +2214,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "danced",
+        "v2": "იცეკვა",
         "v3": "ნაცეკვი",
         "group": "regular"
     },
@@ -2223,7 +2223,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
-        "subtext": "sing a song / sing along / sing well / lead singer",
+        "subtext": "იმღერო სიმღერა / იმღერო კარგად",
         "form": "verb",
         "definitions": [
             {
@@ -2235,7 +2235,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sang",
+        "v2": "იმღერა",
         "v3": "ნამღერი",
         "group": "irregular"
     },
@@ -2244,7 +2244,7 @@
         "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
-        "subtext": "jump high / jump over / jump up / jump in",
+        "subtext": "ახტე მაღლა / გადახტე / ახტე",
         "form": "verb",
         "definitions": [
             {
@@ -2256,7 +2256,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "jumped",
+        "v2": "გადახტა",
         "v3": "ნახტომი",
         "group": "regular"
     },
@@ -2265,7 +2265,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
-        "subtext": "go swimming / swim across / swim laps / swim well",
+        "subtext": "წახვიდე საცურაოდ / გადაცურო / იცურო კარგად",
         "form": "verb",
         "definitions": [
             {
@@ -2277,7 +2277,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "swam",
+        "v2": "იცურავა",
         "v3": "ნაცურავი",
         "group": "irregular"
     },
@@ -2286,7 +2286,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "study English / study for an exam / study hard / self-study",
+        "subtext": "ისწავლო ინგლისური / იმეცადინო გამოცდისთვის",
         "form": "verb",
         "definitions": [
             {
@@ -2298,7 +2298,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "studied",
+        "v2": "ისწავლა",
         "v3": "ნასწავლი",
         "group": "regular"
     },
@@ -2307,7 +2307,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
-        "subtext": "teach someone / teach a subject / teach how to / teach a class",
+        "subtext": "ასწავლო ვინმეს / ასწავლო საგანი",
         "form": "verb",
         "definitions": [
             {
@@ -2319,7 +2319,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "taught",
+        "v2": "ასწავლა",
         "v3": "ნასწავლები",
         "group": "irregular"
     },
@@ -2328,7 +2328,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "commute to work / daily commute / long commute / commute by train",
+        "subtext": "იმგზავრო სამსახურამდე / ყოველდღიურად",
         "form": "verb",
         "definitions": [
             {
@@ -2340,7 +2340,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "commuted",
+        "v2": "იმგზავრა",
         "v3": "ნამგზავრები",
         "group": "regular"
     },
@@ -2349,7 +2349,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
-        "subtext": "rent a flat / rent a property / rent out a room",
+        "subtext": "იქირაო ბინა / გააქირაო ოთახი",
         "form": "verb",
         "definitions": [
             {
@@ -2361,7 +2361,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "rented",
+        "v2": "იქირავა",
         "v3": "ნაქირავები",
         "group": "regular"
     },
@@ -2381,9 +2381,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "exercised",
+        "v2": "ივარჯიშა",
         "v3": "ნავარჯიშევი",
-        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
+        "subtext": "ივარჯიშო რეგულარულად / დარბაზში",
         "group": "regular"
     },
     {
@@ -2402,9 +2402,9 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "cost",
+        "v2": "ღირდა",
         "v3": "ღირებული",
-        "subtext": "cost a lot / cost money / cost too much / cost less",
+        "subtext": "ღირდეს ძვირი / ღირდეს ფული",
         "group": "irregular"
     },
     {
@@ -2423,9 +2423,9 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "invited",
+        "v2": "დაპატიჟა",
         "v3": "დაპატიჟებული",
-        "subtext": "invite someone / invite to dinner / invite to a party",
+        "subtext": "დაპატიჟო ვინმე / სადილზე / წვეულებაზე",
         "group": "regular"
     },
     {
@@ -2438,10 +2438,10 @@
                 ]
             }
         ],
-        "subtext": "get up early / get up late / get up quickly",
+        "subtext": "ადგე ადრე / გვიან / სწრაფად",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "got up",
+        "v2": "ადგა",
         "v3": "ამდაგარი",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
@@ -2459,10 +2459,10 @@
                 ]
             }
         ],
-        "subtext": "have breakfast at home / have a quick breakfast / skip breakfast",
+        "subtext": "ისაუზმო სახლში / სწრაფად ისაუზმო",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "had breakfast",
+        "v2": "ისაუზმა",
         "v3": "ნასაუზმევი",
         "theme": "daily_work_routines_A1",
         "emoji": "🍳",
@@ -2480,10 +2480,10 @@
                 ]
             }
         ],
-        "subtext": "come back home / come back late / come back from a trip",
+        "subtext": "დაბრუნდე სახლში / გვიან დაბრუნდე",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "came back",
+        "v2": "დაბრუნდა",
         "v3": "დაბრუნებული",
         "theme": "daily_work_routines_A1",
         "emoji": "🔙",
@@ -2501,7 +2501,7 @@
                 ]
             }
         ],
-        "subtext": "go to bed early / go to bed late / go to bed tired",
+        "subtext": "დაწვე დასაძინებლად ადრე / გვიან",
         "classification": "irregular",
         "aspect": "action",
         "v2": null,
@@ -2522,10 +2522,10 @@
                 ]
             }
         ],
-        "subtext": "check emails / check messages / check a document / check the time",
+        "subtext": "შეამოწმო იმეილები / შეტყობინებები",
         "classification": "regular",
         "aspect": "action",
-        "v2": "checked",
+        "v2": "შეამოწმა",
         "v3": "შემოწმებული",
         "theme": "workplace_basics_A1",
         "emoji": "✅",
@@ -2543,10 +2543,10 @@
                 ]
             }
         ],
-        "subtext": "reply to an email / reply quickly / reply to a message",
+        "subtext": "უპასუხო იმეილს / უპასუხო სწრაფად",
         "classification": "regular",
         "aspect": "action",
-        "v2": "replied",
+        "v2": "უპასუხა",
         "v3": "გაცემული",
         "theme": "workplace_basics_A1",
         "emoji": "↩️",
@@ -2564,10 +2564,10 @@
                 ]
             }
         ],
-        "subtext": "present a report / present ideas / present to a client",
+        "subtext": "წარადგინო ანგარიში / იდეები / კლიენტთან",
         "classification": "regular",
         "aspect": "action",
-        "v2": "presented",
+        "v2": "წარადგინა",
         "v3": "წარდგენილი",
         "theme": "workplace_basics_A1",
         "emoji": "📊",
@@ -2585,10 +2585,10 @@
                 ]
             }
         ],
-        "subtext": "attend a meeting / attend a course / attend an event",
+        "subtext": "დაესწრო შეხვედრას / კურსს / ღონისძიებას",
         "classification": "regular",
         "aspect": "action",
-        "v2": "attended",
+        "v2": "დაესწრო",
         "v3": "დასწრებული",
         "theme": "workplace_basics_A1",
         "emoji": "📅",
@@ -2606,10 +2606,10 @@
                 ]
             }
         ],
-        "subtext": "manage a team / manage a project / manage time / manage stress",
+        "subtext": "მართო გუნდი / პროექტი / დრო",
         "classification": "regular",
         "aspect": "action",
-        "v2": "managed",
+        "v2": "მართა",
         "v3": "მართული",
         "theme": "workplace_basics_A1",
         "emoji": "👤",
@@ -2627,10 +2627,10 @@
                 ]
             }
         ],
-        "subtext": "charge a fee / charge for a service / charge extra",
+        "subtext": "აიღო საფასური / მომსახურებისთვის",
         "classification": "regular",
         "aspect": "action",
-        "v2": "charged",
+        "v2": "გადაახდევინა",
         "v3": "გადახდევინებული",
         "theme": "money_payment_A1",
         "emoji": "💳",
@@ -2648,10 +2648,10 @@
                 ]
             }
         ],
-        "subtext": "afford a house / afford to travel / afford something",
+        "subtext": "შეძლო სახლის ყიდვა / მგზავრობა",
         "classification": "regular",
         "aspect": "stative",
-        "v2": "afforded",
+        "v2": "შეძლო გადახდა",
         "v3": "წვდომილი",
         "theme": "money_payment_A1",
         "emoji": "🏦",
@@ -2669,10 +2669,10 @@
                 ]
             }
         ],
-        "subtext": "owe money / owe someone / owe a lot / owe nothing",
+        "subtext": "გემართოს ფული / გემართოს ვინმესი",
         "classification": "regular",
         "aspect": "stative",
-        "v2": "owed",
+        "v2": "ემართა",
         "v3": "მართებული",
         "theme": "money_payment_A1",
         "emoji": "💸",
@@ -2690,10 +2690,10 @@
                 ]
             }
         ],
-        "subtext": "earn a salary / earn money / earn more / earn enough",
+        "subtext": "აიღო ხელფასი / იშოვო ფული",
         "classification": "regular",
         "aspect": "action",
-        "v2": "earned",
+        "v2": "გამოიმუშავა",
         "v3": "გამომუშავებული",
         "theme": "money_payment_A1",
         "emoji": "💶",
@@ -2711,10 +2711,10 @@
                 ]
             }
         ],
-        "subtext": "visit family / visit a friend / visit a city / visit regularly",
+        "subtext": "ესტუმრო ოჯახს / მეგობარს / ქალაქს",
         "classification": "regular",
         "aspect": "action",
-        "v2": "visited",
+        "v2": "ესტუმრა",
         "v3": "ნასტუმრები",
         "theme": "family_life_A1",
         "emoji": "🏘️",
@@ -2732,10 +2732,10 @@
                 ]
             }
         ],
-        "subtext": "celebrate a birthday / celebrate success / celebrate together",
+        "subtext": "აღნიშნო დაბადების დღე / წარმატება",
         "classification": "regular",
         "aspect": "action",
-        "v2": "celebrated",
+        "v2": "აღნიშნა",
         "v3": "აღნიშნული",
         "theme": "leisure_activities_A1",
         "emoji": "🎉",
@@ -2753,10 +2753,10 @@
                 ]
             }
         ],
-        "subtext": "recommend a place / recommend someone / recommend a film",
+        "subtext": "გაუწიო რეკომენდაცია ადგილს / ვინმეს",
         "classification": "regular",
         "aspect": "action",
-        "v2": "recommended",
+        "v2": "გაუწია რეკომενდაცია",
         "v3": "რეკომენდებული",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
@@ -2774,7 +2774,7 @@
                 ]
             }
         ],
-        "subtext": "hurt your back / hurt someone / hurt yourself / it hurts",
+        "subtext": "იტკინო ზურგი / ატკინო ვინმეს / გტკიოდეს",
         "classification": "irregular",
         "aspect": "both",
         "v2": "hurt",
@@ -2795,10 +2795,10 @@
                 ]
             }
         ],
-        "subtext": "rest at home / rest after work / need rest / get some rest",
+        "subtext": "დაისვენო სახლში / სამუშაოს შემდეგ",
         "classification": "regular",
         "aspect": "action",
-        "v2": "rested",
+        "v2": "დაისვენა",
         "v3": "დასვენებული",
         "theme": "daily_work_routines_A1",
         "emoji": "🛋️",
@@ -2816,10 +2816,10 @@
                 ]
             }
         ],
-        "subtext": "recover from illness / recover quickly / recover fully",
+        "subtext": "გამოჯანმრთელდე / სწრაფად",
         "classification": "regular",
         "aspect": "action",
-        "v2": "recovered",
+        "v2": "გამოჯანმრთელდა",
         "v3": "გამოჯანმრთელებული",
         "theme": "medical_appointments_A1",
         "emoji": "🩹",
@@ -2837,10 +2837,10 @@
                 ]
             }
         ],
-        "subtext": "book a hotel / book a flight / book a table / book in advance",
+        "subtext": "დაჯავშნო სასტუმრო / ფრენა / მაგიდა",
         "classification": "regular",
         "aspect": "action",
-        "v2": "booked",
+        "v2": "დაჯავშნა",
         "v3": "დაჯავშნილი",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "📖",
@@ -2858,10 +2858,10 @@
                 ]
             }
         ],
-        "subtext": "pack a bag / pack a suitcase / pack lightly",
+        "subtext": "ჩაალაგო ჩანთა / ჩემოდანი",
         "classification": "regular",
         "aspect": "action",
-        "v2": "packed",
+        "v2": "ჩაალაგა",
         "v3": "ჩალაგებული",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎒",
@@ -2879,10 +2879,10 @@
                 ]
             }
         ],
-        "subtext": "cancel a flight / cancel a booking / cancel a meeting",
+        "subtext": "გააუქმო ფრენა / ჯავშანი / შეხვედრა",
         "classification": "regular",
         "aspect": "action",
-        "v2": "cancelled",
+        "v2": "გააუქმა",
         "v3": "გაუქმებული",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "❌",
@@ -2900,10 +2900,10 @@
                 ]
             }
         ],
-        "subtext": "miss a train / miss a flight / miss someone / miss work",
+        "subtext": "გაგიხდეს მატარებელი / მოგენატროს ვინმე",
         "classification": "regular",
         "aspect": "both",
-        "v2": "missed",
+        "v2": "გამოტოვა",
         "v3": "გამოტოვებული",
         "theme": "public_transport_A1",
         "emoji": "🏃‍♂️",
@@ -2916,7 +2916,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📦",
-        "subtext": "order food / order a drink / order online / order supplies",
+        "subtext": "შეუკვეთო საჭმელი / სასმელი / ონლაინ",
         "form": "verb",
         "definitions": [
             {
@@ -2928,7 +2928,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "ordered",
+        "v2": "შეუკვეთა",
         "v3": "შეკვეთილი",
         "group": "regular"
     },
@@ -2937,7 +2937,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💡",
-        "subtext": "explain a process / explain clearly / explain to someone",
+        "subtext": "ახსნა პროცესი / ახსნა ნათლად / აუხსნა ვინმეს",
         "form": "verb",
         "definitions": [
             {
@@ -2949,7 +2949,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "explained",
+        "v2": "აუხსნა",
         "v3": "ახსნილი",
         "group": "regular"
     },
@@ -2958,7 +2958,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "subtext": "thank someone / thank you for / many thanks",
+        "subtext": "გადაუხადო მადლობა / გმადლობთ",
         "form": "verb",
         "definitions": [
             {
@@ -2970,7 +2970,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "thanked",
+        "v2": "გადაუხადა მადლობა",
         "v3": "მადლობა გადახდილი",
         "group": "regular"
     },
@@ -2979,7 +2979,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
-        "subtext": "introduce yourself / introduce someone / introduce a topic",
+        "subtext": "წარადგინო თავი / გააცნო ვინმე",
         "form": "verb",
         "definitions": [
             {
@@ -2991,7 +2991,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "introduced",
+        "v2": "წარადგინა",
         "v3": "წარდგენილი",
         "group": "regular"
     },
@@ -3000,7 +3000,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
-        "subtext": "relax at home / relax after work / relax on holiday",
+        "subtext": "მოისვენო სახლში / დაისვენო",
         "form": "verb",
         "definitions": [
             {
@@ -3012,7 +3012,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "relaxed",
+        "v2": "მოდუნდა",
         "v3": "მოდუნებული",
         "group": "regular"
     },
@@ -3021,7 +3021,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
-        "subtext": "repair something / get repaired / repair costs",
+        "subtext": "შეაკეთო რამე / შეკეთების ხარჯები",
         "form": "verb",
         "definitions": [
             {
@@ -3033,7 +3033,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "repaired",
+        "v2": "შეაკეთა",
         "v3": "შეკეთებული",
         "group": "regular"
     },
@@ -3042,7 +3042,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
-        "subtext": "what happened / happen to someone / it happens / happen again",
+        "subtext": "რა მოხდა / შეემთხვა ვინმეს / ხდება",
         "form": "verb",
         "definitions": [
             {
@@ -3054,7 +3054,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "happened",
+        "v2": "მოხდა",
         "v3": "მოხდენილი",
         "group": "regular"
     },
@@ -3063,7 +3063,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
-        "subtext": "seem fine / seem worried / seem happy / seem like",
+        "subtext": "ჩანდე კარგად / ჩანდე შეწუხებული",
         "form": "verb",
         "definitions": [
             {
@@ -3084,7 +3084,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
-        "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
+        "subtext": "ნიშნავდეს რამეს / რას ნიშნავს",
         "form": "verb",
         "definitions": [
             {
@@ -3105,7 +3105,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
-        "subtext": "follow instructions / follow someone / follow the news / follow up",
+        "subtext": "მიჰყვე ინსტრუქციებს / მიჰყვე ვინმეს",
         "form": "verb",
         "definitions": [
             {
@@ -3117,7 +3117,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "followed",
+        "v2": "მიჰყვა",
         "v3": "მიყოლილი",
         "group": "regular"
     },
@@ -3126,7 +3126,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "continue working / continue to do / continue with / continue a task",
+        "subtext": "გააგრძელო მუშაობა / გააგრძელო კეთება",
         "form": "verb",
         "definitions": [
             {
@@ -3138,7 +3138,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "continued",
+        "v2": "გააგრძელა",
         "v3": "გაგრძელებული",
         "group": "regular"
     },
@@ -3147,7 +3147,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
-        "subtext": "grow a business / grow quickly / grow by / grow into",
+        "subtext": "გაზარდო ბიზნესი / გაიზარდო სწრაფად",
         "form": "verb",
         "definitions": [
             {
@@ -3159,7 +3159,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "grew",
+        "v2": "გაიზარდა",
         "v3": "გაზრდილი",
         "group": "irregular"
     },
@@ -3168,7 +3168,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
-        "subtext": "include something / include in / not included / price includes",
+        "subtext": "მოიცავდეს რამეს / შედიოდეს",
         "form": "verb",
         "definitions": [
             {
@@ -3180,7 +3180,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "included",
+        "v2": "მოიცვა",
         "v3": "მოცული",
         "group": "regular"
     },
@@ -3189,7 +3189,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✨",
-        "subtext": "become a manager / become popular / become clear / become important",
+        "subtext": "გახდე მენეჯერი / გახდე პოპულარული",
         "form": "verb",
         "definitions": [
             {
@@ -3201,7 +3201,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "became",
+        "v2": "გახდა",
         "v3": "გამხდარი",
         "group": "irregular"
     },
@@ -3210,7 +3210,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
-        "subtext": "belong to someone / belong in / feel like you belong",
+        "subtext": "ეკუთვნოდეს ვინმეს / გრძნობდე თავს თავის ადგილას",
         "form": "verb",
         "definitions": [
             {
@@ -3222,7 +3222,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "belonged",
+        "v2": "ეკუთვნოდა",
         "v3": "კუთვნილი",
         "group": "regular"
     },
@@ -3231,7 +3231,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👉",
-        "subtext": "choose between / choose to do / choose carefully / choose a career",
+        "subtext": "აირჩიო რამე / აირჩիო კეთება / ყურადღებით",
         "form": "verb",
         "definitions": [
             {
@@ -3243,7 +3243,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "chose",
+        "v2": "აირჩია",
         "v3": "არჩეული",
         "group": "irregular"
     },
@@ -3252,7 +3252,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
-        "subtext": "build a career / build a team / build experience / build trust",
+        "subtext": "ააწყო კარიერა / შექმნა გუნდი",
         "form": "verb",
         "definitions": [
             {
@@ -3273,6 +3273,5 @@
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

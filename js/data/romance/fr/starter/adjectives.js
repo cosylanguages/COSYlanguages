@@ -11,16 +11,16 @@
         "femininePlural": "grandes",
         "definitions": [
             {
-                "text": "A person or thing that is big from bottom to top.",
+                "text": "Une personne ou une chose qui est grande de bas en haut.",
                 "examples": [
-                    "He is very tall.",
-                    "That building is tall."
+                    "Il est très grand.",
+                    "Cet immeuble est grand."
                 ]
             },
             {
-                "text": "Of greater than average height.",
+                "text": "D'une taille supérieure à la moyenne.",
                 "examples": [
-                    "She is a tall woman who works as an engineer."
+                    "C'est une femme de grande taille qui travaille comme ingénieure."
                 ]
             }
         ],
@@ -41,10 +41,10 @@
         "femininePlural": "courtes",
         "definitions": [
             {
-                "text": "A person or thing that is not tall.",
+                "text": "Une personne ou une chose qui n'est pas grande.",
                 "examples": [
-                    "She is short.",
-                    "The pencil is short."
+                    "Elle est petite.",
+                    "Le crayon est court."
                 ]
             },
             {
@@ -69,9 +69,9 @@
         "femininePlural": "jeunes",
         "definitions": [
             {
-                "text": "Having lived or existed for only a short time.",
+                "text": "Ayant vécu ou existé depuis peu de temps.",
                 "examples": [
-                    "He is a young man."
+                    "C'est un jeune homme."
                 ]
             }
         ],
@@ -113,9 +113,9 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Having a lot of light from the sun.",
+                "text": "Ayant beaucoup de lumière du soleil.",
                 "examples": [
-                    "It is a sunny day.",
+                    "C'est une journée ensoleillée.",
                     "I like sunny weather."
                 ]
             }
@@ -135,9 +135,9 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Having a lot of rain.",
+                "text": "Ayant beaucoup de pluie.",
                 "examples": [
-                    "It is a rainy day.",
+                    "C'est une journée pluvieuse.",
                     "Wear a coat, it's rainy outside."
                 ]
             }
@@ -204,9 +204,9 @@
         "oppositeEmoji": "✨",
         "definitions": [
             {
-                "text": "Normal or usual; not special.",
+                "text": "Normal ou habituel ; pas spécial.",
                 "examples": [
-                    "It was an ordinary day."
+                    "C'était une journée ordinaire."
                 ]
             }
         ],
@@ -453,9 +453,9 @@
         "oppositeEmoji": "⏳",
         "definitions": [
             {
-                "text": "Working the complete number of hours in a working week.",
+                "text": "Travaillant le nombre complet d'heures d'une semaine de travail.",
                 "examples": [
-                    "She has a full-time job in a bank."
+                    "Elle a un emploi à plein temps dans une banque."
                 ]
             }
         ],
@@ -476,9 +476,9 @@
         "oppositeEmoji": "⏰",
         "definitions": [
             {
-                "text": "Working fewer hours than a standard working week.",
+                "text": "Travaillant moins d'heures qu'une semaine de travail standard.",
                 "examples": [
-                    "He works part-time on Saturdays."
+                    "Il travaille à temps partiel le samedi."
                 ]
             }
         ],
@@ -524,7 +524,7 @@
             {
                 "text": "Good for your body; not ill.",
                 "examples": [
-                    "Vegetables are healthy food."
+                    "Les légumes sont une nourriture saine."
                 ]
             }
         ],
@@ -544,9 +544,9 @@
         "femininePlural": "malades",
         "definitions": [
             {
-                "text": "Not well; sick.",
+                "text": "Pas bien ; malade.",
                 "examples": [
-                    "I feel ill today."
+                    "Je me sens malade aujourd'hui."
                 ]
             }
         ],
@@ -559,16 +559,16 @@
     {
         "word": "en ligne",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "offline",
         "oppositeEmoji": "📴",
         "definitions": [
             {
-                "text": "Using the internet.",
+                "text": "Utilisant Internet.",
                 "examples": [
-                    "I buy food online sometimes."
+                    "J'achète parfois de la nourriture en ligne."
                 ]
             }
         ],
@@ -589,9 +589,9 @@
         "oppositeEmoji": "👫",
         "definitions": [
             {
-                "text": "Without other people; by yourself.",
+                "text": "Sans autres personnes ; tout seul.",
                 "examples": [
-                    "She lives alone."
+                    "Elle vit seule."
                 ]
             }
         ],
@@ -612,9 +612,9 @@
         "femininePlural": "détendues",
         "definitions": [
             {
-                "text": "Calm; not worried or stressed.",
+                "text": "Calme ; pas inquiet ni stressé.",
                 "examples": [
-                    "I feel relaxed at the weekend."
+                    "Je me sens détendu le week-end."
                 ]
             }
         ],
@@ -634,9 +634,9 @@
         "femininePlural": "inquiètes",
         "definitions": [
             {
-                "text": "Feeling anxious about something that might happen.",
+                "text": "Se sentir anxieux à propos de quelque chose qui pourrait arriver.",
                 "examples": [
-                    "She is worried about her job."
+                    "Elle est inquiète pour son travail."
                 ]
             }
         ],

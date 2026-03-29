@@ -628,7 +628,7 @@
     {
         "word": "call",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "call someone / call back / call a meeting / call in sick",
         "form": "verb",

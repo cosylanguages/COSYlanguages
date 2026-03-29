@@ -610,7 +610,7 @@
     {
         "word": "καλώ",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "καλώ κάποιον / καλώ πίσω / συγκαλώ συνάντηση",
         "form": "verb",

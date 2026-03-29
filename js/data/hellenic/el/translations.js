@@ -837,7 +837,7 @@
             theme_types_of_accommodation_A1: "Τύποι καταλυμάτων",
             theme_types_of_education_A1: "Τύποι εκπαίδευσης",
             theme_urban_rural_life_B1: "Urban & rural life",
-            theme_using_a_smartphone_A1: "Χρήση smartphone",
+            theme_basic_technology_devices_A1: "Χρήση smartphone",
             theme_values_beliefs_B1: "Αξίες και πεποιθήσεις",
             theme_values_principles_B1: "Αξίες & αρχές",
             theme_verb_tenses_overview_B2: "Επισκόπηση χρόνων ρημάτων",
