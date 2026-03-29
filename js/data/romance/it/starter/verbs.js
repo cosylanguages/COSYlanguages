@@ -638,7 +638,7 @@
     {
         "word": "chiamare",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "chiamare qualcuno / richiamare / convocare una riunione",
         "form": "verb",

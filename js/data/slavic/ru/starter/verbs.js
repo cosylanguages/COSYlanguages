@@ -638,7 +638,7 @@
     {
         "word": "звонить",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "звонить кому-то / перезванивать / назначать встречу",
         "form": "verb",

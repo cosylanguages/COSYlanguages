@@ -13,16 +13,16 @@
         "femininePlural": "alte",
         "definitions": [
             {
-                "text": "A person or thing that is big from bottom to top.",
+                "text": "Una persona o una cosa che è alta.",
                 "examples": [
-                    "He is very tall.",
-                    "That building is tall."
+                    "Lui è molto alto.",
+                    "Quell'edificio è alto."
                 ]
             },
             {
-                "text": "Of greater than average height.",
+                "text": "Di statura superiore alla media.",
                 "examples": [
-                    "She is a tall woman who works as an engineer."
+                    "È una donna alta che lavora come ingegnere."
                 ]
             }
         ],
@@ -41,10 +41,10 @@
         "femininePlural": "corte",
         "definitions": [
             {
-                "text": "A person or thing that is not tall.",
+                "text": "Una persona o una cosa che non è alta.",
                 "examples": [
-                    "She is short.",
-                    "The pencil is short."
+                    "Lei è bassa.",
+                    "La matita è corta."
                 ]
             },
             {
@@ -69,9 +69,9 @@
         "femininePlural": "giovani",
         "definitions": [
             {
-                "text": "Having lived or existed for only a short time.",
+                "text": "Che ha vissuto o è esistito per poco tempo.",
                 "examples": [
-                    "He is a young man."
+                    "È un uomo giovane."
                 ]
             }
         ],
@@ -95,9 +95,9 @@
         "femininePlural": "vecchie",
         "definitions": [
             {
-                "text": "Having lived or existed for a long time.",
+                "text": "Che ha vissuto o è esistito per molto tempo.",
                 "examples": [
-                    "This is an old book."
+                    "Questo è un libro vecchio."
                 ]
             },
             {
@@ -119,9 +119,9 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Having a lot of light from the sun.",
+                "text": "Con molta luce dal sole.",
                 "examples": [
-                    "It is a sunny day.",
+                    "È una giornata soleggiata.",
                     "I like sunny weather."
                 ]
             }
@@ -141,9 +141,9 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Having a lot of rain.",
+                "text": "Con molta pioggia.",
                 "examples": [
-                    "It is a rainy day.",
+                    "È una giornata piovosa.",
                     "Wear a coat, it's rainy outside."
                 ]
             }
@@ -210,9 +210,9 @@
         "oppositeEmoji": "✨",
         "definitions": [
             {
-                "text": "Normal or usual; not special.",
+                "text": "Normale o usuale; non speciale.",
                 "examples": [
-                    "It was an ordinary day."
+                    "Era una giornata ordinaria."
                 ]
             }
         ],
@@ -238,11 +238,11 @@
             {
                 "text": "Not expensive; low in price.",
                 "examples": [
-                    "This coffee is cheap."
+                    "Questo caffè è economico."
                 ]
             },
             {
-                "text": "Low in price.",
+                "text": "A basso prezzo.",
                 "examples": [
                     "The lunch near the office is very cheap."
                 ]
@@ -263,13 +263,13 @@
         "femininePlural": "costose",
         "definitions": [
             {
-                "text": "Costing a lot of money.",
+                "text": "Che costa molti soldi.",
                 "examples": [
                     "That car is expensive."
                 ]
             },
             {
-                "text": "High in price.",
+                "text": "Ad alto prezzo.",
                 "examples": [
                     "The city centre is expensive for rent."
                 ]
@@ -296,11 +296,11 @@
             {
                 "text": "Of high quality or ability; pleasant.",
                 "examples": [
-                    "This is a good job."
+                    "Questo è un buon lavoro."
                 ]
             },
             {
-                "text": "Of high quality or pleasant.",
+                "text": "Di alta qualità o piacevole.",
                 "examples": [
                     "She has a good job with flexible hours."
                 ]
@@ -325,7 +325,7 @@
             {
                 "text": "Not good; unpleasant or of poor quality.",
                 "examples": [
-                    "The weather is bad today."
+                    "Il tempo è brutto oggi."
                 ]
             },
             {
@@ -354,11 +354,11 @@
             {
                 "text": "Large in size.",
                 "examples": [
-                    "It is a big office."
+                    "È un grande ufficio."
                 ]
             },
             {
-                "text": "Large in size or amount.",
+                "text": "Grande per dimensioni o quantità.",
                 "examples": [
                     "They have a big house near the park."
                 ]
@@ -383,7 +383,7 @@
             {
                 "text": "Little in size.",
                 "examples": [
-                    "She has a small flat."
+                    "Ha un piccolo appartamento."
                 ]
             },
             {
@@ -410,9 +410,9 @@
         "femininePlural": "facili",
         "definitions": [
             {
-                "text": "Not difficult.",
+                "text": "Non difficile.",
                 "examples": [
-                    "The test is easy.",
+                    "Il test è facile.",
                     "The application form is easy to complete."
                 ]
             }
@@ -461,9 +461,9 @@
         "femininePlural": "felici",
         "definitions": [
             {
-                "text": "Feeling pleasure or joy.",
+                "text": "Che prova piacere o gioia.",
                 "examples": [
-                    "I am happy today."
+                    "Sono felice oggi."
                 ]
             },
             {
@@ -488,9 +488,9 @@
         "femininePlural": "stanche",
         "definitions": [
             {
-                "text": "Needing rest or sleep.",
+                "text": "Che ha bisogno di riposo o sonno.",
                 "examples": [
-                    "I am very tired after work.",
+                    "Sono molto stanco dopo il lavoro.",
                     "I feel tired after a long week."
                 ]
             }
@@ -509,9 +509,9 @@
         "oppositeEmoji": "⏳",
         "definitions": [
             {
-                "text": "Working the complete number of hours in a working week.",
+                "text": "Che lavora il numero completo di ore in una settimana lavorativa.",
                 "examples": [
-                    "She has a full-time job in a bank."
+                    "Ha un lavoro a tempo pieno in banca."
                 ]
             }
         ],
@@ -532,9 +532,9 @@
         "oppositeEmoji": "⏰",
         "definitions": [
             {
-                "text": "Working fewer hours than a standard working week.",
+                "text": "Che lavora meno ore di una settimana lavorativa standard.",
                 "examples": [
-                    "He works part-time on Saturdays."
+                    "Lavora part-time il sabato."
                 ]
             }
         ],
@@ -580,7 +580,7 @@
             {
                 "text": "Good for your body; not ill.",
                 "examples": [
-                    "Vegetables are healthy food."
+                    "Le verdure sono cibo sano."
                 ]
             }
         ],
@@ -600,9 +600,9 @@
         "femininePlural": "malate",
         "definitions": [
             {
-                "text": "Not well; sick.",
+                "text": "Non sta bene; malato.",
                 "examples": [
-                    "I feel ill today."
+                    "Mi sento male oggi."
                 ]
             }
         ],
@@ -615,7 +615,7 @@
     {
         "word": "online",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
         "definitions": [
@@ -645,9 +645,9 @@
         "oppositeEmoji": "👫",
         "definitions": [
             {
-                "text": "Without other people; by yourself.",
+                "text": "Senza altre persone; da solo.",
                 "examples": [
-                    "She lives alone."
+                    "Vive da sola."
                 ]
             }
         ],
@@ -668,9 +668,9 @@
         "femininePlural": "rilassate",
         "definitions": [
             {
-                "text": "Calm; not worried or stressed.",
+                "text": "Calmo; non preoccupato o stressato.",
                 "examples": [
-                    "I feel relaxed at the weekend."
+                    "Mi sento rilassato nel fine settimana."
                 ]
             }
         ],
@@ -690,9 +690,9 @@
         "femininePlural": "preoccupate",
         "definitions": [
             {
-                "text": "Feeling anxious about something that might happen.",
+                "text": "Che si sente ansioso per qualcosa che potrebbe accadere.",
                 "examples": [
-                    "She is worried about her job."
+                    "È preoccupata per il suo lavoro."
                 ]
             }
         ],

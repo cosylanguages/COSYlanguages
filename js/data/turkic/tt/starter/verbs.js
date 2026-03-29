@@ -28,7 +28,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "have a job / have lunch / have a problem / have time",
+        "subtext": "эшле булырга / төшке аш ашарга / проблема булырга / вакыт булырга",
         "form": "verb",
         "definitions": [
             {
@@ -50,7 +50,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
-        "subtext": "feel tired / feel better / feel ill / feel stressed",
+        "subtext": "арган хис итәргә / яхшырак хис итәргә / авыру хис итәргә",
         "form": "verb",
         "definitions": [
             {
@@ -71,7 +71,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
-        "subtext": "give advice / give money / give a present / give information",
+        "subtext": "киңәш бирергә / акча бирергә / бүләк бирергә",
         "opposite": "алу",
         "oppositeEmoji": "👜",
         "form": "verb",
@@ -94,7 +94,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
-        "subtext": "take the bus / take medicine / take a break / take time",
+        "subtext": "автобуска утырырга / дару алырга / тәнәфес ясарга",
         "opposite": "бирү",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -117,7 +117,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "get a job / get tired / get better / get home",
+        "subtext": "эшкә урнашырга / арырга / терелергә / өйгә кайтып җитәргә",
         "form": "verb",
         "definitions": [
             {
@@ -159,7 +159,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "make coffee / make a decision / make a mistake / make money",
+        "subtext": "кофе ясарга / карар кабул итәргә / хата ясарга / акча эшләргә",
         "form": "verb",
         "definitions": [
             {
@@ -180,7 +180,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
-        "subtext": "do work / do the shopping / do exercise / do nothing",
+        "subtext": "эшләргә / кибеткә барырга / күнегүләр ясарга / берни эшләмәскә",
         "form": "verb",
         "definitions": [
             {
@@ -201,7 +201,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
-        "subtext": "use a phone / use public transport / use a computer / use time",
+        "subtext": "телефон кулланырга / транспорт кулланырга / компьютер кулланырга",
         "form": "verb",
         "definitions": [
             {
@@ -222,7 +222,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
-        "subtext": "open a door / open an account / open a shop / open at nine",
+        "subtext": "ишек ачарга / хисап ачарга / кибет ачарга",
         "opposite": "ябу",
         "oppositeEmoji": "🔒",
         "form": "verb",
@@ -245,7 +245,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
-        "subtext": "close a door / close at six / close an account / close the meeting",
+        "subtext": "ишек ябарга / алтыда ябылырга / җыелышны тәмамларга",
         "opposite": "ачу",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -268,7 +268,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "start work / start a meeting / start a new job",
+        "subtext": "эш башларга / җыелыш башларга / яңа эш башларга",
         "opposite": "тәмамлау",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -291,7 +291,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finish work / finish a project / finish early / finish late",
+        "subtext": "эшне тәмамларга / проектны тәмамларга / иртә тәмамларга",
         "opposite": "башлау",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -314,7 +314,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "help someone / help with a task / help out / ask for help",
+        "subtext": "берәүгә ярдәм итәргә / ярдәм сорарга",
         "form": "verb",
         "definitions": [
             {
@@ -335,7 +335,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "try to do / try hard / try something new / give it a try",
+        "subtext": "эшләп карарга / тырышырга / яңа нәрсәне сынап карарга",
         "form": "verb",
         "definitions": [
             {
@@ -356,7 +356,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
-        "subtext": "show someone how / show a document / show interest",
+        "subtext": "күрсәтергә / документны күрсәтергә / кызыксыну күрсәтергә",
         "form": "verb",
         "definitions": [
             {
@@ -377,7 +377,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
-        "subtext": "find a job / find out / find it difficult / find time",
+        "subtext": "эш табарга / белергә / авыр дип табарга / вакыт табарга",
         "form": "verb",
         "definitions": [
             {
@@ -505,7 +505,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
-        "subtext": "say hello / say yes / say no / say something",
+        "subtext": "исәнләшергә / әйе дияргә / юк дияргә / берәр нәрсә әйтергә",
         "form": "verb",
         "definitions": [
             {
@@ -526,7 +526,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
-        "subtext": "tell the truth / tell someone / tell a story / tell someone about",
+        "subtext": "дөресен әйтергә / сөйләргә / хикәя сөйләргә",
         "form": "verb",
         "definitions": [
             {
@@ -547,7 +547,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "ask a question / ask for help / ask about / ask someone",
+        "subtext": "сорау бирергә / ярдәм сорарга / нәрсә турындадыр сорарга",
         "form": "verb",
         "definitions": [
             {
@@ -568,7 +568,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
+        "subtext": "сөйләшергә / инглизчә сөйләшергә / ачык сөйләргә",
         "form": "verb",
         "definitions": [
             {
@@ -589,7 +589,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "talk to someone / talk about / talk openly / talk for a long time",
+        "subtext": "кем беләндер сөйләшергә / ачык сөйләшергә",
         "form": "verb",
         "definitions": [
             {
@@ -608,7 +608,7 @@
     {
         "word": "шалтырату",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "call someone / call back / call a meeting / call in sick",
         "form": "verb",
@@ -631,7 +631,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
-        "subtext": "write an email / write a report / write a letter / write notes",
+        "subtext": "хат язарга / отчет язарга / язмалар ясарга",
         "opposite": "уку",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -654,7 +654,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "read a book / read the news / read a contract / read carefully",
+        "subtext": "китап укырга / яңалыклар укырга / контракт укырга",
         "opposite": "языу",
         "oppositeEmoji": "✍️",
         "form": "verb",
@@ -677,7 +677,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
-        "subtext": "listen to music / listen carefully / listen to a podcast",
+        "subtext": "музыка тыңларга / игътибар белән тыңларга",
         "form": "verb",
         "definitions": [
             {
@@ -740,7 +740,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "go to work / go home / go out / go shopping",
+        "subtext": "эшкә барырга / өйгә барырга / урамга чыгырга / кибеткә барырга",
         "form": "verb",
         "definitions": [
             {
@@ -761,7 +761,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "come home / come to work / come back / come here",
+        "subtext": "өйгә кайтырга / эшкә килергә / кире кайтырга",
         "opposite": "бару",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -784,7 +784,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
-        "subtext": "walk to work / walk home / walk slowly / walk every day",
+        "subtext": "эшкә җայәү барырга / өйгә барырга / акрын барырга",
         "form": "verb",
         "definitions": [
             {
@@ -805,7 +805,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "subtext": "drive to work / drive a car / drive home / drive carefully",
+        "subtext": "машинада эшкә барырга / машина йөртергә",
         "form": "verb",
         "definitions": [
             {
@@ -826,7 +826,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
-        "subtext": "fly to a city / fly business class / fly economy",
+        "subtext": "шәһәргә օչըрга / бизнес класс белән օչըрга",
         "form": "verb",
         "definitions": [
             {
@@ -889,7 +889,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "move to a new place / move in / move out / move house",
+        "subtext": "яңа урынга күченергә / күченергә",
         "form": "verb",
         "definitions": [
             {
@@ -910,7 +910,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
-        "subtext": "return home / return to work / return a call / return from",
+        "subtext": "өйгә кайтырга / эшкә кайтырга / кире шалтыратырга",
         "form": "verb",
         "definitions": [
             {
@@ -952,7 +952,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
-        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
+        "subtext": "иртәнге аш ашарга / төшке аш ашарга / кичке аш ашарга",
         "opposite": "эчү",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -975,7 +975,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
-        "subtext": "drink coffee / drink tea / drink water / drink beer",
+        "subtext": "кофе эчәргә / чәй эчәргә / су эчәргә / сыра эчәргә",
         "opposite": "ашау",
         "oppositeEmoji": "🍎",
         "form": "verb",
@@ -1193,7 +1193,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
-        "subtext": "work from home / work full-time / work hard / work late",
+        "subtext": "өйдән эшләргә / тулы көн эшләргә / тырышып эшләргә",
         "form": "verb",
         "definitions": [
             {
@@ -1214,7 +1214,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
-        "subtext": "live in a flat / live alone / live with someone / live abroad",
+        "subtext": "фатирда яшәргә / ялгыз яшәргә / чит илләрдә яшәргә",
         "opposite": "үлү",
         "oppositeEmoji": "⚰️",
         "form": "verb",
@@ -1237,7 +1237,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "think about / think of / think it is / think carefully",
+        "subtext": "уйларга / уйлап карарга / җентекләп уйларга",
         "form": "verb",
         "definitions": [
             {
@@ -1258,7 +1258,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "know someone / know the answer / know a place / know how to",
+        "subtext": "танырга / җавапны белергә / урынны белергә",
         "form": "verb",
         "definitions": [
             {
@@ -1279,7 +1279,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
-        "subtext": "want a job / want to leave / want more money / want help",
+        "subtext": "эш теләргә / китәргә теләргә / күбрәк акча теләргә",
         "form": "verb",
         "definitions": [
             {
@@ -1300,7 +1300,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
-        "subtext": "need help / need time / need money / need to rest",
+        "subtext": "ярдәм кирәк булырга / вакыт кирәк булырга / ял кирәк булырга",
         "form": "verb",
         "definitions": [
             {
@@ -1321,7 +1321,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
-        "subtext": "like work / like to travel / like someone / like the idea",
+        "subtext": "эшне ошатырга / сәяхәт итәргә ошатырга / идеяне ошатырга",
         "form": "verb",
         "definitions": [
             {
@@ -1342,7 +1342,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
-        "subtext": "love someone / love doing / love a place / love the idea",
+        "subtext": "берәүне яратырга / эшләргә яратырга",
         "form": "verb",
         "definitions": [
             {
@@ -1363,7 +1363,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
-        "subtext": "hate doing / hate someone / hate meetings / hate commuting",
+        "subtext": "эшләргә яратмаска / берәүне күралмаска",
         "form": "verb",
         "definitions": [
             {
@@ -1384,7 +1384,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
-        "subtext": "hope for / hope to do / hope that / I hope so",
+        "subtext": "өметләнергә / өмет итәм",
         "form": "verb",
         "definitions": [
             {
@@ -1405,7 +1405,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "remember to do / remember a name / remember clearly",
+        "subtext": "эшләргә хәтерләргә / исемне хәтерләргә",
         "form": "verb",
         "definitions": [
             {
@@ -1426,7 +1426,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
-        "subtext": "forget a name / forget to do / forget about / completely forget",
+        "subtext": "исемне онытырга / эшләргә онытырга",
         "form": "verb",
         "definitions": [
             {
@@ -1447,7 +1447,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💡",
-        "subtext": "understand a problem / understand someone / understand clearly",
+        "subtext": "проблеманы аңларга / берәүне аңларга",
         "form": "verb",
         "definitions": [
             {
@@ -1468,7 +1468,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "decide to do / decide on / make a decision / hard to decide",
+        "subtext": "эшләргә карар кылырга / карар кабул итәргә",
         "form": "verb",
         "definitions": [
             {
@@ -1489,7 +1489,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
-        "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
+        "subtext": "эшләүдән ләззәт алырга / тормыштан ләззәт алырга",
         "form": "verb",
         "definitions": [
             {
@@ -1510,7 +1510,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "subtext": "see a doctor / see friends / see the problem / see clearly",
+        "subtext": "табибны күрергә / дусларны күрергә",
         "form": "verb",
         "definitions": [
             {
@@ -1531,7 +1531,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "subtext": "hear news / hear from someone / hear a sound / hear clearly",
+        "subtext": "яңалыклар ишетергә / берәүдән ишетергә",
         "form": "verb",
         "definitions": [
             {
@@ -1553,7 +1553,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
-        "subtext": "wake up early / wake up late / wake up tired",
+        "subtext": "иртә уянырга / соң уянырга / арып уянырга",
         "opposite": "йоклау",
         "oppositeEmoji": "😴",
         "definitions": [
@@ -1576,7 +1576,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
-        "subtext": "watch TV / watch a film / watch the news / watch closely",
+        "subtext": "ТВ карарга / фильм карарга / яңалыклар карарга",
         "definitions": [
             {
                 "text": "Берәр нәрсәгә күзәтеп тору.",
@@ -1596,7 +1596,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "look at / look for / look like / look happy",
+        "subtext": "карарга / эзләргә / охшарга",
         "form": "verb",
         "definitions": [
             {
@@ -1617,7 +1617,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "subtext": "play sport / play a game / play music / play a role",
+        "subtext": "спорт белән шөгыльләнергә / уен уйнарга",
         "form": "verb",
         "definitions": [
             {
@@ -1638,7 +1638,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
-        "subtext": "run a race / run a business / run out of / run late",
+        "subtext": "йөгерергә / бизнес алып барырга / соңга калырга",
         "form": "verb",
         "definitions": [
             {
@@ -1659,7 +1659,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
-        "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
+        "subtext": "утырырга / өстәл артына утырырга",
         "opposite": "тору",
         "oppositeEmoji": "🧍",
         "form": "verb",
@@ -1682,7 +1682,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "stand up / stand in a queue / stand by / stand out",
+        "subtext": "басарга / чиратта басып торырга",
         "opposite": "утыру",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1718,7 +1718,7 @@
         "aspect": "action",
         "v2": "met",
         "v3": "очрашкан",
-        "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
+        "subtext": "клиент белән очрашырга / хезмәттәш белән очрашырга",
         "group": "regular"
     },
     {
@@ -1726,7 +1726,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
-        "subtext": "learn a language / learn a skill / learn from / learn how to",
+        "subtext": "тел өйрәнергә / һөнәр өйрәнергә",
         "form": "verb",
         "definitions": [
             {
@@ -1747,7 +1747,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🔄",
-        "subtext": "change jobs / change your mind / change the plan / change something",
+        "subtext": "эшне алыштырырга / уйны үзгәртергә",
         "form": "verb",
         "definitions": [
             {
@@ -1768,7 +1768,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "stop doing / stop working / stop a habit / stop someone",
+        "subtext": "туктарга / эшне туктатырга",
         "form": "verb",
         "definitions": [
             {
@@ -1789,7 +1789,7 @@
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
-        "subtext": "add some sugar / add to / add up / add a comment",
+        "subtext": "шикәր өстәргә / өстәргә / комментарий өстәргә",
         "form": "verb",
         "definitions": [
             {
@@ -1810,7 +1810,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
-        "subtext": "win a game / win a prize / win an award / win a contract",
+        "subtext": "уенда җиңәргә / приз алырга",
         "opposite": "югалту",
         "oppositeEmoji": "📉",
         "form": "verb",
@@ -1833,7 +1833,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
-        "subtext": "wait for someone / wait in a queue / wait a moment",
+        "subtext": "берәүне көтәргә / чиратта көтәргә",
         "form": "verb",
         "definitions": [
             {
@@ -1854,7 +1854,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
-        "subtext": "die of / die for / die from / die out",
+        "subtext": "үлгәргә / һәлак булырга",
         "opposite": "яшәү",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -1890,7 +1890,7 @@
         "aspect": "action",
         "v2": "sent",
         "v3": "җибәргән",
-        "subtext": "send an email / send a message / send a report / send a file",
+        "subtext": "хат җибәрергә / хәбәр җибәрергә",
         "group": "regular"
     },
     {
@@ -1898,7 +1898,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
-        "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
+        "subtext": "өйдә калырга / кунакханәдә калырга",
         "form": "verb",
         "definitions": [
             {
@@ -1919,7 +1919,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "subtext": "fall down / fall off / fall in love / fall asleep",
+        "subtext": "егылырга / гашыйк булырга / йоклап китәргә",
         "form": "verb",
         "definitions": [
             {
@@ -1940,7 +1940,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
-        "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
+        "subtext": "имтихан тапшырырга / тупны бирү / вакыт уздыру",
         "form": "verb",
         "definitions": [
             {
@@ -1961,7 +1961,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
-        "subtext": "sell products / sell online / sell at the market / best seller",
+        "subtext": "товар сатарга / онлайн сатарга",
         "opposite": "сатып алу",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -1984,7 +1984,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "pull the door / pull something / pull up / pull away",
+        "subtext": "ишекне тартырга / нәрсәнедер тартырга",
         "opposite": "этәрү",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2007,7 +2007,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
-        "subtext": "push the button / push a cart / push away / push through",
+        "subtext": "төймәгә басарга / этәргә",
         "opposite": "тарту",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2030,7 +2030,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
-        "subtext": "carry a bag / carry notes / carry out / carry on",
+        "subtext": "сумка күтәреп барырга / үтәргә",
         "form": "verb",
         "definitions": [
             {
@@ -2051,7 +2051,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "break the glass / break a law / take a break / break down",
+        "subtext": "пыяла ватырга / законны бозарга / тәнәфес ясарга",
         "form": "verb",
         "definitions": [
             {
@@ -2072,7 +2072,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
-        "subtext": "receive an email / receive a gift / receive payment / receive news",
+        "subtext": "хат алырга / бүләկ алырга / түләү алырга",
         "form": "verb",
         "definitions": [
             {
@@ -2093,7 +2093,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
-        "subtext": "agree with someone / agree to do / agree on / I agree",
+        "subtext": "берәү белән килешергә / килешәм",
         "form": "verb",
         "definitions": [
             {
@@ -2114,7 +2114,7 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
-        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
+        "subtext": "рәсем ясарга / нәтиҗә ясарга",
         "form": "verb",
         "definitions": [
             {
@@ -2135,7 +2135,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
-        "subtext": "share a room / share information / share an idea / share with",
+        "subtext": "б бүлмәдә яшәргә / мәгълүмат белән бүлешергә",
         "form": "verb",
         "definitions": [
             {
@@ -2156,7 +2156,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
-        "subtext": "smile at someone / a big smile / smile broadly",
+        "subtext": "елмаерга / берәүгә елмаерга",
         "opposite": "елау",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2179,7 +2179,7 @@
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
-        "subtext": "cry for help / cry out / start crying / cry about something",
+        "subtext": "ярдәмгә чакырырга / кычкырырга / елап җибәрергә",
         "opposite": "елмаю",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2202,7 +2202,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
-        "subtext": "dance to music / go dancing / dance together / slow dance",
+        "subtext": "музыкага биергә / биергә барырга",
         "form": "verb",
         "definitions": [
             {
@@ -2223,7 +2223,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
-        "subtext": "sing a song / sing along / sing well / lead singer",
+        "subtext": "җыр җырларга / кушылып җырларга",
         "form": "verb",
         "definitions": [
             {
@@ -2244,7 +2244,7 @@
         "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
-        "subtext": "jump high / jump over / jump up / jump in",
+        "subtext": "биеккә сикергә / аша сикергә",
         "form": "verb",
         "definitions": [
             {
@@ -2265,7 +2265,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
-        "subtext": "go swimming / swim across / swim laps / swim well",
+        "subtext": "йөзәргә барырга / йөзәргә",
         "form": "verb",
         "definitions": [
             {
@@ -2286,7 +2286,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "study English / study for an exam / study hard / self-study",
+        "subtext": "инглизчә өйрәнергә / имтиханга әзерләнергә",
         "form": "verb",
         "definitions": [
             {
@@ -2307,7 +2307,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
-        "subtext": "teach someone / teach a subject / teach how to / teach a class",
+        "subtext": "өйрәтергә / предметны өйрәтергә",
         "form": "verb",
         "definitions": [
             {
@@ -2328,7 +2328,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "commute to work / daily commute / long commute / commute by train",
+        "subtext": "эшкә барып кайтырга / поездда барырга",
         "form": "verb",
         "definitions": [
             {
@@ -2349,7 +2349,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
-        "subtext": "rent a flat / rent a property / rent out a room",
+        "subtext": "фатир арендаларга / бүлмә арендага бирергә",
         "form": "verb",
         "definitions": [
             {
@@ -2383,7 +2383,7 @@
         "aspect": "action",
         "v2": "exercised",
         "v3": "ясаган",
-        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
+        "subtext": "күнегүләр ясарга / спортзал барырга",
         "group": "regular"
     },
     {
@@ -2404,7 +2404,7 @@
         "aspect": "stative",
         "v2": "cost",
         "v3": "торган",
-        "subtext": "cost a lot / cost money / cost too much / cost less",
+        "subtext": "кыйммәт торырга / акча торырга",
         "group": "regular"
     },
     {
@@ -2425,7 +2425,7 @@
         "aspect": "action",
         "v2": "invited",
         "v3": "чакырган",
-        "subtext": "invite someone / invite to dinner / invite to a party",
+        "subtext": "берәүне чакырырга / төшке ашка чакырырга",
         "group": "regular"
     },
     {
@@ -2438,7 +2438,7 @@
                 ]
             }
         ],
-        "subtext": "get up early / get up late / get up quickly",
+        "subtext": "иртә торырга / тиз торырга",
         "classification": "regular",
         "aspect": "action",
         "v2": "got up",
@@ -2459,7 +2459,7 @@
                 ]
             }
         ],
-        "subtext": "have breakfast at home / have a quick breakfast / skip breakfast",
+        "subtext": "өйдә иртәнге аш ашарга",
         "classification": "regular",
         "aspect": "action",
         "v2": "had breakfast",
@@ -2480,7 +2480,7 @@
                 ]
             }
         ],
-        "subtext": "come back home / come back late / come back from a trip",
+        "subtext": "өйгә кайтырга / соң кайтырга",
         "classification": "regular",
         "aspect": "action",
         "v2": "came back",
@@ -2501,7 +2501,7 @@
                 ]
             }
         ],
-        "subtext": "go to bed early / go to bed late / go to bed tired",
+        "subtext": "иртә йокларга ятарга / соң ятарга",
         "classification": "regular",
         "aspect": "action",
         "v2": null,
@@ -2522,7 +2522,7 @@
                 ]
             }
         ],
-        "subtext": "check emails / check messages / check a document / check the time",
+        "subtext": "хатларны тикшерергә / вакытны тикшерергә",
         "classification": "regular",
         "aspect": "action",
         "v2": "checked",
@@ -2543,7 +2543,7 @@
                 ]
             }
         ],
-        "subtext": "reply to an email / reply quickly / reply to a message",
+        "subtext": "хатка җаваպ бирергә / тиз җаваպ бирергә",
         "classification": "regular",
         "aspect": "action",
         "v2": "replied",
@@ -2564,7 +2564,7 @@
                 ]
             }
         ],
-        "subtext": "present a report / present ideas / present to a client",
+        "subtext": "отчет тәкъдим итәргә / идеяләр тәкъдим итәргә",
         "classification": "regular",
         "aspect": "action",
         "v2": "presented",
@@ -2585,7 +2585,7 @@
                 ]
             }
         ],
-        "subtext": "attend a meeting / attend a course / attend an event",
+        "subtext": "җыелышта булырга / курска барырга",
         "classification": "regular",
         "aspect": "action",
         "v2": "attended",
@@ -2606,7 +2606,7 @@
                 ]
             }
         ],
-        "subtext": "manage a team / manage a project / manage time / manage stress",
+        "subtext": "команда белән идарә итәргә / вакыт белән идарә итәргә",
         "classification": "regular",
         "aspect": "action",
         "v2": "managed",
@@ -2627,7 +2627,7 @@
                 ]
             }
         ],
-        "subtext": "charge a fee / charge for a service / charge extra",
+        "subtext": "түләү алырга / хезмәт өчен түләү",
         "classification": "regular",
         "aspect": "action",
         "v2": "charged",
@@ -2648,7 +2648,7 @@
                 ]
             }
         ],
-        "subtext": "afford a house / afford to travel / afford something",
+        "subtext": "йорт алырга мөмкинлеге булырга",
         "classification": "regular",
         "aspect": "stative",
         "v2": "afforded",
@@ -2669,7 +2669,7 @@
                 ]
             }
         ],
-        "subtext": "owe money / owe someone / owe a lot / owe nothing",
+        "subtext": "акча бурычлы булырга",
         "classification": "regular",
         "aspect": "stative",
         "v2": "owed",
@@ -2690,7 +2690,7 @@
                 ]
             }
         ],
-        "subtext": "earn a salary / earn money / earn more / earn enough",
+        "subtext": "хезмәт хакы алырга / акча эшләргә",
         "classification": "regular",
         "aspect": "action",
         "v2": "earned",
@@ -2711,7 +2711,7 @@
                 ]
             }
         ],
-        "subtext": "visit family / visit a friend / visit a city / visit regularly",
+        "subtext": "гаиләгә барырга / дус янына барырга",
         "classification": "regular",
         "aspect": "action",
         "v2": "visited",
@@ -2732,7 +2732,7 @@
                 ]
             }
         ],
-        "subtext": "celebrate a birthday / celebrate success / celebrate together",
+        "subtext": "туган көнне билгеләп үтәргә",
         "classification": "regular",
         "aspect": "action",
         "v2": "celebrated",
@@ -2753,7 +2753,7 @@
                 ]
             }
         ],
-        "subtext": "recommend a place / recommend someone / recommend a film",
+        "subtext": "киңәш итәргә / тәкъдим итәргә",
         "classification": "regular",
         "aspect": "action",
         "v2": "recommended",
@@ -2774,7 +2774,7 @@
                 ]
             }
         ],
-        "subtext": "hurt your back / hurt someone / hurt yourself / it hurts",
+        "subtext": "арканы авырттырырга / берәүне рәнҗетергә",
         "classification": "regular",
         "aspect": "both",
         "v2": "hurt",
@@ -2795,7 +2795,7 @@
                 ]
             }
         ],
-        "subtext": "rest at home / rest after work / need rest / get some rest",
+        "subtext": "өйдә ял итәргә / эштән соң ял итәргә",
         "classification": "regular",
         "aspect": "action",
         "v2": "rested",
@@ -2816,7 +2816,7 @@
                 ]
             }
         ],
-        "subtext": "recover from illness / recover quickly / recover fully",
+        "subtext": "савыгырга / тиз савыгырга",
         "classification": "regular",
         "aspect": "action",
         "v2": "recovered",
@@ -2837,7 +2837,7 @@
                 ]
             }
         ],
-        "subtext": "book a hotel / book a flight / book a table / book in advance",
+        "subtext": "кунакханә броньларга / билет броньларга",
         "classification": "regular",
         "aspect": "action",
         "v2": "booked",
@@ -2858,7 +2858,7 @@
                 ]
             }
         ],
-        "subtext": "pack a bag / pack a suitcase / pack lightly",
+        "subtext": "сумка җыярга / чемодан җыярга",
         "classification": "regular",
         "aspect": "action",
         "v2": "packed",
@@ -2879,7 +2879,7 @@
                 ]
             }
         ],
-        "subtext": "cancel a flight / cancel a booking / cancel a meeting",
+        "subtext": "рейсны юкка чыгарырга / очрашуны юкка чыгарырга",
         "classification": "regular",
         "aspect": "action",
         "v2": "cancelled",
@@ -2900,7 +2900,7 @@
                 ]
             }
         ],
-        "subtext": "miss a train / miss a flight / miss someone / miss work",
+        "subtext": "поездга соңга калырга / берәүне сагынырга",
         "classification": "regular",
         "aspect": "both",
         "v2": "missed",
@@ -2916,7 +2916,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📦",
-        "subtext": "order food / order a drink / order online / order supplies",
+        "subtext": "ризык заказ бирергә / онлайн заказ бирергә",
         "form": "verb",
         "definitions": [
             {
@@ -2937,7 +2937,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💡",
-        "subtext": "explain a process / explain clearly / explain to someone",
+        "subtext": "процессны аңлатырга / ачык аңлатырга",
         "form": "verb",
         "definitions": [
             {
@@ -2958,7 +2958,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "subtext": "thank someone / thank you for / many thanks",
+        "subtext": "рәхмәտ әйтергә / рәхмәտ сезгә",
         "form": "verb",
         "definitions": [
             {
@@ -2979,7 +2979,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
-        "subtext": "introduce yourself / introduce someone / introduce a topic",
+        "subtext": "таныштырырга / үзеңне тәкъдим итәргә",
         "form": "verb",
         "definitions": [
             {
@@ -3000,7 +3000,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
-        "subtext": "relax at home / relax after work / relax on holiday",
+        "subtext": "өйдә ял итәргә / ял итәргә",
         "form": "verb",
         "definitions": [
             {
@@ -3021,7 +3021,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
-        "subtext": "repair something / get repaired / repair costs",
+        "subtext": "төзәтергә / ремонтлау",
         "form": "verb",
         "definitions": [
             {
@@ -3042,7 +3042,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
-        "subtext": "what happened / happen to someone / it happens / happen again",
+        "subtext": "нәрсә булды / булып алырга / шулай була",
         "form": "verb",
         "definitions": [
             {
@@ -3063,7 +3063,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
-        "subtext": "seem fine / seem worried / seem happy / seem like",
+        "subtext": "яхшы булып күренергә / шат булып күренергә",
         "form": "verb",
         "definitions": [
             {
@@ -3084,7 +3084,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
-        "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
+        "subtext": "нәрсәдер аңлатырга / бу нәрсә аңлата",
         "form": "verb",
         "definitions": [
             {
@@ -3105,7 +3105,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
-        "subtext": "follow instructions / follow someone / follow the news / follow up",
+        "subtext": "инструкцияләргә иярергә / яңалыкларны күзәтергә",
         "form": "verb",
         "definitions": [
             {
@@ -3126,7 +3126,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "continue working / continue to do / continue with / continue a task",
+        "subtext": "эшне дәвам итәргә / дәвам итәргә",
         "form": "verb",
         "definitions": [
             {
@@ -3147,7 +3147,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
-        "subtext": "grow a business / grow quickly / grow by / grow into",
+        "subtext": "бизнес үстерергә / тиз үсәргә",
         "form": "verb",
         "definitions": [
             {
@@ -3168,7 +3168,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
-        "subtext": "include something / include in / not included / price includes",
+        "subtext": "үз эченә алырга / кертелгән",
         "form": "verb",
         "definitions": [
             {
@@ -3189,7 +3189,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✨",
-        "subtext": "become a manager / become popular / become clear / become important",
+        "subtext": "менеджер булып китәргә / танылу алырга",
         "form": "verb",
         "definitions": [
             {
@@ -3210,7 +3210,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
-        "subtext": "belong to someone / belong in / feel like you belong",
+        "subtext": "берәүгә карарга / тиешле урында булырга",
         "form": "verb",
         "definitions": [
             {
@@ -3231,7 +3231,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👉",
-        "subtext": "choose between / choose to do / choose carefully / choose a career",
+        "subtext": "сайларга / эшләргә сайларга / игътибар белән сайларга",
         "form": "verb",
         "definitions": [
             {
@@ -3252,7 +3252,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
-        "subtext": "build a career / build a team / build experience / build trust",
+        "subtext": "карьера төзергә / команда төзергә",
         "form": "verb",
         "definitions": [
             {
@@ -3273,6 +3273,5 @@
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

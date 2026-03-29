@@ -19,7 +19,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": null,
+        "v2": "էր/էին",
         "v3": "եղել",
         "group": "irregular"
     },
@@ -41,7 +41,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "had",
+        "v2": "ուներ",
         "v3": "ունեցել",
         "group": "irregular"
     },
@@ -62,7 +62,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "felt",
+        "v2": "զգաց",
         "v3": "զգացել",
         "group": "irregular"
     },
@@ -85,7 +85,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "gave",
+        "v2": "տվեց",
         "v3": "տվել",
         "group": "irregular"
     },
@@ -108,7 +108,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "took",
+        "v2": "վերցրեց",
         "v3": "վերցրել",
         "group": "irregular"
     },
@@ -129,7 +129,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "got",
+        "v2": "ստացավ",
         "v3": "ստացել",
         "group": "irregular"
     },
@@ -150,7 +150,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "put",
+        "v2": "դրեց",
         "v3": "դրել",
         "group": "irregular"
     },
@@ -171,7 +171,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "made",
+        "v2": "պատրաստեց",
         "v3": "պատրաստել",
         "group": "irregular"
     },
@@ -192,7 +192,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": null,
+        "v2": "արեց",
         "v3": "արել",
         "group": "irregular"
     },
@@ -213,7 +213,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "used",
+        "v2": "օգտագործեց",
         "v3": "օգտագործել",
         "group": "el"
     },
@@ -236,7 +236,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "opened",
+        "v2": "բացեց",
         "v3": "բացել",
         "group": "el"
     },
@@ -259,7 +259,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "closed",
+        "v2": "փակեց",
         "v3": "փակել",
         "group": "el"
     },
@@ -282,7 +282,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "started",
+        "v2": "սկսեց",
         "v3": "սկսել",
         "group": "el"
     },
@@ -305,7 +305,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "finished",
+        "v2": "ավարտեց",
         "v3": "ավարտել",
         "group": "el"
     },
@@ -326,7 +326,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "helped",
+        "v2": "օգնեց",
         "v3": "օգնել",
         "group": "el"
     },
@@ -347,7 +347,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "tried",
+        "v2": "փորձեց",
         "v3": "փորձել",
         "group": "el"
     },
@@ -368,7 +368,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "showed",
+        "v2": "ցույց տվեց",
         "v3": "ցույց տվել",
         "group": "irregular"
     },
@@ -389,7 +389,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "found",
+        "v2": "գտավ",
         "v3": "գտել",
         "group": "irregular"
     },
@@ -410,7 +410,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "kept",
+        "v2": "պահեց",
         "v3": "պահել",
         "group": "irregular"
     },
@@ -433,7 +433,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "lost",
+        "v2": "կորցրեց",
         "v3": "կորցրել",
         "group": "irregular"
     },
@@ -454,7 +454,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "cut",
+        "v2": "կտրեց",
         "v3": "կտրել",
         "group": "irregular"
     },
@@ -496,7 +496,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "brought",
+        "v2": "բերեց",
         "v3": "բերել",
         "group": "irregular"
     },
@@ -517,7 +517,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "said",
+        "v2": "ասաց",
         "v3": "ասել",
         "group": "irregular"
     },
@@ -538,7 +538,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "told",
+        "v2": "պատմեց",
         "v3": "պատմել",
         "group": "irregular"
     },
@@ -559,7 +559,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "asked",
+        "v2": "հարցրեց",
         "v3": "հարցրել",
         "group": "el"
     },
@@ -580,7 +580,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "spoke",
+        "v2": "խոսեց",
         "v3": "խոսել",
         "group": "irregular"
     },
@@ -601,14 +601,14 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "talked",
+        "v2": "զրուցեց",
         "v3": "զրուցել",
         "group": "el"
     },
     {
         "word": "զանգել",
         "level": "starter",
-        "theme": "using_a_smartphone_A1",
+        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "տաքսի զանգել / մայրիկին զանգել",
         "form": "verb",
@@ -645,7 +645,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "wrote",
+        "v2": "գրեց",
         "v3": "գրել",
         "group": "irregular"
     },
@@ -668,7 +668,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "read",
+        "v2": "կարդաց",
         "v3": "կարդացել",
         "group": "irregular"
     },
@@ -689,7 +689,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "listened",
+        "v2": "լսեց",
         "v3": "լսել",
         "group": "el"
     },
@@ -710,7 +710,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "answered",
+        "v2": "պատասխανեց",
         "v3": "պատասխանել",
         "group": "el"
     },
@@ -731,7 +731,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "repeated",
+        "v2": "կրկնեց",
         "v3": "կրկնել",
         "group": "el"
     },
@@ -752,7 +752,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": null,
+        "v2": "գնաց",
         "v3": "գնացել",
         "group": "irregular"
     },
@@ -775,7 +775,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "came",
+        "v2": "եկավ",
         "v3": "եկել",
         "group": "irregular"
     },
@@ -796,7 +796,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "walked",
+        "v2": "քայլեց",
         "v3": "քայլել",
         "group": "el"
     },
@@ -817,7 +817,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drove",
+        "v2": "վարեց",
         "v3": "վարել",
         "group": "irregular"
     },
@@ -838,7 +838,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "flew",
+        "v2": "թռավ",
         "v3": "թռել",
         "group": "irregular"
     },
@@ -859,7 +859,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "arrived",
+        "v2": "ժամանեց",
         "v3": "ժամանել",
         "group": "el"
     },
@@ -880,7 +880,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "left",
+        "v2": "հեռացավ",
         "v3": "հեռացել",
         "group": "irregular"
     },
@@ -901,7 +901,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "moved",
+        "v2": "տեղափոխվեց",
         "v3": "տեղափոխվել",
         "group": "el"
     },
@@ -922,7 +922,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "returned",
+        "v2": "վերադարձավ",
         "v3": "վերադարձել",
         "group": "al"
     },
@@ -943,7 +943,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "traveled",
+        "v2": "ճամփորդեց",
         "v3": "ճամփորդել",
         "group": "el"
     },
@@ -966,7 +966,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "ate",
+        "v2": "կերավ",
         "v3": "կերել",
         "group": "irregular"
     },
@@ -989,7 +989,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drank",
+        "v2": "խմեց",
         "v3": "խմել",
         "group": "irregular"
     },
@@ -1012,7 +1012,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "slept",
+        "v2": "քնեց",
         "v3": "քնել",
         "group": "irregular"
     },
@@ -1033,7 +1033,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cooked",
+        "v2": "եփեց",
         "v3": "եփել",
         "group": "el"
     },
@@ -1054,7 +1054,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cleaned",
+        "v2": "մաքրեց",
         "v3": "մաքրել",
         "group": "el"
     },
@@ -1075,7 +1075,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "wore",
+        "v2": "հագավ",
         "v3": "հագել",
         "group": "irregular"
     },
@@ -1096,7 +1096,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": null,
+        "v2": "լվաց",
         "v3": "լվացել",
         "group": "al"
     },
@@ -1119,7 +1119,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "bought",
+        "v2": "գնեց",
         "v3": "գնել",
         "group": "irregular"
     },
@@ -1140,7 +1140,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "paid",
+        "v2": "վճարեց",
         "v3": "վճարել",
         "group": "irregular"
     },
@@ -1161,7 +1161,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "spent",
+        "v2": "ծախսեց",
         "v3": "ծախսել",
         "group": "irregular"
     },
@@ -1184,7 +1184,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "saved",
+        "v2": "խնայեց",
         "v3": "խնայել",
         "group": "el"
     },
@@ -1205,7 +1205,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "worked",
+        "v2": "աշխատեց",
         "v3": "աշխատել",
         "group": "el"
     },
@@ -1228,7 +1228,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "lived",
+        "v2": "ապրեց",
         "v3": "ապրել",
         "group": "el"
     },
@@ -1249,7 +1249,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "thought",
+        "v2": "մտածեց",
         "v3": "մտածել",
         "group": "irregular"
     },
@@ -1312,7 +1312,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "needed",
+        "v2": "կարիք ուներ",
         "v3": "կարիք ունեցել",
         "group": "al"
     },
@@ -1333,7 +1333,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "liked",
+        "v2": "հավանեց",
         "v3": "հավանել",
         "group": "el"
     },
@@ -1354,7 +1354,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "loved",
+        "v2": "սիրեց",
         "v3": "սիրել",
         "group": "el"
     },
@@ -1375,7 +1375,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "hated",
+        "v2": "ատեց",
         "v3": "ատել",
         "group": "el"
     },
@@ -1396,7 +1396,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "hoped",
+        "v2": "հուսաց",
         "v3": "հուսացել",
         "group": "al"
     },
@@ -1417,7 +1417,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "remembered",
+        "v2": "հիշեց",
         "v3": "հիշել",
         "group": "el"
     },
@@ -1438,7 +1438,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "forgot",
+        "v2": "մոռացավ",
         "v3": "մոռացել",
         "group": "irregular"
     },
@@ -1459,7 +1459,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "understood",
+        "v2": "հասկացավ",
         "v3": "հասկացել",
         "group": "irregular"
     },
@@ -1480,7 +1480,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "decided",
+        "v2": "որոշեց",
         "v3": "որոշել",
         "group": "el"
     },
@@ -1501,7 +1501,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "enjoyed",
+        "v2": "վայելեց",
         "v3": "վայելել",
         "group": "el"
     },
@@ -1522,7 +1522,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "saw",
+        "v2": "տեսավ",
         "v3": "տեսել",
         "group": "irregular"
     },
@@ -1543,7 +1543,7 @@
         ],
         "classification": "irregular",
         "aspect": "both",
-        "v2": "heard",
+        "v2": "լսեց",
         "v3": "լսել",
         "group": "irregular"
     },
@@ -1566,7 +1566,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "woke up",
+        "v2": "արթնացավ",
         "v3": "արթնացել",
         "group": "irregular"
     },
@@ -1587,7 +1587,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "watched",
+        "v2": "դիտեց",
         "v3": "դիտել",
         "group": "el"
     },
@@ -1608,7 +1608,7 @@
         ],
         "classification": "regular",
         "aspect": "both",
-        "v2": "looked",
+        "v2": "նայեց",
         "v3": "նայել",
         "group": "el"
     },
@@ -1629,7 +1629,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "played",
+        "v2": "խաղաց",
         "v3": "խաղացել",
         "group": "al"
     },
@@ -1650,7 +1650,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "ran",
+        "v2": "վազեց",
         "v3": "վազել",
         "group": "irregular"
     },
@@ -1673,7 +1673,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sat",
+        "v2": "նստեց",
         "v3": "նստել",
         "group": "irregular"
     },
@@ -1696,7 +1696,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "stood",
+        "v2": "կանգնեց",
         "v3": "կանգնել",
         "group": "irregular"
     },
@@ -1716,7 +1716,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "met",
+        "v2": "հանդիպեց",
         "v3": "հանդիպել",
         "subtext": "նոր մարդկանց հանդիպել / օդանավակայանում հանդիպել",
         "group": "irregular"
@@ -1738,7 +1738,7 @@
         ],
         "classification": "both",
         "aspect": "action",
-        "v2": "learned / learnt",
+        "v2": "սովորեց",
         "v3": "սովորել",
         "group": "el"
     },
@@ -1759,7 +1759,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "changed",
+        "v2": "փոխեց",
         "v3": "փոխել",
         "group": "el"
     },
@@ -1801,7 +1801,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "added",
+        "v2": "ավելացրեց",
         "v3": "ավելացրել",
         "group": "el"
     },
@@ -1824,7 +1824,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "won",
+        "v2": "հաղթեց",
         "v3": "հաղթել",
         "group": "irregular"
     },
@@ -1845,7 +1845,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "waited",
+        "v2": "սպասեց",
         "v3": "սպասել",
         "group": "el"
     },
@@ -1868,7 +1868,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "died",
+        "v2": "մահացավ",
         "v3": "մահացել",
         "group": "al"
     },
@@ -1888,7 +1888,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sent",
+        "v2": "ուղարկեց",
         "v3": "ուղարկել",
         "subtext": "նամակ ուղարկել / փաթեթ ուղարկել",
         "group": "irregular"
@@ -1910,7 +1910,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "stayed",
+        "v2": "մնաց",
         "v3": "մնացել",
         "group": "al"
     },
@@ -1931,7 +1931,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "fell",
+        "v2": "ընկավ",
         "v3": "ընկել",
         "group": "irregular"
     },
@@ -1952,7 +1952,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "passed",
+        "v2": "անցավ",
         "v3": "անցել",
         "group": "el"
     },
@@ -1975,7 +1975,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sold",
+        "v2": "վաճառեց",
         "v3": "վաճառել",
         "group": "irregular"
     },
@@ -1998,7 +1998,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "pulled",
+        "v2": "քաշեց",
         "v3": "քաշել",
         "group": "el"
     },
@@ -2021,7 +2021,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "pushed",
+        "v2": "հրեց",
         "v3": "հրել",
         "group": "el"
     },
@@ -2063,7 +2063,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "broke",
+        "v2": "կոտրեց",
         "v3": "կոտրել",
         "group": "irregular"
     },
@@ -2084,7 +2084,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "received",
+        "v2": "ստացավ",
         "v3": "ստացել",
         "group": "al"
     },
@@ -2105,7 +2105,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "agreed",
+        "v2": "համաձայնեց",
         "v3": "համաձայնել",
         "group": "el"
     },
@@ -2126,7 +2126,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "drew",
+        "v2": "նկարեց",
         "v3": "նկարել",
         "group": "irregular"
     },
@@ -2147,7 +2147,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "shared",
+        "v2": "կիսվեց",
         "v3": "կիսվել",
         "group": "el"
     },
@@ -2170,7 +2170,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "smiled",
+        "v2": "ժպտաց",
         "v3": "ժպտացել",
         "group": "al"
     },
@@ -2193,7 +2193,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "cried",
+        "v2": "լաց եղավ",
         "v3": "լաց եղել",
         "group": "el"
     },
@@ -2214,7 +2214,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "danced",
+        "v2": "պարեց",
         "v3": "պարել",
         "group": "el"
     },
@@ -2235,7 +2235,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "sang",
+        "v2": "երգեց",
         "v3": "երգել",
         "group": "irregular"
     },
@@ -2256,7 +2256,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "jumped",
+        "v2": "ցատկեց",
         "v3": "ցատկել",
         "group": "el"
     },
@@ -2277,7 +2277,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "swam",
+        "v2": "լողաց",
         "v3": "լողացել",
         "group": "irregular"
     },
@@ -2298,7 +2298,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "studied",
+        "v2": "ուսումնասիրեց",
         "v3": "ուսումնասիրել",
         "group": "el"
     },
@@ -2319,7 +2319,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "taught",
+        "v2": "դասավանդեց",
         "v3": "դասավանդել",
         "group": "irregular"
     },
@@ -2340,7 +2340,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "commuted",
+        "v2": "երթևեկեց",
         "v3": "երթևեկել",
         "group": "el"
     },
@@ -2361,7 +2361,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "rented",
+        "v2": "վարձեց",
         "v3": "վարձել",
         "group": "el"
     },
@@ -2381,7 +2381,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "exercised",
+        "v2": "մարզվեց",
         "v3": "մարզվել",
         "subtext": "ամեն օր մարզվել / մարզասրահում մարզվել",
         "group": "el"
@@ -2402,7 +2402,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "cost",
+        "v2": "արժեցավ",
         "v3": "արժեցել",
         "subtext": "շատ արժենալ / քիչ արժենալ",
         "group": "irregular"
@@ -2423,7 +2423,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "invited",
+        "v2": "հրավիրեց",
         "v3": "հրավիրել",
         "subtext": "հյուրեր հրավիրել / խնջույքին հրավիրել",
         "group": "el"
@@ -2441,7 +2441,7 @@
         "subtext": "ուշ վեր կենալ / անկողնուց վեր կենալ",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "got up",
+        "v2": "վեր կացավ",
         "v3": "վեր կացել",
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
@@ -2462,7 +2462,7 @@
         "subtext": "ընտանիքի հետ նախաճաշել / շուտ նախաճաշել",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "had breakfast",
+        "v2": "նախաճաշեց",
         "v3": "նախաճաշել",
         "theme": "daily_work_routines_A1",
         "emoji": "🍳",
@@ -2483,7 +2483,7 @@
         "subtext": "աշխատանքից վերադառնալ / ուշ վերադառնալ",
         "classification": "irregular",
         "aspect": "action",
-        "v2": "came back",
+        "v2": "վերադարձավ",
         "v3": "վերադարձել",
         "theme": "daily_work_routines_A1",
         "emoji": "🔙",
@@ -2525,7 +2525,7 @@
         "subtext": "էլփոստը ստուգել / հաշիվը ստուգել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "checked",
+        "v2": "ստուգեց",
         "v3": "ստուգել",
         "theme": "workplace_basics_A1",
         "emoji": "✅",
@@ -2546,7 +2546,7 @@
         "subtext": "հաղորդագրությանը պատասխանել / արագ պատասխանել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "replied",
+        "v2": "պատասխανեց",
         "v3": "պատասխանել",
         "theme": "workplace_basics_A1",
         "emoji": "↩️",
@@ -2567,7 +2567,7 @@
         "subtext": "արդյունքները ներկայացնել / նախագիծը ներկայացնել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "presented",
+        "v2": "ներկայացրեց",
         "v3": "ներկայացրել",
         "theme": "workplace_basics_A1",
         "emoji": "📊",
@@ -2588,7 +2588,7 @@
         "subtext": "հանդիպմանը մասնակցել / դասին մասնակցել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "attended",
+        "v2": "մասնակցեց",
         "v3": "մասնակցել",
         "theme": "workplace_basics_A1",
         "emoji": "📅",
@@ -2609,7 +2609,7 @@
         "subtext": "թիմը ղեկավարել / ժամանակը ղեկավարել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "managed",
+        "v2": "ղեկավարեց",
         "v3": "ղեկավարել",
         "theme": "workplace_basics_A1",
         "emoji": "👤",
@@ -2630,7 +2630,7 @@
         "subtext": "փող գանձել / հաշվին գանձել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "charged",
+        "v2": "գանձեց",
         "v3": "գանձել",
         "theme": "money_payment_A1",
         "emoji": "💳",
@@ -2651,7 +2651,7 @@
         "subtext": "տունը թույլ տալ / մեքենան թույլ տալ",
         "classification": "regular",
         "aspect": "stative",
-        "v2": "afforded",
+        "v2": "թույլ տվեց",
         "v3": "թույլ տվել",
         "theme": "money_payment_A1",
         "emoji": "🏦",
@@ -2672,7 +2672,7 @@
         "subtext": "բանկին պարտք լինել / ընկերոջը պարտք լինել",
         "classification": "regular",
         "aspect": "stative",
-        "v2": "owed",
+        "v2": "պարտք էր",
         "v3": "պարտք եղել",
         "theme": "money_payment_A1",
         "emoji": "💸",
@@ -2693,7 +2693,7 @@
         "subtext": "գումար վաստակել / հարգանք վաստակել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "earned",
+        "v2": "վաստակեց",
         "v3": "վաստակել",
         "theme": "money_payment_A1",
         "emoji": "💶",
@@ -2714,7 +2714,7 @@
         "subtext": "թանգարան այցելել / տատիկին այցելել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "visited",
+        "v2": "այցելեց",
         "v3": "այցելել",
         "theme": "family_life_A1",
         "emoji": "🏘️",
@@ -2735,7 +2735,7 @@
         "subtext": "ծննդյան օրը տոնել / հաղթանակը տոնել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "celebrated",
+        "v2": "տոնեց",
         "v3": "տոնել",
         "theme": "leisure_activities_A1",
         "emoji": "🎉",
@@ -2756,7 +2756,7 @@
         "subtext": "գիրք խորհուրդ տալ / ռեստորան խորհուրդ տալ",
         "classification": "regular",
         "aspect": "action",
-        "v2": "recommended",
+        "v2": "խորհուրդ տվեց",
         "v3": "խորհուրդ տվել",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
@@ -2777,7 +2777,7 @@
         "subtext": "ոտքը ցավեցնել / մեջքը ցավել",
         "classification": "irregular",
         "aspect": "both",
-        "v2": "hurt",
+        "v2": "ցավեցրեց",
         "v3": "ցավեցրել",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
@@ -2798,7 +2798,7 @@
         "subtext": "լողափին հանգստանալ / աշխատանքից հետո հանգստանալ",
         "classification": "regular",
         "aspect": "action",
-        "v2": "rested",
+        "v2": "հանգստացավ",
         "v3": "հանգստացել",
         "theme": "daily_work_routines_A1",
         "emoji": "🛋️",
@@ -2819,7 +2819,7 @@
         "subtext": "հիվանդությունից ապաքինվել / վնասվածքից ապաքինվել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "recovered",
+        "v2": "ապաքինվեց",
         "v3": "ապաքինվել",
         "theme": "medical_appointments_A1",
         "emoji": "🩹",
@@ -2840,7 +2840,7 @@
         "subtext": "տոմս ամրագրել / սեղան ամրագրել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "booked",
+        "v2": "ամրագրեց",
         "v3": "ամրագրել",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "📖",
@@ -2882,7 +2882,7 @@
         "subtext": "թռիչքը չեղարկել / հանդիպումը չեղարկել",
         "classification": "regular",
         "aspect": "action",
-        "v2": "cancelled",
+        "v2": "չեղարկեց",
         "v3": "չեղարկել",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "❌",
@@ -2903,7 +2903,7 @@
         "subtext": "գնացքը բաց թողնել / հնարավորությունը բաց թողնել",
         "classification": "regular",
         "aspect": "both",
-        "v2": "missed",
+        "v2": "բաց թողեց",
         "v3": "բաց թողել",
         "theme": "public_transport_A1",
         "emoji": "🏃‍♂️",
@@ -2928,7 +2928,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "ordered",
+        "v2": "պատվիրեց",
         "v3": "պատվիրել",
         "group": "el"
     },
@@ -2949,7 +2949,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "explained",
+        "v2": "բացատրեց",
         "v3": "բացատրել",
         "group": "el"
     },
@@ -2970,7 +2970,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "thanked",
+        "v2": "շնորհակալություն հայտնեց",
         "v3": "շնորհակալություն հայտնել",
         "group": "el"
     },
@@ -2991,7 +2991,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "introduced",
+        "v2": "ներկայացրեց",
         "v3": "ներկայացրել",
         "group": "el"
     },
@@ -3012,7 +3012,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "relaxed",
+        "v2": "թուլացավ",
         "v3": "թուլացել",
         "group": "al"
     },
@@ -3054,7 +3054,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "happened",
+        "v2": "պատահեց",
         "v3": "պատահել",
         "group": "el"
     },
@@ -3075,7 +3075,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "seemed",
+        "v2": "թվաց",
         "v3": "թվացել",
         "group": "al"
     },
@@ -3096,7 +3096,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "meant",
+        "v2": "նշանակեց",
         "v3": "նշանակել",
         "group": "irregular"
     },
@@ -3117,7 +3117,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "followed",
+        "v2": "հետևեց",
         "v3": "հետևել",
         "group": "el"
     },
@@ -3138,7 +3138,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "continued",
+        "v2": "շարունակեց",
         "v3": "շարունակել",
         "group": "el"
     },
@@ -3159,7 +3159,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "grew",
+        "v2": "աճեց",
         "v3": "աճել",
         "group": "irregular"
     },
@@ -3180,7 +3180,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "included",
+        "v2": "ներառեց",
         "v3": "ներառել",
         "group": "el"
     },
@@ -3201,7 +3201,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "became",
+        "v2": "դարձավ",
         "v3": "դարձել",
         "group": "irregular"
     },
@@ -3222,7 +3222,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "belonged",
+        "v2": "պատկանեց",
         "v3": "պատկանել",
         "group": "el"
     },
@@ -3243,7 +3243,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "chose",
+        "v2": "ընտրեց",
         "v3": "ընտրել",
         "group": "irregular"
     },
@@ -3264,7 +3264,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "built",
+        "v2": "կառուցեց",
         "v3": "կառուցել",
         "group": "irregular"
     }
@@ -3273,6 +3273,5 @@
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
