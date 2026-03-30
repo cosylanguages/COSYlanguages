@@ -48,13 +48,13 @@
                 ]
             },
             {
-                "text": "Of less than average height or length.",
+                "text": "De taille ou de longueur inférieure à la moyenne.",
                 "examples": [
-                    "He has a short commute — ten minutes by bike."
+                    "Il a un trajet court — dix minutes à vélo."
                 ]
             }
         ],
-        "subtext": "a short journey / short hair / too short",
+        "subtext": "un court voyage / les cheveux courts / trop court",
         "comparative": "plus court",
         "superlative": "le plus court",
         "opposite": "grand",
@@ -79,7 +79,7 @@
         "superlative": "le plus jeune",
         "opposite": "vieux",
         "oppositeEmoji": "👴",
-        "subtext": "young person / young professional / young at heart",
+        "subtext": "jeune personne / jeune professionnel / jeune de cœur",
         "word": "jeune"
     },
     {
@@ -101,7 +101,7 @@
         "emoji": "👴",
         "plural": "vieux",
         "femininePlural": "vieilles",
-        "subtext": "old friend / old habits / very old",
+        "subtext": "vieil ami / vieilles habitudes / très vieux",
         "comparative": "plus vieux",
         "superlative": "le plus vieux"
     },
@@ -116,11 +116,11 @@
                 "text": "Ayant beaucoup de lumière du soleil.",
                 "examples": [
                     "C'est une journée ensoleillée.",
-                    "I like sunny weather."
+                    "J'aime le temps ensoleillé."
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell",
+        "subtext": "journée ensoleillée / temps ensoleillé / éclaircies",
         "comparative": "plus ensoleillé",
         "superlative": "le plus ensoleillé",
         "feminine": "ensoleillée",
@@ -138,11 +138,11 @@
                 "text": "Ayant beaucoup de pluie.",
                 "examples": [
                     "C'est une journée pluvieuse.",
-                    "Wear a coat, it's rainy outside."
+                    "Le temps est pluvieux dehors."
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season",
+        "subtext": "journée pluvieuse / temps pluvieux / saison des pluies",
         "comparative": "plus pluvieux",
         "superlative": "le plus pluvieux",
         "feminine": "pluvieuse",
@@ -168,7 +168,7 @@
         "feminine": "chaude",
         "plural": "chauds",
         "femininePlural": "chaudes",
-        "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
+        "subtext": "très chaud / temps chaud / une boisson chaude / trop chaud",
         "comparative": "plus chaud",
         "superlative": "le plus chaud"
     },
@@ -191,7 +191,7 @@
         "feminine": "froide",
         "plural": "froids",
         "femininePlural": "froides",
-        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
+        "subtext": "très froid / matinée froide / temps froid / une boisson froide / trop froid",
         "comparative": "plus froid",
         "superlative": "le plus froid"
     },
@@ -210,7 +210,7 @@
                 ]
             }
         ],
-        "subtext": "ordinary day / ordinary life / nothing ordinary",
+        "subtext": "journée ordinaire / vie ordinaire / rien d'ordinaire",
         "comparative": "plus ordinaire",
         "superlative": "le plus ordinaire",
         "feminine": "ordinaire",
@@ -236,7 +236,7 @@
         "feminine": "bon marché",
         "plural": "bon marché",
         "femininePlural": "bon marché",
-        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful",
+        "subtext": "prix bas, bon marché / vol pas cher / très bon marché / simple et efficace",
         "comparative": "plus bon marché",
         "superlative": "le plus bon marché"
     },
@@ -259,7 +259,7 @@
         "feminine": "chère",
         "plural": "chers",
         "femininePlural": "chères",
-        "subtext": "costly, high price / very expensive / expensive taste / too expensive",
+        "subtext": "coûteux, prix élevé / très cher / goûts de luxe / trop cher",
         "comparative": "plus cher",
         "superlative": "le plus cher"
     },
@@ -282,7 +282,7 @@
         "feminine": "bonne",
         "plural": "bons",
         "femininePlural": "bonnes",
-        "subtext": "great, nice, pleasant / good idea / good luck / good value",
+        "subtext": "génial, agréable / bonne idée / bonne chance / bon rapport qualité-prix",
         "comparative": "meilleur",
         "superlative": "le meilleur"
     },
@@ -305,7 +305,7 @@
         "feminine": "mauvaise",
         "plural": "mauvais",
         "femininePlural": "mauvaises",
-        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
+        "subtext": "terrible, affreux / mauvaises nouvelles / malchance / mauvaise décision",
         "comparative": "pire",
         "superlative": "le pire"
     },
@@ -328,7 +328,7 @@
         "emoji": "🐘",
         "plural": "grands",
         "femininePlural": "grandes",
-        "subtext": "large, huge / a big house / a big problem / big enough",
+        "subtext": "grand, immense / une grande maison / un gros problème / assez grand",
         "comparative": "plus grand",
         "superlative": "le plus grand"
     },
@@ -351,7 +351,7 @@
         "emoji": "🐭",
         "plural": "petits",
         "femininePlural": "petites",
-        "subtext": "little, tiny / a small flat / a small salary / too small",
+        "subtext": "petit, minuscule / un petit appartement / un petit salaire / trop petit",
         "comparative": "plus petit",
         "superlative": "le plus petit"
     },
@@ -374,7 +374,7 @@
         "feminine": "facile",
         "plural": "faciles",
         "femininePlural": "faciles",
-        "subtext": "easy to do / nice and easy / not easy",
+        "subtext": "facile à faire / simple comme bonjour / pas facile",
         "comparative": "plus facile",
         "superlative": "le plus facile"
     },
@@ -397,7 +397,7 @@
         "feminine": "difficile",
         "plural": "difficiles",
         "femininePlural": "difficiles",
-        "subtext": "difficult to do / very difficult / find it difficult",
+        "subtext": "difficile à faire / très difficile / trouver cela difficile",
         "comparative": "plus difficile",
         "superlative": "le plus difficile"
     },
@@ -418,7 +418,7 @@
         "feminine": "heureuse",
         "plural": "heureux",
         "femininePlural": "heureuses",
-        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day",
+        "subtext": "heureux, joyeux / se sentir heureux / content de quelque chose / un jour de bonheur",
         "comparative": "plus heureux",
         "superlative": "le plus heureux"
     },
@@ -439,7 +439,7 @@
         "feminine": "fatiguée",
         "plural": "fatigués",
         "femininePlural": "fatiguées",
-        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
+        "subtext": "somnolent, épuisé / se sentir fatigué / fatigué de quelque chose / très fatigué",
         "comparative": "plus fatigué",
         "superlative": "le plus fatigué"
     },
@@ -459,7 +459,7 @@
                 ]
             }
         ],
-        "subtext": "full-time job / full-time work / full-time employee",
+        "subtext": "travail à plein temps / emploi à plein temps / salarié à plein temps",
         "comparative": "plus à plein temps",
         "superlative": "le plus à plein temps",
         "feminine": "à plein temps",
@@ -482,7 +482,7 @@
                 ]
             }
         ],
-        "subtext": "part-time job / part-time work / part-time student",
+        "subtext": "travail à temps partiel / emploi à mi-temps / étudiant à temps partiel",
         "comparative": "plus à temps partiel",
         "superlative": "le plus à temps partiel",
         "feminine": "à temps partiel",
@@ -522,13 +522,13 @@
         "femininePlural": "saines",
         "definitions": [
             {
-                "text": "Good for your body; not ill.",
+                "text": "Bon pour le corps ; pas malade.",
                 "examples": [
                     "Les légumes sont une nourriture saine."
                 ]
             }
         ],
-        "subtext": "well, fit, healthy diet",
+        "subtext": "en bonne santé / en forme / régime sain",
         "comparative": "plus sain",
         "superlative": "le plus sain",
         "opposite": "unhealthy",
@@ -550,7 +550,7 @@
                 ]
             }
         ],
-        "subtext": "sick, feel ill",
+        "subtext": "malade / se sentir mal",
         "comparative": "plus malade",
         "superlative": "le plus malade",
         "opposite": "well",
@@ -572,7 +572,7 @@
                 ]
             }
         ],
-        "subtext": "online shopping / online course / stay online",
+        "subtext": "achats en ligne / cours en ligne / rester en ligne",
         "comparative": "plus en ligne",
         "superlative": "le plus en ligne",
         "feminine": "en ligne",
@@ -595,7 +595,7 @@
                 ]
             }
         ],
-        "subtext": "live alone / travel alone / feel alone",
+        "subtext": "vivre seul / voyager seul / se sentir seul",
         "comparative": "plus seul",
         "superlative": "le plus seul",
         "feminine": "seule",
@@ -618,7 +618,7 @@
                 ]
             }
         ],
-        "subtext": "calm, feeling relaxed",
+        "subtext": "calme / se sentir détendu",
         "comparative": "plus détendu",
         "superlative": "le plus détendu",
         "opposite": "stressé",
@@ -663,7 +663,7 @@
         "feminine": "occupée",
         "plural": "occupés",
         "femininePlural": "occupées",
-        "subtext": "very busy, busy day / busy schedule / very busy / too busy",
+        "subtext": "très occupé / journée chargée / emploi du temps chargé / trop occupé",
         "comparative": "plus occupé",
         "superlative": "le plus occupé"
     },
@@ -677,13 +677,13 @@
         "femininePlural": "utiles",
         "definitions": [
             {
-                "text": "Helpful; having a practical purpose.",
+                "text": "Utile ; ayant un but pratique.",
                 "examples": [
-                    "A car is very useful in the country."
+                    "Une voiture est très utile à la campagne."
                 ]
             }
         ],
-        "subtext": "helpful, practical",
+        "subtext": "utile / pratique",
         "comparative": "plus utile",
         "superlative": "le plus utile",
         "opposite": "inutile",
@@ -914,13 +914,13 @@
         "femininePlural": "grandes",
         "definitions": [
             {
-                "text": "Of more than average size or amount.",
+                "text": "De taille ou de quantité supérieure à la moyenne.",
                 "examples": [
-                    "Paris is a very large city."
+                    "Paris est une très grande ville."
                 ]
             }
         ],
-        "subtext": "a large city / a large company / a large amount",
+        "subtext": "une grande ville / une grande entreprise / une grande quantité",
         "comparative": "plus grand",
         "superlative": "le plus grand"
     },
@@ -935,7 +935,7 @@
         "femininePlural": "petites",
         "definitions": [
             {
-                "text": "Small in size; a small amount of.",
+                "text": "De petite taille ; une petite quantité de.",
                 "examples": [
                     "He drives a little car to save on fuel."
                 ]
@@ -956,13 +956,13 @@
         "femininePlural": "longues",
         "definitions": [
             {
-                "text": "Of great length; lasting a long time.",
+                "text": "De grande longueur ; qui dure longtemps.",
                 "examples": [
-                    "She has a long commute every day."
+                    "Elle a un long trajet tous les jours."
                 ]
             }
         ],
-        "subtext": "a long journey / a long day / a long time",
+        "subtext": "un long voyage / une longue journée / une longue durée",
         "comparative": "plus long",
         "superlative": "le plus long"
     },
@@ -977,9 +977,9 @@
         "femininePlural": "hautes",
         "definitions": [
             {
-                "text": "Of greater than average height or level.",
+                "text": "D'une hauteur ou d'un niveau supérieur à la moyenne.",
                 "examples": [
-                    "The rent in this area is very high."
+                    "Le loyer dans ce quartier est très élevé."
                 ]
             }
         ],
@@ -998,9 +998,9 @@
         "femininePlural": "basses",
         "definitions": [
             {
-                "text": "Of less than average height or level.",
+                "text": "D'une hauteur ou d'un niveau inférieur à la moyenne.",
                 "examples": [
-                    "The salary is too low for the hours involved."
+                    "Le salaire est trop bas pour les heures effectuées."
                 ]
             }
         ],
@@ -1019,13 +1019,13 @@
         "femininePlural": "pleines",
         "definitions": [
             {
-                "text": "Containing as much as possible; complete.",
+                "text": "Contenant autant que possible ; complet.",
                 "examples": [
-                    "I feel full after that lunch."
+                    "Je me sens rassasié après ce déjeuner."
                 ]
             }
         ],
-        "subtext": "full time / a full day / full of people",
+        "subtext": "plein temps / une journée complète / plein de monde",
         "comparative": "plus plein",
         "superlative": "le plus plein"
     },
@@ -1040,13 +1040,13 @@
         "femininePlural": "vides",
         "definitions": [
             {
-                "text": "Containing nothing; with no people.",
+                "text": "Ne contenant rien ; sans personne.",
                 "examples": [
-                    "The office is empty at weekends."
+                    "Le bureau est vide le week-end."
                 ]
             }
         ],
-        "subtext": "an empty flat / an empty room / nearly empty",
+        "subtext": "un appartement vide / une pièce vide / presque vide",
         "comparative": "plus vide",
         "superlative": "le plus vide"
     },
@@ -1061,9 +1061,9 @@
         "femininePlural": "tièdes",
         "definitions": [
             {
-                "text": "Slightly hot; pleasantly heated.",
+                "text": "Légèrement chaud ; agréablement chauffé.",
                 "examples": [
-                    "The office is warm and comfortable."
+                    "Le bureau est chaud et confortable."
                 ]
             }
         ],
@@ -1082,9 +1082,9 @@
         "femininePlural": "fraîches",
         "definitions": [
             {
-                "text": "Slightly cold; pleasantly low temperature.",
+                "text": "Légèrement froid ; température agréablement basse.",
                 "examples": [
-                    "She prefers cool weather for working."
+                    "Elle préfère le temps frais pour travailler."
                 ]
             }
         ],
@@ -1103,9 +1103,9 @@
         "femininePlural": "mouillées",
         "definitions": [
             {
-                "text": "Covered with water or liquid.",
+                "text": "Couvert d'eau ou de liquide.",
                 "examples": [
-                    "His jacket is wet from the rain."
+                    "Sa veste est mouillée par la pluie."
                 ]
             }
         ],
@@ -1126,7 +1126,7 @@
             {
                 "text": "Without water or liquid; not wet.",
                 "examples": [
-                    "The storage room must stay dry."
+                    "Le local de stockage doit rester sec."
                 ]
             }
         ],
@@ -1138,15 +1138,16 @@
         "word": "sale",
         "feminine": "sale",
         "level": "starter",
+        "theme": "household_tasks_A1",
         "emoji": "💩",
         "form": "adjective",
         "plural": "sales",
         "femininePlural": "sales",
         "definitions": [
             {
-                "text": "Covered in dirt or impurities.",
+                "text": "Couvert de saleté ou d'impuretés.",
                 "examples": [
-                    "His hands are dirty after fixing the car."
+                    "Ses mains sont sales après avoir réparé la voiture."
                 ]
             }
         ],
@@ -1165,13 +1166,13 @@
         "femininePlural": "dures",
         "definitions": [
             {
-                "text": "Firm and solid; difficult.",
+                "text": "Ferme et solide ; difficile.",
                 "examples": [
-                    "The chair is very hard and uncomfortable."
+                    "La chaise est très dure et inconfortable."
                 ]
             }
         ],
-        "subtext": "hard work / a hard decision / too hard",
+        "subtext": "travail difficile / une décision difficile / trop difficile",
         "comparative": "plus dur",
         "superlative": "le plus dur"
     },
@@ -1186,9 +1187,9 @@
         "femininePlural": "douces",
         "definitions": [
             {
-                "text": "Not hard; gentle to the touch.",
+                "text": "Pas dur ; doux au toucher.",
                 "examples": [
-                    "The sofa is very soft and comfortable."
+                    "Le canapé est très doux et confortable."
                 ]
             }
         ],
@@ -1207,9 +1208,9 @@
         "femininePlural": "lourdes",
         "definitions": [
             {
-                "text": "Of great weight; difficult to carry.",
+                "text": "D'un poids important ; difficile à porter.",
                 "examples": [
-                    "The bag is very heavy with all those files."
+                    "Le sac est très lourd avec tous ces dossiers."
                 ]
             }
         ],
@@ -1228,9 +1229,9 @@
         "femininePlural": "légères",
         "definitions": [
             {
-                "text": "Not heavy; pale in colour.",
+                "text": "Pas lourd ; de couleur claire.",
                 "examples": [
-                    "She carries a light bag to work every day."
+                    "Elle porte un sac léger pour aller au travail tous les jours."
                 ]
             }
         ],
@@ -1249,9 +1250,9 @@
         "femininePlural": "brunes",
         "definitions": [
             {
-                "text": "Having the colour of wood or earth.",
+                "text": "Ayant la couleur du bois ou de la terre.",
                 "examples": [
-                    "She has brown eyes and dark hair."
+                    "Elle a les yeux bruns et les cheveux foncés."
                 ]
             }
         ],
@@ -1270,9 +1271,9 @@
         "femininePlural": "grises",
         "definitions": [
             {
-                "text": "Having a colour between black and white.",
+                "text": "Ayant une couleur entre le noir et le blanc.",
                 "examples": [
-                    "He has grey hair and a kind face."
+                    "Il a les cheveux gris et un visage aimable."
                 ]
             }
         ],
@@ -1291,9 +1292,9 @@
         "femininePlural": "rose",
         "definitions": [
             {
-                "text": "Having a pale red colour.",
+                "text": "Ayant une couleur rouge pâle.",
                 "examples": [
-                    "She prefers pink to red."
+                    "Elle préfère le rose au rouge."
                 ]
             }
         ],
@@ -1312,9 +1313,9 @@
         "femininePlural": "orange",
         "definitions": [
             {
-                "text": "Having the colour of an orange fruit.",
+                "text": "Ayant la couleur d'une orange.",
                 "examples": [
-                    "He bought an orange jacket."
+                    "Il a acheté une veste orange."
                 ]
             }
         ],
@@ -1333,13 +1334,13 @@
         "femininePlural": "géniales",
         "definitions": [
             {
-                "text": "Extremely good; large in amount.",
+                "text": "Extrêmement bon ; important en quantité.",
                 "examples": [
-                    "She is a great manager."
+                    "C'est une excellente manager."
                 ]
             }
         ],
-        "subtext": "a great idea / a great opportunity / great value",
+        "subtext": "une excellente idée / une excellente opportunité / excellente valeur",
         "comparative": "plus génial",
         "superlative": "le plus génial"
     },
@@ -1354,13 +1355,13 @@
         "femininePlural": "sympas",
         "definitions": [
             {
-                "text": "Pleasant or kind.",
+                "text": "Agréable ou gentil.",
                 "examples": [
-                    "The new office is very nice."
+                    "Le nouveau bureau est très sympa."
                 ]
             }
         ],
-        "subtext": "a nice day / a nice place / a nice person",
+        "subtext": "une belle journée / un bel endroit / une personne sympa",
         "comparative": "plus sympa",
         "superlative": "le plus sympa"
     },
@@ -1375,13 +1376,13 @@
         "femininePlural": "merveilleuses",
         "definitions": [
             {
-                "text": "Extremely good; causing delight.",
+                "text": "Extrêmement bon ; provoquant du plaisir.",
                 "examples": [
-                    "They had a wonderful team."
+                    "Ils avaient une équipe merveilleuse."
                 ]
             }
         ],
-        "subtext": "a wonderful opportunity / a wonderful time",
+        "subtext": "une opportunité merveilleuse / un moment merveilleux",
         "comparative": "plus merveilleux",
         "superlative": "le plus merveilleux"
     },
@@ -1396,9 +1397,9 @@
         "femininePlural": "terribles",
         "definitions": [
             {
-                "text": "Extremely bad.",
+                "text": "Extrêmement mauvais.",
                 "examples": [
-                    "The traffic this morning was terrible."
+                    "La circulation ce matin était terrible."
                 ]
             }
         ],
@@ -1417,9 +1418,9 @@
         "femininePlural": "affreuses",
         "definitions": [
             {
-                "text": "Very bad or unpleasant.",
+                "text": "Très mauvais ou désagréable.",
                 "examples": [
-                    "The noise in the open office is awful."
+                    "Le bruit dans l'open space est affreux."
                 ]
             }
         ],
@@ -1438,9 +1439,9 @@
         "femininePlural": "incroyables",
         "definitions": [
             {
-                "text": "Causing great surprise or admiration.",
+                "text": "Provoquant une grande surprise ou admiration.",
                 "examples": [
-                    "She gave an amazing presentation."
+                    "Elle a fait une présentation incroyable."
                 ]
             }
         ],
@@ -1459,9 +1460,9 @@
         "femininePlural": "fantastiques",
         "definitions": [
             {
-                "text": "Extremely good.",
+                "text": "Extrêmement bon.",
                 "examples": [
-                    "The new system works in a fantastic way."
+                    "Le nouveau système fonctionne de manière fantastique."
                 ]
             }
         ],
@@ -1480,13 +1481,13 @@
         "femininePlural": "tristes",
         "definitions": [
             {
-                "text": "Feeling unhappy or sorrowful.",
+                "text": "Se sentir malheureux ou affligé.",
                 "examples": [
-                    "He was sad to leave the company."
+                    "Il était triste de quitter l'entreprise."
                 ]
             }
         ],
-        "subtext": "feel sad / a sad situation / deeply sad",
+        "subtext": "se sentir triste / une situation triste / profondément triste",
         "comparative": "plus triste",
         "superlative": "le plus triste"
     },
@@ -1501,13 +1502,13 @@
         "femininePlural": "affamées",
         "definitions": [
             {
-                "text": "Needing food.",
+                "text": "Ayant besoin de nourriture.",
                 "examples": [
-                    "I am hungry — it is already two o'clock."
+                    "J'ai faim — il est déjà deux heures."
                 ]
             }
         ],
-        "subtext": "feel hungry / very hungry / go hungry",
+        "subtext": "avoir faim / très faim / rester sur sa faim",
         "comparative": "plus affamé",
         "superlative": "le plus affamé"
     },
@@ -1522,13 +1523,13 @@
         "femininePlural": "fâchées",
         "definitions": [
             {
-                "text": "Feeling strong displeasure.",
+                "text": "Ressentir un fort mécontentement.",
                 "examples": [
-                    "She was angry about the decision."
+                    "Elle était fâchée par la décision."
                 ]
             }
         ],
-        "subtext": "feel angry / angry with someone / very angry",
+        "subtext": "se sentir en colère / fâché contre quelqu'un / très en colère",
         "comparative": "plus fâché",
         "superlative": "le plus fâché"
     },
@@ -1543,13 +1544,13 @@
         "femininePlural": "ennuyées",
         "definitions": [
             {
-                "text": "Feeling uninterested or restless.",
+                "text": "Se sentir désintéressé ou agité.",
                 "examples": [
-                    "He feels bored in long meetings."
+                    "Il s'ennuie pendant les longues réunions."
                 ]
             }
         ],
-        "subtext": "feel bored / bored with / easily bored",
+        "subtext": "s'ennuyer / s'ennuyer de / s'ennuie facilement",
         "comparative": "plus ennuyé",
         "superlative": "le plus ennuyé"
     },
@@ -1557,19 +1558,20 @@
         "word": "excité",
         "feminine": "excitée",
         "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "emoji": "🤩",
         "form": "adjective",
         "plural": "excités",
         "femininePlural": "excitées",
         "definitions": [
             {
-                "text": "Feeling enthusiasm and eagerness.",
+                "text": "Ressentir de l'enthousiasme et de l'impatience.",
                 "examples": [
-                    "She is excited about her new job."
+                    "Elle est excitée par son nouveau travail."
                 ]
             }
         ],
-        "subtext": "feel excited / excited about / very excited",
+        "subtext": "se sentir excité / excité par / très excité",
         "comparative": "plus excité",
         "superlative": "le plus excité"
     },
@@ -1584,13 +1586,13 @@
         "femininePlural": "effrayées",
         "definitions": [
             {
-                "text": "Feeling fear.",
+                "text": "Ressentir de la peur.",
                 "examples": [
-                    "He is afraid of making mistakes."
+                    "Il a peur de faire des erreurs."
                 ]
             }
         ],
-        "subtext": "afraid of / feel afraid / deeply afraid",
+        "subtext": "peur de / avoir peur / profondément effrayé",
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé"
     },
@@ -1605,13 +1607,13 @@
         "femininePlural": "désolées",
         "definitions": [
             {
-                "text": "Feeling regret or sadness.",
+                "text": "Ressentir du regret ou de la tristesse.",
                 "examples": [
-                    "She is sorry for the delay."
+                    "Elle est désolée pour le retard."
                 ]
             }
         ],
-        "subtext": "feel sorry / sorry for / sorry about",
+        "subtext": "se sentir désolé / désolé pour / désolé de",
         "comparative": "plus désolé",
         "superlative": "le plus désolé"
     },
@@ -1626,13 +1628,13 @@
         "femininePlural": "correctes",
         "definitions": [
             {
-                "text": "Correct; suitable.",
+                "text": "Correct ; approprié.",
                 "examples": [
-                    "Is this the right office?"
+                    "Est-ce le bon bureau ?"
                 ]
             }
         ],
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "bonne réponse / bon moment / tout à fait raison",
         "comparative": "plus correct",
         "superlative": "le plus correct"
     },
@@ -1647,13 +1649,13 @@
         "femininePlural": "mauvaises",
         "definitions": [
             {
-                "text": "Not correct; not suitable.",
+                "text": "Pas correct ; pas approprié.",
                 "examples": [
-                    "That was the wrong decision."
+                    "C'était la mauvaise décision."
                 ]
             }
         ],
-        "subtext": "wrong answer / go wrong / completely wrong",
+        "subtext": "mauvaise réponse / se tromper / complètement faux",
         "comparative": "pire",
         "superlative": "le pire"
     },
@@ -1668,13 +1670,13 @@
         "femininePlural": "nouvelles",
         "definitions": [
             {
-                "text": "Not existing before; recently made.",
+                "text": "N'existant pas auparavant ; récemment fabriqué.",
                 "examples": [
-                    "She has a new job starting in March."
+                    "Elle a un nouveau travail qui commence en mars."
                 ]
             }
         ],
-        "subtext": "new job / brand new / completely new",
+        "subtext": "nouveau travail / tout nouveau / complètement nouveau",
         "comparative": "plus nouveau",
         "superlative": "le plus nouveau"
     },
@@ -1689,13 +1691,13 @@
         "femininePlural": "différentes",
         "definitions": [
             {
-                "text": "Not the same as another.",
+                "text": "Pas le même qu'un autre.",
                 "examples": [
-                    "This job is very different from my last one."
+                    "Ce travail est très différent du précédent."
                 ]
             }
         ],
-        "subtext": "completely different / very different / different from",
+        "subtext": "complètement différent / très différent / différent de",
         "comparative": "plus différent",
         "superlative": "le plus différent"
     },
@@ -1710,13 +1712,13 @@
         "femininePlural": "mêmes",
         "definitions": [
             {
-                "text": "Not different; identical.",
+                "text": "Pas différent ; identique.",
                 "examples": [
-                    "They earn the same salary."
+                    "Ils gagnent le même salaire."
                 ]
             }
         ],
-        "subtext": "the same as / exactly the same / same time",
+        "subtext": "le même que / exactement le même / en même temps",
         "comparative": "plus même",
         "superlative": "le plus même"
     },
@@ -1731,13 +1733,13 @@
         "femininePlural": "rapides",
         "definitions": [
             {
-                "text": "Moving or happening quickly.",
+                "text": "Se déplaçant ou se produisant rapidement.",
                 "examples": [
-                    "The train to work is fast and reliable."
+                    "Le train pour aller au travail est rapide et fiable."
                 ]
             }
         ],
-        "subtext": "fast food / fast train / very fast",
+        "subtext": "restauration rapide / train rapide / très rapide",
         "comparative": "plus rapide",
         "superlative": "le plus rapide"
     },
@@ -1752,13 +1754,13 @@
         "femininePlural": "lentes",
         "definitions": [
             {
-                "text": "Not fast; taking a long time.",
+                "text": "Pas rapide ; prenant beaucoup de temps.",
                 "examples": [
-                    "The new system is very slow."
+                    "Le nouveau système est très lent."
                 ]
             }
         ],
-        "subtext": "slow progress / slow internet / very slow",
+        "subtext": "progrès lents / internet lent / très lent",
         "comparative": "plus lent",
         "superlative": "le plus lent"
     },
@@ -1773,13 +1775,13 @@
         "femininePlural": "calmes",
         "definitions": [
             {
-                "text": "Making little or no noise; peaceful.",
+                "text": "Faisant peu ou pas de bruit ; paisible.",
                 "examples": [
-                    "The office is quiet at lunchtime."
+                    "Le bureau est calme à l'heure du déjeuner."
                 ]
             }
         ],
-        "subtext": "quiet area / keep quiet / nice and quiet",
+        "subtext": "quartier calme / rester calme / bien calme",
         "comparative": "plus calme",
         "superlative": "le plus calme"
     },
@@ -1794,13 +1796,13 @@
         "femininePlural": "bruyantes",
         "definitions": [
             {
-                "text": "Making a lot of noise.",
+                "text": "Faisant beaucoup de bruit.",
                 "examples": [
-                    "The open-plan office is too loud."
+                    "L'open space est trop bruyant."
                 ]
             }
         ],
-        "subtext": "loud noise / too loud / a loud voice",
+        "subtext": "bruit fort / trop fort / une voix forte",
         "comparative": "plus bruyant",
         "superlative": "le plus bruyant"
     },
@@ -1815,13 +1817,13 @@
         "femininePlural": "sûres",
         "definitions": [
             {
-                "text": "Not dangerous; protected from harm.",
+                "text": "Pas dangereux ; protégé du danger.",
                 "examples": [
-                    "This neighbourhood is very safe."
+                    "Ce quartier est très sûr."
                 ]
             }
         ],
-        "subtext": "safe area / safe to do / feel safe",
+        "subtext": "zone sûre / sûr à faire / se sentir en sécurité",
         "comparative": "plus sûr",
         "superlative": "le plus sûr"
     },
@@ -1836,13 +1838,13 @@
         "femininePlural": "dangereuses",
         "definitions": [
             {
-                "text": "Likely to cause harm.",
+                "text": "Susceptible de causer du tort.",
                 "examples": [
-                    "The commute on that road is dangerous."
+                    "Le trajet sur cette route est dangereux."
                 ]
             }
         ],
-        "subtext": "dangerous situation / very dangerous / potentially dangerous",
+        "subtext": "situation dangereuse / très dangereux / potentiellement dangereux",
         "comparative": "plus dangereux",
         "superlative": "le plus dangereux"
     },
@@ -1858,7 +1860,7 @@
             {
                 "text": "Ne pas se sentir satisfait ou heureux.",
                 "examples": [
-                    "He is unhappy with his current salary."
+                    "Il est mécontent de son salaire actuel."
                 ]
             }
         ],
@@ -1878,7 +1880,7 @@
             {
                 "text": "Se sentir anxieux ou inquiet.",
                 "examples": [
-                    "He was nervous before the job interview."
+                    "Il était nerveux avant l'entretien d'embauche."
                 ]
             }
         ],
@@ -1896,13 +1898,13 @@
         "femininePlural": "stressées",
         "definitions": [
             {
-                "text": "Feeling worried and tense from pressure.",
+                "text": "Se sentir inquiet et tendu par la pression.",
                 "examples": [
-                    "She feels stressed before every deadline."
+                    "Elle se sent stressée avant chaque date limite."
                 ]
             }
         ],
-        "subtext": "feel stressed / very stressed / stressed out",
+        "subtext": "se sentir stressé / très stressé / à bout de nerfs",
         "comparative": "plus stressé",
         "superlative": "le plus stressé"
     },
@@ -1916,13 +1918,13 @@
         "femininePlural": "confiantes",
         "definitions": [
             {
-                "text": "Feeling sure of your own abilities.",
+                "text": "Se sentir sûr de ses propres capacités.",
                 "examples": [
-                    "She is very confident in client presentations."
+                    "Elle est très confiante lors des présentations clients."
                 ]
             }
         ],
-        "subtext": "feel confident / self-confident / very confident",
+        "subtext": "se sentir confiant / confiance en soi / très confiant",
         "comparative": "plus confiant",
         "superlative": "le plus confiant"
     },
@@ -1936,13 +1938,13 @@
         "femininePlural": "fières",
         "definitions": [
             {
-                "text": "Feeling pleased about an achievement.",
+                "text": "Se sentir satisfait d'une réussite.",
                 "examples": [
-                    "He was proud to get his first promotion."
+                    "Il était fier d'obtenir sa première promotion."
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of",
+        "subtext": "se sentir fier / très fier / fier de",
         "comparative": "plus fier",
         "superlative": "le plus fier"
     },
@@ -1956,13 +1958,13 @@
         "femininePlural": "effrayées",
         "definitions": [
             {
-                "text": "Feeling fear about something.",
+                "text": "Ressentir de la peur à propos de quelque chose.",
                 "examples": [
-                    "She was scared about giving the presentation."
+                    "Elle avait peur de faire la présentation."
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared",
+        "subtext": "avoir peur / peur de / très effrayé",
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé"
     },
@@ -1976,13 +1978,13 @@
         "femininePlural": "surprises",
         "definitions": [
             {
-                "text": "Feeling shock at something unexpected.",
+                "text": "Ressentir un choc face à quelque chose d'inattendu.",
                 "examples": [
-                    "He was surprised to get a pay rise."
+                    "Il a été surpris d'obtenir une augmentation."
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised",
+        "subtext": "se sentir surpris / très surpris / agréablement surpris",
         "comparative": "plus surpris",
         "superlative": "le plus surpris"
     },
@@ -1996,13 +1998,13 @@
         "femininePlural": "déçues",
         "definitions": [
             {
-                "text": "Feeling sad because something was not as good as expected.",
+                "text": "Se sentir triste parce que quelque chose n'était pas à la hauteur des attentes.",
                 "examples": [
-                    "She was disappointed not to get the job."
+                    "Elle a été déçue de ne pas obtenir le poste."
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with",
+        "subtext": "se sentir déçu / profondément déçu / déçu par",
         "comparative": "plus déçu",
         "superlative": "le plus déçu"
     },
@@ -2016,13 +2018,13 @@
         "femininePlural": "belles",
         "definitions": [
             {
-                "text": "Attractive and pleasing to look at.",
+                "text": "Attrayant et agréable à regarder.",
                 "examples": [
-                    "She has a beautiful, bright office with city views."
+                    "Elle a un beau bureau lumineux avec vue sur la ville."
                 ]
             }
         ],
-        "subtext": "beautiful view / beautiful city / absolutely beautiful",
+        "subtext": "belle vue / belle ville / absolument magnifique",
         "comparative": "plus beau",
         "superlative": "le plus beau"
     },
@@ -2036,13 +2038,13 @@
         "femininePlural": "jolies",
         "definitions": [
             {
-                "text": "Pleasant to look at; quite attractive.",
+                "text": "Agréable à regarder ; assez attrayant.",
                 "examples": [
-                    "The new meeting room is very pretty."
+                    "La nouvelle salle de réunion est très jolie."
                 ]
             }
         ],
-        "subtext": "pretty good / a pretty place / quite pretty",
+        "subtext": "assez bien / un bel endroit / assez joli",
         "comparative": "plus joli",
         "superlative": "le plus joli"
     },
@@ -2056,13 +2058,13 @@
         "femininePlural": "fortes",
         "definitions": [
             {
-                "text": "Having great physical or mental power.",
+                "text": "Ayant une grande force physique ou mentale.",
                 "examples": [
-                    "She is a strong leader and very respected."
+                    "C'est un leader fort et très respecté."
                 ]
             }
         ],
-        "subtext": "strong coffee / strong opinion / very strong",
+        "subtext": "café fort / opinion tranchée / très fort",
         "comparative": "plus fort",
         "superlative": "le plus fort"
     },
@@ -2076,13 +2078,13 @@
         "femininePlural": "faibles",
         "definitions": [
             {
-                "text": "Lacking strength or power.",
+                "text": "Manquant de force ou de puissance.",
                 "examples": [
-                    "The signal is weak on the top floor."
+                    "Le signal est faible au dernier étage."
                 ]
             }
         ],
-        "subtext": "weak connection / a weak argument / very weak",
+        "subtext": "connexion faible / un argument faible / très faible",
         "comparative": "plus faible",
         "superlative": "le plus faible"
     },
@@ -2096,13 +2098,13 @@
         "femininePlural": "en forme",
         "definitions": [
             {
-                "text": "In good physical condition through exercise.",
+                "text": "En bonne condition physique grâce à l'exercice.",
                 "examples": [
-                    "She keeps fit by cycling to work every day."
+                    "Elle reste en forme en allant au travail à vélo tous les jours."
                 ]
             }
         ],
-        "subtext": "physically fit / stay fit / keep fit",
+        "subtext": "en bonne forme physique / rester en forme / garder la forme",
         "comparative": "plus en forme",
         "superlative": "le plus en forme"
     },
@@ -2116,13 +2118,13 @@
         "femininePlural": "excellentes",
         "definitions": [
             {
-                "text": "Extremely good; of a very high standard.",
+                "text": "Extrêmement bon ; d'un niveau très élevé.",
                 "examples": [
-                    "She received an excellent review."
+                    "Elle a reçu une excellente évaluation."
                 ]
             }
         ],
-        "subtext": "excellent work / excellent results / absolutely excellent",
+        "subtext": "excellent travail / excellents résultats / absolument excellent",
         "comparative": "plus excellent",
         "superlative": "le plus excellent"
     },
@@ -2136,13 +2138,13 @@
         "femininePlural": "parfaites",
         "definitions": [
             {
-                "text": "Without any faults; completely correct.",
+                "text": "Sans aucun défaut ; tout à fait correct.",
                 "examples": [
-                    "The timing of the launch was perfect."
+                    "Le moment du lancement était parfait."
                 ]
             }
         ],
-        "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
+        "subtext": "une occasion parfaite / moment parfait / absolument parfait",
         "comparative": "plus parfait",
         "superlative": "le plus parfait"
     },
@@ -2156,13 +2158,13 @@
         "femininePlural": "inutiles",
         "definitions": [
             {
-                "text": "Without any useful value; not helpful.",
+                "text": "Sans aucune valeur utile ; pas utile.",
                 "examples": [
-                    "This software is useless for our needs."
+                    "Ce logiciel est inutile pour nos besoins."
                 ]
             }
         ],
-        "subtext": "completely useless / prove useless / a useless idea",
+        "subtext": "complètement inutile / se révéler inutile / une idée inutile",
         "comparative": "plus inutile",
         "superlative": "le plus inutile"
     },
@@ -2176,13 +2178,13 @@
         "femininePlural": "correctes",
         "definitions": [
             {
-                "text": "True or right; without errors.",
+                "text": "Vrai ou juste ; sans erreurs.",
                 "examples": [
-                    "Please check the figures are correct."
+                    "Veuillez vérifier que les chiffres sont corrects."
                 ]
             }
         ],
-        "subtext": "correct answer / the correct way / completely correct",
+        "subtext": "bonne réponse / la bonne manière / tout à fait exact",
         "comparative": "plus correct",
         "superlative": "le plus correct"
     },
@@ -2196,13 +2198,13 @@
         "femininePlural": "intéressantes",
         "definitions": [
             {
-                "text": "Attracting attention; worth knowing about.",
+                "text": "Attirant l'attention ; valant la peine d'être connu.",
                 "examples": [
-                    "The new proposal is very interesting."
+                    "La nouvelle proposition est très intéressante."
                 ]
             }
         ],
-        "subtext": "find interesting / very interesting / an interesting idea",
+        "subtext": "trouver intéressant / très intéressant / une idée intéressante",
         "comparative": "plus intéressant",
         "superlative": "le plus intéressant"
     },
@@ -2216,13 +2218,13 @@
         "femininePlural": "ennuyeuses",
         "definitions": [
             {
-                "text": "Not interesting; dull.",
+                "text": "Pas intéressant ; ennuyeux.",
                 "examples": [
-                    "The training session was very boring."
+                    "La session de formation était très ennuyeuse."
                 ]
             }
         ],
-        "subtext": "very boring / a boring meeting / find boring",
+        "subtext": "très ennuyeux / une réunion ennuyeuse / trouver ennuyeux",
         "comparative": "plus ennuyeux",
         "superlative": "le plus ennuyeux"
     },
@@ -2236,13 +2238,13 @@
         "femininePlural": "nécessaires",
         "definitions": [
             {
-                "text": "Needed; required in order to do something.",
+                "text": "Nécessaire ; requis pour faire quelque chose.",
                 "examples": [
-                    "A good internet connection is necessary for remote work."
+                    "Une bonne connexion Internet est nécessaire pour le travail à distance."
                 ]
             }
         ],
-        "subtext": "absolutely necessary / if necessary / necessary to do",
+        "subtext": "absolument nécessaire / si nécessaire / nécessaire de faire",
         "comparative": "plus nécessaire",
         "superlative": "le plus nécessaire"
     },
@@ -2256,13 +2258,13 @@
         "femininePlural": "possibles",
         "definitions": [
             {
-                "text": "Able to happen or be achieved.",
+                "text": "Pouvant se produire ou être réalisé.",
                 "examples": [
-                    "Is it possible to finish by Friday?"
+                    "Est-il possible de finir d'ici vendredi ?"
                 ]
             }
         ],
-        "subtext": "as soon as possible / it is possible / make possible",
+        "subtext": "dès que possible / c'est possible / rendre possible",
         "comparative": "plus possible",
         "superlative": "le plus possible"
     },
@@ -2276,13 +2278,13 @@
         "femininePlural": "impossibles",
         "definitions": [
             {
-                "text": "Not able to happen or be done.",
+                "text": "Ne pouvant pas se produire ou être fait.",
                 "examples": [
-                    "It is impossible to finish in one day."
+                    "Il est impossible de finir en un jour."
                 ]
             }
         ],
-        "subtext": "virtually impossible / make impossible / nearly impossible",
+        "subtext": "pratiquement impossible / rendre impossible / presque impossible",
         "comparative": "plus impossible",
         "superlative": "le plus impossible"
     },
@@ -2296,13 +2298,13 @@
         "femininePlural": "spéciales",
         "definitions": [
             {
-                "text": "Different from what is usual; particularly important.",
+                "text": "Différent de ce qui est habituel ; particulièrement important.",
                 "examples": [
-                    "She has a special talent for problem-solving."
+                    "Elle a un talent spécial pour la résolution de problèmes."
                 ]
             }
         ],
-        "subtext": "a special offer / special occasion / very special",
+        "subtext": "une offre spéciale / occasion spéciale / très spécial",
         "comparative": "plus spécial",
         "superlative": "le plus spécial"
     },
@@ -2316,13 +2318,13 @@
         "femininePlural": "populaires",
         "definitions": [
             {
-                "text": "Liked by many people.",
+                "text": "Aimé par beaucoup de gens.",
                 "examples": [
-                    "The new café near the office is very popular."
+                    "Le nouveau café près du bureau est très populaire."
                 ]
             }
         ],
-        "subtext": "very popular / popular choice / most popular",
+        "subtext": "très populaire / choix populaire / le plus populaire",
         "comparative": "plus populaire",
         "superlative": "le plus populaire"
     },
@@ -2336,13 +2338,13 @@
         "femininePlural": "similaires",
         "definitions": [
             {
-                "text": "Almost the same; having many shared features.",
+                "text": "Presque le même ; ayant de nombreuses caractéristiques communes.",
                 "examples": [
-                    "Our approaches are very similar."
+                    "Nos approches sont très similaires."
                 ]
             }
         ],
-        "subtext": "very similar / similar to / similar results",
+        "subtext": "très similaire / semblable à / résultats similaires",
         "comparative": "plus similaire",
         "superlative": "le plus similaire"
     },
@@ -2356,13 +2358,13 @@
         "femininePlural": "amicales",
         "definitions": [
             {
-                "text": "Kind and pleasant; easy to talk to.",
+                "text": "Aimable et agréable ; facile à aborder.",
                 "examples": [
-                    "The new manager is very friendly and approachable."
+                    "Le nouveau manager est très amical et accessible."
                 ]
             }
         ],
-        "subtext": "very friendly / a friendly face / friendly atmosphere",
+        "subtext": "très amical / un visage amical / atmosphère amicale",
         "comparative": "plus amical",
         "superlative": "le plus amical"
     },
@@ -2376,13 +2378,13 @@
         "femininePlural": "gentilles",
         "definitions": [
             {
-                "text": "Caring and generous to others.",
+                "text": "Attentionné et généreux envers les autres.",
                 "examples": [
-                    "She is kind to everyone in the office."
+                    "Elle est gentille avec tout le monde au bureau."
                 ]
             }
         ],
-        "subtext": "very kind / kind of you / a kind person",
+        "subtext": "très gentil / gentil de votre part / une personne gentille",
         "comparative": "plus gentil",
         "superlative": "le plus gentil"
     },
@@ -2396,13 +2398,13 @@
         "femininePlural": "drôles",
         "definitions": [
             {
-                "text": "Making people laugh; humorous.",
+                "text": "Faisant rire les gens ; plein d'humour.",
                 "examples": [
-                    "He has a funny way of explaining complex ideas."
+                    "Il a une façon drôle d'expliquer des idées complexes."
                 ]
             }
         ],
-        "subtext": "very funny / funny story / find funny",
+        "subtext": "très drôle / histoire drôle / trouver drôle",
         "comparative": "plus drôle",
         "superlative": "le plus drôle"
     },
@@ -2416,13 +2418,13 @@
         "femininePlural": "intelligentes",
         "definitions": [
             {
-                "text": "Intelligent; quick to understand.",
+                "text": "Intelligent ; rapide à comprendre.",
                 "examples": [
-                    "She is a clever negotiator."
+                    "C'est une négociatrice intelligente."
                 ]
             }
         ],
-        "subtext": "very clever / a clever idea / clever enough",
+        "subtext": "très intelligent / une idée intelligente / assez malin",
         "comparative": "plus intelligent",
         "superlative": "le plus intelligent"
     },
@@ -2436,13 +2438,13 @@
         "femininePlural": "polies",
         "definitions": [
             {
-                "text": "Behaving in a respectful and courteous way.",
+                "text": "Se comporter de manière respectueuse et courtoise.",
                 "examples": [
-                    "He is always polite with clients."
+                    "Il est toujours poli avec les clients."
                 ]
             }
         ],
-        "subtext": "very polite / polite request / polite enough",
+        "subtext": "très poli / demande polie / assez poli",
         "comparative": "plus poli",
         "superlative": "le plus poli"
     },
@@ -2456,13 +2458,13 @@
         "femininePlural": "impolies",
         "definitions": [
             {
-                "text": "Not polite; showing a lack of respect.",
+                "text": "Pas poli ; montrant un manque de respect.",
                 "examples": [
-                    "That email was quite rude and unprofessional."
+                    "Cet email était assez impoli et non professionnel."
                 ]
             }
         ],
-        "subtext": "very rude / incredibly rude / deliberately rude",
+        "subtext": "très impoli / incroyablement impoli / délibérément impoli",
         "comparative": "plus impoli",
         "superlative": "le plus impoli"
     },
@@ -2476,13 +2478,13 @@
         "femininePlural": "paresseuses",
         "definitions": [
             {
-                "text": "Not willing to work or use effort.",
+                "text": "Ne voulant pas travailler ou faire d'efforts.",
                 "examples": [
-                    "He has a reputation for being lazy with follow-ups."
+                    "Il a la réputation d'être paresseux pour les suivis."
                 ]
             }
         ],
-        "subtext": "very lazy / a lazy approach / too lazy",
+        "subtext": "très paresseux / une approche paresseuse / trop paresseux",
         "comparative": "plus paresseux",
         "superlative": "le plus paresseux"
     },
@@ -2496,13 +2498,13 @@
         "femininePlural": "honnêtes",
         "definitions": [
             {
-                "text": "Telling the truth; not deceiving.",
+                "text": "Disant la vérité ; ne trompant pas.",
                 "examples": [
-                    "She is known for being completely honest with clients."
+                    "Elle est connue pour être tout à fait honnête avec les clients."
                 ]
             }
         ],
-        "subtext": "very honest / brutally honest / completely honest",
+        "subtext": "très honnête / brutalement honnête / tout à fait honnête",
         "comparative": "plus honnête",
         "superlative": "le plus honnête"
     },
@@ -2516,13 +2518,13 @@
         "femininePlural": "bruyantes",
         "definitions": [
             {
-                "text": "Making a lot of sound; loud.",
+                "text": "Faisant beaucoup de bruit ; bruyant.",
                 "examples": [
-                    "The open plan office is very noisy."
+                    "L'open space est très bruyant."
                 ]
             }
         ],
-        "subtext": "very noisy / noisy environment / too noisy",
+        "subtext": "très bruyant / environnement bruyant / trop bruyant",
         "comparative": "plus bruyant",
         "superlative": "le plus bruyant"
     }

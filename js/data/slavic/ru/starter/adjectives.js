@@ -425,7 +425,7 @@
         "feminine": "усталая",
         "neuter": "усталое",
         "plural": "усталые",
-        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / очень tired",
+        "subtext": "сонный, измотанный, чувствовать усталость / чувствовать усталость / устать от чего-либо / очень усталый",
         "comparative": "усталее",
         "superlative": "самый усталый"
     },
@@ -462,13 +462,13 @@
         "oppositeEmoji": "⏰",
         "definitions": [
             {
-                "text": "Working fewer hours than a standard working week.",
+                "text": "Работающий меньшее количество часов, чем стандартная рабочая неделя.",
                 "examples": [
-                    "He works part-time on Saturdays."
+                    "Он работает неполный рабочий день по субботам."
                 ]
             }
         ],
-        "subtext": "part-time работа / part-time work / part-time student",
+        "subtext": "работа на полставки / неполный рабочий день / студент-заочник",
         "comparative": null,
         "superlative": null,
         "feminine": "неполная",
@@ -571,17 +571,17 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
+        "opposite": "вместе",
         "oppositeEmoji": "👫",
         "definitions": [
             {
-                "text": "Without other people; by yourself.",
+                "text": "Без других людей; сам по себе.",
                 "examples": [
-                    "She lives alone."
+                    "Она живет одна."
                 ]
             }
         ],
-        "subtext": "live alone / travel alone / feel alone",
+        "subtext": "жить одному / путешествовать одному / чувствовать себя одиноким",
         "comparative": "более одинокий",
         "superlative": "самый одинокий",
         "feminine": "одинокая",
@@ -921,13 +921,13 @@
         "plural": "небольшие",
         "definitions": [
             {
-                "text": "Small in size; a small amount of.",
+                "text": "Маленький по размеру; небольшое количество.",
                 "examples": [
                     "He drives a little car to save on fuel."
                 ]
             }
         ],
-        "subtext": "little bit / a little money / слишком little",
+        "subtext": "чуть-чуть / немного денег / слишком мало",
         "comparative": "более небольшой",
         "superlative": "самый небольшой"
     },
@@ -1404,13 +1404,13 @@
         "plural": "отвратительные",
         "definitions": [
             {
-                "text": "Very bad or unpleasant.",
+                "text": "Очень плохой или неприятный.",
                 "examples": [
-                    "The noise in the open office is awful."
+                    "Шум в открытом офисе ужасен."
                 ]
             }
         ],
-        "subtext": "awful погода / awful новости / simply awful",
+        "subtext": "ужасная погода / ужасные новости / просто ужасно",
         "comparative": "отвратительнее",
         "superlative": "самый отвратительный"
     },
@@ -1425,13 +1425,13 @@
         "plural": "удивительные",
         "definitions": [
             {
-                "text": "Causing great surprise or admiration.",
+                "text": "Вызывающий большое удивление или восхищение.",
                 "examples": [
                     "She gave an amazing presentation."
                 ]
             }
         ],
-        "subtext": "an amazing result / an amazing offer / truly amazing",
+        "subtext": "удивительный результат / удивительное предложение / действительно удивительно",
         "comparative": "удивительнее",
         "superlative": "самый удивительный"
     },
@@ -1592,13 +1592,13 @@
         "plural": "огорчённые",
         "definitions": [
             {
-                "text": "Feeling regret or sadness.",
+                "text": "Чувство сожаления или печали.",
                 "examples": [
-                    "She is sorry for the delay."
+                    "Она извиняется за задержку."
                 ]
             }
         ],
-        "subtext": "feel sorry / sorry for / sorry about",
+        "subtext": "сожалеть / жаль кого-то / извиняться за",
         "comparative": "огорчённее",
         "superlative": "самый огорчённый"
     },
@@ -1699,11 +1699,11 @@
             {
                 "text": "Not different; identical.",
                 "examples": [
-                    "They earn the same salary."
+                    "Они получают одинаковую зарплату."
                 ]
             }
         ],
-        "subtext": "the same as / exactly the same / same time",
+        "subtext": "такой же, как / точно такой же / в то же время",
         "comparative": null,
         "superlative": null
     },
@@ -2025,11 +2025,11 @@
             {
                 "text": "Pleasant to look at; quite attractive.",
                 "examples": [
-                    "The new meeting room is very pretty."
+                    "Новая переговорная очень красивая."
                 ]
             }
         ],
-        "subtext": "pretty хороший / a pretty place / quite pretty",
+        "subtext": "довольно хороший / симпатичное место / довольно симпатичный",
         "comparative": "симпатичнее",
         "superlative": "самый симпатичный"
     },
@@ -2083,13 +2083,13 @@
         "plural": "спортивные",
         "definitions": [
             {
-                "text": "In good physical condition through exercise.",
+                "text": "В хорошей физической форме благодаря упражнениям.",
                 "examples": [
-                    "She keeps fit by cycling to work every day."
+                    "Она поддерживает форму, катаясь на велосипеде на работу каждый день."
                 ]
             }
         ],
-        "subtext": "physically fit / stay fit / keep fit",
+        "subtext": "физически здоров / оставаться в форме / поддерживать форму",
         "comparative": "спортивнее",
         "superlative": "самый спортивный"
     },
@@ -2165,11 +2165,11 @@
             {
                 "text": "True or right; without errors.",
                 "examples": [
-                    "Please check the figures are correct."
+                    "Пожалуйста, проверьте правильность цифр."
                 ]
             }
         ],
-        "subtext": "correct answer / the correct way / completely correct",
+        "subtext": "правильный ответ / верный путь / совершенно верно",
         "comparative": "вернее",
         "superlative": "самый верный"
     },

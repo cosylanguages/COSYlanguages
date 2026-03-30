@@ -72,7 +72,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "reiñ kuzul / reiñ arc'hant / reiñ ur proad / reiñ titouroù",
-        "opposite": "take",
+        "opposite": "kemer",
         "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
@@ -95,7 +95,7 @@
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "kemer ar c'harr-boutin / kemer louzoù / kemer un ehan",
-        "opposite": "give",
+        "opposite": "reiñ",
         "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
@@ -223,7 +223,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "digeriñ un nor / digeriñ ur gont / digeriñ ur stal",
-        "opposite": "close",
+        "opposite": "serriñ",
         "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
@@ -246,7 +246,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "serriñ un nor / serriñ da c'hwec'h eur / serriñ ur gont",
-        "opposite": "open",
+        "opposite": "digeriñ",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -269,7 +269,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "kregiñ gant al labour / kregiñ gant an emvod / kregiñ gant ul labour nevez",
-        "opposite": "finish",
+        "opposite": "echuiñ",
         "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
@@ -292,7 +292,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "echuiñ gant al labour / echuiñ ur raktres / echuiñ abred",
-        "opposite": "start",
+        "opposite": "kregiñ",
         "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
@@ -420,7 +420,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "koll ul labour / koll arc'hant / koll pouez",
-        "opposite": "win",
+        "opposite": "gounit",
         "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
@@ -632,7 +632,7 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "skrivañ ur postel / skrivañ un danevell / skrivañ ul lizher",
-        "opposite": "read",
+        "opposite": "lenn",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -655,7 +655,7 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "lenn ul levr / lenn ar c'heleier / lenn ur gevrat",
-        "opposite": "write",
+        "opposite": "skrivañ",
         "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
@@ -762,7 +762,7 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "dont d'ar gêr / dont d'al labour / dont en-dro / dont amañ",
-        "opposite": "go",
+        "opposite": "mont",
         "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -953,7 +953,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "debriñ lein / debriñ merenn / debriñ koan / debriñ er-maez",
-        "opposite": "drink",
+        "opposite": "evañ",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
@@ -976,7 +976,7 @@
         "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "evañ kafe / evañ te / evañ dour / evañ bier",
-        "opposite": "eat",
+        "opposite": "debriñ",
         "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
@@ -999,7 +999,7 @@
         "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "kousket mat / kousket fall / kousket kalz",
-        "opposite": "wake up",
+        "opposite": "dihuniñ",
         "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
@@ -1106,7 +1106,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "prenañ boued / prenañ un tikeդ / prenañ enlinenn",
-        "opposite": "sell",
+        "opposite": "gwerzhañ",
         "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
@@ -1171,7 +1171,7 @@
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "espern arc'hant / espern evit ar vakañsoù",
-        "opposite": "spend",
+        "opposite": "dispendiñ",
         "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
@@ -1215,7 +1215,7 @@
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "bevañ en un ranndi / bevañ e-unan / bevañ d'an estrenvro",
-        "opposite": "die",
+        "opposite": "mervel",
         "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
@@ -1554,7 +1554,7 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "diwennañ abred / diwennañ diwezhat",
-        "opposite": "sleep",
+        "opposite": "kousket",
         "oppositeEmoji": "😴",
         "definitions": [
             {
@@ -1660,7 +1660,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "azezañ / azezañ ouzh un daol",
-        "opposite": "stand",
+        "opposite": "sevel",
         "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
@@ -1683,7 +1683,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "sevel en e sav / chom en e sav",
-        "opposite": "sit",
+        "opposite": "azezañ",
         "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
@@ -1738,7 +1738,7 @@
         ],
         "classification": "both",
         "aspect": "action",
-        "v2": "learned / learnt",
+        "v2": "deskas",
         "v3": "desket",
         "group": "iñ"
     },
@@ -1811,7 +1811,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "gounit ur c'hoari / gounit ur priz",
-        "opposite": "lose",
+        "opposite": "koll",
         "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
@@ -1855,7 +1855,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "mervel gant / mervel evit",
-        "opposite": "live",
+        "opposite": "bevañ",
         "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
@@ -1962,7 +1962,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "gwerzhañ produioù / gwerzhañ enlinenn",
-        "opposite": "buy",
+        "opposite": "prenañ",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -1985,7 +1985,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "tennañ an nor / tennañ un dra bennak",
-        "opposite": "push",
+        "opposite": "pousañ",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -2008,7 +2008,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "pousañ ar bouton / pousañ ur c'harrig",
-        "opposite": "pull",
+        "opposite": "sachañ",
         "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
@@ -2157,7 +2157,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "strakal ur mousc'hoarzh / mousc'hoarzhin",
-        "opposite": "cry",
+        "opposite": "gouelañ",
         "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
@@ -2180,7 +2180,7 @@
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "krial evit sikour / kregiñ da ouelañ",
-        "opposite": "smile",
+        "opposite": "mousc'hoarzhin",
         "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [

@@ -3346,7 +3346,7 @@
             {
                 "text": "Selezionare tra opzioni.",
                 "examples": [
-                    "Ha scelto di lavorare part-time per passare più tempo con la famiglia."
+                    "Ha scelto di lavorare a tempo parziale per passare più tempo con la famiglia."
                 ]
             }
         ],

@@ -17,6 +17,9 @@
             }
         ],
         "subtext": "ein hohes Gebäude / eine große Person / groß genug",
+        "feminine": "große",
+        "neuter": "großes",
+        "plural": "große",
         "comparative": "größer",
         "superlative": "am größten"
     },
@@ -37,6 +40,9 @@
             }
         ],
         "subtext": "eine kurze Reise / kurze Haare / zu kurz",
+        "feminine": "kleine",
+        "neuter": "kleines",
+        "plural": "kleine",
         "comparative": "kleiner",
         "superlative": "am kleinsten"
     },
@@ -56,6 +62,9 @@
             }
         ],
         "subtext": "junge Person / junger Profi / im Herzen jung",
+        "feminine": "junge",
+        "neuter": "junges",
+        "plural": "junge",
         "comparative": "jünger",
         "superlative": "am jüngsten"
     },
@@ -75,6 +84,9 @@
             }
         ],
         "subtext": "alter Freund / alte Gewohnheiten / sehr alt",
+        "feminine": "alte",
+        "neuter": "altes",
+        "plural": "alte",
         "comparative": "älter",
         "superlative": "am ältesten"
     },
@@ -93,6 +105,9 @@
             }
         ],
         "subtext": "sonniger Tag / sonniges Wetter / sonnige Abschnitte",
+        "feminine": "sonnige",
+        "neuter": "sonniges",
+        "plural": "sonnige",
         "comparative": "sonniger",
         "superlative": "am sonnigsten"
     },
@@ -111,6 +126,9 @@
             }
         ],
         "subtext": "regnerischer Tag / regnerisches Wetter / Regenzeit",
+        "feminine": "regnerische",
+        "neuter": "regnerisches",
+        "plural": "regnerische",
         "comparative": "regnerischer",
         "superlative": "am regnerischsten"
     },
@@ -131,6 +149,9 @@
                 ]
             }
         ],
+        "feminine": "heiße",
+        "neuter": "heißes",
+        "plural": "heiße",
         "comparative": "heißer",
         "superlative": "am heißesten"
     },
@@ -151,6 +172,9 @@
                 ]
             }
         ],
+        "feminine": "kalte",
+        "neuter": "kaltes",
+        "plural": "kalte",
         "comparative": "kälter",
         "superlative": "am kältesten"
     },
@@ -170,6 +194,9 @@
             }
         ],
         "subtext": "gewöhnlicher Tag / gewöhnliches Leben / nichts Gewöhnliches",
+        "feminine": "gewöhnliche",
+        "neuter": "gewöhnliches",
+        "plural": "gewöhnliche",
         "comparative": "gewöhnlicher",
         "superlative": "am gewöhnlichsten"
     },
@@ -190,6 +217,9 @@
                 ]
             }
         ],
+        "feminine": "billige",
+        "neuter": "billiges",
+        "plural": "billige",
         "comparative": "billiger",
         "superlative": "am billigsten"
     },
@@ -210,6 +240,9 @@
                 ]
             }
         ],
+        "feminine": "teure",
+        "neuter": "teures",
+        "plural": "teure",
         "comparative": "teurer",
         "superlative": "am teuersten"
     },
@@ -226,10 +259,13 @@
             {
                 "text": "Von hoher Qualität oder angenehm.",
                 "examples": [
-                    "Das ist ein guter Job."
+                    "Das ist eine gute Stelle."
                 ]
             }
         ],
+        "feminine": "gute",
+        "neuter": "gutes",
+        "plural": "gute",
         "comparative": "besser",
         "superlative": "am besten"
     },
@@ -250,6 +286,9 @@
                 ]
             }
         ],
+        "feminine": "schlechte",
+        "neuter": "schlechtes",
+        "plural": "schlechte",
         "comparative": "schlechter",
         "superlative": "am schlechtesten"
     },
@@ -270,6 +309,9 @@
                 ]
             }
         ],
+        "feminine": "große",
+        "neuter": "großes",
+        "plural": "große",
         "comparative": "größer",
         "superlative": "am größten"
     },
@@ -290,6 +332,9 @@
                 ]
             }
         ],
+        "feminine": "kleine",
+        "neuter": "kleines",
+        "plural": "kleine",
         "comparative": "kleiner",
         "superlative": "am kleinsten"
     },
@@ -310,6 +355,9 @@
             }
         ],
         "subtext": "einfach zu machen / schön einfach / nicht einfach",
+        "feminine": "einfache",
+        "neuter": "einfaches",
+        "plural": "einfache",
         "comparative": "einfacher",
         "superlative": "am einfachsten"
     },
@@ -330,6 +378,9 @@
             }
         ],
         "subtext": "schwierig zu machen / sehr schwierig / es schwierig finden",
+        "feminine": "schwierige",
+        "neuter": "schwieriges",
+        "plural": "schwierige",
         "comparative": "schwieriger",
         "superlative": "am schwierigsten"
     },
@@ -348,6 +399,9 @@
                 ]
             }
         ],
+        "feminine": "glückliche",
+        "neuter": "glückliches",
+        "plural": "glückliche",
         "comparative": "glücklicher",
         "superlative": "am glücklichsten"
     },
@@ -366,6 +420,9 @@
                 ]
             }
         ],
+        "feminine": "müde",
+        "neuter": "müdes",
+        "plural": "müde",
         "comparative": "müder",
         "superlative": "am müdesten"
     },
@@ -381,13 +438,16 @@
             {
                 "text": "Die volle Anzahl an Stunden arbeitend.",
                 "examples": [
-                    "Sie hat einen Vollzeitjob."
+                    "Sie hat eine Vollzeitstelle."
                 ]
             }
         ],
-        "subtext": "Vollzeitjob / Vollzeitarbeit / Vollzeitmitarbeiter",
+        "subtext": "Vollzeitstelle / Vollzeitarbeit / Vollzeitmitarbeiter",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "feminine": "Vollzeit",
+        "neuter": "Vollzeit",
+        "plural": "Vollzeit"
     },
     {
         "word": "Teilzeit",
@@ -405,9 +465,12 @@
                 ]
             }
         ],
-        "subtext": "Teilzeitjob / Teilzeitarbeit / Teilzeitstudent",
+        "subtext": "Teilzeitstelle / Teilzeitarbeit / Teilzeitstudent",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "feminine": "Teilzeit",
+        "neuter": "Teilzeit",
+        "plural": "Teilzeit"
     },
     {
         "word": "sauber",
@@ -426,6 +489,9 @@
                 ]
             }
         ],
+        "feminine": "saubere",
+        "neuter": "sauberes",
+        "plural": "saubere",
         "comparative": "sauberer",
         "superlative": "am saubersten"
     },
@@ -435,7 +501,7 @@
         "theme": "basic_foods_A1",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
+        "opposite": "ungesund",
         "oppositeEmoji": "🍔",
         "subtext": "gut, fit, gesunde Ernährung",
         "definitions": [
@@ -446,6 +512,9 @@
                 ]
             }
         ],
+        "feminine": "gesunde",
+        "neuter": "gesundes",
+        "plural": "gesunde",
         "comparative": "gesünder",
         "superlative": "am gesündesten"
     },
@@ -455,7 +524,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
+        "opposite": "gesund",
         "oppositeEmoji": "💪",
         "subtext": "krank, sich krank fühlen",
         "definitions": [
@@ -466,6 +535,9 @@
                 ]
             }
         ],
+        "feminine": "kranke",
+        "neuter": "krankes",
+        "plural": "kranke",
         "comparative": "kränker",
         "superlative": "am kränksten"
     },
@@ -487,7 +559,10 @@
         ],
         "subtext": "Online-Shopping / Online-Kurs / online bleiben",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "feminine": "online",
+        "neuter": "online",
+        "plural": "online"
     },
     {
         "word": "allein",
@@ -495,7 +570,7 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
+        "opposite": "zusammen",
         "oppositeEmoji": "👫",
         "definitions": [
             {
@@ -506,6 +581,9 @@
             }
         ],
         "subtext": "allein leben / allein reisen / sich allein fühlen",
+        "feminine": "alleine",
+        "neuter": "alleines",
+        "plural": "alleine",
         "comparative": null,
         "superlative": null
     },
@@ -526,6 +604,9 @@
                 ]
             }
         ],
+        "feminine": "entspannte",
+        "neuter": "entspanntes",
+        "plural": "entspannte",
         "comparative": "entspannter",
         "superlative": "am entspanntesten"
     },
@@ -535,17 +616,20 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "calm",
+        "opposite": "ruhig",
         "oppositeEmoji": "😌",
         "subtext": "ängstlich",
         "definitions": [
             {
                 "text": "Angst empfindend über etwas, das passieren könnte.",
                 "examples": [
-                    "Sie ist besorgt um ihren Job."
+                    "Sie macht sich Sorgen um ihre Arbeit."
                 ]
             }
         ],
+        "feminine": "besorgte",
+        "neuter": "besorgtes",
+        "plural": "besorgte",
         "comparative": "besorgter",
         "superlative": "am besorgtesten"
     },
@@ -564,6 +648,9 @@
                 ]
             }
         ],
+        "feminine": "beschäftigte",
+        "neuter": "beschäftigtes",
+        "plural": "beschäftigte",
         "comparative": "beschäftigter",
         "superlative": "am beschäftigtsten"
     },
@@ -584,6 +671,9 @@
                 ]
             }
         ],
+        "feminine": "nützliche",
+        "neuter": "nützliches",
+        "plural": "nützliche",
         "comparative": "nützlicher",
         "superlative": "am nützlichsten"
     },
@@ -602,6 +692,9 @@
                 ]
             }
         ],
+        "feminine": "wichtige",
+        "neuter": "wichtiges",
+        "plural": "wichtige",
         "comparative": "wichtiger",
         "superlative": "am wichtigsten"
     },
@@ -620,6 +713,9 @@
                 ]
             }
         ],
+        "feminine": "rote",
+        "neuter": "rotes",
+        "plural": "rote",
         "comparative": "röter",
         "superlative": "am rötesten"
     },
@@ -638,6 +734,9 @@
                 ]
             }
         ],
+        "feminine": "blaue",
+        "neuter": "blaues",
+        "plural": "blaue",
         "comparative": "blauer",
         "superlative": "am blauesten"
     },
@@ -656,6 +755,9 @@
                 ]
             }
         ],
+        "feminine": "grüne",
+        "neuter": "grünes",
+        "plural": "grüne",
         "comparative": "grüner",
         "superlative": "am grünsten"
     },
@@ -674,6 +776,9 @@
                 ]
             }
         ],
+        "feminine": "weiße",
+        "neuter": "weißes",
+        "plural": "weiße",
         "comparative": "weißer",
         "superlative": "am weißesten"
     },
@@ -692,6 +797,9 @@
                 ]
             }
         ],
+        "feminine": "schwarze",
+        "neuter": "schwarzes",
+        "plural": "schwarze",
         "comparative": "schwärzer",
         "superlative": "am schwärzesten"
     },
@@ -710,6 +818,9 @@
                 ]
             }
         ],
+        "feminine": "gelbe",
+        "neuter": "gelbes",
+        "plural": "gelbe",
         "comparative": "gelber",
         "superlative": "am gelbsten"
     },
@@ -728,6 +839,9 @@
                 ]
             }
         ],
+        "feminine": "kostenlose",
+        "neuter": "kostenloses",
+        "plural": "kostenlose",
         "comparative": null,
         "superlative": null
     },
@@ -748,6 +862,9 @@
                 ]
             }
         ],
+        "feminine": "offene",
+        "neuter": "offenes",
+        "plural": "offene",
         "comparative": "offener",
         "superlative": "am offensten"
     },
@@ -768,6 +885,9 @@
                 ]
             }
         ],
+        "feminine": "geschlossene",
+        "neuter": "geschlossenes",
+        "plural": "geschlossene",
         "comparative": null,
         "superlative": null
     },
@@ -786,7 +906,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "größer",
-        "superlative": "am größten"
+        "superlative": "am größten",
+        "feminine": "große",
+        "neuter": "großes",
+        "plural": "große"
     },
     {
         "word": "klein",
@@ -803,7 +926,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "kleiner",
-        "superlative": "am kleinsten"
+        "superlative": "am kleinsten",
+        "feminine": "kleine",
+        "neuter": "kleines",
+        "plural": "kleine"
     },
     {
         "word": "lang",
@@ -820,7 +946,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "länger",
-        "superlative": "am längsten"
+        "superlative": "am längsten",
+        "feminine": "lange",
+        "neuter": "langes",
+        "plural": "lange"
     },
     {
         "word": "hoch",
@@ -837,7 +966,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "höher",
-        "superlative": "am höchsten"
+        "superlative": "am höchsten",
+        "feminine": "hohe",
+        "neuter": "hohes",
+        "plural": "hohe"
     },
     {
         "word": "niedrig",
@@ -854,7 +986,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "niedriger",
-        "superlative": "am niedrigsten"
+        "superlative": "am niedrigsten",
+        "feminine": "niedrige",
+        "neuter": "niedriges",
+        "plural": "niedrige"
     },
     {
         "word": "voll",
@@ -871,7 +1006,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "voller",
-        "superlative": "am vollsten"
+        "superlative": "am vollsten",
+        "feminine": "volle",
+        "neuter": "volles",
+        "plural": "volle"
     },
     {
         "word": "leer",
@@ -888,7 +1026,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "leerer",
-        "superlative": "am leersten"
+        "superlative": "am leersten",
+        "feminine": "lere",
+        "neuter": "leres",
+        "plural": "lere"
     },
     {
         "word": "warm",
@@ -905,7 +1046,10 @@
         ],
         "theme": "weather_A1",
         "comparative": "wärmer",
-        "superlative": "am wärmsten"
+        "superlative": "am wärmsten",
+        "feminine": "warme",
+        "neuter": "warmes",
+        "plural": "warme"
     },
     {
         "word": "kühl",
@@ -922,7 +1066,10 @@
         ],
         "theme": "weather_A1",
         "comparative": "kühler",
-        "superlative": "am kühlsten"
+        "superlative": "am kühlsten",
+        "feminine": "kühle",
+        "neuter": "kühles",
+        "plural": "kühle"
     },
     {
         "word": "nass",
@@ -939,7 +1086,10 @@
         ],
         "theme": "weather_A1",
         "comparative": "nasser",
-        "superlative": "am nassesten"
+        "superlative": "am nassesten",
+        "feminine": "nasse",
+        "neuter": "nasses",
+        "plural": "nasse"
     },
     {
         "word": "trocken",
@@ -956,7 +1106,10 @@
         ],
         "theme": "weather_A1",
         "comparative": "trockener",
-        "superlative": "am trockensten"
+        "superlative": "am trockensten",
+        "feminine": "trockene",
+        "neuter": "trockenes",
+        "plural": "trockene"
     },
     {
         "word": "schmutzig",
@@ -972,7 +1125,10 @@
             }
         ],
         "comparative": "schmutziger",
-        "superlative": "am schmutzigsten"
+        "superlative": "am schmutzigsten",
+        "feminine": "schmutzige",
+        "neuter": "schmutziges",
+        "plural": "schmutzige"
     },
     {
         "word": "hart",
@@ -989,7 +1145,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "härter",
-        "superlative": "am härtesten"
+        "superlative": "am härtesten",
+        "feminine": "harte",
+        "neuter": "hartes",
+        "plural": "harte"
     },
     {
         "word": "weich",
@@ -1006,7 +1165,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "weicher",
-        "superlative": "am weichsten"
+        "superlative": "am weichsten",
+        "feminine": "weiche",
+        "neuter": "weiches",
+        "plural": "weiche"
     },
     {
         "word": "schwer",
@@ -1023,7 +1185,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "schwerer",
-        "superlative": "am schwersten"
+        "superlative": "am schwersten",
+        "feminine": "schwere",
+        "neuter": "schweres",
+        "plural": "schwere"
     },
     {
         "word": "leicht",
@@ -1040,7 +1205,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "leichter",
-        "superlative": "am leichtesten"
+        "superlative": "am leichtesten",
+        "feminine": "leichte",
+        "neuter": "leichtes",
+        "plural": "leichte"
     },
     {
         "word": "braun",
@@ -1057,7 +1225,10 @@
         ],
         "theme": "colours_patterns_A1",
         "comparative": "brauner",
-        "superlative": "am braunsten"
+        "superlative": "am braunsten",
+        "feminine": "braune",
+        "neuter": "braunes",
+        "plural": "braune"
     },
     {
         "word": "grau",
@@ -1074,7 +1245,10 @@
         ],
         "theme": "colours_patterns_A1",
         "comparative": "grauer",
-        "superlative": "am grausten"
+        "superlative": "am grausten",
+        "feminine": "graue",
+        "neuter": "graues",
+        "plural": "graue"
     },
     {
         "word": "rosa",
@@ -1091,7 +1265,10 @@
         ],
         "theme": "colours_patterns_A1",
         "comparative": "rosaner",
-        "superlative": "am rosasten"
+        "superlative": "am rosasten",
+        "feminine": "rosae",
+        "neuter": "rosaes",
+        "plural": "rosae"
     },
     {
         "word": "orange",
@@ -1108,7 +1285,10 @@
         ],
         "theme": "colours_patterns_A1",
         "comparative": "oranger",
-        "superlative": "am orangesten"
+        "superlative": "am orangesten",
+        "feminine": "orangee",
+        "neuter": "orangees",
+        "plural": "orangee"
     },
     {
         "word": "großartig",
@@ -1125,7 +1305,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "großartiger",
-        "superlative": "am großartigsten"
+        "superlative": "am großartigsten",
+        "feminine": "großartige",
+        "neuter": "großartiges",
+        "plural": "großartige"
     },
     {
         "word": "nett",
@@ -1142,7 +1325,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "netter",
-        "superlative": "am nettesten"
+        "superlative": "am nettesten",
+        "feminine": "nette",
+        "neuter": "nettes",
+        "plural": "nette"
     },
     {
         "word": "wunderbar",
@@ -1159,7 +1345,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "wunderbarer",
-        "superlative": "am wunderbarsten"
+        "superlative": "am wunderbarsten",
+        "feminine": "wunderbare",
+        "neuter": "wunderbares",
+        "plural": "wunderbare"
     },
     {
         "word": "furchtbar",
@@ -1176,7 +1365,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "furchtbarer",
-        "superlative": "am furchtbarsten"
+        "superlative": "am furchtbarsten",
+        "feminine": "furchtbare",
+        "neuter": "furchtbares",
+        "plural": "furchtbare"
     },
     {
         "word": "schrecklich",
@@ -1193,7 +1385,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "schrecklicher",
-        "superlative": "am schrecklichsten"
+        "superlative": "am schrecklichsten",
+        "feminine": "schreckliche",
+        "neuter": "schreckliches",
+        "plural": "schreckliche"
     },
     {
         "word": "erstaunlich",
@@ -1210,7 +1405,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "erstaunlicher",
-        "superlative": "am erstaunlichsten"
+        "superlative": "am erstaunlichsten",
+        "feminine": "erstaunliche",
+        "neuter": "erstaunliches",
+        "plural": "erstaunliche"
     },
     {
         "word": "fantastisch",
@@ -1227,7 +1425,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "fantastischer",
-        "superlative": "am fantastischsten"
+        "superlative": "am fantastischsten",
+        "feminine": "fantastische",
+        "neuter": "fantastisches",
+        "plural": "fantastische"
     },
     {
         "word": "traurig",
@@ -1244,7 +1445,10 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "trauriger",
-        "superlative": "am traurigsten"
+        "superlative": "am traurigsten",
+        "feminine": "traurige",
+        "neuter": "trauriges",
+        "plural": "traurige"
     },
     {
         "word": "hungrig",
@@ -1261,7 +1465,10 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "hungriger",
-        "superlative": "am hungrigsten"
+        "superlative": "am hungrigsten",
+        "feminine": "hungrige",
+        "neuter": "hungriges",
+        "plural": "hungrige"
     },
     {
         "word": "wütend",
@@ -1278,7 +1485,10 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "wütender",
-        "superlative": "am wütendsten"
+        "superlative": "am wütendsten",
+        "feminine": "wütende",
+        "neuter": "wütendes",
+        "plural": "wütende"
     },
     {
         "word": "gelangweilt",
@@ -1295,7 +1505,10 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "gelangweilter",
-        "superlative": "am gelangweiltesten"
+        "superlative": "am gelangweiltesten",
+        "feminine": "gelangweilte",
+        "neuter": "gelangweiltes",
+        "plural": "gelangweilte"
     },
     {
         "word": "aufgeregt",
@@ -1306,12 +1519,15 @@
             {
                 "text": "Enthusiasmus empfindend.",
                 "examples": [
-                    "Sie ist aufgeregt wegen ihres neuen Jobs."
+                    "Sie ist aufgeregt wegen ihrer neuen Arbeit."
                 ]
             }
         ],
         "comparative": "aufgeregter",
-        "superlative": "am aufgeregtesten"
+        "superlative": "am aufgeregtesten",
+        "feminine": "aufgeregte",
+        "neuter": "aufgeregtes",
+        "plural": "aufgeregte"
     },
     {
         "word": "ängstlich",
@@ -1328,7 +1544,10 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "ängstlicher",
-        "superlative": "am ängstlichsten"
+        "superlative": "am ängstlichsten",
+        "feminine": "ängstliche",
+        "neuter": "ängstliches",
+        "plural": "ängstliche"
     },
     {
         "word": "tut mir leid",
@@ -1345,7 +1564,10 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "feminine": "tut mir leid",
+        "neuter": "tut mir leid",
+        "plural": "tut mir leid"
     },
     {
         "word": "richtig",
@@ -1362,7 +1584,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "richtiger",
-        "superlative": "am richtigsten"
+        "superlative": "am richtigsten",
+        "feminine": "richtige",
+        "neuter": "richtiges",
+        "plural": "richtige"
     },
     {
         "word": "falsch",
@@ -1379,24 +1604,30 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "falscher",
-        "superlative": "am falschesten"
+        "superlative": "am falschesten",
+        "feminine": "falsche",
+        "neuter": "falsches",
+        "plural": "falsche"
     },
     {
         "word": "neu",
         "level": "starter",
         "form": "adjective",
-        "subtext": "neuer Job / brandneu / völlig neu",
+        "subtext": "neue Stelle / brandneu / völlig neu",
         "definitions": [
             {
                 "text": "Vorher nicht existent.",
                 "examples": [
-                    "Sie hat einen neuen Job."
+                    "Sie hat eine neue Stelle."
                 ]
             }
         ],
         "theme": "size_shape_A1",
         "comparative": "neuer",
-        "superlative": "am neuesten"
+        "superlative": "am neuesten",
+        "feminine": "neue",
+        "neuter": "neues",
+        "plural": "neue"
     },
     {
         "word": "anders",
@@ -1407,13 +1638,16 @@
             {
                 "text": "Nicht das Gleiche.",
                 "examples": [
-                    "Dieser Job ist ganz anders."
+                    "Diese Arbeit ist ganz anders."
                 ]
             }
         ],
         "theme": "describing_things_A1",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "feminine": "anders",
+        "neuter": "anders",
+        "plural": "anders"
     },
     {
         "word": "gleich",
@@ -1430,7 +1664,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "feminine": "gleich",
+        "neuter": "gleich",
+        "plural": "gleich"
     },
     {
         "word": "schnell",
@@ -1447,7 +1684,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "schneller",
-        "superlative": "am schnellsten"
+        "superlative": "am schnellsten",
+        "feminine": "schnelle",
+        "neuter": "schnelles",
+        "plural": "schnelle"
     },
     {
         "word": "langsam",
@@ -1464,7 +1704,10 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "langsamer",
-        "superlative": "am langsamsten"
+        "superlative": "am langsamsten",
+        "feminine": "langsame",
+        "neuter": "langsames",
+        "plural": "langsame"
     },
     {
         "word": "leise",
@@ -1481,7 +1724,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "leiser",
-        "superlative": "am leisesten"
+        "superlative": "am leisesten",
+        "feminine": "leisee",
+        "neuter": "leisees",
+        "plural": "leisee"
     },
     {
         "word": "laut",
@@ -1498,7 +1744,10 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "lauter",
-        "superlative": "am lautesten"
+        "superlative": "am lautesten",
+        "feminine": "laute",
+        "neuter": "lautes",
+        "plural": "laute"
     },
     {
         "word": "sicher",
@@ -1515,7 +1764,10 @@
         ],
         "theme": "local_places_services_A1",
         "comparative": "sicherer",
-        "superlative": "am sichersten"
+        "superlative": "am sichersten",
+        "feminine": "sichere",
+        "neuter": "sicheres",
+        "plural": "sichere"
     },
     {
         "word": "gefährlich",
@@ -1532,7 +1784,10 @@
         ],
         "theme": "local_places_services_A1",
         "comparative": "gefährlicher",
-        "superlative": "am gefährlichsten"
+        "superlative": "am gefährlichsten",
+        "feminine": "gefährliche",
+        "neuter": "gefährliches",
+        "plural": "gefährliche"
     },
     {
         "word": "unglücklich",
@@ -1549,7 +1804,10 @@
         ],
         "subtext": "sich unglücklich fühlen / sehr unglücklich / unglücklich über",
         "comparative": "unglücklicher",
-        "superlative": "am unglücklichsten"
+        "superlative": "am unglücklichsten",
+        "feminine": "unglückliche",
+        "neuter": "unglückliches",
+        "plural": "unglückliche"
     },
     {
         "word": "nervös",
@@ -1566,7 +1824,10 @@
         ],
         "subtext": "sich nervös fühlen / nervös wegen / sehr nervös",
         "comparative": "nervöser",
-        "superlative": "am nervösesten"
+        "superlative": "am nervösesten",
+        "feminine": "nervöse",
+        "neuter": "nervöses",
+        "plural": "nervöse"
     },
     {
         "word": "gestresst",
@@ -1583,7 +1844,10 @@
         ],
         "subtext": "sich gestresst fühlen / sehr gestresst / total gestresst",
         "comparative": "gestresster",
-        "superlative": "am gestresstesten"
+        "superlative": "am gestresstesten",
+        "feminine": "gestresste",
+        "neuter": "gestresstes",
+        "plural": "gestresste"
     },
     {
         "word": "selbstbewusst",
@@ -1600,7 +1864,10 @@
         ],
         "subtext": "sich sicher fühlen / selbstbewusst / sehr sicher",
         "comparative": "selbstbewusster",
-        "superlative": "am selbstbewusstesten"
+        "superlative": "am selbstbewusstesten",
+        "feminine": "selbstbewusste",
+        "neuter": "selbstbewusstes",
+        "plural": "selbstbewusste"
     },
     {
         "word": "stolz",
@@ -1617,7 +1884,10 @@
         ],
         "subtext": "stolz sein / sehr stolz / stolz auf",
         "comparative": "stolzer",
-        "superlative": "am stolzesten"
+        "superlative": "am stolzesten",
+        "feminine": "stolze",
+        "neuter": "stolzes",
+        "plural": "stolze"
     },
     {
         "word": "verängstigt",
@@ -1634,7 +1904,10 @@
         ],
         "subtext": "Angst haben / Angst vor / große Angst",
         "comparative": "verängstigter",
-        "superlative": "am verängstigtsten"
+        "superlative": "am verängstigtsten",
+        "feminine": "verängstigte",
+        "neuter": "verängstigtes",
+        "plural": "verängstigte"
     },
     {
         "word": "überrascht",
@@ -1651,7 +1924,10 @@
         ],
         "subtext": "überrascht sein / sehr überrascht / angenehm überrascht",
         "comparative": "überraschter",
-        "superlative": "am überraschtesten"
+        "superlative": "am überraschtesten",
+        "feminine": "überraschte",
+        "neuter": "überraschtes",
+        "plural": "überraschte"
     },
     {
         "word": "enttäuscht",
@@ -1668,7 +1944,10 @@
         ],
         "subtext": "enttäuscht sein / zutiefst enttäuscht / enttäuscht von",
         "comparative": "enttäuschter",
-        "superlative": "am enttäuchtesten"
+        "superlative": "am enttäuchtesten",
+        "feminine": "enttäuschte",
+        "neuter": "enttäuschtes",
+        "plural": "enttäuschte"
     },
     {
         "word": "schön",
@@ -1685,7 +1964,10 @@
         ],
         "subtext": "schöne Aussicht / schöne Stadt / absolut wunderschön",
         "comparative": "schöner",
-        "superlative": "am schönsten"
+        "superlative": "am schönsten",
+        "feminine": "schöne",
+        "neuter": "schönes",
+        "plural": "schöne"
     },
     {
         "word": "hübsch",
@@ -1702,7 +1984,10 @@
         ],
         "subtext": "ziemlich gut / ein hübscher Ort / recht hübsch",
         "comparative": "hübscher",
-        "superlative": "am hübschesten"
+        "superlative": "am hübschesten",
+        "feminine": "hübsche",
+        "neuter": "hübsches",
+        "plural": "hübsche"
     },
     {
         "word": "stark",
@@ -1719,7 +2004,10 @@
         ],
         "subtext": "starker Kaffee / starke Meinung / sehr stark",
         "comparative": "stärker",
-        "superlative": "am stärksten"
+        "superlative": "am stärksten",
+        "feminine": "starke",
+        "neuter": "starkes",
+        "plural": "starke"
     },
     {
         "word": "schwach",
@@ -1736,7 +2024,10 @@
         ],
         "subtext": "schwache Verbindung / ein schwaches Argument / sehr schwach",
         "comparative": "schwächer",
-        "superlative": "am schwächsten"
+        "superlative": "am schwächsten",
+        "feminine": "schwache",
+        "neuter": "schwaches",
+        "plural": "schwache"
     },
     {
         "word": "fit",
@@ -1753,7 +2044,10 @@
         ],
         "subtext": "körperlich fit / fit bleiben / fit halten",
         "comparative": "fitter",
-        "superlative": "am fittesten"
+        "superlative": "am fittesten",
+        "feminine": "fite",
+        "neuter": "fites",
+        "plural": "fite"
     },
     {
         "word": "ausgezeichnet",
@@ -1770,7 +2064,10 @@
         ],
         "subtext": "ausgezeichnete Arbeit / ausgezeichnete Ergebnisse / absolut ausgezeichnet",
         "comparative": "ausgezeichneter",
-        "superlative": "am ausgezeichnetsten"
+        "superlative": "am ausgezeichnetsten",
+        "feminine": "ausgezeichnete",
+        "neuter": "ausgezeichnetes",
+        "plural": "ausgezeichnete"
     },
     {
         "word": "perfekt",
@@ -1787,7 +2084,10 @@
         ],
         "subtext": "eine perfekte Gelegenheit / perfektes Timing / absolut perfekt",
         "comparative": "perfekter",
-        "superlative": "am perfektesten"
+        "superlative": "am perfektesten",
+        "feminine": "perfekte",
+        "neuter": "perfektes",
+        "plural": "perfekte"
     },
     {
         "word": "nutzlos",
@@ -1804,7 +2104,10 @@
         ],
         "subtext": "völlig nutzlos / sich als nutzlos erweisen / eine nutzlose Idee",
         "comparative": "nutzloser",
-        "superlative": "am nutzlosesten"
+        "superlative": "am nutzlosesten",
+        "feminine": "nutzlose",
+        "neuter": "nutzloses",
+        "plural": "nutzlose"
     },
     {
         "word": "korrekt",
@@ -1821,7 +2124,10 @@
         ],
         "subtext": "korrekte Antwort / der richtige Weg / völlig korrekt",
         "comparative": "korrekter",
-        "superlative": "am korrektesten"
+        "superlative": "am korrektesten",
+        "feminine": "korrekte",
+        "neuter": "korrektes",
+        "plural": "korrekte"
     },
     {
         "word": "interessant",
@@ -1838,7 +2144,10 @@
         ],
         "subtext": "interessant finden / sehr interessant / eine interessante Idee",
         "comparative": "interessanter",
-        "superlative": "am interessantesten"
+        "superlative": "am interessantesten",
+        "feminine": "interessante",
+        "neuter": "interessantes",
+        "plural": "interessante"
     },
     {
         "word": "langweilig",
@@ -1855,7 +2164,10 @@
         ],
         "subtext": "sehr langweilig / ein langweiliges Treffen / langweilig finden",
         "comparative": "langweiliger",
-        "superlative": "am langweiligsten"
+        "superlative": "am langweiligsten",
+        "feminine": "langweilige",
+        "neuter": "langweiliges",
+        "plural": "langweilige"
     },
     {
         "word": "notwendig",
@@ -1872,7 +2184,10 @@
         ],
         "subtext": "absolut notwendig / falls nötig / notwendig zu tun",
         "comparative": "notwendiger",
-        "superlative": "am notwendigsten"
+        "superlative": "am notwendigsten",
+        "feminine": "notwendige",
+        "neuter": "notwendiges",
+        "plural": "notwendige"
     },
     {
         "word": "möglich",
@@ -1889,7 +2204,10 @@
         ],
         "subtext": "so bald wie möglich / es ist möglich / möglich machen",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "feminine": "mögliche",
+        "neuter": "mögliches",
+        "plural": "mögliche"
     },
     {
         "word": "unmöglich",
@@ -1906,7 +2224,10 @@
         ],
         "subtext": "praktisch unmöglich / unmöglich machen / fast unmöglich",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "feminine": "unmögliche",
+        "neuter": "unmögliches",
+        "plural": "unmögliche"
     },
     {
         "word": "besonders",
@@ -1923,7 +2244,10 @@
         ],
         "subtext": "ein besonderes Angebot / besonderer Anlass / sehr speziell",
         "comparative": "besonderer",
-        "superlative": "am besondersten"
+        "superlative": "am besondersten",
+        "feminine": "besonderse",
+        "neuter": "besonderses",
+        "plural": "besonderse"
     },
     {
         "word": "beliebt",
@@ -1940,7 +2264,10 @@
         ],
         "subtext": "sehr beliebt / beliebte Wahl / am beliebtesten",
         "comparative": "beliebter",
-        "superlative": "am beliebtesten"
+        "superlative": "am beliebtesten",
+        "feminine": "beliebte",
+        "neuter": "beliebtes",
+        "plural": "beliebte"
     },
     {
         "word": "ähnlich",
@@ -1957,7 +2284,10 @@
         ],
         "subtext": "sehr ähnlich / ähnlich wie / ähnliche Ergebnisse",
         "comparative": "ähnlicher",
-        "superlative": "am ähnlichsten"
+        "superlative": "am ähnlichsten",
+        "feminine": "ähnliche",
+        "neuter": "ähnliches",
+        "plural": "ähnliche"
     },
     {
         "word": "freundlich",
@@ -1974,7 +2304,10 @@
         ],
         "subtext": "sehr freundlich / ein freundliches Gesicht / freundliche Atmosphäre",
         "comparative": "freundlicher",
-        "superlative": "am freundlichsten"
+        "superlative": "am freundlichsten",
+        "feminine": "freundliche",
+        "neuter": "freundliches",
+        "plural": "freundliche"
     },
     {
         "word": "gütig",
@@ -1991,7 +2324,10 @@
         ],
         "subtext": "sehr gütig / nett von dir / ein gütiger Mensch",
         "comparative": "gütiger",
-        "superlative": "am gütigsten"
+        "superlative": "am gütigsten",
+        "feminine": "gütige",
+        "neuter": "gütiges",
+        "plural": "gütige"
     },
     {
         "word": "lustig",
@@ -2008,7 +2344,10 @@
         ],
         "subtext": "sehr lustig / lustige Geschichte / lustig finden",
         "comparative": "lustiger",
-        "superlative": "am lustigsten"
+        "superlative": "am lustigsten",
+        "feminine": "lustige",
+        "neuter": "lustiges",
+        "plural": "lustige"
     },
     {
         "word": "schlau",
@@ -2025,7 +2364,10 @@
         ],
         "subtext": "sehr schlau / eine schlaue Idee / schlau genug",
         "comparative": "schlauer",
-        "superlative": "am schlauesten"
+        "superlative": "am schlauesten",
+        "feminine": "schlaue",
+        "neuter": "schlaues",
+        "plural": "schlaue"
     },
     {
         "word": "höflich",
@@ -2042,7 +2384,10 @@
         ],
         "subtext": "sehr höflich / höfliche Bitte / höflich genug",
         "comparative": "höflicher",
-        "superlative": "am höflichsten"
+        "superlative": "am höflichsten",
+        "feminine": "höfliche",
+        "neuter": "höfliches",
+        "plural": "höfliche"
     },
     {
         "word": "unhöflich",
@@ -2059,7 +2404,10 @@
         ],
         "subtext": "sehr unhöflich / unglaublich unhöflich / absichtlich unhöflich",
         "comparative": "unhöflicher",
-        "superlative": "am unhöflichsten"
+        "superlative": "am unhöflichsten",
+        "feminine": "unhöfliche",
+        "neuter": "unhöfliches",
+        "plural": "unhöfliche"
     },
     {
         "word": "faul",
@@ -2076,7 +2424,10 @@
         ],
         "subtext": "sehr faul / eine faule Herangehensweise / zu faul",
         "comparative": "fauler",
-        "superlative": "am faulsten"
+        "superlative": "am faulsten",
+        "feminine": "faule",
+        "neuter": "faules",
+        "plural": "faule"
     },
     {
         "word": "ehrlich",
@@ -2093,7 +2444,10 @@
         ],
         "subtext": "sehr ehrlich / brutal ehrlich / völlig ehrlich",
         "comparative": "ehrlicher",
-        "superlative": "am ehrlichsten"
+        "superlative": "am ehrlichsten",
+        "feminine": "ehrliche",
+        "neuter": "ehrliches",
+        "plural": "ehrliche"
     },
     {
         "word": "laut",
@@ -2110,7 +2464,10 @@
         ],
         "subtext": "sehr laut / laute Umgebung / zu laut",
         "comparative": "lauter",
-        "superlative": "am lautesten"
+        "superlative": "am lautesten",
+        "feminine": "laute",
+        "neuter": "lautes",
+        "plural": "laute"
     }
 ];
     const lang = "de";

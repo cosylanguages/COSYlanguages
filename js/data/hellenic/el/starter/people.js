@@ -3,7 +3,7 @@
     {
         "word": "Σωκράτης",
         "level": "starter",
-        "theme": "identity_self_C1"
+        "theme": "marital_status_A1"
     }
 ];
     const lang = "el";

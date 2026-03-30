@@ -3,67 +3,67 @@
     {
         "word": "Frañs",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Italia",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Rusia",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Gres",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Bro-Saoz",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Spagn",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Stadoù-Unanet",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Pariz",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Londrez",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Roma",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Moskov",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Aten",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "New York",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     }
 ];
     const lang = "br";

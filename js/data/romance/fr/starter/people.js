@@ -3,12 +3,12 @@
     {
         "word": "Napoléon Bonaparte",
         "level": "starter",
-        "theme": "identity_self_C1"
+        "theme": "marital_status_A1"
     },
     {
         "word": "Zinedine Zidane",
         "level": "starter",
-        "theme": "identity_self_C1"
+        "theme": "marital_status_A1"
     }
 ];
     const lang = "fr";

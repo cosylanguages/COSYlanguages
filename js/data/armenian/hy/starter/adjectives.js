@@ -59,7 +59,7 @@
                 ]
             }
         ],
-        "subtext": "young person / young professional / young at heart",
+        "subtext": "երիտասարդ մարդ / երիտասարդ մասնագետ / հոգով երիտասարդ",
         "comparative": "ավելի երիտասարդ",
         "superlative": "ամենաերիտասարդ",
         "feminine": null,
@@ -81,7 +81,7 @@
                 ]
             }
         ],
-        "subtext": "old friend / old habits / very old",
+        "subtext": "հին ընկեր / հին սովորություններ / շատ հին",
         "comparative": "ավելի հին",
         "superlative": "ամենահին",
         "feminine": null,
@@ -102,7 +102,7 @@
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell",
+        "subtext": "արևոտ օր / արևոտ եղանակ / պարզկա օր",
         "comparative": "ավելի արևոտ",
         "superlative": "ամենաարևոտ",
         "feminine": null,
@@ -123,7 +123,7 @@
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season",
+        "subtext": "անձրևոտ օր / անձրևոտ եղանակ / անձրևների սեզոն",
         "comparative": "ավելի անձրևոտ",
         "superlative": "ամենաանձրևոտ",
         "feminine": null,
@@ -138,7 +138,7 @@
         "form": "adjective",
         "opposite": "սառը",
         "oppositeEmoji": "❄️",
-        "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
+        "subtext": "տաք եղանակ / տաք խմիչք / չափազանց տաք",
         "definitions": [
             {
                 "text": "Բարձր ջերմաստիճան ունեցող:",
@@ -161,7 +161,7 @@
         "form": "adjective",
         "opposite": "տաք",
         "oppositeEmoji": "🔥",
-        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
+        "subtext": "շատ սառը / ցուրտ առավոտ / սառը խմիչք / շատ ցուրտ",
         "definitions": [
             {
                 "text": "Ցածր ջերմաստիճան ունեցող:",
@@ -185,15 +185,15 @@
         "oppositeEmoji": "✨",
         "definitions": [
             {
-                "text": "Normal or usual; not special.",
+                "text": "Բնական կամ սովորական; ոչ հատուկ:",
                 "examples": [
-                    "It was an ordinary day."
+                    "Դա սովորական օր էր:"
                 ]
             }
         ],
-        "subtext": "ordinary day / ordinary life / nothing ordinary",
-        "comparative": "more ordinary",
-        "superlative": "the most ordinary"
+        "subtext": "սովորական օր / սովորական կյանք / ոչ մի անսովոր բան",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "էժան",
@@ -203,7 +203,7 @@
         "form": "adjective",
         "opposite": "թանկ",
         "oppositeEmoji": "💎",
-        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful",
+        "subtext": "ցածր գին / էժան թռիչք / շատ էժան",
         "definitions": [
             {
                 "text": "Քիչ գումար արժեցող:",
@@ -226,7 +226,7 @@
         "form": "adjective",
         "opposite": "էժան",
         "oppositeEmoji": "🏷️",
-        "subtext": "costly, high price / very expensive / expensive taste / too expensive",
+        "subtext": "բարձր գին / շատ թանկ / թանկ հաճույք",
         "definitions": [
             {
                 "text": "Շատ գումար արժեցող:",
@@ -249,7 +249,7 @@
         "form": "adjective",
         "opposite": "վատ",
         "oppositeEmoji": "👎",
-        "subtext": "great, nice, pleasant / good idea / good luck / good value",
+        "subtext": "հիանալի / լավ գաղափար / հաջողություն / լավ արժեք",
         "definitions": [
             {
                 "text": "Բարձր որակի կամ հաճելի:",
@@ -272,7 +272,7 @@
         "form": "adjective",
         "opposite": "լավ",
         "oppositeEmoji": "👍",
-        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
+        "subtext": "սարսափելի / վատ լուրեր / անհաջողություն / վատ որոշում",
         "definitions": [
             {
                 "text": "Ոչ լավ, ցածր որակի:",
@@ -295,7 +295,7 @@
         "form": "adjective",
         "opposite": "փոքր",
         "oppositeEmoji": "🐭",
-        "subtext": "large, huge / a big house / a big problem / big enough",
+        "subtext": "մեծ տուն / մեծ խնդիր / բավականին մեծ",
         "definitions": [
             {
                 "text": "Մեծ չափերով կամ քանակով:",
@@ -318,7 +318,7 @@
         "form": "adjective",
         "opposite": "մեծ",
         "oppositeEmoji": "🐘",
-        "subtext": "little, tiny / a small flat / a small salary / too small",
+        "subtext": "փոքր բնակարան / փոքր աշխատավարձ / շատ փոքր",
         "definitions": [
             {
                 "text": "Փոքր չափերով կամ քանակով:",
@@ -349,7 +349,7 @@
                 ]
             }
         ],
-        "subtext": "easy to do / nice and easy / not easy",
+        "subtext": "հեշտ անել / շատ հեշտ / հեշտ չէ",
         "comparative": "ավելի հեշտ",
         "superlative": "ամենահեշտ",
         "feminine": null,
@@ -372,7 +372,7 @@
                 ]
             }
         ],
-        "subtext": "difficult to do / very difficult / find it difficult",
+        "subtext": "դժվար անել / շատ դժվար / դժվարությամբ",
         "comparative": "ավելի դժվար",
         "superlative": "ամենադժվար",
         "feminine": null,
@@ -385,7 +385,7 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day",
+        "subtext": "ուրախ / երջանիկ զգալ / երջանիկ օր",
         "definitions": [
             {
                 "text": "Ուրախություն կամ բավարարվածություն զգալ:",
@@ -406,7 +406,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
+        "subtext": "քնկոտ / հոգնած զգալ / շատ հոգնած",
         "definitions": [
             {
                 "text": "Հանգստի կարիք ունեցող:",
@@ -422,42 +422,42 @@
         "femininePlural": null
     },
     {
-        "word": "full-time",
+        "word": "լրիվ դրույք",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "part-time",
+        "opposite": "կես դրույք",
         "oppositeEmoji": "⏳",
         "definitions": [
             {
-                "text": "Working the complete number of hours in a working week.",
+                "text": "Աշխատանքային շաբաթվա բոլոր ժամերով աշխատելը:",
                 "examples": [
-                    "She has a full-time job in a bank."
+                    "Նա լրիվ դրույքով աշխատանք ունի բանկում:"
                 ]
             }
         ],
-        "subtext": "full-time job / full-time work / full-time employee",
+        "subtext": "լրիվ դրույքով աշխատանք",
         "comparative": null,
         "superlative": null
     },
     {
-        "word": "part-time",
+        "word": "կես դրույք",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "full-time",
+        "opposite": "լրիվ դրույք",
         "oppositeEmoji": "⏰",
         "definitions": [
             {
-                "text": "Working fewer hours than a standard working week.",
+                "text": "Աշխատանքային շաբաթվա ոչ բոլոր ժամերով աշխատելը:",
                 "examples": [
-                    "He works part-time on Saturdays."
+                    "Նա շաբաթ օրերին աշխատում է կես դրույքով:"
                 ]
             }
         ],
-        "subtext": "part-time job / part-time work / part-time student",
+        "subtext": "կես դրույքով աշխատանք",
         "comparative": null,
         "superlative": null
     },
@@ -469,7 +469,7 @@
         "form": "adjective",
         "opposite": "կեղտոտ",
         "oppositeEmoji": "💩",
-        "subtext": "tidy, not dirty, keep it clean / clean clothes / a clean room / keep clean",
+        "subtext": "մաքուր հագուստ / մաքուր սենյակ / մաքուր պահել",
         "definitions": [
             {
                 "text": "Առանց կեղտի:",
@@ -490,9 +490,9 @@
         "theme": "basic_foods_A1",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
+        "opposite": "ոչ առողջ",
         "oppositeEmoji": "🍔",
-        "subtext": "well, fit, healthy diet",
+        "subtext": "առողջ սննդակարգ / առողջ ապրելակերպ",
         "definitions": [
             {
                 "text": "Լավ առողջություն ունեցող:",
@@ -513,19 +513,19 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
+        "opposite": "առողջ",
         "oppositeEmoji": "💪",
-        "subtext": "sick, feel ill",
+        "subtext": "հիվանդ զգալ",
         "definitions": [
             {
-                "text": "Not well; sick.",
+                "text": "Ոչ առողջ; հիվանդ:",
                 "examples": [
-                    "I feel ill today."
+                    "Ես այսօր ինձ վատ եմ զգում:"
                 ]
             }
         ],
-        "comparative": "iller",
-        "superlative": "the illest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "առցանց",
@@ -533,19 +533,19 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "offline",
+        "opposite": "անցանց",
         "oppositeEmoji": "📴",
         "definitions": [
             {
-                "text": "Using the internet.",
+                "text": "Ինտերնետի օգտագործմամբ:",
                 "examples": [
                     "I buy food online sometimes."
                 ]
             }
         ],
-        "subtext": "online shopping / online course / stay online",
-        "comparative": "more online",
-        "superlative": "the most online"
+        "subtext": "առցանց գնումներ / առցանց դասընթաց",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "մենակ",
@@ -553,19 +553,19 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
+        "opposite": "միասին",
         "oppositeEmoji": "👫",
         "definitions": [
             {
-                "text": "Without other people; by yourself.",
+                "text": "Առանց այլ մարդկանց; ինքնուրույն:",
                 "examples": [
                     "She lives alone."
                 ]
             }
         ],
-        "subtext": "live alone / travel alone / feel alone",
-        "comparative": "more alone",
-        "superlative": "the most alone"
+        "subtext": "մենակ ապրել / մենակ ճամփորդել",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "հանգիստ",
@@ -573,19 +573,19 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "stressed",
+        "opposite": "լարված",
         "oppositeEmoji": "😫",
-        "subtext": "calm, feeling relaxed",
+        "subtext": "հանգիստ զգալ",
         "definitions": [
             {
-                "text": "Calm; not worried or stressed.",
+                "text": "Հանգիստ; ոչ անհանգստացած կամ լարված:",
                 "examples": [
-                    "I feel relaxed at the weekend."
+                    "Ես ինձ հանգիստ եմ զգում հանգստյան օրերին:"
                 ]
             }
         ],
-        "comparative": "more relaxed",
-        "superlative": "the most relaxed"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "անհանգիստ",
@@ -593,19 +593,19 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "calm",
+        "opposite": "հանգիստ",
         "oppositeEmoji": "😌",
-        "subtext": "anxious",
+        "subtext": "անհանգստանալ",
         "definitions": [
             {
-                "text": "Feeling anxious about something that might happen.",
+                "text": "Անհանգստության զգացում ինչ-որ բանի պատճառով:",
                 "examples": [
-                    "She is worried about her job."
+                    "Նա անհանգստացած է իր աշխատանքի համար:"
                 ]
             }
         ],
-        "comparative": "more worried",
-        "superlative": "the most worried"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "զբաղված",
@@ -613,7 +613,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "subtext": "very busy, busy day / busy schedule / very busy / too busy",
+        "subtext": "զբաղված օր / զբաղված գրաֆիկ / շատ զբաղված",
         "definitions": [
             {
                 "text": "Շատ աշխատանք ունեցող:",
@@ -636,7 +636,7 @@
         "form": "adjective",
         "opposite": "անօգուտ",
         "oppositeEmoji": "🗑️",
-        "subtext": "helpful, practical",
+        "subtext": "գործնական / օգտակար լինել",
         "definitions": [
             {
                 "text": "Օգուտ բերող:",
@@ -657,7 +657,7 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "essential / important meeting / very important / most important",
+        "subtext": "կարևոր հանդիպում / շատ կարևոր",
         "definitions": [
             {
                 "text": "Մեծ նշանակություն ունեցող:",
@@ -678,23 +678,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
         "form": "adjective",
-        "subtext": "dark red, bright red / red wine / red face / red light",
+        "subtext": "կարմիր գինի / կարմիր լույս",
         "definitions": [
             {
-                "text": "Having the colour of blood or a ripe tomato.",
+                "text": "Արյան կամ հասած լոլիկի գույնը:",
                 "examples": [
                     "She has a red bag."
                 ]
             },
             {
-                "text": "Having the colour of blood.",
+                "text": "Արյան գույն ունեցող:",
                 "examples": [
                     "She drives a red car."
                 ]
             }
         ],
-        "comparative": "redder",
-        "superlative": "the reddest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "կապույտ",
@@ -702,23 +702,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
         "form": "adjective",
-        "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
+        "subtext": "կապույտ երկինք",
         "definitions": [
             {
-                "text": "Having the colour of a clear sky.",
+                "text": "Պարզ երկնքի գույնը:",
                 "examples": [
-                    "His car is blue."
+                    "Նրա մեքենան կապույտ է:"
                 ]
             },
             {
-                "text": "Having the colour of the sky.",
+                "text": "Երկնքի գույն ունեցող:",
                 "examples": [
-                    "He wears a blue shirt to work."
+                    "Նա կապույտ շապիկ է հագնում աշխատանքի համար:"
                 ]
             }
         ],
-        "comparative": "bluer",
-        "superlative": "the bluest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "կանաչ",
@@ -726,23 +726,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
-        "subtext": "bright green, dark green / green energy / green space / bright green",
+        "subtext": "կանաչ տարածք",
         "definitions": [
             {
-                "text": "Having the colour of grass or leaves.",
+                "text": "Խոտի կամ տերևների գույնը:",
                 "examples": [
                     "She wears a green dress."
                 ]
             },
             {
-                "text": "Having the colour of grass.",
+                "text": "Խոտի գույն ունեցող:",
                 "examples": [
-                    "The company has green credentials."
+                    "Ընկերությունն ունի էկոլոգիական բնութագրեր:"
                 ]
             }
         ],
-        "comparative": "greener",
-        "superlative": "the greenest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "սպիտակ",
@@ -750,23 +750,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
         "form": "adjective",
-        "subtext": "pure white, snow white / white wine / off-white / bright white",
+        "subtext": "սպիտակ գինի",
         "definitions": [
             {
-                "text": "Having the colour of snow or milk.",
+                "text": "Ձյան կամ կաթի գույնը:",
                 "examples": [
-                    "The walls are white."
+                    "Պատերը սպիտակ են:"
                 ]
             },
             {
-                "text": "Having the lightest colour.",
+                "text": "Ամենաբաց գույնն ունեցող:",
                 "examples": [
-                    "The office walls are painted white."
+                    "Գրասենյակի պատերը ներկված են սպիտակ:"
                 ]
             }
         ],
-        "comparative": "whiter",
-        "superlative": "the whitest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "սև",
@@ -774,23 +774,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬛",
         "form": "adjective",
-        "subtext": "jet black, dark as night / black coffee / black market / jet black",
+        "subtext": "սև սուրճ",
         "definitions": [
             {
-                "text": "Having the darkest colour, like the night sky.",
+                "text": "Ամենամութ գույնը, ինչպես գիշերային երկինքը:",
                 "examples": [
                     "He wears a black coat."
                 ]
             },
             {
-                "text": "Having the darkest colour.",
+                "text": "Ամենամութ գույնն ունեցող:",
                 "examples": [
                     "He always wears a black suit."
                 ]
             }
         ],
-        "comparative": "blacker",
-        "superlative": "the blackest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "դեղին",
@@ -798,23 +798,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
-        "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
+        "subtext": "դեղին լույս",
         "definitions": [
             {
-                "text": "Having the colour of the sun or a lemon.",
+                "text": "Արևի կամ կիտրոնի գույնը:",
                 "examples": [
                     "She has a yellow umbrella."
                 ]
             },
             {
-                "text": "Having the colour of the sun.",
+                "text": "Արևի գույն ունեցող:",
                 "examples": [
                     "She bought a yellow notepad."
                 ]
             }
         ],
-        "comparative": "yellower",
-        "superlative": "the yellowest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ազատ",
@@ -822,7 +822,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "free of charge, free gift / free time / free of charge / free to do",
+        "subtext": "ազատ ժամանակ / անվճար",
         "definitions": [
             {
                 "text": "Չզբաղված կամ անվճար:",
@@ -845,7 +845,7 @@
         "form": "adjective",
         "opposite": "փակ",
         "oppositeEmoji": "🔒",
-        "subtext": "now open, open for business / open door / open to ideas / wide open",
+        "subtext": "բաց դուռ / բաց է բիզնեսի համար",
         "definitions": [
             {
                 "text": "Ոչ փակ:",
@@ -868,7 +868,7 @@
         "form": "adjective",
         "opposite": "բաց",
         "oppositeEmoji": "📖",
-        "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
+        "subtext": "փակ է ընդմիջման համար / փակ դուռ",
         "definitions": [
             {
                 "text": "Ոչ բաց:",
@@ -887,41 +887,41 @@
         "word": "մեծ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a large city / a large company / a large amount",
+        "subtext": "մեծ քաղաք / մեծ ընկերություն",
         "definitions": [
             {
-                "text": "Of more than average size or amount.",
+                "text": "Միջինից մեծ չափի կամ քանակի:",
                 "examples": [
-                    "Paris is a very large city."
+                    "Փարիզը շատ մեծ քաղաք է:"
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "larger",
-        "superlative": "the largest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "փոքր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a little bit / a little money / too little",
+        "subtext": "մի փոքր / քիչ գումար",
         "definitions": [
             {
-                "text": "Small in size; a small amount of.",
+                "text": "Փոքր չափի; քիչ քանակությամբ:",
                 "examples": [
                     "He drives a little car to save on fuel."
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "smaller",
-        "superlative": "the smallest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "երկար",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a long journey / a long day / a long time",
+        "subtext": "երկար ճանապարհորդություն / երկար օր",
         "definitions": [
             {
                 "text": "Մեծ հեռավորություն կամ տևողություն ունեցող:",
@@ -941,41 +941,41 @@
         "word": "բարձր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "high price / high rent / high quality",
+        "subtext": "բարձր գին / բարձր որակ",
         "definitions": [
             {
-                "text": "Of greater than average height or level.",
+                "text": "Միջինից բարձր մակարդակի:",
                 "examples": [
-                    "The rent in this area is very high."
+                    "Այս տարածքում վարձավճարը շատ բարձր է:"
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "higher",
-        "superlative": "the highest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ցածր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "low price / low salary / low quality",
+        "subtext": "ցածր գին / ցածր աշխատավարձ",
         "definitions": [
             {
-                "text": "Of less than average height or level.",
+                "text": "Միջինից ցածր մակարդակի:",
                 "examples": [
-                    "The salary is too low for the hours involved."
+                    "Աշխատավարձը շատ ցածր է ներգրավված ժամերի համար:"
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "lower",
-        "superlative": "the lowest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "լիքը",
         "level": "starter",
         "form": "adjective",
-        "subtext": "full time / a full day / full of people",
+        "subtext": "լիարժեք օր / մարդկանցով լի",
         "definitions": [
             {
                 "text": "Այլևս տեղ չունեցող:",
@@ -995,7 +995,7 @@
         "word": "դատարկ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "an empty flat / an empty room / nearly empty",
+        "subtext": "դատարկ բնակարան / դատարկ սենյակ",
         "definitions": [
             {
                 "text": "Ոչինչ չպարունակող:",
@@ -1015,41 +1015,41 @@
         "word": "տաք",
         "level": "starter",
         "form": "adjective",
-        "subtext": "warm weather / a warm welcome / keep warm",
+        "subtext": "հաճելի տաք / տաք ընդունելություն",
         "definitions": [
             {
-                "text": "Slightly hot; pleasantly heated.",
+                "text": "Հաճելի տաք; տաքացված:",
                 "examples": [
-                    "The office is warm and comfortable."
+                    "Գրասենյակը տաք է և հարմարավետ:"
                 ]
             }
         ],
         "theme": "weather_A1",
-        "comparative": "warmer",
-        "superlative": "the warmest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "զով",
         "level": "starter",
         "form": "adjective",
-        "subtext": "cool weather / a cool drink / stay cool",
+        "subtext": "զով խմիչք / զով մնալ",
         "definitions": [
             {
-                "text": "Slightly cold; pleasantly low temperature.",
+                "text": "Մի փոքր սառը; հաճելի ցածր ջերմաստիճան:",
                 "examples": [
-                    "She prefers cool weather for working."
+                    "Նա նախընտրում է զով եղանակ աշխատելու համար:"
                 ]
             }
         ],
         "theme": "weather_A1",
-        "comparative": "cooler",
-        "superlative": "the coolest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "թաց",
         "level": "starter",
         "form": "adjective",
-        "subtext": "wet weather / wet clothes / get wet",
+        "subtext": "թաց եղանակ / թաց հագուստ",
         "definitions": [
             {
                 "text": "Ջրով կամ հեղուկով պատված:",
@@ -1069,7 +1069,7 @@
         "word": "չոր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dry weather / dry skin / keep dry",
+        "subtext": "չոր եղանակ / չոր մաշկ",
         "definitions": [
             {
                 "text": "Առանց ջրի կամ խոնավության:",
@@ -1089,7 +1089,7 @@
         "word": "կեղտոտ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dirty hands / dirty clothes / get dirty",
+        "subtext": "կեղտոտ ձեռքեր / կեղտոտ հագուստ",
         "definitions": [
             {
                 "text": "Կեղտով պատված:",
@@ -1108,7 +1108,7 @@
         "word": "կոշտ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "hard work / a hard decision / too hard",
+        "subtext": "դժվար աշխատանք / դժվար որոշում",
         "definitions": [
             {
                 "text": "Ոչ փափուկ:",
@@ -1128,7 +1128,7 @@
         "word": "փափուկ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "soft light / soft music / soft skills",
+        "subtext": "փափուկ լույս / փափուկ երաժշտություն",
         "definitions": [
             {
                 "text": "Հեշտությամբ ձևափոխվող, հաճելի:",
@@ -1148,7 +1148,7 @@
         "word": "ծանր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "heavy traffic / heavy rain / too heavy",
+        "subtext": "ծանր երթևեկություն / ուժեղ անձրև",
         "definitions": [
             {
                 "text": "Մեծ քաշ ունեցող:",
@@ -1168,143 +1168,143 @@
         "word": "թեթև",
         "level": "starter",
         "form": "adjective",
-        "subtext": "light rain / light traffic / a light meal",
+        "subtext": "թեթև անձրև / թեթև սնունդ",
         "definitions": [
             {
-                "text": "Not heavy; pale in colour.",
+                "text": "Ոչ ծանր; բաց գույնի:",
                 "examples": [
-                    "She carries a light bag to work every day."
+                    "Նա ամեն օր աշխատանքի է տանում թեթև պայուսակ:"
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "lighter",
-        "superlative": "the lightest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "շագանակագույն",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dark brown / light brown / brown bread",
+        "subtext": "մուգ շագանակագույն",
         "definitions": [
             {
-                "text": "Having the colour of wood or earth.",
+                "text": "Փայտի կամ հողի գույնը:",
                 "examples": [
-                    "She has brown eyes and dark hair."
+                    "Նա ունի շագանակագույն աչքեր և մուգ մազեր:"
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "browner",
-        "superlative": "the brownest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "մոխրագույն",
         "level": "starter",
         "form": "adjective",
-        "subtext": "grey area / grey sky / pale grey",
+        "subtext": "մոխրագույն երկինք",
         "definitions": [
             {
-                "text": "Having a colour between black and white.",
+                "text": "Սևի և սպիտակի միջև գտնվող գույնը:",
                 "examples": [
-                    "He has grey hair and a kind face."
+                    "Նա ունի մոխրագույն մազեր և բարի դեմք:"
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "greyer",
-        "superlative": "the greyest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "վարդագույն",
         "level": "starter",
         "form": "adjective",
-        "subtext": "light pink / bright pink / hot pink",
+        "subtext": "բաց վարդագույն",
         "definitions": [
             {
-                "text": "Having a pale red colour.",
+                "text": "Բաց կարմիր գույն ունեցող:",
                 "examples": [
                     "She prefers pink to red."
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "pinker",
-        "superlative": "the pinkest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "նարնջագույν",
         "level": "starter",
         "form": "adjective",
-        "subtext": "bright orange / dark orange / orange light",
+        "subtext": "վառ նարնջագույն",
         "definitions": [
             {
-                "text": "Having the colour of an orange fruit.",
+                "text": "Նարնջի գույն ունեցող:",
                 "examples": [
                     "He bought an orange jacket."
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "orangeer",
-        "superlative": "the orangeest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "հիանալի",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a great idea / a great opportunity / great value",
+        "subtext": "հիանալի գաղափար",
         "definitions": [
             {
-                "text": "Extremely good; large in amount.",
+                "text": "Չափազանց լավ; մեծ քանակությամբ:",
                 "examples": [
-                    "She is a great manager."
+                    "Նա հիանալի մենեջեր է:"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "greater",
-        "superlative": "the greatest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "հաճելի",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a nice day / a nice place / a nice person",
+        "subtext": "հաճելի օր / հաճելի վայր",
         "definitions": [
             {
-                "text": "Pleasant or kind.",
+                "text": "Հաճելի կամ բարի:",
                 "examples": [
-                    "The new office is very nice."
+                    "Նոր գրասենյակը շատ հաճելի է:"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "nicer",
-        "superlative": "the nicest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "սքանչելի",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a wonderful opportunity / a wonderful time",
+        "subtext": "սքանչելի ժամանակ",
         "definitions": [
             {
-                "text": "Extremely good; causing delight.",
+                "text": "Չափազանց լավ; հիացմունք առաջացնող:",
                 "examples": [
                     "They had a wonderful team."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more wonderful",
-        "superlative": "the most wonderful"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "սարսափելի",
         "level": "starter",
         "form": "adjective",
-        "subtext": "terrible weather / a terrible mistake / terrible news",
+        "subtext": "սարսափելի լուրեր",
         "definitions": [
             {
                 "text": "Շատ վատ:",
@@ -1324,58 +1324,58 @@
         "word": "սարսափելի",
         "level": "starter",
         "form": "adjective",
-        "subtext": "awful weather / awful news / simply awful",
+        "subtext": "սարսափելի լուրեր",
         "definitions": [
             {
-                "text": "Very bad or unpleasant.",
+                "text": "Շատ վատ կամ տհաճ:",
                 "examples": [
-                    "The noise in the open office is awful."
+                    "Բաց գրասենյակում աղմուկը սարսափելի է:"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more awful",
-        "superlative": "the most awful"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "զարմանալի",
         "level": "starter",
         "form": "adjective",
-        "subtext": "an amazing result / an amazing offer / truly amazing",
+        "subtext": "զարմանալի արդյունք",
         "definitions": [
             {
-                "text": "Causing great surprise or admiration.",
+                "text": "Մեծ զարմանք կամ հիացմունք առաջացնող:",
                 "examples": [
                     "She gave an amazing presentation."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more amazing",
-        "superlative": "the most amazing"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ֆանտաստիկ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
+        "subtext": "ֆանտաստիկ լուրեր",
         "definitions": [
             {
-                "text": "Extremely good.",
+                "text": "Չափազանց լավ:",
                 "examples": [
-                    "The new system works in a fantastic way."
+                    "Նոր համակարգն աշխատում է ֆանտաստիկ ձևով:"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more fantastic",
-        "superlative": "the most fantastic"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "տխուր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sad / a sad situation / deeply sad",
+        "subtext": "տխուր զգալ / տխուր իրավիճակ / խորապես տխուր",
         "definitions": [
             {
                 "text": "Ոչ երջանիկ, սովորաբար ինչ-որ վատ բանի պատճառով:",
@@ -1395,7 +1395,7 @@
         "word": "սոված",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel hungry / very hungry / go hungry",
+        "subtext": "սոված զգալ / շատ սոված / սոված մնալ",
         "definitions": [
             {
                 "text": "Ուտելու կարիք ունեցող:",
@@ -1415,7 +1415,7 @@
         "word": "բարկացած",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel angry / angry with someone / very angry",
+        "subtext": "բարկացած զգալ / բարկանալ մեկի վրա / շատ բարկացած",
         "definitions": [
             {
                 "text": "Զայրույթ զգացող:",
@@ -1435,91 +1435,91 @@
         "word": "ձանձրացած",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel bored / bored with / easily bored",
+        "subtext": "ձանձրանալ",
         "definitions": [
             {
-                "text": "Feeling uninterested or restless.",
+                "text": "Հետաքրքրության պակաս զգացող:",
                 "examples": [
-                    "He feels bored in long meetings."
+                    "Նա ձանձրանում է երկար հանդիպումների ժամանակ:"
                 ]
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "more bored",
-        "superlative": "the most bored"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ոգևորված",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel excited / excited about / very excited",
+        "subtext": "շատ ոգևորված",
         "definitions": [
             {
-                "text": "Feeling enthusiasm and eagerness.",
+                "text": "Էնտուզիազմ և եռանդ զգացող:",
                 "examples": [
-                    "She is excited about her new job."
+                    "Նա ոգևորված է իր նոր աշխատանքով:"
                 ]
             }
         ],
-        "comparative": "more excited",
-        "superlative": "the most excited"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "վախեցած",
         "level": "starter",
         "form": "adjective",
-        "subtext": "afraid of / feel afraid / deeply afraid",
+        "subtext": "վախենալ ինչ-որ բանից",
         "definitions": [
             {
-                "text": "Feeling fear.",
+                "text": "Վախ զգացող:",
                 "examples": [
-                    "He is afraid of making mistakes."
+                    "Նա վախենում է սխալվելուց:"
                 ]
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "more afraid",
-        "superlative": "the most afraid"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "զղջացող",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sorry / sorry for / sorry about",
+        "subtext": "ցավել ինչ-որ բանի համար",
         "definitions": [
             {
-                "text": "Feeling regret or sadness.",
+                "text": "Ափսոսանք կամ տխրություն զգացող:",
                 "examples": [
-                    "She is sorry for the delay."
+                    "Նա ներողություն է խնդրում ուշացման համար:"
                 ]
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "sorrier",
-        "superlative": "the sorriest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ճիշտ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "ճիշտ պատասխան / ճիշտ ժամանակ",
         "definitions": [
             {
-                "text": "Correct; suitable.",
+                "text": "Ճիշտ; համապատասխան:",
                 "examples": [
-                    "Is this the right office?"
+                    "Սա՞ է ճիշտ գրասենյակը:"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "righter",
-        "superlative": "the rightest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "սխալ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "wrong answer / go wrong / completely wrong",
+        "subtext": "սխալ պատասխան",
         "definitions": [
             {
                 "text": "Ոչ ճիշտ:",
@@ -1539,7 +1539,7 @@
         "word": "նոր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "new job / brand new / completely new",
+        "subtext": "նոր աշխատանք / լրիվ նոր",
         "definitions": [
             {
                 "text": "Վերջերս ստեղծված կամ գնված:",
@@ -1559,7 +1559,7 @@
         "word": "տարբեր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "completely different / very different / different from",
+        "subtext": "լիովին տարբեր / շատ տարբեր",
         "definitions": [
             {
                 "text": "Ոչ նույնը:",
@@ -1579,7 +1579,7 @@
         "word": "նույն",
         "level": "starter",
         "form": "adjective",
-        "subtext": "the same as / exactly the same / same time",
+        "subtext": "նույնը, ինչ / ճիշտ նույնը",
         "definitions": [
             {
                 "text": "Ոչ տարբեր:",
@@ -1599,7 +1599,7 @@
         "word": "արագ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fast food / fast train / very fast",
+        "subtext": "արագ սնունդ / արագ գնացք",
         "definitions": [
             {
                 "text": "Մեծ արագությամբ շարժվող կամ տեղի ունեցող:",
@@ -1619,7 +1619,7 @@
         "word": "դանդաղ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "slow progress / slow internet / very slow",
+        "subtext": "դանդաղ առաջընթաց / դանդաղ ինտերնետ",
         "definitions": [
             {
                 "text": "Ցածր արագությամբ շարժվող կամ տեղի ունեցող:",
@@ -1639,7 +1639,7 @@
         "word": "հանգիստ",
         "level": "starter",
         "form": "adjective",
-        "subtext": "quiet area / keep quiet / nice and quiet",
+        "subtext": "հանգիստ տարածք / հանգիստ մնալ",
         "definitions": [
             {
                 "text": "Առանց աղմուկի:",
@@ -1659,7 +1659,7 @@
         "word": "բարձր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "loud noise / too loud / a loud voice",
+        "subtext": "բարձր աղմուկ / շատ բարձր",
         "definitions": [
             {
                 "text": "Մեծ ձայն ունեցող:",
@@ -1679,7 +1679,7 @@
         "word": "ապահով",
         "level": "starter",
         "form": "adjective",
-        "subtext": "safe area / safe to do / feel safe",
+        "subtext": "ապահով տարածք / ապահով զգալ",
         "definitions": [
             {
                 "text": "Վտանգից հեռու:",
@@ -1699,7 +1699,7 @@
         "word": "վտանգավոր",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dangerous situation / very dangerous / potentially dangerous",
+        "subtext": "վտանգավոր իրավիճակ / շատ վտանգավոր",
         "definitions": [
             {
                 "text": "Վտանգ ներկայացնող:",
@@ -1722,15 +1722,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Not feeling pleased; dissatisfied.",
+                "text": "Ոչ գոհ; դժգոհ:",
                 "examples": [
-                    "He is unhappy with his current salary."
+                    "Նա դժգոհ է իր ներկայիս աշխատավարձից:"
                 ]
             }
         ],
-        "subtext": "feel unhappy / very unhappy / unhappy about",
-        "comparative": "unhappier",
-        "superlative": "the unhappiest"
+        "subtext": "տխուր զգալ / շատ դժբախտ",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "նյարդային",
@@ -1745,7 +1745,7 @@
                 ]
             }
         ],
-        "subtext": "feel nervous / nervous about / very nervous",
+        "subtext": "նյարդային զգալ / շատ նյարդային",
         "comparative": "ավելի նյարդային",
         "superlative": "ամենանյարդային",
         "feminine": null,
@@ -1759,15 +1759,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling worried and tense from pressure.",
+                "text": "Ճնշումից անհանգստության և լարվածության զգացում:",
                 "examples": [
                     "She feels stressed before every deadline."
                 ]
             }
         ],
-        "subtext": "feel stressed / very stressed / stressed out",
-        "comparative": "more stressed",
-        "superlative": "the most stressed"
+        "subtext": "լարված զգալ / շատ լարված",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ինքնավստահ",
@@ -1776,15 +1776,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling sure of your own abilities.",
+                "text": "Սեփական կարողությունների վրա վստահ լինելը:",
                 "examples": [
-                    "She is very confident in client presentations."
+                    "Նա շատ վստահ է հաճախորդների ներկայացումների ժամանակ:"
                 ]
             }
         ],
-        "subtext": "feel confident / self-confident / very confident",
-        "comparative": "more confident",
-        "superlative": "the most confident"
+        "subtext": "ինքնավստահ զգալ / շատ ինքնավստահ",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "հպարտ",
@@ -1799,7 +1799,7 @@
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of",
+        "subtext": "հպարտ զգալ / շատ հպարտ",
         "comparative": "ավելի հպարտ",
         "superlative": "ամենահպարտ",
         "feminine": null,
@@ -1819,7 +1819,7 @@
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared",
+        "subtext": "վախեցած զգալ / շատ վախեցած",
         "comparative": "ավելի վախեցած",
         "superlative": "ամենավախեցած",
         "feminine": null,
@@ -1833,15 +1833,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling shock at something unexpected.",
+                "text": "Շոկի զգացում անսպասելի բանից:",
                 "examples": [
-                    "He was surprised to get a pay rise."
+                    "Նա զարմացած էր աշխատավարձի բարձրացում ստանալու համար:"
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised",
-        "comparative": "more surprised",
-        "superlative": "the most surprised"
+        "subtext": "զարմացած զգալ / շատ զարմացած",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "հիասթափված",
@@ -1850,15 +1850,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling sad because something was not as good as expected.",
+                "text": "Տխրության զգացում, քանի որ ինչ-որ բան սպասվածի պես լավ չէր:",
                 "examples": [
-                    "She was disappointed not to get the job."
+                    "Նա հիասթափված էր աշխատանքը չստանալու համար:"
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with",
-        "comparative": "more disappointed",
-        "superlative": "the most disappointed"
+        "subtext": "հիասթափված զգալ / շատ հիասթափված",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "գեղեցիկ",
@@ -1873,7 +1873,7 @@
                 ]
             }
         ],
-        "subtext": "beautiful view / beautiful city / absolutely beautiful",
+        "subtext": "գեղեցիկ տեսարան / գեղեցիկ քաղաք",
         "comparative": "ավելի գեղեցիկ",
         "superlative": "ամենագեղեցիկ",
         "feminine": null,
@@ -1887,15 +1887,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Pleasant to look at; quite attractive.",
+                "text": "Տեսքով հաճելի; բավականին գրավիչ:",
                 "examples": [
-                    "The new meeting room is very pretty."
+                    "Նոր հանդիպումների սենյակը շատ գեղեցիկ է:"
                 ]
             }
         ],
-        "subtext": "pretty good / a pretty place / quite pretty",
-        "comparative": "prettier",
-        "superlative": "the prettiest"
+        "subtext": "բավականին լավ / գեղեցիկ վայր",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ուժեղ",
@@ -1910,7 +1910,7 @@
                 ]
             }
         ],
-        "subtext": "strong coffee / strong opinion / very strong",
+        "subtext": "թունդ սուրճ / ուժեղ կարծիք",
         "comparative": "ավելի ուժեղ",
         "superlative": "ամենաուժեղ",
         "feminine": null,
@@ -1930,7 +1930,7 @@
                 ]
             }
         ],
-        "subtext": "weak connection / a weak argument / very weak",
+        "subtext": "թույլ կապ / թույլ փաստարկ",
         "comparative": "ավելի թույլ",
         "superlative": "ամենաթույլ",
         "feminine": null,
@@ -1944,15 +1944,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "In good physical condition through exercise.",
+                "text": "Լավ ֆիզիկական վիճակում մարզումների շնորհիվ:",
                 "examples": [
-                    "She keeps fit by cycling to work every day."
+                    "Նա պահպանում է մարզավիճակը ամեն օր հեծանիվով աշխատանքի գնալով:"
                 ]
             }
         ],
-        "subtext": "physically fit / stay fit / keep fit",
-        "comparative": "fitter",
-        "superlative": "the fittest"
+        "subtext": "ֆիզիկապես լավ վիճակում / մարզված մնալ",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "գերազանց",
@@ -1961,15 +1961,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Extremely good; of a very high standard.",
+                "text": "Չափազանց լավ; շատ բարձր չափանիշի:",
                 "examples": [
                     "She received an excellent review."
                 ]
             }
         ],
-        "subtext": "excellent work / excellent results / absolutely excellent",
-        "comparative": "more excellent",
-        "superlative": "the most excellent"
+        "subtext": "գերազանց աշխատանք / գերազանց արդյունքներ",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "կատարյալ",
@@ -1984,7 +1984,7 @@
                 ]
             }
         ],
-        "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
+        "subtext": "կատարյալ հնարավորություն / կատարյալ ժամանակ",
         "comparative": "ավելի կատարյալ",
         "superlative": "ամենակատարյալ",
         "feminine": null,
@@ -2004,7 +2004,7 @@
                 ]
             }
         ],
-        "subtext": "completely useless / prove useless / a useless idea",
+        "subtext": "լիովին անօգուտ / անօգուտ գաղափար",
         "comparative": "ավելի անօգուտ",
         "superlative": "ամենաանօգուտ",
         "feminine": null,
@@ -2024,7 +2024,7 @@
                 ]
             }
         ],
-        "subtext": "correct answer / the correct way / completely correct",
+        "subtext": "ճիշտ պատասխան / լիովին ճիշտ",
         "comparative": "ավելի ճիշտ",
         "superlative": "ամենաճիշտ",
         "feminine": null,
@@ -2044,7 +2044,7 @@
                 ]
             }
         ],
-        "subtext": "find interesting / very interesting / an interesting idea",
+        "subtext": "հետաքրքիր գտնել / շատ հետաքրքիր",
         "comparative": "ավելի հետաքրքիր",
         "superlative": "ամենահետաքրքիր",
         "feminine": null,
@@ -2064,7 +2064,7 @@
                 ]
             }
         ],
-        "subtext": "very boring / a boring meeting / find boring",
+        "subtext": "շատ ձանձրալի / ձանձրալի հանդիպում",
         "comparative": "ավելի ձանձրալի",
         "superlative": "ամենաձանձրալի",
         "feminine": null,
@@ -2078,15 +2078,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Needed; required in order to do something.",
+                "text": "Անհրաժեշտ ինչ-որ բան անելու համար:",
                 "examples": [
-                    "A good internet connection is necessary for remote work."
+                    "Լավ ինտերնետ կապը անհրաժեշտ է հեռավար աշխատանքի համար:"
                 ]
             }
         ],
-        "subtext": "absolutely necessary / if necessary / necessary to do",
-        "comparative": "more necessary",
-        "superlative": "the most necessary"
+        "subtext": "բացարձակ անհրաժեշտ / եթե անհրաժեշտ է",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "հնարավոր",
@@ -2101,7 +2101,7 @@
                 ]
             }
         ],
-        "subtext": "as soon as possible / it is possible / make possible",
+        "subtext": "հնարավորինս շուտ / հնարավոր է",
         "comparative": "ավելի հնարավոր",
         "superlative": "ամենահնարավոր",
         "feminine": null,
@@ -2121,7 +2121,7 @@
                 ]
             }
         ],
-        "subtext": "virtually impossible / make impossible / nearly impossible",
+        "subtext": "գրեթե անհնար / անհնար դարձնել",
         "comparative": "ավելի անհնար",
         "superlative": "ամենաանհնար",
         "feminine": null,
@@ -2141,7 +2141,7 @@
                 ]
             }
         ],
-        "subtext": "a special offer / special occasion / very special",
+        "subtext": "հատուկ առաջարկ / հատուկ դեպք",
         "comparative": "ավելի հատուկ",
         "superlative": "ամենահատուկ",
         "feminine": null,
@@ -2155,15 +2155,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Liked by many people.",
+                "text": "Շատ մարդկանց կողմից սիրված:",
                 "examples": [
-                    "The new café near the office is very popular."
+                    "Գրասենյակի մոտ գտնվող նոր սրճարանը շատ սիրված է:"
                 ]
             }
         ],
-        "subtext": "very popular / popular choice / most popular",
-        "comparative": "more popular",
-        "superlative": "the most popular"
+        "subtext": "շատ հանրաճանաչ / հանրաճանաչ ընտրություն",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "նման",
@@ -2172,15 +2172,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Almost the same; having many shared features.",
+                "text": "Գրեթե նույնը; շատ ընդհանուր հատկանիշներ ունեցող:",
                 "examples": [
-                    "Our approaches are very similar."
+                    "Մեր մոտեցումները շատ նման են:"
                 ]
             }
         ],
-        "subtext": "very similar / similar to / similar results",
-        "comparative": "more similar",
-        "superlative": "the most similar"
+        "subtext": "շատ նման / նման ինչ-որ բանի",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ընկերական",
@@ -2189,15 +2189,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Kind and pleasant; easy to talk to.",
+                "text": "Բարի և հաճելի; հեշտ շփվող:",
                 "examples": [
-                    "The new manager is very friendly and approachable."
+                    "Նոր մենեջերը շատ ընկերասեր է և մատչելի:"
                 ]
             }
         ],
-        "subtext": "very friendly / a friendly face / friendly atmosphere",
-        "comparative": "more friendly",
-        "superlative": "the most friendly"
+        "subtext": "շատ ընկերական / ընկերական դեմք",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "բարի",
@@ -2212,7 +2212,7 @@
                 ]
             }
         ],
-        "subtext": "very kind / kind of you / a kind person",
+        "subtext": "շատ բարի / ձեր կողմից շատ բարի է",
         "comparative": "ավելի բարի",
         "superlative": "ամենաբարի",
         "feminine": null,
@@ -2232,7 +2232,7 @@
                 ]
             }
         ],
-        "subtext": "very funny / funny story / find funny",
+        "subtext": "շատ ծիծաղելի / ծիծաղելի պատմություն",
         "comparative": "ավելի ծիծաղելի",
         "superlative": "ամենածիծաղելի",
         "feminine": null,
@@ -2252,7 +2252,7 @@
                 ]
             }
         ],
-        "subtext": "very clever / a clever idea / clever enough",
+        "subtext": "շատ խելացի / խելացի գաղափար",
         "comparative": "ավելի խելացի",
         "superlative": "ամենախելացի",
         "feminine": null,
@@ -2272,7 +2272,7 @@
                 ]
             }
         ],
-        "subtext": "very polite / polite request / polite enough",
+        "subtext": "շատ քաղաքավարի / քաղաքավարի խնդրանք",
         "comparative": "ավելի քաղաքավարի",
         "superlative": "ամենաքաղաքավարի",
         "feminine": null,
@@ -2292,7 +2292,7 @@
                 ]
             }
         ],
-        "subtext": "very rude / incredibly rude / deliberately rude",
+        "subtext": "շատ կոպիտ / անհավանական կոպիտ",
         "comparative": "ավելի կոպիտ",
         "superlative": "ամենակոպիտ",
         "feminine": null,
@@ -2312,7 +2312,7 @@
                 ]
             }
         ],
-        "subtext": "very lazy / a lazy approach / too lazy",
+        "subtext": "շատ ծույլ / ծույլ մոտեցում",
         "comparative": "ավելի ծույլ",
         "superlative": "ամենածույլ",
         "feminine": null,
@@ -2326,15 +2326,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Telling the truth; not deceiving.",
+                "text": "Ճշմարտությունը խոսող; ոչ խաբող:",
                 "examples": [
-                    "She is known for being completely honest with clients."
+                    "Նա հայտնի է հաճախորդների հետ լիովին ազնիվ լինելով:"
                 ]
             }
         ],
-        "subtext": "very honest / brutally honest / completely honest",
-        "comparative": "more honest",
-        "superlative": "the most honest"
+        "subtext": "շատ ազնիվ / լիովին ազնիվ",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "աղմկոտ",
@@ -2349,7 +2349,7 @@
                 ]
             }
         ],
-        "subtext": "very noisy / noisy environment / too noisy",
+        "subtext": "շատ աղմկոտ / աղմկոտ միջավայր",
         "comparative": "ավելի աղմկոտ",
         "superlative": "ամենաաղմկոտ",
         "feminine": null,

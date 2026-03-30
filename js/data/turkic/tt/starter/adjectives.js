@@ -59,7 +59,7 @@
                 ]
             }
         ],
-        "subtext": "young person / young professional / young at heart",
+        "subtext": "яшь кеше / яшь белгеч / күңеле белән яшь",
         "comparative": null,
         "superlative": null,
         "feminine": "яшь",
@@ -81,7 +81,7 @@
                 ]
             }
         ],
-        "subtext": "old friend / old habits / very old",
+        "subtext": "карт дус / иске гадәтләр / бик карт",
         "comparative": null,
         "superlative": null,
         "feminine": "карт",
@@ -102,7 +102,7 @@
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell",
+        "subtext": "кояшлы көн / кояшлы һава торышы",
         "comparative": null,
         "superlative": null,
         "feminine": "кояшлы",
@@ -123,7 +123,7 @@
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season",
+        "subtext": "яңгырлы көн / яңгырлы һава торышы",
         "comparative": null,
         "superlative": null,
         "feminine": "яңгырлы",
@@ -138,7 +138,7 @@
         "form": "adjective",
         "opposite": "суык",
         "oppositeEmoji": "❄️",
-        "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
+        "subtext": "бик эссе / эссе һава торышы / эссе эчемлек",
         "definitions": [
             {
                 "text": "Югары температуралы.",
@@ -161,7 +161,7 @@
         "form": "adjective",
         "opposite": "эссе",
         "oppositeEmoji": "🔥",
-        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
+        "subtext": "бик суык / суык иртә / суык эчемлек",
         "definitions": [
             {
                 "text": "Түбән температуралы.",
@@ -191,7 +191,7 @@
                 ]
             }
         ],
-        "subtext": "ordinary day / ordinary life / nothing ordinary",
+        "subtext": "гади көн / гади тормыш",
         "comparative": null,
         "superlative": null,
         "feminine": "гади",
@@ -206,7 +206,7 @@
         "form": "adjective",
         "opposite": "кыйммәт",
         "oppositeEmoji": "💎",
-        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful",
+        "subtext": "арзан бәя / арзан очыш",
         "definitions": [
             {
                 "text": "Хакы түбән булган.",
@@ -229,7 +229,7 @@
         "form": "adjective",
         "opposite": "арзан",
         "oppositeEmoji": "🏷️",
-        "subtext": "costly, high price / very expensive / expensive taste / too expensive",
+        "subtext": "кыйммәтле / бик кыйммәт",
         "definitions": [
             {
                 "text": "Күп акча торган нәрсә.",
@@ -252,7 +252,7 @@
         "form": "adjective",
         "opposite": "начар",
         "oppositeEmoji": "👎",
-        "subtext": "great, nice, pleasant / good idea / good luck / good value",
+        "subtext": "яхшы идеյա / уңышлар",
         "definitions": [
             {
                 "text": "Сыйфатлы яки ошаган.",
@@ -275,7 +275,7 @@
         "form": "adjective",
         "opposite": "яхшы",
         "oppositeEmoji": "👍",
-        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
+        "subtext": "начар хәбәрләр / начар карар",
         "definitions": [
             {
                 "text": "Яхшы булмаган.",
@@ -298,7 +298,7 @@
         "form": "adjective",
         "opposite": "кечкенә",
         "oppositeEmoji": "🐭",
-        "subtext": "large, huge / a big house / a big problem / big enough",
+        "subtext": "зур йорт / зур проблема",
         "definitions": [
             {
                 "text": "Күләме зур булган.",
@@ -321,7 +321,7 @@
         "form": "adjective",
         "opposite": "зур",
         "oppositeEmoji": "🐘",
-        "subtext": "little, tiny / a small flat / a small salary / too small",
+        "subtext": "кечкенә фатир / кечкенә эш хакы",
         "definitions": [
             {
                 "text": "Күләме кечкенә булган.",
@@ -352,7 +352,7 @@
                 ]
             }
         ],
-        "subtext": "easy to do / nice and easy / not easy",
+        "subtext": "җиңел эш / бик җиңел",
         "comparative": null,
         "superlative": null,
         "feminine": "җиңел",
@@ -375,7 +375,7 @@
                 ]
             }
         ],
-        "subtext": "difficult to do / very difficult / find it difficult",
+        "subtext": "кыйын эш / бик кыйын",
         "comparative": null,
         "superlative": null,
         "feminine": "кыйын",
@@ -388,7 +388,7 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day",
+        "subtext": "бәхетле көн / шат",
         "definitions": [
             {
                 "text": "Шатлык кичергән кеше.",
@@ -409,7 +409,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
+        "subtext": "бик арыган / арыдым",
         "definitions": [
             {
                 "text": "Ял итәргә мохтаҗ.",
@@ -440,7 +440,7 @@
                 ]
             }
         ],
-        "subtext": "full-time job / full-time work / full-time employee",
+        "subtext": "тулы эш көне",
         "comparative": null,
         "superlative": null,
         "feminine": "тулы көн",
@@ -463,7 +463,7 @@
                 ]
             }
         ],
-        "subtext": "part-time job / part-time work / part-time student",
+        "subtext": "тулы булмаган эш көне",
         "comparative": null,
         "superlative": null,
         "feminine": "тулы булмаган көн",
@@ -478,7 +478,7 @@
         "form": "adjective",
         "opposite": "бысрак",
         "oppositeEmoji": "💩",
-        "subtext": "tidy, not dirty, keep it clean / clean clothes / a clean room / keep clean",
+        "subtext": "таза кием / таза бүлмә",
         "definitions": [
             {
                 "text": "Бысрак булмаган.",
@@ -499,9 +499,9 @@
         "theme": "basic_foods_A1",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
+        "opposite": "начар ризык",
         "oppositeEmoji": "🍔",
-        "subtext": "well, fit, healthy diet",
+        "subtext": "сәламәт ризык",
         "definitions": [
             {
                 "text": "Тән өчен файдалы.",
@@ -522,9 +522,9 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
+        "opposite": "яхшы",
         "oppositeEmoji": "💪",
-        "subtext": "sick, feel ill",
+        "subtext": "авырыйм",
         "definitions": [
             {
                 "text": "Сәламәт булмаган.",
@@ -545,7 +545,7 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "offline",
+        "opposite": "оффлайн",
         "oppositeEmoji": "📴",
         "definitions": [
             {
@@ -555,7 +555,7 @@
                 ]
             }
         ],
-        "subtext": "online shopping / online course / stay online",
+        "subtext": "онлайн сатып алу",
         "comparative": null,
         "superlative": null,
         "feminine": "онлайн",
@@ -568,7 +568,7 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
+        "opposite": "бергә",
         "oppositeEmoji": "👫",
         "definitions": [
             {
@@ -578,7 +578,7 @@
                 ]
             }
         ],
-        "subtext": "live alone / travel alone / feel alone",
+        "subtext": "ялгыз яшәү",
         "comparative": null,
         "superlative": null,
         "feminine": "ялгыз",
@@ -593,7 +593,7 @@
         "form": "adjective",
         "opposite": "стресслы",
         "oppositeEmoji": "😫",
-        "subtext": "calm, feeling relaxed",
+        "subtext": "тыныч булу",
         "definitions": [
             {
                 "text": "Борчылмаган.",
@@ -614,9 +614,9 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "calm",
+        "opposite": "тыныч",
         "oppositeEmoji": "😌",
-        "subtext": "anxious",
+        "subtext": "борчылу",
         "definitions": [
             {
                 "text": "Куркынычланган.",
@@ -637,7 +637,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "subtext": "very busy, busy day / busy schedule / very busy / too busy",
+        "subtext": "бик мәшгуль",
         "definitions": [
             {
                 "text": "Эше күп булган.",
@@ -660,7 +660,7 @@
         "form": "adjective",
         "opposite": "кирәксез",
         "oppositeEmoji": "🗑️",
-        "subtext": "helpful, practical",
+        "subtext": "бик файдалы",
         "definitions": [
             {
                 "text": "Кирәкле.",
@@ -681,7 +681,7 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "essential / important meeting / very important / most important",
+        "subtext": "бик мөһим",
         "definitions": [
             {
                 "text": "Зур әһәмияткә ия.",
@@ -702,7 +702,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
         "form": "adjective",
-        "subtext": "dark red, bright red / red wine / red face / red light",
+        "subtext": "кызыл шәраб / кызыл төс",
         "definitions": [
             {
                 "text": "Кан төсендәге.",
@@ -723,7 +723,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
         "form": "adjective",
-        "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
+        "subtext": "зәңгәр күк",
         "definitions": [
             {
                 "text": "Аяз күк төсендәге.",
@@ -744,7 +744,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
-        "subtext": "bright green, dark green / green energy / green space / bright green",
+        "subtext": "яшел төс",
         "definitions": [
             {
                 "text": "Үлән төсендәге.",
@@ -765,7 +765,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
         "form": "adjective",
-        "subtext": "pure white, snow white / white wine / off-white / bright white",
+        "subtext": "ак төс / ап-ак",
         "definitions": [
             {
                 "text": "Кар төсендәге.",
@@ -786,7 +786,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬛",
         "form": "adjective",
-        "subtext": "jet black, dark as night / black coffee / black market / jet black",
+        "subtext": "кара төс / кап-кара",
         "definitions": [
             {
                 "text": "Төн төсендәге.",
@@ -807,7 +807,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
-        "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
+        "subtext": "сары төс",
         "definitions": [
             {
                 "text": "Кояш төсендәге.",
@@ -828,7 +828,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "free of charge, free gift / free time / free of charge / free to do",
+        "subtext": "буш вакыт",
         "definitions": [
             {
                 "text": "Акчасыз.",
@@ -851,7 +851,7 @@
         "form": "adjective",
         "opposite": "ябык",
         "oppositeEmoji": "🔒",
-        "subtext": "now open, open for business / open door / open to ideas / wide open",
+        "subtext": "ачык ишек",
         "definitions": [
             {
                 "text": "Ябык булмаган.",
@@ -874,7 +874,7 @@
         "form": "adjective",
         "opposite": "ачык",
         "oppositeEmoji": "📖",
-        "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
+        "subtext": "ябык ишек",
         "definitions": [
             {
                 "text": "Ачык булмаган.",
@@ -893,7 +893,7 @@
         "word": "зур",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a large city / a large company / a large amount",
+        "subtext": "зур шәһәр",
         "definitions": [
             {
                 "text": "Күләме зур.",
@@ -913,7 +913,7 @@
         "word": "кечкенә",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a little bit / a little money / too little",
+        "subtext": "кечкенә генә",
         "definitions": [
             {
                 "text": "Күләме кечкенә.",
@@ -933,7 +933,7 @@
         "word": "озын",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a long journey / a long day / a long time",
+        "subtext": "озын юл",
         "definitions": [
             {
                 "text": "Озынлыгы зур.",
@@ -953,7 +953,7 @@
         "word": "биек",
         "level": "starter",
         "form": "adjective",
-        "subtext": "high price / high rent / high quality",
+        "subtext": "биек бәя",
         "definitions": [
             {
                 "text": "Биеклеге зур.",
@@ -973,7 +973,7 @@
         "word": "түбән",
         "level": "starter",
         "form": "adjective",
-        "subtext": "low price / low salary / low quality",
+        "subtext": "түбән бәя",
         "definitions": [
             {
                 "text": "Биеклеге аз.",
@@ -993,7 +993,7 @@
         "word": "тулы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "full time / a full day / full of people",
+        "subtext": "тулы бүлмә",
         "definitions": [
             {
                 "text": "Эчендә нәрсә күп булган.",
@@ -1013,7 +1013,7 @@
         "word": "буш",
         "level": "starter",
         "form": "adjective",
-        "subtext": "an empty flat / an empty room / nearly empty",
+        "subtext": "буш бүлмә",
         "definitions": [
             {
                 "text": "Эчендә нәрсә булмаган.",
@@ -1033,7 +1033,7 @@
         "word": "җылы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "warm weather / a warm welcome / keep warm",
+        "subtext": "җылы һава торышы",
         "definitions": [
             {
                 "text": "Безгә ошаган җылылык.",
@@ -1053,7 +1053,7 @@
         "word": "саф",
         "level": "starter",
         "form": "adjective",
-        "subtext": "cool weather / a cool drink / stay cool",
+        "subtext": "саф һава",
         "definitions": [
             {
                 "text": "Безгә ошаган салкынлык.",
@@ -1073,7 +1073,7 @@
         "word": "җылы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "wet weather / wet clothes / get wet",
+        "subtext": "еוועш һава торышы",
         "definitions": [
             {
                 "text": "Сулы.",
@@ -1093,7 +1093,7 @@
         "word": "коры",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dry weather / dry skin / keep dry",
+        "subtext": "коры һава",
         "definitions": [
             {
                 "text": "Сусыз.",
@@ -1113,7 +1113,7 @@
         "word": "бысрак",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dirty hands / dirty clothes / get dirty",
+        "subtext": "бысрак куллар",
         "definitions": [
             {
                 "text": "Таза булмаган.",
@@ -1132,7 +1132,7 @@
         "word": "каты",
         "level": "starter",
         "form": "adjective",
-        "subtext": "hard work / a hard decision / too hard",
+        "subtext": "каты эш",
         "definitions": [
             {
                 "text": "Йомшак булмаган.",
@@ -1152,7 +1152,7 @@
         "word": "йомшак",
         "level": "starter",
         "form": "adjective",
-        "subtext": "soft light / soft music / soft skills",
+        "subtext": "йомшак музыка",
         "definitions": [
             {
                 "text": "Каты булмаган.",
@@ -1172,7 +1172,7 @@
         "word": "авыр",
         "level": "starter",
         "form": "adjective",
-        "subtext": "heavy traffic / heavy rain / too heavy",
+        "subtext": "авыр йөк",
         "definitions": [
             {
                 "text": "Авырлыгы зур.",
@@ -1192,7 +1192,7 @@
         "word": "җиңел",
         "level": "starter",
         "form": "adjective",
-        "subtext": "light rain / light traffic / a light meal",
+        "subtext": "җиңел ризык",
         "definitions": [
             {
                 "text": "Авыр булмаган.",
@@ -1212,7 +1212,7 @@
         "word": "коңгырт",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dark brown / light brown / brown bread",
+        "subtext": "коңгырт төс",
         "definitions": [
             {
                 "text": "Агач төсендәге.",
@@ -1232,7 +1232,7 @@
         "word": "соры",
         "level": "starter",
         "form": "adjective",
-        "subtext": "grey area / grey sky / pale grey",
+        "subtext": "соры төс",
         "definitions": [
             {
                 "text": "Ак белән кара арасындагы төс.",
@@ -1252,7 +1252,7 @@
         "word": "ал",
         "level": "starter",
         "form": "adjective",
-        "subtext": "light pink / bright pink / hot pink",
+        "subtext": "ал төс",
         "definitions": [
             {
                 "text": "Ачык кызыл төс.",
@@ -1272,7 +1272,7 @@
         "word": "кызгылт сары",
         "level": "starter",
         "form": "adjective",
-        "subtext": "bright orange / dark orange / orange light",
+        "subtext": "кызгылт сары төс",
         "definitions": [
             {
                 "text": "Апельсин төсендәге.",
@@ -1292,7 +1292,7 @@
         "word": "бөек",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a great idea / a great opportunity / great value",
+        "subtext": "бөек фикер",
         "definitions": [
             {
                 "text": "Бик яхшы.",
@@ -1312,7 +1312,7 @@
         "word": "яхшы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a nice day / a nice place / a nice person",
+        "subtext": "яхшы көн",
         "definitions": [
             {
                 "text": "Күңелгә яткан.",
@@ -1332,7 +1332,7 @@
         "word": "искиткеч яхшы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a wonderful opportunity / a wonderful time",
+        "subtext": "искиткеч вакыт",
         "definitions": [
             {
                 "text": "Бик нык яхшы.",
@@ -1352,7 +1352,7 @@
         "word": "куркыныч",
         "level": "starter",
         "form": "adjective",
-        "subtext": "terrible weather / a terrible mistake / terrible news",
+        "subtext": "куркыныч хата",
         "definitions": [
             {
                 "text": "Бик начар.",
@@ -1372,7 +1372,7 @@
         "word": "бик начар",
         "level": "starter",
         "form": "adjective",
-        "subtext": "awful weather / awful news / simply awful",
+        "subtext": "бик начар һава торышы",
         "definitions": [
             {
                 "text": "Күңелсез.",
@@ -1392,7 +1392,7 @@
         "word": "гаҗәп",
         "level": "starter",
         "form": "adjective",
-        "subtext": "an amazing result / an amazing offer / truly amazing",
+        "subtext": "гаҗәп нәтиҗә",
         "definitions": [
             {
                 "text": "Таң калдыргыч.",
@@ -1412,7 +1412,7 @@
         "word": "фантастик",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
+        "subtext": "фантастик хәбәрләр",
         "definitions": [
             {
                 "text": "Искиткеч яхшы.",
@@ -1432,7 +1432,7 @@
         "word": "моңлы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sad / a sad situation / deeply sad",
+        "subtext": "күңелсез хәл",
         "definitions": [
             {
                 "text": "Күңелсез.",
@@ -1452,7 +1452,7 @@
         "word": "ач",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel hungry / very hungry / go hungry",
+        "subtext": "бик ач",
         "definitions": [
             {
                 "text": "Ашыйсы килгән.",
@@ -1472,7 +1472,7 @@
         "word": "ачулы",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel angry / angry with someone / very angry",
+        "subtext": "бик ачулы",
         "definitions": [
             {
                 "text": "Нык ачуланган.",
@@ -1492,7 +1492,7 @@
         "word": "ялыккан",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel bored / bored with / easily bored",
+        "subtext": "ялыктыргыч",
         "definitions": [
             {
                 "text": "Кызыксынуы булмаган.",
@@ -1512,7 +1512,7 @@
         "word": "дулкынланган",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel excited / excited about / very excited",
+        "subtext": "дулкынлану",
         "definitions": [
             {
                 "text": "Шатлыклы дулкынлану.",
@@ -1531,7 +1531,7 @@
         "word": "курыккан",
         "level": "starter",
         "form": "adjective",
-        "subtext": "afraid of / feel afraid / deeply afraid",
+        "subtext": "курку",
         "definitions": [
             {
                 "text": "Курку белдерү.",
@@ -1551,7 +1551,7 @@
         "word": "үкенечле",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sorry / sorry for / sorry about",
+        "subtext": "үкенү",
         "definitions": [
             {
                 "text": "Үкенеч белдерү.",
@@ -1571,7 +1571,7 @@
         "word": "дөрес",
         "level": "starter",
         "form": "adjective",
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "дөрес җавап",
         "definitions": [
             {
                 "text": "Хатасыз.",
@@ -1591,7 +1591,7 @@
         "word": "хата",
         "level": "starter",
         "form": "adjective",
-        "subtext": "wrong answer / go wrong / completely wrong",
+        "subtext": "хата җавап",
         "definitions": [
             {
                 "text": "Дөрес булмаган.",
@@ -1611,7 +1611,7 @@
         "word": "яңа",
         "level": "starter",
         "form": "adjective",
-        "subtext": "new job / brand new / completely new",
+        "subtext": "яңа эш",
         "definitions": [
             {
                 "text": "Элек булмаган.",
@@ -1631,7 +1631,7 @@
         "word": "башка",
         "level": "starter",
         "form": "adjective",
-        "subtext": "completely different / very different / different from",
+        "subtext": "бөтенләй башка",
         "definitions": [
             {
                 "text": "Ошамаган.",
@@ -1651,7 +1651,7 @@
         "word": "бер үк",
         "level": "starter",
         "form": "adjective",
-        "subtext": "the same as / exactly the same / same time",
+        "subtext": "нәкъ шундый ук",
         "definitions": [
             {
                 "text": "Ошаш.",
@@ -1671,7 +1671,7 @@
         "word": "тиз",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fast food / fast train / very fast",
+        "subtext": "тиз ризык",
         "definitions": [
             {
                 "text": "Тиз хәрәкәт иткән.",
@@ -1691,7 +1691,7 @@
         "word": "акрын",
         "level": "starter",
         "form": "adjective",
-        "subtext": "slow progress / slow internet / very slow",
+        "subtext": "акрын интернет",
         "definitions": [
             {
                 "text": "Тиз булмаган.",
@@ -1711,7 +1711,7 @@
         "word": "тыныч",
         "level": "starter",
         "form": "adjective",
-        "subtext": "quiet area / keep quiet / nice and quiet",
+        "subtext": "тыныч урын",
         "definitions": [
             {
                 "text": "Тавышсыз.",
@@ -1731,7 +1731,7 @@
         "word": "каты",
         "level": "starter",
         "form": "adjective",
-        "subtext": "loud noise / too loud / a loud voice",
+        "subtext": "каты тавыш",
         "definitions": [
             {
                 "text": "Тавышлы.",
@@ -1751,7 +1751,7 @@
         "word": "куркынычсыз",
         "level": "starter",
         "form": "adjective",
-        "subtext": "safe area / safe to do / feel safe",
+        "subtext": "куркынычсыз урын",
         "definitions": [
             {
                 "text": "Куркынычсыз.",
@@ -1771,7 +1771,7 @@
         "word": "куркыныч",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dangerous situation / very dangerous / potentially dangerous",
+        "subtext": "куркыныч хәл",
         "definitions": [
             {
                 "text": "Зыян китерүе ихтимал.",
@@ -1800,7 +1800,7 @@
                 ]
             }
         ],
-        "subtext": "feel unhappy / very unhappy / unhappy about",
+        "subtext": "бәхетсез булу",
         "comparative": null,
         "superlative": null,
         "feminine": "бәхетсез",
@@ -1820,7 +1820,7 @@
                 ]
             }
         ],
-        "subtext": "feel nervous / nervous about / very nervous",
+        "subtext": "дулкынлану",
         "comparative": null,
         "superlative": null,
         "feminine": "дулкынланган",
@@ -1840,7 +1840,7 @@
                 ]
             }
         ],
-        "subtext": "feel stressed / very stressed / stressed out",
+        "subtext": "стресс",
         "comparative": null,
         "superlative": null,
         "feminine": "стресслы",
@@ -1860,7 +1860,7 @@
                 ]
             }
         ],
-        "subtext": "feel confident / self-confident / very confident",
+        "subtext": "үзеңә ышаныч",
         "comparative": null,
         "superlative": null,
         "feminine": "үзенә ышанган",
@@ -1880,7 +1880,7 @@
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of",
+        "subtext": "горурлык",
         "comparative": null,
         "superlative": null,
         "feminine": "горур",
@@ -1900,7 +1900,7 @@
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared",
+        "subtext": "куркыту",
         "comparative": null,
         "superlative": null,
         "feminine": "курыккан",
@@ -1920,7 +1920,7 @@
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised",
+        "subtext": "гаҗәпләнү",
         "comparative": null,
         "superlative": null,
         "feminine": "гаҗәпләнгән",
@@ -1940,7 +1940,7 @@
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with",
+        "subtext": "күңел кайту",
         "comparative": null,
         "superlative": null,
         "feminine": "күңеле кайткан",
@@ -1960,7 +1960,7 @@
                 ]
             }
         ],
-        "subtext": "beautiful view / beautiful city / absolutely beautiful",
+        "subtext": "матур күренеш",
         "comparative": null,
         "superlative": null,
         "feminine": "матур",
@@ -1980,7 +1980,7 @@
                 ]
             }
         ],
-        "subtext": "pretty good / a pretty place / quite pretty",
+        "subtext": "күркәм бүлмә",
         "comparative": null,
         "superlative": null,
         "feminine": "күркәм",
@@ -2000,7 +2000,7 @@
                 ]
             }
         ],
-        "subtext": "strong coffee / strong opinion / very strong",
+        "subtext": "көчле рух",
         "comparative": null,
         "superlative": null,
         "feminine": "көчле",
@@ -2020,7 +2020,7 @@
                 ]
             }
         ],
-        "subtext": "weak connection / a weak argument / very weak",
+        "subtext": "көчсез сигнал",
         "comparative": null,
         "superlative": null,
         "feminine": "көчсез",
@@ -2040,7 +2040,7 @@
                 ]
             }
         ],
-        "subtext": "physically fit / stay fit / keep fit",
+        "subtext": "яхшы формада",
         "comparative": null,
         "superlative": null,
         "feminine": "таза",
@@ -2060,7 +2060,7 @@
                 ]
             }
         ],
-        "subtext": "excellent work / excellent results / absolutely excellent",
+        "subtext": "бик яхшы эш",
         "comparative": null,
         "superlative": null,
         "feminine": "бик яхшы",
@@ -2080,7 +2080,7 @@
                 ]
             }
         ],
-        "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
+        "subtext": "камил вакыт",
         "comparative": null,
         "superlative": null,
         "feminine": "камил",
@@ -2100,7 +2100,7 @@
                 ]
             }
         ],
-        "subtext": "completely useless / prove useless / a useless idea",
+        "subtext": "бөтенләй кирәксез",
         "comparative": null,
         "superlative": null,
         "feminine": "кирәксез",
@@ -2120,7 +2120,7 @@
                 ]
             }
         ],
-        "subtext": "correct answer / the correct way / completely correct",
+        "subtext": "дөрес юл",
         "comparative": null,
         "superlative": null,
         "feminine": "дөрес",
@@ -2140,7 +2140,7 @@
                 ]
             }
         ],
-        "subtext": "find interesting / very interesting / an interesting idea",
+        "subtext": "бик кызыклы",
         "comparative": null,
         "superlative": null,
         "feminine": "кызыклы",
@@ -2160,7 +2160,7 @@
                 ]
             }
         ],
-        "subtext": "very boring / a boring meeting / find boring",
+        "subtext": "бик кызыксыз",
         "comparative": null,
         "superlative": null,
         "feminine": "кызыксыз",
@@ -2180,7 +2180,7 @@
                 ]
             }
         ],
-        "subtext": "absolutely necessary / if necessary / necessary to do",
+        "subtext": "бик кирәкле",
         "comparative": null,
         "superlative": null,
         "feminine": "кирәкле",
@@ -2200,7 +2200,7 @@
                 ]
             }
         ],
-        "subtext": "as soon as possible / it is possible / make possible",
+        "subtext": "мөмкин кадәр тизрәк",
         "comparative": null,
         "superlative": null,
         "feminine": "мөмкин",
@@ -2220,7 +2220,7 @@
                 ]
             }
         ],
-        "subtext": "virtually impossible / make impossible / nearly impossible",
+        "subtext": "мөмкин түгел",
         "comparative": null,
         "superlative": null,
         "feminine": "мөмкин түгел",
@@ -2240,7 +2240,7 @@
                 ]
             }
         ],
-        "subtext": "a special offer / special occasion / very special",
+        "subtext": "үзенчәлекле талант",
         "comparative": null,
         "superlative": null,
         "feminine": "үзенчәлекле",
@@ -2260,7 +2260,7 @@
                 ]
             }
         ],
-        "subtext": "very popular / popular choice / most popular",
+        "subtext": "бик популяр",
         "comparative": null,
         "superlative": null,
         "feminine": "популяр",
@@ -2280,7 +2280,7 @@
                 ]
             }
         ],
-        "subtext": "very similar / similar to / similar results",
+        "subtext": "бик ошаш",
         "comparative": null,
         "superlative": null,
         "feminine": "ошаш",
@@ -2300,7 +2300,7 @@
                 ]
             }
         ],
-        "subtext": "very friendly / a friendly face / friendly atmosphere",
+        "subtext": "бик дусларча",
         "comparative": null,
         "superlative": null,
         "feminine": "дусларча",
@@ -2320,7 +2320,7 @@
                 ]
             }
         ],
-        "subtext": "very kind / kind of you / a kind person",
+        "subtext": "бик мәрхәмәтле",
         "comparative": null,
         "superlative": null,
         "feminine": "мәрхәмәтле",
@@ -2340,7 +2340,7 @@
                 ]
             }
         ],
-        "subtext": "very funny / funny story / find funny",
+        "subtext": "бик көлкеле",
         "comparative": null,
         "superlative": null,
         "feminine": "көлкеле",
@@ -2360,7 +2360,7 @@
                 ]
             }
         ],
-        "subtext": "very clever / a clever idea / clever enough",
+        "subtext": "бик акыллы",
         "comparative": null,
         "superlative": null,
         "feminine": "акыллы",
@@ -2380,7 +2380,7 @@
                 ]
             }
         ],
-        "subtext": "very polite / polite request / polite enough",
+        "subtext": "бик әдәпле",
         "comparative": null,
         "superlative": null,
         "feminine": "әдәпле",
@@ -2400,7 +2400,7 @@
                 ]
             }
         ],
-        "subtext": "very rude / incredibly rude / deliberately rude",
+        "subtext": "бик тупас",
         "comparative": null,
         "superlative": null,
         "feminine": "тупас",
@@ -2420,7 +2420,7 @@
                 ]
             }
         ],
-        "subtext": "very lazy / a lazy approach / too lazy",
+        "subtext": "бик ялкау",
         "comparative": null,
         "superlative": null,
         "feminine": "ялкау",
@@ -2440,7 +2440,7 @@
                 ]
             }
         ],
-        "subtext": "very honest / brutally honest / completely honest",
+        "subtext": "бик намуслы",
         "comparative": null,
         "superlative": null,
         "feminine": "намуслы",
@@ -2460,7 +2460,7 @@
                 ]
             }
         ],
-        "subtext": "very noisy / noisy environment / too noisy",
+        "subtext": "бик шау-шулы",
         "comparative": null,
         "superlative": null,
         "feminine": "шау-шулы",

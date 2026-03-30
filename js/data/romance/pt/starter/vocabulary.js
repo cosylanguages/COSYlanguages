@@ -9,7 +9,7 @@
         "definitions": [
             {
                 "text": "Pessoa que ajuda os doentes.",
-                "examples": []
+                "examples": ["O médico trabalha no hospital."]
             }
         ],
         "article": "o",
@@ -24,7 +24,7 @@
         "definitions": [
             {
                 "text": "Parte do corpo na base da perna.",
-                "examples": []
+                "examples": ["O meu pé dói."]
             }
         ],
         "article": "o",
@@ -39,7 +39,7 @@
         "definitions": [
             {
                 "text": "Pessoa que ajuda a aprender.",
-                "examples": []
+                "examples": ["O professor está na sala de aula."]
             }
         ],
         "article": "o",
@@ -54,7 +54,7 @@
         "definitions": [
             {
                 "text": "Pão achatado com queijo e tomate.",
-                "examples": []
+                "examples": ["Eu gosto de pizza com queijo."]
             }
         ],
         "article": "a",
@@ -69,7 +69,7 @@
         "definitions": [
             {
                 "text": "Alimento feito de farinha e ovos.",
-                "examples": []
+                "examples": ["Comemos massa hoje."]
             }
         ],
         "article": "a",
@@ -84,7 +84,7 @@
         "definitions": [
             {
                 "text": "Fruta redonda, vermelha ou verde.",
-                "examples": []
+                "examples": ["A maçã é vermelha."]
             }
         ],
         "article": "a",
@@ -99,7 +99,7 @@
         "definitions": [
             {
                 "text": "Alimento comum de farinha e água.",
-                "examples": []
+                "examples": ["Compro pão todas as manhãs."]
             }
         ],
         "article": "o",
@@ -114,7 +114,7 @@
         "definitions": [
             {
                 "text": "Objeto oval posto por uma galinha.",
-                "examples": []
+                "examples": ["Um ovo para o pequeno-almoço."]
             }
         ],
         "article": "o",
@@ -129,7 +129,7 @@
         "definitions": [
             {
                 "text": "Líquido branco das vacas.",
-                "examples": []
+                "examples": ["Bebo leite frio."]
             }
         ],
         "article": "o",
@@ -144,7 +144,7 @@
         "definitions": [
             {
                 "text": "Fruta amarela longa.",
-                "examples": []
+                "examples": ["A banana é amarela."]
             }
         ],
         "article": "a",
@@ -159,7 +159,7 @@
         "definitions": [
             {
                 "text": "Bebida castanha quente.",
-                "examples": []
+                "examples": ["Tomo café sem açúcar."]
             }
         ],
         "article": "o",
@@ -174,7 +174,7 @@
         "definitions": [
             {
                 "text": "Bebida quente de folhas.",
-                "examples": []
+                "examples": ["Um chá quente, por favor."]
             }
         ],
         "article": "o",
@@ -204,7 +204,7 @@
         "definitions": [
             {
                 "text": "Lugar onde as crianças aprendem.",
-                "examples": []
+                "examples": ["A escola abre às oito."]
             }
         ],
         "article": "a",
@@ -219,7 +219,7 @@
         "definitions": [
             {
                 "text": "Camisa casual de manga curta.",
-                "examples": []
+                "examples": ["Uso uma t-shirt azul."]
             }
         ],
         "article": "a",
@@ -234,7 +234,7 @@
         "definitions": [
             {
                 "text": "Roupa para as pernas.",
-                "examples": []
+                "examples": ["Estas calças são novas."]
             }
         ],
         "article": "as",
@@ -264,7 +264,7 @@
         "definitions": [
             {
                 "text": "Algo que se usa na cabeça.",
-                "examples": []
+                "examples": ["Ela usa um chapéu para o sol."]
             }
         ],
         "article": "o",
@@ -279,7 +279,7 @@
         "definitions": [
             {
                 "text": "Móvel para uma pessoa se sentar.",
-                "examples": []
+                "examples": ["Senta-te nesta cadeira."]
             }
         ],
         "article": "a",
@@ -294,7 +294,7 @@
         "definitions": [
             {
                 "text": "Móvel com quatro pernas.",
-                "examples": []
+                "examples": ["O livro está em cima da mesa."]
             }
         ],
         "article": "a",
@@ -309,7 +309,7 @@
         "definitions": [
             {
                 "text": "Móvel onde se dorme.",
-                "examples": []
+                "examples": ["A cama é muito grande."]
             }
         ],
         "article": "a",
@@ -324,7 +324,7 @@
         "definitions": [
             {
                 "text": "Objeto de metal para abrir portas.",
-                "examples": []
+                "examples": ["Perdi a minha chave."]
             }
         ],
         "article": "a",
@@ -339,7 +339,7 @@
         "definitions": [
             {
                 "text": "Dispositivo para falar com pessoas.",
-                "examples": []
+                "examples": ["O meu telefone não funciona."]
             }
         ],
         "article": "o",
@@ -369,7 +369,7 @@
         "definitions": [
             {
                 "text": "Recipiente para carregar coisas.",
-                "examples": []
+                "examples": ["Levo as minhas coisas na mala."]
             }
         ],
         "article": "a",
@@ -429,7 +429,7 @@
         "definitions": [
             {
                 "text": "Parte do braço com dedos.",
-                "examples": []
+                "examples": ["Lava as mãos."]
             }
         ],
         "article": "a",
@@ -444,7 +444,7 @@
         "definitions": [
             {
                 "text": "Parte do corpo para caminhar.",
-                "examples": []
+                "examples": ["Ela tem pernas longas."]
             }
         ],
         "article": "a",
@@ -459,7 +459,7 @@
         "definitions": [
             {
                 "text": "Parte do corpo para ver.",
-                "examples": []
+                "examples": ["Ele tem olhos verdes."]
             }
         ],
         "article": "o",
@@ -474,7 +474,7 @@
         "definitions": [
             {
                 "text": "Parte do rosto para cheirar.",
-                "examples": []
+                "examples": ["Respiramos pelo nariz."]
             }
         ],
         "article": "o",
@@ -489,7 +489,7 @@
         "definitions": [
             {
                 "text": "Parte do rosto para comer.",
-                "examples": []
+                "examples": ["Abre a boca."]
             }
         ],
         "article": "a",
@@ -504,7 +504,7 @@
         "definitions": [
             {
                 "text": "Parte do corpo para ouvir.",
-                "examples": []
+                "examples": ["Ouvimos com as orelhas."]
             }
         ],
         "article": "a",
@@ -519,7 +519,7 @@
         "definitions": [
             {
                 "text": "Mulher que é mãe.",
-                "examples": []
+                "examples": ["A mulher lê o jornal."]
             }
         ],
         "article": "a",
@@ -534,7 +534,7 @@
         "definitions": [
             {
                 "text": "Homem que é pai.",
-                "examples": []
+                "examples": ["Aquele homem é o meu tio."]
             }
         ],
         "article": "o",
@@ -549,7 +549,7 @@
         "definitions": [
             {
                 "text": "Emprego; lugar para ganhar dinheiro.",
-                "examples": []
+                "examples": ["Procuro um emprego novo."]
             }
         ],
         "article": "o",
@@ -564,7 +564,7 @@
         "definitions": [
             {
                 "text": "O lugar onde se vive.",
-                "examples": []
+                "examples": ["Volto para casa tarde."]
             }
         ],
         "article": "a",
@@ -579,7 +579,7 @@
         "definitions": [
             {
                 "text": "Veículo de quatro rodas.",
-                "examples": []
+                "examples": ["Conduzo um carro vermelho."]
             }
         ],
         "article": "o",
@@ -594,7 +594,7 @@
         "definitions": [
             {
                 "text": "Veículo grande para muitas pessoas.",
-                "examples": []
+                "examples": ["O autocarro chega cedo."]
             }
         ],
         "article": "o",
@@ -669,7 +669,7 @@
         "definitions": [
             {
                 "text": "Pessoa de quem se gosta.",
-                "examples": []
+                "examples": ["Ele é o meu melhor amigo."]
             }
         ],
         "article": "o",
@@ -699,7 +699,7 @@
         "definitions": [
             {
                 "text": "Período de sete dias.",
-                "examples": []
+                "examples": ["Hoje é um bom dia."]
             }
         ],
         "article": "a",
@@ -714,7 +714,7 @@
         "definitions": [
             {
                 "text": "Coisas que as pessoas comem.",
-                "examples": []
+                "examples": ["El almoço está pronto."]
             }
         ],
         "article": "a",
@@ -759,7 +759,7 @@
         "definitions": [
             {
                 "text": "Refeição principal da noite.",
-                "examples": []
+                "examples": ["Jantamos às oito."]
             }
         ],
         "article": "o",
@@ -774,7 +774,7 @@
         "definitions": [
             {
                 "text": "Parte do dia antes do meio-dia.",
-                "examples": []
+                "examples": ["Está frio esta manhã."]
             }
         ],
         "article": "a",
@@ -789,7 +789,7 @@
         "definitions": [
             {
                 "text": "Parte do dia depois da tarde.",
-                "examples": []
+                "examples": ["Saímos à noite."]
             }
         ],
         "article": "a",

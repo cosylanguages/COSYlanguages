@@ -59,7 +59,7 @@
                 ]
             }
         ],
-        "subtext": "young person / young professional / young at heart",
+        "subtext": "ახალგაზრდა ადამიანი / ახალგაზრდა პროფესიონალი / გულით ახალგაზრდა",
         "comparative": "უფრო ახალგაზრდა",
         "superlative": "ყველაზე ახალგაზრდა",
         "feminine": null,
@@ -81,7 +81,7 @@
                 ]
             }
         ],
-        "subtext": "old friend / old habits / very old",
+        "subtext": "ძველი მეგობარი / ძველი ჩვევები / ძალიან ძველი",
         "comparative": "უფრო ძველი",
         "superlative": "ყველაზე ძველი",
         "feminine": null,
@@ -102,7 +102,7 @@
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell",
+        "subtext": "მზიანი დღე / მზიანი ამინდი / მზიანი პერიოდი",
         "comparative": "უფრო მზიანი",
         "superlative": "ყველაზე მზიანი",
         "feminine": null,
@@ -123,7 +123,7 @@
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season",
+        "subtext": "წვიმიანი დღე / წვიმიანი ამინდი / წვიმების სეზონი",
         "comparative": "უფრო წვიმიანი",
         "superlative": "ყველაზე წვიმიანი",
         "feminine": null,
@@ -138,7 +138,7 @@
         "form": "adjective",
         "opposite": "ცივი",
         "oppositeEmoji": "❄️",
-        "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
+        "subtext": "ცხელი ამინდი / ცხელი სასმელი / ძალიან ცხელი",
         "definitions": [
             {
                 "text": "მაღალი ტემპერატურის მქონე:",
@@ -161,7 +161,7 @@
         "form": "adjective",
         "opposite": "ცხელი",
         "oppositeEmoji": "🔥",
-        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
+        "subtext": "ძალიან ცივი / ცივი დილა / ცივი სასმელი",
         "definitions": [
             {
                 "text": "დაბალი ტემპერატურის მქონე:",
@@ -185,15 +185,15 @@
         "oppositeEmoji": "✨",
         "definitions": [
             {
-                "text": "Normal or usual; not special.",
+                "text": "ჩვეულებრივი ან ნორმალური; არა სპეციალური:",
                 "examples": [
-                    "It was an ordinary day."
+                    "ეს ჩვეულებრივი დღე იყო."
                 ]
             }
         ],
-        "subtext": "ordinary day / ordinary life / nothing ordinary",
-        "comparative": "more ordinary",
-        "superlative": "the most ordinary"
+        "subtext": "ჩვეულებრივი დღე / ჩვეულებრივი ცხოვრება",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "იაფი",
@@ -203,7 +203,7 @@
         "form": "adjective",
         "opposite": "ძვირი",
         "oppositeEmoji": "💎",
-        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful",
+        "subtext": "დაბალი ფასი / იაფი ფრენა / ძალიან იაფი",
         "definitions": [
             {
                 "text": "ცოტა ფული რომ ღირს:",
@@ -226,7 +226,7 @@
         "form": "adjective",
         "opposite": "იაფი",
         "oppositeEmoji": "🏷️",
-        "subtext": "costly, high price / very expensive / expensive taste / too expensive",
+        "subtext": "ძვირი ფასი / ძალიან ძვირი / ძვირი სიამოვნება",
         "definitions": [
             {
                 "text": "ბევრი ფული რომ ღირს:",
@@ -249,7 +249,7 @@
         "form": "adjective",
         "opposite": "ცუდი",
         "oppositeEmoji": "👎",
-        "subtext": "great, nice, pleasant / good idea / good luck / good value",
+        "subtext": "დიდებული / კარგი იდეა / წარმატება / კარგი ფასი",
         "definitions": [
             {
                 "text": "მაღალი ხარისხის ან სასიამოვნო:",
@@ -272,7 +272,7 @@
         "form": "adjective",
         "opposite": "კარგი",
         "oppositeEmoji": "👍",
-        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
+        "subtext": "საშინელი / ცუდი ამბები / უიღბლობა / ცუდი გადაწყვეტილება",
         "definitions": [
             {
                 "text": "არა კარგი, დაბალი ხარისხის:",
@@ -295,7 +295,7 @@
         "form": "adjective",
         "opposite": "პატარა",
         "oppositeEmoji": "🐭",
-        "subtext": "large, huge / a big house / a big problem / big enough",
+        "subtext": "დიდი სახლი / დიდი პრობლემა / საკმარისად დიდი",
         "definitions": [
             {
                 "text": "დიდი ზომის ან რაოდენობის:",
@@ -318,7 +318,7 @@
         "form": "adjective",
         "opposite": "დიდი",
         "oppositeEmoji": "🐘",
-        "subtext": "little, tiny / a small flat / a small salary / too small",
+        "subtext": "პატარა ბინა / პატარა ხელფასი / ძალიან პატარა",
         "definitions": [
             {
                 "text": "პატარა ზომის ან რაოდენობის:",
@@ -349,7 +349,7 @@
                 ]
             }
         ],
-        "subtext": "easy to do / nice and easy / not easy",
+        "subtext": "ადვილად გასაკეთებელი / ძალიან ადვილი / არ არის ადვილი",
         "comparative": "უფრო ადვილი",
         "superlative": "ყველაზე ადვილი",
         "feminine": null,
@@ -372,7 +372,7 @@
                 ]
             }
         ],
-        "subtext": "difficult to do / very difficult / find it difficult",
+        "subtext": "რთულად გასაკეთებელი / ძალიან რთული",
         "comparative": "უფრო რთული",
         "superlative": "ყველაზე რთული",
         "feminine": null,
@@ -385,7 +385,7 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day",
+        "subtext": "ბედნიერი / ბედნიერად ყოფნა / ბედნიერი დღე",
         "definitions": [
             {
                 "text": "სიხარულის ან კმაყოფილების განცდა:",
@@ -406,7 +406,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
+        "subtext": "მძინარე / დაღლილად ყოფნა / ძალიან დაღლილი",
         "definitions": [
             {
                 "text": "დასვენების საჭიროების მქონე:",
@@ -422,42 +422,42 @@
         "femininePlural": null
     },
     {
-        "word": "full-time",
+        "word": "სრული განაკვეთი",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "part-time",
+        "opposite": "ნახევარი განაკვეთი",
         "oppositeEmoji": "⏳",
         "definitions": [
             {
-                "text": "Working the complete number of hours in a working week.",
+                "text": "სამუშაო კვირის ყველა საათის განმავლობაში მუშაობა:",
                 "examples": [
-                    "She has a full-time job in a bank."
+                    "მას სრული განაკვეთით სამუშაო აქვს ბანკში:"
                 ]
             }
         ],
-        "subtext": "full-time job / full-time work / full-time employee",
+        "subtext": "სრული განაკვეთით მუშაობა",
         "comparative": null,
         "superlative": null
     },
     {
-        "word": "part-time",
+        "word": "ნახევარი განაკვეთი",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "full-time",
+        "opposite": "სრული განაკვეთი",
         "oppositeEmoji": "⏰",
         "definitions": [
             {
-                "text": "Working fewer hours than a standard working week.",
+                "text": "სამუშაო კვირის არა ყველა საათის განმავლობაში მუშაობა:",
                 "examples": [
-                    "He works part-time on Saturdays."
+                    "შაბათობით ნახევარ განაკვეთზე მუშაობს:"
                 ]
             }
         ],
-        "subtext": "part-time job / part-time work / part-time student",
+        "subtext": "ნახევარი განაკვეთით მუშაობა",
         "comparative": null,
         "superlative": null
     },
@@ -469,7 +469,7 @@
         "form": "adjective",
         "opposite": "ჭუჭყიანი",
         "oppositeEmoji": "💩",
-        "subtext": "tidy, not dirty, keep it clean / clean clothes / a clean room / keep clean",
+        "subtext": "სუფთა ტანსაცმელი / სუფთა ოთახი / სისუფთავის დაცვა",
         "definitions": [
             {
                 "text": "ჭუჭყის გარეშე:",
@@ -490,9 +490,9 @@
         "theme": "basic_foods_A1",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
+        "opposite": "არაჯანსაღი",
         "oppositeEmoji": "🍔",
-        "subtext": "well, fit, healthy diet",
+        "subtext": "ჯანსაღი კვება / ჯანსაღი ცხოვრების წესი",
         "definitions": [
             {
                 "text": "კარგი ჯანმრთელობის მქონე:",
@@ -513,19 +513,19 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
+        "opposite": "ჯანმრთელი",
         "oppositeEmoji": "💪",
-        "subtext": "sick, feel ill",
+        "subtext": "ავადმყოფად ყოფნა",
         "definitions": [
             {
-                "text": "Not well; sick.",
+                "text": "არა ჯანსაღი; ავადმყოფი:",
                 "examples": [
-                    "I feel ill today."
+                    "დღეს თავს შეუძლოდ ვგრძნობ:"
                 ]
             }
         ],
-        "comparative": "iller",
-        "superlative": "the illest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ონლაინ",
@@ -533,19 +533,19 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "offline",
+        "opposite": "ხაზგარეშე",
         "oppositeEmoji": "📴",
         "definitions": [
             {
-                "text": "Using the internet.",
+                "text": "ინტერნეტის გამოყენებით:",
                 "examples": [
                     "I buy food online sometimes."
                 ]
             }
         ],
-        "subtext": "online shopping / online course / stay online",
-        "comparative": "more online",
-        "superlative": "the most online"
+        "subtext": "ონლაინ შოპინგი / ონლაინ კურსი",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "მარტო",
@@ -553,19 +553,19 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
+        "opposite": "ერთად",
         "oppositeEmoji": "👫",
         "definitions": [
             {
-                "text": "Without other people; by yourself.",
+                "text": "სხვა ადამიანების გარეშე; დამოუკიდებლად:",
                 "examples": [
                     "She lives alone."
                 ]
             }
         ],
-        "subtext": "live alone / travel alone / feel alone",
-        "comparative": "more alone",
-        "superlative": "the most alone"
+        "subtext": "მარტო ცხოვრება / მარტო მოგზაურობა",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "მოდუნებული",
@@ -573,19 +573,19 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "stressed",
+        "opposite": "დასტრესილი",
         "oppositeEmoji": "😫",
-        "subtext": "calm, feeling relaxed",
+        "subtext": "წყნარად ყოფნა / მოდუნებული",
         "definitions": [
             {
-                "text": "Calm; not worried or stressed.",
+                "text": "წყნარი; არა შეშფოთებული ან დასტრესილი:",
                 "examples": [
-                    "I feel relaxed at the weekend."
+                    "დასვენების დღეებში თავს მშვიდად ვგრძნობ:"
                 ]
             }
         ],
-        "comparative": "more relaxed",
-        "superlative": "the most relaxed"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "შეწუხებული",
@@ -593,19 +593,19 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "calm",
+        "opposite": "წყნარი",
         "oppositeEmoji": "😌",
-        "subtext": "anxious",
+        "subtext": "შეშფოთება",
         "definitions": [
             {
-                "text": "Feeling anxious about something that might happen.",
+                "text": "შეშფოთების განცდა რაღაცის გამო:",
                 "examples": [
-                    "She is worried about her job."
+                    "თავის სამსახურზე ნერვიულობს:"
                 ]
             }
         ],
-        "comparative": "more worried",
-        "superlative": "the most worried"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "დაკავებული",
@@ -613,7 +613,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "subtext": "very busy, busy day / busy schedule / very busy / too busy",
+        "subtext": "დაკავებული დღე / დატვირთული გრაფიკი",
         "definitions": [
             {
                 "text": "ბევრი საქმის მქონე:",
@@ -636,7 +636,7 @@
         "form": "adjective",
         "opposite": "უსარგებლო",
         "oppositeEmoji": "🗑️",
-        "subtext": "helpful, practical",
+        "subtext": "პრაქტიკული / სასარგებლო ყოფნა",
         "definitions": [
             {
                 "text": "სარგებლის მომტანი:",
@@ -657,7 +657,7 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "essential / important meeting / very important / most important",
+        "subtext": "მნიშვნელოვანი შეხვედრა / ძალიან მნიშვნელოვანი",
         "definitions": [
             {
                 "text": "დიდი მნიშვნელობის მქონე:",
@@ -678,23 +678,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
         "form": "adjective",
-        "subtext": "dark red, bright red / red wine / red face / red light",
+        "subtext": "წითელი ღვინო / წითელი შუქი",
         "definitions": [
             {
-                "text": "Having the colour of blood or a ripe tomato.",
+                "text": "სისხლის ან მწიფე პომიდვრის ფერი:",
                 "examples": [
                     "She has a red bag."
                 ]
             },
             {
-                "text": "Having the colour of blood.",
+                "text": "სისხლის ფერი:",
                 "examples": [
                     "She drives a red car."
                 ]
             }
         ],
-        "comparative": "redder",
-        "superlative": "the reddest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ლურჯი",
@@ -702,23 +702,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
         "form": "adjective",
-        "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
+        "subtext": "ლურჯი ცა",
         "definitions": [
             {
-                "text": "Having the colour of a clear sky.",
+                "text": "მოწმენდილი ცის ფერი:",
                 "examples": [
-                    "His car is blue."
+                    "მისი მანქანა ლურჯია:"
                 ]
             },
             {
-                "text": "Having the colour of the sky.",
+                "text": "ცის ფერი:",
                 "examples": [
-                    "He wears a blue shirt to work."
+                    "სამსახურში ლურჯ პერანგს ატარებს:"
                 ]
             }
         ],
-        "comparative": "bluer",
-        "superlative": "the bluest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "მწვანე",
@@ -726,23 +726,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
-        "subtext": "bright green, dark green / green energy / green space / bright green",
+        "subtext": "მწვანე სივრცე",
         "definitions": [
             {
-                "text": "Having the colour of grass or leaves.",
+                "text": "ბალახის ან ფოთლების ფერი:",
                 "examples": [
                     "She wears a green dress."
                 ]
             },
             {
-                "text": "Having the colour of grass.",
+                "text": "ბალახის ფერი:",
                 "examples": [
-                    "The company has green credentials."
+                    "კომპანიას აქვს ეკოლოგიური მახასიათებლები:"
                 ]
             }
         ],
-        "comparative": "greener",
-        "superlative": "the greenest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "თეთრი",
@@ -750,23 +750,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
         "form": "adjective",
-        "subtext": "pure white, snow white / white wine / off-white / bright white",
+        "subtext": "თეთრი ღვინო",
         "definitions": [
             {
-                "text": "Having the colour of snow or milk.",
+                "text": "თოვლის ან რძის ფერი:",
                 "examples": [
-                    "The walls are white."
+                    "კედლები თეთრია:"
                 ]
             },
             {
-                "text": "Having the lightest colour.",
+                "text": "ყველაზე ღია ფერი:",
                 "examples": [
-                    "The office walls are painted white."
+                    "ოფისის კედლები თეთრადაა შეღებილი:"
                 ]
             }
         ],
-        "comparative": "whiter",
-        "superlative": "the whitest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "შავი",
@@ -774,23 +774,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬛",
         "form": "adjective",
-        "subtext": "jet black, dark as night / black coffee / black market / jet black",
+        "subtext": "შავი ყავა",
         "definitions": [
             {
-                "text": "Having the darkest colour, like the night sky.",
+                "text": "ყველაზე მუქი ფერი, როგორც ღამის ცა:",
                 "examples": [
                     "He wears a black coat."
                 ]
             },
             {
-                "text": "Having the darkest colour.",
+                "text": "ყველაზე მუქი ფერი:",
                 "examples": [
                     "He always wears a black suit."
                 ]
             }
         ],
-        "comparative": "blacker",
-        "superlative": "the blackest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ყვითელი",
@@ -798,23 +798,23 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
-        "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
+        "subtext": "ყვითელი შუქი",
         "definitions": [
             {
-                "text": "Having the colour of the sun or a lemon.",
+                "text": "მზის ან ლიმონის ფერი:",
                 "examples": [
                     "She has a yellow umbrella."
                 ]
             },
             {
-                "text": "Having the colour of the sun.",
+                "text": "მზის ფერი:",
                 "examples": [
                     "She bought a yellow notepad."
                 ]
             }
         ],
-        "comparative": "yellower",
-        "superlative": "the yellowest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "თავისუფალი",
@@ -822,7 +822,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "free of charge, free gift / free time / free of charge / free to do",
+        "subtext": "თავისუფალი დრო / უფასო",
         "definitions": [
             {
                 "text": "არა დაკავებული ან უფასო:",
@@ -845,7 +845,7 @@
         "form": "adjective",
         "opposite": "დაკეტილი",
         "oppositeEmoji": "🔒",
-        "subtext": "now open, open for business / open door / open to ideas / wide open",
+        "subtext": "ღია კარი / ღიაა ბიზნესისთვის",
         "definitions": [
             {
                 "text": "არა დაკეტილი:",
@@ -868,7 +868,7 @@
         "form": "adjective",
         "opposite": "ღია",
         "oppositeEmoji": "📖",
-        "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
+        "subtext": "დაკეტილია ლანჩისთვის / დაკეტილი კარი",
         "definitions": [
             {
                 "text": "არა ღია:",
@@ -887,41 +887,41 @@
         "word": "დიდი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a large city / a large company / a large amount",
+        "subtext": "დიდი ქალაქი / დიდი კომპანია",
         "definitions": [
             {
-                "text": "Of more than average size or amount.",
+                "text": "საშუალოზე დიდი ზომის ან რაოდენობის:",
                 "examples": [
-                    "Paris is a very large city."
+                    "პარიზი ძალიან დიდი ქალაქია:"
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "larger",
-        "superlative": "the largest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "პატარა",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a little bit / a little money / too little",
+        "subtext": "ცოტაოდენი / ცოტა ფული",
         "definitions": [
             {
-                "text": "Small in size; a small amount of.",
+                "text": "პატარა ზომის; მცირე რაოდენობით:",
                 "examples": [
                     "He drives a little car to save on fuel."
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "smaller",
-        "superlative": "the smallest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "გრძელი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a long journey / a long day / a long time",
+        "subtext": "გრძელი მოგზაურობა / გრძელი დღე",
         "definitions": [
             {
                 "text": "დიდი მანძილის ან ხანგრძლივობის:",
@@ -941,41 +941,41 @@
         "word": "მაღალი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "high price / high rent / high quality",
+        "subtext": "მაღალი ფასი / მაღალი ხარისხი",
         "definitions": [
             {
-                "text": "Of greater than average height or level.",
+                "text": "საშუალოზე მაღალი დონის:",
                 "examples": [
-                    "The rent in this area is very high."
+                    "ამ რაიონში ქირა ძალიან მაღალია:"
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "higher",
-        "superlative": "the highest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "დაბალი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "low price / low salary / low quality",
+        "subtext": "დაბალი ფასი / დაბალი ხელფასი",
         "definitions": [
             {
-                "text": "Of less than average height or level.",
+                "text": "საშუალოზე დაბალი დონის:",
                 "examples": [
-                    "The salary is too low for the hours involved."
+                    "ხელფასი ძალიან დაბალია იმ საათებისთვის:"
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "lower",
-        "superlative": "the lowest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "სავსე",
         "level": "starter",
         "form": "adjective",
-        "subtext": "full time / a full day / full of people",
+        "subtext": "სრული დღე / ხალხით სავსე",
         "definitions": [
             {
                 "text": "როდესაც ადგილი აღარ არის:",
@@ -995,7 +995,7 @@
         "word": "ცარიელი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "an empty flat / an empty room / nearly empty",
+        "subtext": "ცარიელი ბინა / ცარიელი ოთახი",
         "definitions": [
             {
                 "text": "როდესაც შიგნით არაფერია:",
@@ -1015,41 +1015,41 @@
         "word": "თბილი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "warm weather / a warm welcome / keep warm",
+        "subtext": "თბილი ამინდი / თბილი მიღება",
         "definitions": [
             {
-                "text": "Slightly hot; pleasantly heated.",
+                "text": "სასიამოვნოდ თბილი; გაცხელებული:",
                 "examples": [
-                    "The office is warm and comfortable."
+                    "ოფისი თბილი და კომფორტულია:"
                 ]
             }
         ],
         "theme": "weather_A1",
-        "comparative": "warmer",
-        "superlative": "the warmest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "გრილი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "cool weather / a cool drink / stay cool",
+        "subtext": "გრილი სასმელი / სიგრილის შენარჩუნება",
         "definitions": [
             {
-                "text": "Slightly cold; pleasantly low temperature.",
+                "text": "ოდნავ ცივი; სასიამოვნო დაბალი ტემპერატურა:",
                 "examples": [
-                    "She prefers cool weather for working."
+                    "მუშაობისთვის გრილ ამინდს ამჯობინებს:"
                 ]
             }
         ],
         "theme": "weather_A1",
-        "comparative": "cooler",
-        "superlative": "the coolest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "სველი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "wet weather / wet clothes / get wet",
+        "subtext": "სველი ამინდი / სველი ტანსაცმელი",
         "definitions": [
             {
                 "text": "წყლით დაფარული:",
@@ -1069,7 +1069,7 @@
         "word": "მშრალი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dry weather / dry skin / keep dry",
+        "subtext": "მშრალი ამინდი / მშრალი კანი",
         "definitions": [
             {
                 "text": "წყლის გარეშე:",
@@ -1089,7 +1089,7 @@
         "word": "ჭუჭყიანი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dirty hands / dirty clothes / get dirty",
+        "subtext": "ჭუჭყიანი ხელები / ჭუჭყიანი ტანსაცმელი",
         "definitions": [
             {
                 "text": "ჭუჭყით დაფარული:",
@@ -1108,7 +1108,7 @@
         "word": "მაგარი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "hard work / a hard decision / too hard",
+        "subtext": "რთული სამუშაო / რთული გადაწყვეტილება",
         "definitions": [
             {
                 "text": "არა რბილი:",
@@ -1128,7 +1128,7 @@
         "word": "რბილი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "soft light / soft music / soft skills",
+        "subtext": "რბილი შუქი / რბილი მუსიკა",
         "definitions": [
             {
                 "text": "ადვილად ფორმირებადი, სასიამოვნო:",
@@ -1148,7 +1148,7 @@
         "word": "მძიმე",
         "level": "starter",
         "form": "adjective",
-        "subtext": "heavy traffic / heavy rain / too heavy",
+        "subtext": "მძიმე ტრაფიკი / ძლიერი წვიმა",
         "definitions": [
             {
                 "text": "დიდი წონის მქონე:",
@@ -1168,143 +1168,143 @@
         "word": "მსუბუქი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "light rain / light traffic / a light meal",
+        "subtext": "მსუბუქი წვიმა / მსუბუქი კვება",
         "definitions": [
             {
-                "text": "Not heavy; pale in colour.",
+                "text": "არა მძიმე; ღია ფერის:",
                 "examples": [
-                    "She carries a light bag to work every day."
+                    "ის ყოველდღე სამსახურში მსუბუქ ჩანთას ატარებს:"
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "lighter",
-        "superlative": "the lightest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ყავისფერი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dark brown / light brown / brown bread",
+        "subtext": "მუქი ყავისფერი",
         "definitions": [
             {
-                "text": "Having the colour of wood or earth.",
+                "text": "ხის ან მიწის ფერი:",
                 "examples": [
-                    "She has brown eyes and dark hair."
+                    "მას ყავისფერი თვალები და მუქი თმა აქვს:"
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "browner",
-        "superlative": "the brownest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ნაცრისფერი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "grey area / grey sky / pale grey",
+        "subtext": "ნაცრისფერი ცა",
         "definitions": [
             {
-                "text": "Having a colour between black and white.",
+                "text": "შავსა და თეთრს შორის არსებული ფერი:",
                 "examples": [
-                    "He has grey hair and a kind face."
+                    "მას ჭაღარა თმა და კეთილი სახე აქვს:"
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "greyer",
-        "superlative": "the greyest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ვარდისფერი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "light pink / bright pink / hot pink",
+        "subtext": "ღია ვარდისფერი",
         "definitions": [
             {
-                "text": "Having a pale red colour.",
+                "text": "ღია წითელი ფერის მქონე:",
                 "examples": [
                     "She prefers pink to red."
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "pinker",
-        "superlative": "the pinkest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ნარინჯისფერი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "bright orange / dark orange / orange light",
+        "subtext": "მკვეთრი ნარინჯისფერი",
         "definitions": [
             {
-                "text": "Having the colour of an orange fruit.",
+                "text": "ფორთოხლის ფერის მქონე:",
                 "examples": [
                     "He bought an orange jacket."
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "orangeer",
-        "superlative": "the orangeest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "დიდებული",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a great idea / a great opportunity / great value",
+        "subtext": "დიდებული იდეა",
         "definitions": [
             {
-                "text": "Extremely good; large in amount.",
+                "text": "უკიდურესად კარგი; დიდი რაოდენობით:",
                 "examples": [
-                    "She is a great manager."
+                    "ის შესანიშნავი მენეჯერია:"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "greater",
-        "superlative": "the greatest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "კარგი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a nice day / a nice place / a nice person",
+        "subtext": "კარგი დღე / კარგი ადგილი",
         "definitions": [
             {
-                "text": "Pleasant or kind.",
+                "text": "სასიამოვნო ან კეთილი:",
                 "examples": [
-                    "The new office is very nice."
+                    "ახალი ოფისი ძალიან კარგია:"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "nicer",
-        "superlative": "the nicest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "საოცარი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a wonderful opportunity / a wonderful time",
+        "subtext": "საოცარი დრო",
         "definitions": [
             {
-                "text": "Extremely good; causing delight.",
+                "text": "უკიდურესად კარგი; აღფრთოვანების გამომწვევი:",
                 "examples": [
                     "They had a wonderful team."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more wonderful",
-        "superlative": "the most wonderful"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "საშინელი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "terrible weather / a terrible mistake / terrible news",
+        "subtext": "საშინელი ამბები",
         "definitions": [
             {
                 "text": "ძალიან ცუდი:",
@@ -1324,58 +1324,58 @@
         "word": "საშინელი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "awful weather / awful news / simply awful",
+        "subtext": "საშინელი ამბები",
         "definitions": [
             {
-                "text": "Very bad or unpleasant.",
+                "text": "ძალიან ცუდი ან უსიამოვნო:",
                 "examples": [
-                    "The noise in the open office is awful."
+                    "ღია ოფისში ხმაური საშინელებაა:"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more awful",
-        "superlative": "the most awful"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "გადასარევი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "an amazing result / an amazing offer / truly amazing",
+        "subtext": "გადასარევი შედეგი",
         "definitions": [
             {
-                "text": "Causing great surprise or admiration.",
+                "text": "დიდი სიურპრიზის ან აღფრთოვანების გამომწვევი:",
                 "examples": [
                     "She gave an amazing presentation."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more amazing",
-        "superlative": "the most amazing"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ფანტასტიკური",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
+        "subtext": "ფანტასტიკური ამბები",
         "definitions": [
             {
-                "text": "Extremely good.",
+                "text": "უკიდურესად კარგი:",
                 "examples": [
-                    "The new system works in a fantastic way."
+                    "ახალი სისტემა ფანტასტიკურად მუშაობს:"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more fantastic",
-        "superlative": "the most fantastic"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "მოწყენილი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sad / a sad situation / deeply sad",
+        "subtext": "მოწყენილად ყოფნა / სევდიანი სიტუაცია",
         "definitions": [
             {
                 "text": "არა ბედნიერი, ხშირად ცუდი ამბის გამო:",
@@ -1395,7 +1395,7 @@
         "word": "მშიერი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel hungry / very hungry / go hungry",
+        "subtext": "მშიერი ყოფნა / ძალიან მშიერი",
         "definitions": [
             {
                 "text": "ჭამის სურვილის მქონე:",
@@ -1415,7 +1415,7 @@
         "word": "გაბრაზებული",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel angry / angry with someone / very angry",
+        "subtext": "გაბრაზებული ყოფნა / ვინმეზე გაბრაზება",
         "definitions": [
             {
                 "text": "რისხვის განცდა:",
@@ -1435,91 +1435,91 @@
         "word": "მოწყენილი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel bored / bored with / easily bored",
+        "subtext": "მოწყენილად ყოფნა",
         "definitions": [
             {
-                "text": "Feeling uninterested or restless.",
+                "text": "ინტერესის არმქონე:",
                 "examples": [
-                    "He feels bored in long meetings."
+                    "გრძელ შეხვედრებზე ბეზრდება:"
                 ]
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "more bored",
-        "superlative": "the most bored"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "აღელვებული",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel excited / excited about / very excited",
+        "subtext": "ძალიან აღელვებული",
         "definitions": [
             {
-                "text": "Feeling enthusiasm and eagerness.",
+                "text": "ენთუზიაზმის და ხალისის განცდა:",
                 "examples": [
-                    "She is excited about her new job."
+                    "აღფრთოვანებულია თავისი ახალი სამსახურით:"
                 ]
             }
         ],
-        "comparative": "more excited",
-        "superlative": "the most excited"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "შეშინებული",
         "level": "starter",
         "form": "adjective",
-        "subtext": "afraid of / feel afraid / deeply afraid",
+        "subtext": "რაღაცის შიში",
         "definitions": [
             {
-                "text": "Feeling fear.",
+                "text": "შიშის განცდა:",
                 "examples": [
-                    "He is afraid of making mistakes."
+                    "შეცდომების დაშვების ეშინია:"
                 ]
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "more afraid",
-        "superlative": "the most afraid"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "მწუხარე",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sorry / sorry for / sorry about",
+        "subtext": "წუხილი რაღაცის გამო",
         "definitions": [
             {
-                "text": "Feeling regret or sadness.",
+                "text": "სინანულის ან სევდის განცდა:",
                 "examples": [
-                    "She is sorry for the delay."
+                    "ბოდიშს იხდის დაგვიანებისთვის:"
                 ]
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "sorrier",
-        "superlative": "the sorriest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "სწორი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "სწორი პასუხი / სწორი დრო",
         "definitions": [
             {
-                "text": "Correct; suitable.",
+                "text": "სწორი; შესაბამისი:",
                 "examples": [
-                    "Is this the right office?"
+                    "ეს სწორი ოფისია?"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "righter",
-        "superlative": "the rightest"
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "არასწორი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "wrong answer / go wrong / completely wrong",
+        "subtext": "არასწორი პასუხი",
         "definitions": [
             {
                 "text": "არა სწორი:",
@@ -1539,7 +1539,7 @@
         "word": "ახალი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "new job / brand new / completely new",
+        "subtext": "ახალი სამსახური / სულ ახალი",
         "definitions": [
             {
                 "text": "ახლახან შექმნილი ან ნაყიდი:",
@@ -1559,7 +1559,7 @@
         "word": "განსხვავებული",
         "level": "starter",
         "form": "adjective",
-        "subtext": "completely different / very different / different from",
+        "subtext": "სრულიად განსხვავებული / ძალიან განსხვავებული",
         "definitions": [
             {
                 "text": "არა იგივე:",
@@ -1579,7 +1579,7 @@
         "word": "იგივე",
         "level": "starter",
         "form": "adjective",
-        "subtext": "the same as / exactly the same / same time",
+        "subtext": "იგივე, რაც / ზუსტად იგივე",
         "definitions": [
             {
                 "text": "არა განსხვავებული:",
@@ -1599,7 +1599,7 @@
         "word": "სწრაფი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fast food / fast train / very fast",
+        "subtext": "სწრაფი კვება / სწრაფი მატარებელი",
         "definitions": [
             {
                 "text": "დიდი სიჩქარით მოძრავი:",
@@ -1619,7 +1619,7 @@
         "word": "ნელი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "slow progress / slow internet / very slow",
+        "subtext": "ნელი პროგრესი / ნელი ინტერნეტი",
         "definitions": [
             {
                 "text": "დაბალი სიჩქარით მოძრავი:",
@@ -1639,7 +1639,7 @@
         "word": "წყნარი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "quiet area / keep quiet / nice and quiet",
+        "subtext": "წყნარი ადგილი / სიწყნარის შენარჩუნება",
         "definitions": [
             {
                 "text": "ხმაურის გარეშე:",
@@ -1659,7 +1659,7 @@
         "word": "ხმამაღალი",
         "level": "starter",
         "form": "adjective",
-        "subtext": "loud noise / too loud / a loud voice",
+        "subtext": "ხმამაღალი ხმა / ძალიან ხმამაღალი",
         "definitions": [
             {
                 "text": "დიდი ხმის მქონე:",
@@ -1679,7 +1679,7 @@
         "word": "უსაფრთხო",
         "level": "starter",
         "form": "adjective",
-        "subtext": "safe area / safe to do / feel safe",
+        "subtext": "უსაფრთხო ადგილი / უსაფრთხოდ ყოფნა",
         "definitions": [
             {
                 "text": "საფრთხისგან შორს:",
@@ -1699,7 +1699,7 @@
         "word": "სახიფათო",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dangerous situation / very dangerous / potentially dangerous",
+        "subtext": "სახიფათო სიტუაცია / ძალიან სახიფათო",
         "definitions": [
             {
                 "text": "საფრთხის შემცველი:",
@@ -1722,15 +1722,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Not feeling pleased; dissatisfied.",
+                "text": "უკმაყოფილო; არა ნასიამოვნები:",
                 "examples": [
-                    "He is unhappy with his current salary."
+                    "ის უკმაყოფილოა თავისი ამჟამინდელი ხელფასით:"
                 ]
             }
         ],
-        "subtext": "feel unhappy / very unhappy / unhappy about",
-        "comparative": "unhappier",
-        "superlative": "the unhappiest"
+        "subtext": "უბედურად ყოფნა / ძალიან უბედური",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ნერვიული",
@@ -1745,7 +1745,7 @@
                 ]
             }
         ],
-        "subtext": "feel nervous / nervous about / very nervous",
+        "subtext": "ნერვიულად ყოფნა / ძალიან ნერვიული",
         "comparative": "უფრო ნერვიული",
         "superlative": "ყველაზე ნერვიული",
         "feminine": null,
@@ -1759,15 +1759,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling worried and tense from pressure.",
+                "text": "წნეხისგან გამოწვეული შეშფოთება და დაძაბულობა:",
                 "examples": [
                     "She feels stressed before every deadline."
                 ]
             }
         ],
-        "subtext": "feel stressed / very stressed / stressed out",
-        "comparative": "more stressed",
-        "superlative": "the most stressed"
+        "subtext": "დაძაბულად ყოფნა / ძალიან დასტრესილი",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "თავდაჯერებული",
@@ -1776,15 +1776,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling sure of your own abilities.",
+                "text": "საკუთარ შესაძლებლობებში დარწმუნებულობა:",
                 "examples": [
-                    "She is very confident in client presentations."
+                    "ის ძალიან თავდაჯერებულია კლიენტების პრეზენტაციებისას:"
                 ]
             }
         ],
-        "subtext": "feel confident / self-confident / very confident",
-        "comparative": "more confident",
-        "superlative": "the most confident"
+        "subtext": "თავდაჯერებულად ყოფნა / ძალიან თავდაჯერებული",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ამაყი",
@@ -1799,7 +1799,7 @@
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of",
+        "subtext": "ამაყად ყოფნა / ძალიან ამაყი",
         "comparative": "უფრო ამაყი",
         "superlative": "ყველაზე ამაყი",
         "feminine": null,
@@ -1819,7 +1819,7 @@
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared",
+        "subtext": "შეშინებულად ყოფნა / ძალიან შეშინებული",
         "comparative": "უფრო შეშინებული",
         "superlative": "ყველაზე შეშინებული",
         "feminine": null,
@@ -1833,15 +1833,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling shock at something unexpected.",
+                "text": "შოკის განცდა მოულოდნელი რაღაცის გამო:",
                 "examples": [
-                    "He was surprised to get a pay rise."
+                    "გაუკვირდა ხელფასის მომატება:"
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised",
-        "comparative": "more surprised",
-        "superlative": "the most surprised"
+        "subtext": "გაკვირვებულად ყოფნა / ძალიან გაკვირვებული",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "იმედგაცრუებული",
@@ -1850,15 +1850,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling sad because something was not as good as expected.",
+                "text": "მოწყენილობა იმის გამო, რომ რაღაც არ აღმოჩნდა მოლოდინის შესაბამისი:",
                 "examples": [
-                    "She was disappointed not to get the job."
+                    "იმედგაცრუებული დარჩა, რომ სამსახური ვერ მიიღო:"
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with",
-        "comparative": "more disappointed",
-        "superlative": "the most disappointed"
+        "subtext": "იმედგაცრუებულად ყოფნა / ძალიან იმედგაცრუებული",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ლამაზი",
@@ -1873,7 +1873,7 @@
                 ]
             }
         ],
-        "subtext": "beautiful view / beautiful city / absolutely beautiful",
+        "subtext": "ლამაზი ხედი / ლამაზი ქალაქი",
         "comparative": "უფრო ლამაზი",
         "superlative": "ყველაზე ლამაზი",
         "feminine": null,
@@ -1887,15 +1887,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Pleasant to look at; quite attractive.",
+                "text": "თვალისთვის სასიამოვნო; საკმაოდ მიმზიდველი:",
                 "examples": [
-                    "The new meeting room is very pretty."
+                    "ახალი შეხვედრების ოთახი ძალიან ლამაზია:"
                 ]
             }
         ],
-        "subtext": "pretty good / a pretty place / quite pretty",
-        "comparative": "prettier",
-        "superlative": "the prettiest"
+        "subtext": "საკმაოდ კარგი / ლამაზი ადგილი",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ძლიერი",
@@ -1910,7 +1910,7 @@
                 ]
             }
         ],
-        "subtext": "strong coffee / strong opinion / very strong",
+        "subtext": "ძლიერი ყავა / ძლიერი აზრი",
         "comparative": "უფრო ძლიერი",
         "superlative": "ყველაზე ძლიერი",
         "feminine": null,
@@ -1930,7 +1930,7 @@
                 ]
             }
         ],
-        "subtext": "weak connection / a weak argument / very weak",
+        "subtext": "სუსტი კავშირი / სუსტი არგუმენტი",
         "comparative": "უფრო სუსტი",
         "superlative": "ყველაზე სუსტი",
         "feminine": null,
@@ -1944,15 +1944,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "In good physical condition through exercise.",
+                "text": "კარგ ფიზიკურ მდგომარეობაში ვარჯიშის წყალობით:",
                 "examples": [
-                    "She keeps fit by cycling to work every day."
+                    "ის ფორმას ინარჩუნებს ყოველდღე სამსახურში ველოსიპედით სიარულით:"
                 ]
             }
         ],
-        "subtext": "physically fit / stay fit / keep fit",
-        "comparative": "fitter",
-        "superlative": "the fittest"
+        "subtext": "ფიზიკურად კარგ ფორმაში / ფორმის შენარჩუნება",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "შესანიშნავი",
@@ -1961,15 +1961,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Extremely good; of a very high standard.",
+                "text": "უკიდურესად კარგი; ძალიან მაღალი სტანდარტის:",
                 "examples": [
                     "She received an excellent review."
                 ]
             }
         ],
-        "subtext": "excellent work / excellent results / absolutely excellent",
-        "comparative": "more excellent",
-        "superlative": "the most excellent"
+        "subtext": "შესანიშნავი ნამუშევარი / შესანიშნავი შედეგები",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "იდეალური",
@@ -1984,7 +1984,7 @@
                 ]
             }
         ],
-        "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
+        "subtext": "იდეალური შესაძლებლობა / იდეალური დრო",
         "comparative": "უფრო იდეალური",
         "superlative": "ყველაზე იდეალური",
         "feminine": null,
@@ -2004,7 +2004,7 @@
                 ]
             }
         ],
-        "subtext": "completely useless / prove useless / a useless idea",
+        "subtext": "სრულიად უსარგებლო / უსარგებლო იდეა",
         "comparative": "უფრო უსარგებლო",
         "superlative": "ყველაზე უსარგებლო",
         "feminine": null,
@@ -2024,7 +2024,7 @@
                 ]
             }
         ],
-        "subtext": "correct answer / the correct way / completely correct",
+        "subtext": "სწორი პასუხი / სრულიად სწორი",
         "comparative": "უფრო სწორი",
         "superlative": "ყველაზე სწორი",
         "feminine": null,
@@ -2044,7 +2044,7 @@
                 ]
             }
         ],
-        "subtext": "find interesting / very interesting / an interesting idea",
+        "subtext": "საინტერესოდ მიჩნევა / ძალიან საინტერესო",
         "comparative": "უფრო საინტერესო",
         "superlative": "ყველაზე საინტერესო",
         "feminine": null,
@@ -2064,7 +2064,7 @@
                 ]
             }
         ],
-        "subtext": "very boring / a boring meeting / find boring",
+        "subtext": "ძალიან მოსაწყენი / მოსაწყენი შეხვედრა",
         "comparative": "უფრო მოსაწყენი",
         "superlative": "ყველაზე მოსაწყენი",
         "feminine": null,
@@ -2078,15 +2078,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Needed; required in order to do something.",
+                "text": "საჭირო რაღაცის გასაკეთებლად:",
                 "examples": [
-                    "A good internet connection is necessary for remote work."
+                    "კარგი ინტერნეტ კავშირი აუცილებელია დისტანციური მუშაობისთვის:"
                 ]
             }
         ],
-        "subtext": "absolutely necessary / if necessary / necessary to do",
-        "comparative": "more necessary",
-        "superlative": "the most necessary"
+        "subtext": "აბსოლუტურად საჭირო / თუ საჭიროა",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "შესაძლებელი",
@@ -2101,7 +2101,7 @@
                 ]
             }
         ],
-        "subtext": "as soon as possible / it is possible / make possible",
+        "subtext": "რაც შეიძლება მალე / შესაძლებელია",
         "comparative": "უფრო შესაძლებელი",
         "superlative": "ყველაზე შესაძლებელი",
         "feminine": null,
@@ -2121,7 +2121,7 @@
                 ]
             }
         ],
-        "subtext": "virtually impossible / make impossible / nearly impossible",
+        "subtext": "თითქმის შეუძლებელი / შეუძლებლის გაკეთება",
         "comparative": "უფრო შეუძლებელი",
         "superlative": "ყველაზე შეუძლებელი",
         "feminine": null,
@@ -2141,7 +2141,7 @@
                 ]
             }
         ],
-        "subtext": "a special offer / special occasion / very special",
+        "subtext": "სპეციალური შეთავაზება / სპეციალური შემთხვევა",
         "comparative": "უფრო სპეციალური",
         "superlative": "ყველაზე სპეციალური",
         "feminine": null,
@@ -2155,15 +2155,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Liked by many people.",
+                "text": "ბევრ ადამიანს რომ მოსწონს:",
                 "examples": [
-                    "The new café near the office is very popular."
+                    "ოფისთან ახლოს მდებარე ახალი კაფე ძალიან პოპულარულია:"
                 ]
             }
         ],
-        "subtext": "very popular / popular choice / most popular",
-        "comparative": "more popular",
-        "superlative": "the most popular"
+        "subtext": "ძალიან პოპულარული / პოპულარული არჩევანი",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "მსგავსი",
@@ -2172,15 +2172,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Almost the same; having many shared features.",
+                "text": "თითქმის იგივე; ბევრი საერთო ნიშნის მქონე:",
                 "examples": [
-                    "Our approaches are very similar."
+                    "ჩვენი მიდგომები ძალიან ჰგავს ერთმანეთს:"
                 ]
             }
         ],
-        "subtext": "very similar / similar to / similar results",
-        "comparative": "more similar",
-        "superlative": "the most similar"
+        "subtext": "ძალიან მსგავსი / რაღაცის მსგავსი",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "მეგობრული",
@@ -2189,15 +2189,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Kind and pleasant; easy to talk to.",
+                "text": "კეთილი და სასიამოვნო; ადვილად სასაუბრო:",
                 "examples": [
-                    "The new manager is very friendly and approachable."
+                    "ახალი მენეჯერი ძალიან მეგობრული და ხელმისაწვდომია:"
                 ]
             }
         ],
-        "subtext": "very friendly / a friendly face / friendly atmosphere",
-        "comparative": "more friendly",
-        "superlative": "the most friendly"
+        "subtext": "ძალიან მეგობრული / მეგობრული სახე",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "კეთილი",
@@ -2212,7 +2212,7 @@
                 ]
             }
         ],
-        "subtext": "very kind / kind of you / a kind person",
+        "subtext": "ძალიან კეთილი / კეთილია თქვენი მხრიდან",
         "comparative": "უფრო კეთილი",
         "superlative": "ყველაზე კეთილი",
         "feminine": null,
@@ -2232,7 +2232,7 @@
                 ]
             }
         ],
-        "subtext": "very funny / funny story / find funny",
+        "subtext": "ძალიან სასაცილო / სასაცილო ამბავი",
         "comparative": "უფრო სასაცილო",
         "superlative": "ყველაზე სასაცილო",
         "feminine": null,
@@ -2252,7 +2252,7 @@
                 ]
             }
         ],
-        "subtext": "very clever / a clever idea / clever enough",
+        "subtext": "ძალიან ჭკვიანი / ჭკვიანური იდეა",
         "comparative": "უფრო ჭკვიანი",
         "superlative": "ყველაზე ჭკვიანი",
         "feminine": null,
@@ -2272,7 +2272,7 @@
                 ]
             }
         ],
-        "subtext": "very polite / polite request / polite enough",
+        "subtext": "ძალიან ზრდილი / ზრდილი თხოვნა",
         "comparative": "უფრო ზრდილი",
         "superlative": "ყველაზე ზრდილი",
         "feminine": null,
@@ -2292,7 +2292,7 @@
                 ]
             }
         ],
-        "subtext": "very rude / incredibly rude / deliberately rude",
+        "subtext": "ძალიან უხეში / წარმოუდგენლად უხეში",
         "comparative": "უფრო უხეში",
         "superlative": "ყველაზე უხეში",
         "feminine": null,
@@ -2312,7 +2312,7 @@
                 ]
             }
         ],
-        "subtext": "very lazy / a lazy approach / too lazy",
+        "subtext": "ძალიან ზარმაცი / ზარმაცული მიდგომა",
         "comparative": "უფრო ზარმაცი",
         "superlative": "ყველაზე ზარმაცი",
         "feminine": null,
@@ -2326,15 +2326,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Telling the truth; not deceiving.",
+                "text": "სიმართლის მთქმელი; არა მატყუარა:",
                 "examples": [
-                    "She is known for being completely honest with clients."
+                    "ის ცნობილია კლიენტებთან სრული პატიოსნებით:"
                 ]
             }
         ],
-        "subtext": "very honest / brutally honest / completely honest",
-        "comparative": "more honest",
-        "superlative": "the most honest"
+        "subtext": "ძალიან პატიოსანი / სრულიად პატიოსანი",
+        "comparative": null,
+         "superlative": null
     },
     {
         "word": "ხმაურიანი",
@@ -2349,7 +2349,7 @@
                 ]
             }
         ],
-        "subtext": "very noisy / noisy environment / too noisy",
+        "subtext": "ძალიან ხმაურიანი / ხმაურიანი გარემო",
         "comparative": "უფრო ხმაურიანი",
         "superlative": "ყველაზე ხმაურიანი",
         "feminine": null,

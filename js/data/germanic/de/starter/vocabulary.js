@@ -9,7 +9,7 @@
         "definitions": [
             {
                 "text": "Eine Person, die Kranken hilft.",
-                "examples": []
+                "examples": ["Der Arzt arbeitet im Krankenhaus."]
             }
         ],
         "article": "der",
@@ -24,7 +24,7 @@
         "definitions": [
             {
                 "text": "Der Teil des Körpers unten am Bein.",
-                "examples": []
+                "examples": ["Mein Fuß tut weh."]
             }
         ],
         "article": "der",
@@ -39,7 +39,7 @@
         "definitions": [
             {
                 "text": "Eine Person, die beim Lernen hilft.",
-                "examples": []
+                "examples": ["Der Lehrer ist im Klassenzimmer."]
             }
         ],
         "article": "der",
@@ -54,7 +54,7 @@
         "definitions": [
             {
                 "text": "Ein flaches Brot mit Käse und Tomaten.",
-                "examples": []
+                "examples": ["Ich mag Pizza mit Käse."]
             }
         ],
         "article": "die",
@@ -69,7 +69,7 @@
         "definitions": [
             {
                 "text": "Ein Essen aus Mehl und Eiern.",
-                "examples": []
+                "examples": ["Wir essen heute Pasta."]
             }
         ],
         "article": "die",
@@ -84,7 +84,7 @@
         "definitions": [
             {
                 "text": "Eine runde Frucht, rot oder grün.",
-                "examples": []
+                "examples": ["Der Apfel ist rot."]
             }
         ],
         "article": "der",
@@ -99,7 +99,7 @@
         "definitions": [
             {
                 "text": "Ein Essen aus Mehl und Wasser.",
-                "examples": []
+                "examples": ["Ich kaufe jeden Morgen Brot."]
             }
         ],
         "article": "das",
@@ -114,7 +114,7 @@
         "definitions": [
             {
                 "text": "Ein ovales Objekt von einer Henne.",
-                "examples": []
+                "examples": ["Ein Ei zum Frühstück."]
             }
         ],
         "article": "das",
@@ -129,7 +129,7 @@
         "definitions": [
             {
                 "text": "Eine weiße Flüssigkeit von Kühen.",
-                "examples": []
+                "examples": ["Ich trinke kalte Milch."]
             }
         ],
         "article": "die",
@@ -144,7 +144,7 @@
         "definitions": [
             {
                 "text": "Eine lange gelbe Frucht.",
-                "examples": []
+                "examples": ["Die Banane ist gelb."]
             }
         ],
         "article": "die",
@@ -159,7 +159,7 @@
         "definitions": [
             {
                 "text": "Ein heißes braunes Getränk.",
-                "examples": []
+                "examples": ["Ich trinke Kaffee ohne Zucker."]
             }
         ],
         "article": "der",
@@ -174,7 +174,7 @@
         "definitions": [
             {
                 "text": "Ein heißes Getränk aus Blättern.",
-                "examples": []
+                "examples": ["Ein heißer Tee, bitte."]
             }
         ],
         "article": "der",
@@ -204,7 +204,7 @@
         "definitions": [
             {
                 "text": "Ein Ort zum Lernen.",
-                "examples": []
+                "examples": ["Die Schule öffnet um acht."]
             }
         ],
         "article": "die",
@@ -219,7 +219,7 @@
         "definitions": [
             {
                 "text": "Ein Hemd mit kurzen Ärmeln.",
-                "examples": []
+                "examples": ["Ich trage ein blaues T-Shirt."]
             }
         ],
         "article": "das",
@@ -234,7 +234,7 @@
         "definitions": [
             {
                 "text": "Ein Kleidungsstück für die Beine.",
-                "examples": []
+                "examples": ["Diese Hose ist neu."]
             }
         ],
         "article": "die",
@@ -264,7 +264,7 @@
         "definitions": [
             {
                 "text": "Etwas für den Kopf.",
-                "examples": []
+                "examples": ["Sie trägt einen Sonnenhut."]
             }
         ],
         "article": "der",
@@ -279,7 +279,7 @@
         "definitions": [
             {
                 "text": "Ein Möbelstück zum Sitzen.",
-                "examples": []
+                "examples": ["Setz dich auf diesen Stuhl."]
             }
         ],
         "article": "der",
@@ -294,7 +294,7 @@
         "definitions": [
             {
                 "text": "Ein Möbelstück mit vier Beinen.",
-                "examples": []
+                "examples": ["Das Buch liegt auf dem Tisch."]
             }
         ],
         "article": "der",
@@ -309,7 +309,7 @@
         "definitions": [
             {
                 "text": "Ein Möbelstück zum Schlafen.",
-                "examples": []
+                "examples": ["Das Bett ist sehr groß."]
             }
         ],
         "article": "das",
@@ -324,7 +324,7 @@
         "definitions": [
             {
                 "text": "Ein Objekt zum Öffnen von Türen.",
-                "examples": []
+                "examples": ["Ich habe meinen Schlüssel verloren."]
             }
         ],
         "article": "der",
@@ -339,7 +339,7 @@
         "definitions": [
             {
                 "text": "Ein Gerät zum Sprechen.",
-                "examples": []
+                "examples": ["Mein Telefon funktioniert nicht."]
             }
         ],
         "article": "das",
@@ -369,7 +369,7 @@
         "definitions": [
             {
                 "text": "Ein Behälter zum Tragen.",
-                "examples": []
+                "examples": ["Ich trage meine Sachen in der Tasche."]
             }
         ],
         "article": "die",
@@ -429,7 +429,7 @@
         "definitions": [
             {
                 "text": "Der Teil des Arms mit Fingern.",
-                "examples": []
+                "examples": ["Wasch deine Hände."]
             }
         ],
         "article": "die",
@@ -444,7 +444,7 @@
         "definitions": [
             {
                 "text": "Ein Teil des Körpers zum Laufen.",
-                "examples": []
+                "examples": ["Sie hat lange Beine."]
             }
         ],
         "article": "das",
@@ -459,7 +459,7 @@
         "definitions": [
             {
                 "text": "Ein Teil des Körpers zum Sehen.",
-                "examples": []
+                "examples": ["Er hat grüne Augen."]
             }
         ],
         "article": "das",
@@ -474,7 +474,7 @@
         "definitions": [
             {
                 "text": "Ein Teil des Gesichts zum Riechen.",
-                "examples": []
+                "examples": ["Wir atmen durch die Nase."]
             }
         ],
         "article": "die",
@@ -489,7 +489,7 @@
         "definitions": [
             {
                 "text": "Ein Teil des Gesichts zum Essen.",
-                "examples": []
+                "examples": ["Öffne den Mund."]
             }
         ],
         "article": "der",
@@ -504,7 +504,7 @@
         "definitions": [
             {
                 "text": "Ein Teil des Körpers zum Hören.",
-                "examples": []
+                "examples": ["Wir hören mit den Ohren."]
             }
         ],
         "article": "das",
@@ -519,7 +519,7 @@
         "definitions": [
             {
                 "text": "Eine Frau, die ein Elternteil ist.",
-                "examples": []
+                "examples": ["Die Frau liest die Zeitung."]
             }
         ],
         "article": "die",
@@ -534,7 +534,7 @@
         "definitions": [
             {
                 "text": "Ein Mann, die ein Elternteil ist.",
-                "examples": []
+                "examples": ["Dieser Mann ist mein Onkel."]
             }
         ],
         "article": "der",
@@ -548,8 +548,8 @@
         "form": "noun",
         "definitions": [
             {
-                "text": "Ein Job; ein Ort zum Geldverdienen.",
-                "examples": []
+                "text": "Eine Arbeit; ein Ort zum Geldverdienen.",
+                "examples": ["Ich suche eine neue Arbeit."]
             }
         ],
         "article": "die",
@@ -564,7 +564,7 @@
         "definitions": [
             {
                 "text": "Der Ort, an dem man lebt.",
-                "examples": []
+                "examples": ["Ich komme spät nach Hause."]
             }
         ],
         "article": "das",
@@ -579,7 +579,7 @@
         "definitions": [
             {
                 "text": "Ein Fahrzeug mit vier Rädern.",
-                "examples": []
+                "examples": ["Ich fahre ein rotes Auto."]
             }
         ],
         "article": "das",
@@ -594,7 +594,7 @@
         "definitions": [
             {
                 "text": "Ein großes Fahrzeug für viele Leute.",
-                "examples": []
+                "examples": ["Der Bus kommt bald."]
             }
         ],
         "article": "der",
@@ -669,7 +669,7 @@
         "definitions": [
             {
                 "text": "Eine Person, die man mag.",
-                "examples": []
+                "examples": ["Er ist mein bester Freund."]
             }
         ],
         "article": "der",
@@ -699,7 +699,7 @@
         "definitions": [
             {
                 "text": "Ein Zeitraum von sieben Tagen.",
-                "examples": []
+                "examples": ["Heute ist ein guter Tag."]
             }
         ],
         "article": "die",
@@ -714,7 +714,7 @@
         "definitions": [
             {
                 "text": "Dinge, die man isst.",
-                "examples": []
+                "examples": ["Das Mittagessen ist fertig."]
             }
         ],
         "article": "das",
@@ -759,7 +759,7 @@
         "definitions": [
             {
                 "text": "Die Mahlzeit am Abend.",
-                "examples": []
+                "examples": ["Wir essen um acht zu Abend."]
             }
         ],
         "article": "das",
@@ -774,7 +774,7 @@
         "definitions": [
             {
                 "text": "Die Zeit vor dem Mittag.",
-                "examples": []
+                "examples": ["Es ist kalt heute Morgen."]
             }
         ],
         "article": "der",
@@ -789,7 +789,7 @@
         "definitions": [
             {
                 "text": "Die Zeit nach dem Nachmittag.",
-                "examples": []
+                "examples": ["Wir gehen heute Abend aus."]
             }
         ],
         "article": "der",

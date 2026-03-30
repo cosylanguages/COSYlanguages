@@ -55,9 +55,9 @@
         "plural": "νέοι",
         "definitions": [
             {
-                "text": "Having lived or existed for only a short time.",
+                "text": "Κάτι που υπάρχει για μικρό χρονικό διάστημα.",
                 "examples": [
-                    "He is a young man."
+                    "Είναι ένας νέος άνδρας."
                 ]
             }
         ],
@@ -79,9 +79,9 @@
         "plural": "παλιοί",
         "definitions": [
             {
-                "text": "Having lived or existed for a long time.",
+                "text": "Κάτι που υπάρχει για μεγάλο χρονικό διάστημα.",
                 "examples": [
-                    "This is an old book."
+                    "Αυτό είναι ένα παλιό βιβλίο."
                 ]
             }
         ],
@@ -99,10 +99,10 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Having a lot of light from the sun.",
+                "text": "Έχει πολύ φως από τον ήλιο.",
                 "examples": [
-                    "It is a sunny day.",
-                    "I like sunny weather."
+                    "Είναι μια ηλιόλουστη μέρα.",
+                    "Μου αρέσει ο ηλιόλουστος καιρός."
                 ]
             }
         ],
@@ -121,10 +121,10 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Having a lot of rain.",
+                "text": "Έχει πολλή βροχή.",
                 "examples": [
-                    "It is a rainy day.",
-                    "Wear a coat, it's rainy outside."
+                    "Είναι μια βροχερή μέρα.",
+                    "Φόρεσε παλτό, έξω έχει βροχή."
                 ]
             }
         ],
@@ -190,9 +190,9 @@
         "oppositeEmoji": "✨",
         "definitions": [
             {
-                "text": "Normal or usual; not special.",
+                "text": "Κάτι που είναι φυσιολογικό ή συνηθισμένο, όχι κάτι το ιδιαίτερο.",
                 "examples": [
-                    "It was an ordinary day."
+                    "Ήταν μια συνηθισμένη μέρα."
                 ]
             }
         ],
@@ -222,7 +222,7 @@
         "feminine": "φτηνή",
         "neuter": "φτηνό",
         "plural": "φτηνοί",
-        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful",
+        "subtext": "χαμηλή τιμή / φτηνή πτήση / πολύ φτηνό / φτηνό και καλό",
         "comparative": "πιο φτηνός",
         "superlative": "ο πιο φτηνός"
     },
@@ -439,9 +439,9 @@
         "oppositeEmoji": "⏳",
         "definitions": [
             {
-                "text": "Working the complete number of hours in a working week.",
+                "text": "Εργασία για όλες τις ώρες της εβδομάδας.",
                 "examples": [
-                    "She has a full-time job in a bank."
+                    "Έχει μια δουλειά πλήρους απασχόλησης σε μια τράπεζα."
                 ]
             }
         ],
@@ -462,9 +462,9 @@
         "oppositeEmoji": "⏰",
         "definitions": [
             {
-                "text": "Working fewer hours than a standard working week.",
+                "text": "Εργασία για λιγότερες ώρες από την κανονική εβδομάδα εργασίας.",
                 "examples": [
-                    "He works part-time on Saturdays."
+                    "Δουλεύει με μερική απασχόληση τα Σάββατα."
                 ]
             }
         ],
@@ -508,16 +508,16 @@
         "plural": "υγιείς",
         "definitions": [
             {
-                "text": "Good for your body; not ill.",
+                "text": "Κάτι καλό για το σώμα, όχι άρρωστο.",
                 "examples": [
-                    "Vegetables are healthy food."
+                    "Τα λαχανικά είναι υγιεινή τροφή."
                 ]
             }
         ],
         "subtext": "καλή φυσική κατάσταση / υγιεινή διατροφή",
         "comparative": "πιο υγιής",
         "superlative": "ο πιο υγιής",
-        "opposite": "unhealthy",
+        "opposite": "ανθυγιεινός",
         "oppositeEmoji": "🍔"
     },
     {
@@ -530,16 +530,16 @@
         "plural": "άρρωστοι",
         "definitions": [
             {
-                "text": "Not well; sick.",
+                "text": "Όχι καλά, ασθενής.",
                 "examples": [
-                    "I feel ill today."
+                    "Νιώθω άρρωστος σήμερα."
                 ]
             }
         ],
         "subtext": "νιώθω άρρωστος",
-        "comparative": "άρρωσττερος",
+        "comparative": "πιο άρρωστος",
         "superlative": "ο πιο άρρωστος",
-        "opposite": "well",
+        "opposite": "καλά",
         "oppositeEmoji": "💪"
     },
     {
@@ -552,9 +552,9 @@
         "oppositeEmoji": "📴",
         "definitions": [
             {
-                "text": "Using the internet.",
+                "text": "Που χρησιμοποιεί το διαδίκτυο.",
                 "examples": [
-                    "I buy food online sometimes."
+                    "Αγοράζω φαγητό μέσω διαδικτύου μερικές φορές."
                 ]
             }
         ],
@@ -571,13 +571,13 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
+        "opposite": "μαζί",
         "oppositeEmoji": "👫",
         "definitions": [
             {
-                "text": "Without other people; by yourself.",
+                "text": "Χωρίς άλλους ανθρώπους, μόνος σου.",
                 "examples": [
-                    "She lives alone."
+                    "Ζει μόνη της."
                 ]
             }
         ],
@@ -598,9 +598,9 @@
         "plural": "χαλαροί",
         "definitions": [
             {
-                "text": "Calm; not worried or stressed.",
+                "text": "Ήρεμος, χωρίς ανησυχία ή άγχος.",
                 "examples": [
-                    "I feel relaxed at the weekend."
+                    "Νιώθω χαλαρός το Σαββατοκύριακο."
                 ]
             }
         ],
@@ -620,16 +620,16 @@
         "plural": "ανήσυχοι",
         "definitions": [
             {
-                "text": "Feeling anxious about something that might happen.",
+                "text": "Που νιώθει άγχος για κάτι που μπορεί να συμβεί.",
                 "examples": [
-                    "She is worried about her job."
+                    "Ανησυχεί για τη δουλειά της."
                 ]
             }
         ],
         "subtext": "αγχωμένος",
-        "comparative": "ανήσυχτερος",
+        "comparative": "πιο ανήσυχος",
         "superlative": "ο πιο ανήσυχος",
-        "opposite": "calm",
+        "opposite": "ήρεμος",
         "oppositeEmoji": "😌"
     },
     {
@@ -663,14 +663,14 @@
         "plural": "χρήσιμοι",
         "definitions": [
             {
-                "text": "Helpful; having a practical purpose.",
+                "text": "Βοηθητικός, που έχει πρακτικό σκοπό.",
                 "examples": [
-                    "A car is very useful in the country."
+                    "Ένα αυτοκίνητο είναι πολύ χρήσιμο στην επαρχία."
                 ]
             }
         ],
         "subtext": "βοηθητικός / πρακτικός",
-        "comparative": "χρήσιμτερος",
+        "comparative": "πιο χρήσιμος",
         "superlative": "ο πιο χρήσιμος",
         "opposite": "άχρηστος",
         "oppositeEmoji": "🗑️"
@@ -833,14 +833,14 @@
         "plural": "ελεύθεροι",
         "definitions": [
             {
-                "text": "Costing no money; at no charge.",
+                "text": "Δεν κοστίζει χρήματα, χωρίς χρέωση.",
                 "examples": [
-                    "The museum is free on Sundays."
+                    "Το μουσείο είναι δωρεάν τις Κυριακές."
                 ]
             }
         ],
-        "subtext": "free of charge, free gift / free time / free of charge / free to do",
-        "comparative": "ελεύθερτερος",
+        "subtext": "χωρίς χρέωση / δωρεάν δώρο / ελεύθερος χρόνος / δωρεάν",
+        "comparative": "πιο ελεύθερος",
         "superlative": "ο πιο ελεύθερος"
     },
     {
@@ -900,14 +900,14 @@
         "plural": "μεγάλοι",
         "definitions": [
             {
-                "text": "Of more than average size or amount.",
+                "text": "Κάτι με μέγεθος ή ποσότητα πάνω από τον μέσο όρο.",
                 "examples": [
-                    "Paris is a very large city."
+                    "Το Παρίσι είναι μια πολύ μεγάλη πόλη."
                 ]
             }
         ],
         "subtext": "μεγάλο σπίτι / μεγάλο πρόβλημα / αρκετά μεγάλο",
-        "comparative": "μεγάλτερος",
+        "comparative": "μεγαλύτερος",
         "superlative": "ο πιο μεγάλος"
     },
     {
@@ -921,9 +921,9 @@
         "plural": "μικροί",
         "definitions": [
             {
-                "text": "Small in size; a small amount of.",
+                "text": "Κάτι με μικρό μέγεθος ή ποσότητα.",
                 "examples": [
-                    "He drives a little car to save on fuel."
+                    "Οδηγεί ένα μικρό αυτοκίνητο."
                 ]
             }
         ],
@@ -942,9 +942,9 @@
         "plural": "μακριοί",
         "definitions": [
             {
-                "text": "Of great length; lasting a long time.",
+                "text": "Κάτι με μεγάλο μήκος ή που κρατάει πολύ καιρό.",
                 "examples": [
-                    "She has a long commute every day."
+                    "Έχει μια μακρινή διαδρομή για τη δουλειά κάθε μέρα."
                 ]
             }
         ],
@@ -963,9 +963,9 @@
         "plural": "υψηλοί",
         "definitions": [
             {
-                "text": "Of greater than average height or level.",
+                "text": "Κάτι με ύψος ή επίπεδο πάνω από τον μέσο όρο.",
                 "examples": [
-                    "The rent in this area is very high."
+                    "Το ενοίκιο σε αυτή την περιοχή είναι πολύ υψηλό."
                 ]
             }
         ],
@@ -984,9 +984,9 @@
         "plural": "χαμηλοί",
         "definitions": [
             {
-                "text": "Of less than average height or level.",
+                "text": "Κάτι με ύψος ή επίπεδο κάτω από τον μέσο όρο.",
                 "examples": [
-                    "The salary is too low for the hours involved."
+                    "Ο μισθός είναι πολύ χαμηλός για τις ώρες εργασίας."
                 ]
             }
         ],
@@ -1005,14 +1005,14 @@
         "plural": "γεμάτοι",
         "definitions": [
             {
-                "text": "Containing as much as possible; complete.",
+                "text": "Κάτι που περιέχει όσο το δυνατόν περισσότερα, πλήρες.",
                 "examples": [
-                    "I feel full after that lunch."
+                    "Νιώθω γεμάτος μετά από αυτό το μεσημεριανό."
                 ]
             }
         ],
         "subtext": "πλήρες ωράριο / μια γεμάτη μέρα / γεμάτο κόσμο",
-        "comparative": "γεμάττερος",
+        "comparative": "πιο γεμάτος",
         "superlative": "ο πιο γεμάτος"
     },
     {
@@ -1026,14 +1026,14 @@
         "plural": "άδειοι",
         "definitions": [
             {
-                "text": "Containing nothing; with no people.",
+                "text": "Δεν περιέχει τίποτα, χωρίς ανθρώπους.",
                 "examples": [
-                    "The office is empty at weekends."
+                    "Το γραφείο είναι άδειο τα Σαββατοκύριακα."
                 ]
             }
         ],
         "subtext": "άδειο διαμέρισμα / άδειο δωμάτιο / σχεδόν άδειο",
-        "comparative": "άδειτερος",
+        "comparative": "πιο άδειος",
         "superlative": "ο πιο άδειος"
     },
     {
@@ -1047,9 +1047,9 @@
         "plural": "ζεστοί",
         "definitions": [
             {
-                "text": "Slightly hot; pleasantly heated.",
+                "text": "Ελαφρώς καυτός, ευχάριστα θερμασμένος.",
                 "examples": [
-                    "The office is warm and comfortable."
+                    "Το γραφείο είναι ζεστό και άνετο."
                 ]
             }
         ],
@@ -1068,9 +1068,9 @@
         "plural": "δροσεροί",
         "definitions": [
             {
-                "text": "Slightly cold; pleasantly low temperature.",
+                "text": "Ελαφρώς κρύος, με ευχάριστα χαμηλή θερμοκρασία.",
                 "examples": [
-                    "She prefers cool weather for working."
+                    "Προτιμά τον δροσερό καιρό για να δουλεύει."
                 ]
             }
         ],
@@ -1089,14 +1089,14 @@
         "plural": "βρεγμένοι",
         "definitions": [
             {
-                "text": "Covered with water or liquid.",
+                "text": "Καλυμμένος με νερό ή υγρό.",
                 "examples": [
-                    "His jacket is wet from the rain."
+                    "Το σακάκι του είναι βρεγμένο από τη βροχή."
                 ]
             }
         ],
-        "subtext": "wet weather / wet clothes / get wet",
-        "comparative": "βρεγμέντερος",
+        "subtext": "βροχερός καιρός / βρεγμένα ρούχα / βρέχομαι",
+        "comparative": "πιο βρεγμένος",
         "superlative": "ο πιο βρεγμένος"
     },
     {
@@ -1110,9 +1110,9 @@
         "plural": "στεγνοί",
         "definitions": [
             {
-                "text": "Without water or liquid; not wet.",
+                "text": "Χωρίς νερό ή υγρό, όχι βρεγμένος.",
                 "examples": [
-                    "The storage room must stay dry."
+                    "Η αποθήκη πρέπει να παραμείνει στεγνή."
                 ]
             }
         ],
@@ -1130,14 +1130,14 @@
         "plural": "βρώμικοι",
         "definitions": [
             {
-                "text": "Covered in dirt or impurities.",
+                "text": "Καλυμμένος με βρωμιά ή ακαθαρσίες.",
                 "examples": [
-                    "His hands are dirty after fixing the car."
+                    "Τα χέρια του είναι βρώμικα μετά την επισκευή του αυτοκινήτου."
                 ]
             }
         ],
         "subtext": "βρώμικα χέρια / βρώμικα ρούχα / λερώνω",
-        "comparative": "βρώμικτερος",
+        "comparative": "πιο βρώμικος",
         "superlative": "ο πιο βρώμικος"
     },
     {
@@ -1151,9 +1151,9 @@
         "plural": "σκληροί",
         "definitions": [
             {
-                "text": "Firm and solid; difficult.",
+                "text": "Σταθερός και συμπαγής, δύσκολος.",
                 "examples": [
-                    "The chair is very hard and uncomfortable."
+                    "Η καρέκλα είναι πολύ σκληρή και άβολη."
                 ]
             }
         ],
@@ -1172,9 +1172,9 @@
         "plural": "μαλακοί",
         "definitions": [
             {
-                "text": "Not hard; gentle to the touch.",
+                "text": "Όχι σκληρός, απαλός στην αφή.",
                 "examples": [
-                    "The sofa is very soft and comfortable."
+                    "Ο καναπές είναι πολύ μαλακός και άνετος."
                 ]
             }
         ],
@@ -1193,9 +1193,9 @@
         "plural": "βαριοί",
         "definitions": [
             {
-                "text": "Of great weight; difficult to carry.",
+                "text": "Με μεγάλο βάρος, δύσκολο στη μεταφορά.",
                 "examples": [
-                    "The bag is very heavy with all those files."
+                    "Η τσάντα είναι πολύ βαριά με όλα αυτά τα αρχεία."
                 ]
             }
         ],
@@ -1214,9 +1214,9 @@
         "plural": "ελαφριοί",
         "definitions": [
             {
-                "text": "Not heavy; pale in colour.",
+                "text": "Όχι βαρύς, με ανοιχτό χρώμα.",
                 "examples": [
-                    "She carries a light bag to work every day."
+                    "Κουβαλάει μια ελαφριά τσάντα στη δουλειά κάθε μέρα."
                 ]
             }
         ],
@@ -1235,9 +1235,9 @@
         "plural": "καφέ",
         "definitions": [
             {
-                "text": "Having the colour of wood or earth.",
+                "text": "Έχει το χρώμα του ξύλου ή του χώματος.",
                 "examples": [
-                    "She has brown eyes and dark hair."
+                    "Έχει καφέ μάτια και σκούρα μαλλιά."
                 ]
             }
         ],
@@ -1256,9 +1256,9 @@
         "plural": "γκρι",
         "definitions": [
             {
-                "text": "Having a colour between black and white.",
+                "text": "Έχει ένα χρώμα ανάμεσα στο μαύρο και το λευκό.",
                 "examples": [
-                    "He has grey hair and a kind face."
+                    "Έχει γκρίζα μαλλιά και ένα ευγενικό πρόσωπο."
                 ]
             }
         ],
@@ -1277,9 +1277,9 @@
         "plural": "ροζ",
         "definitions": [
             {
-                "text": "Having a pale red colour.",
+                "text": "Έχει ένα ανοιχτό κόκκινο χρώμα.",
                 "examples": [
-                    "She prefers pink to red."
+                    "Προτιμάει το ροζ από το κόκκινο."
                 ]
             }
         ],
@@ -1298,9 +1298,9 @@
         "plural": "πορτοκαλί",
         "definitions": [
             {
-                "text": "Having the colour of an orange fruit.",
+                "text": "Έχει το χρώμα του φρούτου πορτοκάλι.",
                 "examples": [
-                    "He bought an orange jacket."
+                    "Αγόρασε ένα πορτοκαλί μπουφάν."
                 ]
             }
         ],
@@ -1319,14 +1319,14 @@
         "plural": "υπέροχοι",
         "definitions": [
             {
-                "text": "Extremely good; large in amount.",
+                "text": "Εξαιρετικά καλό, μεγάλο σε ποσότητα.",
                 "examples": [
-                    "She is a great manager."
+                    "Είναι μια υπέροχη διευθύντρια."
                 ]
             }
         ],
         "subtext": "μια υπέροχη ευκαιρία / μια υπέροχη στιγμή",
-        "comparative": "υπέροχτερος",
+        "comparative": "πιο υπέροχος",
         "superlative": "ο πιο υπέροχος"
     },
     {
@@ -1340,14 +1340,14 @@
         "plural": "ωραίοι",
         "definitions": [
             {
-                "text": "Pleasant or kind.",
+                "text": "Ευχάριστος ή ευγενικός.",
                 "examples": [
-                    "The new office is very nice."
+                    "Το νέο γραφείο είναι πολύ ωραίο."
                 ]
             }
         ],
         "subtext": "μια ωραία μέρα / ένα ωραίο μέρος / ένας ωραίος άνθρωπος",
-        "comparative": "ωραίτερος",
+        "comparative": "πιο ωραίος",
         "superlative": "ο πιο ωραίος"
     },
     {
@@ -1361,14 +1361,14 @@
         "plural": "θαυμάσιοι",
         "definitions": [
             {
-                "text": "Extremely good; causing delight.",
+                "text": "Εξαιρετικά καλό, που προκαλεί ευχαρίστηση.",
                 "examples": [
-                    "They had a wonderful team."
+                    "Είχαν μια θαυμάσια ομάδα."
                 ]
             }
         ],
-        "subtext": "a wonderful opportunity / a wonderful time",
-        "comparative": "θαυμάσιτερος",
+        "subtext": "μια θαυμάσια ευκαιρία / μια θαυμάσια στιγμή",
+        "comparative": "πιο θαυμάσιος",
         "superlative": "ο πιο θαυμάσιος"
     },
     {
@@ -1382,9 +1382,9 @@
         "plural": "τρομεροί",
         "definitions": [
             {
-                "text": "Extremely bad.",
+                "text": "Εξαιρετικά κακό.",
                 "examples": [
-                    "The traffic this morning was terrible."
+                    "Η κίνηση σήμερα το πρωί ήταν τρομερή."
                 ]
             }
         ],
@@ -1403,14 +1403,14 @@
         "plural": "απαίσιοι",
         "definitions": [
             {
-                "text": "Very bad or unpleasant.",
+                "text": "Πολύ κακό ή δυσάρεστο.",
                 "examples": [
-                    "The noise in the open office is awful."
+                    "Ο θόρυβος στο γραφείο είναι απαίσιος."
                 ]
             }
         ],
         "subtext": "απαίσιος καιρός / απαίσια νέα / απλώς απαίσιο",
-        "comparative": "απαίσιτερος",
+        "comparative": "πιο απαίσιος",
         "superlative": "ο πιο απαίσιος"
     },
     {
@@ -1424,13 +1424,13 @@
         "plural": "καταπληκτικοί",
         "definitions": [
             {
-                "text": "Causing great surprise or admiration.",
+                "text": "Που προκαλεί μεγάλη έκπληξη ή θαυμασμό.",
                 "examples": [
-                    "She gave an amazing presentation."
+                    "Έκανε μια καταπληκτική παρουσίαση."
                 ]
             }
         ],
-        "subtext": "an amazing result / an amazing offer / truly amazing",
+        "subtext": "ένα καταπληκτικό αποτέλεσμα / μια καταπληκτική προσφορά / πραγματικά καταπληκτικό",
         "comparative": "πιο καταπληκτικός",
         "superlative": "ο πιο καταπληκτικός"
     },
@@ -1445,9 +1445,9 @@
         "plural": "φανταστικοί",
         "definitions": [
             {
-                "text": "Extremely good.",
+                "text": "Εξαιρετικά καλό.",
                 "examples": [
-                    "The new system works in a fantastic way."
+                    "Το νέο σύστημα λειτουργεί με φανταστικό τρόπο."
                 ]
             }
         ],
@@ -1466,14 +1466,14 @@
         "plural": "λυπημένοι",
         "definitions": [
             {
-                "text": "Feeling unhappy or sorrowful.",
+                "text": "Που νιώθει δυστυχία ή θλίψη.",
                 "examples": [
-                    "He was sad to leave the company."
+                    "Ήταν λυπημένος που έφευγε από την εταιρεία."
                 ]
             }
         ],
         "subtext": "νιώθω λυπημένος / μια λυπηρή κατάσταση",
-        "comparative": "λυπημέντερος",
+        "comparative": "πιο λυπημένος",
         "superlative": "ο πιο λυπημένος"
     },
     {
@@ -1487,14 +1487,14 @@
         "plural": "πεινασμένοι",
         "definitions": [
             {
-                "text": "Needing food.",
+                "text": "Που χρειάζεται τροφή.",
                 "examples": [
-                    "I am hungry — it is already two o'clock."
+                    "Πεινάω — είναι ήδη δύο η ώρα."
                 ]
             }
         ],
         "subtext": "νιώθω πεινασμένος / πολύ πεινασμένος",
-        "comparative": "πεινασμέντερος",
+        "comparative": "πιο πεινασμένος",
         "superlative": "ο πιο πεινασμένος"
     },
     {
@@ -1508,14 +1508,14 @@
         "plural": "θυμωμένοι",
         "definitions": [
             {
-                "text": "Feeling strong displeasure.",
+                "text": "Που νιώθει έντονη δυσαρέσκεια.",
                 "examples": [
-                    "She was angry about the decision."
+                    "Ήταν θυμωμένη για την απόφαση."
                 ]
             }
         ],
         "subtext": "νιώθω θυμωμένος / θυμωμένος με κάποιον",
-        "comparative": "θυμωμέντερος",
+        "comparative": "πιο θυμωμένος",
         "superlative": "ο πιο θυμωμένος"
     },
     {
@@ -1529,14 +1529,14 @@
         "plural": "βαριεστημένοι",
         "definitions": [
             {
-                "text": "Feeling uninterested or restless.",
+                "text": "Που νιώθει έλλειψη ενδιαφέροντος ή ανησυχία.",
                 "examples": [
-                    "He feels bored in long meetings."
+                    "Βαριέται στις μακρές συναντήσεις."
                 ]
             }
         ],
         "subtext": "νιώθω βαριεστημένος / βαριέμαι εύκολα",
-        "comparative": "βαριεστημέντερος",
+        "comparative": "πιο βαριεστημένος",
         "superlative": "ο πιο βαριεστημένος"
     },
     {
@@ -1549,14 +1549,14 @@
         "plural": "ενθουσιασμένοι",
         "definitions": [
             {
-                "text": "Feeling enthusiasm and eagerness.",
+                "text": "Που νιώθει ενθουσιασμό και προθυμία.",
                 "examples": [
-                    "She is excited about her new job."
+                    "Είναι ενθουσιασμένη για τη νέα της δουλειά."
                 ]
             }
         ],
         "subtext": "νιώθω ενθουσιασμένος / πολύ ενθουσιασμένος",
-        "comparative": "ενθουσιασμέντερος",
+        "comparative": "πιο ενθουσιασμένος",
         "superlative": "ο πιο ενθουσιασμένος"
     },
     {
@@ -1570,14 +1570,14 @@
         "plural": "φοβισμένοι",
         "definitions": [
             {
-                "text": "Feeling fear.",
+                "text": "Που νιώθει φόβο.",
                 "examples": [
-                    "He is afraid of making mistakes."
+                    "Φοβάται να κάνει λάθη."
                 ]
             }
         ],
         "subtext": "φοβάμαι κάτι / νιώθω φοβισμένος",
-        "comparative": "φοβισμέντερος",
+        "comparative": "πιο φοβισμένος",
         "superlative": "ο πιο φοβισμένος"
     },
     {
@@ -1591,14 +1591,14 @@
         "plural": "μετανιωμένοι",
         "definitions": [
             {
-                "text": "Feeling regret or sadness.",
+                "text": "Νιώθω μετανιωμένος ή λυπημένος.",
                 "examples": [
-                    "She is sorry for the delay."
+                    "Λυπάται για την καθυστέρηση."
                 ]
             }
         ],
-        "subtext": "feel sorry / sorry for / sorry about",
-        "comparative": "μετανιωμέντερος",
+        "subtext": "λυπάμαι / λυπάμαι για κάποιον / μετανιώνω",
+        "comparative": "πιο μετανιωμένος",
         "superlative": "ο πιο μετανιωμένος"
     },
     {
@@ -1612,9 +1612,9 @@
         "plural": "σωστοί",
         "definitions": [
             {
-                "text": "Correct; suitable.",
+                "text": "Σωστός, κατάλληλος.",
                 "examples": [
-                    "Is this the right office?"
+                    "Είναι αυτό το σωστό γραφείο;"
                 ]
             }
         ],
@@ -1633,14 +1633,14 @@
         "plural": "λανθασμένοι",
         "definitions": [
             {
-                "text": "Not correct; not suitable.",
+                "text": "Όχι σωστό, όχι κατάλληλο.",
                 "examples": [
-                    "That was the wrong decision."
+                    "Αυτή ήταν η λάθος απόφαση."
                 ]
             }
         ],
-        "subtext": "wrong answer / go wrong / completely wrong",
-        "comparative": "λανθασμέντερος",
+        "subtext": "λανθασμένη απάντηση / πάει λάθος / εντελώς λάθος",
+        "comparative": "πιο λανθασμένος",
         "superlative": "ο πιο λανθασμένος"
     },
     {
@@ -1654,14 +1654,14 @@
         "plural": "καινούριοι",
         "definitions": [
             {
-                "text": "Not existing before; recently made.",
+                "text": "Που δεν υπήρχε πριν, που κατασκευάστηκε πρόσφατα.",
                 "examples": [
-                    "She has a new job starting in March."
+                    "Έχει μια καινούρια δουλειά που ξεκινάει τον Μάρτιο."
                 ]
             }
         ],
-        "subtext": "new job / brand new / completely new",
-        "comparative": "καινούριτερος",
+        "subtext": "νέα δουλειά / ολοκαίνουργιο / εντελώς καινούριο",
+        "comparative": "πιο καινούριος",
         "superlative": "ο πιο καινούριος"
     },
     {
@@ -1675,9 +1675,9 @@
         "plural": "διαφορετικοί",
         "definitions": [
             {
-                "text": "Not the same as another.",
+                "text": "Όχι το ίδιο με κάποιο άλλο.",
                 "examples": [
-                    "This job is very different from my last one."
+                    "Αυτή η δουλειά είναι πολύ διαφορετική από την προηγούμενη μου."
                 ]
             }
         ],
@@ -1690,20 +1690,20 @@
         "feminine": "ίδια",
         "level": "starter",
         "theme": "describing_things_A1",
-        "emoji": "identical",
+        "emoji": "👯",
         "form": "adjective",
         "neuter": "ίδιο",
         "plural": "ίδιοι",
         "definitions": [
             {
-                "text": "Not different; identical.",
+                "text": "Όχι διαφορετικός, πανομοιότυπος.",
                 "examples": [
-                    "They earn the same salary."
+                    "Κερδίζουν τον ίδιο μισθό."
                 ]
             }
         ],
         "subtext": "το ίδιο με / ακριβώς το ίδιο / την ίδια στιγμή",
-        "comparative": "ίδιτερος",
+        "comparative": "πιο ίδιος",
         "superlative": "ο πιο ίδιος"
     },
     {
@@ -1717,14 +1717,14 @@
         "plural": "γρήγοροι",
         "definitions": [
             {
-                "text": "Moving or happening quickly.",
+                "text": "Που κινείται ή συμβαίνει γρήγορα.",
                 "examples": [
-                    "The train to work is fast and reliable."
+                    "Το τρένο για τη δουλειά είναι γρήγορο και αξιόπιστο."
                 ]
             }
         ],
         "subtext": "γρήγορο φαγητό / γρήγορο τρένο / πολύ γρήγορο",
-        "comparative": "γρήγορτερος",
+        "comparative": "πιο γρήγορος",
         "superlative": "ο πιο γρήγορος"
     },
     {
@@ -1738,9 +1738,9 @@
         "plural": "αργοί",
         "definitions": [
             {
-                "text": "Not fast; taking a long time.",
+                "text": "Όχι γρήγορος, που παίρνει πολύ χρόνο.",
                 "examples": [
-                    "The new system is very slow."
+                    "Το νέο σύστημα είναι πολύ αργό."
                 ]
             }
         ],
@@ -1759,14 +1759,14 @@
         "plural": "ήσυχοι",
         "definitions": [
             {
-                "text": "Making little or no noise; peaceful.",
+                "text": "Που κάνει λίγο ή καθόλου θόρυβο, ειρηνικός.",
                 "examples": [
-                    "The office is quiet at lunchtime."
+                    "Το γραφείο είναι ήσυχο την ώρα του μεσημεριανού."
                 ]
             }
         ],
         "subtext": "ήσυχη περιοχή / μένω ήσυχος / ωραία και ήσυχα",
-        "comparative": "ήσυχτερος",
+        "comparative": "πιο ήσυχος",
         "superlative": "ο πιο ήσυχος"
     },
     {
@@ -1780,9 +1780,9 @@
         "plural": "δυνατοί",
         "definitions": [
             {
-                "text": "Making a lot of noise.",
+                "text": "Που κάνει πολύ θόρυβο.",
                 "examples": [
-                    "The open-plan office is too loud."
+                    "Το ανοιχτό γραφείο είναι πολύ θορυβώδες."
                 ]
             }
         ],
@@ -1801,9 +1801,9 @@
         "plural": "ασφαλείς",
         "definitions": [
             {
-                "text": "Not dangerous; protected from harm.",
+                "text": "Όχι επικίνδυνος, προστατευμένος από βλάβη.",
                 "examples": [
-                    "This neighbourhood is very safe."
+                    "Αυτή η γειτονιά είναι πολύ ασφαλής."
                 ]
             }
         ],
@@ -1822,14 +1822,14 @@
         "plural": "επικίνδυνοι",
         "definitions": [
             {
-                "text": "Likely to cause harm.",
+                "text": "Που είναι πιθανό να προκαλέσει βλάβη.",
                 "examples": [
-                    "The commute on that road is dangerous."
+                    "Η διαδρομή σε αυτόν τον δρόμο είναι επικίνδυνη."
                 ]
             }
         ],
         "subtext": "επικίνδυνη κατάσταση / πολύ επικίνδυνο",
-        "comparative": "επικίνδυντερος",
+        "comparative": "πιο επικίνδυνος",
         "superlative": "ο πιο επικίνδυνος"
     },
     {
@@ -1844,7 +1844,7 @@
             {
                 "text": "Το να μην νιώθει κάποιος ικανοποιημένος ή χαρούμενος.",
                 "examples": [
-                    "He is unhappy with his current salary."
+                    "Είναι δυσαρεστημένος με τον τρέχοντα μισθό του."
                 ]
             }
         ],
@@ -1864,7 +1864,7 @@
             {
                 "text": "Το να νιώθει κάποιος άγχος ή ανησυχία.",
                 "examples": [
-                    "He was nervous before the job interview."
+                    "Ήταν νευρικός πριν από τη συνέντευξη για δουλειά."
                 ]
             }
         ],
@@ -1882,14 +1882,14 @@
         "plural": "αγχωμένοι",
         "definitions": [
             {
-                "text": "Feeling worried and tense from pressure.",
+                "text": "Που νιώθει ανησυχία και ένταση λόγω πίεσης.",
                 "examples": [
-                    "She feels stressed before every deadline."
+                    "Νιώθει αγχωμένη πριν από κάθε προθεσμία."
                 ]
             }
         ],
         "subtext": "νιώθω άγχος / πολύ αγχωμένος / εξουθενωμένος",
-        "comparative": "αγχωμέντερος",
+        "comparative": "πιο αγχωμένος",
         "superlative": "ο πιο αγχωμένος"
     },
     {
@@ -1902,14 +1902,14 @@
         "plural": "σίγουροι",
         "definitions": [
             {
-                "text": "Feeling sure of your own abilities.",
+                "text": "Που νιώθει βεβαιότητα για τις ικανότητές του.",
                 "examples": [
-                    "She is very confident in client presentations."
+                    "Είναι πολύ σίγουρη στις παρουσιάσεις προς τους πελάτες."
                 ]
             }
         ],
         "subtext": "νιώθω σιγουριά / με αυτοπεποίθηση",
-        "comparative": "σίγουρτερος",
+        "comparative": "πιο σίγουρος",
         "superlative": "ο πιο σίγουρος"
     },
     {
@@ -1922,14 +1922,14 @@
         "plural": "περήφανοι",
         "definitions": [
             {
-                "text": "Feeling pleased about an achievement.",
+                "text": "Που νιώθει ικανοποίηση για ένα επίτευγμα.",
                 "examples": [
-                    "He was proud to get his first promotion."
+                    "Ήταν περήφανος που πήρε την πρώτη του προαγωγή."
                 ]
             }
         ],
         "subtext": "νιώθω περήφανος / πολύ περήφανος / περήφανος για",
-        "comparative": "περήφαντερος",
+        "comparative": "πιο περήφανος",
         "superlative": "ο πιο περήφανος"
     },
     {
@@ -1942,14 +1942,14 @@
         "plural": "φοβισμένοι",
         "definitions": [
             {
-                "text": "Feeling fear about something.",
+                "text": "Που νιώθει φόβο για κάτι.",
                 "examples": [
-                    "She was scared about giving the presentation."
+                    "Φοβόταν να κάνει την παρουσίαση."
                 ]
             }
         ],
         "subtext": "φοβάμαι κάτι / νιώθω φοβισμένος",
-        "comparative": "φοβισμέντερος",
+        "comparative": "πιο φοβισμένος",
         "superlative": "ο πιο φοβισμένος"
     },
     {
@@ -1962,14 +1962,14 @@
         "plural": "έκπληκτοι",
         "definitions": [
             {
-                "text": "Feeling shock at something unexpected.",
+                "text": "Που νιώθει σοκ από κάτι απροσδόκητο.",
                 "examples": [
-                    "He was surprised to get a pay rise."
+                    "Ήταν έκπληκτος που πήρε αύξηση."
                 ]
             }
         ],
         "subtext": "πολύ έκπληκτος / ευχάριστα έκπληκτος",
-        "comparative": "έκπληκττερος",
+        "comparative": "πιο έκπληκτος",
         "superlative": "ο πιο έκπληκτος"
     },
     {
@@ -1982,14 +1982,14 @@
         "plural": "απογοητευμένοι",
         "definitions": [
             {
-                "text": "Feeling sad because something was not as good as expected.",
+                "text": "Που νιώθει λύπη επειδή κάτι δεν ήταν τόσο καλό όσο αναμενόταν.",
                 "examples": [
-                    "She was disappointed not to get the job."
+                    "Απογοητεύτηκε που δεν πήρε τη δουλειά."
                 ]
             }
         ],
         "subtext": "βαθιά απογοητευμένος / απογοητευμένος με",
-        "comparative": "απογοητευμέντερος",
+        "comparative": "πιο απογοητευμένος",
         "superlative": "ο πιο απογοητευμένος"
     },
     {
@@ -2002,14 +2002,14 @@
         "plural": "όμορφοι",
         "definitions": [
             {
-                "text": "Attractive and pleasing to look at.",
+                "text": "Ελκυστικός και ευχάριστος στην όψη.",
                 "examples": [
-                    "She has a beautiful, bright office with city views."
+                    "Έχει ένα όμορφο, φωτεινό γραφείο με θέα στην πόλη."
                 ]
             }
         ],
         "subtext": "όμορφη θέα / όμορφη πόλη / απόλυτα όμορφο",
-        "comparative": "όμορφτερος",
+        "comparative": "πιο όμορφος",
         "superlative": "ο πιο όμορφος"
     },
     {
@@ -2022,9 +2022,9 @@
         "plural": "ωραίοι",
         "definitions": [
             {
-                "text": "Pleasant to look at; quite attractive.",
+                "text": "Ευχάριστο στην όψη, αρκετά ελκυστικό.",
                 "examples": [
-                    "The new meeting room is very pretty."
+                    "Η νέα αίθουσα συνεδριάσεων είναι πολύ ωραία."
                 ]
             }
         ],
@@ -2042,9 +2042,9 @@
         "plural": "δυνατοί",
         "definitions": [
             {
-                "text": "Having great physical or mental power.",
+                "text": "Έχει μεγάλη σωματική ή πνευματική δύναμη.",
                 "examples": [
-                    "She is a strong leader and very respected."
+                    "Είναι μια δυνατή ηγέτιδα και πολύ σεβαστή."
                 ]
             }
         ],
@@ -2062,14 +2062,14 @@
         "plural": "αδύναμοι",
         "definitions": [
             {
-                "text": "Lacking strength or power.",
+                "text": "Του λείπει η δύναμη ή η ισχύς.",
                 "examples": [
-                    "The signal is weak on the top floor."
+                    "Το σήμα είναι αδύναμο στον τελευταίο όροφο."
                 ]
             }
         ],
         "subtext": "αδύναμη σύνδεση / ένα αδύναμο επιχείρημα",
-        "comparative": "αδύναμτερος",
+        "comparative": "πιο αδύναμος",
         "superlative": "ο πιο αδύναμος"
     },
     {
@@ -2082,14 +2082,14 @@
         "plural": "γυμνασμένοι",
         "definitions": [
             {
-                "text": "In good physical condition through exercise.",
+                "text": "Σε καλή φυσική κατάσταση μέσω άσκησης.",
                 "examples": [
-                    "She keeps fit by cycling to work every day."
+                    "Παραμένει γυμνασμένη πηγαίνοντας στη δουλειά με ποδήλατο κάθε μέρα."
                 ]
             }
         ],
-        "subtext": "physically fit / stay fit / keep fit",
-        "comparative": "γυμνασμέντερος",
+        "subtext": "σε καλή φυσική κατάσταση / παραμένω σε φόρμα",
+        "comparative": "πιο γυμνασμένος",
         "superlative": "ο πιο γυμνασμένος"
     },
     {
@@ -2102,9 +2102,9 @@
         "plural": "εξαιρετικοί",
         "definitions": [
             {
-                "text": "Extremely good; of a very high standard.",
+                "text": "Εξαιρετικά καλό, πολύ υψηλού επιπέδου.",
                 "examples": [
-                    "She received an excellent review."
+                    "Έλαβε μια εξαιρετική κριτική."
                 ]
             }
         ],
@@ -2122,14 +2122,14 @@
         "plural": "τέλειοι",
         "definitions": [
             {
-                "text": "Without any faults; completely correct.",
+                "text": "Χωρίς ελαττώματα, εντελώς σωστό.",
                 "examples": [
-                    "The timing of the launch was perfect."
+                    "Ο χρόνος της έναρξης ήταν τέλειος."
                 ]
             }
         ],
         "subtext": "μια τέλεια ευκαιρία / τέλειος χρόνος",
-        "comparative": "τέλειτερος",
+        "comparative": "πιο τέλειος",
         "superlative": "ο πιο τέλειος"
     },
     {
@@ -2142,14 +2142,14 @@
         "plural": "άχρηστοι",
         "definitions": [
             {
-                "text": "Without any useful value; not helpful.",
+                "text": "Χωρίς καμία χρήσιμη αξία, καθόλου βοηθητικό.",
                 "examples": [
-                    "This software is useless for our needs."
+                    "Αυτό το λογισμικό είναι άχρηστο για τις ανάγκες μας."
                 ]
             }
         ],
         "subtext": "εντελώς άχρηστος / αποδεικνύεται άχρηστος",
-        "comparative": "άχρησττερος",
+        "comparative": "πιο άχρηστος",
         "superlative": "ο πιο άχρηστος"
     },
     {
@@ -2162,9 +2162,9 @@
         "plural": "σωστοί",
         "definitions": [
             {
-                "text": "True or right; without errors.",
+                "text": "Αληθές ή σωστό, χωρίς λάθη.",
                 "examples": [
-                    "Please check the figures are correct."
+                    "Παρακαλώ ελέγξτε αν τα νούμερα είναι σωστά."
                 ]
             }
         ],
@@ -2182,9 +2182,9 @@
         "plural": "ενδιαφέροντες",
         "definitions": [
             {
-                "text": "Attracting attention; worth knowing about.",
+                "text": "Που τραβάει την προσοχή, που αξίζει να το ξέρεις.",
                 "examples": [
-                    "The new proposal is very interesting."
+                    "Η νέα πρόταση είναι πολύ ενδιαφέρουσα."
                 ]
             }
         ],
@@ -2202,9 +2202,9 @@
         "plural": "βαρετοί",
         "definitions": [
             {
-                "text": "Not interesting; dull.",
+                "text": "Όχι ενδιαφέρων, ανιαρός.",
                 "examples": [
-                    "The training session was very boring."
+                    "Η εκπαιδευτική συνεδρία ήταν πολύ βαρετή."
                 ]
             }
         ],
@@ -2222,14 +2222,14 @@
         "plural": "απαραίτητοι",
         "definitions": [
             {
-                "text": "Needed; required in order to do something.",
+                "text": "Που χρειάζεται ή απαιτείται για να γίνει κάτι.",
                 "examples": [
-                    "A good internet connection is necessary for remote work."
+                    "Μια καλή σύνδεση στο διαδίκτυο είναι απαραίτητη για την απομακρυσμένη εργασία."
                 ]
             }
         ],
         "subtext": "απολύτως απαραίτητο / εάν χρειαστεί",
-        "comparative": "απαραίτηττερος",
+        "comparative": "πιο απαραίτητος",
         "superlative": "ο πιο απαραίτητος"
     },
     {
@@ -2242,9 +2242,9 @@
         "plural": "πιθανοί",
         "definitions": [
             {
-                "text": "Able to happen or be achieved.",
+                "text": "Ικανό να συμβεί ή να επιτευχθεί.",
                 "examples": [
-                    "Is it possible to finish by Friday?"
+                    "Είναι δυνατόν να τελειώσουμε μέχρι την Παρασκευή;"
                 ]
             }
         ],
@@ -2262,14 +2262,14 @@
         "plural": "αδύνατοι",
         "definitions": [
             {
-                "text": "Not able to happen or be done.",
+                "text": "Δεν είναι δυνατόν να συμβεί ή να γίνει.",
                 "examples": [
-                    "It is impossible to finish in one day."
+                    "Είναι αδύνατον να τελειώσουμε σε μία μέρα."
                 ]
             }
         ],
-        "subtext": "virtually impossible / make impossible / nearly impossible",
-        "comparative": "αδύναττερος",
+        "subtext": "σχεδόν αδύνατο / καθιστώ αδύνατο",
+        "comparative": "πιο αδύνατος",
         "superlative": "ο πιο αδύνατος"
     },
     {
@@ -2282,13 +2282,13 @@
         "plural": "ειδικοί",
         "definitions": [
             {
-                "text": "Different from what is usual; particularly important.",
+                "text": "Διαφορετικό από το συνηθισμένο, ιδιαίτερα σημαντικό.",
                 "examples": [
-                    "She has a special talent for problem-solving."
+                    "Έχει ένα ειδικό ταλέντο στην επίλυση προβλημάτων."
                 ]
             }
         ],
-        "subtext": "a special offer / special occasion / very special",
+        "subtext": "μια ειδική προσφορά / ειδική περίσταση / πολύ ειδικό",
         "comparative": "πιο ειδικός",
         "superlative": "ο πιο ειδικός"
     },
@@ -2302,9 +2302,9 @@
         "plural": "δημοφιλείς",
         "definitions": [
             {
-                "text": "Liked by many people.",
+                "text": "Που αρέσει σε πολλούς ανθρώπους.",
                 "examples": [
-                    "The new café near the office is very popular."
+                    "Το νέο καφέ κοντά στο γραφείο είναι πολύ δημοφιλές."
                 ]
             }
         ],
@@ -2322,14 +2322,14 @@
         "plural": "παρόμοιοι",
         "definitions": [
             {
-                "text": "Almost the same; having many shared features.",
+                "text": "Σχεδόν το ίδιο, που έχει πολλά κοινά χαρακτηριστικά.",
                 "examples": [
-                    "Our approaches are very similar."
+                    "Οι προσεγγίσεις μας είναι πολύ παρόμοιες."
                 ]
             }
         ],
         "subtext": "πολύ παρόμοιος / παρόμοιος με",
-        "comparative": "παρόμοιτερος",
+        "comparative": "πιο παρόμοιος",
         "superlative": "ο πιο παρόμοιος"
     },
     {
@@ -2342,9 +2342,9 @@
         "plural": "φιλικοί",
         "definitions": [
             {
-                "text": "Kind and pleasant; easy to talk to.",
+                "text": "Ευγενικός και ευχάριστος, που μπορείς να του μιλήσεις εύκολα.",
                 "examples": [
-                    "The new manager is very friendly and approachable."
+                    "Ο νέος διευθυντής είναι πολύ φιλικός και προσιτός."
                 ]
             }
         ],
@@ -2362,9 +2362,9 @@
         "plural": "ευγενικοί",
         "definitions": [
             {
-                "text": "Caring and generous to others.",
+                "text": "Που νοιάζεται και είναι γενναιόδωρος με τους άλλους.",
                 "examples": [
-                    "She is kind to everyone in the office."
+                    "Είναι ευγενική με όλους στο γραφείο."
                 ]
             }
         ],
@@ -2382,14 +2382,14 @@
         "plural": "αστείοι",
         "definitions": [
             {
-                "text": "Making people laugh; humorous.",
+                "text": "Που κάνει τους ανθρώπους να γελούν, χιουμοριστικός.",
                 "examples": [
-                    "He has a funny way of explaining complex ideas."
+                    "Έχει έναν αστείο τρόπο να εξηγεί πολύπλοκες ιδέες."
                 ]
             }
         ],
         "subtext": "πολύ αστείος / αστεία ιστορία",
-        "comparative": "αστείτερος",
+        "comparative": "πιο αστείος",
         "superlative": "ο πιο αστείος"
     },
     {
@@ -2402,14 +2402,14 @@
         "plural": "έξυπνοι",
         "definitions": [
             {
-                "text": "Intelligent; quick to understand.",
+                "text": "Νοήμων, που καταλαβαίνει γρήγορα.",
                 "examples": [
-                    "She is a clever negotiator."
+                    "Είναι μια έξυπνη διαπραγματεύτρια."
                 ]
             }
         ],
         "subtext": "πολύ έξυπνος / μια έξυπνη ιδέα",
-        "comparative": "έξυπντερος",
+        "comparative": "πιο έξυπνος",
         "superlative": "ο πιο έξυπνος"
     },
     {
@@ -2422,13 +2422,13 @@
         "plural": "ευγενείς",
         "definitions": [
             {
-                "text": "Behaving in a respectful and courteous way.",
+                "text": "Που συμπεριφέρεται με σεβασμό και ευγένεια.",
                 "examples": [
-                    "He is always polite with clients."
+                    "Είναι πάντα ευγενής με τους πελάτες."
                 ]
             }
         ],
-        "subtext": "very polite / polite request / polite enough",
+        "subtext": "πολύ ευγενικός / ευγενικό αίτημα / αρκετά ευγενής",
         "comparative": "πιο ευγενής",
         "superlative": "ο πιο ευγενής"
     },
@@ -2442,13 +2442,13 @@
         "plural": "αγενείς",
         "definitions": [
             {
-                "text": "Not polite; showing a lack of respect.",
+                "text": "Όχι ευγενικός, που δείχνει έλλειψη σεβασμού.",
                 "examples": [
-                    "That email was quite rude and unprofessional."
+                    "Εκείνο το email ήταν αρκετά αγενές και αντιεπαγγελματικό."
                 ]
             }
         ],
-        "subtext": "πολύ αγενής / απίστευτα αγενής",
+        "subtext": "πολύ αγενής / απίστευτα αγενής / εσκεμμένα αγενής",
         "comparative": "πιο αγενής",
         "superlative": "ο πιο αγενής"
     },
@@ -2462,13 +2462,13 @@
         "plural": "τεμπέληδες",
         "definitions": [
             {
-                "text": "Not willing to work or use effort.",
+                "text": "Που δεν θέλει να δουλέψει ή να καταβάλει προσπάθεια.",
                 "examples": [
-                    "He has a reputation for being lazy with follow-ups."
+                    "Έχει τη φήμη ότι είναι τεμπέλης με τις εκκρεμότητες."
                 ]
             }
         ],
-        "subtext": "πολύ τεμπέλης / μια τεμπέλικη προσέγγιση",
+        "subtext": "πολύ τεμπέλης / μια τεμπέλικη προσέγγιση / πολύ τεμπέλης",
         "comparative": "πιο τεμπέλης",
         "superlative": "ο πιο τεμπέλης"
     },
@@ -2482,13 +2482,13 @@
         "plural": "ειλικρινείς",
         "definitions": [
             {
-                "text": "Telling the truth; not deceiving.",
+                "text": "Που λέει την αλήθεια, που δεν εξαπατά.",
                 "examples": [
-                    "She is known for being completely honest with clients."
+                    "Είναι γνωστή για το ότι είναι απόλυτα ειλικρινής με τους πελάτες."
                 ]
             }
         ],
-        "subtext": "πολύ ειλικρινής / βάναυσα ειλικρινής",
+        "subtext": "πολύ ειλικρινής / βάναυσα ειλικρινής / εντελώς ειλικρινής",
         "comparative": "πιο ειλικρινής",
         "superlative": "ο πιο ειλικρινής"
     },
@@ -2502,13 +2502,13 @@
         "plural": "θορυβώδεις",
         "definitions": [
             {
-                "text": "Making a lot of sound; loud.",
+                "text": "Που κάνει πολύ θόρυβο.",
                 "examples": [
-                    "The open plan office is very noisy."
+                    "Το γραφείο ανοιχτού τύπου είναι πολύ θορυβώδες."
                 ]
             }
         ],
-        "subtext": "πολύ θορυβώδης / θορυβώδες περιβάλλον",
+        "subtext": "πολύ θορυβώδης / θορυβώδες περιβάλλον / πολύς θόρυβος",
         "comparative": "πιο θορυβώδης",
         "superlative": "ο πιο θορυβώδης"
     }

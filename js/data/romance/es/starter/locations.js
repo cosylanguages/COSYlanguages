@@ -3,67 +3,67 @@
     {
         "word": "Francia",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Italia",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Rusia",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Grecia",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Inglaterra",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "España",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "EE. UU.",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "París",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Londres",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Roma",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Moscú",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Atenas",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     },
     {
         "word": "Nueva York",
         "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "theme": "address_location_A1"
     }
 ];
     const lang = "es";

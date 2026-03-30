@@ -3,12 +3,12 @@
     {
         "word": "Albert Einstein",
         "level": "starter",
-        "theme": "identity_self_C1"
+        "theme": "marital_status_A1"
     },
     {
         "word": "Taylor Swift",
         "level": "starter",
-        "theme": "identity_self_C1"
+        "theme": "marital_status_A1"
     }
 ];
     const lang = "en";
