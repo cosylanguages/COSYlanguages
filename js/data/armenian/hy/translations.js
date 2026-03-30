@@ -921,6 +921,9 @@
             faq_5_a: "Just a device with a camera and microphone. All learning materials, including our free practice tools and games, are provided by us.",
         },
             label_v3: "V3 (Հարակատար)",
+            label_positive: "հաստատական",
+            label_negative: "ժխտական",
+            label_question: "հարցական",
             verb_group_el: "-ել խումբ",
             verb_group_al: "-ալ խումբ",
             verb_group_irregular: "Անկանონ խումբ"

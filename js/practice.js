@@ -224,6 +224,8 @@ function populateSubThemes() {
             let groups = [];
             if (lang === 'fr') groups = ['er', 'ir', 're', 'oir', 'irregular'];
             else if (lang === 'it') groups = ['are', 'ere', 'ire', 'ire_isc', 'urre', 'riflessivo', 'irregular'];
+            else if (lang === 'es' || lang === 'pt') groups = ['ar', 'er', 'ir', 'irregular'];
+            else if (lang === 'de') groups = ['en', 'ln', 'rn', 'irregular'];
             else if (lang === 'en') groups = ['regular', 'irregular'];
             else if (lang === 'ru') groups = ['1st_conj', '2nd_conj', 'mixed_conj', 'irregular'];
             else if (lang === 'el') groups = ['a', 'b1', 'b2', 'a_passive', 'irregular'];
@@ -939,6 +941,38 @@ const GRAMMAR_CONFIG = {
     en: {
         articles: ['the'],
         pronouns: ['I', 'you', 'he', 'she', 'it', 'we', 'they']
+    },
+    es: {
+        articles: ['el', 'la', 'los', 'las'],
+        pronouns: ['yo', 'tú', 'él', 'ella', 'nosotros', 'vosotros', 'ellos', 'ellas']
+    },
+    pt: {
+        articles: ['o', 'a', 'os', 'as'],
+        pronouns: ['eu', 'tu', 'ele', 'ela', 'nós', 'vós', 'eles', 'elas']
+    },
+    de: {
+        articles: ['der', 'die', 'das'],
+        pronouns: ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'sie']
+    },
+    hy: {
+        articles: [],
+        pronouns: ['ես', 'դու', 'նա', 'մենք', 'դուք', 'նրանք']
+    },
+    ka: {
+        articles: [],
+        pronouns: ['მე', 'შენ', 'ის', 'ჩვენ', 'თქვენ', 'ისინი']
+    },
+    tt: {
+        articles: [],
+        pronouns: ['мин', 'син', 'ул', 'без', 'сез', 'алар']
+    },
+    ba: {
+        articles: [],
+        pronouns: ['мин', 'син', 'ул', 'беҙ', 'һеҙ', 'алар']
+    },
+    br: {
+        articles: ['an', 'al', 'ar'],
+        pronouns: ["me", "te", "eñ", "hi", "ni", "c'hwi", "int"]
     }
 };
 
@@ -1007,8 +1041,19 @@ function expandGrammarItems(items, lang) {
                         if (lang === 'en' && tense === 'present_simple' && !['he', 'she', 'it'].includes(pronoun.toLowerCase()) && Math.random() > 0.4) {
                             return;
                         }
-                        const label = (formType === 'negative') ? " (-)" : (formType === 'question') ? " (?)" : "";
-                        let verbPrompt = (formType === 'question') ? `____? (${pronoun} + ${infinitive})` : `${pronoun} ____ (${infinitive}${label})`;
+                        const cleanInf = infinitive.replace(/^to\s+/i, '');
+                        const label = (translations[lang] && translations[lang]['label_' + formType]) ? ` (${translations[lang]['label_' + formType]})` : '';
+                        let verbPrompt = "";
+                        if (formType === 'question') {
+                            if (lang === 'en') verbPrompt = `____ (${pronoun} / ${cleanInf})?`;
+                            else if (lang === 'es') verbPrompt = `¿____? (${pronoun} + ${cleanInf})`;
+                            else verbPrompt = `____? (${pronoun} + ${cleanInf})`;
+                        } else if (formType === 'negative') {
+                            if (lang === 'en') verbPrompt = `${pronoun} ____ (not / ${cleanInf})`;
+                            else verbPrompt = `${pronoun} ____ (${cleanInf} -)`;
+                        } else {
+                            verbPrompt = `${pronoun} ____ (${cleanInf})`;
+                        }
                         let distractors = itemVerbForms.filter(v => v !== conj.toLowerCase());
                         if (lang === 'en') {
                             const beForms = ['am', 'is', 'are', 'was', 'were', 'am not', 'is not', 'are not', 'was not', 'were not'];
@@ -1326,9 +1371,11 @@ function startPractice(isWheelMode = false) {
                 if (selectedSubTheme.startsWith('verb_group_')) {
                     const targetGroup = selectedSubTheme.replace('verb_group_', '');
                     rawItems = rawItems.filter(item => {
-                        if (!item.group) return false;
-                        const itemGroup = item.group.toLowerCase().replace(/^-/, '').replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_').replace(/_$/, '');
-                        return itemGroup === targetGroup || (targetGroup === 'irregular' && item.classification === 'irregular');
+                        const itemGroup = item.group ? item.group.toLowerCase().replace(/^-/, '').replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_').replace(/_$/, '') : null;
+                        const isIrreg = (item.classification === 'irregular' || item.group === 'irregular' || itemGroup === 'irregular');
+                        if (targetGroup === 'irregular') return isIrreg;
+                        if (targetGroup === 'regular' && item.classification === 'regular') return true;
+                        return itemGroup === targetGroup;
                     });
                 } else {
                     rawItems = rawItems.filter(item => (item.theme === selectedSubTheme || item.originalTheme === selectedSubTheme || item.subTheme === selectedSubTheme));

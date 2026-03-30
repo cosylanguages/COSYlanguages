@@ -921,6 +921,9 @@
             faq_5_a: "Just a device with a camera and microphone. All learning materials, including our free practice tools and games, are provided by us.",
         },
             label_v3: "V3 (ნამყო მიმღეობა)",
+            label_positive: "დადებითი",
+            label_negative: "უარყოფითი",
+            label_question: "კითხვითი",
             verb_group_irregular: "არაწესიერი ჯგუფი"
         };
     window.translations = window.translations || {};
