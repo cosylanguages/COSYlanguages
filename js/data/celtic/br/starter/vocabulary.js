@@ -9,7 +9,7 @@
         "definitions": [
             {
                 "text": "Un den a sikour ar re glañv.",
-                "examples": []
+                "examples": ["Ar medisin a labour en ospital."]
             }
         ]
     },
@@ -22,7 +22,7 @@
         "definitions": [
             {
                 "text": "Lid ar c'horf e traoñ ar c'har.",
-                "examples": []
+                "examples": ["Poan am eus em troad."]
             }
         ]
     },
@@ -35,7 +35,7 @@
         "definitions": [
             {
                 "text": "Un den a sikour da zeskiñ.",
-                "examples": []
+                "examples": ["Ar c'helenner a zo er c'hlas."]
             }
         ]
     },
@@ -48,7 +48,7 @@
         "definitions": [
             {
                 "text": "Bara plat gant keuz ha tomatez.",
-                "examples": []
+                "examples": ["Plijout a ra ar pizza din."]
             }
         ]
     },
@@ -61,7 +61,7 @@
         "definitions": [
             {
                 "text": "Boued graet gant bleud ha vioù.",
-                "examples": []
+                "examples": ["Debriñ a reomp pasta hiziv."]
             }
         ]
     },
@@ -74,7 +74,7 @@
         "definitions": [
             {
                 "text": "Ur frouezhenn ront, ruz pe wer.",
-                "examples": []
+                "examples": ["Ruz eo an aval."]
             }
         ]
     },
@@ -87,7 +87,7 @@
         "definitions": [
             {
                 "text": "Ur boued boutin graet gant bleud ha dour.",
-                "examples": []
+                "examples": ["Prenañ a ran bara bemdez."]
             }
         ]
     },
@@ -100,7 +100,7 @@
         "definitions": [
             {
                 "text": "Un dra vi lakaet gant ur yar.",
-                "examples": []
+                "examples": ["Ur vi evit lein."]
             }
         ]
     },
@@ -113,7 +113,7 @@
         "definitions": [
             {
                 "text": "Ul livenn wenn produet gant saout.",
-                "examples": []
+                "examples": ["Evañ a ran laezh yen."]
             }
         ]
     },
@@ -126,7 +126,7 @@
         "definitions": [
             {
                 "text": "Ur frouezhenn velen hir.",
-                "examples": []
+                "examples": ["Melen eo ar vananezenn."]
             }
         ]
     },
@@ -139,7 +139,7 @@
         "definitions": [
             {
                 "text": "Un evaj rous tomm graet gant greun kafe.",
-                "examples": []
+                "examples": ["Evañ a ran kafe hep sukr."]
             }
         ]
     },
@@ -152,7 +152,7 @@
         "definitions": [
             {
                 "text": "Un evaj tomm graet gant dour ha delioù te.",
-                "examples": []
+                "examples": ["Ur banne te tomm, mar plij."]
             }
         ]
     },
@@ -178,7 +178,7 @@
         "definitions": [
             {
                 "text": "Ul lec'h ma ya ar vugale da zeskiñ.",
-                "examples": []
+                "examples": ["Digoret e vez ar skol da eizh eur."]
             }
         ]
     },
@@ -191,7 +191,7 @@
         "definitions": [
             {
                 "text": "Ur roched skañv gant milginoù berr.",
-                "examples": []
+                "examples": ["Ur roched-sport c'hlas am eus."]
             }
         ]
     },
@@ -204,7 +204,7 @@
         "definitions": [
             {
                 "text": "Ur gwiskamant evit ar gar.",
-                "examples": []
+                "examples": ["Nevez eo ar bragoù-mañ."]
             }
         ]
     },
@@ -230,7 +230,7 @@
         "definitions": [
             {
                 "text": "Un dra a lakaer war ar penn.",
-                "examples": []
+                "examples": ["Dougen a ra un tog evit an heol."]
             }
         ]
     },
@@ -243,7 +243,7 @@
         "definitions": [
             {
                 "text": "Ur pezh arrebeuri evit azezañ.",
-                "examples": []
+                "examples": ["Azez war ar gador-mañ."]
             }
         ]
     },
@@ -256,7 +256,7 @@
         "definitions": [
             {
                 "text": "Ur pezh arrebeuri gant pevar zroad.",
-                "examples": []
+                "examples": ["War an daol emañ al levr."]
             }
         ]
     },
@@ -269,7 +269,7 @@
         "definitions": [
             {
                 "text": "Ur pezh arrebeuri evit kousket.",
-                "examples": []
+                "examples": ["Bras-tre eo ar gwele."]
             }
         ]
     },
@@ -282,7 +282,7 @@
         "definitions": [
             {
                 "text": "Un dra vetal evit digeriñ un nor.",
-                "examples": []
+                "examples": ["Kollet am eus ma alc'hwez."]
             }
         ]
     },
@@ -295,7 +295,7 @@
         "definitions": [
             {
                 "text": "Un dra evit komz ouzh an dud bell.",
-                "examples": []
+                "examples": ["Ne ya ket en-dro ma fellgomz."]
             }
         ]
     },
@@ -321,7 +321,7 @@
         "definitions": [
             {
                 "text": "Ur barrikenn evit dougen traoù.",
-                "examples": []
+                "examples": ["Dougen a ran ma zraoù er sac'h."]
             }
         ]
     },
@@ -373,7 +373,7 @@
         "definitions": [
             {
                 "text": "Lid ar vrec'h gant bizied.",
-                "examples": []
+                "examples": ["Gwalc'h da zaouarn."]
             }
         ]
     },
@@ -386,7 +386,7 @@
         "definitions": [
             {
                 "text": "Lid ar c'horf evit bale.",
-                "examples": []
+                "examples": ["Divgar hir he deus."]
             }
         ]
     },
@@ -399,7 +399,7 @@
         "definitions": [
             {
                 "text": "Lid ar c'horf evit gwelet.",
-                "examples": []
+                "examples": ["Daoulagad gwer en deus."]
             }
         ]
     },
@@ -412,7 +412,7 @@
         "definitions": [
             {
                 "text": "Lid ar dremm evit klevout an ez.",
-                "examples": []
+                "examples": ["C'hwezhañ a reomp gant ar fri."]
             }
         ]
     },
@@ -425,7 +425,7 @@
         "definitions": [
             {
                 "text": "Lid ar dremm evit debriñ ha komz.",
-                "examples": []
+                "examples": ["Digor da c'henou."]
             }
         ]
     },
@@ -438,7 +438,7 @@
         "definitions": [
             {
                 "text": "Lid ar c'horf evit klevout.",
-                "examples": []
+                "examples": ["Klevout a reomp gant ar skouarn."]
             }
         ]
     },
@@ -451,7 +451,7 @@
         "definitions": [
             {
                 "text": "Ur vaouez hag a zo tad pe vamm.",
-                "examples": []
+                "examples": ["Lenn a ra ar vaouez ar gazetenn."]
             }
         ]
     },
@@ -464,7 +464,7 @@
         "definitions": [
             {
                 "text": "Un den hag a zo tad pe vamm.",
-                "examples": []
+                "examples": ["An den-se a zo ma eontr."]
             }
         ]
     },
@@ -477,7 +477,7 @@
         "definitions": [
             {
                 "text": "Ul labour; ul lec'h evit gounit arc'hant.",
-                "examples": []
+                "examples": ["Klask a ran ul labour nevez."]
             }
         ]
     },
@@ -490,7 +490,7 @@
         "definitions": [
             {
                 "text": "Al lec'h ma vevit.",
-                "examples": []
+                "examples": ["Distreiñ a ran d'ar gêr diwezhat."]
             }
         ]
     },
@@ -503,7 +503,7 @@
         "definitions": [
             {
                 "text": "Ur c'harr gant peder rod.",
-                "examples": []
+                "examples": ["Bleniañ a ran ur c'harr ruz."]
             }
         ]
     },
@@ -516,7 +516,7 @@
         "definitions": [
             {
                 "text": "Ur c'harr bras evit kalz a dud.",
-                "examples": []
+                "examples": ["Erruout a raio ar c'harr-boutin a-benn nebeut."]
             }
         ]
     },
@@ -581,7 +581,7 @@
         "definitions": [
             {
                 "text": "Un den a blij deoc'h ha a anavezit mat.",
-                "examples": []
+                "examples": ["Ma mignon gwellañ eo."]
             }
         ]
     },
@@ -607,7 +607,7 @@
         "definitions": [
             {
                 "text": "Ur prantad seizh devezh.",
-                "examples": []
+                "examples": ["Un deiz mat eo hiziv."]
             }
         ]
     },
@@ -620,7 +620,7 @@
         "definitions": [
             {
                 "text": "Traoù a vez debret gant an dud.",
-                "examples": []
+                "examples": ["Prest eo ar merenn."]
             }
         ]
     },
@@ -659,7 +659,7 @@
         "definitions": [
             {
                 "text": "Ar pred pennañ, d'an noz peurvuiañ.",
-                "examples": []
+                "examples": ["Debriñ a reomp koan da eizh eur."]
             }
         ]
     },
@@ -672,7 +672,7 @@
         "definitions": [
             {
                 "text": "Lid an deiz a-raok kreisteiz.",
-                "examples": []
+                "examples": ["Yen eo ar mintin-mañ."]
             }
         ]
     },
@@ -685,7 +685,7 @@
         "definitions": [
             {
                 "text": "Lid an deiz goude merenn.",
-                "examples": []
+                "examples": ["Mont a reomp kuit deus an noz."]
             }
         ]
     },
