@@ -72,7 +72,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "მისცე რჩევა / ფული / საჩუქარი / ინფორმაცია",
-        "opposite": "take",
+        "opposite": "აღება",
         "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
@@ -95,7 +95,7 @@
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "წახვიდე ავტობუსით / მიიღო წამალი / შეისვენო / დახარჯო დრო",
-        "opposite": "give",
+        "opposite": "მიცემა",
         "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
@@ -223,7 +223,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "გააღო კარი / გახსნა ანგარიში / გახსნა მაღაზია",
-        "opposite": "close",
+        "opposite": "დახურვა",
         "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
@@ -246,7 +246,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "დაკეტო კარი / დაიკეტოს ექვსზე / დახურო შეხვედრა",
-        "opposite": "open",
+        "opposite": "გახსნა",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -269,7 +269,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "დაიწყო მუშაობა / დაიწყო შეხვედრა / დაიწყო ახალი სამსახური",
-        "opposite": "finish",
+        "opposite": "დასრულება",
         "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
@@ -292,7 +292,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "დაამთავრო სამუშაო / პროექტი / ადრე / გვიან",
-        "opposite": "start",
+        "opposite": "დაწყება",
         "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
@@ -420,7 +420,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "დაკარგო სამსახური / ფული / დაიკლო წონაში",
-        "opposite": "win",
+        "opposite": "მოგება",
         "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
@@ -632,7 +632,7 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "დაწერო იმეილი / ანგარიში / წერილი / შენიშვნები",
-        "opposite": "read",
+        "opposite": "კითხვა",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -655,7 +655,7 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "წაიკითხო წიგნი / ახალი ამბები / ხელშეკრულება",
-        "opposite": "write",
+        "opposite": "წერა",
         "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
@@ -762,7 +762,7 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "მოხვიდე სახლში / სამუშაოზე / დაბრუნდე / მოხვიდე აქ",
-        "opposite": "go",
+        "opposite": "წასვლა",
         "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -847,7 +847,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "subtext": "სამსახურში მისვლა / დაგვიანებით მისვლა",
         "form": "verb",
         "definitions": [
             {
@@ -868,7 +868,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "leave home / leave work / leave early / leave late",
+        "subtext": "სახლიდან გასვლა / სამსახურიდან წასვლა",
         "form": "verb",
         "definitions": [
             {
@@ -931,7 +931,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
-        "subtext": "travel for work / travel abroad / travel by train",
+        "subtext": "სამსახურებრივი მგზავრობა / საზღვარგარეთ მოგზაურობა",
         "form": "verb",
         "definitions": [
             {
@@ -953,7 +953,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "ისაუზმო / ისადილო / ივახშმო / გარეთ ჭამო",
-        "opposite": "drink",
+        "opposite": "დალევა",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
@@ -976,7 +976,7 @@
         "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "დალიო ყავა / ჩაი / წყალი / ლუდი",
-        "opposite": "eat",
+        "opposite": "ჭამა",
         "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
@@ -998,8 +998,8 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
-        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
-        "opposite": "wake up",
+        "subtext": "კარგად ძილი / ცუდად ძილი",
+        "opposite": "გაღვიძება",
         "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
@@ -1021,7 +1021,7 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
-        "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
+        "subtext": "ვახშმის მომზადება / სახლში მომზადება",
         "form": "verb",
         "definitions": [
             {
@@ -1042,7 +1042,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
-        "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
+        "subtext": "ბინის დალაგება / სამზარეულოს დალაგება",
         "form": "verb",
         "definitions": [
             {
@@ -1063,7 +1063,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "subtext": "wear a suit / wear glasses / wear casual clothes",
+        "subtext": "კოსტუმის ტარება / სათვალის ტარება",
         "form": "verb",
         "definitions": [
             {
@@ -1106,7 +1106,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "იყიდო საჭმელი / ბილეთი / ონლაინ",
-        "opposite": "sell",
+        "opposite": "გაყიდვა",
         "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
@@ -1171,7 +1171,7 @@
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "დაზოგო ფული / შეინახო",
-        "opposite": "spend",
+        "opposite": "ხარჯვა",
         "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
@@ -1215,7 +1215,7 @@
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "იცხოვრო ბინაში / მარტომ / ვინმესთან / საზღვარგარეთ",
-        "opposite": "die",
+        "opposite": "სიკვდილი",
         "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
@@ -1554,7 +1554,7 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "გაიღვიძო ადრე / გვიან / დაღლილმა",
-        "opposite": "sleep",
+        "opposite": "ძილი",
         "oppositeEmoji": "😴",
         "definitions": [
             {
@@ -1660,7 +1660,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "დაჯდე / დაჯდე მაგიდასთან / იჯდე შეხვედრაზე",
-        "opposite": "stand",
+        "opposite": "დგომა",
         "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
@@ -1683,7 +1683,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "ადგე / იდგე რიგში / გამოირჩეოდე",
-        "opposite": "sit",
+        "opposite": "ჯდომა",
         "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
@@ -1811,7 +1811,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "მოიგო თამაში / პრიზი / კონტრაქტი",
-        "opposite": "lose",
+        "opposite": "დაკარგვა",
         "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
@@ -1855,7 +1855,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "მოკვდე რამით / დაიღუპო",
-        "opposite": "live",
+        "opposite": "ცხოვრება",
         "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
@@ -1962,7 +1962,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "გაყიდო პროდუქტები / ონლაინ / ბაზარზე",
-        "opposite": "buy",
+        "opposite": "ყიდვა",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -1985,7 +1985,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "გამოაღო კარი / მოქაჩო რამე",
-        "opposite": "push",
+        "opposite": "ხელის კვრა",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -2008,7 +2008,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "დააჭირო ღილაკს / მიაწვე რამეს",
-        "opposite": "pull",
+        "opposite": "წევა",
         "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
@@ -2157,7 +2157,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "გაუღიმო ვინმეს / დიდი ღიმილი",
-        "opposite": "cry",
+        "opposite": "ტირილი",
         "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
@@ -2180,7 +2180,7 @@
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "ითხოვო დახმარება / დაიყვირო / ატირდე",
-        "opposite": "smile",
+        "opposite": "ღიმილი",
         "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [

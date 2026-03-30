@@ -59,7 +59,7 @@
                 ]
             }
         ],
-        "subtext": "young person / young professional / young at heart",
+        "subtext": "den yaouank / micherour yaouank / yaouank e galon",
         "comparative": "yaouankoc'h",
         "superlative": "yaouankañ",
         "feminine": null,
@@ -81,7 +81,7 @@
                 ]
             }
         ],
-        "subtext": "old friend / old habits / very old",
+        "subtext": "mignon kozh / boazioù kozh / kozh-tre",
         "comparative": "koshoc'h",
         "superlative": "koshañ",
         "feminine": null,
@@ -102,7 +102,7 @@
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell",
+        "subtext": "un devezh heoliek / amzer heoliek / un tamm heol",
         "comparative": "heoliekoc'h",
         "superlative": "heoliekañ",
         "feminine": null,
@@ -123,7 +123,7 @@
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season",
+        "subtext": "un devezh glavek / amzer glavek / koulz ar glav",
         "comparative": "glavekoc'h",
         "superlative": "glavekañ",
         "feminine": null,
@@ -138,7 +138,7 @@
         "form": "adjective",
         "opposite": "yen",
         "oppositeEmoji": "❄️",
-        "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
+        "subtext": "tomm-tre / amzer domm / un evaj tomm / re domm",
         "definitions": [
             {
                 "text": "Gant ur wrez uhel.",
@@ -161,7 +161,7 @@
         "form": "adjective",
         "opposite": "tomm",
         "oppositeEmoji": "🔥",
-        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
+        "subtext": "yen-tre / mintinvezh yen / amzer yen / un evaj yen / re yen",
         "definitions": [
             {
                 "text": "Gant ur wrez izel.",
@@ -185,15 +185,15 @@
         "oppositeEmoji": "✨",
         "definitions": [
             {
-                "text": "Normal or usual; not special.",
+                "text": "Boas pe ordinal; n'eo ket ispisial.",
                 "examples": [
-                    "It was an ordinary day."
+                    "Un devezh boutin e oa."
                 ]
             }
         ],
-        "subtext": "ordinary day / ordinary life / nothing ordinary",
-        "comparative": "more ordinary",
-        "superlative": "the most ordinary"
+        "subtext": "un devezh boutin / buhez voutin / netra ispisial",
+        "comparative": "boutinoc'h",
+        "superlative": "boutinañ"
     },
     {
         "word": "marc'had-mat",
@@ -203,7 +203,7 @@
         "form": "adjective",
         "opposite": "ker",
         "oppositeEmoji": "💎",
-        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful",
+        "subtext": "priz izel / nijadenn marc'had-mat / marc'had-mat-tre",
         "definitions": [
             {
                 "text": "Na gousta ket kalz arc'hant.",
@@ -226,7 +226,7 @@
         "form": "adjective",
         "opposite": "marc'had-mat",
         "oppositeEmoji": "🏷️",
-        "subtext": "costly, high price / very expensive / expensive taste / too expensive",
+        "subtext": "priz uhel / ker-tre / re ger",
         "definitions": [
             {
                 "text": "Koustañ a ra kalz arc'hant.",
@@ -249,7 +249,7 @@
         "form": "adjective",
         "opposite": "fall",
         "oppositeEmoji": "👎",
-        "subtext": "great, nice, pleasant / good idea / good luck / good value",
+        "subtext": "dreist / mennozh mat / chañs vat / priz mat",
         "definitions": [
             {
                 "text": "Gant perzhioù mat.",
@@ -272,7 +272,7 @@
         "form": "adjective",
         "opposite": "mat",
         "oppositeEmoji": "👍",
-        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
+        "subtext": "euzhus / keleier fall / drouksort / diviz fall",
         "definitions": [
             {
                 "text": "Na vezañ mat.",
@@ -295,7 +295,7 @@
         "form": "adjective",
         "opposite": "bihan",
         "oppositeEmoji": "🐭",
-        "subtext": "large, huge / a big house / a big problem / big enough",
+        "subtext": "ledan / un ti bras / ur gudenn vras / bras a-walc'h",
         "definitions": [
             {
                 "text": "Bras e vent pe e niver.",
@@ -318,7 +318,7 @@
         "form": "adjective",
         "opposite": "bras",
         "oppositeEmoji": "🐘",
-        "subtext": "little, tiny / a small flat / a small salary / too small",
+        "subtext": "bihanik / un ranndi bihan / ur gopr bihan / re vihan",
         "definitions": [
             {
                 "text": "Bihan e vent pe e niver.",
@@ -349,7 +349,7 @@
                 ]
             }
         ],
-        "subtext": "easy to do / nice and easy / not easy",
+        "subtext": "aes d'ober / aes-tre / n'eo ket aes",
         "comparative": "aesoc'h",
         "superlative": "aesañ",
         "feminine": null,
@@ -372,7 +372,7 @@
                 ]
             }
         ],
-        "subtext": "difficult to do / very difficult / find it difficult",
+        "subtext": "diaes d'ober / diaes-tre / kavout diaes",
         "comparative": "diaesoc'h",
         "superlative": "diaesañ",
         "feminine": null,
@@ -385,7 +385,7 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day",
+        "subtext": "plijet / en em santiñ laouen / laouen gant un dra bennak / un devezh laouen",
         "definitions": [
             {
                 "text": "Plijet gant e vuhez.",
@@ -406,7 +406,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
+        "subtext": "marnaoniet / en em santiñ skuizh / skuizh gant un dra bennak / skuizh-tre",
         "definitions": [
             {
                 "text": "Ezhomm diskuizhañ.",
@@ -422,42 +422,42 @@
         "femininePlural": null
     },
     {
-        "word": "full-time",
+        "word": "leun-amzer",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "part-time",
+        "opposite": "hanter-amzer",
         "oppositeEmoji": "⏳",
         "definitions": [
             {
-                "text": "Working the complete number of hours in a working week.",
+                "text": "Labourat an holl eurvezhioù en ur sizhunvezh labour.",
                 "examples": [
-                    "She has a full-time job in a bank."
+                    "Ur post leun-amzer he deus en ur bank."
                 ]
             }
         ],
-        "subtext": "full-time job / full-time work / full-time employee",
+        "subtext": "ul labour leun-amzer / labourat leun-amzer",
         "comparative": null,
         "superlative": null
     },
     {
-        "word": "part-time",
+        "word": "hanter-amzer",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "full-time",
+        "opposite": "leun-amzer",
         "oppositeEmoji": "⏰",
         "definitions": [
             {
-                "text": "Working fewer hours than a standard working week.",
+                "text": "Labourat nebeutoc'h a eurvezhioù eget ar sizhunvezh labour ordinal.",
                 "examples": [
-                    "He works part-time on Saturdays."
+                    "Labourat a ra hanter-amzer d'ar sadorn."
                 ]
             }
         ],
-        "subtext": "part-time job / part-time work / part-time student",
+        "subtext": "ul labour hanter-amzer / micher hanter-amzer",
         "comparative": null,
         "superlative": null
     },
@@ -469,7 +469,7 @@
         "form": "adjective",
         "opposite": "lous",
         "oppositeEmoji": "💩",
-        "subtext": "tidy, not dirty, keep it clean / clean clothes / a clean room / keep clean",
+        "subtext": "kempenn / dilhad naet / ur gambr naet / mirout naet",
         "definitions": [
             {
                 "text": "Hep poultrenn.",
@@ -490,9 +490,9 @@
         "theme": "basic_foods_A1",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
+        "opposite": "klañv",
         "oppositeEmoji": "🍔",
-        "subtext": "well, fit, healthy diet",
+        "subtext": "reizh / dibab boued yac'h",
         "definitions": [
             {
                 "text": "Gant ur yec'hed mat.",
@@ -513,19 +513,19 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
+        "opposite": "yac'h",
         "oppositeEmoji": "💪",
-        "subtext": "sick, feel ill",
+        "subtext": "fall / en em santiñ klañv",
         "definitions": [
             {
-                "text": "Not well; sick.",
+                "text": "Na vezañ yac'h; marnaoniet.",
                 "examples": [
-                    "I feel ill today."
+                    "Klañv on hiziv."
                 ]
             }
         ],
-        "comparative": "iller",
-        "superlative": "the illest"
+        "comparative": "klañvoc'h",
+        "superlative": "klañvañ"
     },
     {
         "word": "enlinenn",
@@ -533,19 +533,19 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "offline",
+        "opposite": "maez-linenn",
         "oppositeEmoji": "📴",
         "definitions": [
             {
-                "text": "Using the internet.",
+                "text": "Oc'h implijout an internet.",
                 "examples": [
-                    "I buy food online sometimes."
+                    "Prenañ a ran boued enlinenn a-wechoù."
                 ]
             }
         ],
-        "subtext": "online shopping / online course / stay online",
-        "comparative": "more online",
-        "superlative": "the most online"
+        "subtext": "prenañ enlinenn / kentel enlinenn / chom enlinenn",
+        "comparative": "mishoc'h enlinenn",
+        "superlative": "an hini muiañ enlinenn"
     },
     {
         "word": "e-unan",
@@ -553,19 +553,19 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
+        "opposite": "asambles",
         "oppositeEmoji": "👫",
         "definitions": [
             {
-                "text": "Without other people; by yourself.",
+                "text": "Hep tud all; drezoc'h hoc'h-unan.",
                 "examples": [
-                    "She lives alone."
+                    "Bevañ a ra he-unan."
                 ]
             }
         ],
-        "subtext": "live alone / travel alone / feel alone",
-        "comparative": "more alone",
-        "superlative": "the most alone"
+        "subtext": "bevañ e-unan / beajiñ e-unan / en em santiñ e-unan",
+        "comparative": "muioc'h e-unan",
+        "superlative": "ar muiañ e-unan"
     },
     {
         "word": "distend",
@@ -573,39 +573,39 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "stressed",
+        "opposite": "strafuilhet",
         "oppositeEmoji": "😫",
-        "subtext": "calm, feeling relaxed",
+        "subtext": "sioul / en em santiñ distend",
         "definitions": [
             {
-                "text": "Calm; not worried or stressed.",
+                "text": "Sioul; hep nec'h pe stress.",
                 "examples": [
-                    "I feel relaxed at the weekend."
+                    "En em santiñ a ran distend e-pad an dibenn-sizhun."
                 ]
             }
         ],
-        "comparative": "more relaxed",
-        "superlative": "the most relaxed"
+        "comparative": "distendoc'h",
+        "superlative": "distendañ"
     },
     {
-        "word": "anxious",
+        "word": "strafuilhet",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "calm",
+        "opposite": "distend",
         "oppositeEmoji": "😌",
-        "subtext": "anxious",
+        "subtext": "nec'het",
         "definitions": [
             {
-                "text": "Feeling anxious about something that might happen.",
+                "text": "En em santiñ nec'het gant un dra bennak a c'hellfe degouezhout.",
                 "examples": [
-                    "She is worried about her job."
+                    "Strafuilhet eo gant he labour."
                 ]
             }
         ],
-        "comparative": "more worried",
-        "superlative": "the most worried"
+        "comparative": "strafuilhetoc'h",
+        "superlative": "strafuilhetañ"
     },
     {
         "word": "strollat",
@@ -613,7 +613,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "subtext": "very busy, busy day / busy schedule / very busy / too busy",
+        "subtext": "dalc'het-tre / devezh karget / implij-amzer karget / re zalc'het",
         "definitions": [
             {
                 "text": "Gant kalz labour.",
@@ -636,7 +636,7 @@
         "form": "adjective",
         "opposite": "ditalvoud",
         "oppositeEmoji": "🗑️",
-        "subtext": "helpful, practical",
+        "subtext": "sikour / pleustrek",
         "definitions": [
             {
                 "text": "Gant ur splet.",
@@ -657,7 +657,7 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "essential / important meeting / very important / most important",
+        "subtext": "ret / emvod pouezus / pouezus-tre / ar pouezusañ",
         "definitions": [
             {
                 "text": "Gant kalz talvoudegezh.",
@@ -678,23 +678,17 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
         "form": "adjective",
-        "subtext": "dark red, bright red / red wine / red face / red light",
+        "subtext": "ruz teñval / gwin ruz / dremm ruz / gouloù ruz",
         "definitions": [
             {
-                "text": "Having the colour of blood or a ripe tomato.",
+                "text": "Liv ar gwad pe liv un tomatez darev.",
                 "examples": [
-                    "She has a red bag."
-                ]
-            },
-            {
-                "text": "Having the colour of blood.",
-                "examples": [
-                    "She drives a red car."
+                    "Ur sac'h ruz he deus."
                 ]
             }
         ],
-        "comparative": "redder",
-        "superlative": "the reddest"
+        "comparative": "ruzoc'h",
+        "superlative": "ruzañ"
     },
     {
         "word": "glas",
@@ -702,23 +696,17 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
         "form": "adjective",
-        "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
+        "subtext": "glas sklaer / glas teñval / oabl glas",
         "definitions": [
             {
-                "text": "Having the colour of a clear sky.",
+                "text": "Liv an oabl pa vez brav an amzer.",
                 "examples": [
-                    "His car is blue."
-                ]
-            },
-            {
-                "text": "Having the colour of the sky.",
-                "examples": [
-                    "He wears a blue shirt to work."
+                    "Glas eo e garr."
                 ]
             }
         ],
-        "comparative": "bluer",
-        "superlative": "the bluest"
+        "comparative": "glasoc'h",
+        "superlative": "glasañ"
     },
     {
         "word": "gwer",
@@ -726,23 +714,17 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
-        "subtext": "bright green, dark green / green energy / green space / bright green",
+        "subtext": "gwer sklaer / gwer teñval / takad gwer",
         "definitions": [
             {
-                "text": "Having the colour of grass or leaves.",
+                "text": "Liv ar geot pe liv an delioù.",
                 "examples": [
-                    "She wears a green dress."
-                ]
-            },
-            {
-                "text": "Having the colour of grass.",
-                "examples": [
-                    "The company has green credentials."
+                    "Ur wiskiwer wer he deus."
                 ]
             }
         ],
-        "comparative": "greener",
-        "superlative": "the greenest"
+        "comparative": "gweroc'h",
+        "superlative": "gwerañ"
     },
     {
         "word": "gwenn",
@@ -750,23 +732,17 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
         "form": "adjective",
-        "subtext": "pure white, snow white / white wine / off-white / bright white",
+        "subtext": "gwenn-tre / gwin gwenn / gwenn-erc'h",
         "definitions": [
             {
-                "text": "Having the colour of snow or milk.",
+                "text": "Liv an erc'h pe liv al laezh.",
                 "examples": [
-                    "The walls are white."
-                ]
-            },
-            {
-                "text": "Having the lightest colour.",
-                "examples": [
-                    "The office walls are painted white."
+                    "Gwenn eo ar mogerioù."
                 ]
             }
         ],
-        "comparative": "whiter",
-        "superlative": "the whitest"
+        "comparative": "gwennoc'h",
+        "superlative": "gwennañ"
     },
     {
         "word": "du",
@@ -774,23 +750,17 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬛",
         "form": "adjective",
-        "subtext": "jet black, dark as night / black coffee / black market / jet black",
+        "subtext": "du-teñval / kafe du / marc'had du",
         "definitions": [
             {
-                "text": "Having the darkest colour, like the night sky.",
+                "text": "Al liv teñvalañ, evel an oabl e-pad an noz.",
                 "examples": [
-                    "He wears a black coat."
-                ]
-            },
-            {
-                "text": "Having the darkest colour.",
-                "examples": [
-                    "He always wears a black suit."
+                    "Ur mantell du a zoug."
                 ]
             }
         ],
-        "comparative": "blacker",
-        "superlative": "the blackest"
+        "comparative": "duoc'h",
+        "superlative": "duañ"
     },
     {
         "word": "melen",
@@ -798,23 +768,17 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
-        "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
+        "subtext": "melen sklaer / liv ar mel / melen-vividik",
         "definitions": [
             {
-                "text": "Having the colour of the sun or a lemon.",
+                "text": "Liv an heol pe liv un tamm sitroñs.",
                 "examples": [
-                    "She has a yellow umbrella."
-                ]
-            },
-            {
-                "text": "Having the colour of the sun.",
-                "examples": [
-                    "She bought a yellow notepad."
+                    "Ur paraplu melen he deus."
                 ]
             }
         ],
-        "comparative": "yellower",
-        "superlative": "the yellowest"
+        "comparative": "melenoc'h",
+        "superlative": "melenañ"
     },
     {
         "word": "dieub",
@@ -822,7 +786,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "free of charge, free gift / free time / free of charge / free to do",
+        "subtext": "didall / amzer dieub / frank d'ober",
         "definitions": [
             {
                 "text": "Hep labour pe didall.",
@@ -845,7 +809,7 @@
         "form": "adjective",
         "opposite": "serr",
         "oppositeEmoji": "🔒",
-        "subtext": "now open, open for business / open door / open to ideas / wide open",
+        "subtext": "digor evit ar genwerzh / nor zigor / digor d'ar mennozhioù / digor-bras",
         "definitions": [
             {
                 "text": "N'eo ket serr.",
@@ -868,7 +832,7 @@
         "form": "adjective",
         "opposite": "digor",
         "oppositeEmoji": "📖",
-        "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
+        "subtext": "serr evit bremañ / serr evit lein / nor serret",
         "definitions": [
             {
                 "text": "N'eo ket digor.",
@@ -887,41 +851,41 @@
         "word": "ledan",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a large city / a large company / a large amount",
+        "subtext": "ur gêr ledan / un embregerezh ledan / ur c'hantad bras",
         "definitions": [
             {
-                "text": "Of more than average size or amount.",
+                "text": "Brasoc'h eget ar geidenn.",
                 "examples": [
-                    "Paris is a very large city."
+                    "Pariz a zo ur gêr ledan-tre."
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "larger",
-        "superlative": "the largest"
+        "comparative": "ledanoc'h",
+        "superlative": "ledanañ"
     },
     {
-        "word": "bihan",
+        "word": "bihanik",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a little bit / a little money / too little",
+        "subtext": "un tamm bihan / ur pizh arc'hant / re vihan",
         "definitions": [
             {
-                "text": "Small in size; a small amount of.",
+                "text": "Bihan e vent; ur c'hantad bihan a.",
                 "examples": [
-                    "He drives a little car to save on fuel."
+                    "Bleniañ a ra ur c'harr bihanik evit espern trelosk."
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "smaller",
-        "superlative": "the smallest"
+        "comparative": "bihanikoc'h",
+        "superlative": "bihanikañ"
     },
     {
         "word": "hir",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a long journey / a long day / a long time",
+        "subtext": "ur veaj hir / un devezh hir / un amzer hir",
         "definitions": [
             {
                 "text": "Gant un hed bras.",
@@ -941,41 +905,41 @@
         "word": "uhel",
         "level": "starter",
         "form": "adjective",
-        "subtext": "high price / high rent / high quality",
+        "subtext": "priz uhel / feurm uhel / bleunienn uhel",
         "definitions": [
             {
-                "text": "Of greater than average height or level.",
+                "text": "Uheloc'h eget ar geidenn.",
                 "examples": [
-                    "The rent in this area is very high."
+                    "Uhel eo ar feurm en takad-mañ."
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "higher",
-        "superlative": "the highest"
+        "comparative": "uheloc'h",
+        "superlative": "uhelañ"
     },
     {
         "word": "izel",
         "level": "starter",
         "form": "adjective",
-        "subtext": "low price / low salary / low quality",
+        "subtext": "priz izel / gopr izel / n'eo ket uhel",
         "definitions": [
             {
-                "text": "Of less than average height or level.",
+                "text": "Izeloc'h eget ar geidenn.",
                 "examples": [
-                    "The salary is too low for the hours involved."
+                    "Re izel eo ar gopr evit an eurvezhioù labour."
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "lower",
-        "superlative": "the lowest"
+        "comparative": "izeloc'h",
+        "superlative": "izelañ"
     },
     {
         "word": "leun",
         "level": "starter",
         "form": "adjective",
-        "subtext": "full time / a full day / full of people",
+        "subtext": "leun-amzer / un deiz leun / leun a dud",
         "definitions": [
             {
                 "text": "Gant traoù e-barzh.",
@@ -995,7 +959,7 @@
         "word": "goullo",
         "level": "starter",
         "form": "adjective",
-        "subtext": "an empty flat / an empty room / nearly empty",
+        "subtext": "un ranndi goullo / ur gambr oulloo / goullo-mik",
         "definitions": [
             {
                 "text": "Hep tra e-barzh.",
@@ -1012,38 +976,38 @@
         "femininePlural": null
     },
     {
-        "word": "tomm",
+        "word": "tommik",
         "level": "starter",
         "form": "adjective",
-        "subtext": "warm weather / a warm welcome / keep warm",
+        "subtext": "amzer dommik / ur degemer tomm / mirout tomm",
         "definitions": [
             {
-                "text": "Slightly hot; pleasantly heated.",
+                "text": "Un tammig tomm; tommet en un doare plijus.",
                 "examples": [
-                    "The office is warm and comfortable."
+                    "Tomm hag aezet eo ar burev."
                 ]
             }
         ],
         "theme": "weather_A1",
-        "comparative": "warmer",
-        "superlative": "the warmest"
+        "comparative": "tommikoc'h",
+        "superlative": "tommikañ"
     },
     {
         "word": "fresk",
         "level": "starter",
         "form": "adjective",
-        "subtext": "cool weather / a cool drink / stay cool",
+        "subtext": "amzer fresk / un evaj fresk / chom fresk",
         "definitions": [
             {
-                "text": "Slightly cold; pleasantly low temperature.",
+                "text": "Un tammig yen; ur wrez izel plijus.",
                 "examples": [
-                    "She prefers cool weather for working."
+                    "Plijout a ra dezhi an amzer fresk evit labourat."
                 ]
             }
         ],
         "theme": "weather_A1",
-        "comparative": "cooler",
-        "superlative": "the coolest"
+        "comparative": "freskoc'h",
+        "superlative": "freskañ"
     },
     {
         "word": "gleb",
@@ -1108,7 +1072,7 @@
         "word": "kalet",
         "level": "starter",
         "form": "adjective",
-        "subtext": "hard work / a hard decision / too hard",
+        "subtext": "labour kalet / un diviz diaes / re galet",
         "definitions": [
             {
                 "text": "N'eo ket blot.",
@@ -1168,137 +1132,137 @@
         "word": "skañv",
         "level": "starter",
         "form": "adjective",
-        "subtext": "light rain / light traffic / a light meal",
+        "subtext": "glav skañv / dregenn skañv / ur pred skañv",
         "definitions": [
             {
-                "text": "Not heavy; pale in colour.",
+                "text": "N'eo ket pounner; sklaer e liv.",
                 "examples": [
-                    "She carries a light bag to work every day."
+                    "Dougen a ra ur sac'h skañv d'al labour bemdez."
                 ]
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "lighter",
-        "superlative": "the lightest"
+        "comparative": "skañvoc'h",
+        "superlative": "skañvañ"
     },
     {
         "word": "gell",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dark brown / light brown / brown bread",
+        "subtext": "gell teñval / gell sklaer / bara gell",
         "definitions": [
             {
-                "text": "Having the colour of wood or earth.",
+                "text": "Liv ar c'hoad pe liv an douar.",
                 "examples": [
-                    "She has brown eyes and dark hair."
+                    "Daoulagad gell ha blev teñval he deus."
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "browner",
-        "superlative": "the brownest"
+        "comparative": "gelloc'h",
+        "superlative": "gellañ"
     },
     {
         "word": "gris",
         "level": "starter",
         "form": "adjective",
-        "subtext": "grey area / grey sky / pale grey",
+        "subtext": "takad gris / oabl gris / gris sklaer",
         "definitions": [
             {
-                "text": "Having a colour between black and white.",
+                "text": "Liv etre an du hag ar gwenn.",
                 "examples": [
-                    "He has grey hair and a kind face."
+                    "Blev gris hag un dremm jentil en deus."
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "greyer",
-        "superlative": "the greyest"
+        "comparative": "grisoc'h",
+        "superlative": "grisañ"
     },
     {
         "word": "roz",
         "level": "starter",
         "form": "adjective",
-        "subtext": "light pink / bright pink / hot pink",
+        "subtext": "roz sklaer / roz vividik",
         "definitions": [
             {
-                "text": "Having a pale red colour.",
+                "text": "Ur ruz sklaer e liv.",
                 "examples": [
-                    "She prefers pink to red."
+                    "Gwelloc'h eo dezhi ar roz eget ar ruz."
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "pinker",
-        "superlative": "the pinkest"
+        "comparative": "rozoc'h",
+        "superlative": "rozañ"
     },
     {
         "word": "orañjez",
         "level": "starter",
         "form": "adjective",
-        "subtext": "bright orange / dark orange / orange light",
+        "subtext": "orañjez vividik / orañjez teñval / gouloù orañjez",
         "definitions": [
             {
-                "text": "Having the colour of an orange fruit.",
+                "text": "Liv ar frouezh orañjez.",
                 "examples": [
-                    "He bought an orange jacket."
+                    "Prenet en deus ur jakedenn orañjez."
                 ]
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "orangeer",
-        "superlative": "the orangeest"
+        "comparative": "orañjezoc'h",
+        "superlative": "orañjezañ"
     },
     {
         "word": "meur",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a great idea / a great opportunity / great value",
+        "subtext": "ur mennozh meur / un darvoud meur / priz meur",
         "definitions": [
             {
-                "text": "Extremely good; large in amount.",
+                "text": "Mat-tre; bras-tre e kementad.",
                 "examples": [
-                    "She is a great manager."
+                    "Ur renerez meur eo."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "greater",
-        "superlative": "the greatest"
+        "comparative": "muioc'h meur",
+        "superlative": "ar muiañ meur"
     },
     {
-        "word": "brav",
+        "word": "bravik",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a nice day / a nice place / a nice person",
+        "subtext": "un deiz brav / ul lec'h brav / un den jentil",
         "definitions": [
             {
-                "text": "Pleasant or kind.",
+                "text": "Plijus pe jentil.",
                 "examples": [
-                    "The new office is very nice."
+                    "Brav-tre eo ar burev nevez."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "nicer",
-        "superlative": "the nicest"
+        "comparative": "bravikoc'h",
+        "superlative": "bravikañ"
     },
     {
         "word": "marzhus",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a wonderful opportunity / a wonderful time",
+        "subtext": "un darvoud marzhus / un amzer varzhus",
         "definitions": [
             {
-                "text": "Extremely good; causing delight.",
+                "text": "Mat-tre; a ro plijadur vras.",
                 "examples": [
-                    "They had a wonderful team."
+                    "Ur skipailh marzhus o deus."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more wonderful",
-        "superlative": "the most wonderful"
+        "comparative": "marzhusoc'h",
+        "superlative": "marzhusañ"
     },
     {
         "word": "euzhus",
@@ -1324,58 +1288,58 @@
         "word": "euzhus",
         "level": "starter",
         "form": "adjective",
-        "subtext": "awful weather / awful news / simply awful",
+        "subtext": "amzer euzhus / keleier euzhus / euzhus-mik",
         "definitions": [
             {
-                "text": "Very bad or unpleasant.",
+                "text": "Fall-tre pe displijus-tre.",
                 "examples": [
-                    "The noise in the open office is awful."
+                    "Euzhus eo an trouz er burev."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more awful",
-        "superlative": "the most awful"
+        "comparative": "euzhusoc'h",
+        "superlative": "euzhusañ"
     },
     {
         "word": "estonus",
         "level": "starter",
         "form": "adjective",
-        "subtext": "an amazing result / an amazing offer / truly amazing",
+        "subtext": "un disoc'h estonus / ur ginnig estonus / estonus-tre",
         "definitions": [
             {
-                "text": "Causing great surprise or admiration.",
+                "text": "A ra souezh vras pe a laka da vezañ bamet.",
                 "examples": [
-                    "She gave an amazing presentation."
+                    "Un displegadenn estonus he deus graet."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more amazing",
-        "superlative": "the most amazing"
+        "comparative": "estonusoc'h",
+        "superlative": "estonusañ"
     },
     {
         "word": "dreist",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
+        "subtext": "keleier dreist / un darvoud dreist / dreist-holl",
         "definitions": [
             {
-                "text": "Extremely good.",
+                "text": "Mat-tre.",
                 "examples": [
-                    "The new system works in a fantastic way."
+                    "Mont a ra ar reizhiad nevez en-dro en un doare dreist."
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "more fantastic",
-        "superlative": "the most fantastic"
+        "comparative": "muioc'h dreist",
+        "superlative": "ar muiañ dreist"
     },
     {
         "word": "trist",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sad / a sad situation / deeply sad",
+        "subtext": "en em santiñ trist / ur stad trist / trist-meurbet",
         "definitions": [
             {
                 "text": "Na vezañ laouen.",
@@ -1395,7 +1359,7 @@
         "word": "naoniek",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel hungry / very hungry / go hungry",
+        "subtext": "kaout naon / naon vras / chom hep debriñ",
         "definitions": [
             {
                 "text": "C'hoant debriñ.",
@@ -1415,7 +1379,7 @@
         "word": "konnar",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel angry / angry with someone / very angry",
+        "subtext": "en em santiñ kounnaret / kounnaret ouzh unan bennak / kounnaret-tre",
         "definitions": [
             {
                 "text": "Gant droug.",
@@ -1435,85 +1399,85 @@
         "word": "borodet",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel bored / bored with / easily bored",
+        "subtext": "en em santiñ borodet / borodet gant / borodet buan",
         "definitions": [
             {
-                "text": "Feeling uninterested or restless.",
+                "text": "Hep mui a interest pe dibasiet.",
                 "examples": [
-                    "He feels bored in long meetings."
+                    "En em santiñ a ra borodet en emvodoù hir."
                 ]
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "more bored",
-        "superlative": "the most bored"
+        "comparative": "borodetoc'h",
+        "superlative": "borodetañ"
     },
     {
-        "word": "fentus",
+        "word": "entouziastet",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel excited / excited about / very excited",
+        "subtext": "en em santiñ entouziastet / entouziastet gant / entouziastet-tre",
         "definitions": [
             {
-                "text": "Feeling enthusiasm and eagerness.",
+                "text": "Gant birvilh hag herder.",
                 "examples": [
-                    "She is excited about her new job."
+                    "Entouziastet eo gant he labour nevez."
                 ]
             }
         ],
-        "comparative": "more excited",
-        "superlative": "the most excited"
+        "comparative": "entouziastetoc'h",
+        "superlative": "entouziastetañ"
     },
     {
         "word": "aoniek",
         "level": "starter",
         "form": "adjective",
-        "subtext": "afraid of / feel afraid / deeply afraid",
+        "subtext": "aon rak / en em santiñ aoniek / aoniek-bras",
         "definitions": [
             {
-                "text": "Feeling fear.",
+                "text": "Gant aon.",
                 "examples": [
-                    "He is afraid of making mistakes."
+                    "Aoniek eo da ober fazioù."
                 ]
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "more afraid",
-        "superlative": "the most afraid"
+        "comparative": "aoniekoc'h",
+        "superlative": "aoniekañ"
     },
     {
         "word": "keuziek",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sorry / sorry for / sorry about",
+        "subtext": "en em santiñ keuziek / keuziek evit / keuziek gant",
         "definitions": [
             {
-                "text": "Feeling regret or sadness.",
+                "text": "Gant keuz pe tristidigezh.",
                 "examples": [
-                    "She is sorry for the delay."
+                    "Keuziek eo evit an dale."
                 ]
             }
         ],
         "theme": "basic_negative_emotions_A1",
-        "comparative": "sorrier",
-        "superlative": "the sorriest"
+        "comparative": "keuziekoc'h",
+        "superlative": "keuziekañ"
     },
     {
         "word": "reizh",
         "level": "starter",
         "form": "adjective",
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "respont reizh / koulz reizh / reizh-holl",
         "definitions": [
             {
-                "text": "Correct; suitable.",
+                "text": "Hep fazi; dereat.",
                 "examples": [
-                    "Is this the right office?"
+                    "Hemañ eo ar burev reizh?"
                 ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "righter",
-        "superlative": "the rightest"
+        "comparative": "reishoc'h",
+        "superlative": "reishañ"
     },
     {
         "word": "fazi",
@@ -1539,7 +1503,7 @@
         "word": "nevez",
         "level": "starter",
         "form": "adjective",
-        "subtext": "new job / brand new / completely new",
+        "subtext": "labour nevez / nevez-flamm / nevez-tre",
         "definitions": [
             {
                 "text": "N'eo ket bet implijet c'hoazh.",
@@ -1559,7 +1523,7 @@
         "word": "disheñvel",
         "level": "starter",
         "form": "adjective",
-        "subtext": "completely different / very different / different from",
+        "subtext": "disheñvel-mik / disheñvel-tre / disheñvel diouzh",
         "definitions": [
             {
                 "text": "N'eo ket ar memes tra.",
@@ -1579,7 +1543,7 @@
         "word": "memes",
         "level": "starter",
         "form": "adjective",
-        "subtext": "the same as / exactly the same / same time",
+        "subtext": "ar memes tra hag / memes tra-mik / er memes koulz",
         "definitions": [
             {
                 "text": "Ar memes tra.",
@@ -1599,7 +1563,7 @@
         "word": "buan",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fast food / fast train / very fast",
+        "subtext": "boued herrek / tren tizh / prim-tre",
         "definitions": [
             {
                 "text": "Gant tizh.",
@@ -1619,7 +1583,7 @@
         "word": "gorrek",
         "level": "starter",
         "form": "adjective",
-        "subtext": "slow progress / slow internet / very slow",
+        "subtext": "araokadennoù gorrek / internet gorrek / gorrek-tre",
         "definitions": [
             {
                 "text": "Hep tizh.",
@@ -1639,7 +1603,7 @@
         "word": "didrous",
         "level": "starter",
         "form": "adjective",
-        "subtext": "quiet area / keep quiet / nice and quiet",
+        "subtext": "karter sioul / chom sioul / brav ha sioul",
         "definitions": [
             {
                 "text": "Hep trouz.",
@@ -1679,7 +1643,7 @@
         "word": "diogel",
         "level": "starter",
         "form": "adjective",
-        "subtext": "safe area / safe to do / feel safe",
+        "subtext": "takad diogel / diogel d'ober / en em santiñ e surentez",
         "definitions": [
             {
                 "text": "Hep dañjer.",
@@ -1699,7 +1663,7 @@
         "word": "dañjerus",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dangerous situation / very dangerous / potentially dangerous",
+        "subtext": "stad dañjerus / dañjerus-tre / dañjerus-meurbet",
         "definitions": [
             {
                 "text": "Gant dañjer.",
@@ -1722,13 +1686,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Not feeling pleased; dissatisfied.",
+                "text": "N'oc'h ket laouen; n'oc'h ket plijet.",
                 "examples": [
-                    "He is unhappy with his current salary."
+                    "N'eo ket laouen gant e c'hopr a-vremañ."
                 ]
             }
         ],
-        "subtext": "feel unhappy / very unhappy / unhappy about",
+        "subtext": "en em santiñ dilailh / trist-meurbet / en em santiñ fall gant",
         "comparative": "unhappier",
         "superlative": "the unhappiest"
     },
@@ -1745,7 +1709,7 @@
                 ]
             }
         ],
-        "subtext": "feel nervous / nervous about / very nervous",
+        "subtext": "en em santiñ nervus / chalet gant / nervus-tre",
         "comparative": "strafuilhetoc'h",
         "superlative": "strafuilhetañ",
         "feminine": null,
@@ -1759,13 +1723,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling worried and tense from pressure.",
+                "text": "Bezañ chalet ha stenn abalamour d'ar wask.",
                 "examples": [
                     "She feels stressed before every deadline."
                 ]
             }
         ],
-        "subtext": "feel stressed / very stressed / stressed out",
+        "subtext": "en em santiñ stennet / stennet-tre / karget a stress",
         "comparative": "more stressed",
         "superlative": "the most stressed"
     },
@@ -1776,13 +1740,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling sure of your own abilities.",
+                "text": "Bezañ sur eus e varregezhioù e-unan.",
                 "examples": [
-                    "She is very confident in client presentations."
+                    "Sur-tre eo outi he unan e-pad an displegadennoù d'ar glianted."
                 ]
             }
         ],
-        "subtext": "feel confident / self-confident / very confident",
+        "subtext": "en em santiñ sur / sur eus outañ e-unan / sur-meurbet",
         "comparative": "more confident",
         "superlative": "the most confident"
     },
@@ -1799,7 +1763,7 @@
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of",
+        "subtext": "lorc'h ennañ / lorc'h bras / lorc'h gant",
         "comparative": "lorc'husoc'h",
         "superlative": "lorc'husañ",
         "feminine": null,
@@ -1819,7 +1783,7 @@
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared",
+        "subtext": "kaout aon / aon rak / aon bras",
         "comparative": "aoniekoc'h",
         "superlative": "aoniekañ",
         "feminine": null,
@@ -1833,13 +1797,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling shock at something unexpected.",
+                "text": "Bezañ souezhet gant un dra bennak na oad ket o c'hortoz.",
                 "examples": [
-                    "He was surprised to get a pay rise."
+                    "Souezhet e oa o kaout ur c'hresk-gopr."
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised",
+        "subtext": "en em santiñ souezhet / souezhet-bras / souezhet-mat",
         "comparative": "more surprised",
         "superlative": "the most surprised"
     },
@@ -1850,13 +1814,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Feeling sad because something was not as good as expected.",
+                "text": "Bezañ trist abalamour d'un dra bennak n'eo ket bet ken mat ha ma oa rakwelet.",
                 "examples": [
-                    "She was disappointed not to get the job."
+                    "Dipitet e oa rak n'he doa ket bet al labour."
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with",
+        "subtext": "bezañ dipitet / dipitet-tre / dipitet gant",
         "comparative": "more disappointed",
         "superlative": "the most disappointed"
     },
@@ -1889,11 +1853,11 @@
             {
                 "text": "Pleasant to look at; quite attractive.",
                 "examples": [
-                    "The new meeting room is very pretty."
+                    "Kaer-tre eo ar sal-emvod nevez."
                 ]
             }
         ],
-        "subtext": "pretty good / a pretty place / quite pretty",
+        "subtext": "mat a-walc'h / ul lec'h koant / koant a-walc'h",
         "comparative": "prettier",
         "superlative": "the prettiest"
     },
@@ -1910,7 +1874,7 @@
                 ]
             }
         ],
-        "subtext": "strong coffee / strong opinion / very strong",
+        "subtext": "kafe kreñv / ur soñj kreñv / kreñv-tre",
         "comparative": "kreñvoc'h",
         "superlative": "kreñvañ",
         "feminine": null,
@@ -1930,7 +1894,7 @@
                 ]
             }
         ],
-        "subtext": "weak connection / a weak argument / very weak",
+        "subtext": "luget fall / un arguzenn wan / gwan-tre",
         "comparative": "wanoc'h",
         "superlative": "wanañ",
         "feminine": null,
@@ -1944,9 +1908,9 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "In good physical condition through exercise.",
+                "text": "E yec'hed mat a-drugarez d'ar sport.",
                 "examples": [
-                    "She keeps fit by cycling to work every day."
+                    "Chom a ra e yec'hed o vont d'al labour war varc'h-houarn bemdez."
                 ]
             }
         ],
@@ -1961,13 +1925,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Extremely good; of a very high standard.",
+                "text": "Mat-tre; eus ul live uhel-tre.",
                 "examples": [
                     "She received an excellent review."
                 ]
             }
         ],
-        "subtext": "excellent work / excellent results / absolutely excellent",
+        "subtext": "labour eus ar c'hentañ / disoc'hoù dispar / eus ar c'hentañ-mik",
         "comparative": "more excellent",
         "superlative": "the most excellent"
     },
@@ -2024,7 +1988,7 @@
                 ]
             }
         ],
-        "subtext": "correct answer / the correct way / completely correct",
+        "subtext": "respont reizh / an doare mat / reizh-tre",
         "comparative": "reishoc'h",
         "superlative": "reishañ",
         "feminine": null,
@@ -2044,7 +2008,7 @@
                 ]
             }
         ],
-        "subtext": "find interesting / very interesting / an interesting idea",
+        "subtext": "kavout dedennus / dedennus-tre / ur mennozh dedennus",
         "comparative": "dedennusoc'h",
         "superlative": "dedennusañ",
         "feminine": null,
@@ -2064,7 +2028,7 @@
                 ]
             }
         ],
-        "subtext": "very boring / a boring meeting / find boring",
+        "subtext": "borus-tre / un emvod borus / kavout borus",
         "comparative": "borodusoc'h",
         "superlative": "borodusañ",
         "feminine": null,
@@ -2078,15 +2042,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Needed; required in order to do something.",
+                "text": "Ezhomm; goulennet evit ober un dra bennak.",
                 "examples": [
-                    "A good internet connection is necessary for remote work."
+                    "Ur genstag internet vat a zo ret evit al labour a-bell."
                 ]
             }
         ],
-        "subtext": "absolutely necessary / if necessary / necessary to do",
-        "comparative": "more necessary",
-        "superlative": "the most necessary"
+        "subtext": "ret-holl / ma vez ret / ret eo ober",
+        "comparative": "muioc'h ret",
+        "superlative": "ar muiañ ret"
     },
     {
         "word": "posupl",
@@ -2141,7 +2105,7 @@
                 ]
             }
         ],
-        "subtext": "a special offer / special occasion / very special",
+        "subtext": "ur c'hinnig ispisial / ur goulz ispisial / ispisial-tre",
         "comparative": "ispisialoc'h",
         "superlative": "ispisialañ",
         "feminine": null,
@@ -2155,13 +2119,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Liked by many people.",
+                "text": "Plijet gant kalz a dud.",
                 "examples": [
-                    "The new café near the office is very popular."
+                    "Ar c'hafe nevez e-kichen ar burev a zo brudet-tre."
                 ]
             }
         ],
-        "subtext": "very popular / popular choice / most popular",
+        "subtext": "brudet-tre / un dibab brudet / ar pep brudetañ",
         "comparative": "more popular",
         "superlative": "the most popular"
     },
@@ -2172,13 +2136,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Almost the same; having many shared features.",
+                "text": "Beajet memes tra; gant kalz a berzhioù boutin.",
                 "examples": [
-                    "Our approaches are very similar."
+                    "Heñvel-tre eo hor doareoù."
                 ]
             }
         ],
-        "subtext": "very similar / similar to / similar results",
+        "subtext": "heñvel-tre / heñvel ouzh / disoc'hoù heñvel",
         "comparative": "more similar",
         "superlative": "the most similar"
     },
@@ -2189,13 +2153,13 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Kind and pleasant; easy to talk to.",
+                "text": "Hegarat ha plijus; aes da gomz gantañ.",
                 "examples": [
-                    "The new manager is very friendly and approachable."
+                    "Ar rener nevez a zo hegarat ha tost d'an dud."
                 ]
             }
         ],
-        "subtext": "very friendly / a friendly face / friendly atmosphere",
+        "subtext": "hegarat-tre / un dremm hegarat / un aergelc'h hegarat",
         "comparative": "more friendly",
         "superlative": "the most friendly"
     },
@@ -2212,7 +2176,7 @@
                 ]
             }
         ],
-        "subtext": "very kind / kind of you / a kind person",
+        "subtext": "hegarat-tre / jentil ac'hanoc'h / un den hegarat",
         "comparative": "jentiloc'h",
         "superlative": "jentilañ",
         "feminine": null,
@@ -2232,7 +2196,7 @@
                 ]
             }
         ],
-        "subtext": "very funny / funny story / find funny",
+        "subtext": "fentus-tre / ur gontadenn fentus / kavout fentus",
         "comparative": "farsusoc'h",
         "superlative": "farsusañ",
         "feminine": null,
@@ -2252,7 +2216,7 @@
                 ]
             }
         ],
-        "subtext": "very clever / a clever idea / clever enough",
+        "subtext": "speredek-tre / ur mennozh speredek / speredek a-walc'h",
         "comparative": "speredekoc'h",
         "superlative": "speredekañ",
         "feminine": null,
@@ -2272,7 +2236,7 @@
                 ]
             }
         ],
-        "subtext": "very polite / polite request / polite enough",
+        "subtext": "seven-tre / ur goulenn seven / seven a-walc'h",
         "comparative": "sevenoc'h",
         "superlative": "sevenañ",
         "feminine": null,
@@ -2292,7 +2256,7 @@
                 ]
             }
         ],
-        "subtext": "very rude / incredibly rude / deliberately rude",
+        "subtext": "dizaven-tre / dizesk-bras / a-ratozh dizaven",
         "comparative": "dizereatoc'h",
         "superlative": "dizereatañ",
         "feminine": null,
@@ -2312,7 +2276,7 @@
                 ]
             }
         ],
-        "subtext": "very lazy / a lazy approach / too lazy",
+        "subtext": "lezirek-tre / un doare lezirek / re lezirek",
         "comparative": "leueoc'h",
         "superlative": "leueañ",
         "feminine": null,
@@ -2326,15 +2290,15 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Telling the truth; not deceiving.",
+                "text": "O lavarout ar wirionez; hep lakaat e gaou.",
                 "examples": [
-                    "She is known for being completely honest with clients."
+                    "Brudet eo evit bezañ onest-holl gant ar bratided."
                 ]
             }
         ],
-        "subtext": "very honest / brutally honest / completely honest",
-        "comparative": "more honest",
-        "superlative": "the most honest"
+        "subtext": "onest-tre / onest-holl",
+        "comparative": "onestoc'h",
+        "superlative": "onestañ"
     },
     {
         "word": "trouzus",
@@ -2349,7 +2313,7 @@
                 ]
             }
         ],
-        "subtext": "very noisy / noisy environment / too noisy",
+        "subtext": "trouzus-tre / un aergelc'h trouzus / re drouzus",
         "comparative": "trouzusoc'h",
         "superlative": "trouzusañ",
         "feminine": null,

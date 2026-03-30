@@ -3,12 +3,12 @@
     {
         "word": "Leonardo da Vinci",
         "level": "starter",
-        "theme": "identity_self_C1"
+        "theme": "marital_status_A1"
     },
     {
         "word": "Monica Bellucci",
         "level": "starter",
-        "theme": "identity_self_C1"
+        "theme": "marital_status_A1"
     }
 ];
     const lang = "it";

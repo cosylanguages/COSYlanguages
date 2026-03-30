@@ -29,13 +29,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
-        "subtext": "have a job / have lunch / have a problem / have time",
+        "subtext": "eine Arbeit haben / zu Mittag essen / ein Problem haben / Zeit haben",
         "form": "verb",
         "definitions": [
             {
                 "text": "Etwas besitzen; etwas erleben.",
                 "examples": [
-                    "Ich habe einen Job.",
+                    "Ich habe eine Arbeit.",
                     "Er hat ein Auto.",
                     "Sie hat Kopfschmerzen."
                 ]
@@ -53,7 +53,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
-        "subtext": "feel tired / feel better / feel ill / feel stressed",
+        "subtext": "sich müde fühlen / sich besser fühlen / sich krank fühlen / sich gestresst fühlen",
         "form": "verb",
         "definitions": [
             {
@@ -75,7 +75,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
-        "subtext": "give advice / give money / give a present / give information",
+        "subtext": "Ratschläge geben / Geld geben / ein Geschenk geben / Informationen geben",
         "opposite": "nehmen",
         "oppositeEmoji": "👜",
         "form": "verb",
@@ -100,7 +100,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
-        "subtext": "take the bus / take medicine / take a break / take time",
+        "subtext": "den Bus nehmen / Medikamente nehmen / eine Pause machen / Zeit in Anspruch nehmen",
         "opposite": "geben",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -125,7 +125,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
-        "subtext": "get a job / get tired / get better / get home",
+        "subtext": "eine Stelle bekommen / müde werden / gesund werden / nach Hause kommen",
         "form": "verb",
         "definitions": [
             {
@@ -149,7 +149,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
-        "subtext": "put on / put away / put the phone down / put money aside",
+        "subtext": "stellen / wegräumen / das Telefon weglegen / Geld beiseite legen",
         "form": "verb",
         "definitions": [
             {
@@ -172,7 +172,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
-        "subtext": "make coffee / make a decision / make a mistake / make money",
+        "subtext": "Kaffee machen / eine Entscheidung treffen / einen Fehler machen / Geld verdienen",
         "form": "verb",
         "definitions": [
             {
@@ -195,7 +195,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
-        "subtext": "do work / do the shopping / do exercise / do nothing",
+        "subtext": "Arbeit verrichten / Einkäufe erledigen / Sport treiben / nichts tun",
         "form": "verb",
         "definitions": [
             {
@@ -218,7 +218,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
-        "subtext": "use a phone / use public transport / use a computer / use time",
+        "subtext": "ein Telefon benutzen / öffentliche Verkehrsmittel nutzen / einen Computer benutzen / Zeit nutzen",
         "form": "verb",
         "definitions": [
             {
@@ -241,7 +241,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
-        "subtext": "open a door / open an account / open a shop / open at nine",
+        "subtext": "eine Tür öffnen / ein Konto eröffnen / ein Geschäft eröffnen / um neun öffnen",
         "opposite": "schließen",
         "oppositeEmoji": "🔒",
         "form": "verb",
@@ -266,7 +266,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
-        "subtext": "close a door / close at six / close an account / close the meeting",
+        "subtext": "eine Tür schließen / um sechs schließen / ein Konto schließen / die Besprechung beenden",
         "opposite": "öffnen",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -291,7 +291,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
-        "subtext": "start work / start a meeting / start a new job",
+        "subtext": "mit der Arbeit beginnen / eine Besprechung beginnen / eine neue Arbeit anfangen",
         "opposite": "beenden",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -316,7 +316,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "finish work / finish a project / finish early / finish late",
+        "subtext": "Arbeit beenden / ein Projekt abschließen / früh fertig sein / spät fertig sein",
         "opposite": "beginnen",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -341,7 +341,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "subtext": "help someone / help with a task / help out / ask for help",
+        "subtext": "jemandem helfen / bei einer Aufgabe helfen / aushelfen / um Hilfe bitten",
         "form": "verb",
         "definitions": [
             {
@@ -363,7 +363,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
-        "subtext": "try to do / try hard / try something new / give it a try",
+        "subtext": "versuchen zu tun / sich anstrengen / etwas Neues ausprobieren / einen Versuch wagen",
         "form": "verb",
         "definitions": [
             {
@@ -385,7 +385,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
-        "subtext": "show someone how / show a document / show interest",
+        "subtext": "jemandem zeigen wie / ein Dokument vorzeigen / Interesse zeigen",
         "form": "verb",
         "definitions": [
             {
@@ -407,14 +407,14 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
-        "subtext": "find a job / find out / find it difficult / find time",
+        "subtext": "eine Stelle finden / herausfinden / es schwierig finden / Zeit finden",
         "form": "verb",
         "definitions": [
             {
                 "text": "Etwas entdecken oder ausfindig machen.",
                 "examples": [
                     "Ich finde die Arbeit interessant.",
-                    "Sie hat einen neuen Job gefunden."
+                    "Sie hat eine neue Stelle gefunden."
                 ]
             }
         ],
@@ -430,7 +430,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "keep going / keep quiet / keep a record / keep in touch",
+        "subtext": "weitermachen / leise sein / Buch führen / in Kontakt bleiben",
         "form": "verb",
         "definitions": [
             {
@@ -453,7 +453,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
-        "subtext": "lose a job / lose money / lose weight / lose time",
+        "subtext": "eine Arbeit verlieren / Geld verlieren / Gewicht verlieren / Zeit verlieren",
         "opposite": "gewinnen",
         "oppositeEmoji": "🏆",
         "form": "verb",
@@ -462,7 +462,7 @@
                 "text": "Etwas nicht mehr haben; nicht gewinnen.",
                 "examples": [
                     "Ich habe meine Schlüssel verloren.",
-                    "Sie hat ihren Job verloren.",
+                    "Sie hat ihre Arbeit verloren.",
                     "Er verliert nie."
                 ]
             }
@@ -479,7 +479,7 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
-        "subtext": "cut costs / cut spending / cut short / cut in half",
+        "subtext": "Kosten senken / Ausgaben kürzen / abkürzen / in der Mitte durchschneiden",
         "form": "verb",
         "definitions": [
             {
@@ -502,7 +502,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "turn on / turn off / turn left / turn right",
+        "subtext": "einschalten / ausschalten / links abbiegen / rechts abbiegen",
         "form": "verb",
         "definitions": [
             {
@@ -525,7 +525,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
-        "subtext": "bring someone / bring food / bring a document / bring up",
+        "subtext": "jemanden bringen / Essen bringen / ein Dokument bringen / zur Sprache bringen",
         "form": "verb",
         "definitions": [
             {
@@ -548,7 +548,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
-        "subtext": "say hello / say yes / say no / say something",
+        "subtext": "Hallo sagen / Ja sagen / Nein sagen / etwas sagen",
         "form": "verb",
         "definitions": [
             {
@@ -571,7 +571,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
-        "subtext": "tell the truth / tell someone / tell a story / tell someone about",
+        "subtext": "die Wahrheit sagen / jemandem erzählen / eine Geschichte erzählen / jemandem von ... erzählen",
         "form": "verb",
         "definitions": [
             {
@@ -593,7 +593,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "subtext": "ask a question / ask for help / ask about / ask someone",
+        "subtext": "eine Frage stellen / um Hilfe bitten / nach etwas fragen / jemanden fragen",
         "form": "verb",
         "definitions": [
             {
@@ -615,7 +615,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
-        "subtext": "speak to someone / speak English / speak clearly / speak at a meeting",
+        "subtext": "mit jemandem sprechen / Englisch sprechen / deutlich sprechen / bei einer Besprechung sprechen",
         "form": "verb",
         "definitions": [
             {
@@ -638,7 +638,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
-        "subtext": "talk to someone / talk about / talk openly / talk for a long time",
+        "subtext": "mit jemandem reden / über etwas reden / offen reden / lange Zeit reden",
         "form": "verb",
         "definitions": [
             {
@@ -660,7 +660,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
-        "subtext": "call someone / call back / call a meeting / call in sick",
+        "subtext": "jemanden anrufen / zurückrufen / eine Besprechung einberufen / sich krankmelden",
         "form": "verb",
         "definitions": [
             {
@@ -682,7 +682,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
-        "subtext": "write an email / write a report / write a letter / write notes",
+        "subtext": "eine E-Mail schreiben / einen Bericht schreiben / einen Brief schreiben / Notizen schreiben",
         "opposite": "lesen",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -707,7 +707,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "read a book / read the news / read a contract / read carefully",
+        "subtext": "ein Buch lesen / die Nachrichten lesen / einen Vertrag lesen / aufmerksam lesen",
         "opposite": "schreiben",
         "oppositeEmoji": "✍️",
         "form": "verb",
@@ -732,7 +732,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
-        "subtext": "listen to music / listen carefully / listen to a podcast",
+        "subtext": "Musik hören / aufmerksam zuhören / einen Podcast hören",
         "form": "verb",
         "definitions": [
             {
@@ -755,7 +755,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
-        "subtext": "answer a question / answer the phone / answer an email",
+        "subtext": "eine Frage beantworten / ans Telefon gehen / auf eine E-Mail antworten",
         "form": "verb",
         "definitions": [
             {
@@ -778,7 +778,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
-        "subtext": "repeat that / repeat yourself / repeat an order",
+        "subtext": "das wiederholen / sich wiederholen / eine Bestellung wiederholen",
         "form": "verb",
         "definitions": [
             {
@@ -801,7 +801,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
-        "subtext": "go to work / go home / go out / go shopping",
+        "subtext": "zur Arbeit gehen / nach Hause gehen / ausgehen / einkaufen gehen",
         "form": "verb",
         "definitions": [
             {
@@ -824,7 +824,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
-        "subtext": "come home / come to work / come back / come here",
+        "subtext": "nach Hause kommen / zur Arbeit kommen / zurückkommen / hierher kommen",
         "opposite": "gehen",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -849,7 +849,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
-        "subtext": "walk to work / walk home / walk slowly / walk every day",
+        "subtext": "zur Arbeit laufen / nach Hause laufen / langsam laufen / jeden Tag laufen",
         "form": "verb",
         "definitions": [
             {
@@ -872,7 +872,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "subtext": "drive to work / drive a car / drive home / drive carefully",
+        "subtext": "zur Arbeit fahren / ein Auto fahren / nach Hause fahren / vorsichtig fahren",
         "form": "verb",
         "definitions": [
             {
@@ -895,7 +895,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
-        "subtext": "fly to a city / fly business class / fly economy",
+        "subtext": "in eine Stadt fliegen / Business Class fliegen / Economy fliegen",
         "form": "verb",
         "definitions": [
             {
@@ -918,7 +918,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "subtext": "bei der Arbeit ankommen / spät ankommen / pünktlich ankommen / zu Hause ankommen",
         "form": "verb",
         "definitions": [
             {
@@ -940,7 +940,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "leave home / leave work / leave early / leave late",
+        "subtext": "das Haus verlassen / die Arbeit verlassen / früh gehen / spät gehen",
         "form": "verb",
         "definitions": [
             {
@@ -962,7 +962,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
-        "subtext": "move to a new place / move in / move out / move house",
+        "subtext": "an einen neuen Ort ziehen / einziehen / ausziehen / das Haus wechseln",
         "form": "verb",
         "definitions": [
             {
@@ -984,7 +984,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
-        "subtext": "return home / return to work / return a call / return from",
+        "subtext": "nach Hause zurückkehren / zur Arbeit zurückkehren / einen Anruf erwidern / zurückkehren von",
         "form": "verb",
         "definitions": [
             {
@@ -1007,7 +1007,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
-        "subtext": "travel for work / travel abroad / travel by train",
+        "subtext": "geschäftlich reisen / ins Ausland reisen / mit dem Zug reisen",
         "form": "verb",
         "definitions": [
             {
@@ -1029,7 +1029,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
-        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
+        "subtext": "frühstücken / zu Mittag essen / zu Abend essen / auswärts essen",
         "opposite": "trinken",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1054,7 +1054,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
-        "subtext": "drink coffee / drink tea / drink water / drink beer",
+        "subtext": "Kaffee trinken / Tee trinken / Wasser trinken / Bier trinken",
         "opposite": "essen",
         "oppositeEmoji": "🍎",
         "form": "verb",
@@ -1079,7 +1079,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
-        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
+        "subtext": "gut schlafen / schlecht schlafen / acht Stunden schlafen / lange schlafen",
         "opposite": "aufwachen",
         "oppositeEmoji": "⏰",
         "form": "verb",
@@ -1104,7 +1104,7 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
-        "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
+        "subtext": "Abendessen kochen / eine Mahlzeit kochen / zu Hause kochen / für jemanden kochen",
         "form": "verb",
         "definitions": [
             {
@@ -1126,7 +1126,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
-        "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
+        "subtext": "die Wohnung reinigen / die Küche reinigen / aufräumen / regelmäßig reinigen",
         "form": "verb",
         "definitions": [
             {
@@ -1148,7 +1148,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "subtext": "wear a suit / wear glasses / wear casual clothes",
+        "subtext": "einen Anzug tragen / eine Brille tragen / Freizeitkleidung tragen",
         "form": "verb",
         "definitions": [
             {
@@ -1171,7 +1171,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
-        "subtext": "wash the dishes / wash clothes / wash your hands",
+        "subtext": "das Geschirr spülen / Kleidung waschen / sich die Hände waschen",
         "form": "verb",
         "definitions": [
             {
@@ -1194,7 +1194,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
-        "subtext": "buy food / buy a ticket / buy online / buy a house",
+        "subtext": "Essen kaufen / ein Ticket kaufen / online kaufen / ein Haus kaufen",
         "opposite": "verkaufen",
         "oppositeEmoji": "🏷️",
         "form": "verb",
@@ -1219,7 +1219,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+        "subtext": "eine Rechnung bezahlen / Miete bezahlen / mit Karte bezahlen / bar bezahlen",
         "form": "verb",
         "definitions": [
             {
@@ -1241,7 +1241,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
-        "subtext": "spend money / spend on food / spend on rent / spend time",
+        "subtext": "Geld ausgeben / für Essen ausgeben / für Miete ausgeben / Zeit verbringen",
         "form": "verb",
         "definitions": [
             {
@@ -1263,7 +1263,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
-        "subtext": "save money / save for a holiday / save for a house",
+        "subtext": "Geld sparen / für einen Urlaub sparen / für ein Haus sparen",
         "opposite": "ausgeben",
         "oppositeEmoji": "💸",
         "form": "verb",
@@ -1287,11 +1287,11 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
-        "subtext": "work from home / work full-time / work hard / work late",
+        "subtext": "von zu Hause aus arbeiten / Vollzeit arbeiten / hart arbeiten / bis spät arbeiten",
         "form": "verb",
         "definitions": [
             {
-                "text": "Aufgaben als Teil eines Jobs erledigen.",
+                "text": "Aufgaben als Teil einer Arbeit erledigen.",
                 "examples": [
                     "Sie arbeitet drei Tage die Woche von zu Hause aus."
                 ]
@@ -1309,7 +1309,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
-        "subtext": "live in a flat / live alone / live with someone / live abroad",
+        "subtext": "in einer Wohnung leben / alleine leben / mit jemandem leben / im Ausland leben",
         "opposite": "sterben",
         "oppositeEmoji": "⚰️",
         "form": "verb",
@@ -1334,14 +1334,14 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
-        "subtext": "think about / think of / think it is / think carefully",
+        "subtext": "nachdenken über / denken an / glauben, dass es ... ist / sorgfältig nachdenken",
         "form": "verb",
         "definitions": [
             {
                 "text": "Eine Überzeugung oder Meinung haben; den Verstand benutzen.",
                 "examples": [
                     "Ich denke, es ist eine gute Idee.",
-                    "Sie denkt über ihren Job nach."
+                    "Sie denkt über ihre Arbeit nach."
                 ]
             }
         ],
@@ -1357,7 +1357,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "know someone / know the answer / know a place / know how to",
+        "subtext": "jemanden kennen / die Antwort wissen / einen Ort kennen / wissen wie",
         "form": "verb",
         "definitions": [
             {
@@ -1381,14 +1381,14 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
-        "subtext": "want a job / want to leave / want more money / want help",
+        "subtext": "eine Arbeit wollen / gehen wollen / mehr Geld wollen / Hilfe wollen",
         "form": "verb",
         "definitions": [
             {
                 "text": "Etwas begehren oder wünschen.",
                 "examples": [
                     "Ich will einen Kaffee.",
-                    "Sie will einen besseren Job.",
+                    "Sie will eine bessere Stelle.",
                     "Er will in Rente gehen."
                 ]
             }
@@ -1405,7 +1405,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
-        "subtext": "need help / need time / need money / need to rest",
+        "subtext": "Hilfe brauchen / Zeit brauchen / Geld brauchen / sich ausruhen müssen",
         "form": "verb",
         "definitions": [
             {
@@ -1429,13 +1429,13 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
-        "subtext": "like work / like to travel / like someone / like the idea",
+        "subtext": "die Arbeit mögen / gerne reisen / jemanden mögen / die Idee mögen",
         "form": "verb",
         "definitions": [
             {
                 "text": "Etwas angenehm finden; genießen.",
                 "examples": [
-                    "Ich mag meinen Job.",
+                    "Ich mag meine Arbeit.",
                     "Sie kocht gerne.",
                     "Er mag Kaffee."
                 ]
@@ -1453,13 +1453,13 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
-        "subtext": "love someone / love doing / love a place / love the idea",
+        "subtext": "jemanden lieben / es lieben zu tun / einen Ort lieben / die Idee lieben",
         "form": "verb",
         "definitions": [
             {
                 "text": "Starke Zuneigung haben; sehr genießen.",
                 "examples": [
-                    "Sie liebt ihren Job.",
+                    "Sie liebt ihre Arbeit.",
                     "Er liebt es, geschäftlich zu reisen."
                 ]
             }
@@ -1476,7 +1476,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
-        "subtext": "hate doing / hate someone / hate meetings / hate commuting",
+        "subtext": "es hassen zu tun / jemanden hassen / Besprechungen hassen / das Pendeln hassen",
         "form": "verb",
         "definitions": [
             {
@@ -1499,7 +1499,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
-        "subtext": "hope for / hope to do / hope that / I hope so",
+        "subtext": "hoffen auf / hoffen zu tun / hoffen, dass / ich hoffe es",
         "form": "verb",
         "definitions": [
             {
@@ -1522,7 +1522,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "subtext": "remember to do / remember a name / remember clearly",
+        "subtext": "sich erinnern zu tun / sich an einen Namen erinnern / sich deutlich erinnern",
         "form": "verb",
         "definitions": [
             {
@@ -1545,7 +1545,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
-        "subtext": "forget a name / forget to do / forget about / completely forget",
+        "subtext": "einen Namen vergessen / vergessen zu tun / vergessen / komplett vergessen",
         "form": "verb",
         "definitions": [
             {
@@ -1568,7 +1568,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💡",
-        "subtext": "understand a problem / understand someone / understand clearly",
+        "subtext": "ein Problem verstehen / jemanden verstehen / deutlich verstehen",
         "form": "verb",
         "definitions": [
             {
@@ -1591,7 +1591,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
-        "subtext": "decide to do / decide on / make a decision / hard to decide",
+        "subtext": "entscheiden zu tun / sich entscheiden für / eine Entscheidung treffen / schwer zu entscheiden",
         "form": "verb",
         "definitions": [
             {
@@ -1614,7 +1614,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
-        "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
+        "subtext": "es genießen zu tun / eine Mahlzeit genießen / die Arbeit genießen / das Leben genießen",
         "form": "verb",
         "definitions": [
             {
@@ -1636,7 +1636,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "subtext": "see a doctor / see friends / see the problem / see clearly",
+        "subtext": "einen Arzt sehen / Freunde sehen / das Problem sehen / deutlich sehen",
         "form": "verb",
         "definitions": [
             {
@@ -1659,7 +1659,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "subtext": "hear news / hear from someone / hear a sound / hear clearly",
+        "subtext": "Neuigkeiten hören / von jemandem hören / ein Geräusch hören / deutlich hören",
         "form": "verb",
         "definitions": [
             {
@@ -1683,7 +1683,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
-        "subtext": "wake up early / wake up late / wake up tired",
+        "subtext": "früh aufwachen / spät aufwachen / müde aufwachen",
         "opposite": "schlafen",
         "oppositeEmoji": "😴",
         "definitions": [
@@ -1707,7 +1707,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
-        "subtext": "watch TV / watch a film / watch the news / watch closely",
+        "subtext": "fernsehen / einen Film schauen / Nachrichten schauen / genau hinschauen",
         "definitions": [
             {
                 "text": "Etwas eine Zeit lang ansehen.",
@@ -1728,7 +1728,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
-        "subtext": "look at / look for / look like / look happy",
+        "subtext": "anschauen / suchen nach / aussehen wie / glücklich aussehen",
         "form": "verb",
         "definitions": [
             {
@@ -1751,7 +1751,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "subtext": "play sport / play a game / play music / play a role",
+        "subtext": "Sport treiben / ein Spiel spielen / Musik spielen / eine Rolle spielen",
         "form": "verb",
         "definitions": [
             {
@@ -1773,7 +1773,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
-        "subtext": "run a race / run a business / run out of / run late",
+        "subtext": "ein Rennen laufen / ein Geschäft führen / ausgehen (Vorrat) / spät dran sein",
         "form": "verb",
         "definitions": [
             {
@@ -1796,7 +1796,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
-        "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
+        "subtext": "sich hinsetzen / an einem Schreibtisch sitzen / in einer Besprechung sitzen / ruhig dasitzen",
         "opposite": "stehen",
         "oppositeEmoji": "🧍",
         "form": "verb",
@@ -1820,7 +1820,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
-        "subtext": "stand up / stand in a queue / stand by / stand out",
+        "subtext": "aufstehen / in einer Schlange stehen / daneben stehen / herausstechen",
         "opposite": "sitzen",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1857,7 +1857,7 @@
         "aspect": "action",
         "v2": "traf",
         "v3": "getroffen",
-        "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
+        "subtext": "einen Kunden treffen / einen Kollegen treffen / sich zum Mittagessen treffen / sich online treffen",
         "group": "irregular",
         "auxiliary": "haben"
     },
@@ -1866,13 +1866,13 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
-        "subtext": "learn a language / learn a skill / learn from / learn how to",
+        "subtext": "eine Sprache lernen / eine Fertigkeit lernen / lernen von / lernen wie",
         "form": "verb",
         "definitions": [
             {
                 "text": "Wissen oder Fähigkeiten erwerben.",
                 "examples": [
-                    "Sie lernt Spanisch für ihren neuen Job im Ausland."
+                    "Sie lernt Spanisch für ihre neue Stelle im Ausland."
                 ]
             }
         ],
@@ -1888,13 +1888,13 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🔄",
-        "subtext": "change jobs / change your mind / change the plan / change something",
+        "subtext": "die Stelle wechseln / seine Meinung ändern / den Plan ändern / etwas ändern",
         "form": "verb",
         "definitions": [
             {
                 "text": "Anders werden; etwas anders machen.",
                 "examples": [
-                    "Sie hat in drei Jahren zweimal den Job gewechselt. Dinge ändern sich schnell."
+                    "Sie hat in drei Jahren zweimal die Stelle gewechselt. Dinge ändern sich schnell."
                 ]
             }
         ],
@@ -1910,7 +1910,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
-        "subtext": "stop doing / stop working / stop a habit / stop someone",
+        "subtext": "aufhören zu tun / aufhören zu arbeiten / eine Gewohnheit beenden / jemanden stoppen",
         "form": "verb",
         "definitions": [
             {
@@ -1932,7 +1932,7 @@
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
-        "subtext": "add some sugar / add to / add up / add a comment",
+        "subtext": "etwas Zucker hinzufügen / hinzufügen zu / zusammenzählen / einen Kommentar hinzufügen",
         "form": "verb",
         "definitions": [
             {
@@ -1955,7 +1955,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
-        "subtext": "win a game / win a prize / win an award / win a contract",
+        "subtext": "ein Spiel gewinnen / einen Preis gewinnen / eine Auszeichnung gewinnen / einen Auftrag gewinnen",
         "opposite": "verlieren",
         "oppositeEmoji": "📉",
         "form": "verb",
@@ -1979,7 +1979,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
-        "subtext": "wait for someone / wait in a queue / wait a moment",
+        "subtext": "auf jemanden warten / in einer Schlange warten / einen Moment warten",
         "form": "verb",
         "definitions": [
             {
@@ -2001,7 +2001,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
-        "subtext": "die of / die for / die from / die out",
+        "subtext": "sterben an / sterben für / sterben vor / aussterben",
         "opposite": "leben",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -2047,7 +2047,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
-        "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
+        "subtext": "zu Hause bleiben / in einem Hotel übernachten / lange aufbleiben / bei jemandem bleiben",
         "form": "verb",
         "definitions": [
             {
@@ -2070,7 +2070,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "subtext": "fall down / fall off / fall in love / fall asleep",
+        "subtext": "hinfallen / herunterfallen / sich verlieben / einschlafen",
         "form": "verb",
         "definitions": [
             {
@@ -2093,7 +2093,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
-        "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
+        "subtext": "eine Prüfung bestehen / den Ball abgeben / Zeit verbringen / den Zucker reichen",
         "form": "verb",
         "definitions": [
             {
@@ -2116,7 +2116,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
-        "subtext": "sell products / sell online / sell at the market / best seller",
+        "subtext": "Produkte verkaufen / online verkaufen / auf dem Markt verkaufen / Bestseller",
         "opposite": "kaufen",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2140,7 +2140,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
-        "subtext": "pull the door / pull something / pull up / pull away",
+        "subtext": "an der Tür ziehen / an etwas ziehen / anhalten / wegfahren",
         "opposite": "drücken",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2164,7 +2164,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
-        "subtext": "push the button / push a cart / push away / push through",
+        "subtext": "den Knopf drücken / einen Wagen schieben / wegdrücken / sich durchsetzen",
         "opposite": "ziehen",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2189,7 +2189,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
-        "subtext": "carry a bag / carry notes / carry out / carry on",
+        "subtext": "eine Tasche tragen / Notizen mit sich führen / ausführen / weitermachen",
         "form": "verb",
         "definitions": [
             {
@@ -2211,7 +2211,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
-        "subtext": "break the glass / break a law / take a break / break down",
+        "subtext": "das Glas zerbrechen / gegen ein Gesetz verstoßen / eine Pause machen / kaputtgehen",
         "form": "verb",
         "definitions": [
             {
@@ -2234,7 +2234,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
-        "subtext": "receive an email / receive a gift / receive payment / receive news",
+        "subtext": "eine E-Mail empfangen / ein Geschenk erhalten / eine Zahlung erhalten / Nachrichten empfangen",
         "form": "verb",
         "definitions": [
             {
@@ -2257,7 +2257,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
-        "subtext": "agree with someone / agree to do / agree on / I agree",
+        "subtext": "jemandem zustimmen / zustimmen zu tun / sich einigen auf / ich stimme zu",
         "form": "verb",
         "definitions": [
             {
@@ -2280,7 +2280,7 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
-        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
+        "subtext": "ein Bild zeichnen / eine Schlussfolgerung ziehen / Aufmerksamkeit erregen / eine Linie ziehen",
         "form": "verb",
         "definitions": [
             {
@@ -2303,7 +2303,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
-        "subtext": "share a room / share information / share an idea / share with",
+        "subtext": "ein Zimmer teilen / Informationen teilen / eine Idee teilen / teilen mit",
         "form": "verb",
         "definitions": [
             {
@@ -2326,7 +2326,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
-        "subtext": "smile at someone / a big smile / smile broadly",
+        "subtext": "jemanden anlächeln / ein breites Lächeln / übers ganze Gesicht lächeln",
         "opposite": "weinen",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2351,7 +2351,7 @@
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
-        "subtext": "cry for help / cry out / start crying / cry about something",
+        "subtext": "um Hilfe rufen / aufschreien / zu weinen beginnen / über etwas weinen",
         "opposite": "lächeln",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2376,7 +2376,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
-        "subtext": "dance to music / go dancing / dance together / slow dance",
+        "subtext": "zu Musik tanzen / tanzen gehen / zusammen tanzen / Stehblues",
         "form": "verb",
         "definitions": [
             {
@@ -2399,7 +2399,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
-        "subtext": "sing a song / sing along / sing well / lead singer",
+        "subtext": "ein Lied singen / mitsingen / gut singen / Leadsänger",
         "form": "verb",
         "definitions": [
             {
@@ -2422,7 +2422,7 @@
         "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
-        "subtext": "jump high / jump over / jump up / jump in",
+        "subtext": "hoch springen / über etwas springen / aufspringen / hineinspringen",
         "form": "verb",
         "definitions": [
             {
@@ -2445,7 +2445,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
-        "subtext": "go swimming / swim across / swim laps / swim well",
+        "subtext": "schwimmen gehen / hinüberschwimmen / Bahnen schwimmen / gut schwimmen",
         "form": "verb",
         "definitions": [
             {
@@ -2468,7 +2468,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
-        "subtext": "study English / study for an exam / study hard / self-study",
+        "subtext": "Englisch studieren / für eine Prüfung lernen / fleißig lernen / Selbststudium",
         "form": "verb",
         "definitions": [
             {
@@ -2490,7 +2490,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
-        "subtext": "teach someone / teach a subject / teach how to / teach a class",
+        "subtext": "jemanden lehren / ein Fach unterrichten / lehren wie / eine Klasse unterrichten",
         "form": "verb",
         "definitions": [
             {
@@ -2512,7 +2512,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "subtext": "commute to work / daily commute / long commute / commute by train",
+        "subtext": "zur Arbeit pendeln / tägliches Pendeln / langer Arbeitsweg / mit dem Zug pendeln",
         "form": "verb",
         "definitions": [
             {
@@ -2534,7 +2534,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
-        "subtext": "rent a flat / rent a property / rent out a room",
+        "subtext": "eine Wohnung mieten / eine Immobilie mieten / ein Zimmer vermieten",
         "form": "verb",
         "definitions": [
             {
@@ -2569,7 +2569,7 @@
         "aspect": "action",
         "v2": "trainierte",
         "v3": "trainiert",
-        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
+        "subtext": "regelmäßig trainieren / im Fitnessstudio trainieren / im Freien trainieren",
         "group": "en",
         "auxiliary": "haben"
     },
@@ -2591,6 +2591,7 @@
         "aspect": "stative",
         "v2": "kostete",
         "v3": "gekostet",
+        "subtext": "viel kosten / Geld kosten / zu viel kosten / weniger kosten",
         "group": "en",
         "auxiliary": "haben"
     },
@@ -2612,6 +2613,7 @@
         "aspect": "action",
         "v2": "lud ein",
         "v3": "eingeladen",
+        "subtext": "jemanden einladen / zum Essen einladen / zu einer Party einladen",
         "group": "irregular",
         "auxiliary": "haben"
     },
@@ -2625,7 +2627,7 @@
                 ]
             }
         ],
-        "subtext": "get up early / get up late / get up quickly",
+        "subtext": "früh aufstehen / spät aufstehen / schnell aufstehen",
         "classification": "irregular",
         "aspect": "action",
         "v2": "stand auf",
@@ -2647,7 +2649,7 @@
                 ]
             }
         ],
-        "subtext": "have breakfast at home / have a quick breakfast / skip breakfast",
+        "subtext": "zu Hause frühstücken / ein schnelles Frühstück haben / das Frühstück ausfallen lassen",
         "classification": "regular",
         "aspect": "action",
         "v2": "frühstückte",
@@ -2669,7 +2671,7 @@
                 ]
             }
         ],
-        "subtext": "come back home / come back late / come back from a trip",
+        "subtext": "nach Hause zurückkommen / spät zurückkommen / von einer Reise zurückkehren",
         "classification": "irregular",
         "aspect": "action",
         "v2": "kam zurück",
@@ -2691,7 +2693,7 @@
                 ]
             }
         ],
-        "subtext": "go to bed early / go to bed late / go to bed tired",
+        "subtext": "früh ins Bett gehen / spät ins Bett gehen / müde ins Bett gehen",
         "classification": "irregular",
         "aspect": "action",
         "v2": "ging ins Bett",
@@ -2713,7 +2715,7 @@
                 ]
             }
         ],
-        "subtext": "check emails / check messages / check a document / check the time",
+        "subtext": "E-Mails prüfen / Nachrichten prüfen / ein Dokument prüfen / die Uhrzeit prüfen",
         "classification": "regular",
         "aspect": "action",
         "v2": "prüfte",
@@ -2735,7 +2737,7 @@
                 ]
             }
         ],
-        "subtext": "reply to an email / reply quickly / reply to a message",
+        "subtext": "auf eine E-Mail antworten / schnell antworten / auf eine Nachricht antworten",
         "classification": "regular",
         "aspect": "action",
         "v2": "antwortete",
@@ -2757,7 +2759,7 @@
                 ]
             }
         ],
-        "subtext": "present a report / present ideas / present to a client",
+        "subtext": "einen Bericht präsentieren / Ideen präsentieren / einem Kunden präsentieren",
         "classification": "regular",
         "aspect": "action",
         "v2": "präsentierte",
@@ -2779,7 +2781,7 @@
                 ]
             }
         ],
-        "subtext": "attend a meeting / attend a course / attend an event",
+        "subtext": "an einer Besprechung teilnehmen / einen Kurs besuchen / eine Veranstaltung besuchen",
         "classification": "regular",
         "aspect": "action",
         "v2": "besuchte",
@@ -2801,7 +2803,7 @@
                 ]
             }
         ],
-        "subtext": "manage a team / manage a project / manage time / manage stress",
+        "subtext": "ein Team leiten / ein Projekt leiten / Zeit managen / Stress bewältigen",
         "classification": "regular",
         "aspect": "action",
         "v2": "leitete",
@@ -2823,7 +2825,7 @@
                 ]
             }
         ],
-        "subtext": "charge a fee / charge for a service / charge extra",
+        "subtext": "eine Gebühr berechnen / für eine Dienstleistung berechnen / extra berechnen",
         "classification": "regular",
         "aspect": "action",
         "v2": "berechnete",
@@ -2845,7 +2847,7 @@
                 ]
             }
         ],
-        "subtext": "afford a house / afford to travel / afford something",
+        "subtext": "sich ein Haus leisten / sich leisten zu reisen / sich etwas leisten",
         "classification": "regular",
         "aspect": "stative",
         "v2": "leistete",
@@ -2867,7 +2869,7 @@
                 ]
             }
         ],
-        "subtext": "owe money / owe someone / owe a lot / owe nothing",
+        "subtext": "Geld schulden / jemandem schulden / viel schulden / nichts schulden",
         "classification": "regular",
         "aspect": "stative",
         "v2": "schuldete",
@@ -2889,7 +2891,7 @@
                 ]
             }
         ],
-        "subtext": "earn a salary / earn money / earn more / earn enough",
+        "subtext": "ein Gehalt verdienen / Geld verdienen / mehr verdienen / genug verdienen",
         "classification": "regular",
         "aspect": "action",
         "v2": "verdiente",
@@ -2911,7 +2913,7 @@
                 ]
             }
         ],
-        "subtext": "visit family / visit a friend / visit a city / visit regularly",
+        "subtext": "die Familie besuchen / einen Freund besuchen / eine Stadt besuchen / regelmäßig besuchen",
         "classification": "regular",
         "aspect": "action",
         "v2": "besuchte",
@@ -2933,7 +2935,7 @@
                 ]
             }
         ],
-        "subtext": "celebrate a birthday / celebrate success / celebrate together",
+        "subtext": "einen Geburtstag feiern / Erfolg feiern / zusammen feiern",
         "classification": "regular",
         "aspect": "action",
         "v2": "feierte",
@@ -2955,7 +2957,7 @@
                 ]
             }
         ],
-        "subtext": "recommend a place / recommend someone / recommend a film",
+        "subtext": "einen Ort empfehlen / jemanden empfehlen / einen Film empfehlen",
         "classification": "irregular",
         "aspect": "action",
         "v2": "empfahl",
@@ -2977,7 +2979,7 @@
                 ]
             }
         ],
-        "subtext": "hurt your back / hurt someone / hurt yourself / it hurts",
+        "subtext": "Rückenschmerzen haben / jemandem wehtun / sich wehtun / es tut weh",
         "classification": "irregular",
         "aspect": "both",
         "v2": "tat weh",
@@ -2999,7 +3001,7 @@
                 ]
             }
         ],
-        "subtext": "rest at home / rest after work / need rest / get some rest",
+        "subtext": "zu Hause ausruhen / nach der Arbeit ausruhen / Ruhe brauchen / sich etwas ausruhen",
         "classification": "regular",
         "aspect": "action",
         "v2": "ruhte",
@@ -3021,7 +3023,7 @@
                 ]
             }
         ],
-        "subtext": "recover from illness / recover quickly / recover fully",
+        "subtext": "sich von einer Krankheit erholen / sich schnell erholen / sich vollständig erholen",
         "classification": "regular",
         "aspect": "action",
         "v2": "erholte",
@@ -3043,7 +3045,7 @@
                 ]
             }
         ],
-        "subtext": "book a hotel / book a flight / book a table / book in advance",
+        "subtext": "ein Hotel buchen / einen Flug buchen / einen Tisch reservieren / im Voraus buchen",
         "classification": "regular",
         "aspect": "action",
         "v2": "buchte",
@@ -3065,7 +3067,7 @@
                 ]
             }
         ],
-        "subtext": "pack a bag / pack a suitcase / pack lightly",
+        "subtext": "eine Tasche packen / einen Koffer packen / leicht gepackt reisen",
         "classification": "regular",
         "aspect": "action",
         "v2": "packte",
@@ -3087,7 +3089,7 @@
                 ]
             }
         ],
-        "subtext": "cancel a flight / cancel a booking / cancel a meeting",
+        "subtext": "einen Flug stornieren / eine Buchung stornieren / eine Besprechung absagen",
         "classification": "regular",
         "aspect": "action",
         "v2": "stornierte",
@@ -3109,7 +3111,7 @@
                 ]
             }
         ],
-        "subtext": "miss a train / miss a flight / miss someone / miss work",
+        "subtext": "einen Zug verpassen / einen Flug verpassen / jemanden vermissen / die Arbeit verpassen",
         "classification": "regular",
         "aspect": "both",
         "v2": "verpasste",
@@ -3126,7 +3128,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📦",
-        "subtext": "order food / order a drink / order online / order supplies",
+        "subtext": "Essen bestellen / ein Getränk bestellen / online bestellen / Material bestellen",
         "form": "verb",
         "definitions": [
             {
@@ -3148,7 +3150,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💡",
-        "subtext": "explain a process / explain clearly / explain to someone",
+        "subtext": "einen Prozess erklären / klar erklären / jemandem erklären",
         "form": "verb",
         "definitions": [
             {
@@ -3170,7 +3172,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "subtext": "thank someone / thank you for / many thanks",
+        "subtext": "jemandem danken / danken für / vielen Dank",
         "form": "verb",
         "definitions": [
             {
@@ -3192,7 +3194,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
-        "subtext": "introduce yourself / introduce someone / introduce a topic",
+        "subtext": "sich vorstellen / jemanden vorstellen / ein Thema vorstellen",
         "form": "verb",
         "definitions": [
             {
@@ -3214,7 +3216,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
-        "subtext": "relax at home / relax after work / relax on holiday",
+        "subtext": "zu Hause entspannen / nach der Arbeit entspannen / im Urlaub entspannen",
         "form": "verb",
         "definitions": [
             {
@@ -3258,7 +3260,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
-        "subtext": "what happened / happen to someone / it happens / happen again",
+        "subtext": "was ist passiert / jemandem passieren / es passiert / wieder passieren",
         "form": "verb",
         "definitions": [
             {
@@ -3302,7 +3304,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
-        "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
+        "subtext": "etwas bedeuten / was bedeutet das / beabsichtigen / ich wollte nicht",
         "form": "verb",
         "definitions": [
             {
@@ -3324,7 +3326,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
-        "subtext": "follow instructions / follow someone / follow the news / follow up",
+        "subtext": "Anweisungen folgen / jemandem folgen / die Nachrichten verfolgen / nachfassen",
         "form": "verb",
         "definitions": [
             {
@@ -3346,7 +3348,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
-        "subtext": "continue working / continue to do / continue with / continue a task",
+        "subtext": "weiterarbeiten / fortfahren zu tun / weitermachen mit / eine Aufgabe fortsetzen",
         "form": "verb",
         "definitions": [
             {
@@ -3368,7 +3370,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
-        "subtext": "grow a business / grow quickly / grow by / grow into",
+        "subtext": "ein Geschäft ausbauen / schnell wachsen / wachsen um / hineinwachsen",
         "form": "verb",
         "definitions": [
             {
@@ -3390,7 +3392,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
-        "subtext": "include something / include in / not included / price includes",
+        "subtext": "etwas beinhalten / einbeziehen in / nicht enthalten / Preis beinhaltet",
         "form": "verb",
         "definitions": [
             {
@@ -3412,7 +3414,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✨",
-        "subtext": "become a manager / become popular / become clear / become important",
+        "subtext": "Manager werden / beliebt werden / klar werden / wichtig werden",
         "form": "verb",
         "definitions": [
             {
@@ -3434,7 +3436,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
-        "subtext": "belong to someone / belong in / feel like you belong",
+        "subtext": "jemandem gehören / hingehören / sich zugehörig fühlen",
         "form": "verb",
         "definitions": [
             {
@@ -3456,7 +3458,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👉",
-        "subtext": "choose between / choose to do / choose carefully / choose a career",
+        "subtext": "wählen zwischen / wählen zu tun / sorgfältig wählen / eine Karriere wählen",
         "form": "verb",
         "definitions": [
             {
@@ -3478,7 +3480,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
-        "subtext": "build a career / build a team / build experience / build trust",
+        "subtext": "eine Karriere aufbauen / ein Team aufbauen / Erfahrung aufbauen / Vertrauen aufbauen",
         "form": "verb",
         "definitions": [
             {

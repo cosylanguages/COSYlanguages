@@ -1183,7 +1183,7 @@
         "emoji": "🗓️",
         "form": "noun",
         "plural": "fine settimana",
-        "subtext": "weekend",
+        "subtext": "fine settimana",
         "definitions": [
             {
                 "text": "Sabato e domenica.",

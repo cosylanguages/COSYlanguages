@@ -1882,7 +1882,7 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "Mettre des choses ensemble pour former un groupe plus large.",
+                "text": "Rassembler des éléments pour former un groupe plus vaste.",
                 "examples": [
                     "Ajoute du sucre au thé.",
                     "Combien font cinq plus cinq ?"

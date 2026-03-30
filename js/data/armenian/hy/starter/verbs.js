@@ -72,7 +72,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "աշխատանք տալ / փող տալ / խորհուրդ տալ",
-        "opposite": "take",
+        "opposite": "վերցնել",
         "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
@@ -95,7 +95,7 @@
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "ավտոբուս նստել / տաքսի նստել / դաս վերցնել",
-        "opposite": "give",
+        "opposite": "տալ",
         "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
@@ -223,7 +223,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "դուռը բացել / գրասենյակը բացել / պատուհանը բացել",
-        "opposite": "close",
+        "opposite": "փակել",
         "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
@@ -246,7 +246,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "դուռը փակել / գրասենյակը փակել / աչքերը փակել",
-        "opposite": "open",
+        "opposite": "բացել",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -269,7 +269,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "աշխատանքը սկսել / դասը սկսել / օրը սկսել",
-        "opposite": "finish",
+        "opposite": "ավարտել",
         "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
@@ -292,7 +292,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "աշխատանքը ավարտել / նախագիծը ավարտել",
-        "opposite": "start",
+        "opposite": "սկսել",
         "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
@@ -420,7 +420,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "բանալիները կորցնել / ժամանակ կորցնել",
-        "opposite": "win",
+        "opposite": "հաղթել",
         "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
@@ -632,7 +632,7 @@
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "նամակ գրել / անունը գրել",
-        "opposite": "read",
+        "opposite": "կարդալ",
         "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
@@ -655,7 +655,7 @@
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "գիրք կարդալ / լուրեր կարդալ",
-        "opposite": "write",
+        "opposite": "գրել",
         "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
@@ -762,7 +762,7 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "տուն գալ / գրասենյակ գալ",
-        "opposite": "go",
+        "opposite": "գնալ",
         "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
@@ -953,7 +953,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "ճաշ ուտել / խնձոր ուտել",
-        "opposite": "drink",
+        "opposite": "խմել",
         "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
@@ -976,7 +976,7 @@
         "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "ջուր խմել / սուրճ խմել / թեյ խմել",
-        "opposite": "eat",
+        "opposite": "ուտել",
         "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
@@ -999,7 +999,7 @@
         "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "լավ քնել / ութ ժամ քնել",
-        "opposite": "wake up",
+        "opposite": "արթնանալ",
         "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
@@ -1106,7 +1106,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "սնունդ գնել / նվեր գնել",
-        "opposite": "sell",
+        "opposite": "վաճառել",
         "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
@@ -1171,7 +1171,7 @@
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "փող խնայել / էներգիա խնայել",
-        "opposite": "spend",
+        "opposite": "ծախսել",
         "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
@@ -1215,7 +1215,7 @@
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "Երևանում ապրել / բնակարանում ապրել",
-        "opposite": "die",
+        "opposite": "մահանալ",
         "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
@@ -1554,7 +1554,7 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "վաղ արթնանալ / ժամը յոթին արթնանալ",
-        "opposite": "sleep",
+        "opposite": "քնել",
         "oppositeEmoji": "😴",
         "definitions": [
             {
@@ -1660,7 +1660,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "աթոռին նստել / սեղանի մոտ նստել",
-        "opposite": "stand",
+        "opposite": "կանգնել",
         "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
@@ -1683,7 +1683,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "դռան մոտ կանգնել / հերթում կանգնել",
-        "opposite": "sit",
+        "opposite": "նստել",
         "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
@@ -1811,7 +1811,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "խաղը հաղթել / մրցանակ հաղթել",
-        "opposite": "lose",
+        "opposite": "կորցնել",
         "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
@@ -1855,7 +1855,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "երիտասարդ մահանալ / ծարավից մահանալ",
-        "opposite": "live",
+        "opposite": "ապրել",
         "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
@@ -1962,7 +1962,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "մեքենան վաճառել / տունը վաճառել",
-        "opposite": "buy",
+        "opposite": "գնել",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -1985,7 +1985,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "դուռը քաշել / պարանը քաշել",
-        "opposite": "push",
+        "opposite": "հրել",
         "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
@@ -2008,7 +2008,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "դուռը հրել / կոճակը սեղմել",
-        "opposite": "pull",
+        "opposite": "քաշել",
         "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
@@ -2157,7 +2157,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "երջանիկ ժպտալ / երեխային ժպտալ",
-        "opposite": "cry",
+        "opposite": "լաց լինել",
         "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
@@ -2180,7 +2180,7 @@
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "տխրությունից լաց լինել / բարձր լաց լինել",
-        "opposite": "smile",
+        "opposite": "ժպտալ",
         "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [

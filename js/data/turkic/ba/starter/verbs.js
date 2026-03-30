@@ -137,7 +137,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
-        "subtext": "put on / put away / put the phone down / put money aside",
+        "subtext": "кейергә / йыйырға / аҡса йыйырға",
         "form": "verb",
         "definitions": [
             {
@@ -397,7 +397,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
-        "subtext": "keep going / keep quiet / keep a record / keep in touch",
+        "subtext": "дәүամ итергә / тыныс булырға / элемтәлә булырға",
         "form": "verb",
         "definitions": [
             {
@@ -418,7 +418,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
-        "subtext": "lose a job / lose money / lose weight / lose time",
+        "subtext": "эште юғалтырға / аҡса юғалтырға",
         "opposite": "еңеү",
         "oppositeEmoji": "🏆",
         "form": "verb",
@@ -441,7 +441,7 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
-        "subtext": "cut costs / cut spending / cut short / cut in half",
+        "subtext": "сығымдарҙы ҡыҫҡартыу",
         "form": "verb",
         "definitions": [
             {
@@ -462,7 +462,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
-        "subtext": "turn on / turn off / turn left / turn right",
+        "subtext": "ҡабыҙырға / һүндерергә / һулға боролорға / уңға боролорға",
         "form": "verb",
         "definitions": [
             {
@@ -483,7 +483,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
-        "subtext": "bring someone / bring food / bring a document / bring up",
+        "subtext": "алып килергә / ризыҡ алып килергә",
         "form": "verb",
         "definitions": [
             {
@@ -609,7 +609,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
-        "subtext": "call someone / call back / call a meeting / call in sick",
+        "subtext": "шалтыратырға / кире шалтыратырға",
         "form": "verb",
         "definitions": [
             {
@@ -697,7 +697,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
-        "subtext": "answer a question / answer the phone / answer an email",
+        "subtext": "яуап бирергә / шалтыратыуға яуап бирергә",
         "form": "verb",
         "definitions": [
             {
@@ -718,7 +718,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
-        "subtext": "repeat that / repeat yourself / repeat an order",
+        "subtext": "ҡабатларға / заказды ҡбатларға",
         "form": "verb",
         "definitions": [
             {
@@ -846,7 +846,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
-        "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "subtext": "эшкә килергә / һуңға ҡалып килергә",
         "form": "verb",
         "definitions": [
             {
@@ -867,7 +867,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
-        "subtext": "leave home / leave work / leave early / leave late",
+        "subtext": "өйҙән китергә / эштән китергә",
         "form": "verb",
         "definitions": [
             {
@@ -930,7 +930,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
-        "subtext": "travel for work / travel abroad / travel by train",
+        "subtext": "эш буйынса сәйәхәт итергә / сит илгә барырға",
         "form": "verb",
         "definitions": [
             {
@@ -997,7 +997,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
-        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
+        "subtext": "яҡшы йоҡларға / насар йоҡларға",
         "opposite": "уяныу",
         "oppositeEmoji": "⏰",
         "form": "verb",
@@ -1020,7 +1020,7 @@
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
-        "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
+        "subtext": "киске аш бешерергә / өйҙә бешерергә",
         "form": "verb",
         "definitions": [
             {
@@ -1041,7 +1041,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
-        "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
+        "subtext": "фатирҙы йыйыштырырға / кухняны йыйыштырырға",
         "form": "verb",
         "definitions": [
             {
@@ -1062,7 +1062,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "subtext": "wear a suit / wear glasses / wear casual clothes",
+        "subtext": "костюм кейергә / күҙлек кейергә",
         "form": "verb",
         "definitions": [
             {
@@ -1083,7 +1083,7 @@
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
-        "subtext": "wash the dishes / wash clothes / wash your hands",
+        "subtext": "һауыт-һаба йыуырға / кейем йыуырға",
         "form": "verb",
         "definitions": [
             {
@@ -1104,7 +1104,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
-        "subtext": "buy food / buy a ticket / buy online / buy a house",
+        "subtext": "ризыҡ һатып алырға / билет һатып алырға",
         "opposite": "һатыу",
         "oppositeEmoji": "🏷️",
         "form": "verb",
@@ -1127,7 +1127,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "subtext": "pay a bill / pay rent / pay by card / pay in cash",
+        "subtext": "счетты түләргә / аренда түләргә",
         "form": "verb",
         "definitions": [
             {
@@ -1148,7 +1148,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
-        "subtext": "spend money / spend on food / spend on rent / spend time",
+        "subtext": "аҡса тоторға / ваҡыт үткәрергә",
         "form": "verb",
         "definitions": [
             {
@@ -1169,7 +1169,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
-        "subtext": "save money / save for a holiday / save for a house",
+        "subtext": "аҡса йыйырға",
         "opposite": "тотоноу",
         "oppositeEmoji": "💸",
         "form": "verb",

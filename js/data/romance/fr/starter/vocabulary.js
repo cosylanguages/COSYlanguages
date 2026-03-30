@@ -1027,7 +1027,7 @@
         "plural": "hommes",
         "definitions": [
             {
-                "text": "Une person mâle adulte.",
+                "text": "Un homme adulte.",
                 "examples": [
                     "Cet homme est mon patron."
                 ]

@@ -548,7 +548,7 @@
         "form": "noun",
         "definitions": [
             {
-                "text": "Ein Job; ein Ort zum Geldverdienen.",
+                "text": "Eine Arbeit; ein Ort zum Geldverdienen.",
                 "examples": []
             }
         ],

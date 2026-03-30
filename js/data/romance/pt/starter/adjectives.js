@@ -39,7 +39,7 @@
                 ]
             }
         ],
-        "subtext": "a short journey / short hair / too short",
+        "subtext": "uma viagem curta / cabelo curto / curto demais",
         "comparative": "mais baixo",
         "superlative": "o mais baixo",
         "feminine": "baixa",
@@ -61,7 +61,7 @@
                 ]
             }
         ],
-        "subtext": "young person / young professional / young at heart",
+        "subtext": "pessoa jovem / jovem profissional / jovem de coração",
         "comparative": "mais jovem",
         "superlative": "o mais jovem",
         "feminine": "jovem",
@@ -83,7 +83,7 @@
                 ]
             }
         ],
-        "subtext": "old friend / old habits / very old",
+        "subtext": "velho amigo / velhos hábitos / muito velho",
         "comparative": "mais velho",
         "superlative": "o mais velho",
         "feminine": "velha",
@@ -104,7 +104,7 @@
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell",
+        "subtext": "dia ensolarado / tempo ensolarado / período ensolarado",
         "comparative": "mais ensolarado",
         "superlative": "o mais ensolarado",
         "feminine": "ensolarada",
@@ -125,7 +125,7 @@
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season",
+        "subtext": "dia chuvoso / tempo chuvoso / época das chuvas",
         "comparative": "mais chuvoso",
         "superlative": "o mais chuvoso",
         "feminine": "chuvosa",
@@ -140,7 +140,7 @@
         "form": "adjective",
         "opposite": "frio",
         "oppositeEmoji": "❄️",
-        "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
+        "subtext": "muito quente / tempo quente / uma bebida quente / quente demais",
         "definitions": [
             {
                 "text": "Que tem uma temperatura alta.",
@@ -163,7 +163,7 @@
         "form": "adjective",
         "opposite": "quente",
         "oppositeEmoji": "🔥",
-        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
+        "subtext": "muito frio / manhã fria / tempo frio / uma bebida fria / frio demais",
         "definitions": [
             {
                 "text": "Que tem uma temperatura baixa.",
@@ -193,7 +193,7 @@
                 ]
             }
         ],
-        "subtext": "ordinary day / ordinary life / nothing ordinary",
+        "subtext": "dia comum / vida comum / nada fora do comum",
         "comparative": "mais comum",
         "superlative": "o mais comum",
         "feminine": "comum",
@@ -208,7 +208,7 @@
         "form": "adjective",
         "opposite": "caro",
         "oppositeEmoji": "💎",
-        "subtext": "low price, inexpensive / cheap flight / very cheap / cheap and cheerful",
+        "subtext": "preço baixo, barato / voo barato / muito barato / simples e bom",
         "definitions": [
             {
                 "text": "Não caro; de baixo preço.",
@@ -231,7 +231,7 @@
         "form": "adjective",
         "opposite": "barato",
         "oppositeEmoji": "🏷️",
-        "subtext": "costly, high price / very expensive / expensive taste / too expensive",
+        "subtext": "caro / muito caro / gosto caro / caro demais",
         "definitions": [
             {
                 "text": "Que custa muito dinheiro.",
@@ -254,7 +254,7 @@
         "form": "adjective",
         "opposite": "mau",
         "oppositeEmoji": "👎",
-        "subtext": "great, nice, pleasant / good idea / good luck / good value",
+        "subtext": "ótimo, agradável / boa ideia / boa sorte / bom valor",
         "definitions": [
             {
                 "text": "De alta qualidade ou agradável.",
@@ -277,7 +277,7 @@
         "form": "adjective",
         "opposite": "bom",
         "oppositeEmoji": "👍",
-        "subtext": "terrible, awful, unpleasant / bad news / bad luck / bad decision",
+        "subtext": "terrível, horrível / más notícias / má sorte / má decisão",
         "definitions": [
             {
                 "text": "Não bom; desagradável.",
@@ -300,7 +300,7 @@
         "form": "adjective",
         "opposite": "pequeno",
         "oppositeEmoji": "🐭",
-        "subtext": "large, huge / a big house / a big problem / big enough",
+        "subtext": "grande, enorme / uma casa grande / um grande problema / grande o suficiente",
         "definitions": [
             {
                 "text": "De tamanho grande.",
@@ -323,7 +323,7 @@
         "form": "adjective",
         "opposite": "grande",
         "oppositeEmoji": "🐘",
-        "subtext": "little, tiny / a small flat / a small salary / too small",
+        "subtext": "pequeno, minúsculo / um apartamento pequeno / um salário pequeno / pequeno demais",
         "definitions": [
             {
                 "text": "De tamanho pequeno.",
@@ -354,7 +354,7 @@
                 ]
             }
         ],
-        "subtext": "easy to do / nice and easy / not easy",
+        "subtext": "fácil de fazer / simples e fácil / não é fácil",
         "comparative": "mais fácil",
         "superlative": "o mais fácil",
         "feminine": "fácil",
@@ -377,7 +377,7 @@
                 ]
             }
         ],
-        "subtext": "difficult to do / very difficult / find it difficult",
+        "subtext": "difícil de fazer / muito difícil / achar difícil",
         "comparative": "mais difícil",
         "superlative": "o mais difícil",
         "feminine": "difícil",
@@ -390,7 +390,7 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day",
+        "subtext": "alegre, contente / sentir-se feliz / feliz com algo / um dia feliz",
         "definitions": [
             {
                 "text": "Que sente prazer ou alegria.",
@@ -411,7 +411,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
+        "subtext": "sonolento, exausto / sentir-se cansado / cansado de algo / muito cansado",
         "definitions": [
             {
                 "text": "Que precisa de descanso ou sono.",
@@ -442,7 +442,7 @@
                 ]
             }
         ],
-        "subtext": "full-time job / full-time work / full-time employee",
+        "subtext": "tempo integral / trabalho a tempo inteiro / funcionário a tempo inteiro",
         "comparative": null,
         "superlative": null,
         "feminine": "a tempo inteiro",
@@ -465,7 +465,7 @@
                 ]
             }
         ],
-        "subtext": "part-time job / part-time work / part-time student",
+        "subtext": "trabalho a tempo parcial / emprego a tempo parcial / estudante a tempo parcial",
         "comparative": null,
         "superlative": null,
         "feminine": "a tempo parcial",
@@ -480,7 +480,7 @@
         "form": "adjective",
         "opposite": "sujo",
         "oppositeEmoji": "💩",
-        "subtext": "tidy, not dirty, keep it clean / clean clothes / a clean room / keep clean",
+        "subtext": "arrumado, limpo / roupas limpas / um quarto limpo / manter limpo",
         "definitions": [
             {
                 "text": "Livre de sujidade.",
@@ -503,7 +503,7 @@
         "form": "adjective",
         "opposite": "unhealthy",
         "oppositeEmoji": "🍔",
-        "subtext": "well, fit, healthy diet",
+        "subtext": "bem, em forma / dieta saudável",
         "definitions": [
             {
                 "text": "Bom para o corpo; não doente.",
@@ -526,7 +526,7 @@
         "form": "adjective",
         "opposite": "well",
         "oppositeEmoji": "💪",
-        "subtext": "sick, feel ill",
+        "subtext": "doente / sentir-se mal",
         "definitions": [
             {
                 "text": "Não bem; doente.",
@@ -557,7 +557,7 @@
                 ]
             }
         ],
-        "subtext": "online shopping / online course / stay online",
+        "subtext": "compras online / curso online / manter-se online",
         "comparative": null,
         "superlative": null,
         "feminine": "on-line",
@@ -580,7 +580,7 @@
                 ]
             }
         ],
-        "subtext": "live alone / travel alone / feel alone",
+        "subtext": "viver sozinho / viajar sozinho / sentir-se sozinho",
         "comparative": "mais sozinho",
         "superlative": "o mais sozinho",
         "feminine": "sozinha",
@@ -595,7 +595,7 @@
         "form": "adjective",
         "opposite": "estressado",
         "oppositeEmoji": "😫",
-        "subtext": "calm, feeling relaxed",
+        "subtext": "calmo / sentir-se relaxado",
         "definitions": [
             {
                 "text": "Calmo; não preocupado ou estressado.",
@@ -639,7 +639,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "subtext": "very busy, busy day / busy schedule / very busy / too busy",
+        "subtext": "muito ocupado / dia ocupado / agenda cheia / ocupado demais",
         "definitions": [
             {
                 "text": "Que tem muitas coisas para fazer.",
@@ -662,7 +662,7 @@
         "form": "adjective",
         "opposite": "inútil",
         "oppositeEmoji": "🗑️",
-        "subtext": "helpful, practical",
+        "subtext": "útil / prático",
         "definitions": [
             {
                 "text": "Útil; que tem um propósito prático.",
@@ -683,7 +683,7 @@
         "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
-        "subtext": "essential / important meeting / very important / most important",
+        "subtext": "essencial / reunião importante / muito importante / mais importante",
         "definitions": [
             {
                 "text": "Que tem grande valor ou efeito.",
@@ -704,7 +704,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
         "form": "adjective",
-        "subtext": "dark red, bright red / red wine / red face / red light",
+        "subtext": "vermelho escuro, vermelho vivo / vinho tinto / rosto vermelho / sinal vermelho",
         "definitions": [
             {
                 "text": "Da cor do sangue.",
@@ -725,7 +725,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
         "form": "adjective",
-        "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
+        "subtext": "azul claro, azul escuro / azul escuro / azul claro / céu azul",
         "definitions": [
             {
                 "text": "Da cor de um céu limpo.",
@@ -746,7 +746,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
-        "subtext": "bright green, dark green / green energy / green space / bright green",
+        "subtext": "verde claro, verde escuro / energia verde / espaço verde / verde vivo",
         "definitions": [
             {
                 "text": "Da cor da erva.",
@@ -767,7 +767,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬜",
         "form": "adjective",
-        "subtext": "pure white, snow white / white wine / off-white / bright white",
+        "subtext": "branco puro, branco neve / vinho branco / branco sujo / branco brilhante",
         "definitions": [
             {
                 "text": "Da cor da neve.",
@@ -788,7 +788,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "⬛",
         "form": "adjective",
-        "subtext": "jet black, dark as night / black coffee / black market / jet black",
+        "subtext": "preto carvão, escuro / café preto / mercado negro / preto intenso",
         "definitions": [
             {
                 "text": "Da cor mais escura.",
@@ -809,7 +809,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
-        "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
+        "subtext": "amarelo vivo, limão / luz amarela / amarelo pálido / amarelo brilhante",
         "definitions": [
             {
                 "text": "Da cor do sol.",
@@ -830,7 +830,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "subtext": "free of charge, free gift / free time / free of charge / free to do",
+        "subtext": "grátis, brinde / tempo livre / sem custos / livre para fazer",
         "definitions": [
             {
                 "text": "Que não custa dinheiro.",
@@ -853,7 +853,7 @@
         "form": "adjective",
         "opposite": "fechado",
         "oppositeEmoji": "🔒",
-        "subtext": "now open, open for business / open door / open to ideas / wide open",
+        "subtext": "aberto, aberto ao público / porta aberta / aberto a ideias / escancarado",
         "definitions": [
             {
                 "text": "Não fechado.",
@@ -876,7 +876,7 @@
         "form": "adjective",
         "opposite": "aberto",
         "oppositeEmoji": "📖",
-        "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
+        "subtext": "fechado, fechado temporariamente / fechado para almoço / mente fechada / porta fechada",
         "definitions": [
             {
                 "text": "Não aberto.",
@@ -895,7 +895,7 @@
         "word": "grande",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a large city / a large company / a large amount",
+        "subtext": "uma cidade grande / uma empresa grande / uma grande quantidade",
         "definitions": [
             {
                 "text": "De tamanho ou quantidade superior à média.",
@@ -935,7 +935,7 @@
         "word": "longo",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a long journey / a long day / a long time",
+        "subtext": "uma longa viagem / um longo dia / muito tempo",
         "definitions": [
             {
                 "text": "De grande comprimento.",
@@ -995,7 +995,7 @@
         "word": "cheio",
         "level": "starter",
         "form": "adjective",
-        "subtext": "full time / a full day / full of people",
+        "subtext": "tempo integral / um dia inteiro / cheio de gente",
         "definitions": [
             {
                 "text": "Que contém tanto quanto possível.",
@@ -1015,7 +1015,7 @@
         "word": "vazio",
         "level": "starter",
         "form": "adjective",
-        "subtext": "an empty flat / an empty room / nearly empty",
+        "subtext": "um apartamento vazio / um quarto vazio / quase vazio",
         "definitions": [
             {
                 "text": "Que não contém nada.",
@@ -1114,8 +1114,9 @@
     {
         "word": "sujo",
         "level": "starter",
+        "theme": "household_tasks_A1",
         "form": "adjective",
-        "subtext": "dirty hands / dirty clothes / get dirty",
+        "subtext": "mãos sujas / roupas sujas / sujar-se",
         "definitions": [
             {
                 "text": "Coberto de sujidade.",
@@ -1134,7 +1135,7 @@
         "word": "duro",
         "level": "starter",
         "form": "adjective",
-        "subtext": "hard work / a hard decision / too hard",
+        "subtext": "trabalho árduo / uma decisão difícil / difícil demais",
         "definitions": [
             {
                 "text": "Firme e sólido; difícil.",
@@ -1294,7 +1295,7 @@
         "word": "ótimo",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a great idea / a great opportunity / great value",
+        "subtext": "uma excelente ideia / uma excelente oportunidade / excelente valor",
         "definitions": [
             {
                 "text": "Extremamente bom.",
@@ -1314,7 +1315,7 @@
         "word": "simpático",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a nice day / a nice place / a nice person",
+        "subtext": "um dia agradável / um lugar agradável / uma pessoa agradável",
         "definitions": [
             {
                 "text": "Agradável ou amável.",
@@ -1334,7 +1335,7 @@
         "word": "maravilhoso",
         "level": "starter",
         "form": "adjective",
-        "subtext": "a wonderful opportunity / a wonderful time",
+        "subtext": "uma oportunidade maravilhosa / um tempo maravilhoso",
         "definitions": [
             {
                 "text": "Extremamente bom; que causa deleite.",
@@ -1434,7 +1435,7 @@
         "word": "triste",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sad / a sad situation / deeply sad",
+        "subtext": "sentir-se triste / uma situação triste / profundamente triste",
         "definitions": [
             {
                 "text": "Que se sente infeliz ou pesaroso.",
@@ -1454,7 +1455,7 @@
         "word": "faminto",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel hungry / very hungry / go hungry",
+        "subtext": "ter fome / muita fome / passar fome",
         "definitions": [
             {
                 "text": "Que precisa de comida.",
@@ -1474,7 +1475,7 @@
         "word": "zangado",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel angry / angry with someone / very angry",
+        "subtext": "sentir-se zangado / zangado com alguém / muito zangado",
         "definitions": [
             {
                 "text": "Que sente um forte desagrado.",
@@ -1494,7 +1495,7 @@
         "word": "entediado",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel bored / bored with / easily bored",
+        "subtext": "sentir-se entediado / entediado com / entedia-se facilmente",
         "definitions": [
             {
                 "text": "Que se sente sem interesse.",
@@ -1513,8 +1514,9 @@
     {
         "word": "entusiasmado",
         "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
-        "subtext": "feel excited / excited about / very excited",
+        "subtext": "sentir-se entusiasmado / entusiasmado com / muito entusiasmado",
         "definitions": [
             {
                 "text": "Que sente entusiasmo.",
@@ -1533,7 +1535,7 @@
         "word": "assustado",
         "level": "starter",
         "form": "adjective",
-        "subtext": "afraid of / feel afraid / deeply afraid",
+        "subtext": "medo de / sentir medo / muito assustado",
         "definitions": [
             {
                 "text": "Que sente medo.",
@@ -1553,7 +1555,7 @@
         "word": "arrependido",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sorry / sorry for / sorry about",
+        "subtext": "sentir muito / lamento por / desculpe por",
         "definitions": [
             {
                 "text": "Que sente pesar ou tristeza.",
@@ -1573,7 +1575,7 @@
         "word": "correto",
         "level": "starter",
         "form": "adjective",
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "resposta certa / momento certo / toda a razão",
         "definitions": [
             {
                 "text": "Correto; adequado.",
@@ -1613,7 +1615,7 @@
         "word": "novo",
         "level": "starter",
         "form": "adjective",
-        "subtext": "new job / brand new / completely new",
+        "subtext": "trabalho novo / novinho em folha / completamente novo",
         "definitions": [
             {
                 "text": "Que não existia antes.",
@@ -1633,7 +1635,7 @@
         "word": "diferente",
         "level": "starter",
         "form": "adjective",
-        "subtext": "completely different / very different / different from",
+        "subtext": "completamente diferente / muito diferente / diferente de",
         "definitions": [
             {
                 "text": "Não é o mesmo que outro.",
@@ -1653,7 +1655,7 @@
         "word": "mesmo",
         "level": "starter",
         "form": "adjective",
-        "subtext": "the same as / exactly the same / same time",
+        "subtext": "o mesmo que / exatamente o mesmo / ao mesmo tempo",
         "definitions": [
             {
                 "text": "Não diferente; idêntico.",
@@ -1662,6 +1664,7 @@
                 ]
             }
         ],
+        "subtext": "o mesmo que / exatamente o mesmo / ao mesmo tempo",
         "theme": "describing_things_A1",
         "comparative": null,
         "superlative": null,
@@ -1673,7 +1676,7 @@
         "word": "rápido",
         "level": "starter",
         "form": "adjective",
-        "subtext": "fast food / fast train / very fast",
+        "subtext": "comida rápida / comboio rápido / muito rápido",
         "definitions": [
             {
                 "text": "Que se move ou acontece rapidamente.",
@@ -1693,7 +1696,7 @@
         "word": "lento",
         "level": "starter",
         "form": "adjective",
-        "subtext": "slow progress / slow internet / very slow",
+        "subtext": "progresso lento / internet lenta / muito lento",
         "definitions": [
             {
                 "text": "Não rápido.",
@@ -1713,7 +1716,7 @@
         "word": "silencioso",
         "level": "starter",
         "form": "adjective",
-        "subtext": "quiet area / keep quiet / nice and quiet",
+        "subtext": "zona tranquila / manter-se calado / agradável e calmo",
         "definitions": [
             {
                 "text": "Que faz pouco ou nenhum ruído.",
@@ -1753,7 +1756,7 @@
         "word": "seguro",
         "level": "starter",
         "form": "adjective",
-        "subtext": "safe area / safe to do / feel safe",
+        "subtext": "zona segura / seguro para fazer / sentir-se seguro",
         "definitions": [
             {
                 "text": "Não perigoso.",
@@ -1773,7 +1776,7 @@
         "word": "perigoso",
         "level": "starter",
         "form": "adjective",
-        "subtext": "dangerous situation / very dangerous / potentially dangerous",
+        "subtext": "situação perigosa / muito perigoso / potencialmente perigoso",
         "definitions": [
             {
                 "text": "Que pode causar dano.",
@@ -1802,7 +1805,7 @@
                 ]
             }
         ],
-        "subtext": "feel unhappy / very unhappy / unhappy about",
+        "subtext": "sentir-se infeliz / muito infeliz / infeliz com",
         "comparative": "mais infeliz",
         "superlative": "o mais infeliz",
         "feminine": "infeliz",
@@ -1822,7 +1825,7 @@
                 ]
             }
         ],
-        "subtext": "feel nervous / nervous about / very nervous",
+        "subtext": "sentir-se nervoso / nervoso com / muito nervoso",
         "comparative": "mais nervoso",
         "superlative": "o mais nervoso",
         "feminine": "nervosa",
@@ -1842,7 +1845,7 @@
                 ]
             }
         ],
-        "subtext": "feel stressed / very stressed / stressed out",
+        "subtext": "sentir-se estressado / muito estressado / estressado",
         "comparative": "mais estressado",
         "superlative": "o mais estressado",
         "feminine": "estressada",
@@ -1862,7 +1865,7 @@
                 ]
             }
         ],
-        "subtext": "feel confident / self-confident / very confident",
+        "subtext": "sentir-se confiante / autoconfiante / muito confiante",
         "comparative": "mais confiante",
         "superlative": "o mais confiante",
         "feminine": "confiante",
@@ -1882,7 +1885,7 @@
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of",
+        "subtext": "sentir-se orgulhoso / muito orgulhoso / orgulhoso de",
         "comparative": "mais orgulhoso",
         "superlative": "o mais orgulhoso",
         "feminine": "orgulhosa",
@@ -1902,7 +1905,7 @@
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared",
+        "subtext": "sentir-se assustado / assustado de / muito assustado",
         "comparative": "mais assustado",
         "superlative": "o mais assustado",
         "feminine": "assustada",
@@ -1922,7 +1925,7 @@
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised",
+        "subtext": "sentir-se surpreso / muito surpreso / agradavelmente surpreso",
         "comparative": "mais surpreendido",
         "superlative": "o mais surpreendido",
         "feminine": "surpreendida",
@@ -1942,7 +1945,7 @@
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with",
+        "subtext": "sentir-se decepcionado / muito decepcionado / decepcionado com",
         "comparative": "mais dececionado",
         "superlative": "o mais dececionado",
         "feminine": "dececionada",
@@ -1982,7 +1985,7 @@
                 ]
             }
         ],
-        "subtext": "pretty good / a pretty place / quite pretty",
+        "subtext": "muito bom / um lugar bonito / bastante bonito",
         "comparative": "mais lindo",
         "superlative": "o mais lindo",
         "feminine": "linda",
@@ -2002,7 +2005,7 @@
                 ]
             }
         ],
-        "subtext": "strong coffee / strong opinion / very strong",
+        "subtext": "café forte / opinião forte / muito forte",
         "comparative": "mais forte",
         "superlative": "o mais forte",
         "feminine": "forte",
@@ -2022,7 +2025,7 @@
                 ]
             }
         ],
-        "subtext": "weak connection / a weak argument / very weak",
+        "subtext": "conexão fraca / argumento fraco / muito fraco",
         "comparative": "mais fraco",
         "superlative": "o mais fraco",
         "feminine": "fraca",
@@ -2062,7 +2065,7 @@
                 ]
             }
         ],
-        "subtext": "excellent work / excellent results / absolutely excellent",
+        "subtext": "trabalho excelente / excelentes resultados / absolutamente excelente",
         "comparative": "mais excelente",
         "superlative": "o mais excelente",
         "feminine": "excelente",
@@ -2122,7 +2125,7 @@
                 ]
             }
         ],
-        "subtext": "correct answer / the correct way / completely correct",
+        "subtext": "resposta correta / a forma correta / totalmente correto",
         "comparative": "mais correto",
         "superlative": "o mais correto",
         "feminine": "correta",
@@ -2142,7 +2145,7 @@
                 ]
             }
         ],
-        "subtext": "find interesting / very interesting / an interesting idea",
+        "subtext": "achar interessante / muito interessante / uma ideia interessante",
         "comparative": "mais interessante",
         "superlative": "o mais interessante",
         "feminine": "interessante",
@@ -2162,7 +2165,7 @@
                 ]
             }
         ],
-        "subtext": "very boring / a boring meeting / find boring",
+        "subtext": "muito chato / uma reunião chata / achar chato",
         "comparative": "mais aborrecido",
         "superlative": "o mais aborrecido",
         "feminine": "aborrecida",
@@ -2242,7 +2245,7 @@
                 ]
             }
         ],
-        "subtext": "a special offer / special occasion / very special",
+        "subtext": "uma oferta especial / ocasião especial / muito especial",
         "comparative": "mais especial",
         "superlative": "o mais especial",
         "feminine": "especial",
@@ -2262,7 +2265,7 @@
                 ]
             }
         ],
-        "subtext": "very popular / popular choice / most popular",
+        "subtext": "muito popular / escolha popular / mais popular",
         "comparative": "mais popular",
         "superlative": "o mais popular",
         "feminine": "popular",
@@ -2282,7 +2285,7 @@
                 ]
             }
         ],
-        "subtext": "very similar / similar to / similar results",
+        "subtext": "muito semelhante / semelhante a / resultados semelhantes",
         "comparative": "mais semelhante",
         "superlative": "o mais semelhante",
         "feminine": "semelhante",
@@ -2302,7 +2305,7 @@
                 ]
             }
         ],
-        "subtext": "very friendly / a friendly face / friendly atmosphere",
+        "subtext": "muito amigável / um rosto amigável / atmosfera amigável",
         "comparative": "mais amigável",
         "superlative": "o mais amigável",
         "feminine": "amigável",
@@ -2322,7 +2325,7 @@
                 ]
             }
         ],
-        "subtext": "very kind / kind of you / a kind person",
+        "subtext": "muito amável / gentil da sua parte / uma pessoa gentil",
         "comparative": "mais bondoso",
         "superlative": "o mais bondoso",
         "feminine": "bondosa",
@@ -2342,7 +2345,7 @@
                 ]
             }
         ],
-        "subtext": "very funny / funny story / find funny",
+        "subtext": "muito engraçado / história engraçada / achar engraçado",
         "comparative": "mais engraçado",
         "superlative": "o mais engraçado",
         "feminine": "engraçada",
@@ -2362,7 +2365,7 @@
                 ]
             }
         ],
-        "subtext": "very clever / a clever idea / clever enough",
+        "subtext": "muito inteligente / uma ideia inteligente / inteligente o suficiente",
         "comparative": "mais esperto",
         "superlative": "o mais esperto",
         "feminine": "esperta",
@@ -2382,7 +2385,7 @@
                 ]
             }
         ],
-        "subtext": "very polite / polite request / polite enough",
+        "subtext": "muito educado / pedido educado / educado o suficiente",
         "comparative": "mais educado",
         "superlative": "o mais educado",
         "feminine": "educada",
@@ -2402,7 +2405,7 @@
                 ]
             }
         ],
-        "subtext": "very rude / incredibly rude / deliberately rude",
+        "subtext": "muito rude / incrivelmente rude / deliberadamente rude",
         "comparative": "mais grosseiro",
         "superlative": "o mais grosseiro",
         "feminine": "grosseira",
@@ -2422,7 +2425,7 @@
                 ]
             }
         ],
-        "subtext": "very lazy / a lazy approach / too lazy",
+        "subtext": "muito preguiçoso / uma abordagem preguiçosa / preguiçoso demais",
         "comparative": "mais preguiçoso",
         "superlative": "o mais preguiçoso",
         "feminine": "preguiçosa",
@@ -2442,7 +2445,7 @@
                 ]
             }
         ],
-        "subtext": "very honest / brutally honest / completely honest",
+        "subtext": "muito honesto / brutalmente honesto / completamente honesto",
         "comparative": "mais honesto",
         "superlative": "o mais honesto",
         "feminine": "honesta",
@@ -2462,7 +2465,7 @@
                 ]
             }
         ],
-        "subtext": "very noisy / noisy environment / too noisy",
+        "subtext": "muito barulhento / ambiente barulhento / barulhento demais",
         "comparative": "mais barulhento",
         "superlative": "o mais barulhento",
         "feminine": "barulhenta",
