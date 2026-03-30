@@ -1114,6 +1114,7 @@
     {
         "word": "schmutzig",
         "level": "starter",
+        "theme": "household_tasks_A1",
         "form": "adjective",
         "subtext": "schmutzige Hände / schmutzige Kleidung / schmutzig werden",
         "definitions": [
@@ -1513,6 +1514,7 @@
     {
         "word": "aufgeregt",
         "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "subtext": "aufgeregt sein / begeistert von / sehr aufgeregt",
         "definitions": [

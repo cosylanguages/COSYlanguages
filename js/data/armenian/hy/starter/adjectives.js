@@ -1088,6 +1088,7 @@
     {
         "word": "կեղտոտ",
         "level": "starter",
+        "theme": "household_tasks_A1",
         "form": "adjective",
         "subtext": "կեղտոտ ձեռքեր / կեղտոտ հագուստ",
         "definitions": [
@@ -1451,6 +1452,7 @@
     {
         "word": "ոգևորված",
         "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "subtext": "շատ ոգևորված",
         "definitions": [

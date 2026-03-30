@@ -1088,6 +1088,7 @@
     {
         "word": "ჭუჭყიანი",
         "level": "starter",
+        "theme": "household_tasks_A1",
         "form": "adjective",
         "subtext": "ჭუჭყიანი ხელები / ჭუჭყიანი ტანსაცმელი",
         "definitions": [
@@ -1451,6 +1452,7 @@
     {
         "word": "აღელვებული",
         "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "subtext": "ძალიან აღელვებული",
         "definitions": [

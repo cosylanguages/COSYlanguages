@@ -1112,6 +1112,7 @@
     {
         "word": "бысрак",
         "level": "starter",
+        "theme": "household_tasks_A1",
         "form": "adjective",
         "subtext": "бысрак куллар",
         "definitions": [
@@ -1511,6 +1512,7 @@
     {
         "word": "дулкынланган",
         "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "subtext": "дулкынлану",
         "definitions": [

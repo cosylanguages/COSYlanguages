@@ -1052,6 +1052,7 @@
     {
         "word": "lous",
         "level": "starter",
+        "theme": "household_tasks_A1",
         "form": "adjective",
         "subtext": "dirty hands / dirty clothes / get dirty",
         "definitions": [
@@ -1415,6 +1416,7 @@
     {
         "word": "entouziastet",
         "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "subtext": "en em santiñ entouziastet / entouziastet gant / entouziastet-tre",
         "definitions": [

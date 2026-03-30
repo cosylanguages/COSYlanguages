@@ -1112,6 +1112,7 @@
     {
         "word": "бысраҡ",
         "level": "starter",
+        "theme": "household_tasks_A1",
         "form": "adjective",
         "subtext": "бысраҡ ҡулдар",
         "definitions": [
@@ -1511,6 +1512,7 @@
     {
         "word": "тулҡынланған",
         "level": "starter",
+        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "subtext": "тулҡынланыу",
         "definitions": [
