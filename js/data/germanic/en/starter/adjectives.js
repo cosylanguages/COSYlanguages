@@ -445,8 +445,8 @@
                 ]
             }
         ],
-        "comparative": "tireder",
-        "superlative": "the tiredest"
+        "comparative": "more tired",
+        "superlative": "the most tired"
     },
     {
         "word": "full-time",
@@ -467,6 +467,23 @@
         "subtext": "full-time job / full-time work / full-time employee",
         "comparative": null,
         "superlative": null
+    },
+    {
+        "word": "thirsty",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "🥤",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Needing or wanting to drink.",
+                "examples": [
+                    "I am thirsty — can I have some water?"
+                ]
+            }
+        ],
+        "comparative": "thirstier",
+        "superlative": "the thirstiest"
     },
     {
         "word": "part-time",
@@ -546,8 +563,8 @@
                 ]
             }
         ],
-        "comparative": "iller",
-        "superlative": "the illest"
+        "comparative": "more ill",
+        "superlative": "the most ill"
     },
     {
         "word": "online",
@@ -862,8 +879,8 @@
                 ]
             }
         ],
-        "comparative": "freeer",
-        "superlative": "the freeest"
+        "comparative": "freer",
+        "superlative": "the freest"
     },
     {
         "word": "open",
@@ -909,8 +926,8 @@
                 ]
             }
         ],
-        "comparative": "closeder",
-        "superlative": "the closedest"
+        "comparative": null,
+        "superlative": null
     },
     {
         "word": "large",
@@ -1164,8 +1181,8 @@
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "heavyer",
-        "superlative": "the heavyest"
+        "comparative": "heavier",
+        "superlative": "the heaviest"
     },
     {
         "word": "light",
@@ -1249,8 +1266,8 @@
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "orangeer",
-        "superlative": "the orangeest"
+        "comparative": "more orange",
+        "superlative": "the most orange"
     },
     {
         "word": "great",
@@ -1494,18 +1511,44 @@
         "word": "right",
         "level": "starter",
         "form": "adjective",
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "right hand / right side / absolutely right",
+        "opposite": "left",
         "definitions": [
             {
                 "text": "Correct; suitable.",
                 "examples": [
                     "Is this the right office?"
                 ]
+            },
+            {
+                "text": "On or towards the side of your body that is to the east when you face north.",
+                "examples": [
+                    "Use your right hand."
+                ]
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "righter",
-        "superlative": "the rightest"
+        "comparative": "more right",
+        "superlative": "the most right"
+    },
+    {
+        "word": "left",
+        "level": "starter",
+        "form": "adjective",
+        "subtext": "left hand / left side",
+        "opposite": "right",
+        "definitions": [
+            {
+                "text": "On or towards the side of your body that is to the west when you face north.",
+                "examples": [
+                    "Turn left at the station.",
+                    "She writes with her left hand."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": null,
+        "superlative": null
     },
     {
         "word": "wrong",
@@ -1521,8 +1564,8 @@
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "wronger",
-        "superlative": "the wrongest"
+        "comparative": "more wrong",
+        "superlative": "the most wrong"
     },
     {
         "word": "new",
@@ -1776,8 +1819,8 @@
             }
         ],
         "subtext": "feel scared / scared of / very scared",
-        "comparative": "scareder",
-        "superlative": "the scaredest"
+        "comparative": "more scared",
+        "superlative": "the most scared"
     },
     {
         "word": "surprised",
@@ -2184,8 +2227,8 @@
             }
         ],
         "subtext": "very polite / polite request / polite enough",
-        "comparative": "politeer",
-        "superlative": "the politeest"
+        "comparative": "more polite",
+        "superlative": "the most polite"
     },
     {
         "word": "rude",
@@ -2254,6 +2297,614 @@
         "subtext": "very noisy / noisy environment / too noisy",
         "comparative": "noisier",
         "superlative": "the noisiest"
+    },
+    {
+        "word": "round",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⭕",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Shaped like a circle.",
+                "examples": [
+                    "The table is round."
+                ]
+            }
+        ],
+        "comparative": "rounder",
+        "superlative": "the roundest"
+    },
+    {
+        "word": "square",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⬛",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having four equal sides and four 90-degree angles.",
+                "examples": [
+                    "The box is square."
+                ]
+            }
+        ],
+        "comparative": "squarer",
+        "superlative": "the squarest"
+    },
+    {
+        "word": "helpful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🤝",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Willing to help other people.",
+                "examples": [
+                    "My colleagues are very helpful."
+                ]
+            }
+        ],
+        "comparative": "more helpful",
+        "superlative": "the most helpful"
+    },
+    {
+        "word": "patient",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🧘",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Able to wait for a long time without becoming angry.",
+                "examples": [
+                    "You need to be patient with new students."
+                ]
+            }
+        ],
+        "comparative": "more patient",
+        "superlative": "the most patient"
+    },
+    {
+        "word": "active",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏃",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Doing a lot of things; busy.",
+                "examples": [
+                    "He is a very active person."
+                ]
+            }
+        ],
+        "comparative": "more active",
+        "superlative": "the most active"
+    },
+    {
+        "word": "careful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⚠️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Giving a lot of attention to what you are doing so that you do not have an accident or make a mistake.",
+                "examples": [
+                    "Be careful when you drive."
+                ]
+            }
+        ],
+        "comparative": "more careful",
+        "superlative": "the most careful"
+    },
+    {
+        "word": "creative",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🎨",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Good at thinking of new ideas or making things.",
+                "examples": [
+                    "She is a very creative designer."
+                ]
+            }
+        ],
+        "comparative": "more creative",
+        "superlative": "the most creative"
+    },
+    {
+        "word": "cloudy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "☁️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With many clouds in the sky.",
+                "examples": [
+                    "It is a cloudy day."
+                ]
+            }
+        ],
+        "comparative": "cloudier",
+        "superlative": "the cloudiest"
+    },
+    {
+        "word": "windy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "💨",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With a lot of wind.",
+                "examples": [
+                    "It is very windy today."
+                ]
+            }
+        ],
+        "comparative": "windier",
+        "superlative": "the windiest"
+    },
+    {
+        "word": "snowy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "❄️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With a lot of snow.",
+                "examples": [
+                    "We have snowy weather in January."
+                ]
+            }
+        ],
+        "comparative": "snowier",
+        "superlative": "the snowiest"
+    },
+    {
+        "word": "foggy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🌫️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With a lot of fog; difficult to see.",
+                "examples": [
+                    "It is foggy this morning."
+                ]
+            }
+        ],
+        "comparative": "foggier",
+        "superlative": "the foggiest"
+    },
+    {
+        "word": "stormy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "⛈️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With a lot of rain and strong winds.",
+                "examples": [
+                    "It was a stormy night."
+                ]
+            }
+        ],
+        "comparative": "stormier",
+        "superlative": "the stormiest"
+    },
+    {
+        "word": "blonde",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Pale gold in color.",
+                "examples": [
+                    "She has blonde hair."
+                ]
+            }
+        ],
+        "comparative": "blonder",
+        "superlative": "the blondest"
+    },
+    {
+        "word": "smart",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "subtext": "intelligent",
+        "definitions": [
+            {
+                "text": "Intelligent; clever.",
+                "examples": [
+                    "He is a smart student."
+                ]
+            }
+        ],
+        "comparative": "smarter",
+        "superlative": "the smartest"
+    },
+    {
+        "word": "serious",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Thinking or acting in a careful and sensible way; not silly.",
+                "examples": [
+                    "He is a serious person."
+                ]
+            }
+        ],
+        "comparative": "more serious",
+        "superlative": "the most serious"
+    },
+    {
+        "word": "ugly",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "form": "adjective",
+        "opposite": "beautiful",
+        "oppositeEmoji": "✨",
+        "definitions": [
+            {
+                "text": "Unpleasant to look at.",
+                "examples": [
+                    "It was an ugly building."
+                ]
+            }
+        ],
+        "comparative": "uglier",
+        "superlative": "the ugliest"
+    },
+    {
+        "word": "near",
+        "level": "starter",
+        "theme": "distance_A1",
+        "form": "adjective",
+        "opposite": "far",
+        "oppositeEmoji": "🔭",
+        "definitions": [
+            {
+                "text": "Not far away in distance.",
+                "examples": [
+                    "The station is near the office."
+                ]
+            }
+        ],
+        "comparative": "nearer",
+        "superlative": "the nearest"
+    },
+    {
+        "word": "far",
+        "level": "starter",
+        "theme": "distance_A1",
+        "form": "adjective",
+        "opposite": "near",
+        "oppositeEmoji": "📍",
+        "definitions": [
+            {
+                "text": "A long way away in distance.",
+                "examples": [
+                    "Is it far from here?"
+                ]
+            }
+        ],
+        "comparative": "farther",
+        "superlative": "the farthest"
+    },
+    {
+        "word": "rich",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "adjective",
+        "opposite": "poor",
+        "oppositeEmoji": "🏚️",
+        "definitions": [
+            {
+                "text": "Having a lot of money.",
+                "examples": [
+                    "He is a very rich man."
+                ]
+            }
+        ],
+        "comparative": "richer",
+        "superlative": "the richest"
+    },
+    {
+        "word": "poor",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "🏚️",
+        "form": "adjective",
+        "opposite": "rich",
+        "oppositeEmoji": "💰",
+        "definitions": [
+            {
+                "text": "Having very little money.",
+                "examples": [
+                    "They are poor but happy."
+                ]
+            }
+        ],
+        "comparative": "poorer",
+        "superlative": "the poorest"
+    },
+    {
+        "word": "early",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "🌅",
+        "form": "adjective",
+        "opposite": "late",
+        "oppositeEmoji": "🌙",
+        "definitions": [
+            {
+                "text": "Happening or arriving before the usual or expected time.",
+                "examples": [
+                    "I had an early breakfast."
+                ]
+            }
+        ],
+        "comparative": "earlier",
+        "superlative": "the earliest"
+    },
+    {
+        "word": "late",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "🌙",
+        "form": "adjective",
+        "opposite": "early",
+        "oppositeEmoji": "🌅",
+        "definitions": [
+            {
+                "text": "Happening or arriving after the usual or expected time.",
+                "examples": [
+                    "I had a late dinner."
+                ]
+            }
+        ],
+        "comparative": "later",
+        "superlative": "the latest"
+    },
+    {
+        "word": "exciting",
+        "level": "starter",
+        "theme": "surprise_interest_A1",
+        "emoji": "🤩",
+        "form": "adjective",
+        "opposite": "boring",
+        "oppositeEmoji": "😴",
+        "definitions": [
+            {
+                "text": "Making you feel very happy and enthusiastic.",
+                "examples": [
+                    "It was an exciting game."
+                ]
+            }
+        ],
+        "comparative": "more exciting",
+        "superlative": "the most exciting"
+    },
+    {
+        "word": "delicious",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "😋",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a very pleasant taste or smell.",
+                "examples": [
+                    "The food is delicious."
+                ]
+            }
+        ],
+        "comparative": "more delicious",
+        "superlative": "the most delicious"
+    },
+    {
+        "word": "sweet",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🍬",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a taste like sugar.",
+                "examples": [
+                    "I like sweet things."
+                ]
+            }
+        ],
+        "comparative": "sweeter",
+        "superlative": "the sweetest"
+    },
+    {
+        "word": "comfortable",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🛋️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Making you feel physically relaxed, without any pain or without being too hot, cold, etc.",
+                "examples": [
+                    "This chair is very comfortable."
+                ]
+            }
+        ],
+        "comparative": "more comfortable",
+        "superlative": "the most comfortable"
+    },
+    {
+        "word": "real",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💎",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Actually existing or happening; not false.",
+                "examples": [
+                    "Is this a real diamond?"
+                ]
+            }
+        ],
+        "comparative": "more real",
+        "superlative": "the most real"
+    },
+    {
+        "word": "simple",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "complex",
+        "definitions": [
+            {
+                "text": "Easy to understand or do; not complex.",
+                "examples": [
+                    "This is a simple problem."
+                ]
+            }
+        ],
+        "comparative": "simpler",
+        "superlative": "the simplest"
+    },
+    {
+        "word": "natural",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌱",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Existing in nature; not made or caused by people.",
+                "examples": [
+                    "I prefer natural products."
+                ]
+            }
+        ],
+        "comparative": "more natural",
+        "superlative": "the most natural"
+    },
+    {
+        "word": "clear",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💧",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Easy to see through; easy to understand.",
+                "examples": [
+                    "The water is very clear.",
+                    "It is a clear day."
+                ]
+            }
+        ],
+        "comparative": "clearer",
+        "superlative": "the clearest"
+    },
+    {
+        "word": "common",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🔄",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Happening often; shared by many people.",
+                "examples": [
+                    "It is a common mistake."
+                ]
+            }
+        ],
+        "comparative": "commoner",
+        "superlative": "the commonest"
+    },
+    {
+        "word": "famous",
+        "level": "starter",
+        "theme": "people_A1",
+        "emoji": "🌟",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Known by many people.",
+                "examples": [
+                    "He is a famous actor."
+                ]
+            }
+        ],
+        "comparative": "more famous",
+        "superlative": "the most famous"
+    },
+    {
+        "word": "salty",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🧂",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Containing or tasting of salt.",
+                "examples": [
+                    "The popcorn is very salty."
+                ]
+            }
+        ],
+        "comparative": "saltier",
+        "superlative": "the saltiest"
+    },
+    {
+        "word": "sour",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🍋",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a sharp taste like that of a lemon.",
+                "examples": [
+                    "Lemons are sour."
+                ]
+            }
+        ],
+        "comparative": "sourer",
+        "superlative": "the sourest"
+    },
+    {
+        "word": "bitter",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "☕",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a strong sharp taste that is not sweet.",
+                "examples": [
+                    "This coffee is very bitter."
+                ]
+            }
+        ],
+        "comparative": "bitterer",
+        "superlative": "the bitterest"
     }
 ];
     const lang = "en";

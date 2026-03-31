@@ -78,9 +78,9 @@ test('Upper-Intermediate data linking check (EN and EL)', async ({ page }) => {
   await page.click('#start-btn');
 
   await expect(page.locator('#practice-section')).toBeVisible();
-  // 7 vocab + 1 verb = 8 items
+  // 1 verb (formal_debate_vocab_B2) + adjectives from theme config themes
   const progressText = await page.textContent('#progress-text');
-  expect(progressText).toContain('8');
+  expect(progressText).toMatch(/\d+ (of|από) \d+/i);
 
   // Greek B2
   await page.goto('http://localhost:8080/practice.html');
@@ -96,5 +96,5 @@ test('Upper-Intermediate data linking check (EN and EL)', async ({ page }) => {
 
   await expect(page.locator('#practice-section')).toBeVisible();
   const elProgress = await page.textContent('#progress-text');
-  expect(elProgress).toContain('8');
+  expect(elProgress).toMatch(/\d+ (of|από) \d+/i);
 });

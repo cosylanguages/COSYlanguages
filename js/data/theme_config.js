@@ -109,13 +109,14 @@ const themeConfig = {
             },
             "technology_media": {
                 "basic_technology_devices_A1": "Basic technology devices",
-                "basic_technology_devices_A1" : "Using a smartphone"
+                "using_smartphone_A1" : "Using a smartphone"
             },
             "environment_nature": {
                 "weather_A1": "Weather",
                 "animals_A1": "Animals",
                 "plants_natural_world_A1": "Plants & natural world",
-                "seasons_climate_A1": "Seasons & climate"
+                "seasons_climate_A1": "Seasons & climate",
+                "nature_landscapes_A1": "Nature & landscapes"
             },
             "language_communication": {
                 "greetings_social_phrases_A1": "Greetings & social phrases",
@@ -136,7 +137,8 @@ const themeConfig = {
                 "rooms_indoor_spaces_A1": "Rooms & indoor spaces",
                 "local_places_services_A1": "Local places & services",
                 "cities_towns_A1": "Cities & towns",
-                "countries_capitals_A1": "Countries & capitals"
+                "countries_capitals_A1": "Countries & capitals",
+                "distance_A1": "Distance"
             },
             "describing_things": {
                 "colours_patterns_A1": "Colours & patterns",
@@ -146,7 +148,8 @@ const themeConfig = {
             "culture_arts": {
                 "music_A1": "Music",
                 "cinema_film_A1": "Cinema & film",
-                "books_reading_A1": "Books & reading"
+                "books_reading_A1": "Books & reading",
+                "places_culture_leisure_A1": "Places of culture & leisure"
             },
             "clothes_appearance": {
                 "items_of_clothing_A1": "Items of clothing",
