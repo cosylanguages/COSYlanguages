@@ -3377,7 +3377,927 @@
         "v3": "construit",
         "group": "re",
         "auxiliary": "avoir"
-    }
+    },
+    {
+        "word": "commencer",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Commencer à faire quelque chose.",
+                "examples": [
+                    "Nous commençons la réunion à neuf heures."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "commencé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "finir",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Terminer ; s'arrêter.",
+                "examples": [
+                    "Le cours finit à trois heures."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "fini",
+        "group": "ir",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "brosser",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🪥",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Nettoyer quelque chose avec une brosse.",
+                "examples": [
+                    "Je me brosse les dents chaque matin."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "brossé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "monter",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚲",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Voyager à vélo ou à cheval.",
+                "examples": [
+                    "Je vais au travail à vélo."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "monté",
+        "group": "er",
+        "auxiliary": "être"
+    },
+    {
+        "word": "rêver",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💭",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avoir des images ou des idées en tête pendant le sommeil.",
+                "examples": [
+                    "J'ai rêvé de vacances la nuit dernière."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "rêvé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "croire",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🙏",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Penser que quelque chose est vrai.",
+                "examples": [
+                    "Je vous crois."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "cru",
+        "group": "re",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "préférer",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👉",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Aimer une chose plus qu'une autre.",
+                "examples": [
+                    "Je préfère le thé au café."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "préféré",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "attraper",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🧤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Prendre quelque chose ; monter dans un bus ou un train.",
+                "examples": [
+                    "Je dois attraper le bus à huit heures."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "attrapé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "réparer",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🛠️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Réparer quelque chose qui est cassé.",
+                "examples": [
+                    "Peux-tu réparer mon téléphone ?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "réparé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "créer",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🎨",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire quelque chose de nouveau.",
+                "examples": [
+                    "Elle crée de beaux sites web."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "créé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "remarquer",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👀",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Voir ou devenir conscient de quelque chose.",
+                "examples": [
+                    "As-tu remarqué le nouveau bureau ?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "remarqué",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "améliorer",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📈",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Rendre quelque chose meilleur.",
+                "examples": [
+                    "Je veux améliorer mon français."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "amélioré",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "préparer",
+        "level": "starter",
+        "theme": "cooking_methods_A1",
+        "emoji": "🥘",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Préparer quelque chose.",
+                "examples": [
+                    "Il prépare le dîner."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "préparer",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "organiser",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Planifier ou arranger quelque chose.",
+                "examples": [
+                    "Elle organise toutes les réunions."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "organisé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "planifier",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Décider de ce que vous allez faire.",
+                "examples": [
+                    "Nous planifions un voyage."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "planifié",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "emprunter",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📥",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Prendre quelque chose pour un court moment puis le rendre.",
+                "examples": [
+                    "Puis-je emprunter ton stylo ?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "emprunté",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "prêter",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Donner quelque chose pour un court moment.",
+                "examples": [
+                    "Je peux te prêter de l'argent."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "prêté",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "sentir",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👃",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Remarquer ou reconnaître quelque chose avec le nez.",
+                "examples": [
+                    "Je sens l'odeur du café."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "senti",
+        "group": "ir",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "goûter",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "👅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Sentir la saveur de quelque chose dans la bouche.",
+                "examples": [
+                    "Goûte cette soupe."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "goûté",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "s'allonger",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Être en position horizontale sur une surface.",
+                "examples": [
+                    "J'aime m'allonger sur la plage."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "allongé",
+        "group": "er",
+        "auxiliary": "être"
+    },
+    {
+        "word": "rire",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire des sons avec sa voix parce que l'on pense que quelque chose est drôle.",
+                "examples": [
+                    "Ils riaient de sa blague."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "ri",
+        "group": "re",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "s'inquiéter",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😟",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Penser à des problèmes ou à des choses désagréables qui pourraient arriver.",
+                "examples": [
+                    "Ne t'inquiète pas, tout ira bien."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "inquiété",
+        "group": "er",
+        "auxiliary": "être"
+    },
+    {
+        "word": "sonner",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Sembler être quelque chose d'après ce que vous avez entendu ou lu.",
+                "examples": [
+                    "Cela semble être une bonne idée."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "sonné",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "épeler",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🔤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dire ou écrire les lettres d'un mot dans le bon ordre.",
+                "examples": [
+                    "Comment épelles-tu ton nom ?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "épelé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "pointer",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "☝️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Montrer quelque chose en tendant le doigt vers lui.",
+                "examples": [
+                    "Pointe la fenêtre du doigt."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "pointé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "crier",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "📢",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dire quelque chose très fort.",
+                "examples": [
+                    "Ne crie pas dans la classe."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "crié",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "saluer",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👋",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Bouger la main d'un côté à l'autre pour dire bonjour ou au revoir.",
+                "examples": [
+                    "Salue ton ami de la main."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "salué",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "donner un coup de pied",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🦶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Frapper quelque chose avec le pied.",
+                "examples": [
+                    "Donne un coup de pied dans le ballon !"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "donné un coup de pied",
+        "group": "locution",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "jeter",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "⚾",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire bouger quelque chose dans l'air en le poussant de la main.",
+                "examples": [
+                    "Peux-tu me jeter le ballon ?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "jeté",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "rebondir",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏀",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Remonter ou s'éloigner après avoir frappé une surface.",
+                "examples": [
+                    "Le ballon rebondit."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "rebondi",
+        "group": "ir",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "peindre",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🎨",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire une image en utilisant de la peinture.",
+                "examples": [
+                    "J'aime peindre des fleurs."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "peint",
+        "group": "re",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "sautiller",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🐇",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Sauter sur un pied.",
+                "examples": [
+                    "Peux-tu sautiller comme un lapin ?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "sautillé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "sauter",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏃",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Se déplacer en sautant d'un pied sur l'autre.",
+                "examples": [
+                    "Les enfants sautent à la corde dans la cour de récréation."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "sauté",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "compter",
+        "level": "starter",
+        "theme": "numbers_0_9_A1",
+        "emoji": "🔢",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dire les nombres dans l'ordre.",
+                "examples": [
+                    "Peux-tu compter de un à dix ?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "compté",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "cocher",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "✅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettre une marque (v) à côté de quelque chose pour montrer que c'est correct.",
+                "examples": [
+                    "Coche la bonne réponse."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "coché",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "barrer",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "❌",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettre une marque (X) à côté de quelque chose pour montrer que c'est faux.",
+                "examples": [
+                    "Barre la mauvaise réponse."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "barré",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "colorier",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🖍️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Utiliser un stylo ou un crayon pour mettre de la couleur sur une image.",
+                "examples": [
+                    "Colorie l'image en bleu."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "colorié",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "tenir",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🤲",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avoir ou garder quelque chose dans ses mains ou ses bras.",
+                "examples": [
+                    "Tiens le bébé avec précaution."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "tenu",
+        "group": "ir",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "mener",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Contrôler un groupe de personnes, un pays ou une situation.",
+                "examples": [
+                    "Elle mène une petite équipe."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "mené",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "se battre",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "⚔️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Utiliser la force physique pour essayer de blesser quelqu'un ou de gagner quelque chose.",
+                "examples": [
+                    "Les deux garçons se battent."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "battu",
+        "group": "re",
+        "auxiliary": "être"
+    },
+    {
+        "word": "cacher",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🙈",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettre quelque chose ou quelqu'un dans un endroit où on ne peut pas le voir.",
+                "examples": [
+                    "Il se cache derrière la porte."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "caché",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "chercher",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🔍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Essayer de trouver ou d'obtenir quelque chose.",
+                "examples": [
+                    "Ils jouent à cache-cache."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "cherché",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "sonner",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🔔",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire un bruit comme une cloche.",
+                "examples": [
+                    "Le téléphone sonne."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "sonné",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "envoyer un SMS",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📱",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Envoyer un message depuis un téléphone mobile.",
+                "examples": [
+                    "Envoie-moi un SMS quand tu arrives."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "envoyé un SMS",
+        "group": "locution",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "chuchoter",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🤫",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Parler très bas pour que les autres ne puissent pas entendre.",
+                "examples": [
+                    "Elle m'a chuchoté la réponse."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "chuchoté",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "toucher",
+        "level": "starter",
+        "theme": "five_senses_A1",
+        "emoji": "🫫",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettre sa main ou une autre partie de son corps sur quelque chose.",
+                "examples": [
+                    "Ne touche pas à la peinture fraîche !"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "touché",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
 ];
     const lang = "fr";
     window.verbsData = window.verbsData || {};
