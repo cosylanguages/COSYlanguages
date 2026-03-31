@@ -137,7 +137,8 @@ const themeConfig = {
                 "rooms_indoor_spaces_A1": "Rooms & indoor spaces",
                 "local_places_services_A1": "Local places & services",
                 "cities_towns_A1": "Cities & towns",
-                "countries_capitals_A1": "Countries & capitals"
+                "countries_capitals_A1": "Countries & capitals",
+                "distance_A1": "Distance"
             },
             "describing_things": {
                 "colours_patterns_A1": "Colours & patterns",

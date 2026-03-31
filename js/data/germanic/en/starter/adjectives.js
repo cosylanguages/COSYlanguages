@@ -445,8 +445,8 @@
                 ]
             }
         ],
-        "comparative": "tireder",
-        "superlative": "the tiredest"
+        "comparative": "more tired",
+        "superlative": "the most tired"
     },
     {
         "word": "full-time",
@@ -546,8 +546,8 @@
                 ]
             }
         ],
-        "comparative": "iller",
-        "superlative": "the illest"
+        "comparative": "more ill",
+        "superlative": "the most ill"
     },
     {
         "word": "online",
@@ -862,8 +862,8 @@
                 ]
             }
         ],
-        "comparative": "freeer",
-        "superlative": "the freeest"
+        "comparative": "freer",
+        "superlative": "the freest"
     },
     {
         "word": "open",
@@ -909,8 +909,8 @@
                 ]
             }
         ],
-        "comparative": "closeder",
-        "superlative": "the closedest"
+        "comparative": null,
+        "superlative": null
     },
     {
         "word": "large",
@@ -1164,8 +1164,8 @@
             }
         ],
         "theme": "size_shape_A1",
-        "comparative": "heavyer",
-        "superlative": "the heavyest"
+        "comparative": "heavier",
+        "superlative": "the heaviest"
     },
     {
         "word": "light",
@@ -1249,8 +1249,8 @@
             }
         ],
         "theme": "colours_patterns_A1",
-        "comparative": "orangeer",
-        "superlative": "the orangeest"
+        "comparative": "more orange",
+        "superlative": "the most orange"
     },
     {
         "word": "great",
@@ -1504,8 +1504,8 @@
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "righter",
-        "superlative": "the rightest"
+        "comparative": "more right",
+        "superlative": "the most right"
     },
     {
         "word": "wrong",
@@ -1521,8 +1521,8 @@
             }
         ],
         "theme": "describing_things_A1",
-        "comparative": "wronger",
-        "superlative": "the wrongest"
+        "comparative": "more wrong",
+        "superlative": "the most wrong"
     },
     {
         "word": "new",
@@ -1776,8 +1776,8 @@
             }
         ],
         "subtext": "feel scared / scared of / very scared",
-        "comparative": "scareder",
-        "superlative": "the scaredest"
+        "comparative": "more scared",
+        "superlative": "the most scared"
     },
     {
         "word": "surprised",
@@ -2184,8 +2184,8 @@
             }
         ],
         "subtext": "very polite / polite request / polite enough",
-        "comparative": "politeer",
-        "superlative": "the politeest"
+        "comparative": "more polite",
+        "superlative": "the most polite"
     },
     {
         "word": "rude",
@@ -2525,6 +2525,42 @@
         ],
         "comparative": "uglier",
         "superlative": "the ugliest"
+    },
+    {
+        "word": "near",
+        "level": "starter",
+        "theme": "distance_A1",
+        "form": "adjective",
+        "opposite": "far",
+        "oppositeEmoji": "🔭",
+        "definitions": [
+            {
+                "text": "Not far away in distance.",
+                "examples": [
+                    "The station is near the office."
+                ]
+            }
+        ],
+        "comparative": "nearer",
+        "superlative": "the nearest"
+    },
+    {
+        "word": "far",
+        "level": "starter",
+        "theme": "distance_A1",
+        "form": "adjective",
+        "opposite": "near",
+        "oppositeEmoji": "📍",
+        "definitions": [
+            {
+                "text": "A long way away in distance.",
+                "examples": [
+                    "Is it far from here?"
+                ]
+            }
+        ],
+        "comparative": "farther",
+        "superlative": "the farthest"
     }
 ];
     const lang = "en";

@@ -27,6 +27,97 @@
         ]
     },
     {
+        "word": "next to",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "subtext": "beside",
+        "definitions": [
+            {
+                "text": "Very close to someone or something, with nothing in between.",
+                "examples": [
+                    "He sat next to me."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "between",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "In the space that separates two places, people, or objects.",
+                "examples": [
+                    "The bank is between the school and the shop."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "behind",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "in front of",
+        "definitions": [
+            {
+                "text": "At or towards the back of someone or something.",
+                "examples": [
+                    "The car is behind the house."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "in front of",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "behind",
+        "definitions": [
+            {
+                "text": "Further forward than someone or something else.",
+                "examples": [
+                    "There is a bus stop in front of the school."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "jacket",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🧥",
+        "form": "noun",
+        "plural": "jackets",
+        "definitions": [
+            {
+                "text": "A short coat.",
+                "examples": [
+                    "He is wearing a leather jacket."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "shirt",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👔",
+        "form": "noun",
+        "plural": "shirts",
+        "definitions": [
+            {
+                "text": "A piece of clothing worn on the upper part of the body.",
+                "examples": [
+                    "He wears a white shirt to work."
+                ]
+            }
+        ]
+    },
+    {
         "word": "foot",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -41,6 +132,56 @@
                 "examples": [
                     "I have a pain in my foot.",
                     "She has small feet."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "face",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👤",
+        "form": "noun",
+        "plural": "faces",
+        "definitions": [
+            {
+                "text": "The front part of the head, with the eyes, nose, and mouth.",
+                "examples": [
+                    "She has a beautiful face."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hair",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "💇",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "The mass of things like threads that grows on your head.",
+                "examples": [
+                    "He has short brown hair."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tooth",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "🦷",
+        "form": "noun",
+        "plural": "teeth",
+        "numberPlural": "2 tooth",
+        "answer": "two teeth",
+        "definitions": [
+            {
+                "text": "One of the hard white objects in your mouth that you use for eating.",
+                "examples": [
+                    "Brush your teeth every day."
                 ]
             }
         ]
