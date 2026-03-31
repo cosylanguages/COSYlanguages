@@ -69,6 +69,7 @@ const themeConfig = {
                 "rooms_of_a_home_A1": "Rooms of a home",
                 "furniture_objects_A1": "Furniture & objects",
                 "household_items_A1": "Household items",
+                "kitchen_items_A1": "Kitchen items",
                 "types_of_accommodation_A1": "Types of accommodation",
                 "household_tasks_A1": "Household tasks"
             },
@@ -117,6 +118,8 @@ const themeConfig = {
                 "weather_A1": "Weather",
                 "animals_A1": "Animals",
                 "pets_A1": "Pets",
+                "sea_animals_A1": "Sea animals",
+                "insects_A1": "Insects",
                 "plants_natural_world_A1": "Plants & natural world",
                 "seasons_climate_A1": "Seasons & climate",
                 "nature_landscapes_A1": "Nature & landscapes"
@@ -153,6 +156,7 @@ const themeConfig = {
             },
             "culture_arts": {
                 "music_A1": "Music",
+                "musical_instruments_A1": "Musical instruments",
                 "cinema_film_A1": "Cinema & film",
                 "books_reading_A1": "Books & reading",
                 "places_culture_leisure_A1": "Places of culture & leisure"

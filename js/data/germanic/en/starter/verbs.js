@@ -4084,6 +4084,187 @@
         "v2": "coloured",
         "v3": "coloured",
         "group": "regular"
+    },
+    {
+        "word": "hold",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🤲",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have or keep something in your hand or arms.",
+                "examples": [
+                    "Hold the baby carefully.",
+                    "She is holding a book."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "held",
+        "v3": "held",
+        "group": "irregular"
+    },
+    {
+        "word": "lead",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To control a group of people, a country, or a situation.",
+                "examples": [
+                    "She leads a small team."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "led",
+        "v3": "led",
+        "group": "irregular"
+    },
+    {
+        "word": "fight",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "⚔️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To use physical force to try to hurt someone or win something.",
+                "examples": [
+                    "The two boys are fighting."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "fought",
+        "v3": "fought",
+        "group": "irregular"
+    },
+    {
+        "word": "hide",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🙈",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put something or someone in a place where they cannot be seen or found.",
+                "examples": [
+                    "He is hiding behind the door."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "hid",
+        "v3": "hidden",
+        "group": "irregular"
+    },
+    {
+        "word": "seek",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🔍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To try to find or get something.",
+                "examples": [
+                    "They are playing hide and seek."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sought",
+        "v3": "sought",
+        "group": "irregular"
+    },
+    {
+        "word": "ring",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🔔",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a sound like a bell.",
+                "examples": [
+                    "The phone is ringing."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rang",
+        "v3": "rung",
+        "group": "irregular"
+    },
+    {
+        "word": "text",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📱",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To send a message from a mobile phone.",
+                "examples": [
+                    "Text me when you arrive."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "texted",
+        "v3": "texted",
+        "group": "regular"
+    },
+    {
+        "word": "whisper",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🤫",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To speak very quietly so that other people cannot hear you.",
+                "examples": [
+                    "She whispered the answer to me."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "whispered",
+        "v3": "whispered",
+        "group": "regular"
+    },
+    {
+        "word": "touch",
+        "level": "starter",
+        "theme": "five_senses_A1",
+        "emoji": "🫱",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put your hand or another part of your body on something.",
+                "examples": [
+                    "Don't touch the wet paint!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "touched",
+        "v3": "touched",
+        "group": "regular"
     }
 ];
     const lang = "en";

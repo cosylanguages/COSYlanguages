@@ -7687,6 +7687,804 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "farmer",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍🌾",
+        "form": "noun",
+        "plural": "farmers",
+        "definitions": [
+            {
+                "text": "A person who owns or manages a farm.",
+                "examples": [
+                    "The farmer is milking the cows."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pilot",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🧑‍✈️",
+        "form": "noun",
+        "plural": "pilots",
+        "definitions": [
+            {
+                "text": "A person who flies an aircraft.",
+                "examples": [
+                    "The pilot is in the cockpit."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "waiter",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🤵",
+        "form": "noun",
+        "plural": "waiters",
+        "definitions": [
+            {
+                "text": "A man whose job is to bring food and drinks to people at their tables in a restaurant.",
+                "examples": [
+                    "The waiter is bringing our coffee."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "waitress",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👩‍🍳",
+        "form": "noun",
+        "plural": "waitresses",
+        "definitions": [
+            {
+                "text": "A woman whose job is to bring food and drinks to people at their tables in a restaurant.",
+                "examples": [
+                    "The waitress is very friendly."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dentist",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🧑‍⚕️",
+        "form": "noun",
+        "plural": "dentists",
+        "definitions": [
+            {
+                "text": "A person whose job is to take care of people's teeth.",
+                "examples": [
+                    "I have an appointment with the dentist."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "mechanic",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🧑‍🔧",
+        "form": "noun",
+        "plural": "mechanics",
+        "definitions": [
+            {
+                "text": "A person whose job is repairing machines, especially the engines of vehicles.",
+                "examples": [
+                    "The mechanic is fixing my car."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "police officer",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👮",
+        "form": "noun",
+        "plural": "police officers",
+        "definitions": [
+            {
+                "text": "A member of the police force.",
+                "examples": [
+                    "The police officer is directing traffic."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "firefighter",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👩‍🚒",
+        "form": "noun",
+        "plural": "firefighters",
+        "definitions": [
+            {
+                "text": "A person whose job is to put out fires and rescue people.",
+                "examples": [
+                    "Firefighters wear heavy coats."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "soldier",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🪖",
+        "form": "noun",
+        "plural": "soldiers",
+        "definitions": [
+            {
+                "text": "A person who serves in an army.",
+                "examples": [
+                    "The soldier is in uniform."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bowl",
+        "level": "starter",
+        "theme": "kitchen_items_A1",
+        "emoji": "🥣",
+        "form": "noun",
+        "plural": "bowls",
+        "definitions": [
+            {
+                "text": "A round container that is open at the top and used for holding food or liquid.",
+                "examples": [
+                    "I eat soup from a bowl."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "kettle",
+        "level": "starter",
+        "theme": "kitchen_items_A1",
+        "emoji": "🫖",
+        "form": "noun",
+        "plural": "kettles",
+        "definitions": [
+            {
+                "text": "A container with a lid, handle, and spout, used for boiling water.",
+                "examples": [
+                    "The kettle is boiling."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pan",
+        "level": "starter",
+        "theme": "kitchen_items_A1",
+        "emoji": "🍳",
+        "form": "noun",
+        "plural": "pans",
+        "definitions": [
+            {
+                "text": "A metal container used for cooking food in.",
+                "examples": [
+                    "Put the pan on the stove."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pot",
+        "level": "starter",
+        "theme": "kitchen_items_A1",
+        "emoji": "🍲",
+        "form": "noun",
+        "plural": "pots",
+        "definitions": [
+            {
+                "text": "A deep round container used for cooking things in.",
+                "examples": [
+                    "The pot is full of soup."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "crocodile",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐊",
+        "form": "noun",
+        "plural": "crocodiles",
+        "definitions": [
+            {
+                "text": "A large reptile with short legs, a long tail, and very powerful jaws.",
+                "examples": [
+                    "Crocodiles live in rivers."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "shark",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "emoji": "🦈",
+        "form": "noun",
+        "plural": "sharks",
+        "definitions": [
+            {
+                "text": "A large fish that has sharp teeth and a pointed fin on its back.",
+                "examples": [
+                    "The shark is swimming in the ocean."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "whale",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "emoji": "🐋",
+        "form": "noun",
+        "plural": "whales",
+        "definitions": [
+            {
+                "text": "A very large animal that looks like a large fish and lives in the sea.",
+                "examples": [
+                    "We saw a whale from the boat."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dolphin",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "emoji": "🐬",
+        "form": "noun",
+        "plural": "dolphins",
+        "definitions": [
+            {
+                "text": "A very intelligent sea animal that looks like a large fish with a pointed mouth.",
+                "examples": [
+                    "Dolphins like to jump out of the water."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "octopus",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "emoji": "🐙",
+        "form": "noun",
+        "plural": "octopuses",
+        "definitions": [
+            {
+                "text": "A sea animal with a soft body and eight long arms.",
+                "examples": [
+                    "The octopus has eight arms."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "butterfly",
+        "level": "starter",
+        "theme": "insects_A1",
+        "emoji": "🦋",
+        "form": "noun",
+        "plural": "butterflies",
+        "definitions": [
+            {
+                "text": "An insect with four large, usually brightly colored wings.",
+                "examples": [
+                    "Look at that beautiful butterfly."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ant",
+        "level": "starter",
+        "theme": "insects_A1",
+        "emoji": "🐜",
+        "form": "noun",
+        "plural": "ants",
+        "definitions": [
+            {
+                "text": "A small insect that lives in large groups.",
+                "examples": [
+                    "There are ants in the garden."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ocean",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌊",
+        "form": "noun",
+        "plural": "oceans",
+        "definitions": [
+            {
+                "text": "The very large area of salty water that covers most of the Earth's surface.",
+                "examples": [
+                    "The Atlantic Ocean is big."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "desert",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🏜️",
+        "form": "noun",
+        "plural": "deserts",
+        "definitions": [
+            {
+                "text": "A large area of land that has very little water and very few plants growing on it.",
+                "examples": [
+                    "It is very hot in the desert."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "jungle",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌴",
+        "form": "noun",
+        "plural": "jungles",
+        "definitions": [
+            {
+                "text": "A thick tropical forest with many trees and plants.",
+                "examples": [
+                    "Monkeys live in the jungle."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "earth",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌍",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The planet on which we live.",
+                "examples": [
+                    "The Earth moves around the sun."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "planet",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🪐",
+        "form": "noun",
+        "plural": "planets",
+        "definitions": [
+            {
+                "text": "A very large round object in space that moves around the sun or another star.",
+                "examples": [
+                    "Mars is a red planet."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "violin",
+        "level": "starter",
+        "theme": "musical_instruments_A1",
+        "emoji": "🎻",
+        "form": "noun",
+        "plural": "violins",
+        "definitions": [
+            {
+                "text": "A musical instrument with four strings that you hold under your chin and play with a bow.",
+                "examples": [
+                    "He plays the violin."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "drums",
+        "level": "starter",
+        "theme": "musical_instruments_A1",
+        "emoji": "🥁",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A set of musical instruments that you hit with sticks.",
+                "examples": [
+                    "She plays the drums in a band."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "flute",
+        "level": "starter",
+        "theme": "musical_instruments_A1",
+        "emoji": "🪈",
+        "form": "noun",
+        "plural": "flutes",
+        "definitions": [
+            {
+                "text": "A musical instrument in the shape of a pipe with holes that you blow across.",
+                "examples": [
+                    "She is playing the flute."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tie",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👔",
+        "form": "noun",
+        "plural": "ties",
+        "definitions": [
+            {
+                "text": "A long, thin piece of cloth that a man wears around his neck with a shirt.",
+                "examples": [
+                    "He wears a tie to work."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ring",
+        "level": "starter",
+        "theme": "accessories_A1",
+        "emoji": "💍",
+        "form": "noun",
+        "plural": "rings",
+        "definitions": [
+            {
+                "text": "A small circular piece of jewelry that you wear on your finger.",
+                "examples": [
+                    "She has a gold ring."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "necklace",
+        "level": "starter",
+        "theme": "accessories_A1",
+        "emoji": "📿",
+        "form": "noun",
+        "plural": "necklaces",
+        "definitions": [
+            {
+                "text": "A piece of jewelry that you wear around your neck.",
+                "examples": [
+                    "She is wearing a beautiful necklace."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "roof",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "roofs",
+        "definitions": [
+            {
+                "text": "The structure that covers or forms the top of a building.",
+                "examples": [
+                    "The cat is on the roof."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "balcony",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "emoji": "🏘️",
+        "form": "noun",
+        "plural": "balconies",
+        "definitions": [
+            {
+                "text": "An area with a wall or bars around it that is joined to the outside wall of a building on an upper level.",
+                "examples": [
+                    "We have flowers on our balcony."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fence",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "emoji": "🚧",
+        "form": "noun",
+        "plural": "fences",
+        "definitions": [
+            {
+                "text": "A structure made of wood or metal that surrounds a piece of land.",
+                "examples": [
+                    "There is a white fence around the garden."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "gate",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "gates",
+        "definitions": [
+            {
+                "text": "A part of a fence or outside wall that opens and closes like a door.",
+                "examples": [
+                    "Please close the gate."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cookie",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍪",
+        "form": "noun",
+        "plural": "cookies",
+        "subtext": "biscuit",
+        "definitions": [
+            {
+                "text": "A small flat sweet cake.",
+                "examples": [
+                    "I want a chocolate cookie."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "biscuit",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍪",
+        "form": "noun",
+        "plural": "biscuits",
+        "subtext": "cookie",
+        "definitions": [
+            {
+                "text": "A small flat sweet cake.",
+                "examples": [
+                    "Would you like a biscuit with your tea?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "yogurt",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥛",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A thick liquid food made from milk.",
+                "examples": [
+                    "I eat yogurt for breakfast."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ham",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍖",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Meat from the leg of a pig.",
+                "examples": [
+                    "A ham sandwich."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bacon",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥓",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Meat from a pig that is cut into long thin slices.",
+                "examples": [
+                    "I love eggs and bacon."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sausage",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🌭",
+        "form": "noun",
+        "plural": "sausages",
+        "definitions": [
+            {
+                "text": "A mixture of meat and spices in a long thin skin.",
+                "examples": [
+                    "We had sausages for breakfast."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "honey",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍯",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A sweet, sticky yellow substance made by bees.",
+                "examples": [
+                    "I like honey on my toast."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "jam",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍓",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A sweet food made from fruit and sugar.",
+                "examples": [
+                    "Strawberry jam is delicious."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pineapple",
+        "level": "starter",
+        "theme": "fruits_vegetables_A1",
+        "emoji": "🍍",
+        "form": "noun",
+        "plural": "pineapples",
+        "definitions": [
+            {
+                "text": "A large tropical fruit with a tough skin and yellow flesh.",
+                "examples": [
+                    "We bought a fresh pineapple."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "watermelon",
+        "level": "starter",
+        "theme": "fruits_vegetables_A1",
+        "emoji": "🍉",
+        "form": "noun",
+        "plural": "watermelons",
+        "definitions": [
+            {
+                "text": "A large round fruit with green skin and red flesh.",
+                "examples": [
+                    "Watermelon is refreshing in summer."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "mushroom",
+        "level": "starter",
+        "theme": "fruits_vegetables_A1",
+        "emoji": "🍄",
+        "form": "noun",
+        "plural": "mushrooms",
+        "definitions": [
+            {
+                "text": "A type of fungus with a stem and a cap.",
+                "examples": [
+                    "I don't like mushrooms on my pizza."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "broccoli",
+        "level": "starter",
+        "theme": "fruits_vegetables_A1",
+        "emoji": "🥦",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A green vegetable with thick stems and small green flowers.",
+                "examples": [
+                    "Eat your broccoli, it's good for you."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "peas",
+        "level": "starter",
+        "theme": "fruits_vegetables_A1",
+        "emoji": "🫛",
+        "form": "noun",
+        "plural": "peas",
+        "definitions": [
+            {
+                "text": "Small round green seeds eaten as a vegetable.",
+                "examples": [
+                    "We had fish and peas for dinner."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "envelope",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "✉️",
+        "form": "noun",
+        "plural": "envelopes",
+        "definitions": [
+            {
+                "text": "A flat paper container used for sending letters.",
+                "examples": [
+                    "Put the letter in the envelope."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "stamp",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "🧧",
+        "form": "noun",
+        "plural": "stamps",
+        "definitions": [
+            {
+                "text": "A small piece of paper that you buy and stick onto an envelope.",
+                "examples": [
+                    "I need a stamp for this letter."
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";
