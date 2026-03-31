@@ -3681,6 +3681,128 @@
         "v2": "lent",
         "v3": "lent",
         "group": "irregular"
+    },
+    {
+        "word": "smell",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👃",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To notice or recognize something using your nose.",
+                "examples": [
+                    "I can smell the coffee."
+                ]
+            }
+        ],
+        "classification": "both",
+        "aspect": "both",
+        "v2": "smelled / smelt",
+        "v3": "smelled / smelt",
+        "group": "both"
+    },
+    {
+        "word": "taste",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "👅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To sense the flavor of something in your mouth.",
+                "examples": [
+                    "Taste this soup."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "tasted",
+        "v3": "tasted",
+        "group": "regular"
+    },
+    {
+        "word": "lie",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To be in a horizontal position on a surface.",
+                "examples": [
+                    "I like to lie on the beach."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "lay",
+        "v3": "lain",
+        "group": "irregular"
+    },
+    {
+        "word": "laugh",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😂",
+        "form": "verb",
+        "opposite": "cry",
+        "oppositeEmoji": "😢",
+        "definitions": [
+            {
+                "text": "To make sounds with your voice because you think something is funny.",
+                "examples": [
+                    "They were laughing at his joke."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "laughed",
+        "v3": "laughed",
+        "group": "regular"
+    },
+    {
+        "word": "worry",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😟",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To think about problems or unpleasant things that might happen.",
+                "examples": [
+                    "Don't worry, everything will be fine."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "worried",
+        "v3": "worried",
+        "group": "regular"
+    },
+    {
+        "word": "sound",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To seem like something from what you have heard or read.",
+                "examples": [
+                    "That sounds like a good idea."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "sounded",
+        "v3": "sounded",
+        "group": "regular"
     }
 ];
     const lang = "en";

@@ -469,6 +469,23 @@
         "superlative": null
     },
     {
+        "word": "thirsty",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "🥤",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Needing or wanting to drink.",
+                "examples": [
+                    "I am thirsty — can I have some water?"
+                ]
+            }
+        ],
+        "comparative": "thirstier",
+        "superlative": "the thirstiest"
+    },
+    {
         "word": "part-time",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1494,18 +1511,44 @@
         "word": "right",
         "level": "starter",
         "form": "adjective",
-        "subtext": "right answer / right time / absolutely right",
+        "subtext": "right hand / right side / absolutely right",
+        "opposite": "left",
         "definitions": [
             {
                 "text": "Correct; suitable.",
                 "examples": [
                     "Is this the right office?"
                 ]
+            },
+            {
+                "text": "On or towards the side of your body that is to the east when you face north.",
+                "examples": [
+                    "Use your right hand."
+                ]
             }
         ],
         "theme": "describing_things_A1",
         "comparative": "more right",
         "superlative": "the most right"
+    },
+    {
+        "word": "left",
+        "level": "starter",
+        "form": "adjective",
+        "subtext": "left hand / left side",
+        "opposite": "right",
+        "definitions": [
+            {
+                "text": "On or towards the side of your body that is to the west when you face north.",
+                "examples": [
+                    "Turn left at the station.",
+                    "She writes with her left hand."
+                ]
+            }
+        ],
+        "theme": "describing_things_A1",
+        "comparative": null,
+        "superlative": null
     },
     {
         "word": "wrong",
@@ -2561,6 +2604,307 @@
         ],
         "comparative": "farther",
         "superlative": "the farthest"
+    },
+    {
+        "word": "rich",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "adjective",
+        "opposite": "poor",
+        "oppositeEmoji": "🏚️",
+        "definitions": [
+            {
+                "text": "Having a lot of money.",
+                "examples": [
+                    "He is a very rich man."
+                ]
+            }
+        ],
+        "comparative": "richer",
+        "superlative": "the richest"
+    },
+    {
+        "word": "poor",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "🏚️",
+        "form": "adjective",
+        "opposite": "rich",
+        "oppositeEmoji": "💰",
+        "definitions": [
+            {
+                "text": "Having very little money.",
+                "examples": [
+                    "They are poor but happy."
+                ]
+            }
+        ],
+        "comparative": "poorer",
+        "superlative": "the poorest"
+    },
+    {
+        "word": "early",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "🌅",
+        "form": "adjective",
+        "opposite": "late",
+        "oppositeEmoji": "🌙",
+        "definitions": [
+            {
+                "text": "Happening or arriving before the usual or expected time.",
+                "examples": [
+                    "I had an early breakfast."
+                ]
+            }
+        ],
+        "comparative": "earlier",
+        "superlative": "the earliest"
+    },
+    {
+        "word": "late",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "🌙",
+        "form": "adjective",
+        "opposite": "early",
+        "oppositeEmoji": "🌅",
+        "definitions": [
+            {
+                "text": "Happening or arriving after the usual or expected time.",
+                "examples": [
+                    "I had a late dinner."
+                ]
+            }
+        ],
+        "comparative": "later",
+        "superlative": "the latest"
+    },
+    {
+        "word": "exciting",
+        "level": "starter",
+        "theme": "surprise_interest_A1",
+        "emoji": "🤩",
+        "form": "adjective",
+        "opposite": "boring",
+        "oppositeEmoji": "😴",
+        "definitions": [
+            {
+                "text": "Making you feel very happy and enthusiastic.",
+                "examples": [
+                    "It was an exciting game."
+                ]
+            }
+        ],
+        "comparative": "more exciting",
+        "superlative": "the most exciting"
+    },
+    {
+        "word": "delicious",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "😋",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a very pleasant taste or smell.",
+                "examples": [
+                    "The food is delicious."
+                ]
+            }
+        ],
+        "comparative": "more delicious",
+        "superlative": "the most delicious"
+    },
+    {
+        "word": "sweet",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🍬",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a taste like sugar.",
+                "examples": [
+                    "I like sweet things."
+                ]
+            }
+        ],
+        "comparative": "sweeter",
+        "superlative": "the sweetest"
+    },
+    {
+        "word": "comfortable",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🛋️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Making you feel physically relaxed, without any pain or without being too hot, cold, etc.",
+                "examples": [
+                    "This chair is very comfortable."
+                ]
+            }
+        ],
+        "comparative": "more comfortable",
+        "superlative": "the most comfortable"
+    },
+    {
+        "word": "real",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💎",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Actually existing or happening; not false.",
+                "examples": [
+                    "Is this a real diamond?"
+                ]
+            }
+        ],
+        "comparative": "more real",
+        "superlative": "the most real"
+    },
+    {
+        "word": "simple",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "complex",
+        "definitions": [
+            {
+                "text": "Easy to understand or do; not complex.",
+                "examples": [
+                    "This is a simple problem."
+                ]
+            }
+        ],
+        "comparative": "simpler",
+        "superlative": "the simplest"
+    },
+    {
+        "word": "natural",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌱",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Existing in nature; not made or caused by people.",
+                "examples": [
+                    "I prefer natural products."
+                ]
+            }
+        ],
+        "comparative": "more natural",
+        "superlative": "the most natural"
+    },
+    {
+        "word": "clear",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💧",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Easy to see through; easy to understand.",
+                "examples": [
+                    "The water is very clear.",
+                    "It is a clear day."
+                ]
+            }
+        ],
+        "comparative": "clearer",
+        "superlative": "the clearest"
+    },
+    {
+        "word": "common",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🔄",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Happening often; shared by many people.",
+                "examples": [
+                    "It is a common mistake."
+                ]
+            }
+        ],
+        "comparative": "commoner",
+        "superlative": "the commonest"
+    },
+    {
+        "word": "famous",
+        "level": "starter",
+        "theme": "people_A1",
+        "emoji": "🌟",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Known by many people.",
+                "examples": [
+                    "He is a famous actor."
+                ]
+            }
+        ],
+        "comparative": "more famous",
+        "superlative": "the most famous"
+    },
+    {
+        "word": "salty",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🧂",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Containing or tasting of salt.",
+                "examples": [
+                    "The popcorn is very salty."
+                ]
+            }
+        ],
+        "comparative": "saltier",
+        "superlative": "the saltiest"
+    },
+    {
+        "word": "sour",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🍋",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a sharp taste like that of a lemon.",
+                "examples": [
+                    "Lemons are sour."
+                ]
+            }
+        ],
+        "comparative": "sourer",
+        "superlative": "the sourest"
+    },
+    {
+        "word": "bitter",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "☕",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having a strong sharp taste that is not sweet.",
+                "examples": [
+                    "This coffee is very bitter."
+                ]
+            }
+        ],
+        "comparative": "bitterer",
+        "superlative": "the bitterest"
     }
 ];
     const lang = "en";
