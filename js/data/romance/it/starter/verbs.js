@@ -3376,7 +3376,927 @@
         "v3": "costruito",
         "group": "ire",
         "auxiliary": "avere"
-    }
+    },
+    {
+        "word": "cominciare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Iniziare a fare qualcosa.",
+                "examples": [
+                    "Cominciamo la riunione alle nove."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "cominciato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "finire",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Finire ; fermarsi.",
+                "examples": [
+                    "La lezione finisce alle tre."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "finito",
+        "group": "ire",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "spazzolare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🪥",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Pulire qualcosa con una spazzola.",
+                "examples": [
+                    "Mi spazzolo i denti ogni mattina."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "spazzolato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "cavalcare",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚲",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Viaggiare in bicicletta o a cavallo.",
+                "examples": [
+                    "Vado al lavoro in bicicletta."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "cavalcato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "sognare",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💭",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avere immagini o idee in mente durante il sonno.",
+                "examples": [
+                    "Ho sognato una vacanza ieri notte."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "sognato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "credere",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🙏",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Pensare che qualcosa sia vero.",
+                "examples": [
+                    "Ti credo."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "creduto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "preferire",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👉",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Preferire una cosa a un'altra.",
+                "examples": [
+                    "Preferisco il tè al caffè."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "preferito",
+        "group": "ire",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "prendere",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🧤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Prendere qualcosa ; salire su un autobus o un treno.",
+                "examples": [
+                    "Devo prendere l'autobus alle otto."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "preso",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "riparare",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🛠️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Riparare qualcosa che è rotto.",
+                "examples": [
+                    "Puoi riparare il mio telefono?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "riparato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "creare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🎨",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Fare qualcosa di nuovo.",
+                "examples": [
+                    "Lei crea bellissimi siti web."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "creato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "notare",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👀",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Vedere o diventare consapevoli di qualcosa.",
+                "examples": [
+                    "Hai notato il nuovo ufficio?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "notato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "migliorare",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📈",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Rendere qualcosa migliore.",
+                "examples": [
+                    "Voglio migliorare il mio italiano."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "migliorato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "preparare",
+        "level": "starter",
+        "theme": "cooking_methods_A1",
+        "emoji": "🥘",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Preparare qualcosa.",
+                "examples": [
+                    "Lui prepara la cena."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "preparato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "organizzare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Pianificare o organizzare qualcosa.",
+                "examples": [
+                    "Lei organizza tutte le riunioni."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "organizzato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "pianificare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Decidere cosa farai.",
+                "examples": [
+                    "Stiamo pianificando un viaggio."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "pianificato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "prendere in prestito",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📥",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Prendere qualcosa per un breve periodo e poi restituirlo.",
+                "examples": [
+                    "Posso prendere in prestito la tua penna?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "preso in prestito",
+        "group": "locution",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "prestare",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dare qualcosa per un breve periodo.",
+                "examples": [
+                    "Posso prestarti dei soldi."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "prestato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "odorare",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👃",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Notare o riconoscere qualcosa con il naso.",
+                "examples": [
+                    "Sento l'odore del caffè."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "odorato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "assaggiare",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "👅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Sentire il sapore di qualcosa in bocca.",
+                "examples": [
+                    "Assaggia questa zuppa."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "assaggiato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "sdraiarsi",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🛌",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Essere in posizione orizzontale su una superficie.",
+                "examples": [
+                    "Mi piace sdraiarmi sulla spiaggia."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "sdraiato",
+        "group": "riflessivo",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "ridere",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Fare suoni con la voce perché pensi che qualcosa sia divertente.",
+                "examples": [
+                    "Ridevano della sua battuta."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "riso",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "preoccuparsi",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "😟",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Pensare a problemi o cose spiacevoli che potrebbero accadere.",
+                "examples": [
+                    "Non preoccuparti, andrà tutto bene."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "preoccupato",
+        "group": "riflessivo",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "suonare",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Sembrare qualcosa da quello che hai sentito o letto.",
+                "examples": [
+                    "Sembra una buona idea."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "suonato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "compitare",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🔤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dire o scrivere le lettere di una parola nell'ordine corretto.",
+                "examples": [
+                    "Come si compita il tuo nome?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "compitato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "indicare",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "☝️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mostrare qualcosa tenendo il dito verso di esso.",
+                "examples": [
+                    "Indica la finestra."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "indicato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "gridare",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "📢",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dire qualcosa a voce molto alta.",
+                "examples": [
+                    "Non gridare in classe."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "gridato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "salutare",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👋",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Muovere la mano da un lato all'altro per dire ciao o arrivederci.",
+                "examples": [
+                    "Saluta il tuo amico con la mano."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "salutato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "calciare",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🦶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Colpire qualcosa con il piede.",
+                "examples": [
+                    "Calcia la palla!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "calciato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "lanciare",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "⚾",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Far muovere qualcosa nell'aria spingendolo dalla mano.",
+                "examples": [
+                    "Puoi lanciarmi la palla?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "lanciato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "rimbalzare",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏀",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Muoversi verso l'alto o lontano dopo aver colpito una superficie.",
+                "examples": [
+                    "La palla rimbalza."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "rimbalzato",
+        "group": "are",
+        "auxiliary": "essere"
+    },
+    {
+        "word": "dipingere",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🎨",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Fare un'immagine usando la pittura.",
+                "examples": [
+                    "Mi piace dipingere fiori."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "dipinto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "saltellare",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🐇",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Saltare su un piede.",
+                "examples": [
+                    "Puoi saltellare come un coniglio?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "saltellato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "saltare",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏃",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Muoversi saltando da un piede all'altro.",
+                "examples": [
+                    "I bambini saltano la corda nel parco giochi."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "saltato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "contare",
+        "level": "starter",
+        "theme": "numbers_0_9_A1",
+        "emoji": "🔢",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Dire i numeri in ordine.",
+                "examples": [
+                    "Puoi contare da uno a dieci?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "contato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "segnare",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "✅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettere un segno (v) accanto a qualcosa per mostrare che è corretto.",
+                "examples": [
+                    "Segna la risposta corretta."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "segnato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "barrare",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "❌",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettere un segno (X) accanto a qualcosa per mostrare che è sbagliato.",
+                "examples": [
+                    "Barra la risposta sbagliata."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "barrato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "colorare",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🖍️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Usare una penna o una matita per mettere il colore su un'immagine.",
+                "examples": [
+                    "Colora l'immagine di blu."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "colorato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "tenere",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🤲",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Avere o tenere qualcosa nelle mani o nelle braccia.",
+                "examples": [
+                    "Tieni il bambino con cura."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "tenuto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "guidare",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Controllare un gruppo di persone, un paese o una situazione.",
+                "examples": [
+                    "Lei guida una piccola squadra."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "guidato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "combattere",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "⚔️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Usare la forza fisica per cercare di ferire qualcuno o vincere qualcosa.",
+                "examples": [
+                    "I due ragazzi stanno combattendo."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "combattuto",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "nascondere",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🙈",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettere qualcosa o qualcuno in un posto dove non possono essere visti.",
+                "examples": [
+                    "Si nasconde dietro la porta."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "nascondo",
+        "group": "ere",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "cercare",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🔍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Cercare di trovare o ottenere qualcosa.",
+                "examples": [
+                    "Stanno giocando a nascondino."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "cercato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "suonare",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🔔",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Fare un suono come una campana.",
+                "examples": [
+                    "Il telefono squilla."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "suonato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "mandare un SMS",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📱",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Inviare un messaggio da un telefono cellulare.",
+                "examples": [
+                    "Mandami un SMS quando arrivi."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "mandato un SMS",
+        "group": "locution",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "sussurrare",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🤫",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Parlare molto piano in modo che gli altri non possano sentirti.",
+                "examples": [
+                    "Mi ha sussurrato la risposta."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "sussurrato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
+    {
+        "word": "toccare",
+        "level": "starter",
+        "theme": "five_senses_A1",
+        "emoji": "🫫",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettere la mano o un'altra parte del corpo su qualcosa.",
+                "examples": [
+                    "Non toccare la vernice fresca!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "toccato",
+        "group": "are",
+        "auxiliary": "avere"
+    },
 ];
     const lang = "it";
     window.verbsData = window.verbsData || {};

@@ -2583,7 +2583,1185 @@
         "subtext": "molto rumoroso / ambiente rumoroso / troppo rumoroso",
         "comparative": "più rumoroso",
         "superlative": "il più rumoroso"
-    }
+    },
+    {
+        "word": "onesto",
+        "feminine": "onesta",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "😇",
+        "form": "adjective",
+        "plural": "onesti",
+        "femininePlural": "oneste",
+        "definitions": [
+            {
+                "text": "Definizione di onesto.",
+                "examples": []
+            }
+        ],
+        "subtext": "onesto",
+        "comparative": "più onesto",
+        "superlative": "il più onesto"
+    },
+    {
+        "word": "rumoroso",
+        "feminine": "rumorosa",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🔊",
+        "form": "adjective",
+        "plural": "rumorosi",
+        "femininePlural": "rumorose",
+        "definitions": [
+            {
+                "text": "Definizione di rumoroso.",
+                "examples": []
+            }
+        ],
+        "subtext": "rumoroso",
+        "comparative": "più rumoroso",
+        "superlative": "il più rumoroso"
+    },
+    {
+        "word": "rotondo",
+        "feminine": "rotonda",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⭕",
+        "form": "adjective",
+        "plural": "rotondi",
+        "femininePlural": "rotonde",
+        "definitions": [
+            {
+                "text": "Definizione di rotondo.",
+                "examples": []
+            }
+        ],
+        "subtext": "rotondo",
+        "comparative": "più rotondo",
+        "superlative": "il più rotondo"
+    },
+    {
+        "word": "quadrato",
+        "feminine": "quadrata",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⬛",
+        "form": "adjective",
+        "plural": "quadrati",
+        "femininePlural": "quadrate",
+        "definitions": [
+            {
+                "text": "Definizione di quadrato.",
+                "examples": []
+            }
+        ],
+        "subtext": "quadrato",
+        "comparative": "più quadrato",
+        "superlative": "il più quadrato"
+    },
+    {
+        "word": "utile",
+        "feminine": "utile",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🤝",
+        "form": "adjective",
+        "plural": "utili",
+        "femininePlural": "utili",
+        "definitions": [
+            {
+                "text": "Definizione di utile.",
+                "examples": []
+            }
+        ],
+        "subtext": "utile",
+        "comparative": "più utile",
+        "superlative": "il più utile"
+    },
+    {
+        "word": "paziente",
+        "feminine": "paziente",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🧘",
+        "form": "adjective",
+        "plural": "pazienti",
+        "femininePlural": "pazienti",
+        "definitions": [
+            {
+                "text": "Definizione di paziente.",
+                "examples": []
+            }
+        ],
+        "subtext": "paziente",
+        "comparative": "più paziente",
+        "superlative": "il più paziente"
+    },
+    {
+        "word": "attivo",
+        "feminine": "attiva",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏃",
+        "form": "adjective",
+        "plural": "attivi",
+        "femininePlural": "attive",
+        "definitions": [
+            {
+                "text": "Definizione di attivo.",
+                "examples": []
+            }
+        ],
+        "subtext": "attivo",
+        "comparative": "più attivo",
+        "superlative": "il più attivo"
+    },
+    {
+        "word": "attento",
+        "feminine": "attenta",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⚠️",
+        "form": "adjective",
+        "plural": "attenti",
+        "femininePlural": "attente",
+        "definitions": [
+            {
+                "text": "Definizione di attento.",
+                "examples": []
+            }
+        ],
+        "subtext": "attento",
+        "comparative": "più attento",
+        "superlative": "il più attento"
+    },
+    {
+        "word": "creativo",
+        "feminine": "creativa",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🎨",
+        "form": "adjective",
+        "plural": "creativi",
+        "femininePlural": "creative",
+        "definitions": [
+            {
+                "text": "Definizione di creativo.",
+                "examples": []
+            }
+        ],
+        "subtext": "creativo",
+        "comparative": "più creativo",
+        "superlative": "il più creativo"
+    },
+    {
+        "word": "nuvoloso",
+        "feminine": "nuvolosa",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "☁️",
+        "form": "adjective",
+        "plural": "nuvolosi",
+        "femininePlural": "nuvolose",
+        "definitions": [
+            {
+                "text": "Definizione di nuvoloso.",
+                "examples": []
+            }
+        ],
+        "subtext": "nuvoloso",
+        "comparative": "più nuvoloso",
+        "superlative": "il più nuvoloso"
+    },
+    {
+        "word": "ventoso",
+        "feminine": "ventosa",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "💨",
+        "form": "adjective",
+        "plural": "ventosi",
+        "femininePlural": "ventose",
+        "definitions": [
+            {
+                "text": "Definizione di ventoso.",
+                "examples": []
+            }
+        ],
+        "subtext": "ventoso",
+        "comparative": "più ventoso",
+        "superlative": "il più ventoso"
+    },
+    {
+        "word": "nevoso",
+        "feminine": "nevosa",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "❄️",
+        "form": "adjective",
+        "plural": "nevosi",
+        "femininePlural": "nevose",
+        "definitions": [
+            {
+                "text": "Definizione di nevoso.",
+                "examples": []
+            }
+        ],
+        "subtext": "nevoso",
+        "comparative": "più nevoso",
+        "superlative": "il più nevoso"
+    },
+    {
+        "word": "nebbioso",
+        "feminine": "nebbiosa",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🌫️",
+        "form": "adjective",
+        "plural": "nebbiosi",
+        "femininePlural": "nebbiose",
+        "definitions": [
+            {
+                "text": "Definizione di nebbioso.",
+                "examples": []
+            }
+        ],
+        "subtext": "nebbioso",
+        "comparative": "più nebbioso",
+        "superlative": "il più nebbioso"
+    },
+    {
+        "word": "tempestoso",
+        "feminine": "tempestosa",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "⛈️",
+        "form": "adjective",
+        "plural": "tempestosi",
+        "femininePlural": "tempestose",
+        "definitions": [
+            {
+                "text": "Definizione di tempestoso.",
+                "examples": []
+            }
+        ],
+        "subtext": "tempestoso",
+        "comparative": "più tempestoso",
+        "superlative": "il più tempestoso"
+    },
+    {
+        "word": "biondo",
+        "feminine": "bionda",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "👱",
+        "form": "adjective",
+        "plural": "biondi",
+        "femininePlural": "bionde",
+        "definitions": [
+            {
+                "text": "Definizione di biondo.",
+                "examples": []
+            }
+        ],
+        "subtext": "biondo",
+        "comparative": "più biondo",
+        "superlative": "il più biondo"
+    },
+    {
+        "word": "intelligente",
+        "feminine": "intelligente",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🧠",
+        "form": "adjective",
+        "plural": "intelligenti",
+        "femininePlural": "intelligenti",
+        "definitions": [
+            {
+                "text": "Definizione di intelligente.",
+                "examples": []
+            }
+        ],
+        "subtext": "intelligente",
+        "comparative": "più intelligente",
+        "superlative": "il più intelligente"
+    },
+    {
+        "word": "serio",
+        "feminine": "seria",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🧐",
+        "form": "adjective",
+        "plural": "seri",
+        "femininePlural": "serie",
+        "definitions": [
+            {
+                "text": "Definizione di serio.",
+                "examples": []
+            }
+        ],
+        "subtext": "serio",
+        "comparative": "più serio",
+        "superlative": "il più serio"
+    },
+    {
+        "word": "brutto",
+        "feminine": "brutta",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "👹",
+        "form": "adjective",
+        "plural": "brutti",
+        "femininePlural": "brutte",
+        "definitions": [
+            {
+                "text": "Definizione di brutto.",
+                "examples": []
+            }
+        ],
+        "subtext": "brutto",
+        "comparative": "più brutto",
+        "superlative": "il più brutto"
+    },
+    {
+        "word": "vicino",
+        "feminine": "vicina",
+        "level": "starter",
+        "theme": "distance_A1",
+        "emoji": "📍",
+        "form": "adjective",
+        "plural": "vicini",
+        "femininePlural": "vicine",
+        "definitions": [
+            {
+                "text": "Definizione di vicino.",
+                "examples": []
+            }
+        ],
+        "subtext": "vicino",
+        "comparative": "più vicino",
+        "superlative": "il più vicino"
+    },
+    {
+        "word": "lontano",
+        "feminine": "lontana",
+        "level": "starter",
+        "theme": "distance_A1",
+        "emoji": "🔭",
+        "form": "adjective",
+        "plural": "lontani",
+        "femininePlural": "lontane",
+        "definitions": [
+            {
+                "text": "Definizione di lontano.",
+                "examples": []
+            }
+        ],
+        "subtext": "lontano",
+        "comparative": "più lontano",
+        "superlative": "il più lontano"
+    },
+    {
+        "word": "ricco",
+        "feminine": "ricca",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💰",
+        "form": "adjective",
+        "plural": "ricchi",
+        "femininePlural": "ricche",
+        "definitions": [
+            {
+                "text": "Definizione di ricco.",
+                "examples": []
+            }
+        ],
+        "subtext": "ricco",
+        "comparative": "più ricco",
+        "superlative": "il più ricco"
+    },
+    {
+        "word": "povero",
+        "feminine": "povera",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "🏚️",
+        "form": "adjective",
+        "plural": "poveri",
+        "femininePlural": "povere",
+        "definitions": [
+            {
+                "text": "Definizione di povero.",
+                "examples": []
+            }
+        ],
+        "subtext": "povero",
+        "comparative": "più povero",
+        "superlative": "il più povero"
+    },
+    {
+        "word": "presto",
+        "feminine": "presto",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "🌅",
+        "form": "adjective",
+        "plural": "presto",
+        "femininePlural": "presto",
+        "definitions": [
+            {
+                "text": "Definizione di presto.",
+                "examples": []
+            }
+        ],
+        "subtext": "presto",
+        "comparative": "più presto",
+        "superlative": "il più presto"
+    },
+    {
+        "word": "tardi",
+        "feminine": "tardi",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "🌙",
+        "form": "adjective",
+        "plural": "tardi",
+        "femininePlural": "tardi",
+        "definitions": [
+            {
+                "text": "Definizione di tardi.",
+                "examples": []
+            }
+        ],
+        "subtext": "tardi",
+        "comparative": "più tardi",
+        "superlative": "il più tardi"
+    },
+    {
+        "word": "emozionante",
+        "feminine": "emozionante",
+        "level": "starter",
+        "theme": "surprise_interest_A1",
+        "emoji": "🤩",
+        "form": "adjective",
+        "plural": "emozionanti",
+        "femininePlural": "emozionanti",
+        "definitions": [
+            {
+                "text": "Definizione di emozionante.",
+                "examples": []
+            }
+        ],
+        "subtext": "emozionante",
+        "comparative": "più emozionante",
+        "superlative": "il più emozionante"
+    },
+    {
+        "word": "delizioso",
+        "feminine": "deliziosa",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "😋",
+        "form": "adjective",
+        "plural": "deliziosi",
+        "femininePlural": "deliziose",
+        "definitions": [
+            {
+                "text": "Definizione di delizioso.",
+                "examples": []
+            }
+        ],
+        "subtext": "delizioso",
+        "comparative": "più delizioso",
+        "superlative": "il più delizioso"
+    },
+    {
+        "word": "dolce",
+        "feminine": "dolce",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🍬",
+        "form": "adjective",
+        "plural": "dolci",
+        "femininePlural": "dolci",
+        "definitions": [
+            {
+                "text": "Definizione di dolce.",
+                "examples": []
+            }
+        ],
+        "subtext": "dolce",
+        "comparative": "più dolce",
+        "superlative": "il più dolce"
+    },
+    {
+        "word": "comodo",
+        "feminine": "comoda",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🛋️",
+        "form": "adjective",
+        "plural": "comodi",
+        "femininePlural": "comode",
+        "definitions": [
+            {
+                "text": "Definizione di comodo.",
+                "examples": []
+            }
+        ],
+        "subtext": "comodo",
+        "comparative": "più comodo",
+        "superlative": "il più comodo"
+    },
+    {
+        "word": "vero",
+        "feminine": "vera",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💎",
+        "form": "adjective",
+        "plural": "veri",
+        "femininePlural": "vere",
+        "definitions": [
+            {
+                "text": "Definizione di vero.",
+                "examples": []
+            }
+        ],
+        "subtext": "vero",
+        "comparative": "più vero",
+        "superlative": "il più vero"
+    },
+    {
+        "word": "semplice",
+        "feminine": "semplice",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "plural": "semplici",
+        "femininePlural": "semplici",
+        "definitions": [
+            {
+                "text": "Definizione di semplice.",
+                "examples": []
+            }
+        ],
+        "subtext": "semplice",
+        "comparative": "più semplice",
+        "superlative": "il più semplice"
+    },
+    {
+        "word": "naturale",
+        "feminine": "naturale",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌱",
+        "form": "adjective",
+        "plural": "naturali",
+        "femininePlural": "naturali",
+        "definitions": [
+            {
+                "text": "Definizione di naturale.",
+                "examples": []
+            }
+        ],
+        "subtext": "naturale",
+        "comparative": "più naturale",
+        "superlative": "il più naturale"
+    },
+    {
+        "word": "chiaro",
+        "feminine": "chiara",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💧",
+        "form": "adjective",
+        "plural": "chiari",
+        "femininePlural": "chiare",
+        "definitions": [
+            {
+                "text": "Definizione di chiaro.",
+                "examples": []
+            }
+        ],
+        "subtext": "chiaro",
+        "comparative": "più chiaro",
+        "superlative": "il più chiaro"
+    },
+    {
+        "word": "comune",
+        "feminine": "comune",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🔄",
+        "form": "adjective",
+        "plural": "comuni",
+        "femininePlural": "comuni",
+        "definitions": [
+            {
+                "text": "Definizione di comune.",
+                "examples": []
+            }
+        ],
+        "subtext": "comune",
+        "comparative": "più comune",
+        "superlative": "il più comune"
+    },
+    {
+        "word": "famoso",
+        "feminine": "famosa",
+        "level": "starter",
+        "theme": "people_A1",
+        "emoji": "🌟",
+        "form": "adjective",
+        "plural": "famosi",
+        "femininePlural": "famose",
+        "definitions": [
+            {
+                "text": "Definizione di famoso.",
+                "examples": []
+            }
+        ],
+        "subtext": "famoso",
+        "comparative": "più famoso",
+        "superlative": "il più famoso"
+    },
+    {
+        "word": "salato",
+        "feminine": "salata",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🧂",
+        "form": "adjective",
+        "plural": "salati",
+        "femininePlural": "salate",
+        "definitions": [
+            {
+                "text": "Definizione di salato.",
+                "examples": []
+            }
+        ],
+        "subtext": "salato",
+        "comparative": "più salato",
+        "superlative": "il più salato"
+    },
+    {
+        "word": "acido",
+        "feminine": "acida",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🍋",
+        "form": "adjective",
+        "plural": "acidi",
+        "femininePlural": "acide",
+        "definitions": [
+            {
+                "text": "Definizione di acido.",
+                "examples": []
+            }
+        ],
+        "subtext": "acido",
+        "comparative": "più acido",
+        "superlative": "il più acido"
+    },
+    {
+        "word": "amaro",
+        "feminine": "amara",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "☕",
+        "form": "adjective",
+        "plural": "amari",
+        "femininePlural": "amare",
+        "definitions": [
+            {
+                "text": "Definizione di amaro.",
+                "examples": []
+            }
+        ],
+        "subtext": "amaro",
+        "comparative": "più amaro",
+        "superlative": "il più amaro"
+    },
+    {
+        "word": "grasso",
+        "feminine": "grassa",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🍔",
+        "form": "adjective",
+        "plural": "grassi",
+        "femininePlural": "grasse",
+        "definitions": [
+            {
+                "text": "Definizione di grasso.",
+                "examples": []
+            }
+        ],
+        "subtext": "grasso",
+        "comparative": "più grasso",
+        "superlative": "il più grasso"
+    },
+    {
+        "word": "magro",
+        "feminine": "magra",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🥬",
+        "form": "adjective",
+        "plural": "magri",
+        "femininePlural": "magre",
+        "definitions": [
+            {
+                "text": "Definizione di magro.",
+                "examples": []
+            }
+        ],
+        "subtext": "magro",
+        "comparative": "più magro",
+        "superlative": "il più magro"
+    },
+    {
+        "word": "riccio",
+        "feminine": "riccia",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🌀",
+        "form": "adjective",
+        "plural": "ricci",
+        "femininePlural": "ricce",
+        "definitions": [
+            {
+                "text": "Definizione di riccio.",
+                "examples": []
+            }
+        ],
+        "subtext": "riccio",
+        "comparative": "più riccio",
+        "superlative": "il più riccio"
+    },
+    {
+        "word": "liscio",
+        "feminine": "liscia",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "plural": "lisci",
+        "femininePlural": "lisce",
+        "definitions": [
+            {
+                "text": "Definizione di liscio.",
+                "examples": []
+            }
+        ],
+        "subtext": "liscio",
+        "comparative": "più liscio",
+        "superlative": "il più liscio"
+    },
+    {
+        "word": "triangolare",
+        "feminine": "triangolare",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🔺",
+        "form": "adjective",
+        "plural": "triangolari",
+        "femininePlural": "triangolari",
+        "definitions": [
+            {
+                "text": "Definizione di triangolare.",
+                "examples": []
+            }
+        ],
+        "subtext": "triangolare",
+        "comparative": "più triangolare",
+        "superlative": "il più triangolare"
+    },
+    {
+        "word": "rettangolare",
+        "feminine": "rettangolare",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "▭",
+        "form": "adjective",
+        "plural": "rettangolari",
+        "femininePlural": "rettangolari",
+        "definitions": [
+            {
+                "text": "Definizione di rettangolare.",
+                "examples": []
+            }
+        ],
+        "subtext": "rettangolare",
+        "comparative": "più rettangolare",
+        "superlative": "il più rettangolare"
+    },
+    {
+        "word": "ovale",
+        "feminine": "ovale",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🥚",
+        "form": "adjective",
+        "plural": "ovali",
+        "femininePlural": "ovali",
+        "definitions": [
+            {
+                "text": "Definizione di ovale.",
+                "examples": []
+            }
+        ],
+        "subtext": "ovale",
+        "comparative": "più ovale",
+        "superlative": "il più ovale"
+    },
+    {
+        "word": "preferito",
+        "feminine": "preferita",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⭐",
+        "form": "adjective",
+        "plural": "preferiti",
+        "femininePlural": "preferite",
+        "definitions": [
+            {
+                "text": "Definizione di preferito.",
+                "examples": []
+            }
+        ],
+        "subtext": "preferito",
+        "comparative": "più preferito",
+        "superlative": "il più preferito"
+    },
+    {
+        "word": "scuro",
+        "feminine": "scura",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🌑",
+        "form": "adjective",
+        "plural": "scuri",
+        "femininePlural": "scure",
+        "definitions": [
+            {
+                "text": "Definizione di scuro.",
+                "examples": []
+            }
+        ],
+        "subtext": "scuro",
+        "comparative": "più scuro",
+        "superlative": "il più scuro"
+    },
+    {
+        "word": "luminoso",
+        "feminine": "luminosa",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💡",
+        "form": "adjective",
+        "plural": "luminosi",
+        "femininePlural": "luminose",
+        "definitions": [
+            {
+                "text": "Definizione di luminoso.",
+                "examples": []
+            }
+        ],
+        "subtext": "luminoso",
+        "comparative": "più luminoso",
+        "superlative": "il più luminoso"
+    },
+    {
+        "word": "dorato",
+        "feminine": "dorata",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟡",
+        "form": "adjective",
+        "plural": "dorati",
+        "femininePlural": "dorate",
+        "definitions": [
+            {
+                "text": "Definizione di dorato.",
+                "examples": []
+            }
+        ],
+        "subtext": "dorato",
+        "comparative": "più dorato",
+        "superlative": "il più dorato"
+    },
+    {
+        "word": "argentato",
+        "feminine": "argentata",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "⚪",
+        "form": "adjective",
+        "plural": "argentati",
+        "femininePlural": "argentate",
+        "definitions": [
+            {
+                "text": "Definizione di argentato.",
+                "examples": []
+            }
+        ],
+        "subtext": "argentato",
+        "comparative": "più argentato",
+        "superlative": "il più argentato"
+    },
+    {
+        "word": "profondo",
+        "feminine": "profonda",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🕳️",
+        "form": "adjective",
+        "plural": "profondi",
+        "femininePlural": "profonde",
+        "definitions": [
+            {
+                "text": "Definizione di profondo.",
+                "examples": []
+            }
+        ],
+        "subtext": "profondo",
+        "comparative": "più profondo",
+        "superlative": "il più profondo"
+    },
+    {
+        "word": "poco profondo",
+        "feminine": "poco profonda",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "plural": "poco profondi",
+        "femininePlural": "poco profonde",
+        "definitions": [
+            {
+                "text": "Definizione di poco profondo.",
+                "examples": []
+            }
+        ],
+        "subtext": "poco profondo",
+        "comparative": "più poco profondo",
+        "superlative": "il più poco profondo"
+    },
+    {
+        "word": "moderno",
+        "feminine": "moderna",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "plural": "moderni",
+        "femininePlural": "moderne",
+        "definitions": [
+            {
+                "text": "Definizione di moderno.",
+                "examples": []
+            }
+        ],
+        "subtext": "moderno",
+        "comparative": "più moderno",
+        "superlative": "il più moderno"
+    },
+    {
+        "word": "antico",
+        "feminine": "antica",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏛️",
+        "form": "adjective",
+        "plural": "antichi",
+        "femininePlural": "antiche",
+        "definitions": [
+            {
+                "text": "Definizione di antico.",
+                "examples": []
+            }
+        ],
+        "subtext": "antico",
+        "comparative": "più antico",
+        "superlative": "il più antico"
+    },
+    {
+        "word": "coraggioso",
+        "feminine": "coraggiosa",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🦁",
+        "form": "adjective",
+        "plural": "coraggiosi",
+        "femininePlural": "coraggiose",
+        "definitions": [
+            {
+                "text": "Definizione di coraggioso.",
+                "examples": []
+            }
+        ],
+        "subtext": "coraggioso",
+        "comparative": "più coraggioso",
+        "superlative": "il più coraggioso"
+    },
+    {
+        "word": "codardo",
+        "feminine": "codarda",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🐭",
+        "form": "adjective",
+        "plural": "codardi",
+        "femininePlural": "codarde",
+        "definitions": [
+            {
+                "text": "Definizione di codardo.",
+                "examples": []
+            }
+        ],
+        "subtext": "codardo",
+        "comparative": "più codardo",
+        "superlative": "il più codardo"
+    },
+    {
+        "word": "largo",
+        "feminine": "larga",
+        "level": "starter",
+        "theme": "size_measurements_A1",
+        "emoji": "↔️",
+        "form": "adjective",
+        "plural": "larghi",
+        "femininePlural": "larghe",
+        "definitions": [
+            {
+                "text": "Definizione di largo.",
+                "examples": []
+            }
+        ],
+        "subtext": "largo",
+        "comparative": "più largo",
+        "superlative": "il più largo"
+    },
+    {
+        "word": "stretto",
+        "feminine": "stretta",
+        "level": "starter",
+        "theme": "size_measurements_A1",
+        "emoji": "⬇️",
+        "form": "adjective",
+        "plural": "stretti",
+        "femininePlural": "strette",
+        "definitions": [
+            {
+                "text": "Definizione di stretto.",
+                "examples": []
+            }
+        ],
+        "subtext": "stretto",
+        "comparative": "più stretto",
+        "superlative": "il più stretto"
+    },
+    {
+        "word": "poco amichevole",
+        "feminine": "poco amichevole",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "😠",
+        "form": "adjective",
+        "plural": "poco amichevoli",
+        "femininePlural": "poco amichevoli",
+        "definitions": [
+            {
+                "text": "Definizione di poco amichevole.",
+                "examples": []
+            }
+        ],
+        "subtext": "poco amichevole",
+        "comparative": "più poco amichevole",
+        "superlative": "il più poco amichevole"
+    },
+    {
+        "word": "impaziente",
+        "feminine": "impaziente",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "⌚",
+        "form": "adjective",
+        "plural": "impazienti",
+        "femininePlural": "impazienti",
+        "definitions": [
+            {
+                "text": "Definizione di impaziente.",
+                "examples": []
+            }
+        ],
+        "subtext": "impaziente",
+        "comparative": "più impaziente",
+        "superlative": "il più impaziente"
+    },
+    {
+        "word": "maleducato",
+        "feminine": "maleducata",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "😛",
+        "form": "adjective",
+        "plural": "maleducati",
+        "femininePlural": "maleducate",
+        "definitions": [
+            {
+                "text": "Definizione di maleducato.",
+                "examples": []
+            }
+        ],
+        "subtext": "maleducato",
+        "comparative": "più maleducato",
+        "superlative": "il più maleducato"
+    },
+    {
+        "word": "falso",
+        "feminine": "falsa",
+        "level": "starter",
+        "theme": "material_objects_A1",
+        "emoji": "🎭",
+        "form": "adjective",
+        "plural": "falsi",
+        "femininePlural": "false",
+        "definitions": [
+            {
+                "text": "Definizione di falso.",
+                "examples": []
+            }
+        ],
+        "subtext": "falso",
+        "comparative": "più falso",
+        "superlative": "il più falso"
+    },
+    {
+        "word": "sfortunato",
+        "feminine": "sfortunata",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😿",
+        "form": "adjective",
+        "plural": "sfortunati",
+        "femininePlural": "sfortunate",
+        "definitions": [
+            {
+                "text": "Definizione di sfortunato.",
+                "examples": []
+            }
+        ],
+        "subtext": "sfortunato",
+        "comparative": "più sfortunato",
+        "superlative": "il più sfortunato"
+    },
 ];
     const lang = "it";
     window.adjectivesData = window.adjectivesData || {};
