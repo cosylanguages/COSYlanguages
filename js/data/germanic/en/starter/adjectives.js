@@ -2905,6 +2905,150 @@
         ],
         "comparative": "bitterer",
         "superlative": "the bitterest"
+    },
+    {
+        "word": "fat",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🍔",
+        "form": "adjective",
+        "opposite": "thin",
+        "oppositeEmoji": "🥬",
+        "definitions": [
+            {
+                "text": "Having a lot of extra flesh on your body.",
+                "examples": [
+                    "The cat is fat because it eats a lot."
+                ]
+            }
+        ],
+        "comparative": "fatter",
+        "superlative": "the fattest"
+    },
+    {
+        "word": "thin",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🥬",
+        "form": "adjective",
+        "opposite": "fat",
+        "oppositeEmoji": "🍔",
+        "definitions": [
+            {
+                "text": "Having very little extra flesh on your body.",
+                "examples": [
+                    "He is very tall and thin."
+                ]
+            }
+        ],
+        "comparative": "thinner",
+        "superlative": "the thinnest"
+    },
+    {
+        "word": "curly",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🌀",
+        "form": "adjective",
+        "opposite": "straight",
+        "definitions": [
+            {
+                "text": "Having curls or a curved shape.",
+                "examples": [
+                    "She has curly brown hair."
+                ]
+            }
+        ],
+        "comparative": "curlier",
+        "superlative": "the curliest"
+    },
+    {
+        "word": "straight",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "opposite": "curly",
+        "definitions": [
+            {
+                "text": "Not curving or bending.",
+                "examples": [
+                    "He has straight black hair."
+                ]
+            }
+        ],
+        "comparative": "straighter",
+        "superlative": "the straightest"
+    },
+    {
+        "word": "triangular",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🔺",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Shaped like a triangle.",
+                "examples": [
+                    "The sign is triangular."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "rectangular",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "▭",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Shaped like a rectangle.",
+                "examples": [
+                    "We have a rectangular table in the kitchen."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "oval",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🥚",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Shaped like an egg.",
+                "examples": [
+                    "The mirror is oval."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "favourite",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⭐",
+        "form": "adjective",
+        "subtext": "favorite",
+        "definitions": [
+            {
+                "text": "The one that you like the most.",
+                "examples": [
+                    "What is your favourite colour?",
+                    "Pizza is my favourite food."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
     }
 ];
     const lang = "en";

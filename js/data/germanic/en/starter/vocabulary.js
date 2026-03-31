@@ -7074,6 +7074,619 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "board",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "📋",
+        "form": "noun",
+        "plural": "boards",
+        "definitions": [
+            {
+                "text": "A flat surface at the front of a classroom that a teacher writes on.",
+                "examples": [
+                    "Look at the board.",
+                    "The teacher writes the date on the board."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "eraser",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "🧽",
+        "form": "noun",
+        "plural": "erasers",
+        "subtext": "rubber",
+        "definitions": [
+            {
+                "text": "A small piece of rubber or plastic used to remove pencil marks.",
+                "examples": [
+                    "Can I borrow your eraser?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pencil case",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "✏️",
+        "form": "noun",
+        "plural": "pencil cases",
+        "definitions": [
+            {
+                "text": "A small bag or box for keeping pencils and pens.",
+                "examples": [
+                    "My pens are in my pencil case."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "notebook",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "📓",
+        "form": "noun",
+        "plural": "notebooks",
+        "definitions": [
+            {
+                "text": "A book with empty pages that you write in.",
+                "examples": [
+                    "I write my lessons in a notebook."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "textbook",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "📖",
+        "form": "noun",
+        "plural": "textbooks",
+        "definitions": [
+            {
+                "text": "A book that contains information about a subject that people study.",
+                "examples": [
+                    "Open your English textbooks to page ten."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "backpack",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "🎒",
+        "form": "noun",
+        "plural": "backpacks",
+        "definitions": [
+            {
+                "text": "A bag that you carry on your back.",
+                "examples": [
+                    "I put my books in my backpack."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "armchair",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🛋️",
+        "form": "noun",
+        "plural": "armchairs",
+        "definitions": [
+            {
+                "text": "A large comfortable chair with parts for you to rest your arms on.",
+                "examples": [
+                    "My grandfather is sitting in his armchair."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bookcase",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "📚",
+        "form": "noun",
+        "plural": "bookcases",
+        "definitions": [
+            {
+                "text": "A piece of furniture with shelves for keeping books.",
+                "examples": [
+                    "Put the book back on the bookcase."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cupboard",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "cupboards",
+        "definitions": [
+            {
+                "text": "A piece of furniture with doors and shelves used for storing things.",
+                "examples": [
+                    "The cups are in the cupboard."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rug",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🧶",
+        "form": "noun",
+        "plural": "rugs",
+        "definitions": [
+            {
+                "text": "A piece of thick cloth that covers part of a floor.",
+                "examples": [
+                    "There is a small rug in the bedroom."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "drawer",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🗄️",
+        "form": "noun",
+        "plural": "drawers",
+        "definitions": [
+            {
+                "text": "A part of a piece of furniture that slides out and is used for keeping things in.",
+                "examples": [
+                    "My socks are in the top drawer."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ceiling",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "ceilings",
+        "definitions": [
+            {
+                "text": "The top surface of a room.",
+                "examples": [
+                    "There is a light on the ceiling."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "toy",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🧸",
+        "form": "noun",
+        "plural": "toys",
+        "definitions": [
+            {
+                "text": "An object for children to play with.",
+                "examples": [
+                    "The child is playing with a toy car."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "doll",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🪆",
+        "form": "noun",
+        "plural": "dolls",
+        "definitions": [
+            {
+                "text": "A toy that looks like a small person or baby.",
+                "examples": [
+                    "She likes playing with her dolls."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "robot",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🤖",
+        "form": "noun",
+        "plural": "robots",
+        "definitions": [
+            {
+                "text": "A machine that can do work by itself.",
+                "examples": [
+                    "I have a toy robot."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "monster",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "👹",
+        "form": "noun",
+        "plural": "monsters",
+        "definitions": [
+            {
+                "text": "A large, scary, imaginary creature.",
+                "examples": [
+                    "The story is about a friendly monster."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "alien",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "👽",
+        "form": "noun",
+        "plural": "aliens",
+        "definitions": [
+            {
+                "text": "A creature from another planet.",
+                "examples": [
+                    "Do you believe in aliens?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "kite",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🪁",
+        "form": "noun",
+        "plural": "kites",
+        "definitions": [
+            {
+                "text": "A toy made of paper or cloth that flies in the wind on a long string.",
+                "examples": [
+                    "Let's fly a kite in the park."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "balloon",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🎈",
+        "form": "noun",
+        "plural": "balloons",
+        "definitions": [
+            {
+                "text": "A small colored rubber bag filled with air.",
+                "examples": [
+                    "We have many balloons for the party."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hobby",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🎨",
+        "form": "noun",
+        "plural": "hobbies",
+        "definitions": [
+            {
+                "text": "An activity that you do for fun in your free time.",
+                "examples": [
+                    "My hobby is reading."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pet",
+        "level": "starter",
+        "theme": "pets_A1",
+        "emoji": "🐾",
+        "form": "noun",
+        "plural": "pets",
+        "definitions": [
+            {
+                "text": "An animal that you keep at home.",
+                "examples": [
+                    "Do you have any pets?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hamster",
+        "level": "starter",
+        "theme": "pets_A1",
+        "emoji": "🐹",
+        "form": "noun",
+        "plural": "hamsters",
+        "definitions": [
+            {
+                "text": "A small animal with soft fur and no tail.",
+                "examples": [
+                    "I have a pet hamster."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lizard",
+        "level": "starter",
+        "theme": "pets_A1",
+        "emoji": "🦎",
+        "form": "noun",
+        "plural": "lizards",
+        "definitions": [
+            {
+                "text": "A small reptile with a long body and tail.",
+                "examples": [
+                    "I saw a lizard on the wall."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "turtle",
+        "level": "starter",
+        "theme": "pets_A1",
+        "emoji": "🐢",
+        "form": "noun",
+        "plural": "turtles",
+        "definitions": [
+            {
+                "text": "A slow-moving animal with a hard shell.",
+                "examples": [
+                    "The turtle is swimming in the pond."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "playground",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🛝",
+        "form": "noun",
+        "plural": "playgrounds",
+        "definitions": [
+            {
+                "text": "An outside area where children can play.",
+                "examples": [
+                    "The children are at the playground."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "story",
+        "level": "starter",
+        "theme": "books_reading_A1",
+        "emoji": "📖",
+        "form": "noun",
+        "plural": "stories",
+        "definitions": [
+            {
+                "text": "A description of events that can be true or imaginary.",
+                "examples": [
+                    "Tell me a story.",
+                    "I like stories about animals."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "painting",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "🖼️",
+        "form": "noun",
+        "plural": "paintings",
+        "definitions": [
+            {
+                "text": "A picture made with paint.",
+                "examples": [
+                    "There is a beautiful painting on the wall."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "poster",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "📜",
+        "form": "noun",
+        "plural": "posters",
+        "definitions": [
+            {
+                "text": "A large printed picture or notice that you put on a wall.",
+                "examples": [
+                    "There is a map poster in the classroom."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sentence",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "sentences",
+        "definitions": [
+            {
+                "text": "A group of words that expresses a complete thought.",
+                "examples": [
+                    "Write a sentence about your family."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "question",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "❓",
+        "form": "noun",
+        "plural": "questions",
+        "definitions": [
+            {
+                "text": "A sentence that asks for information.",
+                "examples": [
+                    "I have a question.",
+                    "Can you answer my question?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "answer",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "✅",
+        "form": "noun",
+        "plural": "answers",
+        "definitions": [
+            {
+                "text": "Something that you say or write when someone asks you a question.",
+                "examples": [
+                    "That is the correct answer."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "page",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "📄",
+        "form": "noun",
+        "plural": "pages",
+        "definitions": [
+            {
+                "text": "One side of a sheet of paper in a book or magazine.",
+                "examples": [
+                    "The answer is on page five."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "basketball",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏀",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A game where two teams try to throw a ball through a high net.",
+                "examples": [
+                    "He plays basketball every Wednesday."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "baseball",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "⚾",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A game played with a bat and ball by two teams of nine players.",
+                "examples": [
+                    "Baseball is popular in the USA."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bat",
+        "level": "starter",
+        "theme": "sports_equipment_A1",
+        "emoji": "🏏",
+        "form": "noun",
+        "plural": "bats",
+        "definitions": [
+            {
+                "text": "A specially shaped piece of wood used for hitting the ball in games like baseball or cricket.",
+                "examples": [
+                    "He is holding a baseball bat."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "scooter",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🛴",
+        "form": "noun",
+        "plural": "scooters",
+        "definitions": [
+            {
+                "text": "A small vehicle with two wheels and a long handle.",
+                "examples": [
+                    "The boy is riding his scooter."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "motorbike",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🏍️",
+        "form": "noun",
+        "plural": "motorbikes",
+        "definitions": [
+            {
+                "text": "A vehicle with two wheels and an engine.",
+                "examples": [
+                    "He goes to work on his motorbike."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "truck",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚚",
+        "form": "noun",
+        "plural": "trucks",
+        "subtext": "lorry",
+        "definitions": [
+            {
+                "text": "A large, heavy vehicle with wheels used for carrying goods.",
+                "examples": [
+                    "The truck is carrying food to the supermarket."
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";
