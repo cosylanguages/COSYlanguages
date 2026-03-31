@@ -1,44 +1,6 @@
 (function() {
     const data = [
-    {
-        "word": "beautiful",
-        "level": "elementary",
-        "theme": "physical_appearance_A1",
-        "form": "adjective",
-        "emoji": "✨",
-        "opposite": "ugly",
-        "definitions": [
-            {
-                "text": "Pleasing the senses or mind aesthetically.",
-                "examples": [
-                    "The view from the top of the mountain was absolutely beautiful."
-                ]
-            }
-        ],
-        "subtext": "absolutely beautiful / a beautiful day / beautiful view",
-        "comparative": "more beautiful",
-        "superlative": "the most beautiful"
-    },
-    {
-        "word": "strong",
-        "level": "elementary",
-        "theme": "physical_appearance_A1",
-        "form": "adjective",
-        "emoji": "💪",
-        "opposite": "weak",
-        "definitions": [
-            {
-                "text": "Having the power to move heavy weights or perform other physically demanding tasks.",
-                "examples": [
-                    "He is a strong swimmer and can cross the lake easily."
-                ]
-            }
-        ],
-        "subtext": "strong muscles / very strong / strong enough",
-        "comparative": "stronger",
-        "superlative": "the strongest"
-    },
-    {
+{
         "word": "blonde",
         "level": "elementary",
         "theme": "physical_appearance_A1",
@@ -57,7 +19,7 @@
         "comparative": "blonder",
         "superlative": "the blondest"
     },
-    {
+{
         "word": "snowy",
         "level": "elementary",
         "theme": "weather_climate_A2",
@@ -76,7 +38,7 @@
         "superlative": "the snowiest",
         "opposite": "clear"
     },
-    {
+{
         "word": "windy",
         "level": "elementary",
         "theme": "weather_climate_A2",
@@ -95,7 +57,7 @@
         "superlative": "the windiest",
         "opposite": "calm"
     },
-    {
+{
         "word": "cloudy",
         "level": "elementary",
         "theme": "weather_climate_A2",
@@ -114,7 +76,7 @@
         "superlative": "the cloudiest",
         "opposite": "clear"
     },
-    {
+{
         "word": "athletic",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -133,26 +95,7 @@
         "comparative": "more athletic",
         "superlative": "the most athletic"
     },
-    {
-        "word": "fit",
-        "level": "elementary",
-        "theme": "exercise_fitness_A2",
-        "emoji": "💪",
-        "form": "adjective",
-        "opposite": "unfit",
-        "definitions": [
-            {
-                "text": "In good physical condition.",
-                "examples": [
-                    "He stays fit by going to the gym three times a week."
-                ]
-            }
-        ],
-        "subtext": "physically fit / very fit / stay fit",
-        "comparative": "fitter",
-        "superlative": "the fittest"
-    },
-    {
+{
         "word": "overweight",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -171,7 +114,7 @@
         "comparative": "more overweight",
         "superlative": "the most overweight"
     },
-    {
+{
         "word": "convenient",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -190,7 +133,7 @@
         "comparative": "more convenient",
         "superlative": "the most convenient"
     },
-    {
+{
         "word": "stressful",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -209,7 +152,7 @@
         "comparative": "more stressful",
         "superlative": "the most stressful"
     },
-    {
+{
         "word": "comfortable",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -228,7 +171,7 @@
         "comparative": "more comfortable",
         "superlative": "the most comfortable"
     },
-    {
+{
         "word": "practical",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -247,45 +190,7 @@
         "comparative": "more practical",
         "superlative": "the most practical"
     },
-    {
-        "word": "popular",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
-        "emoji": "🌟",
-        "form": "adjective",
-        "opposite": "unpopular",
-        "definitions": [
-            {
-                "text": "Liked or enjoyed by many people.",
-                "examples": [
-                    "This restaurant is very popular."
-                ]
-            }
-        ],
-        "subtext": "very popular / popular choice / a popular person",
-        "comparative": "more popular",
-        "superlative": "the most popular"
-    },
-    {
-        "word": "busy",
-        "level": "elementary",
-        "theme": "career_development_A2",
-        "emoji": "🏃",
-        "form": "adjective",
-        "opposite": "quiet",
-        "definitions": [
-            {
-                "text": "Having a lot of work or activity.",
-                "examples": [
-                    "She has a busy schedule this week with three client visits."
-                ]
-            }
-        ],
-        "subtext": "very busy / a busy day / too busy to talk",
-        "comparative": "busier",
-        "superlative": "the busiest"
-    },
-    {
+{
         "word": "flexible",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -304,7 +209,7 @@
         "comparative": "more flexible",
         "superlative": "the most flexible"
     },
-    {
+{
         "word": "organised",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -323,7 +228,7 @@
         "comparative": "more organised",
         "superlative": "the most organised"
     },
-    {
+{
         "word": "professional",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -342,7 +247,7 @@
         "comparative": "more professional",
         "superlative": "the most professional"
     },
-    {
+{
         "word": "responsible",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -361,7 +266,7 @@
         "comparative": "more responsible",
         "superlative": "the most responsible"
     },
-    {
+{
         "word": "experienced",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -380,7 +285,7 @@
         "comparative": "more experienced",
         "superlative": "the most experienced"
     },
-    {
+{
         "word": "qualified",
         "level": "elementary",
         "theme": "qualifications_exams_A2",
@@ -399,7 +304,7 @@
         "comparative": "more qualified",
         "superlative": "the most qualified"
     },
-    {
+{
         "word": "available",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -418,7 +323,7 @@
         "comparative": "more available",
         "superlative": "the most available"
     },
-    {
+{
         "word": "successful",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -437,7 +342,7 @@
         "comparative": "more successful",
         "superlative": "the most successful"
     },
-    {
+{
         "word": "ambitious",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -456,7 +361,7 @@
         "comparative": "more ambitious",
         "superlative": "the most ambitious"
     },
-    {
+{
         "word": "creative",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -475,7 +380,7 @@
         "comparative": "more creative",
         "superlative": "the most creative"
     },
-    {
+{
         "word": "productive",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -494,7 +399,7 @@
         "comparative": "more productive",
         "superlative": "the most productive"
     },
-    {
+{
         "word": "reliable",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -513,7 +418,7 @@
         "comparative": "more reliable",
         "superlative": "the most reliable"
     },
-    {
+{
         "word": "independent",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -532,45 +437,7 @@
         "comparative": "more independent",
         "superlative": "the most independent"
     },
-    {
-        "word": "cheap",
-        "level": "elementary",
-        "theme": "finances_A2",
-        "emoji": "🏷️",
-        "form": "adjective",
-        "opposite": "expensive",
-        "definitions": [
-            {
-                "text": "Low in price; not expensive.",
-                "examples": [
-                    "This solution is much cheaper than hiring extra staff."
-                ]
-            }
-        ],
-        "subtext": "very cheap / cheap option / cheap and easy",
-        "comparative": "cheaper",
-        "superlative": "the cheapest"
-    },
-    {
-        "word": "expensive",
-        "level": "elementary",
-        "theme": "finances_A2",
-        "emoji": "💎",
-        "form": "adjective",
-        "opposite": "cheap",
-        "definitions": [
-            {
-                "text": "High in price; costing a lot.",
-                "examples": [
-                    "The central office space is extremely expensive."
-                ]
-            }
-        ],
-        "subtext": "very expensive / expensive taste / too expensive",
-        "comparative": "more expensive",
-        "superlative": "the most expensive"
-    },
-    {
+{
         "word": "affordable",
         "level": "elementary",
         "theme": "finances_A2",
@@ -589,7 +456,7 @@
         "comparative": "more affordable",
         "superlative": "the most affordable"
     },
-    {
+{
         "word": "worth",
         "level": "elementary",
         "theme": "finances_A2",
@@ -608,26 +475,7 @@
         "comparative": null,
         "superlative": null
     },
-    {
-        "word": "free",
-        "level": "elementary",
-        "theme": "finances_A2",
-        "emoji": "🎁",
-        "form": "adjective",
-        "opposite": "expensive",
-        "definitions": [
-            {
-                "text": "Not costing any money.",
-                "examples": [
-                    "The parking is free for all employees."
-                ]
-            }
-        ],
-        "subtext": "free of charge / completely free / free trial",
-        "comparative": "freer",
-        "superlative": "the freest"
-    },
-    {
+{
         "word": "broke",
         "level": "elementary",
         "theme": "finances_A2",
@@ -646,7 +494,7 @@
         "comparative": "more broke",
         "superlative": "the most broke"
     },
-    {
+{
         "word": "rich",
         "level": "elementary",
         "theme": "finances_A2",
@@ -665,7 +513,7 @@
         "comparative": "richer",
         "superlative": "the richest"
     },
-    {
+{
         "word": "poor",
         "level": "elementary",
         "theme": "finances_A2",
@@ -684,26 +532,7 @@
         "comparative": "poorer",
         "superlative": "the poorest"
     },
-    {
-        "word": "healthy",
-        "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
-        "emoji": "🍎",
-        "form": "adjective",
-        "opposite": "unhealthy",
-        "definitions": [
-            {
-                "text": "In good health; good for you.",
-                "examples": [
-                    "She follows a healthy lifestyle outside work."
-                ]
-            }
-        ],
-        "subtext": "healthy diet / very healthy / stay healthy",
-        "comparative": "healthier",
-        "superlative": "the healthiest"
-    },
-    {
+{
         "word": "unhealthy",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -722,26 +551,7 @@
         "comparative": "unhealthier",
         "superlative": "the unhealthiest"
     },
-    {
-        "word": "ill",
-        "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
-        "emoji": "🤒",
-        "form": "adjective",
-        "opposite": "well",
-        "definitions": [
-            {
-                "text": "Not well; suffering from sickness.",
-                "examples": [
-                    "She is ill and working from home this week."
-                ]
-            }
-        ],
-        "subtext": "seriously ill / fall ill / feel ill",
-        "comparative": "iller",
-        "superlative": "the illest"
-    },
-    {
+{
         "word": "sick",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -760,102 +570,7 @@
         "comparative": "sicker",
         "superlative": "the sickest"
     },
-    {
-        "word": "tired",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
-        "emoji": "😴",
-        "form": "adjective",
-        "opposite": "rested",
-        "definitions": [
-            {
-                "text": "Feeling the need to rest.",
-                "examples": [
-                    "I feel very tired after the long business trip."
-                ]
-            }
-        ],
-        "subtext": "feel tired / exhausted and tired / too tired",
-        "comparative": "tireder",
-        "superlative": "the tiredest"
-    },
-    {
-        "word": "stressed",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
-        "emoji": "😫",
-        "form": "adjective",
-        "opposite": "relaxed",
-        "definitions": [
-            {
-                "text": "Feeling worried and tense.",
-                "examples": [
-                    "She feels stressed about the upcoming presentation."
-                ]
-            }
-        ],
-        "subtext": "feel stressed / very stressed / completely stressed",
-        "comparative": "more stressed",
-        "superlative": "the most stressed"
-    },
-    {
-        "word": "friendly",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
-        "emoji": "👋",
-        "form": "adjective",
-        "opposite": "unfriendly",
-        "definitions": [
-            {
-                "text": "Kind, pleasant and easy to talk to.",
-                "examples": [
-                    "All the staff in this office are very friendly."
-                ]
-            }
-        ],
-        "subtext": "very friendly / a friendly atmosphere / friendly enough",
-        "comparative": "friendlier",
-        "superlative": "the friendliest"
-    },
-    {
-        "word": "kind",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
-        "emoji": "❤️",
-        "form": "adjective",
-        "opposite": "unkind",
-        "definitions": [
-            {
-                "text": "Generous and caring towards others.",
-                "examples": [
-                    "She is kind to everyone, even under pressure."
-                ]
-            }
-        ],
-        "subtext": "very kind / kind of you / a kind gesture",
-        "comparative": "kinder",
-        "superlative": "the kindest"
-    },
-    {
-        "word": "honest",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
-        "emoji": "⚖️",
-        "form": "adjective",
-        "opposite": "dishonest",
-        "definitions": [
-            {
-                "text": "Telling the truth; not deceiving people.",
-                "examples": [
-                    "He is completely honest with clients and colleagues."
-                ]
-            }
-        ],
-        "subtext": "brutally honest / very honest / completely honest",
-        "comparative": "more honest",
-        "superlative": "the most honest"
-    },
-    {
+{
         "word": "patient",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -874,26 +589,7 @@
         "comparative": "more patient",
         "superlative": "the most patient"
     },
-    {
-        "word": "polite",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
-        "emoji": "🙇",
-        "form": "adjective",
-        "opposite": "rude",
-        "definitions": [
-            {
-                "text": "Behaving with courtesy and respect.",
-                "examples": [
-                    "She is always polite, even in difficult conversations."
-                ]
-            }
-        ],
-        "subtext": "very polite / politely refuse / be polite",
-        "comparative": "politer",
-        "superlative": "the politest"
-    },
-    {
+{
         "word": "supportive",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -912,26 +608,7 @@
         "comparative": "more supportive",
         "superlative": "the most supportive"
     },
-    {
-        "word": "confident",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
-        "emoji": "✨",
-        "form": "adjective",
-        "opposite": "insecure",
-        "definitions": [
-            {
-                "text": "Sure of one's own ability.",
-                "examples": [
-                    "He presents with confidence and is very confident."
-                ]
-            }
-        ],
-        "subtext": "self-confident / very confident / feel confident",
-        "comparative": "more confident",
-        "superlative": "the most confident"
-    },
-    {
+{
         "word": "sociable",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -950,7 +627,7 @@
         "comparative": "more sociable",
         "superlative": "the most sociable"
     },
-    {
+{
         "word": "modern",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -969,7 +646,7 @@
         "comparative": "more modern",
         "superlative": "the most modern"
     },
-    {
+{
         "word": "traditional",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -988,7 +665,7 @@
         "comparative": "more traditional",
         "superlative": "the most traditional"
     },
-    {
+{
         "word": "local",
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
@@ -1007,7 +684,7 @@
         "comparative": "more local",
         "superlative": "the most local"
     },
-    {
+{
         "word": "international",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1026,45 +703,7 @@
         "comparative": "more international",
         "superlative": "the most international"
     },
-    {
-        "word": "interesting",
-        "level": "elementary",
-        "theme": "condition_state_A2",
-        "emoji": "💡",
-        "form": "adjective",
-        "opposite": "boring",
-        "definitions": [
-            {
-                "text": "Attracting attention; worth knowing about.",
-                "examples": [
-                    "The conference session on AI was very interesting."
-                ]
-            }
-        ],
-        "subtext": "very interesting / find interesting / an interesting point",
-        "comparative": "more interesting",
-        "superlative": "the most interesting"
-    },
-    {
-        "word": "boring",
-        "level": "elementary",
-        "theme": "condition_state_A2",
-        "emoji": "💤",
-        "form": "adjective",
-        "opposite": "interesting",
-        "definitions": [
-            {
-                "text": "Not interesting; dull.",
-                "examples": [
-                    "The compliance training was very boring."
-                ]
-            }
-        ],
-        "subtext": "very boring / a boring meeting / find boring",
-        "comparative": "more boring",
-        "superlative": "the most boring"
-    },
-    {
+{
         "word": "strange",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -1083,7 +722,7 @@
         "comparative": "stranger",
         "superlative": "the strangest"
     },
-    {
+{
         "word": "normal",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -1102,7 +741,7 @@
         "comparative": "more normal",
         "superlative": "the most normal"
     },
-    {
+{
         "word": "typical",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -1121,7 +760,7 @@
         "comparative": "more typical",
         "superlative": "the most typical"
     },
-    {
+{
         "word": "common",
         "level": "elementary",
         "theme": "quantity_degree_A2",
@@ -1140,7 +779,7 @@
         "comparative": "commoner",
         "superlative": "the commonest"
     },
-    {
+{
         "word": "rare",
         "level": "elementary",
         "theme": "quantity_degree_A2",
@@ -1159,7 +798,7 @@
         "comparative": "rarer",
         "superlative": "the rarest"
     },
-    {
+{
         "word": "certain",
         "level": "elementary",
         "theme": "comparison_A2",
@@ -1178,7 +817,7 @@
         "comparative": "more certain",
         "superlative": "the most certain"
     },
-    {
+{
         "word": "clear",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -1197,26 +836,7 @@
         "comparative": "clearer",
         "superlative": "the clearest"
     },
-    {
-        "word": "difficult",
-        "level": "elementary",
-        "theme": "condition_state_A2",
-        "emoji": "🧩",
-        "form": "adjective",
-        "opposite": "easy",
-        "definitions": [
-            {
-                "text": "Not easy; requiring effort or skill.",
-                "examples": [
-                    "The negotiation was very difficult."
-                ]
-            }
-        ],
-        "subtext": "very difficult / find difficult / difficult to understand",
-        "comparative": "more difficult",
-        "superlative": "the most difficult"
-    },
-    {
+{
         "word": "simple",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -1235,7 +855,7 @@
         "comparative": "simpler",
         "superlative": "the simplest"
     },
-    {
+{
         "word": "complicated",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -1254,7 +874,7 @@
         "comparative": "more complicated",
         "superlative": "the most complicated"
     },
-    {
+{
         "word": "serious",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -1273,26 +893,7 @@
         "comparative": "more serious",
         "superlative": "the most serious"
     },
-    {
-        "word": "funny",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
-        "emoji": "😂",
-        "form": "adjective",
-        "opposite": "serious",
-        "definitions": [
-            {
-                "text": "Making you laugh; humorous.",
-                "examples": [
-                    "The client shared a funny story to break the ice."
-                ]
-            }
-        ],
-        "subtext": "very funny / a funny situation / find funny",
-        "comparative": "funnier",
-        "superlative": "the funniest"
-    },
-    {
+{
         "word": "direct",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -1311,7 +912,7 @@
         "comparative": "more direct",
         "superlative": "the most direct"
     },
-    {
+{
         "word": "daily",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -1330,7 +931,7 @@
         "comparative": null,
         "superlative": null
     },
-    {
+{
         "word": "regular",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -1349,7 +950,7 @@
         "comparative": "more regular",
         "superlative": "the most regular"
     },
-    {
+{
         "word": "recent",
         "level": "elementary",
         "theme": "past_time_A2",
@@ -1368,7 +969,7 @@
         "comparative": "more recent",
         "superlative": "the most recent"
     },
-    {
+{
         "word": "current",
         "level": "elementary",
         "theme": "sequence_order_A2",
@@ -1387,7 +988,7 @@
         "comparative": null,
         "superlative": null
     },
-    {
+{
         "word": "future",
         "level": "elementary",
         "theme": "future_time_A2",
@@ -1406,7 +1007,7 @@
         "comparative": null,
         "superlative": null
     },
-    {
+{
         "word": "previous",
         "level": "elementary",
         "theme": "past_time_A2",
@@ -1424,6 +1025,254 @@
         "subtext": "previous job / previous employer / previous experience",
         "comparative": null,
         "superlative": null
+    },
+{
+        "word": "slim",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "slim chance / slim build / keep slim",
+        "definitions": [{"text": "Thin in an attractive way.", "examples": ["She has a slim figure."]}],
+        "examples": [],
+        "comparative": "slimmer",
+        "superlative": "the slimmest"
+    },
+{
+        "word": "wide",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "wide range / wide open / wide selection",
+        "definitions": [{"text": "Measuring a large distance from side to side.", "examples": ["The river is very wide at this point."]}],
+        "examples": [],
+        "comparative": "wider",
+        "superlative": "the widest"
+    },
+{
+        "word": "narrow",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "narrow street / narrow escape / narrow-minded",
+        "definitions": [{"text": "Measuring a small distance from side to side.", "examples": ["The streets in the old town are very narrow."]}],
+        "examples": [],
+        "comparative": "narrower",
+        "superlative": "the narrowest"
+    },
+{
+        "word": "deep",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "deep water / deep breath / deep sleep",
+        "definitions": [{"text": "Going far down from the surface.", "examples": ["The water is quite deep here."]}],
+        "examples": [],
+        "comparative": "deeper",
+        "superlative": "the deepest"
+    },
+{
+        "word": "shallow",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "shallow water / shallow breathing / shallow person",
+        "definitions": [{"text": "Not deep; having a small distance from top to bottom.", "examples": ["The children were playing in the shallow end of the pool."]}],
+        "examples": [],
+        "comparative": "shallower",
+        "superlative": "the shallowest"
+    },
+{
+        "word": "sharp",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "sharp knife / sharp pain / sharp turn",
+        "definitions": [{"text": "Having an edge or point that can cut or pierce.", "examples": ["Be careful with that knife, it's very sharp."]}],
+        "examples": [],
+        "comparative": "sharper",
+        "superlative": "the sharpest"
+    },
+{
+        "word": "blunt",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "blunt tool / blunt knife / blunt remark",
+        "definitions": [{"text": "Not sharp; having a thick or rounded edge.", "examples": ["This pencil is blunt, I need to sharpen it."]}],
+        "examples": [],
+        "comparative": "blunter",
+        "superlative": "the bluntest"
+    },
+{
+        "word": "smooth",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "smooth surface / smooth transition / smooth skin",
+        "definitions": [{"text": "Having an even and regular surface; free from bumps.", "examples": ["The stone was smooth and cold."]}],
+        "examples": [],
+        "comparative": "smoother",
+        "superlative": "the smoothest"
+    },
+{
+        "word": "rough",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "rough surface / rough weather / rough estimate",
+        "definitions": [{"text": "Having an uneven or irregular surface; not smooth.", "examples": ["The bark of the tree was rough to the touch."]}],
+        "examples": [],
+        "comparative": "rougher",
+        "superlative": "the roughest"
+    },
+{
+        "word": "flat",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "flat surface / flat tire / flat screen",
+        "definitions": [{"text": "Level and even; without raised areas or indentations.", "examples": ["The earth is not flat."]}],
+        "examples": [],
+        "comparative": "flatter",
+        "superlative": "the flattest"
+    },
+{
+        "word": "curly",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "curly hair / curly kale / curly tail",
+        "definitions": [{"text": "Having a twisted or spiral shape.", "examples": ["She has beautiful curly hair."]}],
+        "examples": [],
+        "comparative": "curlier",
+        "superlative": "the curliest"
+    },
+{
+        "word": "straight",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "straight line / straight hair / go straight",
+        "definitions": [{"text": "Not curving or bending.", "examples": ["He has straight black hair."]}],
+        "examples": [],
+        "comparative": "straighter",
+        "superlative": "the straightest"
+    },
+{
+        "word": "tidy",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "tidy room / tidy desk / keep tidy",
+        "definitions": [{"text": "Arranged neatly and in order.", "examples": ["His room is always very tidy."]}],
+        "examples": [],
+        "comparative": "tidier",
+        "superlative": "the tidiest"
+    },
+{
+        "word": "untidy",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "untidy room / untidy appearance / feeling untidy",
+        "definitions": [{"text": "Not neat or well organized.", "examples": ["The house was a bit untidy after the party."]}],
+        "examples": [],
+        "comparative": "untidier",
+        "superlative": "the untidiest"
+    },
+{
+        "word": "helpful",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "helpful advice / helpful person / very helpful",
+        "definitions": [{"text": "Giving or ready to give help.", "examples": ["The staff were very friendly and helpful."]}],
+        "examples": [],
+        "comparative": "more helpful",
+        "superlative": "the most helpful"
+    },
+{
+        "word": "bossy",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "bossy older sister / stop being bossy / bossy attitude",
+        "definitions": [{"text": "Fond of giving people orders; domineering.", "examples": ["She's a bit bossy and always tells us what to do."]}],
+        "examples": [],
+        "comparative": "bossier",
+        "superlative": "the bossiest"
+    },
+{
+        "word": "moody",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "moody teenager / feeling moody / moody weather",
+        "definitions": [{"text": "Given to unpredictable changes of mood.", "examples": ["He's a bit moody, so I never know how he'll react."]}],
+        "examples": [],
+        "comparative": "moodier",
+        "superlative": "the moodiest"
+    },
+{
+        "word": "shy",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "shy child / feel shy / shy smile",
+        "definitions": [{"text": "Nervous or timid in the company of other people.", "examples": ["He was too shy to ask her for a dance."]}],
+        "examples": [],
+        "comparative": "shyer",
+        "superlative": "the shyest"
+    },
+{
+        "word": "outgoing",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "subtext": "outgoing personality / very outgoing / sociable and outgoing",
+        "definitions": [{"text": "Friendly and socially confident.", "examples": ["She's very outgoing and makes friends easily."]}],
+        "examples": [],
+        "comparative": "more outgoing",
+        "superlative": "the most outgoing"
+    },
+{
+        "word": "active",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Busy with or ready for work or action.",
+                "examples": [
+                    "He is still very active despite his age."
+                ]
+            }
+        ],
+        "subtext": "physically active / active life / active participant",
+        "comparative": "more active",
+        "superlative": "the most active"
+    },
+{
+        "word": "energetic",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having or involving a lot of energy.",
+                "examples": [
+                    "She is a very energetic person who loves sports."
+                ]
+            }
+        ],
+        "subtext": "energetic performance / energetic child / feeling energetic",
+        "comparative": "more energetic",
+        "superlative": "the most energetic"
     }
 ];
+    const lang = "en";
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

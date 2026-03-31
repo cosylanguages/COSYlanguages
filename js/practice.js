@@ -1222,7 +1222,7 @@ function expandGrammarItems(items, lang) {
                             ...item,
                             type: 'type-cl',
                             primaryPrompt: `${ctx.noun} ${ctx.verb}`.trim(),
-                            secondaryContext: `(${item.word})`,
+                            secondaryContext: 'agreement',
                             clozeText: `${ctx.noun} ${ctx.verb} ____ (${item.word})`.trim().replace(/\s+/g, ' '),
                             answer: answer,
                             theme: 'grammar_adjectives',
@@ -1765,7 +1765,7 @@ function showNextWord() {
     if (wtdEl) {
         const lang = currentPractice.language;
         let typeKey = (wordObj.subTheme === 'grammar_comparative_superlative' || wordObj.theme === 'grammar_comparative_superlative') ? 'ac' :
-                      (wordObj.subTheme === 'grammar_adjective_agreement' || wordObj.theme === 'grammar_adjective_agreement') ? 'aa' :
+                      (wordObj.subTheme === 'grammar_adjective_agreement' || wordObj.theme === 'grammar_adjective_agreement' || wordObj.secondaryContext === 'agreement') ? 'aa' :
                       wordObj.secondaryContext === 'reg_vs_irregular' ? 'ri' :
                       wordObj.secondaryContext === 'stative_vs_action' ? 'vs' :
                       wordObj.form === 'verb_form' ? 'vf' :
@@ -1798,7 +1798,7 @@ function showNextWord() {
         let typeKey = "";
         if (wordObj.subTheme === 'grammar_comparative_superlative' || wordObj.theme === 'grammar_comparative_superlative') {
             typeKey = 'ac';
-        } else if (wordObj.subTheme === 'grammar_adjective_agreement' || wordObj.theme === 'grammar_adjective_agreement') {
+        } else if (wordObj.subTheme === 'grammar_adjective_agreement' || wordObj.theme === 'grammar_adjective_agreement' || wordObj.secondaryContext === 'agreement') {
             typeKey = 'aa';
         } else if (wordObj.form === 'verb_form') {
             typeKey = 'vf';

@@ -4,11 +4,13 @@
         "word": "красивый",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective",
         "emoji": "✨",
+        "form": "adjective",
         "feminine": "красивая",
         "neuter": "красивое",
         "plural": "красивые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более красивый",
         "superlative": "самый красивый"
     },
@@ -16,11 +18,13 @@
         "word": "сильный",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective",
         "emoji": "💪",
+        "form": "adjective",
         "feminine": "сильная",
         "neuter": "сильное",
         "plural": "сильные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более сильный",
         "superlative": "самый сильный"
     },
@@ -28,11 +32,13 @@
         "word": "блондин",
         "level": "elementary",
         "theme": "physical_appearance_A1",
-        "form": "adjective",
         "emoji": "👱",
+        "form": "adjective",
         "feminine": "блондинка",
         "neuter": "блондин",
         "plural": "блондины",
+        "definitions": [],
+        "examples": [],
         "comparative": "более блондин",
         "superlative": "самый блондин"
     },
@@ -45,6 +51,8 @@
         "feminine": "снежная",
         "neuter": "снежное",
         "plural": "снежные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более снежный",
         "superlative": "самый снежный"
     },
@@ -57,6 +65,8 @@
         "feminine": "ветреная",
         "neuter": "ветреное",
         "plural": "ветреные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более ветреный",
         "superlative": "самый ветреный"
     },
@@ -69,6 +79,8 @@
         "feminine": "облачная",
         "neuter": "облачное",
         "plural": "облачные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более облачный",
         "superlative": "самый облачный"
     },
@@ -76,11 +88,13 @@
         "word": "атлетичный",
         "level": "elementary",
         "theme": "personal_qualities_A2",
-        "form": "adjective",
         "emoji": "🏃",
+        "form": "adjective",
         "feminine": "атлетичная",
         "neuter": "атлетичное",
         "plural": "атлетичные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более атлетичный",
         "superlative": "самый атлетичный"
     },
@@ -93,6 +107,8 @@
         "feminine": "в форме",
         "neuter": "в форме",
         "plural": "в форме",
+        "definitions": [],
+        "examples": [],
         "comparative": "более в форме",
         "superlative": "самый в форме"
     },
@@ -105,6 +121,8 @@
         "feminine": "с лишним весом",
         "neuter": "с лишним весом",
         "plural": "с лишним весом",
+        "definitions": [],
+        "examples": [],
         "comparative": "более с лишним весом",
         "superlative": "самый с лишним весом"
     },
@@ -117,6 +135,8 @@
         "feminine": "удобная",
         "neuter": "удобное",
         "plural": "удобные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более удобный",
         "superlative": "самый удобный"
     },
@@ -129,6 +149,8 @@
         "feminine": "стрессовая",
         "neuter": "стрессовое",
         "plural": "стрессовые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более стрессовый",
         "superlative": "самый стрессовый"
     },
@@ -141,6 +163,8 @@
         "feminine": "комфортная",
         "neuter": "комфортное",
         "plural": "комфортные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более комфортный",
         "superlative": "самый комфортный"
     },
@@ -153,6 +177,8 @@
         "feminine": "практичная",
         "neuter": "практичное",
         "plural": "практичные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более практичный",
         "superlative": "самый практичный"
     },
@@ -165,6 +191,8 @@
         "feminine": "популярная",
         "neuter": "популярное",
         "plural": "популярные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более популярный",
         "superlative": "самый популярный"
     },
@@ -177,6 +205,8 @@
         "feminine": "занятая",
         "neuter": "занятое",
         "plural": "занятые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более занятый",
         "superlative": "самый занятый"
     },
@@ -189,6 +219,8 @@
         "feminine": "гибкая",
         "neuter": "гибкое",
         "plural": "гибкие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более гибкий",
         "superlative": "самый гибкий"
     },
@@ -201,6 +233,8 @@
         "feminine": "организованная",
         "neuter": "организованное",
         "plural": "организованные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более организованный",
         "superlative": "самый организованный"
     },
@@ -213,6 +247,8 @@
         "feminine": "профессиональная",
         "neuter": "профессиональное",
         "plural": "профессиональные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более профессиональный",
         "superlative": "самый профессиональный"
     },
@@ -225,6 +261,8 @@
         "feminine": "ответственная",
         "neuter": "ответственное",
         "plural": "ответственные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более ответственный",
         "superlative": "самый ответственный"
     },
@@ -237,6 +275,8 @@
         "feminine": "опытная",
         "neuter": "опытное",
         "plural": "опытные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более опытный",
         "superlative": "самый опытный"
     },
@@ -249,6 +289,8 @@
         "feminine": "квалифицированная",
         "neuter": "квалифицированное",
         "plural": "квалифицированные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более квалифицированный",
         "superlative": "самый квалифицированный"
     },
@@ -261,6 +303,8 @@
         "feminine": "доступная",
         "neuter": "доступное",
         "plural": "доступные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более доступный",
         "superlative": "самый доступный"
     },
@@ -273,6 +317,8 @@
         "feminine": "успешная",
         "neuter": "успешное",
         "plural": "успешные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более успешный",
         "superlative": "самый успешный"
     },
@@ -285,6 +331,8 @@
         "feminine": "амбициозная",
         "neuter": "амбициозное",
         "plural": "амбициозные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более амбициозный",
         "superlative": "самый амбициозный"
     },
@@ -297,6 +345,8 @@
         "feminine": "творческая",
         "neuter": "творческое",
         "plural": "творческие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более творческий",
         "superlative": "самый творческий"
     },
@@ -309,6 +359,8 @@
         "feminine": "продуктивная",
         "neuter": "продуктивное",
         "plural": "продуктивные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более продуктивный",
         "superlative": "самый продуктивный"
     },
@@ -321,6 +373,8 @@
         "feminine": "надежная",
         "neuter": "надежное",
         "plural": "надежные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более надежный",
         "superlative": "самый надежный"
     },
@@ -333,6 +387,8 @@
         "feminine": "независимая",
         "neuter": "независимое",
         "plural": "независимые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более независимый",
         "superlative": "самый независимый"
     },
@@ -345,6 +401,8 @@
         "feminine": "дешевая",
         "neuter": "дешевое",
         "plural": "дешевые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более дешевый",
         "superlative": "самый дешевый"
     },
@@ -357,6 +415,8 @@
         "feminine": "дорогая",
         "neuter": "дорогое",
         "plural": "дорогие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более дорогой",
         "superlative": "самый дорогой"
     },
@@ -369,6 +429,8 @@
         "feminine": "доступная по цене",
         "neuter": "доступное по цене",
         "plural": "доступные по цене",
+        "definitions": [],
+        "examples": [],
         "comparative": "более доступный по цене",
         "superlative": "самый доступный по цене"
     },
@@ -381,6 +443,8 @@
         "feminine": "стоит",
         "neuter": "стоит",
         "plural": "стоит",
+        "definitions": [],
+        "examples": [],
         "comparative": "более стоит",
         "superlative": "самый стоит"
     },
@@ -393,6 +457,8 @@
         "feminine": "бесплатная",
         "neuter": "бесплатное",
         "plural": "бесплатные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более бесплатный",
         "superlative": "самый бесплатный"
     },
@@ -405,6 +471,8 @@
         "feminine": "на мели",
         "neuter": "на мели",
         "plural": "на мели",
+        "definitions": [],
+        "examples": [],
         "comparative": "более на мели",
         "superlative": "самый на мели"
     },
@@ -417,6 +485,8 @@
         "feminine": "богатая",
         "neuter": "богатое",
         "plural": "богатые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более богатый",
         "superlative": "самый богатый"
     },
@@ -429,6 +499,8 @@
         "feminine": "бедная",
         "neuter": "бедное",
         "plural": "бедные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более бедный",
         "superlative": "самый бедный"
     },
@@ -441,6 +513,8 @@
         "feminine": "здоровая",
         "neuter": "здоровое",
         "plural": "здоровые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более здоровый",
         "superlative": "самый здоровый"
     },
@@ -453,6 +527,8 @@
         "feminine": "нездоровая",
         "neuter": "нездоровое",
         "plural": "нездоровые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более нездоровый",
         "superlative": "самый нездоровый"
     },
@@ -465,6 +541,8 @@
         "feminine": "больная",
         "neuter": "больное",
         "plural": "больные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более больной",
         "superlative": "самый больной"
     },
@@ -477,6 +555,8 @@
         "feminine": "уставшая",
         "neuter": "уставшое",
         "plural": "уставшие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более уставший",
         "superlative": "самый уставший"
     },
@@ -489,6 +569,8 @@
         "feminine": "напряженная",
         "neuter": "напряженное",
         "plural": "напряженные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более напряженный",
         "superlative": "самый напряженный"
     },
@@ -501,6 +583,8 @@
         "feminine": "дружелюбная",
         "neuter": "дружелюбное",
         "plural": "дружелюбные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более дружелюбный",
         "superlative": "самый дружелюбный"
     },
@@ -513,6 +597,8 @@
         "feminine": "добрая",
         "neuter": "доброе",
         "plural": "добрые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более добрый",
         "superlative": "самый добрый"
     },
@@ -525,6 +611,8 @@
         "feminine": "честная",
         "neuter": "честное",
         "plural": "честные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более честный",
         "superlative": "самый честный"
     },
@@ -537,6 +625,8 @@
         "feminine": "терпеливая",
         "neuter": "терпеливое",
         "plural": "терпеливые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более терпеливый",
         "superlative": "самый терпеливый"
     },
@@ -549,6 +639,8 @@
         "feminine": "вежливая",
         "neuter": "вежливое",
         "plural": "вежливые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более вежливый",
         "superlative": "самый вежливый"
     },
@@ -561,6 +653,8 @@
         "feminine": "поддерживающая",
         "neuter": "поддерживающее",
         "plural": "поддерживающие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более поддерживающий",
         "superlative": "самый поддерживающий"
     },
@@ -573,6 +667,8 @@
         "feminine": "уверенная",
         "neuter": "уверенное",
         "plural": "уверенные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более уверенный",
         "superlative": "самый уверенный"
     },
@@ -585,6 +681,8 @@
         "feminine": "общительная",
         "neuter": "общительное",
         "plural": "общительные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более общительный",
         "superlative": "самый общительный"
     },
@@ -597,6 +695,8 @@
         "feminine": "современная",
         "neuter": "современное",
         "plural": "современные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более современный",
         "superlative": "самый современный"
     },
@@ -609,6 +709,8 @@
         "feminine": "традиционная",
         "neuter": "традиционное",
         "plural": "традиционные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более традиционный",
         "superlative": "самый традиционный"
     },
@@ -621,6 +723,8 @@
         "feminine": "местная",
         "neuter": "местное",
         "plural": "местные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более местный",
         "superlative": "самый местный"
     },
@@ -633,6 +737,8 @@
         "feminine": "международная",
         "neuter": "международное",
         "plural": "международные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более международный",
         "superlative": "самый международный"
     },
@@ -645,6 +751,8 @@
         "feminine": "интересная",
         "neuter": "интересное",
         "plural": "интересные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более интересный",
         "superlative": "самый интересный"
     },
@@ -657,6 +765,8 @@
         "feminine": "скучная",
         "neuter": "скучное",
         "plural": "скучные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более скучный",
         "superlative": "самый скучный"
     },
@@ -669,6 +779,8 @@
         "feminine": "странная",
         "neuter": "странное",
         "plural": "странные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более странный",
         "superlative": "самый странный"
     },
@@ -681,6 +793,8 @@
         "feminine": "нормальная",
         "neuter": "нормальное",
         "plural": "нормальные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более нормальный",
         "superlative": "самый нормальный"
     },
@@ -693,6 +807,8 @@
         "feminine": "типичная",
         "neuter": "типичное",
         "plural": "типичные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более типичный",
         "superlative": "самый типичный"
     },
@@ -705,6 +821,8 @@
         "feminine": "общая",
         "neuter": "общее",
         "plural": "общие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более общий",
         "superlative": "самый общий"
     },
@@ -717,6 +835,8 @@
         "feminine": "редкая",
         "neuter": "редкое",
         "plural": "редкие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более редкий",
         "superlative": "самый редкий"
     },
@@ -729,6 +849,8 @@
         "feminine": "определенная",
         "neuter": "определенное",
         "plural": "определенные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более определенный",
         "superlative": "самый определенный"
     },
@@ -741,6 +863,8 @@
         "feminine": "ясная",
         "neuter": "ясное",
         "plural": "ясные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более ясный",
         "superlative": "самый ясный"
     },
@@ -753,6 +877,8 @@
         "feminine": "трудная",
         "neuter": "трудное",
         "plural": "трудные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более трудный",
         "superlative": "самый трудный"
     },
@@ -765,6 +891,8 @@
         "feminine": "простая",
         "neuter": "простое",
         "plural": "простые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более простой",
         "superlative": "самый простой"
     },
@@ -777,6 +905,8 @@
         "feminine": "сложная",
         "neuter": "сложное",
         "plural": "сложные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более сложный",
         "superlative": "самый сложный"
     },
@@ -789,6 +919,8 @@
         "feminine": "серьезная",
         "neuter": "серьезное",
         "plural": "серьезные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более серьезный",
         "superlative": "самый серьезный"
     },
@@ -801,6 +933,8 @@
         "feminine": "смешная",
         "neuter": "смешное",
         "plural": "смешные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более смешной",
         "superlative": "самый смешной"
     },
@@ -813,6 +947,8 @@
         "feminine": "прямая",
         "neuter": "прямое",
         "plural": "прямые",
+        "definitions": [],
+        "examples": [],
         "comparative": "более прямой",
         "superlative": "самый прямой"
     },
@@ -825,6 +961,8 @@
         "feminine": "ежедневная",
         "neuter": "ежедневное",
         "plural": "ежедневные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более ежедневный",
         "superlative": "самый ежедневный"
     },
@@ -837,6 +975,8 @@
         "feminine": "регулярная",
         "neuter": "регулярное",
         "plural": "регулярные",
+        "definitions": [],
+        "examples": [],
         "comparative": "более регулярный",
         "superlative": "самый регулярный"
     },
@@ -849,6 +989,8 @@
         "feminine": "недавняя",
         "neuter": "недавнее",
         "plural": "недавние",
+        "definitions": [],
+        "examples": [],
         "comparative": "более недавний",
         "superlative": "самый недавний"
     },
@@ -861,6 +1003,8 @@
         "feminine": "текущая",
         "neuter": "текущее",
         "plural": "текущие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более текущий",
         "superlative": "самый текущий"
     },
@@ -873,6 +1017,8 @@
         "feminine": "будущая",
         "neuter": "будущее",
         "plural": "будущие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более будущий",
         "superlative": "самый будущий"
     },
@@ -885,8 +1031,28 @@
         "feminine": "предыдущая",
         "neuter": "предыдущее",
         "plural": "предыдущие",
+        "definitions": [],
+        "examples": [],
         "comparative": "более предыдущий",
         "superlative": "самый предыдущий"
+    },
+    {
+        "word": "энергичный",
+        "level": "elementary",
+        "theme": "describing_things_A2",
+        "form": "adjective",
+        "feminine": "энергичная",
+        "neuter": "энергичное",
+        "plural": "энергичные",
+        "definitions": [],
+        "examples": [],
+        "comparative": "энергичнее",
+        "superlative": "самый энергичный"
     }
 ];
+    const lang = "ru";
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
