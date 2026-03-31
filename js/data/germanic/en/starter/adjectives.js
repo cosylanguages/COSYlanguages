@@ -2905,6 +2905,458 @@
         ],
         "comparative": "bitterer",
         "superlative": "the bitterest"
+    },
+    {
+        "word": "fat",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🍔",
+        "form": "adjective",
+        "opposite": "thin",
+        "oppositeEmoji": "🥬",
+        "definitions": [
+            {
+                "text": "Having a lot of extra flesh on your body.",
+                "examples": [
+                    "The cat is fat because it eats a lot."
+                ]
+            }
+        ],
+        "comparative": "fatter",
+        "superlative": "the fattest"
+    },
+    {
+        "word": "thin",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🥬",
+        "form": "adjective",
+        "opposite": "fat",
+        "oppositeEmoji": "🍔",
+        "definitions": [
+            {
+                "text": "Having very little extra flesh on your body.",
+                "examples": [
+                    "He is very tall and thin."
+                ]
+            }
+        ],
+        "comparative": "thinner",
+        "superlative": "the thinnest"
+    },
+    {
+        "word": "curly",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🌀",
+        "form": "adjective",
+        "opposite": "straight",
+        "definitions": [
+            {
+                "text": "Having curls or a curved shape.",
+                "examples": [
+                    "She has curly brown hair."
+                ]
+            }
+        ],
+        "comparative": "curlier",
+        "superlative": "the curliest"
+    },
+    {
+        "word": "straight",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "opposite": "curly",
+        "definitions": [
+            {
+                "text": "Not curving or bending.",
+                "examples": [
+                    "He has straight black hair."
+                ]
+            }
+        ],
+        "comparative": "straighter",
+        "superlative": "the straightest"
+    },
+    {
+        "word": "triangular",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🔺",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Shaped like a triangle.",
+                "examples": [
+                    "The sign is triangular."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "rectangular",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "▭",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Shaped like a rectangle.",
+                "examples": [
+                    "We have a rectangular table in the kitchen."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "oval",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🥚",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Shaped like an egg.",
+                "examples": [
+                    "The mirror is oval."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "favourite",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⭐",
+        "form": "adjective",
+        "subtext": "favorite",
+        "definitions": [
+            {
+                "text": "The one that you like the most.",
+                "examples": [
+                    "What is your favourite colour?",
+                    "Pizza is my favourite food."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "dark",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🌑",
+        "form": "adjective",
+        "opposite": "bright",
+        "oppositeEmoji": "💡",
+        "definitions": [
+            {
+                "text": "With little or no light.",
+                "examples": [
+                    "It is dark outside.",
+                    "He has dark hair."
+                ]
+            }
+        ],
+        "comparative": "darker",
+        "superlative": "the darkest"
+    },
+    {
+        "word": "bright",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💡",
+        "form": "adjective",
+        "opposite": "dark",
+        "oppositeEmoji": "🌑",
+        "definitions": [
+            {
+                "text": "Full of light, or shining with much light.",
+                "examples": [
+                    "The sun is very bright today.",
+                    "She is wearing a bright yellow dress."
+                ]
+            }
+        ],
+        "comparative": "brighter",
+        "superlative": "the brightest"
+    },
+    {
+        "word": "gold",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟡",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having the color of gold.",
+                "examples": [
+                    "She has a gold watch."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "silver",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "⚪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having the color of silver.",
+                "examples": [
+                    "He has a silver car."
+                ]
+            }
+        ],
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "deep",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🕳️",
+        "form": "adjective",
+        "opposite": "shallow",
+        "definitions": [
+            {
+                "text": "Going a long way from the top or surface to the bottom.",
+                "examples": [
+                    "The river is very deep here."
+                ]
+            }
+        ],
+        "comparative": "deeper",
+        "superlative": "the deepest"
+    },
+    {
+        "word": "shallow",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📏",
+        "form": "adjective",
+        "opposite": "deep",
+        "definitions": [
+            {
+                "text": "Having only a short distance from the top to the bottom.",
+                "examples": [
+                    "The water is shallow, so we can walk across."
+                ]
+            }
+        ],
+        "comparative": "shallower",
+        "superlative": "the shallowest"
+    },
+    {
+        "word": "modern",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "opposite": "ancient",
+        "definitions": [
+            {
+                "text": "Designed and made using the most recent ideas and methods.",
+                "examples": [
+                    "They live in a modern house."
+                ]
+            }
+        ],
+        "comparative": "more modern",
+        "superlative": "the most modern"
+    },
+    {
+        "word": "ancient",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏛️",
+        "form": "adjective",
+        "opposite": "modern",
+        "definitions": [
+            {
+                "text": "From a long time ago; very old.",
+                "examples": [
+                    "We visited an ancient city in Greece."
+                ]
+            }
+        ],
+        "comparative": "more ancient",
+        "superlative": "the most ancient"
+    },
+    {
+        "word": "brave",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🦁",
+        "form": "adjective",
+        "opposite": "cowardly",
+        "definitions": [
+            {
+                "text": "Willing to do things that are dangerous, and does not show fear in difficult situations.",
+                "examples": [
+                    "The firefighter was very brave."
+                ]
+            }
+        ],
+        "comparative": "braver",
+        "superlative": "the bravest"
+    },
+    {
+        "word": "cowardly",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🐭",
+        "form": "adjective",
+        "opposite": "brave",
+        "definitions": [
+            {
+                "text": "Not brave.",
+                "examples": [
+                    "He was too cowardly to tell the truth."
+                ]
+            }
+        ],
+        "comparative": "more cowardly",
+        "superlative": "the most cowardly"
+    },
+    {
+        "word": "wide",
+        "level": "starter",
+        "theme": "size_measurements_A1",
+        "emoji": "↔️",
+        "form": "adjective",
+        "opposite": "narrow",
+        "definitions": [
+            {
+                "text": "Measuring a long distance from one side to the other.",
+                "examples": [
+                    "The river is very wide here."
+                ]
+            }
+        ],
+        "comparative": "wider",
+        "superlative": "the widest"
+    },
+    {
+        "word": "narrow",
+        "level": "starter",
+        "theme": "size_measurements_A1",
+        "emoji": "⬇️",
+        "form": "adjective",
+        "opposite": "wide",
+        "definitions": [
+            {
+                "text": "Measuring only a small distance from one side to the other.",
+                "examples": [
+                    "The path was too narrow for the car."
+                ]
+            }
+        ],
+        "comparative": "narrower",
+        "superlative": "the narrowest"
+    },
+    {
+        "word": "unfriendly",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "😠",
+        "form": "adjective",
+        "opposite": "friendly",
+        "definitions": [
+            {
+                "text": "Not friendly.",
+                "examples": [
+                    "The shop assistant was quite unfriendly."
+                ]
+            }
+        ],
+        "comparative": "unfriendlier",
+        "superlative": "the unfriendliest"
+    },
+    {
+        "word": "impatient",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "⌚",
+        "form": "adjective",
+        "opposite": "patient",
+        "definitions": [
+            {
+                "text": "Easily annoyed by someone's mistakes or because you have to wait.",
+                "examples": [
+                    "Don't be so impatient!"
+                ]
+            }
+        ],
+        "comparative": "more impatient",
+        "superlative": "the most impatient"
+    },
+    {
+        "word": "impolite",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "😛",
+        "form": "adjective",
+        "opposite": "polite",
+        "definitions": [
+            {
+                "text": "Not polite; rude.",
+                "examples": [
+                    "It is impolite to point at people."
+                ]
+            }
+        ],
+        "comparative": "more impolite",
+        "superlative": "the most impolite"
+    },
+    {
+        "word": "fake",
+        "level": "starter",
+        "theme": "material_objects_A1",
+        "emoji": "🎭",
+        "form": "adjective",
+        "opposite": "real",
+        "definitions": [
+            {
+                "text": "Not real, but made to look or seem real.",
+                "examples": [
+                    "He was wearing a fake beard."
+                ]
+            }
+        ],
+        "comparative": "more fake",
+        "superlative": "the most fake"
+    },
+    {
+        "word": "unlucky",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😿",
+        "form": "adjective",
+        "opposite": "lucky",
+        "definitions": [
+            {
+                "text": "Having or bringing bad luck.",
+                "examples": [
+                    "Thirteen is considered an unlucky number by some."
+                ]
+            }
+        ],
+        "comparative": "unluckier",
+        "superlative": "the unluckiest"
     }
 ];
     const lang = "en";

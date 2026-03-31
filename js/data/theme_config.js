@@ -68,6 +68,8 @@ const themeConfig = {
             "home_living": {
                 "rooms_of_a_home_A1": "Rooms of a home",
                 "furniture_objects_A1": "Furniture & objects",
+                "household_items_A1": "Household items",
+                "kitchen_items_A1": "Kitchen items",
                 "types_of_accommodation_A1": "Types of accommodation",
                 "household_tasks_A1": "Household tasks"
             },
@@ -92,6 +94,7 @@ const themeConfig = {
             "education_learning": {
                 "school_subjects_A1": "School subjects",
                 "classroom_language_A1": "Classroom language",
+                "school_stationery_A1": "School & stationery",
                 "types_of_education_A1": "Types of education",
                 "learning_studying_A1": "Learning & studying"
             },
@@ -114,6 +117,9 @@ const themeConfig = {
             "environment_nature": {
                 "weather_A1": "Weather",
                 "animals_A1": "Animals",
+                "pets_A1": "Pets",
+                "sea_animals_A1": "Sea animals",
+                "insects_A1": "Insects",
                 "plants_natural_world_A1": "Plants & natural world",
                 "seasons_climate_A1": "Seasons & climate",
                 "nature_landscapes_A1": "Nature & landscapes"
@@ -126,7 +132,9 @@ const themeConfig = {
                 "common_sports_A1": "Common sports",
                 "sports_equipment_A1": "Sports equipment",
                 "playing_watching_sport_A1": "Playing & watching sport",
-                "leisure_activities_A1": "Leisure activities"
+                "leisure_activities_A1": "Leisure activities",
+                "toys_games_A1": "Toys & games",
+                "hobbies_interests_A1": "Hobbies & interests"
             },
             "feelings_emotions": {
                 "basic_positive_emotions_A1": "Basic positive emotions",
@@ -143,10 +151,12 @@ const themeConfig = {
             "describing_things": {
                 "colours_patterns_A1": "Colours & patterns",
                 "size_shape_A1": "Size & shape",
+                "shapes_A1": "Shapes",
                 "describing_things_A1": "Describing things"
             },
             "culture_arts": {
                 "music_A1": "Music",
+                "musical_instruments_A1": "Musical instruments",
                 "cinema_film_A1": "Cinema & film",
                 "books_reading_A1": "Books & reading",
                 "places_culture_leisure_A1": "Places of culture & leisure"

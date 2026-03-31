@@ -3803,6 +3803,468 @@
         "v2": "sounded",
         "v3": "sounded",
         "group": "regular"
+    },
+    {
+        "word": "spell",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🔤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say or write the letters of a word in the correct order.",
+                "examples": [
+                    "How do you spell your name?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "spelled / spelt",
+        "v3": "spelled / spelt",
+        "group": "irregular"
+    },
+    {
+        "word": "point",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "☝️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To show something by holding out your finger towards it.",
+                "examples": [
+                    "Point to the window.",
+                    "He pointed at the map."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "pointed",
+        "v3": "pointed",
+        "group": "regular"
+    },
+    {
+        "word": "shout",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "📢",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say something very loudly.",
+                "examples": [
+                    "Don't shout in the classroom."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "shouted",
+        "v3": "shouted",
+        "group": "regular"
+    },
+    {
+        "word": "wave",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👋",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move your hand from side to side in the air to say hello or goodbye.",
+                "examples": [
+                    "Wave goodbye to your friend."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "waved",
+        "v3": "waved",
+        "group": "regular"
+    },
+    {
+        "word": "kick",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🦶",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To hit something with your foot.",
+                "examples": [
+                    "Kick the ball!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "kicked",
+        "v3": "kicked",
+        "group": "regular"
+    },
+    {
+        "word": "throw",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "⚾",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something move through the air by pushing it out of your hand.",
+                "examples": [
+                    "Can you throw the ball to me?"
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "threw",
+        "v3": "thrown",
+        "group": "irregular"
+    },
+    {
+        "word": "bounce",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "emoji": "🏀",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move up or away after hitting a surface.",
+                "examples": [
+                    "The ball is bouncing."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "bounced",
+        "v3": "bounced",
+        "group": "regular"
+    },
+    {
+        "word": "paint",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🎨",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a picture using paint.",
+                "examples": [
+                    "I like to paint flowers."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "painted",
+        "v3": "painted",
+        "group": "regular"
+    },
+    {
+        "word": "hop",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🐇",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To jump on one foot.",
+                "examples": [
+                    "Can you hop like a rabbit?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "hopped",
+        "v3": "hopped",
+        "group": "regular"
+    },
+    {
+        "word": "skip",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏃",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move along by jumping from one foot to the other.",
+                "examples": [
+                    "The children are skipping in the playground."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "skipped",
+        "v3": "skipped",
+        "group": "regular"
+    },
+    {
+        "word": "count",
+        "level": "starter",
+        "theme": "numbers_0_9_A1",
+        "emoji": "🔢",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To say numbers in order.",
+                "examples": [
+                    "Can you count from one to ten?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "counted",
+        "v3": "counted",
+        "group": "regular"
+    },
+    {
+        "word": "tick",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "✅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put a mark (✓) next to something to show it is correct.",
+                "examples": [
+                    "Tick the correct answer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "ticked",
+        "v3": "ticked",
+        "group": "regular"
+    },
+    {
+        "word": "cross",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "❌",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put a mark (X) next to something to show it is wrong.",
+                "examples": [
+                    "Cross the wrong answer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "crossed",
+        "v3": "crossed",
+        "group": "regular"
+    },
+    {
+        "word": "colour",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🖍️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To use a pen or pencil to put colour on a picture.",
+                "examples": [
+                    "Colour the picture blue."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "coloured",
+        "v3": "coloured",
+        "group": "regular"
+    },
+    {
+        "word": "hold",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🤲",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To have or keep something in your hand or arms.",
+                "examples": [
+                    "Hold the baby carefully.",
+                    "She is holding a book."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "held",
+        "v3": "held",
+        "group": "irregular"
+    },
+    {
+        "word": "lead",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To control a group of people, a country, or a situation.",
+                "examples": [
+                    "She leads a small team."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "led",
+        "v3": "led",
+        "group": "irregular"
+    },
+    {
+        "word": "fight",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "⚔️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To use physical force to try to hurt someone or win something.",
+                "examples": [
+                    "The two boys are fighting."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "fought",
+        "v3": "fought",
+        "group": "irregular"
+    },
+    {
+        "word": "hide",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🙈",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put something or someone in a place where they cannot be seen or found.",
+                "examples": [
+                    "He is hiding behind the door."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "hid",
+        "v3": "hidden",
+        "group": "irregular"
+    },
+    {
+        "word": "seek",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "emoji": "🔍",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To try to find or get something.",
+                "examples": [
+                    "They are playing hide and seek."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "sought",
+        "v3": "sought",
+        "group": "irregular"
+    },
+    {
+        "word": "ring",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🔔",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a sound like a bell.",
+                "examples": [
+                    "The phone is ringing."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rang",
+        "v3": "rung",
+        "group": "irregular"
+    },
+    {
+        "word": "text",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📱",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To send a message from a mobile phone.",
+                "examples": [
+                    "Text me when you arrive."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "texted",
+        "v3": "texted",
+        "group": "regular"
+    },
+    {
+        "word": "whisper",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🤫",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To speak very quietly so that other people cannot hear you.",
+                "examples": [
+                    "She whispered the answer to me."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "whispered",
+        "v3": "whispered",
+        "group": "regular"
+    },
+    {
+        "word": "touch",
+        "level": "starter",
+        "theme": "five_senses_A1",
+        "emoji": "🫱",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put your hand or another part of your body on something.",
+                "examples": [
+                    "Don't touch the wet paint!"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "touched",
+        "v3": "touched",
+        "group": "regular"
     }
 ];
     const lang = "en";
