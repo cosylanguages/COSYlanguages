@@ -2458,6 +2458,73 @@
         ],
         "comparative": "stormier",
         "superlative": "the stormiest"
+    },
+    {
+        "word": "blonde",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Pale gold in color.",
+                "examples": [
+                    "She has blonde hair."
+                ]
+            }
+        ],
+        "comparative": "blonder",
+        "superlative": "the blondest"
+    },
+    {
+        "word": "smart",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "subtext": "intelligent",
+        "definitions": [
+            {
+                "text": "Intelligent; clever.",
+                "examples": [
+                    "He is a smart student."
+                ]
+            }
+        ],
+        "comparative": "smarter",
+        "superlative": "the smartest"
+    },
+    {
+        "word": "serious",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Thinking or acting in a careful and sensible way; not silly.",
+                "examples": [
+                    "He is a serious person."
+                ]
+            }
+        ],
+        "comparative": "more serious",
+        "superlative": "the most serious"
+    },
+    {
+        "word": "ugly",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "form": "adjective",
+        "opposite": "beautiful",
+        "oppositeEmoji": "✨",
+        "definitions": [
+            {
+                "text": "Unpleasant to look at.",
+                "examples": [
+                    "It was an ugly building."
+                ]
+            }
+        ],
+        "comparative": "uglier",
+        "superlative": "the ugliest"
     }
 ];
     const lang = "en";
