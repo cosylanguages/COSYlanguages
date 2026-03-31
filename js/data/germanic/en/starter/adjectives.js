@@ -2254,6 +2254,125 @@
         "subtext": "very noisy / noisy environment / too noisy",
         "comparative": "noisier",
         "superlative": "the noisiest"
+    },
+    {
+        "word": "round",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⭕",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Shaped like a circle.",
+                "examples": [
+                    "The table is round."
+                ]
+            }
+        ],
+        "comparative": "rounder",
+        "superlative": "the roundest"
+    },
+    {
+        "word": "square",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⬛",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Having four equal sides and four 90-degree angles.",
+                "examples": [
+                    "The box is square."
+                ]
+            }
+        ],
+        "comparative": "squarer",
+        "superlative": "the squarest"
+    },
+    {
+        "word": "helpful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🤝",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Willing to help other people.",
+                "examples": [
+                    "My colleagues are very helpful."
+                ]
+            }
+        ],
+        "comparative": "more helpful",
+        "superlative": "the most helpful"
+    },
+    {
+        "word": "patient",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🧘",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Able to wait for a long time without becoming angry.",
+                "examples": [
+                    "You need to be patient with new students."
+                ]
+            }
+        ],
+        "comparative": "more patient",
+        "superlative": "the most patient"
+    },
+    {
+        "word": "active",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🏃",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Doing a lot of things; busy.",
+                "examples": [
+                    "He is a very active person."
+                ]
+            }
+        ],
+        "comparative": "more active",
+        "superlative": "the most active"
+    },
+    {
+        "word": "careful",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⚠️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Giving a lot of attention to what you are doing so that you do not have an accident or make a mistake.",
+                "examples": [
+                    "Be careful when you drive."
+                ]
+            }
+        ],
+        "comparative": "more careful",
+        "superlative": "the most careful"
+    },
+    {
+        "word": "creative",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🎨",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Good at thinking of new ideas or making things.",
+                "examples": [
+                    "She is a very creative designer."
+                ]
+            }
+        ],
+        "comparative": "more creative",
+        "superlative": "the most creative"
     }
 ];
     const lang = "en";

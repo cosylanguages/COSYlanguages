@@ -3341,6 +3341,306 @@
         "v2": "built",
         "v3": "built",
         "group": "irregular"
+    },
+    {
+        "word": "begin",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "▶️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To start to do something.",
+                "examples": [
+                    "We begin the meeting at nine o'clock."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "began",
+        "v3": "begun",
+        "group": "irregular"
+    },
+    {
+        "word": "end",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🏁",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To finish; to stop.",
+                "examples": [
+                    "The class ends at three o'clock."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "ended",
+        "v3": "ended",
+        "group": "regular"
+    },
+    {
+        "word": "brush",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "🪥",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To clean something with a brush.",
+                "examples": [
+                    "I brush my teeth every morning."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "brushed",
+        "v3": "brushed",
+        "group": "regular"
+    },
+    {
+        "word": "ride",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚲",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To travel on a bike or horse.",
+                "examples": [
+                    "I ride my bike to work."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rode",
+        "v3": "ridden",
+        "group": "irregular"
+    },
+    {
+        "word": "dream",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "💭",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To experience pictures or ideas in your mind while sleeping.",
+                "examples": [
+                    "I dreamed about a holiday last night."
+                ]
+            }
+        ],
+        "classification": "both",
+        "aspect": "action",
+        "v2": "dreamed / dreamt",
+        "v3": "dreamed / dreamt",
+        "group": "both"
+    },
+    {
+        "word": "believe",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🙏",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To think that something is true.",
+                "examples": [
+                    "I believe you."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "believed",
+        "v3": "believed",
+        "group": "regular"
+    },
+    {
+        "word": "prefer",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👉",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To like one thing more than another.",
+                "examples": [
+                    "I prefer tea to coffee."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "preferred",
+        "v3": "preferred",
+        "group": "regular"
+    },
+    {
+        "word": "catch",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "🧤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take hold of something; to get on a bus or train.",
+                "examples": [
+                    "I need to catch the bus at eight."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "caught",
+        "v3": "caught",
+        "group": "irregular"
+    },
+    {
+        "word": "fix",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🛠️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To repair something that is broken.",
+                "examples": [
+                    "Can you fix my phone?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "fixed",
+        "v3": "fixed",
+        "group": "regular"
+    },
+    {
+        "word": "create",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🎨",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something new.",
+                "examples": [
+                    "She creates beautiful websites."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "created",
+        "v3": "created",
+        "group": "regular"
+    },
+    {
+        "word": "notice",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "👀",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To see or become aware of something.",
+                "examples": [
+                    "Did you notice the new office?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "noticed",
+        "v3": "noticed",
+        "group": "regular"
+    },
+    {
+        "word": "improve",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📈",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make something better.",
+                "examples": [
+                    "I want to improve my English."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "improved",
+        "v3": "improved",
+        "group": "regular"
+    },
+    {
+        "word": "prepare",
+        "level": "starter",
+        "theme": "cooking_methods_A1",
+        "emoji": "🥘",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To get something ready.",
+                "examples": [
+                    "He is preparing dinner."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "prepared",
+        "v3": "prepared",
+        "group": "regular"
+    },
+    {
+        "word": "organize",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To plan or arrange something.",
+                "examples": [
+                    "She organizes all the meetings."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "organized",
+        "v3": "organized",
+        "group": "regular"
+    },
+    {
+        "word": "plan",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📅",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To decide what you are going to do.",
+                "examples": [
+                    "We are planning a trip."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "planned",
+        "v3": "planned",
+        "group": "regular"
     }
 ];
     const lang = "en";

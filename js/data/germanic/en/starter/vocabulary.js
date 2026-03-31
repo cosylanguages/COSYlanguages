@@ -2117,6 +2117,1189 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "sister",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "emoji": "👧",
+        "form": "noun",
+        "plural": "sisters",
+        "opposite": "brother",
+        "oppositeEmoji": "👦",
+        "subtext": "elder sister, younger sister",
+        "definitions": [
+            {
+                "text": "A girl or woman who has the same parents as another person.",
+                "examples": [
+                    "I have two sisters.",
+                    "My sister is a student."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "brother",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "emoji": "👦",
+        "form": "noun",
+        "plural": "brothers",
+        "opposite": "sister",
+        "oppositeEmoji": "👧",
+        "subtext": "elder brother, younger brother",
+        "definitions": [
+            {
+                "text": "A boy or man who has the same parents as another person.",
+                "examples": [
+                    "He is my elder brother.",
+                    "Do you have any brothers?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "son",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "emoji": "👦",
+        "form": "noun",
+        "plural": "sons",
+        "opposite": "daughter",
+        "oppositeEmoji": "👧",
+        "definitions": [
+            {
+                "text": "A person's male child.",
+                "examples": [
+                    "They have one son and two daughters."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "daughter",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "emoji": "👧",
+        "form": "noun",
+        "plural": "daughters",
+        "opposite": "son",
+        "oppositeEmoji": "👦",
+        "definitions": [
+            {
+                "text": "A person's female child.",
+                "examples": [
+                    "Her daughter is five years old."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "grandfather",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "emoji": "👴",
+        "form": "noun",
+        "plural": "grandfathers",
+        "opposite": "grandmother",
+        "oppositeEmoji": "👵",
+        "definitions": [
+            {
+                "text": "The father of your father or mother.",
+                "examples": [
+                    "My grandfather is eighty years old."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "grandmother",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "emoji": "👵",
+        "form": "noun",
+        "plural": "grandmothers",
+        "opposite": "grandfather",
+        "oppositeEmoji": "👴",
+        "definitions": [
+            {
+                "text": "The mother of your father or mother.",
+                "examples": [
+                    "My grandmother lives in a small village."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "uncle",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "emoji": "👨",
+        "form": "noun",
+        "plural": "uncles",
+        "opposite": "aunt",
+        "oppositeEmoji": "👩",
+        "definitions": [
+            {
+                "text": "The brother of your mother or father, or the husband of your aunt.",
+                "examples": [
+                    "My uncle lives in London."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "aunt",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "emoji": "👩",
+        "form": "noun",
+        "plural": "aunts",
+        "opposite": "uncle",
+        "oppositeEmoji": "👨",
+        "definitions": [
+            {
+                "text": "The sister of your mother or father, or the wife of your uncle.",
+                "examples": [
+                    "My aunt is a teacher."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cousin",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "emoji": "🧑",
+        "form": "noun",
+        "plural": "cousins",
+        "definitions": [
+            {
+                "text": "The child of your aunt or uncle.",
+                "examples": [
+                    "I have many cousins."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tree",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "plural": "trees",
+        "subtext": "green tree, tall tree",
+        "definitions": [
+            {
+                "text": "A tall plant that has a hard trunk, branches, and leaves.",
+                "examples": [
+                    "There are many trees in the park.",
+                    "The bird is in the tree."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "flower",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌸",
+        "form": "noun",
+        "plural": "flowers",
+        "subtext": "beautiful flower, smell a flower",
+        "definitions": [
+            {
+                "text": "The brightly colored part of a plant from which seeds or fruit grow.",
+                "examples": [
+                    "I bought some flowers for my mother.",
+                    "Roses are beautiful flowers."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "mountain",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🏔️",
+        "form": "noun",
+        "plural": "mountains",
+        "subtext": "high mountain, snow-capped mountain",
+        "definitions": [
+            {
+                "text": "A very high hill.",
+                "examples": [
+                    "We can see mountains from our window.",
+                    "The mountain is covered in snow."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "river",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🏞️",
+        "form": "noun",
+        "plural": "rivers",
+        "subtext": "long river, swim in a river",
+        "definitions": [
+            {
+                "text": "A natural wide flow of fresh water across the land into the sea.",
+                "examples": [
+                    "The river flows through the city.",
+                    "There is a bridge over the river."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sea",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌊",
+        "form": "noun",
+        "plural": "seas",
+        "subtext": "blue sea, swim in the sea",
+        "definitions": [
+            {
+                "text": "The large area of salty water that covers much of the Earth's surface.",
+                "examples": [
+                    "I love swimming in the sea.",
+                    "The sea is very calm today."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "beach",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🏖️",
+        "form": "noun",
+        "plural": "beaches",
+        "subtext": "sandy beach, go to the beach",
+        "definitions": [
+            {
+                "text": "An area of sand or small stones next to the sea.",
+                "examples": [
+                    "Let's go to the beach today.",
+                    "The children are playing on the beach."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sky",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌌",
+        "form": "noun",
+        "plural": "skies",
+        "subtext": "blue sky, cloudy sky",
+        "definitions": [
+            {
+                "text": "The space above the Earth that you see when you look up.",
+                "examples": [
+                    "The sky is very blue today.",
+                    "There are no clouds in the sky."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "moon",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌙",
+        "form": "noun",
+        "plural": null,
+        "subtext": "full moon, look at the moon",
+        "definitions": [
+            {
+                "text": "The large round object that moves around the Earth and shines at night.",
+                "examples": [
+                    "The moon is very bright tonight."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "plate",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🍽️",
+        "form": "noun",
+        "plural": "plates",
+        "subtext": "clean plate, put food on a plate",
+        "definitions": [
+            {
+                "text": "A flat round dish that you put food on.",
+                "examples": [
+                    "Please put the sandwich on a plate."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cup",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "☕",
+        "form": "noun",
+        "plural": "cups",
+        "subtext": "cup of tea, cup of coffee",
+        "definitions": [
+            {
+                "text": "A small container with a handle that you drink from.",
+                "examples": [
+                    "Would you like a cup of tea?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "glass",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🥛",
+        "form": "noun",
+        "plural": "glasses",
+        "subtext": "glass of water, glass of wine",
+        "definitions": [
+            {
+                "text": "A container made of glass used for drinking.",
+                "examples": [
+                    "Can I have a glass of water, please?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fork",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🍴",
+        "form": "noun",
+        "plural": "forks",
+        "definitions": [
+            {
+                "text": "A tool with three or four points used for picking up and eating food.",
+                "examples": [
+                    "Eat your pasta with a fork."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "spoon",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🥄",
+        "form": "noun",
+        "plural": "spoons",
+        "definitions": [
+            {
+                "text": "A tool with a shallow bowl at the end used for eating or stirring.",
+                "examples": [
+                    "Use a spoon for your soup."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "knife",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🔪",
+        "form": "noun",
+        "plural": "knives",
+        "definitions": [
+            {
+                "text": "A tool with a sharp blade used for cutting food.",
+                "examples": [
+                    "Use a knife to cut the meat."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "laptop",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "💻",
+        "form": "noun",
+        "plural": "laptops",
+        "definitions": [
+            {
+                "text": "A small computer that you can carry.",
+                "examples": [
+                    "I use my laptop for work."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "television",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "📺",
+        "form": "noun",
+        "plural": "televisions",
+        "subtext": "TV, watch television",
+        "definitions": [
+            {
+                "text": "A device with a screen for watching programs.",
+                "examples": [
+                    "We watch the news on television."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cinema",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "🎬",
+        "form": "noun",
+        "plural": "cinemas",
+        "subtext": "go to the cinema, movie theater",
+        "definitions": [
+            {
+                "text": "A place where you go to watch films.",
+                "examples": [
+                    "Let's go to the cinema tonight."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "museum",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "🏛️",
+        "form": "noun",
+        "plural": "museums",
+        "definitions": [
+            {
+                "text": "A building where you can look at important objects.",
+                "examples": [
+                    "The museum is very interesting."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "airport",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "emoji": "✈️",
+        "form": "noun",
+        "plural": "airports",
+        "definitions": [
+            {
+                "text": "A place where planes land and take off.",
+                "examples": [
+                    "I am going to the airport now."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pharmacy",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "💊",
+        "form": "noun",
+        "plural": "pharmacies",
+        "definitions": [
+            {
+                "text": "A shop where you can buy medicine.",
+                "examples": [
+                    "I need to go to the pharmacy for some aspirin."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "chicken",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍗",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A common type of meat from a bird.",
+                "examples": [
+                    "I like roast chicken."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sugar",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍚",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A sweet substance used in food and drinks.",
+                "examples": [
+                    "Do you take sugar in your coffee?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "salad",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥗",
+        "form": "noun",
+        "plural": "salads",
+        "definitions": [
+            {
+                "text": "A cold dish of various vegetables.",
+                "examples": [
+                    "I'll have a green salad for lunch."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "coat",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🧥",
+        "form": "noun",
+        "plural": "coats",
+        "definitions": [
+            {
+                "text": "A piece of clothing that you wear over other clothes to keep warm.",
+                "examples": [
+                    "Put on your coat — it's cold."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "socks",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🧦",
+        "form": "noun",
+        "plural": "socks",
+        "definitions": [
+            {
+                "text": "Clothing worn on the feet inside shoes.",
+                "examples": [
+                    "I need some new socks."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "neck",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "🦒",
+        "form": "noun",
+        "plural": "necks",
+        "definitions": [
+            {
+                "text": "The part of the body that connects the head to the shoulders.",
+                "examples": [
+                    "He wears a scarf around his neck."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "shoulder",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "👤",
+        "form": "noun",
+        "plural": "shoulders",
+        "definitions": [
+            {
+                "text": "The part of the body where the arm joins the trunk.",
+                "examples": [
+                    "She carried the bag on her shoulder."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "in",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "Inside a place or container.",
+                "examples": [
+                    "The keys are in the bag."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "on",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "Supported by or touching a surface.",
+                "examples": [
+                    "The book is on the table."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "at",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "Used to show a place or position.",
+                "examples": [
+                    "I am at the office."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "under",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "above",
+        "definitions": [
+            {
+                "text": "Below or lower than something else.",
+                "examples": [
+                    "The cat is under the chair."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "and",
+        "level": "starter",
+        "theme": "conjunctions_connectors_A1",
+        "form": "conjunction",
+        "definitions": [
+            {
+                "text": "Used to join words or parts of sentences.",
+                "examples": [
+                    "I like coffee and tea."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "but",
+        "level": "starter",
+        "theme": "conjunctions_connectors_A1",
+        "form": "conjunction",
+        "definitions": [
+            {
+                "text": "Used to introduce a contrast.",
+                "examples": [
+                    "I like coffee, but I don't like milk."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "because",
+        "level": "starter",
+        "theme": "conjunctions_connectors_A1",
+        "form": "conjunction",
+        "definitions": [
+            {
+                "text": "For the reason that.",
+                "examples": [
+                    "I am tired because I worked late."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "time",
+        "level": "starter",
+        "theme": "telling_time_A1",
+        "emoji": "⌚",
+        "form": "noun",
+        "subtext": "what time is it?, spend time",
+        "definitions": [
+            {
+                "text": "What is measured in minutes, hours, days, etc.",
+                "examples": [
+                    "What time is it?",
+                    "I don't have much time."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "problem",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "❓",
+        "form": "noun",
+        "plural": "problems",
+        "subtext": "big problem, no problem",
+        "definitions": [
+            {
+                "text": "Something that is difficult to deal with.",
+                "examples": [
+                    "I have a problem with my car.",
+                    "No problem!"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "beef",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥩",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Meat from a cow.",
+                "examples": [
+                    "I prefer beef to chicken."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pork",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥩",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Meat from a pig.",
+                "examples": [
+                    "Is there pork in this sausage?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "potato",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥔",
+        "form": "noun",
+        "plural": "potatoes",
+        "definitions": [
+            {
+                "text": "A round white vegetable with a brown skin that grows underground.",
+                "examples": [
+                    "I love roast potatoes."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tomato",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍅",
+        "form": "noun",
+        "plural": "tomatoes",
+        "definitions": [
+            {
+                "text": "A soft red fruit with a lot of seeds, eaten as a vegetable.",
+                "examples": [
+                    "Put some tomatoes in the salad."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "onion",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🧅",
+        "form": "noun",
+        "plural": "onions",
+        "definitions": [
+            {
+                "text": "A round vegetable with a strong smell and taste.",
+                "examples": [
+                    "Chop the onion finely."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "carrot",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥕",
+        "form": "noun",
+        "plural": "carrots",
+        "definitions": [
+            {
+                "text": "A long orange vegetable that grows underground.",
+                "examples": [
+                    "Carrots are good for your eyes."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "soup",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥣",
+        "form": "noun",
+        "plural": "soups",
+        "definitions": [
+            {
+                "text": "A liquid food made by cooking meat, vegetables, or fish in water.",
+                "examples": [
+                    "I had tomato soup for lunch."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cake",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍰",
+        "form": "noun",
+        "plural": "cakes",
+        "definitions": [
+            {
+                "text": "A sweet food made from flour, sugar, and eggs.",
+                "examples": [
+                    "Would you like a piece of cake?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "chocolate",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍫",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A sweet brown food made from cocoa beans.",
+                "examples": [
+                    "I love milk chocolate."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ice cream",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍦",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A very cold sweet food made from milk.",
+                "examples": [
+                    "Let's get an ice cream."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sweater",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🧶",
+        "form": "noun",
+        "plural": "sweaters",
+        "subtext": "jumper",
+        "definitions": [
+            {
+                "text": "A warm piece of clothing with long sleeves.",
+                "examples": [
+                    "It's cold, wear a sweater."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dress",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👗",
+        "form": "noun",
+        "plural": "dresses",
+        "definitions": [
+            {
+                "text": "A piece of clothing for a woman or girl that covers the top of the body and part of the legs.",
+                "examples": [
+                    "She is wearing a beautiful blue dress."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "skirt",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👗",
+        "form": "noun",
+        "plural": "skirts",
+        "definitions": [
+            {
+                "text": "A piece of clothing for a woman or girl that hangs from the waist.",
+                "examples": [
+                    "She wore a black skirt."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "boots",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🥾",
+        "form": "noun",
+        "plural": "boots",
+        "definitions": [
+            {
+                "text": "A type of strong shoe that covers your foot and part of your leg.",
+                "examples": [
+                    "I need some new winter boots."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "finger",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "☝️",
+        "form": "noun",
+        "plural": "fingers",
+        "definitions": [
+            {
+                "text": "One of the five long parts at the end of your hand.",
+                "examples": [
+                    "He pointed his finger at the map."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "toe",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "🦶",
+        "form": "noun",
+        "plural": "toes",
+        "definitions": [
+            {
+                "text": "One of the five parts at the end of your foot.",
+                "examples": [
+                    "She stubbed her toe on the table."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "stomach",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "🤰",
+        "form": "noun",
+        "plural": "stomachs",
+        "definitions": [
+            {
+                "text": "The part of your body where food goes after you eat it.",
+                "examples": [
+                    "I have a stomach ache."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "knee",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "emoji": "🦵",
+        "form": "noun",
+        "plural": "knees",
+        "definitions": [
+            {
+                "text": "The part in the middle of your leg where it bends.",
+                "examples": [
+                    "He hurt his knee playing football."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "grass",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌱",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A common wild plant with narrow green leaves.",
+                "examples": [
+                    "Don't walk on the grass."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lake",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🏞️",
+        "form": "noun",
+        "plural": "lakes",
+        "definitions": [
+            {
+                "text": "A large area of water surrounded by land.",
+                "examples": [
+                    "We went for a walk around the lake."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cloud",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "☁️",
+        "form": "noun",
+        "plural": "clouds",
+        "definitions": [
+            {
+                "text": "A white or grey mass in the sky that is made of very small drops of water.",
+                "examples": [
+                    "Look at those big white clouds."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "star",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "⭐",
+        "form": "noun",
+        "plural": "stars",
+        "definitions": [
+            {
+                "text": "A small bright light that you see in the sky at night.",
+                "examples": [
+                    "The stars are very bright tonight."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "desk",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🖥️",
+        "form": "noun",
+        "plural": "desks",
+        "definitions": [
+            {
+                "text": "A type of table that you sit at to write or work.",
+                "examples": [
+                    "The pen is on the desk."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lamp",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "💡",
+        "form": "noun",
+        "plural": "lamps",
+        "definitions": [
+            {
+                "text": "An object that produces light.",
+                "examples": [
+                    "Turn on the lamp."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "clock",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "⏰",
+        "form": "noun",
+        "plural": "clocks",
+        "definitions": [
+            {
+                "text": "A device that shows the time.",
+                "examples": [
+                    "The clock on the wall says ten o'clock."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "mirror",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🪞",
+        "form": "noun",
+        "plural": "mirrors",
+        "definitions": [
+            {
+                "text": "A piece of special glass in which you can see yourself.",
+                "examples": [
+                    "She looked at herself in the mirror."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "library",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "emoji": "📚",
+        "form": "noun",
+        "plural": "libraries",
+        "definitions": [
+            {
+                "text": "A place where you can read or borrow books.",
+                "examples": [
+                    "I go to the library to study."
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";
