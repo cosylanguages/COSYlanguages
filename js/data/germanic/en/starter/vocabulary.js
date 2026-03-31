@@ -3300,6 +3300,861 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "Monday",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The first day of the week.",
+                "examples": [
+                    "I start work on Monday."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "Tuesday",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The second day of the week.",
+                "examples": [
+                    "We have a meeting on Tuesday."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "Wednesday",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The third day of the week.",
+                "examples": [
+                    "Is it Wednesday today?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "Thursday",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The fourth day of the week.",
+                "examples": [
+                    "I am busy on Thursday."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "Friday",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The fifth day of the week.",
+                "examples": [
+                    "I love Fridays!"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "Saturday",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The sixth day of the week.",
+                "examples": [
+                    "I relax on Saturday."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "Sunday",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The seventh day of the week.",
+                "examples": [
+                    "The shop is closed on Sunday."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "January",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "❄️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The first month of the year.",
+                "examples": [
+                    "It is cold in January."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "February",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "❄️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The second month of the year.",
+                "examples": [
+                    "February is a short month."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "March",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "🌱",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The third month of the year.",
+                "examples": [
+                    "Spring begins in March."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "April",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "🌧️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The fourth month of the year.",
+                "examples": [
+                    "It rains a lot in April."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "May",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "🌸",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The fifth month of the year.",
+                "examples": [
+                    "The weather is beautiful in May."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "June",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "☀️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The sixth month of the year.",
+                "examples": [
+                    "Summer starts in June."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "July",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "☀️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The seventh month of the year.",
+                "examples": [
+                    "We go on holiday in July."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "August",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "🏖️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The eighth month of the year.",
+                "examples": [
+                    "It is very hot in August."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "September",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "🍂",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The ninth month of the year.",
+                "examples": [
+                    "Children go back to school in September."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "October",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "🎃",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The tenth month of the year.",
+                "examples": [
+                    "October is in autumn."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "November",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "🌫️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The eleventh month of the year.",
+                "examples": [
+                    "It is often grey in November."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "December",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "emoji": "🎄",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The twelfth month of the year.",
+                "examples": [
+                    "Christmas is in December."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "spring",
+        "level": "starter",
+        "theme": "seasons_A1",
+        "emoji": "🌱",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The season between winter and summer.",
+                "examples": [
+                    "Flowers grow in spring."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "summer",
+        "level": "starter",
+        "theme": "seasons_A1",
+        "emoji": "☀️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The hottest season of the year.",
+                "examples": [
+                    "I love swimming in summer."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "autumn",
+        "level": "starter",
+        "theme": "seasons_A1",
+        "emoji": "🍂",
+        "form": "noun",
+        "subtext": "fall",
+        "definitions": [
+            {
+                "text": "The season between summer and winter.",
+                "examples": [
+                    "Leaves fall in autumn."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "winter",
+        "level": "starter",
+        "theme": "seasons_A1",
+        "emoji": "❄️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The coldest season of the year.",
+                "examples": [
+                    "It snows in winter."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lion",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🦁",
+        "form": "noun",
+        "plural": "lions",
+        "definitions": [
+            {
+                "text": "A large wild cat that lives in Africa.",
+                "examples": [
+                    "The lion is the king of animals."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "elephant",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐘",
+        "form": "noun",
+        "plural": "elephants",
+        "definitions": [
+            {
+                "text": "A very large animal with a long trunk.",
+                "examples": [
+                    "I saw an elephant at the zoo."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rabbit",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐰",
+        "form": "noun",
+        "plural": "rabbits",
+        "definitions": [
+            {
+                "text": "A small animal with long ears.",
+                "examples": [
+                    "The rabbit is eating a carrot."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "horse",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐴",
+        "form": "noun",
+        "plural": "horses",
+        "definitions": [
+            {
+                "text": "A large animal that people can ride.",
+                "examples": [
+                    "She can ride a horse."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cow",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐮",
+        "form": "noun",
+        "plural": "cows",
+        "definitions": [
+            {
+                "text": "A large farm animal that gives milk.",
+                "examples": [
+                    "The cow is in the field."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pig",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐷",
+        "form": "noun",
+        "plural": "pigs",
+        "definitions": [
+            {
+                "text": "A pink farm animal.",
+                "examples": [
+                    "Pigs are intelligent animals."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sheep",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐑",
+        "form": "noun",
+        "plural": "sheep",
+        "definitions": [
+            {
+                "text": "A farm animal with thick wool.",
+                "examples": [
+                    "The sheep are eating grass."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lemon",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍋",
+        "form": "noun",
+        "plural": "lemons",
+        "definitions": [
+            {
+                "text": "A yellow fruit that tastes sour.",
+                "examples": [
+                    "I like tea with lemon."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "orange",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍊",
+        "form": "noun",
+        "plural": "oranges",
+        "definitions": [
+            {
+                "text": "A round orange fruit.",
+                "examples": [
+                    "I want an orange, please."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "strawberry",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍓",
+        "form": "noun",
+        "plural": "strawberries",
+        "definitions": [
+            {
+                "text": "A small red fruit.",
+                "examples": [
+                    "I love strawberry ice cream."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "grape",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🍇",
+        "form": "noun",
+        "plural": "grapes",
+        "definitions": [
+            {
+                "text": "A small green or purple fruit.",
+                "examples": [
+                    "Would you like some grapes?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "onion",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🧅",
+        "form": "noun",
+        "plural": "onions",
+        "definitions": [
+            {
+                "text": "A round vegetable with a strong taste.",
+                "examples": [
+                    "I need an onion for the soup."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "garlic",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🧄",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A vegetable with a very strong smell and taste.",
+                "examples": [
+                    "Use garlic in the pasta sauce."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "always",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "♾️",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "At all times; every time.",
+                "examples": [
+                    "I always drink coffee in the morning."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "usually",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "🔄",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "In the way that most often happens.",
+                "examples": [
+                    "I usually go to work by bus."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "often",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "🔁",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Many times.",
+                "examples": [
+                    "We often eat out on Fridays."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sometimes",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "⏱️",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "At some times but not all the time.",
+                "examples": [
+                    "Sometimes I walk to the office."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "never",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "emoji": "🚫",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Not at any time.",
+                "examples": [
+                    "He never drinks alcohol."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "who",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "👤",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Used to ask about a person or people.",
+                "examples": [
+                    "Who is your teacher?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "what",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "❓",
+        "form": "pronoun",
+        "definitions": [
+            {
+                "text": "Used to ask about things or actions.",
+                "examples": [
+                    "What is your name?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "where",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "📍",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Used to ask about a place or position.",
+                "examples": [
+                    "Where do you live?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "when",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "⏰",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Used to ask about time.",
+                "examples": [
+                    "When is the meeting?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "why",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "❓",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Used to ask for a reason.",
+                "examples": [
+                    "Why are you late?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "how",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "⚙️",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Used to ask about the way something is done or its state.",
+                "examples": [
+                    "How are you?",
+                    "How do you spell your name?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hello",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👋",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A common greeting used when meeting someone.",
+                "examples": [
+                    "Hello! How are you?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "goodbye",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "👋",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A common greeting used when leaving someone.",
+                "examples": [
+                    "Goodbye! See you tomorrow."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "please",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🙏",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Used to be polite when asking for something.",
+                "examples": [
+                    "A coffee, please."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "thank you",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🙏",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Used to show gratitude.",
+                "examples": [
+                    "Thank you for the help."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sorry",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🙇",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Used to apologize.",
+                "examples": [
+                    "I am sorry I am late."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "yes",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "✅",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Used to give a positive answer.",
+                "examples": [
+                    "Yes, I am a student."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "no",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "❌",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Used to give a negative answer.",
+                "examples": [
+                    "No, I am not a doctor."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "name",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "emoji": "🆔",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "What a person or thing is called.",
+                "examples": [
+                    "My name is John."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "purple",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "emoji": "🟣",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "A color between blue and red.",
+                "examples": [
+                    "I have a purple shirt."
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";

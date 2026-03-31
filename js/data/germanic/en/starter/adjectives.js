@@ -2373,6 +2373,91 @@
         ],
         "comparative": "more creative",
         "superlative": "the most creative"
+    },
+    {
+        "word": "cloudy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "☁️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With many clouds in the sky.",
+                "examples": [
+                    "It is a cloudy day."
+                ]
+            }
+        ],
+        "comparative": "cloudier",
+        "superlative": "the cloudiest"
+    },
+    {
+        "word": "windy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "💨",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With a lot of wind.",
+                "examples": [
+                    "It is very windy today."
+                ]
+            }
+        ],
+        "comparative": "windier",
+        "superlative": "the windiest"
+    },
+    {
+        "word": "snowy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "❄️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With a lot of snow.",
+                "examples": [
+                    "We have snowy weather in January."
+                ]
+            }
+        ],
+        "comparative": "snowier",
+        "superlative": "the snowiest"
+    },
+    {
+        "word": "foggy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🌫️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With a lot of fog; difficult to see.",
+                "examples": [
+                    "It is foggy this morning."
+                ]
+            }
+        ],
+        "comparative": "foggier",
+        "superlative": "the foggiest"
+    },
+    {
+        "word": "stormy",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "⛈️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "With a lot of rain and strong winds.",
+                "examples": [
+                    "It was a stormy night."
+                ]
+            }
+        ],
+        "comparative": "stormier",
+        "superlative": "the stormiest"
     }
 ];
     const lang = "en";

@@ -3641,6 +3641,46 @@
         "v2": "planned",
         "v3": "planned",
         "group": "regular"
+    },
+    {
+        "word": "borrow",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📥",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take something for a short time and then return it.",
+                "examples": [
+                    "Can I borrow your pen?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "borrowed",
+        "v3": "borrowed",
+        "group": "regular"
+    },
+    {
+        "word": "lend",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "📤",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To give something for a short time.",
+                "examples": [
+                    "I can lend you some money."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "lent",
+        "v3": "lent",
+        "group": "irregular"
     }
 ];
     const lang = "en";
