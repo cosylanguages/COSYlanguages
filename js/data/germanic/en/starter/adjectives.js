@@ -3780,9 +3780,9 @@
                 ]
             }
         ],
-        "subtext": "",
-        "comparative": "",
-        "superlative": ""
+        "subtext": "violet / purple flowers / bright purple",
+        "comparative": "more purple",
+        "superlative": "the most purple"
     }
 ];
     const lang = "en";

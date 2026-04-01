@@ -4656,6 +4656,27 @@
         "v2": "turned off",
         "v3": "turned off",
         "group": "regular"
+    },
+    {
+        "word": "welcome",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "👋",
+        "form": "verb",
+        "subtext": "welcome someone / welcome home",
+        "definitions": [
+            {
+                "text": "To greet someone who has just arrived at a place.",
+                "examples": [
+                    "We welcomed the guests at the door."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "welcomed",
+        "v3": "welcomed",
+        "group": "regular"
     }
 ];
     const lang = "en";
