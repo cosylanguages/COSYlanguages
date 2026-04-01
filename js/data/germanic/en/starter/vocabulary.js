@@ -25,7 +25,7 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "uncountable"
     },
     {
         "word": "soda",
@@ -10007,6 +10007,476 @@
             }
         ],
         "countability": "countable"
+    },
+    {
+        "word": "apartment",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "emoji": "🏢",
+        "form": "noun",
+        "plural": "apartments",
+        "subtext": "flat, studio apartment",
+        "definitions": [
+            {
+                "text": "A set of rooms for living in, especially on one floor of a building.",
+                "examples": [
+                    "I live in a small apartment in the city."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "bicycle",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "bicycles",
+        "subtext": "bike, ride a bicycle",
+        "definitions": [
+            {
+                "text": "A vehicle with two wheels that you sit on and move by turning pedals.",
+                "examples": [
+                    "He goes to work by bicycle."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "mobile",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "📱",
+        "form": "noun",
+        "plural": "mobiles",
+        "subtext": "mobile phone, cell phone",
+        "definitions": [
+            {
+                "text": "A phone that you can carry with you.",
+                "examples": [
+                    "I lost my mobile."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "class",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🏫",
+        "form": "noun",
+        "plural": "classes",
+        "subtext": "English class, go to class",
+        "definitions": [
+            {
+                "text": "A group of students who are taught together.",
+                "examples": [
+                    "I have an English class at nine o'clock."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "classroom",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🏫",
+        "form": "noun",
+        "plural": "classrooms",
+        "definitions": [
+            {
+                "text": "A room in a school where students have lessons.",
+                "examples": [
+                    "The students are in the classroom."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "staff",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👥",
+        "form": "noun",
+        "plural": null,
+        "subtext": "employees, workers",
+        "definitions": [
+            {
+                "text": "The group of people who work for an organization.",
+                "examples": [
+                    "The hospital staff are very helpful."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "customer",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🛍️",
+        "form": "noun",
+        "plural": "customers",
+        "definitions": [
+            {
+                "text": "A person who buys goods or services from a shop or business.",
+                "examples": [
+                    "The shop was full of customers."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "guest",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏨",
+        "form": "noun",
+        "plural": "guests",
+        "definitions": [
+            {
+                "text": "A person who is staying in a hotel or visiting someone's home.",
+                "examples": [
+                    "We have two guests staying with us."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "career",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "📈",
+        "form": "noun",
+        "plural": "careers",
+        "subtext": "profession, start a career",
+        "definitions": [
+            {
+                "text": "The series of jobs that a person has in a particular area of work.",
+                "examples": [
+                    "She wants to start a career in nursing."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "profession",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🎓",
+        "form": "noun",
+        "plural": "professions",
+        "subtext": "job, career",
+        "definitions": [
+            {
+                "text": "A type of job that needs special training or a high level of education.",
+                "examples": [
+                    "Teaching is a difficult profession."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "wage",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💵",
+        "form": "noun",
+        "plural": "wages",
+        "subtext": "salary, pay",
+        "definitions": [
+            {
+                "text": "The amount of money that is paid to a worker, usually for each hour or week.",
+                "examples": [
+                    "The minimum wage is increasing."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "factory",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🏭",
+        "form": "noun",
+        "plural": "factories",
+        "definitions": [
+            {
+                "text": "A building where goods are made using machines.",
+                "examples": [
+                    "He works in a car factory."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "file",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📁",
+        "form": "noun",
+        "plural": "files",
+        "definitions": [
+            {
+                "text": "A collection of information stored on a computer or in a folder.",
+                "examples": [
+                    "I am looking for the sales file."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "document",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📄",
+        "form": "noun",
+        "plural": "documents",
+        "definitions": [
+            {
+                "text": "An official paper that gives information or proof of something.",
+                "examples": [
+                    "Please sign this document."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "radio",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "📻",
+        "form": "noun",
+        "plural": "radios",
+        "definitions": [
+            {
+                "text": "A device used for listening to music and news programs.",
+                "examples": [
+                    "I listen to the radio in the morning."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "printer",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🖨️",
+        "form": "noun",
+        "plural": "printers",
+        "definitions": [
+            {
+                "text": "A machine used for printing documents from a computer.",
+                "examples": [
+                    "We need more paper for the printer."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "curtain",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🏘️",
+        "form": "noun",
+        "plural": "curtains",
+        "definitions": [
+            {
+                "text": "A piece of cloth that hangs across a window.",
+                "examples": [
+                    "Close the curtains, please."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "microwave",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🔥",
+        "form": "noun",
+        "plural": "microwaves",
+        "definitions": [
+            {
+                "text": "An electric oven that uses waves of energy to cook or heat food very quickly.",
+                "examples": [
+                    "Put the soup in the microwave."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "dessert",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "emoji": "🍰",
+        "form": "noun",
+        "plural": "desserts",
+        "subtext": "sweet dish",
+        "definitions": [
+            {
+                "text": "Sweet food eaten at the end of a meal.",
+                "examples": [
+                    "What is for dessert?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "shoes",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👟",
+        "form": "noun",
+        "plural": "shoes",
+        "subtext": "pair of shoes, wear shoes",
+        "definitions": [
+            {
+                "text": "A pair of coverings for your feet.",
+                "examples": [
+                    "Take off your shoes."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "jewelry",
+        "level": "starter",
+        "theme": "accessories_A1",
+        "emoji": "💍",
+        "form": "noun",
+        "plural": null,
+        "subtext": "jewellery, gold jewelry",
+        "definitions": [
+            {
+                "text": "Decorative objects that you wear on your body, such as rings or necklaces.",
+                "examples": [
+                    "She is wearing a lot of jewelry."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "nephew",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "emoji": "👦",
+        "form": "noun",
+        "plural": "nephews",
+        "opposite": "niece",
+        "definitions": [
+            {
+                "text": "The son of your brother or sister.",
+                "examples": [
+                    "My nephew is ten years old."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "niece",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "emoji": "👧",
+        "form": "noun",
+        "plural": "nieces",
+        "opposite": "nephew",
+        "definitions": [
+            {
+                "text": "The daughter of your brother or sister.",
+                "examples": [
+                    "My niece is a student."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "teenager",
+        "level": "starter",
+        "theme": "people_A1",
+        "emoji": "🧑",
+        "form": "noun",
+        "plural": "teenagers",
+        "definitions": [
+            {
+                "text": "A person who is between 13 and 19 years old.",
+                "examples": [
+                    "He is a typical teenager."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "professor",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍🏫",
+        "form": "noun",
+        "plural": "professors",
+        "definitions": [
+            {
+                "text": "A teacher of the highest rank in a university department.",
+                "examples": [
+                    "He is a professor of history."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "month",
+        "level": "starter",
+        "theme": "dates_years_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "months",
+        "definitions": [
+            {
+                "text": "One of the twelve periods that a year is divided into.",
+                "examples": [
+                    "January is the first month of the year."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "excuse me",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "👋",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A polite way of starting to talk to someone you do not know.",
+                "examples": [
+                    "Excuse me, is this the way to the station?"
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";
