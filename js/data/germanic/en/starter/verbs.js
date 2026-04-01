@@ -4950,6 +4950,48 @@
         "v2": "wished",
         "v3": "wished",
         "group": "regular"
+    },
+    {
+        "word": "collect",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "📦",
+        "form": "verb",
+        "subtext": "collect things / collect stamps",
+        "definitions": [
+            {
+                "text": "To bring things together from different places.",
+                "examples": [
+                    "She collects stamps."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "collected",
+        "v3": "collected",
+        "group": "regular"
+    },
+    {
+        "word": "describe",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💬",
+        "form": "verb",
+        "subtext": "describe something / describe a person",
+        "definitions": [
+            {
+                "text": "To say or write what someone or something is like.",
+                "examples": [
+                    "Can you describe your house?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "described",
+        "v3": "described",
+        "group": "regular"
     }
 ];
     const lang = "en";

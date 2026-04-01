@@ -9539,6 +9539,312 @@
             }
         ],
         "countability": "uncountable"
+    },
+    {
+        "word": "bookshop",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "📚",
+        "form": "noun",
+        "plural": "bookshops",
+        "subtext": "bookstore",
+        "definitions": [
+            {
+                "text": "A shop where you can buy books.",
+                "examples": [
+                    "I bought a dictionary at the bookshop."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "date",
+        "level": "starter",
+        "theme": "dates_years_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "dates",
+        "subtext": "today's date, save the date",
+        "definitions": [
+            {
+                "text": "A particular day of the month or year.",
+                "examples": [
+                    "What is the date today?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "exam",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "exams",
+        "subtext": "examination, pass an exam, fail an exam",
+        "definitions": [
+            {
+                "text": "A formal test of a person's knowledge or proficiency in a particular subject.",
+                "examples": [
+                    "I have an English exam tomorrow."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "example",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "💡",
+        "form": "noun",
+        "plural": "examples",
+        "subtext": "for example",
+        "definitions": [
+            {
+                "text": "A thing that is representative of all such things.",
+                "examples": [
+                    "Can you give me an example?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "film",
+        "level": "starter",
+        "theme": "cinema_film_A1",
+        "emoji": "🎬",
+        "form": "noun",
+        "plural": "films",
+        "subtext": "movie, watch a film",
+        "definitions": [
+            {
+                "text": "A story or series of events that is shown as a sequence of moving pictures.",
+                "examples": [
+                    "I like watching films."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "idea",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💡",
+        "form": "noun",
+        "plural": "ideas",
+        "subtext": "good idea",
+        "definitions": [
+            {
+                "text": "A thought or a plan.",
+                "examples": [
+                    "I have a good idea."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "letter",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "✉️",
+        "form": "noun",
+        "plural": "letters",
+        "subtext": "write a letter",
+        "definitions": [
+            {
+                "text": "A message that you write on paper and send to someone.",
+                "examples": [
+                    "He is writing a letter to his parents."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "list",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "lists",
+        "subtext": "shopping list",
+        "definitions": [
+            {
+                "text": "A series of names or items written one after the other.",
+                "examples": [
+                    "Make a shopping list."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "meal",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "emoji": "🍽️",
+        "form": "noun",
+        "plural": "meals",
+        "subtext": "delicious meal, have a meal",
+        "definitions": [
+            {
+                "text": "An occasion when food is eaten.",
+                "examples": [
+                    "Breakfast is the first meal of the day."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "movie",
+        "level": "starter",
+        "theme": "cinema_film_A1",
+        "emoji": "🎬",
+        "form": "noun",
+        "plural": "movies",
+        "subtext": "film, watch a movie",
+        "definitions": [
+            {
+                "text": "A series of moving pictures that tell a story.",
+                "examples": [
+                    "Let's watch a movie tonight."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "party",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎉",
+        "form": "noun",
+        "plural": "parties",
+        "subtext": "birthday party, go to a party",
+        "definitions": [
+            {
+                "text": "A social event where people eat, drink, and dance.",
+                "examples": [
+                    "We are having a party on Saturday."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "photo",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "📷",
+        "form": "noun",
+        "plural": "photos",
+        "subtext": "photograph, take a photo",
+        "definitions": [
+            {
+                "text": "A picture made with a camera.",
+                "examples": [
+                    "Can I take a photo of you?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "picture",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🖼️",
+        "form": "noun",
+        "plural": "pictures",
+        "subtext": "draw a picture, take a picture",
+        "definitions": [
+            {
+                "text": "A drawing, painting, or photo.",
+                "examples": [
+                    "The children are drawing pictures."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "road",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "emoji": "🛣️",
+        "form": "noun",
+        "plural": "roads",
+        "subtext": "on the road",
+        "definitions": [
+            {
+                "text": "A way for cars and other vehicles to travel on.",
+                "examples": [
+                    "The road is very busy."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "test",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "tests",
+        "subtext": "take a test, pass a test",
+        "definitions": [
+            {
+                "text": "A set of questions or practical activities used to measure someone's knowledge or ability.",
+                "examples": [
+                    "I have a maths test today."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "university",
+        "level": "starter",
+        "theme": "types_of_education_A1",
+        "emoji": "🎓",
+        "form": "noun",
+        "plural": "universities",
+        "subtext": "study at university",
+        "definitions": [
+            {
+                "text": "A place where people study for a degree.",
+                "examples": [
+                    "She is studying at university."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "writer",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "✍️",
+        "form": "noun",
+        "plural": "writers",
+        "subtext": "famous writer",
+        "definitions": [
+            {
+                "text": "A person who writes books, stories, or articles.",
+                "examples": [
+                    "He is a famous writer."
+                ]
+            }
+        ],
+        "countability": "countable"
     }
 ];
     const lang = "en";

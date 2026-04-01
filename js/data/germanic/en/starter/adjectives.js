@@ -887,6 +887,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
+        "opposite": "expensive",
+        "oppositeEmoji": "💎",
         "subtext": "free of charge, free gift / free time / free of charge / free to do",
         "definitions": [
             {
@@ -3924,6 +3926,7 @@
         "theme": "describing_things_A1",
         "emoji": "1️⃣",
         "form": "adjective",
+        "opposite": "many",
         "definitions": [
             {
                 "text": "Used to show that there is only one or a few of something.",
@@ -3942,6 +3945,7 @@
         "theme": "describing_things_A1",
         "emoji": "➕",
         "form": "adjective",
+        "opposite": "same",
         "definitions": [
             {
                 "text": "Used to refer to people or things that are different from the ones already mentioned.",
@@ -3960,6 +3964,7 @@
         "theme": "personal_identity_A1",
         "emoji": "👤",
         "form": "adjective",
+        "opposite": "shared",
         "definitions": [
             {
                 "text": "Belonging to or done by a particular person.",
@@ -4161,6 +4166,45 @@
         "subtext": "intelligent / a wise choice / very wise",
         "comparative": "wiser",
         "superlative": "the wisest"
+    },
+    {
+        "word": "stupid",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "🤡",
+        "form": "adjective",
+        "opposite": "clever",
+        "definitions": [
+            {
+                "text": "Silly or not intelligent.",
+                "examples": [
+                    "It was a stupid mistake."
+                ]
+            }
+        ],
+        "subtext": "silly / don't be stupid / very stupid",
+        "comparative": "stupider",
+        "superlative": "the stupidest"
+    },
+    {
+        "word": "sure",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "unsure",
+        "definitions": [
+            {
+                "text": "Certain; having no doubt.",
+                "examples": [
+                    "I am sure about the answer.",
+                    "Are you sure?"
+                ]
+            }
+        ],
+        "subtext": "certain / make sure / pretty sure",
+        "comparative": "surer",
+        "superlative": "the surest"
     }
 ];
     const lang = "en";
