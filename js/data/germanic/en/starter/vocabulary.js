@@ -323,6 +323,7 @@
         "emoji": "🧥",
         "form": "noun",
         "plural": "jackets",
+        "subtext": "coat, wear a jacket",
         "definitions": [
             {
                 "text": "A short coat.",
@@ -340,6 +341,7 @@
         "emoji": "👔",
         "form": "noun",
         "plural": "shirts",
+        "subtext": "white shirt, wear a shirt",
         "definitions": [
             {
                 "text": "A piece of clothing worn on the upper part of the body.",
@@ -1444,6 +1446,7 @@
         "theme": "basic_foods_A1",
         "emoji": "🍲",
         "form": "noun",
+        "subtext": "healthy food, fast food",
         "definitions": [
             {
                 "text": "Things that people eat.",
@@ -1496,6 +1499,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
         "form": "noun",
+        "subtext": "eat breakfast, have breakfast",
         "definitions": [
             {
                 "text": "The first meal of the day.",
@@ -1512,6 +1516,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
         "form": "noun",
+        "subtext": "eat dinner, have dinner",
         "definitions": [
             {
                 "text": "The main meal of the day, usually in the evening.",
@@ -1616,6 +1621,7 @@
         "theme": "times_day_A1",
         "emoji": "🌅",
         "form": "noun",
+        "opposite": "evening",
         "subtext": "early morning, good morning",
         "definitions": [
             {
@@ -1633,6 +1639,7 @@
         "theme": "times_day_A1",
         "emoji": "🌆",
         "form": "noun",
+        "opposite": "morning",
         "subtext": "this evening, good evening",
         "definitions": [
             {
@@ -1651,6 +1658,7 @@
         "emoji": "☀️",
         "form": "noun",
         "plural": "days",
+        "opposite": "night",
         "definitions": [
             {
                 "text": "A period of 24 hours.",
@@ -1719,6 +1727,7 @@
         "emoji": "💼",
         "form": "noun",
         "plural": "bosses",
+        "subtext": "work, profession, get a job",
         "definitions": [
             {
                 "text": "The person who is in charge at work.",
@@ -2476,6 +2485,7 @@
         "theme": "times_day_A1",
         "emoji": "☀️",
         "form": "noun",
+        "opposite": "night",
         "subtext": "this afternoon, good afternoon",
         "definitions": [
             {
@@ -2494,6 +2504,7 @@
         "emoji": "🌙",
         "form": "noun",
         "plural": "nights",
+        "opposite": "day",
         "subtext": "good night, at night",
         "definitions": [
             {
@@ -2511,6 +2522,7 @@
         "theme": "times_day_A1",
         "emoji": "📅",
         "form": "adverb",
+        "opposite": "yesterday",
         "subtext": "today's meeting, start today",
         "definitions": [
             {
@@ -2527,6 +2539,7 @@
         "theme": "times_day_A1",
         "emoji": "⏭️",
         "form": "adverb",
+        "opposite": "yesterday",
         "subtext": "tomorrow morning, see you tomorrow",
         "definitions": [
             {
@@ -4608,6 +4621,7 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "noun",
+        "opposite": "goodbye",
         "definitions": [
             {
                 "text": "A common greeting used when meeting someone.",
@@ -4624,6 +4638,7 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "noun",
+        "opposite": "hello",
         "definitions": [
             {
                 "text": "A common greeting used when leaving someone.",
@@ -4671,6 +4686,7 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "✅",
         "form": "adverb",
+        "opposite": "no",
         "definitions": [
             {
                 "text": "Used to give a positive answer.",
@@ -4686,6 +4702,7 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "❌",
         "form": "adverb",
+        "opposite": "yes",
         "definitions": [
             {
                 "text": "Used to give a negative answer.",
@@ -5930,6 +5947,7 @@
         "theme": "times_day_A1",
         "emoji": "📅",
         "form": "adverb",
+        "opposite": "today",
         "definitions": [
             {
                 "text": "On the day before today.",
@@ -7410,6 +7428,7 @@
         "theme": "directions_navigation_A1",
         "emoji": "⬆️",
         "form": "noun",
+        "opposite": "south",
         "definitions": [
             {
                 "text": "The direction that is on your left when you face the sunrise.",
@@ -7426,6 +7445,7 @@
         "theme": "directions_navigation_A1",
         "emoji": "⬇️",
         "form": "noun",
+        "opposite": "north",
         "definitions": [
             {
                 "text": "The direction that is on your right when you face the sunrise.",
@@ -7442,6 +7462,7 @@
         "theme": "directions_navigation_A1",
         "emoji": "➡️",
         "form": "noun",
+        "opposite": "west",
         "definitions": [
             {
                 "text": "The direction where the sun rises.",
@@ -7458,6 +7479,7 @@
         "theme": "directions_navigation_A1",
         "emoji": "⬅️",
         "form": "noun",
+        "opposite": "east",
         "definitions": [
             {
                 "text": "The direction where the sun sets.",
