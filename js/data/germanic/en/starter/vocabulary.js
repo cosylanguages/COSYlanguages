@@ -4429,21 +4429,6 @@
         ]
     },
     {
-        "word": "sorry",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🙇",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Used to apologize.",
-                "examples": [
-                    "I am sorry I am late."
-                ]
-            }
-        ]
-    },
-    {
         "word": "yes",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4484,21 +4469,6 @@
                 "text": "What a person or thing is called.",
                 "examples": [
                     "My name is John."
-                ]
-            }
-        ]
-    },
-    {
-        "word": "purple",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "🟣",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "A color between blue and red.",
-                "examples": [
-                    "I have a purple shirt."
                 ]
             }
         ]

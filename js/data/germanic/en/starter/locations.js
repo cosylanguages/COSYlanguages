@@ -196,11 +196,6 @@
         "theme": "address_location_A1"
     },
     {
-        "word": "London",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
         "word": "Rome",
         "level": "starter",
         "theme": "address_location_A1"
