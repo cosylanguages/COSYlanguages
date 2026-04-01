@@ -3459,6 +3459,7 @@
         "form": "verb",
         "opposite": "end",
         "oppositeEmoji": "🏁",
+        "subtext": "start / begin a meeting / begin to work",
         "definitions": [
             {
                 "text": "To start to do something.",
@@ -3481,6 +3482,7 @@
         "form": "verb",
         "opposite": "begin",
         "oppositeEmoji": "▶️",
+        "subtext": "finish, stop / end a class / at the end",
         "definitions": [
             {
                 "text": "To finish; to stop.",
@@ -3501,6 +3503,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🪥",
         "form": "verb",
+        "subtext": "brush your teeth / hairbrush",
         "definitions": [
             {
                 "text": "To clean something with a brush.",
@@ -3521,6 +3524,7 @@
         "theme": "modes_of_transport_A1",
         "emoji": "🚲",
         "form": "verb",
+        "subtext": "ride a bike / ride a horse",
         "definitions": [
             {
                 "text": "To travel on a bike or horse.",
@@ -3541,6 +3545,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "💭",
         "form": "verb",
+        "subtext": "dream about / have a dream",
         "definitions": [
             {
                 "text": "To experience pictures or ideas in your mind while sleeping.",
@@ -3561,6 +3566,7 @@
         "theme": "giving_opinions_A1",
         "emoji": "🙏",
         "form": "verb",
+        "subtext": "think, trust / believe in / I believe so",
         "definitions": [
             {
                 "text": "To think that something is true.",
@@ -3581,6 +3587,7 @@
         "theme": "giving_opinions_A1",
         "emoji": "👉",
         "form": "verb",
+        "subtext": "like better / prefer tea to coffee",
         "definitions": [
             {
                 "text": "To like one thing more than another.",
@@ -3601,6 +3608,7 @@
         "theme": "public_transport_A1",
         "emoji": "🧤",
         "form": "verb",
+        "subtext": "catch a bus / catch a cold / catch a ball",
         "definitions": [
             {
                 "text": "To take hold of something; to get on a bus or train.",
@@ -3621,6 +3629,7 @@
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "form": "verb",
+        "subtext": "repair / fix a problem / fix a computer",
         "definitions": [
             {
                 "text": "To repair something that is broken.",
@@ -3641,6 +3650,7 @@
         "theme": "workplace_basics_A1",
         "emoji": "🎨",
         "form": "verb",
+        "subtext": "make / create a website / create art",
         "definitions": [
             {
                 "text": "To make something new.",
@@ -3661,6 +3671,7 @@
         "theme": "giving_opinions_A1",
         "emoji": "👀",
         "form": "verb",
+        "subtext": "see / notice a difference / did you notice?",
         "definitions": [
             {
                 "text": "To see or become aware of something.",
@@ -3681,6 +3692,7 @@
         "theme": "learning_studying_A1",
         "emoji": "📈",
         "form": "verb",
+        "subtext": "get better / improve your English / improve results",
         "definitions": [
             {
                 "text": "To make something better.",
@@ -3701,6 +3713,7 @@
         "theme": "cooking_methods_A1",
         "emoji": "🥘",
         "form": "verb",
+        "subtext": "get ready / prepare dinner / prepare for a meeting",
         "definitions": [
             {
                 "text": "To get something ready.",
@@ -3721,6 +3734,7 @@
         "theme": "workplace_basics_A1",
         "emoji": "📂",
         "form": "verb",
+        "subtext": "plan / organize a meeting / organize files",
         "definitions": [
             {
                 "text": "To plan or arrange something.",
@@ -3741,6 +3755,7 @@
         "theme": "workplace_basics_A1",
         "emoji": "📅",
         "form": "verb",
+        "subtext": "decide / plan a trip / plan for the future",
         "definitions": [
             {
                 "text": "To decide what you are going to do.",
@@ -3761,6 +3776,7 @@
         "theme": "money_payment_A1",
         "emoji": "📥",
         "form": "verb",
+        "subtext": "take for a short time / borrow a book / borrow money",
         "definitions": [
             {
                 "text": "To take something for a short time and then return it.",
@@ -3781,6 +3797,7 @@
         "theme": "money_payment_A1",
         "emoji": "📤",
         "form": "verb",
+        "subtext": "give for a short time / lend a pen / lend money",
         "definitions": [
             {
                 "text": "To give something for a short time.",
@@ -3801,6 +3818,7 @@
         "theme": "body_parts_A1",
         "emoji": "👃",
         "form": "verb",
+        "subtext": "scent / smell good / smell the flowers",
         "definitions": [
             {
                 "text": "To notice or recognize something using your nose.",
@@ -3821,6 +3839,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "👅",
         "form": "verb",
+        "subtext": "flavor / taste good / have a taste",
         "definitions": [
             {
                 "text": "To sense the flavor of something in your mouth.",
@@ -3841,6 +3860,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛌",
         "form": "verb",
+        "subtext": "recline / lie down / lie on the bed",
         "definitions": [
             {
                 "text": "To be in a horizontal position on a surface.",
@@ -3863,6 +3883,7 @@
         "form": "verb",
         "opposite": "cry",
         "oppositeEmoji": "😢",
+        "subtext": "chuckle / laugh at / laugh together",
         "definitions": [
             {
                 "text": "To make sounds with your voice because you think something is funny.",
@@ -3883,6 +3904,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "verb",
+        "subtext": "fret / worry about / don't worry",
         "definitions": [
             {
                 "text": "To think about problems or unpleasant things that might happen.",
@@ -3903,6 +3925,7 @@
         "theme": "giving_opinions_A1",
         "emoji": "👂",
         "form": "verb",
+        "subtext": "seem / sound like / sound good",
         "definitions": [
             {
                 "text": "To seem like something from what you have heard or read.",
@@ -3923,6 +3946,7 @@
         "theme": "classroom_language_A1",
         "emoji": "🔤",
         "form": "verb",
+        "subtext": "lettering / spell your name / spell correctly",
         "definitions": [
             {
                 "text": "To say or write the letters of a word in the correct order.",
@@ -3943,6 +3967,7 @@
         "theme": "classroom_language_A1",
         "emoji": "☝️",
         "form": "verb",
+        "subtext": "indicate / point to / point at",
         "definitions": [
             {
                 "text": "To show something by holding out your finger towards it.",
@@ -3964,6 +3989,7 @@
         "theme": "classroom_language_A1",
         "emoji": "📢",
         "form": "verb",
+        "subtext": "yell / shout at / don't shout",
         "definitions": [
             {
                 "text": "To say something very loudly.",
@@ -3984,6 +4010,7 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "verb",
+        "subtext": "greet / wave goodbye / wave hello",
         "definitions": [
             {
                 "text": "To move your hand from side to side in the air to say hello or goodbye.",
@@ -4004,6 +4031,7 @@
         "theme": "common_sports_A1",
         "emoji": "🦶",
         "form": "verb",
+        "subtext": "strike / kick a ball / kick hard",
         "definitions": [
             {
                 "text": "To hit something with your foot.",
@@ -4024,6 +4052,7 @@
         "theme": "common_sports_A1",
         "emoji": "⚾",
         "form": "verb",
+        "subtext": "toss / throw a ball / throw away",
         "definitions": [
             {
                 "text": "To make something move through the air by pushing it out of your hand.",
@@ -4044,6 +4073,7 @@
         "theme": "common_sports_A1",
         "emoji": "🏀",
         "form": "verb",
+        "subtext": "rebound / bounce a ball / bouncing",
         "definitions": [
             {
                 "text": "To move up or away after hitting a surface.",
@@ -4064,6 +4094,7 @@
         "theme": "hobbies_interests_A1",
         "emoji": "🎨",
         "form": "verb",
+        "subtext": "color / paint a picture / painting",
         "definitions": [
             {
                 "text": "To make a picture using paint.",
@@ -4084,6 +4115,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "🐇",
         "form": "verb",
+        "subtext": "jump / hop around / hop like a rabbit",
         "definitions": [
             {
                 "text": "To jump on one foot.",
@@ -4104,6 +4136,7 @@
         "theme": "leisure_activities_A1",
         "emoji": "🏃",
         "form": "verb",
+        "subtext": "jump / skip rope / skipping",
         "definitions": [
             {
                 "text": "To move along by jumping from one foot to the other.",
@@ -4124,6 +4157,7 @@
         "theme": "numbers_0_9_A1",
         "emoji": "🔢",
         "form": "verb",
+        "subtext": "calculate / count to ten / count numbers",
         "definitions": [
             {
                 "text": "To say numbers in order.",
@@ -4144,6 +4178,7 @@
         "theme": "classroom_language_A1",
         "emoji": "✅",
         "form": "verb",
+        "subtext": "check / tick the box / tick correctly",
         "definitions": [
             {
                 "text": "To put a mark (✓) next to something to show it is correct.",
@@ -4164,6 +4199,7 @@
         "theme": "classroom_language_A1",
         "emoji": "❌",
         "form": "verb",
+        "subtext": "x-mark / cross out / cross the answer",
         "definitions": [
             {
                 "text": "To put a mark (X) next to something to show it is wrong.",
@@ -4184,6 +4220,7 @@
         "theme": "classroom_language_A1",
         "emoji": "🖍️",
         "form": "verb",
+        "subtext": "color / colour the picture / use colours",
         "definitions": [
             {
                 "text": "To use a pen or pencil to put colour on a picture.",
@@ -4204,6 +4241,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🤲",
         "form": "verb",
+        "subtext": "grip / hold my hand / hold on",
         "definitions": [
             {
                 "text": "To have or keep something in your hand or arms.",
@@ -4225,6 +4263,7 @@
         "theme": "workplace_basics_A1",
         "emoji": "👤",
         "form": "verb",
+        "subtext": "guide, direct / lead a team / follow the lead",
         "definitions": [
             {
                 "text": "To control a group of people, a country, or a situation.",
@@ -4245,6 +4284,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "⚔️",
         "form": "verb",
+        "subtext": "battle / fight for / a big fight",
         "definitions": [
             {
                 "text": "To use physical force to try to hurt someone or win something.",
@@ -4288,6 +4328,7 @@
         "theme": "toys_games_A1",
         "emoji": "🔍",
         "form": "verb",
+        "subtext": "look for / hide and seek / seek help",
         "definitions": [
             {
                 "text": "To try to find or get something.",
@@ -4308,6 +4349,7 @@
         "theme": "basic_technology_devices_A1",
         "emoji": "🔔",
         "form": "verb",
+        "subtext": "chime / phone is ringing / ring a bell",
         "definitions": [
             {
                 "text": "To make a sound like a bell.",
@@ -4328,6 +4370,7 @@
         "theme": "using_smartphone_A1",
         "emoji": "📱",
         "form": "verb",
+        "subtext": "message / text someone / send a text",
         "definitions": [
             {
                 "text": "To send a message from a mobile phone.",
@@ -4348,6 +4391,7 @@
         "theme": "classroom_language_A1",
         "emoji": "🤫",
         "form": "verb",
+        "subtext": "murmur / whisper a secret / speak softly",
         "definitions": [
             {
                 "text": "To speak very quietly so that other people cannot hear you.",
@@ -4368,6 +4412,7 @@
         "theme": "five_senses_A1",
         "emoji": "🫱",
         "form": "verb",
+        "subtext": "feel / don't touch / touch screen",
         "definitions": [
             {
                 "text": "To put your hand or another part of your body on something.",
