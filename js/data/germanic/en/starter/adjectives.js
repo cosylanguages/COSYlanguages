@@ -7,6 +7,7 @@
         "form": "adjective",
         "opposite": "short",
         "oppositeEmoji": "📏",
+        "emoji": "🦒",
         "definitions": [
             {
                 "text": "A person or thing that is big from bottom to top.",
@@ -22,7 +23,7 @@
                 ]
             }
         ],
-        "subtext": "a tall building / a tall person / tall enough",
+        "subtext": "high, lofty / a tall building / a tall person / tall enough",
         "comparative": "taller",
         "superlative": "the tallest"
     },
@@ -33,6 +34,7 @@
         "form": "adjective",
         "opposite": "tall",
         "oppositeEmoji": "🗼",
+        "emoji": "📏",
         "definitions": [
             {
                 "text": "A person or thing that is not tall.",
@@ -48,7 +50,7 @@
                 ]
             }
         ],
-        "subtext": "a short journey / short hair / too short",
+        "subtext": "small, brief / a short journey / short hair / too short",
         "comparative": "shorter",
         "superlative": "the shortest"
     },
@@ -59,6 +61,7 @@
         "form": "adjective",
         "opposite": "old",
         "oppositeEmoji": "👴",
+        "emoji": "👶",
         "definitions": [
             {
                 "text": "Having lived or existed for only a short time.",
@@ -67,7 +70,7 @@
                 ]
             }
         ],
-        "subtext": "young person / young professional / young at heart",
+        "subtext": "youthful / young person / young professional / young at heart",
         "comparative": "younger",
         "superlative": "the youngest"
     },
@@ -78,6 +81,7 @@
         "form": "adjective",
         "opposite": "young",
         "oppositeEmoji": "👶",
+        "emoji": "👴",
         "definitions": [
             {
                 "text": "Having lived or existed for a long time.",
@@ -92,7 +96,7 @@
                 ]
             }
         ],
-        "subtext": "old friend / old habits / very old",
+        "subtext": "elderly, ancient / old friend / old habits / very old",
         "comparative": "older",
         "superlative": "the oldest"
     },
@@ -102,6 +106,8 @@
         "theme": "weather_A1",
         "emoji": "☀️",
         "form": "adjective",
+        "opposite": "rainy",
+        "oppositeEmoji": "🌧️",
         "definitions": [
             {
                 "text": "Having a lot of light from the sun.",
@@ -111,7 +117,7 @@
                 ]
             }
         ],
-        "subtext": "sunny day / sunny weather / sunny spell",
+        "subtext": "bright, clear / sunny day / sunny weather / sunny spell",
         "comparative": "sunnier",
         "superlative": "the sunniest"
     },
@@ -121,6 +127,8 @@
         "theme": "weather_A1",
         "emoji": "🌧️",
         "form": "adjective",
+        "opposite": "sunny",
+        "oppositeEmoji": "☀️",
         "definitions": [
             {
                 "text": "Having a lot of rain.",
@@ -130,7 +138,7 @@
                 ]
             }
         ],
-        "subtext": "rainy day / rainy weather / rainy season",
+        "subtext": "wet, showery / rainy day / rainy weather / rainy season",
         "comparative": "rainier",
         "superlative": "the rainiest"
     },
@@ -411,7 +419,9 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
-        "subtext": "glad, cheerful, feel happy / feel happy / happy with something / a happy day",
+        "opposite": "sad",
+        "oppositeEmoji": "😢",
+        "subtext": "glad, joyful, cheerful / feel happy / happy with something / a happy day",
         "definitions": [
             {
                 "text": "Feeling pleasure or joy.",
@@ -482,6 +492,7 @@
                 ]
             }
         ],
+        "subtext": "parched, dehydrated",
         "comparative": "thirstier",
         "superlative": "the thirstiest"
     },
@@ -614,7 +625,7 @@
         "form": "adjective",
         "opposite": "stressed",
         "oppositeEmoji": "😫",
-        "subtext": "calm, feeling relaxed",
+        "subtext": "calm, peaceful, chilled / feeling relaxed",
         "definitions": [
             {
                 "text": "Calm; not worried or stressed.",
@@ -634,7 +645,7 @@
         "form": "adjective",
         "opposite": "calm",
         "oppositeEmoji": "😌",
-        "subtext": "anxious",
+        "subtext": "anxious, nervous, uneasy",
         "definitions": [
             {
                 "text": "Feeling anxious about something that might happen.",
@@ -1392,7 +1403,9 @@
         "word": "sad",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel sad / a sad situation / deeply sad",
+        "opposite": "happy",
+        "oppositeEmoji": "😊",
+        "subtext": "unhappy, miserable, gloomy / feel sad / a sad situation / deeply sad",
         "definitions": [
             {
                 "text": "Feeling unhappy or sorrowful.",
@@ -1409,7 +1422,9 @@
         "word": "hungry",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel hungry / very hungry / go hungry",
+        "opposite": "full",
+        "oppositeEmoji": "🤰",
+        "subtext": "starving, famished / feel hungry / very hungry / go hungry",
         "definitions": [
             {
                 "text": "Needing food.",
@@ -1426,7 +1441,7 @@
         "word": "angry",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel angry / angry with someone / very angry",
+        "subtext": "mad, furious, annoyed / feel angry / angry with someone / very angry",
         "definitions": [
             {
                 "text": "Feeling strong displeasure.",
@@ -1443,7 +1458,7 @@
         "word": "bored",
         "level": "starter",
         "form": "adjective",
-        "subtext": "feel bored / bored with / easily bored",
+        "subtext": "uninterested, weary / feel bored / bored with / easily bored",
         "definitions": [
             {
                 "text": "Feeling uninterested or restless.",
@@ -1477,7 +1492,7 @@
         "word": "afraid",
         "level": "starter",
         "form": "adjective",
-        "subtext": "afraid of / feel afraid / deeply afraid",
+        "subtext": "scared, frightened, terrified / afraid of / feel afraid / deeply afraid",
         "definitions": [
             {
                 "text": "Feeling fear.",
@@ -1801,7 +1816,7 @@
                 ]
             }
         ],
-        "subtext": "feel proud / very proud / proud of",
+        "subtext": "pleased, satisfied / feel proud / very proud / proud of",
         "comparative": "prouder",
         "superlative": "the proudest"
     },
@@ -1810,6 +1825,8 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
+        "opposite": "brave",
+        "oppositeEmoji": "🦁",
         "definitions": [
             {
                 "text": "Feeling fear about something.",
@@ -1818,7 +1835,7 @@
                 ]
             }
         ],
-        "subtext": "feel scared / scared of / very scared",
+        "subtext": "afraid, frightened / feel scared / scared of / very scared",
         "comparative": "more scared",
         "superlative": "the most scared"
     },
@@ -1835,7 +1852,7 @@
                 ]
             }
         ],
-        "subtext": "feel surprised / very surprised / pleasantly surprised",
+        "subtext": "amazed, astonished / feel surprised / very surprised / pleasantly surprised",
         "comparative": "more surprised",
         "superlative": "the most surprised"
     },
@@ -1852,7 +1869,7 @@
                 ]
             }
         ],
-        "subtext": "feel disappointed / deeply disappointed / disappointed with",
+        "subtext": "sad, let down / feel disappointed / deeply disappointed / disappointed with",
         "comparative": "more disappointed",
         "superlative": "the most disappointed"
     },
@@ -1929,6 +1946,8 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "form": "adjective",
+        "opposite": "unfit",
+        "oppositeEmoji": "🛋️",
         "definitions": [
             {
                 "text": "In good physical condition through exercise.",
@@ -1937,7 +1956,7 @@
                 ]
             }
         ],
-        "subtext": "physically fit / stay fit / keep fit",
+        "subtext": "healthy, in shape / physically fit / stay fit / keep fit",
         "comparative": "fitter",
         "superlative": "the fittest"
     },
@@ -2389,6 +2408,8 @@
         "theme": "describing_things_A1",
         "emoji": "⚠️",
         "form": "adjective",
+        "opposite": "careless",
+        "subtext": "cautious / be careful / careful planning",
         "definitions": [
             {
                 "text": "Giving a lot of attention to what you are doing so that you do not have an accident or make a mistake.",
@@ -2558,6 +2579,7 @@
         "form": "adjective",
         "opposite": "beautiful",
         "oppositeEmoji": "✨",
+        "subtext": "unattractive / ugly building / ugly duckling",
         "definitions": [
             {
                 "text": "Unpleasant to look at.",
@@ -2613,6 +2635,7 @@
         "form": "adjective",
         "opposite": "poor",
         "oppositeEmoji": "🏚️",
+        "subtext": "wealthy / rich man / rich country / very rich",
         "definitions": [
             {
                 "text": "Having a lot of money.",
@@ -2632,6 +2655,7 @@
         "form": "adjective",
         "opposite": "rich",
         "oppositeEmoji": "💰",
+        "subtext": "broke, impoverished / poor family / feel poor",
         "definitions": [
             {
                 "text": "Having very little money.",
@@ -2706,6 +2730,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "😋",
         "form": "adjective",
+        "subtext": "tasty, yummy / delicious meal / smell delicious",
         "definitions": [
             {
                 "text": "Having a very pleasant taste or smell.",
@@ -2723,6 +2748,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🍬",
         "form": "adjective",
+        "subtext": "sugary / sweet fruit / sweet tooth / very sweet",
         "definitions": [
             {
                 "text": "Having a taste like sugar.",

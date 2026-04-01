@@ -27,6 +27,23 @@
         ]
     },
     {
+        "word": "soda",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "emoji": "🥤",
+        "form": "noun",
+        "plural": "sodas",
+        "subtext": "fizzy drink, soft drink",
+        "definitions": [
+            {
+                "text": "A sweet drink with bubbles.",
+                "examples": [
+                    "I don't drink much soda because it has a lot of sugar."
+                ]
+            }
+        ]
+    },
+    {
         "word": "scarf",
         "level": "starter",
         "theme": "accessories_A1",
@@ -38,6 +55,22 @@
                 "text": "A piece of cloth that you wear around your neck to keep warm.",
                 "examples": [
                     "He wears a scarf around his neck."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cereal",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "emoji": "🥣",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A food made from grain that people often eat for breakfast with milk.",
+                "examples": [
+                    "I have a bowl of cereal every morning."
                 ]
             }
         ]
@@ -81,6 +114,7 @@
         "emoji": "👔",
         "form": "noun",
         "plural": "suits",
+        "subtext": "wear a suit",
         "definitions": [
             {
                 "text": "A set of clothes made from the same cloth.",
@@ -115,6 +149,7 @@
         "emoji": "💵",
         "form": "noun",
         "plural": "bills",
+        "subtext": "pay a bill",
         "definitions": [
             {
                 "text": "A piece of paper that shows how much money you must pay for something.",
@@ -131,6 +166,7 @@
         "emoji": "🧾",
         "form": "noun",
         "plural": "receipts",
+        "subtext": "keep a receipt",
         "definitions": [
             {
                 "text": "A piece of paper that shows you have paid for something.",
@@ -147,6 +183,7 @@
         "emoji": "💵",
         "form": "noun",
         "plural": null,
+        "subtext": "pay in cash",
         "definitions": [
             {
                 "text": "Money in the form of notes and coins.",
@@ -163,6 +200,7 @@
         "emoji": "💳",
         "form": "noun",
         "plural": "cards",
+        "subtext": "pay by card",
         "definitions": [
             {
                 "text": "A small plastic card that you use to pay for things.",
@@ -179,6 +217,7 @@
         "emoji": "📄",
         "form": "noun",
         "plural": "reports",
+        "subtext": "write a report",
         "definitions": [
             {
                 "text": "A document that gives information about a subject.",
@@ -686,6 +725,7 @@
         "emoji": "👕",
         "form": "noun",
         "plural": "t-shirts",
+        "subtext": "wear a t-shirt",
         "definitions": [
             {
                 "text": "A casual shirt with short sleeves and no collar.",
@@ -719,6 +759,7 @@
         "emoji": "👟",
         "form": "noun",
         "plural": "shoes",
+        "subtext": "put on shoes, pair of shoes",
         "definitions": [
             {
                 "text": "Something you wear on your feet.",
@@ -735,6 +776,7 @@
         "emoji": "👒",
         "form": "noun",
         "plural": "hats",
+        "subtext": "wear a hat",
         "definitions": [
             {
                 "text": "Something you wear on your head.",
@@ -2996,6 +3038,7 @@
         "emoji": "🧥",
         "form": "noun",
         "plural": "coats",
+        "subtext": "put on a coat",
         "definitions": [
             {
                 "text": "A piece of clothing that you wear over other clothes to keep warm.",
@@ -4587,6 +4630,8 @@
         "emoji": "🧑‍🎓",
         "form": "noun",
         "plural": "students",
+        "opposite": "teacher",
+        "oppositeEmoji": "🧑‍🏫",
         "definitions": [
             {
                 "text": "A person who is studying at a school or university.",
@@ -5388,6 +5433,7 @@
         "emoji": "👖",
         "form": "noun",
         "plural": "jeans",
+        "subtext": "pair of jeans",
         "definitions": [
             {
                 "text": "Trousers made of strong blue cotton cloth.",
@@ -8482,6 +8528,296 @@
                 "text": "A small piece of paper that you buy and stick onto an envelope.",
                 "examples": [
                     "I need a stamp for this letter."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "stapler",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "🖇️",
+        "form": "noun",
+        "plural": "staplers",
+        "definitions": [
+            {
+                "text": "A small device used for joining together sheets of paper with a small piece of metal.",
+                "examples": [
+                    "I need a stapler for these reports."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "glue",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "🧪",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "A sticky substance used for joining things together.",
+                "examples": [
+                    "Use some glue to fix the picture."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "scissors",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "✂️",
+        "form": "noun",
+        "plural": "scissors",
+        "definitions": [
+            {
+                "text": "A tool used for cutting paper, cloth, etc.",
+                "examples": [
+                    "Where are the scissors? I need to cut this paper."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "calculator",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "🔢",
+        "form": "noun",
+        "plural": "calculators",
+        "definitions": [
+            {
+                "text": "A small electronic device used for adding, subtracting, etc.",
+                "examples": [
+                    "I use a calculator for my maths homework."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "washing machine",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🧺",
+        "form": "noun",
+        "plural": "washing machines",
+        "definitions": [
+            {
+                "text": "A machine for washing clothes.",
+                "examples": [
+                    "Put your dirty shirts in the washing machine."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dishwasher",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🧼",
+        "form": "noun",
+        "plural": "dishwashers",
+        "definitions": [
+            {
+                "text": "A machine that washes dishes.",
+                "examples": [
+                    "Load the dishwasher after dinner."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "toaster",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🍞",
+        "form": "noun",
+        "plural": "toasters",
+        "definitions": [
+            {
+                "text": "A piece of electrical equipment used for making toast.",
+                "examples": [
+                    "Put the bread in the toaster."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "vacuum cleaner",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🧹",
+        "form": "noun",
+        "plural": "vacuum cleaners",
+        "definitions": [
+            {
+                "text": "A machine that cleans floors by sucking up dirt.",
+                "examples": [
+                    "I need to use the vacuum cleaner on the rug."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "remote control",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🎮",
+        "form": "noun",
+        "plural": "remote controls",
+        "definitions": [
+            {
+                "text": "A small device that you use to control a television from a distance.",
+                "examples": [
+                    "Where is the remote control for the TV?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "rainbow",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌈",
+        "form": "noun",
+        "plural": "rainbows",
+        "definitions": [
+            {
+                "text": "A large curve of different colors that can sometimes be seen in the sky when there is sun and rain.",
+                "examples": [
+                    "Look! There is a beautiful rainbow in the sky."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "storm",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "⛈️",
+        "form": "noun",
+        "plural": "storms",
+        "definitions": [
+            {
+                "text": "A period of very bad weather when there is a lot of rain, wind, and often lightning and thunder.",
+                "examples": [
+                    "There was a big storm last night."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pyjamas",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🛌",
+        "form": "noun",
+        "plural": "pyjamas",
+        "definitions": [
+            {
+                "text": "Soft loose clothes that you wear in bed.",
+                "examples": [
+                    "Put on your pyjamas and go to sleep."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "shorts",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🩳",
+        "form": "noun",
+        "plural": "shorts",
+        "definitions": [
+            {
+                "text": "Short trousers that end above the knees.",
+                "examples": [
+                    "I wear shorts in summer."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "trainers",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👟",
+        "form": "noun",
+        "plural": "trainers",
+        "subtext": "sneakers",
+        "definitions": [
+            {
+                "text": "Soft shoes that you wear for sport or as casual clothes.",
+                "examples": [
+                    "I need a new pair of trainers."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "living room",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "emoji": "🛋️",
+        "form": "noun",
+        "plural": "living rooms",
+        "definitions": [
+            {
+                "text": "The main room in a house where people sit and relax.",
+                "examples": [
+                    "We are watching TV in the living room."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "dining room",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "emoji": "🍽️",
+        "form": "noun",
+        "plural": "dining rooms",
+        "definitions": [
+            {
+                "text": "A room in a house where people eat their meals.",
+                "examples": [
+                    "Dinner is served in the dining room."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "break",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "☕",
+        "form": "noun",
+        "plural": "breaks",
+        "subtext": "lunch break, take a break",
+        "definitions": [
+            {
+                "text": "A short period of time when you stop working or studying to rest or eat.",
+                "examples": [
+                    "Let's take a fifteen-minute break."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "globe",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🌍",
+        "form": "noun",
+        "plural": "globes",
+        "definitions": [
+            {
+                "text": "A round object with a map of the world on it.",
+                "examples": [
+                    "Look for Italy on the globe."
                 ]
             }
         ]
