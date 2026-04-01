@@ -1896,6 +1896,29 @@
         "auxiliary": "avoir"
     },
     {
+        "word": "soustraire",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "➖",
+        "subtext": "soustraire de / moins",
+        "opposite": "ajouter",
+        "oppositeEmoji": "➕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Enlever un nombre ou une quantité à un autre nombre ou une autre quantité.",
+                "examples": [
+                    "Si on soustrait cinq de dix, on obtient cinq."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "soustrait",
+        "group": "re",
+        "auxiliary": "avoir"
+    },
+    {
         "word": "gagner",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2029,6 +2052,30 @@
         "group": "er",
         "auxiliary": "être"
     },
+    {
+    "word": "se lever",
+    "level": "starter",
+    "theme": "seasons_climate_A1",
+    "emoji": "🌅",
+    "subtext": "se lever / augmenter / s'élever",
+    "opposite": "tomber",
+    "oppositeEmoji": "🍂",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "Se déplacer vers le haut ; augmenter en quantité ou en niveau.",
+            "examples": [
+                "Le soleil se lève à l'est.",
+                "Les prix augmentent chaque année."
+            ]
+        }
+    ],
+    "classification": "irregular",
+    "aspect": "action",
+    "v3": "levé",
+    "group": "er",
+    "auxiliary": "être"
+},
     {
         "word": "passer",
         "level": "starter",
@@ -4299,29 +4346,6 @@
         "auxiliary": "avoir"
     },
     {
-        "word": "soustraire",
-        "level": "starter",
-        "theme": "numbers_100_999_A1",
-        "emoji": "➖",
-        "subtext": "soustraire de / moins",
-        "opposite": "ajouter",
-        "oppositeEmoji": "➕",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Enlever un nombre ou une quantité à un autre nombre ou une autre quantité.",
-                "examples": [
-                    "Si on soustrait cinq de dix, on obtient cinq."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v3": "soustrait",
-        "group": "re",
-        "auxiliary": "avoir"
-    },
-    {
         "word": "laisser",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -4365,6 +4389,74 @@
         "group": "er",
         "auxiliary": "avoir"
     },
+    {
+    "word": "échouer",
+    "level": "starter",
+    "theme": "learning_studying_A1",
+    "emoji": "❌",
+    "subtext": "échouer à un examen / rater / échouer complètement",
+    "opposite": "passer",
+    "oppositeEmoji": "🏔️",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "Ne pas réussir ce que l'on essaie de faire.",
+            "examples": [
+                "J'ai échoué à mon permis de conduire trois fois.",
+                "Elle a échoué à arriver à l'heure."
+            ]
+        }
+    ],
+    "classification": "regular",
+    "aspect": "action",
+    "v3": "échoué",
+    "group": "er",
+    "auxiliary": "avoir"
+},
+    {
+    "word": "envoyer un e-mail",
+    "level": "starter",
+    "theme": "using_smartphone_A1",
+    "emoji": "📧",
+    "subtext": "envoyer un e-mail à quelqu'un / répondre par e-mail",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "Envoyer un message en utilisant internet.",
+            "examples": [
+                "Envoie-moi les détails par e-mail.",
+                "Je t'enverrai un e-mail demain."
+            ]
+        }
+    ],
+    "classification": "irregular",
+    "aspect": "action",
+    "v3": "envoyé un e-mail",
+    "group": "locution",
+    "auxiliary": "avoir"
+},
+    {
+    "word": "téléphoner",
+    "level": "starter",
+    "theme": "using_smartphone_A1",
+    "emoji": "📞",
+    "subtext": "téléphoner à quelqu'un / rappeler / être au téléphone",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "Appeler quelqu'un en utilisant un téléphone.",
+            "examples": [
+                "Je t'appellerai plus tard.",
+                "Il a téléphoné à sa mère."
+            ]
+        }
+    ],
+    "classification": "regular",
+    "aspect": "action",
+    "v3": "téléphoné",
+    "group": "er",
+    "auxiliary": "avoir"
+},
     {
         "word": "grimper",
         "level": "starter",
@@ -4411,6 +4503,54 @@
         "group": "er",
         "auxiliary": "être"
     },
+    {
+    "word": "se déshabiller",
+    "level": "starter",
+    "theme": "daily_work_routines_A1",
+    "emoji": "👕",
+    "subtext": "se déshabiller / se déshabiller rapidement",
+    "opposite": "s'habiller",
+    "oppositeEmoji": "👗",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "Enlever ses vêtements ou ceux de quelqu'un d'autre.",
+            "examples": [
+                "Il s'est déshabillé et s'est couché.",
+                "Déshabille-toi et prends un bain."
+            ]
+        }
+    ],
+    "classification": "regular",
+    "aspect": "action",
+    "v3": "déshabillé",
+    "group": "er",
+    "auxiliary": "être"
+},
+    {
+    "word": "allumer",
+    "level": "starter",
+    "theme": "basic_technology_devices_A1",
+    "emoji": "💡",
+    "subtext": "allumer la lumière / allumer la télé / allumer la radio",
+    "opposite": "éteindre",
+    "oppositeEmoji": "🌑",
+    "form": "verb",
+    "definitions": [
+        {
+            "text": "Faire fonctionner un appareil ou éclairer.",
+            "examples": [
+                "Allume la lumière, s'il te plaît.",
+                "Il allume son ordinateur à neuf heures."
+            ]
+        }
+    ],
+    "classification": "regular",
+    "aspect": "action",
+    "v3": "allumé",
+    "group": "er",
+    "auxiliary": "avoir"
+},
     {
         "word": "éteindre",
         "level": "starter",

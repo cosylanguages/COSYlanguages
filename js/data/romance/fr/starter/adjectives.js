@@ -28,7 +28,8 @@
         "superlative": "le plus grand",
         "opposite": "court",
         "oppositeEmoji": "📏"
-    }, {
+    },
+    {
         "word": "court",
         "feminine": "courte",
         "level": "starter",
@@ -56,7 +57,8 @@
         "superlative": "le plus court",
         "opposite": "grand",
         "oppositeEmoji": "🗼"
-    }, {
+    },
+    {
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
@@ -78,7 +80,8 @@
         "oppositeEmoji": "👴",
         "subtext": "jeune personne / jeune professionnel / jeune de cœur",
         "word": "jeune"
-    }, {
+    },
+    {
         "word": "vieux",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -100,7 +103,8 @@
         "subtext": "vieil ami / vieilles habitudes / très vieux",
         "comparative": "plus vieux",
         "superlative": "le plus vieux"
-    }, {
+    },
+    {
         "word": "ensoleillé",
         "level": "starter",
         "theme": "weather_A1",
@@ -121,7 +125,8 @@
         "feminine": "ensoleillée",
         "plural": "ensoleillés",
         "femininePlural": "ensoleillées"
-    }, {
+    },
+    {
         "word": "pluvieux",
         "level": "starter",
         "theme": "weather_A1",
@@ -142,7 +147,8 @@
         "feminine": "pluvieuse",
         "plural": "pluvieux",
         "femininePlural": "pluvieuses"
-    }, {
+    },
+    {
         "word": "chaud",
         "level": "starter",
         "theme": "weather_A1",
@@ -164,7 +170,8 @@
         "subtext": "très chaud / temps chaud / une boisson chaude / trop chaud",
         "comparative": "plus chaud",
         "superlative": "le plus chaud"
-    }, {
+    },
+    {
         "word": "froid",
         "level": "starter",
         "theme": "weather_A1",
@@ -186,7 +193,8 @@
         "subtext": "très froid / matinée froide / temps froid / une boisson froide / trop froid",
         "comparative": "plus froid",
         "superlative": "le plus froid"
-    }, {
+    },
+    {
         "word": "ordinaire",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -207,7 +215,8 @@
         "feminine": "ordinaire",
         "plural": "ordinaires",
         "femininePlural": "ordinaires"
-    }, {
+    },
+    {
         "word": "bon marché",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -229,7 +238,8 @@
         "subtext": "prix bas, bon marché / vol pas cher / très bon marché / simple et efficace",
         "comparative": "plus bon marché",
         "superlative": "le plus bon marché"
-    }, {
+    },
+    {
         "word": "cher",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -251,7 +261,8 @@
         "subtext": "coûteux, prix élevé / très cher / goûts de luxe / trop cher",
         "comparative": "plus cher",
         "superlative": "le plus cher"
-    }, {
+    },
+    {
         "word": "bon",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -273,7 +284,8 @@
         "subtext": "génial, agréable / bonne idée / bonne chance / bon rapport qualité-prix",
         "comparative": "meilleur",
         "superlative": "le meilleur"
-    }, {
+    },
+    {
         "word": "mauvais",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -295,7 +307,8 @@
         "subtext": "terrible, affreux / mauvaises nouvelles / malchance / mauvaise décision",
         "comparative": "pire",
         "superlative": "le pire"
-    }, {
+    },
+    {
         "word": "grand",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -317,7 +330,8 @@
         "subtext": "grand, immense / une grande maison / un gros problème / assez grand",
         "comparative": "plus grand",
         "superlative": "le plus grand"
-    }, {
+    },
+    {
         "word": "petit",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -339,7 +353,8 @@
         "subtext": "petit, minuscule / un petit appartement / un petit salaire / trop petit",
         "comparative": "plus petit",
         "superlative": "le plus petit"
-    }, {
+    },
+    {
         "word": "facile",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -361,7 +376,8 @@
         "subtext": "facile à faire / simple comme bonjour / pas facile",
         "comparative": "plus facile",
         "superlative": "le plus facile"
-    }, {
+    },
+    {
         "word": "difficile",
         "level": "starter",
         "theme": "size_shape_A1",
@@ -383,7 +399,8 @@
         "subtext": "difficile à faire / très difficile / trouver cela difficile",
         "comparative": "plus difficile",
         "superlative": "le plus difficile"
-    }, {
+    },
+    {
         "word": "heureux",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -403,7 +420,8 @@
         "subtext": "heureux, joyeux / se sentir heureux / content de quelque chose / un jour de bonheur",
         "comparative": "plus heureux",
         "superlative": "le plus heureux"
-    }, {
+    },
+    {
         "word": "fatigué",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -423,27 +441,8 @@
         "subtext": "somnolent, épuisé / se sentir fatigué / fatigué de quelque chose / très fatigué",
         "comparative": "plus fatigué",
         "superlative": "le plus fatigué"
-    }, {
-        "word": "assoiffé",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "🥤",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Ayant besoin ou envie de boire.",
-                "examples": [
-                    "J'ai soif — est-ce que je peux avoir de l'eau ?"
-                ]
-            }
-        ],
-        "feminine": "assoiffée",
-        "plural": "assoiffés",
-        "femininePlural": "assoiffées",
-        "subtext": "assoiffé, déshydraté / avoir soif",
-        "comparative": "plus assoiffé",
-        "superlative": "le plus assoiffé"
-    }, {
+    },
+    {
         "word": "à plein temps",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -465,7 +464,29 @@
         "feminine": "à plein temps",
         "plural": "à plein temps",
         "femininePlural": "à plein temps"
-    }, {
+    },
+    {
+        "word": "assoiffé",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "🥤",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ayant besoin ou envie de boire.",
+                "examples": [
+                    "J'ai soif — est-ce que je peux avoir de l'eau ?"
+                ]
+            }
+        ],
+        "feminine": "assoiffée",
+        "plural": "assoiffés",
+        "femininePlural": "assoiffées",
+        "subtext": "assoiffé, déshydraté / avoir soif",
+        "comparative": "plus assoiffé",
+        "superlative": "le plus assoiffé"
+    },
+    {
         "word": "à temps partiel",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -487,7 +508,8 @@
         "feminine": "à temps partiel",
         "plural": "à temps partiel",
         "femininePlural": "à temps partiel"
-    }, {
+    },
+    {
         "word": "propre",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -509,7 +531,8 @@
         "femininePlural": "propres",
         "comparative": "plus propre",
         "superlative": "le plus propre"
-    }, {
+    },
+    {
         "word": "sain",
         "level": "starter",
         "theme": "basic_foods_A1",
@@ -531,7 +554,8 @@
         "superlative": "le plus sain",
         "opposite": "unhealthy",
         "oppositeEmoji": "🍔"
-    }, {
+    },
+    {
         "word": "malade",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -553,7 +577,8 @@
         "superlative": "le plus malade",
         "opposite": "well",
         "oppositeEmoji": "💪"
-    }, {
+    },
+    {
         "word": "en ligne",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -575,7 +600,8 @@
         "feminine": "en ligne",
         "plural": "en ligne",
         "femininePlural": "en ligne"
-    }, {
+    },
+    {
         "word": "seul",
         "level": "starter",
         "theme": "family_life_A1",
@@ -597,7 +623,8 @@
         "feminine": "seule",
         "plural": "seuls",
         "femininePlural": "seules"
-    }, {
+    },
+    {
         "word": "détendu",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -619,7 +646,8 @@
         "superlative": "le plus détendu",
         "opposite": "stressé",
         "oppositeEmoji": "😫"
-    }, {
+    },
+    {
         "word": "inquiet",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -641,7 +669,8 @@
         "superlative": "le plus inquiet",
         "opposite": "calm",
         "oppositeEmoji": "😌"
-    }, {
+    },
+    {
         "word": "occupé",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -661,7 +690,8 @@
         "subtext": "très occupé / journée chargée / emploi du temps chargé / trop occupé",
         "comparative": "plus occupé",
         "superlative": "le plus occupé"
-    }, {
+    },
+    {
         "word": "utile",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -683,7 +713,8 @@
         "superlative": "le plus utile",
         "opposite": "inutile",
         "oppositeEmoji": "🗑️"
-    }, {
+    },
+    {
         "word": "important",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -703,7 +734,8 @@
         "femininePlural": "importantes",
         "comparative": "plus important",
         "superlative": "le plus important"
-    }, {
+    },
+    {
         "word": "rouge",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -723,7 +755,8 @@
         "femininePlural": "rouges",
         "comparative": "plus rouge",
         "superlative": "le plus rouge"
-    }, {
+    },
+    {
         "word": "bleu",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -743,7 +776,8 @@
         "femininePlural": "bleues",
         "comparative": "plus bleu",
         "superlative": "le plus bleu"
-    }, {
+    },
+    {
         "word": "vert",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -763,7 +797,8 @@
         "femininePlural": "vertes",
         "comparative": "plus vert",
         "superlative": "le plus vert"
-    }, {
+    },
+    {
         "word": "blanc",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -783,7 +818,8 @@
         "femininePlural": "blanches",
         "comparative": "plus blanc",
         "superlative": "le plus blanc"
-    }, {
+    },
+    {
         "word": "noir",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -803,7 +839,8 @@
         "femininePlural": "noires",
         "comparative": "plus noir",
         "superlative": "le plus noir"
-    }, {
+    },
+    {
         "word": "jaune",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -823,7 +860,8 @@
         "femininePlural": "jaunes",
         "comparative": "plus jaune",
         "superlative": "le plus jaune"
-    }, {
+    },
+    {
         "word": "libre",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -843,7 +881,8 @@
         "femininePlural": "libres",
         "comparative": "plus libre",
         "superlative": "le plus libre"
-    }, {
+    },
+    {
         "word": "ouvert",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -865,7 +904,8 @@
         "femininePlural": "ouvertes",
         "comparative": "plus ouvert",
         "superlative": "le plus ouvert"
-    }, {
+    },
+    {
         "word": "fermé",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -887,7 +927,8 @@
         "femininePlural": "fermées",
         "comparative": "plus fermé",
         "superlative": "le plus fermé"
-    }, {
+    },
+    {
         "word": "grand",
         "feminine": "grande",
         "level": "starter",
@@ -907,7 +948,8 @@
         "subtext": "une grande ville / une grande entreprise / une grande quantité",
         "comparative": "plus grand",
         "superlative": "le plus grand"
-    }, {
+    },
+    {
         "word": "petit",
         "feminine": "petite",
         "level": "starter",
@@ -927,7 +969,8 @@
         "subtext": "a little bit / a little money / too little",
         "comparative": "plus petit",
         "superlative": "le plus petit"
-    }, {
+    },
+    {
         "word": "long",
         "feminine": "longue",
         "level": "starter",
@@ -947,7 +990,8 @@
         "subtext": "un long voyage / une longue journée / une longue durée",
         "comparative": "plus long",
         "superlative": "le plus long"
-    }, {
+    },
+    {
         "word": "haut",
         "feminine": "haute",
         "level": "starter",
@@ -967,7 +1011,8 @@
         "subtext": "high price / high rent / high quality",
         "comparative": "plus haut",
         "superlative": "le plus haut"
-    }, {
+    },
+    {
         "word": "bas",
         "feminine": "basse",
         "level": "starter",
@@ -987,7 +1032,8 @@
         "subtext": "low price / low salary / low quality",
         "comparative": "plus bas",
         "superlative": "le plus bas"
-    }, {
+    },
+    {
         "word": "plein",
         "feminine": "pleine",
         "level": "starter",
@@ -1007,7 +1053,8 @@
         "subtext": "plein temps / une journée complète / plein de monde",
         "comparative": "plus plein",
         "superlative": "le plus plein"
-    }, {
+    },
+    {
         "word": "vide",
         "feminine": "vide",
         "level": "starter",
@@ -1027,7 +1074,8 @@
         "subtext": "un appartement vide / une pièce vide / presque vide",
         "comparative": "plus vide",
         "superlative": "le plus vide"
-    }, {
+    },
+    {
         "word": "tiède",
         "feminine": "tiède",
         "level": "starter",
@@ -1047,7 +1095,8 @@
         "subtext": "warm weather / a warm welcome / keep warm",
         "comparative": "plus tiède",
         "superlative": "le plus tiède"
-    }, {
+    },
+    {
         "word": "frais",
         "feminine": "fraîche",
         "level": "starter",
@@ -1067,7 +1116,8 @@
         "subtext": "cool weather / a cool drink / stay cool",
         "comparative": "plus frais",
         "superlative": "le plus frais"
-    }, {
+    },
+    {
         "word": "mouillé",
         "feminine": "mouillée",
         "level": "starter",
@@ -1087,7 +1137,8 @@
         "subtext": "wet weather / wet clothes / get wet",
         "comparative": "plus mouillé",
         "superlative": "le plus mouillé"
-    }, {
+    },
+    {
         "word": "sec",
         "feminine": "sèche",
         "level": "starter",
@@ -1107,7 +1158,8 @@
         "subtext": "dry weather / dry skin / keep dry",
         "comparative": "plus sec",
         "superlative": "le plus sec"
-    }, {
+    },
+    {
         "word": "sale",
         "feminine": "sale",
         "level": "starter",
@@ -1127,7 +1179,8 @@
         "subtext": "dirty hands / dirty clothes / get dirty",
         "comparative": "plus sale",
         "superlative": "le plus sale"
-    }, {
+    },
+    {
         "word": "dur",
         "feminine": "dure",
         "level": "starter",
@@ -1147,7 +1200,8 @@
         "subtext": "travail difficile / une décision difficile / trop difficile",
         "comparative": "plus dur",
         "superlative": "le plus dur"
-    }, {
+    },
+    {
         "word": "doux",
         "feminine": "douce",
         "level": "starter",
@@ -1167,7 +1221,8 @@
         "subtext": "soft light / soft music / soft skills",
         "comparative": "plus doux",
         "superlative": "le plus doux"
-    }, {
+    },
+    {
         "word": "lourd",
         "feminine": "lourde",
         "level": "starter",
@@ -1187,7 +1242,8 @@
         "subtext": "heavy traffic / heavy rain / too heavy",
         "comparative": "plus lourd",
         "superlative": "le plus lourd"
-    }, {
+    },
+    {
         "word": "léger",
         "feminine": "légère",
         "level": "starter",
@@ -1207,7 +1263,8 @@
         "subtext": "light rain / light traffic / a light meal",
         "comparative": "plus léger",
         "superlative": "le plus léger"
-    }, {
+    },
+    {
         "word": "brun",
         "feminine": "brune",
         "level": "starter",
@@ -1227,7 +1284,8 @@
         "subtext": "dark brown / light brown / brown bread",
         "comparative": "plus brun",
         "superlative": "le plus brun"
-    }, {
+    },
+    {
         "word": "gris",
         "feminine": "grise",
         "level": "starter",
@@ -1247,7 +1305,8 @@
         "subtext": "grey area / grey sky / pale grey",
         "comparative": "plus gris",
         "superlative": "le plus gris"
-    }, {
+    },
+    {
         "word": "rose",
         "feminine": "rose",
         "level": "starter",
@@ -1267,7 +1326,8 @@
         "subtext": "light pink / bright pink / hot pink",
         "comparative": "plus rose",
         "superlative": "le plus rose"
-    }, {
+    },
+    {
         "word": "orange",
         "feminine": "orange",
         "level": "starter",
@@ -1287,7 +1347,8 @@
         "subtext": "bright orange / dark orange / orange light",
         "comparative": "plus orange",
         "superlative": "le plus orange"
-    }, {
+    },
+    {
         "word": "génial",
         "feminine": "géniale",
         "level": "starter",
@@ -1307,7 +1368,8 @@
         "subtext": "une excellente idée / une excellente opportunité / excellente valeur",
         "comparative": "plus génial",
         "superlative": "le plus génial"
-    }, {
+    },
+    {
         "word": "sympa",
         "feminine": "sympa",
         "level": "starter",
@@ -1327,7 +1389,8 @@
         "subtext": "une belle journée / un bel endroit / une personne sympa",
         "comparative": "plus sympa",
         "superlative": "le plus sympa"
-    }, {
+    },
+    {
         "word": "merveilleux",
         "feminine": "merveilleuse",
         "level": "starter",
@@ -1347,7 +1410,8 @@
         "subtext": "une opportunité merveilleuse / un moment merveilleux",
         "comparative": "plus merveilleux",
         "superlative": "le plus merveilleux"
-    }, {
+    },
+    {
         "word": "terrible",
         "feminine": "terrible",
         "level": "starter",
@@ -1367,7 +1431,8 @@
         "subtext": "terrible weather / a terrible mistake / terrible news",
         "comparative": "plus terrible",
         "superlative": "le plus terrible"
-    }, {
+    },
+    {
         "word": "affreux",
         "feminine": "affreuse",
         "level": "starter",
@@ -1387,7 +1452,8 @@
         "subtext": "awful weather / awful news / simply awful",
         "comparative": "plus affreux",
         "superlative": "le plus affreux"
-    }, {
+    },
+    {
         "word": "incroyable",
         "feminine": "incroyable",
         "level": "starter",
@@ -1407,7 +1473,8 @@
         "subtext": "an amazing result / an amazing offer / truly amazing",
         "comparative": "plus incroyable",
         "superlative": "le plus incroyable"
-    }, {
+    },
+    {
         "word": "fantastique",
         "feminine": "fantastique",
         "level": "starter",
@@ -1427,7 +1494,8 @@
         "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
         "comparative": "plus fantastique",
         "superlative": "le plus fantastique"
-    }, {
+    },
+    {
         "word": "triste",
         "feminine": "triste",
         "level": "starter",
@@ -1447,7 +1515,8 @@
         "subtext": "se sentir triste / une situation triste / profondément triste",
         "comparative": "plus triste",
         "superlative": "le plus triste"
-    }, {
+    },
+    {
         "word": "affamé",
         "feminine": "affamée",
         "level": "starter",
@@ -1467,7 +1536,8 @@
         "subtext": "avoir faim / très faim / rester sur sa faim",
         "comparative": "plus affamé",
         "superlative": "le plus affamé"
-    }, {
+    },
+    {
         "word": "fâché",
         "feminine": "fâchée",
         "level": "starter",
@@ -1487,7 +1557,8 @@
         "subtext": "se sentir en colère / fâché contre quelqu'un / très en colère",
         "comparative": "plus fâché",
         "superlative": "le plus fâché"
-    }, {
+    },
+    {
         "word": "ennuyé",
         "feminine": "ennuyée",
         "level": "starter",
@@ -1507,7 +1578,8 @@
         "subtext": "s'ennuyer / s'ennuyer de / s'ennuie facilement",
         "comparative": "plus ennuyé",
         "superlative": "le plus ennuyé"
-    }, {
+    },
+    {
         "word": "excité",
         "feminine": "excitée",
         "level": "starter",
@@ -1527,7 +1599,8 @@
         "subtext": "se sentir excité / excité par / très excité",
         "comparative": "plus excité",
         "superlative": "le plus excité"
-    }, {
+    },
+    {
         "word": "effrayé",
         "feminine": "effrayée",
         "level": "starter",
@@ -1547,7 +1620,8 @@
         "subtext": "peur de / avoir peur / profondément effrayé",
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé"
-    }, {
+    },
+    {
         "word": "désolé",
         "feminine": "désolée",
         "level": "starter",
@@ -1567,7 +1641,8 @@
         "subtext": "se sentir désolé / désolé pour / désolé de",
         "comparative": "plus désolé",
         "superlative": "le plus désolé"
-    }, {
+    },
+    {
         "word": "correct",
         "feminine": "correcte",
         "level": "starter",
@@ -1587,7 +1662,8 @@
         "subtext": "bonne réponse / bon moment / tout à fait raison",
         "comparative": "plus correct",
         "superlative": "le plus correct"
-    }, {
+    },
+    {
         "word": "mauvais",
         "feminine": "mauvaise",
         "level": "starter",
@@ -1607,27 +1683,8 @@
         "subtext": "mauvaise réponse / se tromper / complètement faux",
         "comparative": "pire",
         "superlative": "le pire"
-    }, {
-        "word": "nouveau",
-        "feminine": "nouvelle",
-        "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🆕",
-        "form": "adjective",
-        "plural": "nouveaux",
-        "femininePlural": "nouvelles",
-        "definitions": [
-            {
-                "text": "N'existant pas auparavant ; récemment fabriqué.",
-                "examples": [
-                    "Elle a un nouveau travail qui commence en mars."
-                ]
-            }
-        ],
-        "subtext": "nouveau travail / tout nouveau / complètement nouveau",
-        "comparative": "plus nouveau",
-        "superlative": "le plus nouveau"
-    }, {
+    },
+    {
         "word": "différent",
         "feminine": "différente",
         "level": "starter",
@@ -1647,7 +1704,29 @@
         "subtext": "complètement différent / très différent / différent de",
         "comparative": "plus différent",
         "superlative": "le plus différent"
-    }, {
+    },
+    {
+        "word": "nouveau",
+        "feminine": "nouvelle",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🆕",
+        "form": "adjective",
+        "plural": "nouveaux",
+        "femininePlural": "nouvelles",
+        "definitions": [
+            {
+                "text": "N'existant pas auparavant ; récemment fabriqué.",
+                "examples": [
+                    "Elle a un nouveau travail qui commence en mars."
+                ]
+            }
+        ],
+        "subtext": "nouveau travail / tout nouveau / complètement nouveau",
+        "comparative": "plus nouveau",
+        "superlative": "le plus nouveau"
+    },
+    {
         "word": "même",
         "feminine": "même",
         "level": "starter",
@@ -1667,47 +1746,8 @@
         "subtext": "le même que / exactement le même / en même temps",
         "comparative": "plus même",
         "superlative": "le plus même"
-    }, {
-        "word": "rapide",
-        "feminine": "rapide",
-        "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "⚡",
-        "form": "adjective",
-        "plural": "rapides",
-        "femininePlural": "rapides",
-        "definitions": [
-            {
-                "text": "Se déplaçant ou se produisant rapidement.",
-                "examples": [
-                    "Le train pour aller au travail est rapide et fiable."
-                ]
-            }
-        ],
-        "subtext": "restauration rapide / train rapide / très rapide",
-        "comparative": "plus rapide",
-        "superlative": "le plus rapide"
-    }, {
-        "word": "lent",
-        "feminine": "lente",
-        "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🐢",
-        "form": "adjective",
-        "plural": "lents",
-        "femininePlural": "lentes",
-        "definitions": [
-            {
-                "text": "Pas rapide ; prenant beaucoup de temps.",
-                "examples": [
-                    "Le nouveau système est très lent."
-                ]
-            }
-        ],
-        "subtext": "progrès lents / internet lent / très lent",
-        "comparative": "plus lent",
-        "superlative": "le plus lent"
-    }, {
+    },
+    {
         "word": "calme",
         "feminine": "calme",
         "level": "starter",
@@ -1727,7 +1767,50 @@
         "subtext": "quartier calme / rester calme / bien calme",
         "comparative": "plus calme",
         "superlative": "le plus calme"
-    }, {
+    },
+    {
+        "word": "rapide",
+        "feminine": "rapide",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⚡",
+        "form": "adjective",
+        "plural": "rapides",
+        "femininePlural": "rapides",
+        "definitions": [
+            {
+                "text": "Se déplaçant ou se produisant rapidement.",
+                "examples": [
+                    "Le train pour aller au travail est rapide et fiable."
+                ]
+            }
+        ],
+        "subtext": "restauration rapide / train rapide / très rapide",
+        "comparative": "plus rapide",
+        "superlative": "le plus rapide"
+    },
+    {
+        "word": "lent",
+        "feminine": "lente",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🐢",
+        "form": "adjective",
+        "plural": "lents",
+        "femininePlural": "lentes",
+        "definitions": [
+            {
+                "text": "Pas rapide ; prenant beaucoup de temps.",
+                "examples": [
+                    "Le nouveau système est très lent."
+                ]
+            }
+        ],
+        "subtext": "progrès lents / internet lent / très lent",
+        "comparative": "plus lent",
+        "superlative": "le plus lent"
+    },
+    {
         "word": "bruyant",
         "feminine": "bruyante",
         "level": "starter",
@@ -1747,7 +1830,28 @@
         "subtext": "bruit fort / trop fort / une voix forte",
         "comparative": "plus bruyant",
         "superlative": "le plus bruyant"
-    }, {
+    },
+    {
+        "word": "bruyant",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "feminine": "bruyante",
+        "plural": "bruyants",
+        "femininePlural": "bruyantes",
+        "definitions": [
+            {
+                "text": "Faisant beaucoup de bruit ; bruyant.",
+                "examples": [
+                    "L'open space est très bruyant."
+                ]
+            }
+        ],
+        "subtext": "très bruyant / environnement bruyant / trop bruyant",
+        "comparative": "plus bruyant",
+        "superlative": "le plus bruyant"
+    },
+    {
         "word": "sûr",
         "feminine": "sûre",
         "level": "starter",
@@ -1767,7 +1871,8 @@
         "subtext": "zone sûre / sûr à faire / se sentir en sécurité",
         "comparative": "plus sûr",
         "superlative": "le plus sûr"
-    }, {
+    },
+    {
         "word": "dangereux",
         "feminine": "dangereuse",
         "level": "starter",
@@ -1787,7 +1892,8 @@
         "subtext": "situation dangereuse / très dangereux / potentiellement dangereux",
         "comparative": "plus dangereux",
         "superlative": "le plus dangereux"
-    }, {
+    },
+    {
         "word": "malheureux",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1806,7 +1912,8 @@
         "subtext": "malheureux de quelque chose / profondément malheureux",
         "comparative": "plus malheureux",
         "superlative": "le plus malheureux"
-    }, {
+    },
+    {
         "word": "nerveux",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1825,7 +1932,8 @@
         "subtext": "nerveux avant un entretien / très nerveux",
         "comparative": "plus nerveux",
         "superlative": "le plus nerveux"
-    }, {
+    },
+    {
         "word": "stressé",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1844,7 +1952,8 @@
         "subtext": "se sentir stressé / très stressé / à bout de nerfs",
         "comparative": "plus stressé",
         "superlative": "le plus stressé"
-    }, {
+    },
+    {
         "word": "confiant",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -1863,7 +1972,8 @@
         "subtext": "se sentir confiant / confiance en soi / très confiant",
         "comparative": "plus confiant",
         "superlative": "le plus confiant"
-    }, {
+    },
+    {
         "word": "fier",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -1882,7 +1992,8 @@
         "subtext": "se sentir fier / très fier / fier de",
         "comparative": "plus fier",
         "superlative": "le plus fier"
-    }, {
+    },
+    {
         "word": "effrayé",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1901,7 +2012,8 @@
         "subtext": "avoir peur / peur de / très effrayé",
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé"
-    }, {
+    },
+    {
         "word": "surpris",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1920,7 +2032,8 @@
         "subtext": "se sentir surpris / très surpris / agréablement surpris",
         "comparative": "plus surpris",
         "superlative": "le plus surpris"
-    }, {
+    },
+    {
         "word": "déçu",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1939,7 +2052,8 @@
         "subtext": "se sentir déçu / profondément déçu / déçu par",
         "comparative": "plus déçu",
         "superlative": "le plus déçu"
-    }, {
+    },
+    {
         "word": "beau",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -1958,7 +2072,8 @@
         "subtext": "belle vue / belle ville / absolument magnifique",
         "comparative": "plus beau",
         "superlative": "le plus beau"
-    }, {
+    },
+    {
         "word": "joli",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -1977,7 +2092,8 @@
         "subtext": "assez bien / un bel endroit / assez joli",
         "comparative": "plus joli",
         "superlative": "le plus joli"
-    }, {
+    },
+    {
         "word": "fort",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -1996,7 +2112,8 @@
         "subtext": "café fort / opinion tranchée / très fort",
         "comparative": "plus fort",
         "superlative": "le plus fort"
-    }, {
+    },
+    {
         "word": "faible",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2015,7 +2132,8 @@
         "subtext": "connexion faible / un argument faible / très faible",
         "comparative": "plus faible",
         "superlative": "le plus faible"
-    }, {
+    },
+    {
         "word": "en forme",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2034,7 +2152,8 @@
         "subtext": "en bonne forme physique / rester en forme / garder la forme",
         "comparative": "plus en forme",
         "superlative": "le plus en forme"
-    }, {
+    },
+    {
         "word": "excellent",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2053,7 +2172,8 @@
         "subtext": "excellent travail / excellents résultats / absolument excellent",
         "comparative": "plus excellent",
         "superlative": "le plus excellent"
-    }, {
+    },
+    {
         "word": "parfait",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2072,7 +2192,8 @@
         "subtext": "une occasion parfaite / moment parfait / absolument parfait",
         "comparative": "plus parfait",
         "superlative": "le plus parfait"
-    }, {
+    },
+    {
         "word": "inutile",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2091,7 +2212,8 @@
         "subtext": "complètement inutile / se révéler inutile / une idée inutile",
         "comparative": "plus inutile",
         "superlative": "le plus inutile"
-    }, {
+    },
+    {
         "word": "correct",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2110,7 +2232,8 @@
         "subtext": "bonne réponse / la bonne manière / tout à fait exact",
         "comparative": "plus correct",
         "superlative": "le plus correct"
-    }, {
+    },
+    {
         "word": "intéressant",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2129,7 +2252,8 @@
         "subtext": "trouver intéressant / très intéressant / une idée intéressante",
         "comparative": "plus intéressant",
         "superlative": "le plus intéressant"
-    }, {
+    },
+    {
         "word": "ennuyeux",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2148,7 +2272,8 @@
         "subtext": "très ennuyeux / une réunion ennuyeuse / trouver ennuyeux",
         "comparative": "plus ennuyeux",
         "superlative": "le plus ennuyeux"
-    }, {
+    },
+    {
         "word": "nécessaire",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2167,7 +2292,8 @@
         "subtext": "absolument nécessaire / si nécessaire / nécessaire de faire",
         "comparative": "plus nécessaire",
         "superlative": "le plus nécessaire"
-    }, {
+    },
+    {
         "word": "possible",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2186,7 +2312,8 @@
         "subtext": "dès que possible / c'est possible / rendre possible",
         "comparative": "plus possible",
         "superlative": "le plus possible"
-    }, {
+    },
+    {
         "word": "impossible",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2205,7 +2332,8 @@
         "subtext": "pratiquement impossible / rendre impossible / presque impossible",
         "comparative": "plus impossible",
         "superlative": "le plus impossible"
-    }, {
+    },
+    {
         "word": "spécial",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2224,7 +2352,8 @@
         "subtext": "une offre spéciale / occasion spéciale / très spécial",
         "comparative": "plus spécial",
         "superlative": "le plus spécial"
-    }, {
+    },
+    {
         "word": "populaire",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2243,7 +2372,8 @@
         "subtext": "très populaire / choix populaire / le plus populaire",
         "comparative": "plus populaire",
         "superlative": "le plus populaire"
-    }, {
+    },
+    {
         "word": "similaire",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2262,7 +2392,8 @@
         "subtext": "très similaire / semblable à / résultats similaires",
         "comparative": "plus similaire",
         "superlative": "le plus similaire"
-    }, {
+    },
+    {
         "word": "amical",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2281,7 +2412,8 @@
         "subtext": "très amical / un visage amical / atmosphère amicale",
         "comparative": "plus amical",
         "superlative": "le plus amical"
-    }, {
+    },
+    {
         "word": "gentil",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2300,7 +2432,8 @@
         "subtext": "très gentil / gentil de votre part / une personne gentille",
         "comparative": "plus gentil",
         "superlative": "le plus gentil"
-    }, {
+    },
+    {
         "word": "drôle",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2319,7 +2452,8 @@
         "subtext": "très drôle / histoire drôle / trouver drôle",
         "comparative": "plus drôle",
         "superlative": "le plus drôle"
-    }, {
+    },
+    {
         "word": "intelligent",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2338,7 +2472,8 @@
         "subtext": "très intelligent / une idée intelligente / assez malin",
         "comparative": "plus intelligent",
         "superlative": "le plus intelligent"
-    }, {
+    },
+    {
         "word": "poli",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2357,7 +2492,8 @@
         "subtext": "très poli / demande polie / assez poli",
         "comparative": "plus poli",
         "superlative": "le plus poli"
-    }, {
+    },
+    {
         "word": "impoli",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2376,7 +2512,8 @@
         "subtext": "très impoli / incroyablement impoli / délibérément impoli",
         "comparative": "plus impoli",
         "superlative": "le plus impoli"
-    }, {
+    },
+    {
         "word": "paresseux",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2395,7 +2532,8 @@
         "subtext": "très paresseux / une approche paresseuse / trop paresseux",
         "comparative": "plus paresseux",
         "superlative": "le plus paresseux"
-    }, {
+    },
+    {
         "word": "honnête",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2414,44 +2552,8 @@
         "subtext": "très honnête / brutalement honnête / tout à fait honnête",
         "comparative": "plus honnête",
         "superlative": "le plus honnête"
-    }, {
-        "word": "bruyant",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "feminine": "bruyante",
-        "plural": "bruyants",
-        "femininePlural": "bruyantes",
-        "definitions": [
-            {
-                "text": "Faisant beaucoup de bruit ; bruyant.",
-                "examples": [
-                    "L'open space est très bruyant."
-                ]
-            }
-        ],
-        "subtext": "très bruyant / environnement bruyant / trop bruyant",
-        "comparative": "plus bruyant",
-        "superlative": "le plus bruyant"
-    }, {
-        "word": "honnête",
-        "feminine": "honnête",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "😇",
-        "form": "adjective",
-        "plural": "honnêtes",
-        "femininePlural": "honnêtes",
-        "definitions": [
-            {
-                "text": "Définition de honnête.",
-                "examples": []
-            }
-        ],
-        "subtext": "honnête",
-        "comparative": "plus honnête",
-        "superlative": "le plus honnête"
-    }, {
+    },
+    {
         "word": "bruyant",
         "feminine": "bruyante",
         "level": "starter",
@@ -2469,7 +2571,8 @@
         "subtext": "bruyant",
         "comparative": "plus bruyant",
         "superlative": "le plus bruyant"
-    }, {
+    },
+    {
         "word": "rond",
         "feminine": "ronde",
         "level": "starter",
@@ -2487,7 +2590,8 @@
         "subtext": "rond",
         "comparative": "plus rond",
         "superlative": "le plus rond"
-    }, {
+    },
+    {
         "word": "carré",
         "feminine": "carrée",
         "level": "starter",
@@ -2505,7 +2609,8 @@
         "subtext": "carré",
         "comparative": "plus carré",
         "superlative": "le plus carré"
-    }, {
+    },
+    {
         "word": "serviable",
         "feminine": "serviable",
         "level": "starter",
@@ -2523,7 +2628,8 @@
         "subtext": "serviable",
         "comparative": "plus serviable",
         "superlative": "le plus serviable"
-    }, {
+    },
+    {
         "word": "patient",
         "feminine": "patiente",
         "level": "starter",
@@ -2541,7 +2647,8 @@
         "subtext": "patient",
         "comparative": "plus patient",
         "superlative": "le plus patient"
-    }, {
+    },
+    {
         "word": "actif",
         "feminine": "active",
         "level": "starter",
@@ -2559,7 +2666,8 @@
         "subtext": "actif",
         "comparative": "plus actif",
         "superlative": "le plus actif"
-    }, {
+    },
+    {
         "word": "prudent",
         "feminine": "prudente",
         "level": "starter",
@@ -2577,7 +2685,8 @@
         "subtext": "prudent",
         "comparative": "plus prudent",
         "superlative": "le plus prudent"
-    }, {
+    },
+    {
         "word": "créatif",
         "feminine": "créative",
         "level": "starter",
@@ -2595,7 +2704,8 @@
         "subtext": "créatif",
         "comparative": "plus créatif",
         "superlative": "le plus créatif"
-    }, {
+    },
+    {
         "word": "nuageux",
         "feminine": "nuageuse",
         "level": "starter",
@@ -2613,7 +2723,8 @@
         "subtext": "nuageux",
         "comparative": "plus nuageux",
         "superlative": "le plus nuageux"
-    }, {
+    },
+    {
         "word": "venteux",
         "feminine": "venteuse",
         "level": "starter",
@@ -2631,7 +2742,8 @@
         "subtext": "venteux",
         "comparative": "plus venteux",
         "superlative": "le plus venteux"
-    }, {
+    },
+    {
         "word": "neigeux",
         "feminine": "neigeuse",
         "level": "starter",
@@ -2649,7 +2761,8 @@
         "subtext": "neigeux",
         "comparative": "plus neigeux",
         "superlative": "le plus neigeux"
-    }, {
+    },
+    {
         "word": "brumeux",
         "feminine": "brumeuse",
         "level": "starter",
@@ -2667,7 +2780,8 @@
         "subtext": "brumeux",
         "comparative": "plus brumeux",
         "superlative": "le plus brumeux"
-    }, {
+    },
+    {
         "word": "orageux",
         "feminine": "orageuse",
         "level": "starter",
@@ -2685,7 +2799,8 @@
         "subtext": "orageux",
         "comparative": "plus orageux",
         "superlative": "le plus orageux"
-    }, {
+    },
+    {
         "word": "blond",
         "feminine": "blonde",
         "level": "starter",
@@ -2703,7 +2818,8 @@
         "subtext": "blond",
         "comparative": "plus blond",
         "superlative": "le plus blond"
-    }, {
+    },
+    {
         "word": "intelligent",
         "feminine": "intelligente",
         "level": "starter",
@@ -2721,7 +2837,8 @@
         "subtext": "intelligent",
         "comparative": "plus intelligent",
         "superlative": "le plus intelligent"
-    }, {
+    },
+    {
         "word": "sérieux",
         "feminine": "sérieuse",
         "level": "starter",
@@ -2739,7 +2856,8 @@
         "subtext": "sérieux",
         "comparative": "plus sérieux",
         "superlative": "le plus sérieux"
-    }, {
+    },
+    {
         "word": "laid",
         "feminine": "laide",
         "level": "starter",
@@ -2757,7 +2875,8 @@
         "subtext": "laid",
         "comparative": "plus laid",
         "superlative": "le plus laid"
-    }, {
+    },
+    {
         "word": "proche",
         "feminine": "proche",
         "level": "starter",
@@ -2775,7 +2894,8 @@
         "subtext": "proche",
         "comparative": "plus proche",
         "superlative": "le plus proche"
-    }, {
+    },
+    {
         "word": "lointain",
         "feminine": "lointaine",
         "level": "starter",
@@ -2793,7 +2913,8 @@
         "subtext": "lointain",
         "comparative": "plus lointain",
         "superlative": "le plus lointain"
-    }, {
+    },
+    {
         "word": "riche",
         "feminine": "riche",
         "level": "starter",
@@ -2811,7 +2932,8 @@
         "subtext": "riche",
         "comparative": "plus riche",
         "superlative": "le plus riche"
-    }, {
+    },
+    {
         "word": "pauvre",
         "feminine": "pauvre",
         "level": "starter",
@@ -2829,7 +2951,8 @@
         "subtext": "pauvre",
         "comparative": "plus pauvre",
         "superlative": "le plus pauvre"
-    }, {
+    },
+    {
         "word": "matinal",
         "feminine": "matinale",
         "level": "starter",
@@ -2847,7 +2970,8 @@
         "subtext": "matinal",
         "comparative": "plus matinal",
         "superlative": "le plus matinal"
-    }, {
+    },
+    {
         "word": "tardif",
         "feminine": "tardive",
         "level": "starter",
@@ -2865,7 +2989,8 @@
         "subtext": "tardif",
         "comparative": "plus tardif",
         "superlative": "le plus tardif"
-    }, {
+    },
+    {
         "word": "passionnant",
         "feminine": "passionnante",
         "level": "starter",
@@ -2883,7 +3008,8 @@
         "subtext": "passionnant",
         "comparative": "plus passionnant",
         "superlative": "le plus passionnant"
-    }, {
+    },
+    {
         "word": "délicieux",
         "feminine": "délicieuse",
         "level": "starter",
@@ -2901,7 +3027,8 @@
         "subtext": "délicieux",
         "comparative": "plus délicieux",
         "superlative": "le plus délicieux"
-    }, {
+    },
+    {
         "word": "sucré",
         "feminine": "sucrée",
         "level": "starter",
@@ -2919,7 +3046,8 @@
         "subtext": "sucré",
         "comparative": "plus sucré",
         "superlative": "le plus sucré"
-    }, {
+    },
+    {
         "word": "confortable",
         "feminine": "confortable",
         "level": "starter",
@@ -2937,7 +3065,8 @@
         "subtext": "confortable",
         "comparative": "plus confortable",
         "superlative": "le plus confortable"
-    }, {
+    },
+    {
         "word": "vrai",
         "feminine": "vraie",
         "level": "starter",
@@ -2955,7 +3084,8 @@
         "subtext": "vrai",
         "comparative": "plus vrai",
         "superlative": "le plus vrai"
-    }, {
+    },
+    {
         "word": "simple",
         "feminine": "simple",
         "level": "starter",
@@ -2973,7 +3103,8 @@
         "subtext": "simple",
         "comparative": "plus simple",
         "superlative": "le plus simple"
-    }, {
+    },
+    {
         "word": "naturel",
         "feminine": "naturelle",
         "level": "starter",
@@ -2991,7 +3122,8 @@
         "subtext": "naturel",
         "comparative": "plus naturel",
         "superlative": "le plus naturel"
-    }, {
+    },
+    {
         "word": "clair",
         "feminine": "claire",
         "level": "starter",
@@ -3009,7 +3141,8 @@
         "subtext": "clair",
         "comparative": "plus clair",
         "superlative": "le plus clair"
-    }, {
+    },
+    {
         "word": "commun",
         "feminine": "commune",
         "level": "starter",
@@ -3027,7 +3160,8 @@
         "subtext": "commun",
         "comparative": "plus commun",
         "superlative": "le plus commun"
-    }, {
+    },
+    {
         "word": "célèbre",
         "feminine": "célèbre",
         "level": "starter",
@@ -3045,7 +3179,8 @@
         "subtext": "célèbre",
         "comparative": "plus célèbre",
         "superlative": "le plus célèbre"
-    }, {
+    },
+    {
         "word": "salé",
         "feminine": "salée",
         "level": "starter",
@@ -3063,7 +3198,8 @@
         "subtext": "salé",
         "comparative": "plus salé",
         "superlative": "le plus salé"
-    }, {
+    },
+    {
         "word": "acide",
         "feminine": "acide",
         "level": "starter",
@@ -3081,7 +3217,8 @@
         "subtext": "acide",
         "comparative": "plus acide",
         "superlative": "le plus acide"
-    }, {
+    },
+    {
         "word": "amer",
         "feminine": "amère",
         "level": "starter",
@@ -3099,7 +3236,8 @@
         "subtext": "amer",
         "comparative": "plus amer",
         "superlative": "le plus amer"
-    }, {
+    },
+    {
         "word": "gros",
         "feminine": "grosse",
         "level": "starter",
@@ -3117,7 +3255,8 @@
         "subtext": "gros",
         "comparative": "plus gros",
         "superlative": "le plus gros"
-    }, {
+    },
+    {
         "word": "mince",
         "feminine": "mince",
         "level": "starter",
@@ -3135,7 +3274,8 @@
         "subtext": "mince",
         "comparative": "plus mince",
         "superlative": "le plus mince"
-    }, {
+    },
+    {
         "word": "bouclé",
         "feminine": "bouclée",
         "level": "starter",
@@ -3153,7 +3293,8 @@
         "subtext": "bouclé",
         "comparative": "plus bouclé",
         "superlative": "le plus bouclé"
-    }, {
+    },
+    {
         "word": "droit",
         "feminine": "droite",
         "level": "starter",
@@ -3171,7 +3312,8 @@
         "subtext": "droit",
         "comparative": "plus droit",
         "superlative": "le plus droit"
-    }, {
+    },
+    {
         "word": "triangulaire",
         "feminine": "triangulaire",
         "level": "starter",
@@ -3189,7 +3331,8 @@
         "subtext": "triangulaire",
         "comparative": "plus triangulaire",
         "superlative": "le plus triangulaire"
-    }, {
+    },
+    {
         "word": "rectangulaire",
         "feminine": "rectangulaire",
         "level": "starter",
@@ -3207,7 +3350,8 @@
         "subtext": "rectangulaire",
         "comparative": "plus rectangulaire",
         "superlative": "le plus rectangulaire"
-    }, {
+    },
+    {
         "word": "ovale",
         "feminine": "ovale",
         "level": "starter",
@@ -3225,7 +3369,8 @@
         "subtext": "ovale",
         "comparative": "plus ovale",
         "superlative": "le plus ovale"
-    }, {
+    },
+    {
         "word": "préféré",
         "feminine": "préférée",
         "level": "starter",
@@ -3243,7 +3388,8 @@
         "subtext": "préféré",
         "comparative": "plus préféré",
         "superlative": "le plus préféré"
-    }, {
+    },
+    {
         "word": "sombre",
         "feminine": "sombre",
         "level": "starter",
@@ -3261,7 +3407,8 @@
         "subtext": "sombre",
         "comparative": "plus sombre",
         "superlative": "le plus sombre"
-    }, {
+    },
+    {
         "word": "lumineux",
         "feminine": "lumineuse",
         "level": "starter",
@@ -3279,7 +3426,8 @@
         "subtext": "lumineux",
         "comparative": "plus lumineux",
         "superlative": "le plus lumineux"
-    }, {
+    },
+    {
         "word": "doré",
         "feminine": "dorée",
         "level": "starter",
@@ -3297,7 +3445,8 @@
         "subtext": "doré",
         "comparative": "plus doré",
         "superlative": "le plus doré"
-    }, {
+    },
+    {
         "word": "argenté",
         "feminine": "argentée",
         "level": "starter",
@@ -3315,7 +3464,8 @@
         "subtext": "argenté",
         "comparative": "plus argenté",
         "superlative": "le plus argenté"
-    }, {
+    },
+    {
         "word": "profond",
         "feminine": "profonde",
         "level": "starter",
@@ -3333,7 +3483,8 @@
         "subtext": "profond",
         "comparative": "plus profond",
         "superlative": "le plus profond"
-    }, {
+    },
+    {
         "word": "peu profond",
         "feminine": "peu profonde",
         "level": "starter",
@@ -3351,7 +3502,8 @@
         "subtext": "peu profond",
         "comparative": "plus peu profond",
         "superlative": "le plus peu profond"
-    }, {
+    },
+    {
         "word": "moderne",
         "feminine": "moderne",
         "level": "starter",
@@ -3369,7 +3521,8 @@
         "subtext": "moderne",
         "comparative": "plus moderne",
         "superlative": "le plus moderne"
-    }, {
+    },
+    {
         "word": "ancien",
         "feminine": "ancienne",
         "level": "starter",
@@ -3387,7 +3540,8 @@
         "subtext": "ancien",
         "comparative": "plus ancien",
         "superlative": "le plus ancien"
-    }, {
+    },
+    {
         "word": "courageux",
         "feminine": "courageuse",
         "level": "starter",
@@ -3405,7 +3559,8 @@
         "subtext": "courageux",
         "comparative": "plus courageux",
         "superlative": "le plus courageux"
-    }, {
+    },
+    {
         "word": "lâche",
         "feminine": "lâche",
         "level": "starter",
@@ -3423,7 +3578,8 @@
         "subtext": "lâche",
         "comparative": "plus lâche",
         "superlative": "le plus lâche"
-    }, {
+    },
+    {
         "word": "large",
         "feminine": "large",
         "level": "starter",
@@ -3441,7 +3597,8 @@
         "subtext": "large",
         "comparative": "plus large",
         "superlative": "le plus large"
-    }, {
+    },
+    {
         "word": "étroit",
         "feminine": "étroite",
         "level": "starter",
@@ -3459,7 +3616,8 @@
         "subtext": "étroit",
         "comparative": "plus étroit",
         "superlative": "le plus étroit"
-    }, {
+    },
+    {
         "word": "antipathique",
         "feminine": "antipathique",
         "level": "starter",
@@ -3477,7 +3635,8 @@
         "subtext": "antipathique",
         "comparative": "plus antipathique",
         "superlative": "le plus antipathique"
-    }, {
+    },
+    {
         "word": "impatient",
         "feminine": "impatiente",
         "level": "starter",
@@ -3495,7 +3654,8 @@
         "subtext": "impatient",
         "comparative": "plus impatient",
         "superlative": "le plus impatient"
-    }, {
+    },
+    {
         "word": "impoli",
         "feminine": "impolie",
         "level": "starter",
@@ -3513,7 +3673,8 @@
         "subtext": "impoli",
         "comparative": "plus impoli",
         "superlative": "le plus impoli"
-    }, {
+    },
+    {
         "word": "faux",
         "feminine": "fausse",
         "level": "starter",
@@ -3531,7 +3692,8 @@
         "subtext": "faux",
         "comparative": "plus faux",
         "superlative": "le plus faux"
-    }, {
+    },
+    {
         "word": "malchanceux",
         "feminine": "malchanceuse",
         "level": "starter",
@@ -3549,7 +3711,7 @@
         "subtext": "malchanceux",
         "comparative": "plus malchanceux",
         "superlative": "le plus malchanceux"
-    },
+    }
 ];
     const lang = "fr";
     window.adjectivesData = window.adjectivesData || {};
