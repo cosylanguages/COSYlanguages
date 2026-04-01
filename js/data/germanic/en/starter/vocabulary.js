@@ -3524,7 +3524,7 @@
         "theme": "basic_foods_A1",
         "emoji": "🥣",
         "form": "noun",
-        "plural": "soups",
+        "plural": null,
         "definitions": [
             {
                 "text": "A liquid food made by cooking meat, vegetables, or fish in water.",
@@ -3533,7 +3533,7 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "uncountable"
     },
     {
         "word": "cake",
@@ -9863,6 +9863,146 @@
                 "text": "A person who writes books, stories, or articles.",
                 "examples": [
                     "He is a famous writer."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "suitcase",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🧳",
+        "form": "noun",
+        "plural": "suitcases",
+        "definitions": [
+            {
+                "text": "A large case that you use to carry your clothes and other things when you are traveling.",
+                "examples": [
+                    "I am packing my suitcase for the trip."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "purse",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "👛",
+        "form": "noun",
+        "plural": "purses",
+        "definitions": [
+            {
+                "text": "A small container for money, usually used by a woman.",
+                "examples": [
+                    "She has a red purse."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "pocket",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👖",
+        "form": "noun",
+        "plural": "pockets",
+        "definitions": [
+            {
+                "text": "A small bag that is sewn into or onto a piece of clothing so that you can carry things in it.",
+                "examples": [
+                    "I have some money in my pocket."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "comb",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🪮",
+        "form": "noun",
+        "plural": "combs",
+        "definitions": [
+            {
+                "text": "A flat piece of plastic or metal with a row of long thin parts called teeth, used for making your hair tidy.",
+                "examples": [
+                    "I need a comb for my hair."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "appointment",
+        "level": "starter",
+        "theme": "medical_appointments_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "appointments",
+        "subtext": "doctor's appointment",
+        "definitions": [
+            {
+                "text": "A formal arrangement to meet or visit someone at a particular time and place.",
+                "examples": [
+                    "I have an appointment with the doctor at ten o'clock."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "application",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "applications",
+        "subtext": "apply for, job application",
+        "definitions": [
+            {
+                "text": "A formal request to be considered for a position or to be allowed to do something.",
+                "examples": [
+                    "She sent an application for the new job."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "skill",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "form": "noun",
+        "plural": "skills",
+        "subtext": "language skills",
+        "definitions": [
+            {
+                "text": "The ability to do something well.",
+                "examples": [
+                    "She has good communication skills."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "opinion",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💬",
+        "form": "noun",
+        "plural": "opinions",
+        "subtext": "in my opinion",
+        "definitions": [
+            {
+                "text": "What you think about something or someone.",
+                "examples": [
+                    "What is your opinion about the new office?"
                 ]
             }
         ],
