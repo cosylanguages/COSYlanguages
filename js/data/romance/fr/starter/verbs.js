@@ -4298,6 +4298,143 @@
         "group": "er",
         "auxiliary": "avoir"
     },
+    {
+        "word": "soustraire",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "➖",
+        "subtext": "soustraire de / moins",
+        "opposite": "ajouter",
+        "oppositeEmoji": "➕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Enlever un nombre ou une quantité à un autre nombre ou une autre quantité.",
+                "examples": [
+                    "Si on soustrait cinq de dix, on obtient cinq."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "soustrait",
+        "group": "re",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "laisser",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🔓",
+        "subtext": "laisser quelqu'un partir / laisser faire / laisser savoir à quelqu'un",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Permettre à quelque chose d'arriver ou à quelqu'un de faire quelque chose.",
+                "examples": [
+                    "Laisse-moi t'aider avec ces sacs.",
+                    "Elle a laissé le chien sortir dans le jardin."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "laissé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "régler",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⚙️",
+        "subtext": "régler une alarme / mettre la table / se fixer un objectif",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettre quelque chose dans un endroit ou une position particulière ; établir.",
+                "examples": [
+                    "Je règle mon réveil pour sept heures.",
+                    "Il a mis les assiettes sur la table."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "réglé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "grimper",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🧗",
+        "subtext": "grimper une montagne / gravir une colline / monter les escaliers",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Monter quelque chose en utilisant ses mains et ses pieds.",
+                "examples": [
+                    "Nous avons grimpé la colline pour voir la vue.",
+                    "Le chat a grimpé à l'arbre."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "grimpé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "s'habiller",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👗",
+        "subtext": "s'habiller / bien s'habiller / s'habiller pour le travail",
+        "opposite": "se déshabiller",
+        "oppositeEmoji": "👕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettre des vêtements sur soi-même ou sur quelqu'un d'autre.",
+                "examples": [
+                    "Je m'habille à sept heures.",
+                    "Elle était habillée en noir."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "habillé",
+        "group": "er",
+        "auxiliary": "être"
+    },
+    {
+        "word": "éteindre",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🌑",
+        "subtext": "éteindre la lumière / éteindre l'ordinateur / éteindre son téléphone",
+        "opposite": "allumer",
+        "oppositeEmoji": "💡",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire en sorte qu'un appareil s'arrête de fonctionner.",
+                "examples": [
+                    "N'oubliez pas d'éteindre les lumières.",
+                    "Elle éteint son téléphone pendant les réunions."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "éteint",
+        "group": "re",
+        "auxiliary": "avoir"
+    }
 ];
     const lang = "fr";
     window.verbsData = window.verbsData || {};

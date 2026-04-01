@@ -21,13 +21,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fruit",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍎",
         "form": "noun",
         "plural": null,
@@ -40,13 +40,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "légume",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🥦",
         "form": "noun",
         "plural": "légumes",
@@ -59,8 +59,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pied",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -80,8 +79,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "professeur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -100,12 +98,12 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ratatouille",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
+        "partitive": "de la",
         "form": "noun",
         "plural": "ratatouilles",
         "definitions": [
@@ -117,12 +115,12 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "croissant",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
+        "partitive": "du",
         "form": "noun",
         "plural": "croissants",
         "definitions": [
@@ -134,12 +132,12 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pomme",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
+        "partitive": "de la",
         "baseWord": "pomme",
         "emoji": "🍎",
         "numberPlural": "4 pomme",
@@ -155,13 +153,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pain",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🥖",
         "form": "noun",
         "plural": null,
@@ -176,13 +174,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "oeuf",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "l'",
         "gender": "masculine",
+        "partitive": "de l'",
         "emoji": "🥚",
         "form": "noun",
         "plural": "oeufs",
@@ -196,13 +194,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lait",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🥛",
         "form": "noun",
         "plural": null,
@@ -216,13 +214,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "riz",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍚",
         "form": "noun",
         "plural": null,
@@ -235,13 +233,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "viande",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🥩",
         "form": "noun",
         "plural": null,
@@ -254,12 +252,12 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "nourriture",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
+        "partitive": "de la",
         "emoji": "🍲",
         "form": "noun",
         "plural": "nourritures",
@@ -271,13 +269,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "café",
         "level": "starter",
         "theme": "drinks_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "☕",
         "form": "noun",
         "plural": null,
@@ -291,13 +289,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "thé",
         "level": "starter",
         "theme": "drinks_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍵",
         "form": "noun",
         "plural": null,
@@ -311,13 +309,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "jus",
         "level": "starter",
         "theme": "drinks_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🧃",
         "form": "noun",
         "plural": null,
@@ -330,13 +328,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "eau",
         "level": "starter",
         "theme": "drinks_A1",
         "article": "l'",
         "gender": "feminine",
+        "partitive": "de l'",
         "emoji": "🚰",
         "form": "noun",
         "plural": null,
@@ -350,13 +348,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "petit-déjeuner",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍳",
         "form": "noun",
         "plural": "petits-déjeuners",
@@ -368,13 +366,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "dîner",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍽️",
         "form": "noun",
         "plural": "dîners",
@@ -386,13 +384,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "déjeuner",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍱",
         "form": "noun",
         "plural": "déjeuners",
@@ -404,8 +402,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "parc",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -422,8 +419,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "école",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -440,8 +436,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "magasin",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -458,8 +453,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "t-shirt",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -476,8 +470,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pantalon",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -494,8 +487,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chaussures",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -512,8 +504,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chapeau",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -530,8 +521,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chaise",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -549,8 +539,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "table",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -568,8 +557,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lit",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -587,8 +575,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "clé",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -605,8 +592,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "téléphone",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -623,8 +609,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "livre",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -641,8 +626,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sac",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -659,8 +643,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "stylo",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -677,8 +660,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chat",
         "level": "starter",
         "theme": "animals_A1",
@@ -697,8 +679,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chien",
         "level": "starter",
         "theme": "animals_A1",
@@ -717,8 +698,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "oiseau",
         "level": "starter",
         "theme": "animals_A1",
@@ -734,8 +714,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "poisson",
         "level": "starter",
         "theme": "animals_A1",
@@ -751,8 +730,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "tête",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -770,8 +748,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "main",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -789,8 +766,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "jambe",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -808,8 +784,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "oeil",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -827,8 +802,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "nez",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -845,8 +819,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bouche",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -864,8 +837,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "oreille",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -883,8 +855,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "dos",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -902,8 +873,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bras",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -921,8 +891,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mère",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -940,8 +909,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "père",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -959,8 +927,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "famille",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -977,8 +944,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ami",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -995,8 +961,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "partenaire",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -1014,8 +979,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "homme",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1033,8 +997,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "femme",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1052,8 +1015,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "maison",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1071,8 +1033,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "appartement",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1090,8 +1051,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "foyer",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1108,8 +1068,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bureau",
         "level": "starter",
         "theme": "rooms_indoor_spaces_A1",
@@ -1127,8 +1086,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "voiture",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1146,8 +1104,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bus",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1165,8 +1122,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "train",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1184,8 +1140,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "argent",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1203,8 +1158,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "matin",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1222,8 +1176,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "soir",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1241,8 +1194,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "jour",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1259,8 +1211,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "semaine",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1278,8 +1229,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chaque jour",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1293,8 +1243,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "patron",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1310,8 +1259,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "collègue",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1327,8 +1275,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "salaire",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1345,8 +1292,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "réunion",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1363,8 +1309,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "trajet",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1380,8 +1325,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "stress",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1397,8 +1341,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "loyer",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1414,8 +1357,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "voisin",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1431,8 +1373,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pièce",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1448,8 +1389,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cuisine",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -1465,8 +1405,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sommeil",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1482,8 +1421,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "exercice",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1499,8 +1437,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "prix",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1516,8 +1453,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "coût",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1533,8 +1469,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "relation",
         "level": "starter",
         "theme": "family_life_A1",
@@ -1551,8 +1486,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ensemble",
         "level": "starter",
         "theme": "family_life_A1",
@@ -1568,8 +1502,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vacances",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1585,8 +1518,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "voyage",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1602,8 +1534,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "hôtel",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1619,8 +1550,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "week-end",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1636,8 +1566,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "temps libre",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1655,13 +1584,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bière",
         "level": "starter",
         "theme": "drinks_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🍺",
         "form": "noun",
         "plural": null,
@@ -1674,13 +1603,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vin",
         "level": "starter",
         "theme": "drinks_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍷",
         "form": "noun",
         "plural": null,
@@ -1693,8 +1622,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "porte",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1712,8 +1640,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fenêtre",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -1731,8 +1658,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "infirmier",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1750,8 +1676,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "conducteur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1769,8 +1694,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chef",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1788,8 +1712,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "directeur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -1807,8 +1730,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "avion",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1826,8 +1748,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vélo",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1845,8 +1766,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "hôpital",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1864,8 +1784,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "restaurant",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1883,8 +1802,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "banque",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1902,8 +1820,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "gare",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1921,8 +1838,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "supermarché",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -1940,8 +1856,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "soleil",
         "level": "starter",
         "theme": "weather_A1",
@@ -1959,8 +1874,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pluie",
         "level": "starter",
         "theme": "weather_A1",
@@ -1978,8 +1892,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vent",
         "level": "starter",
         "theme": "weather_A1",
@@ -1997,8 +1910,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "après-midi",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2016,8 +1928,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "nuit",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2035,8 +1946,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "aujourd'hui",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2051,8 +1961,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "demain",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2067,8 +1976,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mari",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2088,8 +1996,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "enfant",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2107,8 +2014,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "parent",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2126,13 +2032,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vin",
         "level": "starter",
         "theme": "drinks_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍷",
         "form": "noun",
         "plural": "vins",
@@ -2144,8 +2050,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "porte",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2162,8 +2067,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fenêtre",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2180,8 +2084,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "infirmier",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2198,8 +2101,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "conducteur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2216,8 +2118,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chef",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2234,8 +2135,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "directeur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -2252,8 +2152,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "avion",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -2270,8 +2169,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vélo",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -2288,8 +2186,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "hôpital",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2306,8 +2203,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "restaurant",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2324,8 +2220,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "banque",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2342,8 +2237,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "gare",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2360,8 +2254,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "supermarché",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -2378,8 +2271,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "soleil",
         "level": "starter",
         "theme": "weather_A1",
@@ -2396,8 +2288,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pluie",
         "level": "starter",
         "theme": "weather_A1",
@@ -2414,8 +2305,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vent",
         "level": "starter",
         "theme": "weather_A1",
@@ -2432,8 +2322,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "après-midi",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2450,8 +2339,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "nuit",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2468,8 +2356,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "aujourd'hui",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2486,8 +2373,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "demain",
         "level": "starter",
         "theme": "times_day_A1",
@@ -2504,8 +2390,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mari",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2522,8 +2407,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "femme",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2540,8 +2424,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "enfant",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2558,8 +2441,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "parent",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2576,8 +2458,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "soeur",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2594,8 +2475,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "frère",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2612,8 +2492,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fils",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2630,8 +2509,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fille",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -2648,8 +2526,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "grand-père",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2666,8 +2543,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "grand-mère",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2684,8 +2560,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "oncle",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2702,8 +2577,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "tante",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2720,8 +2594,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cousin",
         "level": "starter",
         "theme": "extended_family_A1",
@@ -2738,8 +2611,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "arbre",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -2756,8 +2628,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fleur",
         "level": "starter",
         "theme": "plants_natural_world_A1",
@@ -2774,8 +2645,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "montagne",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2792,8 +2662,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "rivière",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2810,8 +2679,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mer",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2828,8 +2696,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "plage",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2846,8 +2713,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ciel",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2864,8 +2730,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lune",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -2882,8 +2747,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "assiette",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2900,8 +2764,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "tasse",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2918,8 +2781,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "verre",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2936,8 +2798,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fourchette",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2954,8 +2815,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cuillère",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2972,8 +2832,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "couteau",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -2990,8 +2849,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ordinateur portable",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -3008,8 +2866,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "télévision",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -3026,8 +2883,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cinéma",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -3044,8 +2900,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "musée",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -3062,8 +2917,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "aéroport",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -3080,8 +2934,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pharmacie",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -3098,13 +2951,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "poulet",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍗",
         "form": "noun",
         "plural": "poulets",
@@ -3116,13 +2969,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sucre",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍚",
         "form": "noun",
         "plural": "sucres",
@@ -3134,13 +2987,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "salade",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🥗",
         "form": "noun",
         "plural": "salades",
@@ -3152,8 +3005,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "manteau",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3170,8 +3022,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chaussettes",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3188,8 +3039,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cou",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3206,8 +3056,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "épaule",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3224,8 +3073,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "dans",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -3242,8 +3090,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sur",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -3260,8 +3107,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "à",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -3278,8 +3124,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sous",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -3296,8 +3141,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "et",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -3314,8 +3158,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mais",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -3332,8 +3175,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "parce que",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -3350,8 +3192,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "temps",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -3368,8 +3209,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "problème",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -3386,13 +3226,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "boeuf",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🥩",
         "form": "noun",
         "plural": "boeufs",
@@ -3404,13 +3244,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "porc",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🥩",
         "form": "noun",
         "plural": "porcs",
@@ -3422,13 +3262,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pomme de terre",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🥔",
         "form": "noun",
         "plural": "pommes de terre",
@@ -3440,13 +3280,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "tomate",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🍅",
         "form": "noun",
         "plural": "tomates",
@@ -3458,13 +3298,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "oignon",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "l'",
         "gender": "masculine",
+        "partitive": "de l'",
         "emoji": "🧅",
         "form": "noun",
         "plural": "oignons",
@@ -3476,13 +3316,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "carotte",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🥕",
         "form": "noun",
         "plural": "carottes",
@@ -3494,13 +3334,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "soupe",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🥣",
         "form": "noun",
         "plural": "soupes",
@@ -3512,13 +3352,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "gâteau",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍰",
         "form": "noun",
         "plural": "gâteaux",
@@ -3530,13 +3370,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chocolat",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍫",
         "form": "noun",
         "plural": "chocolats",
@@ -3548,13 +3388,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "glace",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🍦",
         "form": "noun",
         "plural": "glaces",
@@ -3566,8 +3406,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pull",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3584,8 +3423,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "robe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3602,8 +3440,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "jupe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3620,8 +3457,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bottes",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -3638,8 +3474,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "doigt",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3656,8 +3491,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "orteil",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3674,8 +3508,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "estomac",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3692,8 +3525,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "genou",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -3710,8 +3542,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "herbe",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3728,8 +3559,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lac",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3746,8 +3576,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "nuage",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3764,8 +3593,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "étoile",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -3782,8 +3610,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bureau",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3800,8 +3627,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lampe",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3818,8 +3644,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "horloge",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3836,8 +3661,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "miroir",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3854,8 +3678,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bibliothèque",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -3872,8 +3695,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lundi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -3890,8 +3712,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mardi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -3908,8 +3729,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mercredi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -3926,8 +3746,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "jeudi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -3944,8 +3763,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vendredi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -3962,8 +3780,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "samedi",
         "level": "starter",
         "theme": "days_week_A1",
@@ -3980,8 +3797,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "dimanche",
         "level": "starter",
         "theme": "days_week_A1",
@@ -3998,8 +3814,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "janvier",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4016,8 +3831,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "février",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4034,8 +3848,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mars",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4052,8 +3865,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "avril",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4070,8 +3882,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mai",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4088,8 +3899,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "juin",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4106,8 +3916,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "juillet",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4124,8 +3933,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "août",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4142,8 +3950,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "septembre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4160,8 +3967,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "octobre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4178,8 +3984,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "novembre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4196,8 +4001,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "décembre",
         "level": "starter",
         "theme": "months_year_A1",
@@ -4214,8 +4018,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "printemps",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4232,8 +4035,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "été",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4250,8 +4052,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "automne",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4268,8 +4069,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "hiver",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -4286,8 +4086,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lion",
         "level": "starter",
         "theme": "animals_A1",
@@ -4304,8 +4103,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "éléphant",
         "level": "starter",
         "theme": "animals_A1",
@@ -4322,8 +4120,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lapin",
         "level": "starter",
         "theme": "animals_A1",
@@ -4340,8 +4137,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cheval",
         "level": "starter",
         "theme": "animals_A1",
@@ -4358,8 +4154,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vache",
         "level": "starter",
         "theme": "animals_A1",
@@ -4376,8 +4171,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cochon",
         "level": "starter",
         "theme": "animals_A1",
@@ -4394,8 +4188,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mouton",
         "level": "starter",
         "theme": "animals_A1",
@@ -4412,13 +4205,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "citron",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍋",
         "form": "noun",
         "plural": "citrons",
@@ -4430,13 +4223,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "orange",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "l'",
         "gender": "feminine",
+        "partitive": "de l'",
         "emoji": "🍊",
         "form": "noun",
         "plural": "oranges",
@@ -4448,13 +4241,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fraise",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🍓",
         "form": "noun",
         "plural": "fraises",
@@ -4466,13 +4259,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "raisin",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍇",
         "form": "noun",
         "plural": "raisins",
@@ -4484,13 +4277,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ail",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "l'",
         "gender": "masculine",
+        "partitive": "de l'",
         "emoji": "🧄",
         "form": "noun",
         "plural": "aulx",
@@ -4502,8 +4295,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "toujours",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -4520,8 +4312,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "habituellement",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -4538,8 +4329,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "souvent",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -4556,8 +4346,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "quelquefois",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -4574,8 +4363,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "jamais",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -4592,8 +4380,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "qui",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4610,8 +4397,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "quoi",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4628,8 +4414,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "où",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4646,8 +4431,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "quand",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4664,8 +4448,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pourquoi",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4682,8 +4465,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "comment",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4700,8 +4482,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bonjour",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4718,8 +4499,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "au revoir",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4736,8 +4516,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "s'il vous plaît",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -4754,8 +4533,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "merci",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -4772,8 +4550,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pardon",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -4790,8 +4567,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "oui",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4808,8 +4584,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "non",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4826,8 +4601,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "nom",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4844,8 +4618,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "violet",
         "level": "starter",
         "theme": "colours_patterns_A1",
@@ -4862,8 +4635,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "salle de bain",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -4880,8 +4652,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chambre",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -4898,8 +4669,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bébé",
         "level": "starter",
         "theme": "immediate_family_A1",
@@ -4916,8 +4686,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "garçon",
         "level": "starter",
         "theme": "people_A1",
@@ -4934,8 +4703,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fille",
         "level": "starter",
         "theme": "people_A1",
@@ -4952,8 +4720,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "petit ami",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -4970,8 +4737,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "petite amie",
         "level": "starter",
         "theme": "marital_status_A1",
@@ -4988,8 +4754,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "étudiant",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -5006,8 +4771,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "camarade de classe",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -5024,8 +4788,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "appareil photo",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5042,8 +4805,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ordinateur",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5060,8 +4822,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bouteille",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5078,8 +4839,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "boîte",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5096,8 +4856,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ballon",
         "level": "starter",
         "theme": "sports_equipment_A1",
@@ -5114,8 +4873,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cadeau",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -5132,8 +4890,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "rue",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5150,8 +4907,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "immeuble",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5168,8 +4924,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "café",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -5186,8 +4941,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "centre",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5204,13 +4958,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "beurre",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🧈",
         "form": "noun",
         "plural": "beurres",
@@ -5222,13 +4976,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fromage",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🧀",
         "form": "noun",
         "plural": "fromages",
@@ -5240,8 +4994,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "acteur",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -5258,8 +5011,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "artiste",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -5276,8 +5028,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "adulte",
         "level": "starter",
         "theme": "people_A1",
@@ -5294,8 +5045,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "conseil",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -5312,8 +5062,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "âge",
         "level": "starter",
         "theme": "age_A1",
@@ -5330,8 +5079,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "air",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -5348,8 +5096,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "quartier",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5366,8 +5113,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "art",
         "level": "starter",
         "theme": "places_culture_leisure_A1",
@@ -5384,8 +5130,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "groupe",
         "level": "starter",
         "theme": "music_A1",
@@ -5402,8 +5147,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bain",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -5420,8 +5164,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "anniversaire",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -5438,8 +5181,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bateau",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -5456,8 +5198,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "affaires",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5474,8 +5215,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "université",
         "level": "starter",
         "theme": "types_of_education_A1",
@@ -5492,8 +5232,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "entreprise",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5510,8 +5249,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "concert",
         "level": "starter",
         "theme": "music_A1",
@@ -5528,8 +5266,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "conversation",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -5546,8 +5283,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "encore",
         "level": "starter",
         "theme": "frequency_adverbs_A1",
@@ -5564,8 +5300,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "il y a",
         "level": "starter",
         "theme": "duration_expressions_A1",
@@ -5582,8 +5317,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "aussi",
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
@@ -5600,8 +5334,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vraiment",
         "level": "starter",
         "theme": "basic_intensifiers_A1",
@@ -5618,8 +5351,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "là",
         "level": "starter",
         "theme": "prepositions_place_A1",
@@ -5636,8 +5368,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "crayon",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5654,8 +5385,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "papier",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -5672,8 +5402,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "portefeuille",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -5690,8 +5419,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "parapluie",
         "level": "starter",
         "theme": "weather_A1",
@@ -5708,8 +5436,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lunettes",
         "level": "starter",
         "theme": "accessories_A1",
@@ -5726,8 +5453,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "monsieur",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -5744,8 +5470,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "madame",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -5762,8 +5487,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ville",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5780,8 +5504,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pays",
         "level": "starter",
         "theme": "address_location_A1",
@@ -5798,8 +5521,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "monde",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -5816,8 +5538,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "gens",
         "level": "starter",
         "theme": "people_A1",
@@ -5834,8 +5555,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chose",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -5852,8 +5572,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "temps",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -5870,8 +5589,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "heure",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -5888,8 +5606,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "minute",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -5906,8 +5623,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "seconde",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -5924,8 +5640,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "hier",
         "level": "starter",
         "theme": "times_day_A1",
@@ -5942,8 +5657,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "matinée",
         "level": "starter",
         "theme": "times_day_A1",
@@ -5960,8 +5674,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "après-midi",
         "level": "starter",
         "theme": "times_day_A1",
@@ -5978,8 +5691,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "soirée",
         "level": "starter",
         "theme": "times_day_A1",
@@ -5996,8 +5708,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "minuit",
         "level": "starter",
         "theme": "times_day_A1",
@@ -6014,8 +5725,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "midi",
         "level": "starter",
         "theme": "times_day_A1",
@@ -6032,8 +5742,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "travail",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -6050,8 +5759,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "boulot",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -6068,8 +5776,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "métier",
         "level": "starter",
         "theme": "job_titles_professions_A1",
@@ -6086,8 +5793,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "entreprise",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6104,8 +5810,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bureau",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6122,8 +5827,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "client",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -6140,8 +5844,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "message",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6158,8 +5861,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "email",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6176,8 +5878,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "site web",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6194,8 +5895,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mot de passe",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6212,8 +5912,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "clavier",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6230,8 +5929,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "souris",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6248,8 +5946,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "écran",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -6266,8 +5963,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "musique",
         "level": "starter",
         "theme": "music_A1",
@@ -6284,8 +5980,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chanson",
         "level": "starter",
         "theme": "music_A1",
@@ -6302,8 +5997,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "film",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -6320,8 +6014,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "photo",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -6338,8 +6031,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sport",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -6356,8 +6048,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "football",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -6374,8 +6065,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "tennis",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -6392,8 +6082,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "natation",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -6410,8 +6099,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cafétéria",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -6428,8 +6116,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "marché",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -6446,8 +6133,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ticket",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6464,8 +6150,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "reçu",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6482,8 +6167,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "facture",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6500,8 +6184,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "carte bancaire",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6518,8 +6201,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "espèces",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -6536,8 +6218,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vêtement",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -6554,13 +6235,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cuisine",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🍳",
         "form": "noun",
         "plural": "cuisines",
@@ -6572,13 +6253,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sel",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🧂",
         "form": "noun",
         "plural": "",
@@ -6590,13 +6271,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "poivre",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🧂",
         "form": "noun",
         "plural": "",
@@ -6608,13 +6289,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "huile",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "l'",
         "gender": "feminine",
+        "partitive": "de l'",
         "emoji": "🏺",
         "form": "noun",
         "plural": "huiles",
@@ -6626,13 +6307,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vinaigre",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🏺",
         "form": "noun",
         "plural": "vinaigres",
@@ -6644,13 +6325,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "petit-déjeuner",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "☕",
         "form": "noun",
         "plural": "petits-déjeuners",
@@ -6662,13 +6343,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "déjeuner",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍽️",
         "form": "noun",
         "plural": "déjeuners",
@@ -6680,13 +6361,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "dîner",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍷",
         "form": "noun",
         "plural": "dîners",
@@ -6698,13 +6379,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "goûter",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍪",
         "form": "noun",
         "plural": "goûters",
@@ -6716,8 +6397,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "invité",
         "level": "starter",
         "theme": "family_life_A1",
@@ -6734,8 +6414,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fête",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -6752,8 +6431,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cadeau",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -6770,8 +6448,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "voyageur",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -6788,8 +6465,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "valise",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -6806,8 +6482,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sac à dos",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -6824,8 +6499,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "passeport",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -6842,8 +6516,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "carte",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -6860,8 +6533,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "plan",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -6878,8 +6550,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "rue",
         "level": "starter",
         "theme": "address_location_A1",
@@ -6896,8 +6567,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chemin",
         "level": "starter",
         "theme": "address_location_A1",
@@ -6914,8 +6584,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "route",
         "level": "starter",
         "theme": "address_location_A1",
@@ -6932,8 +6601,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "place",
         "level": "starter",
         "theme": "address_location_A1",
@@ -6950,8 +6618,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pont",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -6968,8 +6635,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "forêt",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -6986,8 +6652,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "plage",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -7004,8 +6669,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "campagne",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -7022,8 +6686,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "village",
         "level": "starter",
         "theme": "address_location_A1",
@@ -7040,8 +6703,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "langue",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7058,8 +6720,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "mot",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7076,8 +6737,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "phrase",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7094,8 +6754,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "question",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -7112,8 +6771,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "réponse",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -7130,8 +6788,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "idée",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -7148,8 +6805,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "avis",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -7166,8 +6822,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "opinion",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -7184,8 +6839,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "choix",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -7202,8 +6856,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "décision",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -7220,8 +6873,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "plan",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -7238,8 +6890,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "projet",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -7256,8 +6907,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "réussite",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -7274,8 +6924,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "erreur",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7292,8 +6941,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "faute",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -7310,8 +6958,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cadeau",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7328,8 +6975,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "prix",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7346,8 +6992,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vente",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7364,8 +7009,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "achat",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7382,8 +7026,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "magasin",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7400,8 +7043,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "boutique",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7418,8 +7060,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "centre commercial",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7436,8 +7077,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "monnaie",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7454,8 +7094,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "billet",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7472,8 +7111,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "compte",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7490,8 +7128,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "banque",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7508,8 +7145,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "épargne",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7526,8 +7162,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "dépense",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7544,8 +7179,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "paiement",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7562,8 +7196,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "coût",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -7580,8 +7213,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "marché",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7598,8 +7230,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "produit",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7616,8 +7247,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "service",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -7634,8 +7264,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "offre",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7652,8 +7281,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "demande",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7670,8 +7298,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "livraison",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7688,8 +7315,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "commande",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7706,8 +7332,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "clientèle",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -7724,8 +7349,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vente",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7742,8 +7366,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "boutique",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -7760,8 +7383,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "étage",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7778,8 +7400,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "entrée",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7796,8 +7417,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sortie",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7814,8 +7434,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "escalier",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7832,8 +7451,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ascenseur",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7850,8 +7468,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "couloir",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7868,8 +7485,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "murs",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7886,8 +7502,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "toit",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7904,8 +7519,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "jardin",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7922,8 +7536,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "garage",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7940,8 +7553,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "salon",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7958,8 +7570,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "cuisine",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7976,8 +7587,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "salle à manger",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -7994,8 +7604,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "toilette",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8012,8 +7621,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "douche",
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
@@ -8030,8 +7638,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "robinet",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8048,8 +7655,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "savon",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -8066,8 +7672,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "serviette",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8084,8 +7689,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "miroir",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8102,8 +7706,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lit",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8120,8 +7723,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "oreiller",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8138,8 +7740,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "couverture",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8156,8 +7757,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "armoire",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8174,8 +7774,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "étagère",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8192,8 +7791,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bureau",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8210,8 +7808,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chaise",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8228,8 +7825,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "fauteuil",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8246,8 +7842,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "canapé",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8264,8 +7859,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lampe",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8282,8 +7876,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "télévision",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -8300,8 +7893,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "radio",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -8318,8 +7910,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "téléphone",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -8336,8 +7927,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "montre",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -8354,8 +7944,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "réveil",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -8372,8 +7961,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "clé",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8390,8 +7978,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sac",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -8408,8 +7995,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "portefeuille",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -8426,8 +8012,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "lunettes",
         "level": "starter",
         "theme": "accessories_A1",
@@ -8444,8 +8029,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "parapluie",
         "level": "starter",
         "theme": "weather_A1",
@@ -8462,8 +8046,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chaussures",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8480,8 +8063,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bottes",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8498,8 +8080,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chaussettes",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8516,8 +8097,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pantalon",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8534,8 +8114,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "jean",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8552,8 +8131,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "jupe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8570,8 +8148,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "robe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8588,8 +8165,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chemise",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8606,8 +8182,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "t-shirt",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8624,8 +8199,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pull",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8642,8 +8216,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "manteau",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8660,8 +8233,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "veste",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8678,8 +8250,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chapeau",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8696,8 +8267,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "casquette",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8714,8 +8284,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bonnet",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8732,8 +8301,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "écharpe",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8750,8 +8318,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "gants",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8768,8 +8335,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "ceinture",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8786,8 +8352,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "maillot de bain",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8804,8 +8369,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "pyjama",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -8822,8 +8386,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "valise",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8840,8 +8403,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "sac à dos",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8858,8 +8420,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "passeport",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8876,8 +8437,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "billet",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -8894,8 +8454,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "carte",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8912,8 +8471,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "plan",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -8930,8 +8488,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "gare",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -8948,8 +8505,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "aéroport",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -8966,8 +8522,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "station de bus",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -8984,8 +8539,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "arrêt de bus",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9002,8 +8556,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "quai",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9020,8 +8573,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "voie",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9038,8 +8590,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "train",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9056,8 +8607,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bus",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9074,8 +8624,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "métro",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9092,8 +8641,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "taxi",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9110,8 +8658,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vitesse",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -9128,8 +8675,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "bagages",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9146,8 +8692,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "voyage",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9164,8 +8709,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vacances",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -9182,8 +8726,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "départ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9200,8 +8743,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "arrivée",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9218,8 +8760,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "vol",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -9236,8 +8777,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "réservation",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9254,8 +8794,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "chambre d'hôtel",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9272,8 +8811,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "clé",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9290,8 +8828,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "réception",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -9308,13 +8845,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "déjeuner",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍽️",
         "form": "noun",
         "plural": "déjeuners",
@@ -9326,13 +8863,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "dîner",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🍷",
         "form": "noun",
         "plural": "dîners",
@@ -9344,13 +8881,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "souper",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "le",
         "gender": "masculine",
+        "partitive": "du",
         "emoji": "🥣",
         "form": "noun",
         "plural": "soupers",
@@ -9362,13 +8899,13 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "collation",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "article": "la",
         "gender": "feminine",
+        "partitive": "de la",
         "emoji": "🍪",
         "form": "noun",
         "plural": "collations",
@@ -9380,8 +8917,7 @@
                 ]
             }
         ]
-    },
-    {
+    }, {
         "word": "réveil",
         "level": "starter",
         "theme": "telling_time_A1",
@@ -9398,7 +8934,117 @@
                 ]
             }
         ]
-    },
+    }, {
+        "word": "pâtes",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "les",
+        "gender": "feminine",
+        "partitive": "des",
+        "emoji": "🍝",
+        "form": "noun",
+        "plural": "pâtes",
+        "definitions": [
+            {
+                "text": "Un aliment fait de farine et d'œufs, souvent servi avec de la sauce.",
+                "examples": [
+                    "J'adore les pâtes à la sauce tomate.",
+                    "Les spaghettis sont un type de pâtes."
+                ]
+            }
+        ]
+    }, {
+        "word": "pizza",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "partitive": "de la",
+        "emoji": "🍕",
+        "form": "noun",
+        "plural": "pizzas",
+        "definitions": [
+            {
+                "text": "Un pain plat avec du fromage et de la tomate.",
+                "examples": [
+                    "J'aime la pizza au fromage.",
+                    "Commandons une pizza."
+                ]
+            }
+        ]
+    }, {
+        "word": "soda",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "article": "le",
+        "gender": "masculine",
+        "partitive": "du",
+        "emoji": "🥤",
+        "form": "noun",
+        "plural": "sodas",
+        "subtext": "boisson gazeuse",
+        "definitions": [
+            {
+                "text": "Une boisson sucrée avec des bulles.",
+                "examples": [
+                    "Je ne bois pas beaucoup de soda."
+                ]
+            }
+        ]
+    }, {
+        "word": "banane",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "partitive": "de la",
+        "emoji": "🍌",
+        "form": "noun",
+        "plural": "bananes",
+        "definitions": [
+            {
+                "text": "Un fruit long et jaune.",
+                "examples": [
+                    "Les singes aiment les bananes.",
+                    "Je mange une banane chaque matin."
+                ]
+            }
+        ]
+    }, {
+        "word": "dent",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🦷",
+        "form": "noun",
+        "plural": "dents",
+        "definitions": [
+            {
+                "text": "L'un des objets blancs et durs dans votre bouche que vous utilisez pour manger.",
+                "examples": [
+                    "Brossez-vous les dents tous les jours."
+                ]
+            }
+        ]
+    }, {
+        "word": "cheveux",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "les",
+        "gender": "masculine",
+        "emoji": "💇",
+        "form": "noun",
+        "plural": "cheveux",
+        "definitions": [
+            {
+                "text": "La masse de choses comme des fils qui poussent sur votre tête.",
+                "examples": [
+                    "Il a les cheveux courts et bruns."
+                ]
+            }
+        ]
+    }
 ];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};

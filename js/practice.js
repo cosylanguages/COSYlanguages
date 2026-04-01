@@ -1233,7 +1233,13 @@ function expandGrammarItems(items, lang) {
             }
         }
 
-        if (item.article || item.gender || item.plural) {
+        if (item.article || item.gender || item.plural || item.partitive) {
+            if (item.partitive) {
+                const correctAnswer = item.partitive;
+                const baseWord = item.baseWord || item.word;
+                const distractors = ['du', 'de la', "de l'", 'des'].filter(a => a !== correctAnswer);
+                expanded.push({ ...item, type: 'type-ga', baseWord: baseWord, primaryPrompt: baseWord, clozeText: `____ ${baseWord} (partitif)`, answer: correctAnswer, distractors: distractors, theme: 'grammar_gender' });
+            }
             if (item.article || item.gender) {
                 const correctAnswer = item.article || item.gender;
                 const baseWord = item.baseWord || item.word;
