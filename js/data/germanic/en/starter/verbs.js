@@ -4656,6 +4656,342 @@
         "v2": "turned off",
         "v3": "turned off",
         "group": "regular"
+    },
+    {
+        "word": "welcome",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "👋",
+        "form": "verb",
+        "subtext": "welcome someone / welcome home",
+        "definitions": [
+            {
+                "text": "To greet someone who has just arrived at a place.",
+                "examples": [
+                    "We welcomed the guests at the door."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "welcomed",
+        "v3": "welcomed",
+        "group": "regular"
+    },
+    {
+        "word": "act",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎭",
+        "form": "verb",
+        "subtext": "act in a play / act quickly",
+        "definitions": [
+            {
+                "text": "To perform in a play or movie.",
+                "examples": [
+                    "He acts in the school play."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "acted",
+        "v3": "acted",
+        "group": "regular"
+    },
+    {
+        "word": "copy",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📄",
+        "form": "verb",
+        "subtext": "copy a document / copy files",
+        "definitions": [
+            {
+                "text": "To make something that is exactly like another thing.",
+                "examples": [
+                    "Can you copy this report for me?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "copied",
+        "v3": "copied",
+        "group": "regular"
+    },
+    {
+        "word": "fill",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "emoji": "🫗",
+        "form": "verb",
+        "subtext": "fill a glass / fill in a form",
+        "definitions": [
+            {
+                "text": "To make something full.",
+                "examples": [
+                    "Please fill the glass with water."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "filled",
+        "v3": "filled",
+        "group": "regular"
+    },
+    {
+        "word": "fit",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👕",
+        "form": "verb",
+        "subtext": "fit well / does it fit?",
+        "definitions": [
+            {
+                "text": "To be the right size or shape for someone or something.",
+                "examples": [
+                    "These shoes don't fit me."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "fitted",
+        "v3": "fitted",
+        "group": "regular"
+    },
+    {
+        "word": "imagine",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💭",
+        "form": "verb",
+        "subtext": "imagine that / can you imagine?",
+        "definitions": [
+            {
+                "text": "To form a picture or idea in your mind.",
+                "examples": [
+                    "Imagine you are on a beach."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "imagined",
+        "v3": "imagined",
+        "group": "regular"
+    },
+    {
+        "word": "join",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "join a club / join us",
+        "definitions": [
+            {
+                "text": "To become a member of a group or organization.",
+                "examples": [
+                    "I want to join the tennis club."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "joined",
+        "v3": "joined",
+        "group": "regular"
+    },
+    {
+        "word": "note",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📝",
+        "form": "verb",
+        "subtext": "note down / please note",
+        "definitions": [
+            {
+                "text": "To write something down so that you will remember it.",
+                "examples": [
+                    "Please note the time of the meeting."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "noted",
+        "v3": "noted",
+        "group": "regular"
+    },
+    {
+        "word": "pick",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🧺",
+        "form": "verb",
+        "subtext": "pick flowers / pick up",
+        "definitions": [
+            {
+                "text": "To take flowers, fruit, etc. from the plant where they are growing.",
+                "examples": [
+                    "They are picking apples in the garden."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "picked",
+        "v3": "picked",
+        "group": "regular"
+    },
+    {
+        "word": "produce",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🏭",
+        "form": "verb",
+        "subtext": "produce goods / produce results",
+        "definitions": [
+            {
+                "text": "To make or grow something.",
+                "examples": [
+                    "This factory produces cars."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "produced",
+        "v3": "produced",
+        "group": "regular"
+    },
+    {
+        "word": "promise",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "promise to / I promise",
+        "definitions": [
+            {
+                "text": "To say that you will certainly do something.",
+                "examples": [
+                    "I promise to help you tomorrow."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "promised",
+        "v3": "promised",
+        "group": "regular"
+    },
+    {
+        "word": "record",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "⏺️",
+        "form": "verb",
+        "subtext": "record a video / record a song",
+        "definitions": [
+            {
+                "text": "To store sounds or pictures using electronic equipment.",
+                "examples": [
+                    "She is recording a video of the party."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "recorded",
+        "v3": "recorded",
+        "group": "regular"
+    },
+    {
+        "word": "suggest",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💡",
+        "form": "verb",
+        "subtext": "suggest an idea / let me suggest",
+        "definitions": [
+            {
+                "text": "To mention an idea or a plan for someone to consider.",
+                "examples": [
+                    "Can you suggest a good restaurant?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "suggested",
+        "v3": "suggested",
+        "group": "regular"
+    },
+    {
+        "word": "wish",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "🤞",
+        "form": "verb",
+        "subtext": "wish for / I wish",
+        "definitions": [
+            {
+                "text": "To want something to happen or to be true even though it is unlikely.",
+                "examples": [
+                    "I wish it was summer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "wished",
+        "v3": "wished",
+        "group": "regular"
+    },
+    {
+        "word": "collect",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "📦",
+        "form": "verb",
+        "subtext": "collect things / collect stamps",
+        "definitions": [
+            {
+                "text": "To bring things together from different places.",
+                "examples": [
+                    "She collects stamps."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "collected",
+        "v3": "collected",
+        "group": "regular"
+    },
+    {
+        "word": "describe",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💬",
+        "form": "verb",
+        "subtext": "describe something / describe a person",
+        "definitions": [
+            {
+                "text": "To say or write what someone or something is like.",
+                "examples": [
+                    "Can you describe your house?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "described",
+        "v3": "described",
+        "group": "regular"
     }
 ];
     const lang = "en";

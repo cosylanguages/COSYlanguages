@@ -887,6 +887,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
+        "opposite": "expensive",
+        "oppositeEmoji": "💎",
         "subtext": "free of charge, free gift / free time / free of charge / free to do",
         "definitions": [
             {
@@ -3780,9 +3782,429 @@
                 ]
             }
         ],
-        "subtext": "",
-        "comparative": "",
-        "superlative": ""
+        "subtext": "violet / purple flowers / bright purple",
+        "comparative": "more purple",
+        "superlative": "the most purple"
+    },
+    {
+        "word": "able",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "💪",
+        "form": "adjective",
+        "opposite": "unable",
+        "definitions": [
+            {
+                "text": "Having the power, skill, knowledge, or money to do something.",
+                "examples": [
+                    "She is able to speak three languages."
+                ]
+            }
+        ],
+        "subtext": "capable / be able to / highly able",
+        "comparative": "abler",
+        "superlative": "the ablest"
+    },
+    {
+        "word": "close",
+        "level": "starter",
+        "theme": "distance_A1",
+        "emoji": "📍",
+        "form": "adjective",
+        "opposite": "far",
+        "definitions": [
+            {
+                "text": "Near in space or time.",
+                "examples": [
+                    "The station is close to the hotel."
+                ]
+            }
+        ],
+        "subtext": "near / close to / very close",
+        "comparative": "closer",
+        "superlative": "the closest"
+    },
+    {
+        "word": "dead",
+        "level": "starter",
+        "theme": "illnesses_symptoms_A1",
+        "emoji": "💀",
+        "form": "adjective",
+        "opposite": "alive",
+        "definitions": [
+            {
+                "text": "Not living anymore.",
+                "examples": [
+                    "The flowers are dead."
+                ]
+            }
+        ],
+        "subtext": "deceased / dead leaves / completely dead",
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "fair",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "opposite": "unfair",
+        "definitions": [
+            {
+                "text": "Treating people equally or in a right way.",
+                "examples": [
+                    "It is a fair decision."
+                ]
+            }
+        ],
+        "subtext": "just / a fair price / be fair",
+        "comparative": "fairer",
+        "superlative": "the fairest"
+    },
+    {
+        "word": "fine",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "😊",
+        "form": "adjective",
+        "opposite": "bad",
+        "definitions": [
+            {
+                "text": "Good or acceptable; healthy.",
+                "examples": [
+                    "I am fine, thank you.",
+                    "The weather is fine today."
+                ]
+            }
+        ],
+        "subtext": "okay, good / feel fine / a fine day",
+        "comparative": "finer",
+        "superlative": "the finest"
+    },
+    {
+        "word": "glad",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "emoji": "😊",
+        "form": "adjective",
+        "opposite": "sad",
+        "definitions": [
+            {
+                "text": "Happy and pleased.",
+                "examples": [
+                    "I am glad to see you."
+                ]
+            }
+        ],
+        "subtext": "happy, pleased / glad that / so glad",
+        "comparative": "gladder",
+        "superlative": "the gladdest"
+    },
+    {
+        "word": "interested",
+        "level": "starter",
+        "theme": "surprise_interest_A1",
+        "emoji": "🧐",
+        "form": "adjective",
+        "opposite": "bored",
+        "definitions": [
+            {
+                "text": "Wanting to give your attention to something or learn more about it.",
+                "examples": [
+                    "I am interested in history."
+                ]
+            }
+        ],
+        "subtext": "curious / interested in / very interested",
+        "comparative": "more interested",
+        "superlative": "the most interested"
+    },
+    {
+        "word": "only",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "1️⃣",
+        "form": "adjective",
+        "opposite": "many",
+        "definitions": [
+            {
+                "text": "Used to show that there is only one or a few of something.",
+                "examples": [
+                    "She is the only student in the classroom."
+                ]
+            }
+        ],
+        "subtext": "sole / the only one / only child",
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "other",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "➕",
+        "form": "adjective",
+        "opposite": "same",
+        "definitions": [
+            {
+                "text": "Used to refer to people or things that are different from the ones already mentioned.",
+                "examples": [
+                    "Where are the other students?"
+                ]
+            }
+        ],
+        "subtext": "different / the other one / some other",
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "own",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "👤",
+        "form": "adjective",
+        "opposite": "shared",
+        "definitions": [
+            {
+                "text": "Belonging to or done by a particular person.",
+                "examples": [
+                    "I have my own room."
+                ]
+            }
+        ],
+        "subtext": "personal / on my own / my own car",
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "quick",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "⚡",
+        "form": "adjective",
+        "opposite": "slow",
+        "definitions": [
+            {
+                "text": "Happening or done in a short time.",
+                "examples": [
+                    "She gave a quick answer."
+                ]
+            }
+        ],
+        "subtext": "fast / a quick lunch / very quick",
+        "comparative": "quicker",
+        "superlative": "the quickest"
+    },
+    {
+        "word": "ready",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "unready",
+        "definitions": [
+            {
+                "text": "Prepared for what you are going to do.",
+                "examples": [
+                    "Are you ready for work?"
+                ]
+            }
+        ],
+        "subtext": "prepared / get ready / almost ready",
+        "comparative": "readier",
+        "superlative": "the readiest"
+    },
+    {
+        "word": "rough",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🧱",
+        "form": "adjective",
+        "opposite": "smooth",
+        "definitions": [
+            {
+                "text": "Not smooth.",
+                "examples": [
+                    "The dog has rough fur."
+                ]
+            }
+        ],
+        "subtext": "uneven / rough skin / rough sea",
+        "comparative": "rougher",
+        "superlative": "the roughest"
+    },
+    {
+        "word": "sharp",
+        "level": "starter",
+        "theme": "tastes_textures_A1",
+        "emoji": "🔪",
+        "form": "adjective",
+        "opposite": "blunt",
+        "definitions": [
+            {
+                "text": "Having a thin edge that is able to cut things or a fine point which is able to make a hole in things.",
+                "examples": [
+                    "This knife is very sharp."
+                ]
+            }
+        ],
+        "subtext": "pointed / a sharp knife / very sharp",
+        "comparative": "sharper",
+        "superlative": "the sharpest"
+    },
+    {
+        "word": "shy",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "😳",
+        "form": "adjective",
+        "opposite": "confident",
+        "definitions": [
+            {
+                "text": "Nervous and uncomfortable about meeting and talking to other people.",
+                "examples": [
+                    "He is a shy boy."
+                ]
+            }
+        ],
+        "subtext": "timid / feel shy / quite shy",
+        "comparative": "shyer",
+        "superlative": "the shyest"
+    },
+    {
+        "word": "strange",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "❓",
+        "form": "adjective",
+        "opposite": "normal",
+        "definitions": [
+            {
+                "text": "Unusual or unexpected.",
+                "examples": [
+                    "He heard a strange noise."
+                ]
+            }
+        ],
+        "subtext": "unusual / a strange man / look strange",
+        "comparative": "stranger",
+        "superlative": "the strangest"
+    },
+    {
+        "word": "thick",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "📖",
+        "form": "adjective",
+        "opposite": "thin",
+        "definitions": [
+            {
+                "text": "Having a large distance between two sides.",
+                "examples": [
+                    "This is a thick book."
+                ]
+            }
+        ],
+        "subtext": "wide / thick walls / thick hair",
+        "comparative": "thicker",
+        "superlative": "the thickest"
+    },
+    {
+        "word": "true",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "false",
+        "definitions": [
+            {
+                "text": "Based on facts and not imaginary.",
+                "examples": [
+                    "Is the story true?"
+                ]
+            }
+        ],
+        "subtext": "real / come true / truly",
+        "comparative": "truer",
+        "superlative": "the truest"
+    },
+    {
+        "word": "wild",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🦁",
+        "form": "adjective",
+        "opposite": "tame",
+        "definitions": [
+            {
+                "text": "Living or growing in nature; not controlled by humans.",
+                "examples": [
+                    "I saw some wild animals in the forest."
+                ]
+            }
+        ],
+        "subtext": "natural / wild flowers / wild cats",
+        "comparative": "wilder",
+        "superlative": "the wildest"
+    },
+    {
+        "word": "wise",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "🦉",
+        "form": "adjective",
+        "opposite": "foolish",
+        "definitions": [
+            {
+                "text": "Having or showing the ability to make good judgments, based on a deep understanding and experience of life.",
+                "examples": [
+                    "He is a wise man."
+                ]
+            }
+        ],
+        "subtext": "intelligent / a wise choice / very wise",
+        "comparative": "wiser",
+        "superlative": "the wisest"
+    },
+    {
+        "word": "stupid",
+        "level": "starter",
+        "theme": "personality_traits_A1",
+        "emoji": "🤡",
+        "form": "adjective",
+        "opposite": "clever",
+        "definitions": [
+            {
+                "text": "Silly or not intelligent.",
+                "examples": [
+                    "It was a stupid mistake."
+                ]
+            }
+        ],
+        "subtext": "silly / don't be stupid / very stupid",
+        "comparative": "stupider",
+        "superlative": "the stupidest"
+    },
+    {
+        "word": "sure",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "unsure",
+        "definitions": [
+            {
+                "text": "Certain; having no doubt.",
+                "examples": [
+                    "I am sure about the answer.",
+                    "Are you sure?"
+                ]
+            }
+        ],
+        "subtext": "certain / make sure / pretty sure",
+        "comparative": "surer",
+        "superlative": "the surest"
     }
 ];
     const lang = "en";

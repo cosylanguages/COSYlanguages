@@ -24,7 +24,8 @@
                     "Doctors wear white coats."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "soda",
@@ -41,7 +42,8 @@
                     "I don't drink much soda because it has a lot of sugar."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "scarf",
@@ -57,7 +59,8 @@
                     "He wears a scarf around his neck."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cereal",
@@ -73,7 +76,8 @@
                     "I have a bowl of cereal every morning."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "gloves",
@@ -89,7 +93,8 @@
                     "Wear your gloves — it is cold."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sunglasses",
@@ -105,7 +110,8 @@
                     "I need my sunglasses today."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "suit",
@@ -122,7 +128,8 @@
                     "He wears a suit to work."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "person",
@@ -140,7 +147,8 @@
                     "She is a nice person."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bill",
@@ -157,7 +165,8 @@
                     "I need to pay the phone bill."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "receipt",
@@ -174,7 +183,8 @@
                     "Can I have a receipt, please?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cash",
@@ -191,7 +201,8 @@
                     "I have no cash, can I pay by card?"
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "card",
@@ -208,7 +219,8 @@
                     "I will pay by card."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "report",
@@ -225,7 +237,8 @@
                     "I am writing a report."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "market",
@@ -241,7 +254,8 @@
                     "I buy fruit at the market."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "next to",
@@ -309,6 +323,7 @@
         "emoji": "🧥",
         "form": "noun",
         "plural": "jackets",
+        "subtext": "coat, wear a jacket",
         "definitions": [
             {
                 "text": "A short coat.",
@@ -316,7 +331,8 @@
                     "He is wearing a leather jacket."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "shirt",
@@ -325,6 +341,7 @@
         "emoji": "👔",
         "form": "noun",
         "plural": "shirts",
+        "subtext": "white shirt, wear a shirt",
         "definitions": [
             {
                 "text": "A piece of clothing worn on the upper part of the body.",
@@ -332,7 +349,8 @@
                     "He wears a white shirt to work."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "foot",
@@ -351,7 +369,8 @@
                     "She has small feet."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "face",
@@ -367,7 +386,8 @@
                     "She has a beautiful face."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hair",
@@ -383,7 +403,8 @@
                     "He has short brown hair."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "tooth",
@@ -401,7 +422,8 @@
                     "Brush your teeth every day."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "teacher",
@@ -427,7 +449,8 @@
                     "Teachers explain new topics."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pizza",
@@ -452,7 +475,8 @@
                     "Pizza is popular all over the world."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pasta",
@@ -475,7 +499,8 @@
                     "There are many different shapes of pasta."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "apple",
@@ -494,7 +519,8 @@
                     "Apple juice is sweet."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bread",
@@ -513,7 +539,8 @@
                     "I eat bread for breakfast."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "egg",
@@ -537,7 +564,8 @@
                     "We need eggs to bake a cake."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "milk",
@@ -561,7 +589,8 @@
                     "Keep the milk in the fridge."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "banana",
@@ -584,7 +613,8 @@
                     "Peel the banana before eating it."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "coffee",
@@ -609,7 +639,8 @@
                     "The coffee is very hot."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "tea",
@@ -634,7 +665,8 @@
                     "I like tea with lemon."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "juice",
@@ -657,7 +689,8 @@
                     "Freshly squeezed juice is the best."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "water",
@@ -676,7 +709,8 @@
                     "Please drink water."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "park",
@@ -699,7 +733,8 @@
                     "Children play in the park."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "school",
@@ -716,7 +751,8 @@
                     "My school is near my house."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "t-shirt",
@@ -733,7 +769,8 @@
                     "I am wearing a white t-shirt."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pants",
@@ -750,7 +787,8 @@
                     "I need new pants."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "shoe",
@@ -767,7 +805,8 @@
                     "Put on your shoes."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hat",
@@ -784,7 +823,8 @@
                     "She is wearing a beautiful hat."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chair",
@@ -802,7 +842,8 @@
                     "This chair is broken."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "table",
@@ -820,7 +861,8 @@
                     "Let's sit at the table."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bed",
@@ -838,7 +880,8 @@
                     "It's time to go to bed."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "key",
@@ -862,7 +905,8 @@
                     "What is the key factor?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "phone",
@@ -879,7 +923,8 @@
                     "I am talking on the phone."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "book",
@@ -898,7 +943,8 @@
                     "This book is interesting."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bag",
@@ -915,7 +961,8 @@
                     "My school bag is heavy."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pen",
@@ -932,7 +979,8 @@
                     "The pen is on the desk."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cat",
@@ -951,7 +999,8 @@
                     "I love cats."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dog",
@@ -970,7 +1019,8 @@
                     "The dog is barking."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bird",
@@ -987,7 +1037,8 @@
                     "Look at that beautiful bird!"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fish",
@@ -1004,7 +1055,8 @@
                     "The fish is swimming."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "head",
@@ -1022,7 +1074,8 @@
                     "He nodded his head."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hand",
@@ -1040,7 +1093,8 @@
                     "Give me your hand."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "leg",
@@ -1057,7 +1111,8 @@
                     "I have two legs."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "eye",
@@ -1075,7 +1130,8 @@
                     "She has blue eyes."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "nose",
@@ -1091,7 +1147,8 @@
                     "He has a small nose."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mouth",
@@ -1108,7 +1165,8 @@
                     "Open your mouth."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ear",
@@ -1125,7 +1183,8 @@
                     "I have two ears."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "smartphone",
@@ -1141,7 +1200,8 @@
                     "I use my smartphone every day."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mother",
@@ -1158,7 +1218,8 @@
                     "I love my mother."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "father",
@@ -1175,7 +1236,8 @@
                     "His father is tall."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "man",
@@ -1195,7 +1257,8 @@
                     "That man is my boss."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "woman",
@@ -1215,7 +1278,8 @@
                     "That woman is a doctor."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "work",
@@ -1231,7 +1295,8 @@
                     "I go to work every day."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "job",
@@ -1247,7 +1312,8 @@
                     "She has a good job."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "office",
@@ -1264,7 +1330,8 @@
                     "He is in the office."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "home",
@@ -1280,7 +1347,8 @@
                     "I go home at six o'clock."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "house",
@@ -1297,7 +1365,8 @@
                     "They have a big house."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "flat",
@@ -1314,7 +1383,8 @@
                     "She lives in a flat."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "car",
@@ -1331,7 +1401,8 @@
                     "His car is red."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bus",
@@ -1348,7 +1419,8 @@
                     "I take the bus to work."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "train",
@@ -1365,7 +1437,8 @@
                     "The train is fast."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "food",
@@ -1373,6 +1446,7 @@
         "theme": "basic_foods_A1",
         "emoji": "🍲",
         "form": "noun",
+        "subtext": "healthy food, fast food",
         "definitions": [
             {
                 "text": "Things that people eat.",
@@ -1380,7 +1454,8 @@
                     "The food is good here."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "rice",
@@ -1397,7 +1472,8 @@
                     "We eat rice every day."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "meat",
@@ -1414,7 +1490,8 @@
                     "He eats meat and vegetables."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "breakfast",
@@ -1422,6 +1499,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
         "form": "noun",
+        "subtext": "eat breakfast, have breakfast",
         "definitions": [
             {
                 "text": "The first meal of the day.",
@@ -1429,7 +1507,8 @@
                     "Breakfast is at seven o'clock."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dinner",
@@ -1437,6 +1516,7 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
         "form": "noun",
+        "subtext": "eat dinner, have dinner",
         "definitions": [
             {
                 "text": "The main meal of the day, usually in the evening.",
@@ -1444,7 +1524,8 @@
                     "Dinner is at eight o'clock."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "money",
@@ -1461,7 +1542,8 @@
                     "I have money in my bag."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "shop",
@@ -1478,7 +1560,8 @@
                     "The shop is open."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "family",
@@ -1494,7 +1577,8 @@
                     "My family is big."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "friend",
@@ -1510,7 +1594,8 @@
                     "She is my friend."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "partner",
@@ -1527,7 +1612,8 @@
                     "My partner works here."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "morning",
@@ -1535,6 +1621,7 @@
         "theme": "times_day_A1",
         "emoji": "🌅",
         "form": "noun",
+        "opposite": "evening",
         "subtext": "early morning, good morning",
         "definitions": [
             {
@@ -1543,7 +1630,8 @@
                     "I start work in the morning."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "evening",
@@ -1551,6 +1639,7 @@
         "theme": "times_day_A1",
         "emoji": "🌆",
         "form": "noun",
+        "opposite": "morning",
         "subtext": "this evening, good evening",
         "definitions": [
             {
@@ -1559,7 +1648,8 @@
                     "We eat dinner in the evening."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "day",
@@ -1568,6 +1658,7 @@
         "emoji": "☀️",
         "form": "noun",
         "plural": "days",
+        "opposite": "night",
         "definitions": [
             {
                 "text": "A period of 24 hours.",
@@ -1575,7 +1666,8 @@
                     "I work five days a week."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "week",
@@ -1592,7 +1684,8 @@
                     "I work five days a week."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "every day",
@@ -1624,7 +1717,8 @@
                     "What is for lunch?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "boss",
@@ -1633,6 +1727,7 @@
         "emoji": "💼",
         "form": "noun",
         "plural": "bosses",
+        "subtext": "work, profession, get a job",
         "definitions": [
             {
                 "text": "The person who is in charge at work.",
@@ -1640,7 +1735,8 @@
                     "My boss is very friendly."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "colleague",
@@ -1656,7 +1752,8 @@
                     "My colleagues are helpful."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "salary",
@@ -1674,7 +1771,8 @@
                     "The job has a high salary."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "meeting",
@@ -1692,7 +1790,8 @@
                     "The meeting is in the office."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "commute",
@@ -1708,7 +1807,8 @@
                     "My commute takes one hour."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "stress",
@@ -1724,7 +1824,8 @@
                     "I have a lot of stress at work."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "rent",
@@ -1739,7 +1840,8 @@
                     "I pay rent on the first of the month."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "neighbour",
@@ -1756,7 +1858,8 @@
                     "My neighbours are very nice."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "room",
@@ -1773,7 +1876,8 @@
                     "The flat has three rooms."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "kitchen",
@@ -1790,7 +1894,8 @@
                     "I cook in the kitchen."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sleep",
@@ -1805,7 +1910,8 @@
                     "I need eight hours of sleep."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "exercise",
@@ -1820,7 +1926,8 @@
                     "I do exercise three times a week."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "price",
@@ -1837,7 +1944,8 @@
                     "The price of food is high."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cost",
@@ -1853,7 +1961,8 @@
                     "What is the cost of the flat?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "relationship",
@@ -1869,7 +1978,8 @@
                     "They have a good relationship."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "together",
@@ -1903,7 +2013,8 @@
                     "We have a holiday in July."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hotel",
@@ -1919,7 +2030,8 @@
                     "The hotel is near the station."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "weekend",
@@ -1936,7 +2048,8 @@
                     "I relax at the weekend."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "free time",
@@ -1951,7 +2064,8 @@
                     "I read books in my free time."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "travel",
@@ -1966,7 +2080,8 @@
                     "Air travel is fast."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "back",
@@ -1983,7 +2098,8 @@
                     "I have pain in my back."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "arm",
@@ -2000,7 +2116,8 @@
                     "She broke her arm."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fruit",
@@ -2017,7 +2134,8 @@
                     "Fruit is healthy and good for you."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "vegetable",
@@ -2034,7 +2152,8 @@
                     "He eats vegetables every day."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "beer",
@@ -2051,7 +2170,8 @@
                     "He drinks beer at the weekend."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "wine",
@@ -2068,7 +2188,8 @@
                     "She drinks a glass of wine in the evening."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "door",
@@ -2085,7 +2206,8 @@
                     "Please close the door."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "window",
@@ -2102,7 +2224,8 @@
                     "Open the window — it is hot."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "nurse",
@@ -2119,7 +2242,8 @@
                     "The nurse checks your blood pressure."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "driver",
@@ -2136,7 +2260,8 @@
                     "The bus driver was friendly."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chef",
@@ -2153,7 +2278,8 @@
                     "The chef makes excellent food."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "manager",
@@ -2170,7 +2296,8 @@
                     "My manager works very long hours."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "plane",
@@ -2187,7 +2314,8 @@
                     "The plane lands at nine o'clock."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bike",
@@ -2204,7 +2332,8 @@
                     "He cycles to work on his bike."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hospital",
@@ -2221,7 +2350,8 @@
                     "He went to the hospital by ambulance."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "restaurant",
@@ -2238,7 +2368,8 @@
                     "We go to a restaurant on Fridays."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bank",
@@ -2255,7 +2386,8 @@
                     "The bank is near my office."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "station",
@@ -2272,7 +2404,8 @@
                     "The station is ten minutes from here."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "supermarket",
@@ -2289,7 +2422,8 @@
                     "I go to the supermarket on Saturdays."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sun",
@@ -2306,7 +2440,8 @@
                     "The sun is very strong today."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "rain",
@@ -2323,7 +2458,8 @@
                     "There is a lot of rain in autumn."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "wind",
@@ -2340,7 +2476,8 @@
                     "The wind is very strong today."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "afternoon",
@@ -2348,6 +2485,7 @@
         "theme": "times_day_A1",
         "emoji": "☀️",
         "form": "noun",
+        "opposite": "night",
         "subtext": "this afternoon, good afternoon",
         "definitions": [
             {
@@ -2356,7 +2494,8 @@
                     "I finish work at five in the afternoon."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "night",
@@ -2365,6 +2504,7 @@
         "emoji": "🌙",
         "form": "noun",
         "plural": "nights",
+        "opposite": "day",
         "subtext": "good night, at night",
         "definitions": [
             {
@@ -2373,7 +2513,8 @@
                     "I sleep eight hours every night."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "today",
@@ -2381,6 +2522,7 @@
         "theme": "times_day_A1",
         "emoji": "📅",
         "form": "adverb",
+        "opposite": "yesterday",
         "subtext": "today's meeting, start today",
         "definitions": [
             {
@@ -2397,6 +2539,7 @@
         "theme": "times_day_A1",
         "emoji": "⏭️",
         "form": "adverb",
+        "opposite": "yesterday",
         "subtext": "tomorrow morning, see you tomorrow",
         "definitions": [
             {
@@ -2424,7 +2567,8 @@
                     "Her husband is a doctor."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "wife",
@@ -2443,7 +2587,8 @@
                     "His wife works in finance."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "child",
@@ -2460,7 +2605,8 @@
                     "They have two children."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "parent",
@@ -2477,7 +2623,8 @@
                     "My parents live in the north."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sister",
@@ -2497,7 +2644,8 @@
                     "My sister is a student."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "brother",
@@ -2517,7 +2665,8 @@
                     "Do you have any brothers?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "son",
@@ -2535,7 +2684,8 @@
                     "They have one son and two daughters."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "daughter",
@@ -2553,7 +2703,8 @@
                     "Her daughter is five years old."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "grandfather",
@@ -2571,7 +2722,8 @@
                     "My grandfather is eighty years old."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "grandmother",
@@ -2589,7 +2741,8 @@
                     "My grandmother lives in a small village."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "uncle",
@@ -2607,7 +2760,8 @@
                     "My uncle lives in London."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "aunt",
@@ -2625,7 +2779,8 @@
                     "My aunt is a teacher."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cousin",
@@ -2641,7 +2796,8 @@
                     "I have many cousins."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "tree",
@@ -2659,7 +2815,8 @@
                     "The bird is in the tree."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "flower",
@@ -2677,7 +2834,8 @@
                     "Roses are beautiful flowers."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mountain",
@@ -2695,7 +2853,8 @@
                     "The mountain is covered in snow."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "river",
@@ -2713,7 +2872,8 @@
                     "There is a bridge over the river."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sea",
@@ -2731,7 +2891,8 @@
                     "The sea is very calm today."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "beach",
@@ -2749,7 +2910,8 @@
                     "The children are playing on the beach."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sky",
@@ -2767,7 +2929,8 @@
                     "There are no clouds in the sky."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "moon",
@@ -2784,7 +2947,8 @@
                     "The moon is very bright tonight."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "plate",
@@ -2801,7 +2965,8 @@
                     "Please put the sandwich on a plate."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cup",
@@ -2818,7 +2983,8 @@
                     "Would you like a cup of tea?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "glass",
@@ -2835,7 +3001,8 @@
                     "Can I have a glass of water, please?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fork",
@@ -2851,7 +3018,8 @@
                     "Eat your pasta with a fork."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "spoon",
@@ -2867,7 +3035,8 @@
                     "Use a spoon for your soup."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "knife",
@@ -2883,7 +3052,8 @@
                     "Use a knife to cut the meat."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "laptop",
@@ -2899,7 +3069,8 @@
                     "I use my laptop for work."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "television",
@@ -2916,7 +3087,8 @@
                     "We watch the news on television."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cinema",
@@ -2933,7 +3105,8 @@
                     "Let's go to the cinema tonight."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "museum",
@@ -2949,7 +3122,8 @@
                     "The museum is very interesting."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "airport",
@@ -2965,7 +3139,8 @@
                     "I am going to the airport now."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pharmacy",
@@ -2981,7 +3156,8 @@
                     "I need to go to the pharmacy for some aspirin."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chicken",
@@ -2997,7 +3173,8 @@
                     "I like roast chicken."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "sugar",
@@ -3013,7 +3190,8 @@
                     "Do you take sugar in your coffee?"
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "salad",
@@ -3029,7 +3207,8 @@
                     "I'll have a green salad for lunch."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "coat",
@@ -3046,7 +3225,8 @@
                     "Put on your coat — it's cold."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "socks",
@@ -3062,7 +3242,8 @@
                     "I need some new socks."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "neck",
@@ -3078,7 +3259,8 @@
                     "He wears a scarf around his neck."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "shoulder",
@@ -3094,7 +3276,8 @@
                     "She carried the bag on her shoulder."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "in",
@@ -3210,7 +3393,8 @@
                     "I don't have much time."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "problem",
@@ -3228,7 +3412,8 @@
                     "No problem!"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "beef",
@@ -3244,7 +3429,8 @@
                     "I prefer beef to chicken."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "pork",
@@ -3260,7 +3446,8 @@
                     "Is there pork in this sausage?"
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "potato",
@@ -3276,7 +3463,8 @@
                     "I love roast potatoes."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "tomato",
@@ -3292,7 +3480,8 @@
                     "Put some tomatoes in the salad."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "onion",
@@ -3309,7 +3498,8 @@
                     "I need an onion for the soup."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "carrot",
@@ -3325,7 +3515,8 @@
                     "Carrots are good for your eyes."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "soup",
@@ -3333,7 +3524,7 @@
         "theme": "basic_foods_A1",
         "emoji": "🥣",
         "form": "noun",
-        "plural": "soups",
+        "plural": null,
         "definitions": [
             {
                 "text": "A liquid food made by cooking meat, vegetables, or fish in water.",
@@ -3341,7 +3532,8 @@
                     "I had tomato soup for lunch."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "cake",
@@ -3357,7 +3549,8 @@
                     "Would you like a piece of cake?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "chocolate",
@@ -3373,7 +3566,8 @@
                     "I love milk chocolate."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "ice cream",
@@ -3389,7 +3583,8 @@
                     "Let's get an ice cream."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "sweater",
@@ -3406,7 +3601,8 @@
                     "It's cold, wear a sweater."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dress",
@@ -3422,7 +3618,8 @@
                     "She is wearing a beautiful blue dress."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "skirt",
@@ -3438,7 +3635,8 @@
                     "She wore a black skirt."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "boots",
@@ -3454,7 +3652,8 @@
                     "I need some new winter boots."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "finger",
@@ -3470,7 +3669,8 @@
                     "He pointed his finger at the map."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "toe",
@@ -3486,7 +3686,8 @@
                     "She stubbed her toe on the table."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "stomach",
@@ -3502,7 +3703,8 @@
                     "I have a stomach ache."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "knee",
@@ -3518,7 +3720,8 @@
                     "He hurt his knee playing football."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "grass",
@@ -3534,7 +3737,8 @@
                     "Don't walk on the grass."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "lake",
@@ -3550,7 +3754,8 @@
                     "We went for a walk around the lake."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cloud",
@@ -3566,7 +3771,8 @@
                     "Look at those big white clouds."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "star",
@@ -3582,7 +3788,8 @@
                     "The stars are very bright tonight."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "desk",
@@ -3598,7 +3805,8 @@
                     "The pen is on the desk."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lamp",
@@ -3614,7 +3822,8 @@
                     "Turn on the lamp."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "clock",
@@ -3630,7 +3839,8 @@
                     "The clock on the wall says ten o'clock."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mirror",
@@ -3646,7 +3856,8 @@
                     "She looked at herself in the mirror."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "library",
@@ -3662,7 +3873,8 @@
                     "I go to the library to study."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "Monday",
@@ -3677,7 +3889,8 @@
                     "I start work on Monday."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "Tuesday",
@@ -3692,7 +3905,8 @@
                     "We have a meeting on Tuesday."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "Wednesday",
@@ -3707,7 +3921,8 @@
                     "Is it Wednesday today?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "Thursday",
@@ -3722,7 +3937,8 @@
                     "I am busy on Thursday."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "Friday",
@@ -3737,7 +3953,8 @@
                     "I love Fridays!"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "Saturday",
@@ -3752,7 +3969,8 @@
                     "I relax on Saturday."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "Sunday",
@@ -3767,7 +3985,8 @@
                     "The shop is closed on Sunday."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "January",
@@ -3782,7 +4001,8 @@
                     "It is cold in January."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "February",
@@ -3797,7 +4017,8 @@
                     "February is a short month."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "March",
@@ -3812,7 +4033,8 @@
                     "Spring begins in March."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "April",
@@ -3827,7 +4049,8 @@
                     "It rains a lot in April."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "May",
@@ -3842,7 +4065,8 @@
                     "The weather is beautiful in May."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "June",
@@ -3857,7 +4081,8 @@
                     "Summer starts in June."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "July",
@@ -3872,7 +4097,8 @@
                     "We go on holiday in July."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "August",
@@ -3887,7 +4113,8 @@
                     "It is very hot in August."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "September",
@@ -3902,7 +4129,8 @@
                     "Children go back to school in September."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "October",
@@ -3917,7 +4145,8 @@
                     "October is in autumn."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "November",
@@ -3932,7 +4161,8 @@
                     "It is often grey in November."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "December",
@@ -3947,7 +4177,8 @@
                     "Christmas is in December."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "spring",
@@ -3962,7 +4193,8 @@
                     "Flowers grow in spring."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "summer",
@@ -3977,7 +4209,8 @@
                     "I love swimming in summer."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "autumn",
@@ -3993,7 +4226,8 @@
                     "Leaves fall in autumn."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "winter",
@@ -4008,7 +4242,8 @@
                     "It snows in winter."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lion",
@@ -4024,7 +4259,8 @@
                     "The lion is the king of animals."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "elephant",
@@ -4040,7 +4276,8 @@
                     "I saw an elephant at the zoo."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "rabbit",
@@ -4056,7 +4293,8 @@
                     "The rabbit is eating a carrot."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "horse",
@@ -4072,7 +4310,8 @@
                     "She can ride a horse."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cow",
@@ -4088,7 +4327,8 @@
                     "The cow is in the field."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pig",
@@ -4104,7 +4344,8 @@
                     "Pigs are intelligent animals."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sheep",
@@ -4120,7 +4361,8 @@
                     "The sheep are eating grass."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lemon",
@@ -4136,7 +4378,8 @@
                     "I like tea with lemon."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "orange",
@@ -4152,7 +4395,8 @@
                     "I want an orange, please."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "strawberry",
@@ -4168,7 +4412,8 @@
                     "I love strawberry ice cream."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "grape",
@@ -4184,7 +4429,8 @@
                     "Would you like some grapes?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "garlic",
@@ -4200,7 +4446,8 @@
                     "Use garlic in the pasta sauce."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "always",
@@ -4374,6 +4621,7 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "noun",
+        "opposite": "goodbye",
         "definitions": [
             {
                 "text": "A common greeting used when meeting someone.",
@@ -4381,7 +4629,8 @@
                     "Hello! How are you?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "goodbye",
@@ -4389,6 +4638,7 @@
         "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "noun",
+        "opposite": "hello",
         "definitions": [
             {
                 "text": "A common greeting used when leaving someone.",
@@ -4396,7 +4646,8 @@
                     "Goodbye! See you tomorrow."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "please",
@@ -4426,7 +4677,8 @@
                     "Thank you for the help."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "yes",
@@ -4434,6 +4686,7 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "✅",
         "form": "adverb",
+        "opposite": "no",
         "definitions": [
             {
                 "text": "Used to give a positive answer.",
@@ -4449,6 +4702,7 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "❌",
         "form": "adverb",
+        "opposite": "yes",
         "definitions": [
             {
                 "text": "Used to give a negative answer.",
@@ -4471,7 +4725,8 @@
                     "My name is John."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bathroom",
@@ -4487,7 +4742,8 @@
                     "The bathroom is at the end of the hall."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bedroom",
@@ -4503,7 +4759,8 @@
                     "My bedroom has a big window."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "baby",
@@ -4519,7 +4776,8 @@
                     "The baby is sleeping."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "boy",
@@ -4537,7 +4795,8 @@
                     "The boy is playing with a ball."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "girl",
@@ -4555,7 +4814,8 @@
                     "She is a clever girl."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "boyfriend",
@@ -4573,7 +4833,8 @@
                     "Her boyfriend lives in London."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "girlfriend",
@@ -4591,7 +4852,8 @@
                     "His girlfriend is a doctor."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "student",
@@ -4609,7 +4871,8 @@
                     "The students are in the classroom."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "classmate",
@@ -4625,7 +4888,8 @@
                     "She is my classmate."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "camera",
@@ -4641,7 +4905,8 @@
                     "I have a new digital camera."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "computer",
@@ -4657,7 +4922,8 @@
                     "I use a computer at work."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bottle",
@@ -4673,7 +4939,8 @@
                     "A bottle of water."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "box",
@@ -4689,7 +4956,8 @@
                     "Put the books in the box."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ball",
@@ -4705,7 +4973,8 @@
                     "He kicked the ball."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "gift",
@@ -4722,7 +4991,8 @@
                     "A birthday gift."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "street",
@@ -4738,7 +5008,8 @@
                     "I live on a busy street."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "building",
@@ -4754,7 +5025,8 @@
                     "That building is very tall."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cafe",
@@ -4770,7 +5042,8 @@
                     "Let's meet at the cafe."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "centre",
@@ -4787,7 +5060,8 @@
                     "The bank is in the city centre."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "butter",
@@ -4803,7 +5077,8 @@
                     "Bread and butter."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "cheese",
@@ -4819,7 +5094,8 @@
                     "I like cheese on my pizza."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "actor",
@@ -4835,7 +5111,8 @@
                     "He is a famous actor."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "artist",
@@ -4851,7 +5128,8 @@
                     "She is a talented artist."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "adult",
@@ -4869,7 +5147,8 @@
                     "Tickets are cheaper for children than for adults."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "advice",
@@ -4885,7 +5164,8 @@
                     "Can you give me some advice?"
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "age",
@@ -4901,7 +5181,8 @@
                     "What is your age?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "air",
@@ -4917,7 +5198,8 @@
                     "I need some fresh air."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "area",
@@ -4933,7 +5215,8 @@
                     "Do you live in this area?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "art",
@@ -4949,7 +5232,8 @@
                     "I love modern art."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "band",
@@ -4965,7 +5249,8 @@
                     "He plays in a rock band."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bath",
@@ -4981,7 +5266,8 @@
                     "I'm going to have a hot bath."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "birthday",
@@ -4997,7 +5283,8 @@
                     "When is your birthday?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "boat",
@@ -5013,7 +5300,8 @@
                     "We took a boat across the lake."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "business",
@@ -5029,7 +5317,8 @@
                     "He is in the family business."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "college",
@@ -5045,7 +5334,8 @@
                     "She is at college."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "company",
@@ -5061,7 +5351,8 @@
                     "He works for a large insurance company."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "concert",
@@ -5077,7 +5368,8 @@
                     "Are you going to the concert tonight?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "conversation",
@@ -5093,7 +5385,8 @@
                     "We had a long conversation about work."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "again",
@@ -5185,7 +5478,8 @@
                     "Write your name with a pencil."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "paper",
@@ -5201,7 +5495,8 @@
                     "I need a piece of paper."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "wallet",
@@ -5217,7 +5512,8 @@
                     "I have no money in my wallet."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "umbrella",
@@ -5233,7 +5529,8 @@
                     "Take an umbrella — it is raining."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "glasses",
@@ -5249,7 +5546,8 @@
                     "I wear glasses for reading."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "watch",
@@ -5265,7 +5563,8 @@
                     "What time is it on your watch?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fridge",
@@ -5282,7 +5581,8 @@
                     "The milk is in the fridge."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "oven",
@@ -5298,7 +5598,8 @@
                     "The cake is in the oven."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "soap",
@@ -5314,7 +5615,8 @@
                     "Wash your hands with soap."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "towel",
@@ -5330,7 +5632,8 @@
                     "I need a clean towel for the shower."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "city",
@@ -5346,7 +5649,8 @@
                     "London is a big city."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "town",
@@ -5362,7 +5666,8 @@
                     "He lives in a small town."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "village",
@@ -5378,7 +5683,8 @@
                     "My grandmother lives in a quiet village."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "country",
@@ -5394,7 +5700,8 @@
                     "France is a beautiful country."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "jeans",
@@ -5411,7 +5718,8 @@
                     "I am wearing blue jeans."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "belt",
@@ -5427,7 +5735,8 @@
                     "He is wearing a black belt."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "with",
@@ -5543,7 +5852,8 @@
                     "Let's play a game."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "music",
@@ -5559,7 +5869,8 @@
                     "I like listening to music."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "song",
@@ -5575,7 +5886,8 @@
                     "This is a beautiful song."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sport",
@@ -5591,7 +5903,8 @@
                     "My favorite sport is tennis."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "football",
@@ -5608,7 +5921,8 @@
                     "They are playing football in the park."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "tennis",
@@ -5624,7 +5938,8 @@
                     "Do you want to play tennis?"
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "yesterday",
@@ -5632,6 +5947,7 @@
         "theme": "times_day_A1",
         "emoji": "📅",
         "form": "adverb",
+        "opposite": "today",
         "definitions": [
             {
                 "text": "On the day before today.",
@@ -5700,7 +6016,8 @@
                     "I use the internet every day."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "website",
@@ -5716,7 +6033,8 @@
                     "This is a useful website for learning English."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "email",
@@ -5732,7 +6050,8 @@
                     "I have many emails to read."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "message",
@@ -5748,7 +6067,8 @@
                     "I sent her a message on WhatsApp."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "newspaper",
@@ -5764,7 +6084,8 @@
                     "He reads the newspaper every morning."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "magazine",
@@ -5780,7 +6101,8 @@
                     "I like reading fashion magazines."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "passport",
@@ -5796,7 +6118,8 @@
                     "Don't forget your passport."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ticket",
@@ -5812,7 +6135,8 @@
                     "I need a train ticket."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "salt",
@@ -5828,7 +6152,8 @@
                     "Can you pass the salt, please?"
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "snack",
@@ -5844,7 +6169,8 @@
                     "I like healthy snacks like fruit."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pear",
@@ -5860,7 +6186,8 @@
                     "I have a pear for lunch."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cucumber",
@@ -5876,7 +6203,8 @@
                     "I like cucumber and tomato salad."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lettuce",
@@ -5892,7 +6220,8 @@
                     "Wash the lettuce before you eat it."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "wall",
@@ -5908,7 +6237,8 @@
                     "The walls are white."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "floor",
@@ -5924,7 +6254,8 @@
                     "Sit on the floor."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "stairs",
@@ -5940,7 +6271,8 @@
                     "Walk up the stairs."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "map",
@@ -5956,7 +6288,8 @@
                     "Look at the map."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ruler",
@@ -5972,7 +6305,8 @@
                     "Use a ruler to draw a line."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mouse",
@@ -5990,7 +6324,8 @@
                     "The cat is chasing a mouse."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "snake",
@@ -6006,7 +6341,8 @@
                     "I am afraid of snakes."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "monkey",
@@ -6022,7 +6358,8 @@
                     "Monkeys like bananas."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "spider",
@@ -6038,7 +6375,8 @@
                     "There is a spider on the wall."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bee",
@@ -6054,7 +6392,8 @@
                     "A bee is on the flower."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "shower",
@@ -6070,7 +6409,8 @@
                     "I have a shower every morning."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "toilet",
@@ -6086,7 +6426,8 @@
                     "Where is the toilet, please?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sink",
@@ -6102,7 +6443,8 @@
                     "The dishes are in the sink."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sofa",
@@ -6119,7 +6461,8 @@
                     "Let's sit on the sofa."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "shelf",
@@ -6137,7 +6480,8 @@
                     "The books are on the shelf."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "toothbrush",
@@ -6153,7 +6497,8 @@
                     "I need a new toothbrush."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "toothpaste",
@@ -6169,7 +6514,8 @@
                     "Put some toothpaste on the brush."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "shampoo",
@@ -6185,7 +6531,8 @@
                     "I need to buy some shampoo."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "history",
@@ -6201,7 +6548,8 @@
                     "I like learning about history."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "science",
@@ -6217,7 +6565,8 @@
                     "We have science class on Tuesdays."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "maths",
@@ -6234,7 +6583,8 @@
                     "Maths is my favorite subject."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "geography",
@@ -6250,7 +6600,8 @@
                     "We use maps in geography class."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "hour",
@@ -6266,7 +6617,8 @@
                     "I work eight hours a day."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "minute",
@@ -6282,7 +6634,8 @@
                     "Wait a minute, please."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "second",
@@ -6298,7 +6651,8 @@
                     "The light changes every thirty seconds."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lesson",
@@ -6314,7 +6668,8 @@
                     "I have an English lesson today."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "homework",
@@ -6330,7 +6685,8 @@
                     "I need to do my homework."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "guitar",
@@ -6346,7 +6702,8 @@
                     "He plays the guitar."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "piano",
@@ -6362,7 +6719,8 @@
                     "She is learning to play the piano."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "forest",
@@ -6378,7 +6736,8 @@
                     "We went for a walk in the forest."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "island",
@@ -6394,7 +6753,8 @@
                     "They live on a small island."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hill",
@@ -6410,7 +6770,8 @@
                     "The house is on a hill."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "duck",
@@ -6426,7 +6787,8 @@
                     "The duck is swimming in the pond."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "tiger",
@@ -6442,7 +6804,8 @@
                     "Tigers live in Asia."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bear",
@@ -6458,7 +6821,8 @@
                     "I saw a bear in the forest."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "keyboard",
@@ -6474,7 +6838,8 @@
                     "Type your name on the keyboard."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "screen",
@@ -6490,7 +6855,8 @@
                     "Look at the computer screen."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dish",
@@ -6506,7 +6872,8 @@
                     "The dish is on the table."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "year",
@@ -6522,7 +6889,8 @@
                     "Happy New Year!"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dad",
@@ -6538,7 +6906,8 @@
                     "My dad is at home."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mum",
@@ -6554,7 +6923,8 @@
                     "I will ask my mum."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "garden",
@@ -6570,7 +6940,8 @@
                     "The children are playing in the garden."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "garage",
@@ -6586,7 +6957,8 @@
                     "The car is in the garage."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sandwich",
@@ -6602,7 +6974,8 @@
                     "I have a cheese sandwich for lunch."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "trip",
@@ -6618,7 +6991,8 @@
                     "How was your trip to London?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "zoo",
@@ -6634,7 +7008,8 @@
                     "Let's go to the zoo."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dictionary",
@@ -6650,7 +7025,8 @@
                     "Look it up in the dictionary."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "something",
@@ -6788,7 +7164,8 @@
                     "Cook the vegetables in a little oil."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "pepper",
@@ -6804,7 +7181,8 @@
                     "Add some salt and pepper."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "taxi",
@@ -6820,7 +7198,8 @@
                     "Let's take a taxi."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bridge",
@@ -6836,7 +7215,8 @@
                     "There is a bridge over the river."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "heart",
@@ -6852,7 +7232,8 @@
                     "My heart is beating fast."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "theatre",
@@ -6869,7 +7250,8 @@
                     "We are going to the theatre tonight."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "stadium",
@@ -6885,7 +7267,8 @@
                     "The stadium was full."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "tonight",
@@ -6916,7 +7299,8 @@
                     "Travel around the world."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "life",
@@ -6932,7 +7316,8 @@
                     "She has a busy life."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "way",
@@ -6949,7 +7334,8 @@
                     "This is a good way to learn."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "thing",
@@ -6965,7 +7351,8 @@
                     "What is that thing?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "place",
@@ -6981,7 +7368,8 @@
                     "This is a nice place."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "word",
@@ -6997,7 +7385,8 @@
                     "What does this word mean?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "number",
@@ -7013,7 +7402,8 @@
                     "What is your phone number?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "body",
@@ -7029,7 +7419,8 @@
                     "Exercise is good for your body."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "north",
@@ -7037,6 +7428,7 @@
         "theme": "directions_navigation_A1",
         "emoji": "⬆️",
         "form": "noun",
+        "opposite": "south",
         "definitions": [
             {
                 "text": "The direction that is on your left when you face the sunrise.",
@@ -7044,7 +7436,8 @@
                     "The city is in the north."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "south",
@@ -7052,6 +7445,7 @@
         "theme": "directions_navigation_A1",
         "emoji": "⬇️",
         "form": "noun",
+        "opposite": "north",
         "definitions": [
             {
                 "text": "The direction that is on your right when you face the sunrise.",
@@ -7059,7 +7453,8 @@
                     "We are driving south."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "east",
@@ -7067,6 +7462,7 @@
         "theme": "directions_navigation_A1",
         "emoji": "➡️",
         "form": "noun",
+        "opposite": "west",
         "definitions": [
             {
                 "text": "The direction where the sun rises.",
@@ -7074,7 +7470,8 @@
                     "The sun rises in the east."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "west",
@@ -7082,6 +7479,7 @@
         "theme": "directions_navigation_A1",
         "emoji": "⬅️",
         "form": "noun",
+        "opposite": "east",
         "definitions": [
             {
                 "text": "The direction where the sun sets.",
@@ -7089,7 +7487,8 @@
                     "The sun sets in the west."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "board",
@@ -7106,7 +7505,8 @@
                     "The teacher writes the date on the board."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "eraser",
@@ -7123,7 +7523,8 @@
                     "Can I borrow your eraser?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pencil case",
@@ -7139,7 +7540,8 @@
                     "My pens are in my pencil case."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "notebook",
@@ -7155,7 +7557,8 @@
                     "I write my lessons in a notebook."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "textbook",
@@ -7171,7 +7574,8 @@
                     "Open your English textbooks to page ten."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "backpack",
@@ -7187,7 +7591,8 @@
                     "I put my books in my backpack."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "armchair",
@@ -7203,7 +7608,8 @@
                     "My grandfather is sitting in his armchair."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bookcase",
@@ -7219,7 +7625,8 @@
                     "Put the book back on the bookcase."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cupboard",
@@ -7235,7 +7642,8 @@
                     "The cups are in the cupboard."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "rug",
@@ -7251,7 +7659,8 @@
                     "There is a small rug in the bedroom."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "drawer",
@@ -7267,7 +7676,8 @@
                     "My socks are in the top drawer."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ceiling",
@@ -7283,7 +7693,8 @@
                     "There is a light on the ceiling."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "toy",
@@ -7299,7 +7710,8 @@
                     "The child is playing with a toy car."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "doll",
@@ -7315,7 +7727,8 @@
                     "She likes playing with her dolls."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "robot",
@@ -7331,7 +7744,8 @@
                     "I have a toy robot."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "monster",
@@ -7347,7 +7761,8 @@
                     "The story is about a friendly monster."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "alien",
@@ -7363,7 +7778,8 @@
                     "Do you believe in aliens?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "kite",
@@ -7379,7 +7795,8 @@
                     "Let's fly a kite in the park."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "balloon",
@@ -7395,7 +7812,8 @@
                     "We have many balloons for the party."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hobby",
@@ -7411,7 +7829,8 @@
                     "My hobby is reading."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pet",
@@ -7427,7 +7846,8 @@
                     "Do you have any pets?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "hamster",
@@ -7443,7 +7863,8 @@
                     "I have a pet hamster."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "lizard",
@@ -7459,7 +7880,8 @@
                     "I saw a lizard on the wall."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "turtle",
@@ -7475,7 +7897,8 @@
                     "The turtle is swimming in the pond."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "playground",
@@ -7491,7 +7914,8 @@
                     "The children are at the playground."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "story",
@@ -7508,7 +7932,8 @@
                     "I like stories about animals."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "painting",
@@ -7524,7 +7949,8 @@
                     "There is a beautiful painting on the wall."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "poster",
@@ -7540,7 +7966,8 @@
                     "There is a map poster in the classroom."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "sentence",
@@ -7556,7 +7983,8 @@
                     "Write a sentence about your family."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "question",
@@ -7573,7 +8001,8 @@
                     "Can you answer my question?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "answer",
@@ -7589,7 +8018,8 @@
                     "That is the correct answer."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "page",
@@ -7605,7 +8035,8 @@
                     "The answer is on page five."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "basketball",
@@ -7621,7 +8052,8 @@
                     "He plays basketball every Wednesday."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "baseball",
@@ -7637,7 +8069,8 @@
                     "Baseball is popular in the USA."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "bat",
@@ -7653,7 +8086,8 @@
                     "He is holding a baseball bat."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "scooter",
@@ -7669,7 +8103,8 @@
                     "The boy is riding his scooter."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "motorbike",
@@ -7685,7 +8120,8 @@
                     "He goes to work on his motorbike."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "truck",
@@ -7702,7 +8138,8 @@
                     "The truck is carrying food to the supermarket."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "farmer",
@@ -7718,7 +8155,8 @@
                     "The farmer is milking the cows."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pilot",
@@ -7734,7 +8172,8 @@
                     "The pilot is in the cockpit."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "waiter",
@@ -7750,7 +8189,8 @@
                     "The waiter is bringing our coffee."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "waitress",
@@ -7766,7 +8206,8 @@
                     "The waitress is very friendly."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dentist",
@@ -7782,7 +8223,8 @@
                     "I have an appointment with the dentist."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mechanic",
@@ -7798,7 +8240,8 @@
                     "The mechanic is fixing my car."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "police officer",
@@ -7814,7 +8257,8 @@
                     "The police officer is directing traffic."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "firefighter",
@@ -7830,7 +8274,8 @@
                     "Firefighters wear heavy coats."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "soldier",
@@ -7846,7 +8291,8 @@
                     "The soldier is in uniform."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "bowl",
@@ -7862,7 +8308,8 @@
                     "I eat soup from a bowl."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "kettle",
@@ -7878,7 +8325,8 @@
                     "The kettle is boiling."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pan",
@@ -7894,7 +8342,8 @@
                     "Put the pan on the stove."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pot",
@@ -7910,7 +8359,8 @@
                     "The pot is full of soup."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "crocodile",
@@ -7926,7 +8376,8 @@
                     "Crocodiles live in rivers."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "shark",
@@ -7942,7 +8393,8 @@
                     "The shark is swimming in the ocean."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "whale",
@@ -7958,7 +8410,8 @@
                     "We saw a whale from the boat."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dolphin",
@@ -7974,7 +8427,8 @@
                     "Dolphins like to jump out of the water."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "octopus",
@@ -7990,7 +8444,8 @@
                     "The octopus has eight arms."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "butterfly",
@@ -8006,7 +8461,8 @@
                     "Look at that beautiful butterfly."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ant",
@@ -8022,7 +8478,8 @@
                     "There are ants in the garden."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ocean",
@@ -8038,7 +8495,8 @@
                     "The Atlantic Ocean is big."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "desert",
@@ -8054,7 +8512,8 @@
                     "It is very hot in the desert."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "jungle",
@@ -8070,7 +8529,8 @@
                     "Monkeys live in the jungle."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "earth",
@@ -8085,7 +8545,8 @@
                     "The Earth moves around the sun."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "planet",
@@ -8101,7 +8562,8 @@
                     "Mars is a red planet."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "violin",
@@ -8117,7 +8579,8 @@
                     "He plays the violin."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "drums",
@@ -8133,7 +8596,8 @@
                     "She plays the drums in a band."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "flute",
@@ -8149,7 +8613,8 @@
                     "She is playing the flute."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "tie",
@@ -8165,7 +8630,8 @@
                     "He wears a tie to work."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "ring",
@@ -8181,7 +8647,8 @@
                     "She has a gold ring."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "necklace",
@@ -8197,7 +8664,8 @@
                     "She is wearing a beautiful necklace."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "roof",
@@ -8213,7 +8681,8 @@
                     "The cat is on the roof."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "balcony",
@@ -8229,7 +8698,8 @@
                     "We have flowers on our balcony."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "fence",
@@ -8245,7 +8715,8 @@
                     "There is a white fence around the garden."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "gate",
@@ -8261,7 +8732,8 @@
                     "Please close the gate."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "cookie",
@@ -8278,7 +8750,8 @@
                     "I want a chocolate cookie."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "biscuit",
@@ -8295,7 +8768,8 @@
                     "Would you like a biscuit with your tea?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "yogurt",
@@ -8311,7 +8785,8 @@
                     "I eat yogurt for breakfast."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "ham",
@@ -8327,7 +8802,8 @@
                     "A ham sandwich."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "bacon",
@@ -8343,7 +8819,8 @@
                     "I love eggs and bacon."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "sausage",
@@ -8359,7 +8836,8 @@
                     "We had sausages for breakfast."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "honey",
@@ -8374,7 +8852,8 @@
                     "I like honey on my toast."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "jam",
@@ -8389,7 +8868,8 @@
                     "Strawberry jam is delicious."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "pineapple",
@@ -8405,7 +8885,8 @@
                     "We bought a fresh pineapple."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "watermelon",
@@ -8421,7 +8902,8 @@
                     "Watermelon is refreshing in summer."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "mushroom",
@@ -8437,7 +8919,8 @@
                     "I don't like mushrooms on my pizza."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "broccoli",
@@ -8452,7 +8935,8 @@
                     "Eat your broccoli, it's good for you."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "peas",
@@ -8468,7 +8952,8 @@
                     "We had fish and peas for dinner."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "envelope",
@@ -8484,7 +8969,8 @@
                     "Put the letter in the envelope."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "stamp",
@@ -8500,7 +8986,8 @@
                     "I need a stamp for this letter."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "stapler",
@@ -8516,7 +9003,8 @@
                     "I need a stapler for these reports."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "glue",
@@ -8532,7 +9020,8 @@
                     "Use some glue to fix the picture."
                 ]
             }
-        ]
+        ],
+        "countability": "uncountable"
     },
     {
         "word": "scissors",
@@ -8548,7 +9037,8 @@
                     "Where are the scissors? I need to cut this paper."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "calculator",
@@ -8564,7 +9054,8 @@
                     "I use a calculator for my maths homework."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "washing machine",
@@ -8580,7 +9071,8 @@
                     "Put your dirty shirts in the washing machine."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dishwasher",
@@ -8596,7 +9088,8 @@
                     "Load the dishwasher after dinner."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "toaster",
@@ -8612,7 +9105,8 @@
                     "Put the bread in the toaster."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "vacuum cleaner",
@@ -8628,7 +9122,8 @@
                     "I need to use the vacuum cleaner on the rug."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "remote control",
@@ -8644,7 +9139,8 @@
                     "Where is the remote control for the TV?"
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "rainbow",
@@ -8660,7 +9156,8 @@
                     "Look! There is a beautiful rainbow in the sky."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "storm",
@@ -8676,7 +9173,8 @@
                     "There was a big storm last night."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "pyjamas",
@@ -8692,7 +9190,8 @@
                     "Put on your pyjamas and go to sleep."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "shorts",
@@ -8708,7 +9207,8 @@
                     "I wear shorts in summer."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "trainers",
@@ -8725,7 +9225,8 @@
                     "I need a new pair of trainers."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "living room",
@@ -8741,7 +9242,8 @@
                     "We are watching TV in the living room."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "dining room",
@@ -8757,7 +9259,8 @@
                     "Dinner is served in the dining room."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "break",
@@ -8774,7 +9277,8 @@
                     "Let's take a fifteen-minute break."
                 ]
             }
-        ]
+        ],
+        "countability": "countable"
     },
     {
         "word": "globe",
@@ -8788,6 +9292,1374 @@
                 "text": "A round object with a map of the world on it.",
                 "examples": [
                     "Look for Italy on the globe."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "address",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "addresses",
+        "subtext": "home address, email address",
+        "definitions": [
+            {
+                "text": "The details of where a person lives or where a building is.",
+                "examples": [
+                    "What is your home address?",
+                    "Please write your address here."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "nationality",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "🏳️",
+        "form": "noun",
+        "plural": "nationalities",
+        "definitions": [
+            {
+                "text": "The state of belonging to a particular nation.",
+                "examples": [
+                    "What is your nationality?",
+                    "He has British nationality."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "language",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "🗣️",
+        "form": "noun",
+        "plural": "languages",
+        "subtext": "foreign language, speak a language",
+        "definitions": [
+            {
+                "text": "The system of communication used by people in a particular country.",
+                "examples": [
+                    "How many languages do you speak?",
+                    "English is a global language."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "clothes",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👕",
+        "form": "noun",
+        "plural": "clothes",
+        "subtext": "clothing, wear clothes",
+        "definitions": [
+            {
+                "text": "Items such as shirts and pants that you wear on your body.",
+                "examples": [
+                    "I need to buy some new clothes.",
+                    "She is wearing beautiful clothes."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "occupation",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "💼",
+        "form": "noun",
+        "plural": "occupations",
+        "subtext": "job, profession",
+        "definitions": [
+            {
+                "text": "A person's job or profession.",
+                "examples": [
+                    "What is your occupation?",
+                    "Please state your occupation on the form."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "furniture",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🪑",
+        "form": "noun",
+        "plural": null,
+        "subtext": "office furniture, piece of furniture",
+        "definitions": [
+            {
+                "text": "Items such as chairs, tables, and beds used in a home or office.",
+                "examples": [
+                    "We need to buy some furniture for the new flat.",
+                    "The furniture is very modern."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "information",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "ℹ️",
+        "form": "noun",
+        "plural": null,
+        "subtext": "info, give information",
+        "definitions": [
+            {
+                "text": "Facts or details about something or someone.",
+                "examples": [
+                    "Can you give me some information about the hotel?",
+                    "I found the information on the website."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "nature",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌳",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "The physical world and everything in it that is not made by people.",
+                "examples": [
+                    "I love being in nature.",
+                    "We must protect nature."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "weather",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🌤️",
+        "form": "noun",
+        "plural": null,
+        "subtext": "weather forecast, nice weather",
+        "definitions": [
+            {
+                "text": "The state of the atmosphere at a particular time and place.",
+                "examples": [
+                    "What is the weather like today?",
+                    "The weather is very nice."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "temperature",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "🌡️",
+        "form": "noun",
+        "plural": "temperatures",
+        "subtext": "high temperature, body temperature",
+        "definitions": [
+            {
+                "text": "A measure of how hot or cold something is.",
+                "examples": [
+                    "The temperature is thirty degrees.",
+                    "Check the temperature."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "first name",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "🆔",
+        "form": "noun",
+        "plural": "first names",
+        "opposite": "surname",
+        "subtext": "given name",
+        "definitions": [
+            {
+                "text": "The name that was given to you when you were born and that comes before your family name.",
+                "examples": [
+                    "My first name is David.",
+                    "Please write your first name here."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "surname",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "emoji": "🆔",
+        "form": "noun",
+        "plural": "surnames",
+        "opposite": "first name",
+        "subtext": "last name, family name",
+        "definitions": [
+            {
+                "text": "The name that you share with other members of your family.",
+                "examples": [
+                    "His surname is Smith.",
+                    "What is your surname?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "snow",
+        "level": "starter",
+        "theme": "weather_A1",
+        "emoji": "❄️",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Soft white pieces of frozen water that fall from the sky when it is very cold.",
+                "examples": [
+                    "We have a lot of snow in winter.",
+                    "The snow is very deep."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "news",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📰",
+        "form": "noun",
+        "plural": null,
+        "subtext": "latest news, good news",
+        "definitions": [
+            {
+                "text": "Information about recent events.",
+                "examples": [
+                    "I watch the news every evening.",
+                    "Have you heard the news?"
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "bookshop",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "📚",
+        "form": "noun",
+        "plural": "bookshops",
+        "subtext": "bookstore",
+        "definitions": [
+            {
+                "text": "A shop where you can buy books.",
+                "examples": [
+                    "I bought a dictionary at the bookshop."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "date",
+        "level": "starter",
+        "theme": "dates_years_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "dates",
+        "subtext": "today's date, save the date",
+        "definitions": [
+            {
+                "text": "A particular day of the month or year.",
+                "examples": [
+                    "What is the date today?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "exam",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "exams",
+        "subtext": "examination, pass an exam, fail an exam",
+        "definitions": [
+            {
+                "text": "A formal test of a person's knowledge or proficiency in a particular subject.",
+                "examples": [
+                    "I have an English exam tomorrow."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "example",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "💡",
+        "form": "noun",
+        "plural": "examples",
+        "subtext": "for example",
+        "definitions": [
+            {
+                "text": "A thing that is representative of all such things.",
+                "examples": [
+                    "Can you give me an example?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "film",
+        "level": "starter",
+        "theme": "cinema_film_A1",
+        "emoji": "🎬",
+        "form": "noun",
+        "plural": "films",
+        "subtext": "movie, watch a film",
+        "definitions": [
+            {
+                "text": "A story or series of events that is shown as a sequence of moving pictures.",
+                "examples": [
+                    "I like watching films."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "idea",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💡",
+        "form": "noun",
+        "plural": "ideas",
+        "subtext": "good idea",
+        "definitions": [
+            {
+                "text": "A thought or a plan.",
+                "examples": [
+                    "I have a good idea."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "letter",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "✉️",
+        "form": "noun",
+        "plural": "letters",
+        "subtext": "write a letter",
+        "definitions": [
+            {
+                "text": "A message that you write on paper and send to someone.",
+                "examples": [
+                    "He is writing a letter to his parents."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "list",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "lists",
+        "subtext": "shopping list",
+        "definitions": [
+            {
+                "text": "A series of names or items written one after the other.",
+                "examples": [
+                    "Make a shopping list."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "meal",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "emoji": "🍽️",
+        "form": "noun",
+        "plural": "meals",
+        "subtext": "delicious meal, have a meal",
+        "definitions": [
+            {
+                "text": "An occasion when food is eaten.",
+                "examples": [
+                    "Breakfast is the first meal of the day."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "movie",
+        "level": "starter",
+        "theme": "cinema_film_A1",
+        "emoji": "🎬",
+        "form": "noun",
+        "plural": "movies",
+        "subtext": "film, watch a movie",
+        "definitions": [
+            {
+                "text": "A series of moving pictures that tell a story.",
+                "examples": [
+                    "Let's watch a movie tonight."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "party",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🎉",
+        "form": "noun",
+        "plural": "parties",
+        "subtext": "birthday party, go to a party",
+        "definitions": [
+            {
+                "text": "A social event where people eat, drink, and dance.",
+                "examples": [
+                    "We are having a party on Saturday."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "photo",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "📷",
+        "form": "noun",
+        "plural": "photos",
+        "subtext": "photograph, take a photo",
+        "definitions": [
+            {
+                "text": "A picture made with a camera.",
+                "examples": [
+                    "Can I take a photo of you?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "picture",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🖼️",
+        "form": "noun",
+        "plural": "pictures",
+        "subtext": "draw a picture, take a picture",
+        "definitions": [
+            {
+                "text": "A drawing, painting, or photo.",
+                "examples": [
+                    "The children are drawing pictures."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "road",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "emoji": "🛣️",
+        "form": "noun",
+        "plural": "roads",
+        "subtext": "on the road",
+        "definitions": [
+            {
+                "text": "A way for cars and other vehicles to travel on.",
+                "examples": [
+                    "The road is very busy."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "test",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "tests",
+        "subtext": "take a test, pass a test",
+        "definitions": [
+            {
+                "text": "A set of questions or practical activities used to measure someone's knowledge or ability.",
+                "examples": [
+                    "I have a maths test today."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "university",
+        "level": "starter",
+        "theme": "types_of_education_A1",
+        "emoji": "🎓",
+        "form": "noun",
+        "plural": "universities",
+        "subtext": "study at university",
+        "definitions": [
+            {
+                "text": "A place where people study for a degree.",
+                "examples": [
+                    "She is studying at university."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "writer",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "✍️",
+        "form": "noun",
+        "plural": "writers",
+        "subtext": "famous writer",
+        "definitions": [
+            {
+                "text": "A person who writes books, stories, or articles.",
+                "examples": [
+                    "He is a famous writer."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "suitcase",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "emoji": "🧳",
+        "form": "noun",
+        "plural": "suitcases",
+        "definitions": [
+            {
+                "text": "A large case that you use to carry your clothes and other things when you are traveling.",
+                "examples": [
+                    "I am packing my suitcase for the trip."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "purse",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "👛",
+        "form": "noun",
+        "plural": "purses",
+        "definitions": [
+            {
+                "text": "A small container for money, usually used by a woman.",
+                "examples": [
+                    "She has a red purse."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "pocket",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👖",
+        "form": "noun",
+        "plural": "pockets",
+        "definitions": [
+            {
+                "text": "A small bag that is sewn into or onto a piece of clothing so that you can carry things in it.",
+                "examples": [
+                    "I have some money in my pocket."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "comb",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "🪮",
+        "form": "noun",
+        "plural": "combs",
+        "definitions": [
+            {
+                "text": "A flat piece of plastic or metal with a row of long thin parts called teeth, used for making your hair tidy.",
+                "examples": [
+                    "I need a comb for my hair."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "appointment",
+        "level": "starter",
+        "theme": "medical_appointments_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "appointments",
+        "subtext": "doctor's appointment",
+        "definitions": [
+            {
+                "text": "A formal arrangement to meet or visit someone at a particular time and place.",
+                "examples": [
+                    "I have an appointment with the doctor at ten o'clock."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "application",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "📝",
+        "form": "noun",
+        "plural": "applications",
+        "subtext": "apply for, job application",
+        "definitions": [
+            {
+                "text": "A formal request to be considered for a position or to be allowed to do something.",
+                "examples": [
+                    "She sent an application for the new job."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "skill",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🧠",
+        "form": "noun",
+        "plural": "skills",
+        "subtext": "language skills",
+        "definitions": [
+            {
+                "text": "The ability to do something well.",
+                "examples": [
+                    "She has good communication skills."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "opinion",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "💬",
+        "form": "noun",
+        "plural": "opinions",
+        "subtext": "in my opinion",
+        "definitions": [
+            {
+                "text": "What you think about something or someone.",
+                "examples": [
+                    "What is your opinion about the new office?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "apartment",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "emoji": "🏢",
+        "form": "noun",
+        "plural": "apartments",
+        "subtext": "flat, studio apartment",
+        "definitions": [
+            {
+                "text": "A set of rooms for living in, especially on one floor of a building.",
+                "examples": [
+                    "I live in a small apartment in the city."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "bicycle",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "emoji": "🚲",
+        "form": "noun",
+        "plural": "bicycles",
+        "subtext": "bike, ride a bicycle",
+        "definitions": [
+            {
+                "text": "A vehicle with two wheels that you sit on and move by turning pedals.",
+                "examples": [
+                    "He goes to work by bicycle."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "mobile",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "📱",
+        "form": "noun",
+        "plural": "mobiles",
+        "subtext": "mobile phone, cell phone",
+        "definitions": [
+            {
+                "text": "A phone that you can carry with you.",
+                "examples": [
+                    "I lost my mobile."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "class",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "🏫",
+        "form": "noun",
+        "plural": "classes",
+        "subtext": "English class, go to class",
+        "definitions": [
+            {
+                "text": "A group of students who are taught together.",
+                "examples": [
+                    "I have an English class at nine o'clock."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "classroom",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "emoji": "🏫",
+        "form": "noun",
+        "plural": "classrooms",
+        "definitions": [
+            {
+                "text": "A room in a school where students have lessons.",
+                "examples": [
+                    "The students are in the classroom."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "staff",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "👥",
+        "form": "noun",
+        "plural": null,
+        "subtext": "employees, workers",
+        "definitions": [
+            {
+                "text": "The group of people who work for an organization.",
+                "examples": [
+                    "The hospital staff are very helpful."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "customer",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "emoji": "🛍️",
+        "form": "noun",
+        "plural": "customers",
+        "definitions": [
+            {
+                "text": "A person who buys goods or services from a shop or business.",
+                "examples": [
+                    "The shop was full of customers."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "guest",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "emoji": "🏨",
+        "form": "noun",
+        "plural": "guests",
+        "definitions": [
+            {
+                "text": "A person who is staying in a hotel or visiting someone's home.",
+                "examples": [
+                    "We have two guests staying with us."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "career",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "📈",
+        "form": "noun",
+        "plural": "careers",
+        "subtext": "profession, start a career",
+        "definitions": [
+            {
+                "text": "The series of jobs that a person has in a particular area of work.",
+                "examples": [
+                    "She wants to start a career in nursing."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "profession",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🎓",
+        "form": "noun",
+        "plural": "professions",
+        "subtext": "job, career",
+        "definitions": [
+            {
+                "text": "A type of job that needs special training or a high level of education.",
+                "examples": [
+                    "Teaching is a difficult profession."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "wage",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "emoji": "💵",
+        "form": "noun",
+        "plural": "wages",
+        "subtext": "salary, pay",
+        "definitions": [
+            {
+                "text": "The amount of money that is paid to a worker, usually for each hour or week.",
+                "examples": [
+                    "The minimum wage is increasing."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "factory",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "🏭",
+        "form": "noun",
+        "plural": "factories",
+        "definitions": [
+            {
+                "text": "A building where goods are made using machines.",
+                "examples": [
+                    "He works in a car factory."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "file",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📁",
+        "form": "noun",
+        "plural": "files",
+        "definitions": [
+            {
+                "text": "A collection of information stored on a computer or in a folder.",
+                "examples": [
+                    "I am looking for the sales file."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "document",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "emoji": "📄",
+        "form": "noun",
+        "plural": "documents",
+        "definitions": [
+            {
+                "text": "An official paper that gives information or proof of something.",
+                "examples": [
+                    "Please sign this document."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "radio",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "📻",
+        "form": "noun",
+        "plural": "radios",
+        "definitions": [
+            {
+                "text": "A device used for listening to music and news programs.",
+                "examples": [
+                    "I listen to the radio in the morning."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "printer",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🖨️",
+        "form": "noun",
+        "plural": "printers",
+        "definitions": [
+            {
+                "text": "A machine used for printing documents from a computer.",
+                "examples": [
+                    "We need more paper for the printer."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "curtain",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🏘️",
+        "form": "noun",
+        "plural": "curtains",
+        "definitions": [
+            {
+                "text": "A piece of cloth that hangs across a window.",
+                "examples": [
+                    "Close the curtains, please."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "microwave",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🔥",
+        "form": "noun",
+        "plural": "microwaves",
+        "definitions": [
+            {
+                "text": "An electric oven that uses waves of energy to cook or heat food very quickly.",
+                "examples": [
+                    "Put the soup in the microwave."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "dessert",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "emoji": "🍰",
+        "form": "noun",
+        "plural": "desserts",
+        "subtext": "sweet dish",
+        "definitions": [
+            {
+                "text": "Sweet food eaten at the end of a meal.",
+                "examples": [
+                    "What is for dessert?"
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "shoes",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👟",
+        "form": "noun",
+        "plural": "shoes",
+        "subtext": "pair of shoes, wear shoes",
+        "definitions": [
+            {
+                "text": "A pair of coverings for your feet.",
+                "examples": [
+                    "Take off your shoes."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "jewelry",
+        "level": "starter",
+        "theme": "accessories_A1",
+        "emoji": "💍",
+        "form": "noun",
+        "plural": null,
+        "subtext": "jewellery, gold jewelry",
+        "definitions": [
+            {
+                "text": "Decorative objects that you wear on your body, such as rings or necklaces.",
+                "examples": [
+                    "She is wearing a lot of jewelry."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "nephew",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "emoji": "👦",
+        "form": "noun",
+        "plural": "nephews",
+        "opposite": "niece",
+        "definitions": [
+            {
+                "text": "The son of your brother or sister.",
+                "examples": [
+                    "My nephew is ten years old."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "niece",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "emoji": "👧",
+        "form": "noun",
+        "plural": "nieces",
+        "opposite": "nephew",
+        "definitions": [
+            {
+                "text": "The daughter of your brother or sister.",
+                "examples": [
+                    "My niece is a student."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "teenager",
+        "level": "starter",
+        "theme": "people_A1",
+        "emoji": "🧑",
+        "form": "noun",
+        "plural": "teenagers",
+        "definitions": [
+            {
+                "text": "A person who is between 13 and 19 years old.",
+                "examples": [
+                    "He is a typical teenager."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "professor",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍🏫",
+        "form": "noun",
+        "plural": "professors",
+        "definitions": [
+            {
+                "text": "A teacher of the highest rank in a university department.",
+                "examples": [
+                    "He is a professor of history."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "month",
+        "level": "starter",
+        "theme": "dates_years_A1",
+        "emoji": "📅",
+        "form": "noun",
+        "plural": "months",
+        "definitions": [
+            {
+                "text": "One of the twelve periods that a year is divided into.",
+                "examples": [
+                    "January is the first month of the year."
+                ]
+            }
+        ],
+        "countability": "countable"
+    },
+    {
+        "word": "excuse me",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "emoji": "👋",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A polite way of starting to talk to someone you do not know.",
+                "examples": [
+                    "Excuse me, is this the way to the station?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "above",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "below",
+        "definitions": [
+            {
+                "text": "In or to a higher position than something else.",
+                "examples": [
+                    "The shelf is above the desk."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "below",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "above",
+        "definitions": [
+            {
+                "text": "In or to a lower position than something else.",
+                "examples": [
+                    "The desk is below the shelf."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "inside",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "outside",
+        "definitions": [
+            {
+                "text": "In or into a container, room, or building.",
+                "examples": [
+                    "Go inside the house."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "outside",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "inside",
+        "definitions": [
+            {
+                "text": "Not in a particular room or building.",
+                "examples": [
+                    "It is cold outside."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "during",
+        "level": "starter",
+        "theme": "prepositions_time_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "From the beginning to the end of a particular period of time.",
+                "examples": [
+                    "I sleep during the night."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "before",
+        "level": "starter",
+        "theme": "prepositions_time_A1",
+        "form": "preposition",
+        "opposite": "after",
+        "definitions": [
+            {
+                "text": "At an earlier time; in front of.",
+                "examples": [
+                    "Wash your hands before dinner."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "after",
+        "level": "starter",
+        "theme": "prepositions_time_A1",
+        "form": "preposition",
+        "opposite": "before",
+        "definitions": [
+            {
+                "text": "At a later time; following.",
+                "examples": [
+                    "We have a meeting after lunch."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "top",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "\ud83d\udd1d",
+        "form": "noun",
+        "opposite": "bottom",
+        "definitions": [
+            {
+                "text": "The highest part of something.",
+                "examples": [
+                    "The book is on the top shelf."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "bottom",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "\u2b07\ufe0f",
+        "form": "noun",
+        "opposite": "top",
+        "definitions": [
+            {
+                "text": "The lowest part of something.",
+                "examples": [
+                    "Write your name at the bottom of the page."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "first",
+        "level": "starter",
+        "theme": "sequence_order_A2",
+        "emoji": "1\ufe0f\u20e3",
+        "form": "adjective",
+        "opposite": "last",
+        "definitions": [
+            {
+                "text": "Coming before all others in time or order.",
+                "examples": [
+                    "He was the first person to arrive."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "last",
+        "level": "starter",
+        "theme": "sequence_order_A2",
+        "emoji": "\ud83d\udd1a",
+        "form": "adjective",
+        "opposite": "first",
+        "definitions": [
+            {
+                "text": "Coming after all others in time or order.",
+                "examples": [
+                    "She was the last person to leave."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "next",
+        "level": "starter",
+        "theme": "sequence_order_A2",
+        "emoji": "\u23ed\ufe0f",
+        "form": "adjective",
+        "opposite": "previous",
+        "definitions": [
+            {
+                "text": "Coming immediately after the present one.",
+                "examples": [
+                    "We will meet next week."
                 ]
             }
         ]
