@@ -121,6 +121,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "get a job / get tired / get better / get home",
+        "opposite": "give",
+        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -144,6 +146,8 @@
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "put on / put away / put the phone down / put money aside",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -368,6 +372,8 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
         "subtext": "show someone how / show a document / show interest",
+        "opposite": "hide",
+        "oppositeEmoji": "🙈",
         "form": "verb",
         "definitions": [
             {
@@ -389,6 +395,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "find a job / find out / find it difficult / find time",
+        "opposite": "lose",
+        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -502,6 +510,8 @@
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
         "subtext": "bring someone / bring food / bring a document / bring up",
+        "opposite": "take",
+        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -567,6 +577,8 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "ask a question / ask for help / ask about / ask someone",
+        "opposite": "answer",
+        "oppositeEmoji": "📞",
         "form": "verb",
         "definitions": [
             {
@@ -722,6 +734,8 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
         "subtext": "answer a question / answer the phone / answer an email",
+        "opposite": "ask",
+        "oppositeEmoji": "❓",
         "form": "verb",
         "definitions": [
             {
@@ -766,6 +780,8 @@
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "go to work / go home / go out / go shopping",
+        "opposite": "come",
+        "oppositeEmoji": "🏃‍♂️",
         "form": "verb",
         "definitions": [
             {
@@ -812,6 +828,8 @@
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "walk to work / walk home / walk slowly / walk every day",
+        "opposite": "run",
+        "oppositeEmoji": "🏃",
         "form": "verb",
         "definitions": [
             {
@@ -878,6 +896,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "arrive at work / arrive late / arrive on time / arrive home",
+        "opposite": "leave",
+        "oppositeEmoji": "🚪",
         "form": "verb",
         "definitions": [
             {
@@ -899,6 +919,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "leave home / leave work / leave early / leave late",
+        "opposite": "arrive",
+        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -1187,6 +1209,8 @@
         "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "spend money / spend on food / spend on rent / spend time",
+        "opposite": "save",
+        "oppositeEmoji": "💰",
         "form": "verb",
         "definitions": [
             {
@@ -1231,6 +1255,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
         "subtext": "work from home / work full-time / work hard / work late",
+        "opposite": "rest",
+        "oppositeEmoji": "🛋️",
         "form": "verb",
         "definitions": [
             {
@@ -1367,6 +1393,8 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
         "subtext": "like work / like to travel / like someone / like the idea",
+        "opposite": "hate",
+        "oppositeEmoji": "😡",
         "form": "verb",
         "definitions": [
             {
@@ -1390,6 +1418,8 @@
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
         "subtext": "love someone / love doing / love a place / love the idea",
+        "opposite": "hate",
+        "oppositeEmoji": "😡",
         "form": "verb",
         "definitions": [
             {
@@ -1412,6 +1442,8 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
         "subtext": "hate doing / hate someone / hate meetings / hate commuting",
+        "opposite": "love",
+        "oppositeEmoji": "❤️",
         "form": "verb",
         "definitions": [
             {
@@ -1456,6 +1488,8 @@
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "remember to do / remember a name / remember clearly",
+        "opposite": "forget",
+        "oppositeEmoji": "🤔",
         "form": "verb",
         "definitions": [
             {
@@ -1478,6 +1512,8 @@
         "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "forget a name / forget to do / forget about / completely forget",
+        "opposite": "remember",
+        "oppositeEmoji": "🧠",
         "form": "verb",
         "definitions": [
             {
@@ -1696,6 +1732,8 @@
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "run a race / run a business / run out of / run late",
+        "opposite": "walk",
+        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -1785,6 +1823,8 @@
         "theme": "learning_studying_A1",
         "emoji": "📚",
         "subtext": "learn a language / learn a skill / learn from / learn how to",
+        "opposite": "teach",
+        "oppositeEmoji": "👨‍🏫",
         "form": "verb",
         "definitions": [
             {
@@ -1827,6 +1867,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
         "subtext": "stop doing / stop working / stop a habit / stop someone",
+        "opposite": "start",
+        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -1848,6 +1890,8 @@
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "add some sugar / add to / add up / add a comment",
+        "opposite": "subtract",
+        "oppositeEmoji": "➖",
         "form": "verb",
         "definitions": [
             {
@@ -1862,6 +1906,29 @@
         "aspect": "action",
         "v2": "added",
         "v3": "added",
+        "group": "regular"
+    },
+    {
+        "word": "subtract",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "➖",
+        "subtext": "subtract from / minus",
+        "opposite": "add",
+        "oppositeEmoji": "➕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take a number or amount away from another number or amount.",
+                "examples": [
+                    "If you subtract five from ten, you get five."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "subtracted",
+        "v3": "subtracted",
         "group": "regular"
     },
     {
@@ -1937,6 +2004,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "✉️",
         "form": "verb",
+        "opposite": "receive",
+        "oppositeEmoji": "📩",
         "definitions": [
             {
                 "text": "To transmit something to someone, especially electronically.",
@@ -1958,6 +2027,8 @@
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
+        "opposite": "leave",
+        "oppositeEmoji": "🚪",
         "form": "verb",
         "definitions": [
             {
@@ -1980,6 +2051,8 @@
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "fall down / fall off / fall in love / fall asleep",
+        "opposite": "rise",
+        "oppositeEmoji": "🌅",
         "form": "verb",
         "definitions": [
             {
@@ -1997,11 +2070,37 @@
         "group": "irregular"
     },
     {
+        "word": "rise",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "emoji": "🌅",
+        "subtext": "rise up / sun rise / price rise",
+        "opposite": "fall",
+        "oppositeEmoji": "🍂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move upwards; to increase in amount or level.",
+                "examples": [
+                    "The sun rises in the east.",
+                    "Prices are rising every year."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rose",
+        "v3": "risen",
+        "group": "irregular"
+    },
+    {
         "word": "pass",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
         "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
+        "opposite": "fail",
+        "oppositeEmoji": "❌",
         "form": "verb",
         "definitions": [
             {
@@ -2137,6 +2236,8 @@
         "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "receive an email / receive a gift / receive payment / receive news",
+        "opposite": "send",
+        "oppositeEmoji": "✉️",
         "form": "verb",
         "definitions": [
             {
@@ -2159,6 +2260,8 @@
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "agree with someone / agree to do / agree on / I agree",
+        "opposite": "disagree",
+        "oppositeEmoji": "👎",
         "form": "verb",
         "definitions": [
             {
@@ -2933,6 +3036,8 @@
             }
         ],
         "subtext": "pack a bag / pack a suitcase / pack lightly",
+        "opposite": "unpack",
+        "oppositeEmoji": "👜",
         "classification": "regular",
         "aspect": "action",
         "v2": "packed",
@@ -3180,6 +3285,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "follow instructions / follow someone / follow the news / follow up",
+        "opposite": "lead",
+        "oppositeEmoji": "👤",
         "form": "verb",
         "definitions": [
             {
@@ -3327,6 +3434,8 @@
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
         "subtext": "build a career / build a team / build experience / build trust",
+        "opposite": "destroy",
+        "oppositeEmoji": "💣",
         "form": "verb",
         "definitions": [
             {
@@ -3348,6 +3457,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "form": "verb",
+        "opposite": "end",
+        "oppositeEmoji": "🏁",
         "definitions": [
             {
                 "text": "To start to do something.",
@@ -3368,6 +3479,8 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "form": "verb",
+        "opposite": "begin",
+        "oppositeEmoji": "▶️",
         "definitions": [
             {
                 "text": "To finish; to stop.",
@@ -4151,6 +4264,9 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🙈",
+        "subtext": "hide and seek / hide from someone / hide something",
+        "opposite": "show",
+        "oppositeEmoji": "📽️",
         "form": "verb",
         "definitions": [
             {
@@ -4264,6 +4380,236 @@
         "aspect": "action",
         "v2": "touched",
         "v3": "touched",
+        "group": "regular"
+    },
+    {
+        "word": "let",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🔓",
+        "subtext": "let someone go / let it be / let someone know",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To allow something to happen or someone to do something.",
+                "examples": [
+                    "Let me help you with those bags.",
+                    "She let the dog out into the garden."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "let",
+        "v3": "let",
+        "group": "irregular"
+    },
+    {
+        "word": "set",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "⚙️",
+        "subtext": "set an alarm / set the table / set a goal",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put something in a particular place or position; to establish.",
+                "examples": [
+                    "I set my alarm for seven o'clock.",
+                    "He set the plates on the table."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "set",
+        "v3": "set",
+        "group": "irregular"
+    },
+    {
+        "word": "fail",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "❌",
+        "subtext": "fail an exam / fail a test / fail to do / fail completely",
+        "opposite": "pass",
+        "oppositeEmoji": "🏔️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To not succeed in what you are trying to do.",
+                "examples": [
+                    "I failed my driving test three times.",
+                    "She failed to arrive on time."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "failed",
+        "v3": "failed",
+        "group": "regular"
+    },
+    {
+        "word": "email",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📧",
+        "subtext": "email someone / send an email / reply by email",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To send a message using the internet.",
+                "examples": [
+                    "Email me the details.",
+                    "I'll email you tomorrow."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "emailed",
+        "v3": "emailed",
+        "group": "regular"
+    },
+    {
+        "word": "phone",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📞",
+        "subtext": "phone someone / phone back / on the phone",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To call someone using a telephone.",
+                "examples": [
+                    "I'll phone you later.",
+                    "He phoned his mother."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "phoned",
+        "v3": "phoned",
+        "group": "regular"
+    },
+    {
+        "word": "climb",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🧗",
+        "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To go up something using your hands and feet.",
+                "examples": [
+                    "We climbed the hill to see the view.",
+                    "The cat climbed the tree."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "climbed",
+        "v3": "climbed",
+        "group": "regular"
+    },
+    {
+        "word": "dress",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👗",
+        "subtext": "get dressed / dress well / dress for work",
+        "opposite": "undress",
+        "oppositeEmoji": "👕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To put clothes on yourself or someone else.",
+                "examples": [
+                    "I get dressed at seven.",
+                    "She was dressed in black."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "dressed",
+        "v3": "dressed",
+        "group": "regular"
+    },
+    {
+        "word": "undress",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👕",
+        "subtext": "get undressed / undress quickly",
+        "opposite": "dress",
+        "oppositeEmoji": "👗",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To take clothes off yourself or someone else.",
+                "examples": [
+                    "He undressed and went to bed.",
+                    "Get undressed and have a bath."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "undressed",
+        "v3": "undressed",
+        "group": "regular"
+    },
+    {
+        "word": "turn on",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "💡",
+        "subtext": "turn on the light / turn on the TV / turn on the radio",
+        "opposite": "turn off",
+        "oppositeEmoji": "🌑",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a device start working.",
+                "examples": [
+                    "Turn on the light, please.",
+                    "He turns on his computer at nine."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "turned on",
+        "v3": "turned on",
+        "group": "regular"
+    },
+    {
+        "word": "turn off",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🌑",
+        "subtext": "turn off the light / turn off the computer / turn off your phone",
+        "opposite": "turn on",
+        "oppositeEmoji": "💡",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To make a device stop working.",
+                "examples": [
+                    "Don't forget to turn off the lights.",
+                    "She turns off her phone during meetings."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "turned off",
+        "v3": "turned off",
         "group": "regular"
     }
 ];

@@ -219,6 +219,71 @@
         "word": "New York",
         "level": "starter",
         "theme": "address_location_A1"
+    },
+    {
+        "word": "Berlin",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Tokyo",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Beijing",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Sydney",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Rio de Janeiro",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Egypt",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "China",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Japan",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Germany",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Canada",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Australia",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Brazil",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "India",
+        "level": "starter",
+        "theme": "address_location_A1"
     }
 ];
     const lang = "en";
