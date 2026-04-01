@@ -1,71 +1,6 @@
 (function() {
     const data = [
     {
-        "word": "France",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Italie",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Russie",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Grèce",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Angleterre",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Espagne",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "États-Unis",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Paris",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Londres",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Rome",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Moscou",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "Athènes",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
-        "word": "New York",
-        "level": "starter",
-        "theme": "address_location_A1"
-    },
-    {
         "word": "Mexico City",
         "level": "starter",
         "theme": "address_location_A1"
@@ -220,6 +155,136 @@
         "level": "starter",
         "theme": "address_location_A1"
     },
+    {
+        "word": "France",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Italie",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Russie",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Grèce",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Angleterre",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Espagne",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "États-Unis",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Paris",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Londres",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Rome",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Moscou",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Athènes",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "New York",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Berlin",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Tokyo",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Pékin",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Sydney",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Rio de Janeiro",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Égypte",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Chine",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Japon",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Allemagne",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Canada",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Australie",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Brésil",
+        "level": "starter",
+        "theme": "address_location_A1"
+    },
+    {
+        "word": "Inde",
+        "level": "starter",
+        "theme": "address_location_A1"
+    }
 ];
     const lang = "fr";
     window.locationsData = window.locationsData || {};

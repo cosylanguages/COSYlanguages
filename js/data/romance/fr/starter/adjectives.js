@@ -16,8 +16,7 @@
                     "Il est très grand.",
                     "Cet immeuble est grand."
                 ]
-            },
-            {
+            }, {
                 "text": "D'une taille supérieure à la moyenne.",
                 "examples": [
                     "C'est une femme de grande taille qui travaille comme ingénieure."
@@ -46,8 +45,7 @@
                     "Elle est petite.",
                     "Le crayon est court."
                 ]
-            },
-            {
+            }, {
                 "text": "De taille ou de longueur inférieure à la moyenne.",
                 "examples": [
                     "Il a un trajet court — dix minutes à vélo."
@@ -64,6 +62,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "form": "adjective",
+        "emoji": "👶",
         "feminine": "jeune",
         "plural": "jeunes",
         "femininePlural": "jeunes",
@@ -467,6 +466,27 @@
         "femininePlural": "à plein temps"
     },
     {
+        "word": "assoiffé",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "emoji": "🥤",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ayant besoin ou envie de boire.",
+                "examples": [
+                    "J'ai soif — est-ce que je peux avoir de l'eau ?"
+                ]
+            }
+        ],
+        "feminine": "assoiffée",
+        "plural": "assoiffés",
+        "femininePlural": "assoiffées",
+        "subtext": "assoiffé, déshydraté / avoir soif",
+        "comparative": "plus assoiffé",
+        "superlative": "le plus assoiffé"
+    },
+    {
         "word": "à temps partiel",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -517,6 +537,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "form": "adjective",
+        "emoji": "🥗",
         "feminine": "saine",
         "plural": "sains",
         "femininePlural": "saines",
@@ -539,6 +560,7 @@
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "form": "adjective",
+        "emoji": "🤒",
         "feminine": "malade",
         "plural": "malades",
         "femininePlural": "malades",
@@ -607,6 +629,7 @@
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "form": "adjective",
+        "emoji": "😌",
         "feminine": "détendue",
         "plural": "détendus",
         "femininePlural": "détendues",
@@ -629,6 +652,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "form": "adjective",
+        "emoji": "😟",
         "feminine": "inquiète",
         "plural": "inquiets",
         "femininePlural": "inquiètes",
@@ -672,6 +696,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
+        "emoji": "🛠️",
         "feminine": "utile",
         "plural": "utiles",
         "femininePlural": "utiles",
@@ -1660,27 +1685,6 @@
         "superlative": "le pire"
     },
     {
-        "word": "nouveau",
-        "feminine": "nouvelle",
-        "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🆕",
-        "form": "adjective",
-        "plural": "nouveaux",
-        "femininePlural": "nouvelles",
-        "definitions": [
-            {
-                "text": "N'existant pas auparavant ; récemment fabriqué.",
-                "examples": [
-                    "Elle a un nouveau travail qui commence en mars."
-                ]
-            }
-        ],
-        "subtext": "nouveau travail / tout nouveau / complètement nouveau",
-        "comparative": "plus nouveau",
-        "superlative": "le plus nouveau"
-    },
-    {
         "word": "différent",
         "feminine": "différente",
         "level": "starter",
@@ -1702,6 +1706,27 @@
         "superlative": "le plus différent"
     },
     {
+        "word": "nouveau",
+        "feminine": "nouvelle",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "🆕",
+        "form": "adjective",
+        "plural": "nouveaux",
+        "femininePlural": "nouvelles",
+        "definitions": [
+            {
+                "text": "N'existant pas auparavant ; récemment fabriqué.",
+                "examples": [
+                    "Elle a un nouveau travail qui commence en mars."
+                ]
+            }
+        ],
+        "subtext": "nouveau travail / tout nouveau / complètement nouveau",
+        "comparative": "plus nouveau",
+        "superlative": "le plus nouveau"
+    },
+    {
         "word": "même",
         "feminine": "même",
         "level": "starter",
@@ -1721,6 +1746,27 @@
         "subtext": "le même que / exactement le même / en même temps",
         "comparative": "plus même",
         "superlative": "le plus même"
+    },
+    {
+        "word": "calme",
+        "feminine": "calme",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "emoji": "🤫",
+        "form": "adjective",
+        "plural": "calmes",
+        "femininePlural": "calmes",
+        "definitions": [
+            {
+                "text": "Faisant peu ou pas de bruit ; paisible.",
+                "examples": [
+                    "Le bureau est calme à l'heure du déjeuner."
+                ]
+            }
+        ],
+        "subtext": "quartier calme / rester calme / bien calme",
+        "comparative": "plus calme",
+        "superlative": "le plus calme"
     },
     {
         "word": "rapide",
@@ -1765,27 +1811,6 @@
         "superlative": "le plus lent"
     },
     {
-        "word": "calme",
-        "feminine": "calme",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "🤫",
-        "form": "adjective",
-        "plural": "calmes",
-        "femininePlural": "calmes",
-        "definitions": [
-            {
-                "text": "Faisant peu ou pas de bruit ; paisible.",
-                "examples": [
-                    "Le bureau est calme à l'heure du déjeuner."
-                ]
-            }
-        ],
-        "subtext": "quartier calme / rester calme / bien calme",
-        "comparative": "plus calme",
-        "superlative": "le plus calme"
-    },
-    {
         "word": "bruyant",
         "feminine": "bruyante",
         "level": "starter",
@@ -1803,6 +1828,26 @@
             }
         ],
         "subtext": "bruit fort / trop fort / une voix forte",
+        "comparative": "plus bruyant",
+        "superlative": "le plus bruyant"
+    },
+    {
+        "word": "bruyant",
+        "level": "starter",
+        "theme": "describing_things_A1",
+        "form": "adjective",
+        "feminine": "bruyante",
+        "plural": "bruyants",
+        "femininePlural": "bruyantes",
+        "definitions": [
+            {
+                "text": "Faisant beaucoup de bruit ; bruyant.",
+                "examples": [
+                    "L'open space est très bruyant."
+                ]
+            }
+        ],
+        "subtext": "très bruyant / environnement bruyant / trop bruyant",
         "comparative": "plus bruyant",
         "superlative": "le plus bruyant"
     },
@@ -2505,45 +2550,6 @@
             }
         ],
         "subtext": "très honnête / brutalement honnête / tout à fait honnête",
-        "comparative": "plus honnête",
-        "superlative": "le plus honnête"
-    },
-    {
-        "word": "bruyant",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "feminine": "bruyante",
-        "plural": "bruyants",
-        "femininePlural": "bruyantes",
-        "definitions": [
-            {
-                "text": "Faisant beaucoup de bruit ; bruyant.",
-                "examples": [
-                    "L'open space est très bruyant."
-                ]
-            }
-        ],
-        "subtext": "très bruyant / environnement bruyant / trop bruyant",
-        "comparative": "plus bruyant",
-        "superlative": "le plus bruyant"
-    },
-    {
-        "word": "honnête",
-        "feminine": "honnête",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "😇",
-        "form": "adjective",
-        "plural": "honnêtes",
-        "femininePlural": "honnêtes",
-        "definitions": [
-            {
-                "text": "Définition de honnête.",
-                "examples": []
-            }
-        ],
-        "subtext": "honnête",
         "comparative": "plus honnête",
         "superlative": "le plus honnête"
     },
@@ -3705,7 +3711,7 @@
         "subtext": "malchanceux",
         "comparative": "plus malchanceux",
         "superlative": "le plus malchanceux"
-    },
+    }
 ];
     const lang = "fr";
     window.adjectivesData = window.adjectivesData || {};
