@@ -9399,6 +9399,565 @@
             }
         ]
     },
+    {
+        "word": "tableau",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "📋",
+        "form": "noun",
+        "plural": "tableaux",
+        "definitions": [
+            {
+                "text": "Surface plane dans une classe sur laquelle on écrit.",
+                "examples": [
+                    "Regardez le tableau.",
+                    "Le professeur écrit au tableau."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "gomme",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧽",
+        "form": "noun",
+        "plural": "gommes",
+        "definitions": [
+            {
+                "text": "Petit objet en caoutchouc pour effacer les traits de crayon.",
+                "examples": [
+                    "Puis-je emprunter ta gomme ?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "trousse",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "✏️",
+        "form": "noun",
+        "plural": "trousses",
+        "definitions": [
+            {
+                "text": "Petit sac ou boîte pour ranger stylos et crayons.",
+                "examples": [
+                    "Mes stylos sont dans ma trousse."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cahier",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "📓",
+        "form": "noun",
+        "plural": "cahiers",
+        "definitions": [
+            {
+                "text": "Livre de pages vides pour écrire ses leçons.",
+                "examples": [
+                    "J'écris mes exercices dans un cahier."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "manuel",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "📖",
+        "form": "noun",
+        "plural": "manuels",
+        "definitions": [
+            {
+                "text": "Livre qui contient les informations sur un sujet d'étude.",
+                "examples": [
+                    "Ouvrez vos manuels à la page dix."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "fauteuil",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🛋️",
+        "form": "noun",
+        "plural": "fauteuils",
+        "definitions": [
+            {
+                "text": "Grand siège confortable avec des bras.",
+                "examples": [
+                    "Mon grand-père est assis dans son fauteuil."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bibliothèque",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📚",
+        "form": "noun",
+        "plural": "bibliothèques",
+        "definitions": [
+            {
+                "text": "Meuble avec des étagères pour ranger des livres.",
+                "examples": [
+                    "Remets le livre dans la bibliothèque."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "placard",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🚪",
+        "form": "noun",
+        "plural": "placards",
+        "definitions": [
+            {
+                "text": "Meuble avec des portes et des étagères pour ranger des choses.",
+                "examples": [
+                    "Les tasses sont dans le placard."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tapis",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🧶",
+        "form": "noun",
+        "plural": "tapis",
+        "definitions": [
+            {
+                "text": "Pièce de tissu épais qui recouvre une partie du sol.",
+                "examples": [
+                    "Il y a un petit tapis dans la chambre."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tiroir",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🗄️",
+        "form": "noun",
+        "plural": "tiroirs",
+        "definitions": [
+            {
+                "text": "Partie d'un meuble qui glisse et sert à ranger des choses.",
+                "examples": [
+                    "Mes chaussettes sont dans le tiroir du haut."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "plafond",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🏠",
+        "form": "noun",
+        "plural": "plafonds",
+        "definitions": [
+            {
+                "text": "La surface supérieure d'une pièce.",
+                "examples": [
+                    "Il y a une lampe au plafond."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "jouet",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🧸",
+        "form": "noun",
+        "plural": "jouets",
+        "definitions": [
+            {
+                "text": "Objet pour que les enfants jouent.",
+                "examples": [
+                    "L'enfant joue avec une petite voiture."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "poupée",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🪆",
+        "form": "noun",
+        "plural": "poupées",
+        "definitions": [
+            {
+                "text": "Jouet qui ressemble à une petite personne ou un bébé.",
+                "examples": [
+                    "Elle aime jouer avec ses poupées."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "cerf-volant",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🪁",
+        "form": "noun",
+        "plural": "cerfs-volants",
+        "definitions": [
+            {
+                "text": "Jouet en papier ou tissu qui vole au vent au bout d'une ficelle.",
+                "examples": [
+                    "Faisons voler un cerf-volant dans le parc."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "globe",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🌍",
+        "form": "noun",
+        "plural": "globes",
+        "definitions": [
+            {
+                "text": "Objet rond avec une carte du monde dessus.",
+                "examples": [
+                    "Cherche la France sur le globe."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "arc-en-ciel",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🌈",
+        "form": "noun",
+        "plural": "arcs-en-ciel",
+        "definitions": [
+            {
+                "text": "Grande courbe de couleurs dans le ciel quand il y a du soleil et de la pluie.",
+                "examples": [
+                    "Regarde ! Il y a un bel arc-en-ciel dans le ciel."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "orage",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "⛈️",
+        "form": "noun",
+        "plural": "orages",
+        "definitions": [
+            {
+                "text": "Période de mauvais temps avec pluie, vent, et souvent foudre et tonnerre.",
+                "examples": [
+                    "Il y a eu un gros orage hier soir."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bermuda",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🩳",
+        "form": "noun",
+        "plural": "bermudas",
+        "definitions": [
+            {
+                "text": "Pantalon court qui s'arrête au-dessus des genoux.",
+                "examples": [
+                    "Je porte un bermuda en été."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "baskets",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "les",
+        "gender": "feminine",
+        "emoji": "👟",
+        "form": "noun",
+        "plural": "baskets",
+        "definitions": [
+            {
+                "text": "Chaussures souples pour le sport ou les loisirs.",
+                "examples": [
+                    "J'ai besoin d'une nouvelle paire de baskets."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "enveloppe",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "✉️",
+        "form": "noun",
+        "plural": "enveloppes",
+        "definitions": [
+            {
+                "text": "Pochette de papier pour envoyer des lettres.",
+                "examples": [
+                    "Mets la lettre dans l'enveloppe."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "timbre",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🧧",
+        "form": "noun",
+        "plural": "timbres",
+        "definitions": [
+            {
+                "text": "Petit carré de papier que l'on colle sur une enveloppe pour l'envoyer.",
+                "examples": [
+                    "J'ai besoin d'un timbre pour cette lettre."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "agrafeuse",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🖇️",
+        "form": "noun",
+        "plural": "agrafeuses",
+        "definitions": [
+            {
+                "text": "Petit appareil pour attacher des feuilles de papier ensemble.",
+                "examples": [
+                    "J'ai besoin d'une agrafeuse pour ces rapports."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "colle",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧪",
+        "form": "noun",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Substance collante pour attacher des choses ensemble.",
+                "examples": [
+                    "Utilise de la colle pour fixer l'image."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ciseaux",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "les",
+        "gender": "masculine",
+        "emoji": "✂️",
+        "form": "noun",
+        "plural": "ciseaux",
+        "definitions": [
+            {
+                "text": "Outil pour couper du papier, du tissu, etc.",
+                "examples": [
+                    "Où sont les ciseaux ? Je dois couper ce papier."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "calculatrice",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🔢",
+        "form": "noun",
+        "plural": "calculatrices",
+        "definitions": [
+            {
+                "text": "Petit appareil électronique pour faire des calculs.",
+                "examples": [
+                    "J'utilise une calculatrice pour mes devoirs de maths."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lave-linge",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🧺",
+        "form": "noun",
+        "plural": "lave-linge",
+        "definitions": [
+            {
+                "text": "Machine pour laver les vêtements.",
+                "examples": [
+                    "Mets tes chemises sales dans le lave-linge."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lave-vaisselle",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🧼",
+        "form": "noun",
+        "plural": "lave-vaisselle",
+        "definitions": [
+            {
+                "text": "Machine qui lave la vaisselle.",
+                "examples": [
+                    "Remplis le lave-vaisselle après le dîner."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "grille-pain",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🍞",
+        "form": "noun",
+        "plural": "grille-pain",
+        "definitions": [
+            {
+                "text": "Appareil électrique pour faire griller du pain.",
+                "examples": [
+                    "Mets le pain dans le grille-pain."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "aspirateur",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🧹",
+        "form": "noun",
+        "plural": "aspirateurs",
+        "definitions": [
+            {
+                "text": "Machine qui nettoie les sols en aspirant la poussière.",
+                "examples": [
+                    "Je dois passer l'aspirateur sur le tapis."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "télécommande",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎮",
+        "form": "noun",
+        "plural": "télécommandes",
+        "definitions": [
+            {
+                "text": "Petit appareil pour contrôler la télévision à distance.",
+                "examples": [
+                    "Où est la télécommande de la télé ?"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pause",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "☕",
+        "form": "noun",
+        "plural": "pauses",
+        "definitions": [
+            {
+                "text": "Courte période de temps où l'on arrête de travailler pour se reposer.",
+                "examples": [
+                    "Prenons une pause de quinze minutes."
+                ]
+            }
+        ]
+    },
 ];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};

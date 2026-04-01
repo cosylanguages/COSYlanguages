@@ -2539,13 +2539,17 @@
         "femininePlural": "honnêtes",
         "definitions": [
             {
-                "text": "Définition de honnête.",
-                "examples": []
+                "text": "Qui dit la vérité ; à qui l'on peut faire confiance.",
+                "examples": [
+                    "Il est très honnête avec ses collègues."
+                ]
             }
         ],
-        "subtext": "honnête",
+        "subtext": "honnête, sincère",
         "comparative": "plus honnête",
-        "superlative": "le plus honnête"
+        "superlative": "le plus honnête",
+        "opposite": "malhonnête",
+        "oppositeEmoji": "🤥"
     },
     {
         "word": "bruyant",
@@ -2558,13 +2562,17 @@
         "femininePlural": "bruyantes",
         "definitions": [
             {
-                "text": "Définition de bruyant.",
-                "examples": []
+                "text": "Qui fait beaucoup de bruit.",
+                "examples": [
+                    "La rue est très bruyante."
+                ]
             }
         ],
-        "subtext": "bruyant",
+        "subtext": "bruyant, fort",
         "comparative": "plus bruyant",
-        "superlative": "le plus bruyant"
+        "superlative": "le plus bruyant",
+        "opposite": "calme",
+        "oppositeEmoji": "🤫"
     },
     {
         "word": "rond",
@@ -2577,13 +2585,17 @@
         "femininePlural": "rondes",
         "definitions": [
             {
-                "text": "Définition de rond.",
-                "examples": []
+                "text": "Qui a la forme d'un cercle.",
+                "examples": [
+                    "La table est ronde."
+                ]
             }
         ],
-        "subtext": "rond",
+        "subtext": "rond, circulaire",
         "comparative": "plus rond",
-        "superlative": "le plus rond"
+        "superlative": "le plus rond",
+        "opposite": "carré",
+        "oppositeEmoji": "⬛"
     },
     {
         "word": "carré",
@@ -2596,13 +2608,17 @@
         "femininePlural": "carrées",
         "definitions": [
             {
-                "text": "Définition de carré.",
-                "examples": []
+                "text": "Qui a quatre côtés égaux et des angles droits.",
+                "examples": [
+                    "C'est une boîte carrée."
+                ]
             }
         ],
         "subtext": "carré",
         "comparative": "plus carré",
-        "superlative": "le plus carré"
+        "superlative": "le plus carré",
+        "opposite": "rond",
+        "oppositeEmoji": "⭕"
     },
     {
         "word": "serviable",
@@ -2615,11 +2631,13 @@
         "femininePlural": "serviables",
         "definitions": [
             {
-                "text": "Définition de serviable.",
-                "examples": []
+                "text": "Qui aime aider les autres.",
+                "examples": [
+                    "Le concierge est très serviable."
+                ]
             }
         ],
-        "subtext": "serviable",
+        "subtext": "serviable, gentil",
         "comparative": "plus serviable",
         "superlative": "le plus serviable"
     },
@@ -2634,13 +2652,17 @@
         "femininePlural": "patientes",
         "definitions": [
             {
-                "text": "Définition de patient.",
-                "examples": []
+                "text": "Qui sait attendre sans se fâcher.",
+                "examples": [
+                    "Le médecin est patient avec les enfants."
+                ]
             }
         ],
-        "subtext": "patient",
+        "subtext": "patient, calme",
         "comparative": "plus patient",
-        "superlative": "le plus patient"
+        "superlative": "le plus patient",
+        "opposite": "impatient",
+        "oppositeEmoji": "⌚"
     },
     {
         "word": "actif",
@@ -2653,13 +2675,17 @@
         "femininePlural": "actives",
         "definitions": [
             {
-                "text": "Définition de actif.",
-                "examples": []
+                "text": "Qui fait beaucoup de choses ; qui bouge.",
+                "examples": [
+                    "Il mène une vie très active."
+                ]
             }
         ],
-        "subtext": "actif",
+        "subtext": "actif, dynamique",
         "comparative": "plus actif",
-        "superlative": "le plus actif"
+        "superlative": "le plus actif",
+        "opposite": "paresseux",
+        "oppositeEmoji": "🦥"
     },
     {
         "word": "prudent",
@@ -2672,13 +2698,17 @@
         "femininePlural": "prudentes",
         "definitions": [
             {
-                "text": "Définition de prudent.",
-                "examples": []
+                "text": "Qui fait attention pour éviter les dangers.",
+                "examples": [
+                    "Soyez prudent sur la route."
+                ]
             }
         ],
-        "subtext": "prudent",
+        "subtext": "prudent, attentif",
         "comparative": "plus prudent",
-        "superlative": "le plus prudent"
+        "superlative": "le plus prudent",
+        "opposite": "dangereux",
+        "oppositeEmoji": "⚠️"
     },
     {
         "word": "créatif",
@@ -2691,11 +2721,13 @@
         "femininePlural": "créatives",
         "definitions": [
             {
-                "text": "Définition de créatif.",
-                "examples": []
+                "text": "Qui a de l'imagination et crée des choses.",
+                "examples": [
+                    "C'est un artiste très créatif."
+                ]
             }
         ],
-        "subtext": "créatif",
+        "subtext": "créatif, imaginatif",
         "comparative": "plus créatif",
         "superlative": "le plus créatif"
     },
@@ -2710,13 +2742,17 @@
         "femininePlural": "nuageuses",
         "definitions": [
             {
-                "text": "Définition de nuageux.",
-                "examples": []
+                "text": "Quand le ciel est couvert de nuages.",
+                "examples": [
+                    "Le temps est nuageux aujourd'hui."
+                ]
             }
         ],
-        "subtext": "nuageux",
+        "subtext": "nuageux, ciel couvert",
         "comparative": "plus nuageux",
-        "superlative": "le plus nuageux"
+        "superlative": "le plus nuageux",
+        "opposite": "ensoleillé",
+        "oppositeEmoji": "☀️"
     },
     {
         "word": "venteux",
@@ -2729,11 +2765,13 @@
         "femininePlural": "venteuses",
         "definitions": [
             {
-                "text": "Définition de venteux.",
-                "examples": []
+                "text": "Quand il y a beaucoup de vent.",
+                "examples": [
+                    "C'est une journée venteuse."
+                ]
             }
         ],
-        "subtext": "venteux",
+        "subtext": "venteux, grand vent",
         "comparative": "plus venteux",
         "superlative": "le plus venteux"
     },
@@ -2748,11 +2786,13 @@
         "femininePlural": "neigeuses",
         "definitions": [
             {
-                "text": "Définition de neigeux.",
-                "examples": []
+                "text": "Quand il tombe de la neige.",
+                "examples": [
+                    "Le temps est neigeux en hiver."
+                ]
             }
         ],
-        "subtext": "neigeux",
+        "subtext": "neigeux, sous la neige",
         "comparative": "plus neigeux",
         "superlative": "le plus neigeux"
     },
@@ -2767,11 +2807,13 @@
         "femininePlural": "brumeuses",
         "definitions": [
             {
-                "text": "Définition de brumeux.",
-                "examples": []
+                "text": "Quand il y a de la brume ; on ne voit pas bien.",
+                "examples": [
+                    "Le matin est souvent brumeux."
+                ]
             }
         ],
-        "subtext": "brumeux",
+        "subtext": "brumeux, brouillard",
         "comparative": "plus brumeux",
         "superlative": "le plus brumeux"
     },
@@ -2786,11 +2828,13 @@
         "femininePlural": "orageuses",
         "definitions": [
             {
-                "text": "Définition de orageux.",
-                "examples": []
+                "text": "Quand il y a de l'orage.",
+                "examples": [
+                    "Le ciel devient orageux ce soir."
+                ]
             }
         ],
-        "subtext": "orageux",
+        "subtext": "orageux, tempête",
         "comparative": "plus orageux",
         "superlative": "le plus orageux"
     },
@@ -2805,13 +2849,17 @@
         "femininePlural": "blondes",
         "definitions": [
             {
-                "text": "Définition de blond.",
-                "examples": []
+                "text": "Qui a les cheveux d'un jaune clair.",
+                "examples": [
+                    "Elle a les cheveux blonds."
+                ]
             }
         ],
-        "subtext": "blond",
+        "subtext": "blond, cheveux clairs",
         "comparative": "plus blond",
-        "superlative": "le plus blond"
+        "superlative": "le plus blond",
+        "opposite": "brun",
+        "oppositeEmoji": "👨"
     },
     {
         "word": "intelligent",
@@ -2824,13 +2872,17 @@
         "femininePlural": "intelligentes",
         "definitions": [
             {
-                "text": "Définition de intelligent.",
-                "examples": []
+                "text": "Qui comprend vite et bien.",
+                "examples": [
+                    "C'est un élève très intelligent."
+                ]
             }
         ],
-        "subtext": "intelligent",
+        "subtext": "intelligent, brillant",
         "comparative": "plus intelligent",
-        "superlative": "le plus intelligent"
+        "superlative": "le plus intelligent",
+        "opposite": "stupide",
+        "oppositeEmoji": "🤡"
     },
     {
         "word": "sérieux",
@@ -2843,11 +2895,13 @@
         "femininePlural": "sérieuses",
         "definitions": [
             {
-                "text": "Définition de sérieux.",
-                "examples": []
+                "text": "Qui agit avec réflexion et application.",
+                "examples": [
+                    "C'est un employé sérieux."
+                ]
             }
         ],
-        "subtext": "sérieux",
+        "subtext": "sérieux, appliqué",
         "comparative": "plus sérieux",
         "superlative": "le plus sérieux"
     },
@@ -2862,13 +2916,17 @@
         "femininePlural": "laides",
         "definitions": [
             {
-                "text": "Définition de laid.",
-                "examples": []
+                "text": "Qui n'est pas beau à voir.",
+                "examples": [
+                    "C'est un vieux bâtiment laid."
+                ]
             }
         ],
-        "subtext": "laid",
+        "subtext": "laid, moche",
         "comparative": "plus laid",
-        "superlative": "le plus laid"
+        "superlative": "le plus laid",
+        "opposite": "beau",
+        "oppositeEmoji": "✨"
     },
     {
         "word": "proche",
@@ -2881,13 +2939,17 @@
         "femininePlural": "proches",
         "definitions": [
             {
-                "text": "Définition de proche.",
-                "examples": []
+                "text": "Qui est à une petite distance.",
+                "examples": [
+                    "La gare est proche de l'hôtel."
+                ]
             }
         ],
-        "subtext": "proche",
+        "subtext": "proche, près",
         "comparative": "plus proche",
-        "superlative": "le plus proche"
+        "superlative": "le plus proche",
+        "opposite": "lointain",
+        "oppositeEmoji": "🔭"
     },
     {
         "word": "lointain",
@@ -2900,13 +2962,17 @@
         "femininePlural": "lointaines",
         "definitions": [
             {
-                "text": "Définition de lointain.",
-                "examples": []
+                "text": "Qui est à une grande distance.",
+                "examples": [
+                    "C'est un pays lointain."
+                ]
             }
         ],
-        "subtext": "lointain",
+        "subtext": "lointain, éloigné",
         "comparative": "plus lointain",
-        "superlative": "le plus lointain"
+        "superlative": "le plus lointain",
+        "opposite": "proche",
+        "oppositeEmoji": "📍"
     },
     {
         "word": "riche",
@@ -2919,13 +2985,17 @@
         "femininePlural": "riches",
         "definitions": [
             {
-                "text": "Définition de riche.",
-                "examples": []
+                "text": "Qui a beaucoup d'argent.",
+                "examples": [
+                    "C'est un homme très riche."
+                ]
             }
         ],
-        "subtext": "riche",
+        "subtext": "riche, fortuné",
         "comparative": "plus riche",
-        "superlative": "le plus riche"
+        "superlative": "le plus riche",
+        "opposite": "pauvre",
+        "oppositeEmoji": "🏚️"
     },
     {
         "word": "pauvre",
@@ -2938,13 +3008,17 @@
         "femininePlural": "pauvres",
         "definitions": [
             {
-                "text": "Définition de pauvre.",
-                "examples": []
+                "text": "Qui a peu d'argent.",
+                "examples": [
+                    "C'est un quartier pauvre."
+                ]
             }
         ],
-        "subtext": "pauvre",
+        "subtext": "pauvre, modeste",
         "comparative": "plus pauvre",
-        "superlative": "le plus pauvre"
+        "superlative": "le plus pauvre",
+        "opposite": "riche",
+        "oppositeEmoji": "💰"
     },
     {
         "word": "matinal",
@@ -2957,13 +3031,17 @@
         "femininePlural": "matinales",
         "definitions": [
             {
-                "text": "Définition de matinal.",
-                "examples": []
+                "text": "Qui se lève tôt le matin.",
+                "examples": [
+                    "Je ne suis pas très matinal."
+                ]
             }
         ],
-        "subtext": "matinal",
+        "subtext": "matinal, lève-tôt",
         "comparative": "plus matinal",
-        "superlative": "le plus matinal"
+        "superlative": "le plus matinal",
+        "opposite": "tardif",
+        "oppositeEmoji": "🌙"
     },
     {
         "word": "tardif",
@@ -2976,13 +3054,17 @@
         "femininePlural": "tardives",
         "definitions": [
             {
-                "text": "Définition de tardif.",
-                "examples": []
+                "text": "Qui arrive tard dans le temps.",
+                "examples": [
+                    "C'est un dîner tardif."
+                ]
             }
         ],
-        "subtext": "tardif",
+        "subtext": "tardif, en retard",
         "comparative": "plus tardif",
-        "superlative": "le plus tardif"
+        "superlative": "le plus tardif",
+        "opposite": "matinal",
+        "oppositeEmoji": "🌅"
     },
     {
         "word": "passionnant",
@@ -2995,13 +3077,17 @@
         "femininePlural": "passionnantes",
         "definitions": [
             {
-                "text": "Définition de passionnant.",
-                "examples": []
+                "text": "Qui intéresse beaucoup ; très captivant.",
+                "examples": [
+                    "C'est un livre passionnant."
+                ]
             }
         ],
-        "subtext": "passionnant",
+        "subtext": "passionnant, captivant",
         "comparative": "plus passionnant",
-        "superlative": "le plus passionnant"
+        "superlative": "le plus passionnant",
+        "opposite": "ennuyeux",
+        "oppositeEmoji": "😴"
     },
     {
         "word": "délicieux",
@@ -3014,13 +3100,17 @@
         "femininePlural": "délicieuses",
         "definitions": [
             {
-                "text": "Définition de délicieux.",
-                "examples": []
+                "text": "Qui a un goût très agréable.",
+                "examples": [
+                    "Ce gâteau est délicieux."
+                ]
             }
         ],
-        "subtext": "délicieux",
+        "subtext": "délicieux, succulent",
         "comparative": "plus délicieux",
-        "superlative": "le plus délicieux"
+        "superlative": "le plus délicieux",
+        "opposite": "dégoûtant",
+        "oppositeEmoji": "🤮"
     },
     {
         "word": "sucré",
@@ -3033,13 +3123,17 @@
         "femininePlural": "sucrées",
         "definitions": [
             {
-                "text": "Définition de sucré.",
-                "examples": []
+                "text": "Qui a le goût du sucre.",
+                "examples": [
+                    "J'aime les boissons sucrées."
+                ]
             }
         ],
-        "subtext": "sucré",
+        "subtext": "sucré, doux",
         "comparative": "plus sucré",
-        "superlative": "le plus sucré"
+        "superlative": "le plus sucré",
+        "opposite": "salé",
+        "oppositeEmoji": "🧂"
     },
     {
         "word": "confortable",
@@ -3052,13 +3146,17 @@
         "femininePlural": "confortables",
         "definitions": [
             {
-                "text": "Définition de confortable.",
-                "examples": []
+                "text": "Qui procure du bien-être physique.",
+                "examples": [
+                    "Ce canapé est très confortable."
+                ]
             }
         ],
-        "subtext": "confortable",
+        "subtext": "confortable, douillet",
         "comparative": "plus confortable",
-        "superlative": "le plus confortable"
+        "superlative": "le plus confortable",
+        "opposite": "inconfortable",
+        "oppositeEmoji": "🪵"
     },
     {
         "word": "vrai",
@@ -3071,13 +3169,17 @@
         "femininePlural": "vraies",
         "definitions": [
             {
-                "text": "Définition de vrai.",
-                "examples": []
+                "text": "Qui est conforme à la réalité ; pas faux.",
+                "examples": [
+                    "C'est une histoire vraie."
+                ]
             }
         ],
-        "subtext": "vrai",
+        "subtext": "vrai, réel",
         "comparative": "plus vrai",
-        "superlative": "le plus vrai"
+        "superlative": "le plus vrai",
+        "opposite": "faux",
+        "oppositeEmoji": "🎭"
     },
     {
         "word": "simple",
@@ -3090,13 +3192,17 @@
         "femininePlural": "simples",
         "definitions": [
             {
-                "text": "Définition de simple.",
-                "examples": []
+                "text": "Qui n'est pas compliqué ; facile à comprendre.",
+                "examples": [
+                    "C'est une question simple."
+                ]
             }
         ],
-        "subtext": "simple",
+        "subtext": "simple, facile",
         "comparative": "plus simple",
-        "superlative": "le plus simple"
+        "superlative": "le plus simple",
+        "opposite": "complexe",
+        "oppositeEmoji": "🧩"
     },
     {
         "word": "naturel",
@@ -3109,13 +3215,17 @@
         "femininePlural": "naturelles",
         "definitions": [
             {
-                "text": "Définition de naturel.",
-                "examples": []
+                "text": "Qui appartient à la nature ; pas artificiel.",
+                "examples": [
+                    "Ce produit est 100% naturel."
+                ]
             }
         ],
-        "subtext": "naturel",
+        "subtext": "naturel, pur",
         "comparative": "plus naturel",
-        "superlative": "le plus naturel"
+        "superlative": "le plus naturel",
+        "opposite": "artificiel",
+        "oppositeEmoji": "🤖"
     },
     {
         "word": "clair",
@@ -3128,13 +3238,17 @@
         "femininePlural": "claires",
         "definitions": [
             {
-                "text": "Définition de clair.",
-                "examples": []
+                "text": "Qui reçoit beaucoup de lumière ; facile à voir.",
+                "examples": [
+                    "La chambre est très claire."
+                ]
             }
         ],
-        "subtext": "clair",
+        "subtext": "clair, lumineux",
         "comparative": "plus clair",
-        "superlative": "le plus clair"
+        "superlative": "le plus clair",
+        "opposite": "sombre",
+        "oppositeEmoji": "🌑"
     },
     {
         "word": "commun",
@@ -3147,13 +3261,17 @@
         "femininePlural": "communes",
         "definitions": [
             {
-                "text": "Définition de commun.",
-                "examples": []
+                "text": "Qui appartient à plusieurs personnes ; habituel.",
+                "examples": [
+                    "C'est un nom très commun."
+                ]
             }
         ],
-        "subtext": "commun",
+        "subtext": "commun, ordinaire",
         "comparative": "plus commun",
-        "superlative": "le plus commun"
+        "superlative": "le plus commun",
+        "opposite": "rare",
+        "oppositeEmoji": "💎"
     },
     {
         "word": "célèbre",
@@ -3166,13 +3284,17 @@
         "femininePlural": "célèbres",
         "definitions": [
             {
-                "text": "Définition de célèbre.",
-                "examples": []
+                "text": "Qui est très connu.",
+                "examples": [
+                    "C'est une actrice célèbre."
+                ]
             }
         ],
-        "subtext": "célèbre",
+        "subtext": "célèbre, connu",
         "comparative": "plus célèbre",
-        "superlative": "le plus célèbre"
+        "superlative": "le plus célèbre",
+        "opposite": "inconnu",
+        "oppositeEmoji": "👤"
     },
     {
         "word": "salé",
@@ -3185,13 +3307,17 @@
         "femininePlural": "salées",
         "definitions": [
             {
-                "text": "Définition de salé.",
-                "examples": []
+                "text": "Qui contient du sel ou a le goût de sel.",
+                "examples": [
+                    "Ces frites sont trop salées."
+                ]
             }
         ],
         "subtext": "salé",
         "comparative": "plus salé",
-        "superlative": "le plus salé"
+        "superlative": "le plus salé",
+        "opposite": "sucré",
+        "oppositeEmoji": "🍬"
     },
     {
         "word": "acide",
@@ -3204,11 +3330,13 @@
         "femininePlural": "acides",
         "definitions": [
             {
-                "text": "Définition de acide.",
-                "examples": []
+                "text": "Qui a un goût piquant comme le citron.",
+                "examples": [
+                    "Le jus de citron est très acide."
+                ]
             }
         ],
-        "subtext": "acide",
+        "subtext": "acide, aigre",
         "comparative": "plus acide",
         "superlative": "le plus acide"
     },
@@ -3223,8 +3351,10 @@
         "femininePlural": "amères",
         "definitions": [
             {
-                "text": "Définition de amer.",
-                "examples": []
+                "text": "Qui a une saveur rude et désagréable.",
+                "examples": [
+                    "Ce café est trop amer."
+                ]
             }
         ],
         "subtext": "amer",
@@ -3242,13 +3372,17 @@
         "femininePlural": "grosses",
         "definitions": [
             {
-                "text": "Définition de gros.",
-                "examples": []
+                "text": "De volume ou de poids important.",
+                "examples": [
+                    "C'est un gros chien."
+                ]
             }
         ],
-        "subtext": "gros",
+        "subtext": "gros, volumineux",
         "comparative": "plus gros",
-        "superlative": "le plus gros"
+        "superlative": "le plus gros",
+        "opposite": "mince",
+        "oppositeEmoji": "🥬"
     },
     {
         "word": "mince",
@@ -3261,13 +3395,17 @@
         "femininePlural": "minces",
         "definitions": [
             {
-                "text": "Définition de mince.",
-                "examples": []
+                "text": "Qui n'est pas gros ; fin.",
+                "examples": [
+                    "Elle est mince et sportive."
+                ]
             }
         ],
-        "subtext": "mince",
+        "subtext": "mince, svelte",
         "comparative": "plus mince",
-        "superlative": "le plus mince"
+        "superlative": "le plus mince",
+        "opposite": "gros",
+        "oppositeEmoji": "🍔"
     },
     {
         "word": "bouclé",
@@ -3280,13 +3418,17 @@
         "femininePlural": "bouclées",
         "definitions": [
             {
-                "text": "Définition de bouclé.",
-                "examples": []
+                "text": "Qui a des boucles (en parlant des cheveux).",
+                "examples": [
+                    "Il a les cheveux bouclés."
+                ]
             }
         ],
-        "subtext": "bouclé",
+        "subtext": "bouclé, frisé",
         "comparative": "plus bouclé",
-        "superlative": "le plus bouclé"
+        "superlative": "le plus bouclé",
+        "opposite": "raide",
+        "oppositeEmoji": "📏"
     },
     {
         "word": "droit",
@@ -3299,11 +3441,13 @@
         "femininePlural": "droites",
         "definitions": [
             {
-                "text": "Définition de droit.",
-                "examples": []
+                "text": "Qui ne penche ni d'un côté ni de l'autre.",
+                "examples": [
+                    "Trace une ligne droite."
+                ]
             }
         ],
-        "subtext": "droit",
+        "subtext": "droit, rectiligne",
         "comparative": "plus droit",
         "superlative": "le plus droit"
     },
@@ -3318,8 +3462,10 @@
         "femininePlural": "triangulaires",
         "definitions": [
             {
-                "text": "Définition de triangulaire.",
-                "examples": []
+                "text": "Qui a la forme d'un triangle.",
+                "examples": [
+                    "C'est un panneau triangulaire."
+                ]
             }
         ],
         "subtext": "triangulaire",
@@ -3337,8 +3483,10 @@
         "femininePlural": "rectangulaires",
         "definitions": [
             {
-                "text": "Définition de rectangulaire.",
-                "examples": []
+                "text": "Qui a la forme d'un rectangle.",
+                "examples": [
+                    "La table est rectangulaire."
+                ]
             }
         ],
         "subtext": "rectangulaire",
@@ -3356,8 +3504,10 @@
         "femininePlural": "ovales",
         "definitions": [
             {
-                "text": "Définition de ovale.",
-                "examples": []
+                "text": "Qui a la forme d'un œuf.",
+                "examples": [
+                    "Le miroir est ovale."
+                ]
             }
         ],
         "subtext": "ovale",
@@ -3375,11 +3525,13 @@
         "femininePlural": "préférées",
         "definitions": [
             {
-                "text": "Définition de préféré.",
-                "examples": []
+                "text": "Que l'on aime mieux que les autres.",
+                "examples": [
+                    "C'est mon film préféré."
+                ]
             }
         ],
-        "subtext": "préféré",
+        "subtext": "préféré, favori",
         "comparative": "plus préféré",
         "superlative": "le plus préféré"
     },
@@ -3394,13 +3546,17 @@
         "femininePlural": "sombres",
         "definitions": [
             {
-                "text": "Définition de sombre.",
-                "examples": []
+                "text": "Où il y a peu de lumière.",
+                "examples": [
+                    "Il fait sombre dans cette pièce."
+                ]
             }
         ],
-        "subtext": "sombre",
+        "subtext": "sombre, obscur",
         "comparative": "plus sombre",
-        "superlative": "le plus sombre"
+        "superlative": "le plus sombre",
+        "opposite": "clair",
+        "oppositeEmoji": "💡"
     },
     {
         "word": "lumineux",
@@ -3413,13 +3569,17 @@
         "femininePlural": "lumineuses",
         "definitions": [
             {
-                "text": "Définition de lumineux.",
-                "examples": []
+                "text": "Qui donne ou reçoit beaucoup de lumière.",
+                "examples": [
+                    "C'est un appartement très lumineux."
+                ]
             }
         ],
-        "subtext": "lumineux",
+        "subtext": "lumineux, éclairé",
         "comparative": "plus lumineux",
-        "superlative": "le plus lumineux"
+        "superlative": "le plus lumineux",
+        "opposite": "sombre",
+        "oppositeEmoji": "🌑"
     },
     {
         "word": "doré",
@@ -3432,8 +3592,10 @@
         "femininePlural": "dorées",
         "definitions": [
             {
-                "text": "Définition de doré.",
-                "examples": []
+                "text": "Qui a la couleur de l'or.",
+                "examples": [
+                    "Elle porte des boucles d'oreilles dorées."
+                ]
             }
         ],
         "subtext": "doré",
@@ -3451,8 +3613,10 @@
         "femininePlural": "argentées",
         "definitions": [
             {
-                "text": "Définition de argenté.",
-                "examples": []
+                "text": "Qui a la couleur de l'argent.",
+                "examples": [
+                    "Il a une montre argentée."
+                ]
             }
         ],
         "subtext": "argenté",
@@ -3470,13 +3634,17 @@
         "femininePlural": "profondes",
         "definitions": [
             {
-                "text": "Définition de profond.",
-                "examples": []
+                "text": "Qui va loin vers le bas ou vers l'intérieur.",
+                "examples": [
+                    "La mer est très profonde ici."
+                ]
             }
         ],
         "subtext": "profond",
         "comparative": "plus profond",
-        "superlative": "le plus profond"
+        "superlative": "le plus profond",
+        "opposite": "peu profond",
+        "oppositeEmoji": "📏"
     },
     {
         "word": "peu profond",
@@ -3489,13 +3657,17 @@
         "femininePlural": "peu profondes",
         "definitions": [
             {
-                "text": "Définition de peu profond.",
-                "examples": []
+                "text": "Qui n'a pas beaucoup de profondeur.",
+                "examples": [
+                    "La piscine est peu profonde ici."
+                ]
             }
         ],
-        "subtext": "peu profond",
+        "subtext": "peu profond, superficiel",
         "comparative": "plus peu profond",
-        "superlative": "le plus peu profond"
+        "superlative": "le plus peu profond",
+        "opposite": "profond",
+        "oppositeEmoji": "🕳️"
     },
     {
         "word": "moderne",
@@ -3508,13 +3680,17 @@
         "femininePlural": "modernes",
         "definitions": [
             {
-                "text": "Définition de moderne.",
-                "examples": []
+                "text": "Qui appartient au temps présent ; actuel.",
+                "examples": [
+                    "C'est une ville très moderne."
+                ]
             }
         ],
-        "subtext": "moderne",
+        "subtext": "moderne, actuel",
         "comparative": "plus moderne",
-        "superlative": "le plus moderne"
+        "superlative": "le plus moderne",
+        "opposite": "ancien",
+        "oppositeEmoji": "🏛️"
     },
     {
         "word": "ancien",
@@ -3527,13 +3703,17 @@
         "femininePlural": "anciennes",
         "definitions": [
             {
-                "text": "Définition de ancien.",
-                "examples": []
+                "text": "Qui existe depuis longtemps ; vieux.",
+                "examples": [
+                    "Il habite dans un immeuble ancien."
+                ]
             }
         ],
-        "subtext": "ancien",
+        "subtext": "ancien, vieux",
         "comparative": "plus ancien",
-        "superlative": "le plus ancien"
+        "superlative": "le plus ancien",
+        "opposite": "moderne",
+        "oppositeEmoji": "🏙️"
     },
     {
         "word": "courageux",
@@ -3546,13 +3726,17 @@
         "femininePlural": "courageuses",
         "definitions": [
             {
-                "text": "Définition de courageux.",
-                "examples": []
+                "text": "Qui n'a pas peur du danger.",
+                "examples": [
+                    "Le pompier est très courageux."
+                ]
             }
         ],
-        "subtext": "courageux",
+        "subtext": "courageux, brave",
         "comparative": "plus courageux",
-        "superlative": "le plus courageux"
+        "superlative": "le plus courageux",
+        "opposite": "lâche",
+        "oppositeEmoji": "🐭"
     },
     {
         "word": "lâche",
@@ -3565,13 +3749,17 @@
         "femininePlural": "lâches",
         "definitions": [
             {
-                "text": "Définition de lâche.",
-                "examples": []
+                "text": "Qui manque de courage.",
+                "examples": [
+                    "Il a été lâche dans cette situation."
+                ]
             }
         ],
-        "subtext": "lâche",
+        "subtext": "lâche, poltron",
         "comparative": "plus lâche",
-        "superlative": "le plus lâche"
+        "superlative": "le plus lâche",
+        "opposite": "courageux",
+        "oppositeEmoji": "🦁"
     },
     {
         "word": "large",
@@ -3584,13 +3772,17 @@
         "femininePlural": "larges",
         "definitions": [
             {
-                "text": "Définition de large.",
-                "examples": []
+                "text": "Qui a une grande largeur.",
+                "examples": [
+                    "La route est très large."
+                ]
             }
         ],
-        "subtext": "large",
+        "subtext": "large, spacieux",
         "comparative": "plus large",
-        "superlative": "le plus large"
+        "superlative": "le plus large",
+        "opposite": "étroit",
+        "oppositeEmoji": "⬇️"
     },
     {
         "word": "étroit",
@@ -3603,13 +3795,17 @@
         "femininePlural": "étroites",
         "definitions": [
             {
-                "text": "Définition de étroit.",
-                "examples": []
+                "text": "Qui a peu de largeur.",
+                "examples": [
+                    "C'est une rue très étroite."
+                ]
             }
         ],
-        "subtext": "étroit",
+        "subtext": "étroit, serré",
         "comparative": "plus étroit",
-        "superlative": "le plus étroit"
+        "superlative": "le plus étroit",
+        "opposite": "large",
+        "oppositeEmoji": "↔️"
     },
     {
         "word": "antipathique",
@@ -3622,13 +3818,17 @@
         "femininePlural": "antipathiques",
         "definitions": [
             {
-                "text": "Définition de antipathique.",
-                "examples": []
+                "text": "Qui n'est pas aimable ; désagréable.",
+                "examples": [
+                    "Je trouve ce vendeur antipathique."
+                ]
             }
         ],
-        "subtext": "antipathique",
+        "subtext": "antipathique, désagréable",
         "comparative": "plus antipathique",
-        "superlative": "le plus antipathique"
+        "superlative": "le plus antipathique",
+        "opposite": "sympathique",
+        "oppositeEmoji": "😊"
     },
     {
         "word": "impatient",
@@ -3641,13 +3841,17 @@
         "femininePlural": "impatientes",
         "definitions": [
             {
-                "text": "Définition de impatient.",
-                "examples": []
+                "text": "Qui ne sait pas attendre.",
+                "examples": [
+                    "Il est impatient de partir en vacances."
+                ]
             }
         ],
         "subtext": "impatient",
         "comparative": "plus impatient",
-        "superlative": "le plus impatient"
+        "superlative": "le plus impatient",
+        "opposite": "patient",
+        "oppositeEmoji": "🧘"
     },
     {
         "word": "impoli",
@@ -3660,13 +3864,17 @@
         "femininePlural": "impolies",
         "definitions": [
             {
-                "text": "Définition de impoli.",
-                "examples": []
+                "text": "Qui manque de politesse.",
+                "examples": [
+                    "Il est impoli avec les clients."
+                ]
             }
         ],
-        "subtext": "impoli",
+        "subtext": "impoli, malpoli",
         "comparative": "plus impoli",
-        "superlative": "le plus impoli"
+        "superlative": "le plus impoli",
+        "opposite": "poli",
+        "oppositeEmoji": "👔"
     },
     {
         "word": "faux",
@@ -3679,13 +3887,17 @@
         "femininePlural": "fausses",
         "definitions": [
             {
-                "text": "Définition de faux.",
-                "examples": []
+                "text": "Qui n'est pas vrai ; qui cherche à tromper.",
+                "examples": [
+                    "C'est un faux billet."
+                ]
             }
         ],
-        "subtext": "faux",
+        "subtext": "faux, inexact",
         "comparative": "plus faux",
-        "superlative": "le plus faux"
+        "superlative": "le plus faux",
+        "opposite": "vrai",
+        "oppositeEmoji": "💎"
     },
     {
         "word": "malchanceux",
@@ -3698,13 +3910,17 @@
         "femininePlural": "malchanceuses",
         "definitions": [
             {
-                "text": "Définition de malchanceux.",
-                "examples": []
+                "text": "Qui n'a pas de chance.",
+                "examples": [
+                    "Il est malchanceux au jeu."
+                ]
             }
         ],
-        "subtext": "malchanceux",
+        "subtext": "malchanceux, infortuné",
         "comparative": "plus malchanceux",
-        "superlative": "le plus malchanceux"
+        "superlative": "le plus malchanceux",
+        "opposite": "chanceux",
+        "oppositeEmoji": "🍀"
     },
 ];
     const lang = "fr";

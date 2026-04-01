@@ -87,7 +87,7 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "action",
         "v3": "donné",
         "group": "er",
@@ -123,6 +123,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "obtenir un travail / se fatiguer / s améliorer",
+        "opposite": "donner",
+        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -146,6 +148,8 @@
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "mettre / ranger / poser le téléphone",
+        "opposite": "prendre",
+        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -375,6 +379,8 @@
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
         "subtext": "montrer à quelqu un / montrer comment / montrer un document",
+        "opposite": "cacher",
+        "oppositeEmoji": "🙈",
         "form": "verb",
         "definitions": [
             {
@@ -385,7 +391,7 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "action",
         "v3": "montré",
         "group": "er",
@@ -397,6 +403,8 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "trouver un travail / découvrir / trouver cela difficile",
+        "opposite": "perdre",
+        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -407,7 +415,7 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "action",
         "v3": "trouvé",
         "group": "er",
@@ -1308,7 +1316,7 @@
                 ]
             }
         ],
-        "classification": "irregular",
+        "classification": "regular",
         "aspect": "both",
         "v3": "pensé",
         "group": "er",
@@ -4295,6 +4303,237 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "touché",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "soustraire",
+        "level": "starter",
+        "theme": "numbers_100_999_A1",
+        "emoji": "➖",
+        "subtext": "soustraire / moins / déduire",
+        "opposite": "ajouter",
+        "oppositeEmoji": "➕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Retirer un nombre ou une quantité d un autre nombre ou d une autre quantité.",
+                "examples": [
+                    "Si vous soustrayez cinq de dix, vous obtenez cinq."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "soustrait",
+        "group": "re",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "laisser",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "emoji": "🔓",
+        "subtext": "laisser quelqu un / laisser faire / laisser savoir",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Permettre à quelque chose de se produire ou à quelqu un de faire quelque chose.",
+                "examples": [
+                    "Laisse-moi t aider avec ces sacs.",
+                    "Elle a laissé le chien sortir dans le jardin."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "laissé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "échouer",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "emoji": "❌",
+        "subtext": "échouer à un examen / rater un test / échouer complètement",
+        "opposite": "passer",
+        "oppositeEmoji": "🏔️",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Ne pas réussir dans ce que vous essayez de faire.",
+                "examples": [
+                    "J ai échoué à mon permis de conduire trois fois."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "échoué",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "envoyer un e-mail",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📧",
+        "subtext": "envoyer un e-mail à quelqu un / répondre par e-mail",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Envoyer un message en utilisant Internet.",
+                "examples": [
+                    "Envoyez-moi les détails par e-mail.",
+                    "Je vous enverrai un e-mail demain."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "envoyé un e-mail",
+        "group": "locution",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "téléphoner",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "emoji": "📞",
+        "subtext": "téléphoner à quelqu un / rappel / être au téléphone",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Appeler quelqu un en utilisant un téléphone.",
+                "examples": [
+                    "Je te téléphonerai plus tard.",
+                    "Il a téléphoné à sa mère."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "téléphoné",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "s habiller",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👗",
+        "subtext": "s habiller / bien s habiller / s habiller pour le travail",
+        "opposite": "se déshabiller",
+        "oppositeEmoji": "👕",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Mettre des vêtements sur soi ou sur quelqu un d autre.",
+                "examples": [
+                    "Je m habille à sept heures.",
+                    "Elle était habillée en noir."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "habillé",
+        "group": "er",
+        "auxiliary": "être"
+    },
+    {
+        "word": "se déshabiller",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "emoji": "👕",
+        "subtext": "se déshabiller / se déshabiller rapidement",
+        "opposite": "s habiller",
+        "oppositeEmoji": "👗",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Enlever ses vêtements ou ceux de quelqu un d autre.",
+                "examples": [
+                    "Il s est déshabillé et s est couché.",
+                    "Déshabille-toi et prends un bain."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "déshabillé",
+        "group": "er",
+        "auxiliary": "être"
+    },
+    {
+        "word": "allumer",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "💡",
+        "subtext": "allumer la lumière / allumer la télé / allumer la radio",
+        "opposite": "éteindre",
+        "oppositeEmoji": "🌑",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Faire démarrer un appareil ou une lumière.",
+                "examples": [
+                    "Allume la lumière, s il te plaît.",
+                    "Il allume son ordinateur à neuf heures."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "allumé",
+        "group": "er",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "éteindre",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "emoji": "🌑",
+        "subtext": "éteindre la lumière / éteindre l ordinateur / éteindre son téléphone",
+        "opposite": "allumer",
+        "oppositeEmoji": "💡",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Arrêter le fonctionnement d un appareil ou d une lumière.",
+                "examples": [
+                    "N oublie pas d éteindre les lumières.",
+                    "Elle éteint son téléphone pendant les réunions."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v3": "éteint",
+        "group": "re",
+        "auxiliary": "avoir"
+    },
+    {
+        "word": "augmenter",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "emoji": "📈",
+        "subtext": "augmenter / prix qui augmentent / en hausse",
+        "opposite": "tomber",
+        "oppositeEmoji": "🍂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "Se déplacer vers le haut ; augmenter en quantité ou en niveau.",
+                "examples": [
+                    "Les prix augmentent chaque année."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "augmenté",
         "group": "er",
         "auxiliary": "avoir"
     },
