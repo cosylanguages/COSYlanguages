@@ -10477,6 +10477,192 @@
                 ]
             }
         ]
+    },
+    {
+        "word": "above",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "below",
+        "definitions": [
+            {
+                "text": "In or to a higher position than something else.",
+                "examples": [
+                    "The shelf is above the desk."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "below",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "above",
+        "definitions": [
+            {
+                "text": "In or to a lower position than something else.",
+                "examples": [
+                    "The desk is below the shelf."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "inside",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "outside",
+        "definitions": [
+            {
+                "text": "In or into a container, room, or building.",
+                "examples": [
+                    "Go inside the house."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "outside",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "preposition",
+        "opposite": "inside",
+        "definitions": [
+            {
+                "text": "Not in a particular room or building.",
+                "examples": [
+                    "It is cold outside."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "during",
+        "level": "starter",
+        "theme": "prepositions_time_A1",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "From the beginning to the end of a particular period of time.",
+                "examples": [
+                    "I sleep during the night."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "before",
+        "level": "starter",
+        "theme": "prepositions_time_A1",
+        "form": "preposition",
+        "opposite": "after",
+        "definitions": [
+            {
+                "text": "At an earlier time; in front of.",
+                "examples": [
+                    "Wash your hands before dinner."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "after",
+        "level": "starter",
+        "theme": "prepositions_time_A1",
+        "form": "preposition",
+        "opposite": "before",
+        "definitions": [
+            {
+                "text": "At a later time; following.",
+                "examples": [
+                    "We have a meeting after lunch."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "top",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "\ud83d\udd1d",
+        "form": "noun",
+        "opposite": "bottom",
+        "definitions": [
+            {
+                "text": "The highest part of something.",
+                "examples": [
+                    "The book is on the top shelf."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "bottom",
+        "level": "starter",
+        "theme": "size_shape_A1",
+        "emoji": "\u2b07\ufe0f",
+        "form": "noun",
+        "opposite": "top",
+        "definitions": [
+            {
+                "text": "The lowest part of something.",
+                "examples": [
+                    "Write your name at the bottom of the page."
+                ]
+            }
+        ],
+        "countability": "uncountable"
+    },
+    {
+        "word": "first",
+        "level": "starter",
+        "theme": "sequence_order_A2",
+        "emoji": "1\ufe0f\u20e3",
+        "form": "adjective",
+        "opposite": "last",
+        "definitions": [
+            {
+                "text": "Coming before all others in time or order.",
+                "examples": [
+                    "He was the first person to arrive."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "last",
+        "level": "starter",
+        "theme": "sequence_order_A2",
+        "emoji": "\ud83d\udd1a",
+        "form": "adjective",
+        "opposite": "first",
+        "definitions": [
+            {
+                "text": "Coming after all others in time or order.",
+                "examples": [
+                    "She was the last person to leave."
+                ]
+            }
+        ]
+    },
+    {
+        "word": "next",
+        "level": "starter",
+        "theme": "sequence_order_A2",
+        "emoji": "\u23ed\ufe0f",
+        "form": "adjective",
+        "opposite": "previous",
+        "definitions": [
+            {
+                "text": "Coming immediately after the present one.",
+                "examples": [
+                    "We will meet next week."
+                ]
+            }
+        ]
     }
 ];
     const lang = "en";
