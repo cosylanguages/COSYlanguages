@@ -111,6 +111,10 @@
     font-size: .78rem !important;
     padding: .3rem .75rem !important;
   }
+
+  .nav-lang-switcher {
+    display: none !important;
+  }
 }
 
 /* ══════════════════════════════════
@@ -588,7 +592,7 @@
 @media (max-width: 768px) {
 
   /* Game cards — 2-column grid */
-  .game-cards-grid {
+  .games-grid {
     grid-template-columns: 1fr 1fr !important;
     gap: 10px !important;
   }
@@ -968,7 +972,20 @@
   }
 
   /* Games: 3-column grid */
-  .game-cards-grid {
+  .games-grid {
     grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  /* Adjust hero for tablet */
+  .hero-inner {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+  }
+  .hero-teacher, .hero-sub {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-ctas {
+    justify-content: center;
   }
 }
