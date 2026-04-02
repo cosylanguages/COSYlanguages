@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — COSYlanguages</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Lora:wght@700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --sage: #6b8f71; --sage-dark: #4a6b50; --sage-deep: #2e4a33;
+  --cream: #fdf8f0; --ink: #2a2a2a;
+}
+body {
+  font-family: 'Nunito', sans-serif; background: var(--cream);
+  color: var(--ink); margin: 0; display: flex; align-items: center;
+  justify-content: center; min-height: 100vh; text-align: center;
+  padding: 2rem;
+}
+.container { max-width: 500px; }
+h1 { font-family: 'Lora', serif; font-size: 5rem; margin: 0; color: var(--sage); }
+h2 { font-size: 1.8rem; margin-bottom: 1rem; color: var(--sage-deep); }
+p { opacity: .8; line-height: 1.6; margin-bottom: 2rem; }
+.links { display: flex; flex-direction: column; gap: .8rem; }
+.btn {
+  display: block; padding: .8rem; border-radius: 12px;
+  background: #fff; border: 1px solid rgba(74,107,80,.2);
+  font-weight: 800; color: var(--sage-dark); text-decoration: none;
+  transition: all .2s;
+}
+.btn:hover { background: var(--sage); color: #fff; transform: translateY(-2px); }
+.btn-primary { background: var(--sage); color: #fff; border: none; }
+.btn-primary:hover { background: var(--sage-dark); }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>404</h1>
+  <h2>Oops! You've wandered off the path.</h2>
+  <p>We couldn't find the page you're looking for. Let's get you back to learning!</p>
+  <div class="links">
+    <a href="index.html" class="btn btn-primary">Go to Homepage 🏡</a>
+    <a href="practice.html" class="btn">Practice Languages 💡</a>
+    <a href="events.html" class="btn">Play Games 🎉</a>
+    <a href="days.html" class="btn">Student Area 🎓</a>
+  </div>
+</div>
+</body>
+</html>

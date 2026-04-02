@@ -8,6 +8,20 @@
         return Math.floor(diff / oneDay);
     };
 
+    // --- Header Shrink on Scroll ---
+    const setupHeaderShrink = () => {
+        const nav = document.getElementById('main-nav');
+        if (!nav) return;
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('shrunk');
+            } else {
+                nav.classList.remove('shrunk');
+            }
+        });
+    };
+
     // --- Navigation Active State ---
     const updateNavActiveState = () => {
         const navLinks = document.querySelectorAll('nav a');
@@ -162,6 +176,7 @@
 
     // --- Initialize ---
     const init = () => {
+        setupHeaderShrink();
         updateNavActiveState();
         setupBackToTop();
         setupFAQ();
@@ -180,6 +195,32 @@
         };
         setupToggle('toggle-topics-btn', 'speaking-club-topics', 'toggle_topics_show', 'toggle_topics_hide');
         setupToggle('toggle-games-btn', 'game-nights-topics', 'toggle_games_show', 'toggle_games_hide');
+
+        // Game Level Filters
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const gameCards = document.querySelectorAll('.game-card-lobby');
+        if (filterBtns.length && gameCards.length) {
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const filter = btn.getAttribute('data-filter');
+                    filterBtns.forEach(b => {
+                        b.classList.toggle('active', b === btn);
+                        b.style.background = b === btn ? 'var(--sage)' : '#fff';
+                        b.style.color = b === btn ? '#fff' : 'var(--ink-soft)';
+                        b.style.borderColor = b === btn ? 'var(--sage)' : 'var(--border)';
+                    });
+
+                    gameCards.forEach(card => {
+                        const level = card.getAttribute('data-level');
+                        if (filter === 'all' || level === filter) {
+                            card.style.display = 'flex';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        }
 
         // Calculator
         if (document.getElementById('calc-lang')) {
@@ -203,6 +244,23 @@
 
         // Word/Fact of the Day
         window.updateDailyDose();
+    };
+
+    window.captureLead = function(lang) {
+        const container = event.target.closest('.lang-card-soon');
+        const emailInput = container.querySelector('.lead-email');
+        const email = emailInput.value.trim();
+
+        if (!email || !email.includes('@')) {
+            alert('Please enter a valid email address.');
+            return;
+        }
+
+        // Mocking the capture for now
+        console.log(`Lead captured for ${lang}: ${email}`);
+
+        const captureDiv = container.querySelector('.lead-capture');
+        captureDiv.innerHTML = `<span style="font-size: 0.65rem; color: var(--sage-dark); font-weight: 800;">Thanks! We'll notify you. ✅</span>`;
     };
 
     window.updateDailyDose = function() {
