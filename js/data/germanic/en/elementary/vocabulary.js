@@ -22,10 +22,9 @@
                 ]
             }
         ],
-        "subtext": "hamburger / fast food"
+        "subtext": "hamburger / fast food",
+        "countability": "countable"
     },
-
-
     {
         "word": "taco",
         "level": "elementary",
@@ -48,10 +47,9 @@
                 ]
             }
         ],
-        "subtext": "Mexican food / spicy taco"
+        "subtext": "Mexican food / spicy taco",
+        "countability": "countable"
     },
-
-
     {
         "word": "journalist",
         "level": "elementary",
@@ -74,85 +72,64 @@
                 ]
             }
         ],
-        "subtext": "reporter / news journalist"
+        "subtext": "reporter / news journalist",
+        "countability": "countable"
     },
-
-
     {
         "word": "streaming",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📺",
         "form": "noun",
-        "plural": "streamings",
         "definitions": [
             {
                 "text": "Watching or listening to content online without downloading.",
                 "examples": [
-                    "Example of streaming here."
+                    "Streaming music is very convenient.",
+                    "I use several streaming services."
                 ]
             }
         ],
-        "subtext": "live streaming / online video"
+        "subtext": "live streaming / online video",
+        "countability": "uncountable"
     },
-
-
     {
         "word": "gravity",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🍎",
         "form": "noun",
-        "plural": "gravities",
         "definitions": [
             {
                 "text": "The force that pulls objects toward the earth.",
                 "examples": [
-                    "Example of gravity here."
+                    "Gravity keeps us on the ground.",
+                    "The Moon has less gravity than the Earth."
                 ]
             }
         ],
-        "subtext": "force of nature / laws of gravity"
+        "subtext": "force of nature / laws of gravity",
+        "countability": "uncountable"
     },
-
-
     {
         "word": "justice",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
         "form": "noun",
-        "plural": "justices",
         "definitions": [
             {
                 "text": "Fair treatment under the law.",
                 "examples": [
-                    "Example of justice here."
+                    "They are fighting for social justice.",
+                    "The court must provide justice for everyone."
                 ]
             }
         ],
-        "subtext": "legal justice / court of justice"
+        "subtext": "legal justice / court of justice",
+        "countability": "uncountable",
+        "opposite": "injustice"
     },
-
-
-    {
-        "word": "pollution",
-        "level": "elementary",
-        "theme": "environmental_protection_A2",
-        "emoji": "🏭",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Damage to the environment caused by harmful substances.",
-                "examples": [
-                    "Air pollution is a big problem here."
-                ]
-            }
-        ],
-        "subtext": "environmental pollution / air pollution"
-    },
-
-
     {
         "word": "local cuisine",
         "level": "elementary",
@@ -175,10 +152,9 @@
                 ]
             }
         ],
-        "subtext": "regional food / local dishes"
+        "subtext": "regional food / local dishes",
+        "countability": "countable"
     },
-
-
     {
         "word": "souvenir",
         "level": "elementary",
@@ -201,10 +177,9 @@
                 ]
             }
         ],
-        "subtext": "gift / travel souvenir"
+        "subtext": "gift / travel souvenir",
+        "countability": "countable"
     },
-
-
     {
         "word": "overtime",
         "level": "elementary",
@@ -215,14 +190,14 @@
             {
                 "text": "Extra hours worked beyond the normal working day.",
                 "examples": [
-                    "She works overtime to finish the project."
+                    "She works overtime to finish the project.",
+                    "I get paid more for working overtime."
                 ]
             }
         ],
-        "subtext": "extra hours / work overtime"
+        "subtext": "extra hours / work overtime",
+        "countability": "uncountable"
     },
-
-
     {
         "word": "promotion",
         "level": "elementary",
@@ -238,10 +213,10 @@
                 ]
             }
         ],
-        "subtext": "career advancement / get a promotion"
+        "subtext": "career advancement / get a promotion",
+        "countability": "countable",
+        "opposite": "demotion"
     },
-
-
     {
         "word": "interview",
         "level": "elementary",
@@ -257,10 +232,9 @@
                 ]
             }
         ],
-        "subtext": "job interview / attend an interview"
+        "subtext": "job interview / attend an interview",
+        "countability": "countable"
     },
-
-
     {
         "word": "contract",
         "level": "elementary",
@@ -276,10 +250,9 @@
                 ]
             }
         ],
-        "subtext": "legal document / sign a contract"
+        "subtext": "legal document / sign a contract",
+        "countability": "countable"
     },
-
-
     {
         "word": "deadline",
         "level": "elementary",
@@ -295,10 +268,9 @@
                 ]
             }
         ],
-        "subtext": "due date / meet a deadline"
+        "subtext": "due date / meet a deadline",
+        "countability": "countable"
     },
-
-
     {
         "word": "experience",
         "level": "elementary",
@@ -313,10 +285,9 @@
                 ]
             }
         ],
-        "subtext": "work experience / past experience"
+        "subtext": "work experience / past experience",
+        "countability": "uncountable"
     },
-
-
     {
         "word": "mortgage",
         "level": "elementary",
@@ -332,10 +303,9 @@
                 ]
             }
         ],
-        "subtext": "home loan / pay the mortgage"
+        "subtext": "home loan / pay the mortgage",
+        "countability": "countable"
     },
-
-
     {
         "word": "loan",
         "level": "elementary",
@@ -351,10 +321,9 @@
                 ]
             }
         ],
-        "subtext": "bank loan / take a loan"
+        "subtext": "bank loan / take a loan",
+        "countability": "countable"
     },
-
-
     {
         "word": "debt",
         "level": "elementary",
@@ -370,10 +339,9 @@
                 ]
             }
         ],
-        "subtext": "owe money / in debt"
+        "subtext": "owe money / in debt",
+        "countability": "uncountable"
     },
-
-
     {
         "word": "account",
         "level": "elementary",
@@ -389,10 +357,9 @@
                 ]
             }
         ],
-        "subtext": "bank account / open an account"
+        "subtext": "bank account / open an account",
+        "countability": "countable"
     },
-
-
     {
         "word": "budget",
         "level": "elementary",
@@ -408,10 +375,9 @@
                 ]
             }
         ],
-        "subtext": "financial plan / monthly budget"
+        "subtext": "financial plan / monthly budget",
+        "countability": "countable"
     },
-
-
     {
         "word": "diet",
         "level": "elementary",
@@ -427,10 +393,9 @@
                 ]
             }
         ],
-        "subtext": "healthy diet / on a diet"
+        "subtext": "healthy diet / on a diet",
+        "countability": "countable"
     },
-
-
     {
         "word": "vitamin",
         "level": "elementary",
@@ -446,10 +411,9 @@
                 ]
             }
         ],
-        "subtext": "health supplement / take vitamins"
+        "subtext": "health supplement / take vitamins",
+        "countability": "countable"
     },
-
-
     {
         "word": "support",
         "level": "elementary",
@@ -464,10 +428,9 @@
                 ]
             }
         ],
-        "subtext": "assistance / offer support"
+        "subtext": "assistance / offer support",
+        "countability": "uncountable"
     },
-
-
     {
         "word": "trust",
         "level": "elementary",
@@ -482,10 +445,9 @@
                 ]
             }
         ],
-        "subtext": "confidence / mutual trust"
+        "subtext": "confidence / mutual trust",
+        "countability": "uncountable"
     },
-
-
     {
         "word": "compromise",
         "level": "elementary",
@@ -501,10 +463,9 @@
                 ]
             }
         ],
-        "subtext": "middle ground / reach a compromise"
+        "subtext": "middle ground / reach a compromise",
+        "countability": "countable"
     },
-
-
     {
         "word": "journey",
         "level": "elementary",
@@ -520,10 +481,9 @@
                 ]
             }
         ],
-        "subtext": "travel / long journey"
+        "subtext": "travel / long journey",
+        "countability": "countable"
     },
-
-
     {
         "word": "abroad",
         "level": "elementary",
@@ -540,8 +500,6 @@
         ],
         "subtext": "overseas / travel abroad"
     },
-
-
     {
         "word": "destination",
         "level": "elementary",
@@ -557,10 +515,9 @@
                 ]
             }
         ],
-        "subtext": "final destination / reach your destination"
+        "subtext": "final destination / reach your destination",
+        "countability": "countable"
     },
-
-
     {
         "word": "flight",
         "level": "elementary",
@@ -576,10 +533,9 @@
                 ]
             }
         ],
-        "subtext": "airplane trip / book a flight"
+        "subtext": "airplane trip / book a flight",
+        "countability": "countable"
     },
-
-
     {
         "word": "luggage",
         "level": "elementary",
@@ -594,10 +550,9 @@
                 ]
             }
         ],
-        "subtext": "baggage / carry luggage"
+        "subtext": "baggage / carry luggage",
+        "countability": "uncountable"
     },
-
-
     {
         "word": "neighbourhood",
         "level": "elementary",
@@ -613,10 +568,9 @@
                 ]
             }
         ],
-        "subtext": "local area / friendly neighbourhood"
+        "subtext": "local area / friendly neighbourhood",
+        "countability": "countable"
     },
-
-
     {
         "word": "community",
         "level": "elementary",
@@ -632,10 +586,9 @@
                 ]
             }
         ],
-        "subtext": "local community / share interests"
+        "subtext": "local community / share interests",
+        "countability": "countable"
     },
-
-
     {
         "word": "engineer",
         "level": "elementary",
@@ -647,14 +600,14 @@
             {
                 "text": "A person who designs, builds, or maintains engines, machines, or public works.",
                 "examples": [
-                    "Example of engineer here."
+                    "He is a mechanical engineer.",
+                    "The engineer is checking the system."
                 ]
             }
         ],
-        "subtext": "technical professional / mechanical engineer"
+        "subtext": "technical professional / mechanical engineer",
+        "countability": "countable"
     },
-
-
     {
         "word": "lawyer",
         "level": "elementary",
@@ -666,14 +619,14 @@
             {
                 "text": "A person who practices or studies law; an attorney or a counselor.",
                 "examples": [
-                    "Example of lawyer here."
+                    "You should talk to a lawyer.",
+                    "She is a successful lawyer."
                 ]
             }
         ],
-        "subtext": "legal professional / consult a lawyer"
+        "subtext": "legal professional / consult a lawyer",
+        "countability": "countable"
     },
-
-
     {
         "word": "earthquake",
         "level": "elementary",
@@ -685,14 +638,14 @@
             {
                 "text": "A sudden violent shaking of the ground, causing great destruction.",
                 "examples": [
-                    "Example of earthquake here."
+                    "The earthquake destroyed many buildings.",
+                    "They felt the earthquake in the morning."
                 ]
             }
         ],
-        "subtext": "natural disaster / seismic activity"
+        "subtext": "natural disaster / seismic activity",
+        "countability": "countable"
     },
-
-
     {
         "word": "flood",
         "level": "elementary",
@@ -704,14 +657,14 @@
             {
                 "text": "An overflow of a large amount of water beyond its normal limits.",
                 "examples": [
-                    "Example of flood here."
+                    "The heavy rain caused a flood.",
+                    "They had to leave their home during the flood."
                 ]
             }
         ],
-        "subtext": "natural disaster / heavy rain"
+        "subtext": "natural disaster / heavy rain",
+        "countability": "countable"
     },
-
-
     {
         "word": "climate",
         "level": "elementary",
@@ -723,14 +676,14 @@
             {
                 "text": "The general weather conditions in a particular area.",
                 "examples": [
-                    "Example of climate here."
+                    "I prefer a warm climate.",
+                    "Climate change is a global issue."
                 ]
             }
         ],
-        "subtext": "weather patterns / climate change"
+        "subtext": "weather patterns / climate change",
+        "countability": "countable"
     },
-
-
     {
         "word": "environment",
         "level": "elementary",
@@ -742,53 +695,50 @@
             {
                 "text": "The surroundings or conditions in which a person, animal, or plant lives.",
                 "examples": [
-                    "Example of environment here."
+                    "We must protect the environment.",
+                    "He works in a friendly environment."
                 ]
             }
         ],
-        "subtext": "nature / protect the environment"
+        "subtext": "nature / protect the environment",
+        "countability": "countable"
     },
-
-
     {
         "word": "conservation",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🐼",
         "form": "noun",
-        "plural": "conservations",
         "definitions": [
             {
                 "text": "The protection of plants, animals, and natural areas.",
                 "examples": [
-                    "Example of conservation here."
+                    "Conservation of wildlife is very important.",
+                    "She is interested in forest conservation."
                 ]
             }
         ],
-        "subtext": "nature protection / wildlife conservation"
+        "subtext": "nature protection / wildlife conservation",
+        "countability": "uncountable"
     },
-
-
     {
         "word": "sustainability",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
         "form": "noun",
-        "plural": "sustainabilitys",
         "definitions": [
             {
                 "text": "The quality of being able to continue over a long period.",
                 "examples": [
-                    "Example of sustainability here."
+                    "The company focuses on environmental sustainability.",
+                    "Sustainability is key to our future."
                 ]
             }
         ],
-        "subtext": "eco-friendly / environmental sustainability"
+        "subtext": "eco-friendly / environmental sustainability",
+        "countability": "uncountable"
     },
-
-
-
     {
         "word": "receipt",
         "level": "elementary",
@@ -805,12 +755,8 @@
                 ]
             }
         ],
-        "countability": "countable",
-        "opposite": null
+        "countability": "countable"
     },
-
-
-
     {
         "word": "salary",
         "level": "elementary",
@@ -828,12 +774,8 @@
                 ]
             }
         ],
-        "countability": "countable",
-        "opposite": null
+        "countability": "countable"
     },
-
-
-
     {
         "word": "relationship",
         "level": "elementary",
@@ -850,12 +792,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to family life",
-        "opposite": null
+        "subtext": "related to family life"
     },
-
-
-
     {
         "word": "nationality",
         "level": "elementary",
@@ -873,12 +811,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to personal identity",
-        "opposite": null
+        "subtext": "related to personal identity"
     },
-
-
-
     {
         "word": "occupation",
         "level": "elementary",
@@ -896,12 +830,8 @@
                 ]
             }
         ],
-        "countability": "countable",
-        "opposite": null
+        "countability": "countable"
     },
-
-
-
     {
         "word": "application",
         "level": "elementary",
@@ -918,12 +848,8 @@
                 ]
             }
         ],
-        "countability": "countable",
-        "opposite": null
+        "countability": "countable"
     },
-
-
-
     {
         "word": "bill",
         "level": "elementary",
@@ -940,12 +866,8 @@
                 ]
             }
         ],
-        "countability": "countable",
-        "opposite": null
+        "countability": "countable"
     },
-
-
-
     {
         "word": "nurse",
         "level": "elementary",
@@ -962,12 +884,8 @@
                 ]
             }
         ],
-        "countability": "countable",
-        "opposite": null
+        "countability": "countable"
     },
-
-
-
     {
         "word": "chef",
         "level": "elementary",
@@ -984,12 +902,8 @@
                 ]
             }
         ],
-        "countability": "countable",
-        "opposite": null
+        "countability": "countable"
     },
-
-
-
     {
         "word": "pharmacy",
         "level": "elementary",
@@ -1006,12 +920,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to local places services",
-        "opposite": null
+        "subtext": "related to local places services"
     },
-
-
-
     {
         "word": "artist",
         "level": "elementary",
@@ -1028,12 +938,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
+        "subtext": "related to job titles professions"
     },
-
-
-
     {
         "word": "wallet",
         "level": "elementary",
@@ -1050,12 +956,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to everyday shopping",
-        "opposite": null
+        "subtext": "related to everyday shopping"
     },
-
-
-
     {
         "word": "tiger",
         "level": "elementary",
@@ -1072,12 +974,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to animals",
-        "opposite": null
+        "subtext": "related to animals"
     },
-
-
-
     {
         "word": "garage",
         "level": "elementary",
@@ -1094,12 +992,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
+        "subtext": "related to rooms of a home"
     },
-
-
-
     {
         "word": "stadium",
         "level": "elementary",
@@ -1116,12 +1010,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to places culture leisure",
-        "opposite": null
+        "subtext": "related to places culture leisure"
     },
-
-
-
     {
         "word": "ceiling",
         "level": "elementary",
@@ -1138,12 +1028,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
+        "subtext": "related to rooms of a home"
     },
-
-
-
     {
         "word": "mechanic",
         "level": "elementary",
@@ -1160,12 +1046,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to job titles professions",
-        "opposite": null
+        "subtext": "related to job titles professions"
     },
-
-
-
     {
         "word": "balcony",
         "level": "elementary",
@@ -1182,12 +1064,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "opposite": null
+        "subtext": "related to rooms of a home"
     },
-
-
-
     {
         "word": "dishwasher",
         "level": "elementary",
@@ -1204,12 +1082,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
+        "subtext": "related to household items"
     },
-
-
-
     {
         "word": "vacuum cleaner",
         "level": "elementary",
@@ -1226,12 +1100,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
+        "subtext": "related to household items"
     },
-
-
-
     {
         "word": "appointment",
         "level": "elementary",
@@ -1248,12 +1118,8 @@
                 ]
             }
         ],
-        "countability": "countable",
-        "opposite": null
+        "countability": "countable"
     },
-
-
-
     {
         "word": "curtain",
         "level": "elementary",
@@ -1270,12 +1136,8 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
+        "subtext": "related to household items"
     },
-
-
-
     {
         "word": "microwave",
         "level": "elementary",
@@ -1292,8 +1154,690 @@
             }
         ],
         "countability": "countable",
-        "subtext": "related to household items",
-        "opposite": null
+        "subtext": "related to household items"
+    },
+    {
+        "word": "half",
+        "level": "elementary",
+        "theme": "fractions_A2",
+        "emoji": "½",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "One of two equal parts of something.",
+                "examples": [
+                    "Cut the apple in half.",
+                    "She ate half of the sandwich."
+                ]
+            }
+        ],
+        "subtext": "divided by two",
+        "countability": "countable"
+    },
+    {
+        "word": "quarter",
+        "level": "elementary",
+        "theme": "fractions_A2",
+        "emoji": "¼",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "One of four equal parts of something.",
+                "examples": [
+                    "A quarter of an hour is fifteen minutes.",
+                    "The recipe calls for a quarter cup of milk."
+                ]
+            }
+        ],
+        "subtext": "divided by four",
+        "countability": "countable"
+    },
+    {
+        "word": "plus",
+        "level": "elementary",
+        "theme": "basic_arithmetic_A2",
+        "emoji": "➕",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "With the addition of.",
+                "examples": [
+                    "Two plus two is four.",
+                    "The cost is ten euros plus tax."
+                ]
+            }
+        ],
+        "subtext": "addition / and"
+    },
+    {
+        "word": "minus",
+        "level": "elementary",
+        "theme": "basic_arithmetic_A2",
+        "emoji": "➖",
+        "form": "preposition",
+        "definitions": [
+            {
+                "text": "With the subtraction of.",
+                "examples": [
+                    "Ten minus three is seven.",
+                    "The temperature was minus five degrees."
+                ]
+            }
+        ],
+        "subtext": "subtraction / less"
+    },
+    {
+        "word": "total",
+        "level": "elementary",
+        "theme": "basic_arithmetic_A2",
+        "emoji": "🟰",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The final amount after adding everything together.",
+                "examples": [
+                    "What is the total cost?",
+                    "The total number of students is twenty."
+                ]
+            }
+        ],
+        "subtext": "sum / final amount",
+        "countability": "countable"
+    },
+    {
+        "word": "gym",
+        "level": "elementary",
+        "theme": "exercise_fitness_A2",
+        "emoji": "🏋️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A place where people go to exercise.",
+                "examples": [
+                    "I go to the gym three times a week.",
+                    "The gym has new equipment."
+                ]
+            }
+        ],
+        "subtext": "fitness center / workout place",
+        "countability": "countable"
+    },
+    {
+        "word": "workout",
+        "level": "elementary",
+        "theme": "exercise_fitness_A2",
+        "emoji": "💪",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A period of physical exercise.",
+                "examples": [
+                    "I had a great workout this morning.",
+                    "He does a daily workout at home."
+                ]
+            }
+        ],
+        "subtext": "exercise session / training",
+        "countability": "countable"
+    },
+    {
+        "word": "boarding pass",
+        "level": "elementary",
+        "theme": "at_the_airport_A2",
+        "emoji": "🎫",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A document that allows you to get on a plane.",
+                "examples": [
+                    "Please show your boarding pass at the gate.",
+                    "I have my boarding pass on my phone."
+                ]
+            }
+        ],
+        "subtext": "flight ticket / travel document",
+        "countability": "countable"
+    },
+    {
+        "word": "terminal",
+        "level": "elementary",
+        "theme": "at_the_airport_A2",
+        "emoji": "🏢",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A building at an airport where passengers arrive and depart.",
+                "examples": [
+                    "Our flight leaves from Terminal 3.",
+                    "The airport has five terminals."
+                ]
+            }
+        ],
+        "subtext": "airport building / departure terminal",
+        "countability": "countable"
+    },
+    {
+        "word": "upload",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "📤",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The process of sending data from a computer to the internet.",
+                "examples": [
+                    "The upload took a long time.",
+                    "I'm waiting for the video upload to finish."
+                ]
+            }
+        ],
+        "subtext": "send data / online upload",
+        "countability": "countable",
+        "opposite": "download"
+    },
+    {
+        "word": "download",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "📥",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The process of receiving data from the internet to a computer.",
+                "examples": [
+                    "The download is complete.",
+                    "You can find the file in your downloads folder."
+                ]
+            }
+        ],
+        "subtext": "receive data / offline download",
+        "countability": "countable",
+        "opposite": "upload"
+    },
+    {
+        "word": "article",
+        "level": "elementary",
+        "theme": "news_media_A2",
+        "emoji": "📄",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A piece of writing in a newspaper, magazine, or website.",
+                "examples": [
+                    "I read an interesting article about space.",
+                    "She wrote an article for the local paper."
+                ]
+            }
+        ],
+        "subtext": "news story / report",
+        "countability": "countable"
+    },
+    {
+        "word": "headline",
+        "level": "elementary",
+        "theme": "news_media_A2",
+        "emoji": "📰",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The title of a news story, printed in large letters.",
+                "examples": [
+                    "The headline caught my attention.",
+                    "Check the morning headlines."
+                ]
+            }
+        ],
+        "subtext": "news title / front page headline",
+        "countability": "countable"
+    },
+    {
+        "word": "podcast",
+        "level": "elementary",
+        "theme": "news_media_A2",
+        "emoji": "🎙️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A digital audio program available on the internet.",
+                "examples": [
+                    "I listen to podcasts while I commute.",
+                    "This is a popular comedy podcast."
+                ]
+            }
+        ],
+        "subtext": "audio show / online radio",
+        "countability": "countable"
+    },
+    {
+        "word": "advertisement",
+        "level": "elementary",
+        "theme": "news_media_A2",
+        "emoji": "📺",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A picture, short film, or piece of text that tries to sell a product.",
+                "examples": [
+                    "I saw an advertisement for a new car.",
+                    "There are too many advertisements on TV."
+                ]
+            }
+        ],
+        "subtext": "ad / commercial",
+        "countability": "countable"
+    },
+    {
+        "word": "pollution",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🏭",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Damage to the environment caused by harmful substances.",
+                "examples": [
+                    "Air pollution is a big problem here."
+                ]
+            }
+        ],
+        "subtext": "environmental pollution / air pollution",
+        "countability": "uncountable"
+    },
+    {
+        "word": "recycling",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "♻️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The process of collecting and changing old paper, glass, plastic, etc. so it can be used again.",
+                "examples": [
+                    "Put the bottles in the recycling bin.",
+                    "Recycling helps protect the environment."
+                ]
+            }
+        ],
+        "subtext": "waste management / eco-friendly",
+        "countability": "uncountable"
+    },
+    {
+        "word": "energy",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "⚡",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Power derived from physical or chemical resources to provide light and heat.",
+                "examples": [
+                    "We need to save energy at home.",
+                    "Solar energy is good for the environment."
+                ]
+            }
+        ],
+        "subtext": "power / electricity",
+        "countability": "uncountable"
+    },
+    {
+        "word": "nature",
+        "level": "elementary",
+        "theme": "animals_nature_A2",
+        "emoji": "🌿",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The physical world and everything in it, such as plants, animals, and mountains.",
+                "examples": [
+                    "I love spending time in nature.",
+                    "We should respect nature."
+                ]
+            }
+        ],
+        "subtext": "natural world / wildlife",
+        "countability": "uncountable"
+    },
+    {
+        "word": "forest",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "emoji": "🌲",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A large area of land covered with trees.",
+                "examples": [
+                    "They went for a walk in the forest.",
+                    "The forest is home to many animals."
+                ]
+            }
+        ],
+        "subtext": "woods / jungle",
+        "countability": "countable"
+    },
+    {
+        "word": "ocean",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "emoji": "🌊",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The very large area of salt water that covers most of the Earth's surface.",
+                "examples": [
+                    "The Pacific is the largest ocean.",
+                    "The ocean is very deep."
+                ]
+            }
+        ],
+        "subtext": "sea / deep blue",
+        "countability": "countable"
+    },
+    {
+        "word": "island",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "emoji": "🏝️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A piece of land completely surrounded by water.",
+                "examples": [
+                    "They live on a small island.",
+                    "We took a boat to the island."
+                ]
+            }
+        ],
+        "subtext": "land in water / tropical island",
+        "countability": "countable"
+    },
+    {
+        "word": "mountain",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "emoji": "⛰️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A very high hill.",
+                "examples": [
+                    "They climbed the mountain.",
+                    "The mountain peak is covered in snow."
+                ]
+            }
+        ],
+        "subtext": "high hill / peak",
+        "countability": "countable"
+    },
+    {
+        "word": "valley",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "emoji": "🏞️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An area of low land between hills or mountains.",
+                "examples": [
+                    "The village is in a beautiful valley.",
+                    "A river flows through the valley."
+                ]
+            }
+        ],
+        "subtext": "low land / canyon",
+        "countability": "countable"
+    },
+    {
+        "word": "desert",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "emoji": "🏜️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A large, dry area of land with very few plants.",
+                "examples": [
+                    "The Sahara is a famous desert.",
+                    "It is very hot in the desert."
+                ]
+            }
+        ],
+        "subtext": "dry land / sandy desert",
+        "countability": "countable"
+    },
+    {
+        "word": "coast",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "emoji": "🏖️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The part of the land next to the sea.",
+                "examples": [
+                    "They live on the south coast.",
+                    "We walked along the coast."
+                ]
+            }
+        ],
+        "subtext": "seashore / coastline",
+        "countability": "countable"
+    },
+    {
+        "word": "border",
+        "level": "elementary",
+        "theme": "places_geography_A2",
+        "emoji": "🚧",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The line that separates two countries.",
+                "examples": [
+                    "We crossed the border into Spain.",
+                    "The river forms the border between the two nations."
+                ]
+            }
+        ],
+        "subtext": "boundary / frontier",
+        "countability": "countable"
+    },
+    {
+        "word": "capital",
+        "level": "elementary",
+        "theme": "places_geography_A2",
+        "emoji": "🏛️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The city where the government of a country is located.",
+                "examples": [
+                    "Paris is the capital of France.",
+                    "London is a major capital city."
+                ]
+            }
+        ],
+        "subtext": "main city / government seat",
+        "countability": "countable"
+    },
+    {
+        "word": "region",
+        "level": "elementary",
+        "theme": "places_geography_A2",
+        "emoji": "🗺️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A particular area in a country or the world.",
+                "examples": [
+                    "This region is famous for its wine.",
+                    "The northern region of the country is very cold."
+                ]
+            }
+        ],
+        "subtext": "area / district",
+        "countability": "countable"
+    },
+    {
+        "word": "population",
+        "level": "elementary",
+        "theme": "society_politics_A2",
+        "emoji": "👨‍👩‍👧‍👦",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The number of people living in a particular area.",
+                "examples": [
+                    "The world population is growing.",
+                    "The city has a population of over one million."
+                ]
+            }
+        ],
+        "subtext": "number of people / inhabitants",
+        "countability": "countable"
+    },
+    {
+        "word": "highway",
+        "level": "elementary",
+        "theme": "transport_travel_A2",
+        "emoji": "🛣️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A main road, especially one connecting major towns or cities.",
+                "examples": [
+                    "We drove along the highway for three hours.",
+                    "The highway was very busy this morning."
+                ]
+            }
+        ],
+        "subtext": "main road / motorway",
+        "countability": "countable"
+    },
+    {
+        "word": "driving license",
+        "level": "elementary",
+        "theme": "transport_travel_A2",
+        "emoji": "🪪",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An official document that shows you are qualified to drive a vehicle.",
+                "examples": [
+                    "You must carry your driving license while driving.",
+                    "He passed his test and got his driving license."
+                ]
+            }
+        ],
+        "subtext": "driver's permit / ID",
+        "countability": "countable"
+    },
+    {
+        "word": "roundabout",
+        "level": "elementary",
+        "theme": "transport_travel_A2",
+        "emoji": "🔄",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A place where three or more roads join and traffic must go around a central island.",
+                "examples": [
+                    "Take the second exit at the roundabout.",
+                    "There is a lot of traffic at the roundabout."
+                ]
+            }
+        ],
+        "subtext": "traffic circle / intersection",
+        "countability": "countable"
+    },
+    {
+        "word": "parking lot",
+        "level": "elementary",
+        "theme": "transport_travel_A2",
+        "emoji": "🅿️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An area where cars can be left.",
+                "examples": [
+                    "The parking lot was full.",
+                    "Meet me in the parking lot behind the building."
+                ]
+            }
+        ],
+        "subtext": "car park / parking area",
+        "countability": "countable"
+    },
+    {
+        "word": "traffic jam",
+        "level": "elementary",
+        "theme": "transport_travel_A2",
+        "emoji": "🚗🚙🚕",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A large number of vehicles close together and unable to move or moving very slowly.",
+                "examples": [
+                    "I was late because of a traffic jam.",
+                    "We were stuck in a traffic jam for an hour."
+                ]
+            }
+        ],
+        "subtext": "heavy traffic / congestion",
+        "countability": "countable"
+    },
+    {
+        "word": "insurance",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🛡️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An agreement in which you pay a company money and they pay your costs if you have an accident, injury, etc.",
+                "examples": [
+                    "Do you have car insurance?",
+                    "Health insurance is very expensive."
+                ]
+            }
+        ],
+        "subtext": "protection / coverage",
+        "countability": "uncountable"
+    },
+    {
+        "word": "pension",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "👴",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An amount of money paid regularly by the government or a private company to a person who does not work anymore because they are too old or ill.",
+                "examples": [
+                    "He lives on a small pension.",
+                    "She will get her pension when she reaches sixty-five."
+                ]
+            }
+        ],
+        "subtext": "retirement fund / old age pay",
+        "countability": "countable"
+    },
+    {
+        "word": "tax",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💸",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Money paid to the government that is used to pay for public services.",
+                "examples": [
+                    "How much income tax do you pay?",
+                    "The price includes tax."
+                ]
+            }
+        ],
+        "subtext": "government levy / duty",
+        "countability": "countable"
     }
     ];
     const lang = "en";

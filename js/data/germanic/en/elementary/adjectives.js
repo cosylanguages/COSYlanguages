@@ -19,8 +19,6 @@
         "comparative": "more athletic",
         "superlative": "the most athletic"
     },
-
-
     {
         "word": "overweight",
         "level": "elementary",
@@ -40,8 +38,6 @@
         "comparative": "more overweight",
         "superlative": "the most overweight"
     },
-
-
     {
         "word": "convenient",
         "level": "elementary",
@@ -61,8 +57,6 @@
         "comparative": "more convenient",
         "superlative": "the most convenient"
     },
-
-
     {
         "word": "stressful",
         "level": "elementary",
@@ -82,8 +76,6 @@
         "comparative": "more stressful",
         "superlative": "the most stressful"
     },
-
-
     {
         "word": "practical",
         "level": "elementary",
@@ -103,12 +95,10 @@
         "comparative": "more practical",
         "superlative": "the most practical"
     },
-
-
     {
         "word": "popular",
         "level": "elementary",
-        "theme": "quantity_degree_A2",
+        "theme": "condition_state_A2",
         "emoji": "🌟",
         "form": "adjective",
         "opposite": "unpopular",
@@ -116,7 +106,8 @@
             {
                 "text": "Liked or enjoyed by many people.",
                 "examples": [
-                    "This restaurant is very popular."
+                    "This restaurant is very popular.",
+                    "The new café near the office is very popular."
                 ]
             }
         ],
@@ -124,8 +115,6 @@
         "comparative": "more popular",
         "superlative": "the most popular"
     },
-
-
     {
         "word": "flexible",
         "level": "elementary",
@@ -145,8 +134,6 @@
         "comparative": "more flexible",
         "superlative": "the most flexible"
     },
-
-
     {
         "word": "organised",
         "level": "elementary",
@@ -166,8 +153,6 @@
         "comparative": "more organised",
         "superlative": "the most organised"
     },
-
-
     {
         "word": "professional",
         "level": "elementary",
@@ -187,8 +172,6 @@
         "comparative": "more professional",
         "superlative": "the most professional"
     },
-
-
     {
         "word": "responsible",
         "level": "elementary",
@@ -208,8 +191,6 @@
         "comparative": "more responsible",
         "superlative": "the most responsible"
     },
-
-
     {
         "word": "experienced",
         "level": "elementary",
@@ -229,8 +210,6 @@
         "comparative": "more experienced",
         "superlative": "the most experienced"
     },
-
-
     {
         "word": "qualified",
         "level": "elementary",
@@ -250,8 +229,6 @@
         "comparative": "more qualified",
         "superlative": "the most qualified"
     },
-
-
     {
         "word": "available",
         "level": "elementary",
@@ -271,8 +248,6 @@
         "comparative": "more available",
         "superlative": "the most available"
     },
-
-
     {
         "word": "successful",
         "level": "elementary",
@@ -292,8 +267,6 @@
         "comparative": "more successful",
         "superlative": "the most successful"
     },
-
-
     {
         "word": "ambitious",
         "level": "elementary",
@@ -313,8 +286,6 @@
         "comparative": "more ambitious",
         "superlative": "the most ambitious"
     },
-
-
     {
         "word": "productive",
         "level": "elementary",
@@ -334,8 +305,6 @@
         "comparative": "more productive",
         "superlative": "the most productive"
     },
-
-
     {
         "word": "reliable",
         "level": "elementary",
@@ -355,8 +324,6 @@
         "comparative": "more reliable",
         "superlative": "the most reliable"
     },
-
-
     {
         "word": "independent",
         "level": "elementary",
@@ -376,8 +343,6 @@
         "comparative": "more independent",
         "superlative": "the most independent"
     },
-
-
     {
         "word": "affordable",
         "level": "elementary",
@@ -397,8 +362,6 @@
         "comparative": "more affordable",
         "superlative": "the most affordable"
     },
-
-
     {
         "word": "worth",
         "level": "elementary",
@@ -418,8 +381,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "broke",
         "level": "elementary",
@@ -439,8 +400,6 @@
         "comparative": "more broke",
         "superlative": "the most broke"
     },
-
-
     {
         "word": "stressed",
         "level": "elementary",
@@ -450,9 +409,10 @@
         "opposite": "relaxed",
         "definitions": [
             {
-                "text": "Feeling worried and tense.",
+                "text": "Feeling worried and tense from pressure.",
                 "examples": [
-                    "She feels stressed about the upcoming presentation."
+                    "She feels stressed about the upcoming presentation.",
+                    "She feels stressed before every deadline."
                 ]
             }
         ],
@@ -460,8 +420,6 @@
         "comparative": "more stressed",
         "superlative": "the most stressed"
     },
-
-
     {
         "word": "supportive",
         "level": "elementary",
@@ -481,8 +439,6 @@
         "comparative": "more supportive",
         "superlative": "the most supportive"
     },
-
-
     {
         "word": "confident",
         "level": "elementary",
@@ -492,9 +448,10 @@
         "opposite": "insecure",
         "definitions": [
             {
-                "text": "Sure of one's own ability.",
+                "text": "Feeling sure of your own abilities.",
                 "examples": [
-                    "He presents with confidence and is very confident."
+                    "He presents with confidence and is very confident.",
+                    "She is very confident in client presentations."
                 ]
             }
         ],
@@ -502,8 +459,6 @@
         "comparative": "more confident",
         "superlative": "the most confident"
     },
-
-
     {
         "word": "sociable",
         "level": "elementary",
@@ -523,8 +478,6 @@
         "comparative": "more sociable",
         "superlative": "the most sociable"
     },
-
-
     {
         "word": "traditional",
         "level": "elementary",
@@ -544,8 +497,6 @@
         "comparative": "more traditional",
         "superlative": "the most traditional"
     },
-
-
     {
         "word": "strange",
         "level": "elementary",
@@ -557,7 +508,8 @@
             {
                 "text": "Unusual or surprising in a way that is hard to understand.",
                 "examples": [
-                    "The email from the client sounded very strange."
+                    "The email from the client sounded very strange.",
+                    "He heard a strange noise."
                 ]
             }
         ],
@@ -565,8 +517,6 @@
         "comparative": "stranger",
         "superlative": "the strangest"
     },
-
-
     {
         "word": "typical",
         "level": "elementary",
@@ -586,8 +536,6 @@
         "comparative": "more typical",
         "superlative": "the most typical"
     },
-
-
     {
         "word": "certain",
         "level": "elementary",
@@ -607,8 +555,6 @@
         "comparative": "more certain",
         "superlative": "the most certain"
     },
-
-
     {
         "word": "complicated",
         "level": "elementary",
@@ -628,8 +574,6 @@
         "comparative": "more complicated",
         "superlative": "the most complicated"
     },
-
-
     {
         "word": "direct",
         "level": "elementary",
@@ -649,8 +593,6 @@
         "comparative": "more direct",
         "superlative": "the most direct"
     },
-
-
     {
         "word": "daily",
         "level": "elementary",
@@ -670,8 +612,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "recent",
         "level": "elementary",
@@ -691,8 +631,6 @@
         "comparative": "more recent",
         "superlative": "the most recent"
     },
-
-
     {
         "word": "current",
         "level": "elementary",
@@ -712,8 +650,6 @@
         "comparative": null,
         "superlative": null
     },
-
-
     {
         "word": "future",
         "level": "elementary",
@@ -733,16 +669,13 @@
         "comparative": null,
         "superlative": null
     },
-
-
-
     {
         "word": "ordinary",
         "level": "elementary",
         "theme": "condition_state_A2",
+        "emoji": "😐",
         "form": "adjective",
         "opposite": "special",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Normal or usual; not special.",
@@ -753,12 +686,8 @@
         ],
         "subtext": "ordinary day / ordinary life / nothing ordinary",
         "comparative": "more ordinary",
-        "superlative": "the most ordinary",
-        "emoji": "😐"
+        "superlative": "the most ordinary"
     },
-
-
-
     {
         "word": "satisfied",
         "level": "elementary",
@@ -766,8 +695,6 @@
         "emoji": "😌",
         "form": "adjective",
         "opposite": "dissatisfied",
-        "oppositeEmoji": "😒",
-        "subtext": "content, pleased / feel satisfied / satisfied with",
         "definitions": [
             {
                 "text": "Pleased because you have got what you wanted.",
@@ -776,12 +703,10 @@
                 ]
             }
         ],
+        "subtext": "content, pleased / feel satisfied / satisfied with",
         "comparative": "more satisfied",
         "superlative": "the most satisfied"
     },
-
-
-
     {
         "word": "useful",
         "level": "elementary",
@@ -789,8 +714,6 @@
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "useless",
-        "oppositeEmoji": "🗑️",
-        "subtext": "helpful, practical",
         "definitions": [
             {
                 "text": "Helpful; having a practical purpose.",
@@ -799,12 +722,10 @@
                 ]
             }
         ],
+        "subtext": "helpful, practical",
         "comparative": "more useful",
         "superlative": "the most useful"
     },
-
-
-
     {
         "word": "dissatisfied",
         "level": "elementary",
@@ -812,8 +733,6 @@
         "emoji": "😒",
         "form": "adjective",
         "opposite": "satisfied",
-        "oppositeEmoji": "😌",
-        "subtext": "unhappy, not content / dissatisfied customer / feel dissatisfied",
         "definitions": [
             {
                 "text": "Not pleased with something.",
@@ -822,19 +741,17 @@
                 ]
             }
         ],
+        "subtext": "unhappy, not content / dissatisfied customer / feel dissatisfied",
         "comparative": "more dissatisfied",
         "superlative": "the most dissatisfied"
     },
-
-
-
     {
         "word": "excellent",
         "level": "elementary",
         "theme": "condition_state_A2",
+        "emoji": "🏆",
         "form": "adjective",
-        "opposite": "good",
-        "oppositeEmoji": "📉",
+        "opposite": "poor",
         "definitions": [
             {
                 "text": "Extremely good; of a very high standard.",
@@ -845,12 +762,8 @@
         ],
         "subtext": "excellent work / excellent results / absolutely excellent",
         "comparative": "more excellent",
-        "superlative": "the most excellent",
-        "emoji": "🏆"
+        "superlative": "the most excellent"
     },
-
-
-
     {
         "word": "imperfect",
         "level": "elementary",
@@ -858,8 +771,6 @@
         "emoji": "🩹",
         "form": "adjective",
         "opposite": "perfect",
-        "oppositeEmoji": "✨",
-        "subtext": "flawed / imperfect system / imperfect world",
         "definitions": [
             {
                 "text": "Not perfect; having some faults or mistakes.",
@@ -868,19 +779,17 @@
                 ]
             }
         ],
+        "subtext": "flawed / imperfect system / imperfect world",
         "comparative": "more imperfect",
         "superlative": "the most imperfect"
     },
-
-
-
     {
         "word": "useless",
         "level": "elementary",
         "theme": "condition_state_A2",
+        "emoji": "🗑️",
         "form": "adjective",
         "opposite": "useful",
-        "oppositeEmoji": "🛠️",
         "definitions": [
             {
                 "text": "Without any useful value; not helpful.",
@@ -891,19 +800,15 @@
         ],
         "subtext": "completely useless / prove useless / a useless idea",
         "comparative": "more useless",
-        "superlative": "the most useless",
-        "emoji": "🗑️"
+        "superlative": "the most useless"
     },
-
-
-
     {
         "word": "necessary",
         "level": "elementary",
         "theme": "condition_state_A2",
+        "emoji": "❗",
         "form": "adjective",
         "opposite": "unnecessary",
-        "oppositeEmoji": "🍃",
         "definitions": [
             {
                 "text": "Needed; required in order to do something.",
@@ -914,12 +819,8 @@
         ],
         "subtext": "absolutely necessary / if necessary / necessary to do",
         "comparative": "more necessary",
-        "superlative": "the most necessary",
-        "emoji": "❗"
+        "superlative": "the most necessary"
     },
-
-
-
     {
         "word": "unnecessary",
         "level": "elementary",
@@ -927,8 +828,6 @@
         "emoji": "🍃",
         "form": "adjective",
         "opposite": "necessary",
-        "oppositeEmoji": "❗",
-        "subtext": "not needed / unnecessary expense / absolutely unnecessary",
         "definitions": [
             {
                 "text": "Not needed; more than is needed.",
@@ -937,19 +836,17 @@
                 ]
             }
         ],
+        "subtext": "not needed / unnecessary expense / absolutely unnecessary",
         "comparative": "more unnecessary",
         "superlative": "the most unnecessary"
     },
-
-
-
     {
         "word": "possible",
         "level": "elementary",
         "theme": "condition_state_A2",
+        "emoji": "👍",
         "form": "adjective",
         "opposite": "impossible",
-        "oppositeEmoji": "🚫",
         "definitions": [
             {
                 "text": "Able to happen or be achieved.",
@@ -960,19 +857,15 @@
         ],
         "subtext": "as soon as possible / it is possible / make possible",
         "comparative": "more possible",
-        "superlative": "the most possible",
-        "emoji": "👍"
+        "superlative": "the most possible"
     },
-
-
-
     {
         "word": "impossible",
         "level": "elementary",
         "theme": "condition_state_A2",
+        "emoji": "🚫",
         "form": "adjective",
         "opposite": "possible",
-        "oppositeEmoji": "✅",
         "definitions": [
             {
                 "text": "Not able to happen or be done.",
@@ -983,35 +876,8 @@
         ],
         "subtext": "virtually impossible / make impossible / nearly impossible",
         "comparative": "more impossible",
-        "superlative": "the most impossible",
-        "emoji": "🚫"
+        "superlative": "the most impossible"
     },
-
-
-
-    {
-        "word": "popular",
-        "level": "elementary",
-        "theme": "condition_state_A2",
-        "form": "adjective",
-        "opposite": "unpopular",
-        "oppositeEmoji": "👎",
-        "definitions": [
-            {
-                "text": "Liked by many people.",
-                "examples": [
-                    "The new café near the office is very popular."
-                ]
-            }
-        ],
-        "subtext": "very popular / popular choice / most popular",
-        "comparative": "more popular",
-        "superlative": "the most popular",
-        "emoji": "🌟"
-    },
-
-
-
     {
         "word": "unpopular",
         "level": "elementary",
@@ -1019,8 +885,6 @@
         "emoji": "👎",
         "form": "adjective",
         "opposite": "popular",
-        "oppositeEmoji": "🌟",
-        "subtext": "disliked / unpopular decision / become unpopular",
         "definitions": [
             {
                 "text": "Not liked by many people.",
@@ -1029,19 +893,17 @@
                 ]
             }
         ],
+        "subtext": "disliked / unpopular decision / become unpopular",
         "comparative": "more unpopular",
         "superlative": "the most unpopular"
     },
-
-
-
     {
         "word": "similar",
         "level": "elementary",
         "theme": "condition_state_A2",
+        "emoji": "👯",
         "form": "adjective",
         "opposite": "different",
-        "oppositeEmoji": "🌓",
         "definitions": [
             {
                 "text": "Almost the same; having many shared features.",
@@ -1052,12 +914,8 @@
         ],
         "subtext": "very similar / similar to / similar results",
         "comparative": "more similar",
-        "superlative": "the most similar",
-        "emoji": "👯"
+        "superlative": "the most similar"
     },
-
-
-
     {
         "word": "dishonest",
         "level": "elementary",
@@ -1065,8 +923,6 @@
         "emoji": "🤥",
         "form": "adjective",
         "opposite": "honest",
-        "oppositeEmoji": "🤝",
-        "subtext": "lying, deceitful / dishonest behavior / completely dishonest",
         "definitions": [
             {
                 "text": "Not honest; intended to deceive.",
@@ -1075,12 +931,10 @@
                 ]
             }
         ],
+        "subtext": "lying, deceitful / dishonest behavior / completely dishonest",
         "comparative": "more dishonest",
         "superlative": "the most dishonest"
     },
-
-
-
     {
         "word": "unfriendly",
         "level": "elementary",
@@ -1088,8 +942,6 @@
         "emoji": "😠",
         "form": "adjective",
         "opposite": "friendly",
-        "oppositeEmoji": "😊",
-        "subtext": "mean / an unfriendly person / quite unfriendly",
         "definitions": [
             {
                 "text": "Not friendly.",
@@ -1098,12 +950,10 @@
                 ]
             }
         ],
+        "subtext": "mean / an unfriendly person / quite unfriendly",
         "comparative": "unfriendlier",
         "superlative": "the unfriendliest"
     },
-
-
-
     {
         "word": "impatient",
         "level": "elementary",
@@ -1111,8 +961,6 @@
         "emoji": "⌚",
         "form": "adjective",
         "opposite": "patient",
-        "oppositeEmoji": "🧘",
-        "subtext": "restless / become impatient / don't be impatient",
         "definitions": [
             {
                 "text": "Easily annoyed by someone's mistakes or because you have to wait.",
@@ -1121,12 +969,10 @@
                 ]
             }
         ],
+        "subtext": "restless / become impatient / don't be impatient",
         "comparative": "more impatient",
         "superlative": "the most impatient"
     },
-
-
-
     {
         "word": "impolite",
         "level": "elementary",
@@ -1134,8 +980,6 @@
         "emoji": "😛",
         "form": "adjective",
         "opposite": "polite",
-        "oppositeEmoji": "🤝",
-        "subtext": "rude / an impolite answer / it is impolite",
         "definitions": [
             {
                 "text": "Not polite; rude.",
@@ -1144,12 +988,10 @@
                 ]
             }
         ],
+        "subtext": "rude / an impolite answer / it is impolite",
         "comparative": "more impolite",
         "superlative": "the most impolite"
     },
-
-
-
     {
         "word": "fake",
         "level": "elementary",
@@ -1157,8 +999,6 @@
         "emoji": "🎭",
         "form": "adjective",
         "opposite": "real",
-        "oppositeEmoji": "💎",
-        "subtext": "false, artificial / fake money / a fake smile",
         "definitions": [
             {
                 "text": "Not real, but made to look or seem real.",
@@ -1167,12 +1007,10 @@
                 ]
             }
         ],
+        "subtext": "false, artificial / fake money / a fake smile",
         "comparative": "more fake",
         "superlative": "the most fake"
     },
-
-
-
     {
         "word": "unlucky",
         "level": "elementary",
@@ -1180,8 +1018,6 @@
         "emoji": "😿",
         "form": "adjective",
         "opposite": "lucky",
-        "oppositeEmoji": "🍀",
-        "subtext": "unfortunate / feel unlucky / an unlucky day",
         "definitions": [
             {
                 "text": "Having or bringing bad luck.",
@@ -1190,12 +1026,10 @@
                 ]
             }
         ],
+        "subtext": "unfortunate / feel unlucky / an unlucky day",
         "comparative": "unluckier",
         "superlative": "the unluckiest"
     },
-
-
-
     {
         "word": "unable",
         "level": "elementary",
@@ -1203,8 +1037,6 @@
         "emoji": "❌",
         "form": "adjective",
         "opposite": "able",
-        "oppositeEmoji": "💪",
-        "subtext": "incapable / unable to do / feel unable",
         "definitions": [
             {
                 "text": "Not able to do something.",
@@ -1213,12 +1045,10 @@
                 ]
             }
         ],
+        "subtext": "incapable / unable to do / feel unable",
         "comparative": null,
         "superlative": null
     },
-
-
-
     {
         "word": "unfair",
         "level": "elementary",
@@ -1226,8 +1056,6 @@
         "emoji": "⚖️",
         "form": "adjective",
         "opposite": "fair",
-        "oppositeEmoji": "🤝",
-        "subtext": "unjust / unfair treatment / very unfair",
         "definitions": [
             {
                 "text": "Not treating people in an equal or right way.",
@@ -1236,41 +1064,17 @@
                 ]
             }
         ],
+        "subtext": "unjust / unfair treatment / very unfair",
         "comparative": "more unfair",
         "superlative": "the most unfair"
     },
-
-
-
-    {
-        "word": "strange",
-        "level": "elementary",
-        "theme": "condition_state_A2",
-        "emoji": "❓",
-        "form": "adjective",
-        "opposite": "normal",
-        "definitions": [
-            {
-                "text": "Unusual or unexpected.",
-                "examples": [
-                    "He heard a strange noise."
-                ]
-            }
-        ],
-        "subtext": "unusual / a strange man / look strange",
-        "comparative": "stranger",
-        "superlative": "the strangest"
-    },
-
-
-
     {
         "word": "wild",
         "level": "elementary",
         "theme": "animals_nature_A2",
         "emoji": "🦁",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "tame",
         "definitions": [
             {
                 "text": "Living or growing in nature; not controlled by humans.",
@@ -1283,18 +1087,13 @@
         "comparative": "wilder",
         "superlative": "the wildest"
     },
-
-
-
     {
         "word": "tame",
         "level": "elementary",
         "theme": "animals_nature_A2",
         "emoji": "🐈",
         "form": "adjective",
-        "opposite": null,
-        "oppositeEmoji": "🦁",
-        "subtext": "domesticated / tame animal / very tame",
+        "opposite": "wild",
         "definitions": [
             {
                 "text": "Not wild; comfortable around humans.",
@@ -1303,12 +1102,10 @@
                 ]
             }
         ],
+        "subtext": "domesticated / tame animal / very tame",
         "comparative": "tamer",
         "superlative": "the tamest"
     },
-
-
-
     {
         "word": "wise",
         "level": "elementary",
@@ -1328,9 +1125,6 @@
         "comparative": "wiser",
         "superlative": "the wisest"
     },
-
-
-
     {
         "word": "foolish",
         "level": "elementary",
@@ -1338,8 +1132,6 @@
         "emoji": "🤡",
         "form": "adjective",
         "opposite": "wise",
-        "oppositeEmoji": "🦉",
-        "subtext": "silly, stupid / foolish mistake / feel foolish",
         "definitions": [
             {
                 "text": "Silly or not sensible.",
@@ -1348,12 +1140,10 @@
                 ]
             }
         ],
+        "subtext": "silly, stupid / foolish mistake / feel foolish",
         "comparative": "more foolish",
         "superlative": "the most foolish"
     },
-
-
-
     {
         "word": "energetic",
         "level": "elementary",
@@ -1361,8 +1151,6 @@
         "emoji": "⚡",
         "form": "adjective",
         "opposite": "tired",
-        "oppositeEmoji": "😫",
-        "subtext": "active, lively / feel energetic / very energetic",
         "definitions": [
             {
                 "text": "Having or involving a lot of energy.",
@@ -1371,12 +1159,10 @@
                 ]
             }
         ],
+        "subtext": "active, lively / feel energetic / very energetic",
         "comparative": "more energetic",
         "superlative": "the most energetic"
     },
-
-
-
     {
         "word": "brunette",
         "level": "elementary",
@@ -1384,8 +1170,6 @@
         "emoji": "👩🏻",
         "form": "adjective",
         "opposite": "blonde",
-        "oppositeEmoji": "👱‍♀️",
-        "subtext": "dark-haired / a brunette woman",
         "definitions": [
             {
                 "text": "Having dark brown hair.",
@@ -1394,12 +1178,10 @@
                 ]
             }
         ],
+        "subtext": "dark-haired / a brunette woman",
         "comparative": null,
         "superlative": null
     },
-
-
-
     {
         "word": "careless",
         "level": "elementary",
@@ -1407,8 +1189,6 @@
         "emoji": "🤷",
         "form": "adjective",
         "opposite": "careful",
-        "oppositeEmoji": "⚠️",
-        "subtext": "thoughtless, reckless / a careless mistake / be careless",
         "definitions": [
             {
                 "text": "Not giving enough attention to what you are doing.",
@@ -1417,58 +1197,10 @@
                 ]
             }
         ],
+        "subtext": "thoughtless, reckless / a careless mistake / be careless",
         "comparative": "more careless",
         "superlative": "the most careless"
     },
-
-
-
-    {
-        "word": "stressed",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
-        "form": "adjective",
-        "opposite": "relaxed",
-        "oppositeEmoji": "😌",
-        "subtext": "tense / feel stressed / very stressed / stressed out",
-        "definitions": [
-            {
-                "text": "Feeling worried and tense from pressure.",
-                "examples": [
-                    "She feels stressed before every deadline."
-                ]
-            }
-        ],
-        "comparative": "more stressed",
-        "superlative": "the most stressed",
-        "emoji": "😫"
-    },
-
-
-
-    {
-        "word": "confident",
-        "level": "elementary",
-        "theme": "condition_state_A2",
-        "form": "adjective",
-        "opposite": "nervous",
-        "oppositeEmoji": "😟",
-        "definitions": [
-            {
-                "text": "Feeling sure of your own abilities.",
-                "examples": [
-                    "She is very confident in client presentations."
-                ]
-            }
-        ],
-        "subtext": "feel confident / self-confident / very confident",
-        "comparative": "more confident",
-        "superlative": "the most confident",
-        "emoji": "🦁"
-    },
-
-
-
     {
         "word": "previous",
         "level": "elementary",
@@ -1476,8 +1208,6 @@
         "emoji": "🔙",
         "form": "adjective",
         "opposite": "next",
-        "oppositeEmoji": "🔜",
-        "subtext": "former, earlier / previous job / previous week",
         "definitions": [
             {
                 "text": "Happening or existing before something or someone else.",
@@ -1486,8 +1216,729 @@
                 ]
             }
         ],
+        "subtext": "former, earlier / previous job / previous week",
         "comparative": null,
         "superlative": null
+    },
+    {
+        "word": "ancient",
+        "level": "elementary",
+        "theme": "past_time_A2",
+        "emoji": "🏛️",
+        "form": "adjective",
+        "opposite": "modern",
+        "definitions": [
+            {
+                "text": "Very old; belonging to the past.",
+                "examples": [
+                    "They visited the ancient ruins.",
+                    "History is full of ancient civilizations."
+                ]
+            }
+        ],
+        "subtext": "very old / from long ago",
+        "comparative": "more ancient",
+        "superlative": "the most ancient"
+    },
+    {
+        "word": "basic",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🧱",
+        "form": "adjective",
+        "opposite": "advanced",
+        "definitions": [
+            {
+                "text": "Simple and most important; being the main part of something.",
+                "examples": [
+                    "I have a basic understanding of French.",
+                    "The hotel provides basic facilities."
+                ]
+            }
+        ],
+        "subtext": "simple / fundamental",
+        "comparative": "more basic",
+        "superlative": "the most basic"
+    },
+    {
+        "word": "calm",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "🧘",
+        "form": "adjective",
+        "opposite": "nervous",
+        "definitions": [
+            {
+                "text": "Peaceful, quiet, and without worry.",
+                "examples": [
+                    "Please try to stay calm.",
+                    "The sea was very calm today."
+                ]
+            }
+        ],
+        "subtext": "peaceful / quiet",
+        "comparative": "calmer",
+        "superlative": "the calmest"
+    },
+    {
+        "word": "delicious",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "😋",
+        "form": "adjective",
+        "opposite": "disgusting",
+        "definitions": [
+            {
+                "text": "Having a very pleasant taste or smell.",
+                "examples": [
+                    "This cake is delicious.",
+                    "We had a delicious meal at the restaurant."
+                ]
+            }
+        ],
+        "subtext": "tasty / yummy",
+        "comparative": "more delicious",
+        "superlative": "the most delicious"
+    },
+    {
+        "word": "empty",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🫙",
+        "form": "adjective",
+        "opposite": "full",
+        "definitions": [
+            {
+                "text": "Containing nothing.",
+                "examples": [
+                    "The box is empty.",
+                    "The streets were empty late at night."
+                ]
+            }
+        ],
+        "subtext": "containing nothing / vacant",
+        "comparative": "emptier",
+        "superlative": "the emptiest"
+    },
+    {
+        "word": "formal",
+        "level": "elementary",
+        "theme": "customs_traditions_A2",
+        "emoji": "🤵",
+        "form": "adjective",
+        "opposite": "informal",
+        "definitions": [
+            {
+                "text": "Public or official; following fixed rules for doing something.",
+                "examples": [
+                    "He wore a formal suit to the wedding.",
+                    "The letter was written in a formal style."
+                ]
+            }
+        ],
+        "subtext": "official / serious",
+        "comparative": "more formal",
+        "superlative": "the most formal"
+    },
+    {
+        "word": "general",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🌐",
+        "form": "adjective",
+        "opposite": "specific",
+        "definitions": [
+            {
+                "text": "Involving or relating to most people, things, or cases.",
+                "examples": [
+                    "There is a general feeling of happiness.",
+                    "I gave a general description of the man."
+                ]
+            }
+        ],
+        "subtext": "common / overall",
+        "comparative": "more general",
+        "superlative": "the most general"
+    },
+    {
+        "word": "huge",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "🐘",
+        "form": "adjective",
+        "opposite": "tiny",
+        "definitions": [
+            {
+                "text": "Extremely large in size or amount.",
+                "examples": [
+                    "They live in a huge house.",
+                    "The project was a huge success."
+                ]
+            }
+        ],
+        "subtext": "very large / enormous",
+        "comparative": "huger",
+        "superlative": "the hugest"
+    },
+    {
+        "word": "internal",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🏢",
+        "form": "adjective",
+        "opposite": "external",
+        "definitions": [
+            {
+                "text": "Inside something.",
+                "examples": [
+                    "The internal doors are made of wood.",
+                    "The company is having an internal meeting."
+                ]
+            }
+        ],
+        "subtext": "inside / inner",
+        "comparative": "more internal",
+        "superlative": "the most internal"
+    },
+    {
+        "word": "junior",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👶",
+        "form": "adjective",
+        "opposite": "senior",
+        "definitions": [
+            {
+                "text": "Having a low rank in an organization.",
+                "examples": [
+                    "He is a junior manager.",
+                    "She has a junior position in the company."
+                ]
+            }
+        ],
+        "subtext": "lower rank / younger",
+        "comparative": "more junior",
+        "superlative": "the most junior"
+    },
+    {
+        "word": "local",
+        "level": "elementary",
+        "theme": "neighbourhood_local_A2",
+        "emoji": "🏘️",
+        "form": "adjective",
+        "opposite": "national",
+        "definitions": [
+            {
+                "text": "Relating to a particular area, city, or town.",
+                "examples": [
+                    "We buy food at the local market.",
+                    "The local news starts at six."
+                ]
+            }
+        ],
+        "subtext": "nearby / regional",
+        "comparative": "more local",
+        "superlative": "the most local"
+    },
+    {
+        "word": "natural",
+        "level": "elementary",
+        "theme": "animals_nature_A2",
+        "emoji": "🌿",
+        "form": "adjective",
+        "opposite": "artificial",
+        "definitions": [
+            {
+                "text": "As found in nature and not involving anything made or done by people.",
+                "examples": [
+                    "This yogurt contains only natural ingredients.",
+                    "It's natural to feel nervous before an exam."
+                ]
+            }
+        ],
+        "subtext": "normal / from nature",
+        "comparative": "more natural",
+        "superlative": "the most natural"
+    },
+    {
+        "word": "official",
+        "level": "elementary",
+        "theme": "customs_traditions_A2",
+        "emoji": "📜",
+        "form": "adjective",
+        "opposite": "unofficial",
+        "definitions": [
+            {
+                "text": "Agreed to or arranged by people in positions of authority.",
+                "examples": [
+                    "We are waiting for an official statement.",
+                    "The official language of the country is English."
+                ]
+            }
+        ],
+        "subtext": "formal / authorized",
+        "comparative": "more official",
+        "superlative": "the most official"
+    },
+    {
+        "word": "rare",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "💎",
+        "form": "adjective",
+        "opposite": "common",
+        "definitions": [
+            {
+                "text": "Not common; very unusual.",
+                "examples": [
+                    "This is a rare bird in this area.",
+                    "It is rare to see him so happy."
+                ]
+            }
+        ],
+        "subtext": "uncommon / unusual",
+        "comparative": "rarer",
+        "superlative": "the rarest"
+    },
+    {
+        "word": "serious",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "😐",
+        "form": "adjective",
+        "opposite": "funny",
+        "definitions": [
+            {
+                "text": "Severe in effect; bad.",
+                "examples": [
+                    "This is a serious problem.",
+                    "He is a very serious person."
+                ]
+            }
+        ],
+        "subtext": "grave / solemn",
+        "comparative": "more serious",
+        "superlative": "the most serious"
+    },
+    {
+        "word": "unusual",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🌀",
+        "form": "adjective",
+        "opposite": "usual",
+        "definitions": [
+            {
+                "text": "Different from what is usual or expected.",
+                "examples": [
+                    "He has an unusual name.",
+                    "It is unusual for it to snow in April."
+                ]
+            }
+        ],
+        "subtext": "strange / uncommon",
+        "comparative": "more unusual",
+        "superlative": "the most unusual"
+    },
+    {
+        "word": "active",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🏃",
+        "form": "adjective",
+        "opposite": "passive",
+        "definitions": [
+            {
+                "text": "Busy and doing a lot of things.",
+                "examples": [
+                    "She is very active in local politics.",
+                    "He leads an active lifestyle."
+                ]
+            }
+        ],
+        "subtext": "busy / energetic",
+        "comparative": "more active",
+        "superlative": "the most active"
+    },
+    {
+        "word": "creative",
+        "level": "elementary",
+        "theme": "art_design_A2",
+        "emoji": "🎨",
+        "form": "adjective",
+        "opposite": "uncreative",
+        "definitions": [
+            {
+                "text": "Producing or using original and unusual ideas.",
+                "examples": [
+                    "She has a lot of creative ideas.",
+                    "The children are doing some creative writing."
+                ]
+            }
+        ],
+        "subtext": "imaginative / original",
+        "comparative": "more creative",
+        "superlative": "the most creative"
+    },
+    {
+        "word": "helpful",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🤝",
+        "form": "adjective",
+        "opposite": "unhelpful",
+        "definitions": [
+            {
+                "text": "Willing to help.",
+                "examples": [
+                    "The staff were very helpful.",
+                    "Thank you for your helpful advice."
+                ]
+            }
+        ],
+        "subtext": "useful / kind",
+        "comparative": "more helpful",
+        "superlative": "the most helpful"
+    },
+    {
+        "word": "private",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🔒",
+        "form": "adjective",
+        "opposite": "public",
+        "definitions": [
+            {
+                "text": "Only for one person or group and not for everyone.",
+                "examples": [
+                    "This is a private conversation.",
+                    "He has a private garden."
+                ]
+            }
+        ],
+        "subtext": "personal / confidential",
+        "comparative": "more private",
+        "superlative": "the most private"
+    },
+    {
+        "word": "public",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🏢",
+        "form": "adjective",
+        "opposite": "private",
+        "definitions": [
+            {
+                "text": "Relating to or available to everyone.",
+                "examples": [
+                    "Public transport is very good here.",
+                    "The park is open to the public."
+                ]
+            }
+        ],
+        "subtext": "open / communal",
+        "comparative": "more public",
+        "superlative": "the most public"
+    },
+    {
+        "word": "smooth",
+        "level": "elementary",
+        "theme": "materials_textures_A2",
+        "emoji": "🧊",
+        "form": "adjective",
+        "opposite": "rough",
+        "definitions": [
+            {
+                "text": "Having a surface or substance that is perfectly regular and has no holes, lumps, or areas that rise or fall suddenly.",
+                "examples": [
+                    "The table has a smooth surface.",
+                    "The flight was very smooth."
+                ]
+            }
+        ],
+        "subtext": "even / flat",
+        "comparative": "smoother",
+        "superlative": "the smoothest"
+    },
+    {
+        "word": "rough",
+        "level": "elementary",
+        "theme": "materials_textures_A2",
+        "emoji": "🪵",
+        "form": "adjective",
+        "opposite": "smooth",
+        "definitions": [
+            {
+                "text": "Not smooth.",
+                "examples": [
+                    "The sea was rough today.",
+                    "The bark of the tree is rough."
+                ]
+            }
+        ],
+        "subtext": "uneven / coarse",
+        "comparative": "rougher",
+        "superlative": "the roughest"
+    },
+    {
+        "word": "soft",
+        "level": "elementary",
+        "theme": "materials_textures_A2",
+        "emoji": "🧸",
+        "form": "adjective",
+        "opposite": "hard",
+        "definitions": [
+            {
+                "text": "Not hard or firm.",
+                "examples": [
+                    "The pillow is very soft.",
+                    "I like soft music."
+                ]
+            }
+        ],
+        "subtext": "gentle / tender",
+        "comparative": "softer",
+        "superlative": "the softest"
+    },
+    {
+        "word": "hard",
+        "level": "elementary",
+        "theme": "materials_textures_A2",
+        "emoji": "💎",
+        "form": "adjective",
+        "opposite": "soft",
+        "definitions": [
+            {
+                "text": "Firm and stiff and not easy to press or bend.",
+                "examples": [
+                    "The ground is very hard.",
+                    "Diamond is a hard substance."
+                ]
+            }
+        ],
+        "subtext": "firm / stiff",
+        "comparative": "harder",
+        "superlative": "the hardest"
+    },
+    {
+        "word": "thin",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "📏",
+        "form": "adjective",
+        "opposite": "thick",
+        "definitions": [
+            {
+                "text": "Having a small distance between two opposite sides.",
+                "examples": [
+                    "The book is very thin.",
+                    "He is quite thin."
+                ]
+            }
+        ],
+        "subtext": "slim / narrow",
+        "comparative": "thinner",
+        "superlative": "the thinnest"
+    },
+    {
+        "word": "thick",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🧱",
+        "form": "adjective",
+        "opposite": "thin",
+        "definitions": [
+            {
+                "text": "Having a large distance between two opposite sides.",
+                "examples": [
+                    "The walls are very thick.",
+                    "She has thick hair."
+                ]
+            }
+        ],
+        "subtext": "wide / dense",
+        "comparative": "thicker",
+        "superlative": "the thickest"
+    },
+    {
+        "word": "valuable",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💎",
+        "form": "adjective",
+        "opposite": "worthless",
+        "definitions": [
+            {
+                "text": "Worth a lot of money.",
+                "examples": [
+                    "She has a valuable painting.",
+                    "The ring is very valuable."
+                ]
+            }
+        ],
+        "subtext": "expensive / precious",
+        "comparative": "more valuable",
+        "superlative": "the most valuable"
+    },
+    {
+        "word": "worthless",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "🗑️",
+        "form": "adjective",
+        "opposite": "valuable",
+        "definitions": [
+            {
+                "text": "Having no value in money.",
+                "examples": [
+                    "The old car is almost worthless.",
+                    "He felt worthless after losing his job."
+                ]
+            }
+        ],
+        "subtext": "cheap / useless",
+        "comparative": "more worthless",
+        "superlative": "the most worthless"
+    },
+    {
+        "word": "correct",
+        "level": "elementary",
+        "theme": "right_wrong_basic_A2",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "incorrect",
+        "definitions": [
+            {
+                "text": "Right; without any mistakes.",
+                "examples": [
+                    "That is the correct answer.",
+                    "Please check if the information is correct."
+                ]
+            }
+        ],
+        "subtext": "right / true",
+        "comparative": "more correct",
+        "superlative": "the most correct"
+    },
+    {
+        "word": "incorrect",
+        "level": "elementary",
+        "theme": "right_wrong_basic_A2",
+        "emoji": "❌",
+        "form": "adjective",
+        "opposite": "correct",
+        "definitions": [
+            {
+                "text": "Not right; containing mistakes.",
+                "examples": [
+                    "The calculations were incorrect.",
+                    "This statement is incorrect."
+                ]
+            }
+        ],
+        "subtext": "wrong / false",
+        "comparative": "more incorrect",
+        "superlative": "the most incorrect"
+    },
+    {
+        "word": "tight",
+        "level": "elementary",
+        "theme": "shopping_for_clothes_A2",
+        "emoji": "👚",
+        "form": "adjective",
+        "opposite": "loose",
+        "definitions": [
+            {
+                "text": "Fitting very closely or too closely.",
+                "examples": [
+                    "These shoes are too tight.",
+                    "The dress is a bit tight around the waist."
+                ]
+            }
+        ],
+        "subtext": "close-fitting / small",
+        "comparative": "tighter",
+        "superlative": "the tightest"
+    },
+    {
+        "word": "loose",
+        "level": "elementary",
+        "theme": "shopping_for_clothes_A2",
+        "emoji": "👕",
+        "form": "adjective",
+        "opposite": "tight",
+        "definitions": [
+            {
+                "text": "Not fitting closely; large.",
+                "examples": [
+                    "I prefer loose clothes in summer.",
+                    "The handle is loose."
+                ]
+            }
+        ],
+        "subtext": "baggy / not tight",
+        "comparative": "looser",
+        "superlative": "the loosest"
+    },
+    {
+        "word": "neat",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🧹",
+        "form": "adjective",
+        "opposite": "messy",
+        "definitions": [
+            {
+                "text": "Tidy and in good order.",
+                "examples": [
+                    "His desk is always very neat.",
+                    "She has neat handwriting."
+                ]
+            }
+        ],
+        "subtext": "tidy / organized",
+        "comparative": "neater",
+        "superlative": "the neatest"
+    },
+    {
+        "word": "messy",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🧺",
+        "form": "adjective",
+        "opposite": "neat",
+        "definitions": [
+            {
+                "text": "Untidy or dirty.",
+                "examples": [
+                    "My room is very messy.",
+                    "It was a messy situation."
+                ]
+            }
+        ],
+        "subtext": "untidy / disordered",
+        "comparative": "messier",
+        "superlative": "the messiest"
+    },
+    {
+        "word": "patient",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🧘",
+        "form": "adjective",
+        "opposite": "impatient",
+        "definitions": [
+            {
+                "text": "Able to wait for a long time or accept difficulties without becoming angry.",
+                "examples": [
+                    "You need to be patient with children.",
+                    "The teacher was very patient with me."
+                ]
+            }
+        ],
+        "subtext": "calm / tolerant",
+        "comparative": "more patient",
+        "superlative": "the most patient"
     }
     ];
     const lang = "en";

@@ -21,7 +21,6 @@
         "v3": "brushed teeth",
         "opposite": "mess up"
     },
-
     {
         "word": "shower",
         "level": "elementary",
@@ -43,28 +42,28 @@
         "v3": "showered",
         "opposite": "get dirty"
     },
-
     {
         "word": "seem",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "giving_reasons_A2",
         "emoji": "🤔",
         "form": "verb",
-        "subtext": "seem happy, seem like a good idea",
+        "subtext": "seem happy, seem like a good idea, seem worried",
         "definitions": [
             {
-                "text": "To give the impression of being something.",
+                "text": "To give the impression of being something; to appear to be.",
                 "examples": [
-                    "You seem tired today."
+                    "You seem tired today.",
+                    "She seems very confident in client meetings."
                 ]
             }
         ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "seemed",
-        "v3": "seemed"
+        "v3": "seemed",
+        "opposite": "be"
     },
-
     {
         "word": "happen",
         "level": "elementary",
@@ -86,7 +85,6 @@
         "v3": "happened",
         "opposite": "stop"
     },
-
     {
         "word": "continue",
         "level": "elementary",
@@ -98,7 +96,8 @@
             {
                 "text": "To keep doing something without stopping.",
                 "examples": [
-                    "Please continue reading."
+                    "Please continue reading.",
+                    "He continued working after six despite feeling ill."
                 ]
             }
         ],
@@ -108,7 +107,6 @@
         "v3": "continued",
         "opposite": "stop"
     },
-
     {
         "word": "allow",
         "level": "elementary",
@@ -130,7 +128,6 @@
         "v3": "allowed",
         "opposite": "forbid"
     },
-
     {
         "word": "offer",
         "level": "elementary",
@@ -152,7 +149,6 @@
         "v3": "offered",
         "opposite": "refuse"
     },
-
     {
         "word": "consider",
         "level": "elementary",
@@ -174,7 +170,6 @@
         "v3": "considered",
         "opposite": "ignore"
     },
-
     {
         "word": "appear",
         "level": "elementary",
@@ -196,7 +191,6 @@
         "v3": "appeared",
         "opposite": "disappear"
     },
-
     {
         "word": "serve",
         "level": "elementary",
@@ -218,7 +212,6 @@
         "v3": "served",
         "opposite": "wait"
     },
-
     {
         "word": "expect",
         "level": "elementary",
@@ -240,19 +233,19 @@
         "v3": "expected",
         "opposite": "doubt"
     },
-
     {
         "word": "build",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "career_development_A2",
         "emoji": "🏗️",
         "form": "verb",
-        "subtext": "build a house, build a relationship",
+        "subtext": "build a career / build a team / build experience / build trust",
         "definitions": [
             {
-                "text": "To make something by putting parts together.",
+                "text": "To make something by putting parts together; to construct.",
                 "examples": [
-                    "They are building a new office block."
+                    "They are building a new office block.",
+                    "She built a strong reputation over ten years."
                 ]
             }
         ],
@@ -262,7 +255,6 @@
         "v3": "built",
         "opposite": "destroy"
     },
-
     {
         "word": "reach",
         "level": "elementary",
@@ -284,7 +276,6 @@
         "v3": "reached",
         "opposite": "miss"
     },
-
     {
         "word": "kill",
         "level": "elementary",
@@ -306,7 +297,6 @@
         "v3": "killed",
         "opposite": "save"
     },
-
     {
         "word": "remain",
         "level": "elementary",
@@ -328,7 +318,6 @@
         "v3": "remained",
         "opposite": "change"
     },
-
     {
         "word": "require",
         "level": "elementary",
@@ -350,7 +339,6 @@
         "v3": "required",
         "opposite": "lack"
     },
-
     {
         "word": "report",
         "level": "elementary",
@@ -372,7 +360,6 @@
         "v3": "reported",
         "opposite": "hide"
     },
-
     {
         "word": "develop",
         "level": "elementary",
@@ -394,7 +381,6 @@
         "v3": "developed",
         "opposite": "regress"
     },
-
     {
         "word": "retire",
         "level": "elementary",
@@ -416,7 +402,6 @@
         "v3": "retired",
         "opposite": "work"
     },
-
     {
         "word": "afford",
         "level": "elementary",
@@ -438,7 +423,6 @@
         "v3": "afforded",
         "opposite": "lack"
     },
-
     {
         "word": "recycle",
         "level": "elementary",
@@ -460,14 +444,13 @@
         "v3": "recycled",
         "opposite": "waste"
     },
-
     {
         "word": "produce",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "verb",
-        "subtext": "produce energy, produce a movie",
+        "subtext": "produce energy, produce goods / produce results",
         "definitions": [
             {
                 "text": "To make or create something.",
@@ -482,7 +465,6 @@
         "v3": "produced",
         "opposite": "consume"
     },
-
     {
         "word": "apply for",
         "level": "elementary",
@@ -504,7 +486,6 @@
         "v3": "applied for",
         "opposite": "resign"
     },
-
     {
         "word": "hire",
         "level": "elementary",
@@ -526,7 +507,6 @@
         "v3": "hired",
         "opposite": "fire"
     },
-
     {
         "word": "promote",
         "level": "elementary",
@@ -548,7 +528,6 @@
         "v3": "promoted",
         "opposite": "demote"
     },
-
     {
         "word": "resign",
         "level": "elementary",
@@ -570,7 +549,6 @@
         "v3": "resigned",
         "opposite": "join"
     },
-
     {
         "word": "dismiss",
         "level": "elementary",
@@ -592,7 +570,6 @@
         "v3": "dismissed",
         "opposite": "hire"
     },
-
     {
         "word": "delegate",
         "level": "elementary",
@@ -614,7 +591,6 @@
         "v3": "delegated",
         "opposite": "do yourself"
     },
-
     {
         "word": "negotiate",
         "level": "elementary",
@@ -636,7 +612,6 @@
         "v3": "negotiated",
         "opposite": "agree"
     },
-
     {
         "word": "evaluate",
         "level": "elementary",
@@ -658,7 +633,6 @@
         "v3": "evaluated",
         "opposite": "ignore"
     },
-
     {
         "word": "collaborate",
         "level": "elementary",
@@ -680,7 +654,6 @@
         "v3": "collaborated",
         "opposite": "work alone"
     },
-
     {
         "word": "schedule",
         "level": "elementary",
@@ -702,7 +675,6 @@
         "v3": "scheduled",
         "opposite": "cancel"
     },
-
     {
         "word": "lend",
         "level": "elementary",
@@ -724,7 +696,6 @@
         "v3": "lent",
         "opposite": "borrow"
     },
-
     {
         "word": "budget",
         "level": "elementary",
@@ -746,7 +717,6 @@
         "v3": "budgeted",
         "opposite": "waste"
     },
-
     {
         "word": "withdraw",
         "level": "elementary",
@@ -768,7 +738,6 @@
         "v3": "withdrawn",
         "opposite": "deposit"
     },
-
     {
         "word": "transfer",
         "level": "elementary",
@@ -790,7 +759,6 @@
         "v3": "transferred",
         "opposite": "keep"
     },
-
     {
         "word": "charge",
         "level": "elementary",
@@ -802,7 +770,8 @@
             {
                 "text": "To ask an amount of money for a service.",
                 "examples": [
-                    "The mechanic charged more than the estimate."
+                    "The mechanic charged more than the estimate.",
+                    "The mechanic charged three hundred euros."
                 ]
             }
         ],
@@ -812,7 +781,6 @@
         "v3": "charged",
         "opposite": "pay"
     },
-
     {
         "word": "claim",
         "level": "elementary",
@@ -834,7 +802,6 @@
         "v3": "claimed",
         "opposite": "give up"
     },
-
     {
         "word": "argue",
         "level": "elementary",
@@ -856,7 +823,6 @@
         "v3": "argued",
         "opposite": "agree"
     },
-
     {
         "word": "trust",
         "level": "elementary",
@@ -878,7 +844,6 @@
         "v3": "trusted",
         "opposite": "doubt"
     },
-
     {
         "word": "support",
         "level": "elementary",
@@ -900,7 +865,6 @@
         "v3": "supported",
         "opposite": "oppose"
     },
-
     {
         "word": "apologise",
         "level": "elementary",
@@ -922,7 +886,6 @@
         "v3": "apologised",
         "opposite": "offend"
     },
-
     {
         "word": "forgive",
         "level": "elementary",
@@ -944,7 +907,6 @@
         "v3": "forgiven",
         "opposite": "blame"
     },
-
     {
         "word": "compromise",
         "level": "elementary",
@@ -966,7 +928,6 @@
         "v3": "compromised",
         "opposite": "demand"
     },
-
     {
         "word": "diagnose",
         "level": "elementary",
@@ -988,7 +949,6 @@
         "v3": "diagnosed",
         "opposite": "ignore"
     },
-
     {
         "word": "treat",
         "level": "elementary",
@@ -1010,7 +970,6 @@
         "v3": "treated",
         "opposite": "neglect"
     },
-
     {
         "word": "prevent",
         "level": "elementary",
@@ -1032,7 +991,6 @@
         "v3": "prevented",
         "opposite": "cause"
     },
-
     {
         "word": "suffer",
         "level": "elementary",
@@ -1054,7 +1012,6 @@
         "v3": "suffered",
         "opposite": "enjoy"
     },
-
     {
         "word": "own",
         "level": "elementary",
@@ -1076,7 +1033,6 @@
         "v3": "owned",
         "opposite": "rent"
     },
-
     {
         "word": "repair",
         "level": "elementary",
@@ -1098,7 +1054,6 @@
         "v3": "repaired",
         "opposite": "break"
     },
-
     {
         "word": "decorate",
         "level": "elementary",
@@ -1120,7 +1075,6 @@
         "v3": "decorated",
         "opposite": "damage"
     },
-
     {
         "word": "set up",
         "level": "elementary",
@@ -1142,7 +1096,6 @@
         "v3": "set up",
         "opposite": "close down"
     },
-
     {
         "word": "find out",
         "level": "elementary",
@@ -1164,7 +1117,6 @@
         "v3": "found out",
         "opposite": "hide"
     },
-
     {
         "word": "carry on",
         "level": "elementary",
@@ -1186,7 +1138,6 @@
         "v3": "carried on",
         "opposite": "stop"
     },
-
     {
         "word": "give up",
         "level": "elementary",
@@ -1208,7 +1159,6 @@
         "v3": "given up",
         "opposite": "continue"
     },
-
     {
         "word": "sort out",
         "level": "elementary",
@@ -1230,7 +1180,6 @@
         "v3": "sorted out",
         "opposite": "mess up"
     },
-
     {
         "word": "look after",
         "level": "elementary",
@@ -1252,7 +1201,6 @@
         "v3": "looked after",
         "opposite": "neglect"
     },
-
     {
         "word": "cut down on",
         "level": "elementary",
@@ -1274,7 +1222,6 @@
         "v3": "cut down on",
         "opposite": "increase"
     },
-
     {
         "word": "take on",
         "level": "elementary",
@@ -1296,7 +1243,6 @@
         "v3": "taken on",
         "opposite": "refuse"
     },
-
     {
         "word": "turn down",
         "level": "elementary",
@@ -1318,7 +1264,6 @@
         "v3": "turned down",
         "opposite": "accept"
     },
-
     {
         "word": "put off",
         "level": "elementary",
@@ -1340,7 +1285,6 @@
         "v3": "put off",
         "opposite": "do now"
     },
-
     {
         "word": "confirm",
         "level": "elementary",
@@ -1362,7 +1306,6 @@
         "v3": "confirmed",
         "opposite": "cancel"
     },
-
     {
         "word": "contact",
         "level": "elementary",
@@ -1384,29 +1327,6 @@
         "v3": "contacted",
         "opposite": "ignore"
     },
-
-    {
-        "word": "complain",
-        "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
-        "emoji": "😠",
-        "form": "verb",
-        "subtext": "complain about / make a complaint / complain to someone",
-        "definitions": [
-            {
-                "text": "To express dissatisfaction about something.",
-                "examples": [
-                    "She complained about the noise from the flat above."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "complained",
-        "v3": "complained",
-        "opposite": "praise"
-    },
-
     {
         "word": "discuss",
         "level": "elementary",
@@ -1428,7 +1348,6 @@
         "v3": "discussed",
         "opposite": "be silent"
     },
-
     {
         "word": "accept",
         "level": "elementary",
@@ -1450,7 +1369,6 @@
         "v3": "accepted",
         "opposite": "refuse"
     },
-
     {
         "word": "refuse",
         "level": "elementary",
@@ -1472,7 +1390,6 @@
         "v3": "refused",
         "opposite": "accept"
     },
-
     {
         "word": "lose weight",
         "level": "elementary",
@@ -1494,7 +1411,6 @@
         "v3": "lost weight",
         "opposite": "gain weight"
     },
-
     {
         "word": "increase",
         "level": "elementary",
@@ -1516,7 +1432,6 @@
         "v3": "increased",
         "opposite": "decrease"
     },
-
     {
         "word": "reduce",
         "level": "elementary",
@@ -1538,7 +1453,6 @@
         "v3": "reduced",
         "opposite": "increase"
     },
-
     {
         "word": "improve skills",
         "level": "elementary",
@@ -1560,7 +1474,6 @@
         "v3": "improved skills",
         "opposite": "lose skills"
     },
-
     {
         "word": "provide",
         "level": "elementary",
@@ -1582,7 +1495,6 @@
         "v3": "provided",
         "opposite": "take"
     },
-
     {
         "word": "solve",
         "level": "elementary",
@@ -1604,7 +1516,6 @@
         "v3": "solved",
         "opposite": "complicate"
     },
-
     {
         "word": "contain",
         "level": "elementary",
@@ -1626,19 +1537,19 @@
         "v3": "contained",
         "opposite": "exclude"
     },
-
     {
         "word": "prepare",
         "level": "elementary",
-        "theme": "career_development_A2",
-        "emoji": "📝",
+        "theme": "diet_nutrition_A2",
+        "emoji": "🥘",
         "form": "verb",
-        "subtext": "prepare for a meeting / prepare a report / prepare carefully",
+        "subtext": "prepare for a meeting / prepare a report / prepare dinner",
         "definitions": [
             {
                 "text": "To make something ready; to get yourself ready.",
                 "examples": [
-                    "He prepares a detailed agenda before every meeting."
+                    "He prepares a detailed agenda before every meeting.",
+                    "He is preparing dinner."
                 ]
             }
         ],
@@ -1648,11 +1559,10 @@
         "v3": "prepared",
         "opposite": "improvise"
     },
-
     {
         "word": "fail",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "school_life_routines_A2",
         "emoji": "❌",
         "form": "verb",
         "subtext": "fail an exam / fail to do / fail a test / fail to meet a deadline",
@@ -1660,7 +1570,8 @@
             {
                 "text": "To not succeed; to not do something required.",
                 "examples": [
-                    "She failed the first exam but passed the second attempt."
+                    "She failed the first exam but passed the second attempt.",
+                    "I failed my driving test three times."
                 ]
             }
         ],
@@ -1670,7 +1581,6 @@
         "v3": "failed",
         "opposite": "succeed"
     },
-
     {
         "word": "succeed",
         "level": "elementary",
@@ -1692,7 +1602,6 @@
         "v3": "succeeded",
         "opposite": "fail"
     },
-
     {
         "word": "replace",
         "level": "elementary",
@@ -1714,7 +1623,6 @@
         "v3": "replaced",
         "opposite": "keep"
     },
-
     {
         "word": "look for",
         "level": "elementary",
@@ -1736,7 +1644,6 @@
         "v3": "looked for",
         "opposite": "find"
     },
-
     {
         "word": "log out",
         "level": "elementary",
@@ -1758,8 +1665,6 @@
         "v3": "logged out",
         "opposite": "log in"
     },
-
-
     {
         "word": "commute",
         "level": "elementary",
@@ -1779,13 +1684,15 @@
         "aspect": "action",
         "v2": "commuted",
         "v3": "commuted",
-        "group": "regular",
         "opposite": "stay home"
     },
-
-
     {
         "word": "recover",
+        "level": "elementary",
+        "theme": "human_body_A2",
+        "emoji": "🩹",
+        "form": "verb",
+        "subtext": "recover from illness / recover quickly / recover fully",
         "definitions": [
             {
                 "text": "To return to good health after illness or injury.",
@@ -1794,116 +1701,12 @@
                 ]
             }
         ],
-        "subtext": "recover from illness / recover quickly / recover fully",
         "classification": "regular",
         "aspect": "action",
         "v2": "recovered",
         "v3": "recovered",
-        "theme": "human_body_A2",
-        "emoji": "🩹",
-        "level": "elementary",
-        "form": "verb",
-        "group": "regular",
         "opposite": "get sick"
     },
-
-
-    {
-        "word": "repair",
-        "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
-        "emoji": "🛠️",
-        "subtext": "repair something / get repaired / repair costs",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To fix something that is broken.",
-                "examples": [
-                    "The landlord is slow to repair things in the flat."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "repaired",
-        "v3": "repaired",
-        "group": "regular",
-        "opposite": "break"
-    },
-
-
-    {
-        "word": "happen",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
-        "emoji": "❔",
-        "subtext": "what happened / happen to someone / it happens / happen again",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take place; to occur.",
-                "examples": [
-                    "What happened at the meeting? Something went wrong."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "happened",
-        "v3": "happened",
-        "group": "regular",
-        "opposite": "stop"
-    },
-
-
-    {
-        "word": "seem",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
-        "emoji": "🎭",
-        "subtext": "seem fine / seem worried / seem happy / seem like",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To appear to be something; to give an impression.",
-                "examples": [
-                    "She seems very confident in client meetings."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "seemed",
-        "v3": "seemed",
-        "group": "regular",
-        "opposite": "be"
-    },
-
-
-    {
-        "word": "continue",
-        "level": "elementary",
-        "theme": "school_life_routines_A2",
-        "emoji": "⏩",
-        "subtext": "continue working / continue to do / continue with / continue a task",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To keep doing something without stopping.",
-                "examples": [
-                    "He continued working after six despite feeling ill."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "continued",
-        "v3": "continued",
-        "group": "regular",
-        "opposite": "stop"
-    },
-
-
     {
         "word": "belong",
         "level": "elementary",
@@ -1913,7 +1716,7 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To be the property of someone; to be a member.",
+                "text": "To be the property of someone; to be a member of a group.",
                 "examples": [
                     "That account belongs to the finance department."
                 ]
@@ -1923,36 +1726,8 @@
         "aspect": "stative",
         "v2": "belonged",
         "v3": "belonged",
-        "group": "regular",
         "opposite": "be separate"
     },
-
-
-    {
-        "word": "build",
-        "level": "elementary",
-        "theme": "career_development_A2",
-        "emoji": "🏗️",
-        "subtext": "build a career / build a team / build experience / build trust",
-        "opposite": "destroy",
-        "oppositeEmoji": "💣",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To construct something; to develop something over time.",
-                "examples": [
-                    "She built a strong reputation over ten years."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "built",
-        "v3": "built",
-        "group": "irregular"
-    },
-
-
     {
         "word": "dream",
         "level": "elementary",
@@ -1972,11 +1747,8 @@
         "aspect": "action",
         "v2": "dreamed / dreamt",
         "v3": "dreamed / dreamt",
-        "group": "both",
         "opposite": "wake up"
     },
-
-
     {
         "word": "notice",
         "level": "elementary",
@@ -1996,35 +1768,8 @@
         "aspect": "both",
         "v2": "noticed",
         "v3": "noticed",
-        "group": "regular",
         "opposite": "ignore"
     },
-
-
-    {
-        "word": "prepare",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
-        "emoji": "🥘",
-        "form": "verb",
-        "subtext": "get ready / prepare dinner / prepare for a meeting",
-        "definitions": [
-            {
-                "text": "To get something ready.",
-                "examples": [
-                    "He is preparing dinner."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "prepared",
-        "v3": "prepared",
-        "group": "regular",
-        "opposite": "improvise"
-    },
-
-
     {
         "word": "organize",
         "level": "elementary",
@@ -2034,7 +1779,7 @@
         "subtext": "plan / organize a meeting / organize files",
         "definitions": [
             {
-                "text": "To plan or arrange something.",
+                "text": "To plan or arrange something in an orderly way.",
                 "examples": [
                     "She organizes all the meetings."
                 ]
@@ -2044,61 +1789,8 @@
         "aspect": "action",
         "v2": "organized",
         "v3": "organized",
-        "group": "regular",
         "opposite": "mess up"
     },
-
-
-    {
-        "word": "lend",
-        "level": "elementary",
-        "theme": "finances_A2",
-        "emoji": "📤",
-        "form": "verb",
-        "subtext": "give for a short time / lend a pen / lend money",
-        "definitions": [
-            {
-                "text": "To give something for a short time.",
-                "examples": [
-                    "I can lend you some money."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "lent",
-        "v3": "lent",
-        "group": "irregular",
-        "opposite": "borrow"
-    },
-
-
-    {
-        "word": "fail",
-        "level": "elementary",
-        "theme": "school_life_routines_A2",
-        "emoji": "❌",
-        "subtext": "fail an exam / fail a test / fail to do / fail completely",
-        "opposite": "pass",
-        "oppositeEmoji": "🏔️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To not succeed in what you are trying to do.",
-                "examples": [
-                    "I failed my driving test three times.",
-                    "She failed to arrive on time."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "failed",
-        "v3": "failed",
-        "group": "regular"
-    },
-
-
     {
         "word": "imagine",
         "level": "elementary",
@@ -2118,35 +1810,8 @@
         "aspect": "stative",
         "v2": "imagined",
         "v3": "imagined",
-        "group": "regular",
         "opposite": "know"
     },
-
-
-    {
-        "word": "produce",
-        "level": "elementary",
-        "theme": "career_development_A2",
-        "emoji": "🏭",
-        "form": "verb",
-        "subtext": "produce goods / produce results",
-        "definitions": [
-            {
-                "text": "To make or grow something.",
-                "examples": [
-                    "This factory produces cars."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "produced",
-        "v3": "produced",
-        "group": "regular",
-        "opposite": "consume"
-    },
-
-
     {
         "word": "promise",
         "level": "elementary",
@@ -2166,11 +1831,8 @@
         "aspect": "action",
         "v2": "promised",
         "v3": "promised",
-        "group": "regular",
         "opposite": "lie"
     },
-
-
     {
         "word": "record",
         "level": "elementary",
@@ -2190,20 +1852,15 @@
         "aspect": "action",
         "v2": "recorded",
         "v3": "recorded",
-        "group": "regular",
         "opposite": "delete"
     },
-
-
     {
         "word": "doubt",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤨",
-        "subtext": "not believe / doubt it",
-        "opposite": "believe",
-        "oppositeEmoji": "🙏",
         "form": "verb",
+        "subtext": "not believe / doubt it",
         "definitions": [
             {
                 "text": "To not feel certain or confident about something.",
@@ -2216,18 +1873,14 @@
         "aspect": "stative",
         "v2": "doubted",
         "v3": "doubted",
-        "group": "regular"
+        "opposite": "believe"
     },
-
-
     {
         "word": "destroy",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "💣",
         "form": "verb",
-        "opposite": "build",
-        "oppositeEmoji": "🏗️",
         "subtext": "damage / destroy a file / destroy completely",
         "definitions": [
             {
@@ -2241,60 +1894,15 @@
         "aspect": "action",
         "v2": "destroyed",
         "v3": "destroyed",
-        "group": "regular"
+        "opposite": "build"
     },
-
-
-    {
-        "word": "charge",
-        "definitions": [
-            {
-                "text": "To ask an amount of money for a service.",
-                "examples": [
-                    "The mechanic charged three hundred euros."
-                ]
-            }
-        ],
-        "subtext": "charge a fee / charge for a service / charge extra",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "charged",
-        "v3": "charged",
-        "theme": "finances_A2",
-        "emoji": "💳",
-        "level": "elementary",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "pay"
-    },
-
-
-    {
-        "word": "afford",
-        "definitions": [
-            {
-                "text": "To have enough money for something.",
-                "examples": [
-                    "They cannot afford to buy a flat in the city centre."
-                ]
-            }
-        ],
-        "subtext": "afford a house / afford to travel / afford something",
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "afforded",
-        "v3": "afforded",
-        "theme": "finances_A2",
-        "emoji": "🏦",
-        "level": "elementary",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "lack"
-    },
-
-
     {
         "word": "owe",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💸",
+        "form": "verb",
+        "subtext": "owe money / owe someone / owe a lot / owe nothing",
         "definitions": [
             {
                 "text": "To be required to pay money to someone.",
@@ -2303,22 +1911,19 @@
                 ]
             }
         ],
-        "subtext": "owe money / owe someone / owe a lot / owe nothing",
         "classification": "regular",
         "aspect": "stative",
         "v2": "owed",
         "v3": "owed",
-        "theme": "finances_A2",
-        "emoji": "💸",
-        "level": "elementary",
-        "form": "verb",
-        "group": "regular",
         "opposite": "pay"
     },
-
-
     {
         "word": "recommend",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "👍",
+        "form": "verb",
+        "subtext": "recommend a place / recommend someone / recommend a film",
         "definitions": [
             {
                 "text": "To suggest something as good or suitable.",
@@ -2327,27 +1932,19 @@
                 ]
             }
         ],
-        "subtext": "recommend a place / recommend someone / recommend a film",
         "classification": "regular",
         "aspect": "action",
         "v2": "recommended",
         "v3": "recommended",
-        "theme": "giving_reasons_A2",
-        "emoji": "👍",
-        "level": "elementary",
-        "form": "verb",
-        "group": "regular",
         "opposite": "warn"
     },
-
-
     {
         "word": "explain",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "💡",
-        "subtext": "explain a process / explain clearly / explain to someone",
         "form": "verb",
+        "subtext": "explain a process / explain clearly / explain to someone",
         "definitions": [
             {
                 "text": "To make something clear by giving details.",
@@ -2360,18 +1957,15 @@
         "aspect": "action",
         "v2": "explained",
         "v3": "explained",
-        "group": "regular",
         "opposite": "confuse"
     },
-
-
     {
         "word": "include",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "➕",
-        "subtext": "include something / include in / not included / price includes",
         "form": "verb",
+        "subtext": "include something / include in / not included / price includes",
         "definitions": [
             {
                 "text": "To make something part of a whole.",
@@ -2384,11 +1978,8 @@
         "aspect": "stative",
         "v2": "included",
         "v3": "included",
-        "group": "regular",
         "opposite": "exclude"
     },
-
-
     {
         "word": "improve",
         "level": "elementary",
@@ -2408,11 +1999,8 @@
         "aspect": "action",
         "v2": "improved",
         "v3": "improved",
-        "group": "regular",
         "opposite": "worsen"
     },
-
-
     {
         "word": "suggest",
         "level": "elementary",
@@ -2432,20 +2020,15 @@
         "aspect": "action",
         "v2": "suggested",
         "v3": "suggested",
-        "group": "regular",
         "opposite": "demand"
     },
-
-
     {
         "word": "disagree",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "👎",
-        "subtext": "disagree with / I disagree",
-        "opposite": "agree",
-        "oppositeEmoji": "👍",
         "form": "verb",
+        "subtext": "disagree with / I disagree",
         "definitions": [
             {
                 "text": "To have a different opinion from someone.",
@@ -2458,7 +2041,447 @@
         "aspect": "stative",
         "v2": "disagreed",
         "v3": "disagreed",
-        "group": "regular"
+        "opposite": "agree"
+    },
+    {
+        "word": "achieve",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🎯",
+        "form": "verb",
+        "subtext": "achieve a goal / achieve success / achieve results",
+        "definitions": [
+            {
+                "text": "To succeed in finishing something or reaching a goal, especially after a lot of work or effort.",
+                "examples": [
+                    "She worked hard to achieve her goals.",
+                    "The team achieved a great victory."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "achieved",
+        "v3": "achieved",
+        "opposite": "fail"
+    },
+    {
+        "word": "believe",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "🙏",
+        "form": "verb",
+        "subtext": "believe in / I believe / hard to believe",
+        "definitions": [
+            {
+                "text": "To think that something is true, correct, or real.",
+                "examples": [
+                    "I believe you are right.",
+                    "Do you believe in ghosts?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "believed",
+        "v3": "believed",
+        "opposite": "doubt"
+    },
+    {
+        "word": "deliver",
+        "level": "elementary",
+        "theme": "restaurants_ordering_A2",
+        "emoji": "📦",
+        "form": "verb",
+        "subtext": "deliver food / deliver a package / deliver a speech",
+        "definitions": [
+            {
+                "text": "To take goods, letters, parcels, etc. to people's houses or places of work.",
+                "examples": [
+                    "The mail is delivered every morning.",
+                    "Can you deliver the pizza to my house?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "delivered",
+        "v3": "delivered",
+        "opposite": "collect"
+    },
+    {
+        "word": "explore",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "🧭",
+        "form": "verb",
+        "subtext": "explore the city / explore options / explore nature",
+        "definitions": [
+            {
+                "text": "To search and discover about something.",
+                "examples": [
+                    "We went to explore the old town.",
+                    "Scientists are exploring the ocean floor."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "explored",
+        "v3": "explored",
+        "opposite": "ignore"
+    },
+    {
+        "word": "follow",
+        "level": "elementary",
+        "theme": "directions_location_A2",
+        "emoji": "🚶",
+        "form": "verb",
+        "subtext": "follow instructions / follow a path / follow someone",
+        "definitions": [
+            {
+                "text": "To move behind someone or something and go where they go.",
+                "examples": [
+                    "The dog followed me home.",
+                    "Please follow the signs to the exit."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "followed",
+        "v3": "followed",
+        "opposite": "lead"
+    },
+    {
+        "word": "guess",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "🤔",
+        "form": "verb",
+        "subtext": "guess what / can you guess? / I guess so",
+        "definitions": [
+            {
+                "text": "To give an answer to a particular question when you do not have all the facts and so cannot be certain if you are correct.",
+                "examples": [
+                    "Can you guess how old he is?",
+                    "I guess she is about thirty."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "guessed",
+        "v3": "guessed",
+        "opposite": "know"
+    },
+    {
+        "word": "hope",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "🤞",
+        "form": "verb",
+        "subtext": "hope so / hope for / I hope that",
+        "definitions": [
+            {
+                "text": "To want something to happen or to be true, and usually have a good reason to think that it might.",
+                "examples": [
+                    "I hope you have a nice day.",
+                    "We hope to see you soon."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "hoped",
+        "v3": "hoped",
+        "opposite": "fear"
+    },
+    {
+        "word": "join",
+        "level": "elementary",
+        "theme": "community_neighbourhood_local_A2",
+        "emoji": "🤝",
+        "form": "verb",
+        "subtext": "join a club / join a meeting / join us",
+        "definitions": [
+            {
+                "text": "To become a member of an organization.",
+                "examples": [
+                    "She joined the gym last month.",
+                    "Would you like to join us for dinner?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "joined",
+        "v3": "joined",
+        "opposite": "leave"
+    },
+    {
+        "word": "manage",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "💼",
+        "form": "verb",
+        "subtext": "manage a team / manage time / manage to do",
+        "definitions": [
+            {
+                "text": "To be responsible for controlling or organizing someone or something.",
+                "examples": [
+                    "He manages a large department.",
+                    "How do you manage your time?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "managed",
+        "v3": "managed",
+        "opposite": "follow"
+    },
+    {
+        "word": "perform",
+        "level": "elementary",
+        "theme": "theatre_performance_A2",
+        "emoji": "🎭",
+        "form": "verb",
+        "subtext": "perform on stage / perform well / perform a task",
+        "definitions": [
+            {
+                "text": "To entertain people by acting, singing, dancing, etc.",
+                "examples": [
+                    "The band performed their new song.",
+                    "She performs in the local theatre."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "performed",
+        "v3": "performed",
+        "opposite": "watch"
+    },
+    {
+        "word": "receive",
+        "level": "elementary",
+        "theme": "shopping_for_food_A2",
+        "emoji": "📥",
+        "form": "verb",
+        "subtext": "receive a gift / receive an email / receive information",
+        "definitions": [
+            {
+                "text": "To get or be given something.",
+                "examples": [
+                    "I received a letter this morning.",
+                    "Did you receive my message?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "received",
+        "v3": "received",
+        "opposite": "send"
+    },
+    {
+        "word": "search",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "🔍",
+        "form": "verb",
+        "subtext": "search online / search for / search the web",
+        "definitions": [
+            {
+                "text": "To look for something carefully.",
+                "examples": [
+                    "I searched for my keys everywhere.",
+                    "You can search the database for more information."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "searched",
+        "v3": "searched",
+        "opposite": "find"
+    },
+    {
+        "word": "wonder",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "💭",
+        "form": "verb",
+        "subtext": "I wonder why / wonder if / just wondering",
+        "definitions": [
+            {
+                "text": "To ask yourself questions or express a wish to know about something.",
+                "examples": [
+                    "I wonder why she is late.",
+                    "I was wondering if you could help me."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "wondered",
+        "v3": "wondered",
+        "opposite": "know"
+    },
+    {
+        "word": "attract",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🧲",
+        "form": "verb",
+        "subtext": "attract attention / attract visitors / be attracted to",
+        "definitions": [
+            {
+                "text": "To pull or draw someone or something towards them.",
+                "examples": [
+                    "The bright lights attract insects.",
+                    "The city attracts many tourists."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "attracted",
+        "v3": "attracted",
+        "opposite": "repel"
+    },
+    {
+        "word": "avoid",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "🚫",
+        "form": "verb",
+        "subtext": "avoid problems / avoid traffic / avoid someone",
+        "definitions": [
+            {
+                "text": "To stay away from someone or something.",
+                "examples": [
+                    "I try to avoid processed foods.",
+                    "She avoided eye contact with him."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "avoided",
+        "v3": "avoided",
+        "opposite": "confront"
+    },
+    {
+        "word": "behave",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "😇",
+        "form": "verb",
+        "subtext": "behave well / behave badly / behave yourself",
+        "definitions": [
+            {
+                "text": "To act in a particular way.",
+                "examples": [
+                    "The children behaved very well today.",
+                    "He needs to learn how to behave in public."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "behaved",
+        "v3": "behaved",
+        "opposite": "misbehave"
+    },
+    {
+        "word": "cancel",
+        "level": "elementary",
+        "theme": "booking_planning_a_trip_A2",
+        "emoji": "❌",
+        "form": "verb",
+        "subtext": "cancel a booking / cancel a meeting / cancel a flight",
+        "definitions": [
+            {
+                "text": "To decide that an organized event will not happen.",
+                "examples": [
+                    "They had to cancel the match because of rain.",
+                    "I need to cancel my appointment."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "cancelled",
+        "v3": "cancelled",
+        "opposite": "confirm"
+    },
+    {
+        "word": "complain",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing_A2",
+        "emoji": "😠",
+        "form": "verb",
+        "subtext": "complain about / make a complaint / complain to someone",
+        "definitions": [
+            {
+                "text": "To say that something is wrong or not satisfactory.",
+                "examples": [
+                    "She complained about the noise.",
+                    "We should complain to the manager."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "complained",
+        "v3": "complained",
+        "opposite": "praise"
+    },
+    {
+        "word": "connect",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "🔗",
+        "form": "verb",
+        "subtext": "connect to wifi / connect with people / connect dots",
+        "definitions": [
+            {
+                "text": "To join or be joined with something else.",
+                "examples": [
+                    "Click here to connect to the internet.",
+                    "The bridge connects the two islands."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "connected",
+        "v3": "connected",
+        "opposite": "disconnect"
+    },
+    {
+        "word": "convince",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "subtext": "convince someone / convince yourself / hard to convince",
+        "definitions": [
+            {
+                "text": "To persuade someone or make them certain.",
+                "examples": [
+                    "He managed to convince me to go.",
+                    "I'm not convinced by his story."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "convinced",
+        "v3": "convinced",
+        "opposite": "dissuade"
     }
     ];
     const lang = "en";
