@@ -6,13 +6,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of Mexico and a very large city in North America.",
                 "examples": [
                     "I want to visit Mexico City."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇲🇽"
     },
     {
         "word": "Amsterdam",
@@ -20,13 +21,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of the Netherlands, famous for its many canals.",
                 "examples": [
                     "I want to visit Amsterdam."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇳🇱"
     },
     {
         "word": "Vienna",
@@ -34,13 +36,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of Austria, known for its history of music and art.",
                 "examples": [
                     "I want to visit Vienna."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇦🇹"
     },
     {
         "word": "Prague",
@@ -48,13 +51,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of the Czech Republic, famous for its old buildings.",
                 "examples": [
                     "I want to visit Prague."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇨🇿"
     },
     {
         "word": "Barcelona",
@@ -62,13 +66,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A large city in Spain on the coast of the Mediterranean Sea.",
                 "examples": [
                     "I want to visit Barcelona."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇪🇸"
     },
     {
         "word": "Venice",
@@ -76,13 +81,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A famous city in Italy with many canals instead of roads.",
                 "examples": [
                     "I want to visit Venice."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇮🇹"
     },
     {
         "word": "Florence",
@@ -90,13 +96,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A beautiful city in Italy, famous for its art and history.",
                 "examples": [
                     "I want to visit Florence."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇮🇹"
     },
     {
         "word": "Dublin",
@@ -104,13 +111,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of Ireland, known for its friendly people.",
                 "examples": [
                     "I want to visit Dublin."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇮🇪"
     },
     {
         "word": "Edinburgh",
@@ -118,13 +126,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of Scotland, famous for its large castle.",
                 "examples": [
                     "I want to visit Edinburgh."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
     },
     {
         "word": "Chicago",
@@ -132,13 +141,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A large city in the USA, located on Lake Michigan.",
                 "examples": [
                     "I want to visit Chicago."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇺🇸"
     },
     {
         "word": "Los Angeles",
@@ -146,13 +156,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A very large city in the USA, famous for Hollywood and movies.",
                 "examples": [
                     "I want to visit Los Angeles."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇺🇸"
     },
     {
         "word": "San Francisco",
@@ -160,13 +171,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A city in the USA, famous for its large red bridge.",
                 "examples": [
                     "I want to visit San Francisco."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇺🇸"
     },
     {
         "word": "Miami",
@@ -174,13 +186,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A city in the USA with many beaches and hot weather.",
                 "examples": [
                     "I want to visit Miami."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇺🇸"
     },
     {
         "word": "Washington DC",
@@ -188,13 +201,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of the USA, where the President lives.",
                 "examples": [
                     "I want to visit Washington DC."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇺🇸"
     },
     {
         "word": "Vancouver",
@@ -202,13 +216,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A large city in Canada, located between mountains and the sea.",
                 "examples": [
                     "I want to visit Vancouver."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇨🇦"
     },
     {
         "word": "Montreal",
@@ -216,13 +231,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A large city in Canada where many people speak French.",
                 "examples": [
                     "I want to visit Montreal."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇨🇦"
     },
     {
         "word": "Melbourne",
@@ -230,13 +246,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A large city in Australia, known for its culture and coffee.",
                 "examples": [
                     "I want to visit Melbourne."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇦🇺"
     },
     {
         "word": "Thailand",
@@ -244,13 +261,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Southeast Asia, famous for its food and beaches.",
                 "examples": [
                     "I want to visit Thailand."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇹🇭"
     },
     {
         "word": "South Korea",
@@ -258,13 +276,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in East Asia, known for its technology and music.",
                 "examples": [
                     "I want to visit South Korea."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇰🇷"
     },
     {
         "word": "Sweden",
@@ -272,13 +291,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Northern Europe, known for its cold winters.",
                 "examples": [
                     "I want to visit Sweden."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇸🇪"
     },
     {
         "word": "Norway",
@@ -286,13 +306,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Northern Europe with many mountains and cold weather.",
                 "examples": [
                     "I want to visit Norway."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇳🇴"
     },
     {
         "word": "Denmark",
@@ -300,13 +321,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A small country in Northern Europe.",
                 "examples": [
                     "I want to visit Denmark."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇩🇰"
     },
     {
         "word": "Finland",
@@ -314,13 +336,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Northern Europe, known as the land of a thousand lakes.",
                 "examples": [
                     "I want to visit Finland."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇫🇮"
     },
     {
         "word": "Poland",
@@ -328,13 +351,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Central Europe with a long history.",
                 "examples": [
                     "I want to visit Poland."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇵🇱"
     },
     {
         "word": "Ukraine",
@@ -342,13 +366,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A large country in Eastern Europe.",
                 "examples": [
                     "I want to visit Ukraine."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇺🇦"
     },
     {
         "word": "Austria",
@@ -356,13 +381,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Central Europe, famous for its mountains and music.",
                 "examples": [
                     "I want to visit Austria."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇦🇹"
     },
     {
         "word": "Switzerland",
@@ -370,13 +396,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Central Europe, famous for its mountains and chocolate.",
                 "examples": [
                     "I want to visit Switzerland."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇨🇭"
     },
     {
         "word": "Netherlands",
@@ -384,13 +411,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Europe, famous for its flowers and flat land.",
                 "examples": [
                     "I want to visit Netherlands."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇳🇱"
     },
     {
         "word": "Belgium",
@@ -398,13 +426,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A small country in Europe, known for its chocolate and waffles.",
                 "examples": [
                     "I want to visit Belgium."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇧🇪"
     },
     {
         "word": "Ireland",
@@ -412,13 +441,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "An island country in Europe, known as the Emerald Isle.",
                 "examples": [
                     "I want to visit Ireland."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇮🇪"
     },
     {
         "word": "London",
@@ -426,13 +456,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of England and the United Kingdom.",
                 "examples": [
                     "I want to visit London."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇬🇧"
     },
     {
         "word": "France",
@@ -440,13 +471,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A large country in Western Europe, famous for its food and wine.",
                 "examples": [
                     "I want to visit France."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇫🇷"
     },
     {
         "word": "Italy",
@@ -454,13 +486,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Southern Europe, shaped like a boot.",
                 "examples": [
                     "I want to visit Italy."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇮🇹"
     },
     {
         "word": "Russia",
@@ -468,13 +501,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "The largest country in the world, located in Europe and Asia.",
                 "examples": [
                     "I want to visit Russia."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇷🇺"
     },
     {
         "word": "Greece",
@@ -482,13 +516,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Southern Europe with many beautiful islands.",
                 "examples": [
                     "I want to visit Greece."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇬🇷"
     },
     {
         "word": "England",
@@ -496,13 +531,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country that is part of the United Kingdom and an island.",
                 "examples": [
                     "I want to visit England."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
     },
     {
         "word": "Spain",
@@ -510,13 +546,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Southern Europe, famous for its sunny weather.",
                 "examples": [
                     "I want to visit Spain."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇪🇸"
     },
     {
         "word": "USA",
@@ -524,13 +561,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A very large country in North America with fifty states.",
                 "examples": [
                     "I want to visit USA."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇺🇸"
     },
     {
         "word": "Paris",
@@ -538,13 +576,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of France, famous for the Eiffel Tower.",
                 "examples": [
                     "I want to visit Paris."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇫🇷"
     },
     {
         "word": "Rome",
@@ -552,13 +591,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of Italy, known for its very old history.",
                 "examples": [
                     "I want to visit Rome."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇮🇹"
     },
     {
         "word": "Moscow",
@@ -566,13 +606,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of Russia and a very large city in Europe.",
                 "examples": [
                     "I want to visit Moscow."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇷🇺"
     },
     {
         "word": "Athens",
@@ -580,13 +621,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of Greece, famous for its ancient buildings.",
                 "examples": [
                     "I want to visit Athens."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇬🇷"
     },
     {
         "word": "New York",
@@ -594,13 +636,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A very large and famous city in the USA with many tall buildings.",
                 "examples": [
                     "I want to visit New York."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇺🇸"
     },
     {
         "word": "Berlin",
@@ -608,13 +651,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of Germany and a very large city.",
                 "examples": [
                     "I want to visit Berlin."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇩🇪"
     },
     {
         "word": "Tokyo",
@@ -622,13 +666,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of Japan and a very large city.",
                 "examples": [
                     "I want to visit Tokyo."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇯🇵"
     },
     {
         "word": "Beijing",
@@ -636,13 +681,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "The capital city of China, known for its long history.",
                 "examples": [
                     "I want to visit Beijing."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇨🇳"
     },
     {
         "word": "Sydney",
@@ -650,13 +696,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A large city in Australia, famous for its beautiful Opera House.",
                 "examples": [
                     "I want to visit Sydney."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇦🇺"
     },
     {
         "word": "Rio de Janeiro",
@@ -664,13 +711,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A city in the world.",
+                "text": "A large city in Brazil, famous for its beaches and carnival.",
                 "examples": [
                     "I want to visit Rio de Janeiro."
                 ]
             }
         ],
-        "subtext": "city"
+        "subtext": "city",
+        "emoji": "🇧🇷"
     },
     {
         "word": "Egypt",
@@ -678,13 +726,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A country in Africa, famous for its ancient pyramids.",
                 "examples": [
                     "I want to visit Egypt."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇪🇬"
     },
     {
         "word": "China",
@@ -692,13 +741,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A very large country in Asia with many people.",
                 "examples": [
                     "I want to visit China."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇨🇳"
     },
     {
         "word": "Japan",
@@ -706,13 +756,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "An island country in East Asia, known for its technology.",
                 "examples": [
                     "I want to visit Japan."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇯🇵"
     },
     {
         "word": "Germany",
@@ -720,13 +771,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A large country in Central Europe, known for its cars.",
                 "examples": [
                     "I want to visit Germany."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇩🇪"
     },
     {
         "word": "Canada",
@@ -734,13 +786,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A very large country in North America, north of the USA.",
                 "examples": [
                     "I want to visit Canada."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇨🇦"
     },
     {
         "word": "Australia",
@@ -748,13 +801,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A very large island country and a continent.",
                 "examples": [
                     "I want to visit Australia."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇦🇺"
     },
     {
         "word": "Brazil",
@@ -762,13 +816,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "The largest country in South America, famous for the Amazon forest.",
                 "examples": [
                     "I want to visit Brazil."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇧🇷"
     },
     {
         "word": "India",
@@ -776,13 +831,14 @@
         "theme": "address_location_A1",
         "definitions": [
             {
-                "text": "A country in the world.",
+                "text": "A large country in South Asia with a very long history.",
                 "examples": [
                     "I want to visit India."
                 ]
             }
         ],
-        "subtext": "country"
+        "subtext": "country",
+        "emoji": "🇮🇳"
     }
 ];
     const lang = "en";

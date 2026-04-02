@@ -208,7 +208,8 @@
         ],
         "subtext": "ordinary day / ordinary life / nothing ordinary",
         "comparative": "more ordinary",
-        "superlative": "the most ordinary"
+        "superlative": "the most ordinary",
+        "emoji": "😐"
     },
     {
         "word": "cheap",
@@ -445,7 +446,7 @@
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "energetic",
         "oppositeEmoji": "⚡",
         "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
         "definitions": [
@@ -466,7 +467,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "part-time",
         "oppositeEmoji": "⏳",
         "definitions": [
             {
@@ -526,7 +527,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "full-time",
         "oppositeEmoji": "⏰",
         "definitions": [
             {
@@ -667,7 +668,7 @@
         "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "together",
         "oppositeEmoji": "👫",
         "definitions": [
             {
@@ -727,7 +728,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "free",
         "oppositeEmoji": "🆓",
         "subtext": "very busy, busy day / busy schedule / very busy / too busy",
         "definitions": [
@@ -753,7 +754,7 @@
         "theme": "describing_things_A1",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "useless",
         "oppositeEmoji": "🗑️",
         "subtext": "helpful, practical",
         "definitions": [
@@ -819,7 +820,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟥",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "green",
         "subtext": "dark red, bright red / red wine / red face / red light",
         "definitions": [
             {
@@ -844,7 +845,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟦",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "orange",
         "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
         "definitions": [
             {
@@ -869,7 +870,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "red",
         "subtext": "bright green, dark green / green energy / green space / bright green",
         "definitions": [
             {
@@ -946,7 +947,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "purple",
         "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
         "definitions": [
             {
@@ -971,7 +972,7 @@
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "busy",
         "oppositeEmoji": "💎",
         "subtext": "free of charge, free gift / free time / free of charge / free to do",
         "definitions": [
@@ -1055,7 +1056,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "larger",
-        "superlative": "the largest"
+        "superlative": "the largest",
+        "emoji": "🐘"
     },
     {
         "word": "little",
@@ -1074,7 +1076,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "smaller",
-        "superlative": "the smallest"
+        "superlative": "the smallest",
+        "emoji": "🐭"
     },
     {
         "word": "long",
@@ -1093,7 +1096,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "longer",
-        "superlative": "the longest"
+        "superlative": "the longest",
+        "emoji": "📏"
     },
     {
         "word": "high",
@@ -1112,7 +1116,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "higher",
-        "superlative": "the highest"
+        "superlative": "the highest",
+        "emoji": "🏔️"
     },
     {
         "word": "low",
@@ -1131,7 +1136,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "lower",
-        "superlative": "the lowest"
+        "superlative": "the lowest",
+        "emoji": "⬇️"
     },
     {
         "word": "full",
@@ -1150,7 +1156,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "fuller",
-        "superlative": "the fullest"
+        "superlative": "the fullest",
+        "emoji": "🥛"
     },
     {
         "word": "empty",
@@ -1169,7 +1176,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "emptier",
-        "superlative": "the emptiest"
+        "superlative": "the emptiest",
+        "emoji": "🫙"
     },
     {
         "word": "warm",
@@ -1188,7 +1196,8 @@
         ],
         "theme": "weather_A1",
         "comparative": "warmer",
-        "superlative": "the warmest"
+        "superlative": "the warmest",
+        "emoji": "☀️"
     },
     {
         "word": "cool",
@@ -1207,7 +1216,8 @@
         ],
         "theme": "weather_A1",
         "comparative": "cooler",
-        "superlative": "the coolest"
+        "superlative": "the coolest",
+        "emoji": "🌬️"
     },
     {
         "word": "wet",
@@ -1226,7 +1236,8 @@
         ],
         "theme": "weather_A1",
         "comparative": "wetter",
-        "superlative": "the wettest"
+        "superlative": "the wettest",
+        "emoji": "💦"
     },
     {
         "word": "dry",
@@ -1245,7 +1256,8 @@
         ],
         "theme": "weather_A1",
         "comparative": "dryer",
-        "superlative": "the dryest"
+        "superlative": "the dryest",
+        "emoji": "🏜️"
     },
     {
         "word": "dirty",
@@ -1264,7 +1276,8 @@
             }
         ],
         "comparative": "dirtier",
-        "superlative": "the dirtiest"
+        "superlative": "the dirtiest",
+        "emoji": "💩"
     },
     {
         "word": "hard",
@@ -1283,7 +1296,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "harder",
-        "superlative": "the hardest"
+        "superlative": "the hardest",
+        "emoji": "🧱"
     },
     {
         "word": "soft",
@@ -1302,7 +1316,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "softer",
-        "superlative": "the softest"
+        "superlative": "the softest",
+        "emoji": "☁️"
     },
     {
         "word": "heavy",
@@ -1321,7 +1336,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "heavier",
-        "superlative": "the heaviest"
+        "superlative": "the heaviest",
+        "emoji": "🏋️"
     },
     {
         "word": "light",
@@ -1340,13 +1356,14 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "lighter",
-        "superlative": "the lightest"
+        "superlative": "the lightest",
+        "emoji": "🪶"
     },
     {
         "word": "brown",
         "level": "starter",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "grey",
         "subtext": "dark brown / light brown / brown bread",
         "definitions": [
             {
@@ -1358,13 +1375,14 @@
         ],
         "theme": "colours_patterns_A1",
         "comparative": "browner",
-        "superlative": "the brownest"
+        "superlative": "the brownest",
+        "emoji": "🤎"
     },
     {
         "word": "grey",
         "level": "starter",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "brown",
         "subtext": "grey area / grey sky / pale grey",
         "definitions": [
             {
@@ -1376,13 +1394,14 @@
         ],
         "theme": "colours_patterns_A1",
         "comparative": "greyer",
-        "superlative": "the greyest"
+        "superlative": "the greyest",
+        "emoji": "🩶"
     },
     {
         "word": "pink",
         "level": "starter",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "green",
         "subtext": "light pink / bright pink / hot pink",
         "definitions": [
             {
@@ -1394,13 +1413,14 @@
         ],
         "theme": "colours_patterns_A1",
         "comparative": "pinker",
-        "superlative": "the pinkest"
+        "superlative": "the pinkest",
+        "emoji": "🩷"
     },
     {
         "word": "orange",
         "level": "starter",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "blue",
         "subtext": "bright orange / dark orange / orange light",
         "definitions": [
             {
@@ -1412,7 +1432,8 @@
         ],
         "theme": "colours_patterns_A1",
         "comparative": "more orange",
-        "superlative": "the most orange"
+        "superlative": "the most orange",
+        "emoji": "🧡"
     },
     {
         "word": "great",
@@ -1431,7 +1452,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "greater",
-        "superlative": "the greatest"
+        "superlative": "the greatest",
+        "emoji": "🌟"
     },
     {
         "word": "nice",
@@ -1450,7 +1472,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "nicer",
-        "superlative": "the nicest"
+        "superlative": "the nicest",
+        "emoji": "😊"
     },
     {
         "word": "wonderful",
@@ -1469,7 +1492,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "more wonderful",
-        "superlative": "the most wonderful"
+        "superlative": "the most wonderful",
+        "emoji": "🌈"
     },
     {
         "word": "terrible",
@@ -1488,7 +1512,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "more terrible",
-        "superlative": "the most terrible"
+        "superlative": "the most terrible",
+        "emoji": "🤮"
     },
     {
         "word": "awful",
@@ -1507,7 +1532,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "more awful",
-        "superlative": "the most awful"
+        "superlative": "the most awful",
+        "emoji": "💩"
     },
     {
         "word": "amazing",
@@ -1526,7 +1552,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "more amazing",
-        "superlative": "the most amazing"
+        "superlative": "the most amazing",
+        "emoji": "🤩"
     },
     {
         "word": "fantastic",
@@ -1545,7 +1572,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "more fantastic",
-        "superlative": "the most fantastic"
+        "superlative": "the most fantastic",
+        "emoji": "🔥"
     },
     {
         "word": "sad",
@@ -1564,7 +1592,8 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "sadder",
-        "superlative": "the saddest"
+        "superlative": "the saddest",
+        "emoji": "😢"
     },
     {
         "word": "hungry",
@@ -1583,7 +1612,8 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "hungrier",
-        "superlative": "the hungriest"
+        "superlative": "the hungriest",
+        "emoji": "🍔"
     },
     {
         "word": "angry",
@@ -1602,7 +1632,8 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "angrier",
-        "superlative": "the angriest"
+        "superlative": "the angriest",
+        "emoji": "😠"
     },
     {
         "word": "bored",
@@ -1621,7 +1652,8 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "more bored",
-        "superlative": "the most bored"
+        "superlative": "the most bored",
+        "emoji": "😴"
     },
     {
         "word": "excited",
@@ -1640,7 +1672,8 @@
             }
         ],
         "comparative": "more excited",
-        "superlative": "the most excited"
+        "superlative": "the most excited",
+        "emoji": "🤩"
     },
     {
         "word": "afraid",
@@ -1659,7 +1692,8 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "more afraid",
-        "superlative": "the most afraid"
+        "superlative": "the most afraid",
+        "emoji": "😨"
     },
     {
         "word": "sorry",
@@ -1677,7 +1711,8 @@
         ],
         "theme": "basic_negative_emotions_A1",
         "comparative": "sorrier",
-        "superlative": "the sorriest"
+        "superlative": "the sorriest",
+        "emoji": "🙏"
     },
     {
         "word": "right",
@@ -1701,7 +1736,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "more right",
-        "superlative": "the most right"
+        "superlative": "the most right",
+        "emoji": "✅"
     },
     {
         "word": "left",
@@ -1720,7 +1756,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "emoji": "⬅️"
     },
     {
         "word": "wrong",
@@ -1739,7 +1776,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "more wrong",
-        "superlative": "the most wrong"
+        "superlative": "the most wrong",
+        "emoji": "❌"
     },
     {
         "word": "new",
@@ -1758,7 +1796,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "newer",
-        "superlative": "the newest"
+        "superlative": "the newest",
+        "emoji": "🆕"
     },
     {
         "word": "different",
@@ -1777,7 +1816,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "more different",
-        "superlative": "the most different"
+        "superlative": "the most different",
+        "emoji": "🌓"
     },
     {
         "word": "same",
@@ -1796,7 +1836,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "emoji": "👯"
     },
     {
         "word": "fast",
@@ -1815,7 +1856,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "faster",
-        "superlative": "the fastest"
+        "superlative": "the fastest",
+        "emoji": "🏎️"
     },
     {
         "word": "slow",
@@ -1834,7 +1876,8 @@
         ],
         "theme": "size_shape_A1",
         "comparative": "slower",
-        "superlative": "the slowest"
+        "superlative": "the slowest",
+        "emoji": "🐢"
     },
     {
         "word": "quiet",
@@ -1853,7 +1896,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "quieter",
-        "superlative": "the quietest"
+        "superlative": "the quietest",
+        "emoji": "🤫"
     },
     {
         "word": "loud",
@@ -1872,7 +1916,8 @@
         ],
         "theme": "describing_things_A1",
         "comparative": "louder",
-        "superlative": "the loudest"
+        "superlative": "the loudest",
+        "emoji": "📢"
     },
     {
         "word": "safe",
@@ -1891,7 +1936,8 @@
         ],
         "theme": "local_places_services_A1",
         "comparative": "safer",
-        "superlative": "the safest"
+        "superlative": "the safest",
+        "emoji": "🛡️"
     },
     {
         "word": "dangerous",
@@ -1910,7 +1956,8 @@
         ],
         "theme": "local_places_services_A1",
         "comparative": "more dangerous",
-        "superlative": "the most dangerous"
+        "superlative": "the most dangerous",
+        "emoji": "🧨"
     },
     {
         "word": "unhappy",
@@ -1929,7 +1976,8 @@
             }
         ],
         "comparative": "unhappier",
-        "superlative": "the unhappiest"
+        "superlative": "the unhappiest",
+        "emoji": "😢"
     },
     {
         "word": "nervous",
@@ -1948,7 +1996,8 @@
             }
         ],
         "comparative": "more nervous",
-        "superlative": "the most nervous"
+        "superlative": "the most nervous",
+        "emoji": "😟"
     },
     {
         "word": "stressed",
@@ -1967,7 +2016,8 @@
             }
         ],
         "comparative": "more stressed",
-        "superlative": "the most stressed"
+        "superlative": "the most stressed",
+        "emoji": "😫"
     },
     {
         "word": "confident",
@@ -1986,7 +2036,8 @@
         ],
         "subtext": "feel confident / self-confident / very confident",
         "comparative": "more confident",
-        "superlative": "the most confident"
+        "superlative": "the most confident",
+        "emoji": "🦁"
     },
     {
         "word": "proud",
@@ -2005,7 +2056,8 @@
         ],
         "subtext": "pleased, satisfied / feel proud / very proud / proud of",
         "comparative": "prouder",
-        "superlative": "the proudest"
+        "superlative": "the proudest",
+        "emoji": "🤳"
     },
     {
         "word": "scared",
@@ -2024,7 +2076,8 @@
         ],
         "subtext": "afraid, frightened / feel scared / scared of / very scared",
         "comparative": "more scared",
-        "superlative": "the most scared"
+        "superlative": "the most scared",
+        "emoji": "😨"
     },
     {
         "word": "surprised",
@@ -2043,7 +2096,8 @@
         ],
         "subtext": "amazed, astonished / feel surprised / very surprised / pleasantly surprised",
         "comparative": "more surprised",
-        "superlative": "the most surprised"
+        "superlative": "the most surprised",
+        "emoji": "😲"
     },
     {
         "word": "disappointed",
@@ -2062,7 +2116,8 @@
         ],
         "subtext": "sad, let down / feel disappointed / deeply disappointed / disappointed with",
         "comparative": "more disappointed",
-        "superlative": "the most disappointed"
+        "superlative": "the most disappointed",
+        "emoji": "😞"
     },
     {
         "word": "dissatisfied",
@@ -2101,7 +2156,8 @@
         ],
         "subtext": "beautiful view / beautiful city / absolutely beautiful",
         "comparative": "more beautiful",
-        "superlative": "the most beautiful"
+        "superlative": "the most beautiful",
+        "emoji": "✨"
     },
     {
         "word": "pretty",
@@ -2120,7 +2176,8 @@
         ],
         "subtext": "pretty good / a pretty place / quite pretty",
         "comparative": "prettier",
-        "superlative": "the prettiest"
+        "superlative": "the prettiest",
+        "emoji": "🌸"
     },
     {
         "word": "strong",
@@ -2139,7 +2196,8 @@
         ],
         "subtext": "strong coffee / strong opinion / very strong",
         "comparative": "stronger",
-        "superlative": "the strongest"
+        "superlative": "the strongest",
+        "emoji": "🏋️"
     },
     {
         "word": "weak",
@@ -2158,7 +2216,8 @@
         ],
         "subtext": "weak connection / a weak argument / very weak",
         "comparative": "weaker",
-        "superlative": "the weakest"
+        "superlative": "the weakest",
+        "emoji": "🥀"
     },
     {
         "word": "fit",
@@ -2177,7 +2236,8 @@
         ],
         "subtext": "healthy, in shape / physically fit / stay fit / keep fit",
         "comparative": "fitter",
-        "superlative": "the fittest"
+        "superlative": "the fittest",
+        "emoji": "🏋️"
     },
     {
         "word": "unfit",
@@ -2216,7 +2276,8 @@
         ],
         "subtext": "excellent work / excellent results / absolutely excellent",
         "comparative": "more excellent",
-        "superlative": "the most excellent"
+        "superlative": "the most excellent",
+        "emoji": "🏆"
     },
     {
         "word": "perfect",
@@ -2235,7 +2296,8 @@
         ],
         "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
         "comparative": "more perfect",
-        "superlative": "the most perfect"
+        "superlative": "the most perfect",
+        "emoji": "💯"
     },
     {
         "word": "imperfect",
@@ -2274,7 +2336,8 @@
         ],
         "subtext": "completely useless / prove useless / a useless idea",
         "comparative": "more useless",
-        "superlative": "the most useless"
+        "superlative": "the most useless",
+        "emoji": "🗑️"
     },
     {
         "word": "correct",
@@ -2293,7 +2356,8 @@
         ],
         "subtext": "correct answer / the correct way / completely correct",
         "comparative": "more correct",
-        "superlative": "the most correct"
+        "superlative": "the most correct",
+        "emoji": "✅"
     },
     {
         "word": "interesting",
@@ -2312,7 +2376,8 @@
         ],
         "subtext": "find interesting / very interesting / an interesting idea",
         "comparative": "more interesting",
-        "superlative": "the most interesting"
+        "superlative": "the most interesting",
+        "emoji": "🧐"
     },
     {
         "word": "boring",
@@ -2331,7 +2396,8 @@
         ],
         "subtext": "very boring / a boring meeting / find boring",
         "comparative": "more boring",
-        "superlative": "the most boring"
+        "superlative": "the most boring",
+        "emoji": "😴"
     },
     {
         "word": "necessary",
@@ -2350,7 +2416,8 @@
         ],
         "subtext": "absolutely necessary / if necessary / necessary to do",
         "comparative": "more necessary",
-        "superlative": "the most necessary"
+        "superlative": "the most necessary",
+        "emoji": "❗"
     },
     {
         "word": "unnecessary",
@@ -2389,7 +2456,8 @@
         ],
         "subtext": "as soon as possible / it is possible / make possible",
         "comparative": "more possible",
-        "superlative": "the most possible"
+        "superlative": "the most possible",
+        "emoji": "👍"
     },
     {
         "word": "impossible",
@@ -2408,7 +2476,8 @@
         ],
         "subtext": "virtually impossible / make impossible / nearly impossible",
         "comparative": "more impossible",
-        "superlative": "the most impossible"
+        "superlative": "the most impossible",
+        "emoji": "🚫"
     },
     {
         "word": "special",
@@ -2427,7 +2496,8 @@
         ],
         "subtext": "a special offer / special occasion / very special",
         "comparative": "more special",
-        "superlative": "the most special"
+        "superlative": "the most special",
+        "emoji": "💎"
     },
     {
         "word": "popular",
@@ -2446,7 +2516,8 @@
         ],
         "subtext": "very popular / popular choice / most popular",
         "comparative": "more popular",
-        "superlative": "the most popular"
+        "superlative": "the most popular",
+        "emoji": "🌟"
     },
     {
         "word": "unpopular",
@@ -2473,7 +2544,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "different",
         "oppositeEmoji": "🌓",
         "definitions": [
             {
@@ -2485,7 +2556,8 @@
         ],
         "subtext": "very similar / similar to / similar results",
         "comparative": "more similar",
-        "superlative": "the most similar"
+        "superlative": "the most similar",
+        "emoji": "👯"
     },
     {
         "word": "friendly",
@@ -2504,7 +2576,8 @@
         ],
         "subtext": "kind, pleasant / very friendly / a friendly face / friendly atmosphere",
         "comparative": "more friendly",
-        "superlative": "the most friendly"
+        "superlative": "the most friendly",
+        "emoji": "👋"
     },
     {
         "word": "kind",
@@ -2523,7 +2596,8 @@
         ],
         "subtext": "caring, generous / very kind / kind of you / a kind person",
         "comparative": "kinder",
-        "superlative": "the kindest"
+        "superlative": "the kindest",
+        "emoji": "🤝"
     },
     {
         "word": "unkind",
@@ -2550,7 +2624,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "serious",
         "oppositeEmoji": "😐",
         "definitions": [
             {
@@ -2562,7 +2636,8 @@
         ],
         "subtext": "humorous, amusing / very funny / funny story / find funny",
         "comparative": "funnier",
-        "superlative": "the funniest"
+        "superlative": "the funniest",
+        "emoji": "😂"
     },
     {
         "word": "clever",
@@ -2581,7 +2656,8 @@
         ],
         "subtext": "intelligent, smart / very clever / a clever idea / clever enough",
         "comparative": "cleverer",
-        "superlative": "the cleverest"
+        "superlative": "the cleverest",
+        "emoji": "🎓"
     },
     {
         "word": "polite",
@@ -2600,7 +2676,8 @@
         ],
         "subtext": "respectful / very polite / polite request / polite enough",
         "comparative": "more polite",
-        "superlative": "the most polite"
+        "superlative": "the most polite",
+        "emoji": "🙏"
     },
     {
         "word": "rude",
@@ -2619,7 +2696,8 @@
         ],
         "subtext": "impolite, disrespectful / very rude / incredibly rude / deliberately rude",
         "comparative": "ruder",
-        "superlative": "the rudest"
+        "superlative": "the rudest",
+        "emoji": "😛"
     },
     {
         "word": "lazy",
@@ -2638,7 +2716,8 @@
         ],
         "subtext": "idle / very lazy / a lazy approach / too lazy",
         "comparative": "lazier",
-        "superlative": "the laziest"
+        "superlative": "the laziest",
+        "emoji": "🛋️"
     },
     {
         "word": "honest",
@@ -2657,7 +2736,8 @@
         ],
         "subtext": "truthful / very honest / brutally honest / completely honest",
         "comparative": "more honest",
-        "superlative": "the most honest"
+        "superlative": "the most honest",
+        "emoji": "⚖️"
     },
     {
         "word": "dishonest",
@@ -2684,7 +2764,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "quiet",
         "oppositeEmoji": "🤫",
         "definitions": [
             {
@@ -2696,7 +2776,8 @@
         ],
         "subtext": "loud / very noisy / noisy environment / too noisy",
         "comparative": "noisier",
-        "superlative": "the noisiest"
+        "superlative": "the noisiest",
+        "emoji": "📢"
     },
     {
         "word": "round",
@@ -2704,7 +2785,7 @@
         "theme": "size_shape_A1",
         "emoji": "⭕",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "rectangular",
         "oppositeEmoji": "⬛",
         "subtext": "circular / a round table / round shape",
         "definitions": [
@@ -2724,7 +2805,7 @@
         "theme": "size_shape_A1",
         "emoji": "⬛",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "triangular",
         "oppositeEmoji": "⭕",
         "subtext": "four-sided / a square box / square shape",
         "definitions": [
@@ -2974,7 +3055,8 @@
             }
         ],
         "comparative": "blonder",
-        "superlative": "the blondest"
+        "superlative": "the blondest",
+        "emoji": "👱‍♀️"
     },
     {
         "word": "smart",
@@ -2993,14 +3075,15 @@
             }
         ],
         "comparative": "smarter",
-        "superlative": "the smartest"
+        "superlative": "the smartest",
+        "emoji": "🎓"
     },
     {
         "word": "serious",
         "level": "starter",
         "theme": "describing_things_A1",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "funny",
         "oppositeEmoji": "😂",
         "subtext": "solemn, sensible / a serious person / look serious",
         "definitions": [
@@ -3012,7 +3095,8 @@
             }
         ],
         "comparative": "more serious",
-        "superlative": "the most serious"
+        "superlative": "the most serious",
+        "emoji": "😐"
     },
     {
         "word": "ugly",
@@ -3031,14 +3115,15 @@
             }
         ],
         "comparative": "uglier",
-        "superlative": "the ugliest"
+        "superlative": "the ugliest",
+        "emoji": "👹"
     },
     {
         "word": "near",
         "level": "starter",
         "theme": "distance_A1",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "far",
         "oppositeEmoji": "🔭",
         "subtext": "close / near here / near the station",
         "definitions": [
@@ -3050,14 +3135,15 @@
             }
         ],
         "comparative": "nearer",
-        "superlative": "the nearest"
+        "superlative": "the nearest",
+        "emoji": "📍"
     },
     {
         "word": "far",
         "level": "starter",
         "theme": "distance_A1",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "near",
         "oppositeEmoji": "📍",
         "subtext": "distant / far away / far from",
         "definitions": [
@@ -3069,7 +3155,8 @@
             }
         ],
         "comparative": "farther",
-        "superlative": "the farthest"
+        "superlative": "the farthest",
+        "emoji": "🔭"
     },
     {
         "word": "rich",
@@ -3117,7 +3204,7 @@
         "theme": "times_day_A1",
         "emoji": "🌅",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "late",
         "oppositeEmoji": "🌙",
         "subtext": "soon / early morning / early riser",
         "definitions": [
@@ -3137,7 +3224,7 @@
         "theme": "times_day_A1",
         "emoji": "🌙",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "early",
         "oppositeEmoji": "🌅",
         "subtext": "tardy / late night / too late",
         "definitions": [
@@ -3197,7 +3284,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "😋",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "disgusting",
         "oppositeEmoji": "🤢",
         "subtext": "tasty, yummy / delicious meal / smell delicious",
         "definitions": [
@@ -3217,7 +3304,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🍬",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "sour",
         "oppositeEmoji": "🍋",
         "subtext": "sugary / sweet fruit / sweet tooth / very sweet",
         "definitions": [
@@ -3277,7 +3364,7 @@
         "theme": "describing_things_A1",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "fake",
         "oppositeEmoji": "🎭",
         "subtext": "true, authentic / a real person / is it real?",
         "definitions": [
@@ -3297,7 +3384,7 @@
         "theme": "describing_things_A1",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "complex",
         "oppositeEmoji": "🧩",
         "subtext": "easy, basic / a simple question / nice and simple",
         "definitions": [
@@ -3317,7 +3404,7 @@
         "theme": "plants_natural_world_A1",
         "emoji": "🌱",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "artificial",
         "oppositeEmoji": "🤖",
         "subtext": "nature-made / natural light / natural products",
         "definitions": [
@@ -3358,7 +3445,7 @@
         "theme": "describing_things_A1",
         "emoji": "🔄",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "rare",
         "oppositeEmoji": "💎",
         "subtext": "usual, frequent / a common problem / shared by all",
         "definitions": [
@@ -3378,7 +3465,7 @@
         "theme": "people_A1",
         "emoji": "🌟",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "unknown",
         "oppositeEmoji": "👤",
         "subtext": "well-known, popular / a famous person / become famous",
         "definitions": [
@@ -3418,7 +3505,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🍋",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "sweet",
         "oppositeEmoji": "🍬",
         "subtext": "sharp-tasting / a sour taste / sour lemons",
         "definitions": [
@@ -3438,7 +3525,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "☕",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "sweet",
         "oppositeEmoji": "🍬",
         "subtext": "strong, sharp / a bitter taste / bitter coffee",
         "definitions": [
@@ -3498,7 +3585,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "🌀",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "straight",
         "oppositeEmoji": "📏",
         "subtext": "wavy / curly hair / short curly hair",
         "definitions": [
@@ -3518,7 +3605,7 @@
         "theme": "physical_appearance_A1",
         "emoji": "📏",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "curly",
         "oppositeEmoji": "🌀",
         "subtext": "not curly / straight hair / long straight hair",
         "definitions": [
@@ -3538,7 +3625,7 @@
         "theme": "shapes_A1",
         "emoji": "🔺",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "square",
         "subtext": "three-sided / a triangular shape",
         "definitions": [
             {
@@ -3557,7 +3644,7 @@
         "theme": "shapes_A1",
         "emoji": "▭",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "round",
         "subtext": "four-sided / a rectangular room",
         "definitions": [
             {
@@ -3576,7 +3663,7 @@
         "theme": "shapes_A1",
         "emoji": "🥚",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "round",
         "subtext": "egg-shaped / an oval mirror",
         "definitions": [
             {
@@ -3595,7 +3682,7 @@
         "theme": "describing_things_A1",
         "emoji": "⭐",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "hated",
         "oppositeEmoji": "😡",
         "subtext": "preferred / my favourite film / favourite food",
         "definitions": [
@@ -3616,7 +3703,7 @@
         "theme": "describing_things_A1",
         "emoji": "🌑",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "bright",
         "oppositeEmoji": "💡",
         "subtext": "not light / dark blue / a dark night",
         "definitions": [
@@ -3637,7 +3724,7 @@
         "theme": "describing_things_A1",
         "emoji": "💡",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "dark",
         "oppositeEmoji": "🌑",
         "subtext": "shining, light / bright colors / a bright day",
         "definitions": [
@@ -3658,7 +3745,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "🟡",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "silver",
         "subtext": "golden / a gold ring / gold medal",
         "definitions": [
             {
@@ -3677,7 +3764,7 @@
         "theme": "colours_patterns_A1",
         "emoji": "⚪",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "gold",
         "subtext": "silvery / a silver car / silver jewelry",
         "definitions": [
             {
@@ -3696,7 +3783,7 @@
         "theme": "size_shape_A1",
         "emoji": "🕳️",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "shallow",
         "oppositeEmoji": "📏",
         "subtext": "bottomless / deep water / a deep hole",
         "definitions": [
@@ -3716,7 +3803,7 @@
         "theme": "size_shape_A1",
         "emoji": "📏",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "deep",
         "oppositeEmoji": "🕳️",
         "subtext": "not deep / shallow water / a shallow end",
         "definitions": [
@@ -3736,7 +3823,7 @@
         "theme": "describing_things_A1",
         "emoji": "🏙️",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "ancient",
         "oppositeEmoji": "🏛️",
         "subtext": "contemporary, new / a modern building / modern life",
         "definitions": [
@@ -3756,7 +3843,7 @@
         "theme": "describing_things_A1",
         "emoji": "🏛️",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "modern",
         "oppositeEmoji": "🏙️",
         "subtext": "very old, antique / ancient history / an ancient city",
         "definitions": [
@@ -3816,7 +3903,7 @@
         "theme": "size_measurements_A1",
         "emoji": "↔️",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "narrow",
         "oppositeEmoji": "⬇️",
         "subtext": "broad / a wide road / wide open",
         "definitions": [
@@ -3836,7 +3923,7 @@
         "theme": "size_measurements_A1",
         "emoji": "⬇️",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "wide",
         "oppositeEmoji": "↔️",
         "subtext": "thin / a narrow street / too narrow",
         "definitions": [
@@ -3916,7 +4003,7 @@
         "theme": "material_objects_A1",
         "emoji": "🎭",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "real",
         "oppositeEmoji": "💎",
         "subtext": "false, artificial / fake money / a fake smile",
         "definitions": [
@@ -4069,7 +4156,7 @@
         "subtext": "violet / purple flowers / bright purple",
         "comparative": "more purple",
         "superlative": "the most purple",
-        "opposite": null
+        "opposite": "yellow"
     },
     {
         "word": "able",
@@ -4154,7 +4241,7 @@
         "theme": "describing_things_A1",
         "emoji": "⚖️",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "unfair",
         "definitions": [
             {
                 "text": "Treating people equally or in a right way.",
@@ -4307,7 +4394,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "unready",
         "definitions": [
             {
                 "text": "Prepared for what you are going to do.",
@@ -4326,7 +4413,7 @@
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "ready",
         "oppositeEmoji": "✅",
         "subtext": "not prepared / unready for the change",
         "definitions": [
@@ -4346,7 +4433,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🧱",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "smooth",
         "definitions": [
             {
                 "text": "Not smooth.",
@@ -4384,7 +4471,7 @@
         "theme": "describing_things_A1",
         "emoji": "⚖️",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "fair",
         "oppositeEmoji": "🤝",
         "subtext": "unjust / unfair treatment / very unfair",
         "definitions": [
@@ -4423,7 +4510,7 @@
         "theme": "describing_things_A1",
         "emoji": "❓",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "normal",
         "definitions": [
             {
                 "text": "Unusual or unexpected.",
@@ -4637,7 +4724,7 @@
         "theme": "personality_traits_A1",
         "emoji": "⚡",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "tired",
         "oppositeEmoji": "😫",
         "subtext": "active, lively / feel energetic / very energetic",
         "definitions": [
@@ -4697,7 +4784,7 @@
         "theme": "tastes_textures_A1",
         "emoji": "🧼",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "rough",
         "oppositeEmoji": "🧱",
         "subtext": "flat, even / smooth skin / smooth surface",
         "definitions": [
@@ -4717,7 +4804,7 @@
         "theme": "describing_things_A1",
         "emoji": "😐",
         "form": "adjective",
-        "opposite": null,
+        "opposite": "strange",
         "oppositeEmoji": "❓",
         "subtext": "usual, ordinary / normal day / back to normal",
         "definitions": [
