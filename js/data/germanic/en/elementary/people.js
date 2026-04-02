@@ -89,6 +89,156 @@
         ],
         "subtext": "famous person",
         "emoji": "🎨"
+    },
+    {
+        "word": "Nelson Mandela",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "A famous South African leader who fought against apartheid and became the first black president of South Africa.",
+                "examples": [
+                    "Nelson Mandela is a symbol of peace."
+                ]
+            }
+        ],
+        "subtext": "famous leader",
+        "emoji": "🇿🇦"
+    },
+    {
+        "word": "Malala Yousafzai",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "A young Pakistani activist for female education and the youngest Nobel Prize laureate.",
+                "examples": [
+                    "Malala Yousafzai is an inspiration for girls' education."
+                ]
+            }
+        ],
+        "subtext": "famous activist",
+        "emoji": "🇵🇰"
+    },
+    {
+        "word": "William Shakespeare",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "A famous English writer and poet, known for plays like 'Romeo and Juliet'.",
+                "examples": [
+                    "Shakespeare is the most famous writer in English history."
+                ]
+            }
+        ],
+        "subtext": "famous writer",
+        "emoji": "✍️"
+    },
+    {
+        "word": "Leonardo da Vinci",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "An Italian genius who was an artist, scientist, and inventor during the Renaissance.",
+                "examples": [
+                    "Leonardo da Vinci painted the Mona Lisa."
+                ]
+            }
+        ],
+        "subtext": "famous artist",
+        "emoji": "🎨"
+    },
+    {
+        "word": "Albert Einstein",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "A world-famous physicist from Germany who developed the theory of relativity.",
+                "examples": [
+                    "Einstein was a genius in science."
+                ]
+            }
+        ],
+        "subtext": "famous scientist",
+        "emoji": "👨‍🔬"
+    },
+    {
+        "word": "Cristiano Ronaldo",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "A famous Portuguese professional football player.",
+                "examples": [
+                    "Ronaldo has many fans around the world."
+                ]
+            }
+        ],
+        "subtext": "famous athlete",
+        "emoji": "⚽"
+    },
+    {
+        "word": "Lionel Messi",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "A famous Argentinian professional football player.",
+                "examples": [
+                    "Messi is considered one of the best players ever."
+                ]
+            }
+        ],
+        "subtext": "famous athlete",
+        "emoji": "⚽"
+    },
+    {
+        "word": "Taylor Swift",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "A highly successful American singer and songwriter.",
+                "examples": [
+                    "Taylor Swift has many hit albums."
+                ]
+            }
+        ],
+        "subtext": "famous singer",
+        "emoji": "🎤"
+    },
+    {
+        "word": "Beyoncé",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "A famous American singer, songwriter, and dancer.",
+                "examples": [
+                    "Beyoncé is a global icon."
+                ]
+            }
+        ],
+        "subtext": "famous singer",
+        "emoji": "🎤"
+    },
+    {
+        "word": "Elon Musk",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "definitions": [
+            {
+                "text": "A billionaire businessman and inventor, known for companies like Tesla and SpaceX.",
+                "examples": [
+                    "Elon Musk is interested in space exploration."
+                ]
+            }
+        ],
+        "subtext": "famous businessman",
+        "emoji": "🚀"
     }
 ];
     const lang = "en";

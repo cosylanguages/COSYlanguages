@@ -1939,6 +1939,1006 @@
         "subtext": "calm / tolerant",
         "comparative": "more patient",
         "superlative": "the most patient"
+    },
+    {
+        "word": "anxious",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "😟",
+        "form": "adjective",
+        "opposite": "calm",
+        "definitions": [
+            {
+                "text": "Worried and nervous.",
+                "examples": [
+                    "I feel anxious about the exam.",
+                    "The long wait made her anxious."
+                ]
+            }
+        ],
+        "subtext": "worried / nervous",
+        "comparative": "more anxious",
+        "superlative": "the most anxious"
+    },
+    {
+        "word": "curious",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🧐",
+        "form": "adjective",
+        "opposite": "indifferent",
+        "definitions": [
+            {
+                "text": "Interested in learning about people or things around you.",
+                "examples": [
+                    "Children are very curious.",
+                    "I'm curious to know what happened."
+                ]
+            }
+        ],
+        "subtext": "interested / inquisitive",
+        "comparative": "more curious",
+        "superlative": "the most curious"
+    },
+    {
+        "word": "generous",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🎁",
+        "form": "adjective",
+        "opposite": "mean",
+        "definitions": [
+            {
+                "text": "Willing to give money, help, kindness, etc., especially more than is usual or expected.",
+                "examples": [
+                    "He is very generous with his time.",
+                    "It was a generous gift."
+                ]
+            }
+        ],
+        "subtext": "kind / giving",
+        "comparative": "more generous",
+        "superlative": "the most generous"
+    },
+    {
+        "word": "honest",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🤝",
+        "form": "adjective",
+        "opposite": "dishonest",
+        "definitions": [
+            {
+                "text": "Telling the truth or able to be trusted and not likely to steal, cheat, or lie.",
+                "examples": [
+                    "Give me your honest opinion.",
+                    "He is an honest man."
+                ]
+            }
+        ],
+        "subtext": "truthful / trustworthy",
+        "comparative": "more honest",
+        "superlative": "the most honest"
+    },
+    {
+        "word": "intelligent",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🧠",
+        "form": "adjective",
+        "opposite": "stupid",
+        "definitions": [
+            {
+                "text": "Able to learn and understand things easily.",
+                "examples": [
+                    "She is a highly intelligent student.",
+                    "That was an intelligent question."
+                ]
+            }
+        ],
+        "subtext": "clever / smart",
+        "comparative": "more intelligent",
+        "superlative": "the most intelligent"
+    },
+    {
+        "word": "modest",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "😌",
+        "form": "adjective",
+        "opposite": "arrogant",
+        "definitions": [
+            {
+                "text": "Not usually talking about or making obvious your own abilities and achievements.",
+                "examples": [
+                    "He's very modest about his success.",
+                    "She is a modest person."
+                ]
+            }
+        ],
+        "subtext": "humble",
+        "comparative": "more modest",
+        "superlative": "the most modest"
+    },
+    {
+        "word": "optimistic",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "☀️",
+        "form": "adjective",
+        "opposite": "pessimistic",
+        "definitions": [
+            {
+                "text": "Hoping or believing that good things will happen in the future.",
+                "examples": [
+                    "She is optimistic about the new job.",
+                    "He has an optimistic outlook on life."
+                ]
+            }
+        ],
+        "subtext": "positive / hopeful",
+        "comparative": "more optimistic",
+        "superlative": "the most optimistic"
+    },
+    {
+        "word": "pessimistic",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "☁️",
+        "form": "adjective",
+        "opposite": "optimistic",
+        "definitions": [
+            {
+                "text": "Thinking that bad things are more likely to happen or emphasizing the bad part of a situation.",
+                "examples": [
+                    "Don't be so pessimistic.",
+                    "He is pessimistic about the economy."
+                ]
+            }
+        ],
+        "subtext": "negative / hopeless",
+        "comparative": "more pessimistic",
+        "superlative": "the most pessimistic"
+    },
+    {
+        "word": "polite",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🙏",
+        "form": "adjective",
+        "opposite": "impolite",
+        "definitions": [
+            {
+                "text": "Behaving in a way that is socially correct and shows understanding of and care for other people's feelings.",
+                "examples": [
+                    "He is always very polite to his teachers.",
+                    "It is polite to say please and thank you."
+                ]
+            }
+        ],
+        "subtext": "well-mannered / respectful",
+        "comparative": "politer",
+        "superlative": "the politest"
+    },
+    {
+        "word": "selfish",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🤳",
+        "form": "adjective",
+        "opposite": "unselfish",
+        "definitions": [
+            {
+                "text": "Someone who is selfish only thinks of their own advantage.",
+                "examples": [
+                    "It was selfish of him to leave all the work to you.",
+                    "Don't be so selfish!"
+                ]
+            }
+        ],
+        "subtext": "self-centered",
+        "comparative": "more selfish",
+        "superlative": "the most selfish"
+    },
+    {
+        "word": "sensible",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🧠",
+        "form": "adjective",
+        "opposite": "foolish",
+        "definitions": [
+            {
+                "text": "Based on or acting on good judgment and practical ideas or understanding.",
+                "examples": [
+                    "That was a sensible decision.",
+                    "She is a very sensible person."
+                ]
+            }
+        ],
+        "subtext": "practical / reasonable",
+        "comparative": "more sensible",
+        "superlative": "the most sensible"
+    },
+    {
+        "word": "sensitive",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🥺",
+        "form": "adjective",
+        "opposite": "insensitive",
+        "definitions": [
+            {
+                "text": "Easily upset by the things people say or do, or causing people to be upset, embarrassed, or angry.",
+                "examples": [
+                    "He is very sensitive about his weight.",
+                    "She is a sensitive child."
+                ]
+            }
+        ],
+        "subtext": "delicate / emotional",
+        "comparative": "more sensitive",
+        "superlative": "the most sensitive"
+    },
+    {
+        "word": "talented",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🌟",
+        "form": "adjective",
+        "opposite": "untalented",
+        "definitions": [
+            {
+                "text": "With talent; able to do something well.",
+                "examples": [
+                    "He is a talented musician.",
+                    "She is a very talented artist."
+                ]
+            }
+        ],
+        "subtext": "gifted / skilled",
+        "comparative": "more talented",
+        "superlative": "the most talented"
+    },
+    {
+        "word": "upset",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "😢",
+        "form": "adjective",
+        "opposite": "happy",
+        "definitions": [
+            {
+                "text": "Worried, unhappy, or angry.",
+                "examples": [
+                    "She was very upset when she heard the news.",
+                    "Don't get upset over small things."
+                ]
+            }
+        ],
+        "subtext": "unhappy / sad",
+        "comparative": "more upset",
+        "superlative": "the most upset"
+    },
+    {
+        "word": "valuable",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💎",
+        "form": "adjective",
+        "opposite": "worthless",
+        "definitions": [
+            {
+                "text": "Worth a lot of money.",
+                "examples": [
+                    "This is a valuable painting.",
+                    "Your advice was very valuable to me."
+                ]
+            }
+        ],
+        "subtext": "precious / expensive",
+        "comparative": "more valuable",
+        "superlative": "the most valuable"
+    },
+    {
+        "word": "vast",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "🌊",
+        "form": "adjective",
+        "opposite": "tiny",
+        "definitions": [
+            {
+                "text": "Extremely big.",
+                "examples": [
+                    "The ocean is vast.",
+                    "They have a vast amount of experience."
+                ]
+            }
+        ],
+        "subtext": "huge / enormous",
+        "comparative": "vaster",
+        "superlative": "the vastest"
+    },
+    {
+        "word": "weak",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🥀",
+        "form": "adjective",
+        "opposite": "strong",
+        "definitions": [
+            {
+                "text": "Not physically strong.",
+                "examples": [
+                    "He felt weak after the illness.",
+                    "The coffee is too weak."
+                ]
+            }
+        ],
+        "subtext": "not strong / frail",
+        "comparative": "weaker",
+        "superlative": "the weakest"
+    },
+    {
+        "word": "wealthy",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💰",
+        "form": "adjective",
+        "opposite": "poor",
+        "definitions": [
+            {
+                "text": "Rich.",
+                "examples": [
+                    "He comes from a wealthy family.",
+                    "They live in a wealthy neighborhood."
+                ]
+            }
+        ],
+        "subtext": "rich / affluent",
+        "comparative": "wealthier",
+        "superlative": "the wealthiest"
+    },
+    {
+        "word": "willing",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🙋",
+        "form": "adjective",
+        "opposite": "unwilling",
+        "definitions": [
+            {
+                "text": "Happy to do something if it is needed.",
+                "examples": [
+                    "He is a willing helper.",
+                    "I am willing to try new things."
+                ]
+            }
+        ],
+        "subtext": "ready / eager",
+        "comparative": "more willing",
+        "superlative": "the most willing"
+    },
+    {
+        "word": "wise",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🦉",
+        "form": "adjective",
+        "opposite": "foolish",
+        "definitions": [
+            {
+                "text": "Having or showing the ability to make good judgments, based on a deep understanding and experience of life.",
+                "examples": [
+                    "That was a wise choice.",
+                    "He is a wise old man."
+                ]
+            }
+        ],
+        "subtext": "intelligent / sensible",
+        "comparative": "wiser",
+        "superlative": "the wisest"
+    },
+    {
+        "word": "wonderful",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "✨",
+        "form": "adjective",
+        "opposite": "terrible",
+        "definitions": [
+            {
+                "text": "Extremely good.",
+                "examples": [
+                    "We had a wonderful time.",
+                    "The view is wonderful."
+                ]
+            }
+        ],
+        "subtext": "excellent / great",
+        "comparative": "more wonderful",
+        "superlative": "the most wonderful"
+    },
+    {
+        "word": "worried",
+        "level": "elementary",
+        "theme": "social_emotions_A2",
+        "emoji": "😟",
+        "form": "adjective",
+        "opposite": "calm",
+        "definitions": [
+            {
+                "text": "Unhappy because you are thinking about problems or unpleasant things that might happen.",
+                "examples": [
+                    "I'm worried about my exam results.",
+                    "She has a worried look on her face."
+                ]
+            }
+        ],
+        "subtext": "anxious / nervous",
+        "comparative": "more worried",
+        "superlative": "the most worried"
+    },
+    {
+        "word": "wrong",
+        "level": "elementary",
+        "theme": "right_wrong_basic_A2",
+        "emoji": "❌",
+        "form": "adjective",
+        "opposite": "right",
+        "definitions": [
+            {
+                "text": "Not correct.",
+                "examples": [
+                    "That is the wrong answer.",
+                    "What is wrong with the car?"
+                ]
+            }
+        ],
+        "subtext": "incorrect / false",
+        "comparative": "worse",
+        "superlative": "the worst"
+    },
+    {
+        "word": "young",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "👶",
+        "form": "adjective",
+        "opposite": "old",
+        "definitions": [
+            {
+                "text": "Having lived or existed for only a short time and not old.",
+                "examples": [
+                    "She is a young woman.",
+                    "The trees are still young."
+                ]
+            }
+        ],
+        "subtext": "not old / youthful",
+        "comparative": "younger",
+        "superlative": "the youngest"
+    },
+    {
+        "word": "absent",
+        "level": "elementary",
+        "theme": "school_life_routines_A2",
+        "emoji": "❌",
+        "form": "adjective",
+        "opposite": "present",
+        "definitions": [
+            {
+                "text": "Not in the place where you are expected to be, especially at school or work.",
+                "examples": [
+                    "Three students are absent today.",
+                    "He was absent from work for a week."
+                ]
+            }
+        ],
+        "subtext": "not present / away",
+        "comparative": null,
+        "superlative": null
+    },
+    {
+        "word": "brave",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🦁",
+        "form": "adjective",
+        "opposite": "cowardly",
+        "definitions": [
+            {
+                "text": "Showing no fear in dangerous or difficult situations.",
+                "examples": [
+                    "He was a brave soldier.",
+                    "It was a brave decision."
+                ]
+            }
+        ],
+        "subtext": "courageous / fearless",
+        "comparative": "braver",
+        "superlative": "the bravest"
+    },
+    {
+        "word": "brief",
+        "level": "elementary",
+        "theme": "past_time_A2",
+        "emoji": "⏱️",
+        "form": "adjective",
+        "opposite": "long",
+        "definitions": [
+            {
+                "text": "Lasting only a short time or using only a few words.",
+                "examples": [
+                    "We had a brief meeting.",
+                    "Please keep your comments brief."
+                ]
+            }
+        ],
+        "subtext": "short / quick",
+        "comparative": "briefer",
+        "superlative": "the briefest"
+    },
+    {
+        "word": "certain",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "🎯",
+        "form": "adjective",
+        "opposite": "uncertain",
+        "definitions": [
+            {
+                "text": "Having no doubt or knowing exactly that something is true, or known to be true, correct, or real.",
+                "examples": [
+                    "Are you certain about the time?",
+                    "I am certain that he is right."
+                ]
+            }
+        ],
+        "subtext": "sure / definite",
+        "comparative": "more certain",
+        "superlative": "the most certain"
+    },
+    {
+        "word": "cheerful",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "😊",
+        "form": "adjective",
+        "opposite": "miserable",
+        "definitions": [
+            {
+                "text": "Happy and positive.",
+                "examples": [
+                    "She is always cheerful in the morning.",
+                    "The room is bright and cheerful."
+                ]
+            }
+        ],
+        "subtext": "happy / joyful",
+        "comparative": "more cheerful",
+        "superlative": "the most cheerful"
+    },
+    {
+        "word": "clever",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "💡",
+        "form": "adjective",
+        "opposite": "stupid",
+        "definitions": [
+            {
+                "text": "Having or showing the ability to learn and understand things quickly and easily.",
+                "examples": [
+                    "That was a clever idea.",
+                    "He is a very clever boy."
+                ]
+            }
+        ],
+        "subtext": "smart / intelligent",
+        "comparative": "cleverer",
+        "superlative": "the cleverest"
+    },
+    {
+        "word": "comfortable",
+        "level": "elementary",
+        "theme": "home_furnishings_A2",
+        "emoji": "🛋️",
+        "form": "adjective",
+        "opposite": "uncomfortable",
+        "definitions": [
+            {
+                "text": "Comfortable furniture can be sat in or on for a long time without feeling tired or having any pain.",
+                "examples": [
+                    "This sofa is very comfortable.",
+                    "I need some comfortable shoes."
+                ]
+            }
+        ],
+        "subtext": "comfy / cozy",
+        "comparative": "more comfortable",
+        "superlative": "the most comfortable"
+    },
+    {
+        "word": "common",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "👥",
+        "form": "adjective",
+        "opposite": "rare",
+        "definitions": [
+            {
+                "text": "Happening often or existing in large numbers.",
+                "examples": [
+                    "Colds are very common in winter.",
+                    "That is a common mistake."
+                ]
+            }
+        ],
+        "subtext": "usual / frequent",
+        "comparative": "commoner",
+        "superlative": "the commonest"
+    },
+    {
+        "word": "confident",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "✨",
+        "form": "adjective",
+        "opposite": "insecure",
+        "definitions": [
+            {
+                "text": "Being certain of your abilities or having trust in people, plans, or the future.",
+                "examples": [
+                    "He is a confident public speaker.",
+                    "She feels confident about the interview."
+                ]
+            }
+        ],
+        "subtext": "sure of oneself",
+        "comparative": "more confident",
+        "superlative": "the most confident"
+    },
+    {
+        "word": "cruel",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "👿",
+        "form": "adjective",
+        "opposite": "kind",
+        "definitions": [
+            {
+                "text": "Extremely unkind and unpleasant and causing pain to people or animals intentionally.",
+                "examples": [
+                    "It was a cruel thing to say.",
+                    "Don't be cruel to animals."
+                ]
+            }
+        ],
+        "subtext": "mean / unkind",
+        "comparative": "crueller",
+        "superlative": "the cruellest"
+    },
+    {
+        "word": "dangerous",
+        "level": "elementary",
+        "theme": "right_wrong_basic_A2",
+        "emoji": "⚠️",
+        "form": "adjective",
+        "opposite": "safe",
+        "definitions": [
+            {
+                "text": "If someone or something is dangerous, it could harm you.",
+                "examples": [
+                    "It is dangerous to drive too fast.",
+                    "This is a dangerous neighborhood."
+                ]
+            }
+        ],
+        "subtext": "not safe / risky",
+        "comparative": "more dangerous",
+        "superlative": "the most dangerous"
+    },
+    {
+        "word": "difficult",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🧩",
+        "form": "adjective",
+        "opposite": "easy",
+        "definitions": [
+            {
+                "text": "Not easy and needing skill or effort to do or understand.",
+                "examples": [
+                    "This is a difficult exam.",
+                    "Learning a new language is difficult."
+                ]
+            }
+        ],
+        "subtext": "hard / challenging",
+        "comparative": "more difficult",
+        "superlative": "the most difficult"
+    },
+    {
+        "word": "dirty",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "💩",
+        "form": "adjective",
+        "opposite": "clean",
+        "definitions": [
+            {
+                "text": "Not clean.",
+                "examples": [
+                    "Your hands are dirty.",
+                    "This is a dirty towel."
+                ]
+            }
+        ],
+        "subtext": "not clean / messy",
+        "comparative": "dirtier",
+        "superlative": "the dirtiest"
+    },
+    {
+        "word": "easy",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "✅",
+        "form": "adjective",
+        "opposite": "difficult",
+        "definitions": [
+            {
+                "text": "Needed, making it possible to do something without much effort.",
+                "examples": [
+                    "The exam was easy.",
+                    "It's easy to use this app."
+                ]
+            }
+        ],
+        "subtext": "not hard / simple",
+        "comparative": "easier",
+        "superlative": "the easiest"
+    },
+    {
+        "word": "expensive",
+        "level": "elementary",
+        "theme": "finances_A2",
+        "emoji": "💰",
+        "form": "adjective",
+        "opposite": "cheap",
+        "definitions": [
+            {
+                "text": "Costing a lot of money.",
+                "examples": [
+                    "This watch is very expensive.",
+                    "Eating out is expensive in this city."
+                ]
+            }
+        ],
+        "subtext": "costly / high price",
+        "comparative": "more expensive",
+        "superlative": "the most expensive"
+    },
+    {
+        "word": "fair",
+        "level": "elementary",
+        "theme": "right_wrong_basic_A2",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "opposite": "unfair",
+        "definitions": [
+            {
+                "text": "Treating someone in a way that is right or reasonable, or treating a group of people equally and not allowing personal opinions to influence your judgment.",
+                "examples": [
+                    "That was a fair decision.",
+                    "We need to be fair to everyone."
+                ]
+            }
+        ],
+        "subtext": "just / equal",
+        "comparative": "fairer",
+        "superlative": "the fairest"
+    },
+    {
+        "word": "famous",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🌟",
+        "form": "adjective",
+        "opposite": "unknown",
+        "definitions": [
+            {
+                "text": "Known and recognized by many people.",
+                "examples": [
+                    "He is a famous actor.",
+                    "This is a famous landmark."
+                ]
+            }
+        ],
+        "subtext": "well-known / celebrated",
+        "comparative": "more famous",
+        "superlative": "the most famous"
+    },
+    {
+        "word": "fast",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "🏃",
+        "form": "adjective",
+        "opposite": "slow",
+        "definitions": [
+            {
+                "text": "Moving or happening quickly, or able to move or happen quickly.",
+                "examples": [
+                    "He is a fast runner.",
+                    "That was a fast car."
+                ]
+            }
+        ],
+        "subtext": "quick / rapid",
+        "comparative": "faster",
+        "superlative": "the fastest"
+    },
+    {
+        "word": "fat",
+        "level": "elementary",
+        "theme": "personal_qualities_A2",
+        "emoji": "🐘",
+        "form": "adjective",
+        "opposite": "thin",
+        "definitions": [
+            {
+                "text": "Having a lot of flesh on the body.",
+                "examples": [
+                    "The cat is very fat.",
+                    "He needs to lose some weight."
+                ]
+            }
+        ],
+        "subtext": "large / overweight",
+        "comparative": "fatter",
+        "superlative": "the fattest"
+    },
+    {
+        "word": "fine",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "👌",
+        "form": "adjective",
+        "opposite": "bad",
+        "definitions": [
+            {
+                "text": "Good or good enough.",
+                "examples": [
+                    "I feel fine today.",
+                    "Everything is fine."
+                ]
+            }
+        ],
+        "subtext": "okay / good",
+        "comparative": "finer",
+        "superlative": "the finest"
+    },
+    {
+        "word": "flat",
+        "level": "elementary",
+        "theme": "materials_textures_A2",
+        "emoji": "📏",
+        "form": "adjective",
+        "opposite": "bumpy",
+        "definitions": [
+            {
+                "text": "Level and smooth, with no curved or raised parts.",
+                "examples": [
+                    "The ground is flat.",
+                    "I need a flat surface to write on."
+                ]
+            }
+        ],
+        "subtext": "level / even",
+        "comparative": "flatter",
+        "superlative": "the flattest"
+    },
+    {
+        "word": "foreign",
+        "level": "elementary",
+        "theme": "places_geography_A2",
+        "emoji": "🌍",
+        "form": "adjective",
+        "opposite": "domestic",
+        "definitions": [
+            {
+                "text": "Belonging or connected to a country that is not your own or not the one you are in.",
+                "examples": [
+                    "I love learning foreign languages.",
+                    "He has many foreign friends."
+                ]
+            }
+        ],
+        "subtext": "from another country / alien",
+        "comparative": "more foreign",
+        "superlative": "the most foreign"
+    },
+    {
+        "word": "fresh",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "🍏",
+        "form": "adjective",
+        "opposite": "stale",
+        "definitions": [
+            {
+                "text": "Recently made, collected, or cooked.",
+                "examples": [
+                    "I love the smell of fresh bread.",
+                    "Eat more fresh fruit."
+                ]
+            }
+        ],
+        "subtext": "new / recently picked",
+        "comparative": "fresher",
+        "superlative": "the freshest"
+    },
+    {
+        "word": "full",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "🍷",
+        "form": "adjective",
+        "opposite": "empty",
+        "definitions": [
+            {
+                "text": "Containing a lot of things or people or a lot of something.",
+                "examples": [
+                    "The glass is full.",
+                    "The bus was full of people."
+                ]
+            }
+        ],
+        "subtext": "filled / complete",
+        "comparative": "fuller",
+        "superlative": "the fullest"
+    },
+    {
+        "word": "funny",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "😂",
+        "form": "adjective",
+        "opposite": "serious",
+        "definitions": [
+            {
+                "text": "Making you laugh.",
+                "examples": [
+                    "He tells funny stories.",
+                    "That was a funny movie."
+                ]
+            }
+        ],
+        "subtext": "amusing / humorous",
+        "comparative": "funnier",
+        "superlative": "the funniest"
+    },
+    {
+        "word": "great",
+        "level": "elementary",
+        "theme": "condition_state_A2",
+        "emoji": "👍",
+        "form": "adjective",
+        "opposite": "terrible",
+        "definitions": [
+            {
+                "text": "Very good.",
+                "examples": [
+                    "We had a great time.",
+                    "That's a great idea!"
+                ]
+            }
+        ],
+        "subtext": "wonderful / excellent",
+        "comparative": "greater",
+        "superlative": "the greatest"
     }
     ];
     const lang = "en";

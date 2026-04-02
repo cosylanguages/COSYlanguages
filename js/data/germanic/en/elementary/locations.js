@@ -421,36 +421,6 @@
         "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
     },
     {
-        "word": "Germany",
-        "level": "elementary",
-        "theme": "landscape_geography_A2",
-        "definitions": [
-            {
-                "text": "A Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches.",
-                "examples": [
-                    "I would love to travel to Germany."
-                ]
-            }
-        ],
-        "subtext": "country",
-        "emoji": "🇩🇪"
-    },
-    {
-        "word": "Canada",
-        "level": "elementary",
-        "theme": "landscape_geography_A2",
-        "definitions": [
-            {
-                "text": "The second-largest country in the world, known for its vast wilderness and friendly cities.",
-                "examples": [
-                    "I would love to travel to Canada."
-                ]
-            }
-        ],
-        "subtext": "country",
-        "emoji": "🇨🇦"
-    },
-    {
         "word": "Mexico",
         "level": "elementary",
         "theme": "landscape_geography_A2",
@@ -464,21 +434,6 @@
         ],
         "subtext": "country",
         "emoji": "🇲🇽"
-    },
-    {
-        "word": "Egypt",
-        "level": "elementary",
-        "theme": "landscape_geography_A2",
-        "definitions": [
-            {
-                "text": "A country linking northeast Africa with the Middle East, famous for its ancient pyramids.",
-                "examples": [
-                    "I would love to travel to Egypt."
-                ]
-            }
-        ],
-        "subtext": "country",
-        "emoji": "🇪🇬"
     },
     {
         "word": "Turkey",
@@ -539,21 +494,6 @@
         ],
         "subtext": "country",
         "emoji": "🇬🇪"
-    },
-    {
-        "word": "Berlin",
-        "level": "elementary",
-        "theme": "landscape_geography_A2",
-        "definitions": [
-            {
-                "text": "The capital of Germany, known for its art scene and modern landmarks like the Brandenburg Gate.",
-                "examples": [
-                    "I would love to travel to Berlin."
-                ]
-            }
-        ],
-        "subtext": "city",
-        "emoji": "🇩🇪"
     },
     {
         "word": "Madrid",
@@ -659,6 +599,156 @@
         ],
         "subtext": "city",
         "emoji": "🇷🇺"
+    },
+    {
+        "word": "Munich",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "A large city in Germany famous for its beautiful architecture and the Oktoberfest festival.",
+                "examples": [
+                    "I want to visit Munich."
+                ]
+            }
+        ],
+        "subtext": "city",
+        "emoji": "🇩🇪"
+    },
+    {
+        "word": "Milan",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "A global capital of fashion and design in Italy's northern Lombardy region.",
+                "examples": [
+                    "I want to visit Milan."
+                ]
+            }
+        ],
+        "subtext": "city",
+        "emoji": "🇮🇹"
+    },
+    {
+        "word": "Warsaw",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "The capital city of Poland, a major cultural and economic hub.",
+                "examples": [
+                    "I want to visit Warsaw."
+                ]
+            }
+        ],
+        "subtext": "city",
+        "emoji": "🇵🇱"
+    },
+    {
+        "word": "Kyoto",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "A city in Japan famous for its many classical Buddhist temples and gardens.",
+                "examples": [
+                    "I want to visit Kyoto."
+                ]
+            }
+        ],
+        "subtext": "city",
+        "emoji": "🇯🇵"
+    },
+    {
+        "word": "Cape Town",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "A port city on South Africa’s southwest coast, on a peninsula beneath Table Mountain.",
+                "examples": [
+                    "I want to visit Cape Town."
+                ]
+            }
+        ],
+        "subtext": "city",
+        "emoji": "🇿🇦"
+    },
+    {
+        "word": "Iceland",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "An island country in the North Atlantic, known for its dramatic landscape with volcanoes and hot springs.",
+                "examples": [
+                    "I want to visit Iceland."
+                ]
+            }
+        ],
+        "subtext": "country",
+        "emoji": "🇮🇸"
+    },
+    {
+        "word": "New Zealand",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "An island country in the southwestern Pacific Ocean, known for its stunning mountains and lakes.",
+                "examples": [
+                    "I want to visit New Zealand."
+                ]
+            }
+        ],
+        "subtext": "country",
+        "emoji": "🇳🇿"
+    },
+    {
+        "word": "Malaysia",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "A Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo.",
+                "examples": [
+                    "I want to visit Malaysia."
+                ]
+            }
+        ],
+        "subtext": "country",
+        "emoji": "🇲🇾"
+    },
+    {
+        "word": "Hungary",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "A landlocked country in Central Europe, famous for its capital, Budapest.",
+                "examples": [
+                    "I want to visit Hungary."
+                ]
+            }
+        ],
+        "subtext": "country",
+        "emoji": "🇭🇺"
+    },
+    {
+        "word": "Croatia",
+        "level": "elementary",
+        "theme": "landscape_geography_A2",
+        "definitions": [
+            {
+                "text": "A country at the crossroads of Central and Southeast Europe, on the Adriatic Sea.",
+                "examples": [
+                    "I want to visit Croatia."
+                ]
+            }
+        ],
+        "subtext": "country",
+        "emoji": "🇭🇷"
     }
 ];
     const lang = "en";

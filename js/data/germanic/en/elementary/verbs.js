@@ -2482,6 +2482,732 @@
         "v2": "convinced",
         "v3": "convinced",
         "opposite": "dissuade"
+    },
+    {
+        "word": "calculate",
+        "level": "elementary",
+        "theme": "basic_arithmetic_A2",
+        "emoji": "🧮",
+        "form": "verb",
+        "subtext": "calculate the cost / calculate the distance / calculate results",
+        "definitions": [
+            {
+                "text": "To discover an amount or number using mathematics.",
+                "examples": [
+                    "Can you calculate the total cost?",
+                    "We need to calculate how much paint we need."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "calculated",
+        "v3": "calculated",
+        "opposite": "guess"
+    },
+    {
+        "word": "measure",
+        "level": "elementary",
+        "theme": "basic_science_A2",
+        "emoji": "📏",
+        "form": "verb",
+        "subtext": "measure length / measure temperature / measure success",
+        "definitions": [
+            {
+                "text": "To discover the exact size or amount of something.",
+                "examples": [
+                    "Measure the width of the window.",
+                    "The nurse measured my height."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "measured",
+        "v3": "measured",
+        "opposite": "estimate"
+    },
+    {
+        "word": "deposit",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "💰",
+        "form": "verb",
+        "subtext": "deposit money / deposit a check / direct deposit",
+        "definitions": [
+            {
+                "text": "To put money into a bank account.",
+                "examples": [
+                    "I need to deposit this check.",
+                    "She deposited five hundred dollars into her savings account."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "deposited",
+        "v3": "deposited",
+        "opposite": "withdraw"
+    },
+    {
+        "word": "reserve",
+        "level": "elementary",
+        "theme": "accommodation_A2",
+        "emoji": "🛎️",
+        "form": "verb",
+        "subtext": "reserve a room / reserve a table / reserve a seat",
+        "definitions": [
+            {
+                "text": "To keep something for a particular person or purpose.",
+                "examples": [
+                    "I'd like to reserve a table for two.",
+                    "The seats are reserved for elderly passengers."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "reserved",
+        "v3": "reserved",
+        "opposite": "cancel"
+    },
+    {
+        "word": "attend",
+        "level": "elementary",
+        "theme": "school_life_routines_A2",
+        "emoji": "🙋",
+        "form": "verb",
+        "subtext": "attend a meeting / attend school / attend a wedding",
+        "definitions": [
+            {
+                "text": "To go to an event, place, etc.",
+                "examples": [
+                    "He attends church every Sunday.",
+                    "We attended a very interesting lecture."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "attended",
+        "v3": "attended",
+        "opposite": "miss"
+    },
+    {
+        "word": "graduate",
+        "level": "elementary",
+        "theme": "qualifications_exams_A2",
+        "emoji": "🎓",
+        "form": "verb",
+        "subtext": "graduate from university / graduate high school / recent graduate",
+        "definitions": [
+            {
+                "text": "To complete a school, college, or university course.",
+                "examples": [
+                    "She graduated from Oxford last year.",
+                    "My brother is graduating this summer."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "graduated",
+        "v3": "graduated",
+        "opposite": "drop out"
+    },
+    {
+        "word": "rent",
+        "level": "elementary",
+        "theme": "renting_landlords_A2",
+        "emoji": "🔑",
+        "form": "verb",
+        "subtext": "rent a flat / rent a car / for rent",
+        "definitions": [
+            {
+                "text": "To pay money to use something for a period of time.",
+                "examples": [
+                    "They are renting a house near the beach.",
+                    "How much does it cost to rent a bike?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "rented",
+        "v3": "rented",
+        "opposite": "own"
+    },
+    {
+        "word": "protect",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🛡️",
+        "form": "verb",
+        "subtext": "protect the environment / protect wildlife / protect from harm",
+        "definitions": [
+            {
+                "text": "To keep someone or something safe from injury, damage, or loss.",
+                "examples": [
+                    "We must protect the forest.",
+                    "Sunglasses protect your eyes from the sun."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "protected",
+        "v3": "protected",
+        "opposite": "damage"
+    },
+    {
+        "word": "identify",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🔎",
+        "form": "verb",
+        "subtext": "identify a problem / identify a suspect / identify as",
+        "definitions": [
+            {
+                "text": "To recognize someone or something and say who or what they are.",
+                "examples": [
+                    "Can you identify the man in the photo?",
+                    "The police identified the problem quickly."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "identified",
+        "v3": "identified",
+        "opposite": "ignore"
+    },
+    {
+        "word": "describe",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "📝",
+        "form": "verb",
+        "subtext": "describe someone / describe a situation / describe in detail",
+        "definitions": [
+            {
+                "text": "To say or write what someone or something is like.",
+                "examples": [
+                    "Can you describe your new house?",
+                    "He described the accident to the police."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "described",
+        "v3": "described",
+        "opposite": "summarize"
+    },
+    {
+        "word": "participate",
+        "level": "elementary",
+        "theme": "community_neighbourhood_local_A2",
+        "emoji": "🙋",
+        "form": "verb",
+        "subtext": "participate in a meeting / participate in a discussion / active participation",
+        "definitions": [
+            {
+                "text": "To take part in or become involved in an activity.",
+                "examples": [
+                    "Everyone is encouraged to participate in the project.",
+                    "She participated in the marathon."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "participated",
+        "v3": "participated",
+        "opposite": "withdraw"
+    },
+    {
+        "word": "mention",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "🗣️",
+        "form": "verb",
+        "subtext": "mention something / don't mention it / as mentioned before",
+        "definitions": [
+            {
+                "text": "To speak or write about something briefly.",
+                "examples": [
+                    "He mentioned that he was going to be late.",
+                    "Did she mention the new project?"
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "mentioned",
+        "v3": "mentioned",
+        "opposite": "ignore"
+    },
+    {
+        "word": "depend",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "🔗",
+        "form": "verb",
+        "subtext": "depend on / it depends / depend on someone",
+        "definitions": [
+            {
+                "text": "To be decided by or change according to something else.",
+                "examples": [
+                    "Whether we go depends on the weather.",
+                    "I can always depend on my friends."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "depended",
+        "v3": "depended",
+        "opposite": "stand alone"
+    },
+    {
+        "word": "prepare",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "📝",
+        "form": "verb",
+        "subtext": "prepare for an exam / prepare a meal / prepare a speech",
+        "definitions": [
+            {
+                "text": "To make or get something or someone ready for something that will happen in the future.",
+                "examples": [
+                    "I'm preparing for my driving test.",
+                    "We are preparing the report."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "prepared",
+        "v3": "prepared",
+        "opposite": "improvise"
+    },
+    {
+        "word": "organize",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "📂",
+        "form": "verb",
+        "subtext": "organize a meeting / organize a trip / highly organized",
+        "definitions": [
+            {
+                "text": "To make arrangements for something to happen.",
+                "examples": [
+                    "She is organizing the office party.",
+                    "I need to organize my desk."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "organized",
+        "v3": "organized",
+        "opposite": "mess up"
+    },
+    {
+        "word": "manage",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "💼",
+        "form": "verb",
+        "subtext": "manage a project / manage time / manage to do something",
+        "definitions": [
+            {
+                "text": "To succeed in doing or dealing with something, especially something difficult.",
+                "examples": [
+                    "How do you manage to stay so calm?",
+                    "He manages the department efficiently."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "managed",
+        "v3": "managed",
+        "opposite": "fail"
+    },
+    {
+        "word": "improve",
+        "level": "elementary",
+        "theme": "school_life_routines_A2",
+        "emoji": "📈",
+        "form": "verb",
+        "subtext": "improve your English / improve performance / room for improvement",
+        "definitions": [
+            {
+                "text": "To get better, or to make something better.",
+                "examples": [
+                    "I want to improve my speaking skills.",
+                    "The weather is improving."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "improved",
+        "v3": "improved",
+        "opposite": "worsen"
+    },
+    {
+        "word": "increase",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "📈",
+        "form": "verb",
+        "subtext": "increase in price / increase by ten percent / steady increase",
+        "definitions": [
+            {
+                "text": "To become or make something larger in amount or size.",
+                "examples": [
+                    "The population is increasing.",
+                    "We need to increase our sales."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "increased",
+        "v3": "increased",
+        "opposite": "decrease"
+    },
+    {
+        "word": "decrease",
+        "level": "elementary",
+        "theme": "quantity_degree_A2",
+        "emoji": "📉",
+        "form": "verb",
+        "subtext": "decrease in number / decrease gradually / significant decrease",
+        "definitions": [
+            {
+                "text": "To become less, or to make something become less.",
+                "examples": [
+                    "The number of students decreased this year.",
+                    "We should decrease our spending."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "decreased",
+        "v3": "decreased",
+        "opposite": "increase"
+    },
+    {
+        "word": "achieve",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🏆",
+        "form": "verb",
+        "subtext": "achieve a goal / achieve success / achieve results",
+        "definitions": [
+            {
+                "text": "To succeed in finishing something or reaching a goal.",
+                "examples": [
+                    "She achieved a lot in her career.",
+                    "The team achieved their target."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "achieved",
+        "v3": "achieved",
+        "opposite": "fail"
+    },
+    {
+        "word": "calculate",
+        "level": "elementary",
+        "theme": "basic_arithmetic_A2",
+        "emoji": "🧮",
+        "form": "verb",
+        "subtext": "calculate the cost / calculate the total / calculate accurately",
+        "definitions": [
+            {
+                "text": "To find an answer using mathematics.",
+                "examples": [
+                    "Can you calculate the total?",
+                    "We need to calculate the distance."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "calculated",
+        "v3": "calculated",
+        "opposite": "guess"
+    },
+    {
+        "word": "measure",
+        "level": "elementary",
+        "theme": "basic_science_A2",
+        "emoji": "📏",
+        "form": "verb",
+        "subtext": "measure height / measure weight / measure exactly",
+        "definitions": [
+            {
+                "text": "To find the size, weight, or amount of something.",
+                "examples": [
+                    "Measure the length of the table.",
+                    "He measured his heart rate."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "measured",
+        "v3": "measured",
+        "opposite": "estimate"
+    },
+    {
+        "word": "solve",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🧩",
+        "form": "verb",
+        "subtext": "solve a problem / solve a riddle / find a solution",
+        "definitions": [
+            {
+                "text": "To find an answer to a problem.",
+                "examples": [
+                    "He solved the mystery.",
+                    "We need to solve this problem quickly."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "solved",
+        "v3": "solved",
+        "opposite": "complicate"
+    },
+    {
+        "word": "recommend",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "👍",
+        "form": "verb",
+        "subtext": "recommend a book / recommend a restaurant / highly recommended",
+        "definitions": [
+            {
+                "text": "To suggest that someone or something would be good or suitable for a particular job or purpose.",
+                "examples": [
+                    "Can you recommend a good hotel?",
+                    "I recommend this book to everyone."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "recommended",
+        "v3": "recommended",
+        "opposite": "warn against"
+    },
+    {
+        "word": "compare",
+        "level": "elementary",
+        "theme": "comparison_A2",
+        "emoji": "⚖️",
+        "form": "verb",
+        "subtext": "compare prices / compare options / in comparison with",
+        "definitions": [
+            {
+                "text": "To examine or look for the difference between two or more things.",
+                "examples": [
+                    "Compare the two maps.",
+                    "If you compare the prices, this one is cheaper."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "compared",
+        "v3": "compared",
+        "opposite": "differentiate"
+    },
+    {
+        "word": "complete",
+        "level": "elementary",
+        "theme": "school_life_routines_A2",
+        "emoji": "✅",
+        "form": "verb",
+        "subtext": "complete a task / complete a form / full completion",
+        "definitions": [
+            {
+                "text": "To finish doing something.",
+                "examples": [
+                    "Please complete the application form.",
+                    "He completed the race in record time."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "completed",
+        "v3": "completed",
+        "opposite": "start"
+    },
+    {
+        "word": "contain",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "📦",
+        "form": "verb",
+        "subtext": "contain sugar / contain information / the box contains",
+        "definitions": [
+            {
+                "text": "To have something inside or include something as a part.",
+                "examples": [
+                    "This drink contains a lot of sugar.",
+                    "The letter contains important news."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "stative",
+        "v2": "contained",
+        "v3": "contained",
+        "opposite": "exclude"
+    },
+    {
+        "word": "continue",
+        "level": "elementary",
+        "theme": "school_life_routines_A2",
+        "emoji": "➡️",
+        "form": "verb",
+        "subtext": "continue working / continue the journey / to be continued",
+        "definitions": [
+            {
+                "text": "To keep happening, or to keep doing something without stopping.",
+                "examples": [
+                    "The rain continued all day.",
+                    "Please continue reading."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "both",
+        "v2": "continued",
+        "v3": "continued",
+        "opposite": "stop"
+    },
+    {
+        "word": "deliver",
+        "level": "elementary",
+        "theme": "restaurants_ordering_A2",
+        "emoji": "📦",
+        "form": "verb",
+        "subtext": "deliver a pizza / deliver a parcel / home delivery",
+        "definitions": [
+            {
+                "text": "To take goods, letters, parcels, etc. to a person or place.",
+                "examples": [
+                    "The pizza was delivered in thirty minutes.",
+                    "They deliver groceries to your door."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "delivered",
+        "v3": "delivered",
+        "opposite": "collect"
+    },
+    {
+        "word": "develop",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "💻",
+        "form": "verb",
+        "subtext": "develop a product / develop a skill / research and development",
+        "definitions": [
+            {
+                "text": "To grow or change into something more advanced.",
+                "examples": [
+                    "The company is developing a new app.",
+                    "She is developing her photography skills."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "developed",
+        "v3": "developed",
+        "opposite": "regress"
+    },
+    {
+        "word": "examine",
+        "level": "elementary",
+        "theme": "basic_science_A2",
+        "emoji": "🔬",
+        "form": "verb",
+        "subtext": "examine a patient / examine a document / cross-examination",
+        "definitions": [
+            {
+                "text": "To look at or consider a person or thing carefully in order to discover something about them.",
+                "examples": [
+                    "The doctor examined the child.",
+                    "We need to examine the evidence."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "examined",
+        "v3": "examined",
+        "opposite": "ignore"
+    },
+    {
+        "word": "explain",
+        "level": "elementary",
+        "theme": "giving_reasons_A2",
+        "emoji": "💡",
+        "form": "verb",
+        "subtext": "explain the rules / explain clearly / let me explain",
+        "definitions": [
+            {
+                "text": "To make something clear or easy to understand by giving more details.",
+                "examples": [
+                    "Can you explain this math problem?",
+                    "He explained why he was late."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "explained",
+        "v3": "explained",
+        "opposite": "confuse"
+    },
+    {
+        "word": "explore",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "🧭",
+        "form": "verb",
+        "subtext": "explore the woods / explore new ideas / exploration",
+        "definitions": [
+            {
+                "text": "To search and discover about something.",
+                "examples": [
+                    "They went to explore the island.",
+                    "We should explore all the options."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "explored",
+        "v3": "explored",
+        "opposite": "ignore"
     }
     ];
     const lang = "en";

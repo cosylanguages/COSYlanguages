@@ -1838,6 +1838,911 @@
         ],
         "subtext": "government levy / duty",
         "countability": "countable"
+    },
+    {
+        "word": "decimal point",
+        "level": "elementary",
+        "theme": "decimals_A2",
+        "emoji": "🔢",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The dot used to separate the whole number part from the fractional part of a decimal number.",
+                "examples": [
+                    "Put the decimal point in the correct place.",
+                    "The number is five point five."
+                ]
+            }
+        ],
+        "subtext": "dot in numbers",
+        "countability": "countable"
+    },
+    {
+        "word": "percent",
+        "level": "elementary",
+        "theme": "percentages_A2",
+        "emoji": "%",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "For every one hundred.",
+                "examples": [
+                    "Ten percent of the students are absent.",
+                    "The price increased by five percent."
+                ]
+            }
+        ],
+        "subtext": "per hundred / percentage",
+        "countability": "uncountable"
+    },
+    {
+        "word": "wedding",
+        "level": "elementary",
+        "theme": "marriage_partnership_A2",
+        "emoji": "💒",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A marriage ceremony and any celebrations that follow it.",
+                "examples": [
+                    "We are going to a wedding on Saturday.",
+                    "The wedding was very beautiful."
+                ]
+            }
+        ],
+        "subtext": "marriage ceremony",
+        "countability": "countable"
+    },
+    {
+        "word": "tenant",
+        "level": "elementary",
+        "theme": "renting_landlords_A2",
+        "emoji": "🔑",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A person who pays rent for the use of land or a building.",
+                "examples": [
+                    "The tenant moves in next week.",
+                    "The landlord fixed the leak for the tenant."
+                ]
+            }
+        ],
+        "subtext": "renter",
+        "countability": "countable",
+        "opposite": "landlord"
+    },
+    {
+        "word": "deposit",
+        "level": "elementary",
+        "theme": "renting_landlords_A2",
+        "emoji": "💰",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An amount of money that you pay as the first part of the total cost of something.",
+                "examples": [
+                    "We paid a deposit for the flat.",
+                    "You will get your deposit back when you leave."
+                ]
+            }
+        ],
+        "subtext": "down payment / security payment",
+        "countability": "countable"
+    },
+    {
+        "word": "degree",
+        "level": "elementary",
+        "theme": "qualifications_exams_A2",
+        "emoji": "🎓",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A course of study at a college or university, or the qualification given to a student after completing it.",
+                "examples": [
+                    "She has a degree in history.",
+                    "I want to get a university degree."
+                ]
+            }
+        ],
+        "subtext": "university qualification",
+        "countability": "countable"
+    },
+    {
+        "word": "reception",
+        "level": "elementary",
+        "theme": "accommodation_A2",
+        "emoji": "🛎️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The place in a hotel or office building where people go when they first arrive.",
+                "examples": [
+                    "Please leave your key at reception.",
+                    "The reception desk is open twenty-four hours."
+                ]
+            }
+        ],
+        "subtext": "front desk",
+        "countability": "uncountable"
+    },
+    {
+        "word": "interest rate",
+        "level": "elementary",
+        "theme": "banking_A2",
+        "emoji": "📈",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The percentage amount that a bank charges you when you borrow money, or pays you when you keep money in an account.",
+                "examples": [
+                    "The interest rate on my loan is high.",
+                    "Banks are offering low interest rates."
+                ]
+            }
+        ],
+        "subtext": "bank percentage",
+        "countability": "countable"
+    },
+    {
+        "word": "aisle",
+        "level": "elementary",
+        "theme": "shopping_for_food_A2",
+        "emoji": "🛒",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A long, narrow space between rows of shelves in a shop.",
+                "examples": [
+                    "The bread is in aisle five.",
+                    "You can find the juice in the next aisle."
+                ]
+            }
+        ],
+        "subtext": "passage in a shop",
+        "countability": "countable"
+    },
+    {
+        "word": "trolley",
+        "level": "elementary",
+        "theme": "shopping_for_food_A2",
+        "emoji": "🛒",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A small vehicle with wheels that you push and use for carrying things in a supermarket.",
+                "examples": [
+                    "Put the groceries in the trolley.",
+                    "The trolley is full."
+                ]
+            }
+        ],
+        "subtext": "shopping cart",
+        "countability": "countable"
+    },
+    {
+        "word": "ingredient",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "🥕",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "One of the foods that you use to make a particular food or dish.",
+                "examples": [
+                    "Mix all the ingredients together.",
+                    "The main ingredient is flour."
+                ]
+            }
+        ],
+        "subtext": "food component",
+        "countability": "countable"
+    },
+    {
+        "word": "recipe",
+        "level": "elementary",
+        "theme": "diet_nutrition_A2",
+        "emoji": "📖",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A set of instructions telling you how to cook something.",
+                "examples": [
+                    "I have a great recipe for chocolate cake.",
+                    "Follow the recipe carefully."
+                ]
+            }
+        ],
+        "subtext": "cooking instructions",
+        "countability": "countable"
+    },
+    {
+        "word": "gym",
+        "level": "elementary",
+        "theme": "exercise_fitness_A2",
+        "emoji": "🏋️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A place where people go to exercise.",
+                "examples": [
+                    "I go to the gym every morning.",
+                    "The gym is near my house."
+                ]
+            }
+        ],
+        "subtext": "fitness centre",
+        "countability": "countable"
+    },
+    {
+        "word": "yoga",
+        "level": "elementary",
+        "theme": "exercise_fitness_A2",
+        "emoji": "🧘",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A set of physical and mental exercises intended to give control over the body and mind.",
+                "examples": [
+                    "She does yoga twice a week.",
+                    "Yoga is very relaxing."
+                ]
+            }
+        ],
+        "subtext": "stretching exercise",
+        "countability": "uncountable"
+    },
+    {
+        "word": "competition",
+        "level": "elementary",
+        "theme": "interests_hobbies_A2",
+        "emoji": "🏆",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An organized event in which people try to win a prize by being the best.",
+                "examples": [
+                    "He won the swimming competition.",
+                    "There is a photography competition next month."
+                ]
+            }
+        ],
+        "subtext": "contest",
+        "countability": "countable"
+    },
+    {
+        "word": "instrument",
+        "level": "elementary",
+        "theme": "interests_hobbies_A2",
+        "emoji": "🎸",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An object, such as a piano, guitar, or drum, that is played to produce musical sounds.",
+                "examples": [
+                    "Do you play a musical instrument?",
+                    "The piano is a difficult instrument to learn."
+                ]
+            }
+        ],
+        "subtext": "musical object",
+        "countability": "countable"
+    },
+    {
+        "word": "hobby",
+        "level": "elementary",
+        "theme": "interests_hobbies_A2",
+        "emoji": "🧩",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An activity that you enjoy doing in your free time.",
+                "examples": [
+                    "My main hobby is gardening.",
+                    "Collecting stamps is an unusual hobby."
+                ]
+            }
+        ],
+        "subtext": "leisure activity",
+        "countability": "countable"
+    },
+    {
+        "word": "tourist",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "📸",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A person who is visiting a place for pleasure.",
+                "examples": [
+                    "The city is full of tourists in summer.",
+                    "I am a tourist in Paris."
+                ]
+            }
+        ],
+        "subtext": "traveler / visitor",
+        "countability": "countable"
+    },
+    {
+        "word": "guidebook",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "📕",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A book that gives information about a place for visitors.",
+                "examples": [
+                    "I bought a guidebook for Rome.",
+                    "The guidebook has a good map."
+                ]
+            }
+        ],
+        "subtext": "travel book",
+        "countability": "countable"
+    },
+    {
+        "word": "sightseeing",
+        "level": "elementary",
+        "theme": "holiday_types_A2",
+        "emoji": "🏛️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The activity of visiting interesting places, especially by people on holiday.",
+                "examples": [
+                    "We did a lot of sightseeing in London.",
+                    "Let's go sightseeing tomorrow."
+                ]
+            }
+        ],
+        "subtext": "visiting attractions",
+        "countability": "uncountable"
+    },
+    {
+        "word": "nature reserve",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🏞️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "An area of land that is protected so that plants and animals can live there safely.",
+                "examples": [
+                    "We visited the local nature reserve.",
+                    "The nature reserve is home to many rare birds."
+                ]
+            }
+        ],
+        "subtext": "protected area",
+        "countability": "countable"
+    },
+    {
+        "word": "solar power",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "☀️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Energy from the sun that is used to create electricity.",
+                "examples": [
+                    "Many houses use solar power now.",
+                    "Solar power is a clean energy source."
+                ]
+            }
+        ],
+        "subtext": "sun energy",
+        "countability": "uncountable"
+    },
+    {
+        "word": "wind farm",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🌬️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A group of wind turbines that produce electricity.",
+                "examples": [
+                    "There is a large wind farm on the hill.",
+                    "Wind farms are becoming more common."
+                ]
+            }
+        ],
+        "subtext": "wind energy site",
+        "countability": "countable"
+    },
+    {
+        "word": "global warming",
+        "level": "elementary",
+        "theme": "environmental_protection_A2",
+        "emoji": "🌡️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A gradual increase in the world's temperature caused by gases in the air.",
+                "examples": [
+                    "Global warming is a serious problem.",
+                    "We must work together to stop global warming."
+                ]
+            }
+        ],
+        "subtext": "climate warming",
+        "countability": "uncountable"
+    },
+    {
+        "word": "wildlife",
+        "level": "elementary",
+        "theme": "animals_nature_A2",
+        "emoji": "🦁",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Animals and plants that live or grow in the wild.",
+                "examples": [
+                    "I love watching wildlife documentaries.",
+                    "We should protect local wildlife."
+                ]
+            }
+        ],
+        "subtext": "wild animals",
+        "countability": "uncountable"
+    },
+    {
+        "word": "habitat",
+        "level": "elementary",
+        "theme": "animals_nature_A2",
+        "emoji": "🏡",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The natural environment in which an animal or plant lives.",
+                "examples": [
+                    "Polar bears are losing their natural habitat.",
+                    "The forest is an important habitat for many creatures."
+                ]
+            }
+        ],
+        "subtext": "natural home",
+        "countability": "countable"
+    },
+    {
+        "word": "fossil",
+        "level": "elementary",
+        "theme": "basic_science_A2",
+        "emoji": "🦴",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The remains or shape of a dead animal or plant that has become rock after many years.",
+                "examples": [
+                    "They found a dinosaur fossil.",
+                    "He collects fossils."
+                ]
+            }
+        ],
+        "subtext": "old remains",
+        "countability": "countable"
+    },
+    {
+        "word": "microscope",
+        "level": "elementary",
+        "theme": "basic_science_A2",
+        "emoji": "🔬",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A scientific tool that makes very small things look larger.",
+                "examples": [
+                    "Look at the cell under the microscope.",
+                    "We used a microscope in the science lab."
+                ]
+            }
+        ],
+        "subtext": "magnifying tool",
+        "countability": "countable"
+    },
+    {
+        "word": "experiment",
+        "level": "elementary",
+        "theme": "basic_science_A2",
+        "emoji": "🧪",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A scientific test that is done to discover something or to see if an idea is true.",
+                "examples": [
+                    "We did an experiment in school today.",
+                    "The experiment was a success."
+                ]
+            }
+        ],
+        "subtext": "scientific test",
+        "countability": "countable"
+    },
+    {
+        "word": "galaxy",
+        "level": "elementary",
+        "theme": "basic_science_A2",
+        "emoji": "🌌",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "One of the independent groups of stars in the universe.",
+                "examples": [
+                    "Our galaxy is called the Milky Way.",
+                    "There are millions of galaxies in the universe."
+                ]
+            }
+        ],
+        "subtext": "group of stars",
+        "countability": "countable"
+    },
+    {
+        "word": "skeleton",
+        "level": "elementary",
+        "theme": "human_body_A2",
+        "emoji": "💀",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The frame of bones supporting a human or animal body.",
+                "examples": [
+                    "The human skeleton has over two hundred bones.",
+                    "The museum has a whale skeleton."
+                ]
+            }
+        ],
+        "subtext": "body bones",
+        "countability": "countable"
+    },
+    {
+        "word": "muscle",
+        "level": "elementary",
+        "theme": "human_body_A2",
+        "emoji": "💪",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "One of the parts of the body that produce movement.",
+                "examples": [
+                    "Exercise helps build muscle.",
+                    "I pulled a muscle in my leg."
+                ]
+            }
+        ],
+        "subtext": "body tissue",
+        "countability": "countable"
+    },
+    {
+        "word": "brain",
+        "level": "elementary",
+        "theme": "human_body_A2",
+        "emoji": "🧠",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The organ inside the head that controls thought, memory, feelings, and activity.",
+                "examples": [
+                    "The human brain is very complex.",
+                    "Use your brain!"
+                ]
+            }
+        ],
+        "subtext": "mind organ",
+        "countability": "countable"
+    },
+    {
+        "word": "heart",
+        "level": "elementary",
+        "theme": "human_body_A2",
+        "emoji": "❤️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The organ in the chest that pumps blood around the body.",
+                "examples": [
+                    "Exercise is good for your heart.",
+                    "I can feel my heart beating."
+                ]
+            }
+        ],
+        "subtext": "blood pump",
+        "countability": "countable"
+    },
+    {
+        "word": "lung",
+        "level": "elementary",
+        "theme": "human_body_A2",
+        "emoji": "🫁",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "One of the two organs in the chest that you use for breathing.",
+                "examples": [
+                    "Smoking damages your lungs.",
+                    "Take a deep breath and fill your lungs."
+                ]
+            }
+        ],
+        "subtext": "breathing organ",
+        "countability": "countable"
+    },
+    {
+        "word": "stomach",
+        "level": "elementary",
+        "theme": "human_body_A2",
+        "emoji": "🤰",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The organ in the body where food goes after it is eaten.",
+                "examples": [
+                    "My stomach hurts.",
+                    "He has a full stomach after dinner."
+                ]
+            }
+        ],
+        "subtext": "tummy",
+        "countability": "countable"
+    },
+    {
+        "word": "identity",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🪪",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Who a person is, or the qualities of a person or group that make them different from others.",
+                "examples": [
+                    "I need to see some form of identity.",
+                    "Cultural identity is important."
+                ]
+            }
+        ],
+        "subtext": "who you are",
+        "countability": "uncountable"
+    },
+    {
+        "word": "character",
+        "level": "elementary",
+        "theme": "personality_character_A2",
+        "emoji": "🎭",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The particular combination of qualities in a person or place that makes them different from others.",
+                "examples": [
+                    "He is a strong character.",
+                    "The town has a lot of character."
+                ]
+            }
+        ],
+        "subtext": "personality",
+        "countability": "uncountable"
+    },
+    {
+        "word": "partner",
+        "level": "elementary",
+        "theme": "relationships_dating_A2",
+        "emoji": "👩‍❤️‍👨",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Someone who you are married to or having a long-term sexual relationship with.",
+                "examples": [
+                    "This is my partner, Jane.",
+                    "They have been partners for ten years."
+                ]
+            }
+        ],
+        "subtext": "companion / spouse",
+        "countability": "countable"
+    },
+    {
+        "word": "colleague",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🤝",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A person that you work with.",
+                "examples": [
+                    "We are having lunch with our colleagues.",
+                    "He is a helpful colleague."
+                ]
+            }
+        ],
+        "subtext": "coworker",
+        "countability": "countable"
+    },
+    {
+        "word": "customer",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👤",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A person who buys goods or services from a shop or business.",
+                "examples": [
+                    "The customer is always right.",
+                    "We have many regular customers."
+                ]
+            }
+        ],
+        "subtext": "client / buyer",
+        "countability": "countable"
+    },
+    {
+        "word": "employee",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👷",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A person who is paid to work for someone else.",
+                "examples": [
+                    "The company has fifty employees.",
+                    "She is a hard-working employee."
+                ]
+            }
+        ],
+        "subtext": "worker",
+        "countability": "countable",
+        "opposite": "employer"
+    },
+    {
+        "word": "employer",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🏢",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A person or organization that pays people to work for them.",
+                "examples": [
+                    "The company is a major employer in the area.",
+                    "He has a good relationship with his employer."
+                ]
+            }
+        ],
+        "subtext": "boss / company",
+        "countability": "countable",
+        "opposite": "employee"
+    },
+    {
+        "word": "management",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "👔",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The people who are in charge of a company or organization.",
+                "examples": [
+                    "The management is planning some changes.",
+                    "She works in senior management."
+                ]
+            }
+        ],
+        "subtext": "leaders / administration",
+        "countability": "uncountable"
+    },
+    {
+        "word": "industry",
+        "level": "elementary",
+        "theme": "career_development_A2",
+        "emoji": "🏭",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The companies and activities involved in the process of producing goods for sale.",
+                "examples": [
+                    "He works in the tourist industry.",
+                    "The car industry is very large."
+                ]
+            }
+        ],
+        "subtext": "business sector",
+        "countability": "uncountable"
+    },
+    {
+        "word": "technology",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "💻",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Knowledge, equipment, and methods that are used in science and industry.",
+                "examples": [
+                    "Modern technology is changing our lives.",
+                    "He is interested in computer technology."
+                ]
+            }
+        ],
+        "subtext": "tech / high-tech",
+        "countability": "uncountable"
+    },
+    {
+        "word": "software",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "💾",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The programs and other operating information used by a computer.",
+                "examples": [
+                    "I need to install new software.",
+                    "They develop educational software."
+                ]
+            }
+        ],
+        "subtext": "computer programs",
+        "countability": "uncountable",
+        "opposite": "hardware"
+    },
+    {
+        "word": "hardware",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "🖱️",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The physical and electronic parts of a computer, rather than the programs it uses.",
+                "examples": [
+                    "Computer hardware includes the monitor and the mouse.",
+                    "We need to upgrade the hardware."
+                ]
+            }
+        ],
+        "subtext": "computer parts",
+        "countability": "uncountable",
+        "opposite": "software"
+    },
+    {
+        "word": "network",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "🌐",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A system of parts that are connected to each other.",
+                "examples": [
+                    "The computer network is down.",
+                    "She has a large professional network."
+                ]
+            }
+        ],
+        "subtext": "web / system",
+        "countability": "countable"
+    },
+    {
+        "word": "privacy",
+        "level": "elementary",
+        "theme": "internet_social_media_A2",
+        "emoji": "🔒",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The state of being alone and not watched or disturbed by other people.",
+                "examples": [
+                    "Online privacy is very important.",
+                    "I need some privacy."
+                ]
+            }
+        ],
+        "subtext": "personal space / secrecy",
+        "countability": "uncountable"
     }
     ];
     const lang = "en";
